@@ -1,0 +1,60 @@
+{
+  "UID": "NF:lmdfs.NetDfsRemoveFtRootForced",
+  "title": "NetDfsRemoveFtRootForced function (lmdfs.h)",
+  "description": "Removes the specified root target from a domain-based Distributed File System (DFS) namespace, even if the root target server is offline.",
+  "helpviewer_keywords": [
+    "NetDfsRemoveFtRootForced",
+    "NetDfsRemoveFtRootForced function [Distributed File System]",
+    "_win32_netdfsremoveftrootforced",
+    "dfs.netdfsremoveftrootforced",
+    "fs.netdfsremoveftrootforced",
+    "lmdfs/NetDfsRemoveFtRootForced",
+    "netmgmt.netdfsremoveftrootforced"
+  ],
+  "old-location": "dfs\\netdfsremoveftrootforced.htm",
+  "tech.root": "Dfs",
+  "ms.assetid": "4eaa0e2a-fa09-4a20-98e1-4c0c4ff5d0ef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NetDfsRemoveFtRootForced, NetDfsRemoveFtRootForced function [Distributed File System], _win32_netdfsremoveftrootforced, dfs.netdfsremoveftrootforced, fs.netdfsremoveftrootforced, lmdfs/NetDfsRemoveFtRootForced, netmgmt.netdfsremoveftrootforced",
+  "req.header": "lmdfs.h",
+  "req.include-header": "LmDfs.h, Lm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NetDfsRemoveFtRootForced",
+    "lmdfs/NetDfsRemoveFtRootForced"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "NetDfsRemoveFtRootForced"
+  ]
+}

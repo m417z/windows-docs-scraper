@@ -1,0 +1,5 @@
+typedef enum FAX_DEVICE_RECEIVE_MODE_ENUM {
+  fdrmNO_ANSWER = 0,
+  fdrmAUTO_ANSWER,
+  fdrmMANUAL_ANSWER
+} ;

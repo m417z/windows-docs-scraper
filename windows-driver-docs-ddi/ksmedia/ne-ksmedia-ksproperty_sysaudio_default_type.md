@@ -1,0 +1,29 @@
+## Description
+
+This topic describes the **KSPROPERTY_SYSAUDIO_DEFAULT_TYPE** enumeration (ksmedia.h).
+
+## Constants
+
+### `KSPROPERTY_SYSAUDIO_NORMAL_DEFAULT`
+
+Defines the **KSPROPERTY_SYSAUDIO_NORMAL_DEFAULT** constant.
+
+### `KSPROPERTY_SYSAUDIO_PLAYBACK_DEFAULT`
+
+Defines the **KSPROPERTY_SYSAUDIO_PLAYBACK_DEFAULT** constant.
+
+### `KSPROPERTY_SYSAUDIO_RECORD_DEFAULT`
+
+Defines the **KSPROPERTY_SYSAUDIO_RECORD_DEFAULT** constant.
+
+### `KSPROPERTY_SYSAUDIO_MIDI_DEFAULT`
+
+Defines the **KSPROPERTY_SYSAUDIO_MIDI_DEFAULT** constant.
+
+### `KSPROPERTY_SYSAUDIO_MIXER_DEFAULT`
+
+Defines the **KSPROPERTY_SYSAUDIO_MIXER_DEFAULT** constant.
+
+## Remarks
+
+## See also

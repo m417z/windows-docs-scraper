@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptCloseAlgorithmProvider",
+  "title": "BCryptCloseAlgorithmProvider function (bcrypt.h)",
+  "description": "Closes an algorithm provider.",
+  "helpviewer_keywords": [
+    "BCryptCloseAlgorithmProvider",
+    "BCryptCloseAlgorithmProvider function [Security]",
+    "bcrypt/BCryptCloseAlgorithmProvider",
+    "security.bcryptclosealgorithmprovider_func"
+  ],
+  "old-location": "security\\bcryptclosealgorithmprovider_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "def90d52-87e0-40e6-9c50-fd77177991d0",
+  "ms.date": "06/16/2025",
+  "ms.keywords": "BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptCloseAlgorithmProvider",
+    "bcrypt/BCryptCloseAlgorithmProvider"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptCloseAlgorithmProvider"
+  ]
+}

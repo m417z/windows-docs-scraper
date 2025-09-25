@@ -1,0 +1,79 @@
+{
+  "UID": "NS:userenv._GROUP_POLICY_OBJECTA",
+  "title": "GROUP_POLICY_OBJECTA (userenv.h)",
+  "description": "The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list. (ANSI)",
+  "helpviewer_keywords": [
+    "*PGROUP_POLICY_OBJECTA",
+    "GPLinkDomain",
+    "GPLinkMachine",
+    "GPLinkOrganizationalUnit",
+    "GPLinkSite",
+    "GPLinkUnknown",
+    "GPO_FLAG_DISABLE",
+    "GPO_FLAG_FORCE",
+    "GROUP_POLICY_OBJECT",
+    "GROUP_POLICY_OBJECT structure [Group Policy]",
+    "GROUP_POLICY_OBJECTA",
+    "GROUP_POLICY_OBJECTW",
+    "PGROUP_POLICY_OBJECT",
+    "PGROUP_POLICY_OBJECT structure pointer [Group Policy]",
+    "_win32_group_policy_object_str",
+    "policy.group_policy_object_str",
+    "userenv/GROUP_POLICY_OBJECT",
+    "userenv/GROUP_POLICY_OBJECTA",
+    "userenv/GROUP_POLICY_OBJECTW",
+    "userenv/PGROUP_POLICY_OBJECT"
+  ],
+  "old-location": "policy\\group_policy_object_str.htm",
+  "tech.root": "Policy",
+  "ms.assetid": "7275a3cd-6b19-4eb9-9481-b73bd5af5753",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PGROUP_POLICY_OBJECTA, GPLinkDomain, GPLinkMachine, GPLinkOrganizationalUnit, GPLinkSite, GPLinkUnknown, GPO_FLAG_DISABLE, GPO_FLAG_FORCE, GROUP_POLICY_OBJECT, GROUP_POLICY_OBJECT structure [Group Policy], GROUP_POLICY_OBJECTA, GROUP_POLICY_OBJECTW, PGROUP_POLICY_OBJECT, PGROUP_POLICY_OBJECT structure pointer [Group Policy], _win32_group_policy_object_str, policy.group_policy_object_str, userenv/GROUP_POLICY_OBJECT, userenv/GROUP_POLICY_OBJECTA, userenv/GROUP_POLICY_OBJECTW, userenv/PGROUP_POLICY_OBJECT",
+  "req.header": "userenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GROUP_POLICY_OBJECTW (Unicode) and GROUP_POLICY_OBJECTA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GROUP_POLICY_OBJECTA, *PGROUP_POLICY_OBJECTA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_GROUP_POLICY_OBJECTA",
+    "userenv/_GROUP_POLICY_OBJECTA",
+    "PGROUP_POLICY_OBJECTA",
+    "userenv/PGROUP_POLICY_OBJECTA",
+    "GROUP_POLICY_OBJECTA",
+    "userenv/GROUP_POLICY_OBJECTA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Userenv.h"
+  ],
+  "api_name": [
+    "GROUP_POLICY_OBJECT",
+    "GROUP_POLICY_OBJECTA",
+    "GROUP_POLICY_OBJECTW"
+  ]
+}

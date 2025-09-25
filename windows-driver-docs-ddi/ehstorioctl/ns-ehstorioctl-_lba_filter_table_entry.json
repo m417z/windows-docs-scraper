@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ehstorioctl._LBA_FILTER_TABLE_ENTRY",
+  "title": "_LBA_FILTER_TABLE_ENTRY (ehstorioctl.h)",
+  "description": "The LBA_FILTER_TABLE_ENTRY structure contains an individual LBA range for the LBA_FILTER_TABLE sent in an IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE request.",
+  "old-location": "storage\\lba_filter_table_entry.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "LBA_FILTER_TABLE_ENTRY structure"
+  ],
+  "ms.keywords": "*PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices], PLBA_FILTER_TABLE_ENTRY, PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], _LBA_FILTER_TABLE_ENTRY, ehstorioctl/LBA_FILTER_TABLE_ENTRY, ehstorioctl/PLBA_FILTER_TABLE_ENTRY, storage.lba_filter_table_entry",
+  "req.header": "ehstorioctl.h",
+  "req.include-header": "EhStorIoctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY",
+  "f1_keywords": [
+    "_LBA_FILTER_TABLE_ENTRY",
+    "ehstorioctl/_LBA_FILTER_TABLE_ENTRY",
+    "PLBA_FILTER_TABLE_ENTRY",
+    "ehstorioctl/PLBA_FILTER_TABLE_ENTRY",
+    "LBA_FILTER_TABLE_ENTRY",
+    "ehstorioctl/LBA_FILTER_TABLE_ENTRY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "EhStorIoctl.h"
+  ],
+  "api_name": [
+    "_LBA_FILTER_TABLE_ENTRY",
+    "PLBA_FILTER_TABLE_ENTRY",
+    "LBA_FILTER_TABLE_ENTRY"
+  ]
+}

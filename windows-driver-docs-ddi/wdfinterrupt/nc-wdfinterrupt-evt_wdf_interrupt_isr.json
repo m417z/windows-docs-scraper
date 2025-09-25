@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfinterrupt.EVT_WDF_INTERRUPT_ISR",
+  "title": "EVT_WDF_INTERRUPT_ISR (wdfinterrupt.h)",
+  "description": "A driver's EvtInterruptIsr event callback function services a hardware interrupt.",
+  "old-location": "wdf\\evtinterruptisr.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_INTERRUPT_ISR callback function"
+  ],
+  "ms.keywords": "DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EVT_WDF_INTERRUPT_ISR callback, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr",
+  "req.header": "wdfinterrupt.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "(See Remarks section.)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_INTERRUPT_ISR",
+    "wdfinterrupt/EVT_WDF_INTERRUPT_ISR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfinterrupt.h"
+  ],
+  "api_name": [
+    "EVT_WDF_INTERRUPT_ISR"
+  ]
+}

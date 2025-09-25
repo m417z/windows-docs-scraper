@@ -1,0 +1,209 @@
+## Description
+
+The **WHEA_EVENT_LOG_ENTRY_ID** enumeration is reserved for system use. Do not use.
+
+## Constants
+
+### `WheaEventLogEntryIdCmcPollingTimeout`
+
+### `WheaEventLogEntryIdWheaInit`
+
+### `WheaEventLogEntryIdCmcSwitchToPolling`
+
+### `WheaEventLogEntryIdDroppedCorrectedError`
+
+### `WheaEventLogEntryIdStartedReportHwError`
+
+### `WheaEventLogEntryIdPFAMemoryOfflined`
+
+### `WheaEventLogEntryIdPFAMemoryRemoveMonitor`
+
+### `WheaEventLogEntryIdPFAMemoryPolicy`
+
+### `WheaEventLogEntryIdPshedInjectError`
+
+### `WheaEventLogEntryIdOscCapabilities`
+
+### `WheaEventLogEntryIdPshedPluginRegister`
+
+### `WheaEventLogEntryIdAddRemoveErrorSource`
+
+### `WheaEventLogEntryIdWorkQueueItem`
+
+### `WheaEventLogEntryIdAttemptErrorRecovery`
+
+### `WheaEventLogEntryIdMcaFoundErrorInBank`
+
+### `WheaEventLogEntryIdMcaStuckErrorCheck`
+
+### `WheaEventLogEntryIdMcaErrorCleared`
+
+### `WheaEventLogEntryIdClearedPoison`
+
+### `WheaEventLogEntryIdProcessEINJ`
+
+### `WheaEventLogEntryIdProcessHEST`
+
+### `WheaEventLogEntryIdCreateGenericRecord`
+
+### `WheaEventLogEntryIdErrorRecord`
+
+### `WheaEventLogEntryIdErrorRecordLimit`
+
+### `WheaEventLogEntryIdAerNotGrantedToOs`
+
+### `WheaEventLogEntryIdErrSrcArrayInvalid`
+
+### `WheaEventLogEntryIdAcpiTimeOut`
+
+### `WheaEventLogCmciRestart`
+
+### `WheaEventLogCmciFinalRestart`
+
+### `WheaEventLogEntryEtwOverFlow`
+
+### `WheaEventLogAzccRootBusSearchErr`
+
+### `WheaEventLogAzccRootBusList`
+
+### `WheaEventLogEntryIdErrSrcInvalid`
+
+### `WheaEventLogEntryIdGenericErrMemMap`
+
+### `WheaEventLogEntryIdPshedCallbackCollision`
+
+### `WheaEventLogEntryIdSELBugCheckProgress`
+
+### `WheaEventLogEntryIdPshedPluginLoad`
+
+### `WheaEventLogEntryIdPshedPluginUnload`
+
+### `WheaEventLogEntryIdPshedPluginSupported`
+
+### `WheaEventLogEntryIdDeviceDriver`
+
+### `WheaEventLogEntryIdCmciImplPresent`
+
+### `WheaEventLogEntryIdCmciInitError`
+
+### `WheaEventLogEntryIdSELBugCheckRecovery`
+
+### `WheaEventLogEntryIdDrvErrSrcInvalid`
+
+### `WheaEventLogEntryIdDrvHandleBusy`
+
+### `WheaEventLogEntryIdWheaHeartbeat`
+
+### `WheaEventLogAzccRootBusPoisonSet`
+
+### `WheaEventLogEntryIdSELBugCheckInfo`
+
+### `WheaEventLogEntryIdErrDimmInfoMismatch`
+
+### `WheaEventLogEntryIdeDpcEnabled`
+
+### `WheaEventLogEntryPageOfflineDone`
+
+### `WheaEventLogEntryPageOfflinePendMax`
+
+### `WheaEventLogEntryIdBadPageLimitReached`
+
+### `WheaEventLogEntrySrarDetail`
+
+### `WheaEventLogEntryEarlyError`
+
+### `WheaEventLogEntryIdPcieOverrideInfo`
+
+### `WheaEventLogEntryIdReadPcieOverridesErr`
+
+### `WheaEventLogEntryIdPcieConfigInfo`
+
+### `WheaEventLogEntryIdPcieSummaryFailed`
+
+### `WheaEventLogEntryIdThrottleRegCorrupt`
+
+### `WheaEventLogEntryIdThrottleAddErrSrcFailed`
+
+### `WheaEventLogEntryIdThrottleRegDataIgnored`
+
+### `WheaEventLogEntryIdEnableKeyNotifFailed`
+
+### `WheaEventLogEntryIdKeyNotificationFailed`
+
+### `WheaEventLogEntryIdPcieRemoveDevice`
+
+### `WheaEventLogEntryIdPcieAddDevice`
+
+### `WheaEventLogEntryIdPcieSpuriousErrSource`
+
+### `WheaEventLogEntryIdMemoryAddDevice`
+
+### `WheaEventLogEntryIdMemoryRemoveDevice`
+
+### `WheaEventLogEntryIdMemorySummaryFailed`
+
+### `WheaEventLogEntryIdPcieDpcError`
+
+### `WheaEventLogEntryIdCpuBusesInitFailed`
+
+### `WheaEventLogEntryIdPshedPluginInitFailed`
+
+### `WheaEventLogEntryIdFailedAddToDefectList`
+
+### `WheaEventLogEntryIdDefectListFull`
+
+### `WheaEventLogEntryIdDefectListUEFIVarFailed`
+
+### `WheaEventLogEntryIdDefectListCorrupt`
+
+### `WheaEventLogEntryIdBadHestNotifyData`
+
+### `WheaEventLogEntryIdRowFailure`
+
+### `WheaEventLogEntryIdSrasTableNotFound`
+
+### `WheaEventLogEntryIdSrasTableError`
+
+### `WheaEventLogEntryIdSrasTableEntries`
+
+### `WheaEventLogEntryIdPFANotifyCallbackAction`
+
+### `WheaEventLogEntryIdSELBugCheckCpusQuiesced`
+
+### `WheaEventLogEntryIdPshedPiCpuid`
+
+### `WheaEventLogEntryIdSrasTableBadData`
+
+### `WheaEventLogEntryIdDriFsStatus`
+
+### `WheaEventLogEntryIdCpusFrozen`
+
+### `WheaEventLogEntryIdCpusFrozenNoCrashDump`
+
+### `WheaEventLogEntryIdRegNotifyPolicyChange`
+
+### `WheaEventLogEntryIdRegError`
+
+### `WheaEventLogEntryIdRowOfflineEvent`
+
+### `WheaEventLogEntryIdBitOfflineEvent`
+
+### `WheaEventLogEntryIdBadGasFields`
+
+### `WheaEventLogEntryIdCrashDumpError`
+
+### `WheaEventLogEntryIdCrashDumpCheckpoint`
+
+### `WheaEventLogEntryIdCrashDumpProgressPercent`
+
+### `WheaEventLogEntryIdPreviousCrashBugCheckProgress`
+
+### `WheaEventLogEntryIdSELBugCheckStackDump`
+
+### `WheaEventLogEntryIdPciePromotedAerErr`
+
+### `WheaEventLogEntryIdPshedPiTraceLog`
+
+## Remarks
+
+## See also

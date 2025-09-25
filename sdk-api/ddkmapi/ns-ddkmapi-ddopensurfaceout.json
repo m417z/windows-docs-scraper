@@ -1,0 +1,66 @@
+{
+  "UID": "NS:ddkmapi._DDOPENSURFACEOUT",
+  "title": "DDOPENSURFACEOUT (ddkmapi.h)",
+  "description": "The DDOPENSURFACEOUT structure contains a new DirectDrawSurface handle, if the ddRVal member of DDOPENSURFACEOUT is set to DD_OK. This new handle must be used on all subsequent calls that require a DirectDrawSurface handle.",
+  "helpviewer_keywords": [
+    "*LPDDOPENSURFACEOUT",
+    "DDOPENSURFACEOUT",
+    "DDOPENSURFACEOUT structure [Display Devices]",
+    "LPDDOPENSURFACEOUT",
+    "LPDDOPENSURFACEOUT structure pointer [Display Devices]",
+    "ddkmapi/DDOPENSURFACEOUT",
+    "ddkmapi/LPDDOPENSURFACEOUT",
+    "ddstrcts_911314a4-692d-4909-9c30-e868a767e031.xml",
+    "display.ddopensurfaceout"
+  ],
+  "old-location": "display\\ddopensurfaceout.htm",
+  "tech.root": "display",
+  "ms.assetid": "0cf0db38-f512-4ca1-a386-5544a1c9433e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPDDOPENSURFACEOUT, DDOPENSURFACEOUT, DDOPENSURFACEOUT structure [Display Devices], LPDDOPENSURFACEOUT, LPDDOPENSURFACEOUT structure pointer [Display Devices], ddkmapi/DDOPENSURFACEOUT, ddkmapi/LPDDOPENSURFACEOUT, ddstrcts_911314a4-692d-4909-9c30-e868a767e031.xml, display.ddopensurfaceout",
+  "req.header": "ddkmapi.h",
+  "req.include-header": "Ddkmapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DDOPENSURFACEOUT, *LPDDOPENSURFACEOUT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DDOPENSURFACEOUT",
+    "ddkmapi/_DDOPENSURFACEOUT",
+    "LPDDOPENSURFACEOUT",
+    "ddkmapi/LPDDOPENSURFACEOUT",
+    "DDOPENSURFACEOUT",
+    "ddkmapi/DDOPENSURFACEOUT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ddkmapi.h"
+  ],
+  "api_name": [
+    "DDOPENSURFACEOUT"
+  ]
+}

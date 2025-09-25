@@ -1,0 +1,5 @@
+typedef enum _VDS_PACK_STATUS {
+  VDS_PS_UNKNOWN = 0,
+  VDS_PS_ONLINE = 1,
+  VDS_PS_OFFLINE = 4
+} VDS_PACK_STATUS;

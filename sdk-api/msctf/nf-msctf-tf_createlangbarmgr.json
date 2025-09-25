@@ -1,0 +1,60 @@
+{
+  "UID": "NF:msctf.TF_CreateLangBarMgr",
+  "title": "TF_CreateLangBarMgr function (msctf.h)",
+  "description": "The TF_CreateLangBarMgr function creates a language bar manager object without having to initialize COM. Usage of this method is not recommended, because the calling process must maintain a proper reference count on an object that is owned by Msctf.dll.",
+  "helpviewer_keywords": [
+    "TF_CreateLangBarMgr",
+    "TF_CreateLangBarMgr function [Text Services Framework]",
+    "msctf/TF_CreateLangBarMgr",
+    "tsf.tf_createlangbarmgr"
+  ],
+  "old-location": "tsf\\tf_createlangbarmgr.htm",
+  "tech.root": "TSF",
+  "ms.assetid": "202c5496-fc64-498e-a6f6-fffacc218990",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TF_CreateLangBarMgr, TF_CreateLangBarMgr function [Text Services Framework], msctf/TF_CreateLangBarMgr, tsf.tf_createlangbarmgr",
+  "req.header": "msctf.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Msctf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "TSF 1.0 on Windows 2000 Professional",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TF_CreateLangBarMgr",
+    "msctf/TF_CreateLangBarMgr"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-tsf-msctf-l1-1-4.dll",
+    "ext-ms-win-tsf-msctf-l1-1-3.dll",
+    "ext-ms-win-tsf-msctf-l1-1-2.dll",
+    "msctf.dll"
+  ],
+  "api_name": [
+    "TF_CreateLangBarMgr"
+  ]
+}

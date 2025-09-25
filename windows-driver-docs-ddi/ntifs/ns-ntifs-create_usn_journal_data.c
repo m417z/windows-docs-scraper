@@ -1,0 +1,4 @@
+typedef struct {
+  ULONGLONG MaximumSize;
+  ULONGLONG AllocationDelta;
+} CREATE_USN_JOURNAL_DATA, *PCREATE_USN_JOURNAL_DATA;

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:dskquota.IEnumDiskQuotaUsers.Skip",
+  "title": "IEnumDiskQuotaUsers::Skip (dskquota.h)",
+  "description": "Skips over the specified number of user quota entries that are next in the enumeration sequence.",
+  "helpviewer_keywords": [
+    "IEnumDiskQuotaUsers interface [Files]",
+    "Skip method",
+    "IEnumDiskQuotaUsers.Skip",
+    "IEnumDiskQuotaUsers::Skip",
+    "Skip",
+    "Skip method [Files]",
+    "Skip method [Files]",
+    "IEnumDiskQuotaUsers interface",
+    "_win32_ienumdiskquotausers_skip",
+    "base.ienumdiskquotausers_skip",
+    "dskquota/IEnumDiskQuotaUsers::Skip",
+    "fs.ienumdiskquotausers_skip"
+  ],
+  "old-location": "fs\\ienumdiskquotausers_skip.htm",
+  "tech.root": "fs",
+  "ms.assetid": "b37462aa-cd1c-4986-ad23-f9523c962d19",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IEnumDiskQuotaUsers interface [Files],Skip method, IEnumDiskQuotaUsers.Skip, IEnumDiskQuotaUsers::Skip, Skip, Skip method [Files], Skip method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_skip, base.ienumdiskquotausers_skip, dskquota/IEnumDiskQuotaUsers::Skip, fs.ienumdiskquotausers_skip",
+  "req.header": "dskquota.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Dskquota.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IEnumDiskQuotaUsers::Skip",
+    "dskquota/IEnumDiskQuotaUsers::Skip"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Dskquota.dll"
+  ],
+  "api_name": [
+    "IEnumDiskQuotaUsers.Skip"
+  ]
+}

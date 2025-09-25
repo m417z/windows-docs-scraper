@@ -1,0 +1,50 @@
+{
+  "UID": "NF:cfgmgr32.CM_Get_Device_ID_List_Size_ExA",
+  "tech.root": "devinst",
+  "title": "CM_Get_Device_ID_List_Size_ExA",
+  "ms.date": "04/12/2021",
+  "targetos": "Windows",
+  "description": "The CM_Get_Device_ID_List_Size_Ex function retrieves the buffer size required to hold a list of device instance IDs for a local or a remote machine's device instances. (ANSI)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "cfgmgr32.h",
+  "req.idl": null,
+  "req.include-header": "Cfgmgr32.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Desktop",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Cfgmgr32.lib",
+    "Cfgmgr32.dll"
+  ],
+  "api_name": [
+    "CM_Get_Device_ID_List_Size_ExA",
+    "CM_Get_Device_ID_List_Size_Ex"
+  ],
+  "f1_keywords": [
+    "CM_Get_Device_ID_List_Size_ExA",
+    "cfgmgr32/CM_Get_Device_ID_List_Size_ExA",
+    "CM_Get_Device_ID_List_Size_Ex",
+    "cfgmgr32/CM_Get_Device_ID_List_Size_Ex"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

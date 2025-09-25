@@ -1,0 +1,60 @@
+{
+  "UID": "NF:winfax.FaxRegisterRoutingExtensionW",
+  "title": "FaxRegisterRoutingExtensionW function (winfax.h)",
+  "description": "The FaxRegisterRoutingExtension function registers a fax routing extension DLL with the fax service. The function configures the fax service registry to use the new routing extension DLL.",
+  "helpviewer_keywords": [
+    "FaxRegisterRoutingExtension",
+    "FaxRegisterRoutingExtension function [Fax Service]",
+    "FaxRegisterRoutingExtensionW",
+    "_mfax_faxregisterroutingextension",
+    "fax._mfax_faxregisterroutingextension",
+    "winfax/FaxRegisterRoutingExtension"
+  ],
+  "old-location": "fax\\_mfax_faxregisterroutingextension.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxlegacy_4q3y.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxRegisterRoutingExtension, FaxRegisterRoutingExtension function [Fax Service], FaxRegisterRoutingExtensionW, _mfax_faxregisterroutingextension, fax._mfax_faxregisterroutingextension, winfax/FaxRegisterRoutingExtension",
+  "req.header": "winfax.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WinFax.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FaxRegisterRoutingExtensionW",
+    "winfax/FaxRegisterRoutingExtensionW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "WinFax.lib",
+    "WinFax.dll"
+  ],
+  "api_name": [
+    "FaxRegisterRoutingExtension"
+  ]
+}

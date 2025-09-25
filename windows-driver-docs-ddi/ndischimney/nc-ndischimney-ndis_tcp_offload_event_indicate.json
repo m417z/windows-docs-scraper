@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndischimney.NDIS_TCP_OFFLOAD_EVENT_INDICATE",
+  "title": "NDIS_TCP_OFFLOAD_EVENT_INDICATE (ndischimney.h)",
+  "description": "An offload target calls the NdisTcpOffloadEventHandler function to indicate an event that pertains to an offloaded TCP connection.",
+  "old-location": "netvista\\ndistcpoffloadeventhandler.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_TCP_OFFLOAD_EVENT_INDICATE callback function"
+  ],
+  "ms.keywords": "NDIS_TCP_OFFLOAD_EVENT_INDICATE, NDIS_TCP_OFFLOAD_EVENT_INDICATE callback, NdisTcpOffloadEventHandler, NdisTcpOffloadEventHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadEventHandler, netvista.ndistcpoffloadeventhandler, tcp_chim_ndis_func_24cca7c4-aa36-4ff3-8896-93bd0b8517af.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_TCP_OFFLOAD_EVENT_INDICATE",
+    "ndischimney/NDIS_TCP_OFFLOAD_EVENT_INDICATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndischimney.h"
+  ],
+  "api_name": [
+    "NDIS_TCP_OFFLOAD_EVENT_INDICATE"
+  ]
+}

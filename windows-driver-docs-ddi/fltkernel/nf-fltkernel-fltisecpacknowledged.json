@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltIsEcpAcknowledged",
+  "title": "FltIsEcpAcknowledged function (fltkernel.h)",
+  "description": "The FltIsEcpAcknowledged routine is used to determine if a given extra create parameter context structure (ECP) has been marked as acknowledged.",
+  "old-location": "ifsk\\fltisecpacknowledged.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltIsEcpAcknowledged function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_a5a70461-2108-4e8f-a01b-0fec773f6010.xml, FltIsEcpAcknowledged, FltIsEcpAcknowledged routine [Installable File System Drivers], fltkernel/FltIsEcpAcknowledged, ifsk.fltisecpacknowledged",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "FltMgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltIsEcpAcknowledged",
+    "fltkernel/FltIsEcpAcknowledged"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltMgr.sys"
+  ],
+  "api_name": [
+    "FltIsEcpAcknowledged"
+  ]
+}

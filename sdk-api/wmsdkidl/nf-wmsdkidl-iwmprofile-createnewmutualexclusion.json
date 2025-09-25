@@ -1,0 +1,82 @@
+{
+  "UID": "NF:wmsdkidl.IWMProfile.CreateNewMutualExclusion",
+  "title": "IWMProfile::CreateNewMutualExclusion (wmsdkidl.h)",
+  "description": "The CreateNewMutualExclusion method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.",
+  "helpviewer_keywords": [
+    "CreateNewMutualExclusion",
+    "CreateNewMutualExclusion method [windows Media Format]",
+    "CreateNewMutualExclusion method [windows Media Format]",
+    "IWMProfile interface",
+    "CreateNewMutualExclusion method [windows Media Format]",
+    "IWMProfile2 interface",
+    "CreateNewMutualExclusion method [windows Media Format]",
+    "IWMProfile3 interface",
+    "IWMProfile interface [windows Media Format]",
+    "CreateNewMutualExclusion method",
+    "IWMProfile.CreateNewMutualExclusion",
+    "IWMProfile2 interface [windows Media Format]",
+    "CreateNewMutualExclusion method",
+    "IWMProfile2::CreateNewMutualExclusion",
+    "IWMProfile3 interface [windows Media Format]",
+    "CreateNewMutualExclusion method",
+    "IWMProfile3::CreateNewMutualExclusion",
+    "IWMProfile::CreateNewMutualExclusion",
+    "IWMProfileCreateNewMutualExclusion",
+    "wmformat.iwmprofile_createnewmutualexclusion",
+    "wmsdkidl/IWMProfile2::CreateNewMutualExclusion",
+    "wmsdkidl/IWMProfile3::CreateNewMutualExclusion",
+    "wmsdkidl/IWMProfile::CreateNewMutualExclusion"
+  ],
+  "old-location": "wmformat\\iwmprofile_createnewmutualexclusion.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "fcf3a549-5ae1-459a-95b9-923570f59a4a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "CreateNewMutualExclusion, CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format],IWMProfile interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile.CreateNewMutualExclusion, IWMProfile2 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProfile::CreateNewMutualExclusion",
+    "wmsdkidl/IWMProfile::CreateNewMutualExclusion"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll",
+    "qasf.dll"
+  ],
+  "api_name": [
+    "IWMProfile.CreateNewMutualExclusion",
+    "IWMProfile2.CreateNewMutualExclusion",
+    "IWMProfile3.CreateNewMutualExclusion"
+  ]
+}

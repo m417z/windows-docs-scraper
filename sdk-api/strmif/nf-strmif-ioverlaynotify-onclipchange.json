@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IOverlayNotify.OnClipChange",
+  "title": "IOverlayNotify::OnClipChange (strmif.h)",
+  "description": "The OnClipChange method provides notification that the window's visible region has changed. It is essential that any overlay hardware be updated to reflect the change to the visible region before returning from this method.",
+  "helpviewer_keywords": [
+    "IOverlayNotify interface [DirectShow]",
+    "OnClipChange method",
+    "IOverlayNotify.OnClipChange",
+    "IOverlayNotify::OnClipChange",
+    "IOverlayNotifyOnClipChange",
+    "OnClipChange",
+    "OnClipChange method [DirectShow]",
+    "OnClipChange method [DirectShow]",
+    "IOverlayNotify interface",
+    "dshow.ioverlaynotify_onclipchange",
+    "strmif/IOverlayNotify::OnClipChange"
+  ],
+  "old-location": "dshow\\ioverlaynotify_onclipchange.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "d5bed27f-2918-4c1f-9340-a0d5714d911b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IOverlayNotify interface [DirectShow],OnClipChange method, IOverlayNotify.OnClipChange, IOverlayNotify::OnClipChange, IOverlayNotifyOnClipChange, OnClipChange, OnClipChange method [DirectShow], OnClipChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onclipchange, strmif/IOverlayNotify::OnClipChange",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOverlayNotify::OnClipChange",
+    "strmif/IOverlayNotify::OnClipChange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IOverlayNotify.OnClipChange"
+  ]
+}

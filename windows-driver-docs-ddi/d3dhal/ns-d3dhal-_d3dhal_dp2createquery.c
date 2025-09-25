@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2CREATEQUERY {
+  DWORD        dwQueryID;
+  D3DQUERYTYPE QueryType;
+} D3DHAL_DP2CREATEQUERY;

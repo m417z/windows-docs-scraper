@@ -1,0 +1,48 @@
+{
+  "UID": "NS:nbl._NET_BUFFER_LIST_HEADER",
+  "title": "NET_BUFFER_LIST_HEADER",
+  "ms.date": "11/30/2020",
+  "targetos": "Windows",
+  "description": "The NET_BUFFER_LIST_HEADER defines header information for the NET_BUFFER_LIST structure.",
+  "tech.root": "netvista",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nbl.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NET_BUFFER_LIST_HEADER, *PNET_BUFFER_LIST_HEADER",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nbl.h"
+  ],
+  "api_name": [
+    "_NET_BUFFER_LIST_HEADER",
+    "PNET_BUFFER_LIST_HEADER",
+    "NET_BUFFER_LIST_HEADER"
+  ],
+  "f1_keywords": [
+    "_NET_BUFFER_LIST_HEADER",
+    "nbl/_NET_BUFFER_LIST_HEADER",
+    "PNET_BUFFER_LIST_HEADER",
+    "nbl/PNET_BUFFER_LIST_HEADER",
+    "NET_BUFFER_LIST_HEADER",
+    "nbl/NET_BUFFER_LIST_HEADER"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

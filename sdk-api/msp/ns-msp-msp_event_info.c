@@ -1,0 +1,45 @@
+typedef struct __MIDL___MIDL_itf_msp_0000_0000_0005 {
+  DWORD      dwSize;
+  MSP_EVENT  Event;
+  MSP_HANDLE hCall;
+  union {
+    struct {
+      MSP_ADDRESS_EVENT Type;
+      ITTerminal        *pTerminal;
+    } MSP_ADDRESS_EVENT_INFO;
+    struct {
+      MSP_CALL_EVENT       Type;
+      MSP_CALL_EVENT_CAUSE Cause;
+      ITStream             *pStream;
+      ITTerminal           *pTerminal;
+      HRESULT              hrError;
+    } MSP_CALL_EVENT_INFO;
+    struct {
+      DWORD dwBufferSize;
+      BYTE  pBuffer[1];
+    } MSP_TSP_DATA;
+    struct {
+      IDispatch *pEvent;
+      long      lEventCode;
+    } MSP_PRIVATE_EVENT_INFO;
+    struct {
+      ITTerminal           *pParentFileTerminal;
+      ITFileTrack          *pFileTrack;
+      TERMINAL_MEDIA_STATE TerminalMediaState;
+      FT_STATE_EVENT_CAUSE ftecEventCause;
+      HRESULT              hrErrorCode;
+    } MSP_FILE_TERMINAL_EVENT_INFO;
+    struct {
+      ITTerminal *pASRTerminal;
+      HRESULT    hrErrorCode;
+    } MSP_ASR_TERMINAL_EVENT_INFO;
+    struct {
+      ITTerminal *pTTSTerminal;
+      HRESULT    hrErrorCode;
+    } MSP_TTS_TERMINAL_EVENT_INFO;
+    struct {
+      ITTerminal *pToneTerminal;
+      HRESULT    hrErrorCode;
+    } MSP_TONE_TERMINAL_EVENT_INFO;
+  };
+} MSP_EVENT_INFO;

@@ -1,0 +1,45 @@
+{
+  "UID": "NE:wdm._IOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+  "tech.root": "kernel",
+  "title": "IOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+  "ms.date": "06/13/2021",
+  "targetos": "Windows",
+  "description": "The IOMMU_MAP_PHYSICAL_ADDRESS_TYPE enum indicates the format of the physical address described in an IOMMU_MAP_PHYSICAL_ADDRESS structure.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+    "PIOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+    "IOMMU_MAP_PHYSICAL_ADDRESS_TYPE"
+  ],
+  "f1_keywords": [
+    "_IOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+    "wdm/_IOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+    "PIOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+    "wdm/PIOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+    "IOMMU_MAP_PHYSICAL_ADDRESS_TYPE",
+    "wdm/IOMMU_MAP_PHYSICAL_ADDRESS_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

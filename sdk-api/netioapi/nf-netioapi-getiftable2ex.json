@@ -1,0 +1,59 @@
+{
+  "UID": "NF:netioapi.GetIfTable2Ex",
+  "title": "GetIfTable2Ex function (netioapi.h)",
+  "description": "Retrieves the MIB-II interface table. (GetIfTable2Ex)",
+  "helpviewer_keywords": [
+    "GetIfTable2Ex",
+    "GetIfTable2Ex function [IP Helper]",
+    "MibIfTableNormal",
+    "MibIfTableRaw",
+    "iphlp.getiftable2ex",
+    "netioapi/GetIfTable2Ex"
+  ],
+  "old-location": "iphlp\\getiftable2ex.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "d8663894-50b1-4ca2-a1f4-6ca0970795a7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetIfTable2Ex, GetIfTable2Ex function [IP Helper], MibIfTableNormal, MibIfTableRaw, iphlp.getiftable2ex, netioapi/GetIfTable2Ex",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetIfTable2Ex",
+    "netioapi/GetIfTable2Ex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "GetIfTable2Ex"
+  ]
+}

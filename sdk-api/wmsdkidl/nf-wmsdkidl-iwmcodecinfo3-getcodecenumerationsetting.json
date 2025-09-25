@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMCodecInfo3.GetCodecEnumerationSetting",
+  "title": "IWMCodecInfo3::GetCodecEnumerationSetting (wmsdkidl.h)",
+  "description": "The GetCodecEnumerationSetting method retrieves the current value for one codec enumeration setting.",
+  "helpviewer_keywords": [
+    "GetCodecEnumerationSetting",
+    "GetCodecEnumerationSetting method [windows Media Format]",
+    "GetCodecEnumerationSetting method [windows Media Format]",
+    "IWMCodecInfo3 interface",
+    "IWMCodecInfo3 interface [windows Media Format]",
+    "GetCodecEnumerationSetting method",
+    "IWMCodecInfo3.GetCodecEnumerationSetting",
+    "IWMCodecInfo3::GetCodecEnumerationSetting",
+    "IWMCodecInfo3GetCodecEnumerationSetting",
+    "wmformat.iwmcodecinfo3_getcodecenumerationsetting",
+    "wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting"
+  ],
+  "old-location": "wmformat\\iwmcodecinfo3_getcodecenumerationsetting.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetCodecEnumerationSetting, GetCodecEnumerationSetting method [windows Media Format], GetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecEnumerationSetting method, IWMCodecInfo3.GetCodecEnumerationSetting, IWMCodecInfo3::GetCodecEnumerationSetting, IWMCodecInfo3GetCodecEnumerationSetting, wmformat.iwmcodecinfo3_getcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMCodecInfo3::GetCodecEnumerationSetting",
+    "wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMCodecInfo3.GetCodecEnumerationSetting"
+  ]
+}

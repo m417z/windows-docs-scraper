@@ -1,0 +1,57 @@
+{
+  "UID": "NF:windns.DnsFreeProxyName",
+  "title": "DnsFreeProxyName function (windns.h)",
+  "description": "Frees memory allocated for the proxyName member of a DNS_PROXY_INFORMATION structure obtained using the DnsGetProxyInformation function.",
+  "helpviewer_keywords": [
+    "DnsFreeProxyName",
+    "DnsFreeProxyName function [DNS]",
+    "dns.dnsfreeproxyname",
+    "windns/DnsFreeProxyName"
+  ],
+  "old-location": "dns\\dnsfreeproxyname.htm",
+  "tech.root": "DNS",
+  "ms.assetid": "4c69d548-3bb5-4609-9fc5-3a829a285956",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DnsFreeProxyName, DnsFreeProxyName function [DNS], dns.dnsfreeproxyname, windns/DnsFreeProxyName",
+  "req.header": "windns.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dnsapi.lib",
+  "req.dll": "Dnsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DnsFreeProxyName",
+    "windns/DnsFreeProxyName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dnsapi.dll"
+  ],
+  "api_name": [
+    "DnsFreeProxyName"
+  ]
+}

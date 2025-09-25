@@ -1,0 +1,7 @@
+typedef struct RILWRITEPHONEBOOKENTRYPARAMS {
+  HUICCAPP                   hUiccApp;
+  RILPHONEENTRYSTORELOCATION dwStoreLocation;
+  BOOL                       fHasLockVerification;
+  RILUICCLOCKCREDENTIAL      lockVerification;
+  RILPHONEBOOKENTRY          pbEntry;
+} RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:shcore.CreateRandomAccessStreamOnFile",
+  "title": "CreateRandomAccessStreamOnFile function (shcore.h)",
+  "description": "Creates a Windows Runtime random access stream for a file.",
+  "helpviewer_keywords": [
+    "CreateRandomAccessStreamOnFile",
+    "CreateRandomAccessStreamOnFile function [Windows Runtime]",
+    "shcore/CreateRandomAccessStreamOnFile",
+    "winrt.createrandomaccessstreamonfile"
+  ],
+  "old-location": "winrt\\createrandomaccessstreamonfile.htm",
+  "tech.root": "WinRT",
+  "ms.assetid": "6D3D2B25-7373-4BA5-BF6B-FB461C2DE982",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile function [Windows Runtime], shcore/CreateRandomAccessStreamOnFile, winrt.createrandomaccessstreamonfile",
+  "req.header": "shcore.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shcore.lib",
+  "req.dll": "Shcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateRandomAccessStreamOnFile",
+    "shcore/CreateRandomAccessStreamOnFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "shcore.dll",
+    "API-MS-Win-ShCore-stream-WinRT-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CreateRandomAccessStreamOnFile"
+  ]
+}

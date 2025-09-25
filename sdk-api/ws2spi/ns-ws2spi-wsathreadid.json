@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ws2spi._WSATHREADID",
+  "title": "WSATHREADID",
+  "description": "The WSATHREADID structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the WPUQueueApc function.",
+  "tech.root": "winsock",
+  "helpviewer_keywords": [
+    "_WSATHREADID",
+    "WSATHREADID"
+  ],
+  "ms.date": "4/26/2019",
+  "ms.keywords": "_WSATHREADID, WSATHREADID",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ws2spi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.target-type": null,
+  "req.typenames": "WSATHREADID, *LPWSATHREADID",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ws2spi.h"
+  ],
+  "api_name": [
+    "_WSATHREADID",
+    "WSATHREADID"
+  ],
+  "f1_keywords": [
+    "_WSATHREADID",
+    "ws2spi/_WSATHREADID",
+    "LPWSATHREADID",
+    "ws2spi/LPWSATHREADID",
+    "WSATHREADID",
+    "ws2spi/WSATHREADID"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct D3D12DDI_VIEW_INSTANCE_LOCATION {
+  UINT ViewportArrayIndex;
+  UINT RenderTargetArrayIndex;
+} D3D12DDI_VIEW_INSTANCE_LOCATION;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:sercx.EVT_SERCX_RECEIVE",
+  "title": "EVT_SERCX_RECEIVE (sercx.h)",
+  "description": "The EvtSerCxReceive event callback function prepares the serial controller device (UART) to do a read (receive) operation.",
+  "old-location": "serports\\evtsercxreceive.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "EVT_SERCX_RECEIVE callback function"
+  ],
+  "ms.keywords": "1/EvtSerCxReceive, EVT_SERCX_RECEIVE, EVT_SERCX_RECEIVE callback, EvtSerCxReceive, EvtSerCxReceive callback function [Serial Ports], serports.evtsercxreceive",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SERCX_RECEIVE",
+    "sercx/EVT_SERCX_RECEIVE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "1.0\\Sercx.h"
+  ],
+  "api_name": [
+    "EVT_SERCX_RECEIVE"
+  ]
+}

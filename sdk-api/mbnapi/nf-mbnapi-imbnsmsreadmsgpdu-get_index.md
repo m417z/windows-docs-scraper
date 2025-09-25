@@ -1,0 +1,16 @@
+# IMbnSmsReadMsgPdu::get_Index
+
+## Description
+
+> [!IMPORTANT]
+> Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](https://learn.microsoft.com/uwp/api/windows.networking.connectivity) namespace.
+
+The index of the message in the device SMS store.
+
+This property is read-only.
+
+## Parameters
+
+## See also
+
+[IMbnSmsReadMsgPdu](https://learn.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu)

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wsman.WSManRunShellCommandEx",
+  "title": "WSManRunShellCommandEx function (wsman.h)",
+  "description": "Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.",
+  "helpviewer_keywords": [
+    "WSManRunShellCommandEx",
+    "WSManRunShellCommandEx function [Windows Remote Management]",
+    "winrm.wsmanrunshellcommandex",
+    "wsman/WSManRunShellCommandEx"
+  ],
+  "old-location": "winrm\\wsmanrunshellcommandex.htm",
+  "tech.root": "winrm",
+  "ms.assetid": "3FEAB627-C38F-4709-BA17-0AFF76015A97",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Remote Management], winrm.wsmanrunshellcommandex, wsman/WSManRunShellCommandEx",
+  "req.header": "wsman.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WsmSvc.lib",
+  "req.dll": "WsmSvc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSManRunShellCommandEx",
+    "wsman/WSManRunShellCommandEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WsmSvc.dll"
+  ],
+  "api_name": [
+    "WSManRunShellCommandEx"
+  ]
+}

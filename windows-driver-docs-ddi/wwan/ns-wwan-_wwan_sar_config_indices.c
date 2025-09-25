@@ -1,0 +1,4 @@
+typedef struct _WWAN_SAR_CONFIG_INDICES {
+  ULONG SarAntennaIndex;
+  ULONG SarBackoffIndex;
+} WWAN_SAR_CONFIG_INDICES, *PWWAN_SAR_CONFIG_INDICES;

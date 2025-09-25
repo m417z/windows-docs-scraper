@@ -1,0 +1,3 @@
+HRESULT SetHorizontalAlignment(
+  [in] DIRECTMANIPULATION_HORIZONTALALIGNMENT alignment
+);

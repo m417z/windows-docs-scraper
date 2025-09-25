@@ -1,0 +1,3 @@
+ULONG AcxElementGetId(
+  ACXELEMENT Element
+);

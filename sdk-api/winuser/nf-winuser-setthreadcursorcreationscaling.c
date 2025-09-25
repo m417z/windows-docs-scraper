@@ -1,0 +1,3 @@
+UINT SetThreadCursorCreationScaling(
+  UINT cursorDpi
+);

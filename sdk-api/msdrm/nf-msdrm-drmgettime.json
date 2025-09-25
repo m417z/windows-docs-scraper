@@ -1,0 +1,58 @@
+{
+  "UID": "NF:msdrm.DRMGetTime",
+  "title": "DRMGetTime function (msdrm.h)",
+  "description": "Requests a secure time from the rights management system.",
+  "helpviewer_keywords": [
+    "DRMGetTime",
+    "DRMGetTime function [Active Directory Rights Management Services SDK 1.0]",
+    "msdrm/DRMGetTime",
+    "rm.drmgettime"
+  ],
+  "old-location": "rm\\drmgettime.htm",
+  "tech.root": "rm",
+  "ms.assetid": "124507af-ccb4-4552-9421-bbbf1b556930",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DRMGetTime, DRMGetTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetTime, rm.drmgettime",
+  "req.header": "msdrm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdrm.lib",
+  "req.dll": "Msdrm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Rights Management Services client 1.0 SP2  or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DRMGetTime",
+    "msdrm/DRMGetTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdrm.dll"
+  ],
+  "api_name": [
+    "DRMGetTime"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum _ACX_DATAFORMAT_LIST_CONFIG_FLAGS {
+  AcxDataFormatListConfigNoFlags,
+  AcxDataFormatListConfigValidFlags
+} ACX_DATAFORMAT_LIST_CONFIG_FLAGS;

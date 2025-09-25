@@ -1,0 +1,54 @@
+{
+  "UID": "NS:fltkernel._FLT_RELATED_CONTEXTS_EX",
+  "title": "_FLT_RELATED_CONTEXTS_EX (fltkernel.h)",
+  "description": "The FLT_RELATED_CONTEXTS_EX structure contains a minifilter driver's contexts for the objects associated with an I/O operation.",
+  "old-location": "ifsk\\flt_related_contexts_ex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FLT_RELATED_CONTEXTS_EX structure"
+  ],
+  "ms.keywords": "*PFLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX structure [Installable File System Drivers], PFLT_RELATED_CONTEXTS_EX, PFLT_RELATED_CONTEXTS_EX structure pointer [Installable File System Drivers], _FLT_RELATED_CONTEXTS_EX, fltkernel/FLT_RELATED_CONTEXTS_EX, fltkernel/PFLT_RELATED_CONTEXTS_EX, ifsk.flt_related_contexts_ex",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FLT_RELATED_CONTEXTS_EX, *PFLT_RELATED_CONTEXTS_EX",
+  "f1_keywords": [
+    "_FLT_RELATED_CONTEXTS_EX",
+    "fltkernel/_FLT_RELATED_CONTEXTS_EX",
+    "PFLT_RELATED_CONTEXTS_EX",
+    "fltkernel/PFLT_RELATED_CONTEXTS_EX",
+    "FLT_RELATED_CONTEXTS_EX",
+    "fltkernel/FLT_RELATED_CONTEXTS_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "_FLT_RELATED_CONTEXTS_EX",
+    "PFLT_RELATED_CONTEXTS_EX",
+    "FLT_RELATED_CONTEXTS_EX"
+  ]
+}

@@ -1,0 +1,4 @@
+NDIS_STATUS MINIPORT_SYNCHRONOUS_OID_REQUEST(
+  [in] NDIS_HANDLE      MiniportAdapterContext,
+  [in] NDIS_OID_REQUEST *OidRequest
+);

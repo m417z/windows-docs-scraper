@@ -1,0 +1,4 @@
+typedef struct _DOT11_MAC_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              uOpmodeMask;
+} DOT11_MAC_PARAMETERS, *PDOT11_MAC_PARAMETERS;

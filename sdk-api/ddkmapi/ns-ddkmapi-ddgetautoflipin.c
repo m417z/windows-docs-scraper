@@ -1,0 +1,4 @@
+typedef struct _DDGETAUTOFLIPIN {
+  HANDLE hDirectDraw;
+  HANDLE hVideoPort;
+} DDGETAUTOFLIPIN, *LPDDGETAUTOFLIPIN;

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.PcRegisterPhysicalConnectionFromExternal",
+  "title": "PcRegisterPhysicalConnectionFromExternal function (portcls.h)",
+  "description": "The PcRegisterPhysicalConnectionFromExternal function registers a physical connection to an audio adapter filter from an external audio adapter filter.",
+  "old-location": "audio\\pcregisterphysicalconnectionfromexternal.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PcRegisterPhysicalConnectionFromExternal function"
+  ],
+  "ms.keywords": "PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, portcls/PcRegisterPhysicalConnectionFromExternal",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The PortCls system driver implements the PcRegisterPhysicalConnectionFromExternal function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcRegisterPhysicalConnectionFromExternal",
+    "portcls/PcRegisterPhysicalConnectionFromExternal"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "PcRegisterPhysicalConnectionFromExternal"
+  ]
+}

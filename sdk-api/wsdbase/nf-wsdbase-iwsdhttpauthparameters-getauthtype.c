@@ -1,0 +1,3 @@
+HRESULT GetAuthType(
+  PWSD_SECURITY_HTTP_AUTH_SCHEMES pAuthType
+);

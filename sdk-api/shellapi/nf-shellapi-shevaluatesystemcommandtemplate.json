@@ -1,0 +1,64 @@
+{
+  "UID": "NF:shellapi.SHEvaluateSystemCommandTemplate",
+  "title": "SHEvaluateSystemCommandTemplate function (shellapi.h)",
+  "description": "Enforces strict validation of parameters used in a call to CreateProcess or ShellExecute.",
+  "helpviewer_keywords": [
+    "SHEvaluateSystemCommandTemplate",
+    "SHEvaluateSystemCommandTemplate function [Windows Shell]",
+    "_shell_SHEvaluateSystemCommandTemplate",
+    "shell.SHEvaluateSystemCommandTemplate",
+    "shellapi/SHEvaluateSystemCommandTemplate"
+  ],
+  "old-location": "shell\\SHEvaluateSystemCommandTemplate.htm",
+  "tech.root": "shell",
+  "ms.assetid": "554b941d-7d03-47ae-a23a-2c47c5ca1044",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHEvaluateSystemCommandTemplate, SHEvaluateSystemCommandTemplate function [Windows Shell], _shell_SHEvaluateSystemCommandTemplate, shell.SHEvaluateSystemCommandTemplate, shellapi/SHEvaluateSystemCommandTemplate",
+  "req.header": "shellapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHEvaluateSystemCommandTemplate",
+    "shellapi/SHEvaluateSystemCommandTemplate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-5-0.dll",
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "Shell32.dll",
+    "Ext-MS-Win-Shell-Shell32-L1-2-2.dll"
+  ],
+  "api_name": [
+    "SHEvaluateSystemCommandTemplate"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)"
+}

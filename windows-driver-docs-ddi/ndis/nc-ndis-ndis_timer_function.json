@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.NDIS_TIMER_FUNCTION",
+  "title": "NDIS_TIMER_FUNCTION (ndis.h)",
+  "description": "The NdisTimerFunction function is called by NDIS after a driver sets a one-shot or periodic timer when a timer fires.Note  You must declare the function by using the NDIS_TIMER_FUNCTION type.",
+  "old-location": "netvista\\nettimercallback.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_TIMER_FUNCTION callback function"
+  ],
+  "ms.keywords": "NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NdisTimerFunction, NdisTimerFunction callback function [Network Drivers Starting with Windows Vista], ndis/NdisTimerFunction, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_TIMER_FUNCTION",
+    "ndis/NDIS_TIMER_FUNCTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "NDIS_TIMER_FUNCTION"
+  ]
+}

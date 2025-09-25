@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winsock.closesocket",
+  "title": "closesocket function (winsock.h)",
+  "description": "The closesocket function (winsock.h) closes an existing socket.",
+  "helpviewer_keywords": [
+    "_win32_closesocket_2",
+    "closesocket",
+    "closesocket function [Winsock]",
+    "winsock.closesocket_2",
+    "winsock/closesocket"
+  ],
+  "old-location": "winsock\\closesocket_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "2f357aa8-389b-4c92-8a9f-289e048cc41c",
+  "ms.date": "08/15/2022",
+  "ms.keywords": "_win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket",
+  "req.header": "winsock.h",
+  "req.include-header": "Winsock2.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "closesocket",
+    "winsock/closesocket"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "closesocket"
+  ]
+}

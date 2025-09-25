@@ -1,0 +1,3 @@
+void WdfDeviceResumeIdle(
+  [in] Device
+);

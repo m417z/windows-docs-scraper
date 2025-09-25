@@ -1,0 +1,4 @@
+VIDEOPORT_DEPRECATED VIDEOPORT_API VOID VideoPortWritePortUshort(
+  PUSHORT Port,
+  USHORT  Value
+);

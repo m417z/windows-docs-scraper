@@ -1,0 +1,14 @@
+typedef enum tagUpdateAssessmentStatus {
+  UpdateAssessmentStatus_Latest = 0,
+  UpdateAssessmentStatus_NotLatestSoftRestriction,
+  UpdateAssessmentStatus_NotLatestHardRestriction,
+  UpdateAssessmentStatus_NotLatestEndOfSupport,
+  UpdateAssessmentStatus_NotLatestServicingTrain,
+  UpdateAssessmentStatus_NotLatestDeferredFeature,
+  UpdateAssessmentStatus_NotLatestDeferredQuality,
+  UpdateAssessmentStatus_NotLatestPausedFeature,
+  UpdateAssessmentStatus_NotLatestPausedQuality,
+  UpdateAssessmentStatus_NotLatestManaged,
+  UpdateAssessmentStatus_NotLatestUnknown,
+  UpdateAssessmentStatus_NotLatestTargetedVersion
+} UpdateAssessmentStatus;

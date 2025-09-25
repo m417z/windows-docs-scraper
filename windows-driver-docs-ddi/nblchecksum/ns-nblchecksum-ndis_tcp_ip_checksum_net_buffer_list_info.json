@@ -1,0 +1,48 @@
+{
+  "UID": "NS:nblchecksum._NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+  "title": "NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+  "ms.date": "11/30/2020",
+  "targetos": "Windows",
+  "description": "The NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure specifies information used in offloading checksum tasks from the TCP/IP transport to a NIC.",
+  "tech.root": "netvista",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nblchecksum.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, *PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nblchecksum.h"
+  ],
+  "api_name": [
+    "_NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+    "PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+    "NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO"
+  ],
+  "f1_keywords": [
+    "_NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+    "nblchecksum/_NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+    "PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+    "nblchecksum/PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+    "NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO",
+    "nblchecksum/NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

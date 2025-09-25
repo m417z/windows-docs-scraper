@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winternl.NtNotifyChangeMultipleKeys",
+  "title": "NtNotifyChangeMultipleKeys function (winternl.h)",
+  "description": "Requests notification when a registry key or any of its subkeys changes.",
+  "helpviewer_keywords": [
+    "NtNotifyChangeMultipleKeys",
+    "NtNotifyChangeMultipleKeys function [Windows API]",
+    "REG_NOTIFY_CHANGE_ATTRIBUTES",
+    "REG_NOTIFY_CHANGE_LAST_SET",
+    "REG_NOTIFY_CHANGE_NAME",
+    "REG_NOTIFY_CHANGE_SECURITY",
+    "base.ntnotifychangemultiplekeys",
+    "winprog.ntnotifychangemultiplekeys",
+    "winternl/NtNotifyChangeMultipleKeys"
+  ],
+  "old-location": "winprog\\ntnotifychangemultiplekeys.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "c1ee9793-490c-45de-a2a5-deab630917f6",
+  "ms.date": "04/30/2025",
+  "ms.keywords": "NtNotifyChangeMultipleKeys, NtNotifyChangeMultipleKeys function [Windows API], REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, base.ntnotifychangemultiplekeys, winprog.ntnotifychangemultiplekeys, winternl/NtNotifyChangeMultipleKeys",
+  "req.header": "winternl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ntdll.lib",
+  "req.dll": "ntdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NtNotifyChangeMultipleKeys",
+    "winternl/NtNotifyChangeMultipleKeys"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntdll.dll"
+  ],
+  "api_name": [
+    "NtNotifyChangeMultipleKeys"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.IoSetCancelRoutine",
+  "title": "IoSetCancelRoutine function (wdm.h)",
+  "description": "The IoSetCancelRoutine routine sets up a driver-supplied Cancel routine to be called if a given IRP is canceled.",
+  "tech.root": "kernel",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "IoSetCancelRoutine function"
+  ],
+  "ms.keywords": "IoSetCancelRoutine, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, kernel.iosetcancelroutine, wdm/IoSetCancelRoutine",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrpCancelField, StartIoCancel",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoSetCancelRoutine",
+    "wdm/IoSetCancelRoutine"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoSetCancelRoutine"
+  ]
+}

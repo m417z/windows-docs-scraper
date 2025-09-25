@@ -1,0 +1,4 @@
+VOID CUSTOM_SYSTEM_EVENT_TRIGGER_INIT(
+  PCUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG Config,
+  PCWSTR                              TriggerId
+);

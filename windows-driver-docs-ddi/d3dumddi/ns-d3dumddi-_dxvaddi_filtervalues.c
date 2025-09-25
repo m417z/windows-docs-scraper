@@ -1,0 +1,5 @@
+typedef struct _DXVADDI_FILTERVALUES {
+  [in] DXVADDI_FIXED32 Level;
+  [in] DXVADDI_FIXED32 Threshold;
+  [in] DXVADDI_FIXED32 Radius;
+} DXVADDI_FILTERVALUES;

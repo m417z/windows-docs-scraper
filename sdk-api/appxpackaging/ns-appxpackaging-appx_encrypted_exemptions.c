@@ -1,0 +1,4 @@
+typedef struct APPX_ENCRYPTED_EXEMPTIONS {
+  UINT32  count;
+  LPCWSTR *plainTextFiles;
+} APPX_ENCRYPTED_EXEMPTIONS;

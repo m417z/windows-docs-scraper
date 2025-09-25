@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._DOMAIN_CONFIGURATION_X64",
+  "tech.root": "kernel",
+  "title": "DOMAIN_CONFIGURATION_X64",
+  "ms.date": "07/13/2022",
+  "targetos": "Windows",
+  "description": "The DOMAIN_CONFIGURATION_X64 structure is reserved for system use only.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "DOMAIN_CONFIGURATION_X64, *PDOMAIN_CONFIGURATION_X64",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DOMAIN_CONFIGURATION_X64",
+    "PDOMAIN_CONFIGURATION_X64",
+    "DOMAIN_CONFIGURATION_X64"
+  ],
+  "f1_keywords": [
+    "_DOMAIN_CONFIGURATION_X64",
+    "wdm/_DOMAIN_CONFIGURATION_X64",
+    "PDOMAIN_CONFIGURATION_X64",
+    "wdm/PDOMAIN_CONFIGURATION_X64",
+    "DOMAIN_CONFIGURATION_X64",
+    "wdm/DOMAIN_CONFIGURATION_X64"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

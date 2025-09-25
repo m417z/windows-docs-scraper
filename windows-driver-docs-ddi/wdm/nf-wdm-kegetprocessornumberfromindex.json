@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.KeGetProcessorNumberFromIndex",
+  "title": "KeGetProcessorNumberFromIndex function (wdm.h)",
+  "description": "The KeGetProcessorNumberFromIndex routine in wdm.h converts a systemwide processor index to a group number and a group-relative processor number.",
+  "tech.root": "kernel",
+  "ms.date": "01/10/2023",
+  "keywords": [
+    "KeGetProcessorNumberFromIndex function"
+  ],
+  "ms.keywords": "KeGetProcessorNumberFromIndex, KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml, kernel.kegetprocessornumberfromindex, wdm/KeGetProcessorNumberFromIndex",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntddk.h, Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeGetProcessorNumberFromIndex",
+    "wdm/KeGetProcessorNumberFromIndex"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeGetProcessorNumberFromIndex"
+  ]
+}

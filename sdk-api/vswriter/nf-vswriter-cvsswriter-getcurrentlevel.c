@@ -1,0 +1,1 @@
+VSS_APPLICATION_LEVEL GetCurrentLevel();

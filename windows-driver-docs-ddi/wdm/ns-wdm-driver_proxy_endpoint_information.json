@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._DRIVER_PROXY_ENDPOINT_INFORMATION",
+  "tech.root": "kernel",
+  "title": "DRIVER_PROXY_ENDPOINT_INFORMATION",
+  "ms.date": "09/11/2025",
+  "targetos": "Windows",
+  "description": "Contains information about a DriverProxy endpoint function for registration with the hot-swap system.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.typenames": "DRIVER_PROXY_ENDPOINT_INFORMATION, *PDRIVER_PROXY_ENDPOINT_INFORMATION",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "PDRIVER_PROXY_ENDPOINT_INFORMATION",
+    "DRIVER_PROXY_ENDPOINT_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "wdm/_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "PDRIVER_PROXY_ENDPOINT_INFORMATION",
+    "wdm/PDRIVER_PROXY_ENDPOINT_INFORMATION",
+    "DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "wdm/DRIVER_PROXY_ENDPOINT_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_DRIVER_PROXY_ENDPOINT_INFORMATION"
+  ],
+  "ai-usage": "ai-generated"
+}

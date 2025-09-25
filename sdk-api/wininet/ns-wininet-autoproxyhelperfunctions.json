@@ -1,0 +1,57 @@
+{
+  "UID": "NS:wininet.AutoProxyHelperFunctions",
+  "title": "AutoProxyHelperFunctions (wininet.h)",
+  "description": "The AutoProxyHelperFunctions structure is used create a v-table of Proxy Auto-Config functions that can be passed to InternetInitializeAutoProxyDll.",
+  "helpviewer_keywords": [
+    "AutoProxyHelperFunctions",
+    "AutoProxyHelperFunctions structure [WinINet]",
+    "wininet.autoproxyhelperfunctions",
+    "wininet/AutoProxyHelperFunctions"
+  ],
+  "old-location": "wininet\\autoproxyhelperfunctions.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "00574c2a-d72f-4744-82b7-3a980af59427",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AutoProxyHelperFunctions, AutoProxyHelperFunctions structure [WinINet], wininet.autoproxyhelperfunctions, wininet/AutoProxyHelperFunctions",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "AutoProxyHelperFunctions",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AutoProxyHelperFunctions",
+    "wininet/AutoProxyHelperFunctions"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wininet.h"
+  ],
+  "api_name": [
+    "AutoProxyHelperFunctions"
+  ]
+}

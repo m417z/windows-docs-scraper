@@ -1,0 +1,3 @@
+void GetRequiredProperties(
+  CHStringArray & saProperties
+);

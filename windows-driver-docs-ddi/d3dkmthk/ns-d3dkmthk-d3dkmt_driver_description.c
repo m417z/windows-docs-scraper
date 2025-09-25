@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_DRIVER_DESCRIPTION {
+        WCHAR DriverDescription[4096];
+} D3DKMT_DRIVER_DESCRIPTION;

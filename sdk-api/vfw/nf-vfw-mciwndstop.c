@@ -1,0 +1,3 @@
+LONG MCIWndStop(
+     hwnd
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.PsRemoveLoadImageNotifyRoutine",
+  "title": "PsRemoveLoadImageNotifyRoutine function (ntddk.h)",
+  "description": "The PsRemoveLoadImageNotifyRoutine routine removes a callback routine that was registered by the PsSetLoadImageNotifyRoutine routine.",
+  "old-location": "kernel\\psremoveloadimagenotifyroutine.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PsRemoveLoadImageNotifyRoutine function"
+  ],
+  "ms.keywords": "PsRemoveLoadImageNotifyRoutine, PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, kernel.psremoveloadimagenotifyroutine, ntddk/PsRemoveLoadImageNotifyRoutine",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<=APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PsRemoveLoadImageNotifyRoutine",
+    "ntddk/PsRemoveLoadImageNotifyRoutine"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "PsRemoveLoadImageNotifyRoutine"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NE:hdaudio._HDAUDIO_CODEC_POWER_STATE",
+  "title": "_HDAUDIO_CODEC_POWER_STATE (hdaudio.h)",
+  "description": "The HDAUDIO_CODEC_POWER_STATE enumeration defines constants that specify the different power states that HD Audio codecs can support. All states are from DEVICE_POWER_STATE except PowerCodecD3Cold.",
+  "old-location": "audio\\hdaudio_codec_power_state.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "HDAUDIO_CODEC_POWER_STATE enumeration"
+  ],
+  "ms.keywords": "*PHDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], PHDAUDIO_CODEC_POWER_STATE, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], PowerCodecD0, PowerCodecD1, PowerCodecD2, PowerCodecD3, PowerCodecD3Cold, PowerCodecMaximum, PowerCodecUnspecified, _HDAUDIO_CODEC_POWER_STATE, audio.hdaudio_codec_power_state, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PHDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD0, hdaudio/PowerCodecD1, hdaudio/PowerCodecD2, hdaudio/PowerCodecD3, hdaudio/PowerCodecD3Cold, hdaudio/PowerCodecMaximum, hdaudio/PowerCodecUnspecified",
+  "req.header": "hdaudio.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "HDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE",
+  "f1_keywords": [
+    "_HDAUDIO_CODEC_POWER_STATE",
+    "hdaudio/_HDAUDIO_CODEC_POWER_STATE",
+    "PHDAUDIO_CODEC_POWER_STATE",
+    "hdaudio/PHDAUDIO_CODEC_POWER_STATE",
+    "HDAUDIO_CODEC_POWER_STATE",
+    "hdaudio/HDAUDIO_CODEC_POWER_STATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Hdaudio.h"
+  ],
+  "api_name": [
+    "_HDAUDIO_CODEC_POWER_STATE",
+    "PHDAUDIO_CODEC_POWER_STATE",
+    "HDAUDIO_CODEC_POWER_STATE"
+  ]
+}

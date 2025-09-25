@@ -1,0 +1,5 @@
+typedef enum _MC_GAIN_TYPE {
+  MC_RED_GAIN,
+  MC_GREEN_GAIN,
+  MC_BLUE_GAIN
+} MC_GAIN_TYPE;

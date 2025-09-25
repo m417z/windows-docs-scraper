@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntddk._TXN_PARAMETER_BLOCK",
+  "title": "TXN_PARAMETER_BLOCK (ntddk.h)",
+  "description": "The TXN_PARAMETER_BLOCK structure contains information about a transacted file operation.",
+  "tech.root": "ifsk",
+  "ms.date": "12/08/2022",
+  "keywords": [
+    "TXN_PARAMETER_BLOCK structure"
+  ],
+  "ms.keywords": "*PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers], TXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], _TXN_PARAMETER_BLOCK, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, ifsk.txn_parameter_block, ntddk/PTXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h, FltKernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TXN_PARAMETER_BLOCK, *PTXN_PARAMETER_BLOCK",
+  "f1_keywords": [
+    "_TXN_PARAMETER_BLOCK",
+    "ntddk/_TXN_PARAMETER_BLOCK",
+    "PTXN_PARAMETER_BLOCK",
+    "ntddk/PTXN_PARAMETER_BLOCK",
+    "TXN_PARAMETER_BLOCK",
+    "ntddk/TXN_PARAMETER_BLOCK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "_TXN_PARAMETER_BLOCK",
+    "PTXN_PARAMETER_BLOCK",
+    "TXN_PARAMETER_BLOCK"
+  ]
+}

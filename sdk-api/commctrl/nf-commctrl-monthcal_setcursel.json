@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.MonthCal_SetCurSel",
+  "title": "MonthCal_SetCurSel macro (commctrl.h)",
+  "description": "Sets the currently selected date for a month calendar control. If the specified date is not in view, the control updates the display to bring it into view. You can use this macro or send the MCM_SETCURSEL message explicitly.",
+  "helpviewer_keywords": [
+    "MonthCal_SetCurSel",
+    "MonthCal_SetCurSel macro [Windows Controls]",
+    "_win32_MonthCal_SetCurSel",
+    "_win32_MonthCal_SetCurSel_cpp",
+    "commctrl/MonthCal_SetCurSel",
+    "controls.MonthCal_SetCurSel",
+    "controls._win32_MonthCal_SetCurSel"
+  ],
+  "old-location": "controls\\MonthCal_SetCurSel.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\monthcal\\macros\\monthcal_setcursel.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "MonthCal_SetCurSel, MonthCal_SetCurSel macro [Windows Controls], _win32_MonthCal_SetCurSel, _win32_MonthCal_SetCurSel_cpp, commctrl/MonthCal_SetCurSel, controls.MonthCal_SetCurSel, controls._win32_MonthCal_SetCurSel",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MonthCal_SetCurSel",
+    "commctrl/MonthCal_SetCurSel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "MonthCal_SetCurSel"
+  ]
+}

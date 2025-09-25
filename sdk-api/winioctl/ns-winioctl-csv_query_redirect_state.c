@@ -1,0 +1,5 @@
+typedef struct _CSV_QUERY_REDIRECT_STATE {
+  DWORD   MdsNodeId;
+  DWORD   DsNodeId;
+  BOOLEAN FileRedirected;
+} CSV_QUERY_REDIRECT_STATE, *PCSV_QUERY_REDIRECT_STATE;

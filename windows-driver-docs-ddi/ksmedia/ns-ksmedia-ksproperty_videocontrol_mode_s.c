@@ -1,0 +1,5 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      StreamIndex;
+  LONG       Mode;
+} KSPROPERTY_VIDEOCONTROL_MODE_S, *PKSPROPERTY_VIDEOCONTROL_MODE_S;

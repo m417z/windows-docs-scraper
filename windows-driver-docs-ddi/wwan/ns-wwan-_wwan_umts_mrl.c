@@ -1,0 +1,4 @@
+typedef struct _WWAN_UMTS_MRL {
+  ULONG ElementCount;
+  BYTE  UMTSMrl[ANYSIZE_ARRAY];
+} WWAN_UMTS_MRL, *PWWAN_UMTS_MRL;

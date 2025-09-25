@@ -1,0 +1,47 @@
+{
+  "UID": "NF:nblaccessors.NET_BUFFER_LIST_NEXT_NBL",
+  "title": "NET_BUFFER_LIST_NEXT_NBL",
+  "ms.date": "11/30/2020",
+  "targetos": "Windows",
+  "description": "NET_BUFFER_LIST_NEXT_NBL is a macro that NDIS drivers use to get the next NET_BUFFER_LIST structure in a linked list of NET_BUFFER_LIST structures.",
+  "tech.root": "netvista",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nblaccessors.h",
+  "req.idl": null,
+  "req.include-header": "ndis.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "returns-override": true,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nblaccessors.h"
+  ],
+  "api_name": [
+    "NET_BUFFER_LIST_NEXT_NBL"
+  ],
+  "f1_keywords": [
+    "NET_BUFFER_LIST_NEXT_NBL",
+    "nblaccessors/NET_BUFFER_LIST_NEXT_NBL"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

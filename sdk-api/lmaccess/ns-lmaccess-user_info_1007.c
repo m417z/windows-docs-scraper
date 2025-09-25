@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1007 {
+  LPWSTR usri1007_comment;
+} USER_INFO_1007, *PUSER_INFO_1007, *LPUSER_INFO_1007;

@@ -1,0 +1,6 @@
+typedef struct D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOLUTION_SUPPORT_LIMITS {
+  UINT MaxSubregionsNumber;
+  UINT MaxIntraRefreshFrameDuration;
+  UINT SubregionBlockPixelsSize;
+  UINT QPMapRegionPixelsSize;
+} D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOLUTION_SUPPORT_LIMITS;

@@ -1,0 +1,7 @@
+typedef struct tagCOLORCORRECTPALETTE {
+  EMR   emr;
+  DWORD ihPalette;
+  DWORD nFirstEntry;
+  DWORD nPalEntries;
+  DWORD nReserved;
+} EMRCOLORCORRECTPALETTE, *PEMRCOLORCORRECTPALETTE;

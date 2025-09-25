@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_MPO3DDI_SUPPORT {
+  BOOL Supported;
+} D3DKMT_MPO3DDI_SUPPORT;

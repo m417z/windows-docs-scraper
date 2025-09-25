@@ -1,0 +1,7 @@
+typedef struct D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS {
+  UINT PastFrames;
+  UINT FutureFrames;
+  UINT ConversionCaps;
+  UINT ITelecineCaps;
+  UINT CustomRateCount;
+} D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS;

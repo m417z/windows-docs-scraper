@@ -1,0 +1,46 @@
+{
+  "UID": "NF:netadapter.NetAdapterWakeSetEapolPacketCapabilities",
+  "tech.root": "netvista",
+  "title": "NetAdapterWakeSetEapolPacketCapabilities",
+  "ms.date": "04/15/2021",
+  "targetos": "Windows",
+  "description": "NetAdapterWakeSetEapolPacketCapabilities sets a network adapter's EAPOL packet WoL capabilities.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "netadapter.h",
+  "req.idl": null,
+  "req.include-header": "netadaptercx.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": 2.33,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netadapter.h"
+  ],
+  "api_name": [
+    "NetAdapterWakeSetEapolPacketCapabilities"
+  ],
+  "f1_keywords": [
+    "NetAdapterWakeSetEapolPacketCapabilities",
+    "netadapter/NetAdapterWakeSetEapolPacketCapabilities"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

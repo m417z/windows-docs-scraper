@@ -1,0 +1,5 @@
+typedef struct _KERB_ADD_CREDENTIALS_REQUEST_EX {
+  KERB_ADD_CREDENTIALS_REQUEST Credentials;
+  ULONG                        PrincipalNameCount;
+  UNICODE_STRING               PrincipalNames[ANYSIZE_ARRAY];
+} KERB_ADD_CREDENTIALS_REQUEST_EX, *PKERB_ADD_CREDENTIALS_REQUEST_EX;

@@ -1,0 +1,8 @@
+PFND3D12DDI_BARRIER_0094 Pfnd3d12ddiBarrier0094;
+
+VOID Pfnd3d12ddiBarrier0094(
+  D3D12DDI_HCOMMANDLIST hDrvCommandList,
+  UINT32 NumBarriers,
+  const D3D12DDIARG_BARRIER_0094 *pBarriers
+)
+{...}

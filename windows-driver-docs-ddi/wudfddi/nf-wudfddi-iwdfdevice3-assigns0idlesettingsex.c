@@ -1,0 +1,3 @@
+HRESULT AssignS0IdleSettingsEx(
+  [in] PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS IdleSettings
+);

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:appmodel.AddPackageDependency2",
+  "title": "AddPackageDependency2",
+  "description": "Resolves a previously defined package dependency to a specific package, and adds it to the invoking process' package graph. After the dependency has been added, other code-loading methods (such as LoadLibrary and CoCreateInstance) can find the binaries in the resolved package.",
+  "ms.date": "02/05/2025",
+  "tech.root": "appxpkg",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "appmodel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 23H2 (10.0; Build 22631)",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "appmodel.h"
+  ],
+  "api_name": [
+    "AddPackageDependency2"
+  ],
+  "f1_keywords": [
+    "AddPackageDependency2",
+    "appmodel/AddPackageDependency2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

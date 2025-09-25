@@ -1,0 +1,1 @@
+DWORD SNMP_FUNC_TYPE SnmpSvcGetUptime();

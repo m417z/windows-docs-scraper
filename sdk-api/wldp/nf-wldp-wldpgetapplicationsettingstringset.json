@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wldp.WldpGetApplicationSettingStringSet",
+  "tech.root": "security",
+  "title": "WldpGetApplicationSettingStringSet",
+  "ms.date": "10/21/2024",
+  "targetos": "Windows",
+  "description": "Queries the values of the application setting defined as type `stringset` across all Application Control for Business policies in the supplied file.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "wldp.dll",
+  "req.header": "wldp.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "wldp.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, Build 26100",
+  "req.target-min-winversvr": "Windows Server 2025",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wldp.dll"
+  ],
+  "api_name": [
+    "WldpGetApplicationSettingStringSet"
+  ],
+  "f1_keywords": [
+    "WldpGetApplicationSettingStringSet",
+    "wldp/WldpGetApplicationSettingStringSet"
+  ],
+  "dev_langs": [
+    "c++, c"
+  ],
+  "helpviewer_keywords": [
+    "WldpGetApplicationSettingStringSet"
+  ]
+}

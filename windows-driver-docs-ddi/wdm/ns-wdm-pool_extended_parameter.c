@@ -1,0 +1,14 @@
+typedef struct _POOL_EXTENDED_PARAMETER {
+  struct {
+    ULONG64 Type : POOL_EXTENDED_PARAMETER_TYPE_BITS;
+    ULONG64 Optional : POOL_EXTENDED_PARAMETER_REQUIRED_FIELD_BITS;
+    ULONG64 Reserved : POOL_EXTENDED_PARAMETER_RESERVED_BITS;
+  } DUMMYSTRUCTNAME;
+  union {
+    ULONG64                          Reserved2;
+    PVOID                            Reserved3;
+    EX_POOL_PRIORITY                 Priority;
+    POOL_EXTENDED_PARAMS_SECURE_POOL *SecurePoolParams;
+    POOL_NODE_REQUIREMENT            PreferredNode;
+  } DUMMYUNIONNAME;
+} POOL_EXTENDED_PARAMETER, *PPOOL_EXTENDED_PARAMETER;

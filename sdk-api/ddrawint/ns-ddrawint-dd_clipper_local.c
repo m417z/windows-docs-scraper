@@ -1,0 +1,3 @@
+typedef struct _DD_CLIPPER_LOCAL {
+  ULONG_PTR dwReserved1;
+} *PDD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL;

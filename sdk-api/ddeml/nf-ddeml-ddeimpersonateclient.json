@@ -1,0 +1,60 @@
+{
+  "UID": "NF:ddeml.DdeImpersonateClient",
+  "title": "DdeImpersonateClient function (ddeml.h)",
+  "description": "Impersonates a Dynamic Data Exchange (DDE) client application in a DDE client conversation.",
+  "helpviewer_keywords": [
+    "DdeImpersonateClient",
+    "DdeImpersonateClient function [Data Exchange]",
+    "_win32_DdeImpersonateClient",
+    "_win32_ddeimpersonateclient_cpp",
+    "dataxchg.ddeimpersonateclient",
+    "ddeml/DdeImpersonateClient",
+    "winui._win32_ddeimpersonateclient"
+  ],
+  "old-location": "dataxchg\\ddeimpersonateclient.htm",
+  "tech.root": "dataxchg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\dataexchange\\dynamicdataexchangemanagementlibrary\\dynamicdataexchangemanagementreference\\dynamicdataexchangemanagementfunctions\\ddeimpersonateclient.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DdeImpersonateClient, DdeImpersonateClient function [Data Exchange], _win32_DdeImpersonateClient, _win32_ddeimpersonateclient_cpp, dataxchg.ddeimpersonateclient, ddeml/DdeImpersonateClient, winui._win32_ddeimpersonateclient",
+  "req.header": "ddeml.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DdeImpersonateClient",
+    "ddeml/DdeImpersonateClient"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "DdeImpersonateClient"
+  ]
+}

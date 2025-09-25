@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntifs._MARK_HANDLE_INFO",
+  "tech.root": "ifsk",
+  "title": "MARK_HANDLE_INFO",
+  "ms.date": "07/14/2021",
+  "targetos": "Windows",
+  "description": "A MARK_HANDLE_INFO structure is passed as the input buffer during a FSCTL_MARK_HANDLE control code request.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "MARK_HANDLE_INFO, *PMARK_HANDLE_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_MARK_HANDLE_INFO",
+    "PMARK_HANDLE_INFO",
+    "MARK_HANDLE_INFO"
+  ],
+  "f1_keywords": [
+    "_MARK_HANDLE_INFO",
+    "ntifs/_MARK_HANDLE_INFO",
+    "PMARK_HANDLE_INFO",
+    "ntifs/PMARK_HANDLE_INFO",
+    "MARK_HANDLE_INFO",
+    "ntifs/MARK_HANDLE_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

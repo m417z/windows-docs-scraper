@@ -1,0 +1,6 @@
+typedef struct _FILE_NOTIFY_INFORMATION {
+  ULONG NextEntryOffset;
+  ULONG Action;
+  ULONG FileNameLength;
+  WCHAR FileName[1];
+} FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION;

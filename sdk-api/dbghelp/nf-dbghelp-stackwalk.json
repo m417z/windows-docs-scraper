@@ -1,0 +1,65 @@
+{
+  "UID": "NF:dbghelp.StackWalk",
+  "title": "StackWalk function (dbghelp.h)",
+  "description": "Obtains a stack trace. (StackWalk)",
+  "helpviewer_keywords": [
+    "IMAGE_FILE_MACHINE_AMD64",
+    "IMAGE_FILE_MACHINE_I386",
+    "IMAGE_FILE_MACHINE_IA64",
+    "StackWalk",
+    "StackWalk function",
+    "StackWalk64",
+    "StackWalk64 function",
+    "_win32_stackwalk64",
+    "base.stackwalk64",
+    "dbghelp/StackWalk",
+    "dbghelp/StackWalk64"
+  ],
+  "old-location": "base\\stackwalk64.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "e2bdaa4c-5474-41a0-bcea-927570c8402c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "DbgHelp.lib",
+  "req.dll": "DbgHelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 5.1 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StackWalk",
+    "dbghelp/StackWalk"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "DbgHelp.dll"
+  ],
+  "api_name": [
+    "StackWalk64",
+    "StackWalk"
+  ]
+}

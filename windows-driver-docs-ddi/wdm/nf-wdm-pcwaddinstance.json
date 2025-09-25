@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.PcwAddInstance",
+  "title": "PcwAddInstance function (wdm.h)",
+  "description": "The PcwAddInstance function adds the specified instance of the counterset to the consumer buffer.",
+  "tech.root": "devtest",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "PcwAddInstance function"
+  ],
+  "ms.keywords": "PcwAddInstance, PcwAddInstance function [Driver Development Tools], devtest.pcwaddinstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcwAddInstance",
+    "wdm/PcwAddInstance"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "PcwAddInstance"
+  ]
+}

@@ -1,0 +1,10 @@
+PKTMON_CLNT_COMPONENT_REGISTER PktmonClntComponentRegister;
+
+NTSTATUS PktmonClntComponentRegister(
+  PKTMON_COMPONENT_CONTEXT *CompContext,
+  PCUNICODE_STRING Name,
+  PCUNICODE_STRING Description,
+  PKTMON_COMPONENT_TYPE ComponentType,
+  PKTMON_PACKET_TYPE PacketType
+)
+{...}

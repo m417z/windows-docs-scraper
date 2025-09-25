@@ -1,0 +1,6 @@
+typedef struct _DD_CANCREATEVPORTDATA {
+  PDD_DIRECTDRAW_LOCAL lpDD;
+  LPDDVIDEOPORTDESC    lpDDVideoPortDesc;
+  HRESULT              ddRVal;
+  VOID                 *CanCreateVideoPort;
+} *PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA;

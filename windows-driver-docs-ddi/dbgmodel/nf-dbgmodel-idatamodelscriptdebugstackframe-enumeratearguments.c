@@ -1,0 +1,3 @@
+HRESULT EnumerateArguments(
+  IDataModelScriptDebugVariableSetEnumerator **variablesEnum
+);

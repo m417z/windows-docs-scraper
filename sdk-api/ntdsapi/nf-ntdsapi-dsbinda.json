@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ntdsapi.DsBindA",
+  "title": "DsBindA function (ntdsapi.h)",
+  "description": "Binds to a domain controller. (ANSI)",
+  "helpviewer_keywords": [
+    "DsBindA",
+    "ntdsapi/DsBindA"
+  ],
+  "old-location": "ad\\dsbind.htm",
+  "tech.root": "ad",
+  "ms.assetid": "c73cd16d-ccfd-4f61-b1c5-50130bef64d7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glines_dsbind, ad.dsbind, ntdsapi/DsBind, ntdsapi/DsBindA, ntdsapi/DsBindW",
+  "req.header": "ntdsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsBindW (Unicode) and DsBindA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntdsapi.lib",
+  "req.dll": "Ntdsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsBindA",
+    "ntdsapi/DsBindA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdsapi.dll"
+  ],
+  "api_name": [
+    "DsBind",
+    "DsBindA",
+    "DsBindW"
+  ]
+}

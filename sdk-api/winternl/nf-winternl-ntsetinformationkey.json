@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winternl.NtSetInformationKey",
+  "title": "NtSetInformationKey function (winternl.h)",
+  "description": "Sets information for the specified registry key.",
+  "helpviewer_keywords": [
+    "NtSetInformationKey",
+    "NtSetInformationKey function [Windows API]",
+    "base.ntsetinformationkey",
+    "winprog.ntsetinformationkey",
+    "winternl/NtSetInformationKey"
+  ],
+  "old-location": "winprog\\ntsetinformationkey.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "74772ebf-684b-4579-a28a-9b80afb4ccf9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey",
+  "req.header": "winternl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ntdll.lib",
+  "req.dll": "ntdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NtSetInformationKey",
+    "winternl/NtSetInformationKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntdll.dll"
+  ],
+  "api_name": [
+    "NtSetInformationKey"
+  ]
+}

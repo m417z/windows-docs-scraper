@@ -1,0 +1,3 @@
+HRESULT GetListAlignment(
+  long *pValue
+);

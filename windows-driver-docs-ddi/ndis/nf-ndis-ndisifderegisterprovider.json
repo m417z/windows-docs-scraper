@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisIfDeregisterProvider",
+  "title": "NdisIfDeregisterProvider function (ndis.h)",
+  "description": "The NdisIfDeregisterProvider function deregisters an interface provider that was previously registered by a call to the NdisIfRegisterProvider function.",
+  "old-location": "netvista\\ndisifderegisterprovider.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisIfDeregisterProvider function"
+  ],
+  "ms.keywords": "NdisIfDeregisterProvider, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterProvider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, netvista.ndisifderegisterprovider",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Interfaces_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisIfDeregisterProvider",
+    "ndis/NdisIfDeregisterProvider"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisIfDeregisterProvider"
+  ]
+}

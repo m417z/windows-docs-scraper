@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.KeQueryActiveProcessors",
+  "title": "KeQueryActiveProcessors function (ntddk.h)",
+  "description": "The KeQueryActiveProcessors routine returns a bitmask of the currently active processors.",
+  "old-location": "kernel\\kequeryactiveprocessors.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeQueryActiveProcessors function"
+  ],
+  "ms.keywords": "KeQueryActiveProcessors, KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml, kernel.kequeryactiveprocessors, wdm/KeQueryActiveProcessors",
+  "req.header": "ntddk.h",
+  "req.include-header": "Wdm.h, Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlKeApcLte1, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeQueryActiveProcessors",
+    "ntddk/KeQueryActiveProcessors"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeQueryActiveProcessors"
+  ]
+}

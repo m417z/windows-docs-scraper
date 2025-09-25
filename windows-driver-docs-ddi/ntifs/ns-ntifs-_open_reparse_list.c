@@ -1,0 +1,3 @@
+typedef struct _OPEN_REPARSE_LIST {
+  LIST_ENTRY OpenReparseList;
+} OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST;

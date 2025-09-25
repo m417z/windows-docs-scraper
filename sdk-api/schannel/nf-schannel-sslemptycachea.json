@@ -1,0 +1,57 @@
+{
+  "UID": "NF:schannel.SslEmptyCacheA",
+  "title": "SslEmptyCacheA function (schannel.h)",
+  "description": "Removes the specified string from the Schannel cache. (ANSI)",
+  "helpviewer_keywords": [
+    "SslEmptyCacheA",
+    "schannel/SslEmptyCacheA"
+  ],
+  "old-location": "security\\sslemptycache.htm",
+  "tech.root": "security",
+  "ms.assetid": "c914d4e3-657e-45ef-ace8-2cea900a8a76",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, SslEmptyCacheW, schannel/SslEmptyCache, schannel/SslEmptyCacheA, schannel/SslEmptyCacheW, security.sslemptycache",
+  "req.header": "schannel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SslEmptyCacheW (Unicode) and SslEmptyCacheA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Schannel.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SslEmptyCacheA",
+    "schannel/SslEmptyCacheA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Schannel.dll"
+  ],
+  "api_name": [
+    "SslEmptyCache",
+    "SslEmptyCacheA",
+    "SslEmptyCacheW"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UID": "NE:srb.SRBEX_DATA_NVME_COMMAND_FLAG",
+  "tech.root": "storage",
+  "title": "SRBEX_DATA_NVME_COMMAND_FLAG (srb.h)",
+  "ms.date": "02/21/2024",
+  "targetos": "Windows",
+  "description": "The SRBEX_DATA_NVME_COMMAND_FLAG (srb.h) enumeration contains values that indicate the properties of a particular SRBEX Data NVMe command.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "srb.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "srb.h"
+  ],
+  "api_name": [
+    "PSRBEX_DATA_NVME_COMMAND_FLAG",
+    "SRBEX_DATA_NVME_COMMAND_FLAG"
+  ],
+  "f1_keywords": [
+    "PSRBEX_DATA_NVME_COMMAND_FLAG",
+    "srb/PSRBEX_DATA_NVME_COMMAND_FLAG",
+    "SRBEX_DATA_NVME_COMMAND_FLAG",
+    "srb/SRBEX_DATA_NVME_COMMAND_FLAG"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

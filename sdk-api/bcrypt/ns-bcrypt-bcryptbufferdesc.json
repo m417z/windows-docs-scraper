@@ -1,0 +1,49 @@
+{
+  "UID": "NS:bcrypt._BCryptBufferDesc",
+  "tech.root": "security",
+  "title": "BCryptBufferDesc (bcrypt.h)",
+  "description": "Describes how the BCryptBufferDesc structure contains a set of generic Cryptography API: Next Generation (CNG) buffers.",
+  "ms.date": "08/01/2022",
+  "targetos": "Windows",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "BCryptBufferDesc, *PBCryptBufferDesc",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "bcrypt.h"
+  ],
+  "api_name": [
+    "_BCryptBufferDesc",
+    "PBCryptBufferDesc",
+    "BCryptBufferDesc"
+  ],
+  "f1_keywords": [
+    "_BCryptBufferDesc",
+    "bcrypt/_BCryptBufferDesc",
+    "PBCryptBufferDesc",
+    "bcrypt/PBCryptBufferDesc",
+    "BCryptBufferDesc",
+    "bcrypt/BCryptBufferDesc"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

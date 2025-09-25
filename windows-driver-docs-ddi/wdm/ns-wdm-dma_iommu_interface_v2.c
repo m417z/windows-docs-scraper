@@ -1,0 +1,24 @@
+typedef struct _DMA_IOMMU_INTERFACE_V2 {
+  PIOMMU_DOMAIN_CREATE_EX                           CreateDomainEx;
+  PIOMMU_DOMAIN_DELETE                              DeleteDomain;
+  PIOMMU_DOMAIN_ATTACH_DEVICE_EX                    AttachDeviceEx;
+  PIOMMU_DOMAIN_DETACH_DEVICE_EX                    DetachDeviceEx;
+  PIOMMU_FLUSH_DOMAIN                               FlushDomain;
+  PIOMMU_FLUSH_DOMAIN_VA_LIST                       FlushDomainByVaList;
+  PIOMMU_QUERY_INPUT_MAPPINGS                       QueryInputMappings;
+  PIOMMU_MAP_LOGICAL_RANGE_EX                       MapLogicalRangeEx;
+  PIOMMU_UNMAP_LOGICAL_RANGE                        UnmapLogicalRange;
+  PIOMMU_MAP_IDENTITY_RANGE_EX                      MapIdentityRangeEx;
+  PIOMMU_UNMAP_IDENTITY_RANGE_EX                    UnmapIdentityRangeEx;
+  PIOMMU_SET_DEVICE_FAULT_REPORTING_EX              SetDeviceFaultReportingEx;
+  PIOMMU_DOMAIN_CONFIGURE                           ConfigureDomain;
+  PIOMMU_DEVICE_QUERY_DOMAIN_TYPES                  QueryAvailableDomainTypes;
+  PIOMMU_REGISTER_INTERFACE_STATE_CHANGE_CALLBACK   RegisterInterfaceStateChangeCallback;
+  PIOMMU_UNREGISTER_INTERFACE_STATE_CHANGE_CALLBACK UnregisterInterfaceStateChangeCallback;
+  PIOMMU_RESERVE_LOGICAL_ADDRESS_RANGE              ReserveLogicalAddressRange;
+  PIOMMU_FREE_RESERVED_LOGICAL_ADDRESS_RANGE        FreeReservedLogicalAddressRange;
+  PIOMMU_MAP_RESERVED_LOGICAL_RANGE                 MapReservedLogicalRange;
+  PIOMMU_UNMAP_RESERVED_LOGICAL_RANGE               UnmapReservedLogicalRange;
+  PIOMMU_DEVICE_CREATE                              CreateDevice;
+  PIOMMU_DEVICE_DELETE                              DeleteDevice;
+} DMA_IOMMU_INTERFACE_V2, *PDMA_IOMMU_INTERFACE_V2;

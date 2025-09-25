@@ -1,0 +1,58 @@
+{
+  "UID": "NF:msdrm.DRMSetIntervalTime",
+  "title": "DRMSetIntervalTime function (msdrm.h)",
+  "description": "Specifies the number of days from issuance that can pass before an end—user license must be renewed.",
+  "helpviewer_keywords": [
+    "DRMSetIntervalTime",
+    "DRMSetIntervalTime function [Active Directory Rights Management Services SDK 1.0]",
+    "msdrm/DRMSetIntervalTime",
+    "rm.drmsetintervaltime"
+  ],
+  "old-location": "rm\\drmsetintervaltime.htm",
+  "tech.root": "rm",
+  "ms.assetid": "b3b7af75-ed94-4c2f-abb2-95194796771c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DRMSetIntervalTime, DRMSetIntervalTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetIntervalTime, rm.drmsetintervaltime",
+  "req.header": "msdrm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdrm.lib",
+  "req.dll": "Msdrm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Rights Management Services client 1.0 SP2 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DRMSetIntervalTime",
+    "msdrm/DRMSetIntervalTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdrm.dll"
+  ],
+  "api_name": [
+    "DRMSetIntervalTime"
+  ]
+}

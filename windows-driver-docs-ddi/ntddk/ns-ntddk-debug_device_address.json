@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntddk.DEBUG_DEVICE_ADDRESS",
+  "tech.root": "kernel",
+  "title": "DEBUG_DEVICE_ADDRESS (ntddk.h)",
+  "ms.date": "04/17/2023",
+  "targetos": "Windows",
+  "description": "This topic describes the DEBUG_DEVICE_ADDRESS structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DEBUG_DEVICE_ADDRESS, *PDEBUG_DEVICE_ADDRESS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "PDEBUG_DEVICE_ADDRESS",
+    "DEBUG_DEVICE_ADDRESS"
+  ],
+  "f1_keywords": [
+    "PDEBUG_DEVICE_ADDRESS",
+    "ntddk/PDEBUG_DEVICE_ADDRESS",
+    "DEBUG_DEVICE_ADDRESS",
+    "ntddk/DEBUG_DEVICE_ADDRESS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DEBUG_DEVICE_ADDRESS"
+  ]
+}

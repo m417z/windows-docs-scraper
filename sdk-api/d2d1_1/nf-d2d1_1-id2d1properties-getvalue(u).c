@@ -1,0 +1,3 @@
+T GetValue(
+  U index
+);

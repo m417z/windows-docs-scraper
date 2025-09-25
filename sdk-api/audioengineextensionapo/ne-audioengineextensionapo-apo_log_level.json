@@ -1,0 +1,39 @@
+{
+  "UID": "NE:audioengineextensionapo.APO_LOG_LEVEL",
+  "tech.root": "audio",
+  "title": "APO_LOG_LEVEL",
+  "ms.date": "06/19/2021",
+  "targetos": "Windows",
+  "description": "Specifies the level of an APO event logged with IAudioProcessingObjectLoggingService::ApoLog.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "audioengineextensionapo.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audioengineextensionapo.h"
+  ],
+  "api_name": [
+    "APO_LOG_LEVEL"
+  ],
+  "f1_keywords": [
+    "APO_LOG_LEVEL",
+    "audioengineextensionapo/APO_LOG_LEVEL"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

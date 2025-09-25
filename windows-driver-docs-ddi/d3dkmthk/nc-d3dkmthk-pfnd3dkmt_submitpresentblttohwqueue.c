@@ -1,0 +1,6 @@
+PFND3DKMT_SUBMITPRESENTBLTTOHWQUEUE PfnD3dkmtSubmitPresentBltToHwQueue;
+
+NTSTATUS PfnD3dkmtSubmitPresentBltToHwQueue(
+    const D3DKMT_SUBMITPRESENTBLTTOHWQUEUE *unnamedParam1
+)
+{...}

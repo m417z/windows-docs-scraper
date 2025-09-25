@@ -1,0 +1,73 @@
+{
+  "UID": "NF:winnls.GetThreadPreferredUILanguages",
+  "title": "GetThreadPreferredUILanguages function (winnls.h)",
+  "description": "Retrieves the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.",
+  "helpviewer_keywords": [
+    "GetThreadPreferredUILanguages",
+    "GetThreadPreferredUILanguages function [Internationalization for Windows Applications]",
+    "MUI_LANGUAGE_ID",
+    "MUI_LANGUAGE_NAME",
+    "MUI_MERGE_SYSTEM_FALLBACK",
+    "MUI_MERGE_USER_FALLBACK",
+    "MUI_THREAD_LANGUAGES",
+    "MUI_UI_FALLBACK",
+    "_win32_GetThreadPreferredUILanguages",
+    "intl.getthreadpreferreduilanguages",
+    "winnls/GetThreadPreferredUILanguages"
+  ],
+  "old-location": "intl\\getthreadpreferreduilanguages.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetThreadPreferredUILanguages, GetThreadPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MERGE_SYSTEM_FALLBACK, MUI_MERGE_USER_FALLBACK, MUI_THREAD_LANGUAGES, MUI_UI_FALLBACK, _win32_GetThreadPreferredUILanguages, intl.getthreadpreferreduilanguages, winnls/GetThreadPreferredUILanguages",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetThreadPreferredUILanguages",
+    "winnls/GetThreadPreferredUILanguages"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-localization-l1-2-4.dll",
+    "api-ms-win-core-localization-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Localization-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Localization-l1-2-0.dll",
+    "API-MS-Win-Core-Localization-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Localization-L1-2-2.dll"
+  ],
+  "api_name": [
+    "GetThreadPreferredUILanguages"
+  ]
+}

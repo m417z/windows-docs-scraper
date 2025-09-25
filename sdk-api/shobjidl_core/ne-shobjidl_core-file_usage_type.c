@@ -1,0 +1,5 @@
+typedef enum FILE_USAGE_TYPE {
+  FUT_PLAYING = 0,
+  FUT_EDITING,
+  FUT_GENERIC
+} ;

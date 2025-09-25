@@ -1,0 +1,5 @@
+typedef union _WDI_TXRX_MPDU_PN {
+  UINT32 Pn24;
+  UINT64 Pn48;
+  UINT64 Pn128[2];
+} WDI_TXRX_MPDU_PN;

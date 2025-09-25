@@ -1,0 +1,3 @@
+NTSTATUS SEC_ENTRY MapSecurityError(
+  SECURITY_STATUS SecStatus
+);

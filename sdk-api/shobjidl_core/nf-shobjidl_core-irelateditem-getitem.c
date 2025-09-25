@@ -1,0 +1,3 @@
+HRESULT GetItem(
+  IShellItem **ppsi
+);

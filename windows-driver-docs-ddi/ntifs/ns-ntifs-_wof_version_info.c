@@ -1,0 +1,3 @@
+typedef struct _WOF_VERSION_INFO {
+  ULONG WofVersion;
+} WOF_VERSION_INFO, *PWOF_VERSION_INFO;

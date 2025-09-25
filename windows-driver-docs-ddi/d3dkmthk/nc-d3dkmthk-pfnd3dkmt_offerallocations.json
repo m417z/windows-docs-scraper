@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmthk.PFND3DKMT_OFFERALLOCATIONS",
+  "title": "PFND3DKMT_OFFERALLOCATIONS (d3dkmthk.h)",
+  "description": "The PFND3DKMT_OFFERALLOCATIONS callback offers video memory allocations for reuse. The function returns STATUS_SUCCESS if allocations were successfully offered.",
+  "old-location": "display\\d3dkmtofferallocations.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DKMT_OFFERALLOCATIONS callback function"
+  ],
+  "ms.keywords": "D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DKMT_OFFERALLOCATIONS",
+    "d3dkmthk/PFND3DKMT_OFFERALLOCATIONS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3dkmthk.h"
+  ],
+  "api_name": [
+    "PFND3DKMT_OFFERALLOCATIONS"
+  ]
+}

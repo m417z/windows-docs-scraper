@@ -1,0 +1,49 @@
+{
+  "UID": "NF:irb.AtaPortGetBusData",
+  "title": "AtaPortGetBusData function (irb.h)",
+  "description": "The AtaPortGetBusData routine retrieves data from the location that is specified by ConfigDataOffset within the device's PCI configuration space.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ataportgetbusdata.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortGetBusData function"
+  ],
+  "ms.keywords": "AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, irb/AtaPortGetBusData, storage.ataportgetbusdata",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pciidex.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortGetBusData",
+    "irb/AtaPortGetBusData"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Pciidex.lib",
+    "Pciidex.dll"
+  ],
+  "api_name": [
+    "AtaPortGetBusData"
+  ]
+}

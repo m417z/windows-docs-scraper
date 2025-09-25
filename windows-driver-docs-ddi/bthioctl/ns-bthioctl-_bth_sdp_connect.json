@@ -1,0 +1,54 @@
+{
+  "UID": "NS:bthioctl._BTH_SDP_CONNECT",
+  "title": "_BTH_SDP_CONNECT (bthioctl.h)",
+  "description": "The BTH_SDP_CONNECT structure contains input and output information about a connection between the local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output buffer of IOCTL_BTH_SDP_CONNECT.",
+  "old-location": "bltooth\\bth_sdp_connect.htm",
+  "tech.root": "bltooth",
+  "ms.date": "11/30/2021",
+  "keywords": [
+    "BTH_SDP_CONNECT structure"
+  ],
+  "ms.keywords": "*PBTH_SDP_CONNECT, BTH_SDP_CONNECT, BTH_SDP_CONNECT structure [Bluetooth Devices], PBTH_SDP_CONNECT, PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], _BTH_SDP_CONNECT, bltooth.bth_sdp_connect, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, bthioctl/BTH_SDP_CONNECT, bthioctl/PBTH_SDP_CONNECT",
+  "req.header": "bthioctl.h",
+  "req.include-header": "Bthioctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BTH_SDP_CONNECT, *PBTH_SDP_CONNECT",
+  "f1_keywords": [
+    "_BTH_SDP_CONNECT",
+    "bthioctl/_BTH_SDP_CONNECT",
+    "PBTH_SDP_CONNECT",
+    "bthioctl/PBTH_SDP_CONNECT",
+    "BTH_SDP_CONNECT",
+    "bthioctl/BTH_SDP_CONNECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "bthioctl.h"
+  ],
+  "api_name": [
+    "_BTH_SDP_CONNECT",
+    "PBTH_SDP_CONNECT",
+    "BTH_SDP_CONNECT"
+  ]
+}

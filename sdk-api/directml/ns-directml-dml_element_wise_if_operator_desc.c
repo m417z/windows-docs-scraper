@@ -1,0 +1,6 @@
+struct DML_ELEMENT_WISE_IF_OPERATOR_DESC {
+  const DML_TENSOR_DESC *ConditionTensor;
+  const DML_TENSOR_DESC *ATensor;
+  const DML_TENSOR_DESC *BTensor;
+  const DML_TENSOR_DESC *OutputTensor;
+};

@@ -1,0 +1,1 @@
+VERSIONHELPERAPI IsWindows7SP1OrGreater();

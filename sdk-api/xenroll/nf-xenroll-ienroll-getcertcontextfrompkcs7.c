@@ -1,0 +1,3 @@
+PCCERT_CONTEXT getCertContextFromPKCS7(
+  [in] PCRYPT_DATA_BLOB pBlobPKCS7
+);

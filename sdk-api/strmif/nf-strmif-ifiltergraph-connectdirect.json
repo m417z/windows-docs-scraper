@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IFilterGraph.ConnectDirect",
+  "title": "IFilterGraph::ConnectDirect (strmif.h)",
+  "description": "The ConnectDirect method connects the two pins directly (without intervening filters).",
+  "helpviewer_keywords": [
+    "ConnectDirect",
+    "ConnectDirect method [DirectShow]",
+    "ConnectDirect method [DirectShow]",
+    "IFilterGraph interface",
+    "IFilterGraph interface [DirectShow]",
+    "ConnectDirect method",
+    "IFilterGraph.ConnectDirect",
+    "IFilterGraph::ConnectDirect",
+    "IFilterGraphConnectDirect",
+    "dshow.ifiltergraph_connectdirect",
+    "strmif/IFilterGraph::ConnectDirect"
+  ],
+  "old-location": "dshow\\ifiltergraph_connectdirect.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "fb17bd98-dd6b-4fad-9b56-9cab10725b28",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "ConnectDirect, ConnectDirect method [DirectShow], ConnectDirect method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],ConnectDirect method, IFilterGraph.ConnectDirect, IFilterGraph::ConnectDirect, IFilterGraphConnectDirect, dshow.ifiltergraph_connectdirect, strmif/IFilterGraph::ConnectDirect",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFilterGraph::ConnectDirect",
+    "strmif/IFilterGraph::ConnectDirect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFilterGraph.ConnectDirect"
+  ]
+}

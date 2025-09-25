@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_DESCRIPTOR_HEAP_SIZE_0001 Pfnd3d12ddiCalcPrivateDescriptorHeapSize0001;
+
+SIZE_T Pfnd3d12ddiCalcPrivateDescriptorHeapSize0001(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_DESCRIPTOR_HEAP_0001 *unnamedParam2
+)
+{...}

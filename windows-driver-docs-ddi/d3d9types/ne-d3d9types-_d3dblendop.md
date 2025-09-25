@@ -1,0 +1,21 @@
+# _D3DBLENDOP enumeration
+
+## Description
+
+## Constants
+
+### `D3DBLENDOP_ADD`
+
+### `D3DBLENDOP_SUBTRACT`
+
+### `D3DBLENDOP_REVSUBTRACT`
+
+### `D3DBLENDOP_MIN`
+
+### `D3DBLENDOP_MAX`
+
+### `D3DBLENDOP_FORCE_DWORD`
+
+## Remarks
+
+## See also

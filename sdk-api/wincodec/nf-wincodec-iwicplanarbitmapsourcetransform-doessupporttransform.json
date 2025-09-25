@@ -1,0 +1,63 @@
+{
+  "UID": "NF:wincodec.IWICPlanarBitmapSourceTransform.DoesSupportTransform",
+  "title": "IWICPlanarBitmapSourceTransform::DoesSupportTransform (wincodec.h)",
+  "description": "Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.",
+  "helpviewer_keywords": [
+    "DoesSupportTransform",
+    "DoesSupportTransform method [Windows Imaging Component]",
+    "DoesSupportTransform method [Windows Imaging Component]",
+    "IWICPlanarBitmapSourceTransform interface",
+    "IWICPlanarBitmapSourceTransform interface [Windows Imaging Component]",
+    "DoesSupportTransform method",
+    "IWICPlanarBitmapSourceTransform.DoesSupportTransform",
+    "IWICPlanarBitmapSourceTransform::DoesSupportTransform",
+    "wic.iwicplanarbitmapsourcetransform_doessupporttransform",
+    "wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform"
+  ],
+  "old-location": "wic\\iwicplanarbitmapsourcetransform_doessupporttransform.htm",
+  "tech.root": "wic",
+  "ms.assetid": "CB601454-591B-4292-A8BF-EA9D1F060AB3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DoesSupportTransform, DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],DoesSupportTransform method, IWICPlanarBitmapSourceTransform.DoesSupportTransform, IWICPlanarBitmapSourceTransform::DoesSupportTransform, wic.iwicplanarbitmapsourcetransform_doessupporttransform, wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform",
+  "req.header": "wincodec.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Wincodec.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Windowscodecs.lib",
+  "req.dll": "Windowscodecs.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWICPlanarBitmapSourceTransform::DoesSupportTransform",
+    "wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Windowscodecs.dll"
+  ],
+  "api_name": [
+    "IWICPlanarBitmapSourceTransform.DoesSupportTransform"
+  ]
+}

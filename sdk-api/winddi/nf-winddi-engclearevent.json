@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngClearEvent",
+  "title": "EngClearEvent function (winddi.h)",
+  "description": "The EngClearEvent function sets a specified event object to the nonsignaled state.",
+  "helpviewer_keywords": [
+    "EngClearEvent",
+    "EngClearEvent function [Display Devices]",
+    "display.engclearevent",
+    "gdifncs_0650b2ea-0f64-425b-bfd4-a7c369f2915b.xml",
+    "winddi/EngClearEvent"
+  ],
+  "old-location": "display\\engclearevent.htm",
+  "tech.root": "display",
+  "ms.assetid": "fa87ed4f-4ccb-465c-bcd5-890694b790a3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngClearEvent, EngClearEvent function [Display Devices], display.engclearevent, gdifncs_0650b2ea-0f64-425b-bfd4-a7c369f2915b.xml, winddi/EngClearEvent",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This function is available in Windows XP and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngClearEvent",
+    "winddi/EngClearEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngClearEvent"
+  ]
+}

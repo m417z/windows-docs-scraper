@@ -1,0 +1,3 @@
+typedef struct _PERF_COUNTER_BLOCK {
+  DWORD ByteLength;
+} PERF_COUNTER_BLOCK, *PPERF_COUNTER_BLOCK;

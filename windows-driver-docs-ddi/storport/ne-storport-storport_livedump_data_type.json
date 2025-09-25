@@ -1,0 +1,44 @@
+{
+  "UID": "NE:storport._STORPORT_LIVEDUMP_DATA_TYPE",
+  "tech.root": "storage",
+  "title": "STORPORT_LIVEDUMP_DATA_TYPE",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "STORPORT_LIVEDUMP_DATA_TYPE identifies the data type of the payload to be included in the live dump.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STORPORT_LIVEDUMP_DATA_TYPE",
+    "PSTORPORT_LIVEDUMP_DATA_TYPE",
+    "STORPORT_LIVEDUMP_DATA_TYPE"
+  ],
+  "f1_keywords": [
+    "_STORPORT_LIVEDUMP_DATA_TYPE",
+    "storport/_STORPORT_LIVEDUMP_DATA_TYPE",
+    "PSTORPORT_LIVEDUMP_DATA_TYPE",
+    "storport/PSTORPORT_LIVEDUMP_DATA_TYPE",
+    "STORPORT_LIVEDUMP_DATA_TYPE",
+    "storport/STORPORT_LIVEDUMP_DATA_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

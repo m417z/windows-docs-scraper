@@ -1,0 +1,47 @@
+{
+  "UID": "NC:acxcircuit.EVT_ACX_CIRCUIT_PREPARE_HARDWARE",
+  "tech.root": "audio",
+  "title": "EVT_ACX_CIRCUIT_PREPARE_HARDWARE",
+  "ms.date": "12/14/2022",
+  "targetos": "Windows",
+  "description": "The EVT_ACX_CIRCUIT_PREPARE_HARDWARE callback is used by the driver to add functionality when a circuit is in the prepare hardware phase.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxcircuit.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "acxcircuit.h"
+  ],
+  "api_name": [
+    "EVT_ACX_CIRCUIT_PREPARE_HARDWARE"
+  ],
+  "f1_keywords": [
+    "EVT_ACX_CIRCUIT_PREPARE_HARDWARE",
+    "acxcircuit/EVT_ACX_CIRCUIT_PREPARE_HARDWARE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

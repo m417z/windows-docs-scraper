@@ -1,0 +1,4 @@
+typedef struct _WS_DATETIME_DESCRIPTION {
+  WS_DATETIME minValue;
+  WS_DATETIME maxValue;
+} WS_DATETIME_DESCRIPTION;

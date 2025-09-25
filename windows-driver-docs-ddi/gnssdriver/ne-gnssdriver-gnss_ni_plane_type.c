@@ -1,0 +1,5 @@
+typedef enum {
+  GNSS_NI_SUPL,
+  GNSS_NI_CP,
+  GNSS_NI_V2UPL
+} GNSS_NI_PLANE_TYPE;

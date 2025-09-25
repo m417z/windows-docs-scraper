@@ -1,0 +1,61 @@
+{
+  "UID": "NF:propsys.PSCreateAdapterFromPropertyStore",
+  "title": "PSCreateAdapterFromPropertyStore function (propsys.h)",
+  "description": "Creates an adapter from an IPropertyStore.",
+  "helpviewer_keywords": [
+    "PSCreateAdapterFromPropertyStore",
+    "PSCreateAdapterFromPropertyStore function [Windows Properties]",
+    "_shell_PSCreateAdapterFromPropertyStore",
+    "properties.PSCreateAdapterFromPropertyStore",
+    "propsys/PSCreateAdapterFromPropertyStore",
+    "shell.PSCreateAdapterFromPropertyStore"
+  ],
+  "old-location": "properties\\PSCreateAdapterFromPropertyStore.htm",
+  "tech.root": "properties",
+  "ms.assetid": "a3489f95-e790-481a-af6e-f30527dc476c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore",
+  "req.header": "propsys.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2, Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Propsys.lib",
+  "req.dll": "Propsys.dll (version 6.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Desktop Search (WDS) 3.0",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PSCreateAdapterFromPropertyStore",
+    "propsys/PSCreateAdapterFromPropertyStore"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-propsys-l1-1-1.dll",
+    "Propsys.dll",
+    "Ext-MS-Win-shell-propsys-l1-1-0.dll"
+  ],
+  "api_name": [
+    "PSCreateAdapterFromPropertyStore"
+  ]
+}

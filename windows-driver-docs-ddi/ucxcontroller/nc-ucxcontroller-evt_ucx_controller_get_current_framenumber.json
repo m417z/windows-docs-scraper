@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ucxcontroller.EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER",
+  "title": "EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER (ucxcontroller.h)",
+  "description": "The client driver's implementation that UCX calls to retrieve the current 32-bit frame number.",
+  "old-location": "buses\\evt_ucx_controller_get_current_framenumber.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function"
+  ],
+  "ms.keywords": "EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber",
+  "req.header": "ucxcontroller.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER",
+    "ucxcontroller/EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ucxcontroller.h"
+  ],
+  "api_name": [
+    "EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER"
+  ]
+}

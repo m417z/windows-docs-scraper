@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.SeDeleteClientSecurity",
+  "title": "SeDeleteClientSecurity macro (ntifs.h)",
+  "description": "The SeDeleteClientSecurity routine deletes a client security context.",
+  "old-location": "ifsk\\sedeleteclientsecurity.htm",
+  "tech.root": "ifsk",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "SeDeleteClientSecurity macro"
+  ],
+  "ms.keywords": "SeDeleteClientSecurity, SeDeleteClientSecurity routine [Installable File System Drivers], ifsk.sedeleteclientsecurity, ntifs/SeDeleteClientSecurity, seref_bab4478e-d302-478b-8819-79c9b2f79aa7.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeDeleteClientSecurity",
+    "ntifs/SeDeleteClientSecurity"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "SeDeleteClientSecurity"
+  ]
+}

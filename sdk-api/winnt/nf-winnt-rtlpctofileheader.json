@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winnt.RtlPcToFileHeader",
+  "title": "RtlPcToFileHeader function (winnt.h)",
+  "description": "Retrieves the base address of the image that contains the specified PC value.",
+  "helpviewer_keywords": [
+    "RtlPcToFileHeader",
+    "RtlPcToFileHeader function",
+    "base.rtlpctofileheader",
+    "winnt/RtlPcToFileHeader"
+  ],
+  "old-location": "base\\rtlpctofileheader.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "690c9f20-d471-49c9-a40c-28926f03acac",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofileheader, winnt/RtlPcToFileHeader",
+  "req.header": "winnt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Windows XP Professional x64 Edition or 64-bit editions of Windows Server 2003",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlPcToFileHeader",
+    "winnt/RtlPcToFileHeader"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-rtlsupport-l1-2-2.dll",
+    "api-ms-win-core-rtlsupport-l1-2-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-rtlsupport-l1-1-0.dll",
+    "ntdll.dll",
+    "API-MS-Win-Core-rtlsupport-l1-2-0.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "RtlPcToFileHeader"
+  ]
+}

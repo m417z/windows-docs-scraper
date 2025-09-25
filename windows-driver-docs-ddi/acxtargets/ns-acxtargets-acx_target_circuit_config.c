@@ -1,0 +1,5 @@
+typedef struct _ACX_TARGET_CIRCUIT_CONFIG {
+  ULONG     Size;
+  ULONG     Flags;
+  WDFSTRING SymbolicLinkName;
+} ACX_TARGET_CIRCUIT_CONFIG, *PACX_TARGET_CIRCUIT_CONFIG;

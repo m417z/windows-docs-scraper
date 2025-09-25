@@ -1,0 +1,3 @@
+HRESULT CloseIoRing(
+  HIORING ioRing
+);

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wsdclient.WSDCreateDeviceProxy",
+  "title": "WSDCreateDeviceProxy function (wsdclient.h)",
+  "description": "Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface. (WSDCreateDeviceProxy)",
+  "helpviewer_keywords": [
+    "WSDCreateDeviceProxy",
+    "WSDCreateDeviceProxy function",
+    "ncd.wsdcreatedeviceproxy",
+    "wsdclient/WSDCreateDeviceProxy"
+  ],
+  "old-location": "ncd\\wsdcreatedeviceproxy.htm",
+  "tech.root": "ncd",
+  "ms.assetid": "d432ae9a-cf34-4149-978c-637443a3824f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSDCreateDeviceProxy, WSDCreateDeviceProxy function, ncd.wsdcreatedeviceproxy, wsdclient/WSDCreateDeviceProxy",
+  "req.header": "wsdclient.h",
+  "req.include-header": "Wsdapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wsdapi.lib",
+  "req.dll": "Wsdapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSDCreateDeviceProxy",
+    "wsdclient/WSDCreateDeviceProxy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wsdapi.dll"
+  ],
+  "api_name": [
+    "WSDCreateDeviceProxy"
+  ]
+}

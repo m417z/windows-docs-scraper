@@ -1,0 +1,3 @@
+typedef struct _UNIT_DIAG_LEVEL {
+  IN ULONG DiagLevel;
+} UNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL;

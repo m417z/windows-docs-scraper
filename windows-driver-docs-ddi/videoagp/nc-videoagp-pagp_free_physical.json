@@ -1,0 +1,48 @@
+{
+  "UID": "NC:videoagp.PAGP_FREE_PHYSICAL",
+  "title": "PAGP_FREE_PHYSICAL (videoagp.h)",
+  "description": "The AgpFreePhysical function frees system memory that was committed by a previous call to AgpCommitPhysical.",
+  "old-location": "display\\agpfreephysical.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PAGP_FREE_PHYSICAL callback function"
+  ],
+  "ms.keywords": "AgpFreePhysical, AgpFreePhysical callback function [Display Devices], PAGP_FREE_PHYSICAL, PAGP_FREE_PHYSICAL callback, VideoPort_Functions_cc6360b5-12f9-4c49-bb06-d86ada229b9e.xml, display.agpfreephysical, videoagp/AgpFreePhysical",
+  "req.header": "videoagp.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PAGP_FREE_PHYSICAL",
+    "videoagp/PAGP_FREE_PHYSICAL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "videoagp.h"
+  ],
+  "api_name": [
+    "PAGP_FREE_PHYSICAL"
+  ]
+}

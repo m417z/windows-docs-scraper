@@ -1,0 +1,4 @@
+VOID WDF_WORKITEM_CONFIG_INIT(
+  [out] PWDF_WORKITEM_CONFIG Config,
+  [in]  PFN_WDF_WORKITEM     EvtWorkItemFunc
+);

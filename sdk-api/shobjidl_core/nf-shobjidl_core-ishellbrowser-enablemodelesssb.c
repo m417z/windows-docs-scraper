@@ -1,0 +1,3 @@
+HRESULT EnableModelessSB(
+  BOOL fEnable
+);

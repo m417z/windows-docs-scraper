@@ -1,0 +1,48 @@
+{
+  "UID": "NI:usbioctl.IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION",
+  "title": "IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION (usbioctl.h)",
+  "description": "The IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request retrieves one or more descriptors for the device that is associated with the indicated port index.IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION is a user-mode I/O control request.",
+  "old-location": "buses\\ioctl_usb_get_descriptor_from_node_connection.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION IOCTL"
+  ],
+  "ms.keywords": "IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control code [Buses], buses.ioctl_usb_get_descriptor_from_node_connection, usbioctl/IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, usbirp_060f6333-3fe9-4a4b-8ff1-f7403a3e8dfe.xml",
+  "req.header": "usbioctl.h",
+  "req.include-header": "Usbioctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION",
+    "usbioctl/IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Usbioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION"
+  ]
+}

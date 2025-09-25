@@ -1,0 +1,21 @@
+typedef struct _WTSCLIENTA {
+  CHAR   ClientName[CLIENTNAME_LENGTH + 1];
+  CHAR   Domain[DOMAIN_LENGTH + 1];
+  CHAR   UserName[USERNAME_LENGTH + 1];
+  CHAR   WorkDirectory[MAX_PATH + 1];
+  CHAR   InitialProgram[MAX_PATH + 1];
+  BYTE   EncryptionLevel;
+  ULONG  ClientAddressFamily;
+  USHORT ClientAddress[CLIENTADDRESS_LENGTH + 1];
+  USHORT HRes;
+  USHORT VRes;
+  USHORT ColorDepth;
+  CHAR   ClientDirectory[MAX_PATH + 1];
+  ULONG  ClientBuildNumber;
+  ULONG  ClientHardwareId;
+  USHORT ClientProductId;
+  USHORT OutBufCountHost;
+  USHORT OutBufCountClient;
+  USHORT OutBufLength;
+  CHAR   DeviceId[MAX_PATH + 1];
+} WTSCLIENTA, *PWTSCLIENTA;

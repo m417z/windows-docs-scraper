@@ -1,0 +1,3 @@
+typedef enum {
+  KSEVENT_TVAUDIO_CHANGED
+} KSEVENT_TVAUDIO;

@@ -1,0 +1,1 @@
+DWRITE_PARAGRAPH_ALIGNMENT GetParagraphAlignment();

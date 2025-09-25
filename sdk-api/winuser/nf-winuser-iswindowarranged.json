@@ -1,0 +1,50 @@
+{
+  "UID": "NF:winuser.IsWindowArranged",
+  "tech.root": "winmsg",
+  "title": "IsWindowArranged function (winuser.h)",
+  "ms.date": "06/27/2023",
+  "targetos": "Windows",
+  "description": "Determines whether the specified window is arranged (that is, whether it's snapped).",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "User32.dll",
+  "req.header": "winuser.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "User32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "user32.dll"
+  ],
+  "api_name": [
+    "IsWindowArranged"
+  ],
+  "f1_keywords": [
+    "IsWindowArranged",
+    "winuser/IsWindowArranged"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IsWindowArranged"
+  ]
+}

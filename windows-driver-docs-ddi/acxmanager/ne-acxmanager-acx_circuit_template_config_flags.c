@@ -1,0 +1,5 @@
+typedef enum _ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS {
+  AcxCircuitTemplateConfigNoFlags,
+  AcxCircuitTemplateCircuitOnDemand,
+  AcxCircuitTemplateConfigValidFlags
+} ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS;

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:ntsecapi.AuditLookupSubCategoryNameW",
+  "title": "AuditLookupSubCategoryNameW function (ntsecapi.h)",
+  "description": "Retrieves the display name of the specified audit-policy subcategory. (Unicode)",
+  "helpviewer_keywords": [
+    "AuditLookupSubCategoryName",
+    "AuditLookupSubCategoryName function [Security]",
+    "AuditLookupSubCategoryNameW",
+    "ntsecapi/AuditLookupSubCategoryName",
+    "ntsecapi/AuditLookupSubCategoryNameW",
+    "security.auditlookupsubcategoryname_func"
+  ],
+  "old-location": "security\\auditlookupsubcategoryname_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "65ccd0f6-ee43-4b4d-98fd-b7a49f23ad9d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AuditLookupSubCategoryName, AuditLookupSubCategoryName function [Security], AuditLookupSubCategoryNameA, AuditLookupSubCategoryNameW, ntsecapi/AuditLookupSubCategoryName, ntsecapi/AuditLookupSubCategoryNameA, ntsecapi/AuditLookupSubCategoryNameW, security.auditlookupsubcategoryname_func",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "AuditLookupSubCategoryNameW (Unicode) and AuditLookupSubCategoryNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AuditLookupSubCategoryNameW",
+    "ntsecapi/AuditLookupSubCategoryNameW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-Security-audit-l1-1-1.dll",
+    "sechost.dll"
+  ],
+  "api_name": [
+    "AuditLookupSubCategoryName",
+    "AuditLookupSubCategoryNameA",
+    "AuditLookupSubCategoryNameW"
+  ]
+}

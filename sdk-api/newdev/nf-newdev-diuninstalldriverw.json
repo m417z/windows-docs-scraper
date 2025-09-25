@@ -1,0 +1,62 @@
+{
+  "UID": "NF:newdev.DiUninstallDriverW",
+  "title": "DiUninstallDriverW function (newdev.h)",
+  "description": "The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store. (Unicode)",
+  "helpviewer_keywords": [
+    "DiUninstallDriver",
+    "DiUninstallDriver function [Device and Driver Installation]",
+    "DiUninstallDriverW",
+    "devinst.diuninstalldriver",
+    "di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml",
+    "newdev/DiUninstallDriver"
+  ],
+  "old-location": "devinst\\diuninstalldriver.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "7015d05f-235e-42d1-b4e1-9919bbebf185",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DiUninstallDriver, DiUninstallDriver function [Device and Driver Installation], DiUninstallDriverA, DiUninstallDriverW, devinst.diuninstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiUninstallDriver",
+  "req.header": "newdev.h",
+  "req.include-header": "Newdev.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 10 Version 1703 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Newdev.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DiUninstallDriverW",
+    "newdev/DiUninstallDriverW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ext-ms-win-newdev-config-l1-1-2.dll",
+    "Newdev.lib",
+    "Newdev.dll"
+  ],
+  "api_name": [
+    "DiInstallDriver",
+    "diuninstalldriverw"
+  ]
+}

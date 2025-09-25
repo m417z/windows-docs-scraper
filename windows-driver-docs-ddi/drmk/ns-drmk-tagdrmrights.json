@@ -1,0 +1,54 @@
+{
+  "UID": "NS:drmk.tagDRMRIGHTS",
+  "title": "tagDRMRIGHTS (drmk.h)",
+  "description": "The DRMRIGHTS structure specifies the DRM content rights assigned to a KS audio pin or to a port-class driver's stream object.",
+  "old-location": "audio\\drmrights.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "tagDRMRIGHTS structure"
+  ],
+  "ms.keywords": "*PDRMRIGHTS, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, drmk/PDRMRIGHTS, tagDRMRIGHTS",
+  "req.header": "drmk.h",
+  "req.include-header": "Drmk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DRMRIGHTS, *PDRMRIGHTS",
+  "f1_keywords": [
+    "tagDRMRIGHTS",
+    "drmk/tagDRMRIGHTS",
+    "PDRMRIGHTS",
+    "drmk/PDRMRIGHTS",
+    "DRMRIGHTS",
+    "drmk/DRMRIGHTS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "drmk.h"
+  ],
+  "api_name": [
+    "tagDRMRIGHTS",
+    "PDRMRIGHTS",
+    "DRMRIGHTS"
+  ]
+}

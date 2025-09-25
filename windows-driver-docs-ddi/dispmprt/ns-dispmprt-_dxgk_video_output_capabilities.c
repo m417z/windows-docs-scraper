@@ -1,0 +1,5 @@
+typedef struct _DXGK_VIDEO_OUTPUT_CAPABILITIES {
+  D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY       InterfaceTechnology;
+  D3DKMDT_MONITOR_ORIENTATION_AWARENESS MonitorOrientationAwareness;
+  BOOLEAN                               SupportsSdtvModes;
+} DXGK_VIDEO_OUTPUT_CAPABILITIES, *PDXGK_VIDEO_OUTPUT_CAPABILITIES;

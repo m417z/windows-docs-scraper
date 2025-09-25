@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddndis._NDIS_TIMESTAMP_CAPABILITY_FLAGS",
+  "title": "_NDIS_TIMESTAMP_CAPABILITY_FLAGS (ntddndis.h)",
+  "description": "The NDIS_TIMESTAMP_CAPABILITY_FLAGS structure represents a network interface card (NIC)'s timestamping capabilities in various contexts.",
+  "tech.root": "netvista",
+  "ms.date": "01/31/2021",
+  "keywords": [
+    "NDIS_TIMESTAMP_CAPABILITY_FLAGS structure"
+  ],
+  "ms.keywords": "_NDIS_TIMESTAMP_CAPABILITY_FLAGS, NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS,",
+  "req.header": "ntddndis.h",
+  "req.include-header": "ndis.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022. Supported in NDIS 6.82 and later.",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_NDIS_TIMESTAMP_CAPABILITY_FLAGS",
+    "ntddndis/_NDIS_TIMESTAMP_CAPABILITY_FLAGS",
+    "PNDIS_TIMESTAMP_CAPABILITY_FLAGS",
+    "ntddndis/PNDIS_TIMESTAMP_CAPABILITY_FLAGS",
+    "NDIS_TIMESTAMP_CAPABILITY_FLAGS",
+    "ntddndis/NDIS_TIMESTAMP_CAPABILITY_FLAGS"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_TIMESTAMP_CAPABILITY_FLAGS",
+    "PNDIS_TIMESTAMP_CAPABILITY_FLAGS",
+    "NDIS_TIMESTAMP_CAPABILITY_FLAGS"
+  ]
+}

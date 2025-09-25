@@ -1,0 +1,20 @@
+typedef struct WLAN_PHY_FRAME_STATISTICS {
+  ULONGLONG ullTransmittedFrameCount;
+  ULONGLONG ullMulticastTransmittedFrameCount;
+  ULONGLONG ullFailedCount;
+  ULONGLONG ullRetryCount;
+  ULONGLONG ullMultipleRetryCount;
+  ULONGLONG ullMaxTXLifetimeExceededCount;
+  ULONGLONG ullTransmittedFragmentCount;
+  ULONGLONG ullRTSSuccessCount;
+  ULONGLONG ullRTSFailureCount;
+  ULONGLONG ullACKFailureCount;
+  ULONGLONG ullReceivedFrameCount;
+  ULONGLONG ullMulticastReceivedFrameCount;
+  ULONGLONG ullPromiscuousReceivedFrameCount;
+  ULONGLONG ullMaxRXLifetimeExceededCount;
+  ULONGLONG ullFrameDuplicateCount;
+  ULONGLONG ullReceivedFragmentCount;
+  ULONGLONG ullPromiscuousReceivedFragmentCount;
+  ULONGLONG ullFCSErrorCount;
+} WLAN_PHY_FRAME_STATISTICS, *PWLAN_PHY_FRAME_STATISTICS;

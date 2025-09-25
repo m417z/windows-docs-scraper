@@ -1,0 +1,4 @@
+MSTCPIP_INLINE BOOLEAN IN4_ADDR_EQUAL(
+  const IN_ADDR *a,
+  const IN_ADDR *b
+);

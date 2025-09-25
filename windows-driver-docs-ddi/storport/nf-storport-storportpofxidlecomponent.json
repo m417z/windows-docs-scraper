@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storport.StorPortPoFxIdleComponent",
+  "title": "StorPortPoFxIdleComponent function (storport.h)",
+  "description": "The StorPortPoFxIdleComponent routine decrements the activation reference count of a specified component of a storage device.",
+  "old-location": "storage\\storportpofxidlecomponent.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortPoFxIdleComponent function"
+  ],
+  "ms.keywords": "StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortPoFxIdleComponent",
+    "storport/StorPortPoFxIdleComponent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortPoFxIdleComponent"
+  ]
+}

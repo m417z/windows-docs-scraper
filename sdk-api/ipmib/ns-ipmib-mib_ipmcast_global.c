@@ -1,0 +1,3 @@
+typedef struct _MIB_IPMCAST_GLOBAL {
+  DWORD dwEnable;
+} MIB_IPMCAST_GLOBAL, *PMIB_IPMCAST_GLOBAL;

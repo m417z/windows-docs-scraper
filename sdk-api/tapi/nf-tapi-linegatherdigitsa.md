@@ -1,0 +1,98 @@
+# lineGatherDigitsA function
+
+## Description
+
+The
+**lineGatherDigits** function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
+
+## Parameters
+
+### `hCall`
+
+Handle to the call on which digits are to be gathered. The application must be an owner of the call. The call state of *hCall* can be any state.
+
+### `dwDigitModes`
+
+Digit modes to be monitored. This parameter uses one or more of the
+[LINEDIGITMODE_ Constants](https://learn.microsoft.com/windows/desktop/Tapi/linedigitmode--constants).
+
+### `lpsDigits`
+
+Pointer to the buffer where detected digits are to be stored as text characters. Digits may not show up in the buffer one at a time as they are collected. Only after a
+[LINE_GATHERDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-gatherdigits) message is received should the content of the buffer be assumed to be valid. If *lpsDigits* is **NULL**, the digit gathering currently in progress on the call is terminated and *dwNumDigits* is ignored. Otherwise, *lpsDigits* is assumed to have room for *dwNumDigits* digits.
+
+### `dwNumDigits`
+
+Number of digits to be collected before a LINE_GATHERDIGITS message is sent to the application. The *dwNumDigits* parameter is ignored when *lpsDigits* is **NULL**. This function fails if *dwNumDigits* is zero.
+
+### `lpszTerminationDigits`
+
+**Null**-terminated string of termination digits as text characters. If one of the digits in the string is detected, that termination digit is appended to the buffer, digit collection is terminated, and the
+[LINE_GATHERDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-gatherdigits) message is sent to the application.
+
+The list of valid characters is dependent on the constant provided in *dwDigitModes*. For a list of the valid characters for each possible mode, see
+[LINEDIGITMODE_ Constants](https://learn.microsoft.com/windows/desktop/Tapi/linedigitmode--constants).
+
+If this pointer is **NULL**, or if it points to an empty string, the function behaves as though no termination digits were supplied.
+
+### `dwFirstDigitTimeout`
+
+Time duration in milliseconds in which the first digit is expected. If the first digit is not received in this timeframe, digit collection is aborted and a
+[LINE_GATHERDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-gatherdigits) message is sent to the application. The buffer only contains the **NULL** character, indicating that no digits were received and the first digit timeout terminated digit gathering. The call's line-device capabilities specify the valid range for this parameter or indicate that timeouts are not supported.
+
+### `dwInterDigitTimeout`
+
+Maximum time duration in milliseconds between consecutive digits. If no digit is received in this timeframe, digit collection is aborted and a LINE_GATHERDIGITS message is sent to the application. The buffer only contains the digits collected up to this point followed by a **NULL** character, indicating that an interdigit timeout terminated digit gathering. The call's line-device capabilities specify the valid range for this parameter or indicate that timeouts are not supported.
+
+## Return value
+
+Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
+
+LINEERR_INVALCALLHANDLE, LINEERR_NOMEM, LINEERR_INVALCALLSTATE, LINEERR_NOTOWNER, LINEERR_INVALDIGITMODE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALDIGITS, LINEERR_OPERATIONFAILED, LINEERR_INVALPARAM, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED.
+
+## Remarks
+
+Digit collection is terminated when the requested number of digits has been collected. It is also terminated when one of the digits detected matches a digit in *szTerminationDigits* before the specified number of digits has been collected. The detected termination digit is also placed in the buffer and the partial buffer is returned.
+
+Another way of canceling digit collection occurs when one of the timeouts expires. The *dwFirstDigitTimeout* expires if the first digit is not received in this time period. The *dwInterDigitTimout* expires if the second, third, (and so forth) digit is not received within that time period from the previously detected digit, and a partial buffer is returned.
+
+A fourth method for terminating digit collection is by calling this function again while collection is in progress. The old collection session is terminated, any digits collected up to that point are copied to the buffer supplied from the previous call to this function, and the buffer is delivered when the
+[LINE_GATHERDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-gatherdigits) message is sent to the application. The mechanism for terminating digit gathering without initiating another gathering of the digits is to invoke this function with *lpsDigits* equal to **NULL**.
+
+This function is considered successful if digit collection has been correctly initiated, not if digit collection has terminated. In all cases where a partial buffer is returned, valid digits (if any) are followed by a **NULL** character.
+
+Although this function can be invoked in any call state, digits can typically only be gathered while the call is in the *connected* state.
+
+The message LINE_GATHERDIGITS is sent only to the application that initiated the request. It is also sent when partial buffers are returned because of timeouts or matching termination digits, or when the request is canceled by another
+**lineGatherDigits** request on the call. Only one gather-digits request can be active on a call at any given time across all applications that are owners of the call. Given the asynchronous behavior of the operation, an application that issues multiple
+**lineGatherDigits** requests in quick succession may be able to do so and receive several LINE_GATHERDIGITS messages later. While this would be unusual application behavior, the application is able to count the number of these messages to allow cancel messages to be matched with the earlier requests. In any case, only the most recent request should be assumed to be valid.
+
+**Note** When an application invokes any asynchronous operation that writes data back into application memory, the application must keep that memory available for writing until a
+[LINE_REPLY](https://learn.microsoft.com/windows/desktop/Tapi/line-reply) or
+[LINE_GATHERDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-gatherdigits) message is received.
+
+An application can use
+[lineMonitorDigits](https://learn.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitordigits) to enable or disable unbuffered digit detection. Each time a digit is detected in this fashion, a
+[LINE_MONITORDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-monitordigits) message is sent to the application. Both buffered and unbuffered digit detection can be simultaneously enabled for the same call.
+
+Gathering of digits on a conference call applies only to the *hConfCall*, not to the individual participating calls.
+
+If the
+**lineGatherDigits** function is used to cancel a previous request to gather digits, the function copies any digits collected up to that point to the buffer specified in the original function call. The function then sends a LINE_GATHERDIGITS message to the application, regardless of whether the *lpszDigits* parameter in the second call specifies a **NULL** or different address.
+
+> [!NOTE]
+> The tapi.h header defines lineGatherDigits as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[LINE_GATHERDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-gatherdigits)
+
+[LINE_MONITORDIGITS](https://learn.microsoft.com/windows/desktop/Tapi/line-monitordigits)
+
+[LINE_REPLY](https://learn.microsoft.com/windows/desktop/Tapi/line-reply)
+
+[Supplementary Line Service Functions](https://learn.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions)
+
+[TAPI 2.2 Reference Overview](https://learn.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference)
+
+[lineMonitorDigits](https://learn.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitordigits)

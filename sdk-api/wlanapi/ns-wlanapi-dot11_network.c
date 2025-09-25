@@ -1,0 +1,4 @@
+typedef struct _DOT11_NETWORK {
+  DOT11_SSID     dot11Ssid;
+  DOT11_BSS_TYPE dot11BssType;
+} DOT11_NETWORK, *PDOT11_NETWORK;

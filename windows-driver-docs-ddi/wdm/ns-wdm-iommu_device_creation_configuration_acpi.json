@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+  "tech.root": "kernel",
+  "title": "IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+  "ms.date": "06/04/2021",
+  "targetos": "Windows",
+  "description": "IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI provides the ACPI-specific configuration parameters of a IOMMU_DEVICE_CREATION_CONFIGURATION structure, which is provided for creation of an ACPI-type IOMMU_DMA_DEVICE.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI, *PIOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+    "PIOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+    "IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI"
+  ],
+  "f1_keywords": [
+    "_IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+    "wdm/_IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+    "PIOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+    "wdm/PIOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+    "IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI",
+    "wdm/IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

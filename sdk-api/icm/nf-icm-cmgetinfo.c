@@ -1,0 +1,3 @@
+DWORD CMGetInfo(
+  DWORD dwInfo
+);

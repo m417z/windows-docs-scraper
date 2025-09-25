@@ -1,0 +1,48 @@
+{
+  "UID": "NF:winuser.SetThreadCursorCreationScaling",
+  "title": "SetThreadCursorCreationScaling function (winuser.h)",
+  "description": "Sets the DPI scale for which the cursors being created on this thread are intended. This value is taken into account when scaling the cursor for the specific monitor on which it is being shown.",
+  "helpviewer_keywords": "SetThreadCursorCreationScaling",
+  "ms.date": "09/23/2021",
+  "tech.root": "hidpi",
+  "targetos": "Windows",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winuser.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 Build 22000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "user32.dll"
+  ],
+  "api_name": [
+    "SetThreadCursorCreationScaling"
+  ],
+  "f1_keywords": [
+    "SetThreadCursorCreationScaling",
+    "winuser/SetThreadCursorCreationScaling"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT OnConnectionStatusChange(
+  DOT11_ADHOC_NETWORK_CONNECTION_STATUS eStatus
+);

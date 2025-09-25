@@ -1,0 +1,59 @@
+{
+  "UID": "NF:ntmsapi.GetNtmsObjectSecurity",
+  "title": "GetNtmsObjectSecurity function (ntmsapi.h)",
+  "description": "The GetNtmsObjectSecurity function reads the security descriptor for the specified RSM object.",
+  "helpviewer_keywords": [
+    "GetNtmsObjectSecurity",
+    "GetNtmsObjectSecurity function [Files]",
+    "_zaw_getntmsobjectsecurity",
+    "base.getntmsobjectsecurity",
+    "fs.getntmsobjectsecurity",
+    "ntmsapi/GetNtmsObjectSecurity"
+  ],
+  "old-location": "fs\\getntmsobjectsecurity.htm",
+  "tech.root": "fs",
+  "ms.assetid": "1d2168a3-077e-48fc-8a06-91952213f2cb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetNtmsObjectSecurity, GetNtmsObjectSecurity function [Files], _zaw_getntmsobjectsecurity, base.getntmsobjectsecurity, fs.getntmsobjectsecurity, ntmsapi/GetNtmsObjectSecurity",
+  "req.header": "ntmsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntmsapi.lib",
+  "req.dll": "Ntmsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetNtmsObjectSecurity",
+    "ntmsapi/GetNtmsObjectSecurity"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntmsapi.dll"
+  ],
+  "api_name": [
+    "GetNtmsObjectSecurity"
+  ]
+}

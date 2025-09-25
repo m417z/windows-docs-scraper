@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1550 {
+  DWORD sv1550_diskspacethreshold;
+} SERVER_INFO_1550, *PSERVER_INFO_1550, *LPSERVER_INFO_1550;

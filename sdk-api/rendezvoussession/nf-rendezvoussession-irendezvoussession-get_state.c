@@ -1,0 +1,3 @@
+HRESULT get_State(
+  RENDEZVOUS_SESSION_STATE *pSessionState
+);

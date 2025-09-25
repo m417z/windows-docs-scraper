@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10DDI_DESTROYQUERY",
+  "title": "PFND3D10DDI_DESTROYQUERY (d3d10umddi.h)",
+  "description": "The DestroyQuery(D3D10) function destroys the specified query object. The query object can be destroyed only if it is not currently bound to a display device.",
+  "old-location": "display\\destroyquery_d3d10_.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10DDI_DESTROYQUERY callback function"
+  ],
+  "ms.keywords": "DestroyQuery, DestroyQuery callback function [Display Devices], PFND3D10DDI_DESTROYQUERY, PFND3D10DDI_DESTROYQUERY callback, UserModeDisplayDriverDx10_Functions_9c0fdf87-a47b-45b5-9ec9-5c307d412c9c.xml, d3d10umddi/DestroyQuery, display.destroyquery_d3d10_",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10DDI_DESTROYQUERY",
+    "d3d10umddi/PFND3D10DDI_DESTROYQUERY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10DDI_DESTROYQUERY"
+  ]
+}

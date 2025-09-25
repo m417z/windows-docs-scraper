@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_msopc_0000_0002_0003 {
+  OPC_STREAM_IO_READ = 1,
+  OPC_STREAM_IO_WRITE = 2
+} OPC_STREAM_IO_MODE;

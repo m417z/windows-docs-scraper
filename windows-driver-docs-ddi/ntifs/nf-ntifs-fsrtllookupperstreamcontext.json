@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.FsRtlLookupPerStreamContext",
+  "title": "FsRtlLookupPerStreamContext macro (ntifs.h)",
+  "description": "The FsRtlLookupPerStreamContext macro retrieves a per-stream context structure for a file stream.",
+  "old-location": "ifsk\\fsrtllookupperstreamcontext.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FsRtlLookupPerStreamContext macro"
+  ],
+  "ms.keywords": "FsRtlLookupPerStreamContext, FsRtlLookupPerStreamContext function [Installable File System Drivers], fsrtlref_8284a485-5669-4a4f-a2cf-d566b82299fb.xml, ifsk.fsrtllookupperstreamcontext, ntifs/FsRtlLookupPerStreamContext",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 2000 SP4 Update Rollup; Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FsRtlLookupPerStreamContext",
+    "ntifs/FsRtlLookupPerStreamContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FsRtlLookupPerStreamContext"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.FONTOBJ_cGetGlyphs",
+  "title": "FONTOBJ_cGetGlyphs function (winddi.h)",
+  "description": "The FONTOBJ_cGetGlyphs function is a service to the font consumer that translates glyph handles into pointers to glyph data, which are valid until the next call to FONTOBJ_cGetGlyphs.",
+  "helpviewer_keywords": [
+    "FONTOBJ_cGetGlyphs",
+    "FONTOBJ_cGetGlyphs function [Display Devices]",
+    "display.fontobj_cgetglyphs",
+    "gdifncs_8e402f9d-4ce3-4907-921c-9c0335a3966b.xml",
+    "winddi/FONTOBJ_cGetGlyphs"
+  ],
+  "old-location": "display\\fontobj_cgetglyphs.htm",
+  "tech.root": "display",
+  "ms.assetid": "0174fc88-e665-427e-b22f-468ddbea5b47",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FONTOBJ_cGetGlyphs, FONTOBJ_cGetGlyphs function [Display Devices], display.fontobj_cgetglyphs, gdifncs_8e402f9d-4ce3-4907-921c-9c0335a3966b.xml, winddi/FONTOBJ_cGetGlyphs",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FONTOBJ_cGetGlyphs",
+    "winddi/FONTOBJ_cGetGlyphs"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "FONTOBJ_cGetGlyphs"
+  ]
+}

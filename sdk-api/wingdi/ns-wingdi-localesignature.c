@@ -1,0 +1,5 @@
+typedef struct tagLOCALESIGNATURE {
+  DWORD lsUsb[4];
+  DWORD lsCsbDefault[2];
+  DWORD lsCsbSupported[2];
+} LOCALESIGNATURE, *PLOCALESIGNATURE, *LPLOCALESIGNATURE;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortAcquireSpinLockAtDpcLevel",
+  "title": "VideoPortAcquireSpinLockAtDpcLevel function (video.h)",
+  "description": "The VideoPortAcquireSpinLockAtDpcLevel function acquires a spin lock when the caller is already running at IRQL = DISPATCH_LEVEL.",
+  "old-location": "display\\videoportacquirespinlockatdpclevel.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortAcquireSpinLockAtDpcLevel function"
+  ],
+  "ms.keywords": "VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, display.videoportacquirespinlockatdpclevel, video/VideoPortAcquireSpinLockAtDpcLevel",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortAcquireSpinLockAtDpcLevel",
+    "video/VideoPortAcquireSpinLockAtDpcLevel"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortAcquireSpinLockAtDpcLevel"
+  ]
+}

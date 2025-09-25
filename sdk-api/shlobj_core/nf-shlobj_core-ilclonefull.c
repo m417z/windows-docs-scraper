@@ -1,0 +1,3 @@
+PIDLIST_ABSOLUTE ILCloneFull(
+  [in] PCUIDLIST_ABSOLUTE pidl
+);

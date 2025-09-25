@@ -1,0 +1,3 @@
+NTSTATUS AcxDrmDestroyContent(
+  ULONG ContentId
+);

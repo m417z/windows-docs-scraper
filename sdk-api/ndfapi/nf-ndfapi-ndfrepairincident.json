@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ndfapi.NdfRepairIncident",
+  "title": "NdfRepairIncident function (ndfapi.h)",
+  "description": "Repairs an incident without displaying a user interface.",
+  "helpviewer_keywords": [
+    "NdfRepairIncident",
+    "NdfRepairIncident function [NDF]",
+    "ndf.ndfrepairincident",
+    "ndfapi/NdfRepairIncident"
+  ],
+  "old-location": "ndf\\ndfrepairincident.htm",
+  "tech.root": "NDF",
+  "ms.assetid": "570e7824-463f-4fc1-bc1a-16a1da31e8a3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NdfRepairIncident, NdfRepairIncident function [NDF], ndf.ndfrepairincident, ndfapi/NdfRepairIncident",
+  "req.header": "ndfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndfapi.lib",
+  "req.dll": "Ndfapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NdfRepairIncident",
+    "ndfapi/NdfRepairIncident"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ndfapi.dll"
+  ],
+  "api_name": [
+    "NdfRepairIncident"
+  ]
+}

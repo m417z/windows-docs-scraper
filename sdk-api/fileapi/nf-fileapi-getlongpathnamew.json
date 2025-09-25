@@ -1,0 +1,73 @@
+{
+  "UID": "NF:fileapi.GetLongPathNameW",
+  "title": "GetLongPathNameW function (fileapi.h)",
+  "description": "Converts the specified path to its long form. (Unicode)",
+  "helpviewer_keywords": [
+    "GetLongPathName",
+    "GetLongPathName function [Files]",
+    "GetLongPathNameW",
+    "_win32_getlongpathname",
+    "base.getlongpathname",
+    "fileapi/GetLongPathName",
+    "fileapi/GetLongPathNameW",
+    "fs.getlongpathname"
+  ],
+  "old-location": "fs\\getlongpathname.htm",
+  "tech.root": "fs",
+  "ms.assetid": "8ce69033-b69b-438b-a27f-938dd327c8ec",
+  "ms.date": "11/25/2019",
+  "ms.keywords": "GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetLongPathNameW (Unicode) and GetLongPathNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetLongPathNameW",
+    "fileapi/GetLongPathNameW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-0.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "GetLongPathName",
+    "GetLongPathNameA",
+    "GetLongPathNameW"
+  ]
+}

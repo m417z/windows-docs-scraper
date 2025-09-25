@@ -1,0 +1,3 @@
+HRESULT SetSocketMediaStreamingMode(
+  BOOL value
+);

@@ -1,0 +1,72 @@
+{
+  "UID": "NF:winbase.VerifyVersionInfoA",
+  "title": "VerifyVersionInfoA function (winbase.h)",
+  "description": "Compares a set of operating system version requirements to the corresponding values for the currently running version of the system. (ANSI)",
+  "helpviewer_keywords": [
+    "VER_BUILDNUMBER",
+    "VER_MAJORVERSION",
+    "VER_MINORVERSION",
+    "VER_PLATFORMID",
+    "VER_PRODUCT_TYPE",
+    "VER_SERVICEPACKMAJOR",
+    "VER_SERVICEPACKMINOR",
+    "VER_SUITENAME",
+    "VerifyVersionInfoA",
+    "winbase/VerifyVersionInfoA"
+  ],
+  "old-location": "base\\verifyversioninfo.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "791bc6bf-f486-4110-b6ea-30a0935040b2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "VER_BUILDNUMBER, VER_MAJORVERSION, VER_MINORVERSION, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerifyVersionInfo, VerifyVersionInfo function, VerifyVersionInfoA, VerifyVersionInfoW, _win32_verifyversioninfo, base.verifyversioninfo, winbase/VerifyVersionInfo, winbase/VerifyVersionInfoA, winbase/VerifyVersionInfoW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "VerifyVersionInfoW (Unicode) and VerifyVersionInfoA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "VerifyVersionInfoA",
+    "winbase/VerifyVersionInfoA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "VerifyVersionInfo",
+    "VerifyVersionInfoA",
+    "VerifyVersionInfoW"
+  ]
+}

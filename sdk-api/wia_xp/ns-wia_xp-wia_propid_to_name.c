@@ -1,0 +1,4 @@
+typedef struct _WIA_PROPID_TO_NAME {
+  PROPID   propid;
+  LPOLESTR pszName;
+} WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME;

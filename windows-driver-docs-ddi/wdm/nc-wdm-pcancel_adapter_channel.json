@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PCANCEL_ADAPTER_CHANNEL",
+  "title": "PCANCEL_ADAPTER_CHANNEL (wdm.h)",
+  "description": "The CancelAdapterChannel routine tries to cancel a pending request to allocate a DMA channel.",
+  "old-location": "kernel\\canceladapterchannel.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PCANCEL_ADAPTER_CHANNEL callback function"
+  ],
+  "ms.keywords": "CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], PCANCEL_ADAPTER_CHANNEL, PCANCEL_ADAPTER_CHANNEL callback, kernel.canceladapterchannel, wdm/CancelAdapterChannel",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCANCEL_ADAPTER_CHANNEL",
+    "wdm/PCANCEL_ADAPTER_CHANNEL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PCANCEL_ADAPTER_CHANNEL"
+  ]
+}

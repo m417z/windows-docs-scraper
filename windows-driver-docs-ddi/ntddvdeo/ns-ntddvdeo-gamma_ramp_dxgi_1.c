@@ -1,0 +1,5 @@
+typedef struct _GAMMA_RAMP_DXGI_1 {
+  GAMMA_RAMP_RGB Scale;
+  GAMMA_RAMP_RGB Offset;
+  GAMMA_RAMP_RGB GammaCurve[1025];
+} GAMMA_RAMP_DXGI_1;

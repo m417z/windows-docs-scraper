@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fileapifromapp.FindFirstFileExFromAppW",
+  "tech.root": "fs",
+  "title": "FindFirstFileExFromAppW",
+  "ms.date": "03/23/2021",
+  "targetos": "Windows",
+  "description": "Searches a directory for a file or subdirectory with a name and attributes that match those specified.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fileapifromapp.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "api-ms-win-core-file-fromapp-l1-1-0.dll"
+  ],
+  "api_name": [
+    "GetFileAttributesFromAppW",
+    "GetFileAttributesFromApp"
+  ],
+  "api_type": [
+    "DLLExport"
+  ],
+  "f1_keywords": [
+    "FindFirstFileExFromAppW",
+    "fileapifromapp/FindFirstFileExFromAppW"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

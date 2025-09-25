@@ -1,0 +1,8 @@
+EVT_IDD_CX_ADAPTER_QUERY_TARGET_INFO EvtIddCxAdapterQueryTargetInfo;
+
+NTSTATUS EvtIddCxAdapterQueryTargetInfo(
+  IDDCX_ADAPTER AdapterObject,
+  IDARG_IN_QUERYTARGET_INFO *pInArgs,
+  IDARG_OUT_QUERYTARGET_INFO *pOutArgs
+)
+{...}

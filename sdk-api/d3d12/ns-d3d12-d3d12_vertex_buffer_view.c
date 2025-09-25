@@ -1,0 +1,5 @@
+typedef struct D3D12_VERTEX_BUFFER_VIEW {
+  D3D12_GPU_VIRTUAL_ADDRESS BufferLocation;
+  UINT                      SizeInBytes;
+  UINT                      StrideInBytes;
+} D3D12_VERTEX_BUFFER_VIEW;

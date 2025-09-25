@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTWaitForIdle(
+  IN const *D3DKMT_WAITFORIDLE
+);

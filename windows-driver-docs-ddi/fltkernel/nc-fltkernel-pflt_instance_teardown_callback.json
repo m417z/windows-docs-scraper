@@ -1,0 +1,48 @@
+{
+  "UID": "NC:fltkernel.PFLT_INSTANCE_TEARDOWN_CALLBACK",
+  "title": "PFLT_INSTANCE_TEARDOWN_CALLBACK (fltkernel.h)",
+  "description": "A minifilter driver can register two routines of type PFLT_INSTANCE_TEARDOWN_CALLBACK as the minifilter driver's InstanceTeardownStartCallback and InstanceTeardownCompleteCallback routines.",
+  "old-location": "ifsk\\pflt_instance_teardown_callback.htm",
+  "tech.root": "ifsk",
+  "ms.date": "10/26/2021",
+  "keywords": [
+    "PFLT_INSTANCE_TEARDOWN_CALLBACK callback"
+  ],
+  "ms.keywords": "FltCallbacks_2bec09ed-3009-465c-842b-67e0cd7d734f.xml, PFLT_INSTANCE_TEARDOWN_CALLBACK, PFLT_INSTANCE_TEARDOWN_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK, ifsk.pflt_instance_teardown_callback",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": "EXpsFontRestriction",
+  "f1_keywords": [
+    "PFLT_INSTANCE_TEARDOWN_CALLBACK",
+    "fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "PFLT_INSTANCE_TEARDOWN_CALLBACK"
+  ]
+}

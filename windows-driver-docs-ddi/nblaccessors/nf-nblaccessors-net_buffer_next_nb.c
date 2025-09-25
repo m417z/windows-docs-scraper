@@ -1,0 +1,1 @@
+#define NET_BUFFER_NEXT_NB(_NB) ((_NB)->Next)

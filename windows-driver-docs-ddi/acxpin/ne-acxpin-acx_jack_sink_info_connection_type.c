@@ -1,0 +1,4 @@
+typedef enum _ACX_JACK_SINK_INFO_CONNECTION_TYPE {
+  AcxJackSinkInfoConnectionTypeHdmi,
+  AcxJackSinkInfoConnectionTypeDisplayPort
+} ACX_JACK_SINK_INFO_CONNECTION_TYPE, *PACX_JACK_SINK_INFO_CONNECTION_TYPE;

@@ -1,0 +1,4 @@
+typedef struct _WWAN_CDMA_MRL {
+  ULONG ElementCount;
+  BYTE  CDMAMrl[ANYSIZE_ARRAY];
+} WWAN_CDMA_MRL, *PWWAN_CDMA_MRL;

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:rend.ITDirectoryObject.get_DialableAddrs",
+  "title": "ITDirectoryObject::get_DialableAddrs (rend.h)",
+  "description": "The get_DialableAddrs method gets all dialable addresses of a given type from the directory. This method performs the same function as EnumerateDialableAddrs but is used by scripting languages such as Visual Basic.",
+  "helpviewer_keywords": [
+    "ITDirectoryObject interface [TAPI 2.2]",
+    "get_DialableAddrs method",
+    "ITDirectoryObject.get_DialableAddrs",
+    "ITDirectoryObject::get_DialableAddrs",
+    "_tapi3_itdirectoryobject_get_dialableaddrs",
+    "get_DialableAddrs",
+    "get_DialableAddrs method [TAPI 2.2]",
+    "get_DialableAddrs method [TAPI 2.2]",
+    "ITDirectoryObject interface",
+    "rend/ITDirectoryObject::get_DialableAddrs",
+    "tapi3.itdirectoryobject_get_dialableaddrs"
+  ],
+  "old-location": "tapi3\\itdirectoryobject_get_dialableaddrs.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "b72e9c49-4d5a-432a-b21b-ec444912ea61",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITDirectoryObject interface [TAPI 2.2],get_DialableAddrs method, ITDirectoryObject.get_DialableAddrs, ITDirectoryObject::get_DialableAddrs, _tapi3_itdirectoryobject_get_dialableaddrs, get_DialableAddrs, get_DialableAddrs method [TAPI 2.2], get_DialableAddrs method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_DialableAddrs, tapi3.itdirectoryobject_get_dialableaddrs",
+  "req.header": "rend.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Rend.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Rend.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITDirectoryObject::get_DialableAddrs",
+    "rend/ITDirectoryObject::get_DialableAddrs"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Rend.dll"
+  ],
+  "api_name": [
+    "ITDirectoryObject.get_DialableAddrs"
+  ]
+}

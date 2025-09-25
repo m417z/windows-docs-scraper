@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMIStreamProps.GetProperty",
+  "title": "IWMIStreamProps::GetProperty (wmsdkidl.h)",
+  "description": "The GetProperty method retrieves a named property from the IStream.",
+  "helpviewer_keywords": [
+    "GetProperty",
+    "GetProperty method [windows Media Format]",
+    "GetProperty method [windows Media Format]",
+    "IWMIStreamProps interface",
+    "IWMIStreamProps interface [windows Media Format]",
+    "GetProperty method",
+    "IWMIStreamProps.GetProperty",
+    "IWMIStreamProps::GetProperty",
+    "IWMIStreamPropsGetProperty",
+    "wmformat.iwmistreamprops_getproperty",
+    "wmsdkidl/IWMIStreamProps::GetProperty"
+  ],
+  "old-location": "wmformat\\iwmistreamprops_getproperty.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "1873e20f-376a-45fe-ad02-0c28c894af18",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],IWMIStreamProps interface, IWMIStreamProps interface [windows Media Format],GetProperty method, IWMIStreamProps.GetProperty, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMIStreamProps::GetProperty",
+    "wmsdkidl/IWMIStreamProps::GetProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMIStreamProps.GetProperty"
+  ]
+}

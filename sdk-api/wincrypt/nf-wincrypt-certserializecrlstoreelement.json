@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CertSerializeCRLStoreElement",
+  "title": "CertSerializeCRLStoreElement function (wincrypt.h)",
+  "description": "The CertSerializeCRLStoreElement function serializes an encoded certificate revocation list (CRL) context and the encoded representation of its properties.",
+  "helpviewer_keywords": [
+    "CertSerializeCRLStoreElement",
+    "CertSerializeCRLStoreElement function [Security]",
+    "_crypto2_certserializecrlstoreelement",
+    "security.certserializecrlstoreelement",
+    "wincrypt/CertSerializeCRLStoreElement"
+  ],
+  "old-location": "security\\certserializecrlstoreelement.htm",
+  "tech.root": "security",
+  "ms.assetid": "4ab053cd-d3d4-483c-b0ff-b8de63d88707",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertSerializeCRLStoreElement, CertSerializeCRLStoreElement function [Security], _crypto2_certserializecrlstoreelement, security.certserializecrlstoreelement, wincrypt/CertSerializeCRLStoreElement",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertSerializeCRLStoreElement",
+    "wincrypt/CertSerializeCRLStoreElement"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertSerializeCRLStoreElement"
+  ]
+}

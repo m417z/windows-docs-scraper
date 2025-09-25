@@ -1,0 +1,4 @@
+typedef struct _POINTFLOAT {
+  FLOAT x;
+  FLOAT y;
+} POINTFLOAT, *PPOINTFLOAT;

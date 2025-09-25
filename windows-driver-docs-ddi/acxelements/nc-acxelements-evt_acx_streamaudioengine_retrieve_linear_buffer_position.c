@@ -1,0 +1,7 @@
+EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION EvtAcxStreamaudioengineRetrieveLinearBufferPosition;
+
+NTSTATUS EvtAcxStreamaudioengineRetrieveLinearBufferPosition(
+  ACXSTREAMAUDIOENGINE StreamAudioEngine,
+  PULONGLONG Position
+)
+{...}

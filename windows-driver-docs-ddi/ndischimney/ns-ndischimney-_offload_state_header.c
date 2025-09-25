@@ -1,0 +1,4 @@
+typedef struct _OFFLOAD_STATE_HEADER {
+  ULONG Length;
+  ULONG RecognizedOptions;
+} OFFLOAD_STATE_HEADER, *POFFLOAD_STATE_HEADER;

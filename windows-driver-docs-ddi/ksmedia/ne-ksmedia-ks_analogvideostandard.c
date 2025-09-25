@@ -1,0 +1,23 @@
+typedef enum {
+  KS_AnalogVideo_None,
+  KS_AnalogVideo_NTSC_M,
+  KS_AnalogVideo_NTSC_M_J,
+  KS_AnalogVideo_NTSC_433,
+  KS_AnalogVideo_PAL_B,
+  KS_AnalogVideo_PAL_D,
+  KS_AnalogVideo_PAL_G,
+  KS_AnalogVideo_PAL_H,
+  KS_AnalogVideo_PAL_I,
+  KS_AnalogVideo_PAL_M,
+  KS_AnalogVideo_PAL_N,
+  KS_AnalogVideo_PAL_60,
+  KS_AnalogVideo_SECAM_B,
+  KS_AnalogVideo_SECAM_D,
+  KS_AnalogVideo_SECAM_G,
+  KS_AnalogVideo_SECAM_H,
+  KS_AnalogVideo_SECAM_K,
+  KS_AnalogVideo_SECAM_K1,
+  KS_AnalogVideo_SECAM_L,
+  KS_AnalogVideo_SECAM_L1,
+  KS_AnalogVideo_PAL_N_COMBO
+} KS_AnalogVideoStandard;

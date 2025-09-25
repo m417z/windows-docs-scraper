@@ -1,0 +1,7 @@
+typedef struct _D3DHAL_VALIDATETEXTURESTAGESTATEDATA {
+  ULONG_PTR dwhContext;
+  DWORD     dwFlags;
+  ULONG_PTR dwReserved;
+  DWORD     dwNumPasses;
+  HRESULT   ddrval;
+} D3DHAL_VALIDATETEXTURESTAGESTATEDATA;

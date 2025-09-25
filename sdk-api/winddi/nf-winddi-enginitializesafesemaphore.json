@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngInitializeSafeSemaphore",
+  "title": "EngInitializeSafeSemaphore function (winddi.h)",
+  "description": "The EngInitializeSafeSemaphore function initializes the specified safe semaphore.",
+  "helpviewer_keywords": [
+    "EngInitializeSafeSemaphore",
+    "EngInitializeSafeSemaphore function [Display Devices]",
+    "display.enginitializesafesemaphore",
+    "gdifncs_92f07217-a6d2-4996-99a9-eb289a713e19.xml",
+    "winddi/EngInitializeSafeSemaphore"
+  ],
+  "old-location": "display\\enginitializesafesemaphore.htm",
+  "tech.root": "display",
+  "ms.assetid": "17b614b0-1c41-442c-b787-978eac3ade45",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngInitializeSafeSemaphore, EngInitializeSafeSemaphore function [Display Devices], display.enginitializesafesemaphore, gdifncs_92f07217-a6d2-4996-99a9-eb289a713e19.xml, winddi/EngInitializeSafeSemaphore",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngInitializeSafeSemaphore",
+    "winddi/EngInitializeSafeSemaphore"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngInitializeSafeSemaphore"
+  ]
+}

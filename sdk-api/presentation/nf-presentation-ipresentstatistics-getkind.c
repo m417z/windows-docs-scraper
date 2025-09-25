@@ -1,0 +1,1 @@
+PresentStatisticsKind GetKind();

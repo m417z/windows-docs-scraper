@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010 {
+  XPS_FILL_RULE_EVENODD = 1,
+  XPS_FILL_RULE_NONZERO
+} XPS_FILL_RULE;

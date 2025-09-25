@@ -1,0 +1,6 @@
+typedef struct _LBA_FILTER_TABLE_ENTRY {
+  ULARGE_INTEGER StartLba;
+  ULARGE_INTEGER LbaCount;
+  BOOLEAN        ReadLock;
+  BOOLEAN        WriteLock;
+} LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY;

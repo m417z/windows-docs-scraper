@@ -1,0 +1,4 @@
+typedef struct D3D11_COUNTER_DESC {
+  D3D11_COUNTER Counter;
+  UINT          MiscFlags;
+} D3D11_COUNTER_DESC;

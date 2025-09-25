@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD DeleteIpForwardEntry(
+  [in] PMIB_IPFORWARDROW pRoute
+);

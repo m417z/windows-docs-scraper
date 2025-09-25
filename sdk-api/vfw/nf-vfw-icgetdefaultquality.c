@@ -1,0 +1,4 @@
+DWORD ICGetDefaultQuality(
+     hic,
+     wParam
+);

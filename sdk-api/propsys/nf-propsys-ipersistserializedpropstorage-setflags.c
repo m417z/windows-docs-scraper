@@ -1,0 +1,3 @@
+HRESULT SetFlags(
+  [in] PERSIST_SPROPSTORE_FLAGS flags
+);

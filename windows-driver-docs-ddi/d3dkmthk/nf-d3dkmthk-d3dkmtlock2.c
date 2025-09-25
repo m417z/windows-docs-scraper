@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTLock2(
+  D3DKMT_LOCK2 *unnamedParam1
+);

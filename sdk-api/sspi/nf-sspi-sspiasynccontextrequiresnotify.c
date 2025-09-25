@@ -1,0 +1,3 @@
+BOOLEAN SspiAsyncContextRequiresNotify(
+  SspiAsyncContext *AsyncContext
+);

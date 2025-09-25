@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateDevice(
+  D3DKMT_CREATEDEVICE *unnamedParam1
+);

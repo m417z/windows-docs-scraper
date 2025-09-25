@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._SOV_RANGE_CHECK_DATA",
+  "tech.root": "ifsk",
+  "title": "SOV_RANGE_CHECK_DATA",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Reserved for system use.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SOV_RANGE_CHECK_DATA, *PSOV_RANGE_CHECK_DATA",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SOV_RANGE_CHECK_DATA",
+    "PSOV_RANGE_CHECK_DATA",
+    "SOV_RANGE_CHECK_DATA"
+  ],
+  "f1_keywords": [
+    "_SOV_RANGE_CHECK_DATA",
+    "ntifs/_SOV_RANGE_CHECK_DATA",
+    "PSOV_RANGE_CHECK_DATA",
+    "ntifs/PSOV_RANGE_CHECK_DATA",
+    "SOV_RANGE_CHECK_DATA",
+    "ntifs/SOV_RANGE_CHECK_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_SOV_RANGE_CHECK_DATA"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntpoapi.CM_Power_Data_s",
+  "title": "CM_Power_Data_s (ntpoapi.h)",
+  "description": "The CM_POWER_DATA structure contains information about a device's power management state and capabilities.",
+  "old-location": "kernel\\cm_power_data.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "CM_Power_Data_s structure"
+  ],
+  "ms.keywords": "*PCM_POWER_DATA, CM_POWER_DATA, CM_POWER_DATA structure [Kernel-Mode Driver Architecture], CM_Power_Data_s, PCM_POWER_DATA, PCM_POWER_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.cm_power_data, kstruct_a_da572af5-5cb2-41f4-be3d-f2c1b715e4d7.xml, wdm/CM_POWER_DATA, wdm/PCM_POWER_DATA",
+  "req.header": "ntpoapi.h",
+  "req.include-header": "Ntddk.h, Ntpoapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CM_POWER_DATA, *PCM_POWER_DATA",
+  "f1_keywords": [
+    "CM_Power_Data_s",
+    "ntpoapi/CM_Power_Data_s",
+    "PCM_POWER_DATA",
+    "ntpoapi/PCM_POWER_DATA",
+    "CM_POWER_DATA",
+    "ntpoapi/CM_POWER_DATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "CM_Power_Data_s",
+    "PCM_POWER_DATA",
+    "CM_POWER_DATA"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct _TAPE_SET_DRIVE_PARAMETERS {
+  BOOLEAN ECC;
+  BOOLEAN Compression;
+  BOOLEAN DataPadding;
+  BOOLEAN ReportSetmarks;
+  DWORD   EOTWarningZoneSize;
+} TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS;

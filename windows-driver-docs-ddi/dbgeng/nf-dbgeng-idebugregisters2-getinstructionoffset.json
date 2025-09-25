@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugRegisters2.GetInstructionOffset",
+  "title": "IDebugRegisters2::GetInstructionOffset (dbgeng.h)",
+  "description": "The GetInstructionOffset method returns the location of the current thread's current instruction. This method belongs to the IDebugRegisters2 interface.",
+  "old-location": "debugger\\getinstructionoffset.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugRegisters2::GetInstructionOffset"
+  ],
+  "ms.keywords": "GetInstructionOffset, GetInstructionOffset method [Windows Debugging], GetInstructionOffset method [Windows Debugging],IDebugRegisters interface, GetInstructionOffset method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetInstructionOffset method, IDebugRegisters2 interface [Windows Debugging],GetInstructionOffset method, IDebugRegisters2.GetInstructionOffset, IDebugRegisters2::GetInstructionOffset, IDebugRegisters::GetInstructionOffset, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, dbgeng/IDebugRegisters2::GetInstructionOffset, dbgeng/IDebugRegisters::GetInstructionOffset, debugger.getinstructionoffset",
+  "req.header": "dbgeng.h",
+  "req.include-header": "DbgEng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugRegisters2::GetInstructionOffset",
+    "dbgeng/IDebugRegisters2::GetInstructionOffset"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugRegisters2::GetInstructionOffset"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupAdjustDiskSpaceListA",
+  "title": "SetupAdjustDiskSpaceListA function (setupapi.h)",
+  "description": "The SetupAdjustDiskSpaceList function adjusts the amount of required space for a specified drive. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupAdjustDiskSpaceListA",
+    "setupapi/SetupAdjustDiskSpaceListA"
+  ],
+  "old-location": "setup\\setupadjustdiskspacelist.htm",
+  "tech.root": "setup",
+  "ms.assetid": "dcdcc43c-9b5c-495b-bf4b-331c4d9461e7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupAdjustDiskSpaceList, SetupAdjustDiskSpaceList function [Setup API], SetupAdjustDiskSpaceListA, SetupAdjustDiskSpaceListW, setup.setupadjustdiskspacelist, setupapi/SetupAdjustDiskSpaceList, setupapi/SetupAdjustDiskSpaceListA, setupapi/SetupAdjustDiskSpaceListW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupAdjustDiskSpaceListW (Unicode) and SetupAdjustDiskSpaceListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupAdjustDiskSpaceListA",
+    "setupapi/SetupAdjustDiskSpaceListA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupAdjustDiskSpaceList",
+    "SetupAdjustDiskSpaceListA",
+    "SetupAdjustDiskSpaceListW"
+  ]
+}

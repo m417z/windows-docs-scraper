@@ -1,0 +1,3 @@
+VOID PoFxCompleteDirectedPowerDown(
+  POHANDLE Handle
+);

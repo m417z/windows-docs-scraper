@@ -1,0 +1,3 @@
+EVNTPROV_PFORCEINLINE UCHAR EventDescGetChannel(
+  [in] PCEVENT_DESCRIPTOR EventDescriptor
+);

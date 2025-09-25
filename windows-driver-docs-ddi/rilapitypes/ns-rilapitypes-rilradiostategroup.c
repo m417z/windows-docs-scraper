@@ -1,0 +1,6 @@
+typedef struct RILRADIOSTATEGROUP {
+  DWORD dwGroupId;
+  DWORD dwGroupType;
+  DWORD dwGroupFlags;
+  WCHAR wszGroupText[32];
+} RILRADIOSTATEGROUP, *LPRILRADIOSTATEGROUP;

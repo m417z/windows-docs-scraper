@@ -1,0 +1,48 @@
+{
+  "UID": "NC:pcivirt.SRIOV_QUERY_PROBED_BARS_2",
+  "title": "SRIOV_QUERY_PROBED_BARS_2 (pcivirt.h)",
+  "description": "Queries the data read from the specified PCI Express SR-IOV Virtual Function (VF) base address registers (BARs) if the value -1 were written to them first.",
+  "old-location": "pci\\sriov_query_probed_bars_2.htm",
+  "tech.root": "PCI",
+  "ms.date": "02/24/2018",
+  "keywords": [
+    "SRIOV_QUERY_PROBED_BARS_2 callback"
+  ],
+  "ms.keywords": "*PSRIOV_QUERY_PROBED_BARS_2, *PSRIOV_QUERY_PROBED_BARS_2 callback function pointer [Buses], PCI.sriov_query_probed_bars_2, SRIOV_QUERY_PROBED_BARS_2, SriovQueryProbedBars2, SriovQueryProbedBars2 callback function [Buses], pcivirt/SriovQueryProbedBars2",
+  "req.header": "pcivirt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "PARCLASS_INFORMATION, *PPARCLASS_INFORMATION",
+  "f1_keywords": [
+    "SRIOV_QUERY_PROBED_BARS_2",
+    "pcivirt/SRIOV_QUERY_PROBED_BARS_2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Pcivirt.h"
+  ],
+  "api_name": [
+    "SRIOV_QUERY_PROBED_BARS_2"
+  ]
+}

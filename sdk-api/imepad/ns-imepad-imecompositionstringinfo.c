@@ -1,0 +1,8 @@
+typedef struct tagIMECOMPOSITIONSTRINGINFO {
+  INT iCompStrLen;
+  INT iCaretPos;
+  INT iEditStart;
+  INT iEditLen;
+  INT iTargetStart;
+  INT iTargetLen;
+} IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO;

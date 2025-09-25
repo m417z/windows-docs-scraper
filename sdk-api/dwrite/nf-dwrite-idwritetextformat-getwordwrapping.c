@@ -1,0 +1,1 @@
+DWRITE_WORD_WRAPPING GetWordWrapping();

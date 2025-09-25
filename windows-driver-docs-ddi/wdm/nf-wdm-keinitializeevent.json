@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeInitializeEvent",
+  "title": "KeInitializeEvent function (wdm.h)",
+  "description": "The KeInitializeEvent routine initializes an event object as a synchronization (single waiter) or notification type event and sets it to a signaled or not-signaled state.",
+  "old-location": "kernel\\keinitializeevent.htm",
+  "tech.root": "kernel",
+  "ms.date": "07/29/2021",
+  "keywords": [
+    "KeInitializeEvent function"
+  ],
+  "ms.keywords": "KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, kernel.keinitializeevent, wdm/KeInitializeEvent",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IoAllocateIrpSignalEventInCompletion, IoAllocateIrpSignalEventInCompletion2, IoAllocateIrpSignalEventInCompletion3, IoAllocateIrpSignalEventInCompletionTimeout, IoBuildDeviceControlWait, IoBuildDeviceControlWaitTimeout, IoBuildDeviceIoControlSetEvent, IoBuildFsdIrpSignalEventInCompletion, IoBuildFsdIrpSignalEventInCompletion2, IoBuildFsdIrpSignalEventInCompletion3, IoBuildFsdIrpSignalEventInCompletionTimeout, IoBuildSynchronousFsdRequestWait, IoBuildSynchronousFsdRequestWaitTimeout, PendedCompletedRequest, PendedCompletedRequestEx, SignalEventInCompletion, SignalEventInCompletion2, SignalEventInCompletion3, StartDeviceWait, StartDeviceWait2, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeInitializeEvent",
+    "wdm/KeInitializeEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeInitializeEvent"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ntddk.PSHED_PI_ATTEMPT_ERROR_RECOVERY",
+  "title": "PSHED_PI_ATTEMPT_ERROR_RECOVERY (ntddk.h)",
+  "description": "A PSHED plug-in's AttemptRecovery callback function attempts to recover from a recoverable hardware error.",
+  "tech.root": "whea",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "PSHED_PI_ATTEMPT_ERROR_RECOVERY callback function"
+  ],
+  "ms.keywords": "AttemptRecovery, AttemptRecovery callback function [WHEA Drivers and Applications], PSHED_PI_ATTEMPT_ERROR_RECOVERY, PSHED_PI_ATTEMPT_ERROR_RECOVERY callback, ntddk/AttemptRecovery, whea.attemptrecovery, whearef_e6307253-0f45-4613-b384-ad737da27031.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL >= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSHED_PI_ATTEMPT_ERROR_RECOVERY",
+    "ntddk/PSHED_PI_ATTEMPT_ERROR_RECOVERY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PSHED_PI_ATTEMPT_ERROR_RECOVERY"
+  ]
+}

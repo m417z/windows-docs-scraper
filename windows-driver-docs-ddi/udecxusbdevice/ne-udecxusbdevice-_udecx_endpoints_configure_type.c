@@ -1,0 +1,6 @@
+typedef enum _UDECX_ENDPOINTS_CONFIGURE_TYPE {
+  UdecxEndpointsConfigureTypeDeviceInitialize,
+  UdecxEndpointsConfigureTypeDeviceConfigurationChange,
+  UdecxEndpointsConfigureTypeInterfaceSettingChange,
+  UdecxEndpointsConfigureTypeEndpointsReleasedOnly
+} UDECX_ENDPOINTS_CONFIGURE_TYPE, *PUDECX_ENDPOINTS_CONFIGURE_TYPE;

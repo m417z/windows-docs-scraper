@@ -1,0 +1,5 @@
+typedef struct _RSVP_FILTERSPEC_V6_FLOW {
+  IN_ADDR_IPV6 Address;
+  UCHAR        UnUsed;
+  UCHAR        FlowLabel[3];
+} RSVP_FILTERSPEC_V6_FLOW, *LPRSVP_FILTERSPEC_V6_FLOW;

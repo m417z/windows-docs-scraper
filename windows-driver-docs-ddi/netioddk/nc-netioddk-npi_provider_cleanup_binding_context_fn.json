@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netioddk.NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN",
+  "title": "NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN (netioddk.h)",
+  "description": "A provider module's ProviderCleanupBindingContext callback function performs any necessary cleanup and deallocation of the provider module's binding context after the provider module and a client module have detached from one another.",
+  "old-location": "netvista\\providercleanupbindingcontext.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function"
+  ],
+  "ms.keywords": "NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], ProviderCleanupBindingContext, ProviderCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderCleanupBindingContext, netvista.providercleanupbindingcontext, nmrref_9723dfb1-96dd-410c-a5cd-1adfb6aa9544.xml",
+  "req.header": "netioddk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN",
+    "netioddk/NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "netioddk.h"
+  ],
+  "api_name": [
+    "NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN"
+  ]
+}

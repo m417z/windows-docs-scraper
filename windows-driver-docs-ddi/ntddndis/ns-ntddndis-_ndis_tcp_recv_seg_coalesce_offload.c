@@ -1,0 +1,8 @@
+typedef struct _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD {
+  struct {
+    BOOLEAN Enabled;
+  } IPv4;
+  struct {
+    BOOLEAN Enabled;
+  } IPv6;
+} NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, *PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD;

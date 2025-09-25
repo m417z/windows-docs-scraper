@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_SYNCHRONIZE_INTERRUPT",
+  "title": "MINIPORT_SYNCHRONIZE_INTERRUPT (ndis.h)",
+  "description": "A miniport driver must provide a MiniportSynchronizeInterrupt handler if any driver function that runs at less than DIRQL shares resources with the MiniportInterrupt function.",
+  "old-location": "netvista\\miniportsynchronizeinterrupt.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_SYNCHRONIZE_INTERRUPT callback function"
+  ],
+  "ms.keywords": "(*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER), (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_SYNCHRONIZE_INTERRUPT, MINIPORT_SYNCHRONIZE_INTERRUPT callback, MiniportSynchronizeInterrupt, MiniportSynchronizeInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronizeInterrupt, ndis_interrupts_miniport_functions_ref_68ebc08d-67f9-42d8-9ade-669dc35a4242.xml, netvista.miniportsynchronizeinterrupt",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_SYNCHRONIZE_INTERRUPT",
+    "ndis/MINIPORT_SYNCHRONIZE_INTERRUPT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_SYNCHRONIZE_INTERRUPT"
+  ]
+}

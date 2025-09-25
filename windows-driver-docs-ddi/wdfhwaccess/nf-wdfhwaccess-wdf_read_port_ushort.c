@@ -1,0 +1,4 @@
+USHORT WDF_READ_PORT_USHORT(
+  [in] WDFDEVICE Device,
+  [in] PUSHORT   Port
+);

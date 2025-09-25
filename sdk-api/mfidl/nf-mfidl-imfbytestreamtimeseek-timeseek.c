@@ -1,0 +1,3 @@
+HRESULT TimeSeek(
+  QWORD qwTimePosition
+);

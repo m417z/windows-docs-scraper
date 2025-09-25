@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.USN_JOURNAL_DATA_V0",
+  "tech.root": "ifsk",
+  "title": "USN_JOURNAL_DATA_V0",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the USN_JOURNAL_DATA_V0 structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "USN_JOURNAL_DATA_V0, *PUSN_JOURNAL_DATA_V0",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "USN_JOURNAL_DATA_V0",
+    "PUSN_JOURNAL_DATA_V0"
+  ],
+  "f1_keywords": [
+    "USN_JOURNAL_DATA_V0",
+    "ntifs/USN_JOURNAL_DATA_V0",
+    "PUSN_JOURNAL_DATA_V0",
+    "ntifs/PUSN_JOURNAL_DATA_V0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "USN_JOURNAL_DATA_V0"
+  ]
+}

@@ -1,0 +1,3 @@
+void KSEVENT_ITEM_IRP_STORAGE(
+  Irp
+);

@@ -1,0 +1,3 @@
+MMRESULT midiOutReset(
+  HMIDIOUT hmo
+);

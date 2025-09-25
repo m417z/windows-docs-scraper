@@ -1,0 +1,67 @@
+# D3DKMT_MIRACAST_DEVICE_STATUS enumeration
+
+## Description
+
+Miracast (wireless display) device status.
+
+## Constants
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_SUCCESS`
+
+Success.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_SUCCESS_NO_MONITOR`
+
+Success with no monitor.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_PENDING`
+
+Pending.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_UNKOWN_ERROR`
+
+Unknown error.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_GPU_RESOURCE_IN_USE`
+
+GPU resource in use.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_DEVICE_ERROR`
+
+Device error.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_UNKOWN_PAIRING`
+
+Unknown pairing.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_REMOTE_SESSION`
+
+Remote session.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_DEVICE_NOT_FOUND`
+
+Device not found.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_DEVICE_NOT_STARTED`
+
+Device not started.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_INVALID_PARAMETER`
+
+Invalid parameter.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_INSUFFICIENT_BANDWIDTH`
+
+Insufficient bandwidth.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_INSUFFICIENT_MEMORY`
+
+Insufficient memory.
+
+### `D3DKMT_MIRACAST_DEVICE_STATUS_CANCELLED`
+
+Cancelled.
+
+## Remarks
+
+## See also

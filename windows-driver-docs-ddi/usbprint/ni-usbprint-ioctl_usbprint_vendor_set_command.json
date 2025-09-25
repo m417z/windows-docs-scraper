@@ -1,0 +1,47 @@
+{
+  "UID": "NI:usbprint.IOCTL_USBPRINT_VENDOR_SET_COMMAND",
+  "title": "IOCTL_USBPRINT_VENDOR_SET_COMMAND (usbprint.h)",
+  "description": "The IOCTL_USBPRINT_VENDOR_SET_COMMAND request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.",
+  "tech.root": "print",
+  "ms.date": "03/08/2023",
+  "keywords": [
+    "IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL"
+  ],
+  "ms.keywords": "IOCTL_USBPRINT_VENDOR_SET_COMMAND, IOCTL_USBPRINT_VENDOR_SET_COMMAND control, IOCTL_USBPRINT_VENDOR_SET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_set_command, usbioctl_b3ea3ada-47c2-4acc-b08c-2d16e9d3ead1.xml, usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND",
+  "req.header": "usbprint.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_USBPRINT_VENDOR_SET_COMMAND",
+    "usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usbprint.h"
+  ],
+  "api_name": [
+    "IOCTL_USBPRINT_VENDOR_SET_COMMAND"
+  ]
+}

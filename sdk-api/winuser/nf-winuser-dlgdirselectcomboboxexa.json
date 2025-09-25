@@ -1,0 +1,60 @@
+{
+  "UID": "NF:winuser.DlgDirSelectComboBoxExA",
+  "title": "DlgDirSelectComboBoxExA function (winuser.h)",
+  "description": "Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name. (ANSI)",
+  "helpviewer_keywords": [
+    "DlgDirSelectComboBoxExA",
+    "winuser/DlgDirSelectComboBoxExA"
+  ],
+  "old-location": "controls\\DlgDirSelectComboBoxEx.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\comboboxes\\comboboxreference\\comboboxfunctions\\dlgdirselectcomboboxex.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DlgDirSelectComboBoxEx, DlgDirSelectComboBoxEx function [Windows Controls], DlgDirSelectComboBoxExA, DlgDirSelectComboBoxExW, _win32_DlgDirSelectComboBoxEx, _win32_DlgDirSelectComboBoxEx_cpp, controls.DlgDirSelectComboBoxEx, controls._win32_DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxExA, winuser/DlgDirSelectComboBoxExW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DlgDirSelectComboBoxExW (Unicode) and DlgDirSelectComboBoxExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DlgDirSelectComboBoxExA",
+    "winuser/DlgDirSelectComboBoxExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-dialogbox-l1-1-2.dll",
+    "ext-ms-win-ntuser-dialogbox-l1-1-1.dll",
+    "ext-ms-win-ntuser-dialogbox-l1-1-0.dll",
+    "User32.dll"
+  ],
+  "api_name": [
+    "DlgDirSelectComboBoxEx",
+    "DlgDirSelectComboBoxExA",
+    "DlgDirSelectComboBoxExW"
+  ]
+}

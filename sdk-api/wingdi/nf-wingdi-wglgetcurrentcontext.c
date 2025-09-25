@@ -1,0 +1,1 @@
+HGLRC wglGetCurrentContext();

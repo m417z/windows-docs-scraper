@@ -1,0 +1,3 @@
+HRESULT Cut(
+  VARIANT *pVar
+);

@@ -1,0 +1,3 @@
+LONG KeReadStateQueue(
+  PRKQUEUE Queue
+);

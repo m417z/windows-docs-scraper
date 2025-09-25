@@ -1,0 +1,4 @@
+void IoRingBufferRefFromIndexAndOffset(
+  i,
+  o
+);

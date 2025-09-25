@@ -1,0 +1,54 @@
+{
+  "UID": "NF:appmodel.GetStagedPackagePathByFullName2",
+  "title": "GetStagedPackagePathByFullName2",
+  "description": "Gets the path of the specified staged package. (GetStagedPackagePathByFullName2)",
+  "helpviewer_keywords": [
+    "GetStagedPackagePathByFullName2"
+  ],
+  "tech.root": "appxpkg",
+  "ms.date": "01/31/2019",
+  "ms.keywords": "GetStagedPackagePathByFullName2",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "appmodel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetStagedPackagePathByFullName2",
+    "appmodel/GetStagedPackagePathByFullName2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": null,
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "api-ms-win-appmodel-runtime-l1-1-4.dll",
+    "api-ms-win-appmodel-runtime-l1-1-3.dll",
+    "appmodel.h"
+  ],
+  "api_name": [
+    "GetStagedPackagePathByFullName2"
+  ]
+}

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateDoorbell(
+  D3DKMT_CREATE_DOORBELL *unnamedParam1
+);

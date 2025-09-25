@@ -1,0 +1,4 @@
+DWORD ICDrawChangePalette(
+     hic,
+     lpbiInput
+);

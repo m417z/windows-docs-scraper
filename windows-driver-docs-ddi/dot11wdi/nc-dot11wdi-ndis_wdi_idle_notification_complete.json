@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dot11wdi.NDIS_WDI_IDLE_NOTIFICATION_COMPLETE",
+  "title": "NDIS_WDI_IDLE_NOTIFICATION_COMPLETE (dot11wdi.h)",
+  "description": "Miniport drivers call NdisWdiIdleNotificationComplete callback function to complete a pending idle notification for an NDIS selective suspend operation. NDIS begins the operation when it calls the driver's MiniportWdiIdleNotification handler function.",
+  "old-location": "netvista\\ndiswdiidlenotificationcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback function"
+  ],
+  "ms.keywords": "NDIS_WDI_IDLE_NOTIFICATION_COMPLETE, NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback, NdisWdiIdleNotificationComplete, NdisWdiIdleNotificationComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationComplete, netvista.ndiswdiidlenotificationcomplete",
+  "req.header": "dot11wdi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_WDI_IDLE_NOTIFICATION_COMPLETE",
+    "dot11wdi/NDIS_WDI_IDLE_NOTIFICATION_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dot11wdi.h"
+  ],
+  "api_name": [
+    "NDIS_WDI_IDLE_NOTIFICATION_COMPLETE"
+  ]
+}

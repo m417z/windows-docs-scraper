@@ -1,0 +1,3 @@
+NTSTATUS SpbRequestCaptureIoOtherTransferList(
+  SPBREQUEST Request
+);

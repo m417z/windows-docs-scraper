@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltGetFilterInformation",
+  "title": "FltGetFilterInformation function (fltkernel.h)",
+  "description": "The FltGetFilterInformation routine provides information about a minifilter driver.",
+  "old-location": "ifsk\\fltgetfilterinformation.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltGetFilterInformation function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation",
+  "req.header": "fltkernel.h",
+  "req.include-header": "FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltGetFilterInformation",
+    "fltkernel/FltGetFilterInformation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltGetFilterInformation"
+  ]
+}

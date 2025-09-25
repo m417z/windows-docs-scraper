@@ -1,0 +1,3 @@
+DWORD ICDrawFlush(
+     hic
+);

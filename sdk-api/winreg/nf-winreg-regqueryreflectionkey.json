@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winreg.RegQueryReflectionKey",
+  "title": "RegQueryReflectionKey function (winreg.h)",
+  "description": "Determines whether reflection has been disabled or enabled for the specified key.",
+  "helpviewer_keywords": [
+    "RegQueryReflectionKey",
+    "RegQueryReflectionKey function",
+    "base.regqueryreflectionkey",
+    "winreg/RegQueryReflectionKey"
+  ],
+  "old-location": "base\\regqueryreflectionkey.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "d7516eab-dbcf-4ece-931e-d7bb2a983503",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "AdvApi32.lib",
+  "req.dll": "AdvApi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegQueryReflectionKey",
+    "winreg/RegQueryReflectionKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "AdvApi32.dll"
+  ],
+  "api_name": [
+    "RegQueryReflectionKey"
+  ]
+}

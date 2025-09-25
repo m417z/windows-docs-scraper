@@ -1,0 +1,3 @@
+typedef struct _UNIT_DDI_VERSION {
+  OUT ULONG Version;
+} UNIT_DDI_VERSION, *PUNIT_DDI_VERSION;

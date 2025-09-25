@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ClfsTerminateReadLog",
+  "title": "ClfsTerminateReadLog function (wdm.h)",
+  "description": "The ClfsTerminateReadLog routine invalidates a specified read context after freeing resources associated with the context.",
+  "tech.root": "kernel",
+  "ms.date": "12/09/2022",
+  "keywords": [
+    "ClfsTerminateReadLog function"
+  ],
+  "ms.keywords": "ClfsTerminateReadLog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, kernel.clfsterminatereadlog, wdm/ClfsTerminateReadLog",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfs.lib",
+  "req.dll": "Clfs.sys",
+  "req.irql": "IRQL <= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ClfsTerminateReadLog",
+    "wdm/ClfsTerminateReadLog"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Clfs.sys",
+    "Ext-MS-Win-fs-clfs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ClfsTerminateReadLog"
+  ]
+}

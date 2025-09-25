@@ -1,0 +1,8 @@
+typedef struct _UCX_CONTROLLER_PCI_INFORMATION {
+  ULONG  VendorId;
+  ULONG  DeviceId;
+  USHORT RevisionId;
+  ULONG  BusNumber;
+  ULONG  DeviceNumber;
+  ULONG  FunctionNumber;
+} UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION;

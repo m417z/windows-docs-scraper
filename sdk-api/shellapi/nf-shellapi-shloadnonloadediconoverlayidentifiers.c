@@ -1,0 +1,1 @@
+SHSTDAPI SHLoadNonloadedIconOverlayIdentifiers();

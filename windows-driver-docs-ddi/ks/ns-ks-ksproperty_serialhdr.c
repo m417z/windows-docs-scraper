@@ -1,0 +1,4 @@
+typedef struct {
+  GUID  PropertySet;
+  ULONG Count;
+} KSPROPERTY_SERIALHDR, *PKSPROPERTY_SERIALHDR;

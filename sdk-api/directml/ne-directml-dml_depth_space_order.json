@@ -1,0 +1,47 @@
+{
+  "UID": "NE:directml.DML_DEPTH_SPACE_ORDER",
+  "title": "DML_DEPTH_SPACE_ORDER",
+  "description": "Defines constants controlling the transform applied in the DirectML operators [DML_OPERATOR_DEPTH_TO_SPACE1](/windows/win32/api/directml/ne-directml-dml_operator_type) and **DML_OPERATOR_SPACE_TO_DEPTH1**.",
+  "tech.root": "directml",
+  "ms.date": "10/29/2020",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "DML_DEPTH_SPACE_ORDER",
+    "directml/DML_DEPTH_SPACE_ORDER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_DEPTH_SPACE_ORDER"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct {
+  ULONG Size;
+  ULONG Version;
+  ULONG MovementThreshold;
+} GNSS_DISTANCETRACKING_PARAM, *PGNSS_DISTANCETRACKING_PARAM;

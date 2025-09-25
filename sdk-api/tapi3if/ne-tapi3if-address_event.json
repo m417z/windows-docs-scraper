@@ -1,0 +1,78 @@
+{
+  "UID": "NE:tapi3if.ADDRESS_EVENT",
+  "title": "ADDRESS_EVENT (tapi3if.h)",
+  "description": "The ADDRESS_EVENT enum describes address events. The ITAddressEvent::get_Event method returns a member of this enum to indicate the type of address event that occurred.",
+  "helpviewer_keywords": [
+    "ADDRESS_EVENT",
+    "ADDRESS_EVENT enumeration [TAPI 2.2]",
+    "AE_CAPSCHANGE",
+    "AE_CONFIGCHANGE",
+    "AE_FORWARD",
+    "AE_LASTITEM",
+    "AE_MSGWAITOFF",
+    "AE_MSGWAITON",
+    "AE_NEWTERMINAL",
+    "AE_REMOVETERMINAL",
+    "AE_RINGING",
+    "AE_STATE",
+    "_tapi3_address_event",
+    "tapi3.address_event",
+    "tapi3if/ADDRESS_EVENT",
+    "tapi3if/AE_CAPSCHANGE",
+    "tapi3if/AE_CONFIGCHANGE",
+    "tapi3if/AE_FORWARD",
+    "tapi3if/AE_LASTITEM",
+    "tapi3if/AE_MSGWAITOFF",
+    "tapi3if/AE_MSGWAITON",
+    "tapi3if/AE_NEWTERMINAL",
+    "tapi3if/AE_REMOVETERMINAL",
+    "tapi3if/AE_RINGING",
+    "tapi3if/AE_STATE"
+  ],
+  "old-location": "tapi3\\address_event.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "7fb4acab-d60a-4848-a426-5e2960efefc1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ADDRESS_EVENT, ADDRESS_EVENT enumeration [TAPI 2.2], AE_CAPSCHANGE, AE_CONFIGCHANGE, AE_FORWARD, AE_LASTITEM, AE_MSGWAITOFF, AE_MSGWAITON, AE_NEWTERMINAL, AE_REMOVETERMINAL, AE_RINGING, AE_STATE, _tapi3_address_event, tapi3.address_event, tapi3if/ADDRESS_EVENT, tapi3if/AE_CAPSCHANGE, tapi3if/AE_CONFIGCHANGE, tapi3if/AE_FORWARD, tapi3if/AE_LASTITEM, tapi3if/AE_MSGWAITOFF, tapi3if/AE_MSGWAITON, tapi3if/AE_NEWTERMINAL, tapi3if/AE_REMOVETERMINAL, tapi3if/AE_RINGING, tapi3if/AE_STATE",
+  "req.header": "tapi3if.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ADDRESS_EVENT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ADDRESS_EVENT",
+    "tapi3if/ADDRESS_EVENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Tapi3if.h"
+  ],
+  "api_name": [
+    "ADDRESS_EVENT"
+  ]
+}

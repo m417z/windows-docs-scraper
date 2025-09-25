@@ -1,0 +1,3 @@
+BOOL BeginWrite(
+  DWORD dwTimeOut
+);

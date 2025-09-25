@@ -1,0 +1,6 @@
+typedef struct _PARTITION_INFORMATION_GPT {
+  GUID    PartitionType;
+  GUID    PartitionId;
+  ULONG64 Attributes;
+  WCHAR   Name[36];
+} PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT;

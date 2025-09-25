@@ -1,0 +1,5 @@
+typedef struct _STOR_SCATTER_GATHER_ELEMENT {
+  STOR_PHYSICAL_ADDRESS PhysicalAddress;
+  ULONG                 Length;
+  ULONG_PTR             Reserved;
+} STOR_SCATTER_GATHER_ELEMENT, *PSTOR_SCATTER_GATHER_ELEMENT;

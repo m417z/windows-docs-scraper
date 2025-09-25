@@ -1,0 +1,4 @@
+typedef enum _MsrAuthenticationProtocol {
+  MsrAuthenticationProtocolType_None,
+  MsrAuthenticationProtocolType_ChallengeResponse
+} MsrAuthenticationProtocolType;

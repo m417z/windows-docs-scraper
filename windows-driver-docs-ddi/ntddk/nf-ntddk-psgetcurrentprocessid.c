@@ -1,0 +1,1 @@
+HANDLE PsGetCurrentProcessId();

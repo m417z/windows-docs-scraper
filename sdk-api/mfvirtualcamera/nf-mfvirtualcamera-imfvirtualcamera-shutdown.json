@@ -1,0 +1,47 @@
+{
+  "UID": "NF:mfvirtualcamera.IMFVirtualCamera.Shutdown",
+  "tech.root": "mf",
+  "title": "IMFVirtualCamera::Shutdown",
+  "ms.date": "05/17/2021",
+  "targetos": "Windows",
+  "description": "Releases all of the virtual camera's internal resources.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "mfsensorgroup.dll",
+  "req.header": "mfvirtualcamera.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "mfsensorgroup.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "mfsensorgroup.dll"
+  ],
+  "api_name": [
+    "IMFVirtualCamera::Shutdown"
+  ],
+  "f1_keywords": [
+    "IMFVirtualCamera::Shutdown",
+    "mfvirtualcamera/IMFVirtualCamera::Shutdown"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

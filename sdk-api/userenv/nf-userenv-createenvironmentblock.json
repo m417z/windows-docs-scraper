@@ -1,0 +1,58 @@
+{
+  "UID": "NF:userenv.CreateEnvironmentBlock",
+  "title": "CreateEnvironmentBlock function (userenv.h)",
+  "description": "Retrieves the environment variables for the specified user. This block can then be passed to the CreateProcessAsUser function.",
+  "helpviewer_keywords": [
+    "CreateEnvironmentBlock",
+    "CreateEnvironmentBlock function [Windows Shell]",
+    "_shell_CreateEnvironmentBlock",
+    "shell.CreateEnvironmentBlock",
+    "userenv/CreateEnvironmentBlock"
+  ],
+  "old-location": "shell\\CreateEnvironmentBlock.htm",
+  "tech.root": "shell",
+  "ms.assetid": "bda8879d-d33a-48f4-8b08-e3a279126a07",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Shell], _shell_CreateEnvironmentBlock, shell.CreateEnvironmentBlock, userenv/CreateEnvironmentBlock",
+  "req.header": "userenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Userenv.lib",
+  "req.dll": "Userenv.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateEnvironmentBlock",
+    "userenv/CreateEnvironmentBlock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Userenv.dll"
+  ],
+  "api_name": [
+    "CreateEnvironmentBlock"
+  ]
+}

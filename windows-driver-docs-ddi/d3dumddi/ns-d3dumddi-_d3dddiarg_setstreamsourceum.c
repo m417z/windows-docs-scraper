@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_SETSTREAMSOURCEUM {
+  [in] UINT Stream;
+  [in] UINT Stride;
+} D3DDDIARG_SETSTREAMSOURCEUM;

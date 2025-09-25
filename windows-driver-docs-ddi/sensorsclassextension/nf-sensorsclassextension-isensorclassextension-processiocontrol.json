@@ -1,0 +1,49 @@
+{
+  "UID": "NF:sensorsclassextension.ISensorClassExtension.ProcessIoControl",
+  "title": "ISensorClassExtension::ProcessIoControl (sensorsclassextension.h)",
+  "description": "The ISensorClassExtension::ProcessControl method sends Windows Portable Devices (WPD) I/O control requests to the sensor class extension for processing.",
+  "old-location": "sensors\\isensorclassextension_processiocontrol.htm",
+  "tech.root": "sensors",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "ISensorClassExtension::ProcessIoControl"
+  ],
+  "ms.keywords": "ISensorClassExtension interface [Sensor Devices],ProcessIoControl method, ISensorClassExtension.ProcessIoControl, ISensorClassExtension::ProcessIoControl, ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_processiocontrol, sensorsclassextension/ISensorClassExtension::ProcessIoControl",
+  "req.header": "sensorsclassextension.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "SensorsClassExtension.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ISensorClassExtension::ProcessIoControl",
+    "sensorsclassextension/ISensorClassExtension::ProcessIoControl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "SensorsClassExtension.lib",
+    "SensorsClassExtension.dll"
+  ],
+  "api_name": [
+    "ISensorClassExtension::ProcessIoControl"
+  ]
+}

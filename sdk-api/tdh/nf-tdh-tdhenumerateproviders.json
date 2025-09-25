@@ -1,0 +1,62 @@
+{
+  "UID": "NF:tdh.TdhEnumerateProviders",
+  "title": "TdhEnumerateProviders function (tdh.h)",
+  "description": "Retrieves a list of providers that have registered a MOF class or manifest file on the computer.",
+  "helpviewer_keywords": [
+    "TdhEnumerateProviders",
+    "TdhEnumerateProviders function [ETW]",
+    "etw.tdhenumerateproviders_func",
+    "tdh.tdhenumerateproviders_func",
+    "tdh/TdhEnumerateProviders"
+  ],
+  "old-location": "etw\\tdhenumerateproviders_func.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "ef326ef8-227d-46b5-88b9-b519748fb778",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TdhEnumerateProviders, TdhEnumerateProviders function [ETW], etw.tdhenumerateproviders_func, tdh.tdhenumerateproviders_func, tdh/TdhEnumerateProviders",
+  "req.header": "tdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tdh.lib",
+  "req.dll": "Tdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TdhEnumerateProviders",
+    "tdh/TdhEnumerateProviders"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-eventing-tdh-l1-1-2.dll",
+    "api-ms-win-eventing-tdh-l1-1-1.dll",
+    "Tdh.dll",
+    "API-MS-Win-Eventing-Tdh-L1-1-0.dll",
+    "MinTdh.dll"
+  ],
+  "api_name": [
+    "TdhEnumerateProviders"
+  ]
+}

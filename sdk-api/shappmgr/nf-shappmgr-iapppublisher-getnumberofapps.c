@@ -1,0 +1,3 @@
+HRESULT GetNumberOfApps(
+  DWORD *pdwApps
+);

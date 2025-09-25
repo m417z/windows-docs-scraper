@@ -1,0 +1,3 @@
+HRESULT TxGetExtent(
+  LPSIZEL lpExtent
+);

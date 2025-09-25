@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfmemory.WdfMemoryGetBuffer",
+  "title": "WdfMemoryGetBuffer function (wdfmemory.h)",
+  "description": "The WdfMemoryGetBuffer method returns a pointer to the buffer that is associated with a specified memory object.",
+  "old-location": "wdf\\wdfmemorygetbuffer.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfMemoryGetBuffer function"
+  ],
+  "ms.keywords": "DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, WdfMemoryGetBuffer method, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer",
+  "req.header": "wdfmemory.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, MemAfterReqCompletedIntIoctlA, MemAfterReqCompletedIoctlA, MemAfterReqCompletedReadA, MemAfterReqCompletedWriteA",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfMemoryGetBuffer",
+    "wdfmemory/WdfMemoryGetBuffer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfMemoryGetBuffer"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ntddk.PSHED_PI_ENABLE_ERROR_SOURCE",
+  "title": "PSHED_PI_ENABLE_ERROR_SOURCE (ntddk.h)",
+  "description": "A PSHED plug-in's EnableErrorSource callback function enables an error source.",
+  "tech.root": "whea",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "PSHED_PI_ENABLE_ERROR_SOURCE callback function"
+  ],
+  "ms.keywords": "EnableErrorSource, EnableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_ENABLE_ERROR_SOURCE, PSHED_PI_ENABLE_ERROR_SOURCE callback, ntddk/EnableErrorSource, whea.enableerrorsource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSHED_PI_ENABLE_ERROR_SOURCE",
+    "ntddk/PSHED_PI_ENABLE_ERROR_SOURCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PSHED_PI_ENABLE_ERROR_SOURCE"
+  ]
+}

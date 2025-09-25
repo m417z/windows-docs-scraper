@@ -1,0 +1,6 @@
+typedef enum _MF_Plugin_Type {
+  MF_Plugin_Type_MFT = 0,
+  MF_Plugin_Type_MediaSource = 1,
+  MF_Plugin_Type_MFT_MatchOutputType = 2,
+  MF_Plugin_Type_Other
+} MF_Plugin_Type;

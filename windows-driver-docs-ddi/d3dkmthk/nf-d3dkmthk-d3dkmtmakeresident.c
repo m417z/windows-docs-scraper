@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTMakeResident(
+  D3DDDI_MAKERESIDENT *unnamedParam1
+);

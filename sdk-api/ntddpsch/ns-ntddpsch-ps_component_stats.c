@@ -1,0 +1,5 @@
+typedef struct _PS_COMPONENT_STATS {
+  ULONG Type;
+  ULONG Length;
+  UCHAR Stats[1];
+} PS_COMPONENT_STATS, *PPS_COMPONENT_STATS;

@@ -1,0 +1,11 @@
+typedef union _WHEA_PERSISTENCE_INFO {
+  struct {
+    ULONGLONG Signature : 16;
+    ULONGLONG Length : 24;
+    ULONGLONG Identifier : 16;
+    ULONGLONG Attributes : 2;
+    ULONGLONG DoNotLog : 1;
+    ULONGLONG Reserved : 5;
+  } DUMMYSTRUCTNAME;
+  ULONGLONG AsULONGLONG;
+} WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO;

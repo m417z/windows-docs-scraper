@@ -1,0 +1,4 @@
+typedef struct _WHEAP_DEVICE_DRV_EVENT {
+  WHEA_EVENT_LOG_ENTRY WheaEventLogEntry;
+  CHAR                 Function[WHEA_ERROR_TEXT_LEN];
+} WHEAP_DEVICE_DRV_EVENT, *PWHEAP_DEVICE_DRV_EVENT;

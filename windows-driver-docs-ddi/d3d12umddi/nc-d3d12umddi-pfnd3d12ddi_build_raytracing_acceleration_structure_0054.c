@@ -1,0 +1,7 @@
+PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 Pfnd3d12ddiBuildRaytracingAccelerationStructure0054;
+
+VOID Pfnd3d12ddiBuildRaytracingAccelerationStructure0054(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  const D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 *unnamedParam2
+)
+{...}

@@ -1,0 +1,3 @@
+HRESULT GetNoLineNumber(
+  long *pValue
+);

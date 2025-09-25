@@ -1,0 +1,20 @@
+typedef struct DD_VIDEOPORTCALLBACKS {
+  DWORD                          dwSize;
+  DWORD                          dwFlags;
+  PDD_VPORTCB_CANCREATEVIDEOPORT CanCreateVideoPort;
+  PDD_VPORTCB_CREATEVIDEOPORT    CreateVideoPort;
+  PDD_VPORTCB_FLIP               FlipVideoPort;
+  PDD_VPORTCB_GETBANDWIDTH       GetVideoPortBandwidth;
+  PDD_VPORTCB_GETINPUTFORMATS    GetVideoPortInputFormats;
+  PDD_VPORTCB_GETOUTPUTFORMATS   GetVideoPortOutputFormats;
+  LPVOID                         lpReserved1;
+  PDD_VPORTCB_GETFIELD           GetVideoPortField;
+  PDD_VPORTCB_GETLINE            GetVideoPortLine;
+  PDD_VPORTCB_GETVPORTCONNECT    GetVideoPortConnectInfo;
+  PDD_VPORTCB_DESTROYVPORT       DestroyVideoPort;
+  PDD_VPORTCB_GETFLIPSTATUS      GetVideoPortFlipStatus;
+  PDD_VPORTCB_UPDATE             UpdateVideoPort;
+  PDD_VPORTCB_WAITFORSYNC        WaitForVideoPortSync;
+  PDD_VPORTCB_GETSIGNALSTATUS    GetVideoSignalStatus;
+  PDD_VPORTCB_COLORCONTROL       ColorControl;
+} DD_VIDEOPORTCALLBACKS;

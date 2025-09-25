@@ -1,0 +1,1 @@
+UINT GetPresentPerRenderOpDelay();

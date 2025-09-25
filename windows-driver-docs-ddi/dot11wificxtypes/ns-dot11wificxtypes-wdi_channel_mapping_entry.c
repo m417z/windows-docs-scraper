@@ -1,0 +1,4 @@
+typedef struct _WDI_CHANNEL_MAPPING_ENTRY {
+  WDI_CHANNEL_NUMBER ChannelNumber;
+  UINT32             ChannelCenterFrequency;
+} WDI_CHANNEL_MAPPING_ENTRY, *PWDI_CHANNEL_MAPPING_ENTRY;

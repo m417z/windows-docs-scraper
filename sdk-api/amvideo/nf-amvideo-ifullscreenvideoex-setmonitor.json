@@ -1,0 +1,65 @@
+{
+  "UID": "NF:amvideo.IFullScreenVideoEx.SetMonitor",
+  "title": "IFullScreenVideoEx::SetMonitor (amvideo.h)",
+  "description": "The SetMonitor method specifies which monitor to use. The Full Screen Renderer only supports the primary monitor, however, so this method is not useful in the current implementation.",
+  "helpviewer_keywords": [
+    "IFullScreenVideoEx interface [DirectShow]",
+    "SetMonitor method",
+    "IFullScreenVideoEx.SetMonitor",
+    "IFullScreenVideoEx::SetMonitor",
+    "IFullScreenVideoSetMonitor",
+    "SetMonitor",
+    "SetMonitor method [DirectShow]",
+    "SetMonitor method [DirectShow]",
+    "IFullScreenVideoEx interface",
+    "amvideo/IFullScreenVideoEx::SetMonitor",
+    "dshow.ifullscreenvideoex_setmonitor"
+  ],
+  "old-location": "dshow\\ifullscreenvideoex_setmonitor.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "f2db1009-ce5b-4ebe-becb-bed3d1187335",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IFullScreenVideoEx interface [DirectShow],SetMonitor method, IFullScreenVideoEx.SetMonitor, IFullScreenVideoEx::SetMonitor, IFullScreenVideoSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMonitor, dshow.ifullscreenvideoex_setmonitor",
+  "req.header": "amvideo.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFullScreenVideoEx::SetMonitor",
+    "amvideo/IFullScreenVideoEx::SetMonitor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFullScreenVideoEx.SetMonitor"
+  ]
+}

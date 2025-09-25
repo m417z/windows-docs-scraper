@@ -1,0 +1,8 @@
+typedef struct _WWAN_IPADDRESS_ENTRY {
+  ULONG IsIpv6 : 1;
+  ULONG IsReported : 1;
+  union {
+    WWAN_IPV4_ADDRESS Ipv4;
+    WWAN_IPV6_ADDRESS Ipv6;
+  };
+} WWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY;

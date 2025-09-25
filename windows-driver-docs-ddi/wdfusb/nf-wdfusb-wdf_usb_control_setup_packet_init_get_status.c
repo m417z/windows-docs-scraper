@@ -1,0 +1,5 @@
+VOID WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS(
+  [out] PWDF_USB_CONTROL_SETUP_PACKET Packet,
+  [in]  WDF_USB_BMREQUEST_RECIPIENT   BmRequestRecipient,
+  [in]  USHORT                        Index
+);

@@ -1,0 +1,54 @@
+{
+  "UID": "NE:ntddndis._NDIS_FRAME_HEADER",
+  "title": "_NDIS_FRAME_HEADER (ntddndis.h)",
+  "description": "The NDIS_FRAME_HEADER enumeration identifies the type of header in a network data frame.",
+  "old-location": "netvista\\ndis_frame_header.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_FRAME_HEADER enumeration"
+  ],
+  "ms.keywords": "*PNDIS_FRAME_HEADER, NDIS_FRAME_HEADER, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], NdisFrameHeaderArp, NdisFrameHeaderIPv4, NdisFrameHeaderIPv6, NdisFrameHeaderMac, NdisFrameHeaderMaximum, NdisFrameHeaderUdp, NdisFrameHeaderUndefined, PNDIS_FRAME_HEADER, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_FRAME_HEADER, netvista.ndis_frame_header, ntddndis/NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderUdp, ntddndis/NdisFrameHeaderUndefined, ntddndis/PNDIS_FRAME_HEADER, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml",
+  "req.header": "ntddndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.20 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_FRAME_HEADER, *PNDIS_FRAME_HEADER",
+  "f1_keywords": [
+    "_NDIS_FRAME_HEADER",
+    "ntddndis/_NDIS_FRAME_HEADER",
+    "PNDIS_FRAME_HEADER",
+    "ntddndis/PNDIS_FRAME_HEADER",
+    "NDIS_FRAME_HEADER",
+    "ntddndis/NDIS_FRAME_HEADER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_FRAME_HEADER",
+    "PNDIS_FRAME_HEADER",
+    "NDIS_FRAME_HEADER"
+  ]
+}

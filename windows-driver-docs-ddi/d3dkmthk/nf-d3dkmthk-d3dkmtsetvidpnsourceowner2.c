@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetVidPnSourceOwner2(
+  [in] const D3DKMT_SETVIDPNSOURCEOWNER2 *unnamedParam1
+);

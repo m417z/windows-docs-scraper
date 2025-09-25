@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dmoreg.DMOGetTypes",
+  "title": "DMOGetTypes function (dmoreg.h)",
+  "description": "The DMOGetTypes function retrieves the name of a DMO from the registry.",
+  "helpviewer_keywords": [
+    "DMOGetTypes",
+    "DMOGetTypes function [DirectShow]",
+    "dmoreg/DMOGetTypes",
+    "dshow.dmogettypes"
+  ],
+  "old-location": "dshow\\dmogettypes.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "d50e067e-6bf2-4d19-86ef-38a414099666",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "DMOGetTypes, DMOGetTypes function [DirectShow], dmoreg/DMOGetTypes, dshow.dmogettypes",
+  "req.header": "dmoreg.h",
+  "req.include-header": "Dmo.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdmo.lib",
+  "req.dll": "Msdmo.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DMOGetTypes",
+    "dmoreg/DMOGetTypes"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdmo.dll"
+  ],
+  "api_name": [
+    "DMOGetTypes"
+  ]
+}

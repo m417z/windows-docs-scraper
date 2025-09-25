@@ -1,0 +1,3 @@
+void NET_BUFFER_LIST_GET_HASH_TYPE(
+  _NBL
+);

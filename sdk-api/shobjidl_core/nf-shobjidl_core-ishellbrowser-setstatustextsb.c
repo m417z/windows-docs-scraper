@@ -1,0 +1,3 @@
+HRESULT SetStatusTextSB(
+  LPCWSTR pszStatusText
+);

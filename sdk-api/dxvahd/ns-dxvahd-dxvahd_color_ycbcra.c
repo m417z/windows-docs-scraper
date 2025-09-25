@@ -1,0 +1,6 @@
+typedef struct _DXVAHD_COLOR_YCbCrA {
+  FLOAT Y;
+  FLOAT Cb;
+  FLOAT Cr;
+  FLOAT A;
+} DXVAHD_COLOR_YCbCrA;

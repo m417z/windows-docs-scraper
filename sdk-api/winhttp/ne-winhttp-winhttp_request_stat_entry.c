@@ -1,0 +1,20 @@
+typedef enum _WINHTTP_REQUEST_STAT_ENTRY {
+  WinHttpConnectFailureCount = 0,
+  WinHttpProxyFailureCount,
+  WinHttpTlsHandshakeClientLeg1Size,
+  WinHttpTlsHandshakeServerLeg1Size,
+  WinHttpTlsHandshakeClientLeg2Size,
+  WinHttpTlsHandshakeServerLeg2Size,
+  WinHttpRequestHeadersSize,
+  WinHttpRequestHeadersCompressedSize,
+  WinHttpResponseHeadersSize,
+  WinHttpResponseHeadersCompressedSize,
+  WinHttpResponseBodySize,
+  WinHttpResponseBodyCompressedSize,
+  WinHttpProxyTlsHandshakeClientLeg1Size,
+  WinHttpProxyTlsHandshakeServerLeg1Size,
+  WinHttpProxyTlsHandshakeClientLeg2Size,
+  WinHttpProxyTlsHandshakeServerLeg2Size,
+  WinHttpRequestStatLast,
+  WinHttpRequestStatMax = 32
+} WINHTTP_REQUEST_STAT_ENTRY;

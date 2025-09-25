@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      Value;
+} KSPROPERTY_VIDEODECODER_S, *PKSPROPERTY_VIDEODECODER_S;

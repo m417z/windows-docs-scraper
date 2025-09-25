@@ -1,0 +1,7 @@
+typedef enum _PerfCounterDataType {
+  PERF_ERROR_RETURN = 0,
+  PERF_SINGLE_COUNTER = 1,
+  PERF_MULTIPLE_COUNTERS = 2,
+  PERF_MULTIPLE_INSTANCES = 4,
+  PERF_COUNTERSET
+} PerfCounterDataType;

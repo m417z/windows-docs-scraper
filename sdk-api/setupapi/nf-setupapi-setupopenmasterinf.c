@@ -1,0 +1,1 @@
+WINSETUPAPI HINF SetupOpenMasterInf();

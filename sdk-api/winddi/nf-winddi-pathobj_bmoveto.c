@@ -1,0 +1,4 @@
+ENGAPI BOOL PATHOBJ_bMoveTo(
+  PATHOBJ  *ppo,
+  POINTFIX ptfx
+);

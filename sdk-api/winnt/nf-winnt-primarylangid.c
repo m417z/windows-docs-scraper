@@ -1,0 +1,3 @@
+WORD PRIMARYLANGID(
+    WORD lgid
+);

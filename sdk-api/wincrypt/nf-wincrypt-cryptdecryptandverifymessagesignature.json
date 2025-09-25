@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CryptDecryptAndVerifyMessageSignature",
+  "title": "CryptDecryptAndVerifyMessageSignature function (wincrypt.h)",
+  "description": "The CryptDecryptAndVerifyMessageSignature function decrypts a message and verifies its signature.",
+  "helpviewer_keywords": [
+    "CryptDecryptAndVerifyMessageSignature",
+    "CryptDecryptAndVerifyMessageSignature function [Security]",
+    "_crypto2_cryptdecryptandverifymessagesignature",
+    "security.cryptdecryptandverifymessagesignature",
+    "wincrypt/CryptDecryptAndVerifyMessageSignature"
+  ],
+  "old-location": "security\\cryptdecryptandverifymessagesignature.htm",
+  "tech.root": "security",
+  "ms.assetid": "0864a187-617f-4a21-9809-d2dbbc54ab9c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CryptDecryptAndVerifyMessageSignature, CryptDecryptAndVerifyMessageSignature function [Security], _crypto2_cryptdecryptandverifymessagesignature, security.cryptdecryptandverifymessagesignature, wincrypt/CryptDecryptAndVerifyMessageSignature",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptDecryptAndVerifyMessageSignature",
+    "wincrypt/CryptDecryptAndVerifyMessageSignature"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CryptDecryptAndVerifyMessageSignature"
+  ]
+}

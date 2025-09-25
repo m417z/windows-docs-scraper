@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetOverlayState(
+  D3DKMT_GETOVERLAYSTATE *unnamedParam1
+);

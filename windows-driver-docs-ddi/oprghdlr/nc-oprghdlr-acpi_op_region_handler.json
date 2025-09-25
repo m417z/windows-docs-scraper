@@ -1,0 +1,47 @@
+{
+  "UID": "NC:oprghdlr.ACPI_OP_REGION_HANDLER",
+  "title": "ACPI_OP_REGION_HANDLER (oprghdlr.h)",
+  "description": "An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the ACPI driver to the device's operation region.",
+  "tech.root": "acpi",
+  "ms.date": "03/03/2023",
+  "keywords": [
+    "ACPI_OP_REGION_HANDLER callback function"
+  ],
+  "ms.keywords": "ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler",
+  "req.header": "oprghdlr.h",
+  "req.include-header": "Oprghdlr.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ACPI_OP_REGION_HANDLER",
+    "oprghdlr/ACPI_OP_REGION_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "oprghdlr.h"
+  ],
+  "api_name": [
+    "ACPI_OP_REGION_HANDLER"
+  ]
+}

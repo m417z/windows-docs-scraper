@@ -1,0 +1,3 @@
+VOID DrvDeleteDeviceBitmap(
+  DHSURF dhsurf
+);

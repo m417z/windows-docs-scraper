@@ -1,0 +1,58 @@
+{
+  "UID": "NF:msiquery.MsiSetPropertyA",
+  "title": "MsiSetPropertyA function (msiquery.h)",
+  "description": "The MsiSetProperty function sets the value for an installation property. (ANSI)",
+  "helpviewer_keywords": [
+    "MsiSetPropertyA",
+    "msiquery/MsiSetPropertyA"
+  ],
+  "old-location": "setup\\msisetproperty.htm",
+  "tech.root": "setup",
+  "ms.assetid": "f6376a19-579a-4e25-8ab6-bb66c623dd25",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty",
+  "req.header": "msiquery.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiSetPropertyW (Unicode) and MsiSetPropertyA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiSetPropertyA",
+    "msiquery/MsiSetPropertyA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-msi-misc-l1-1-0.dll",
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiSetProperty",
+    "MsiSetPropertyA",
+    "MsiSetPropertyW"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NS:ntifs._FILE_RENAME_INFORMATION",
+  "title": "FILE_RENAME_INFORMATION (ntifs.h)",
+  "description": "The FILE_RENAME_INFORMATION structure is used to rename a file.",
+  "old-location": "ifsk\\file_rename_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "11/22/2021",
+  "keywords": [
+    "FILE_RENAME_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], PFILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], _FILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, ifsk.file_rename_information, ntifs/FILE_RENAME_INFORMATION, ntifs/PFILE_RENAME_INFORMATION",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_FILE_RENAME_INFORMATION",
+    "ntifs/_FILE_RENAME_INFORMATION",
+    "PFILE_RENAME_INFORMATION",
+    "ntifs/PFILE_RENAME_INFORMATION",
+    "FILE_RENAME_INFORMATION",
+    "ntifs/FILE_RENAME_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_RENAME_INFORMATION",
+    "PFILE_RENAME_INFORMATION",
+    "FILE_RENAME_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

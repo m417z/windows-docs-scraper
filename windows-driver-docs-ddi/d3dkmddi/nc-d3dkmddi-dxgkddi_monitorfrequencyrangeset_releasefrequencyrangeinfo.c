@@ -1,0 +1,7 @@
+DXGKDDI_MONITORFREQUENCYRANGESET_RELEASEFREQUENCYRANGEINFO DxgkddiMonitorfrequencyrangesetReleasefrequencyrangeinfo;
+
+NTSTATUS DxgkddiMonitorfrequencyrangesetReleasefrequencyrangeinfo(
+  [in] IN_CONST_D3DKMDT_HMONITORFREQUENCYRANGESET hMonitorFrequencyRangeSet,
+  [in] IN_CONST_PD3DKMDT_MONITOR_FREQUENCY_RANGE_CONST pMonitorFrequencyRangeInfo
+)
+{...}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltFlushBuffers2",
+  "title": "FltFlushBuffers2 function",
+  "description": "Learn more about the FltFlushBuffers2 function.",
+  "tech.root": "ifsk",
+  "ms.date": "02/22/2024",
+  "keywords": [
+    "FltFlushBuffers2 function"
+  ],
+  "ms.keywords": "FltFlushBuffers2, FltFlushBuffers, IRP_MJ_FLUSH_BUFFERS",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FltFlushBuffers2",
+    "fltkernel/FltFlushBuffers2"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "FltFlushBuffers2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

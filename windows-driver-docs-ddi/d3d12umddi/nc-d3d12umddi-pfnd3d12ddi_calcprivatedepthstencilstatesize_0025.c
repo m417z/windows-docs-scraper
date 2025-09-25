@@ -1,0 +1,7 @@
+PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE_0025 Pfnd3d12ddiCalcprivatedepthstencilstatesize0025;
+
+SIZE_T Pfnd3d12ddiCalcprivatedepthstencilstatesize0025(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDI_DEPTH_STENCIL_DESC_0025 *unnamedParam2
+)
+{...}

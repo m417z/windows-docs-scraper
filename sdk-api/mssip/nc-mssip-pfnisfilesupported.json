@@ -1,0 +1,58 @@
+{
+  "UID": "NC:mssip.pfnIsFileSupported",
+  "title": "pfnIsFileSupported (mssip.h)",
+  "description": "Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type. (pfnIsFileSupported)",
+  "helpviewer_keywords": [
+    "mssip/pfnIsFileSupported",
+    "pfnIsFileSupported",
+    "pfnIsFileSupported callback",
+    "pfnIsFileSupported callback function [Security]",
+    "security.pfnisfilesupported"
+  ],
+  "old-location": "security\\pfnisfilesupported.htm",
+  "tech.root": "security",
+  "ms.assetid": "cf12d057-328a-4975-b7e5-842c4ea2e760",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "mssip/pfnIsFileSupported, pfnIsFileSupported, pfnIsFileSupported callback, pfnIsFileSupported callback function [Security], security.pfnisfilesupported",
+  "req.header": "mssip.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "pfnIsFileSupported",
+    "mssip/pfnIsFileSupported"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Mssip.h"
+  ],
+  "api_name": [
+    "pfnIsFileSupported"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct tagDIRECTX_AUDIO_ACTIVATION_PARAMS {
+  DWORD cbDirectXAudioActivationParams;
+  GUID  guidAudioSession;
+  DWORD dwAudioStreamFlags;
+} DIRECTX_AUDIO_ACTIVATION_PARAMS, *PDIRECTX_AUDIO_ACTIVATION_PARAMS;

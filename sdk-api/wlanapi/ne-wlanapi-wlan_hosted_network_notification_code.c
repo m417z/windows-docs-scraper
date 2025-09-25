@@ -1,0 +1,5 @@
+typedef enum _WLAN_HOSTED_NETWORK_NOTIFICATION_CODE {
+  wlan_hosted_network_state_change,
+  wlan_hosted_network_peer_state_change,
+  wlan_hosted_network_radio_state_change
+} WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, *PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE;

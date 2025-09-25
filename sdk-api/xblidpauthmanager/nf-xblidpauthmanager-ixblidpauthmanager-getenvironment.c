@@ -1,0 +1,3 @@
+HRESULT GetEnvironment(
+  LPWSTR *environment
+);

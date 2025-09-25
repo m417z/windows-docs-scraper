@@ -1,0 +1,4 @@
+typedef struct _DHCP_CLIENT_INFO_PB_ARRAY {
+  DWORD                 NumElements;
+  LPDHCP_CLIENT_INFO_PB *Clients;
+} DHCP_CLIENT_INFO_PB_ARRAY, *LPDHCP_CLIENT_INFO_PB_ARRAY;

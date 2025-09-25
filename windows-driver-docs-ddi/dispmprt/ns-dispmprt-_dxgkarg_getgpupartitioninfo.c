@@ -1,0 +1,5 @@
+typedef struct _DXGKARG_GETGPUPARTITIONINFO {
+  ULONG  NumGpuPartitionOptions;
+  USHORT *pGpuPartitionOptions;
+  USHORT CurrentGpuPartitionCount;
+} DXGKARG_GETGPUPARTITIONINFO, *PDXGKARG_GETGPUPARTITIONINFO;

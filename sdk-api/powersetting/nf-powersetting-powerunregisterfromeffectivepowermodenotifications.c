@@ -1,0 +1,3 @@
+HRESULT PowerUnregisterFromEffectivePowerModeNotifications(
+  PVOID RegistrationHandle
+);

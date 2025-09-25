@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_SETPOWERCOMPONENTIDLE",
+  "title": "DXGKCB_SETPOWERCOMPONENTIDLE (d3dkmddi.h)",
+  "description": "Called by the display miniport driver to notify the Microsoft DirectX graphics kernel subsystem that a power component is no longer needed.",
+  "old-location": "display\\dxgkcbsetpowercomponentidle.htm",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKCB_SETPOWERCOMPONENTIDLE callback function"
+  ],
+  "ms.keywords": "DXGKCB_SETPOWERCOMPONENTIDLE, DXGKCB_SETPOWERCOMPONENTIDLE callback, DxgkCbSetPowerComponentIdle, DxgkCbSetPowerComponentIdle callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentIdle, display.dxgkcbsetpowercomponentidle",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8 (WDDM 1.2)",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_SETPOWERCOMPONENTIDLE",
+    "d3dkmddi/DXGKCB_SETPOWERCOMPONENTIDLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_SETPOWERCOMPONENTIDLE"
+  ]
+}

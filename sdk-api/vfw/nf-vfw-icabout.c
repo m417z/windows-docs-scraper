@@ -1,0 +1,4 @@
+DWORD ICAbout(
+     hic,
+     hwnd
+);

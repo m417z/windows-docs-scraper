@@ -1,0 +1,4 @@
+void LHashValOfName(
+  lcid,
+  szName
+);

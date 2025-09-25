@@ -1,0 +1,5 @@
+typedef struct _COMPATIBILITY_CONTEXT_ELEMENT {
+  GUID                              Id;
+  ACTCTX_COMPATIBILITY_ELEMENT_TYPE Type;
+  ULONGLONG                         MaxVersionTested;
+} COMPATIBILITY_CONTEXT_ELEMENT, *PCOMPATIBILITY_CONTEXT_ELEMENT;

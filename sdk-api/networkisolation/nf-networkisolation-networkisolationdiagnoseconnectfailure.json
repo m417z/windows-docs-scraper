@@ -1,0 +1,51 @@
+{
+  "UID": "NF:networkisolation.NetworkIsolationDiagnoseConnectFailure",
+  "title": "NetworkIsolationDiagnoseConnectFailure",
+  "description": "Determines whether the calling application has the required AppContainer capabilities to make a network connection to a target server.",
+  "ms.date": "05/06/2024",
+  "tech.root": "ics",
+  "targetos": "Windows",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "networkisolation.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-net-isolation-l1-1-1.dll",
+    "networkisolation.h"
+  ],
+  "api_name": [
+    "NetworkIsolationDiagnoseConnectFailure"
+  ],
+  "f1_keywords": [
+    "NetworkIsolationDiagnoseConnectFailure",
+    "networkisolation/NetworkIsolationDiagnoseConnectFailure"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NetworkIsolationDiagnoseConnectFailure"
+  ]
+}

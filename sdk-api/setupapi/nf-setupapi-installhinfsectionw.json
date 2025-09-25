@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.InstallHinfSectionW",
+  "title": "InstallHinfSectionW function (setupapi.h)",
+  "description": "InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section. (Unicode)",
+  "helpviewer_keywords": [
+    "InstallHinfSection",
+    "InstallHinfSection function [Setup API]",
+    "InstallHinfSectionW",
+    "_setupapi_installhinfsection",
+    "setup.installhinfsection",
+    "setupapi/InstallHinfSection",
+    "setupapi/InstallHinfSectionW"
+  ],
+  "old-location": "setup\\installhinfsection.htm",
+  "tech.root": "setup",
+  "ms.assetid": "151aa91b-9b3d-45e8-94a3-2bc395cd466d",
+  "ms.date": "12/20/2024",
+  "ms.keywords": "InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "InstallHinfSectionW (Unicode) and InstallHinfSectionA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InstallHinfSectionW",
+    "setupapi/InstallHinfSectionW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "InstallHinfSection",
+    "InstallHinfSectionA",
+    "InstallHinfSectionW"
+  ]
+}

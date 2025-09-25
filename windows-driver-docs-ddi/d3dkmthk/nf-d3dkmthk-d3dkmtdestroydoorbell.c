@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTDestroyDoorbell(
+  D3DKMT_DESTROY_DOORBELL *unnamedParam1
+);

@@ -1,0 +1,7 @@
+typedef struct D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION {
+  DXGI_FORMAT             InputFormat;
+  D3DDDI_COLOR_SPACE_TYPE InputColorSpace;
+  DXGI_FORMAT             OutputFormat;
+  D3DDDI_COLOR_SPACE_TYPE OutputColorSpace;
+  BOOL                    Supported;
+} D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION;

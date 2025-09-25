@@ -1,0 +1,6 @@
+void XMMATRIX(
+  FXMVECTOR R0,
+  FXMVECTOR R1,
+  FXMVECTOR R2,
+  CXMVECTOR R3
+) noexcept;

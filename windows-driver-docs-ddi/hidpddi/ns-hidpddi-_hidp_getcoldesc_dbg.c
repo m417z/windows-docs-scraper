@@ -1,0 +1,5 @@
+typedef struct _HIDP_GETCOLDESC_DBG {
+  ULONG BreakOffset;
+  ULONG ErrorCode;
+  ULONG Args[6];
+} HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ExDeletePagedLookasideList",
+  "title": "ExDeletePagedLookasideList function (wdm.h)",
+  "description": "The ExDeletePagedLookasideList routine destroys a paged lookaside list.",
+  "old-location": "kernel\\exdeletepagedlookasidelist.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ExDeletePagedLookasideList function"
+  ],
+  "ms.keywords": "ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, kernel.exdeletepagedlookasidelist, wdm/ExDeletePagedLookasideList",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlExApcLte2, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExDeletePagedLookasideList",
+    "wdm/ExDeletePagedLookasideList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExDeletePagedLookasideList"
+  ]
+}

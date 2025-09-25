@@ -1,0 +1,21 @@
+typedef struct _HDAUDIO_BUS_INTERFACE {
+  USHORT                       Size;
+  USHORT                       Version;
+  PVOID                        Context;
+  PINTERFACE_REFERENCE         InterfaceReference;
+  PINTERFACE_DEREFERENCE       InterfaceDereference;
+  PTRANSFER_CODEC_VERBS        TransferCodecVerbs;
+  PALLOCATE_CAPTURE_DMA_ENGINE AllocateCaptureDmaEngine;
+  PALLOCATE_RENDER_DMA_ENGINE  AllocateRenderDmaEngine;
+  PCHANGE_BANDWIDTH_ALLOCATION ChangeBandwidthAllocation;
+  PALLOCATE_DMA_BUFFER         AllocateDmaBuffer;
+  PFREE_DMA_BUFFER             FreeDmaBuffer;
+  PFREE_DMA_ENGINE             FreeDmaEngine;
+  PSET_DMA_ENGINE_STATE        SetDmaEngineState;
+  PGET_WALL_CLOCK_REGISTER     GetWallClockRegister;
+  PGET_LINK_POSITION_REGISTER  GetLinkPositionRegister;
+  PREGISTER_EVENT_CALLBACK     RegisterEventCallback;
+  PUNREGISTER_EVENT_CALLBACK   UnregisterEventCallback;
+  PGET_DEVICE_INFORMATION      GetDeviceInformation;
+  PGET_RESOURCE_INFORMATION    GetResourceInformation;
+} HDAUDIO_BUS_INTERFACE, *PHDAUDIO_BUS_INTERFACE;

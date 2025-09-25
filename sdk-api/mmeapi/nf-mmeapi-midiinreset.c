@@ -1,0 +1,3 @@
+MMRESULT midiInReset(
+  HMIDIIN hmi
+);

@@ -1,0 +1,3 @@
+void NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY(
+  _SwitchEnumInfo_
+);

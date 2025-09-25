@@ -1,0 +1,29 @@
+typedef struct _paraformat2 {
+  UINT  cbSize;
+  DWORD dwMask;
+  WORD  wNumbering;
+  union {
+    WORD wReserved;
+    WORD wEffects;
+  };
+  LONG  dxStartIndent;
+  LONG  dxRightIndent;
+  LONG  dxOffset;
+  WORD  wAlignment;
+  SHORT cTabCount;
+  LONG  rgxTabs[MAX_TAB_STOPS];
+  LONG  dySpaceBefore;
+  LONG  dySpaceAfter;
+  LONG  dyLineSpacing;
+  SHORT sStyle;
+  BYTE  bLineSpacingRule;
+  BYTE  bOutlineLevel;
+  WORD  wShadingWeight;
+  WORD  wShadingStyle;
+  WORD  wNumberingStart;
+  WORD  wNumberingStyle;
+  WORD  wNumberingTab;
+  WORD  wBorderSpace;
+  WORD  wBorderWidth;
+  WORD  wBorders;
+} PARAFORMAT2;

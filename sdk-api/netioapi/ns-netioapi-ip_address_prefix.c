@@ -1,0 +1,4 @@
+typedef struct _IP_ADDRESS_PREFIX {
+  SOCKADDR_INET Prefix;
+  UINT8         PrefixLength;
+} IP_ADDRESS_PREFIX, *PIP_ADDRESS_PREFIX;

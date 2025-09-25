@@ -1,0 +1,21 @@
+typedef struct _MI_ClassDecl {
+  MI_Uint32                 flags;
+  MI_Uint32                 code;
+  MI_CONST MI_Char          *name;
+  _MI_Qualifier MI_CONST I_CONST *    *Mqualifiers;
+  struct                    _MI_Qualifier;
+  MI_Uint32                 numQualifiers;
+  _MI_PropertyDecl MI_CONST I_CONST * *Mproperties;
+  struct                    _MI_PropertyDecl;
+  MI_Uint32                 numProperties;
+  MI_Uint32                 size;
+  MI_CONST MI_Char          *superClass;
+  MI_ClassDecl MI_CONST     *superClassDecl;
+  _MI_MethodDecl MI_CONST I_CONST *   *Mmethods;
+  struct                    _MI_MethodDecl;
+  MI_Uint32                 numMethods;
+  _MI_SchemaDecl MI_CONST   *schema;
+  struct                    _MI_SchemaDecl;
+  MI_CONST MI_ProviderFT    *providerFT;
+  MI_Class                  *owningClass;
+} MI_ClassDecl;

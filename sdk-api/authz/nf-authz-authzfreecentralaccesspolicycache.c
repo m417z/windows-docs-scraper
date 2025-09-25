@@ -1,0 +1,1 @@
+AUTHZAPI BOOL AuthzFreeCentralAccessPolicyCache();

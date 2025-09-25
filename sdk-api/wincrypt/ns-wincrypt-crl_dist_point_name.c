@@ -1,0 +1,6 @@
+typedef struct _CRL_DIST_POINT_NAME {
+  DWORD dwDistPointNameChoice;
+  union {
+    CERT_ALT_NAME_INFO FullName;
+  } DUMMYUNIONNAME;
+} CRL_DIST_POINT_NAME, *PCRL_DIST_POINT_NAME;

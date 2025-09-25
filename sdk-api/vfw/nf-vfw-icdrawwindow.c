@@ -1,0 +1,4 @@
+DWORD ICDrawWindow(
+     hic,
+     prc
+);

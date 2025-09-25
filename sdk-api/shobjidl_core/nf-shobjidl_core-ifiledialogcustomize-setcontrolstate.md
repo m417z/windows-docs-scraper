@@ -1,0 +1,29 @@
+# IFileDialogCustomize::SetControlState
+
+## Description
+
+Sets the current visibility and enabled states of a given control.
+
+## Parameters
+
+### `dwIDCtl` [in]
+
+Type: **DWORD**
+
+The ID of the control in question.
+
+### `dwState` [in]
+
+Type: **CDCONTROLSTATEF**
+
+One or more values from the [CDCONTROLSTATE](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/bb762483(v=vs.85)) enumeration that indicate the current state of the control.
+
+## Return value
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Remarks
+
+When the dialog is shown, controls cannot be added or removed, but the existing controls can be hidden or disabled at any time.

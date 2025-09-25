@@ -1,0 +1,3 @@
+typedef struct _QOS_TCP_TRAFFIC {
+  QOS_OBJECT_HDR ObjectHdr;
+} QOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC;

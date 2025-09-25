@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.ClfsLsnRecordSequence",
+  "title": "ClfsLsnRecordSequence function (wdm.h)",
+  "description": "The ClfsLsnRecordSequence routine returns the record sequence number contained in a specified LSN.",
+  "old-location": "kernel\\clfslsnrecordsequence.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ClfsLsnRecordSequence function"
+  ],
+  "ms.keywords": "ClfsLsnRecordSequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml, kernel.clfslsnrecordsequence, wdm/ClfsLsnRecordSequence",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfs.lib",
+  "req.dll": "Clfs.sys",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ClfsLsnRecordSequence",
+    "wdm/ClfsLsnRecordSequence"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Clfs.sys",
+    "Ext-MS-Win-fs-clfs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ClfsLsnRecordSequence"
+  ]
+}

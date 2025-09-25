@@ -1,0 +1,3 @@
+HRESULT GetContextObject(
+  IModelObject **containingObject
+);

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winuser.UnregisterPowerSettingNotification",
+  "title": "UnregisterPowerSettingNotification function (winuser.h)",
+  "description": "Unregisters the power setting notification.",
+  "helpviewer_keywords": [
+    "UnregisterPowerSettingNotification",
+    "UnregisterPowerSettingNotification function",
+    "base.unregisterpowersettingnotification",
+    "winuser/UnregisterPowerSettingNotification"
+  ],
+  "old-location": "base\\unregisterpowersettingnotification.htm",
+  "tech.root": "base",
+  "ms.assetid": "de1509f5-cf4c-448e-bb3b-08da6be53bfa",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "UnregisterPowerSettingNotification, UnregisterPowerSettingNotification function, base.unregisterpowersettingnotification, winuser/UnregisterPowerSettingNotification",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "UnregisterPowerSettingNotification",
+    "winuser/UnregisterPowerSettingNotification"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-powermanagement-l1-1-0.dll",
+    "User32.dll",
+    "API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll",
+    "minuser.dll",
+    "Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll"
+  ],
+  "api_name": [
+    "UnregisterPowerSettingNotification"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-powermanagement-l1-1-0 (introduced in Windows 8)"
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.PcNewInterruptSync",
+  "title": "PcNewInterruptSync function (portcls.h)",
+  "description": "The PcNewInterruptSync function creates and initializes an interrupt-synchronization object.",
+  "old-location": "audio\\pcnewinterruptsync.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PcNewInterruptSync function"
+  ],
+  "ms.keywords": "PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], audio.pcnewinterruptsync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, portcls/PcNewInterruptSync",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting in  Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcNewInterruptSync",
+    "portcls/PcNewInterruptSync"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "PcNewInterruptSync"
+  ]
+}

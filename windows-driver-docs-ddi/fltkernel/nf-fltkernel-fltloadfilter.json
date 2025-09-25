@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltLoadFilter",
+  "title": "FltLoadFilter function (fltkernel.h)",
+  "description": "The FltLoadFilter routine dynamically loads a minifilter driver into the currently running system.",
+  "old-location": "ifsk\\fltloadfilter.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltLoadFilter function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, ifsk.fltloadfilter",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltLoadFilter",
+    "fltkernel/FltLoadFilter"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltLoadFilter"
+  ]
+}

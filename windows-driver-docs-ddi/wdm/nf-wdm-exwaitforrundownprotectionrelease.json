@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ExWaitForRundownProtectionRelease",
+  "title": "ExWaitForRundownProtectionRelease function (wdm.h)",
+  "description": "The ExWaitForRundownProtectionRelease routine waits until all drivers that have already been granted run-down protection complete their accesses of the shared object.",
+  "old-location": "kernel\\exwaitforrundownprotectionrelease.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ExWaitForRundownProtectionRelease function"
+  ],
+  "ms.keywords": "ExWaitForRundownProtectionRelease, ExWaitForRundownProtectionRelease routine [Kernel-Mode Driver Architecture], kernel.exwaitforrundownprotectionrelease, wdm/ExWaitForRundownProtectionRelease",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "HwStorPortProhibitedDDIs, SpNoWait",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExWaitForRundownProtectionRelease",
+    "wdm/ExWaitForRundownProtectionRelease"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExWaitForRundownProtectionRelease"
+  ]
+}

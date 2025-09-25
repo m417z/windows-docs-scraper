@@ -1,0 +1,60 @@
+{
+  "UID": "NF:windowsx.ListBox_SetCaretIndex",
+  "title": "ListBox_SetCaretIndex macro (windowsx.h)",
+  "description": "Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the LB_SETCARETINDEX message explicitly.",
+  "helpviewer_keywords": [
+    "ListBox_SetCaretIndex",
+    "ListBox_SetCaretIndex macro [Windows Controls]",
+    "_win32_ListBox_SetCaretIndex",
+    "_win32_ListBox_SetCaretIndex_cpp",
+    "controls.ListBox_SetCaretIndex",
+    "controls._win32_ListBox_SetCaretIndex",
+    "windowsx/ListBox_SetCaretIndex"
+  ],
+  "old-location": "controls\\ListBox_SetCaretIndex.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listboxes\\listboxreference\\listboxmacros\\listbox_setcaretindex.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "ListBox_SetCaretIndex, ListBox_SetCaretIndex macro [Windows Controls], _win32_ListBox_SetCaretIndex, _win32_ListBox_SetCaretIndex_cpp, controls.ListBox_SetCaretIndex, controls._win32_ListBox_SetCaretIndex, windowsx/ListBox_SetCaretIndex",
+  "req.header": "windowsx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListBox_SetCaretIndex",
+    "windowsx/ListBox_SetCaretIndex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windowsx.h"
+  ],
+  "api_name": [
+    "ListBox_SetCaretIndex"
+  ]
+}

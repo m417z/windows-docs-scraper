@@ -1,0 +1,49 @@
+{
+  "UID": "NF:netioddk.NmrRegisterProvider",
+  "title": "NmrRegisterProvider function (netioddk.h)",
+  "description": "The NmrRegisterProvider function registers a provider module with the NMR.",
+  "old-location": "netvista\\nmrregisterprovider.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NmrRegisterProvider function"
+  ],
+  "ms.keywords": "NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml",
+  "req.header": "netioddk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netio.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NmrRegisterProvider",
+    "netioddk/NmrRegisterProvider"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Netio.lib",
+    "Netio.dll"
+  ],
+  "api_name": [
+    "NmrRegisterProvider"
+  ]
+}

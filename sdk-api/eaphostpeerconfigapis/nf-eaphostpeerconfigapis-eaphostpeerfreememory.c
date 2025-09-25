@@ -1,0 +1,3 @@
+VOID EapHostPeerFreeMemory(
+  BYTE *pData
+);

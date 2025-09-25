@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hidclass.PHIDP_GETCAPS",
+  "title": "PHIDP_GETCAPS (hidclass.h)",
+  "description": "The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure. This routine is in hidclass.h.",
+  "old-location": "hid\\hidp_getcaps.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PHIDP_GETCAPS callback function"
+  ],
+  "ms.keywords": "HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, PHIDP_GETCAPS callback, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps",
+  "req.header": "hidclass.h",
+  "req.include-header": "Hidclass.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PHIDP_GETCAPS",
+    "hidclass/PHIDP_GETCAPS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hidpi.h"
+  ],
+  "api_name": [
+    "PHIDP_GETCAPS"
+  ]
+}

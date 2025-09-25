@@ -1,0 +1,4 @@
+typedef struct _AACS_CERTIFICATE {
+  UCHAR Nonce[20];
+  UCHAR Certificate[92];
+} AACS_CERTIFICATE, *PAACS_CERTIFICATE;

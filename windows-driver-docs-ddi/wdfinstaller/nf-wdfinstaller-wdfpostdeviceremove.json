@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfinstaller.WdfPostDeviceRemove",
+  "title": "WdfPostDeviceRemove function (wdfinstaller.h)",
+  "description": "The co-installer's WdfPostDeviceRemove function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service.",
+  "old-location": "wdf\\wdfpostdeviceremove.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfPostDeviceRemove function"
+  ],
+  "ms.keywords": "DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, WdfPostDeviceRemove, WdfPostDeviceRemove function, kmdf.wdfpostdeviceremove, wdf.wdfpostdeviceremove, wdfinstaller/WdfPostDeviceRemove",
+  "req.header": "wdfinstaller.h",
+  "req.include-header": "Wdfinstaller.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfPostDeviceRemove",
+    "wdfinstaller/WdfPostDeviceRemove"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "N/A",
+    "N/A.dll"
+  ],
+  "api_name": [
+    "WdfPostDeviceRemove"
+  ]
+}

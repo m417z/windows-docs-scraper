@@ -1,0 +1,49 @@
+{
+  "UID": "NF:drmk.DrmDestroyContent",
+  "title": "DrmDestroyContent function (drmk.h)",
+  "description": "The DrmDestroyContent function deletes a DRM content ID that was created by DrmCreateContentMixed.",
+  "old-location": "audio\\drmdestroycontent.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "DrmDestroyContent function"
+  ],
+  "ms.keywords": "DrmDestroyContent, DrmDestroyContent function [Audio Devices], aud-prop2_cfaec95c-a7e5-4488-a56d-323ebc577d90.xml, audio.drmdestroycontent, drmk/DrmDestroyContent",
+  "req.header": "drmk.h",
+  "req.include-header": "Drmk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Drmk.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DrmDestroyContent",
+    "drmk/DrmDestroyContent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Drmk.lib",
+    "Drmk.dll"
+  ],
+  "api_name": [
+    "DrmDestroyContent"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _WSMAN_ENVIRONMENT_VARIABLE_SET {
+  DWORD                      varsCount;
+  WSMAN_ENVIRONMENT_VARIABLE *vars;
+} WSMAN_ENVIRONMENT_VARIABLE_SET;

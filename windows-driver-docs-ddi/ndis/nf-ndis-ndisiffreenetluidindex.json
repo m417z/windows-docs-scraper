@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisIfFreeNetLuidIndex",
+  "title": "NdisIfFreeNetLuidIndex function (ndis.h)",
+  "description": "The NdisIfFreeNetLuidIndex function frees a network interface NET_LUID index that was previously allocated by a call to the NdisIfAllocateNetLuidIndex function.",
+  "old-location": "netvista\\ndisiffreenetluidindex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisIfFreeNetLuidIndex function"
+  ],
+  "ms.keywords": "NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, netvista.ndisiffreenetluidindex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Interfaces_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisIfFreeNetLuidIndex",
+    "ndis/NdisIfFreeNetLuidIndex"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisIfFreeNetLuidIndex"
+  ]
+}

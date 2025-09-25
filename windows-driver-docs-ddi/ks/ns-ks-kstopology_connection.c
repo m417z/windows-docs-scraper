@@ -1,0 +1,6 @@
+typedef struct {
+  ULONG FromNode;
+  ULONG FromNodePin;
+  ULONG ToNode;
+  ULONG ToNodePin;
+} KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION;

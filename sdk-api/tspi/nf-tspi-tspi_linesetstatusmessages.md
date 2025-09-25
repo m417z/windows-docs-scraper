@@ -1,0 +1,51 @@
+# TSPI_lineSetStatusMessages function
+
+## Description
+
+The
+**TSPI_lineSetStatusMessages** function enables TAPI to specify which notification messages the service provider should generate for events related to status changes for the specified line or any of its addresses.
+
+## Parameters
+
+### `hdLine`
+
+The handle to the line device for which the new filter is to be set.
+
+### `dwLineStates`
+
+A bit array that identifies for which line device status changes a message is to be sent to TAPI. This parameter uses one of the
+[LINEDEVSTATE_ constants](https://learn.microsoft.com/windows/desktop/Tapi/linedevstate--constants).
+
+### `dwAddressStates`
+
+A bit array that identifies for which address status changes a message is to be sent to TAPI. This parameter uses one of the
+[LINEADDRESSSTATE_ constants](https://learn.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants).
+
+## Return value
+
+Returns zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+
+LINEERR_INVALADDRESSSTATE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALLINESTATE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM.
+
+## Remarks
+
+The service provider returns LINEERR_INVALLINESTATE if the *dwLineStates* parameter contains one or more bits that are not
+[LINEDEVSTATE_ constants](https://learn.microsoft.com/windows/desktop/Tapi/linedevstate--constants).
+
+ Telephony defines a number of messages that notify applications about events occurring on lines and addresses. The sets of all change messages in which all applications are interested can be much smaller than the set of possible messages. This procedure allows TAPI to tell the service provider the reduced set of messages to deliver. The service provider delivers all of the messages it supports, within the specified set. It is permitted to deliver more (they are filtered out by TAPI), but is discouraged from doing so for performance reasons. If TAPI requests delivery of a particular message type that is not produced by the provider, the provider nevertheless accepts the request but simply does not produce the message. By default, address and line status reporting is initially disabled for a line.
+
+This function differs from the corresponding TAPI function as follows: (1) The set of messages requested is the union of all sets requested by applications at the TAPI level. (2) The message set is neither reduced nor augmented by ownership (because there is no concept of ownership at the TSPI level) (3) The set is advisory in the sense that the service provider is required to forward at least the indicated set of messages but is permitted to forward a larger set.
+
+Device state changes regarding Open and Close are not reported, because at the TSPI level there is only one outstanding Open at a time.
+
+## See also
+
+[LINEADDRESSSTATE_ Constants](https://learn.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants)
+
+[LINEDEVSTATE_ Constants](https://learn.microsoft.com/windows/desktop/Tapi/linedevstate--constants)
+
+[LINE_ADDRESSSTATE](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/ms725215(v=vs.85))
+
+[LINE_CLOSE](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/ms725220(v=vs.85))
+
+[LINE_LINEDEVSTATE](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/ms725231(v=vs.85))

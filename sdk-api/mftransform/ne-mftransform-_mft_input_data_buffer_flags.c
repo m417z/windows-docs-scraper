@@ -1,0 +1,3 @@
+typedef enum _MFT_INPUT_DATA_BUFFER_FLAGS {
+  MFT_INPUT_DATA_BUFFER_PLACEHOLDER = 0xffffffff
+} ;

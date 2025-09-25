@@ -1,0 +1,4 @@
+typedef struct _MIB_UDP6TABLE_OWNER_PID {
+  DWORD                 dwNumEntries;
+  MIB_UDP6ROW_OWNER_PID table[ANY_SIZE];
+} MIB_UDP6TABLE_OWNER_PID, *PMIB_UDP6TABLE_OWNER_PID;

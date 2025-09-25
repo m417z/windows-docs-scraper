@@ -1,0 +1,48 @@
+{
+  "UID": "NS:storport._STOR_POWER_SETTING_INFO",
+  "tech.root": "storage",
+  "title": "STOR_POWER_SETTING_INFO",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "STOR_POWER_SETTING_INFO is the structure pointed to by the Parameters parameter when a miniport's HwStorAdapterControl routine is called with a ControlType of ScsiPowerSettingNotification.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STOR_POWER_SETTING_INFO, *PSTOR_POWER_SETTING_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_POWER_SETTING_INFO",
+    "PSTOR_POWER_SETTING_INFO",
+    "STOR_POWER_SETTING_INFO"
+  ],
+  "f1_keywords": [
+    "_STOR_POWER_SETTING_INFO",
+    "storport/_STOR_POWER_SETTING_INFO",
+    "PSTOR_POWER_SETTING_INFO",
+    "storport/PSTOR_POWER_SETTING_INFO",
+    "STOR_POWER_SETTING_INFO",
+    "storport/STOR_POWER_SETTING_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugControl.GetExceptionFilterSecondCommand",
+  "title": "IDebugControl::GetExceptionFilterSecondCommand (dbgeng.h)",
+  "description": "Learn how the GetExceptionFilterSecondCommand method returns the command that's executed by the debugger engine upon the second chance of a specified exception.",
+  "old-location": "debugger\\getexceptionfiltersecondcommand.htm",
+  "tech.root": "debugger",
+  "ms.date": "02/06/2022",
+  "keywords": [
+    "IDebugControl::GetExceptionFilterSecondCommand"
+  ],
+  "ms.keywords": "GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl.GetExceptionFilterSecondCommand, IDebugControl2 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugControl::GetExceptionFilterSecondCommand",
+    "dbgeng/IDebugControl::GetExceptionFilterSecondCommand"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugControl::GetExceptionFilterSecondCommand"
+  ]
+}

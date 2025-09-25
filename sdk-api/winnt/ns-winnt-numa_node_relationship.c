@@ -1,0 +1,9 @@
+typedef struct _NUMA_NODE_RELATIONSHIP {
+  DWORD NodeNumber;
+  BYTE  Reserved[18];
+  WORD  GroupCount;
+  union {
+    GROUP_AFFINITY GroupMask;
+    GROUP_AFFINITY GroupMasks[ANYSIZE_ARRAY];
+  } DUMMYUNIONNAME;
+} NUMA_NODE_RELATIONSHIP, *PNUMA_NODE_RELATIONSHIP;

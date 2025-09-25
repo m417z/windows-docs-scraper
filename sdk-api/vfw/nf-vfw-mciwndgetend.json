@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndGetEnd",
+  "title": "MCIWndGetEnd macro (vfw.h)",
+  "description": "The MCIWndGetEnd macro retrieves the location of the end of the content of an MCI device or file. You can use this macro or explicitly send the MCIWNDM_GETEND message.",
+  "helpviewer_keywords": [
+    "MCIWndGetEnd",
+    "MCIWndGetEnd macro [Windows Multimedia]",
+    "_win32_MCIWndGetEnd",
+    "multimedia.mciwndgetend",
+    "vfw/MCIWndGetEnd"
+  ],
+  "old-location": "multimedia\\mciwndgetend.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "558d5412-1165-4dda-8ac1-6c599267beaf",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndGetEnd, MCIWndGetEnd macro [Windows Multimedia], _win32_MCIWndGetEnd, multimedia.mciwndgetend, vfw/MCIWndGetEnd",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndGetEnd",
+    "vfw/MCIWndGetEnd"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndGetEnd"
+  ]
+}

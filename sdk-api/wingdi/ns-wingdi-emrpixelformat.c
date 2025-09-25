@@ -1,0 +1,4 @@
+typedef struct tagEMRPIXELFORMAT {
+  EMR                   emr;
+  PIXELFORMATDESCRIPTOR pfd;
+} EMRPIXELFORMAT, *PEMRPIXELFORMAT;

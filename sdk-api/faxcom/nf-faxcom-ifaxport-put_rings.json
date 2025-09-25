@@ -1,0 +1,72 @@
+{
+  "UID": "NF:faxcom.IFaxPort.put_Rings",
+  "title": "IFaxPort::put_Rings (faxcom.h)",
+  "description": "The IFaxPort::get_Rings property represents the number of rings an incoming fax call should wait before the fax port answers the call. (Put)",
+  "helpviewer_keywords": [
+    "IFaxPort interface [Fax Service]",
+    "Rings property",
+    "IFaxPort.Rings",
+    "IFaxPort.put_Rings",
+    "IFaxPort::Rings",
+    "IFaxPort::get_Rings",
+    "IFaxPort::put_Rings",
+    "Rings property [Fax Service]",
+    "Rings property [Fax Service]",
+    "IFaxPort interface",
+    "_mfax_ifaxport_get_rings",
+    "fax._mfax_ifaxport_get_rings",
+    "fax._mfax_ifaxport_mfax_ifaxport_get_rings_cpp",
+    "faxcom/IFaxPort::Rings",
+    "faxcom/IFaxPort::get_Rings",
+    "faxcom/IFaxPort::put_Rings",
+    "put_Rings"
+  ],
+  "old-location": "fax\\_mfax_ifaxport_mfax_ifaxport_get_rings_cpp.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxlegacy_3jjn.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IFaxPort interface [Fax Service],Rings property, IFaxPort.Rings, IFaxPort.put_Rings, IFaxPort::Rings, IFaxPort::get_Rings, IFaxPort::put_Rings, Rings property [Fax Service], Rings property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_rings, fax._mfax_ifaxport_get_rings, fax._mfax_ifaxport_mfax_ifaxport_get_rings_cpp, faxcom/IFaxPort::Rings, faxcom/IFaxPort::get_Rings, faxcom/IFaxPort::put_Rings, put_Rings",
+  "req.header": "faxcom.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Faxcom.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFaxPort::put_Rings",
+    "faxcom/IFaxPort::put_Rings"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Faxcom.dll"
+  ],
+  "api_name": [
+    "IFaxPort.Rings",
+    "IFaxPort.get_Rings",
+    "IFaxPort.put_Rings"
+  ]
+}

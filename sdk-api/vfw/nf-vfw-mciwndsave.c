@@ -1,0 +1,4 @@
+LONG MCIWndSave(
+     hwnd,
+     szFile
+);

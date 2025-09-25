@@ -1,0 +1,47 @@
+{
+  "UID": "NC:acxstreams.EVT_ACX_STREAM_PREPARE_HARDWARE",
+  "tech.root": "audio",
+  "title": "EVT_ACX_STREAM_PREPARE_HARDWARE",
+  "ms.date": "10/31/2022",
+  "targetos": "Windows",
+  "description": "The EvtAcxStreamPrepareHardware event tells the driver to prepare the hardware for streaming.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxstreams.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxstreams.h"
+  ],
+  "api_name": [
+    "EVT_ACX_STREAM_PREPARE_HARDWARE"
+  ],
+  "f1_keywords": [
+    "EVT_ACX_STREAM_PREPARE_HARDWARE",
+    "acxstreams/EVT_ACX_STREAM_PREPARE_HARDWARE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

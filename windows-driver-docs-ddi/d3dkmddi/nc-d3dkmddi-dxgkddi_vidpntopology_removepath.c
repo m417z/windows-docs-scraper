@@ -1,0 +1,8 @@
+DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH DxgkddiVidpntopologyRemovepath;
+
+NTSTATUS DxgkddiVidpntopologyRemovepath(
+  [in] IN_CONST_D3DKMDT_HVIDPNTOPOLOGY hVidPnTopology,
+  [in] IN_CONST_D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId,
+  [in] IN_CONST_D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId
+)
+{...}

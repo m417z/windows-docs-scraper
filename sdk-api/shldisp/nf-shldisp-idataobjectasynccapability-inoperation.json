@@ -1,0 +1,63 @@
+{
+  "UID": "NF:shldisp.IDataObjectAsyncCapability.InOperation",
+  "title": "IDataObjectAsyncCapability::InOperation (shldisp.h)",
+  "description": "Called by the drop source to determine whether the target is extracting data asynchronously.",
+  "helpviewer_keywords": [
+    "IDataObjectAsyncCapability interface [Windows Shell]",
+    "InOperation method",
+    "IDataObjectAsyncCapability.InOperation",
+    "IDataObjectAsyncCapability::InOperation",
+    "InOperation",
+    "InOperation method [Windows Shell]",
+    "InOperation method [Windows Shell]",
+    "IDataObjectAsyncCapability interface",
+    "shell.IDataObjectAsyncCapability_InOperation",
+    "shldisp/IDataObjectAsyncCapability::InOperation"
+  ],
+  "old-location": "shell\\IDataObjectAsyncCapability_InOperation.htm",
+  "tech.root": "shell",
+  "ms.assetid": "858EB8C4-88AB-40a3-B4FC-CCD19235CE55",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IDataObjectAsyncCapability interface [Windows Shell],InOperation method, IDataObjectAsyncCapability.InOperation, IDataObjectAsyncCapability::InOperation, InOperation, InOperation method [Windows Shell], InOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_InOperation, shldisp/IDataObjectAsyncCapability::InOperation",
+  "req.header": "shldisp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Shldisp.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll (version 6.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDataObjectAsyncCapability::InOperation",
+    "shldisp/IDataObjectAsyncCapability::InOperation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Shell32.dll"
+  ],
+  "api_name": [
+    "IDataObjectAsyncCapability.InOperation"
+  ]
+}

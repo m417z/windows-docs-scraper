@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortWaveRTStream.AllocateContiguousPagesForMdl",
+  "title": "IPortWaveRTStream::AllocateContiguousPagesForMdl (portcls.h)",
+  "description": "The AllocateContiguousPagesForMdl method allocates a list of contiguous, nonpaged, physical memory pages and returns a pointer to a memory descriptor list (MDL) that describes them.",
+  "old-location": "audio\\iportwavertstream_allocatecontiguouspagesformdl.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortWaveRTStream::AllocateContiguousPagesForMdl"
+  ],
+  "ms.keywords": "AllocateContiguousPagesForMdl, AllocateContiguousPagesForMdl method [Audio Devices], AllocateContiguousPagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocateContiguousPagesForMdl method, IPortWaveRTStream.AllocateContiguousPagesForMdl, IPortWaveRTStream::AllocateContiguousPagesForMdl, audio.iportwavertstream_allocatecontiguouspagesformdl, audmp-routines_92ff395d-072b-4a11-b856-3afc1a024289.xml, portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl",
+  "req.header": "portcls.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Passive level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortWaveRTStream::AllocateContiguousPagesForMdl",
+    "portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Portcls.h"
+  ],
+  "api_name": [
+    "IPortWaveRTStream::AllocateContiguousPagesForMdl"
+  ]
+}

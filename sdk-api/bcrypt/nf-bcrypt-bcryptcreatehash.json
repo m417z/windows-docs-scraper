@@ -1,0 +1,59 @@
+{
+  "UID": "NF:bcrypt.BCryptCreateHash",
+  "title": "BCryptCreateHash function (bcrypt.h)",
+  "description": "Called to create a hash or Message Authentication Code (MAC) object.",
+  "helpviewer_keywords": [
+    "BCRYPT_HASH_REUSABLE_FLAG",
+    "BCryptCreateHash",
+    "BCryptCreateHash function [Security]",
+    "bcrypt/BCryptCreateHash",
+    "security.bcryptcreatehash_func"
+  ],
+  "old-location": "security\\bcryptcreatehash_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "deb02f67-f3d3-4542-8245-fd4982c3190b",
+  "ms.date": "08/21/2025",
+  "ms.keywords": "BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash function [Security], bcrypt/BCryptCreateHash, security.bcryptcreatehash_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptCreateHash",
+    "bcrypt/BCryptCreateHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptCreateHash"
+  ]
+}

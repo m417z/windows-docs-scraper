@@ -1,0 +1,7 @@
+HRESULT FilterFindNext(
+  [in]  HANDLE                   hFilterFind,
+  [in]  FILTER_INFORMATION_CLASS dwInformationClass,
+  [out] LPVOID                   lpBuffer,
+  [in]  DWORD                    dwBufferSize,
+  [out] LPDWORD                  lpBytesReturned
+);

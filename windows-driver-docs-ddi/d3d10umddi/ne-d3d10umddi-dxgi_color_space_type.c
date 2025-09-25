@@ -1,0 +1,3 @@
+typedef enum DXGI_COLOR_SPACE_TYPE {
+  DXGI_COLOR_SPACE_CUSTOM
+} ;

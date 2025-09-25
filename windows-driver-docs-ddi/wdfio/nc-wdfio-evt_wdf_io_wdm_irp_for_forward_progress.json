@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfio.EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS",
+  "title": "EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS (wdfio.h)",
+  "description": "A driver's EvtIoWdmIrpForForwardProgress callback function examines an I/O request packet (IRP) and determines whether to use a reserved request object to process the I/O request or to fail the I/O request.",
+  "old-location": "wdf\\evtiowdmirpforforwardprogress.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback function"
+  ],
+  "ms.keywords": "DFQueueObjectRef_479581ba-4ffd-4aae-b4f0-c246daf38842.xml, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback, EvtIoWdmIrpForForwardProgress, EvtIoWdmIrpForForwardProgress callback function, kmdf.evtiowdmirpforforwardprogress, wdf.evtiowdmirpforforwardprogress, wdfio/EvtIoWdmIrpForForwardProgress",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.9,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS",
+    "wdfio/EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfio.h"
+  ],
+  "api_name": [
+    "EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS"
+  ]
+}

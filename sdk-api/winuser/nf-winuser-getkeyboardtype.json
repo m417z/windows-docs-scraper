@@ -1,0 +1,68 @@
+{
+  "UID": "NF:winuser.GetKeyboardType",
+  "title": "GetKeyboardType function (winuser.h)",
+  "description": "Retrieves information about the current keyboard.",
+  "helpviewer_keywords": [
+    "GetKeyboardType",
+    "GetKeyboardType function [Keyboard and Mouse Input]",
+    "_win32_getkeyboardtype",
+    "base.getkeyboardtype",
+    "inputdev.getkeyboardtype",
+    "winui.getkeyboardtype",
+    "winuser/GetKeyboardType"
+  ],
+  "old-location": "inputdev\\getkeyboardtype.htm",
+  "tech.root": "inputdev",
+  "ms.assetid": "39b9ba8b-0cab-465c-9a58-2b69eea7de76",
+  "ms.date": "02/25/2021",
+  "ms.keywords": "GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input], _win32_getkeyboardtype, base.getkeyboardtype, inputdev.getkeyboardtype, winui.getkeyboardtype, winuser/GetKeyboardType",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetKeyboardType",
+    "winuser/GetKeyboardType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-keyboard-l1-3-2.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-1.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-1-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-1-1.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-1-2.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll"
+  ],
+  "api_name": [
+    "GetKeyboardType"
+  ]
+}

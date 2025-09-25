@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winbase.DnsHostnameToComputerNameA",
+  "title": "DnsHostnameToComputerNameA function (winbase.h)",
+  "description": "Converts a DNS-style host name to a NetBIOS-style computer name. (ANSI)",
+  "helpviewer_keywords": [
+    "DnsHostnameToComputerNameA",
+    "winbase/DnsHostnameToComputerNameA"
+  ],
+  "old-location": "base\\dnshostnametocomputername.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "d5646fe6-9112-42cd-ace9-00dd1b590ecb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DnsHostnameToComputerName, DnsHostnameToComputerName function, DnsHostnameToComputerNameA, DnsHostnameToComputerNameW, _win32_dnshostnametocomputername, base.dnshostnametocomputername, winbase/DnsHostnameToComputerName, winbase/DnsHostnameToComputerNameA, winbase/DnsHostnameToComputerNameW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DnsHostnameToComputerNameW (Unicode) and DnsHostnameToComputerNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DnsHostnameToComputerNameA",
+    "winbase/DnsHostnameToComputerNameA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "DnsHostnameToComputerName",
+    "DnsHostnameToComputerNameA",
+    "DnsHostnameToComputerNameW"
+  ]
+}

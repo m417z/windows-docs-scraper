@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR {
+  [in]  const GUID *pVPGuid;
+  [out] HANDLE     hVideoProcessor;
+} D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR;

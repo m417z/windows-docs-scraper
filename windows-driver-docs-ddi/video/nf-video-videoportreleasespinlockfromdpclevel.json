@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortReleaseSpinLockFromDpcLevel",
+  "title": "VideoPortReleaseSpinLockFromDpcLevel function (video.h)",
+  "description": "The VideoPortReleaseSpinLockFromDpcLevel function releases the spin lock obtained by a previous call to VideoPortAcquireSpinLockAtDpcLevel.",
+  "old-location": "display\\videoportreleasespinlockfromdpclevel.htm",
+  "tech.root": "display",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "VideoPortReleaseSpinLockFromDpcLevel function"
+  ],
+  "ms.keywords": "VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, display.videoportreleasespinlockfromdpclevel, video/VideoPortReleaseSpinLockFromDpcLevel",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "VIDEO_PORT_SERVICES",
+  "f1_keywords": [
+    "VideoPortReleaseSpinLockFromDpcLevel",
+    "video/VideoPortReleaseSpinLockFromDpcLevel"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortReleaseSpinLockFromDpcLevel"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ZwFlushKey",
+  "title": "ZwFlushKey function (wdm.h)",
+  "description": "The ZwFlushKey routine forces a registry key to be committed to disk.",
+  "tech.root": "kernel",
+  "ms.date": "12/14/2022",
+  "keywords": [
+    "ZwFlushKey function"
+  ],
+  "ms.keywords": "NtFlushKey, ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, kernel.zwflushkey, wdm/NtFlushKey, wdm/ZwFlushKey",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlZwPassive, ZwRegistryCreate, ZwRegistryOpen, HwStorPortProhibitedDDIs, ZwRegistryCreate(storport), ZwRegistryOpen(storport)",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwFlushKey",
+    "wdm/ZwFlushKey"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwFlushKey"
+  ]
+}

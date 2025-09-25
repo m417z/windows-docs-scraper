@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winfax.FaxSetPortA",
+  "title": "FaxSetPortA function (winfax.h)",
+  "description": "A fax client application calls the FaxSetPort function to change the configuration of the fax port of interest. (ANSI)",
+  "helpviewer_keywords": [
+    "FaxSetPortA",
+    "winfax/FaxSetPortA"
+  ],
+  "old-location": "fax\\_mfax_faxsetport.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxlegacy_5sac.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxSetPort, FaxSetPort function [Fax Service], FaxSetPortA, FaxSetPortW, _mfax_faxsetport, fax._mfax_faxsetport, winfax/FaxSetPort, winfax/FaxSetPortA, winfax/FaxSetPortW",
+  "req.header": "winfax.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FaxSetPortW (Unicode) and FaxSetPortA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WinFax.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FaxSetPortA",
+    "winfax/FaxSetPortA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "WinFax.lib",
+    "WinFax.dll"
+  ],
+  "api_name": [
+    "FaxSetPort",
+    "FaxSetPortA",
+    "FaxSetPortW"
+  ]
+}

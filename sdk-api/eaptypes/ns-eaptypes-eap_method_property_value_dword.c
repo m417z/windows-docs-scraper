@@ -1,0 +1,4 @@
+typedef struct _EAP_METHOD_PROPERTY_VALUE_DWORD {
+  DWORD length;
+  DWORD value;
+} EAP_METHOD_PROPERTY_VALUE_DWORD;

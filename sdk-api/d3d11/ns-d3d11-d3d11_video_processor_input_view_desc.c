@@ -1,0 +1,7 @@
+typedef struct D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC {
+  UINT                 FourCC;
+  D3D11_VPIV_DIMENSION ViewDimension;
+  union {
+    D3D11_TEX2D_VPIV Texture2D;
+  };
+} D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC;

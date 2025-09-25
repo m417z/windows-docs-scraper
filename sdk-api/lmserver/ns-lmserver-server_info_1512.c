@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1512 {
+  DWORD sv1512_maxnonpagedmemoryusage;
+} SERVER_INFO_1512, *PSERVER_INFO_1512, *LPSERVER_INFO_1512;

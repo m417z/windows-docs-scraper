@@ -1,0 +1,3 @@
+void CD3D11_DEPTH_STENCIL_DESC(
+  CD3D11_DEFAULT unnamedParam1
+);

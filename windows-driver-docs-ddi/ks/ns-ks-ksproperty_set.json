@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ks.KSPROPERTY_SET",
+  "title": "KSPROPERTY_SET (ks.h)",
+  "description": "A kernel streaming driver or pin may use the KSPROPERTY_SET structure to describe how it supports a property set.",
+  "old-location": "stream\\ksproperty_set.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KSPROPERTY_SET structure"
+  ],
+  "ms.keywords": "*PKSPROPERTY_SET, KSPROPERTY_SET, KSPROPERTY_SET structure [Streaming Media Devices], PKSPROPERTY_SET, PKSPROPERTY_SET structure pointer [Streaming Media Devices], ks-struct_2c865d90-5142-4cda-bbd2-af67ac716c87.xml, ks/KSPROPERTY_SET, ks/PKSPROPERTY_SET, stream.ksproperty_set",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSPROPERTY_SET, *PKSPROPERTY_SET",
+  "f1_keywords": [
+    "PKSPROPERTY_SET",
+    "ks/PKSPROPERTY_SET",
+    "KSPROPERTY_SET",
+    "ks/KSPROPERTY_SET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PKSPROPERTY_SET",
+    "KSPROPERTY_SET"
+  ]
+}

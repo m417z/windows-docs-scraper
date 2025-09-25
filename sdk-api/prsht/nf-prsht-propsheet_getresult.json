@@ -1,0 +1,60 @@
+{
+  "UID": "NF:prsht.PropSheet_GetResult",
+  "title": "PropSheet_GetResult macro (prsht.h)",
+  "description": "Used by modeless property sheets to retrieve the information returned to modal property sheets by PropertySheet. You can use this macro or sent the PSM_GETRESULT message explicitly.",
+  "helpviewer_keywords": [
+    "PropSheet_GetResult",
+    "PropSheet_GetResult macro [Windows Controls]",
+    "_win32_PropSheet_GetResult",
+    "_win32_PropSheet_GetResult_cpp",
+    "controls.PropSheet_GetResult",
+    "controls._win32_PropSheet_GetResult",
+    "prsht/PropSheet_GetResult"
+  ],
+  "old-location": "controls\\PropSheet_GetResult.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\propsheet\\macros\\propsheet_getresult.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "PropSheet_GetResult, PropSheet_GetResult macro [Windows Controls], _win32_PropSheet_GetResult, _win32_PropSheet_GetResult_cpp, controls.PropSheet_GetResult, controls._win32_PropSheet_GetResult, prsht/PropSheet_GetResult",
+  "req.header": "prsht.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PropSheet_GetResult",
+    "prsht/PropSheet_GetResult"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Prsht.h"
+  ],
+  "api_name": [
+    "PropSheet_GetResult"
+  ]
+}

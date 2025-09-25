@@ -1,0 +1,62 @@
+{
+  "UID": "NF:msi.MsiOpenPackageW",
+  "title": "MsiOpenPackageW function (msi.h)",
+  "description": "The MsiOpenPackage function opens a package to use with the functions that access the product database. (Unicode)",
+  "helpviewer_keywords": [
+    "MsiOpenPackage",
+    "MsiOpenPackage function",
+    "MsiOpenPackageW",
+    "_msi_msiopenpackage",
+    "msi/MsiOpenPackage",
+    "msi/MsiOpenPackageW",
+    "setup.msiopenpackage"
+  ],
+  "old-location": "setup\\msiopenpackage.htm",
+  "tech.root": "setup",
+  "ms.assetid": "1227493a-58dc-4e41-b6d7-9ecce0b3df40",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiOpenPackageW (Unicode) and MsiOpenPackageA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiOpenPackageW",
+    "msi/MsiOpenPackageW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiOpenPackage",
+    "MsiOpenPackageA",
+    "MsiOpenPackageW"
+  ]
+}

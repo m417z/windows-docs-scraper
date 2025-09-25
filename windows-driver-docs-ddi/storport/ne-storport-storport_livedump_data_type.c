@@ -1,0 +1,4 @@
+typedef enum _STORPORT_LIVEDUMP_DATA_TYPE {
+  StorportLivedumpDataTypeUndefined,
+  StorportLivedumpDataTypeDeviceTelemetryLog
+} STORPORT_LIVEDUMP_DATA_TYPE, *PSTORPORT_LIVEDUMP_DATA_TYPE;

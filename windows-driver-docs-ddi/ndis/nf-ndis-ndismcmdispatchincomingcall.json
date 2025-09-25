@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ndis.NdisMCmDispatchIncomingCall",
+  "title": "NdisMCmDispatchIncomingCall macro (ndis.h)",
+  "description": "NdisMCmDispatchIncomingCall informs the client of an incoming call on a SAP previously registered by that client with the MCM driver.",
+  "old-location": "netvista\\ndismcmdispatchincomingcall.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMCmDispatchIncomingCall macro"
+  ],
+  "ms.keywords": "NdisMCmDispatchIncomingCall, NdisMCmDispatchIncomingCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1133faf8-d5a6-4800-8738-94b11bc1d51f.xml, ndis/NdisMCmDispatchIncomingCall, netvista.ndismcmdispatchincomingcall",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmDispatchIncomingCall   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmDispatchIncomingCall   (NDIS 5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_MCM_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMCmDispatchIncomingCall",
+    "ndis/NdisMCmDispatchIncomingCall"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisMCmDispatchIncomingCall"
+  ]
+}

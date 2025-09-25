@@ -1,0 +1,51 @@
+{
+  "UID": "NE:miniport._KINTERRUPT_MODE",
+  "title": "_KINTERRUPT_MODE (miniport.h)",
+  "description": "The _KINTERRUPT_MODE enumeration (miniport.h) type indicates whether an interrupt is level-triggered or edge-triggered.",
+  "old-location": "kernel\\kinterrupt_mode.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KINTERRUPT_MODE enumeration"
+  ],
+  "ms.keywords": "KINTERRUPT_MODE, KINTERRUPT_MODE enumeration [Kernel-Mode Driver Architecture], Latched, LevelSensitive, _KINTERRUPT_MODE, kernel.kinterrupt_mode, sysenum_35275927-b863-496a-8193-579f9d1d3a22.xml, wdm/KINTERRUPT_MODE, wdm/Latched, wdm/LevelSensitive",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KINTERRUPT_MODE",
+  "f1_keywords": [
+    "_KINTERRUPT_MODE",
+    "miniport/_KINTERRUPT_MODE",
+    "KINTERRUPT_MODE",
+    "miniport/KINTERRUPT_MODE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_KINTERRUPT_MODE",
+    "KINTERRUPT_MODE"
+  ]
+}

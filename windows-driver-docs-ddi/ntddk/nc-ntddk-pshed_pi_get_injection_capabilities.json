@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ntddk.PSHED_PI_GET_INJECTION_CAPABILITIES",
+  "title": "PSHED_PI_GET_INJECTION_CAPABILITIES (ntddk.h)",
+  "description": "A PSHED plug-in's GetInjectionCapabilities callback function returns an error injection capabilities union that describes the types of hardware errors that can be injected into the hardware platform.",
+  "tech.root": "whea",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "PSHED_PI_GET_INJECTION_CAPABILITIES callback function"
+  ],
+  "ms.keywords": "GetInjectionCapabilities, GetInjectionCapabilities callback function [WHEA Drivers and Applications], PSHED_PI_GET_INJECTION_CAPABILITIES, PSHED_PI_GET_INJECTION_CAPABILITIES callback, ntddk/GetInjectionCapabilities, whea.getinjectioncapabilities, whearef_0c5e00c7-c5d7-4e28-a351-7831d883c70f.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSHED_PI_GET_INJECTION_CAPABILITIES",
+    "ntddk/PSHED_PI_GET_INJECTION_CAPABILITIES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PSHED_PI_GET_INJECTION_CAPABILITIES"
+  ]
+}

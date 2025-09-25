@@ -1,0 +1,3 @@
+typedef struct _FILE_LEVEL_TRIM_OUTPUT {
+  DWORD NumRangesProcessed;
+} FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT;

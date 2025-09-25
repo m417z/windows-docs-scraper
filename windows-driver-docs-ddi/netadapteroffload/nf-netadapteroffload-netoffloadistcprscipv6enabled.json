@@ -1,0 +1,47 @@
+{
+  "UID": "NF:netadapteroffload.NetOffloadIsTcpRscIPv6Enabled",
+  "title": "NetOffloadIsTcpRscIPv6Enabled",
+  "ms.date": "10/15/2020",
+  "targetos": "Windows",
+  "description": "The NetOffloadIsTcpRscIPv6Enabled function determines whether a net adapter has RSC offload enabled for IPv6 packets.",
+  "tech.root": "netvista",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "netadapteroffload.h",
+  "req.idl": null,
+  "req.include-header": "netadaptercx.h",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "netadaptercxstub.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": 2.33,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netadapteroffload.h"
+  ],
+  "api_name": [
+    "NetOffloadIsTcpRscIPv6Enabled"
+  ],
+  "f1_keywords": [
+    "NetOffloadIsTcpRscIPv6Enabled",
+    "netadapteroffload/NetOffloadIsTcpRscIPv6Enabled"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "ms.custom": "Fe"
+}

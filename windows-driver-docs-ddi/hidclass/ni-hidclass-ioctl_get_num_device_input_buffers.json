@@ -1,0 +1,48 @@
+{
+  "UID": "NI:hidclass.IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS",
+  "title": "IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS (hidclass.h)",
+  "description": "The IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS request obtains the size of the input report queue for a top-level collection.",
+  "old-location": "hid\\ioctl_get_num_device_input_buffers.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS IOCTL"
+  ],
+  "ms.keywords": "IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS control, IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS control code [Human Input Devices], hid.ioctl_get_num_device_input_buffers, hidclass/IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, hidioreq_4d76e323-5cc1-40d2-aa56-ca5427f15e6f.xml",
+  "req.header": "hidclass.h",
+  "req.include-header": "Hidclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS",
+    "hidclass/IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "hidclass.h"
+  ],
+  "api_name": [
+    "IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS"
+  ]
+}

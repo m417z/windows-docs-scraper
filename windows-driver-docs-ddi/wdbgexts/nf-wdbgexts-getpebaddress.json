@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdbgexts.GetPebAddress",
+  "title": "GetPebAddress function (wdbgexts.h)",
+  "description": "The GetPebAddress function returns the address of the process environment block (PEB) for a system process.",
+  "old-location": "debugger\\getpebaddress.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "GetPebAddress function"
+  ],
+  "ms.keywords": "GetPebAddress, GetPebAddress function [Windows Debugging], WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, debugger.getpebaddress, wdbgexts/GetPebAddress",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GetPebAddress",
+    "wdbgexts/GetPebAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "GetPebAddress"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "UID": "NS:winsock2._WSAOVERLAPPED",
+  "title": "WSAOVERLAPPED (winsock2.h)",
+  "description": "Provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion.",
+  "helpviewer_keywords": [
+    "*LPWSAOVERLAPPED",
+    "LPWSAOVERLAPPED",
+    "LPWSAOVERLAPPED structure pointer [Winsock]",
+    "WSAOVERLAPPED",
+    "WSAOVERLAPPED structure [Winsock]",
+    "_win32_wsaoverlapped_2",
+    "winsock.wsaoverlapped_2",
+    "winsock2/LPWSAOVERLAPPED",
+    "winsock2/WSAOVERLAPPED"
+  ],
+  "old-location": "winsock\\wsaoverlapped_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "91004241-e0ea-4bda-a0f5-71688ac83038",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED",
+  "req.header": "winsock2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WSAOVERLAPPED, *LPWSAOVERLAPPED",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_WSAOVERLAPPED",
+    "winsock2/_WSAOVERLAPPED",
+    "LPWSAOVERLAPPED",
+    "winsock2/LPWSAOVERLAPPED",
+    "WSAOVERLAPPED",
+    "winsock2/WSAOVERLAPPED"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winsock2.h"
+  ],
+  "api_name": [
+    "WSAOVERLAPPED"
+  ]
+}

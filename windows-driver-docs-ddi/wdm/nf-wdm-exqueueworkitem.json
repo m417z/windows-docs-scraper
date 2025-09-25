@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ExQueueWorkItem",
+  "title": "ExQueueWorkItem function (wdm.h)",
+  "description": "ExQueueWorkItem inserts a given work item into a queue from which a system worker thread removes the item and gives control to the routine that the caller supplied to ExInitializeWorkItem.",
+  "tech.root": "ifsk",
+  "ms.date": "12/12/2022",
+  "keywords": [
+    "ExQueueWorkItem function"
+  ],
+  "ms.keywords": "ExQueueWorkItem, ExQueueWorkItem routine [Installable File System Drivers], exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ifsk.exqueueworkitem, wdm/ExQueueWorkItem",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExQueueWorkItem",
+    "wdm/ExQueueWorkItem"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExQueueWorkItem"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "UID": "NF:wdsbp.WdsBpParseInitialize",
+  "title": "WdsBpParseInitialize function (wdsbp.h)",
+  "description": "Receives a handle to the packet sent by the network boot program. (WdsBpParseInitialize)",
+  "helpviewer_keywords": [
+    "WDSBP_PK_TYPE_BCD",
+    "WDSBP_PK_TYPE_DHCP",
+    "WDSBP_PK_TYPE_WDSNBP",
+    "WdsBpParseInitialize",
+    "WdsBpParseInitialize function [Windows Deployment Services]",
+    "wds.wdsbpparseinitialize",
+    "wdsbp/WdsBpParseInitialize"
+  ],
+  "old-location": "wds\\wdsbpparseinitialize.htm",
+  "tech.root": "wds",
+  "ms.assetid": "dc6007ad-0dd5-477d-a49f-45820aa1b5f6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitialize, WdsBpParseInitialize function [Windows Deployment Services], wds.wdsbpparseinitialize, wdsbp/WdsBpParseInitialize",
+  "req.header": "wdsbp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdsbp.lib",
+  "req.dll": "Wdsbp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WdsBpParseInitialize",
+    "wdsbp/WdsBpParseInitialize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wdsbp.dll"
+  ],
+  "api_name": [
+    "WdsBpParseInitialize"
+  ]
+}

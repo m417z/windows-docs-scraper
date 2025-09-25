@@ -1,0 +1,63 @@
+{
+  "UID": "NF:pdh.PdhLookupPerfNameByIndexW",
+  "title": "PdhLookupPerfNameByIndexW function (pdh.h)",
+  "description": "Returns the performance object name or counter name corresponding to the specified index. (Unicode)",
+  "helpviewer_keywords": [
+    "PdhLookupPerfNameByIndex",
+    "PdhLookupPerfNameByIndex function [Perf]",
+    "PdhLookupPerfNameByIndexW",
+    "_win32_pdhlookupperfnamebyindex",
+    "base.pdhlookupperfnamebyindex",
+    "pdh/PdhLookupPerfNameByIndex",
+    "pdh/PdhLookupPerfNameByIndexW",
+    "perf.pdhlookupperfnamebyindex"
+  ],
+  "old-location": "perf\\pdhlookupperfnamebyindex.htm",
+  "tech.root": "perf",
+  "ms.assetid": "6d5e1465-296b-4d8c-b0cb-aefdffb8539e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf], PdhLookupPerfNameByIndexA, PdhLookupPerfNameByIndexW, _win32_pdhlookupperfnamebyindex, base.pdhlookupperfnamebyindex, pdh/PdhLookupPerfNameByIndex, pdh/PdhLookupPerfNameByIndexA, pdh/PdhLookupPerfNameByIndexW, perf.pdhlookupperfnamebyindex",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhLookupPerfNameByIndexW (Unicode) and PdhLookupPerfNameByIndexA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhLookupPerfNameByIndexW",
+    "pdh/PdhLookupPerfNameByIndexW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhLookupPerfNameByIndex",
+    "PdhLookupPerfNameByIndexA",
+    "PdhLookupPerfNameByIndexW"
+  ]
+}

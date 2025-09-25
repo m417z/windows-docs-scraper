@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortGetRomImage",
+  "title": "VideoPortGetRomImage function (video.h)",
+  "description": "The VideoPortGetRomImage function (video.h) reads the device's read-only memory (ROM) and returns a pointer to a buffer containing the device's ROM (BIOS) data.",
+  "old-location": "display\\videoportgetromimage.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortGetRomImage function"
+  ],
+  "ms.keywords": "VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, display.videoportgetromimage, video/VideoPortGetRomImage",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortGetRomImage",
+    "video/VideoPortGetRomImage"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortGetRomImage"
+  ]
+}

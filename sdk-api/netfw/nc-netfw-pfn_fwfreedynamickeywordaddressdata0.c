@@ -1,0 +1,6 @@
+PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0 PfnFwfreedynamickeywordaddressdata0;
+
+DWORD PfnFwfreedynamickeywordaddressdata0(
+  PFW_DYNAMIC_KEYWORD_ADDRESS_DATA0 dynamicKeywordAddressData
+)
+{...}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupDiClassGuidsFromNameExW",
+  "title": "SetupDiClassGuidsFromNameExW function (setupapi.h)",
+  "description": "The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupDiClassGuidsFromNameEx",
+    "SetupDiClassGuidsFromNameEx function [Device and Driver Installation]",
+    "SetupDiClassGuidsFromNameExW",
+    "devinst.setupdiclassguidsfromnameex",
+    "di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml",
+    "setupapi/SetupDiClassGuidsFromNameEx"
+  ],
+  "old-location": "devinst\\setupdiclassguidsfromnameex.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "5a692ed0-2e3a-464e-934e-2fe98d9c217b",
+  "ms.date": "01/30/2023",
+  "ms.keywords": "SetupDiClassGuidsFromNameEx, SetupDiClassGuidsFromNameEx function [Device and Driver Installation], SetupDiClassGuidsFromNameExA, SetupDiClassGuidsFromNameExW, devinst.setupdiclassguidsfromnameex, di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml, setupapi/SetupDiClassGuidsFromNameEx",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiClassGuidsFromNameExW",
+    "setupapi/SetupDiClassGuidsFromNameExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ext-ms-win-setupapi-devobj-l1-1-0.dll",
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiClassGuidsFromNameEx",
+    "SetupDiClassGuidsFromNameExW"
+  ]
+}

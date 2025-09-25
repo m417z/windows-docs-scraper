@@ -1,0 +1,3 @@
+BOOLEAN IN6_IS_ADDR_SITELOCAL(
+  const IN6_ADDR *a
+);

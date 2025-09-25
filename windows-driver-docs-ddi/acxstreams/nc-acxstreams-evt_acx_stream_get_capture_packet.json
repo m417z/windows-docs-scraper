@@ -1,0 +1,47 @@
+{
+  "UID": "NC:acxstreams.EVT_ACX_STREAM_GET_CAPTURE_PACKET",
+  "tech.root": "audio",
+  "title": "EVT_ACX_STREAM_GET_CAPTURE_PACKET",
+  "ms.date": "10/31/2022",
+  "targetos": "Windows",
+  "description": "EvtAcxStreamGetCapturePacket tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxstreams.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxstreams.h"
+  ],
+  "api_name": [
+    "EVT_ACX_STREAM_GET_CAPTURE_PACKET"
+  ],
+  "f1_keywords": [
+    "EVT_ACX_STREAM_GET_CAPTURE_PACKET",
+    "acxstreams/EVT_ACX_STREAM_GET_CAPTURE_PACKET"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

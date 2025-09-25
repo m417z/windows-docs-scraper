@@ -1,0 +1,8 @@
+PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 Pfnd3dwddm24DdiVideodecoderbeginframeRs40;
+
+HRESULT Pfnd3dwddm24DdiVideodecoderbeginframeRs40(
+  D3D10DDI_HDEVICE hDevice,
+  D3D11_1DDI_HDECODE hDecode,
+  const D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0 *pBeginFrame
+)
+{...}

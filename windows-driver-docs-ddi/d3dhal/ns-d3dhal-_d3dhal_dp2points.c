@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2POINTS {
+  WORD wCount;
+  WORD wVStart;
+} D3DHAL_DP2POINTS, *LPD3DHAL_DP2POINTS;

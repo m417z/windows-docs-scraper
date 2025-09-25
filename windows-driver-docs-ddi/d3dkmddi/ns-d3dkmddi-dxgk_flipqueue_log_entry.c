@@ -1,0 +1,4 @@
+typedef struct _DXGK_FLIPQUEUE_LOG_ENTRY {
+  ULONGLONG PresentId;
+  ULONGLONG PresentTimestamp;
+} DXGK_FLIPQUEUE_LOG_ENTRY;

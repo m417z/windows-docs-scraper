@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capDriverConnect",
+  "title": "capDriverConnect macro (vfw.h)",
+  "description": "The capDriverConnect macro connects a capture window to a capture driver. You can use this macro or explicitly send the WM_CAP_DRIVER_CONNECT message.",
+  "helpviewer_keywords": [
+    "_win32_capDriverConnect",
+    "capDriverConnect",
+    "capDriverConnect macro [Windows Multimedia]",
+    "multimedia.capdriverconnect",
+    "vfw/capDriverConnect"
+  ],
+  "old-location": "multimedia\\capdriverconnect.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "ed8042c7-89c6-4591-b3e0-46327f8de2e1",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capDriverConnect, capDriverConnect, capDriverConnect macro [Windows Multimedia], multimedia.capdriverconnect, vfw/capDriverConnect",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capDriverConnect",
+    "vfw/capDriverConnect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capDriverConnect"
+  ]
+}

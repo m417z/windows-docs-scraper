@@ -1,0 +1,3 @@
+typedef struct _WKSTA_USER_INFO_0 {
+  LMSTR wkui0_username;
+} WKSTA_USER_INFO_0, *PWKSTA_USER_INFO_0, *LPWKSTA_USER_INFO_0;

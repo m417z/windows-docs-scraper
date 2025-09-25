@@ -1,0 +1,7 @@
+typedef struct _WINBIO_CAPTURE_PARAMETERS {
+  DWORD                    PayloadSize;
+  WINBIO_BIR_PURPOSE       Purpose;
+  WINBIO_REGISTERED_FORMAT Format;
+  WINBIO_UUID              VendorFormat;
+  WINBIO_BIR_DATA_FLAGS    Flags;
+} WINBIO_CAPTURE_PARAMETERS, *PWINBIO_CAPTURE_PARAMETERS;

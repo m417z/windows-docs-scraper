@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wininet.GopherCreateLocatorA",
+  "title": "GopherCreateLocatorA function (wininet.h)",
+  "description": "Creates a Gopher or Gopher+ locator string from the selector string's component parts. (ANSI)",
+  "helpviewer_keywords": [
+    "GopherCreateLocatorA",
+    "wininet/GopherCreateLocatorA"
+  ],
+  "old-location": "wininet\\gophercreatelocator.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "972a4ff9-efda-4784-9ac8-c76e679e8032",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GopherCreateLocatorW (Unicode) and GopherCreateLocatorA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wininet.lib",
+  "req.dll": "Wininet.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GopherCreateLocatorA",
+    "wininet/GopherCreateLocatorA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wininet.dll"
+  ],
+  "api_name": [
+    "GopherCreateLocator",
+    "GopherCreateLocatorA",
+    "GopherCreateLocatorW"
+  ]
+}

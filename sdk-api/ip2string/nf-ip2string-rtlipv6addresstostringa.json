@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ip2string.RtlIpv6AddressToStringA",
+  "title": "RtlIpv6AddressToStringA function (ip2string.h)",
+  "description": "Converts an IPv6 address to a string in Internet standard format. (ANSI)",
+  "helpviewer_keywords": [
+    "RtlIpv6AddressToStringA",
+    "ip2string/RtlIpv6AddressToStringA"
+  ],
+  "old-location": "iphlp\\rtlipv6addresstostring.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "a891adb0-6c2d-4b69-a0de-4a615be938e3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RtlIpv6AddressToString, RtlIpv6AddressToString function [IP Helper], RtlIpv6AddressToStringA, RtlIpv6AddressToStringW, ip2string/RtlIpv6AddressToString, ip2string/RtlIpv6AddressToStringA, ip2string/RtlIpv6AddressToStringW, iphlp.rtlipv6addresstostring",
+  "req.header": "ip2string.h",
+  "req.include-header": "Mstcpip.h, Ip2string.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RtlIpv6AddressToStringW (Unicode) and RtlIpv6AddressToStringA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ntdll.lib",
+  "req.dll": "ntdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlIpv6AddressToStringA",
+    "ip2string/RtlIpv6AddressToStringA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlIpv6AddressToString",
+    "RtlIpv6AddressToStringA",
+    "RtlIpv6AddressToStringW"
+  ]
+}

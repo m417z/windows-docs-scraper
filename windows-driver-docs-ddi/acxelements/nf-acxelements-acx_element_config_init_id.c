@@ -1,0 +1,4 @@
+VOID ACX_ELEMENT_CONFIG_INIT_ID(
+  PACX_ELEMENT_CONFIG Config,
+  ULONG               Id
+);

@@ -1,0 +1,4 @@
+LONG AVIStreamNextSample(
+     pavi,
+     l
+);

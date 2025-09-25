@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdffdo.EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES",
+  "title": "EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES (wdffdo.h)",
+  "description": "A driver's EvtDeviceRemoveAddedResources event callback function removes hardware resources that the driver's EvtDeviceFilterAddResourceRequirements callback function added.",
+  "old-location": "wdf\\evtdeviceremoveaddedresources.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectFdoPdoRef_c1020fff-8895-4ece-ae27-ef33d3a65de6.xml, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback, EvtDeviceRemoveAddedResources, EvtDeviceRemoveAddedResources callback function, kmdf.evtdeviceremoveaddedresources, wdf.evtdeviceremoveaddedresources, wdffdo/EvtDeviceRemoveAddedResources",
+  "req.header": "wdffdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES",
+    "wdffdo/EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdffdo.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES"
+  ]
+}

@@ -1,0 +1,8 @@
+typedef struct _SECPKG_SUPPLEMENTAL_CRED_ARRAY {
+  ULONG                    CredentialCount;
+#if ...
+  SECPKG_SUPPLEMENTAL_CRED *Credentials[];
+#else
+  SECPKG_SUPPLEMENTAL_CRED Credentials[1];
+#endif
+} SECPKG_SUPPLEMENTAL_CRED_ARRAY, *PSECPKG_SUPPLEMENTAL_CRED_ARRAY;

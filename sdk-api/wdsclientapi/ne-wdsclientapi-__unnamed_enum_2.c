@@ -1,0 +1,6 @@
+typedef enum {
+  WDS_LOG_LEVEL_DISABLED = 0,
+  WDS_LOG_LEVEL_ERROR = 1,
+  WDS_LOG_LEVEL_WARNING = 2,
+  WDS_LOG_LEVEL_INFO = 3
+} __unnamed_enum_2;

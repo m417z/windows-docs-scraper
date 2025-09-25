@@ -1,0 +1,60 @@
+{
+  "UID": "NF:joystickapi.joySetCapture",
+  "title": "joySetCapture function (joystickapi.h)",
+  "description": "The joySetCapture function captures a joystick by causing its messages to be sent to the specified window.",
+  "helpviewer_keywords": [
+    "_win32_joySetCapture",
+    "joySetCapture",
+    "joySetCapture function [Windows Multimedia]",
+    "joystickapi/joySetCapture",
+    "multimedia.joysetcapture"
+  ],
+  "old-location": "multimedia\\joysetcapture.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "d4511c2c-54b3-48f5-aa30-e198292a4728",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_joySetCapture, joySetCapture, joySetCapture function [Windows Multimedia], joystickapi/joySetCapture, multimedia.joysetcapture",
+  "req.header": "joystickapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winmm.lib",
+  "req.dll": "Winmm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "joySetCapture",
+    "joystickapi/joySetCapture"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winmm.dll",
+    "API-MS-Win-mm-joystick-l1-1-0.dll",
+    "winmmbase.dll"
+  ],
+  "api_name": [
+    "joySetCapture"
+  ]
+}

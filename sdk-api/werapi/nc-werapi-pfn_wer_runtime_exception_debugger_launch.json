@@ -1,0 +1,59 @@
+{
+  "UID": "NC:werapi.PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH",
+  "title": "PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH (werapi.h)",
+  "description": "Windows Error Reporting (WER) calls this function to let you customize the debugger launch options and launch string.",
+  "helpviewer_keywords": [
+    "OutOfProcessExceptionEventDebuggerLaunchCallback",
+    "OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting]",
+    "PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH",
+    "PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback",
+    "wer.outofprocessexceptioneventdebuggerlaunchcallback",
+    "werapi/OutOfProcessExceptionEventDebuggerLaunchCallback"
+  ],
+  "old-location": "wer\\outofprocessexceptioneventdebuggerlaunchcallback.htm",
+  "tech.root": "wer",
+  "ms.assetid": "ecf36951-cdb5-425d-a9b1-83b7ce8aebc4",
+  "ms.date": "07/21/2023",
+  "ms.keywords": "OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH, PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback, wer.outofprocessexceptioneventdebuggerlaunchcallback, werapi/OutOfProcessExceptionEventDebuggerLaunchCallback",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH",
+    "werapi/PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Werapi.h"
+  ],
+  "api_name": [
+    "OutOfProcessExceptionEventDebuggerLaunchCallback"
+  ]
+}

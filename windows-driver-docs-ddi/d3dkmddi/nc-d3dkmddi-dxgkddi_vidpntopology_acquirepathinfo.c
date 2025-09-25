@@ -1,0 +1,9 @@
+DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO DxgkddiVidpntopologyAcquirepathinfo;
+
+NTSTATUS DxgkddiVidpntopologyAcquirepathinfo(
+  [in]  IN_CONST_D3DKMDT_HVIDPNTOPOLOGY hVidPnTopology,
+  [in]  IN_CONST_D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId,
+  [in]  IN_CONST_D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId,
+  [out] DEREF_OUT_CONST_PPD3DKMDT_VIDPN_PRESENT_PATH ppVidPnPresentPathInfo
+)
+{...}

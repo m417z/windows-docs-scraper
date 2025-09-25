@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netdma.DMA_START_HANDLER",
+  "title": "DMA_START_HANDLER (netdma.h)",
+  "description": "The ProviderStartDma function starts a DMA transfer on the specified DMA channel.",
+  "old-location": "netvista\\providerstartdma.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "DMA_START_HANDLER callback function"
+  ],
+  "ms.keywords": "DMA_START_HANDLER, DMA_START_HANDLER callback, ProviderStartDma, ProviderStartDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderStartDma, netdma_ref_76be9ff2-b865-4516-ad7b-ab3951133f41.xml, netvista.providerstartdma",
+  "req.header": "netdma.h",
+  "req.include-header": "Netdma.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported for NetDMA 2.0 drivers in Windows Server 2008. Supported for NetDMA 1.1   drivers in Windows Server 2008. Supported for NetDMA 1.0 drivers in Windows Server 2008 and Windows   Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DMA_START_HANDLER",
+    "netdma/DMA_START_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "netdma.h"
+  ],
+  "api_name": [
+    "DMA_START_HANDLER"
+  ]
+}

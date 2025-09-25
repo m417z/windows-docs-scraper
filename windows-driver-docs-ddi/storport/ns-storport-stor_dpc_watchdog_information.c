@@ -1,0 +1,7 @@
+typedef struct _STOR_DPC_WATCHDOG_INFORMATION {
+  ULONG DpcTimeLimit;
+  ULONG DpcTimeCount;
+  ULONG DpcWatchdogLimit;
+  ULONG DpcWatchdogCount;
+  ULONG Reserved;
+} STOR_DPC_WATCHDOG_INFORMATION, *PSTOR_DPC_WATCHDOG_INFORMATION;

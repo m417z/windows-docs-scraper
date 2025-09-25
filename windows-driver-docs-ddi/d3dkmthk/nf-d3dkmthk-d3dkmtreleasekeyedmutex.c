@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTReleaseKeyedMutex(
+  D3DKMT_RELEASEKEYEDMUTEX *unnamedParam1
+);

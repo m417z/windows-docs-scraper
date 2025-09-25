@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltUnregisterFilter",
+  "title": "FltUnregisterFilter function (fltkernel.h)",
+  "description": "A registered minifilter driver calls FltUnregisterFilter to unregister itself so that the Filter Manager no longer calls it to process I/O operations.",
+  "old-location": "ifsk\\fltunregisterfilter.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltUnregisterFilter function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_cedf94f0-1f4a-46cf-aa81-914ab30d2a98.xml, FltUnregisterFilter, FltUnregisterFilter function [Installable File System Drivers], fltkernel/FltUnregisterFilter, ifsk.fltunregisterfilter",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltUnregisterFilter",
+    "fltkernel/FltUnregisterFilter"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltUnregisterFilter"
+  ]
+}

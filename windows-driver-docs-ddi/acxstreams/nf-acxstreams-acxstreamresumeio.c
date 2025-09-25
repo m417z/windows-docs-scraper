@@ -1,0 +1,3 @@
+void AcxStreamResumeIo(
+  [in] Stream
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:udecxwdfdevice.UdecxWdfDeviceAddUsbDeviceEmulation",
+  "title": "UdecxWdfDeviceAddUsbDeviceEmulation function (udecxwdfdevice.h)",
+  "description": "Initializes a framework device object to support operations related to a host controller and a virtual USB device attached to the controller.",
+  "old-location": "buses\\udecxwdfdeviceaddusbdeviceemulation.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UdecxWdfDeviceAddUsbDeviceEmulation function"
+  ],
+  "ms.keywords": "UdecxWdfDeviceAddUsbDeviceEmulation, UdecxWdfDeviceAddUsbDeviceEmulation function [Buses], buses.udecxwdfdeviceaddusbdeviceemulation, udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation",
+  "req.header": "udecxwdfdevice.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Udecxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UdecxWdfDeviceAddUsbDeviceEmulation",
+    "udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Udecxstub.lib",
+    "Udecxstub.dll"
+  ],
+  "api_name": [
+    "UdecxWdfDeviceAddUsbDeviceEmulation"
+  ]
+}

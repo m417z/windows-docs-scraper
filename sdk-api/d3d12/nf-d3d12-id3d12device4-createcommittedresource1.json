@@ -1,0 +1,62 @@
+{
+  "UID": "NF:d3d12.ID3D12Device4.CreateCommittedResource1",
+  "title": "ID3D12Device4::CreateCommittedResource1",
+  "description": "Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap. (ID3D12Device4::CreateCommittedResource1)",
+  "helpviewer_keywords": [
+    "ID3D12Device4 interface",
+    "CreateCommittedResource1 method",
+    "ID3D12Device4.CreateCommittedResource1",
+    "ID3D12Device4::CreateCommittedResource1",
+    "CreateCommittedResource1",
+    "CreateCommittedResource1 method",
+    "CreateCommittedResource1 method",
+    "ID3D12Device4 interface",
+    "direct3d12.id3d12device4_createcommittedresource1",
+    "d3d12/ID3D12Device4::CreateCommittedResource1"
+  ],
+  "tech.root": "direct3d12",
+  "ms.date": "10/15/2019",
+  "ms.keywords": "ID3D12Device4 interface,CreateCommittedResource1 method, ID3D12Device4.CreateCommittedResource1, ID3D12Device4::CreateCommittedResource1, CreateCommittedResource1, CreateCommittedResource1 method, CreateCommittedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createcommittedresource1, d3d12/ID3D12Device4::CreateCommittedResource1",
+  "req.construct-type": "function",
+  "req.header": "d3d12.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "d3d12.lib",
+  "req.dll": "d3d12.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "ID3D12Device4::CreateCommittedResource1",
+    "d3d12/ID3D12Device4::CreateCommittedResource1"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "d3d12.lib",
+    "d3d12.dll"
+  ],
+  "api_name": [
+    "ID3D12Device4::CreateCommittedResource1"
+  ]
+}

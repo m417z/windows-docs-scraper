@@ -1,0 +1,65 @@
+{
+  "UID": "NF:amvideo.IFullScreenVideoEx.HideOnDeactivate",
+  "title": "IFullScreenVideoEx::HideOnDeactivate (amvideo.h)",
+  "description": "The HideOnDeactivate method . Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.",
+  "helpviewer_keywords": [
+    "HideOnDeactivate",
+    "HideOnDeactivate method [DirectShow]",
+    "HideOnDeactivate method [DirectShow]",
+    "IFullScreenVideoEx interface",
+    "IFullScreenVideoEx interface [DirectShow]",
+    "HideOnDeactivate method",
+    "IFullScreenVideoEx.HideOnDeactivate",
+    "IFullScreenVideoEx::HideOnDeactivate",
+    "IFullScreenVideoHideOnDeactivate",
+    "amvideo/IFullScreenVideoEx::HideOnDeactivate",
+    "dshow.ifullscreenvideoex_hideondeactivate"
+  ],
+  "old-location": "dshow\\ifullscreenvideoex_hideondeactivate.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "b2839876-40b1-4b41-a3a4-99e5cbdd9ef1",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "HideOnDeactivate, HideOnDeactivate method [DirectShow], HideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],HideOnDeactivate method, IFullScreenVideoEx.HideOnDeactivate, IFullScreenVideoEx::HideOnDeactivate, IFullScreenVideoHideOnDeactivate, amvideo/IFullScreenVideoEx::HideOnDeactivate, dshow.ifullscreenvideoex_hideondeactivate",
+  "req.header": "amvideo.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFullScreenVideoEx::HideOnDeactivate",
+    "amvideo/IFullScreenVideoEx::HideOnDeactivate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFullScreenVideoEx.HideOnDeactivate"
+  ]
+}

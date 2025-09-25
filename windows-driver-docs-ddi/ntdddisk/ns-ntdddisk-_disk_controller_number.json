@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntdddisk._DISK_CONTROLLER_NUMBER",
+  "title": "_DISK_CONTROLLER_NUMBER (ntdddisk.h)",
+  "description": "DISK_CONTROLLER_NUMBER is used with IOCTL_DISK_CONTROLLER_NUMBER to retrieve the controller number and disk number of an IDE disk.",
+  "old-location": "storage\\disk_controller_number.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DISK_CONTROLLER_NUMBER structure"
+  ],
+  "ms.keywords": "*PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER structure [Storage Devices], PDISK_CONTROLLER_NUMBER, PDISK_CONTROLLER_NUMBER structure pointer [Storage Devices], _DISK_CONTROLLER_NUMBER, ntdddisk/DISK_CONTROLLER_NUMBER, ntdddisk/PDISK_CONTROLLER_NUMBER, storage.disk_controller_number, structs-disk_5cf21b24-f10f-4484-bb76-22dff0b4e32c.xml",
+  "req.header": "ntdddisk.h",
+  "req.include-header": "Ntdddisk.h, Ntddk.h, Ntdddisk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER",
+  "f1_keywords": [
+    "_DISK_CONTROLLER_NUMBER",
+    "ntdddisk/_DISK_CONTROLLER_NUMBER",
+    "PDISK_CONTROLLER_NUMBER",
+    "ntdddisk/PDISK_CONTROLLER_NUMBER",
+    "DISK_CONTROLLER_NUMBER",
+    "ntdddisk/DISK_CONTROLLER_NUMBER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntdddisk.h"
+  ],
+  "api_name": [
+    "_DISK_CONTROLLER_NUMBER",
+    "PDISK_CONTROLLER_NUMBER",
+    "DISK_CONTROLLER_NUMBER"
+  ]
+}

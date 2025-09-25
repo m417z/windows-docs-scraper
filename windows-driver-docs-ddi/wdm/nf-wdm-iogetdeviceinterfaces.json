@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoGetDeviceInterfaces",
+  "title": "IoGetDeviceInterfaces function (wdm.h)",
+  "description": "The IoGetDeviceInterfaces routine returns a list of device interface instances of a particular device interface class (such as all devices on the system that support a HID interface).",
+  "old-location": "kernel\\iogetdeviceinterfaces.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoGetDeviceInterfaces function"
+  ],
+  "ms.keywords": "IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, kernel.iogetdeviceinterfaces, wdm/IoGetDeviceInterfaces",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "MarkPower, MarkPowerDown, MarkQueryRelations, MarkStartDevice, PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoGetDeviceInterfaces",
+    "wdm/IoGetDeviceInterfaces"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoGetDeviceInterfaces"
+  ]
+}

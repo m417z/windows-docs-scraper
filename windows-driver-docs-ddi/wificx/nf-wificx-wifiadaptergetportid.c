@@ -1,0 +1,3 @@
+ULONG WifiAdapterGetPortId(
+  NETADAPTER Adapter
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntdddump.DUMP_START",
+  "title": "DUMP_START (ntdddump.h)",
+  "description": "The Dump_Start callback routine is called after initializing the dump driver and just before starting the dump write process.",
+  "old-location": "storage\\dump_start.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DUMP_START callback function"
+  ],
+  "ms.keywords": "Dump_Start, Dump_Start routine [Storage Devices], PDUMP_START, filter_rtns_071f1e6c-9471-47ef-bf40-6429a798b792.xml, ntdddump/Dump_Start, storage.dump_start",
+  "req.header": "ntdddump.h",
+  "req.include-header": "Ntdddump.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows Vista and Windows Server 2008.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DUMP_START",
+    "ntdddump/DUMP_START"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntdddump.h"
+  ],
+  "api_name": [
+    "DUMP_START"
+  ]
+}

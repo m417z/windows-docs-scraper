@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlIsStateSeparationEnabled",
+  "title": "RtlIsStateSeparationEnabled function (ntddk.h)",
+  "description": "Checks if the SKU for the current context supports multiple sessions.",
+  "old-location": "kernel\\rtlisstateseparationenabled.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlIsStateSeparationEnabled function"
+  ],
+  "ms.keywords": "RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode)",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlIsStateSeparationEnabled",
+    "ntddk/RtlIsStateSeparationEnabled"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlIsStateSeparationEnabled"
+  ]
+}

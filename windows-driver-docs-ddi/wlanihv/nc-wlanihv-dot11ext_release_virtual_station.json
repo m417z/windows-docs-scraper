@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wlanihv.DOT11EXT_RELEASE_VIRTUAL_STATION",
+  "title": "DOT11EXT_RELEASE_VIRTUAL_STATION (wlanihv.h)",
+  "description": "The DOT11EXT_RELEASE_VIRTUAL_STATION callback function is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.",
+  "old-location": "netvista\\dot11extreleasevirtualstation.htm",
+  "tech.root": "netvista",
+  "ms.date": "02/16/2018",
+  "keywords": [
+    "DOT11EXT_RELEASE_VIRTUAL_STATION callback"
+  ],
+  "ms.keywords": "DOT11EXT_RELEASE_VIRTUAL_STATION, Dot11ExtReleaseVirtualStation, Dot11ExtReleaseVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_3fe2f0cd-336a-4272-8d14-1ab400515de5.xml, netvista.dot11extreleasevirtualstation, wlanihv/Dot11ExtReleaseVirtualStation",
+  "req.header": "wlanihv.h",
+  "req.include-header": "Wlanihv.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 7",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W",
+  "f1_keywords": [
+    "DOT11EXT_RELEASE_VIRTUAL_STATION",
+    "wlanihv/DOT11EXT_RELEASE_VIRTUAL_STATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wlanihv.h"
+  ],
+  "api_name": [
+    "DOT11EXT_RELEASE_VIRTUAL_STATION"
+  ]
+}

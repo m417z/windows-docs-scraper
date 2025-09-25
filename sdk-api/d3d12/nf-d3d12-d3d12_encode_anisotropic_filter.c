@@ -1,0 +1,3 @@
+void D3D12_ENCODE_ANISOTROPIC_FILTER(
+  reduction
+);

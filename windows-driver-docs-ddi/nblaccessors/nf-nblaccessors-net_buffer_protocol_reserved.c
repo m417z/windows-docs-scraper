@@ -1,0 +1,1 @@
+#define NET_BUFFER_PROTOCOL_RESERVED(_NB) ((_NB)->ProtocolReserved)

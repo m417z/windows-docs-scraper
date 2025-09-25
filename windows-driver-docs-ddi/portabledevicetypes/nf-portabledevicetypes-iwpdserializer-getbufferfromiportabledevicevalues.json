@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portabledevicetypes.IWpdSerializer.GetBufferFromIPortableDeviceValues",
+  "title": "IWpdSerializer::GetBufferFromIPortableDeviceValues (portabledevicetypes.h)",
+  "description": "Serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.",
+  "old-location": "wpddk\\iwpdserializer_getbufferfromiportabledevicevalues.htm",
+  "tech.root": "wpd_dk",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IWpdSerializer::GetBufferFromIPortableDeviceValues"
+  ],
+  "ms.keywords": "GetBufferFromIPortableDeviceValues, GetBufferFromIPortableDeviceValues method, GetBufferFromIPortableDeviceValues method,IWpdSerializer interface, IWpdSerializer interface,GetBufferFromIPortableDeviceValues method, IWpdSerializer.GetBufferFromIPortableDeviceValues, IWpdSerializer::GetBufferFromIPortableDeviceValues, IWpdSerializerGetBufferFromIPortableDeviceValues, portabledevicetypes/IWpdSerializer::GetBufferFromIPortableDeviceValues, wpddk.iwpdserializer_getbufferfromiportabledevicevalues",
+  "req.header": "portabledevicetypes.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "IWpdSerializer::GetBufferFromIPortableDeviceValues",
+    "portabledevicetypes/IWpdSerializer::GetBufferFromIPortableDeviceValues"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "PortableDeviceTypes.h"
+  ],
+  "api_name": [
+    "IWpdSerializer::GetBufferFromIPortableDeviceValues"
+  ]
+}

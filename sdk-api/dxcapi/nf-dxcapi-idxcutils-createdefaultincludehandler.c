@@ -1,0 +1,3 @@
+HRESULT CreateDefaultIncludeHandler(
+  IDxcIncludeHandler **ppResult
+);

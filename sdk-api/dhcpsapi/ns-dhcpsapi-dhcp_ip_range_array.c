@@ -1,0 +1,4 @@
+typedef struct _DHCP_IP_RANGE_ARRAY {
+  DWORD           NumElements;
+  LPDHCP_IP_RANGE Elements;
+} DHCP_IP_RANGE_ARRAY, *PDHCP_IP_RANGE_ARRAY, *LPDHCP_IP_RANGE_ARRAY;

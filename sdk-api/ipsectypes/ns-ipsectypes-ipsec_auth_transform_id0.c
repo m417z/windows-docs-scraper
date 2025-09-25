@@ -1,0 +1,4 @@
+typedef struct IPSEC_AUTH_TRANSFORM_ID0_ {
+  IPSEC_AUTH_TYPE   authType;
+  IPSEC_AUTH_CONFIG authConfig;
+} IPSEC_AUTH_TRANSFORM_ID0;

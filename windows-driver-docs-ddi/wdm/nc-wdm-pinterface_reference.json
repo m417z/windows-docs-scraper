@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PINTERFACE_REFERENCE",
+  "title": "PINTERFACE_REFERENCE (wdm.h)",
+  "description": "The PINTERFACE_REFERENCE callback function (wdm.h) increments the reference count on a driver-defined interface.",
+  "old-location": "kernel\\interfacereference.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PINTERFACE_REFERENCE callback function"
+  ],
+  "ms.keywords": "InterfaceReference, InterfaceReference routine [Kernel-Mode Driver Architecture], PINTERFACE_REFERENCE, drvr_interface_d7092619-d2e6-4ca6-bbd3-f857d775f73e.xml, kernel.interfacereference, wdm/InterfaceReference",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PINTERFACE_REFERENCE",
+    "wdm/PINTERFACE_REFERENCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PINTERFACE_REFERENCE"
+  ]
+}

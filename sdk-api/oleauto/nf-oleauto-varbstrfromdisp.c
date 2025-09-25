@@ -1,0 +1,6 @@
+HRESULT VarBstrFromDisp(
+        IDispatch *pdispIn,
+  [in]  LCID      lcid,
+  [in]  ULONG     dwFlags,
+  [out] BSTR      *pbstrOut
+);

@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.KeAcquireSpinLockRaiseToDpc",
+  "tech.root": "kernel",
+  "title": "KeAcquireSpinLockRaiseToDpc",
+  "ms.date": "10/05/2022",
+  "targetos": "Windows",
+  "description": "The KeAcquireSpinLockRaiseToDpc routine is a faster version of the KeAcquireSpinLock routine.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 64-bit",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DLLExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "KeAcquireSpinLockRaiseToDpc"
+  ],
+  "f1_keywords": [
+    "KeAcquireSpinLockRaiseToDpc",
+    "wdm/KeAcquireSpinLockRaiseToDpc"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "KeAcquireSpinLockRaiseToDpc"
+  ]
+}

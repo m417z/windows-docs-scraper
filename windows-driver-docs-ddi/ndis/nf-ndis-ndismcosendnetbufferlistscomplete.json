@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMCoSendNetBufferListsComplete",
+  "title": "NdisMCoSendNetBufferListsComplete function (ndis.h)",
+  "description": "The NdisMCoSendNetBufferListsComplete function returns a linked list of NET_BUFFER_LIST structures to an overlying driver and returns the final status of a CoNDIS send request.",
+  "old-location": "netvista\\ndismcosendnetbufferlistscomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMCoSendNetBufferListsComplete function"
+  ],
+  "ms.keywords": "NdisMCoSendNetBufferListsComplete, NdisMCoSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_49470611-47cb-4778-8723-4acc2ebbfb81.xml, ndis/NdisMCoSendNetBufferListsComplete, netvista.ndismcosendnetbufferlistscomplete",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_MCO_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMCoSendNetBufferListsComplete",
+    "ndis/NdisMCoSendNetBufferListsComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMCoSendNetBufferListsComplete"
+  ]
+}

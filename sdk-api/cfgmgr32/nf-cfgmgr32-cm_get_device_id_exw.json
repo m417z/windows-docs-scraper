@@ -1,0 +1,62 @@
+{
+  "UID": "NF:cfgmgr32.CM_Get_Device_ID_ExW",
+  "title": "CM_Get_Device_ID_ExW function (cfgmgr32.h)",
+  "description": "The CM_Get_Device_ID_Ex function retrieves the device instance ID for a specified device instance on a local or a remote machine. (Unicode)",
+  "helpviewer_keywords": [
+    "CM_Get_Device_ID_Ex",
+    "CM_Get_Device_ID_Ex function [Device and Driver Installation]",
+    "CM_Get_Device_ID_ExW",
+    "cfgmgr32/CM_Get_Device_ID_Ex",
+    "cfgmgr32/CM_Get_Device_ID_ExW",
+    "cfgmgrfn_e4ec7f8a-75aa-4c49-a2fe-a912685d5e98.xml",
+    "devinst.cm_get_device_id_ex"
+  ],
+  "old-location": "devinst\\cm_get_device_id_ex.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "757b8185-c5f5-4623-a410-63fd2f74e34f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CM_Get_Device_ID_Ex, CM_Get_Device_ID_Ex function [Device and Driver Installation], CM_Get_Device_ID_ExW, cfgmgr32/CM_Get_Device_ID_Ex, cfgmgr32/CM_Get_Device_ID_ExW, cfgmgrfn_e4ec7f8a-75aa-4c49-a2fe-a912685d5e98.xml, devinst.cm_get_device_id_ex",
+  "req.header": "cfgmgr32.h",
+  "req.include-header": "Cfgmgr32.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CM_Get_Device_ID_ExW (Unicode)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CM_Get_Device_ID_ExW",
+    "cfgmgr32/CM_Get_Device_ID_ExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Cfgmgr32.lib",
+    "Cfgmgr32.dll"
+  ],
+  "api_name": [
+    "CM_Get_Device_ID_Ex",
+    "CM_Get_Device_ID_ExW"
+  ]
+}

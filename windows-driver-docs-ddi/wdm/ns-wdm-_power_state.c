@@ -1,0 +1,4 @@
+typedef union _POWER_STATE {
+  SYSTEM_POWER_STATE SystemState;
+  DEVICE_POWER_STATE DeviceState;
+} POWER_STATE, *PPOWER_STATE;

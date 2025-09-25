@@ -1,0 +1,72 @@
+{
+  "UID": "NS:clusapi.CLUS_PARTITION_INFO",
+  "title": "CLUS_PARTITION_INFO (clusapi.h)",
+  "description": "Contains data describing a storage class resource volume and file system. It is used as the data member of a CLUSPROP_PARTITION_INFO structure and as the return value of some control code operations.",
+  "helpviewer_keywords": [
+    "*PCLUS_PARTITION_INFO",
+    "CLUSPROP_PIFLAG_DEFAULT_QUORUM",
+    "CLUSPROP_PIFLAG_REMOVABLE",
+    "CLUSPROP_PIFLAG_STICKY",
+    "CLUSPROP_PIFLAG_USABLE",
+    "CLUS_PARTITION_INFO",
+    "CLUS_PARTITION_INFO structure [Failover Cluster]",
+    "FS_CASE_IS_PRESERVED",
+    "FS_CASE_SENSITIVE",
+    "FS_PERSISTENT_ACLS",
+    "FS_UNICODE_STORED_ON_DISK",
+    "PCLUS_PARTITION_INFO",
+    "PCLUS_PARTITION_INFO structure pointer [Failover Cluster]",
+    "_wolf_clus_partition_info",
+    "clusapi/CLUS_PARTITION_INFO",
+    "clusapi/PCLUS_PARTITION_INFO",
+    "mscs.clus_partition_info"
+  ],
+  "old-location": "mscs\\clus_partition_info.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "656b230d-b4ba-45e4-b6b3-8bbe72f9428a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PCLUS_PARTITION_INFO, CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, CLUS_PARTITION_INFO, CLUS_PARTITION_INFO structure [Failover Cluster], FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUS_PARTITION_INFO, PCLUS_PARTITION_INFO structure pointer [Failover Cluster], _wolf_clus_partition_info, clusapi/CLUS_PARTITION_INFO, clusapi/PCLUS_PARTITION_INFO, mscs.clus_partition_info",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CLUS_PARTITION_INFO, *PCLUS_PARTITION_INFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CLUS_PARTITION_INFO",
+    "clusapi/CLUS_PARTITION_INFO",
+    "PCLUS_PARTITION_INFO",
+    "clusapi/PCLUS_PARTITION_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ClusAPI.h"
+  ],
+  "api_name": [
+    "CLUS_PARTITION_INFO"
+  ]
+}

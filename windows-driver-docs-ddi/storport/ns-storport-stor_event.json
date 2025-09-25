@@ -1,0 +1,44 @@
+{
+  "UID": "NS:storport._STOR_EVENT",
+  "title": "STOR_EVENT",
+  "description": "The STOR_EVENT structure describes an event object.",
+  "tech.root": "storage",
+  "ms.date": "03/24/2020",
+  "ms.keywords": "STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT,",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_STOR_EVENT",
+    "storport/_STOR_EVENT",
+    "PSTOR_EVENT",
+    "storport/PSTOR_EVENT",
+    "STOR_EVENT",
+    "storport/STOR_EVENT"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_EVENT",
+    "PSTOR_EVENT",
+    "STOR_EVENT"
+  ]
+}

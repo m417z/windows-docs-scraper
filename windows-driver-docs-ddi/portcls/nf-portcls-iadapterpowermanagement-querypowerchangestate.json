@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IAdapterPowerManagement.QueryPowerChangeState",
+  "title": "IAdapterPowerManagement::QueryPowerChangeState (portcls.h)",
+  "description": "The QueryPowerChangeState method is called by PortCls in response to the receipt of an IRP_MN_QUERY_POWER power IRP.",
+  "old-location": "audio\\iadapterpowermanagement_querypowerchangestate.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IAdapterPowerManagement::QueryPowerChangeState"
+  ],
+  "ms.keywords": "IAdapterPowerManagement interface [Audio Devices],QueryPowerChangeState method, IAdapterPowerManagement.QueryPowerChangeState, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querypowerchangestate, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, portcls/IAdapterPowerManagement::QueryPowerChangeState",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IAdapterPowerManagement::QueryPowerChangeState",
+    "portcls/IAdapterPowerManagement::QueryPowerChangeState"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IAdapterPowerManagement::QueryPowerChangeState"
+  ]
+}

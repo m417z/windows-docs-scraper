@@ -1,0 +1,3 @@
+HRESULT TxGetSelectionBarWidth(
+  LONG *lSelBarWidth
+);

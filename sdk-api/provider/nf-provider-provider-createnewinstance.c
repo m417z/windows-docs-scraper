@@ -1,0 +1,3 @@
+CInstance * CreateNewInstance(
+  MethodContext *pMethodContext
+);

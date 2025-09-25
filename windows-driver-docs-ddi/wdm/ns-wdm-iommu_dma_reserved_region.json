@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._IOMMU_DMA_RESERVED_REGION",
+  "tech.root": "kernel",
+  "title": "IOMMU_DMA_RESERVED_REGION",
+  "ms.date": "06/13/2021",
+  "targetos": "Windows",
+  "description": "The IOMMU_DMA_RESERVED_REGION structure describes a region of memory that needs to be marked as reserved during domain creation.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "IOMMU_DMA_RESERVED_REGION, *PIOMMU_DMA_RESERVED_REGION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_DMA_RESERVED_REGION",
+    "PIOMMU_DMA_RESERVED_REGION",
+    "IOMMU_DMA_RESERVED_REGION"
+  ],
+  "f1_keywords": [
+    "_IOMMU_DMA_RESERVED_REGION",
+    "wdm/_IOMMU_DMA_RESERVED_REGION",
+    "PIOMMU_DMA_RESERVED_REGION",
+    "wdm/PIOMMU_DMA_RESERVED_REGION",
+    "IOMMU_DMA_RESERVED_REGION",
+    "wdm/IOMMU_DMA_RESERVED_REGION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

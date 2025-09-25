@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winnetwk.WNetGetResourceInformationA",
+  "title": "WNetGetResourceInformationA function (winnetwk.h)",
+  "description": "When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource. (ANSI)",
+  "helpviewer_keywords": [
+    "WNetGetResourceInformationA",
+    "winnetwk/WNetGetResourceInformationA"
+  ],
+  "old-location": "wnet\\wnetgetresourceinformation.htm",
+  "tech.root": "WNet",
+  "ms.assetid": "19273874-adf1-4ffb-8b83-0eaa64e4622e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WNetGetResourceInformation, WNetGetResourceInformation function [Windows Networking (WNet)], WNetGetResourceInformationA, WNetGetResourceInformationW, _win32_wnetgetresourceinformation, winnetwk/WNetGetResourceInformation, winnetwk/WNetGetResourceInformationA, winnetwk/WNetGetResourceInformationW, wnet.wnetgetresourceinformation",
+  "req.header": "winnetwk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WNetGetResourceInformationW (Unicode) and WNetGetResourceInformationA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mpr.lib",
+  "req.dll": "Mpr.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WNetGetResourceInformationA",
+    "winnetwk/WNetGetResourceInformationA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Mpr.dll"
+  ],
+  "api_name": [
+    "WNetGetResourceInformation",
+    "WNetGetResourceInformationA",
+    "WNetGetResourceInformationW"
+  ]
+}

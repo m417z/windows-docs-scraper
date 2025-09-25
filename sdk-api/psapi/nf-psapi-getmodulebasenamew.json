@@ -1,0 +1,77 @@
+{
+  "UID": "NF:psapi.GetModuleBaseNameW",
+  "title": "GetModuleBaseNameW function (psapi.h)",
+  "description": "Retrieves the base name of the specified module. (Unicode)",
+  "helpviewer_keywords": [
+    "GetModuleBaseName",
+    "GetModuleBaseName function [PSAPI]",
+    "GetModuleBaseNameW",
+    "K32GetModuleBaseName",
+    "K32GetModuleBaseNameW",
+    "_win32_getmodulebasename",
+    "base.getmodulebasename",
+    "psapi.getmodulebasename",
+    "psapi/GetModuleBaseName",
+    "psapi/GetModuleBaseNameW",
+    "psapi/K32GetModuleBaseName",
+    "psapi/K32GetModuleBaseNameW"
+  ],
+  "old-location": "psapi\\getmodulebasename.htm",
+  "tech.root": "psapi",
+  "ms.assetid": "31a9eb69-95f0-4dd7-8fd5-296f2cff0b8a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetModuleBaseName, GetModuleBaseName function [PSAPI], GetModuleBaseNameA, GetModuleBaseNameW, K32GetModuleBaseName, K32GetModuleBaseNameA, K32GetModuleBaseNameW, _win32_getmodulebasename, base.getmodulebasename, psapi.getmodulebasename, psapi/GetModuleBaseName, psapi/GetModuleBaseNameA, psapi/GetModuleBaseNameW, psapi/K32GetModuleBaseName, psapi/K32GetModuleBaseNameA, psapi/K32GetModuleBaseNameW",
+  "req.header": "psapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetModuleBaseNameW (Unicode) and GetModuleBaseNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP",
+  "req.dll": "Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetModuleBaseNameW",
+    "psapi/GetModuleBaseNameW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-base-psapi-l1-1-0.dll",
+    "Kernel32.dll",
+    "Psapi.dll",
+    "Psapi.dll",
+    "API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll",
+    "KernelBase.dll",
+    "API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll",
+    "API-Ms-Win-Core-PsAPI-L1-1-0.dll"
+  ],
+  "api_name": [
+    "GetModuleBaseName",
+    "GetModuleBaseNameA",
+    "GetModuleBaseNameW",
+    "K32GetModuleBaseName",
+    "K32GetModuleBaseNameW",
+    "K32GetModuleBaseNameA"
+  ]
+}

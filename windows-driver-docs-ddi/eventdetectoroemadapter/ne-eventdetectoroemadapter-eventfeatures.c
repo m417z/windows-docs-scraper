@@ -1,0 +1,7 @@
+typedef enum __MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0002 {
+  EVENTFEATURES_NoEventFeatures,
+  EVENTFEATURES_SupportsUserTraining,
+  EVENTFEATURES_SupportUserCustomization,
+  EVENTFEATURES_ArmPatternRequiresArmState,
+  EVENTFEATURES_SupportsSingleLanguage
+} EVENTFEATURES;

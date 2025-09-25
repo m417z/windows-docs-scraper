@@ -1,0 +1,5 @@
+typedef struct _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA {
+  [in] BOOL                  RepeatFrame;
+  [in] DXVAHDDDI_OUTPUT_RATE OutputRate;
+  [in] DXVAHDDDI_RATIONAL    CustomRate;
+} DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA;

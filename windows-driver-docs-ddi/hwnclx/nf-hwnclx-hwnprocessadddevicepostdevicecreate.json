@@ -1,0 +1,49 @@
+{
+  "UID": "NF:hwnclx.HwNProcessAddDevicePostDeviceCreate",
+  "title": "HwNProcessAddDevicePostDeviceCreate function (hwnclx.h)",
+  "description": "Creates I/O queues. It should be called after the client driver’s EVT_WDF_DRIVER_DEVICE_ADD callback function is invoked and the device object has been created.",
+  "old-location": "gpiobtn\\hwnprocessadddevicepostdevicecreate.htm",
+  "tech.root": "gpiobtn",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "HwNProcessAddDevicePostDeviceCreate function"
+  ],
+  "ms.keywords": "HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, hwnclx/HwNProcessAddDevicePostDeviceCreate",
+  "req.header": "hwnclx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mshwnclxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX",
+  "f1_keywords": [
+    "HwNProcessAddDevicePostDeviceCreate",
+    "hwnclx/HwNProcessAddDevicePostDeviceCreate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Mshwnclxstub.lib",
+    "Mshwnclxstub.dll"
+  ],
+  "api_name": [
+    "HwNProcessAddDevicePostDeviceCreate"
+  ]
+}

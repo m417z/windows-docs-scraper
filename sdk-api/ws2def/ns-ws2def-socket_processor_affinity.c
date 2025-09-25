@@ -1,0 +1,5 @@
+typedef struct _SOCKET_PROCESSOR_AFFINITY {
+  PROCESSOR_NUMBER Processor;
+  USHORT           NumaNodeId;
+  USHORT           Reserved;
+} SOCKET_PROCESSOR_AFFINITY, *PSOCKET_PROCESSOR_AFFINITY;

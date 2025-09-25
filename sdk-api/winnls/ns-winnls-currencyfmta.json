@@ -1,0 +1,67 @@
+{
+  "UID": "NS:winnls._currencyfmtA",
+  "title": "CURRENCYFMTA (winnls.h)",
+  "description": "Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale. (ANSI)",
+  "helpviewer_keywords": [
+    "*LPCURRENCYFMTA",
+    "CURRENCYFMT",
+    "CURRENCYFMT structure [Internationalization for Windows Applications]",
+    "CURRENCYFMTA",
+    "LPCURRENCYFMT",
+    "LPCURRENCYFMT structure pointer [Internationalization for Windows Applications]",
+    "_win32_CURRENCYFMT_str",
+    "intl.currencyfmt",
+    "winnls/CURRENCYFMT",
+    "winnls/LPCURRENCYFMT"
+  ],
+  "old-location": "intl\\currencyfmt.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "026ac9e0-1f5b-4a42-9c7b-07a127422994",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPCURRENCYFMTA, CURRENCYFMT, CURRENCYFMT structure [Internationalization for Windows Applications], CURRENCYFMTA, LPCURRENCYFMT, LPCURRENCYFMT structure pointer [Internationalization for Windows Applications], _win32_CURRENCYFMT_str, intl.currencyfmt, winnls/CURRENCYFMT, winnls/LPCURRENCYFMT",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CURRENCYFMTA, *LPCURRENCYFMTA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_currencyfmtA",
+    "winnls/_currencyfmtA",
+    "LPCURRENCYFMTA",
+    "winnls/LPCURRENCYFMTA",
+    "CURRENCYFMTA",
+    "winnls/CURRENCYFMTA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winnls.h"
+  ],
+  "api_name": [
+    "CURRENCYFMT"
+  ]
+}

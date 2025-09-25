@@ -1,0 +1,5 @@
+typedef struct LAMP_INTENSITY_COLOR {
+  BYTE Red;
+  BYTE Green;
+  BYTE Blue;
+} LAMP_INTENSITY_COLOR;

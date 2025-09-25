@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.DELETE_USN_JOURNAL_DATA",
+  "tech.root": "ifsk",
+  "title": "DELETE_USN_JOURNAL_DATA",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the DELETE_USN_JOURNAL_DATA structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "DELETE_USN_JOURNAL_DATA",
+    "PDELETE_USN_JOURNAL_DATA"
+  ],
+  "f1_keywords": [
+    "DELETE_USN_JOURNAL_DATA",
+    "ntifs/DELETE_USN_JOURNAL_DATA",
+    "PDELETE_USN_JOURNAL_DATA",
+    "ntifs/PDELETE_USN_JOURNAL_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DELETE_USN_JOURNAL_DATA"
+  ]
+}

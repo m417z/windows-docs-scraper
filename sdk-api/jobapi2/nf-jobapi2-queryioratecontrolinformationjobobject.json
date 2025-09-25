@@ -1,0 +1,59 @@
+{
+  "UID": "NF:jobapi2.QueryIoRateControlInformationJobObject",
+  "title": "QueryIoRateControlInformationJobObject function (jobapi2.h)",
+  "description": "Gets information about the control of the I/O rate for a job object.",
+  "helpviewer_keywords": [
+    "QueryIoRateControlInformationJobObject",
+    "QueryIoRateControlInformationJobObject function",
+    "base.queryioratecontrolinformationjobobject",
+    "jobapi2/QueryIoRateControlInformationJobObject"
+  ],
+  "old-location": "base\\queryioratecontrolinformationjobobject.htm",
+  "tech.root": "backup",
+  "ms.assetid": "B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC",
+  "ms.date": "01/09/2025",
+  "ms.keywords": "QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject",
+  "req.header": "jobapi2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "QueryIoRateControlInformationJobObject",
+    "jobapi2/QueryIoRateControlInformationJobObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll",
+    "API-MS-Win-Core-Job-L2-1-1.dll",
+    "Kernel32Legacy.dll"
+  ],
+  "api_name": [
+    "QueryIoRateControlInformationJobObject"
+  ]
+}

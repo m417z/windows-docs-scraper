@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupDiCreateDeviceInfoW",
+  "title": "SetupDiCreateDeviceInfoW function (setupapi.h)",
+  "description": "The SetupDiCreateDeviceInfo function creates a new device information element and adds it as a new member to the specified device information set. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupDiCreateDeviceInfo",
+    "SetupDiCreateDeviceInfo function [Device and Driver Installation]",
+    "SetupDiCreateDeviceInfoW",
+    "devinst.setupdicreatedeviceinfo",
+    "di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml",
+    "setupapi/SetupDiCreateDeviceInfo"
+  ],
+  "old-location": "devinst\\setupdicreatedeviceinfo.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "7d42167f-9af4-4aee-b641-a93ade1e3969",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiCreateDeviceInfo, SetupDiCreateDeviceInfo function [Device and Driver Installation], SetupDiCreateDeviceInfoA, SetupDiCreateDeviceInfoW, devinst.setupdicreatedeviceinfo, di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml, setupapi/SetupDiCreateDeviceInfo",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiCreateDeviceInfoW",
+    "setupapi/SetupDiCreateDeviceInfoW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ext-ms-win-setupapi-devobj-l1-1-0.dll",
+    "ext-ms-win-setupapi-classinstallers-l1-1-2.dll",
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiCreateDeviceInfo - SetupDiCreateDeviceInfoW"
+  ]
+}

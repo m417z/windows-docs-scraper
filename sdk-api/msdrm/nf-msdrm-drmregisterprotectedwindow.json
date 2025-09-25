@@ -1,0 +1,57 @@
+{
+  "UID": "NF:msdrm.DRMRegisterProtectedWindow",
+  "title": "DRMRegisterProtectedWindow function (msdrm.h)",
+  "description": "Registers a window in the protected environment.",
+  "helpviewer_keywords": [
+    "DRMRegisterProtectedWindow",
+    "DRMRegisterProtectedWindow function [Active Directory Rights Management Services SDK 1.0]",
+    "msdrm/DRMRegisterProtectedWindow",
+    "rm.drmregisterprotectedwindow"
+  ],
+  "old-location": "rm\\drmregisterprotectedwindow.htm",
+  "tech.root": "rm",
+  "ms.assetid": "4801ea8b-4437-4c2b-bec0-60aefaaa1251",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DRMRegisterProtectedWindow, DRMRegisterProtectedWindow function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterProtectedWindow, rm.drmregisterprotectedwindow",
+  "req.header": "msdrm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdrm.lib",
+  "req.dll": "Msdrm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DRMRegisterProtectedWindow",
+    "msdrm/DRMRegisterProtectedWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdrm.dll"
+  ],
+  "api_name": [
+    "DRMRegisterProtectedWindow"
+  ]
+}

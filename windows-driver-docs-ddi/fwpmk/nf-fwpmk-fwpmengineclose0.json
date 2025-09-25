@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fwpmk.FwpmEngineClose0",
+  "title": "FwpmEngineClose0 function (fwpmk.h)",
+  "description": "The FwpmEngineClose0 function closes a previously opened session to the filter engine.Note  FwpmEngineClose0 is a specific version of FwpmEngineClose.",
+  "old-location": "netvista\\fwpmengineclose0.htm",
+  "tech.root": "netvista",
+  "ms.date": "06/21/2024",
+  "keywords": [
+    "FwpmEngineClose0 function"
+  ],
+  "ms.keywords": "FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineClose0, netvista.fwpmengineclose0, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml",
+  "req.header": "fwpmk.h",
+  "req.include-header": "Fwpmk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fwpkclnt.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FwpmEngineClose0",
+    "fwpmk/FwpmEngineClose0"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpkclnt.lib",
+    "fwpkclnt.dll"
+  ],
+  "api_name": [
+    "FwpmEngineClose0"
+  ]
+}

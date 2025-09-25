@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdfusb._WDF_USB_BMREQUEST_DIRECTION",
+  "title": "_WDF_USB_BMREQUEST_DIRECTION (wdfusb.h)",
+  "description": "The WDF_USB_BMREQUEST_DIRECTION enumeration identifies the data transfer direction for a USB control transfer.",
+  "old-location": "wdf\\wdf_usb_bmrequest_direction.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_USB_BMREQUEST_DIRECTION enumeration"
+  ],
+  "ms.keywords": "BmRequestDeviceToHost, BmRequestHostToDevice, DFUsbRef_c758891d-14e3-4034-8e95-b896470437fd.xml, WDF_USB_BMREQUEST_DIRECTION, WDF_USB_BMREQUEST_DIRECTION enumeration, _WDF_USB_BMREQUEST_DIRECTION, kmdf.wdf_usb_bmrequest_direction, wdf.wdf_usb_bmrequest_direction, wdfusb/BmRequestDeviceToHost, wdfusb/BmRequestHostToDevice, wdfusb/WDF_USB_BMREQUEST_DIRECTION",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_USB_BMREQUEST_DIRECTION",
+  "f1_keywords": [
+    "_WDF_USB_BMREQUEST_DIRECTION",
+    "wdfusb/_WDF_USB_BMREQUEST_DIRECTION",
+    "WDF_USB_BMREQUEST_DIRECTION",
+    "wdfusb/WDF_USB_BMREQUEST_DIRECTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfusb.h"
+  ],
+  "api_name": [
+    "_WDF_USB_BMREQUEST_DIRECTION",
+    "WDF_USB_BMREQUEST_DIRECTION"
+  ]
+}

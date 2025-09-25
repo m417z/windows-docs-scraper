@@ -1,0 +1,1 @@
+void HBA_API HBA_RefreshAdapterConfiguration();

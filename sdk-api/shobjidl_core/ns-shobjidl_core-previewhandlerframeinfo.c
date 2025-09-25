@@ -1,0 +1,4 @@
+typedef struct PREVIEWHANDLERFRAMEINFO {
+  HACCEL haccel;
+  UINT   cAccelEntries;
+} PREVIEWHANDLERFRAMEINFO;

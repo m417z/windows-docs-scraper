@@ -1,0 +1,49 @@
+{
+  "UID": "NS:acxpin._ACX_PHYSICAL_CONNECTION",
+  "tech.root": "audio",
+  "title": "ACX_PHYSICAL_CONNECTION",
+  "ms.date": "04/12/2022",
+  "targetos": "Windows",
+  "description": "The ACX_PHYSICAL_CONNECTION structure describes a physical audio connection between two ACXCIRCUIT objects.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxpin.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "ACX_PHYSICAL_CONNECTION, *PACX_PHYSICAL_CONNECTION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxpin.h"
+  ],
+  "api_name": [
+    "_ACX_PHYSICAL_CONNECTION",
+    "PACX_PHYSICAL_CONNECTION",
+    "ACX_PHYSICAL_CONNECTION"
+  ],
+  "f1_keywords": [
+    "_ACX_PHYSICAL_CONNECTION",
+    "acxpin/_ACX_PHYSICAL_CONNECTION",
+    "PACX_PHYSICAL_CONNECTION",
+    "acxpin/PACX_PHYSICAL_CONNECTION",
+    "ACX_PHYSICAL_CONNECTION",
+    "acxpin/ACX_PHYSICAL_CONNECTION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

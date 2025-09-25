@@ -1,0 +1,3 @@
+void SetBoolean(
+  BOOLEAN Data
+);

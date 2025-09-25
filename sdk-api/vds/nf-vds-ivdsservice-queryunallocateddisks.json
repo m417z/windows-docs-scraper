@@ -1,0 +1,64 @@
+{
+  "UID": "NF:vds.IVdsService.QueryUnallocatedDisks",
+  "title": "IVdsService::QueryUnallocatedDisks (vds.h)",
+  "description": "Returns an enumeration object containing a list of the unallocated disks managed by VDS.",
+  "helpviewer_keywords": [
+    "IVdsService interface [VDS]",
+    "QueryUnallocatedDisks method",
+    "IVdsService.QueryUnallocatedDisks",
+    "IVdsService::QueryUnallocatedDisks",
+    "QueryUnallocatedDisks",
+    "QueryUnallocatedDisks method [VDS]",
+    "QueryUnallocatedDisks method [VDS]",
+    "IVdsService interface",
+    "base.ivdsservice_queryunallocateddisks",
+    "vds/IVdsService::QueryUnallocatedDisks"
+  ],
+  "old-location": "base\\ivdsservice_queryunallocateddisks.htm",
+  "tech.root": "base",
+  "ms.assetid": "d519c3d0-7c5a-4c0c-bad9-2429490f2212",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IVdsService interface [VDS],QueryUnallocatedDisks method, IVdsService.QueryUnallocatedDisks, IVdsService::QueryUnallocatedDisks, QueryUnallocatedDisks, QueryUnallocatedDisks method [VDS], QueryUnallocatedDisks method [VDS],IVdsService interface, base.ivdsservice_queryunallocateddisks, vds/IVdsService::QueryUnallocatedDisks",
+  "req.header": "vds.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVdsService::QueryUnallocatedDisks",
+    "vds/IVdsService::QueryUnallocatedDisks"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Uuid.lib",
+    "Uuid.dll"
+  ],
+  "api_name": [
+    "IVdsService.QueryUnallocatedDisks"
+  ]
+}

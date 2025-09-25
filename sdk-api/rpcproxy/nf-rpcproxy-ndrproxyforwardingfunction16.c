@@ -1,0 +1,1 @@
+void NdrProxyForwardingFunction16();

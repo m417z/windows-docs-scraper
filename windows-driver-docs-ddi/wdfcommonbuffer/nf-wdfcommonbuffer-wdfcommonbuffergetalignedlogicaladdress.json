@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfcommonbuffer.WdfCommonBufferGetAlignedLogicalAddress",
+  "title": "WdfCommonBufferGetAlignedLogicalAddress function (wdfcommonbuffer.h)",
+  "description": "The WdfCommonBufferGetAlignedLogicalAddress method returns the logical address that is associated with a specified common buffer.",
+  "old-location": "wdf\\wdfcommonbuffergetalignedlogicaladdress.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfCommonBufferGetAlignedLogicalAddress function"
+  ],
+  "ms.keywords": "DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress method, kmdf.wdfcommonbuffergetalignedlogicaladdress, wdf.wdfcommonbuffergetalignedlogicaladdress, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress",
+  "req.header": "wdfcommonbuffer.h",
+  "req.include-header": "WdfCommonBuffer.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfCommonBufferGetAlignedLogicalAddress",
+    "wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfCommonBufferGetAlignedLogicalAddress"
+  ]
+}

@@ -1,0 +1,1 @@
+PADAPTER_OBJECT GetAdapterObject();

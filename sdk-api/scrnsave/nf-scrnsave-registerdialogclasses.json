@@ -1,0 +1,58 @@
+{
+  "UID": "NF:scrnsave.RegisterDialogClasses",
+  "title": "RegisterDialogClasses function (scrnsave.h)",
+  "description": "Registers any nonstandard window classes required by a screen saver's configuration dialog box.",
+  "helpviewer_keywords": [
+    "RegisterDialogClasses",
+    "RegisterDialogClasses function [Windows Shell]",
+    "_win32_RegisterDialogClasses",
+    "scrnsave/RegisterDialogClasses",
+    "shell.RegisterDialogClasses"
+  ],
+  "old-location": "shell\\RegisterDialogClasses.htm",
+  "tech.root": "shell",
+  "ms.assetid": "abd3ba28-a5a7-4ace-99b1-c42f5d81930e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegisterDialogClasses, RegisterDialogClasses function [Windows Shell], _win32_RegisterDialogClasses, scrnsave/RegisterDialogClasses, shell.RegisterDialogClasses",
+  "req.header": "scrnsave.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scrnsave.lib",
+  "req.dll": "None",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegisterDialogClasses",
+    "scrnsave/RegisterDialogClasses"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "None"
+  ],
+  "api_name": [
+    "RegisterDialogClasses"
+  ]
+}

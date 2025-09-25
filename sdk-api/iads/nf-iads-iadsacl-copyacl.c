@@ -1,0 +1,3 @@
+HRESULT CopyAcl(
+  IDispatch **ppAcl
+);

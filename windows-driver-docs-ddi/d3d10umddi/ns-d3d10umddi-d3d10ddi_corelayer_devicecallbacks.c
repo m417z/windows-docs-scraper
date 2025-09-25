@@ -1,0 +1,28 @@
+typedef struct D3D10DDI_CORELAYER_DEVICECALLBACKS {
+  PFND3D10DDI_SETERROR_CB                                      pfnSetErrorCb;
+  PFND3D10DDI_STATE_VS_CONSTBUF_CB                             pfnStateVsConstBufCb;
+  PFND3D10DDI_STATE_PS_SRV_CB                                  pfnStatePsSrvCb;
+  PFND3D10DDI_STATE_PS_SHADER_CB                               pfnStatePsShaderCb;
+  PFND3D10DDI_STATE_PS_SAMPLER_CB                              pfnStatePsSamplerCb;
+  PFND3D10DDI_STATE_VS_SHADER_CB                               pfnStateVsShaderCb;
+  PFND3D10DDI_STATE_PS_CONSTBUF_CB                             pfnStatePsConstBufCb;
+  PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB                          pfnStateIaInputLayoutCb;
+  PFND3D10DDI_STATE_IA_VERTEXBUF_CB                            pfnStateIaVertexBufCb;
+  PFND3D10DDI_STATE_IA_INDEXBUF_CB                             pfnStateIaIndexBufCb;
+  PFND3D10DDI_STATE_GS_CONSTBUF_CB                             pfnStateGsConstBufCb;
+  PFND3D10DDI_STATE_GS_SHADER_CB                               pfnStateGsShaderCb;
+  PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB                   pfnStateIaPrimitiveTopologyCb;
+  PFND3D10DDI_STATE_VS_SRV_CB                                  pfnStateVsSrvCb;
+  PFND3D10DDI_STATE_VS_SAMPLER_CB                              pfnStateVsSamplerCb;
+  PFND3D10DDI_STATE_GS_SRV_CB                                  pfnStateGsSrvCb;
+  PFND3D10DDI_STATE_GS_SAMPLER_CB                              pfnStateGsSamplerCb;
+  PFND3D10DDI_STATE_OM_RENDERTARGETS_CB                        pfnStateOmRenderTargetsCb;
+  PFND3D10DDI_STATE_OM_BLENDSTATE_CB                           pfnStateOmBlendStateCb;
+  PFND3D10DDI_STATE_OM_DEPTHSTATE_CB                           pfnStateOmDepthStateCb;
+  PFND3D10DDI_STATE_RS_RASTSTATE_CB                            pfnStateRsRastStateCb;
+  PFND3D10DDI_STATE_SO_TARGETS_CB                              pfnStateSoTargetsCb;
+  PFND3D10DDI_STATE_RS_VIEWPORTS_CB                            pfnStateRsViewportsCb;
+  PFND3D10DDI_STATE_RS_SCISSOR_CB                              pfnStateRsScissorCb;
+  PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB pfnDisableDeferredStagingResourceDestruction;
+  PFND3D10DDI_STATE_TEXTFILTERSIZE_CB                          pfnStateTextFilterSizeCb;
+} D3D10DDI_CORELAYER_DEVICECALLBACKS;

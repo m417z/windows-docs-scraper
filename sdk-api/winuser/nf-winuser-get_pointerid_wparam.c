@@ -1,0 +1,3 @@
+BOOL GET_POINTERID_WPARAM(
+    WPARAM wParam
+);

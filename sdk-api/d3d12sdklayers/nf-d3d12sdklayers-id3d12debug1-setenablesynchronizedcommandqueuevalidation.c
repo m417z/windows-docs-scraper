@@ -1,0 +1,3 @@
+void SetEnableSynchronizedCommandQueueValidation(
+  BOOL Enable
+);

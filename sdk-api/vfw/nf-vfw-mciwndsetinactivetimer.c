@@ -1,0 +1,4 @@
+void MCIWndSetInactiveTimer(
+  hwnd,
+  inactive
+);

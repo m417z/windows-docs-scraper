@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._CM_FLOPPY_DEVICE_DATA",
+  "title": "_CM_FLOPPY_DEVICE_DATA (wdm.h)",
+  "description": "The CM_FLOPPY_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\\\Registry\\Machine\\Hardware\\Description tree for a floppy controller if the system can collect this information during the boot process.",
+  "old-location": "kernel\\cm_floppy_device_data.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "CM_FLOPPY_DEVICE_DATA structure"
+  ],
+  "ms.keywords": "*PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_FLOPPY_DEVICE_DATA, PCM_FLOPPY_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_FLOPPY_DEVICE_DATA, kernel.cm_floppy_device_data, kstruct_a_7ec8badb-4d88-479e-b0dc-ce88660b8449.xml, wdm/CM_FLOPPY_DEVICE_DATA, wdm/PCM_FLOPPY_DEVICE_DATA",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA",
+  "f1_keywords": [
+    "_CM_FLOPPY_DEVICE_DATA",
+    "wdm/_CM_FLOPPY_DEVICE_DATA",
+    "PCM_FLOPPY_DEVICE_DATA",
+    "wdm/PCM_FLOPPY_DEVICE_DATA",
+    "CM_FLOPPY_DEVICE_DATA",
+    "wdm/CM_FLOPPY_DEVICE_DATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_CM_FLOPPY_DEVICE_DATA",
+    "PCM_FLOPPY_DEVICE_DATA",
+    "CM_FLOPPY_DEVICE_DATA"
+  ]
+}

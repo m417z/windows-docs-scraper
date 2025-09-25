@@ -1,0 +1,47 @@
+{
+  "UID": "NF:mfd3d12.IMFD3D12SynchronizationObjectCommands.EnqueueResourceRelease",
+  "tech.root": "mf",
+  "title": "IMFD3D12SynchronizationObjectCommands::EnqueueResourceRelease",
+  "ms.date": "07/27/2021",
+  "targetos": "Windows",
+  "description": "Queues a fence into the specified command queue that will signal to the synchronization object when GPU is finished processing the consumer commands.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "mfd3d12.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mfd3d12.h"
+  ],
+  "api_name": [
+    "IMFD3D12SynchronizationObjectCommands::EnqueueResourceRelease"
+  ],
+  "f1_keywords": [
+    "IMFD3D12SynchronizationObjectCommands::EnqueueResourceRelease",
+    "mfd3d12/IMFD3D12SynchronizationObjectCommands::EnqueueResourceRelease"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

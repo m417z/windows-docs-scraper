@@ -1,0 +1,4 @@
+typedef struct _BDA_CAS_CLOSE_MMIDIALOG {
+  PBDARESULT lResult;
+  ULONG      SessionResult;
+} BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._NET_IF_INFORMATION",
+  "title": "_NET_IF_INFORMATION (ndis.h)",
+  "description": "The NET_IF_INFORMATION structure provides NDIS with information about a registered network interface.",
+  "old-location": "netvista\\net_if_information.htm",
+  "tech.root": "netvista",
+  "ms.date": "07/23/2025",
+  "keywords": [
+    "NET_IF_INFORMATION structure"
+  ],
+  "ms.keywords": "*PNET_IF_INFORMATION, NET_IF_INFORMATION, NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], PNET_IF_INFORMATION, PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NET_IF_INFORMATION, ndis/NET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, netvista.net_if_information",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NET_IF_INFORMATION, *PNET_IF_INFORMATION",
+  "f1_keywords": [
+    "_NET_IF_INFORMATION",
+    "ndis/_NET_IF_INFORMATION",
+    "PNET_IF_INFORMATION",
+    "ndis/PNET_IF_INFORMATION",
+    "NET_IF_INFORMATION",
+    "ndis/NET_IF_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "_NET_IF_INFORMATION",
+    "PNET_IF_INFORMATION",
+    "NET_IF_INFORMATION"
+  ]
+}

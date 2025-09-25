@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMCoDeactivateVcComplete",
+  "title": "NdisMCoDeactivateVcComplete function (ndis.h)",
+  "description": "NdisMCoDeactivateVcComplete notifies NDIS and the call manager that the miniport driver has finished processing a CM-initiated deactivate-VC request, for which the miniport driver previously returned NDIS_STATUS_PENDING.",
+  "old-location": "netvista\\ndismcodeactivatevccomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMCoDeactivateVcComplete function"
+  ],
+  "ms.keywords": "NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, ndis/NdisMCoDeactivateVcComplete, netvista.ndismcodeactivatevccomplete",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCoDeactivateVcComplete   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCoDeactivateVcComplete   (NDIS 5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_MCO_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMCoDeactivateVcComplete",
+    "ndis/NdisMCoDeactivateVcComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMCoDeactivateVcComplete"
+  ]
+}

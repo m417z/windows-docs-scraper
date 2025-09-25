@@ -1,0 +1,66 @@
+{
+  "UID": "NF:shlwapi.PathCompactPathW",
+  "title": "PathCompactPathW function (shlwapi.h)",
+  "description": "Truncates a file path to fit within a given pixel width by replacing path components with ellipses. (Unicode)",
+  "helpviewer_keywords": [
+    "PathCompactPath",
+    "PathCompactPath function [Windows Shell]",
+    "PathCompactPathW",
+    "_win32_PathCompactPath",
+    "shell.PathCompactPath",
+    "shlwapi/PathCompactPath",
+    "shlwapi/PathCompactPathW"
+  ],
+  "old-location": "shell\\PathCompactPath.htm",
+  "tech.root": "shell",
+  "ms.assetid": "b8184c98-1f86-4714-baf8-af4ef3e71cf2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PathCompactPathW (Unicode) and PathCompactPathA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 4.71 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PathCompactPathW",
+    "shlwapi/PathCompactPathW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shlwapi-l1-2-1.dll",
+    "ext-ms-win-shell-shlwapi-l1-2-0.dll",
+    "Shlwapi.dll",
+    "API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll",
+    "api-ms-win-shlwapi-winrt-storage-l1-1-1.dll"
+  ],
+  "api_name": [
+    "PathCompactPath",
+    "PathCompactPathA",
+    "PathCompactPathW"
+  ]
+}

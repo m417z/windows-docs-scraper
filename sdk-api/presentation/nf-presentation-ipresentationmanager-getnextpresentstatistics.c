@@ -1,0 +1,3 @@
+HRESULT GetNextPresentStatistics(
+  IPresentStatistics **nextPresentStatistics
+);

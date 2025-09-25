@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pointofservicedriverinterface._MSR_DATA_RECEIVED",
+  "title": "_MSR_DATA_RECEIVED (pointofservicedriverinterface.h)",
+  "description": "This structure contains the data read from a swiped magnetic stripe card.",
+  "old-location": "pos\\msr_data_received.htm",
+  "tech.root": "pos",
+  "ms.date": "02/23/2018",
+  "keywords": [
+    "MSR_DATA_RECEIVED structure"
+  ],
+  "ms.keywords": "*PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED, MSR_DATA_RECEIVED structure, PMSR_DATA_RECEIVED, PMSR_DATA_RECEIVED structure pointer, _MSR_DATA_RECEIVED, pointofservicedriverinterface/MSR_DATA_RECEIVED, pointofservicedriverinterface/PMSR_DATA_RECEIVED, pos.msr_data_received",
+  "req.header": "pointofservicedriverinterface.h",
+  "req.include-header": "PointOfServiceDriverInterface.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MSR_DATA_RECEIVED, *PMSR_DATA_RECEIVED",
+  "f1_keywords": [
+    "_MSR_DATA_RECEIVED",
+    "pointofservicedriverinterface/_MSR_DATA_RECEIVED",
+    "PMSR_DATA_RECEIVED",
+    "pointofservicedriverinterface/PMSR_DATA_RECEIVED",
+    "MSR_DATA_RECEIVED",
+    "pointofservicedriverinterface/MSR_DATA_RECEIVED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "PointOfServiceDriverInterface.h"
+  ],
+  "api_name": [
+    "_MSR_DATA_RECEIVED",
+    "PMSR_DATA_RECEIVED",
+    "MSR_DATA_RECEIVED"
+  ]
+}

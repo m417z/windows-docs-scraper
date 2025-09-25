@@ -1,0 +1,46 @@
+{
+  "UID": "NF:netdevice.NetDeviceOpenConfiguration",
+  "title": "NetDeviceOpenConfiguration function (netdevice.h)",
+  "description": "The NetDeviceOpenConfiguration function opens a net device's configuration database.",
+  "tech.root": "netvista",
+  "ms.date": "04/01/2022",
+  "keywords": [
+    "NetDeviceOpenConfiguration function"
+  ],
+  "ms.keywords": "NetDeviceOpenConfiguration",
+  "req.header": "netdevice.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.33,
+  "req.lib": "netadaptercxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "NetDeviceOpenConfiguration",
+    "netdevice/NetDeviceOpenConfiguration"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netadaptercxstub.lib"
+  ],
+  "api_name": [
+    "NetDeviceOpenConfiguration"
+  ]
+}

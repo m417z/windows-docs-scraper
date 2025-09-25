@@ -1,0 +1,65 @@
+{
+  "UID": "NF:msdrm.DRMGetSignedIssuanceLicense",
+  "title": "DRMGetSignedIssuanceLicense function (msdrm.h)",
+  "description": "Acquires a signed issuance license online or offline, or produces an unsigned issuance license that can be signed later.",
+  "helpviewer_keywords": [
+    "DRMGetSignedIssuanceLicense",
+    "DRMGetSignedIssuanceLicense function [Active Directory Rights Management Services SDK 1.0]",
+    "DRM_AUTO_GENERATE_KEY",
+    "DRM_OWNER_LICENSE_NOPERSIST",
+    "DRM_REUSE_KEY",
+    "DRM_SERVER_ISSUANCELICENSE",
+    "DRM_SIGN_CANCEL",
+    "DRM_SIGN_OFFLINE",
+    "DRM_SIGN_ONLINE",
+    "msdrm/DRMGetSignedIssuanceLicense",
+    "rm.drmgetsignedissuancelicense"
+  ],
+  "old-location": "rm\\drmgetsignedissuancelicense.htm",
+  "tech.root": "rm",
+  "ms.assetid": "3ed180d1-27c9-4f39-b353-1d417636ca62",
+  "ms.date": "10/15/2020",
+  "ms.keywords": "DRMGetSignedIssuanceLicense, DRMGetSignedIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SERVER_ISSUANCELICENSE, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, DRM_SIGN_ONLINE, msdrm/DRMGetSignedIssuanceLicense, rm.drmgetsignedissuancelicense",
+  "req.header": "msdrm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdrm.lib",
+  "req.dll": "Msdrm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Rights Management Services client 1.0 SP2 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DRMGetSignedIssuanceLicense",
+    "msdrm/DRMGetSignedIssuanceLicense"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdrm.dll"
+  ],
+  "api_name": [
+    "DRMGetSignedIssuanceLicense"
+  ]
+}

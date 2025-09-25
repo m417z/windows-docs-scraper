@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dsclient.DsBrowseForContainerA",
+  "title": "DsBrowseForContainerA function (dsclient.h)",
+  "description": "Displays a dialog box used to browse for container objects in Active Directory Domain Services. (ANSI)",
+  "helpviewer_keywords": [
+    "DsBrowseForContainerA",
+    "dsclient/DsBrowseForContainerA"
+  ],
+  "old-location": "ad\\dsbrowseforcontainer.htm",
+  "tech.root": "ad",
+  "ms.assetid": "c95585b3-bf40-4aee-ae47-ca8f43daf0e6",
+  "ms.date": "06/10/2025",
+  "ms.keywords": "DsBrowseForContainer, DsBrowseForContainer function [Active Directory], DsBrowseForContainerA, DsBrowseForContainerW, _glines_dsbrowseforcontainer, ad.dsbrowseforcontainer, dsclient/DsBrowseForContainer, dsclient/DsBrowseForContainerA, dsclient/DsBrowseForContainerW",
+  "req.header": "dsclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsBrowseForContainerW (Unicode) and DsBrowseForContainerA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dsuiext.lib",
+  "req.dll": "Dsuiext.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsBrowseForContainerA",
+    "dsclient/DsBrowseForContainerA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dsuiext.dll"
+  ],
+  "api_name": [
+    "DsBrowseForContainer",
+    "DsBrowseForContainerA",
+    "DsBrowseForContainerW"
+  ]
+}

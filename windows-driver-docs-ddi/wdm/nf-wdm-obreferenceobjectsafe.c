@@ -1,0 +1,3 @@
+BOOLEAN ObReferenceObjectSafe(
+  PVOID Object
+);

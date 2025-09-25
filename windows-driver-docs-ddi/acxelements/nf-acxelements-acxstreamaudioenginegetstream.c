@@ -1,0 +1,3 @@
+ACXSTREAM AcxStreamAudioEngineGetStream(
+  ACXSTREAMAUDIOENGINE StreamAudioEngine
+);

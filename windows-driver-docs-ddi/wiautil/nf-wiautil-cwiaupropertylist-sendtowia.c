@@ -1,0 +1,3 @@
+HRESULT SendToWia(
+  BYTE *pWiasContext
+);

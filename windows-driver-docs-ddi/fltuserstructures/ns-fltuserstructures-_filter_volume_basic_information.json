@@ -1,0 +1,54 @@
+{
+  "UID": "NS:fltuserstructures._FILTER_VOLUME_BASIC_INFORMATION",
+  "title": "_FILTER_VOLUME_BASIC_INFORMATION (fltuserstructures.h)",
+  "description": "The caller-allocated FILTER_VOLUME_BASIC_INFORMATION structure contains basic information for a volume.",
+  "old-location": "ifsk\\filter_volume_basic_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FILTER_VOLUME_BASIC_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION structure [Installable File System Drivers], FltSystemStructures_7bc0a3dc-37e1-4783-aecd-f4ef96e38a32.xml, PFILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION structure pointer [Installable File System Drivers], _FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/PFILTER_VOLUME_BASIC_INFORMATION, ifsk.filter_volume_basic_information",
+  "req.header": "fltuserstructures.h",
+  "req.include-header": "FltUser.h, FltKernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILTER_VOLUME_BASIC_INFORMATION, *PFILTER_VOLUME_BASIC_INFORMATION",
+  "f1_keywords": [
+    "_FILTER_VOLUME_BASIC_INFORMATION",
+    "fltuserstructures/_FILTER_VOLUME_BASIC_INFORMATION",
+    "PFILTER_VOLUME_BASIC_INFORMATION",
+    "fltuserstructures/PFILTER_VOLUME_BASIC_INFORMATION",
+    "FILTER_VOLUME_BASIC_INFORMATION",
+    "fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltuserstructures.h"
+  ],
+  "api_name": [
+    "_FILTER_VOLUME_BASIC_INFORMATION",
+    "PFILTER_VOLUME_BASIC_INFORMATION",
+    "FILTER_VOLUME_BASIC_INFORMATION"
+  ]
+}

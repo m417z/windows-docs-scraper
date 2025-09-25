@@ -1,0 +1,4 @@
+typedef struct _MANAGEMENT_SERVICE_INFO {
+  LPWSTR pszMDMServiceUri;
+  LPWSTR pszAuthenticationUri;
+} MANAGEMENT_SERVICE_INFO, *PMANAGEMENT_SERVICE_INFO;

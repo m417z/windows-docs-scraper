@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wmpservices.IWMPConvert.GetErrorURL",
+  "title": "IWMPConvert::GetErrorURL (wmpservices.h)",
+  "description": "The GetErrorURL method is implemented by a conversion plug-in and called by Windows Media Player to retrieve the URL of a webpage that displays information to help the user correct the condition that caused an error.",
+  "helpviewer_keywords": [
+    "GetErrorURL",
+    "GetErrorURL method [Windows Media Player]",
+    "GetErrorURL method [Windows Media Player]",
+    "IWMPConvert interface",
+    "IWMPConvert interface [Windows Media Player]",
+    "GetErrorURL method",
+    "IWMPConvert.GetErrorURL",
+    "IWMPConvert::GetErrorURL",
+    "IWMPConvertGetErrorURL",
+    "wmp.iwmpconvert_geterrorurl",
+    "wmpservices/IWMPConvert::GetErrorURL"
+  ],
+  "old-location": "wmp\\iwmpconvert_geterrorurl.htm",
+  "tech.root": "WMP",
+  "ms.assetid": "27a2ff9a-0c95-4c82-8e4a-c91d2a595005",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetErrorURL, GetErrorURL method [Windows Media Player], GetErrorURL method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],GetErrorURL method, IWMPConvert.GetErrorURL, IWMPConvert::GetErrorURL, IWMPConvertGetErrorURL, wmp.iwmpconvert_geterrorurl, wmpservices/IWMPConvert::GetErrorURL",
+  "req.header": "wmpservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Media Player, build 10.00.00.4521 or later",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMPConvert::GetErrorURL",
+    "wmpservices/IWMPConvert::GetErrorURL"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "wmpservices.h"
+  ],
+  "api_name": [
+    "IWMPConvert.GetErrorURL"
+  ]
+}

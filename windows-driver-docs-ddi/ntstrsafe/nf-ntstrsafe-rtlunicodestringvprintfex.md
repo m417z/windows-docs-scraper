@@ -1,0 +1,96 @@
+# RtlUnicodeStringVPrintfEx function
+
+## Description
+
+The **RtlUnicodeStringVPrintfEx** function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a [UNICODE_STRING](https://learn.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure.
+
+## Parameters
+
+### `DestinationString` [out]
+
+Optional. A pointer to a **UNICODE_STRING** structure that receives a formatted string. **RtlUnicodeStringVPrintfEx** creates this string from the formatting string that *pszFormat* supplies and the function's argument list. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. *DestinationString* can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
+
+### `RemainingString` [out, optional]
+
+Optional. If the caller supplies a non-**NULL** pointer to a **UNICODE_STRING** structure, **RtlUnicodeStringVPrintfE** sets this structure's **Buffer** member to the end of the formatted string, sets the structure's **Length** member to zero, and sets the structure's **MaximumLength** member to the number of bytes that are remaining in the destination buffer. *RemainingString* can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
+
+### `dwFlags` [in]
+
+One or more flags and, optionally, a fill byte. The flags are defined as follows:
+
+#### STRSAFE_FILL_BEHIND
+
+If this flag is set and the function succeeds, the low byte of *dwFlags* is used to fill the portion of the destination buffer that follows the last character in the string.
+
+#### STRSAFE_IGNORE_NULLS
+
+If this flag is set, the source or destination pointer, or both, can be **NULL**. **RtlUnicodeStringVPrintfEx** treats **NULL** source buffer pointers like empty strings (TEXT("")), which can be copied. **NULL** destination buffer pointers cannot receive nonempty strings.
+
+#### STRSAFE_FILL_ON_FAILURE
+
+If this flag is set and the function fails, the low byte of *dwFlags* is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
+
+#### STRSAFE_NULL_ON_FAILURE
+
+If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
+
+#### STRSAFE_NO_TRUNCATION
+
+If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
+
+#### STRSAFE_ZERO_LENGTH_ON_FAILURE
+
+If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
+
+### `pszFormat` [in]
+
+A pointer to a null-terminated text string that contains **printf**-styled formatting directives. This pointer can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
+
+### `argList` [in]
+
+A **va_list**-typed argument list. Arguments in this argument list will be interpreted by the using formatting string that *pszFormat* supplies.
+
+## Return value
+
+**RtlUnicodeStringVPrintfEx** returns one of the following NTSTATUS values.
+
+| Return code | Description |
+| --- | --- |
+| **STATUS_SUCCESS** | This *success* status means source data was present, and the strings were concatenated without truncation. |
+| **STATUS_BUFFER_OVERFLOW** | This *warning* status means the copy operation did not complete due to insufficient space in the destination buffer. If STRSAFE_NO_TRUNCATION is set in *dwFlags*, the destination buffer is not modified. If the flag is not set, the destination buffer contains a truncated version of the copied string. |
+| **STATUS_INVALID_PARAMETER** | This *error* status means the function received an invalid input parameter. For more information, see the following paragraph. |
+
+**RtlUnicodeStringVPrintfEx** returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+
+* The contents of a **UNICODE_STRING** structure are invalid.
+* An invalid flag is specified in *dwFlags*.
+* The destination buffer is already full.
+* A buffer pointer is **NULL** and the STRSAFE_IGNORE_NULLS flag is not specified in *dwFlags*.
+* The destination buffer pointer is **NULL**, but the buffer size is not zero.
+* The destination buffer pointer is **NULL**, or its length is zero, but a nonzero length source string is present.
+
+For information about how to test NTSTATUS values, see [Using NTSTATUS Values](https://learn.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values).
+
+## Remarks
+
+The **RtlUnicodeStringVPrintfEx** function uses the destination buffer's size to ensure that the string formatting operation does not write past the end of the buffer. By default, the function does not terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
+
+**RtlUnicodeStringVPrintfEx** adds to the functionality of the [RtlUnicodeStringVPrintf](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf) function by returning a [UNICODE_STRING](https://learn.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to **RtlUnicodeStringVPrintfEx** for additional control.
+
+If the format string and the destination string overlap, the behavior of the function is undefined.
+
+The *pszFormat* and *DestinationString* pointers cannot be **NULL** unless the STRSAFE_IGNORE_NULLS flag is set in *dwFlags*. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be **NULL**. If the *DestinationString* pointer is **NULL**, the *pszFormat* pointer must be **NULL** or point to an empty string.
+
+For more information about **va_list**-typed argument lists, see the Microsoft Windows SDK documentation.
+
+For more information about the safe string functions, see [Using Safe String Functions](https://learn.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions).
+
+## See also
+
+[RtlUnicodeStringPrintf](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintf)
+
+[RtlUnicodeStringPrintfEx](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintfex)
+
+[RtlUnicodeStringVPrintf](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf)
+
+[UNICODE_STRING](https://learn.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

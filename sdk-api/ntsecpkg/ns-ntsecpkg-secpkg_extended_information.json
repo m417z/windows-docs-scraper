@@ -1,0 +1,66 @@
+{
+  "UID": "NS:ntsecpkg._SECPKG_EXTENDED_INFORMATION",
+  "title": "SECPKG_EXTENDED_INFORMATION (ntsecpkg.h)",
+  "description": "The SECPKG_EXTENDED_INFORMATION structure is used to hold information about optional package capabilities.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.",
+  "helpviewer_keywords": [
+    "*PSECPKG_EXTENDED_INFORMATION",
+    "PSECPKG_EXTENDED_INFORMATION",
+    "PSECPKG_EXTENDED_INFORMATION structure pointer [Security]",
+    "SECPKG_EXTENDED_INFORMATION",
+    "SECPKG_EXTENDED_INFORMATION structure [Security]",
+    "_ssp_secpkg_extended_information",
+    "ntsecpkg/PSECPKG_EXTENDED_INFORMATION",
+    "ntsecpkg/SECPKG_EXTENDED_INFORMATION",
+    "security.secpkg_extended_information"
+  ],
+  "old-location": "security\\secpkg_extended_information.htm",
+  "tech.root": "security",
+  "ms.assetid": "3d80dfc0-c35b-4d14-8196-02944c3db8d2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION structure pointer [Security], SECPKG_EXTENDED_INFORMATION, SECPKG_EXTENDED_INFORMATION structure [Security], _ssp_secpkg_extended_information, ntsecpkg/PSECPKG_EXTENDED_INFORMATION, ntsecpkg/SECPKG_EXTENDED_INFORMATION, security.secpkg_extended_information",
+  "req.header": "ntsecpkg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SECPKG_EXTENDED_INFORMATION, *PSECPKG_EXTENDED_INFORMATION",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SECPKG_EXTENDED_INFORMATION",
+    "ntsecpkg/_SECPKG_EXTENDED_INFORMATION",
+    "PSECPKG_EXTENDED_INFORMATION",
+    "ntsecpkg/PSECPKG_EXTENDED_INFORMATION",
+    "SECPKG_EXTENDED_INFORMATION",
+    "ntsecpkg/SECPKG_EXTENDED_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntsecpkg.h"
+  ],
+  "api_name": [
+    "SECPKG_EXTENDED_INFORMATION"
+  ]
+}

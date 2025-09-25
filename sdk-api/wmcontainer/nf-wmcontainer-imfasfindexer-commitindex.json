@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmcontainer.IMFASFIndexer.CommitIndex",
+  "title": "IMFASFIndexer::CommitIndex (wmcontainer.h)",
+  "description": "Adds information about a new index to the ContentInfo object associated with ASF content. You must call this method before copying the index to the content so that the index will be readable by the indexer later.",
+  "helpviewer_keywords": [
+    "44b889e1-8860-44fa-b19f-5be9f844a194",
+    "CommitIndex",
+    "CommitIndex method [Media Foundation]",
+    "CommitIndex method [Media Foundation]",
+    "IMFASFIndexer interface",
+    "IMFASFIndexer interface [Media Foundation]",
+    "CommitIndex method",
+    "IMFASFIndexer.CommitIndex",
+    "IMFASFIndexer::CommitIndex",
+    "mf.imfasfindexer_commitindex",
+    "wmcontainer/IMFASFIndexer::CommitIndex"
+  ],
+  "old-location": "mf\\imfasfindexer_commitindex.htm",
+  "tech.root": "medfound",
+  "ms.assetid": "44b889e1-8860-44fa-b19f-5be9f844a194",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "44b889e1-8860-44fa-b19f-5be9f844a194, CommitIndex, CommitIndex method [Media Foundation], CommitIndex method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],CommitIndex method, IMFASFIndexer.CommitIndex, IMFASFIndexer::CommitIndex, mf.imfasfindexer_commitindex, wmcontainer/IMFASFIndexer::CommitIndex",
+  "req.header": "wmcontainer.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mfuuid.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMFASFIndexer::CommitIndex",
+    "wmcontainer/IMFASFIndexer::CommitIndex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mfuuid.lib",
+    "mfuuid.dll"
+  ],
+  "api_name": [
+    "IMFASFIndexer.CommitIndex"
+  ]
+}

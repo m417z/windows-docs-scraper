@@ -1,0 +1,3 @@
+typedef struct _WDI_MAC_ADDRESS {
+  UINT8 Address[6];
+} WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS;

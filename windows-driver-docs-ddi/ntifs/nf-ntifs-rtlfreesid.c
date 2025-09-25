@@ -1,0 +1,3 @@
+NTSYSAPI PVOID RtlFreeSid(
+  PSID Sid
+);

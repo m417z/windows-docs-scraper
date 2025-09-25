@@ -1,0 +1,72 @@
+{
+  "UID": "NS:winsock.servent",
+  "title": "SERVENT (winsock.h)",
+  "description": "The SERVENT (winsock.h) structure is used to store or return the name and service number for a given service name.",
+  "helpviewer_keywords": [
+    "*LPSERVENT",
+    "*PSERVENT",
+    "FAR *LPSERVENT",
+    "FAR *LPSERVENT structure [Winsock]",
+    "PSERVENT",
+    "PSERVENT structure pointer [Winsock]",
+    "SERVENT",
+    "SERVENT structure [Winsock]",
+    "_win32_servent_2",
+    "servent",
+    "servent structure [Winsock]",
+    "winsock.servent_2",
+    "winsock/FAR *LPSERVENT",
+    "winsock/PSERVENT",
+    "winsock/servent"
+  ],
+  "old-location": "winsock\\servent_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "8696b854-4d37-4d1b-8383-169b5dc7a2ae",
+  "ms.date": "08/16/2022",
+  "ms.keywords": "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent",
+  "req.header": "winsock.h",
+  "req.include-header": "Winsock2.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SERVENT, *PSERVENT, *LPSERVENT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "servent",
+    "winsock/servent",
+    "PSERVENT",
+    "winsock/PSERVENT",
+    "SERVENT",
+    "winsock/SERVENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winsock.h"
+  ],
+  "api_name": [
+    "SERVENT"
+  ]
+}

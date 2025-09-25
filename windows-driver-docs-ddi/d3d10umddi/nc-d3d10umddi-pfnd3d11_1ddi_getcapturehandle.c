@@ -1,0 +1,7 @@
+PFND3D11_1DDI_GETCAPTUREHANDLE Pfnd3d111DdiGetcapturehandle;
+
+VOID Pfnd3d111DdiGetcapturehandle(
+  D3D10DDI_HDEVICE hDevice,
+  D3D11_1DDI_GETCAPTUREHANDLEDATA *pHandleData
+)
+{...}

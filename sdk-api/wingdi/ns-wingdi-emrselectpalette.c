@@ -1,0 +1,4 @@
+typedef struct tagEMRSELECTPALETTE {
+  EMR   emr;
+  DWORD ihPal;
+} EMRSELECTPALETTE, *PEMRSELECTPALETTE;

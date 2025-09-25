@@ -1,0 +1,6 @@
+PFND3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY Pfnd3dkmtGetcontextinprocessschedulingpriority;
+
+NTSTATUS Pfnd3dkmtGetcontextinprocessschedulingpriority(
+  D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY *unnamedParam1
+)
+{...}

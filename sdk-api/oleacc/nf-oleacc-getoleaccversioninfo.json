@@ -1,0 +1,59 @@
+{
+  "UID": "NF:oleacc.GetOleaccVersionInfo",
+  "title": "GetOleaccVersionInfo function (oleacc.h)",
+  "description": "Retrieves the version number and build number of the Microsoft Active Accessibility file Oleacc.dll.",
+  "helpviewer_keywords": [
+    "GetOleaccVersionInfo",
+    "GetOleaccVersionInfo function [Windows Accessibility]",
+    "_msaa_GetOleaccVersionInfo",
+    "msaa.getoleaccversioninfo",
+    "oleacc/GetOleaccVersionInfo",
+    "winauto.getoleaccversioninfo"
+  ],
+  "old-location": "winauto\\getoleaccversioninfo.htm",
+  "tech.root": "WinAuto",
+  "ms.assetid": "96dcdb85-4f35-4274-ba57-2f565c3ebb5f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetOleaccVersionInfo, GetOleaccVersionInfo function [Windows Accessibility], _msaa_GetOleaccVersionInfo, msaa.getoleaccversioninfo, oleacc/GetOleaccVersionInfo, winauto.getoleaccversioninfo",
+  "req.header": "oleacc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Oleacc.lib",
+  "req.dll": "Oleacc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetOleaccVersionInfo",
+    "oleacc/GetOleaccVersionInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Oleacc.dll"
+  ],
+  "api_name": [
+    "GetOleaccVersionInfo"
+  ]
+}

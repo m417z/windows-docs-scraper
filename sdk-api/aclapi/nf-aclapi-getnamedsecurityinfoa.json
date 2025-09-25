@@ -1,0 +1,62 @@
+{
+  "UID": "NF:aclapi.GetNamedSecurityInfoA",
+  "title": "GetNamedSecurityInfoA function (aclapi.h)",
+  "description": "Retrieves a copy of the security descriptor for an object specified by name. (ANSI)",
+  "helpviewer_keywords": [
+    "GetNamedSecurityInfoA",
+    "aclapi/GetNamedSecurityInfoA"
+  ],
+  "old-location": "security\\getnamedsecurityinfo.htm",
+  "tech.root": "security",
+  "ms.assetid": "11f2119b-5314-4fa1-8016-9c01f79d037d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetNamedSecurityInfo, GetNamedSecurityInfo function [Security], GetNamedSecurityInfoA, GetNamedSecurityInfoW, _win32_getnamedsecurityinfo, aclapi/GetNamedSecurityInfo, aclapi/GetNamedSecurityInfoA, aclapi/GetNamedSecurityInfoW, security.getnamedsecurityinfo",
+  "req.header": "aclapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetNamedSecurityInfoW (Unicode) and GetNamedSecurityInfoA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetNamedSecurityInfoA",
+    "aclapi/GetNamedSecurityInfoA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-Security-Provider-l1-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll",
+    "ntmarta.dll",
+    "API-MS-Win-Security-Provider-Ansi-L1-1-0.dll"
+  ],
+  "api_name": [
+    "GetNamedSecurityInfo",
+    "GetNamedSecurityInfoA",
+    "GetNamedSecurityInfoW"
+  ]
+}

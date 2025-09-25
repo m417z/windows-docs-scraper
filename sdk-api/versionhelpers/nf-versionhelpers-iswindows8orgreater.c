@@ -1,0 +1,1 @@
+VERSIONHELPERAPI IsWindows8OrGreater();

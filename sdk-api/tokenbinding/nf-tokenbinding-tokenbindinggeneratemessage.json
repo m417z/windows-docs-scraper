@@ -1,0 +1,57 @@
+{
+  "UID": "NF:tokenbinding.TokenBindingGenerateMessage",
+  "title": "TokenBindingGenerateMessage function (tokenbinding.h)",
+  "description": "Assembles the list of token bindings and generates the final message for the client device to the server.",
+  "helpviewer_keywords": [
+    "TokenBindingGenerateMessage",
+    "TokenBindingGenerateMessage function [Security]",
+    "security.tokenbindinggeneratemessage",
+    "tokenbinding/TokenBindingGenerateMessage"
+  ],
+  "old-location": "security\\tokenbindinggeneratemessage.htm",
+  "tech.root": "security",
+  "ms.assetid": "7A268C6D-952B-482A-835D-89D6452D986D",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage",
+  "req.header": "tokenbinding.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tokenbinding.lib",
+  "req.dll": "Tokenbinding.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TokenBindingGenerateMessage",
+    "tokenbinding/TokenBindingGenerateMessage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "tokenbinding.dll"
+  ],
+  "api_name": [
+    "TokenBindingGenerateMessage"
+  ]
+}

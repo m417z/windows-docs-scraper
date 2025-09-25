@@ -1,0 +1,6 @@
+typedef struct _PDH_DATA_ITEM_PATH_ELEMENTS_A {
+  LPSTR szMachineName;
+  GUID  ObjectGUID;
+  DWORD dwItemId;
+  LPSTR szInstanceName;
+} PDH_DATA_ITEM_PATH_ELEMENTS_A, *PPDH_DATA_ITEM_PATH_ELEMENTS_A;

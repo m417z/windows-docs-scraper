@@ -1,0 +1,3 @@
+MMRESULT ACMAPI acmFormatChooseW(
+  LPACMFORMATCHOOSEW pafmtc
+);

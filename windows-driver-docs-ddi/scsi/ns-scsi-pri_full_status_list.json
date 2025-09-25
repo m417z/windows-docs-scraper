@@ -1,0 +1,50 @@
+{
+  "UID": "NS:scsi.PRI_FULL_STATUS_LIST",
+  "tech.root": "storage",
+  "title": "PRI_FULL_STATUS_LIST (scsi.h)",
+  "ms.date": "03/20/2024",
+  "targetos": "Windows",
+  "description": "The PRI_FULL_STATUS_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction=RESERVATION_ACTION_READ_FULL_STATUS.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "scsi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "PRI_FULL_STATUS_LIST, *PPRI_FULL_STATUS_LIST",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "PRI_FULL_STATUS_LIST",
+    "PPRI_FULL_STATUS_LIST"
+  ],
+  "f1_keywords": [
+    "PRI_FULL_STATUS_LIST",
+    "scsi/PRI_FULL_STATUS_LIST",
+    "PPRI_FULL_STATUS_LIST",
+    "scsi/PPRI_FULL_STATUS_LIST"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "PRI_FULL_STATUS_LIST"
+  ]
+}

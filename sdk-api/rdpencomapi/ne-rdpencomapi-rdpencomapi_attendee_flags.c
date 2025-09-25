@@ -1,0 +1,3 @@
+typedef enum __MIDL___MIDL_itf_rdpencomapi_0000_0000_0006 {
+  ATTENDEE_FLAGS_LOCAL = 1
+} RDPENCOMAPI_ATTENDEE_FLAGS;

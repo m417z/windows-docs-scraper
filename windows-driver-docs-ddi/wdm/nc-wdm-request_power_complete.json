@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.REQUEST_POWER_COMPLETE",
+  "title": "REQUEST_POWER_COMPLETE (wdm.h)",
+  "description": "The PowerCompletion callback routine completes the processing of a power IRP.",
+  "tech.root": "kernel",
+  "ms.date": "01/10/2023",
+  "keywords": [
+    "REQUEST_POWER_COMPLETE callback function"
+  ],
+  "ms.keywords": "PowerCompletion, PowerCompletion routine [Kernel-Mode Driver Architecture], REQUEST_POWER_COMPLETE, kernel.powercompletion, wdm/PowerCompletion",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL (see Remarks section).",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "REQUEST_POWER_COMPLETE",
+    "wdm/REQUEST_POWER_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "REQUEST_POWER_COMPLETE"
+  ]
+}

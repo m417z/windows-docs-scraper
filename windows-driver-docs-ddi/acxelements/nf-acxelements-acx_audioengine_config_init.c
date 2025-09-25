@@ -1,0 +1,3 @@
+void ACX_AUDIOENGINE_CONFIG_INIT(
+  cfg
+);

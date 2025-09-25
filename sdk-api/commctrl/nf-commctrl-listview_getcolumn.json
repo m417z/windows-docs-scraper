@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.ListView_GetColumn",
+  "title": "ListView_GetColumn macro (commctrl.h)",
+  "description": "Gets the attributes of a list-view control's column. You can use this macro or send the LVM_GETCOLUMN message explicitly.",
+  "helpviewer_keywords": [
+    "ListView_GetColumn",
+    "ListView_GetColumn macro [Windows Controls]",
+    "_win32_ListView_GetColumn",
+    "_win32_ListView_GetColumn_cpp",
+    "commctrl/ListView_GetColumn",
+    "controls.ListView_GetColumn",
+    "controls._win32_ListView_GetColumn"
+  ],
+  "old-location": "controls\\ListView_GetColumn.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_getcolumn.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "ListView_GetColumn, ListView_GetColumn macro [Windows Controls], _win32_ListView_GetColumn, _win32_ListView_GetColumn_cpp, commctrl/ListView_GetColumn, controls.ListView_GetColumn, controls._win32_ListView_GetColumn",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_GetColumn",
+    "commctrl/ListView_GetColumn"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_GetColumn"
+  ]
+}

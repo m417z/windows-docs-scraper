@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053 Pfnd3d12ddiDestroyvideomotionestimator0053;
+
+VOID Pfnd3d12ddiDestroyvideomotionestimator0053(
+  D3D12DDI_HDEVICE hDrvDevice,
+  D3D12DDI_HVIDEOMOTIONESTIMATOR_0053 hDrvMotionEstimator
+)
+{...}

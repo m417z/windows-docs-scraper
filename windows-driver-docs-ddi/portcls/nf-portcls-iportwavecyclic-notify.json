@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortWaveCyclic.Notify",
+  "title": "IPortWaveCyclic::Notify (portcls.h)",
+  "description": "Learn how the Notify method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).",
+  "old-location": "audio\\iportwavecyclic_notify.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortWaveCyclic::Notify"
+  ],
+  "ms.keywords": "IPortWaveCyclic interface [Audio Devices],Notify method, IPortWaveCyclic.Notify, IPortWaveCyclic::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortWaveCyclic interface, audio.iportwavecyclic_notify, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, portcls/IPortWaveCyclic::Notify",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortWaveCyclic::Notify",
+    "portcls/IPortWaveCyclic::Notify"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IPortWaveCyclic::Notify"
+  ]
+}

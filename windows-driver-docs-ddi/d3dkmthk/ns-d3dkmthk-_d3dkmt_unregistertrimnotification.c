@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_UNREGISTERTRIMNOTIFICATION {
+  [out] VOID                               *Handle;
+        PFND3DKMT_TRIMNOTIFICATIONCALLBACK Callback;
+} D3DKMT_UNREGISTERTRIMNOTIFICATION;

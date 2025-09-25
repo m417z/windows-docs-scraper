@@ -1,0 +1,66 @@
+{
+  "UID": "NE:codecapi.eAVEncVideoColorTransferMatrix",
+  "title": "eAVEncVideoColorTransferMatrix (codecapi.h)",
+  "description": "Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space. This enumeration is used with the AVEncVideoInputColorTransferMatrix and AVEncVideoOutputColorTransferMatrix properties.",
+  "helpviewer_keywords": [
+    "codecapi/eAVEncVideoColorTransferMatrix",
+    "codecapi/eAVEncVideoColorTransferMatrix_BT601",
+    "codecapi/eAVEncVideoColorTransferMatrix_BT709",
+    "codecapi/eAVEncVideoColorTransferMatrix_SMPTE240M",
+    "codecapi/eAVEncVideoColorTransferMatrix_SameAsSource",
+    "dshow.eavencvideocolortransfermatrix",
+    "eAVEncVideoColorTransferMatrix",
+    "eAVEncVideoColorTransferMatrix enumeration [DirectShow]",
+    "eAVEncVideoColorTransferMatrixEnumeration",
+    "eAVEncVideoColorTransferMatrix_BT601",
+    "eAVEncVideoColorTransferMatrix_BT709",
+    "eAVEncVideoColorTransferMatrix_SMPTE240M",
+    "eAVEncVideoColorTransferMatrix_SameAsSource"
+  ],
+  "old-location": "dshow\\eavencvideocolortransfermatrix.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "6912cc24-9c67-4c52-9cb7-3decbb4ba8ac",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "codecapi/eAVEncVideoColorTransferMatrix, codecapi/eAVEncVideoColorTransferMatrix_BT601, codecapi/eAVEncVideoColorTransferMatrix_BT709, codecapi/eAVEncVideoColorTransferMatrix_SMPTE240M, codecapi/eAVEncVideoColorTransferMatrix_SameAsSource, dshow.eavencvideocolortransfermatrix, eAVEncVideoColorTransferMatrix, eAVEncVideoColorTransferMatrix enumeration [DirectShow], eAVEncVideoColorTransferMatrixEnumeration, eAVEncVideoColorTransferMatrix_BT601, eAVEncVideoColorTransferMatrix_BT709, eAVEncVideoColorTransferMatrix_SMPTE240M, eAVEncVideoColorTransferMatrix_SameAsSource",
+  "req.header": "codecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "eAVEncVideoColorTransferMatrix",
+    "codecapi/eAVEncVideoColorTransferMatrix"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "codecapi.h"
+  ],
+  "api_name": [
+    "eAVEncVideoColorTransferMatrix"
+  ]
+}

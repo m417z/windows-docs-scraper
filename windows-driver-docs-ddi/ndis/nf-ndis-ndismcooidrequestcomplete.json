@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMCoOidRequestComplete",
+  "title": "NdisMCoOidRequestComplete function (ndis.h)",
+  "description": "The NdisMCoOidRequestComplete function returns the final status of an OID request that a miniport driver's MiniportCoOidRequest function returned NDIS_STATUS_PENDING for.",
+  "old-location": "netvista\\ndismcooidrequestcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMCoOidRequestComplete function"
+  ],
+  "ms.keywords": "NdisMCoOidRequestComplete, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, ndis/NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_MCO_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMCoOidRequestComplete",
+    "ndis/NdisMCoOidRequestComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMCoOidRequestComplete"
+  ]
+}

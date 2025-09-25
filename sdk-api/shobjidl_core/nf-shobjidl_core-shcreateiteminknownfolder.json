@@ -1,0 +1,67 @@
+{
+  "UID": "NF:shobjidl_core.SHCreateItemInKnownFolder",
+  "title": "SHCreateItemInKnownFolder function (shobjidl_core.h)",
+  "description": "Creates a Shell item object for a single file that exists inside a known folder.",
+  "helpviewer_keywords": [
+    "SHCreateItemInKnownFolder",
+    "SHCreateItemInKnownFolder function [Windows Shell]",
+    "_shell_SHCreateItemInKnownFolder",
+    "shell.SHCreateItemInKnownFolder",
+    "shobjidl_core/SHCreateItemInKnownFolder"
+  ],
+  "old-location": "shell\\SHCreateItemInKnownFolder.htm",
+  "tech.root": "shell",
+  "ms.assetid": "dc75ee60-7319-4a11-949e-dd0c3deabd8f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder",
+  "req.header": "shobjidl_core.h",
+  "req.include-header": "Shobjidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHCreateItemInKnownFolder",
+    "shobjidl_core/SHCreateItemInKnownFolder"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-5-0.dll",
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "Shell32.dll",
+    "Ext-MS-Win-shell-shell32-l1-2-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-1.dll",
+    "Ext-MS-Win-Shell-Shell32-L1-2-2.dll",
+    "windows.storage.dll"
+  ],
+  "api_name": [
+    "SHCreateItemInKnownFolder"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)"
+}

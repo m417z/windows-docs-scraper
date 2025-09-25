@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wlanapi._WLAN_CONNECTION_QOS_INFO",
+  "title": "WLAN_CONNECTION_QOS_INFO",
+  "description": "Contains information about the QoS features outlined by the WFA Wi-Fi QoS Management Specification pertaining to the current connection.",
+  "tech.root": "nwifi",
+  "ms.date": "03/05/2024",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wlanapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "WLAN_CONNECTION_QOS_INFO, *PWLAN_CONNECTION_QOS_INFO",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wlanapi.h"
+  ],
+  "api_name": [
+    "_WLAN_CONNECTION_QOS_INFO",
+    "PWLAN_CONNECTION_QOS_INFO",
+    "WLAN_CONNECTION_QOS_INFO"
+  ],
+  "f1_keywords": [
+    "_WLAN_CONNECTION_QOS_INFO",
+    "wlanapi/_WLAN_CONNECTION_QOS_INFO",
+    "PWLAN_CONNECTION_QOS_INFO",
+    "wlanapi/PWLAN_CONNECTION_QOS_INFO",
+    "WLAN_CONNECTION_QOS_INFO",
+    "wlanapi/WLAN_CONNECTION_QOS_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_WLAN_CONNECTION_QOS_INFO"
+  ],
+  "prerelease": true
+}

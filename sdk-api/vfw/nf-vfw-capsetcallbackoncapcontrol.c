@@ -1,0 +1,4 @@
+BOOL capSetCallbackOnCapControl(
+     hwnd,
+     fpProc
+);

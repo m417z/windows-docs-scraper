@@ -1,0 +1,7 @@
+typedef struct _HDAUDIO_DEVICE_INFORMATION {
+  USHORT  Size;
+  USHORT  DeviceVersion;
+  USHORT  DriverVersion;
+  USHORT  CodecsDetected;
+  BOOLEAN IsStripingSupported;
+} HDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION;

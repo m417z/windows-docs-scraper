@@ -1,0 +1,3 @@
+typedef struct LAMP_INTENSITY_WHITE {
+  BYTE Value;
+} LAMP_INTENSITY_WHITE;

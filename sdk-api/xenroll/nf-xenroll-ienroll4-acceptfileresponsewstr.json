@@ -1,0 +1,63 @@
+{
+  "UID": "NF:xenroll.IEnroll4.acceptFileResponseWStr",
+  "title": "IEnroll4::acceptFileResponseWStr (xenroll.h)",
+  "description": "Accepts delivery of the credentials issued in response to an earlier call to createFileRequestWStr, and it places the credentials in the appropriate store.",
+  "helpviewer_keywords": [
+    "IEnroll4 interface [Security]",
+    "acceptFileResponseWStr method",
+    "IEnroll4.acceptFileResponseWStr",
+    "IEnroll4::acceptFileResponseWStr",
+    "acceptFileResponseWStr",
+    "acceptFileResponseWStr method [Security]",
+    "acceptFileResponseWStr method [Security]",
+    "IEnroll4 interface",
+    "security.ienroll4_acceptfileresponsewstr",
+    "xenroll/IEnroll4::acceptFileResponseWStr"
+  ],
+  "old-location": "security\\ienroll4_acceptfileresponsewstr.htm",
+  "tech.root": "security",
+  "ms.assetid": "b9c92f20-5f23-4dda-9e80-df9bf400ac08",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IEnroll4 interface [Security],acceptFileResponseWStr method, IEnroll4.acceptFileResponseWStr, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr",
+  "req.header": "xenroll.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": "Xenroll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IEnroll4::acceptFileResponseWStr",
+    "xenroll/IEnroll4::acceptFileResponseWStr"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Xenroll.dll"
+  ],
+  "api_name": [
+    "IEnroll4.acceptFileResponseWStr"
+  ]
+}

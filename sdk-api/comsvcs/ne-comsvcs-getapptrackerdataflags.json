@@ -1,0 +1,69 @@
+{
+  "UID": "NE:comsvcs._GetAppTrackerDataFlags",
+  "title": "GetAppTrackerDataFlags (comsvcs.h)",
+  "description": "Controls what data is returned from calls to the IGetAppTrackerData interface.",
+  "helpviewer_keywords": [
+    "GATD_INCLUDE_APPLICATION_NAME",
+    "GATD_INCLUDE_CLASS_NAME",
+    "GATD_INCLUDE_LIBRARY_APPS",
+    "GATD_INCLUDE_PROCESS_EXE_NAME",
+    "GATD_INCLUDE_SWC",
+    "GetAppTrackerDataFlags",
+    "GetAppTrackerDataFlags enumeration [COM+]",
+    "comsvcs/GATD_INCLUDE_APPLICATION_NAME",
+    "comsvcs/GATD_INCLUDE_CLASS_NAME",
+    "comsvcs/GATD_INCLUDE_LIBRARY_APPS",
+    "comsvcs/GATD_INCLUDE_PROCESS_EXE_NAME",
+    "comsvcs/GATD_INCLUDE_SWC",
+    "comsvcs/GetAppTrackerDataFlags",
+    "cos.getapptrackerdataflags"
+  ],
+  "old-location": "cos\\getapptrackerdataflags.htm",
+  "tech.root": "cos",
+  "ms.assetid": "7af61221-e876-4b1c-b416-a92817ad7025",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GATD_INCLUDE_APPLICATION_NAME, GATD_INCLUDE_CLASS_NAME, GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_PROCESS_EXE_NAME, GATD_INCLUDE_SWC, GetAppTrackerDataFlags, GetAppTrackerDataFlags enumeration [COM+], comsvcs/GATD_INCLUDE_APPLICATION_NAME, comsvcs/GATD_INCLUDE_CLASS_NAME, comsvcs/GATD_INCLUDE_LIBRARY_APPS, comsvcs/GATD_INCLUDE_PROCESS_EXE_NAME, comsvcs/GATD_INCLUDE_SWC, comsvcs/GetAppTrackerDataFlags, cos.getapptrackerdataflags",
+  "req.header": "comsvcs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GetAppTrackerDataFlags",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_GetAppTrackerDataFlags",
+    "comsvcs/_GetAppTrackerDataFlags",
+    "GetAppTrackerDataFlags",
+    "comsvcs/GetAppTrackerDataFlags"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ComSvcs.h"
+  ],
+  "api_name": [
+    "GetAppTrackerDataFlags"
+  ]
+}

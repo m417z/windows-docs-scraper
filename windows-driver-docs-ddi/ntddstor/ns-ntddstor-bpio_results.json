@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntddstor._BPIO_RESULTS",
+  "tech.root": "storage",
+  "title": "BPIO_RESULTS",
+  "ms.date": "07/08/2021",
+  "targetos": "Windows",
+  "description": "The BPIO_RESULTS structure defines BypassIO operation-specific outputs for BPIO_OP_ENABLE and BPIO_OP_QUERY operations when a driver is failing the operation.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "BPIO_RESULTS, *PBPIO_RESULTS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_BPIO_RESULTS",
+    "PBPIO_RESULTS",
+    "BPIO_RESULTS"
+  ],
+  "f1_keywords": [
+    "_BPIO_RESULTS",
+    "ntddstor/_BPIO_RESULTS",
+    "PBPIO_RESULTS",
+    "ntddstor/PBPIO_RESULTS",
+    "BPIO_RESULTS",
+    "ntddstor/BPIO_RESULTS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

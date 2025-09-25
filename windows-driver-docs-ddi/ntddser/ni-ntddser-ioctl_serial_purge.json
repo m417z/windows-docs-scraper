@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddser.IOCTL_SERIAL_PURGE",
+  "title": "IOCTL_SERIAL_PURGE (ntddser.h)",
+  "description": "The IOCTL_SERIAL_PURGE request cancels the specified requests and deletes data from the specified buffers.",
+  "old-location": "serports\\ioctl_serial_purge.htm",
+  "tech.root": "serports",
+  "ms.date": "05/20/2022",
+  "keywords": [
+    "IOCTL_SERIAL_PURGE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SERIAL_PURGE, IOCTL_SERIAL_PURGE control, IOCTL_SERIAL_PURGE control code [Serial Ports], ntddser/IOCTL_SERIAL_PURGE, serports.ioctl_serial_purge, serref_d52cfcec-8098-4319-b601-14187a77e438.xml",
+  "req.header": "ntddser.h",
+  "req.include-header": "Ntddser.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SERIAL_PURGE",
+    "ntddser/IOCTL_SERIAL_PURGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddser.h"
+  ],
+  "api_name": [
+    "IOCTL_SERIAL_PURGE"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugEventCallbacks.ExitThread",
+  "title": "IDebugEventCallbacks::ExitThread (dbgeng.h)",
+  "description": "The ExitThread callback method is called by the engine when an exit-thread debugging event occurs in the target. This method belongs to IDebugEventCallbacks.",
+  "old-location": "debugger\\idebugeventcallbacks_exitthread.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugEventCallbacks::ExitThread"
+  ],
+  "ms.keywords": "ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, ExitThread, ExitThread method [Windows Debugging], ExitThread method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],ExitThread method, IDebugEventCallbacks.ExitThread, IDebugEventCallbacks::ExitThread, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugEventCallbacks::ExitThread",
+    "dbgeng/IDebugEventCallbacks::ExitThread"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugEventCallbacks::ExitThread"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.AVIFileWriteData",
+  "title": "AVIFileWriteData function (vfw.h)",
+  "description": "The AVIFileWriteData function writes supplementary data (other than normal header, format, and stream data) to the file.",
+  "helpviewer_keywords": [
+    "AVIFileWriteData",
+    "AVIFileWriteData function [Windows Multimedia]",
+    "_win32_AVIFileWriteData",
+    "multimedia.avifilewritedata",
+    "vfw/AVIFileWriteData"
+  ],
+  "old-location": "multimedia\\avifilewritedata.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "27eef026-e401-44a2-9b46-a16b61026d2a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AVIFileWriteData, AVIFileWriteData function [Windows Multimedia], _win32_AVIFileWriteData, multimedia.avifilewritedata, vfw/AVIFileWriteData",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVIFileWriteData",
+    "vfw/AVIFileWriteData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll"
+  ],
+  "api_name": [
+    "AVIFileWriteData"
+  ]
+}

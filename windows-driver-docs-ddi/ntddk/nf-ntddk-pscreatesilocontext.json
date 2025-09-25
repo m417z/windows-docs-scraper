@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.PsCreateSiloContext",
+  "title": "PsCreateSiloContext function (ntddk.h)",
+  "description": "This routine creates an object that will be inserted in a Silo.",
+  "tech.root": "kernel",
+  "ms.date": "04/20/2023",
+  "keywords": [
+    "PsCreateSiloContext function"
+  ],
+  "ms.keywords": "PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], kernel.pscreatesilocontext, ntddk/PsCreateSiloContext",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PsCreateSiloContext",
+    "ntddk/PsCreateSiloContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "PsCreateSiloContext"
+  ]
+}

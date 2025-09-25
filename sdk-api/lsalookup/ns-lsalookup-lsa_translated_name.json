@@ -1,0 +1,70 @@
+{
+  "UID": "NS:lsalookup._LSA_TRANSLATED_NAME",
+  "title": "LSA_TRANSLATED_NAME (lsalookup.h)",
+  "description": "Used with the LsaLookupSids function to return information about the account identified by a SID.",
+  "helpviewer_keywords": [
+    "*PLSA_TRANSLATED_NAME",
+    "LSA_TRANSLATED_NAME",
+    "LSA_TRANSLATED_NAME structure [Security]",
+    "PLSA_TRANSLATED_NAME",
+    "PLSA_TRANSLATED_NAME structure pointer [Security]",
+    "SidTypeDomain",
+    "SidTypeInvalid",
+    "SidTypeUnknown",
+    "SidTypeWellKnownGroup",
+    "_lsa_lsa_translated_name",
+    "lsalookup/LSA_TRANSLATED_NAME",
+    "lsalookup/PLSA_TRANSLATED_NAME",
+    "security.lsa_translated_name"
+  ],
+  "old-location": "security\\lsa_translated_name.htm",
+  "tech.root": "security",
+  "ms.assetid": "edea8317-5cdf-4d1e-9e6d-fcf17b91adb7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name",
+  "req.header": "lsalookup.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_LSA_TRANSLATED_NAME",
+    "lsalookup/_LSA_TRANSLATED_NAME",
+    "PLSA_TRANSLATED_NAME",
+    "lsalookup/PLSA_TRANSLATED_NAME",
+    "LSA_TRANSLATED_NAME",
+    "lsalookup/LSA_TRANSLATED_NAME"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "LsaLookup.h"
+  ],
+  "api_name": [
+    "LSA_TRANSLATED_NAME"
+  ]
+}

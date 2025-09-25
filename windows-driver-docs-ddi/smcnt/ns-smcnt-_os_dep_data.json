@@ -1,0 +1,54 @@
+{
+  "UID": "NS:smcnt._OS_DEP_DATA",
+  "title": "_OS_DEP_DATA (smcnt.h)",
+  "description": "The OS_DEP_DATA structure defines the data that is stored in the OsData member of the SMARTCARD_EXTENSION structure, which holds smart card information that is specific to the operating system.",
+  "old-location": "smartcrd\\os_dep_data__wdm_.htm",
+  "tech.root": "smartcrd",
+  "ms.date": "02/22/2018",
+  "keywords": [
+    "OS_DEP_DATA structure"
+  ],
+  "ms.keywords": "*POS_DEP_DATA, OS_DEP_DATA, OS_DEP_DATA (WDM), OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], OS_DEP_DATA structure [Smart Card Reader Devices], POS_DEP_DATA, POS_DEP_DATA structure pointer [Smart Card Reader Devices], _OS_DEP_DATA, scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smartcrd.os_dep_data__wdm_, smcnt/OS_DEP_DATA, smcnt/POS_DEP_DATA",
+  "req.header": "smcnt.h",
+  "req.include-header": "Smcnt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OS_DEP_DATA, *POS_DEP_DATA",
+  "f1_keywords": [
+    "_OS_DEP_DATA",
+    "smcnt/_OS_DEP_DATA",
+    "POS_DEP_DATA",
+    "smcnt/POS_DEP_DATA",
+    "OS_DEP_DATA",
+    "smcnt/OS_DEP_DATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "smcnt.h"
+  ],
+  "api_name": [
+    "_OS_DEP_DATA",
+    "POS_DEP_DATA",
+    "OS_DEP_DATA"
+  ]
+}

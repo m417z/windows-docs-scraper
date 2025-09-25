@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdfdevice._WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+  "title": "_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE (wdfdevice.h)",
+  "description": "The WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration specifies when the framework calls a driver's EvtDeviceReleaseHardware callback function.",
+  "old-location": "wdf\\wdf_release_hardware_order_on_failure.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration"
+  ],
+  "ms.keywords": "*PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration pointer, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration, WdfReleaseHardwareOrderOnFailureAfterDescendants, WdfReleaseHardwareOrderOnFailureEarly, WdfReleaseHardwareOrderOnFailureInvalid, _WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, kmdf.wdf_release_hardware_order_on_failure, wdf.wdf_release_hardware_order_on_failure, wdfdevice/PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WdfReleaseHardwareOrderOnFailureAfterDescendants, wdfdevice/WdfReleaseHardwareOrderOnFailureEarly, wdfdevice/WdfReleaseHardwareOrderOnFailureInvalid",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+  "f1_keywords": [
+    "_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+    "wdfdevice/_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+    "PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+    "wdfdevice/PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+    "WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+    "wdfdevice/WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfdevice.h"
+  ],
+  "api_name": [
+    "_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+    "PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE",
+    "WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE"
+  ]
+}

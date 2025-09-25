@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTQueryClockCalibration(
+  D3DKMT_QUERYCLOCKCALIBRATION *unnamedParam1
+);

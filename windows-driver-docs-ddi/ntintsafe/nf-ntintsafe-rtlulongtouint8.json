@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntintsafe.RtlULongToUInt8",
+  "title": "RtlULongToUInt8 function (ntintsafe.h)",
+  "description": "Learn how this function converts a value of type ULONG_PTR to a value of type UINT8.",
+  "old-location": "kernel\\rtlulongtouint8.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlULongToUInt8 function"
+  ],
+  "ms.keywords": "RtlULongToUInt8, RtlULongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongtouint8, ntintsafe/RtlULongToUInt8",
+  "req.header": "ntintsafe.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlULongToUInt8",
+    "ntintsafe/RtlULongToUInt8"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntintsafe.h"
+  ],
+  "api_name": [
+    "RtlULongToUInt8"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pmi._PMI_EVENT",
+  "title": "_PMI_EVENT (pmi.h)",
+  "description": "The PMI_EVENT structure contains information about a power metering and budgeting event that is signaled through the Power Meter Interface (PMI).",
+  "old-location": "powermeter\\pmi_event.htm",
+  "tech.root": "powermeter",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PMI_EVENT structure"
+  ],
+  "ms.keywords": "*PPMI_EVENT, PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, _PMI_EVENT, pmi/PMI_EVENT, pmi/PPMI_EVENT, powermeter.pmi_event",
+  "req.header": "pmi.h",
+  "req.include-header": "Pmi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PMI_EVENT, *PPMI_EVENT",
+  "f1_keywords": [
+    "_PMI_EVENT",
+    "pmi/_PMI_EVENT",
+    "PPMI_EVENT",
+    "pmi/PPMI_EVENT",
+    "PMI_EVENT",
+    "pmi/PMI_EVENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pmi.h"
+  ],
+  "api_name": [
+    "_PMI_EVENT",
+    "PPMI_EVENT",
+    "PMI_EVENT"
+  ]
+}

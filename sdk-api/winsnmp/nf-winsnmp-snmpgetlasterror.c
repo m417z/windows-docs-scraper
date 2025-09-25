@@ -1,0 +1,3 @@
+SNMPAPI_STATUS SNMPAPI_CALL SnmpGetLastError(
+  [in] HSNMP_SESSION session
+);

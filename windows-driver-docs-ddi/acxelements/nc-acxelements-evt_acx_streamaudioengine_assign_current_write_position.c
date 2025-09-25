@@ -1,0 +1,7 @@
+EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION EvtAcxStreamaudioengineAssignCurrentWritePosition;
+
+NTSTATUS EvtAcxStreamaudioengineAssignCurrentWritePosition(
+  ACXSTREAMAUDIOENGINE StreamAudioEngine,
+  ULONG Position
+)
+{...}

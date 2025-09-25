@@ -1,0 +1,57 @@
+{
+  "UID": "NF:rpcnsi.RpcNsBindingUnexportPnPA",
+  "title": "RpcNsBindingUnexportPnPA function (rpcnsi.h)",
+  "description": "The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database. (ANSI)",
+  "helpviewer_keywords": [
+    "RpcNsBindingUnexportPnPA",
+    "rpcnsi/RpcNsBindingUnexportPnPA"
+  ],
+  "old-location": "rpc\\rpcnsbindingunexportpnp.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "b19d9c18-b2fa-45da-b55f-583483c4d540",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW",
+  "req.header": "rpcnsi.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RpcNsBindingUnexportPnPW (Unicode) and RpcNsBindingUnexportPnPA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcns4.lib",
+  "req.dll": "Rpcns4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RpcNsBindingUnexportPnPA",
+    "rpcnsi/RpcNsBindingUnexportPnPA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcns4.dll"
+  ],
+  "api_name": [
+    "RpcNsBindingUnexportPnP",
+    "RpcNsBindingUnexportPnPA",
+    "RpcNsBindingUnexportPnPW"
+  ]
+}

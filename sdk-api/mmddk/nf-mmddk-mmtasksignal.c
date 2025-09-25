@@ -1,0 +1,3 @@
+BOOL mmTaskSignal(
+  DWORD h
+);

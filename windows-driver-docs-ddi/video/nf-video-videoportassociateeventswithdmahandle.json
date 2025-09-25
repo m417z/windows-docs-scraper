@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortAssociateEventsWithDmaHandle",
+  "title": "VideoPortAssociateEventsWithDmaHandle function (video.h)",
+  "description": "The VideoPortAssociateEventsWithDmaHandle function is obsolete in Windows 2000 and later.VideoPortAssociateEventsWithDmaHandle associates an event, which is shared by the video display driver and the video miniport driver, with a DMA handle.",
+  "old-location": "display\\videoportassociateeventswithdmahandle.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortAssociateEventsWithDmaHandle function"
+  ],
+  "ms.keywords": "VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, display.videoportassociateeventswithdmahandle, video/VideoPortAssociateEventsWithDmaHandle",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortAssociateEventsWithDmaHandle",
+    "video/VideoPortAssociateEventsWithDmaHandle"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortAssociateEventsWithDmaHandle"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wdm.ObReferenceObjectSafe",
+  "title": "ObReferenceObjectSafe function (wdm.h)",
+  "description": "The ObReferenceObjectSafe function increments the reference count for an object and determines if it is safe to use the object. It returns FALSE if the object is being deleted or TRUE if it's safe to use the object further.",
+  "tech.root": "kernel",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "ObReferenceObjectSafe function"
+  ],
+  "ms.keywords": "ObReferenceObjectSafe",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "ObReferenceObjectSafe",
+    "wdm/ObReferenceObjectSafe"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ObReferenceObjectSafe"
+  ]
+}

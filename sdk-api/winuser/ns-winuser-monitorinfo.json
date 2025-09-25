@@ -1,0 +1,67 @@
+{
+  "UID": "NS:winuser.tagMONITORINFO",
+  "title": "MONITORINFO (winuser.h)",
+  "description": "The MONITORINFO structure contains information about a display monitor.The GetMonitorInfo function stores information in a MONITORINFO structure or a MONITORINFOEX structure.The MONITORINFO structure is a subset of the MONITORINFOEX structure.",
+  "helpviewer_keywords": [
+    "*LPMONITORINFO",
+    "LPMONITORINFO",
+    "LPMONITORINFO structure pointer [Windows GDI]",
+    "MONITORINFO",
+    "MONITORINFO structure [Windows GDI]",
+    "_win32_MONITORINFO_str",
+    "gdi.monitorinfo",
+    "tagMONITORINFO",
+    "winuser/LPMONITORINFO",
+    "winuser/MONITORINFO"
+  ],
+  "old-location": "gdi\\monitorinfo.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "ca8ec86f-69ba-4cf8-a867-67182a3d630d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPMONITORINFO, LPMONITORINFO, LPMONITORINFO structure pointer [Windows GDI], MONITORINFO, MONITORINFO structure [Windows GDI], _win32_MONITORINFO_str, gdi.monitorinfo, tagMONITORINFO, winuser/LPMONITORINFO, winuser/MONITORINFO",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MONITORINFO, *LPMONITORINFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagMONITORINFO",
+    "winuser/tagMONITORINFO",
+    "LPMONITORINFO",
+    "winuser/LPMONITORINFO",
+    "MONITORINFO",
+    "winuser/MONITORINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winuser.h"
+  ],
+  "api_name": [
+    "MONITORINFO"
+  ]
+}

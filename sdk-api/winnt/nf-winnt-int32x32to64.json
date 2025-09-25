@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winnt.Int32x32To64",
+  "title": "Int32x32To64 macro (winnt.h)",
+  "description": "Multiplies two signed 32-bit integers, returning a signed 64-bit integer result.",
+  "helpviewer_keywords": [
+    "Int32x32To64",
+    "Int32x32To64 macro [Windows API]",
+    "_win32_int32x32to64",
+    "winnt/Int32x32To64",
+    "winprog.int32x32to64"
+  ],
+  "old-location": "winprog\\int32x32to64.htm",
+  "tech.root": "WinProg",
+  "ms.assetid": "5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "Int32x32To64, Int32x32To64 macro [Windows API], _win32_int32x32to64, winnt/Int32x32To64, winprog.int32x32to64",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Int32x32To64",
+    "winnt/Int32x32To64"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winnt.h"
+  ],
+  "api_name": [
+    "Int32x32To64"
+  ]
+}

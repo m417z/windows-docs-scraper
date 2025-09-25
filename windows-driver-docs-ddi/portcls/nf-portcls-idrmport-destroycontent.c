@@ -1,0 +1,3 @@
+NTSTATUS DestroyContent(
+  ULONG ContentId
+);

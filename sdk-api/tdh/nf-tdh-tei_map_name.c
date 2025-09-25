@@ -1,0 +1,4 @@
+TDH_INLINE PWSTR TEI_MAP_NAME(
+  [in] PTRACE_EVENT_INFO    EventInfo,
+  [in] PEVENT_PROPERTY_INFO Property
+);

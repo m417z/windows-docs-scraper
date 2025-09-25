@@ -1,0 +1,3 @@
+typedef struct _DOT11_MAC_ADDRESS {
+  UCHAR ucDot11MacAddress[6];
+} DOT11_MAC_ADDRESS, *PDOT11_MAC_ADDRESS;

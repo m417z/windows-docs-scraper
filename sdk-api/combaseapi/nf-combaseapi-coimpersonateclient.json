@@ -1,0 +1,65 @@
+{
+  "UID": "NF:combaseapi.CoImpersonateClient",
+  "title": "CoImpersonateClient function (combaseapi.h)",
+  "description": "Enables the server to impersonate the client of the current call for the duration of the call.",
+  "helpviewer_keywords": [
+    "CoImpersonateClient",
+    "CoImpersonateClient function [COM]",
+    "_com_CoImpersonateClient",
+    "com.coimpersonateclient",
+    "combaseapi/CoImpersonateClient"
+  ],
+  "old-location": "com\\coimpersonateclient.htm",
+  "tech.root": "com",
+  "ms.assetid": "a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient",
+  "req.header": "combaseapi.h",
+  "req.include-header": "Objbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CoImpersonateClient",
+    "combaseapi/CoImpersonateClient"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-com-l1-1-3.dll",
+    "api-ms-win-core-com-l1-1-2.dll",
+    "Ole32.dll",
+    "API-MS-Win-Core-Com-l1-1-0.dll",
+    "ComBase.dll",
+    "API-MS-Win-Core-Com-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Ole32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-Ole32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CoImpersonateClient"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMStreamConfig.GetBufferWindow",
+  "title": "IWMStreamConfig::GetBufferWindow (wmsdkidl.h)",
+  "description": "The GetBufferWindow method retrieves the maximum latency between when a stream is received and when it begins to be displayed.",
+  "helpviewer_keywords": [
+    "GetBufferWindow",
+    "GetBufferWindow method [windows Media Format]",
+    "GetBufferWindow method [windows Media Format]",
+    "IWMStreamConfig interface",
+    "IWMStreamConfig interface [windows Media Format]",
+    "GetBufferWindow method",
+    "IWMStreamConfig.GetBufferWindow",
+    "IWMStreamConfig::GetBufferWindow",
+    "IWMStreamConfigGetBufferWindow",
+    "wmformat.iwmstreamconfig_getbufferwindow",
+    "wmsdkidl/IWMStreamConfig::GetBufferWindow"
+  ],
+  "old-location": "wmformat\\iwmstreamconfig_getbufferwindow.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "7a78cd61-e7ae-42e2-9d64-f3344fefc59d",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetBufferWindow, GetBufferWindow method [windows Media Format], GetBufferWindow method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBufferWindow method, IWMStreamConfig.GetBufferWindow, IWMStreamConfig::GetBufferWindow, IWMStreamConfigGetBufferWindow, wmformat.iwmstreamconfig_getbufferwindow, wmsdkidl/IWMStreamConfig::GetBufferWindow",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMStreamConfig::GetBufferWindow",
+    "wmsdkidl/IWMStreamConfig::GetBufferWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMStreamConfig.GetBufferWindow"
+  ]
+}

@@ -1,0 +1,23 @@
+typedef struct _MSiSCSI_MMIPSECStats {
+  ULONGLONG ActiveAcquire;
+  ULONGLONG ActiveReceive;
+  ULONGLONG AcquireFailures;
+  ULONGLONG ReceiveFailures;
+  ULONGLONG SendFailures;
+  ULONGLONG AcquireHeapSize;
+  ULONGLONG ReceiveHeapSize;
+  ULONGLONG NegotiationFailures;
+  ULONGLONG AuthenticationFailures;
+  ULONGLONG InvalidCookiesReceived;
+  ULONGLONG TotalGetSPI;
+  ULONGLONG KeyAdditions;
+  ULONGLONG KeyUpdates;
+  ULONGLONG GetSPIFailures;
+  ULONGLONG KeyAdditionFailures;
+  ULONGLONG KeyUpdateFailures;
+  ULONGLONG ConnectionListSize;
+  ULONGLONG OakleyMainMode;
+  ULONGLONG OakleyQuickMode;
+  ULONGLONG InvalidPackets;
+  ULONGLONG SoftAssociations;
+} MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats;

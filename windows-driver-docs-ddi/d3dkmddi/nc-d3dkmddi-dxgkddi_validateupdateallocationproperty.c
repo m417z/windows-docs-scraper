@@ -1,0 +1,7 @@
+DXGKDDI_VALIDATEUPDATEALLOCATIONPROPERTY DxgkddiValidateupdateallocationproperty;
+
+NTSTATUS DxgkddiValidateupdateallocationproperty(
+  IN_CONST_HANDLE hAdapter,
+  IN_CONST_PDXGKARG_VALIDATEUPDATEALLOCPROPERTY pValidateUpdateAllocProperty
+)
+{...}

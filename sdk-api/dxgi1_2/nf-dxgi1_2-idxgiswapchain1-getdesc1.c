@@ -1,0 +1,3 @@
+HRESULT GetDesc1(
+  [out] DXGI_SWAP_CHAIN_DESC1 *pDesc
+);

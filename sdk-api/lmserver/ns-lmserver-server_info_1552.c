@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1552 {
+  DWORD sv1552_maxlinkdelay;
+} SERVER_INFO_1552, *PSERVER_INFO_1552, *LPSERVER_INFO_1552;

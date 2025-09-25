@@ -1,0 +1,3 @@
+VOID GetTebAddress(
+  PULONGLONG Address
+);

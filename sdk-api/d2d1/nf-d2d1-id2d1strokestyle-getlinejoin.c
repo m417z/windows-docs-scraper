@@ -1,0 +1,1 @@
+D2D1_LINE_JOIN GetLineJoin();

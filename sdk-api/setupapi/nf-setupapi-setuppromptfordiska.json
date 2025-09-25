@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupPromptForDiskA",
+  "title": "SetupPromptForDiskA function (setupapi.h)",
+  "description": "The SetupPromptForDisk function displays a dialog box that prompts the user for a disk. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupPromptForDiskA",
+    "setupapi/SetupPromptForDiskA"
+  ],
+  "old-location": "setup\\setuppromptfordisk.htm",
+  "tech.root": "setup",
+  "ms.assetid": "65ccd3d1-1846-48cb-9fe6-ab5c69845e01",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupPromptForDiskA, SetupPromptForDiskW, _setupapi_setuppromptfordisk, setup.setuppromptfordisk, setupapi/SetupPromptForDisk, setupapi/SetupPromptForDiskA, setupapi/SetupPromptForDiskW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupPromptForDiskW (Unicode) and SetupPromptForDiskA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupPromptForDiskA",
+    "setupapi/SetupPromptForDiskA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupPromptForDisk",
+    "SetupPromptForDiskA",
+    "SetupPromptForDiskW"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:evntprov.EventWriteEx",
+  "title": "EventWriteEx function (evntprov.h)",
+  "description": "Writes an ETW event with an activity ID, an optional related activity ID, session filters, and special options.",
+  "helpviewer_keywords": [
+    "EventWriteEx",
+    "EventWriteEx function [ETW]",
+    "etw.eventwriteex",
+    "evntprov/EventWriteEx"
+  ],
+  "old-location": "etw\\eventwriteex.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "00b907cb-45cd-48c7-bea4-4d8a39b4fa24",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntprov/EventWriteEx",
+  "req.header": "evntprov.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EventWriteEx",
+    "evntprov/EventWriteEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-advapi32-l1-1-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "KernelBase.dll",
+    "API-MS-Win-eventing-provider-l1-1-0.dll",
+    "API-MS-Win-Eventing-Provider-L1-1-1.dll"
+  ],
+  "api_name": [
+    "EventWriteEx"
+  ]
+}

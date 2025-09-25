@@ -1,0 +1,20 @@
+typedef struct _VDS_HINTS {
+  ULONGLONG ullHintMask;
+  ULONGLONG ullExpectedMaximumSize;
+  ULONG     ulOptimalReadSize;
+  ULONG     ulOptimalReadAlignment;
+  ULONG     ulOptimalWriteSize;
+  ULONG     ulOptimalWriteAlignment;
+  ULONG     ulMaximumDriveCount;
+  ULONG     ulStripeSize;
+  BOOL      bFastCrashRecoveryRequired;
+  BOOL      bMostlyReads;
+  BOOL      bOptimizeForSequentialReads;
+  BOOL      bOptimizeForSequentialWrites;
+  BOOL      bRemapEnabled;
+  BOOL      bReadBackVerifyEnabled;
+  BOOL      bWriteThroughCachingEnabled;
+  BOOL      bHardwareChecksumEnabled;
+  BOOL      bIsYankable;
+  SHORT     sRebuildPriority;
+} VDS_HINTS, *PVDS_HINTS;

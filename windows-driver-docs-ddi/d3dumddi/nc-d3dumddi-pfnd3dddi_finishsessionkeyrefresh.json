@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_FINISHSESSIONKEYREFRESH",
+  "title": "PFND3DDDI_FINISHSESSIONKEYREFRESH (d3dumddi.h)",
+  "description": "The FinishSessionKeyRefresh function indicates that all buffers from that point in time use the updated session key value.",
+  "old-location": "display\\finishsessionkeyrefresh.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_FINISHSESSIONKEYREFRESH callback function"
+  ],
+  "ms.keywords": "FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, PFND3DDDI_FINISHSESSIONKEYREFRESH callback, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "The FinishSessionKeyRefresh function is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_FINISHSESSIONKEYREFRESH",
+    "d3dumddi/PFND3DDDI_FINISHSESSIONKEYREFRESH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_FINISHSESSIONKEYREFRESH"
+  ]
+}

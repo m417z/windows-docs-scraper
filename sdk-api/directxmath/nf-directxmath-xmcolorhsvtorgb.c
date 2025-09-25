@@ -1,0 +1,3 @@
+XMVECTOR XM_CALLCONV XMColorHSVToRGB(
+  [in] FXMVECTOR hsv
+) noexcept;

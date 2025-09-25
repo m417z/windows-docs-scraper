@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._WAIT_CONTEXT_BLOCK",
+  "title": "_WAIT_CONTEXT_BLOCK (wdm.h)",
+  "description": "Reserved for WAIT_CONTEXT_BLOCK. Do not use.",
+  "ms.date": "10/19/2018",
+  "tech.root": "kernel",
+  "keywords": [
+    "WAIT_CONTEXT_BLOCK structure"
+  ],
+  "ms.keywords": "_WAIT_CONTEXT_BLOCK, WAIT_CONTEXT_BLOCK, *PWAIT_CONTEXT_BLOCK,",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "WAIT_CONTEXT_BLOCK, *PWAIT_CONTEXT_BLOCK",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_WAIT_CONTEXT_BLOCK",
+    "wdm/_WAIT_CONTEXT_BLOCK",
+    "PWAIT_CONTEXT_BLOCK",
+    "wdm/PWAIT_CONTEXT_BLOCK",
+    "WAIT_CONTEXT_BLOCK",
+    "wdm/WAIT_CONTEXT_BLOCK"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_WAIT_CONTEXT_BLOCK",
+    "PWAIT_CONTEXT_BLOCK",
+    "WAIT_CONTEXT_BLOCK"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._KTMOBJECT_CURSOR",
+  "title": "_KTMOBJECT_CURSOR (wdm.h)",
+  "description": "The KTMOBJECT_CURSOR structure receives enumeration information about KTM objects when a component calls ZwEnumerateTransactionObject.",
+  "old-location": "kernel\\ktmobject_cursor.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KTMOBJECT_CURSOR structure"
+  ],
+  "ms.keywords": "*PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], _KTMOBJECT_CURSOR, kernel.ktmobject_cursor, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/KTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR",
+  "f1_keywords": [
+    "_KTMOBJECT_CURSOR",
+    "wdm/_KTMOBJECT_CURSOR",
+    "PKTMOBJECT_CURSOR",
+    "wdm/PKTMOBJECT_CURSOR",
+    "KTMOBJECT_CURSOR",
+    "wdm/KTMOBJECT_CURSOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_KTMOBJECT_CURSOR",
+    "PKTMOBJECT_CURSOR",
+    "KTMOBJECT_CURSOR"
+  ]
+}

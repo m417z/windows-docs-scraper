@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storduid.CompareStorageDuids",
+  "title": "CompareStorageDuids function (storduid.h)",
+  "description": "The CompareStorageDuids routine compares two device unique identifiers (DUIDs) and reports whether they match or not.",
+  "old-location": "storage\\comparestorageduids.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "CompareStorageDuids function"
+  ],
+  "ms.keywords": "CompareStorageDuids, CompareStorageDuids routine [Storage Devices], storage.comparestorageduids, storduid/CompareStorageDuids, storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml",
+  "req.header": "storduid.h",
+  "req.include-header": "Storduid.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "CompareStorageDuids",
+    "storduid/CompareStorageDuids"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storduid.h"
+  ],
+  "api_name": [
+    "CompareStorageDuids"
+  ]
+}

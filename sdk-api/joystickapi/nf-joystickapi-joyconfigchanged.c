@@ -1,0 +1,3 @@
+MMRESULT joyConfigChanged(
+  DWORD dwFlags
+);

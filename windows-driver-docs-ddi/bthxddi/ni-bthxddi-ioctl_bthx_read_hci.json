@@ -1,0 +1,48 @@
+{
+  "UID": "NI:bthxddi.IOCTL_BTHX_READ_HCI",
+  "title": "IOCTL_BTHX_READ_HCI (bthxddi.h)",
+  "description": "IOCTL_BTHX_READ_HCI is used to read Bluetooth ACL Data and Events from the transport layer.",
+  "old-location": "bltooth\\ioctl_bthx_hci_read.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "IOCTL_BTHX_READ_HCI IOCTL"
+  ],
+  "ms.keywords": "IOCTL_BTHX_READ_HCI, IOCTL_BTHX_READ_HCI control, IOCTL_BTHX_READ_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_read, bltooth.ioctl_bthx_read_hci, bthxddi/IOCTL_BTHX_READ_HCI",
+  "req.header": "bthxddi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with  Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_BTHX_READ_HCI",
+    "bthxddi/IOCTL_BTHX_READ_HCI"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "BthXDDI.h"
+  ],
+  "api_name": [
+    "IOCTL_BTHX_READ_HCI"
+  ]
+}

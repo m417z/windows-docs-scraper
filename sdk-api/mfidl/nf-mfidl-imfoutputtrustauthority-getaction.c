@@ -1,0 +1,3 @@
+HRESULT GetAction(
+  [out] MFPOLICYMANAGER_ACTION *pAction
+);

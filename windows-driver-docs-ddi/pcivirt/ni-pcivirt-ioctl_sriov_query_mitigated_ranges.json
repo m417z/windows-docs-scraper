@@ -1,0 +1,48 @@
+{
+  "UID": "NI:pcivirt.IOCTL_SRIOV_QUERY_MITIGATED_RANGES",
+  "title": "IOCTL_SRIOV_QUERY_MITIGATED_RANGES (pcivirt.h)",
+  "description": "The request determines the specific ranges on which intercepts must be placed.",
+  "old-location": "pci\\ioctl-sriov-query-mitigated-ranges.htm",
+  "tech.root": "PCI",
+  "ms.date": "08/01/2025",
+  "keywords": [
+    "IOCTL_SRIOV_QUERY_MITIGATED_RANGES IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SRIOV_QUERY_MITIGATED_RANGES, IOCTL_SRIOV_QUERY_MITIGATED_RANGES control code [Buses], PCI.ioctl-sriov-query-mitigated-ranges, pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGES",
+  "req.header": "pcivirt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "SRIOV_PF_EVENT, *PSRIOV_PF_EVENT",
+  "f1_keywords": [
+    "IOCTL_SRIOV_QUERY_MITIGATED_RANGES",
+    "pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Pcivirt.h"
+  ],
+  "api_name": [
+    "IOCTL_SRIOV_QUERY_MITIGATED_RANGES"
+  ]
+}

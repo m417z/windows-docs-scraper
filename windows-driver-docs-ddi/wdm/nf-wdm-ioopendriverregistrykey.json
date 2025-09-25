@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wdm.IoOpenDriverRegistryKey",
+  "title": "IoOpenDriverRegistryKey function (wdm.h)",
+  "description": "Reserved for the IoOpenDriverRegistryKey function.",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "IoOpenDriverRegistryKey function"
+  ],
+  "tech.root": "kernel",
+  "ms.keywords": "IoOpenDriverRegistryKey",
+  "req.header": "wdm.h",
+  "req.include-header": "wdm.h, ntddk.h, or ntifs.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IoOpenDriverRegistryKey",
+    "wdm/IoOpenDriverRegistryKey"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoOpenDriverRegistryKey"
+  ]
+}

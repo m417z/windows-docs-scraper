@@ -1,0 +1,4 @@
+typedef struct _CMC_TAGGED_CONTENT_INFO {
+  DWORD          dwBodyPartID;
+  CRYPT_DER_BLOB EncodedContentInfo;
+} CMC_TAGGED_CONTENT_INFO, *PCMC_TAGGED_CONTENT_INFO;

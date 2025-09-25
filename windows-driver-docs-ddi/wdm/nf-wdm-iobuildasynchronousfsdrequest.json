@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.IoBuildAsynchronousFsdRequest",
+  "title": "IoBuildAsynchronousFsdRequest function (wdm.h)",
+  "description": "The IoBuildAsynchronousFsdRequest routine allocates and sets up an IRP to be sent to lower-level drivers.",
+  "tech.root": "kernel",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "IoBuildAsynchronousFsdRequest function"
+  ],
+  "ms.keywords": "IoBuildAsynchronousFsdRequest, IoBuildAsynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_bbefd6f7-02b9-497d-9d9e-aef507436cd4.xml, kernel.iobuildasynchronousfsdrequest, wdm/IoBuildAsynchronousFsdRequest",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "ForwardedAtBadIrqlFsdAsync, IoBuildFsdComplete, IoBuildFsdForward, IoBuildFsdFree, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoBuildAsynchronousFsdRequest",
+    "wdm/IoBuildAsynchronousFsdRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoBuildAsynchronousFsdRequest"
+  ]
+}

@@ -1,0 +1,9 @@
+typedef enum RESDLL_CONTEXT_OPERATION_TYPE {
+  ResdllContextOperationTypeFailback,
+  ResdllContextOperationTypeDrain,
+  ResdllContextOperationTypeDrainFailure,
+  ResdllContextOperationTypeEmbeddedFailure,
+  ResdllContextOperationTypePreemption,
+  ResdllContextOperationTypeNetworkDisconnect,
+  ResdllContextOperationTypeNetworkDisconnectMoveRetry
+}  *PRESDLL_CONTEXT_OPERATION_TYPE;

@@ -1,0 +1,6 @@
+typedef struct _BIDI_RESPONSE_DATA {
+  DWORD     dwResult;
+  DWORD     dwReqNumber;
+  LPWSTR    pSchema;
+  BIDI_DATA data;
+} BIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA;

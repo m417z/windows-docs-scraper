@@ -1,0 +1,4 @@
+typedef struct _IDE_MINIPORT_RESOURCES {
+  ULONG             NumberOfAccessRanges;
+  PIDE_ACCESS_RANGE IdeAccessRange;
+} IDE_MINIPORT_RESOURCES, *PIDE_MINIPORT_RESOURCES;

@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntddstor._STORAGE_CRYPTO_CAPABILITY_V2",
+  "tech.root": "storage",
+  "title": "STORAGE_CRYPTO_CAPABILITY_V2",
+  "ms.date": "03/15/2024",
+  "targetos": "Windows",
+  "description": "Microsoft reserves the STORAGE_CRYPTO_CAPABILITY_V2 structure for internal use only. Don't use this structure in your code.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STORAGE_CRYPTO_CAPABILITY_V2, *PSTORAGE_CRYPTO_CAPABILITY_V2",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_STORAGE_CRYPTO_CAPABILITY_V2",
+    "PSTORAGE_CRYPTO_CAPABILITY_V2",
+    "STORAGE_CRYPTO_CAPABILITY_V2"
+  ],
+  "f1_keywords": [
+    "_STORAGE_CRYPTO_CAPABILITY_V2",
+    "ntddstor/_STORAGE_CRYPTO_CAPABILITY_V2",
+    "PSTORAGE_CRYPTO_CAPABILITY_V2",
+    "ntddstor/PSTORAGE_CRYPTO_CAPABILITY_V2",
+    "STORAGE_CRYPTO_CAPABILITY_V2",
+    "ntddstor/STORAGE_CRYPTO_CAPABILITY_V2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_STORAGE_CRYPTO_CAPABILITY_V2"
+  ]
+}

@@ -1,0 +1,23 @@
+typedef struct _VIDEO_HW_INITIALIZATION_DATA {
+  ULONG                          HwInitDataSize;
+  INTERFACE_TYPE                 AdapterInterfaceType;
+  PVIDEO_HW_FIND_ADAPTER         HwFindAdapter;
+  PVIDEO_HW_INITIALIZE           HwInitialize;
+  PVIDEO_HW_INTERRUPT            HwInterrupt;
+  PVIDEO_HW_START_IO             HwStartIO;
+  ULONG                          HwDeviceExtensionSize;
+  ULONG                          StartingDeviceNumber;
+  PVIDEO_HW_RESET_HW             HwResetHw;
+  PVIDEO_HW_TIMER                HwTimer;
+  PVIDEO_HW_START_DMA            HwStartDma;
+  PVIDEO_HW_POWER_SET            HwSetPowerState;
+  PVIDEO_HW_POWER_GET            HwGetPowerState;
+  PVIDEO_HW_GET_CHILD_DESCRIPTOR HwGetVideoChildDescriptor;
+  PVIDEO_HW_QUERY_INTERFACE      HwQueryInterface;
+  ULONG                          HwChildDeviceExtensionSize;
+  PVIDEO_ACCESS_RANGE            HwLegacyResourceList;
+  ULONG                          HwLegacyResourceCount;
+  PVIDEO_HW_LEGACYRESOURCES      HwGetLegacyResources;
+  BOOLEAN                        AllowEarlyEnumeration;
+  ULONG                          Reserved;
+} VIDEO_HW_INITIALIZATION_DATA, *PVIDEO_HW_INITIALIZATION_DATA;

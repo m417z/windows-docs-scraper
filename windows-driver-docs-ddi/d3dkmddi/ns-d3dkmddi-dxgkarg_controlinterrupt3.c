@@ -1,0 +1,8 @@
+typedef struct _DXGKARG_CONTROLINTERRUPT3 {
+  DXGK_INTERRUPT_TYPE            InterruptType;
+  union {
+    DXGK_INTERRUPT_STATE  InterruptState;
+    DXGK_CRTC_VSYNC_STATE CrtcVsyncState;
+  };
+  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
+} DXGKARG_CONTROLINTERRUPT3;

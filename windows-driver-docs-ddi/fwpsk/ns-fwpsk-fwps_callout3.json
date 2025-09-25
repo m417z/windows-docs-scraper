@@ -1,0 +1,50 @@
+{
+  "UID": "NS:fwpsk.FWPS_CALLOUT3_",
+  "tech.root": "netvista",
+  "title": "FWPS_CALLOUT3",
+  "ms.date": "07/12/2024",
+  "targetos": "Windows",
+  "description": "The FWPS_CALLOUT3 structure defines the data that is required for a callout driver to register a callout with the filter engine.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fwpsk.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.typenames": "FWPS_CALLOUT3",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fwpsk.h"
+  ],
+  "api_name": [
+    "FWPS_CALLOUT3_",
+    "FWPS_CALLOUT3"
+  ],
+  "f1_keywords": [
+    "FWPS_CALLOUT3_",
+    "fwpsk/FWPS_CALLOUT3_",
+    "FWPS_CALLOUT3",
+    "fwpsk/FWPS_CALLOUT3"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FWPS_CALLOUT3_"
+  ]
+}

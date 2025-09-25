@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortAllocateCommonBuffer",
+  "title": "VideoPortAllocateCommonBuffer function (video.h)",
+  "description": "The VideoPortAllocateCommonBuffer function allocates and maps system memory so that it is simultaneously accessible from both the processor and a device for common-buffer DMA operations.",
+  "old-location": "display\\videoportallocatecommonbuffer.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortAllocateCommonBuffer function"
+  ],
+  "ms.keywords": "VideoPortAllocateCommonBuffer, VideoPortAllocateCommonBuffer function [Display Devices], VideoPort_Functions_bd747ea0-7963-4008-a91c-eb5598fc6bdd.xml, display.videoportallocatecommonbuffer, video/VideoPortAllocateCommonBuffer",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortAllocateCommonBuffer",
+    "video/VideoPortAllocateCommonBuffer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortAllocateCommonBuffer"
+  ]
+}

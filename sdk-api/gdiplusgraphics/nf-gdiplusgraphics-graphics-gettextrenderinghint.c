@@ -1,0 +1,1 @@
+TextRenderingHint GetTextRenderingHint();

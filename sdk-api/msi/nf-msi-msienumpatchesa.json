@@ -1,0 +1,57 @@
+{
+  "UID": "NF:msi.MsiEnumPatchesA",
+  "title": "MsiEnumPatchesA function (msi.h)",
+  "description": "The MsiEnumPatches function enumerates all of the patches that have been applied to a product. (ANSI)",
+  "helpviewer_keywords": [
+    "MsiEnumPatchesA",
+    "msi/MsiEnumPatchesA"
+  ],
+  "old-location": "setup\\msienumpatches.htm",
+  "tech.root": "setup",
+  "ms.assetid": "8f15accf-1ff5-4aa3-8a8e-be0e339360d2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiEnumPatches, MsiEnumPatches function, MsiEnumPatchesA, MsiEnumPatchesW, _msi_msienumpatches, msi/MsiEnumPatches, msi/MsiEnumPatchesA, msi/MsiEnumPatchesW, setup.msienumpatches",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiEnumPatchesW (Unicode) and MsiEnumPatchesA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiEnumPatchesA",
+    "msi/MsiEnumPatchesA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiEnumPatches",
+    "MsiEnumPatchesA",
+    "MsiEnumPatchesW"
+  ]
+}

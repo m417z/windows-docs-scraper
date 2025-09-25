@@ -1,0 +1,4 @@
+typedef struct D3D12_RAYTRACING_PIPELINE_CONFIG1 {
+  UINT                            MaxTraceRecursionDepth;
+  D3D12_RAYTRACING_PIPELINE_FLAGS Flags;
+} D3D12_RAYTRACING_PIPELINE_CONFIG1;

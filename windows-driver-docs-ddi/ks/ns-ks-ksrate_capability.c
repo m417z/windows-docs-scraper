@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY Property;
+  KSRATE     Rate;
+} KSRATE_CAPABILITY, *PKSRATE_CAPABILITY;

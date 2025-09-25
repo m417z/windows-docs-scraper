@@ -1,0 +1,54 @@
+{
+  "UID": "NS:usbspec._USB_CONFIGURATION_DESCRIPTOR",
+  "title": "_USB_CONFIGURATION_DESCRIPTOR (usbspec.h)",
+  "description": "The USB_CONFIGURATION_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined configuration descriptor.",
+  "old-location": "buses\\usb_configuration_descriptor.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USB_CONFIGURATION_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], USB_CONFIGURATION_DESCRIPTOR, USB_CONFIGURATION_DESCRIPTOR structure [Buses], _USB_CONFIGURATION_DESCRIPTOR, buses.usb_configuration_descriptor, usbspec/PUSB_CONFIGURATION_DESCRIPTOR, usbspec/USB_CONFIGURATION_DESCRIPTOR, usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml",
+  "req.header": "usbspec.h",
+  "req.include-header": "Usb100.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR",
+  "f1_keywords": [
+    "_USB_CONFIGURATION_DESCRIPTOR",
+    "usbspec/_USB_CONFIGURATION_DESCRIPTOR",
+    "PUSB_CONFIGURATION_DESCRIPTOR",
+    "usbspec/PUSB_CONFIGURATION_DESCRIPTOR",
+    "USB_CONFIGURATION_DESCRIPTOR",
+    "usbspec/USB_CONFIGURATION_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usbspec.h"
+  ],
+  "api_name": [
+    "_USB_CONFIGURATION_DESCRIPTOR",
+    "PUSB_CONFIGURATION_DESCRIPTOR",
+    "USB_CONFIGURATION_DESCRIPTOR"
+  ]
+}

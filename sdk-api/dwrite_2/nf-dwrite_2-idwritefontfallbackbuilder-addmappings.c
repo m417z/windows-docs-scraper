@@ -1,0 +1,3 @@
+HRESULT AddMappings(
+  IDWriteFontFallback *fontFallback
+);

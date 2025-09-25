@@ -1,0 +1,6 @@
+PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU Pfnd3dkmtSignalsynchronizationobjectfromcpu;
+
+NTSTATUS Pfnd3dkmtSignalsynchronizationobjectfromcpu(
+  const D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU *unnamedParam1
+)
+{...}

@@ -1,0 +1,64 @@
+{
+  "UID": "NS:winioctl._TXFS_LIST_TRANSACTIONS_ENTRY",
+  "title": "TXFS_LIST_TRANSACTIONS_ENTRY",
+  "description": "Contains information about a transaction.",
+  "helpviewer_keywords": [
+    "*PTXFS_LIST_TRANSACTIONS_ENTRY",
+    "PTXFS_LIST_TRANSACTIONS_ENTRY",
+    "PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files]",
+    "TXFS_LIST_TRANSACTIONS_ENTRY",
+    "TXFS_LIST_TRANSACTIONS_ENTRY structure [Files]",
+    "fs.txfs_list_transactions_entry",
+    "winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY",
+    "winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"
+  ],
+  "old-location": "fs\\txfs_list_transactions_entry.htm",
+  "tech.root": "fs",
+  "ms.assetid": "7de14fb1-1972-4bf0-b0e2-f0344e963eef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTIONS_ENTRY, TXFS_LIST_TRANSACTIONS_ENTRY structure [Files], fs.txfs_list_transactions_entry, winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY, winioctl/TXFS_LIST_TRANSACTIONS_ENTRY",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TXFS_LIST_TRANSACTIONS_ENTRY, *PTXFS_LIST_TRANSACTIONS_ENTRY",
+  "req.redist": null,
+  "f1_keywords": [
+    "_TXFS_LIST_TRANSACTIONS_ENTRY",
+    "winioctl/_TXFS_LIST_TRANSACTIONS_ENTRY",
+    "PTXFS_LIST_TRANSACTIONS_ENTRY",
+    "winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY",
+    "TXFS_LIST_TRANSACTIONS_ENTRY",
+    "winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "TXFS_LIST_TRANSACTIONS_ENTRY"
+  ]
+}

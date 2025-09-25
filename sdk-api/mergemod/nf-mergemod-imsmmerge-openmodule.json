@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mergemod.IMsmMerge.OpenModule",
+  "title": "IMsmMerge::OpenModule (mergemod.h)",
+  "description": "The OpenModule method opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database. For more information, see the OpenModule method of the Merge object.",
+  "helpviewer_keywords": [
+    "IMsmMerge interface",
+    "OpenModule method",
+    "IMsmMerge.OpenModule",
+    "IMsmMerge::OpenModule",
+    "OpenModule",
+    "OpenModule method",
+    "OpenModule method",
+    "IMsmMerge interface",
+    "_msi_openmodule_function",
+    "mergemod/IMsmMerge::OpenModule",
+    "setup.imsmmerge_openmodule"
+  ],
+  "old-location": "setup\\imsmmerge_openmodule.htm",
+  "tech.root": "setup",
+  "ms.assetid": "37225e61-c24f-4a44-8fdf-673590a6e09d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IMsmMerge interface,OpenModule method, IMsmMerge.OpenModule, IMsmMerge::OpenModule, OpenModule, OpenModule method, OpenModule method,IMsmMerge interface, _msi_openmodule_function, mergemod/IMsmMerge::OpenModule, setup.imsmmerge_openmodule",
+  "req.header": "mergemod.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Mergemod.dll 1.0 or later",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Mergemod.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMsmMerge::OpenModule",
+    "mergemod/IMsmMerge::OpenModule"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mergemod.dll"
+  ],
+  "api_name": [
+    "IMsmMerge.OpenModule"
+  ]
+}

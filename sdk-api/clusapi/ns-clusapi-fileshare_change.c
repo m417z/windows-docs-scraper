@@ -1,0 +1,4 @@
+typedef struct _FILESHARE_CHANGE {
+  FILESHARE_CHANGE_ENUM Change;
+  WCHAR                 ShareName[NNLEN + 4];
+} FILESHARE_CHANGE, *PFILESHARE_CHANGE;

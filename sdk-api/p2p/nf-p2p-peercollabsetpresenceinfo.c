@@ -1,0 +1,3 @@
+NOT_BUILD_WINDOWS_DEPRECATE HRESULT PeerCollabSetPresenceInfo(
+  [in] PCPEER_PRESENCE_INFO pcPresenceInfo
+);

@@ -1,0 +1,34 @@
+# IMFAsyncResult::SetStatus
+
+## Description
+
+Sets the status of the asynchronous operation.
+
+## Parameters
+
+### `hrStatus` [in]
+
+The status of the asynchronous operation.
+
+## Return value
+
+The method returns an **HRESULT**. Possible values include, but are not limited to, those in the following table.
+
+| Return code | Description |
+| --- | --- |
+| **S_OK** | The method succeeded. |
+
+## Remarks
+
+If you implement an asynchronous method, call **SetStatus** to set the status code for the operation.
+
+This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
+
+* Windows XP with Service Pack 2 (SP2) and later.
+* Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.
+
+## See also
+
+[Asynchronous Callback Methods](https://learn.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods)
+
+[IMFAsyncResult](https://learn.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult)

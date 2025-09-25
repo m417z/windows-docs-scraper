@@ -1,0 +1,3 @@
+VOID DrvDisableSurface(
+  DHPDEV dhpdev
+);

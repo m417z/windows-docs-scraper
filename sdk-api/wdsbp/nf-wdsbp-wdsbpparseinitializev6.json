@@ -1,0 +1,61 @@
+{
+  "UID": "NF:wdsbp.WdsBpParseInitializev6",
+  "title": "WdsBpParseInitializev6 function (wdsbp.h)",
+  "description": "Receives a handle to the packet sent by the network boot program. (WdsBpParseInitializev6)",
+  "helpviewer_keywords": [
+    "WDSBP_PK_TYPE_BCD",
+    "WDSBP_PK_TYPE_DHCP",
+    "WDSBP_PK_TYPE_DHCPV6",
+    "WDSBP_PK_TYPE_WDSNBP",
+    "WdsBpParseInitializev6",
+    "WdsBpParseInitializev6 function [Windows Deployment Services]",
+    "wds.wdsbpparseinitializev6",
+    "wdsbp/WdsBpParseInitializev6"
+  ],
+  "old-location": "wds\\wdsbpparseinitializev6.htm",
+  "tech.root": "wds",
+  "ms.assetid": "6387DA64-CE65-4C6B-9313-B062FA24D8C9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitializev6, WdsBpParseInitializev6 function [Windows Deployment Services], wds.wdsbpparseinitializev6, wdsbp/WdsBpParseInitializev6",
+  "req.header": "wdsbp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdsbp.lib",
+  "req.dll": "Wdsbp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WdsBpParseInitializev6",
+    "wdsbp/WdsBpParseInitializev6"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wdsbp.dll"
+  ],
+  "api_name": [
+    "WdsBpParseInitializev6"
+  ]
+}

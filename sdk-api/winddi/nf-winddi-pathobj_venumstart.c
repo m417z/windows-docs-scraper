@@ -1,0 +1,3 @@
+ENGAPI VOID PATHOBJ_vEnumStart(
+  PATHOBJ *ppo
+);

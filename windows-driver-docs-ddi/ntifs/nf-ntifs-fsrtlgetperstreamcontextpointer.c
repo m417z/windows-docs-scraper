@@ -1,0 +1,3 @@
+void FsRtlGetPerStreamContextPointer(
+  _fo
+);

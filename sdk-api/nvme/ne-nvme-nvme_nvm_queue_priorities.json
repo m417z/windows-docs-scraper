@@ -1,0 +1,39 @@
+{
+  "UID": "NE:nvme.NVME_NVM_QUEUE_PRIORITIES",
+  "tech.root": "fs",
+  "title": "NVME_NVM_QUEUE_PRIORITIES",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains values that indicate a priority which can be assigned to an I/O Submission Queue for consideration by an arbitration mechanism if one is supported by the controller.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "NVME_NVM_QUEUE_PRIORITIES"
+  ],
+  "f1_keywords": [
+    "NVME_NVM_QUEUE_PRIORITIES",
+    "nvme/NVME_NVM_QUEUE_PRIORITIES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

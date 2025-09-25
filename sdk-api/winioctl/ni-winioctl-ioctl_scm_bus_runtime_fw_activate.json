@@ -1,0 +1,45 @@
+{
+  "UID": "NI:winioctl.IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE",
+  "title": "IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE",
+  "description": "This is previously available to download firmware to an NVDIMM.",
+  "tech.root": "FileIO",
+  "ms.date": "19/05/2021",
+  "ms.keywords": "IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE, IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE control, IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE control code [Files], _win32_IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE, base.IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE, fs.IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE, winioctl/IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE",
+    "winioctl/IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "IOCTL_SCM_BUS_RUNTIME_FW_ACTIVATE"
+  ]
+}

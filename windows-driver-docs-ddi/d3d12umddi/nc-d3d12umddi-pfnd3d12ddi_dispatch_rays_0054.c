@@ -1,0 +1,7 @@
+PFND3D12DDI_DISPATCH_RAYS_0054 Pfnd3d12ddiDispatchRays0054;
+
+VOID Pfnd3d12ddiDispatchRays0054(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  const D3D12DDIARG_DISPATCH_RAYS_0054 *unnamedParam2
+)
+{...}

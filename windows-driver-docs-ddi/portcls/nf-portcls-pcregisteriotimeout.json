@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.PcRegisterIoTimeout",
+  "title": "PcRegisterIoTimeout function (portcls.h)",
+  "description": "The PcRegisterIoTimeout function registers a driver-supplied I/O-timer callback routine for a specified device object.",
+  "old-location": "audio\\pcregisteriotimeout.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PcRegisterIoTimeout function"
+  ],
+  "ms.keywords": "PcRegisterIoTimeout, PcRegisterIoTimeout function [Audio Devices], audio.pcregisteriotimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, portcls/PcRegisterIoTimeout",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The PortCls system driver implements the PcRegisterIoTimeout function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcRegisterIoTimeout",
+    "portcls/PcRegisterIoTimeout"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "PcRegisterIoTimeout"
+  ]
+}

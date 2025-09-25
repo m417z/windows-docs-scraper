@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wingdi.RGB",
+  "title": "RGB macro (wingdi.h)",
+  "description": "The RGB macro selects a red, green, blue (RGB) color based on the arguments supplied and the color capabilities of the output device.",
+  "helpviewer_keywords": [
+    "RGB",
+    "RGB macro [Windows GDI]",
+    "_win32_RGB",
+    "gdi.rgb",
+    "wingdi/RGB"
+  ],
+  "old-location": "gdi\\rgb.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "e1dcb5f8-c026-4a4e-8541-928a057bf0ae",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RGB",
+    "wingdi/RGB"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wingdi.h"
+  ],
+  "api_name": [
+    "RGB"
+  ]
+}

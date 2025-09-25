@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeQueryPerformanceCounter",
+  "title": "KeQueryPerformanceCounter function (wdm.h)",
+  "description": "The KeQueryPerformanceCounter routine in wdm.h retrieves the current value and frequency of the performance counter.",
+  "old-location": "kernel\\kequeryperformancecounter.htm",
+  "tech.root": "kernel",
+  "ms.date": "05/18/2021",
+  "keywords": [
+    "KeQueryPerformanceCounter function"
+  ],
+  "ms.keywords": "KeQueryPerformanceCounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, wdm/KeQueryPerformanceCounter",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hal.lib",
+  "req.dll": "Hal.dll",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeQueryPerformanceCounter",
+    "wdm/KeQueryPerformanceCounter"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hal.dll"
+  ],
+  "api_name": [
+    "KeQueryPerformanceCounter"
+  ]
+}

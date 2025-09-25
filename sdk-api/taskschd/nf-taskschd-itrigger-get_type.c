@@ -1,0 +1,3 @@
+HRESULT get_Type(
+  TASK_TRIGGER_TYPE2 *pType
+);

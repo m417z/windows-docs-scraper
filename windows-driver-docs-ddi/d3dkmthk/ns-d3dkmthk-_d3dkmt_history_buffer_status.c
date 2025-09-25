@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_HISTORY_BUFFER_STATUS {
+  BOOLEAN Enabled;
+  UINT    Reserved;
+} D3DKMT_HISTORY_BUFFER_STATUS;

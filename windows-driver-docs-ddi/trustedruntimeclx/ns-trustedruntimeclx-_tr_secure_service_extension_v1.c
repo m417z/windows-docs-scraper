@@ -1,0 +1,4 @@
+typedef struct _TR_SECURE_SERVICE_EXTENSION_V1 {
+  ULONG ExtensionVersion;
+  ULONG SecurityDescriptorStringOffset;
+} TR_SECURE_SERVICE_EXTENSION_V1, *PTR_SECURE_SERVICE_EXTENSION_V1;

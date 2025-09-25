@@ -1,0 +1,3 @@
+HRESULT GetCapabilities(
+  IPrintSchemaCapabilities **ppCapabilities
+);

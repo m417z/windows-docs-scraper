@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.KSTART_ROUTINE",
+  "title": "KSTART_ROUTINE (wdm.h)",
+  "description": "The ThreadStart routine provides an entry point for a driver-created system thread.",
+  "old-location": "kernel\\threadstart.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KSTART_ROUTINE callback function"
+  ],
+  "ms.keywords": "DrvrRtns_913b72f4-9f6b-4967-879d-c4e565d219dd.xml, KSTART_ROUTINE, ThreadStart, ThreadStart routine [Kernel-Mode Driver Architecture], kernel.threadstart, wdm/ThreadStart",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KSTART_ROUTINE",
+    "wdm/KSTART_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "KSTART_ROUTINE"
+  ]
+}

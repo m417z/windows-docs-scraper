@@ -1,0 +1,3 @@
+void WppRecorderLogDelete(
+  [in] RecorderLog
+);

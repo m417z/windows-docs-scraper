@@ -1,0 +1,58 @@
+{
+  "UID": "NF:mswsock.GetAcceptExSockaddrs",
+  "title": "GetAcceptExSockaddrs function (mswsock.h)",
+  "description": "The GetAcceptExSockaddrs function (mswsock.h) parses data obtained from a call to the AcceptEx function and passes local and remote addresses to a sockaddr structure.",
+  "helpviewer_keywords": [
+    "GetAcceptExSockaddrs",
+    "GetAcceptExSockaddrs function [Winsock]",
+    "_win32_getacceptexsockaddrs_2",
+    "winsock.getacceptexsockaddrs_2",
+    "winsock/GetAcceptExSockaddrs"
+  ],
+  "old-location": "winsock\\getacceptexsockaddrs_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "381ba8ab-3c99-45c8-8895-4c87949f5238",
+  "ms.date": "08/12/2022",
+  "ms.keywords": "GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs",
+  "req.header": "mswsock.h",
+  "req.include-header": "Mswsock.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mswsock.lib",
+  "req.dll": "Mswsock.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetAcceptExSockaddrs",
+    "mswsock/GetAcceptExSockaddrs"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Mswsock.dll"
+  ],
+  "api_name": [
+    "GetAcceptExSockaddrs"
+  ]
+}

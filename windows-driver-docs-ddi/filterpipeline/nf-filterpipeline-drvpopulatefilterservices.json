@@ -1,0 +1,48 @@
+{
+  "UID": "NF:filterpipeline.DrvPopulateFilterServices",
+  "title": "DrvPopulateFilterServices function (filterpipeline.h)",
+  "description": "The DrvPopulateFilterServices function is called by the XPSDrv filter pipeline manager to allow the service provider to instantiate filter service objects in the filter pipeline property bag specified by the pPropertyBag parameter.",
+  "old-location": "print\\drvpopulatefilterservices.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "DrvPopulateFilterServices function"
+  ],
+  "ms.keywords": "DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices",
+  "req.header": "filterpipeline.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DrvPopulateFilterServices",
+    "filterpipeline/DrvPopulateFilterServices"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Filterpipeline.h"
+  ],
+  "api_name": [
+    "DrvPopulateFilterServices"
+  ]
+}

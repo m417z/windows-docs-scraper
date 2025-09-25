@@ -1,0 +1,6 @@
+typedef enum _ACX_STREAM_BRIDGE_CONFIG_FLAGS {
+  AcxStreamBridgeConfigNoFlags,
+  AcxStreamBridgeInvertChangeStateSequence,
+  AcxStreamBridgeForwardInStreamVarArguments,
+  AcxStreamBridgeConfigValidFlags
+} ACX_STREAM_BRIDGE_CONFIG_FLAGS;

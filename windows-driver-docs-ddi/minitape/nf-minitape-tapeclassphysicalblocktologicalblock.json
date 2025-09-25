@@ -1,0 +1,49 @@
+{
+  "UID": "NF:minitape.TapeClassPhysicalBlockToLogicalBlock",
+  "title": "TapeClassPhysicalBlockToLogicalBlock function (minitape.h)",
+  "description": "The TapeClassPhysicalBlockToLogicalBlock routine translates a physical block address to a pseudological block address. This routine is for SCSI-1 devices.",
+  "old-location": "storage\\tapeclassphysicalblocktologicalblock.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "TapeClassPhysicalBlockToLogicalBlock function"
+  ],
+  "ms.keywords": "TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], minitape/TapeClassPhysicalBlockToLogicalBlock, storage.tapeclassphysicalblocktologicalblock, tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml",
+  "req.header": "minitape.h",
+  "req.include-header": "Minitape.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tape.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "TapeClassPhysicalBlockToLogicalBlock",
+    "minitape/TapeClassPhysicalBlockToLogicalBlock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Tape.lib",
+    "Tape.dll"
+  ],
+  "api_name": [
+    "TapeClassPhysicalBlockToLogicalBlock"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum tagPictureAttributes {
+  PICTURE_SCALABLE = 0x1,
+  PICTURE_TRANSPARENT = 0x2
+} PICTUREATTRIBUTES;

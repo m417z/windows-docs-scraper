@@ -1,0 +1,3 @@
+HRESULT GetAutoBreadcrumbsOutput(
+  D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT *pOutput
+);

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:webservices.WsGetErrorProperty",
+  "title": "WsGetErrorProperty function (webservices.h)",
+  "description": "Retrieves a property of a WS_ERROR object referenced by the error parameter.",
+  "helpviewer_keywords": [
+    "WsGetErrorProperty",
+    "WsGetErrorProperty function [Web Services for Windows]",
+    "webservices/WsGetErrorProperty",
+    "wsw.wsgeterrorproperty"
+  ],
+  "old-location": "wsw\\wsgeterrorproperty.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "35a1f4a8-aad6-43ad-81db-b1071a77d5f4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WsGetErrorProperty, WsGetErrorProperty function [Web Services for Windows], webservices/WsGetErrorProperty, wsw.wsgeterrorproperty",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WebServices.lib",
+  "req.dll": "WebServices.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WsGetErrorProperty",
+    "webservices/WsGetErrorProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WebServices.dll"
+  ],
+  "api_name": [
+    "WsGetErrorProperty"
+  ]
+}

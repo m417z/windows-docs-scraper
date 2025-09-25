@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltIsVolumeWritable",
+  "title": "FltIsVolumeWritable function (fltkernel.h)",
+  "description": "The FltIsVolumeWritable routine determines whether the disk device that corresponds to a volume or minifilter driver instance is writable.",
+  "old-location": "ifsk\\fltisvolumewritable.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltIsVolumeWritable function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, FltIsVolumeWritable, FltIsVolumeWritable routine [Installable File System Drivers], fltkernel/FltIsVolumeWritable, ifsk.fltisvolumewritable",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The FltIsVolumeWritable routine is available in Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fltmgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltIsVolumeWritable",
+    "fltkernel/FltIsVolumeWritable"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltIsVolumeWritable"
+  ]
+}

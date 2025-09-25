@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ntifs._SYSTEM_AUDIT_ACE",
+  "title": "_SYSTEM_AUDIT_ACE (ntifs.h)",
+  "description": "The SYSTEM_AUDIT_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying what types of access cause system-level notifications.",
+  "old-location": "ifsk\\system_audit_ace.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SYSTEM_AUDIT_ACE structure"
+  ],
+  "ms.keywords": "*PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], _SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, ntifs/PSYSTEM_AUDIT_ACE, ntifs/SYSTEM_AUDIT_ACE, securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SYSTEM_AUDIT_ACE",
+  "f1_keywords": [
+    "_SYSTEM_AUDIT_ACE",
+    "ntifs/_SYSTEM_AUDIT_ACE",
+    "SYSTEM_AUDIT_ACE",
+    "ntifs/SYSTEM_AUDIT_ACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SYSTEM_AUDIT_ACE",
+    "SYSTEM_AUDIT_ACE"
+  ]
+}

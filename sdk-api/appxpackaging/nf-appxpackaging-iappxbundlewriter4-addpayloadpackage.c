@@ -1,0 +1,5 @@
+HRESULT AddPayloadPackage(
+  [in] LPCWSTR fileName,
+  [in] IStream *packageStream,
+  [in] BOOL    isDefaultApplicablePackage
+);

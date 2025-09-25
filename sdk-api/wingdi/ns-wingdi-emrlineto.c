@@ -1,0 +1,4 @@
+typedef struct tagEMRLINETO {
+  EMR    emr;
+  POINTL ptl;
+} EMRLINETO, *PEMRLINETO, EMRMOVETOEX, *PEMRMOVETOEX;

@@ -1,0 +1,4 @@
+typedef struct _NDIS_SRIOV_PF_LUID_INFO {
+  NDIS_OBJECT_HEADER Header;
+  LUID               Luid;
+} NDIS_SRIOV_PF_LUID_INFO, *PNDIS_SRIOV_PF_LUID_INFO;

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wtsapi32.WTSQuerySessionInformationA",
+  "title": "WTSQuerySessionInformationA function (wtsapi32.h)",
+  "description": "Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server. (ANSI)",
+  "helpviewer_keywords": [
+    "WTSQuerySessionInformationA",
+    "wtsapi32/WTSQuerySessionInformationA"
+  ],
+  "old-location": "termserv\\wtsquerysessioninformation.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "d52345a4-0408-4ea9-ba71-349910143752",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WTSQuerySessionInformation, WTSQuerySessionInformation function [Remote Desktop Services], WTSQuerySessionInformationA, WTSQuerySessionInformationW, _win32_wtsquerysessioninformation, termserv.wtsquerysessioninformation, wtsapi32/WTSQuerySessionInformation, wtsapi32/WTSQuerySessionInformationA, wtsapi32/WTSQuerySessionInformationW",
+  "req.header": "wtsapi32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WTSQuerySessionInformationW (Unicode) and WTSQuerySessionInformationA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wtsapi32.lib",
+  "req.dll": "Wtsapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WTSQuerySessionInformationA",
+    "wtsapi32/WTSQuerySessionInformationA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wtsapi32.dll",
+    "Ext-MS-Win-Session-WtsApi32-l1-1-0.dll"
+  ],
+  "api_name": [
+    "WTSQuerySessionInformation",
+    "WTSQuerySessionInformationA",
+    "WTSQuerySessionInformationW"
+  ],
+  "req.apiset": "ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)"
+}

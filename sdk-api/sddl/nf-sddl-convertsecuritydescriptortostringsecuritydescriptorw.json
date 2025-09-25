@@ -1,0 +1,66 @@
+{
+  "UID": "NF:sddl.ConvertSecurityDescriptorToStringSecurityDescriptorW",
+  "title": "ConvertSecurityDescriptorToStringSecurityDescriptorW function (sddl.h)",
+  "description": "Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor. (Unicode)",
+  "helpviewer_keywords": [
+    "ConvertSecurityDescriptorToStringSecurityDescriptor",
+    "ConvertSecurityDescriptorToStringSecurityDescriptor function [Security]",
+    "ConvertSecurityDescriptorToStringSecurityDescriptorW",
+    "_win32_convertsecuritydescriptortostringsecuritydescriptor",
+    "sddl/ConvertSecurityDescriptorToStringSecurityDescriptor",
+    "sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW",
+    "security.convertsecuritydescriptortostringsecuritydescriptor"
+  ],
+  "old-location": "security\\convertsecuritydescriptortostringsecuritydescriptor.htm",
+  "tech.root": "security",
+  "ms.assetid": "36140833-8e30-4c32-a88a-c10751b6c223",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ConvertSecurityDescriptorToStringSecurityDescriptor, ConvertSecurityDescriptorToStringSecurityDescriptor function [Security], ConvertSecurityDescriptorToStringSecurityDescriptorA, ConvertSecurityDescriptorToStringSecurityDescriptorW, _win32_convertsecuritydescriptortostringsecuritydescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW, security.convertsecuritydescriptortostringsecuritydescriptor",
+  "req.header": "sddl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "ConvertSecurityDescriptorToStringSecurityDescriptorW (Unicode) and ConvertSecurityDescriptorToStringSecurityDescriptorA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ConvertSecurityDescriptorToStringSecurityDescriptorW",
+    "sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll",
+    "sechost.dll",
+    "API-MS-Win-Security-sddl-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ConvertSecurityDescriptorToStringSecurityDescriptor",
+    "ConvertSecurityDescriptorToStringSecurityDescriptorA",
+    "ConvertSecurityDescriptorToStringSecurityDescriptorW"
+  ]
+}

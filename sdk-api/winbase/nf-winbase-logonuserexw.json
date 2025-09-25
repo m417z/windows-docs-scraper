@@ -1,0 +1,75 @@
+{
+  "UID": "NF:winbase.LogonUserExW",
+  "title": "LogonUserExW function (winbase.h)",
+  "description": "The LogonUserEx function attempts to log a user on to the local computer. (Unicode)",
+  "helpviewer_keywords": [
+    "LOGON32_LOGON_BATCH",
+    "LOGON32_LOGON_INTERACTIVE",
+    "LOGON32_LOGON_NETWORK",
+    "LOGON32_LOGON_NETWORK_CLEARTEXT",
+    "LOGON32_LOGON_NEW_CREDENTIALS",
+    "LOGON32_LOGON_SERVICE",
+    "LOGON32_LOGON_UNLOCK",
+    "LOGON32_PROVIDER_DEFAULT",
+    "LOGON32_PROVIDER_WINNT40",
+    "LOGON32_PROVIDER_WINNT50",
+    "LogonUserEx",
+    "LogonUserEx function [Security]",
+    "LogonUserExW",
+    "_win32_logonuserex",
+    "security.logonuserex",
+    "winbase/LogonUserEx",
+    "winbase/LogonUserExW"
+  ],
+  "old-location": "security\\logonuserex.htm",
+  "tech.root": "security",
+  "ms.assetid": "4aba1cad-f234-4329-8599-7438cb9bee98",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUserEx, LogonUserEx function [Security], LogonUserExA, LogonUserExW, _win32_logonuserex, security.logonuserex, winbase/LogonUserEx, winbase/LogonUserExA, winbase/LogonUserExW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "LogonUserExW (Unicode) and LogonUserExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LogonUserExW",
+    "winbase/LogonUserExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-security-logon-l1-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-Security-Logon-L1-1-1.dll"
+  ],
+  "api_name": [
+    "LogonUserEx",
+    "LogonUserExA",
+    "LogonUserExW"
+  ]
+}

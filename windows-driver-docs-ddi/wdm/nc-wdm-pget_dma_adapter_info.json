@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PGET_DMA_ADAPTER_INFO",
+  "title": "PGET_DMA_ADAPTER_INFO (wdm.h)",
+  "description": "The GetDmaAdapterInfo routine retrieves information about the hardware capabilities of a system DMA channel.",
+  "old-location": "kernel\\getdmaadapterinfo.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PGET_DMA_ADAPTER_INFO callback function"
+  ],
+  "ms.keywords": "GetDmaAdapterInfo, GetDmaAdapterInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_ADAPTER_INFO, PGET_DMA_ADAPTER_INFO callback, kernel.getdmaadapterinfo, wdm/GetDmaAdapterInfo",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PGET_DMA_ADAPTER_INFO",
+    "wdm/PGET_DMA_ADAPTER_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PGET_DMA_ADAPTER_INFO"
+  ]
+}

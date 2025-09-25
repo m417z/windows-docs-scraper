@@ -1,0 +1,3 @@
+ENGAPI ULONG BRUSHOBJ_ulGetBrushColor(
+  BRUSHOBJ *pbo
+);

@@ -1,0 +1,4 @@
+ENGAPI BOOL PATHOBJ_bEnum(
+  PATHOBJ  *ppo,
+  PATHDATA *ppd
+);

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:iphlpapi.DeleteIpForwardEntry",
+  "title": "DeleteIpForwardEntry function (iphlpapi.h)",
+  "description": "Deletes an existing route in the local computer's IPv4 routing table.",
+  "helpviewer_keywords": [
+    "DeleteIpForwardEntry",
+    "DeleteIpForwardEntry function [IP Helper]",
+    "_iphlp_deleteipforwardentry",
+    "iphlp.deleteipforwardentry",
+    "iphlpapi/DeleteIpForwardEntry"
+  ],
+  "old-location": "iphlp\\deleteipforwardentry.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "70bcfd71-34dd-465d-890b-1dd829632fb0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DeleteIpForwardEntry, DeleteIpForwardEntry function [IP Helper], _iphlp_deleteipforwardentry, iphlp.deleteipforwardentry, iphlpapi/DeleteIpForwardEntry",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteIpForwardEntry",
+    "iphlpapi/DeleteIpForwardEntry"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "DeleteIpForwardEntry"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "UID": "NF:evntrace.OpenTraceW",
+  "title": "OpenTraceW function (evntrace.h)",
+  "description": "The OpenTraceW (Unicode) function (evntrace.h) opens an ETW trace processing handle for consuming events from an ETW real-time trace session or an ETW log file.",
+  "helpviewer_keywords": [
+    "OpenTrace",
+    "OpenTrace function [ETW]",
+    "OpenTraceA",
+    "OpenTraceW",
+    "_evt_opentrace",
+    "base.opentrace",
+    "etw.opentrace",
+    "evntrace/OpenTrace",
+    "evntrace/OpenTraceA",
+    "evntrace/OpenTraceW"
+  ],
+  "old-location": "etw\\opentrace.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "505e643b-6b4f-4f93-96c8-7fe8abdd6234",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "OpenTraceW (Unicode) and OpenTraceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP",
+  "req.dll": "Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OpenTraceW",
+    "evntrace/OpenTraceW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-eventing-consumer-l1-1-2.dll",
+    "api-ms-win-eventing-consumer-l1-1-1.dll",
+    "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+    "Sechost.dll",
+    "Advapi32.dll",
+    "AdvAPI32Legacy.dll",
+    "API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll",
+    "API-MS-Win-Eventing-Consumer-l1-1-0.dll",
+    "API-MS-Win-Eventing-Legacy-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "OpenTrace",
+    "OpenTraceA",
+    "OpenTraceW"
+  ]
+}

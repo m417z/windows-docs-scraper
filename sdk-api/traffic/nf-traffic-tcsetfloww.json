@@ -1,0 +1,62 @@
+{
+  "UID": "NF:traffic.TcSetFlowW",
+  "title": "TcSetFlowW function (traffic.h)",
+  "description": "The TcSetFlow function sets individual parameters for a given flow. (Unicode)",
+  "helpviewer_keywords": [
+    "TcSetFlow",
+    "TcSetFlow function [QOS]",
+    "TcSetFlowW",
+    "_gqos_tcsetflow",
+    "qos.tcsetflow",
+    "traffic/TcSetFlow",
+    "traffic/TcSetFlowW"
+  ],
+  "old-location": "qos\\tcsetflow.htm",
+  "tech.root": "QOS",
+  "ms.assetid": "9989e26c-7e79-43b7-a5b8-f203c27b2a1e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW",
+  "req.header": "traffic.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "TcSetFlowW (Unicode) and TcSetFlowA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Traffic.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TcSetFlowW",
+    "traffic/TcSetFlowW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Traffic.dll"
+  ],
+  "api_name": [
+    "TcSetFlow",
+    "TcSetFlowA",
+    "TcSetFlowW"
+  ]
+}

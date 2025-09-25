@@ -1,0 +1,64 @@
+{
+  "UID": "NF:ntsecapi.LsaSetTrustedDomainInformation",
+  "title": "LsaSetTrustedDomainInformation function (ntsecapi.h)",
+  "description": "The LsaSetTrustedDomainInformation function modifies a Policy object's information about a trusted domain.",
+  "helpviewer_keywords": [
+    "LsaSetTrustedDomainInformation",
+    "LsaSetTrustedDomainInformation function [Security]",
+    "TrustedDomainNameInformation",
+    "TrustedPasswordInformation",
+    "TrustedPosixOffsetInformation",
+    "_lsa_lsasettrusteddomaininformation",
+    "ntsecapi/LsaSetTrustedDomainInformation",
+    "security.lsasettrusteddomaininformation"
+  ],
+  "old-location": "security\\lsasettrusteddomaininformation.htm",
+  "tech.root": "security",
+  "ms.assetid": "a7b89ea7-af92-46ba-ac73-2fba1cc27680",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaSetTrustedDomainInformation",
+    "ntsecapi/LsaSetTrustedDomainInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-lsa-l1-1-4.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-3.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-2.dll",
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "LsaSetTrustedDomainInformation"
+  ]
+}

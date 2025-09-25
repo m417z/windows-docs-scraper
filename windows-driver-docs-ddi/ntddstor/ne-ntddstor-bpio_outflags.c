@@ -1,0 +1,3 @@
+typedef enum _BPIO_OUTFLAGS {
+  BPIO_OUTFL_NONE
+} BPIO_OUTFLAGS;

@@ -1,0 +1,46 @@
+{
+  "UID": "NF:dbgmodel.IModelObject.GetLocation",
+  "title": "IModelObject::GetLocation (dbgmodel.h)",
+  "description": "The GetLocation method will return the location of the native object. While such a location is typically a virtual address within the address space of the debug target, it is not necessarily so.",
+  "ms.date": "06/10/2019",
+  "keywords": [
+    "IModelObject::GetLocation"
+  ],
+  "ms.keywords": "IModelObject::GetLocation, GetLocation, IModelObject.GetLocation, IModelObject::GetLocation, IModelObject.GetLocation",
+  "req.header": "dbgmodel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "tech.root": "debugger",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "IModelObject::GetLocation",
+    "dbgmodel/IModelObject::GetLocation"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgmodel.h"
+  ],
+  "api_name": [
+    "IModelObject::GetLocation"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT put_UseDeviceTSID(
+  VARIANT_BOOL bUseDeviceTSID
+);

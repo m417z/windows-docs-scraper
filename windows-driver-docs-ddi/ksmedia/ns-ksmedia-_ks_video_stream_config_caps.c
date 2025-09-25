@@ -1,0 +1,23 @@
+typedef struct _KS_VIDEO_STREAM_CONFIG_CAPS {
+  GUID     guid;
+  ULONG    VideoStandard;
+  SIZE     InputSize;
+  SIZE     MinCroppingSize;
+  SIZE     MaxCroppingSize;
+  int      CropGranularityX;
+  int      CropGranularityY;
+  int      CropAlignX;
+  int      CropAlignY;
+  SIZE     MinOutputSize;
+  SIZE     MaxOutputSize;
+  int      OutputGranularityX;
+  int      OutputGranularityY;
+  int      StretchTapsX;
+  int      StretchTapsY;
+  int      ShrinkTapsX;
+  int      ShrinkTapsY;
+  LONGLONG MinFrameInterval;
+  LONGLONG MaxFrameInterval;
+  LONG     MinBitsPerSecond;
+  LONG     MaxBitsPerSecond;
+} KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS;

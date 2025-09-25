@@ -1,0 +1,21 @@
+# RILCALLMEDIAOFFERANSWERTYPE enumeration (rilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_CALLMEDIAOFFERANSWERTYPE_UNKNOWN`
+
+### `RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT`
+
+### `RIL_CALLMEDIAOFFERANSWERTYPE_OFFER`
+
+### `RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER`
+
+### `RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER`
+
+### `RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER`
+
+### `RIL_CALLMEDIAOFFERANSWERTYPE_MAX`

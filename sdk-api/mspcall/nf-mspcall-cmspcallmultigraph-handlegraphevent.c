@@ -1,0 +1,3 @@
+VOID HandleGraphEvent(
+  MSPSTREAMCONTEXT *pContext
+);

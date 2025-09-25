@@ -1,0 +1,4 @@
+typedef struct _CMC_TAGGED_ATTRIBUTE {
+  DWORD           dwBodyPartID;
+  CRYPT_ATTRIBUTE Attribute;
+} CMC_TAGGED_ATTRIBUTE, *PCMC_TAGGED_ATTRIBUTE;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterGetInformation",
+  "title": "FilterGetInformation function (fltuser.h)",
+  "description": "The FilterGetInformation function returns various kinds of information about a minifilter.",
+  "helpviewer_keywords": [
+    "FilterGetInformation",
+    "FilterGetInformation function [Installable File System Drivers]",
+    "FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml",
+    "fltuser/FilterGetInformation",
+    "ifsk.filtergetinformation"
+  ],
+  "old-location": "ifsk\\filtergetinformation.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "d5124ac2-dd1e-46b2-b25c-e965768eaf9e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation",
+  "req.header": "fltuser.h",
+  "req.include-header": "FltUser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterGetInformation",
+    "fltuser/FilterGetInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterGetInformation"
+  ]
+}

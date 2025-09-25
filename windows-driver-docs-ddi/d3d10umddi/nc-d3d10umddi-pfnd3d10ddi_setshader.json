@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10DDI_SETSHADER",
+  "title": "PFND3D10DDI_SETSHADER (d3d10umddi.h)",
+  "description": "The CsSetShader function sets the compute shader code so that all of the subsequent dispatching operations use that code.",
+  "old-location": "display\\cssetshader.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10DDI_SETSHADER callback function"
+  ],
+  "ms.keywords": "CsSetShader, CsSetShader callback function [Display Devices], PFND3D10DDI_SETSHADER, PFND3D10DDI_SETSHADER callback, UserModeDisplayDriverDx11_Functions_4e96f922-1a22-45c3-9c50-a4b71a79f695.xml, d3d10umddi/CsSetShader, display.cssetshader",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "CsSetShader is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10DDI_SETSHADER",
+    "d3d10umddi/PFND3D10DDI_SETSHADER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10DDI_SETSHADER"
+  ]
+}

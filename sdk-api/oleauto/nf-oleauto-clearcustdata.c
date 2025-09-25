@@ -1,0 +1,3 @@
+void ClearCustData(
+  LPCUSTDATA pCustData
+);

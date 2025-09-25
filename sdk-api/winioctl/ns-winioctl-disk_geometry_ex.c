@@ -1,0 +1,5 @@
+typedef struct _DISK_GEOMETRY_EX {
+  DISK_GEOMETRY Geometry;
+  LARGE_INTEGER DiskSize;
+  BYTE          Data[1];
+} DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX;

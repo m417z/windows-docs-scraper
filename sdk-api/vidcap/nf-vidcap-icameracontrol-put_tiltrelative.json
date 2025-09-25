@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vidcap.ICameraControl.put_TiltRelative",
+  "title": "ICameraControl::put_TiltRelative (vidcap.h)",
+  "description": "The put_TiltRelative method sets the camera's relative tilt. The relative tilt is expressed as a number of steps, where the size of each step depends on the camera model.",
+  "helpviewer_keywords": [
+    "ICameraControl interface [DirectShow]",
+    "put_TiltRelative method",
+    "ICameraControl.put_TiltRelative",
+    "ICameraControl::put_TiltRelative",
+    "ICameraControlput_TiltRelative",
+    "dshow.icameracontrol_put_tiltrelative",
+    "put_TiltRelative",
+    "put_TiltRelative method [DirectShow]",
+    "put_TiltRelative method [DirectShow]",
+    "ICameraControl interface",
+    "vidcap/ICameraControl::put_TiltRelative"
+  ],
+  "old-location": "dshow\\icameracontrol_put_tiltrelative.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "69aa7ecf-4816-460b-b4f8-480c0d4f8331",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "ICameraControl interface [DirectShow],put_TiltRelative method, ICameraControl.put_TiltRelative, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_TiltRelative",
+  "req.header": "vidcap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICameraControl::put_TiltRelative",
+    "vidcap/ICameraControl::put_TiltRelative"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "ICameraControl.put_TiltRelative"
+  ]
+}

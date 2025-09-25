@@ -1,0 +1,59 @@
+{
+  "UID": "NC:winnls.LOCALE_ENUMPROCEX",
+  "title": "LOCALE_ENUMPROCEX (winnls.h)",
+  "description": "An application-defined callback function that processes enumerated locale information provided by the EnumSystemLocalesEx function.",
+  "helpviewer_keywords": [
+    "EnumLocalesProcEx",
+    "LOCALE_ENUMPROCEX",
+    "LOCALE_ENUMPROCEX callback",
+    "LOCALE_ENUMPROCEX callback function [Internationalization for Windows Applications]",
+    "_win32_EnumLocalesProcEx",
+    "intl.enumlocalesprocex",
+    "winnls/LOCALE_ENUMPROCEX"
+  ],
+  "old-location": "intl\\enumlocalesprocex.htm",
+  "tech.root": "Intl",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumLocalesProcEx, LOCALE_ENUMPROCEX, LOCALE_ENUMPROCEX callback, LOCALE_ENUMPROCEX callback function [Internationalization for Windows Applications], _win32_EnumLocalesProcEx, intl.enumlocalesprocex, winnls/LOCALE_ENUMPROCEX",
+  "req.header": "winnls.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LOCALE_ENUMPROCEX",
+    "winnls/LOCALE_ENUMPROCEX"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WinNls.h"
+  ],
+  "api_name": [
+    "LOCALE_ENUMPROCEX"
+  ]
+}

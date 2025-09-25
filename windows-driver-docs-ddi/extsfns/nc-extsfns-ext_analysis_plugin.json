@@ -1,0 +1,48 @@
+{
+  "UID": "NC:extsfns.EXT_ANALYSIS_PLUGIN",
+  "title": "EXT_ANALYSIS_PLUGIN (extsfns.h)",
+  "description": "When you write an Analysis Extension, you must implement and export an EXT_ANALYSIS_PLUGIN (_EFN_Analyze) function.",
+  "old-location": "debugger\\_efn_analyze.htm",
+  "tech.root": "debugger",
+  "ms.date": "12/16/2021",
+  "keywords": [
+    "EXT_ANALYSIS_PLUGIN callback function"
+  ],
+  "ms.keywords": "EXT_ANALYSIS_PLUGIN, EXT_ANALYSIS_PLUGIN callback, _EFN_Analyze, _EFN_Analyze callback function [Windows Debugging], debugger._efn_analyze, extsfns/_EFN_Analyze",
+  "req.header": "extsfns.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EXT_ANALYSIS_PLUGIN",
+    "extsfns/EXT_ANALYSIS_PLUGIN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "extsfns.h"
+  ],
+  "api_name": [
+    "EXT_ANALYSIS_PLUGIN"
+  ]
+}

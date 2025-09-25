@@ -1,0 +1,8 @@
+PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040 Pfnd3d12ddiCommandRecorderSetCommandPoolAsTarget0040;
+
+VOID Pfnd3d12ddiCommandRecorderSetCommandPoolAsTarget0040(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HCOMMANDRECORDER_0040 unnamedParam2,
+  D3D12DDI_HCOMMANDPOOL_0040 unnamedParam3
+)
+{...}

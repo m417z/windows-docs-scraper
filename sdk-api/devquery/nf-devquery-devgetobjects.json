@@ -1,0 +1,52 @@
+{
+  "UID": "NF:devquery.DevGetObjects",
+  "tech.root": "devinst",
+  "title": "DevGetObjects",
+  "ms.date": "11/06/2024",
+  "targetos": "Windows",
+  "description": "Synchronously retrieves a set of DEV_OBJECT structures based on the supplied requested properties and filter criteria.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Cfgmgr32.dll",
+  "req.header": "devquery.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Onecore.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 version 1809",
+  "req.target-min-winversvr": "Windows Server 2019",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-query-l1-1-1.dll",
+    "api-ms-win-devices-query-l1-1-0.dll",
+    "Cfgmgr32.dll"
+  ],
+  "api_name": [
+    "DevGetObjects"
+  ],
+  "f1_keywords": [
+    "DevGetObjects",
+    "devquery/DevGetObjects"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DevGetObjects"
+  ]
+}

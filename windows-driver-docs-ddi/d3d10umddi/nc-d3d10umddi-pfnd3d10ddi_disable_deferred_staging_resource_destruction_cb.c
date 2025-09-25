@@ -1,0 +1,6 @@
+PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB Pfnd3d10ddiDisableDeferredStagingResourceDestructionCb;
+
+void Pfnd3d10ddiDisableDeferredStagingResourceDestructionCb(
+  D3D10DDI_HRTCORELAYER unnamedParam1
+)
+{...}

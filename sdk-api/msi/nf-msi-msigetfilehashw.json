@@ -1,0 +1,62 @@
+{
+  "UID": "NF:msi.MsiGetFileHashW",
+  "title": "MsiGetFileHashW function (msi.h)",
+  "description": "The MsiGetFileHash function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use MsiGetFileHash to obtain the file hash needed to populate the MsiFileHash table. (Unicode)",
+  "helpviewer_keywords": [
+    "MsiGetFileHash",
+    "MsiGetFileHash function",
+    "MsiGetFileHashW",
+    "_msi_msigetfilehash",
+    "msi/MsiGetFileHash",
+    "msi/MsiGetFileHashW",
+    "setup.msigetfilehash"
+  ],
+  "old-location": "setup\\msigetfilehash.htm",
+  "tech.root": "setup",
+  "ms.assetid": "afd9f0b4-432f-4d23-b59d-7406ac2f68bb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiGetFileHash, MsiGetFileHash function, MsiGetFileHashA, MsiGetFileHashW, _msi_msigetfilehash, msi/MsiGetFileHash, msi/MsiGetFileHashA, msi/MsiGetFileHashW, setup.msigetfilehash",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiGetFileHashW (Unicode) and MsiGetFileHashA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiGetFileHashW",
+    "msi/MsiGetFileHashW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiGetFileHash",
+    "MsiGetFileHashA",
+    "MsiGetFileHashW"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef enum DISCONNECT_CODE {
+  DC_NORMAL = 0,
+  DC_NOANSWER,
+  DC_REJECTED
+} ;

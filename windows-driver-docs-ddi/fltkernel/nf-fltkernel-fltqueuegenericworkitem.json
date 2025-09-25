@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltQueueGenericWorkItem",
+  "title": "FltQueueGenericWorkItem function (fltkernel.h)",
+  "description": "FltQueueGenericWorkItem posts a work item that is not associated with a specific I/O operation to a work queue.",
+  "old-location": "ifsk\\fltqueuegenericworkitem.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltQueueGenericWorkItem function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltQueueGenericWorkItem",
+    "fltkernel/FltQueueGenericWorkItem"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltQueueGenericWorkItem"
+  ]
+}

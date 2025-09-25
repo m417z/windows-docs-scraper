@@ -1,0 +1,66 @@
+{
+  "UID": "NS:tapi.lineagentinfo_tag",
+  "title": "LINEAGENTINFO (tapi.h)",
+  "description": "The LINEAGENTINFO structure contains information about an ACD agent. The lineGetAgentInfo function returns the LINEAGENTINFO structure.",
+  "helpviewer_keywords": [
+    "*LPLINEAGENTINFO",
+    "LINEAGENTINFO",
+    "LINEAGENTINFO structure [TAPI 2.2]",
+    "LPLINEAGENTINFO",
+    "LPLINEAGENTINFO structure pointer [TAPI 2.2]",
+    "_tapi2_lineagentinfo",
+    "tapi/LINEAGENTINFO",
+    "tapi/LPLINEAGENTINFO",
+    "tapi2.lineagentinfo"
+  ],
+  "old-location": "tapi2\\lineagentinfo.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "84eedf88-f0ea-4dc8-9840-b94a47fb7ca2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LINEAGENTINFO, *LPLINEAGENTINFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineagentinfo_tag",
+    "tapi/lineagentinfo_tag",
+    "LPLINEAGENTINFO",
+    "tapi/LPLINEAGENTINFO",
+    "LINEAGENTINFO",
+    "tapi/LINEAGENTINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Tapi.h"
+  ],
+  "api_name": [
+    "LINEAGENTINFO"
+  ]
+}

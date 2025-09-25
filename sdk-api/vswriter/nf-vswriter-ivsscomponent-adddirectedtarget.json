@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vswriter.IVssComponent.AddDirectedTarget",
+  "title": "IVssComponent::AddDirectedTarget (vswriter.h)",
+  "description": "The AddDirectedTarget method allows a writer to indicate at restore time that when a file is to be restored, it (the source file) should be remapped.",
+  "helpviewer_keywords": [
+    "AddDirectedTarget",
+    "AddDirectedTarget method [VSS]",
+    "AddDirectedTarget method [VSS]",
+    "IVssComponent interface",
+    "IVssComponent interface [VSS]",
+    "AddDirectedTarget method",
+    "IVssComponent.AddDirectedTarget",
+    "IVssComponent::AddDirectedTarget",
+    "_win32_ivsscomponent_adddirectedtarget",
+    "base.ivsscomponent_adddirectedtarget",
+    "vswriter/IVssComponent::AddDirectedTarget"
+  ],
+  "old-location": "base\\ivsscomponent_adddirectedtarget.htm",
+  "tech.root": "base",
+  "ms.assetid": "927865ff-f3c4-4863-913e-cfffb7bbdbb2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AddDirectedTarget, AddDirectedTarget method [VSS], AddDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDirectedTarget method, IVssComponent.AddDirectedTarget, IVssComponent::AddDirectedTarget, _win32_ivsscomponent_adddirectedtarget, base.ivsscomponent_adddirectedtarget, vswriter/IVssComponent::AddDirectedTarget",
+  "req.header": "vswriter.h",
+  "req.include-header": "Vss.h, VsWriter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VssApi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVssComponent::AddDirectedTarget",
+    "vswriter/IVssComponent::AddDirectedTarget"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VssApi.lib",
+    "VssApi.dll"
+  ],
+  "api_name": [
+    "IVssComponent.AddDirectedTarget"
+  ]
+}

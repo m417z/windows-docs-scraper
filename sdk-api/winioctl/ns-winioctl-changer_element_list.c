@@ -1,0 +1,4 @@
+typedef struct _CHANGER_ELEMENT_LIST {
+  CHANGER_ELEMENT Element;
+  DWORD           NumberOfElements;
+} CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST;

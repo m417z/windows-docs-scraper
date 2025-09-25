@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wdspxe.PxeProviderRegister",
+  "title": "PxeProviderRegister function (wdspxe.h)",
+  "description": "Registers a provider with the system.",
+  "helpviewer_keywords": [
+    "PXE_REG_INDEX_BOTTOM",
+    "PXE_REG_INDEX_TOP",
+    "PxeProviderRegister",
+    "PxeProviderRegister function [Windows Deployment Services]",
+    "wds.pxeproviderregister",
+    "wdspxe/PxeProviderRegister"
+  ],
+  "old-location": "wds\\pxeproviderregister.htm",
+  "tech.root": "wds",
+  "ms.assetid": "2b377855-dae7-47cb-925a-9ee0a9265f83",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxeProviderRegister function [Windows Deployment Services], wds.pxeproviderregister, wdspxe/PxeProviderRegister",
+  "req.header": "wdspxe.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WdsPxe.lib",
+  "req.dll": "WdsPxe.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PxeProviderRegister",
+    "wdspxe/PxeProviderRegister"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WdsPxe.dll"
+  ],
+  "api_name": [
+    "PxeProviderRegister"
+  ]
+}

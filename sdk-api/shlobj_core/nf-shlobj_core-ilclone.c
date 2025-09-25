@@ -1,0 +1,3 @@
+PIDLIST_RELATIVE ILClone(
+  [in] PCUIDLIST_RELATIVE pidl
+);

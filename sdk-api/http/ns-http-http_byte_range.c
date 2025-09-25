@@ -1,0 +1,4 @@
+typedef struct _HTTP_BYTE_RANGE {
+  ULARGE_INTEGER StartingOffset;
+  ULARGE_INTEGER Length;
+} HTTP_BYTE_RANGE, *PHTTP_BYTE_RANGE;

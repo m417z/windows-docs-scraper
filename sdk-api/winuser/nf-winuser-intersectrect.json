@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winuser.IntersectRect",
+  "title": "IntersectRect function (winuser.h)",
+  "description": "The IntersectRect function calculates the intersection of two source rectangles and places the coordinates of the intersection rectangle into the destination rectangle.",
+  "helpviewer_keywords": [
+    "IntersectRect",
+    "IntersectRect function [Windows GDI]",
+    "_win32_IntersectRect",
+    "gdi.intersectrect",
+    "winuser/IntersectRect"
+  ],
+  "old-location": "gdi\\intersectrect.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "da686f78-e557-4ff2-9f24-b229f0c01563",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IntersectRect, IntersectRect function [Windows GDI], _win32_IntersectRect, gdi.intersectrect, winuser/IntersectRect",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IntersectRect",
+    "winuser/IntersectRect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "user32.dll",
+    "API-MS-Win-NTUser-Rectangle-l1-1-0.dll",
+    "minuser.dll",
+    "Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll"
+  ],
+  "api_name": [
+    "IntersectRect"
+  ]
+}

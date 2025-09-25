@@ -1,0 +1,3 @@
+DWORD GdiGetPageCount(
+  HANDLE SpoolFileHandle
+);

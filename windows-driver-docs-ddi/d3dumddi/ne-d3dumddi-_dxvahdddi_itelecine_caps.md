@@ -1,0 +1,31 @@
+# _DXVAHDDDI_ITELECINE_CAPS enumeration
+
+## Description
+
+Specifies the inverse telecine (IVTC) capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+
+## Constants
+
+### `DXVAHDDDI_ITELECINE_CAPS_32`
+
+### `DXVAHDDDI_ITELECINE_CAPS_22`
+
+### `DXVAHDDDI_ITELECINE_CAPS_2224`
+
+### `DXVAHDDDI_ITELECINE_CAPS_2332`
+
+### `DXVAHDDDI_ITELECINE_CAPS_32322`
+
+### `DXVAHDDDI_ITELECINE_CAPS_55`
+
+### `DXVAHDDDI_ITELECINE_CAPS_64`
+
+### `DXVAHDDDI_ITELECINE_CAPS_87`
+
+### `DXVAHDDDI_ITELECINE_CAPS_222222222223`
+
+### `DXVAHDDDI_ITELECINE_CAPS_OTHER`
+
+## Remarks
+
+## See also

@@ -1,0 +1,3 @@
+VOID ExDestroyPool(
+  HANDLE PoolHandle
+);

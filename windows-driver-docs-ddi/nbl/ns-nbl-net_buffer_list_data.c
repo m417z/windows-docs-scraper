@@ -1,0 +1,4 @@
+typedef struct _NET_BUFFER_LIST_DATA {
+  NET_BUFFER_LIST *Next;
+  NET_BUFFER      *FirstNetBuffer;
+} NET_BUFFER_LIST_DATA, *PNET_BUFFER_LIST_DATA;

@@ -1,0 +1,76 @@
+{
+  "UID": "NF:bcrypt.BCryptImportKeyPair",
+  "title": "BCryptImportKeyPair function (bcrypt.h)",
+  "description": "Imports a public/private key pair from a key BLOB.",
+  "helpviewer_keywords": [
+    "BCRYPT_DH_PRIVATE_BLOB",
+    "BCRYPT_DH_PUBLIC_BLOB",
+    "BCRYPT_DSA_PRIVATE_BLOB",
+    "BCRYPT_DSA_PUBLIC_BLOB",
+    "BCRYPT_ECCPRIVATE_BLOB",
+    "BCRYPT_ECCPUBLIC_BLOB",
+    "BCRYPT_NO_KEY_VALIDATION",
+    "BCRYPT_PRIVATE_KEY_BLOB",
+    "BCRYPT_PUBLIC_KEY_BLOB",
+    "BCRYPT_RSAPRIVATE_BLOB",
+    "BCRYPT_RSAPUBLIC_BLOB",
+    "BCryptImportKeyPair",
+    "BCryptImportKeyPair function [Security]",
+    "LEGACY_DH_PRIVATE_BLOB",
+    "LEGACY_DH_PUBLIC_BLOB",
+    "LEGACY_DSA_PRIVATE_BLOB",
+    "LEGACY_DSA_PUBLIC_BLOB",
+    "LEGACY_DSA_V2_PRIVATE_BLOB",
+    "LEGACY_RSAPRIVATE_BLOB",
+    "LEGACY_RSAPUBLIC_BLOB",
+    "bcrypt/BCryptImportKeyPair",
+    "security.bcryptimportkeypair"
+  ],
+  "old-location": "security\\bcryptimportkeypair.htm",
+  "tech.root": "security",
+  "ms.assetid": "271fc084-6121-4666-b521-b849c7d7966c",
+  "ms.date": "06/16/2025",
+  "ms.keywords": "BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_NO_KEY_VALIDATION, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, BCryptImportKeyPair, BCryptImportKeyPair function [Security], LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_DSA_V2_PRIVATE_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, bcrypt/BCryptImportKeyPair, security.bcryptimportkeypair",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptImportKeyPair",
+    "bcrypt/BCryptImportKeyPair"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptImportKeyPair"
+  ]
+}

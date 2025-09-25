@@ -1,0 +1,1 @@
+void ~CD3D11_TEXTURE1D_DESC();

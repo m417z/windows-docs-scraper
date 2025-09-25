@@ -1,0 +1,5 @@
+typedef enum ASSOCIATIONLEVEL {
+  AL_MACHINE = 0,
+  AL_EFFECTIVE,
+  AL_USER
+} ;

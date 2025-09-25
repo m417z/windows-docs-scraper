@@ -1,0 +1,3 @@
+void NET_BUFFER_LIST_IS_URO_SET(
+  _NBL
+);

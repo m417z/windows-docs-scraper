@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netdispumdddi.PFN_MIRACAST_IO_CONTROL",
+  "title": "PFN_MIRACAST_IO_CONTROL (netdispumdddi.h)",
+  "description": "Called by the user-mode display driver to send the kernel-mode display miniport driver a synchronous I/O control request.The data type of this function is PFN_MIRACAST_IO_CONTROL.",
+  "old-location": "display\\miracastiocontrol.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFN_MIRACAST_IO_CONTROL callback function"
+  ],
+  "ms.keywords": "MiracastIoControl, MiracastIoControl callback function [Display Devices], PFN_MIRACAST_IO_CONTROL, PFN_MIRACAST_IO_CONTROL callback, display.miracastiocontrol, netdispumdddi/MiracastIoControl",
+  "req.header": "netdispumdddi.h",
+  "req.include-header": "Netdispumdddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_MIRACAST_IO_CONTROL",
+    "netdispumdddi/PFN_MIRACAST_IO_CONTROL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Netdispumdddi.h"
+  ],
+  "api_name": [
+    "PFN_MIRACAST_IO_CONTROL"
+  ]
+}

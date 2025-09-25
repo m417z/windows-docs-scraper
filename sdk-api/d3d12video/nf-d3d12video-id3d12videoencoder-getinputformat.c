@@ -1,0 +1,1 @@
+DXGI_FORMAT GetInputFormat();

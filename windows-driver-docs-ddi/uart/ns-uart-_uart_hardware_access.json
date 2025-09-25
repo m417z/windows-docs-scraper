@@ -1,0 +1,47 @@
+{
+  "UID": "NS:uart._UART_HARDWARE_ACCESS",
+  "title": "_UART_HARDWARE_ACCESS (uart.h)",
+  "description": "Contains I/O functions and the function pointers used by the serial drivers to access the device hardware.",
+  "tech.root": "uart",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "UART_HARDWARE_ACCESS structure"
+  ],
+  "ms.keywords": "_UART_HARDWARE_ACCESS, UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS,",
+  "req.header": "uart.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_UART_HARDWARE_ACCESS",
+    "uart/_UART_HARDWARE_ACCESS",
+    "PUART_HARDWARE_ACCESS",
+    "uart/PUART_HARDWARE_ACCESS",
+    "UART_HARDWARE_ACCESS",
+    "uart/UART_HARDWARE_ACCESS"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "uart.h"
+  ],
+  "api_name": [
+    "_UART_HARDWARE_ACCESS",
+    "PUART_HARDWARE_ACCESS",
+    "UART_HARDWARE_ACCESS"
+  ]
+}

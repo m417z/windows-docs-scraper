@@ -1,0 +1,4 @@
+typedef struct _PROPSHEETPAGEW_V2 {
+  LPCWSTR pszHeaderTitle;
+  LPCWSTR pszHeaderSubTitle;
+} PROPSHEETPAGEW_V2, *LPPROPSHEETPAGEW_V2;

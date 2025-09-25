@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.AppendTailList",
+  "title": "AppendTailList function (wdm.h)",
+  "description": "The AppendTailList routine appends a doubly linked list of LIST_ENTRY structures to the tail of another doubly linked list of LIST_ENTRY structures.",
+  "tech.root": "kernel",
+  "ms.date": "01/10/2023",
+  "keywords": [
+    "AppendTailList function"
+  ],
+  "ms.keywords": "AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], kernel.appendtaillist, wdm/AppendTailList",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AppendTailList",
+    "wdm/AppendTailList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "AppendTailList"
+  ]
+}

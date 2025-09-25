@@ -1,0 +1,60 @@
+{
+  "UID": "NF:ntsecapi.LsaQueryForestTrustInformation",
+  "title": "LsaQueryForestTrustInformation function (ntsecapi.h)",
+  "description": "Retrieves forest trust information for the specified Local Security Authority TrustedDomain object.",
+  "helpviewer_keywords": [
+    "LsaQueryForestTrustInformation",
+    "LsaQueryForestTrustInformation function [Security]",
+    "ntsecapi/LsaQueryForestTrustInformation",
+    "security.lsaqueryforesttrustinformation"
+  ],
+  "old-location": "security\\lsaqueryforesttrustinformation.htm",
+  "tech.root": "security",
+  "ms.assetid": "38857f1f-e2c7-4ce5-a928-335bc3bd2176",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaQueryForestTrustInformation, LsaQueryForestTrustInformation function [Security], ntsecapi/LsaQueryForestTrustInformation, security.lsaqueryforesttrustinformation",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaQueryForestTrustInformation",
+    "ntsecapi/LsaQueryForestTrustInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-lsa-l1-1-4.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-3.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-2.dll",
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "LsaQueryForestTrustInformation"
+  ]
+}

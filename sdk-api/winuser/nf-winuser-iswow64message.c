@@ -1,0 +1,1 @@
+BOOL IsWow64Message();

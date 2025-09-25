@@ -1,0 +1,1 @@
+DWORD IMAGEAPI GetSymLoadError();

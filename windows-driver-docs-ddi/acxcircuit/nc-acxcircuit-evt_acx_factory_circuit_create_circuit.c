@@ -1,0 +1,10 @@
+EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT EvtAcxFactoryCircuitCreateCircuit;
+
+NTSTATUS EvtAcxFactoryCircuitCreateCircuit(
+  WDFDEVICE Parent,
+  WDFDEVICE Device,
+  ACXFACTORYCIRCUIT Factory,
+  PACX_FACTORY_CIRCUIT_ADD_CIRCUIT Config,
+  PACXCIRCUIT_INIT CircuitInit
+)
+{...}

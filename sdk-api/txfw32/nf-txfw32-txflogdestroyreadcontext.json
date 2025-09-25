@@ -1,0 +1,57 @@
+{
+  "UID": "NF:txfw32.TxfLogDestroyReadContext",
+  "title": "TxfLogDestroyReadContext function (txfw32.h)",
+  "description": "Closes a read context created by the TxfLogCreateFileReadContext function.",
+  "helpviewer_keywords": [
+    "TxfLogDestroyReadContext",
+    "TxfLogDestroyReadContext function [Files]",
+    "fs.txflogdestroyreadcontext",
+    "txfw32/TxfLogDestroyReadContext"
+  ],
+  "old-location": "fs\\txflogdestroyreadcontext.htm",
+  "tech.root": "fs",
+  "ms.assetid": "e1f323bd-48cb-4264-89a0-185d18881726",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TxfLogDestroyReadContext, TxfLogDestroyReadContext function [Files], fs.txflogdestroyreadcontext, txfw32/TxfLogDestroyReadContext",
+  "req.header": "txfw32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "TxfW32.lib",
+  "req.dll": "TxfW32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TxfLogDestroyReadContext",
+    "txfw32/TxfLogDestroyReadContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "TxfW32.dll"
+  ],
+  "api_name": [
+    "TxfLogDestroyReadContext"
+  ]
+}

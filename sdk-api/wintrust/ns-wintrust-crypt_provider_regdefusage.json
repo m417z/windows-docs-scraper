@@ -1,0 +1,65 @@
+{
+  "UID": "NS:wintrust._CRYPT_PROVIDER_REGDEFUSAGE",
+  "title": "CRYPT_PROVIDER_REGDEFUSAGE (wintrust.h)",
+  "description": "Used by the WintrustAddDefaultForUsage function to register callback information about a provider's default usage.",
+  "helpviewer_keywords": [
+    "*PCRYPT_PROVIDER_REGDEFUSAGE",
+    "CRYPT_PROVIDER_REGDEFUSAGE",
+    "CRYPT_PROVIDER_REGDEFUSAGE structure [Security]",
+    "PCRYPT_PROVIDER_REGDEFUSAGE",
+    "PCRYPT_PROVIDER_REGDEFUSAGE structure pointer [Security]",
+    "security.crypt_provider_regdefusage",
+    "wintrust/CRYPT_PROVIDER_REGDEFUSAGE",
+    "wintrust/PCRYPT_PROVIDER_REGDEFUSAGE"
+  ],
+  "old-location": "security\\crypt_provider_regdefusage.htm",
+  "tech.root": "security",
+  "ms.assetid": "A6047CBA-E4BA-4A31-B700-C368CFB57895",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PCRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE structure [Security], PCRYPT_PROVIDER_REGDEFUSAGE, PCRYPT_PROVIDER_REGDEFUSAGE structure pointer [Security], security.crypt_provider_regdefusage, wintrust/CRYPT_PROVIDER_REGDEFUSAGE, wintrust/PCRYPT_PROVIDER_REGDEFUSAGE",
+  "req.header": "wintrust.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CRYPT_PROVIDER_REGDEFUSAGE, *PCRYPT_PROVIDER_REGDEFUSAGE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_CRYPT_PROVIDER_REGDEFUSAGE",
+    "wintrust/_CRYPT_PROVIDER_REGDEFUSAGE",
+    "PCRYPT_PROVIDER_REGDEFUSAGE",
+    "wintrust/PCRYPT_PROVIDER_REGDEFUSAGE",
+    "CRYPT_PROVIDER_REGDEFUSAGE",
+    "wintrust/CRYPT_PROVIDER_REGDEFUSAGE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wintrust.h"
+  ],
+  "api_name": [
+    "CRYPT_PROVIDER_REGDEFUSAGE"
+  ]
+}

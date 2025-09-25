@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngGetLastError",
+  "title": "EngGetLastError function (winddi.h)",
+  "description": "The EngGetLastError function returns the last error code logged by GDI for the calling thread.",
+  "helpviewer_keywords": [
+    "EngGetLastError",
+    "EngGetLastError function [Display Devices]",
+    "display.enggetlasterror",
+    "gdifncs_19c92fa6-2204-40e7-adc5-22a85b9ba0d5.xml",
+    "winddi/EngGetLastError"
+  ],
+  "old-location": "display\\enggetlasterror.htm",
+  "tech.root": "display",
+  "ms.assetid": "47138077-125e-4da9-b0de-e437a9b1733d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngGetLastError, EngGetLastError function [Display Devices], display.enggetlasterror, gdifncs_19c92fa6-2204-40e7-adc5-22a85b9ba0d5.xml, winddi/EngGetLastError",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngGetLastError",
+    "winddi/EngGetLastError"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngGetLastError"
+  ]
+}

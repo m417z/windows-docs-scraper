@@ -1,0 +1,3 @@
+HBA_STATUS HBA_API SMHBA_RegisterLibrary(
+  PSMHBA_ENTRYPOINTS entrypoints
+);

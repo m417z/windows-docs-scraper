@@ -1,0 +1,3 @@
+HRESULT BlameProcess(
+  BSTR Postfix
+);

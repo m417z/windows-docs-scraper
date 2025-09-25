@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._SYSTEM_POWER_STATE_CONTEXT",
+  "title": "_SYSTEM_POWER_STATE_CONTEXT (wdm.h)",
+  "description": "Learn how the SYSTEM_POWER_STATE_CONTEXT structure is a partially opaque system structure that contains information about the previous system power states of a computer.",
+  "old-location": "kernel\\system_power_state_context.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "SYSTEM_POWER_STATE_CONTEXT structure"
+  ],
+  "ms.keywords": "*PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, wdm/PSYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntpoapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT",
+  "f1_keywords": [
+    "_SYSTEM_POWER_STATE_CONTEXT",
+    "wdm/_SYSTEM_POWER_STATE_CONTEXT",
+    "PSYSTEM_POWER_STATE_CONTEXT",
+    "wdm/PSYSTEM_POWER_STATE_CONTEXT",
+    "SYSTEM_POWER_STATE_CONTEXT",
+    "wdm/SYSTEM_POWER_STATE_CONTEXT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_SYSTEM_POWER_STATE_CONTEXT",
+    "PSYSTEM_POWER_STATE_CONTEXT",
+    "SYSTEM_POWER_STATE_CONTEXT"
+  ]
+}

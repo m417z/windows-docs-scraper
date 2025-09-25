@@ -1,0 +1,3 @@
+typedef struct D3D12DDI_NODE_MASK_0054 {
+  UINT NodeMask;
+} D3D12DDI_NODE_MASK_0054;

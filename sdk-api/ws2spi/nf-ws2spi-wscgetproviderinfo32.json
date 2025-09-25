@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ws2spi.WSCGetProviderInfo32",
+  "title": "WSCGetProviderInfo32 function (ws2spi.h)",
+  "description": "Retrieves the data associated with an information class for a 32-bit layered service provider (LSP).Note  This call is a strictly 32-bit version of WSCGetProviderInfo for use on 64-bit platforms.",
+  "helpviewer_keywords": [
+    "WSCGetProviderInfo32",
+    "WSCGetProviderInfo32 function [Winsock]",
+    "winsock.wscgetproviderinfo32",
+    "ws2spi/WSCGetProviderInfo32"
+  ],
+  "old-location": "winsock\\wscgetproviderinfo32.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "91686b38-3cde-4979-8bf6-45e805dd37ff",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSCGetProviderInfo32, WSCGetProviderInfo32 function [Winsock], winsock.wscgetproviderinfo32, ws2spi/WSCGetProviderInfo32",
+  "req.header": "ws2spi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSCGetProviderInfo32",
+    "ws2spi/WSCGetProviderInfo32"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSCGetProviderInfo32"
+  ]
+}

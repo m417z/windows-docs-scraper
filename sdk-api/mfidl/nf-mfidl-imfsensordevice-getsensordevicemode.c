@@ -1,0 +1,3 @@
+HRESULT GetSensorDeviceMode(
+  MFSensorDeviceMode *peMode
+);

@@ -1,0 +1,3 @@
+PVOID DlGetAssociatedDeviceExtension(
+  PVOID DeviceObject
+);

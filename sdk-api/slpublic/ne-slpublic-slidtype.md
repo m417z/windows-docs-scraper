@@ -1,0 +1,25 @@
+# SLIDTYPE enumeration
+
+## Description
+
+Represents the type of Software Licensing ID.
+
+## Constants
+
+### `SL_ID_APPLICATION:0`
+
+### `SL_ID_PRODUCT_SKU`
+
+### `SL_ID_LICENSE_FILE`
+
+### `SL_ID_LICENSE`
+
+### `SL_ID_PKEY`
+
+### `SL_ID_ALL_LICENSES`
+
+### `SL_ID_ALL_LICENSE_FILES`
+
+### `SL_ID_STORE_TOKEN`
+
+### `SL_ID_LAST`

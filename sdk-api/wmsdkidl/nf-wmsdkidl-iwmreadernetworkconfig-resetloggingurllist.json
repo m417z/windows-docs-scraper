@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderNetworkConfig.ResetLoggingUrlList",
+  "title": "IWMReaderNetworkConfig::ResetLoggingUrlList (wmsdkidl.h)",
+  "description": "The ResetLoggingUrlList method clears the list of servers that receive logging data.",
+  "helpviewer_keywords": [
+    "IWMReaderNetworkConfig interface [windows Media Format]",
+    "ResetLoggingUrlList method",
+    "IWMReaderNetworkConfig.ResetLoggingUrlList",
+    "IWMReaderNetworkConfig::ResetLoggingUrlList",
+    "IWMReaderNetworkConfigResetLoggingUrlList",
+    "ResetLoggingUrlList",
+    "ResetLoggingUrlList method [windows Media Format]",
+    "ResetLoggingUrlList method [windows Media Format]",
+    "IWMReaderNetworkConfig interface",
+    "wmformat.iwmreadernetworkconfig_resetloggingurllist",
+    "wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList"
+  ],
+  "old-location": "wmformat\\iwmreadernetworkconfig_resetloggingurllist.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "0fe71d73-a827-4aed-a37b-db7701cc1180",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderNetworkConfig interface [windows Media Format],ResetLoggingUrlList method, IWMReaderNetworkConfig.ResetLoggingUrlList, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderNetworkConfig::ResetLoggingUrlList",
+    "wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderNetworkConfig.ResetLoggingUrlList"
+  ]
+}

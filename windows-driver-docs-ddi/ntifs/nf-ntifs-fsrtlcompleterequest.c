@@ -1,0 +1,4 @@
+void FsRtlCompleteRequest(
+  IRP,
+  STATUS
+);

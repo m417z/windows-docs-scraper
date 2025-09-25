@@ -1,0 +1,4 @@
+typedef struct _GET_LOCAL_HOST_INFO7_WXP {
+  ULONG          HostDmaCapabilities;
+  ULARGE_INTEGER MaxDmaBufferSize;
+} GET_LOCAL_HOST_INFO7_WXP, *PGET_LOCAL_HOST_INFO7_WXP;

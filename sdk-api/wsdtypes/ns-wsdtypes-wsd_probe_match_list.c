@@ -1,0 +1,4 @@
+typedef struct _WSD_PROBE_MATCH_LIST {
+  WSD_PROBE_MATCH_LIST *Next;
+  WSD_PROBE_MATCH      *Element;
+} WSD_PROBE_MATCH_LIST;

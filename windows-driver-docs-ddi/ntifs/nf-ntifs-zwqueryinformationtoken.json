@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.ZwQueryInformationToken",
+  "title": "ZwQueryInformationToken function (ntifs.h)",
+  "description": "The ZwQueryInformationToken routine retrieves a specified type of information about an access token.",
+  "old-location": "kernel\\zwqueryinformationtoken.htm",
+  "tech.root": "kernel",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "ZwQueryInformationToken function"
+  ],
+  "ms.keywords": "NtQueryInformationToken, ZwQueryInformationToken, ZwQueryInformationToken routine [Kernel-Mode Driver Architecture], k111_2f945a17-f3b4-423a-90fa-6f02d240d42d.xml, kernel.zwqueryinformationtoken, ntifs/NtQueryInformationToken, ntifs/ZwQueryInformationToken",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwQueryInformationToken",
+    "ntifs/ZwQueryInformationToken"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwQueryInformationToken"
+  ]
+}

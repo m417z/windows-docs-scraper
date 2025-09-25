@@ -1,0 +1,4 @@
+typedef struct _DHCP_CLASS_INFO_ARRAY_V6 {
+  DWORD                NumElements;
+  LPDHCP_CLASS_INFO_V6 Classes;
+} DHCP_CLASS_INFO_ARRAY_V6, *LPDHCP_CLASS_INFO_ARRAY_V6;

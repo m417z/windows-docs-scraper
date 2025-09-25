@@ -1,0 +1,4 @@
+typedef enum AppPolicyProcessTerminationMethod {
+  AppPolicyProcessTerminationMethod_ExitProcess,
+  AppPolicyProcessTerminationMethod_TerminateProcess
+} ;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterInstanceFindNext",
+  "title": "FilterInstanceFindNext function (fltuser.h)",
+  "description": "The FilterInstanceFindNext function continues a minifilter driver instance search started by a call to FilterInstanceFindFirst.",
+  "helpviewer_keywords": [
+    "FilterInstanceFindNext",
+    "FilterInstanceFindNext function [Installable File System Drivers]",
+    "FltWin32ApiRef_35023bec-f16b-4ac0-ad0f-f3550e8cfafd.xml",
+    "fltuser/FilterInstanceFindNext",
+    "ifsk.filterinstancefindnext"
+  ],
+  "old-location": "ifsk\\filterinstancefindnext.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "c7305378-1de8-4db0-89a2-2ac342a17620",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterInstanceFindNext, FilterInstanceFindNext function [Installable File System Drivers], FltWin32ApiRef_35023bec-f16b-4ac0-ad0f-f3550e8cfafd.xml, fltuser/FilterInstanceFindNext, ifsk.filterinstancefindnext",
+  "req.header": "fltuser.h",
+  "req.include-header": "FltUser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterInstanceFindNext",
+    "fltuser/FilterInstanceFindNext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterInstanceFindNext"
+  ]
+}

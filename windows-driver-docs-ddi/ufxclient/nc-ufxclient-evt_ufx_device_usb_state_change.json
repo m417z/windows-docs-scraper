@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ufxclient.EVT_UFX_DEVICE_USB_STATE_CHANGE",
+  "title": "EVT_UFX_DEVICE_USB_STATE_CHANGE (ufxclient.h)",
+  "description": "The client driver's implementation to update the state of the USB device.",
+  "old-location": "buses\\evt_ufx_device_usb_state_change.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "EVT_UFX_DEVICE_USB_STATE_CHANGE callback function"
+  ],
+  "ms.keywords": "EVT_UFX_DEVICE_USB_STATE_CHANGE, EVT_UFX_DEVICE_USB_STATE_CHANGE callback, EvtUfxDeviceUsbStateChange, EvtUfxDeviceUsbStateChange callback function [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], buses.evt_ufx_device_usb_state_change, ufxclient/EvtUfxDeviceUsbStateChange",
+  "req.header": "ufxclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UFX_DEVICE_USB_STATE_CHANGE",
+    "ufxclient/EVT_UFX_DEVICE_USB_STATE_CHANGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ufxclient.h"
+  ],
+  "api_name": [
+    "EVT_UFX_DEVICE_USB_STATE_CHANGE"
+  ]
+}

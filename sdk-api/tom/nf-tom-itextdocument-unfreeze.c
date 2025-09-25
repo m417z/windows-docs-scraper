@@ -1,0 +1,3 @@
+HRESULT Unfreeze(
+  long *pCount
+);

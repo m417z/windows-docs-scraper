@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.PoSetSystemWake",
+  "title": "PoSetSystemWake function (wdm.h)",
+  "description": "The PoSetSystemWake routine marks the specified IRP as one that contributed to waking the system from a sleep state.",
+  "old-location": "kernel\\posetsystemwake.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PoSetSystemWake function"
+  ],
+  "ms.keywords": "PoSetSystemWake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], kernel.posetsystemwake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, wdm/PoSetSystemWake",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PoSetSystemWake",
+    "wdm/PoSetSystemWake"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "PoSetSystemWake"
+  ]
+}

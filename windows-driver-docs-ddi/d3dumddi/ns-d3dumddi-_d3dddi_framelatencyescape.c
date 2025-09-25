@@ -1,0 +1,3 @@
+typedef struct _D3DDDI_FRAMELATENCYESCAPE {
+  [in] UINT RequestedLatency;
+} D3DDDI_FRAMELATENCYESCAPE;

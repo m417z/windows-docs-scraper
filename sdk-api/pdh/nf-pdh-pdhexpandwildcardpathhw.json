@@ -1,0 +1,65 @@
+{
+  "UID": "NF:pdh.PdhExpandWildCardPathHW",
+  "title": "PdhExpandWildCardPathHW function (pdh.h)",
+  "description": "Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources. (Unicode)",
+  "helpviewer_keywords": [
+    "PDH_NOEXPANDCOUNTERS",
+    "PDH_NOEXPANDINSTANCES",
+    "PdhExpandWildCardPathH",
+    "PdhExpandWildCardPathH function [Perf]",
+    "PdhExpandWildCardPathHW",
+    "_win32_pdhexpandwildcardpathh",
+    "base.pdhexpandwildcardpathh",
+    "pdh/PdhExpandWildCardPathH",
+    "pdh/PdhExpandWildCardPathHW",
+    "perf.pdhexpandwildcardpathh"
+  ],
+  "old-location": "perf\\pdhexpandwildcardpathh.htm",
+  "tech.root": "perf",
+  "ms.assetid": "d7d13beb-02ab-4204-808e-d395197f09e1",
+  "ms.date": "08/08/2022",
+  "ms.keywords": "PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhExpandWildCardPathHW (Unicode) and PdhExpandWildCardPathHA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhExpandWildCardPathHW",
+    "pdh/PdhExpandWildCardPathHW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhExpandWildCardPathH",
+    "PdhExpandWildCardPathHA",
+    "PdhExpandWildCardPathHW"
+  ]
+}

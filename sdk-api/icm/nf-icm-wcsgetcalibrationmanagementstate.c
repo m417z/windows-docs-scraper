@@ -1,0 +1,3 @@
+BOOL WcsGetCalibrationManagementState(
+  BOOL *pbIsEnabled
+);

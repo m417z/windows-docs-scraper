@@ -1,0 +1,62 @@
+{
+  "UID": "NF:ntsecapi.LsaStorePrivateData",
+  "title": "LsaStorePrivateData function (ntsecapi.h)",
+  "description": "Do not use the LSA private data functions for generic data encryption and decryption. Instead, use the CryptProtectData and CryptUnprotectData functions. Only use the LSA private data functions when it is necessary to manipulate LSA secrets  (LsaStorePrivateData)",
+  "helpviewer_keywords": [
+    "LsaStorePrivateData",
+    "LsaStorePrivateData function [Security]",
+    "_lsa_lsastoreprivatedata",
+    "ntsecapi/LsaStorePrivateData",
+    "security.lsastoreprivatedata"
+  ],
+  "old-location": "security\\lsastoreprivatedata.htm",
+  "tech.root": "security",
+  "ms.assetid": "95d6cf30-fd08-473e-b0b3-3f7ca5e85357",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaStorePrivateData, LsaStorePrivateData function [Security], _lsa_lsastoreprivatedata, ntsecapi/LsaStorePrivateData, security.lsastoreprivatedata",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaStorePrivateData",
+    "ntsecapi/LsaStorePrivateData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-lsapolicy-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Security-lsapolicy-l1-1-0.dll",
+    "sechost.dll",
+    "API-MS-Win-Security-LSAPolicy-L1-1-1.dll"
+  ],
+  "api_name": [
+    "LsaStorePrivateData"
+  ]
+}

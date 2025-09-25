@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_PIN_INFO {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_PIN_INFO      PinInfo;
+} NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO;

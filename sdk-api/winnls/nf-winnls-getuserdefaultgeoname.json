@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winnls.GetUserDefaultGeoName",
+  "title": "GetUserDefaultGeoName function (winnls.h)",
+  "description": "Retrieves the two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code for the default geographical location of the user.",
+  "helpviewer_keywords": [
+    "GetUserDefaultGeoName",
+    "GetUserDefaultGeoName function [Internationalization for Windows Applications]",
+    "intl.getuserdefaultgeoname",
+    "winnls/GetUserDefaultGeoName"
+  ],
+  "old-location": "intl\\getuserdefaultgeoname.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "7938A5A1-E18E-4643-A07C-3354B4E94B5D",
+  "ms.date": "01/29/2025",
+  "ms.keywords": "GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetUserDefaultGeoName",
+    "winnls/GetUserDefaultGeoName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-localization-l1-2-4.dll",
+    "api-ms-win-core-localization-l1-2-3.dll",
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "GetUserDefaultGeoName"
+  ]
+}

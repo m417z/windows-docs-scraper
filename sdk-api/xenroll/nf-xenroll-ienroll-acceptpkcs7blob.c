@@ -1,0 +1,3 @@
+HRESULT acceptPKCS7Blob(
+  [in] PCRYPT_DATA_BLOB pBlobPKCS7
+);

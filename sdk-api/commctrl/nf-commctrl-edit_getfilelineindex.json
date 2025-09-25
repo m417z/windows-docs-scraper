@@ -1,0 +1,57 @@
+{
+  "UID": "NF:commctrl.Edit_GetFileLineIndex",
+  "title": "Edit_GetFileLineIndex macro (commctrl.h)",
+  "description": "Gets the index of the file (or logical) line of text based on the specified visible line. You can use this macro or send the EM_FILELINEINDEX message explicitly.",
+  "helpviewer_keywords": [
+    "Edit_GetFileLineIndex",
+    "Edit_GetFileLineIndex macro [Windows Controls]",
+    "commctrl/Edit_GetFileLineIndex",
+    "controls.edit_getfilelineindex"
+  ],
+  "old-location": "controls\\edit_getfilelineindex.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "FC119B71-BC5C-437E-9DBE-DD907F459D45",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "Edit_GetFileLineIndex, Edit_GetFileLineIndex macro [Windows Controls], commctrl/Edit_GetFileLineIndex, controls.edit_getfilelineindex",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Edit_GetFileLineIndex",
+    "commctrl/Edit_GetFileLineIndex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "Edit_GetFileLineIndex"
+  ]
+}

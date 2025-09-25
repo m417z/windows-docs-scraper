@@ -1,0 +1,9 @@
+typedef struct _APPLY_SNAPSHOT_VHDSET_PARAMETERS {
+  APPLY_SNAPSHOT_VHDSET_VERSION Version;
+  union {
+    struct {
+      GUID SnapshotId;
+      GUID LeafSnapshotId;
+    } Version1;
+  };
+} APPLY_SNAPSHOT_VHDSET_PARAMETERS, *PAPPLY_SNAPSHOT_VHDSET_PARAMETERS;

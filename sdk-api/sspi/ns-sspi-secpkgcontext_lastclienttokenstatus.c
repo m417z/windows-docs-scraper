@@ -1,0 +1,3 @@
+typedef struct _SecPkgContext_LastClientTokenStatus {
+  SECPKG_ATTR_LCT_STATUS LastClientTokenStatus;
+} SecPkgContext_LastClientTokenStatus, *PSecPkgContext_LastClientTokenStatus;

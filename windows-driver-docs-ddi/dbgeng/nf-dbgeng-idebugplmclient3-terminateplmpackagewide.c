@@ -1,0 +1,4 @@
+HRESULT TerminatePlmPackageWide(
+  [in] ULONG64 Server,
+  [in] PCWSTR  PackageFullName
+);

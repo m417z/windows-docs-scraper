@@ -1,0 +1,3 @@
+VOID OEMDisablePDEV(
+  PDEVOBJ pdevobj
+);

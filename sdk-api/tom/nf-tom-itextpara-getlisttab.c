@@ -1,0 +1,3 @@
+HRESULT GetListTab(
+  float *pValue
+);

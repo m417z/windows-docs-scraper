@@ -1,0 +1,51 @@
+{
+  "UID": "NS:windns._DNS_APPLICATION_SETTINGS",
+  "title": "DNS_APPLICATION_SETTINGS",
+  "description": "Represents per-application DNS settings.",
+  "tech.root": "DNS",
+  "ms.date": "08/31/2021",
+  "req.construct-type": "structure",
+  "req.header": "windns.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DNS_APPLICATION_SETTINGS",
+  "req.redist": null,
+  "f1_keywords": [
+    "_DNS_APPLICATION_SETTINGS",
+    "windns/_DNS_APPLICATION_SETTINGS",
+    "DNS_APPLICATION_SETTINGS",
+    "windns/DNS_APPLICATION_SETTINGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "windns.h"
+  ],
+  "api_name": [
+    "_DNS_APPLICATION_SETTINGS",
+    "DNS_APPLICATION_SETTINGS"
+  ],
+  "prerelease": false
+}

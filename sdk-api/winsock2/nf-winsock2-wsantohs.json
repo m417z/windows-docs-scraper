@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winsock2.WSANtohs",
+  "title": "WSANtohs function (winsock2.h)",
+  "description": "The WSANtohs function converts a u_short from network byte order to host byte order.",
+  "helpviewer_keywords": [
+    "WSANtohs",
+    "WSANtohs function [Winsock]",
+    "_win32_wsantohs_2",
+    "winsock.wsantohs_2",
+    "winsock2/WSANtohs"
+  ],
+  "old-location": "winsock\\wsantohs_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "0a4bc3a9-9919-4dcb-8a37-af37e0243c8f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSANtohs, WSANtohs function [Winsock], _win32_wsantohs_2, winsock.wsantohs_2, winsock2/WSANtohs",
+  "req.header": "winsock2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSANtohs",
+    "winsock2/WSANtohs"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSANtohs"
+  ]
+}

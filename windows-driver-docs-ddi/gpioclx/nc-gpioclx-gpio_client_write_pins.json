@@ -1,0 +1,48 @@
+{
+  "UID": "NC:gpioclx.GPIO_CLIENT_WRITE_PINS",
+  "title": "GPIO_CLIENT_WRITE_PINS (gpioclx.h)",
+  "description": "The CLIENT_WriteGpioPins event callback function writes to a set of general-purpose I/O (GPIO) pins that are configured as data outputs.",
+  "old-location": "gpio\\client_writegpiopins.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "GPIO_CLIENT_WRITE_PINS callback function"
+  ],
+  "ms.keywords": "CLIENT_WriteGpioPins, CLIENT_WriteGpioPins callback, CLIENT_WriteGpioPins callback function [Parallel Ports], GPIO.client_writegpiopins, GPIO_CLIENT_WRITE_PINS, gpioclx/CLIENT_WriteGpioPins",
+  "req.header": "gpioclx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GPIO_CLIENT_WRITE_PINS",
+    "gpioclx/GPIO_CLIENT_WRITE_PINS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Gpioclx.h"
+  ],
+  "api_name": [
+    "GPIO_CLIENT_WRITE_PINS"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntifs.IoReplaceFileObjectName",
+  "title": "IoReplaceFileObjectName function (ntifs.h)",
+  "description": "Learn more about the IoReplaceFileObjectName routine.",
+  "tech.root": "ifsk",
+  "ms.date": "07/06/2023",
+  "keywords": [
+    "IoReplaceFileObjectName function"
+  ],
+  "ms.keywords": "IoReplaceFileObjectName, ntifs/IoReplaceFileObjectName",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 7",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoReplaceFileObjectName",
+    "ntifs/IoReplaceFileObjectName"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoReplaceFileObjectName"
+  ]
+}

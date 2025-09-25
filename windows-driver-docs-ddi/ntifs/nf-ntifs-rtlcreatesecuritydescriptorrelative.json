@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.RtlCreateSecurityDescriptorRelative",
+  "title": "RtlCreateSecurityDescriptorRelative function (ntifs.h)",
+  "description": "The RtlCreateSecurityDescriptorRelative routine initializes a new security descriptor in self-relative format.",
+  "old-location": "ifsk\\rtlcreatesecuritydescriptorrelative.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlCreateSecurityDescriptorRelative function"
+  ],
+  "ms.keywords": "RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers], ifsk.rtlcreatesecuritydescriptorrelative, ntifs/RtlCreateSecurityDescriptorRelative, rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlCreateSecurityDescriptorRelative",
+    "ntifs/RtlCreateSecurityDescriptorRelative"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlCreateSecurityDescriptorRelative"
+  ]
+}

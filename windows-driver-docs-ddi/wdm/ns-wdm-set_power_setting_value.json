@@ -1,0 +1,49 @@
+{
+  "UID": "NS:wdm.SET_POWER_SETTING_VALUE",
+  "tech.root": "kernel",
+  "title": "SET_POWER_SETTING_VALUE (wdm.h)",
+  "ms.date": "03/01/2023",
+  "targetos": "Windows",
+  "description": "This topic describes the SET_POWER_SETTING_VALUE structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SET_POWER_SETTING_VALUE, *PSET_POWER_SETTING_VALUE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "PSET_POWER_SETTING_VALUE",
+    "SET_POWER_SETTING_VALUE"
+  ],
+  "f1_keywords": [
+    "PSET_POWER_SETTING_VALUE",
+    "wdm/PSET_POWER_SETTING_VALUE",
+    "SET_POWER_SETTING_VALUE",
+    "wdm/SET_POWER_SETTING_VALUE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "SET_POWER_SETTING_VALUE"
+  ]
+}

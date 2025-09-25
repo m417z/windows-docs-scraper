@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.RtlAppendStringToString",
+  "title": "RtlAppendStringToString function (ntifs.h)",
+  "description": "The RtlAppendStringToString routine concatenates two counted strings. It copies bytes from the source up to the length of the destination buffer.",
+  "old-location": "ifsk\\rtlappendstringtostring.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlAppendStringToString function"
+  ],
+  "ms.keywords": "RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers], ifsk.rtlappendstringtostring, ntifs/RtlAppendStringToString, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlAppendStringToString",
+    "ntifs/RtlAppendStringToString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlAppendStringToString"
+  ]
+}

@@ -1,0 +1,10 @@
+typedef enum {
+  BIDI_NULL,
+  BIDI_INT,
+  BIDI_FLOAT,
+  BIDI_BOOL,
+  BIDI_STRING,
+  BIDI_TEXT,
+  BIDI_ENUM,
+  BIDI_BLOB
+} BIDI_TYPE;

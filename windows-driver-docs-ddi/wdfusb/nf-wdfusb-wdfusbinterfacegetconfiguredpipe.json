@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfusb.WdfUsbInterfaceGetConfiguredPipe",
+  "title": "WdfUsbInterfaceGetConfiguredPipe function (wdfusb.h)",
+  "description": "The WdfUsbInterfaceGetConfiguredPipe method returns a handle to the framework pipe object that is associated with a specified USB device interface and pipe index. Optionally, the method also returns information about the pipe.",
+  "old-location": "wdf\\wdfusbinterfacegetconfiguredpipe.htm",
+  "tech.root": "wdf",
+  "ms.date": "01/26/2022",
+  "keywords": [
+    "WdfUsbInterfaceGetConfiguredPipe function"
+  ],
+  "ms.keywords": "DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2, UsbKmdfIrql, UsbKmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfUsbInterfaceGetConfiguredPipe",
+    "wdfusb/WdfUsbInterfaceGetConfiguredPipe"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfUsbInterfaceGetConfiguredPipe"
+  ]
+}

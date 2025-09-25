@@ -1,0 +1,3 @@
+HRESULT get_HWND(
+  HANDLE_PTR *hwnd
+);

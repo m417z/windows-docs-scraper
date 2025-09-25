@@ -1,0 +1,3 @@
+HRESULT SetDisplayType(
+  long lnDisplayType
+);

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FSRTL_PER_FILE_CONTEXT",
+  "title": "_FSRTL_PER_FILE_CONTEXT (ntifs.h)",
+  "description": "A legacy file system filter driver can use a FSRTL_PER_FILE_CONTEXT structure to associate driver-specific context information to an open file.",
+  "old-location": "ifsk\\fsrtl_per_file_context.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FSRTL_PER_FILE_CONTEXT structure"
+  ],
+  "ms.keywords": "*PFSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, ifsk.fsrtl_per_file_context, ntifs/FSRTL_PER_FILE_CONTEXT, ntifs/PFSRTL_PER_FILE_CONTEXT",
+  "req.header": "ntifs.h",
+  "req.include-header": "Fltkernel.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting withWindows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT",
+  "f1_keywords": [
+    "_FSRTL_PER_FILE_CONTEXT",
+    "ntifs/_FSRTL_PER_FILE_CONTEXT",
+    "PFSRTL_PER_FILE_CONTEXT",
+    "ntifs/PFSRTL_PER_FILE_CONTEXT",
+    "FSRTL_PER_FILE_CONTEXT",
+    "ntifs/FSRTL_PER_FILE_CONTEXT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FSRTL_PER_FILE_CONTEXT",
+    "PFSRTL_PER_FILE_CONTEXT",
+    "FSRTL_PER_FILE_CONTEXT"
+  ]
+}

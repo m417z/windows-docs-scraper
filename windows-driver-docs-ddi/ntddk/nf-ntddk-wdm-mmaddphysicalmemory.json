@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ntddk.MmAddPhysicalMemory",
+  "tech.root": "kernel",
+  "title": "MmAddPhysicalMemory",
+  "ms.date": "10/20/2023",
+  "targetos": "Windows",
+  "description": "The MmAddPhysicalMemory function adds a range of physical memory to the system.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddk.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "MmAddPhysicalMemory"
+  ],
+  "f1_keywords": [
+    "MmAddPhysicalMemory",
+    "ntddk/MmAddPhysicalMemory"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

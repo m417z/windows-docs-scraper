@@ -1,0 +1,3 @@
+typedef struct _WWAN_VENDOR_SPECIFIC {
+  ULONG uVendorSpecificBufferSize;
+} WWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC;

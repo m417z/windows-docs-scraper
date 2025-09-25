@@ -1,0 +1,4 @@
+typedef struct {
+  DWORD dwMajorVersion;
+  DWORD dwMinorVersion;
+} HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO, *PHTTP_VERSION_INFO;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dmusicks.IPortDMus.Notify",
+  "title": "IPortDMus::Notify (dmusicks.h)",
+  "description": "The Notify method should be called from the miniport driver's interrupt service routine (ISR) when a hardware interrupt has occurred.",
+  "old-location": "audio\\iportdmus_notify.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortDMus::Notify"
+  ],
+  "ms.keywords": "IPortDMus interface [Audio Devices],Notify method, IPortDMus.Notify, IPortDMus::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortDMus interface, audio.iportdmus_notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify",
+  "req.header": "dmusicks.h",
+  "req.include-header": "Dmusicks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortDMus::Notify",
+    "dmusicks/IPortDMus::Notify"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dmusicks.h"
+  ],
+  "api_name": [
+    "IPortDMus::Notify"
+  ]
+}

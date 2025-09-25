@@ -1,0 +1,4 @@
+typedef enum tag_WBEM_GET_KEY_FLAGS {
+  WBEMPATH_TEXT = 0x1,
+  WBEMPATH_QUOTEDTEXT = 0x2
+} ;

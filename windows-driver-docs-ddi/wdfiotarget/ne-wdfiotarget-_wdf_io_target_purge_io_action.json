@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdfiotarget._WDF_IO_TARGET_PURGE_IO_ACTION",
+  "title": "_WDF_IO_TARGET_PURGE_IO_ACTION (wdfiotarget.h)",
+  "description": "The WDF_IO_TARGET_PURGE_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetPurge to purge an I/O target.",
+  "old-location": "wdf\\wdf_io_target_purge_io_action.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_IO_TARGET_PURGE_IO_ACTION enumeration"
+  ],
+  "ms.keywords": "WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIoUndefined, _WDF_IO_TARGET_PURGE_IO_ACTION, kmdf.wdf_io_target_purge_io_action, wdf.wdf_io_target_purge_io_action, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIoUndefined",
+  "req.header": "wdfiotarget.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_IO_TARGET_PURGE_IO_ACTION",
+  "f1_keywords": [
+    "_WDF_IO_TARGET_PURGE_IO_ACTION",
+    "wdfiotarget/_WDF_IO_TARGET_PURGE_IO_ACTION",
+    "WDF_IO_TARGET_PURGE_IO_ACTION",
+    "wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfiotarget.h"
+  ],
+  "api_name": [
+    "_WDF_IO_TARGET_PURGE_IO_ACTION",
+    "WDF_IO_TARGET_PURGE_IO_ACTION"
+  ]
+}

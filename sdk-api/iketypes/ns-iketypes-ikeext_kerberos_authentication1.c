@@ -1,0 +1,4 @@
+typedef struct IKEEXT_KERBEROS_AUTHENTICATION1__ {
+  UINT32  flags;
+  wchar_t *proxyServer;
+} IKEEXT_KERBEROS_AUTHENTICATION1;

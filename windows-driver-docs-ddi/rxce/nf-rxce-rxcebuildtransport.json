@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxce.RxCeBuildTransport",
+  "title": "RxCeBuildTransport function (rxce.h)",
+  "description": "RxCeBuildTransport binds an RDBSS transport object to a specified transport name.",
+  "old-location": "ifsk\\rxcebuildtransport.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCeBuildTransport function"
+  ],
+  "ms.keywords": "RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml",
+  "req.header": "rxce.h",
+  "req.include-header": "Rxce.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCeBuildTransport",
+    "rxce/RxCeBuildTransport"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxce.h"
+  ],
+  "api_name": [
+    "RxCeBuildTransport"
+  ]
+}

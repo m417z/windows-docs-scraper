@@ -1,0 +1,5 @@
+typedef struct _THREAD_POWER_THROTTLING_STATE {
+  ULONG Version;
+  ULONG ControlMask;
+  ULONG StateMask;
+} THREAD_POWER_THROTTLING_STATE;

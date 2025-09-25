@@ -1,0 +1,25 @@
+typedef struct _WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS {
+  DWORD                                dwVersion;
+  DWORD                                dwTimeoutMilliseconds;
+  WEBAUTHN_CREDENTIALS                 CredentialList;
+  WEBAUTHN_EXTENSIONS                  Extensions;
+  DWORD                                dwAuthenticatorAttachment;
+  BOOL                                 bRequireResidentKey;
+  DWORD                                dwUserVerificationRequirement;
+  DWORD                                dwAttestationConveyancePreference;
+  DWORD                                dwFlags;
+  GUID                                 *pCancellationId;
+  PWEBAUTHN_CREDENTIAL_LIST            pExcludeCredentialList;
+  DWORD                                dwEnterpriseAttestation;
+  DWORD                                dwLargeBlobSupport;
+  BOOL                                 bPreferResidentKey;
+  BOOL                                 bBrowserInPrivateMode;
+  BOOL                                 bEnablePrf;
+  PCTAPCBOR_HYBRID_STORAGE_LINKED_DATA pLinkedDevice;
+  DWORD                                cbJsonExt;
+  PBYTE                                pbJsonExt;
+  PWEBAUTHN_HMAC_SECRET_SALT           pPRFGlobalEval;
+  DWORD                                cCredentialHints;
+  LPCWSTR                              *ppwszCredentialHints;
+  BOOL                                 bThirdPartyPayment;
+} WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS, *PWEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS;

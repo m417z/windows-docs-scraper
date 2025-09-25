@@ -1,0 +1,3 @@
+BOOL Equals(
+  IDWriteFontFace *fontFace
+);

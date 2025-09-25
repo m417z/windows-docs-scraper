@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._D3COLD_SUPPORT_INTERFACE",
+  "title": "_D3COLD_SUPPORT_INTERFACE (wdm.h)",
+  "description": "The D3COLD_SUPPORT_INTERFACE interface structure contains pointers to the routines in the GUID_D3COLD_SUPPORT_INTERFACE driver interface.",
+  "old-location": "kernel\\d3cold_support_interface.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "D3COLD_SUPPORT_INTERFACE structure"
+  ],
+  "ms.keywords": "*PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE",
+  "f1_keywords": [
+    "_D3COLD_SUPPORT_INTERFACE",
+    "wdm/_D3COLD_SUPPORT_INTERFACE",
+    "PD3COLD_SUPPORT_INTERFACE",
+    "wdm/PD3COLD_SUPPORT_INTERFACE",
+    "D3COLD_SUPPORT_INTERFACE",
+    "wdm/D3COLD_SUPPORT_INTERFACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_D3COLD_SUPPORT_INTERFACE",
+    "PD3COLD_SUPPORT_INTERFACE",
+    "D3COLD_SUPPORT_INTERFACE"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _SAFER_URLZONE_IDENTIFICATION {
+  SAFER_IDENTIFICATION_HEADER header;
+  DWORD                       UrlZoneId;
+  DWORD                       dwSaferFlags;
+} SAFER_URLZONE_IDENTIFICATION, *PSAFER_URLZONE_IDENTIFICATION;

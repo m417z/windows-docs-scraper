@@ -1,0 +1,3 @@
+HRESULT Populate(
+  IStream *contentStream
+);

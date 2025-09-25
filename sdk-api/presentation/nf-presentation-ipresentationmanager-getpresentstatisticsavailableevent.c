@@ -1,0 +1,3 @@
+HRESULT GetPresentStatisticsAvailableEvent(
+  HANDLE *presentStatisticsAvailableEventHandle
+);

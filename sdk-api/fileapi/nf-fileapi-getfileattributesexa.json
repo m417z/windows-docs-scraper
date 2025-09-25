@@ -1,0 +1,68 @@
+{
+  "UID": "NF:fileapi.GetFileAttributesExA",
+  "title": "GetFileAttributesExA function (fileapi.h)",
+  "description": "Retrieves attributes for a specified file or directory. (ANSI)",
+  "helpviewer_keywords": [
+    "GetFileAttributesExA",
+    "GetFileExInfoStandard",
+    "fileapi/GetFileAttributesExA"
+  ],
+  "old-location": "fs\\getfileattributesex.htm",
+  "tech.root": "fs",
+  "ms.assetid": "e5d84000-17c1-4517-97a7-6bd240d73814",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetFileAttributesEx, GetFileAttributesEx function [Files], GetFileAttributesExA, GetFileAttributesExW, GetFileExInfoStandard, _win32_getfileattributesex, base.getfileattributesex, fileapi/GetFileAttributesEx, fileapi/GetFileAttributesExA, fileapi/GetFileAttributesExW, fs.getfileattributesex, winbase/GetFileAttributesEx, winbase/GetFileAttributesExA, winbase/GetFileAttributesExW",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetFileAttributesExW (Unicode) and GetFileAttributesExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetFileAttributesExA",
+    "fileapi/GetFileAttributesExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-0.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "GetFileAttributesEx",
+    "GetFileAttributesExA",
+    "GetFileAttributesExW"
+  ]
+}

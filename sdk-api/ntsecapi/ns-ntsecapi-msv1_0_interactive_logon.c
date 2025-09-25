@@ -1,0 +1,6 @@
+typedef struct _MSV1_0_INTERACTIVE_LOGON {
+  MSV1_0_LOGON_SUBMIT_TYPE MessageType;
+  UNICODE_STRING           LogonDomainName;
+  UNICODE_STRING           UserName;
+  UNICODE_STRING           Password;
+} MSV1_0_INTERACTIVE_LOGON, *PMSV1_0_INTERACTIVE_LOGON;

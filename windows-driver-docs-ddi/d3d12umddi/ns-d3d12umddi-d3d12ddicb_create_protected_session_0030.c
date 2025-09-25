@@ -1,0 +1,4 @@
+typedef struct D3D12DDICB_CREATE_PROTECTED_SESSION_0030 {
+  const VOID *pPrivateDriverData;
+  UINT       PrivateDriverDataSize;
+} D3D12DDICB_CREATE_PROTECTED_SESSION_0030;

@@ -1,0 +1,6 @@
+typedef struct RILIMSHANDOVERATTEMPT {
+  DWORD            cbSize;
+  RILIMSSYSTEMTYPE dwOldSystemType;
+  RILIMSSYSTEMTYPE dwDestSystemType;
+  HRESULT          hrHandOverResult;
+} RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT;

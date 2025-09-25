@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndPutSource",
+  "title": "MCIWndPutSource macro (vfw.h)",
+  "description": "The MCIWndPutSource macro redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_PUT_SOURCE message.",
+  "helpviewer_keywords": [
+    "MCIWndPutSource",
+    "MCIWndPutSource macro [Windows Multimedia]",
+    "_win32_MCIWndPutSource",
+    "multimedia.mciwndputsource",
+    "vfw/MCIWndPutSource"
+  ],
+  "old-location": "multimedia\\mciwndputsource.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "a55e72e3-47af-4846-a20d-5f0176127459",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndPutSource, MCIWndPutSource macro [Windows Multimedia], _win32_MCIWndPutSource, multimedia.mciwndputsource, vfw/MCIWndPutSource",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndPutSource",
+    "vfw/MCIWndPutSource"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndPutSource"
+  ]
+}

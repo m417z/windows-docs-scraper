@@ -1,0 +1,5 @@
+typedef struct _MINIDUMP_USER_STREAM {
+  ULONG32 Type;
+  ULONG   BufferSize;
+  PVOID   Buffer;
+} MINIDUMP_USER_STREAM, *PMINIDUMP_USER_STREAM;

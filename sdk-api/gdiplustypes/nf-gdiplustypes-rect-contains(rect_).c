@@ -1,0 +1,3 @@
+BOOL Contains(
+  Rect & rect
+);

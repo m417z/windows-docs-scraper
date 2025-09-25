@@ -1,0 +1,3 @@
+HRESULT get_Type(
+  WDSTRANSPORT_NAMESPACE_TYPE *pType
+);

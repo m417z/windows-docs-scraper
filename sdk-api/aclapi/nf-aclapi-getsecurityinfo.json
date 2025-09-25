@@ -1,0 +1,63 @@
+{
+  "UID": "NF:aclapi.GetSecurityInfo",
+  "title": "GetSecurityInfo function (aclapi.h)",
+  "description": "Retrieves a copy of the security descriptor for an object specified by a handle.",
+  "helpviewer_keywords": [
+    "GetSecurityInfo",
+    "GetSecurityInfo function [Security]",
+    "_win32_getsecurityinfo",
+    "aclapi/GetSecurityInfo",
+    "security.getsecurityinfo"
+  ],
+  "old-location": "security\\getsecurityinfo.htm",
+  "tech.root": "security",
+  "ms.assetid": "64767a6b-cd79-4e02-881a-706a078ff446",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo",
+  "req.header": "aclapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetSecurityInfo",
+    "aclapi/GetSecurityInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll",
+    "advapi32legacy.dll",
+    "api-ms-win-security-provider-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll",
+    "ntmarta.dll"
+  ],
+  "api_name": [
+    "GetSecurityInfo"
+  ]
+}

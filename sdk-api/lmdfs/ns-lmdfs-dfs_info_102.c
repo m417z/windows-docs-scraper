@@ -1,0 +1,3 @@
+typedef struct _DFS_INFO_102 {
+  ULONG Timeout;
+} DFS_INFO_102, *PDFS_INFO_102, *LPDFS_INFO_102;

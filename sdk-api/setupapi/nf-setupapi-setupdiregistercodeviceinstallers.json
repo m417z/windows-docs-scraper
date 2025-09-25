@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupDiRegisterCoDeviceInstallers",
+  "title": "SetupDiRegisterCoDeviceInstallers function (setupapi.h)",
+  "description": "The SetupDiRegisterCoDeviceInstallers function is the default handler for DIF_REGISTER_COINSTALLERS.",
+  "helpviewer_keywords": [
+    "SetupDiRegisterCoDeviceInstallers",
+    "SetupDiRegisterCoDeviceInstallers function [Device and Driver Installation]",
+    "devinst.setupdiregistercodeviceinstallers",
+    "di-rtns_03f0dc0a-f133-4280-b32d-9a811d04a844.xml",
+    "setupapi/SetupDiRegisterCoDeviceInstallers"
+  ],
+  "old-location": "devinst\\setupdiregistercodeviceinstallers.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "75d0275b-9eb8-45ec-ac8e-b18d59e0c011",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiRegisterCoDeviceInstallers, SetupDiRegisterCoDeviceInstallers function [Device and Driver Installation], devinst.setupdiregistercodeviceinstallers, di-rtns_03f0dc0a-f133-4280-b32d-9a811d04a844.xml, setupapi/SetupDiRegisterCoDeviceInstallers",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiRegisterCoDeviceInstallers",
+    "setupapi/SetupDiRegisterCoDeviceInstallers"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiRegisterCoDeviceInstallers"
+  ]
+}

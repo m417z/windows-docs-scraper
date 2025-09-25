@@ -1,0 +1,4 @@
+typedef struct _NDIS_POLL_NOTIFICATION {
+  NDIS_OBJECT_HEADER Header;
+  BOOLEAN            Enabled;
+} NDIS_POLL_NOTIFICATION;

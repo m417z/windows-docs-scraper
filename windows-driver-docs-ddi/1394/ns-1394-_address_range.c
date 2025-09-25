@@ -1,0 +1,5 @@
+typedef struct _ADDRESS_RANGE {
+  USHORT AR_Off_High;
+  USHORT AR_Length;
+  ULONG  AR_Off_Low;
+} ADDRESS_RANGE, *PADDRESS_RANGE;

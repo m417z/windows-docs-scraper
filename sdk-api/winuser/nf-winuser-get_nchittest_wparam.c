@@ -1,0 +1,3 @@
+short GET_NCHITTEST_WPARAM(
+    WPARAM wParam
+);

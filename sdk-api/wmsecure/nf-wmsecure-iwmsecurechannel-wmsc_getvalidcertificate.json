@@ -1,0 +1,63 @@
+{
+  "UID": "NF:wmsecure.IWMSecureChannel.WMSC_GetValidCertificate",
+  "title": "IWMSecureChannel::WMSC_GetValidCertificate (wmsecure.h)",
+  "description": "The WMSC_GetValidCertificate method returns a copy of the certificate that was used provided by the other side of the connection. Also returns the index of the signature that validated that certificate.",
+  "helpviewer_keywords": [
+    "IWMSecureChannel interface [windows Media Format]",
+    "WMSC_GetValidCertificate method",
+    "IWMSecureChannel.WMSC_GetValidCertificate",
+    "IWMSecureChannel::WMSC_GetValidCertificate",
+    "WMSC_GetValidCertificate",
+    "WMSC_GetValidCertificate method [windows Media Format]",
+    "WMSC_GetValidCertificate method [windows Media Format]",
+    "IWMSecureChannel interface",
+    "wmformat.iwmsecurechannel_wmsc_getvalidcertificate",
+    "wmsecure/IWMSecureChannel::WMSC_GetValidCertificate"
+  ],
+  "old-location": "wmformat\\iwmsecurechannel_wmsc_getvalidcertificate.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "0ecc25c5-238e-4415-952e-7d830ba1c317",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMSecureChannel interface [windows Media Format],WMSC_GetValidCertificate method, IWMSecureChannel.WMSC_GetValidCertificate, IWMSecureChannel::WMSC_GetValidCertificate, WMSC_GetValidCertificate, WMSC_GetValidCertificate method [windows Media Format], WMSC_GetValidCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_getvalidcertificate, wmsecure/IWMSecureChannel::WMSC_GetValidCertificate",
+  "req.header": "wmsecure.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMSecureChannel::WMSC_GetValidCertificate",
+    "wmsecure/IWMSecureChannel::WMSC_GetValidCertificate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmsecure.h"
+  ],
+  "api_name": [
+    "IWMSecureChannel.WMSC_GetValidCertificate"
+  ]
+}

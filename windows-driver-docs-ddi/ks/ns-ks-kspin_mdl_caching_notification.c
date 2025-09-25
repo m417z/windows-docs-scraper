@@ -1,0 +1,4 @@
+typedef struct {
+  KSPIN_MDL_CACHING_EVENT Event;
+  PVOID                   Buffer;
+} KSPIN_MDL_CACHING_NOTIFICATION, *PKSPIN_MDL_CACHING_NOTIFICATION;

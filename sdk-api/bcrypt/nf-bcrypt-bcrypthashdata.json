@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptHashData",
+  "title": "BCryptHashData function (bcrypt.h)",
+  "description": "Performs a one way hash or Message Authentication Code (MAC) on a data buffer.",
+  "helpviewer_keywords": [
+    "BCryptHashData",
+    "BCryptHashData function [Security]",
+    "bcrypt/BCryptHashData",
+    "security.bcrypthashdata_func"
+  ],
+  "old-location": "security\\bcrypthashdata_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "dab89dff-dc84-4f69-8b6b-de65704b0265",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "BCryptHashData, BCryptHashData function [Security], bcrypt/BCryptHashData, security.bcrypthashdata_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptHashData",
+    "bcrypt/BCryptHashData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptHashData"
+  ]
+}

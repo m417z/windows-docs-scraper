@@ -1,0 +1,67 @@
+{
+  "UID": "NF:evntrace.EnableTraceEx",
+  "title": "EnableTraceEx function (evntrace.h)",
+  "description": "A trace session controller calls EnableTraceEx to configure how an ETW event provider logs events to a trace session. The EnableTraceEx2 function supersedes this function.",
+  "helpviewer_keywords": [
+    "EVENT_ENABLE_PROPERTY_SID",
+    "EVENT_ENABLE_PROPERTY_TS_ID",
+    "EnableTraceEx",
+    "EnableTraceEx function [ETW]",
+    "TRACE_LEVEL_CRITICAL",
+    "TRACE_LEVEL_ERROR",
+    "TRACE_LEVEL_INFORMATION",
+    "TRACE_LEVEL_VERBOSE",
+    "TRACE_LEVEL_WARNING",
+    "base.enabletraceex_func",
+    "etw.enabletraceex_func",
+    "evntrace/EnableTraceEx"
+  ],
+  "old-location": "etw\\enabletraceex_func.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "1c675bf7-f292-49b1-8b60-720499a497fd",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_TS_ID, EnableTraceEx, EnableTraceEx function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, base.enabletraceex_func, etw.enabletraceex_func, evntrace/EnableTraceEx",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnableTraceEx",
+    "evntrace/EnableTraceEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-eventing-Legacy-l1-1-0.dll",
+    "advapi32legacy.dll"
+  ],
+  "api_name": [
+    "EnableTraceEx"
+  ]
+}

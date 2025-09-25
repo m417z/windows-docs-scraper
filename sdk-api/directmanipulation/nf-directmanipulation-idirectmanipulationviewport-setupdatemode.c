@@ -1,0 +1,3 @@
+HRESULT SetUpdateMode(
+  [in] DIRECTMANIPULATION_INPUT_MODE mode
+);

@@ -1,0 +1,65 @@
+{
+  "UID": "NS:p2p.peer_event_endpoint_changed_data_tag",
+  "title": "PEER_EVENT_ENDPOINT_CHANGED_DATA (p2p.h)",
+  "description": "The PEER_EVENT_ENDPOINT_CHANGED_DATA structure contains information returned when a PEER_EVENT_ENDPOINT_CHANGED or PEER_EVENT_MY_ENDPOINT_CHANGED event is raised on a peer participating in a peer collaboration network.",
+  "helpviewer_keywords": [
+    "*PPEER_EVENT_ENDPOINT_CHANGED_DATA",
+    "PEER_EVENT_ENDPOINT_CHANGED_DATA",
+    "PEER_EVENT_ENDPOINT_CHANGED_DATA structure [Peer Networking]",
+    "PPEER_EVENT_ENDPOINT_CHANGED_DATA",
+    "PPEER_EVENT_ENDPOINT_CHANGED_DATA structure pointer [Peer Networking]",
+    "p2p.peer_event_endpoint_changed_data",
+    "p2p/PEER_EVENT_ENDPOINT_CHANGED_DATA",
+    "p2p/PPEER_EVENT_ENDPOINT_CHANGED_DATA"
+  ],
+  "old-location": "p2p\\peer_event_endpoint_changed_data.htm",
+  "tech.root": "p2p",
+  "ms.assetid": "e2ce28c6-6dc0-4ceb-aa3f-7b86a2581425",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PPEER_EVENT_ENDPOINT_CHANGED_DATA, PEER_EVENT_ENDPOINT_CHANGED_DATA, PEER_EVENT_ENDPOINT_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_ENDPOINT_CHANGED_DATA, PPEER_EVENT_ENDPOINT_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_endpoint_changed_data, p2p/PEER_EVENT_ENDPOINT_CHANGED_DATA, p2p/PPEER_EVENT_ENDPOINT_CHANGED_DATA",
+  "req.header": "p2p.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEER_EVENT_ENDPOINT_CHANGED_DATA, *PPEER_EVENT_ENDPOINT_CHANGED_DATA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "peer_event_endpoint_changed_data_tag",
+    "p2p/peer_event_endpoint_changed_data_tag",
+    "PPEER_EVENT_ENDPOINT_CHANGED_DATA",
+    "p2p/PPEER_EVENT_ENDPOINT_CHANGED_DATA",
+    "PEER_EVENT_ENDPOINT_CHANGED_DATA",
+    "p2p/PEER_EVENT_ENDPOINT_CHANGED_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "P2P.h"
+  ],
+  "api_name": [
+    "PEER_EVENT_ENDPOINT_CHANGED_DATA"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef struct _BIDI_REQUEST_CONTAINER {
+  DWORD             Version;
+  DWORD             Flags;
+  DWORD             Count;
+  BIDI_REQUEST_DATA aData[1];
+} BIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER;

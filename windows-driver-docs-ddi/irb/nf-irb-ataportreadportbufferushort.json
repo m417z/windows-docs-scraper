@@ -1,0 +1,51 @@
+{
+  "UID": "NF:irb.AtaPortReadPortBufferUshort",
+  "title": "AtaPortReadPortBufferUshort function (irb.h)",
+  "description": "The AtaPortReadPortBufferUshort routine transfers a given number of USHORT values from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ataportreadportbufferushort.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortReadPortBufferUshort function"
+  ],
+  "ms.keywords": "AtaPortReadPortBufferUshort, AtaPortReadPortBufferUshort routine [Storage Devices], atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml, irb/AtaPortReadPortBufferUshort, storage.ataportreadportbufferushort",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ataport.lib; Pciidex.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortReadPortBufferUshort",
+    "irb/AtaPortReadPortBufferUshort"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ataport.lib",
+    "ataport.dll",
+    "pciidex.lib",
+    "pciidex.dll"
+  ],
+  "api_name": [
+    "AtaPortReadPortBufferUshort"
+  ]
+}

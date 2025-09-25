@@ -1,0 +1,3 @@
+POINTS POINTTOPOINTS(
+    POINT pt
+);

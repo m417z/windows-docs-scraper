@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wudfinterrupt.WUDF_INTERRUPT_ISR",
+  "title": "WUDF_INTERRUPT_ISR (wudfinterrupt.h)",
+  "description": "A driver's OnInterruptIsr event callback function services a hardware interrupt.",
+  "old-location": "wdf\\oninterruptisr.htm",
+  "tech.root": "wdf",
+  "ms.date": "08/12/2022",
+  "keywords": [
+    "WUDF_INTERRUPT_ISR callback function"
+  ],
+  "ms.keywords": "OnInterruptIsr, OnInterruptIsr callback function, WUDF_INTERRUPT_ISR, WUDF_INTERRUPT_ISR callback, umdf.oninterruptisr, wdf.oninterruptisr, wudfinterrupt/OnInterruptIsr",
+  "req.header": "wudfinterrupt.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.11,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WUDF_INTERRUPT_ISR",
+    "wudfinterrupt/WUDF_INTERRUPT_ISR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wudfinterrupt.h"
+  ],
+  "api_name": [
+    "WUDF_INTERRUPT_ISR"
+  ]
+}

@@ -1,0 +1,3 @@
+PITEMID_CHILD ILCloneFirst(
+  [in] PCUIDLIST_RELATIVE pidl
+);

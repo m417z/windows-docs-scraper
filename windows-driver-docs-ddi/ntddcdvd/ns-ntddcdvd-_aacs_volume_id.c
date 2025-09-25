@@ -1,0 +1,4 @@
+typedef struct _AACS_VOLUME_ID {
+  UCHAR VolumeID[16];
+  UCHAR MAC[16];
+} AACS_VOLUME_ID, *PAACS_VOLUME_ID;

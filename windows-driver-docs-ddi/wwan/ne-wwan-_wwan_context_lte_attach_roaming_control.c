@@ -1,0 +1,6 @@
+typedef enum _WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL {
+  WwanContextLteAttachRoamingControlHome,
+  WwanContextLteAttachRoamingControlPartner,
+  WwanContextLteAttachRoamingControlNonPartner,
+  WwanContextLteAttachRoamingControlMaximum
+} WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL, *PWWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL;

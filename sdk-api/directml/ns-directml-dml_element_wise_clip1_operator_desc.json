@@ -1,0 +1,46 @@
+{
+  "UID": "NS:directml.DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC",
+  "tech.root": "directml",
+  "title": "DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC",
+  "ms.date": "06/16/2023",
+  "targetos": "Windows",
+  "description": "Performs a clamping (or limiting) operation for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "directml.h"
+  ],
+  "api_name": [
+    "DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC"
+  ],
+  "f1_keywords": [
+    "DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC",
+    "directml/DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC"
+  ]
+}

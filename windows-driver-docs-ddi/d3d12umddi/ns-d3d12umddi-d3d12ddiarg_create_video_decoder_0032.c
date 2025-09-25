@@ -1,0 +1,4 @@
+typedef struct D3D12DDIARG_CREATE_VIDEO_DECODER_0032 {
+  UINT                                     NodeMask;
+  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 Configuration;
+} D3D12DDIARG_CREATE_VIDEO_DECODER_0032;

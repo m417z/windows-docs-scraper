@@ -1,0 +1,46 @@
+{
+  "UID": "NE:wuapi.tagDownloadType",
+  "tech.root": "wua",
+  "title": "DownloadType",
+  "ms.date": "08/13/2024",
+  "targetos": "Windows",
+  "description": "Specifies the type of download to perform.",
+  "prerelease": true,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "wuapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11 Build 26100",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wuapi.h"
+  ],
+  "api_name": [
+    "tagDownloadType",
+    "DownloadType"
+  ],
+  "f1_keywords": [
+    "tagDownloadType",
+    "wuapi/tagDownloadType",
+    "DownloadType",
+    "wuapi/DownloadType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "tagDownloadType"
+  ]
+}

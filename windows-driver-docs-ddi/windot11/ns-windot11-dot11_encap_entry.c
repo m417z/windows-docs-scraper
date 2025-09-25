@@ -1,0 +1,4 @@
+typedef struct DOT11_ENCAP_ENTRY {
+  USHORT usEtherType;
+  USHORT usEncapType;
+} DOT11_ENCAP_ENTRY, *PDOT11_ENCAP_ENTRY;

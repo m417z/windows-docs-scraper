@@ -1,0 +1,3 @@
+HRESULT get_NetworkProfile(
+  WDSTRANSPORT_NETWORK_PROFILE_TYPE *pProfileType
+);

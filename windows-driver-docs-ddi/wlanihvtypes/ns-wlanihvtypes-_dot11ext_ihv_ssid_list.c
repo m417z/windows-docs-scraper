@@ -1,0 +1,8 @@
+typedef struct _DOT11EXT_IHV_SSID_LIST {
+  ULONG      ulCount;
+#if ...
+  DOT11_SSID *SSIDs[];
+#else
+  DOT11_SSID SSIDs[1];
+#endif
+} DOT11EXT_IHV_SSID_LIST, *PDOT11EXT_IHV_SSID_LIST;

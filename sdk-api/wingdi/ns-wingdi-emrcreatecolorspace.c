@@ -1,0 +1,5 @@
+typedef struct tagEMRCREATECOLORSPACE {
+  EMR            emr;
+  DWORD          ihCS;
+  LOGCOLORSPACEA lcs;
+} EMRCREATECOLORSPACE, *PEMRCREATECOLORSPACE;

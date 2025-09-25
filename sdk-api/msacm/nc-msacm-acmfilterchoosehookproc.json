@@ -1,0 +1,59 @@
+{
+  "UID": "NC:msacm.ACMFILTERCHOOSEHOOKPROC",
+  "title": "ACMFILTERCHOOSEHOOKPROC (msacm.h)",
+  "description": "The acmFilterChooseHookProc function specifies a user-defined function that hooks the acmFilterChoose dialog box.",
+  "helpviewer_keywords": [
+    "_win32_acmFilterChooseHookProc",
+    "acmFilterChooseHookProc",
+    "acmFilterChooseHookProc callback",
+    "acmFilterChooseHookProc callback function [Windows Multimedia]",
+    "msacm/acmFilterChooseHookProc",
+    "multimedia.acmfilterchoosehookproc"
+  ],
+  "old-location": "multimedia\\acmfilterchoosehookproc.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "974bdf53-cd1e-433b-9d49-8dfc20254ebf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_acmFilterChooseHookProc, acmFilterChooseHookProc, acmFilterChooseHookProc callback, acmFilterChooseHookProc callback function [Windows Multimedia], msacm/acmFilterChooseHookProc, multimedia.acmfilterchoosehookproc",
+  "req.header": "msacm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ACMFILTERCHOOSEHOOKPROC",
+    "msacm/ACMFILTERCHOOSEHOOKPROC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Msacm.h"
+  ],
+  "api_name": [
+    "acmFilterChooseHookProc"
+  ]
+}

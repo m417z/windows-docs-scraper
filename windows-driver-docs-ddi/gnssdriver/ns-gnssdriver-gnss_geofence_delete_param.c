@@ -1,0 +1,6 @@
+typedef struct {
+  ULONG Size;
+  ULONG Version;
+  ULONG GeofenceID;
+  BYTE  Unused[512];
+} GNSS_GEOFENCE_DELETE_PARAM, *PGNSS_GEOFENCE_DELETE_PARAM;

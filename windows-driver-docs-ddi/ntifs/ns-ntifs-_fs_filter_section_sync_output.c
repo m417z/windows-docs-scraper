@@ -1,0 +1,6 @@
+typedef struct _FS_FILTER_SECTION_SYNC_OUTPUT {
+  ULONG StructureSize;
+  ULONG SizeReturned;
+  ULONG Flags;
+  ULONG DesiredReadAlignment;
+} FS_FILTER_SECTION_SYNC_OUTPUT, *PFS_FILTER_SECTION_SYNC_OUTPUT;

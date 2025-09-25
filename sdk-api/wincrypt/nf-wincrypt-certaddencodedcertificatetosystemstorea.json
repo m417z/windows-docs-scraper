@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wincrypt.CertAddEncodedCertificateToSystemStoreA",
+  "title": "CertAddEncodedCertificateToSystemStoreA function (wincrypt.h)",
+  "description": "Opens the specified system store and adds the encoded certificate to it. (ANSI)",
+  "helpviewer_keywords": [
+    "CertAddEncodedCertificateToSystemStoreA",
+    "wincrypt/CertAddEncodedCertificateToSystemStoreA"
+  ],
+  "old-location": "security\\certaddencodedcertificatetosystemstore.htm",
+  "tech.root": "security",
+  "ms.assetid": "72ff1bcc-eb94-4d97-89fa-d95ed9eb460e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertAddEncodedCertificateToSystemStore, CertAddEncodedCertificateToSystemStore function [Security], CertAddEncodedCertificateToSystemStoreA, CertAddEncodedCertificateToSystemStoreW, security.certaddencodedcertificatetosystemstore, wincrypt/CertAddEncodedCertificateToSystemStore, wincrypt/CertAddEncodedCertificateToSystemStoreA, wincrypt/CertAddEncodedCertificateToSystemStoreW",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CertAddEncodedCertificateToSystemStoreW (Unicode) and CertAddEncodedCertificateToSystemStoreA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertAddEncodedCertificateToSystemStoreA",
+    "wincrypt/CertAddEncodedCertificateToSystemStoreA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertAddEncodedCertificateToSystemStore",
+    "CertAddEncodedCertificateToSystemStoreA",
+    "CertAddEncodedCertificateToSystemStoreW"
+  ]
+}

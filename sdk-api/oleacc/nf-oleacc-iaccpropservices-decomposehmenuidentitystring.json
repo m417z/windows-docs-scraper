@@ -1,0 +1,63 @@
+{
+  "UID": "NF:oleacc.IAccPropServices.DecomposeHmenuIdentityString",
+  "title": "IAccPropServices::DecomposeHmenuIdentityString (oleacc.h)",
+  "description": "Use this method to determine the HMENU, object ID, and child ID for the accessible element identified by the identity string.",
+  "helpviewer_keywords": [
+    "DecomposeHmenuIdentityString",
+    "DecomposeHmenuIdentityString method [Windows Accessibility]",
+    "DecomposeHmenuIdentityString method [Windows Accessibility]",
+    "IAccPropServices interface",
+    "IAccPropServices interface [Windows Accessibility]",
+    "DecomposeHmenuIdentityString method",
+    "IAccPropServices.DecomposeHmenuIdentityString",
+    "IAccPropServices::DecomposeHmenuIdentityString",
+    "oleacc/IAccPropServices::DecomposeHmenuIdentityString",
+    "winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring"
+  ],
+  "old-location": "winauto\\iaccpropservices_iaccpropservices__decomposehmenuidentitystring.htm",
+  "tech.root": "WinAuto",
+  "ms.assetid": "b76c4ba8-fb9a-438b-8547-b73b3c459ec6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DecomposeHmenuIdentityString, DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHmenuIdentityString method, IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring",
+  "req.header": "oleacc.h",
+  "req.include-header": "OleAcc.h Include Initguid.h first.",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Oleacc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAccPropServices::DecomposeHmenuIdentityString",
+    "oleacc/IAccPropServices::DecomposeHmenuIdentityString"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Oleacc.dll"
+  ],
+  "api_name": [
+    "IAccPropServices.DecomposeHmenuIdentityString"
+  ]
+}

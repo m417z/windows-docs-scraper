@@ -1,0 +1,58 @@
+{
+  "UID": "NF:msdrm.DRMSetApplicationSpecificData",
+  "title": "DRMSetApplicationSpecificData function (msdrm.h)",
+  "description": "Allows an issuance license to store arbitrary name-value pairs for use by the content-consuming application.",
+  "helpviewer_keywords": [
+    "DRMSetApplicationSpecificData",
+    "DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0]",
+    "msdrm/DRMSetApplicationSpecificData",
+    "rm.drmsetapplicationspecificdata"
+  ],
+  "old-location": "rm\\drmsetapplicationspecificdata.htm",
+  "tech.root": "rm",
+  "ms.assetid": "659b2d73-1160-4e5a-8779-4bb272653c54",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata",
+  "req.header": "msdrm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdrm.lib",
+  "req.dll": "Msdrm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Rights Management Services client 1.0 SP2 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DRMSetApplicationSpecificData",
+    "msdrm/DRMSetApplicationSpecificData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdrm.dll"
+  ],
+  "api_name": [
+    "DRMSetApplicationSpecificData"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:olectl.OleCreatePropertyFrameIndirect",
+  "title": "OleCreatePropertyFrameIndirect function (olectl.h)",
+  "description": "Creates a property frame, that is, a property sheet dialog box, based on a structure (OCPFIPARAMS) that contains the parameters, rather than specifying separate parameters as when calling OleCreatePropertyFrame.",
+  "helpviewer_keywords": [
+    "OleCreatePropertyFrameIndirect",
+    "OleCreatePropertyFrameIndirect function [COM]",
+    "_ctrl_OleCreatePropertyFrameIndirect",
+    "com.olecreatepropertyframeindirect",
+    "olectl/OleCreatePropertyFrameIndirect"
+  ],
+  "old-location": "com\\olecreatepropertyframeindirect.htm",
+  "tech.root": "com",
+  "ms.assetid": "ccd01d38-2d8e-4509-b44f-fef6ff718558",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect",
+  "req.header": "olectl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OleAut32.lib",
+  "req.dll": "OleAut32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OleCreatePropertyFrameIndirect",
+    "olectl/OleCreatePropertyFrameIndirect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "OleAut32.dll"
+  ],
+  "api_name": [
+    "OleCreatePropertyFrameIndirect"
+  ]
+}

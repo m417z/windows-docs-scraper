@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE VOID NETIOAPI_API_ FreeMibTable(
+  [in] PVOID Memory
+);

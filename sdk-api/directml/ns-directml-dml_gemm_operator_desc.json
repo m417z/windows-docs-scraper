@@ -1,0 +1,56 @@
+{
+  "UID": "NS:directml.DML_GEMM_OPERATOR_DESC",
+  "title": "DML_GEMM_OPERATOR_DESC",
+  "description": "Performs a general matrix multiplication function of the form `Output = FusedActivation(Alpha * TransA(A) x TransB(B) + Beta * C)`, where `x` denotes matrix multiplication, and `*` denotes multiplication with a scalar.",
+  "helpviewer_keywords": [
+    "DML_GEMM_OPERATOR_DESC",
+    "DML_GEMM_OPERATOR_DESC structure",
+    "direct3d12.dml_gemm_operator_desc",
+    "directml/DML_GEMM_OPERATOR_DESC"
+  ],
+  "old-location": "direct3d12\\dml_gemm_operator_desc.htm",
+  "tech.root": "directml",
+  "ms.assetid": "11482420-678E-4914-90F0-9F952BC09FF7",
+  "ms.date": "12/01/2022",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DML_GEMM_OPERATOR_DESC",
+    "directml/DML_GEMM_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_GEMM_OPERATOR_DESC"
+  ]
+}

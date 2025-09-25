@@ -1,0 +1,4 @@
+typedef struct _DHCP_SUPER_SCOPE_TABLE {
+  DWORD                        cEntries;
+  DHCP_SUPER_SCOPE_TABLE_ENTRY *pEntries;
+} DHCP_SUPER_SCOPE_TABLE, *LPDHCP_SUPER_SCOPE_TABLE;

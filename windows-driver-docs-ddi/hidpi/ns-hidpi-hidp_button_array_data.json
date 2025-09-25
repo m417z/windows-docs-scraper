@@ -1,0 +1,49 @@
+{
+  "UID": "NS:hidpi._HIDP_BUTTON_ARRAY_DATA",
+  "tech.root": "hid",
+  "title": "HIDP_BUTTON_ARRAY_DATA",
+  "ms.date": "11/18/2021",
+  "targetos": "Windows",
+  "description": "The HIDP_BUTTON_ARRAY_DATA structure is used to get or set data for single button in a button array.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "hidpi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "HIDP_BUTTON_ARRAY_DATA, *PHIDP_BUTTON_ARRAY_DATA",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "hidpi.h"
+  ],
+  "api_name": [
+    "_HIDP_BUTTON_ARRAY_DATA",
+    "PHIDP_BUTTON_ARRAY_DATA",
+    "HIDP_BUTTON_ARRAY_DATA"
+  ],
+  "f1_keywords": [
+    "_HIDP_BUTTON_ARRAY_DATA",
+    "hidpi/_HIDP_BUTTON_ARRAY_DATA",
+    "PHIDP_BUTTON_ARRAY_DATA",
+    "hidpi/PHIDP_BUTTON_ARRAY_DATA",
+    "HIDP_BUTTON_ARRAY_DATA",
+    "hidpi/HIDP_BUTTON_ARRAY_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

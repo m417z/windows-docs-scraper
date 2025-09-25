@@ -1,0 +1,43 @@
+{
+  "UID": "NF:wdm.MmAllocateMappingAddress",
+  "title": "MmAllocateMappingAddress function (wdm.h)",
+  "description": "The MmAllocateMappingAddress routine reserves a range of system virtual address space of the specified size.",
+  "tech.root": "kernel",
+  "ms.date": "08/29/2025",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<=APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmAllocateMappingAddress",
+    "wdm/MmAllocateMappingAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmAllocateMappingAddress"
+  ]
+}

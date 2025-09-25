@@ -1,0 +1,64 @@
+{
+  "UID": "NF:clusapi.ClusterRegCreateBatch",
+  "title": "ClusterRegCreateBatch function (clusapi.h)",
+  "description": "Creates a batch that will execute commands on a cluster registry key.",
+  "helpviewer_keywords": [
+    "ClusterRegCreateBatch",
+    "ClusterRegCreateBatch function [Failover Cluster]",
+    "PCLUSTER_REG_CREATE_BATCH",
+    "clusapi/ClusterRegCreateBatch",
+    "mscs.clusterregcreatebatch"
+  ],
+  "old-location": "mscs\\clusterregcreatebatch.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "83e7c216-f08f-4dc2-9b53-faa2760985d4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterRegCreateBatch",
+    "clusapi/ClusterRegCreateBatch"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "ClusterRegCreateBatch"
+  ]
+}

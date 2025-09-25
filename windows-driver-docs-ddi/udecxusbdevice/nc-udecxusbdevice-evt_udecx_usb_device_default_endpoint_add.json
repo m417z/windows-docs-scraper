@@ -1,0 +1,48 @@
+{
+  "UID": "NC:udecxusbdevice.EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD",
+  "title": "EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD (udecxusbdevice.h)",
+  "description": "The USB device emulation class extension (UdeCx) invokes this callback function to request the client driver to create the default control endpoint on the virtual USB device.",
+  "old-location": "buses\\evt_udecx_usb_device_default_endpoint_add.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD callback function"
+  ],
+  "ms.keywords": "EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUsbDeviceDefaultEndpointAdd, EvtUsbDeviceDefaultEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_default_endpoint_add, udecxusbdevice/EvtUsbDeviceDefaultEndpointAdd",
+  "req.header": "udecxusbdevice.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD",
+    "udecxusbdevice/EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "UdecxUsbDevice.h"
+  ],
+  "api_name": [
+    "EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD"
+  ]
+}

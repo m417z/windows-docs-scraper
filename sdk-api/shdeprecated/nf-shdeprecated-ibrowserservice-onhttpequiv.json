@@ -1,0 +1,67 @@
+{
+  "UID": "NF:shdeprecated.IBrowserService.OnHttpEquiv",
+  "title": "IBrowserService::OnHttpEquiv (shdeprecated.h)",
+  "description": "Deprecated. Called when the document object responds to an HTTP-EQUIV metatag by issuing either the OLECMDID_HTTPEQUIV or OLECMDID_HTTPEQUIV_DONE command through IOleCommandTarget::Exec.",
+  "helpviewer_keywords": [
+    "FALSE",
+    "IBrowserService interface [Windows Shell]",
+    "OnHttpEquiv method",
+    "IBrowserService.OnHttpEquiv",
+    "IBrowserService::OnHttpEquiv",
+    "OnHttpEquiv",
+    "OnHttpEquiv method [Windows Shell]",
+    "OnHttpEquiv method [Windows Shell]",
+    "IBrowserService interface",
+    "TRUE",
+    "shdeprecated/IBrowserService::OnHttpEquiv",
+    "shell.IBrowserService_OnHttpEquiv",
+    "zone_IBrowserService_OnHttpEquiv"
+  ],
+  "old-location": "shell\\IBrowserService_OnHttpEquiv.htm",
+  "tech.root": "shell",
+  "ms.assetid": "9920c08b-c0c3-4359-9c00-3a1063cea0c7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FALSE, IBrowserService interface [Windows Shell],OnHttpEquiv method, IBrowserService.OnHttpEquiv, IBrowserService::OnHttpEquiv, OnHttpEquiv, OnHttpEquiv method [Windows Shell], OnHttpEquiv method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::OnHttpEquiv, shell.IBrowserService_OnHttpEquiv, zone_IBrowserService_OnHttpEquiv",
+  "req.header": "shdeprecated.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Shdeprecated.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Internet Explorer 4.0",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IBrowserService::OnHttpEquiv",
+    "shdeprecated/IBrowserService::OnHttpEquiv"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Shdeprecated.h"
+  ],
+  "api_name": [
+    "IBrowserService.OnHttpEquiv"
+  ]
+}

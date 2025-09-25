@@ -1,0 +1,60 @@
+{
+  "UID": "NF:bcrypt.BCryptGenRandom",
+  "title": "BCryptGenRandom function (bcrypt.h)",
+  "description": "Generates a random number.",
+  "helpviewer_keywords": [
+    "BCRYPT_RNG_USE_ENTROPY_IN_BUFFER",
+    "BCRYPT_USE_SYSTEM_PREFERRED_RNG",
+    "BCryptGenRandom",
+    "BCryptGenRandom function [Security]",
+    "bcrypt/BCryptGenRandom",
+    "security.bcryptgenrandom_func"
+  ],
+  "old-location": "security\\bcryptgenrandom_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "7c6cee3a-f2c5-46f3-8cfe-984316f323d9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, BCryptGenRandom, BCryptGenRandom function [Security], bcrypt/BCryptGenRandom, security.bcryptgenrandom_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib or Cng.lib(For Kernel mode)",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptGenRandom",
+    "bcrypt/BCryptGenRandom"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptGenRandom"
+  ]
+}

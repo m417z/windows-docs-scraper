@@ -1,0 +1,48 @@
+{
+  "UID": "NF:poscx.PosCxInit",
+  "title": "PosCxInit function (poscx.h)",
+  "description": "PosCxInit is called to initialize the PosCx library's internal resources. The resources are tied to the device, and are released when the device goes away.",
+  "old-location": "pos\\poscxinit.htm",
+  "tech.root": "pos",
+  "ms.date": "02/23/2018",
+  "keywords": [
+    "PosCxInit function"
+  ],
+  "ms.keywords": "PosCxInit, PosCxInit function, pos.poscxinit, poscx/PosCxInit",
+  "req.header": "poscx.h",
+  "req.include-header": "Poscx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PosCxInit",
+    "poscx/PosCxInit"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "poscx.h"
+  ],
+  "api_name": [
+    "PosCxInit"
+  ]
+}

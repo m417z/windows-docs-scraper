@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTQueryResourceInfo(
+  D3DKMT_QUERYRESOURCEINFO *unnamedParam1
+);

@@ -1,0 +1,3 @@
+HRESULT CreateSourcePresentationHandle(
+  HANDLE *pValue
+);

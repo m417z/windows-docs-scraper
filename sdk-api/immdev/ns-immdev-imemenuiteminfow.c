@@ -1,0 +1,11 @@
+typedef struct tagIMEMENUITEMINFOW {
+  UINT    cbSize;
+  UINT    fType;
+  UINT    fState;
+  UINT    wID;
+  HBITMAP hbmpChecked;
+  HBITMAP hbmpUnchecked;
+  DWORD   dwItemData;
+  WCHAR   szString[IMEMENUITEM_STRING_SIZE];
+  HBITMAP hbmpItem;
+} IMEMENUITEMINFOW, *PIMEMENUITEMINFOW, *NPIMEMENUITEMINFOW, *LPIMEMENUITEMINFOW;

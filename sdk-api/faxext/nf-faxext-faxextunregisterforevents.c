@@ -1,0 +1,3 @@
+DWORD FaxExtUnregisterForEvents(
+  HANDLE hNotification
+);

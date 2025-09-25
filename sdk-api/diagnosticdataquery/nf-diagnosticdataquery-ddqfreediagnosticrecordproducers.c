@@ -1,0 +1,3 @@
+HRESULT DdqFreeDiagnosticRecordProducers(
+  HDIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION hProducerDescription
+);

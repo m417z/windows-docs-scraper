@@ -1,0 +1,57 @@
+## Description
+
+This topic describes the **KSPROPERTY_TUNER** enumeration (ksmedia.h).
+
+## Constants
+
+### `KSPROPERTY_TUNER_CAPS`
+
+Defines the **KSPROPERTY_TUNER_CAPS** constant.
+
+### `KSPROPERTY_TUNER_MODE_CAPS`
+
+Defines the **KSPROPERTY_TUNER_MODE_CAPS** constant.
+
+### `KSPROPERTY_TUNER_MODE`
+
+Defines the **KSPROPERTY_TUNER_MODE** constant.
+
+### `KSPROPERTY_TUNER_STANDARD`
+
+Defines the **KSPROPERTY_TUNER_STANDARD** constant.
+
+### `KSPROPERTY_TUNER_FREQUENCY`
+
+Defines the **KSPROPERTY_TUNER_FREQUENCY** constant.
+
+### `KSPROPERTY_TUNER_INPUT`
+
+Defines the **KSPROPERTY_TUNER_INPUT** constant.
+
+### `KSPROPERTY_TUNER_STATUS`
+
+Defines the **KSPROPERTY_TUNER_STATUS** constant.
+
+### `KSPROPERTY_TUNER_IF_MEDIUM`
+
+Defines the **KSPROPERTY_TUNER_IF_MEDIUM** constant.
+
+### `KSPROPERTY_TUNER_SCAN_CAPS`
+
+Defines the **KSPROPERTY_TUNER_SCAN_CAPS** constant.
+
+### `KSPROPERTY_TUNER_SCAN_STATUS`
+
+Defines the **KSPROPERTY_TUNER_SCAN_STATUS** constant.
+
+### `KSPROPERTY_TUNER_STANDARD_MODE`
+
+Defines the **KSPROPERTY_TUNER_STANDARD_MODE** constant.
+
+### `KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS`
+
+Defines the **KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS** constant.
+
+## Remarks
+
+## See also

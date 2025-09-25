@@ -1,0 +1,5 @@
+typedef struct tagEMRCREATEPALETTE {
+  EMR        emr;
+  DWORD      ihPal;
+  LOGPALETTE lgpl;
+} EMRCREATEPALETTE, *PEMRCREATEPALETTE;

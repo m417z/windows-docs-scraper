@@ -1,0 +1,56 @@
+{
+  "UID": "NF:setupapi.SetupDiGetClassImageListExA",
+  "title": "SetupDiGetClassImageListExA function (setupapi.h)",
+  "description": "The SetupDiGetClassImageListEx function builds an image list of bitmaps for every class installed on a local or remote system. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupDiGetClassImageListExA",
+    "di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml"
+  ],
+  "old-location": "devinst\\setupdigetclassimagelistex.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "f9cf7904-3fda-4f7f-bb05-3634fd1c9af3",
+  "ms.date": "01/30/2023",
+  "ms.keywords": "SetupDiGetClassImageListEx, SetupDiGetClassImageListEx function [Device and Driver Installation], SetupDiGetClassImageListExA, SetupDiGetClassImageListExW, devinst.setupdigetclassimagelistex, di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml, setupapi/SetupDiGetClassImageListEx",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiGetClassImageListExA",
+    "setupapi/SetupDiGetClassImageListExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiGetClassImageListEx - SetupDiGetClassImageListExA"
+  ]
+}

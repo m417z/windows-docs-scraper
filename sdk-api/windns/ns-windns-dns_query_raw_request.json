@@ -1,0 +1,51 @@
+{
+  "UID": "NS:windns._DNS_QUERY_RAW_REQUEST",
+  "title": "DNS_QUERY_RAW_REQUEST",
+  "description": "Represents a DNS raw query request (see [DnsQueryRaw](./nf-windns-dnsqueryraw.md)).",
+  "tech.root": "DNS",
+  "ms.date": "07/17/2023",
+  "targetos": "Windows",
+  "prerelease": true,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "windns.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "DNS_QUERY_RAW_REQUEST",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "windns.h"
+  ],
+  "api_name": [
+    "_DNS_QUERY_RAW_REQUEST",
+    "DNS_QUERY_RAW_REQUEST"
+  ],
+  "f1_keywords": [
+    "_DNS_QUERY_RAW_REQUEST",
+    "windns/_DNS_QUERY_RAW_REQUEST",
+    "DNS_QUERY_RAW_REQUEST",
+    "windns/DNS_QUERY_RAW_REQUEST"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_DNS_QUERY_RAW_REQUEST"
+  ]
+}

@@ -1,0 +1,14 @@
+typedef struct _NETWORK_OPEN_ECP_CONTEXT_V0 {
+  USHORT Size;
+  USHORT Reserved;
+  struct {
+    struct {
+      NETWORK_OPEN_LOCATION_QUALIFIER  Location;
+      NETWORK_OPEN_INTEGRITY_QUALIFIER Integrity;
+    } in;
+    struct {
+      NETWORK_OPEN_LOCATION_QUALIFIER  Location;
+      NETWORK_OPEN_INTEGRITY_QUALIFIER Integrity;
+    } out;
+  } DUMMYSTRUCTNAME;
+} NETWORK_OPEN_ECP_CONTEXT_V0, *PNETWORK_OPEN_ECP_CONTEXT_V0;

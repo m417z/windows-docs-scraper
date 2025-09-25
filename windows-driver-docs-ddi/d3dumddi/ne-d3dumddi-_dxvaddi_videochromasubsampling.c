@@ -1,0 +1,12 @@
+typedef enum _DXVADDI_VIDEOCHROMASUBSAMPLING {
+  DXVADDI_VideoChromaSubsamplingMask,
+  DXVADDI_VideoChromaSubsampling_Unknown,
+  DXVADDI_VideoChromaSubsampling_ProgressiveChroma,
+  DXVADDI_VideoChromaSubsampling_Horizontally_Cosited,
+  DXVADDI_VideoChromaSubsampling_Vertically_Cosited,
+  DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes,
+  DXVADDI_VideoChromaSubsampling_MPEG2,
+  DXVADDI_VideoChromaSubsampling_MPEG1,
+  DXVADDI_VideoChromaSubsampling_DV_PAL,
+  DXVADDI_VideoChromaSubsampling_Cosited
+} DXVADDI_VIDEOCHROMASUBSAMPLING;

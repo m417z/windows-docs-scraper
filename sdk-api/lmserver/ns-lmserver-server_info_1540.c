@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1540 {
+  BOOL sv1540_enablesharednetdrives;
+} SERVER_INFO_1540, *PSERVER_INFO_1540, *LPSERVER_INFO_1540;

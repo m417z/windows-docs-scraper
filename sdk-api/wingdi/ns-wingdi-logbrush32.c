@@ -1,0 +1,5 @@
+typedef struct tagLOGBRUSH32 {
+  UINT     lbStyle;
+  COLORREF lbColor;
+  ULONG    lbHatch;
+} LOGBRUSH32, *PLOGBRUSH32, *NPLOGBRUSH32, *LPLOGBRUSH32;

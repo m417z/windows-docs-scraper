@@ -1,0 +1,3 @@
+LPVOID XAPOAlloc(
+    ULONG size
+);

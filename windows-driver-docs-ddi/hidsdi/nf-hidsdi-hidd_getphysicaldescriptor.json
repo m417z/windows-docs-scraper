@@ -1,0 +1,48 @@
+{
+  "UID": "NF:hidsdi.HidD_GetPhysicalDescriptor",
+  "title": "HidD_GetPhysicalDescriptor function (hidsdi.h)",
+  "description": "The HidD_GetPhysicalDescriptor routine returns the embedded string of a top-level collection that identifies the collection's physical device.",
+  "old-location": "hid\\hidd_getphysicaldescriptor.htm",
+  "tech.root": "hid",
+  "ms.date": "06/19/2019",
+  "keywords": [
+    "HidD_GetPhysicalDescriptor function"
+  ],
+  "ms.keywords": "HidD_GetPhysicalDescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], hid.hidd_getphysicaldescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, hidsdi/HidD_GetPhysicalDescriptor",
+  "req.header": "hidsdi.h",
+  "req.include-header": "Hidsdi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hid.lib",
+  "req.dll": "Hid.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidD_GetPhysicalDescriptor",
+    "hidsdi/HidD_GetPhysicalDescriptor"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hid.dll"
+  ],
+  "api_name": [
+    "HidD_GetPhysicalDescriptor"
+  ]
+}

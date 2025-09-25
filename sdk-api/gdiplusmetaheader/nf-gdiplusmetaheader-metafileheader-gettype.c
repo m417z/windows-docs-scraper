@@ -1,0 +1,1 @@
+MetafileType GetType();

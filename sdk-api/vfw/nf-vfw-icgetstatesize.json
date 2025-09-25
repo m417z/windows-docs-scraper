@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.ICGetStateSize",
+  "title": "ICGetStateSize macro (vfw.h)",
+  "description": "The ICGetStateSize macro queries a video compression driver to determine the amount of memory required to retrieve the configuration information. You can use this macro or explicitly call the ICM_GETSTATE message.",
+  "helpviewer_keywords": [
+    "ICGetStateSize",
+    "ICGetStateSize macro [Windows Multimedia]",
+    "_win32_ICGetStateSize",
+    "multimedia.icgetstatesize",
+    "vfw/ICGetStateSize"
+  ],
+  "old-location": "multimedia\\icgetstatesize.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "386761e8-9234-4541-b593-ce8e323714bf",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "ICGetStateSize, ICGetStateSize macro [Windows Multimedia], _win32_ICGetStateSize, multimedia.icgetstatesize, vfw/ICGetStateSize",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICGetStateSize",
+    "vfw/ICGetStateSize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "ICGetStateSize"
+  ]
+}

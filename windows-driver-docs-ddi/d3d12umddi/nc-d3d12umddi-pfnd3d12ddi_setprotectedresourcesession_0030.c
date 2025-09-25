@@ -1,0 +1,7 @@
+PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030 Pfnd3d12ddiSetprotectedresourcesession0030;
+
+VOID Pfnd3d12ddiSetprotectedresourcesession0030(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  D3D12DDI_HPROTECTEDRESOURCESESSION_0030 unnamedParam2
+)
+{...}

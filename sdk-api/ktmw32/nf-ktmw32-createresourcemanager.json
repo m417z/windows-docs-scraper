@@ -1,0 +1,58 @@
+{
+  "UID": "NF:ktmw32.CreateResourceManager",
+  "title": "CreateResourceManager function (ktmw32.h)",
+  "description": "Creates a new resource manager (RM) object, and associates the RM with a transaction manager (TM).",
+  "helpviewer_keywords": [
+    "CreateResourceManager",
+    "CreateResourceManager function [Files]",
+    "RESOURCE_MANAGER_VOLATILE",
+    "fs.createresourcemanager",
+    "ktmw32/CreateResourceManager"
+  ],
+  "old-location": "fs\\createresourcemanager.htm",
+  "tech.root": "fs",
+  "ms.assetid": "ad88e478-1dff-4f35-a0e3-6bda8bb45711",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateResourceManager, CreateResourceManager function [Files], RESOURCE_MANAGER_VOLATILE, fs.createresourcemanager, ktmw32/CreateResourceManager",
+  "req.header": "ktmw32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ktmw32.lib",
+  "req.dll": "Ktmw32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateResourceManager",
+    "ktmw32/CreateResourceManager"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ktmw32.dll"
+  ],
+  "api_name": [
+    "CreateResourceManager"
+  ]
+}

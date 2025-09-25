@@ -1,0 +1,3 @@
+HRESULT GetAgeGroup(
+  LPWSTR *ageGroup
+);

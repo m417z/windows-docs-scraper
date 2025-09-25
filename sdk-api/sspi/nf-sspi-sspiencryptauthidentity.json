@@ -1,0 +1,57 @@
+{
+  "UID": "NF:sspi.SspiEncryptAuthIdentity",
+  "title": "SspiEncryptAuthIdentity function (sspi.h)",
+  "description": "Encrypts the specified identity structure.",
+  "helpviewer_keywords": [
+    "SspiEncryptAuthIdentity",
+    "SspiEncryptAuthIdentity function [Security]",
+    "security.sspiencryptauthidentity",
+    "sspi/SspiEncryptAuthIdentity"
+  ],
+  "old-location": "security\\sspiencryptauthidentity.htm",
+  "tech.root": "security",
+  "ms.assetid": "4460f7ec-35fd-4ad1-8c20-dda9f4d3477a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SspiEncryptAuthIdentity, SspiEncryptAuthIdentity function [Security], security.sspiencryptauthidentity, sspi/SspiEncryptAuthIdentity",
+  "req.header": "sspi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "SspiCli.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SspiEncryptAuthIdentity",
+    "sspi/SspiEncryptAuthIdentity"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "SspiCli.dll"
+  ],
+  "api_name": [
+    "SspiEncryptAuthIdentity"
+  ]
+}

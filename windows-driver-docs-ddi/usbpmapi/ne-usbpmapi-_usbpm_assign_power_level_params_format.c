@@ -1,0 +1,5 @@
+typedef enum _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT {
+  UsbPmAssignPowerLevelParamsFormatInvalid,
+  UsbPmAssignPowerLevelParamsFormatUcsi,
+  UsbPmAssignPowerLevelParamsFormatRdo
+} USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT;

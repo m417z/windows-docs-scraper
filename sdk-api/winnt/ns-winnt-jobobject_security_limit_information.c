@@ -1,0 +1,7 @@
+typedef struct _JOBOBJECT_SECURITY_LIMIT_INFORMATION {
+  DWORD             SecurityLimitFlags;
+  HANDLE            JobToken;
+  PTOKEN_GROUPS     SidsToDisable;
+  PTOKEN_PRIVILEGES PrivilegesToDelete;
+  PTOKEN_GROUPS     RestrictedSids;
+} JOBOBJECT_SECURITY_LIMIT_INFORMATION, *PJOBOBJECT_SECURITY_LIMIT_INFORMATION;

@@ -1,0 +1,4 @@
+typedef struct _RTM_ENTITY_EXPORT_METHODS {
+  UINT                     NumMethods;
+  RTM_ENTITY_EXPORT_METHOD Methods[1];
+} RTM_ENTITY_EXPORT_METHODS, *PRTM_ENTITY_EXPORT_METHODS;

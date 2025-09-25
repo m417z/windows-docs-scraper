@@ -1,0 +1,3 @@
+HRESULT IsGeneric(
+  bool *isGeneric
+);

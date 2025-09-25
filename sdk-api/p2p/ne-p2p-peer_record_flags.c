@@ -1,0 +1,4 @@
+typedef enum peer_record_flags_tag {
+  PEER_RECORD_FLAG_AUTOREFRESH = 0x0001,
+  PEER_RECORD_FLAG_DELETED = 0x0002
+} PEER_RECORD_FLAGS;

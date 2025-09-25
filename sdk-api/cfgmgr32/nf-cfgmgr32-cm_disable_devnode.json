@@ -1,0 +1,61 @@
+{
+  "UID": "NF:cfgmgr32.CM_Disable_DevNode",
+  "title": "CM_Disable_DevNode function (cfgmgr32.h)",
+  "description": "The CM_Disable_DevNode function disables a device.",
+  "helpviewer_keywords": [
+    "CM_Disable_DevNode",
+    "CM_Disable_DevNode function [Device and Driver Installation]",
+    "cfgmgr32/CM_Disable_DevNode",
+    "cfgmgrfn_3a8b48b2-fb94-421c-9ec4-2e88997eb9b5.xml",
+    "devinst.cm_disable_devnode"
+  ],
+  "old-location": "devinst\\cm_disable_devnode.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "6013fec3-1fb3-4956-982d-5841518f5d31",
+  "ms.date": "07/09/2025",
+  "ms.keywords": "CM_Disable_DevNode, CM_Disable_DevNode function [Device and Driver Installation], cfgmgr32/CM_Disable_DevNode, cfgmgrfn_3a8b48b2-fb94-421c-9ec4-2e88997eb9b5.xml, devinst.cm_disable_devnode",
+  "req.header": "cfgmgr32.h",
+  "req.include-header": "Cfgmgr32.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cfgmgr32.lib; OneCoreUAP.lib on Windows 10",
+  "req.dll": "CfgMgr32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CM_Disable_DevNode",
+    "cfgmgr32/CM_Disable_DevNode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-config-l1-1-2.dll",
+    "CfgMgr32.dll",
+    "API-MS-Win-devices-config-l1-1-0.dll",
+    "API-MS-Win-devices-config-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CM_Disable_DevNode"
+  ]
+}

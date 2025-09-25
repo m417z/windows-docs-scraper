@@ -1,0 +1,48 @@
+{
+  "UID": "NC:usbcamdi.PCAM_START_CAPTURE_ROUTINE",
+  "title": "PCAM_START_CAPTURE_ROUTINE (usbcamdi.h)",
+  "description": "A camera minidriver's CamStartCapture callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.",
+  "old-location": "stream\\camstartcapture.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PCAM_START_CAPTURE_ROUTINE callback function"
+  ],
+  "ms.keywords": "CamStartCapture, CamStartCapture callback function [Streaming Media Devices], PCAM_START_CAPTURE_ROUTINE, PCAM_START_CAPTURE_ROUTINE callback, stream.camstartcapture, usbcamdi/CamStartCapture, usbcmdpr_c4887b29-94a3-498f-ad6a-4f6a58bb8345.xml",
+  "req.header": "usbcamdi.h",
+  "req.include-header": "Usbcamdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCAM_START_CAPTURE_ROUTINE",
+    "usbcamdi/PCAM_START_CAPTURE_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbcamdi.h"
+  ],
+  "api_name": [
+    "PCAM_START_CAPTURE_ROUTINE"
+  ]
+}

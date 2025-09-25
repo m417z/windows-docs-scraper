@@ -1,0 +1,4 @@
+typedef struct _AVC_SETCONNECT_INFO {
+  ULONG          PinId;
+  AVCCONNECTINFO ConnectInfo;
+} AVC_SETCONNECT_INFO, *PAVC_SETCONNECT_INFO;

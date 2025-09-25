@@ -1,0 +1,57 @@
+{
+  "UID": "NF:rpcnsi.RpcNsMgmtEntryCreateA",
+  "title": "RpcNsMgmtEntryCreateA function (rpcnsi.h)",
+  "description": "The RpcNsMgmtEntryCreate function creates a name service database entry. (ANSI)",
+  "helpviewer_keywords": [
+    "RpcNsMgmtEntryCreateA",
+    "rpcnsi/RpcNsMgmtEntryCreateA"
+  ],
+  "old-location": "rpc\\rpcnsmgmtentrycreate.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "32de2395-174a-4e14-82db-9043db817708",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RpcNsMgmtEntryCreate, RpcNsMgmtEntryCreate function [RPC], RpcNsMgmtEntryCreateA, RpcNsMgmtEntryCreateW, _rpc_rpcnsmgmtentrycreate, rpc.rpcnsmgmtentrycreate, rpcnsi/RpcNsMgmtEntryCreate, rpcnsi/RpcNsMgmtEntryCreateA, rpcnsi/RpcNsMgmtEntryCreateW",
+  "req.header": "rpcnsi.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RpcNsMgmtEntryCreateW (Unicode) and RpcNsMgmtEntryCreateA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcns4.lib",
+  "req.dll": "Rpcns4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RpcNsMgmtEntryCreateA",
+    "rpcnsi/RpcNsMgmtEntryCreateA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcns4.dll"
+  ],
+  "api_name": [
+    "RpcNsMgmtEntryCreate",
+    "RpcNsMgmtEntryCreateA",
+    "RpcNsMgmtEntryCreateW"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS {
+  BOOL computeShaders_Plus_RawAndStructuredBuffers_Via_Shader_4_x;
+} D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CertDuplicateCertificateChain",
+  "title": "CertDuplicateCertificateChain function (wincrypt.h)",
+  "description": "The CertDuplicateCertificateChain function duplicates a pointer to a certificate chain by incrementing the chain's reference count.",
+  "helpviewer_keywords": [
+    "CertDuplicateCertificateChain",
+    "CertDuplicateCertificateChain function [Security]",
+    "_crypto2_certduplicatecertificatechain",
+    "security.certduplicatecertificatechain",
+    "wincrypt/CertDuplicateCertificateChain"
+  ],
+  "old-location": "security\\certduplicatecertificatechain.htm",
+  "tech.root": "security",
+  "ms.assetid": "fea72a3e-5a22-47c7-8f6e-0d76fc3339f8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertDuplicateCertificateChain, CertDuplicateCertificateChain function [Security], _crypto2_certduplicatecertificatechain, security.certduplicatecertificatechain, wincrypt/CertDuplicateCertificateChain",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertDuplicateCertificateChain",
+    "wincrypt/CertDuplicateCertificateChain"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertDuplicateCertificateChain"
+  ]
+}

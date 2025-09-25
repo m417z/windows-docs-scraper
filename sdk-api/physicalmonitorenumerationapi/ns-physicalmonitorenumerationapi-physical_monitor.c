@@ -1,0 +1,4 @@
+typedef struct _PHYSICAL_MONITOR {
+  HANDLE hPhysicalMonitor;
+  WCHAR  szPhysicalMonitorDescription[PHYSICAL_MONITOR_DESCRIPTION_SIZE];
+} PHYSICAL_MONITOR, *LPPHYSICAL_MONITOR;

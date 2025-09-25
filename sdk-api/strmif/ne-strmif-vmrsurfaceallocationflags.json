@@ -1,0 +1,70 @@
+{
+  "UID": "NE:strmif.VMRSurfaceAllocationFlags",
+  "title": "VMRSurfaceAllocationFlags (strmif.h)",
+  "description": "The VMRSurfaceAllocationFlags enumeration is used with the IVMRSurfaceAllocator::AllocateSurface method to specify surface creation parameters.",
+  "helpviewer_keywords": [
+    "AMAP_3D_TARGET",
+    "AMAP_ALLOW_SYSMEM",
+    "AMAP_DIRECTED_FLIP",
+    "AMAP_DXVA_TARGET",
+    "AMAP_FORCE_SYSMEM",
+    "AMAP_PIXELFORMAT_VALID",
+    "VMRSurfaceAllocationFlags",
+    "VMRSurfaceAllocationFlags enumeration [DirectShow]",
+    "VMR_ALLOCATE_SURFACE_FLAGSEnumeration",
+    "dshow.vmrsurfaceallocationflags",
+    "strmif/AMAP_3D_TARGET",
+    "strmif/AMAP_ALLOW_SYSMEM",
+    "strmif/AMAP_DIRECTED_FLIP",
+    "strmif/AMAP_DXVA_TARGET",
+    "strmif/AMAP_FORCE_SYSMEM",
+    "strmif/AMAP_PIXELFORMAT_VALID",
+    "strmif/VMRSurfaceAllocationFlags"
+  ],
+  "old-location": "dshow\\vmrsurfaceallocationflags.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "1f75b357-0ce0-4efe-b1a8-39200e6b3d1a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "AMAP_3D_TARGET, AMAP_ALLOW_SYSMEM, AMAP_DIRECTED_FLIP, AMAP_DXVA_TARGET, AMAP_FORCE_SYSMEM, AMAP_PIXELFORMAT_VALID, VMRSurfaceAllocationFlags, VMRSurfaceAllocationFlags enumeration [DirectShow], VMR_ALLOCATE_SURFACE_FLAGSEnumeration, dshow.vmrsurfaceallocationflags, strmif/AMAP_3D_TARGET, strmif/AMAP_ALLOW_SYSMEM, strmif/AMAP_DIRECTED_FLIP, strmif/AMAP_DXVA_TARGET, strmif/AMAP_FORCE_SYSMEM, strmif/AMAP_PIXELFORMAT_VALID, strmif/VMRSurfaceAllocationFlags",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VMRSurfaceAllocationFlags",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "VMRSurfaceAllocationFlags",
+    "strmif/VMRSurfaceAllocationFlags"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "strmif.h"
+  ],
+  "api_name": [
+    "VMRSurfaceAllocationFlags"
+  ]
+}

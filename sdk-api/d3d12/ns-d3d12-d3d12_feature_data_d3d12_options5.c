@@ -1,0 +1,5 @@
+typedef struct D3D12_FEATURE_DATA_D3D12_OPTIONS5 {
+  BOOL                   SRVOnlyTiledResourceTier3;
+  D3D12_RENDER_PASS_TIER RenderPassesTier;
+  D3D12_RAYTRACING_TIER  RaytracingTier;
+} D3D12_FEATURE_DATA_D3D12_OPTIONS5;

@@ -1,0 +1,50 @@
+{
+  "UID": "NE:pointofservicedriverinterface._MsrAuthenticationProtocol",
+  "title": "MsrAuthenticationProtocol (pointofservicedriverinterface.h)",
+  "description": "This enumeration defines magnetic stripe reader (MSR) authentication protocols.",
+  "tech.root": "pos",
+  "ms.date": "01/03/2023",
+  "keywords": [
+    "MsrAuthenticationProtocol enumeration"
+  ],
+  "ms.keywords": "MsrAuthenticationProtocol, MsrAuthenticationProtocol enumeration, MsrAuthenticationProtocolType, MsrAuthenticationProtocolType enumeration, MsrAuthenticationProtocolType_ChallengeResponse, MsrAuthenticationProtocolType_None, _MsrAuthenticationProtocol, pointofservicedriverinterface/MsrAuthenticationProtocolType, pointofservicedriverinterface/MsrAuthenticationProtocolType_ChallengeResponse, pointofservicedriverinterface/MsrAuthenticationProtocolType_None, pos.msrauthenticationprotocoltype",
+  "req.header": "pointofservicedriverinterface.h",
+  "req.include-header": "Pointofservicedriverinterface.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MsrAuthenticationProtocolType",
+  "f1_keywords": [
+    "_MsrAuthenticationProtocol",
+    "pointofservicedriverinterface/_MsrAuthenticationProtocol",
+    "MsrAuthenticationProtocolType",
+    "pointofservicedriverinterface/MsrAuthenticationProtocolType"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pointofservicedriverinterface.h"
+  ],
+  "api_name": [
+    "_MsrAuthenticationProtocol",
+    "MsrAuthenticationProtocolType"
+  ]
+}

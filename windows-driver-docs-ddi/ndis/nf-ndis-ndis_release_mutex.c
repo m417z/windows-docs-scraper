@@ -1,0 +1,3 @@
+void NDIS_RELEASE_MUTEX(
+  _M_
+);

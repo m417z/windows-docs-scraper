@@ -1,0 +1,3 @@
+HRESULT GetDesc(
+  D3D12_SHADER_BUFFER_DESC *pDesc
+);

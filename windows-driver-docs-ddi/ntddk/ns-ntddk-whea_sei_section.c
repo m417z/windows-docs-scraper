@@ -1,0 +1,4 @@
+typedef struct _WHEA_SEI_SECTION {
+  ULONG   Esr;
+  ULONG64 Far;
+} WHEA_SEI_SECTION, *PWHEA_SEI_SECTION;

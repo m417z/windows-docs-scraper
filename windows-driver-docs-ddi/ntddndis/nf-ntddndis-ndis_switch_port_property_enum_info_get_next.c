@@ -1,0 +1,3 @@
+void NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT(
+  _PortEnumInfo_
+);

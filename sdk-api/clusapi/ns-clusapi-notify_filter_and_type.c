@@ -1,0 +1,4 @@
+typedef struct _NOTIFY_FILTER_AND_TYPE {
+  DWORD    dwObjectType;
+  LONGLONG FilterFlags;
+} NOTIFY_FILTER_AND_TYPE, *PNOTIFY_FILTER_AND_TYPE;

@@ -1,0 +1,3 @@
+HRESULT GetGamertag(
+  LPWSTR *gamertag
+);

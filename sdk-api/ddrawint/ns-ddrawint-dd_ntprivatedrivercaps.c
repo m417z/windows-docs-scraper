@@ -1,0 +1,4 @@
+typedef struct DD_NTPRIVATEDRIVERCAPS {
+  DWORD dwSize;
+  DWORD dwPrivateCaps;
+} DD_NTPRIVATEDRIVERCAPS;

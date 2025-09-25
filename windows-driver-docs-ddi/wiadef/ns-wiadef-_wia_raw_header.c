@@ -1,0 +1,21 @@
+typedef struct _WIA_RAW_HEADER {
+  DWORD Tag;
+  DWORD Version;
+  DWORD HeaderSize;
+  DWORD XRes;
+  DWORD YRes;
+  DWORD XExtent;
+  DWORD YExtent;
+  DWORD BytesPerLine;
+  DWORD BitsPerPixel;
+  DWORD ChannelsPerPixel;
+  DWORD DataType;
+  BYTE  BitsPerChannel[8];
+  DWORD Compression;
+  DWORD PhotometricInterp;
+  DWORD LineOrder;
+  DWORD RawDataOffset;
+  DWORD RawDataSize;
+  DWORD PaletteOffset;
+  DWORD PaletteSize;
+} WIA_RAW_HEADER, *PWIA_RAW_HEADER;

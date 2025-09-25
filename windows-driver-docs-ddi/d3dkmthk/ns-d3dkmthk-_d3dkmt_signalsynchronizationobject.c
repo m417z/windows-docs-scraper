@@ -1,0 +1,6 @@
+typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT {
+  [in] D3DKMT_HANDLE        hContext;
+  [in] UINT                 ObjectCount;
+       D3DKMT_HANDLE        ObjectHandleArray[D3DDDI_MAX_OBJECT_SIGNALED];
+  [in] D3DDDICB_SIGNALFLAGS Flags;
+} D3DKMT_SIGNALSYNCHRONIZATIONOBJECT;

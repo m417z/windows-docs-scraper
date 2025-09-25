@@ -1,0 +1,6 @@
+PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION Pfnd3dkmtUnregisterbudgetchangenotification;
+
+NTSTATUS Pfnd3dkmtUnregisterbudgetchangenotification(
+  D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION *unnamedParam1
+)
+{...}

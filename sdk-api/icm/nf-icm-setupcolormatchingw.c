@@ -1,0 +1,3 @@
+BOOL SetupColorMatchingW(
+  PCOLORMATCHSETUPW pcms
+);

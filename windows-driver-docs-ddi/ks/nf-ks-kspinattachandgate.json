@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ks.KsPinAttachAndGate",
+  "title": "KsPinAttachAndGate function (ks.h)",
+  "description": "The KsPinAttachAndGate function connects Pin as an input to a previously initialized AND gate, and connects AndGate as an input to the relevant filter's AND gate.",
+  "old-location": "stream\\kspinattachandgate.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KsPinAttachAndGate function"
+  ],
+  "ms.keywords": "KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ks.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KsPinAttachAndGate",
+    "ks/KsPinAttachAndGate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ks.lib",
+    "Ks.dll"
+  ],
+  "api_name": [
+    "KsPinAttachAndGate"
+  ]
+}

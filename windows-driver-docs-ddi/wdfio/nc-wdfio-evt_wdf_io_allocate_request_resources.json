@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfio.EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES",
+  "title": "EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES (wdfio.h)",
+  "description": "A driver's EvtIoAllocateRequestResources callback function allocates request-specific resources that the driver requires to process the specified request.",
+  "old-location": "wdf\\evtioallocaterequestresources.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES callback function"
+  ],
+  "ms.keywords": "DFQueueObjectRef_85702d4a-4861-4512-a392-f106e038d3be.xml, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES callback, EvtIoAllocateRequestResources, EvtIoAllocateRequestResources callback function, kmdf.evtioallocaterequestresources, wdf.evtioallocaterequestresources, wdfio/EvtIoAllocateRequestResources",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.9,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES",
+    "wdfio/EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfio.h"
+  ],
+  "api_name": [
+    "EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES"
+  ]
+}

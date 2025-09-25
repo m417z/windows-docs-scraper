@@ -1,0 +1,3 @@
+LONG phoneShutdown(
+  HPHONEAPP hPhoneApp
+);

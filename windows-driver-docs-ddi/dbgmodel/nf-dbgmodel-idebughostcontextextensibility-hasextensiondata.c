@@ -1,0 +1,3 @@
+bool HasExtensionData(
+  ULONG blobId
+);

@@ -1,0 +1,1 @@
+#define NET_BUFFER_CURRENT_MDL(_NB) ((_NB)->CurrentMdl)

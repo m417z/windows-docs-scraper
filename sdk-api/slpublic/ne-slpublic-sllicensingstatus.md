@@ -1,0 +1,17 @@
+# SLLICENSINGSTATUS enumeration
+
+## Description
+
+Represents the licensing status.
+
+## Constants
+
+### `SL_LICENSING_STATUS_UNLICENSED`
+
+### `SL_LICENSING_STATUS_LICENSED`
+
+### `SL_LICENSING_STATUS_IN_GRACE_PERIOD`
+
+### `SL_LICENSING_STATUS_NOTIFICATION`
+
+### `SL_LICENSING_STATUS_LAST`

@@ -1,0 +1,4 @@
+typedef struct _DHCP_CLIENT_INFO_ARRAY_VQ {
+  DWORD                 NumElements;
+  LPDHCP_CLIENT_INFO_VQ *Clients;
+} DHCP_CLIENT_INFO_ARRAY_VQ, *LPDHCP_CLIENT_INFO_ARRAY_VQ;

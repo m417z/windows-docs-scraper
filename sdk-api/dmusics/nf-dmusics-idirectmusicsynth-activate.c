@@ -1,0 +1,3 @@
+HRESULT Activate(
+  BOOL fEnable
+);

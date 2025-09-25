@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d12umddi.PFND3D12DDI_MAKERESIDENT_CB",
+  "title": "PFND3D12DDI_MAKERESIDENT_CB (d3d12umddi.h)",
+  "description": "PFND3D12DDI_MAKERESIDENT_CB instructs the OS to add a resource to the device residency list and to increment the residency reference count on this allocation.",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "PFND3D12DDI_MAKERESIDENT_CB callback function"
+  ],
+  "req.header": "d3d12umddi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "tech.root": "display",
+  "f1_keywords": [
+    "PFND3D12DDI_MAKERESIDENT_CB",
+    "d3d12umddi/PFND3D12DDI_MAKERESIDENT_CB"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d12umddi.h"
+  ],
+  "api_name": [
+    "PFND3D12DDI_MAKERESIDENT_CB"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

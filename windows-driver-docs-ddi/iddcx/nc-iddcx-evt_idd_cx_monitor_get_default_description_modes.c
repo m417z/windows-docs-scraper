@@ -1,0 +1,8 @@
+EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES EvtIddCxMonitorGetDefaultDescriptionModes;
+
+NTSTATUS EvtIddCxMonitorGetDefaultDescriptionModes(
+  IDDCX_MONITOR MonitorObject,
+  const IDARG_IN_GETDEFAULTDESCRIPTIONMODES *pInArgs,
+  IDARG_OUT_GETDEFAULTDESCRIPTIONMODES *pOutArgs
+)
+{...}

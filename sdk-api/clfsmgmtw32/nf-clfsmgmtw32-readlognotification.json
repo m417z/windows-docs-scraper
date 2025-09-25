@@ -1,0 +1,57 @@
+{
+  "UID": "NF:clfsmgmtw32.ReadLogNotification",
+  "title": "ReadLogNotification function (clfsmgmtw32.h)",
+  "description": "Retrieves notifications from the log manager. It retrieves a queued notification from the log manager immediately if a notification is available; otherwise the request remains pending until a notification is generated.",
+  "helpviewer_keywords": [
+    "ReadLogNotification",
+    "ReadLogNotification function [Files]",
+    "clfsmgmtw32/ReadLogNotification",
+    "fs.readlognotification"
+  ],
+  "old-location": "fs\\readlognotification.htm",
+  "tech.root": "fs",
+  "ms.assetid": "08931011-511b-471b-9a4a-ebc96e963c51",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ReadLogNotification, ReadLogNotification function [Files], clfsmgmtw32/ReadLogNotification, fs.readlognotification",
+  "req.header": "clfsmgmtw32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfsw32.lib",
+  "req.dll": "Clfsw32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ReadLogNotification",
+    "clfsmgmtw32/ReadLogNotification"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Clfsw32.dll"
+  ],
+  "api_name": [
+    "ReadLogNotification"
+  ]
+}

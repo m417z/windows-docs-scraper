@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfregistry.WdfRegistryOpenKey",
+  "title": "WdfRegistryOpenKey function (wdfregistry.h)",
+  "description": "The WdfRegistryOpenKey method opens a specified registry key and creates a framework registry-key object that represents the registry key.",
+  "old-location": "wdf\\wdfregistryopenkey.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfRegistryOpenKey function"
+  ],
+  "ms.keywords": "DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, WdfRegistryOpenKey, WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey",
+  "req.header": "wdfregistry.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfRegistryOpenKey",
+    "wdfregistry/WdfRegistryOpenKey"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfRegistryOpenKey"
+  ]
+}

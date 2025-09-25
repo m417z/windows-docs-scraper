@@ -1,0 +1,3 @@
+HRESULT MFCreateASFMultiplexer(
+  IMFASFMultiplexer **ppIMultiplexer
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.FsRtlIsLeadDbcsCharacter",
+  "title": "FsRtlIsLeadDbcsCharacter macro (ntifs.h)",
+  "description": "The FsRtlIsLeadDbcsCharacter macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS).",
+  "old-location": "ifsk\\fsrtlisleaddbcscharacter.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FsRtlIsLeadDbcsCharacter macro"
+  ],
+  "ms.keywords": "FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FsRtlIsLeadDbcsCharacter",
+    "ntifs/FsRtlIsLeadDbcsCharacter"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FsRtlIsLeadDbcsCharacter"
+  ]
+}

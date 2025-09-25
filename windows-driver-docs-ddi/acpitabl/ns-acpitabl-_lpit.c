@@ -1,0 +1,4 @@
+typedef struct _LPIT {
+  DESCRIPTION_HEADER   Header;
+  LPI_STATE_DESCRIPTOR LpiStates[ANYSIZE_ARRAY];
+} LPIT, *PLPIT;

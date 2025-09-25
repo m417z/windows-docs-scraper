@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.MmProbeAndLockSelectedPages",
+  "title": "MmProbeAndLockSelectedPages function (wdm.h)",
+  "description": "The MmProbeAndLockSelectedPages routine probes the selected virtual memory pages, makes them resident, and locks them in memory.",
+  "old-location": "kernel\\mmprobeandlockselectedpages_.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "MmProbeAndLockSelectedPages function"
+  ],
+  "ms.keywords": "MmProbeAndLockSelectedPages, MmProbeAndLockSelectedPages , MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmProbeAndLockSelectedPages",
+    "wdm/MmProbeAndLockSelectedPages"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "MmProbeAndLockSelectedPages"
+  ]
+}

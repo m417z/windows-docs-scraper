@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisClGetProtocolVcContextFromTapiCallId",
+  "title": "NdisClGetProtocolVcContextFromTapiCallId function (ndis.h)",
+  "description": "NdisClGetProtocolVcContextFromTapiCallId retrieves the client context for a virtual connection (VC) identified by a TAPI Call ID string.",
+  "old-location": "netvista\\ndisclgetprotocolvccontextfromtapicallid.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisClGetProtocolVcContextFromTapiCallId function"
+  ],
+  "ms.keywords": "NdisClGetProtocolVcContextFromTapiCallId, NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista], condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, ndis/NdisClGetProtocolVcContextFromTapiCallId, netvista.ndisclgetprotocolvccontextfromtapicallid",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisClGetProtocolVcContextFromTapiCallId (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1   drivers (see       NdisClGetProtocolVcContextFromTapiCallId (NDIS 5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Protocol_Driver_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisClGetProtocolVcContextFromTapiCallId",
+    "ndis/NdisClGetProtocolVcContextFromTapiCallId"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisClGetProtocolVcContextFromTapiCallId"
+  ]
+}

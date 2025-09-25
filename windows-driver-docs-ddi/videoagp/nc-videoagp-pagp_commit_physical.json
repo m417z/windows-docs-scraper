@@ -1,0 +1,48 @@
+{
+  "UID": "NC:videoagp.PAGP_COMMIT_PHYSICAL",
+  "title": "PAGP_COMMIT_PHYSICAL (videoagp.h)",
+  "description": "The AgpCommitPhysical function maps system (physical) memory to the specified range of AGP-decodable physical addresses.",
+  "old-location": "display\\agpcommitphysical.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PAGP_COMMIT_PHYSICAL callback function"
+  ],
+  "ms.keywords": "AgpCommitPhysical, AgpCommitPhysical callback function [Display Devices], PAGP_COMMIT_PHYSICAL, PAGP_COMMIT_PHYSICAL callback, VideoPort_Functions_11f78058-194b-4407-b98b-1ae7cd0028f7.xml, display.agpcommitphysical, videoagp/AgpCommitPhysical",
+  "req.header": "videoagp.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PAGP_COMMIT_PHYSICAL",
+    "videoagp/PAGP_COMMIT_PHYSICAL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "videoagp.h"
+  ],
+  "api_name": [
+    "PAGP_COMMIT_PHYSICAL"
+  ]
+}

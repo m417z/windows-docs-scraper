@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY",
+  "tech.root": "fs",
+  "title": "NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains values that are returned by the Get Features command, which describe the supported capabilities of the specified feature.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY, *PNVME_CDW11_FEATURE_SUPPORTED_CAPABILITY",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_CDW11_FEATURE_SUPPORTED_CAPABILITY",
+    "NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY"
+  ],
+  "f1_keywords": [
+    "PNVME_CDW11_FEATURE_SUPPORTED_CAPABILITY",
+    "nvme/PNVME_CDW11_FEATURE_SUPPORTED_CAPABILITY",
+    "NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY",
+    "nvme/NVME_CDW11_FEATURE_SUPPORTED_CAPABILITY"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

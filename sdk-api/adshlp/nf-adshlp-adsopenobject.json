@@ -1,0 +1,59 @@
+{
+  "UID": "NF:adshlp.ADsOpenObject",
+  "title": "ADsOpenObject function (adshlp.h)",
+  "description": "Binds to an ADSI object using explicit user name and password credentials.",
+  "helpviewer_keywords": [
+    "ADsOpenObject",
+    "ADsOpenObject function [ADSI]",
+    "_ds_adsopenobject",
+    "adshlp/ADsOpenObject",
+    "adsi.adsopenobject"
+  ],
+  "old-location": "adsi\\adsopenobject.htm",
+  "tech.root": "adsi",
+  "ms.assetid": "c4b85d8e-b33b-47a4-b7d7-5f901f80dce9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject",
+  "req.header": "adshlp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Activeds.lib",
+  "req.dll": "Activeds.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ADsOpenObject",
+    "adshlp/ADsOpenObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-adsi-activeds-l1-1-0.dll",
+    "Activeds.dll"
+  ],
+  "api_name": [
+    "ADsOpenObject"
+  ]
+}

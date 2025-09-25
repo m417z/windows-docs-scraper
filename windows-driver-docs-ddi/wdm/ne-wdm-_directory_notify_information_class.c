@@ -1,0 +1,6 @@
+typedef enum _DIRECTORY_NOTIFY_INFORMATION_CLASS {
+  DirectoryNotifyInformation,
+  DirectoryNotifyExtendedInformation,
+  DirectoryNotifyFullInformation,
+  DirectoryNotifyMaximumInformation
+} DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS;

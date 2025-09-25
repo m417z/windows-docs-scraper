@@ -1,0 +1,3 @@
+HRESULT DestroyAlternate(
+  HRECOALT hrcalt
+);

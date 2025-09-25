@@ -1,0 +1,62 @@
+{
+  "UID": "NF:msiquery.MsiDatabaseImportW",
+  "title": "MsiDatabaseImportW function (msiquery.h)",
+  "description": "The MsiDatabaseImport function imports an installer text archive file into an open database table. (Unicode)",
+  "helpviewer_keywords": [
+    "MsiDatabaseImport",
+    "MsiDatabaseImport function",
+    "MsiDatabaseImportW",
+    "_msi_msidatabaseimport",
+    "msiquery/MsiDatabaseImport",
+    "msiquery/MsiDatabaseImportW",
+    "setup.msidatabaseimport"
+  ],
+  "old-location": "setup\\msidatabaseimport.htm",
+  "tech.root": "setup",
+  "ms.assetid": "df277641-393e-4202-bb92-4b813ddaa0ca",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, MsiDatabaseImportW, _msi_msidatabaseimport, msiquery/MsiDatabaseImport, msiquery/MsiDatabaseImportA, msiquery/MsiDatabaseImportW, setup.msidatabaseimport",
+  "req.header": "msiquery.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiDatabaseImportW (Unicode) and MsiDatabaseImportA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiDatabaseImportW",
+    "msiquery/MsiDatabaseImportW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiDatabaseImport",
+    "MsiDatabaseImportA",
+    "MsiDatabaseImportW"
+  ]
+}

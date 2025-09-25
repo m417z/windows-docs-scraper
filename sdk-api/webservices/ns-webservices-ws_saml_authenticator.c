@@ -1,0 +1,3 @@
+typedef struct _WS_SAML_AUTHENTICATOR {
+  WS_SAML_AUTHENTICATOR_TYPE authenticatorType;
+} WS_SAML_AUTHENTICATOR;

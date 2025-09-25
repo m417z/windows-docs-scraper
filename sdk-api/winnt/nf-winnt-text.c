@@ -1,0 +1,3 @@
+void TEXT(
+    LPTSTR quote
+);

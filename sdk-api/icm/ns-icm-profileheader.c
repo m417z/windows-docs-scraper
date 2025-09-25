@@ -1,0 +1,19 @@
+typedef struct tagPROFILEHEADER {
+  DWORD  phSize;
+  DWORD  phCMMType;
+  DWORD  phVersion;
+  DWORD  phClass;
+  DWORD  phDataColorSpace;
+  DWORD  phConnectionSpace;
+  DWORD  phDateTime[3];
+  DWORD  phSignature;
+  DWORD  phPlatform;
+  DWORD  phProfileFlags;
+  DWORD  phManufacturer;
+  DWORD  phModel;
+  DWORD  phAttributes[2];
+  DWORD  phRenderingIntent;
+  CIEXYZ phIlluminant;
+  DWORD  phCreator;
+  BYTE   phReserved[44];
+} PROFILEHEADER;

@@ -1,0 +1,7 @@
+DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL DxgkddiSettrackedworkloadpowerlevel;
+
+NTSTATUS DxgkddiSettrackedworkloadpowerlevel(
+  IN_CONST_HANDLE hContext,
+  INOUT_PDXGKARG_SETTRACKEDWORKLOADPOWERLEVEL pTrackedWorkloadPowerLevel
+)
+{...}

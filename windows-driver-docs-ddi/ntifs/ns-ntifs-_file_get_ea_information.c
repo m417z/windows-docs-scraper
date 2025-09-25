@@ -1,0 +1,5 @@
+typedef struct _FILE_GET_EA_INFORMATION {
+  ULONG NextEntryOffset;
+  UCHAR EaNameLength;
+  CHAR  EaName[1];
+} FILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION;

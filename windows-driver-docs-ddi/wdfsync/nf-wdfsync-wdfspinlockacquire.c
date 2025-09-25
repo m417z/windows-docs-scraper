@@ -1,0 +1,3 @@
+VOID WdfSpinLockAcquire(
+  WDFSPINLOCK SpinLock
+);

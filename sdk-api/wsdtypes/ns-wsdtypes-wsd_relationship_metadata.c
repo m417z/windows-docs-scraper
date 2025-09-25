@@ -1,0 +1,5 @@
+typedef struct _WSD_RELATIONSHIP_METADATA {
+  const WCHAR       *Type;
+  WSD_HOST_METADATA *Data;
+  WSDXML_ELEMENT    *Any;
+} WSD_RELATIONSHIP_METADATA;

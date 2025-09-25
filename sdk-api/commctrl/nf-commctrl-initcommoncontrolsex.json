@@ -1,0 +1,63 @@
+{
+  "UID": "NF:commctrl.InitCommonControlsEx",
+  "title": "InitCommonControlsEx function (commctrl.h)",
+  "description": "Ensures that the common control DLL (Comctl32.dll) is loaded, and registers specific common control classes from the DLL. An application must call this function before creating a common control.",
+  "helpviewer_keywords": [
+    "InitCommonControlsEx",
+    "InitCommonControlsEx function [Windows Controls]",
+    "_win32_InitCommonControlsEx",
+    "_win32_InitCommonControlsEx_cpp",
+    "commctrl/InitCommonControlsEx",
+    "controls.InitCommonControlsEx",
+    "controls._win32_InitCommonControlsEx"
+  ],
+  "old-location": "controls\\InitCommonControlsEx.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\common\\functions\\initcommoncontrolsex.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "InitCommonControlsEx, InitCommonControlsEx function [Windows Controls], _win32_InitCommonControlsEx, _win32_InitCommonControlsEx_cpp, commctrl/InitCommonControlsEx, controls.InitCommonControlsEx, controls._win32_InitCommonControlsEx",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Comctl32.lib",
+  "req.dll": "Comctl32.dll (version 4.70 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InitCommonControlsEx",
+    "commctrl/InitCommonControlsEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Comctl32.dll",
+    "Ext-MS-Win-Shell-ComCtl32-Init-l1-1-0.dll",
+    "Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll"
+  ],
+  "api_name": [
+    "InitCommonControlsEx"
+  ],
+  "req.apiset": "ext-ms-win-shell-comctl32-init-l1-1-0 (introduced in Windows 10, version 10.0.10240)"
+}

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateOverlay(
+  D3DKMT_CREATEOVERLAY *unnamedParam1
+);

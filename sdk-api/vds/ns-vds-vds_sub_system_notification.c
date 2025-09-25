@@ -1,0 +1,4 @@
+typedef struct _VDS_SUB_SYSTEM_NOTIFICATION {
+  ULONG         ulEvent;
+  VDS_OBJECT_ID subSystemId;
+} VDS_SUB_SYSTEM_NOTIFICATION;

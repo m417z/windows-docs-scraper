@@ -1,0 +1,7 @@
+EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION EvtIddCxParseMonitorDescription;
+
+NTSTATUS EvtIddCxParseMonitorDescription(
+  const IDARG_IN_PARSEMONITORDESCRIPTION *pInArgs,
+  IDARG_OUT_PARSEMONITORDESCRIPTION *pOutArgs
+)
+{...}

@@ -1,0 +1,70 @@
+{
+  "UID": "NF:mbnapi.IMbnPinEvents.OnDisableComplete",
+  "title": "IMbnPinEvents::OnDisableComplete (mbnapi.h)",
+  "description": "Notification method called by the Mobile Broadband service to indicate that a PIN disable operation has completed.",
+  "helpviewer_keywords": [
+    "E_FAIL",
+    "E_MBN_BAD_SIM",
+    "E_MBN_FAILURE",
+    "E_MBN_PIN_REQUIRED",
+    "E_MBN_SIM_NOT_INSERTED",
+    "HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)",
+    "IMbnPinEvents interface [Microsoft Broadband Networks]",
+    "OnDisableComplete method",
+    "IMbnPinEvents.OnDisableComplete",
+    "IMbnPinEvents::OnDisableComplete",
+    "OnDisableComplete",
+    "OnDisableComplete method [Microsoft Broadband Networks]",
+    "OnDisableComplete method [Microsoft Broadband Networks]",
+    "IMbnPinEvents interface",
+    "S_OK",
+    "mbn.imbnpinevents_ondisablecomplete",
+    "mbnapi/IMbnPinEvents::OnDisableComplete"
+  ],
+  "old-location": "mbn\\imbnpinevents_ondisablecomplete.htm",
+  "tech.root": "mbn",
+  "ms.assetid": "54fc0ec1-eb35-4403-b22a-4c50c4912604",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "E_FAIL, E_MBN_BAD_SIM, E_MBN_FAILURE, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnDisableComplete method, IMbnPinEvents.OnDisableComplete, IMbnPinEvents::OnDisableComplete, OnDisableComplete, OnDisableComplete method [Microsoft Broadband Networks], OnDisableComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_ondisablecomplete, mbnapi/IMbnPinEvents::OnDisableComplete",
+  "req.header": "mbnapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Mbnapi.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMbnPinEvents::OnDisableComplete",
+    "mbnapi/IMbnPinEvents::OnDisableComplete"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mbnapi.h"
+  ],
+  "api_name": [
+    "IMbnPinEvents.OnDisableComplete"
+  ]
+}

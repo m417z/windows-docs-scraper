@@ -1,0 +1,3 @@
+LPBYTE ALERT_OTHER_INFO(
+    LPBYTE x
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntddpcm.PCMCIA_IS_WRITE_PROTECTED",
+  "title": "PCMCIA_IS_WRITE_PROTECTED (ntddpcm.h)",
+  "description": "The PCMCIA_IS_WRITE_PROTECTED interface routine returns the write-protect condition of a PCMCIA memory card.",
+  "old-location": "pcmcia\\pcmcia_is_write_protected.htm",
+  "tech.root": "PCMCIA",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "PCMCIA_IS_WRITE_PROTECTED callback function"
+  ],
+  "ms.keywords": "IsWriteProtected, IsWriteProtected callback function [Buses], PCMCIA.pcmcia_is_write_protected, PCMCIA_IS_WRITE_PROTECTED, PCMCIA_IS_WRITE_PROTECTED callback, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml, ntddpcm/IsWriteProtected",
+  "req.header": "ntddpcm.h",
+  "req.include-header": "Ntddpcm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL (See Remarks section.)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCMCIA_IS_WRITE_PROTECTED",
+    "ntddpcm/PCMCIA_IS_WRITE_PROTECTED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntddpcm.h"
+  ],
+  "api_name": [
+    "PCMCIA_IS_WRITE_PROTECTED"
+  ]
+}

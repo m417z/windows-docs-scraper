@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeSetPriorityThread",
+  "title": "KeSetPriorityThread function (wdm.h)",
+  "description": "The KeSetPriorityThread routine sets the run-time priority of a driver-created thread.",
+  "old-location": "kernel\\kesetprioritythread.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeSetPriorityThread function"
+  ],
+  "ms.keywords": "KeSetPriorityThread, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread, wdm/KeSetPriorityThread",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeSetPriorityThread",
+    "wdm/KeSetPriorityThread"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeSetPriorityThread"
+  ]
+}

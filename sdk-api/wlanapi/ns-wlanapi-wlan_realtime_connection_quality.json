@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wlanapi._WLAN_REALTIME_CONNECTION_QUALITY",
+  "title": "WLAN_REALTIME_CONNECTION_QUALITY",
+  "description": "Represents the attributes that describe the quality of the connection on a given interface.",
+  "tech.root": "nwifi",
+  "ms.date": "03/05/2024",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wlanapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "WLAN_REALTIME_CONNECTION_QUALITY, *PWLAN_REALTIME_CONNECTION_QUALITY",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wlanapi.h"
+  ],
+  "api_name": [
+    "_WLAN_REALTIME_CONNECTION_QUALITY",
+    "PWLAN_REALTIME_CONNECTION_QUALITY",
+    "WLAN_REALTIME_CONNECTION_QUALITY"
+  ],
+  "f1_keywords": [
+    "_WLAN_REALTIME_CONNECTION_QUALITY",
+    "wlanapi/_WLAN_REALTIME_CONNECTION_QUALITY",
+    "PWLAN_REALTIME_CONNECTION_QUALITY",
+    "wlanapi/PWLAN_REALTIME_CONNECTION_QUALITY",
+    "WLAN_REALTIME_CONNECTION_QUALITY",
+    "wlanapi/WLAN_REALTIME_CONNECTION_QUALITY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_WLAN_REALTIME_CONNECTION_QUALITY"
+  ],
+  "prerelease": true
+}

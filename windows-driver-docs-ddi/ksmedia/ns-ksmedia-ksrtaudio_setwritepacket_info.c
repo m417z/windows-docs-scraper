@@ -1,0 +1,5 @@
+typedef struct {
+  ULONG PacketNumber;
+  DWORD Flags;
+  ULONG EosPacketLength;
+} KSRTAUDIO_SETWRITEPACKET_INFO, *PKSRTAUDIO_SETWRITEPACKET_INFO;

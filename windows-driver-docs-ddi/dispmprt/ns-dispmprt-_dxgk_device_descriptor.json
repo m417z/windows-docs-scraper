@@ -1,0 +1,54 @@
+{
+  "UID": "NS:dispmprt._DXGK_DEVICE_DESCRIPTOR",
+  "title": "_DXGK_DEVICE_DESCRIPTOR (dispmprt.h)",
+  "description": "The DXGK_DEVICE_DESCRIPTOR structure is used by the display port driver to request that the display miniport driver return all or a portion of a monitor's Extended Display Identification Data (EDID).",
+  "old-location": "display\\dxgk_device_descriptor.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGK_DEVICE_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices], DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml, PDXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], _DXGK_DEVICE_DESCRIPTOR, display.dxgk_device_descriptor, dispmprt/DXGK_DEVICE_DESCRIPTOR, dispmprt/PDXGK_DEVICE_DESCRIPTOR",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR",
+  "f1_keywords": [
+    "_DXGK_DEVICE_DESCRIPTOR",
+    "dispmprt/_DXGK_DEVICE_DESCRIPTOR",
+    "PDXGK_DEVICE_DESCRIPTOR",
+    "dispmprt/PDXGK_DEVICE_DESCRIPTOR",
+    "DXGK_DEVICE_DESCRIPTOR",
+    "dispmprt/DXGK_DEVICE_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGK_DEVICE_DESCRIPTOR",
+    "PDXGK_DEVICE_DESCRIPTOR",
+    "DXGK_DEVICE_DESCRIPTOR"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptFinalizeKeyPair",
+  "title": "BCryptFinalizeKeyPair function (bcrypt.h)",
+  "description": "Completes a public/private key pair.",
+  "helpviewer_keywords": [
+    "BCryptFinalizeKeyPair",
+    "BCryptFinalizeKeyPair function [Security]",
+    "bcrypt/BCryptFinalizeKeyPair",
+    "security.bcryptfinalizekeypair_func"
+  ],
+  "old-location": "security\\bcryptfinalizekeypair_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "bf0b90f1-6da8-464e-9271-ad60ea762653",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptFinalizeKeyPair, BCryptFinalizeKeyPair function [Security], bcrypt/BCryptFinalizeKeyPair, security.bcryptfinalizekeypair_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptFinalizeKeyPair",
+    "bcrypt/BCryptFinalizeKeyPair"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptFinalizeKeyPair"
+  ]
+}

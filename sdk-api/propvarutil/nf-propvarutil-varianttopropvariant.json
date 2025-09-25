@@ -1,0 +1,59 @@
+{
+  "UID": "NF:propvarutil.VariantToPropVariant",
+  "title": "VariantToPropVariant function (propvarutil.h)",
+  "description": "Copies the contents of a VARIANT structure to a PROPVARIANT structure.",
+  "helpviewer_keywords": [
+    "VariantToPropVariant",
+    "VariantToPropVariant function [Windows Properties]",
+    "properties.VariantToPropVariant",
+    "propvarutil/VariantToPropVariant",
+    "shell.VariantToPropVariant",
+    "shell_VariantToPropVariant"
+  ],
+  "old-location": "properties\\VariantToPropVariant.htm",
+  "tech.root": "properties",
+  "ms.assetid": "b321d0a5-310a-4a64-8f39-4487602fbd3f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "VariantToPropVariant, VariantToPropVariant function [Windows Properties], properties.VariantToPropVariant, propvarutil/VariantToPropVariant, shell.VariantToPropVariant, shell_VariantToPropVariant",
+  "req.header": "propvarutil.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Propsys.lib",
+  "req.dll": "Propsys.dll (version 6.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Desktop Search (WDS) 3.0",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "VariantToPropVariant",
+    "propvarutil/VariantToPropVariant"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Propsys.dll"
+  ],
+  "api_name": [
+    "VariantToPropVariant"
+  ]
+}

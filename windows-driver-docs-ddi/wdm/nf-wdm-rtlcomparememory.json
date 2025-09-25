@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.RtlCompareMemory",
+  "title": "RtlCompareMemory function (wdm.h)",
+  "description": "The RtlCompareMemory routine compares two blocks of memory and returns the number of bytes that match until the first difference.",
+  "tech.root": "kernel",
+  "ms.date": "07/14/2025",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "BufAfterReqCompletedIntIoctlA, BufAfterReqCompletedIoctlA, BufAfterReqCompletedReadA, BufAfterReqCompletedWriteA",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib; OneCoreUAP.lib on Windows 10",
+  "req.dll": "NtDll.dll (user mode); Kernel32.dll (user mode); NtosKrnl.exe (kernel mode)",
+  "req.irql": "Any level (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlCompareMemory",
+    "wdm/RtlCompareMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtDll.dll",
+    "Kernel32.dll",
+    "NtosKrnl.exe",
+    "API-MS-Win-Core-rtlsupport-l1-1-0.dll",
+    "API-MS-Win-Core-rtlsupport-l1-2-0.dll"
+  ],
+  "api_name": [
+    "RtlCompareMemory"
+  ]
+}

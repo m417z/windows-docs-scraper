@@ -1,0 +1,3 @@
+typedef struct _WS_BOOL_DESCRIPTION {
+  BOOL value;
+} WS_BOOL_DESCRIPTION;

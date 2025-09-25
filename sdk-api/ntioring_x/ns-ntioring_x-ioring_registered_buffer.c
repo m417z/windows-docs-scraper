@@ -1,0 +1,4 @@
+typedef struct IORING_REGISTERED_BUFFER {
+  UINT32 BufferIndex;
+  UINT32 Offset;
+} IORING_REGISTERED_BUFFER;

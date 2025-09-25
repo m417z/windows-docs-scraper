@@ -1,0 +1,4 @@
+typedef enum _ACX_STREAMAUDIOENGINE_CONFIG_FLAGS {
+  AcxStreamAudioEngineConfigNoFlags,
+  AcxStreamAudioEngineConfigValidFlags
+} ACX_STREAMAUDIOENGINE_CONFIG_FLAGS;

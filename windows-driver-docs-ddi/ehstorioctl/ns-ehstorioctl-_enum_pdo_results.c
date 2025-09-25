@@ -1,0 +1,4 @@
+typedef struct _ENUM_PDO_RESULTS {
+  ULONG          cEntries;
+  ENUM_PDO_ENTRY rgEntries[ANYSIZE_ARRAY];
+} ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS;

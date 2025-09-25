@@ -1,0 +1,60 @@
+{
+  "UID": "NF:wininet.InternetGetCookieExA",
+  "title": "InternetGetCookieExA function (wininet.h)",
+  "description": "Retrieves data stored in cookies associated with a specified URL. (ANSI)",
+  "helpviewer_keywords": [
+    "INTERNET_COOKIE_HTTPONLY",
+    "INTERNET_COOKIE_THIRD_PARTY",
+    "INTERNET_FLAG_RESTRICTED_ZONE",
+    "InternetGetCookieExA",
+    "wininet/InternetGetCookieExA"
+  ],
+  "old-location": "wininet\\internetgetcookieex.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "5006f009-e217-4fdc-9e4e-800ff5fcbf03",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetGetCookieEx, InternetGetCookieEx function [WinINet], InternetGetCookieExA, InternetGetCookieExW, wininet.internetgetcookieex, wininet/InternetGetCookieEx, wininet/InternetGetCookieExA, wininet/InternetGetCookieExW",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "InternetGetCookieExW (Unicode) and InternetGetCookieExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wininet.lib",
+  "req.dll": "Wininet.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InternetGetCookieExA",
+    "wininet/InternetGetCookieExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wininet.dll"
+  ],
+  "api_name": [
+    "InternetGetCookieEx",
+    "InternetGetCookieExA",
+    "InternetGetCookieExW"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1536 {
+  BOOL sv1536_enableoplocks;
+} SERVER_INFO_1536, *PSERVER_INFO_1536, *LPSERVER_INFO_1536;

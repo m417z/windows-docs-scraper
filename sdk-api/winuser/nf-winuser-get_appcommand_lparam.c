@@ -1,0 +1,3 @@
+short GET_APPCOMMAND_LPARAM(
+    LPARAM lParam
+);

@@ -1,0 +1,5 @@
+typedef struct _SMARTCARD_REQUEST {
+  PUCHAR Buffer;
+  ULONG  BufferSize;
+  ULONG  BufferLength;
+} SMARTCARD_REQUEST, *PSMARTCARD_REQUEST;

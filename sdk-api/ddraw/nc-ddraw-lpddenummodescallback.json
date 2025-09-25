@@ -1,0 +1,58 @@
+{
+  "UID": "NC:ddraw.LPDDENUMMODESCALLBACK",
+  "title": "LPDDENUMMODESCALLBACK (ddraw.h)",
+  "description": "Do not use. This callback function is superseded by the EnumModesCallback2 function that is used with the IDirectDraw7::EnumDisplayModes method.",
+  "helpviewer_keywords": [
+    "EnumModesCallback",
+    "EnumModesCallback callback function [DirectDraw]",
+    "LPDDENUMMODESCALLBACK",
+    "LPDDENUMMODESCALLBACK callback",
+    "ddraw/EnumModesCallback",
+    "directdraw.enummodescallback"
+  ],
+  "old-location": "directdraw\\enummodescallback.htm",
+  "tech.root": "directdraw",
+  "ms.assetid": "5959FD6F-7C48-43EA-8C7C-BCA659D06CE2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumModesCallback, EnumModesCallback callback function [DirectDraw], LPDDENUMMODESCALLBACK, LPDDENUMMODESCALLBACK callback, ddraw/EnumModesCallback, directdraw.enummodescallback",
+  "f1_keywords": [
+    "ddraw/EnumModesCallback"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "req.header": "ddraw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ddraw.h"
+  ],
+  "api_name": [
+    "EnumModesCallback"
+  ],
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1"
+}

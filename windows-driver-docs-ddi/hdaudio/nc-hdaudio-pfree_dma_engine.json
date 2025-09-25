@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PFREE_DMA_ENGINE",
+  "title": "PFREE_DMA_ENGINE (hdaudio.h)",
+  "description": "The FreeDmaEngine routine frees a DMA engine that was previously allocated by a call to AllocateCaptureDmaEngine or AllocateRenderDmaEngine.The function pointer type for a FreeDmaEngine routine is defined as follows.",
+  "old-location": "audio\\freedmaengine.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PFREE_DMA_ENGINE callback function"
+  ],
+  "ms.keywords": "FreeDmaEngine, FreeDmaEngine callback function [Audio Devices], PFREE_DMA_ENGINE, PFREE_DMA_ENGINE callback, aud-prop2_98407bc5-c9ae-499f-92b4-afd8c797dc1d.xml, audio.freedmaengine, hdaudio/FreeDmaEngine",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFREE_DMA_ENGINE",
+    "hdaudio/PFREE_DMA_ENGINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PFREE_DMA_ENGINE"
+  ]
+}

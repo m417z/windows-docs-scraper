@@ -1,0 +1,4 @@
+typedef struct _TCP_ESTATS_BANDWIDTH_RW_v0 {
+  TCP_BOOLEAN_OPTIONAL EnableCollectionOutbound;
+  TCP_BOOLEAN_OPTIONAL EnableCollectionInbound;
+} TCP_ESTATS_BANDWIDTH_RW_v0, *PTCP_ESTATS_BANDWIDTH_RW_v0;

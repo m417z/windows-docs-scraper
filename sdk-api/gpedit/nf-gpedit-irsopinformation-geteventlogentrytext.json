@@ -1,0 +1,64 @@
+{
+  "UID": "NF:gpedit.IRSOPInformation.GetEventLogEntryText",
+  "title": "IRSOPInformation::GetEventLogEntryText (gpedit.h)",
+  "description": "The GetEventLogEntryText method returns the text for a specific entry in the event log.",
+  "helpviewer_keywords": [
+    "GetEventLogEntryText",
+    "GetEventLogEntryText method [Group Policy]",
+    "GetEventLogEntryText method [Group Policy]",
+    "IRSOPInformation interface",
+    "IRSOPInformation interface [Group Policy]",
+    "GetEventLogEntryText method",
+    "IRSOPInformation.GetEventLogEntryText",
+    "IRSOPInformation::GetEventLogEntryText",
+    "_win32_irsopinformation_geteventlogentrytext",
+    "gpedit/IRSOPInformation::GetEventLogEntryText",
+    "policy.irsopinformation_geteventlogentrytext"
+  ],
+  "old-location": "policy\\irsopinformation_geteventlogentrytext.htm",
+  "tech.root": "Policy",
+  "ms.assetid": "ee408c0a-437e-4caa-90b7-9717d43e1452",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetEventLogEntryText, GetEventLogEntryText method [Group Policy], GetEventLogEntryText method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetEventLogEntryText method, IRSOPInformation.GetEventLogEntryText, IRSOPInformation::GetEventLogEntryText, _win32_irsopinformation_geteventlogentrytext, gpedit/IRSOPInformation::GetEventLogEntryText, policy.irsopinformation_geteventlogentrytext",
+  "req.header": "gpedit.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Gpedit.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IRSOPInformation::GetEventLogEntryText",
+    "gpedit/IRSOPInformation::GetEventLogEntryText"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Gpedit.dll"
+  ],
+  "api_name": [
+    "IRSOPInformation.GetEventLogEntryText"
+  ]
+}

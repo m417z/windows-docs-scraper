@@ -1,0 +1,64 @@
+{
+  "UID": "NF:objidl.IStream.CopyTo",
+  "title": "IStream::CopyTo (objidl.h)",
+  "description": "Copies a specified number of bytes from the current seek pointer in the stream to the current seek pointer in another stream.",
+  "helpviewer_keywords": [
+    "CopyTo",
+    "CopyTo method [Structured Storage]",
+    "CopyTo method [Structured Storage]",
+    "IStream interface",
+    "IStream interface [Structured Storage]",
+    "CopyTo method",
+    "IStream.CopyTo",
+    "IStream::CopyTo",
+    "_stg_istream_copyto",
+    "objidl/IStream::CopyTo",
+    "stg.istream_copyto"
+  ],
+  "old-location": "stg\\istream_copyto.htm",
+  "tech.root": "Stg",
+  "ms.assetid": "5bcd7da6-8bd5-4ab7-952f-f0a12e87f2d4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStream interface, IStream interface [Structured Storage],CopyTo method, IStream.CopyTo, IStream::CopyTo, _stg_istream_copyto, objidl/IStream::CopyTo, stg.istream_copyto",
+  "req.header": "objidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Objidl.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IStream::CopyTo",
+    "objidl/IStream::CopyTo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Ole32.dll"
+  ],
+  "api_name": [
+    "IStream.CopyTo"
+  ]
+}

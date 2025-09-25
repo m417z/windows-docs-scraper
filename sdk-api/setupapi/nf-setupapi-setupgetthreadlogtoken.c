@@ -1,0 +1,1 @@
+WINSETUPAPI SP_LOG_TOKEN SetupGetThreadLogToken();

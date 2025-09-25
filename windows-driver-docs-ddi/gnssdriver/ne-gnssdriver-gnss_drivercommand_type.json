@@ -1,0 +1,48 @@
+{
+  "UID": "NE:gnssdriver.GNSS_DRIVERCOMMAND_TYPE",
+  "title": "GNSS_DRIVERCOMMAND_TYPE (gnssdriver.h)",
+  "description": "This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the GNSS_DRIVERCOMMAND_PARAM structure.",
+  "old-location": "gnss\\gnss_drivercommand_type.htm",
+  "tech.root": "gnss",
+  "ms.date": "05/14/2020",
+  "keywords": [
+    "GNSS_DRIVERCOMMAND_TYPE enumeration"
+  ],
+  "ms.keywords": "GNSS_ClearAgnssData, GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], GNSS_ForceOperationMode, GNSS_ForceSatelliteSystem, GNSS_ResetEngine, GNSS_ResetGeofencesTracking, GNSS_SetLocationNIRequestAllowed, GNSS_SetLocationServiceEnabled, GNSS_SetNMEALogging, GNSS_SetNiTimeoutInterval, GNSS_SetSuplVersion, GNSS_SetUplServerAccessInterval, gnss.gnss_drivercommand_type, gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_CustomCommand, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ForceOperationMode, gnssdriver/GNSS_ForceSatelliteSystem, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_SetNMEALogging, gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_SetUplServerAccessInterval",
+  "req.header": "gnssdriver.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GNSS_DRIVERCOMMAND_TYPE",
+  "f1_keywords": [
+    "GNSS_DRIVERCOMMAND_TYPE",
+    "gnssdriver/GNSS_DRIVERCOMMAND_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "gnssdriver.h"
+  ],
+  "api_name": [
+    "GNSS_DRIVERCOMMAND_TYPE"
+  ]
+}

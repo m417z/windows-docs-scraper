@@ -1,0 +1,4 @@
+typedef struct HBA_FCPTargetMappingV2 {
+  HBA_UINT32         NumberOfEntries;
+  HBA_FCPSCSIENTRYV2 entry[1];
+} HBA_FCPTARGETMAPPINGV2, *PHBA_FCPTARGETMAPPINGV2;

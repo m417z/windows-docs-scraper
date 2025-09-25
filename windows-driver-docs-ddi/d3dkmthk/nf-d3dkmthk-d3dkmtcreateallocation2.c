@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateAllocation2(
+  D3DKMT_CREATEALLOCATION *unnamedParam1
+);

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._OPEN_REPARSE_LIST_ENTRY",
+  "title": "_OPEN_REPARSE_LIST_ENTRY (ntifs.h)",
+  "description": "This structure supports callers opening specific reparse points without inhibiting reparse behavior for all classes of reparse points.",
+  "old-location": "ifsk\\open_reparse_list_entry_.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "OPEN_REPARSE_LIST_ENTRY structure"
+  ],
+  "ms.keywords": "*POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY , OPEN_REPARSE_LIST_ENTRY structure [Installable File System Drivers], OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT, OPEN_REPARSE_POINT_TAG_ENCOUNTERED, OPEN_REPARSE_POINT_VERSION_EX, POPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST_ENTRY, ifsk.open_reparse_list_entry_, ntifs/OPEN_REPARSE_LIST_ENTRY, ntifs/POPEN_REPARSE_LIST_ENTRY",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OPEN_REPARSE_LIST_ENTRY, *POPEN_REPARSE_LIST_ENTRY",
+  "f1_keywords": [
+    "_OPEN_REPARSE_LIST_ENTRY",
+    "ntifs/_OPEN_REPARSE_LIST_ENTRY",
+    "POPEN_REPARSE_LIST_ENTRY",
+    "ntifs/POPEN_REPARSE_LIST_ENTRY",
+    "OPEN_REPARSE_LIST_ENTRY",
+    "ntifs/OPEN_REPARSE_LIST_ENTRY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_OPEN_REPARSE_LIST_ENTRY",
+    "POPEN_REPARSE_LIST_ENTRY",
+    "OPEN_REPARSE_LIST_ENTRY"
+  ]
+}

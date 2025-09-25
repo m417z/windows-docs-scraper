@@ -1,0 +1,3 @@
+void ReleaseFileFragment(
+  void *fragmentContext
+);

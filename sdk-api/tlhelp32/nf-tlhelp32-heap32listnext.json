@@ -1,0 +1,61 @@
+{
+  "UID": "NF:tlhelp32.Heap32ListNext",
+  "title": "Heap32ListNext function (tlhelp32.h)",
+  "description": "Retrieves information about the next heap that has been allocated by a process.",
+  "helpviewer_keywords": [
+    "Heap32ListNext",
+    "Heap32ListNext function [ToolHelp]",
+    "_win32_heap32listnext",
+    "base.heap32listnext",
+    "tlhelp32/Heap32ListNext",
+    "toolhelp.heap32listnext"
+  ],
+  "old-location": "toolhelp\\heap32listnext.htm",
+  "tech.root": "ToolHelp",
+  "ms.assetid": "bb4d573c-a82f-48ac-be22-440d6a1d0c9c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "Heap32ListNext, Heap32ListNext function [ToolHelp], _win32_heap32listnext, base.heap32listnext, tlhelp32/Heap32ListNext, toolhelp.heap32listnext",
+  "req.header": "tlhelp32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Heap32ListNext",
+    "tlhelp32/Heap32ListNext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-ToolHelp-L1-1-1.dll",
+    "Kernel32Legacy.dll"
+  ],
+  "api_name": [
+    "Heap32ListNext"
+  ]
+}

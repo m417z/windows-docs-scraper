@@ -1,0 +1,10 @@
+PFND3D11_1DDI_CREATEHULLSHADER Pfnd3d111DdiCreatehullshader;
+
+VOID Pfnd3d111DdiCreatehullshader(
+       D3D10DDI_HDEVICE unnamedParam1,
+  [in] const UINT *pShaderCode,
+       D3D10DDI_HSHADER unnamedParam3,
+       D3D10DDI_HRTSHADER unnamedParam4,
+       const D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES *unnamedParam5
+)
+{...}

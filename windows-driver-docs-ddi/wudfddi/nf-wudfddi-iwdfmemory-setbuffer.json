@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFMemory.SetBuffer",
+  "title": "IWDFMemory::SetBuffer (wudfddi.h)",
+  "description": "The SetBuffer method assigns a specified buffer to a memory object that a driver created by calling IWDFDriver::CreatePreallocatedWdfMemory.",
+  "old-location": "wdf\\iwdfmemory_setbuffer.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFMemory::SetBuffer"
+  ],
+  "ms.keywords": "IWDFMemory interface,SetBuffer method, IWDFMemory.SetBuffer, IWDFMemory::SetBuffer, SetBuffer, SetBuffer method, SetBuffer method,IWDFMemory interface, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, umdf.iwdfmemory_setbuffer, wdf.iwdfmemory_setbuffer, wudfddi/IWDFMemory::SetBuffer",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFMemory::SetBuffer",
+    "wudfddi/IWDFMemory::SetBuffer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFMemory::SetBuffer"
+  ]
+}

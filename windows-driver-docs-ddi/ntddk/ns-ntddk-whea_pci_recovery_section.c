@@ -1,0 +1,5 @@
+typedef struct _WHEA_PCI_RECOVERY_SECTION {
+  UINT8   SignalType;
+  BOOLEAN RecoveryAttempted;
+  UINT8   RecoveryStatus;
+} WHEA_PCI_RECOVERY_SECTION, *PWHEA_PCI_RECOVERY_SECTION;

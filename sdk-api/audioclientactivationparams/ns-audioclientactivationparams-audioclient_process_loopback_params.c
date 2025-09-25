@@ -1,0 +1,4 @@
+typedef struct AUDIOCLIENT_PROCESS_LOOPBACK_PARAMS {
+  DWORD                 TargetProcessId;
+  PROCESS_LOOPBACK_MODE ProcessLoopbackMode;
+} AUDIOCLIENT_PROCESS_LOOPBACK_PARAMS;

@@ -1,0 +1,72 @@
+{
+  "UID": "NF:msi.MsiGetProductInfoA",
+  "title": "MsiGetProductInfoA function (msi.h)",
+  "description": "The MsiGetProductInfo function returns product information for published and installed products. (ANSI)",
+  "helpviewer_keywords": [
+    "INSTALLPROPERTY_HELPLINK",
+    "INSTALLPROPERTY_HELPTELEPHONE",
+    "INSTALLPROPERTY_INSTALLDATE",
+    "INSTALLPROPERTY_INSTALLEDLANGUAGE",
+    "INSTALLPROPERTY_INSTALLEDPRODUCTNAME",
+    "INSTALLPROPERTY_INSTALLLOCATION",
+    "INSTALLPROPERTY_INSTALLSOURCE",
+    "INSTALLPROPERTY_LOCALPACKAGE",
+    "INSTALLPROPERTY_PUBLISHER",
+    "INSTALLPROPERTY_URLINFOABOUT",
+    "INSTALLPROPERTY_URLUPDATEINFO",
+    "INSTALLPROPERTY_VERSIONMAJOR",
+    "INSTALLPROPERTY_VERSIONMINOR",
+    "INSTALLPROPERTY_VERSIONSTRING",
+    "MsiGetProductInfoA",
+    "msi/MsiGetProductInfoA"
+  ],
+  "old-location": "setup\\msigetproductinfo.htm",
+  "tech.root": "setup",
+  "ms.assetid": "336a68d6-5239-4313-b6c7-8091907a0e35",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_INSTALLEDLANGUAGE, INSTALLPROPERTY_INSTALLEDPRODUCTNAME, INSTALLPROPERTY_INSTALLLOCATION, INSTALLPROPERTY_INSTALLSOURCE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_PUBLISHER, INSTALLPROPERTY_URLINFOABOUT, INSTALLPROPERTY_URLUPDATEINFO, INSTALLPROPERTY_VERSIONMAJOR, INSTALLPROPERTY_VERSIONMINOR, INSTALLPROPERTY_VERSIONSTRING, MsiGetProductInfo, MsiGetProductInfo function, MsiGetProductInfoA, MsiGetProductInfoW, _msi_msigetproductinfo, msi/MsiGetProductInfo, msi/MsiGetProductInfoA, msi/MsiGetProductInfoW, setup.msigetproductinfo",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiGetProductInfoW (Unicode) and MsiGetProductInfoA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiGetProductInfoA",
+    "msi/MsiGetProductInfoA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll",
+    "Ext-MS-Win-MSI-Misc-l1-1-0.dll"
+  ],
+  "api_name": [
+    "MsiGetProductInfo",
+    "MsiGetProductInfoA",
+    "MsiGetProductInfoW"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "UID": "NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SAVE_BEGIN",
+  "title": "FN_VMB_CHANNEL_SAVE_BEGIN (vmbuskernelmodeclientlibapi.h)",
+  "description": "The VmbChannelSaveBegin function initializes the context for saving the state of a channel. The driver must check the return value of the function.",
+  "tech.root": "netvista",
+  "ms.date": "05/21/2018",
+  "keywords": [
+    "FN_VMB_CHANNEL_SAVE_BEGIN callback function"
+  ],
+  "req.header": "vmbuskernelmodeclientlibapi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FN_VMB_CHANNEL_SAVE_BEGIN",
+    "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SAVE_BEGIN"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "vmbuskernelmodeclientlibapi.h"
+  ],
+  "api_name": [
+    "FN_VMB_CHANNEL_SAVE_BEGIN"
+  ]
+}

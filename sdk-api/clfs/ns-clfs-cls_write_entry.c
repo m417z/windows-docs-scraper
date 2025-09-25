@@ -1,0 +1,4 @@
+typedef struct _CLS_WRITE_ENTRY {
+  PVOID Buffer;
+  ULONG ByteLength;
+} CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY;

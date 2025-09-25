@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfworkitem.WdfWorkItemEnqueue",
+  "title": "WdfWorkItemEnqueue function (wdfworkitem.h)",
+  "description": "The WdfWorkItemEnqueue method adds a specified framework work-item object to the system's work-item queue.",
+  "old-location": "wdf\\wdfworkitemenqueue.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfWorkItemEnqueue function"
+  ],
+  "ms.keywords": "DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue",
+  "req.header": "wdfworkitem.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DeferredRequestCompleted, DriverCreate, KmdfIrql, KmdfIrql2, RequestCompleted, RequestCompletedLocal",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfWorkItemEnqueue",
+    "wdfworkitem/WdfWorkItemEnqueue"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfWorkItemEnqueue"
+  ]
+}

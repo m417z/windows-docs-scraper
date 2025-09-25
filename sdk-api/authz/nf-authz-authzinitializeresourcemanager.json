@@ -1,0 +1,62 @@
+{
+  "UID": "NF:authz.AuthzInitializeResourceManager",
+  "title": "AuthzInitializeResourceManager function (authz.h)",
+  "description": "Uses Authz to verify that clients have access to various resources.",
+  "helpviewer_keywords": [
+    "AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION",
+    "AUTHZ_RM_FLAG_NO_AUDIT",
+    "AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES",
+    "AuthzInitializeResourceManager",
+    "AuthzInitializeResourceManager function [Security]",
+    "_win32_authzinitializeresourcemanager",
+    "authz/AuthzInitializeResourceManager",
+    "security.authzinitializeresourcemanager"
+  ],
+  "old-location": "security\\authzinitializeresourcemanager.htm",
+  "tech.root": "security",
+  "ms.assetid": "e3f6b37d-2c33-4b17-97b4-762bf55561c5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager",
+  "req.header": "authz.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Authz.lib",
+  "req.dll": "Authz.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AuthzInitializeResourceManager",
+    "authz/AuthzInitializeResourceManager"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Authz.dll",
+    "Ext-MS-Win-authz-context-l1-1-0.dll"
+  ],
+  "api_name": [
+    "AuthzInitializeResourceManager"
+  ]
+}

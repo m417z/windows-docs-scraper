@@ -1,0 +1,4 @@
+typedef struct _PEP_WORK_ACPI_NOTIFY {
+  POHANDLE DeviceHandle;
+  ULONG    NotifyCode;
+} PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY;

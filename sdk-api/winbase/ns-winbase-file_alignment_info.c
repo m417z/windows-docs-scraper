@@ -1,0 +1,3 @@
+typedef struct _FILE_ALIGNMENT_INFO {
+  ULONG AlignmentRequirement;
+} FILE_ALIGNMENT_INFO, *PFILE_ALIGNMENT_INFO;

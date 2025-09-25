@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdffdo.WdfFdoInitSetEventCallbacks",
+  "title": "WdfFdoInitSetEventCallbacks function (wdffdo.h)",
+  "description": "The WdfFdoInitSetEventCallbacks method registers a framework-based function driver's event callback functions, for a specified device.",
+  "old-location": "wdf\\wdffdoinitseteventcallbacks.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfFdoInitSetEventCallbacks function"
+  ],
+  "ms.keywords": "DFDeviceObjectFdoPdoRef_3a3fbec9-836c-422e-a921-654fa4866989.xml, WdfFdoInitSetEventCallbacks, WdfFdoInitSetEventCallbacks method, kmdf.wdffdoinitseteventcallbacks, wdf.wdffdoinitseteventcallbacks, wdffdo/WdfFdoInitSetEventCallbacks",
+  "req.header": "wdffdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DeviceInitAPI, DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfFdoInitSetEventCallbacks",
+    "wdffdo/WdfFdoInitSetEventCallbacks"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfFdoInitSetEventCallbacks"
+  ]
+}

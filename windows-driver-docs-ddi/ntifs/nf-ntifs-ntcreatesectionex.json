@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.NtCreateSectionEx",
+  "title": "NtCreateSectionEx function (ntifs.h)",
+  "description": "Creates a section object.",
+  "tech.root": "kernel",
+  "ms.date": "10/06/2022",
+  "keywords": [
+    "NtCreateSectionEx function"
+  ],
+  "ms.keywords": "NtCreateSectionEx",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "NtCreateSectionEx",
+    "ntifs/NtCreateSectionEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "NtCreateSectionEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "ms.custom": "engagement-fy23"
+}

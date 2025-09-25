@@ -1,0 +1,5 @@
+typedef struct tagDIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION {
+  UINT32 hoursOfHistoryToKeep;
+  UINT32 maxStoreMegabytes;
+  UINT32 requestedMaxStoreMegabytes;
+} DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION;

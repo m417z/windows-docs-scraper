@@ -1,0 +1,4 @@
+typedef struct _COPY_INFORMATION {
+  PFILE_OBJECT SourceFileObject;
+  LONGLONG     SourceFileOffset;
+} COPY_INFORMATION, *PCOPY_INFORMATION;

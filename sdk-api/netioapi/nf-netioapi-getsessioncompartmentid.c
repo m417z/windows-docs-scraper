@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE NET_IF_COMPARTMENT_ID NETIOAPI_API_ GetSessionCompartmentId(
+  [in] ULONG SessionId
+);

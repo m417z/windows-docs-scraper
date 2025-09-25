@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfchildlist.EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED",
+  "title": "EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED (wdfchildlist.h)",
+  "description": "A driver's EvtChildListDeviceReenumerated event callback function enables the driver to approve or cancel a reenumeration of a specified device.",
+  "old-location": "wdf\\evtchildlistdevicereenumerated.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectChildListRef_70b8a1c2-d157-4d57-85d3-09566977b649.xml, EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED, EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED callback, EvtChildListDeviceReenumerated, EvtChildListDeviceReenumerated callback function, kmdf.evtchildlistdevicereenumerated, wdf.evtchildlistdevicereenumerated, wdfchildlist/EvtChildListDeviceReenumerated",
+  "req.header": "wdfchildlist.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED",
+    "wdfchildlist/EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WdfChildlist.h"
+  ],
+  "api_name": [
+    "EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED"
+  ]
+}

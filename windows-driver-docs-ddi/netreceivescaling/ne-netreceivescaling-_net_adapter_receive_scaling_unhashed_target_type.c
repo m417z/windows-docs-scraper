@@ -1,0 +1,4 @@
+typedef enum _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE {
+  NetAdapterReceiveScalingUnhashedTargetTypeUnspecified = 0,
+  NetAdapterReceiveScalingUnhashedTargetTypeHashIndex = 1
+} NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE;

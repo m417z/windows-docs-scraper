@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winbase.EnableProcessOptionalXStateFeatures",
+  "tech.root": null,
+  "title": "EnableProcessOptionalXStateFeatures",
+  "description": "The EnableProcessOptionalXStateFeatures function enables a set of optional XState features for the current process.",
+  "ms.date": "08/04/2022",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winbase.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-xstate-l2-1-2.dll",
+    "winbase.h"
+  ],
+  "api_name": [
+    "EnableProcessOptionalXStateFeatures"
+  ],
+  "f1_keywords": [
+    "EnableProcessOptionalXStateFeatures",
+    "winbase/EnableProcessOptionalXStateFeatures"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

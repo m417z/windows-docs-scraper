@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndGetInactiveTimer",
+  "title": "MCIWndGetInactiveTimer macro (vfw.h)",
+  "description": "The MCIWndGetInactiveTimer macro retrieves the update period used when the MCIWnd window is the inactive window. You can use this macro or explicitly send the MCIWNDM_GETINACTIVETIMER message.",
+  "helpviewer_keywords": [
+    "MCIWndGetInactiveTimer",
+    "MCIWndGetInactiveTimer macro [Windows Multimedia]",
+    "_win32_MCIWndGetInactiveTimer",
+    "multimedia.mciwndgetinactivetimer",
+    "vfw/MCIWndGetInactiveTimer"
+  ],
+  "old-location": "multimedia\\mciwndgetinactivetimer.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "a9683a34-7fbd-4878-a547-4421d5888308",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndGetInactiveTimer, MCIWndGetInactiveTimer macro [Windows Multimedia], _win32_MCIWndGetInactiveTimer, multimedia.mciwndgetinactivetimer, vfw/MCIWndGetInactiveTimer",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndGetInactiveTimer",
+    "vfw/MCIWndGetInactiveTimer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndGetInactiveTimer"
+  ]
+}

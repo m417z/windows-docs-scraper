@@ -1,0 +1,3 @@
+WDFIOTARGET AcxTargetFactoryCircuitGetWdfIoTarget(
+  ACXTARGETFACTORYCIRCUIT TargetFactoryCircuit
+);

@@ -1,0 +1,4 @@
+void wiauDbgLegacyWarning(
+  LPCSTR fmt,
+  ...    
+);

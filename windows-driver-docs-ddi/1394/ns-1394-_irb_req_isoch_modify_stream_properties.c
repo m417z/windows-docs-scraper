@@ -1,0 +1,5 @@
+typedef struct _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES {
+  HANDLE         hResource;
+  ULARGE_INTEGER ChannelMask;
+  ULONG          fulSpeed;
+} IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES;

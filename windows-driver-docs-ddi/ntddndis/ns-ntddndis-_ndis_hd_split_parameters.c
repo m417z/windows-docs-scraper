@@ -1,0 +1,4 @@
+typedef struct _NDIS_HD_SPLIT_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              HDSplitCombineFlags;
+} NDIS_HD_SPLIT_PARAMETERS, *PNDIS_HD_SPLIT_PARAMETERS;

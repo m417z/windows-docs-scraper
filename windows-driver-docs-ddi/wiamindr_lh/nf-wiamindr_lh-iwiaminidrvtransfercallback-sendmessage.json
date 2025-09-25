@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wiamindr_lh.IWiaMiniDrvTransferCallback.SendMessage",
+  "title": "IWiaMiniDrvTransferCallback::SendMessage (wiamindr_lh.h)",
+  "description": "Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.",
+  "tech.root": "image",
+  "ms.date": "07/21/2022",
+  "keywords": [
+    "IWiaMiniDrvTransferCallback::SendMessage"
+  ],
+  "ms.keywords": "IWiaMiniDrvTransferCallback interface [Imaging Devices],SendMessage method, IWiaMiniDrvTransferCallback.SendMessage, IWiaMiniDrvTransferCallback::SendMessage, SendMessage, SendMessage method [Imaging Devices], SendMessage method [Imaging Devices],IWiaMiniDrvTransferCallback interface, image.iwiaminidrvtransfercallback_sendmessage, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage",
+  "req.header": "wiamindr_lh.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWiaMiniDrvTransferCallback::SendMessage",
+    "wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wiamindr_lh.h"
+  ],
+  "api_name": [
+    "IWiaMiniDrvTransferCallback::SendMessage"
+  ]
+}

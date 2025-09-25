@@ -1,0 +1,3 @@
+BYTE THIRD_IPADDRESS(
+   LPARAM x
+);

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddndis._NDIS_PM_PARAMETERS",
+  "title": "_NDIS_PM_PARAMETERS (ntddndis.h)",
+  "description": "The NDIS_PM_PARAMETERS structure specifies the current or new power management hardware capabilities that are enabled for a network adapter.",
+  "old-location": "netvista\\ndis_pm_parameters.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_PM_PARAMETERS structure"
+  ],
+  "ms.keywords": "*PNDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS, NDIS_PM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PARAMETERS, PNDIS_PM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PARAMETERS, miniport_power_management_ref_dc82d32a-ee0e-4167-b322-f0b91ece8002.xml, netvista.ndis_pm_parameters, ntddndis/NDIS_PM_PARAMETERS, ntddndis/PNDIS_PM_PARAMETERS",
+  "req.header": "ntddndis.h",
+  "req.include-header": "Ntddndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.20 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_PM_PARAMETERS, *PNDIS_PM_PARAMETERS",
+  "f1_keywords": [
+    "_NDIS_PM_PARAMETERS",
+    "ntddndis/_NDIS_PM_PARAMETERS",
+    "PNDIS_PM_PARAMETERS",
+    "ntddndis/PNDIS_PM_PARAMETERS",
+    "NDIS_PM_PARAMETERS",
+    "ntddndis/NDIS_PM_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_PM_PARAMETERS",
+    "PNDIS_PM_PARAMETERS",
+    "NDIS_PM_PARAMETERS"
+  ]
+}

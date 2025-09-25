@@ -1,0 +1,57 @@
+{
+  "UID": "NF:commctrl.Edit_GetFileLineFromChar",
+  "title": "Edit_GetFileLineFromChar macro (commctrl.h)",
+  "description": "Gets the index of the file (or logical) line of text that includes the specified character index (text wrap delimiters are ignored). You can use this macro or send the EM_FILELINEFROMCHAR message explicitly.",
+  "helpviewer_keywords": [
+    "Edit_GetFileLineFromChar",
+    "Edit_GetFileLineFromChar macro [Windows Controls]",
+    "commctrl/Edit_GetFileLineFromChar",
+    "controls.edit_getfilelinefromchar"
+  ],
+  "old-location": "controls\\edit_getfilelinefromchar.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "1427DEB0-2B15-4DC5-AD0B-D4F9BA12CB2C",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "Edit_GetFileLineFromChar, Edit_GetFileLineFromChar macro [Windows Controls], commctrl/Edit_GetFileLineFromChar, controls.edit_getfilelinefromchar",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Edit_GetFileLineFromChar",
+    "commctrl/Edit_GetFileLineFromChar"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "Edit_GetFileLineFromChar"
+  ]
+}

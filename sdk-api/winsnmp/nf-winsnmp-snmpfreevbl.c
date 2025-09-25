@@ -1,0 +1,3 @@
+SNMPAPI_STATUS SNMPAPI_CALL SnmpFreeVbl(
+  [in] HSNMP_VBL vbl
+);

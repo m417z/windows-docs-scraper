@@ -1,0 +1,1 @@
+#define NET_BUFFER_LIST_STATUS(_NBL) ((_NBL)->Status)

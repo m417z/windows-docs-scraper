@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdbgexts._WDBGEXTS_THREAD_OS_INFO",
+  "title": "_WDBGEXTS_THREAD_OS_INFO (wdbgexts.h)",
+  "description": "The IG_GET_THREAD_OS_INFO Ioctl operation returns information about an operating system thread in the target. When calling Ioctl with IoctlType set to IG_GET_THREAD_OS_INFO, IpvData should contain an instance of the WDBGEXTS_THREAD_OS_INFO structure.",
+  "old-location": "debugger\\ig_get_thread_os_info.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "WDBGEXTS_THREAD_OS_INFO structure"
+  ],
+  "ms.keywords": "*PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], WDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, _WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, wdbgexts/WDBGEXTS_THREAD_OS_INFO",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO",
+  "f1_keywords": [
+    "_WDBGEXTS_THREAD_OS_INFO",
+    "wdbgexts/_WDBGEXTS_THREAD_OS_INFO",
+    "PWDBGEXTS_THREAD_OS_INFO",
+    "wdbgexts/PWDBGEXTS_THREAD_OS_INFO",
+    "WDBGEXTS_THREAD_OS_INFO",
+    "wdbgexts/WDBGEXTS_THREAD_OS_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "_WDBGEXTS_THREAD_OS_INFO",
+    "PWDBGEXTS_THREAD_OS_INFO",
+    "WDBGEXTS_THREAD_OS_INFO"
+  ]
+}

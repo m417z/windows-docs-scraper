@@ -1,0 +1,3 @@
+HRESULT GetStart(
+  long *pcpFirst
+);

@@ -1,0 +1,4 @@
+typedef struct tagTCHITTESTINFO {
+  POINT pt;
+  UINT  flags;
+} TCHITTESTINFO, *LPTCHITTESTINFO;

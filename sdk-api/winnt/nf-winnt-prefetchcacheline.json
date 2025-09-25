@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winnt.PreFetchCacheLine",
+  "title": "PreFetchCacheLine macro (winnt.h)",
+  "description": "Indicates to the processor that a cache line will be needed in the near future.",
+  "helpviewer_keywords": [
+    "PF_NON_TEMPORAL_LEVEL_ALL",
+    "PF_TEMPORAL_LEVEL_1",
+    "PreFetchCacheLine",
+    "PreFetchCacheLine macro",
+    "base.prefetchcacheline",
+    "winnt/PreFetchCacheLine"
+  ],
+  "old-location": "base\\prefetchcacheline.htm",
+  "tech.root": "backup",
+  "ms.assetid": "112f3acc-e9d4-44c0-8844-1dc8cc1de2c8",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PreFetchCacheLine",
+    "winnt/PreFetchCacheLine"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winnt.h"
+  ],
+  "api_name": [
+    "PreFetchCacheLine"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:msrdc.IFindSimilarResults.GetSize",
+  "title": "IFindSimilarResults::GetSize (msrdc.h)",
+  "description": "Retrieves the number of entries in the file list that was returned by the ISimilarity::FindSimilarFileId method.",
+  "helpviewer_keywords": [
+    "GetSize",
+    "GetSize method [Remote Differential Compression]",
+    "GetSize method [Remote Differential Compression]",
+    "IFindSimilarResults interface",
+    "IFindSimilarResults interface [Remote Differential Compression]",
+    "GetSize method",
+    "IFindSimilarResults.GetSize",
+    "IFindSimilarResults::GetSize",
+    "fs.ifindsimilarresults_getsize",
+    "msrdc/IFindSimilarResults::GetSize",
+    "rdc.ifindsimilarresults_getsize"
+  ],
+  "old-location": "rdc\\ifindsimilarresults_getsize.htm",
+  "tech.root": "rdc",
+  "ms.assetid": "c59a6fb0-e81f-4b7d-b0e6-9a5c9730fa9d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetSize, GetSize method [Remote Differential Compression], GetSize method [Remote Differential Compression],IFindSimilarResults interface, IFindSimilarResults interface [Remote Differential Compression],GetSize method, IFindSimilarResults.GetSize, IFindSimilarResults::GetSize, fs.ifindsimilarresults_getsize, msrdc/IFindSimilarResults::GetSize, rdc.ifindsimilarresults_getsize",
+  "req.header": "msrdc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "MsRdc.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "MsRdc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFindSimilarResults::GetSize",
+    "msrdc/IFindSimilarResults::GetSize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "MsRdc.dll"
+  ],
+  "api_name": [
+    "IFindSimilarResults.GetSize"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_ISR",
+  "title": "MINIPORT_ISR (ndis.h)",
+  "description": "NDIS calls the MiniportInterrupt function when a NIC, or another device that shares the interrupt with the NIC, generates an interrupt.",
+  "old-location": "netvista\\miniportinterrupt.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_ISR callback function"
+  ],
+  "ms.keywords": "MINIPORT_ISR, MINIPORT_ISR callback, MiniportInterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml, netvista.miniportinterrupt",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_ISR",
+    "ndis/MINIPORT_ISR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_ISR"
+  ]
+}

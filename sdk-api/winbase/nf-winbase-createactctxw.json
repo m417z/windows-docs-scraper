@@ -1,0 +1,66 @@
+{
+  "UID": "NF:winbase.CreateActCtxW",
+  "title": "CreateActCtxW function (winbase.h)",
+  "description": "The CreateActCtx function creates an activation context. (Unicode)",
+  "helpviewer_keywords": [
+    "CreateActCtx",
+    "CreateActCtx function [Side-by-side Assemblies]",
+    "CreateActCtxW",
+    "_win32_createactctx",
+    "setup.createactctx",
+    "winbase/CreateActCtx",
+    "winbase/CreateActCtxW"
+  ],
+  "old-location": "setup\\createactctx.htm",
+  "tech.root": "setup",
+  "ms.assetid": "11508215-8d8b-4040-a725-88804103fac4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateActCtx, CreateActCtx function [Side-by-side Assemblies], CreateActCtxA, CreateActCtxW, _win32_createactctx, setup.createactctx, winbase/CreateActCtx, winbase/CreateActCtxA, winbase/CreateActCtxW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CreateActCtxW (Unicode) and CreateActCtxA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateActCtxW",
+    "winbase/CreateActCtxW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-sidebyside-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll",
+    "Kernel32Legacy.dll"
+  ],
+  "api_name": [
+    "CreateActCtx",
+    "CreateActCtxA",
+    "CreateActCtxW"
+  ]
+}

@@ -1,0 +1,3 @@
+LONG VerifyPackageRelativeApplicationId(
+  PCWSTR packageRelativeApplicationId
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PGET_WALL_CLOCK_REGISTER",
+  "title": "PGET_WALL_CLOCK_REGISTER (hdaudio.h)",
+  "description": "The GetWallClockRegister routine retrieves a pointer to the wall clock register.The function pointer type for a GetWallClockRegister routine is defined as follows.",
+  "old-location": "audio\\getwallclockregister.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PGET_WALL_CLOCK_REGISTER callback function"
+  ],
+  "ms.keywords": "GetWallClockRegister, GetWallClockRegister callback function [Audio Devices], PGET_WALL_CLOCK_REGISTER, PGET_WALL_CLOCK_REGISTER callback, aud-prop2_1600e03f-4be0-4a61-9596-7970ace3df2f.xml, audio.getwallclockregister, hdaudio/GetWallClockRegister",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PGET_WALL_CLOCK_REGISTER",
+    "hdaudio/PGET_WALL_CLOCK_REGISTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PGET_WALL_CLOCK_REGISTER"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _SEARCH_ITEM_INDEXING_STATUS {
+  DWORD   dwDocID;
+  HRESULT hrIndexingStatus;
+} SEARCH_ITEM_INDEXING_STATUS;

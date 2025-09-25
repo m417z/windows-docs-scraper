@@ -1,0 +1,3 @@
+NTSTATUS LkmdTelSubmitReport(
+  HANDLE TelemetryHandle
+);

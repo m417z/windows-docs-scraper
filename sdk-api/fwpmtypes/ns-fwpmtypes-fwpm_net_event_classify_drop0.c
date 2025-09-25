@@ -1,0 +1,4 @@
+typedef struct FWPM_NET_EVENT_CLASSIFY_DROP0_ {
+  UINT64 filterId;
+  UINT16 layerId;
+} FWPM_NET_EVENT_CLASSIFY_DROP0;

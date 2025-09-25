@@ -1,0 +1,45 @@
+{
+  "UID": "NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER",
+  "title": "FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER (vmbuskernelmodeclientlibapi.h)",
+  "description": "The VmbChannelCreateGpadlFromBuffer function creates a Guest Physical Address Descriptor List (GPADL) that describes a client-side buffer. The GPADL can be used in the server to access the buffer.",
+  "tech.root": "netvista",
+  "ms.date": "05/21/2018",
+  "keywords": [
+    "FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER callback function"
+  ],
+  "req.header": "vmbuskernelmodeclientlibapi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER",
+    "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "vmbuskernelmodeclientlibapi.h"
+  ],
+  "api_name": [
+    "FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER"
+  ]
+}

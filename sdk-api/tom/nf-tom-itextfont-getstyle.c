@@ -1,0 +1,3 @@
+HRESULT GetStyle(
+  long *pValue
+);

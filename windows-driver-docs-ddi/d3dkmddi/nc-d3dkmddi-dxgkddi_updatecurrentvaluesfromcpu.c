@@ -1,0 +1,6 @@
+DXGKDDI_UPDATECURRENTVALUESFROMCPU DxgkddiUpdatecurrentvaluesfromcpu;
+
+NTSTATUS DxgkddiUpdatecurrentvaluesfromcpu(
+  IN_CONST_PDXGKARG_UPDATECURRENTVALUESFROMCPU pUpdateCurrentValuesFromCpu
+)
+{...}

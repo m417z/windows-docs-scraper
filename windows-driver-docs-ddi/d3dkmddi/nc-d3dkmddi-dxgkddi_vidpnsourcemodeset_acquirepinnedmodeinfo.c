@@ -1,0 +1,7 @@
+DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO DxgkddiVidpnsourcemodesetAcquirepinnedmodeinfo;
+
+NTSTATUS DxgkddiVidpnsourcemodesetAcquirepinnedmodeinfo(
+  [in]  IN_CONST_D3DKMDT_HVIDPNSOURCEMODESET hVidPnSourceModeSet,
+  [out] DEREF_OUT_CONST_PPD3DKMDT_VIDPN_SOURCE_MODE ppPinnedVidPnSourceModeInfo
+)
+{...}

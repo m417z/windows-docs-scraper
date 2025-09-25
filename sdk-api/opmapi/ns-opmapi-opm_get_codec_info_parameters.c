@@ -1,0 +1,4 @@
+typedef struct _OPM_GET_CODEC_INFO_PARAMETERS {
+  DWORD cbVerifier;
+  BYTE  Verifier[4052];
+} OPM_GET_CODEC_INFO_PARAMETERS;

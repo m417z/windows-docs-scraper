@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.FsRtlUninitializeBaseMcb",
+  "title": "FsRtlUninitializeBaseMcb function (ntifs.h)",
+  "description": "The FsRtlUninitializeBaseMcb function uninitializes a map control block (MCB) structure.  After calling this routine the input Mcb structure must be re-initialized before being used again.",
+  "tech.root": "ifsk",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "FsRtlUninitializeBaseMcb function"
+  ],
+  "ms.keywords": "FsRtlUninitializeBaseMcb",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FsRtlUninitializeBaseMcb",
+    "ntifs/FsRtlUninitializeBaseMcb"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FsRtlUninitializeBaseMcb"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "UID": "NS:gnssdriver.GNSS_PLATFORM_CAPABILITY",
+  "title": "GNSS_PLATFORM_CAPABILITY (gnssdriver.h)",
+  "description": "The GNSS_PLATFORM_CAPABILITY structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.",
+  "tech.root": "gnss",
+  "ms.date": "06/17/2022",
+  "keywords": [
+    "GNSS_PLATFORM_CAPABILITY structure"
+  ],
+  "ms.keywords": "*PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], PGNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_platform_capability, gnssdriver/GNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY",
+  "req.header": "gnssdriver.h",
+  "req.include-header": "Gnssdriver.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY",
+  "f1_keywords": [
+    "PGNSS_PLATFORM_CAPABILITY",
+    "gnssdriver/PGNSS_PLATFORM_CAPABILITY",
+    "GNSS_PLATFORM_CAPABILITY",
+    "gnssdriver/GNSS_PLATFORM_CAPABILITY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "gnssdriver.h"
+  ],
+  "api_name": [
+    "PGNSS_PLATFORM_CAPABILITY",
+    "GNSS_PLATFORM_CAPABILITY"
+  ]
+}

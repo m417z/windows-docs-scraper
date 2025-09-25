@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wbemcli.IWbemQualifierSet.Get",
+  "title": "IWbemQualifierSet::Get (wbemcli.h)",
+  "description": "The IWbemQualifierSet::Get method gets the specified named qualifier, if found.",
+  "helpviewer_keywords": [
+    "Get",
+    "Get method [Windows Management Instrumentation]",
+    "Get method [Windows Management Instrumentation]",
+    "IWbemQualifierSet interface",
+    "IWbemQualifierSet interface [Windows Management Instrumentation]",
+    "Get method",
+    "IWbemQualifierSet.Get",
+    "IWbemQualifierSet::Get",
+    "_hmm_iwbemqualifierset_get",
+    "wbemcli/IWbemQualifierSet::Get",
+    "wmi.iwbemqualifierset_get"
+  ],
+  "old-location": "wmi\\iwbemqualifierset_get.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "f4663cd1-0dc9-4021-918e-d5eda1648429",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Get method, IWbemQualifierSet.Get, IWbemQualifierSet::Get, _hmm_iwbemqualifierset_get, wbemcli/IWbemQualifierSet::Get, wmi.iwbemqualifierset_get",
+  "req.header": "wbemcli.h",
+  "req.include-header": "Wbemidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wbemuuid.lib",
+  "req.dll": "Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWbemQualifierSet::Get",
+    "wbemcli/IWbemQualifierSet::Get"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Fastprox.dll",
+    "Krnlprov.dll",
+    "Ncprov.dll",
+    "Wbemcore.dll"
+  ],
+  "api_name": [
+    "IWbemQualifierSet.Get"
+  ]
+}

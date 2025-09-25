@@ -1,0 +1,6 @@
+typedef struct _STOR_SERIAL_NUMBER {
+  ULONG   Version;
+  ULONG   Size;
+  BOOLEAN Unicode;
+  UCHAR   SerialNumber[STOR_SERIAL_NUMBER_MAX_SIZE];
+} STOR_SERIAL_NUMBER, *PSTOR_SERIAL_NUMBER;

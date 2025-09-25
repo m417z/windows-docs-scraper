@@ -1,0 +1,49 @@
+{
+  "UID": "NF:winhttp.WinHttpQueryConnectionGroup",
+  "title": "WinHttpQueryConnectionGroup",
+  "description": "Retrieves an enumeration of http connections and their **GUID**s.",
+  "prerelease": false,
+  "tech.root": "http",
+  "ms.date": "06/16/2021",
+  "req.construct-type": "function",
+  "req.header": "winhttp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winhttp.lib",
+  "req.dll": "Winhttp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "WinHttpQueryConnectionGroup",
+    "winhttp/WinHttpQueryConnectionGroup"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winhttp.dll"
+  ],
+  "api_name": [
+    "WinHttpQueryConnectionGroup"
+  ]
+}

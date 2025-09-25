@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.STROBJ_fxBreakExtra",
+  "title": "STROBJ_fxBreakExtra function (winddi.h)",
+  "description": "The STROBJ_fxBreakExtra function retrieves the amount of extra space to be added to each space character in a string when displaying and/or printing justified text.",
+  "helpviewer_keywords": [
+    "STROBJ_fxBreakExtra",
+    "STROBJ_fxBreakExtra function [Display Devices]",
+    "display.strobj_fxbreakextra",
+    "gdifncs_cfaecb83-e351-447e-ba9d-63ef6dc3f4d8.xml",
+    "winddi/STROBJ_fxBreakExtra"
+  ],
+  "old-location": "display\\strobj_fxbreakextra.htm",
+  "tech.root": "display",
+  "ms.assetid": "857068ab-2c47-402b-a64a-691bdc52a298",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "STROBJ_fxBreakExtra, STROBJ_fxBreakExtra function [Display Devices], display.strobj_fxbreakextra, gdifncs_cfaecb83-e351-447e-ba9d-63ef6dc3f4d8.xml, winddi/STROBJ_fxBreakExtra",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "STROBJ_fxBreakExtra",
+    "winddi/STROBJ_fxBreakExtra"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "STROBJ_fxBreakExtra"
+  ]
+}

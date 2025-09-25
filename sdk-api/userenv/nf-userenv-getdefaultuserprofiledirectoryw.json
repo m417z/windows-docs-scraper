@@ -1,0 +1,62 @@
+{
+  "UID": "NF:userenv.GetDefaultUserProfileDirectoryW",
+  "title": "GetDefaultUserProfileDirectoryW function (userenv.h)",
+  "description": "Retrieves the path to the root of the default user's profile. (Unicode)",
+  "helpviewer_keywords": [
+    "GetDefaultUserProfileDirectory",
+    "GetDefaultUserProfileDirectory function [Windows Shell]",
+    "GetDefaultUserProfileDirectoryW",
+    "_shell_GetDefaultUserProfileDirectory",
+    "shell.GetDefaultUserProfileDirectory",
+    "userenv/GetDefaultUserProfileDirectory",
+    "userenv/GetDefaultUserProfileDirectoryW"
+  ],
+  "old-location": "shell\\GetDefaultUserProfileDirectory.htm",
+  "tech.root": "shell",
+  "ms.assetid": "14ff99cb-838a-442b-9f51-414bd7c0a2ef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetDefaultUserProfileDirectory, GetDefaultUserProfileDirectory function [Windows Shell], GetDefaultUserProfileDirectoryA, GetDefaultUserProfileDirectoryW, _shell_GetDefaultUserProfileDirectory, shell.GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectoryA, userenv/GetDefaultUserProfileDirectoryW",
+  "req.header": "userenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetDefaultUserProfileDirectoryW (Unicode) and GetDefaultUserProfileDirectoryA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Userenv.lib",
+  "req.dll": "Userenv.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetDefaultUserProfileDirectoryW",
+    "userenv/GetDefaultUserProfileDirectoryW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Userenv.dll"
+  ],
+  "api_name": [
+    "GetDefaultUserProfileDirectory",
+    "GetDefaultUserProfileDirectoryA",
+    "GetDefaultUserProfileDirectoryW"
+  ]
+}

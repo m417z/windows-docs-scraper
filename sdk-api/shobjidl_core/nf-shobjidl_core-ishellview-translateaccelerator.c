@@ -1,0 +1,3 @@
+HRESULT TranslateAccelerator(
+  MSG *pmsg
+);

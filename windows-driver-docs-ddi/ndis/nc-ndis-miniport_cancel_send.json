@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_CANCEL_SEND",
+  "title": "MINIPORT_CANCEL_SEND (ndis.h)",
+  "description": "NDIS calls a miniport driver's MiniportCancelSend function to cancel the transmission of all NET_BUFFER_LIST structures that are marked with a specified cancellation identifier.",
+  "old-location": "netvista\\miniportcancelsend.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_CANCEL_SEND callback function"
+  ],
+  "ms.keywords": "MINIPORT_CANCEL_SEND, MINIPORT_CANCEL_SEND callback, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_CANCEL_SEND",
+    "ndis/MINIPORT_CANCEL_SEND"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_CANCEL_SEND"
+  ]
+}

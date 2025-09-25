@@ -1,0 +1,3 @@
+typedef struct _DXGK_QUERYGPUMMUCAPSIN {
+  UINT PhysicalAdapterIndex;
+} DXGK_QUERYGPUMMUCAPSIN;

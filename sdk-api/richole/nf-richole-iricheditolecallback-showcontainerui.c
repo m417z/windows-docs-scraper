@@ -1,0 +1,3 @@
+HRESULT ShowContainerUI(
+  BOOL fShow
+);

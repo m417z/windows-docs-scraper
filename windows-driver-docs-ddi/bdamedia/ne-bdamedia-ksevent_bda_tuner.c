@@ -1,0 +1,3 @@
+typedef enum {
+  KSEVENT_BDA_TUNER_SCAN
+} KSEVENT_BDA_TUNER;

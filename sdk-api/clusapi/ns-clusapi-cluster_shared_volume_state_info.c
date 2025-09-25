@@ -1,0 +1,5 @@
+typedef struct _CLUSTER_SHARED_VOLUME_STATE_INFO {
+  WCHAR                       szVolumeName[MAX_PATH];
+  WCHAR                       szNodeName[MAX_PATH];
+  CLUSTER_SHARED_VOLUME_STATE VolumeState;
+} CLUSTER_SHARED_VOLUME_STATE_INFO, *PCLUSTER_SHARED_VOLUME_STATE_INFO;

@@ -1,0 +1,3 @@
+HRESULT SetPath(
+  LPCSTR pszFile
+);

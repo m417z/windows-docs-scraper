@@ -1,0 +1,1 @@
+D2D1_CAP_STYLE GetStartCap();

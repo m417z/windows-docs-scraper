@@ -1,0 +1,49 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTOutputDuplPresentToHwQueue",
+  "title": "D3DKMTOutputDuplPresentToHwQueue function",
+  "description": "The D3DKMTOutputDuplPresentToHwQueue function outputs the duplicate handle of a hardware queue.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "D3DKMTOutputDuplPresentToHwQueue function"
+  ],
+  "ms.keywords": "D3DKMTOutputDuplPresentToHwQueue",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1",
+  "f1_keywords": [
+    "D3DKMTOutputDuplPresentToHwQueue",
+    "d3dkmthk/D3DKMTOutputDuplPresentToHwQueue"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTOutputDuplPresentToHwQueue"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

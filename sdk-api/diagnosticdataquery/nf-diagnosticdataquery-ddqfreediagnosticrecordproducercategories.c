@@ -1,0 +1,3 @@
+HRESULT DdqFreeDiagnosticRecordProducerCategories(
+  HDIAGNOSTIC_EVENT_CATEGORY_DESCRIPTION hCategoryDescription
+);

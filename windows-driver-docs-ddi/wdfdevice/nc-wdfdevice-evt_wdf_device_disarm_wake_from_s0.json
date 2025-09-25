@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0",
+  "title": "EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0 (wdfdevice.h)",
+  "description": "A driver's EvtDeviceDisarmWakeFromS0 event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).",
+  "old-location": "wdf\\evtdevicedisarmwakefroms0.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0 callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_75c64592-ec2c-471f-9f9d-484ab181e432.xml, EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0, EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0 callback, EvtDeviceDisarmWakeFromS0, EvtDeviceDisarmWakeFromS0 callback function, kmdf.evtdevicedisarmwakefroms0, wdf.evtdevicedisarmwakefroms0, wdfdevice/EvtDeviceDisarmWakeFromS0",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0",
+    "wdfdevice/EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0"
+  ]
+}

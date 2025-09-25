@@ -1,0 +1,4 @@
+typedef enum _HTTP_SERVICE_CONFIG_TIMEOUT_KEY {
+  IdleConnectionTimeout = 0,
+  HeaderWaitTimeout
+} HTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY;

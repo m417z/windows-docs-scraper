@@ -1,0 +1,48 @@
+{
+  "UID": "NF:hidsdi.HidD_GetHidGuid",
+  "title": "HidD_GetHidGuid function (hidsdi.h)",
+  "description": "The HidD_GetHidGuid routine returns the device interfaceGUID for HIDClass devices.",
+  "old-location": "hid\\hidd_gethidguid.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "HidD_GetHidGuid function"
+  ],
+  "ms.keywords": "HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices], hid.hidd_gethidguid, hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, hidsdi/HidD_GetHidGuid",
+  "req.header": "hidsdi.h",
+  "req.include-header": "Hidsdi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hid.lib",
+  "req.dll": "Hid.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidD_GetHidGuid",
+    "hidsdi/HidD_GetHidGuid"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hid.dll"
+  ],
+  "api_name": [
+    "HidD_GetHidGuid"
+  ]
+}

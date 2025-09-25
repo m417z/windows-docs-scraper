@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateHwContext(
+  D3DKMT_CREATEHWCONTEXT *unnamedParam1
+);

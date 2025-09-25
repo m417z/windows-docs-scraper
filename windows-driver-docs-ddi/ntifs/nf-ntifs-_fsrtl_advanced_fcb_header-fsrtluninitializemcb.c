@@ -1,0 +1,3 @@
+VOID FsRtlUninitializeMcb(
+  PMCB Mcb
+);

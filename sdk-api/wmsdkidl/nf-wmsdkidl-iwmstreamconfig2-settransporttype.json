@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMStreamConfig2.SetTransportType",
+  "title": "IWMStreamConfig2::SetTransportType (wmsdkidl.h)",
+  "description": "The SetTransportType method sets the type of data communication protocol (reliable or unreliable) used for the stream.",
+  "helpviewer_keywords": [
+    "IWMStreamConfig2 interface [windows Media Format]",
+    "SetTransportType method",
+    "IWMStreamConfig2.SetTransportType",
+    "IWMStreamConfig2::SetTransportType",
+    "IWMStreamConfig2SetTransportType",
+    "SetTransportType",
+    "SetTransportType method [windows Media Format]",
+    "SetTransportType method [windows Media Format]",
+    "IWMStreamConfig2 interface",
+    "wmformat.iwmstreamconfig2_settransporttype",
+    "wmsdkidl/IWMStreamConfig2::SetTransportType"
+  ],
+  "old-location": "wmformat\\iwmstreamconfig2_settransporttype.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "89958c80-2140-49ab-b696-189e8f722e96",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMStreamConfig2 interface [windows Media Format],SetTransportType method, IWMStreamConfig2.SetTransportType, IWMStreamConfig2::SetTransportType, IWMStreamConfig2SetTransportType, SetTransportType, SetTransportType method [windows Media Format], SetTransportType method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_settransporttype, wmsdkidl/IWMStreamConfig2::SetTransportType",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMStreamConfig2::SetTransportType",
+    "wmsdkidl/IWMStreamConfig2::SetTransportType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMStreamConfig2.SetTransportType"
+  ]
+}

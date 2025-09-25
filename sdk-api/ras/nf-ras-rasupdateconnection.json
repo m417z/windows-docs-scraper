@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ras.RasUpdateConnection",
+  "title": "RasUpdateConnection function (ras.h)",
+  "description": "The RasUpdateConnection function updates the tunnel endpoints of an Internet Key Exchange version 2 (IKEv2) connection.",
+  "helpviewer_keywords": [
+    "RasUpdateConnection",
+    "RasUpdateConnection function [RAS]",
+    "ras/RasUpdateConnection",
+    "rras.rasupdateconnection"
+  ],
+  "old-location": "rras\\rasupdateconnection.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "ab4fd68c-acc0-4586-9d3d-b796e23d635d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpdateConnection, rras.rasupdateconnection",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasUpdateConnection",
+    "ras/RasUpdateConnection"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rasapi32.dll"
+  ],
+  "api_name": [
+    "RasUpdateConnection"
+  ]
+}

@@ -1,0 +1,4 @@
+NTSTATUS AddEntry(
+  [in] PCM_PARTIAL_RESOURCE_DESCRIPTOR Translated,
+  [in] PCM_PARTIAL_RESOURCE_DESCRIPTOR Untranslated
+);

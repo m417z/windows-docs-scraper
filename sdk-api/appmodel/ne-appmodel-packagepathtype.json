@@ -1,0 +1,45 @@
+{
+  "UID": "NE:appmodel.PackagePathType",
+  "title": "PackagePathType",
+  "description": "Indicates the type of package folder to retrieve.",
+  "helpviewer_keywords": [
+    "PackagePathType"
+  ],
+  "tech.root": "appxpkg",
+  "ms.date": "01/31/2019",
+  "ms.keywords": "PackagePathType",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "appmodel.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PackagePathType",
+    "appmodel/PackagePathType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "appmodel.h"
+  ],
+  "api_name": [
+    "PackagePathType"
+  ]
+}

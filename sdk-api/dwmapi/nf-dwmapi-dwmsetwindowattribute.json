@@ -1,0 +1,64 @@
+{
+  "UID": "NF:dwmapi.DwmSetWindowAttribute",
+  "title": "DwmSetWindowAttribute function (dwmapi.h)",
+  "description": "Sets the value of Desktop Window Manager (DWM) non-client rendering attributes for a window.",
+  "helpviewer_keywords": [
+    "DwmSetWindowAttribute",
+    "DwmSetWindowAttribute function [Desktop Window Manager]",
+    "_udwm_dwmsetwindowattribute",
+    "_udwm_dwmsetwindowattribute_cpp",
+    "dwm.dwmsetwindowattribute",
+    "dwmapi/DwmSetWindowAttribute",
+    "winui._udwm_dwmsetwindowattribute"
+  ],
+  "old-location": "dwm\\dwmsetwindowattribute.htm",
+  "tech.root": "dwm",
+  "ms.assetid": "VS|winui|~\\winui\\desktopwindowmanager\\reference\\functions\\dwmsetwindowattribute.htm",
+  "ms.date": "05/30/2019",
+  "ms.keywords": "DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Window Manager], _udwm_dwmsetwindowattribute, _udwm_dwmsetwindowattribute_cpp, dwm.dwmsetwindowattribute, dwmapi/DwmSetWindowAttribute, winui._udwm_dwmsetwindowattribute",
+  "req.header": "dwmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dwmapi.lib",
+  "req.dll": "Dwmapi.dll; Uxtheme.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DwmSetWindowAttribute",
+    "dwmapi/DwmSetWindowAttribute"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dwmapi.dll",
+    "uxtheme.dll",
+    "ext-ms-win-dwmapi-ext-l1-1-0.dll",
+    "ext-ms-win-dwmapi-ext-l1-1-1.dll",
+    "ext-ms-win-dwmapi-ext-l1-1-2.dll"
+  ],
+  "api_name": [
+    "DwmSetWindowAttribute"
+  ]
+}

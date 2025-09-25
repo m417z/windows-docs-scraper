@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storport.StorPortBuildMdlForNonPagedPool",
+  "title": "StorPortBuildMdlForNonPagedPool function (storport.h)",
+  "description": "The StorPortBuildMdlForNonPagedPool routine updates the MDL to describe the associated non-paged memory.",
+  "old-location": "storage\\storportbuildmdlfornonpagedpool.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortBuildMdlForNonPagedPool function"
+  ],
+  "ms.keywords": "StorPortBuildMdlForNonPagedPool, StorPortBuildMdlForNonPagedPool routine [Storage Devices], storage.storportbuildmdlfornonpagedpool, storport/StorPortBuildMdlForNonPagedPool, storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "StorPortIrql",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortBuildMdlForNonPagedPool",
+    "storport/StorPortBuildMdlForNonPagedPool"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortBuildMdlForNonPagedPool"
+  ]
+}

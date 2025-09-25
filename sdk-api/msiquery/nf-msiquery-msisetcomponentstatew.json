@@ -1,0 +1,65 @@
+{
+  "UID": "NF:msiquery.MsiSetComponentStateW",
+  "title": "MsiSetComponentStateW function (msiquery.h)",
+  "description": "The MsiSetComponentState function sets a component to the requested state. (Unicode)",
+  "helpviewer_keywords": [
+    "INSTALLSTATE_ABSENT",
+    "INSTALLSTATE_LOCAL",
+    "INSTALLSTATE_SOURCE",
+    "MsiSetComponentState",
+    "MsiSetComponentState function",
+    "MsiSetComponentStateW",
+    "_msi_msisetcomponentstate",
+    "msiquery/MsiSetComponentState",
+    "msiquery/MsiSetComponentStateW",
+    "setup.msisetcomponentstate"
+  ],
+  "old-location": "setup\\msisetcomponentstate.htm",
+  "tech.root": "setup",
+  "ms.assetid": "d538c81f-130b-4522-9f85-47f04e24f125",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INSTALLSTATE_ABSENT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetComponentState, MsiSetComponentState function, MsiSetComponentStateA, MsiSetComponentStateW, _msi_msisetcomponentstate, msiquery/MsiSetComponentState, msiquery/MsiSetComponentStateA, msiquery/MsiSetComponentStateW, setup.msisetcomponentstate",
+  "req.header": "msiquery.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiSetComponentStateW (Unicode) and MsiSetComponentStateA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiSetComponentStateW",
+    "msiquery/MsiSetComponentStateW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiSetComponentState",
+    "MsiSetComponentStateA",
+    "MsiSetComponentStateW"
+  ]
+}

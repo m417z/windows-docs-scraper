@@ -1,0 +1,3 @@
+MMRESULT timeEndPeriod(
+  UINT uPeriod
+);

@@ -1,0 +1,44 @@
+{
+  "UID": "NE:storport._STORPORT_ETW_EVENT_CHANNEL",
+  "tech.root": "storage",
+  "title": "STORPORT_ETW_EVENT_CHANNEL",
+  "ms.date": "04/02/2024",
+  "targetos": "Windows",
+  "description": "STORPORT_ETW_EVENT_CHANNEL identifies the event channels of Storport to which miniport can log an event.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10 version 21H1",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STORPORT_ETW_EVENT_CHANNEL",
+    "PSTORPORT_ETW_EVENT_CHANNEL",
+    "STORPORT_ETW_EVENT_CHANNEL"
+  ],
+  "f1_keywords": [
+    "_STORPORT_ETW_EVENT_CHANNEL",
+    "storport/_STORPORT_ETW_EVENT_CHANNEL",
+    "PSTORPORT_ETW_EVENT_CHANNEL",
+    "storport/PSTORPORT_ETW_EVENT_CHANNEL",
+    "STORPORT_ETW_EVENT_CHANNEL",
+    "storport/STORPORT_ETW_EVENT_CHANNEL"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

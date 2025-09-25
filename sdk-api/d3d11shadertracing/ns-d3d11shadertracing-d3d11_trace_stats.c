@@ -1,0 +1,25 @@
+typedef struct D3D11_TRACE_STATS {
+  D3D11_SHADER_TRACE_DESC        TraceDesc;
+  UINT8                          NumInvocationsInStamp;
+  UINT8                          TargetStampIndex;
+  UINT                           NumTraceSteps;
+  D3D11_TRACE_COMPONENT_MASK     InputMask[32];
+  D3D11_TRACE_COMPONENT_MASK     OutputMask[32];
+  UINT16                         NumTemps;
+  UINT16                         MaxIndexableTempIndex;
+  UINT16                         IndexableTempSize[4096];
+  UINT16                         ImmediateConstantBufferSize;
+  UINT                           PixelPosition[4][2];
+  UINT64                         PixelCoverageMask[4];
+  UINT64                         PixelDiscardedMask[4];
+  UINT64                         PixelCoverageMaskAfterShader[4];
+  UINT64                         PixelCoverageMaskAfterA2CSampleMask[4];
+  UINT64                         PixelCoverageMaskAfterA2CSampleMaskDepth[4];
+  UINT64                         PixelCoverageMaskAfterA2CSampleMaskDepthStencil[4];
+  BOOL                           PSOutputsDepth;
+  BOOL                           PSOutputsMask;
+  D3D11_TRACE_GS_INPUT_PRIMITIVE GSInputPrimitive;
+  BOOL                           GSInputsPrimitiveID;
+  D3D11_TRACE_COMPONENT_MASK     HSOutputPatchConstantMask[32];
+  D3D11_TRACE_COMPONENT_MASK     DSInputPatchConstantMask[32];
+} D3D11_TRACE_STATS;

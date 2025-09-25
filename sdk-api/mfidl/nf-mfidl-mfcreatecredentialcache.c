@@ -1,0 +1,3 @@
+HRESULT MFCreateCredentialCache(
+  IMFNetCredentialCache **ppCache
+);

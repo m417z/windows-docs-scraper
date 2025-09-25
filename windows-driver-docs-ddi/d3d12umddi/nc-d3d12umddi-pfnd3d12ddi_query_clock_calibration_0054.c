@@ -1,0 +1,8 @@
+PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054 Pfnd3d12ddiQueryClockCalibration0054;
+
+void Pfnd3d12ddiQueryClockCalibration0054(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HCOMMANDQUEUE unnamedParam2,
+  D3D12DDI_GPUCLOCKDATA_0054 *pClockData
+)
+{...}

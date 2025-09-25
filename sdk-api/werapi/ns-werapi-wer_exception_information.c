@@ -1,0 +1,4 @@
+typedef struct _WER_EXCEPTION_INFORMATION {
+  PEXCEPTION_POINTERS pExceptionPointers;
+  BOOL                bClientPointers;
+} WER_EXCEPTION_INFORMATION, *PWER_EXCEPTION_INFORMATION;

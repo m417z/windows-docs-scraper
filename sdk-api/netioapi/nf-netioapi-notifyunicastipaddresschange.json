@@ -1,0 +1,60 @@
+{
+  "UID": "NF:netioapi.NotifyUnicastIpAddressChange",
+  "title": "NotifyUnicastIpAddressChange function (netioapi.h)",
+  "description": "Registers to be notified for changes to all unicast IP interfaces, unicast IPv4 addresses, or unicast IPv6 addresses on a local computer.",
+  "helpviewer_keywords": [
+    "AF_INET",
+    "AF_INET6",
+    "AF_UNSPEC",
+    "NotifyUnicastIpAddressChange",
+    "NotifyUnicastIpAddressChange function [IP Helper]",
+    "iphlp.notifyunicastipaddresschange",
+    "netioapi/NotifyUnicastIpAddressChange"
+  ],
+  "old-location": "iphlp\\notifyunicastipaddresschange.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "56945aa2-ca1e-44b3-9765-d862978a9dbe",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AF_INET, AF_INET6, AF_UNSPEC, NotifyUnicastIpAddressChange, NotifyUnicastIpAddressChange function [IP Helper], iphlp.notifyunicastipaddresschange, netioapi/NotifyUnicastIpAddressChange",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NotifyUnicastIpAddressChange",
+    "netioapi/NotifyUnicastIpAddressChange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "NotifyUnicastIpAddressChange"
+  ]
+}

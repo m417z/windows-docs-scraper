@@ -1,0 +1,4 @@
+struct IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE2 {
+  UINT                     PathCount;
+  IDDCX_DISPLAYCONFIGPATH2 *pPaths;
+};

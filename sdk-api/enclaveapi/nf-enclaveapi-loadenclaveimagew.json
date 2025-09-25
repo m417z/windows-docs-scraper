@@ -1,0 +1,65 @@
+{
+  "UID": "NF:enclaveapi.LoadEnclaveImageW",
+  "title": "LoadEnclaveImageW function (enclaveapi.h)",
+  "description": "Loads an image and all of its imports into an enclave. (Unicode)",
+  "helpviewer_keywords": [
+    "LoadEnclaveIUmageA",
+    "LoadEnclaveImage",
+    "LoadEnclaveImage function",
+    "LoadEnclaveImageW",
+    "base.loadenclaveimage",
+    "enclaveapi/LoadEnclaveIUmageA",
+    "enclaveapi/LoadEnclaveImage",
+    "enclaveapi/LoadEnclaveImageW"
+  ],
+  "old-location": "base\\loadenclaveimage.htm",
+  "tech.root": "base",
+  "ms.assetid": "BC3F3EB4-BB5E-40D6-B877-50694576FA1B",
+  "ms.date": "07/02/2024",
+  "ms.keywords": "LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW",
+  "req.header": "enclaveapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "LoadEnclaveImageW (Unicode) and LoadEnclaveIUmageA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "kernel32.dll; Api-ms-win-core-enclave-l1-1-0.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LoadEnclaveImageW",
+    "enclaveapi/LoadEnclaveImageW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-enclave-l1-1-1.dll",
+    "kernel32.dll",
+    "api-ms-win-core-enclave-l1-1-0.dll"
+  ],
+  "api_name": [
+    "LoadEnclaveImage",
+    "LoadEnclaveIUmageA",
+    "LoadEnclaveImageW"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT SelectDefaultMenuLanguage(
+  LCID Language
+);

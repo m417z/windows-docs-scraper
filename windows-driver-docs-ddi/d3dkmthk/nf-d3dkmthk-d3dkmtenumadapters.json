@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTEnumAdapters",
+  "title": "D3DKMTEnumAdapters function (d3dkmthk.h)",
+  "description": "The D3DKMTEnumAdapters function enumerates all graphics adapters on the system. The function returns STATUS_SUCCESS if the enumeration was successful.",
+  "old-location": "display\\d3dkmtenumadapters.htm",
+  "ms.date": "02/25/2022",
+  "keywords": [
+    "D3DKMTEnumAdapters function"
+  ],
+  "ms.keywords": "D3DKMTEnumAdapters, D3DKMTEnumAdapters callback function [Display Devices], PFND3DKMT_ENUMADAPTERS, PFND3DKMT_ENUMADAPTERS callback, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTEnumAdapters",
+    "d3dkmthk/D3DKMTEnumAdapters"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTEnumAdapters"
+  ]
+}

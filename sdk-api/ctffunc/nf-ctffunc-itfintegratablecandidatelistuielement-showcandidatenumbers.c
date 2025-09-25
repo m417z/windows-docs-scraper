@@ -1,0 +1,3 @@
+HRESULT ShowCandidateNumbers(
+  BOOL *pfShow
+);

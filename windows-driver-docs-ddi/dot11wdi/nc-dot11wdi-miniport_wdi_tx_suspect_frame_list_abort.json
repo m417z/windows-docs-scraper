@@ -1,0 +1,44 @@
+{
+  "UID": "NC:dot11wdi.MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT",
+  "title": "MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT (dot11wdi.h)",
+  "description": "The TxSuspectFrameListAbort callback function is implemented by the client driver to inform the TxEngine that the TxMgr has identified frames which are suspected of being hung or pending completion for a significant length of time.",
+  "tech.root": "netvista",
+  "ms.date": "04/02/2018",
+  "keywords": [
+    "MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT callback function"
+  ],
+  "req.header": "dot11wdi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT",
+    "dot11wdi/MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dot11wdi.h"
+  ],
+  "api_name": [
+    "MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT"
+  ]
+}

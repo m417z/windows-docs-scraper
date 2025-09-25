@@ -1,0 +1,6 @@
+typedef struct _SIDEBANDAUDIO_MUTE_PARAMS {
+  ULONG EpIndex;
+  BOOL  Immediate;
+  LONG  Channel;
+  BOOL  Value;
+} SIDEBANDAUDIO_MUTE_PARAMS, *PSIDEBANDAUDIO_MUTE_PARAMS;

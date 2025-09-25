@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfusb.IWDFUsbInterface.GetNumEndPoints",
+  "title": "IWDFUsbInterface::GetNumEndPoints (wudfusb.h)",
+  "description": "The GetNumEndPoints method retrieves the number of endpoints (pipes) on a USB interface.",
+  "old-location": "wdf\\iwdfusbinterface_getnumendpoints.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFUsbInterface::GetNumEndPoints"
+  ],
+  "ms.keywords": "GetNumEndPoints, GetNumEndPoints method, GetNumEndPoints method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetNumEndPoints method, IWDFUsbInterface.GetNumEndPoints, IWDFUsbInterface::GetNumEndPoints, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, umdf.iwdfusbinterface_getnumendpoints, wdf.iwdfusbinterface_getnumendpoints, wudfusb/IWDFUsbInterface::GetNumEndPoints",
+  "req.header": "wudfusb.h",
+  "req.include-header": "Wudfusb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFUsbInterface::GetNumEndPoints",
+    "wudfusb/IWDFUsbInterface::GetNumEndPoints"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFUsbInterface::GetNumEndPoints"
+  ]
+}

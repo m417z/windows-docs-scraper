@@ -1,0 +1,60 @@
+{
+  "UID": "NF:recapis.EndInkInput",
+  "title": "EndInkInput function (recapis.h)",
+  "description": "Indicates that no more ink will be added to the context.You cannot add strokes to the context after calling this function.",
+  "helpviewer_keywords": [
+    "EndInkInput",
+    "EndInkInput function [Tablet PC]",
+    "e8aa252d-6b24-4864-9b3e-8edd30895303",
+    "recapis/EndInkInput",
+    "tablet.endinkinput"
+  ],
+  "old-location": "tablet\\endinkinput.htm",
+  "tech.root": "tablet",
+  "ms.assetid": "e8aa252d-6b24-4864-9b3e-8edd30895303",
+  "ms.date": "11/06/2024",
+  "ms.keywords": "EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput",
+  "req.header": "recapis.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP Tablet PC Edition [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "inkobjcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EndInkInput",
+    "recapis/EndInkInput"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "recapis.h",
+    "inkobjcore.dll",
+    "mshwgst.dll"
+  ],
+  "api_name": [
+    "EndInkInput"
+  ]
+}

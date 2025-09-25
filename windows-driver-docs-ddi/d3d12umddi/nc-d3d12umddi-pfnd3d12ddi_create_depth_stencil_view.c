@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW Pfnd3d12ddiCreateDepthStencilView;
+
+VOID Pfnd3d12ddiCreateDepthStencilView(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW *unnamedParam2,
+  D3D12DDI_CPU_DESCRIPTOR_HANDLE DestDescriptor
+)
+{...}

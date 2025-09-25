@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winsock2.WSASendMsg",
+  "title": "WSASendMsg function (winsock2.h)",
+  "description": "Sends data and optional control information from connected and unconnected sockets. Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .",
+  "helpviewer_keywords": [
+    "WSASendMsg",
+    "WSASendMsg function [Winsock]",
+    "winsock.wsasendmsg",
+    "winsock2/WSASendMsg"
+  ],
+  "old-location": "winsock\\wsasendmsg.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSASendMsg, WSASendMsg function [Winsock], winsock.wsasendmsg, winsock2/WSASendMsg",
+  "req.header": "winsock2.h",
+  "req.include-header": "Mswsock.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSASendMsg",
+    "winsock2/WSASendMsg"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSASendMsg"
+  ]
+}

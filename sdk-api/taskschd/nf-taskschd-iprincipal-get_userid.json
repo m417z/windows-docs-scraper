@@ -1,0 +1,70 @@
+{
+  "UID": "NF:taskschd.IPrincipal.get_UserId",
+  "title": "IPrincipal::get_UserId (taskschd.h)",
+  "description": "Gets or sets the user identifier that is required to run the tasks that are associated with the principal. (Get)",
+  "helpviewer_keywords": [
+    "IPrincipal interface [Task Scheduler]",
+    "UserId property",
+    "IPrincipal.UserId",
+    "IPrincipal.get_UserId",
+    "IPrincipal::UserId",
+    "IPrincipal::get_UserId",
+    "IPrincipal::put_UserId",
+    "UserId property [Task Scheduler]",
+    "UserId property [Task Scheduler]",
+    "IPrincipal interface",
+    "get_UserId",
+    "taskschd.iprincipal_userid",
+    "taskschd/IPrincipal::UserId",
+    "taskschd/IPrincipal::get_UserId",
+    "taskschd/IPrincipal::put_UserId"
+  ],
+  "old-location": "taskschd\\iprincipal_userid.htm",
+  "tech.root": "taskschd",
+  "ms.assetid": "b85a1f05-acb0-4b3c-bea0-393ad7c6a43d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IPrincipal interface [Task Scheduler],UserId property, IPrincipal.UserId, IPrincipal.get_UserId, IPrincipal::UserId, IPrincipal::get_UserId, IPrincipal::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],IPrincipal interface, get_UserId, taskschd.iprincipal_userid, taskschd/IPrincipal::UserId, taskschd/IPrincipal::get_UserId, taskschd/IPrincipal::put_UserId",
+  "req.header": "taskschd.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Taskschd.lib",
+  "req.dll": "Taskschd.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPrincipal::get_UserId",
+    "taskschd/IPrincipal::get_UserId"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "taskschd.dll"
+  ],
+  "api_name": [
+    "IPrincipal.UserId",
+    "IPrincipal.get_UserId",
+    "IPrincipal.put_UserId"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _RILUICCSUBSCRIBERNUMBERS {
+  DWORD                 cbSize;
+  DWORD                 dwNumSubscribers;
+  RILSUBSCRIBERINFO [1] rsiInfo;
+} RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS;

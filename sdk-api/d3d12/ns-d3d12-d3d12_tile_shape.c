@@ -1,0 +1,5 @@
+typedef struct D3D12_TILE_SHAPE {
+  UINT WidthInTexels;
+  UINT HeightInTexels;
+  UINT DepthInTexels;
+} D3D12_TILE_SHAPE;

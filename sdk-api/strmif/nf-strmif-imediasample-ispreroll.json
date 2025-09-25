@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMediaSample.IsPreroll",
+  "title": "IMediaSample::IsPreroll (strmif.h)",
+  "description": "The IsPreroll method determines if this sample is a preroll sample. A preroll sample should not be displayed.",
+  "helpviewer_keywords": [
+    "IMediaSample interface [DirectShow]",
+    "IsPreroll method",
+    "IMediaSample.IsPreroll",
+    "IMediaSample::IsPreroll",
+    "IMediaSampleIsPreroll",
+    "IsPreroll",
+    "IsPreroll method [DirectShow]",
+    "IsPreroll method [DirectShow]",
+    "IMediaSample interface",
+    "dshow.imediasample_ispreroll",
+    "strmif/IMediaSample::IsPreroll"
+  ],
+  "old-location": "dshow\\imediasample_ispreroll.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "7df1d34f-ba55-42bd-b61b-272ef72e13a8",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaSample interface [DirectShow],IsPreroll method, IMediaSample.IsPreroll, IMediaSample::IsPreroll, IMediaSampleIsPreroll, IsPreroll, IsPreroll method [DirectShow], IsPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_ispreroll, strmif/IMediaSample::IsPreroll",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaSample::IsPreroll",
+    "strmif/IMediaSample::IsPreroll"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaSample.IsPreroll"
+  ]
+}

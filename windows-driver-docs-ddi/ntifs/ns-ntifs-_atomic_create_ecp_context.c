@@ -1,0 +1,21 @@
+typedef struct _ATOMIC_CREATE_ECP_CONTEXT {
+  USHORT               Size;
+  USHORT               InFlags;
+  USHORT               OutFlags;
+  USHORT               ReparseBufferLength;
+  PREPARSE_DATA_BUFFER ReparseBuffer;
+  LONGLONG             FileSize;
+  LONGLONG             ValidDataLength;
+  PFILE_TIMESTAMPS     FileTimestamps;
+  ULONG                FileAttributes;
+  ULONG                UsnSourceInfo;
+  USN                  Usn;
+  ULONG                SuppressFileAttributeInheritanceMask;
+  ULONG                InOpFlags;
+  ULONG                OutOpFlags;
+  ULONG                InGenFlags;
+  ULONG                OutGenFlags;
+  ULONG                CaseSensitiveFlagsMask;
+  ULONG                InCaseSensitiveFlags;
+  ULONG                OutCaseSensitiveFlags;
+} ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT;

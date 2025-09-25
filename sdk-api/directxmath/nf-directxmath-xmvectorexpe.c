@@ -1,0 +1,3 @@
+XMVECTOR XM_CALLCONV XMVectorExpE(
+  [in] FXMVECTOR V
+) noexcept;

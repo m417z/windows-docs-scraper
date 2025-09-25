@@ -1,0 +1,3 @@
+HRESULT WerUnregisterCustomMetadata(
+  PCWSTR key
+);

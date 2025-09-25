@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAdvanced3.StartAtPosition",
+  "title": "IWMReaderAdvanced3::StartAtPosition (wmsdkidl.h)",
+  "description": "The StartAtPosition method enables you to specify a starting position for a file using one of several offset formats.",
+  "helpviewer_keywords": [
+    "IWMReaderAdvanced3 interface [windows Media Format]",
+    "StartAtPosition method",
+    "IWMReaderAdvanced3.StartAtPosition",
+    "IWMReaderAdvanced3::StartAtPosition",
+    "IWMReaderAdvanced3StartAtPosition",
+    "StartAtPosition",
+    "StartAtPosition method [windows Media Format]",
+    "StartAtPosition method [windows Media Format]",
+    "IWMReaderAdvanced3 interface",
+    "wmformat.iwmreaderadvanced3_startatposition",
+    "wmsdkidl/IWMReaderAdvanced3::StartAtPosition"
+  ],
+  "old-location": "wmformat\\iwmreaderadvanced3_startatposition.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "64b922be-3a8f-4cbe-aa1d-aa3833e1f0fa",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAdvanced3::StartAtPosition",
+    "wmsdkidl/IWMReaderAdvanced3::StartAtPosition"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderAdvanced3.StartAtPosition"
+  ]
+}

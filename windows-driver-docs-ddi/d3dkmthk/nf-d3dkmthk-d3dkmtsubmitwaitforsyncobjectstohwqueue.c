@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSubmitWaitForSyncObjectsToHwQueue(
+  [in] const D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE *unnamedParam1
+);

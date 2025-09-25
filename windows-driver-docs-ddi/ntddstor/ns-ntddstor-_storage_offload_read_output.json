@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddstor._STORAGE_OFFLOAD_READ_OUTPUT",
+  "title": "_STORAGE_OFFLOAD_READ_OUTPUT (ntddstor.h)",
+  "description": "The STORAGE_OFFLOAD_READ_OUTPUT structure is the output of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code request when the Action member of DEVICE_DSM_INPUT is set to DeviceDsmAction_OffloadRead.",
+  "old-location": "storage\\storage_offload_read_output.htm",
+  "tech.root": "storage",
+  "ms.date": "08/23/2019",
+  "keywords": [
+    "STORAGE_OFFLOAD_READ_OUTPUT structure"
+  ],
+  "ms.keywords": "*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure [Storage Devices], _STORAGE_OFFLOAD_READ_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_READ_OUTPUT, ntddstor/STORAGE_OFFLOAD_READ_OUTPUT, storage.storage_offload_read_output",
+  "req.header": "ntddstor.h",
+  "req.include-header": "Ntddstor.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows 8 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STORAGE_OFFLOAD_READ_OUTPUT, *PSTORAGE_OFFLOAD_READ_OUTPUT",
+  "f1_keywords": [
+    "_STORAGE_OFFLOAD_READ_OUTPUT",
+    "ntddstor/_STORAGE_OFFLOAD_READ_OUTPUT",
+    "PSTORAGE_OFFLOAD_READ_OUTPUT",
+    "ntddstor/PSTORAGE_OFFLOAD_READ_OUTPUT",
+    "STORAGE_OFFLOAD_READ_OUTPUT",
+    "ntddstor/STORAGE_OFFLOAD_READ_OUTPUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_STORAGE_OFFLOAD_READ_OUTPUT",
+    "PSTORAGE_OFFLOAD_READ_OUTPUT",
+    "STORAGE_OFFLOAD_READ_OUTPUT"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef struct tagINPUT_INJECTION_VALUE {
+  USHORT page;
+  USHORT usage;
+  INT32  value;
+  USHORT index;
+} INPUT_INJECTION_VALUE, *PINPUT_INJECTION_VALUE;

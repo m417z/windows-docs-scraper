@@ -1,0 +1,7 @@
+typedef struct _BATTERY_WMI_STATUS_CHANGE {
+  ULONG   Tag;
+  BOOLEAN PowerOnline;
+  BOOLEAN Charging;
+  BOOLEAN Discharging;
+  BOOLEAN Critical;
+} BATTERY_WMI_STATUS_CHANGE, *PBATTERY_WMI_STATUS_CHANGE;

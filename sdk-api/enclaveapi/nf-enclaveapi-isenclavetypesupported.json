@@ -1,0 +1,65 @@
+{
+  "UID": "NF:enclaveapi.IsEnclaveTypeSupported",
+  "title": "IsEnclaveTypeSupported function (enclaveapi.h)",
+  "description": "Retrieves whether the specified type of enclave is supported.",
+  "helpviewer_keywords": [
+    "ENCLAVE_TYPE_SGX",
+    "ENCLAVE_TYPE_SGX2",
+    "ENCLAVE_TYPE_VBS",
+    "IsEnclaveTypeSupported",
+    "IsEnclaveTypeSupported function",
+    "base.isenclavetypesupported",
+    "base.isenclavetypesypported",
+    "enclaveapi/IsEnclaveTypeSupported"
+  ],
+  "old-location": "base\\isenclavetypesupported.htm",
+  "tech.root": "base",
+  "ms.assetid": "E46AF02B-324F-43A8-8C73-9FE1E8E771E9",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_SGX2, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported",
+  "req.header": "enclaveapi.h",
+  "req.include-header": "Winbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IsEnclaveTypeSupported",
+    "enclaveapi/IsEnclaveTypeSupported"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-enclave-l1-1-1.dll",
+    "api-ms-win-core-enclave-l1-1-0.dll",
+    "kernel32.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Enclave-L1-1-0.dll"
+  ],
+  "api_name": [
+    "IsEnclaveTypeSupported"
+  ]
+}

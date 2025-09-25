@@ -1,0 +1,39 @@
+{
+  "UID": "NC:winuser.WNDPROC",
+  "title": "WNDPROC",
+  "description": "A callback function, which you define in your application, that processes messages sent to a window.",
+  "tech.root": "winmsg",
+  "ms.date": "09/02/2025",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winuser.h",
+  "req.idl": null,
+  "req.include-header": "windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "winuser.h"
+  ],
+  "api_name": [
+    "WNDPROC"
+  ]
+}

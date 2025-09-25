@@ -1,0 +1,20 @@
+typedef enum _CSV_CONTROL_OP {
+  CsvControlStartRedirectFile = 0x02,
+  CsvControlStopRedirectFile = 0x03,
+  CsvControlQueryRedirectState = 0x04,
+  CsvControlQueryFileRevision = 0x06,
+  CsvControlQueryMdsPath = 0x08,
+  CsvControlQueryFileRevisionFileId128 = 0x09,
+  CsvControlQueryVolumeRedirectState = 0x0a,
+  CsvControlEnableUSNRangeModificationTracking = 0x0d,
+  CsvControlMarkHandleLocalVolumeMount = 0x0e,
+  CsvControlUnmarkHandleLocalVolumeMount = 0x0f,
+  CsvControlGetCsvFsMdsPathV2 = 0x12,
+  CsvControlDisableCaching = 0x13,
+  CsvControlEnableCaching = 0x14,
+  CsvControlStartForceDFO,
+  CsvControlStopForceDFO,
+  CsvControlQueryMdsPathNoPause,
+  CsvControlSetVolumeId,
+  CsvControlQueryVolumeId
+} CSV_CONTROL_OP, *PCSV_CONTROL_OP;

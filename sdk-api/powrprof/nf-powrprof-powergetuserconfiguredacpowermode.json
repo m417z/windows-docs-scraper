@@ -1,0 +1,53 @@
+{
+  "UID": "NF:powrprof.PowerGetUserConfiguredACPowerMode",
+  "tech.root": "base",
+  "title": "PowerGetUserConfiguredACPowerMode function (powrprof.h)",
+  "ms.date": "02/21/2025",
+  "targetos": "Windows",
+  "description": "Retrieves the user configured power mode GUID when the device is in an AC (adapter/charge) supply state.",
+  "ms.custom": "23H2",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.header": "powrprof.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "powrprof.lib",
+  "req.dll": "powrprof.dll",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 23H2 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "powrprof.h",
+    "api-ms-win-power-setting-l1-1-0.dll"
+  ],
+  "api_name": [
+    "PowerGetUserConfiguredACPowerMode"
+  ],
+  "f1_keywords": [
+    "PowerGetUserConfiguredACPowerMode",
+    "powrprof/PowerGetUserConfiguredACPowerMode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "PowerGetUserConfiguredACPowerMode"
+  ]
+}

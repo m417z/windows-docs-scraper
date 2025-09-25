@@ -1,0 +1,6 @@
+typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT {
+  UINT NoProtection : 1;
+  UINT MacroVisionApsTrigger : 1;
+  UINT MacroVisionFull : 1;
+  UINT Reserved : 29;
+} D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT;

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:tapi.lineGatherDigits",
+  "title": "lineGatherDigits function (tapi.h)",
+  "description": "The lineGatherDigits function (tapi.h) initiates the buffered gathering of digits on the specified call.",
+  "helpviewer_keywords": [
+    "_tapi2_linegatherdigits",
+    "lineGatherDigits",
+    "lineGatherDigits function [TAPI 2.2]",
+    "lineGatherDigitsA",
+    "lineGatherDigitsW",
+    "tapi/lineGatherDigits",
+    "tapi/lineGatherDigitsA",
+    "tapi/lineGatherDigitsW",
+    "tapi2.linegatherdigits"
+  ],
+  "old-location": "tapi2\\linegatherdigits.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "87d5f777-e536-46be-8ad4-437386f04c9b",
+  "ms.date": "08/09/2022",
+  "ms.keywords": "_tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "lineGatherDigitsW (Unicode) and lineGatherDigitsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineGatherDigits",
+    "tapi/lineGatherDigits"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineGatherDigits",
+    "lineGatherDigitsA",
+    "lineGatherDigitsW"
+  ]
+}

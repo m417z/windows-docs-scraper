@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1009 {
+  LPWSTR usri1009_script_path;
+} USER_INFO_1009, *PUSER_INFO_1009, *LPUSER_INFO_1009;

@@ -1,0 +1,8 @@
+typedef struct _ACPI_METHOD_ARGUMENT_V1 {
+  USHORT Type;
+  USHORT DataLength;
+  union {
+    ULONG Argument;
+    UCHAR Data[ANYSIZE_ARRAY];
+  } DUMMYUNIONNAME;
+} ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT;

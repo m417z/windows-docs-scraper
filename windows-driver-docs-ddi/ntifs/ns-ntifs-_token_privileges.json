@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_PRIVILEGES",
+  "title": "TOKEN_PRIVILEGES (ntifs.h)",
+  "description": "TOKEN_PRIVILEGES contains information about a set of privileges for an access token.",
+  "old-location": "ifsk\\token_privileges.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "TOKEN_PRIVILEGES structure"
+  ],
+  "ms.keywords": "*PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES structure pointer [Installable File System Drivers], TOKEN_PRIVILEGES, TOKEN_PRIVILEGES structure [Installable File System Drivers], _TOKEN_PRIVILEGES, ifsk.token_privileges, ntifs/PTOKEN_PRIVILEGES, ntifs/TOKEN_PRIVILEGES, securitystructures_3da1d9ba-6fa7-4b16-bdd7-416890b57f7e.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES",
+  "f1_keywords": [
+    "_TOKEN_PRIVILEGES",
+    "ntifs/_TOKEN_PRIVILEGES",
+    "PTOKEN_PRIVILEGES",
+    "ntifs/PTOKEN_PRIVILEGES",
+    "TOKEN_PRIVILEGES",
+    "ntifs/TOKEN_PRIVILEGES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_PRIVILEGES",
+    "PTOKEN_PRIVILEGES",
+    "TOKEN_PRIVILEGES"
+  ]
+}

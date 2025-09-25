@@ -1,0 +1,3 @@
+typedef struct _OPM_SET_HDCP_SRM_PARAMETERS {
+  ULONG ulSRMVersion;
+} OPM_SET_HDCP_SRM_PARAMETERS;

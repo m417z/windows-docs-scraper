@@ -1,0 +1,3 @@
+VOID SerCx2SystemDmaTransmitDrainFifoComplete(
+  SERCX2SYSTEMDMATRANSMIT SystemDmaTransmit
+);

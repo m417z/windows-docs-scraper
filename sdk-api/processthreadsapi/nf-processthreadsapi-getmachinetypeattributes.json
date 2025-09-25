@@ -1,0 +1,49 @@
+{
+  "UID": "NF:processthreadsapi.GetMachineTypeAttributes",
+  "tech.root": "processthreadsapi",
+  "title": "GetMachineTypeAttributes",
+  "ms.date": "09/28/2021",
+  "targetos": "Windows",
+  "description": "Queries if the specified architecture is supported on the current system, either natively or by any form of compatibility or emulation layer.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "processthreadsapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "Kernel32.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll"
+  ],
+  "api_name": [
+    "GetMachineTypeAttributes"
+  ],
+  "f1_keywords": [
+    "GetMachineTypeAttributes",
+    "processthreadsapi/GetMachineTypeAttributes"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

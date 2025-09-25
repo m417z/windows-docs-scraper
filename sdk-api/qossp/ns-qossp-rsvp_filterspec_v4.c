@@ -1,0 +1,5 @@
+typedef struct _RSVP_FILTERSPEC_V4 {
+  IN_ADDR_IPV4 Address;
+  USHORT       Unused;
+  USHORT       Port;
+} RSVP_FILTERSPEC_V4, *LPRSVP_FILTERSPEC_V4;

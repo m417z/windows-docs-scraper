@@ -1,0 +1,62 @@
+{
+  "UID": "NF:wct.GetThreadWaitChain",
+  "title": "GetThreadWaitChain function (wct.h)",
+  "description": "Retrieves the wait chain for the specified thread.",
+  "helpviewer_keywords": [
+    "GetThreadWaitChain",
+    "GetThreadWaitChain function",
+    "WCT_OUT_OF_PROC_COM_FLAG",
+    "WCT_OUT_OF_PROC_CS_FLAG",
+    "WCT_OUT_OF_PROC_FLAG",
+    "base.getthreadwaitchain",
+    "wct/GetThreadWaitChain"
+  ],
+  "old-location": "base\\getthreadwaitchain.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "5b418fa6-1d07-465e-85ea-b7127264eebf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_COM_FLAG, WCT_OUT_OF_PROC_CS_FLAG, WCT_OUT_OF_PROC_FLAG, base.getthreadwaitchain, wct/GetThreadWaitChain",
+  "req.header": "wct.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetThreadWaitChain",
+    "wct/GetThreadWaitChain"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "Ext-MS-Win-wer-wct-l1-1-0.dll",
+    "wer.dll"
+  ],
+  "api_name": [
+    "GetThreadWaitChain"
+  ]
+}

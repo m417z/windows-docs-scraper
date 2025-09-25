@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND",
+  "title": "EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND (wdfdevice.h)",
+  "description": "A driver's EvtDeviceSelfManagedIoSuspend event callback function suspends a device's self-managed I/O operations.",
+  "old-location": "wdf\\evtdeviceselfmanagediosuspend.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_10625e27-0ff8-47fa-aff0-ddca49c7f326.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND, EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND callback, EvtDeviceSelfManagedIoSuspend, EvtDeviceSelfManagedIoSuspend callback function, kmdf.evtdeviceselfmanagediosuspend, wdf.evtdeviceselfmanagediosuspend, wdfdevice/EvtDeviceSelfManagedIoSuspend",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND",
+    "wdfdevice/EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND"
+  ]
+}

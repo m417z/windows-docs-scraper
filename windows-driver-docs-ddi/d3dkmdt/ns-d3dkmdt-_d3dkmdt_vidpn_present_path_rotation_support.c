@@ -1,0 +1,10 @@
+typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT {
+  UINT Identity : 1;
+  UINT Rotate90 : 1;
+  UINT Rotate180 : 1;
+  UINT Rotate270 : 1;
+  UINT Offset0 : 1;
+  UINT Offset90 : 1;
+  UINT Offset180 : 1;
+  UINT Offset270 : 1;
+} D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT;

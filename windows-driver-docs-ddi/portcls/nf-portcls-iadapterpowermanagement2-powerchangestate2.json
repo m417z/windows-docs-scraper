@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IAdapterPowerManagement2.PowerChangeState2",
+  "title": "IAdapterPowerManagement2::PowerChangeState2 (portcls.h)",
+  "description": "Portcls calls the IAdapterPowerManagement2::PowerChangeState2 method to request a change to the new power state. This request is passed on to the adapter driver.",
+  "old-location": "audio\\iadapterpowermanagement2_powerchangestate2.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IAdapterPowerManagement2::PowerChangeState2"
+  ],
+  "ms.keywords": "IAdapterPowerManagement2 interface [Audio Devices],PowerChangeState2 method, IAdapterPowerManagement2.PowerChangeState2, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2, PowerChangeState2 method [Audio Devices], PowerChangeState2 method [Audio Devices],IAdapterPowerManagement2 interface, audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, portcls/IAdapterPowerManagement2::PowerChangeState2",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IAdapterPowerManagement2::PowerChangeState2",
+    "portcls/IAdapterPowerManagement2::PowerChangeState2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IAdapterPowerManagement2::PowerChangeState2"
+  ]
+}

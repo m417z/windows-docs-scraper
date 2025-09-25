@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateContext(
+  D3DKMT_CREATECONTEXT *unnamedParam1
+);

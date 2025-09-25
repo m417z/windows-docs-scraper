@@ -1,0 +1,48 @@
+{
+  "UID": "NS:winbase.COPYFILE2_EXTENDED_PARAMETERS_V2",
+  "tech.root": "fs",
+  "title": "COPYFILE2_EXTENDED_PARAMETERS_V2",
+  "ms.date": "11/02/2023",
+  "targetos": "Windows",
+  "description": "Contains updated, additional functionality beyond the COPYFILE2_EXTENDED_PARAMETERS structure for the CopyFile2 function",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.typenames": "COPYFILE2_EXTENDED_PARAMETERS_V2",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winbase.h"
+  ],
+  "api_name": [
+    "COPYFILE2_EXTENDED_PARAMETERS_V2"
+  ],
+  "f1_keywords": [
+    "COPYFILE2_EXTENDED_PARAMETERS_V2",
+    "winbase/COPYFILE2_EXTENDED_PARAMETERS_V2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "COPYFILE2_EXTENDED_PARAMETERS_V2"
+  ]
+}

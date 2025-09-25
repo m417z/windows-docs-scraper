@@ -1,0 +1,3 @@
+HRESULT idtEnumWIA_FORMAT_INFO(
+  [out] IEnumWIA_FORMAT_INFO **ppEnum
+);

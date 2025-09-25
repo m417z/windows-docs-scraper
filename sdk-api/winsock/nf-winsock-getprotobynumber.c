@@ -1,0 +1,3 @@
+protoent * getprotobynumber(
+  int proto
+);

@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMBandwidthSharing.GetType",
+  "title": "IWMBandwidthSharing::GetType (wmsdkidl.h)",
+  "description": "The GetType method retrieves the type of sharing for the bandwidth sharing object.",
+  "helpviewer_keywords": [
+    "GetType",
+    "GetType method [windows Media Format]",
+    "GetType method [windows Media Format]",
+    "IWMBandwidthSharing interface",
+    "IWMBandwidthSharing interface [windows Media Format]",
+    "GetType method",
+    "IWMBandwidthSharing.GetType",
+    "IWMBandwidthSharing::GetType",
+    "IWMBandwidthSharingGetType",
+    "wmformat.iwmbandwidthsharing_gettype",
+    "wmsdkidl/IWMBandwidthSharing::GetType"
+  ],
+  "old-location": "wmformat\\iwmbandwidthsharing_gettype.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "acef383f-83cb-45be-80fa-1339b391f32b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetType method, IWMBandwidthSharing.GetType, IWMBandwidthSharing::GetType, IWMBandwidthSharingGetType, wmformat.iwmbandwidthsharing_gettype, wmsdkidl/IWMBandwidthSharing::GetType",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMBandwidthSharing::GetType",
+    "wmsdkidl/IWMBandwidthSharing::GetType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMBandwidthSharing.GetType"
+  ]
+}

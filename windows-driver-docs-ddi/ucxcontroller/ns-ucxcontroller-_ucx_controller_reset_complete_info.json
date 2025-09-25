@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ucxcontroller._UCX_CONTROLLER_RESET_COMPLETE_INFO",
+  "title": "_UCX_CONTROLLER_RESET_COMPLETE_INFO (ucxcontroller.h)",
+  "description": "Contains information about the operation to reset the controller. This is used by the client driver in its EVT_UCX_CONTROLLER_RESET callback function.",
+  "old-location": "buses\\_ucx_controller_reset_complete_info.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UCX_CONTROLLER_RESET_COMPLETE_INFO structure"
+  ],
+  "ms.keywords": "*PUCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO structure pointer [Buses], UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO structure [Buses], _UCX_CONTROLLER_RESET_COMPLETE_INFO, buses._ucx_controller_reset_complete_info, ucxcontroller/P_UCX_CONTROLLER_RESET_COMPLETE_INFO, ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO",
+  "req.header": "ucxcontroller.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "UCX_CONTROLLER_RESET_COMPLETE_INFO, *PUCX_CONTROLLER_RESET_COMPLETE_INFO",
+  "f1_keywords": [
+    "_UCX_CONTROLLER_RESET_COMPLETE_INFO",
+    "ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO",
+    "PUCX_CONTROLLER_RESET_COMPLETE_INFO",
+    "ucxcontroller/PUCX_CONTROLLER_RESET_COMPLETE_INFO",
+    "UCX_CONTROLLER_RESET_COMPLETE_INFO",
+    "ucxcontroller/UCX_CONTROLLER_RESET_COMPLETE_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ucxcontroller.h"
+  ],
+  "api_name": [
+    "_UCX_CONTROLLER_RESET_COMPLETE_INFO",
+    "PUCX_CONTROLLER_RESET_COMPLETE_INFO",
+    "UCX_CONTROLLER_RESET_COMPLETE_INFO"
+  ]
+}

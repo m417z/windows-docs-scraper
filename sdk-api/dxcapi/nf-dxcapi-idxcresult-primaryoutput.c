@@ -1,0 +1,1 @@
+DXC_OUT_KIND PrimaryOutput();

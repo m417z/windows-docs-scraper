@@ -1,0 +1,48 @@
+{
+  "UID": "NS:dispmprt._DXGKARG_QUERYDPCAPS",
+  "title": "DXGKARG_QUERYDPCAPS",
+  "ms.date": "03/24/2020",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "description": "The DXGKARG_QUERYDPCAPS structure is a parameter for the DXGKDDI_QUERYDPCAPS callback.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10. version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DXGKARG_QUERYDPCAPS, *PDXGKARG_QUERYDPCAPS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGKARG_QUERYDPCAPS",
+    "PDXGKARG_QUERYDPCAPS",
+    "DXGKARG_QUERYDPCAPS"
+  ],
+  "f1_keywords": [
+    "_DXGKARG_QUERYDPCAPS",
+    "dispmprt/_DXGKARG_QUERYDPCAPS",
+    "PDXGKARG_QUERYDPCAPS",
+    "dispmprt/PDXGKARG_QUERYDPCAPS",
+    "DXGKARG_QUERYDPCAPS",
+    "dispmprt/DXGKARG_QUERYDPCAPS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

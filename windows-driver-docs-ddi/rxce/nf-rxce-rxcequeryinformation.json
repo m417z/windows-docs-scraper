@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxce.RxCeQueryInformation",
+  "title": "RxCeQueryInformation function (rxce.h)",
+  "description": "RxCeQueryInformation queries information about a connection in a caller-allocated buffer.",
+  "old-location": "ifsk\\rxcequeryinformation.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCeQueryInformation function"
+  ],
+  "ms.keywords": "RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers], ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml",
+  "req.header": "rxce.h",
+  "req.include-header": "Rxce.h, Rxcehdlr.h, Tdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCeQueryInformation",
+    "rxce/RxCeQueryInformation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxce.h"
+  ],
+  "api_name": [
+    "RxCeQueryInformation"
+  ]
+}

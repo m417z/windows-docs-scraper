@@ -1,0 +1,5 @@
+typedef enum CompositionFrameInstanceKind {
+  CompositionFrameInstanceKind_ComposedOnScreen,
+  CompositionFrameInstanceKind_ScanoutOnScreen,
+  CompositionFrameInstanceKind_ComposedToIntermediate
+} ;

@@ -1,0 +1,13 @@
+typedef struct _WWAN_NR_NEIGHBOR_CELLS_INFO {
+  ULONG  SystemSubType;
+  ULONG  ProviderIdOffset;
+  ULONG  ProviderIdSize;
+  ULONG  CellIDOffset;
+  ULONG  CellIDSize;
+  UINT32 PhysicalCellID;
+  UINT32 TAC;
+  UINT32 RSRP;
+  UINT32 RSRQ;
+  UINT32 SINR;
+  BYTE   Data[ANYSIZE_ARRAY];
+} WWAN_NR_NEIGHBOR_CELLS_INFO, *PWWAN_NR_NEIGHBOR_CELLS_INFO;

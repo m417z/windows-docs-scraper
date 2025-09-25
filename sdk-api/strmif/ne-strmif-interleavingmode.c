@@ -1,0 +1,6 @@
+typedef enum InterleavingMode {
+  INTERLEAVE_NONE = 0,
+  INTERLEAVE_CAPTURE,
+  INTERLEAVE_FULL,
+  INTERLEAVE_NONE_BUFFERED
+} ;

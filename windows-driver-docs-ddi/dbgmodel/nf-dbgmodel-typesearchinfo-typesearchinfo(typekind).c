@@ -1,0 +1,3 @@
+void TypeSearchInfo(
+  TypeKind searchType
+);

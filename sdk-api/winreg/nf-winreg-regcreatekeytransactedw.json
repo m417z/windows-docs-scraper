@@ -1,0 +1,70 @@
+{
+  "UID": "NF:winreg.RegCreateKeyTransactedW",
+  "title": "RegCreateKeyTransactedW function (winreg.h)",
+  "description": "Creates the specified registry key and associates it with a transaction. (Unicode)",
+  "helpviewer_keywords": [
+    "REG_CREATED_NEW_KEY",
+    "REG_OPENED_EXISTING_KEY",
+    "REG_OPTION_BACKUP_RESTORE",
+    "REG_OPTION_NON_VOLATILE",
+    "REG_OPTION_VOLATILE",
+    "RegCreateKeyTransacted",
+    "RegCreateKeyTransacted function",
+    "RegCreateKeyTransactedW",
+    "base.regcreatekeytransacted",
+    "winreg/RegCreateKeyTransacted",
+    "winreg/RegCreateKeyTransactedW"
+  ],
+  "old-location": "base\\regcreatekeytransacted.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RegCreateKeyTransactedW (Unicode) and RegCreateKeyTransactedA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegCreateKeyTransactedW",
+    "winreg/RegCreateKeyTransactedW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l2-3-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Registry-l2-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-Core-Registry-l2-2-0.dll"
+  ],
+  "api_name": [
+    "RegCreateKeyTransacted",
+    "RegCreateKeyTransactedA",
+    "RegCreateKeyTransactedW"
+  ]
+}

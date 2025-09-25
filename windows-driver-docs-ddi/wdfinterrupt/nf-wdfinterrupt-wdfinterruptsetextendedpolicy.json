@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfinterrupt.WdfInterruptSetExtendedPolicy",
+  "title": "WdfInterruptSetExtendedPolicy function (wdfinterrupt.h)",
+  "description": "The WdfInterruptSetExtendedPolicy method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.",
+  "old-location": "wdf\\wdfinterruptsetextendedpolicy.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfInterruptSetExtendedPolicy function"
+  ],
+  "ms.keywords": "DFInterruptObjectRef_ed600fb0-0e09-4c00-a132-cd4947dd2b04.xml, WdfInterruptSetExtendedPolicy, WdfInterruptSetExtendedPolicy method, kmdf.wdfinterruptsetextendedpolicy, wdf.wdfinterruptsetextendedpolicy, wdfinterrupt/WdfInterruptSetExtendedPolicy",
+  "req.header": "wdfinterrupt.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.9,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfInterruptSetExtendedPolicy",
+    "wdfinterrupt/WdfInterruptSetExtendedPolicy"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfInterruptSetExtendedPolicy"
+  ]
+}

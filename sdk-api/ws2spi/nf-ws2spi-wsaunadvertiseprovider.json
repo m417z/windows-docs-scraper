@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ws2spi.WSAUnadvertiseProvider",
+  "title": "WSAUnadvertiseProvider function (ws2spi.h)",
+  "description": "Makes a specific namespace version-2 provider no longer available for clients.",
+  "helpviewer_keywords": [
+    "WSAUnadvertiseProvider",
+    "WSAUnadvertiseProvider function [Winsock]",
+    "winsock.wsaunadvertiseprovider",
+    "ws2spi/WSAUnadvertiseProvider"
+  ],
+  "old-location": "winsock\\wsaunadvertiseprovider.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "5975b496-53a7-4f8a-8efc-27ef447596c2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSAUnadvertiseProvider, WSAUnadvertiseProvider function [Winsock], winsock.wsaunadvertiseprovider, ws2spi/WSAUnadvertiseProvider",
+  "req.header": "ws2spi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSAUnadvertiseProvider",
+    "ws2spi/WSAUnadvertiseProvider"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSAUnadvertiseProvider"
+  ]
+}

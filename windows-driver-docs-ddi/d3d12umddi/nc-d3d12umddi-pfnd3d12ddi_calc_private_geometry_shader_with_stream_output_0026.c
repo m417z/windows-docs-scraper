@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0026 Pfnd3d12ddiCalcPrivateGeometryShaderWithStreamOutput0026;
+
+SIZE_T Pfnd3d12ddiCalcPrivateGeometryShaderWithStreamOutput0026(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0026 *unnamedParam2
+)
+{...}

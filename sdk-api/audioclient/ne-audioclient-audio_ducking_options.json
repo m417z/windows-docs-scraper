@@ -1,0 +1,43 @@
+{
+  "UID": "NE:audioclient.AUDIO_DUCKING_OPTIONS",
+  "tech.root": "CoreAudio",
+  "title": "AUDIO_DUCKING_OPTIONS",
+  "ms.date": "02/08/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Specifies audio ducking options. Use values from this enumeration when calling IAudioClientDuckingControl::SetDuckingOptionsForCurrentStream",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "audioclient.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audioclient.h"
+  ],
+  "api_name": [
+    "AUDIO_DUCKING_OPTIONS"
+  ],
+  "f1_keywords": [
+    "AUDIO_DUCKING_OPTIONS",
+    "audioclient/AUDIO_DUCKING_OPTIONS"
+  ],
+  "helpviewer_keywords": [
+    "AUDIO_DUCKING_OPTIONS",
+    "audioclient/AUDIO_DUCKING_OPTIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

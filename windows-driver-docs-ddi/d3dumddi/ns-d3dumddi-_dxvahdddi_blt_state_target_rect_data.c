@@ -1,0 +1,4 @@
+typedef struct _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA {
+  [in] BOOL Enable;
+  [in] RECT TargetRect;
+} DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA;

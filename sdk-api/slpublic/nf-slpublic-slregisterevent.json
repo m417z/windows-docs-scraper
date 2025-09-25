@@ -1,0 +1,57 @@
+{
+  "UID": "NF:slpublic.SLRegisterEvent",
+  "title": "SLRegisterEvent function (slpublic.h)",
+  "description": "Registers an event in the SL service.",
+  "helpviewer_keywords": [
+    "SLRegisterEvent",
+    "SLRegisterEvent function [Security]",
+    "security.slregisterevent",
+    "slpublic/SLRegisterEvent"
+  ],
+  "old-location": "security\\slregisterevent.htm",
+  "tech.root": "security",
+  "ms.assetid": "a18f58d4-c8e7-4974-a015-e4941e834e79",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SLRegisterEvent, SLRegisterEvent function [Security], security.slregisterevent, slpublic/SLRegisterEvent",
+  "req.header": "slpublic.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Slc.lib",
+  "req.dll": "Slc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SLRegisterEvent",
+    "slpublic/SLRegisterEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Slc.dll"
+  ],
+  "api_name": [
+    "SLRegisterEvent"
+  ]
+}

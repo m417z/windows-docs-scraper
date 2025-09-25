@@ -1,0 +1,49 @@
+{
+  "UID": "NF:hidpi.HidP_TranslateUsagesToI8042ScanCodes",
+  "title": "HidP_TranslateUsagesToI8042ScanCodes function (hidpi.h)",
+  "description": "The HidP_TranslateUsagesToI8042ScanCodes routine maps a list of HID usages on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).",
+  "old-location": "hid\\hidp_translateusagestoi8042scancodes.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "HidP_TranslateUsagesToI8042ScanCodes function"
+  ],
+  "ms.keywords": "HidP_TranslateUsagesToI8042ScanCodes, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, hidpi/HidP_TranslateUsagesToI8042ScanCodes",
+  "req.header": "hidpi.h",
+  "req.include-header": "Hidpi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hidparse.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidP_TranslateUsagesToI8042ScanCodes",
+    "hidpi/HidP_TranslateUsagesToI8042ScanCodes"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Hidparse.lib",
+    "Hidparse.dll"
+  ],
+  "api_name": [
+    "HidP_TranslateUsagesToI8042ScanCodes"
+  ]
+}

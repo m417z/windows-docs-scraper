@@ -1,0 +1,5 @@
+typedef struct _MINIDUMP_MEMORY_INFO_LIST {
+  ULONG   SizeOfHeader;
+  ULONG   SizeOfEntry;
+  ULONG64 NumberOfEntries;
+} MINIDUMP_MEMORY_INFO_LIST, *PMINIDUMP_MEMORY_INFO_LIST;

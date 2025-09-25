@@ -1,0 +1,9 @@
+typedef struct tagRID_DEVICE_INFO {
+  DWORD cbSize;
+  DWORD dwType;
+  union {
+    RID_DEVICE_INFO_MOUSE    mouse;
+    RID_DEVICE_INFO_KEYBOARD keyboard;
+    RID_DEVICE_INFO_HID      hid;
+  } DUMMYUNIONNAME;
+} RID_DEVICE_INFO, *PRID_DEVICE_INFO, *LPRID_DEVICE_INFO;

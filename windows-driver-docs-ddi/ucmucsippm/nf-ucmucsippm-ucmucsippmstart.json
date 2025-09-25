@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ucmucsippm.UcmUcsiPpmStart",
+  "title": "UcmUcsiPpmStart function (ucmucsippm.h)",
+  "tech.root": "usbref",
+  "description": "Instructs the class extension to start sending requests to the client driver.",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "UcmUcsiPpmStart function"
+  ],
+  "ms.keywords": "UcmUcsiPpmStart",
+  "req.header": "Ucmucsippm.h",
+  "req.include-header": "UcmUcsiCx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": "N/A",
+  "req.lib": "UcmUcsiCxStub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "UcmUcsiPpmStart",
+    "ucmucsippm/UcmUcsiPpmStart"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "UcmUcsiCxStub.lib"
+  ],
+  "api_name": [
+    "UcmUcsiPpmStart"
+  ]
+}

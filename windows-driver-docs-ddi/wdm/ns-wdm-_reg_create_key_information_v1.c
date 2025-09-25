@@ -1,0 +1,21 @@
+typedef struct _REG_CREATE_KEY_INFORMATION_V1 {
+  PUNICODE_STRING CompleteName;
+  PVOID           RootObject;
+  PVOID           ObjectType;
+  ULONG           Options;
+  PUNICODE_STRING Class;
+  PVOID           SecurityDescriptor;
+  PVOID           SecurityQualityOfService;
+  ACCESS_MASK     DesiredAccess;
+  ACCESS_MASK     GrantedAccess;
+  PULONG          Disposition;
+  PVOID           *ResultObject;
+  PVOID           CallContext;
+  PVOID           RootObjectContext;
+  PVOID           Transaction;
+  ULONG_PTR       Version;
+  PUNICODE_STRING RemainingName;
+  ULONG           Wow64Flags;
+  ULONG           Attributes;
+  KPROCESSOR_MODE CheckAccessMode;
+} REG_CREATE_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1;

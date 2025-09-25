@@ -1,0 +1,76 @@
+{
+  "UID": "NE:iscsidsc.TARGET_INFORMATION_CLASS",
+  "title": "TARGET_INFORMATION_CLASS (iscsidsc.h)",
+  "description": "TARGET_INFORMATION_CLASS enumeration specifies information about the indicated target device that the GetIScsiTargetInformation function retrieves.",
+  "helpviewer_keywords": [
+    "*PTARGET_INFORMATION_CLASS",
+    "DiscoveryMechanism",
+    "InitiatorName",
+    "LoginOptions",
+    "PersistentTargetMappings",
+    "PortalGroups",
+    "ProtocolType",
+    "TARGET_INFORMATION_CLASS",
+    "TARGET_INFORMATION_CLASS enumeration [iSCSI Discovery Library API]",
+    "TargetAlias",
+    "TargetFlags",
+    "iscsidisc.target_information_class",
+    "iscsidsc/DiscoveryMechanism",
+    "iscsidsc/InitiatorName",
+    "iscsidsc/LoginOptions",
+    "iscsidsc/PersistentTargetMappings",
+    "iscsidsc/PortalGroups",
+    "iscsidsc/ProtocolType",
+    "iscsidsc/TARGET_INFORMATION_CLASS",
+    "iscsidsc/TargetAlias",
+    "iscsidsc/TargetFlags"
+  ],
+  "old-location": "iscsidisc\\target_information_class.htm",
+  "tech.root": "iSCSIDisc",
+  "ms.assetid": "2ef6cff7-b5ab-463d-b274-62be81bc9295",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PTARGET_INFORMATION_CLASS, DiscoveryMechanism, InitiatorName, LoginOptions, PersistentTargetMappings, PortalGroups, ProtocolType, TARGET_INFORMATION_CLASS, TARGET_INFORMATION_CLASS enumeration [iSCSI Discovery Library API], TargetAlias, TargetFlags, iscsidisc.target_information_class, iscsidsc/DiscoveryMechanism, iscsidsc/InitiatorName, iscsidsc/LoginOptions, iscsidsc/PersistentTargetMappings, iscsidsc/PortalGroups, iscsidsc/ProtocolType, iscsidsc/TARGET_INFORMATION_CLASS, iscsidsc/TargetAlias, iscsidsc/TargetFlags",
+  "req.header": "iscsidsc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PTARGET_INFORMATION_CLASS",
+    "iscsidsc/PTARGET_INFORMATION_CLASS",
+    "TARGET_INFORMATION_CLASS",
+    "iscsidsc/TARGET_INFORMATION_CLASS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Iscsidsc.h"
+  ],
+  "api_name": [
+    "TARGET_INFORMATION_CLASS"
+  ]
+}

@@ -1,0 +1,1 @@
+#define NET_BUFFER_SHARED_MEM_HANDLE(_SHI) ((_SHI)->SharedMemoryHandle)

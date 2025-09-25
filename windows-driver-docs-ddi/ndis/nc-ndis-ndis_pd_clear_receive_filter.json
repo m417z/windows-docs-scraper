@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.NDIS_PD_CLEAR_RECEIVE_FILTER",
+  "title": "NDIS_PD_CLEAR_RECEIVE_FILTER (ndis.h)",
+  "description": "The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDClearReceiveFilter function to clear this filter from the PD platform.",
+  "old-location": "netvista\\ndispdclearreceivefilter.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_PD_CLEAR_RECEIVE_FILTER callback function"
+  ],
+  "ms.keywords": "NDIS_PD_CLEAR_RECEIVE_FILTER, NDIS_PD_CLEAR_RECEIVE_FILTER callback, NdisPDClearReceiveFilter, NdisPDClearReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDClearReceiveFilter, netvista.ndispdclearreceivefilter",
+  "req.header": "ndis.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_PD_CLEAR_RECEIVE_FILTER",
+    "ndis/NDIS_PD_CLEAR_RECEIVE_FILTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "NDIS_PD_CLEAR_RECEIVE_FILTER"
+  ]
+}

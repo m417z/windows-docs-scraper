@@ -1,0 +1,5 @@
+typedef enum __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0007 {
+  XPS_LINE_JOIN_MITER = 1,
+  XPS_LINE_JOIN_BEVEL,
+  XPS_LINE_JOIN_ROUND
+} XPS_LINE_JOIN;

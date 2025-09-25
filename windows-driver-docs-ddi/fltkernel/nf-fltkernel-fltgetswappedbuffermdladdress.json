@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltGetSwappedBufferMdlAddress",
+  "title": "FltGetSwappedBufferMdlAddress function (fltkernel.h)",
+  "description": "The FltGetSwappedBufferMdlAddress routine returns the memory descriptor list (MDL) address for a buffer that was swapped in by a minifilter driver.",
+  "old-location": "ifsk\\fltgetswappedbuffermdladdress.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltGetSwappedBufferMdlAddress function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, FltGetSwappedBufferMdlAddress, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers], fltkernel/FltGetSwappedBufferMdlAddress, ifsk.fltgetswappedbuffermdladdress",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltGetSwappedBufferMdlAddress",
+    "fltkernel/FltGetSwappedBufferMdlAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltGetSwappedBufferMdlAddress"
+  ]
+}

@@ -1,0 +1,1 @@
+PenAlignment GetAlignment();

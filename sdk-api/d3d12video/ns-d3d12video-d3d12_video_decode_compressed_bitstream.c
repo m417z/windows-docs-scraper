@@ -1,0 +1,5 @@
+typedef struct D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM {
+  ID3D12Resource *pBuffer;
+  UINT64         Offset;
+  UINT64         Size;
+} D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dot11wdi.MINIPORT_WDI_RX_RETURN_FRAMES",
+  "title": "MINIPORT_WDI_RX_RETURN_FRAMES (dot11wdi.h)",
+  "description": "The MiniportWdiRxReturnFrames handler function returns a NET_BUFFER_LIST structure (and associated data buffers) to the TAL.",
+  "old-location": "netvista\\miniportwdirxreturnframes.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_WDI_RX_RETURN_FRAMES callback function"
+  ],
+  "ms.keywords": "MINIPORT_WDI_RX_RETURN_FRAMES, MINIPORT_WDI_RX_RETURN_FRAMES callback, MiniportWdiRxReturnFrames, MiniportWdiRxReturnFrames callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxReturnFrames, netvista.miniportwdirxreturnframes",
+  "req.header": "dot11wdi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_WDI_RX_RETURN_FRAMES",
+    "dot11wdi/MINIPORT_WDI_RX_RETURN_FRAMES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dot11wdi.h"
+  ],
+  "api_name": [
+    "MINIPORT_WDI_RX_RETURN_FRAMES"
+  ]
+}

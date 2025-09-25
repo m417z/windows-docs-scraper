@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.ScsiPortReadPortUlong",
+  "title": "ScsiPortReadPortUlong macro (storport.h)",
+  "description": "Learn how the ScsiPortReadPortUlong routine reads a ULONG value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\scsiportreadportulong.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ScsiPortReadPortUlong macro"
+  ],
+  "ms.keywords": "ScsiPortReadPortUlong, ScsiPortReadPortUlong routine [Storage Devices], scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml, srb/ScsiPortReadPortUlong, storage.scsiportreadportulong",
+  "req.header": "storport.h",
+  "req.include-header": "Miniport.h, Scsi.h, Storport.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scsiport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortReadPortUlong",
+    "storport/ScsiPortReadPortUlong"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Scsiport.lib",
+    "Scsiport.dll"
+  ],
+  "api_name": [
+    "ScsiPortReadPortUlong"
+  ]
+}

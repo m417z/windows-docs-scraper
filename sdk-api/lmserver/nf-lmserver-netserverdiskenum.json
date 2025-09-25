@@ -1,0 +1,58 @@
+{
+  "UID": "NF:lmserver.NetServerDiskEnum",
+  "title": "NetServerDiskEnum function (lmserver.h)",
+  "description": "The NetServerDiskEnum function retrieves a list of disk drives on a server. The function returns an array of three-character strings (a drive letter, a colon, and a terminating null character).",
+  "helpviewer_keywords": [
+    "NetServerDiskEnum",
+    "NetServerDiskEnum function [Network Management]",
+    "_win32_netserverdiskenum",
+    "lmserver/NetServerDiskEnum",
+    "netmgmt.netserverdiskenum"
+  ],
+  "old-location": "netmgmt\\netserverdiskenum.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "56c981f4-7a1d-4465-bd7b-5996222c4210",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NetServerDiskEnum, NetServerDiskEnum function [Network Management], _win32_netserverdiskenum, lmserver/NetServerDiskEnum, netmgmt.netserverdiskenum",
+  "req.header": "lmserver.h",
+  "req.include-header": "Lm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NetServerDiskEnum",
+    "lmserver/NetServerDiskEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "NetServerDiskEnum"
+  ]
+}

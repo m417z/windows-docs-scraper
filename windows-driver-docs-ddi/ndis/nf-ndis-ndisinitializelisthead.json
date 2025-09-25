@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ndis.NdisInitializeListHead",
+  "title": "NdisInitializeListHead macro (ndis.h)",
+  "description": "The NdisInitializeListHead function initializes a doubly linked, driver-maintained queue.",
+  "old-location": "netvista\\ndisinitializelisthead.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisInitializeListHead macro"
+  ],
+  "ms.keywords": "NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisInitializeListHead (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisInitializeListHead (NDIS   5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisInitializeListHead",
+    "ndis/NdisInitializeListHead"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisInitializeListHead"
+  ]
+}

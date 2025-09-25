@@ -1,0 +1,3 @@
+ENGAPI ULONG * XLATEOBJ_piVector(
+  XLATEOBJ *pxlo
+);

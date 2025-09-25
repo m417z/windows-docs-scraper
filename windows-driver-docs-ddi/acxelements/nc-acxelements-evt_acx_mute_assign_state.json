@@ -1,0 +1,47 @@
+{
+  "UID": "NC:acxelements.EVT_ACX_MUTE_ASSIGN_STATE",
+  "tech.root": "audio",
+  "title": "EVT_ACX_MUTE_ASSIGN_STATE",
+  "ms.date": "12/15/2022",
+  "targetos": "Windows",
+  "description": "The EVT_ACX_MUTE_ASSIGN_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is set.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxelements.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "acxelements.h"
+  ],
+  "api_name": [
+    "EVT_ACX_MUTE_ASSIGN_STATE"
+  ],
+  "f1_keywords": [
+    "EVT_ACX_MUTE_ASSIGN_STATE",
+    "acxelements/EVT_ACX_MUTE_ASSIGN_STATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

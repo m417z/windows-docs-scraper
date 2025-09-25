@@ -1,0 +1,20 @@
+typedef enum InkCollectorEventInterest {
+  ICEI_DefaultEvents = -1,
+  ICEI_CursorDown,
+  ICEI_Stroke,
+  ICEI_NewPackets,
+  ICEI_NewInAirPackets,
+  ICEI_CursorButtonDown,
+  ICEI_CursorButtonUp,
+  ICEI_CursorInRange,
+  ICEI_CursorOutOfRange,
+  ICEI_SystemGesture,
+  ICEI_TabletAdded,
+  ICEI_TabletRemoved,
+  ICEI_MouseDown,
+  ICEI_MouseMove,
+  ICEI_MouseUp,
+  ICEI_MouseWheel,
+  ICEI_DblClick,
+  ICEI_AllEvents
+} ;

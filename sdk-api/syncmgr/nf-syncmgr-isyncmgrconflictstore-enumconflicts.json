@@ -1,0 +1,64 @@
+{
+  "UID": "NF:syncmgr.ISyncMgrConflictStore.EnumConflicts",
+  "title": "ISyncMgrConflictStore::EnumConflicts (syncmgr.h)",
+  "description": "Enumerates conflicts scoped to the provided sync handler and sync item.",
+  "helpviewer_keywords": [
+    "EnumConflicts",
+    "EnumConflicts method [Windows Shell]",
+    "EnumConflicts method [Windows Shell]",
+    "ISyncMgrConflictStore interface",
+    "ISyncMgrConflictStore interface [Windows Shell]",
+    "EnumConflicts method",
+    "ISyncMgrConflictStore.EnumConflicts",
+    "ISyncMgrConflictStore::EnumConflicts",
+    "_shell_ISyncMgrConflictStore_EnumConflicts",
+    "shell.ISyncMgrConflictStore_EnumConflicts",
+    "syncmgr/ISyncMgrConflictStore::EnumConflicts"
+  ],
+  "old-location": "shell\\ISyncMgrConflictStore_EnumConflicts.htm",
+  "tech.root": "shell",
+  "ms.assetid": "b59c679c-7759-4b7a-9a23-f054af99d6a7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumConflicts, EnumConflicts method [Windows Shell], EnumConflicts method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],EnumConflicts method, ISyncMgrConflictStore.EnumConflicts, ISyncMgrConflictStore::EnumConflicts, _shell_ISyncMgrConflictStore_EnumConflicts, shell.ISyncMgrConflictStore_EnumConflicts, syncmgr/ISyncMgrConflictStore::EnumConflicts",
+  "req.header": "syncmgr.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Syncmgr.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ISyncMgrConflictStore::EnumConflicts",
+    "syncmgr/ISyncMgrConflictStore::EnumConflicts"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Syncmgr.h"
+  ],
+  "api_name": [
+    "ISyncMgrConflictStore.EnumConflicts"
+  ]
+}

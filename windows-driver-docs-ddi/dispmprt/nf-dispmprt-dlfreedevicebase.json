@@ -1,0 +1,50 @@
+{
+  "UID": "NF:dispmprt.DlFreeDeviceBase",
+  "title": "DlFreeDeviceBase function",
+  "description": "Frees a range of bus-relative device I/O ports or memory addresses previously mapped into the system address space.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DlFreeDeviceBase function"
+  ],
+  "ms.keywords": "DlFreeDeviceBase",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DlFreeDeviceBase",
+    "dispmprt/DlFreeDeviceBase"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Displib.lib",
+    "Displib.dll"
+  ],
+  "api_name": [
+    "DlFreeDeviceBase"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngWritePrinter",
+  "title": "EngWritePrinter function (winddi.h)",
+  "description": "The EngWritePrinter function allows printer graphics DLLs to send a data stream to printer hardware.",
+  "helpviewer_keywords": [
+    "EngWritePrinter",
+    "EngWritePrinter function [Display Devices]",
+    "display.engwriteprinter",
+    "gdifncs_ec307778-86e1-4f8c-96c8-66c86e196a67.xml",
+    "winddi/EngWritePrinter"
+  ],
+  "old-location": "display\\engwriteprinter.htm",
+  "tech.root": "display",
+  "ms.assetid": "c65f09b2-5924-479a-8067-a1ba472348e2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngWritePrinter, EngWritePrinter function [Display Devices], display.engwriteprinter, gdifncs_ec307778-86e1-4f8c-96c8-66c86e196a67.xml, winddi/EngWritePrinter",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngWritePrinter",
+    "winddi/EngWritePrinter"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngWritePrinter"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct tagNMTTCUSTOMDRAW {
+  NMCUSTOMDRAW nmcd;
+  UINT         uDrawFlags;
+} NMTTCUSTOMDRAW, *LPNMTTCUSTOMDRAW;

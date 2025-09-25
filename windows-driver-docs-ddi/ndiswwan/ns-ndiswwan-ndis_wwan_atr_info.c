@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_ATR_INFO {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_ATR_INFO      AtrInfo;
+} NDIS_WWAN_ATR_INFO, *PNDIS_WWAN_ATR_INFO;

@@ -1,0 +1,3 @@
+HRESULT Init(
+  IDirectMusicSynth *pSynth
+);

@@ -1,0 +1,4 @@
+typedef struct _WDI_DATA_RATE_ENTRY {
+  UINT8  DataRateFlag;
+  UINT16 DataRateValue;
+} WDI_DATA_RATE_ENTRY, *PWDI_DATA_RATE_ENTRY;

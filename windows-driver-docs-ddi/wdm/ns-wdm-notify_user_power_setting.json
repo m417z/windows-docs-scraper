@@ -1,0 +1,49 @@
+{
+  "UID": "NS:wdm.NOTIFY_USER_POWER_SETTING",
+  "tech.root": "kernel",
+  "title": "NOTIFY_USER_POWER_SETTING (wdm.h)",
+  "ms.date": "03/01/2023",
+  "targetos": "Windows",
+  "description": "This topic describes the NOTIFY_USER_POWER_SETTING structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NOTIFY_USER_POWER_SETTING, *PNOTIFY_USER_POWER_SETTING",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "PNOTIFY_USER_POWER_SETTING",
+    "NOTIFY_USER_POWER_SETTING"
+  ],
+  "f1_keywords": [
+    "PNOTIFY_USER_POWER_SETTING",
+    "wdm/PNOTIFY_USER_POWER_SETTING",
+    "NOTIFY_USER_POWER_SETTING",
+    "wdm/NOTIFY_USER_POWER_SETTING"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NOTIFY_USER_POWER_SETTING"
+  ]
+}

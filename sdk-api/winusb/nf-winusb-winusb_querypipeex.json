@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winusb.WinUsb_QueryPipeEx",
+  "title": "WinUsb_QueryPipeEx function (winusb.h)",
+  "description": "The WinUsb_QueryPipeEx function retrieves extended information about the specified endpoint and the associated pipe for an interface.",
+  "helpviewer_keywords": [
+    "WinUsb_QueryPipeEx",
+    "WinUsb_QueryPipeEx function [Buses]",
+    "buses.winusb_querypipeex",
+    "winusb/WinUsb_QueryPipeEx"
+  ],
+  "old-location": "buses\\winusb_querypipeex.htm",
+  "tech.root": "buses",
+  "ms.assetid": "73C291EC-2345-454B-BC7C-8A443DDFF57C",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinUsb_QueryPipeEx, WinUsb_QueryPipeEx function [Buses], buses.winusb_querypipeex, winusb/WinUsb_QueryPipeEx",
+  "req.header": "winusb.h",
+  "req.include-header": "Winusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winusb.lib",
+  "req.dll": "Winusb.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinUsb_QueryPipeEx",
+    "winusb/WinUsb_QueryPipeEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winusb.dll"
+  ],
+  "api_name": [
+    "WinUsb_QueryPipeEx"
+  ]
+}

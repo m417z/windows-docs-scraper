@@ -1,0 +1,4 @@
+void NDIS_SET_NET_BUFFER_LIST_CANCEL_ID(
+  _NBL,
+  _CancelId
+);

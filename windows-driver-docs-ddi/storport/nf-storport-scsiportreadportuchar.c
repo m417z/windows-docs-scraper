@@ -1,0 +1,3 @@
+void ScsiPortReadPortUchar(
+  [in] Port
+);

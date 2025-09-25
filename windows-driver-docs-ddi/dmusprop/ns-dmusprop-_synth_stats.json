@@ -1,0 +1,54 @@
+{
+  "UID": "NS:dmusprop._SYNTH_STATS",
+  "title": "_SYNTH_STATS (dmusprop.h)",
+  "description": "The SYNTH_STATS structure specifies synthesizer performance statistics such as the number of voices playing, CPU usage, number of notes lost, amount of free memory, and peak volume level.",
+  "old-location": "audio\\synth_stats.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "SYNTH_STATS structure"
+  ],
+  "ms.keywords": "*PSYNTH_STATS, PSYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], SYNTH_STATS, SYNTH_STATS structure [Audio Devices], _SYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, audio.synth_stats, dmusprop/PSYNTH_STATS, dmusprop/SYNTH_STATS",
+  "req.header": "dmusprop.h",
+  "req.include-header": "Dmusprop.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SYNTH_STATS, *PSYNTH_STATS",
+  "f1_keywords": [
+    "_SYNTH_STATS",
+    "dmusprop/_SYNTH_STATS",
+    "PSYNTH_STATS",
+    "dmusprop/PSYNTH_STATS",
+    "SYNTH_STATS",
+    "dmusprop/SYNTH_STATS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dmusprop.h"
+  ],
+  "api_name": [
+    "_SYNTH_STATS",
+    "PSYNTH_STATS",
+    "SYNTH_STATS"
+  ]
+}

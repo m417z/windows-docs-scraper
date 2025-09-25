@@ -1,0 +1,62 @@
+{
+  "UID": "NF:propsys.PSCreatePropertyStoreFromPropertySetStorage",
+  "title": "PSCreatePropertyStoreFromPropertySetStorage function (propsys.h)",
+  "description": "Wraps an IPropertySetStorage interface in an IPropertyStore interface.",
+  "helpviewer_keywords": [
+    "PSCreatePropertyStoreFromPropertySetStorage",
+    "PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties]",
+    "STGM_READ",
+    "STGM_READWRITE",
+    "STGM_WRITE",
+    "_shell_PSCreatePropertyStoreFromPropertySetStorage",
+    "properties.PSCreatePropertyStoreFromPropertySetStorage",
+    "propsys/PSCreatePropertyStoreFromPropertySetStorage",
+    "shell.PSCreatePropertyStoreFromPropertySetStorage"
+  ],
+  "old-location": "properties\\PSCreatePropertyStoreFromPropertySetStorage.htm",
+  "tech.root": "properties",
+  "ms.assetid": "efba5a2a-df26-4f7e-9ddf-ec471e3d547c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PSCreatePropertyStoreFromPropertySetStorage, PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties], STGM_READ, STGM_READWRITE, STGM_WRITE, _shell_PSCreatePropertyStoreFromPropertySetStorage, properties.PSCreatePropertyStoreFromPropertySetStorage, propsys/PSCreatePropertyStoreFromPropertySetStorage, shell.PSCreatePropertyStoreFromPropertySetStorage",
+  "req.header": "propsys.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2, Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Propsys.lib",
+  "req.dll": "Propsys.dll (version 6.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Desktop Search (WDS) 3.0",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PSCreatePropertyStoreFromPropertySetStorage",
+    "propsys/PSCreatePropertyStoreFromPropertySetStorage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Propsys.dll"
+  ],
+  "api_name": [
+    "PSCreatePropertyStoreFromPropertySetStorage"
+  ]
+}

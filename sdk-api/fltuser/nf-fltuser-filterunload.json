@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterUnload",
+  "title": "FilterUnload function (fltuser.h)",
+  "description": "An application that has loaded a supporting minifilter by calling FilterLoad can unload the minifilter by calling the FilterUnload function.",
+  "helpviewer_keywords": [
+    "FilterUnload",
+    "FilterUnload function [Installable File System Drivers]",
+    "FltWin32ApiRef_d6c75950-e58b-4f4c-8707-85566c03d219.xml",
+    "fltuser/FilterUnload",
+    "ifsk.filterunload"
+  ],
+  "old-location": "ifsk\\filterunload.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "74de2531-1666-420e-b500-131622f1b76f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterUnload, FilterUnload function [Installable File System Drivers], FltWin32ApiRef_d6c75950-e58b-4f4c-8707-85566c03d219.xml, fltuser/FilterUnload, ifsk.filterunload",
+  "req.header": "fltuser.h",
+  "req.include-header": "Fltuser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterUnload",
+    "fltuser/FilterUnload"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterUnload"
+  ]
+}

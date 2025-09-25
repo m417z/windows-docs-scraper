@@ -1,0 +1,3 @@
+MMRESULT joyReleaseCapture(
+  UINT uJoyID
+);

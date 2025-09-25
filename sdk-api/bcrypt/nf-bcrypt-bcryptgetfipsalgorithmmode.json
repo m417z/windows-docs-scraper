@@ -1,0 +1,57 @@
+{
+  "UID": "NF:bcrypt.BCryptGetFipsAlgorithmMode",
+  "title": "BCryptGetFipsAlgorithmMode function (bcrypt.h)",
+  "description": "Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.",
+  "helpviewer_keywords": [
+    "BCryptGetFipsAlgorithmMode",
+    "BCryptGetFipsAlgorithmMode function [Security]",
+    "bcrypt/BCryptGetFipsAlgorithmMode",
+    "security.bcryptgetfipsalgorithmmode"
+  ],
+  "old-location": "security\\bcryptgetfipsalgorithmmode.htm",
+  "tech.root": "security",
+  "ms.assetid": "eb7b758d-3466-49fe-8729-a8a059fadcde",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptGetFipsAlgorithmMode",
+    "bcrypt/BCryptGetFipsAlgorithmMode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptGetFipsAlgorithmMode"
+  ]
+}

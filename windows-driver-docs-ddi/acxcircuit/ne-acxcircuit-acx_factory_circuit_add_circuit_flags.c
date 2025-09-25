@@ -1,0 +1,4 @@
+typedef enum _ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS {
+  AcxFactoryCircitAddCircuitConfigNoFlags,
+  AcxFactoryCircitAddCircuitConfigValidFlags
+} ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS;

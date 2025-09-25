@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ucmucsippm._UCMUCSI_CONNECTOR_INFO",
+  "title": "_UCMUCSI_CONNECTOR_INFO (ucmucsippm.h)",
+  "tech.root": "usbref",
+  "description": "Stores information about connectors that cannot be obtained by sending UCSI commands such as “Get Connector Capability”.",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "UCMUCSI_CONNECTOR_INFO structure"
+  ],
+  "ms.keywords": "_UCMUCSI_CONNECTOR_INFO, UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO,",
+  "req.header": "ucmucsippm.h",
+  "req.include-header": "UcmUcsiCx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": "N/A",
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_UCMUCSI_CONNECTOR_INFO",
+    "ucmucsippm/_UCMUCSI_CONNECTOR_INFO",
+    "PUCMUCSI_CONNECTOR_INFO",
+    "ucmucsippm/PUCMUCSI_CONNECTOR_INFO",
+    "UCMUCSI_CONNECTOR_INFO",
+    "ucmucsippm/UCMUCSI_CONNECTOR_INFO"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucmucsippm.h"
+  ],
+  "api_name": [
+    "_UCMUCSI_CONNECTOR_INFO",
+    "PUCMUCSI_CONNECTOR_INFO",
+    "UCMUCSI_CONNECTOR_INFO"
+  ]
+}

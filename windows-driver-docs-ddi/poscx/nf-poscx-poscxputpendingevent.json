@@ -1,0 +1,47 @@
+{
+  "UID": "NF:poscx.PosCxPutPendingEvent",
+  "title": "PosCxPutPendingEvent function (poscx.h)",
+  "description": "PosCxPutPendingEvent creates a new event object, copies the event data to the new event object, and tries to delegate it to the waiting caller.",
+  "tech.root": "pos",
+  "ms.date": "03/07/2023",
+  "keywords": [
+    "PosCxPutPendingEvent function"
+  ],
+  "ms.keywords": "PosCxPutPendingEvent, PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent",
+  "req.header": "poscx.h",
+  "req.include-header": "Poscx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PosCxPutPendingEvent",
+    "poscx/PosCxPutPendingEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "poscx.h"
+  ],
+  "api_name": [
+    "PosCxPutPendingEvent"
+  ]
+}

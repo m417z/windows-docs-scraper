@@ -1,0 +1,48 @@
+{
+  "UID": "NF:mcd.ChangerSetAccess",
+  "title": "ChangerSetAccess function (mcd.h)",
+  "description": "ChangerSetAccess handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_SET_ACCESS.",
+  "old-location": "storage\\changersetaccess.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ChangerSetAccess function"
+  ],
+  "ms.keywords": "ChangerSetAccess, ChangerSetAccess function [Storage Devices], chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, mcd/ChangerSetAccess, storage.changersetaccess",
+  "req.header": "mcd.h",
+  "req.include-header": "Mcd.h, Ntddchgr.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ChangerSetAccess",
+    "mcd/ChangerSetAccess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "mcd.h"
+  ],
+  "api_name": [
+    "ChangerSetAccess"
+  ]
+}

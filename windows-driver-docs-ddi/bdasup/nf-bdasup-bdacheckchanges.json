@@ -1,0 +1,48 @@
+{
+  "UID": "NF:bdasup.BdaCheckChanges",
+  "title": "BdaCheckChanges function (bdasup.h)",
+  "description": "The BdaCheckChanges function verifies a new set of BDA topology changes before they are committed.",
+  "tech.root": "stream",
+  "ms.date": "04/25/2022",
+  "keywords": [
+    "BdaCheckChanges function"
+  ],
+  "ms.keywords": "BdaCheckChanges, BdaCheckChanges function [Streaming Media Devices], bdaref_d60c7f03-8188-4be5-807c-e21384429341.xml, bdasup/BdaCheckChanges, stream.bdacheckchanges",
+  "req.header": "bdasup.h",
+  "req.include-header": "Bdasup.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bdasup.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "BdaCheckChanges",
+    "bdasup/BdaCheckChanges"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Bdasup.lib",
+    "Bdasup.dll"
+  ],
+  "api_name": [
+    "BdaCheckChanges"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "UID": "NF:ntddk.PsGetThreadExitStatus",
+  "tech.root": "kernel",
+  "title": "PsGetThreadExitStatus",
+  "ms.date": "02/12/2024",
+  "targetos": "Windows",
+  "description": null,
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddk.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1703",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "PsGetThreadExitStatus"
+  ],
+  "f1_keywords": [
+    "PsGetThreadExitStatus",
+    "ntddk/PsGetThreadExitStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "PsGetThreadExitStatus"
+  ]
+}

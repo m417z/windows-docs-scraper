@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vswriter.IVssComponent.SetPostRestoreFailureMsg",
+  "title": "IVssComponent::SetPostRestoreFailureMsg (vswriter.h)",
+  "description": "The SetPostRestoreFailureMsg method is used to create a message describing a failure in processing a PostRestore event.",
+  "helpviewer_keywords": [
+    "IVssComponent interface [VSS]",
+    "SetPostRestoreFailureMsg method",
+    "IVssComponent.SetPostRestoreFailureMsg",
+    "IVssComponent::SetPostRestoreFailureMsg",
+    "SetPostRestoreFailureMsg",
+    "SetPostRestoreFailureMsg method [VSS]",
+    "SetPostRestoreFailureMsg method [VSS]",
+    "IVssComponent interface",
+    "_win32_ivsscomponent_setpostrestorefailuremsg",
+    "base.ivsscomponent_setpostrestorefailuremsg",
+    "vswriter/IVssComponent::SetPostRestoreFailureMsg"
+  ],
+  "old-location": "base\\ivsscomponent_setpostrestorefailuremsg.htm",
+  "tech.root": "base",
+  "ms.assetid": "1059a586-69e2-4a02-8f52-b8da3f04f51c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IVssComponent interface [VSS],SetPostRestoreFailureMsg method, IVssComponent.SetPostRestoreFailureMsg, IVssComponent::SetPostRestoreFailureMsg, SetPostRestoreFailureMsg, SetPostRestoreFailureMsg method [VSS], SetPostRestoreFailureMsg method [VSS],IVssComponent interface, _win32_ivsscomponent_setpostrestorefailuremsg, base.ivsscomponent_setpostrestorefailuremsg, vswriter/IVssComponent::SetPostRestoreFailureMsg",
+  "req.header": "vswriter.h",
+  "req.include-header": "Vss.h, VsWriter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VssApi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVssComponent::SetPostRestoreFailureMsg",
+    "vswriter/IVssComponent::SetPostRestoreFailureMsg"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VssApi.lib",
+    "VssApi.dll"
+  ],
+  "api_name": [
+    "IVssComponent.SetPostRestoreFailureMsg"
+  ]
+}

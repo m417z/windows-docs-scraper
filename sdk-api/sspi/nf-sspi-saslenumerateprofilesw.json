@@ -1,0 +1,61 @@
+{
+  "UID": "NF:sspi.SaslEnumerateProfilesW",
+  "title": "SaslEnumerateProfilesW function (sspi.h)",
+  "description": "Lists the packages that provide a SASL interface. (Unicode)",
+  "helpviewer_keywords": [
+    "SaslEnumerateProfiles",
+    "SaslEnumerateProfiles function [Security]",
+    "SaslEnumerateProfilesW",
+    "security.saslenumerateprofiles",
+    "sspi/SaslEnumerateProfiles",
+    "sspi/SaslEnumerateProfilesW"
+  ],
+  "old-location": "security\\saslenumerateprofiles.htm",
+  "tech.root": "security",
+  "ms.assetid": "0c11e0e3-2538-4703-bc32-31c73d65a498",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW",
+  "req.header": "sspi.h",
+  "req.include-header": "Security.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SaslEnumerateProfilesW (Unicode) and SaslEnumerateProfilesA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "Secur32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SaslEnumerateProfilesW",
+    "sspi/SaslEnumerateProfilesW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Secur32.dll"
+  ],
+  "api_name": [
+    "SaslEnumerateProfiles",
+    "SaslEnumerateProfilesA",
+    "SaslEnumerateProfilesW"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NI:parallel.IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE",
+  "title": "IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE (parallel.h)",
+  "description": "The IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE request sets the operating mode of a parallel port.",
+  "old-location": "parports\\ioctl_internal_parallel_set_chip_mode.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE control code [Parallel Ports], cisspd_f9ea9799-8d87-44e2-89d6-ae1fc0a4f673.xml, parallel/IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE, parports.ioctl_internal_parallel_set_chip_mode",
+  "req.header": "parallel.h",
+  "req.include-header": "Parallel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RILGBATOKEN, *LPRILGBATOKEN",
+  "f1_keywords": [
+    "IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE",
+    "parallel/IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE"
+  ]
+}

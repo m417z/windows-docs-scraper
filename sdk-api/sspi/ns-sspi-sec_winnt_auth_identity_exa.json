@@ -1,0 +1,49 @@
+{
+  "UID": "NS:sspi._SEC_WINNT_AUTH_IDENTITY_EXA",
+  "tech.root": "security",
+  "title": "SEC_WINNT_AUTH_IDENTITY_EXA",
+  "ms.date": "08/03/2022",
+  "targetos": "Windows",
+  "description": "The SEC_WINNT_AUTH_IDENTITY_EXA (ANSI) structure contains information about a user.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "sspi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.target-type": null,
+  "req.typenames": "SEC_WINNT_AUTH_IDENTITY_EXA, *PSEC_WINNT_AUTH_IDENTITY_EXA",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "sspi.h"
+  ],
+  "api_name": [
+    "_SEC_WINNT_AUTH_IDENTITY_EXA",
+    "PSEC_WINNT_AUTH_IDENTITY_EXA",
+    "SEC_WINNT_AUTH_IDENTITY_EXA"
+  ],
+  "f1_keywords": [
+    "_SEC_WINNT_AUTH_IDENTITY_EXA",
+    "sspi/_SEC_WINNT_AUTH_IDENTITY_EXA",
+    "PSEC_WINNT_AUTH_IDENTITY_EXA",
+    "sspi/PSEC_WINNT_AUTH_IDENTITY_EXA",
+    "SEC_WINNT_AUTH_IDENTITY_EXA",
+    "sspi/SEC_WINNT_AUTH_IDENTITY_EXA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

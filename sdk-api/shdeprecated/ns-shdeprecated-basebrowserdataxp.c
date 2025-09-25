@@ -1,0 +1,28 @@
+typedef struct BASEBROWSERDATAXP {
+                            HWND              _hwnd;
+                            ITravelLog        *_ptl;
+                            IHlinkFrame       *_phlf;
+                            IWebBrowser2      *_pautoWB2;
+                            IExpDispSupportXP *_pautoEDS;
+                            IShellService     *_pautoSS;
+                            int               _eSecureLockIcon;
+                            UINT              _fCreatingViewWindow : 1;
+                            UINT              _uActivateState;
+                            PCIDLIST_ABSOLUTE _pidlViewState;
+                            IOleCommandTarget *_pctView;
+                            PIDLIST_ABSOLUTE  _pidlCur;
+                            IShellView        *_psv;
+                            IShellFolder      *_psf;
+                            HWND              _hwndView;
+                            LPWSTR            _pszTitleCur;
+                            PIDLIST_ABSOLUTE  _pidlPending;
+                            IShellView        *_psvPending;
+                            IShellFolder      *_psfPending;
+                            HWND              _hwndViewPending;
+                            LPWSTR            _pszTitlePending;
+                            BOOL              _fIsViewMSHTML;
+                            BOOL              _fPrivacyImpacted;
+                            CLSID             _clsidView;
+                            CLSID             _clsidViewPending;
+                            HWND              _hwndFrame;
+} BASEBROWSERDATAXP, *LPBASEBROWSERDATAXP;

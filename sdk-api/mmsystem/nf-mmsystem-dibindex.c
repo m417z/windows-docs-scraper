@@ -1,0 +1,3 @@
+LONG DIBINDEX(
+    WORD n
+);

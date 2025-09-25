@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winsafer.SaferiIsExecutableFileType",
+  "title": "SaferiIsExecutableFileType function (winsafer.h)",
+  "description": "Determines whether a specified file is an executable file.",
+  "helpviewer_keywords": [
+    "SaferiIsExecutableFileType",
+    "SaferiIsExecutableFileType function [Security]",
+    "security.saferiisexecutablefiletype",
+    "winsafer/SaferiIsExecutableFileType"
+  ],
+  "old-location": "security\\saferiisexecutablefiletype.htm",
+  "tech.root": "security",
+  "ms.assetid": "f122ceaa-65bb-4cfe-a760-adf4f910c487",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType",
+  "req.header": "winsafer.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SaferiIsExecutableFileType",
+    "winsafer/SaferiIsExecutableFileType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll"
+  ],
+  "api_name": [
+    "SaferiIsExecutableFileType"
+  ],
+  "req.apiset": "ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)"
+}

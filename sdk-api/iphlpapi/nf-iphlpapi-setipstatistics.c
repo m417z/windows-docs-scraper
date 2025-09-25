@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD SetIpStatistics(
+  [in] PMIB_IPSTATS pIpStats
+);

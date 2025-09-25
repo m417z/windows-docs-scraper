@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTIsFeatureEnabled(
+  D3DKMT_ISFEATUREENABLED *unnamedParam1
+);

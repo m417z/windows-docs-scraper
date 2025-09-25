@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddtape._TAPE_GET_POSITION",
+  "title": "_TAPE_GET_POSITION (ntddtape.h)",
+  "description": "The _TAPE_GET_POSITION structure (ntddtape.h) contains the current absolute, logical, or pseudo logical partition and offset position on the tape.",
+  "old-location": "storage\\tape_get_position.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "TAPE_GET_POSITION structure"
+  ],
+  "ms.keywords": "*PTAPE_GET_POSITION, PTAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Storage Devices], TAPE_GET_POSITION, TAPE_GET_POSITION structure [Storage Devices], _TAPE_GET_POSITION, ntddtape/PTAPE_GET_POSITION, ntddtape/TAPE_GET_POSITION, storage.tape_get_position, structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml",
+  "req.header": "ntddtape.h",
+  "req.include-header": "Ntddtape.h, Minitape.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TAPE_GET_POSITION, *PTAPE_GET_POSITION",
+  "f1_keywords": [
+    "_TAPE_GET_POSITION",
+    "ntddtape/_TAPE_GET_POSITION",
+    "PTAPE_GET_POSITION",
+    "ntddtape/PTAPE_GET_POSITION",
+    "TAPE_GET_POSITION",
+    "ntddtape/TAPE_GET_POSITION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddtape.h"
+  ],
+  "api_name": [
+    "_TAPE_GET_POSITION",
+    "PTAPE_GET_POSITION",
+    "TAPE_GET_POSITION"
+  ]
+}

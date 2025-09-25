@@ -1,0 +1,5 @@
+typedef struct _TAPE_WMI_OPERATIONS {
+  ULONG Method;
+  ULONG DataBufferSize;
+  PVOID DataBuffer;
+} TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS;

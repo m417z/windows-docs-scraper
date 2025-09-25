@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ZwMakeTemporaryObject",
+  "title": "ZwMakeTemporaryObject function (wdm.h)",
+  "description": "The ZwMakeTemporaryObject routine changes the attributes of an object to make it temporary.",
+  "tech.root": "kernel",
+  "ms.date": "12/14/2022",
+  "keywords": [
+    "ZwMakeTemporaryObject function"
+  ],
+  "ms.keywords": "NtMakeTemporaryObject, ZwMakeTemporaryObject, ZwMakeTemporaryObject routine [Kernel-Mode Driver Architecture], k111_54a6768d-3f33-4c9e-8068-810401cad810.xml, kernel.zwmaketemporaryobject, wdm/NtMakeTemporaryObject, wdm/ZwMakeTemporaryObject",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwMakeTemporaryObject",
+    "wdm/ZwMakeTemporaryObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwMakeTemporaryObject"
+  ]
+}

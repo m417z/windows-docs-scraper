@@ -1,0 +1,4 @@
+typedef struct _ATTRIBUTES_AND_SID {
+  UINT32 Attributes;
+  ULONG  SidStart;
+} ATTRIBUTES_AND_SID, *PATTRIBUTES_AND_SID;

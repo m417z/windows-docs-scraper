@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltGetIoPriorityHintFromFileObject",
+  "title": "FltGetIoPriorityHintFromFileObject function (fltkernel.h)",
+  "description": "The FltGetIoPriorityHintFromFileObject routine is used by a minifilter driver to get IO priority information from a file object.",
+  "old-location": "ifsk\\fltgetiopriorityhintfromfileobject.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltGetIoPriorityHintFromFileObject function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_0a239f34-f16d-4386-a171-66c537e3f241.xml, FltGetIoPriorityHintFromFileObject, FltGetIoPriorityHintFromFileObject routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromFileObject, ifsk.fltgetiopriorityhintfromfileobject",
+  "req.header": "fltkernel.h",
+  "req.include-header": "FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltGetIoPriorityHintFromFileObject",
+    "fltkernel/FltGetIoPriorityHintFromFileObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltGetIoPriorityHintFromFileObject"
+  ]
+}

@@ -1,0 +1,9 @@
+typedef struct IKEEXT_CREDENTIAL0_ {
+  IKEEXT_AUTHENTICATION_METHOD_TYPE        authenticationMethodType;
+  IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE impersonationType;
+  union {
+    IKEEXT_PRESHARED_KEY_AUTHENTICATION0 *presharedKey;
+    IKEEXT_CERTIFICATE_CREDENTIAL0       *certificate;
+    IKEEXT_NAME_CREDENTIAL0              *name;
+  };
+} IKEEXT_CREDENTIAL0;

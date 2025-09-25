@@ -1,0 +1,58 @@
+{
+  "UID": "NF:shlobj_core.ILIsChild",
+  "title": "ILIsChild function (shlobj_core.h)",
+  "description": "Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one SHITEMID.",
+  "helpviewer_keywords": [
+    "ILIsChild",
+    "ILIsChild function [Windows Shell]",
+    "_shell_ILIsChild",
+    "shell.ILIsChild",
+    "shlobj_core/ILIsChild"
+  ],
+  "old-location": "shell\\ILIsChild.htm",
+  "tech.root": "shell",
+  "ms.assetid": "e799fbcf-8254-457a-9d1b-6202dea190c1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ILIsChild, ILIsChild function [Windows Shell], _shell_ILIsChild, shell.ILIsChild, shlobj_core/ILIsChild",
+  "req.header": "shlobj_core.h",
+  "req.include-header": "Shlobj.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ILIsChild",
+    "shlobj_core/ILIsChild"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "shlobj_core.h"
+  ],
+  "api_name": [
+    "ILIsChild"
+  ]
+}

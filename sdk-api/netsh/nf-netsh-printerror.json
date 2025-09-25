@@ -1,0 +1,58 @@
+{
+  "UID": "NF:netsh.PrintError",
+  "title": "PrintError function (netsh.h)",
+  "description": "Displays a system or application error message to the NetShell console.",
+  "helpviewer_keywords": [
+    "PrintError",
+    "PrintError function [NetShell]",
+    "_netsh_printerror",
+    "netsh/PrintError",
+    "netshell.printerror"
+  ],
+  "old-location": "netshell\\printerror.htm",
+  "tech.root": "netshell",
+  "ms.assetid": "de48b797-9cb5-4bc0-89d4-86dd7f56a610",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror",
+  "req.header": "netsh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netsh.lib",
+  "req.dll": "Netsh.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PrintError",
+    "netsh/PrintError"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netsh.exe"
+  ],
+  "api_name": [
+    "PrintError"
+  ]
+}

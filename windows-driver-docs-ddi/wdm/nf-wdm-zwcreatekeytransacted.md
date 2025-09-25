@@ -1,0 +1,114 @@
+# ZwCreateKeyTransacted function
+
+## Description
+
+The **ZwCreateKeyTransacted** routine creates a new registry key or opens an existing one, and it associates the key with a transaction.
+
+## Parameters
+
+### `KeyHandle` [out]
+
+A pointer to a HANDLE variable into which the routine writes the handle to the key.
+
+### `DesiredAccess` [in]
+
+Specifies the type of access to the key that the caller requests. This parameter is an [ACCESS_MASK](https://learn.microsoft.com/windows-hardware/drivers/kernel/access-mask) value. For more information, see the description of the *DesiredAccess* parameter of the [ZwCreateKey](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine.
+
+### `ObjectAttributes` [in]
+
+A pointer to the object attributes of the key being opened. This parameter points to an [OBJECT_ATTRIBUTES](https://learn.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that must have been previously initialized by the [InitializeObjectAttributes](https://learn.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) routine. The caller must specify the name of the registry key as the *ObjectName* parameter in the call to **InitializeObjectAttributes**. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
+
+### `TitleIndex`
+
+Device and intermediate drivers set this parameter to zero.
+
+### `Class` [in, optional]
+
+Device and intermediate drivers set this parameter to **NULL**.
+
+### `CreateOptions` [in]
+
+Specifies the options to apply when the routine creates or opens the key. Set this parameter to zero or to the bitwise OR of one or more of the following REG_OPTION_*XXX* flag bits.
+
+| *CreateOptions* flag | Description |
+| --- | --- |
+| REG_OPTION_VOLATILE | The key is not preserved after the computer restarts. |
+| REG_OPTION_NON_VOLATILE | The key is preserved after the computer restarts. |
+| REG_OPTION_CREATE_LINK | The key is a symbolic link. This flag is not used by device and intermediate drivers. |
+| REG_OPTION_BACKUP_RESTORE | Open the key with special privileges that enable backup and restore operations. This flag is not used by device and intermediate drivers. |
+
+### `TransactionHandle` [in]
+
+A handle to a [transaction object](https://learn.microsoft.com/windows-hardware/drivers/kernel/transaction-objects). To obtain this handle, you can call the [ZwCreateTransaction](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction) routine. Or, if you have a pointer to a transaction object, you can supply the pointer to the [ObOpenObjectByPointer](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-obopenobjectbypointer) routine to obtain the corresponding transaction handle.
+
+### `Disposition` [out, optional]
+
+A pointer to a location into which the routine writes one of the following values to indicate whether the call created a new key or opened an existing one.
+
+| *Disposition* value | Description |
+| --- | --- |
+| REG_CREATED_NEW_KEY | A new key was created. |
+| REG_OPENED_EXISTING_KEY | An existing key was opened. |
+
+You can set *Disposition* = **NULL** if this information is not needed.
+
+## Return value
+
+**ZwCreateKeyTransacted** returns STATUS_SUCCESS if the call successfully creates or opens the key. Possible error return values include the following:
+
+| Return code | Description |
+| --- | --- |
+| **STATUS_INVALID_PARAMETER** | The *ObjectAttributes* parameter is **NULL** or points to invalid information, or the *CreateOptions* parameter value specifies invalid options. |
+| **STATUS_OBJECT_PATH_SYNTAX_BAD** | The registry path in the object attributes is invalid. |
+| **STATUS_OBJECT_NAME_NOT_FOUND** | The registry path in the object attributes was not found. |
+| **STATUS_ACCESS_DENIED** | The caller did not have the required access rights to open a handle for the named registry key. |
+| **STATUS_INSUFFICIENT_RESOURCES** | A memory allocation operation failed. |
+
+## Remarks
+
+This routine provides a handle that the caller can access a registry key with. Additionally, this routine associates the key with an active transaction.
+
+After the handle that is pointed to by *KeyHandle* is no longer being used, the driver must call the [ZwClose](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) routine to close it.
+
+Like **ZwCreateKeyTransacted**, the [ZwOpenKeyTransacted](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkeytransacted) routine associates a key with a transaction. Unlike **ZwCreateKeyTransacted**, which can create a new key or open an existing key, **ZwOpenKeyTransacted** can only open a registry key that already exists.
+
+After a kernel-mode driver obtains a handle to a transaction (for example, by calling **ZwCreateTransaction**), the driver can perform a series of registry operations that are part of this transaction. The driver can close the transaction either by committing to the changes that were made in the transaction or by rolling back the transaction.
+
+After the driver successfully completes all registry operations that are part of a transaction, it can call the [ZwCommitTransaction](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcommittransaction) routine to commit to the changes. The driver can call the [ZwRollbackTransaction](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntrollbacktransaction) routine to roll back the transaction.
+
+During a transaction, a registry operation is part of the transaction if the system call that performs the operation meets either of the following conditions:
+
+* The call specifies, as an input parameter, the transaction handle. For example, calls to **ZwCreateKeyTransacted** and **ZwOpenKeyTransacted** can associate one or more handles to registry keys with the transaction.
+* The call specifies, as an input parameter, a registry key handle that was obtained by a call to **ZwCreateKeyTransacted** or **ZwOpenKeyTransacted** to which the transaction handle was supplied. For example, a call to the [ZwSetValueKey](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey) routine can use a key handle that was obtained in this way to set the value of a registry key as part of a transaction.
+
+For more information about kernel-mode transactions, see [Using Kernel Transaction Manager](https://learn.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager).
+
+The security descriptor in the object attributes determines whether the access rights that are specified by the *DesiredAccess* parameter are granted on later calls to routines, such as **ZwOpenKeyTransacted** that access the key, or to routines, such as **ZwCreateKeyTransacted,** that create subkeys of the key.
+
+If the kernel-mode caller is not running in a system thread context, it must ensure that any handles it creates are kernel handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](https://learn.microsoft.com/windows-hardware/drivers/kernel/object-handles).
+
+For more information about how to work with registry keys in kernel mode, see [Using the Registry in a Driver](https://learn.microsoft.com/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
+
+## See also
+
+[ACCESS_MASK](https://learn.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+
+[InitializeObjectAttributes](https://learn.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
+
+[OBJECT_ATTRIBUTES](https://learn.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes)
+
+[ObOpenObjectByPointer](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-obopenobjectbypointer)
+
+[ZwClose](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+
+[ZwCommitTransaction](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcommittransaction)
+
+[ZwCreateKey](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey)
+
+[ZwCreateTransaction](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction)
+
+[ZwOpenKeyTransacted](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkeytransacted)
+
+[ZwRollbackTransaction](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntrollbacktransaction)
+
+[ZwSetValueKey](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey)

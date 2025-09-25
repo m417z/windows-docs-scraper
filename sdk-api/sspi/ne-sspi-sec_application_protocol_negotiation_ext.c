@@ -1,0 +1,5 @@
+typedef enum _SEC_APPLICATION_PROTOCOL_NEGOTIATION_EXT {
+  SecApplicationProtocolNegotiationExt_None,
+  SecApplicationProtocolNegotiationExt_NPN,
+  SecApplicationProtocolNegotiationExt_ALPN
+} SEC_APPLICATION_PROTOCOL_NEGOTIATION_EXT, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_EXT;

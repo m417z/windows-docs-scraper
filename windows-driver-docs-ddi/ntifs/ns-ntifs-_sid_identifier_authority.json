@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._SID_IDENTIFIER_AUTHORITY",
+  "title": "_SID_IDENTIFIER_AUTHORITY (ntifs.h)",
+  "description": "The SID_IDENTIFIER_AUTHORITY structure represents the top-level authority of a security identifier (SID).",
+  "old-location": "ifsk\\sid_identifier_authority.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SID_IDENTIFIER_AUTHORITY structure"
+  ],
+  "ms.keywords": "*PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY structure pointer [Installable File System Drivers], SID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY structure [Installable File System Drivers], _SID_IDENTIFIER_AUTHORITY, ifsk.sid_identifier_authority, ntifs/PSID_IDENTIFIER_AUTHORITY, ntifs/SID_IDENTIFIER_AUTHORITY, securitystructures_d1535875-a778-4b95-b736-e357e5379c19.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY",
+  "f1_keywords": [
+    "_SID_IDENTIFIER_AUTHORITY",
+    "ntifs/_SID_IDENTIFIER_AUTHORITY",
+    "PSID_IDENTIFIER_AUTHORITY",
+    "ntifs/PSID_IDENTIFIER_AUTHORITY",
+    "SID_IDENTIFIER_AUTHORITY",
+    "ntifs/SID_IDENTIFIER_AUTHORITY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SID_IDENTIFIER_AUTHORITY",
+    "PSID_IDENTIFIER_AUTHORITY",
+    "SID_IDENTIFIER_AUTHORITY"
+  ]
+}

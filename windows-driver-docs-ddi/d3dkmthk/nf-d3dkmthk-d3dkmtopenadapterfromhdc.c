@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenAdapterFromHdc(
+  D3DKMT_OPENADAPTERFROMHDC *unnamedParam1
+);

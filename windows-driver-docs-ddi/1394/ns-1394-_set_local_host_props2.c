@@ -1,0 +1,3 @@
+typedef struct _SET_LOCAL_HOST_PROPS2 {
+  ULONG GapCountLowerBound;
+} SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2;

@@ -1,0 +1,4 @@
+void CLUSPROP_PROPERTY_NAME_DECLARE(
+  name,
+  cch
+);

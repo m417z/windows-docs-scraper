@@ -1,0 +1,53 @@
+{
+  "UID": "NS:directml.DML_RANDOM_GENERATOR_OPERATOR_DESC",
+  "title": "DML_RANDOM_GENERATOR_OPERATOR_DESC",
+  "description": "Fills an output tensor with deterministically-generated, pseudo-random, uniformly-distributed bits. This operator optionally may also output an updated internal generator state, which can be used during subsequent executions of the operator.",
+  "helpviewer_keywords": [
+    "DML_RANDOM_GENERATOR_OPERATOR_DESC",
+    "DML_RANDOM_GENERATOR_OPERATOR_DESC structure",
+    "direct3d12.dml_random_generator_operator_desc",
+    "directml/DML_RANDOM_GENERATOR_OPERATOR_DESC"
+  ],
+  "tech.root": "directml",
+  "ms.date": "11/03/2020",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "DML_RANDOM_GENERATOR_OPERATOR_DESC",
+    "directml/DML_RANDOM_GENERATOR_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_RANDOM_GENERATOR_OPERATOR_DESC"
+  ]
+}

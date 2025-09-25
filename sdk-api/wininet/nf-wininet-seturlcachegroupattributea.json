@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wininet.SetUrlCacheGroupAttributeA",
+  "title": "SetUrlCacheGroupAttributeA function (wininet.h)",
+  "description": "Sets the attribute information of the specified cache group. (ANSI)",
+  "helpviewer_keywords": [
+    "SetUrlCacheGroupAttributeA",
+    "wininet/SetUrlCacheGroupAttributeA"
+  ],
+  "old-location": "wininet\\seturlcachegroupattribute.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "dd4e94cd-0fe5-414a-8a43-8777403e8a45",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetUrlCacheGroupAttribute, SetUrlCacheGroupAttribute function [WinINet], SetUrlCacheGroupAttributeA, SetUrlCacheGroupAttributeW, _inet_seturlcachegroupattribute_function, wininet.seturlcachegroupattribute, wininet/SetUrlCacheGroupAttribute, wininet/SetUrlCacheGroupAttributeA, wininet/SetUrlCacheGroupAttributeW",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetUrlCacheGroupAttributeW (Unicode) and SetUrlCacheGroupAttributeA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wininet.lib",
+  "req.dll": "Wininet.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetUrlCacheGroupAttributeA",
+    "wininet/SetUrlCacheGroupAttributeA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wininet.dll"
+  ],
+  "api_name": [
+    "SetUrlCacheGroupAttribute",
+    "SetUrlCacheGroupAttributeA",
+    "SetUrlCacheGroupAttributeW"
+  ]
+}

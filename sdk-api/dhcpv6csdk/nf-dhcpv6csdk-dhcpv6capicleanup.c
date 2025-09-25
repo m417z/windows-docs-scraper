@@ -1,0 +1,1 @@
+VOID Dhcpv6CApiCleanup();

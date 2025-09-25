@@ -1,0 +1,58 @@
+{
+  "UID": "NC:wdstci.PFN_WdsTransportClientSessionComplete",
+  "title": "PFN_WdsTransportClientSessionComplete (wdstci.h)",
+  "description": "The PFN_WdsTransportClientSessionCompete callback is used by the client to indicate that no more callbacks will be sent to the consumer and that the session either completed successfully or encountered a non-recoverable error.",
+  "helpviewer_keywords": [
+    "PFN_WdsTransportClientSessionComplete",
+    "PFN_WdsTransportClientSessionComplete callback",
+    "PFN_WdsTransportClientSessionComplete callback function [Windows Deployment Services]",
+    "wds.pfn_wdstransportclientsessioncomplete",
+    "wdstci/PFN_WdsTransportClientSessionComplete"
+  ],
+  "old-location": "wds\\pfn_wdstransportclientsessioncomplete.htm",
+  "tech.root": "wds",
+  "ms.assetid": "1c7b8137-bf74-486c-a90e-6becfec5ddc8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PFN_WdsTransportClientSessionComplete, PFN_WdsTransportClientSessionComplete callback, PFN_WdsTransportClientSessionComplete callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessioncomplete, wdstci/PFN_WdsTransportClientSessionComplete",
+  "req.header": "wdstci.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PFN_WdsTransportClientSessionComplete",
+    "wdstci/PFN_WdsTransportClientSessionComplete"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdstci.h"
+  ],
+  "api_name": [
+    "PFN_WdsTransportClientSessionComplete"
+  ]
+}

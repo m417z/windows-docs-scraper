@@ -1,0 +1,8 @@
+typedef struct D3D12_RAYTRACING_AABB {
+  FLOAT MinX;
+  FLOAT MinY;
+  FLOAT MinZ;
+  FLOAT MaxX;
+  FLOAT MaxY;
+  FLOAT MaxZ;
+} D3D12_RAYTRACING_AABB;

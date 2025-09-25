@@ -1,0 +1,3 @@
+typedef struct _WS_XML_WRITER_OUTPUT {
+  WS_XML_WRITER_OUTPUT_TYPE outputType;
+} WS_XML_WRITER_OUTPUT;

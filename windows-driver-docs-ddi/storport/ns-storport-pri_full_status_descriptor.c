@@ -1,0 +1,4 @@
+typedef struct {
+  PRI_FULL_STATUS_DESCRIPTOR_HEADER Header;
+  UCHAR                             TransportID[ANYSIZE_ARRAY];
+} PRI_FULL_STATUS_DESCRIPTOR, *PPRI_FULL_STATUS_DESCRIPTOR;

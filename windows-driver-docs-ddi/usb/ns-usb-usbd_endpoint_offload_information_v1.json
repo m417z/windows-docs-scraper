@@ -1,0 +1,54 @@
+{
+  "UID": "NS:usb._USBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+  "tech.root": "usbref",
+  "title": "USBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+  "ms.date": "05/15/2024",
+  "targetos": "Windows",
+  "description": "Stores xHCI-specific V1 information that is used by client drivers to transfer data to and from the offloaded endpoints.",
+  "prerelease": false,
+  "ai-usage": "ai-assisted",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "usb.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "USBD_ENDPOINT_OFFLOAD_INFORMATION_V1, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usb.h"
+  ],
+  "api_name": [
+    "_USBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+    "PUSBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+    "USBD_ENDPOINT_OFFLOAD_INFORMATION_V1"
+  ],
+  "f1_keywords": [
+    "_USBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+    "usb/_USBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+    "PUSBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+    "usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+    "USBD_ENDPOINT_OFFLOAD_INFORMATION_V1",
+    "usb/USBD_ENDPOINT_OFFLOAD_INFORMATION_V1"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_USBD_ENDPOINT_OFFLOAD_INFORMATION_V1"
+  ]
+}

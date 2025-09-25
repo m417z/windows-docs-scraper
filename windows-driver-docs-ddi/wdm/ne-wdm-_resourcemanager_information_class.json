@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdm._RESOURCEMANAGER_INFORMATION_CLASS",
+  "title": "_RESOURCEMANAGER_INFORMATION_CLASS (wdm.h)",
+  "description": "The RESOURCEMANAGER_INFORMATION_CLASS enumeration identifies the type of information that the ZwQueryInformationResourceManager routine can retrieve for a resource manager object.",
+  "old-location": "kernel\\resourcemanager_information_class.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RESOURCEMANAGER_INFORMATION_CLASS enumeration"
+  ],
+  "ms.keywords": "RESOURCEMANAGER_INFORMATION_CLASS, RESOURCEMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ResourceManagerBasicInformation, ResourceManagerCompletionInformation, _RESOURCEMANAGER_INFORMATION_CLASS, kernel.resourcemanager_information_class, ktm_ref_72b34c92-3548-4148-94c2-49f4a66ad4bf.xml, wdm/RESOURCEMANAGER_INFORMATION_CLASS, wdm/ResourceManagerBasicInformation, wdm/ResourceManagerCompletionInformation",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RESOURCEMANAGER_INFORMATION_CLASS",
+  "f1_keywords": [
+    "_RESOURCEMANAGER_INFORMATION_CLASS",
+    "wdm/_RESOURCEMANAGER_INFORMATION_CLASS",
+    "RESOURCEMANAGER_INFORMATION_CLASS",
+    "wdm/RESOURCEMANAGER_INFORMATION_CLASS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_RESOURCEMANAGER_INFORMATION_CLASS",
+    "RESOURCEMANAGER_INFORMATION_CLASS"
+  ]
+}

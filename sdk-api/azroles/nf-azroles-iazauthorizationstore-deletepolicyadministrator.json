@@ -1,0 +1,68 @@
+{
+  "UID": "NF:azroles.IAzAuthorizationStore.DeletePolicyAdministrator",
+  "title": "IAzAuthorizationStore::DeletePolicyAdministrator (azroles.h)",
+  "description": "Removes the specified security identifier (SID) in text form from the list of principals that act as policy administrators.",
+  "helpviewer_keywords": [
+    "AzAuthorizationStore object [Security]",
+    "DeletePolicyAdministrator method",
+    "DeletePolicyAdministrator",
+    "DeletePolicyAdministrator method [Security]",
+    "DeletePolicyAdministrator method [Security]",
+    "AzAuthorizationStore object",
+    "DeletePolicyAdministrator method [Security]",
+    "IAzAuthorizationStore interface",
+    "IAzAuthorizationStore interface [Security]",
+    "DeletePolicyAdministrator method",
+    "IAzAuthorizationStore.DeletePolicyAdministrator",
+    "IAzAuthorizationStore::DeletePolicyAdministrator",
+    "azroles/IAzAuthorizationStore::DeletePolicyAdministrator",
+    "security.azauthorizationstore_deletepolicyadministrator"
+  ],
+  "old-location": "security\\azauthorizationstore_deletepolicyadministrator.htm",
+  "tech.root": "security",
+  "ms.assetid": "c27ca754-7808-4c96-8966-0be3960f2926",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AzAuthorizationStore object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzAuthorizationStore object, DeletePolicyAdministrator method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyAdministrator method, IAzAuthorizationStore.DeletePolicyAdministrator, IAzAuthorizationStore::DeletePolicyAdministrator, azroles/IAzAuthorizationStore::DeletePolicyAdministrator, security.azauthorizationstore_deletepolicyadministrator",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzAuthorizationStore::DeletePolicyAdministrator",
+    "azroles/IAzAuthorizationStore::DeletePolicyAdministrator"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "AzAuthorizationStore.DeletePolicyAdministrator",
+    "IAzAuthorizationStore.DeletePolicyAdministrator"
+  ]
+}

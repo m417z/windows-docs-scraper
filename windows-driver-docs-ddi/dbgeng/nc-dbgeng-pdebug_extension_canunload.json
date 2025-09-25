@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dbgeng.PDEBUG_EXTENSION_CANUNLOAD",
+  "title": "PDEBUG_EXTENSION_CANUNLOAD (dbgeng.h)",
+  "description": "The DebugExtensionCanUnload callback function checks whether a debug extension can unload after the uninitialization call.",
+  "old-location": "debugger\\debugextensioncanunload.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "PDEBUG_EXTENSION_CANUNLOAD callback function"
+  ],
+  "ms.keywords": "DebugExtensionCanUnload, DebugExtensionCanUnload callback function [Windows Debugging], PDEBUG_EXTENSION_CANUNLOAD, PDEBUG_EXTENSION_CANUNLOAD callback, dbgeng/DebugExtensionCanUnload, debugger.debugextensioncanunload",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PDEBUG_EXTENSION_CANUNLOAD",
+    "dbgeng/PDEBUG_EXTENSION_CANUNLOAD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Dbgeng.h"
+  ],
+  "api_name": [
+    "PDEBUG_EXTENSION_CANUNLOAD"
+  ]
+}

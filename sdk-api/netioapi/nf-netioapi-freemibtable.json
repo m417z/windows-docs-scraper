@@ -1,0 +1,57 @@
+{
+  "UID": "NF:netioapi.FreeMibTable",
+  "title": "FreeMibTable function (netioapi.h)",
+  "description": "Frees the buffer allocated by the functions that return tables of network interfaces, addresses, and routes (GetIfTable2 and GetAnycastIpAddressTable, for example).",
+  "helpviewer_keywords": [
+    "FreeMibTable",
+    "FreeMibTable function [IP Helper]",
+    "iphlp.freemibtable",
+    "netioapi/FreeMibTable"
+  ],
+  "old-location": "iphlp\\freemibtable.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "31c8cdc4-73c7-4e82-8226-c90320046199",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FreeMibTable, FreeMibTable function [IP Helper], iphlp.freemibtable, netioapi/FreeMibTable",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FreeMibTable",
+    "netioapi/FreeMibTable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "FreeMibTable"
+  ]
+}

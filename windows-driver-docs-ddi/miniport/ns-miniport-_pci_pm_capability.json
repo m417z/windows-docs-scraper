@@ -1,0 +1,53 @@
+{
+  "UID": "NS:miniport._PCI_PM_CAPABILITY",
+  "title": "PCI_PM_CAPABILITY (miniport.h)",
+  "description": "The _PCI_PM_CAPABILITY structure (miniport.h) contains fields that describe the power management capabilities of the device.",
+  "tech.root": "PCI",
+  "ms.date": "07/20/2022",
+  "keywords": [
+    "PCI_PM_CAPABILITY structure"
+  ],
+  "ms.keywords": "*PPCI_PM_CAPABILITY, PCI.pci_pm_capability, PCI_PM_CAPABILITY, PCI_PM_CAPABILITY structure [Buses], PPCI_PM_CAPABILITY, PPCI_PM_CAPABILITY structure pointer [Buses], _PCI_PM_CAPABILITY, pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, wdm/PCI_PM_CAPABILITY, wdm/PPCI_PM_CAPABILITY",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": "PCI_PM_CAPABILITY, *PPCI_PM_CAPABILITY",
+  "f1_keywords": [
+    "_PCI_PM_CAPABILITY",
+    "miniport/_PCI_PM_CAPABILITY",
+    "PPCI_PM_CAPABILITY",
+    "miniport/PPCI_PM_CAPABILITY",
+    "PCI_PM_CAPABILITY",
+    "miniport/PCI_PM_CAPABILITY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_PCI_PM_CAPABILITY",
+    "PPCI_PM_CAPABILITY",
+    "PCI_PM_CAPABILITY"
+  ]
+}

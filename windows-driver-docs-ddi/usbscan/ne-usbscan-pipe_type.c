@@ -1,0 +1,6 @@
+typedef enum {
+  EVENT_PIPE,
+  READ_DATA_PIPE,
+  WRITE_DATA_PIPE,
+  ALL_PIPE
+} PIPE_TYPE;

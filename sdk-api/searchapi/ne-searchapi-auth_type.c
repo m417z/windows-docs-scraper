@@ -1,0 +1,5 @@
+typedef enum _AUTH_TYPE {
+  eAUTH_TYPE_ANONYMOUS = 0,
+  eAUTH_TYPE_NTLM,
+  eAUTH_TYPE_BASIC
+} AUTH_TYPE;

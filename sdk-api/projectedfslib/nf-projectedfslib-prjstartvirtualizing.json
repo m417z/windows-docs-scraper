@@ -1,0 +1,57 @@
+{
+  "UID": "NF:projectedfslib.PrjStartVirtualizing",
+  "title": "PrjStartVirtualizing function (projectedfslib.h)",
+  "description": "Configures a ProjFS virtualization instance and starts it, making it available to service I/O and invoke callbacks on the provider.",
+  "helpviewer_keywords": [
+    "PrjStartVirtualizing",
+    "PrjStartVirtualizing function",
+    "ProjFS.prjstartvirtualizing",
+    "projectedfslib/PrjStartVirtualizing"
+  ],
+  "old-location": "projfs\\prjstartvirtualizing.htm",
+  "tech.root": "ProjFS",
+  "ms.assetid": "466347B7-1D7D-4C7D-B17C-1E5E1A2223C1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstartvirtualizing, projectedfslib/PrjStartVirtualizing",
+  "req.header": "projectedfslib.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "RS5, 19H1",
+  "f1_keywords": [
+    "PrjStartVirtualizing",
+    "projectedfslib/PrjStartVirtualizing"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "projectedfslib.h"
+  ],
+  "api_name": [
+    "PrjStartVirtualizing"
+  ]
+}

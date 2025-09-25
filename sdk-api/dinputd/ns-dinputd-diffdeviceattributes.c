@@ -1,0 +1,5 @@
+typedef struct DIFFDEVICEATTRIBUTES {
+  DWORD dwFlags;
+  DWORD dwFFSamplePeriod;
+  DWORD dwFFMinTimeResolution;
+} DIFFDEVICEATTRIBUTES, *LPDIFFDEVICEATTRIBUTES;

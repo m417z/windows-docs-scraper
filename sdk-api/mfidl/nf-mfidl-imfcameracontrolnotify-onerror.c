@@ -1,0 +1,3 @@
+void OnError(
+  HRESULT hrStatus
+);

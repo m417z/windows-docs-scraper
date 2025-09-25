@@ -1,0 +1,5 @@
+typedef struct IKEEXT_SA_ENUM_TEMPLATE0_ {
+  FWP_CONDITION_VALUE0 localSubNet;
+  FWP_CONDITION_VALUE0 remoteSubNet;
+  FWP_BYTE_BLOB        localMainModeCertHash;
+} IKEEXT_SA_ENUM_TEMPLATE0;

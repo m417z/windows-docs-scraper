@@ -1,0 +1,58 @@
+{
+  "UID": "NC:resapi.PBEGIN_RESCALL_AS_USER_ROUTINE",
+  "title": "PBEGIN_RESCALL_AS_USER_ROUTINE (resapi.h)",
+  "description": "The PBEGIN_RESCALL_AS_USER_ROUTINE type defines a pointer to this callback function.",
+  "helpviewer_keywords": [
+    "BeginResourceControlAsUser",
+    "BeginResourceControlAsUser callback",
+    "BeginResourceControlAsUser callback function [Failover Cluster]",
+    "PBEGIN_RESCALL_AS_USER_ROUTINE",
+    "PBEGIN_RESCALL_AS_USER_ROUTINE callback function [Failover Cluster]",
+    "mscs.beginresourcecontrolasuser",
+    "resapi/BeginResourceControlAsUser",
+    "resapi/PBEGIN_RESCALL_AS_USER_ROUTINE"
+  ],
+  "old-location": "mscs\\beginresourcecontrolasuser.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "58F065C6-0AE1-481D-ADA0-CF2907CB45DC",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BeginResourceControlAsUser, BeginResourceControlAsUser callback, BeginResourceControlAsUser callback function [Failover Cluster], PBEGIN_RESCALL_AS_USER_ROUTINE, PBEGIN_RESCALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrolasuser, resapi/BeginResourceControlAsUser, resapi/PBEGIN_RESCALL_AS_USER_ROUTINE",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PBEGIN_RESCALL_AS_USER_ROUTINE",
+    "resapi/PBEGIN_RESCALL_AS_USER_ROUTINE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "kbSyntax"
+  ],
+  "api_type": [
+    "<TBD>"
+  ],
+  "api_location": null,
+  "api_name": [
+    "BeginResourceControlAsUser callback"
+  ]
+}

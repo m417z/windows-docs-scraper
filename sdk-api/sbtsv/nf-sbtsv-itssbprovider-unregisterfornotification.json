@@ -1,0 +1,66 @@
+{
+  "UID": "NF:sbtsv.ITsSbProvider.UnRegisterForNotification",
+  "title": "ITsSbProvider::UnRegisterForNotification (sbtsv.h)",
+  "description": "Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.",
+  "helpviewer_keywords": [
+    "ITsSbProvider interface [Remote Desktop Services]",
+    "UnRegisterForNotification method",
+    "ITsSbProvider.UnRegisterForNotification",
+    "ITsSbProvider::UnRegisterForNotification",
+    "TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE",
+    "TSSB_NOTIFY_SESSION_CHANGE",
+    "TSSB_NOTIFY_TARGET_CHANGE",
+    "UnRegisterForNotification",
+    "UnRegisterForNotification method [Remote Desktop Services]",
+    "UnRegisterForNotification method [Remote Desktop Services]",
+    "ITsSbProvider interface",
+    "sbtsv/ITsSbProvider::UnRegisterForNotification",
+    "termserv.itssbprovider_unregisterfornotification"
+  ],
+  "old-location": "termserv\\itssbprovider_unregisterfornotification.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "e2fa297e-9923-4e60-9e6e-caa6e4b8c963",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITsSbProvider interface [Remote Desktop Services],UnRegisterForNotification method, ITsSbProvider.UnRegisterForNotification, ITsSbProvider::UnRegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, UnRegisterForNotification, UnRegisterForNotification method [Remote Desktop Services], UnRegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, sbtsv/ITsSbProvider::UnRegisterForNotification, termserv.itssbprovider_unregisterfornotification",
+  "req.header": "sbtsv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Sbtsv.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITsSbProvider::UnRegisterForNotification",
+    "sbtsv/ITsSbProvider::UnRegisterForNotification"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "sbtsv.h"
+  ],
+  "api_name": [
+    "ITsSbProvider.UnRegisterForNotification"
+  ]
+}

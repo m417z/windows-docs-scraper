@@ -1,0 +1,3 @@
+HRESULT UpdateAccess(
+  [in] MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS *pParam
+);

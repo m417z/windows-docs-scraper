@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._WIM_PROVIDER_EXTERNAL_INFO",
+  "title": "WIM_PROVIDER_EXTERNAL_INFO (ntifs.h)",
+  "description": "Learn more about the WIM_PROVIDER_EXTERNAL_INFO structure.",
+  "tech.root": "ifsk",
+  "ms.date": "07/06/2023",
+  "keywords": [
+    "WIM_PROVIDER_EXTERNAL_INFO structure"
+  ],
+  "ms.keywords": "*PWIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO structure pointer [Installable File System Drivers], WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO structure [Installable File System Drivers], _WIM_PROVIDER_EXTERNAL_INFO, ifsk.wim_provider_external_info, ntifs/PWIM_PROVIDER_EXTERNAL_INFO, ntifs/WIM_PROVIDER_EXTERNAL_INFO",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 Update",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO",
+  "f1_keywords": [
+    "_WIM_PROVIDER_EXTERNAL_INFO",
+    "ntifs/_WIM_PROVIDER_EXTERNAL_INFO",
+    "PWIM_PROVIDER_EXTERNAL_INFO",
+    "ntifs/PWIM_PROVIDER_EXTERNAL_INFO",
+    "WIM_PROVIDER_EXTERNAL_INFO",
+    "ntifs/WIM_PROVIDER_EXTERNAL_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_WIM_PROVIDER_EXTERNAL_INFO",
+    "PWIM_PROVIDER_EXTERNAL_INFO",
+    "WIM_PROVIDER_EXTERNAL_INFO"
+  ]
+}

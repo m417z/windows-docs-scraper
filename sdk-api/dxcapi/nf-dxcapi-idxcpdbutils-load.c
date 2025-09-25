@@ -1,0 +1,3 @@
+HRESULT Load(
+  IDxcBlob *pPdbOrDxil
+);

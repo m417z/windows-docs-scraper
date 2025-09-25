@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortRegisterBugcheckCallback",
+  "title": "VideoPortRegisterBugcheckCallback function (video.h)",
+  "description": "The VideoPortRegisterBugcheckCallback function allows a video miniport driver to register for, or hook, a callback that is invoked when a specified bug check occurs.",
+  "old-location": "display\\videoportregisterbugcheckcallback.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortRegisterBugcheckCallback function"
+  ],
+  "ms.keywords": "VideoPortRegisterBugcheckCallback, VideoPortRegisterBugcheckCallback function [Display Devices], VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, display.videoportregisterbugcheckcallback, video/VideoPortRegisterBugcheckCallback",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP SP1 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortRegisterBugcheckCallback",
+    "video/VideoPortRegisterBugcheckCallback"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortRegisterBugcheckCallback"
+  ]
+}

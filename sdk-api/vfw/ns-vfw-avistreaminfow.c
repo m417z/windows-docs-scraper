@@ -1,0 +1,20 @@
+typedef struct _AVISTREAMINFOW {
+  DWORD fccType;
+  DWORD fccHandler;
+  DWORD dwFlags;
+  DWORD dwCaps;
+  WORD  wPriority;
+  WORD  wLanguage;
+  DWORD dwScale;
+  DWORD dwRate;
+  DWORD dwStart;
+  DWORD dwLength;
+  DWORD dwInitialFrames;
+  DWORD dwSuggestedBufferSize;
+  DWORD dwQuality;
+  DWORD dwSampleSize;
+  RECT  rcFrame;
+  DWORD dwEditCount;
+  DWORD dwFormatChangeCount;
+  WCHAR szName[64];
+} AVISTREAMINFOW, *LPAVISTREAMINFOW;

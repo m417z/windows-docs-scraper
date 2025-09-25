@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wincrypt.CryptSetProviderA",
+  "title": "CryptSetProviderA function (wincrypt.h)",
+  "description": "Specifies the current user's default cryptographic service provider (CSP). (ANSI)",
+  "helpviewer_keywords": [
+    "CryptSetProviderA",
+    "wincrypt/CryptSetProviderA"
+  ],
+  "old-location": "security\\cryptsetprovider.htm",
+  "tech.root": "security",
+  "ms.assetid": "44023a0c-3fb4-4746-a676-1671c3ad901b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CryptSetProviderW (Unicode) and CryptSetProviderA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptSetProviderA",
+    "wincrypt/CryptSetProviderA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-Security-cryptoapi-l1-1-0.dll",
+    "cryptsp.dll"
+  ],
+  "api_name": [
+    "CryptSetProvider",
+    "CryptSetProviderA",
+    "CryptSetProviderW"
+  ]
+}

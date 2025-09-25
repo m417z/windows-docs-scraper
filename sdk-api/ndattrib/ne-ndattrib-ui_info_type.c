@@ -1,0 +1,7 @@
+typedef enum __MIDL___MIDL_itf_ndattrib_0000_0000_0003 {
+  UIT_INVALID = 0,
+  UIT_NONE = 1,
+  UIT_SHELL_COMMAND,
+  UIT_HELP_PANE,
+  UIT_DUI
+} UI_INFO_TYPE;

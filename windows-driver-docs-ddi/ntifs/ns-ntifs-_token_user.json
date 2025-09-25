@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_USER",
+  "title": "TOKEN_USER (ntifs.h)",
+  "description": "TOKEN_USER identifies the user associated with an access token.",
+  "old-location": "ifsk\\token_user.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "TOKEN_USER structure"
+  ],
+  "ms.keywords": "*PTOKEN_USER, PTOKEN_USER, PTOKEN_USER structure pointer [Installable File System Drivers], TOKEN_USER, TOKEN_USER structure [Installable File System Drivers], _TOKEN_USER, ifsk.token_user, ntifs/PTOKEN_USER, ntifs/TOKEN_USER, securitystructures_0e952505-1e51-463e-ba92-c6995e6f107a.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_USER, *PTOKEN_USER",
+  "f1_keywords": [
+    "_TOKEN_USER",
+    "ntifs/_TOKEN_USER",
+    "PTOKEN_USER",
+    "ntifs/PTOKEN_USER",
+    "TOKEN_USER",
+    "ntifs/TOKEN_USER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_USER",
+    "PTOKEN_USER",
+    "TOKEN_USER"
+  ]
+}

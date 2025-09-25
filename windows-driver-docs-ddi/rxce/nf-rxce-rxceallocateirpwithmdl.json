@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxce.RxCeAllocateIrpWithMDL",
+  "title": "RxCeAllocateIrpWithMDL function (rxce.h)",
+  "description": "RxCeAllocateIrpWithMDL allocates an IRP and associates it with an existing memory descriptor list.",
+  "old-location": "ifsk\\rxceallocateirpwithmdl.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCeAllocateIrpWithMDL function"
+  ],
+  "ms.keywords": "RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers], ifsk.rxceallocateirpwithmdl, rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml",
+  "req.header": "rxce.h",
+  "req.include-header": "Rxce.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "The RxCeAllocateIrpWithMDL routine is only available on Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCeAllocateIrpWithMDL",
+    "rxce/RxCeAllocateIrpWithMDL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxce.h"
+  ],
+  "api_name": [
+    "RxCeAllocateIrpWithMDL"
+  ]
+}

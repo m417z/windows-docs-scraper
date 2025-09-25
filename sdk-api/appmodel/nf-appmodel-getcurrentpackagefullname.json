@@ -1,0 +1,67 @@
+{
+  "UID": "NF:appmodel.GetCurrentPackageFullName",
+  "title": "GetCurrentPackageFullName function (appmodel.h)",
+  "description": "Gets the package full name for the calling process.",
+  "helpviewer_keywords": [
+    "GetCurrentPackageFullName",
+    "GetCurrentPackageFullName function [App packaging and management]",
+    "appmodel/GetCurrentPackageFullName",
+    "appxpkg.getcurrentpackagefullname"
+  ],
+  "old-location": "appxpkg\\getcurrentpackagefullname.htm",
+  "tech.root": "appxpkg",
+  "ms.assetid": "D5B00C53-1FBF-4245-92D1-FA39713A9EE7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCurrentPackageFullName, GetCurrentPackageFullName function [App packaging and management], appmodel/GetCurrentPackageFullName, appxpkg.getcurrentpackagefullname",
+  "req.header": "appmodel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetCurrentPackageFullName",
+    "appmodel/GetCurrentPackageFullName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "api-ms-win-appmodel-runtime-l1-1-4.dll",
+    "api-ms-win-appmodel-runtime-l1-1-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-AppModel-Runtime-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "Kernel.AppCore.dll",
+    "API-MS-Win-AppModel-RunTime-l1-1-1.dll",
+    "API-MS-Win-AppModel-Runtime-L1-1-2.dll"
+  ],
+  "api_name": [
+    "GetCurrentPackageFullName"
+  ]
+}

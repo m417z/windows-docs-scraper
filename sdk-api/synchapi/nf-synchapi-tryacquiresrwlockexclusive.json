@@ -1,0 +1,65 @@
+{
+  "UID": "NF:synchapi.TryAcquireSRWLockExclusive",
+  "title": "TryAcquireSRWLockExclusive function (synchapi.h)",
+  "description": "Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock.",
+  "helpviewer_keywords": [
+    "TryAcquireSRWLockExclusive",
+    "TryAcquireSRWLockExclusive function",
+    "base.tryacquiresrwlockexclusive",
+    "synchapi/TryAcquireSRWLockExclusive",
+    "winbase/TryAcquireSRWLockExclusive"
+  ],
+  "old-location": "base\\tryacquiresrwlockexclusive.htm",
+  "tech.root": "base",
+  "ms.assetid": "0de41cb0-5b37-4ac7-9ba2-e9e3d69e34af",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "TryAcquireSRWLockExclusive, TryAcquireSRWLockExclusive function, base.tryacquiresrwlockexclusive, synchapi/TryAcquireSRWLockExclusive, winbase/TryAcquireSRWLockExclusive",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TryAcquireSRWLockExclusive",
+    "synchapi/TryAcquireSRWLockExclusive"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "TryAcquireSRWLockExclusive"
+  ]
+}

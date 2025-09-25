@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdmatransaction.EVT_WDF_RESERVE_DMA",
+  "title": "EVT_WDF_RESERVE_DMA (wdfdmatransaction.h)",
+  "description": "The EvtReserveDma event callback function is called when the framework has reserved resources to execute and release a transaction. Reserved resources include map registers and the WDM DMA adapter's lock.",
+  "old-location": "wdf\\evtreservedma.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_RESERVE_DMA callback function"
+  ],
+  "ms.keywords": "EVT_WDF_RESERVE_DMA, EVT_WDF_RESERVE_DMA callback, EvtReserveDma, EvtReserveDma callback function, kmdf.evtreservedma, wdf.evtreservedma, wdfdmatransaction/EvtReserveDma",
+  "req.header": "wdfdmatransaction.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_RESERVE_DMA",
+    "wdfdmatransaction/EVT_WDF_RESERVE_DMA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WdfDmaTransaction.h"
+  ],
+  "api_name": [
+    "EVT_WDF_RESERVE_DMA"
+  ]
+}

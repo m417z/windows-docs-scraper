@@ -1,0 +1,31 @@
+typedef struct _HW_INITIALIZATION_DATA {
+  ULONG               HwInitializationDataSize;
+  INTERFACE_TYPE      AdapterInterfaceType;
+  PHW_INITIALIZE      HwInitialize;
+  PHW_STARTIO         HwStartIo;
+  PHW_INTERRUPT       HwInterrupt;
+  PHW_FIND_ADAPTER    HwFindAdapter;
+  PHW_RESET_BUS       HwResetBus;
+  PHW_DMA_STARTED     HwDmaStarted;
+  PHW_ADAPTER_STATE   HwAdapterState;
+  ULONG               DeviceExtensionSize;
+  ULONG               SpecificLuExtensionSize;
+  ULONG               SrbExtensionSize;
+  ULONG               NumberOfAccessRanges;
+  PVOID               Reserved;
+  BOOLEAN             MapBuffers;
+  BOOLEAN             NeedPhysicalAddresses;
+  BOOLEAN             TaggedQueuing;
+  BOOLEAN             AutoRequestSense;
+  BOOLEAN             MultipleRequestPerLu;
+  BOOLEAN             ReceiveEvent;
+  USHORT              VendorIdLength;
+  PVOID               VendorId;
+  union {
+    USHORT ReservedUshort;
+    USHORT PortVersionFlags;
+  };
+  USHORT              DeviceIdLength;
+  PVOID               DeviceId;
+  PHW_ADAPTER_CONTROL HwAdapterControl;
+} HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA;

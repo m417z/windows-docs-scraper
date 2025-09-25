@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMClientConnections.GetClientCount",
+  "title": "IWMClientConnections::GetClientCount (wmsdkidl.h)",
+  "description": "The GetClientCount method retrieves the number of connected clients.",
+  "helpviewer_keywords": [
+    "GetClientCount",
+    "GetClientCount method [windows Media Format]",
+    "GetClientCount method [windows Media Format]",
+    "IWMClientConnections interface",
+    "IWMClientConnections interface [windows Media Format]",
+    "GetClientCount method",
+    "IWMClientConnections.GetClientCount",
+    "IWMClientConnections::GetClientCount",
+    "IWMClientConnectionsGetClientCount",
+    "wmformat.iwmclientconnections_getclientcount",
+    "wmsdkidl/IWMClientConnections::GetClientCount"
+  ],
+  "old-location": "wmformat\\iwmclientconnections_getclientcount.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "208b40cd-c138-4311-8702-18a61713b71a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetClientCount, GetClientCount method [windows Media Format], GetClientCount method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientCount method, IWMClientConnections.GetClientCount, IWMClientConnections::GetClientCount, IWMClientConnectionsGetClientCount, wmformat.iwmclientconnections_getclientcount, wmsdkidl/IWMClientConnections::GetClientCount",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMClientConnections::GetClientCount",
+    "wmsdkidl/IWMClientConnections::GetClientCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMClientConnections.GetClientCount"
+  ]
+}

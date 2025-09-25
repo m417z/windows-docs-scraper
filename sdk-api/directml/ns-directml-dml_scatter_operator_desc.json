@@ -1,0 +1,47 @@
+{
+  "UID": "NS:directml.DML_SCATTER_OPERATOR_DESC",
+  "title": "DML_SCATTER_OPERATOR_DESC (DML_SCATTER_ELEMENTS_OPERATOR_DESC)",
+  "description": "Copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor. (DML_SCATTER_OPERATOR_DESC)",
+  "tech.root": "directml",
+  "ms.date": "11/04/2020",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_SCATTER_OPERATOR_DESC"
+  ],
+  "f1_keywords": [
+    "DML_SCATTER_OPERATOR_DESC",
+    "directml/DML_SCATTER_OPERATOR_DESC"
+  ]
+}

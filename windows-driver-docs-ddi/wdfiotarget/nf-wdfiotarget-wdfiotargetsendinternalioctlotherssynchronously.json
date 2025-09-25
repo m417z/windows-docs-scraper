@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfiotarget.WdfIoTargetSendInternalIoctlOthersSynchronously",
+  "title": "WdfIoTargetSendInternalIoctlOthersSynchronously function (wdfiotarget.h)",
+  "description": "The WdfIoTargetSendInternalIoctlOthersSynchronously method builds a non-standard internal device control request and sends it synchronously to an I/O target.",
+  "old-location": "wdf\\wdfiotargetsendinternalioctlotherssynchronously.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfIoTargetSendInternalIoctlOthersSynchronously function"
+  ],
+  "ms.keywords": "DFIOTargetRef_78072360-08c2-4a51-be52-8e00425c5ba2.xml, WdfIoTargetSendInternalIoctlOthersSynchronously, WdfIoTargetSendInternalIoctlOthersSynchronously method, kmdf.wdfiotargetsendinternalioctlotherssynchronously, wdf.wdfiotargetsendinternalioctlotherssynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlOthersSynchronously",
+  "req.header": "wdfiotarget.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DeferredRequestCompleted, DriverCreate, IoctlReqs, KmdfIrql, KmdfIrql2, ReadReqs, RequestCompleted, RequestCompletedLocal, WriteReqs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfIoTargetSendInternalIoctlOthersSynchronously",
+    "wdfiotarget/WdfIoTargetSendInternalIoctlOthersSynchronously"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfIoTargetSendInternalIoctlOthersSynchronously"
+  ]
+}

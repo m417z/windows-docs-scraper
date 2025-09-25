@@ -1,0 +1,50 @@
+{
+  "UID": "NE:pointofservicedriverinterface._PosEventType",
+  "title": "PosEventType (pointofservicedriverinterface.h)",
+  "description": "This enumeration defines values used in the PosEventDataHeader structure to indicate the type of event that was raised.",
+  "tech.root": "pos",
+  "ms.date": "04/19/2022",
+  "keywords": [
+    "PosEventType enumeration"
+  ],
+  "ms.keywords": "AlarmTimeoutExpired, BarcodeScannerDataReceived, BarcodeScannerErrorOccurred, BarcodeScannerImagePreviewReceived, BarcodeScannerTriggerPressed, BarcodeScannerTriggerReleased, DrawerClosed, DrawerOpened, InvalidEvent, MagneticStripeReaderDataReceived, MagneticStripeReaderErrorOccurred, PointOfServicePrinterErrorOccurred, PosEventType, PosEventType enumeration, ReleaseDeviceRequested, StatusUpdated, _Max, _PosEventType, pointofservicedriverinterface/AlarmTimeoutExpired, pointofservicedriverinterface/BarcodeScannerDataReceived, pointofservicedriverinterface/BarcodeScannerErrorOccurred, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/BarcodeScannerTriggerPressed, pointofservicedriverinterface/BarcodeScannerTriggerReleased, pointofservicedriverinterface/DrawerClosed, pointofservicedriverinterface/DrawerOpened, pointofservicedriverinterface/InvalidEvent, pointofservicedriverinterface/MagneticStripeReaderDataReceived, pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, pointofservicedriverinterface/PosEventType, pointofservicedriverinterface/ReleaseDeviceRequested, pointofservicedriverinterface/StatusUpdated, pointofservicedriverinterface/_Max, pos.poseventtype",
+  "req.header": "pointofservicedriverinterface.h",
+  "req.include-header": "Pointofservicedriverinterface.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PosEventType",
+  "f1_keywords": [
+    "_PosEventType",
+    "pointofservicedriverinterface/_PosEventType",
+    "PosEventType",
+    "pointofservicedriverinterface/PosEventType"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pointofservicedriverinterface.h"
+  ],
+  "api_name": [
+    "_PosEventType",
+    "PosEventType"
+  ]
+}

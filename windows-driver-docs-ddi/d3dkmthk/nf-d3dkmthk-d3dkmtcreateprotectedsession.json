@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTCreateProtectedSession",
+  "title": "D3DKMTCreateProtectedSession function (d3dkmthk.h)",
+  "description": "The D3DKMTCreateProtectedSession function creates a protected session and returns STATUS_SUCCESS on successful completion.",
+  "old-location": "display\\d3dkmtcreateprotectedsession.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTCreateProtectedSession function"
+  ],
+  "ms.keywords": "D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession method [Display Devices], d3dkmthk/D3DKMTCreateProtectedSession, display.d3dkmtcreateprotectedsession",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTCreateProtectedSession",
+    "d3dkmthk/D3DKMTCreateProtectedSession"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTCreateProtectedSession"
+  ]
+}

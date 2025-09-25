@@ -1,0 +1,45 @@
+{
+  "UID": "NS:netpacketqueue._NET_PACKET_QUEUE_CONFIG",
+  "title": "_NET_PACKET_QUEUE_CONFIG (netpacketqueue.h)",
+  "description": "The NET_PACKET_QUEUE_CONFIG structure describes the configuration options for a NetAdapterCx client driver's packet queue.",
+  "tech.root": "netvista",
+  "ms.date": "03/23/2022",
+  "keywords": [
+    "NET_PACKET_QUEUE_CONFIG structure"
+  ],
+  "ms.keywords": "_NET_PACKET_QUEUE_CONFIG, NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG,",
+  "req.header": "netpacketqueue.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_NET_PACKET_QUEUE_CONFIG",
+    "netpacketqueue/_NET_PACKET_QUEUE_CONFIG",
+    "NET_PACKET_QUEUE_CONFIG",
+    "netpacketqueue/NET_PACKET_QUEUE_CONFIG"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netpacketqueue.h"
+  ],
+  "api_name": [
+    "_NET_PACKET_QUEUE_CONFIG",
+    "NET_PACKET_QUEUE_CONFIG"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:bcrypt.BCryptDecrypt",
+  "title": "BCryptDecrypt function (bcrypt.h)",
+  "description": "Decrypts a block of data.",
+  "helpviewer_keywords": [
+    "BCRYPT_BLOCK_PADDING",
+    "BCRYPT_PAD_NONE",
+    "BCRYPT_PAD_OAEP",
+    "BCRYPT_PAD_PKCS1",
+    "BCryptDecrypt",
+    "BCryptDecrypt function [Security]",
+    "bcrypt/BCryptDecrypt",
+    "security.bcryptdecrypt_func"
+  ],
+  "old-location": "security\\bcryptdecrypt_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "62286f6b-0d57-4691-83fc-2b9a9740af71",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptDecrypt, BCryptDecrypt function [Security], bcrypt/BCryptDecrypt, security.bcryptdecrypt_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptDecrypt",
+    "bcrypt/BCryptDecrypt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptDecrypt"
+  ]
+}

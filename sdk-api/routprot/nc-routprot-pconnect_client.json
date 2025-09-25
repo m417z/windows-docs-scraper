@@ -1,0 +1,60 @@
+{
+  "UID": "NC:routprot.PCONNECT_CLIENT",
+  "title": "PCONNECT_CLIENT (routprot.h)",
+  "description": "The router manager calls the ConnectClient function when a client connects to an interface on which the routing protocol is running.",
+  "helpviewer_keywords": [
+    "ConnectClient",
+    "ConnectClient callback function [RAS]",
+    "PCONNECT_CLIENT",
+    "PCONNECT_CLIENT callback",
+    "_mpr_connectclient",
+    "routprot/ConnectClient",
+    "rras.connectclient"
+  ],
+  "old-location": "rras\\connectclient.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "548d8411-ca03-4316-9adb-3b4b48a740d9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIENT, PCONNECT_CLIENT callback, _mpr_connectclient, routprot/ConnectClient, rras.connectclient",
+  "req.header": "routprot.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PCONNECT_CLIENT",
+    "routprot/PCONNECT_CLIENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Routprot.h"
+  ],
+  "api_name": [
+    "ConnectClient"
+  ]
+}

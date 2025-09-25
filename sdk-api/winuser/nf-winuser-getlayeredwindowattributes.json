@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winuser.GetLayeredWindowAttributes",
+  "title": "GetLayeredWindowAttributes function (winuser.h)",
+  "description": "Retrieves the opacity and transparency color key of a layered window.",
+  "helpviewer_keywords": [
+    "GetLayeredWindowAttributes",
+    "GetLayeredWindowAttributes function [Windows and Messages]",
+    "LWA_ALPHA",
+    "LWA_COLORKEY",
+    "_win32_GetLayeredWindowAttributes",
+    "_win32_getlayeredwindowattributes_cpp",
+    "winmsg.getlayeredwindowattributes",
+    "winui._win32_getlayeredwindowattributes",
+    "winuser/GetLayeredWindowAttributes"
+  ],
+  "old-location": "winmsg\\getlayeredwindowattributes.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windows\\windowreference\\windowfunctions\\getlayeredwindowattributes.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetLayeredWindowAttributes, GetLayeredWindowAttributes function [Windows and Messages], LWA_ALPHA, LWA_COLORKEY, _win32_GetLayeredWindowAttributes, _win32_getlayeredwindowattributes_cpp, winmsg.getlayeredwindowattributes, winui._win32_getlayeredwindowattributes, winuser/GetLayeredWindowAttributes",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetLayeredWindowAttributes",
+    "winuser/GetLayeredWindowAttributes"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Window-l1-1-1.dll",
+    "Ext-MS-Win-NTUser-Window-l1-1-2.dll",
+    "ext-ms-win-ntuser-window-l1-1-3.dll",
+    "Ext-MS-Win-NTUser-Window-L1-1-4.dll"
+  ],
+  "api_name": [
+    "GetLayeredWindowAttributes"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)"
+}

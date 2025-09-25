@@ -1,0 +1,50 @@
+{
+  "UID": "NF:cfgmgr32.CM_Request_Device_EjectA",
+  "tech.root": "devinst",
+  "title": "CM_Request_Device_EjectA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "The CM_Request_Device_Eject function prepares a local device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be. (ANSI)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "cfgmgr32.h",
+  "req.idl": null,
+  "req.include-header": "Cfgmgr32.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Desktop",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Cfgmgr32.lib",
+    "Cfgmgr32.dll"
+  ],
+  "api_name": [
+    "CM_Request_Device_EjectA",
+    "CM_Request_Device_Eject"
+  ],
+  "f1_keywords": [
+    "CM_Request_Device_EjectA",
+    "cfgmgr32/CM_Request_Device_EjectA",
+    "CM_Request_Device_Eject",
+    "cfgmgr32/CM_Request_Device_Eject"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

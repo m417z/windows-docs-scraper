@@ -1,0 +1,3 @@
+PORTCLASSAPI ULONGLONG PcGetTimeInterval(
+  [in] ULONGLONG Since
+);

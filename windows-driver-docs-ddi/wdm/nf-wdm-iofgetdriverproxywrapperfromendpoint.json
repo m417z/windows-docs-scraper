@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdm.IofGetDriverProxyWrapperFromEndpoint",
+  "tech.root": "kernel",
+  "title": "IofGetDriverProxyWrapperFromEndpoint",
+  "ms.date": "09/11/2025",
+  "targetos": "Windows",
+  "description": "Gets the wrapper for an endpoint function using the endpoint function pointer.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Any level",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IofGetDriverProxyWrapperFromEndpoint"
+  ],
+  "f1_keywords": [
+    "IofGetDriverProxyWrapperFromEndpoint",
+    "wdm/IofGetDriverProxyWrapperFromEndpoint"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IofGetDriverProxyWrapperFromEndpoint"
+  ],
+  "ai-usage": "ai-assisted"
+}

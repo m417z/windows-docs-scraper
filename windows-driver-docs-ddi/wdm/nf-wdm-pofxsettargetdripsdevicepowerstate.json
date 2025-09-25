@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.PoFxSetTargetDripsDevicePowerState",
+  "title": "PoFxSetTargetDripsDevicePowerState function (wdm.h)",
+  "description": "This routine is called to notify the power manager of the device's target device power state for DRIPS. The driver can override the DRIPS constraint provided by the PEP.",
+  "old-location": "kernel\\pofxsettargetdripsdevicepowerstate.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PoFxSetTargetDripsDevicePowerState function"
+  ],
+  "ms.keywords": "PoFxSetTargetDripsDevicePowerState, PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], kernel.pofxsettargetdripsdevicepowerstate, wdm/PoFxSetTargetDripsDevicePowerState",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode)",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PoFxSetTargetDripsDevicePowerState",
+    "wdm/PoFxSetTargetDripsDevicePowerState"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "PoFxSetTargetDripsDevicePowerState"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _PERF_MULTI_COUNTERS {
+  ULONG dwSize;
+  ULONG dwCounters;
+} PERF_MULTI_COUNTERS, *PPERF_MULTI_COUNTERS;

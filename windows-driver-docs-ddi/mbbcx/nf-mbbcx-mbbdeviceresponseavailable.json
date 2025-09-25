@@ -1,0 +1,46 @@
+{
+  "UID": "NF:mbbcx.MbbDeviceResponseAvailable",
+  "title": "MbbDeviceResponseAvailable function (mbbcx.h)",
+  "description": "A client driver calls the MbbDeviceResponseAvailable method when there is an MBIM control message ready from the device, as the response to a previous MBIM control message sent to the device from the MBBCx framework.",
+  "tech.root": "netvista",
+  "ms.date": "06/29/2018",
+  "keywords": [
+    "MbbDeviceResponseAvailable function"
+  ],
+  "ms.keywords": "MbbDeviceResponseAvailable",
+  "req.header": "mbbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": null,
+  "req.lib": "mbbcxstub.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "MbbDeviceResponseAvailable",
+    "mbbcx/MbbDeviceResponseAvailable"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "mbbcxstub.lib"
+  ],
+  "api_name": [
+    "MbbDeviceResponseAvailable"
+  ]
+}

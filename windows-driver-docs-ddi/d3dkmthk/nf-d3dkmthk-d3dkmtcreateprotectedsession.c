@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateProtectedSession(
+  D3DKMT_CREATEPROTECTEDSESSION *unnamedParam1
+);

@@ -1,0 +1,7 @@
+typedef enum _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS {
+  NetAdapterAutoNegotiationFlagNone = 0x00000000,
+  NetAdapterAutoNegotiationFlagXmitLinkSpeedAutoNegotiated = 0x00000001,
+  NetAdapterAutoNegotiationFlagRcvLinkSpeedautoNegotiated = 0x00000002,
+  NetAdapterAutoNegotiationFlagDuplexAutoNegotiated = 0x00000004,
+  NetAdapterAutoNegotiationFlagPauseFunctionsAutoNegotiated = 0x00000008
+} NET_ADAPTER_AUTO_NEGOTIATION_FLAGS;

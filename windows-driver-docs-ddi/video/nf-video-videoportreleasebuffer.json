@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortReleaseBuffer",
+  "title": "VideoPortReleaseBuffer function (video.h)",
+  "description": "The VideoPortReleaseBuffer function is obsolete in Windows 2000 and later. In its place, video miniport drivers should instead use VideoPortFreePool. VideoPortReleaseBuffer deallocates a block of paged pool memory.",
+  "old-location": "display\\videoportreleasebuffer.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortReleaseBuffer function"
+  ],
+  "ms.keywords": "VideoPortReleaseBuffer, VideoPortReleaseBuffer function [Display Devices], VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, display.videoportreleasebuffer, video/VideoPortReleaseBuffer",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortReleaseBuffer",
+    "video/VideoPortReleaseBuffer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortReleaseBuffer"
+  ]
+}

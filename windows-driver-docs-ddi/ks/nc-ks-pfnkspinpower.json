@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ks.PFNKSPINPOWER",
+  "title": "PFNKSPINPOWER (ks.h)",
+  "description": "An AVStream minidriver's AVStrMiniPinPower routine is called for pin-centric pins when the device is waking or entering a sleep state.",
+  "tech.root": "stream",
+  "ms.date": "11/16/2022",
+  "keywords": [
+    "PFNKSPINPOWER callback function"
+  ],
+  "ms.keywords": "AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], PFNKSPINPOWER, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml, ks/AVStrMiniPinPower, stream.avstrminipinpower",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSPINPOWER",
+    "ks/PFNKSPINPOWER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSPINPOWER"
+  ]
+}

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTWaitForSynchronizationObjectFromGpu(
+  [in] const D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU *unnamedParam1
+);

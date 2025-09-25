@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltSetIoPriorityHintIntoFileObject",
+  "title": "FltSetIoPriorityHintIntoFileObject function (fltkernel.h)",
+  "description": "The FltSetIoPriorityHintIntoFileObject routine is used by a minifilter driver to set the I/O priority information in a file object.",
+  "old-location": "ifsk\\fltsetiopriorityhintintofileobject.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltSetIoPriorityHintIntoFileObject function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_981cae2b-b29c-4890-a462-163031a668d3.xml, FltSetIoPriorityHintIntoFileObject, FltSetIoPriorityHintIntoFileObject routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoFileObject, ifsk.fltsetiopriorityhintintofileobject",
+  "req.header": "fltkernel.h",
+  "req.include-header": "FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltSetIoPriorityHintIntoFileObject",
+    "fltkernel/FltSetIoPriorityHintIntoFileObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltSetIoPriorityHintIntoFileObject"
+  ]
+}

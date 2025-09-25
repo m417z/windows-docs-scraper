@@ -1,0 +1,3 @@
+typedef enum MFTIMER_FLAGS {
+  MFTIMER_RELATIVE = 0x1
+} ;

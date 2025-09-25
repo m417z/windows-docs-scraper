@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wsk.PFN_WSK_CLOSE_SOCKET",
+  "title": "PFN_WSK_CLOSE_SOCKET (wsk.h)",
+  "description": "The WskCloseSocket function closes a socket and frees any associated resources.",
+  "old-location": "netvista\\wskclosesocket.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PFN_WSK_CLOSE_SOCKET callback function"
+  ],
+  "ms.keywords": "PFN_WSK_CLOSE_SOCKET, PFN_WSK_CLOSE_SOCKET callback, WskCloseSocket, WskCloseSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskclosesocket, wsk/WskCloseSocket, wskref_c8c37dfe-294f-4a40-9b3a-f4ca609ad4d8.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_WSK_CLOSE_SOCKET",
+    "wsk/PFN_WSK_CLOSE_SOCKET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wsk.h"
+  ],
+  "api_name": [
+    "PFN_WSK_CLOSE_SOCKET"
+  ]
+}

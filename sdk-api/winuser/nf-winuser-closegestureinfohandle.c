@@ -1,0 +1,3 @@
+BOOL CloseGestureInfoHandle(
+  HGESTUREINFO hGestureInfo
+);

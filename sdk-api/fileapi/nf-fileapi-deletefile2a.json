@@ -1,0 +1,54 @@
+{
+  "UID": "NF:fileapi.DeleteFile2A",
+  "tech.root": "fs",
+  "title": "DeleteFile2A function (fileapi.h)",
+  "ms.date": "04/10/2025",
+  "targetos": "Windows",
+  "description": "Deletes an existing file. (ANSI)",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "fileapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 24H2 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2025 [desktop apps \\| UWP apps]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "fileapi.h"
+  ],
+  "api_name": [
+    "DeleteFile2A",
+    "DeleteFile2"
+  ],
+  "f1_keywords": [
+    "DeleteFile2A",
+    "fileapi/DeleteFile2A",
+    "DeleteFile2",
+    "fileapi/DeleteFile2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DeleteFile2A"
+  ]
+}

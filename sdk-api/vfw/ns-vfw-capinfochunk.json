@@ -1,0 +1,64 @@
+{
+  "UID": "NS:vfw.tagCapInfoChunk",
+  "title": "CAPINFOCHUNK (vfw.h)",
+  "description": "The CAPINFOCHUNK structure contains parameters that can be used to define an information chunk within an AVI capture file. The WM_CAP_FILE_SET_INFOCHUNK message or capSetInfoChunk macro is used to send a CAPINFOCHUNK structure to a capture window.",
+  "helpviewer_keywords": [
+    "*LPCAPINFOCHUNK",
+    "*PCAPINFOCHUNK",
+    "CAPINFOCHUNK",
+    "CAPINFOCHUNK structure [Windows Multimedia]",
+    "_win32_CAPINFOCHUNK_str",
+    "multimedia.capinfochunk",
+    "vfw/CAPINFOCHUNK"
+  ],
+  "old-location": "multimedia\\capinfochunk.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "7dbe8209-73c3-4eab-965e-91b94f77f0a7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPCAPINFOCHUNK, *PCAPINFOCHUNK, CAPINFOCHUNK, CAPINFOCHUNK structure [Windows Multimedia], _win32_CAPINFOCHUNK_str, multimedia.capinfochunk, vfw/CAPINFOCHUNK",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CAPINFOCHUNK, *PCAPINFOCHUNK, *LPCAPINFOCHUNK",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagCapInfoChunk",
+    "vfw/tagCapInfoChunk",
+    "PCAPINFOCHUNK",
+    "vfw/PCAPINFOCHUNK",
+    "CAPINFOCHUNK",
+    "vfw/CAPINFOCHUNK"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "CAPINFOCHUNK"
+  ]
+}

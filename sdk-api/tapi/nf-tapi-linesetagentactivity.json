@@ -1,0 +1,58 @@
+{
+  "UID": "NF:tapi.lineSetAgentActivity",
+  "title": "lineSetAgentActivity function (tapi.h)",
+  "description": "The lineSetAgentActivity function sets the agent activity code associated with a particular address.",
+  "helpviewer_keywords": [
+    "_tapi2_linesetagentactivity",
+    "lineSetAgentActivity",
+    "lineSetAgentActivity function [TAPI 2.2]",
+    "tapi/lineSetAgentActivity",
+    "tapi2.linesetagentactivity"
+  ],
+  "old-location": "tapi2\\linesetagentactivity.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "2c46e1cb-e2d7-4cb5-b937-55011058fd15",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_tapi2_linesetagentactivity, lineSetAgentActivity, lineSetAgentActivity function [TAPI 2.2], tapi/lineSetAgentActivity, tapi2.linesetagentactivity",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineSetAgentActivity",
+    "tapi/lineSetAgentActivity"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineSetAgentActivity"
+  ]
+}

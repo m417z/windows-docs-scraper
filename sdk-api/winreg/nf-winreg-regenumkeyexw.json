@@ -1,0 +1,70 @@
+{
+  "UID": "NF:winreg.RegEnumKeyExW",
+  "title": "RegEnumKeyExW function (winreg.h)",
+  "description": "Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called. (Unicode)",
+  "helpviewer_keywords": [
+    "RegEnumKeyEx",
+    "RegEnumKeyEx function",
+    "RegEnumKeyExW",
+    "_win32_regenumkeyex",
+    "base.regenumkeyex",
+    "winreg/RegEnumKeyEx",
+    "winreg/RegEnumKeyExW"
+  ],
+  "old-location": "base\\regenumkeyex.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "647d34cc-01ba-4389-be29-b099ed198e7c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegEnumKeyEx, RegEnumKeyEx function, RegEnumKeyExA, RegEnumKeyExW, _win32_regenumkeyex, base.regenumkeyex, winreg/RegEnumKeyEx, winreg/RegEnumKeyExA, winreg/RegEnumKeyExW",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RegEnumKeyExW (Unicode) and RegEnumKeyExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegEnumKeyExW",
+    "winreg/RegEnumKeyExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Localregistry-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Registry-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "MinKernelBase.dll",
+    "api-ms-win-core-registry-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RegEnumKeyEx",
+    "RegEnumKeyExA",
+    "RegEnumKeyExW"
+  ]
+}

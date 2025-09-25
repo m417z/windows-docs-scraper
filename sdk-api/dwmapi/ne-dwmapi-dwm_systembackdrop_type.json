@@ -1,0 +1,52 @@
+{
+  "UID": "NE:dwmapi.DWM_SYSTEMBACKDROP_TYPE",
+  "title": "DWM_SYSTEMBACKDROP_TYPE",
+  "description": "Flags for specifying the system-drawn backdrop material of a window, including behind the non-client area.",
+  "tech.root": "dwm",
+  "ms.date": "05/13/2022",
+  "req.construct-type": "enumeration",
+  "req.header": "dwmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 11 Build 22621",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dwmapi.h"
+  ],
+  "api_name": [
+    "DWM_SYSTEMBACKDROP_TYPE"
+  ],
+  "f1_keywords": [
+    "DWM_SYSTEMBACKDROP_TYPE",
+    "dwmapi/DWM_SYSTEMBACKDROP_TYPE"
+  ],
+  "helpviewer_keywords": [
+    "DWM_SYSTEMBACKDROP_TYPE"
+  ],
+  "prerelease": false
+}

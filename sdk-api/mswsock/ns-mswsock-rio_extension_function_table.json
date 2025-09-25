@@ -1,0 +1,65 @@
+{
+  "UID": "NS:mswsock._RIO_EXTENSION_FUNCTION_TABLE",
+  "title": "RIO_EXTENSION_FUNCTION_TABLE (mswsock.h)",
+  "description": "Contains information on the functions that implement the Winsock registered I/O extensions.",
+  "helpviewer_keywords": [
+    "*PRIO_EXTENSION_FUNCTION_TABLE",
+    "PRIO_EXTENSION_FUNCTION_TABLE",
+    "PRIO_EXTENSION_FUNCTION_TABLE structure pointer [Winsock]",
+    "RIO_EXTENSION_FUNCTION_TABLE",
+    "RIO_EXTENSION_FUNCTION_TABLE structure [Winsock]",
+    "mswsockdef/PRIO_EXTENSION_FUNCTION_TABLE",
+    "mswsockdef/RIO_EXTENSION_FUNCTION_TABLE",
+    "winsock.rio_extension_function_table"
+  ],
+  "old-location": "winsock\\rio_extension_function_table.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "33C190B0-DE01-47A0-93AF-627FC5C5FF48",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE structure pointer [Winsock], RIO_EXTENSION_FUNCTION_TABLE, RIO_EXTENSION_FUNCTION_TABLE structure [Winsock], mswsockdef/PRIO_EXTENSION_FUNCTION_TABLE, mswsockdef/RIO_EXTENSION_FUNCTION_TABLE, winsock.rio_extension_function_table",
+  "req.header": "mswsock.h",
+  "req.include-header": "Mswsock.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RIO_EXTENSION_FUNCTION_TABLE, *PRIO_EXTENSION_FUNCTION_TABLE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_RIO_EXTENSION_FUNCTION_TABLE",
+    "mswsock/_RIO_EXTENSION_FUNCTION_TABLE",
+    "PRIO_EXTENSION_FUNCTION_TABLE",
+    "mswsock/PRIO_EXTENSION_FUNCTION_TABLE",
+    "RIO_EXTENSION_FUNCTION_TABLE",
+    "mswsock/RIO_EXTENSION_FUNCTION_TABLE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Mswsockdef.h"
+  ],
+  "api_name": [
+    "RIO_EXTENSION_FUNCTION_TABLE"
+  ]
+}

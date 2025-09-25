@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdfpdo.WdfPdoInitRemovePowerDependencyOnParent",
+  "title": "WdfPdoInitRemovePowerDependencyOnParent",
+  "ms.date": "03/24/2020",
+  "tech.root": "wdf",
+  "targetos": "Windows",
+  "description": "Learn more about: WdfPdoInitRemovePowerDependencyOnParent",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdfpdo.h",
+  "req.idl": null,
+  "req.include-header": "Wdf.h",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": 1.29,
+  "req.lib": "Wdf01000.sys (KMDF)",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfPdoInitRemovePowerDependencyOnParent"
+  ],
+  "f1_keywords": [
+    "WdfPdoInitRemovePowerDependencyOnParent",
+    "wdfpdo/WdfPdoInitRemovePowerDependencyOnParent"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

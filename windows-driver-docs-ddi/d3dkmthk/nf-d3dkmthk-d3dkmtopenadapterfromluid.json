@@ -1,0 +1,50 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTOpenAdapterFromLuid",
+  "title": "D3DKMTOpenAdapterFromLuid function (d3dkmthk.h)",
+  "description": "Maps a locally unique identifier (LUID) to a graphics adapter handle.",
+  "old-location": "display\\d3dkmtopenadapterfromluid.htm",
+  "ms.date": "03/02/2022",
+  "keywords": [
+    "D3DKMTOpenAdapterFromLuid function"
+  ],
+  "ms.keywords": "D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTOpenAdapterFromLuid",
+    "d3dkmthk/D3DKMTOpenAdapterFromLuid"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "GDI32.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-1.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-2.dll"
+  ],
+  "api_name": [
+    "D3DKMTOpenAdapterFromLuid"
+  ]
+}

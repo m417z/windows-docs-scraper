@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010 Pfnd3d12ddiDestroyPipelineLibrary0010;
+
+VOID Pfnd3d12ddiDestroyPipelineLibrary0010(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HPIPELINELIBRARY unnamedParam2
+)
+{...}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_GETCAPTUREADDRESS",
+  "title": "DXGKCB_GETCAPTUREADDRESS (d3dkmddi.h)",
+  "description": "The DxgkCbGetCaptureAddress function retrieves the physical address and segment identifier of a capture buffer that is associated with the given allocation handle.",
+  "old-location": "display\\dxgkcbgetcaptureaddress.htm",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKCB_GETCAPTUREADDRESS callback function"
+  ],
+  "ms.keywords": "DXGKCB_GETCAPTUREADDRESS, DXGKCB_GETCAPTUREADDRESS callback, DpFunctions_a8e4882c-a196-4cdf-826f-fa4cf44ba8f8.xml, DxgkCbGetCaptureAddress, DxgkCbGetCaptureAddress callback function [Display Devices], d3dkmddi/DxgkCbGetCaptureAddress, display.dxgkcbgetcaptureaddress",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista (WDDM 1.0)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_GETCAPTUREADDRESS",
+    "d3dkmddi/DXGKCB_GETCAPTUREADDRESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_GETCAPTUREADDRESS"
+  ]
+}

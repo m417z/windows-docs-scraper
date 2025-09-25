@@ -1,0 +1,56 @@
+{
+  "UID": "NF:directml.DMLCreateDevice",
+  "title": "DMLCreateDevice function",
+  "description": "Creates a DirectML device for a given Direct3D 12 device. (DMLCreateDevice)",
+  "helpviewer_keywords": [
+    "DMLCreateDevice",
+    "DMLCreateDevice function",
+    "direct3d12.dmlcreatedevice",
+    "directml/DMLCreateDevice"
+  ],
+  "old-location": "direct3d12\\dmlcreatedevice.htm",
+  "tech.root": "directml",
+  "ms.assetid": "B97EBDA2-83FE-4982-987E-E5C9E615065C",
+  "ms.date": "11/04/2020",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "DirectML.lib",
+  "req.dll": "DirectML.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DMLCreateDevice",
+    "directml/DMLCreateDevice"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "DirectML.dll"
+  ],
+  "api_name": [
+    "DMLCreateDevice"
+  ]
+}

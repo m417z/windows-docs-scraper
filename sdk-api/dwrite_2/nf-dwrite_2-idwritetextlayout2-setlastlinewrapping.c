@@ -1,0 +1,3 @@
+HRESULT SetLastLineWrapping(
+  BOOL isLastLineWrappingEnabled
+);

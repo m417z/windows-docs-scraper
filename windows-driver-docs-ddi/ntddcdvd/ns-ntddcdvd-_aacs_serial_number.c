@@ -1,0 +1,4 @@
+typedef struct _AACS_SERIAL_NUMBER {
+  UCHAR PrerecordedSerialNumber[16];
+  UCHAR MAC[16];
+} AACS_SERIAL_NUMBER, *PAACS_SERIAL_NUMBER;

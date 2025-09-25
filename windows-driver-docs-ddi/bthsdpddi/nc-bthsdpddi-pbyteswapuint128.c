@@ -1,0 +1,7 @@
+PBYTESWAPUINT128 Pbyteswapuint128;
+
+void Pbyteswapuint128(
+  PSDP_ULARGE_INTEGER_16 pInUint128,
+  PSDP_ULARGE_INTEGER_16 pOutUint128
+)
+{...}

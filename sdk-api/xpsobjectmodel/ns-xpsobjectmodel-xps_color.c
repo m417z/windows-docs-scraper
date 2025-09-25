@@ -1,0 +1,22 @@
+typedef struct __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024 {
+  XPS_COLOR_TYPE                                  colorType;
+  union {
+    struct {
+      UINT8 alpha;
+      UINT8 red;
+      UINT8 green;
+      UINT8 blue;
+    } sRGB;
+    struct {
+      FLOAT alpha;
+      FLOAT red;
+      FLOAT green;
+      FLOAT blue;
+    } scRGB;
+    struct {
+      UINT8 channelCount;
+      FLOAT channels[9];
+    } context;
+  } value;
+  __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0028 __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0028;
+} XPS_COLOR;

@@ -1,0 +1,3 @@
+HRESULT GetPara(
+  ITextPara **ppPara
+);

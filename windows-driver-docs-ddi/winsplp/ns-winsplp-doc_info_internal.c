@@ -1,0 +1,7 @@
+typedef struct _DOC_INFO_INTERNAL {
+  LPTSTR pDocName;
+  LPTSTR pOutputFile;
+  LPTSTR pDatatype;
+  BOOL   bLowILJob;
+  HANDLE hTokenLowIL;
+} DOC_INFO_INTERNAL, *PDOC_INFO_INTERNAL, *LPDOC_INFO_INTERNAL;

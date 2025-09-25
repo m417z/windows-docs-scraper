@@ -1,0 +1,36 @@
+# ITTAPI::get_EventFilter
+
+## Description
+
+The
+**get_EventFilter** method gets the current event filter mask. The mask is a series of ORed members of the
+[TAPI_EVENT](https://learn.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event) enumeration.
+
+## Parameters
+
+### `plFilterMask` [out]
+
+Pointer to the event filter mask.
+
+## Return value
+
+This method can return one of these values.
+
+| Return code | Description |
+| --- | --- |
+| **S_OK** | Method succeeded. |
+| **E_OUTOFMEMORY** | Insufficient memory exists to perform the operation. |
+
+## See also
+
+[Events overview](https://learn.microsoft.com/windows/desktop/Tapi/events)
+
+[ITTAPI](https://learn.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi)
+
+[ITTAPIEventNotification](https://learn.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification)
+
+[Register Events code snippet](https://learn.microsoft.com/windows/desktop/Tapi/register-events)
+
+[TAPI_EVENT](https://learn.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event)
+
+[put_EventFilter](https://learn.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter)

@@ -1,0 +1,3 @@
+HRESULT ForceVSyncInterrupt(
+  boolean forceVsyncInterrupt
+);

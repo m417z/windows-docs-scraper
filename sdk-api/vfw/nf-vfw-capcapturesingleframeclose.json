@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capCaptureSingleFrameClose",
+  "title": "capCaptureSingleFrameClose macro (vfw.h)",
+  "description": "The capCaptureSingleFrameClose macro closes the capture file opened by the capCaptureSingleFrameOpen macro. You can use this macro or explicitly send the WM_CAP_SINGLE_FRAME_CLOSE message.",
+  "helpviewer_keywords": [
+    "_win32_capCaptureSingleFrameClose",
+    "capCaptureSingleFrameClose",
+    "capCaptureSingleFrameClose macro [Windows Multimedia]",
+    "multimedia.capcapturesingleframeclose",
+    "vfw/capCaptureSingleFrameClose"
+  ],
+  "old-location": "multimedia\\capcapturesingleframeclose.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "d0259662-6bcf-4c04-924c-e568db335fd2",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capCaptureSingleFrameClose, capCaptureSingleFrameClose, capCaptureSingleFrameClose macro [Windows Multimedia], multimedia.capcapturesingleframeclose, vfw/capCaptureSingleFrameClose",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capCaptureSingleFrameClose",
+    "vfw/capCaptureSingleFrameClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capCaptureSingleFrameClose"
+  ]
+}

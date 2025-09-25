@@ -1,0 +1,3 @@
+MMRESULT waveInClose(
+  HWAVEIN hwi
+);

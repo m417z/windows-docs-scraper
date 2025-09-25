@@ -1,0 +1,1 @@
+NTSYSAPI CHAR RtlQueryProcessPlaceholderCompatibilityMode();

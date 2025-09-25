@@ -1,0 +1,6 @@
+typedef struct _FD_XFORM {
+  FLOATL eXX;
+  FLOATL eXY;
+  FLOATL eYX;
+  FLOATL eYY;
+} FD_XFORM, *PFD_XFORM;

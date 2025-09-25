@@ -1,0 +1,69 @@
+{
+  "UID": "NF:heapapi.HeapReAlloc",
+  "title": "HeapReAlloc function (heapapi.h)",
+  "description": "Reallocates a block of memory from a heap. This function enables you to resize a memory block and change other memory block properties.",
+  "helpviewer_keywords": [
+    "HEAP_GENERATE_EXCEPTIONS",
+    "HEAP_NO_SERIALIZE",
+    "HEAP_REALLOC_IN_PLACE_ONLY",
+    "HEAP_ZERO_MEMORY",
+    "HeapReAlloc",
+    "HeapReAlloc function",
+    "_win32_heaprealloc",
+    "base.heaprealloc",
+    "heapapi/HeapReAlloc",
+    "winbase/HeapReAlloc"
+  ],
+  "old-location": "base\\heaprealloc.htm",
+  "tech.root": "base",
+  "ms.assetid": "21d711d9-3b16-4537-a830-1a2fa049a471",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_REALLOC_IN_PLACE_ONLY, HEAP_ZERO_MEMORY, HeapReAlloc, HeapReAlloc function, _win32_heaprealloc, base.heaprealloc, heapapi/HeapReAlloc, winbase/HeapReAlloc",
+  "req.header": "heapapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HeapReAlloc",
+    "heapapi/HeapReAlloc"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-heap-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-heap-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "HeapReAlloc"
+  ]
+}

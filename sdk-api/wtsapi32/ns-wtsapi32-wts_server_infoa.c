@@ -1,0 +1,3 @@
+typedef struct _WTS_SERVER_INFOA {
+  LPSTR pServerName;
+} WTS_SERVER_INFOA, *PWTS_SERVER_INFOA;

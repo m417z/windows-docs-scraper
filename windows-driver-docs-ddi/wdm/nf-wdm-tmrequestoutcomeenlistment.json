@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.TmRequestOutcomeEnlistment",
+  "title": "TmRequestOutcomeEnlistment function (wdm.h)",
+  "description": "The TmRequestOutcomeEnlistment routine asks KTM to try to provide an immediate outcome (commit or rollback) for the transaction that is associated with a specified enlistment.",
+  "old-location": "kernel\\tmrequestoutcomeenlistment.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "TmRequestOutcomeEnlistment function"
+  ],
+  "ms.keywords": "TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrequestoutcomeenlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, wdm/TmRequestOutcomeEnlistment",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "TmRequestOutcomeEnlistment",
+    "wdm/TmRequestOutcomeEnlistment"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ext-MS-Win-ntos-tm-l1-1-0.dll",
+    "tm.sys"
+  ],
+  "api_name": [
+    "TmRequestOutcomeEnlistment"
+  ]
+}

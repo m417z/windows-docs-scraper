@@ -1,0 +1,56 @@
+{
+  "UID": "NS:directml.DML_BINDING_PROPERTIES",
+  "title": "DML_BINDING_PROPERTIES",
+  "description": "Contains information about the binding requirements of a particular compiled operator, or operator initializer. This struct is retrieved from IDMLDispatchable::GetBindingProperties.",
+  "helpviewer_keywords": [
+    "DML_BINDING_PROPERTIES",
+    "DML_BINDING_PROPERTIES structure",
+    "direct3d12.dml_binding_properties",
+    "directml/DML_BINDING_PROPERTIES"
+  ],
+  "old-location": "direct3d12\\dml_binding_properties.htm",
+  "tech.root": "directml",
+  "ms.assetid": "000A1236-A557-4DCD-8A25-23AA5CF29C2D",
+  "ms.date": "12/5/2018",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DML_BINDING_PROPERTIES",
+    "directml/DML_BINDING_PROPERTIES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_BINDING_PROPERTIES"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "UID": "NS:gnssdriver.GNSS_CHIPSETINFO",
+  "title": "GNSS_CHIPSETINFO (gnssdriver.h)",
+  "description": "This structure defines the specific data elements associated with the GNSS hardware.",
+  "tech.root": "gnss",
+  "ms.date": "06/16/2022",
+  "keywords": [
+    "GNSS_CHIPSETINFO structure"
+  ],
+  "ms.keywords": "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], gnss.gnss_chipsetinfo, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO",
+  "req.header": "gnssdriver.h",
+  "req.include-header": "Gnssdriver.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO",
+  "f1_keywords": [
+    "PGNSS_CHIPSETINFO",
+    "gnssdriver/PGNSS_CHIPSETINFO",
+    "GNSS_CHIPSETINFO",
+    "gnssdriver/GNSS_CHIPSETINFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "gnssdriver.h"
+  ],
+  "api_name": [
+    "PGNSS_CHIPSETINFO",
+    "GNSS_CHIPSETINFO"
+  ]
+}

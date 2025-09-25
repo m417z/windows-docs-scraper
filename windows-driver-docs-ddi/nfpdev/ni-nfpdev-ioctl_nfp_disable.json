@@ -1,0 +1,48 @@
+{
+  "UID": "NI:nfpdev.IOCTL_NFP_DISABLE",
+  "title": "IOCTL_NFP_DISABLE (nfpdev.h)",
+  "description": "A client sends the IOCTL_NFP_DISABLE request to temporarily disable subscriptions, publications, and presence events.",
+  "old-location": "nfpdrivers\\ioctl_nfp_disable.htm",
+  "tech.root": "nfpdrivers",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_NFP_DISABLE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable",
+  "req.header": "nfpdev.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_NFP_DISABLE",
+    "nfpdev/IOCTL_NFP_DISABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nfpdev.h"
+  ],
+  "api_name": [
+    "IOCTL_NFP_DISABLE"
+  ]
+}

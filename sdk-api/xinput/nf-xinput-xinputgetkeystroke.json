@@ -1,0 +1,59 @@
+{
+  "UID": "NF:xinput.XInputGetKeystroke",
+  "title": "XInputGetKeystroke function (xinput.h)",
+  "description": "Retrieves a gamepad input event.",
+  "helpviewer_keywords": [
+    "XInputGetKeystroke",
+    "XInputGetKeystroke function [XInput Game Controller APIs]",
+    "xinput.xinputgetkeystroke",
+    "xinput/XInputGetKeystroke"
+  ],
+  "old-location": "xinput\\xinputgetkeystroke.htm",
+  "tech.root": "xinput",
+  "ms.assetid": "M:Microsoft.directx_sdk.reference.XInputGetKeystroke(DWORD,DWORD,PXINPUT_KEYSTROKE@)",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "XInputGetKeystroke, XInputGetKeystroke function [XInput Game Controller APIs], xinput.xinputgetkeystroke, xinput/XInputGetKeystroke",
+  "req.header": "xinput.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Xinput.lib",
+  "req.dll": "Xinput1_4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "XInputGetKeystroke",
+    "xinput/XInputGetKeystroke"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "xinput1_4.dll",
+    "Ext-MS-Win-Gaming-XInput-L1-1-0.dll",
+    "xinputuap.dll"
+  ],
+  "api_name": [
+    "XInputGetKeystroke"
+  ]
+}

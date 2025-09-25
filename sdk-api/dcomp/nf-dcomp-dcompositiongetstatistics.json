@@ -1,0 +1,47 @@
+{
+  "UID": "NF:dcomp.DCompositionGetStatistics",
+  "tech.root": "directcomp",
+  "title": "DCompositionGetStatistics",
+  "ms.date": "06/24/2021",
+  "targetos": "Windows",
+  "description": "Gets basic information about the composition frame and a list of render target ID's that are part of the frame.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dcomp.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dcomp.dll"
+  ],
+  "api_name": [
+    "DCompositionGetStatistics"
+  ],
+  "f1_keywords": [
+    "DCompositionGetStatistics",
+    "dcomp/DCompositionGetStatistics"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

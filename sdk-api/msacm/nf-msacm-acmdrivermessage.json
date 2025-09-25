@@ -1,0 +1,59 @@
+{
+  "UID": "NF:msacm.acmDriverMessage",
+  "title": "acmDriverMessage function (msacm.h)",
+  "description": "The acmDriverMessage function sends a user-defined message to a given ACM driver instance.",
+  "helpviewer_keywords": [
+    "_win32_acmDriverMessage",
+    "acmDriverMessage",
+    "acmDriverMessage function [Windows Multimedia]",
+    "msacm/acmDriverMessage",
+    "multimedia.acmdrivermessage"
+  ],
+  "old-location": "multimedia\\acmdrivermessage.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "c4e1685e-54b5-4c33-b23c-c3ccc31afe48",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_acmDriverMessage, acmDriverMessage, acmDriverMessage function [Windows Multimedia], msacm/acmDriverMessage, multimedia.acmdrivermessage",
+  "req.header": "msacm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msacm32.lib",
+  "req.dll": "Msacm32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "acmDriverMessage",
+    "msacm/acmDriverMessage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msacm32.dll",
+    "Ext-MS-Win-mm-msacm-l1-1-0.dll"
+  ],
+  "api_name": [
+    "acmDriverMessage"
+  ]
+}

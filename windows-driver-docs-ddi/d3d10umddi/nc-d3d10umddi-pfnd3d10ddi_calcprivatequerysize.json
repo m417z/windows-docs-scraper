@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10DDI_CALCPRIVATEQUERYSIZE",
+  "title": "PFND3D10DDI_CALCPRIVATEQUERYSIZE (d3d10umddi.h)",
+  "description": "The CalcPrivateQuerySize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a query.",
+  "old-location": "display\\calcprivatequerysize.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10DDI_CALCPRIVATEQUERYSIZE callback function"
+  ],
+  "ms.keywords": "CalcPrivateQuerySize, CalcPrivateQuerySize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEQUERYSIZE, PFND3D10DDI_CALCPRIVATEQUERYSIZE callback, UserModeDisplayDriverDx10_Functions_79c9e2a9-e27e-4bd8-bc45-20dd14f0627a.xml, d3d10umddi/CalcPrivateQuerySize, display.calcprivatequerysize",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10DDI_CALCPRIVATEQUERYSIZE",
+    "d3d10umddi/PFND3D10DDI_CALCPRIVATEQUERYSIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10DDI_CALCPRIVATEQUERYSIZE"
+  ]
+}

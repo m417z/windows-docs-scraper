@@ -1,0 +1,4 @@
+typedef struct _WWAN_ATR_INFO {
+  ULONG AtrLength;
+  BYTE  Atr[WWAN_ATR_MAX_LEN];
+} WWAN_ATR_INFO, *PWWAN_ATR_INFO;

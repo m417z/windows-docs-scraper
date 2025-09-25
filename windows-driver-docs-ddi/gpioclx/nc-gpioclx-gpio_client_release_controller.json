@@ -1,0 +1,48 @@
+{
+  "UID": "NC:gpioclx.GPIO_CLIENT_RELEASE_CONTROLLER",
+  "title": "GPIO_CLIENT_RELEASE_CONTROLLER (gpioclx.h)",
+  "description": "The CLIENT_ReleaseController event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device is no longer accessible.",
+  "old-location": "gpio\\client_releasecontroller.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "GPIO_CLIENT_RELEASE_CONTROLLER callback function"
+  ],
+  "ms.keywords": "CLIENT_ReleaseController, CLIENT_ReleaseController callback, CLIENT_ReleaseController callback function [Parallel Ports], GPIO.client_releasecontroller, GPIO_CLIENT_RELEASE_CONTROLLER, gpioclx/CLIENT_ReleaseController",
+  "req.header": "gpioclx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GPIO_CLIENT_RELEASE_CONTROLLER",
+    "gpioclx/GPIO_CLIENT_RELEASE_CONTROLLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Gpioclx.h"
+  ],
+  "api_name": [
+    "GPIO_CLIENT_RELEASE_CONTROLLER"
+  ]
+}

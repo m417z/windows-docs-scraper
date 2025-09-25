@@ -1,0 +1,8 @@
+typedef struct _DISPLAY_DEVICEW {
+  DWORD cb;
+  WCHAR DeviceName[32];
+  WCHAR DeviceString[128];
+  DWORD StateFlags;
+  WCHAR DeviceID[128];
+  WCHAR DeviceKey[128];
+} DISPLAY_DEVICEW, *PDISPLAY_DEVICEW, *LPDISPLAY_DEVICEW;

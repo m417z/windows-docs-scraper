@@ -1,0 +1,3 @@
+EVNTPROV_PFORCEINLINE UCHAR EventDescGetOpcode(
+  [in] PCEVENT_DESCRIPTOR EventDescriptor
+);

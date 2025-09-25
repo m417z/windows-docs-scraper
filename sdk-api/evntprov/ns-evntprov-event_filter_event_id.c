@@ -1,0 +1,6 @@
+typedef struct _EVENT_FILTER_EVENT_ID {
+  BOOLEAN FilterIn;
+  UCHAR   Reserved;
+  USHORT  Count;
+  USHORT  Events[ANYSIZE_ARRAY];
+} EVENT_FILTER_EVENT_ID, *PEVENT_FILTER_EVENT_ID;

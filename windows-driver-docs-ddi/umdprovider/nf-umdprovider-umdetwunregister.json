@@ -1,0 +1,48 @@
+{
+  "UID": "NF:umdprovider.UMDEtwUnregister",
+  "title": "UMDEtwUnregister function (umdprovider.h)",
+  "description": "Unregisters the event trace provider. Call this function before the user-mode driver is unloaded. After this function is called, the driver should not make any other calls to log events.",
+  "old-location": "display\\umdetwunregister.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "UMDEtwUnregister function"
+  ],
+  "ms.keywords": "UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister",
+  "req.header": "umdprovider.h",
+  "req.include-header": "Umdprovider.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UMDEtwUnregister",
+    "umdprovider/UMDEtwUnregister"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "umdprovider.h"
+  ],
+  "api_name": [
+    "UMDEtwUnregister"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "UID": "NS:wsdbase._WSD_SECURITY_CERT_VALIDATION_V1",
+  "title": "WSD_SECURITY_CERT_VALIDATION_V1 (wsdbase.h)",
+  "description": "Represents the criteria for matching client certificates against those of an HTTPS server.W",
+  "helpviewer_keywords": [
+    "*PWSD_SECURITY_CERT_VALIDATION",
+    "WSDAPI_SSL_CERT_DEFAULT_CHECKS",
+    "WSDAPI_SSL_CERT_IGNORE_EXPIRY",
+    "WSDAPI_SSL_CERT_IGNORE_INVALID_CN",
+    "WSDAPI_SSL_CERT_IGNORE_REVOCATION",
+    "WSDAPI_SSL_CERT_IGNORE_UNKNOWN_CA",
+    "WSDAPI_SSL_CERT_IGNORE_WRONG_USAGE",
+    "WSD_SECURITY_CERT_VALIDATION",
+    "WSD_SECURITY_CERT_VALIDATION structure",
+    "WSD_SECURITY_CERT_VALIDATION_V1",
+    "_WSD_SECURITY_CERT_VALIDATION",
+    "ncd.wsd_security_cert_validation",
+    "wsdbase/WSD_SECURITY_CERT_VALIDATION"
+  ],
+  "old-location": "ncd\\wsd_security_cert_validation.htm",
+  "tech.root": "ncd",
+  "ms.assetid": "1bc157c2-f3c2-4b67-a6ae-251ba1cb0379",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PWSD_SECURITY_CERT_VALIDATION, WSDAPI_SSL_CERT_DEFAULT_CHECKS, WSDAPI_SSL_CERT_IGNORE_EXPIRY, WSDAPI_SSL_CERT_IGNORE_INVALID_CN, WSDAPI_SSL_CERT_IGNORE_REVOCATION, WSDAPI_SSL_CERT_IGNORE_UNKNOWN_CA, WSDAPI_SSL_CERT_IGNORE_WRONG_USAGE, WSD_SECURITY_CERT_VALIDATION, WSD_SECURITY_CERT_VALIDATION structure, WSD_SECURITY_CERT_VALIDATION_V1, _WSD_SECURITY_CERT_VALIDATION, ncd.wsd_security_cert_validation, wsdbase/WSD_SECURITY_CERT_VALIDATION",
+  "req.header": "wsdbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WSD_SECURITY_CERT_VALIDATION_V1",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_WSD_SECURITY_CERT_VALIDATION_V1",
+    "wsdbase/_WSD_SECURITY_CERT_VALIDATION_V1",
+    "WSD_SECURITY_CERT_VALIDATION_V1",
+    "wsdbase/WSD_SECURITY_CERT_VALIDATION_V1"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wsdbase.h"
+  ],
+  "api_name": [
+    "WSD_SECURITY_CERT_VALIDATION"
+  ]
+}

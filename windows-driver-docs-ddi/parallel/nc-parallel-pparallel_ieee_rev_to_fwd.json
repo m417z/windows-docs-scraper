@@ -1,0 +1,48 @@
+{
+  "UID": "NC:parallel.PPARALLEL_IEEE_REV_TO_FWD",
+  "title": "PPARALLEL_IEEE_REV_TO_FWD (parallel.h)",
+  "description": "The PPARALLEL_IEEE_REV_TO_FWD-typed callback routine changes the transfer mode from reverse to forward. The system-supplied bus driver for parallel ports supplies this routine.",
+  "old-location": "parports\\pparallel_ieee_rev_to_fwd.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "PPARALLEL_IEEE_REV_TO_FWD callback"
+  ],
+  "ms.keywords": "PPARALLEL_IEEE_REV_TO_FWD, PPARALLEL_IEEE_REV_TO_FWD function pointer [Parallel Ports], cisspd_f42cc965-4f4d-4d18-b111-0e19fca9a9d5.xml, parallel/PPARALLEL_IEEE_REV_TO_FWD, parports.pparallel_ieee_rev_to_fwd",
+  "req.header": "parallel.h",
+  "req.include-header": "Parallel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RILGBATOKEN, *LPRILGBATOKEN",
+  "f1_keywords": [
+    "PPARALLEL_IEEE_REV_TO_FWD",
+    "parallel/PPARALLEL_IEEE_REV_TO_FWD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "PPARALLEL_IEEE_REV_TO_FWD"
+  ]
+}

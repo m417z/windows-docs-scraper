@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ndkpi._NDK_RESULT_EX",
+  "title": "_NDK_RESULT_EX (ndkpi.h)",
+  "description": "The NDK_RESULT_EX structure returns the results for an NDK request operation. It is identical to the NDK_RESULT structure, except that it has additional Type and TypeSpecificCompletionOutput members.",
+  "old-location": "netvista\\ndk_result_ex.htm",
+  "tech.root": "netvista",
+  "ms.date": "12/30/2020",
+  "keywords": [
+    "NDK_RESULT_EX structure"
+  ],
+  "ms.keywords": "NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, netvista.ndk_result_ex",
+  "req.header": "ndkpi.h",
+  "req.include-header": "Ndkpi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.40 and later.",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDK_RESULT_EX",
+  "f1_keywords": [
+    "_NDK_RESULT_EX",
+    "ndkpi/_NDK_RESULT_EX",
+    "NDK_RESULT_EX",
+    "ndkpi/NDK_RESULT_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "_NDK_RESULT_EX",
+    "NDK_RESULT_EX"
+  ]
+}

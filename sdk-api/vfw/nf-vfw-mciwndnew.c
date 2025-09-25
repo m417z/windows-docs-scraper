@@ -1,0 +1,4 @@
+LONG MCIWndNew(
+     hwnd,
+     lp
+);

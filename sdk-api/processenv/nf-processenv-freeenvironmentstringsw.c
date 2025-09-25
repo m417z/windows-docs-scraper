@@ -1,0 +1,3 @@
+BOOL FreeEnvironmentStringsW(
+  LPWCH penv
+);

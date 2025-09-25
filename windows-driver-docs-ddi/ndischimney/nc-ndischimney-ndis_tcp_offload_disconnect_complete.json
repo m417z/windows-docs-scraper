@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndischimney.NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE",
+  "title": "NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE (ndischimney.h)",
+  "description": "An offload target calls the NdisTcpOffloadDisconnectComplete function to complete a disconnect request that was initiated by a previous call to the MiniportTcpOffloadDisconnect function of the offload target.",
+  "old-location": "netvista\\ndistcpoffloaddisconnectcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback function"
+  ],
+  "ms.keywords": "NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE",
+    "ndischimney/NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndischimney.h"
+  ],
+  "api_name": [
+    "NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE"
+  ]
+}

@@ -1,0 +1,8 @@
+typedef struct _TAKE_SNAPSHOT_VHDSET_PARAMETERS {
+  TAKE_SNAPSHOT_VHDSET_VERSION Version;
+  union {
+    struct {
+      GUID SnapshotId;
+    } Version1;
+  };
+} TAKE_SNAPSHOT_VHDSET_PARAMETERS, *PTAKE_SNAPSHOT_VHDSET_PARAMETERS;

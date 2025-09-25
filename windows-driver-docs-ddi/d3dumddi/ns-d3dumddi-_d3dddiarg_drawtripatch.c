@@ -1,0 +1,3 @@
+typedef struct _D3DDDIARG_DRAWTRIPATCH {
+  [in] UINT Handle;
+} D3DDDIARG_DRAWTRIPATCH;

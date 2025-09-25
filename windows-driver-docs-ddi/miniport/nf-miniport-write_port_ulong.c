@@ -1,0 +1,4 @@
+VOID WRITE_PORT_ULONG(
+  [in] PULONG Port,
+  [in] ULONG  Value
+);

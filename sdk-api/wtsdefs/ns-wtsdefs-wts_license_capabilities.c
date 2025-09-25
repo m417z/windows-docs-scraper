@@ -1,0 +1,8 @@
+typedef struct _WTS_LICENSE_CAPABILITIES {
+  DWORD         KeyExchangeAlg;
+  DWORD         ProtocolVer;
+  BOOL          fAuthenticateServer;
+  WTS_CERT_TYPE CertType;
+  DWORD         cbClientName;
+  BYTE          rgbClientName[WTS_LICENSE_CLIENT_NAME_BYTE_LENGTH];
+} _WTS_LICENSE_CAPABILITIES, WTS_LICENSE_CAPABILITIES, *PWTS_LICENSE_CAPABILITIES, _WRDS_LICENSE_CAPABILITIES;

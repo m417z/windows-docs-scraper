@@ -1,0 +1,3 @@
+HRESULT GetName(
+  BSTR *modelName
+);

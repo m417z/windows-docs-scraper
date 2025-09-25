@@ -1,0 +1,4 @@
+typedef struct _WS_UINT16_DESCRIPTION {
+  USHORT minValue;
+  USHORT maxValue;
+} WS_UINT16_DESCRIPTION;

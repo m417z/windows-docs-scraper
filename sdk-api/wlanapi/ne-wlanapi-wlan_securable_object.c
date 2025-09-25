@@ -1,0 +1,20 @@
+typedef enum _WLAN_SECURABLE_OBJECT {
+  wlan_secure_permit_list = 0,
+  wlan_secure_deny_list,
+  wlan_secure_ac_enabled,
+  wlan_secure_bc_scan_enabled,
+  wlan_secure_bss_type,
+  wlan_secure_show_denied,
+  wlan_secure_interface_properties,
+  wlan_secure_ihv_control,
+  wlan_secure_all_user_profiles_order,
+  wlan_secure_add_new_all_user_profiles,
+  wlan_secure_add_new_per_user_profiles,
+  wlan_secure_media_streaming_mode_enabled,
+  wlan_secure_current_operation_mode,
+  wlan_secure_get_plaintext_key,
+  wlan_secure_hosted_network_elevated_access,
+  wlan_secure_virtual_station_extensibility,
+  wlan_secure_wfd_elevated_access,
+  WLAN_SECURABLE_OBJECT_COUNT
+} WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT;

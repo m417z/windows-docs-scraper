@@ -1,0 +1,3 @@
+HRESULT GetValueType(
+  [out] OFFLINEFILES_SETTING_VALUE_TYPE *pType
+);

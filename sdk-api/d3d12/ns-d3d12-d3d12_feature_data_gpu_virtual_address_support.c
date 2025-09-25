@@ -1,0 +1,4 @@
+typedef struct D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT {
+  UINT MaxGPUVirtualAddressBitsPerResource;
+  UINT MaxGPUVirtualAddressBitsPerProcess;
+} D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT;

@@ -1,0 +1,21 @@
+typedef struct FWPM_NET_EVENT_CLASSIFY_DROP_MAC0_ {
+  FWP_BYTE_ARRAY6 localMacAddr;
+  FWP_BYTE_ARRAY6 remoteMacAddr;
+  UINT32          mediaType;
+  UINT32          ifType;
+  UINT16          etherType;
+  UINT32          ndisPortNumber;
+  UINT32          reserved;
+  UINT16          vlanTag;
+  UINT64          ifLuid;
+  UINT64          filterId;
+  UINT16          layerId;
+  UINT32          reauthReason;
+  UINT32          originalProfile;
+  UINT32          currentProfile;
+  UINT32          msFwpDirection;
+  BOOL            isLoopback;
+  FWP_BYTE_BLOB   vSwitchId;
+  UINT32          vSwitchSourcePort;
+  UINT32          vSwitchDestinationPort;
+} FWPM_NET_EVENT_CLASSIFY_DROP_MAC0;

@@ -1,0 +1,3 @@
+HRESULT SetDestinationRectangle(
+  RECT *pDstRect
+);

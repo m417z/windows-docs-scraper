@@ -1,0 +1,3 @@
+void WSDFreeLinkedMemory(
+  void *pVoid
+);

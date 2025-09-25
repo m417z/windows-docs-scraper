@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.SeImpersonateClientEx",
+  "title": "SeImpersonateClientEx function (ntifs.h)",
+  "description": "The SeImpersonateClientEx routine causes a thread to impersonate a user.",
+  "old-location": "ifsk\\seimpersonateclientex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SeImpersonateClientEx function"
+  ],
+  "ms.keywords": "SeImpersonateClientEx, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeImpersonateClientEx",
+    "ntifs/SeImpersonateClientEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "SeImpersonateClientEx"
+  ]
+}

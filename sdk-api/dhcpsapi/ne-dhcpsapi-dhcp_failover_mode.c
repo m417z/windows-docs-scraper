@@ -1,0 +1,4 @@
+typedef enum _DHCP_FAILOVER_MODE {
+  LoadBalance,
+  HotStandby
+} DHCP_FAILOVER_MODE, *LPDHCP_FAILOVER_MODE;

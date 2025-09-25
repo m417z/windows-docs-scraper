@@ -1,0 +1,68 @@
+{
+  "UID": "NF:libloaderapi.FindResourceExW",
+  "tech.root": "menurc",
+  "title": "FindResourceExW",
+  "ms.date": "04/19/2021",
+  "targetos": "Windows",
+  "description": "Determines the location of the resource with the specified type, name, and language in the specified module. (FindResourceExW)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "libloaderapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-libraryloader-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-1-1.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Libraryloader-l1-2-1.dll",
+    "API-MS-Win-Deprecated-APIs-Legacy-l1-2-0.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll",
+    "API-MS-Win-Core-LibraryLoader-L1-2-2.dll"
+  ],
+  "api_name": [
+    "FindResourceExW",
+    "FindResourceEx"
+  ],
+  "f1_keywords": [
+    "FindResourceExW",
+    "libloaderapi/FindResourceExW",
+    "FindResourceEx",
+    "libloaderapi/FindResourceEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

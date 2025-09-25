@@ -1,0 +1,4 @@
+typedef struct D2D1_RENDERING_CONTROLS {
+  D2D1_BUFFER_PRECISION bufferPrecision;
+  D2D1_SIZE_U           tileSize;
+} D2D1_RENDERING_CONTROLS;

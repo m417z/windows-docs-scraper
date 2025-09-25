@@ -1,0 +1,9 @@
+# KSSTREAM_POINTER_STATE enumeration
+
+## Description
+
+## Constants
+
+### `KSSTREAM_POINTER_STATE_UNLOCKED`
+
+### `KSSTREAM_POINTER_STATE_LOCKED`

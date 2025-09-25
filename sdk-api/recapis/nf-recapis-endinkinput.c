@@ -1,0 +1,3 @@
+HRESULT EndInkInput(
+  HRECOCONTEXT hrc
+);

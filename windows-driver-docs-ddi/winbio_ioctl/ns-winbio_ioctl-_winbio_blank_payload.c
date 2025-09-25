@@ -1,0 +1,4 @@
+typedef struct _WINBIO_BLANK_PAYLOAD {
+  DWORD   PayloadSize;
+  HRESULT WinBioHresult;
+} WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD;

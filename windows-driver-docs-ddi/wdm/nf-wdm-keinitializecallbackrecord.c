@@ -1,0 +1,3 @@
+void KeInitializeCallbackRecord(
+  [in] CallbackRecord
+);

@@ -1,0 +1,3 @@
+HRESULT GetPrivileges(
+  LPWSTR *privileges
+);

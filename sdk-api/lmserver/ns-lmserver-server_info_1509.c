@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1509 {
+  DWORD sv1509_maxrawbuflen;
+} SERVER_INFO_1509, *PSERVER_INFO_1509, *LPSERVER_INFO_1509;

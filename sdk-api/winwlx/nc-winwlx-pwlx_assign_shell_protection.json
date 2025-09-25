@@ -1,0 +1,60 @@
+{
+  "UID": "NC:winwlx.PWLX_ASSIGN_SHELL_PROTECTION",
+  "title": "PWLX_ASSIGN_SHELL_PROTECTION (winwlx.h)",
+  "description": "Called by GINA to assign protection to the shell program of a newly logged-on user.",
+  "helpviewer_keywords": [
+    "PWLX_ASSIGN_SHELL_PROTECTION",
+    "PWLX_ASSIGN_SHELL_PROTECTION callback",
+    "WlxAssignShellProtection",
+    "WlxAssignShellProtection callback function [Security]",
+    "_gina_wlxassignshellprotection",
+    "security.wlxassignshellprotection",
+    "winwlx/WlxAssignShellProtection"
+  ],
+  "old-location": "security\\wlxassignshellprotection.htm",
+  "tech.root": "security",
+  "ms.assetid": "7a744bde-3354-4e55-a6be-08acb4085e8a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PWLX_ASSIGN_SHELL_PROTECTION, PWLX_ASSIGN_SHELL_PROTECTION callback, WlxAssignShellProtection, WlxAssignShellProtection callback function [Security], _gina_wlxassignshellprotection, security.wlxassignshellprotection, winwlx/WlxAssignShellProtection",
+  "req.header": "winwlx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PWLX_ASSIGN_SHELL_PROTECTION",
+    "winwlx/PWLX_ASSIGN_SHELL_PROTECTION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "winwlx.h"
+  ],
+  "api_name": [
+    "WlxAssignShellProtection"
+  ]
+}

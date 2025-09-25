@@ -1,0 +1,6 @@
+typedef struct _ACPI_GET_DEVICE_SPECIFIC_DATA {
+  ULONG Signature;
+  GUID  Section;
+  ULONG PropertyNameLength;
+  UCHAR PropertyName[ANYSIZE_ARRAY];
+} ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA;

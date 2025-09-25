@@ -1,0 +1,70 @@
+{
+  "UID": "NS:sensapi.tagQOCINFO",
+  "title": "QOCINFO (sensapi.h)",
+  "description": "The QOCINFO structure is returned by the IsDestinationReachable function and provides Quality of Connection information to the caller.",
+  "helpviewer_keywords": [
+    "*LPQOCINFO",
+    "LPQOCINFO",
+    "LPQOCINFO structure pointer [SENS]",
+    "NETWORK_ALIVE_AOL",
+    "NETWORK_ALIVE_LAN",
+    "NETWORK_ALIVE_WAN",
+    "QOCINFO",
+    "QOCINFO structure [SENS]",
+    "_zaw_qocinfo",
+    "sens.qocinfo",
+    "sensapi/LPQOCINFO",
+    "sensapi/QOCINFO",
+    "syncmgr.qocinfo"
+  ],
+  "old-location": "sens\\qocinfo.htm",
+  "tech.root": "Sens",
+  "ms.assetid": "1f78a7c5-b3c7-4f21-8848-58cfb481f4bb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPQOCINFO, LPQOCINFO, LPQOCINFO structure pointer [SENS], NETWORK_ALIVE_AOL, NETWORK_ALIVE_LAN, NETWORK_ALIVE_WAN, QOCINFO, QOCINFO structure [SENS], _zaw_qocinfo, sens.qocinfo, sensapi/LPQOCINFO, sensapi/QOCINFO, syncmgr.qocinfo",
+  "req.header": "sensapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "QOCINFO, *LPQOCINFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagQOCINFO",
+    "sensapi/tagQOCINFO",
+    "LPQOCINFO",
+    "sensapi/LPQOCINFO",
+    "QOCINFO",
+    "sensapi/QOCINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Sensapi.h"
+  ],
+  "api_name": [
+    "QOCINFO"
+  ]
+}

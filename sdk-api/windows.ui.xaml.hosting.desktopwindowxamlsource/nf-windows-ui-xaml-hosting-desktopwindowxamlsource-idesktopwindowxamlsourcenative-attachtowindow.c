@@ -1,0 +1,3 @@
+HRESULT AttachToWindow(
+  HWND parentWnd
+);

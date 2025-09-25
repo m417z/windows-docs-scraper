@@ -1,0 +1,67 @@
+{
+  "UID": "NS:windnsdef.DNS_DS_DATA",
+  "title": "DNS_DS_DATA (windnsdef.h)",
+  "description": "Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.",
+  "helpviewer_keywords": [
+    "*PDNS_DS_DATA",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "DNS_DS_DATA",
+    "DNS_DS_DATA structure [DNS]",
+    "PDNS_DS_DATA",
+    "PDNS_DS_DATA structure pointer [DNS]",
+    "dns.dns_ds_data",
+    "windnsdef/DNS_DS_DATA",
+    "windnsdef/PDNS_DS_DATA"
+  ],
+  "old-location": "dns\\dns_ds_data.htm",
+  "tech.root": "DNS",
+  "ms.assetid": "8624cc27-feb5-4e4a-8970-40aa1d43960e",
+  "ms.date": "01/15/2025",
+  "ms.keywords": "*PDNS_DS_DATA, 1, 2, 3, 4, 5, DNS_DS_DATA, DNS_DS_DATA structure [DNS], PDNS_DS_DATA, PDNS_DS_DATA structure pointer [DNS], dns.dns_ds_data, windnsdef/DNS_DS_DATA, windnsdef/PDNS_DS_DATA",
+  "req.header": "windnsdef.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DNS_DS_DATA, *PDNS_DS_DATA",
+  "req.redist": null,
+  "f1_keywords": [
+    "PDNS_DS_DATA",
+    "windnsdef/PDNS_DS_DATA",
+    "DNS_DS_DATA",
+    "windnsdef/DNS_DS_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windnsdef.h"
+  ],
+  "api_name": [
+    "DNS_DS_DATA"
+  ]
+}

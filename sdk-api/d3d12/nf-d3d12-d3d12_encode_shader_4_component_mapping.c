@@ -1,0 +1,6 @@
+void D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING(
+  Src0,
+  Src1,
+  Src2,
+  Src3
+);

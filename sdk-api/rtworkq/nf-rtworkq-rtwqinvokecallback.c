@@ -1,0 +1,3 @@
+HRESULT RtwqInvokeCallback(
+  IRtwqAsyncResult *result
+);

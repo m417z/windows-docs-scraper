@@ -1,0 +1,4 @@
+BOOL capFileSetCaptureFile(
+     hwnd,
+     szName
+);

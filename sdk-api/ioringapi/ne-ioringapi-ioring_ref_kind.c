@@ -1,0 +1,4 @@
+typedef enum IORING_REF_KIND {
+  IORING_REF_RAW,
+  IORING_REF_REGISTERED
+} ;

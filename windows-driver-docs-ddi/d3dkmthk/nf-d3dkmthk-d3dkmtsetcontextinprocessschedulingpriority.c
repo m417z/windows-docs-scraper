@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetContextInProcessSchedulingPriority(
+  [in] const D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY *unnamedParam1
+);

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:wsddisco.IWSDiscoveredService.GetLocalInterfaceGUID",
+  "title": "IWSDiscoveredService::GetLocalInterfaceGUID (wsddisco.h)",
+  "description": "Retrieves the GUID of the local network interface over which the message was received.",
+  "helpviewer_keywords": [
+    "GetLocalInterfaceGUID",
+    "GetLocalInterfaceGUID method",
+    "GetLocalInterfaceGUID method",
+    "IWSDiscoveredService interface",
+    "IWSDiscoveredService interface",
+    "GetLocalInterfaceGUID method",
+    "IWSDiscoveredService.GetLocalInterfaceGUID",
+    "IWSDiscoveredService::GetLocalInterfaceGUID",
+    "ncd.iwsdiscoveredservice_getlocalinterfaceguid",
+    "wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID"
+  ],
+  "old-location": "ncd\\iwsdiscoveredservice_getlocalinterfaceguid.htm",
+  "tech.root": "ncd",
+  "ms.assetid": "9c66bda4-d21c-443f-a9b0-e05485306bde",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetLocalInterfaceGUID, GetLocalInterfaceGUID method, GetLocalInterfaceGUID method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalInterfaceGUID method, IWSDiscoveredService.GetLocalInterfaceGUID, IWSDiscoveredService::GetLocalInterfaceGUID, ncd.iwsdiscoveredservice_getlocalinterfaceguid, wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID",
+  "req.header": "wsddisco.h",
+  "req.include-header": "Wsdapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Wsddisco.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Wsdapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWSDiscoveredService::GetLocalInterfaceGUID",
+    "wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wsdapi.dll"
+  ],
+  "api_name": [
+    "IWSDiscoveredService.GetLocalInterfaceGUID"
+  ]
+}

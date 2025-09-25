@@ -1,0 +1,3 @@
+HRESULT OnNotify(
+  [in] PAUDIO_VOLUME_NOTIFICATION_DATA pNotify
+);

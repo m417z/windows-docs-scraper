@@ -1,0 +1,48 @@
+{
+  "UID": "NF:hidsdi.HidD_FlushQueue",
+  "title": "HidD_FlushQueue function (hidsdi.h)",
+  "description": "The HidD_FlushQueue routine deletes all pending input reports in a top-level collection's input queue.",
+  "old-location": "hid\\hidd_flushqueue.htm",
+  "tech.root": "hid",
+  "ms.date": "06/19/2019",
+  "keywords": [
+    "HidD_FlushQueue function"
+  ],
+  "ms.keywords": "HidD_FlushQueue, HidD_FlushQueue routine [Human Input Devices], hid.hidd_flushqueue, hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, hidsdi/HidD_FlushQueue",
+  "req.header": "hidsdi.h",
+  "req.include-header": "Hidsdi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hid.lib",
+  "req.dll": "Hid.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidD_FlushQueue",
+    "hidsdi/HidD_FlushQueue"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hid.dll"
+  ],
+  "api_name": [
+    "HidD_FlushQueue"
+  ]
+}

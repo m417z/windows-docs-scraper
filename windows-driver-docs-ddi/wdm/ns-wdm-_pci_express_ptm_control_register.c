@@ -1,0 +1,10 @@
+typedef union _PCI_EXPRESS_PTM_CONTROL_REGISTER {
+  struct {
+    ULONG Enable : 1;
+    ULONG RootSelect : 1;
+    ULONG Rsvd : 6;
+    ULONG EffectiveGranularity : 8;
+    ULONG Rsvd2 : 16;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsULONG;
+} PCI_EXPRESS_PTM_CONTROL_REGISTER, *PPCI_EXPRESS_PTM_CONTROL_REGISTER;

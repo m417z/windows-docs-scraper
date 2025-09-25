@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddpar.IOCTL_PAR_QUERY_LOCATION",
+  "title": "IOCTL_PAR_QUERY_LOCATION (ntddpar.h)",
+  "description": "The IOCTL_PAR_QUERY_LOCATION request returns the &#0034;LPTn&#0034; or &#0034;LPTn.m&#0034; symbolic link name associated with a parallel device.",
+  "old-location": "parports\\ioctl_par_query_location.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_PAR_QUERY_LOCATION IOCTL"
+  ],
+  "ms.keywords": "IOCTL_PAR_QUERY_LOCATION, IOCTL_PAR_QUERY_LOCATION control code [Parallel Ports], cisspd_49c52fd1-3855-4611-aa3b-4fa7c0ec6b16.xml, ntddpar/IOCTL_PAR_QUERY_LOCATION, parports.ioctl_par_query_location",
+  "req.header": "ntddpar.h",
+  "req.include-header": "Ntddpar.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION",
+  "f1_keywords": [
+    "IOCTL_PAR_QUERY_LOCATION",
+    "ntddpar/IOCTL_PAR_QUERY_LOCATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddpar.h"
+  ],
+  "api_name": [
+    "IOCTL_PAR_QUERY_LOCATION"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "UID": "NF:shlobj_core.SHGetKnownFolderItem",
+  "title": "SHGetKnownFolderItem function (shlobj_core.h)",
+  "description": "Retrieves an IShellItem object that represents a known folder.",
+  "helpviewer_keywords": [
+    "SHGetKnownFolderItem",
+    "SHGetKnownFolderItem function [Windows Shell]",
+    "_shell_SHGetKnownFolderItem",
+    "shell.SHGetKnownFolderItem",
+    "shlobj_core/SHGetKnownFolderItem"
+  ],
+  "old-location": "shell\\SHGetKnownFolderItem.htm",
+  "tech.root": "shell",
+  "ms.assetid": "d0880a8c-20dd-47cc-b6c5-23dedb32d453",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHGetKnownFolderItem, SHGetKnownFolderItem function [Windows Shell], _shell_SHGetKnownFolderItem, shell.SHGetKnownFolderItem, shlobj_core/SHGetKnownFolderItem",
+  "req.header": "shlobj_core.h",
+  "req.include-header": "Shlobj.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shell32.lib",
+  "req.dll": "Shell32.dll (version 6.1 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHGetKnownFolderItem",
+    "shlobj_core/SHGetKnownFolderItem"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-5-0.dll",
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "Shell32.dll",
+    "Ext-MS-Win-shell-shell32-l1-2-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-1.dll",
+    "API-MS-Win-Storage-Exports-Internal-L1-1-0.dll",
+    "Windows.Storage.dll",
+    "Ext-MS-Win-Shell-Shell32-L1-2-2.dll"
+  ],
+  "api_name": [
+    "SHGetKnownFolderItem"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)"
+}

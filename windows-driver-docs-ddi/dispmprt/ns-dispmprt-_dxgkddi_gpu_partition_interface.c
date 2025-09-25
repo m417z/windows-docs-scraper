@@ -1,0 +1,19 @@
+typedef struct _DXGKDDI_GPU_PARTITION_INTERFACE {
+  [in]  IN USHORT                           Size;
+  [in]  IN USHORT                           Version;
+  [out] OUT PVOID                           Context;
+  [out] OUT PINTERFACE_REFERENCE            InterfaceReference;
+  [out] OUT PINTERFACE_DEREFERENCE          InterfaceDereference;
+  [out] OUT PDXGKDDI_GETGPUPARTITIONINFO    DxgkDdiGetGpuPartitionInfo;
+  [out] OUT PDXGKDDI_SETGPUPARTITIONCOUNT   DxgkDdiSetGpuPartitionCount;
+  [out] OUT PDXGKDDI_GETGPUENGINES          DxgkDdiGetGpuEngines;
+  [out] OUT PDXGKDDI_GETVIRTUALGPUPROFILE   DxgkDdiGetVirtualGpuProfile;
+  [out] OUT PDXGKDDI_CREATEVIRTUALGPU       DxgkDdiCreateVirtualGpu;
+  [out] OUT PDXGKDDI_GETVIRTUALGPUINFO      DxgkDdiGetVirtualGpuInfo;
+  [out] OUT PDXGKDDI_SETVIRTUALGPURESOURCES DxgkDdiSetVirtualGpuResources;
+  [out] OUT PDXGKDDI_DESTROYVIRTUALGPU      DxgkDdiDestroyVirtualGpu;
+  [out] OUT PDXGKDDI_SUSPENDVIRTUALGPU      DxgkDdiSuspendVirtualGpu;
+  [out] OUT PDXGKDDI_RESUMEVIRTUALGPU       DxgkDdiResumeVirtualGpu;
+  [out] OUT PDXGKDDI_VIRTUALGPUDRIVERESCAPE DxgkDdiVirtualGpuDriverEscape;
+  [out] OUT PDXGKDDI_SETVIRTUALGPUVMBUS     DxgkDdiSetVirtualGpuVmBus;
+} DXGKDDI_GPU_PARTITION_INTERFACE, *PDXGKDDI_GPU_PARTITION_INTERFACE;

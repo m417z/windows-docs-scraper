@@ -1,0 +1,63 @@
+{
+  "UID": "NF:errorrep.AddERExcludedApplicationW",
+  "title": "AddERExcludedApplicationW function (errorrep.h)",
+  "description": "Excludes the specified application from error reporting. (Unicode)",
+  "helpviewer_keywords": [
+    "AddERExcludedApplication",
+    "AddERExcludedApplication function [Windows Error Reporting]",
+    "AddERExcludedApplicationW",
+    "_win32_adderexcludedapplication",
+    "base.adderexcludedapplication",
+    "errorrep/AddERExcludedApplication",
+    "errorrep/AddERExcludedApplicationW",
+    "wer.adderexcludedapplication"
+  ],
+  "old-location": "wer\\adderexcludedapplication.htm",
+  "tech.root": "wer",
+  "ms.assetid": "9055437b-2ee2-4f0a-bcef-2b04ac5368b3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AddERExcludedApplication, AddERExcludedApplication function [Windows Error Reporting], AddERExcludedApplicationA, AddERExcludedApplicationW, _win32_adderexcludedapplication, base.adderexcludedapplication, errorrep/AddERExcludedApplication, errorrep/AddERExcludedApplicationA, errorrep/AddERExcludedApplicationW, wer.adderexcludedapplication",
+  "req.header": "errorrep.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "AddERExcludedApplicationW (Unicode) and AddERExcludedApplicationA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Faultrep.lib",
+  "req.dll": "Faultrep.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AddERExcludedApplicationW",
+    "errorrep/AddERExcludedApplicationW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Faultrep.dll"
+  ],
+  "api_name": [
+    "AddERExcludedApplication",
+    "AddERExcludedApplicationA",
+    "AddERExcludedApplicationW"
+  ]
+}

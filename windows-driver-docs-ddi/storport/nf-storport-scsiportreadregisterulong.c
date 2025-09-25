@@ -1,0 +1,3 @@
+void ScsiPortReadRegisterUlong(
+  [in] Register
+);

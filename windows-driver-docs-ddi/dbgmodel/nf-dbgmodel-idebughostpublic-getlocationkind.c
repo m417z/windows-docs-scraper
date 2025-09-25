@@ -1,0 +1,3 @@
+HRESULT GetLocationKind(
+  LocationKind *locationKind
+);

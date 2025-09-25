@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ndis.NDIS_MAKE_RID",
+  "title": "NDIS_MAKE_RID macro (ndis.h)",
+  "description": "The NDIS_MAKE_RID macro builds an NDIS_VF_RID value from PCI Express (PCIe) segment, bus, device, and function numbers. The miniport driver uses this value as a PCIe Requestor ID (RID) for a network adapter's PCIe Virtual Function (VF).",
+  "tech.root": "netvista",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "NDIS_MAKE_RID macro"
+  ],
+  "ms.keywords": "NDIS_MAKE_RID",
+  "req.header": "ndis.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "returns-override": true,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "NDIS_MAKE_RID",
+    "ndis/NDIS_MAKE_RID"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NDIS_MAKE_RID"
+  ]
+}

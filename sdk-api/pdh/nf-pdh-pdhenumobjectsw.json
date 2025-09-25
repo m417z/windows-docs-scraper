@@ -1,0 +1,72 @@
+{
+  "UID": "NF:pdh.PdhEnumObjectsW",
+  "title": "PdhEnumObjectsW function (pdh.h)",
+  "description": "Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function. (Unicode)",
+  "helpviewer_keywords": [
+    "FALSE",
+    "PERF_DETAIL_ADVANCED",
+    "PERF_DETAIL_EXPERT",
+    "PERF_DETAIL_NOVICE",
+    "PERF_DETAIL_WIZARD",
+    "PdhEnumObjects",
+    "PdhEnumObjects function [Perf]",
+    "PdhEnumObjectsW",
+    "TRUE",
+    "_win32_pdhenumobjects",
+    "base.pdhenumobjects",
+    "pdh/PdhEnumObjects",
+    "pdh/PdhEnumObjectsW",
+    "perf.pdhenumobjects"
+  ],
+  "old-location": "perf\\pdhenumobjects.htm",
+  "tech.root": "perf",
+  "ms.assetid": "dfa4b10f-5134-4620-a6b0-0fa2c13a33ec",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjects, PdhEnumObjects function [Perf], PdhEnumObjectsA, PdhEnumObjectsW, TRUE, _win32_pdhenumobjects, base.pdhenumobjects, pdh/PdhEnumObjects, pdh/PdhEnumObjectsA, pdh/PdhEnumObjectsW, perf.pdhenumobjects",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhEnumObjectsW (Unicode) and PdhEnumObjectsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhEnumObjectsW",
+    "pdh/PdhEnumObjectsW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-eventing-pdh-l1-1-3.dll",
+    "ext-ms-win-eventing-pdh-l1-1-2.dll",
+    "ext-ms-win-eventing-pdh-l1-1-1.dll",
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhEnumObjects",
+    "PdhEnumObjectsA",
+    "PdhEnumObjectsW"
+  ]
+}

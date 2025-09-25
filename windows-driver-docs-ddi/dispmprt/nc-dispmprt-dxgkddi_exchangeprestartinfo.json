@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_EXCHANGEPRESTARTINFO",
+  "title": "DXGKDDI_EXCHANGEPRESTARTINFO (dispmprt.h)",
+  "description": "Allows very simple data to be exchanged between the OS and driver which may be required prior to DxgkDdiStartDevice device being called and therefore cannot be queried through normal caps or adapter info DDIs.",
+  "old-location": "display\\dxgkddi_exchangeprestartinfo.htm",
+  "tech.root": "display",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "DXGKDDI_EXCHANGEPRESTARTINFO callback function"
+  ],
+  "ms.keywords": "DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_EXCHANGEPRESTARTINFO",
+    "dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_EXCHANGEPRESTARTINFO"
+  ]
+}

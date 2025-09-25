@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION",
+  "title": "PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION (hdaudio.h)",
+  "description": "The AllocateDmaBufferWithNotification routine allocates a data buffer in system memory for a DMA engine.The function pointer type for an AllocateDmaBufferWithNotification routine is defined as follows.",
+  "old-location": "audio\\allocatedmabufferwithnotification.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function"
+  ],
+  "ms.keywords": "AllocateDmaBufferWithNotification, AllocateDmaBufferWithNotification callback function [Audio Devices], PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml, audio.allocatedmabufferwithnotification, hdaudio/AllocateDmaBufferWithNotification",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION",
+    "hdaudio/PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Hdaudio.h"
+  ],
+  "api_name": [
+    "PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION"
+  ]
+}

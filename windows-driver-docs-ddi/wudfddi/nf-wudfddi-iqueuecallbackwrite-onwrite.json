@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IQueueCallbackWrite.OnWrite",
+  "title": "IQueueCallbackWrite::OnWrite (wudfddi.h)",
+  "description": "The OnWrite method is called to handle a write request when an application writes information to a device through the Microsoft Win32 WriteFile or WriteFileEx function.",
+  "old-location": "wdf\\iqueuecallbackwrite_onwrite.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IQueueCallbackWrite::OnWrite"
+  ],
+  "ms.keywords": "IQueueCallbackWrite interface,OnWrite method, IQueueCallbackWrite.OnWrite, IQueueCallbackWrite::OnWrite, OnWrite, OnWrite method, OnWrite method,IQueueCallbackWrite interface, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, umdf.iqueuecallbackwrite_onwrite, wdf.iqueuecallbackwrite_onwrite, wudfddi/IQueueCallbackWrite::OnWrite",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IQueueCallbackWrite::OnWrite",
+    "wudfddi/IQueueCallbackWrite::OnWrite"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IQueueCallbackWrite::OnWrite"
+  ]
+}

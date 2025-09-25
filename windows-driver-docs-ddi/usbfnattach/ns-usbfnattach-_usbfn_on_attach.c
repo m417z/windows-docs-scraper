@@ -1,0 +1,4 @@
+typedef struct _USBFN_ON_ATTACH {
+  USBFN_PORT_TYPE     PortType;
+  USBFN_ATTACH_ACTION AttachAction;
+} USBFN_ON_ATTACH, *PUSBFN_ON_ATTACH;

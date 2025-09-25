@@ -1,0 +1,5 @@
+typedef struct _D3DKMT_SETVIDPNSOURCEHWPROTECTION {
+  D3DKMT_HANDLE                  hAdapter;
+  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
+  BOOL                           HwProtected;
+} D3DKMT_SETVIDPNSOURCEHWPROTECTION;

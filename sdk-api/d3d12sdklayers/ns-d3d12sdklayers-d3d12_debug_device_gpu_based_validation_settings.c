@@ -1,0 +1,5 @@
+typedef struct D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS {
+  UINT                                                   MaxMessagesPerCommandList;
+  D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE           DefaultShaderPatchMode;
+  D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS PipelineStateCreateFlags;
+} D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS;

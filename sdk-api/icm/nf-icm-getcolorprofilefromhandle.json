@@ -1,0 +1,44 @@
+{
+  "UID": "NF:icm.GetColorProfileFromHandle",
+  "title": "GetColorProfileFromHandle",
+  "tech.root": "wcs",
+  "description": "Given a handle to an open color profile, the **GetColorProfileFromHandle** function copies the contents of the profile into a buffer supplied by the application. If the handle is a Windows Color System (WCS) handle, then the DMP is returned and the CAMP and GMMP associated with the HPROFILE are ignored.",
+  "ms.date": "02/01/2021",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Mscms.dll",
+  "req.header": "icm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Mscms.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional \\[desktop apps only\\]",
+  "req.target-min-winversvr": "Windows 2000 Server \\[desktop apps only\\]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": null,
+  "api_location": [
+    "mscms.dll"
+  ],
+  "api_name": [
+    "GetColorProfileFromHandle"
+  ],
+  "f1_keywords": [
+    "GetColorProfileFromHandle",
+    "icm/GetColorProfileFromHandle"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

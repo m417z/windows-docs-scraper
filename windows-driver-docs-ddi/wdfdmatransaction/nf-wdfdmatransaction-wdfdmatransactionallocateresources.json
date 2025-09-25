@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfdmatransaction.WdfDmaTransactionAllocateResources",
+  "title": "WdfDmaTransactionAllocateResources function (wdfdmatransaction.h)",
+  "description": "The WdfDmaTransactionAllocateResources method reserves a single-packet or system-mode DMA enabler for exclusive (and repeated) use with the specified transaction object.",
+  "old-location": "wdf\\wdfdmatransactionallocateresources.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDmaTransactionAllocateResources function"
+  ],
+  "ms.keywords": "WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources",
+  "req.header": "wdfdmatransaction.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDmaTransactionAllocateResources",
+    "wdfdmatransaction/WdfDmaTransactionAllocateResources"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDmaTransactionAllocateResources"
+  ]
+}

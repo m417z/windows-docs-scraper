@@ -1,0 +1,5 @@
+typedef struct _CERT_SELECT_CRITERIA {
+  DWORD dwType;
+  DWORD cPara;
+  void  **ppPara;
+} CERT_SELECT_CRITERIA, *PCERT_SELECT_CRITERIA;

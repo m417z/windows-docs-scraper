@@ -1,0 +1,48 @@
+{
+  "UID": "NE:storport._STOR_TELEMETRY_CATEGORY",
+  "title": "STOR_TELEMETRY_CATEGORY",
+  "description": "The STOR_TELEMETRY_CATEGORY enumerator indicates the category of the telemetry event being logged in StorPortLogTelemetryEx.",
+  "tech.root": "storage",
+  "ms.date": "03/06/2019",
+  "keywords": [
+    "STOR_TELEMETRY_CATEGORY enumeration"
+  ],
+  "ms.keywords": "STOR_TELEMETRY_CATEGORY, STOR_TELEMETRY_CATEGORY, *PSTOR_TELEMETRY_CATEGORY, StorPortLogTelemetryEx, STORPORT_TELEMETRY_EVENT",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "req.typenames": "STOR_TELEMETRY_CATEGORY, *PSTOR_TELEMETRY_CATEGORY",
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_STOR_TELEMETRY_CATEGORY",
+    "storport/_STOR_TELEMETRY_CATEGORY",
+    "PSTOR_TELEMETRY_CATEGORY",
+    "storport/PSTOR_TELEMETRY_CATEGORY",
+    "STOR_TELEMETRY_CATEGORY",
+    "storport/STOR_TELEMETRY_CATEGORY"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_TELEMETRY_CATEGORY",
+    "PSTOR_TELEMETRY_CATEGORY",
+    "STOR_TELEMETRY_CATEGORY"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

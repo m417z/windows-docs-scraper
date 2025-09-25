@@ -1,0 +1,10 @@
+typedef struct _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS {
+  NDIS_OBJECT_HEADER                   Header;
+  ULONG                                Flags;
+  NDIS_CHIMNEY_OFFLOAD_TYPE            OffloadType;
+  W_TCP_OFFLOAD_SEND_HANDLER           TcpOffloadSendHandler;
+  W_TCP_OFFLOAD_RECEIVE_HANDLER        TcpOffloadReceiveHandler;
+  W_TCP_OFFLOAD_DISCONNECT_HANDLER     TcpOffloadDisconnectHandler;
+  W_TCP_OFFLOAD_FORWARD_HANDLER        TcpOffloadForwardHandler;
+  W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER TcpOffloadReceiveReturnHandler;
+} NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS;

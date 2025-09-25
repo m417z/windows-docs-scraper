@@ -1,0 +1,6 @@
+PFND3DKMT_GETRESOURCEPRESENTPRIVATEDRIVERDATA Pfnd3dkmtGetresourcepresentprivatedriverdata;
+
+NTSTATUS Pfnd3dkmtGetresourcepresentprivatedriverdata(
+  D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA *unnamedParam1
+)
+{...}

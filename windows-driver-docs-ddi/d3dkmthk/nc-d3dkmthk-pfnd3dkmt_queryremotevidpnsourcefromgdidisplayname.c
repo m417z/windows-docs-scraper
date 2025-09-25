@@ -1,0 +1,6 @@
+PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME Pfnd3dkmtQueryremotevidpnsourcefromgdidisplayname;
+
+NTSTATUS Pfnd3dkmtQueryremotevidpnsourcefromgdidisplayname(
+  [in, out] D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME *unnamedParam1
+)
+{...}

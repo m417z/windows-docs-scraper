@@ -1,0 +1,4 @@
+typedef struct VDS_REPARSE_POINT_PROP {
+  VDS_OBJECT_ID SourceVolumeId;
+  LPWSTR        pwszPath;
+} VDS_REPARSE_POINT_PROP, *PVDS_REPARSE_POINT_PROP;

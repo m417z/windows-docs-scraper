@@ -1,0 +1,6 @@
+PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION Pfnd3dkmtSharedprimaryunlocknotification;
+
+NTSTATUS Pfnd3dkmtSharedprimaryunlocknotification(
+  const D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION *unnamedParam1
+)
+{...}

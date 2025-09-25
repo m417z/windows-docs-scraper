@@ -1,0 +1,9 @@
+typedef enum FAX_PROVIDER_STATUS_ENUM {
+  fpsSUCCESS = 0,
+  fpsSERVER_ERROR,
+  fpsBAD_GUID,
+  fpsBAD_VERSION,
+  fpsCANT_LOAD,
+  fpsCANT_LINK,
+  fpsCANT_INIT
+} ;

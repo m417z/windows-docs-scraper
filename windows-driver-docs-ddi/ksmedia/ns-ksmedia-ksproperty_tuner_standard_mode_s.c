@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY Property;
+  BOOL       AutoDetect;
+} KSPROPERTY_TUNER_STANDARD_MODE_S, *PKSPROPERTY_TUNER_STANDARD_MODE_S;

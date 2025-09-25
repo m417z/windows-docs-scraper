@@ -1,0 +1,36 @@
+{
+  "UID": "NI:ntddvdeo.IOCTL_MIPI_DSI_RESET",
+  "title": "IOCTL_MIPI_DSI_RESET",
+  "description": "IOCTL_MIPI_DSI_RESET requests the reset of a device under graphics driver and OS control.",
+  "tech.root": "display",
+  "ms.date": "03/24/2020",
+  "req.header": "ntddvdeo.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "targetos": "Windows",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddvdeo.h"
+  ],
+  "api_name": [
+    "IOCTL_MIPI_DSI_RESET"
+  ],
+  "f1_keywords": [
+    "IOCTL_MIPI_DSI_RESET",
+    "ntddvdeo/IOCTL_MIPI_DSI_RESET"
+  ]
+}

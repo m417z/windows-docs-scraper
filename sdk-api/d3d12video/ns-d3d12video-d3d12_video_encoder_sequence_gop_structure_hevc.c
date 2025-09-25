@@ -1,0 +1,5 @@
+typedef struct D3D12_VIDEO_ENCODER_SEQUENCE_GOP_STRUCTURE_HEVC {
+  UINT  GOPLength;
+  UINT  PPicturePeriod;
+  UCHAR log2_max_pic_order_cnt_lsb_minus4;
+} D3D12_VIDEO_ENCODER_SEQUENCE_GOP_STRUCTURE_HEVC;

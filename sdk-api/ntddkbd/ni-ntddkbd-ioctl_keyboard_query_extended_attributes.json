@@ -1,0 +1,57 @@
+{
+  "UID": "NI:ntddkbd.IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES",
+  "title": "IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES (ntddkbd.h)",
+  "description": "The IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES request returns information about the extended keyboard attributes.",
+  "helpviewer_keywords": [
+    "IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES",
+    "IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES control",
+    "IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES control code [Human Input Devices]",
+    "hid.ioctl_keyboard_query_extended_attributes2",
+    "ntddkbd/IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES"
+  ],
+  "tech.root": "hid",
+  "ms.assetid": "c7361226-a04f-457a-b865-3f2e037d100c",
+  "ms.date": "08/06/2020",
+  "ms.keywords": "IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES, IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES control, IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES control code [Human Input Devices], hid.ioctl_keyboard_query_extended_attributes2, ntddkbd/IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES",
+  "req.header": "ntddkbd.h",
+  "req.include-header": "Ntddkbd.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES",
+    "ntddkbd/IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddkbd.h"
+  ],
+  "api_name": [
+    "IOCTL_KEYBOARD_QUERY_EXTENDED_ATTRIBUTES"
+  ]
+}

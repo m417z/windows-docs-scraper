@@ -1,0 +1,51 @@
+{
+  "UID": "NF:irb.AtaPortReadRegisterUlong",
+  "title": "AtaPortReadRegisterUlong function (irb.h)",
+  "description": "The AtaPortReadRegisterUlong routine reads a ULONG value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ataportreadregisterulong.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortReadRegisterUlong function"
+  ],
+  "ms.keywords": "AtaPortReadRegisterUlong, AtaPortReadRegisterUlong routine [Storage Devices], atartns_a5e1a904-214d-45fc-9ade-fc5ad7d56694.xml, irb/AtaPortReadRegisterUlong, storage.ataportreadregisterulong",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ataport.lib; Pciidex.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortReadRegisterUlong",
+    "irb/AtaPortReadRegisterUlong"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ataport.lib",
+    "ataport.dll",
+    "pciidex.lib",
+    "pciidex.dll"
+  ],
+  "api_name": [
+    "AtaPortReadRegisterUlong"
+  ]
+}

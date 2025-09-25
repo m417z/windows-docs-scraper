@@ -1,0 +1,50 @@
+{
+  "UID": "NF:audioclient.IAcousticEchoCancellationControl.SetEchoCancellationRenderEndpoint",
+  "tech.root": "CoreAudio",
+  "title": "IAcousticEchoCancellationControl::SetEchoCancellationRenderEndpoint",
+  "ms.date": "02/28/2023",
+  "targetos": "Windows",
+  "description": "Sets the audio render endpoint that should be used as the reference stream for acoustic echo cancellation (AEC).",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audioclient.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22621",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "audioclient.h"
+  ],
+  "api_name": [
+    "IAcousticEchoCancellationControl::SetEchoCancellationRenderEndpoint"
+  ],
+  "f1_keywords": [
+    "IAcousticEchoCancellationControl::SetEchoCancellationRenderEndpoint",
+    "audioclient/IAcousticEchoCancellationControl::SetEchoCancellationRenderEndpoint"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "SetEchoCancellationRenderEndpoint"
+  ]
+}

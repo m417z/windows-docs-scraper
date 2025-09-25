@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderCallbackAdvanced.AllocateForStream",
+  "title": "IWMReaderCallbackAdvanced::AllocateForStream (wmsdkidl.h)",
+  "description": "The AllocateForStream method allocates user-created buffers for stream samples delivered to IWMReaderCallbackAdvanced::OnStreamSample. For more information about allocating your own buffers, see User Allocated Sample Support.",
+  "helpviewer_keywords": [
+    "AllocateForStream",
+    "AllocateForStream method [windows Media Format]",
+    "AllocateForStream method [windows Media Format]",
+    "IWMReaderCallbackAdvanced interface",
+    "IWMReaderCallbackAdvanced interface [windows Media Format]",
+    "AllocateForStream method",
+    "IWMReaderCallbackAdvanced.AllocateForStream",
+    "IWMReaderCallbackAdvanced::AllocateForStream",
+    "IWMReaderCallbackAdvancedAllocateForStream",
+    "wmformat.iwmreadercallbackadvanced_allocateforstream",
+    "wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream"
+  ],
+  "old-location": "wmformat\\iwmreadercallbackadvanced_allocateforstream.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "82d31f4b-d8a8-4538-be5e-dd9149e3f420",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "AllocateForStream, AllocateForStream method [windows Media Format], AllocateForStream method [windows Media Format],IWMReaderCallbackAdvanced interface, IWMReaderCallbackAdvanced interface [windows Media Format],AllocateForStream method, IWMReaderCallbackAdvanced.AllocateForStream, IWMReaderCallbackAdvanced::AllocateForStream, IWMReaderCallbackAdvancedAllocateForStream, wmformat.iwmreadercallbackadvanced_allocateforstream, wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderCallbackAdvanced::AllocateForStream",
+    "wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmsdkidl.h"
+  ],
+  "api_name": [
+    "IWMReaderCallbackAdvanced.AllocateForStream"
+  ]
+}

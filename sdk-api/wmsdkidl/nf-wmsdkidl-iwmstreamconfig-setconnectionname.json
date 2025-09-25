@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMStreamConfig.SetConnectionName",
+  "title": "IWMStreamConfig::SetConnectionName (wmsdkidl.h)",
+  "description": "The SetConnectionName method specifies a name for an input. If the profile you are creating contains multiple bit rate mutual exclusion, each of the mutually exclusive streams must have the same connection name.",
+  "helpviewer_keywords": [
+    "IWMStreamConfig interface [windows Media Format]",
+    "SetConnectionName method",
+    "IWMStreamConfig.SetConnectionName",
+    "IWMStreamConfig::SetConnectionName",
+    "IWMStreamConfigSetConnectionName",
+    "SetConnectionName",
+    "SetConnectionName method [windows Media Format]",
+    "SetConnectionName method [windows Media Format]",
+    "IWMStreamConfig interface",
+    "wmformat.iwmstreamconfig_setconnectionname",
+    "wmsdkidl/IWMStreamConfig::SetConnectionName"
+  ],
+  "old-location": "wmformat\\iwmstreamconfig_setconnectionname.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "bd67e0b5-3bfa-46c1-996d-6b026c1144cb",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMStreamConfig interface [windows Media Format],SetConnectionName method, IWMStreamConfig.SetConnectionName, IWMStreamConfig::SetConnectionName, IWMStreamConfigSetConnectionName, SetConnectionName, SetConnectionName method [windows Media Format], SetConnectionName method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setconnectionname, wmsdkidl/IWMStreamConfig::SetConnectionName",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMStreamConfig::SetConnectionName",
+    "wmsdkidl/IWMStreamConfig::SetConnectionName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMStreamConfig.SetConnectionName"
+  ]
+}

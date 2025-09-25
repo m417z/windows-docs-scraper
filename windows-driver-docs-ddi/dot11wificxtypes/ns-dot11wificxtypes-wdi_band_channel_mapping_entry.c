@@ -1,0 +1,5 @@
+typedef struct _WDI_BAND_CHANNEL_MAPPING_ENTRY {
+  WDI_BAND_ID        BandId;
+  WDI_CHANNEL_NUMBER ChannelNumber;
+  UINT32             ChannelCenterFrequency;
+} WDI_BAND_CHANNEL_MAPPING_ENTRY, *PWDI_BAND_CHANNEL_MAPPING_ENTRY;

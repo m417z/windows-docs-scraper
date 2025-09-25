@@ -1,0 +1,3 @@
+VOID SEC_ENTRY SspiZeroAuthIdentity(
+  [in] PSEC_WINNT_AUTH_IDENTITY_OPAQUE AuthData
+);

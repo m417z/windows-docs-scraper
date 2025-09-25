@@ -1,0 +1,3 @@
+BOOL BluetoothIsDiscoverable(
+  HANDLE hRadio
+);

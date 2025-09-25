@@ -1,0 +1,21 @@
+typedef struct _DDVIDEOPORTCAPS {
+  DWORD dwSize;
+  DWORD dwFlags;
+  DWORD dwMaxWidth;
+  DWORD dwMaxVBIWidth;
+  DWORD dwMaxHeight;
+  DWORD dwVideoPortID;
+  DWORD dwCaps;
+  DWORD dwFX;
+  DWORD dwNumAutoFlipSurfaces;
+  DWORD dwAlignVideoPortBoundary;
+  DWORD dwAlignVideoPortPrescaleWidth;
+  DWORD dwAlignVideoPortCropBoundary;
+  DWORD dwAlignVideoPortCropWidth;
+  DWORD dwPreshrinkXStep;
+  DWORD dwPreshrinkYStep;
+  DWORD dwNumVBIAutoFlipSurfaces;
+  DWORD dwNumPreferredAutoflip;
+  WORD  wNumFilterTapsX;
+  WORD  wNumFilterTapsY;
+} *LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS;

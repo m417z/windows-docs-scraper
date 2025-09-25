@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1018 {
+  DWORD usri1018_max_storage;
+} USER_INFO_1018, *PUSER_INFO_1018, *LPUSER_INFO_1018;

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:ntmsapi.SwapNtmsMedia",
+  "title": "SwapNtmsMedia function (ntmsapi.h)",
+  "description": "The SwapNtmsMedia function swaps the sides associated with the two specified LMIDs. The specified LMIDs must be in the same media pool.",
+  "helpviewer_keywords": [
+    "SwapNtmsMedia",
+    "SwapNtmsMedia function [Files]",
+    "_zaw_swapntmsmedia",
+    "base.swapntmsmedia",
+    "fs.swapntmsmedia",
+    "ntmsapi/SwapNtmsMedia"
+  ],
+  "old-location": "fs\\swapntmsmedia.htm",
+  "tech.root": "fs",
+  "ms.assetid": "1e931ae0-b15c-48c8-b6a0-6fa1689263a2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, base.swapntmsmedia, fs.swapntmsmedia, ntmsapi/SwapNtmsMedia",
+  "req.header": "ntmsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntmsapi.lib",
+  "req.dll": "Ntmsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SwapNtmsMedia",
+    "ntmsapi/SwapNtmsMedia"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntmsapi.dll"
+  ],
+  "api_name": [
+    "SwapNtmsMedia"
+  ]
+}

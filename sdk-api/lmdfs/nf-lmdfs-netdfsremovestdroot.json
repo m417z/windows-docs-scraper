@@ -1,0 +1,60 @@
+{
+  "UID": "NF:lmdfs.NetDfsRemoveStdRoot",
+  "title": "NetDfsRemoveStdRoot function (lmdfs.h)",
+  "description": "Deletes a stand-alone Distributed File System (DFS) namespace.",
+  "helpviewer_keywords": [
+    "NetDfsRemoveStdRoot",
+    "NetDfsRemoveStdRoot function [Distributed File System]",
+    "_win32_netdfsremovestdroot",
+    "dfs.netdfsremovestdroot",
+    "fs.netdfsremovestdroot",
+    "lmdfs/NetDfsRemoveStdRoot",
+    "netmgmt.netdfsremovestdroot"
+  ],
+  "old-location": "dfs\\netdfsremovestdroot.htm",
+  "tech.root": "Dfs",
+  "ms.assetid": "850427cc-56da-45cc-8833-e242acc53589",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NetDfsRemoveStdRoot, NetDfsRemoveStdRoot function [Distributed File System], _win32_netdfsremovestdroot, dfs.netdfsremovestdroot, fs.netdfsremovestdroot, lmdfs/NetDfsRemoveStdRoot, netmgmt.netdfsremovestdroot",
+  "req.header": "lmdfs.h",
+  "req.include-header": "LmDfs.h, Lm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NetDfsRemoveStdRoot",
+    "lmdfs/NetDfsRemoveStdRoot"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "NetDfsRemoveStdRoot"
+  ]
+}

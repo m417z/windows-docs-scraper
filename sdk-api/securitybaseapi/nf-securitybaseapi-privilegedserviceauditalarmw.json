@@ -1,0 +1,57 @@
+{
+  "UID": "NF:securitybaseapi.PrivilegedServiceAuditAlarmW",
+  "tech.root": "security",
+  "title": "PrivilegedServiceAuditAlarmW",
+  "ms.date": "04/20/2021",
+  "targetos": "Windows",
+  "description": "Generates an audit message in the security event log.  (PrivilegedServiceAuditAlarmW)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Advapi32.dll",
+  "req.header": "securitybaseapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Advapi32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-base-l1-2-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "API-MS-Win-Security-base-l1-1-0.dll",
+    "API-MS-Win-Security-base-l1-2-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Security-Base-L1-2-1.dll"
+  ],
+  "api_name": [
+    "PrivilegedServiceAuditAlarmW",
+    "PrivilegedServiceAuditAlarm"
+  ],
+  "f1_keywords": [
+    "PrivilegedServiceAuditAlarmW",
+    "securitybaseapi/PrivilegedServiceAuditAlarmW",
+    "PrivilegedServiceAuditAlarm",
+    "securitybaseapi/PrivilegedServiceAuditAlarm"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

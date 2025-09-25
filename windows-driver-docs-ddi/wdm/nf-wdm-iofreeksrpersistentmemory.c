@@ -1,0 +1,3 @@
+NTSTATUS IoFreeKsrPersistentMemory(
+  PVOID DataHandle
+);

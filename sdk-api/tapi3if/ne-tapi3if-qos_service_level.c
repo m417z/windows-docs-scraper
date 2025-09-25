@@ -1,0 +1,5 @@
+typedef enum QOS_SERVICE_LEVEL {
+  QSL_NEEDED = 1,
+  QSL_IF_AVAILABLE = 2,
+  QSL_BEST_EFFORT = 3
+} ;

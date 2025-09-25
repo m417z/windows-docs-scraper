@@ -1,0 +1,3 @@
+typedef struct _MIB_IFNUMBER {
+  DWORD dwValue;
+} MIB_IFNUMBER, *PMIB_IFNUMBER;

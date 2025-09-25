@@ -1,0 +1,72 @@
+{
+  "UID": "NS:ddraw._DDBLTFX",
+  "title": "DDBLTFX (ddraw.h)",
+  "description": "The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the IDirectDrawSurface7::Blt method. This structure is also part of the DDBLTBATCH structure that is used with the IDirectDrawSurface7::BltBatch method.",
+  "helpviewer_keywords": [
+    "*LPDDBLTFX",
+    "DDBLTFX",
+    "DDBLTFX structure [DirectDraw]",
+    "DDBLTFX_ARITHSTRETCHY",
+    "DDBLTFX_MIRRORLEFTRIGHT",
+    "DDBLTFX_MIRRORUPDOWN",
+    "DDBLTFX_NOTEARING",
+    "DDBLTFX_ROTATE180",
+    "DDBLTFX_ROTATE270",
+    "DDBLTFX_ROTATE90",
+    "DDBLTFX_ZBUFFERBASEDEST",
+    "DDBLTFX_ZBUFFERRANGE",
+    "LPDDBLTFX",
+    "LPDDBLTFX structure pointer [DirectDraw]",
+    "ddraw/DDBLTFX",
+    "ddraw/LPDDBLTFX",
+    "directdraw.ddbltfx"
+  ],
+  "old-location": "directdraw\\ddbltfx.htm",
+  "tech.root": "directdraw",
+  "ms.assetid": "a542434f-61d3-4c73-a087-ffb83a509c67",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPDDBLTFX, DDBLTFX, DDBLTFX structure [DirectDraw], DDBLTFX_ARITHSTRETCHY, DDBLTFX_MIRRORLEFTRIGHT, DDBLTFX_MIRRORUPDOWN, DDBLTFX_NOTEARING, DDBLTFX_ROTATE180, DDBLTFX_ROTATE270, DDBLTFX_ROTATE90, DDBLTFX_ZBUFFERBASEDEST, DDBLTFX_ZBUFFERRANGE, LPDDBLTFX, LPDDBLTFX structure pointer [DirectDraw], ddraw/DDBLTFX, ddraw/LPDDBLTFX, directdraw.ddbltfx",
+  "req.header": "ddraw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DDBLTFX",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DDBLTFX",
+    "ddraw/_DDBLTFX",
+    "DDBLTFX",
+    "ddraw/DDBLTFX"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ddraw.h"
+  ],
+  "api_name": [
+    "DDBLTFX"
+  ]
+}

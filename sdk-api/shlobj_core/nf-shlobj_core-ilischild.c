@@ -1,0 +1,3 @@
+BOOL ILIsChild(
+  [in] PCUIDLIST_RELATIVE pidl
+);

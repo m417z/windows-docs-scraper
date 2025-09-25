@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATE_COMMAND_POOL_0040 Pfnd3d12ddiCreateCommandPool0040;
+
+HRESULT Pfnd3d12ddiCreateCommandPool0040(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_COMMAND_POOL_0040 *unnamedParam2,
+  D3D12DDI_HCOMMANDPOOL_0040 unnamedParam3
+)
+{...}

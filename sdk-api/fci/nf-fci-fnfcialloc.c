@@ -1,0 +1,3 @@
+void FNFCIALLOC(
+  fn
+);

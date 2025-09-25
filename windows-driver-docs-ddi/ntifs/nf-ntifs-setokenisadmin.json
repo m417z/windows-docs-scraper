@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.SeTokenIsAdmin",
+  "title": "SeTokenIsAdmin function (ntifs.h)",
+  "description": "The SeTokenIsAdmin routine determines whether a token contains the local administrators group.",
+  "old-location": "ifsk\\setokenisadmin.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SeTokenIsAdmin function"
+  ],
+  "ms.keywords": "SeTokenIsAdmin, SeTokenIsAdmin routine [Installable File System Drivers], ifsk.setokenisadmin, ntifs/SeTokenIsAdmin, seref_e621b2f6-c7c3-4df0-90d4-87a42080e1bd.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeTokenIsAdmin",
+    "ntifs/SeTokenIsAdmin"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "SeTokenIsAdmin"
+  ]
+}

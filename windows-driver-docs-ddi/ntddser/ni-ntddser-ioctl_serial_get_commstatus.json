@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddser.IOCTL_SERIAL_GET_COMMSTATUS",
+  "title": "IOCTL_SERIAL_GET_COMMSTATUS (ntddser.h)",
+  "description": "The IOCTL_SERIAL_GET_COMMSTATUS request returns information about the communication status of a serial device. For more information about the status information that is retrieved by this request, see SERIAL_STATUS.",
+  "old-location": "serports\\ioctl_serial_get_commstatus.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_SERIAL_GET_COMMSTATUS IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SERIAL_GET_COMMSTATUS, IOCTL_SERIAL_GET_COMMSTATUS control, IOCTL_SERIAL_GET_COMMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_COMMSTATUS, serports.ioctl_serial_get_commstatus, serref_4c26c2fc-2285-4b46-8791-0fb613e1c05a.xml",
+  "req.header": "ntddser.h",
+  "req.include-header": "Ntddser.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SERIAL_GET_COMMSTATUS",
+    "ntddser/IOCTL_SERIAL_GET_COMMSTATUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddser.h"
+  ],
+  "api_name": [
+    "IOCTL_SERIAL_GET_COMMSTATUS"
+  ]
+}

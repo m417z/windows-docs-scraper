@@ -1,0 +1,3 @@
+void MFP_GET_MEDIAITEM_CLEARED_EVENT(
+   pHdr
+);

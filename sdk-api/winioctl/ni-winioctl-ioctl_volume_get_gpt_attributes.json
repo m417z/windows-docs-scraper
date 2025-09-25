@@ -1,0 +1,57 @@
+{
+  "UID": "NI:winioctl.IOCTL_VOLUME_GET_GPT_ATTRIBUTES",
+  "title": "IOCTL_VOLUME_GET_GPT_ATTRIBUTES",
+  "description": "Retrieves the attributes for a volume.",
+  "helpviewer_keywords": [
+    "IOCTL_VOLUME_GET_GPT_ATTRIBUTES",
+    "IOCTL_VOLUME_GET_GPT_ATTRIBUTES control",
+    "IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code [Files]",
+    "fs.ioctl_volume_get_gpt_attributes",
+    "winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES"
+  ],
+  "old-location": "fs\\ioctl_volume_get_gpt_attributes.htm",
+  "tech.root": "fs",
+  "ms.assetid": "3e58e0d6-215a-47f3-b1bf-e8d53c224b68",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IOCTL_VOLUME_GET_GPT_ATTRIBUTES, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control, IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code [Files], fs.ioctl_volume_get_gpt_attributes, winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "IOCTL_VOLUME_GET_GPT_ATTRIBUTES",
+    "winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "IOCTL_VOLUME_GET_GPT_ATTRIBUTES"
+  ]
+}

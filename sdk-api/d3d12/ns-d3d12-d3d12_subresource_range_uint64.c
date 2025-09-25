@@ -1,0 +1,4 @@
+typedef struct D3D12_SUBRESOURCE_RANGE_UINT64 {
+  UINT               Subresource;
+  D3D12_RANGE_UINT64 Range;
+} D3D12_SUBRESOURCE_RANGE_UINT64;

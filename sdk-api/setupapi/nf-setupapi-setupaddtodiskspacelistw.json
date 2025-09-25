@@ -1,0 +1,64 @@
+{
+  "UID": "NF:setupapi.SetupAddToDiskSpaceListW",
+  "title": "SetupAddToDiskSpaceListW function (setupapi.h)",
+  "description": "The SetupAddToDiskSpaceList function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either SetupAddSectionToDiskSpaceList, or SetupAddInstallSectionToDiskSpaceList. (Unicode)",
+  "helpviewer_keywords": [
+    "FILEOP_COPY.",
+    "FILEOP_DELETE",
+    "SetupAddToDiskSpaceList",
+    "SetupAddToDiskSpaceList function [Setup API]",
+    "SetupAddToDiskSpaceListW",
+    "_setupapi_setupaddtodiskspacelist",
+    "setup.setupaddtodiskspacelist",
+    "setupapi/SetupAddToDiskSpaceList",
+    "setupapi/SetupAddToDiskSpaceListW"
+  ],
+  "old-location": "setup\\setupaddtodiskspacelist.htm",
+  "tech.root": "setup",
+  "ms.assetid": "f1bb7096-b4a6-450b-9552-9a3dc4c71f24",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FILEOP_COPY., FILEOP_DELETE, SetupAddToDiskSpaceList, SetupAddToDiskSpaceList function [Setup API], SetupAddToDiskSpaceListA, SetupAddToDiskSpaceListW, _setupapi_setupaddtodiskspacelist, setup.setupaddtodiskspacelist, setupapi/SetupAddToDiskSpaceList, setupapi/SetupAddToDiskSpaceListA, setupapi/SetupAddToDiskSpaceListW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupAddToDiskSpaceListW (Unicode) and SetupAddToDiskSpaceListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupAddToDiskSpaceListW",
+    "setupapi/SetupAddToDiskSpaceListW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupAddToDiskSpaceList",
+    "SetupAddToDiskSpaceListA",
+    "SetupAddToDiskSpaceListW"
+  ]
+}

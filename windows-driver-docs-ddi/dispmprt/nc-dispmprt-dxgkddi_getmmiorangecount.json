@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_GETMMIORANGECOUNT",
+  "title": "DXGKDDI_GETMMIORANGECOUNT (dispmprt.h)",
+  "description": "Gets the number of memory ranges in the virtual device's MMIO (memory mapped input output) BARs.",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "DXGKDDI_GETMMIORANGECOUNT callback function"
+  ],
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "DXGKDDI_GETMMIORANGECOUNT",
+    "dispmprt/DXGKDDI_GETMMIORANGECOUNT"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_GETMMIORANGECOUNT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

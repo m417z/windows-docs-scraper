@@ -1,0 +1,52 @@
+{
+  "UID": "NF:processthreadsapi.TlsGetValue2",
+  "tech.root": "processthreadsapi",
+  "title": "TlsGetValue2 function (processthreadsapi.h)",
+  "ms.date": "08/07/2024",
+  "ms.keywords": "TlsGetValue2, TlsGetValue2 function, _win32_tlsgetvalue2, base.tlsgetvalue2, processthreadsapi/TlsGetValue2, winbase/TlsGetValue2",
+  "targetos": "Windows",
+  "description": "Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.apiset": "api-ms-win-core-processthreads-l1-1-8",
+  "req.header": "processthreadsapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "processthreadsapi.h"
+  ],
+  "api_name": [
+    "TlsGetValue2"
+  ],
+  "f1_keywords": [
+    "TlsGetValue2",
+    "processthreadsapi/TlsGetValue2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "TlsGetValue2"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._PRIVILEGE_SET",
+  "title": "PRIVILEGE_SET (wdm.h)",
+  "description": "The PRIVILEGE_SET structure specifies a set of security privileges.",
+  "old-location": "kernel\\privilege_set.htm",
+  "tech.root": "kernel",
+  "ms.date": "07/15/2022",
+  "keywords": [
+    "PRIVILEGE_SET structure"
+  ],
+  "ms.keywords": "*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], PRIVILEGE_SET, PRIVILEGE_SET structure [Kernel-Mode Driver Architecture], _PRIVILEGE_SET, kernel.privilege_set, kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, wdm/PNP_BUS_INFORMATION, wdm/PPRIVILEGE_SET",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PRIVILEGE_SET, *PPRIVILEGE_SET",
+  "f1_keywords": [
+    "_PRIVILEGE_SET",
+    "wdm/_PRIVILEGE_SET",
+    "PPRIVILEGE_SET",
+    "wdm/PPRIVILEGE_SET",
+    "PRIVILEGE_SET",
+    "wdm/PRIVILEGE_SET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_PRIVILEGE_SET",
+    "PPRIVILEGE_SET",
+    "PRIVILEGE_SET"
+  ]
+}

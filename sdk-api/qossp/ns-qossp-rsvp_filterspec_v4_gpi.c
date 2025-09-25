@@ -1,0 +1,4 @@
+typedef struct _RSVP_FILTERSPEC_V4_GPI {
+  IN_ADDR_IPV4 Address;
+  ULONG        GeneralPortId;
+} RSVP_FILTERSPEC_V4_GPI, *LPRSVP_FILTERSPEC_V4_GPI;

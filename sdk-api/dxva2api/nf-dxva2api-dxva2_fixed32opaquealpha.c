@@ -1,0 +1,1 @@
+const DXVA2_Fixed32 DXVA2_Fixed32OpaqueAlpha();

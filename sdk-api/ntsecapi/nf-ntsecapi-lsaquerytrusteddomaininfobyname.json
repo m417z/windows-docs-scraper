@@ -1,0 +1,67 @@
+{
+  "UID": "NF:ntsecapi.LsaQueryTrustedDomainInfoByName",
+  "title": "LsaQueryTrustedDomainInfoByName function (ntsecapi.h)",
+  "description": "The LsaQueryTrustedDomainInfoByName function returns information about a trusted domain.",
+  "helpviewer_keywords": [
+    "LsaQueryTrustedDomainInfoByName",
+    "LsaQueryTrustedDomainInfoByName function [Security]",
+    "TrustedDomainFullInformation",
+    "TrustedDomainInformationBasic",
+    "TrustedDomainInformationEx",
+    "TrustedDomainNameInformation",
+    "TrustedPasswordInformation",
+    "TrustedPosixInformation",
+    "_lsa_lsaquerytrusteddomaininfobyname",
+    "ntsecapi/LsaQueryTrustedDomainInfoByName",
+    "security.lsaquerytrusteddomaininfobyname"
+  ],
+  "old-location": "security\\lsaquerytrusteddomaininfobyname.htm",
+  "tech.root": "security",
+  "ms.assetid": "d33d6cee-bd8b-49f4-8e65-07cdc65bec7c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaQueryTrustedDomainInfoByName, LsaQueryTrustedDomainInfoByName function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixInformation, _lsa_lsaquerytrusteddomaininfobyname, ntsecapi/LsaQueryTrustedDomainInfoByName, security.lsaquerytrusteddomaininfobyname",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaQueryTrustedDomainInfoByName",
+    "ntsecapi/LsaQueryTrustedDomainInfoByName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-lsa-l1-1-4.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-3.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-2.dll",
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "LsaQueryTrustedDomainInfoByName"
+  ]
+}

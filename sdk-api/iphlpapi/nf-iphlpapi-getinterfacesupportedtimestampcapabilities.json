@@ -1,0 +1,54 @@
+{
+  "UID": "NF:iphlpapi.GetInterfaceSupportedTimestampCapabilities",
+  "title": "GetInterfaceSupportedTimestampCapabilities",
+  "description": "Retrieves the supported timestamp capabilities of a network adapter.",
+  "helpviewer_keywords": [
+    "GetInterfaceSupportedTimestampCapabilities",
+    "GetInterfaceSupportedTimestampCapabilities function [IP Helper]",
+    "iphlp.getinterfacesupportedtimestampcapabilities",
+    "iphlpapi/GetInterfaceSupportedTimestampCapabilities"
+  ],
+  "tech.root": "IpHlp",
+  "ms.date": "01/06/2021",
+  "req.construct-type": "function",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "GetInterfaceSupportedTimestampCapabilities",
+    "iphlpapi/GetInterfaceSupportedTimestampCapabilities"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "GetInterfaceSupportedTimestampCapabilities"
+  ]
+}

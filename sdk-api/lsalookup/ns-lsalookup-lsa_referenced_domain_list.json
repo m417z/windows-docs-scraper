@@ -1,0 +1,67 @@
+{
+  "UID": "NS:lsalookup._LSA_REFERENCED_DOMAIN_LIST",
+  "title": "LSA_REFERENCED_DOMAIN_LIST (lsalookup.h)",
+  "description": "The LSA_REFERENCED_DOMAIN_LIST structure contains information about the domains referenced in a lookup operation.",
+  "helpviewer_keywords": [
+    "*PLSA_REFERENCED_DOMAIN_LIST",
+    "LSA_REFERENCED_DOMAIN_LIST",
+    "LSA_REFERENCED_DOMAIN_LIST structure [Security]",
+    "PLSA_REFERENCED_DOMAIN_LIST",
+    "PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security]",
+    "_LSA_REFERENCED_DOMAIN_LIST",
+    "_lsa_lsa_referenced_domain_list",
+    "lsalookup/LSA_REFERENCED_DOMAIN_LIST",
+    "lsalookup/PLSA_REFERENCED_DOMAIN_LIST",
+    "security.lsa_referenced_domain_list"
+  ],
+  "old-location": "security\\lsa_referenced_domain_list.htm",
+  "tech.root": "security",
+  "ms.assetid": "ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PLSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST structure [Security], PLSA_REFERENCED_DOMAIN_LIST, PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security], _LSA_REFERENCED_DOMAIN_LIST, _lsa_lsa_referenced_domain_list, lsalookup/LSA_REFERENCED_DOMAIN_LIST, lsalookup/PLSA_REFERENCED_DOMAIN_LIST, security.lsa_referenced_domain_list",
+  "req.header": "lsalookup.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LSA_REFERENCED_DOMAIN_LIST, *PLSA_REFERENCED_DOMAIN_LIST",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_LSA_REFERENCED_DOMAIN_LIST",
+    "lsalookup/_LSA_REFERENCED_DOMAIN_LIST",
+    "PLSA_REFERENCED_DOMAIN_LIST",
+    "lsalookup/PLSA_REFERENCED_DOMAIN_LIST",
+    "LSA_REFERENCED_DOMAIN_LIST",
+    "lsalookup/LSA_REFERENCED_DOMAIN_LIST"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "lsalookup.h"
+  ],
+  "api_name": [
+    "LSA_REFERENCED_DOMAIN_LIST"
+  ]
+}

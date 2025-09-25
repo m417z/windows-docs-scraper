@@ -1,0 +1,64 @@
+{
+  "UID": "NF:bits.IBackgroundCopyError.GetError",
+  "title": "IBackgroundCopyError::GetError (bits.h)",
+  "description": "Retrieves the error code and identify the context in which the error occurred.",
+  "helpviewer_keywords": [
+    "GetError",
+    "GetError method [BITS]",
+    "GetError method [BITS]",
+    "IBackgroundCopyError interface",
+    "IBackgroundCopyError interface [BITS]",
+    "GetError method",
+    "IBackgroundCopyError.GetError",
+    "IBackgroundCopyError::GetError",
+    "_drz_ibackgroundcopyerror_geterror",
+    "bits.ibackgroundcopyerror_geterror",
+    "bits/IBackgroundCopyError::GetError"
+  ],
+  "old-location": "bits\\ibackgroundcopyerror_geterror.htm",
+  "tech.root": "Bits",
+  "ms.assetid": "abdf115d-3ff2-4664-b053-f55872ad24ab",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetError method, IBackgroundCopyError.GetError, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError",
+  "req.header": "bits.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Bits.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bits.lib",
+  "req.dll": "QmgrPrxy.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IBackgroundCopyError::GetError",
+    "bits/IBackgroundCopyError::GetError"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "QmgrPrxy.dll"
+  ],
+  "api_name": [
+    "IBackgroundCopyError.GetError"
+  ]
+}

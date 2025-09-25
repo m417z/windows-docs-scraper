@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ucmtcpciportcontroller.UcmTcpciPortControllerStop",
+  "title": "UcmTcpciPortControllerStop function (ucmtcpciportcontroller.h)",
+  "description": "Indicates to the UcmTcpciCx class extension to stop sending hardware requests to the port controller object.",
+  "old-location": "buses\\ucmtcpciportcontrollerstop.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UcmTcpciPortControllerStop function"
+  ],
+  "ms.keywords": "UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop",
+  "req.header": "ucmtcpciportcontroller.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ucmtcpcicxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UcmTcpciPortControllerStop",
+    "ucmtcpciportcontroller/UcmTcpciPortControllerStop"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ucmtcpcicxstub.lib",
+    "ucmtcpcicxstub.dll"
+  ],
+  "api_name": [
+    "UcmTcpciPortControllerStop"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "UID": "NF:cfgmgr32.CM_Get_Device_IDW",
+  "title": "CM_Get_Device_IDW function (cfgmgr32.h)",
+  "description": "The CM_Get_Device_ID function retrieves the device instance ID for a specified device instance on the local machine. (Unicode)",
+  "helpviewer_keywords": [
+    "CM_Get_Device_ID",
+    "CM_Get_Device_ID function [Device and Driver Installation]",
+    "CM_Get_Device_IDW",
+    "cfgmgr32/CM_Get_Device_ID",
+    "cfgmgr32/CM_Get_Device_IDW",
+    "cfgmgrfn_9b900d97-f812-412b-b12c-d64b9aba3be7.xml",
+    "devinst.cm_get_device_id"
+  ],
+  "old-location": "devinst\\cm_get_device_id.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "924906ca-1119-428f-a42d-cb9a784af011",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CM_Get_Device_ID, CM_Get_Device_ID function [Device and Driver Installation], CM_Get_Device_IDW, cfgmgr32/CM_Get_Device_ID, cfgmgr32/CM_Get_Device_IDW, cfgmgrfn_9b900d97-f812-412b-b12c-d64b9aba3be7.xml, devinst.cm_get_device_id",
+  "req.header": "cfgmgr32.h",
+  "req.include-header": "Cfgmgr32.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CM_Get_Device_IDW (Unicode)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CM_Get_Device_IDW",
+    "cfgmgr32/CM_Get_Device_IDW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-config-l1-1-2.dll",
+    "Cfgmgr32.lib",
+    "Cfgmgr32.dll",
+    "API-Ms-Win-Devices-Config-L1-1-0.dll",
+    "API-Ms-Win-Devices-Config-L1-1-1.dll",
+    "CfgMgr32.dll"
+  ],
+  "api_name": [
+    "CM_Get_Device_ID",
+    "CM_Get_Device_IDW"
+  ]
+}

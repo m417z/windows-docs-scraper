@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_WAITFORIDLE {
+  [in] D3DKMT_HANDLE hDevice;
+} D3DKMT_WAITFORIDLE;

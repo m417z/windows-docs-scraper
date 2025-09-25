@@ -1,0 +1,6 @@
+MSTCPIP_INLINE VOID IN6ADDR_SETV4MAPPED(
+  PSOCKADDR_IN6 a6,
+  const IN_ADDR *a4,
+  SCOPE_ID      scope,
+  USHORT        port
+);

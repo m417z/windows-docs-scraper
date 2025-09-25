@@ -1,0 +1,59 @@
+{
+  "UID": "NF:directml.IDMLDevice1.CompileGraph",
+  "title": "IDMLDevice1::CompileGraph",
+  "description": "Compiles a graph of DirectML operators into an object that can be dispatched to the GPU.",
+  "helpviewer_keywords": [
+    "CompileGraph",
+    "CompileGraph method",
+    "CompileGraph method",
+    "IDMLDevice1 interface",
+    "IDMLDevice1 interface",
+    "CompileGraph method",
+    "IDMLDevice1.CompileGraph",
+    "IDMLDevice1::CompileGraph",
+    "direct3d12.idmldevice1_compileoperator",
+    "directml/IDMLDevice1::CompileGraph"
+  ],
+  "tech.root": "directml",
+  "ms.date": "11/04/2020",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "DirectML.lib",
+  "req.dll": "DirectML.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "IDMLDevice1::CompileGraph",
+    "directml/IDMLDevice1::CompileGraph"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "DirectML.dll"
+  ],
+  "api_name": [
+    "IDMLDevice1.CompileGraph"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _PMI_MEASUREMENT_DATA {
+  ULONG Version;
+  ULONG CurrentPower;
+} PMI_MEASUREMENT_DATA, *PPMI_MEASUREMENT_DATA;

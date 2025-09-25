@@ -1,0 +1,4 @@
+typedef struct _WEBAUTHN_EXTENSIONS {
+  DWORD               cExtensions;
+  PWEBAUTHN_EXTENSION pExtensions;
+} WEBAUTHN_EXTENSIONS, *PWEBAUTHN_EXTENSIONS;

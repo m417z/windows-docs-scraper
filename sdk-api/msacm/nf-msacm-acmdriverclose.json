@@ -1,0 +1,59 @@
+{
+  "UID": "NF:msacm.acmDriverClose",
+  "title": "acmDriverClose function (msacm.h)",
+  "description": "The acmDriverClose function closes a previously opened ACM driver instance. If the function is successful, the handle is invalidated.",
+  "helpviewer_keywords": [
+    "_win32_acmDriverClose",
+    "acmDriverClose",
+    "acmDriverClose function [Windows Multimedia]",
+    "msacm/acmDriverClose",
+    "multimedia.acmdriverclose"
+  ],
+  "old-location": "multimedia\\acmdriverclose.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "f756c11d-54a7-4238-8a99-4263a6c36109",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_acmDriverClose, acmDriverClose, acmDriverClose function [Windows Multimedia], msacm/acmDriverClose, multimedia.acmdriverclose",
+  "req.header": "msacm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msacm32.lib",
+  "req.dll": "Msacm32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "acmDriverClose",
+    "msacm/acmDriverClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msacm32.dll",
+    "Ext-MS-Win-mm-msacm-l1-1-0.dll"
+  ],
+  "api_name": [
+    "acmDriverClose"
+  ]
+}

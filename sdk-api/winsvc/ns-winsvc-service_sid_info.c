@@ -1,0 +1,3 @@
+typedef struct _SERVICE_SID_INFO {
+  DWORD dwServiceSidType;
+} SERVICE_SID_INFO, *LPSERVICE_SID_INFO;

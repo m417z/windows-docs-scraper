@@ -1,0 +1,63 @@
+{
+  "UID": "NF:realtimeapiset.QueryInterruptTime",
+  "title": "QueryInterruptTime function (realtimeapiset.h)",
+  "description": "Gets the current interrupt-time count.",
+  "helpviewer_keywords": [
+    "QueryInterruptTime",
+    "QueryInterruptTime function",
+    "base.queryinterrupttime",
+    "realtimeapiset/QueryInterruptTime"
+  ],
+  "old-location": "base\\queryinterrupttime.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "FB2B179B-5E44-4201-86E2-DB386607FD90",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "QueryInterruptTime, QueryInterruptTime function, base.queryinterrupttime, realtimeapiset/QueryInterruptTime",
+  "req.header": "realtimeapiset.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mincore.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "QueryInterruptTime",
+    "realtimeapiset/QueryInterruptTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-realtime-l1-1-2.dll",
+    "kernel32.dll",
+    "API-MS-Win-Core-realtime-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-RealTime-l1-1-1.dll"
+  ],
+  "api_name": [
+    "QueryInterruptTime"
+  ]
+}

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetDisplayModeList(
+  D3DKMT_GETDISPLAYMODELIST *unnamedParam1
+);

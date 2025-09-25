@@ -1,0 +1,4 @@
+typedef struct _WSD_PROBE_MATCHES {
+  WSD_PROBE_MATCH_LIST *ProbeMatch;
+  WSDXML_ELEMENT       *Any;
+} WSD_PROBE_MATCHES;

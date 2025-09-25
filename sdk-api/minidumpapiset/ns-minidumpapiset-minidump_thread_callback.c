@@ -1,0 +1,9 @@
+typedef struct _MINIDUMP_THREAD_CALLBACK {
+  ULONG   ThreadId;
+  HANDLE  ThreadHandle;
+  ULONG   Pad;
+  CONTEXT Context;
+  ULONG   SizeOfContext;
+  ULONG64 StackBase;
+  ULONG64 StackEnd;
+} MINIDUMP_THREAD_CALLBACK, *PMINIDUMP_THREAD_CALLBACK;

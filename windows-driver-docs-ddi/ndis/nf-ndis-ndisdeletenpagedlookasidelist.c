@@ -1,0 +1,3 @@
+void NdisDeleteNPagedLookasideList(
+  _L
+);

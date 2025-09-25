@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.USN_TRACK_MODIFIED_RANGES",
+  "tech.root": "ifsk",
+  "title": "USN_TRACK_MODIFIED_RANGES",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the USN_TRACK_MODIFIED_RANGES structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "USN_TRACK_MODIFIED_RANGES, *PUSN_TRACK_MODIFIED_RANGES",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "USN_TRACK_MODIFIED_RANGES",
+    "PUSN_TRACK_MODIFIED_RANGES"
+  ],
+  "f1_keywords": [
+    "USN_TRACK_MODIFIED_RANGES",
+    "ntifs/USN_TRACK_MODIFIED_RANGES",
+    "PUSN_TRACK_MODIFIED_RANGES",
+    "ntifs/PUSN_TRACK_MODIFIED_RANGES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "USN_TRACK_MODIFIED_RANGES"
+  ]
+}

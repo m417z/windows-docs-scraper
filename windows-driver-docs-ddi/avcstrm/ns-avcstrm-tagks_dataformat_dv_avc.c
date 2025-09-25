@@ -1,0 +1,5 @@
+typedef struct tagKS_DATAFORMAT_DV_AVC {
+  KSDATAFORMAT   DataFormat;
+  DVINFO         DVVideoInfo;
+  AVCCONNECTINFO ConnectInfo;
+} KS_DATAFORMAT_DV_AVC, *PKS_DATAFORMAT_DV_AVC;

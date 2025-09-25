@@ -1,0 +1,4 @@
+void WsOffsetOf(
+  type,
+  field
+);

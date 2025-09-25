@@ -1,0 +1,4 @@
+typedef enum _CLFS_IOSTATS_CLASS {
+  ClfsIoStatsDefault = 0x0000,
+  ClfsIoStatsMax = 0xFFFF
+} CLFS_IOSTATS_CLASS, *PCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS;

@@ -1,0 +1,4 @@
+typedef struct _ENCLAVE_INIT_INFO_VBS {
+  DWORD Length;
+  DWORD ThreadCount;
+} ENCLAVE_INIT_INFO_VBS, *PENCLAVE_INIT_INFO_VBS;

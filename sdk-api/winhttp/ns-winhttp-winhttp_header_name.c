@@ -1,0 +1,4 @@
+typedef union _WINHTTP_HEADER_NAME {
+  PCWSTR pwszName;
+  PCSTR  pszName;
+} WINHTTP_HEADER_NAME, *PWINHTTP_HEADER_NAME;

@@ -1,0 +1,60 @@
+{
+  "UID": "NF:npapi.NPLogonNotify",
+  "title": "NPLogonNotify function (npapi.h)",
+  "description": "MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script.",
+  "helpviewer_keywords": [
+    "NPLogonNotify",
+    "NPLogonNotify function [Security]",
+    "SvcCtl",
+    "WinSta_0",
+    "_mnp_nplogonnotify",
+    "npapi/NPLogonNotify",
+    "security.nplogonnotify"
+  ],
+  "old-location": "security\\nplogonnotify.htm",
+  "tech.root": "security",
+  "ms.assetid": "9b0e5646-ac57-4eae-bad7-a16c07b51f4b",
+  "ms.date": "09/17/2020",
+  "ms.keywords": "NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify",
+  "req.header": "npapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NPLogonNotify",
+    "npapi/NPLogonNotify"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Npapi.h"
+  ],
+  "api_name": [
+    "NPLogonNotify"
+  ]
+}

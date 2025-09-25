@@ -1,0 +1,3 @@
+HRESULT GetDeviceType(
+  MFSensorDeviceType *pType
+);

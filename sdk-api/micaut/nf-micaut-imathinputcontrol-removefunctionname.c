@@ -1,0 +1,3 @@
+HRESULT RemoveFunctionName(
+  BSTR FunctionName
+);

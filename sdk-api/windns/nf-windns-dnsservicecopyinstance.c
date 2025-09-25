@@ -1,0 +1,3 @@
+PDNS_SERVICE_INSTANCE DnsServiceCopyInstance(
+  PDNS_SERVICE_INSTANCE pOrig
+);

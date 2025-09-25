@@ -1,0 +1,59 @@
+{
+  "UID": "NF:propvarutil.PropVariantToBooleanWithDefault",
+  "title": "PropVariantToBooleanWithDefault function (propvarutil.h)",
+  "description": "Extracts the Boolean property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.",
+  "helpviewer_keywords": [
+    "PropVariantToBooleanWithDefault",
+    "PropVariantToBooleanWithDefault function [Windows Properties]",
+    "properties.PropVariantToBooleanWithDefault",
+    "propvarutil/PropVariantToBooleanWithDefault",
+    "shell.PropVariantToBooleanWithDefault",
+    "shell_PropVariantToBooleanWithDefault"
+  ],
+  "old-location": "properties\\PropVariantToBooleanWithDefault.htm",
+  "tech.root": "properties",
+  "ms.assetid": "223767a7-a4de-4e7e-ad8b-2a6bdcea0a47",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PropVariantToBooleanWithDefault, PropVariantToBooleanWithDefault function [Windows Properties], properties.PropVariantToBooleanWithDefault, propvarutil/PropVariantToBooleanWithDefault, shell.PropVariantToBooleanWithDefault, shell_PropVariantToBooleanWithDefault",
+  "req.header": "propvarutil.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2, Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Propsys.lib",
+  "req.dll": "Propsys.dll (version 6.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Desktop Search (WDS) 3.0",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PropVariantToBooleanWithDefault",
+    "propvarutil/PropVariantToBooleanWithDefault"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Propsys.dll"
+  ],
+  "api_name": [
+    "PropVariantToBooleanWithDefault"
+  ]
+}

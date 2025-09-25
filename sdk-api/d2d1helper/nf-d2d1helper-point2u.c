@@ -1,0 +1,4 @@
+D2D1_POINT_2U Point2U(
+  UINT32 x,
+  UINT32 y
+);

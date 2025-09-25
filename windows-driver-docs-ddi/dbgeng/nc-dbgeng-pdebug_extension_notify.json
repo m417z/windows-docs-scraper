@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dbgeng.PDEBUG_EXTENSION_NOTIFY",
+  "title": "PDEBUG_EXTENSION_NOTIFY (dbgeng.h)",
+  "description": "The engine calls the DebugExtensionNotify callback function to inform the extension DLL when a session changes its active or accessible status.C++ CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;",
+  "old-location": "debugger\\debugextensionnotify.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "PDEBUG_EXTENSION_NOTIFY callback function"
+  ],
+  "ms.keywords": "DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, PDEBUG_EXTENSION_NOTIFY callback, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify",
+  "req.header": "dbgeng.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PDEBUG_EXTENSION_NOTIFY",
+    "dbgeng/PDEBUG_EXTENSION_NOTIFY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "PDEBUG_EXTENSION_NOTIFY"
+  ]
+}

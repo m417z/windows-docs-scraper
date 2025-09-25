@@ -1,0 +1,3 @@
+VOID CcUnregisterExternalCacheEx(
+  PVOID ExternalCacheContext
+);

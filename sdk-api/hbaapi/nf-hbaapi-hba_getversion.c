@@ -1,0 +1,1 @@
+HBA_UINT32 HBA_API HBA_GetVersion();

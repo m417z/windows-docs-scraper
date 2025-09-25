@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.MmIsThisAnNtAsSystem",
+  "title": "MmIsThisAnNtAsSystem function (ntddk.h)",
+  "description": "The MmIsThisAnNtAsSystem routine is obsolete for Windows XP and later versions of Windows. Use RtlGetVersion or RtlVerifyVersionInfo instead.",
+  "old-location": "kernel\\mmisthisanntassystem.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "MmIsThisAnNtAsSystem function"
+  ],
+  "ms.keywords": "MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture], k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, ntddk/MmIsThisAnNtAsSystem",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Obsolete for Windows XP and later versions of Windows. Use RtlGetVersion or RtlVerifyVersionInfo instead.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmIsThisAnNtAsSystem",
+    "ntddk/MmIsThisAnNtAsSystem"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmIsThisAnNtAsSystem"
+  ]
+}

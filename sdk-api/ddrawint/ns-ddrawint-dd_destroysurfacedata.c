@@ -1,0 +1,6 @@
+typedef struct _DD_DESTROYSURFACEDATA {
+  PDD_DIRECTDRAW_GLOBAL lpDD;
+  PDD_SURFACE_LOCAL     lpDDSurface;
+  HRESULT               ddRVal;
+  VOID                  *DestroySurface;
+} *PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA;

@@ -1,0 +1,66 @@
+{
+  "UID": "NF:mfidl.IMFHttpDownloadRequest.GetHttpStatus",
+  "title": "IMFHttpDownloadRequest::GetHttpStatus (mfidl.h)",
+  "description": "Invoked by Microsoft Media Foundation to retrieve the HTTP status code that the server specified in its response. Media Foundation invokes this method after a successful call to EndReceiveResponse.",
+  "helpviewer_keywords": [
+    "GetHttpStatus",
+    "GetHttpStatus method [Media Foundation]",
+    "GetHttpStatus method [Media Foundation]",
+    "IMFHttpDownloadRequest interface",
+    "IMFHttpDownloadRequest interface [Media Foundation]",
+    "GetHttpStatus method",
+    "IMFHttpDownloadRequest.GetHttpStatus",
+    "IMFHttpDownloadRequest::GetHttpStatus",
+    "mf.imfhttpdownloadrequest_gethttpstatus",
+    "mfidl/IMFHttpDownloadRequest::GetHttpStatus"
+  ],
+  "old-location": "mf\\imfhttpdownloadrequest_gethttpstatus.htm",
+  "tech.root": "mf",
+  "ms.assetid": "E084CF25-BEFA-4061-AA77-2CFC57CF6DCE",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStatus method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetHttpStatus method, IMFHttpDownloadRequest.GetHttpStatus, IMFHttpDownloadRequest::GetHttpStatus, mf.imfhttpdownloadrequest_gethttpstatus, mfidl/IMFHttpDownloadRequest::GetHttpStatus",
+  "req.header": "mfidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mfplat.lib; Mfplat.dll",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMFHttpDownloadRequest::GetHttpStatus",
+    "mfidl/IMFHttpDownloadRequest::GetHttpStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mfplat.lib",
+    "mfplat.dll",
+    "mfplat.dll",
+    "mfplat.dll.dll"
+  ],
+  "api_name": [
+    "IMFHttpDownloadRequest.GetHttpStatus"
+  ]
+}

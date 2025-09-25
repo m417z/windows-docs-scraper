@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netfw.PFN_FWENUMDYNAMICKEYWORDADDRESSESBYTYPE0",
+  "title": "PFN_FWENUMDYNAMICKEYWORDADDRESSESBYTYPE0",
+  "description": "Function pointer type of the entry point in the service that you call to enumerate dynamic keyword addresses by type. You can request a particular subset of objects based on the enumeration flags passed in.",
+  "tech.root": "ics",
+  "ms.date": "05/14/2021",
+  "req.construct-type": "function",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "firewallapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PFN_FWENUMDYNAMICKEYWORDADDRESSESBYTYPE0",
+  "req.redist": null,
+  "f1_keywords": [
+    "PFN_FWENUMDYNAMICKEYWORDADDRESSESBYTYPE0",
+    "netfw/PFN_FWENUMDYNAMICKEYWORDADDRESSESBYTYPE0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "netfw.h",
+    "firewallapi.dll"
+  ],
+  "api_name": [
+    "PFN_FWENUMDYNAMICKEYWORDADDRESSESBYTYPE0"
+  ]
+}

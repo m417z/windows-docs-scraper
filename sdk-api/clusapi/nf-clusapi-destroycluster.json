@@ -1,0 +1,67 @@
+{
+  "UID": "NF:clusapi.DestroyCluster",
+  "title": "DestroyCluster function (clusapi.h)",
+  "description": "Removes a cluster.",
+  "helpviewer_keywords": [
+    "DestroyCluster",
+    "DestroyCluster function [Failover Cluster]",
+    "PCLUSAPI_DESTROY_CLUSTER",
+    "PCLUSAPI_DESTROY_CLUSTER function [Failover Cluster]",
+    "clusapi/DestroyCluster",
+    "clusapi/PCLUSAPI_DESTROY_CLUSTER",
+    "mscs.destroycluster"
+  ],
+  "old-location": "mscs\\destroycluster.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "55e601de-b427-43cd-b7f8-6cc576077e59",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DestroyCluster, DestroyCluster function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER function [Failover Cluster], clusapi/DestroyCluster, clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DestroyCluster",
+    "clusapi/DestroyCluster"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "DestroyCluster"
+  ]
+}

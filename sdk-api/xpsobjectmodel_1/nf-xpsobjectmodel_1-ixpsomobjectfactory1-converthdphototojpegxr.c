@@ -1,0 +1,3 @@
+HRESULT ConvertHDPhotoToJpegXR(
+  IXpsOMImageResource *imageResource
+);

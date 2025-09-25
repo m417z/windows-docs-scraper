@@ -1,0 +1,57 @@
+{
+  "UID": "NF:netioapi.GetBestRoute2",
+  "title": "GetBestRoute2 function (netioapi.h)",
+  "description": "Retrieves the IP route entry on the local computer for the best route to the specified destination IP address.",
+  "helpviewer_keywords": [
+    "GetBestRoute2",
+    "GetBestRoute2 function [IP Helper]",
+    "iphlp.getbestroute2",
+    "netioapi/GetBestRoute2"
+  ],
+  "old-location": "iphlp\\getbestroute2.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "7bc16824-c98f-4cd5-a589-e198b48b637c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetBestRoute2, GetBestRoute2 function [IP Helper], iphlp.getbestroute2, netioapi/GetBestRoute2",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetBestRoute2",
+    "netioapi/GetBestRoute2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "GetBestRoute2"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storport.StorPortGetNodeAffinity",
+  "title": "StorPortGetNodeAffinity function (storport.h)",
+  "description": "The StorPortGetNodeAffinity routine constructs a mask of the active processors in a requested non-uniform memory access (NUMA) node.",
+  "old-location": "storage\\storportgetnodeaffinity.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortGetNodeAffinity function"
+  ],
+  "ms.keywords": "StorPortGetNodeAffinity, StorPortGetNodeAffinity routine [Storage Devices], storage.storportgetnodeaffinity, storport/StorPortGetNodeAffinity, storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "StorPortIrql",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortGetNodeAffinity",
+    "storport/StorPortGetNodeAffinity"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortGetNodeAffinity"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetResult(
+  IDxcBlob **ppResult
+);

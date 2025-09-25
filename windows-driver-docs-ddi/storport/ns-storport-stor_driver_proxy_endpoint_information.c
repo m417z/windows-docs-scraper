@@ -1,0 +1,5 @@
+typedef struct _STOR_DRIVER_PROXY_ENDPOINT_INFORMATION {
+  STOR_DRIVER_PROXY_ENDPOINT_FUNCTION_ID Id;
+  PVOID                                  EndpointFunction;
+  ULONG                                  ParameterCount;
+} STOR_DRIVER_PROXY_ENDPOINT_INFORMATION, *PSTOR_DRIVER_PROXY_ENDPOINT_INFORMATION;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:bthddi._BRB",
+  "title": "_BRB (bthddi.h)",
+  "description": "Profile drivers use Bluetooth request blocks (BRBs), to send requests to the Bluetooth driver stack. The BRB structure defines the format for all supported commands that can be sent to a Bluetooth device.",
+  "old-location": "bltooth\\brb.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "BRB structure"
+  ],
+  "ms.keywords": "*PBRB, BRB, BRB structure [Bluetooth Devices], PBRB, PBRB structure pointer [Bluetooth Devices], _BRB, bltooth.brb, bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, bthddi/BRB, bthddi/PBRB",
+  "req.header": "bthddi.h",
+  "req.include-header": "Bthddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BRB, *PBRB",
+  "f1_keywords": [
+    "_BRB",
+    "bthddi/_BRB",
+    "PBRB",
+    "bthddi/PBRB",
+    "BRB",
+    "bthddi/BRB"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "bthddi.h"
+  ],
+  "api_name": [
+    "_BRB",
+    "PBRB",
+    "BRB"
+  ]
+}

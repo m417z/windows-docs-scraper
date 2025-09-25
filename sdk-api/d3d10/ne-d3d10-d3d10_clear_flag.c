@@ -1,0 +1,4 @@
+typedef enum D3D10_CLEAR_FLAG {
+  D3D10_CLEAR_DEPTH = 0x1L,
+  D3D10_CLEAR_STENCIL = 0x2L
+} ;

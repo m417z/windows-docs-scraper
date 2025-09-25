@@ -1,0 +1,3 @@
+HRESULT SetRotation(
+  MF_VIDEO_PROCESSOR_ROTATION eRotation
+);

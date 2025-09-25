@@ -1,0 +1,3 @@
+KSDDKAPI PKSOBJECT_CREATE_ITEM KsQueryObjectCreateItem(
+  [in] KSOBJECT_HEADER Header
+);

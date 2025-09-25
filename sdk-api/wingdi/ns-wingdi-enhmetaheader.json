@@ -1,0 +1,67 @@
+{
+  "UID": "NS:wingdi.tagENHMETAHEADER",
+  "title": "ENHMETAHEADER (wingdi.h)",
+  "description": "The ENHMETAHEADER structure contains enhanced-metafile data such as the dimensions of the picture stored in the enhanced metafile, the count of records in the enhanced metafile, the resolution of the device on which the picture was created, and so on.This structure is always the first record in an enhanced metafile.",
+  "helpviewer_keywords": [
+    "*LPENHMETAHEADER",
+    "*PENHMETAHEADER",
+    "ENHMETAHEADER",
+    "ENHMETAHEADER structure [Windows GDI]",
+    "PENHMETAHEADER",
+    "PENHMETAHEADER structure pointer [Windows GDI]",
+    "_win32_ENHMETAHEADER_str",
+    "gdi.enhmetaheader",
+    "wingdi/ENHMETAHEADER",
+    "wingdi/PENHMETAHEADER"
+  ],
+  "old-location": "gdi\\enhmetaheader.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "8e5f9a51-a995-48be-b936-1766fccb603a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ENHMETAHEADER, *PENHMETAHEADER, *LPENHMETAHEADER",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagENHMETAHEADER",
+    "wingdi/tagENHMETAHEADER",
+    "PENHMETAHEADER",
+    "wingdi/PENHMETAHEADER",
+    "ENHMETAHEADER",
+    "wingdi/ENHMETAHEADER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wingdi.h"
+  ],
+  "api_name": [
+    "ENHMETAHEADER"
+  ]
+}

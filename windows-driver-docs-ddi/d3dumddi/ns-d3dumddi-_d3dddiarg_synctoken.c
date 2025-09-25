@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_SYNCTOKEN {
+  HANDLE hResource;
+  HANDLE hSyncToken;
+} D3DDDIARG_SYNCTOKEN;

@@ -1,0 +1,7 @@
+typedef struct RILADDITIONALNUMBERSTRINGUPDATE {
+  DWORD                    cbSize;
+  HUICCAPP                 hUiccApp;
+  RILPHONEBOOKANSOPERATION dwOpType;
+  DWORD                    dwNumId;
+  WCHAR                    wszText[256];
+} RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE;

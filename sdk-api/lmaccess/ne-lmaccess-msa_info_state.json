@@ -1,0 +1,72 @@
+{
+  "UID": "NE:lmaccess._MSA_INFO_STATE",
+  "title": "MSA_INFO_STATE (lmaccess.h)",
+  "description": "Indicates the state of a managed service account.",
+  "helpviewer_keywords": [
+    "*PMSA_INFO_STATE",
+    "MSA_INFO_STATE",
+    "MSA_INFO_STATE enumeration [Security]",
+    "MsaInfoCanInstall",
+    "MsaInfoCannotInstall",
+    "MsaInfoInstalled",
+    "MsaInfoNotExist",
+    "MsaInfoNotService",
+    "lmaccess/MSA_INFO_STATE",
+    "lmaccess/MsaInfoCanInstall",
+    "lmaccess/MsaInfoCannotInstall",
+    "lmaccess/MsaInfoInstalled",
+    "lmaccess/MsaInfoNotExist",
+    "lmaccess/MsaInfoNotService",
+    "security.msa_info_state"
+  ],
+  "old-location": "security\\msa_info_state.htm",
+  "tech.root": "security",
+  "ms.assetid": "3cba6c6a-1d63-4795-b009-1fcdf86cc2ef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PMSA_INFO_STATE, MSA_INFO_STATE, MSA_INFO_STATE enumeration [Security], MsaInfoCanInstall, MsaInfoCannotInstall, MsaInfoInstalled, MsaInfoNotExist, MsaInfoNotService, lmaccess/MSA_INFO_STATE, lmaccess/MsaInfoCanInstall, lmaccess/MsaInfoCannotInstall, lmaccess/MsaInfoInstalled, lmaccess/MsaInfoNotExist, lmaccess/MsaInfoNotService, security.msa_info_state",
+  "req.header": "lmaccess.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MSA_INFO_STATE, *PMSA_INFO_STATE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_MSA_INFO_STATE",
+    "lmaccess/_MSA_INFO_STATE",
+    "PMSA_INFO_STATE",
+    "lmaccess/PMSA_INFO_STATE",
+    "MSA_INFO_STATE",
+    "lmaccess/MSA_INFO_STATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Lmaccess.h"
+  ],
+  "api_name": [
+    "MSA_INFO_STATE"
+  ]
+}

@@ -1,0 +1,6 @@
+BOOL AllocateUserPhysicalPagesNuma(
+  [in]      HANDLE     hProcess,
+  [in, out] PULONG_PTR NumberOfPages,
+  [out]     PULONG_PTR PageArray,
+  [in]      DWORD      nndPreferred
+);

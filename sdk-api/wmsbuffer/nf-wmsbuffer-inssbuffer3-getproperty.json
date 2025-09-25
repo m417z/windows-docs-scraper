@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsbuffer.INSSBuffer3.GetProperty",
+  "title": "INSSBuffer3::GetProperty (wmsbuffer.h)",
+  "description": "The GetProperty method is used to retrieve a property of the sample in the buffer. Buffer properties are used to pass information along with the sample to the writer object when writing ASF files. Sample properties are GUID values.",
+  "helpviewer_keywords": [
+    "GetProperty",
+    "GetProperty method [windows Media Format]",
+    "GetProperty method [windows Media Format]",
+    "INSSBuffer3 interface",
+    "INSSBuffer3 interface [windows Media Format]",
+    "GetProperty method",
+    "INSSBuffer3.GetProperty",
+    "INSSBuffer3::GetProperty",
+    "INSSBuffer3GetProperty",
+    "wmformat.inssbuffer3_getproperty",
+    "wmsbuffer/INSSBuffer3::GetProperty"
+  ],
+  "old-location": "wmformat\\inssbuffer3_getproperty.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "b7733df5-f764-4996-b324-fa050b1db0af",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],INSSBuffer3 interface, INSSBuffer3 interface [windows Media Format],GetProperty method, INSSBuffer3.GetProperty, INSSBuffer3::GetProperty, INSSBuffer3GetProperty, wmformat.inssbuffer3_getproperty, wmsbuffer/INSSBuffer3::GetProperty",
+  "req.header": "wmsbuffer.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INSSBuffer3::GetProperty",
+    "wmsbuffer/INSSBuffer3::GetProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "INSSBuffer3.GetProperty"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wcmapi.WcmQueryProperty",
+  "title": "WcmQueryProperty function (wcmapi.h)",
+  "description": "Retrieves the value of a specified WCM property.",
+  "helpviewer_keywords": [
+    "WcmQueryProperty",
+    "WcmQueryProperty function [Windows Connection Manager]",
+    "wcm.wcmqueryproperty",
+    "wcmapi/WcmQueryProperty"
+  ],
+  "old-location": "wcm\\wcmqueryproperty.htm",
+  "tech.root": "wcm",
+  "ms.assetid": "07c0993e-2892-4908-be3f-d24210ccc300",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty",
+  "req.header": "wcmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wcmapi.lib",
+  "req.dll": "Wcmapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WcmQueryProperty",
+    "wcmapi/WcmQueryProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-networking-wcmapi-l1-1-1.dll",
+    "Wcmapi.dll",
+    "Ext-MS-Win-networking-wcmapi-l1-1-0.dll"
+  ],
+  "api_name": [
+    "WcmQueryProperty"
+  ]
+}

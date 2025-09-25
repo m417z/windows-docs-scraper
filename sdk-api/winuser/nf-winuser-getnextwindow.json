@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winuser.GetNextWindow",
+  "title": "GetNextWindow macro (winuser.h)",
+  "description": "Retrieves a handle to the next or previous window in the Z-Order. The next window is below the specified window; the previous window is above.",
+  "helpviewer_keywords": [
+    "GW_HWNDNEXT",
+    "GW_HWNDPREV",
+    "GetNextWindow",
+    "GetNextWindow function [Windows and Messages]",
+    "_win32_GetNextWindow",
+    "_win32_getnextwindow_cpp",
+    "winmsg.getnextwindow",
+    "winui._win32_getnextwindow",
+    "winuser/GetNextWindow"
+  ],
+  "old-location": "winmsg\\getnextwindow.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windows\\windowreference\\windowfunctions\\getnextwindow.htm",
+  "ms.date": "09/02/2025",
+  "ms.keywords": "GW_HWNDNEXT, GW_HWNDPREV, GetNextWindow, GetNextWindow function [Windows and Messages], _win32_GetNextWindow, _win32_getnextwindow_cpp, winmsg.getnextwindow, winui._win32_getnextwindow, winuser/GetNextWindow",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetNextWindow",
+    "winuser/GetNextWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winuser.h"
+  ],
+  "api_name": [
+    "GetNextWindow"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfinterrupt.EVT_WDF_INTERRUPT_ENABLE",
+  "title": "EVT_WDF_INTERRUPT_ENABLE (wdfinterrupt.h)",
+  "description": "A driver's EvtInterruptEnable event callback function enables a specified hardware interrupt.",
+  "old-location": "wdf\\evtinterruptenable.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_INTERRUPT_ENABLE callback function"
+  ],
+  "ms.keywords": "DFInterruptObjectRef_eb3a90f0-712a-43fe-8d5c-5a29d1df0a62.xml, EVT_WDF_INTERRUPT_ENABLE, EVT_WDF_INTERRUPT_ENABLE callback, EvtInterruptEnable, EvtInterruptEnable callback function, kmdf.evtinterruptenable, wdf.evtinterruptenable, wdfinterrupt/EvtInterruptEnable",
+  "req.header": "wdfinterrupt.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "(See Remarks section.)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_INTERRUPT_ENABLE",
+    "wdfinterrupt/EVT_WDF_INTERRUPT_ENABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfinterrupt.h"
+  ],
+  "api_name": [
+    "EVT_WDF_INTERRUPT_ENABLE"
+  ]
+}

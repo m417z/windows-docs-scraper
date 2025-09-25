@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_PREEMPTCOMMAND",
+  "title": "DXGKDDI_PREEMPTCOMMAND (d3dkmddi.h)",
+  "description": "The DxgkDdiPreemptCommand function preempts a direct memory access (DMA) buffer that was previously submitted to and currently queued in the hardware command execution unit.",
+  "old-location": "display\\dxgkddipreemptcommand.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_PREEMPTCOMMAND callback function"
+  ],
+  "ms.keywords": "DXGKDDI_PREEMPTCOMMAND, DXGKDDI_PREEMPTCOMMAND callback, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml, DxgkDdiPreemptCommand, DxgkDdiPreemptCommand callback function [Display Devices], d3dkmddi/DxgkDdiPreemptCommand, display.dxgkddipreemptcommand",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_PREEMPTCOMMAND",
+    "d3dkmddi/DXGKDDI_PREEMPTCOMMAND"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_PREEMPTCOMMAND"
+  ]
+}

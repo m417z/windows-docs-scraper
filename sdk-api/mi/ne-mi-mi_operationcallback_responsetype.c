@@ -1,0 +1,6 @@
+typedef enum _MI_OperationCallback_ResponseType {
+  MI_OperationCallback_ResponseType_No,
+  MI_OperationCallback_ResponseType_Yes,
+  MI_OperationCallback_ResponseType_NoToAll,
+  MI_OperationCallback_ResponseType_YesToAll
+} MI_OperationCallback_ResponseType;

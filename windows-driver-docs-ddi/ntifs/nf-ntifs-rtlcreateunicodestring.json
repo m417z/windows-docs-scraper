@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.RtlCreateUnicodeString",
+  "title": "RtlCreateUnicodeString function (ntifs.h)",
+  "description": "The RtlCreateUnicodeString routine creates a new counted Unicode string.",
+  "old-location": "ifsk\\rtlcreateunicodestring.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlCreateUnicodeString function"
+  ],
+  "ms.keywords": "RtlCreateUnicodeString, RtlCreateUnicodeString routine [Installable File System Drivers], ifsk.rtlcreateunicodestring, ntifs/RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlCreateUnicodeString",
+    "ntifs/RtlCreateUnicodeString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlCreateUnicodeString"
+  ]
+}

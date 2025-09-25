@@ -1,0 +1,8 @@
+PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION Pfnd3dwddm20DdiCheckvideoprocessorformatconversion;
+
+VOID Pfnd3dwddm20DdiCheckvideoprocessorformatconversion(
+  D3D10DDI_HDEVICE hDevice,
+  D3D11_1DDI_HVIDEOPROCESSORENUM hProcessorEnum,
+  D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION *pConversion
+)
+{...}

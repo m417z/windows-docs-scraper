@@ -1,0 +1,54 @@
+{
+  "UID": "NS:scsi._VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+  "title": "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE (scsi.h)",
+  "description": "Don't use this structure in your code. Microsoft reserves the VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure for internal use only.",
+  "old-location": "storage\\vpd_zoned_block_device_characteristics_page.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure"
+  ],
+  "ms.keywords": "*PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices], _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, storage.vpd_zoned_block_device_characteristics_page",
+  "req.header": "scsi.h",
+  "req.include-header": "Minitape.h, Storport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+  "f1_keywords": [
+    "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+    "scsi/_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+    "PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+    "scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+    "VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+    "scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+    "PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE",
+    "VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
+  ]
+}

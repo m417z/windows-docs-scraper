@@ -1,0 +1,34 @@
+typedef struct _STORAGE_REQUEST_BLOCK {
+  USHORT                               Length;
+  UCHAR                                Function;
+  UCHAR                                SrbStatus;
+  ULONG                                ReservedUlong1;
+  ULONG                                Signature;
+  ULONG                                Version;
+  ULONG                                SrbLength;
+  ULONG                                SrbFunction;
+  ULONG                                SrbFlags;
+  ULONG                                ReservedUlong2;
+  ULONG                                RequestTag;
+  USHORT                               RequestPriority;
+  USHORT                               RequestAttribute;
+  ULONG                                TimeOutValue;
+  union {
+    ULONG SystemStatus;
+    ULONG RequestTagHigh4Bytes;
+  } DUMMYUNIONNAME;
+  ULONG                                SystemStatus;
+  ULONG                                ZeroGuard1;
+  ULONG                                AddressOffset;
+  ULONG                                NumSrbExData;
+  ULONG                                DataTransferLength;
+  PVOID POINTER_ALIGN                  DataBuffer;
+  PVOID POINTER_ALIGN                  ZeroGuard2;
+  PVOID POINTER_ALIGN                  OriginalRequest;
+  PVOID POINTER_ALIGN                  ClassContext;
+  PVOID POINTER_ALIGN                  PortContext;
+  PVOID POINTER_ALIGN                  MiniportContext;
+  _STORAGE_REQUEST_BLOCK POINTER_ALIGN *NextSrb;
+  struct                               _STORAGE_REQUEST_BLOCK;
+  ULONG                                SrbExDataOffset[ANYSIZE_ARRAY];
+} STORAGE_REQUEST_BLOCK, *PSTORAGE_REQUEST_BLOCK;

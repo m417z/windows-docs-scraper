@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngLockDriverObj",
+  "title": "EngLockDriverObj function (winddi.h)",
+  "description": "The EngLockDriverObj function creates an exclusive lock on this object for the calling thread.",
+  "helpviewer_keywords": [
+    "EngLockDriverObj",
+    "EngLockDriverObj function [Display Devices]",
+    "display.englockdriverobj",
+    "gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml",
+    "winddi/EngLockDriverObj"
+  ],
+  "old-location": "display\\englockdriverobj.htm",
+  "tech.root": "display",
+  "ms.assetid": "9ed3142d-2b20-4453-9057-80e6f8f92ff2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngLockDriverObj, EngLockDriverObj function [Display Devices], display.englockdriverobj, gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml, winddi/EngLockDriverObj",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngLockDriverObj",
+    "winddi/EngLockDriverObj"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngLockDriverObj"
+  ]
+}

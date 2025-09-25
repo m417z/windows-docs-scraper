@@ -1,0 +1,42 @@
+{
+  "UID": "NE:ntifs._FS_BPIO_OUTFLAGS",
+  "tech.root": "ifsk",
+  "title": "FS_BPIO_OUTFLAGS",
+  "ms.date": "07/08/2021",
+  "targetos": "Windows",
+  "description": "FS_BPIO_OUTFLAGS defines the BypassIO output flags for the FSCTL_MANAGE_BYPASS_IO control code.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FS_BPIO_OUTFLAGS",
+    "FS_BPIO_OUTFLAGS"
+  ],
+  "f1_keywords": [
+    "_FS_BPIO_OUTFLAGS",
+    "ntifs/_FS_BPIO_OUTFLAGS",
+    "FS_BPIO_OUTFLAGS",
+    "ntifs/FS_BPIO_OUTFLAGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

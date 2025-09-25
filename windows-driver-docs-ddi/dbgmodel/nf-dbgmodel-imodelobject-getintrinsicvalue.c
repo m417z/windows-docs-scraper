@@ -1,0 +1,3 @@
+HRESULT GetIntrinsicValue(
+  VARIANT *intrinsicData
+);

@@ -1,0 +1,8 @@
+typedef union _DXGK_MONITORLINKINFO_USAGEHINTS {
+  struct {
+    UINT Hidden : 1;
+    UINT HeadMounted : 1;
+    UINT Reserved : 30;
+  };
+  UINT   Value;
+} DXGK_MONITORLINKINFO_USAGEHINTS, *PDXGK_MONITORLINKINFO_USAGEHINTS;

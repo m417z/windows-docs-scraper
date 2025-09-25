@@ -1,0 +1,3 @@
+typedef struct _WS_GUID_DESCRIPTION {
+  GUID value;
+} WS_GUID_DESCRIPTION;

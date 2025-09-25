@@ -1,0 +1,1 @@
+DWRITE_PIXEL_GEOMETRY GetPixelGeometry();

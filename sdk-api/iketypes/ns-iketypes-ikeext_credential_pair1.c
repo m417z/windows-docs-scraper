@@ -1,0 +1,4 @@
+typedef struct IKEEXT_CREDENTIAL_PAIR1_ {
+  IKEEXT_CREDENTIAL1 localCredentials;
+  IKEEXT_CREDENTIAL1 peerCredentials;
+} IKEEXT_CREDENTIAL_PAIR1;

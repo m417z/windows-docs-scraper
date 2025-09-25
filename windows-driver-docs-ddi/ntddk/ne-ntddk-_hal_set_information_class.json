@@ -1,0 +1,44 @@
+{
+  "UID": "NE:ntddk._HAL_SET_INFORMATION_CLASS",
+  "title": "_HAL_SET_INFORMATION_CLASS (ntddk.h)",
+  "description": "The _HAL_SET_INFORMATION_CLASS enumeration defines values used by the pHalSetSystemInformation callback function that are reserved for internal use.",
+  "tech.root": "kernel",
+  "ms.date": "03/07/2022",
+  "keywords": [
+    "HAL_SET_INFORMATION_CLASS enumeration"
+  ],
+  "ms.keywords": "_HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS,",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "req.typenames": "HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_HAL_SET_INFORMATION_CLASS",
+    "ntddk/_HAL_SET_INFORMATION_CLASS",
+    "PHAL_SET_INFORMATION_CLASS",
+    "ntddk/PHAL_SET_INFORMATION_CLASS",
+    "HAL_SET_INFORMATION_CLASS",
+    "ntddk/HAL_SET_INFORMATION_CLASS"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_HAL_SET_INFORMATION_CLASS",
+    "PHAL_SET_INFORMATION_CLASS",
+    "HAL_SET_INFORMATION_CLASS"
+  ]
+}

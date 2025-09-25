@@ -1,0 +1,3 @@
+typedef enum _CDROM_OPC_INFO_TYPE {
+  SimpleOpcInfo
+} CDROM_OPC_INFO_TYPE, *PCDROM_OPC_INFO_TYPE;

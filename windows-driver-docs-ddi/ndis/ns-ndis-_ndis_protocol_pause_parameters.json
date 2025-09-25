@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._NDIS_PROTOCOL_PAUSE_PARAMETERS",
+  "title": "_NDIS_PROTOCOL_PAUSE_PARAMETERS (ndis.h)",
+  "description": "NDIS passes an NDIS_PROTOCOL_PAUSE_PARAMETERS structure to a protocol driver when it calls the ProtocolNetPnPEvent function to indicate a NetEventPause event.",
+  "old-location": "netvista\\ndis_protocol_pause_parameters.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_PROTOCOL_PAUSE_PARAMETERS structure"
+  ],
+  "ms.keywords": "*PNDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, netvista.ndis_protocol_pause_parameters, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_PROTOCOL_PAUSE_PARAMETERS, *PNDIS_PROTOCOL_PAUSE_PARAMETERS",
+  "f1_keywords": [
+    "_NDIS_PROTOCOL_PAUSE_PARAMETERS",
+    "ndis/_NDIS_PROTOCOL_PAUSE_PARAMETERS",
+    "PNDIS_PROTOCOL_PAUSE_PARAMETERS",
+    "ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS",
+    "NDIS_PROTOCOL_PAUSE_PARAMETERS",
+    "ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "_NDIS_PROTOCOL_PAUSE_PARAMETERS",
+    "PNDIS_PROTOCOL_PAUSE_PARAMETERS",
+    "NDIS_PROTOCOL_PAUSE_PARAMETERS"
+  ]
+}

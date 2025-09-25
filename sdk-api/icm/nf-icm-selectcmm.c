@@ -1,0 +1,3 @@
+BOOL SelectCMM(
+  DWORD dwCMMType
+);

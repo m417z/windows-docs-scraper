@@ -1,0 +1,27 @@
+typedef struct _CONTEXT {
+  ULONG              ContextFlags;
+  ULONG              Dr0;
+  ULONG              Dr1;
+  ULONG              Dr2;
+  ULONG              Dr3;
+  ULONG              Dr6;
+  ULONG              Dr7;
+  FLOATING_SAVE_AREA FloatSave;
+  ULONG              SegGs;
+  ULONG              SegFs;
+  ULONG              SegEs;
+  ULONG              SegDs;
+  ULONG              Edi;
+  ULONG              Esi;
+  ULONG              Ebx;
+  ULONG              Edx;
+  ULONG              Ecx;
+  ULONG              Eax;
+  ULONG              Ebp;
+  ULONG              Eip;
+  ULONG              SegCs;
+  ULONG              EFlags;
+  ULONG              Esp;
+  ULONG              SegSs;
+  UCHAR              ExtendedRegisters[MAXIMUM_SUPPORTED_EXTENSION];
+} CONTEXT;

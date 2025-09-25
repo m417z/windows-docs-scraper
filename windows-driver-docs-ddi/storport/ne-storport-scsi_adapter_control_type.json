@@ -1,0 +1,44 @@
+{
+  "UID": "NE:storport._SCSI_ADAPTER_CONTROL_TYPE",
+  "tech.root": "storage",
+  "title": "SCSI_ADAPTER_CONTROL_TYPE",
+  "ms.date": "04/02/2024",
+  "targetos": "Windows",
+  "description": "The SCSI_ADAPTER_CONTROL_TYPE enumeration contains adapter control operations, where each control type initiates an action on an adapter by the miniport driver. Storport specifies the control type when it calls a miniport's HwStorAdapterControl routine.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_SCSI_ADAPTER_CONTROL_TYPE",
+    "PSCSI_ADAPTER_CONTROL_TYPE",
+    "SCSI_ADAPTER_CONTROL_TYPE"
+  ],
+  "f1_keywords": [
+    "_SCSI_ADAPTER_CONTROL_TYPE",
+    "storport/_SCSI_ADAPTER_CONTROL_TYPE",
+    "PSCSI_ADAPTER_CONTROL_TYPE",
+    "storport/PSCSI_ADAPTER_CONTROL_TYPE",
+    "SCSI_ADAPTER_CONTROL_TYPE",
+    "storport/SCSI_ADAPTER_CONTROL_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

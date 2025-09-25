@@ -1,0 +1,52 @@
+{
+  "UID": "NS:ndiswwan._NDIS_WWAN_QUERY_READY_INFO",
+  "tech.root": "netvista",
+  "title": "NDIS_WWAN_QUERY_READY_INFO",
+  "ms.date": "02/22/2022",
+  "targetos": "Windows",
+  "description": "The NDIS_WWAN_QUERY_READY_INFO structure represents a SIM slot ID for OID_WWAN_READY_INFO query requests.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndiswwan.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NDIS_WWAN_QUERY_READY_INFO, *PNDIS_WWAN_QUERY_READY_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndiswwan.h"
+  ],
+  "api_name": [
+    "_NDIS_WWAN_QUERY_READY_INFO",
+    "PNDIS_WWAN_QUERY_READY_INFO",
+    "NDIS_WWAN_QUERY_READY_INFO"
+  ],
+  "f1_keywords": [
+    "_NDIS_WWAN_QUERY_READY_INFO",
+    "ndiswwan/_NDIS_WWAN_QUERY_READY_INFO",
+    "PNDIS_WWAN_QUERY_READY_INFO",
+    "ndiswwan/PNDIS_WWAN_QUERY_READY_INFO",
+    "NDIS_WWAN_QUERY_READY_INFO",
+    "ndiswwan/NDIS_WWAN_QUERY_READY_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_NDIS_WWAN_QUERY_READY_INFO"
+  ]
+}

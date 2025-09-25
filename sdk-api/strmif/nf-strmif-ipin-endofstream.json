@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IPin.EndOfStream",
+  "title": "IPin::EndOfStream (strmif.h)",
+  "description": "The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter.",
+  "helpviewer_keywords": [
+    "EndOfStream",
+    "EndOfStream method [DirectShow]",
+    "EndOfStream method [DirectShow]",
+    "IPin interface",
+    "IPin interface [DirectShow]",
+    "EndOfStream method",
+    "IPin.EndOfStream",
+    "IPin::EndOfStream",
+    "IPinEndOfStream",
+    "dshow.ipin_endofstream",
+    "strmif/IPin::EndOfStream"
+  ],
+  "old-location": "dshow\\ipin_endofstream.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "b0cca250-9603-4d58-8af5-5b272730e5fa",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IPin interface, IPin interface [DirectShow],EndOfStream method, IPin.EndOfStream, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPin::EndOfStream",
+    "strmif/IPin::EndOfStream"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IPin.EndOfStream"
+  ]
+}

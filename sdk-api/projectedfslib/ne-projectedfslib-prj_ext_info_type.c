@@ -1,0 +1,3 @@
+typedef enum PRJ_EXT_INFO_TYPE {
+  PRJ_EXT_INFO_TYPE_SYMLINK = 1
+} ;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ks._KSDEVICE_THERMAL_DISPATCH",
+  "title": "_KSDEVICE_THERMAL_DISPATCH (ks.h)",
+  "description": "The KSDEVICE_THERMAL_DISPATCH structure is used by the miniport driver in the API call to register thermal notification callbacks. This structure contains the callback function pointers for active and passive cooling interfaces.",
+  "old-location": "stream\\ksdevice_thermal_dispatch.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KSDEVICE_THERMAL_DISPATCH structure"
+  ],
+  "ms.keywords": "*PKSDEVICE_THERMAL_DISPATCH, DeviceThermalState, Engaged, KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], KsDevice, PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], Percentage, _KSDEVICE_THERMAL_DISPATCH, ks/KSDEVICE_THERMAL_DISPATCH, ks/PKSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH",
+  "f1_keywords": [
+    "_KSDEVICE_THERMAL_DISPATCH",
+    "ks/_KSDEVICE_THERMAL_DISPATCH",
+    "PKSDEVICE_THERMAL_DISPATCH",
+    "ks/PKSDEVICE_THERMAL_DISPATCH",
+    "KSDEVICE_THERMAL_DISPATCH",
+    "ks/KSDEVICE_THERMAL_DISPATCH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "_KSDEVICE_THERMAL_DISPATCH",
+    "PKSDEVICE_THERMAL_DISPATCH",
+    "KSDEVICE_THERMAL_DISPATCH"
+  ]
+}

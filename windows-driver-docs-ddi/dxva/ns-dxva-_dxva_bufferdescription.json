@@ -1,0 +1,54 @@
+{
+  "UID": "NS:dxva._DXVA_BufferDescription",
+  "title": "_DXVA_BufferDescription (dxva.h)",
+  "description": "The DXVA_BufferDescription structure is sent by the host decoder to the accelerator to provide information to the accelerator about the buffer that is currently being passed from the host to the accelerator.",
+  "old-location": "display\\dxva_bufferdescription.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXVA_BufferDescription structure"
+  ],
+  "ms.keywords": "*LPDXVA_BufferDescription, DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], _DXVA_BufferDescription, display.dxva_bufferdescription, dxva/DXVA_BufferDescription, dxva/LPDXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml",
+  "req.header": "dxva.h",
+  "req.include-header": "Dxva.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DXVA_BufferDescription, *LPDXVA_BufferDescription",
+  "f1_keywords": [
+    "_DXVA_BufferDescription",
+    "dxva/_DXVA_BufferDescription",
+    "LPDXVA_BufferDescription",
+    "dxva/LPDXVA_BufferDescription",
+    "DXVA_BufferDescription",
+    "dxva/DXVA_BufferDescription"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dxva.h"
+  ],
+  "api_name": [
+    "_DXVA_BufferDescription",
+    "LPDXVA_BufferDescription",
+    "DXVA_BufferDescription"
+  ]
+}

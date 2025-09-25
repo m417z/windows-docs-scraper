@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION",
+  "title": "_NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION (ndis.h)",
+  "description": "The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure specifies media-specific data that is associated with a NET_BUFFER_LIST structure.",
+  "old-location": "netvista\\ndis_nbl_media_specific_information.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION structure"
+  ],
+  "ms.keywords": "*PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml, netvista.ndis_nbl_media_specific_information",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION",
+  "f1_keywords": [
+    "_NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION",
+    "ndis/_NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION",
+    "PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION",
+    "ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION",
+    "NDIS_NBL_MEDIA_SPECIFIC_INFORMATION",
+    "ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "_NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION",
+    "PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION",
+    "NDIS_NBL_MEDIA_SPECIFIC_INFORMATION"
+  ]
+}

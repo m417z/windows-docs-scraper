@@ -1,0 +1,3 @@
+HRESULT GetDesc(
+  [out] D3D12_SHADER_TYPE_DESC *pDesc
+);

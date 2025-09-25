@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.RtlOemStringToCountedUnicodeSize",
+  "title": "RtlOemStringToCountedUnicodeSize macro (ntifs.h)",
+  "description": "The RtlOemStringToCountedUnicodeSize routine determines the size, in bytes, that a given OEM string will be after it is translated into a counted Unicode string.",
+  "old-location": "ifsk\\rtloemstringtocountedunicodesize.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlOemStringToCountedUnicodeSize macro"
+  ],
+  "ms.keywords": "RtlOemStringToCountedUnicodeSize, RtlOemStringToCountedUnicodeSize routine [Installable File System Drivers], ifsk.rtloemstringtocountedunicodesize, ntifs/RtlOemStringToCountedUnicodeSize, rtlref_dc10fcb6-356a-4c09-aea6-c386030039f0.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "< DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlOemStringToCountedUnicodeSize",
+    "ntifs/RtlOemStringToCountedUnicodeSize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "RtlOemStringToCountedUnicodeSize"
+  ]
+}

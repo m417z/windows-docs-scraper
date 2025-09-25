@@ -1,0 +1,4 @@
+typedef struct _SID_INFO_LIST {
+  ULONG    cItems;
+  SID_INFO aSidInfo[ANYSIZE_ARRAY];
+} SID_INFO_LIST, *PSID_INFO_LIST;

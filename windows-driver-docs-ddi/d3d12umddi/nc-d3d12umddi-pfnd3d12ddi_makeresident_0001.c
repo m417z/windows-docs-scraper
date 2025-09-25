@@ -1,0 +1,7 @@
+PFND3D12DDI_MAKERESIDENT_0001 Pfnd3d12ddiMakeresident0001;
+
+HRESULT Pfnd3d12ddiMakeresident0001(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDIARG_MAKERESIDENT_0001 *unnamedParam2
+)
+{...}

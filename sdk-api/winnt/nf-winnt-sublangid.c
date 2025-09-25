@@ -1,0 +1,3 @@
+WORD SUBLANGID(
+    WORD lgid
+);

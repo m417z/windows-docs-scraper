@@ -1,0 +1,69 @@
+{
+  "UID": "NF:certenc.ICertEncodeCRLDistInfo.Reset",
+  "title": "ICertEncodeCRLDistInfo::Reset (certenc.h)",
+  "description": "Resets a certificate revocation list (CRL) distribution information array to a specified number of distribution point structures.",
+  "helpviewer_keywords": [
+    "CCertEncodeCRLDistInfo object [Security]",
+    "Reset method",
+    "ICertEncodeCRLDistInfo interface [Security]",
+    "Reset method",
+    "ICertEncodeCRLDistInfo.Reset",
+    "ICertEncodeCRLDistInfo::Reset",
+    "Reset",
+    "Reset method [Security]",
+    "Reset method [Security]",
+    "CCertEncodeCRLDistInfo object",
+    "Reset method [Security]",
+    "ICertEncodeCRLDistInfo interface",
+    "_certsrv_icertencodecrldistinfo_reset",
+    "certenc/ICertEncodeCRLDistInfo::Reset",
+    "security.icertencodecrldistinfo_reset"
+  ],
+  "old-location": "security\\icertencodecrldistinfo_reset.htm",
+  "tech.root": "security",
+  "ms.assetid": "899de888-918f-4202-a324-0e603eba2324",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CCertEncodeCRLDistInfo object [Security],Reset method, ICertEncodeCRLDistInfo interface [Security],Reset method, ICertEncodeCRLDistInfo.Reset, ICertEncodeCRLDistInfo::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeCRLDistInfo object, Reset method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_reset, certenc/ICertEncodeCRLDistInfo::Reset, security.icertencodecrldistinfo_reset",
+  "req.header": "certenc.h",
+  "req.include-header": "Certsrv.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Certidl.lib",
+  "req.dll": "Certenc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICertEncodeCRLDistInfo::Reset",
+    "certenc/ICertEncodeCRLDistInfo::Reset"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certenc.dll"
+  ],
+  "api_name": [
+    "ICertEncodeCRLDistInfo.Reset",
+    "CCertEncodeCRLDistInfo.Reset"
+  ]
+}

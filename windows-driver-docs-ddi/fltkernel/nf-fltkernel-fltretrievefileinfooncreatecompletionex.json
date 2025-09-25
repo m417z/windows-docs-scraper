@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltRetrieveFileInfoOnCreateCompletionEx",
+  "title": "FltRetrieveFileInfoOnCreateCompletionEx function",
+  "description": "FltRetrieveFileInfoOnCreateCompletionEx queries for the specified file information upon file creation completion.",
+  "tech.root": "ifsk",
+  "ms.date": "03/11/2021",
+  "keywords": [
+    "FltRetrieveFileInfoOnCreateCompletionEx function"
+  ],
+  "ms.keywords": "FltRetrieveFileInfoOnCreateCompletionEx, FltRetrieveFileInfoOnCreateCompletion",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FltRetrieveFileInfoOnCreateCompletionEx",
+    "fltkernel/FltRetrieveFileInfoOnCreateCompletionEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "FltRetrieveFileInfoOnCreateCompletionEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

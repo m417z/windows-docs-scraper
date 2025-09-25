@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdbgexts.PWINDBG_SET_THREAD_CONTEXT_ROUTINE",
+  "title": "PWINDBG_SET_THREAD_CONTEXT_ROUTINE (wdbgexts.h)",
+  "description": "The PWINDBG_SET_THREAD_CONTEXT_ROUTINE (SetContext) function is similar to the Win32 SetThreadContext routine. It sets the context of the process being debugged.",
+  "old-location": "debugger\\setcontext.htm",
+  "tech.root": "debugger",
+  "ms.date": "07/27/2023",
+  "keywords": [
+    "PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback function"
+  ],
+  "ms.keywords": "PWINDBG_SET_THREAD_CONTEXT_ROUTINE, PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback, SetContext, SetContext callback function [Windows Debugging], WdbgExts_Ref_1a94f80d-7df9-45d1-9bca-19a18a2efb22.xml, debugger.setcontext, wdbgexts/SetContext",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PWINDBG_SET_THREAD_CONTEXT_ROUTINE",
+    "wdbgexts/PWINDBG_SET_THREAD_CONTEXT_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "PWINDBG_SET_THREAD_CONTEXT_ROUTINE"
+  ]
+}

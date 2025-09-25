@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndkpi.NDK_FN_FAST_REGISTER",
+  "title": "NDK_FN_FAST_REGISTER (ndkpi.h)",
+  "description": "The NdkFastRegister (NDK_FN_FAST_REGISTER) function fast-registers an array of adapter logical pages over an existing memory region.",
+  "old-location": "netvista\\ndk_fn_fast_register.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDK_FN_FAST_REGISTER callback function"
+  ],
+  "ms.keywords": "NDK_FN_FAST_REGISTER, NDK_FN_FAST_REGISTER callback, NDK_OP_FLAG_ALLOW_LOCAL_WRITE, NDK_OP_FLAG_ALLOW_REMOTE_READ, NDK_OP_FLAG_ALLOW_REMOTE_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkFastRegister, NdkFastRegister callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFastRegister, netvista.ndk_fn_fast_register",
+  "req.header": "ndkpi.h",
+  "req.include-header": "Ndkpi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported,Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDK_FN_FAST_REGISTER",
+    "ndkpi/NDK_FN_FAST_REGISTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "NDK_FN_FAST_REGISTER"
+  ]
+}

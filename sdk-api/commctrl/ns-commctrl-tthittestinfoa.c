@@ -1,0 +1,5 @@
+typedef struct _TT_HITTESTINFOA {
+  HWND        hwnd;
+  POINT       pt;
+  TTTOOLINFOA ti;
+} TTHITTESTINFOA, *LPTTHITTESTINFOA;

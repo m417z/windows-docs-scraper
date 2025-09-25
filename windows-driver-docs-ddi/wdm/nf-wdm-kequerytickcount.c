@@ -1,0 +1,3 @@
+void KeQueryTickCount(
+  [out] CurrentCount
+);

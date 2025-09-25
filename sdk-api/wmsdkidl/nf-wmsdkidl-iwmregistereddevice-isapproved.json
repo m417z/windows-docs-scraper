@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmsdkidl.IWMRegisteredDevice.IsApproved",
+  "title": "IWMRegisteredDevice::IsApproved (wmsdkidl.h)",
+  "description": "The IsApproved method retrieves the approval status of the device. Approved devices are able to receive and play media data.",
+  "helpviewer_keywords": [
+    "IWMRegisteredDevice interface [windows Media Format]",
+    "IsApproved method",
+    "IWMRegisteredDevice.IsApproved",
+    "IWMRegisteredDevice::IsApproved",
+    "IWMRegisteredDeviceIsApproved",
+    "IsApproved",
+    "IsApproved method [windows Media Format]",
+    "IsApproved method [windows Media Format]",
+    "IWMRegisteredDevice interface",
+    "wmformat.iwmregistereddevice_isapproved",
+    "wmsdkidl/IWMRegisteredDevice::IsApproved"
+  ],
+  "old-location": "wmformat\\iwmregistereddevice_isapproved.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "ab90468e-743f-4367-a49b-d494bf9be28f",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMRegisteredDevice interface [windows Media Format],IsApproved method, IWMRegisteredDevice.IsApproved, IWMRegisteredDevice::IsApproved, IWMRegisteredDeviceIsApproved, IsApproved, IsApproved method [windows Media Format], IsApproved method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isapproved, wmsdkidl/IWMRegisteredDevice::IsApproved",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WMStubDRM.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMRegisteredDevice::IsApproved",
+    "wmsdkidl/IWMRegisteredDevice::IsApproved"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMRegisteredDevice.IsApproved"
+  ]
+}

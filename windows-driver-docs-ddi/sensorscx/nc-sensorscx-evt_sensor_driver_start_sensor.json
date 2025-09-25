@@ -1,0 +1,48 @@
+{
+  "UID": "NC:sensorscx.EVT_SENSOR_DRIVER_START_SENSOR",
+  "title": "EVT_SENSOR_DRIVER_START_SENSOR (sensorscx.h)",
+  "description": "This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension.",
+  "old-location": "sensors\\evtsensorstart.htm",
+  "tech.root": "sensors",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "EVT_SENSOR_DRIVER_START_SENSOR callback function"
+  ],
+  "ms.keywords": "EVT_SENSOR_DRIVER_START_SENSOR, EVT_SENSOR_DRIVER_START_SENSOR callback, EvtSensorStart, EvtSensorStart callback function [Sensor Devices], sensors.evtsensorstart, sensorscx/EvtSensorStart",
+  "req.header": "sensorscx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "_requires_same_",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SENSOR_DRIVER_START_SENSOR",
+    "sensorscx/EVT_SENSOR_DRIVER_START_SENSOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "SensorsCx.h"
+  ],
+  "api_name": [
+    "EVT_SENSOR_DRIVER_START_SENSOR"
+  ]
+}

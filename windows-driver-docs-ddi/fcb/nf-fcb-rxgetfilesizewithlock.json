@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxGetFileSizeWithLock",
+  "title": "RxGetFileSizeWithLock function (fcb.h)",
+  "description": "RxGetFileSizeWithLock gets the file size in the FCB structure using a lock to ensure that the 64-bit value is read consistently.",
+  "old-location": "ifsk\\rxgetfilesizewithlock.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxGetFileSizeWithLock function"
+  ],
+  "ms.keywords": "RxGetFileSizeWithLock, RxGetFileSizeWithLock function [Installable File System Drivers], fcb/RxGetFileSizeWithLock, ifsk.rxgetfilesizewithlock, rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Mrxfcb.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxGetFileSizeWithLock",
+    "fcb/RxGetFileSizeWithLock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxGetFileSizeWithLock"
+  ]
+}

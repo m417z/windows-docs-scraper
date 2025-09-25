@@ -1,0 +1,7 @@
+DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES DxgkddiMonitorfrequencyrangesetGetnumfrequencyranges;
+
+NTSTATUS DxgkddiMonitorfrequencyrangesetGetnumfrequencyranges(
+  [in]  IN_CONST_D3DKMDT_HMONITORFREQUENCYRANGESET hMonitorFrequencyRangeSet,
+  [out] OUT_PSIZE_T_CONST pNumMonitorFrequencyRanges
+)
+{...}

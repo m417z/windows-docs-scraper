@@ -1,0 +1,90 @@
+# GetThreadPreferredUILanguages function
+
+## Description
+
+Retrieves the thread preferred UI languages for the current thread. For more information, see [User Interface Language Management](https://learn.microsoft.com/windows/desktop/Intl/user-interface-language-management).
+
+## Parameters
+
+### `dwFlags` [in]
+
+Flags identifying language format and filtering. The following flags specify the language format to use for the thread preferred UI languages. The flags are mutually exclusive, and the default is MUI_LANGUAGE_NAME.
+
+| Value | Meaning |
+| --- | --- |
+| **MUI_LANGUAGE_ID** | Retrieve the language strings in [language identifier](https://learn.microsoft.com/windows/desktop/Intl/language-identifiers) format. |
+| **MUI_LANGUAGE_NAME** | Retrieve the language strings in [language name](https://learn.microsoft.com/windows/desktop/Intl/language-names) format. |
+
+The following flags specify filtering for the function to use in retrieving the thread preferred UI languages. The default flag is MUI_MERGE_USER_FALLBACK.
+
+| Value | Meaning |
+| --- | --- |
+| **MUI_MERGE_SYSTEM_FALLBACK** | Use the system fallback to retrieve a list that corresponds exactly to the language list used by the resource loader. This flag can be used only in combination with MUI_MERGE_USER_FALLBACK. Using the flags in combination alters the usual effect of MUI_MERGE_USER_FALLBACK by including fallback and neutral languages in the list. |
+| **MUI_MERGE_USER_FALLBACK** | Retrieve a composite list consisting of the thread preferred UI languages, followed by process preferred UI languages, followed by any user preferred UI languages that are distinct from these, followed by the system default UI language, if it is not already in the list. If the user preferred UI languages list is empty, the function retrieves the system preferred UI languages. This flag cannot be combined with MUI_THREAD_LANGUAGES. |
+| **MUI_THREAD_LANGUAGES** | Retrieve only the thread preferred UI languages for the current thread, or an empty list if no preferred languages are set for the current thread. This flag cannot be combined with MUI_MERGE_USER_FALLBACK or MUI_MERGE_SYSTEM_FALLBACK. |
+| **MUI_UI_FALLBACK** | Retrieve a complete thread preferred UI languages list along with associated fallback and neutral languages. Use of this flag is equivalent to combining MUI_MERGE_SYSTEM_FALLBACK and MUI_MERGE_USER_FALLBACK. (Applicable only for Windows 7 and later). |
+
+### `pulNumLanguages` [out]
+
+Pointer to the number of languages retrieved in *pwszLanguagesBuffer*.
+
+### `pwszLanguagesBuffer` [out, optional]
+
+Optional. Pointer to a buffer in which this function retrieves an ordered, null-delimited thread preferred UI languages list, in the format specified by *dwFlags*. This list ends with two null characters.
+
+Alternatively if this parameter is set to **NULL** and *pcchLanguagesBuffer* is set to 0, the function retrieves the required size of the language buffer in *pcchLanguagesBuffer*. The required size includes the two null characters.
+
+### `pcchLanguagesBuffer` [in, out]
+
+Pointer to the size, in characters, for the language buffer indicated by *pwszLanguagesBuffer*. On successful return from the function, the parameter contains the size of the retrieved language buffer.
+
+Alternatively if this parameter is set to 0 and *pwszLanguagesBuffer* is set to **NULL**, the function retrieves the required size of the language buffer in *pcchLanguagesBuffer*.
+
+## Return value
+
+Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, the application can call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror), which returns one of the following error codes:
+
+* ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to **NULL**.
+
+If the function fails for any other reason, the parameters *pulNumLanguages* and *pcchLanguagesBuffer* are undefined.
+
+## Remarks
+
+Depending on the flags specified by the application, this function can retrieve a composite list consisting of the thread preferred UI languages, process preferred UI languages, user preferred UI languages or system preferred UI languages, and the system default UI language. If it encounters a duplicate language, the function only retrieves the first language.
+
+If the application has called [SetThreadPreferredUILanguages](https://learn.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages) with the MUI_CONSOLE_FILTER or MUI_COMPLEX_SCRIPT_FILTER flag, **GetThreadPreferredUILanguages** filters the languages in the result list. The function replaces the languages the console cannot display with a substitute language. The substitution for a language is determined from the value of [LOCALE_SCONSOLEFALLBACKNAME](https://learn.microsoft.com/windows/desktop/Intl/locale-sconsolefallbackname) for the language. For more console information, see the description of [SetThreadUILanguage](https://learn.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage).
+
+Use of MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID because the MUI_LANGUAGE_NAME flag can do a better job of handling Language Interface Pack (LIP) languages that correspond to [supplemental locales](https://learn.microsoft.com/windows/desktop/Intl/custom-locales).
+
+When MUI_LANGUAGE_ID is specified, the language strings retrieved will be hexadecimal language identifiers
+
+that do not include the leading 0x, and will be 4 characters in length. For example, en-US will be returned
+
+as "0409" and en as "0009".
+
+If the application sets the MUI_LANGUAGE_ID flag, the thread preferred UI languages can include one or more languages that correspond to supplemental locales. On successful return from the function, the language buffer contains "1400" for any language corresponding to a supplemental locale. There can be only one such language in this list. The string "1400" corresponds to the hexadecimal value of [LOCALE_CUSTOM_UI_DEFAULT](https://learn.microsoft.com/windows/desktop/Intl/locale-custom-constants). Also on successful return from the function, the *pwszLanguagesBuffer* contains "1000" for any other language that corresponds to a supplemental locale. The string "1000" corresponds to the hexadecimal value of [LOCALE_CUSTOM_UNSPECIFIED](https://learn.microsoft.com/windows/desktop/Intl/locale-custom-constants), which is not useful as an input to any function, because it cannot distinguish among supplemental locales.
+
+### C# Signature
+
+```cpp
+[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+        static extern System.Boolean GetThreadPreferredUILanguages(
+            System.UInt32 dwFlags,
+            ref System.UInt32 pulNumLanguages,
+            System.IntPtr pwszLanguagesBuffer,
+            ref System.UInt32 pcchLanguagesBuffer
+            );
+
+```
+
+## See also
+
+[GetThreadUILanguage](https://learn.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreaduilanguage)
+
+[Multilingual User Interface](https://learn.microsoft.com/windows/desktop/Intl/multilingual-user-interface)
+
+[Multilingual User Interface Functions](https://learn.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions)
+
+[SetThreadPreferredUILanguages](https://learn.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages)
+
+[SetThreadUILanguage](https://learn.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage)

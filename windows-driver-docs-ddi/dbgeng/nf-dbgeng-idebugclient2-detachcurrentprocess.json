@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugClient2.DetachCurrentProcess",
+  "title": "IDebugClient2::DetachCurrentProcess (dbgeng.h)",
+  "description": "The DetachCurrentProcess method detaches the debugger engine from the current process, resuming all its threads. This method belongs to IDebugClient2.",
+  "old-location": "debugger\\detachcurrentprocess.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugClient2::DetachCurrentProcess"
+  ],
+  "ms.keywords": "DetachCurrentProcess, DetachCurrentProcess method [Windows Debugging], DetachCurrentProcess method [Windows Debugging],IDebugClient2 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient3 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient4 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient2.DetachCurrentProcess, IDebugClient2::DetachCurrentProcess, IDebugClient3 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient3::DetachCurrentProcess, IDebugClient4 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient4::DetachCurrentProcess, IDebugClient5 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient5::DetachCurrentProcess, IDebugClient_cee2b21f-2cbf-449d-a2c8-2006e21074db.xml, dbgeng/IDebugClient2::DetachCurrentProcess, dbgeng/IDebugClient3::DetachCurrentProcess, dbgeng/IDebugClient4::DetachCurrentProcess, dbgeng/IDebugClient5::DetachCurrentProcess, debugger.detachcurrentprocess",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugClient2::DetachCurrentProcess",
+    "dbgeng/IDebugClient2::DetachCurrentProcess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugClient2::DetachCurrentProcess"
+  ]
+}

@@ -1,0 +1,3 @@
+struct GdiplusAbort {
+  HRESULT Abort();
+};

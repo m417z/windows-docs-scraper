@@ -1,0 +1,4 @@
+typedef struct _GET_LOCAL_HOST_INFO8 {
+  USHORT MajorVersion;
+  USHORT MinorVersion;
+} GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8;

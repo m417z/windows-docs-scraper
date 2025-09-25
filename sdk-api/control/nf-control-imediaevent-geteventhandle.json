@@ -1,0 +1,65 @@
+{
+  "UID": "NF:control.IMediaEvent.GetEventHandle",
+  "title": "IMediaEvent::GetEventHandle (control.h)",
+  "description": "The GetEventHandle method retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.",
+  "helpviewer_keywords": [
+    "GetEventHandle",
+    "GetEventHandle method [DirectShow]",
+    "GetEventHandle method [DirectShow]",
+    "IMediaEvent interface",
+    "IMediaEvent interface [DirectShow]",
+    "GetEventHandle method",
+    "IMediaEvent.GetEventHandle",
+    "IMediaEvent::GetEventHandle",
+    "IMediaEventGetEventHandle",
+    "control/IMediaEvent::GetEventHandle",
+    "dshow.imediaevent_geteventhandle"
+  ],
+  "old-location": "dshow\\imediaevent_geteventhandle.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "83db8d24-d872-4a90-a896-1cc51273b551",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],GetEventHandle method, IMediaEvent.GetEventHandle, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle",
+  "req.header": "control.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaEvent::GetEventHandle",
+    "control/IMediaEvent::GetEventHandle"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaEvent.GetEventHandle"
+  ]
+}

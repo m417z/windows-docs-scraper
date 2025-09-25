@@ -1,0 +1,31 @@
+typedef struct _AV_61883_REQUEST {
+  ULONG Function;
+  ULONG Version;
+  ULONG Flags;
+  union {
+    GET_UNIT_INFO       GetUnitInfo;
+    SET_UNIT_INFO       SetUnitInfo;
+    CMP_GET_PLUG_HANDLE GetPlugHandle;
+    CMP_GET_PLUG_STATE  GetPlugState;
+    CMP_CONNECT         Connect;
+    CMP_DISCONNECT      Disconnect;
+    CIP_ATTACH_FRAME    AttachFrame;
+    CIP_CANCEL_FRAME    CancelFrame;
+    CIP_TALK            Talk;
+    CIP_LISTEN          Listen;
+    CIP_STOP            Stop;
+    FCP_REQUEST         Request;
+    FCP_RESPONSE        Response;
+    FCP_SEND_REQUEST    SendRequest;
+    FCP_GET_RESPONSE    GetResponse;
+    FCP_GET_REQUEST     GetRequest;
+    FCP_SEND_RESPONSE   SendResponse;
+    SET_FCP_NOTIFY      SetFcpNotify;
+    CMP_CREATE_PLUG     CreatePlug;
+    CMP_DELETE_PLUG     DeletePlug;
+    CMP_SET_PLUG        SetPlug;
+    BUS_RESET_NOTIFY    BusResetNotify;
+    SET_UNIT_DIRECTORY  SetUnitDirectory;
+    CMP_MONITOR_PLUGS   MonitorPlugs;
+  };
+} AV_61883_REQUEST, *PAV_61883_REQUEST;

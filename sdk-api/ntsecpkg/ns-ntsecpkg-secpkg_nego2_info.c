@@ -1,0 +1,4 @@
+typedef struct _SECPKG_NEGO2_INFO {
+  UCHAR AuthScheme[16];
+  ULONG PackageFlags;
+} SECPKG_NEGO2_INFO, *PSECPKG_NEGO2_INFO;

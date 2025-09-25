@@ -1,0 +1,4 @@
+typedef struct _IRB_REQ_GET_LOCAL_HOST_INFORMATION {
+  ULONG nLevel;
+  PVOID Information;
+} IRB_REQ_GET_LOCAL_HOST_INFORMATION;

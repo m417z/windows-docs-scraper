@@ -1,0 +1,4 @@
+typedef struct _CRL_DIST_POINTS_INFO {
+  DWORD           cDistPoint;
+  PCRL_DIST_POINT rgDistPoint;
+} CRL_DIST_POINTS_INFO, *PCRL_DIST_POINTS_INFO;

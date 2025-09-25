@@ -1,0 +1,25 @@
+typedef struct _DDSURFACEDATA {
+  DWORD     ddsCaps;
+  DWORD     dwSurfaceOffset;
+  ULONG_PTR fpLockPtr;
+  DWORD     dwWidth;
+  DWORD     dwHeight;
+  LONG      lPitch;
+  DWORD     dwOverlayFlags;
+  DWORD     dwOverlayOffset;
+  DWORD     dwOverlaySrcWidth;
+  DWORD     dwOverlaySrcHeight;
+  DWORD     dwOverlayDestWidth;
+  DWORD     dwOverlayDestHeight;
+  DWORD     dwVideoPortId;
+  DWORD     dwFormatFlags;
+  DWORD     dwFormatFourCC;
+  DWORD     dwFormatBitCount;
+  DWORD     dwRBitMask;
+  DWORD     dwGBitMask;
+  DWORD     dwBBitMask;
+  ULONG     dwDriverReserved1;
+  ULONG     dwDriverReserved2;
+  ULONG     dwDriverReserved3;
+  ULONG     dwDriverReserved4;
+} DDSURFACEDATA, *LPDDSURFACEDATA;

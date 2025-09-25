@@ -1,0 +1,3 @@
+VOID AtaPortBusChangeDetected(
+  PVOID ChannelExtension
+);

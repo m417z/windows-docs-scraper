@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxworkq.RxPostToWorkerThread",
+  "title": "RxPostToWorkerThread function (rxworkq.h)",
+  "description": "RxPostToWorkerThread invokes a routine passed as a parameter in the context of a worker thread. Memory for the WORK_QUEUE_ITEM must be allocated by the caller.",
+  "old-location": "ifsk\\rxposttoworkerthread.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxPostToWorkerThread function"
+  ],
+  "ms.keywords": "RxPostToWorkerThread, RxPostToWorkerThread routine [Installable File System Drivers], ifsk.rxposttoworkerthread, rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, rxworkq/RxPostToWorkerThread",
+  "req.header": "rxworkq.h",
+  "req.include-header": "Rxworkq.h, Rxstruc.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxPostToWorkerThread",
+    "rxworkq/RxPostToWorkerThread"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxworkq.h"
+  ],
+  "api_name": [
+    "RxPostToWorkerThread"
+  ]
+}

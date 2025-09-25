@@ -1,0 +1,51 @@
+{
+  "UID": "NE:ntddrilapitypes.RILCALLMODIFICATIONCAUSECODE",
+  "title": "RILCALLMODIFICATIONCAUSECODE (ntddrilapitypes.h)",
+  "description": "Microsoft reserves the RILCALLMODIFICATIONCAUSECODE enumeration for internal use only. Don't use the RILCALLMODIFICATIONCAUSECODE enumeration in your code.",
+  "old-location": "netvista\\rilcallmodificationcausecode.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "RILCALLMODIFICATIONCAUSECODE enumeration"
+  ],
+  "ms.keywords": "*LPRILCALLMODIFICATIONCAUSECODE, RILCALLMODIFICATIONCAUSECODE, RILCALLMODIFICATIONCAUSECODE enumeration [Network Drivers Starting with Windows Vista], RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_GENERIC_ERROR, RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_LIPSYNC, RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_LOW_THROUGHPUT, RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_PACKET_LOSS, RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_QOS, RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_RTP_TIMEOUT, RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_THERMAL_MITIGATION, RIL_CALL_MODIFIED_CAUSE_MAX, netvista.rilcallmodificationcausecode, ntddrilapitypes/RILCALLMODIFICATIONCAUSECODE, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_GENERIC_ERROR, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_LIPSYNC, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_LOW_THROUGHPUT, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_PACKET_LOSS, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_QOS, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_RTP_TIMEOUT, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_DOWNGRADE_THERMAL_MITIGATION, ntddrilapitypes/RIL_CALL_MODIFIED_CAUSE_MAX",
+  "req.header": "ntddrilapitypes.h",
+  "req.include-header": "Rilapitypes.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RILCALLMODIFICATIONCAUSECODE, *LPRILCALLMODIFICATIONCAUSECODE",
+  "f1_keywords": [
+    "RILCALLMODIFICATIONCAUSECODE",
+    "ntddrilapitypes/RILCALLMODIFICATIONCAUSECODE",
+    "LPRILCALLMODIFICATIONCAUSECODE",
+    "ntddrilapitypes/LPRILCALLMODIFICATIONCAUSECODE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddrilapitypes.h"
+  ],
+  "api_name": [
+    "RILCALLMODIFICATIONCAUSECODE",
+    "LPRILCALLMODIFICATIONCAUSECODE"
+  ]
+}

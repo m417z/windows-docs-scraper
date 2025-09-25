@@ -1,0 +1,43 @@
+{
+  "UID": "NE:audioclientactivationparams.AUDIOCLIENT_ACTIVATION_TYPE",
+  "tech.root": "coreaudio",
+  "title": "AUDIOCLIENT_ACTIVATION_TYPE",
+  "ms.date": "01/21/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Specifies the activation type for an AUDIOCLIENT_ACTIVATION_PARAMS structure passed into a call to ActivateAudioInterfaceAsync.",
+  "offlinehelp_keywords": [
+    "AUDIOCLIENT_ACTIVATION_TYPE",
+    "audioclientactivationparams/AUDIOCLIENT_ACTIVATION_TYPE"
+  ],
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "audioclientactivationparams.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audioclientactivationparams.h"
+  ],
+  "api_name": [
+    "AUDIOCLIENT_ACTIVATION_TYPE"
+  ],
+  "f1_keywords": [
+    "AUDIOCLIENT_ACTIVATION_TYPE",
+    "audioclientactivationparams/AUDIOCLIENT_ACTIVATION_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

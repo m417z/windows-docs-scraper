@@ -1,0 +1,3 @@
+LONG TSPIAPI TSPI_lineCloseMSPInstance(
+  HDRVMSPLINE hdMSPLine
+);

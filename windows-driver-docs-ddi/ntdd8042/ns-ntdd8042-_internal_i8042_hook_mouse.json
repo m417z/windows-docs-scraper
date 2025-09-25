@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntdd8042._INTERNAL_I8042_HOOK_MOUSE",
+  "title": "_INTERNAL_I8042_HOOK_MOUSE (ntdd8042.h)",
+  "description": "INTERNAL_I8042_HOOK_MOUSE is used by I8042prt to connect an optional callback routine that supplements the operation of the mouse ISR. The callback can be supplied by an optional, vendor-supplied, upper-level filter driver.",
+  "old-location": "hid\\internal_i8042_hook_mouse.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "INTERNAL_I8042_HOOK_MOUSE structure"
+  ],
+  "ms.keywords": "*PINTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE structure [Human Input Devices], PINTERNAL_I8042_HOOK_MOUSE, PINTERNAL_I8042_HOOK_MOUSE structure pointer [Human Input Devices], _INTERNAL_I8042_HOOK_MOUSE, hid.internal_i8042_hook_mouse, i8042ref_23133caf-3bd0-4160-8213-899e37b7703e.xml, ntdd8042/INTERNAL_I8042_HOOK_MOUSE, ntdd8042/PINTERNAL_I8042_HOOK_MOUSE",
+  "req.header": "ntdd8042.h",
+  "req.include-header": "Ntdd8042.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "INTERNAL_I8042_HOOK_MOUSE, *PINTERNAL_I8042_HOOK_MOUSE",
+  "f1_keywords": [
+    "_INTERNAL_I8042_HOOK_MOUSE",
+    "ntdd8042/_INTERNAL_I8042_HOOK_MOUSE",
+    "PINTERNAL_I8042_HOOK_MOUSE",
+    "ntdd8042/PINTERNAL_I8042_HOOK_MOUSE",
+    "INTERNAL_I8042_HOOK_MOUSE",
+    "ntdd8042/INTERNAL_I8042_HOOK_MOUSE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntdd8042.h"
+  ],
+  "api_name": [
+    "_INTERNAL_I8042_HOOK_MOUSE",
+    "PINTERNAL_I8042_HOOK_MOUSE",
+    "INTERNAL_I8042_HOOK_MOUSE"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winuser.PhysicalToLogicalPoint",
+  "title": "PhysicalToLogicalPoint function (winuser.h)",
+  "description": "Converts the physical coordinates of a point in a window to logical coordinates.",
+  "helpviewer_keywords": [
+    "PhysicalToLogicalPoint",
+    "PhysicalToLogicalPoint function [Windows and Messages]",
+    "_win32_PhysicalToLogicalPoint",
+    "_win32_physicaltologicalpoint_cpp",
+    "winmsg.physicaltologicalpoint",
+    "winui._win32_physicaltologicalpoint",
+    "winuser/PhysicalToLogicalPoint"
+  ],
+  "old-location": "winmsg\\physicaltologicalpoint.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windows\\windowreference\\windowfunctions\\physicaltologicalpoint.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PhysicalToLogicalPoint, PhysicalToLogicalPoint function [Windows and Messages], _win32_PhysicalToLogicalPoint, _win32_physicaltologicalpoint_cpp, winmsg.physicaltologicalpoint, winui._win32_physicaltologicalpoint, winuser/PhysicalToLogicalPoint",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PhysicalToLogicalPoint",
+    "winuser/PhysicalToLogicalPoint"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll",
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "ext-ms-win-ntuser-window-l1-1-4.dll",
+    "ext-ms-win-ntuser-window-l1-1-3.dll",
+    "ext-ms-win-ntuser-window-l1-1-2.dll",
+    "User32.dll",
+    "Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll",
+    "minuser.dll"
+  ],
+  "api_name": [
+    "PhysicalToLogicalPoint"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)"
+}

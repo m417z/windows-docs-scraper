@@ -1,0 +1,64 @@
+{
+  "UID": "NF:synchapi.SetWaitableTimerEx",
+  "title": "SetWaitableTimerEx function (synchapi.h)",
+  "description": "Activates the specified waitable timer and provides context information for the timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.",
+  "helpviewer_keywords": [
+    "SetWaitableTimerEx",
+    "SetWaitableTimerEx function",
+    "base.setwaitabletimerex",
+    "synchapi/SetWaitableTimerEx",
+    "winbase/SetWaitableTimerEx"
+  ],
+  "old-location": "base\\setwaitabletimerex.htm",
+  "tech.root": "base",
+  "ms.assetid": "2facde72-6e04-4a2f-9ee6-059f36932539",
+  "ms.date": "08/20/2024",
+  "ms.keywords": "SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetWaitableTimerEx",
+    "synchapi/SetWaitableTimerEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "SetWaitableTimerEx"
+  ]
+}

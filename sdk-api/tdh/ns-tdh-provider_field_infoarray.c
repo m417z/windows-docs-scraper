@@ -1,0 +1,5 @@
+typedef struct _PROVIDER_FIELD_INFOARRAY {
+  ULONG               NumberOfElements;
+  EVENT_FIELD_TYPE    FieldType;
+  PROVIDER_FIELD_INFO FieldInfoArray[ANYSIZE_ARRAY];
+} PROVIDER_FIELD_INFOARRAY;

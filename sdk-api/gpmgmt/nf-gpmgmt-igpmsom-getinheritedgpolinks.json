@@ -1,0 +1,69 @@
+{
+  "UID": "NF:gpmgmt.IGPMSOM.GetInheritedGPOLinks",
+  "title": "IGPMSOM::GetInheritedGPOLinks (gpmgmt.h)",
+  "description": "Returns a GPOLinksCollection object that contains the GPO links that are applied to the scope of management (SOM), including links inherited from parent containers (OUs and domains).",
+  "helpviewer_keywords": [
+    "GPMSOM class [GPMC]",
+    "GetInheritedGPOLinks method",
+    "GetInheritedGPOLinks",
+    "GetInheritedGPOLinks method [GPMC]",
+    "GetInheritedGPOLinks method [GPMC]",
+    "GPMSOM class",
+    "GetInheritedGPOLinks method [GPMC]",
+    "IGPMSOM interface",
+    "IGPMSOM interface [GPMC]",
+    "GetInheritedGPOLinks method",
+    "IGPMSOM.GetInheritedGPOLinks",
+    "IGPMSOM::GetInheritedGPOLinks",
+    "_win32_igpmsom_getinheritedgpolinks",
+    "gpmc.igpmsom_getinheritedgpolinks",
+    "gpmgmt/IGPMSOM::GetInheritedGPOLinks"
+  ],
+  "old-location": "gpmc\\igpmsom_getinheritedgpolinks.htm",
+  "tech.root": "gpmc",
+  "ms.assetid": "545ab05a-b25e-40a7-b002-6935587764a5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GPMSOM class [GPMC],GetInheritedGPOLinks method, GetInheritedGPOLinks, GetInheritedGPOLinks method [GPMC], GetInheritedGPOLinks method [GPMC],GPMSOM class, GetInheritedGPOLinks method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetInheritedGPOLinks method, IGPMSOM.GetInheritedGPOLinks, IGPMSOM::GetInheritedGPOLinks, _win32_igpmsom_getinheritedgpolinks, gpmc.igpmsom_getinheritedgpolinks, gpmgmt/IGPMSOM::GetInheritedGPOLinks",
+  "req.header": "gpmgmt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Gpmgmt.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Gpmgmt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IGPMSOM::GetInheritedGPOLinks",
+    "gpmgmt/IGPMSOM::GetInheritedGPOLinks"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Gpmgmt.dll"
+  ],
+  "api_name": [
+    "IGPMSOM.GetInheritedGPOLinks",
+    "GPMSOM.GetInheritedGPOLinks"
+  ]
+}

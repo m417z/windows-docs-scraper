@@ -1,0 +1,63 @@
+{
+  "UID": "NF:ntmsapi.SetNtmsObjectInformationW",
+  "title": "SetNtmsObjectInformationW function (ntmsapi.h)",
+  "description": "The SetNtmsObjectInformationW (Unicode) function changes the information structure of the specified object. (SetNtmsObjectInformationW)",
+  "helpviewer_keywords": [
+    "SetNtmsObjectInformation",
+    "SetNtmsObjectInformation function [Files]",
+    "SetNtmsObjectInformationW",
+    "_zaw_setntmsobjectinformation",
+    "base.setntmsobjectinformation",
+    "fs.setntmsobjectinformation",
+    "ntmsapi/SetNtmsObjectInformation",
+    "ntmsapi/SetNtmsObjectInformationW"
+  ],
+  "old-location": "fs\\setntmsobjectinformation.htm",
+  "tech.root": "fs",
+  "ms.assetid": "1cdb9c72-1b34-4800-a07d-b648baec8582",
+  "ms.date": "08/03/2022",
+  "ms.keywords": "SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW",
+  "req.header": "ntmsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetNtmsObjectInformationW (Unicode) and SetNtmsObjectInformationA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntmsapi.lib",
+  "req.dll": "Ntmsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetNtmsObjectInformationW",
+    "ntmsapi/SetNtmsObjectInformationW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntmsapi.dll"
+  ],
+  "api_name": [
+    "SetNtmsObjectInformation",
+    "SetNtmsObjectInformationA",
+    "SetNtmsObjectInformationW"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winbio.WinBioEnrollCommit",
+  "title": "WinBioEnrollCommit function (winbio.h)",
+  "description": "Finalizes a pending biometric template and saves it to the database associated with the biometric unit used for enrollment. Starting with Windows 10, build 1607, this function is available to use with a mobile image.",
+  "helpviewer_keywords": [
+    "WinBioEnrollCommit",
+    "WinBioEnrollCommit function [Windows Biometric Framework API]",
+    "secbiomet.winbioenrollcommit",
+    "winbio/WinBioEnrollCommit"
+  ],
+  "old-location": "secbiomet\\winbioenrollcommit.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "ed9242e5-fee7-46ca-b42c-cda1b5dcdc78",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinBioEnrollCommit, WinBioEnrollCommit function [Windows Biometric Framework API], secbiomet.winbioenrollcommit, winbio/WinBioEnrollCommit",
+  "req.header": "winbio.h",
+  "req.include-header": "Winbio.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winbio.lib",
+  "req.dll": "Winbio.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinBioEnrollCommit",
+    "winbio/WinBioEnrollCommit"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-biometrics-winbio-core-l1-1-6.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-5.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-4.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-3.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-2.dll",
+    "Winbio.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-0.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll"
+  ],
+  "api_name": [
+    "WinBioEnrollCommit"
+  ]
+}

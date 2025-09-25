@@ -1,0 +1,49 @@
+{
+  "UID": "NS:audioengineextensionapo.AUDIO_VOLUME_NOTIFICATION_DATA2",
+  "tech.root": "audio",
+  "title": "AUDIO_VOLUME_NOTIFICATION_DATA2",
+  "ms.date": "02/28/2023",
+  "targetos": "Windows",
+  "description": "Represents information about a volume change notification event. This structure is used by the AUDIO_ENDPOINT_VOLUME_CHANGE_NOTIFICATION2 structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audioengineextensionapo.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "AUDIO_VOLUME_NOTIFICATION_DATA2, *PAUDIO_VOLUME_NOTIFICATION_DATA2",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audioengineextensionapo.h"
+  ],
+  "api_name": [
+    "AUDIO_VOLUME_NOTIFICATION_DATA2",
+    "PAUDIO_VOLUME_NOTIFICATION_DATA2"
+  ],
+  "f1_keywords": [
+    "AUDIO_VOLUME_NOTIFICATION_DATA2",
+    "audioengineextensionapo/AUDIO_VOLUME_NOTIFICATION_DATA2",
+    "PAUDIO_VOLUME_NOTIFICATION_DATA2",
+    "audioengineextensionapo/PAUDIO_VOLUME_NOTIFICATION_DATA2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "AUDIO_VOLUME_NOTIFICATION_DATA2"
+  ]
+}

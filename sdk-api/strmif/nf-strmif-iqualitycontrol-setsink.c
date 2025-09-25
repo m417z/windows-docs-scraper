@@ -1,0 +1,3 @@
+HRESULT SetSink(
+  IQualityControl *piqc
+);

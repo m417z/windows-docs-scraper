@@ -1,0 +1,3 @@
+HRESULT ValidateEnumerationFlags(
+  long lFlags
+);

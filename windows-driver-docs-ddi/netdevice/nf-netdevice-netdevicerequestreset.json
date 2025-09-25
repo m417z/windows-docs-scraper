@@ -1,0 +1,49 @@
+{
+  "UID": "NF:netdevice.NetDeviceRequestReset",
+  "title": "NetDeviceRequestReset",
+  "ms.date": "03/10/2023",
+  "ms.custom": "Fe",
+  "targetos": "Windows",
+  "description": "The NetDeviceRequestReset function triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.",
+  "tech.root": "netvista",
+  "keywords": [
+    "NetDeviceRequestReset function"
+  ],
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "netadaptercx.h",
+  "req.idl": null,
+  "req.include-header": "netadaptercx.h",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": 2.33,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netdevice.h"
+  ],
+  "api_name": [
+    "NetDeviceRequestReset"
+  ],
+  "f1_keywords": [
+    "netdevice/NetDeviceRequestReset"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

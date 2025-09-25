@@ -1,0 +1,6 @@
+typedef struct _FSCTL_OFFLOAD_READ_OUTPUT {
+  ULONG     Size;
+  ULONG     Flags;
+  ULONGLONG TransferLength;
+  UCHAR     Token[512];
+} FSCTL_OFFLOAD_READ_OUTPUT, *PFSCTL_OFFLOAD_READ_OUTPUT;

@@ -1,0 +1,3 @@
+BOOL UnrealizeObject(
+       HGDIOBJ h
+);

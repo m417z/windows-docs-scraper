@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortReadRegisterUchar",
+  "title": "VideoPortReadRegisterUchar function (video.h)",
+  "description": "The VideoPortReadRegisterUchar function reads a byte from a mapped register.",
+  "old-location": "display\\videoportreadregisteruchar.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortReadRegisterUchar function"
+  ],
+  "ms.keywords": "VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, display.videoportreadregisteruchar, video/VideoPortReadRegisterUchar",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortReadRegisterUchar",
+    "video/VideoPortReadRegisterUchar"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortReadRegisterUchar"
+  ]
+}

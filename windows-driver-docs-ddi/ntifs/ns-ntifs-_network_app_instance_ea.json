@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ntifs._NETWORK_APP_INSTANCE_EA",
+  "title": "_NETWORK_APP_INSTANCE_EA (ntifs.h)",
+  "description": "An Extended Attribute (EA) structure for processes using Server Message Block (SMB) Cluster Client Failover.",
+  "ms.date": "10/19/2018",
+  "tech.root": "ifsk",
+  "keywords": [
+    "NETWORK_APP_INSTANCE_EA structure"
+  ],
+  "ms.keywords": "_NETWORK_APP_INSTANCE_EA, NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA,",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": "CCFFilter.sys",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_NETWORK_APP_INSTANCE_EA",
+    "ntifs/_NETWORK_APP_INSTANCE_EA",
+    "PNETWORK_APP_INSTANCE_EA",
+    "ntifs/PNETWORK_APP_INSTANCE_EA",
+    "NETWORK_APP_INSTANCE_EA",
+    "ntifs/NETWORK_APP_INSTANCE_EA"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_NETWORK_APP_INSTANCE_EA",
+    "PNETWORK_APP_INSTANCE_EA",
+    "NETWORK_APP_INSTANCE_EA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

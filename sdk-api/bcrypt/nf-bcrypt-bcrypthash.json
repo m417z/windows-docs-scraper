@@ -1,0 +1,57 @@
+{
+  "UID": "NF:bcrypt.BCryptHash",
+  "title": "BCryptHash function (bcrypt.h)",
+  "description": "Performs a single hash or MAC computation. This is a convenience function that wraps calls to BCryptCreateHash, BCryptHashData, BCryptFinishHash, and BCryptDestroyHash.",
+  "helpviewer_keywords": [
+    "BCryptHash",
+    "BCryptHash function [Security]",
+    "bcrypt/BCryptHash",
+    "security.bcrypthash"
+  ],
+  "old-location": "security\\bcrypthash.htm",
+  "tech.root": "security",
+  "ms.assetid": "F0FF9B6D-1345-480A-BE13-BE90547407BF",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "BCryptHash, BCryptHash function [Security], bcrypt/BCryptHash, security.bcrypthash",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptHash",
+    "bcrypt/BCryptHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptHash"
+  ]
+}

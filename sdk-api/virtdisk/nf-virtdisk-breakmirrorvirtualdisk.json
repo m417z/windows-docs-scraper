@@ -1,0 +1,58 @@
+{
+  "UID": "NF:virtdisk.BreakMirrorVirtualDisk",
+  "title": "BreakMirrorVirtualDisk function (virtdisk.h)",
+  "description": "Breaks a previously initiated mirror operation and sets the mirror to be the active virtual disk.",
+  "helpviewer_keywords": [
+    "BreakMirrorVirtualDisk",
+    "BreakMirrorVirtualDisk function [VHD]",
+    "vdssys/BreakMirrorVirtualDisk",
+    "vhd.breakmirrorvirtualdisk",
+    "virtdisk/BreakMirrorVirtualDisk"
+  ],
+  "old-location": "vhd\\breakmirrorvirtualdisk.htm",
+  "tech.root": "VStor",
+  "ms.assetid": "bf70ee43-9fba-4856-a1bc-85eec61f5763",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk",
+  "req.header": "virtdisk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VirtDisk.lib",
+  "req.dll": "VirtDisk.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BreakMirrorVirtualDisk",
+    "virtdisk/BreakMirrorVirtualDisk"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "VirtDisk.dll"
+  ],
+  "api_name": [
+    "BreakMirrorVirtualDisk"
+  ]
+}

@@ -1,0 +1,1 @@
+HCLUSTER GetClusterHandle();

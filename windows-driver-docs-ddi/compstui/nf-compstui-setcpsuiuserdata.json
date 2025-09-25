@@ -1,0 +1,47 @@
+{
+  "UID": "NF:compstui.SetCPSUIUserData",
+  "title": "SetCPSUIUserData function (compstui.h)",
+  "description": "CPSUI's SetCPSUIUserData function allows CPSUI applications (including printer interface DLLs) to associate non-displayed data with a property sheet dialog box.",
+  "tech.root": "print",
+  "ms.date": "11/15/2022",
+  "keywords": [
+    "SetCPSUIUserData function"
+  ],
+  "ms.keywords": "SetCPSUIUserData, SetCPSUIUserData function [Print Devices], compstui/SetCPSUIUserData, cpsuifnc_d2f38387-ece5-4894-86d5-0ef66f62a72c.xml, print.setcpsuiuserdata",
+  "req.header": "compstui.h",
+  "req.include-header": "Compstui.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Compstui.lib",
+  "req.dll": "Compstui.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SetCPSUIUserData",
+    "compstui/SetCPSUIUserData"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Compstui.dll"
+  ],
+  "api_name": [
+    "SetCPSUIUserData"
+  ]
+}

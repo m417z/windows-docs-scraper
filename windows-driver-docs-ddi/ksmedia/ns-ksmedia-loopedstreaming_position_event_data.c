@@ -1,0 +1,8 @@
+typedef struct {
+  KSEVENTDATA KsEventData;
+#if ...
+  ULONGLONG   Position;
+#else
+  DWORDLONG   Position;
+#endif
+} LOOPEDSTREAMING_POSITION_EVENT_DATA, *PLOOPEDSTREAMING_POSITION_EVENT_DATA;

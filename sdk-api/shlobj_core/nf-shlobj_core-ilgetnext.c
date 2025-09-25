@@ -1,0 +1,3 @@
+PUIDLIST_RELATIVE ILGetNext(
+  [in, optional] PCUIDLIST_RELATIVE pidl
+);

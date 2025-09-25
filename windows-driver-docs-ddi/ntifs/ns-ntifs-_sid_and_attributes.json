@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._SID_AND_ATTRIBUTES",
+  "title": "_SID_AND_ATTRIBUTES (ntifs.h)",
+  "description": "The SID_AND_ATTRIBUTES structure represents a security identifier (SID) and its attributes. SIDs are used to uniquely identify users or groups.",
+  "old-location": "ifsk\\sid_and_attributes.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SID_AND_ATTRIBUTES structure"
+  ],
+  "ms.keywords": "*PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES structure pointer [Installable File System Drivers], SID_AND_ATTRIBUTES, SID_AND_ATTRIBUTES structure [Installable File System Drivers], _SID_AND_ATTRIBUTES, ifsk.sid_and_attributes, ntifs/PSID_AND_ATTRIBUTES, ntifs/SID_AND_ATTRIBUTES, securitystructures_b0075789-13b6-4324-965b-33a162bff18b.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SID_AND_ATTRIBUTES, *PSID_AND_ATTRIBUTES",
+  "f1_keywords": [
+    "_SID_AND_ATTRIBUTES",
+    "ntifs/_SID_AND_ATTRIBUTES",
+    "PSID_AND_ATTRIBUTES",
+    "ntifs/PSID_AND_ATTRIBUTES",
+    "SID_AND_ATTRIBUTES",
+    "ntifs/SID_AND_ATTRIBUTES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SID_AND_ATTRIBUTES",
+    "PSID_AND_ATTRIBUTES",
+    "SID_AND_ATTRIBUTES"
+  ]
+}

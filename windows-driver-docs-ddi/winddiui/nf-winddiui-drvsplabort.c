@@ -1,0 +1,3 @@
+VOID DrvSplAbort(
+  HANDLE hDriver
+);

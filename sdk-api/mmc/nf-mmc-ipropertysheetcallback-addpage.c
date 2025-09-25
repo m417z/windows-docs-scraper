@@ -1,0 +1,3 @@
+HRESULT AddPage(
+  [in] HPROPSHEETPAGE hPage
+);

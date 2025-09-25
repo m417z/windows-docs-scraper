@@ -1,0 +1,39 @@
+{
+  "UID": "NE:ntioring_x.IORING_FEATURE_FLAGS",
+  "tech.root": "fs",
+  "title": "IORING_FEATURE_FLAGS",
+  "ms.date": "07/16/2021",
+  "targetos": "Windows",
+  "description": "Represents feature support for the an I/O ring API version.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ntioring_x.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntioring_x.h"
+  ],
+  "api_name": [
+    "IORING_FEATURE_FLAGS"
+  ],
+  "f1_keywords": [
+    "IORING_FEATURE_FLAGS",
+    "ntioring_x/IORING_FEATURE_FLAGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

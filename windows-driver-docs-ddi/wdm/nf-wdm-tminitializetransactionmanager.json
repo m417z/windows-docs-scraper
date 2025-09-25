@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.TmInitializeTransactionManager",
+  "title": "TmInitializeTransactionManager function (wdm.h)",
+  "description": "The TmInitializeTransactionManager routine initializes a transaction manager object.",
+  "old-location": "kernel\\tminitializetransactionmanager_.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "TmInitializeTransactionManager function"
+  ],
+  "ms.keywords": "TmInitializeTransactionManager, TmInitializeTransactionManager , TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "TmInitializeTransactionManager",
+    "wdm/TmInitializeTransactionManager"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wdm.h",
+    "Ext-MS-Win-ntos-tm-l1-1-0.dll",
+    "tm.sys"
+  ],
+  "api_name": [
+    "TmInitializeTransactionManager"
+  ]
+}

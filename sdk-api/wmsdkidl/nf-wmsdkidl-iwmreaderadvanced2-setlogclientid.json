@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAdvanced2.SetLogClientID",
+  "title": "IWMReaderAdvanced2::SetLogClientID (wmsdkidl.h)",
+  "description": "The SetLogClientID method specifies whether the reader logs the client's unique ID or an anonymous session ID.",
+  "helpviewer_keywords": [
+    "IWMReaderAdvanced2 interface [windows Media Format]",
+    "SetLogClientID method",
+    "IWMReaderAdvanced2.SetLogClientID",
+    "IWMReaderAdvanced2::SetLogClientID",
+    "IWMReaderAdvanced2SetLogClientID",
+    "SetLogClientID",
+    "SetLogClientID method [windows Media Format]",
+    "SetLogClientID method [windows Media Format]",
+    "IWMReaderAdvanced2 interface",
+    "wmformat.iwmreaderadvanced2_setlogclientid",
+    "wmsdkidl/IWMReaderAdvanced2::SetLogClientID"
+  ],
+  "old-location": "wmformat\\iwmreaderadvanced2_setlogclientid.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "818b7a0e-bbf4-42b2-a5a4-75078834c9f6",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderAdvanced2 interface [windows Media Format],SetLogClientID method, IWMReaderAdvanced2.SetLogClientID, IWMReaderAdvanced2::SetLogClientID, IWMReaderAdvanced2SetLogClientID, SetLogClientID, SetLogClientID method [windows Media Format], SetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setlogclientid, wmsdkidl/IWMReaderAdvanced2::SetLogClientID",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAdvanced2::SetLogClientID",
+    "wmsdkidl/IWMReaderAdvanced2::SetLogClientID"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderAdvanced2.SetLogClientID"
+  ]
+}

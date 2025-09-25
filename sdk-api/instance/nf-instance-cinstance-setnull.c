@@ -1,0 +1,3 @@
+bool SetNull(
+  LPCWSTR name
+);

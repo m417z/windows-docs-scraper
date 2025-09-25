@@ -1,0 +1,63 @@
+{
+  "UID": "NF:ws2tcpip.gai_strerrorW",
+  "title": "gai_strerrorW function (ws2tcpip.h)",
+  "description": "The gai_strerror function assists in printing error messages based on the EAI_* errors returned by the getaddrinfo function. (Unicode)",
+  "helpviewer_keywords": [
+    "_win32_gai_strerror_2",
+    "gai_strerror",
+    "gai_strerror function [Winsock]",
+    "gai_strerrorW",
+    "winsock.gai_strerror_2",
+    "ws2tcpip/gai_strerror",
+    "ws2tcpip/gai_strerrorW"
+  ],
+  "old-location": "winsock\\gai_strerror_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "00b4c5de-89c9-419f-bff8-822ef0446697",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_gai_strerror_2, gai_strerror, gai_strerror function [Winsock], gai_strerrorA, gai_strerrorW, winsock.gai_strerror_2, ws2tcpip/gai_strerror, ws2tcpip/gai_strerrorA, ws2tcpip/gai_strerrorW, wspiapi/gai_strerror, wspiapi/gai_strerrorA, wspiapi/gai_strerrorW",
+  "req.header": "ws2tcpip.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "gai_strerrorW (Unicode) and gai_strerrorA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "gai_strerrorW",
+    "ws2tcpip/gai_strerrorW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ws2tcpip.h",
+    "Wspiapi.h"
+  ],
+  "api_name": [
+    "gai_strerror",
+    "gai_strerrorA",
+    "gai_strerrorW"
+  ]
+}

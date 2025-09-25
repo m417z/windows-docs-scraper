@@ -1,0 +1,63 @@
+{
+  "UID": "NF:winnt.RtlCaptureContext",
+  "title": "RtlCaptureContext function (winnt.h)",
+  "description": "Retrieves a context record in the context of the caller.",
+  "helpviewer_keywords": [
+    "RtlCaptureContext",
+    "RtlCaptureContext function",
+    "base.rtlcapturecontext",
+    "winnt/RtlCaptureContext"
+  ],
+  "old-location": "base\\rtlcapturecontext.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "e2ce0cde-43ab-4681-be66-bd7509fd6ca2",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "RtlCaptureContext, RtlCaptureContext function, base.rtlcapturecontext, winnt/RtlCaptureContext",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlCaptureContext",
+    "winnt/RtlCaptureContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-rtlsupport-l1-2-2.dll",
+    "api-ms-win-core-rtlsupport-l1-2-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-rtlsupport-l1-1-0.dll",
+    "ntdll.dll",
+    "API-MS-Win-Core-rtlsupport-l1-2-0.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "RtlCaptureContext"
+  ]
+}

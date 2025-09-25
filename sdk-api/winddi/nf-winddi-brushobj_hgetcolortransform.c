@@ -1,0 +1,3 @@
+ENGAPI HANDLE BRUSHOBJ_hGetColorTransform(
+  BRUSHOBJ *pbo
+);

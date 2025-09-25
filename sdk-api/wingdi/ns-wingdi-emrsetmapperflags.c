@@ -1,0 +1,4 @@
+typedef struct tagEMRSETMAPPERFLAGS {
+  EMR   emr;
+  DWORD dwFlags;
+} EMRSETMAPPERFLAGS, *PEMRSETMAPPERFLAGS;

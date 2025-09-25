@@ -1,0 +1,4 @@
+LONG MCIWndSetOwner(
+     hwnd,
+     hwndP
+);

@@ -1,0 +1,3 @@
+HRESULT GetDocument(
+  IXMLDOMDocument **pDoc
+);

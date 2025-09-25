@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE VOID NETIOAPI_API_ InitializeIpInterfaceEntry(
+  [in, out] PMIB_IPINTERFACE_ROW Row
+);

@@ -1,0 +1,4 @@
+typedef struct _TIMESTAMPING_CONFIG {
+  ULONG  Flags;
+  USHORT TxTimestampsBuffered;
+} TIMESTAMPING_CONFIG, *PTIMESTAMPING_CONFIG;

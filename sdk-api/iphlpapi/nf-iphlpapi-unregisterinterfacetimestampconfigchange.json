@@ -1,0 +1,54 @@
+{
+  "UID": "NF:iphlpapi.UnregisterInterfaceTimestampConfigChange",
+  "title": "UnregisterInterfaceTimestampConfigChange",
+  "description": "Cancels notifications about timestamp capability changes by unregistering the callback function you registered in a call to [**RegisterInterfaceTimestampConfigChange**](/windows/win32/api/iphlpapi/nf-iphlpapi-registerinterfacetimestampconfigchange).",
+  "helpviewer_keywords": [
+    "UnregisterInterfaceTimestampConfigChange",
+    "UnregisterInterfaceTimestampConfigChange function [IP Helper]",
+    "iphlp.unregisterinterfacetimestampconfigchange",
+    "iphlpapi/UnregisterInterfaceTimestampConfigChange"
+  ],
+  "tech.root": "IpHlp",
+  "ms.date": "12/18/2020",
+  "req.construct-type": "function",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "UnregisterInterfaceTimestampConfigChange",
+    "iphlpapi/UnregisterInterfaceTimestampConfigChange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "UnregisterInterfaceTimestampConfigChange"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT RemoveAuxiliaryInput(
+  DWORD dwInputId
+);

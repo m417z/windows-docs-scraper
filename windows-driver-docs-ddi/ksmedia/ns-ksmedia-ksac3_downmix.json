@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ksmedia.KSAC3_DOWNMIX",
+  "title": "KSAC3_DOWNMIX (ksmedia.h)",
+  "description": "The KSAC3_DOWNMIX structure specifies whether the program channels in an AC-3-encoded stream need to be downmixed to accommodate the speaker configuration.",
+  "old-location": "audio\\ksac3_downmix.htm",
+  "tech.root": "audio",
+  "ms.date": "04/30/2019",
+  "keywords": [
+    "KSAC3_DOWNMIX structure"
+  ],
+  "ms.keywords": "*PKSAC3_DOWNMIX, KSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX, PKSAC3_DOWNMIX structure pointer [Audio Devices], aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml, audio.ksac3_downmix, ksmedia/KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX",
+  "req.header": "ksmedia.h",
+  "req.include-header": "Ksmedia.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSAC3_DOWNMIX, *PKSAC3_DOWNMIX",
+  "f1_keywords": [
+    "PKSAC3_DOWNMIX",
+    "ksmedia/PKSAC3_DOWNMIX",
+    "KSAC3_DOWNMIX",
+    "ksmedia/KSAC3_DOWNMIX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "PKSAC3_DOWNMIX",
+    "KSAC3_DOWNMIX"
+  ]
+}

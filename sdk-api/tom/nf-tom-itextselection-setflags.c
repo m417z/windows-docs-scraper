@@ -1,0 +1,3 @@
+HRESULT SetFlags(
+  long Flags
+);

@@ -1,0 +1,3 @@
+VOID WDF_DEVICE_STATE_INIT(
+  [out] PWDF_DEVICE_STATE PnpDeviceState
+);

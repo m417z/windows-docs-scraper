@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ehstorioctl._ENUM_PDO_RESULTS",
+  "title": "_ENUM_PDO_RESULTS (ehstorioctl.h)",
+  "description": "This structure describes a result set of Physical Device Objects (PDOs) that are enumerated with IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS.",
+  "old-location": "storage\\enum_pdo_results.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ENUM_PDO_RESULTS structure"
+  ],
+  "ms.keywords": "*PENUM_PDO_RESULTS, ENUM_PDO_RESULTS, ENUM_PDO_RESULTS structure [Storage Devices], PENUM_PDO_RESULTS, PENUM_PDO_RESULTS structure pointer [Storage Devices], _ENUM_PDO_RESULTS, ehstorioctl/ENUM_PDO_RESULTS, ehstorioctl/PENUM_PDO_RESULTS, storage.enum_pdo_results, structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml",
+  "req.header": "ehstorioctl.h",
+  "req.include-header": "EhStorIoctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS",
+  "f1_keywords": [
+    "_ENUM_PDO_RESULTS",
+    "ehstorioctl/_ENUM_PDO_RESULTS",
+    "PENUM_PDO_RESULTS",
+    "ehstorioctl/PENUM_PDO_RESULTS",
+    "ENUM_PDO_RESULTS",
+    "ehstorioctl/ENUM_PDO_RESULTS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "EhStorIoctl.h"
+  ],
+  "api_name": [
+    "_ENUM_PDO_RESULTS",
+    "PENUM_PDO_RESULTS",
+    "ENUM_PDO_RESULTS"
+  ]
+}

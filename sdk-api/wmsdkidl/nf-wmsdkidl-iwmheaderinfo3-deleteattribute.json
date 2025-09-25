@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMHeaderInfo3.DeleteAttribute",
+  "title": "IWMHeaderInfo3::DeleteAttribute (wmsdkidl.h)",
+  "description": "The DeleteAttribute method removes an attribute from the file header.",
+  "helpviewer_keywords": [
+    "DeleteAttribute",
+    "DeleteAttribute method [windows Media Format]",
+    "DeleteAttribute method [windows Media Format]",
+    "IWMHeaderInfo3 interface",
+    "IWMHeaderInfo3 interface [windows Media Format]",
+    "DeleteAttribute method",
+    "IWMHeaderInfo3.DeleteAttribute",
+    "IWMHeaderInfo3::DeleteAttribute",
+    "IWMHeaderInfo3DeleteAttribute",
+    "wmformat.iwmheaderinfo3_deleteattribute",
+    "wmsdkidl/IWMHeaderInfo3::DeleteAttribute"
+  ],
+  "old-location": "wmformat\\iwmheaderinfo3_deleteattribute.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "a69da90f-c8c5-4bf7-a1d8-7031aa9d1704",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "DeleteAttribute, DeleteAttribute method [windows Media Format], DeleteAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],DeleteAttribute method, IWMHeaderInfo3.DeleteAttribute, IWMHeaderInfo3::DeleteAttribute, IWMHeaderInfo3DeleteAttribute, wmformat.iwmheaderinfo3_deleteattribute, wmsdkidl/IWMHeaderInfo3::DeleteAttribute",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMHeaderInfo3::DeleteAttribute",
+    "wmsdkidl/IWMHeaderInfo3::DeleteAttribute"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMHeaderInfo3.DeleteAttribute"
+  ]
+}

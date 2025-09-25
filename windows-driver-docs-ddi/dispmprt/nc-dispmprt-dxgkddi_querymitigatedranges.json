@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_QUERYMITIGATEDRANGES",
+  "title": "DXGKDDI_QUERYMITIGATEDRANGES",
+  "description": "This function is called from the virtual PCI system to the kernel mode driver to get the list of pages in the virtual function’s BARs that need to be mitigated.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DXGKDDI_QUERYMITIGATEDRANGES callback function"
+  ],
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DXGKDDI_QUERYMITIGATEDRANGES",
+    "dispmprt/DXGKDDI_QUERYMITIGATEDRANGES"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_QUERYMITIGATEDRANGES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

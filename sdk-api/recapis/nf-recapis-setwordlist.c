@@ -1,0 +1,4 @@
+HRESULT SetWordList(
+  HRECOCONTEXT  hrc,
+  HRECOWORDLIST hwl
+);

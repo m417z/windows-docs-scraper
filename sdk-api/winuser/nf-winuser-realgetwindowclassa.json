@@ -1,0 +1,53 @@
+{
+  "UID": "NF:winuser.RealGetWindowClassA",
+  "tech.root": "winmsg",
+  "title": "RealGetWindowClassA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "Retrieves a string that specifies the window type. (ANSI)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "User32.dll",
+  "req.header": "winuser.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "User32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll",
+    "Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll",
+    "minuser.dll",
+    "ext-ms-win-ntuser-windowclass-l1-1-2.dll"
+  ],
+  "api_name": [
+    "RealGetWindowClassA",
+    "RealGetWindowClass"
+  ],
+  "f1_keywords": [
+    "RealGetWindowClassA",
+    "winuser/RealGetWindowClassA",
+    "RealGetWindowClass",
+    "winuser/RealGetWindowClass"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

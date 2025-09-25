@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupCommitFileQueueW",
+  "title": "SetupCommitFileQueueW function (setupapi.h)",
+  "description": "The SetupCommitFileQueue function performs file operations queued on a setup file queue. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupCommitFileQueue",
+    "SetupCommitFileQueue function [Setup API]",
+    "SetupCommitFileQueueW",
+    "_setupapi_setupcommitfilequeue",
+    "setup.setupcommitfilequeue",
+    "setupapi/SetupCommitFileQueue",
+    "setupapi/SetupCommitFileQueueW"
+  ],
+  "old-location": "setup\\setupcommitfilequeue.htm",
+  "tech.root": "setup",
+  "ms.assetid": "c532f435-7393-49f0-975c-4c0ecca64407",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupCommitFileQueueW (Unicode) and SetupCommitFileQueueA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupCommitFileQueueW",
+    "setupapi/SetupCommitFileQueueW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupCommitFileQueue",
+    "SetupCommitFileQueueA",
+    "SetupCommitFileQueueW"
+  ]
+}

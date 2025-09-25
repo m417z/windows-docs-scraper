@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vdshwprv.IVdsControllerPort.QueryAssociatedLuns",
+  "title": "IVdsControllerPort::QueryAssociatedLuns (vdshwprv.h)",
+  "description": "The IVdsControllerPort::QueryAssociatedLuns (vdshwprv.h) method returns an enumeration of the LUNs with which the controller port is associated.",
+  "helpviewer_keywords": [
+    "IVdsControllerPort interface [VDS]",
+    "QueryAssociatedLuns method",
+    "IVdsControllerPort.QueryAssociatedLuns",
+    "IVdsControllerPort::QueryAssociatedLuns",
+    "QueryAssociatedLuns",
+    "QueryAssociatedLuns method [VDS]",
+    "QueryAssociatedLuns method [VDS]",
+    "IVdsControllerPort interface",
+    "base.ivdscontrollerport_queryassociatedluns",
+    "vds/IVdsControllerPort::QueryAssociatedLuns",
+    "vdshwprv/IVdsControllerPort::QueryAssociatedLuns"
+  ],
+  "old-location": "base\\ivdscontrollerport_queryassociatedluns.htm",
+  "tech.root": "base",
+  "ms.assetid": "062b820e-f384-4c2e-a2f7-c90748c74976",
+  "ms.date": "08/08/2022",
+  "ms.keywords": "IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVdsControllerPort.QueryAssociatedLuns, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns, vdshwprv/IVdsControllerPort::QueryAssociatedLuns",
+  "req.header": "vdshwprv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVdsControllerPort::QueryAssociatedLuns",
+    "vdshwprv/IVdsControllerPort::QueryAssociatedLuns"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Vds.h",
+    "VdsHwPrv.h"
+  ],
+  "api_name": [
+    "IVdsControllerPort.QueryAssociatedLuns"
+  ]
+}

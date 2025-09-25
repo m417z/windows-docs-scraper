@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTQueryVidPnExclusiveOwnership(
+  D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP *unnamedParam1
+);

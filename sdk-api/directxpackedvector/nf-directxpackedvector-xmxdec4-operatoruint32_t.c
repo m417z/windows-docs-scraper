@@ -1,0 +1,1 @@
+void operator uint32_t() noexcept;

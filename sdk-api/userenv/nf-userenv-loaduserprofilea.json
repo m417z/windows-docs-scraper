@@ -1,0 +1,57 @@
+{
+  "UID": "NF:userenv.LoadUserProfileA",
+  "title": "LoadUserProfileA function (userenv.h)",
+  "description": "Loads the specified user's profile. The profile can be a local user profile or a roaming user profile. (ANSI)",
+  "helpviewer_keywords": [
+    "LoadUserProfileA",
+    "userenv/LoadUserProfileA"
+  ],
+  "old-location": "shell\\LoadUserProfile.htm",
+  "tech.root": "shell",
+  "ms.assetid": "9ec1f8f2-8f20-4d38-9d41-70315b890336",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LoadUserProfile, LoadUserProfile function [Windows Shell], LoadUserProfileA, LoadUserProfileW, _shell_LoadUserProfile, shell.LoadUserProfile, userenv/LoadUserProfile, userenv/LoadUserProfileA, userenv/LoadUserProfileW",
+  "req.header": "userenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "LoadUserProfileW (Unicode) and LoadUserProfileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Userenv.lib",
+  "req.dll": "Userenv.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LoadUserProfileA",
+    "userenv/LoadUserProfileA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Userenv.dll"
+  ],
+  "api_name": [
+    "LoadUserProfile",
+    "LoadUserProfileA",
+    "LoadUserProfileW"
+  ]
+}

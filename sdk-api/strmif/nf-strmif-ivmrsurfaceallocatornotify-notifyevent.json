@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IVMRSurfaceAllocatorNotify.NotifyEvent",
+  "title": "IVMRSurfaceAllocatorNotify::NotifyEvent (strmif.h)",
+  "description": "The NotifyEvent method is called by the allocator-presenter to inform the VMR of any significant DirectShow events during the allocation or presentation processes.",
+  "helpviewer_keywords": [
+    "IVMRSurfaceAllocatorNotify interface [DirectShow]",
+    "NotifyEvent method",
+    "IVMRSurfaceAllocatorNotify.NotifyEvent",
+    "IVMRSurfaceAllocatorNotify::NotifyEvent",
+    "IVMRSurfaceAllocatorNotifyNotifyEvent",
+    "NotifyEvent",
+    "NotifyEvent method [DirectShow]",
+    "NotifyEvent method [DirectShow]",
+    "IVMRSurfaceAllocatorNotify interface",
+    "dshow.ivmrsurfaceallocatornotify_notifyevent",
+    "strmif/IVMRSurfaceAllocatorNotify::NotifyEvent"
+  ],
+  "old-location": "dshow\\ivmrsurfaceallocatornotify_notifyevent.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "566a889b-e6dc-42e7-ba71-0b0a17f3ae8c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IVMRSurfaceAllocatorNotify interface [DirectShow],NotifyEvent method, IVMRSurfaceAllocatorNotify.NotifyEvent, IVMRSurfaceAllocatorNotify::NotifyEvent, IVMRSurfaceAllocatorNotifyNotifyEvent, NotifyEvent, NotifyEvent method [DirectShow], NotifyEvent method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_notifyevent, strmif/IVMRSurfaceAllocatorNotify::NotifyEvent",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVMRSurfaceAllocatorNotify::NotifyEvent",
+    "strmif/IVMRSurfaceAllocatorNotify::NotifyEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IVMRSurfaceAllocatorNotify.NotifyEvent"
+  ]
+}

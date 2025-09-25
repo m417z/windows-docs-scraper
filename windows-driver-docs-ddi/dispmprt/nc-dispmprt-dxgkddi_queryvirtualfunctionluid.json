@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_QUERYVIRTUALFUNCTIONLUID",
+  "title": "DXGKDDI_QUERYVIRTUALFUNCTIONLUID",
+  "description": "Queries for a virtual function's locally unique identifier.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DXGKDDI_QUERYVIRTUALFUNCTIONLUID callback function"
+  ],
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DXGKDDI_QUERYVIRTUALFUNCTIONLUID",
+    "dispmprt/DXGKDDI_QUERYVIRTUALFUNCTIONLUID"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_QUERYVIRTUALFUNCTIONLUID"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

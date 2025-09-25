@@ -1,0 +1,4 @@
+HRESULT SetConfiguration(
+  [in] DIRECTMANIPULATION_MOTION_TYPES             motionTypes,
+  [in] DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION scrollMotion
+);

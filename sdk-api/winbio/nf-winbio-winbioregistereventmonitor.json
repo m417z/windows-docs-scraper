@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winbio.WinBioRegisterEventMonitor",
+  "title": "WinBioRegisterEventMonitor function (winbio.h)",
+  "description": "Registers a callback function to receive event notifications from the service provider associated with an open session.",
+  "helpviewer_keywords": [
+    "WINBIO_EVENT_FP_UNCLAIMED",
+    "WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY",
+    "WinBioRegisterEventMonitor",
+    "WinBioRegisterEventMonitor function [Windows Biometric Framework API]",
+    "secbiomet.winbioregistereventmonitor",
+    "winbio/WinBioRegisterEventMonitor"
+  ],
+  "old-location": "secbiomet\\winbioregistereventmonitor.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "408291ca-66fe-4f4a-8f6e-3a1b60eb2d15",
+  "ms.date": "11/19/2020",
+  "ms.keywords": "WINBIO_EVENT_FP_UNCLAIMED, WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY, WinBioRegisterEventMonitor, WinBioRegisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbioregistereventmonitor, winbio/WinBioRegisterEventMonitor",
+  "req.header": "winbio.h",
+  "req.include-header": "Winbio.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winbio.lib",
+  "req.dll": "Winbio.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinBioRegisterEventMonitor",
+    "winbio/WinBioRegisterEventMonitor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winbio.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll",
+    "winbioext.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll"
+  ],
+  "api_name": [
+    "WinBioRegisterEventMonitor"
+  ]
+}

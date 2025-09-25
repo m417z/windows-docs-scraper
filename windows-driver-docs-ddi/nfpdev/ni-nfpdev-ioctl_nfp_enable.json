@@ -1,0 +1,48 @@
+{
+  "UID": "NI:nfpdev.IOCTL_NFP_ENABLE",
+  "title": "IOCTL_NFP_ENABLE (nfpdev.h)",
+  "description": "The client sends the IOCTL_NFP_ENABLE request to re-enable previously disabled subscriptions, publications, and presence events.",
+  "old-location": "nfpdrivers\\ioctl_nfp_enable.htm",
+  "tech.root": "nfpdrivers",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_NFP_ENABLE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_NFP_ENABLE, IOCTL_NFP_ENABLE control, IOCTL_NFP_ENABLE control code [Near-Field Proximity Drivers], _IOCTL_NFP_ENABLE, nfpdev/IOCTL_NFP_ENABLE, nfpdrivers.ioctl_nfp_enable",
+  "req.header": "nfpdev.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_NFP_ENABLE",
+    "nfpdev/IOCTL_NFP_ENABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nfpdev.h"
+  ],
+  "api_name": [
+    "IOCTL_NFP_ENABLE"
+  ]
+}

@@ -1,0 +1,3 @@
+VOID KsSetAllocatorMode(
+  KSALLOCATORMODE Mode
+);

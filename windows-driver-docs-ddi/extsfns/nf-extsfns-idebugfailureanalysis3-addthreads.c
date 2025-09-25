@@ -1,0 +1,3 @@
+HRESULT AddThreads(
+  IUnknown *pDebugFailureThreadEnum
+);

@@ -1,0 +1,4 @@
+typedef struct _SCESVC_ANALYSIS_INFO_ {
+  DWORD                 Count;
+  PSCESVC_ANALYSIS_LINE Lines;
+} SCESVC_ANALYSIS_INFO, *PSCESVC_ANALYSIS_INFO;

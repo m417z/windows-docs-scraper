@@ -1,0 +1,7 @@
+typedef struct _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS {
+  NDIS_OBJECT_HEADER     Header;
+  NDIS_SRIOV_FUNCTION_ID VFId;
+  ULONG                  Offset;
+  ULONG                  Length;
+  ULONG                  BufferOffset;
+} NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS;

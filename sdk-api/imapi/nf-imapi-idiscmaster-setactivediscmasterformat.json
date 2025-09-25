@@ -1,0 +1,65 @@
+{
+  "UID": "NF:imapi.IDiscMaster.SetActiveDiscMasterFormat",
+  "title": "IDiscMaster::SetActiveDiscMasterFormat (imapi.h)",
+  "description": "Sets the currently active disc recorder format. The active format specifies both the structure of the staged image file content (audio/data) and the COM interface that must be used to manipulate that staged image.",
+  "helpviewer_keywords": [
+    "IDiscMaster interface [IMAPI]",
+    "SetActiveDiscMasterFormat method",
+    "IDiscMaster.SetActiveDiscMasterFormat",
+    "IDiscMaster::SetActiveDiscMasterFormat",
+    "SetActiveDiscMasterFormat",
+    "SetActiveDiscMasterFormat method [IMAPI]",
+    "SetActiveDiscMasterFormat method [IMAPI]",
+    "IDiscMaster interface",
+    "_win32_idiscmaster_setactivediscmasterformat",
+    "base.idiscmaster_setactivediscmasterformat",
+    "imapi.idiscmaster_setactivediscmasterformat",
+    "imapi/IDiscMaster::SetActiveDiscMasterFormat"
+  ],
+  "old-location": "imapi\\idiscmaster_setactivediscmasterformat.htm",
+  "tech.root": "imapi",
+  "ms.assetid": "fcc2840b-d302-4cd6-b576-1826c83b711e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IDiscMaster interface [IMAPI],SetActiveDiscMasterFormat method, IDiscMaster.SetActiveDiscMasterFormat, IDiscMaster::SetActiveDiscMasterFormat, SetActiveDiscMasterFormat, SetActiveDiscMasterFormat method [IMAPI], SetActiveDiscMasterFormat method [IMAPI],IDiscMaster interface, _win32_idiscmaster_setactivediscmasterformat, base.idiscmaster_setactivediscmasterformat, imapi.idiscmaster_setactivediscmasterformat, imapi/IDiscMaster::SetActiveDiscMasterFormat",
+  "req.header": "imapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": "Actxprxy.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDiscMaster::SetActiveDiscMasterFormat",
+    "imapi/IDiscMaster::SetActiveDiscMasterFormat"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Actxprxy.dll"
+  ],
+  "api_name": [
+    "IDiscMaster.SetActiveDiscMasterFormat"
+  ]
+}

@@ -1,0 +1,9 @@
+typedef enum PackageDependencyProcessorArchitectures {
+  PackageDependencyProcessorArchitectures_None,
+  PackageDependencyProcessorArchitectures_Neutral,
+  PackageDependencyProcessorArchitectures_X86,
+  PackageDependencyProcessorArchitectures_X64,
+  PackageDependencyProcessorArchitectures_Arm,
+  PackageDependencyProcessorArchitectures_Arm64,
+  PackageDependencyProcessorArchitectures_X86A64
+} ;

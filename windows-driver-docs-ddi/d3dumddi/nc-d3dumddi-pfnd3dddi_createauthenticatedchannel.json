@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_CREATEAUTHENTICATEDCHANNEL",
+  "title": "PFND3DDDI_CREATEAUTHENTICATEDCHANNEL (d3dumddi.h)",
+  "description": "The CreateAuthenticatedChannel function creates a channel that the Microsoft Direct3D runtime and the driver can use to set and query protections.",
+  "old-location": "display\\createauthenticatedchannel.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_CREATEAUTHENTICATEDCHANNEL callback function"
+  ],
+  "ms.keywords": "CreateAuthenticatedChannel, CreateAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CREATEAUTHENTICATEDCHANNEL, PFND3DDDI_CREATEAUTHENTICATEDCHANNEL callback, UserModeDisplayDriver_Functions_5645674c-e4e5-4b9c-9cbf-588b829df423.xml, d3dumddi/CreateAuthenticatedChannel, display.createauthenticatedchannel",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "CreateAuthenticatedChannel is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_CREATEAUTHENTICATEDCHANNEL",
+    "d3dumddi/PFND3DDDI_CREATEAUTHENTICATEDCHANNEL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_CREATEAUTHENTICATEDCHANNEL"
+  ]
+}

@@ -1,0 +1,21 @@
+typedef struct _NET_IF_INFORMATION {
+  NDIS_OBJECT_HEADER     Header;
+  ULONG                  Flags;
+  NET_PHYSICAL_LOCATION  PhysicalLocation;
+  ULONG                  WanTunnelType;
+  ULONG                  PortNumber;
+  NET_IF_ACCESS_TYPE     AccessType;
+  NET_IF_DIRECTION_TYPE  DirectionType;
+  NET_IF_CONNECTION_TYPE ConnectionType;
+  BOOLEAN                ifConnectorPresent;
+  USHORT                 PhysAddressLength;
+  USHORT                 PhysAddressOffset;
+  USHORT                 PermanentPhysAddressOffset;
+  USHORT                 FriendlyNameLength;
+  USHORT                 FriendlyNameOffset;
+  GUID                   InterfaceGuid;
+  NET_IF_NETWORK_GUID    NetworkGuid;
+  ULONG                  SupportedStatistics;
+  NDIS_MEDIUM            MediaType;
+  NDIS_PHYSICAL_MEDIUM   PhysicalMediumType;
+} NET_IF_INFORMATION, *PNET_IF_INFORMATION;

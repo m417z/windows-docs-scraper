@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ndfapi.NdfCreateSharingIncident",
+  "title": "NdfCreateSharingIncident function (ndfapi.h)",
+  "description": "Diagnoses network problems in accessing a specific network share.",
+  "helpviewer_keywords": [
+    "NdfCreateSharingIncident",
+    "NdfCreateSharingIncident function [NDF]",
+    "ndf.ndfcreatesharingincident",
+    "ndfapi/NdfCreateSharingIncident"
+  ],
+  "old-location": "ndf\\ndfcreatesharingincident.htm",
+  "tech.root": "NDF",
+  "ms.assetid": "6a5e3c3b-7c2b-4de3-89e4-ef330b894320",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident",
+  "req.header": "ndfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndfapi.lib",
+  "req.dll": "Ndfapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NdfCreateSharingIncident",
+    "ndfapi/NdfCreateSharingIncident"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ndfapi.dll"
+  ],
+  "api_name": [
+    "NdfCreateSharingIncident"
+  ]
+}

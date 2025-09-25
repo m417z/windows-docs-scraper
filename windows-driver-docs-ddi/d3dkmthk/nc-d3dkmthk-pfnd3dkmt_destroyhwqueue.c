@@ -1,0 +1,6 @@
+PFND3DKMT_DESTROYHWQUEUE PfnD3dkmtDestroyHwQueue;
+
+NTSTATUS PfnD3dkmtDestroyHwQueue(
+    CONST D3DKMT_DESTROYHWQUEUE *unnamedParam1
+)
+{...}

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:amstream.IAMMultiMediaStream.OpenFile",
+  "title": "IAMMultiMediaStream::OpenFile (amstream.h)",
+  "description": "Note  This interface is deprecated. New applications should not use it. The OpenFile method opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.",
+  "helpviewer_keywords": [
+    "IAMMultiMediaStream interface [DirectShow]",
+    "OpenFile method",
+    "IAMMultiMediaStream.OpenFile",
+    "IAMMultiMediaStream::OpenFile",
+    "IAMMultiMediaStreamOpenFile",
+    "OpenFile",
+    "OpenFile method [DirectShow]",
+    "OpenFile method [DirectShow]",
+    "IAMMultiMediaStream interface",
+    "amstream/IAMMultiMediaStream::OpenFile",
+    "dshow.iammultimediastream_openfile"
+  ],
+  "old-location": "dshow\\iammultimediastream_openfile.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "0b3f7401-9afe-41e5-827f-e4e8d60b7480",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile",
+  "req.header": "amstream.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMMultiMediaStream::OpenFile",
+    "amstream/IAMMultiMediaStream::OpenFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "amstream.h"
+  ],
+  "api_name": [
+    "IAMMultiMediaStream.OpenFile"
+  ]
+}

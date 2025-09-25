@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._IOMMU_MAP_PHYSICAL_ADDRESS",
+  "tech.root": "kernel",
+  "title": "IOMMU_MAP_PHYSICAL_ADDRESS",
+  "ms.date": "06/13/2021",
+  "targetos": "Windows",
+  "description": "The IOMMU_MAP_PHYSICAL_ADDRESS represents a physical address that is to be mapped to a logical address.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "IOMMU_MAP_PHYSICAL_ADDRESS, *PIOMMU_MAP_PHYSICAL_ADDRESS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_MAP_PHYSICAL_ADDRESS",
+    "PIOMMU_MAP_PHYSICAL_ADDRESS",
+    "IOMMU_MAP_PHYSICAL_ADDRESS"
+  ],
+  "f1_keywords": [
+    "_IOMMU_MAP_PHYSICAL_ADDRESS",
+    "wdm/_IOMMU_MAP_PHYSICAL_ADDRESS",
+    "PIOMMU_MAP_PHYSICAL_ADDRESS",
+    "wdm/PIOMMU_MAP_PHYSICAL_ADDRESS",
+    "IOMMU_MAP_PHYSICAL_ADDRESS",
+    "wdm/IOMMU_MAP_PHYSICAL_ADDRESS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

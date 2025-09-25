@@ -1,0 +1,4 @@
+BOOL ILIsEqual(
+  [in] PCIDLIST_ABSOLUTE pidl1,
+  [in] PCIDLIST_ABSOLUTE pidl2
+);

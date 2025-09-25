@@ -1,0 +1,6 @@
+PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE PfnD3dkmtSubmitWaitForSyncObjectsToHwQueue;
+
+NTSTATUS PfnD3dkmtSubmitWaitForSyncObjectsToHwQueue(
+    const D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE *unnamedParam1
+)
+{...}

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTQueryFSEBlock(
+  D3DKMT_QUERYFSEBLOCK *unnamedParam1
+);

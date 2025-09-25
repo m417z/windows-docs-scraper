@@ -1,0 +1,5 @@
+typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
+  [in] HANDLE hVideoProcess;
+  [in] HANDLE hRenderTarget;
+  [in] UINT   SubResourceIndex;
+} D3DDDIARG_SETVIDEOPROCESSRENDERTARGET;

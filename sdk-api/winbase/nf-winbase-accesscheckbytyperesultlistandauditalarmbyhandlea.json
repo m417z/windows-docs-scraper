@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winbase.AccessCheckByTypeResultListAndAuditAlarmByHandleA",
+  "title": "AccessCheckByTypeResultListAndAuditAlarmByHandleA function (winbase.h)",
+  "description": "The AccessCheckByTypeResultListAndAuditAlarmByHandleA (ANSI) function (winbase.h) determines whether a security descriptor grants a specified set of access rights to the client that the calling thread is impersonating.",
+  "helpviewer_keywords": [
+    "AccessCheckByTypeResultListAndAuditAlarmByHandle",
+    "AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security]",
+    "AccessCheckByTypeResultListAndAuditAlarmByHandleA",
+    "AccessCheckByTypeResultListAndAuditAlarmByHandleW",
+    "_win32_accesscheckbytyperesultlistandauditalarmbyhandle",
+    "security.accesscheckbytyperesultlistandauditalarmbyhandle",
+    "winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle",
+    "winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA",
+    "winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW"
+  ],
+  "old-location": "security\\accesscheckbytyperesultlistandauditalarmbyhandle.htm",
+  "tech.root": "security",
+  "ms.assetid": "7d3ddce4-40a2-483d-8cff-48d89313b383",
+  "ms.date": "08/03/2022",
+  "ms.keywords": "AccessCheckByTypeResultListAndAuditAlarmByHandle, AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security], AccessCheckByTypeResultListAndAuditAlarmByHandleA, AccessCheckByTypeResultListAndAuditAlarmByHandleW, _win32_accesscheckbytyperesultlistandauditalarmbyhandle, security.accesscheckbytyperesultlistandauditalarmbyhandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "AccessCheckByTypeResultListAndAuditAlarmByHandleW (Unicode) and AccessCheckByTypeResultListAndAuditAlarmByHandleA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AccessCheckByTypeResultListAndAuditAlarmByHandleA",
+    "winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "API-MS-Win-Security-base-l1-1-0.dll",
+    "API-MS-Win-Security-base-l1-2-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Security-Base-L1-2-1.dll"
+  ],
+  "api_name": [
+    "AccessCheckByTypeResultListAndAuditAlarmByHandle",
+    "AccessCheckByTypeResultListAndAuditAlarmByHandleA",
+    "AccessCheckByTypeResultListAndAuditAlarmByHandleW"
+  ]
+}

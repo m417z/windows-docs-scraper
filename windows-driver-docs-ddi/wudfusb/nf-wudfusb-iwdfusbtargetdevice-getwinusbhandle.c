@@ -1,0 +1,1 @@
+WINUSB_INTERFACE_HANDLE GetWinUsbHandle();

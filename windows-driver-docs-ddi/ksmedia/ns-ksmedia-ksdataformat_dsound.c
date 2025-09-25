@@ -1,0 +1,4 @@
+typedef struct {
+  KSDATAFORMAT        DataFormat;
+  KSDSOUND_BUFFERDESC BufferDesc;
+} KSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND;

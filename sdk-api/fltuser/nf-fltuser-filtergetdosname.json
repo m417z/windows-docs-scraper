@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterGetDosName",
+  "title": "FilterGetDosName function (fltuser.h)",
+  "description": "The FilterGetDosName function returns the MS-DOS device name that corresponds to the given volume name.",
+  "helpviewer_keywords": [
+    "FilterGetDosName",
+    "FilterGetDosName function [Installable File System Drivers]",
+    "FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml",
+    "fltuser/FilterGetDosName",
+    "ifsk.filtergetdosname"
+  ],
+  "old-location": "ifsk\\filtergetdosname.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "f7c14e1f-c57f-4780-9936-3a47a4c0ca12",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterGetDosName, FilterGetDosName function [Installable File System Drivers], FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml, fltuser/FilterGetDosName, ifsk.filtergetdosname",
+  "req.header": "fltuser.h",
+  "req.include-header": "Fltuser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterGetDosName",
+    "fltuser/FilterGetDosName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterGetDosName"
+  ]
+}

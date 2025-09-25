@@ -1,0 +1,3 @@
+HRESULT GetListType(
+  long *pValue
+);

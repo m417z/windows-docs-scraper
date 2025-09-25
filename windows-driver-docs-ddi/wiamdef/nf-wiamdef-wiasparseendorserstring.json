@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wiamdef.wiasParseEndorserString",
+  "title": "wiasParseEndorserString function (wiamdef.h)",
+  "description": "The wiasParseEndorserString function parses an endorser string, replacing WIA service-defined and vendor-defined tokens in the string with values associated with those tokens.",
+  "old-location": "image\\wiasparseendorserstring.htm",
+  "tech.root": "image",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "wiasParseEndorserString function"
+  ],
+  "ms.keywords": "image.wiasparseendorserstring, wiamdef/wiasParseEndorserString, wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices]",
+  "req.header": "wiamdef.h",
+  "req.include-header": "Wiamdef.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wiaservc.lib",
+  "req.dll": "Wiaservc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "wiasParseEndorserString",
+    "wiamdef/wiasParseEndorserString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wiaservc.dll"
+  ],
+  "api_name": [
+    "wiasParseEndorserString"
+  ]
+}

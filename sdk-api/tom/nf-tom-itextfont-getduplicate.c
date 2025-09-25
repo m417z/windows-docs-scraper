@@ -1,0 +1,3 @@
+HRESULT GetDuplicate(
+  ITextFont **ppFont
+);

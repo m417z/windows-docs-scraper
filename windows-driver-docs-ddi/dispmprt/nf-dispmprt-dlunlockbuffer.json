@@ -1,0 +1,50 @@
+{
+  "UID": "NF:dispmprt.DlUnlockBuffer",
+  "title": "DlUnlockBuffer function",
+  "description": "Unlocks physical pages described by the specified memory descriptor list.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DlUnlockBuffer function"
+  ],
+  "ms.keywords": "DlUnlockBuffer",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DlUnlockBuffer",
+    "dispmprt/DlUnlockBuffer"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Displib.lib",
+    "Displib.dll"
+  ],
+  "api_name": [
+    "DlUnlockBuffer"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

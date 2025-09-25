@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupDiLoadClassIcon",
+  "title": "SetupDiLoadClassIcon function (setupapi.h)",
+  "description": "The SetupDiLoadClassIcon function loads both the large and mini-icon for the specified class.",
+  "helpviewer_keywords": [
+    "SetupDiLoadClassIcon",
+    "SetupDiLoadClassIcon function [Device and Driver Installation]",
+    "devinst.setupdiloadclassicon",
+    "di-rtns_968c659d-6f45-4416-beb9-8fa25c4c060e.xml",
+    "setupapi/SetupDiLoadClassIcon"
+  ],
+  "old-location": "devinst\\setupdiloadclassicon.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "f239e207-fb51-4641-a64c-7d8ffa767e18",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiLoadClassIcon, SetupDiLoadClassIcon function [Device and Driver Installation], devinst.setupdiloadclassicon, di-rtns_968c659d-6f45-4416-beb9-8fa25c4c060e.xml, setupapi/SetupDiLoadClassIcon",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiLoadClassIcon",
+    "setupapi/SetupDiLoadClassIcon"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiLoadClassIcon"
+  ]
+}

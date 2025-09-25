@@ -1,0 +1,5 @@
+typedef struct _QUERY_ON_CREATE_SECURITY_INFORMATION {
+  ULONG                Reserved;
+  ULONG                SecurityDescriptorSize;
+  PSECURITY_DESCRIPTOR SecurityDescriptor;
+} QUERY_ON_CREATE_SECURITY_INFORMATION, *PQUERY_ON_CREATE_SECURITY_INFORMATION;

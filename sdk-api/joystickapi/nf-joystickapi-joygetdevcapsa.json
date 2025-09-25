@@ -1,0 +1,51 @@
+{
+  "UID": "NF:joystickapi.joyGetDevCapsA",
+  "tech.root": "Multimedia",
+  "title": "joyGetDevCapsA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "The joyGetDevCaps function queries a joystick to determine its capabilities. (joyGetDevCapsA)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Winmm.dll",
+  "req.header": "joystickapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Winmm.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winmm.dll",
+    "API-MS-Win-mm-joystick-l1-1-0.dll",
+    "winmmbase.dll"
+  ],
+  "api_name": [
+    "joyGetDevCapsA",
+    "joyGetDevCaps"
+  ],
+  "f1_keywords": [
+    "joyGetDevCapsA",
+    "joystickapi/joyGetDevCapsA",
+    "joyGetDevCaps",
+    "joystickapi/joyGetDevCaps"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

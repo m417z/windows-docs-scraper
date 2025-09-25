@@ -1,0 +1,45 @@
+{
+  "UID": "NE:wldp.WLDP_WINDOWS_LOCKDOWN_MODE",
+  "tech.root": "security",
+  "title": "WLDP_WINDOWS_LOCKDOWN_MODE",
+  "ms.date": "08/23/2022",
+  "targetos": "Windows",
+  "description": "Describes the secure modes (S modes) for a Windows device.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "wldp.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wldp.h"
+  ],
+  "api_name": [
+    "WLDP_WINDOWS_LOCKDOWN_MODE",
+    "PWLDP_WINDOWS_LOCKDOWN_MODE"
+  ],
+  "f1_keywords": [
+    "WLDP_WINDOWS_LOCKDOWN_MODE",
+    "wldp/WLDP_WINDOWS_LOCKDOWN_MODE",
+    "PWLDP_WINDOWS_LOCKDOWN_MODE",
+    "wldp/PWLDP_WINDOWS_LOCKDOWN_MODE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WLDP_WINDOWS_LOCKDOWN_MODE"
+  ]
+}

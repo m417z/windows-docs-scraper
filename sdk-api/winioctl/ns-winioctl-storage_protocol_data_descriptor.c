@@ -1,0 +1,5 @@
+typedef struct _STORAGE_PROTOCOL_DATA_DESCRIPTOR {
+  DWORD                          Version;
+  DWORD                          Size;
+  STORAGE_PROTOCOL_SPECIFIC_DATA ProtocolSpecificData;
+} STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR;

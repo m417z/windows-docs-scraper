@@ -1,0 +1,3 @@
+void MFP_GET_POSITION_SET_EVENT(
+   pHdr
+);

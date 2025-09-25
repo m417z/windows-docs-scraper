@@ -1,0 +1,1 @@
+#define NET_BUFFER_LIST_NEXT_NBL(_NBL) ((_NBL)->Next)

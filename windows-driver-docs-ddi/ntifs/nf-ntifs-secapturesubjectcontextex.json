@@ -1,0 +1,50 @@
+{
+  "UID": "NF:ntifs.SeCaptureSubjectContextEx",
+  "tech.root": "ifsk",
+  "title": "SeCaptureSubjectContextEx",
+  "ms.date": "02/21/2023",
+  "targetos": "Windows",
+  "description": "Learn more about the SeCaptureSubjectContextEx function.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "NtosKrnl.exe",
+  "req.header": "ntifs.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "SeCaptureSubjectContextEx"
+  ],
+  "f1_keywords": [
+    "SeCaptureSubjectContextEx",
+    "ntifs/SeCaptureSubjectContextEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "SeCaptureSubjectContextEx"
+  ]
+}

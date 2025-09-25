@@ -1,0 +1,1 @@
+TBS_RESULT Tbsi_Revoke_Attestation();

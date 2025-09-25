@@ -1,0 +1,3 @@
+typedef struct LAMP_CAPABILITIES_WHITE {
+  BOOLEAN IsLightIntensityAdjustable;
+} LAMP_CAPABILITIES_WHITE;

@@ -1,0 +1,12 @@
+typedef struct _PCMCIA_SOCKET_INFORMATION {
+  USHORT Socket;
+  USHORT TupleCrc;
+  UCHAR  Manufacturer[MANUFACTURER_NAME_LENGTH];
+  UCHAR  Identifier[DEVICE_IDENTIFIER_LENGTH];
+  UCHAR  DriverName[DRIVER_NAME_LENGTH];
+  UCHAR  DeviceFunctionId;
+  UCHAR  Reserved;
+  UCHAR  CardInSocket;
+  UCHAR  CardEnabled;
+  ULONG  ControllerType;
+} PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION;

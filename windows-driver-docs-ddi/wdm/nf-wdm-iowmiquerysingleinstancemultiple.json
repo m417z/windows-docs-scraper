@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoWMIQuerySingleInstanceMultiple",
+  "title": "IoWMIQuerySingleInstanceMultiple function (wdm.h)",
+  "description": "The IoWMIQuerySingleInstanceMultiple routine returns all WMI data block instances that implement the specified WMI classes with the specified instance names.",
+  "old-location": "kernel\\iowmiquerysingleinstancemultiple.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoWMIQuerySingleInstanceMultiple function"
+  ],
+  "ms.keywords": "IoWMIQuerySingleInstanceMultiple, IoWMIQuerySingleInstanceMultiple routine [Kernel-Mode Driver Architecture], k104_bd0dace0-1c4b-4e21-9e2c-7c3060878881.xml, kernel.iowmiquerysingleinstancemultiple, wdm/IoWMIQuerySingleInstanceMultiple",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoWMIQuerySingleInstanceMultiple",
+    "wdm/IoWMIQuerySingleInstanceMultiple"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoWMIQuerySingleInstanceMultiple"
+  ]
+}

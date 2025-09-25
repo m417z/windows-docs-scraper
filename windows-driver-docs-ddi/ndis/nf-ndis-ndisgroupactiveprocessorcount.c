@@ -1,0 +1,3 @@
+ULONG NdisGroupActiveProcessorCount(
+  USHORT Group
+);

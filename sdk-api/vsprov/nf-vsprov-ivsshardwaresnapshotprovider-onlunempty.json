@@ -1,0 +1,63 @@
+{
+  "UID": "NF:vsprov.IVssHardwareSnapshotProvider.OnLunEmpty",
+  "title": "IVssHardwareSnapshotProvider::OnLunEmpty (vsprov.h)",
+  "description": "Called whenever VSS determines that a shadow copy LUN contains no interesting data.",
+  "helpviewer_keywords": [
+    "IVssHardwareSnapshotProvider interface [VSS]",
+    "OnLunEmpty method",
+    "IVssHardwareSnapshotProvider.OnLunEmpty",
+    "IVssHardwareSnapshotProvider::OnLunEmpty",
+    "OnLunEmpty",
+    "OnLunEmpty method [VSS]",
+    "OnLunEmpty method [VSS]",
+    "IVssHardwareSnapshotProvider interface",
+    "base.ivsshardwaresnapshotprovider_onlunempty",
+    "vsprov/IVssHardwareSnapshotProvider::OnLunEmpty"
+  ],
+  "old-location": "base\\ivsshardwaresnapshotprovider_onlunempty.htm",
+  "tech.root": "base",
+  "ms.assetid": "06a31704-9031-4ab9-84eb-685f6b648d27",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty",
+  "req.header": "vsprov.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVssHardwareSnapshotProvider::OnLunEmpty",
+    "vsprov/IVssHardwareSnapshotProvider::OnLunEmpty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VsProv.h"
+  ],
+  "api_name": [
+    "IVssHardwareSnapshotProvider.OnLunEmpty"
+  ]
+}

@@ -1,0 +1,8 @@
+typedef enum VMRSurfaceAllocationFlags {
+  AMAP_PIXELFORMAT_VALID = 0x1,
+  AMAP_3D_TARGET = 0x2,
+  AMAP_ALLOW_SYSMEM = 0x4,
+  AMAP_FORCE_SYSMEM = 0x8,
+  AMAP_DIRECTED_FLIP = 0x10,
+  AMAP_DXVA_TARGET = 0x20
+} ;

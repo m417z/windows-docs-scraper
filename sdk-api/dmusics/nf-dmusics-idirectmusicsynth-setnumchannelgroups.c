@@ -1,0 +1,3 @@
+HRESULT SetNumChannelGroups(
+  DWORD dwGroups
+);

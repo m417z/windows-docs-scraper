@@ -1,0 +1,4 @@
+typedef struct D3D12_FEATURE_DATA_D3D12_OPTIONS10 {
+  BOOL VariableRateShadingSumCombinerSupported;
+  BOOL MeshShaderPerPrimitiveShadingRateSupported;
+} D3D12_FEATURE_DATA_D3D12_OPTIONS10;

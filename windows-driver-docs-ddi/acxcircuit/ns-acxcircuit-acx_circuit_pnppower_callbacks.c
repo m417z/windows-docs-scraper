@@ -1,0 +1,7 @@
+typedef struct _ACX_CIRCUIT_PNPPOWER_CALLBACKS {
+  ULONG                            Size;
+  PFN_ACX_CIRCUIT_PREPARE_HARDWARE EvtAcxCircuitPrepareHardware;
+  PFN_ACX_CIRCUIT_RELEASE_HARDWARE EvtAcxCircuitReleaseHardware;
+  PFN_ACX_CIRCUIT_POWER_UP         EvtAcxCircuitPowerUp;
+  PFN_ACX_CIRCUIT_POWER_DOWN       EvtAcxCircuitPowerDown;
+} ACX_CIRCUIT_PNPPOWER_CALLBACKS, *PACX_CIRCUIT_PNPPOWER_CALLBACKS;

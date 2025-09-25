@@ -1,0 +1,3 @@
+void * GetAt(
+  int nIndex
+);

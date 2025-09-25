@@ -1,0 +1,3 @@
+HRESULT UnregisterWaitEvent(
+  int index
+);

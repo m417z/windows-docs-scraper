@@ -1,0 +1,3 @@
+void NdisQueryDepthSList(
+  [in] SListHead
+);

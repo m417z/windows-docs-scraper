@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.USN_RECORD_COMMON_HEADER",
+  "tech.root": "ifsk",
+  "title": "USN_RECORD_COMMON_HEADER",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the USN_RECORD_COMMON_HEADER structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "USN_RECORD_COMMON_HEADER, *PUSN_RECORD_COMMON_HEADER",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "USN_RECORD_COMMON_HEADER",
+    "PUSN_RECORD_COMMON_HEADER"
+  ],
+  "f1_keywords": [
+    "USN_RECORD_COMMON_HEADER",
+    "ntifs/USN_RECORD_COMMON_HEADER",
+    "PUSN_RECORD_COMMON_HEADER",
+    "ntifs/PUSN_RECORD_COMMON_HEADER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "USN_RECORD_COMMON_HEADER"
+  ]
+}

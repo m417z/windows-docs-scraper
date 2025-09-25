@@ -1,0 +1,26 @@
+typedef struct _NDIS_MINIPORT_DRIVER_CHARACTERISTICS {
+  NDIS_OBJECT_HEADER                         Header;
+  UCHAR                                      MajorNdisVersion;
+  UCHAR                                      MinorNdisVersion;
+  UCHAR                                      MajorDriverVersion;
+  UCHAR                                      MinorDriverVersion;
+  ULONG                                      Flags;
+  SET_OPTIONS_HANDLER                        SetOptionsHandler;
+  MINIPORT_INITIALIZE_HANDLER                InitializeHandlerEx;
+  MINIPORT_HALT_HANDLER                      HaltHandlerEx;
+  MINIPORT_DRIVER_UNLOAD                     UnloadHandler;
+  MINIPORT_PAUSE_HANDLER                     PauseHandler;
+  MINIPORT_RESTART_HANDLER                   RestartHandler;
+  MINIPORT_OID_REQUEST_HANDLER               OidRequestHandler;
+  MINIPORT_SEND_NET_BUFFER_LISTS_HANDLER     SendNetBufferListsHandler;
+  MINIPORT_RETURN_NET_BUFFER_LISTS_HANDLER   ReturnNetBufferListsHandler;
+  MINIPORT_CANCEL_SEND_HANDLER               CancelSendHandler;
+  MINIPORT_CHECK_FOR_HANG_HANDLER            CheckForHangHandlerEx;
+  MINIPORT_RESET_HANDLER                     ResetHandlerEx;
+  MINIPORT_DEVICE_PNP_EVENT_NOTIFY_HANDLER   DevicePnPEventNotifyHandler;
+  MINIPORT_SHUTDOWN_HANDLER                  ShutdownHandlerEx;
+  MINIPORT_CANCEL_OID_REQUEST_HANDLER        CancelOidRequestHandler;
+  MINIPORT_DIRECT_OID_REQUEST_HANDLER        DirectOidRequestHandler;
+  MINIPORT_CANCEL_DIRECT_OID_REQUEST_HANDLER CancelDirectOidRequestHandler;
+  MINIPORT_SYNCHRONOUS_OID_REQUEST_HANDLER   SynchronousOidRequestHandler;
+} NDIS_MINIPORT_DRIVER_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_CHARACTERISTICS;

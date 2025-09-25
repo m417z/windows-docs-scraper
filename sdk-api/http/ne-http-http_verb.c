@@ -1,0 +1,23 @@
+typedef enum _HTTP_VERB {
+  HttpVerbUnparsed,
+  HttpVerbUnknown,
+  HttpVerbInvalid,
+  HttpVerbOPTIONS,
+  HttpVerbGET,
+  HttpVerbHEAD,
+  HttpVerbPOST,
+  HttpVerbPUT,
+  HttpVerbDELETE,
+  HttpVerbTRACE,
+  HttpVerbCONNECT,
+  HttpVerbTRACK,
+  HttpVerbMOVE,
+  HttpVerbCOPY,
+  HttpVerbPROPFIND,
+  HttpVerbPROPPATCH,
+  HttpVerbMKCOL,
+  HttpVerbLOCK,
+  HttpVerbUNLOCK,
+  HttpVerbSEARCH,
+  HttpVerbMaximum
+} HTTP_VERB, *PHTTP_VERB;

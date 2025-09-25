@@ -1,0 +1,3 @@
+HRESULT RegisterPropertyChangeNotification(
+  IAudioSystemEffectsPropertyChangeNotificationClient *callback
+);

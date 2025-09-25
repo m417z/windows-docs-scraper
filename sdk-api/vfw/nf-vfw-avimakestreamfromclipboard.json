@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.AVIMakeStreamFromClipboard",
+  "title": "AVIMakeStreamFromClipboard function (vfw.h)",
+  "description": "The AVIMakeStreamFromClipboard function creates an editable stream from stream data on the clipboard.",
+  "helpviewer_keywords": [
+    "AVIMakeStreamFromClipboard",
+    "AVIMakeStreamFromClipboard function [Windows Multimedia]",
+    "_win32_AVIMakeStreamFromClipboard",
+    "multimedia.avimakestreamfromclipboard",
+    "vfw/AVIMakeStreamFromClipboard"
+  ],
+  "old-location": "multimedia\\avimakestreamfromclipboard.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "e41f4ef2-bb57-4a92-b382-7faa106d2aa0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AVIMakeStreamFromClipboard, AVIMakeStreamFromClipboard function [Windows Multimedia], _win32_AVIMakeStreamFromClipboard, multimedia.avimakestreamfromclipboard, vfw/AVIMakeStreamFromClipboard",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVIMakeStreamFromClipboard",
+    "vfw/AVIMakeStreamFromClipboard"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll"
+  ],
+  "api_name": [
+    "AVIMakeStreamFromClipboard"
+  ]
+}

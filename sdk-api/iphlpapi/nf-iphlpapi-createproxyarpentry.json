@@ -1,0 +1,58 @@
+{
+  "UID": "NF:iphlpapi.CreateProxyArpEntry",
+  "title": "CreateProxyArpEntry function (iphlpapi.h)",
+  "description": "The CreateProxyArpEnry function creates a Proxy Address Resolution Protocol (PARP) entry on the local computer for the specified IPv4 address.",
+  "helpviewer_keywords": [
+    "CreateProxyArpEntry",
+    "CreateProxyArpEntry function [IP Helper]",
+    "_iphlp_createproxyarpentry",
+    "iphlp.createproxyarpentry",
+    "iphlpapi/CreateProxyArpEntry"
+  ],
+  "old-location": "iphlp\\createproxyarpentry.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "a0e90c0a-9403-40cb-906e-6e1e2f8e73c4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateProxyArpEntry, CreateProxyArpEntry function [IP Helper], _iphlp_createproxyarpentry, iphlp.createproxyarpentry, iphlpapi/CreateProxyArpEntry",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateProxyArpEntry",
+    "iphlpapi/CreateProxyArpEntry"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "CreateProxyArpEntry"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntstrsafe.RtlUnicodeStringCbCopyStringN",
+  "title": "RtlUnicodeStringCbCopyStringN function (ntstrsafe.h)",
+  "description": "The RtlUnicodeStringCbCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.",
+  "old-location": "kernel\\rtlunicodestringcbcopystringn.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlUnicodeStringCbCopyStringN function"
+  ],
+  "ms.keywords": "RtlUnicodeStringCbCopyStringN, RtlUnicodeStringCbCopyStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopystringn, ntstrsafe/RtlUnicodeStringCbCopyStringN, safestrings_4f11af32-212f-47f5-8585-ad5c04c51ec0.xml",
+  "req.header": "ntstrsafe.h",
+  "req.include-header": "Ntstrsafe.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "Any if strings being manipulated are always resident in memory, otherwise PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlUnicodeStringCbCopyStringN",
+    "ntstrsafe/RtlUnicodeStringCbCopyStringN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "RtlUnicodeStringCbCopyStringN"
+  ]
+}

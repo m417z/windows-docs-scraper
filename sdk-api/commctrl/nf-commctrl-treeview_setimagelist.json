@@ -1,0 +1,62 @@
+{
+  "UID": "NF:commctrl.TreeView_SetImageList",
+  "title": "TreeView_SetImageList macro (commctrl.h)",
+  "description": "Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the TVM_SETIMAGELIST message explicitly.",
+  "helpviewer_keywords": [
+    "TVSIL_NORMAL",
+    "TVSIL_STATE",
+    "TreeView_SetImageList",
+    "TreeView_SetImageList macro [Windows Controls]",
+    "_win32_TreeView_SetImageList",
+    "_win32_TreeView_SetImageList_cpp",
+    "commctrl/TreeView_SetImageList",
+    "controls.TreeView_SetImageList",
+    "controls._win32_TreeView_SetImageList"
+  ],
+  "old-location": "controls\\TreeView_SetImageList.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\treeview\\macros\\treeview_setimagelist.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "TVSIL_NORMAL, TVSIL_STATE, TreeView_SetImageList, TreeView_SetImageList macro [Windows Controls], _win32_TreeView_SetImageList, _win32_TreeView_SetImageList_cpp, commctrl/TreeView_SetImageList, controls.TreeView_SetImageList, controls._win32_TreeView_SetImageList",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TreeView_SetImageList",
+    "commctrl/TreeView_SetImageList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "TreeView_SetImageList"
+  ]
+}

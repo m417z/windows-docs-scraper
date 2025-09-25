@@ -1,0 +1,3 @@
+void SetUlong(
+  ULONG Data
+);

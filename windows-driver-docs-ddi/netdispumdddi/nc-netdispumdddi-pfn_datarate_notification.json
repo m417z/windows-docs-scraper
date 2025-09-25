@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netdispumdddi.PFN_DATARATE_NOTIFICATION",
+  "title": "PFN_DATARATE_NOTIFICATION (netdispumdddi.h)",
+  "description": "Called by the operating system to notify the Miracast user-mode driver that the bit rate of the Miracast network link has changed. This function is registered with the operating system when the RegisterForDataRateNotifications function is called.",
+  "old-location": "display\\pfndataratenotify.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFN_DATARATE_NOTIFICATION callback function"
+  ],
+  "ms.keywords": "PFN_DATARATE_NOTIFICATION, PFN_DATARATE_NOTIFICATION callback, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]",
+  "req.header": "netdispumdddi.h",
+  "req.include-header": "Netdispumdddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_DATARATE_NOTIFICATION",
+    "netdispumdddi/PFN_DATARATE_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Netdispumdddi.h"
+  ],
+  "api_name": [
+    "PFN_DATARATE_NOTIFICATION"
+  ]
+}

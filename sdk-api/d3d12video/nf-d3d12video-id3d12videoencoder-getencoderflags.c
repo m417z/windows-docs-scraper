@@ -1,0 +1,1 @@
+D3D12_VIDEO_ENCODER_FLAGS GetEncoderFlags();

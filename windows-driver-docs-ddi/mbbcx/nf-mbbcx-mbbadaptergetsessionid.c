@@ -1,0 +1,3 @@
+ULONG MbbAdapterGetSessionId(
+  NETADAPTER Adapter
+);

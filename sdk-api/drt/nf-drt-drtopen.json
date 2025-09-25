@@ -1,0 +1,57 @@
+{
+  "UID": "NF:drt.DrtOpen",
+  "title": "DrtOpen function (drt.h)",
+  "description": "DrtOpen function creates a local Distributed Routing Table instance against criteria specified by the DRT_SETTINGS structure.",
+  "helpviewer_keywords": [
+    "DrtOpen",
+    "DrtOpen function [Peer Networking]",
+    "drt/DrtOpen",
+    "p2p.drtopen"
+  ],
+  "old-location": "p2p\\drtopen.htm",
+  "tech.root": "p2p",
+  "ms.assetid": "67320767-f622-478a-a886-bbea1650ac1a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtopen",
+  "req.header": "drt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Drt.lib",
+  "req.dll": "Drt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DrtOpen",
+    "drt/DrtOpen"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "drt.dll"
+  ],
+  "api_name": [
+    "DrtOpen"
+  ]
+}

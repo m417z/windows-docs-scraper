@@ -1,0 +1,3 @@
+PUITEMID_CHILD ILFindLastID(
+  [in] PCUIDLIST_RELATIVE pidl
+);

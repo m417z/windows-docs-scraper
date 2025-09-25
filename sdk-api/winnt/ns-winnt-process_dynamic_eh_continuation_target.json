@@ -1,0 +1,46 @@
+{
+  "UID": "NS:winnt._PROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+  "title": "PROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+  "ms.date": "4/28/2020",
+  "targetos": "Windows",
+  "description": "Contains dynamic exception handling continuation targets.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winnt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.typenames": "PROCESS_DYNAMIC_EH_CONTINUATION_TARGET, *PPROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winnt.h"
+  ],
+  "api_name": [
+    "_PROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+    "PROCESS_DYNAMIC_EH_CONTINUATION_TARGET"
+  ],
+  "f1_keywords": [
+    "_PROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+    "winnt/_PROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+    "PPROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+    "winnt/PPROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+    "PROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
+    "winnt/PROCESS_DYNAMIC_EH_CONTINUATION_TARGET"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

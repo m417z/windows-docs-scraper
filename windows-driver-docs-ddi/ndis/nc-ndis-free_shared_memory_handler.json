@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.FREE_SHARED_MEMORY_HANDLER",
+  "title": "FREE_SHARED_MEMORY_HANDLER (ndis.h)",
+  "description": "The NetFreeSharedMemory function (FREE_SHARED_MEMORY_HANDLER entry point) is called by NDIS when a driver frees shared memory from a shared memory provider.",
+  "old-location": "netvista\\netfreesharedmemory.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "FREE_SHARED_MEMORY_HANDLER callback function"
+  ],
+  "ms.keywords": "FREE_SHARED_MEMORY_HANDLER, FREE_SHARED_MEMORY_HANDLER callback, NetFreeSharedMemory, NetFreeSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeSharedMemory, ndis_shared_memory_ref_15b5aca1-e5be-4063-812f-9d98a4e72cd4.xml, netvista.netfreesharedmemory",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.20 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FREE_SHARED_MEMORY_HANDLER",
+    "ndis/FREE_SHARED_MEMORY_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "FREE_SHARED_MEMORY_HANDLER"
+  ]
+}

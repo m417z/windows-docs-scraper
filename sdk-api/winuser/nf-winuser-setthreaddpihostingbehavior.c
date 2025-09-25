@@ -1,0 +1,3 @@
+DPI_HOSTING_BEHAVIOR SetThreadDpiHostingBehavior(
+  DPI_HOSTING_BEHAVIOR value
+);

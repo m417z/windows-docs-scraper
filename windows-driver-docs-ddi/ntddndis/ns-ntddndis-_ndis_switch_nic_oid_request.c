@@ -1,0 +1,9 @@
+typedef struct _NDIS_SWITCH_NIC_OID_REQUEST {
+  NDIS_OBJECT_HEADER    Header;
+  ULONG                 Flags;
+  NDIS_SWITCH_PORT_ID   SourcePortId;
+  NDIS_SWITCH_NIC_INDEX SourceNicIndex;
+  NDIS_SWITCH_PORT_ID   DestinationPortId;
+  NDIS_SWITCH_NIC_INDEX DestinationNicIndex;
+  PNDIS_OID_REQUEST     OidRequest;
+} NDIS_SWITCH_NIC_OID_REQUEST, *PNDIS_SWITCH_NIC_OID_REQUEST;

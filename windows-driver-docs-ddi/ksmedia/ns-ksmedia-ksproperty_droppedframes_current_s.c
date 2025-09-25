@@ -1,0 +1,6 @@
+typedef struct {
+  KSPROPERTY Property;
+  LONGLONG   PictureNumber;
+  LONGLONG   DropCount;
+  ULONG      AverageFrameSize;
+} KSPROPERTY_DROPPEDFRAMES_CURRENT_S, *PKSPROPERTY_DROPPEDFRAMES_CURRENT_S;

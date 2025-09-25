@@ -1,0 +1,4 @@
+typedef enum _RESOURCEMANAGER_INFORMATION_CLASS {
+  ResourceManagerBasicInformation,
+  ResourceManagerCompletionInformation
+} RESOURCEMANAGER_INFORMATION_CLASS;

@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE _NETIOAPI_SUCCESS_ NETIOAPI_API SetCurrentThreadCompartmentId(
+  [in] NET_IF_COMPARTMENT_ID CompartmentId
+);

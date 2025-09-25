@@ -1,0 +1,4 @@
+DWORD ICGetDefaultKeyFrameRate(
+     hic,
+     wParam
+);

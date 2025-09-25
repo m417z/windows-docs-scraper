@@ -1,0 +1,4 @@
+typedef struct _DXGK_GPU_PHYSICAL_ADDRESS {
+  ULONG  MemorySegmentId;
+  UINT64 MemorySegmentOffset;
+} DXGK_GPU_PHYSICAL_ADDRESS, *PDXGK_GPU_PHYSICAL_ADDRESS;

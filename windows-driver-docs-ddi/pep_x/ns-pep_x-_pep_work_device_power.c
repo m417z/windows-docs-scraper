@@ -1,0 +1,4 @@
+typedef struct _PEP_WORK_DEVICE_POWER {
+  POHANDLE DeviceHandle;
+  BOOLEAN  PowerRequired;
+} PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER;

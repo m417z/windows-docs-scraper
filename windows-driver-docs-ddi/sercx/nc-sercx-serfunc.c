@@ -1,0 +1,4 @@
+SERFUNC Serfunc;
+
+VOID Serfunc()
+{...}

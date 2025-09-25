@@ -1,0 +1,7 @@
+typedef struct _NETLOGON_LOGON_IDENTITY_INFO {
+  UNICODE_STRING    LogonDomainName;
+  ULONG             ParameterControl;
+  OLD_LARGE_INTEGER LogonId;
+  UNICODE_STRING    UserName;
+  UNICODE_STRING    Workstation;
+} NETLOGON_LOGON_IDENTITY_INFO, *PNETLOGON_LOGON_IDENTITY_INFO;

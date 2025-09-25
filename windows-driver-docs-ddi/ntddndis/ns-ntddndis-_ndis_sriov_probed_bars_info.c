@@ -1,0 +1,4 @@
+typedef struct _NDIS_SRIOV_PROBED_BARS_INFO {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              BaseRegisterValuesOffset;
+} NDIS_SRIOV_PROBED_BARS_INFO, *PNDIS_SRIOV_PROBED_BARS_INFO;

@@ -1,0 +1,3 @@
+NTSTATUS SspiReinitAsyncContext(
+  SspiAsyncContext *Handle
+);

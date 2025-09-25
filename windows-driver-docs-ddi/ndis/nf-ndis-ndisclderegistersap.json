@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisClDeregisterSap",
+  "title": "NdisClDeregisterSap function (ndis.h)",
+  "description": "NdisClDeregisterSap releases a previously registered SAP.",
+  "old-location": "netvista\\ndisclderegistersap.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisClDeregisterSap function"
+  ],
+  "ms.keywords": "NdisClDeregisterSap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, ndis/NdisClDeregisterSap, netvista.ndisclderegistersap",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisClDeregisterSap (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisClDeregisterSap (NDIS   5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Protocol_Driver_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisClDeregisterSap",
+    "ndis/NdisClDeregisterSap"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisClDeregisterSap"
+  ]
+}

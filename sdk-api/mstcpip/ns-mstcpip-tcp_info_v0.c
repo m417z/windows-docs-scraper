@@ -1,0 +1,21 @@
+typedef struct _TCP_INFO_v0 {
+  TCPSTATE State;
+  ULONG    Mss;
+  ULONG64  ConnectionTimeMs;
+  BOOLEAN  TimestampsEnabled;
+  ULONG    RttUs;
+  ULONG    MinRttUs;
+  ULONG    BytesInFlight;
+  ULONG    Cwnd;
+  ULONG    SndWnd;
+  ULONG    RcvWnd;
+  ULONG    RcvBuf;
+  ULONG64  BytesOut;
+  ULONG64  BytesIn;
+  ULONG    BytesReordered;
+  ULONG    BytesRetrans;
+  ULONG    FastRetrans;
+  ULONG    DupAcksIn;
+  ULONG    TimeoutEpisodes;
+  UCHAR    SynRetrans;
+} TCP_INFO_v0, *PTCP_INFO_v0;

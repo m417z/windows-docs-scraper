@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wmilib.WMI_QUERY_DATABLOCK_CALLBACK",
+  "title": "WMI_QUERY_DATABLOCK_CALLBACK (wmilib.h)",
+  "description": "The DpWmiQueryDataBlock routine returns either a single instance or all instances of a data block. This routine is required.",
+  "old-location": "kernel\\dpwmiquerydatablock.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WMI_QUERY_DATABLOCK_CALLBACK callback function"
+  ],
+  "ms.keywords": "DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK callback, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock",
+  "req.header": "wmilib.h",
+  "req.include-header": "Wmilib.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WMI_QUERY_DATABLOCK_CALLBACK",
+    "wmilib/WMI_QUERY_DATABLOCK_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wmilib.h"
+  ],
+  "api_name": [
+    "WMI_QUERY_DATABLOCK_CALLBACK"
+  ]
+}

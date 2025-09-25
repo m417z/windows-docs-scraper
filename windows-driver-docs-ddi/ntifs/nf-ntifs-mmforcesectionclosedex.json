@@ -1,0 +1,45 @@
+{
+  "UID": "NF:ntifs.MmForceSectionClosedEx",
+  "title": "MmForceSectionClosedEx function (ntifs.h)",
+  "description": "The MmForceSectionClosedEx function examines the section object pointers.  If they are NULL, no further action is taken and the value TRUE is returned.",
+  "tech.root": "ifsk",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "MmForceSectionClosedEx function"
+  ],
+  "ms.keywords": "MmForceSectionClosedEx",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10 (Version 1803)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "NtosKrnl.exe",
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "MmForceSectionClosedEx",
+    "ntifs/MmForceSectionClosedEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmForceSectionClosedEx"
+  ]
+}

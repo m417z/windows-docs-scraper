@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfusb.IWDFUsbTargetPipe.Abort",
+  "title": "IWDFUsbTargetPipe::Abort (wudfusb.h)",
+  "description": "The Abort method aborts all pending transfers on a USB pipe.",
+  "old-location": "wdf\\iwdfusbtargetpipe_abort.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFUsbTargetPipe::Abort"
+  ],
+  "ms.keywords": "Abort, Abort method, Abort method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Abort method, IWDFUsbTargetPipe.Abort, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort",
+  "req.header": "wudfusb.h",
+  "req.include-header": "Wudfusb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFUsbTargetPipe::Abort",
+    "wudfusb/IWDFUsbTargetPipe::Abort"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFUsbTargetPipe::Abort"
+  ]
+}

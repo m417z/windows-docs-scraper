@@ -1,0 +1,3 @@
+BOOL GdiStartPageEMF(
+  HANDLE SpoolFileHandle
+);

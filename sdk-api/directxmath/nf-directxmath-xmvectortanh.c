@@ -1,0 +1,3 @@
+XMVECTOR XM_CALLCONV XMVectorTanH(
+  [in] FXMVECTOR V
+) noexcept;

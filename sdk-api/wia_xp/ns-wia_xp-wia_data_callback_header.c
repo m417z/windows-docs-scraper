@@ -1,0 +1,6 @@
+typedef struct _WIA_DATA_CALLBACK_HEADER {
+  LONG lSize;
+  GUID guidFormatID;
+  LONG lBufferSize;
+  LONG lPageCount;
+} WIA_DATA_CALLBACK_HEADER, *PWIA_DATA_CALLBACK_HEADER;

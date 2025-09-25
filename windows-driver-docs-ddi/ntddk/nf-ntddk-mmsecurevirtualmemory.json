@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.MmSecureVirtualMemory",
+  "title": "MmSecureVirtualMemory function (ntddk.h)",
+  "description": "The MmSecureVirtualMemory routine secures a user-space memory address range so that it cannot be freed and its protection type cannot be made more restrictive.",
+  "tech.root": "kernel",
+  "ms.date": "04/20/2023",
+  "keywords": [
+    "MmSecureVirtualMemory function"
+  ],
+  "ms.keywords": "MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, ntddk/MmSecureVirtualMemory",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlMmApcLte, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<=APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MmSecureVirtualMemory",
+    "ntddk/MmSecureVirtualMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmSecureVirtualMemory"
+  ]
+}

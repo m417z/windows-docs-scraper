@@ -1,0 +1,15 @@
+## Description
+
+See [**SRBEX_DATA_NVME_COMMAND_FLAG** (*srb.h*)](https://learn.microsoft.com/windows-hardware/drivers/ddi/srb/ne-srb-srbex_data_nvme_command_flag).
+
+## Constants
+
+### `SRBEX_DATA_NVME_COMMAND_FLAG_REQUIRE_DATA_TRANSFER_IN`
+
+### `SRBEX_DATA_NVME_COMMAND_FLAG_REQUIRE_DATA_TRANSFER_OUT`
+
+### `SRBEX_DATA_NVME_COMMAND_FLAG_PRP_SET_ALREADY`
+
+### `SRBEX_DATA_NVME_COMMAND_FLAG_SIGNATURE_ENABLED`
+
+### `SRBEX_DATA_NVME_COMMAND_FLAG_NO_POLLING`

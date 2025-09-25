@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE VOID NETIOAPI_API_ InitializeIpForwardEntry(
+  [out] PMIB_IPFORWARD_ROW2 Row
+);

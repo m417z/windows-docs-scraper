@@ -1,0 +1,60 @@
+{
+  "UID": "NF:windowsx.Edit_SetWordBreakProc",
+  "title": "Edit_SetWordBreakProc macro (windowsx.h)",
+  "description": "Replaces an edit control's default Wordwrap function with an application-defined Wordwrap function. You can use this macro or send the EM_SETWORDBREAKPROC message explicitly.",
+  "helpviewer_keywords": [
+    "Edit_SetWordBreakProc",
+    "Edit_SetWordBreakProc macro [Windows Controls]",
+    "_win32_Edit_SetWordBreakProc",
+    "_win32_Edit_SetWordBreakProc_cpp",
+    "controls.Edit_SetWordBreakProc",
+    "controls._win32_Edit_SetWordBreakProc",
+    "windowsx/Edit_SetWordBreakProc"
+  ],
+  "old-location": "controls\\Edit_SetWordBreakProc.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\editcontrols\\editcontrolreference\\editcontrolmacros\\edit_setwordbreakproc.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "Edit_SetWordBreakProc, Edit_SetWordBreakProc macro [Windows Controls], _win32_Edit_SetWordBreakProc, _win32_Edit_SetWordBreakProc_cpp, controls.Edit_SetWordBreakProc, controls._win32_Edit_SetWordBreakProc, windowsx/Edit_SetWordBreakProc",
+  "req.header": "windowsx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Edit_SetWordBreakProc",
+    "windowsx/Edit_SetWordBreakProc"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windowsx.h"
+  ],
+  "api_name": [
+    "Edit_SetWordBreakProc"
+  ]
+}

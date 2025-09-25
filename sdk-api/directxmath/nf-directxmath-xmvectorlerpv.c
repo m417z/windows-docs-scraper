@@ -1,0 +1,5 @@
+XMVECTOR XM_CALLCONV XMVectorLerpV(
+  [in] FXMVECTOR V0,
+  [in] FXMVECTOR V1,
+  [in] FXMVECTOR T
+) noexcept;

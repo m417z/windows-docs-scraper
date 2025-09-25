@@ -1,0 +1,7 @@
+typedef struct _HID_DEVICE_ATTRIBUTES {
+  ULONG  Size;
+  USHORT VendorID;
+  USHORT ProductID;
+  USHORT VersionNumber;
+  USHORT Reserved[11];
+} HID_DEVICE_ATTRIBUTES, *PHID_DEVICE_ATTRIBUTES;

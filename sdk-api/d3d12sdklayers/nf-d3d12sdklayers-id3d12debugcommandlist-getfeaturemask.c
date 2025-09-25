@@ -1,0 +1,1 @@
+D3D12_DEBUG_FEATURE GetFeatureMask();

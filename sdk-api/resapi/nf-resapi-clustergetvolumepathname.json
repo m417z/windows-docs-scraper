@@ -1,0 +1,64 @@
+{
+  "UID": "NF:resapi.ClusterGetVolumePathName",
+  "title": "ClusterGetVolumePathName function (resapi.h)",
+  "description": "ClusterGetVolumePathName may be altered or unavailable. Instead, use GetVolumePathName.",
+  "helpviewer_keywords": [
+    "ClusterGetVolumePathName",
+    "ClusterGetVolumePathName function [Failover Cluster]",
+    "PCLUSTER_GET_VOLUME_PATH_NAME",
+    "PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster]",
+    "mscs.clustergetvolumepathname",
+    "resapi/ClusterGetVolumePathName",
+    "resapi/PCLUSTER_GET_VOLUME_PATH_NAME"
+  ],
+  "old-location": "mscs\\clustergetvolumepathname.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "eff2995a-d17c-4899-bff5-ead9526f859d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterGetVolumePathName, ClusterGetVolumePathName function [Failover Cluster], PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster], mscs.clustergetvolumepathname, resapi/ClusterGetVolumePathName, resapi/PCLUSTER_GET_VOLUME_PATH_NAME",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.Lib",
+  "req.dll": "ResUtils.Dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterGetVolumePathName",
+    "resapi/ClusterGetVolumePathName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ext-ms-win-cluster-resutils-l1-1-2.dll",
+    "ResUtils.Dll",
+    "Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll",
+    "ext-ms-win-cluster-resutils-l1-1-1.dll"
+  ],
+  "api_name": [
+    "ClusterGetVolumePathName"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef enum enumALT_BREAKS {
+  ALT_BREAKS_SAME = 0,
+  ALT_BREAKS_UNIQUE = 1,
+  ALT_BREAKS_FULL = 2
+} ALT_BREAKS;

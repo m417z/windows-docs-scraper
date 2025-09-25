@@ -1,0 +1,9 @@
+typedef struct _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE {
+  PEPHANDLE DeviceHandle;
+  ULONG     Component;
+  ULONG     Set;
+  union {
+    ULONG     StateIndex;
+    ULONGLONG StateValue;
+  };
+} PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, *PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE;

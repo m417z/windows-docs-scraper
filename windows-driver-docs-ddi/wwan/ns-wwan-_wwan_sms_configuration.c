@@ -1,0 +1,5 @@
+typedef struct _WWAN_SMS_CONFIGURATION {
+  CHAR            ScAddress[WWAN_SMS_ADDRESS_MAX_LEN];
+  WWAN_SMS_FORMAT SmsFormat;
+  ULONG           ulMaxMessageIndex;
+} WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION;

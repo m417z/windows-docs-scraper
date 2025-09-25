@@ -1,0 +1,7 @@
+typedef struct _REFS_SET_VOLUME_IO_METRICS_INFO_INPUT_BUFFER {
+  ULONG Version;
+  ULONG GlobalSecondsToTrack;
+  ULONG MetricsPeriodicitySeconds;
+  ULONG MetricsGenerationsPerContainer;
+  ULONG Reserved[8];
+} REFS_SET_VOLUME_IO_METRICS_INFO_INPUT_BUFFER, *PREFS_SET_VOLUME_IO_METRICS_INFO_INPUT_BUFFER;

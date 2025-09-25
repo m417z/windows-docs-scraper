@@ -1,0 +1,47 @@
+{
+  "UID": "NC:fltkernel.PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE",
+  "title": "PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE (fltkernel.h)",
+  "description": "A minifilter driver can register a routine of type PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE as the minifilter driver's CompleteLockCallbackDataRoutine callback routine for a FILE_LOCK structure.",
+  "tech.root": "ifsk",
+  "ms.date": "03/20/2023",
+  "keywords": [
+    "PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE callback function"
+  ],
+  "ms.keywords": "CompleteLockCallbackDataRoutine, CompleteLockCallbackDataRoutine routine [Installable File System Drivers], FltCallbacks_a02e356c-ad01-4ae4-bfff-b753ffa0a1c3.xml, PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE, fltkernel/CompleteLockCallbackDataRoutine, ifsk.pflt_complete_lock_callback_data_routine",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows XP SP2",
+  "req.target-min-winversvr": "Windows Server 2003 SP1",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE",
+    "fltkernel/PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE"
+  ]
+}

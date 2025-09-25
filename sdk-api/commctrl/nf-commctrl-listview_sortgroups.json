@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.ListView_SortGroups",
+  "title": "ListView_SortGroups macro (commctrl.h)",
+  "description": "Uses an application-defined comparison function to sort groups by ID within a list-view control. You can use this macro or send the LVM_SORTGROUPS message explicitly.",
+  "helpviewer_keywords": [
+    "ListView_SortGroups",
+    "ListView_SortGroups macro [Windows Controls]",
+    "_win32_ListView_SortGroups",
+    "_win32_ListView_SortGroups_cpp",
+    "commctrl/ListView_SortGroups",
+    "controls.ListView_SortGroups",
+    "controls._win32_ListView_SortGroups"
+  ],
+  "old-location": "controls\\ListView_SortGroups.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_sortgroups.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "ListView_SortGroups, ListView_SortGroups macro [Windows Controls], _win32_ListView_SortGroups, _win32_ListView_SortGroups_cpp, commctrl/ListView_SortGroups, controls.ListView_SortGroups, controls._win32_ListView_SortGroups",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_SortGroups",
+    "commctrl/ListView_SortGroups"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_SortGroups"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfpdo.EVT_WDF_DEVICE_RESOURCES_QUERY",
+  "title": "EVT_WDF_DEVICE_RESOURCES_QUERY (wdfpdo.h)",
+  "description": "A bus driver's EvtDeviceResourcesQuery event callback function creates a resource list that represents a specified device's boot configuration.",
+  "old-location": "wdf\\evtdeviceresourcesquery.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_RESOURCES_QUERY callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectFdoPdoRef_89ca471c-ee81-4799-9b58-410aedd12f87.xml, EVT_WDF_DEVICE_RESOURCES_QUERY, EVT_WDF_DEVICE_RESOURCES_QUERY callback, EvtDeviceResourcesQuery, EvtDeviceResourcesQuery callback function, kmdf.evtdeviceresourcesquery, wdf.evtdeviceresourcesquery, wdfpdo/EvtDeviceResourcesQuery",
+  "req.header": "wdfpdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_RESOURCES_QUERY",
+    "wdfpdo/EVT_WDF_DEVICE_RESOURCES_QUERY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfpdo.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_RESOURCES_QUERY"
+  ]
+}

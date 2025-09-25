@@ -1,0 +1,3 @@
+VIDEOPORT_DEPRECATED VIDEOPORT_API VOID VideoPortStopTimer(
+  PVOID HwDeviceExtension
+);

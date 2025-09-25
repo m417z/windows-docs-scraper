@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capPalettePaste",
+  "title": "capPalettePaste macro (vfw.h)",
+  "description": "The capPalettePaste macro copies the palette from the clipboard and passes it to a capture driver. You can use this macro or explicitly call the WM_CAP_PAL_PASTE message.",
+  "helpviewer_keywords": [
+    "_win32_capPalettePaste",
+    "capPalettePaste",
+    "capPalettePaste macro [Windows Multimedia]",
+    "multimedia.cappalettepaste",
+    "vfw/capPalettePaste"
+  ],
+  "old-location": "multimedia\\cappalettepaste.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "ccdaf58d-3d06-46c5-a812-322364a7f851",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capPalettePaste, capPalettePaste, capPalettePaste macro [Windows Multimedia], multimedia.cappalettepaste, vfw/capPalettePaste",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capPalettePaste",
+    "vfw/capPalettePaste"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capPalettePaste"
+  ]
+}

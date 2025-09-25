@@ -1,0 +1,3 @@
+typedef struct D3D11_FEATURE_DATA_D3D11_OPTIONS3 {
+  BOOL VPAndRTArrayIndexFromAnyShaderFeedingRasterizer;
+} D3D11_FEATURE_DATA_D3D11_OPTIONS3;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._SECURITY_SUBJECT_CONTEXT",
+  "title": "SECURITY_SUBJECT_CONTEXT (wdm.h)",
+  "description": "The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.",
+  "old-location": "ifsk\\security_subject_context.htm",
+  "tech.root": "ifsk",
+  "ms.date": "02/13/2023",
+  "keywords": [
+    "SECURITY_SUBJECT_CONTEXT structure"
+  ],
+  "ms.keywords": "*PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], _SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, wdm/PSECURITY_SUBJECT_CONTEXT, wdm/SECURITY_SUBJECT_CONTEXT",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT",
+  "f1_keywords": [
+    "_SECURITY_SUBJECT_CONTEXT",
+    "wdm/_SECURITY_SUBJECT_CONTEXT",
+    "PSECURITY_SUBJECT_CONTEXT",
+    "wdm/PSECURITY_SUBJECT_CONTEXT",
+    "SECURITY_SUBJECT_CONTEXT",
+    "wdm/SECURITY_SUBJECT_CONTEXT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_SECURITY_SUBJECT_CONTEXT",
+    "PSECURITY_SUBJECT_CONTEXT",
+    "SECURITY_SUBJECT_CONTEXT"
+  ]
+}

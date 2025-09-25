@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netdispumdddi.PFN_REPORT_STATISTIC",
+  "title": "PFN_REPORT_STATISTIC (netdispumdddi.h)",
+  "description": "Called by the user-mode display driver to report the statistics of the Miracast link to the operating system.The data type of this function is PFN_REPORT_STATISTIC.",
+  "old-location": "display\\reportstatistic.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFN_REPORT_STATISTIC callback function"
+  ],
+  "ms.keywords": "PFN_REPORT_STATISTIC, PFN_REPORT_STATISTIC callback, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic",
+  "req.header": "netdispumdddi.h",
+  "req.include-header": "Netdispumdddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_REPORT_STATISTIC",
+    "netdispumdddi/PFN_REPORT_STATISTIC"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Netdispumdddi.h"
+  ],
+  "api_name": [
+    "PFN_REPORT_STATISTIC"
+  ]
+}

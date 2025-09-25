@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.GetMenuStringW",
+  "title": "GetMenuStringW function (winuser.h)",
+  "description": "Copies the text string of the specified menu item into the specified buffer. (Unicode)",
+  "helpviewer_keywords": [
+    "GetMenuString",
+    "GetMenuString function [Menus and Other Resources]",
+    "GetMenuStringW",
+    "MF_BYCOMMAND",
+    "MF_BYPOSITION",
+    "_win32_GetMenuString",
+    "_win32_getmenustring_cpp",
+    "menurc.getmenustring",
+    "winui._win32_getmenustring",
+    "winuser/GetMenuString",
+    "winuser/GetMenuStringW"
+  ],
+  "old-location": "menurc\\getmenustring.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\menus\\menureference\\menufunctions\\getmenustring.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMenuString, GetMenuString function [Menus and Other Resources], GetMenuStringA, GetMenuStringW, MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuString, _win32_getmenustring_cpp, menurc.getmenustring, winui._win32_getmenustring, winuser/GetMenuString, winuser/GetMenuStringA, winuser/GetMenuStringW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetMenuStringW (Unicode) and GetMenuStringA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetMenuStringW",
+    "winuser/GetMenuStringW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Menu-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Menu-l1-1-1.dll",
+    "ext-ms-win-ntuser-menu-l1-1-2.dll",
+    "Ext-MS-Win-NTUser-Menu-L1-1-3.dll"
+  ],
+  "api_name": [
+    "GetMenuString",
+    "GetMenuStringA",
+    "GetMenuStringW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)"
+}

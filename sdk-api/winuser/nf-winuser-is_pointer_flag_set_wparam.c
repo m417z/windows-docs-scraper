@@ -1,0 +1,4 @@
+BOOL IS_POINTER_FLAG_SET_WPARAM(
+    WPARAM wParam,
+    UINT32 flag
+);

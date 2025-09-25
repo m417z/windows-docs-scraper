@@ -1,0 +1,59 @@
+{
+  "UID": "NF:swdevice.SwDeviceInterfacePropertySet",
+  "title": "SwDeviceInterfacePropertySet function (swdevice.h)",
+  "description": "Sets properties on a software device interface.",
+  "helpviewer_keywords": [
+    "SwDeviceInterfacePropertySet",
+    "SwDeviceInterfacePropertySet function",
+    "swdevice.swdeviceinterfacepropertyset",
+    "swdevice/SwDeviceInterfacePropertySet"
+  ],
+  "old-location": "swdevice\\swdeviceinterfacepropertyset.htm",
+  "tech.root": "swdevice",
+  "ms.assetid": "397E6CAB-EE99-4723-84DB-8C48859E39D8",
+  "ms.date": "04/22/2024",
+  "ms.keywords": "SwDeviceInterfacePropertySet, SwDeviceInterfacePropertySet function, swdevice.swdeviceinterfacepropertyset, swdevice/SwDeviceInterfacePropertySet",
+  "req.header": "swdevice.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Swdevice.lib; OneCoreUAP.lib on Windows 10",
+  "req.dll": "Cfgmgr32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SwDeviceInterfacePropertySet",
+    "swdevice/SwDeviceInterfacePropertySet"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Cfgmgr32.dll",
+    "API-MS-Win-devices-swdevice-l1-1-0.dll",
+    "API-MS-Win-devices-swdevice-l1-1-1.dll"
+  ],
+  "api_name": [
+    "SwDeviceInterfacePropertySet"
+  ]
+}

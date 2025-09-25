@@ -1,0 +1,45 @@
+{
+  "UID": "NF:winsvc.GetSharedServiceRegistryStateKey",
+  "title": "GetSharedServiceRegistryStateKey",
+  "description": "Returns a handle for a registry key for a service and associated programs to read and/or write state to.",
+  "tech.root": "security",
+  "ms.date": "5/24/2021",
+  "ms.keywords": "GetSharedServiceRegistryStateKey",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winsvc.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Onecore.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 (Build 22000)",
+  "req.target-min-winversvr": "Windows Server 2022 (Build 20348)",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-service-core-l1-1-5.dll",
+    "sechost.dll"
+  ],
+  "api_name": [
+    "GetSharedServiceRegistryStateKey"
+  ],
+  "f1_keywords": [
+    "GetSharedServiceRegistryStateKey",
+    "winsvc/GetSharedServiceRegistryStateKey"
+  ]
+}

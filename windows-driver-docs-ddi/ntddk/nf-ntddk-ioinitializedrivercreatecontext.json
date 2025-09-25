@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.IoInitializeDriverCreateContext",
+  "title": "IoInitializeDriverCreateContext function (ntddk.h)",
+  "description": "The IoInitializeDriverCreateContext routine initializes a caller-allocated variable of type IO_DRIVER_CREATE_CONTEXT.",
+  "old-location": "ifsk\\ioinitializedrivercreatecontext.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "IoInitializeDriverCreateContext function"
+  ],
+  "ms.keywords": "IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers], ifsk.ioinitializedrivercreatecontext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, ntddk/IoInitializeDriverCreateContext",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoInitializeDriverCreateContext",
+    "ntddk/IoInitializeDriverCreateContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "IoInitializeDriverCreateContext"
+  ]
+}

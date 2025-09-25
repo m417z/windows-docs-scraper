@@ -1,0 +1,58 @@
+{
+  "UID": "NF:lmjoin.NetRequestProvisioningPackageInstall",
+  "title": "NetRequestProvisioningPackageInstall function (lmjoin.h)",
+  "description": "Executes locally on a machine to modify a Windows operating system image mounted on a volume. (NetRequestProvisioningPackageInstall)",
+  "helpviewer_keywords": [
+    "NETSETUP_PROVISION_ONLINE_CALLER",
+    "NetRequestProvisioningPackageInstall",
+    "NetRequestProvisioningPackageInstall function [Network Management]",
+    "lmjoin/NetRequestProvisioningPackageInstall",
+    "netmgmt.netrequestprovisioningpackageinstall"
+  ],
+  "old-location": "netmgmt\\netrequestprovisioningpackageinstall.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "107ED0F7-8DDD-4C18-8C34-3A67F771FA62",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NETSETUP_PROVISION_ONLINE_CALLER, NetRequestProvisioningPackageInstall, NetRequestProvisioningPackageInstall function [Network Management], lmjoin/NetRequestProvisioningPackageInstall, netmgmt.netrequestprovisioningpackageinstall",
+  "req.header": "lmjoin.h",
+  "req.include-header": "Lm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NetRequestProvisioningPackageInstall",
+    "lmjoin/NetRequestProvisioningPackageInstall"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "NetRequestProvisioningPackageInstall"
+  ]
+}

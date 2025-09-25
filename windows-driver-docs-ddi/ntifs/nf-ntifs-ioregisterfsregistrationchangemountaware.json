@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.IoRegisterFsRegistrationChangeMountAware",
+  "title": "IoRegisterFsRegistrationChangeMountAware function (ntifs.h)",
+  "description": "The IoRegisterFsRegistrationChangeMountAware routine registers a file system filter driver's notification routine. This notification routine is called whenever a file system registers or unregisters itself as an active file system.",
+  "old-location": "ifsk\\ioregisterfsregistrationchangemountaware.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "IoRegisterFsRegistrationChangeMountAware function"
+  ],
+  "ms.keywords": "IoRegisterFsRegistrationChangeMountAware, IoRegisterFsRegistrationChangeMountAware routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangemountaware, ioref_c69a27ef-45f5-4873-bd11-34e984cc5c11.xml, ntifs/IoRegisterFsRegistrationChangeMountAware",
+  "req.header": "ntifs.h",
+  "req.include-header": "FltKernel.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The IoRegisterFsRegistrationChangeMountAware routine is Windows 7",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "< DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoRegisterFsRegistrationChangeMountAware",
+    "ntifs/IoRegisterFsRegistrationChangeMountAware"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoRegisterFsRegistrationChangeMountAware"
+  ]
+}

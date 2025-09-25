@@ -1,0 +1,6 @@
+typedef struct _FILE_STANDARD_LINK_INFORMATION {
+  ULONG   NumberOfAccessibleLinks;
+  ULONG   TotalNumberOfLinks;
+  BOOLEAN DeletePending;
+  BOOLEAN Directory;
+} FILE_STANDARD_LINK_INFORMATION, *PFILE_STANDARD_LINK_INFORMATION;

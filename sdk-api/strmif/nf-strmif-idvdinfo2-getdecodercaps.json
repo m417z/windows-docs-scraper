@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IDvdInfo2.GetDecoderCaps",
+  "title": "IDvdInfo2::GetDecoderCaps (strmif.h)",
+  "description": "The GetDecoderCaps method retrieves the DVD decoder's maximum data rate for video, audio, and subpicture (in forward and reverse) as well as support for various types of audio (AC-3, MPEG-2, DTS, SDDS, LPCM).",
+  "helpviewer_keywords": [
+    "GetDecoderCaps",
+    "GetDecoderCaps method [DirectShow]",
+    "GetDecoderCaps method [DirectShow]",
+    "IDvdInfo2 interface",
+    "IDvdInfo2 interface [DirectShow]",
+    "GetDecoderCaps method",
+    "IDvdInfo2.GetDecoderCaps",
+    "IDvdInfo2::GetDecoderCaps",
+    "IDvdInfo2GetDecoderCaps",
+    "dshow.idvdinfo2_getdecodercaps",
+    "strmif/IDvdInfo2::GetDecoderCaps"
+  ],
+  "old-location": "dshow\\idvdinfo2_getdecodercaps.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "cfaf475c-336a-492f-b5a8-c49c21e5392d",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDecoderCaps method, IDvdInfo2.GetDecoderCaps, IDvdInfo2::GetDecoderCaps, IDvdInfo2GetDecoderCaps, dshow.idvdinfo2_getdecodercaps, strmif/IDvdInfo2::GetDecoderCaps",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDvdInfo2::GetDecoderCaps",
+    "strmif/IDvdInfo2::GetDecoderCaps"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IDvdInfo2.GetDecoderCaps"
+  ]
+}

@@ -1,0 +1,26 @@
+typedef struct _USER_INFO_22 {
+  LPWSTR usri22_name;
+  BYTE   usri22_password[ENCRYPTED_PWLEN];
+  DWORD  usri22_password_age;
+  DWORD  usri22_priv;
+  LPWSTR usri22_home_dir;
+  LPWSTR usri22_comment;
+  DWORD  usri22_flags;
+  LPWSTR usri22_script_path;
+  DWORD  usri22_auth_flags;
+  LPWSTR usri22_full_name;
+  LPWSTR usri22_usr_comment;
+  LPWSTR usri22_parms;
+  LPWSTR usri22_workstations;
+  DWORD  usri22_last_logon;
+  DWORD  usri22_last_logoff;
+  DWORD  usri22_acct_expires;
+  DWORD  usri22_max_storage;
+  DWORD  usri22_units_per_week;
+  PBYTE  usri22_logon_hours;
+  DWORD  usri22_bad_pw_count;
+  DWORD  usri22_num_logons;
+  LPWSTR usri22_logon_server;
+  DWORD  usri22_country_code;
+  DWORD  usri22_code_page;
+} USER_INFO_22, *PUSER_INFO_22, *LPUSER_INFO_22;

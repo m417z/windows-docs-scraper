@@ -1,0 +1,8 @@
+PFND3D12DDI_GET_WORK_GRAPH_MEMORY_REQUIREMENTS_0108 Pfnd3d12ddiGetWorkGraphMemoryRequirements0108;
+
+void Pfnd3d12ddiGetWorkGraphMemoryRequirements0108(
+  D3D12DDI_HSTATEOBJECT_0054 unnamedParam1,
+  LPCWSTR pProgramName,
+  D3D12DDI_WORK_GRAPH_MEMORY_REQUIREMENTS_0108 *pRequirements
+)
+{...}

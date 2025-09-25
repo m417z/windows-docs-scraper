@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.GetKeyboardState",
+  "title": "GetKeyboardState function (winuser.h)",
+  "description": "Copies the status of the 256 virtual keys to the specified buffer.",
+  "helpviewer_keywords": [
+    "GetKeyboardState",
+    "GetKeyboardState function [Keyboard and Mouse Input]",
+    "_win32_GetKeyboardState",
+    "_win32_getkeyboardstate_cpp",
+    "inputdev.getkeyboardstate",
+    "winui._win32_getkeyboardstate",
+    "winuser/GetKeyboardState"
+  ],
+  "old-location": "inputdev\\getkeyboardstate.htm",
+  "tech.root": "inputdev",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\userinput\\keyboardinput\\keyboardinputreference\\keyboardinputfunctions\\getkeyboardstate.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetKeyboardState, GetKeyboardState function [Keyboard and Mouse Input], _win32_GetKeyboardState, _win32_getkeyboardstate_cpp, inputdev.getkeyboardstate, winui._win32_getkeyboardstate, winuser/GetKeyboardState",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetKeyboardState",
+    "winuser/GetKeyboardState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-rawinput-l1-1-1.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-2.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-1.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll",
+    "api-ms-win-ntuser-ie-keyboard-l1-1-0.dll",
+    "ie_stubs.dll",
+    "ext-ms-win-ntuser-keyboard-l1-1-2.dll",
+    "Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll",
+    "MinUser.dll"
+  ],
+  "api_name": [
+    "GetKeyboardState"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)"
+}

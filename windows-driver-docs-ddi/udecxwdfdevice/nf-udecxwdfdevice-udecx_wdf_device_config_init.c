@@ -1,0 +1,4 @@
+VOID UDECX_WDF_DEVICE_CONFIG_INIT(
+  [out] PUDECX_WDF_DEVICE_CONFIG                  Config,
+  [in]  PFN_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY EvtUdecxWdfDeviceQueryUsbCapability
+);

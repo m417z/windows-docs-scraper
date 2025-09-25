@@ -1,0 +1,4 @@
+VOID USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT(
+  [Out] PUSBPM_CLIENT_CONFIG_EXTRA_INFO ExtraInfo,
+  [In]  PDEVICE_OBJECT                  WdmDeviceObject
+);

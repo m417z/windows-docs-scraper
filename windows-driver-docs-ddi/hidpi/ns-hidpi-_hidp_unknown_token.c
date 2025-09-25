@@ -1,0 +1,5 @@
+typedef struct _HIDP_UNKNOWN_TOKEN {
+  UCHAR Token;
+  UCHAR Reserved[3];
+  ULONG BitField;
+} HIDP_UNKNOWN_TOKEN, *PHIDP_UNKNOWN_TOKEN;

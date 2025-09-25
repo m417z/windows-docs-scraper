@@ -1,0 +1,50 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTMakeResident",
+  "title": "D3DKMTMakeResident function (d3dkmthk.h)",
+  "description": "D3DKMTMakeResident is used to add a resource to the device residency list and increment the residency reference count on this allocation.",
+  "old-location": "display\\d3dkmtmakeresident.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTMakeResident function"
+  ],
+  "ms.keywords": "D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices], d3dkmthk/D3DKMTMakeResident, display.d3dkmtmakeresident",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTMakeResident",
+    "d3dkmthk/D3DKMTMakeResident"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "API-MS-Win-DX-D3DKMT-L1-1-1.dll",
+    "GDI32.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-2.dll"
+  ],
+  "api_name": [
+    "D3DKMTMakeResident"
+  ]
+}

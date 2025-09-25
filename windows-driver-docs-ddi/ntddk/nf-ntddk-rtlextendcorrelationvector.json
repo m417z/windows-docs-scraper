@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlExtendCorrelationVector",
+  "title": "RtlExtendCorrelationVector function (ntddk.h)",
+  "description": "This routine extends the supplied correlation vector. For a correlation vector of the form X.i, the extended value is X.i.0.",
+  "old-location": "kernel\\rtlextendcorrelationvector.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlExtendCorrelationVector function"
+  ],
+  "ms.keywords": "RtlExtendCorrelationVector, RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlextendcorrelationvector, ntddk/RtlExtendCorrelationVector",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode)",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlExtendCorrelationVector",
+    "ntddk/RtlExtendCorrelationVector"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlExtendCorrelationVector"
+  ]
+}

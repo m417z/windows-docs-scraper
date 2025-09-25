@@ -1,0 +1,66 @@
+{
+  "UID": "NF:winnls.EnumCalendarInfoExW",
+  "title": "EnumCalendarInfoExW function (winnls.h)",
+  "description": "Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function. (Unicode)",
+  "helpviewer_keywords": [
+    "EnumCalendarInfoEx",
+    "EnumCalendarInfoEx function [Internationalization for Windows Applications]",
+    "EnumCalendarInfoExW",
+    "_win32_EnumCalendarInfoEx",
+    "intl.enumcalendarinfoex",
+    "winnls/EnumCalendarInfoEx",
+    "winnls/EnumCalendarInfoExW"
+  ],
+  "old-location": "intl\\enumcalendarinfoex.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "5a313af5-e595-49b1-9651-a5afc158c7a7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumCalendarInfoEx, EnumCalendarInfoEx function [Internationalization for Windows Applications], EnumCalendarInfoExA, EnumCalendarInfoExW, _win32_EnumCalendarInfoEx, intl.enumcalendarinfoex, winnls/EnumCalendarInfoEx, winnls/EnumCalendarInfoExA, winnls/EnumCalendarInfoExW",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "EnumCalendarInfoExW (Unicode) and EnumCalendarInfoExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnumCalendarInfoExW",
+    "winnls/EnumCalendarInfoExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Localization-l2-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Localization-Ansi-L1-1-0.dll",
+    "Kernel32Legacy.dll"
+  ],
+  "api_name": [
+    "EnumCalendarInfoEx",
+    "EnumCalendarInfoExA",
+    "EnumCalendarInfoExW"
+  ]
+}

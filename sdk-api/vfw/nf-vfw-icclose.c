@@ -1,0 +1,3 @@
+LRESULT VFWAPI ICClose(
+  HIC hic
+);

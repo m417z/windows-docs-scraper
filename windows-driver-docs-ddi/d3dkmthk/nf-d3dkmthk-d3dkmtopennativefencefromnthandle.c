@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenNativeFenceFromNtHandle(
+  D3DKMT_OPENNATIVEFENCEFROMNTHANDLE *unnamedParam1
+);

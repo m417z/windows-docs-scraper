@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdriver.EVT_WDF_DRIVER_UNLOAD",
+  "title": "EVT_WDF_DRIVER_UNLOAD (wdfdriver.h)",
+  "description": "A driver's EvtDriverUnload event callback function performs operations that must take place before the driver is unloaded.",
+  "old-location": "wdf\\evtdriverunload.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DRIVER_UNLOAD callback function"
+  ],
+  "ms.keywords": "DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EVT_WDF_DRIVER_UNLOAD callback, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload",
+  "req.header": "wdfdriver.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DRIVER_UNLOAD",
+    "wdfdriver/EVT_WDF_DRIVER_UNLOAD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdriver.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DRIVER_UNLOAD"
+  ]
+}

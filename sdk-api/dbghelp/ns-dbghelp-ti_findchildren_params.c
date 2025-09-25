@@ -1,0 +1,5 @@
+typedef struct _TI_FINDCHILDREN_PARAMS {
+  ULONG Count;
+  ULONG Start;
+  ULONG ChildId[1];
+} TI_FINDCHILDREN_PARAMS;

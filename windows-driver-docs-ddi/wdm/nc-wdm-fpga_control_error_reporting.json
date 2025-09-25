@@ -1,0 +1,44 @@
+{
+  "UID": "NC:wdm.FPGA_CONTROL_ERROR_REPORTING",
+  "title": "FPGA_CONTROL_ERROR_REPORTING (wdm.h)",
+  "description": "Reserved for future use. Toggles the error reporting for the FPGA device and its parent bridge.",
+  "ms.date": "01/19/2023",
+  "tech.root": "kernel",
+  "keywords": [
+    "FPGA_CONTROL_ERROR_REPORTING callback function"
+  ],
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "FPGA_CONTROL_ERROR_REPORTING",
+    "wdm/FPGA_CONTROL_ERROR_REPORTING"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "FPGA_CONTROL_ERROR_REPORTING"
+  ]
+}

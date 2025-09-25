@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._FSRTL_PER_FILEOBJECT_CONTEXT",
+  "title": "FSRTL_PER_FILEOBJECT_CONTEXT (ntifs.h)",
+  "description": "The opaque FSRTL_PER_FILEOBJECT_CONTEXT structure is used by the operating system to track file system filter-driver-defined context information structures for a file object.",
+  "tech.root": "ifsk",
+  "ms.date": "09/27/2023",
+  "keywords": [
+    "FSRTL_PER_FILEOBJECT_CONTEXT structure"
+  ],
+  "ms.keywords": "*PFSRTL_PER_FILEOBJECT_CONTEXT, FSRTL_PER_FILEOBJECT_CONTEXT, FSRTL_PER_FILEOBJECT_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_FILEOBJECT_CONTEXT, PFSRTL_PER_FILEOBJECT_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_FILEOBJECT_CONTEXT, contextstructures_0b5fadaf-8b73-4a63-9e1d-fa08359d5e8d.xml, ifsk.fsrtl_per_fileobject_context, ntifs/FSRTL_PER_FILEOBJECT_CONTEXT, ntifs/PFSRTL_PER_FILEOBJECT_CONTEXT",
+  "req.header": "ntifs.h",
+  "req.include-header": "Fltkernel.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FSRTL_PER_FILEOBJECT_CONTEXT, *PFSRTL_PER_FILEOBJECT_CONTEXT",
+  "f1_keywords": [
+    "_FSRTL_PER_FILEOBJECT_CONTEXT",
+    "ntifs/_FSRTL_PER_FILEOBJECT_CONTEXT",
+    "PFSRTL_PER_FILEOBJECT_CONTEXT",
+    "ntifs/PFSRTL_PER_FILEOBJECT_CONTEXT",
+    "FSRTL_PER_FILEOBJECT_CONTEXT",
+    "ntifs/FSRTL_PER_FILEOBJECT_CONTEXT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FSRTL_PER_FILEOBJECT_CONTEXT",
+    "PFSRTL_PER_FILEOBJECT_CONTEXT",
+    "FSRTL_PER_FILEOBJECT_CONTEXT"
+  ]
+}

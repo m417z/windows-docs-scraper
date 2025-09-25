@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ObGetObjectSecurity",
+  "title": "ObGetObjectSecurity function (wdm.h)",
+  "description": "The ObGetObjectSecurity routine gets the security descriptor for a given object.",
+  "old-location": "kernel\\obgetobjectsecurity.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ObGetObjectSecurity function"
+  ],
+  "ms.keywords": "ObGetObjectSecurity, ObGetObjectSecurity routine [Kernel-Mode Driver Architecture], k107_a0c800de-984a-427f-b308-415f831e5d34.xml, kernel.obgetobjectsecurity, wdm/ObGetObjectSecurity",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlApcLte, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ObGetObjectSecurity",
+    "wdm/ObGetObjectSecurity"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ObGetObjectSecurity"
+  ]
+}

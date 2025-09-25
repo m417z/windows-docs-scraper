@@ -1,0 +1,3 @@
+ULONG WsCountOf(
+  [in]   arrayValue
+);

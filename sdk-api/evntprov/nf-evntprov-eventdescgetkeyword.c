@@ -1,0 +1,3 @@
+EVNTPROV_PFORCEINLINE ULONGLONG EventDescGetKeyword(
+  [in] PCEVENT_DESCRIPTOR EventDescriptor
+);

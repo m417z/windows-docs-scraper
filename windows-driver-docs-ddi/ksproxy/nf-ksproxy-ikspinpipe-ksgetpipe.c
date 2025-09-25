@@ -1,0 +1,3 @@
+IKsAllocatorEx * KsGetPipe(
+  KSPEEKOPERATION Operation
+);

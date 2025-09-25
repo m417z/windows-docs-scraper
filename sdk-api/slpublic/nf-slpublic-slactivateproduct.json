@@ -1,0 +1,57 @@
+{
+  "UID": "NF:slpublic.SLActivateProduct",
+  "title": "SLActivateProduct function (slpublic.h)",
+  "description": "Acquires a use license from the Software License Server (SLS).",
+  "helpviewer_keywords": [
+    "SLActivateProduct",
+    "SLActivateProduct function [Security]",
+    "security.slactivateproduct",
+    "slpublic/SLActivateProduct"
+  ],
+  "old-location": "security\\slactivateproduct.htm",
+  "tech.root": "security",
+  "ms.assetid": "14a2e84f-f5f7-4f17-8c7c-2cf580e14a26",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SLActivateProduct, SLActivateProduct function [Security], security.slactivateproduct, slpublic/SLActivateProduct",
+  "req.header": "slpublic.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Slc.lib",
+  "req.dll": "Slc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SLActivateProduct",
+    "slpublic/SLActivateProduct"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Slc.dll"
+  ],
+  "api_name": [
+    "SLActivateProduct"
+  ]
+}

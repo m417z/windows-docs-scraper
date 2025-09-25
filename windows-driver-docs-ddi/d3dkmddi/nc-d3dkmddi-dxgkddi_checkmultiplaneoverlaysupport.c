@@ -1,0 +1,7 @@
+DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT DxgkddiCheckmultiplaneoverlaysupport;
+
+NTSTATUS DxgkddiCheckmultiplaneoverlaysupport(
+  IN_CONST_HANDLE hAdapter,
+  IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT pCheckMultiPlaneOverlaySupport
+)
+{...}

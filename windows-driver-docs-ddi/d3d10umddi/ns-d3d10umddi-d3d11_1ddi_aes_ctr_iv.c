@@ -1,0 +1,4 @@
+typedef struct D3D11_1DDI_AES_CTR_IV {
+  UINT64 IV;
+  UINT64 Count;
+} D3D11_1DDI_AES_CTR_IV;

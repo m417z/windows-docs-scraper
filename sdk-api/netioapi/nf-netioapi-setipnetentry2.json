@@ -1,0 +1,57 @@
+{
+  "UID": "NF:netioapi.SetIpNetEntry2",
+  "title": "SetIpNetEntry2 function (netioapi.h)",
+  "description": "Sets the physical address of an existing neighbor IP address entry on the local computer.",
+  "helpviewer_keywords": [
+    "SetIpNetEntry2",
+    "SetIpNetEntry2 function [IP Helper]",
+    "iphlp.setipnetentry2",
+    "netioapi/SetIpNetEntry2"
+  ],
+  "old-location": "iphlp\\setipnetentry2.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "4f423700-f721-44a9-ade3-ea5b5b86e394",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetIpNetEntry2, SetIpNetEntry2 function [IP Helper], iphlp.setipnetentry2, netioapi/SetIpNetEntry2",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetIpNetEntry2",
+    "netioapi/SetIpNetEntry2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "SetIpNetEntry2"
+  ]
+}

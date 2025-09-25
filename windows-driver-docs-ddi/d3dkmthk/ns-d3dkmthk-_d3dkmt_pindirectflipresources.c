@@ -1,0 +1,5 @@
+typedef struct _D3DKMT_PINDIRECTFLIPRESOURCES {
+  D3DKMT_HANDLE hDevice;
+  UINT          ResourceCount;
+  D3DKMT_HANDLE *pResourceList;
+} D3DKMT_PINDIRECTFLIPRESOURCES;

@@ -1,0 +1,3 @@
+HRESULT SetDescription(
+  LPCWSTR pszName
+);

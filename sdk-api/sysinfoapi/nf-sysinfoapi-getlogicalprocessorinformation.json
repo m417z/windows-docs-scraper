@@ -1,0 +1,69 @@
+{
+  "UID": "NF:sysinfoapi.GetLogicalProcessorInformation",
+  "title": "GetLogicalProcessorInformation function (sysinfoapi.h)",
+  "description": "Retrieves information about logical processors and related hardware.",
+  "helpviewer_keywords": [
+    "GetLogicalProcessorInformation",
+    "GetLogicalProcessorInformation function",
+    "base.getlogicalprocessorinformation",
+    "sysinfoapi/GetLogicalProcessorInformation"
+  ],
+  "old-location": "base\\getlogicalprocessorinformation.htm",
+  "tech.root": "backup",
+  "ms.assetid": "904d2d35-f419-4e8f-a689-f39ed926644c",
+  "ms.date": "03/15/2021",
+  "ms.keywords": "GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation",
+  "req.header": "sysinfoapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP3 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetLogicalProcessorInformation",
+    "sysinfoapi/GetLogicalProcessorInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-sysinfo-l1-2-7.dll",
+    "api-ms-win-core-sysinfo-l1-2-6.dll",
+    "api-ms-win-core-sysinfo-l1-2-5.dll",
+    "api-ms-win-core-sysinfo-l1-2-4.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-SysInfo-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-0.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-1.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-3.dll"
+  ],
+  "api_name": [
+    "GetLogicalProcessorInformation"
+  ]
+}

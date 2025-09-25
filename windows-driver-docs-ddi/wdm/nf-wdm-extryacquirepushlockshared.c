@@ -1,0 +1,3 @@
+BOOLEAN ExTryAcquirePushLockShared(
+   Lock
+);

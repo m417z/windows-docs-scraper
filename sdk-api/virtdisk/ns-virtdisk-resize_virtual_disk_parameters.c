@@ -1,0 +1,8 @@
+typedef struct _RESIZE_VIRTUAL_DISK_PARAMETERS {
+  RESIZE_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      ULONGLONG NewSize;
+    } Version1;
+  };
+} RESIZE_VIRTUAL_DISK_PARAMETERS, *PRESIZE_VIRTUAL_DISK_PARAMETERS;

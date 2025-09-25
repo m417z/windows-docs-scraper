@@ -1,0 +1,4 @@
+typedef struct _SP_CLASSINSTALL_HEADER {
+  DWORD       cbSize;
+  DI_FUNCTION InstallFunction;
+} SP_CLASSINSTALL_HEADER, *PSP_CLASSINSTALL_HEADER;

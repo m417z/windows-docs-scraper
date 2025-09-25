@@ -1,0 +1,3 @@
+ULONG RTM_SIZE_OF_DEST_INFO(
+     NumViews
+);

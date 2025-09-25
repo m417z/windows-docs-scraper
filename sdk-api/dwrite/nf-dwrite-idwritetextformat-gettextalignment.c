@@ -1,0 +1,1 @@
+DWRITE_TEXT_ALIGNMENT GetTextAlignment();

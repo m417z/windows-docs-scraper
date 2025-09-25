@@ -1,0 +1,58 @@
+{
+  "UID": "NF:rpcndr.RpcSmSetClientAllocFree",
+  "title": "RpcSmSetClientAllocFree function (rpcndr.h)",
+  "description": "The RpcSmSetClientAllocFree function enables the memory allocation and release mechanisms used by the client stubs.",
+  "helpviewer_keywords": [
+    "RpcSmSetClientAllocFree",
+    "RpcSmSetClientAllocFree function [RPC]",
+    "_rpc_rpcsmsetclientallocfree",
+    "rpc.rpcsmsetclientallocfree",
+    "rpcndr/RpcSmSetClientAllocFree"
+  ],
+  "old-location": "rpc\\rpcsmsetclientallocfree.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "f6b6db72-c9af-44d1-9f84-26aaaa17691c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RpcSmSetClientAllocFree, RpcSmSetClientAllocFree function [RPC], _rpc_rpcsmsetclientallocfree, rpc.rpcsmsetclientallocfree, rpcndr/RpcSmSetClientAllocFree",
+  "req.header": "rpcndr.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcrt4.lib",
+  "req.dll": "Rpcrt4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RpcSmSetClientAllocFree",
+    "rpcndr/RpcSmSetClientAllocFree"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcrt4.dll"
+  ],
+  "api_name": [
+    "RpcSmSetClientAllocFree"
+  ]
+}

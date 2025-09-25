@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_ENUMHANDLECHILDREN",
+  "title": "DXGKCB_ENUMHANDLECHILDREN (d3dkmddi.h)",
+  "description": "The DxgkCbEnumHandleChildren function enumerates all of the allocations that are associated with a given resource, one allocation at a time.",
+  "old-location": "display\\dxgkcbenumhandlechildren.htm",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKCB_ENUMHANDLECHILDREN callback function"
+  ],
+  "ms.keywords": "DXGKCB_ENUMHANDLECHILDREN, DXGKCB_ENUMHANDLECHILDREN callback, DpFunctions_9690e256-00e7-4c6e-88cc-d2e1c32580a2.xml, DxgkCbEnumHandleChildren, DxgkCbEnumHandleChildren callback function [Display Devices], d3dkmddi/DxgkCbEnumHandleChildren, display.dxgkcbenumhandlechildren",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista (WDDM 1.0)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_ENUMHANDLECHILDREN",
+    "d3dkmddi/DXGKCB_ENUMHANDLECHILDREN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_ENUMHANDLECHILDREN"
+  ]
+}

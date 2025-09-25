@@ -1,0 +1,1 @@
+PCONFIGURATION_INFORMATION IoGetConfigurationInformation();

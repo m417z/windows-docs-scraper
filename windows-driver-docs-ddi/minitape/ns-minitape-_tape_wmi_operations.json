@@ -1,0 +1,54 @@
+{
+  "UID": "NS:minitape._TAPE_WMI_OPERATIONS",
+  "title": "_TAPE_WMI_OPERATIONS (minitape.h)",
+  "description": "The _TAPE_WMI_OPERATIONS structure (minitape.h) contains information that indicates which WMI operation must be performed by the device.",
+  "old-location": "storage\\tape_wmi_operations.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "TAPE_WMI_OPERATIONS structure"
+  ],
+  "ms.keywords": "*PTAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], TAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS structure [Storage Devices], _TAPE_WMI_OPERATIONS, ntddtape/PTAPE_WMI_OPERATIONS, ntddtape/TAPE_WMI_OPERATIONS, storage.tape_wmi_operations, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml",
+  "req.header": "minitape.h",
+  "req.include-header": "Ntddchgr.h, Minitape.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS",
+  "f1_keywords": [
+    "_TAPE_WMI_OPERATIONS",
+    "minitape/_TAPE_WMI_OPERATIONS",
+    "PTAPE_WMI_OPERATIONS",
+    "minitape/PTAPE_WMI_OPERATIONS",
+    "TAPE_WMI_OPERATIONS",
+    "minitape/TAPE_WMI_OPERATIONS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddtape.h"
+  ],
+  "api_name": [
+    "_TAPE_WMI_OPERATIONS",
+    "PTAPE_WMI_OPERATIONS",
+    "TAPE_WMI_OPERATIONS"
+  ]
+}

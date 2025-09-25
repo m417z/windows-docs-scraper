@@ -1,0 +1,3 @@
+HRESULT SetClipboard(
+  BOOL bMove
+);

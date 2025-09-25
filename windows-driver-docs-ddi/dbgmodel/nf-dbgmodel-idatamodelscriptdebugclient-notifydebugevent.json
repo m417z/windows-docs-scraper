@@ -1,0 +1,46 @@
+{
+  "UID": "NF:dbgmodel.IDataModelScriptDebugClient.NotifyDebugEvent",
+  "title": "IDataModelScriptDebugClient::NotifyDebugEvent (dbgmodel.h)",
+  "description": "Whenever any event occurs which breaks into the script debugger, the debug code itself makes a call to the interface via the NotifyDebugEvent method.",
+  "ms.date": "09/10/2018",
+  "keywords": [
+    "IDataModelScriptDebugClient::NotifyDebugEvent"
+  ],
+  "ms.keywords": "IDataModelScriptDebugClient::NotifyDebugEvent, NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent, IDataModelScriptDebugClient::NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent",
+  "req.header": "dbgmodel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "tech.root": "debugger",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "IDataModelScriptDebugClient::NotifyDebugEvent",
+    "dbgmodel/IDataModelScriptDebugClient::NotifyDebugEvent"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgmodel.h"
+  ],
+  "api_name": [
+    "IDataModelScriptDebugClient::NotifyDebugEvent"
+  ]
+}

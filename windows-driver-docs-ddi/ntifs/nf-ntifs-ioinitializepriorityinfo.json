@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.IoInitializePriorityInfo",
+  "title": "IoInitializePriorityInfo function (ntifs.h)",
+  "description": "The IoInitializePriorityInfo routine initializes a structure of type IO_PRIORITY_INFO.",
+  "old-location": "ifsk\\ioinitializepriorityinfo.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "IoInitializePriorityInfo function"
+  ],
+  "ms.keywords": "IoInitializePriorityInfo, IoInitializePriorityInfo routine [Installable File System Drivers], ifsk.ioinitializepriorityinfo, ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml, ntifs/IoInitializePriorityInfo",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "This routine is available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoInitializePriorityInfo",
+    "ntifs/IoInitializePriorityInfo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "IoInitializePriorityInfo"
+  ]
+}

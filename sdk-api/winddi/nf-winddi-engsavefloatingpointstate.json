@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngSaveFloatingPointState",
+  "title": "EngSaveFloatingPointState function (winddi.h)",
+  "description": "The EngSaveFloatingPointState function saves the current Windows 2000 (and later) kernel floating-point state.",
+  "helpviewer_keywords": [
+    "EngSaveFloatingPointState",
+    "EngSaveFloatingPointState function [Display Devices]",
+    "display.engsavefloatingpointstate",
+    "gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml",
+    "winddi/EngSaveFloatingPointState"
+  ],
+  "old-location": "display\\engsavefloatingpointstate.htm",
+  "tech.root": "display",
+  "ms.assetid": "25e9ae3b-a3a5-438c-84e0-53f2be7ba29c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngSaveFloatingPointState, EngSaveFloatingPointState function [Display Devices], display.engsavefloatingpointstate, gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml, winddi/EngSaveFloatingPointState",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngSaveFloatingPointState",
+    "winddi/EngSaveFloatingPointState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-float-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngSaveFloatingPointState"
+  ]
+}

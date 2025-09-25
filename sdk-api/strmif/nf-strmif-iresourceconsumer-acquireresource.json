@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IResourceConsumer.AcquireResource",
+  "title": "IResourceConsumer::AcquireResource (strmif.h)",
+  "description": "The AcquireResource method notifies the resource consumer that a resource might be acquired.",
+  "helpviewer_keywords": [
+    "AcquireResource",
+    "AcquireResource method [DirectShow]",
+    "AcquireResource method [DirectShow]",
+    "IResourceConsumer interface",
+    "IResourceConsumer interface [DirectShow]",
+    "AcquireResource method",
+    "IResourceConsumer.AcquireResource",
+    "IResourceConsumer::AcquireResource",
+    "IResourceConsumerAcquireResource",
+    "dshow.iresourceconsumer_acquireresource",
+    "strmif/IResourceConsumer::AcquireResource"
+  ],
+  "old-location": "dshow\\iresourceconsumer_acquireresource.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "e88d90af-681e-483b-9b29-9844eec75e41",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "AcquireResource, AcquireResource method [DirectShow], AcquireResource method [DirectShow],IResourceConsumer interface, IResourceConsumer interface [DirectShow],AcquireResource method, IResourceConsumer.AcquireResource, IResourceConsumer::AcquireResource, IResourceConsumerAcquireResource, dshow.iresourceconsumer_acquireresource, strmif/IResourceConsumer::AcquireResource",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IResourceConsumer::AcquireResource",
+    "strmif/IResourceConsumer::AcquireResource"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IResourceConsumer.AcquireResource"
+  ]
+}

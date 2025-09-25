@@ -1,0 +1,5 @@
+typedef struct _NET_PHYSICAL_LOCATION_LH {
+  ULONG BusNumber;
+  ULONG SlotNumber;
+  ULONG FunctionNumber;
+} NET_PHYSICAL_LOCATION_LH, *PNET_PHYSICAL_LOCATION_LH;

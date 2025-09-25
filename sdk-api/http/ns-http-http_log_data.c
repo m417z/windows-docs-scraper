@@ -1,0 +1,3 @@
+typedef struct _HTTP_LOG_DATA {
+  HTTP_LOG_DATA_TYPE Type;
+} HTTP_LOG_DATA, *PHTTP_LOG_DATA;

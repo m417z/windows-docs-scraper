@@ -1,0 +1,3 @@
+BOOL IsMediaBehaviorEnabled(
+  GUID mediaBehavior
+);

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:taskschd.ITaskService.Connect",
+  "title": "ITaskService::Connect (taskschd.h)",
+  "description": "Connects to a remote computer and associates all subsequent calls on this interface with a remote session.",
+  "helpviewer_keywords": [
+    "Connect",
+    "Connect method [Task Scheduler]",
+    "Connect method [Task Scheduler]",
+    "ITaskService interface",
+    "ITaskService interface [Task Scheduler]",
+    "Connect method",
+    "ITaskService.Connect",
+    "ITaskService::Connect",
+    "taskschd.itaskservice_connect",
+    "taskschd/ITaskService::Connect"
+  ],
+  "old-location": "taskschd\\itaskservice_connect.htm",
+  "tech.root": "taskschd",
+  "ms.assetid": "ba810bac-e587-4eb8-871c-449b4174ab46",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "Connect, Connect method [Task Scheduler], Connect method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connect method, ITaskService.Connect, ITaskService::Connect, taskschd.itaskservice_connect, taskschd/ITaskService::Connect",
+  "req.header": "taskschd.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Taskschd.lib",
+  "req.dll": "Taskschd.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITaskService::Connect",
+    "taskschd/ITaskService::Connect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "taskschd.dll"
+  ],
+  "api_name": [
+    "ITaskService.Connect"
+  ]
+}

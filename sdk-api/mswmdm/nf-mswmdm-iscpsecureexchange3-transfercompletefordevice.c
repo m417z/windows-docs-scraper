@@ -1,0 +1,3 @@
+HRESULT TransferCompleteForDevice(
+  IMDSPDevice *pDevice
+);

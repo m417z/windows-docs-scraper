@@ -1,0 +1,65 @@
+{
+  "UID": "NF:combaseapi.CLSIDFromProgID",
+  "title": "CLSIDFromProgID function (combaseapi.h)",
+  "description": "Looks up a CLSID in the registry, given a ProgID.",
+  "helpviewer_keywords": [
+    "CLSIDFromProgID",
+    "CLSIDFromProgID function [COM]",
+    "_com_CLSIDFromProgID",
+    "com.clsidfromprogid",
+    "combaseapi/CLSIDFromProgID"
+  ],
+  "old-location": "com\\clsidfromprogid.htm",
+  "tech.root": "com",
+  "ms.assetid": "89fb20af-65bf-4ed4-9f71-eb707ee8eb09",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProgID, com.clsidfromprogid, combaseapi/CLSIDFromProgID",
+  "req.header": "combaseapi.h",
+  "req.include-header": "Objbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CLSIDFromProgID",
+    "combaseapi/CLSIDFromProgID"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-com-l1-1-3.dll",
+    "api-ms-win-core-com-l1-1-2.dll",
+    "Ole32.dll",
+    "API-MS-Win-Core-Com-l1-1-0.dll",
+    "ComBase.dll",
+    "API-MS-Win-Core-Com-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Ole32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-Ole32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CLSIDFromProgID"
+  ]
+}

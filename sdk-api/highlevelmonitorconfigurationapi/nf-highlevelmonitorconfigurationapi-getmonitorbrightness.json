@@ -1,0 +1,57 @@
+{
+  "UID": "NF:highlevelmonitorconfigurationapi.GetMonitorBrightness",
+  "title": "GetMonitorBrightness function (highlevelmonitorconfigurationapi.h)",
+  "description": "Retrieves a monitor's minimum, maximum, and current brightness settings.",
+  "helpviewer_keywords": [
+    "GetMonitorBrightness",
+    "GetMonitorBrightness function [Monitor Configuration]",
+    "highlevelmonitorconfigurationapi/GetMonitorBrightness",
+    "monitor.getmonitorbrightness"
+  ],
+  "old-location": "monitor\\getmonitorbrightness.htm",
+  "tech.root": "Monitor",
+  "ms.assetid": "eafdec51-067c-4b57-ac07-ca6237bcde14",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMonitorBrightness, GetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorBrightness, monitor.getmonitorbrightness",
+  "req.header": "highlevelmonitorconfigurationapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dxva2.lib",
+  "req.dll": "Dxva2.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetMonitorBrightness",
+    "highlevelmonitorconfigurationapi/GetMonitorBrightness"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dxva2.dll"
+  ],
+  "api_name": [
+    "GetMonitorBrightness"
+  ]
+}

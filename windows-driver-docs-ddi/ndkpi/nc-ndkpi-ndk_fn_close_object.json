@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndkpi.NDK_FN_CLOSE_OBJECT",
+  "title": "NDK_FN_CLOSE_OBJECT (ndkpi.h)",
+  "description": "The NdkCloseObject (NDK_FN_CLOSE_OBJECT) function initiates a close request for an NDK object.",
+  "old-location": "netvista\\ndk_fn_close_object.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDK_FN_CLOSE_OBJECT callback function"
+  ],
+  "ms.keywords": "NDK_FN_CLOSE_OBJECT, NDK_FN_CLOSE_OBJECT callback, NdkCloseObject, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseObject, netvista.ndk_fn_close_object",
+  "req.header": "ndkpi.h",
+  "req.include-header": "Ndkpi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported,Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDK_FN_CLOSE_OBJECT",
+    "ndkpi/NDK_FN_CLOSE_OBJECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "NDK_FN_CLOSE_OBJECT"
+  ]
+}

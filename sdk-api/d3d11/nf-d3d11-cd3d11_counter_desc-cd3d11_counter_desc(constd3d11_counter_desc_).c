@@ -1,0 +1,3 @@
+void CD3D11_COUNTER_DESC(
+  [ref] const D3D11_COUNTER_DESC & o
+);

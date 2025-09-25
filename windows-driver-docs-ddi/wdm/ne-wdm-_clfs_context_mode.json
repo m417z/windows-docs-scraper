@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdm._CLFS_CONTEXT_MODE",
+  "title": "_CLFS_CONTEXT_MODE (wdm.h)",
+  "description": "The CLFS_CONTEXT_MODE enumeration indicates the type of sequence that the Common Log File System (CLFS) driver follows when it reads a set of records from a stream.",
+  "old-location": "kernel\\clfs_context_mode.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "CLFS_CONTEXT_MODE enumeration"
+  ],
+  "ms.keywords": "*PCLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE enumeration [Kernel-Mode Driver Architecture], ClfsContextForward, ClfsContextNone, ClfsContextPrevious, ClfsContextUndoNext, PCLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], PPCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], _CLFS_CONTEXT_MODE, kernel.clfs_context_mode, sysenum_b51a934c-9174-4607-8da9-22c7ecf56730.xml, wdm/CLFS_CONTEXT_MODE, wdm/ClfsContextForward, wdm/ClfsContextNone, wdm/ClfsContextPrevious, wdm/ClfsContextUndoNext, wdm/PCLFS_CONTEXT_MODE, wdm/PPCLFS_CONTEXT_MODE",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CLFS_CONTEXT_MODE, *PCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE",
+  "f1_keywords": [
+    "_CLFS_CONTEXT_MODE",
+    "wdm/_CLFS_CONTEXT_MODE",
+    "PCLFS_CONTEXT_MODE",
+    "wdm/PCLFS_CONTEXT_MODE",
+    "CLFS_CONTEXT_MODE",
+    "wdm/CLFS_CONTEXT_MODE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_CLFS_CONTEXT_MODE",
+    "PCLFS_CONTEXT_MODE",
+    "CLFS_CONTEXT_MODE"
+  ]
+}

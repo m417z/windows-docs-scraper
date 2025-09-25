@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winnt.MAKESORTLCID",
+  "title": "MAKESORTLCID macro (winnt.h)",
+  "description": "Constructs a locale identifier (LCID) from a language identifier, a sort order identifier, and the sort version.",
+  "helpviewer_keywords": [
+    "MAKESORTLCID",
+    "MAKESORTLCID macro [Internationalization for Windows Applications]",
+    "_win32_MAKESORTLCID",
+    "intl.makesortlcid",
+    "winnt/MAKESORTLCID"
+  ],
+  "old-location": "intl\\makesortlcid.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "58327bfc-8a00-4fdc-bd5a-cef9c0b29faa",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MAKESORTLCID, MAKESORTLCID macro [Internationalization for Windows Applications], _win32_MAKESORTLCID, intl.makesortlcid, winnt/MAKESORTLCID",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MAKESORTLCID",
+    "winnt/MAKESORTLCID"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winnt.h"
+  ],
+  "api_name": [
+    "MAKESORTLCID"
+  ]
+}

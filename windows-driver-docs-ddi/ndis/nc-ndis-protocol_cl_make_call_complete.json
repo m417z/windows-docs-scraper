@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.PROTOCOL_CL_MAKE_CALL_COMPLETE",
+  "title": "PROTOCOL_CL_MAKE_CALL_COMPLETE (ndis.h)",
+  "description": "The ProtocolClMakeCallComplete function is used by connection-oriented NDIS clients that make outgoing calls.",
+  "old-location": "netvista\\protocolclmakecallcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PROTOCOL_CL_MAKE_CALL_COMPLETE callback function"
+  ],
+  "ms.keywords": "PROTOCOL_CL_MAKE_CALL_COMPLETE, PROTOCOL_CL_MAKE_CALL_COMPLETE callback, ProtocolClMakeCallComplete, ProtocolClMakeCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_1c839b17-947a-44cb-85d1-d6246b82a827.xml, ndis/ProtocolClMakeCallComplete, netvista.protocolclmakecallcomplete",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see    ProtocolClMakeCallComplete   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    ProtocolClMakeCallComplete   (NDIS 5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PROTOCOL_CL_MAKE_CALL_COMPLETE",
+    "ndis/PROTOCOL_CL_MAKE_CALL_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "PROTOCOL_CL_MAKE_CALL_COMPLETE"
+  ]
+}

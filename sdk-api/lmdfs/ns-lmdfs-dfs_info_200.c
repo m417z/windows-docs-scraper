@@ -1,0 +1,3 @@
+typedef struct _DFS_INFO_200 {
+  LPWSTR FtDfsName;
+} DFS_INFO_200, *PDFS_INFO_200, *LPDFS_INFO_200;

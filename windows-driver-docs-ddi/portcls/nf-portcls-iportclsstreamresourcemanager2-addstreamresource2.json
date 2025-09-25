@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.IPortClsStreamResourceManager2.AddStreamResource2",
+  "title": "IPortClsStreamResourceManager2::AddStreamResource2 (portcls.h)",
+  "description": "AddStreamResource2 adds a stream resource. Two type of stream resources are supported:\\_interrupts and driver-owned threads. The AddStreamResource2 method can only be used by audio waveRT miniport drivers.",
+  "old-location": "audio\\iportclsstreamresourcemanager2_addstreamresource2.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortClsStreamResourceManager2::AddStreamResource2"
+  ],
+  "ms.keywords": "AddStreamResource2, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices],IPortClsStreamResourceManager2 interface, IPortClsStreamResourceManager2 interface [Audio Devices],AddStreamResource2 method, IPortClsStreamResourceManager2.AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 10, version 1511 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortClsStreamResourceManager2::AddStreamResource2",
+    "portcls/IPortClsStreamResourceManager2::AddStreamResource2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "IPortClsStreamResourceManager2::AddStreamResource2"
+  ]
+}

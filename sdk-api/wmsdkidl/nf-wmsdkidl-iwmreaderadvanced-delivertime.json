@@ -1,0 +1,75 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAdvanced.DeliverTime",
+  "title": "IWMReaderAdvanced::DeliverTime (wmsdkidl.h)",
+  "description": "The DeliverTime method provides the reader with a clock time. Use this method only when the application is providing the clock.",
+  "helpviewer_keywords": [
+    "DeliverTime",
+    "DeliverTime method [windows Media Format]",
+    "DeliverTime method [windows Media Format]",
+    "IWMReaderAdvanced interface",
+    "DeliverTime method [windows Media Format]",
+    "IWMReaderAdvanced2 interface",
+    "IWMReaderAdvanced interface [windows Media Format]",
+    "DeliverTime method",
+    "IWMReaderAdvanced.DeliverTime",
+    "IWMReaderAdvanced2 interface [windows Media Format]",
+    "DeliverTime method",
+    "IWMReaderAdvanced2::DeliverTime",
+    "IWMReaderAdvanced::DeliverTime",
+    "IWMReaderAdvancedDeliverTime",
+    "wmformat.iwmreaderadvanced_delivertime",
+    "wmsdkidl/IWMReaderAdvanced2::DeliverTime",
+    "wmsdkidl/IWMReaderAdvanced::DeliverTime"
+  ],
+  "old-location": "wmformat\\iwmreaderadvanced_delivertime.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "5e47ef96-9971-47b0-a003-b38f4045da7a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "DeliverTime, DeliverTime method [windows Media Format], DeliverTime method [windows Media Format],IWMReaderAdvanced interface, DeliverTime method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced interface [windows Media Format],DeliverTime method, IWMReaderAdvanced.DeliverTime, IWMReaderAdvanced2 interface [windows Media Format],DeliverTime method, IWMReaderAdvanced2::DeliverTime, IWMReaderAdvanced::DeliverTime, IWMReaderAdvancedDeliverTime, wmformat.iwmreaderadvanced_delivertime, wmsdkidl/IWMReaderAdvanced2::DeliverTime, wmsdkidl/IWMReaderAdvanced::DeliverTime",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAdvanced::DeliverTime",
+    "wmsdkidl/IWMReaderAdvanced::DeliverTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll",
+    "qasf.dll"
+  ],
+  "api_name": [
+    "IWMReaderAdvanced.DeliverTime",
+    "IWMReaderAdvanced2.DeliverTime"
+  ]
+}

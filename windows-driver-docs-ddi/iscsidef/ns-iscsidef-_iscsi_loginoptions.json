@@ -1,0 +1,54 @@
+{
+  "UID": "NS:iscsidef._ISCSI_LoginOptions",
+  "title": "_ISCSI_LoginOptions (iscsidef.h)",
+  "description": "The ISCSI_LoginOptions structure defines the characteristics of a logon session. The LoginToTarget_IN routines use these defined characteristics while it logs into an iSCSI target.",
+  "old-location": "storage\\iscsi_loginoptions.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ISCSI_LoginOptions structure"
+  ],
+  "ms.keywords": "*PISCSI_LoginOptions, ISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], PISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], _ISCSI_LoginOptions, iscsidef/ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, storage.iscsi_loginoptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml",
+  "req.header": "iscsidef.h",
+  "req.include-header": "Iscsidef.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ISCSI_LoginOptions, *PISCSI_LoginOptions",
+  "f1_keywords": [
+    "_ISCSI_LoginOptions",
+    "iscsidef/_ISCSI_LoginOptions",
+    "PISCSI_LoginOptions",
+    "iscsidef/PISCSI_LoginOptions",
+    "ISCSI_LoginOptions",
+    "iscsidef/ISCSI_LoginOptions"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "iscsidef.h"
+  ],
+  "api_name": [
+    "_ISCSI_LoginOptions",
+    "PISCSI_LoginOptions",
+    "ISCSI_LoginOptions"
+  ]
+}

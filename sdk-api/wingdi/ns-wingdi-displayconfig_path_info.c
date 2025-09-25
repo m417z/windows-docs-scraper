@@ -1,0 +1,5 @@
+typedef struct DISPLAYCONFIG_PATH_INFO {
+  DISPLAYCONFIG_PATH_SOURCE_INFO sourceInfo;
+  DISPLAYCONFIG_PATH_TARGET_INFO targetInfo;
+  UINT32                         flags;
+} DISPLAYCONFIG_PATH_INFO;

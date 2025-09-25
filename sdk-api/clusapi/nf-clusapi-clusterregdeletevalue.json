@@ -1,0 +1,64 @@
+{
+  "UID": "NF:clusapi.ClusterRegDeleteValue",
+  "title": "ClusterRegDeleteValue function (clusapi.h)",
+  "description": "Removes a named value from a cluster database key.",
+  "helpviewer_keywords": [
+    "ClusterRegDeleteValue",
+    "ClusterRegDeleteValue function [Failover Cluster]",
+    "_wolf_clusterregdeletevalue",
+    "clusapi/ClusterRegDeleteValue",
+    "mscs.clusterregdeletevalue"
+  ],
+  "old-location": "mscs\\clusterregdeletevalue.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "81d2936e-6f2c-48d9-b898-c1d8b2c946e6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterRegDeleteValue, ClusterRegDeleteValue function [Failover Cluster], _wolf_clusterregdeletevalue, clusapi/ClusterRegDeleteValue, mscs.clusterregdeletevalue",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterRegDeleteValue",
+    "clusapi/ClusterRegDeleteValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll"
+  ],
+  "api_name": [
+    "ClusterRegDeleteValue"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum _ACX_DATAFORMAT_LIST_ITERATOR_CONFIG_FLAGS {
+  AcxDataFormatListIteratorConfigNoFlags,
+  AcxDataFormatListIteratorConfigValidFlags
+} ACX_DATAFORMAT_LIST_ITERATOR_CONFIG_FLAGS;

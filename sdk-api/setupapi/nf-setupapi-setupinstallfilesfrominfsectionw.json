@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupInstallFilesFromInfSectionW",
+  "title": "SetupInstallFilesFromInfSectionW function (setupapi.h)",
+  "description": "The SetupInstallFilesFromInfSection function queues all the files for an installation that are specified in the Copy Files, Delete Files, and Rename Files sections that are listed by an Install section. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupInstallFilesFromInfSection",
+    "SetupInstallFilesFromInfSection function [Setup API]",
+    "SetupInstallFilesFromInfSectionW",
+    "_setupapi_setupinstallfilesfrominfsection",
+    "setup.setupinstallfilesfrominfsection",
+    "setupapi/SetupInstallFilesFromInfSection",
+    "setupapi/SetupInstallFilesFromInfSectionW"
+  ],
+  "old-location": "setup\\setupinstallfilesfrominfsection.htm",
+  "tech.root": "setup",
+  "ms.assetid": "9834a3b0-f8f5-4e4d-92b2-d3c5a4939a41",
+  "ms.date": "12/20/2024",
+  "ms.keywords": "SetupInstallFilesFromInfSection, SetupInstallFilesFromInfSection function [Setup API], SetupInstallFilesFromInfSectionA, SetupInstallFilesFromInfSectionW, _setupapi_setupinstallfilesfrominfsection, setup.setupinstallfilesfrominfsection, setupapi/SetupInstallFilesFromInfSection, setupapi/SetupInstallFilesFromInfSectionA, setupapi/SetupInstallFilesFromInfSectionW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupInstallFilesFromInfSectionW (Unicode) and SetupInstallFilesFromInfSectionA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupInstallFilesFromInfSectionW",
+    "setupapi/SetupInstallFilesFromInfSectionW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupInstallFilesFromInfSection",
+    "SetupInstallFilesFromInfSectionA",
+    "SetupInstallFilesFromInfSectionW"
+  ]
+}

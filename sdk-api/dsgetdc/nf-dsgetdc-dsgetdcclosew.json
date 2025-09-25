@@ -1,0 +1,60 @@
+{
+  "UID": "NF:dsgetdc.DsGetDcCloseW",
+  "title": "DsGetDcCloseW function (dsgetdc.h)",
+  "description": "Closes a domain controller enumeration operation.",
+  "helpviewer_keywords": [
+    "DsGetDcClose",
+    "DsGetDcClose function [Active Directory]",
+    "DsGetDcCloseW",
+    "ad.dsgetdcclose",
+    "dsgetdc/DsGetDcClose",
+    "dsgetdc/DsGetDcCloseW"
+  ],
+  "old-location": "ad\\dsgetdcclose.htm",
+  "tech.root": "ad",
+  "ms.assetid": "d193e4cd-ad66-4d93-b912-348f17e93a6f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DsGetDcClose, DsGetDcClose function [Active Directory], DsGetDcCloseW, ad.dsgetdcclose, dsgetdc/DsGetDcClose, dsgetdc/DsGetDcCloseW",
+  "req.header": "dsgetdc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsGetDcCloseW (Unicode)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsGetDcCloseW",
+    "dsgetdc/DsGetDcCloseW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "DsGetDcClose",
+    "DsGetDcCloseW"
+  ]
+}

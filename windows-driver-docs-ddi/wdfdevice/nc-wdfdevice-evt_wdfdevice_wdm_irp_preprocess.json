@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDFDEVICE_WDM_IRP_PREPROCESS",
+  "title": "EVT_WDFDEVICE_WDM_IRP_PREPROCESS (wdfdevice.h)",
+  "description": "A driver's EvtDeviceWdmIrpPreprocess event callback function receives an IRP before the framework processes the IRP.",
+  "old-location": "wdf\\evtdevicewdmirppreprocess.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_7329adf6-5814-40cb-ac9b-a7fb67b5f05c.xml, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback, EvtDeviceWdmIrpPreprocess, EvtDeviceWdmIrpPreprocess callback function, kmdf.evtdevicewdmirppreprocess, wdf.evtdevicewdmirppreprocess, wdfdevice/EvtDeviceWdmIrpPreprocess",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDFDEVICE_WDM_IRP_PREPROCESS",
+    "wdfdevice/EVT_WDFDEVICE_WDM_IRP_PREPROCESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDFDEVICE_WDM_IRP_PREPROCESS"
+  ]
+}

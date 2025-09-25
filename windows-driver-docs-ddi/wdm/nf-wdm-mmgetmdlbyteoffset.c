@@ -1,0 +1,3 @@
+void MmGetMdlByteOffset(
+  [in] Mdl
+);

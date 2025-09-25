@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.RtlAnsiStringToUnicodeSize",
+  "title": "RtlAnsiStringToUnicodeSize macro (wdm.h)",
+  "description": "The RtlAnsiStringToUnicodeSize routine returns the number of bytes required to hold an ANSI string converted into a Unicode string.",
+  "old-location": "kernel\\rtlansistringtounicodesize.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlAnsiStringToUnicodeSize macro"
+  ],
+  "ms.keywords": "RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, kernel.rtlansistringtounicodesize, wdm/RtlAnsiStringToUnicodeSize",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlAnsiStringToUnicodeSize",
+    "wdm/RtlAnsiStringToUnicodeSize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlAnsiStringToUnicodeSize"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdriver.EVT_WDF_DRIVER_DEVICE_ADD",
+  "title": "EVT_WDF_DRIVER_DEVICE_ADD (wdfdriver.h)",
+  "description": "A driver's EvtDriverDeviceAdd event callback function performs device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.",
+  "old-location": "wdf\\evtdriverdeviceadd.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DRIVER_DEVICE_ADD callback function"
+  ],
+  "ms.keywords": "DFDriverObjectRef_9b5ff898-9b1b-4eb6-87f7-42bee5deab18.xml, EVT_WDF_DRIVER_DEVICE_ADD, EVT_WDF_DRIVER_DEVICE_ADD callback, EvtDriverDeviceAdd, EvtDriverDeviceAdd callback function, kmdf.evtdriverdeviceadd, wdf.evtdriverdeviceadd, wdfdriver/EvtDriverDeviceAdd",
+  "req.header": "wdfdriver.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DRIVER_DEVICE_ADD",
+    "wdfdriver/EVT_WDF_DRIVER_DEVICE_ADD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdriver.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DRIVER_DEVICE_ADD"
+  ]
+}

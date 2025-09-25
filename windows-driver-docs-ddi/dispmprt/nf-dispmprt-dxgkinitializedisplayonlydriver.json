@@ -1,0 +1,49 @@
+{
+  "UID": "NF:dispmprt.DxgkInitializeDisplayOnlyDriver",
+  "title": "DxgkInitializeDisplayOnlyDriver function (dispmprt.h)",
+  "description": "Loads and initializes the DirectX graphics kernel subsystem (Dxgkrnl.sys) for use by a kernel mode display-only driver (KMDOD).",
+  "old-location": "display\\dxgkinitializedisplayonlydriver.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DxgkInitializeDisplayOnlyDriver function"
+  ],
+  "ms.keywords": "DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Displib.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DxgkInitializeDisplayOnlyDriver",
+    "dispmprt/DxgkInitializeDisplayOnlyDriver"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Displib.lib",
+    "Displib.dll"
+  ],
+  "api_name": [
+    "DxgkInitializeDisplayOnlyDriver"
+  ]
+}

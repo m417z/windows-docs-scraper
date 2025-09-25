@@ -1,0 +1,8 @@
+VOID UCX_ROOTHUB_CONFIG_INIT_WITH_CONTROL_URB_HANDLER(
+  [out] PUCX_ROOTHUB_CONFIG             Config,
+  [in]  PFN_UCX_ROOTHUB_CONTROL_URB     EvtRootHubControlUrb,
+  [in]  PFN_UCX_ROOTHUB_INTERRUPT_TX    EvtRootHubInterruptTx,
+  [in]  PFN_UCX_ROOTHUB_GET_INFO        EvtRootHubGetInfo,
+  [in]  PFN_UCX_ROOTHUB_GET_20PORT_INFO EvtRootHubGet20PortInfo,
+  [in]  PFN_UCX_ROOTHUB_GET_30PORT_INFO EvtRootHubGet30PortInfo
+);

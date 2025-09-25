@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winwlx.WlxIsLockOk",
+  "title": "WlxIsLockOk function (winwlx.h)",
+  "description": "Winlogon calls this function before attempting to lock the workstation.",
+  "helpviewer_keywords": [
+    "WlxIsLockOk",
+    "WlxIsLockOk function [Security]",
+    "_gina_wlxislockok",
+    "security.wlxislockok",
+    "winwlx/WlxIsLockOk"
+  ],
+  "old-location": "security\\wlxislockok.htm",
+  "tech.root": "security",
+  "ms.assetid": "764d7fc9-57d8-472a-9b91-ebfbe3628452",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WlxIsLockOk, WlxIsLockOk function [Security], _gina_wlxislockok, security.wlxislockok, winwlx/WlxIsLockOk",
+  "req.header": "winwlx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WlxIsLockOk",
+    "winwlx/WlxIsLockOk"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winwlx.h"
+  ],
+  "api_name": [
+    "WlxIsLockOk"
+  ]
+}

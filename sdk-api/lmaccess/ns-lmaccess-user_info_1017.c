@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1017 {
+  DWORD usri1017_acct_expires;
+} USER_INFO_1017, *PUSER_INFO_1017, *LPUSER_INFO_1017;

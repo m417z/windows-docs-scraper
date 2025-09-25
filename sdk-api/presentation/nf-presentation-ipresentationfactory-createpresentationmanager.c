@@ -1,0 +1,3 @@
+HRESULT CreatePresentationManager(
+  IPresentationManager **ppPresentationManager
+);

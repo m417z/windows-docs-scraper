@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSCORRELATEDTIME",
+  "title": "PFNKSCORRELATEDTIME (ks.h)",
+  "description": "A streaming minidriver's KStrCorrelatedTime routine is called to retrieve both the presentation time and physical time in a correlated manner. This allows the clock owner to completely determine the current time.",
+  "old-location": "stream\\kstrcorrelatedtime.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSCORRELATEDTIME callback function"
+  ],
+  "ms.keywords": "KStrCorrelatedTime, KStrCorrelatedTime routine [Streaming Media Devices], PFNKSCORRELATEDTIME, ks/KStrCorrelatedTime, ksfunc_06af0f33-8ffd-4f9e-83ad-9f37f3b18f5d.xml, stream.kstrcorrelatedtime",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSCORRELATEDTIME",
+    "ks/PFNKSCORRELATEDTIME"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSCORRELATEDTIME"
+  ]
+}

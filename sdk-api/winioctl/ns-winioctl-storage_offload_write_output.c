@@ -1,0 +1,5 @@
+typedef struct _STORAGE_OFFLOAD_WRITE_OUTPUT {
+  DWORD     OffloadWriteFlags;
+  DWORD     Reserved;
+  DWORDLONG LengthCopied;
+} STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT;

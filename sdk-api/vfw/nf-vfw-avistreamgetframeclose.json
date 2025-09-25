@@ -1,0 +1,59 @@
+{
+  "UID": "NF:vfw.AVIStreamGetFrameClose",
+  "title": "AVIStreamGetFrameClose function (vfw.h)",
+  "description": "The AVIStreamGetFrameClose function releases resources used to decompress video frames.",
+  "helpviewer_keywords": [
+    "AVIStreamGetFrameClose",
+    "AVIStreamGetFrameClose function [Windows Multimedia]",
+    "_win32_AVIStreamGetFrameClose",
+    "multimedia.avistreamgetframeclose",
+    "vfw/AVIStreamGetFrameClose"
+  ],
+  "old-location": "multimedia\\avistreamgetframeclose.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "cd1fa615-ab09-4d58-9d6d-a1843c0f1d7a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AVIStreamGetFrameClose, AVIStreamGetFrameClose function [Windows Multimedia], _win32_AVIStreamGetFrameClose, multimedia.avistreamgetframeclose, vfw/AVIStreamGetFrameClose",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVIStreamGetFrameClose",
+    "vfw/AVIStreamGetFrameClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll",
+    "Ext-MS-Win-Media-Avi-L1-1-0.dll"
+  ],
+  "api_name": [
+    "AVIStreamGetFrameClose"
+  ]
+}

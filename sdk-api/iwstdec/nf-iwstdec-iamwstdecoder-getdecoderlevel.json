@@ -1,0 +1,65 @@
+{
+  "UID": "NF:iwstdec.IAMWstDecoder.GetDecoderLevel",
+  "title": "IAMWstDecoder::GetDecoderLevel (iwstdec.h)",
+  "description": "Applications use the GetDecoderLevel method to retrieve the WST decoder level. This method is not implemented and always returns AM_WST_LEVEL_1_5.",
+  "helpviewer_keywords": [
+    "GetDecoderLevel",
+    "GetDecoderLevel method [DirectShow]",
+    "GetDecoderLevel method [DirectShow]",
+    "IAMWstDecoder interface",
+    "IAMWstDecoder interface [DirectShow]",
+    "GetDecoderLevel method",
+    "IAMWstDecoder.GetDecoderLevel",
+    "IAMWstDecoder::GetDecoderLevel",
+    "IAMWstDecoderGetDecoderLevel",
+    "dshow.iamwstdecoder_getdecoderlevel",
+    "iwstdec/IAMWstDecoder::GetDecoderLevel"
+  ],
+  "old-location": "dshow\\iamwstdecoder_getdecoderlevel.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "629ee71d-7d79-4fa9-b169-3b5328659435",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDecoderLevel method, IAMWstDecoder.GetDecoderLevel, IAMWstDecoder::GetDecoderLevel, IAMWstDecoderGetDecoderLevel, dshow.iamwstdecoder_getdecoderlevel, iwstdec/IAMWstDecoder::GetDecoderLevel",
+  "req.header": "iwstdec.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMWstDecoder::GetDecoderLevel",
+    "iwstdec/IAMWstDecoder::GetDecoderLevel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMWstDecoder.GetDecoderLevel"
+  ]
+}

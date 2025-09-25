@@ -1,0 +1,3 @@
+void SetDouble(
+  double Data
+);

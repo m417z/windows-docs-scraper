@@ -1,0 +1,64 @@
+{
+  "UID": "NF:dcomp.DCompositionCreateSurfaceHandle",
+  "title": "DCompositionCreateSurfaceHandle function (dcomp.h)",
+  "description": "Creates a new composition surface object that can be bound to a Microsoft DirectX swap chain or swap buffer and associated with a visual.",
+  "helpviewer_keywords": [
+    "COMPOSITIONSURFACE_ALL_ACCESS",
+    "COMPOSITIONOBJECT_ALL_ACCESS",
+    "COMPOSITIONSURFACE_READ",
+    "COMPOSITIONOBJECT_READ",
+    "COMPOSITIONSURFACE_WRITE",
+    "COMPOSITIONOBJECT_WRITE",
+    "DCompositionCreateSurfaceHandle",
+    "DCompositionCreateSurfaceHandle function [DirectComposition]",
+    "dcomp/DCompositionCreateSurfaceHandle",
+    "directcomp.dcompositioncreatesurfacehandle"
+  ],
+  "old-location": "directcomp\\dcompositioncreatesurfacehandle.htm",
+  "tech.root": "directcomp",
+  "ms.assetid": "550BA10B-D582-4A57-A69D-3EFFC7313D8F",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "COMPOSITIONSURFACE_ALL_ACCESS, COMPOSITIONOBJECT_ALL_ACCESS, COMPOSITIONSURFACE_READ, COMPOSITIONOBJECT_READ, COMPOSITIONSURFACE_WRITE, COMPOSITIONOBJECT_WRITE, DCompositionCreateSurfaceHandle, DCompositionCreateSurfaceHandle function [DirectComposition], dcomp/DCompositionCreateSurfaceHandle, directcomp.dcompositioncreatesurfacehandle",
+  "req.header": "dcomp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dcomp.lib",
+  "req.dll": "Dcomp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DCompositionCreateSurfaceHandle",
+    "dcomp/DCompositionCreateSurfaceHandle"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dcomp.dll",
+    "Ext-MS-OneCore-DComp-L1-1-0.dll"
+  ],
+  "api_name": [
+    "DCompositionCreateSurfaceHandle"
+  ]
+}

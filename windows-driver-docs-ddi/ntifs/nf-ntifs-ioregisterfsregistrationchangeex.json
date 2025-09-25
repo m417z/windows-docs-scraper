@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.IoRegisterFsRegistrationChangeEx",
+  "title": "IoRegisterFsRegistrationChangeEx function (ntifs.h)",
+  "description": "The IoRegisterFsRegistrationChangeEx routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.",
+  "old-location": "ifsk\\ioregisterfsregistrationchangeex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "IoRegisterFsRegistrationChangeEx function"
+  ],
+  "ms.keywords": "IoRegisterFsRegistrationChangeEx, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangeex, ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, ntifs/IoRegisterFsRegistrationChangeEx",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "This routine is only available on the Update Rollup for Windows 2000 Service Pack 4 (SP4) operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoRegisterFsRegistrationChangeEx",
+    "ntifs/IoRegisterFsRegistrationChangeEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "IoRegisterFsRegistrationChangeEx"
+  ]
+}

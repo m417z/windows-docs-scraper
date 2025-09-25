@@ -1,0 +1,3 @@
+HRESULT GetEmbeddedObject(
+  IUnknown **ppObject
+);

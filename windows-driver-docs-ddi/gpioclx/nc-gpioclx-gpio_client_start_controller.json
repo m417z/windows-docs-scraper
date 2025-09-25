@@ -1,0 +1,48 @@
+{
+  "UID": "NC:gpioclx.GPIO_CLIENT_START_CONTROLLER",
+  "title": "GPIO_CLIENT_START_CONTROLLER (gpioclx.h)",
+  "description": "The CLIENT_StartController event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device enters the D0 power state.",
+  "old-location": "gpio\\client_startcontroller.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "GPIO_CLIENT_START_CONTROLLER callback function"
+  ],
+  "ms.keywords": "CLIENT_StartController, CLIENT_StartController callback, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController",
+  "req.header": "gpioclx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL (see Remarks).",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GPIO_CLIENT_START_CONTROLLER",
+    "gpioclx/GPIO_CLIENT_START_CONTROLLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Gpioclx.h"
+  ],
+  "api_name": [
+    "GPIO_CLIENT_START_CONTROLLER"
+  ]
+}

@@ -1,0 +1,10 @@
+typedef union {
+  struct {
+    ULONG AB : 3;
+    ULONG Reserved0 : 5;
+    ULONG LPW : 8;
+    ULONG MPW : 8;
+    ULONG HPW : 8;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW11_FEATURE_ARBITRATION, *PNVME_CDW11_FEATURE_ARBITRATION;

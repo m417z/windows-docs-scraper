@@ -1,0 +1,4 @@
+typedef struct _WINBIO_SET_INDICATOR {
+  DWORD                   PayloadSize;
+  WINBIO_INDICATOR_STATUS IndicatorStatus;
+} WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR;

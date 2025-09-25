@@ -1,0 +1,47 @@
+{
+  "UID": "NF:audioengineextensionapo.IAudioProcessingObjectNotifications.GetApoNotificationRegistrationInfo",
+  "tech.root": "audio",
+  "title": "IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo",
+  "ms.date": "06/19/2021",
+  "targetos": "Windows",
+  "description": "Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audioengineextensionapo.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "audioengineextensionapo.h"
+  ],
+  "api_name": [
+    "IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo"
+  ],
+  "f1_keywords": [
+    "IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo",
+    "audioengineextensionapo/IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

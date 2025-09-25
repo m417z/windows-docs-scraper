@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortFreePool",
+  "title": "VideoPortFreePool function (video.h)",
+  "description": "The VideoPortFreePool function deallocates a block of pool memory previously allocated by VideoPortAllocatePool.",
+  "old-location": "display\\videoportfreepool.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortFreePool function"
+  ],
+  "ms.keywords": "VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortFreePool",
+    "video/VideoPortFreePool"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortFreePool"
+  ]
+}

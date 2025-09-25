@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IDvdCmd.WaitForStart",
+  "title": "IDvdCmd::WaitForStart (strmif.h)",
+  "description": "The WaitForStart method blocks the DVD Navigator until the command associated with this object begins.",
+  "helpviewer_keywords": [
+    "IDvdCmd interface [DirectShow]",
+    "WaitForStart method",
+    "IDvdCmd.WaitForStart",
+    "IDvdCmd::WaitForStart",
+    "IDvdCmdWaitForStart",
+    "WaitForStart",
+    "WaitForStart method [DirectShow]",
+    "WaitForStart method [DirectShow]",
+    "IDvdCmd interface",
+    "dshow.idvdcmd_waitforstart",
+    "strmif/IDvdCmd::WaitForStart"
+  ],
+  "old-location": "dshow\\idvdcmd_waitforstart.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "7badcc93-b5e7-4f43-bd71-a0b9ddfb0053",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IDvdCmd interface [DirectShow],WaitForStart method, IDvdCmd.WaitForStart, IDvdCmd::WaitForStart, IDvdCmdWaitForStart, WaitForStart, WaitForStart method [DirectShow], WaitForStart method [DirectShow],IDvdCmd interface, dshow.idvdcmd_waitforstart, strmif/IDvdCmd::WaitForStart",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDvdCmd::WaitForStart",
+    "strmif/IDvdCmd::WaitForStart"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IDvdCmd.WaitForStart"
+  ]
+}

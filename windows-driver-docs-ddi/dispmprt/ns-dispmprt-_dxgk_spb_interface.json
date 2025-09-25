@@ -1,0 +1,54 @@
+{
+  "UID": "NS:dispmprt._DXGK_SPB_INTERFACE",
+  "title": "_DXGK_SPB_INTERFACE (dispmprt.h)",
+  "description": "Contains pointers to functions in the Simple Peripheral Bus (SPB) Interface that the Windows Display Driver Model (WDDM) 1.2 and later display miniport driver can call to inspect and alter SPB resources.",
+  "old-location": "display\\dxgk_spb_interface.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGK_SPB_INTERFACE structure"
+  ],
+  "ms.keywords": "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE",
+  "f1_keywords": [
+    "_DXGK_SPB_INTERFACE",
+    "dispmprt/_DXGK_SPB_INTERFACE",
+    "PDXGK_SPB_INTERFACE",
+    "dispmprt/PDXGK_SPB_INTERFACE",
+    "DXGK_SPB_INTERFACE",
+    "dispmprt/DXGK_SPB_INTERFACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGK_SPB_INTERFACE",
+    "PDXGK_SPB_INTERFACE",
+    "DXGK_SPB_INTERFACE"
+  ]
+}

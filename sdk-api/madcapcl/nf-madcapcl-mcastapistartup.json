@@ -1,0 +1,58 @@
+{
+  "UID": "NF:madcapcl.McastApiStartup",
+  "title": "McastApiStartup function (madcapcl.h)",
+  "description": "The McastApiStartup function facilitates MADCAP-version negotiation between requesting clients and the version of MADCAP implemented on the system.",
+  "helpviewer_keywords": [
+    "McastApiStartup",
+    "McastApiStartup function [MADCAP]",
+    "_mdhcp_mcastapistartup",
+    "madcap.mcastapistartup",
+    "madcapcl/McastApiStartup"
+  ],
+  "old-location": "madcap\\mcastapistartup.htm",
+  "tech.root": "Madcap",
+  "ms.assetid": "edb7d666-cbd0-46f7-b63e-2a09ffc9e9e2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "McastApiStartup, McastApiStartup function [MADCAP], _mdhcp_mcastapistartup, madcap.mcastapistartup, madcapcl/McastApiStartup",
+  "req.header": "madcapcl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpcsvc.lib",
+  "req.dll": "Dhcpcsvc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "McastApiStartup",
+    "madcapcl/McastApiStartup"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpcsvc.dll"
+  ],
+  "api_name": [
+    "McastApiStartup"
+  ]
+}

@@ -1,0 +1,4 @@
+HRESULT SetProperties(
+  ALLOCATOR_PROPERTIES *pRequest,
+  ALLOCATOR_PROPERTIES *pActual
+);

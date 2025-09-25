@@ -1,0 +1,52 @@
+{
+  "UID": "NS:ntifs._READ_AHEAD_PARAMETERS",
+  "tech.root": "ifsk",
+  "title": "READ_AHEAD_PARAMETERS",
+  "ms.date": "03/13/2023",
+  "targetos": "Windows",
+  "description": "Learn more about the READ_AHEAD_PARAMETERS structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "READ_AHEAD_PARAMETERS, *PREAD_AHEAD_PARAMETERS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_READ_AHEAD_PARAMETERS",
+    "PREAD_AHEAD_PARAMETERS",
+    "READ_AHEAD_PARAMETERS"
+  ],
+  "f1_keywords": [
+    "_READ_AHEAD_PARAMETERS",
+    "ntifs/_READ_AHEAD_PARAMETERS",
+    "PREAD_AHEAD_PARAMETERS",
+    "ntifs/PREAD_AHEAD_PARAMETERS",
+    "READ_AHEAD_PARAMETERS",
+    "ntifs/READ_AHEAD_PARAMETERS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_READ_AHEAD_PARAMETERS"
+  ]
+}

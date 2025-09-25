@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATE_SHADER_0026 Pfnd3d12ddiCreateShader0026;
+
+VOID Pfnd3d12ddiCreateShader0026(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_SHADER_0026 *unnamedParam2,
+  D3D12DDI_HSHADER unnamedParam3
+)
+{...}

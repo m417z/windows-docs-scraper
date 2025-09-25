@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winbase.GetFileInformationByHandleEx",
+  "title": "GetFileInformationByHandleEx function (winbase.h)",
+  "description": "Retrieves file information for the specified file. (GetFileInformationByHandleEx)",
+  "helpviewer_keywords": [
+    "GetFileInformationByHandleEx",
+    "GetFileInformationByHandleEx function [Files]",
+    "fileextd/GetFileInformationByHandleEx",
+    "fs.getfileinformationbyhandleex",
+    "winbase/GetFileInformationByHandleEx"
+  ],
+  "old-location": "fs\\getfileinformationbyhandleex.htm",
+  "tech.root": "fs",
+  "ms.assetid": "e261ea45-d084-490e-94b4-129bd76f6a04",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetFileInformationByHandleEx, GetFileInformationByHandleEx function [Files], fileextd/GetFileInformationByHandleEx, fs.getfileinformationbyhandleex, winbase/GetFileInformationByHandleEx",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows SDK on     Windows Server 2003 and Windows XP.",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetFileInformationByHandleEx",
+    "winbase/GetFileInformationByHandleEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l2-1-4.dll",
+    "api-ms-win-core-file-l2-1-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l2-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l2-1-1.dll",
+    "API-MS-Win-Core-File-l2-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll"
+  ],
+  "api_name": [
+    "GetFileInformationByHandleEx"
+  ]
+}

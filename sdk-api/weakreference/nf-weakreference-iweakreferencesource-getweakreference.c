@@ -1,0 +1,3 @@
+HRESULT GetWeakReference(
+  IWeakReference **weakReference
+);

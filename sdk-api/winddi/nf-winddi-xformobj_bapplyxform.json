@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.XFORMOBJ_bApplyXform",
+  "title": "XFORMOBJ_bApplyXform function (winddi.h)",
+  "description": "The XFORMOBJ_bApplyXform function applies the given transform or its inverse to the given array of points.",
+  "helpviewer_keywords": [
+    "XFORMOBJ_bApplyXform",
+    "XFORMOBJ_bApplyXform function [Display Devices]",
+    "display.xformobj_bapplyxform",
+    "gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml",
+    "winddi/XFORMOBJ_bApplyXform"
+  ],
+  "old-location": "display\\xformobj_bapplyxform.htm",
+  "tech.root": "display",
+  "ms.assetid": "a9267d2a-96ab-4518-8045-428ab74bd599",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Devices], display.xformobj_bapplyxform, gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml, winddi/XFORMOBJ_bApplyXform",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "XFORMOBJ_bApplyXform",
+    "winddi/XFORMOBJ_bApplyXform"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "XFORMOBJ_bApplyXform"
+  ]
+}

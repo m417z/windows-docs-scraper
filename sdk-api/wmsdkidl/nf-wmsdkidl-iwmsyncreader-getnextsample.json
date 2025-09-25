@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMSyncReader.GetNextSample",
+  "title": "IWMSyncReader::GetNextSample (wmsdkidl.h)",
+  "description": "The GetNextSample method retrieves the next sample from the file.",
+  "helpviewer_keywords": [
+    "GetNextSample",
+    "GetNextSample method [windows Media Format]",
+    "GetNextSample method [windows Media Format]",
+    "IWMSyncReader interface",
+    "IWMSyncReader interface [windows Media Format]",
+    "GetNextSample method",
+    "IWMSyncReader.GetNextSample",
+    "IWMSyncReader::GetNextSample",
+    "IWMSyncReaderGetNextSample",
+    "wmformat.iwmsyncreader_getnextsample",
+    "wmsdkidl/IWMSyncReader::GetNextSample"
+  ],
+  "old-location": "wmformat\\iwmsyncreader_getnextsample.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "948047b3-3b87-4381-9320-c9602716ade2",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetNextSample, GetNextSample method [windows Media Format], GetNextSample method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetNextSample method, IWMSyncReader.GetNextSample, IWMSyncReader::GetNextSample, IWMSyncReaderGetNextSample, wmformat.iwmsyncreader_getnextsample, wmsdkidl/IWMSyncReader::GetNextSample",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMSyncReader::GetNextSample",
+    "wmsdkidl/IWMSyncReader::GetNextSample"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMSyncReader.GetNextSample"
+  ]
+}

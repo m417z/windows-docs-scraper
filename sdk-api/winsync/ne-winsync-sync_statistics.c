@@ -1,0 +1,3 @@
+typedef enum __MIDL___MIDL_itf_winsync_0000_0000_0006 {
+  SYNC_STATISTICS_RANGE_COUNT = 0
+} SYNC_STATISTICS;

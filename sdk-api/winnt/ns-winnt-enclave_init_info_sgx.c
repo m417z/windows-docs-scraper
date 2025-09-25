@@ -1,0 +1,6 @@
+typedef struct _ENCLAVE_INIT_INFO_SGX {
+  BYTE SigStruct[1808];
+  BYTE Reserved1[240];
+  BYTE EInitToken[304];
+  BYTE Reserved2[1744];
+} ENCLAVE_INIT_INFO_SGX, *PENCLAVE_INIT_INFO_SGX;

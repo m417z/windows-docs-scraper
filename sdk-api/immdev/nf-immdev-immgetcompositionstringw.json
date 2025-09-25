@@ -1,0 +1,63 @@
+{
+  "UID": "NF:immdev.ImmGetCompositionStringW",
+  "title": "ImmGetCompositionStringW function (immdev.h)",
+  "description": "The ImmGetCompositionStringW (Unicode) function (immdev.h) retrieves information about the composition string.",
+  "helpviewer_keywords": [
+    "ImmGetCompositionString",
+    "ImmGetCompositionString function [Internationalization for Windows Applications]",
+    "ImmGetCompositionStringW",
+    "_win32_ImmGetCompositionString",
+    "intl.immgetcompositionstring"
+  ],
+  "old-location": "intl\\immgetcompositionstring.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "6309e5b4-36ce-4899-be33-d7bf0d828d3d",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring",
+  "req.header": "immdev.h",
+  "req.include-header": "Immdev.h, Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],East Asian language support installed.",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "ImmGetCompositionStringW (Unicode) and ImmGetCompositionStringA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Imm32.lib",
+  "req.dll": "Imm32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ImmGetCompositionStringW",
+    "immdev/ImmGetCompositionStringW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-imm-l1-1-2.dll",
+    "Imm32.dll",
+    "Ext-MS-Win-imm-l1-1-0.dll",
+    "ext-ms-win-imm-l1-1-1.dll"
+  ],
+  "api_name": [
+    "ImmGetCompositionString",
+    "ImmGetCompositionStringA",
+    "ImmGetCompositionStringW"
+  ]
+}

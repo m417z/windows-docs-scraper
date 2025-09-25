@@ -1,0 +1,4 @@
+typedef struct _NDIS_WWAN_SET_PIN {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_PIN_ACTION    PinAction;
+} NDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN;

@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1523 {
+  DWORD sv1523_maxkeepsearch;
+} SERVER_INFO_1523, *PSERVER_INFO_1523, *LPSERVER_INFO_1523;

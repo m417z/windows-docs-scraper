@@ -1,0 +1,9 @@
+DXGKDDI_VIDPN_ACQUIRETARGETMODESET DxgkddiVidpnAcquiretargetmodeset;
+
+NTSTATUS DxgkddiVidpnAcquiretargetmodeset(
+  [in]  IN_CONST_D3DKMDT_HVIDPN hVidPn,
+  [in]  IN_CONST_D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId,
+  [out] OUT_PD3DKMDT_HVIDPNTARGETMODESET phVidPnTargetModeSet,
+  [out] DEREF_OUT_CONST_PPDXGK_VIDPNTARGETMODESET_INTERFACE ppVidPnTargetModeSetInterface
+)
+{...}

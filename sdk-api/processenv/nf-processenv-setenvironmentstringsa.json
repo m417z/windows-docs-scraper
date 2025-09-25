@@ -1,0 +1,50 @@
+{
+  "UID": "NF:processenv.SetEnvironmentStringsA",
+  "title": "SetEnvironmentStringsA",
+  "description": "The SetEnvironmentStringsA function (processenv.h) sets the environment strings of the calling process for the current process.",
+  "ms.date": "07/18/2025",
+  "ms.keywords": "SetEnvironmentStringsA",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "kernel32.dll",
+  "req.header": "processenv.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "f1_keywords": [
+    "SetEnvironmentStringsA",
+    "processenv/SetEnvironmentStringsA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processenvironment-ansi-l1-1-0.dll",
+    "kernel32.dll",
+    "api-ms-win-core-processenvironment-l1-1-0.dll",
+    "kernelbase.dll",
+    "api-ms-win-downlevel-kernel32-l1-1-0.dll"
+  ],
+  "api_name": [
+    "SetEnvironmentStringsA"
+  ]
+}

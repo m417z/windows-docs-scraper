@@ -1,0 +1,4 @@
+EVNTPROV_PFORCEINLINE PEVENT_DESCRIPTOR EventDescSetId(
+  [in] PEVENT_DESCRIPTOR EventDescriptor,
+  [in] USHORT            Id
+);

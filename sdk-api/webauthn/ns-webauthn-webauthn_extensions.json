@@ -1,0 +1,52 @@
+{
+  "UID": "NS:webauthn._WEBAUTHN_EXTENSIONS",
+  "tech.root": "webauthn",
+  "title": "WEBAUTHN_EXTENSIONS",
+  "ms.date": "07/19/2022",
+  "targetos": "Windows",
+  "description": "Contains a list of extensions.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "webauthn.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "WEBAUTHN_EXTENSIONS, *PWEBAUTHN_EXTENSIONS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "webauthn.h"
+  ],
+  "api_name": [
+    "_WEBAUTHN_EXTENSIONS",
+    "PWEBAUTHN_EXTENSIONS",
+    "WEBAUTHN_EXTENSIONS"
+  ],
+  "f1_keywords": [
+    "_WEBAUTHN_EXTENSIONS",
+    "webauthn/_WEBAUTHN_EXTENSIONS",
+    "PWEBAUTHN_EXTENSIONS",
+    "webauthn/PWEBAUTHN_EXTENSIONS",
+    "WEBAUTHN_EXTENSIONS",
+    "webauthn/WEBAUTHN_EXTENSIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_WEBAUTHN_EXTENSIONS"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef struct _WHEAP_CREATE_GENERIC_RECORD_EVENT {
+  WHEA_EVENT_LOG_ENTRY WheaEventLogEntry;
+  CHAR                 Error[WHEA_ERROR_TEXT_LEN];
+  ULONG                EntryCount;
+  NTSTATUS             Status;
+} WHEAP_CREATE_GENERIC_RECORD_EVENT, *PWHEAP_CREATE_GENERIC_RECORD_EVENT;

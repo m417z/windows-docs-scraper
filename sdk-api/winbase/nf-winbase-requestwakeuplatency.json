@@ -1,0 +1,67 @@
+{
+  "UID": "NF:winbase.RequestWakeupLatency",
+  "title": "RequestWakeupLatency function (winbase.h)",
+  "description": "Has no effect and returns STATUS_NOT_SUPPORTED. This function is provided only for compatibility with earlier versions of Windows.Windows Server 2008 and Windows Vista:  Has no effect and always returns success.",
+  "helpviewer_keywords": [
+    "LT_DONT_CARE",
+    "LT_LOWEST_LATENCY",
+    "RequestWakeupLatency",
+    "RequestWakeupLatency function",
+    "_win32_requestwakeuplatency",
+    "base.requestwakeuplatency",
+    "winbase/RequestWakeupLatency"
+  ],
+  "old-location": "base\\requestwakeuplatency.htm",
+  "tech.root": "base",
+  "ms.assetid": "f30fdfb6-dc7e-47fd-93ad-36655e65d0ae",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeupLatency function, _win32_requestwakeuplatency, base.requestwakeuplatency, winbase/RequestWakeupLatency",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RequestWakeupLatency",
+    "winbase/RequestWakeupLatency"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-5.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-4.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-3.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-2.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-0.dll",
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "RequestWakeupLatency"
+  ]
+}

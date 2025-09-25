@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupCopyErrorA",
+  "title": "SetupCopyErrorA function (setupapi.h)",
+  "description": "The SetupCopyError function generates a dialog box to notify a user of a copy file error. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupCopyErrorA",
+    "setupapi/SetupCopyErrorA"
+  ],
+  "old-location": "setup\\setupcopyerror.htm",
+  "tech.root": "setup",
+  "ms.assetid": "bda8ffef-f1a7-474c-9ec6-f76c2f006d51",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupCopyError, SetupCopyError function [Setup API], SetupCopyErrorA, SetupCopyErrorW, _setupapi_setupcopyerror, setup.setupcopyerror, setupapi/SetupCopyError, setupapi/SetupCopyErrorA, setupapi/SetupCopyErrorW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupCopyErrorW (Unicode) and SetupCopyErrorA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupCopyErrorA",
+    "setupapi/SetupCopyErrorA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupCopyError",
+    "SetupCopyErrorA",
+    "SetupCopyErrorW"
+  ]
+}

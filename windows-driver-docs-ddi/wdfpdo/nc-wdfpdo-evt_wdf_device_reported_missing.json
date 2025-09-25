@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfpdo.EVT_WDF_DEVICE_REPORTED_MISSING",
+  "title": "EVT_WDF_DEVICE_REPORTED_MISSING (wdfpdo.h)",
+  "description": "A bus driver's EvtDeviceReportedMissing event callback function informs the driver that the framework has reported the physical device object (PDO) missing to the Plug and Play manager.",
+  "old-location": "wdf\\evtdevicereportedmissing.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_REPORTED_MISSING callback function"
+  ],
+  "ms.keywords": "EVT_WDF_DEVICE_REPORTED_MISSING, EVT_WDF_DEVICE_REPORTED_MISSING callback, EvtDeviceReportedMissing, EvtDeviceReportedMissing callback function, kmdf.evtdevicereportedmissing, wdf.evtdevicereportedmissing, wdfpdo/EvtDeviceReportedMissing",
+  "req.header": "wdfpdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_REPORTED_MISSING",
+    "wdfpdo/EVT_WDF_DEVICE_REPORTED_MISSING"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfpdo.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_REPORTED_MISSING"
+  ]
+}

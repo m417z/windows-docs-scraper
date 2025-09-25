@@ -1,0 +1,3 @@
+HRESULT GetNewStorage(
+  LPSTORAGE *lplpstg
+);

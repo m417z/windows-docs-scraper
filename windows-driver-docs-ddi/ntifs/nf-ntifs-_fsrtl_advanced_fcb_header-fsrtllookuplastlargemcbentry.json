@@ -1,0 +1,51 @@
+{
+  "UID": "NF:ntifs.FsRtlLookupLastLargeMcbEntry",
+  "title": "FsRtlLookupLastLargeMcbEntry function (ntifs.h)",
+  "description": "Learn more about the FsRtlLookupLastLargeMcbEntry function.",
+  "tech.root": "ifsk",
+  "ms.date": "09/27/2023",
+  "keywords": [
+    "FsRtlLookupLastLargeMcbEntry function"
+  ],
+  "ms.keywords": "FsRtlLookupLastLargeMcbEntry, FsRtlLookupLastLargeMcbEntry routine [Installable File System Drivers], fsrtlref_71f4bede-0097-4707-a30e-d09c540f507f.xml, ifsk.fsrtllookuplastlargemcbentry, ntifs/FsRtlLookupLastLargeMcbEntry",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FsRtlLookupLastLargeMcbEntry",
+    "ntifs/FsRtlLookupLastLargeMcbEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FsRtlLookupLastLargeMcbEntry"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

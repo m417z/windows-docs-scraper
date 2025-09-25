@@ -1,0 +1,48 @@
+{
+  "UID": "NC:gpioclx.GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION",
+  "title": "GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION (gpioclx.h)",
+  "description": "The CLIENT_ControllerSpecificFunction event callback function performs an operation that is specific to a particular general-purpose I/O (GPIO) controller.",
+  "old-location": "gpio\\client_controllerspecificfunction.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function"
+  ],
+  "ms.keywords": "CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction",
+  "req.header": "gpioclx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION",
+    "gpioclx/GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Gpioclx.h"
+  ],
+  "api_name": [
+    "GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION"
+  ]
+}

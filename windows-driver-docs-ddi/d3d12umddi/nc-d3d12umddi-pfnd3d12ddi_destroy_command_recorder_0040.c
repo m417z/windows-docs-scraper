@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROY_COMMAND_RECORDER_0040 Pfnd3d12ddiDestroyCommandRecorder0040;
+
+VOID Pfnd3d12ddiDestroyCommandRecorder0040(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HCOMMANDRECORDER_0040 unnamedParam2
+)
+{...}

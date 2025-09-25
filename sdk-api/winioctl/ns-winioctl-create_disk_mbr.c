@@ -1,0 +1,3 @@
+typedef struct _CREATE_DISK_MBR {
+  DWORD Signature;
+} CREATE_DISK_MBR, *PCREATE_DISK_MBR;

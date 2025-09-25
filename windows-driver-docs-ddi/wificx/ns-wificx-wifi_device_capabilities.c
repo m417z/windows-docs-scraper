@@ -1,0 +1,21 @@
+typedef struct _WIFI_DEVICE_CAPABILITIES {
+  ULONG                             Size;
+  BOOLEAN                           HardwareRadioState;
+  BOOLEAN                           SoftwareRadioState;
+  UCHAR                             FirmwareVersion[MAX_FIRMWARE_VERSION_LENGTH];
+  BOOLEAN                           ActionFramesSupported;
+  UINT8                             NumRxStreams;
+  UINT8                             NumTxStreams;
+  BOOLEAN                           Support_eCSA;
+  BOOLEAN                           MACAddressRandomization;
+  WDI_MAC_ADDRESS                   MACAddressRandomizationMask;
+  WDI_BLUETOOTH_COEXISTENCE_SUPPORT BluetoothCoexistenceSupport;
+  BOOLEAN                           SupportsNonWdiOidRequests;
+  BOOLEAN                           FastTransitionSupported;
+  BOOLEAN                           MU_MIMOSupported;
+  BOOLEAN                           BSSTransitionSupported;
+  BOOLEAN                           SAEAuthenticationSupported;
+  BOOLEAN                           MBOSupported;
+  BOOLEAN                           BeaconReportsImplemented;
+  UINT8                             NumRadios;
+} WIFI_DEVICE_CAPABILITIES;

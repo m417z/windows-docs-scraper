@@ -1,0 +1,3 @@
+LPCGUID MbbRequestGetCorrelationId(
+  MBBREQUEST Request
+);

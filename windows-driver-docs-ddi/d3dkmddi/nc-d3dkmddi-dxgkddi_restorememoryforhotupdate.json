@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_RESTOREMEMORYFORHOTUPDATE",
+  "title": "DXGKDDI_RESTOREMEMORYFORHOTUPDATE",
+  "description": "Restores memory for driver hot update.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DXGKDDI_RESTOREMEMORYFORHOTUPDATE callback function"
+  ],
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1",
+  "f1_keywords": [
+    "DXGKDDI_RESTOREMEMORYFORHOTUPDATE",
+    "d3dkmddi/DXGKDDI_RESTOREMEMORYFORHOTUPDATE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_RESTOREMEMORYFORHOTUPDATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

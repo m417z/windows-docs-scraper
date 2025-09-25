@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKCB_WRITE_DEVICE_SPACE",
+  "title": "DXGKCB_WRITE_DEVICE_SPACE (dispmprt.h)",
+  "description": "The DxgkCbWriteDeviceSpace function writes to a device configuration space or the expansion ROM of a display adapter.",
+  "old-location": "display\\dxgkcbwritedevicespace.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKCB_WRITE_DEVICE_SPACE callback function"
+  ],
+  "ms.keywords": "DXGKCB_WRITE_DEVICE_SPACE, DXGKCB_WRITE_DEVICE_SPACE callback, DpFunctions_947b42ba-4121-4f21-b361-29a63278feb0.xml, DxgkCbWriteDeviceSpace, DxgkCbWriteDeviceSpace callback function [Display Devices], display.dxgkcbwritedevicespace, dispmprt/DxgkCbWriteDeviceSpace",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_WRITE_DEVICE_SPACE",
+    "dispmprt/DXGKCB_WRITE_DEVICE_SPACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKCB_WRITE_DEVICE_SPACE"
+  ]
+}

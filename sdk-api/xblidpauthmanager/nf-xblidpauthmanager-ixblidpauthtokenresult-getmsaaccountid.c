@@ -1,0 +1,3 @@
+HRESULT GetMsaAccountId(
+  LPWSTR *msaAccountId
+);

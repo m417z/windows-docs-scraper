@@ -1,0 +1,65 @@
+{
+  "UID": "NF:combaseapi.CoCreateGuid",
+  "title": "CoCreateGuid function (combaseapi.h)",
+  "description": "Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers.",
+  "helpviewer_keywords": [
+    "CoCreateGuid",
+    "CoCreateGuid function [COM]",
+    "_com_CoCreateGuid",
+    "com.cocreateguid",
+    "combaseapi/CoCreateGuid"
+  ],
+  "old-location": "com\\cocreateguid.htm",
+  "tech.root": "com",
+  "ms.assetid": "8d5cedea-8c2b-4918-99db-1a000989f178",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid",
+  "req.header": "combaseapi.h",
+  "req.include-header": "Objbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CoCreateGuid",
+    "combaseapi/CoCreateGuid"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-com-l1-1-3.dll",
+    "api-ms-win-core-com-l1-1-2.dll",
+    "Ole32.dll",
+    "API-MS-Win-Core-Com-l1-1-0.dll",
+    "ComBase.dll",
+    "API-MS-Win-Core-Com-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Ole32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-Ole32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CoCreateGuid"
+  ]
+}

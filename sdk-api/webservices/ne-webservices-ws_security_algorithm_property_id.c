@@ -1,0 +1,2 @@
+typedef enum {
+} WS_SECURITY_ALGORITHM_PROPERTY_ID;

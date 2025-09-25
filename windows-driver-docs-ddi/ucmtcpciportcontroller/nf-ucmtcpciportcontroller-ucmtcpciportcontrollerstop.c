@@ -1,0 +1,3 @@
+VOID UcmTcpciPortControllerStop(
+  UCMTCPCIPORTCONTROLLER PortControllerObject
+);

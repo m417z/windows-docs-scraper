@@ -1,0 +1,5 @@
+typedef enum _STORPORT_CAPTURE_LIVEDUMP_TYPE {
+  StorportCaptureLiveDumpTypeUndefined,
+  StorportCaptureLiveDumpTypeMini,
+  StorportCaptureLiveDumpTypeFull
+} STORPORT_CAPTURE_LIVEDUMP_TYPE, *PSTORPORT_CAPTURE_LIVEDUMP_TYPE;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FILE_COMPRESSION_INFORMATION",
+  "title": "_FILE_COMPRESSION_INFORMATION (ntifs.h)",
+  "description": "The FILE_COMPRESSION_INFORMATION structure describes the state of a compressed data buffer.",
+  "old-location": "ifsk\\file_compression_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FILE_COMPRESSION_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], PFILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPRESSION_INFORMATION, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, ifsk.file_compression_information, ntifs/FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_COMPRESSION_INFORMATION, *PFILE_COMPRESSION_INFORMATION",
+  "f1_keywords": [
+    "_FILE_COMPRESSION_INFORMATION",
+    "ntifs/_FILE_COMPRESSION_INFORMATION",
+    "PFILE_COMPRESSION_INFORMATION",
+    "ntifs/PFILE_COMPRESSION_INFORMATION",
+    "FILE_COMPRESSION_INFORMATION",
+    "ntifs/FILE_COMPRESSION_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_COMPRESSION_INFORMATION",
+    "PFILE_COMPRESSION_INFORMATION",
+    "FILE_COMPRESSION_INFORMATION"
+  ]
+}

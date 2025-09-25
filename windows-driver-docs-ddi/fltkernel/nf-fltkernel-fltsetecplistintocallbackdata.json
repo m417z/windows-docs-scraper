@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltSetEcpListIntoCallbackData",
+  "title": "FltSetEcpListIntoCallbackData function (fltkernel.h)",
+  "description": "The FltSetEcpListIntoCallbackData routine attaches an extra create parameter context structure (ECP) list to a create operation callback-data object.",
+  "old-location": "ifsk\\fltsetecplistintocallbackdata.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltSetEcpListIntoCallbackData function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_01e8fac7-3c58-4ed2-85ac-38580cca36e6.xml, FltSetEcpListIntoCallbackData, FltSetEcpListIntoCallbackData routine [Installable File System Drivers], fltkernel/FltSetEcpListIntoCallbackData, ifsk.fltsetecplistintocallbackdata",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltSetEcpListIntoCallbackData",
+    "fltkernel/FltSetEcpListIntoCallbackData"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltSetEcpListIntoCallbackData"
+  ]
+}

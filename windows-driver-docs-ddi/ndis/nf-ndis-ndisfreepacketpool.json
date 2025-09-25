@@ -1,0 +1,51 @@
+{
+  "UID": "NF:ndis.NdisFreePacketPool",
+  "tech.root": "netvista",
+  "title": "NdisFreePacketPool",
+  "ms.date": "01/04/2023",
+  "targetos": "Windows",
+  "description": "This function releases a handle to a block of packet pool that was allocated with the NdisAllocatePacketPool function.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "IRQL <= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisFreePacketPool"
+  ],
+  "f1_keywords": [
+    "NdisFreePacketPool",
+    "ndis/NdisFreePacketPool"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NdisFreePacketPool"
+  ]
+}

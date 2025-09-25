@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupDiDestroyClassImageList",
+  "title": "SetupDiDestroyClassImageList function (setupapi.h)",
+  "description": "The SetupDiDestroyClassImageList function destroys a class image list that was built by a call to SetupDiGetClassImageList or SetupDiGetClassImageListEx.",
+  "helpviewer_keywords": [
+    "SetupDiDestroyClassImageList",
+    "SetupDiDestroyClassImageList function [Device and Driver Installation]",
+    "devinst.setupdidestroyclassimagelist",
+    "di-rtns_15428f4d-4785-460b-9da1-746cf2c69159.xml",
+    "setupapi/SetupDiDestroyClassImageList"
+  ],
+  "old-location": "devinst\\setupdidestroyclassimagelist.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "47ccc16c-b061-489b-b534-5b5929c5d010",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiDestroyClassImageList, SetupDiDestroyClassImageList function [Device and Driver Installation], devinst.setupdidestroyclassimagelist, di-rtns_15428f4d-4785-460b-9da1-746cf2c69159.xml, setupapi/SetupDiDestroyClassImageList",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiDestroyClassImageList",
+    "setupapi/SetupDiDestroyClassImageList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiDestroyClassImageList"
+  ]
+}

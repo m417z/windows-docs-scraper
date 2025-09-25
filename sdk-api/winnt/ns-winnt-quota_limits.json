@@ -1,0 +1,67 @@
+{
+  "UID": "NS:winnt._QUOTA_LIMITS",
+  "title": "QUOTA_LIMITS (winnt.h)",
+  "description": "Describes the amount of system resources available to a user.",
+  "helpviewer_keywords": [
+    "*PQUOTA_LIMITS",
+    "PQUOTA_LIMITS",
+    "PQUOTA_LIMITS structure pointer [Security]",
+    "QUOTA_LIMITS",
+    "QUOTA_LIMITS structure [Security]",
+    "_QUOTA_LIMITS",
+    "_lsa_quota_limits",
+    "security.quota_limits",
+    "winnt/PQUOTA_LIMITS",
+    "winnt/QUOTA_LIMITS"
+  ],
+  "old-location": "security\\quota_limits.htm",
+  "tech.root": "security",
+  "ms.assetid": "7514ec77-34b1-490d-ba21-3b6944942aa7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PQUOTA_LIMITS, PQUOTA_LIMITS, PQUOTA_LIMITS structure pointer [Security], QUOTA_LIMITS, QUOTA_LIMITS structure [Security], _QUOTA_LIMITS, _lsa_quota_limits, security.quota_limits, winnt/PQUOTA_LIMITS, winnt/QUOTA_LIMITS",
+  "req.header": "winnt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "QUOTA_LIMITS, *PQUOTA_LIMITS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_QUOTA_LIMITS",
+    "winnt/_QUOTA_LIMITS",
+    "PQUOTA_LIMITS",
+    "winnt/PQUOTA_LIMITS",
+    "QUOTA_LIMITS",
+    "winnt/QUOTA_LIMITS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winnt.h"
+  ],
+  "api_name": [
+    "QUOTA_LIMITS"
+  ]
+}

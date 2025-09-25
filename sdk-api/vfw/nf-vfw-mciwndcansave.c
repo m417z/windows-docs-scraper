@@ -1,0 +1,3 @@
+BOOL MCIWndCanSave(
+     hwnd
+);

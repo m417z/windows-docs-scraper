@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netfw.PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0",
+  "title": "PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0",
+  "description": "Function pointer type of the entry point in the service that you call to free dynamic keyword address data structs allocated by the service.",
+  "tech.root": "ics",
+  "ms.date": "05/14/2021",
+  "req.construct-type": "function",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "firewallapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0",
+  "req.redist": null,
+  "f1_keywords": [
+    "PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0",
+    "netfw/PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "netfw.h",
+    "firewallapi.dll"
+  ],
+  "api_name": [
+    "PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0"
+  ]
+}

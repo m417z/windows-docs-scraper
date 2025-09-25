@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddstor._STORAGE_RPMB_DATA_FRAME",
+  "title": "STORAGE_RPMB_DATA_FRAME",
+  "ms.date": "10/28/2020",
+  "tech.root": "storage",
+  "targetos": "Windows",
+  "description": "The STORAGE_RPMB_DATA_FRAME structure identifies the frame format of a Replay Protected Memory Block (RPMB) payload.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STORAGE_RPMB_DATA_FRAME, *PSTORAGE_RPMB_DATA_FRAME",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_STORAGE_RPMB_DATA_FRAME",
+    "PSTORAGE_RPMB_DATA_FRAME",
+    "STORAGE_RPMB_DATA_FRAME"
+  ],
+  "f1_keywords": [
+    "_STORAGE_RPMB_DATA_FRAME",
+    "ntddstor/_STORAGE_RPMB_DATA_FRAME",
+    "PSTORAGE_RPMB_DATA_FRAME",
+    "ntddstor/PSTORAGE_RPMB_DATA_FRAME",
+    "STORAGE_RPMB_DATA_FRAME",
+    "ntddstor/STORAGE_RPMB_DATA_FRAME"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

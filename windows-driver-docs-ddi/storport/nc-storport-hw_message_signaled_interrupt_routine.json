@@ -1,0 +1,48 @@
+{
+  "UID": "NC:storport.HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE",
+  "title": "HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE (storport.h)",
+  "description": "The HwMSInterruptRoutine routine handles a message signaled interrupt (MSI).",
+  "old-location": "storage\\hwmsinterruptroutine.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE callback function"
+  ],
+  "ms.keywords": "HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, HwMSInterruptRoutine, HwMSInterruptRoutine routine [Storage Devices], storage.hwmsinterruptroutine, stormini_153bf378-505e-413b-90b2-24af3fd9d502.xml, storport/HwMSInterruptRoutine",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DIRQL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE",
+    "storport/HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Storport.h"
+  ],
+  "api_name": [
+    "HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE"
+  ]
+}

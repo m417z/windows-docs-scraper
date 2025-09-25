@@ -1,0 +1,3 @@
+typedef struct FWPS_PACKET_LIST_FWP_INFORMATION0_ {
+  unsigned isReinjected : 1;
+} FWPS_PACKET_LIST_FWP_INFORMATION0;

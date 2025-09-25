@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisIfRegisterInterface",
+  "title": "NdisIfRegisterInterface function (ndis.h)",
+  "description": "The NdisIfRegisterInterface function registers an NDIS network interface.",
+  "old-location": "netvista\\ndisifregisterinterface.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisIfRegisterInterface function"
+  ],
+  "ms.keywords": "NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Interfaces_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisIfRegisterInterface",
+    "ndis/NdisIfRegisterInterface"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisIfRegisterInterface"
+  ]
+}

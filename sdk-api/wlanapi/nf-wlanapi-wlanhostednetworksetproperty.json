@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wlanapi.WlanHostedNetworkSetProperty",
+  "title": "WlanHostedNetworkSetProperty function (wlanapi.h)",
+  "description": "Sets static properties of the wireless Hosted Network.",
+  "helpviewer_keywords": [
+    "WlanHostedNetworkSetProperty",
+    "WlanHostedNetworkSetProperty function [NativeWIFI]",
+    "nwifi.wlanhostednetworksetproperty",
+    "wlan_hosted_network_opcode_connection_settings",
+    "wlan_hosted_network_opcode_enable",
+    "wlanapi/WlanHostedNetworkSetProperty"
+  ],
+  "old-location": "nwifi\\wlanhostednetworksetproperty.htm",
+  "tech.root": "nwifi",
+  "ms.assetid": "88139383-f5d5-4e42-b41e-ea754a89356d",
+  "ms.date": "11/19/2020",
+  "ms.keywords": "WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty",
+  "req.header": "wlanapi.h",
+  "req.include-header": "Wlanapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wlanapi.lib",
+  "req.dll": "Wlanapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WlanHostedNetworkSetProperty",
+    "wlanapi/WlanHostedNetworkSetProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wlanapi.dll"
+  ],
+  "api_name": [
+    "WlanHostedNetworkSetProperty"
+  ]
+}

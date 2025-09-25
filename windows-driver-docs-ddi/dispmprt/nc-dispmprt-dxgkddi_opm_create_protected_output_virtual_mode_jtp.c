@@ -1,0 +1,10 @@
+DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP DxgkddiOpmCreateProtectedOutputVirtualModeJtp;
+
+NTSTATUS DxgkddiOpmCreateProtectedOutputVirtualModeJtp(
+  PVOID MiniportDeviceContext,
+  D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId,
+  DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS NewVideoOutputSemantics,
+  DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT *pActualOutputFormat,
+  PHANDLE NewProtectedOutputHandle
+)
+{...}

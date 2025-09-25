@@ -1,0 +1,65 @@
+{
+  "UID": "NF:control.IMediaPosition.get_PrerollTime",
+  "title": "IMediaPosition::get_PrerollTime (control.h)",
+  "description": "The get_PrerollTime method retrieves the amount of data that will be queued before the start position.",
+  "helpviewer_keywords": [
+    "IMediaPosition interface [DirectShow]",
+    "get_PrerollTime method",
+    "IMediaPosition.get_PrerollTime",
+    "IMediaPosition::get_PrerollTime",
+    "IMediaPositionget_PrerollTime",
+    "control/IMediaPosition::get_PrerollTime",
+    "dshow.imediaposition_get_prerolltime",
+    "get_PrerollTime",
+    "get_PrerollTime method [DirectShow]",
+    "get_PrerollTime method [DirectShow]",
+    "IMediaPosition interface"
+  ],
+  "old-location": "dshow\\imediaposition_get_prerolltime.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "3cfe9ba0-0138-4847-81ab-ea1e96e2c3a8",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaPosition interface [DirectShow],get_PrerollTime method, IMediaPosition.get_PrerollTime, IMediaPosition::get_PrerollTime, IMediaPositionget_PrerollTime, control/IMediaPosition::get_PrerollTime, dshow.imediaposition_get_prerolltime, get_PrerollTime, get_PrerollTime method [DirectShow], get_PrerollTime method [DirectShow],IMediaPosition interface",
+  "req.header": "control.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaPosition::get_PrerollTime",
+    "control/IMediaPosition::get_PrerollTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaPosition.get_PrerollTime"
+  ]
+}

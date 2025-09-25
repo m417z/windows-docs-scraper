@@ -1,0 +1,3 @@
+void SetBufferSize(
+  ULONG BufferSize
+);

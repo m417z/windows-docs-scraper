@@ -1,0 +1,58 @@
+{
+  "UID": "NC:ntsecpkg.SpValidateTargetInfoFn",
+  "title": "SpValidateTargetInfoFn (ntsecpkg.h)",
+  "description": "Validates that the specified SECPKG_TARGETINFO structure represents a valid target.",
+  "helpviewer_keywords": [
+    "SpValidateTargetInfoFn",
+    "SpValidateTargetInfoFn callback",
+    "SpValidateTargetInfoFn callback function [Security]",
+    "ntsecpkg/SpValidateTargetInfoFn",
+    "security.spvalidatetargetinfofn"
+  ],
+  "old-location": "security\\spvalidatetargetinfofn.htm",
+  "tech.root": "security",
+  "ms.assetid": "01d1b74a-14d9-40cd-bcca-a031f5fc9cbb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SpValidateTargetInfoFn, SpValidateTargetInfoFn callback, SpValidateTargetInfoFn callback function [Security], ntsecpkg/SpValidateTargetInfoFn, security.spvalidatetargetinfofn",
+  "req.header": "ntsecpkg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SpValidateTargetInfoFn",
+    "ntsecpkg/SpValidateTargetInfoFn"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntsecpkg.h"
+  ],
+  "api_name": [
+    "SpValidateTargetInfoFn"
+  ]
+}

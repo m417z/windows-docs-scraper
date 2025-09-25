@@ -1,0 +1,6 @@
+typedef struct _CRYPT_PROVIDER_DEFUSAGE {
+  DWORD  cbStruct;
+  GUID   gActionID;
+  LPVOID pDefPolicyCallbackData;
+  LPVOID pDefSIPClientData;
+} CRYPT_PROVIDER_DEFUSAGE, *PCRYPT_PROVIDER_DEFUSAGE;

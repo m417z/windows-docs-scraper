@@ -1,0 +1,65 @@
+{
+  "UID": "NF:refptrco.TRefPointerCollection.GetNext",
+  "title": "TRefPointerCollection::GetNext (refptrco.h)",
+  "description": "The GetNext method gets a pointer to the next instance in the collection.",
+  "helpviewer_keywords": [
+    "GetNext",
+    "GetNext method [Windows Management Instrumentation]",
+    "GetNext method [Windows Management Instrumentation]",
+    "TRefPointerCollection interface",
+    "TRefPointerCollection interface [Windows Management Instrumentation]",
+    "GetNext method",
+    "TRefPointerCollection.GetNext",
+    "TRefPointerCollection::GetNext",
+    "_hmm_trefpointercollection_getnext",
+    "refptrco/TRefPointerCollection::GetNext",
+    "wmi.trefpointercollection_getnext"
+  ],
+  "old-location": "wmi\\trefpointercollection_getnext.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "c0dfb2c7-71f6-4870-8018-145e890d4928",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext",
+  "req.header": "refptrco.h",
+  "req.include-header": "FwCommon.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FrameDyn.lib",
+  "req.dll": "FrameDynOS.dll; FrameDyn.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TRefPointerCollection::GetNext",
+    "refptrco/TRefPointerCollection::GetNext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FrameDynOS.dll",
+    "FrameDyn.dll"
+  ],
+  "api_name": [
+    "TRefPointerCollection.GetNext"
+  ]
+}

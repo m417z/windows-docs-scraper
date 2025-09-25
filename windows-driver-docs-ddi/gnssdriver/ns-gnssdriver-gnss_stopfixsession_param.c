@@ -1,0 +1,6 @@
+typedef struct {
+  ULONG Size;
+  ULONG Version;
+  ULONG FixSessionID;
+  BYTE  Unused[512];
+} GNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM;

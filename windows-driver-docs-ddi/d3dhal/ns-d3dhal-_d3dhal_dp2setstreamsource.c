@@ -1,0 +1,5 @@
+typedef struct _D3DHAL_DP2SETSTREAMSOURCE {
+  DWORD dwStream;
+  DWORD dwVBHandle;
+  DWORD dwStride;
+} D3DHAL_DP2SETSTREAMSOURCE;

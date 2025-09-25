@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxprocs.RxMapSystemBuffer",
+  "title": "RxMapSystemBuffer function (rxprocs.h)",
+  "description": "RxMapSystemBuffer returns the system buffer address from the IRP.",
+  "old-location": "ifsk\\rxmapsystembuffer.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxMapSystemBuffer function"
+  ],
+  "ms.keywords": "RxMapSystemBuffer, RxMapSystemBuffer function [Installable File System Drivers], ifsk.rxmapsystembuffer, rxprocs/RxMapSystemBuffer, rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml",
+  "req.header": "rxprocs.h",
+  "req.include-header": "Rxcontx.h, Rxprocs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxMapSystemBuffer",
+    "rxprocs/RxMapSystemBuffer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxprocs.h"
+  ],
+  "api_name": [
+    "RxMapSystemBuffer"
+  ]
+}

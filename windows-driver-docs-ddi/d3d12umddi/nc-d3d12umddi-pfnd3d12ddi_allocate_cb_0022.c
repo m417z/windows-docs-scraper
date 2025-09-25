@@ -1,0 +1,7 @@
+PFND3D12DDI_ALLOCATE_CB_0022 Pfnd3d12ddiAllocateCb0022;
+
+HRESULT Pfnd3d12ddiAllocateCb0022(
+  D3D12DDI_HRTDEVICE unnamedParam1,
+  D3D12DDICB_ALLOCATE_0022 *unnamedParam2
+)
+{...}

@@ -1,0 +1,50 @@
+{
+  "UID": "NS:scsi.POPULATE_TOKEN_HEADER",
+  "title": "POPULATE_TOKEN_HEADER (scsi.h)",
+  "description": "The POPULATE_TOKEN_HEADER structure (scsi.h) contains the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.",
+  "tech.root": "storage",
+  "ms.date": "09/20/2022",
+  "keywords": [
+    "POPULATE_TOKEN_HEADER structure"
+  ],
+  "ms.keywords": "*PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], scsi/POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER, storage.populate_token_header",
+  "req.header": "scsi.h",
+  "req.include-header": "Scsi.h, Minitape.h, Storport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER",
+  "f1_keywords": [
+    "PPOPULATE_TOKEN_HEADER",
+    "scsi/PPOPULATE_TOKEN_HEADER",
+    "POPULATE_TOKEN_HEADER",
+    "scsi/POPULATE_TOKEN_HEADER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "PPOPULATE_TOKEN_HEADER",
+    "POPULATE_TOKEN_HEADER"
+  ]
+}

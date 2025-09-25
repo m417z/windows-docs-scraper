@@ -1,0 +1,3 @@
+HRESULT get_APIVersion(
+  FAX_SERVER_APIVERSION_ENUM *pAPIVersion
+);

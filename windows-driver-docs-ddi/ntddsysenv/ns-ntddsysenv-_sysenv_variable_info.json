@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddsysenv._SYSENV_VARIABLE_INFO",
+  "title": "_SYSENV_VARIABLE_INFO (ntddsysenv.h)",
+  "description": "Stores the information about a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_QUERY_VARIABLE_INFO request.",
+  "old-location": "kernel\\sysenv_variable_info.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "SYSENV_VARIABLE_INFO structure"
+  ],
+  "ms.keywords": "*PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], _SYSENV_VARIABLE_INFO, kernel.sysenv_variable_info, ntddsysenv/PSYSENV_VARIABLE_INFO, ntddsysenv/SYSENV_VARIABLE_INFO",
+  "req.header": "ntddsysenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SYSENV_VARIABLE_INFO, *PSYSENV_VARIABLE_INFO",
+  "f1_keywords": [
+    "_SYSENV_VARIABLE_INFO",
+    "ntddsysenv/_SYSENV_VARIABLE_INFO",
+    "PSYSENV_VARIABLE_INFO",
+    "ntddsysenv/PSYSENV_VARIABLE_INFO",
+    "SYSENV_VARIABLE_INFO",
+    "ntddsysenv/SYSENV_VARIABLE_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddsysenv.h"
+  ],
+  "api_name": [
+    "_SYSENV_VARIABLE_INFO",
+    "PSYSENV_VARIABLE_INFO",
+    "SYSENV_VARIABLE_INFO"
+  ]
+}

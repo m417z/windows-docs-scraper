@@ -1,0 +1,5 @@
+typedef struct {
+  KSEVENTDATA EventData;
+  LONGLONG    TimeBase;
+  LONGLONG    Interval;
+} KSEVENT_TIME_INTERVAL, *PKSEVENT_TIME_INTERVAL;

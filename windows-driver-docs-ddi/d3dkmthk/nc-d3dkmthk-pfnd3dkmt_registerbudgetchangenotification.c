@@ -1,0 +1,6 @@
+PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION Pfnd3dkmtRegisterbudgetchangenotification;
+
+NTSTATUS Pfnd3dkmtRegisterbudgetchangenotification(
+  D3DKMT_REGISTERBUDGETCHANGENOTIFICATION *unnamedParam1
+)
+{...}

@@ -1,0 +1,6 @@
+DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION DxgkddiDestroyperiodicframenotification;
+
+NTSTATUS DxgkddiDestroyperiodicframenotification(
+  IN_CONST_PDXGKARG_DESTROYPERIODICFRAMENOTIFICATION pDestroyPeriodicFrameNotification
+)
+{...}

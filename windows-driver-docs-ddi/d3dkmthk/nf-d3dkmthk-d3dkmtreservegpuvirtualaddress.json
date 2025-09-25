@@ -1,0 +1,50 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTReserveGpuVirtualAddress",
+  "title": "D3DKMTReserveGpuVirtualAddress function (d3dkmthk.h)",
+  "description": "D3DKMTReserveGpuVirtualAddress reserves an address range in the current process graphics processing unit (GPU) virtual address space. The address range is only reserved, there is no actual memory behind it.",
+  "old-location": "display\\d3dkmtreservegpuvirtualaddress.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTReserveGpuVirtualAddress function"
+  ],
+  "ms.keywords": "D3DKMTReserveGpuVirtualAddress, D3DKMTReserveGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTReserveGpuVirtualAddress",
+    "d3dkmthk/D3DKMTReserveGpuVirtualAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "API-MS-Win-DX-D3DKMT-L1-1-1.dll",
+    "GDI32.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-2.dll"
+  ],
+  "api_name": [
+    "D3DKMTReserveGpuVirtualAddress"
+  ]
+}

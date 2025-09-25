@@ -1,0 +1,4 @@
+typedef struct _WSD_EVENTING_EXPIRES {
+  WSD_DURATION *Duration;
+  WSD_DATETIME *DateTime;
+} WSD_EVENTING_EXPIRES;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._MDL",
+  "title": "_MDL (wdm.h)",
+  "description": "An MDL structure is a partially opaque structure that represents a memory descriptor list (MDL).",
+  "old-location": "kernel\\mdl.htm",
+  "tech.root": "kernel",
+  "ms.date": "08/15/2022",
+  "keywords": [
+    "MDL structure"
+  ],
+  "ms.keywords": "*PMDLX, MDL, MDL structure [Kernel-Mode Driver Architecture], PMDL, _MDL, kernel.mdl, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, wdm/MDL",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MDL, PMDL",
+  "f1_keywords": [
+    "_MDL",
+    "wdm/_MDL",
+    "PMDL",
+    "wdm/PMDL",
+    "MDL",
+    "wdm/MDL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_MDL",
+    "PMDL",
+    "MDL"
+  ]
+}

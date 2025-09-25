@@ -1,0 +1,1 @@
+SspiAsyncContext * SspiCreateAsyncContext();

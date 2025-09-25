@@ -1,0 +1,51 @@
+{
+  "UID": "NS:fwpsk.FWPS_CALLOUT2_",
+  "title": "FWPS_CALLOUT2_ (fwpsk.h)",
+  "description": "The FWPS_CALLOUT2 structure defines the data that is required for a callout driver to register a callout with the filter engine.Note  FWPS_CALLOUT2 is the specific version of FWPS_CALLOUT used in Windows 8 and later.",
+  "old-location": "netvista\\fwps_callout2.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "FWPS_CALLOUT2_ structure"
+  ],
+  "ms.keywords": "FWPS_CALLOUT2, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT2_, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_RESERVED1, fwpsk/FWPS_CALLOUT2, netvista.fwps_callout2, FWP_CALLOUT_FLAG_ALLOW_USO, FWP_CALLOUT_FLAG_ALLOW_URO",
+  "req.header": "fwpsk.h",
+  "req.include-header": "Fwpsk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FWPS_CALLOUT2",
+  "f1_keywords": [
+    "FWPS_CALLOUT2_",
+    "fwpsk/FWPS_CALLOUT2_",
+    "FWPS_CALLOUT2",
+    "fwpsk/FWPS_CALLOUT2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fwpsk.h"
+  ],
+  "api_name": [
+    "FWPS_CALLOUT2_",
+    "FWPS_CALLOUT2"
+  ]
+}

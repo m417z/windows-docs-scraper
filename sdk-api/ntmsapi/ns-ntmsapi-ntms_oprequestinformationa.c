@@ -1,0 +1,13 @@
+typedef struct _NTMS_OPREQUESTINFORMATIONA {
+  DWORD      Request;
+  SYSTEMTIME Submitted;
+  DWORD      State;
+  CHAR       szMessage[NTMS_MESSAGE_LENGTH];
+  DWORD      Arg1Type;
+  NTMS_GUID  Arg1;
+  DWORD      Arg2Type;
+  NTMS_GUID  Arg2;
+  CHAR       szApplication[NTMS_APPLICATIONNAME_LENGTH];
+  CHAR       szUser[NTMS_USERNAME_LENGTH];
+  CHAR       szComputer[NTMS_COMPUTERNAME_LENGTH];
+} NTMS_OPREQUESTINFORMATIONA;

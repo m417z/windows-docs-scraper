@@ -1,0 +1,49 @@
+{
+  "UID": "NS:oidrequest._NDIS_OID_REQUEST",
+  "title": "NDIS_OID_REQUEST",
+  "ms.date": "05/20/2022",
+  "targetos": "Windows",
+  "description": "To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to filter drivers and miniport drivers.",
+  "old-location": "netvista\\ndis_oid_request.htm",
+  "tech.root": "netvista",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/oidrequest.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NDIS_OID_REQUEST, *PNDIS_OID_REQUEST",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "oidrequest.h"
+  ],
+  "api_name": [
+    "_NDIS_OID_REQUEST",
+    "PNDIS_OID_REQUEST",
+    "NDIS_OID_REQUEST"
+  ],
+  "f1_keywords": [
+    "_NDIS_OID_REQUEST",
+    "oidrequest/_NDIS_OID_REQUEST",
+    "PNDIS_OID_REQUEST",
+    "oidrequest/PNDIS_OID_REQUEST",
+    "NDIS_OID_REQUEST",
+    "oidrequest/NDIS_OID_REQUEST"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

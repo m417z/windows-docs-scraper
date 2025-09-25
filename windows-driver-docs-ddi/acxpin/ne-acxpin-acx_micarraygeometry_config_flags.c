@@ -1,0 +1,4 @@
+typedef enum _ACX_MICARRAYGEOMETRY_CONFIG_FLAGS {
+  AcxMicArrayGeometryConfigNoFlags,
+  AcxMicArrayGeometryConfigValidFlags
+} ACX_MICARRAYGEOMETRY_CONFIG_FLAGS;

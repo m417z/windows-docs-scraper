@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ufs.UFS_DEVICE_DESCRIPTOR",
+  "title": "UFS_DEVICE_DESCRIPTOR (ufs.h)",
+  "description": "UFS_DEVICE_DESCRIPTOR is the main descriptor for Universal Flash Storage (UFS) devices and should be the first descriptor retrieved as it specifies the device class and sub-class and the protocol (command set) to use to access this device and the maximum number of logical units (LUs) contained within the device.",
+  "old-location": "storage\\ufs_device_descriptor.htm",
+  "tech.root": "storage",
+  "ms.date": "03/07/2024",
+  "keywords": [
+    "UFS_DEVICE_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR structure [Storage Devices], storage.ufs_device_descriptor, ufs/PUFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR",
+  "req.header": "ufs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "UFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR",
+  "f1_keywords": [
+    "PUFS_DEVICE_DESCRIPTOR",
+    "ufs/PUFS_DEVICE_DESCRIPTOR",
+    "UFS_DEVICE_DESCRIPTOR",
+    "ufs/UFS_DEVICE_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ufs.h"
+  ],
+  "api_name": [
+    "PUFS_DEVICE_DESCRIPTOR",
+    "UFS_DEVICE_DESCRIPTOR"
+  ]
+}

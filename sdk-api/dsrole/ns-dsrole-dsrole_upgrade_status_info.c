@@ -1,0 +1,4 @@
+typedef struct _DSROLE_UPGRADE_STATUS_INFO {
+  ULONG               OperationState;
+  DSROLE_SERVER_STATE PreviousServerState;
+} DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO;

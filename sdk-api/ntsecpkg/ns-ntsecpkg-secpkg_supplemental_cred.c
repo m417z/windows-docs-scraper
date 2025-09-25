@@ -1,0 +1,5 @@
+typedef struct _SECPKG_SUPPLEMENTAL_CRED {
+  UNICODE_STRING PackageName;
+  ULONG          CredentialSize;
+  PUCHAR         Credentials;
+} SECPKG_SUPPLEMENTAL_CRED, *PSECPKG_SUPPLEMENTAL_CRED;

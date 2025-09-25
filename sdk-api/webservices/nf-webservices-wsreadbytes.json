@@ -1,0 +1,57 @@
+{
+  "UID": "NF:webservices.WsReadBytes",
+  "title": "WsReadBytes function (webservices.h)",
+  "description": "Reads text from the Reader and decodes the characters as bytes according to the base64 specification.",
+  "helpviewer_keywords": [
+    "WsReadBytes",
+    "WsReadBytes function [Web Services for Windows]",
+    "webservices/WsReadBytes",
+    "wsw.wsreadbytes"
+  ],
+  "old-location": "wsw\\wsreadbytes.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "02cff29c-7d39-4df2-8eb1-506f93959a1e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WsReadBytes, WsReadBytes function [Web Services for Windows], webservices/WsReadBytes, wsw.wsreadbytes",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WebServices.lib",
+  "req.dll": "WebServices.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WsReadBytes",
+    "webservices/WsReadBytes"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WebServices.dll"
+  ],
+  "api_name": [
+    "WsReadBytes"
+  ]
+}

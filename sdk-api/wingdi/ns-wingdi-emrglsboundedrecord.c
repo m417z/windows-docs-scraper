@@ -1,0 +1,6 @@
+typedef struct tagEMRGLSBOUNDEDRECORD {
+  EMR   emr;
+  RECTL rclBounds;
+  DWORD cbData;
+  BYTE  Data[1];
+} EMRGLSBOUNDEDRECORD, *PEMRGLSBOUNDEDRECORD;

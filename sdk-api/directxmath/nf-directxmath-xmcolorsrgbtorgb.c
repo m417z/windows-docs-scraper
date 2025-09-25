@@ -1,0 +1,3 @@
+XMVECTOR XM_CALLCONV XMColorSRGBToRGB(
+  FXMVECTOR srgb
+) noexcept;

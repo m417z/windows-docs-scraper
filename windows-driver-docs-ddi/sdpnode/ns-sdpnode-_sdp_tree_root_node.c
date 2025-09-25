@@ -1,0 +1,3 @@
+typedef struct _SDP_TREE_ROOT_NODE {
+  SDP_NODE RootNode;
+} SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE;

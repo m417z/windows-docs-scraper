@@ -1,0 +1,4 @@
+typedef struct D3D12DDI_LOD_REGION_0073 {
+  UINT Width;
+  UINT Height;
+} D3D12DDI_LOD_REGION_0073;

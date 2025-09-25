@@ -1,0 +1,4 @@
+VOID ACX_VOLUME_CONFIG_INIT_ID(
+  PACX_VOLUME_CONFIG Config,
+  ULONG              Id
+);

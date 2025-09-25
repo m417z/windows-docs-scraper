@@ -1,0 +1,6 @@
+typedef struct _D3DKMT_TDRDBGCTRL_ESCAPE {
+  D3DKMT_TDRDBGCTRLTYPE TdrControl;
+  union {
+    ULONG NodeOrdinal;
+  };
+} D3DKMT_TDRDBGCTRL_ESCAPE;

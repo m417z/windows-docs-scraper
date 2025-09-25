@@ -1,0 +1,3 @@
+void FsRtlSupportsPerFileContexts(
+  _fo
+);

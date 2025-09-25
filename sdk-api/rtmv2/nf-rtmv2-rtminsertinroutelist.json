@@ -1,0 +1,58 @@
+{
+  "UID": "NF:rtmv2.RtmInsertInRouteList",
+  "title": "RtmInsertInRouteList function (rtmv2.h)",
+  "description": "The RtmInsertInRouteList function inserts the specified set of routes into the client's route list. If a route is already in another list, the route is removed from the old list and inserted into the new one.",
+  "helpviewer_keywords": [
+    "RtmInsertInRouteList",
+    "RtmInsertInRouteList function [RAS]",
+    "_rtmv2ref_rtminsertinroutelist",
+    "rras.rtminsertinroutelist",
+    "rtmv2/RtmInsertInRouteList"
+  ],
+  "old-location": "rras\\rtminsertinroutelist.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "e0145bdc-5000-429d-8603-1ebc6003a2bc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RtmInsertInRouteList, RtmInsertInRouteList function [RAS], _rtmv2ref_rtminsertinroutelist, rras.rtminsertinroutelist, rtmv2/RtmInsertInRouteList",
+  "req.header": "rtmv2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rtm.lib",
+  "req.dll": "Rtm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtmInsertInRouteList",
+    "rtmv2/RtmInsertInRouteList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rtm.dll"
+  ],
+  "api_name": [
+    "RtmInsertInRouteList"
+  ]
+}

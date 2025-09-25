@@ -1,0 +1,9 @@
+typedef struct _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE {
+  IN USHORT                  Size;
+  IN USHORT                  Version;
+  OUT PVOID                  Context;
+  OUT PINTERFACE_REFERENCE   InterfaceReference;
+  OUT PINTERFACE_DEREFERENCE InterfaceDereference;
+  OUT PROTECT_WC_MEMORY      VideoPortProtectWCMemory;
+  OUT RESTORE_WC_MEMORY      VideoPortRestoreWCMemory;
+} VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE;

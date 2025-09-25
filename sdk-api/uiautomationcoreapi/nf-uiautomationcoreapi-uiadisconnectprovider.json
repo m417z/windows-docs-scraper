@@ -1,0 +1,61 @@
+{
+  "UID": "NF:uiautomationcoreapi.UiaDisconnectProvider",
+  "title": "UiaDisconnectProvider function (uiautomationcoreapi.h)",
+  "description": "Releases all references that a particular provider holds to Microsoft UI Automation objects.",
+  "helpviewer_keywords": [
+    "UiaDisconnectProvider",
+    "UiaDisconnectProvider function [Windows Accessibility]",
+    "uiautomationcoreapi/UiaDisconnectProvider",
+    "winauto.uiauto_UiaDisconnectProvider"
+  ],
+  "old-location": "winauto\\uiauto_UiaDisconnectProvider.htm",
+  "tech.root": "WinAuto",
+  "ms.assetid": "D4CE0071-47C4-421D-A0F1-D6E2D9983838",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider",
+  "req.header": "uiautomationcoreapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uiautomationcore.lib",
+  "req.dll": "Uiautomationcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "UiaDisconnectProvider",
+    "uiautomationcoreapi/UiaDisconnectProvider"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Uiautomationcore.dll",
+    "Ext-MS-Win-uiacore-l1-1-0.dll",
+    "Ext-MS-Win-UIaCore-l1-1-1.dll",
+    "Ext-MS-Win-UIaCore-l1-1-2.dll",
+    "Ext-MS-Win-UiaCore-L1-1-3.dll"
+  ],
+  "api_name": [
+    "UiaDisconnectProvider"
+  ]
+}

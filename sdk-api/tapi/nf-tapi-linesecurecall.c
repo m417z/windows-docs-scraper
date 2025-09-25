@@ -1,0 +1,3 @@
+LONG lineSecureCall(
+  HCALL hCall
+);

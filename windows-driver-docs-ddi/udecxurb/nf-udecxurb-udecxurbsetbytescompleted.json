@@ -1,0 +1,49 @@
+{
+  "UID": "NF:udecxurb.UdecxUrbSetBytesCompleted",
+  "title": "UdecxUrbSetBytesCompleted function (udecxurb.h)",
+  "description": "Sets the number of bytes transferred for the URB contained within a framework request object.",
+  "old-location": "buses\\udecxurbsetbytescompleted.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UdecxUrbSetBytesCompleted function"
+  ],
+  "ms.keywords": "UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted",
+  "req.header": "udecxurb.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Udecxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UdecxUrbSetBytesCompleted",
+    "udecxurb/UdecxUrbSetBytesCompleted"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Udecxstub.lib",
+    "Udecxstub.dll"
+  ],
+  "api_name": [
+    "UdecxUrbSetBytesCompleted"
+  ]
+}

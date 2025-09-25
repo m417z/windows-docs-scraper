@@ -1,0 +1,41 @@
+## Description
+
+This topic describes the **KSPROPERTY_BDA_TOPOLOGY** enumeration.
+
+## Constants
+
+### `KSPROPERTY_BDA_NODE_TYPES`
+
+Defines the **KSPROPERTY_BDA_NODE_TYPES** constant.
+
+### `KSPROPERTY_BDA_PIN_TYPES`
+
+Defines the **KSPROPERTY_BDA_PIN_TYPES** constant.
+
+### `KSPROPERTY_BDA_TEMPLATE_CONNECTIONS`
+
+Defines the **KSPROPERTY_BDA_TEMPLATE_CONNECTIONS** constant.
+
+### `KSPROPERTY_BDA_NODE_METHODS`
+
+Defines the **KSPROPERTY_BDA_NODE_METHODS** constant.
+
+### `KSPROPERTY_BDA_NODE_PROPERTIES`
+
+Defines the **KSPROPERTY_BDA_NODE_PROPERTIES** constant.
+
+### `KSPROPERTY_BDA_NODE_EVENTS`
+
+Defines the **KSPROPERTY_BDA_NODE_EVENTS** constant.
+
+### `KSPROPERTY_BDA_CONTROLLING_PIN_ID`
+
+Defines the **KSPROPERTY_BDA_CONTROLLING_PIN_ID** constant.
+
+### `KSPROPERTY_BDA_NODE_DESCRIPTORS`
+
+Defines the **KSPROPERTY_BDA_NODE_DESCRIPTORS** constant.
+
+## Remarks
+
+## See also

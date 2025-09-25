@@ -1,0 +1,1 @@
+WDF_DEVICE_IO_TYPE GetEffectiveIoType();

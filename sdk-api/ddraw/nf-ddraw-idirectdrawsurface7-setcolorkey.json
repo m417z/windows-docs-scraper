@@ -1,0 +1,68 @@
+{
+  "UID": "NF:ddraw.IDirectDrawSurface7.SetColorKey",
+  "title": "IDirectDrawSurface7::SetColorKey (ddraw.h)",
+  "description": "Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.",
+  "helpviewer_keywords": [
+    "DDCKEY_COLORSPACE",
+    "DDCKEY_DESTBLT",
+    "DDCKEY_DESTOVERLAY",
+    "DDCKEY_SRCBLT",
+    "DDCKEY_SRCOVERLAY",
+    "IDirectDrawSurface7 interface [DirectDraw]",
+    "SetColorKey method",
+    "IDirectDrawSurface7.SetColorKey",
+    "IDirectDrawSurface7::SetColorKey",
+    "SetColorKey",
+    "SetColorKey method [DirectDraw]",
+    "SetColorKey method [DirectDraw]",
+    "IDirectDrawSurface7 interface",
+    "ddraw/IDirectDrawSurface7::SetColorKey",
+    "directdraw.idirectdrawsurface7_setcolorkey"
+  ],
+  "old-location": "directdraw\\idirectdrawsurface7_setcolorkey.htm",
+  "tech.root": "directdraw",
+  "ms.assetid": "36f2510e-d12a-40af-b65c-aa36ce46a942",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DDCKEY_COLORSPACE, DDCKEY_DESTBLT, DDCKEY_DESTOVERLAY, DDCKEY_SRCBLT, DDCKEY_SRCOVERLAY, IDirectDrawSurface7 interface [DirectDraw],SetColorKey method, IDirectDrawSurface7.SetColorKey, IDirectDrawSurface7::SetColorKey, SetColorKey, SetColorKey method [DirectDraw], SetColorKey method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetColorKey, directdraw.idirectdrawsurface7_setcolorkey",
+  "req.header": "ddraw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ddraw.lib",
+  "req.dll": "Ddraw.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDirectDrawSurface7::SetColorKey",
+    "ddraw/IDirectDrawSurface7::SetColorKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Ddraw.dll"
+  ],
+  "api_name": [
+    "IDirectDrawSurface7.SetColorKey"
+  ]
+}

@@ -1,0 +1,19 @@
+typedef struct D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC {
+  DXGI_FORMAT                           Format;
+  DXGI_COLOR_SPACE_TYPE                 ColorSpace;
+  DXGI_RATIONAL                         SourceAspectRatio;
+  DXGI_RATIONAL                         DestinationAspectRatio;
+  DXGI_RATIONAL                         FrameRate;
+  D3D12_VIDEO_SIZE_RANGE                SourceSizeRange;
+  D3D12_VIDEO_SIZE_RANGE                DestinationSizeRange;
+  BOOL                                  EnableOrientation;
+  D3D12_VIDEO_PROCESS_FILTER_FLAGS      FilterFlags;
+  D3D12_VIDEO_FRAME_STEREO_FORMAT       StereoFormat;
+  D3D12_VIDEO_FIELD_TYPE                FieldType;
+  D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS DeinterlaceMode;
+  BOOL                                  EnableAlphaBlending;
+  D3D12_VIDEO_PROCESS_LUMA_KEY          LumaKey;
+  UINT                                  NumPastFrames;
+  UINT                                  NumFutureFrames;
+  BOOL                                  EnableAutoProcessing;
+} D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC;

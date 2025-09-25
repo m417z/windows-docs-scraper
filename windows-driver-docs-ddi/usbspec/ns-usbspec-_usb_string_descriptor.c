@@ -1,0 +1,5 @@
+typedef struct _USB_STRING_DESCRIPTOR {
+  UCHAR bLength;
+  UCHAR bDescriptorType;
+  WCHAR bString[1];
+} USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR;

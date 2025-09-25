@@ -1,0 +1,4 @@
+IPHLPAPI_DLL_LINKAGE _NETIOAPI_SUCCESS_ NETIOAPI_API GetIfEntry2Ex(
+  [in]      MIB_IF_ENTRY_LEVEL Level,
+  [in, out] PMIB_IF_ROW2       Row
+);

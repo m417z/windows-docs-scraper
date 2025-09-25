@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_GETVENDORANDDEVICE",
+  "title": "DXGKDDI_GETVENDORANDDEVICE",
+  "description": "This routine supplies the Vendor and Device IDs for a PCI Express SR-IOV Virtual Function (VF) to be used as the basis for the more generic Plug and Play IDs for the VF.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DXGKDDI_GETVENDORANDDEVICE callback function"
+  ],
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DXGKDDI_GETVENDORANDDEVICE",
+    "dispmprt/DXGKDDI_GETVENDORANDDEVICE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_GETVENDORANDDEVICE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

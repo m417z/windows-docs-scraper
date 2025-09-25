@@ -1,0 +1,4 @@
+typedef struct _WWAN_LTE_MRL {
+  ULONG ElementCount;
+  BYTE  LTEMrl[ANYSIZE_ARRAY];
+} WWAN_LTE_MRL, *PWWAN_LTE_MRL;

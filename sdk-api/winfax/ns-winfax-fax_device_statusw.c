@@ -1,0 +1,22 @@
+typedef struct _FAX_DEVICE_STATUSW {
+  DWORD    SizeOfStruct;
+  LPCWSTR  CallerId;
+  LPCWSTR  Csid;
+  DWORD    CurrentPage;
+  DWORD    DeviceId;
+  LPCWSTR  DeviceName;
+  LPCWSTR  DocumentName;
+  DWORD    JobType;
+  LPCWSTR  PhoneNumber;
+  LPCWSTR  RoutingString;
+  LPCWSTR  SenderName;
+  LPCWSTR  RecipientName;
+  DWORD    Size;
+  FILETIME StartTime;
+  DWORD    Status;
+  LPCWSTR  StatusString;
+  FILETIME SubmittedTime;
+  DWORD    TotalPages;
+  LPCWSTR  Tsid;
+  LPCWSTR  UserName;
+} FAX_DEVICE_STATUSW, *PFAX_DEVICE_STATUSW;

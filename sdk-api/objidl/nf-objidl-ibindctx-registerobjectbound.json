@@ -1,0 +1,64 @@
+{
+  "UID": "NF:objidl.IBindCtx.RegisterObjectBound",
+  "title": "IBindCtx::RegisterObjectBound (objidl.h)",
+  "description": "Registers an object with the bind context to ensure that the object remains active until the bind context is released.",
+  "helpviewer_keywords": [
+    "IBindCtx interface [COM]",
+    "RegisterObjectBound method",
+    "IBindCtx.RegisterObjectBound",
+    "IBindCtx::RegisterObjectBound",
+    "RegisterObjectBound",
+    "RegisterObjectBound method [COM]",
+    "RegisterObjectBound method [COM]",
+    "IBindCtx interface",
+    "_com_ibindctx_registerobjectbound",
+    "com.ibindctx_registerobjectbound",
+    "objidl/IBindCtx::RegisterObjectBound"
+  ],
+  "old-location": "com\\ibindctx_registerobjectbound.htm",
+  "tech.root": "com",
+  "ms.assetid": "84d49231-5fdd-4a89-8e76-1f0e56bc553f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IBindCtx interface [COM],RegisterObjectBound method, IBindCtx.RegisterObjectBound, IBindCtx::RegisterObjectBound, RegisterObjectBound, RegisterObjectBound method [COM], RegisterObjectBound method [COM],IBindCtx interface, _com_ibindctx_registerobjectbound, com.ibindctx_registerobjectbound, objidl/IBindCtx::RegisterObjectBound",
+  "req.header": "objidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "ObjIdl.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IBindCtx::RegisterObjectBound",
+    "objidl/IBindCtx::RegisterObjectBound"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ObjIdl.h"
+  ],
+  "api_name": [
+    "IBindCtx.RegisterObjectBound"
+  ]
+}

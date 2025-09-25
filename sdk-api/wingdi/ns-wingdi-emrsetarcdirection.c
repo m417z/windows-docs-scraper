@@ -1,0 +1,4 @@
+typedef struct tagEMRSETARCDIRECTION {
+  EMR   emr;
+  DWORD iArcDirection;
+} EMRSETARCDIRECTION, *PEMRSETARCDIRECTION;

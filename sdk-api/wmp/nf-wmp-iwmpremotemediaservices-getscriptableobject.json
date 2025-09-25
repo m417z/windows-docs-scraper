@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wmp.IWMPRemoteMediaServices.GetScriptableObject",
+  "title": "IWMPRemoteMediaServices::GetScriptableObject (wmp.h)",
+  "description": "The GetScriptableObject method is called by Windows Media Player to retrieve a name and interface pointer for an object that can be called from the script code within a skin.",
+  "helpviewer_keywords": [
+    "GetScriptableObject",
+    "GetScriptableObject method [Windows Media Player]",
+    "GetScriptableObject method [Windows Media Player]",
+    "IWMPRemoteMediaServices interface",
+    "IWMPRemoteMediaServices interface [Windows Media Player]",
+    "GetScriptableObject method",
+    "IWMPRemoteMediaServices.GetScriptableObject",
+    "IWMPRemoteMediaServices::GetScriptableObject",
+    "IWMPRemoteMediaServicesGetScriptableObject",
+    "wmp.iwmpremotemediaservices_getscriptableobject",
+    "wmp/IWMPRemoteMediaServices::GetScriptableObject"
+  ],
+  "old-location": "wmp\\iwmpremotemediaservices_getscriptableobject.htm",
+  "tech.root": "WMP",
+  "ms.assetid": "c2e313fd-cbf6-4b0f-8eb0-1097af53e77a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetScriptableObject, GetScriptableObject method [Windows Media Player], GetScriptableObject method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetScriptableObject method, IWMPRemoteMediaServices.GetScriptableObject, IWMPRemoteMediaServices::GetScriptableObject, IWMPRemoteMediaServicesGetScriptableObject, wmp.iwmpremotemediaservices_getscriptableobject, wmp/IWMPRemoteMediaServices::GetScriptableObject",
+  "req.header": "wmp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Media Player 9 Series or later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Wmp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMPRemoteMediaServices::GetScriptableObject",
+    "wmp/IWMPRemoteMediaServices::GetScriptableObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "wmp.dll"
+  ],
+  "api_name": [
+    "IWMPRemoteMediaServices.GetScriptableObject"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltCompletePendedPostOperation",
+  "title": "FltCompletePendedPostOperation function (fltkernel.h)",
+  "description": "FltCompletePendedPostOperation resumes completion processing for an I/O operation that was pended in a minifilter driver's postoperation callback routine.",
+  "old-location": "ifsk\\fltcompletependedpostoperation.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltCompletePendedPostOperation function"
+  ],
+  "ms.keywords": "FltApiRef_a_to_d_ce848a3a-9d76-433d-a65c-e67ea0f9550b.xml, FltCompletePendedPostOperation, FltCompletePendedPostOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPostOperation, ifsk.fltcompletependedpostoperation",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltCompletePendedPostOperation",
+    "fltkernel/FltCompletePendedPostOperation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "FltMgr.lib",
+    "FltMgr.dll"
+  ],
+  "api_name": [
+    "FltCompletePendedPostOperation"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._FILE_ALLOCATED_RANGE_BUFFER",
+  "tech.root": "ifsk",
+  "title": "FILE_ALLOCATED_RANGE_BUFFER",
+  "ms.date": "10/07/2022",
+  "targetos": "Windows",
+  "description": "Learn more about the FILE_ALLOCATED_RANGE_BUFFER structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_ALLOCATED_RANGE_BUFFER",
+    "PFILE_ALLOCATED_RANGE_BUFFER",
+    "FILE_ALLOCATED_RANGE_BUFFER"
+  ],
+  "f1_keywords": [
+    "_FILE_ALLOCATED_RANGE_BUFFER",
+    "ntifs/_FILE_ALLOCATED_RANGE_BUFFER",
+    "PFILE_ALLOCATED_RANGE_BUFFER",
+    "ntifs/PFILE_ALLOCATED_RANGE_BUFFER",
+    "FILE_ALLOCATED_RANGE_BUFFER",
+    "ntifs/FILE_ALLOCATED_RANGE_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_FILE_ALLOCATED_RANGE_BUFFER"
+  ],
+  "ms.custom": "engagement-fy23"
+}

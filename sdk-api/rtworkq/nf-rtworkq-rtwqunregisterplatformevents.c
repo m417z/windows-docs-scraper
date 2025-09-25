@@ -1,0 +1,3 @@
+HRESULT RtwqUnregisterPlatformEvents(
+  IRtwqPlatformEvents *platformEvents
+);

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:evntrace.TraceEvent",
+  "title": "TraceEvent function (evntrace.h)",
+  "description": "A RegisterTraceGuids-based (\"Classic\") event provider uses the TraceEvent function to send a structured event to an event tracing session.",
+  "helpviewer_keywords": [
+    "TraceEvent",
+    "TraceEvent function [ETW]",
+    "_evt_traceevent",
+    "base.traceevent",
+    "etw.traceevent",
+    "evntrace/TraceEvent"
+  ],
+  "old-location": "etw\\traceevent.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "9b21f6f0-dd9b-4f9c-a879-846901a3bab7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TraceEvent, TraceEvent function [ETW], _evt_traceevent, base.traceevent, etw.traceevent, evntrace/TraceEvent",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TraceEvent",
+    "evntrace/TraceEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "API-MS-Win-eventing-classicprovider-l1-1-0.dll"
+  ],
+  "api_name": [
+    "TraceEvent"
+  ]
+}

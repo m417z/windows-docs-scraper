@@ -1,0 +1,4 @@
+WORD MAKELANGID(
+    USHORT p,
+    USHORT s
+);

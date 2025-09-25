@@ -1,0 +1,4 @@
+typedef struct IPV6_LOCAL_BINDING {
+  IN6_ADDR Address;
+  DWORD    PrefixLength;
+} IPV6_LOCAL_BINDING, *PIPV6_LOCAL_BINDING;

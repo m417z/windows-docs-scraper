@@ -1,0 +1,3 @@
+void IoRingHandleRefFromIndex(
+  i
+);

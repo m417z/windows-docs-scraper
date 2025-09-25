@@ -1,0 +1,7 @@
+typedef struct _LOOKUP_STREAM_FROM_CLUSTER_ENTRY {
+  DWORD         OffsetToNext;
+  DWORD         Flags;
+  LARGE_INTEGER Reserved;
+  LARGE_INTEGER Cluster;
+  WCHAR         FileName[1];
+} LOOKUP_STREAM_FROM_CLUSTER_ENTRY, *PLOOKUP_STREAM_FROM_CLUSTER_ENTRY;

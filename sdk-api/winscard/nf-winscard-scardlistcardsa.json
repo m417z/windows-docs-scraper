@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winscard.SCardListCardsA",
+  "title": "SCardListCardsA function (winscard.h)",
+  "description": "Searches the smart card database and provides a list of named cards previously introduced to the system by the user. (ANSI)",
+  "helpviewer_keywords": [
+    "SCardListCardsA",
+    "winscard/SCardListCardsA"
+  ],
+  "old-location": "security\\scardlistcards.htm",
+  "tech.root": "security",
+  "ms.assetid": "b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SCardListCards, SCardListCards function [Security], SCardListCardsA, SCardListCardsW, _smart_scardlistcards, security.scardlistcards, winscard/SCardListCards, winscard/SCardListCardsA, winscard/SCardListCardsW",
+  "req.header": "winscard.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SCardListCardsW (Unicode) and SCardListCardsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winscard.lib",
+  "req.dll": "Winscard.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SCardListCardsA",
+    "winscard/SCardListCardsA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winscard.dll",
+    "Ext-MS-Win-wlan-scard-l1-1-0.dll",
+    "Ext-MS-Win-Security-WinSCard-L1-1-0.dll"
+  ],
+  "api_name": [
+    "SCardListCards",
+    "SCardListCardsA",
+    "SCardListCardsW"
+  ]
+}

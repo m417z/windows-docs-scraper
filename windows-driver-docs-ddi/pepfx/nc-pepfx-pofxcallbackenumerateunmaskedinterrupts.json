@@ -1,0 +1,48 @@
+{
+  "UID": "NC:pepfx.POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS",
+  "title": "POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS (pepfx.h)",
+  "description": "The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled.",
+  "old-location": "kernel\\enumerateunmaskedinterrupts.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function"
+  ],
+  "ms.keywords": "EnumerateUnmaskedInterrupts, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterruptsext, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, kernel.enumerateunmaskedinterrupts, pepfx/EnumerateUnmaskedInterrupts",
+  "req.header": "pepfx.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= HIGH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS",
+    "pepfx/POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS"
+  ]
+}

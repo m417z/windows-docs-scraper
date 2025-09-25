@@ -1,0 +1,28 @@
+typedef struct JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 {
+  DWORD                            LimitFlags;
+  DWORD                            ViolationLimitFlags;
+  DWORD64                          IoReadBytes;
+  DWORD64                          IoReadBytesLimit;
+  DWORD64                          IoWriteBytes;
+  DWORD64                          IoWriteBytesLimit;
+  LARGE_INTEGER                    PerJobUserTime;
+  LARGE_INTEGER                    PerJobUserTimeLimit;
+  DWORD64                          JobMemory;
+  union {
+    DWORD64 JobHighMemoryLimit;
+    DWORD64 JobMemoryLimit;
+  } DUMMYUNIONNAME;
+  union {
+    JOBOBJECT_RATE_CONTROL_TOLERANCE RateControlTolerance;
+    JOBOBJECT_RATE_CONTROL_TOLERANCE CpuRateControlTolerance;
+  } DUMMYUNIONNAME2;
+  union {
+    JOBOBJECT_RATE_CONTROL_TOLERANCE RateControlToleranceLimit;
+    JOBOBJECT_RATE_CONTROL_TOLERANCE CpuRateControlToleranceLimit;
+  } DUMMYUNIONNAME3;
+  DWORD64                          JobLowMemoryLimit;
+  JOBOBJECT_RATE_CONTROL_TOLERANCE IoRateControlTolerance;
+  JOBOBJECT_RATE_CONTROL_TOLERANCE IoRateControlToleranceLimit;
+  JOBOBJECT_RATE_CONTROL_TOLERANCE NetRateControlTolerance;
+  JOBOBJECT_RATE_CONTROL_TOLERANCE NetRateControlToleranceLimit;
+} JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2;

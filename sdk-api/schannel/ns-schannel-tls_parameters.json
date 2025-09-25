@@ -1,0 +1,47 @@
+{
+  "UID": "NS:schannel._TLS_PARAMETERS",
+  "title": "TLS_PARAMETERS",
+  "ms.date": "11/4/2019",
+  "targetos": "Windows",
+  "description": "Indicates TLS parameter restrictions.",
+  "tech.root": "security",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "schannel.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 1809 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.typenames": "TLS_PARAMETERS, *PTLS_PARAMETERS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "schannel.h"
+  ],
+  "api_name": [
+    "_TLS_PARAMETERS",
+    "TLS_PARAMETERS"
+  ],
+  "f1_keywords": [
+    "_TLS_PARAMETERS",
+    "schannel/_TLS_PARAMETERS",
+    "PTLS_PARAMETERS",
+    "schannel/PTLS_PARAMETERS",
+    "TLS_PARAMETERS",
+    "schannel/TLS_PARAMETERS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetDefaultMetadata(
+  IKeyStore **defaultMetadataStore
+);

@@ -1,0 +1,3 @@
+typedef enum RILUICCPRLID {
+  RIL_UICC_PRLID_UNSPECIFIED
+} ;

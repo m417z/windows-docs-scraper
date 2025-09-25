@@ -1,0 +1,4 @@
+typedef struct _PEP_PPM_QUERY_IDLE_STATES_V2 {
+  [in]  ULONG                       Count;
+        PEP_PROCESSOR_IDLE_STATE_V2 IdleStates[ANYSIZE_ARRAY];
+} PEP_PPM_QUERY_IDLE_STATES_V2, *PPEP_PPM_QUERY_IDLE_STATES_V2;

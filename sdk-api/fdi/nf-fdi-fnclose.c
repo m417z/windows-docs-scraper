@@ -1,0 +1,3 @@
+void FNCLOSE(
+  [in] fn
+);

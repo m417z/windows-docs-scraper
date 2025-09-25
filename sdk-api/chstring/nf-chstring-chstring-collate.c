@@ -1,0 +1,3 @@
+int Collate(
+  LPCWSTR lpsz
+);

@@ -1,0 +1,4 @@
+typedef struct _RKF_BYPASS_ECP_CONTEXT {
+  INT Reserved;
+  INT Version;
+} RKF_BYPASS_ECP_CONTEXT, *PRKF_BYPASS_ECP_CONTEXT;

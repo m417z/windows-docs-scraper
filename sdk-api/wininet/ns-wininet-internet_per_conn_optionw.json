@@ -1,0 +1,80 @@
+{
+  "UID": "NS:wininet.INTERNET_PER_CONN_OPTIONW",
+  "title": "INTERNET_PER_CONN_OPTIONW (wininet.h)",
+  "description": "Contains the value of an option. (Unicode)",
+  "helpviewer_keywords": [
+    "*LPINTERNET_PER_CONN_OPTIONW",
+    "INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_TIME",
+    "INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_URL",
+    "INTERNET_PER_CONN_AUTOCONFIG_RELOAD_DELAY_MINS",
+    "INTERNET_PER_CONN_AUTOCONFIG_SECONDARY_URL",
+    "INTERNET_PER_CONN_AUTOCONFIG_URL",
+    "INTERNET_PER_CONN_AUTODISCOVERY_FLAGS",
+    "INTERNET_PER_CONN_FLAGS",
+    "INTERNET_PER_CONN_FLAGS_UI",
+    "INTERNET_PER_CONN_OPTION",
+    "INTERNET_PER_CONN_OPTION structure [WinINet]",
+    "INTERNET_PER_CONN_OPTIONA",
+    "INTERNET_PER_CONN_OPTIONW",
+    "INTERNET_PER_CONN_PROXY_BYPASS",
+    "INTERNET_PER_CONN_PROXY_SERVER",
+    "LPINTERNET_PER_CONN_OPTION",
+    "LPINTERNET_PER_CONN_OPTION structure pointer [WinINet]",
+    "_inet_internet_per_conn_option_structure",
+    "wininet.internet_per_conn_option",
+    "wininet/INTERNET_PER_CONN_OPTION",
+    "wininet/INTERNET_PER_CONN_OPTIONA",
+    "wininet/INTERNET_PER_CONN_OPTIONW",
+    "wininet/LPINTERNET_PER_CONN_OPTION"
+  ],
+  "old-location": "wininet\\internet_per_conn_option.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "35cfc768-1f1d-4be9-8d56-c56c7440513e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPINTERNET_PER_CONN_OPTIONW, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_TIME, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_URL, INTERNET_PER_CONN_AUTOCONFIG_RELOAD_DELAY_MINS, INTERNET_PER_CONN_AUTOCONFIG_SECONDARY_URL, INTERNET_PER_CONN_AUTOCONFIG_URL, INTERNET_PER_CONN_AUTODISCOVERY_FLAGS, INTERNET_PER_CONN_FLAGS, INTERNET_PER_CONN_FLAGS_UI, INTERNET_PER_CONN_OPTION, INTERNET_PER_CONN_OPTION structure [WinINet], INTERNET_PER_CONN_OPTIONA, INTERNET_PER_CONN_OPTIONW, INTERNET_PER_CONN_PROXY_BYPASS, INTERNET_PER_CONN_PROXY_SERVER, LPINTERNET_PER_CONN_OPTION, LPINTERNET_PER_CONN_OPTION structure pointer [WinINet], _inet_internet_per_conn_option_structure, wininet.internet_per_conn_option, wininet/INTERNET_PER_CONN_OPTION, wininet/INTERNET_PER_CONN_OPTIONA, wininet/INTERNET_PER_CONN_OPTIONW, wininet/LPINTERNET_PER_CONN_OPTION",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "INTERNET_PER_CONN_OPTIONW (Unicode) and INTERNET_PER_CONN_OPTIONA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "INTERNET_PER_CONN_OPTIONW, *LPINTERNET_PER_CONN_OPTIONW",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LPINTERNET_PER_CONN_OPTIONW",
+    "wininet/LPINTERNET_PER_CONN_OPTIONW",
+    "INTERNET_PER_CONN_OPTIONW",
+    "wininet/INTERNET_PER_CONN_OPTIONW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wininet.h"
+  ],
+  "api_name": [
+    "INTERNET_PER_CONN_OPTION",
+    "INTERNET_PER_CONN_OPTIONA",
+    "INTERNET_PER_CONN_OPTIONW"
+  ]
+}

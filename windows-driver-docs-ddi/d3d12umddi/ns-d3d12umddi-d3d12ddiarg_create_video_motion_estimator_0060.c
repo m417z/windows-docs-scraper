@@ -1,0 +1,8 @@
+typedef struct D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060 {
+  UINT                                                   NodeMask;
+  DXGI_FORMAT                                            InputFormat;
+  D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053 BlockSize;
+  D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053  Precision;
+  D3D12DDI_VIDEO_SIZE_RANGE_0032                         SizeRange;
+  D3D12DDI_HPROTECTEDRESOURCESESSION_0030                hDrvProtectedResourceSession;
+} D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060;

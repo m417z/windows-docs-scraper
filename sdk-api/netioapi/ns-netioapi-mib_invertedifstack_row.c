@@ -1,0 +1,4 @@
+typedef struct _MIB_INVERTEDIFSTACK_ROW {
+  NET_IFINDEX LowerLayerInterfaceIndex;
+  NET_IFINDEX HigherLayerInterfaceIndex;
+} MIB_INVERTEDIFSTACK_ROW, *PMIB_INVERTEDIFSTACK_ROW;

@@ -1,0 +1,3 @@
+VOID PS_AVAILABLE_CPUS_CHANGE_CALLBACK(
+                 PVOID Parameter
+);

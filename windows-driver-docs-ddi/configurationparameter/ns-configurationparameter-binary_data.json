@@ -1,0 +1,48 @@
+{
+  "UID": "NS:configurationparameter.BINARY_DATA",
+  "tech.root": "netvista",
+  "title": "BINARY_DATA",
+  "ms.date": "07/22/2025",
+  "targetos": "Windows",
+  "description": "The BINARY_DATA structure contains the binary data of a named entry in the registry.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "configurationparameter.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers in Windows Vista. Supported for NDIS   5.1 drivers in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "BINARY_DATA",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "configurationparameter.h"
+  ],
+  "api_name": [
+    "BINARY_DATA"
+  ],
+  "f1_keywords": [
+    "BINARY_DATA",
+    "configurationparameter/BINARY_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "BINARY_DATA"
+  ]
+}

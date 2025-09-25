@@ -1,0 +1,1 @@
+POWER_PLATFORM_ROLE PowerDeterminePlatformRole();

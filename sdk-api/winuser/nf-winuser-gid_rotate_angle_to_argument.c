@@ -1,0 +1,3 @@
+void GID_ROTATE_ANGLE_TO_ARGUMENT(
+  _arg_
+);

@@ -1,0 +1,78 @@
+{
+  "UID": "NF:winbase.CopyFileExW",
+  "title": "CopyFileExW function (winbase.h)",
+  "description": "Copies an existing file to a new file, notifying the application of its progress through a callback function. (CopyFileExW)",
+  "helpviewer_keywords": [
+    "COPY_FILE_ALLOW_DECRYPTED_DESTINATION",
+    "COPY_FILE_COPY_SYMLINK",
+    "COPY_FILE_FAIL_IF_EXISTS",
+    "COPY_FILE_NO_BUFFERING",
+    "COPY_FILE_OPEN_SOURCE_FOR_WRITE",
+    "COPY_FILE_RESTARTABLE",
+    "CopyFileEx",
+    "CopyFileEx function [Files]",
+    "CopyFileExW",
+    "_win32_copyfileex",
+    "base.copyfileex",
+    "fs.copyfileex",
+    "winbase/CopyFileEx",
+    "winbase/CopyFileExW"
+  ],
+  "old-location": "fs\\copyfileex.htm",
+  "tech.root": "fs",
+  "ms.assetid": "e19f0299-54fa-4e1e-855a-d2c71d29611b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileEx, CopyFileEx function [Files], CopyFileExA, CopyFileExW, _win32_copyfileex, base.copyfileex, fs.copyfileex, winbase/CopyFileEx, winbase/CopyFileExA, winbase/CopyFileExW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CopyFileExW (Unicode) and CopyFileExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CopyFileExW",
+    "winbase/CopyFileExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l2-1-4.dll",
+    "api-ms-win-core-file-l2-1-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l2-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l2-1-1.dll",
+    "API-MS-Win-Core-File-l2-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "API-Ms-Win-Core-File-Ansi-L2-1-0.dll",
+    "Kernel32Legacy.dll"
+  ],
+  "api_name": [
+    "CopyFileEx",
+    "CopyFileExA",
+    "CopyFileExW"
+  ]
+}

@@ -1,0 +1,3 @@
+void NdisInterlockedIncrement(
+  [in] Addend
+);

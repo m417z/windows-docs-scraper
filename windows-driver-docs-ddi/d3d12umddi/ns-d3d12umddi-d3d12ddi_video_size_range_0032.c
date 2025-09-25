@@ -1,0 +1,6 @@
+typedef struct D3D12DDI_VIDEO_SIZE_RANGE_0032 {
+  UINT MaxWidth;
+  UINT MaxHeight;
+  UINT MinWidth;
+  UINT MinHeight;
+} D3D12DDI_VIDEO_SIZE_RANGE_0032;

@@ -1,0 +1,3 @@
+USHORT READ_PORT_USHORT(
+  [in] PUSHORT Port
+);

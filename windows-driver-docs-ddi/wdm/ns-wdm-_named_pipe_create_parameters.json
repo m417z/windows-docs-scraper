@@ -1,0 +1,53 @@
+{
+  "UID": "NS:wdm._NAMED_PIPE_CREATE_PARAMETERS",
+  "title": "_NAMED_PIPE_CREATE_PARAMETERS (wdm.h)",
+  "description": "The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows subsystem to create a named pipe.",
+  "tech.root": "kernel",
+  "ms.date": "11/06/2019",
+  "keywords": [
+    "NAMED_PIPE_CREATE_PARAMETERS structure"
+  ],
+  "ms.keywords": "*PNAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS structure",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NAMED_PIPE_CREATE_PARAMETERS, *PNAMED_PIPE_CREATE_PARAMETERS",
+  "f1_keywords": [
+    "_NAMED_PIPE_CREATE_PARAMETERS",
+    "wdm/_NAMED_PIPE_CREATE_PARAMETERS",
+    "PNAMED_PIPE_CREATE_PARAMETERS",
+    "wdm/PNAMED_PIPE_CREATE_PARAMETERS",
+    "NAMED_PIPE_CREATE_PARAMETERS",
+    "wdm/NAMED_PIPE_CREATE_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_NAMED_PIPE_CREATE_PARAMETERS",
+    "PNAMED_PIPE_CREATE_PARAMETERS",
+    "NAMED_PIPE_CREATE_PARAMETERS"
+  ]
+}

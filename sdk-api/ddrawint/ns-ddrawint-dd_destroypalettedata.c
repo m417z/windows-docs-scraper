@@ -1,0 +1,6 @@
+typedef struct _DD_DESTROYPALETTEDATA {
+  PDD_DIRECTDRAW_GLOBAL lpDD;
+  PDD_PALETTE_GLOBAL    lpDDPalette;
+  HRESULT               ddRVal;
+  VOID                  *DestroyPalette;
+} *PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA;

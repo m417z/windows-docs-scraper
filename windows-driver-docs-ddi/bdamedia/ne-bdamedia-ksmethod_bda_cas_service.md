@@ -1,0 +1,25 @@
+## Description
+
+This topic describes the **KSMETHOD_BDA_CAS_SERVICE** enumeration.
+
+## Constants
+
+### `KSMETHOD_BDA_CAS_CHECKENTITLEMENTTOKEN`
+
+Defines the **KSMETHOD_BDA_CAS_CHECKENTITLEMENTTOKEN** constant.
+
+### `KSMETHOD_BDA_CAS_SETCAPTURETOKEN`
+
+Defines the **KSMETHOD_BDA_CAS_SETCAPTURETOKEN** constant.
+
+### `KSMETHOD_BDA_CAS_OPENBROADCASTMMI`
+
+Defines the **KSMETHOD_BDA_CAS_OPENBROADCASTMMI** constant.
+
+### `KSMETHOD_BDA_CAS_CLOSEMMIDIALOG`
+
+Defines the **KSMETHOD_BDA_CAS_CLOSEMMIDIALOG** constant.
+
+## Remarks
+
+## See also

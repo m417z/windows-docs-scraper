@@ -1,0 +1,63 @@
+{
+  "UID": "NF:dwrite_3.IDWriteFontDownloadQueue.AddListener",
+  "title": "IDWriteFontDownloadQueue::AddListener (dwrite_3.h)",
+  "description": "Registers a client-defined listener object that receives download notifications. All registered listener's DownloadCompleted will be called after BeginDownloadcompletes.",
+  "helpviewer_keywords": [
+    "AddListener",
+    "AddListener method [Direct Write]",
+    "AddListener method [Direct Write]",
+    "IDWriteFontDownloadQueue interface",
+    "IDWriteFontDownloadQueue interface [Direct Write]",
+    "AddListener method",
+    "IDWriteFontDownloadQueue.AddListener",
+    "IDWriteFontDownloadQueue::AddListener",
+    "directwrite.idwritefontdownloadqueue_addlistener",
+    "dwrite_3/IDWriteFontDownloadQueue::AddListener"
+  ],
+  "old-location": "directwrite\\idwritefontdownloadqueue_addlistener.htm",
+  "tech.root": "DirectWrite",
+  "ms.assetid": "c539be2d-bc77-cc8a-c78c-226a67b8dd26",
+  "ms.date": "09/10/2025",
+  "ms.keywords": "AddListener, AddListener method [Direct Write], AddListener method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],AddListener method, IDWriteFontDownloadQueue.AddListener, IDWriteFontDownloadQueue::AddListener, directwrite.idwritefontdownloadqueue_addlistener, dwrite_3/IDWriteFontDownloadQueue::AddListener",
+  "req.header": "dwrite_3.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dwrite.lib",
+  "req.dll": "Dwrite.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDWriteFontDownloadQueue::AddListener",
+    "dwrite_3/IDWriteFontDownloadQueue::AddListener"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dwrite.dll"
+  ],
+  "api_name": [
+    "IDWriteFontDownloadQueue.AddListener"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT OpenCUB(
+  [in] LPCOLESTR szCUBFile
+);

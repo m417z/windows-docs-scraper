@@ -1,0 +1,64 @@
+{
+  "UID": "NF:msrdc.IRdcSignatureReader.ReadHeader",
+  "title": "IRdcSignatureReader::ReadHeader (msrdc.h)",
+  "description": "Reads the signature header and returns a copy of the parameters used to generate the signatures.",
+  "helpviewer_keywords": [
+    "IRdcSignatureReader interface [Remote Differential Compression]",
+    "ReadHeader method",
+    "IRdcSignatureReader.ReadHeader",
+    "IRdcSignatureReader::ReadHeader",
+    "ReadHeader",
+    "ReadHeader method [Remote Differential Compression]",
+    "ReadHeader method [Remote Differential Compression]",
+    "IRdcSignatureReader interface",
+    "fs.irdcsignaturereader_readheader",
+    "msrdc/IRdcSignatureReader::ReadHeader",
+    "rdc.irdcsignaturereader_readheader"
+  ],
+  "old-location": "rdc\\irdcsignaturereader_readheader.htm",
+  "tech.root": "rdc",
+  "ms.assetid": "c0f4d31d-338f-49fc-9f1a-e8e31ffa1bc7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IRdcSignatureReader interface [Remote Differential Compression],ReadHeader method, IRdcSignatureReader.ReadHeader, IRdcSignatureReader::ReadHeader, ReadHeader, ReadHeader method [Remote Differential Compression], ReadHeader method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readheader, msrdc/IRdcSignatureReader::ReadHeader, rdc.irdcsignaturereader_readheader",
+  "req.header": "msrdc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "MsRdc.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": "MsRdc.dll",
+  "req.lib": null,
+  "req.dll": "MsRdc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IRdcSignatureReader::ReadHeader",
+    "msrdc/IRdcSignatureReader::ReadHeader"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "MsRdc.dll"
+  ],
+  "api_name": [
+    "IRdcSignatureReader.ReadHeader"
+  ]
+}

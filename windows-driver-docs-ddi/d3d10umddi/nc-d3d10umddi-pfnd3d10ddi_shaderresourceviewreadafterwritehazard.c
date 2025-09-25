@@ -1,0 +1,8 @@
+PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD Pfnd3d10ddiShaderresourceviewreadafterwritehazard;
+
+VOID Pfnd3d10ddiShaderresourceviewreadafterwritehazard(
+  D3D10DDI_HDEVICE unnamedParam1,
+  D3D10DDI_HSHADERRESOURCEVIEW unnamedParam2,
+  D3D10DDI_HRESOURCE unnamedParam3
+)
+{...}

@@ -1,0 +1,4 @@
+LONG MCIWndOpenInterface(
+     hwnd,
+     pUnk
+);

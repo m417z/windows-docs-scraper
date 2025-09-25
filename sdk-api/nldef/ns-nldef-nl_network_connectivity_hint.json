@@ -1,0 +1,53 @@
+{
+  "UID": "NS:nldef._NL_NETWORK_CONNECTIVITY_HINT",
+  "title": "NL_NETWORK_CONNECTIVITY_HINT",
+  "author": "windows-sdk-content",
+  "description": "Describes a level of network connectivity, the usage charge for a network connection, and other members reflecting cost factors.",
+  "tech.root": "IpHlp",
+  "ms.author": "windowssdkdev",
+  "ms.date": "10/21/2019",
+  "ms.keywords": "_NL_NETWORK_CONNECTIVITY_HINT, NL_NETWORK_CONNECTIVITY_HINT",
+  "req.header": "nldef.h",
+  "req.include-header": "iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NL_NETWORK_CONNECTIVITY_HINT",
+  "req.redist": null,
+  "f1_keywords": [
+    "_NL_NETWORK_CONNECTIVITY_HINT",
+    "nldef/_NL_NETWORK_CONNECTIVITY_HINT",
+    "NL_NETWORK_CONNECTIVITY_HINT",
+    "nldef/NL_NETWORK_CONNECTIVITY_HINT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Nldef.h"
+  ],
+  "api_name": [
+    "_NL_NETWORK_CONNECTIVITY_HINT",
+    "NL_NETWORK_CONNECTIVITY_HINT"
+  ]
+}

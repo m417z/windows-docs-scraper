@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntddk.RtlEqualString",
+  "title": "RtlEqualString function (ntddk.h)",
+  "description": "The RtlEqualString routine compares two counted strings to determine whether they are equal.",
+  "old-location": "kernel\\rtlequalstring.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlEqualString function"
+  ],
+  "ms.keywords": "RtlEqualString, RtlEqualString routine [Kernel-Mode Driver Architecture], k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml, kernel.rtlequalstring, ntddk/RtlEqualString",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlEqualString",
+    "ntddk/RtlEqualString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlEqualString"
+  ]
+}

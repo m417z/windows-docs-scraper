@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfstring.WdfStringGetUnicodeString",
+  "title": "WdfStringGetUnicodeString function (wdfstring.h)",
+  "description": "The WdfStringGetUnicodeString method retrieves the Unicode string that is assigned to a specified framework string object.",
+  "old-location": "wdf\\wdfstringgetunicodestring.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfStringGetUnicodeString function"
+  ],
+  "ms.keywords": "DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, kmdf.wdfstringgetunicodestring, wdf.wdfstringgetunicodestring, wdfstring/WdfStringGetUnicodeString",
+  "req.header": "wdfstring.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfStringGetUnicodeString",
+    "wdfstring/WdfStringGetUnicodeString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfStringGetUnicodeString"
+  ]
+}

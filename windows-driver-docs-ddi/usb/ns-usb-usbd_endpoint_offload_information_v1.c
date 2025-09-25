@@ -1,0 +1,23 @@
+typedef struct _USBD_ENDPOINT_OFFLOAD_INFORMATION_V1 {
+  ULONG                      Size;
+  USHORT                     EndpointAddress;
+  ULONG                      ResourceId;
+  USBD_ENDPOINT_OFFLOAD_MODE Mode;
+  ULONG                      RootHubPortNumber : 8;
+  ULONG                      RouteString : 20;
+  ULONG                      Speed : 4;
+  ULONG                      UsbDeviceAddress : 8;
+  ULONG                      SlotId : 8;
+  ULONG                      MultiTT : 1;
+  ULONG                      LSOrFSDeviceConnectedToTTHub : 1;
+  ULONG                      Reserved0 : 14;
+  PHYSICAL_ADDRESS           TransferSegmentLA;
+  PVOID                      TransferSegmentVA;
+  size_t                     TransferRingSize;
+  ULONG                      TransferRingInitialCycleBit;
+  ULONG                      MessageNumber;
+  PHYSICAL_ADDRESS           EventRingSegmentLA;
+  PVOID                      EventRingSegmentVA;
+  size_t                     EventRingSize;
+  ULONG                      EventRingInitialCycleBit;
+} USBD_ENDPOINT_OFFLOAD_INFORMATION_V1, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION_V1;

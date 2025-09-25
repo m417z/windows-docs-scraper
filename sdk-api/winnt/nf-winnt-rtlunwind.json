@@ -1,0 +1,63 @@
+{
+  "UID": "NF:winnt.RtlUnwind",
+  "title": "RtlUnwind function (winnt.h)",
+  "description": "Initiates an unwind of procedure call frames. (RtlUnwind)",
+  "helpviewer_keywords": [
+    "RtlUnwind",
+    "RtlUnwind function",
+    "base.rtlunwind",
+    "winnt/RtlUnwind"
+  ],
+  "old-location": "base\\rtlunwind.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "254b2547-9d3d-468f-a360-20a12e9dd82e",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlUnwind",
+    "winnt/RtlUnwind"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-rtlsupport-l1-2-2.dll",
+    "api-ms-win-core-rtlsupport-l1-2-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-rtlsupport-l1-1-0.dll",
+    "ntdll.dll",
+    "API-MS-Win-Core-rtlsupport-l1-2-0.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "RtlUnwind"
+  ]
+}

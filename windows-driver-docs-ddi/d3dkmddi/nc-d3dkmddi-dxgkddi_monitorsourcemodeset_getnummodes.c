@@ -1,0 +1,7 @@
+DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES DxgkddiMonitorsourcemodesetGetnummodes;
+
+NTSTATUS DxgkddiMonitorsourcemodesetGetnummodes(
+  IN_CONST_D3DKMDT_HMONITORSOURCEMODESET hMonitorSourceModeSet,
+  OUT_PSIZE_T_CONST pNumMonitorSourceModes
+)
+{...}

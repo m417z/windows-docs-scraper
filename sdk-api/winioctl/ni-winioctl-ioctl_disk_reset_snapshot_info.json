@@ -1,0 +1,57 @@
+{
+  "UID": "NI:winioctl.IOCTL_DISK_RESET_SNAPSHOT_INFO",
+  "title": "IOCTL_DISK_RESET_SNAPSHOT_INFO",
+  "description": "Clears all Volume Shadow Copy Service (VSS) hardware-based shadow copy (also called &quot;snapshot&quot;) information from the disk.",
+  "helpviewer_keywords": [
+    "IOCTL_DISK_RESET_SNAPSHOT_INFO",
+    "IOCTL_DISK_RESET_SNAPSHOT_INFO control",
+    "IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files]",
+    "fs.ioctl_disk_reset_snapshot_info",
+    "winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO"
+  ],
+  "old-location": "fs\\ioctl_disk_reset_snapshot_info.htm",
+  "tech.root": "fs",
+  "ms.assetid": "522f469e-9630-4fa3-a157-7090c58a9856",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "IOCTL_DISK_RESET_SNAPSHOT_INFO",
+    "winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "IOCTL_DISK_RESET_SNAPSHOT_INFO"
+  ]
+}

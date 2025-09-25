@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupDiGetINFClassA",
+  "title": "SetupDiGetINFClassA function (setupapi.h)",
+  "description": "The SetupDiGetINFClass function returns the class of a specified device INF file. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupDiGetINFClassA",
+    "di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml"
+  ],
+  "old-location": "devinst\\setupdigetinfclass.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "03e66c5b-9b76-4a40-8bd4-f640b689ce27",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiGetINFClass, SetupDiGetINFClass function [Device and Driver Installation], SetupDiGetINFClassA, SetupDiGetINFClassW, devinst.setupdigetinfclass, di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml, setupapi/SetupDiGetINFClass",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiGetINFClassA",
+    "setupapi/SetupDiGetINFClassA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiGetINFClass",
+    "SetupDiGetINFClassA"
+  ]
+}

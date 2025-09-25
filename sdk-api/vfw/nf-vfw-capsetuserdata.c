@@ -1,0 +1,4 @@
+BOOL capSetUserData(
+     hwnd,
+     lUser
+);

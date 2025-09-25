@@ -1,0 +1,3 @@
+void SetCached(
+  BOOL isCached
+);

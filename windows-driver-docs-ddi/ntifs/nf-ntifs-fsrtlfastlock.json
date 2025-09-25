@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.FsRtlFastLock",
+  "title": "FsRtlFastLock macro (ntifs.h)",
+  "description": "The FsRtlFastLock macro is used by file systems and filter drivers to request a byte-range lock for a file stream.",
+  "old-location": "ifsk\\fsrtlfastlock.htm",
+  "tech.root": "ifsk",
+  "ms.date": "03/20/2023",
+  "keywords": [
+    "FsRtlFastLock macro"
+  ],
+  "ms.keywords": "FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FsRtlFastLock",
+    "ntifs/FsRtlFastLock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FsRtlFastLock"
+  ]
+}

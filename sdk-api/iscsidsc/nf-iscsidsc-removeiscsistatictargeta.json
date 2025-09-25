@@ -1,0 +1,58 @@
+{
+  "UID": "NF:iscsidsc.RemoveIScsiStaticTargetA",
+  "title": "RemoveIScsiStaticTargetA function (iscsidsc.h)",
+  "description": "RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine. (ANSI)",
+  "helpviewer_keywords": [
+    "RemoveIScsiStaticTargetA",
+    "RemoveIscsiStaticTargetA",
+    "iscsidsc/RemoveIscsiStaticTargetA"
+  ],
+  "old-location": "iscsidisc\\removeiscsistatictarget.htm",
+  "tech.root": "iSCSIDisc",
+  "ms.assetid": "7927d414-929e-4f01-b6bf-e6d571486aed",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RemoveIScsiStaticTargetA, RemoveIscsiStaticTarget, RemoveIscsiStaticTarget function [iSCSI Discovery Library API], RemoveIscsiStaticTargetA, RemoveIscsiStaticTargetW, iscsidisc.removeiscsistatictarget, iscsidsc/RemoveIscsiStaticTarget, iscsidsc/RemoveIscsiStaticTargetA, iscsidsc/RemoveIscsiStaticTargetW",
+  "req.header": "iscsidsc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RemoveIscsiStaticTargetW (Unicode) and RemoveIscsiStaticTargetA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iscsidsc.lib",
+  "req.dll": "Iscsidsc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RemoveIScsiStaticTargetA",
+    "iscsidsc/RemoveIScsiStaticTargetA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iscsidsc.dll"
+  ],
+  "api_name": [
+    "RemoveIscsiStaticTarget",
+    "RemoveIscsiStaticTargetA",
+    "RemoveIscsiStaticTargetW"
+  ]
+}

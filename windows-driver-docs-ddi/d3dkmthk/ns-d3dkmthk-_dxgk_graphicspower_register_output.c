@@ -1,0 +1,6 @@
+typedef struct _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT {
+  PVOID                                  DeviceHandle;
+  DEVICE_POWER_STATE                     InitialGrfxPowerState;
+  PDXGK_SET_SHARED_POWER_COMPONENT_STATE SetSharedPowerComponentStateCb;
+  PDXGK_GRAPHICSPOWER_UNREGISTER         UnregisterCb;
+} DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT;

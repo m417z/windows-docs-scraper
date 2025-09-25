@@ -1,0 +1,4 @@
+HBA_STATUS HBA_API HBA_SBDskGetCapacity(
+  HBA_DEVICESELFDESC DeviceSelfDesc,
+  PHBA_SBDSKCAPACITY PSbDskCapacity
+);

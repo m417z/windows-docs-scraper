@@ -1,0 +1,3 @@
+HRESULT GetMessage(
+  LPWSTR *message
+);

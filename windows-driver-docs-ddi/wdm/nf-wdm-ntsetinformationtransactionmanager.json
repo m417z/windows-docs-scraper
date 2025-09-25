@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.NtSetInformationTransactionManager",
+  "title": "NtSetInformationTransactionManager function (wdm.h)",
+  "description": "Do not call this routine from kernel-mode code.",
+  "old-location": "kernel\\ntsetinformationtransactionmanager.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "NtSetInformationTransactionManager function"
+  ],
+  "ms.keywords": "NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntsetinformationtransactionmanager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, wdm/NtSetInformationTransactionManager",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NtSetInformationTransactionManager",
+    "wdm/NtSetInformationTransactionManager"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "NtSetInformationTransactionManager"
+  ]
+}

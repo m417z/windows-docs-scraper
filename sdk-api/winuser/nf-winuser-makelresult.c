@@ -1,0 +1,4 @@
+LRESULT MAKELRESULT(
+    WORD l,
+    WORD h
+);

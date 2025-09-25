@@ -1,0 +1,50 @@
+{
+  "UID": "NE:configurationparameter._NDIS_PARAMETER_TYPE",
+  "tech.root": "netvista",
+  "title": "NDIS_PARAMETER_TYPE",
+  "ms.date": "07/22/2025",
+  "targetos": "Windows",
+  "description": "The NDIS_PARAMETER_TYPE enumeration type identifies the type of a registry entry.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "configurationparameter.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers in Windows Vista. Supported for NDIS   5.1 drivers in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "configurationparameter.h"
+  ],
+  "api_name": [
+    "_NDIS_PARAMETER_TYPE",
+    "PNDIS_PARAMETER_TYPE",
+    "NDIS_PARAMETER_TYPE"
+  ],
+  "f1_keywords": [
+    "_NDIS_PARAMETER_TYPE",
+    "configurationparameter/_NDIS_PARAMETER_TYPE",
+    "PNDIS_PARAMETER_TYPE",
+    "configurationparameter/PNDIS_PARAMETER_TYPE",
+    "NDIS_PARAMETER_TYPE",
+    "configurationparameter/NDIS_PARAMETER_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_NDIS_PARAMETER_TYPE"
+  ]
+}

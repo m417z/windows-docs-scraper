@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IAMTimecodeReader.GetTimecode",
+  "title": "IAMTimecodeReader::GetTimecode (strmif.h)",
+  "description": "The GetTimecode method retrieves the most recent timecode, userbit, and flag values available in the stream.",
+  "helpviewer_keywords": [
+    "GetTimecode",
+    "GetTimecode method [DirectShow]",
+    "GetTimecode method [DirectShow]",
+    "IAMTimecodeReader interface",
+    "IAMTimecodeReader interface [DirectShow]",
+    "GetTimecode method",
+    "IAMTimecodeReader.GetTimecode",
+    "IAMTimecodeReader::GetTimecode",
+    "IAMTimecodeReaderGetTimecode",
+    "dshow.iamtimecodereader_gettimecode",
+    "strmif/IAMTimecodeReader::GetTimecode"
+  ],
+  "old-location": "dshow\\iamtimecodereader_gettimecode.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "c4ed646f-677e-4703-8197-036636f20561",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTimecode method, IAMTimecodeReader.GetTimecode, IAMTimecodeReader::GetTimecode, IAMTimecodeReaderGetTimecode, dshow.iamtimecodereader_gettimecode, strmif/IAMTimecodeReader::GetTimecode",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMTimecodeReader::GetTimecode",
+    "strmif/IAMTimecodeReader::GetTimecode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMTimecodeReader.GetTimecode"
+  ]
+}

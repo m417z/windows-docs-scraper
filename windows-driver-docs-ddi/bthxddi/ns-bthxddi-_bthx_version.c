@@ -1,0 +1,3 @@
+typedef struct _BTHX_VERSION {
+  ULONG Version;
+} BTHX_VERSION, *PBTHX_VERSION;

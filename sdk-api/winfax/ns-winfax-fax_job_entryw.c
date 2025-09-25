@@ -1,0 +1,22 @@
+typedef struct _FAX_JOB_ENTRYW {
+  DWORD      SizeOfStruct;
+  DWORD      JobId;
+  LPCWSTR    UserName;
+  DWORD      JobType;
+  DWORD      QueueStatus;
+  DWORD      Status;
+  DWORD      Size;
+  DWORD      PageCount;
+  LPCWSTR    RecipientNumber;
+  LPCWSTR    RecipientName;
+  LPCWSTR    Tsid;
+  LPCWSTR    SenderName;
+  LPCWSTR    SenderCompany;
+  LPCWSTR    SenderDept;
+  LPCWSTR    BillingCode;
+  DWORD      ScheduleAction;
+  SYSTEMTIME ScheduleTime;
+  DWORD      DeliveryReportType;
+  LPCWSTR    DeliveryReportAddress;
+  LPCWSTR    DocumentName;
+} FAX_JOB_ENTRYW, *PFAX_JOB_ENTRYW;

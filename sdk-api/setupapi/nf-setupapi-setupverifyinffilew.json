@@ -1,0 +1,64 @@
+{
+  "UID": "NF:setupapi.SetupVerifyInfFileW",
+  "title": "SetupVerifyInfFileW function (setupapi.h)",
+  "description": "The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupVerifyInfFile",
+    "SetupVerifyInfFile function [Setup API]",
+    "SetupVerifyInfFileW",
+    "_setupapi_setupverifyinffile",
+    "setup.setupverifyinffile",
+    "setupapi/SetupVerifyInfFile",
+    "setupapi/SetupVerifyInfFileW"
+  ],
+  "old-location": "setup\\setupverifyinffile.htm",
+  "tech.root": "setup",
+  "ms.assetid": "3e64783f-6ded-498a-a994-ccd3ba217e91",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupVerifyInfFileW (Unicode) and SetupVerifyInfFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupVerifyInfFileW",
+    "setupapi/SetupVerifyInfFileW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll",
+    "Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll"
+  ],
+  "api_name": [
+    "SetupVerifyInfFile",
+    "SetupVerifyInfFileA",
+    "SetupVerifyInfFileW"
+  ],
+  "req.apiset": "ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)"
+}

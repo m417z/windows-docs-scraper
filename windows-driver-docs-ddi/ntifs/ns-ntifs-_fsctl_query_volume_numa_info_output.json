@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+  "title": "_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT (ntifs.h)",
+  "description": "The FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure specifies the Non-Uniform Memory Architecture (NUMA) node the volume resides on.",
+  "old-location": "ifsk\\fsctl_query_volume_numa_info_output_.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure"
+  ],
+  "ms.keywords": "*PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT , FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure [Installable File System Drivers], PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure pointer [Installable File System Drivers], _FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ifsk.fsctl_query_volume_numa_info_output_, ntifs/FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ntifs/PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, *PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+  "f1_keywords": [
+    "_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+    "ntifs/_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+    "PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+    "ntifs/PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+    "FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+    "ntifs/FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntifs.h"
+  ],
+  "api_name": [
+    "_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+    "PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT",
+    "FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT"
+  ]
+}

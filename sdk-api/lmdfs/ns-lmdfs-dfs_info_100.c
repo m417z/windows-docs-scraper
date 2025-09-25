@@ -1,0 +1,3 @@
+typedef struct _DFS_INFO_100 {
+  LPWSTR Comment;
+} DFS_INFO_100, *PDFS_INFO_100, *LPDFS_INFO_100;

@@ -1,0 +1,6 @@
+typedef struct _D3DHAL_DP2VIEWPORTINFO {
+  DWORD dwX;
+  DWORD dwY;
+  DWORD dwWidth;
+  DWORD dwHeight;
+} D3DHAL_DP2VIEWPORTINFO;

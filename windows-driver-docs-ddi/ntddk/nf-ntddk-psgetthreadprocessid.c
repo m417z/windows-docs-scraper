@@ -1,0 +1,3 @@
+HANDLE PsGetThreadProcessId(
+  PETHREAD Thread
+);

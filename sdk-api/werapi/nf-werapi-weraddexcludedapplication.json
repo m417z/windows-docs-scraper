@@ -1,0 +1,58 @@
+{
+  "UID": "NF:werapi.WerAddExcludedApplication",
+  "title": "WerAddExcludedApplication function (werapi.h)",
+  "description": "Adds the specified application to the list of applications that are to be excluded from error reporting.",
+  "helpviewer_keywords": [
+    "WerAddExcludedApplication",
+    "WerAddExcludedApplication function [Windows Error Reporting]",
+    "base.weraddexcludedapplication",
+    "wer.weraddexcludedapplication",
+    "werapi/WerAddExcludedApplication"
+  ],
+  "old-location": "wer\\weraddexcludedapplication.htm",
+  "tech.root": "wer",
+  "ms.assetid": "ac1ec373-868f-4634-8658-4253d4f5923a",
+  "ms.date": "07/21/2023",
+  "ms.keywords": "WerAddExcludedApplication, WerAddExcludedApplication function [Windows Error Reporting], base.weraddexcludedapplication, wer.weraddexcludedapplication, werapi/WerAddExcludedApplication",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wer.lib",
+  "req.dll": "Wer.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerAddExcludedApplication",
+    "werapi/WerAddExcludedApplication"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wer.dll"
+  ],
+  "api_name": [
+    "WerAddExcludedApplication"
+  ]
+}

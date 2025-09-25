@@ -1,0 +1,3 @@
+HRESULT UnregisterDeviceWithManagement(
+       LPCWSTR enrollmentID
+);

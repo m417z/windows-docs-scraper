@@ -1,0 +1,51 @@
+{
+  "UID": "NF:irb.AtaPortBuildRequestSenseIrb",
+  "title": "AtaPortBuildRequestSenseIrb function (irb.h)",
+  "description": "The AtaPortBuildRequestSenseIrb routine builds and returns an IRB for operation code SCSIOP_REQUEST_SENSE.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ataportbuildrequestsenseirb.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortBuildRequestSenseIrb function"
+  ],
+  "ms.keywords": "AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb routine [Storage Devices], atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, irb/AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ataport.lib; Pciidex.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortBuildRequestSenseIrb",
+    "irb/AtaPortBuildRequestSenseIrb"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ataport.lib",
+    "ataport.dll",
+    "pciidex.lib",
+    "pciidex.dll"
+  ],
+  "api_name": [
+    "AtaPortBuildRequestSenseIrb"
+  ]
+}

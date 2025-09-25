@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winuser.CheckRadioButton",
+  "title": "CheckRadioButton function (winuser.h)",
+  "description": "Adds a check mark to (checks) a specified radio button in a group and removes a check mark from (clears) all other radio buttons in the group.",
+  "helpviewer_keywords": [
+    "CheckRadioButton",
+    "CheckRadioButton function [Windows Controls]",
+    "_win32_CheckRadioButton",
+    "_win32_CheckRadioButton_cpp",
+    "controls.CheckRadioButton",
+    "controls._win32_CheckRadioButton",
+    "winuser/CheckRadioButton"
+  ],
+  "old-location": "controls\\CheckRadioButton.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\buttons\\buttonreference\\buttonfunctions\\checkradiobutton.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CheckRadioButton, CheckRadioButton function [Windows Controls], _win32_CheckRadioButton, _win32_CheckRadioButton_cpp, controls.CheckRadioButton, controls._win32_CheckRadioButton, winuser/CheckRadioButton",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CheckRadioButton",
+    "winuser/CheckRadioButton"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "ext-ms-win-ntuser-dialogbox-l1-1-2.dll"
+  ],
+  "api_name": [
+    "CheckRadioButton"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-dialogbox-l1-1-2 (introduced in Windows 10, version 10.0.10240)"
+}

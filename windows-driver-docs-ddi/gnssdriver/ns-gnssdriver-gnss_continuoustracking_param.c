@@ -1,0 +1,5 @@
+typedef struct {
+  ULONG Size;
+  ULONG Version;
+  ULONG PreferredInterval;
+} GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM;

@@ -1,0 +1,66 @@
+{
+  "UID": "NF:heapapi.HeapSize",
+  "title": "HeapSize function (heapapi.h)",
+  "description": "Retrieves the size of a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.",
+  "helpviewer_keywords": [
+    "HEAP_NO_SERIALIZE",
+    "HeapSize",
+    "HeapSize function",
+    "_win32_heapsize",
+    "base.heapsize",
+    "heapapi/HeapSize",
+    "winbase/HeapSize"
+  ],
+  "old-location": "base\\heapsize.htm",
+  "tech.root": "base",
+  "ms.assetid": "a8fcfd99-7b04-4aa3-8619-272b254551a3",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, base.heapsize, heapapi/HeapSize, winbase/HeapSize",
+  "req.header": "heapapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HeapSize",
+    "heapapi/HeapSize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-heap-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-heap-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "HeapSize"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfpdo.EVT_WDF_DEVICE_EJECT",
+  "title": "EVT_WDF_DEVICE_EJECT (wdfpdo.h)",
+  "description": "A driver's EvtDeviceEject event callback function handles operations that are necessary to eject a device from its docking station.",
+  "old-location": "wdf\\evtdeviceeject.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_EJECT callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectFdoPdoRef_38feba70-59b4-4981-af2d-0fc0fa4ff68a.xml, EVT_WDF_DEVICE_EJECT, EVT_WDF_DEVICE_EJECT callback, EvtDeviceEject, EvtDeviceEject callback function, kmdf.evtdeviceeject, wdf.evtdeviceeject, wdfpdo/EvtDeviceEject",
+  "req.header": "wdfpdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_EJECT",
+    "wdfpdo/EVT_WDF_DEVICE_EJECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfpdo.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_EJECT"
+  ]
+}

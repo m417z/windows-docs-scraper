@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntifs.RtlDeleteAce",
+  "title": "RtlDeleteAce function (ntifs.h)",
+  "description": "Learn more about the RtlDeleteAce function.",
+  "tech.root": "ifsk",
+  "ms.date": "09/27/2023",
+  "keywords": [
+    "RtlDeleteAce function"
+  ],
+  "ms.keywords": "RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows Server 2003 SP1",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlDeleteAce",
+    "ntifs/RtlDeleteAce"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlDeleteAce"
+  ]
+}

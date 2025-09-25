@@ -1,0 +1,3 @@
+void NdisFreeString(
+  [in] String
+);

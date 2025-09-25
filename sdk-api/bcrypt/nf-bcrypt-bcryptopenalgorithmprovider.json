@@ -1,0 +1,63 @@
+{
+  "UID": "NF:bcrypt.BCryptOpenAlgorithmProvider",
+  "title": "BCryptOpenAlgorithmProvider function (bcrypt.h)",
+  "description": "Loads and initializes a CNG provider.",
+  "helpviewer_keywords": [
+    "BCRYPT_ALG_HANDLE_HMAC_FLAG",
+    "BCRYPT_HASH_REUSABLE_FLAG",
+    "BCRYPT_PROV_DISPATCH",
+    "BCryptOpenAlgorithmProvider",
+    "BCryptOpenAlgorithmProvider function [Security]",
+    "MS_PRIMITIVE_PROVIDER",
+    "MS_PLATFORM_CRYPTO_PROVIDER",
+    "bcrypt/BCryptOpenAlgorithmProvider",
+    "security.bcryptopenalgorithmprovider_func"
+  ],
+  "old-location": "security\\bcryptopenalgorithmprovider_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "aceba9c0-19e6-4f3c-972a-752feed4a9f8",
+  "ms.date": "06/16/2025",
+  "ms.keywords": "BCRYPT_ALG_HANDLE_HMAC_FLAG, BCRYPT_HASH_REUSABLE_FLAG, BCRYPT_PROV_DISPATCH, BCryptOpenAlgorithmProvider, BCryptOpenAlgorithmProvider function [Security], MS_PRIMITIVE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, bcrypt/BCryptOpenAlgorithmProvider, security.bcryptopenalgorithmprovider_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptOpenAlgorithmProvider",
+    "bcrypt/BCryptOpenAlgorithmProvider"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptOpenAlgorithmProvider"
+  ]
+}

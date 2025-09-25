@@ -1,0 +1,4 @@
+typedef struct _DXGKVGPU_ESCAPE_INITIALIZE {
+  DXGKVGPU_ESCAPE_HEAD Header;
+  GUID                 VmGuid;
+} DXGKVGPU_ESCAPE_INITIALIZE;

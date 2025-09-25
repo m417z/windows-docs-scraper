@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMRegisterInterruptEx",
+  "title": "NdisMRegisterInterruptEx function (ndis.h)",
+  "description": "NDIS miniport drivers call the NdisMRegisterInterruptEx function to register an interrupt.",
+  "old-location": "netvista\\ndismregisterinterruptex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMRegisterInterruptEx function"
+  ],
+  "ms.keywords": "NdisMRegisterInterruptEx, NdisMRegisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterInterruptEx, ndis_interrupts_functions_ref_9a28602d-5a32-459c-92da-9d97b93f5fde.xml, netvista.ndismregisterinterruptex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Init_DeRegisterInterrupt, Init_RegisterInterrupt, Irql_Interrupt_Function, NdisMDeregisterInterruptEx",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMRegisterInterruptEx",
+    "ndis/NdisMRegisterInterruptEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMRegisterInterruptEx"
+  ]
+}

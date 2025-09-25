@@ -1,0 +1,3 @@
+HRESULT GetInterestMask(
+  PULONG Mask
+);

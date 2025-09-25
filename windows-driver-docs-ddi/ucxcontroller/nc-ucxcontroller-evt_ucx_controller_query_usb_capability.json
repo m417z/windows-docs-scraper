@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ucxcontroller.EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY",
+  "title": "EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY (ucxcontroller.h)",
+  "description": "The client driver's implementation to determine if the controller supports a specific capability.",
+  "old-location": "buses\\evt_ucx_controller_query_usb_capability.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function"
+  ],
+  "ms.keywords": "EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback, EvtUcxControllerQueryUsbCapability, EvtUcxControllerQueryUsbCapability callback function [Buses], PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function pointer [Buses], buses.evt_ucx_controller_query_usb_capability, ucxcontroller/EvtUcxControllerQueryUsbCapability",
+  "req.header": "ucxcontroller.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY",
+    "ucxcontroller/EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ucxcontroller.h"
+  ],
+  "api_name": [
+    "EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY"
+  ]
+}

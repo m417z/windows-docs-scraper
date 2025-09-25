@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltSetIoPriorityHintIntoThread",
+  "title": "FltSetIoPriorityHintIntoThread function (fltkernel.h)",
+  "description": "The FltSetIoPriorityHintIntoThread routine is used by a minifilter driver to set the IO priority information in a thread.",
+  "old-location": "ifsk\\fltsetiopriorityhintintothread.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltSetIoPriorityHintIntoThread function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_acdf2d2e-c98e-4e7d-8074-fb2b89594771.xml, FltSetIoPriorityHintIntoThread, FltSetIoPriorityHintIntoThread routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoThread, ifsk.fltsetiopriorityhintintothread",
+  "req.header": "fltkernel.h",
+  "req.include-header": "FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltSetIoPriorityHintIntoThread",
+    "fltkernel/FltSetIoPriorityHintIntoThread"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltSetIoPriorityHintIntoThread"
+  ]
+}

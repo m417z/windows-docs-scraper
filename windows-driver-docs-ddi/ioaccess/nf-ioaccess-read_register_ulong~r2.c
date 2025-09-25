@@ -1,0 +1,3 @@
+ULONG READ_REGISTER_ULONG(
+  _In_ PULONG Register
+);

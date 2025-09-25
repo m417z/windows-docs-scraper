@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IVMRImagePresenter.StartPresenting",
+  "title": "IVMRImagePresenter::StartPresenting (strmif.h)",
+  "description": "The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.",
+  "helpviewer_keywords": [
+    "IVMRImagePresenter interface [DirectShow]",
+    "StartPresenting method",
+    "IVMRImagePresenter.StartPresenting",
+    "IVMRImagePresenter::StartPresenting",
+    "IVMRImagePresenterStartPresenting",
+    "StartPresenting",
+    "StartPresenting method [DirectShow]",
+    "StartPresenting method [DirectShow]",
+    "IVMRImagePresenter interface",
+    "dshow.ivmrimagepresenter_startpresenting",
+    "strmif/IVMRImagePresenter::StartPresenting"
+  ],
+  "old-location": "dshow\\ivmrimagepresenter_startpresenting.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "b97debae-d792-4c9b-a171-11ef2a73e987",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IVMRImagePresenter interface [DirectShow],StartPresenting method, IVMRImagePresenter.StartPresenting, IVMRImagePresenter::StartPresenting, IVMRImagePresenterStartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_startpresenting, strmif/IVMRImagePresenter::StartPresenting",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVMRImagePresenter::StartPresenting",
+    "strmif/IVMRImagePresenter::StartPresenting"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IVMRImagePresenter.StartPresenting"
+  ]
+}

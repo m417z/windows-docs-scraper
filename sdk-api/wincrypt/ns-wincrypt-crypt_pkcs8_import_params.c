@@ -1,0 +1,7 @@
+typedef struct _CRYPT_PKCS8_IMPORT_PARAMS {
+  CRYPT_DIGEST_BLOB               PrivateKey;
+  PCRYPT_RESOLVE_HCRYPTPROV_FUNC  pResolvehCryptProvFunc;
+  LPVOID                          pVoidResolveFunc;
+  PCRYPT_DECRYPT_PRIVATE_KEY_FUNC pDecryptPrivateKeyFunc;
+  LPVOID                          pVoidDecryptFunc;
+} CRYPT_PKCS8_IMPORT_PARAMS, *PCRYPT_PKCS8_IMPORT_PARAMS, CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, *PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS;

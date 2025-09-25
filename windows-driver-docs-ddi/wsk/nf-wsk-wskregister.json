@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wsk.WskRegister",
+  "title": "WskRegister function (wsk.h)",
+  "description": "The WskRegister function registers a WSK application, given the application's WSK client Network Programming Interface (NPI).",
+  "old-location": "netvista\\wskregister.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "WskRegister function"
+  ],
+  "ms.keywords": "WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netio.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WskRegister",
+    "wsk/WskRegister"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Netio.lib",
+    "Netio.dll"
+  ],
+  "api_name": [
+    "WskRegister"
+  ]
+}

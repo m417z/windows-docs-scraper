@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTGetContextInProcessSchedulingPriority",
+  "title": "D3DKMTGetContextInProcessSchedulingPriority function (d3dkmthk.h)",
+  "description": "Called by an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.",
+  "old-location": "display\\d3dkmtgetcontextinprocessschedulingpriority.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTGetContextInProcessSchedulingPriority function"
+  ],
+  "ms.keywords": "D3DKMTGetContextInProcessSchedulingPriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTGetContextInProcessSchedulingPriority",
+    "d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTGetContextInProcessSchedulingPriority"
+  ]
+}

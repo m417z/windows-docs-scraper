@@ -1,0 +1,49 @@
+{
+  "UID": "NF:bdasup.BdaDeletePin",
+  "title": "BdaDeletePin function (bdasup.h)",
+  "description": "The BdaDeletePin function deletes a pin from the specified filter.",
+  "old-location": "stream\\bdadeletepin.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "BdaDeletePin function"
+  ],
+  "ms.keywords": "BdaDeletePin, BdaDeletePin function [Streaming Media Devices], bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, bdasup/BdaDeletePin, stream.bdadeletepin",
+  "req.header": "bdasup.h",
+  "req.include-header": "Bdasup.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available on Microsoft Windows XP and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bdasup.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "BdaDeletePin",
+    "bdasup/BdaDeletePin"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Bdasup.lib",
+    "Bdasup.dll"
+  ],
+  "api_name": [
+    "BdaDeletePin"
+  ]
+}

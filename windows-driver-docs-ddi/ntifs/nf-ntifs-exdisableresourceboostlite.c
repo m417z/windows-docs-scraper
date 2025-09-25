@@ -1,0 +1,3 @@
+VOID ExDisableResourceBoostLite(
+  PERESOURCE Resource
+);

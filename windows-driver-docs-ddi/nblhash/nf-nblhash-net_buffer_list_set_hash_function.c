@@ -1,0 +1,4 @@
+VOID NET_BUFFER_LIST_SET_HASH_FUNCTION(
+  NET_BUFFER_LIST *Nbl,
+  ULONG           HashFunction
+);

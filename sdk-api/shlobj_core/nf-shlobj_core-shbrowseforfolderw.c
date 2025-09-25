@@ -1,0 +1,3 @@
+PIDLIST_ABSOLUTE SHBrowseForFolderW(
+  [in] LPBROWSEINFOW lpbi
+);

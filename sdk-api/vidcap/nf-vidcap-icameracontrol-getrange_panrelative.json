@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vidcap.ICameraControl.getRange_PanRelative",
+  "title": "ICameraControl::getRange_PanRelative (vidcap.h)",
+  "description": "The getRange_PanRelative method returns the range of relative panning angles supported by the camera. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.",
+  "helpviewer_keywords": [
+    "ICameraControl interface [DirectShow]",
+    "getRange_PanRelative method",
+    "ICameraControl.getRange_PanRelative",
+    "ICameraControl::getRange_PanRelative",
+    "ICameraControlgetRange_PanRelative",
+    "dshow.icameracontrol_getrange_panrelative",
+    "getRange_PanRelative",
+    "getRange_PanRelative method [DirectShow]",
+    "getRange_PanRelative method [DirectShow]",
+    "ICameraControl interface",
+    "vidcap/ICameraControl::getRange_PanRelative"
+  ],
+  "old-location": "dshow\\icameracontrol_getrange_panrelative.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "31affca6-e9e9-4715-aea4-0a39ce100556",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "ICameraControl interface [DirectShow],getRange_PanRelative method, ICameraControl.getRange_PanRelative, ICameraControl::getRange_PanRelative, ICameraControlgetRange_PanRelative, dshow.icameracontrol_getrange_panrelative, getRange_PanRelative, getRange_PanRelative method [DirectShow], getRange_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_PanRelative",
+  "req.header": "vidcap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICameraControl::getRange_PanRelative",
+    "vidcap/ICameraControl::getRange_PanRelative"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "ICameraControl.getRange_PanRelative"
+  ]
+}

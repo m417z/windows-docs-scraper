@@ -1,0 +1,4 @@
+typedef enum _PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS {
+  PeerDistClientBasicInfo = 0,
+  MaximumPeerDistClientInfoByHandlesClass
+} PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS;

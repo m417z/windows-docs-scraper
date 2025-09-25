@@ -1,0 +1,45 @@
+{
+  "UID": "NE:wdm._IOMMU_DMA_DOMAIN_TYPE",
+  "tech.root": "kernel",
+  "title": "IOMMU_DMA_DOMAIN_TYPE",
+  "ms.date": "08/17/2023",
+  "targetos": "Windows",
+  "description": "Describes the domain types that can be created and interacted with via the DMA_IOMMU_INTERFACE_EX.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_DMA_DOMAIN_TYPE",
+    "PIOMMU_DMA_DOMAIN_TYPE",
+    "IOMMU_DMA_DOMAIN_TYPE"
+  ],
+  "f1_keywords": [
+    "_IOMMU_DMA_DOMAIN_TYPE",
+    "wdm/_IOMMU_DMA_DOMAIN_TYPE",
+    "PIOMMU_DMA_DOMAIN_TYPE",
+    "wdm/PIOMMU_DMA_DOMAIN_TYPE",
+    "IOMMU_DMA_DOMAIN_TYPE",
+    "wdm/IOMMU_DMA_DOMAIN_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

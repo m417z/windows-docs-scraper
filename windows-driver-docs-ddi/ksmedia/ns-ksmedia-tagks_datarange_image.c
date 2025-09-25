@@ -1,0 +1,5 @@
+typedef struct tagKS_DATARANGE_IMAGE {
+  KSDATARANGE                 DataRange;
+  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
+  KS_BITMAPINFOHEADER         ImageInfoHeader;
+} KS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE;

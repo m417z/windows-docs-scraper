@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOutputDuplReleaseFrame(
+  D3DKMT_OUTPUTDUPL_RELEASE_FRAME *unnamedParam1
+);

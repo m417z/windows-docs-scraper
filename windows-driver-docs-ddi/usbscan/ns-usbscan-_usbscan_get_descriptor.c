@@ -1,0 +1,5 @@
+typedef struct _USBSCAN_GET_DESCRIPTOR {
+  UCHAR  DescriptorType;
+  UCHAR  Index;
+  USHORT LanguageId;
+} USBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR;

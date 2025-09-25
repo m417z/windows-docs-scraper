@@ -1,0 +1,37 @@
+## Description
+
+This topic describes the **KSPROPERTY_BDA_SIGNAL_STATS** enumeration.
+
+## Constants
+
+### `KSPROPERTY_BDA_SIGNAL_STRENGTH`
+
+Defines the **KSPROPERTY_BDA_SIGNAL_STRENGTH** constant.
+
+### `KSPROPERTY_BDA_SIGNAL_QUALITY`
+
+Defines the **KSPROPERTY_BDA_SIGNAL_QUALITY** constant.
+
+### `KSPROPERTY_BDA_SIGNAL_PRESENT`
+
+Defines the **KSPROPERTY_BDA_SIGNAL_PRESENT** constant.
+
+### `KSPROPERTY_BDA_SIGNAL_LOCKED`
+
+Defines the **KSPROPERTY_BDA_SIGNAL_LOCKED** constant.
+
+### `KSPROPERTY_BDA_SAMPLE_TIME`
+
+Defines the **KSPROPERTY_BDA_SAMPLE_TIME** constant.
+
+### `KSPROPERTY_BDA_SIGNAL_LOCK_CAPS`
+
+Defines the **KSPROPERTY_BDA_SIGNAL_LOCK_CAPS** constant.
+
+### `KSPROPERTY_BDA_SIGNAL_LOCK_TYPE`
+
+Defines the **KSPROPERTY_BDA_SIGNAL_LOCK_TYPE** constant.
+
+## Remarks
+
+## See also

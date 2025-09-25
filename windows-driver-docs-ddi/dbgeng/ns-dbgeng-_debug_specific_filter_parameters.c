@@ -1,0 +1,7 @@
+typedef struct _DEBUG_SPECIFIC_FILTER_PARAMETERS {
+  ULONG ExecutionOption;
+  ULONG ContinueOption;
+  ULONG TextSize;
+  ULONG CommandSize;
+  ULONG ArgumentSize;
+} DEBUG_SPECIFIC_FILTER_PARAMETERS, *PDEBUG_SPECIFIC_FILTER_PARAMETERS;

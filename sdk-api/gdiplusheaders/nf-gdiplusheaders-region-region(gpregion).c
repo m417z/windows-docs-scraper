@@ -1,0 +1,3 @@
+void Region(
+  GpRegion *nativeRegion
+);

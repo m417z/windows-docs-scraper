@@ -1,0 +1,7 @@
+DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES DxgkddiSetcontextschedulingproperties;
+
+NTSTATUS DxgkddiSetcontextschedulingproperties(
+  IN_CONST_HANDLE hAdapter,
+  IN_CONST_PDXGKARG_SETCONTEXTSCHEDULINGPROPERTIES pSetContextSchedulingProperties
+)
+{...}

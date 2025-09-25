@@ -1,0 +1,20 @@
+typedef struct WICRawCapabilitiesInfo {
+  UINT                       cbSize;
+  UINT                       CodecMajorVersion;
+  UINT                       CodecMinorVersion;
+  WICRawCapabilities         ExposureCompensationSupport;
+  WICRawCapabilities         ContrastSupport;
+  WICRawCapabilities         RGBWhitePointSupport;
+  WICRawCapabilities         NamedWhitePointSupport;
+  UINT                       NamedWhitePointSupportMask;
+  WICRawCapabilities         KelvinWhitePointSupport;
+  WICRawCapabilities         GammaSupport;
+  WICRawCapabilities         TintSupport;
+  WICRawCapabilities         SaturationSupport;
+  WICRawCapabilities         SharpnessSupport;
+  WICRawCapabilities         NoiseReductionSupport;
+  WICRawCapabilities         DestinationColorProfileSupport;
+  WICRawCapabilities         ToneCurveSupport;
+  WICRawRotationCapabilities RotationSupport;
+  WICRawCapabilities         RenderModeSupport;
+} WICRawCapabilitiesInfo;

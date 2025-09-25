@@ -1,0 +1,8 @@
+HRESULT EditStreamPaste(
+  PAVISTREAM pavi,
+  LONG       *plPos,
+  LONG       *plLength,
+  PAVISTREAM pstream,
+  LONG       lStart,
+  LONG       lEnd
+);

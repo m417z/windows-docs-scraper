@@ -1,0 +1,3 @@
+ULONG AcxTargetPinGetId(
+  ACXTARGETPIN TargetPin
+);

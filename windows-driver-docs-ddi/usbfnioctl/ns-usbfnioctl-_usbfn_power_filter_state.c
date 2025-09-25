@@ -1,0 +1,7 @@
+typedef struct _USBFN_POWER_FILTER_STATE {
+  USBFN_DEVICE_STATE DeviceState;
+  union {
+    ULONG PState;
+    ULONG Reserved;
+  };
+} USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE;

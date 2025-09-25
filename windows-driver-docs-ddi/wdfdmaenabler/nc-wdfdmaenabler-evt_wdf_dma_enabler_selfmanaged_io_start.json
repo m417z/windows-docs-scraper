@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START",
+  "title": "EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START (wdfdmaenabler.h)",
+  "description": "A driver's EvtDmaEnablerSelfManagedIoStart event callback function starts a DMA device's self-managed I/O operations.",
+  "old-location": "wdf\\evtdmaenablerselfmanagediostart.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback function"
+  ],
+  "ms.keywords": "DFDmaObjectRef_6ccb5cb2-c30f-4ae0-a47e-cb58e24de25b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback, EvtDmaEnablerSelfManagedIoStart, EvtDmaEnablerSelfManagedIoStart callback function, kmdf.evtdmaenablerselfmanagediostart, wdf.evtdmaenablerselfmanagediostart, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStart",
+  "req.header": "wdfdmaenabler.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START",
+    "wdfdmaenabler/EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WdfDmaEnabler.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START"
+  ]
+}

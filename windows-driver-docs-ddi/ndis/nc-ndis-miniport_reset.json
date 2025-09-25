@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_RESET",
+  "title": "MINIPORT_RESET (ndis.h)",
+  "description": "NDIS calls an NDIS miniport driver's MiniportResetEx function to initiate a reset of a network interface card (NIC). For more information, see Miniport Adapter Check-for-Hang and Reset Operations and Miniport Driver Hardware Reset.",
+  "old-location": "netvista\\miniportresetex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_RESET callback function"
+  ],
+  "ms.keywords": "MINIPORT_RESET, MINIPORT_RESET callback, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_RESET",
+    "ndis/MINIPORT_RESET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_RESET"
+  ]
+}

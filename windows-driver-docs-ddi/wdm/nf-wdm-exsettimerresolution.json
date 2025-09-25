@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ExSetTimerResolution",
+  "title": "ExSetTimerResolution function (wdm.h)",
+  "description": "The ExSetTimerResolution routine modifies the frequency at which the system clock interrupts. Use this routine with extreme caution (see the following Remarks section).",
+  "tech.root": "kernel",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "ExSetTimerResolution function"
+  ],
+  "ms.keywords": "ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution, wdm/ExSetTimerResolution",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlExApcLte2, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExSetTimerResolution",
+    "wdm/ExSetTimerResolution"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExSetTimerResolution"
+  ]
+}

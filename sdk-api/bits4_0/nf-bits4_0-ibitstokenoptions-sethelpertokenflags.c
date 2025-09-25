@@ -1,0 +1,3 @@
+HRESULT SetHelperTokenFlags(
+  DWORD UsageFlags
+);

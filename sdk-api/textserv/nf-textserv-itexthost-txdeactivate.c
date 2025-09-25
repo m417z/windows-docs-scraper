@@ -1,0 +1,3 @@
+HRESULT TxDeactivate(
+  LONG lNewState
+);

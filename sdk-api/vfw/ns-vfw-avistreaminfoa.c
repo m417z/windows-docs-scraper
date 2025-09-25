@@ -1,0 +1,20 @@
+typedef struct _AVISTREAMINFOA {
+  DWORD fccType;
+  DWORD fccHandler;
+  DWORD dwFlags;
+  DWORD dwCaps;
+  WORD  wPriority;
+  WORD  wLanguage;
+  DWORD dwScale;
+  DWORD dwRate;
+  DWORD dwStart;
+  DWORD dwLength;
+  DWORD dwInitialFrames;
+  DWORD dwSuggestedBufferSize;
+  DWORD dwQuality;
+  DWORD dwSampleSize;
+  RECT  rcFrame;
+  DWORD dwEditCount;
+  DWORD dwFormatChangeCount;
+  char  szName[64];
+} AVISTREAMINFOA, *LPAVISTREAMINFOA;

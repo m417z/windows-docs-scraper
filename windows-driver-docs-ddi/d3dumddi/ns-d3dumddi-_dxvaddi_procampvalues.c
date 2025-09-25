@@ -1,0 +1,6 @@
+typedef struct _DXVADDI_PROCAMPVALUES {
+  [in] DXVADDI_FIXED32 Brightness;
+  [in] DXVADDI_FIXED32 Contrast;
+  [in] DXVADDI_FIXED32 Hue;
+  [in] DXVADDI_FIXED32 Saturation;
+} DXVADDI_PROCAMPVALUES;

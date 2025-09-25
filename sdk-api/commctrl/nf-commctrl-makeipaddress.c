@@ -1,0 +1,6 @@
+LPARAM MAKEIPADDRESS(
+   BYTE b1,
+   BYTE b2,
+   BYTE b3,
+   BYTE b4
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:vhf.VhfReadReportSubmit",
+  "title": "VhfReadReportSubmit function (vhf.h)",
+  "description": "The HID source driver calls this method to submit a HID Read (Input) Report to Virtual HID Framework (VHF).",
+  "old-location": "hid\\vhfreadreportsubmit.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "VhfReadReportSubmit function"
+  ],
+  "ms.keywords": "VhfReadReportSubmit, VhfReadReportSubmit method [Human Input Devices], hid.vhfreadreportsubmit, vhf/VhfReadReportSubmit",
+  "req.header": "vhf.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VhfKm.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VhfReadReportSubmit",
+    "vhf/VhfReadReportSubmit"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "vhfKm.lib",
+    "vhfKm.dll"
+  ],
+  "api_name": [
+    "VhfReadReportSubmit"
+  ]
+}

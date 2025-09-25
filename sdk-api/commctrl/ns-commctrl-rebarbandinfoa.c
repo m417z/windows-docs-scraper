@@ -1,0 +1,24 @@
+typedef struct tagREBARBANDINFOA {
+  UINT     cbSize;
+  UINT     fMask;
+  UINT     fStyle;
+  COLORREF clrFore;
+  COLORREF clrBack;
+  LPSTR    lpText;
+  UINT     cch;
+  int      iImage;
+  HWND     hwndChild;
+  UINT     cxMinChild;
+  UINT     cyMinChild;
+  UINT     cx;
+  HBITMAP  hbmBack;
+  UINT     wID;
+  UINT     cyChild;
+  UINT     cyMaxChild;
+  UINT     cyIntegral;
+  UINT     cxIdeal;
+  LPARAM   lParam;
+  UINT     cxHeader;
+  RECT     rcChevronLocation;
+  UINT     uChevronState;
+} REBARBANDINFOA, *LPREBARBANDINFOA;

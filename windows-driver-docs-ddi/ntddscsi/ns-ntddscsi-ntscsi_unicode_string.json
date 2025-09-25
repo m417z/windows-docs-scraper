@@ -1,0 +1,45 @@
+{
+  "UID": "NS:ntddscsi._NTSCSI_UNICODE_STRING",
+  "title": "NTSCSI_UNICODE_STRING",
+  "description": "Storage port drivers can use the NTSCSI_UNICODE_STRING structure to define Unicode strings.",
+  "tech.root": "storage",
+  "ms.date": "05/20/2022",
+  "keywords": [
+    "NTSCSI_UNICODE_STRING structure"
+  ],
+  "ms.keywords": "NTSCSI_UNICODE_STRING, NTSCSI_UNICODE_STRING, *PNTSCSI_UNICODE_STRING",
+  "req.header": "ntddscsi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "NTSCSI_UNICODE_STRING",
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_NTSCSI_UNICODE_STRING",
+    "ntddscsi/_NTSCSI_UNICODE_STRING",
+    "NTSCSI_UNICODE_STRING",
+    "ntddscsi/NTSCSI_UNICODE_STRING"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddscsi.h"
+  ],
+  "api_name": [
+    "_NTSCSI_UNICODE_STRING",
+    "NTSCSI_UNICODE_STRING"
+  ]
+}

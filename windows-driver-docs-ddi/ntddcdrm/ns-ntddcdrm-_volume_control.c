@@ -1,0 +1,3 @@
+typedef struct _VOLUME_CONTROL {
+  UCHAR PortVolume[4];
+} VOLUME_CONTROL, *PVOLUME_CONTROL;

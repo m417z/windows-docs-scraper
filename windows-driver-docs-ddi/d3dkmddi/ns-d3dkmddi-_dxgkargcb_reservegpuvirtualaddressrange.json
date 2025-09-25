@@ -1,0 +1,51 @@
+{
+  "UID": "NS:d3dkmddi._DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE",
+  "title": "DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE (d3dkmddi.h)",
+  "description": "DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE is used with the DxgkCbReserveGpuVirtualAddressRangedevice driver interface (DDI) to allow the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.",
+  "old-location": "display\\dxgkargcb_reservegpuvirtualaddressrange.htm",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure"
+  ],
+  "ms.keywords": "DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure [Display Devices], _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, *INOUT_PDXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, display.dxgkargcb_reservegpuvirtualaddressrange",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 (WDDM 2.0)",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": "DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE",
+  "f1_keywords": [
+    "_DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE",
+    "d3dkmddi/_DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE",
+    "DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE",
+    "d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "_DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE",
+    "DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE"
+  ]
+}

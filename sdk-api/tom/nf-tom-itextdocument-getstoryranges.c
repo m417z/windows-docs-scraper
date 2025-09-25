@@ -1,0 +1,3 @@
+HRESULT GetStoryRanges(
+  ITextStoryRanges **ppStories
+);

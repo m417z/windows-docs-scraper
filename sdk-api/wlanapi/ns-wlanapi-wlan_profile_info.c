@@ -1,0 +1,4 @@
+typedef struct _WLAN_PROFILE_INFO {
+  WCHAR strProfileName[WLAN_MAX_NAME_LENGTH];
+  DWORD dwFlags;
+} WLAN_PROFILE_INFO, *PWLAN_PROFILE_INFO;

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:realtimeapiset.QueryUnbiasedInterruptTime",
+  "title": "QueryUnbiasedInterruptTime function (realtimeapiset.h)",
+  "description": "Gets the current unbiased interrupt-time count, in units of 100 nanoseconds. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.",
+  "helpviewer_keywords": [
+    "QueryUnbiasedInterruptTime",
+    "QueryUnbiasedInterruptTime function",
+    "base.queryunbiasedinterrupttime",
+    "realtimeapiset/QueryUnbiasedInterruptTime"
+  ],
+  "old-location": "base\\queryunbiasedinterrupttime.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "f9cf5440-9be9-4ff9-b85c-2779b847954c",
+  "ms.date": "09/26/2024",
+  "ms.keywords": "QueryUnbiasedInterruptTime, QueryUnbiasedInterruptTime function, base.queryunbiasedinterrupttime, realtimeapiset/QueryUnbiasedInterruptTime",
+  "req.header": "realtimeapiset.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7, Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mincore.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "QueryUnbiasedInterruptTime",
+    "realtimeapiset/QueryUnbiasedInterruptTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-realtime-l1-1-2.dll",
+    "kernel32.dll",
+    "API-MS-Win-Core-realtime-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-RealTime-l1-1-1.dll"
+  ],
+  "api_name": [
+    "QueryUnbiasedInterruptTime"
+  ]
+}

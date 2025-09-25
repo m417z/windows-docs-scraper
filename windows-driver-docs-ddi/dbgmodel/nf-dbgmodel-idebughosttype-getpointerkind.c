@@ -1,0 +1,3 @@
+HRESULT GetPointerKind(
+  PointerKind *pointerKind
+);

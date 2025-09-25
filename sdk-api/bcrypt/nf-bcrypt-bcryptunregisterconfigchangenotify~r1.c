@@ -1,0 +1,3 @@
+NTSTATUS BCryptUnregisterConfigChangeNotify(
+  HANDLE hEvent
+);

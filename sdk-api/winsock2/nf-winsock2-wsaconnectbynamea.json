@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winsock2.WSAConnectByNameA",
+  "title": "WSAConnectByNameA function (winsock2.h)",
+  "description": "Establishes a connection to a specified host and port. (ANSI)",
+  "helpviewer_keywords": [
+    "WSAConnectByNameA",
+    "winsock2/WSAConnectByNameA"
+  ],
+  "old-location": "winsock\\wsaconnectbyname_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "6d87699f-03bd-4579-9907-ae3c29b7332b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW",
+  "req.header": "winsock2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WSAConnectByNameW (Unicode) and WSAConnectByNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSAConnectByNameA",
+    "winsock2/WSAConnectByNameA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSAConnectByName",
+    "WSAConnectByNameA",
+    "WSAConnectByNameW"
+  ]
+}

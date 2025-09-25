@@ -1,0 +1,3 @@
+HRESULT Remove(
+  long lIndex
+);

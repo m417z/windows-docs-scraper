@@ -1,0 +1,23 @@
+typedef struct _SCSI_WMI_REQUEST_BLOCK {
+  USHORT Length;
+  UCHAR  Function;
+  UCHAR  SrbStatus;
+  UCHAR  WMISubFunction;
+  UCHAR  PathId;
+  UCHAR  TargetId;
+  UCHAR  Lun;
+  UCHAR  Reserved1;
+  UCHAR  WMIFlags;
+  UCHAR  Reserved2[2];
+  ULONG  SrbFlags;
+  ULONG  DataTransferLength;
+  ULONG  TimeOutValue;
+  PVOID  DataBuffer;
+  PVOID  DataPath;
+  PVOID  Reserved3;
+  PVOID  OriginalRequest;
+  PVOID  SrbExtension;
+  ULONG  Reserved4;
+  ULONG  Reserved6;
+  UCHAR  Reserved5[16];
+} SCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK;

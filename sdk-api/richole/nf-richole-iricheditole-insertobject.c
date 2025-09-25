@@ -1,0 +1,3 @@
+HRESULT InsertObject(
+  REOBJECT *lpreobject
+);

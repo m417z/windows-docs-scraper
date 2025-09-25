@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxcontx.RxDereferenceAndDeleteRxContext_Real",
+  "title": "RxDereferenceAndDeleteRxContext_Real function (rxcontx.h)",
+  "description": "RxDereferenceAndDeleteRxContext_Real dereferences an RX_CONTEXT data structure and if the ReferenceCount member goes to zero, then it deallocates and removes the specified RX_CONTEXT structure from the RDBSS in-memory data structures.",
+  "old-location": "ifsk\\rxdereferenceanddeleterxcontext_real.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxDereferenceAndDeleteRxContext_Real function"
+  ],
+  "ms.keywords": "RxDereferenceAndDeleteRxContext_Real, RxDereferenceAndDeleteRxContext_Real function [Installable File System Drivers], ifsk.rxdereferenceanddeleterxcontext_real, rxcontx/RxDereferenceAndDeleteRxContext_Real, rxref_d3ea173c-343f-4fbf-b07b-be17816e1b2e.xml",
+  "req.header": "rxcontx.h",
+  "req.include-header": "Rxprocs.h  rxcontx.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxDereferenceAndDeleteRxContext_Real",
+    "rxcontx/RxDereferenceAndDeleteRxContext_Real"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxcontx.h"
+  ],
+  "api_name": [
+    "RxDereferenceAndDeleteRxContext_Real"
+  ]
+}

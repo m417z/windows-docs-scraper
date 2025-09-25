@@ -1,0 +1,6 @@
+typedef struct _DD_FREEDRIVERMEMORYDATA {
+  PDD_DIRECTDRAW_GLOBAL lpDD;
+  PDD_SURFACE_LOCAL     lpDDSurface;
+  HRESULT               ddRVal;
+  VOID                  *FreeDriverMemory;
+} *PDD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA;

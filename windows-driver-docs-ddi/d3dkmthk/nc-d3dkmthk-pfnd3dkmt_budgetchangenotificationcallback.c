@@ -1,0 +1,6 @@
+PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK Pfnd3dkmtBudgetchangenotificationcallback;
+
+VOID Pfnd3dkmtBudgetchangenotificationcallback(
+  D3DKMT_BUDGETCHANGENOTIFICATION *unnamedParam1
+)
+{...}

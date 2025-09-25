@@ -1,0 +1,7 @@
+typedef struct _D3DKMT_PAGE_TABLE_LEVEL_DESC {
+  UINT                  IndexBitCount;
+  D3DKMT_ALIGN64 UINT64 IndexMask;
+  D3DKMT_ALIGN64 UINT64 IndexShift;
+  D3DKMT_ALIGN64 UINT64 LowerLevelsMask;
+  D3DKMT_ALIGN64 UINT64 EntryCoverageInPages;
+} D3DKMT_PAGE_TABLE_LEVEL_DESC;

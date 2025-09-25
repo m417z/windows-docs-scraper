@@ -1,0 +1,66 @@
+{
+  "UID": "NF:clusapi.ClusterResourceTypeGetEnumCount",
+  "title": "ClusterResourceTypeGetEnumCount function (clusapi.h)",
+  "description": "Returns the number of cluster objects associated with a resource_type enumeration handle.",
+  "helpviewer_keywords": [
+    "ClusterResourceTypeGetEnumCount",
+    "ClusterResourceTypeGetEnumCount function [Failover Cluster]",
+    "PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT",
+    "PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT function [Failover Cluster]",
+    "_wolf_clusterresourcetypegetenumcount",
+    "clusapi/ClusterResourceTypeGetEnumCount",
+    "clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT",
+    "mscs.clusterresourcetypegetenumcount"
+  ],
+  "old-location": "mscs\\clusterresourcetypegetenumcount.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "1960dc1a-778e-4bad-b6ad-07c0a8547cc6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterResourceTypeGetEnumCount, ClusterResourceTypeGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT function [Failover Cluster], _wolf_clusterresourcetypegetenumcount, clusapi/ClusterResourceTypeGetEnumCount, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT, mscs.clusterresourcetypegetenumcount",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterResourceTypeGetEnumCount",
+    "clusapi/ClusterResourceTypeGetEnumCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll"
+  ],
+  "api_name": [
+    "ClusterResourceTypeGetEnumCount"
+  ]
+}

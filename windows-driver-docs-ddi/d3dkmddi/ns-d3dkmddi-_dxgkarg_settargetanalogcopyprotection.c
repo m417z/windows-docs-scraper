@@ -1,0 +1,6 @@
+typedef struct _DXGKARG_SETTARGETANALOGCOPYPROTECTION {
+  [in] IN D3DDDI_VIDEO_PRESENT_TARGET_ID                 TargetId;
+  [in] D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE    CopyProtectionType;
+  [in] UINT                                              APSTriggerBits;
+  [in] D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT CopyProtectionSupport;
+} DXGKARG_SETTARGETANALOGCOPYPROTECTION;

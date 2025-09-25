@@ -1,0 +1,4 @@
+typedef struct _DXGKARG_GPUP_PREPARE_LIVE_MIGRATION {
+  UINT                    vfIndex;
+  DXGK_GPUP_MIGRATIONTYPE MigrationType;
+} DXGKARG_GPUP_PREPARE_LIVE_MIGRATION;

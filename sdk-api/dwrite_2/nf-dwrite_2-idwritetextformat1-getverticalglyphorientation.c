@@ -1,0 +1,1 @@
+DWRITE_VERTICAL_GLYPH_ORIENTATION GetVerticalGlyphOrientation();

@@ -1,0 +1,67 @@
+{
+  "UID": "NF:winuser.GetPointerFrameInfoHistory",
+  "title": "GetPointerFrameInfoHistory function (winuser.h)",
+  "description": "Gets the entire frame of information (including coalesced input frames) for the specified pointers associated with the current message.",
+  "helpviewer_keywords": [
+    "GetPointerFrameInfoHistory",
+    "GetPointerFrameInfoHistory function [Input Messages and Notifications]",
+    "inputmsg.getpointerframeinfohistory",
+    "winuser/GetPointerFrameInfoHistory"
+  ],
+  "old-location": "inputmsg\\getpointerframeinfohistory.htm",
+  "tech.root": "InputMsg",
+  "ms.assetid": "1ae035d6-a375-4421-82a6-50be4a2341f6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetPointerFrameInfoHistory, GetPointerFrameInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframeinfohistory, winuser/GetPointerFrameInfoHistory",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetPointerFrameInfoHistory",
+    "winuser/GetPointerFrameInfoHistory"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll",
+    "api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll",
+    "User32.dll",
+    "API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll",
+    "ie_shims.dll",
+    "API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll",
+    "MinUser.dll",
+    "API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll",
+    "API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll",
+    "API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll"
+  ],
+  "api_name": [
+    "GetPointerFrameInfoHistory"
+  ],
+  "req.apiset": "ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)"
+}

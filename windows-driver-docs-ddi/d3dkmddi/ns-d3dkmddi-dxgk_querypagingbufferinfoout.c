@@ -1,0 +1,4 @@
+typedef struct _DXGK_QUERYPAGINGBUFFERINFOOUT {
+  UINT32 PagingBufferSize;
+  UINT32 PagingBufferPrivateDataSize;
+} DXGK_QUERYPAGINGBUFFERINFOOUT;

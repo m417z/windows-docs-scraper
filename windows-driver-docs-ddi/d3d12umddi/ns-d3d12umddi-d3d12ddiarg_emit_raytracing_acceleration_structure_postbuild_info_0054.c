@@ -1,0 +1,5 @@
+typedef struct D3D12DDIARG_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054 {
+  D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_DESC_0054 Desc;
+  UINT                                                                NumSourceAccelerationStructures;
+  const D3D12DDI_GPU_VIRTUAL_ADDRESS                                  *pSourceAccelerationStructureData;
+} D3D12DDIARG_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054;

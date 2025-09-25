@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndischimney.INVALIDATE_OFFLOAD_COMPLETE_HANDLER",
+  "title": "INVALIDATE_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)",
+  "description": "NDIS calls a protocol driver's or intermediate driver's ProtocolInvalidateOffloadComplete function to complete an invalidate operation that the driver previously initiated by calling the NdisInvalidateOffload function.",
+  "old-location": "netvista\\protocolinvalidateoffloadcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback function"
+  ],
+  "ms.keywords": "INVALIDATE_OFFLOAD_COMPLETE_HANDLER, INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInvalidateOffloadComplete, ProtocolInvalidateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInvalidateOffloadComplete, netvista.protocolinvalidateoffloadcomplete, tcp_chim_protocol_func_af2a329a-730b-4ccb-afc6-702e88a763f2.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "INVALIDATE_OFFLOAD_COMPLETE_HANDLER",
+    "ndischimney/INVALIDATE_OFFLOAD_COMPLETE_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndischimney.h"
+  ],
+  "api_name": [
+    "INVALIDATE_OFFLOAD_COMPLETE_HANDLER"
+  ]
+}

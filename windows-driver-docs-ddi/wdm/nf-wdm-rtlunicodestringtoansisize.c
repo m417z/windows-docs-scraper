@@ -1,0 +1,3 @@
+void RtlUnicodeStringToAnsiSize(
+  [in] STRING
+);

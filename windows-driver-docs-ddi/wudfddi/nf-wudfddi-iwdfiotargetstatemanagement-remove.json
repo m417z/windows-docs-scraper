@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFIoTargetStateManagement.Remove",
+  "title": "IWDFIoTargetStateManagement::Remove (wudfddi.h)",
+  "description": "The Remove method removes a local I/O target.",
+  "old-location": "wdf\\iwdfiotargetstatemanagement_remove.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFIoTargetStateManagement::Remove"
+  ],
+  "ms.keywords": "IWDFIoTargetStateManagement interface,Remove method, IWDFIoTargetStateManagement.Remove, IWDFIoTargetStateManagement::Remove, Remove, Remove method, Remove method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, umdf.iwdfiotargetstatemanagement_remove, wdf.iwdfiotargetstatemanagement_remove, wudfddi/IWDFIoTargetStateManagement::Remove",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFIoTargetStateManagement::Remove",
+    "wudfddi/IWDFIoTargetStateManagement::Remove"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFIoTargetStateManagement::Remove"
+  ]
+}

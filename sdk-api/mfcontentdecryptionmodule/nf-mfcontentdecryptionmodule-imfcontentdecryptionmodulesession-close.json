@@ -1,0 +1,46 @@
+{
+  "UID": "NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.Close",
+  "title": "IMFContentDecryptionModuleSession::Close",
+  "ms.date": "11/26/2019",
+  "targetos": "Windows",
+  "description": "Indicates that the application no longer needs the session and the Content Decryption Module (CDM) should release any resources associated with the session and close it.",
+  "tech.root": "mf",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "mfcontentdecryptionmodule.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mfcontentdecryptionmodule.h"
+  ],
+  "api_name": [
+    "IMFContentDecryptionModuleSession::Close"
+  ],
+  "f1_keywords": [
+    "IMFContentDecryptionModuleSession::Close",
+    "mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::Close"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

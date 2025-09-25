@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDevice.GetDefaultIoTarget",
+  "title": "IWDFDevice::GetDefaultIoTarget (wudfddi.h)",
+  "description": "The GetDefaultIoTarget method retrieves the interface of the default I/O target for a device instance.",
+  "old-location": "wdf\\iwdfdevice_getdefaultiotarget.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDevice::GetDefaultIoTarget"
+  ],
+  "ms.keywords": "GetDefaultIoTarget, GetDefaultIoTarget method, GetDefaultIoTarget method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoTarget method, IWDFDevice.GetDefaultIoTarget, IWDFDevice::GetDefaultIoTarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, umdf.iwdfdevice_getdefaultiotarget, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDevice::GetDefaultIoTarget",
+    "wudfddi/IWDFDevice::GetDefaultIoTarget"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDevice::GetDefaultIoTarget"
+  ]
+}

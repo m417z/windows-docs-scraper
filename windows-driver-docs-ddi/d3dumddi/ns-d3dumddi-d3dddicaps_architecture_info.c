@@ -1,0 +1,3 @@
+typedef struct D3DDDICAPS_ARCHITECTURE_INFO {
+  BOOL TileBasedDeferredRenderer;
+} D3DDDICAPS_ARCHITECTURE_INFO;

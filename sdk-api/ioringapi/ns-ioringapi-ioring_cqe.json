@@ -1,0 +1,43 @@
+{
+  "UID": "NS:ioringapi.IORING_CQE",
+  "tech.root": "fs",
+  "title": "IORING_CQE",
+  "ms.date": "07/16/2021",
+  "targetos": "Windows",
+  "description": "Represents a completed I/O ring queue entry.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ioringapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": "IORING_CQE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ioringapi.h"
+  ],
+  "api_name": [
+    "IORING_CQE"
+  ],
+  "f1_keywords": [
+    "IORING_CQE",
+    "ioringapi/IORING_CQE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:sercx.EVT_SERCX_CONTROL",
+  "title": "EVT_SERCX_CONTROL (sercx.h)",
+  "description": "The EvtSerCxControl event callback function handles an I/O control request that has an I/O control code (IOCTL) that the serial framework extension (SerCx) supports.",
+  "old-location": "serports\\evtsercxcontrol.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "EVT_SERCX_CONTROL callback function"
+  ],
+  "ms.keywords": "1/EvtSerCxControl, EVT_SERCX_CONTROL, EVT_SERCX_CONTROL callback, EvtSerCxControl, EvtSerCxControl callback function [Serial Ports], serports.evtsercxcontrol",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SERCX_CONTROL",
+    "sercx/EVT_SERCX_CONTROL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "1.0\\Sercx.h"
+  ],
+  "api_name": [
+    "EVT_SERCX_CONTROL"
+  ]
+}

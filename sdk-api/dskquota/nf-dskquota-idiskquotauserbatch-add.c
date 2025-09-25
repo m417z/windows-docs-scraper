@@ -1,0 +1,3 @@
+HRESULT Add(
+  [in] PDISKQUOTA_USER pUser
+);

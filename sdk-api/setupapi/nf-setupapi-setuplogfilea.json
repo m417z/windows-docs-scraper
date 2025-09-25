@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupLogFileA",
+  "title": "SetupLogFileA function (setupapi.h)",
+  "description": "The SetupLogFile function adds an entry to the log file. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupLogFileA",
+    "setupapi/SetupLogFileA"
+  ],
+  "old-location": "setup\\setuplogfile.htm",
+  "tech.root": "setup",
+  "ms.assetid": "bc738212-ff81-4b52-b2ef-50aabf6658ab",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupLogFile, SetupLogFile function [Setup API], SetupLogFileA, SetupLogFileW, _setupapi_setuplogfile, setup.setuplogfile, setupapi/SetupLogFile, setupapi/SetupLogFileA, setupapi/SetupLogFileW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupLogFileW (Unicode) and SetupLogFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupLogFileA",
+    "setupapi/SetupLogFileA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupLogFile",
+    "SetupLogFileA",
+    "SetupLogFileW"
+  ]
+}

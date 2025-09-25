@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFMemory.CopyFromMemory",
+  "title": "IWDFMemory::CopyFromMemory (wudfddi.h)",
+  "description": "The CopyFromMemory method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.",
+  "old-location": "wdf\\iwdfmemory_copyfrommemory.htm",
+  "tech.root": "wdf",
+  "ms.date": "08/12/2022",
+  "keywords": [
+    "IWDFMemory::CopyFromMemory"
+  ],
+  "ms.keywords": "CopyFromMemory, CopyFromMemory method, CopyFromMemory method,IWDFMemory interface, IWDFMemory interface,CopyFromMemory method, IWDFMemory.CopyFromMemory, IWDFMemory::CopyFromMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory, wudfddi/IWDFMemory::CopyFromMemory",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFMemory::CopyFromMemory",
+    "wudfddi/IWDFMemory::CopyFromMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFMemory::CopyFromMemory"
+  ]
+}

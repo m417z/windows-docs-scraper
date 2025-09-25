@@ -1,0 +1,4 @@
+typedef struct _DISPLAYCONFIG_SDR_WHITE_LEVEL {
+  DISPLAYCONFIG_DEVICE_INFO_HEADER header;
+  ULONG                            SDRWhiteLevel;
+} DISPLAYCONFIG_SDR_WHITE_LEVEL;

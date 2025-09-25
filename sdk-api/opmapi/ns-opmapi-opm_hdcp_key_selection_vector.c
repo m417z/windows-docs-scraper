@@ -1,0 +1,3 @@
+typedef struct _OPM_HDCP_KEY_SELECTION_VECTOR {
+  BYTE abKeySelectionVector[5];
+} OPM_HDCP_KEY_SELECTION_VECTOR;

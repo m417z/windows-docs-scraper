@@ -1,0 +1,18 @@
+typedef struct MILMatrixF {
+  DOUBLE _11;
+  DOUBLE _12;
+  DOUBLE _13;
+  DOUBLE _14;
+  DOUBLE _21;
+  DOUBLE _22;
+  DOUBLE _23;
+  DOUBLE _24;
+  DOUBLE _31;
+  DOUBLE _32;
+  DOUBLE _33;
+  DOUBLE _34;
+  DOUBLE _41;
+  DOUBLE _42;
+  DOUBLE _43;
+  DOUBLE _44;
+} MILMatrixF;

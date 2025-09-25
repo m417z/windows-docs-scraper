@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.MmIsDriverVerifying",
+  "title": "MmIsDriverVerifying function (wdm.h)",
+  "description": "The MmIsDriverVerifying routine indicates whether the kernel-mode driver that is identified by the specified driver object is being verified or calls a driver that is being verified by Driver Verifier.",
+  "old-location": "kernel\\mmisdriververifying.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "MmIsDriverVerifying function"
+  ],
+  "ms.keywords": "MmIsDriverVerifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, kernel.mmisdriververifying, wdm/MmIsDriverVerifying",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmIsDriverVerifying",
+    "wdm/MmIsDriverVerifying"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmIsDriverVerifying"
+  ]
+}

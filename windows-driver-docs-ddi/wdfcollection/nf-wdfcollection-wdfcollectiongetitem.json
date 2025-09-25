@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfcollection.WdfCollectionGetItem",
+  "title": "WdfCollectionGetItem function (wdfcollection.h)",
+  "description": "The WdfCollectionGetItem method returns a handle to the object that is contained in a specified object collection and associated with a specified index value.",
+  "old-location": "wdf\\wdfcollectiongetitem.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfCollectionGetItem function"
+  ],
+  "ms.keywords": "DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem",
+  "req.header": "wdfcollection.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfCollectionGetItem",
+    "wdfcollection/WdfCollectionGetItem"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfCollectionGetItem"
+  ]
+}

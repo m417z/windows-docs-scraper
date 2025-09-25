@@ -1,0 +1,3 @@
+HRESULT CreateScript(
+  IDataModelScript **script
+);

@@ -1,0 +1,8 @@
+typedef struct D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE {
+  UINT                                   NodeIndex;
+  D3D12_VIDEO_ENCODER_CODEC              Codec;
+  D3D12_VIDEO_ENCODER_PROFILE_DESC       Profile;
+  D3D12_VIDEO_ENCODER_LEVEL_SETTING      Level;
+  D3D12_VIDEO_ENCODER_INTRA_REFRESH_MODE IntraRefreshMode;
+  BOOL                                   IsSupported;
+} D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE;

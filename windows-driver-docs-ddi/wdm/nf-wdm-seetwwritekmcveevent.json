@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.SeEtwWriteKMCveEvent",
+  "title": "SeEtwWriteKMCveEvent function (wdm.h)",
+  "description": "The SeEtwWriteKMCveEvent function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.",
+  "tech.root": "devtest",
+  "ms.date": "12/13/2022",
+  "keywords": [
+    "SeEtwWriteKMCveEvent function"
+  ],
+  "ms.keywords": "SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent function [Display Devices], devtest.seetwwritekmcveevent, wdm/SeEtwWriteKMCveEvent",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows 10 and later versions of Windows",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": "Ntoskrnl.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeEtwWriteKMCveEvent",
+    "wdm/SeEtwWriteKMCveEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntoskrnl.exe"
+  ],
+  "api_name": [
+    "SeEtwWriteKMCveEvent"
+  ]
+}

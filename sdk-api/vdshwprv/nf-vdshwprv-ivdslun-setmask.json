@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vdshwprv.IVdsLun.SetMask",
+  "title": "IVdsLun::SetMask (vdshwprv.h)",
+  "description": "The IVdsLun::SetMask (vdshwprv.h) method specifies the unmasking list, which is the list of computers to be granted access to the LUN.",
+  "helpviewer_keywords": [
+    "IVdsLun interface [VDS]",
+    "SetMask method",
+    "IVdsLun.SetMask",
+    "IVdsLun::SetMask",
+    "SetMask",
+    "SetMask method [VDS]",
+    "SetMask method [VDS]",
+    "IVdsLun interface",
+    "base.ivdslun_setmask",
+    "vds/IVdsLun::SetMask",
+    "vdshwprv/IVdsLun::SetMask"
+  ],
+  "old-location": "base\\ivdslun_setmask.htm",
+  "tech.root": "base",
+  "ms.assetid": "b7e841cc-95b4-452f-ac14-d7063fe6a694",
+  "ms.date": "08/08/2022",
+  "ms.keywords": "IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask",
+  "req.header": "vdshwprv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVdsLun::SetMask",
+    "vdshwprv/IVdsLun::SetMask"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Uuid.lib",
+    "Uuid.dll"
+  ],
+  "api_name": [
+    "IVdsLun.SetMask"
+  ]
+}

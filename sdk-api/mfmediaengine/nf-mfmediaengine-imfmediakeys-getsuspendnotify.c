@@ -1,0 +1,3 @@
+HRESULT GetSuspendNotify(
+  IMFCdmSuspendNotify **notify
+);

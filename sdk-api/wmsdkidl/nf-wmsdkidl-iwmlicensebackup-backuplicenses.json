@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMLicenseBackup.BackupLicenses",
+  "title": "IWMLicenseBackup::BackupLicenses (wmsdkidl.h)",
+  "description": "The BackupLicenses method saves copies of the licenses.",
+  "helpviewer_keywords": [
+    "BackupLicenses",
+    "BackupLicenses method [windows Media Format]",
+    "BackupLicenses method [windows Media Format]",
+    "IWMLicenseBackup interface",
+    "IWMLicenseBackup interface [windows Media Format]",
+    "BackupLicenses method",
+    "IWMLicenseBackup.BackupLicenses",
+    "IWMLicenseBackup::BackupLicenses",
+    "IWMLicenseBackupBackupLicenses",
+    "wmformat.iwmlicensebackup_backuplicenses",
+    "wmsdkidl/IWMLicenseBackup::BackupLicenses"
+  ],
+  "old-location": "wmformat\\iwmlicensebackup_backuplicenses.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "714971d7-8ccb-41fa-92b2-802a503ae228",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "BackupLicenses, BackupLicenses method [windows Media Format], BackupLicenses method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],BackupLicenses method, IWMLicenseBackup.BackupLicenses, IWMLicenseBackup::BackupLicenses, IWMLicenseBackupBackupLicenses, wmformat.iwmlicensebackup_backuplicenses, wmsdkidl/IWMLicenseBackup::BackupLicenses",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMLicenseBackup::BackupLicenses",
+    "wmsdkidl/IWMLicenseBackup::BackupLicenses"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMLicenseBackup.BackupLicenses"
+  ]
+}

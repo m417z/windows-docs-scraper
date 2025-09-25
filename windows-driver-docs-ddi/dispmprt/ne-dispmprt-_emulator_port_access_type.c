@@ -1,0 +1,5 @@
+typedef enum _EMULATOR_PORT_ACCESS_TYPE {
+  Uchar,
+  Ushort,
+  Ulong
+} EMULATOR_PORT_ACCESS_TYPE, *PEMULATOR_PORT_ACCESS_TYPE;

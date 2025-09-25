@@ -1,0 +1,7 @@
+typedef struct _REG_UNLOAD_KEY_INFORMATION {
+  PVOID Object;
+  PVOID UserEvent;
+  PVOID CallContext;
+  PVOID ObjectContext;
+  PVOID Reserved;
+} REG_UNLOAD_KEY_INFORMATION, *PREG_UNLOAD_KEY_INFORMATION;

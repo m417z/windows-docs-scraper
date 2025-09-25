@@ -1,0 +1,60 @@
+{
+  "UID": "NF:shlobj_core.ILSkip",
+  "title": "ILSkip function (shlobj_core.h)",
+  "description": "Skips a given number of bytes in a constant, unaligned, relative ITEMIDLIST structure.",
+  "helpviewer_keywords": [
+    "ILSkip",
+    "ILSkip function [Windows Shell]",
+    "ILSkip(PCUIDLIST_RELATIVE",
+    "UINT)",
+    "_shell_ILSkip_PCUIDLIST_RELATIVE_UINT",
+    "shell.ILSkip_PCUIDLIST_RELATIVE_UINT",
+    "shlobj_core/ILSkip"
+  ],
+  "old-location": "shell\\ILSkip_PCUIDLIST_RELATIVE_UINT.htm",
+  "tech.root": "shell",
+  "ms.assetid": "0ed0409a-eab3-49b6-bd8d-06ad38ac2f8c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ILSkip, ILSkip function [Windows Shell], ILSkip(PCUIDLIST_RELATIVE,UINT), _shell_ILSkip_PCUIDLIST_RELATIVE_UINT, shell.ILSkip_PCUIDLIST_RELATIVE_UINT, shlobj_core/ILSkip",
+  "req.header": "shlobj_core.h",
+  "req.include-header": "Shlobj.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ILSkip",
+    "shlobj_core/ILSkip"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "shlobj_core.h"
+  ],
+  "api_name": [
+    "ILSkip"
+  ]
+}

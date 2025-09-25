@@ -1,0 +1,63 @@
+{
+  "UID": "NF:setupapi.SetupConfigureWmiFromInfSectionW",
+  "title": "SetupConfigureWmiFromInfSectionW function (setupapi.h)",
+  "description": "The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section. (Unicode)",
+  "helpviewer_keywords": [
+    "SCWMI_CLOBBER_SECURITY",
+    "SetupConfigureWmiFromInfSection",
+    "SetupConfigureWmiFromInfSection function [Setup API]",
+    "SetupConfigureWmiFromInfSectionW",
+    "_setupapi_setupuninstalloeminf",
+    "setup.setupconfigurewmifrominfsection",
+    "setupapi/SetupConfigureWmiFromInfSection",
+    "setupapi/SetupConfigureWmiFromInfSectionW"
+  ],
+  "old-location": "setup\\setupconfigurewmifrominfsection.htm",
+  "tech.root": "setup",
+  "ms.assetid": "1fcf9086-fde1-414c-9073-22452c3ffc6d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupConfigureWmiFromInfSectionW (Unicode) and SetupConfigureWmiFromInfSectionA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupConfigureWmiFromInfSectionW",
+    "setupapi/SetupConfigureWmiFromInfSectionW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupConfigureWmiFromInfSection",
+    "SetupConfigureWmiFromInfSectionA",
+    "SetupConfigureWmiFromInfSectionW"
+  ]
+}

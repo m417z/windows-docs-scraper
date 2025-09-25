@@ -1,0 +1,6 @@
+typedef struct {
+  LARGE_INTEGER    TimerFrequency;
+  LARGE_INTEGER    TimeStamp1;
+  KSAUDIO_POSITION Position;
+  LARGE_INTEGER    TimeStamp2;
+} KSAUDIO_POSITIONEX, *PKSAUDIO_POSITIONEX;

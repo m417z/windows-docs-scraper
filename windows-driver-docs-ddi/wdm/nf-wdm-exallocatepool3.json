@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wdm.ExAllocatePool3",
+  "title": "ExAllocatePool3",
+  "tech.root": "kernel",
+  "ms.date": "05/12/2020",
+  "targetos": "Windows",
+  "description": "Learn more about: ExAllocatePool3",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": "HwStorPortProhibitedDDIs, SpNoWait, StorPortStartIo",
+  "req.dll": "NtosKrnl.exe",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.idl": null,
+  "req.irql": "<= DISPATCH_LEVEL (see Remarks section)",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "ExAllocatePool3"
+  ],
+  "f1_keywords": [
+    "ExAllocatePool3",
+    "wdm/ExAllocatePool3"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

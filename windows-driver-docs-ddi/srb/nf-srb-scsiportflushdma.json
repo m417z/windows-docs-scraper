@@ -1,0 +1,49 @@
+{
+  "UID": "NF:srb.ScsiPortFlushDma",
+  "title": "ScsiPortFlushDma function (srb.h)",
+  "description": "The ScsiPortFlushDma routine flushes any data cached in the system DMA controller at the end of a transfer or terminates a system DMA transfer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\scsiportflushdma.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ScsiPortFlushDma function"
+  ],
+  "ms.keywords": "ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices], scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma, storage.scsiportflushdma",
+  "req.header": "srb.h",
+  "req.include-header": "Miniport.h, Scsi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scsiport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortFlushDma",
+    "srb/ScsiPortFlushDma"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Scsiport.lib",
+    "Scsiport.dll"
+  ],
+  "api_name": [
+    "ScsiPortFlushDma"
+  ]
+}

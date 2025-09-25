@@ -1,0 +1,4 @@
+XMVECTOR XM_CALLCONV XMVectorATan2(
+  [in] FXMVECTOR Y,
+  [in] FXMVECTOR X
+) noexcept;

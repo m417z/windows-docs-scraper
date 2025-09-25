@@ -1,0 +1,3 @@
+HRESULT GetReport(
+  IMFRelativePanelReport **ppRelativePanelReport
+);

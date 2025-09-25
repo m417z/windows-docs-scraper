@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.MM_MDL_ROUTINE",
+  "title": "MM_MDL_ROUTINE (wdm.h)",
+  "description": "A driver-supplied callback routine that is invoked after a memory descriptor list (MDL) is mapped by calling the MmMapMdl function.",
+  "old-location": "kernel\\mm_mdl_routine.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "MM_MDL_ROUTINE callback function"
+  ],
+  "ms.keywords": "*PMM_MDL_ROUTINE, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], MM_MDL_ROUTINE, MM_MDL_ROUTINE callback, MmMdlRoutine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], kernel.mm_mdl_routine, wdm/MmMdlRoutine",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MM_MDL_ROUTINE",
+    "wdm/MM_MDL_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "MM_MDL_ROUTINE"
+  ]
+}

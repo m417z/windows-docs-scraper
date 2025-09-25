@@ -1,0 +1,3 @@
+HRESULT MFCreateSystemTimeSource(
+  IMFPresentationTimeSource **ppSystemTimeSource
+);

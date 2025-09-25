@@ -1,0 +1,50 @@
+{
+  "UID": "NE:poscx._POS_CX_EVENT_ATTRIBUTES",
+  "title": "_POS_CX_EVENT_ATTRIBUTES (poscx.h)",
+  "description": "The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in POS_CX_EVENT_DEST and POS_CX_EVENT_PRIORITY.",
+  "tech.root": "pos",
+  "ms.date": "01/04/2023",
+  "keywords": [
+    "POS_CX_EVENT_ATTRIBUTES enumeration"
+  ],
+  "ms.keywords": "POS_CX_EVENT_ATTRIBUTES, POS_CX_EVENT_ATTRIBUTES enumeration, POS_CX_EVENT_ATTR_BCAST_CONTROL, POS_CX_EVENT_ATTR_CONTROL, POS_CX_EVENT_ATTR_DATA, _POS_CX_EVENT_ATTRIBUTES, pos.pos_cx_event_attributes, poscx/POS_CX_EVENT_ATTRIBUTES, poscx/POS_CX_EVENT_ATTR_BCAST_CONTROL, poscx/POS_CX_EVENT_ATTR_CONTROL, poscx/POS_CX_EVENT_ATTR_DATA",
+  "req.header": "poscx.h",
+  "req.include-header": "Poscx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "POS_CX_EVENT_ATTRIBUTES",
+  "f1_keywords": [
+    "_POS_CX_EVENT_ATTRIBUTES",
+    "poscx/_POS_CX_EVENT_ATTRIBUTES",
+    "POS_CX_EVENT_ATTRIBUTES",
+    "poscx/POS_CX_EVENT_ATTRIBUTES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "poscx.h"
+  ],
+  "api_name": [
+    "_POS_CX_EVENT_ATTRIBUTES",
+    "POS_CX_EVENT_ATTRIBUTES"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:clusapi.GetCurrentClusterNodeId",
+  "title": "GetCurrentClusterNodeId macro (clusapi.h)",
+  "description": "Returns the unique identifier of the current cluster node.",
+  "helpviewer_keywords": [
+    "GetCurrentClusterNodeId",
+    "GetCurrentClusterNodeId macro [Failover Cluster]",
+    "clusapi/GetCurrentClusterNodeId",
+    "mscs.getcurrentclusternodeid"
+  ],
+  "old-location": "mscs\\getcurrentclusternodeid.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "289abaaa-d063-4e99-91e7-441c58f7f75c",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetCurrentClusterNodeId",
+    "clusapi/GetCurrentClusterNodeId"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ClusAPI.h"
+  ],
+  "api_name": [
+    "GetCurrentClusterNodeId"
+  ]
+}

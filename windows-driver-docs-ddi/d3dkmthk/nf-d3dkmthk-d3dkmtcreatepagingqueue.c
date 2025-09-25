@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreatePagingQueue(
+  D3DKMT_CREATEPAGINGQUEUE *unnamedParam1
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisOidRequest",
+  "title": "NdisOidRequest function (ndis.h)",
+  "description": "The NdisOidRequest function forwards a request to the underlying drivers to query the capabilities or status of an adapter or set the state of an adapter.",
+  "old-location": "netvista\\ndisoidrequest.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisOidRequest function"
+  ],
+  "ms.keywords": "NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_OID_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisOidRequest",
+    "ndis/NdisOidRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisOidRequest"
+  ]
+}

@@ -1,0 +1,10 @@
+typedef enum PHONE_LAMP_MODE {
+  LM_DUMMY = 0x1,
+  LM_OFF = 0x2,
+  LM_STEADY = 0x4,
+  LM_WINK = 0x8,
+  LM_FLASH = 0x10,
+  LM_FLUTTER = 0x20,
+  LM_BROKENFLUTTER = 0x40,
+  LM_UNKNOWN = 0x80
+} ;

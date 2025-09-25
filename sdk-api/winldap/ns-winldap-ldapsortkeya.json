@@ -1,0 +1,72 @@
+{
+  "UID": "NS:winldap.ldapsortkeyA",
+  "title": "LDAPSortKeyA (winldap.h)",
+  "description": "The LDAPSortKey structure stores sorting criteria for use by sort controls. (ANSI)",
+  "helpviewer_keywords": [
+    "*PLDAPSortKeyA",
+    "LDAPSortKey",
+    "LDAPSortKey structure [LDAP]",
+    "LDAPSortKeyA",
+    "LDAPSortKeyW",
+    "PLDAPSortKey",
+    "PLDAPSortKey structure pointer [LDAP]",
+    "_ldap_ldapsortkey",
+    "ldap.ldapsortkey",
+    "winldap/LDAPSortKey",
+    "winldap/LDAPSortKeyA",
+    "winldap/LDAPSortKeyW",
+    "winldap/PLDAPSortKey"
+  ],
+  "old-location": "ldap\\ldapsortkey.htm",
+  "tech.root": "ldap",
+  "ms.assetid": "3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PLDAPSortKeyA, LDAPSortKey, LDAPSortKey structure [LDAP], LDAPSortKeyA, LDAPSortKeyW, PLDAPSortKey, PLDAPSortKey structure pointer [LDAP], _ldap_ldapsortkey, ldap.ldapsortkey, winldap/LDAPSortKey, winldap/LDAPSortKeyA, winldap/LDAPSortKeyW, winldap/PLDAPSortKey",
+  "req.header": "winldap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "LDAPSortKeyW (Unicode) and LDAPSortKeyA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LDAPSortKeyA, *PLDAPSortKeyA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ldapsortkeyA",
+    "winldap/ldapsortkeyA",
+    "PLDAPSortKeyA",
+    "winldap/PLDAPSortKeyA",
+    "LDAPSortKeyA",
+    "winldap/LDAPSortKeyA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winldap.h"
+  ],
+  "api_name": [
+    "LDAPSortKey",
+    "LDAPSortKeyA",
+    "LDAPSortKeyW"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "UID": "NF:azroles.IAzAuthorizationStore.AddDelegatedPolicyUser",
+  "title": "IAzAuthorizationStore::AddDelegatedPolicyUser (azroles.h)",
+  "description": "Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users. (IAzAuthorizationStore.AddDelegatedPolicyUser)",
+  "helpviewer_keywords": [
+    "AddDelegatedPolicyUser",
+    "AddDelegatedPolicyUser method [Security]",
+    "AddDelegatedPolicyUser method [Security]",
+    "AzAuthorizationStore object",
+    "AddDelegatedPolicyUser method [Security]",
+    "IAzAuthorizationStore interface",
+    "AzAuthorizationStore object [Security]",
+    "AddDelegatedPolicyUser method",
+    "IAzAuthorizationStore interface [Security]",
+    "AddDelegatedPolicyUser method",
+    "IAzAuthorizationStore.AddDelegatedPolicyUser",
+    "IAzAuthorizationStore::AddDelegatedPolicyUser",
+    "azroles/IAzAuthorizationStore::AddDelegatedPolicyUser",
+    "security.azauthorizationstore_adddelegatedpolicyuser"
+  ],
+  "old-location": "security\\azauthorizationstore_adddelegatedpolicyuser.htm",
+  "tech.root": "security",
+  "ms.assetid": "0c6714e9-489e-4266-a8b5-35c66b0a14f4",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security],AzAuthorizationStore object, AddDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore interface [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore.AddDelegatedPolicyUser, IAzAuthorizationStore::AddDelegatedPolicyUser, azroles/IAzAuthorizationStore::AddDelegatedPolicyUser, security.azauthorizationstore_adddelegatedpolicyuser",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzAuthorizationStore::AddDelegatedPolicyUser",
+    "azroles/IAzAuthorizationStore::AddDelegatedPolicyUser"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "AzAuthorizationStore.AddDelegatedPolicyUser",
+    "IAzAuthorizationStore.AddDelegatedPolicyUser"
+  ]
+}

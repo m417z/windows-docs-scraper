@@ -1,0 +1,3 @@
+HRESULT MFCreateSample(
+  IMFSample **ppIMFSample
+);

@@ -1,0 +1,50 @@
+# ACMFILTERTAGENUMCBW callback function
+
+## Description
+
+The **acmFilterTagEnumCallback** function specifies a callback function used with the [acmFilterTagEnum](https://learn.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum) function. The **acmFilterTagEnumCallback** function name is a placeholder for an application-defined function name.
+
+## Parameters
+
+### `hadid`
+
+Handle to the ACM driver identifier.
+
+### `paftd`
+
+Pointer to an [ACMFILTERTAGDETAILS](https://learn.microsoft.com/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure that contains the enumerated filter tag details.
+
+### `dwInstance`
+
+Application-defined value specified in [acmFilterTagEnum](https://learn.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum).
+
+### `fdwSupport`
+
+Driver-support flags specific to the driver identifier [ACMDRIVERDETAILS](https://learn.microsoft.com/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. This parameter can be a combination of the following values and identifies which operations the driver supports with the filter tag.
+
+| Value | Meaning |
+| --- | --- |
+| **ACMDRIVERDETAILS_SUPPORTF_ASYNC** | Driver supports asynchronous conversions with the specified filter tag. |
+| **ACMDRIVERDETAILS_SUPPORTF_CODEC** | Driver supports conversion between two different format tags while using the specified filter tag. For example, if a driver supports compression from **WAVE_FORMAT_PCM** to **WAVE_FORMAT_ADPCM** with the specified filter tag, this flag is set. |
+| **ACMDRIVERDETAILS_SUPPORTF_CONVERTER** | Driver supports conversion between two different formats of the same format tag while using the specified filter tag. For example, if a driver supports resampling of **WAVE_FORMAT_PCM** with the specified filter tag, this flag is set. |
+| **ACMDRIVERDETAILS_SUPPORTF_FILTER** | Driver supports a filter (modification of the data without changing any of the format attributes). For example, if a driver supports volume or echo operations on **WAVE_FORMAT_PCM**, this flag is set. |
+| **ACMDRIVERDETAILS_SUPPORTF_HARDWARE** | Driver supports hardware input, output, or both with the specified filter tag through a waveform-audio device. An application should use the [acmMetrics](https://learn.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics) function with the **ACM_METRIC_HARDWARE_WAVE_INPUT** and **ACM_METRIC_HARDWARE_WAVE_OUTPUT** metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver. |
+
+## Return value
+
+The callback function must return **TRUE** to continue enumeration or **FALSE** to stop enumeration.
+
+## Remarks
+
+The [acmFilterTagEnum](https://learn.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagenum) function returns **MMSYSERR_NOERROR** (zero) if no filter tags are to be enumerated. Moreover, the callback function will not be called.
+
+The following functions should not be called from within the callback function: [acmDriverAdd](https://learn.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriveradd), [acmDriverRemove](https://learn.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverremove), and [acmDriverPriority](https://learn.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority).
+
+> [!NOTE]
+> The msacm.h header defines ACMFILTERTAGENUMCB as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[Audio Compression Functions](https://learn.microsoft.com/windows/desktop/Multimedia/audio-compression-functions)
+
+[Audio Compression Manager](https://learn.microsoft.com/windows/desktop/Multimedia/audio-compression-manager)

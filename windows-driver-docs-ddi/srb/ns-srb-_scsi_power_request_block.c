@@ -1,0 +1,21 @@
+typedef struct _SCSI_POWER_REQUEST_BLOCK {
+  USHORT                     Length;
+  UCHAR                      Function;
+  UCHAR                      SrbStatus;
+  UCHAR                      SrbPowerFlags;
+  UCHAR                      PathId;
+  UCHAR                      TargetId;
+  UCHAR                      Lun;
+  STOR_DEVICE_POWER_STATE    DevicePowerState;
+  ULONG                      SrbFlags;
+  ULONG                      DataTransferLength;
+  ULONG                      TimeOutValue;
+  PVOID                      DataBuffer;
+  PVOID                      SenseInfoBuffer;
+  struct _SCSI_REQUEST_BLOCK *NextSrb;
+  PVOID                      OriginalRequest;
+  PVOID                      SrbExtension;
+  STOR_POWER_ACTION          PowerAction;
+  ULONG                      Reserved;
+  UCHAR                      Reserved5[16];
+} SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK;

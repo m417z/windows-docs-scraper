@@ -1,0 +1,4 @@
+LONG MCIWndSetSpeed(
+     hwnd,
+     iSpeed
+);

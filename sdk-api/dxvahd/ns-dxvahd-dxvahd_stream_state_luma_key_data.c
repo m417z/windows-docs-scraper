@@ -1,0 +1,5 @@
+typedef struct _DXVAHD_STREAM_STATE_LUMA_KEY_DATA {
+  BOOL  Enable;
+  FLOAT Lower;
+  FLOAT Upper;
+} DXVAHD_STREAM_STATE_LUMA_KEY_DATA;

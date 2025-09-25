@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fwpmk.FwpmBfeStateSubscribeChanges0",
+  "title": "FwpmBfeStateSubscribeChanges0 function (fwpmk.h)",
+  "description": "The FwpmBfeStateSubscribeChanges0 function registers a callback function that is called whenever there is a change to the state of the filter engine.Note  FwpmBfeStateSubscribeChanges0 is a specific version of FwpmBfeStateSubscribeChanges.",
+  "old-location": "netvista\\fwpmbfestatesubscribechanges0.htm",
+  "tech.root": "netvista",
+  "ms.date": "06/21/2024",
+  "keywords": [
+    "FwpmBfeStateSubscribeChanges0 function"
+  ],
+  "ms.keywords": "FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateSubscribeChanges0, netvista.fwpmbfestatesubscribechanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml",
+  "req.header": "fwpmk.h",
+  "req.include-header": "Fwpmk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fwpkclnt.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FwpmBfeStateSubscribeChanges0",
+    "fwpmk/FwpmBfeStateSubscribeChanges0"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpkclnt.lib",
+    "fwpkclnt.dll"
+  ],
+  "api_name": [
+    "FwpmBfeStateSubscribeChanges0"
+  ]
+}

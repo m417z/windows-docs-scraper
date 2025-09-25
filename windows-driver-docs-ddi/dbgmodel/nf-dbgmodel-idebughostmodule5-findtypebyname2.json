@@ -1,0 +1,50 @@
+{
+  "UID": "NF:dbgmodel.IDebugHostModule5.FindTypeByName2",
+  "tech.root": "debugger",
+  "title": "IDebugHostModule5::FindTypeByName2",
+  "ms.date": "02/24/2025",
+  "targetos": "Windows",
+  "description": "The FindTypeByName2 method finds a type by name within the module. If an enclosing symbol is given, the type is looked for by name within that enclosing symbol; otherwise, the type is looked for globally.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dbgmodel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgmodel.h"
+  ],
+  "api_name": [
+    "IDebugHostModule5::FindTypeByName2"
+  ],
+  "f1_keywords": [
+    "IDebugHostModule5::FindTypeByName2",
+    "dbgmodel/IDebugHostModule5::FindTypeByName2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FindTypeByName2"
+  ]
+}

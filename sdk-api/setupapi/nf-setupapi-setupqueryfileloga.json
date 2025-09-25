@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupQueryFileLogA",
+  "title": "SetupQueryFileLogA function (setupapi.h)",
+  "description": "The SetupQueryFileLog function returns information from a setup file log. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupFileLogChecksum",
+    "SetupFileLogDiskDescription",
+    "SetupFileLogDiskTagfile",
+    "SetupFileLogOtherInfo",
+    "SetupFileLogSourceFile name",
+    "SetupQueryFileLogA",
+    "setupapi/SetupQueryFileLogA"
+  ],
+  "old-location": "setup\\setupqueryfilelog.htm",
+  "tech.root": "setup",
+  "ms.assetid": "c01233ee-4e3a-454b-b2e2-032937c874c9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupFileLogChecksum, SetupFileLogDiskDescription, SetupFileLogDiskTagfile, SetupFileLogOtherInfo, SetupFileLogSourceFile name, SetupQueryFileLog, SetupQueryFileLog function [Setup API], SetupQueryFileLogA, SetupQueryFileLogW, _setupapi_setupqueryfilelog, setup.setupqueryfilelog, setupapi/SetupQueryFileLog, setupapi/SetupQueryFileLogA, setupapi/SetupQueryFileLogW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupQueryFileLogW (Unicode) and SetupQueryFileLogA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupQueryFileLogA",
+    "setupapi/SetupQueryFileLogA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupQueryFileLog",
+    "SetupQueryFileLogA",
+    "SetupQueryFileLogW"
+  ]
+}

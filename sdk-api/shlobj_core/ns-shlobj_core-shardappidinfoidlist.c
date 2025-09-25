@@ -1,0 +1,4 @@
+typedef struct SHARDAPPIDINFOIDLIST {
+  PCIDLIST_ABSOLUTE pidl;
+  PCWSTR            pszAppID;
+} SHARDAPPIDINFOIDLIST;

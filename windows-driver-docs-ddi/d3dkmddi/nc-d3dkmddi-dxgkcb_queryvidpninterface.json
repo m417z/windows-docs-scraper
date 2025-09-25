@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_QUERYVIDPNINTERFACE",
+  "title": "DXGKCB_QUERYVIDPNINTERFACE (d3dkmddi.h)",
+  "description": "The DxgkCbQueryVidPnInterface function returns a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.",
+  "old-location": "display\\dxgkcbqueryvidpninterface.htm",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKCB_QUERYVIDPNINTERFACE callback function"
+  ],
+  "ms.keywords": "DXGKCB_QUERYVIDPNINTERFACE, DXGKCB_QUERYVIDPNINTERFACE callback, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml, DxgkCbQueryVidPnInterface, DxgkCbQueryVidPnInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryVidPnInterface, display.dxgkcbqueryvidpninterface",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista (WDDM 1.0)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_QUERYVIDPNINTERFACE",
+    "d3dkmddi/DXGKCB_QUERYVIDPNINTERFACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_QUERYVIDPNINTERFACE"
+  ]
+}

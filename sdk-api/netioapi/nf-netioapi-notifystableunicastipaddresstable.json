@@ -1,0 +1,60 @@
+{
+  "UID": "NF:netioapi.NotifyStableUnicastIpAddressTable",
+  "title": "NotifyStableUnicastIpAddressTable function (netioapi.h)",
+  "description": "Retrieves the stable unicast IP address table on a local computer.",
+  "helpviewer_keywords": [
+    "AF_INET",
+    "AF_INET6",
+    "AF_UNSPEC",
+    "NotifyStableUnicastIpAddressTable",
+    "NotifyStableUnicastIpAddressTable function [IP Helper]",
+    "iphlp.notifystableunicastipaddresstable",
+    "netioapi/NotifyStableUnicastIpAddressTable"
+  ],
+  "old-location": "iphlp\\notifystableunicastipaddresstable.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "80d10088-79ef-41fd-add7-994d2a780ddb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AF_INET, AF_INET6, AF_UNSPEC, NotifyStableUnicastIpAddressTable, NotifyStableUnicastIpAddressTable function [IP Helper], iphlp.notifystableunicastipaddresstable, netioapi/NotifyStableUnicastIpAddressTable",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NotifyStableUnicastIpAddressTable",
+    "netioapi/NotifyStableUnicastIpAddressTable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "NotifyStableUnicastIpAddressTable"
+  ]
+}

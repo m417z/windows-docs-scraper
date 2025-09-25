@@ -1,0 +1,69 @@
+{
+  "UID": "NF:faxcom.IFaxJob.get_FaxNumber",
+  "title": "IFaxJob::get_FaxNumber (faxcom.h)",
+  "description": "The IFaxJob::get_FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The IFaxJob::get_FaxNumber property applies only to outgoing fax transmissions.",
+  "helpviewer_keywords": [
+    "FaxNumber property [Fax Service]",
+    "FaxNumber property [Fax Service]",
+    "IFaxJob interface",
+    "IFaxJob interface [Fax Service]",
+    "FaxNumber property",
+    "IFaxJob.FaxNumber",
+    "IFaxJob.get_FaxNumber",
+    "IFaxJob::FaxNumber",
+    "IFaxJob::get_FaxNumber",
+    "_mfax_ifaxjob_get_faxnumber",
+    "fax._mfax_ifaxjob_get_faxnumber",
+    "fax._mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp",
+    "faxcom/IFaxJob::FaxNumber",
+    "faxcom/IFaxJob::get_FaxNumber",
+    "get_FaxNumber"
+  ],
+  "old-location": "fax\\_mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxlegacy_42wi.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxJob interface, IFaxJob interface [Fax Service],FaxNumber property, IFaxJob.FaxNumber, IFaxJob.get_FaxNumber, IFaxJob::FaxNumber, IFaxJob::get_FaxNumber, _mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp, faxcom/IFaxJob::FaxNumber, faxcom/IFaxJob::get_FaxNumber, get_FaxNumber",
+  "req.header": "faxcom.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Faxcom.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFaxJob::get_FaxNumber",
+    "faxcom/IFaxJob::get_FaxNumber"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Faxcom.dll"
+  ],
+  "api_name": [
+    "IFaxJob.FaxNumber",
+    "IFaxJob.get_FaxNumber"
+  ]
+}

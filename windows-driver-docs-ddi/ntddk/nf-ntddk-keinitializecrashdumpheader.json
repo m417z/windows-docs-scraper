@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.KeInitializeCrashDumpHeader",
+  "title": "KeInitializeCrashDumpHeader function (ntddk.h)",
+  "description": "The KeInitializeCrashDumpHeader routine supplies the header information the system requires for a crash dump file.",
+  "old-location": "kernel\\keinitializecrashdumpheader.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeInitializeCrashDumpHeader function"
+  ],
+  "ms.keywords": "KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Server 2003 with SP1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeInitializeCrashDumpHeader",
+    "ntddk/KeInitializeCrashDumpHeader"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeInitializeCrashDumpHeader"
+  ]
+}

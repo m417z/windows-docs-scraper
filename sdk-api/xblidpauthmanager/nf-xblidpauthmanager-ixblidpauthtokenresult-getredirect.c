@@ -1,0 +1,3 @@
+HRESULT GetRedirect(
+  LPWSTR *redirect
+);

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateNativeFence(
+  D3DKMT_CREATENATIVEFENCE *unnamedParam1
+);

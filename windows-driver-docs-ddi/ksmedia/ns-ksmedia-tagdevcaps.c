@@ -1,0 +1,25 @@
+typedef struct tagDEVCAPS {
+  LONG CanRecord;
+  LONG CanRecordStrobe;
+  LONG HasAudio;
+  LONG HasVideo;
+  LONG UsesFiles;
+  LONG CanSave;
+  LONG DeviceType;
+  LONG TCRead;
+  LONG TCWrite;
+  LONG CTLRead;
+  LONG IndexRead;
+  LONG Preroll;
+  LONG Postroll;
+  LONG SyncAcc;
+  LONG NormRate;
+  LONG CanPreview;
+  LONG CanMonitorSrc;
+  LONG CanTest;
+  LONG VideoIn;
+  LONG AudioIn;
+  LONG Calibrate;
+  LONG SeekType;
+  LONG SimulatedHardware;
+} DEVCAPS, *PDEVCAPS;

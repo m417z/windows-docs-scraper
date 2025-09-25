@@ -1,0 +1,5 @@
+typedef struct _NDK_MW_DISPATCH {
+  NDK_FN_CLOSE_OBJECT              NdkCloseMw;
+  NDK_FN_QUERY_EXTENSION_INTERFACE NdkQueryExtension;
+  NDK_FN_GET_REMOTE_TOKEN_FROM_MW  NdkGetRemoteTokenFromMw;
+} NDK_MW_DISPATCH;

@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.IO_CSQ_REMOVE_IRP",
+  "title": "IO_CSQ_REMOVE_IRP (wdm.h)",
+  "description": "The CsqRemoveIrp routine is used by the system to remove the specified IRP from a driver-implemented, cancel-safe IRP queue.",
+  "tech.root": "kernel",
+  "ms.date": "01/09/2023",
+  "keywords": [
+    "IO_CSQ_REMOVE_IRP callback function"
+  ],
+  "ms.keywords": "CsqRemoveIrp, CsqRemoveIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_6d9086c3-65b8-4e0e-b5e9-0c4edbf513b1.xml, IO_CSQ_REMOVE_IRP, kernel.csqremoveirp, wdm/CsqRemoveIrp",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IO_CSQ_REMOVE_IRP",
+    "wdm/IO_CSQ_REMOVE_IRP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "IO_CSQ_REMOVE_IRP"
+  ]
+}

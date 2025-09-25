@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTDestroyPagingQueue(
+  D3DDDI_DESTROYPAGINGQUEUE *unnamedParam1
+);

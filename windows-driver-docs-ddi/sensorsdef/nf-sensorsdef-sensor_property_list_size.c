@@ -1,0 +1,3 @@
+ULONG SENSOR_PROPERTY_LIST_SIZE(
+  [in] ULONG Count
+);

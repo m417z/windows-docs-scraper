@@ -1,0 +1,7 @@
+typedef struct _WWAN_SIGNAL_STATE_EXT {
+  ULONG RSRP;
+  ULONG RSRPThreshold;
+  ULONG SNR;
+  ULONG SNRThreshold;
+  ULONG DataClass;
+} WWAN_SIGNAL_STATE_EXT, *PWWAN_SIGNAL_STATE_EXT;

@@ -1,0 +1,3 @@
+HRESULT SetAccelerators(
+  BOOL fAccelerators
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:aux_klib.AuxKlibInitialize",
+  "title": "AuxKlibInitialize function (aux_klib.h)",
+  "description": "The AuxKlibInitialize routine initializes the Auxiliary Kernel-Mode Library.",
+  "old-location": "kernel\\auxklibinitialize.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "AuxKlibInitialize function"
+  ],
+  "ms.keywords": "AuxKlibInitialize, AuxKlibInitialize routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibInitialize, aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, kernel.auxklibinitialize",
+  "req.header": "aux_klib.h",
+  "req.include-header": "Aux_klib.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Supported starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Aux_Klib.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AuxKlibInitialize",
+    "aux_klib/AuxKlibInitialize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Aux_Klib.lib",
+    "Aux_Klib.dll"
+  ],
+  "api_name": [
+    "AuxKlibInitialize"
+  ]
+}

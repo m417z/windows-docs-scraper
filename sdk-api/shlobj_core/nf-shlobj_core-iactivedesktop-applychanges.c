@@ -1,0 +1,3 @@
+HRESULT ApplyChanges(
+  DWORD dwFlags
+);

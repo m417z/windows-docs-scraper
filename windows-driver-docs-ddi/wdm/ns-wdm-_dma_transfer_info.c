@@ -1,0 +1,7 @@
+typedef struct _DMA_TRANSFER_INFO {
+  ULONG Version;
+  union {
+    DMA_TRANSFER_INFO_V1 V1;
+    DMA_TRANSFER_INFO_V2 V2;
+  };
+} DMA_TRANSFER_INFO, *PDMA_TRANSFER_INFO;

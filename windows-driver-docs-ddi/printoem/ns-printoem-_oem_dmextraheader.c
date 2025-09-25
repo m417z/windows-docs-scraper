@@ -1,0 +1,5 @@
+typedef struct _OEM_DMEXTRAHEADER {
+  DWORD dwSize;
+  DWORD dwSignature;
+  DWORD dwVersion;
+} OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER;

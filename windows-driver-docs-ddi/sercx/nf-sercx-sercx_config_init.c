@@ -1,0 +1,3 @@
+VOID SERCX_CONFIG_INIT(
+  [out] SERCX_CONFIG *Config
+);

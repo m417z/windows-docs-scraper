@@ -1,0 +1,5 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      NumberOfLines;
+  ULONG      SignalLocked;
+} KSPROPERTY_VIDEODECODER_STATUS_S, *PKSPROPERTY_VIDEODECODER_STATUS_S;

@@ -1,0 +1,3 @@
+BYTE GetKValue(
+     cmyk
+);

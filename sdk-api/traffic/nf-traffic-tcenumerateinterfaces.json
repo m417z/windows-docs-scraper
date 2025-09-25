@@ -1,0 +1,58 @@
+{
+  "UID": "NF:traffic.TcEnumerateInterfaces",
+  "title": "TcEnumerateInterfaces function (traffic.h)",
+  "description": "The TcEnumerateInterfaces function enumerates all traffic control—enabled network interfaces. Clients are notified of interface changes through the ClNotifyHandler function.",
+  "helpviewer_keywords": [
+    "TcEnumerateInterfaces",
+    "TcEnumerateInterfaces function [QOS]",
+    "_gqos_tcenumerateinterfaces",
+    "qos.tcenumerateinterfaces",
+    "traffic/TcEnumerateInterfaces"
+  ],
+  "old-location": "qos\\tcenumerateinterfaces.htm",
+  "tech.root": "QOS",
+  "ms.assetid": "e6fbaa17-6b4b-45a2-baf7-898864a797b7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TcEnumerateInterfaces, TcEnumerateInterfaces function [QOS], _gqos_tcenumerateinterfaces, qos.tcenumerateinterfaces, traffic/TcEnumerateInterfaces",
+  "req.header": "traffic.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Traffic.lib",
+  "req.dll": "Traffic.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TcEnumerateInterfaces",
+    "traffic/TcEnumerateInterfaces"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Traffic.dll"
+  ],
+  "api_name": [
+    "TcEnumerateInterfaces"
+  ]
+}

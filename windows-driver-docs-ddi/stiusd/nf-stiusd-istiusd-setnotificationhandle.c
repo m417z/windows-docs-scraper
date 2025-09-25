@@ -1,0 +1,3 @@
+HRESULT SetNotificationHandle(
+  HANDLE hEvent
+);

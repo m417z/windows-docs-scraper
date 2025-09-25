@@ -1,0 +1,4 @@
+HRESULT GetValue(
+  REFPROPERTYKEY key,
+  PROPVARIANT    *pv
+);

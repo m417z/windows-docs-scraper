@@ -1,0 +1,3 @@
+HRESULT put_State(
+  TSSESSION_STATE State
+);

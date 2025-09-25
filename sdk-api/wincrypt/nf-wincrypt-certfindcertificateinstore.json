@@ -1,0 +1,84 @@
+{
+  "UID": "NF:wincrypt.CertFindCertificateInStore",
+  "title": "CertFindCertificateInStore function (wincrypt.h)",
+  "description": "Finds the first or next certificate context in a certificate store that matches a search criteria established by the dwFindType and its associated pvFindPara.",
+  "helpviewer_keywords": [
+    "CERT_FIND_ANY",
+    "CERT_FIND_CERT_ID",
+    "CERT_FIND_CROSS_CERT_DIST_POINTS",
+    "CERT_FIND_CTL_USAGE",
+    "CERT_FIND_ENHKEY_USAGE",
+    "CERT_FIND_EXISTING",
+    "CERT_FIND_HASH",
+    "CERT_FIND_HAS_PRIVATE_KEY",
+    "CERT_FIND_ISSUER_ATTR",
+    "CERT_FIND_ISSUER_NAME",
+    "CERT_FIND_ISSUER_OF",
+    "CERT_FIND_ISSUER_STR",
+    "CERT_FIND_KEY_IDENTIFIER",
+    "CERT_FIND_KEY_SPEC",
+    "CERT_FIND_MD5_HASH",
+    "CERT_FIND_PROPERTY",
+    "CERT_FIND_PUBKEY_MD5_HASH",
+    "CERT_FIND_PUBLIC_KEY",
+    "CERT_FIND_SHA1_HASH",
+    "CERT_FIND_SHA1_SHA256_HASH",
+    "CERT_FIND_SHA256_HASH",
+    "CERT_FIND_SIGNATURE_HASH",
+    "CERT_FIND_SUBJECT_ATTR",
+    "CERT_FIND_SUBJECT_CERT",
+    "CERT_FIND_SUBJECT_NAME",
+    "CERT_FIND_SUBJECT_STR",
+    "CertFindCertificateInStore",
+    "CertFindCertificateInStore function [Security]",
+    "_crypto2_certfindcertificateinstore",
+    "security.certfindcertificateinstore",
+    "wincrypt/CertFindCertificateInStore"
+  ],
+  "old-location": "security\\certfindcertificateinstore.htm",
+  "tech.root": "security",
+  "ms.assetid": "20b3fcfb-55df-46ff-80a5-70f31a3d03b2",
+  "ms.date": "07/11/2024",
+  "ms.keywords": "CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SHA1_SHA256_HASH, CERT_FIND_SHA256_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertFindCertificateInStore",
+    "wincrypt/CertFindCertificateInStore"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertFindCertificateInStore"
+  ]
+}

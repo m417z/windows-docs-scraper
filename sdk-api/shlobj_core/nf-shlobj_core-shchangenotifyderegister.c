@@ -1,0 +1,3 @@
+BOOL SHChangeNotifyDeregister(
+  ULONG ulID
+);

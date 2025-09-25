@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSignalSynchronizationObjectFromGpu2(
+  [in] const D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 *unnamedParam1
+);

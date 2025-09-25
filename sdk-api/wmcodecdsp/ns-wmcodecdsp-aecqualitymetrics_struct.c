@@ -1,0 +1,21 @@
+typedef struct tagAecQualityMetrics_Struct {
+  LONGLONG i64Timestamp;
+  BYTE     ConvergenceFlag;
+  BYTE     MicClippedFlag;
+  BYTE     MicSilenceFlag;
+  BYTE     PstvFeadbackFlag;
+  BYTE     SpkClippedFlag;
+  BYTE     SpkMuteFlag;
+  BYTE     GlitchFlag;
+  BYTE     DoubleTalkFlag;
+  ULONG    uGlitchCount;
+  ULONG    uMicClipCount;
+  float    fDuration;
+  float    fTSVariance;
+  float    fTSDriftRate;
+  float    fVoiceLevel;
+  float    fNoiseLevel;
+  float    fERLE;
+  float    fAvgERLE;
+  DWORD    dwReserved;
+} AecQualityMetrics_Struct;

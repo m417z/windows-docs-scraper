@@ -1,0 +1,4 @@
+VOID WRITE_REGISTER_UCHAR(
+  _In_ PUCHAR Register,
+  _In_ UCHAR  Value
+);

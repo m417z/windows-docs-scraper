@@ -1,0 +1,69 @@
+{
+  "UID": "NF:wbemglue.CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR)",
+  "title": "CWbemProviderGlue::FrameworkLogoffDLL (wbemglue.h)",
+  "description": "The FrameworkLogoffDLL method is called by DllCanUnloadNow to determine whether the provider server is not in use and can be unloaded. (overload 1/2)",
+  "helpviewer_keywords": [
+    "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z",
+    "?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z",
+    "CWbemProviderGlue interface [Windows Management Instrumentation]",
+    "FrameworkLogoffDLL method",
+    "CWbemProviderGlue.FrameworkLogoffDLL",
+    "CWbemProviderGlue::FrameworkLogoffDLL",
+    "FrameworkLogoffDLL",
+    "FrameworkLogoffDLL method [Windows Management Instrumentation]",
+    "FrameworkLogoffDLL method [Windows Management Instrumentation]",
+    "CWbemProviderGlue interface",
+    "_hmm_cwbemproviderglue_frameworklogoffdll",
+    "wbemglue/CWbemProviderGlue::FrameworkLogoffDLL",
+    "wmi.cwbemproviderglue_frameworklogoffdll"
+  ],
+  "old-location": "wmi\\cwbemproviderglue_frameworklogoffdll.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "5157d823-d3a1-46d2-8ae8-07e904001a14",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLogoffDLL method, CWbemProviderGlue.FrameworkLogoffDLL, CWbemProviderGlue::FrameworkLogoffDLL, FrameworkLogoffDLL, FrameworkLogoffDLL method [Windows Management Instrumentation], FrameworkLogoffDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogoffdll, wbemglue/CWbemProviderGlue::FrameworkLogoffDLL, wmi.cwbemproviderglue_frameworklogoffdll",
+  "req.header": "wbemglue.h",
+  "req.include-header": "FwCommon.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FrameDyn.lib",
+  "req.dll": "FrameDynOS.dll; FrameDyn.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CWbemProviderGlue::FrameworkLogoffDLL",
+    "wbemglue/CWbemProviderGlue::FrameworkLogoffDLL"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FrameDynOS.dll",
+    "FrameDyn.dll"
+  ],
+  "api_name": [
+    "CWbemProviderGlue.FrameworkLogoffDLL",
+    "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z",
+    "?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z"
+  ]
+}

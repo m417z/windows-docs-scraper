@@ -1,0 +1,5 @@
+typedef struct _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT {
+  ULONG                          ResponseFrameCount;
+  ULONG                          FramesWritten;
+  SFFDISK_DEVICE_RPMB_DATA_FRAME Data[1];
+} TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT;

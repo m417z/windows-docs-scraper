@@ -1,0 +1,3 @@
+void SetStereoEnabled(
+  BOOL enabled
+);

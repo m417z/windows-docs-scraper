@@ -1,0 +1,6 @@
+typedef struct _FILE_TIMESTAMPS {
+  LARGE_INTEGER CreationTime;
+  LARGE_INTEGER LastAccessTime;
+  LARGE_INTEGER LastWriteTime;
+  LARGE_INTEGER ChangeTime;
+} FILE_TIMESTAMPS, *PFILE_TIMESTAMPS;

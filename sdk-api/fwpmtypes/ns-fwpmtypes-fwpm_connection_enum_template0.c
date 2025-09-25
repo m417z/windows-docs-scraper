@@ -1,0 +1,4 @@
+typedef struct FWPM_CONNECTION_ENUM_TEMPLATE0_ {
+  UINT64 connectionId;
+  UINT32 flags;
+} FWPM_CONNECTION_ENUM_TEMPLATE0;

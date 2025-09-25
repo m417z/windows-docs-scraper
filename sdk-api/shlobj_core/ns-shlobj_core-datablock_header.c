@@ -1,0 +1,4 @@
+typedef struct tagDATABLOCKHEADER {
+  DWORD cbSize;
+  DWORD dwSignature;
+} DATABLOCK_HEADER, *LPDATABLOCK_HEADER, *LPDBLIST;

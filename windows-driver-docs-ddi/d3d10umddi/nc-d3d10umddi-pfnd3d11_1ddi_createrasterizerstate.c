@@ -1,0 +1,9 @@
+PFND3D11_1DDI_CREATERASTERIZERSTATE Pfnd3d111DdiCreaterasterizerstate;
+
+VOID Pfnd3d111DdiCreaterasterizerstate(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D11_1_DDI_RASTERIZER_DESC *unnamedParam2,
+  D3D10DDI_HRASTERIZERSTATE unnamedParam3,
+  D3D10DDI_HRTRASTERIZERSTATE unnamedParam4
+)
+{...}

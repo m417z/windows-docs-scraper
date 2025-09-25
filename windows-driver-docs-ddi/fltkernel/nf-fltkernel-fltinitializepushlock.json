@@ -1,0 +1,43 @@
+{
+  "UID": "NF:fltkernel.FltInitializePushLock",
+  "title": "FltInitializePushLock function (fltkernel.h)",
+  "description": "Learn more about the FltInitializePushLock function.",
+  "tech.root": "ifsk",
+  "ms.date": "10/03/2024",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows XP SP2 Microsoft",
+  "req.target-min-winversvr": "Windows Server 2003 SP1",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltInitializePushLock",
+    "fltkernel/FltInitializePushLock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltInitializePushLock"
+  ]
+}

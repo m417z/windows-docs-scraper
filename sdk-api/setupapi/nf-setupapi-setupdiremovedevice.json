@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupDiRemoveDevice",
+  "title": "SetupDiRemoveDevice function (setupapi.h)",
+  "description": "The SetupDiRemoveDevice function is the default handler for the DIF_REMOVE installation request.",
+  "helpviewer_keywords": [
+    "SetupDiRemoveDevice",
+    "SetupDiRemoveDevice function [Device and Driver Installation]",
+    "devinst.setupdiremovedevice",
+    "di-rtns_ab1e54f4-687d-4db2-8799-c33c1e0e3d25.xml",
+    "setupapi/SetupDiRemoveDevice"
+  ],
+  "old-location": "devinst\\setupdiremovedevice.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "1070f6cc-e5de-4f4e-8325-b412751e9fb3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiRemoveDevice, SetupDiRemoveDevice function [Device and Driver Installation], devinst.setupdiremovedevice, di-rtns_ab1e54f4-687d-4db2-8799-c33c1e0e3d25.xml, setupapi/SetupDiRemoveDevice",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiRemoveDevice",
+    "setupapi/SetupDiRemoveDevice"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiRemoveDevice"
+  ]
+}

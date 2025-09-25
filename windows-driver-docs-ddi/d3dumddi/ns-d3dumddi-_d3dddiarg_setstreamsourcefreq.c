@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_SETSTREAMSOURCEFREQ {
+  [in] UINT Stream;
+  [in] UINT Divider;
+} D3DDDIARG_SETSTREAMSOURCEFREQ;

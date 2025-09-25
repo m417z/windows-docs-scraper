@@ -1,0 +1,53 @@
+{
+  "UID": "NS:wdm._CM_PARTIAL_RESOURCE_LIST",
+  "title": "CM_PARTIAL_RESOURCE_LIST (wdm.h)",
+  "description": "The CM_PARTIAL_RESOURCE_LIST structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a CM_FULL_RESOURCE_DESCRIPTOR structure.",
+  "tech.root": "kernel",
+  "ms.date": "01/06/2023",
+  "keywords": [
+    "CM_PARTIAL_RESOURCE_LIST structure"
+  ],
+  "ms.keywords": "*PCM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PCM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _CM_PARTIAL_RESOURCE_LIST, kernel.cm_partial_resource_list, kstruct_a_26d7ed25-e580-41e2-ae9d-5e06eb263e3d.xml, wdm/CM_PARTIAL_RESOURCE_LIST, wdm/PCM_PARTIAL_RESOURCE_LIST",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CM_PARTIAL_RESOURCE_LIST, *PCM_PARTIAL_RESOURCE_LIST",
+  "f1_keywords": [
+    "_CM_PARTIAL_RESOURCE_LIST",
+    "wdm/_CM_PARTIAL_RESOURCE_LIST",
+    "PCM_PARTIAL_RESOURCE_LIST",
+    "wdm/PCM_PARTIAL_RESOURCE_LIST",
+    "CM_PARTIAL_RESOURCE_LIST",
+    "wdm/CM_PARTIAL_RESOURCE_LIST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_CM_PARTIAL_RESOURCE_LIST",
+    "PCM_PARTIAL_RESOURCE_LIST",
+    "CM_PARTIAL_RESOURCE_LIST"
+  ]
+}

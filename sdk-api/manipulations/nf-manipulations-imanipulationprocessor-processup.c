@@ -1,0 +1,5 @@
+HRESULT ProcessUp(
+  MANIPULATOR_ID manipulatorId,
+  FLOAT          x,
+  FLOAT          y
+);

@@ -1,0 +1,4 @@
+typedef enum DIRECTORY_OBJECT_TYPE {
+  OT_CONFERENCE = 1,
+  OT_USER = 2
+} ;

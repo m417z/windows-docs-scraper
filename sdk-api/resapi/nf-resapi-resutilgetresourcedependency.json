@@ -1,0 +1,62 @@
+{
+  "UID": "NF:resapi.ResUtilGetResourceDependency",
+  "title": "ResUtilGetResourceDependency function (resapi.h)",
+  "description": "Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_GET_RESOURCE_DEPENDENCY",
+    "PRESUTIL_GET_RESOURCE_DEPENDENCY function [Failover Cluster]",
+    "ResUtilGetResourceDependency",
+    "ResUtilGetResourceDependency function [Failover Cluster]",
+    "_wolf_resutilgetresourcedependency",
+    "mscs.resutilgetresourcedependency",
+    "resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY",
+    "resapi/ResUtilGetResourceDependency"
+  ],
+  "old-location": "mscs\\resutilgetresourcedependency.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "eee267b4-4272-4938-b061-02990ec528f2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_GET_RESOURCE_DEPENDENCY, PRESUTIL_GET_RESOURCE_DEPENDENCY function [Failover Cluster], ResUtilGetResourceDependency, ResUtilGetResourceDependency function [Failover Cluster], _wolf_resutilgetresourcedependency, mscs.resutilgetresourcedependency, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY, resapi/ResUtilGetResourceDependency",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilGetResourceDependency",
+    "resapi/ResUtilGetResourceDependency"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilGetResourceDependency"
+  ]
+}

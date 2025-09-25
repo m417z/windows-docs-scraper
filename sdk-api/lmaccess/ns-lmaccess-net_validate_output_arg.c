@@ -1,0 +1,4 @@
+typedef struct _NET_VALIDATE_OUTPUT_ARG {
+  NET_VALIDATE_PERSISTED_FIELDS ChangedPersistedFields;
+  NET_API_STATUS                ValidationStatus;
+} NET_VALIDATE_OUTPUT_ARG, *PNET_VALIDATE_OUTPUT_ARG;

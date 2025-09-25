@@ -1,0 +1,4 @@
+WDF_EXTERN_C_START UCHAR WDF_READ_REGISTER_UCHAR(
+  [in] WDFDEVICE Device,
+  [in] PUCHAR    Register
+);

@@ -1,0 +1,5 @@
+typedef struct D3D12DDI_GPUCLOCKDATA_0054 {
+  ULONGLONG GpuFrequency;
+  ULONGLONG GpuClockCounter;
+  ULONGLONG CpuClockCounter;
+} D3D12DDI_GPUCLOCKDATA_0054;

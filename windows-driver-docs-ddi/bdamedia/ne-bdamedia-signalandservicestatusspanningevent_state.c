@@ -1,0 +1,9 @@
+typedef enum {
+  SignalAndServiceStatusSpanningEvent_None,
+  SignalAndServiceStatusSpanningEvent_Clear,
+  SignalAndServiceStatusSpanningEvent_NoTVSignal,
+  SignalAndServiceStatusSpanningEvent_ServiceOffAir,
+  SignalAndServiceStatusSpanningEvent_WeakTVSignal,
+  SignalAndServiceStatusSpanningEvent_NoSubscription,
+  SignalAndServiceStatusSpanningEvent_AllAVScrambled
+} SignalAndServiceStatusSpanningEvent_State;

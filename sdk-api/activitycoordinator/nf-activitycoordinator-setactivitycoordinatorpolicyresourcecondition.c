@@ -1,0 +1,5 @@
+HRESULT SetActivityCoordinatorPolicyResourceCondition(
+  ACTIVITY_COORDINATOR_POLICY    policy,
+  ACTIVITY_COORDINATOR_RESOURCE  resource,
+  ACTIVITY_COORDINATOR_CONDITION condition
+);

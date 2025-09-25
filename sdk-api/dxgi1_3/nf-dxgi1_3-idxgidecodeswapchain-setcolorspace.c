@@ -1,0 +1,3 @@
+HRESULT SetColorSpace(
+  DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS ColorSpace
+);

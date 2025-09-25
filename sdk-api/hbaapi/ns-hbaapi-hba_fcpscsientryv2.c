@@ -1,0 +1,5 @@
+typedef struct HBA_FcpScsiEntryV2 {
+  HBA_SCSIID ScsiId;
+  HBA_FCPID  FcpId;
+  HBA_LUID   LUID;
+} HBA_FCPSCSIENTRYV2, *PHBA_FCPSCSIENTRYV2;

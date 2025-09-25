@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdtfpnpaction.IWDTFPNPActions2.EDTTryStopDeviceFailRestart",
+  "title": "IWDTFPNPActions2::EDTTryStopDeviceFailRestart (wdtfpnpaction.h)",
+  "description": "Learn how the EDTTryStopDeviceFailRestart method attempts to send an IRP_MN_STOP_DEVICE event to the target device and then fail the subsequent device restart.",
+  "old-location": "dtf\\iwdtfpnpactions2_edttrystopdevicefailrestart.htm",
+  "tech.root": "dtf",
+  "ms.date": "04/04/2018",
+  "keywords": [
+    "IWDTFPNPActions2::EDTTryStopDeviceFailRestart"
+  ],
+  "ms.keywords": "EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTTryStopDeviceFailRestart method, IWDTFPNPActions2.EDTTryStopDeviceFailRestart, IWDTFPNPActions2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpactions2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceFailRestart",
+  "req.header": "wdtfpnpaction.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "WDTFPNPAction.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDTFPNPActions2::EDTTryStopDeviceFailRestart",
+    "wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceFailRestart"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "wdtfpnpaction.h"
+  ],
+  "api_name": [
+    "IWDTFPNPActions2::EDTTryStopDeviceFailRestart"
+  ]
+}

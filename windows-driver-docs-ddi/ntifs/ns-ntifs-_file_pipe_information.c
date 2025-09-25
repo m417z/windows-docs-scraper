@@ -1,0 +1,4 @@
+typedef struct _FILE_PIPE_INFORMATION {
+  ULONG ReadMode;
+  ULONG CompletionMode;
+} FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION;

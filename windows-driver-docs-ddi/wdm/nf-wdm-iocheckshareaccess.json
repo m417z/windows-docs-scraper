@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoCheckShareAccess",
+  "title": "IoCheckShareAccess function (wdm.h)",
+  "description": "The IoCheckShareAccess routine is called by file system drivers (FSDs) or other highest-level drivers to check whether shared access to a file object is permitted.",
+  "old-location": "kernel\\iocheckshareaccess.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoCheckShareAccess function"
+  ],
+  "ms.keywords": "IoCheckShareAccess, IoCheckShareAccess routine [Kernel-Mode Driver Architecture], k104_0411033a-da5d-4803-a970-f6e7289a6200.xml, kernel.iocheckshareaccess, wdm/IoCheckShareAccess",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlIoPassive2, PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoCheckShareAccess",
+    "wdm/IoCheckShareAccess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoCheckShareAccess"
+  ]
+}

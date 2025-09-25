@@ -1,0 +1,62 @@
+{
+  "UID": "NF:wininet.HttpOpenRequestW",
+  "title": "HttpOpenRequestW function (wininet.h)",
+  "description": "Creates an HTTP request handle. (Unicode)",
+  "helpviewer_keywords": [
+    "HttpOpenRequest",
+    "HttpOpenRequest function [WinINet]",
+    "HttpOpenRequestW",
+    "_inet_httpopenrequest_function",
+    "wininet.httpopenrequest",
+    "wininet/HttpOpenRequest",
+    "wininet/HttpOpenRequestW"
+  ],
+  "old-location": "wininet\\httpopenrequest.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "caaff8e8-7db9-4d6d-8ba2-d8d19475173a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinINet], HttpOpenRequestA, HttpOpenRequestW, _inet_httpopenrequest_function, wininet.httpopenrequest, wininet/HttpOpenRequest, wininet/HttpOpenRequestA, wininet/HttpOpenRequestW",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "HttpOpenRequestW (Unicode) and HttpOpenRequestA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wininet.lib",
+  "req.dll": "Wininet.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HttpOpenRequestW",
+    "wininet/HttpOpenRequestW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wininet.dll"
+  ],
+  "api_name": [
+    "HttpOpenRequest",
+    "HttpOpenRequestA",
+    "HttpOpenRequestW"
+  ]
+}

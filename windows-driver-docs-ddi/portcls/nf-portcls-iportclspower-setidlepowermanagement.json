@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortClsPower.SetIdlePowerManagement",
+  "title": "IPortClsPower::SetIdlePowerManagement (portcls.h)",
+  "description": "The SetIdlePowerManagement method provides a way for the adapter driver to opt in or opt out of idle state detection.",
+  "old-location": "audio\\iportclspower_setidlepowermanagement.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortClsPower::SetIdlePowerManagement"
+  ],
+  "ms.keywords": "IPortClsPower interface [Audio Devices],SetIdlePowerManagement method, IPortClsPower.SetIdlePowerManagement, IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, portcls/IPortClsPower::SetIdlePowerManagement",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortClsPower::SetIdlePowerManagement",
+    "portcls/IPortClsPower::SetIdlePowerManagement"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IPortClsPower::SetIdlePowerManagement"
+  ]
+}

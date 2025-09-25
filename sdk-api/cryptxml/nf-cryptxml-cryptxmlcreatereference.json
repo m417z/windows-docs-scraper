@@ -1,0 +1,58 @@
+{
+  "UID": "NF:cryptxml.CryptXmlCreateReference",
+  "title": "CryptXmlCreateReference function (cryptxml.h)",
+  "description": "Creates a reference to an XML signature.",
+  "helpviewer_keywords": [
+    "CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT",
+    "CryptXmlCreateReference",
+    "CryptXmlCreateReference function [Security]",
+    "cryptxml/CryptXmlCreateReference",
+    "security.cryptxmlcreatereference"
+  ],
+  "old-location": "security\\cryptxmlcreatereference.htm",
+  "tech.root": "security",
+  "ms.assetid": "1078d483-a017-486b-8967-a3efe9d3a29a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference",
+  "req.header": "cryptxml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cryptxml.lib",
+  "req.dll": "Cryptxml.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptXmlCreateReference",
+    "cryptxml/CryptXmlCreateReference"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Cryptxml.dll"
+  ],
+  "api_name": [
+    "CryptXmlCreateReference"
+  ]
+}

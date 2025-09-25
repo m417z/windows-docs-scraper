@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdfdevice._WDF_SPECIAL_FILE_TYPE",
+  "title": "_WDF_SPECIAL_FILE_TYPE (wdfdevice.h)",
+  "description": "The WDF_SPECIAL_FILE_TYPE enumeration identifies special file types that a device can support.",
+  "old-location": "wdf\\wdf_special_file_type.htm",
+  "tech.root": "wdf",
+  "ms.date": "07/28/2025",
+  "keywords": [
+    "WDF_SPECIAL_FILE_TYPE enumeration"
+  ],
+  "ms.keywords": "*PWDF_SPECIAL_FILE_TYPE, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, PWDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, WDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE enumeration, WdfSpecialFileBoot, WdfSpecialFileDump, WdfSpecialFileHibernation, WdfSpecialFileMax, WdfSpecialFilePaging, WdfSpecialFileUndefined, _WDF_SPECIAL_FILE_TYPE, kmdf.wdf_special_file_type, wdf.wdf_special_file_type, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileBoot, wdfdevice/WdfSpecialFileDump, wdfdevice/WdfSpecialFileHibernation, wdfdevice/WdfSpecialFileMax, wdfdevice/WdfSpecialFilePaging, wdfdevice/WdfSpecialFileUndefined",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE",
+  "f1_keywords": [
+    "_WDF_SPECIAL_FILE_TYPE",
+    "wdfdevice/_WDF_SPECIAL_FILE_TYPE",
+    "PWDF_SPECIAL_FILE_TYPE",
+    "wdfdevice/PWDF_SPECIAL_FILE_TYPE",
+    "WDF_SPECIAL_FILE_TYPE",
+    "wdfdevice/WDF_SPECIAL_FILE_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfdevice.h"
+  ],
+  "api_name": [
+    "_WDF_SPECIAL_FILE_TYPE",
+    "PWDF_SPECIAL_FILE_TYPE",
+    "WDF_SPECIAL_FILE_TYPE"
+  ]
+}

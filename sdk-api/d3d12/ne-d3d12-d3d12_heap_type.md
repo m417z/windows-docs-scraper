@@ -1,0 +1,69 @@
+## Description
+
+Specifies the type of heap. When resident, heaps reside in a particular physical memory pool with certain CPU cache properties.
+
+## Constants
+
+### `D3D12_HEAP_TYPE_DEFAULT:1`
+
+Specifies the default heap. This heap type experiences the most bandwidth for the GPU, but cannot provide CPU access. The GPU can read and write to the memory from this pool, and resource transition barriers may be changed. The majority of heaps and resources are expected to be located here, and are typically populated through resources in upload heaps.
+
+### `D3D12_HEAP_TYPE_UPLOAD:2`
+
+Specifies a heap used for uploading. This heap type has CPU access optimized for uploading to the GPU, but does not experience the maximum amount of bandwidth for the GPU. This heap type is best for CPU-write-once, GPU-read-once data; but GPU-read-once is stricter than necessary. GPU-read-once-or-from-cache is an acceptable use-case for the data; but such usages are hard to judge due to differing GPU cache designs and sizes. If in doubt, stick to the GPU-read-once definition or profile the difference on many GPUs between copying the data to a _DEFAULT heap vs. reading the data from an _UPLOAD heap.
+
+Resources in this heap must be created with [D3D12_RESOURCE_STATE](https://learn.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states)_GENERIC_READ and cannot be changed away from this. The CPU address for such heaps is commonly not efficient for CPU reads.
+
+The following are typical usages for _UPLOAD heaps:
+
+* Initializing resources in a _DEFAULT heap with data from the CPU.
+* Uploading dynamic data in a constant buffer that is read, repeatedly, by each vertex or pixel.
+
+The following are likely not good usages for _UPLOAD heaps:
+
+* Re-initializing the contents of a resource every frame.
+* Uploading constant data which is only used every other Draw call, where each Draw uses a non-trivial amount of other data.
+
+### `D3D12_HEAP_TYPE_READBACK:3`
+
+Specifies a heap used for reading back. This heap type has CPU access optimized for reading data back from the GPU, but does not experience the maximum amount of bandwidth for the GPU. This heap type is best for GPU-write-once, CPU-readable data. The CPU cache behavior is write-back, which is conducive for multiple sub-cache-line CPU reads.
+
+Resources in this heap must be created with [D3D12_RESOURCE_STATE](https://learn.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states)_COPY_DEST, and cannot be changed away from this.
+
+### `D3D12_HEAP_TYPE_CUSTOM:4`
+
+Specifies a custom heap. The application may specify the memory pool and CPU cache properties directly, which can be useful for UMA optimizations, multi-engine, multi-adapter, or other special cases. To do so, the application is expected to understand the adapter architecture to make the right choice. For more details, see
+
+[D3D12_FEATURE](https://learn.microsoft.com/windows/win32/api/d3d12/ne-d3d12-d3d12_feature)_ARCHITECTURE,
+[D3D12_FEATURE_DATA_ARCHITECTURE](https://learn.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture), and
+[GetCustomHeapProperties](https://learn.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)).
+
+## Remarks
+
+This enum is used by the following API items:
+
+* [D3D12_HEAP_DESC](https://learn.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_desc)
+* [D3D12_HEAP_PROPERTIES](https://learn.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties)
+* [GetCustomHeapProperties](https://learn.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type))
+
+The heap types fall into two categories: abstracted heap types, and custom heap types.
+
+The following are abstracted heap types:
+
+* D3D12_HEAP_TYPE_DEFAULT
+* D3D12_HEAP_TYPE_UPLOAD
+* D3D12_HEAP_TYPE_READBACK
+
+The following is a custom heap type:
+
+* D3D12_HEAP_TYPE_CUSTOM
+
+The abstracted heap types (_DEFAULT, _UPLOAD, and _READBACK) are useful to simplify writing adapter-neutral applications, because such applications don't need to be aware of the adapter memory architecture. To use an abstracted heap type to simplify writing adapter-neutral applications, the application essentially treats the adapter as if it were a discrete or NUMA adapter. But, using the heap types enables efficient translation for UMA adapters. Adapter architecture neutral applications should assume there are two memory pools available, where the pool with the most GPU bandwidth cannot provide CPU access. The pool with the least GPU bandwidth can have CPU access; but must be either optimized for upload to GPU or readback from GPU.
+
+Note that textures (unlike buffers) can't be heap type UPLOAD or READBACK.
+
+## See also
+
+[Core Enumerations](https://learn.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations)
+
+[Descriptor Heaps](https://learn.microsoft.com/windows/desktop/direct3d12/descriptor-heaps)

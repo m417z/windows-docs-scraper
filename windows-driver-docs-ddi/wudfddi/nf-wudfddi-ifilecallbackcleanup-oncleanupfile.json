@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IFileCallbackCleanup.OnCleanupFile",
+  "title": "IFileCallbackCleanup::OnCleanupFile (wudfddi.h)",
+  "description": "The OnCleanupFile method cancels all I/O requests that a driver has pending in the framework queue.",
+  "old-location": "wdf\\ifilecallbackcleanup_oncleanupfile.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IFileCallbackCleanup::OnCleanupFile"
+  ],
+  "ms.keywords": "IFileCallbackCleanup interface,OnCleanupFile method, IFileCallbackCleanup.OnCleanupFile, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, OnCleanupFile method, OnCleanupFile method,IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IFileCallbackCleanup::OnCleanupFile",
+    "wudfddi/IFileCallbackCleanup::OnCleanupFile"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IFileCallbackCleanup::OnCleanupFile"
+  ]
+}

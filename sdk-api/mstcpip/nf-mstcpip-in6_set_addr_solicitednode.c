@@ -1,0 +1,4 @@
+MSTCPIP_INLINE VOID IN6_SET_ADDR_SOLICITEDNODE(
+  PIN6_ADDR      Multicast,
+  const IN6_ADDR *Unicast
+);

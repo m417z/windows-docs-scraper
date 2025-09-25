@@ -1,0 +1,4 @@
+typedef struct _AACS_MEDIA_ID {
+  UCHAR MediaID[16];
+  UCHAR MAC[16];
+} AACS_MEDIA_ID, *PAACS_MEDIA_ID;

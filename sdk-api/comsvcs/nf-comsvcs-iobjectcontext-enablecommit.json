@@ -1,0 +1,64 @@
+{
+  "UID": "NF:comsvcs.IObjectContext.EnableCommit",
+  "title": "IObjectContext::EnableCommit (comsvcs.h)",
+  "description": "Declares that the object's work is not necessarily finished but that its transactional updates are in a consistent state and could be committed in their present form.",
+  "helpviewer_keywords": [
+    "EnableCommit",
+    "EnableCommit method [COM+]",
+    "EnableCommit method [COM+]",
+    "IObjectContext interface",
+    "IObjectContext interface [COM+]",
+    "EnableCommit method",
+    "IObjectContext.EnableCommit",
+    "IObjectContext::EnableCommit",
+    "_cos_IObjectContext_EnableCommit",
+    "comsvcs/IObjectContext::EnableCommit",
+    "cos.iobjectcontext_enablecommit"
+  ],
+  "old-location": "cos\\iobjectcontext_enablecommit.htm",
+  "tech.root": "cos",
+  "ms.assetid": "6571aadc-bf5a-48c3-817a-66ce444ef96a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnableCommit, EnableCommit method [COM+], EnableCommit method [COM+],IObjectContext interface, IObjectContext interface [COM+],EnableCommit method, IObjectContext.EnableCommit, IObjectContext::EnableCommit, _cos_IObjectContext_EnableCommit, comsvcs/IObjectContext::EnableCommit, cos.iobjectcontext_enablecommit",
+  "req.header": "comsvcs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IObjectContext::EnableCommit",
+    "comsvcs/IObjectContext::EnableCommit"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ComSvcs.h"
+  ],
+  "api_name": [
+    "IObjectContext.EnableCommit"
+  ]
+}

@@ -1,0 +1,3 @@
+void FNOPEN(
+  [in] fn
+);

@@ -1,0 +1,3 @@
+HRESULT GetDateStamp(
+  FILETIME *pDateStamp
+);

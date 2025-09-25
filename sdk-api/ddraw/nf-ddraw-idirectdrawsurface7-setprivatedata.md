@@ -1,0 +1,53 @@
+# IDirectDrawSurface7::SetPrivateData
+
+## Description
+
+Associates data with the surface that is intended for use by the application, not by DirectDraw. Data is passed by value, and multiple sets of data can be associated with a single surface.
+
+## Parameters
+
+### `unnamedParam1` [in]
+
+Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be set.
+
+### `unnamedParam2` [in]
+
+A pointer to a buffer that contains the data to be associated with the surface.
+
+### `unnamedParam3` [in]
+
+The size value of the buffer at *lpData*, in bytes.
+
+### `unnamedParam4` [in]
+
+A value that can be set to one of the following flags. These flags describe the type of data being passed or request that the data be invalidated when the surface changes.
+
+#### (none)
+
+If no flags are specified, DirectDraw allocates memory to hold the data within the buffer and copies the data into the new buffer. The buffer allocated by DirectDraw is automatically freed, as appropriate.
+
+#### DDSPD_IUNKNOWNPOINTER
+
+The data at *lpData* is a pointer to an [IUnknown](https://learn.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. DirectDraw automatically calls the [IUnknown::AddRef](https://learn.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) method of this interface. When this data is no longer needed, DirectDraw automatically calls the [IUnknown::Release](https://learn.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method of this interface.
+
+#### DDSPD_VOLATILE
+
+The buffer at *lpData* is only valid while the surface remains unchanged. If the surface's contents change, subsequent calls to the [IDirectDrawSurface7::GetPrivateData](https://learn.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata) method return DDERR_EXPIRED.
+
+## Return value
+
+If the method succeeds, the return value is DD_OK.
+
+If it fails, the method can return one of the following error values:
+
+* DDERR_INVALIDOBJECT
+* DDERR_INVALIDPARAMS
+* DDERR_OUTOFMEMORY
+
+## Remarks
+
+DirectDraw does not manage the memory at *lpData*. If this buffer was dynamically allocated, the caller must free the memory.
+
+## See also
+
+[IDirectDrawSurface7](https://learn.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7)

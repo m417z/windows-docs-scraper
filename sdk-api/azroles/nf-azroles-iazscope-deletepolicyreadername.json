@@ -1,0 +1,68 @@
+{
+  "UID": "NF:azroles.IAzScope.DeletePolicyReaderName",
+  "title": "IAzScope::DeletePolicyReaderName (azroles.h)",
+  "description": "The DeletePolicyReaderName method of IAzScope removes the specified account name from the list of principals that act as policy readers.",
+  "helpviewer_keywords": [
+    "AzScope object [Security]",
+    "DeletePolicyReaderName method",
+    "DeletePolicyReaderName",
+    "DeletePolicyReaderName method [Security]",
+    "DeletePolicyReaderName method [Security]",
+    "AzScope object",
+    "DeletePolicyReaderName method [Security]",
+    "IAzScope interface",
+    "IAzScope interface [Security]",
+    "DeletePolicyReaderName method",
+    "IAzScope.DeletePolicyReaderName",
+    "IAzScope::DeletePolicyReaderName",
+    "azroles/IAzScope::DeletePolicyReaderName",
+    "security.iazscope_deletepolicyreadername"
+  ],
+  "old-location": "security\\iazscope_deletepolicyreadername.htm",
+  "tech.root": "security",
+  "ms.assetid": "e65af2a2-c7f7-483c-af05-342075218158",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AzScope object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzScope object, DeletePolicyReaderName method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReaderName method, IAzScope.DeletePolicyReaderName, IAzScope::DeletePolicyReaderName, azroles/IAzScope::DeletePolicyReaderName, security.iazscope_deletepolicyreadername",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzScope::DeletePolicyReaderName",
+    "azroles/IAzScope::DeletePolicyReaderName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "IAzScope.DeletePolicyReaderName",
+    "AzScope.DeletePolicyReaderName"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum UI_OWNERSHIP {
+  UI_OWNERSHIP_TRANSFER = 0,
+  UI_OWNERSHIP_COPY = 1
+} ;

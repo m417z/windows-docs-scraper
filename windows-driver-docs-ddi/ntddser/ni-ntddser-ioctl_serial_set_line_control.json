@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddser.IOCTL_SERIAL_SET_LINE_CONTROL",
+  "title": "IOCTL_SERIAL_SET_LINE_CONTROL (ntddser.h)",
+  "description": "The IOCTL_SERIAL_SET_LINE_CONTROL request sets the line control register (LCR). The line control register controls the data size, the number of stop bits, and the parity.",
+  "old-location": "serports\\ioctl_serial_set_line_control.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_SERIAL_SET_LINE_CONTROL IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SERIAL_SET_LINE_CONTROL, IOCTL_SERIAL_SET_LINE_CONTROL control, IOCTL_SERIAL_SET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_LINE_CONTROL, serports.ioctl_serial_set_line_control, serref_70796be3-dbb8-4918-899d-d3750813aad3.xml",
+  "req.header": "ntddser.h",
+  "req.include-header": "Ntddser.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SERIAL_SET_LINE_CONTROL",
+    "ntddser/IOCTL_SERIAL_SET_LINE_CONTROL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddser.h"
+  ],
+  "api_name": [
+    "IOCTL_SERIAL_SET_LINE_CONTROL"
+  ]
+}

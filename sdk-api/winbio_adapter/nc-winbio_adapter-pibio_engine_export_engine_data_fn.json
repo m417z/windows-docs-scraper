@@ -1,0 +1,65 @@
+{
+  "UID": "NC:winbio_adapter.PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN",
+  "title": "PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN (winbio_adapter.h)",
+  "description": "Retrieves a copy of the most recently processed feature set or template from the engine in a standard biometric information record.",
+  "helpviewer_keywords": [
+    "EngineAdapterExportEngineData",
+    "EngineAdapterExportEngineData callback function [Windows Biometric Framework API]",
+    "PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN",
+    "PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback",
+    "WINBIO_DATA_FLAG_INTEGRITY",
+    "WINBIO_DATA_FLAG_INTERMEDIATE",
+    "WINBIO_DATA_FLAG_PRIVACY",
+    "WINBIO_DATA_FLAG_PROCESSED",
+    "WINBIO_DATA_FLAG_RAW",
+    "WINBIO_DATA_FLAG_SIGNED",
+    "secbiomet.engineadapterexportenginedata",
+    "winbio_adapter/EngineAdapterExportEngineData"
+  ],
+  "old-location": "secbiomet\\engineadapterexportenginedata.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "9ac11720-7dbf-4479-b2c5-78cd53494e21",
+  "ms.date": "11/19/2020",
+  "ms.keywords": "EngineAdapterExportEngineData, EngineAdapterExportEngineData callback function [Windows Biometric Framework API], PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN, PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback, WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.engineadapterexportenginedata, winbio_adapter/EngineAdapterExportEngineData",
+  "req.header": "winbio_adapter.h",
+  "req.include-header": "Winbio_adapter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN",
+    "winbio_adapter/PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winbio_adapter.h"
+  ],
+  "api_name": [
+    "EngineAdapterExportEngineData"
+  ]
+}

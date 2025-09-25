@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetScanLine(
+  D3DKMT_GETSCANLINE *unnamedParam1
+);

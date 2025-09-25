@@ -1,0 +1,57 @@
+{
+  "UID": "NF:iphlpapi.GetAdapterOrderMap",
+  "title": "GetAdapterOrderMap function (iphlpapi.h)",
+  "description": "The GetAdapterOrderMap function obtains an adapter order map that indicates priority for interfaces on the local computer.",
+  "helpviewer_keywords": [
+    "GetAdapterOrderMap",
+    "GetAdapterOrderMap function [IP Helper]",
+    "iphlp.getadapterordermap",
+    "iphlpapi/GetAdapterOrderMap"
+  ],
+  "old-location": "iphlp\\getadapterordermap.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "43d7429b-6874-4ea6-bbf0-67456af520bc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetAdapterOrderMap, GetAdapterOrderMap function [IP Helper], iphlp.getadapterordermap, iphlpapi/GetAdapterOrderMap",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetAdapterOrderMap",
+    "iphlpapi/GetAdapterOrderMap"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "GetAdapterOrderMap"
+  ]
+}

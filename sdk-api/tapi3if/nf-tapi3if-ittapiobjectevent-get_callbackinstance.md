@@ -1,0 +1,31 @@
+# ITTAPIObjectEvent::get_CallbackInstance
+
+## Description
+
+The
+**get_CallbackInstance** method gets a pointer to the callback instance associated with the event.
+
+## Parameters
+
+### `plCallbackInstance` [out]
+
+Pointer to the callback instance returned by
+[ITTAPI::RegisterCallNotifications](https://learn.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications).
+
+## Return value
+
+This method can return one of these values.
+
+| Return code | Description |
+| --- | --- |
+| **S_OK** | Method succeeded. |
+| **E_POINTER** | The *ppAddress* parameter is not a valid pointer. |
+| **E_OUTOFMEMORY** | Insufficient memory exists to perform the operation. |
+
+## See also
+
+[ITTAPI::RegisterCallNotifications](https://learn.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications)
+
+[ITTAPIObjectEvent](https://learn.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent)
+
+[TAPI Object](https://learn.microsoft.com/windows/desktop/Tapi/tapi-object)

@@ -1,0 +1,53 @@
+{
+  "UID": "NS:sti._STI_DEVICE_STATUS",
+  "title": "STI_DEVICE_STATUS (sti.h)",
+  "description": "The STI_DEVICE_STATUS structure is used as a parameter to the IStiDevice::GetStatus and IStiUSD::GetStatus methods.",
+  "tech.root": "image",
+  "ms.date": "03/08/2023",
+  "keywords": [
+    "STI_DEVICE_STATUS structure"
+  ],
+  "ms.keywords": "*PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], STI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], _STI_DEVICE_STATUS, image.sti_device_status, sti/PSTI_DEVICE_STATUS, sti/STI_DEVICE_STATUS, stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml",
+  "req.header": "sti.h",
+  "req.include-header": "Sti.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS",
+  "f1_keywords": [
+    "_STI_DEVICE_STATUS",
+    "sti/_STI_DEVICE_STATUS",
+    "PSTI_DEVICE_STATUS",
+    "sti/PSTI_DEVICE_STATUS",
+    "STI_DEVICE_STATUS",
+    "sti/STI_DEVICE_STATUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "sti.h"
+  ],
+  "api_name": [
+    "_STI_DEVICE_STATUS",
+    "PSTI_DEVICE_STATUS",
+    "STI_DEVICE_STATUS"
+  ]
+}

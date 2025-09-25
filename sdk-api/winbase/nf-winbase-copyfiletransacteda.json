@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winbase.CopyFileTransactedA",
+  "title": "CopyFileTransactedA function (winbase.h)",
+  "description": "Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function. (ANSI)",
+  "helpviewer_keywords": [
+    "COPY_FILE_COPY_SYMLINK",
+    "COPY_FILE_FAIL_IF_EXISTS",
+    "COPY_FILE_OPEN_SOURCE_FOR_WRITE",
+    "COPY_FILE_RESTARTABLE",
+    "CopyFileTransactedA",
+    "winbase/CopyFileTransactedA"
+  ],
+  "old-location": "fs\\copyfiletransacted.htm",
+  "tech.root": "fs",
+  "ms.assetid": "118392de-166b-413e-99c9-b3deb756de0e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileTransacted, CopyFileTransacted function [Files], CopyFileTransactedA, CopyFileTransactedW, fs.copyfiletransacted, winbase/CopyFileTransacted, winbase/CopyFileTransactedA, winbase/CopyFileTransactedW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CopyFileTransactedW (Unicode) and CopyFileTransactedA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CopyFileTransactedA",
+    "winbase/CopyFileTransactedA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "Kernel32Legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "CopyFileTransacted",
+    "CopyFileTransactedA",
+    "CopyFileTransactedW"
+  ]
+}

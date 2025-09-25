@@ -1,0 +1,59 @@
+{
+  "UID": "NF:authz.AuthzAccessCheck",
+  "title": "AuthzAccessCheck function (authz.h)",
+  "description": "Determines which access bits can be granted to a client for a given set of security descriptors.",
+  "helpviewer_keywords": [
+    "AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD",
+    "AuthzAccessCheck",
+    "AuthzAccessCheck function [Security]",
+    "_win32_authzaccesscheck",
+    "authz/AuthzAccessCheck",
+    "security.authzaccesscheck"
+  ],
+  "old-location": "security\\authzaccesscheck.htm",
+  "tech.root": "security",
+  "ms.assetid": "633c2a73-169c-4e0c-abb6-96c360bd63cf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCheck function [Security], _win32_authzaccesscheck, authz/AuthzAccessCheck, security.authzaccesscheck",
+  "req.header": "authz.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Authz.lib",
+  "req.dll": "Authz.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AuthzAccessCheck",
+    "authz/AuthzAccessCheck"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Authz.dll"
+  ],
+  "api_name": [
+    "AuthzAccessCheck"
+  ]
+}

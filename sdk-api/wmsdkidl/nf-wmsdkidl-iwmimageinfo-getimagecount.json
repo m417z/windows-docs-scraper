@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMImageInfo.GetImageCount",
+  "title": "IWMImageInfo::GetImageCount (wmsdkidl.h)",
+  "description": "The GetImageCount method retrieves the number of images stored in a file using ID3v2 &#0034;APIC&#0034; frames. Images stored in the file using attributes in the Windows Media namespace, or any images stored in custom attributes, are not included in this count.",
+  "helpviewer_keywords": [
+    "GetImageCount",
+    "GetImageCount method [windows Media Format]",
+    "GetImageCount method [windows Media Format]",
+    "IWMImageInfo interface",
+    "IWMImageInfo interface [windows Media Format]",
+    "GetImageCount method",
+    "IWMImageInfo.GetImageCount",
+    "IWMImageInfo::GetImageCount",
+    "IWMImageInfoGetImageCount",
+    "wmformat.iwmimageinfo_getimagecount",
+    "wmsdkidl/IWMImageInfo::GetImageCount"
+  ],
+  "old-location": "wmformat\\iwmimageinfo_getimagecount.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "95cf5906-9cbc-4bba-8892-236672cf4068",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetImageCount, GetImageCount method [windows Media Format], GetImageCount method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImageCount method, IWMImageInfo.GetImageCount, IWMImageInfo::GetImageCount, IWMImageInfoGetImageCount, wmformat.iwmimageinfo_getimagecount, wmsdkidl/IWMImageInfo::GetImageCount",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMImageInfo::GetImageCount",
+    "wmsdkidl/IWMImageInfo::GetImageCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMImageInfo.GetImageCount"
+  ]
+}

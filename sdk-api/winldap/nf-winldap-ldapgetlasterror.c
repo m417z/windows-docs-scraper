@@ -1,0 +1,1 @@
+WINLDAPAPI ULONG LDAPAPI LdapGetLastError();

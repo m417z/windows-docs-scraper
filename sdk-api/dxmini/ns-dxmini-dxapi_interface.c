@@ -1,0 +1,20 @@
+typedef struct _DXAPI_INTERFACE {
+  USHORT                  Size;
+  USHORT                  Version;
+  PVOID                   Context;
+  PVOID                   InterfaceReference;
+  PVOID                   InterfaceDereference;
+  PDX_GETIRQINFO          DxGetIrqInfo;
+  PDX_ENABLEIRQ           DxEnableIrq;
+  PDX_SKIPNEXTFIELD       DxSkipNextField;
+  PDX_BOBNEXTFIELD        DxBobNextField;
+  PDX_SETSTATE            DxSetState;
+  PDX_LOCK                DxLock;
+  PDX_FLIPOVERLAY         DxFlipOverlay;
+  PDX_FLIPVIDEOPORT       DxFlipVideoPort;
+  PDX_GETPOLARITY         DxGetPolarity;
+  PDX_GETCURRENTAUTOFLIP  DxGetCurrentAutoflip;
+  PDX_GETPREVIOUSAUTOFLIP DxGetPreviousAutoflip;
+  PDX_TRANSFER            DxTransfer;
+  PDX_GETTRANSFERSTATUS   DxGetTransferStatus;
+} DXAPI_INTERFACE, *PDXAPI_INTERFACE;

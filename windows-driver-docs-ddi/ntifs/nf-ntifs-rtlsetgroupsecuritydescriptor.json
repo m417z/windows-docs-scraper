@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.RtlSetGroupSecurityDescriptor",
+  "title": "RtlSetGroupSecurityDescriptor function (ntifs.h)",
+  "description": "The RtlSetGroupSecurityDescriptor routine sets the primary group information of an absolute-format security descriptor. It replaces any primary group information that is already present in the security descriptor.",
+  "old-location": "ifsk\\rtlsetgroupsecuritydescriptor.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlSetGroupSecurityDescriptor function"
+  ],
+  "ms.keywords": "RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetgroupsecuritydescriptor, ntifs/RtlSetGroupSecurityDescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows Server 2003 SP1",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlSetGroupSecurityDescriptor",
+    "ntifs/RtlSetGroupSecurityDescriptor"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlSetGroupSecurityDescriptor"
+  ]
+}

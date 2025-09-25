@@ -1,0 +1,22 @@
+typedef enum _WTS_CONFIG_CLASS {
+  WTSUserConfigInitialProgram,
+  WTSUserConfigWorkingDirectory,
+  WTSUserConfigfInheritInitialProgram,
+  WTSUserConfigfAllowLogonTerminalServer,
+  WTSUserConfigTimeoutSettingsConnections,
+  WTSUserConfigTimeoutSettingsDisconnections,
+  WTSUserConfigTimeoutSettingsIdle,
+  WTSUserConfigfDeviceClientDrives,
+  WTSUserConfigfDeviceClientPrinters,
+  WTSUserConfigfDeviceClientDefaultPrinter,
+  WTSUserConfigBrokenTimeoutSettings,
+  WTSUserConfigReconnectSettings,
+  WTSUserConfigModemCallbackSettings,
+  WTSUserConfigModemCallbackPhoneNumber,
+  WTSUserConfigShadowingSettings,
+  WTSUserConfigTerminalServerProfilePath,
+  WTSUserConfigTerminalServerHomeDir,
+  WTSUserConfigTerminalServerHomeDirDrive,
+  WTSUserConfigfTerminalServerRemoteHomeDir,
+  WTSUserConfigUser
+} WTS_CONFIG_CLASS;

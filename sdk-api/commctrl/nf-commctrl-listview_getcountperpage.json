@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.ListView_GetCountPerPage",
+  "title": "ListView_GetCountPerPage macro (commctrl.h)",
+  "description": "Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the LVM_GETCOUNTPERPAGE message explicitly.",
+  "helpviewer_keywords": [
+    "ListView_GetCountPerPage",
+    "ListView_GetCountPerPage macro [Windows Controls]",
+    "_win32_ListView_GetCountPerPage",
+    "_win32_ListView_GetCountPerPage_cpp",
+    "commctrl/ListView_GetCountPerPage",
+    "controls.ListView_GetCountPerPage",
+    "controls._win32_ListView_GetCountPerPage"
+  ],
+  "old-location": "controls\\ListView_GetCountPerPage.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_getcountperpage.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "ListView_GetCountPerPage, ListView_GetCountPerPage macro [Windows Controls], _win32_ListView_GetCountPerPage, _win32_ListView_GetCountPerPage_cpp, commctrl/ListView_GetCountPerPage, controls.ListView_GetCountPerPage, controls._win32_ListView_GetCountPerPage",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_GetCountPerPage",
+    "commctrl/ListView_GetCountPerPage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_GetCountPerPage"
+  ]
+}

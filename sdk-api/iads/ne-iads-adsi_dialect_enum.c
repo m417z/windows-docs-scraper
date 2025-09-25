@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_ads_0000_0000_0023 {
+  ADSI_DIALECT_LDAP = 0,
+  ADSI_DIALECT_SQL = 0x1
+} ADSI_DIALECT_ENUM;

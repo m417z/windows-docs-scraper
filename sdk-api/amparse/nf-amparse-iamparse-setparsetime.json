@@ -1,0 +1,65 @@
+{
+  "UID": "NF:amparse.IAMParse.SetParseTime",
+  "title": "IAMParse::SetParseTime (amparse.h)",
+  "description": "The SetParseTime method sets the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.",
+  "helpviewer_keywords": [
+    "IAMParse interface [DirectShow]",
+    "SetParseTime method",
+    "IAMParse.SetParseTime",
+    "IAMParse::SetParseTime",
+    "IAMParseSetParseTime",
+    "SetParseTime",
+    "SetParseTime method [DirectShow]",
+    "SetParseTime method [DirectShow]",
+    "IAMParse interface",
+    "amparse/IAMParse::SetParseTime",
+    "dshow.iamparse_setparsetime"
+  ],
+  "old-location": "dshow\\iamparse_setparsetime.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "52c53994-7cb7-4f50-a00d-87faa309c717",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetParseTime, IAMParse::SetParseTime, IAMParseSetParseTime, SetParseTime, SetParseTime method [DirectShow], SetParseTime method [DirectShow],IAMParse interface, amparse/IAMParse::SetParseTime, dshow.iamparse_setparsetime",
+  "req.header": "amparse.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMParse::SetParseTime",
+    "amparse/IAMParse::SetParseTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMParse.SetParseTime"
+  ]
+}

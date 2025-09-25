@@ -1,0 +1,53 @@
+{
+  "UID": "NS:wdm._VPB",
+  "title": "VPB (wdm.h)",
+  "description": "The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.",
+  "tech.root": "ifsk",
+  "ms.date": "12/16/2022",
+  "keywords": [
+    "VPB structure"
+  ],
+  "ms.keywords": "*PVPB, PVPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB structure [Installable File System Drivers], VPB_DIRECT_WRITES_ALLOWED, VPB_LOCKED, VPB_MOUNTED, VPB_PERSISTENT, VPB_RAW_MOUNT, VPB_REMOVE_PENDING, _VPB, ifsk.vpb, wdm/PVPB, wdm/VPB",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, FltKernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VPB, *PVPB",
+  "f1_keywords": [
+    "_VPB",
+    "wdm/_VPB",
+    "PVPB",
+    "wdm/PVPB",
+    "VPB",
+    "wdm/VPB"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_VPB",
+    "PVPB",
+    "VPB"
+  ]
+}

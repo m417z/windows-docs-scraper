@@ -1,0 +1,3 @@
+BOOL IsCanonicalPixelFormat(
+  PixelFormat pixfmt
+);

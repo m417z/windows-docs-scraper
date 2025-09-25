@@ -1,0 +1,3 @@
+WORD LANGIDFROMLCID(
+    LCID lcid
+);

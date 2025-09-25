@@ -1,0 +1,48 @@
+{
+  "UID": "NI:hidclass.IOCTL_HID_GET_POLL_FREQUENCY_MSEC",
+  "title": "IOCTL_HID_GET_POLL_FREQUENCY_MSEC (hidclass.h)",
+  "description": "The IOCTL_HID_GET_POLL_FREQUENCY_MSEC request obtains the current polling frequency, in milliseconds, of a top-level collection.",
+  "old-location": "hid\\ioctl_hid_get_poll_frequency_msec.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IOCTL_HID_GET_POLL_FREQUENCY_MSEC IOCTL"
+  ],
+  "ms.keywords": "IOCTL_HID_GET_POLL_FREQUENCY_MSEC, IOCTL_HID_GET_POLL_FREQUENCY_MSEC control, IOCTL_HID_GET_POLL_FREQUENCY_MSEC control code [Human Input Devices], hid.ioctl_hid_get_poll_frequency_msec, hidclass/IOCTL_HID_GET_POLL_FREQUENCY_MSEC, hidioreq_e0cd09b6-f27f-4a30-918d-c67c2b52da9d.xml",
+  "req.header": "hidclass.h",
+  "req.include-header": "Hidclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_HID_GET_POLL_FREQUENCY_MSEC",
+    "hidclass/IOCTL_HID_GET_POLL_FREQUENCY_MSEC"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "hidclass.h"
+  ],
+  "api_name": [
+    "IOCTL_HID_GET_POLL_FREQUENCY_MSEC"
+  ]
+}

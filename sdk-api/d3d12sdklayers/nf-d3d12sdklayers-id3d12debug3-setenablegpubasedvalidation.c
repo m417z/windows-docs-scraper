@@ -1,0 +1,3 @@
+void SetEnableGPUBasedValidation(
+  BOOL Enable
+);

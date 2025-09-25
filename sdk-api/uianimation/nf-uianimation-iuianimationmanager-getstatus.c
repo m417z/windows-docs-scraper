@@ -1,0 +1,3 @@
+HRESULT GetStatus(
+  [out] UI_ANIMATION_MANAGER_STATUS *status
+);

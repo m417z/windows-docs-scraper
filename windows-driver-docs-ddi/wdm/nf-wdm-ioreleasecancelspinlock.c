@@ -1,0 +1,3 @@
+VOID IoReleaseCancelSpinLock(
+  KIRQL Irql
+);

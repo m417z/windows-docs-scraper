@@ -1,0 +1,49 @@
+{
+  "UID": "NF:windns.DnsServiceBrowseCancel",
+  "title": "DnsServiceBrowseCancel function",
+  "description": "Used to cancel a running DNS-SD discovery query.",
+  "tech.root": "dns",
+  "helpviewer_keywords": [
+    "DnsServiceBrowseCancel"
+  ],
+  "ms.date": "02/14/2019",
+  "ms.keywords": "DnsServiceBrowseCancel",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "dnsapi.dll",
+  "req.header": "windns.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "dnsapi.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DnsServiceBrowseCancel",
+    "windns/DnsServiceBrowseCancel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": null,
+  "api_location": [
+    "windns.h"
+  ],
+  "api_name": [
+    "DnsServiceBrowseCancel"
+  ]
+}

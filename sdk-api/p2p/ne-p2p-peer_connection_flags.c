@@ -1,0 +1,4 @@
+typedef enum peer_connection_flags_tag {
+  PEER_CONNECTION_NEIGHBOR = 0x0001,
+  PEER_CONNECTION_DIRECT = 0x0002
+} PEER_CONNECTION_FLAGS;

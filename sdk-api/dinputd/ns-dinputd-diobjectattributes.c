@@ -1,0 +1,5 @@
+typedef struct DIOBJECTATTRIBUTES {
+  DWORD dwFlags;
+  WORD  wUsagePage;
+  WORD  wUsage;
+} DIOBJECTATTRIBUTES, *LPDIOBJECTATTRIBUTES;

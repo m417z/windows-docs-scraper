@@ -1,0 +1,5 @@
+typedef struct tagAAMENUFILENAME {
+  SHORT cbTotal;
+  BYTE  rgbReserved[12];
+  WCHAR szFileName[1];
+} AASHELLMENUFILENAME, *LPAASHELLMENUFILENAME;

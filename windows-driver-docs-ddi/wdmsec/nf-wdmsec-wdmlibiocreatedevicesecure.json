@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdmsec.WdmlibIoCreateDeviceSecure",
+  "title": "WdmlibIoCreateDeviceSecure function (wdmsec.h)",
+  "description": "The WdmlibIoCreateDeviceSecure function (or IoCreateDeviceSecure) creates a named device object and applies the specified security settings.",
+  "old-location": "kernel\\wdmlibiocreatedevicesecure.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WdmlibIoCreateDeviceSecure function"
+  ],
+  "ms.keywords": "IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], kernel.wdmlibiocreatedevicesecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure",
+  "req.header": "wdmsec.h",
+  "req.include-header": "Wdmsec.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "See Remarks section.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "MiniportOnlyWdmDevice, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdmsec.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdmlibIoCreateDeviceSecure",
+    "wdmsec/WdmlibIoCreateDeviceSecure"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdmsec.lib",
+    "Wdmsec.dll"
+  ],
+  "api_name": [
+    "WdmlibIoCreateDeviceSecure"
+  ]
+}

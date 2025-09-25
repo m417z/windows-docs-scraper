@@ -1,0 +1,1 @@
+CMAPI CONFIGRET CM_Request_Eject_PC();

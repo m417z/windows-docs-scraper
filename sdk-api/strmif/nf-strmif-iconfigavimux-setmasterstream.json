@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IConfigAviMux.SetMasterStream",
+  "title": "IConfigAviMux::SetMasterStream (strmif.h)",
+  "description": "The SetMasterStream method specifies a stream that will be used to synchronize the other streams in the file.",
+  "helpviewer_keywords": [
+    "IConfigAviMux interface [DirectShow]",
+    "SetMasterStream method",
+    "IConfigAviMux.SetMasterStream",
+    "IConfigAviMux::SetMasterStream",
+    "IConfigAviMuxSetMasterStream",
+    "SetMasterStream",
+    "SetMasterStream method [DirectShow]",
+    "SetMasterStream method [DirectShow]",
+    "IConfigAviMux interface",
+    "dshow.iconfigavimux_setmasterstream",
+    "strmif/IConfigAviMux::SetMasterStream"
+  ],
+  "old-location": "dshow\\iconfigavimux_setmasterstream.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "1f255498-8bbb-48a0-ae97-0cf2698e609b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IConfigAviMux interface [DirectShow],SetMasterStream method, IConfigAviMux.SetMasterStream, IConfigAviMux::SetMasterStream, IConfigAviMuxSetMasterStream, SetMasterStream, SetMasterStream method [DirectShow], SetMasterStream method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setmasterstream, strmif/IConfigAviMux::SetMasterStream",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IConfigAviMux::SetMasterStream",
+    "strmif/IConfigAviMux::SetMasterStream"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IConfigAviMux.SetMasterStream"
+  ]
+}

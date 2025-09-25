@@ -1,0 +1,5 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      Flags;
+  ULONG      Index;
+} SYSAUDIO_PREFERRED_DEVICE, *PSYSAUDIO_PREFERRED_DEVICE;

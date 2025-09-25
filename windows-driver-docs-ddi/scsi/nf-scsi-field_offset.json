@@ -1,0 +1,48 @@
+{
+  "UID": "NF:scsi.FIELD_OFFSET",
+  "title": "FIELD_OFFSET macro (scsi.h)",
+  "description": "The FIELD_OFFSET macro (scsi.h) returns the byte offset of the specified field in the specified known structure type.",
+  "old-location": "kernel\\field_offset.htm",
+  "tech.root": "kernel",
+  "ms.date": "02/24/2018",
+  "keywords": [
+    "FIELD_OFFSET macro"
+  ],
+  "ms.keywords": "FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, ntdef/FIELD_OFFSET",
+  "req.header": "scsi.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Miniport.h, Minitape.h, Scsi.h, Storport.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "scsi.h",
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": "SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE",
+  "f1_keywords": [
+    "FIELD_OFFSET",
+    "scsi/FIELD_OFFSET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntdef.h"
+  ],
+  "api_name": [
+    "FIELD_OFFSET"
+  ]
+}

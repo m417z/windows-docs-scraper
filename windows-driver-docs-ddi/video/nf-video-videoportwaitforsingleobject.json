@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortWaitForSingleObject",
+  "title": "VideoPortWaitForSingleObject function (video.h)",
+  "description": "The VideoPortWaitForSingleObject function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.",
+  "old-location": "display\\videoportwaitforsingleobject.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortWaitForSingleObject function"
+  ],
+  "ms.keywords": "VideoPortWaitForSingleObject, VideoPortWaitForSingleObject function [Display Devices], VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "<= DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortWaitForSingleObject",
+    "video/VideoPortWaitForSingleObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortWaitForSingleObject"
+  ]
+}

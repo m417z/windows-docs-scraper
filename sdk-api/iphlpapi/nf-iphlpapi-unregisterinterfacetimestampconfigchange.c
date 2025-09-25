@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE VOID UnregisterInterfaceTimestampConfigChange(
+  HIFTIMESTAMPCHANGE NotificationHandle
+);

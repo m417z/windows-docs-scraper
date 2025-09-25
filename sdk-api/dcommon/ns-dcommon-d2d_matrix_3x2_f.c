@@ -1,0 +1,21 @@
+typedef struct D2D_MATRIX_3X2_F {
+  union {
+    struct {
+      FLOAT m11;
+      FLOAT m12;
+      FLOAT m21;
+      FLOAT m22;
+      FLOAT dx;
+      FLOAT dy;
+    } DUMMYSTRUCTNAME;
+    struct {
+      FLOAT _11;
+      FLOAT _12;
+      FLOAT _21;
+      FLOAT _22;
+      FLOAT _31;
+      FLOAT _32;
+    } DUMMYSTRUCTNAME2;
+    FLOAT m[3][2];
+  } DUMMYUNIONNAME;
+} D2D_MATRIX_3X2_F;

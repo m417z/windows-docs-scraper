@@ -1,0 +1,3 @@
+NTSTATUS WheaRemoveErrorSourceDeviceDriver(
+  ULONG ErrorSourceId
+);

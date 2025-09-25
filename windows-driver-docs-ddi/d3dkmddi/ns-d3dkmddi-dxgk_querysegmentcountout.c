@@ -1,0 +1,5 @@
+typedef struct _DXGK_QUERYSEGMENTCOUNTOUT {
+  UINT16 SegmentCount;
+  UINT16 Padding;
+  UINT32 Reserved;
+} DXGK_QUERYSEGMENTCOUNTOUT;

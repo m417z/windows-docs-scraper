@@ -1,0 +1,43 @@
+{
+  "UID": "NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE",
+  "tech.root": "mf",
+  "title": "D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE",
+  "ms.date": "06/07/2021",
+  "targetos": "Windows",
+  "description": "Retrieves a value indicating if the specified intra refresh mode is supported for the specified codec, profile, and level.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "d3d12video.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": "D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3d12video.h"
+  ],
+  "api_name": [
+    "D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE"
+  ],
+  "f1_keywords": [
+    "D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE",
+    "d3d12video/D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

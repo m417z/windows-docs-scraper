@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.MmMapMdl",
+  "title": "MmMapMdl function (wdm.h)",
+  "description": "This function maps physical pages described by a memory descriptor list (MDL) into the system virtual address space.",
+  "old-location": "kernel\\mmmapmdl.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "MmMapMdl function"
+  ],
+  "ms.keywords": "MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture], kernel.mmmapmdl, wdm/MmMapMdl",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode)",
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmMapMdl",
+    "wdm/MmMapMdl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmMapMdl"
+  ]
+}

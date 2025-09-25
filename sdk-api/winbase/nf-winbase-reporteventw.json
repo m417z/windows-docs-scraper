@@ -1,0 +1,73 @@
+{
+  "UID": "NF:winbase.ReportEventW",
+  "title": "ReportEventW function (winbase.h)",
+  "description": "Writes an entry at the end of the specified event log. (Unicode)",
+  "helpviewer_keywords": [
+    "EVENTLOG_AUDIT_FAILURE",
+    "EVENTLOG_AUDIT_SUCCESS",
+    "EVENTLOG_ERROR_TYPE",
+    "EVENTLOG_INFORMATION_TYPE",
+    "EVENTLOG_SUCCESS",
+    "EVENTLOG_WARNING_TYPE",
+    "ReportEvent",
+    "ReportEvent function",
+    "ReportEventW",
+    "_win32_reportevent",
+    "base.reportevent",
+    "winbase/ReportEvent",
+    "winbase/ReportEventW"
+  ],
+  "old-location": "base\\reportevent.htm",
+  "tech.root": "base",
+  "ms.assetid": "e39273c3-9e42-41a1-9ec1-1cdff2ab7b55",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_SUCCESS, EVENTLOG_WARNING_TYPE, ReportEvent, ReportEvent function, ReportEventA, ReportEventW, _win32_reportevent, base.reportevent, winbase/ReportEvent, winbase/ReportEventA, winbase/ReportEventW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "ReportEventW (Unicode) and ReportEventA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ReportEventW",
+    "winbase/ReportEventW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-eventlog-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-EventLog-Legacy-l1-1-0.dll",
+    "advapi32legacy.dll",
+    "Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll",
+    "Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll"
+  ],
+  "api_name": [
+    "ReportEvent",
+    "ReportEventA",
+    "ReportEventW"
+  ]
+}

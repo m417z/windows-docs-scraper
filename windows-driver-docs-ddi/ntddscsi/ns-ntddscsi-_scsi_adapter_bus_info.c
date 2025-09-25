@@ -1,0 +1,4 @@
+typedef struct _SCSI_ADAPTER_BUS_INFO {
+  UCHAR         NumberOfBuses;
+  SCSI_BUS_DATA BusData[1];
+} SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO;

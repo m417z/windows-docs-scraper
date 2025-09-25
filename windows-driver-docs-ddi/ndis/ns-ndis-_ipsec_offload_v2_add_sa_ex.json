@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._IPSEC_OFFLOAD_V2_ADD_SA_EX",
+  "title": "_IPSEC_OFFLOAD_V2_ADD_SA_EX (ndis.h)",
+  "description": "The IPSEC_OFFLOAD_V2_ADD_SA_EX structure defines information about a security association (SA) that a miniport driver should add to a NIC.",
+  "old-location": "netvista\\ipsec_offload_v2_add_sa_ex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "IPSEC_OFFLOAD_V2_ADD_SA_EX structure"
+  ],
+  "ms.keywords": "*PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX, netvista.ipsec_offload_v2_add_sa_ex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IPSEC_OFFLOAD_V2_ADD_SA_EX, *PIPSEC_OFFLOAD_V2_ADD_SA_EX",
+  "f1_keywords": [
+    "_IPSEC_OFFLOAD_V2_ADD_SA_EX",
+    "ndis/_IPSEC_OFFLOAD_V2_ADD_SA_EX",
+    "PIPSEC_OFFLOAD_V2_ADD_SA_EX",
+    "ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX",
+    "IPSEC_OFFLOAD_V2_ADD_SA_EX",
+    "ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "_IPSEC_OFFLOAD_V2_ADD_SA_EX",
+    "PIPSEC_OFFLOAD_V2_ADD_SA_EX",
+    "IPSEC_OFFLOAD_V2_ADD_SA_EX"
+  ]
+}

@@ -1,0 +1,3 @@
+VOID TxfSetThreadMiniVersionForCreate(
+  USHORT MiniVersion
+);

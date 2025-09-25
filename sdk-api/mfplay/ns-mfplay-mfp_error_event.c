@@ -1,0 +1,3 @@
+typedef struct MFP_ERROR_EVENT {
+  MFP_EVENT_HEADER header;
+} MFP_ERROR_EVENT;

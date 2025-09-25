@@ -1,0 +1,5 @@
+typedef struct SMHBA_ScsiEntry {
+  SMHBA_SCSIID  ScsiId;
+  SMHBA_PORTLUN PortLun;
+  SMHBA_LUID    LUID;
+} SMHBA_SCSIENTRY, *PSMHBA_SCSIENTRY;

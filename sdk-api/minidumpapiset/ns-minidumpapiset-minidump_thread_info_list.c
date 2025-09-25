@@ -1,0 +1,5 @@
+typedef struct _MINIDUMP_THREAD_INFO_LIST {
+  ULONG SizeOfHeader;
+  ULONG SizeOfEntry;
+  ULONG NumberOfEntries;
+} MINIDUMP_THREAD_INFO_LIST, *PMINIDUMP_THREAD_INFO_LIST;

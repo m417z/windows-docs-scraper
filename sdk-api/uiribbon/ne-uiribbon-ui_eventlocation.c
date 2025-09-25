@@ -1,0 +1,6 @@
+typedef enum UI_EVENTLOCATION {
+  UI_EVENTLOCATION_Ribbon = 0,
+  UI_EVENTLOCATION_QAT = 1,
+  UI_EVENTLOCATION_ApplicationMenu = 2,
+  UI_EVENTLOCATION_ContextPopup = 3
+} ;

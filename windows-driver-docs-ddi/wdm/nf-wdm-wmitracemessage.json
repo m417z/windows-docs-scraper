@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.WmiTraceMessage",
+  "title": "WmiTraceMessage function (wdm.h)",
+  "description": "The WmiTraceMessage routine adds a message to the output log of a WPP software tracing session.",
+  "old-location": "kernel\\wmitracemessage.htm",
+  "tech.root": "kernel",
+  "ms.date": "09/10/2024",
+  "keywords": [
+    "WmiTraceMessage function"
+  ],
+  "ms.keywords": "WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, wdm/WmiTraceMessage",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WmiTraceMessage",
+    "wdm/WmiTraceMessage"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "WmiTraceMessage"
+  ]
+}

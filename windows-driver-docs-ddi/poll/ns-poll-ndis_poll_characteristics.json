@@ -1,0 +1,45 @@
+{
+  "UID": "NS:poll._NDIS_POLL_CHARACTERISTICS",
+  "tech.root": "netvista",
+  "title": "NDIS_POLL_CHARACTERISTICS",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "The NDIS_POLL_CHARACTERISTICS structure contains a Poll object’s NdisPoll and NdisSetPollNotification callback pointers.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "poll.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "NDIS_POLL_CHARACTERISTICS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "poll.h"
+  ],
+  "api_name": [
+    "_NDIS_POLL_CHARACTERISTICS",
+    "NDIS_POLL_CHARACTERISTICS"
+  ],
+  "f1_keywords": [
+    "_NDIS_POLL_CHARACTERISTICS",
+    "poll/_NDIS_POLL_CHARACTERISTICS",
+    "NDIS_POLL_CHARACTERISTICS",
+    "poll/NDIS_POLL_CHARACTERISTICS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT PublishDriverInterface(
+  IUnknown *pIUnknown
+);

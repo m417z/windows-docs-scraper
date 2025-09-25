@@ -1,0 +1,1 @@
+DWRITE_PAINT_FEATURE_LEVEL GetPaintFeatureLevel();

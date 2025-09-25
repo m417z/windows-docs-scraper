@@ -1,0 +1,5 @@
+typedef struct _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS {
+  LUID                           AdapterLuid;
+  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId;
+  UINT                           StopReason;
+} D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS, *PD3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS;

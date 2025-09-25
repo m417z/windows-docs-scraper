@@ -1,0 +1,73 @@
+{
+  "UID": "NF:stringapiset.WideCharToMultiByte",
+  "title": "WideCharToMultiByte function (stringapiset.h)",
+  "description": "Maps a UTF-16 (wide character) string to a new character string.",
+  "helpviewer_keywords": [
+    "CP_ACP",
+    "CP_MACCP",
+    "CP_OEMCP",
+    "CP_SYMBOL",
+    "CP_THREAD_ACP",
+    "CP_UTF7",
+    "CP_UTF8",
+    "WC_COMPOSITECHECK",
+    "WC_ERR_INVALID_CHARS",
+    "WC_NO_BEST_FIT_CHARS",
+    "WideCharToMultiByte",
+    "WideCharToMultiByte function [Internationalization for Windows Applications]",
+    "_win32_WideCharToMultiByte",
+    "intl.widechartomultibyte",
+    "stringapiset/WideCharToMultiByte"
+  ],
+  "old-location": "intl\\widechartomultibyte.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "b8c13444-86ab-479c-ac04-9b184d9eebf6",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte",
+  "req.header": "stringapiset.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "snippet-project",
+  "f1_keywords": [
+    "WideCharToMultiByte",
+    "stringapiset/WideCharToMultiByte"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-String-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "WideCharToMultiByte"
+  ]
+}

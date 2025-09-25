@@ -1,0 +1,4 @@
+typedef struct _SYNTHDOWNLOAD {
+  HANDLE DownloadHandle;
+  BOOL   Free;
+} SYNTHDOWNLOAD, *PSYNTHDOWNLOAD;

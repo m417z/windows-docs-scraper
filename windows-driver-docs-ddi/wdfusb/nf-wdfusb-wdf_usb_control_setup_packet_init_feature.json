@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdfusb.WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE",
+  "title": "WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function (wdfusb.h)",
+  "description": "The WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a USB control transfer that sets or clears a device feature.",
+  "old-location": "wdf\\wdf_usb_control_setup_packet_init_feature.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function"
+  ],
+  "ms.keywords": "DFUsbRef_becbf646-e647-4337-a1cb-05a72c3dd215.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function, kmdf.wdf_usb_control_setup_packet_init_feature, wdf.wdf_usb_control_setup_packet_init_feature, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE",
+    "wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfusb.h"
+  ],
+  "api_name": [
+    "WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE"
+  ]
+}

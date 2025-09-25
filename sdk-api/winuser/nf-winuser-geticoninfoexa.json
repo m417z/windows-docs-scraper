@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winuser.GetIconInfoExA",
+  "title": "GetIconInfoExA function (winuser.h)",
+  "description": "Retrieves information about the specified icon or cursor. GetIconInfoEx extends GetIconInfo by using the newer ICONINFOEX structure. (ANSI)",
+  "helpviewer_keywords": [
+    "GetIconInfoExA",
+    "winuser/GetIconInfoExA"
+  ],
+  "old-location": "menurc\\geticoninfoex.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\icons\\iconreference\\iconfunctions\\geticoninfoex.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetIconInfoEx, GetIconInfoEx function [Menus and Other Resources], GetIconInfoExA, GetIconInfoExW, _win32_GetIconInfoEx, _win32_geticoninfoex_cpp, menurc.geticoninfoex, winui._win32_geticoninfoex, winuser/GetIconInfoEx, winuser/GetIconInfoExA, winuser/GetIconInfoExW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetIconInfoExW (Unicode) and GetIconInfoExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetIconInfoExA",
+    "winuser/GetIconInfoExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "GetIconInfoEx",
+    "GetIconInfoExA",
+    "GetIconInfoExW"
+  ]
+}

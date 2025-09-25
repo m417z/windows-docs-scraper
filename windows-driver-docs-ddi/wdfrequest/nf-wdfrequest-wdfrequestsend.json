@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfrequest.WdfRequestSend",
+  "title": "WdfRequestSend function (wdfrequest.h)",
+  "description": "The WdfRequestSend method sends a specified I/O request to a specified I/O target.",
+  "old-location": "wdf\\wdfrequestsend.htm",
+  "tech.root": "wdf",
+  "ms.date": "06/19/2023",
+  "keywords": [
+    "WdfRequestSend function"
+  ],
+  "ms.keywords": "DFRequestObjectRef_3104cf0d-01d0-4299-a123-ba7a8cc0ada9.xml, WdfRequestSend, WdfRequestSend method, kmdf.wdfrequestsend, wdf.wdfrequestsend, wdfrequest/WdfRequestSend",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DeferredRequestCompleted, DriverCreate, InvalidReqAccess, InvalidReqAccessLocal, KmdfIrql, ReqCompletionRoutine, ReqMarkCancelableSend, ReqSendFail, ReqSendWhileSpinlock, RequestCompleted, RequestCompletedLocal, RequestFormattedValid, RequestGetStatusValid, RequestSendAndForgetNoFormatting, RequestSendAndForgetNoFormatting2, SyncReqSend2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfRequestSend",
+    "wdfrequest/WdfRequestSend"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfRequestSend"
+  ]
+}

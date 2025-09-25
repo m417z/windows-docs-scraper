@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.FsRtlQueryKernelEaFile",
+  "title": "FsRtlQueryKernelEaFile function (ntifs.h)",
+  "description": "The routine FsRtlQueryKernelEaFile is used to build an explicit QueryEA request and synchronously wait for it to complete, returning the result. This allows the caller to do this by FileObject instead of a handle.",
+  "old-location": "ifsk\\fsrtlquerykerneleafile.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FsRtlQueryKernelEaFile function"
+  ],
+  "ms.keywords": "FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FsRtlQueryKernelEaFile",
+    "ntifs/FsRtlQueryKernelEaFile"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FsRtlQueryKernelEaFile"
+  ]
+}

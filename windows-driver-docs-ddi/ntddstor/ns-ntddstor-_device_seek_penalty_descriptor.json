@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddstor._DEVICE_SEEK_PENALTY_DESCRIPTOR",
+  "title": "_DEVICE_SEEK_PENALTY_DESCRIPTOR (ntddstor.h)",
+  "description": "The DEVICE_SEEK_PENALTY_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the seek penalty descriptor data for a device.",
+  "old-location": "storage\\device_seek_penalty_descriptor.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DEVICE_SEEK_PENALTY_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PDEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Storage Devices], PDEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/PDEVICE_SEEK_PENALTY_DESCRIPTOR, storage.device_seek_penalty_descriptor, structs-general_9fb189fe-9d56-4460-8860-dc6fe6d2fceb.xml",
+  "req.header": "ntddstor.h",
+  "req.include-header": "Ntddstor.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DEVICE_SEEK_PENALTY_DESCRIPTOR, *PDEVICE_SEEK_PENALTY_DESCRIPTOR",
+  "f1_keywords": [
+    "_DEVICE_SEEK_PENALTY_DESCRIPTOR",
+    "ntddstor/_DEVICE_SEEK_PENALTY_DESCRIPTOR",
+    "PDEVICE_SEEK_PENALTY_DESCRIPTOR",
+    "ntddstor/PDEVICE_SEEK_PENALTY_DESCRIPTOR",
+    "DEVICE_SEEK_PENALTY_DESCRIPTOR",
+    "ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_DEVICE_SEEK_PENALTY_DESCRIPTOR",
+    "PDEVICE_SEEK_PENALTY_DESCRIPTOR",
+    "DEVICE_SEEK_PENALTY_DESCRIPTOR"
+  ]
+}

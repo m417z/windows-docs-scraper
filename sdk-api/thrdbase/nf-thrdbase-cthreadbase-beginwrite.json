@@ -1,0 +1,66 @@
+{
+  "UID": "NF:thrdbase.CThreadBase.BeginWrite",
+  "title": "CThreadBase::BeginWrite (thrdbase.h)",
+  "description": "The BeginWrite method provides thread safety by indicating the beginning of a data write operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.",
+  "helpviewer_keywords": [
+    "?BeginWrite@CThreadBase@@QAEHK@Z",
+    "BeginWrite",
+    "BeginWrite method [Windows Management Instrumentation]",
+    "BeginWrite method [Windows Management Instrumentation]",
+    "CThreadBase interface",
+    "CThreadBase interface [Windows Management Instrumentation]",
+    "BeginWrite method",
+    "CThreadBase.BeginWrite",
+    "CThreadBase::BeginWrite",
+    "thrdbase/CThreadBase::BeginWrite",
+    "wmi.cthreadbase_beginwrite"
+  ],
+  "old-location": "wmi\\cthreadbase_beginwrite.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "51ae6b39-b524-4bf9-ac71-45c812ad1680",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginWrite method, CThreadBase.BeginWrite, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite",
+  "req.header": "thrdbase.h",
+  "req.include-header": "FwCommon.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FrameDyn.lib",
+  "req.dll": "FrameDynOS.dll; FrameDyn.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CThreadBase::BeginWrite",
+    "thrdbase/CThreadBase::BeginWrite"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FrameDynOS.dll",
+    "FrameDyn.dll"
+  ],
+  "api_name": [
+    "CThreadBase.BeginWrite",
+    "?BeginWrite@CThreadBase@@QAEHK@Z"
+  ]
+}

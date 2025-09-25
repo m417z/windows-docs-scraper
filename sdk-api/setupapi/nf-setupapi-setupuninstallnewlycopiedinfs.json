@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupUninstallNewlyCopiedInfs",
+  "title": "SetupUninstallNewlyCopiedInfs function (setupapi.h)",
+  "description": "The SetupUninstallNewlyCopiedInfs function uninstalls INF files (.inf), precompiled INF files (.pnf), and catalog files (.cat) that are previously installed during the committal of the specified file queue.",
+  "helpviewer_keywords": [
+    "SetupUninstallNewlyCopiedInfs",
+    "SetupUninstallNewlyCopiedInfs function [Setup API]",
+    "_setupapi_setupuninstallnewlycopiedinfs",
+    "setup.setupuninstallnewlycopiedinfs",
+    "setupapi/SetupUninstallNewlyCopiedInfs"
+  ],
+  "old-location": "setup\\setupuninstallnewlycopiedinfs.htm",
+  "tech.root": "setup",
+  "ms.assetid": "7bc10d12-0a0e-48b6-9fb4-1bf1c99cc3be",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupUninstallNewlyCopiedInfs, SetupUninstallNewlyCopiedInfs function [Setup API], _setupapi_setupuninstallnewlycopiedinfs, setup.setupuninstallnewlycopiedinfs, setupapi/SetupUninstallNewlyCopiedInfs",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupUninstallNewlyCopiedInfs",
+    "setupapi/SetupUninstallNewlyCopiedInfs"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupUninstallNewlyCopiedInfs"
+  ]
+}

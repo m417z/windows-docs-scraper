@@ -1,0 +1,5 @@
+typedef struct {
+  ULONG Size;
+  ULONG Pin;
+  WCHAR SymbolicLinkName[1];
+} KSPIN_PHYSICALCONNECTION, *PKSPIN_PHYSICALCONNECTION;

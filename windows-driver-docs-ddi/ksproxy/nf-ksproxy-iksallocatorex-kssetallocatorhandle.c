@@ -1,0 +1,3 @@
+VOID KsSetAllocatorHandle(
+  HANDLE AllocatorHandle
+);

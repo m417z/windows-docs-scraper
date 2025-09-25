@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wingdi.GetCharABCWidthsW",
+  "title": "GetCharABCWidthsW function (wingdi.h)",
+  "description": "The GetCharABCWidths function retrieves the widths, in logical units, of consecutive characters in a specified range from the current TrueType font. This function succeeds only with TrueType fonts. (Unicode)",
+  "helpviewer_keywords": [
+    "GetCharABCWidths",
+    "GetCharABCWidths function [Windows GDI]",
+    "GetCharABCWidthsW",
+    "_win32_GetCharABCWidths",
+    "gdi.getcharabcwidths",
+    "wingdi/GetCharABCWidths",
+    "wingdi/GetCharABCWidthsW"
+  ],
+  "old-location": "gdi\\getcharabcwidths.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "b48ab66d-ff0a-48d9-b7dd-28610bf69d51",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCharABCWidths, GetCharABCWidths function [Windows GDI], GetCharABCWidthsA, GetCharABCWidthsW, _win32_GetCharABCWidths, gdi.getcharabcwidths, wingdi/GetCharABCWidths, wingdi/GetCharABCWidthsA, wingdi/GetCharABCWidthsW",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetCharABCWidthsW (Unicode) and GetCharABCWidthsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetCharABCWidthsW",
+    "wingdi/GetCharABCWidthsW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "Ext-MS-Win-GDI-Font-l1-1-1.dll",
+    "ext-ms-win-gdi-font-l1-1-2.dll",
+    "Ext-MS-Win-GDI-Font-L1-1-3.dll",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "GetCharABCWidths",
+    "GetCharABCWidthsA",
+    "GetCharABCWidthsW"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetEntryPoint(
+  BSTR *pResult
+);

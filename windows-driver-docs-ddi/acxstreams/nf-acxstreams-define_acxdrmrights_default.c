@@ -1,0 +1,3 @@
+void DEFINE_ACXDRMRIGHTS_DEFAULT(
+  DrmRights
+);

@@ -1,0 +1,3 @@
+HRESULT OnOcclusionStateReport(
+  IMFCameraOcclusionStateReport *occlusionStateReport
+);

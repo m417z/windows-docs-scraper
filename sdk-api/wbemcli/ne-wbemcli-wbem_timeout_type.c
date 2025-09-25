@@ -1,0 +1,4 @@
+typedef enum tag_WBEM_TIMEOUT_TYPE {
+  WBEM_NO_WAIT = 0,
+  WBEM_INFINITE = 0xffffffff
+} WBEM_TIMEOUT_TYPE;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.IoPageRead",
+  "title": "IoPageRead function (ntifs.h)",
+  "description": "Microsoft reserves the IoPageRead function for internal use only. Don't use this function in your code.",
+  "old-location": "ifsk\\iopageread.htm",
+  "tech.root": "ifsk",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "IoPageRead function"
+  ],
+  "ms.keywords": "IoPageRead, IoPageRead function [Installable File System Drivers], ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml, ntifs/IoPageRead",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoPageRead",
+    "ntifs/IoPageRead"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "IoPageRead"
+  ]
+}

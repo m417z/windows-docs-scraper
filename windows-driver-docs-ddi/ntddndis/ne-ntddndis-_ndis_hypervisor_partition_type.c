@@ -1,0 +1,6 @@
+typedef enum _NDIS_HYPERVISOR_PARTITION_TYPE {
+  NdisHypervisorPartitionTypeUnknown,
+  NdisHypervisorPartitionTypeMsHvParent,
+  NdisHypervisorPartitionMsHvChild,
+  NdisHypervisorPartitionTypeMax
+} NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE;

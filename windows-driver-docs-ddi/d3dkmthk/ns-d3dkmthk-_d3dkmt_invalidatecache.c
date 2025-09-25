@@ -1,0 +1,6 @@
+typedef struct _D3DKMT_INVALIDATECACHE {
+  D3DKMT_HANDLE                hDevice;
+  D3DKMT_HANDLE                hAllocation;
+  D3DKMT_ALIGN64 D3DKMT_SIZE_T Offset;
+  D3DKMT_ALIGN64 D3DKMT_SIZE_T Length;
+} D3DKMT_INVALIDATECACHE;

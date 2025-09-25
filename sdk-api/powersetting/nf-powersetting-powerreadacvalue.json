@@ -1,0 +1,68 @@
+{
+  "UID": "NF:powersetting.PowerReadACValue",
+  "title": "PowerReadACValue function (powersetting.h)",
+  "description": "Retrieves the AC power value for the specified power setting.",
+  "helpviewer_keywords": [
+    "GUID_BATTERY_SUBGROUP",
+    "GUID_DISK_SUBGROUP",
+    "GUID_PCIEXPRESS_SETTINGS_SUBGROUP",
+    "GUID_PROCESSOR_SETTINGS_SUBGROUP",
+    "GUID_SLEEP_SUBGROUP",
+    "GUID_SYSTEM_BUTTON_SUBGROUP",
+    "GUID_VIDEO_SUBGROUP",
+    "NO_SUBGROUP_GUID",
+    "PowerReadACValue",
+    "PowerReadACValue function",
+    "base.powerreadacvalue",
+    "powersetting/PowerReadACValue",
+    "powrprof/PowerReadACValue"
+  ],
+  "old-location": "base\\powerreadacvalue.htm",
+  "tech.root": "base",
+  "ms.assetid": "b0afaf75-72cc-48a3-bbf2-0000cb85f2e2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadACValue, PowerReadACValue function, base.powerreadacvalue, powersetting/PowerReadACValue, powrprof/PowerReadACValue",
+  "req.header": "powersetting.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "PowrProf.lib",
+  "req.dll": "PowrProf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PowerReadACValue",
+    "powersetting/PowerReadACValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-power-setting-l1-1-1.dll",
+    "PowrProf.dll",
+    "API-MS-Win-power-setting-l1-1-0.dll"
+  ],
+  "api_name": [
+    "PowerReadACValue"
+  ]
+}

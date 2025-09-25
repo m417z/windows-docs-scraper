@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_D0_EXIT",
+  "title": "EVT_WDF_DEVICE_D0_EXIT (wdfdevice.h)",
+  "description": "A driver's EvtDeviceD0Exit event callback function performs operations that are needed when the driver's device leaves the D0 power state.",
+  "old-location": "wdf\\evtdeviced0exit.htm",
+  "tech.root": "wdf",
+  "ms.date": "07/21/2023",
+  "keywords": [
+    "EVT_WDF_DEVICE_D0_EXIT callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_f2327720-a8e1-4e92-acb2-72378c3c5fb1.xml, EVT_WDF_DEVICE_D0_EXIT, EVT_WDF_DEVICE_D0_EXIT callback, EvtDeviceD0Exit, EvtDeviceD0Exit callback function, kmdf.evtdeviced0exit, wdf.evtdeviced0exit, wdfdevice/EvtDeviceD0Exit",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_D0_EXIT",
+    "wdfdevice/EVT_WDF_DEVICE_D0_EXIT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_D0_EXIT"
+  ]
+}

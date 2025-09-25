@@ -1,0 +1,27 @@
+typedef struct _DHCP_SERVER_OPTIONS {
+  BYTE            *MessageType;
+  DHCP_IP_ADDRESS *SubnetMask;
+  DHCP_IP_ADDRESS *RequestedAddress;
+  DWORD           *RequestLeaseTime;
+  BYTE            *OverlayFields;
+  DHCP_IP_ADDRESS *RouterAddress;
+  DHCP_IP_ADDRESS *Server;
+  BYTE            *ParameterRequestList;
+  DWORD           ParameterRequestListLength;
+  CHAR            *MachineName;
+  DWORD           MachineNameLength;
+  BYTE            ClientHardwareAddressType;
+  BYTE            ClientHardwareAddressLength;
+  BYTE            *ClientHardwareAddress;
+  CHAR            *ClassIdentifier;
+  DWORD           ClassIdentifierLength;
+  BYTE            *VendorClass;
+  DWORD           VendorClassLength;
+  DWORD           DNSFlags;
+  DWORD           DNSNameLength;
+  LPBYTE          DNSName;
+  BOOLEAN         DSDomainNameRequested;
+  CHAR            *DSDomainName;
+  DWORD           DSDomainNameLen;
+  DWORD           *ScopeId;
+} DHCP_SERVER_OPTIONS, *LPDHCP_SERVER_OPTIONS;

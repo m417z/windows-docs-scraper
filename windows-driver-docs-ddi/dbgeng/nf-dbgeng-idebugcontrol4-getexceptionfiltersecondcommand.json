@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugControl4.GetExceptionFilterSecondCommand",
+  "title": "IDebugControl4::GetExceptionFilterSecondCommand method (dbgeng.h)",
+  "description": "The IDebugControl4::GetExceptionFilterSecondCommandWide method returns the command that will be executed upon the second chance of an exception.",
+  "old-location": "debugger\\getexceptionfiltersecondcommandwide.htm",
+  "tech.root": "debugger",
+  "ms.date": "02/06/2022",
+  "keywords": [
+    "IDebugControl4::GetExceptionFilterSecondCommand method"
+  ],
+  "ms.keywords": "GetExceptionFilterSecondCommand,IDebugControl4.GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, IDebugControl4::GetExceptionFilterSecondCommand, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DOT4_ACTIVITY, *PDOT4_ACTIVITY",
+  "f1_keywords": [
+    "IDebugControl4::GetExceptionFilterSecondCommand",
+    "dbgeng/IDebugControl4::GetExceptionFilterSecondCommand"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugControl4::GetExceptionFilterSecondCommand"
+  ]
+}

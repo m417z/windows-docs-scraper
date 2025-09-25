@@ -1,0 +1,27 @@
+# IWMPNetwork::get_bufferingTime
+
+## Description
+
+\[The feature associated with this page, [Windows Media Player SDK](https://learn.microsoft.com/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](https://learn.microsoft.com/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+The **get_bufferingTime** method retrieves the amount of time in milliseconds allocated for buffering incoming data before playing begins.
+
+## Parameters
+
+### `plBufferingTime` [out]
+
+Pointer to a **long** containing the buffering time, which ranges from zero to 60,000 with a default value of 5,000.
+
+## Return value
+
+The method returns an **HRESULT**. Possible values include, but are not limited to, those in the following table.
+
+| Return code | Description |
+| --- | --- |
+| **S_OK** | The method succeeded. |
+
+## See also
+
+[IWMPNetwork Interface](https://learn.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork)
+
+[IWMPNetwork::put_bufferingTime](https://learn.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-put_bufferingtime)

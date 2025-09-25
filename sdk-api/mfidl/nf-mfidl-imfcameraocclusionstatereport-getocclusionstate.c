@@ -1,0 +1,3 @@
+HRESULT GetOcclusionState(
+  DWORD *occlusionState
+);

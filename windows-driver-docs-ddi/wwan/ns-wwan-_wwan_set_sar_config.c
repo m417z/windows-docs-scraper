@@ -1,0 +1,5 @@
+typedef struct _WWAN_SET_SAR_CONFIG {
+  WWAN_SAR_CONTROL_MODE  SarMode;
+  WWAN_SAR_BACKOFF_STATE SarBackoffStatus;
+  WWAN_LIST_HEADER       SarConfigIndexListHeader;
+} WWAN_SET_SAR_CONFIG, *PWWAN_SET_SAR_CONFIG;

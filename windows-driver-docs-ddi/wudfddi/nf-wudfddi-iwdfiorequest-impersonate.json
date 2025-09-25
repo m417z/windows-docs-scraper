@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFIoRequest.Impersonate",
+  "title": "IWDFIoRequest::Impersonate (wudfddi.h)",
+  "description": "The Impersonate method registers the interface for the method that the framework should call for impersonation.",
+  "old-location": "wdf\\iwdfiorequest_impersonate.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFIoRequest::Impersonate"
+  ],
+  "ms.keywords": "IWDFIoRequest interface,Impersonate method, IWDFIoRequest.Impersonate, IWDFIoRequest::Impersonate, Impersonate, Impersonate method, Impersonate method,IWDFIoRequest interface, UMDFRequestObjectRef_a5f40359-edc8-42e1-a63d-99390abeba86.xml, umdf.iwdfiorequest_impersonate, wdf.iwdfiorequest_impersonate, wudfddi/IWDFIoRequest::Impersonate",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFIoRequest::Impersonate",
+    "wudfddi/IWDFIoRequest::Impersonate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFIoRequest::Impersonate"
+  ]
+}

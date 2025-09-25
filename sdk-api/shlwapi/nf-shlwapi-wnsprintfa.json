@@ -1,0 +1,57 @@
+{
+  "UID": "NF:shlwapi.wnsprintfA",
+  "title": "wnsprintfA function (shlwapi.h)",
+  "description": "Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string. (ANSI)",
+  "helpviewer_keywords": [
+    "shlwapi/wnsprintfA",
+    "wnsprintfA"
+  ],
+  "old-location": "shell\\wnsprintf.htm",
+  "tech.root": "shell",
+  "ms.assetid": "1d2b472b-6b34-4867-897c-eca60921d414",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_wnsprintf, shell.wnsprintf, shlwapi/wnsprintf, shlwapi/wnsprintfA, shlwapi/wnsprintfW, wnsprintf, wnsprintf function [Windows Shell], wnsprintfA, wnsprintfW",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "wnsprintfW (Unicode) and wnsprintfA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 5.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "wnsprintfA",
+    "shlwapi/wnsprintfA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Shlwapi.dll"
+  ],
+  "api_name": [
+    "wnsprintf",
+    "wnsprintfA",
+    "wnsprintfW"
+  ]
+}

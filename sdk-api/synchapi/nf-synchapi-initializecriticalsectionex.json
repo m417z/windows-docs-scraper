@@ -1,0 +1,66 @@
+{
+  "UID": "NF:synchapi.InitializeCriticalSectionEx",
+  "title": "InitializeCriticalSectionEx function (synchapi.h)",
+  "description": "Initializes a critical section object with a spin count and optional flags.",
+  "helpviewer_keywords": [
+    "CRITICAL_SECTION_NO_DEBUG_INFO",
+    "InitializeCriticalSectionEx",
+    "InitializeCriticalSectionEx function",
+    "base.initializecriticalsectionex",
+    "synchapi/InitializeCriticalSectionEx",
+    "winbase/InitializeCriticalSectionEx"
+  ],
+  "old-location": "base\\initializecriticalsectionex.htm",
+  "tech.root": "base",
+  "ms.assetid": "da84b187-0eb7-4363-8e68-8a525586d7d9",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "CRITICAL_SECTION_NO_DEBUG_INFO, InitializeCriticalSectionEx, InitializeCriticalSectionEx function, base.initializecriticalsectionex, synchapi/InitializeCriticalSectionEx, winbase/InitializeCriticalSectionEx",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InitializeCriticalSectionEx",
+    "synchapi/InitializeCriticalSectionEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "InitializeCriticalSectionEx"
+  ]
+}

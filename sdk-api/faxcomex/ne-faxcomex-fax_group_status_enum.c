@@ -1,0 +1,6 @@
+typedef enum FAX_GROUP_STATUS_ENUM {
+  fgsALL_DEV_VALID = 0,
+  fgsEMPTY,
+  fgsALL_DEV_NOT_VALID,
+  fgsSOME_DEV_NOT_VALID
+} ;

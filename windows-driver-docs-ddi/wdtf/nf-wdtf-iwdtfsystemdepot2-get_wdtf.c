@@ -1,0 +1,3 @@
+HRESULT get_WDTF(
+  IWDTF2 **ppWDTF
+);

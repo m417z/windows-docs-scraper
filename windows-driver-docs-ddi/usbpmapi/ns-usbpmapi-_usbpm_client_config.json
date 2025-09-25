@@ -1,0 +1,48 @@
+{
+  "UID": "NS:usbpmapi._USBPM_CLIENT_CONFIG",
+  "title": "_USBPM_CLIENT_CONFIG (usbpmapi.h)",
+  "description": "The configuration structure used in the registering the client driver with the Policy Manager",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "USBPM_CLIENT_CONFIG structure"
+  ],
+  "tech.root": "usbref",
+  "ms.keywords": "_USBPM_CLIENT_CONFIG, USBPM_CLIENT_CONFIG, *PUSBPM_CLIENT_CONFIG,",
+  "req.header": "usbpmapi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.27,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "USBPM_CLIENT_CONFIG, *PUSBPM_CLIENT_CONFIG",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_USBPM_CLIENT_CONFIG",
+    "usbpmapi/_USBPM_CLIENT_CONFIG",
+    "PUSBPM_CLIENT_CONFIG",
+    "usbpmapi/PUSBPM_CLIENT_CONFIG",
+    "USBPM_CLIENT_CONFIG",
+    "usbpmapi/USBPM_CLIENT_CONFIG"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usbpmapi.h"
+  ],
+  "api_name": [
+    "_USBPM_CLIENT_CONFIG",
+    "PUSBPM_CLIENT_CONFIG",
+    "USBPM_CLIENT_CONFIG"
+  ]
+}

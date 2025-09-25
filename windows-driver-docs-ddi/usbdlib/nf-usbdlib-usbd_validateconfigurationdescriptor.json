@@ -1,0 +1,49 @@
+{
+  "UID": "NF:usbdlib.USBD_ValidateConfigurationDescriptor",
+  "title": "USBD_ValidateConfigurationDescriptor function (usbdlib.h)",
+  "description": "The USBD_ValidateConfigurationDescriptor routine validates all descriptors returned by a device in its response to a configuration descriptor request.",
+  "old-location": "buses\\usbd_validateconfigurationdescriptor.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBD_ValidateConfigurationDescriptor function"
+  ],
+  "ms.keywords": "USBD_ValidateConfigurationDescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], buses.usbd_validateconfigurationdescriptor, usbdlib/USBD_ValidateConfigurationDescriptor",
+  "req.header": "usbdlib.h",
+  "req.include-header": "Usbdlib.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbd.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBD_ValidateConfigurationDescriptor",
+    "usbdlib/USBD_ValidateConfigurationDescriptor"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Usbd.lib",
+    "Usbd.dll"
+  ],
+  "api_name": [
+    "USBD_ValidateConfigurationDescriptor"
+  ]
+}

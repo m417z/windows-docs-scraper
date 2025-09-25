@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mergemod.IMsmError.get_ModuleTable",
+  "title": "IMsmError::get_ModuleTable (mergemod.h)",
+  "description": "The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.",
+  "helpviewer_keywords": [
+    "IMsmError interface",
+    "get_ModuleTable method",
+    "IMsmError.get_ModuleTable",
+    "IMsmError::get_ModuleTable",
+    "_msi_get_moduletable_function",
+    "get_ModuleTable",
+    "get_ModuleTable method",
+    "get_ModuleTable method",
+    "IMsmError interface",
+    "mergemod/IMsmError::get_ModuleTable",
+    "setup.imsmerror_get_moduletable"
+  ],
+  "old-location": "setup\\imsmerror_get_moduletable.htm",
+  "tech.root": "setup",
+  "ms.assetid": "c24145dc-0907-4916-bbec-f9e0ec7584db",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable",
+  "req.header": "mergemod.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Mergemod.dll 1.0 or later",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Mergemod.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMsmError::get_ModuleTable",
+    "mergemod/IMsmError::get_ModuleTable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mergemod.dll"
+  ],
+  "api_name": [
+    "IMsmError.get_ModuleTable"
+  ]
+}

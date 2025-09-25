@@ -1,0 +1,42 @@
+{
+  "UID": "NF:ntifs.FsRtlCheckOplockEx2",
+  "title": "FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2",
+  "description": "FsRtlCheckOplockEx2 synchronizes the IRP for a file I/O operation with the current opportunistic lock (oplock) state of the file.",
+  "tech.root": "ifsk",
+  "ms.date": "03/24/2020",
+  "ms.keywords": "FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "FsRtlCheckOplockEx2",
+    "ntifs/FsRtlCheckOplockEx2"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FsRtlCheckOplockEx2"
+  ]
+}

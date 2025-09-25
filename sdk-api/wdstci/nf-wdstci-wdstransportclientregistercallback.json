@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wdstci.WdsTransportClientRegisterCallback",
+  "title": "WdsTransportClientRegisterCallback function (wdstci.h)",
+  "description": "Registers a callback with the multicast client.",
+  "helpviewer_keywords": [
+    "WdsTransportClientRegisterCallback",
+    "WdsTransportClientRegisterCallback function [Windows Deployment Services]",
+    "wds.wdstransportclientregistercallback",
+    "wdstci/WdsTransportClientRegisterCallback"
+  ],
+  "old-location": "wds\\wdstransportclientregistercallback.htm",
+  "tech.root": "wds",
+  "ms.assetid": "e3c809c4-5681-4979-8633-bb8d3dbde35b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WdsTransportClientRegisterCallback, WdsTransportClientRegisterCallback function [Windows Deployment Services], wds.wdstransportclientregistercallback, wdstci/WdsTransportClientRegisterCallback",
+  "req.header": "wdstci.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdstptc.lib",
+  "req.dll": "Wdstptc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WdsTransportClientRegisterCallback",
+    "wdstci/WdsTransportClientRegisterCallback"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wdstptc.dll"
+  ],
+  "api_name": [
+    "WdsTransportClientRegisterCallback"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _VDS_DISK_FREE_EXTENT {
+  VDS_OBJECT_ID diskId;
+  ULONGLONG     ullOffset;
+  ULONGLONG     ullSize;
+} VDS_DISK_FREE_EXTENT, *PVDS_DISK_FREE_EXTENT;

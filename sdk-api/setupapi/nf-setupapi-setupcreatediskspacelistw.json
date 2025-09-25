@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupCreateDiskSpaceListW",
+  "title": "SetupCreateDiskSpaceListW function (setupapi.h)",
+  "description": "The SetupCreateDiskSpaceList function creates a disk-space list. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupCreateDiskSpaceList",
+    "SetupCreateDiskSpaceList function [Setup API]",
+    "SetupCreateDiskSpaceListW",
+    "_setupapi_setupcreatediskspacelist",
+    "setup.setupcreatediskspacelist",
+    "setupapi/SetupCreateDiskSpaceList",
+    "setupapi/SetupCreateDiskSpaceListW"
+  ],
+  "old-location": "setup\\setupcreatediskspacelist.htm",
+  "tech.root": "setup",
+  "ms.assetid": "a578ed9d-12b2-43f4-ab0a-183269de0d40",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupCreateDiskSpaceList, SetupCreateDiskSpaceList function [Setup API], SetupCreateDiskSpaceListA, SetupCreateDiskSpaceListW, _setupapi_setupcreatediskspacelist, setup.setupcreatediskspacelist, setupapi/SetupCreateDiskSpaceList, setupapi/SetupCreateDiskSpaceListA, setupapi/SetupCreateDiskSpaceListW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupCreateDiskSpaceListW (Unicode) and SetupCreateDiskSpaceListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupCreateDiskSpaceListW",
+    "setupapi/SetupCreateDiskSpaceListW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupCreateDiskSpaceList",
+    "SetupCreateDiskSpaceListA",
+    "SetupCreateDiskSpaceListW"
+  ]
+}

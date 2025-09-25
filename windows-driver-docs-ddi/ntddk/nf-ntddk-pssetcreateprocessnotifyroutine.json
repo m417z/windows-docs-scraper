@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.PsSetCreateProcessNotifyRoutine",
+  "title": "PsSetCreateProcessNotifyRoutine function (ntddk.h)",
+  "description": "The PsSetCreateProcessNotifyRoutine routine adds a driver-supplied callback routine to, or removes it from, a list of routines to be called whenever a process is created or deleted.",
+  "old-location": "kernel\\pssetcreateprocessnotifyroutine.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PsSetCreateProcessNotifyRoutine function"
+  ],
+  "ms.keywords": "PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlPsPassive, PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PsSetCreateProcessNotifyRoutine",
+    "ntddk/PsSetCreateProcessNotifyRoutine"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "PsSetCreateProcessNotifyRoutine"
+  ]
+}

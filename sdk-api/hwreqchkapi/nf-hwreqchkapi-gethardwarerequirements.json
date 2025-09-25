@@ -1,0 +1,50 @@
+{
+  "UID": "NF:hwreqchkapi.GetHardwareRequirements",
+  "tech.root": "hwreqchk",
+  "title": "GetHardwareRequirements (hwreqchkapi.h)",
+  "ms.date": "04/24/2023",
+  "targetos": "Windows",
+  "description": "Returns a collection of defined hardware requirements for all product-types.",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "HWREQCHK.DLL",
+  "req.header": "hwreqchkapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "HWREQCHK.LIB",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "hwreqchkapi.h"
+  ],
+  "api_name": [
+    "GetHardwareRequirements"
+  ],
+  "f1_keywords": [
+    "GetHardwareRequirements",
+    "hwreqchkapi/GetHardwareRequirements"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "GetHardwareRequirements"
+  ]
+}

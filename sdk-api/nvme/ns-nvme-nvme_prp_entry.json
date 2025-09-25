@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_PRP_ENTRY",
+  "tech.root": "fs",
+  "title": "NVME_PRP_ENTRY",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains fields that specify the Page Base Address and Offset (PBAO) of a pointer to a physical memory page.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_PRP_ENTRY, *PNVME_PRP_ENTRY",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_PRP_ENTRY",
+    "NVME_PRP_ENTRY"
+  ],
+  "f1_keywords": [
+    "PNVME_PRP_ENTRY",
+    "nvme/PNVME_PRP_ENTRY",
+    "NVME_PRP_ENTRY",
+    "nvme/NVME_PRP_ENTRY"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

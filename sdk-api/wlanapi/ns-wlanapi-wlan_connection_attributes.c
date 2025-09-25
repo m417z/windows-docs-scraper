@@ -1,0 +1,7 @@
+typedef struct _WLAN_CONNECTION_ATTRIBUTES {
+  WLAN_INTERFACE_STATE        isState;
+  WLAN_CONNECTION_MODE        wlanConnectionMode;
+  WCHAR                       strProfileName[WLAN_MAX_NAME_LENGTH];
+  WLAN_ASSOCIATION_ATTRIBUTES wlanAssociationAttributes;
+  WLAN_SECURITY_ATTRIBUTES    wlanSecurityAttributes;
+} WLAN_CONNECTION_ATTRIBUTES, *PWLAN_CONNECTION_ATTRIBUTES;

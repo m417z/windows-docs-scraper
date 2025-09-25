@@ -1,0 +1,3 @@
+HRESULT GetInfo(
+  [out] TF_LANGBARITEMINFO *pInfo
+);

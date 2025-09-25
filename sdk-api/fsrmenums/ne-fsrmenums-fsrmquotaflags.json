@@ -1,0 +1,68 @@
+{
+  "UID": "NE:fsrmenums._FsrmQuotaFlags",
+  "title": "FsrmQuotaFlags (fsrmenums.h)",
+  "description": "Defines the options for failing IO operations that violate a quota, enabling or disabling quota tracking, and providing the status of the quota scan operation.",
+  "helpviewer_keywords": [
+    "FsrmQuotaFlags",
+    "FsrmQuotaFlags enumeration [File Server Resource Manager]",
+    "FsrmQuotaFlags_Disable",
+    "FsrmQuotaFlags_Enforce",
+    "FsrmQuotaFlags_StatusIncomplete",
+    "FsrmQuotaFlags_StatusRebuilding",
+    "fs.fsrmquotaflags",
+    "fsrm.fsrmquotaflags",
+    "fsrmenums/FsrmQuotaFlags",
+    "fsrmenums/FsrmQuotaFlags_Disable",
+    "fsrmenums/FsrmQuotaFlags_Enforce",
+    "fsrmenums/FsrmQuotaFlags_StatusIncomplete",
+    "fsrmenums/FsrmQuotaFlags_StatusRebuilding"
+  ],
+  "old-location": "fsrm\\fsrmquotaflags.htm",
+  "tech.root": "fsrm",
+  "ms.assetid": "254a26c7-a859-4b23-a3e2-9d261c848eef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FsrmQuotaFlags, FsrmQuotaFlags enumeration [File Server Resource Manager], FsrmQuotaFlags_Disable, FsrmQuotaFlags_Enforce, FsrmQuotaFlags_StatusIncomplete, FsrmQuotaFlags_StatusRebuilding, fs.fsrmquotaflags, fsrm.fsrmquotaflags, fsrmenums/FsrmQuotaFlags, fsrmenums/FsrmQuotaFlags_Disable, fsrmenums/FsrmQuotaFlags_Enforce, fsrmenums/FsrmQuotaFlags_StatusIncomplete, fsrmenums/FsrmQuotaFlags_StatusRebuilding",
+  "req.header": "fsrmenums.h",
+  "req.include-header": "FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FsrmQuotaFlags",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_FsrmQuotaFlags",
+    "fsrmenums/_FsrmQuotaFlags",
+    "FsrmQuotaFlags",
+    "fsrmenums/FsrmQuotaFlags"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "FsrmEnums.h"
+  ],
+  "api_name": [
+    "FsrmQuotaFlags"
+  ]
+}

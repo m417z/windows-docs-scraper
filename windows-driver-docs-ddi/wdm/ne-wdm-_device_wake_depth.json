@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdm._DEVICE_WAKE_DEPTH",
+  "title": "_DEVICE_WAKE_DEPTH (wdm.h)",
+  "description": "The DEVICE_WAKE_DEPTH enumeration specifies the deepest device power state from which a device can trigger a wake signal.",
+  "old-location": "kernel\\device_wake_depth.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "DEVICE_WAKE_DEPTH enumeration"
+  ],
+  "ms.keywords": "*PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], DeviceWakeDepthD0, DeviceWakeDepthD1, DeviceWakeDepthD2, DeviceWakeDepthD3cold, DeviceWakeDepthD3hot, DeviceWakeDepthMaximum, DeviceWakeDepthNotWakeable, _DEVICE_WAKE_DEPTH, kernel.device_wake_depth, wdm/DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD0, wdm/DeviceWakeDepthD1, wdm/DeviceWakeDepthD2, wdm/DeviceWakeDepthD3cold, wdm/DeviceWakeDepthD3hot, wdm/DeviceWakeDepthMaximum, wdm/DeviceWakeDepthNotWakeable",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DEVICE_WAKE_DEPTH, *PDEVICE_WAKE_DEPTH",
+  "f1_keywords": [
+    "_DEVICE_WAKE_DEPTH",
+    "wdm/_DEVICE_WAKE_DEPTH",
+    "PDEVICE_WAKE_DEPTH",
+    "wdm/PDEVICE_WAKE_DEPTH",
+    "DEVICE_WAKE_DEPTH",
+    "wdm/DEVICE_WAKE_DEPTH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_DEVICE_WAKE_DEPTH",
+    "PDEVICE_WAKE_DEPTH",
+    "DEVICE_WAKE_DEPTH"
+  ]
+}

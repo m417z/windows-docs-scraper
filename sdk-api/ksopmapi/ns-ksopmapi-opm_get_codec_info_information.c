@@ -1,0 +1,4 @@
+typedef struct _OPM_GET_CODEC_INFO_INFORMATION {
+  OPM_RANDOM_NUMBER rnRandomNumber;
+  DWORD             Merit;
+} OPM_GET_CODEC_INFO_INFORMATION;

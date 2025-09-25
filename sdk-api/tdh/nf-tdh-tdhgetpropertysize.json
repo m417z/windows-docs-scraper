@@ -1,0 +1,62 @@
+{
+  "UID": "NF:tdh.TdhGetPropertySize",
+  "title": "TdhGetPropertySize function (tdh.h)",
+  "description": "Retrieves the size of one or more property values in the event data.",
+  "helpviewer_keywords": [
+    "TdhGetPropertySize",
+    "TdhGetPropertySize function [ETW]",
+    "etw.tdhgetpropertysize_func",
+    "tdh.tdhgetpropertysize_func",
+    "tdh/TdhGetPropertySize"
+  ],
+  "old-location": "etw\\tdhgetpropertysize_func.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "52b034db-b08b-4c79-973f-33800ca866f5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TdhGetPropertySize, TdhGetPropertySize function [ETW], etw.tdhgetpropertysize_func, tdh.tdhgetpropertysize_func, tdh/TdhGetPropertySize",
+  "req.header": "tdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tdh.lib",
+  "req.dll": "Tdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TdhGetPropertySize",
+    "tdh/TdhGetPropertySize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-eventing-tdh-l1-1-2.dll",
+    "api-ms-win-eventing-tdh-l1-1-1.dll",
+    "Tdh.dll",
+    "API-MS-Win-Eventing-Tdh-L1-1-0.dll",
+    "MinTdh.dll"
+  ],
+  "api_name": [
+    "TdhGetPropertySize"
+  ]
+}

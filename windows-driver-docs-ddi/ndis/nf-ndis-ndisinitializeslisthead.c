@@ -1,0 +1,3 @@
+void NdisInitializeSListHead(
+  [in] SListHead
+);

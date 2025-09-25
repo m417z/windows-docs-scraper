@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION",
+  "title": "PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION (d3d10umddi.h)",
+  "description": "Indicates whether the driver supports a specific format/color-space conversion combination. This function must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers.",
+  "old-location": "display\\checkvideoprocessorformatconversion.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION callback function"
+  ],
+  "ms.keywords": "CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion callback function [Display Devices], PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION, PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION callback, d3d10umddi/CheckVideoProcessorFormatConversion, display.checkvideoprocessorformatconversion",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION",
+    "d3d10umddi/PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION"
+  ]
+}

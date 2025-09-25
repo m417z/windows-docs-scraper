@@ -1,0 +1,64 @@
+{
+  "UID": "NS:winioctl.MOVE_FILE_DATA",
+  "title": "MOVE_FILE_DATA",
+  "description": "Contains input data for the FSCTL_MOVE_FILE control code.",
+  "helpviewer_keywords": [
+    "*PMOVE_FILE_DATA",
+    "MOVE_FILE_DATA",
+    "MOVE_FILE_DATA structure [Files]",
+    "PMOVE_FILE_DATA",
+    "PMOVE_FILE_DATA structure pointer [Files]",
+    "_win32_move_file_data_str",
+    "base.move_file_data_str",
+    "fs.move_file_data_str",
+    "winioctl/MOVE_FILE_DATA",
+    "winioctl/PMOVE_FILE_DATA"
+  ],
+  "old-location": "fs\\move_file_data_str.htm",
+  "tech.root": "fs",
+  "ms.assetid": "08bbeabc-b589-41b2-b3f2-70b2390f11f0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PMOVE_FILE_DATA, MOVE_FILE_DATA, MOVE_FILE_DATA structure [Files], PMOVE_FILE_DATA, PMOVE_FILE_DATA structure pointer [Files], _win32_move_file_data_str, base.move_file_data_str, fs.move_file_data_str, winioctl/MOVE_FILE_DATA, winioctl/PMOVE_FILE_DATA",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MOVE_FILE_DATA, *PMOVE_FILE_DATA",
+  "req.redist": null,
+  "f1_keywords": [
+    "PMOVE_FILE_DATA",
+    "winioctl/PMOVE_FILE_DATA",
+    "MOVE_FILE_DATA",
+    "winioctl/MOVE_FILE_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "MOVE_FILE_DATA"
+  ]
+}

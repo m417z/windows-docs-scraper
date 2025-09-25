@@ -1,0 +1,38 @@
+{
+  "UID": "NE:storport._STOR_DEVICE_RESET_TYPE",
+  "title": "STOR_DEVICE_RESET_TYPE",
+  "description": "The STOR_DEVICE_RESET_TYPE enum specifies the type of device reset being requested in a call to StorPortHardwareReset.",
+  "tech.root": "storage",
+  "ms.date": "05/24/2022",
+  "ms.keywords": "STOR_DEVICE_RESET_TYPE, STOR_DEVICE_RESET_TYPE,",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "req.typenames": "STOR_DEVICE_RESET_TYPE",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_STOR_DEVICE_RESET_TYPE",
+    "storport/_STOR_DEVICE_RESET_TYPE",
+    "STOR_DEVICE_RESET_TYPE",
+    "storport/STOR_DEVICE_RESET_TYPE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_DEVICE_RESET_TYPE",
+    "STOR_DEVICE_RESET_TYPE"
+  ]
+}

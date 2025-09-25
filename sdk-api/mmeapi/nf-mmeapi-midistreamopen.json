@@ -1,0 +1,60 @@
+{
+  "UID": "NF:mmeapi.midiStreamOpen",
+  "title": "midiStreamOpen function (mmeapi.h)",
+  "description": "The midiStreamOpen function opens a MIDI stream for output. By default, the device is opened in paused mode. The stream handle retrieved by this function must be used in all subsequent references to the stream.",
+  "helpviewer_keywords": [
+    "_win32_midiStreamOpen",
+    "midiStreamOpen",
+    "midiStreamOpen function [Windows Multimedia]",
+    "mmeapi/midiStreamOpen",
+    "multimedia.midistreamopen"
+  ],
+  "old-location": "multimedia\\midistreamopen.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "355cf034-e1d7-4530-b117-4c505ad0aac6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_midiStreamOpen, midiStreamOpen, midiStreamOpen function [Windows Multimedia], mmeapi/midiStreamOpen, multimedia.midistreamopen",
+  "req.header": "mmeapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winmm.lib",
+  "req.dll": "Winmm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "midiStreamOpen",
+    "mmeapi/midiStreamOpen"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winmm.dll",
+    "API-MS-Win-mm-mme-l1-1-0.dll",
+    "winmmbase.dll"
+  ],
+  "api_name": [
+    "midiStreamOpen"
+  ]
+}

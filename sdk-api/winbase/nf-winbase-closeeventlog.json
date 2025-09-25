@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winbase.CloseEventLog",
+  "title": "CloseEventLog function (winbase.h)",
+  "description": "Closes the specified event log. (CloseEventLog)",
+  "helpviewer_keywords": [
+    "CloseEventLog",
+    "CloseEventLog function",
+    "_win32_closeeventlog",
+    "base.closeeventlog",
+    "winbase/CloseEventLog"
+  ],
+  "old-location": "base\\closeeventlog.htm",
+  "tech.root": "base",
+  "ms.assetid": "cb98a0cf-8ee9-4d78-8508-efae1d43a91d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CloseEventLog",
+    "winbase/CloseEventLog"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-eventlog-l1-1-2.dll",
+    "Advapi32.dll",
+    "Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll",
+    "Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll"
+  ],
+  "api_name": [
+    "CloseEventLog"
+  ],
+  "req.apiset": "ext-ms-win-advapi32-eventlog-l1-1-0 (introduced in Windows 8)"
+}

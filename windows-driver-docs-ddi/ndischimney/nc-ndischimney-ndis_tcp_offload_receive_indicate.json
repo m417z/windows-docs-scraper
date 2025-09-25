@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndischimney.NDIS_TCP_OFFLOAD_RECEIVE_INDICATE",
+  "title": "NDIS_TCP_OFFLOAD_RECEIVE_INDICATE (ndischimney.h)",
+  "description": "An offload target calls the NdisTcpOffloadReceiveHandler function to indicate that received network data is available for consumption by a client application.",
+  "old-location": "netvista\\ndistcpoffloadreceivehandler.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function"
+  ],
+  "ms.keywords": "NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_TCP_OFFLOAD_RECEIVE_INDICATE",
+    "ndischimney/NDIS_TCP_OFFLOAD_RECEIVE_INDICATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndischimney.h"
+  ],
+  "api_name": [
+    "NDIS_TCP_OFFLOAD_RECEIVE_INDICATE"
+  ]
+}

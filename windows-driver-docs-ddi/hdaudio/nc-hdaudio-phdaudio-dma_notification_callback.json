@@ -1,0 +1,45 @@
+{
+  "UID": "NC:hdaudio.PHDAUDIO_DMA_NOTIFICATION_CALLBACK",
+  "title": "PHDAUDIO_DMA_NOTIFICATION_CALLBACK",
+  "description": "HDAudio codec DMA Notification Callback function.",
+  "tech.root": "audio",
+  "ms.date": "07/27/2023",
+  "keywords": [
+    "PHDAUDIO_DMA_NOTIFICATION_CALLBACK callback function"
+  ],
+  "req.header": "hdaudio.h",
+  "req.include-header": "hdaudio.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "19H1",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DPC_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PHDAUDIO_DMA_NOTIFICATION_CALLBACK",
+    "hdaudio/PHDAUDIO_DMA_NOTIFICATION_CALLBACK"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PHDAUDIO_DMA_NOTIFICATION_CALLBACK"
+  ]
+}

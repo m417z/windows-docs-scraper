@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dsparse.DsMakeSpnA",
+  "title": "DsMakeSpnA function (dsparse.h)",
+  "description": "Constructs a service principal name (SPN) that identifies a service instance. (ANSI)",
+  "helpviewer_keywords": [
+    "DsMakeSpnA",
+    "dsparse/DsMakeSpnA"
+  ],
+  "old-location": "ad\\dsmakespn.htm",
+  "tech.root": "ad",
+  "ms.assetid": "fca3c59c-bb81-42a0-acd3-2e55c902febe",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW",
+  "req.header": "dsparse.h",
+  "req.include-header": "Ntdsapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsMakeSpnW (Unicode) and DsMakeSpnA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntdsapi.lib",
+  "req.dll": "Ntdsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsMakeSpnA",
+    "dsparse/DsMakeSpnA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdsapi.dll"
+  ],
+  "api_name": [
+    "DsMakeSpn",
+    "DsMakeSpnA",
+    "DsMakeSpnW"
+  ]
+}

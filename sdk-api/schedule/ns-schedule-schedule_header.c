@@ -1,0 +1,4 @@
+typedef struct _SCHEDULE_HEADER {
+  ULONG Type;
+  ULONG Offset;
+} SCHEDULE_HEADER, *PSCHEDULE_HEADER;

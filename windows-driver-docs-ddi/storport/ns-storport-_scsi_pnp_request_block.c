@@ -1,0 +1,21 @@
+typedef struct _SCSI_PNP_REQUEST_BLOCK {
+  USHORT                     Length;
+  UCHAR                      Function;
+  UCHAR                      SrbStatus;
+  UCHAR                      PnPSubFunction;
+  UCHAR                      PathId;
+  UCHAR                      TargetId;
+  UCHAR                      Lun;
+  STOR_PNP_ACTION            PnPAction;
+  ULONG                      SrbFlags;
+  ULONG                      DataTransferLength;
+  ULONG                      TimeOutValue;
+  PVOID                      DataBuffer;
+  PVOID                      SenseInfoBuffer;
+  struct _SCSI_REQUEST_BLOCK *NextSrb;
+  PVOID                      OriginalRequest;
+  PVOID                      SrbExtension;
+  ULONG                      SrbPnPFlags;
+  ULONG                      Reserved;
+  UCHAR                      Reserved4[16];
+} SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK;

@@ -1,0 +1,48 @@
+{
+  "UID": "NS:d3dumddi.D3DDDICB_CREATEPAGINGQUEUE",
+  "title": "D3DDDICB_CREATEPAGINGQUEUE (d3dumddi.h)",
+  "description": "D3DDDICB_CREATEPAGINGQUEUE is used with pfnCreatePagingQueueCb to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.",
+  "old-location": "display\\d3dddicb_createpagingqueue.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DDDICB_CREATEPAGINGQUEUE structure"
+  ],
+  "ms.keywords": "D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices], d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "D3DDDICB_CREATEPAGINGQUEUE",
+  "f1_keywords": [
+    "D3DDDICB_CREATEPAGINGQUEUE",
+    "d3dumddi/D3DDDICB_CREATEPAGINGQUEUE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "D3DDDICB_CREATEPAGINGQUEUE"
+  ]
+}

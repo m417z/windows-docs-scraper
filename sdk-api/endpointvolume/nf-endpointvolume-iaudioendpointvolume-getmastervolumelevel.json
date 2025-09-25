@@ -1,0 +1,64 @@
+{
+  "UID": "NF:endpointvolume.IAudioEndpointVolume.GetMasterVolumeLevel",
+  "title": "IAudioEndpointVolume::GetMasterVolumeLevel (endpointvolume.h)",
+  "description": "The GetMasterVolumeLevel method gets the master volume level, in decibels, of the audio stream that enters or leaves the audio endpoint device.",
+  "helpviewer_keywords": [
+    "GetMasterVolumeLevel",
+    "GetMasterVolumeLevel method [Core Audio]",
+    "GetMasterVolumeLevel method [Core Audio]",
+    "IAudioEndpointVolume interface",
+    "IAudioEndpointVolume interface [Core Audio]",
+    "GetMasterVolumeLevel method",
+    "IAudioEndpointVolume.GetMasterVolumeLevel",
+    "IAudioEndpointVolume::GetMasterVolumeLevel",
+    "IAudioEndpointVolumeGetMasterVolumeLevel",
+    "coreaudio.iaudioendpointvolume_getmastervolumelevel",
+    "endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevel"
+  ],
+  "old-location": "coreaudio\\iaudioendpointvolume_getmastervolumelevel.htm",
+  "tech.root": "CoreAudio",
+  "ms.assetid": "26e208e1-2291-4db6-857d-00b25d8fa343",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMasterVolumeLevel, GetMasterVolumeLevel method [Core Audio], GetMasterVolumeLevel method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMasterVolumeLevel method, IAudioEndpointVolume.GetMasterVolumeLevel, IAudioEndpointVolume::GetMasterVolumeLevel, IAudioEndpointVolumeGetMasterVolumeLevel, coreaudio.iaudioendpointvolume_getmastervolumelevel, endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevel",
+  "req.header": "endpointvolume.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAudioEndpointVolume::GetMasterVolumeLevel",
+    "endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Endpointvolume.h"
+  ],
+  "api_name": [
+    "IAudioEndpointVolume.GetMasterVolumeLevel"
+  ]
+}

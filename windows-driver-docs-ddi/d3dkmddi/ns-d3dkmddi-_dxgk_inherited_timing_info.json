@@ -1,0 +1,54 @@
+{
+  "UID": "NS:d3dkmddi._DXGK_INHERITED_TIMING_INFO",
+  "title": "_DXGK_INHERITED_TIMING_INFO (d3dkmddi.h)",
+  "description": "Structure passed to the driver in the pPrivateDriverData argument of DxgkDdiRecommendFunctionalVidPn, which the driver should use to describe the color space and wire format which cannot be described easily in the VidPn the DDI builds.",
+  "old-location": "display\\dxgk_inherited_timing_info.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGK_INHERITED_TIMING_INFO structure"
+  ],
+  "ms.keywords": "*PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], _DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": "DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO",
+  "f1_keywords": [
+    "_DXGK_INHERITED_TIMING_INFO",
+    "d3dkmddi/_DXGK_INHERITED_TIMING_INFO",
+    "PDXGK_INHERITED_TIMING_INFO",
+    "d3dkmddi/PDXGK_INHERITED_TIMING_INFO",
+    "DXGK_INHERITED_TIMING_INFO",
+    "d3dkmddi/DXGK_INHERITED_TIMING_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "_DXGK_INHERITED_TIMING_INFO",
+    "PDXGK_INHERITED_TIMING_INFO",
+    "DXGK_INHERITED_TIMING_INFO"
+  ]
+}

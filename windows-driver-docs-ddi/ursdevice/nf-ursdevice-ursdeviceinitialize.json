@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ursdevice.UrsDeviceInitialize",
+  "title": "UrsDeviceInitialize function (ursdevice.h)",
+  "description": "Initializes a framework device object to support operations related to a USB dual-role controller and registers the relevant event callback functions with the USB dual-role controller class extension.",
+  "old-location": "buses\\ursdeviceinitialize.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UrsDeviceInitialize function"
+  ],
+  "ms.keywords": "UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize",
+  "req.header": "ursdevice.h",
+  "req.include-header": "Urscx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Urscxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UrsDeviceInitialize",
+    "ursdevice/UrsDeviceInitialize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Urscxstub.lib",
+    "Urscxstub.dll"
+  ],
+  "api_name": [
+    "UrsDeviceInitialize"
+  ]
+}

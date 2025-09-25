@@ -1,0 +1,3 @@
+VOID AcxVolumeChangeLevelNotification(
+  ACXVOLUME Volume
+);

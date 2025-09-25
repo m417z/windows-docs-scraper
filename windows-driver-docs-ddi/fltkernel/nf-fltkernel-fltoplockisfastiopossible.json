@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltOplockIsFastIoPossible",
+  "title": "FltOplockIsFastIoPossible function (fltkernel.h)",
+  "description": "The FltOplockIsFastIoPossible routine checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file.",
+  "old-location": "ifsk\\fltoplockisfastiopossible.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltOplockIsFastIoPossible function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_d80a24fe-5ca7-43e6-8e6f-cb9414c427c3.xml, FltOplockIsFastIoPossible, FltOplockIsFastIoPossible routine [Installable File System Drivers], fltkernel/FltOplockIsFastIoPossible, ifsk.fltoplockisfastiopossible",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltOplockIsFastIoPossible",
+    "fltkernel/FltOplockIsFastIoPossible"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltOplockIsFastIoPossible"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "UID": "NS:storport._STOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+  "tech.root": "storage",
+  "title": "STOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+  "ms.date": "07/25/2024",
+  "targetos": "Windows",
+  "description": "Learn more about the STOR_DRIVER_PROXY_ENDPOINT_INFORMATION structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STOR_DRIVER_PROXY_ENDPOINT_INFORMATION, *PSTOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "PSTOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "STOR_DRIVER_PROXY_ENDPOINT_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_STOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "storport/_STOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "PSTOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "storport/PSTOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "STOR_DRIVER_PROXY_ENDPOINT_INFORMATION",
+    "storport/STOR_DRIVER_PROXY_ENDPOINT_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_STOR_DRIVER_PROXY_ENDPOINT_INFORMATION"
+  ]
+}

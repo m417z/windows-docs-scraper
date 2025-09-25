@@ -1,0 +1,3 @@
+HRESULT GetLineSpacing(
+  float *pValue
+);

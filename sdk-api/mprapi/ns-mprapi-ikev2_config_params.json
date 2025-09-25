@@ -1,0 +1,67 @@
+{
+  "UID": "NS:mprapi._IKEV2_CONFIG_PARAMS",
+  "title": "IKEV2_CONFIG_PARAMS (mprapi.h)",
+  "description": "Used to get or set parameters for Internet Key Exchange version 2 (IKEv2) devices (RFC 4306).",
+  "helpviewer_keywords": [
+    "*PIKEV2_CONFIG_PARAMS",
+    "IKEV2_CONFIG_PARAMS",
+    "IKEV2_CONFIG_PARAMS structure [RAS]",
+    "MPRAPI_IKEV2_SET_TUNNEL_CONFIG_PARAMS",
+    "MPR_ENABLE_RAS_ON_DEVICE",
+    "PIKEV2_CONFIG_PARAMS",
+    "PIKEV2_CONFIG_PARAMS structure pointer [RAS]",
+    "mprapi/IKEV2_CONFIG_PARAMS",
+    "mprapi/PIKEV2_CONFIG_PARAMS",
+    "rras.ikev2_config_params"
+  ],
+  "old-location": "rras\\ikev2_config_params.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "a494deb0-8f55-46cc-9ca0-a2097459de8b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PIKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS structure [RAS], MPRAPI_IKEV2_SET_TUNNEL_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, PIKEV2_CONFIG_PARAMS, PIKEV2_CONFIG_PARAMS structure pointer [RAS], mprapi/IKEV2_CONFIG_PARAMS, mprapi/PIKEV2_CONFIG_PARAMS, rras.ikev2_config_params",
+  "req.header": "mprapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IKEV2_CONFIG_PARAMS, *PIKEV2_CONFIG_PARAMS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_IKEV2_CONFIG_PARAMS",
+    "mprapi/_IKEV2_CONFIG_PARAMS",
+    "PIKEV2_CONFIG_PARAMS",
+    "mprapi/PIKEV2_CONFIG_PARAMS",
+    "IKEV2_CONFIG_PARAMS",
+    "mprapi/IKEV2_CONFIG_PARAMS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Mprapi.h"
+  ],
+  "api_name": [
+    "IKEV2_CONFIG_PARAMS"
+  ]
+}

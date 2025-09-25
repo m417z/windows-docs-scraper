@@ -1,0 +1,1 @@
+const ENHMETAHEADER3 * GetEmfHeader();

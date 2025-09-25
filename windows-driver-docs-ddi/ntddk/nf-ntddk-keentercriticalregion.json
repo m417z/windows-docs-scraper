@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.KeEnterCriticalRegion",
+  "title": "KeEnterCriticalRegion function (ntddk.h)",
+  "description": "The KeEnterCriticalRegion function (ntddk.h) temporarily disables the execution of normal kernel APCs, but does not prevent special kernel APCs from running.",
+  "old-location": "kernel\\keentercriticalregion.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeEnterCriticalRegion function"
+  ],
+  "ms.keywords": "KeEnterCriticalRegion, KeEnterCriticalRegion routine [Kernel-Mode Driver Architecture], k105_cfa63781-e7c6-455a-8e99-4b20872a0b3f.xml, kernel.keentercriticalregion, wdm/KeEnterCriticalRegion",
+  "req.header": "ntddk.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "CriticalRegions, IrqlKeApcLte2, WithinCriticalRegion, HwStorPortProhibitedDDIs, WithinCriticalRegion(storport)",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeEnterCriticalRegion",
+    "ntddk/KeEnterCriticalRegion"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeEnterCriticalRegion"
+  ]
+}

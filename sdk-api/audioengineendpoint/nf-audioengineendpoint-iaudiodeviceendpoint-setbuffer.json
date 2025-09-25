@@ -1,0 +1,63 @@
+{
+  "UID": "NF:audioengineendpoint.IAudioDeviceEndpoint.SetBuffer",
+  "title": "IAudioDeviceEndpoint::SetBuffer (audioengineendpoint.h)",
+  "description": "Initializes the endpoint and creates a buffer based on the format of the endpoint into which the audio data is streamed.",
+  "helpviewer_keywords": [
+    "IAudioDeviceEndpoint interface [Remote Desktop Services]",
+    "SetBuffer method",
+    "IAudioDeviceEndpoint.SetBuffer",
+    "IAudioDeviceEndpoint::SetBuffer",
+    "SetBuffer",
+    "SetBuffer method [Remote Desktop Services]",
+    "SetBuffer method [Remote Desktop Services]",
+    "IAudioDeviceEndpoint interface",
+    "audioengineendpoint/IAudioDeviceEndpoint::SetBuffer",
+    "termserv.iaudiodeviceendpoint_setbuffer"
+  ],
+  "old-location": "termserv\\iaudiodeviceendpoint_setbuffer.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "345a172b-11af-4c98-9f9c-54bfa38c5077",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IAudioDeviceEndpoint interface [Remote Desktop Services],SetBuffer method, IAudioDeviceEndpoint.SetBuffer, IAudioDeviceEndpoint::SetBuffer, SetBuffer, SetBuffer method [Remote Desktop Services], SetBuffer method [Remote Desktop Services],IAudioDeviceEndpoint interface, audioengineendpoint/IAudioDeviceEndpoint::SetBuffer, termserv.iaudiodeviceendpoint_setbuffer",
+  "req.header": "audioengineendpoint.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7",
+  "req.target-min-winversvr": "Windows Server 2008 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAudioDeviceEndpoint::SetBuffer",
+    "audioengineendpoint/IAudioDeviceEndpoint::SetBuffer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Audioengineendpoint.h"
+  ],
+  "api_name": [
+    "IAudioDeviceEndpoint.SetBuffer"
+  ]
+}

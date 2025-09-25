@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxcontx.RxSetMinirdrCancelRoutine",
+  "title": "RxSetMinirdrCancelRoutine function (rxcontx.h)",
+  "description": "RxSetMinirdrCancelRoutine is called by a network mini-redirector driver to set up a network mini-redirector cancel routine for an RX_CONTEXT structure.",
+  "old-location": "ifsk\\rxsetminirdrcancelroutine.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxSetMinirdrCancelRoutine function"
+  ],
+  "ms.keywords": "RxSetMinirdrCancelRoutine, RxSetMinirdrCancelRoutine routine [Installable File System Drivers], ifsk.rxsetminirdrcancelroutine, rxcontx/RxSetMinirdrCancelRoutine, rxref_5883f8a0-cc54-4efe-bb98-13239c78abff.xml",
+  "req.header": "rxcontx.h",
+  "req.include-header": "Mrx.h, Rxcontx.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxSetMinirdrCancelRoutine",
+    "rxcontx/RxSetMinirdrCancelRoutine"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxcontx.h"
+  ],
+  "api_name": [
+    "RxSetMinirdrCancelRoutine"
+  ]
+}

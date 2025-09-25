@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisIMCancelInitializeDeviceInstance",
+  "title": "NdisIMCancelInitializeDeviceInstance function (ndis.h)",
+  "description": "The NdisIMCancelInitializeDeviceInstance function cancels a preceding call to the NdisIMInitializeDeviceInstanceEx function.",
+  "old-location": "netvista\\ndisimcancelinitializedeviceinstance.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisIMCancelInitializeDeviceInstance function"
+  ],
+  "ms.keywords": "NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisIMCancelInitializeDeviceInstance (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers   (see       NdisIMCancelInitializeDeviceInstance (NDIS 5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_IM_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisIMCancelInitializeDeviceInstance",
+    "ndis/NdisIMCancelInitializeDeviceInstance"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisIMCancelInitializeDeviceInstance"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CertCreateCertificateChainEngine",
+  "title": "CertCreateCertificateChainEngine function (wincrypt.h)",
+  "description": "The CertCreateCertificateChainEngine function creates a new, nondefault chain engine for an application.",
+  "helpviewer_keywords": [
+    "CertCreateCertificateChainEngine",
+    "CertCreateCertificateChainEngine function [Security]",
+    "_crypto2_certcreatecertificatechainengine",
+    "security.certcreatecertificatechainengine",
+    "wincrypt/CertCreateCertificateChainEngine"
+  ],
+  "old-location": "security\\certcreatecertificatechainengine.htm",
+  "tech.root": "security",
+  "ms.assetid": "e173016a-d3d7-42e0-aad8-e738abaf1df9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertCreateCertificateChainEngine, CertCreateCertificateChainEngine function [Security], _crypto2_certcreatecertificatechainengine, security.certcreatecertificatechainengine, wincrypt/CertCreateCertificateChainEngine",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertCreateCertificateChainEngine",
+    "wincrypt/CertCreateCertificateChainEngine"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertCreateCertificateChainEngine"
+  ]
+}

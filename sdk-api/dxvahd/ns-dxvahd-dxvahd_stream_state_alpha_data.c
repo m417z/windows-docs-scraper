@@ -1,0 +1,4 @@
+typedef struct _DXVAHD_STREAM_STATE_ALPHA_DATA {
+  BOOL  Enable;
+  FLOAT Alpha;
+} DXVAHD_STREAM_STATE_ALPHA_DATA;

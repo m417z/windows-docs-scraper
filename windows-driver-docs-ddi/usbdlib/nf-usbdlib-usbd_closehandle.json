@@ -1,0 +1,49 @@
+{
+  "UID": "NF:usbdlib.USBD_CloseHandle",
+  "title": "USBD_CloseHandle function (usbdlib.h)",
+  "description": "The USBD_CloseHandle routine is called by a USB client driver to close a USBD handle and release all resources associated with the driver's registration.",
+  "old-location": "buses\\usbd_unregister.htm",
+  "tech.root": "usbref",
+  "ms.date": "06/24/2019",
+  "keywords": [
+    "USBD_CloseHandle function"
+  ],
+  "ms.keywords": "USBD_CloseHandle, USBD_CloseHandle routine [Buses], buses.usbd_unregister, usbdlib/USBD_CloseHandle",
+  "req.header": "usbdlib.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Requires DDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbdex.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBD_CloseHandle",
+    "usbdlib/USBD_CloseHandle"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Usbdex.lib",
+    "Usbdex.dll"
+  ],
+  "api_name": [
+    "USBD_CloseHandle"
+  ]
+}

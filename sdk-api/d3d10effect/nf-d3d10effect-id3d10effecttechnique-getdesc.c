@@ -1,0 +1,3 @@
+HRESULT GetDesc(
+  [in] D3D10_TECHNIQUE_DESC *pDesc
+);

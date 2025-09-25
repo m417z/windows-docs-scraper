@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wmsdkvalidate.WMValidateData",
+  "title": "WMValidateData function (wmsdkvalidate.h)",
+  "description": "The WMValidateData function verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK.",
+  "helpviewer_keywords": [
+    "WMValidateData",
+    "WMValidateData function [windows Media Format]",
+    "wmformat.wmvalidatedata",
+    "wmsdkvalidate/WMValidateData"
+  ],
+  "old-location": "wmformat\\wmvalidatedata.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "0bbe4ccc-a052-4bb9-ac6b-31d57ccf3bab",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "WMValidateData, WMValidateData function [windows Media Format], wmformat.wmvalidatedata, wmsdkvalidate/WMValidateData",
+  "req.header": "wmsdkvalidate.h",
+  "req.include-header": "Wmsdkidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib",
+  "req.dll": "Wmvcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WMValidateData",
+    "wmsdkvalidate/WMValidateData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wmvcore.dll"
+  ],
+  "api_name": [
+    "WMValidateData"
+  ]
+}

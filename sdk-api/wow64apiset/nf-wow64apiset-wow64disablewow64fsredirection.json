@@ -1,0 +1,66 @@
+{
+  "UID": "NF:wow64apiset.Wow64DisableWow64FsRedirection",
+  "title": "Wow64DisableWow64FsRedirection function (wow64apiset.h)",
+  "description": "Disables file system redirection for the calling thread. File system redirection is enabled by default.",
+  "helpviewer_keywords": [
+    "Wow64DisableWow64FsRedirection",
+    "Wow64DisableWow64FsRedirection function [Files]",
+    "base.wow64disablewow64fsredirection",
+    "fs.wow64disablewow64fsredirection",
+    "wow64apiset/Wow64DisableWow64FsRedirection"
+  ],
+  "old-location": "fs\\wow64disablewow64fsredirection.htm",
+  "tech.root": "fs",
+  "ms.assetid": "44bedfa3-5a92-4e78-9e38-8278a7efe9b7",
+  "ms.date": "04/14/2022",
+  "ms.keywords": "Wow64DisableWow64FsRedirection, Wow64DisableWow64FsRedirection function [Files], base.wow64disablewow64fsredirection, fs.wow64disablewow64fsredirection, wow64apiset/Wow64DisableWow64FsRedirection",
+  "req.header": "wow64apiset.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Wow64DisableWow64FsRedirection",
+    "wow64apiset/Wow64DisableWow64FsRedirection"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-wow64-l1-1-3.dll",
+    "api-ms-win-core-wow64-l1-1-2.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-misc-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Wow64-l1-1-0.dll",
+    "API-MS-Win-Core-Wow64-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "Wow64DisableWow64FsRedirection"
+  ]
+}

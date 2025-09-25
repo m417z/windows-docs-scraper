@@ -1,0 +1,67 @@
+{
+  "UID": "NS:windnsdef.DNS_WINSR_DATAW",
+  "title": "DNS_WINSR_DATAW (windnsdef.h)",
+  "description": "The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record. (Unicode)",
+  "helpviewer_keywords": [
+    "*PDNS_WINSR_DATA",
+    "*PDNS_WINSR_DATAW",
+    "DNS_WINSR_DATA",
+    "DNS_WINSR_DATA structure [DNS]",
+    "DNS_WINSR_DATAW",
+    "DNS_WINS_FLAG_LOCAL",
+    "DNS_WINS_FLAG_SCOPE",
+    "PDNS_WINSR_DATA",
+    "PDNS_WINSR_DATA structure pointer [DNS]",
+    "_dns_dns_winsr_data",
+    "dns.dns_winsr_data",
+    "windnsdef/DNS_WINSR_DATA",
+    "windnsdef/PDNS_WINSR_DATA"
+  ],
+  "old-location": "dns\\dns_winsr_data.htm",
+  "tech.root": "DNS",
+  "ms.assetid": "a7e79e30-905f-42a5-a4de-02d71adfe95e",
+  "ms.date": "01/15/2025",
+  "ms.keywords": "*PDNS_WINSR_DATA, *PDNS_WINSR_DATAW, DNS_WINSR_DATA, DNS_WINSR_DATA structure [DNS], DNS_WINSR_DATAW, DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINSR_DATA, PDNS_WINSR_DATA structure pointer [DNS], _dns_dns_winsr_data, dns.dns_winsr_data, windnsdef/DNS_WINSR_DATA, windnsdef/PDNS_WINSR_DATA",
+  "req.header": "windnsdef.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DNS_WINSR_DATAW, *PDNS_WINSR_DATAW",
+  "req.redist": null,
+  "f1_keywords": [
+    "PDNS_WINSR_DATAW",
+    "windnsdef/PDNS_WINSR_DATAW",
+    "DNS_WINSR_DATAW",
+    "windnsdef/DNS_WINSR_DATAW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windnsdef.h"
+  ],
+  "api_name": [
+    "DNS_WINSR_DATA"
+  ]
+}

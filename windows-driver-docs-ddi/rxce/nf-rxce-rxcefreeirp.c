@@ -1,0 +1,3 @@
+VOID RxCeFreeIrp(
+  PIRP pIrp
+);

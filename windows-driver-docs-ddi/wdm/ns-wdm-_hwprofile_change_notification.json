@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._HWPROFILE_CHANGE_NOTIFICATION",
+  "title": "_HWPROFILE_CHANGE_NOTIFICATION (wdm.h)",
+  "description": "The HWPROFILE_CHANGE_NOTIFICATION structure describes an event related to a hardware profile configuration change.",
+  "old-location": "kernel\\hwprofile_change_notification.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "HWPROFILE_CHANGE_NOTIFICATION structure"
+  ],
+  "ms.keywords": "*PHWPROFILE_CHANGE_NOTIFICATION, HWPROFILE_CHANGE_NOTIFICATION, HWPROFILE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], PHWPROFILE_CHANGE_NOTIFICATION, PHWPROFILE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _HWPROFILE_CHANGE_NOTIFICATION, kernel.hwprofile_change_notification, kstruct_b_2e8d0c69-abe9-49a9-96f6-fba3b0020ff8.xml, wdm/HWPROFILE_CHANGE_NOTIFICATION, wdm/PHWPROFILE_CHANGE_NOTIFICATION",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "HWPROFILE_CHANGE_NOTIFICATION, *PHWPROFILE_CHANGE_NOTIFICATION",
+  "f1_keywords": [
+    "_HWPROFILE_CHANGE_NOTIFICATION",
+    "wdm/_HWPROFILE_CHANGE_NOTIFICATION",
+    "PHWPROFILE_CHANGE_NOTIFICATION",
+    "wdm/PHWPROFILE_CHANGE_NOTIFICATION",
+    "HWPROFILE_CHANGE_NOTIFICATION",
+    "wdm/HWPROFILE_CHANGE_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_HWPROFILE_CHANGE_NOTIFICATION",
+    "PHWPROFILE_CHANGE_NOTIFICATION",
+    "HWPROFILE_CHANGE_NOTIFICATION"
+  ]
+}

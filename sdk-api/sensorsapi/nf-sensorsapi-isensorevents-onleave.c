@@ -1,0 +1,3 @@
+HRESULT OnLeave(
+  [in] REFSENSOR_ID ID
+);

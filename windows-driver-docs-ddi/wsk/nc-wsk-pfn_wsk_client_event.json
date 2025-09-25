@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wsk.PFN_WSK_CLIENT_EVENT",
+  "title": "PFN_WSK_CLIENT_EVENT (wsk.h)",
+  "description": "The WskClientEvent event callback function notifies a WSK application about events that are not specific to a particular socket.",
+  "old-location": "netvista\\wskclientevent.htm",
+  "tech.root": "netvista",
+  "ms.date": "12/29/2021",
+  "keywords": [
+    "PFN_WSK_CLIENT_EVENT callback function"
+  ],
+  "ms.keywords": "PFN_WSK_CLIENT_EVENT, PFN_WSK_CLIENT_EVENT callback, WskClientEvent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskclientevent, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_WSK_CLIENT_EVENT",
+    "wsk/PFN_WSK_CLIENT_EVENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wsk.h"
+  ],
+  "api_name": [
+    "PFN_WSK_CLIENT_EVENT"
+  ]
+}

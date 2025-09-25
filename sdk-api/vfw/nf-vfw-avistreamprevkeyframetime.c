@@ -1,0 +1,4 @@
+LONG AVIStreamPrevKeyFrameTime(
+     pavi,
+     t
+);

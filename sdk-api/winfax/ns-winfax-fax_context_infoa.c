@@ -1,0 +1,5 @@
+typedef struct _FAX_CONTEXT_INFOA {
+  DWORD SizeOfStruct;
+  HDC   hDC;
+  CHAR  ServerName[MAX_COMPUTERNAME_LENGTH + 1];
+} FAX_CONTEXT_INFOA, *PFAX_CONTEXT_INFOA;

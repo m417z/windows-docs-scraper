@@ -1,0 +1,3 @@
+typedef struct D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT {
+  BOOL SupportsDepthAsTextureWithLessEqualComparisonFilter;
+} D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT;

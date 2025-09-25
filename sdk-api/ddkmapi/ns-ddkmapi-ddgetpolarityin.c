@@ -1,0 +1,4 @@
+typedef struct _DDGETPOLARITYIN {
+  HANDLE hDirectDraw;
+  HANDLE hVideoPort;
+} DDGETPOLARITYIN, *LPDDGETPOLARITYIN;

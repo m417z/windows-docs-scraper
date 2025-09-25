@@ -1,0 +1,50 @@
+{
+  "UID": "NF:memoryapi.CreateFileMapping2",
+  "title": "CreateFileMapping2",
+  "description": "Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.",
+  "ms.date": "10/22/2020",
+  "tech.root": "base",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "memoryapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h, Memoryapi.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "onecore.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-memory-l1-1-9.dll",
+    "api-ms-win-core-memory-l1-1-8.dll",
+    "api-ms-win-core-memory-l1-1-7.dll",
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "CreateFileMapping2"
+  ],
+  "f1_keywords": [
+    "CreateFileMapping2",
+    "memoryapi/CreateFileMapping2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

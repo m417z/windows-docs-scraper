@@ -1,0 +1,38 @@
+# IUIAnimationTimer::SetTimerEventHandler
+
+## Description
+
+Specifies a timer event handler.
+
+## Parameters
+
+### `handler` [in, optional]
+
+A timer event handler. The specified object must implement the
+[IUIAnimationTimerEventHandler](https://learn.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimereventhandler) interface or be **NULL**. See Remarks.
+
+## Return value
+
+If the method succeeds, it returns S_OK. Otherwise, it returns an **HRESULT** error code. See [Windows Animation Error Codes](https://learn.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes) for a list of error codes.
+
+## Remarks
+
+Timing events include the [OnPreUpdate](https://learn.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimereventhandler-onpreupdate),
+[OnPostUpdate](https://learn.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimereventhandler-onpostupdate), and
+[OnRenderingTooSlow](https://learn.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimereventhandler-onrenderingtooslow) methods of the [IUIAnimationTimerEventHandler](https://learn.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimereventhandler) interface.
+
+Passing **NULL** for the *handler* parameter causes Windows Animation to release its reference to any handler object you passed in earlier. This technique can be essential for breaking reference cycles without having to call the [IUIAnimationManager::Shutdown](https://learn.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-shutdown) method.
+
+#### Examples
+
+For an example, see [Update the Animation Manager and Draw Frames](https://learn.microsoft.com/windows/desktop/UIAnimation/introducing-windows-animation-manager).
+
+## See also
+
+[IUIAnimationTimer](https://learn.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimer)
+
+[IUIAnimationTimer::SetFrameRateThreshold](https://learn.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-setframeratethreshold)
+
+[IUIAnimationTimer::SetTimerUpdateHandler](https://learn.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-settimerupdatehandler)
+
+[IUIAnimationTimerEventHandler](https://learn.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimereventhandler)

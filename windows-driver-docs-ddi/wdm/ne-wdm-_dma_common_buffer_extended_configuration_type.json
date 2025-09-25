@@ -1,0 +1,37 @@
+{
+  "UID": "NE:wdm._DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE",
+  "title": "DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE (wdm.h)",
+  "description": "Provides the types of optional configurations that can be provided when creating a common buffer from an MDL. The configuration values corresponding to the types are held in the DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION structure.",
+  "tech.root": "kernel",
+  "ms.date": "03/03/2023",
+  "keywords": [
+    "DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE enumeration"
+  ],
+  "f1_keywords": [
+    "wdm/DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE",
+    "DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE"
+  ],
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "req.typenames": "DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE, *PDMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE"
+  ],
+  "targetos": "Windows"
+}

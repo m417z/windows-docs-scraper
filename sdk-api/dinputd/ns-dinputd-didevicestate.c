@@ -1,0 +1,5 @@
+typedef struct DIDEVICESTATE {
+  DWORD dwSize;
+  DWORD dwState;
+  DWORD dwLoad;
+} DIDEVICESTATE, *LPDIDEVICESTATE;

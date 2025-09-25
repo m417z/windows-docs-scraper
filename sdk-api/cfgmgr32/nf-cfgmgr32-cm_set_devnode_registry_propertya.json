@@ -1,0 +1,54 @@
+{
+  "UID": "NF:cfgmgr32.CM_Set_DevNode_Registry_PropertyA",
+  "tech.root": "devinst",
+  "title": "CM_Set_DevNode_Registry_PropertyA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry. (ANSI)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "cfgmgr32.h",
+  "req.idl": null,
+  "req.include-header": "Cfgmgr32.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available starting with  Microsoft Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-config-l1-1-2.dll",
+    "Cfgmgr32.lib",
+    "Cfgmgr32.dll",
+    "API-Ms-Win-Devices-Config-L1-1-0.dll",
+    "API-Ms-Win-Devices-Config-L1-1-1.dll",
+    "CfgMgr32.dll"
+  ],
+  "api_name": [
+    "CM_Set_DevNode_Registry_PropertyA",
+    "CM_Set_DevNode_Registry_Property"
+  ],
+  "f1_keywords": [
+    "CM_Set_DevNode_Registry_PropertyA",
+    "cfgmgr32/CM_Set_DevNode_Registry_PropertyA",
+    "CM_Set_DevNode_Registry_Property",
+    "cfgmgr32/CM_Set_DevNode_Registry_Property"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

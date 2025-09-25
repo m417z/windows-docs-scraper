@@ -1,0 +1,6 @@
+typedef struct _FEATURE_DATA_PROFILE_LIST_EX {
+  UCHAR ProfileNumber[2];
+  UCHAR Current : 1;
+  UCHAR Reserved1 : 7;
+  UCHAR Reserved2;
+} FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX;

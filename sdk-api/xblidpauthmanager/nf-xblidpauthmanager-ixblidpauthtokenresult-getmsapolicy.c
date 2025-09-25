@@ -1,0 +1,3 @@
+HRESULT GetMsaPolicy(
+  LPWSTR *msaPolicy
+);

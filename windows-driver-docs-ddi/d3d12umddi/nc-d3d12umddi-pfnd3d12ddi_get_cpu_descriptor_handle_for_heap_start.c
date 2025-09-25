@@ -1,0 +1,7 @@
+PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START Pfnd3d12ddiGetCpuDescriptorHandleForHeapStart;
+
+D3D12DDI_CPU_DESCRIPTOR_HANDLE Pfnd3d12ddiGetCpuDescriptorHandleForHeapStart(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HDESCRIPTORHEAP unnamedParam2
+)
+{...}

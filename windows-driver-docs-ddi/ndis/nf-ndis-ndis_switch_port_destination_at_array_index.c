@@ -1,0 +1,4 @@
+void NDIS_SWITCH_PORT_DESTINATION_AT_ARRAY_INDEX(
+  _DestArray_,
+  _Index_
+);

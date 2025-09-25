@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTDestroyProtectedSession(
+  D3DKMT_DESTROYPROTECTEDSESSION *unnamedParam1
+);

@@ -1,0 +1,3 @@
+void DragFinish(
+  HDROP hDrop
+);

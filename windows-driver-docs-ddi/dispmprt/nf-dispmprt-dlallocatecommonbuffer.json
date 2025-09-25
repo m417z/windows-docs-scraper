@@ -1,0 +1,50 @@
+{
+  "UID": "NF:dispmprt.DlAllocateCommonBuffer",
+  "title": "DlAllocateCommonBuffer function",
+  "description": "Allocates and maps a logically contiguous region of memory that is simultaneously accessible both from the processor and from a device.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DlAllocateCommonBuffer function"
+  ],
+  "ms.keywords": "DlAllocateCommonBuffer",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DlAllocateCommonBuffer",
+    "dispmprt/DlAllocateCommonBuffer"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "DispLib.dll",
+    "DispLib.dll"
+  ],
+  "api_name": [
+    "DlAllocateCommonBuffer"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

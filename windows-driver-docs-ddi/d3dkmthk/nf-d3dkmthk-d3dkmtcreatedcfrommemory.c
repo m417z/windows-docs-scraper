@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateDCFromMemory(
+  D3DKMT_CREATEDCFROMMEMORY *unnamedParam1
+);

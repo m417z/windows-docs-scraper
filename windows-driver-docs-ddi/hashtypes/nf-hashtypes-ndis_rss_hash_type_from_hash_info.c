@@ -1,0 +1,3 @@
+void NDIS_RSS_HASH_TYPE_FROM_HASH_INFO(
+  _HashInfo
+);

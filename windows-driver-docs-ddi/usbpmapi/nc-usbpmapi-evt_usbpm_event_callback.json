@@ -1,0 +1,45 @@
+{
+  "UID": "NC:usbpmapi.EVT_USBPM_EVENT_CALLBACK",
+  "title": "EVT_USBPM_EVENT_CALLBACK (usbpmapi.h)",
+  "description": "Sends notifications about hub arrival/removal and connector state changes.",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "EVT_USBPM_EVENT_CALLBACK callback function"
+  ],
+  "tech.root": "usbref",
+  "req.header": "usbpmapi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.27,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "EVT_USBPM_EVENT_CALLBACK",
+    "usbpmapi/EVT_USBPM_EVENT_CALLBACK"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbpmapi.h"
+  ],
+  "api_name": [
+    "EVT_USBPM_EVENT_CALLBACK"
+  ]
+}

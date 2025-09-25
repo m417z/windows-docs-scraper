@@ -1,0 +1,3 @@
+void FNFCIGETOPENINFO(
+  [in] fn
+);

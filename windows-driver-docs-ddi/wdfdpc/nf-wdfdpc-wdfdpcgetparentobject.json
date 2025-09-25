@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfdpc.WdfDpcGetParentObject",
+  "title": "WdfDpcGetParentObject function (wdfdpc.h)",
+  "description": "The WdfDpcGetParentObject method returns the parent object of a specified DPC object.",
+  "old-location": "wdf\\wdfdpcgetparentobject.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDpcGetParentObject function"
+  ],
+  "ms.keywords": "DFDpcObjectRef_28be5a7f-4f65-4b9e-b9f4-80b754cc8ca3.xml, WdfDpcGetParentObject, WdfDpcGetParentObject method, kmdf.wdfdpcgetparentobject, wdf.wdfdpcgetparentobject, wdfdpc/WdfDpcGetParentObject",
+  "req.header": "wdfdpc.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDpcGetParentObject",
+    "wdfdpc/WdfDpcGetParentObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDpcGetParentObject"
+  ]
+}

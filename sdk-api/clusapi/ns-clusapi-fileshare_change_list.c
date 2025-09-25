@@ -1,0 +1,4 @@
+typedef struct _FILESHARE_CHANGE_LIST {
+  DWORD            NumEntries;
+  FILESHARE_CHANGE ChangeEntry[0];
+} FILESHARE_CHANGE_LIST, *PFILESHARE_CHANGE_LIST;

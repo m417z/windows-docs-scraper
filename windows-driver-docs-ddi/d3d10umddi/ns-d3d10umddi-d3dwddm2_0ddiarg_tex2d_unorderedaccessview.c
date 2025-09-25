@@ -1,0 +1,7 @@
+typedef struct D3DWDDM2_0DDIARG_TEX2D_UNORDEREDACCESSVIEW {
+  UINT MipSlice;
+  UINT FirstArraySlice;
+  UINT ArraySize;
+  UINT PlaneSlice;
+  UINT PlaneIndex;
+} D3DWDDM2_0DDIARG_TEX2D_UNORDEREDACCESSVIEW;

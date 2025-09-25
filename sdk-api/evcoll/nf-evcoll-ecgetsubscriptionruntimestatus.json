@@ -1,0 +1,58 @@
+{
+  "UID": "NF:evcoll.EcGetSubscriptionRunTimeStatus",
+  "title": "EcGetSubscriptionRunTimeStatus function (evcoll.h)",
+  "description": "Retrieves the run time status information for an event source of a subscription or the subscription itself.",
+  "helpviewer_keywords": [
+    "EcGetSubscriptionRunTimeStatus",
+    "EcGetSubscriptionRunTimeStatus function",
+    "evcoll/EcGetSubscriptionRunTimeStatus",
+    "wec.ecgetsubscriptionruntimestatus",
+    "wes.ecgetsubscriptionruntimestatus"
+  ],
+  "old-location": "wec\\ecgetsubscriptionruntimestatus.htm",
+  "tech.root": "WEC",
+  "ms.assetid": "17d9d264-5ae3-4e31-869c-ada0c6c5c53b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EcGetSubscriptionRunTimeStatus, EcGetSubscriptionRunTimeStatus function, evcoll/EcGetSubscriptionRunTimeStatus, wec.ecgetsubscriptionruntimestatus, wes.ecgetsubscriptionruntimestatus",
+  "req.header": "evcoll.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wecapi.lib",
+  "req.dll": "Wecapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EcGetSubscriptionRunTimeStatus",
+    "evcoll/EcGetSubscriptionRunTimeStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wecapi.dll"
+  ],
+  "api_name": [
+    "EcGetSubscriptionRunTimeStatus"
+  ]
+}

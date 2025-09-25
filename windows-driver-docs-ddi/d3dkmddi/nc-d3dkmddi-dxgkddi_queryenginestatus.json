@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_QUERYENGINESTATUS",
+  "title": "DXGKDDI_QUERYENGINESTATUS (d3dkmddi.h)",
+  "description": "The display port driver's GPU scheduler calls this function to determine the progress of a node within an active physical display adapter (engine).",
+  "old-location": "display\\dxgkddiqueryenginestatus.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_QUERYENGINESTATUS callback function"
+  ],
+  "ms.keywords": "DXGKDDI_QUERYENGINESTATUS, DXGKDDI_QUERYENGINESTATUS callback, DxgkDdiQueryEngineStatus, DxgkDdiQueryEngineStatus callback function [Display Devices], d3dkmddi/DxgkDdiQueryEngineStatus, display.dxgkddiqueryenginestatus",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_QUERYENGINESTATUS",
+    "d3dkmddi/DXGKDDI_QUERYENGINESTATUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_QUERYENGINESTATUS"
+  ]
+}

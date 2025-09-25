@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntddstor._BPIO_OUTPUT",
+  "tech.root": "storage",
+  "title": "BPIO_OUTPUT",
+  "ms.date": "07/08/2021",
+  "targetos": "Windows",
+  "description": "The BPIO_OUTPUT structure is used to return information about the BypassIO operation for the IOCTL_STORAGE_MANAGE_BYPASS_IO control code.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "BPIO_OUTPUT, *PBPIO_OUTPUT",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_BPIO_OUTPUT",
+    "PBPIO_OUTPUT",
+    "BPIO_OUTPUT"
+  ],
+  "f1_keywords": [
+    "_BPIO_OUTPUT",
+    "ntddstor/_BPIO_OUTPUT",
+    "PBPIO_OUTPUT",
+    "ntddstor/PBPIO_OUTPUT",
+    "BPIO_OUTPUT",
+    "ntddstor/BPIO_OUTPUT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:virtdisk.EnumerateVirtualDiskMetadata",
+  "title": "EnumerateVirtualDiskMetadata function (virtdisk.h)",
+  "description": "Enumerates the metadata associated with a virtual disk.",
+  "helpviewer_keywords": [
+    "EnumerateVirtualDiskMetadata",
+    "EnumerateVirtualDiskMetadata function [Virtual Storage]",
+    "virtdisk/EnumerateVirtualDiskMetadata",
+    "vstor.enumeratevirtualdiskmetadata"
+  ],
+  "old-location": "vstor\\enumeratevirtualdiskmetadata.htm",
+  "tech.root": "VStor",
+  "ms.assetid": "7817863a-38ca-4686-9d66-71700dba852f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumerateVirtualDiskMetadata, EnumerateVirtualDiskMetadata function [Virtual Storage], virtdisk/EnumerateVirtualDiskMetadata, vstor.enumeratevirtualdiskmetadata",
+  "req.header": "virtdisk.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VirtDisk.lib",
+  "req.dll": "VirtDisk.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnumerateVirtualDiskMetadata",
+    "virtdisk/EnumerateVirtualDiskMetadata"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "VirtDisk.dll"
+  ],
+  "api_name": [
+    "EnumerateVirtualDiskMetadata"
+  ]
+}

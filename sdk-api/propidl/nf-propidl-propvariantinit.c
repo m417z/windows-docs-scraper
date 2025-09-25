@@ -1,0 +1,3 @@
+void PropVariantInit(
+  [out] pvar
+);

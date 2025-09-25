@@ -1,0 +1,46 @@
+{
+  "UID": "NC:iddcx.PFN_IDDCXGETVERSION",
+  "title": "PFN_IDDCXGETVERSION",
+  "description": "PFN_IDDCXGETVERSION is a pointer to an OS callback function that gets the IddCx (Indirect Display Driver Class eXtension) version.",
+  "ms.date": "09/28/2020",
+  "tech.root": "display",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "iddcx.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "iddcx.h"
+  ],
+  "api_name": [
+    "PFN_IDDCXGETVERSION"
+  ],
+  "f1_keywords": [
+    "PFN_IDDCXGETVERSION",
+    "iddcx/PFN_IDDCXGETVERSION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

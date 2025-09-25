@@ -1,0 +1,4 @@
+typedef struct _DXGKARG_ISSUPPORTEDVIDPN {
+  IN D3DKMDT_HVIDPN hDesiredVidPn;
+  OUT BOOLEAN       IsVidPnSupported;
+} DXGKARG_ISSUPPORTEDVIDPN;

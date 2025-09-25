@@ -1,0 +1,6 @@
+typedef struct D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2 {
+  [in] HANDLE        hContext;
+  [in] UINT          ObjectCount;
+       D3DKMT_HANDLE ObjectHandleArray[D3DDDI_MAX_OBJECT_WAITED_ON];
+  [in] UINT64        FenceValue;
+} D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2;

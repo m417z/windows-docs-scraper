@@ -1,0 +1,46 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_DESTROYPHYSICALMEMORYOBJECT",
+  "tech.root": "display",
+  "title": "DXGKCB_DESTROYPHYSICALMEMORYOBJECT",
+  "ms.date": "06/24/2022",
+  "targetos": "Windows",
+  "description": "The DxgkCbDestroyPhysicalMemoryObject callback function destroys physical memory for the driver.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "d3dkmddi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022 (WDDM 2.9)",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_DESTROYPHYSICALMEMORYOBJECT"
+  ],
+  "f1_keywords": [
+    "DXGKCB_DESTROYPHYSICALMEMORYOBJECT",
+    "d3dkmddi/DXGKCB_DESTROYPHYSICALMEMORYOBJECT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

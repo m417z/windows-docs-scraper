@@ -1,0 +1,7 @@
+DXGKCB_MAPCONTEXTALLOCATION DxgkcbMapcontextallocation;
+
+D3DGPU_VIRTUAL_ADDRESS DxgkcbMapcontextallocation(
+  [in] IN_CONST_HANDLE hAdapter,
+  [in] IN_CONST_PDXGKARGCB_MAPCONTEXTALLOCATION pArgs
+)
+{...}

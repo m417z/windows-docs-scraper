@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.PO_FX_DEVICE_POWER_REQUIRED_CALLBACK",
+  "title": "PO_FX_DEVICE_POWER_REQUIRED_CALLBACK (wdm.h)",
+  "description": "The DevicePowerRequiredCallback callback routine notifies the device driver that the device must enter and remain in the D0 power state.",
+  "tech.root": "kernel",
+  "ms.date": "01/10/2023",
+  "keywords": [
+    "PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function"
+  ],
+  "ms.keywords": "DevicePowerRequiredCallback, DevicePowerRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_REQUIRED_CALLBACK, kernel.devicepowerrequiredcallback, wdm/DevicePowerRequiredCallback",
+  "req.header": "wdm.h",
+  "req.include-header": "Wudfwdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PO_FX_DEVICE_POWER_REQUIRED_CALLBACK",
+    "wdm/PO_FX_DEVICE_POWER_REQUIRED_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PO_FX_DEVICE_POWER_REQUIRED_CALLBACK"
+  ]
+}

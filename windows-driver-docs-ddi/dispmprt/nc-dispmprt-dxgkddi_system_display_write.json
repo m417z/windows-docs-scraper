@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_SYSTEM_DISPLAY_WRITE",
+  "title": "DXGKDDI_SYSTEM_DISPLAY_WRITE (dispmprt.h)",
+  "description": "Called by the operating system to request the display miniport driver to write an image block to the display device.",
+  "old-location": "display\\dxgkddisystemdisplaywrite.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_SYSTEM_DISPLAY_WRITE callback function"
+  ],
+  "ms.keywords": "DXGKDDI_SYSTEM_DISPLAY_WRITE, DXGKDDI_SYSTEM_DISPLAY_WRITE callback, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_SYSTEM_DISPLAY_WRITE",
+    "dispmprt/DXGKDDI_SYSTEM_DISPLAY_WRITE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_SYSTEM_DISPLAY_WRITE"
+  ]
+}

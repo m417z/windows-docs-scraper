@@ -1,0 +1,48 @@
+{
+  "UID": "NF:hidsdi.HidD_SetOutputReport",
+  "title": "HidD_SetOutputReport function (hidsdi.h)",
+  "description": "The HidD_SetOutputReport routine sends an output report to a top-level collection.",
+  "old-location": "hid\\hidd_setoutputreport.htm",
+  "tech.root": "hid",
+  "ms.date": "04/28/2022",
+  "keywords": [
+    "HidD_SetOutputReport function"
+  ],
+  "ms.keywords": "HidD_SetOutputReport, HidD_SetOutputReport routine [Human Input Devices], hid.hidd_setoutputreport, hidfunc_eb711fe9-fdf1-4757-90c1-6c4e115f3805.xml, hidsdi/HidD_SetOutputReport",
+  "req.header": "hidsdi.h",
+  "req.include-header": "Hidsdi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hid.lib",
+  "req.dll": "Hid.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidD_SetOutputReport",
+    "hidsdi/HidD_SetOutputReport"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hid.dll"
+  ],
+  "api_name": [
+    "HidD_SetOutputReport"
+  ]
+}

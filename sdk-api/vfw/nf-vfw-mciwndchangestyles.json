@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndChangeStyles",
+  "title": "MCIWndChangeStyles macro (vfw.h)",
+  "description": "The MCIWndChangeStyles macro changes the styles used by the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_CHANGESTYLES message.",
+  "helpviewer_keywords": [
+    "MCIWndChangeStyles",
+    "MCIWndChangeStyles macro [Windows Multimedia]",
+    "_win32_MCIWndChangeStyles",
+    "multimedia.mciwndchangestyles",
+    "vfw/MCIWndChangeStyles"
+  ],
+  "old-location": "multimedia\\mciwndchangestyles.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "d87da0b0-4217-421d-a9d5-03602fb2b477",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndChangeStyles, MCIWndChangeStyles macro [Windows Multimedia], _win32_MCIWndChangeStyles, multimedia.mciwndchangestyles, vfw/MCIWndChangeStyles",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndChangeStyles",
+    "vfw/MCIWndChangeStyles"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndChangeStyles"
+  ]
+}

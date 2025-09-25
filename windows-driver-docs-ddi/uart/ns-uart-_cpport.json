@@ -1,0 +1,47 @@
+{
+  "UID": "NS:uart._CPPORT",
+  "title": "_CPPORT (uart.h)",
+  "description": "Contains the mutable runtime state of a specific instance of a UART device.",
+  "tech.root": "uart",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "CPPORT structure"
+  ],
+  "ms.keywords": "_CPPORT, CPPORT, *PCPPORT,",
+  "req.header": "uart.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "CPPORT, *PCPPORT",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_CPPORT",
+    "uart/_CPPORT",
+    "PCPPORT",
+    "uart/PCPPORT",
+    "CPPORT",
+    "uart/CPPORT"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "uart.h"
+  ],
+  "api_name": [
+    "_CPPORT",
+    "PCPPORT",
+    "CPPORT"
+  ]
+}

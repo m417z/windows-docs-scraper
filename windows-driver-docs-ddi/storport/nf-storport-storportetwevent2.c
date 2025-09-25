@@ -1,0 +1,14 @@
+ULONG StorPortEtwEvent2(
+  [in]          PVOID                                                        HwDeviceExtension,
+  [in/optional] PSTOR_ADDRESS                                                Address,
+  [in]          ULONG                                                        EventId,
+  [in]          PWSTR                                                        EventDescription,
+  [in]          ULONGLONG                                                    EventKeywords,
+  [in]          STORPORT_ETW_LEVEL                                           EventLevel,
+  [in]          STORPORT_ETW_EVENT_OPCODE                                    EventOpcode,
+  [in/optional] PSCSI_REQUEST_BLOCK                                          Srb,
+  [in/optional] _In_reads_or_z_opt_(STORPORT_ETW_MAX_PARAM_NAME_LENGTH)PWSTR Parameter1Name,
+  [in]          ULONGLONG                                                    Parameter1Value,
+  [in/optional] _In_reads_or_z_opt_(STORPORT_ETW_MAX_PARAM_NAME_LENGTH)PWSTR Parameter2Name,
+  [in]          ULONGLONG                                                    Parameter2Value
+);

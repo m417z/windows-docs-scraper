@@ -1,0 +1,48 @@
+{
+  "UID": "NC:usbcamdi.PCAM_STATE_ROUTINE",
+  "title": "PCAM_STATE_ROUTINE (usbcamdi.h)",
+  "description": "A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state.",
+  "old-location": "stream\\camrestorestate.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PCAM_STATE_ROUTINE callback function"
+  ],
+  "ms.keywords": "CamRestoreState, CamSaveState, MyCamState, MyCamState callback function [Streaming Media Devices], PCAM_STATE_ROUTINE, PCAM_STATE_ROUTINE callback, stream.camrestorestate, usbcamdi/MyCamState, usbcmdpr_74c8ba54-9be6-4512-a498-b49635db1760.xml",
+  "req.header": "usbcamdi.h",
+  "req.include-header": "Usbcamdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available on Windows operating system versions prior to Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCAM_STATE_ROUTINE",
+    "usbcamdi/PCAM_STATE_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbcamdi.h"
+  ],
+  "api_name": [
+    "PCAM_STATE_ROUTINE"
+  ]
+}

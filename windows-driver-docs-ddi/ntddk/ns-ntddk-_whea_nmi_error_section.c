@@ -1,0 +1,4 @@
+typedef struct _WHEA_NMI_ERROR_SECTION {
+  UCHAR                        Data[8];
+  WHEA_NMI_ERROR_SECTION_FLAGS Flags;
+} WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION;

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IPin.QueryDirection",
+  "title": "IPin::QueryDirection (strmif.h)",
+  "description": "The QueryDirection method gets the direction of the pin (input or output).",
+  "helpviewer_keywords": [
+    "IPin interface [DirectShow]",
+    "QueryDirection method",
+    "IPin.QueryDirection",
+    "IPin::QueryDirection",
+    "IPinQueryDirection",
+    "QueryDirection",
+    "QueryDirection method [DirectShow]",
+    "QueryDirection method [DirectShow]",
+    "IPin interface",
+    "dshow.ipin_querydirection",
+    "strmif/IPin::QueryDirection"
+  ],
+  "old-location": "dshow\\ipin_querydirection.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "cc36b5d6-bcca-403d-b840-ceabbf159f5d",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IPin interface [DirectShow],QueryDirection method, IPin.QueryDirection, IPin::QueryDirection, IPinQueryDirection, QueryDirection, QueryDirection method [DirectShow], QueryDirection method [DirectShow],IPin interface, dshow.ipin_querydirection, strmif/IPin::QueryDirection",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPin::QueryDirection",
+    "strmif/IPin::QueryDirection"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IPin.QueryDirection"
+  ]
+}

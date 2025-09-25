@@ -1,0 +1,4 @@
+typedef struct _CERT_POLICY_QUALIFIER_INFO {
+  LPSTR            pszPolicyQualifierId;
+  CRYPT_OBJID_BLOB Qualifier;
+} CERT_POLICY_QUALIFIER_INFO, *PCERT_POLICY_QUALIFIER_INFO;

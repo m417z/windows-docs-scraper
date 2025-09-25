@@ -1,0 +1,3 @@
+typedef union _NET_EUI48_ADDRESS {
+  UINT8 Value[6];
+} NET_EUI48_ADDRESS;

@@ -1,0 +1,50 @@
+{
+  "UID": "NF:netadapter.NetAdapterLightweightInitAllocate",
+  "tech.root": "netvista",
+  "title": "NetAdapterLightweightInitAllocate",
+  "ms.date": "03/22/2022",
+  "targetos": "Windows",
+  "description": "The NetAdapterLightweightInitAllocate function allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object for a deviceless adapter.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "netadapter.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": 2.33,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netadapter.h"
+  ],
+  "api_name": [
+    "NetAdapterLightweightInitAllocate"
+  ],
+  "f1_keywords": [
+    "NetAdapterLightweightInitAllocate",
+    "netadapter/NetAdapterLightweightInitAllocate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NetAdapterLightweightInitAllocate"
+  ]
+}

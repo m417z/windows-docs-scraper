@@ -1,0 +1,3 @@
+VOID EntropyPoolTriggerReseedForIum(
+  BOOLEAN fPerformCallbacks
+);

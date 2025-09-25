@@ -1,0 +1,20 @@
+typedef struct _WTSUSERCONFIGA {
+  DWORD Source;
+  DWORD InheritInitialProgram;
+  DWORD AllowLogonTerminalServer;
+  DWORD TimeoutSettingsConnections;
+  DWORD TimeoutSettingsDisconnections;
+  DWORD TimeoutSettingsIdle;
+  DWORD DeviceClientDrives;
+  DWORD DeviceClientPrinters;
+  DWORD ClientDefaultPrinter;
+  DWORD BrokenTimeoutSettings;
+  DWORD ReconnectSettings;
+  DWORD ShadowingSettings;
+  DWORD TerminalServerRemoteHomeDir;
+  CHAR  InitialProgram[MAX_PATH + 1];
+  CHAR  WorkDirectory[MAX_PATH + 1];
+  CHAR  TerminalServerProfilePath[MAX_PATH + 1];
+  CHAR  TerminalServerHomeDir[MAX_PATH + 1];
+  CHAR  TerminalServerHomeDirDrive[WTS_DRIVE_LENGTH + 1];
+} WTSUSERCONFIGA, *PWTSUSERCONFIGA;

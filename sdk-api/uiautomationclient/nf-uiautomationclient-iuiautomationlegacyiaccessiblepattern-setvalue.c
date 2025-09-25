@@ -1,0 +1,3 @@
+HRESULT SetValue(
+  LPCWSTR szValue
+);

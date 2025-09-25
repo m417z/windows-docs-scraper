@@ -1,0 +1,4 @@
+typedef struct _WWAN_IPV6_ADDRESS {
+  ULONG OnLinkPrefixLength;
+  UCHAR IPV6Address[16];
+} WWAN_IPV6_ADDRESS, *PWWAN_IPV6_ADDRESS;

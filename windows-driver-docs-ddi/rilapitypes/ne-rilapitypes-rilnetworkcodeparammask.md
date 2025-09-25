@@ -1,0 +1,34 @@
+# RILNETWORKCODEPARAMMASK enumeration (rilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_PARAM_NETWORKCODE_EXECUTOR`
+
+### `RIL_PARAM_NETWORKCODE_MCC`
+
+### `RIL_PARAM_NETWORKCODE_MNC`
+
+### `RIL_PARAM_NETWORKCODE_SID`
+
+### `RIL_PARAM_NETWORKCODE_NID`
+
+### `RIL_PARAM_NETWORKCODE_RI`
+
+### `RIL_PARAM_NETWORKCODE_ALL`
+
+## Syntax
+
+```cpp
+typedef enum _RILNETWORKCODEPARAMMASK {
+  RIL_PARAM_NETWORKCODE_MCC,
+  RIL_PARAM_NETWORKCODE_MNC,
+  RIL_PARAM_NETWORKCODE_SID,
+  RIL_PARAM_NETWORKCODE_NID,
+  RIL_PARAM_NETWORKCODE_RI,
+  RIL_PARAM_NETWORKCODE_ALL
+} RILNETWORKCODEPARAMMASK;
+```

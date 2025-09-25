@@ -1,0 +1,6 @@
+typedef struct _WIM_PROVIDER_EXTERNAL_INFO {
+  ULONG         Version;
+  ULONG         Flags;
+  LARGE_INTEGER DataSourceId;
+  UCHAR         ResourceHash[WIM_PROVIDER_HASH_SIZE];
+} WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO;

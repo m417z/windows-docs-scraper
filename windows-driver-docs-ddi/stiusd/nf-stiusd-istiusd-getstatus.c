@@ -1,0 +1,3 @@
+HRESULT GetStatus(
+  PSTI_DEVICE_STATUS pDevStatus
+);

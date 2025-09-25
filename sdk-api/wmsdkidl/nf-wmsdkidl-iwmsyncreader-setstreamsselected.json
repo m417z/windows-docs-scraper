@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMSyncReader.SetStreamsSelected",
+  "title": "IWMSyncReader::SetStreamsSelected (wmsdkidl.h)",
+  "description": "The SetStreamsSelected method configures the samples to be delivered from a list of streams. Each stream can be set to deliver all samples, no samples, or only cleanpoint samples.",
+  "helpviewer_keywords": [
+    "IWMSyncReader interface [windows Media Format]",
+    "SetStreamsSelected method",
+    "IWMSyncReader.SetStreamsSelected",
+    "IWMSyncReader::SetStreamsSelected",
+    "IWMSyncReaderSetStreamsSelected",
+    "SetStreamsSelected",
+    "SetStreamsSelected method [windows Media Format]",
+    "SetStreamsSelected method [windows Media Format]",
+    "IWMSyncReader interface",
+    "wmformat.iwmsyncreader_setstreamsselected",
+    "wmsdkidl/IWMSyncReader::SetStreamsSelected"
+  ],
+  "old-location": "wmformat\\iwmsyncreader_setstreamsselected.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "d62a61cb-3b5a-4ce8-9677-92e280449d26",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMSyncReader interface [windows Media Format],SetStreamsSelected method, IWMSyncReader.SetStreamsSelected, IWMSyncReader::SetStreamsSelected, IWMSyncReaderSetStreamsSelected, SetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setstreamsselected, wmsdkidl/IWMSyncReader::SetStreamsSelected",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMSyncReader::SetStreamsSelected",
+    "wmsdkidl/IWMSyncReader::SetStreamsSelected"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMSyncReader.SetStreamsSelected"
+  ]
+}

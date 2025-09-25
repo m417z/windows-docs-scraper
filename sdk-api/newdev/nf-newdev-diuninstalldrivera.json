@@ -1,0 +1,50 @@
+{
+  "UID": "NF:newdev.DiUninstallDriverA",
+  "tech.root": "devinst",
+  "title": "DiUninstallDriverA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store. (ANSI)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "newdev.h",
+  "req.idl": null,
+  "req.include-header": "Newdev.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Newdev.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available in Windows 10 Version 1703 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Desktop",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Newdev.lib",
+    "Newdev.dll"
+  ],
+  "api_name": [
+    "DiUninstallDriverA",
+    "DiUninstallDriver"
+  ],
+  "f1_keywords": [
+    "DiUninstallDriverA",
+    "newdev/DiUninstallDriverA",
+    "DiUninstallDriver",
+    "newdev/DiUninstallDriver"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct {
+  LIST_ENTRY     Link;
+  MSP_EVENT_INFO MSPEventInfo;
+} MSPEVENTITEM, *PMSPEVENTITEM;

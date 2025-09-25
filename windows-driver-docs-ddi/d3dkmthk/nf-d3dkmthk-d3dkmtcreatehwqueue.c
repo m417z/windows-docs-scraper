@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateHwQueue(
+  D3DKMT_CREATEHWQUEUE *unnamedParam1
+);

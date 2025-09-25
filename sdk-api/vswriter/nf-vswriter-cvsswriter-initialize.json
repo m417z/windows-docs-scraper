@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vswriter.CVssWriter.Initialize",
+  "title": "CVssWriter::Initialize (vswriter.h)",
+  "description": "Initializes a CVssWriter object and allows a writer application to interact with VSS.",
+  "helpviewer_keywords": [
+    "CVssWriter interface [VSS]",
+    "Initialize method",
+    "CVssWriter.Initialize",
+    "CVssWriter::Initialize",
+    "Initialize",
+    "Initialize method [VSS]",
+    "Initialize method [VSS]",
+    "CVssWriter interface",
+    "_win32_cvsswriter_initialize",
+    "base.cvsswriter_initialize",
+    "vswriter/CVssWriter::Initialize"
+  ],
+  "old-location": "base\\cvsswriter_initialize.htm",
+  "tech.root": "base",
+  "ms.assetid": "a427ebbd-b7c4-46ba-ba16-dd601b1f956e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CVssWriter interface [VSS],Initialize method, CVssWriter.Initialize, CVssWriter::Initialize, Initialize, Initialize method [VSS], Initialize method [VSS],CVssWriter interface, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize",
+  "req.header": "vswriter.h",
+  "req.include-header": "Vss.h, VsWriter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VssApi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CVssWriter::Initialize",
+    "vswriter/CVssWriter::Initialize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VssApi.lib",
+    "VssApi.dll"
+  ],
+  "api_name": [
+    "CVssWriter.Initialize"
+  ]
+}

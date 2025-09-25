@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltCompareInstanceAltitudes",
+  "title": "FltCompareInstanceAltitudes function (fltkernel.h)",
+  "description": "FltCompareInstanceAltitudes compares the altitudes of two minifilter driver instances.",
+  "old-location": "ifsk\\fltcompareinstancealtitudes.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltCompareInstanceAltitudes function"
+  ],
+  "ms.keywords": "FltApiRef_a_to_d_5f6cccb8-671c-495a-9c18-c262d4845105.xml, FltCompareInstanceAltitudes, FltCompareInstanceAltitudes function [Installable File System Drivers], fltkernel/FltCompareInstanceAltitudes, ifsk.fltcompareinstancealtitudes",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltCompareInstanceAltitudes",
+    "fltkernel/FltCompareInstanceAltitudes"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "FltMgr.lib",
+    "FltMgr.dll"
+  ],
+  "api_name": [
+    "FltCompareInstanceAltitudes"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct _ACX_KEYWORDSPOTTER_CALLBACKS {
+  ULONG                                  Size;
+  PFN_ACX_KEYWORDSPOTTER_RETRIEVE_ARM    EvtAcxKeywordSpotterRetrieveArm;
+  PFN_ACX_KEYWORDSPOTTER_ASSIGN_ARM      EvtAcxKeywordSpotterAssignArm;
+  PFN_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS EvtAcxKeywordSpotterAssignPatterns;
+  PFN_ACX_KEYWORDSPOTTER_ASSIGN_RESET    EvtAcxKeywordSpotterAssignReset;
+} ACX_KEYWORDSPOTTER_CALLBACKS, *PACX_KEYWORDSPOTTER_CALLBACKS;

@@ -1,0 +1,25 @@
+## Description
+
+This topic describes the **KSPROPERTY_BDA_CA_EVENT** enumeration.
+
+## Constants
+
+### `KSEVENT_BDA_PROGRAM_FLOW_STATUS_CHANGED`
+
+Defines the **KSEVENT_BDA_PROGRAM_FLOW_STATUS_CHANGED** constant.
+
+### `KSEVENT_BDA_CA_MODULE_STATUS_CHANGED`
+
+Defines the **KSEVENT_BDA_CA_MODULE_STATUS_CHANGED** constant.
+
+### `KSEVENT_BDA_CA_SMART_CARD_STATUS_CHANGED`
+
+Defines the **KSEVENT_BDA_CA_SMART_CARD_STATUS_CHANGED** constant.
+
+### `KSEVENT_BDA_CA_MODULE_UI_REQUESTED`
+
+Defines the **KSEVENT_BDA_CA_MODULE_UI_REQUESTED** constant.
+
+## Remarks
+
+## See also

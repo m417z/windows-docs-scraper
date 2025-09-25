@@ -1,0 +1,6 @@
+typedef struct D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT {
+  BOOL        Enable;
+  UINT        Width;
+  UINT        Height;
+  DXGI_FORMAT Format;
+} D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT;

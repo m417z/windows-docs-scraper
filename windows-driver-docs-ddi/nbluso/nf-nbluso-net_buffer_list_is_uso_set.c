@@ -1,0 +1,3 @@
+BOOLEAN NET_BUFFER_LIST_IS_USO_SET(
+  [in] NET_BUFFER_LIST const *Nbl
+);

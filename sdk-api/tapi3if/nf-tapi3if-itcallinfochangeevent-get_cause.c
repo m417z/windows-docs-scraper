@@ -1,0 +1,3 @@
+HRESULT get_Cause(
+  [out] CALLINFOCHANGE_CAUSE *pCIC
+);

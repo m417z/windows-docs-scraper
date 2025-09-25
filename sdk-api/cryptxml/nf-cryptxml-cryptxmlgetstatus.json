@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cryptxml.CryptXmlGetStatus",
+  "title": "CryptXmlGetStatus function (cryptxml.h)",
+  "description": "Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.",
+  "helpviewer_keywords": [
+    "CryptXmlGetStatus",
+    "CryptXmlGetStatus function [Security]",
+    "cryptxml/CryptXmlGetStatus",
+    "security.cryptxmlgetstatus"
+  ],
+  "old-location": "security\\cryptxmlgetstatus.htm",
+  "tech.root": "security",
+  "ms.assetid": "685a87dc-36e9-464a-988e-de907d2dae41",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus",
+  "req.header": "cryptxml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cryptxml.lib",
+  "req.dll": "Cryptxml.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptXmlGetStatus",
+    "cryptxml/CryptXmlGetStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Cryptxml.dll"
+  ],
+  "api_name": [
+    "CryptXmlGetStatus"
+  ]
+}

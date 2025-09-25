@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfdmatransaction.WdfDmaTransactionSetDeviceAddressOffset",
+  "title": "WdfDmaTransactionSetDeviceAddressOffset function (wdfdmatransaction.h)",
+  "description": "The WdfDmaTransactionSetDeviceAddressOffset method specifies the offset of the register that the system DMA controller will access when performing the DMA operation.",
+  "old-location": "wdf\\wdfdmatransactionsetdeviceaddressoffset.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDmaTransactionSetDeviceAddressOffset function"
+  ],
+  "ms.keywords": "WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset",
+  "req.header": "wdfdmatransaction.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDmaTransactionSetDeviceAddressOffset",
+    "wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDmaTransactionSetDeviceAddressOffset"
+  ]
+}

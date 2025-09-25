@@ -1,0 +1,3 @@
+HRESULT SetOpacity(
+  float opacity
+);

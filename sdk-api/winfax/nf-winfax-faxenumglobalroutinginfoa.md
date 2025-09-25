@@ -1,0 +1,66 @@
+# FaxEnumGlobalRoutingInfoA function
+
+## Description
+
+The **FaxEnumGlobalRoutingInfo** function enumerates all fax routing methods associated with a specific fax server. The function returns to the fax client application fax routing method information that applies globally to the server, such as routing priority.
+
+## Parameters
+
+### `FaxHandle` [in]
+
+Type: **HANDLE**
+
+Specifies a fax server handle returned by a call to the [FaxConnectFaxServer](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera) function.
+
+### `RoutingInfo` [out]
+
+Type: **PFAX_GLOBAL_ROUTING_INFO***
+
+Pointer to the address of a buffer to receive an array of [FAX_GLOBAL_ROUTING_INFO](https://learn.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa) structures. Each structure contains information about one fax routing method, as it pertains to the entire fax service. The data includes, among other items, the priority for the fax routing method, and the name of the DLL that exports the routing method. It also includes the GUID and function name that identify the routing method, and the method's user-friendly name. For information about memory allocation, see the following Remarks section.
+
+### `MethodsReturned` [out]
+
+Type: **LPDWORD**
+
+Pointer to a DWORD variable to receive the number of [FAX_GLOBAL_ROUTING_INFO](https://learn.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa) structures the function returns in the *RoutingInfo* parameter. This number equals the total number of fax routing methods installed on the target server.
+
+## Return value
+
+Type: **BOOL**
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). GetLastError can return one of the following errors.
+
+| Return code | Description |
+| --- | --- |
+| **ERROR_ACCESS_DENIED** | Access is denied. [FAX_CONFIG_QUERY](https://learn.microsoft.com/previous-versions/windows/desktop/fax/-mfax-specific-fax-access-rights) access is required. |
+| **ERROR_INVALID_PARAMETER** | One or all of the *MethodsReturned*, *RoutingInfo* or *FaxHandle* parameters are **NULL**. |
+| **ERROR_NOT_ENOUGH_MEMORY** | An error occurred during memory allocation. |
+
+## Remarks
+
+The **FaxEnumGlobalRoutingInfo** function retrieves fax routing method information, such as routing priority, that applies globally to the fax server. An application can modify global data by calling the [FaxSetGlobalRoutingInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetglobalroutinginfoa) function.
+
+An application can call the [FaxEnumRoutingMethods](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumroutingmethodsa) function to enumerate the fax routing methods associated with a particular device.
+
+The **FaxEnumGlobalRoutingInfo** function allocates the memory required for the [FAX_GLOBAL_ROUTING_INFO](https://learn.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa) buffer array pointed to by the *RoutingInfo* parameter. An application must call the [FaxFreeBuffer](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](https://learn.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources) and [Managing Fax Routing Data](https://learn.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-fax-routing-data).
+
+> [!NOTE]
+> The winfax.h header defines FaxEnumGlobalRoutingInfo as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[FAX_GLOBAL_ROUTING_INFO](https://learn.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa)
+
+[Fax Service Client API Functions](https://learn.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions)
+
+[Fax Service Client API for Windows 2000](https://learn.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000)
+
+[FaxConnectFaxServer](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera)
+
+[FaxEnumRoutingMethods](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumroutingmethodsa)
+
+[FaxFreeBuffer](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer)
+
+[FaxSetGlobalRoutingInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetglobalroutinginfoa)

@@ -1,0 +1,4 @@
+typedef struct _WEBAUTHN_CREDENTIAL_LIST {
+  DWORD                   cCredentials;
+  PWEBAUTHN_CREDENTIAL_EX *ppCredentials;
+} WEBAUTHN_CREDENTIAL_LIST, *PWEBAUTHN_CREDENTIAL_LIST;

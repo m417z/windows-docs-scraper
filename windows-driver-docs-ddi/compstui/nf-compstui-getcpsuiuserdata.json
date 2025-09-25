@@ -1,0 +1,47 @@
+{
+  "UID": "NF:compstui.GetCPSUIUserData",
+  "title": "GetCPSUIUserData function (compstui.h)",
+  "description": "CPSUI's GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.",
+  "tech.root": "print",
+  "ms.date": "11/15/2022",
+  "keywords": [
+    "GetCPSUIUserData function"
+  ],
+  "ms.keywords": "GetCPSUIUserData, GetCPSUIUserData function [Print Devices], compstui/GetCPSUIUserData, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, print.getcpsuiuserdata",
+  "req.header": "compstui.h",
+  "req.include-header": "Compstui.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Compstui.lib",
+  "req.dll": "Compstui.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GetCPSUIUserData",
+    "compstui/GetCPSUIUserData"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Compstui.dll"
+  ],
+  "api_name": [
+    "GetCPSUIUserData"
+  ]
+}

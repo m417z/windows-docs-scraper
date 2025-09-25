@@ -1,0 +1,6 @@
+typedef enum _STORAGE_ZONES_ATTRIBUTES {
+  ZonesAttributeTypeAndLengthMayDifferent,
+  ZonesAttributeTypeSameLengthSame,
+  ZonesAttributeTypeSameLastZoneLengthDifferent,
+  ZonesAttributeTypeMayDifferentLengthSame
+} STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES;

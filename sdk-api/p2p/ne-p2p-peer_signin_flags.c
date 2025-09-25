@@ -1,0 +1,6 @@
+typedef enum peer_signin_flags_tag {
+  PEER_SIGNIN_NONE = 0x0,
+  PEER_SIGNIN_NEAR_ME = 0x1,
+  PEER_SIGNIN_INTERNET = 0x2,
+  PEER_SIGNIN_ALL
+} PEER_SIGNIN_FLAGS;

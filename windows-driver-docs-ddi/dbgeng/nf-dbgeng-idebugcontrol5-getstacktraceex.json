@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugControl5.GetStackTraceEx",
+  "title": "IDebugControl5::GetStackTraceEx (dbgeng.h)",
+  "description": "The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see Debugging Optimized Code and Inline Functions.",
+  "old-location": "debugger\\idebugcontrol5_getstacktraceex.htm",
+  "tech.root": "debugger",
+  "ms.date": "08/15/2023",
+  "keywords": [
+    "IDebugControl5::GetStackTraceEx"
+  ],
+  "ms.keywords": "GetStackTraceEx, GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetStackTraceEx method, IDebugControl5.GetStackTraceEx, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugControl5::GetStackTraceEx",
+    "dbgeng/IDebugControl5::GetStackTraceEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugControl5::GetStackTraceEx"
+  ]
+}

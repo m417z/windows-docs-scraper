@@ -1,0 +1,44 @@
+# NMTBHOTITEM structure
+
+## Description
+
+Contains information used with the [TBN_HOTITEMCHANGE](https://learn.microsoft.com/windows/desktop/Controls/tbn-hotitemchange) notification code.
+
+## Members
+
+### `hdr`
+
+Type: **[NMHDR](https://learn.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr)**
+
+[NMHDR](https://learn.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that contains additional information about the notification.
+
+### `idOld`
+
+Type: **int**
+
+Command identifier of the previously highlighted item.
+
+### `idNew`
+
+Type: **int**
+
+Command identifier of the item about to be highlighted.
+
+### `dwFlags`
+
+Type: **[DWORD](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+
+Flags that indicate why the hot item has changed. This can be one or more of the following values:
+
+| Value | Meaning |
+| --- | --- |
+| **HICF_ACCELERATOR** | The change in the hot item was caused by a shortcut key. |
+| **HICF_ARROWKEYS** | The change in the hot item was caused by an arrow key. |
+| **HICF_DUPACCEL** | Modifies HICF_ACCELERATOR. If this flag is set, more than one item has the same shortcut key character. |
+| **HICF_ENTERING** | Modifies the other reason flags. If this flag is set, there is no previous hot item and **idOld** does not contain valid information. |
+| **HICF_LEAVING** | Modifies the other reason flags. If this flag is set, there is no new hot item and **idNew** does not contain valid information. |
+| **HICF_LMOUSE** | The change in the hot item resulted from a left-click mouse event. |
+| **HICF_MOUSE** | The change in the hot item resulted from a mouse event. |
+| **HICF_OTHER** | The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the [TB_SETHOTITEM](https://learn.microsoft.com/windows/desktop/Controls/tb-sethotitem) message. |
+| **HICF_RESELECT** | The change in the hot item resulted from the user entering the shortcut key for an item that was already hot. |
+| **HICF_TOGGLEDROPDOWN** | [Version 5.80.](https://learn.microsoft.com/windows/desktop/Controls/common-control-versions) Causes the button to switch states. |

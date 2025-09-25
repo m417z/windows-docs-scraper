@@ -1,0 +1,3 @@
+HRESULT SetSafeMode(
+  DWORD dwFlags
+);

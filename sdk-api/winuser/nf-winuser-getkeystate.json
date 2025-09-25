@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.GetKeyState",
+  "title": "GetKeyState function (winuser.h)",
+  "description": "Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off alternating each time the key is pressed).",
+  "helpviewer_keywords": [
+    "GetKeyState",
+    "GetKeyState function [Keyboard and Mouse Input]",
+    "_win32_GetKeyState",
+    "_win32_getkeystate_cpp",
+    "inputdev.getkeystate",
+    "winui._win32_getkeystate",
+    "winuser/GetKeyState"
+  ],
+  "old-location": "inputdev\\getkeystate.htm",
+  "tech.root": "inputdev",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\userinput\\keyboardinput\\keyboardinputreference\\keyboardinputfunctions\\getkeystate.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetKeyState, GetKeyState function [Keyboard and Mouse Input], _win32_GetKeyState, _win32_getkeystate_cpp, inputdev.getkeystate, winui._win32_getkeystate, winuser/GetKeyState",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetKeyState",
+    "winuser/GetKeyState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-keyboard-l1-1-0.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-2.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-1.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll",
+    "api-ms-win-ntuser-ie-keyboard-l1-1-0.dll",
+    "ie_stubs.dll",
+    "ext-ms-win-ntuser-keyboard-l1-1-2.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll"
+  ],
+  "api_name": [
+    "GetKeyState"
+  ]
+}

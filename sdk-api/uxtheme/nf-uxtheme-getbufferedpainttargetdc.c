@@ -1,0 +1,3 @@
+HDC GetBufferedPaintTargetDC(
+  HPAINTBUFFER hBufferedPaint
+);

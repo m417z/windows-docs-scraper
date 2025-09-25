@@ -1,0 +1,3 @@
+HRESULT DeleteDSObject(
+  LPWSTR pszRDNName
+);

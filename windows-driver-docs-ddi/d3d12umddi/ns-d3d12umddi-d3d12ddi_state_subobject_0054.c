@@ -1,0 +1,4 @@
+typedef struct D3D12DDI_STATE_SUBOBJECT_0054 {
+  D3D12DDI_STATE_SUBOBJECT_TYPE Type;
+  const void                    *pDesc;
+} D3D12DDI_STATE_SUBOBJECT_0054;

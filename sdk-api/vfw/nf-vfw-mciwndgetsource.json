@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndGetSource",
+  "title": "MCIWndGetSource macro (vfw.h)",
+  "description": "The MCIWndGetSource macro retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_GET_SOURCE message.",
+  "helpviewer_keywords": [
+    "MCIWndGetSource",
+    "MCIWndGetSource macro [Windows Multimedia]",
+    "_win32_MCIWndGetSource",
+    "multimedia.mciwndgetsource",
+    "vfw/MCIWndGetSource"
+  ],
+  "old-location": "multimedia\\mciwndgetsource.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "3ac01055-7d17-499f-af2e-e50fc08e5520",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndGetSource, MCIWndGetSource macro [Windows Multimedia], _win32_MCIWndGetSource, multimedia.mciwndgetsource, vfw/MCIWndGetSource",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndGetSource",
+    "vfw/MCIWndGetSource"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndGetSource"
+  ]
+}

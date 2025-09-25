@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptDuplicateKey",
+  "title": "BCryptDuplicateKey function (bcrypt.h)",
+  "description": "Creates a duplicate of a symmetric key.",
+  "helpviewer_keywords": [
+    "BCryptDuplicateKey",
+    "BCryptDuplicateKey function [Security]",
+    "bcrypt/BCryptDuplicateKey",
+    "security.bcryptduplicatekey_func"
+  ],
+  "old-location": "security\\bcryptduplicatekey_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "13a0b904-353f-498a-bdc2-2fd4e51144ff",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptDuplicateKey",
+    "bcrypt/BCryptDuplicateKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptDuplicateKey"
+  ]
+}

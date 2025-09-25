@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdm.IoGetDriverProxyExtensionFromDriverObject",
+  "tech.root": "kernel",
+  "title": "IoGetDriverProxyExtensionFromDriverObject",
+  "ms.date": "09/05/2025",
+  "targetos": "Windows",
+  "description": "Gets the DriverProxy extension owned by a driver object.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Any level",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoGetDriverProxyExtensionFromDriverObject"
+  ],
+  "f1_keywords": [
+    "IoGetDriverProxyExtensionFromDriverObject",
+    "wdm/IoGetDriverProxyExtensionFromDriverObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IoGetDriverProxyExtensionFromDriverObject"
+  ],
+  "ai-usage": "ai-assisted"
+}

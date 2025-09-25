@@ -1,0 +1,70 @@
+{
+  "UID": "NF:resapi.ResUtilGetClusterRoleState",
+  "title": "ResUtilGetClusterRoleState function (resapi.h)",
+  "description": "Determines whether or not a specific role has been assigned to a cluster.",
+  "helpviewer_keywords": [
+    "ClusterRoleDHCP",
+    "ClusterRoleDTC",
+    "ClusterRoleFileServer",
+    "ClusterRoleGenericApplication",
+    "ClusterRoleGenericScript",
+    "ClusterRoleGenericService",
+    "ClusterRoleISCSINameServer",
+    "ClusterRoleMSMQ",
+    "ClusterRoleNFS",
+    "ClusterRolePrintServer",
+    "ClusterRoleStandAloneNamespaceServer",
+    "ClusterRoleVolumeShadowCopyServiceTask",
+    "ClusterRoleWINS",
+    "ResUtilGetClusterRoleState",
+    "ResUtilGetClusterRoleState function [Failover Cluster]",
+    "mscs.resutilgetclusterrolestate",
+    "resapi/ResUtilGetClusterRoleState"
+  ],
+  "old-location": "mscs\\resutilgetclusterrolestate.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "582992ca-9381-4673-8fe8-835b50047f51",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleFileServer, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleISCSINameServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRolePrintServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, ResUtilGetClusterRoleState, ResUtilGetClusterRoleState function [Failover Cluster], mscs.resutilgetclusterrolestate, resapi/ResUtilGetClusterRoleState",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilGetClusterRoleState",
+    "resapi/ResUtilGetClusterRoleState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilGetClusterRoleState"
+  ]
+}

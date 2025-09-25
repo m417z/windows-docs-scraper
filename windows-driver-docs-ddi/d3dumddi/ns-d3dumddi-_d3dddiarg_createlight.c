@@ -1,0 +1,3 @@
+typedef struct _D3DDDIARG_CREATELIGHT {
+  [in] UINT Index;
+} D3DDDIARG_CREATELIGHT;

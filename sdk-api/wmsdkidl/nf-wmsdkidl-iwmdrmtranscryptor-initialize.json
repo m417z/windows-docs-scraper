@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmsdkidl.IWMDRMTranscryptor.Initialize",
+  "title": "IWMDRMTranscryptor::Initialize (wmsdkidl.h)",
+  "description": "The Initialize method loads a file into the DRM transcryptor. A file must be loaded before the transcryptor can process any data.",
+  "helpviewer_keywords": [
+    "IWMDRMTranscryptor interface [windows Media Format]",
+    "Initialize method",
+    "IWMDRMTranscryptor.Initialize",
+    "IWMDRMTranscryptor::Initialize",
+    "IWMDRMTranscryptorInitialize",
+    "Initialize",
+    "Initialize method [windows Media Format]",
+    "Initialize method [windows Media Format]",
+    "IWMDRMTranscryptor interface",
+    "wmformat.iwmdrmtranscryptor_initialize",
+    "wmsdkidl/IWMDRMTranscryptor::Initialize"
+  ],
+  "old-location": "wmformat\\iwmdrmtranscryptor_initialize.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "084423cc-d10c-4993-b9dd-ace51aa6b7f0",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMDRMTranscryptor interface [windows Media Format],Initialize method, IWMDRMTranscryptor.Initialize, IWMDRMTranscryptor::Initialize, IWMDRMTranscryptorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_initialize, wmsdkidl/IWMDRMTranscryptor::Initialize",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WMStubDRM.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDRMTranscryptor::Initialize",
+    "wmsdkidl/IWMDRMTranscryptor::Initialize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMDRMTranscryptor.Initialize"
+  ]
+}

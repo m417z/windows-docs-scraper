@@ -1,0 +1,58 @@
+{
+  "UID": "NF:userenv.GetAppliedGPOListA",
+  "title": "GetAppliedGPOListA function (userenv.h)",
+  "description": "The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer. (ANSI)",
+  "helpviewer_keywords": [
+    "GPO_LIST_FLAG_MACHINE",
+    "GetAppliedGPOListA",
+    "userenv/GetAppliedGPOListA"
+  ],
+  "old-location": "policy\\getappliedgpolist.htm",
+  "tech.root": "Policy",
+  "ms.assetid": "11e80a4e-acc4-4229-aa34-8f7d083c1041",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GPO_LIST_FLAG_MACHINE, GetAppliedGPOList, GetAppliedGPOList function [Group Policy], GetAppliedGPOListA, GetAppliedGPOListW, _win32_getappliedgpolist, policy.getappliedgpolist, userenv/GetAppliedGPOList, userenv/GetAppliedGPOListA, userenv/GetAppliedGPOListW",
+  "req.header": "userenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetAppliedGPOListW (Unicode) and GetAppliedGPOListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Userenv.lib",
+  "req.dll": "Userenv.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetAppliedGPOListA",
+    "userenv/GetAppliedGPOListA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Userenv.dll"
+  ],
+  "api_name": [
+    "GetAppliedGPOList",
+    "GetAppliedGPOListA",
+    "GetAppliedGPOListW"
+  ]
+}

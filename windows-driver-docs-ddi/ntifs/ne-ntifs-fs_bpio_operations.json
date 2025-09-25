@@ -1,0 +1,42 @@
+{
+  "UID": "NE:ntifs._FS_BPIO_OPERATIONS",
+  "tech.root": "ifsk",
+  "title": "FS_BPIO_OPERATIONS",
+  "ms.date": "12/08/2021",
+  "targetos": "Windows",
+  "description": "FS_BPIO_OPERATIONS defines the various BypassIO operations supported by the FSCTL_MANAGE_BYPASS_IO control code.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FS_BPIO_OPERATIONS",
+    "FS_BPIO_OPERATIONS"
+  ],
+  "f1_keywords": [
+    "_FS_BPIO_OPERATIONS",
+    "ntifs/_FS_BPIO_OPERATIONS",
+    "FS_BPIO_OPERATIONS",
+    "ntifs/FS_BPIO_OPERATIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

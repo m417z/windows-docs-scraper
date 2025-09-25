@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.PcNewRegistryKey",
+  "title": "PcNewRegistryKey function (portcls.h)",
+  "description": "The PcNewRegistryKey function opens or creates a new registry key and creates an IRegistryKey object to represent the key. The caller accesses the key through this object.",
+  "old-location": "audio\\pcnewregistrykey.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PcNewRegistryKey function"
+  ],
+  "ms.keywords": "PcNewRegistryKey, PcNewRegistryKey function [Audio Devices], audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, portcls/PcNewRegistryKey",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The PortCls system driver implements the PcNewRegistryKey function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcNewRegistryKey",
+    "portcls/PcNewRegistryKey"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "PcNewRegistryKey"
+  ]
+}

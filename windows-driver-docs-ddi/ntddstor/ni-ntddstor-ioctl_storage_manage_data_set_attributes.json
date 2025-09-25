@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddstor.IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES",
+  "title": "IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES (ntddstor.h)",
+  "description": "This IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request is used to send a data set management request to a storage device.",
+  "old-location": "storage\\ioctl_storage_manage_data_set_attributes.htm",
+  "tech.root": "storage",
+  "ms.date": "08/23/2019",
+  "keywords": [
+    "IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES IOCTL"
+  ],
+  "ms.keywords": "IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code [Storage Devices], k307_99edaea9-af25-4aba-ba16-0758c63252b6.xml, ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, storage.ioctl_storage_manage_data_set_attributes",
+  "req.header": "ntddstor.h",
+  "req.include-header": "Ntddstor.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL < DISPATCH_LEVEL (See Remarks section.)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES",
+    "ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddstor.h"
+  ],
+  "api_name": [
+    "IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NS:clfs._CLS_SCAN_CONTEXT~r1",
+  "title": "CLS_SCAN_CONTEXT",
+  "description": "The CLS_SCAN_CONTEXT structure contains information about the containers that are being scanned by ScanLogContainers.",
+  "ms.date": "08/01/2022",
+  "ms.keywords": "_CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "clfs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.typenames": "CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "f1_keywords": [
+    "_CLS_SCAN_CONTEXT",
+    "clfs/_CLS_SCAN_CONTEXT",
+    "PCLS_SCAN_CONTEXT",
+    "clfs/PCLS_SCAN_CONTEXT",
+    "CLS_SCAN_CONTEXT",
+    "clfs/CLS_SCAN_CONTEXT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "clfs.h"
+  ],
+  "api_name": [
+    "_CLS_SCAN_CONTEXT",
+    "CLS_SCAN_CONTEXT"
+  ]
+}

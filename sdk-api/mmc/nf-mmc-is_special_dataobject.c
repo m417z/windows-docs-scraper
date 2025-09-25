@@ -1,0 +1,3 @@
+void IS_SPECIAL_DATAOBJECT(
+  d
+);

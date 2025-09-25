@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netioddk.NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN",
+  "title": "NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN (netioddk.h)",
+  "description": "A client module's ClientCleanupBindingContext callback function performs any necessary cleanup and deallocation of the client module's binding context after the client module and a provider module have detached from one another.",
+  "old-location": "netvista\\clientcleanupbindingcontext.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function"
+  ],
+  "ms.keywords": "ClientCleanupBindingContext, ClientCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientCleanupBindingContext, netvista.clientcleanupbindingcontext, nmrref_75483511-e903-4f9d-bc78-29e823b22f8f.xml",
+  "req.header": "netioddk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN",
+    "netioddk/NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "netioddk.h"
+  ],
+  "api_name": [
+    "NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef enum _WWAN_DEFAULT_PDU_SESSION_HINT {
+  WwanDefaultPDUSessionActivationUnlikely,
+  WwanDefaultPDUSessionActivationLikely,
+  WwanDefaultPDUSessionHintMax
+} WWAN_DEFAULT_PDU_SESSION_HINT;

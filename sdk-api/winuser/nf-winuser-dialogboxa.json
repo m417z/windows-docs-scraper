@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winuser.DialogBoxA",
+  "title": "DialogBoxA macro (winuser.h)",
+  "description": "Creates a modal dialog box from a dialog box template resource. DialogBox does not return control until the specified callback function terminates the modal dialog box by calling the EndDialog function. (ANSI)",
+  "helpviewer_keywords": [
+    "DialogBoxA",
+    "winuser/DialogBoxA"
+  ],
+  "old-location": "dlgbox\\dialogbox.htm",
+  "tech.root": "dlgbox",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\dialogboxes\\dialogboxreference\\dialogboxfunctions\\dialogbox.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DialogBox, DialogBox function [Dialog Boxes], DialogBoxA, DialogBoxW, _win32_DialogBox, _win32_dialogbox_cpp, dlgbox.dialogbox, winui._win32_dialogbox, winuser/DialogBox, winuser/DialogBoxA, winuser/DialogBoxW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DialogBoxW (Unicode) and DialogBoxA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DialogBoxA",
+    "winuser/DialogBoxA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "DialogBox",
+    "DialogBoxA",
+    "DialogBoxW"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltEnlistInTransaction",
+  "title": "FltEnlistInTransaction function (fltkernel.h)",
+  "description": "The FltEnlistInTransaction routine enlists a minifilter driver in a given transaction.",
+  "old-location": "ifsk\\fltenlistintransaction.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltEnlistInTransaction function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_85856df2-46c0-457b-bc10-2e6a8d32f5bb.xml, FltEnlistInTransaction, FltEnlistInTransaction routine [Installable File System Drivers], fltkernel/FltEnlistInTransaction, ifsk.fltenlistintransaction",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available on Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "FltMgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltEnlistInTransaction",
+    "fltkernel/FltEnlistInTransaction"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltMgr.sys"
+  ],
+  "api_name": [
+    "FltEnlistInTransaction"
+  ]
+}

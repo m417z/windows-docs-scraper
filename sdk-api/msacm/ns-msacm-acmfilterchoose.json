@@ -1,0 +1,71 @@
+{
+  "UID": "NS:msacm.tACMFILTERCHOOSE",
+  "title": "ACMFILTERCHOOSE (msacm.h)",
+  "description": "The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.",
+  "helpviewer_keywords": [
+    "*LPACMFILTERCHOOSE",
+    "*PACMFILTERCHOOSE",
+    "ACMFILTERCHOOSE",
+    "ACMFILTERCHOOSE structure [Windows Multimedia]",
+    "ACMFILTERCHOOSE_STYLEF_CONTEXTHELP",
+    "ACMFILTERCHOOSE_STYLEF_ENABLEHOOK",
+    "ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE",
+    "ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE",
+    "ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT",
+    "ACMFILTERCHOOSE_STYLEF_SHOWHELP",
+    "ACM_FILTERENUMF_DWFILTERTAG",
+    "msacm/ACMFILTERCHOOSE",
+    "multimedia.acmfilterchoose_COLLISION925",
+    "multimedia.acmfilterchoose_struct"
+  ],
+  "old-location": "multimedia\\acmfilterchoose_struct.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "92ec2a41-e853-4533-b831-43c9d52dc27f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPACMFILTERCHOOSE, *PACMFILTERCHOOSE, ACMFILTERCHOOSE, ACMFILTERCHOOSE structure [Windows Multimedia], ACMFILTERCHOOSE_STYLEF_CONTEXTHELP, ACMFILTERCHOOSE_STYLEF_ENABLEHOOK, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE, ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT, ACMFILTERCHOOSE_STYLEF_SHOWHELP, ACM_FILTERENUMF_DWFILTERTAG, msacm/ACMFILTERCHOOSE, multimedia.acmfilterchoose_COLLISION925, multimedia.acmfilterchoose_struct",
+  "req.header": "msacm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ACMFILTERCHOOSE, *PACMFILTERCHOOSE, *LPACMFILTERCHOOSE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tACMFILTERCHOOSE",
+    "msacm/tACMFILTERCHOOSE",
+    "PACMFILTERCHOOSE",
+    "msacm/PACMFILTERCHOOSE",
+    "ACMFILTERCHOOSE",
+    "msacm/ACMFILTERCHOOSE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Msacm.h"
+  ],
+  "api_name": [
+    "ACMFILTERCHOOSE"
+  ]
+}

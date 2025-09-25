@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wincrypt.CryptGetAsyncParam",
+  "title": "CryptGetAsyncParam",
+  "description": "The CryptGetAsyncParam function (wincrypt.h) sets an async parameter value.",
+  "ms.date": "08/03/2022",
+  "ms.keywords": "CryptGetAsyncParam",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wincrypt.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "f1_keywords": [
+    "CryptGetAsyncParam",
+    "wincrypt/CryptGetAsyncParam"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "secforwarder.dll"
+  ],
+  "api_name": [
+    "CryptGetAsyncParam"
+  ]
+}

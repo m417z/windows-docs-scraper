@@ -1,0 +1,3 @@
+void NET_BUFFER_LIST_DUP_ACK_COUNT(
+  _NBL
+);

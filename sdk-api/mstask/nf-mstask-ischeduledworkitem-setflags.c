@@ -1,0 +1,3 @@
+HRESULT SetFlags(
+  DWORD dwFlags
+);

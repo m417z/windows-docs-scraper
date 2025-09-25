@@ -1,0 +1,50 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTEvict",
+  "title": "D3DKMTEvict function (d3dkmthk.h)",
+  "description": "D3DKMTEvict is used to decrement the allocation residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.",
+  "old-location": "display\\d3dkmtevict.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTEvict function"
+  ],
+  "ms.keywords": "D3DKMTEvict, D3DKMTEvict function [Display Devices], d3dkmthk/D3DKMTEvict, display.d3dkmtevict",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTEvict",
+    "d3dkmthk/D3DKMTEvict"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "API-MS-Win-DX-D3DKMT-L1-1-1.dll",
+    "GDI32.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-2.dll"
+  ],
+  "api_name": [
+    "D3DKMTEvict"
+  ]
+}

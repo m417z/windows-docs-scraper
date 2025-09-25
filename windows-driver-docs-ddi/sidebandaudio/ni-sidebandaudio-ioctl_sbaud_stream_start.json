@@ -1,0 +1,40 @@
+{
+  "UID": "NI:sidebandaudio.IOCTL_SBAUD_STREAM_START",
+  "title": "IOCTL_SBAUD_STREAM_START (sidebandaudio.h)",
+  "description": "On transition up to KSSTATE_RUN, send IOCTL_SBAUD_STREAM_START.",
+  "ms.date": "07/12/2023",
+  "keywords": [
+    "IOCTL_SBAUD_STREAM_START IOCTL"
+  ],
+  "req.header": "sidebandaudio.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "targetos": "Windows",
+  "tech.root": "audio",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "IOCTL_SBAUD_STREAM_START",
+    "sidebandaudio/IOCTL_SBAUD_STREAM_START"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "sidebandaudio.h"
+  ],
+  "api_name": [
+    "IOCTL_SBAUD_STREAM_START"
+  ]
+}

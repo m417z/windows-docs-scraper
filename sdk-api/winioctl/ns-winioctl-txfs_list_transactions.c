@@ -1,0 +1,4 @@
+typedef struct _TXFS_LIST_TRANSACTIONS {
+  DWORDLONG NumberOfTransactions;
+  DWORDLONG BufferSizeRequired;
+} TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS;

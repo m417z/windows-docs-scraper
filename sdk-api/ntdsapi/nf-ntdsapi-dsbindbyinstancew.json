@@ -1,0 +1,64 @@
+{
+  "UID": "NF:ntdsapi.DsBindByInstanceW",
+  "title": "DsBindByInstanceW function (ntdsapi.h)",
+  "description": "Explicitly binds to any AD LDS or Active Directory instance. (Unicode)",
+  "helpviewer_keywords": [
+    "DsBindByInstance",
+    "DsBindByInstance function [ADAM]",
+    "DsBindByInstanceW",
+    "NTDSAPI_BIND_ALLOW_DELEGATION",
+    "NTDSAPI_BIND_FORCE_KERBEROS",
+    "adam.dsbindbyinstance",
+    "ntdsapi/DsBindByInstance",
+    "ntdsapi/DsBindByInstanceW"
+  ],
+  "old-location": "adam\\dsbindbyinstance.htm",
+  "tech.root": "ADAM",
+  "ms.assetid": "65302ddc-2bc0-4d80-b028-e268859be227",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DsBindByInstance, DsBindByInstance function [ADAM], DsBindByInstanceA, DsBindByInstanceW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FORCE_KERBEROS, adam.dsbindbyinstance, ntdsapi/DsBindByInstance, ntdsapi/DsBindByInstanceA, ntdsapi/DsBindByInstanceW",
+  "req.header": "ntdsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsBindByInstanceW (Unicode) and DsBindByInstanceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntdsapi.lib",
+  "req.dll": "Ntdsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "ADAM",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsBindByInstanceW",
+    "ntdsapi/DsBindByInstanceW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdsapi.dll"
+  ],
+  "api_name": [
+    "DsBindByInstance",
+    "DsBindByInstanceA",
+    "DsBindByInstanceW"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT InstallPKCS7Blob(
+  [in] PCRYPT_DATA_BLOB pBlobPKCS7
+);

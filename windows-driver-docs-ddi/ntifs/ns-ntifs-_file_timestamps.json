@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FILE_TIMESTAMPS",
+  "title": "FILE_TIMESTAMPS (ntifs.h)",
+  "description": "The FILE_TIMESTAMPS structure specifies the last recorded instance of specific actions on a file.",
+  "old-location": "ifsk\\file_timestamps.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FILE_TIMESTAMPS structure"
+  ],
+  "ms.keywords": "*PFILE_TIMESTAMPS, FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], _FILE_TIMESTAMPS, ifsk.file_timestamps, ntifs/File_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_TIMESTAMPS, *PFILE_TIMESTAMPS",
+  "f1_keywords": [
+    "_FILE_TIMESTAMPS",
+    "ntifs/_FILE_TIMESTAMPS",
+    "PFILE_TIMESTAMPS",
+    "ntifs/PFILE_TIMESTAMPS",
+    "FILE_TIMESTAMPS",
+    "ntifs/FILE_TIMESTAMPS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_TIMESTAMPS",
+    "PFILE_TIMESTAMPS",
+    "FILE_TIMESTAMPS"
+  ]
+}

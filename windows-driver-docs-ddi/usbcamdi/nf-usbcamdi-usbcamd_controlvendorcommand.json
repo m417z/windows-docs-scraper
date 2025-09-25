@@ -1,0 +1,48 @@
+{
+  "UID": "NF:usbcamdi.USBCAMD_ControlVendorCommand",
+  "title": "USBCAMD_ControlVendorCommand function (usbcamdi.h)",
+  "description": "The USBCAMD_ControlVendorCommand function sends vendor-specific commands to the control pipe.",
+  "tech.root": "stream",
+  "ms.date": "03/08/2023",
+  "keywords": [
+    "USBCAMD_ControlVendorCommand function"
+  ],
+  "ms.keywords": "USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml",
+  "req.header": "usbcamdi.h",
+  "req.include-header": "Usbcamdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbcamd2.lib",
+  "req.dll": null,
+  "req.irql": "Greater than or equal to PASSIVE_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBCAMD_ControlVendorCommand",
+    "usbcamdi/USBCAMD_ControlVendorCommand"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "usbcamd2.lib",
+    "usbcamd2.dll"
+  ],
+  "api_name": [
+    "USBCAMD_ControlVendorCommand"
+  ]
+}

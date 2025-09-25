@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMProfile3.GetBandwidthSharingCount",
+  "title": "IWMProfile3::GetBandwidthSharingCount (wmsdkidl.h)",
+  "description": "The GetBandwidthSharingCount method retrieves the total number of bandwidth sharing objects that have been added to the profile.",
+  "helpviewer_keywords": [
+    "GetBandwidthSharingCount",
+    "GetBandwidthSharingCount method [windows Media Format]",
+    "GetBandwidthSharingCount method [windows Media Format]",
+    "IWMProfile3 interface",
+    "IWMProfile3 interface [windows Media Format]",
+    "GetBandwidthSharingCount method",
+    "IWMProfile3.GetBandwidthSharingCount",
+    "IWMProfile3::GetBandwidthSharingCount",
+    "IWMProfile3GetBandwidthSharingCount",
+    "wmformat.iwmprofile3_getbandwidthsharingcount",
+    "wmsdkidl/IWMProfile3::GetBandwidthSharingCount"
+  ],
+  "old-location": "wmformat\\iwmprofile3_getbandwidthsharingcount.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "7f5a11a7-d81a-4ca1-8b0f-1d561f736523",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetBandwidthSharingCount, GetBandwidthSharingCount method [windows Media Format], GetBandwidthSharingCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharingCount method, IWMProfile3.GetBandwidthSharingCount, IWMProfile3::GetBandwidthSharingCount, IWMProfile3GetBandwidthSharingCount, wmformat.iwmprofile3_getbandwidthsharingcount, wmsdkidl/IWMProfile3::GetBandwidthSharingCount",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProfile3::GetBandwidthSharingCount",
+    "wmsdkidl/IWMProfile3::GetBandwidthSharingCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMProfile3.GetBandwidthSharingCount"
+  ]
+}

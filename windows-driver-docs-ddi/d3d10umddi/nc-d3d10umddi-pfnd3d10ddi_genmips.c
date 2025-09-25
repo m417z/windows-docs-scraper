@@ -1,0 +1,7 @@
+PFND3D10DDI_GENMIPS Pfnd3d10ddiGenmips;
+
+VOID Pfnd3d10ddiGenmips(
+  D3D10DDI_HDEVICE unnamedParam1,
+  D3D10DDI_HSHADERRESOURCEVIEW unnamedParam2
+)
+{...}

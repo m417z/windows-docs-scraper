@@ -1,0 +1,6 @@
+typedef struct _QUERY_FILE_LAYOUT_OUTPUT {
+  ULONG FileEntryCount;
+  ULONG FirstFileOffset;
+  ULONG Flags;
+  ULONG Reserved;
+} QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT;

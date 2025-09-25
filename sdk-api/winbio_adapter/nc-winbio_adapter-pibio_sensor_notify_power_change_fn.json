@@ -1,0 +1,62 @@
+{
+  "UID": "NC:winbio_adapter.PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN",
+  "title": "PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN (winbio_adapter.h)",
+  "description": "Receives notification about a change in the computer power state and prepares the sensor adapter accordingly.",
+  "helpviewer_keywords": [
+    "PBT_APMPOWERSTATUSCHANGE",
+    "PBT_APMRESUMEAUTOMATIC",
+    "PBT_APMSUSPEND",
+    "PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN",
+    "PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN callback",
+    "SensorAdapterNotifyPowerChange",
+    "SensorAdapterNotifyPowerChange callback function [Windows Biometric Framework API]",
+    "secbiomet.sensoradapternotifypowerchange",
+    "winbio_adapter/SensorAdapterNotifyPowerChange"
+  ],
+  "old-location": "secbiomet\\sensoradapternotifypowerchange.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "7EA9D7E7-3DB9-4131-A747-B0388310ACB5",
+  "ms.date": "11/19/2020",
+  "ms.keywords": "PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN, PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN callback, SensorAdapterNotifyPowerChange, SensorAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.sensoradapternotifypowerchange, winbio_adapter/SensorAdapterNotifyPowerChange",
+  "req.header": "winbio_adapter.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN",
+    "winbio_adapter/PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winbio_adapter.h"
+  ],
+  "api_name": [
+    "SensorAdapterNotifyPowerChange"
+  ]
+}

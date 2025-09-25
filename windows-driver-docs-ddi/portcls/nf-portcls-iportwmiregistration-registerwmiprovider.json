@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortWMIRegistration.RegisterWMIProvider",
+  "title": "IPortWMIRegistration::RegisterWMIProvider (portcls.h)",
+  "description": "The RegisterWMIProvider method registers the Event Tracing for Windows (ETW) capability of the miniport driver with PortCls.",
+  "old-location": "audio\\iportwmiregistration_registerwmiprovider.htm",
+  "tech.root": "audio",
+  "ms.date": "07/25/2023",
+  "keywords": [
+    "IPortWMIRegistration::RegisterWMIProvider"
+  ],
+  "ms.keywords": "IPortWMIRegistration interface [Audio Devices],RegisterWMIProvider method, IPortWMIRegistration.RegisterWMIProvider, IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], RegisterWMIProvider method [Audio Devices],IPortWMIRegistration interface, audio.iportwmiregistration_registerwmiprovider, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, portcls/IPortWMIRegistration::RegisterWMIProvider",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortWMIRegistration::RegisterWMIProvider",
+    "portcls/IPortWMIRegistration::RegisterWMIProvider"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Portcls.h"
+  ],
+  "api_name": [
+    "IPortWMIRegistration::RegisterWMIProvider"
+  ]
+}

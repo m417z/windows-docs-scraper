@@ -1,0 +1,23 @@
+HRESULT GetGdiCompatibleGlyphPlacements(
+  [in]           WCHAR const                           *textString,
+  [in]           UINT16 const                          *clusterMap,
+  [in]           DWRITE_SHAPING_TEXT_PROPERTIES        *textProps,
+                 UINT32                                textLength,
+  [in]           UINT16 const                          *glyphIndices,
+  [in]           DWRITE_SHAPING_GLYPH_PROPERTIES const *glyphProps,
+                 UINT32                                glyphCount,
+  [in]           IDWriteFontFace                       *fontFace,
+                 FLOAT                                 fontEmSize,
+                 FLOAT                                 pixelsPerDip,
+  [in, optional] DWRITE_MATRIX const                   *transform,
+                 BOOL                                  useGdiNatural,
+                 BOOL                                  isSideways,
+                 BOOL                                  isRightToLeft,
+  [in]           DWRITE_SCRIPT_ANALYSIS const          *scriptAnalysis,
+  [in, optional] WCHAR const                           *localeName,
+  [in, optional] DWRITE_TYPOGRAPHIC_FEATURES const     **features,
+  [in, optional] UINT32 const                          *featureRangeLengths,
+                 UINT32                                featureRanges,
+  [out]          FLOAT                                 *glyphAdvances,
+  [out]          DWRITE_GLYPH_OFFSET                   *glyphOffsets
+);

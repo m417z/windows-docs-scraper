@@ -1,0 +1,58 @@
+{
+  "UID": "NF:mgm.MgmGetNextMfe",
+  "title": "MgmGetNextMfe function (mgm.h)",
+  "description": "The MgmGetNextMfe function retrieves one or more MFEs.",
+  "helpviewer_keywords": [
+    "MgmGetNextMfe",
+    "MgmGetNextMfe function [RAS]",
+    "_mpr_mgmgetnextmfe",
+    "mgm/MgmGetNextMfe",
+    "rras.mgmgetnextmfe"
+  ],
+  "old-location": "rras\\mgmgetnextmfe.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "067003ef-bb92-48cc-bc13-5b90066c9123",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe",
+  "req.header": "mgm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rtm.lib",
+  "req.dll": "Rtm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MgmGetNextMfe",
+    "mgm/MgmGetNextMfe"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rtm.dll"
+  ],
+  "api_name": [
+    "MgmGetNextMfe"
+  ]
+}

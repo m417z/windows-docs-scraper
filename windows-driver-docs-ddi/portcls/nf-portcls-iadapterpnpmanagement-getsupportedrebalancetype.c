@@ -1,0 +1,1 @@
+PC_REBALANCE_TYPE GetSupportedRebalanceType();

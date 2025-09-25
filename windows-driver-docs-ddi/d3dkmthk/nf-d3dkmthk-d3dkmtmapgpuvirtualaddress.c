@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTMapGpuVirtualAddress(
+  D3DDDI_MAPGPUVIRTUALADDRESS *unnamedParam1
+);

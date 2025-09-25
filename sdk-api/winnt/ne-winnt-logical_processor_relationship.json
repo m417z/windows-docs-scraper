@@ -1,0 +1,71 @@
+{
+  "UID": "NE:winnt._LOGICAL_PROCESSOR_RELATIONSHIP",
+  "title": "LOGICAL_PROCESSOR_RELATIONSHIP (winnt.h)",
+  "description": "Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.",
+  "helpviewer_keywords": [
+    "LOGICAL_PROCESSOR_RELATIONSHIP",
+    "LOGICAL_PROCESSOR_RELATIONSHIP enumeration",
+    "RelationAll",
+    "RelationCache",
+    "RelationGroup",
+    "RelationNumaNode",
+    "RelationProcessorCore",
+    "RelationProcessorPackage",
+    "base.logical_processor_relationship",
+    "winnt/LOGICAL_PROCESSOR_RELATIONSHIP",
+    "winnt/RelationAll",
+    "winnt/RelationCache",
+    "winnt/RelationGroup",
+    "winnt/RelationNumaNode",
+    "winnt/RelationProcessorCore",
+    "winnt/RelationProcessorPackage"
+  ],
+  "old-location": "base\\logical_processor_relationship.htm",
+  "tech.root": "backup",
+  "ms.assetid": "2ada52f0-70ec-4146-9ef7-9af3b08996f9",
+  "ms.date": "27/02/2023",
+  "ms.keywords": "LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, RelationProcessorDie, RelationProcessorModule, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LOGICAL_PROCESSOR_RELATIONSHIP",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_LOGICAL_PROCESSOR_RELATIONSHIP",
+    "winnt/_LOGICAL_PROCESSOR_RELATIONSHIP",
+    "LOGICAL_PROCESSOR_RELATIONSHIP",
+    "winnt/LOGICAL_PROCESSOR_RELATIONSHIP"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinNT.h"
+  ],
+  "api_name": [
+    "LOGICAL_PROCESSOR_RELATIONSHIP"
+  ]
+}

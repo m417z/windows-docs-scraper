@@ -1,0 +1,5 @@
+typedef struct MS_ADDINFO_CATALOGMEMBER_ {
+  DWORD                  cbStruct;
+  struct CRYPTCATSTORE_  *pStore;
+  struct CRYPTCATMEMBER_ *pMember;
+} MS_ADDINFO_CATALOGMEMBER, *PMS_ADDINFO_CATALOGMEMBER;

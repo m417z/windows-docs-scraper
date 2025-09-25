@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.KMESSAGE_SERVICE_ROUTINE",
+  "title": "KMESSAGE_SERVICE_ROUTINE (wdm.h)",
+  "description": "An InterruptMessageService routine services a message-signaled interrupt.",
+  "tech.root": "kernel",
+  "ms.date": "01/09/2023",
+  "keywords": [
+    "KMESSAGE_SERVICE_ROUTINE callback function"
+  ],
+  "ms.keywords": "DrvrRtns_1f39517a-fa8b-44a4-9e6c-2ecc428cd416.xml, InterruptMessageService, InterruptMessageService routine [Kernel-Mode Driver Architecture], KMESSAGE_SERVICE_ROUTINE, kernel.interruptmessageservice, wdm/InterruptMessageService",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "See Remarks section.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KMESSAGE_SERVICE_ROUTINE",
+    "wdm/KMESSAGE_SERVICE_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "KMESSAGE_SERVICE_ROUTINE"
+  ]
+}

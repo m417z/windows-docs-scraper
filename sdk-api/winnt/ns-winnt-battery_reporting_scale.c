@@ -1,0 +1,4 @@
+typedef struct {
+  DWORD Granularity;
+  DWORD Capacity;
+} BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE;

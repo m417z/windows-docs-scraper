@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winenclaveapi.EnclaveGetEnclaveInformation",
+  "title": "EnclaveGetEnclaveInformation function (winenclaveapi.h)",
+  "description": "Gets information about the currently executing enclave.",
+  "helpviewer_keywords": [
+    "EnclaveGetEnclaveInformation",
+    "EnclaveGetEnclaveInformation function",
+    "base.enclavegetenclaveinformation",
+    "winenclaveapi/EnclaveGetEnclaveInformation"
+  ],
+  "old-location": "base\\enclavegetenclaveinformation.htm",
+  "tech.root": "base",
+  "ms.assetid": "26349C3C-4B73-430C-B002-ED262DB0304F",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation",
+  "req.header": "winenclaveapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vertdll.lib",
+  "req.dll": "Vertdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnclaveGetEnclaveInformation",
+    "winenclaveapi/EnclaveGetEnclaveInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "EnclaveGetEnclaveInformation"
+  ]
+}

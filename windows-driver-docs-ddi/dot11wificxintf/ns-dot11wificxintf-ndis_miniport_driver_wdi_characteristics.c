@@ -1,0 +1,17 @@
+typedef struct _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS {
+  NDIS_OBJECT_HEADER                            Header;
+  ULONG                                         WdiVersion;
+  MINIPORT_WDI_ALLOCATE_ADAPTER_HANDLER         AllocateAdapterHandler;
+  MINIPORT_WDI_FREE_ADAPTER_HANDLER             FreeAdapterHandler;
+  MINIPORT_WDI_OPEN_ADAPTER_HANDLER             OpenAdapterHandler;
+  MINIPORT_WDI_CLOSE_ADAPTER_HANDLER            CloseAdapterHandler;
+  MINIPORT_WDI_START_OPERATION_HANDLER          StartOperationHandler;
+  MINIPORT_WDI_STOP_OPERATION_HANDLER           StopOperationHandler;
+  MINIPORT_WDI_POST_PAUSE_HANDLER               PostPauseHandler;
+  MINIPORT_WDI_POST_RESTART_HANDLER             PostRestartHandler;
+  MINIPORT_WDI_HANG_DIAGNOSE_HANDLER            HangDiagnoseHandler;
+  MINIPORT_WDI_TAL_TXRX_INITIALIZE_HANDLER      TalTxRxInitializeHandler;
+  MINIPORT_WDI_TAL_TXRX_DEINITIALIZE_HANDLER    TalTxRxDeinitializeHandler;
+  MINIPORT_WDI_IDLE_NOTIFICATION_HANDLER        LeIdleNotificationHandler;
+  MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION_HANDLER LeCancelIdleNotificationHandler;
+} NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS;

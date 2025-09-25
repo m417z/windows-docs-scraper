@@ -1,0 +1,4 @@
+typedef enum _WWAN_DEVICE_SERVICE_SESSION_STATE {
+  WwanDeviceServiceSessionOpen,
+  WwanDeviceServiceSessionClosed
+} WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE;

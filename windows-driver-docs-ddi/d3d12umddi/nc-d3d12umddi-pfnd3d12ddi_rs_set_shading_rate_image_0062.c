@@ -1,0 +1,7 @@
+PFND3D12DDI_RS_SET_SHADING_RATE_IMAGE_0062 Pfnd3d12ddiRsSetShadingRateImage0062;
+
+VOID Pfnd3d12ddiRsSetShadingRateImage0062(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  D3D12DDI_HRESOURCE hShadingRateImage
+)
+{...}

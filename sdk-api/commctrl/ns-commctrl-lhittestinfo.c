@@ -1,0 +1,4 @@
+typedef struct tagLHITTESTINFO {
+  POINT pt;
+  LITEM item;
+} LHITTESTINFO, *PLHITTESTINFO;

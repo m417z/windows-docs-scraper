@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxprocs.RxDereference",
+  "title": "RxDereference function (rxprocs.h)",
+  "description": "RxDereference decrements the NodeReferenceCount member of a structure by one for several reference counted data structures used by RDBSS.",
+  "old-location": "ifsk\\rxdereference.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxDereference function"
+  ],
+  "ms.keywords": "RxDereference, RxDereference function [Installable File System Drivers], ifsk.rxdereference, rxprocs/RxDereference, rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml",
+  "req.header": "rxprocs.h",
+  "req.include-header": "Rxprocs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxDereference",
+    "rxprocs/RxDereference"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxprocs.h"
+  ],
+  "api_name": [
+    "RxDereference"
+  ]
+}

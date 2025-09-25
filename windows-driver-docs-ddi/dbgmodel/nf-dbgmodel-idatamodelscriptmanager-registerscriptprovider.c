@@ -1,0 +1,3 @@
+HRESULT RegisterScriptProvider(
+  IDataModelScriptProvider *provider
+);

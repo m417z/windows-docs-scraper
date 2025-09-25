@@ -1,0 +1,50 @@
+{
+  "UID": "NF:bits10_3.IBackgroundCopyServerCertificateValidationCallback.ValidateServerCertificate",
+  "title": "IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate",
+  "ms.date": "05/09/2019",
+  "ms.keywords": "IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate",
+  "description": "A callback method that you implement that will be called so that you can validate the server certificates sent when an HTTPS connection is opened.",
+  "helpviewer_keywords": [
+    "IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate"
+  ],
+  "tech.root": "Bits",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Bits.dll",
+  "req.header": "bits10_3.h",
+  "req.idl": null,
+  "req.include-header": "Bits.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Bits.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "f1_keywords": [
+    "IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate",
+    "bits10_3/IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "bits10_3.h"
+  ],
+  "api_name": [
+    "IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate"
+  ]
+}

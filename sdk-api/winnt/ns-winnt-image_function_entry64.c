@@ -1,0 +1,8 @@
+typedef struct _IMAGE_FUNCTION_ENTRY64 {
+  ULONGLONG StartingAddress;
+  ULONGLONG EndingAddress;
+  union {
+    ULONGLONG EndOfPrologue;
+    ULONGLONG UnwindInfoAddress;
+  } DUMMYUNIONNAME;
+} IMAGE_FUNCTION_ENTRY64, *PIMAGE_FUNCTION_ENTRY64;

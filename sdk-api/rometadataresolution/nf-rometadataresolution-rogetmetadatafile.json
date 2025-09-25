@@ -1,0 +1,61 @@
+{
+  "UID": "NF:rometadataresolution.RoGetMetaDataFile",
+  "title": "RoGetMetaDataFile function (rometadataresolution.h)",
+  "description": "Locates and retrieves the metadata file that describes the Application Binary Interface (ABI) for the specified typename.",
+  "helpviewer_keywords": [
+    "RoGetMetaDataFile",
+    "RoGetMetaDataFile function [Windows Runtime]",
+    "rometadataresolution/RoGetMetaDataFile",
+    "winrt.rogetmetadatafile"
+  ],
+  "old-location": "winrt\\rogetmetadatafile.htm",
+  "tech.root": "WinRT",
+  "ms.assetid": "FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718",
+  "ms.date": "11/19/2021",
+  "ms.keywords": "RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile",
+  "req.header": "rometadataresolution.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WindowsApp.lib",
+  "req.dll": "WinTypes.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RoGetMetaDataFile",
+    "rometadataresolution/RoGetMetaDataFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ro-typeresolution-l1-1-1.dll",
+    "api-ms-win-ro-typeresolution-l1-1-1.dll",
+    "WinTypes.dll",
+    "API-MS-Win-ro-typeresolution-l1-1-0.dll",
+    "Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll"
+  ],
+  "api_name": [
+    "RoGetMetaDataFile"
+  ]
+}

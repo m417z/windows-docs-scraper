@@ -1,0 +1,59 @@
+{
+  "UID": "NF:lpmapi.LPM_Deinitialize",
+  "title": "LPM_Deinitialize function (lpmapi.h)",
+  "description": "The LPM_Deinitialize function allows the PCM to instruct LPMs to deinitialize, whether due to system shutdown or a change in Designated Subnet Bandwidth Manager (DSBM) status.",
+  "helpviewer_keywords": [
+    "LPM_Deinitialize",
+    "LPM_Deinitialize callback",
+    "LPM_Deinitialize callback function [QOS]",
+    "_gqos_lpm_deinitialize",
+    "lpmapi/LPM_Deinitialize",
+    "qos.lpm_deinitialize"
+  ],
+  "old-location": "qos\\lpm_deinitialize.htm",
+  "tech.root": "QOS",
+  "ms.assetid": "d3a1edc5-a3fd-4c49-9cd9-f06ba56fec81",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LPM_Deinitialize, LPM_Deinitialize callback, LPM_Deinitialize callback function [QOS], _gqos_lpm_deinitialize, lpmapi/LPM_Deinitialize, qos.lpm_deinitialize",
+  "req.header": "lpmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LPM_Deinitialize",
+    "lpmapi/LPM_Deinitialize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Lpmapi.h"
+  ],
+  "api_name": [
+    "LPM_Deinitialize"
+  ]
+}

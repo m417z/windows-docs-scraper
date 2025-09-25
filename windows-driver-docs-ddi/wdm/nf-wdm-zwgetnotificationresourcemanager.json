@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ZwGetNotificationResourceManager",
+  "title": "ZwGetNotificationResourceManager function (wdm.h)",
+  "description": "Learn how the ZwGetNotificationResourceManager routine retrieves the next transaction notification from a specified resource manager's notification queue.",
+  "old-location": "kernel\\zwgetnotificationresourcemanager.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ZwGetNotificationResourceManager function"
+  ],
+  "ms.keywords": "NtGetNotificationResourceManager, ZwGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwgetnotificationresourcemanager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml, wdm/NtGetNotificationResourceManager, wdm/ZwGetNotificationResourceManager",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwGetNotificationResourceManager",
+    "wdm/ZwGetNotificationResourceManager"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwGetNotificationResourceManager"
+  ]
+}

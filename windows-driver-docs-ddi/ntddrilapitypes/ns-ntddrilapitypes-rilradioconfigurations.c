@@ -1,0 +1,4 @@
+typedef struct RILRADIOCONFIGURATIONS {
+  DWORD                 dwNumberOfConfigurations;
+  RILRADIOCONFIGURATION stConfigurations[1];
+} RILRADIOCONFIGURATIONS, *LPRILRADIOCONFIGURATIONS;

@@ -1,0 +1,4 @@
+typedef struct _WOF_EXTERNAL_INFO {
+  ULONG Version;
+  ULONG Provider;
+} WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO;

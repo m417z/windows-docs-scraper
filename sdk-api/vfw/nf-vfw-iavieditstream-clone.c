@@ -1,0 +1,3 @@
+HRESULT Clone(
+  PAVISTREAM *ppResult
+);

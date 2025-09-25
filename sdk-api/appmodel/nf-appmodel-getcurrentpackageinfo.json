@@ -1,0 +1,72 @@
+{
+  "UID": "NF:appmodel.GetCurrentPackageInfo",
+  "title": "GetCurrentPackageInfo function (appmodel.h)",
+  "description": "Gets the package information for the calling process. (GetCurrentPackageInfo)",
+  "helpviewer_keywords": [
+    "GetCurrentPackageInfo",
+    "GetCurrentPackageInfo function [App packaging and management]",
+    "appmodel/GetCurrentPackageInfo",
+    "appxpkg.getcurrentpackageinfo"
+  ],
+  "old-location": "appxpkg\\getcurrentpackageinfo.htm",
+  "tech.root": "appxpkg",
+  "ms.assetid": "A1887D61-0FAD-4BE8-850F-F104CC074798",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCurrentPackageInfo, GetCurrentPackageInfo function [App packaging and management], appmodel/GetCurrentPackageInfo, appxpkg.getcurrentpackageinfo",
+  "req.header": "appmodel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetCurrentPackageInfo",
+    "appmodel/GetCurrentPackageInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "api-ms-win-appmodel-runtime-l1-1-4.dll",
+    "api-ms-win-appmodel-runtime-l1-1-3.dll",
+    "Kernel32.dll",
+    "kernelbase.dll",
+    "API-MS-Win-AppModel-Runtime-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "Ext-MS-Win-kernel32-package-current-l1-1-0.dll",
+    "modernapiexthost.dll",
+    "kernel.appcore.dll",
+    "API-MS-Win-AppModel-Runtime-l1-1-1.dll",
+    "API-MS-Win-AppModel-Runtime-l1-1-1.dll",
+    "API-MS-Win-AppModel-Runtime-l1-1-1.dll",
+    "API-MS-Win-AppModel-Runtime-L1-1-2.dll"
+  ],
+  "api_name": [
+    "GetCurrentPackageInfo"
+  ]
+}

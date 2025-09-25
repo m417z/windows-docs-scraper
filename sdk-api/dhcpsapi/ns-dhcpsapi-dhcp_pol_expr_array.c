@@ -1,0 +1,4 @@
+typedef struct _DHCP_POL_EXPR_ARRAY {
+  DWORD           NumElements;
+  LPDHCP_POL_EXPR Elements;
+} DHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, *LPDHCP_POL_EXPR_ARRAY;

@@ -1,0 +1,3 @@
+void ACX_ELEMENT_CONFIG_INIT(
+  cfg
+);

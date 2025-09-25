@@ -1,0 +1,5 @@
+typedef union _SUB_Q_CHANNEL_DATA {
+  SUB_Q_CURRENT_POSITION     CurrentPosition;
+  SUB_Q_MEDIA_CATALOG_NUMBER MediaCatalog;
+  SUB_Q_TRACK_ISRC           TrackIsrc;
+} SUB_Q_CHANNEL_DATA, *PSUB_Q_CHANNEL_DATA;

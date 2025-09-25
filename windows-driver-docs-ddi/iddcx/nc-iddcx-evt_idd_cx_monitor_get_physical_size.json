@@ -1,0 +1,48 @@
+{
+  "UID": "NC:iddcx.EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE",
+  "title": "EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE",
+  "description": "The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the physical size of a remote EDID-less monitor.",
+  "tech.root": "display",
+  "ms.date": "08/09/2022",
+  "keywords": [
+    "EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function"
+  ],
+  "req.header": "iddcx.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "rs6, 19H1",
+  "f1_keywords": [
+    "EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE",
+    "iddcx/EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "iddcx.h"
+  ],
+  "api_name": [
+    "EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

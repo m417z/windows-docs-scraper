@@ -1,0 +1,3 @@
+BYTE GetGValue(
+    DWORD rgb
+);

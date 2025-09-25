@@ -1,0 +1,4 @@
+typedef struct D3D11_FEATURE_DATA_FORMAT_SUPPORT {
+  DXGI_FORMAT InFormat;
+  UINT        OutFormatSupport;
+} D3D11_FEATURE_DATA_FORMAT_SUPPORT;

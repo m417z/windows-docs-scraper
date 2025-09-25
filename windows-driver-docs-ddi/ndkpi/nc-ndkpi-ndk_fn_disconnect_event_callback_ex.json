@@ -1,0 +1,46 @@
+{
+  "UID": "NC:ndkpi.NDK_FN_DISCONNECT_EVENT_CALLBACK_EX",
+  "title": "NDK_FN_DISCONNECT_EVENT_CALLBACK_EX",
+  "ms.date": "12/30/2020",
+  "targetos": "Windows",
+  "description": "The NdkDisconnectEventCallbackEx (NDK_FN_DISCONNECT_EVENT_CALLBACK_EX) function is called by the NDK provider once when the peer disconnects.",
+  "tech.root": "netvista",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndkpi.h",
+  "req.idl": null,
+  "req.include-header": "Ndkpi.h",
+  "req.irql": "<=DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDKPI 2.1 and later.",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "NDK_FN_DISCONNECT_EVENT_CALLBACK_EX"
+  ],
+  "f1_keywords": [
+    "NDK_FN_DISCONNECT_EVENT_CALLBACK_EX",
+    "ndkpi/NDK_FN_DISCONNECT_EVENT_CALLBACK_EX"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

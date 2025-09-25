@@ -1,0 +1,9 @@
+typedef union _WHEA_ERROR_RECORD_HEADER_VALIDBITS {
+  struct {
+    ULONG PlatformId : 1;
+    ULONG Timestamp : 1;
+    ULONG PartitionId : 1;
+    ULONG Reserved : 29;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsULONG;
+} WHEA_ERROR_RECORD_HEADER_VALIDBITS, *PWHEA_ERROR_RECORD_HEADER_VALIDBITS;

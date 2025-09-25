@@ -1,0 +1,13 @@
+## Description
+
+This topic describes the **KSPROPERTY_NETWORKCAMERACONTROL_METADATA_TYPE** enumeration (ksmedia.h).
+
+## Constants
+
+### `KSPROPERTY_NETWORKCAMERACONTROL_METADATA_TYPE_EVENTSINFO`
+
+Defines the **KSPROPERTY_NETWORKCAMERACONTROL_METADATA_TYPE_EVENTSINFO** constant.
+
+## Remarks
+
+## See also

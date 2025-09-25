@@ -1,0 +1,4 @@
+typedef enum _POOL_CREATE_EXTENDED_PARAMETER_TYPE {
+  PoolCreateExtendedParameterInvalidType,
+  PoolCreateExtendedParameterName
+} POOL_CREATE_EXTENDED_PARAMETER_TYPE, *PPOOL_CREATE_EXTENDED_PARAMETER_TYPE;

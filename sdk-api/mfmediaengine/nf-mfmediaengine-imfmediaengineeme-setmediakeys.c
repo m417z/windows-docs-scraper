@@ -1,0 +1,3 @@
+HRESULT SetMediaKeys(
+  IMFMediaKeys *keys
+);

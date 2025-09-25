@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013 Pfnd3d12ddiCalcPrivateRootSignatureSize0013;
+
+SIZE_T Pfnd3d12ddiCalcPrivateRootSignatureSize0013(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_ROOT_SIGNATURE_0013 *unnamedParam2
+)
+{...}

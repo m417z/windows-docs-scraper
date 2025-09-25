@@ -1,0 +1,61 @@
+{
+  "UID": "NF:resapi.ResUtilGetDwordProperty",
+  "title": "ResUtilGetDwordProperty function (resapi.h)",
+  "description": "Retrieves a DWORD property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_DWORD_PROPERTY type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_GET_DWORD_PROPERTY",
+    "PRESUTIL_GET_DWORD_PROPERTY function [Failover Cluster]",
+    "ResUtilGetDwordProperty",
+    "ResUtilGetDwordProperty function [Failover Cluster]",
+    "_wolf_resutilgetdwordproperty",
+    "mscs.resutilgetdwordproperty",
+    "resapi/PRESUTIL_GET_DWORD_PROPERTY",
+    "resapi/ResUtilGetDwordProperty"
+  ],
+  "old-location": "mscs\\resutilgetdwordproperty.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "d67f73f8-a5ce-4922-956f-392c27ee3b1d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_GET_DWORD_PROPERTY, PRESUTIL_GET_DWORD_PROPERTY function [Failover Cluster], ResUtilGetDwordProperty, ResUtilGetDwordProperty function [Failover Cluster], _wolf_resutilgetdwordproperty, mscs.resutilgetdwordproperty, resapi/PRESUTIL_GET_DWORD_PROPERTY, resapi/ResUtilGetDwordProperty",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilGetDwordProperty",
+    "resapi/ResUtilGetDwordProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilGetDwordProperty"
+  ]
+}

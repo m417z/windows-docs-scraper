@@ -1,0 +1,54 @@
+{
+  "UID": "NS:irb._IDE_CHANNEL_CONFIGURATION",
+  "title": "IDE_CHANNEL_CONFIGURATION (irb.h)",
+  "description": "The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ide_channel_configuration.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IDE_CHANNEL_CONFIGURATION structure"
+  ],
+  "ms.keywords": "*PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], _IDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, irb/PIDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml",
+  "req.header": "irb.h",
+  "req.include-header": "Irb.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION",
+  "f1_keywords": [
+    "_IDE_CHANNEL_CONFIGURATION",
+    "irb/_IDE_CHANNEL_CONFIGURATION",
+    "PIDE_CHANNEL_CONFIGURATION",
+    "irb/PIDE_CHANNEL_CONFIGURATION",
+    "IDE_CHANNEL_CONFIGURATION",
+    "irb/IDE_CHANNEL_CONFIGURATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "irb.h"
+  ],
+  "api_name": [
+    "_IDE_CHANNEL_CONFIGURATION",
+    "PIDE_CHANNEL_CONFIGURATION",
+    "IDE_CHANNEL_CONFIGURATION"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:pcivirt.SRIOV_SET_POWER_STATE",
+  "title": "SRIOV_SET_POWER_STATE (pcivirt.h)",
+  "description": "Sets the power state of the specified PCI Express SR-IOV Virtual Function (VF).",
+  "old-location": "pci\\sriov_set_power_state.htm",
+  "tech.root": "PCI",
+  "ms.date": "02/24/2018",
+  "keywords": [
+    "SRIOV_SET_POWER_STATE callback"
+  ],
+  "ms.keywords": "PCI.sriov_set_power_state, SRIOV_SET_POWER_STATE, SRIOV_SET_POWER_STATE callback function [Buses], pcivirt/SRIOV_SET_POWER_STATE",
+  "req.header": "pcivirt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "PARCLASS_INFORMATION, *PPARCLASS_INFORMATION",
+  "f1_keywords": [
+    "SRIOV_SET_POWER_STATE",
+    "pcivirt/SRIOV_SET_POWER_STATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Pcivirt.h"
+  ],
+  "api_name": [
+    "SRIOV_SET_POWER_STATE"
+  ]
+}

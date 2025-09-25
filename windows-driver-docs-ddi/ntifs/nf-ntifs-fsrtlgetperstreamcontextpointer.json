@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.FsRtlGetPerStreamContextPointer",
+  "title": "FsRtlGetPerStreamContextPointer macro (ntifs.h)",
+  "description": "The FsRtlGetPerStreamContextPointer macro returns the file system's stream context for a file stream.",
+  "old-location": "ifsk\\fsrtlgetperstreamcontextpointer.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FsRtlGetPerStreamContextPointer macro"
+  ],
+  "ms.keywords": "FsRtlGetPerStreamContextPointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, ifsk.fsrtlgetperstreamcontextpointer, ntifs/FsRtlGetPerStreamContextPointer",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows XP; Windows 2000 SP4 Update Rollup",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FsRtlGetPerStreamContextPointer",
+    "ntifs/FsRtlGetPerStreamContextPointer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FsRtlGetPerStreamContextPointer"
+  ]
+}

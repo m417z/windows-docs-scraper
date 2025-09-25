@@ -1,0 +1,4 @@
+typedef struct _PERF_MULTI_INSTANCES {
+  ULONG dwTotalSize;
+  ULONG dwInstances;
+} PERF_MULTI_INSTANCES, *PPERF_MULTI_INSTANCES;

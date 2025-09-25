@@ -1,0 +1,6 @@
+typedef struct D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT {
+  D3D11_AUTHENTICATED_QUERY_OUTPUT            Output;
+  UINT                                        ProcessIndex;
+  D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE ProcessIdentifier;
+  HANDLE                                      ProcessHandle;
+} D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT;

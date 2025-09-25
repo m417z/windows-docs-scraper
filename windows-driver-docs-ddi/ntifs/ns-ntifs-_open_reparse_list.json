@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._OPEN_REPARSE_LIST",
+  "title": "_OPEN_REPARSE_LIST (ntifs.h)",
+  "description": "Points to a list of OPEN_REPARSE_LIST_ENTRY structures that specify the tag and possibly GUID that should be opened directly without returning STATUS_REPARSE.",
+  "old-location": "ifsk\\open_reparse_list.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "OPEN_REPARSE_LIST structure"
+  ],
+  "ms.keywords": "*POPEN_REPARSE_LIST, OPEN_REPARSE_LIST, OPEN_REPARSE_LIST structure [Installable File System Drivers], POPEN_REPARSE_LIST, POPEN_REPARSE_LIST structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST, ifsk.open_reparse_list, ntifs/OPEN_REPARSE_LIST, ntifs/POPEN_REPARSE_LIST",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST",
+  "f1_keywords": [
+    "_OPEN_REPARSE_LIST",
+    "ntifs/_OPEN_REPARSE_LIST",
+    "POPEN_REPARSE_LIST",
+    "ntifs/POPEN_REPARSE_LIST",
+    "OPEN_REPARSE_LIST",
+    "ntifs/OPEN_REPARSE_LIST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_OPEN_REPARSE_LIST",
+    "POPEN_REPARSE_LIST",
+    "OPEN_REPARSE_LIST"
+  ]
+}

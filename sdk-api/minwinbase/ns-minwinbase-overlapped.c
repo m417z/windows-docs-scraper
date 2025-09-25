@@ -1,0 +1,12 @@
+typedef struct _OVERLAPPED {
+  ULONG_PTR Internal;
+  ULONG_PTR InternalHigh;
+  union {
+    struct {
+      DWORD Offset;
+      DWORD OffsetHigh;
+    } DUMMYSTRUCTNAME;
+    PVOID Pointer;
+  } DUMMYUNIONNAME;
+  HANDLE    hEvent;
+} OVERLAPPED, *LPOVERLAPPED;

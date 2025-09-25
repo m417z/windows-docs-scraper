@@ -1,0 +1,4 @@
+MSTCPIP_INLINE VOID IN4_UNCANONICALIZE_SCOPE_ID(
+  const IN_ADDR *Address,
+  SCOPE_ID      *ScopeId
+);

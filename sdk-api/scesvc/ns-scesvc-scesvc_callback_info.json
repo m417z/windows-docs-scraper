@@ -1,0 +1,66 @@
+{
+  "UID": "NS:scesvc._SCESVC_CALLBACK_INFO_",
+  "title": "SCESVC_CALLBACK_INFO (scesvc.h)",
+  "description": "The SCESVC_CALLBACK_INFO structure contains an opaque database handle and callback function pointers to query, set, and free information.",
+  "helpviewer_keywords": [
+    "*PSCESVC_CALLBACK_INFO",
+    "PSCESVC_CALLBACK_INFO",
+    "PSCESVC_CALLBACK_INFO structure pointer [Security]",
+    "SCESVC_CALLBACK_INFO",
+    "SCESVC_CALLBACK_INFO structure [Security]",
+    "_config_scesvc_callback_info",
+    "scesvc/PSCESVC_CALLBACK_INFO",
+    "scesvc/SCESVC_CALLBACK_INFO",
+    "security.scesvc_callback_info"
+  ],
+  "old-location": "security\\scesvc_callback_info.htm",
+  "tech.root": "security",
+  "ms.assetid": "ff232f21-2c2f-4e5e-8b2d-e89147e2d38a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO structure pointer [Security], SCESVC_CALLBACK_INFO, SCESVC_CALLBACK_INFO structure [Security], _config_scesvc_callback_info, scesvc/PSCESVC_CALLBACK_INFO, scesvc/SCESVC_CALLBACK_INFO, security.scesvc_callback_info",
+  "req.header": "scesvc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SCESVC_CALLBACK_INFO, *PSCESVC_CALLBACK_INFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SCESVC_CALLBACK_INFO_",
+    "scesvc/_SCESVC_CALLBACK_INFO_",
+    "PSCESVC_CALLBACK_INFO",
+    "scesvc/PSCESVC_CALLBACK_INFO",
+    "SCESVC_CALLBACK_INFO",
+    "scesvc/SCESVC_CALLBACK_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Scesvc.h"
+  ],
+  "api_name": [
+    "SCESVC_CALLBACK_INFO"
+  ]
+}

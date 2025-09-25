@@ -1,0 +1,49 @@
+{
+  "UID": "NF:strmini.StreamClassRegisterFilterWithNoKSPins",
+  "title": "StreamClassRegisterFilterWithNoKSPins function (strmini.h)",
+  "description": "The StreamClassRegisterFilterWithNoKSPins routine is used to register filter drivers with Microsoft DirectShow that have no kernel streaming pins and, therefore, do not stream in kernel mode.",
+  "old-location": "stream\\streamclassregisterfilterwithnokspins.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "StreamClassRegisterFilterWithNoKSPins function"
+  ],
+  "ms.keywords": "StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, strmini/StreamClassRegisterFilterWithNoKSPins",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Stream.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StreamClassRegisterFilterWithNoKSPins",
+    "strmini/StreamClassRegisterFilterWithNoKSPins"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Stream.lib",
+    "Stream.dll"
+  ],
+  "api_name": [
+    "StreamClassRegisterFilterWithNoKSPins"
+  ]
+}

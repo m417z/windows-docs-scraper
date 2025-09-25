@@ -1,0 +1,31 @@
+typedef struct _DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT {
+  HANDLE                    hAdapter;
+  SIZE_T                    Size;
+  ULONG_PTR                 Context;
+  DXGK_PHYSICAL_MEMORY_TYPE Type;
+  DXGK_MEMORY_CACHING_TYPE  CacheType;
+  union {
+    struct {
+      PHYSICAL_ADDRESS LowAddress;
+      PHYSICAL_ADDRESS HighAddress;
+      PHYSICAL_ADDRESS SkipBytes;
+      UINT             Flags;
+    } Mdl;
+    struct {
+      PHYSICAL_ADDRESS LowestAcceptableAddress;
+      PHYSICAL_ADDRESS HighestAcceptableAddress;
+      PHYSICAL_ADDRESS BoundaryAddressMultiple;
+    } ContiguousMemory;
+    struct {
+      ACCESS_MASK        DesiredAccess;
+      POBJECT_ATTRIBUTES ObjectAttributes;
+      ULONG              PageProtection;
+      ULONG              AllocationAttributes;
+    } Section;
+    struct {
+      PHYSICAL_ADDRESS BaseAddress;
+    } IOSpace;
+  };
+  HANDLE                    hPhysicalMemoryObject;
+  HANDLE                    hAdapterMemoryObject;
+} DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT;

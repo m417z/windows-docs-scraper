@@ -1,0 +1,46 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_GETDISPLAYSTATENONINTRUSIVE",
+  "title": "DXGKDDI_GETDISPLAYSTATENONINTRUSIVE",
+  "ms.date": "03/24/2020",
+  "targetos": "Windows",
+  "description": "The operating system calls a display miniport driver's DxgkDdiGetDisplayStateNonIntrusive routine to nonintrusively collect display state information from the driver.",
+  "tech.root": "display",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dispmprt.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_GETDISPLAYSTATENONINTRUSIVE"
+  ],
+  "f1_keywords": [
+    "DXGKDDI_GETDISPLAYSTATENONINTRUSIVE",
+    "dispmprt/DXGKDDI_GETDISPLAYSTATENONINTRUSIVE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

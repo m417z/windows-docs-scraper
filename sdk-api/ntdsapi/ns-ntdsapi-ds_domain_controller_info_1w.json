@@ -1,0 +1,71 @@
+{
+  "UID": "NS:ntdsapi.DS_DOMAIN_CONTROLLER_INFO_1W",
+  "title": "DS_DOMAIN_CONTROLLER_INFO_1W (ntdsapi.h)",
+  "description": "The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function. (Unicode)",
+  "helpviewer_keywords": [
+    "*PDS_DOMAIN_CONTROLLER_INFO_1W",
+    "DS_DOMAIN_CONTROLLER_INFO_1",
+    "DS_DOMAIN_CONTROLLER_INFO_1 structure [Active Directory]",
+    "DS_DOMAIN_CONTROLLER_INFO_1A",
+    "DS_DOMAIN_CONTROLLER_INFO_1W",
+    "PDS_DOMAIN_CONTROLLER_INFO_1",
+    "PDS_DOMAIN_CONTROLLER_INFO_1 structure pointer [Active Directory]",
+    "_glines_ds_domain_controller_info_1",
+    "ad.ds__domain__controller__info__1",
+    "ad.ds_domain_controller_info_1",
+    "ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1",
+    "ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1A",
+    "ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W",
+    "ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1"
+  ],
+  "old-location": "ad\\ds_domain_controller_info_1.htm",
+  "tech.root": "ad",
+  "ms.assetid": "6cc829ac-2aa6-49ef-b1ab-9c249249e0d6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PDS_DOMAIN_CONTROLLER_INFO_1W, DS_DOMAIN_CONTROLLER_INFO_1, DS_DOMAIN_CONTROLLER_INFO_1 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_1A, DS_DOMAIN_CONTROLLER_INFO_1W, PDS_DOMAIN_CONTROLLER_INFO_1, PDS_DOMAIN_CONTROLLER_INFO_1 structure pointer [Active Directory], _glines_ds_domain_controller_info_1, ad.ds__domain__controller__info__1, ad.ds_domain_controller_info_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1",
+  "req.header": "ntdsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DS_DOMAIN_CONTROLLER_INFO_1W (Unicode) and DS_DOMAIN_CONTROLLER_INFO_1A (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DS_DOMAIN_CONTROLLER_INFO_1W, *PDS_DOMAIN_CONTROLLER_INFO_1W",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PDS_DOMAIN_CONTROLLER_INFO_1W",
+    "ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1W",
+    "DS_DOMAIN_CONTROLLER_INFO_1W",
+    "ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntdsapi.h"
+  ],
+  "api_name": [
+    "DS_DOMAIN_CONTROLLER_INFO_1",
+    "DS_DOMAIN_CONTROLLER_INFO_1A",
+    "DS_DOMAIN_CONTROLLER_INFO_1W"
+  ]
+}

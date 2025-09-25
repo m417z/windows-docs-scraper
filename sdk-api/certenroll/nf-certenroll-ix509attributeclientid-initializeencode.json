@@ -1,0 +1,63 @@
+{
+  "UID": "NF:certenroll.IX509AttributeClientId.InitializeEncode",
+  "title": "IX509AttributeClientId::InitializeEncode (certenroll.h)",
+  "description": "Initializes the attribute from information about the user, client computer, and application that submitted the certificate request.",
+  "helpviewer_keywords": [
+    "IX509AttributeClientId interface [Security]",
+    "InitializeEncode method",
+    "IX509AttributeClientId.InitializeEncode",
+    "IX509AttributeClientId::InitializeEncode",
+    "InitializeEncode",
+    "InitializeEncode method [Security]",
+    "InitializeEncode method [Security]",
+    "IX509AttributeClientId interface",
+    "certenroll/IX509AttributeClientId::InitializeEncode",
+    "security.ix509attributeclientid_initializeencode_method"
+  ],
+  "old-location": "security\\ix509attributeclientid_initializeencode_method.htm",
+  "tech.root": "security",
+  "ms.assetid": "6a0e5b6f-0522-4c60-9ea1-7a5c2722cebd",
+  "ms.date": "11/27/2023",
+  "ms.keywords": "IX509AttributeClientId interface [Security],InitializeEncode method, IX509AttributeClientId.InitializeEncode, IX509AttributeClientId::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::InitializeEncode, security.ix509attributeclientid_initializeencode_method",
+  "req.header": "certenroll.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "CertEnroll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IX509AttributeClientId::InitializeEncode",
+    "certenroll/IX509AttributeClientId::InitializeEncode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "CertEnroll.dll"
+  ],
+  "api_name": [
+    "IX509AttributeClientId.InitializeEncode"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "UID": "NF:winnt.RtlVirtualUnwind",
+  "title": "RtlVirtualUnwind function (winnt.h)",
+  "description": "Retrieves the invocation context of the function that precedes the specified function context.",
+  "helpviewer_keywords": [
+    "RtlVirtualUnwind",
+    "RtlVirtualUnwind function",
+    "UNW_FLAG_CHAININFO",
+    "UNW_FLAG_EHANDLER",
+    "UNW_FLAG_NHANDLER",
+    "UNW_FLAG_UHANDLER",
+    "base.rtlvirtualunwind",
+    "winnt/RtlVirtualUnwind"
+  ],
+  "old-location": "base\\rtlvirtualunwind.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "78d60f7a-0e16-4856-8aca-c251ab066b83",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "RtlVirtualUnwind, RtlVirtualUnwind function, UNW_FLAG_CHAININFO, UNW_FLAG_EHANDLER, UNW_FLAG_NHANDLER, UNW_FLAG_UHANDLER, base.rtlvirtualunwind, winnt/RtlVirtualUnwind",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Windows XP Professional x64 Edition or 64-bit editions of Windows Server 2003",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlVirtualUnwind",
+    "winnt/RtlVirtualUnwind"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-rtlsupport-l1-2-2.dll",
+    "api-ms-win-core-rtlsupport-l1-2-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-rtlsupport-l1-1-0.dll",
+    "ntdll.dll",
+    "API-MS-Win-Core-rtlsupport-l1-2-0.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "RtlVirtualUnwind"
+  ]
+}

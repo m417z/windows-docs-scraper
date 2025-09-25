@@ -1,0 +1,48 @@
+{
+  "UID": "NS:storport._STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+  "tech.root": "storage",
+  "title": "STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG contains the payload for a live dump captured by StorPortCaptureLiveDump.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG, *PSTORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+    "PSTORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+    "STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG"
+  ],
+  "f1_keywords": [
+    "_STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+    "storport/_STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+    "PSTORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+    "storport/PSTORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+    "STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG",
+    "storport/STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

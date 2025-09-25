@@ -1,0 +1,3 @@
+HRESULT get_Status(
+  FAX_PROVIDER_STATUS_ENUM *pStatus
+);

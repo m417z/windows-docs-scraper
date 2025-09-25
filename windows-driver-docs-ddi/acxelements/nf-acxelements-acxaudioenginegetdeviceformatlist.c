@@ -1,0 +1,3 @@
+ACXDATAFORMATLIST AcxAudioEngineGetDeviceFormatList(
+  ACXAUDIOENGINE AudioEngine
+);

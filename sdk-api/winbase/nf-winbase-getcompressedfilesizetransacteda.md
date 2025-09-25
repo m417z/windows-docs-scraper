@@ -1,0 +1,79 @@
+# GetCompressedFileSizeTransactedA function
+
+## Description
+
+[Microsoft strongly recommends developers utilize alternative means to achieve your
+application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily
+available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more
+information, and alternatives to TxF, please see
+[Alternatives to using Transactional NTFS](https://learn.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).]
+
+Retrieves the actual number of bytes of disk storage used to store a specified file as a transacted operation. If the file is located on a volume that supports compression and the file is compressed, the value obtained is the compressed size of the specified file. If the file is located on a volume that supports sparse files and the file is a sparse file, the value obtained is the sparse size of the specified file.
+
+## Parameters
+
+### `lpFileName` [in]
+
+The name of the file.
+
+Do not specify the name of a file on a nonseeking device, such as a pipe or a communications device, as its file size has no meaning.
+
+The file must reside on the local computer; otherwise, the function fails and the last error code is set to **ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE**.
+
+### `lpFileSizeHigh` [out, optional]
+
+A pointer to a variable that receives the high-order **DWORD** of the compressed file size. The function's return value is the low-order **DWORD** of the compressed file size.
+
+This parameter can be **NULL** if the high-order **DWORD** of the compressed file size is not needed. Files less than 4 gigabytes in size do not need the high-order **DWORD**.
+
+### `hTransaction` [in]
+
+A handle to the transaction. This handle is returned by the [CreateTransaction](https://learn.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction) function.
+
+## Return value
+
+If the function succeeds, the return value is the low-order **DWORD** of the actual number of bytes of disk storage used to store the specified file, and if *lpFileSizeHigh* is non-**NULL**, the function puts the high-order **DWORD** of that actual value into the **DWORD** pointed to by that parameter. This is the compressed file size for compressed files, the actual file size for noncompressed files.
+
+If the function fails, and *lpFileSizeHigh* is **NULL**, the return value is **INVALID_FILE_SIZE**. To get extended error information, call
+[GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+
+If the return value is **INVALID_FILE_SIZE** and *lpFileSizeHigh* is non-**NULL**, an application must call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to determine whether the function has succeeded (value is **NO_ERROR**) or failed (value is other than **NO_ERROR**).
+
+## Remarks
+
+An application can determine whether a volume is compressed by calling
+[GetVolumeInformation](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa), then checking the status of the **FS_VOL_IS_COMPRESSED** flag in the **DWORD** value pointed to by that function's *lpFileSystemFlags* parameter.
+
+If the file is not located on a volume that supports compression or sparse files, or if the file is not compressed or a sparse file, the value obtained is the actual file size, the same as the value returned by a call to
+[GetFileSize](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesize).
+
+**Symbolic links:** If the path points to a symbolic link, the function returns the file size of the target.
+
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+
+| Technology | Supported |
+| --- | --- |
+| Server Message Block (SMB) 3.0 protocol | No |
+| SMB 3.0 Transparent Failover (TFO) | No |
+| SMB 3.0 with Scale-out File Shares (SO) | No |
+| Cluster Shared Volume File System (CsvFS) | No |
+| Resilient File System (ReFS) | No |
+
+SMB 3.0 does not support TxF.
+
+> [!NOTE]
+> The winbase.h header defines GetCompressedFileSizeTransacted as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[File Compression and Decompression](https://learn.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression)
+
+[File Management Functions](https://learn.microsoft.com/windows/desktop/FileIO/file-management-functions)
+
+[GetFileSize](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesize)
+
+[GetVolumeInformation](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)
+
+[Symbolic Links](https://learn.microsoft.com/windows/desktop/FileIO/symbolic-links)
+
+[Transaction Management](https://learn.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal)

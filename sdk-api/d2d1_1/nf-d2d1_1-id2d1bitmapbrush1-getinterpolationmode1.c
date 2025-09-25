@@ -1,0 +1,1 @@
+D2D1_INTERPOLATION_MODE GetInterpolationMode1();

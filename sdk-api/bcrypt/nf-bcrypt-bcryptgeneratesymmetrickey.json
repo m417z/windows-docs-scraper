@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptGenerateSymmetricKey",
+  "title": "BCryptGenerateSymmetricKey function (bcrypt.h)",
+  "description": "Creates a key object for use with a symmetrical key encryption algorithm from a supplied key.",
+  "helpviewer_keywords": [
+    "BCryptGenerateSymmetricKey",
+    "BCryptGenerateSymmetricKey function [Security]",
+    "bcrypt/BCryptGenerateSymmetricKey",
+    "security.bcryptgeneratesymmetrickey_func"
+  ],
+  "old-location": "security\\bcryptgeneratesymmetrickey_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "c55d714f-f47e-4ddf-97b9-985c0441bb2d",
+  "ms.date": "06/30/2025",
+  "ms.keywords": "BCryptGenerateSymmetricKey, BCryptGenerateSymmetricKey function [Security], bcrypt/BCryptGenerateSymmetricKey, security.bcryptgeneratesymmetrickey_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptGenerateSymmetricKey",
+    "bcrypt/BCryptGenerateSymmetricKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptGenerateSymmetricKey"
+  ]
+}

@@ -1,0 +1,9 @@
+typedef struct _DXGK_DISPLAYSTATE_NONINTRUSIVE {
+  D3DDDI_VIDEO_PRESENT_TARGET_ID   VidPnTargetId;
+  DXGK_DIAG_DISPLAY_CONNECTIVITY   DisplayConnectivity;
+  DXGK_DIAG_DISPLAY_LID_STATE      DisplayLidState;
+  DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY DisplayTopology;
+  DXGK_DIAG_DISPLAY_LINK_STATE     DisplayLinkState;
+  DXGK_DIAG_DISPLAY_MODE_SET       DisplayModeSet;
+  UINT                             ReturnSubStatus;
+} DXGK_DISPLAYSTATE_NONINTRUSIVE;

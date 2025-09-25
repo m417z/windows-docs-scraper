@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddk._WHEA_MSR_DUMP_SECTION",
+  "title": "WHEA_MSR_DUMP_SECTION",
+  "tech.root": "whea",
+  "ms.date": "04/28/2020",
+  "targetos": "Windows",
+  "description": "Learn more about: WHEA_MSR_DUMP_SECTION",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "WHEA_MSR_DUMP_SECTION, *PWHEA_MSR_DUMP_SECTION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_WHEA_MSR_DUMP_SECTION",
+    "PWHEA_MSR_DUMP_SECTION",
+    "WHEA_MSR_DUMP_SECTION"
+  ],
+  "f1_keywords": [
+    "_WHEA_MSR_DUMP_SECTION",
+    "ntddk/_WHEA_MSR_DUMP_SECTION",
+    "PWHEA_MSR_DUMP_SECTION",
+    "ntddk/PWHEA_MSR_DUMP_SECTION",
+    "WHEA_MSR_DUMP_SECTION",
+    "ntddk/WHEA_MSR_DUMP_SECTION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,33 @@
+# RILPHONEBOOKENTRYPARAMMASK enumeration (ntddrilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_PARAM_PBE_INDEX`
+
+### `RIL_PARAM_PBE_ADDRESS`
+
+### `RIL_PARAM_PBE_TEXT`
+
+### `RIL_PARAM_PBE_SECONDNAME`
+
+### `RIL_PARAM_PBE_GROUPIDCOUNT`
+
+### `RIL_PARAM_PBE_GROUPID`
+
+### `RIL_PARAM_PBE_ADDITIONALNUMCOUNT`
+
+### `RIL_PARAM_PBE_ADDITIONALNUMSIZE`
+
+### `RIL_PARAM_PBE_ADDITIONALNUMOFFSET`
+
+### `RIL_PARAM_PBE_EMAILCOUNT`
+
+### `RIL_PARAM_PBE_EMAILSIZE`
+
+### `RIL_PARAM_PBE_EMAILOFFSET`
+
+### `RIL_PARAM_PBE_ALL`

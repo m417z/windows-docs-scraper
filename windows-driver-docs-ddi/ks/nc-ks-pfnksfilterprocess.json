@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ks.PFNKSFILTERPROCESS",
+  "title": "PFNKSFILTERPROCESS (ks.h)",
+  "description": "An AVStream minidriver's AVStrMiniFilterProcess routine is called when the filter is meant to process frames. It is used to perform Filter-Centric Processing.",
+  "tech.root": "stream",
+  "ms.date": "07/13/2022",
+  "keywords": [
+    "PFNKSFILTERPROCESS callback function"
+  ],
+  "ms.keywords": "AVStrMiniFilterProcess, AVStrMiniFilterProcess routine [Streaming Media Devices], PFNKSFILTERPROCESS, avstclbk_220bff5f-a966-460b-9157-b512cfc9c336.xml, ks/AVStrMiniFilterProcess, stream.avstrminifilterprocess",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "(See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSFILTERPROCESS",
+    "ks/PFNKSFILTERPROCESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSFILTERPROCESS"
+  ]
+}

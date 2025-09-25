@@ -1,0 +1,3 @@
+BOOL OEMStartPage(
+  SURFOBJ *pso
+);

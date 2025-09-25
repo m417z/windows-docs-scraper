@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ucxendpoint.UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT",
+  "title": "UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function (ucxendpoint.h)",
+  "description": "Initializes a UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure with client driver's callback functions. The client driver calls this function before calling UcxEndpointCreate method to create an endpoint and register its callback functions with UCX.",
+  "old-location": "buses\\ucx_default_endpoint_event_callbacks_init.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function"
+  ],
+  "ms.keywords": "UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses.ucx_default_endpoint_event_callbacks_init, ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT",
+  "req.header": "ucxendpoint.h",
+  "req.include-header": "Ucxclass.h, Ucxendpoint.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT",
+    "ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucxendpoint.h"
+  ],
+  "api_name": [
+    "UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT"
+  ]
+}

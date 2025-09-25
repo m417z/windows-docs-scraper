@@ -1,0 +1,3 @@
+HRESULT SetEvictionPriority(
+  UINT EvictionPriority
+);

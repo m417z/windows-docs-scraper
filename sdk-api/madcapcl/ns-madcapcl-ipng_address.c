@@ -1,0 +1,4 @@
+typedef union _IPNG_ADDRESS {
+  DWORD IpAddrV4;
+  BYTE  IpAddrV6[16];
+} IPNG_ADDRESS, *PIPNG_ADDRESS;

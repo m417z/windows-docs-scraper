@@ -1,0 +1,3 @@
+HRESULT GetRightIndent(
+  float *pValue
+);

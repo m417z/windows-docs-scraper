@@ -1,0 +1,52 @@
+{
+  "UID": "NF:certadm.IOCSPAdmin.get_OCSPServiceProperties",
+  "title": "IOCSPAdmin::get_OCSPServiceProperties (certadm.h)",
+  "description": "Gets an instance of an OCSPPropertyCollection object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service.",
+  "old-location": "security\\iocspadmin_ocspserviceproperties_method.htm",
+  "tech.root": "security",
+  "ms.assetid": "d792283b-dde9-46b7-8483-b3011b4433eb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IOCSPAdmin interface [Security],OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin.get_OCSPServiceProperties, IOCSPAdmin::OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method",
+  "req.header": "certadm.h",
+  "req.include-header": "Certsrv.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Certadm.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Certadm.lib",
+  "req.dll": "Certadm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOCSPAdmin::get_OCSPServiceProperties",
+    "certadm/IOCSPAdmin::get_OCSPServiceProperties"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certadm.dll"
+  ],
+  "api_name": [
+    "IOCSPAdmin.OCSPServiceProperties",
+    "IOCSPAdmin.get_OCSPServiceProperties"
+  ]
+}

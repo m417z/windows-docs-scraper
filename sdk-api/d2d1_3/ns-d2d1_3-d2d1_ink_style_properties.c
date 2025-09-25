@@ -1,0 +1,4 @@
+typedef struct D2D1_INK_STYLE_PROPERTIES {
+  D2D1_INK_NIB_SHAPE nibShape;
+  D2D1_MATRIX_3X2_F  nibTransform;
+} D2D1_INK_STYLE_PROPERTIES;

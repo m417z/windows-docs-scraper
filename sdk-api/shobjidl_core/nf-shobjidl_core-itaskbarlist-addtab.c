@@ -1,0 +1,3 @@
+HRESULT AddTab(
+  HWND hwnd
+);

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:processsnapshot.PssFreeSnapshot",
+  "title": "PssFreeSnapshot function (processsnapshot.h)",
+  "description": "Frees a snapshot.",
+  "helpviewer_keywords": [
+    "PssFreeSnapshot",
+    "PssFreeSnapshot function",
+    "proc_snap.pssfreesnapshot",
+    "processsnapshot/PssFreeSnapshot"
+  ],
+  "old-location": "proc_snap\\pssfreesnapshot.htm",
+  "tech.root": "proc_snap",
+  "ms.assetid": "5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapshot, processsnapshot/PssFreeSnapshot",
+  "req.header": "processsnapshot.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PssFreeSnapshot",
+    "processsnapshot/PssFreeSnapshot"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll",
+    "API-MS-Win-Core-Processsnapshot-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "PssFreeSnapshot"
+  ]
+}

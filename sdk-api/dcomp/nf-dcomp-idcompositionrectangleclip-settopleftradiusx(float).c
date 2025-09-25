@@ -1,0 +1,3 @@
+HRESULT SetTopLeftRadiusX(
+  float radius
+);

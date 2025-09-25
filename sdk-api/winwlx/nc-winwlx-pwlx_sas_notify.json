@@ -1,0 +1,61 @@
+{
+  "UID": "NC:winwlx.PWLX_SAS_NOTIFY",
+  "title": "PWLX_SAS_NOTIFY (winwlx.h)",
+  "description": "Called by GINA to notify Winlogon of a secure attention sequence (SAS) event.",
+  "helpviewer_keywords": [
+    "PWLX_SAS_NOTIFY",
+    "PWLX_SAS_NOTIFY callback",
+    "WLX_SAS_TYPE_CTRL_ALT_DEL",
+    "WlxSasNotify",
+    "WlxSasNotify callback function [Security]",
+    "_gina_wlxsasnotify",
+    "security.wlxsasnotify",
+    "winwlx/WlxSasNotify"
+  ],
+  "old-location": "security\\wlxsasnotify.htm",
+  "tech.root": "security",
+  "ms.assetid": "534afdf8-6809-413a-ac5c-23978f2b288a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PWLX_SAS_NOTIFY, PWLX_SAS_NOTIFY callback, WLX_SAS_TYPE_CTRL_ALT_DEL, WlxSasNotify, WlxSasNotify callback function [Security], _gina_wlxsasnotify, security.wlxsasnotify, winwlx/WlxSasNotify",
+  "req.header": "winwlx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PWLX_SAS_NOTIFY",
+    "winwlx/PWLX_SAS_NOTIFY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "winwlx.h"
+  ],
+  "api_name": [
+    "WlxSasNotify"
+  ]
+}

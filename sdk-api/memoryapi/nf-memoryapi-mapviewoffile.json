@@ -1,0 +1,79 @@
+{
+  "UID": "NF:memoryapi.MapViewOfFile",
+  "title": "MapViewOfFile function (memoryapi.h)",
+  "description": "Maps a view of a file mapping into the address space of a calling process.",
+  "helpviewer_keywords": [
+    "FILE_MAP_ALL_ACCESS",
+    "FILE_MAP_COPY",
+    "FILE_MAP_EXECUTE",
+    "FILE_MAP_LARGE_PAGES",
+    "FILE_MAP_READ",
+    "FILE_MAP_TARGETS_INVALID",
+    "FILE_MAP_WRITE",
+    "MapViewOfFile",
+    "MapViewOfFile function",
+    "_win32_mapviewoffile",
+    "base.mapviewoffile",
+    "fs.mapviewoffile",
+    "winbase/MapViewOfFile"
+  ],
+  "old-location": "base\\mapviewoffile.htm",
+  "tech.root": "base",
+  "ms.assetid": "df9f54cd-b2de-4107-a1c5-d5a07045851e",
+  "ms.date": "10/30/2024",
+  "ms.keywords": "FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFile, MapViewOfFile function, _win32_mapviewoffile, base.mapviewoffile, fs.mapviewoffile, winbase/MapViewOfFile",
+  "req.header": "memoryapi.h",
+  "req.include-header": "Windows.h, Memoryapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MapViewOfFile",
+    "memoryapi/MapViewOfFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-memory-l1-1-9.dll",
+    "api-ms-win-core-memory-l1-1-8.dll",
+    "api-ms-win-core-memory-l1-1-7.dll",
+    "api-ms-win-core-memory-l1-1-6.dll",
+    "api-ms-win-core-memory-l1-1-5.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-memory-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-memory-l1-1-1.dll",
+    "API-MS-Win-Core-memory-l1-1-2.dll",
+    "API-MS-Win-Core-memory-l1-1-3.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Memory-L1-1-4.dll"
+  ],
+  "api_name": [
+    "MapViewOfFile"
+  ]
+}

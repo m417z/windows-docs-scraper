@@ -1,0 +1,54 @@
+{
+  "UID": "NS:vhf._HID_XFER_PACKET",
+  "title": "_HID_XFER_PACKET (vhf.h)",
+  "description": "The HID_XFER_PACKET structure in vhf.h contains information about a HID report that the HID class driver uses with I/O requests to get or set a report.",
+  "old-location": "hid\\hid_xfer_packet.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "HID_XFER_PACKET structure"
+  ],
+  "ms.keywords": "*PHID_XFER_PACKET, HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], PHID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], _HID_XFER_PACKET, hid.hid_xfer_packet, hidclass/HID_XFER_PACKET, hidclass/PHID_XFER_PACKET, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml",
+  "req.header": "vhf.h",
+  "req.include-header": "Hidport.h, Vhf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "HID_XFER_PACKET, *PHID_XFER_PACKET",
+  "f1_keywords": [
+    "_HID_XFER_PACKET",
+    "vhf/_HID_XFER_PACKET",
+    "PHID_XFER_PACKET",
+    "vhf/PHID_XFER_PACKET",
+    "HID_XFER_PACKET",
+    "vhf/HID_XFER_PACKET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "hidclass.h"
+  ],
+  "api_name": [
+    "_HID_XFER_PACKET",
+    "PHID_XFER_PACKET",
+    "HID_XFER_PACKET"
+  ]
+}

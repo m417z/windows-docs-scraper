@@ -1,0 +1,4 @@
+typedef struct tagNMREBARSPLITTER {
+  NMHDR hdr;
+  RECT  rcSizing;
+} NMREBARSPLITTER, *LPNMREBARSPLITTER;

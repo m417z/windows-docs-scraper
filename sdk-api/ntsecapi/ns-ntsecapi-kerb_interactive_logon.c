@@ -1,0 +1,6 @@
+typedef struct _KERB_INTERACTIVE_LOGON {
+  KERB_LOGON_SUBMIT_TYPE MessageType;
+  UNICODE_STRING         LogonDomainName;
+  UNICODE_STRING         UserName;
+  UNICODE_STRING         Password;
+} KERB_INTERACTIVE_LOGON, *PKERB_INTERACTIVE_LOGON;

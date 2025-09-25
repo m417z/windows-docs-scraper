@@ -1,0 +1,4 @@
+typedef struct _MIB_IPADDRTABLE {
+  DWORD         dwNumEntries;
+  MIB_IPADDRROW table[ANY_SIZE];
+} MIB_IPADDRTABLE, *PMIB_IPADDRTABLE;

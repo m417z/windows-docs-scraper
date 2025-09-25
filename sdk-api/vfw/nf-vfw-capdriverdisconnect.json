@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capDriverDisconnect",
+  "title": "capDriverDisconnect macro (vfw.h)",
+  "description": "The capDriverDisconnect macro disconnects a capture driver from a capture window. You can use this macro or explicitly send the WM_CAP_DRIVER_DISCONNECT message.",
+  "helpviewer_keywords": [
+    "_win32_capDriverDisconnect",
+    "capDriverDisconnect",
+    "capDriverDisconnect macro [Windows Multimedia]",
+    "multimedia.capdriverdisconnect",
+    "vfw/capDriverDisconnect"
+  ],
+  "old-location": "multimedia\\capdriverdisconnect.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "c009adb4-bc73-4d0d-9ab1-801e92e8851f",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capDriverDisconnect, capDriverDisconnect, capDriverDisconnect macro [Windows Multimedia], multimedia.capdriverdisconnect, vfw/capDriverDisconnect",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capDriverDisconnect",
+    "vfw/capDriverDisconnect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capDriverDisconnect"
+  ]
+}

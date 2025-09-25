@@ -1,0 +1,51 @@
+{
+  "UID": "NE:ntdddisk._DETECTION_TYPE",
+  "title": "DETECTION_TYPE (ntdddisk.h)",
+  "description": "The DETECTION_TYPE enumeration type is used in conjunction with the IOCTL_DISK_GET_DRIVE_GEOMETRY_EX request and the DISK_GEOMETRY_EX structure to determine the type of formatting used by the BIOS to record the disk geometry.",
+  "old-location": "storage\\detection_type.htm",
+  "tech.root": "storage",
+  "ms.date": "05/20/2022",
+  "keywords": [
+    "DETECTION_TYPE enumeration"
+  ],
+  "ms.keywords": "DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], DetectExInt13, DetectInt13, DetectNone, _DETECTION_TYPE, ntdddisk/DETECTION_TYPE, ntdddisk/DetectExInt13, ntdddisk/DetectInt13, ntdddisk/DetectNone, storage.detection_type, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml",
+  "req.header": "ntdddisk.h",
+  "req.include-header": "Ntdddisk.h, Ntddk.h, Ntdddisk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DETECTION_TYPE",
+  "f1_keywords": [
+    "_DETECTION_TYPE",
+    "ntdddisk/_DETECTION_TYPE",
+    "DETECTION_TYPE",
+    "ntdddisk/DETECTION_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntdddisk.h"
+  ],
+  "api_name": [
+    "_DETECTION_TYPE",
+    "DETECTION_TYPE"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _WMIGUIDREGINFO {
+  LPCGUID Guid;
+  ULONG   InstanceCount;
+  ULONG   Flags;
+} WMIGUIDREGINFO, *PWMIGUIDREGINFO;

@@ -1,0 +1,7 @@
+PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0053 Pfnd3d12ddiCalcprivatevideomotionvectorheapsize0053;
+
+SIZE_T Pfnd3d12ddiCalcprivatevideomotionvectorheapsize0053(
+  D3D12DDI_HDEVICE hDrvDevice,
+  const D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053 *pArgs
+)
+{...}

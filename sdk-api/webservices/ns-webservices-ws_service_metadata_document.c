@@ -1,0 +1,4 @@
+typedef struct _WS_SERVICE_METADATA_DOCUMENT {
+  WS_XML_STRING *content;
+  WS_STRING     *name;
+} WS_SERVICE_METADATA_DOCUMENT;

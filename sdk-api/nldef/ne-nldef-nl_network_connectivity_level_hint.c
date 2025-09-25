@@ -1,0 +1,8 @@
+typedef enum _NL_NETWORK_CONNECTIVITY_LEVEL_HINT {
+  NetworkConnectivityLevelHintUnknown = 0,
+  NetworkConnectivityLevelHintNone,
+  NetworkConnectivityLevelHintLocalAccess,
+  NetworkConnectivityLevelHintInternetAccess,
+  NetworkConnectivityLevelHintConstrainedInternetAccess,
+  NetworkConnectivityLevelHintHidden
+} NL_NETWORK_CONNECTIVITY_LEVEL_HINT;

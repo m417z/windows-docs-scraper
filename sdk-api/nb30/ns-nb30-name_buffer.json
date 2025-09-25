@@ -1,0 +1,72 @@
+{
+  "UID": "NS:nb30._NAME_BUFFER",
+  "title": "NAME_BUFFER (nb30.h)",
+  "description": "The NAME_BUFFER structure contains information about a local network name. One or more NAME_BUFFER structures follows an ADAPTER_STATUS structure when an application specifies the NCBASTAT command in the ncb_command member of the NCB structure.",
+  "helpviewer_keywords": [
+    "*PNAME_BUFFER",
+    "DEREGISTERED",
+    "DUPLICATE",
+    "DUPLICATE_DEREG",
+    "GROUP_NAME",
+    "NAME_BUFFER",
+    "NAME_BUFFER structure [NetBIOS]",
+    "PNAME_BUFFER",
+    "PNAME_BUFFER structure pointer [NetBIOS]",
+    "REGISTERED",
+    "REGISTERING",
+    "UNIQUE_NAME",
+    "nb30/NAME_BUFFER",
+    "nb30/PNAME_BUFFER",
+    "netbios.name_buffer"
+  ],
+  "old-location": "netbios\\name_buffer.htm",
+  "tech.root": "NetBIOS",
+  "ms.assetid": "f1059074-68c1-4a08-98bd-ccfb314e39ec",
+  "ms.date": "11/19/2020",
+  "ms.keywords": "*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAME, NAME_BUFFER, NAME_BUFFER structure [NetBIOS], PNAME_BUFFER, PNAME_BUFFER structure pointer [NetBIOS], REGISTERED, REGISTERING, UNIQUE_NAME, nb30/NAME_BUFFER, nb30/PNAME_BUFFER, netbios.name_buffer",
+  "req.header": "nb30.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NAME_BUFFER, *PNAME_BUFFER",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_NAME_BUFFER",
+    "nb30/_NAME_BUFFER",
+    "PNAME_BUFFER",
+    "nb30/PNAME_BUFFER",
+    "NAME_BUFFER",
+    "nb30/NAME_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Nb30.h"
+  ],
+  "api_name": [
+    "NAME_BUFFER"
+  ]
+}

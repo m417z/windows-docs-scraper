@@ -1,0 +1,9 @@
+typedef union {
+  struct {
+    ULONG IDR : 1;
+    ULONG IDW : 1;
+    ULONG AD : 1;
+    ULONG Reserved : 29;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW11_DATASET_MANAGEMENT, *PNVME_CDW11_DATASET_MANAGEMENT;

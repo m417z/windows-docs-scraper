@@ -1,0 +1,3 @@
+void WebAuthNFreePlatformCredentialList(
+  PWEBAUTHN_CREDENTIAL_DETAILS_LIST pCredentialDetailsList
+);

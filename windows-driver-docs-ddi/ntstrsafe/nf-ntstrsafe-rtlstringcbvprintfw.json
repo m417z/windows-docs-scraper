@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntstrsafe.RtlStringCbVPrintfW",
+  "title": "RtlStringCbVPrintfW function (ntstrsafe.h)",
+  "description": "Learn how the RtlStringCbVPrintfW and RtlStringCbVPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information.",
+  "old-location": "kernel\\rtlstringcbvprintf.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlStringCbVPrintfW function"
+  ],
+  "ms.keywords": "RtlStringCbVPrintf, RtlStringCbVPrintfA, RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfA, ntstrsafe/RtlStringCbVPrintfW, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml",
+  "req.header": "ntstrsafe.h",
+  "req.include-header": "Ntstrsafe.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows XP with Service Pack 1 (SP1).",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RtlStringCbVPrintfW (Unicode) and RtlStringCbVPrintfA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "Any if strings being manipulated are always resident in memory, otherwise PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlStringCbVPrintfW",
+    "ntstrsafe/RtlStringCbVPrintfW"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "RtlStringCbVPrintfW"
+  ]
+}

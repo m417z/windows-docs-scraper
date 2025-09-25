@@ -1,0 +1,1 @@
+GraphicsPath * Clone();

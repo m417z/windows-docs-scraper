@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capGetMCIDeviceName",
+  "title": "capGetMCIDeviceName macro (vfw.h)",
+  "description": "The capGetMCIDeviceName macro retrieves the name of an MCI device previously set with the capSetMCIDeviceName macro. You can use this macro or explicitly call the WM_CAP_GET_MCI_DEVICE message.",
+  "helpviewer_keywords": [
+    "_win32_capGetMCIDeviceName",
+    "capGetMCIDeviceName",
+    "capGetMCIDeviceName macro [Windows Multimedia]",
+    "multimedia.capgetmcidevicename",
+    "vfw/capGetMCIDeviceName"
+  ],
+  "old-location": "multimedia\\capgetmcidevicename.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "e65a2a27-ae35-4637-8d85-1cc2162c41b1",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capGetMCIDeviceName, capGetMCIDeviceName, capGetMCIDeviceName macro [Windows Multimedia], multimedia.capgetmcidevicename, vfw/capGetMCIDeviceName",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capGetMCIDeviceName",
+    "vfw/capGetMCIDeviceName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capGetMCIDeviceName"
+  ]
+}

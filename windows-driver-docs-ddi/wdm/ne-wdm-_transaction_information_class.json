@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdm._TRANSACTION_INFORMATION_CLASS",
+  "title": "_TRANSACTION_INFORMATION_CLASS (wdm.h)",
+  "description": "The TRANSACTION_INFORMATION_CLASS enumeration specifies the type of information that ZwSetInformationTransaction can set and ZwQueryInformationTransaction can retrieve for a transaction manager object.",
+  "old-location": "kernel\\transaction_information_class.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "TRANSACTION_INFORMATION_CLASS enumeration"
+  ],
+  "ms.keywords": "TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, TransactionEnlistmentInformation, TransactionPropertiesInformation, TransactionSuperiorEnlistmentInformation, _TRANSACTION_INFORMATION_CLASS, kernel.transaction_information_class, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionBasicInformation, wdm/TransactionEnlistmentInformation, wdm/TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TRANSACTION_INFORMATION_CLASS",
+  "f1_keywords": [
+    "_TRANSACTION_INFORMATION_CLASS",
+    "wdm/_TRANSACTION_INFORMATION_CLASS",
+    "TRANSACTION_INFORMATION_CLASS",
+    "wdm/TRANSACTION_INFORMATION_CLASS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_TRANSACTION_INFORMATION_CLASS",
+    "TRANSACTION_INFORMATION_CLASS"
+  ]
+}

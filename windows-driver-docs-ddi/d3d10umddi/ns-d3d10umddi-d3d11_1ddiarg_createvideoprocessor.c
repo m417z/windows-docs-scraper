@@ -1,0 +1,4 @@
+typedef struct D3D11_1DDIARG_CREATEVIDEOPROCESSOR {
+  D3D11_1DDI_HVIDEOPROCESSORENUM hVideoProcessorEnum;
+  UINT                           RateConversionCapsIndex;
+} D3D11_1DDIARG_CREATEVIDEOPROCESSOR;

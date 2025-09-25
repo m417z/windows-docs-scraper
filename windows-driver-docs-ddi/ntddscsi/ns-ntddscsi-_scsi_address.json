@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddscsi._SCSI_ADDRESS",
+  "title": "_SCSI_ADDRESS (ntddscsi.h)",
+  "description": "The SCSI_ADDRESS structure is used in conjunction with the IOCTL_SCSI_GET_ADDRESS request to retrieve the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target.",
+  "old-location": "storage\\scsi_address.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "SCSI_ADDRESS structure"
+  ],
+  "ms.keywords": "*PSCSI_ADDRESS, PSCSI_ADDRESS, PSCSI_ADDRESS structure pointer [Storage Devices], SCSI_ADDRESS, SCSI_ADDRESS structure [Storage Devices], _SCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS, ntddscsi/SCSI_ADDRESS, storage.scsi_address, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml",
+  "req.header": "ntddscsi.h",
+  "req.include-header": "Ntddscsi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SCSI_ADDRESS, *PSCSI_ADDRESS",
+  "f1_keywords": [
+    "_SCSI_ADDRESS",
+    "ntddscsi/_SCSI_ADDRESS",
+    "PSCSI_ADDRESS",
+    "ntddscsi/PSCSI_ADDRESS",
+    "SCSI_ADDRESS",
+    "ntddscsi/SCSI_ADDRESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddscsi.h"
+  ],
+  "api_name": [
+    "_SCSI_ADDRESS",
+    "PSCSI_ADDRESS",
+    "SCSI_ADDRESS"
+  ]
+}

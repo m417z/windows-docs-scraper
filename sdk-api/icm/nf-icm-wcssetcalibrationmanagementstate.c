@@ -1,0 +1,3 @@
+BOOL WcsSetCalibrationManagementState(
+  BOOL bIsEnabled
+);

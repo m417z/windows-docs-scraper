@@ -1,0 +1,64 @@
+{
+  "UID": "NF:vsprov.IVssFileShareSnapshotProvider.IsPathSupported",
+  "title": "IVssFileShareSnapshotProvider::IsPathSupported (vsprov.h)",
+  "description": "Determines whether the given Universal Naming Convention (UNC) path is supported by this provider.",
+  "helpviewer_keywords": [
+    "IVssFileShareSnapshotProvider interface [VSS]",
+    "IsPathSupported method",
+    "IVssFileShareSnapshotProvider.IsPathSupported",
+    "IVssFileShareSnapshotProvider::IsPathSupported",
+    "IsPathSupported",
+    "IsPathSupported method [VSS]",
+    "IsPathSupported method [VSS]",
+    "IVssFileShareSnapshotProvider interface",
+    "base.ivssfilesharesnapshotprovider_ispathsupported",
+    "vsprov/IVssFileShareSnapshotProvider::IsPathSupported"
+  ],
+  "old-location": "base\\ivssfilesharesnapshotprovider_ispathsupported.htm",
+  "tech.root": "base",
+  "ms.assetid": "6a4db9dd-3854-414f-ba5c-83e36de6f19b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IVssFileShareSnapshotProvider interface [VSS],IsPathSupported method, IVssFileShareSnapshotProvider.IsPathSupported, IVssFileShareSnapshotProvider::IsPathSupported, IsPathSupported, IsPathSupported method [VSS], IsPathSupported method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsupported, vsprov/IVssFileShareSnapshotProvider::IsPathSupported",
+  "req.header": "vsprov.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VssApi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVssFileShareSnapshotProvider::IsPathSupported",
+    "vsprov/IVssFileShareSnapshotProvider::IsPathSupported"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VssApi.lib",
+    "VssApi.dll"
+  ],
+  "api_name": [
+    "IVssFileShareSnapshotProvider.IsPathSupported"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct {
+  ULONG Size;
+  ULONG Version;
+  BYTE  Unused[512];
+} GNSS_BREADCRUMBING_ALERT_DATA, *PGNSS_BREADCRUMBING_ALERT_DATA;

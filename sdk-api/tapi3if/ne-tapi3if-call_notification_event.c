@@ -1,0 +1,5 @@
+typedef enum CALL_NOTIFICATION_EVENT {
+  CNE_OWNER = 0,
+  CNE_MONITOR,
+  CNE_LASTITEM
+} ;

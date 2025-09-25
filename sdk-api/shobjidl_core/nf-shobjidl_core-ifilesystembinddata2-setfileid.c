@@ -1,0 +1,3 @@
+HRESULT SetFileID(
+  [in] LARGE_INTEGER liFileID
+);

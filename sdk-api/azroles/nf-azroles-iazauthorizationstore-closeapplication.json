@@ -1,0 +1,69 @@
+{
+  "UID": "NF:azroles.IAzAuthorizationStore.CloseApplication",
+  "title": "IAzAuthorizationStore::CloseApplication (azroles.h)",
+  "description": "Unloads a specified IAzApplication object from the cache.",
+  "helpviewer_keywords": [
+    "AZ_AZSTORE_FORCE_APPLICATION_CLOSE",
+    "AzAuthorizationStore object [Security]",
+    "CloseApplication method",
+    "CloseApplication",
+    "CloseApplication method [Security]",
+    "CloseApplication method [Security]",
+    "AzAuthorizationStore object",
+    "CloseApplication method [Security]",
+    "IAzAuthorizationStore interface",
+    "IAzAuthorizationStore interface [Security]",
+    "CloseApplication method",
+    "IAzAuthorizationStore.CloseApplication",
+    "IAzAuthorizationStore::CloseApplication",
+    "azroles/IAzAuthorizationStore::CloseApplication",
+    "security.azauthorizationstore_closeapplication"
+  ],
+  "old-location": "security\\azauthorizationstore_closeapplication.htm",
+  "tech.root": "security",
+  "ms.assetid": "7ba5fc77-676a-4fbe-8de8-2af5bf5f82f6",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AZ_AZSTORE_FORCE_APPLICATION_CLOSE, AzAuthorizationStore object [Security],CloseApplication method, CloseApplication, CloseApplication method [Security], CloseApplication method [Security],AzAuthorizationStore object, CloseApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CloseApplication method, IAzAuthorizationStore.CloseApplication, IAzAuthorizationStore::CloseApplication, azroles/IAzAuthorizationStore::CloseApplication, security.azauthorizationstore_closeapplication",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzAuthorizationStore::CloseApplication",
+    "azroles/IAzAuthorizationStore::CloseApplication"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "AzAuthorizationStore.CloseApplication",
+    "IAzAuthorizationStore.CloseApplication"
+  ]
+}

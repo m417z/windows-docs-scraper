@@ -1,0 +1,9 @@
+DXGKDDI_VIDPN_ACQUIRESOURCEMODESET DxgkddiVidpnAcquiresourcemodeset;
+
+NTSTATUS DxgkddiVidpnAcquiresourcemodeset(
+  [in]  IN_CONST_D3DKMDT_HVIDPN hVidPn,
+  [in]  IN_CONST_D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId,
+  [out] OUT_PD3DKMDT_HVIDPNSOURCEMODESET phVidPnSourceModeSet,
+  [out] DEREF_OUT_CONST_PPDXGK_VIDPNSOURCEMODESET_INTERFACE ppVidPnSourceModeSetInterface
+)
+{...}

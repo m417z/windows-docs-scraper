@@ -1,0 +1,20 @@
+typedef struct tag_SWbemRpnEncodedQuery {
+  ULONG                   m_uVersion;
+  ULONG                   m_uTokenType;
+  unsigned __int64        m_uParsedFeatureMask;
+  ULONG                   m_uDetectedArraySize;
+  ULONG                   *m_puDetectedFeatures;
+  ULONG                   m_uSelectListSize;
+  SWbemQueryQualifiedName **m_ppSelectList;
+  ULONG                   m_uFromTargetType;
+  LPCWSTR                 m_pszOptionalFromPath;
+  ULONG                   m_uFromListSize;
+  LPCWSTR                 *m_ppszFromList;
+  ULONG                   m_uWhereClauseSize;
+  SWbemRpnQueryToken      **m_ppRpnWhereClause;
+  double                  m_dblWithinPolling;
+  double                  m_dblWithinWindow;
+  ULONG                   m_uOrderByListSize;
+  LPCWSTR                 *m_ppszOrderByList;
+  ULONG                   *m_uOrderDirectionEl;
+} SWbemRpnEncodedQuery;

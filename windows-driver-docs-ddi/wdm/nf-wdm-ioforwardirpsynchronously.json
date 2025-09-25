@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoForwardIrpSynchronously",
+  "title": "IoForwardIrpSynchronously function (wdm.h)",
+  "description": "The IoForwardIrpSynchronously routine sends an IRP to a specified driver and waits for that driver to complete the IRP.",
+  "old-location": "kernel\\ioforwardirpsynchronously.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoForwardIrpSynchronously function"
+  ],
+  "ms.keywords": "IoForwardIrpSynchronously, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], k104_130c736e-6408-4484-b306-91ba275eaac0.xml, kernel.ioforwardirpsynchronously, wdm/IoForwardIrpSynchronously",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PnpIrpCompletion",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoForwardIrpSynchronously",
+    "wdm/IoForwardIrpSynchronously"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoForwardIrpSynchronously"
+  ]
+}

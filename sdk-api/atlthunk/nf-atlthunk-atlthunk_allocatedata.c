@@ -1,0 +1,1 @@
+AtlThunkData_t * AtlThunk_AllocateData();

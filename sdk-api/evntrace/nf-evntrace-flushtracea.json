@@ -1,0 +1,67 @@
+{
+  "UID": "NF:evntrace.FlushTraceA",
+  "title": "FlushTraceA function (evntrace.h)",
+  "description": "The FlushTraceA (ANSI) function (evntrace.h) causes an event tracing session to immediately deliver buffered events for the specified session.",
+  "helpviewer_keywords": [
+    "FlushTrace",
+    "FlushTrace function [ETW]",
+    "FlushTraceA",
+    "FlushTraceW",
+    "_evt_flushtrace",
+    "base.flushtrace",
+    "etw.flushtrace",
+    "evntrace/FlushTrace",
+    "evntrace/FlushTraceA",
+    "evntrace/FlushTraceW"
+  ],
+  "old-location": "etw\\flushtrace.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "bc7d0dac-93d9-4614-9cb6-fee99765eb39",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW, _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace, evntrace/FlushTraceA, evntrace/FlushTraceW",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FlushTraceW (Unicode) and FlushTraceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FlushTraceA",
+    "evntrace/FlushTraceA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-eventing-Legacy-l1-1-0.dll",
+    "advapi32legacy.dll"
+  ],
+  "api_name": [
+    "FlushTrace",
+    "FlushTraceA",
+    "FlushTraceW"
+  ]
+}

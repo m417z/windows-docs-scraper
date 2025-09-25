@@ -1,0 +1,57 @@
+{
+  "UID": "NF:traceloggingprovider.TraceLoggingRegisterEx",
+  "title": "TraceLoggingRegisterEx function (traceloggingprovider.h)",
+  "description": "Registers a TraceLogging provider so that it can be used to log events, specifying an ETW enable callback.",
+  "helpviewer_keywords": [
+    "TraceLoggingRegisterEx",
+    "TraceLoggingRegisterEx function",
+    "tracelogging.traceloggingregisterex",
+    "traceloggingprovider/TraceLoggingRegisterEx"
+  ],
+  "old-location": "tracelogging\\traceloggingregisterex.htm",
+  "tech.root": "tracelogging",
+  "ms.assetid": "E64B3855-A43B-489B-8A73-930D65FA5F79",
+  "ms.date": "06/06/2022",
+  "ms.keywords": "TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx",
+  "req.header": "traceloggingprovider.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "N/A",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TraceLoggingRegisterEx",
+    "traceloggingprovider/TraceLoggingRegisterEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "N/A"
+  ],
+  "api_name": [
+    "TraceLoggingRegisterEx"
+  ]
+}

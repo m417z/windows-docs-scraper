@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ksmedia._KSCAMERA_PROFILE_CONCURRENCYINFO",
+  "title": "_KSCAMERA_PROFILE_CONCURRENCYINFO (ksmedia.h)",
+  "description": "An array of KSCAMERA_PROFILE_CONCURRENCYINFO structures form the Camera.Concurrency parameter of the KSDEVICE_PROFILE_INFO structure (whose array size is specified by Camera.CountOfConcurrency parameter) indicating which profiles the profile identified in the KSCAMERA_PROFILE_INFO structure may run simultaneously on different cameras.",
+  "old-location": "stream\\kscamera_profile_concurrencyinfo.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KSCAMERA_PROFILE_CONCURRENCYINFO structure"
+  ],
+  "ms.keywords": "*PKSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_CONCURRENCYINFO, PKSCAMERA_PROFILE_CONCURRENCYINFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/PKSCAMERA_PROFILE_CONCURRENCYINFO, stream.kscamera_profile_concurrencyinfo",
+  "req.header": "ksmedia.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSCAMERA_PROFILE_CONCURRENCYINFO, *PKSCAMERA_PROFILE_CONCURRENCYINFO",
+  "f1_keywords": [
+    "_KSCAMERA_PROFILE_CONCURRENCYINFO",
+    "ksmedia/_KSCAMERA_PROFILE_CONCURRENCYINFO",
+    "PKSCAMERA_PROFILE_CONCURRENCYINFO",
+    "ksmedia/PKSCAMERA_PROFILE_CONCURRENCYINFO",
+    "KSCAMERA_PROFILE_CONCURRENCYINFO",
+    "ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "_KSCAMERA_PROFILE_CONCURRENCYINFO",
+    "PKSCAMERA_PROFILE_CONCURRENCYINFO",
+    "KSCAMERA_PROFILE_CONCURRENCYINFO"
+  ]
+}

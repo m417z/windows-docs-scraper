@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTOpenNtHandleFromName",
+  "title": "D3DKMTOpenNtHandleFromName function (d3dkmthk.h)",
+  "description": "The D3DKMTOpenNtHandleFromName function opens an NT handle for a graphics adapter that is specified by name.",
+  "old-location": "display\\d3dkmtopennthandlefromname.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTOpenNtHandleFromName function"
+  ],
+  "ms.keywords": "D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName callback function [Display Devices], PFND3DKMT_OPENNTHANDLEFROMNAME, PFND3DKMT_OPENNTHANDLEFROMNAME callback, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTOpenNtHandleFromName",
+    "d3dkmthk/D3DKMTOpenNtHandleFromName"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTOpenNtHandleFromName"
+  ]
+}

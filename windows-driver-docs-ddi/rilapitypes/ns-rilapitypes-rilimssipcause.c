@@ -1,0 +1,4 @@
+typedef struct RILIMSSIPCAUSE {
+  DWORD dwCauseValue;
+  DWORD dwReasonValue;
+} RILIMSSIPCAUSE, *LPRILIMSSIPCAUSE;

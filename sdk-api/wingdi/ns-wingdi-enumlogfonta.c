@@ -1,0 +1,5 @@
+typedef struct tagENUMLOGFONTA {
+  LOGFONTA elfLogFont;
+  BYTE     elfFullName[LF_FULLFACESIZE];
+  BYTE     elfStyle[LF_FACESIZE];
+} ENUMLOGFONTA, *LPENUMLOGFONTA;

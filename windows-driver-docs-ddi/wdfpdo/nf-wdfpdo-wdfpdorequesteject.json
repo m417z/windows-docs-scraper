@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfpdo.WdfPdoRequestEject",
+  "title": "WdfPdoRequestEject function (wdfpdo.h)",
+  "description": "The WdfPdoRequestEject method informs the framework that a specified device is about to be ejected from its docking station.",
+  "old-location": "wdf\\wdfpdorequesteject.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfPdoRequestEject function"
+  ],
+  "ms.keywords": "DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, WdfPdoRequestEject method, kmdf.wdfpdorequesteject, wdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject",
+  "req.header": "wdfpdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfPdoRequestEject",
+    "wdfpdo/WdfPdoRequestEject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfPdoRequestEject"
+  ]
+}

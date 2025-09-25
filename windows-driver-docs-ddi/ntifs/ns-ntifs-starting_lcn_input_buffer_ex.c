@@ -1,0 +1,4 @@
+typedef struct {
+  LARGE_INTEGER StartingLcn;
+  ULONG         Flags;
+} STARTING_LCN_INPUT_BUFFER_EX, *PSTARTING_LCN_INPUT_BUFFER_EX;

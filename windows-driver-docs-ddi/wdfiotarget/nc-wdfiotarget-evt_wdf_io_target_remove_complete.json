@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfiotarget.EVT_WDF_IO_TARGET_REMOVE_COMPLETE",
+  "title": "EVT_WDF_IO_TARGET_REMOVE_COMPLETE (wdfiotarget.h)",
+  "description": "A driver's EvtIoTargetRemoveComplete event callback function performs operations when the removal of a specified remote I/O target is complete.",
+  "old-location": "wdf\\evtiotargetremovecomplete.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback function"
+  ],
+  "ms.keywords": "DFIOTargetRef_d0c566ce-1ed7-4adb-9988-bc1751f000e1.xml, EVT_WDF_IO_TARGET_REMOVE_COMPLETE, EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback, EvtIoTargetRemoveComplete, EvtIoTargetRemoveComplete callback function, kmdf.evtiotargetremovecomplete, wdf.evtiotargetremovecomplete, wdfiotarget/EvtIoTargetRemoveComplete",
+  "req.header": "wdfiotarget.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_IO_TARGET_REMOVE_COMPLETE",
+    "wdfiotarget/EVT_WDF_IO_TARGET_REMOVE_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WdfIoTarget.h"
+  ],
+  "api_name": [
+    "EVT_WDF_IO_TARGET_REMOVE_COMPLETE"
+  ]
+}

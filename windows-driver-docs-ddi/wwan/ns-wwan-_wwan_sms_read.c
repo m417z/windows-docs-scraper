@@ -1,0 +1,4 @@
+typedef struct _WWAN_SMS_READ {
+  WWAN_SMS_FORMAT SmsFormat;
+  WWAN_SMS_FILTER ReadFilter;
+} WWAN_SMS_READ, *PWWAN_SMS_READ;

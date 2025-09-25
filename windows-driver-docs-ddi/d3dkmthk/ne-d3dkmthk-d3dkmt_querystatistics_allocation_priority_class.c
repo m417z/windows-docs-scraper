@@ -1,0 +1,8 @@
+typedef enum _D3DKMT_QUERYSTATISTICS_ALLOCATION_PRIORITY_CLASS {
+  D3DKMT_AllocationPriorityClassMinimum,
+  D3DKMT_AllocationPriorityClassLow,
+  D3DKMT_AllocationPriorityClassNormal,
+  D3DKMT_AllocationPriorityClassHigh,
+  D3DKMT_AllocationPriorityClassMaximum,
+  D3DKMT_MaxAllocationPriorityClass
+} D3DKMT_QUERYSTATISTICS_ALLOCATION_PRIORITY_CLASS;

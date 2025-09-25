@@ -1,0 +1,3 @@
+BOOL DHCP_API_FUNCTION DhcpHlprIsV4PolicySingleUC(
+  [in] LPDHCP_POLICY Policy
+);

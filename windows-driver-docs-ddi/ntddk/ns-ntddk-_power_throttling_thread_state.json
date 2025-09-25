@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddk._POWER_THROTTLING_THREAD_STATE",
+  "title": "_POWER_THROTTLING_THREAD_STATE (ntddk.h)",
+  "description": "Stores the throttling policies and how to apply them to a target thread when that thread is subject to power management.",
+  "old-location": "kernel\\power_throttling_thread_state.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "POWER_THROTTLING_THREAD_STATE structure"
+  ],
+  "ms.keywords": "*PPOWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_THREAD_STATE, kernel.power_throttling_thread_state, ntddk/POWER_THROTTLING_THREAD_STATE",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "POWER_THROTTLING_THREAD_STATE, *PPOWER_THROTTLING_THREAD_STATE",
+  "f1_keywords": [
+    "_POWER_THROTTLING_THREAD_STATE",
+    "ntddk/_POWER_THROTTLING_THREAD_STATE",
+    "PPOWER_THROTTLING_THREAD_STATE",
+    "ntddk/PPOWER_THROTTLING_THREAD_STATE",
+    "POWER_THROTTLING_THREAD_STATE",
+    "ntddk/POWER_THROTTLING_THREAD_STATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "_POWER_THROTTLING_THREAD_STATE",
+    "PPOWER_THROTTLING_THREAD_STATE",
+    "POWER_THROTTLING_THREAD_STATE"
+  ]
+}

@@ -1,0 +1,3 @@
+Status GetVisibleClipBounds(
+  RectF *rect
+);

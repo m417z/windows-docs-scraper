@@ -1,0 +1,3 @@
+HRESULT TxGetBackStyle(
+  TXTBACKSTYLE *pstyle
+);

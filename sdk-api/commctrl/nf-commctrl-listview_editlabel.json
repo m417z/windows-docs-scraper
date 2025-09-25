@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.ListView_EditLabel",
+  "title": "ListView_EditLabel macro (commctrl.h)",
+  "description": "Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can use this macro or send the LVM_EDITLABEL message explicitly.",
+  "helpviewer_keywords": [
+    "ListView_EditLabel",
+    "ListView_EditLabel macro [Windows Controls]",
+    "_win32_ListView_EditLabel",
+    "_win32_ListView_EditLabel_cpp",
+    "commctrl/ListView_EditLabel",
+    "controls.ListView_EditLabel",
+    "controls._win32_ListView_EditLabel"
+  ],
+  "old-location": "controls\\ListView_EditLabel.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_editlabel.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "ListView_EditLabel, ListView_EditLabel macro [Windows Controls], _win32_ListView_EditLabel, _win32_ListView_EditLabel_cpp, commctrl/ListView_EditLabel, controls.ListView_EditLabel, controls._win32_ListView_EditLabel",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_EditLabel",
+    "commctrl/ListView_EditLabel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_EditLabel"
+  ]
+}

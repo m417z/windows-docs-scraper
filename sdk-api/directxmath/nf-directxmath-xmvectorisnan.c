@@ -1,0 +1,3 @@
+XMVECTOR XM_CALLCONV XMVectorIsNaN(
+  [in] FXMVECTOR V
+) noexcept;

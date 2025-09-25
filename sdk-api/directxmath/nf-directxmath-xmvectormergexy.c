@@ -1,0 +1,4 @@
+XMVECTOR XM_CALLCONV XMVectorMergeXY(
+  [in] FXMVECTOR V1,
+  [in] FXMVECTOR V2
+) noexcept;

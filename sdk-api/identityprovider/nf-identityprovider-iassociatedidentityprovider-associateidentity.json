@@ -1,0 +1,65 @@
+{
+  "UID": "NF:identityprovider.IAssociatedIdentityProvider.AssociateIdentity",
+  "title": "IAssociatedIdentityProvider::AssociateIdentity (identityprovider.h)",
+  "description": "Associates an identity with a local user account.",
+  "helpviewer_keywords": [
+    "AssociateIdentity",
+    "AssociateIdentity method [Security]",
+    "AssociateIdentity method [Security]",
+    "IAssociatedIdentityProvider interface",
+    "IAssociatedIdentityProvider interface [Security]",
+    "AssociateIdentity method",
+    "IAssociatedIdentityProvider.AssociateIdentity",
+    "IAssociatedIdentityProvider::AssociateIdentity",
+    "identityprovider/IAssociatedIdentityProvider::AssociateIdentity",
+    "identitystore/IAssociatedIdentityProvider::AssociateIdentity",
+    "security.iassociatedidentityprovider_associateidentity"
+  ],
+  "old-location": "security\\iassociatedidentityprovider_associateidentity.htm",
+  "tech.root": "security",
+  "ms.assetid": "2d1d1da9-c1d0-4970-aad2-928bf6a4aaf0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AssociateIdentity, AssociateIdentity method [Security], AssociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],AssociateIdentity method, IAssociatedIdentityProvider.AssociateIdentity, IAssociatedIdentityProvider::AssociateIdentity, identityprovider/IAssociatedIdentityProvider::AssociateIdentity, identitystore/IAssociatedIdentityProvider::AssociateIdentity, security.iassociatedidentityprovider_associateidentity",
+  "req.header": "identityprovider.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Identitystore.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAssociatedIdentityProvider::AssociateIdentity",
+    "identityprovider/IAssociatedIdentityProvider::AssociateIdentity"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "IdentityProvider.h",
+    "Identitystore.h"
+  ],
+  "api_name": [
+    "IAssociatedIdentityProvider.AssociateIdentity"
+  ]
+}

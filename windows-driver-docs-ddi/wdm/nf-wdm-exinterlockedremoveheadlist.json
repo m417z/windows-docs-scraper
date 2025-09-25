@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ExInterlockedRemoveHeadList",
+  "title": "ExInterlockedRemoveHeadList function (wdm.h)",
+  "description": "The ExInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures.",
+  "old-location": "kernel\\exinterlockedremoveheadlist.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ExInterlockedRemoveHeadList function"
+  ],
+  "ms.keywords": "ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist, wdm/ExInterlockedRemoveHeadList",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExInterlockedRemoveHeadList",
+    "wdm/ExInterlockedRemoveHeadList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExInterlockedRemoveHeadList"
+  ]
+}

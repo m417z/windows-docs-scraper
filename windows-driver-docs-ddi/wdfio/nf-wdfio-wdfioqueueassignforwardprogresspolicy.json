@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfio.WdfIoQueueAssignForwardProgressPolicy",
+  "title": "WdfIoQueueAssignForwardProgressPolicy function (wdfio.h)",
+  "description": "The WdfIoQueueAssignForwardProgressPolicy method enables the framework's ability to guarantee forward progress for a specified I/O queue.",
+  "old-location": "wdf\\wdfioqueueassignforwardprogresspolicy.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfIoQueueAssignForwardProgressPolicy function"
+  ],
+  "ms.keywords": "DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, kmdf.wdfioqueueassignforwardprogresspolicy, wdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.9,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfIoQueueAssignForwardProgressPolicy",
+    "wdfio/WdfIoQueueAssignForwardProgressPolicy"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfIoQueueAssignForwardProgressPolicy"
+  ]
+}

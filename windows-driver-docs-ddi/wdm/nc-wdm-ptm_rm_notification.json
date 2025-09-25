@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PTM_RM_NOTIFICATION",
+  "title": "PTM_RM_NOTIFICATION (wdm.h)",
+  "description": "A resource manager's ResourceManagerNotification callback routine receives and handles transaction notifications.",
+  "old-location": "kernel\\resourcemanagernotification.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PTM_RM_NOTIFICATION callback function"
+  ],
+  "ms.keywords": "(*PTM_RM_NOTIFICATION), (*PTM_RM_NOTIFICATION) callback function [Kernel-Mode Driver Architecture], PTM_RM_NOTIFICATION, ResourceManagerNotification callback, kernel.resourcemanagernotification, ktm_ref_f4bc7393-b895-4a03-8eb6-b0a71f26e1d5.xml, wdm/(*PTM_RM_NOTIFICATION)",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PTM_RM_NOTIFICATION",
+    "wdm/PTM_RM_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PTM_RM_NOTIFICATION"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NI:bthioctl.IOCTL_BTH_SDP_SERVICE_SEARCH",
+  "title": "IOCTL_BTH_SDP_SERVICE_SEARCH (bthioctl.h)",
+  "description": "The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP request for handles to SDP records of a particular service class or classes.",
+  "old-location": "bltooth\\ioctl_bth_sdp_service_search.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "IOCTL_BTH_SDP_SERVICE_SEARCH IOCTL"
+  ],
+  "ms.keywords": "IOCTL_BTH_SDP_SERVICE_SEARCH, IOCTL_BTH_SDP_SERVICE_SEARCH control, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_search, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH",
+  "req.header": "bthioctl.h",
+  "req.include-header": "Bthioctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_BTH_SDP_SERVICE_SEARCH",
+    "bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Bthioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_BTH_SDP_SERVICE_SEARCH"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _VOLUME_DISK_EXTENTS {
+  DWORD       NumberOfDiskExtents;
+  DISK_EXTENT Extents[ANYSIZE_ARRAY];
+} VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS;

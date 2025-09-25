@@ -1,0 +1,5 @@
+typedef struct RILEXECUTORSTATE {
+  DWORD cbSize;
+  DWORD dwExecutor;
+  DWORD dwFlags;
+} RILEXECUTORSTATE, *LPRILEXECUTORSTATE;

@@ -1,0 +1,48 @@
+{
+  "UID": "NS:dispmprt._DXGK_MIPI_DSI_INTERFACE",
+  "title": "DXGK_MIPI_DSI_INTERFACE",
+  "ms.date": "05/31/2022",
+  "targetos": "Windows",
+  "description": "DXGK_MIPI_DSI_INTERFACE allows the OS to request Display Serial Interface (DSI) operations to be performed on a target using a control interface to the target owned by the graphics adapter.",
+  "tech.root": "display",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DXGK_MIPI_DSI_INTERFACE, *PDXGK_MIPI_DSI_INTERFACE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGK_MIPI_DSI_INTERFACE",
+    "PDXGK_MIPI_DSI_INTERFACE",
+    "DXGK_MIPI_DSI_INTERFACE"
+  ],
+  "f1_keywords": [
+    "_DXGK_MIPI_DSI_INTERFACE",
+    "dispmprt/_DXGK_MIPI_DSI_INTERFACE",
+    "PDXGK_MIPI_DSI_INTERFACE",
+    "dispmprt/PDXGK_MIPI_DSI_INTERFACE",
+    "DXGK_MIPI_DSI_INTERFACE",
+    "dispmprt/DXGK_MIPI_DSI_INTERFACE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "UID": "NF:sensorsdriversutils.InitTransformationMatrix",
+  "title": "InitTransformationMatrix function (sensorsdriversutils.h)",
+  "description": "The InitTransformationMatrix function reads the rotation matrix from the ACPI entries.",
+  "tech.root": "sensors",
+  "ms.date": "04/19/2018",
+  "keywords": [
+    "InitTransformationMatrix function"
+  ],
+  "ms.keywords": "InitTransformationMatrix",
+  "req.header": "sensorsdriversutils.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "InitTransformationMatrix",
+    "sensorsdriversutils/InitTransformationMatrix"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "InitTransformationMatrix"
+  ]
+}

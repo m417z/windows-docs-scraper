@@ -1,0 +1,6 @@
+typedef struct _STOR_FRU_ID_DESCRIPTION {
+  ULONG         Version;
+  ULONG         Size;
+  PSTOR_ADDRESS Address;
+  UCHAR         FruId[STOR_FRU_ID_MAX_LENGTH + 1];
+} STOR_FRU_ID_DESCRIPTION, *PSTOR_FRU_ID_DESCRIPTION;

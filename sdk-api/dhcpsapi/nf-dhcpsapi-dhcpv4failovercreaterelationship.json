@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpV4FailoverCreateRelationship",
+  "title": "DhcpV4FailoverCreateRelationship function (dhcpsapi.h)",
+  "description": "Creates a new DHCPv4 failover relationship between two servers.",
+  "helpviewer_keywords": [
+    "DhcpV4FailoverCreateRelationship",
+    "DhcpV4FailoverCreateRelationship function [DHCP]",
+    "dhcp.dhcpv4failovercreaterelationship",
+    "dhcpsapi/DhcpV4FailoverCreateRelationship"
+  ],
+  "old-location": "dhcp\\dhcpv4failovercreaterelationship.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "6e360dd4-b4a0-4652-8754-17c3c284271c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship function [DHCP], dhcp.dhcpv4failovercreaterelationship, dhcpsapi/DhcpV4FailoverCreateRelationship",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpV4FailoverCreateRelationship",
+    "dhcpsapi/DhcpV4FailoverCreateRelationship"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpV4FailoverCreateRelationship"
+  ]
+}

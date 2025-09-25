@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_SETSTABLEPOWERSTATE {
+  [in] D3DKMT_HANDLE hAdapter;
+  [in] BOOL          Enabled;
+} D3DKMT_SETSTABLEPOWERSTATE;

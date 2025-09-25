@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ZwQueryInformationByName",
+  "tech.root": "kernel",
+  "title": "ZwQueryInformationByName function (wdm.h)",
+  "ms.date": "06/21/2021",
+  "author": "lorihollasch",
+  "targetos": "Windows",
+  "description": "ZwQueryInformationByName returns the requested information about a file specified by file name.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "ZwQueryInformationByName"
+  ],
+  "f1_keywords": [
+    "ZwQueryInformationByName",
+    "wdm/ZwQueryInformationByName"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

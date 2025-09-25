@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.PsAllocSiloContextSlot",
+  "title": "PsAllocSiloContextSlot function (ntddk.h)",
+  "description": "This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos.",
+  "tech.root": "kernel",
+  "ms.date": "04/20/2023",
+  "keywords": [
+    "PsAllocSiloContextSlot function"
+  ],
+  "ms.keywords": "PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PsAllocSiloContextSlot",
+    "ntddk/PsAllocSiloContextSlot"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "PsAllocSiloContextSlot"
+  ]
+}

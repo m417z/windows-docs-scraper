@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKCB_EXCLUDE_ADAPTER_ACCESS",
+  "title": "DXGKCB_EXCLUDE_ADAPTER_ACCESS (dispmprt.h)",
+  "description": "The DxgkCbExcludeAdapterAccess function prevents all access to the display adapter and calls a provided DxgkProtectedCallback callback routine while in this protected state.",
+  "old-location": "display\\dxgkcbexcludeadapteraccess.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKCB_EXCLUDE_ADAPTER_ACCESS callback function"
+  ],
+  "ms.keywords": "DXGKCB_EXCLUDE_ADAPTER_ACCESS, DXGKCB_EXCLUDE_ADAPTER_ACCESS callback, DpFunctions_8ad0a347-3d2f-429c-9b1f-67f000dbfc03.xml, DxgkCbExcludeAdapterAccess, DxgkCbExcludeAdapterAccess callback function [Display Devices], display.dxgkcbexcludeadapteraccess, dispmprt/DxgkCbExcludeAdapterAccess",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_EXCLUDE_ADAPTER_ACCESS",
+    "dispmprt/DXGKCB_EXCLUDE_ADAPTER_ACCESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKCB_EXCLUDE_ADAPTER_ACCESS"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:shlwapi.IsOS",
+  "title": "IsOS function (shlwapi.h)",
+  "description": "Checks for specified operating systems and operating system features.",
+  "helpviewer_keywords": [
+    "IsOS",
+    "IsOS function [Windows Shell]",
+    "_win32_IsOS",
+    "shell.IsOS",
+    "shlwapi/IsOS"
+  ],
+  "old-location": "shell\\IsOS.htm",
+  "tech.root": "shell",
+  "ms.assetid": "827a76bc-3581-4f1c-8095-8e2fd30dfdbc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server, Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shlwapi.dll (version 5.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IsOS",
+    "shlwapi/IsOS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-shlwapi-l2-1-0.dll",
+    "Shlwapi.dll",
+    "API-MS-Win-DownLevel-shlwapi-l2-1-1.dll",
+    "ShCore.dll",
+    "API-MS-Win-ShCore-SysInfo-l1-1-0.dll"
+  ],
+  "api_name": [
+    "IsOS"
+  ]
+}

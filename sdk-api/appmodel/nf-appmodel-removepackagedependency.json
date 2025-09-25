@@ -1,0 +1,50 @@
+{
+  "UID": "NF:appmodel.RemovePackageDependency",
+  "tech.root": "appxpkg",
+  "title": "RemovePackageDependency",
+  "ms.date": "7/12/2021",
+  "targetos": "Windows",
+  "description": "Removes a resolved package dependency from the current process' package graph (that is, a run-time reference for a framework package dependency that was added by using the AddPackageDependency function).",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "appmodel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 (introduced in 10.0.22000.0)",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "appmodel.h"
+  ],
+  "api_name": [
+    "RemovePackageDependency"
+  ],
+  "f1_keywords": [
+    "RemovePackageDependency",
+    "appmodel/RemovePackageDependency"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

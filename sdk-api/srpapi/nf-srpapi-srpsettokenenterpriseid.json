@@ -1,0 +1,59 @@
+{
+  "UID": "NF:srpapi.SrpSetTokenEnterpriseId",
+  "title": "SrpSetTokenEnterpriseId function (srpapi.h)",
+  "description": "Sets a data intent on a token. The caller process should be enterprise allowed for the provided enterprise ID.",
+  "helpviewer_keywords": [
+    "EDP.srpsettokenenterpriseid",
+    "SrpSetTokenEnterpriseId",
+    "SrpSetTokenEnterpriseId function",
+    "srpapi/SrpSetTokenEnterpriseId"
+  ],
+  "old-location": "edp\\srpsettokenenterpriseid.htm",
+  "tech.root": "EDP",
+  "ms.assetid": "A96E6977-5637-4E3E-A2AE-7892DC61FB08",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId",
+  "req.header": "srpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Srpapi.lib",
+  "req.dll": "Srpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SrpSetTokenEnterpriseId",
+    "srpapi/SrpSetTokenEnterpriseId"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "srpapi.dll",
+    "Ext-MS-Win-Security-Srp-L1-1-0.dll",
+    "Ext-MS-Win-Security-Srp-L1-1-1.dll"
+  ],
+  "api_name": [
+    "SrpSetTokenEnterpriseId"
+  ]
+}

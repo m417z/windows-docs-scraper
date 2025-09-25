@@ -1,0 +1,6 @@
+typedef struct _USB_DEVICE_PORT_PATH {
+  ULONG Size;
+  ULONG PortPathDepth;
+  ULONG TTHubDepth;
+  ULONG PortPath[MAX_USB_DEVICE_DEPTH];
+} USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH;

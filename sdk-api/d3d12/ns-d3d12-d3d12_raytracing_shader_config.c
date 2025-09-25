@@ -1,0 +1,4 @@
+typedef struct D3D12_RAYTRACING_SHADER_CONFIG {
+  UINT MaxPayloadSizeInBytes;
+  UINT MaxAttributeSizeInBytes;
+} D3D12_RAYTRACING_SHADER_CONFIG;

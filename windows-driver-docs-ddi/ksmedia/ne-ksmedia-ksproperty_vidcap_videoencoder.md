@@ -1,0 +1,25 @@
+## Description
+
+This topic describes the **KSPROPERTY_VIDCAP_VIDEOENCODER** enumeration (ksmedia.h).
+
+## Constants
+
+### `KSPROPERTY_VIDEOENCODER_CAPS`
+
+Defines the **KSPROPERTY_VIDEOENCODER_CAPS** constant.
+
+### `KSPROPERTY_VIDEOENCODER_STANDARD`
+
+Defines the **KSPROPERTY_VIDEOENCODER_STANDARD** constant.
+
+### `KSPROPERTY_VIDEOENCODER_COPYPROTECTION`
+
+Defines the **KSPROPERTY_VIDEOENCODER_COPYPROTECTION** constant.
+
+### `KSPROPERTY_VIDEOENCODER_CC_ENABLE`
+
+Defines the **KSPROPERTY_VIDEOENCODER_CC_ENABLE** constant.
+
+## Remarks
+
+## See also

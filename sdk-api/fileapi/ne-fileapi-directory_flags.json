@@ -1,0 +1,43 @@
+{
+  "UID": "NE:fileapi.DIRECTORY_FLAGS",
+  "tech.root": "fs",
+  "title": "DIRECTORY_FLAGS enumeration (fileapi.h)",
+  "ms.date": "04/10/2025",
+  "targetos": "Windows",
+  "description": "Defines the flags that can be used with the CreateDirectory2 function to specify how the directory should be created.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11 24H2 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2025 [desktop apps \\| UWP apps]",
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fileapi.h"
+  ],
+  "api_name": [
+    "DIRECTORY_FLAGS"
+  ],
+  "f1_keywords": [
+    "DIRECTORY_FLAGS",
+    "fileapi/DIRECTORY_FLAGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DIRECTORY_FLAGS"
+  ]
+}

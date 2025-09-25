@@ -1,0 +1,62 @@
+{
+  "UID": "NF:imagehlp.BindImageEx",
+  "title": "BindImageEx function (imagehlp.h)",
+  "description": "Computes the virtual address of each function that is imported.",
+  "helpviewer_keywords": [
+    "BIND_ALL_IMAGES",
+    "BIND_CACHE_IMPORT_DLLS",
+    "BIND_NO_BOUND_IMPORTS",
+    "BIND_NO_UPDATE",
+    "BindImageEx",
+    "BindImageEx function",
+    "_win32_bindimageex",
+    "base.bindimageex",
+    "imagehlp/BindImageEx"
+  ],
+  "old-location": "base\\bindimageex.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "97edbe29-94e5-4d3c-b640-c92b7f01a159",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BIND_ALL_IMAGES, BIND_CACHE_IMPORT_DLLS, BIND_NO_BOUND_IMPORTS, BIND_NO_UPDATE, BindImageEx, BindImageEx function, _win32_bindimageex, base.bindimageex, imagehlp/BindImageEx",
+  "req.header": "imagehlp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Imagehlp.lib",
+  "req.dll": "Imagehlp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BindImageEx",
+    "imagehlp/BindImageEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Imagehlp.dll"
+  ],
+  "api_name": [
+    "BindImageEx"
+  ]
+}

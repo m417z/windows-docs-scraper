@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntddk.DEBUG_MEMORY_REQUIREMENTS",
+  "tech.root": "kernel",
+  "title": "DEBUG_MEMORY_REQUIREMENTS (ntddk.h)",
+  "ms.date": "09/26/2022",
+  "targetos": "Windows",
+  "description": "This topic describes the DEBUG_MEMORY_REQUIREMENTS structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DEBUG_MEMORY_REQUIREMENTS, *PDEBUG_MEMORY_REQUIREMENTS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "PDEBUG_MEMORY_REQUIREMENTS",
+    "DEBUG_MEMORY_REQUIREMENTS"
+  ],
+  "f1_keywords": [
+    "PDEBUG_MEMORY_REQUIREMENTS",
+    "ntddk/PDEBUG_MEMORY_REQUIREMENTS",
+    "DEBUG_MEMORY_REQUIREMENTS",
+    "ntddk/DEBUG_MEMORY_REQUIREMENTS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DEBUG_MEMORY_REQUIREMENTS"
+  ]
+}

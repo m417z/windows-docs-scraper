@@ -1,0 +1,3 @@
+typedef union __MIDL_IBackgroundCopyJob2_0002 {
+  BG_BASIC_CREDENTIALS Basic;
+} BG_AUTH_CREDENTIALS_UNION;

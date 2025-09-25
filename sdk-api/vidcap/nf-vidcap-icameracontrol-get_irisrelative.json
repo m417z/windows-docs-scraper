@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vidcap.ICameraControl.get_IrisRelative",
+  "title": "ICameraControl::get_IrisRelative (vidcap.h)",
+  "description": "The get_IrisRelative method returns the camera's relative aperture setting. The relative aperture is expressed as a number of steps, where the size of each step depends on the camera model.",
+  "helpviewer_keywords": [
+    "ICameraControl interface [DirectShow]",
+    "get_IrisRelative method",
+    "ICameraControl.get_IrisRelative",
+    "ICameraControl::get_IrisRelative",
+    "ICameraControlget_IrisRelative",
+    "dshow.icameracontrol_get_irisrelative",
+    "get_IrisRelative",
+    "get_IrisRelative method [DirectShow]",
+    "get_IrisRelative method [DirectShow]",
+    "ICameraControl interface",
+    "vidcap/ICameraControl::get_IrisRelative"
+  ],
+  "old-location": "dshow\\icameracontrol_get_irisrelative.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "15f01c00-ff18-4d58-a03b-9293a8a6a68c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "ICameraControl interface [DirectShow],get_IrisRelative method, ICameraControl.get_IrisRelative, ICameraControl::get_IrisRelative, ICameraControlget_IrisRelative, dshow.icameracontrol_get_irisrelative, get_IrisRelative, get_IrisRelative method [DirectShow], get_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_IrisRelative",
+  "req.header": "vidcap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICameraControl::get_IrisRelative",
+    "vidcap/ICameraControl::get_IrisRelative"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "ICameraControl.get_IrisRelative"
+  ]
+}

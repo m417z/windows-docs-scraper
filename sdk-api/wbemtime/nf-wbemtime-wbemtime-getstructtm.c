@@ -1,0 +1,3 @@
+BOOL GetStructtm(
+  tm *ptm
+);

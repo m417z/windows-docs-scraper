@@ -1,0 +1,64 @@
+{
+  "UID": "NF:clusapi.ClusterRegReadBatchAddCommand",
+  "title": "ClusterRegReadBatchAddCommand function (clusapi.h)",
+  "description": "Adds a read command to a batch that executes on a cluster registry key.",
+  "helpviewer_keywords": [
+    "ClusterRegReadBatchAddCommand",
+    "ClusterRegReadBatchAddCommand function [Failover Cluster]",
+    "clusapi/ClusterRegReadBatchAddCommand",
+    "mscs.clusterregreadbatchaddcommand"
+  ],
+  "old-location": "mscs\\clusterregreadbatchaddcommand.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "2B665231-7325-43C4-92A4-4EDF28126BA1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterRegReadBatchAddCommand, ClusterRegReadBatchAddCommand function [Failover Cluster], clusapi/ClusterRegReadBatchAddCommand, mscs.clusterregreadbatchaddcommand",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterRegReadBatchAddCommand",
+    "clusapi/ClusterRegReadBatchAddCommand"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "ClusterRegReadBatchAddCommand"
+  ]
+}

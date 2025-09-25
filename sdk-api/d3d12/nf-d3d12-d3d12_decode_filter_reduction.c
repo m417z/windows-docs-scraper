@@ -1,0 +1,3 @@
+void D3D12_DECODE_FILTER_REDUCTION(
+  D3D12Filter
+);

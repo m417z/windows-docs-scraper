@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfrequest.WdfRequestWdmFormatUsingStackLocation",
+  "title": "WdfRequestWdmFormatUsingStackLocation function (wdfrequest.h)",
+  "description": "The WdfRequestWdmFormatUsingStackLocation method formats an I/O request by copying the contents of a specified WDM I/O stack location structure to the next stack location in the request.",
+  "old-location": "wdf\\wdfrequestwdmformatusingstacklocation.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfRequestWdmFormatUsingStackLocation function"
+  ],
+  "ms.keywords": "DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation method, kmdf.wdfrequestwdmformatusingstacklocation, wdf.wdfrequestwdmformatusingstacklocation, wdfrequest/WdfRequestWdmFormatUsingStackLocation",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, InvalidReqAccess, InvalidReqAccessLocal, KmdfIrql, KmdfIrql2, RequestFormattedValid",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfRequestWdmFormatUsingStackLocation",
+    "wdfrequest/WdfRequestWdmFormatUsingStackLocation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfRequestWdmFormatUsingStackLocation"
+  ]
+}

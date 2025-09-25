@@ -1,0 +1,3 @@
+VOID WerStoreClose(
+  HREPORTSTORE hReportStore
+);

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winbase.GetProcessDEPPolicy",
+  "title": "GetProcessDEPPolicy function (winbase.h)",
+  "description": "Gets the data execution prevention (DEP) and DEP-ATL thunk emulation settings for the specified 32-bit process.Windows XP with SP3:  Gets the DEP and DEP-ATL thunk emulation settings for the current process.",
+  "helpviewer_keywords": [
+    "GetProcessDEPPolicy",
+    "GetProcessDEPPolicy function",
+    "PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION",
+    "PROCESS_DEP_ENABLE",
+    "base.getprocessdeppolicy",
+    "winbase/GetProcessDEPPolicy"
+  ],
+  "old-location": "base\\getprocessdeppolicy.htm",
+  "tech.root": "base",
+  "ms.assetid": "adf15b9c-24f4-49ea-9283-0db5f3f13e65",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetProcessDEPPolicy, GetProcessDEPPolicy function, PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, base.getprocessdeppolicy, winbase/GetProcessDEPPolicy",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1, Windows XP with SP3 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetProcessDEPPolicy",
+    "winbase/GetProcessDEPPolicy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll"
+  ],
+  "api_name": [
+    "GetProcessDEPPolicy"
+  ]
+}

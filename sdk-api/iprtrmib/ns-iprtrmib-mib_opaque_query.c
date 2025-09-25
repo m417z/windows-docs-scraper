@@ -1,0 +1,4 @@
+typedef struct _MIB_OPAQUE_QUERY {
+  DWORD dwVarId;
+  DWORD rgdwVarIndex[ANY_SIZE];
+} MIB_OPAQUE_QUERY, *PMIB_OPAQUE_QUERY;

@@ -1,0 +1,10 @@
+typedef struct _IMAGEHLP_DEFERRED_SYMBOL_LOAD64 {
+  DWORD   SizeOfStruct;
+  DWORD64 BaseOfImage;
+  DWORD   CheckSum;
+  DWORD   TimeDateStamp;
+  CHAR    FileName[MAX_PATH];
+  BOOLEAN Reparse;
+  HANDLE  hFile;
+  DWORD   Flags;
+} IMAGEHLP_DEFERRED_SYMBOL_LOAD64, *PIMAGEHLP_DEFERRED_SYMBOL_LOAD64;

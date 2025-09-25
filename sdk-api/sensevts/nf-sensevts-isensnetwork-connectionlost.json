@@ -1,0 +1,67 @@
+{
+  "UID": "NF:sensevts.ISensNetwork.ConnectionLost",
+  "title": "ISensNetwork::ConnectionLost (sensevts.h)",
+  "description": "The ConnectionLost method notifies your application that the specified connection has been dropped.",
+  "helpviewer_keywords": [
+    "CONNECTION_LAN",
+    "CONNECTION_WAN",
+    "ConnectionLost",
+    "ConnectionLost method [SENS]",
+    "ConnectionLost method [SENS]",
+    "ISensNetwork interface",
+    "ISensNetwork interface [SENS]",
+    "ConnectionLost method",
+    "ISensNetwork.ConnectionLost",
+    "ISensNetwork::ConnectionLost",
+    "_zaw_isensnetwork_connectionlost",
+    "sens.isensnetwork_connectionlost",
+    "sensevts/ISensNetwork::ConnectionLost",
+    "syncmgr.isensnetwork_connectionlost"
+  ],
+  "old-location": "sens\\isensnetwork_connectionlost.htm",
+  "tech.root": "Sens",
+  "ms.assetid": "b91e46b9-7931-4959-97de-fa882a56e406",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CONNECTION_LAN, CONNECTION_WAN, ConnectionLost, ConnectionLost method [SENS], ConnectionLost method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionLost method, ISensNetwork.ConnectionLost, ISensNetwork::ConnectionLost, _zaw_isensnetwork_connectionlost, sens.isensnetwork_connectionlost, sensevts/ISensNetwork::ConnectionLost, syncmgr.isensnetwork_connectionlost",
+  "req.header": "sensevts.h",
+  "req.include-header": "Sensevts.h, Sens.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": "Sensevts.tlb",
+  "req.lib": null,
+  "req.dll": "Sens.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ISensNetwork::ConnectionLost",
+    "sensevts/ISensNetwork::ConnectionLost"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Sens.dll"
+  ],
+  "api_name": [
+    "ISensNetwork.ConnectionLost"
+  ]
+}

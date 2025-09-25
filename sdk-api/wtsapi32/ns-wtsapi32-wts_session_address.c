@@ -1,0 +1,4 @@
+typedef struct _WTS_SESSION_ADDRESS {
+  DWORD AddressFamily;
+  BYTE  Address[20];
+} WTS_SESSION_ADDRESS, *PWTS_SESSION_ADDRESS;

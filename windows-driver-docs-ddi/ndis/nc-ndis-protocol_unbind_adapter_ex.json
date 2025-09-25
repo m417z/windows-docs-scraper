@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.PROTOCOL_UNBIND_ADAPTER_EX",
+  "title": "PROTOCOL_UNBIND_ADAPTER_EX (ndis.h)",
+  "description": "NDIS calls a protocol driver's ProtocolUnbindAdapterEx function to request the driver to unbind from an underlying miniport adapter.Note  You must declare the function by using the PROTOCOL_UNBIND_ADAPTER_EX type.",
+  "old-location": "netvista\\protocolunbindadapterex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PROTOCOL_UNBIND_ADAPTER_EX callback function"
+  ],
+  "ms.keywords": "PROTOCOL_UNBIND_ADAPTER_EX, PROTOCOL_UNBIND_ADAPTER_EX callback, ProtocolUnbindAdapterEx, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUnbindAdapterEx, netvista.protocolunbindadapterex, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PROTOCOL_UNBIND_ADAPTER_EX",
+    "ndis/PROTOCOL_UNBIND_ADAPTER_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "PROTOCOL_UNBIND_ADAPTER_EX"
+  ]
+}

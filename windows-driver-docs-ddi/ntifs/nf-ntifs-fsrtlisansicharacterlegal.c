@@ -1,0 +1,4 @@
+void FsRtlIsAnsiCharacterLegal(
+  C,
+  FLAGS
+);

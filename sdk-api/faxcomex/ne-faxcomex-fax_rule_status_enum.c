@@ -1,0 +1,7 @@
+typedef enum FAX_RULE_STATUS_ENUM {
+  frsVALID = 0,
+  frsEMPTY_GROUP,
+  frsALL_GROUP_DEV_NOT_VALID,
+  frsSOME_GROUP_DEV_NOT_VALID,
+  frsBAD_DEVICE
+} ;

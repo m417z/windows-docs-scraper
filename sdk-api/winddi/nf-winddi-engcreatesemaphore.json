@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winddi.EngCreateSemaphore",
+  "title": "EngCreateSemaphore function (winddi.h)",
+  "description": "The EngCreateSemaphore function creates a semaphore object.",
+  "helpviewer_keywords": [
+    "EngCreateSemaphore",
+    "EngCreateSemaphore function [Display Devices]",
+    "display.engcreatesemaphore",
+    "gdifncs_d0ae1b52-59e6-49a9-ab03-7ff1008dc5c6.xml",
+    "winddi/EngCreateSemaphore"
+  ],
+  "old-location": "display\\engcreatesemaphore.htm",
+  "tech.root": "display",
+  "ms.assetid": "02b68914-5007-4bfb-ac8a-0269447ab26b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngCreateSemaphore, EngCreateSemaphore function [Display Devices], display.engcreatesemaphore, gdifncs_d0ae1b52-59e6-49a9-ab03-7ff1008dc5c6.xml, winddi/EngCreateSemaphore",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngCreateSemaphore",
+    "winddi/EngCreateSemaphore"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll",
+    "GDI32.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "EngCreateSemaphore"
+  ]
+}

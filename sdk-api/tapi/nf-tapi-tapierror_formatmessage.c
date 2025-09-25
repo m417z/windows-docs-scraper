@@ -1,0 +1,3 @@
+void TAPIERROR_FORMATMESSAGE(
+  __ErrCode__
+);

@@ -1,0 +1,4 @@
+typedef struct _DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY {
+  float ChromaticityX;
+  float ChromaticityY;
+} DXGK_BRIGHTNESS_SENSOR_DATA_CHROMATICITY;

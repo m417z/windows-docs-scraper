@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2SETTEXLOD {
+  DWORD dwDDSurface;
+  DWORD dwLOD;
+} D3DHAL_DP2SETTEXLOD;

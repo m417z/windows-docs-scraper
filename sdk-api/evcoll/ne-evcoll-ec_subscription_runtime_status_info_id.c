@@ -1,0 +1,10 @@
+typedef enum _EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID {
+  EcSubscriptionRunTimeStatusActive = 0,
+  EcSubscriptionRunTimeStatusLastError,
+  EcSubscriptionRunTimeStatusLastErrorMessage,
+  EcSubscriptionRunTimeStatusLastErrorTime,
+  EcSubscriptionRunTimeStatusNextRetryTime,
+  EcSubscriptionRunTimeStatusEventSources,
+  EcSubscriptionRunTimeStatusLastHeartbeatTime,
+  EcSubscriptionRunTimeStatusInfoIdEND
+} EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID;

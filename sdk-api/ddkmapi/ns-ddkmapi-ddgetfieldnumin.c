@@ -1,0 +1,4 @@
+typedef struct _DDGETFIELDNUMIN {
+  HANDLE hDirectDraw;
+  HANDLE hVideoPort;
+} DDGETFIELDNUMIN, *LPDDGETFIELDNUMIN;

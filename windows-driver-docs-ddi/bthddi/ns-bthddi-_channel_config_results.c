@@ -1,0 +1,4 @@
+typedef struct _CHANNEL_CONFIG_RESULTS {
+  CHANNEL_CONFIG_PARAMETERS Params;
+  ULONG                     ExtraOptionsBufferSize;
+} CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS;

@@ -1,0 +1,3 @@
+typedef struct {
+  ULONG LPOL;
+} NVME_CDW12_GET_LOG_PAGE, *PNVME_CDW12_GET_LOG_PAGE;

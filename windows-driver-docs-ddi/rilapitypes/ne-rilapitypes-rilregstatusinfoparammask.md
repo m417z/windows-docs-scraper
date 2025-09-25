@@ -1,0 +1,27 @@
+# RILREGSTATUSINFOPARAMMASK enumeration (rilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_PARAM_REGSI_EXECUTOR`
+
+### `RIL_PARAM_REGSI_HUICCAPP`
+
+### `RIL_PARAM_REGSI_REGSTATUS`
+
+### `RIL_PARAM_REGSI_ACCESSTECHNOLOGY`
+
+### `RIL_PARAM_REGSI_SYSTEMCAPS`
+
+### `RIL_PARAM_REGSI_REGREJECTREASON`
+
+### `RIL_PARAM_REGSI_CURRENTOPERATOR`
+
+### `RIL_PARAM_REGSI_VOICEDOMAIN`
+
+### `RIL_PARAM_REGSI_NETWORKCODE`
+
+### `RIL_PARAM_REGSI_ALL`

@@ -1,0 +1,4 @@
+BOOL capSetScrollPos(
+     hwnd,
+     lpP
+);

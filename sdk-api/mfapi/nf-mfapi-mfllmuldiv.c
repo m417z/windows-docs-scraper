@@ -1,0 +1,6 @@
+LONGLONG MFllMulDiv(
+  LONGLONG a,
+  LONGLONG b,
+  LONGLONG c,
+  LONGLONG d
+);

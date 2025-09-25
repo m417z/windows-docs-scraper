@@ -1,0 +1,9 @@
+# KSMETHOD_STREAMALLOCATOR enumeration
+
+## Description
+
+## Constants
+
+### `KSMETHOD_STREAMALLOCATOR_ALLOC`
+
+### `KSMETHOD_STREAMALLOCATOR_FREE`

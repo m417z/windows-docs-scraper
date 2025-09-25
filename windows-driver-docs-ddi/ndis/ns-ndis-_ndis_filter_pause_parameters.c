@@ -1,0 +1,5 @@
+typedef struct _NDIS_FILTER_PAUSE_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              Flags;
+  ULONG              PauseReason;
+} NDIS_FILTER_PAUSE_PARAMETERS, *PNDIS_FILTER_PAUSE_PARAMETERS;

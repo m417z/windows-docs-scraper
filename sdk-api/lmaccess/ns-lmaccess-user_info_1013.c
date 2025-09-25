@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1013 {
+  LPWSTR usri1013_parms;
+} USER_INFO_1013, *PUSER_INFO_1013, *LPUSER_INFO_1013;

@@ -1,0 +1,3 @@
+BOOL FrameworkLogoffDLL(
+  LPCWSTR name
+);

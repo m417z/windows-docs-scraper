@@ -1,0 +1,48 @@
+{
+  "UID": "NI:avc.IOCTL_AVC_CLASS",
+  "title": "IOCTL_AVC_CLASS (avc.h)",
+  "description": "The IOCTL_AVC_CLASS I/O control code is supported only from kernel mode, using the IRP_MJ_INTERNAL_DEVICE_CONTROL dispatch.Avc.sys supports two device interfaces, depending upon the type of instance (peer or virtual).",
+  "old-location": "stream\\ioctl_avc_class.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_AVC_CLASS IOCTL"
+  ],
+  "ms.keywords": "IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class",
+  "req.header": "avc.h",
+  "req.include-header": "Avc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_AVC_CLASS",
+    "avc/IOCTL_AVC_CLASS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "avc.h"
+  ],
+  "api_name": [
+    "IOCTL_AVC_CLASS"
+  ]
+}

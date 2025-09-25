@@ -1,0 +1,3 @@
+void CD3D11_BLEND_DESC(
+  const D3D11_BLEND_DESC & o
+);

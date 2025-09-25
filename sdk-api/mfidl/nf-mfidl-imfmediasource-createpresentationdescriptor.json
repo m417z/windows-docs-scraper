@@ -1,0 +1,65 @@
+{
+  "UID": "NF:mfidl.IMFMediaSource.CreatePresentationDescriptor",
+  "title": "IMFMediaSource::CreatePresentationDescriptor (mfidl.h)",
+  "description": "Retrieves a copy of the media source's presentation descriptor. Applications use the presentation descriptor to select streams and to get information about the source content.",
+  "helpviewer_keywords": [
+    "CreatePresentationDescriptor",
+    "CreatePresentationDescriptor method [Media Foundation]",
+    "CreatePresentationDescriptor method [Media Foundation]",
+    "IMFMediaSource interface",
+    "IMFMediaSource interface [Media Foundation]",
+    "CreatePresentationDescriptor method",
+    "IMFMediaSource.CreatePresentationDescriptor",
+    "IMFMediaSource::CreatePresentationDescriptor",
+    "b6ac50b7-3ef1-43cf-8126-d9a003ebd825",
+    "mf.imfmediasource_createpresentationdescriptor",
+    "mfidl/IMFMediaSource::CreatePresentationDescriptor"
+  ],
+  "old-location": "mf\\imfmediasource_createpresentationdescriptor.htm",
+  "tech.root": "mf",
+  "ms.assetid": "b6ac50b7-3ef1-43cf-8126-d9a003ebd825",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreatePresentationDescriptor, CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],CreatePresentationDescriptor method, IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor",
+  "req.header": "mfidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mfuuid.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMFMediaSource::CreatePresentationDescriptor",
+    "mfidl/IMFMediaSource::CreatePresentationDescriptor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mfuuid.lib",
+    "mfuuid.dll"
+  ],
+  "api_name": [
+    "IMFMediaSource.CreatePresentationDescriptor"
+  ]
+}

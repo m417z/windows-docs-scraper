@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdtfsystemaction.IWDTFSystemAction2.get_IsRestarted",
+  "title": "IWDTFSystemAction2::get_IsRestarted (wdtfsystemaction.h)",
+  "description": "Gets a value that indicates whether the test script restarted as a result of a call to RebootRestart or RebootRestartWithContext.",
+  "old-location": "dtf\\iwdtfsystemaction2_isrestarted.htm",
+  "tech.root": "dtf",
+  "ms.date": "04/04/2018",
+  "keywords": [
+    "IWDTFSystemAction2::get_IsRestarted"
+  ],
+  "ms.keywords": "IWDTFSystemAction2 interface [Windows Device Testing Framework],IsRestarted property, IWDTFSystemAction2.IsRestarted, IWDTFSystemAction2.get_IsRestarted, IWDTFSystemAction2::IsRestarted, IWDTFSystemAction2::get_IsRestarted, IsRestarted property [Windows Device Testing Framework], IsRestarted property [Windows Device Testing Framework],IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestarted, Microsoft::WDTF::IWDTFSystemAction2::IsRestarted, dtf.iwdtfsystemaction2_isrestarted, get_IsRestarted, wdtfsystemaction/IWDTFSystemAction2::IsRestarted, wdtfsystemaction/IWDTFSystemAction2::get_IsRestarted",
+  "req.header": "wdtfsystemaction.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP Professional",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "WDTFSystemAction.idl",
+  "req.max-support": null,
+  "req.namespace": "Microsoft.WDTF",
+  "req.assembly": "WDTFSystemAction.Interop.dll",
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDTFSystemAction2::get_IsRestarted",
+    "wdtfsystemaction/IWDTFSystemAction2::get_IsRestarted"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WDTFSystemAction.Interop.dll"
+  ],
+  "api_name": [
+    "IWDTFSystemAction2::get_IsRestarted"
+  ]
+}

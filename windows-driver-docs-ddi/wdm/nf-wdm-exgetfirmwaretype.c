@@ -1,0 +1,1 @@
+FIRMWARE_TYPE ExGetFirmwareType();

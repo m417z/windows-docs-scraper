@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdfinterrupt._WDF_INTERRUPT_POLICY",
+  "title": "_WDF_INTERRUPT_POLICY (wdfinterrupt.h)",
+  "description": "The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the PnP manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.",
+  "old-location": "wdf\\wdf_interrupt_policy.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_INTERRUPT_POLICY enumeration"
+  ],
+  "ms.keywords": "*PWDF_INTERRUPT_POLICY, DFInterruptObjectRef_e8b207c7-1a4a-4537-9aba-070ddcc426c1.xml, PWDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY enumeration pointer, WDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY enumeration, WdfIrqPolicyAllCloseProcessors, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyMachineDefault, WdfIrqPolicyOneCloseProcessor, WdfIrqPolicySpecifiedProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, kmdf.wdf_interrupt_policy, wdf.wdf_interrupt_policy, wdfinterrupt/PWDF_INTERRUPT_POLICY, wdfinterrupt/WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyAllCloseProcessors, wdfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wdfinterrupt/WdfIrqPolicyMachineDefault, wdfinterrupt/WdfIrqPolicyOneCloseProcessor, wdfinterrupt/WdfIrqPolicySpecifiedProcessors, wdfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors",
+  "req.header": "wdfinterrupt.h",
+  "req.include-header": "Wdf.h, Wudfddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY",
+  "f1_keywords": [
+    "_WDF_INTERRUPT_POLICY",
+    "wdfinterrupt/_WDF_INTERRUPT_POLICY",
+    "PWDF_INTERRUPT_POLICY",
+    "wdfinterrupt/PWDF_INTERRUPT_POLICY",
+    "WDF_INTERRUPT_POLICY",
+    "wdfinterrupt/WDF_INTERRUPT_POLICY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfinterrupt.h"
+  ],
+  "api_name": [
+    "_WDF_INTERRUPT_POLICY",
+    "PWDF_INTERRUPT_POLICY",
+    "WDF_INTERRUPT_POLICY"
+  ]
+}

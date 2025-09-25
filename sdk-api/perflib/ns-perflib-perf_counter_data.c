@@ -1,0 +1,4 @@
+typedef struct _PERF_COUNTER_DATA {
+  ULONG dwDataSize;
+  ULONG dwSize;
+} PERF_COUNTER_DATA, *PPERF_COUNTER_DATA;

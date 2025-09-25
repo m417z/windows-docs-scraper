@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.HalAllocateHardwareCounters",
+  "title": "HalAllocateHardwareCounters function (ntddk.h)",
+  "description": "The HalAllocateHardwareCounters routine allocates a set of hardware performance counters.",
+  "tech.root": "kernel",
+  "ms.date": "04/29/2025",
+  "keywords": [
+    "HalAllocateHardwareCounters function"
+  ],
+  "ms.keywords": "HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, kernel.halallocatehardwarecounters, ntddk/HalAllocateHardwareCounters",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 7.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hal.lib",
+  "req.dll": "Hal.dll",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HalAllocateHardwareCounters",
+    "ntddk/HalAllocateHardwareCounters"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hal.dll"
+  ],
+  "api_name": [
+    "HalAllocateHardwareCounters"
+  ]
+}

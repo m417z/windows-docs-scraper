@@ -1,0 +1,6 @@
+typedef struct _DUPLICATE_EXTENTS_DATA {
+  HANDLE        FileHandle;
+  LARGE_INTEGER SourceFileOffset;
+  LARGE_INTEGER TargetFileOffset;
+  LARGE_INTEGER ByteCount;
+} DUPLICATE_EXTENTS_DATA, *PDUPLICATE_EXTENTS_DATA;

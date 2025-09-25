@@ -1,0 +1,5 @@
+typedef struct _DOT11_WFD_DEVICE_TYPE {
+  USHORT   CategoryID;
+  USHORT   SubCategoryID;
+  UCHAR    OUI[4];
+} DOT11_WFD_DEVICE_TYPE, *PDOT11_WFD_DEVICE_TYPE;

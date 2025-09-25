@@ -1,0 +1,48 @@
+{
+  "UID": "NC:usbbusif.PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE",
+  "title": "PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE (usbbusif.h)",
+  "description": "The QueryControllerType routine gets information about the USB host controller to which the USB device is attached.",
+  "old-location": "buses\\querycontrollertype.htm",
+  "tech.root": "usbref",
+  "ms.date": "02/04/2022",
+  "keywords": [
+    "PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function"
+  ],
+  "ms.keywords": "PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback, buses.querycontrollertype, usbbusif/QueryControllerType",
+  "req.header": "usbbusif.h",
+  "req.include-header": "Usbbusif.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "< = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE",
+    "usbbusif/PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbbusif.h"
+  ],
+  "api_name": [
+    "PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE"
+  ]
+}

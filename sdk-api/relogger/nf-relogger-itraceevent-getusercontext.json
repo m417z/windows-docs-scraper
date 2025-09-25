@@ -1,0 +1,63 @@
+{
+  "UID": "NF:relogger.ITraceEvent.GetUserContext",
+  "title": "ITraceEvent::GetUserContext (relogger.h)",
+  "description": "Retrieves the user context associated with the stream to which the event belongs.",
+  "helpviewer_keywords": [
+    "GetUserContext",
+    "GetUserContext method [ETW]",
+    "GetUserContext method [ETW]",
+    "ITraceEvent interface",
+    "ITraceEvent interface [ETW]",
+    "GetUserContext method",
+    "ITraceEvent.GetUserContext",
+    "ITraceEvent::GetUserContext",
+    "etw.ievent_getusercontext",
+    "relogger/ITraceEvent::GetUserContext"
+  ],
+  "old-location": "etw\\ievent_getusercontext.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "9d4d8abd-b48a-487b-bb73-a6fa48c512c7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetUserContext, GetUserContext method [ETW], GetUserContext method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],GetUserContext method, ITraceEvent.GetUserContext, ITraceEvent::GetUserContext, etw.ievent_getusercontext, relogger/ITraceEvent::GetUserContext",
+  "req.header": "relogger.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Relogger.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITraceEvent::GetUserContext",
+    "relogger/ITraceEvent::GetUserContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Relogger.h"
+  ],
+  "api_name": [
+    "ITraceEvent.GetUserContext"
+  ]
+}

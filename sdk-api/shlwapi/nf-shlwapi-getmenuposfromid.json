@@ -1,0 +1,62 @@
+{
+  "UID": "NF:shlwapi.GetMenuPosFromID",
+  "title": "GetMenuPosFromID function (shlwapi.h)",
+  "description": "GetMenuPosFromID may be altered or unavailable.",
+  "helpviewer_keywords": [
+    "GetMenuPosFromID",
+    "GetMenuPosFromID function [Windows Shell]",
+    "_shell_GetMenuPosFromID",
+    "shell.GetMenuPosFromID",
+    "shlwapi/GetMenuPosFromID"
+  ],
+  "old-location": "shell\\GetMenuPosFromID.htm",
+  "tech.root": "shell",
+  "ms.assetid": "25fb51bc-9b36-4afb-bb07-7bc455c7fbc4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMenuPosFromID, GetMenuPosFromID function [Windows Shell], _shell_GetMenuPosFromID, shell.GetMenuPosFromID, shlwapi/GetMenuPosFromID",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 5.82 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetMenuPosFromID",
+    "shlwapi/GetMenuPosFromID"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shlwapi-l1-2-1.dll",
+    "ext-ms-win-shell-shlwapi-l1-2-0.dll",
+    "Shlwapi.dll",
+    "API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll",
+    "api-ms-win-shlwapi-winrt-storage-l1-1-1.dll"
+  ],
+  "api_name": [
+    "GetMenuPosFromID"
+  ]
+}

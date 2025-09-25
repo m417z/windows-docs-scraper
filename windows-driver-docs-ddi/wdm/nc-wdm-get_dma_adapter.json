@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.GET_DMA_ADAPTER",
+  "title": "GET_DMA_ADAPTER (wdm.h)",
+  "description": "The GetDmaAdapter routine returns a DMA_ADAPTER structure for the target device.",
+  "old-location": "kernel\\getdmaadapter.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "GET_DMA_ADAPTER callback function"
+  ],
+  "ms.keywords": "GET_DMA_ADAPTER, GetDmaAdapter, GetDmaAdapter routine [Kernel-Mode Driver Architecture], drvr_interface_5c7fd89d-0b6c-45e7-8559-8666f43beb9a.xml, kernel.busgetdmaadapter, kernel.getdmaadapter, ntddk/GetDmaAdapter",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntddk.h, Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with  Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GET_DMA_ADAPTER",
+    "wdm/GET_DMA_ADAPTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "GET_DMA_ADAPTER"
+  ]
+}

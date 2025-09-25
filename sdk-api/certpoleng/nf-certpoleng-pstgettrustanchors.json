@@ -1,0 +1,57 @@
+{
+  "UID": "NF:certpoleng.PstGetTrustAnchors",
+  "title": "PstGetTrustAnchors function (certpoleng.h)",
+  "description": "Retrieves a list of certification authorities (CAs) trusted by the specified server.",
+  "helpviewer_keywords": [
+    "PstGetTrustAnchors",
+    "PstGetTrustAnchors function [Security]",
+    "certpoleng/PstGetTrustAnchors",
+    "security.pstgettrustanchors"
+  ],
+  "old-location": "security\\pstgettrustanchors.htm",
+  "tech.root": "security",
+  "ms.assetid": "bbd69763-6801-4321-be18-802d48850d8c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PstGetTrustAnchors, PstGetTrustAnchors function [Security], certpoleng/PstGetTrustAnchors, security.pstgettrustanchors",
+  "req.header": "certpoleng.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Certpoleng.lib",
+  "req.dll": "Certpoleng.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PstGetTrustAnchors",
+    "certpoleng/PstGetTrustAnchors"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Certpoleng.dll"
+  ],
+  "api_name": [
+    "PstGetTrustAnchors"
+  ]
+}

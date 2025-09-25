@@ -1,0 +1,3 @@
+BOOL BluetoothIsConnectable(
+  HANDLE hRadio
+);

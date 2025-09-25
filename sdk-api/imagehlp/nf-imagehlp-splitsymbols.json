@@ -1,0 +1,61 @@
+{
+  "UID": "NF:imagehlp.SplitSymbols",
+  "title": "SplitSymbols function (imagehlp.h)",
+  "description": "Strips symbols from the specified image.",
+  "helpviewer_keywords": [
+    "SPLITSYM_EXTRACT_ALL",
+    "SPLITSYM_REMOVE_PRIVATE",
+    "SPLITSYM_SYMBOLPATH_IS_SRC",
+    "SplitSymbols",
+    "SplitSymbols function",
+    "_win32_splitsymbols",
+    "base.splitsymbols",
+    "imagehlp/SplitSymbols"
+  ],
+  "old-location": "base\\splitsymbols.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "b9b940ce-8349-472e-b802-b477bd195b63",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SPLITSYM_EXTRACT_ALL, SPLITSYM_REMOVE_PRIVATE, SPLITSYM_SYMBOLPATH_IS_SRC, SplitSymbols, SplitSymbols function, _win32_splitsymbols, base.splitsymbols, imagehlp/SplitSymbols",
+  "req.header": "imagehlp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Imagehlp.lib",
+  "req.dll": "Imagehlp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SplitSymbols",
+    "imagehlp/SplitSymbols"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Imagehlp.dll"
+  ],
+  "api_name": [
+    "SplitSymbols"
+  ]
+}

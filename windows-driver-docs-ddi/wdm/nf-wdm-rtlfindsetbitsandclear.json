@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.RtlFindSetBitsAndClear",
+  "title": "RtlFindSetBitsAndClear function (wdm.h)",
+  "description": "The RtlFindSetBitsAndClear routine searches for a range of set bits of a requested size within a bitmap and clears all bits in the range when it has been located.",
+  "old-location": "kernel\\rtlfindsetbitsandclear.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlFindSetBitsAndClear function"
+  ],
+  "ms.keywords": "RtlFindSetBitsAndClear, RtlFindSetBitsAndClear routine [Kernel-Mode Driver Architecture], k109_a6043f35-d317-434a-93c1-1c44aa9e8cd4.xml, kernel.rtlfindsetbitsandclear, wdm/RtlFindSetBitsAndClear",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlFindSetBitsAndClear",
+    "wdm/RtlFindSetBitsAndClear"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlFindSetBitsAndClear"
+  ]
+}

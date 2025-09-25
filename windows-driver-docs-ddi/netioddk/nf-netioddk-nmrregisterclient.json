@@ -1,0 +1,49 @@
+{
+  "UID": "NF:netioddk.NmrRegisterClient",
+  "title": "NmrRegisterClient function (netioddk.h)",
+  "description": "The NmrRegisterClient function registers a client module with the NMR.",
+  "old-location": "netvista\\nmrregisterclient.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NmrRegisterClient function"
+  ],
+  "ms.keywords": "NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml",
+  "req.header": "netioddk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netio.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NmrRegisterClient",
+    "netioddk/NmrRegisterClient"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Netio.lib",
+    "Netio.dll"
+  ],
+  "api_name": [
+    "NmrRegisterClient"
+  ]
+}

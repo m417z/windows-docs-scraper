@@ -1,0 +1,4 @@
+typedef struct _DRIVER_UPGRADE_INFO_1 {
+  LPTSTR pPrinterName;
+  LPTSTR pOldDriverDirectory;
+} DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1;

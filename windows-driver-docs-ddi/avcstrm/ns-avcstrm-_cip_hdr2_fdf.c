@@ -1,0 +1,5 @@
+typedef struct _CIP_HDR2_FDF {
+  ULONG FDF : 24;
+  ULONG FMT : 6;
+  ULONG Bit10 : 2;
+} CIP_HDR2_FDF, *PCIP_HDR2_FDF;

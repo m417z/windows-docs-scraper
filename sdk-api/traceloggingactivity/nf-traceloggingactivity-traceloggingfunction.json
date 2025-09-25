@@ -1,0 +1,57 @@
+{
+  "UID": "NF:traceloggingactivity.TraceLoggingFunction",
+  "title": "TraceLoggingFunction macro (traceloggingactivity.h)",
+  "description": "Creates a TraceLoggingThreadActivity named after the current function and writes a Start event for the activity. A Stop activity will be written at the end of the current scope.",
+  "helpviewer_keywords": [
+    "TraceLoggingFunction",
+    "TraceLoggingFunction macro",
+    "tracelogging.traceloggingfunction",
+    "traceloggingactivity/TraceLoggingFunction"
+  ],
+  "old-location": "tracelogging\\traceloggingfunction.htm",
+  "tech.root": "tracelogging",
+  "ms.assetid": "70382367-E0A0-4E5B-A14F-863BEC0615C5",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction",
+  "req.header": "traceloggingactivity.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TraceLoggingFunction",
+    "traceloggingactivity/TraceLoggingFunction"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "traceloggingactivity.h"
+  ],
+  "api_name": [
+    "TraceLoggingFunction"
+  ]
+}

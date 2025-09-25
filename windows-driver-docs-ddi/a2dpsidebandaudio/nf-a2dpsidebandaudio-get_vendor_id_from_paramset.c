@@ -1,0 +1,3 @@
+void GET_VENDOR_ID_FROM_PARAMSET(
+  paramSet
+);

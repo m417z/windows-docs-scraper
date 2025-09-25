@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.KeQueryNodeMaximumProcessorCount",
+  "title": "KeQueryNodeMaximumProcessorCount function (ntddk.h)",
+  "description": "The KeQueryNodeMaximumProcessorCount routine returns the maximum number of logical processors that a specified node in a non-uniform memory access (NUMA) multiprocessor system can contain.",
+  "old-location": "kernel\\kequerynodemaximumprocessorcount.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeQueryNodeMaximumProcessorCount function"
+  ],
+  "ms.keywords": "KeQueryNodeMaximumProcessorCount, KeQueryNodeMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_15c5df15-b04a-41bd-9aec-2e402e2824a9.xml, kernel.kequerynodemaximumprocessorcount, wdm/KeQueryNodeMaximumProcessorCount",
+  "req.header": "ntddk.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeQueryNodeMaximumProcessorCount",
+    "ntddk/KeQueryNodeMaximumProcessorCount"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeQueryNodeMaximumProcessorCount"
+  ]
+}

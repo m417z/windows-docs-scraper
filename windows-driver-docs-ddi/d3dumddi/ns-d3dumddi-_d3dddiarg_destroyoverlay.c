@@ -1,0 +1,3 @@
+typedef struct _D3DDDIARG_DESTROYOVERLAY {
+  [in] HANDLE hOverlay;
+} D3DDDIARG_DESTROYOVERLAY;

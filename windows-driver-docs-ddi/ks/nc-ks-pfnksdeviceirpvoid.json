@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ks.PFNKSDEVICEIRPVOID",
+  "title": "PFNKSDEVICEIRPVOID (ks.h)",
+  "description": "An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.IRP_MN_CANCEL_STOP_DEVICEIRP_MN_CANCEL_REMOVE_DEVICEIRP_MN_REMOVE_DEVICEIRP_MN_STOP_DEVICEIRP_MN_SURPRISE_REMOVAL",
+  "tech.root": "stream",
+  "ms.date": "03/06/2023",
+  "keywords": [
+    "PFNKSDEVICEIRPVOID callback function"
+  ],
+  "ms.keywords": "AVStrMiniDeviceCancelStop, MyAVStrMiniDeviceIRP, MyAVStrMiniDeviceIRP routine [Streaming Media Devices], PFNKSDEVICEIRPVOID, avstclbk_5b19ddf6-52f4-4d93-b5e1-7d7b5a41fe8b.xml, ks/MyAVStrMiniDeviceIRP, stream.avstrminidevicecancelstop",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSDEVICEIRPVOID",
+    "ks/PFNKSDEVICEIRPVOID"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSDEVICEIRPVOID"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfdmatransaction.WdfDmaTransactionExecute",
+  "title": "WdfDmaTransactionExecute function (wdfdmatransaction.h)",
+  "description": "The WdfDmaTransactionExecute method begins the execution of a specified DMA transaction.",
+  "old-location": "wdf\\wdfdmatransactionexecute.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDmaTransactionExecute function"
+  ],
+  "ms.keywords": "DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, WdfDmaTransactionExecute, WdfDmaTransactionExecute method, kmdf.wdfdmatransactionexecute, wdf.wdfdmatransactionexecute, wdfdmatransaction/WdfDmaTransactionExecute",
+  "req.header": "wdfdmatransaction.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDmaTransactionExecute",
+    "wdfdmatransaction/WdfDmaTransactionExecute"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDmaTransactionExecute"
+  ]
+}

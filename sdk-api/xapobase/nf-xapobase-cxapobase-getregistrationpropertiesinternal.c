@@ -1,0 +1,1 @@
+const XAPO_REGISTRATION_PROPERTIES * GetRegistrationPropertiesInternal();

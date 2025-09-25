@@ -1,0 +1,40 @@
+{
+  "UID": "NE:diagnosticdataquerytypes.tagDdqAccessLevel",
+  "title": "DdqAccessLevel",
+  "ms.date": "8/19/2019",
+  "ms.keywords": "tagDdqAccessLevel, DdqAccessLevel",
+  "description": "This resource represents the privilege level for a Diagnostic Data Query session",
+  "tech.root": "security",
+  "targetos": "Windows",
+  "ms.service": "windows",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "diagnosticdataquerytypes.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "diagnosticdataquerytypes.h"
+  ],
+  "api_name": [
+    "tagDdqAccessLevel",
+    "DdqAccessLevel"
+  ],
+  "f1_keywords": [
+    "tagDdqAccessLevel",
+    "diagnosticdataquerytypes/tagDdqAccessLevel",
+    "DdqAccessLevel",
+    "diagnosticdataquerytypes/DdqAccessLevel"
+  ]
+}

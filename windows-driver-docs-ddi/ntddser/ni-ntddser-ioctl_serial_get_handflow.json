@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddser.IOCTL_SERIAL_GET_HANDFLOW",
+  "title": "IOCTL_SERIAL_GET_HANDFLOW (ntddser.h)",
+  "description": "The IOCTL_SERIAL_GET_HANDFLOW request returns information about the configuration of the handshake flow control set for a serial device.",
+  "old-location": "serports\\ioctl_serial_get_handflow.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_SERIAL_GET_HANDFLOW IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SERIAL_GET_HANDFLOW, IOCTL_SERIAL_GET_HANDFLOW control, IOCTL_SERIAL_GET_HANDFLOW control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_HANDFLOW, serports.ioctl_serial_get_handflow, serref_caa7cdf7-cf60-4baa-88bf-43a7db423a37.xml",
+  "req.header": "ntddser.h",
+  "req.include-header": "Ntddser.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SERIAL_GET_HANDFLOW",
+    "ntddser/IOCTL_SERIAL_GET_HANDFLOW"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddser.h"
+  ],
+  "api_name": [
+    "IOCTL_SERIAL_GET_HANDFLOW"
+  ]
+}

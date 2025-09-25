@@ -1,0 +1,19 @@
+typedef struct _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES {
+  ULONG                                                   Size;
+  SIZE_T                                                  NumberOfQueues;
+  SIZE_T                                                  IndirectionTableSize;
+  SIZE_T                                                  UnhashedTargetIndex;
+  NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE        UnhashedTargetType;
+  NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE                   ReceiveScalingHashTypes;
+  NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE               ReceiveScalingProtocolTypes;
+  struct {
+    NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE Outer;
+    NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE Inner;
+  } ReceiveScalingEncapsulationTypes;
+  _RECEIEVE_SCALING_ENCAPSULATION                         _RECEIEVE_SCALING_ENCAPSULATION;
+  BOOLEAN                                                 SynchronizeSetIndirectionEntries;
+  PFN_NET_ADAPTER_RECEIVE_SCALING_ENABLE                  EvtAdapterReceiveScalingEnable;
+  PFN_NET_ADAPTER_RECEIVE_SCALING_DISABLE                 EvtAdapterReceiveScalingDisable;
+  PFN_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY     EvtAdapterReceiveScalingSetHashSecretKey;
+  PFN_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES EvtAdapterReceiveScalingSetIndirectionEntries;
+} NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES;

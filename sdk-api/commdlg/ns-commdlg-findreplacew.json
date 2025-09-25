@@ -1,0 +1,91 @@
+{
+  "UID": "NS:commdlg.tagFINDREPLACEW",
+  "title": "FINDREPLACEW (commdlg.h)",
+  "description": "Contains information that the FindText and ReplaceText functions use to initialize the Find and Replace dialog boxes. (Unicode)",
+  "helpviewer_keywords": [
+    "*LPFINDREPLACEW",
+    "FINDREPLACE",
+    "FINDREPLACE structure [Dialog Boxes]",
+    "FINDREPLACEA",
+    "FINDREPLACEW",
+    "FR_DIALOGTERM",
+    "FR_DOWN",
+    "FR_ENABLEHOOK",
+    "FR_ENABLETEMPLATE",
+    "FR_ENABLETEMPLATEHANDLE",
+    "FR_FINDNEXT",
+    "FR_HIDEMATCHCASE",
+    "FR_HIDEUPDOWN",
+    "FR_HIDEWHOLEWORD",
+    "FR_MATCHCASE",
+    "FR_NOMATCHCASE",
+    "FR_NOUPDOWN",
+    "FR_NOWHOLEWORD",
+    "FR_REPLACE",
+    "FR_REPLACEALL",
+    "FR_SHOWHELP",
+    "FR_WHOLEWORD",
+    "LPFINDREPLACE",
+    "LPFINDREPLACE structure pointer [Dialog Boxes]",
+    "_win32_FINDREPLACE_str",
+    "_win32_findreplace_str_cpp",
+    "commdlg/FINDREPLACE",
+    "commdlg/FINDREPLACEA",
+    "commdlg/FINDREPLACEW",
+    "commdlg/LPFINDREPLACE",
+    "dlgbox.findreplace_str",
+    "winui._win32_findreplace_str"
+  ],
+  "old-location": "dlgbox\\findreplace_str.htm",
+  "tech.root": "dlgbox",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\userinput\\commondialogboxlibrary\\commondialogboxreference\\commondialogboxstructures\\findreplace.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPFINDREPLACEW, FINDREPLACE, FINDREPLACE structure [Dialog Boxes], FINDREPLACEA, FINDREPLACEW, FR_DIALOGTERM, FR_DOWN, FR_ENABLEHOOK, FR_ENABLETEMPLATE, FR_ENABLETEMPLATEHANDLE, FR_FINDNEXT, FR_HIDEMATCHCASE, FR_HIDEUPDOWN, FR_HIDEWHOLEWORD, FR_MATCHCASE, FR_NOMATCHCASE, FR_NOUPDOWN, FR_NOWHOLEWORD, FR_REPLACE, FR_REPLACEALL, FR_SHOWHELP, FR_WHOLEWORD, LPFINDREPLACE, LPFINDREPLACE structure pointer [Dialog Boxes], _win32_FINDREPLACE_str, _win32_findreplace_str_cpp, commdlg/FINDREPLACE, commdlg/FINDREPLACEA, commdlg/FINDREPLACEW, commdlg/LPFINDREPLACE, dlgbox.findreplace_str, winui._win32_findreplace_str",
+  "req.header": "commdlg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FINDREPLACEW (Unicode) and FINDREPLACEA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FINDREPLACEW, *LPFINDREPLACEW",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagFINDREPLACEW",
+    "commdlg/tagFINDREPLACEW",
+    "LPFINDREPLACEW",
+    "commdlg/LPFINDREPLACEW",
+    "FINDREPLACEW",
+    "commdlg/FINDREPLACEW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commdlg.h"
+  ],
+  "api_name": [
+    "FINDREPLACE",
+    "FINDREPLACEA",
+    "FINDREPLACEW"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pep_x._PEP_PREPARE_DEVICE",
+  "title": "_PEP_PREPARE_DEVICE (pep_x.h)",
+  "description": "Learn how the PEP_PREPARE_DEVICE structure identifies a device that must be started up in preparation for its use by the operating system.",
+  "old-location": "kernel\\pep_prepare_device.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PEP_PREPARE_DEVICE structure"
+  ],
+  "ms.keywords": "*PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_PREPARE_DEVICE, kernel.pep_prepare_device, pepfx/PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE",
+  "req.header": "pep_x.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE",
+  "f1_keywords": [
+    "_PEP_PREPARE_DEVICE",
+    "pep_x/_PEP_PREPARE_DEVICE",
+    "PPEP_PREPARE_DEVICE",
+    "pep_x/PPEP_PREPARE_DEVICE",
+    "PEP_PREPARE_DEVICE",
+    "pep_x/PEP_PREPARE_DEVICE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_PREPARE_DEVICE",
+    "PPEP_PREPARE_DEVICE",
+    "PEP_PREPARE_DEVICE"
+  ]
+}

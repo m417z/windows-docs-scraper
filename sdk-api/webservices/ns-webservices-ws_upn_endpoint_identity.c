@@ -1,0 +1,4 @@
+typedef struct _WS_UPN_ENDPOINT_IDENTITY {
+  WS_ENDPOINT_IDENTITY identity;
+  WS_STRING            upn;
+} WS_UPN_ENDPOINT_IDENTITY;

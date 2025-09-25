@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntstrsafe.RtlUnicodeStringCatEx",
+  "title": "RtlUnicodeStringCatEx function (ntstrsafe.h)",
+  "description": "The RtlUnicodeStringCatEx function concatenates two strings that are contained in UNICODE_STRING structures.",
+  "old-location": "kernel\\rtlunicodestringcatex.htm",
+  "tech.root": "kernel",
+  "ms.date": "08/26/2022",
+  "keywords": [
+    "RtlUnicodeStringCatEx function"
+  ],
+  "ms.keywords": "RtlUnicodeStringCatEx, RtlUnicodeStringCatEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatex, ntstrsafe/RtlUnicodeStringCatEx, safestrings_6b13f3af-ca18-4b2a-b5f0-04f0f2330701.xml",
+  "req.header": "ntstrsafe.h",
+  "req.include-header": "Ntstrsafe.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows XP with Service Pack 1 (SP1).",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "Any if strings being manipulated are always resident in memory, otherwise PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlUnicodeStringCatEx",
+    "ntstrsafe/RtlUnicodeStringCatEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "RtlUnicodeStringCatEx"
+  ]
+}

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTQueryProcessOfferInfo(
+  D3DKMT_QUERYPROCESSOFFERINFO *unnamedParam1
+);

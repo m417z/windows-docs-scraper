@@ -1,0 +1,5 @@
+typedef enum _COLORSPACE_TRANSFORM_STAGE_CONTROL {
+  ColorSpaceTransformStageControl_No_Change,
+  ColorSpaceTransformStageControl_Enable,
+  ColorSpaceTransformStageControl_Bypass
+} COLORSPACE_TRANSFORM_STAGE_CONTROL, *PCOLORSPACE_TRANSFORM_STAGE_CONTROL;

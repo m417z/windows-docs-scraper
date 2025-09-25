@@ -1,0 +1,48 @@
+{
+  "UID": "NC:usbbusif.PUSB_BUSIFFN_GETUSBDI_VERSION",
+  "title": "PUSB_BUSIFFN_GETUSBDI_VERSION (usbbusif.h)",
+  "description": "The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities.",
+  "old-location": "buses\\getusbdiversion.htm",
+  "tech.root": "usbref",
+  "ms.date": "02/04/2022",
+  "keywords": [
+    "PUSB_BUSIFFN_GETUSBDI_VERSION callback function"
+  ],
+  "ms.keywords": "GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION callback, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml",
+  "req.header": "usbbusif.h",
+  "req.include-header": "Usbbusif.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "< = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PUSB_BUSIFFN_GETUSBDI_VERSION",
+    "usbbusif/PUSB_BUSIFFN_GETUSBDI_VERSION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbbusif.h"
+  ],
+  "api_name": [
+    "PUSB_BUSIFFN_GETUSBDI_VERSION"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.IoIncrementKeepAliveCount",
+  "title": "IoIncrementKeepAliveCount function (ntddk.h)",
+  "description": "The IoIncrementKeepAliveCount routine increments a reference count associated with a Windows app process on a specific device.",
+  "old-location": "kernel\\ioincrementkeepalivecount.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoIncrementKeepAliveCount function"
+  ],
+  "ms.keywords": "IoIncrementKeepAliveCount, IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.ioincrementkeepalivecount, ntddk/IoIncrementKeepAliveCount",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": "Ntoskrnl.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoIncrementKeepAliveCount",
+    "ntddk/IoIncrementKeepAliveCount"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntoskrnl.exe"
+  ],
+  "api_name": [
+    "IoIncrementKeepAliveCount"
+  ]
+}

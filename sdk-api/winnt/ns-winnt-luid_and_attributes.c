@@ -1,0 +1,4 @@
+typedef struct _LUID_AND_ATTRIBUTES {
+  LUID  Luid;
+  DWORD Attributes;
+} LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES;

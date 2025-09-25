@@ -1,0 +1,62 @@
+{
+  "UID": "NF:uxtheme.GetCurrentThemeName",
+  "title": "GetCurrentThemeName function (uxtheme.h)",
+  "description": "Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.",
+  "helpviewer_keywords": [
+    "GetCurrentThemeName",
+    "GetCurrentThemeName function [Windows Controls]",
+    "controls.GetCurrentThemeName",
+    "controls.inet_GetCurrentThemeName",
+    "inet_GetCurrentThemeName",
+    "inet_GetCurrentThemeName_cpp",
+    "uxtheme/GetCurrentThemeName"
+  ],
+  "old-location": "controls\\GetCurrentThemeName.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\userex\\functions\\getcurrentthemename.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCurrentThemeName, GetCurrentThemeName function [Windows Controls], controls.GetCurrentThemeName, controls.inet_GetCurrentThemeName, inet_GetCurrentThemeName, inet_GetCurrentThemeName_cpp, uxtheme/GetCurrentThemeName",
+  "req.header": "uxtheme.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "UxTheme.lib",
+  "req.dll": "UxTheme.dll (version 1.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetCurrentThemeName",
+    "uxtheme/GetCurrentThemeName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-uxtheme-themes-l1-1-3.dll",
+    "ext-ms-win-uxtheme-themes-l1-1-2.dll",
+    "UxTheme.dll"
+  ],
+  "api_name": [
+    "GetCurrentThemeName"
+  ]
+}

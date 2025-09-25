@@ -1,0 +1,3 @@
+typedef struct _NET_FRAGMENT_VIRTUAL_ADDRESS {
+  void *VirtualAddress;
+} NET_FRAGMENT_VIRTUAL_ADDRESS;

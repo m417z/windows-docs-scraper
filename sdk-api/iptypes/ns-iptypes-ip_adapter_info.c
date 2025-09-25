@@ -1,0 +1,20 @@
+typedef struct _IP_ADAPTER_INFO {
+  struct _IP_ADAPTER_INFO *Next;
+  DWORD                   ComboIndex;
+  char                    AdapterName[MAX_ADAPTER_NAME_LENGTH + 4];
+  char                    Description[MAX_ADAPTER_DESCRIPTION_LENGTH + 4];
+  UINT                    AddressLength;
+  BYTE                    Address[MAX_ADAPTER_ADDRESS_LENGTH];
+  DWORD                   Index;
+  UINT                    Type;
+  UINT                    DhcpEnabled;
+  PIP_ADDR_STRING         CurrentIpAddress;
+  IP_ADDR_STRING          IpAddressList;
+  IP_ADDR_STRING          GatewayList;
+  IP_ADDR_STRING          DhcpServer;
+  BOOL                    HaveWins;
+  IP_ADDR_STRING          PrimaryWinsServer;
+  IP_ADDR_STRING          SecondaryWinsServer;
+  time_t                  LeaseObtained;
+  time_t                  LeaseExpires;
+} IP_ADAPTER_INFO, *PIP_ADAPTER_INFO;

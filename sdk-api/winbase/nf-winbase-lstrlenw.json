@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winbase.lstrlenW",
+  "title": "lstrlenW function (winbase.h)",
+  "description": "Determines the length of the specified string (not including the terminating null character). (Unicode)",
+  "helpviewer_keywords": [
+    "_win32_lstrlen",
+    "_win32_lstrlen_cpp",
+    "lstrlen",
+    "lstrlen function [Menus and Other Resources]",
+    "lstrlenW",
+    "menurc.lstrlen",
+    "winbase/lstrlen",
+    "winbase/lstrlenW",
+    "winui._win32_lstrlen"
+  ],
+  "old-location": "menurc\\lstrlen.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\strings\\stringreference\\stringfunctions\\lstrlen.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_lstrlen, _win32_lstrlen_cpp, lstrlen, lstrlen function [Menus and Other Resources], lstrlenA, lstrlenW, menurc.lstrlen, winbase/lstrlen, winbase/lstrlenA, winbase/lstrlenW, winui._win32_lstrlen",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "lstrlenW (Unicode) and lstrlenA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lstrlenW",
+    "winbase/lstrlenW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-String-Obsolete-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-String-Obsolete-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-misc-l1-1-0.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "lstrlen",
+    "lstrlenA",
+    "lstrlenW"
+  ]
+}

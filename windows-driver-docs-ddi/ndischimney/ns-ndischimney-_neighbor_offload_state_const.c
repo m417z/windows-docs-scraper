@@ -1,0 +1,5 @@
+typedef struct _NEIGHBOR_OFFLOAD_STATE_CONST {
+  OFFLOAD_STATE_HEADER Header;
+  UCHAR                DlSourceAddress[32];
+  ULONG                VlanId : 12;
+} NEIGHBOR_OFFLOAD_STATE_CONST, *PNEIGHBOR_OFFLOAD_STATE_CONST;

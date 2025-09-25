@@ -1,0 +1,3 @@
+typedef struct _ACL_REVISION_INFORMATION {
+  DWORD AclRevision;
+} ACL_REVISION_INFORMATION;

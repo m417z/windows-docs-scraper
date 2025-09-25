@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winsock2.WSAStringToAddressW",
+  "title": "WSAStringToAddressW function (winsock2.h)",
+  "description": "The WSAStringToAddress function converts a network address in its standard text presentation form into its numeric binary form in a sockaddr structure, suitable for passing to Windows Sockets routines that take such a structure. (Unicode)",
+  "helpviewer_keywords": [
+    "WSAStringToAddress",
+    "WSAStringToAddress function [Winsock]",
+    "WSAStringToAddressW",
+    "_win32_wsastringtoaddress_2",
+    "winsock.wsastringtoaddress_2",
+    "winsock2/WSAStringToAddress",
+    "winsock2/WSAStringToAddressW"
+  ],
+  "old-location": "winsock\\wsastringtoaddress_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "7b9946c3-c8b3-45ae-9bde-03faaf604bba",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSAStringToAddress, WSAStringToAddress function [Winsock], WSAStringToAddressA, WSAStringToAddressW, _win32_wsastringtoaddress_2, winsock.wsastringtoaddress_2, winsock2/WSAStringToAddress, winsock2/WSAStringToAddressA, winsock2/WSAStringToAddressW",
+  "req.header": "winsock2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP, Windows 8.1 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WSAStringToAddressW (Unicode) and WSAStringToAddressA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSAStringToAddressW",
+    "winsock2/WSAStringToAddressW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSAStringToAddress",
+    "WSAStringToAddressA",
+    "WSAStringToAddressW"
+  ]
+}

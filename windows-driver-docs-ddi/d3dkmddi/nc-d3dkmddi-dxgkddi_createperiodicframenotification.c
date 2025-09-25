@@ -1,0 +1,6 @@
+DXGKDDI_CREATEPERIODICFRAMENOTIFICATION DxgkddiCreateperiodicframenotification;
+
+NTSTATUS DxgkddiCreateperiodicframenotification(
+  INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION pCreatePeriodicFrameNotification
+)
+{...}

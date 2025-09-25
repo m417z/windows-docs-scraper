@@ -1,0 +1,6 @@
+typedef struct _DXGK_BUILDPAGINGBUFFER_FLUSHTLB {
+  D3DGPU_PHYSICAL_ADDRESS RootPageTableAddress;
+  HANDLE                  hProcess;
+  D3DGPU_VIRTUAL_ADDRESS  StartVirtualAddress;
+  D3DGPU_VIRTUAL_ADDRESS  EndVirtualAddress;
+} DXGK_BUILDPAGINGBUFFER_FLUSHTLB;

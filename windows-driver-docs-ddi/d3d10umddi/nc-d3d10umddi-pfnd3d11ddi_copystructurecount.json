@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D11DDI_COPYSTRUCTURECOUNT",
+  "title": "PFND3D11DDI_COPYSTRUCTURECOUNT (d3d10umddi.h)",
+  "description": "The CopyStructureCount function copies the number of items in the filled portion (that is, the filled-size value) of an append buffer unordered access view (UAV) to an offset into a destination buffer.",
+  "old-location": "display\\copystructurecount.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D11DDI_COPYSTRUCTURECOUNT callback function"
+  ],
+  "ms.keywords": "CopyStructureCount, CopyStructureCount callback function [Display Devices], PFND3D11DDI_COPYSTRUCTURECOUNT, PFND3D11DDI_COPYSTRUCTURECOUNT callback, UserModeDisplayDriverDx11_Functions_b6bad9fd-b0b2-40fa-aa4a-664554984dcd.xml, d3d10umddi/CopyStructureCount, display.copystructurecount",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "CopyStructureCount is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D11DDI_COPYSTRUCTURECOUNT",
+    "d3d10umddi/PFND3D11DDI_COPYSTRUCTURECOUNT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D11DDI_COPYSTRUCTURECOUNT"
+  ]
+}

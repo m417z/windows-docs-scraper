@@ -1,0 +1,4 @@
+typedef struct _WDF_COMMON_BUFFER_CONFIG {
+  ULONG Size;
+  ULONG AlignmentRequirement;
+} WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG;

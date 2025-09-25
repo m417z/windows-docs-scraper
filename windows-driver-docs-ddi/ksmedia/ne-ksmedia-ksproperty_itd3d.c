@@ -1,0 +1,3 @@
+typedef enum {
+  KSPROPERTY_ITD3D_PARAMS
+} KSPROPERTY_ITD3D;

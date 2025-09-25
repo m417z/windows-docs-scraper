@@ -1,0 +1,1 @@
+const CHString & GetNamespace();

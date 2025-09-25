@@ -1,0 +1,58 @@
+{
+  "UID": "NF:comsvcs.GetManagedExtensions",
+  "title": "GetManagedExtensions function (comsvcs.h)",
+  "description": "Determines whether the installed version of COM+ supports special features provided to manage serviced components (managed objects).",
+  "helpviewer_keywords": [
+    "GetManagedExtensions",
+    "GetManagedExtensions function [COM+]",
+    "_cos_GetManagedExtensions",
+    "comsvcs/GetManagedExtensions",
+    "cos.getmanagedextensions"
+  ],
+  "old-location": "cos\\getmanagedextensions.htm",
+  "tech.root": "cos",
+  "ms.assetid": "cffd18c4-6e37-447b-b749-64793711ea56",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions",
+  "req.header": "comsvcs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ComSvcs.lib",
+  "req.dll": "ComSvcs.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetManagedExtensions",
+    "comsvcs/GetManagedExtensions"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ComSvcs.dll"
+  ],
+  "api_name": [
+    "GetManagedExtensions"
+  ]
+}

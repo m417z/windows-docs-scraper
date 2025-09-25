@@ -1,0 +1,3 @@
+typedef struct _WS_FAULT_DESCRIPTION {
+  WS_ENVELOPE_VERSION envelopeVersion;
+} WS_FAULT_DESCRIPTION;

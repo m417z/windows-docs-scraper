@@ -1,0 +1,25 @@
+## Description
+
+This topic describes the **KSPROPERTY_VIDMEM_TRANSPORT** enumeration (ksmedia.h).
+
+## Constants
+
+### `KSPROPERTY_DISPLAY_ADAPTER_GUID`
+
+Defines the **KSPROPERTY_DISPLAY_ADAPTER_GUID** constant.
+
+### `KSPROPERTY_PREFERRED_CAPTURE_SURFACE`
+
+Defines the **KSPROPERTY_PREFERRED_CAPTURE_SURFACE** constant.
+
+### `KSPROPERTY_CURRENT_CAPTURE_SURFACE`
+
+Defines the **KSPROPERTY_CURRENT_CAPTURE_SURFACE** constant.
+
+### `KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS`
+
+Defines the **KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS** constant.
+
+## Remarks
+
+## See also

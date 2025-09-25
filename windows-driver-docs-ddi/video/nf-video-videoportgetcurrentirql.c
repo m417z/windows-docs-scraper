@@ -1,0 +1,1 @@
+VIDEOPORT_API UCHAR VideoPortGetCurrentIrql();

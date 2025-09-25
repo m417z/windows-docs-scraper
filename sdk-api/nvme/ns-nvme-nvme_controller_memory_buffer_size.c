@@ -1,0 +1,13 @@
+typedef union {
+  struct {
+    ULONG SQS : 1;
+    ULONG CQS : 1;
+    ULONG LISTS : 1;
+    ULONG RDS : 1;
+    ULONG WDS : 1;
+    ULONG Reserved : 3;
+    ULONG SZU : 4;
+    ULONG SZ : 20;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CONTROLLER_MEMORY_BUFFER_SIZE, *PNVME_CONTROLLER_MEMORY_BUFFER_SIZE;

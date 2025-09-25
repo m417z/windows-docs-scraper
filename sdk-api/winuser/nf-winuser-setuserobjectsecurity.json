@@ -1,0 +1,70 @@
+{
+  "UID": "NF:winuser.SetUserObjectSecurity",
+  "title": "SetUserObjectSecurity function (winuser.h)",
+  "description": "Sets the security of a user object. This can be, for example, a window or a DDE conversation.",
+  "helpviewer_keywords": [
+    "DACL_SECURITY_INFORMATION",
+    "GROUP_SECURITY_INFORMATION",
+    "OWNER_SECURITY_INFORMATION",
+    "SACL_SECURITY_INFORMATION",
+    "SetUserObjectSecurity",
+    "SetUserObjectSecurity function [Security]",
+    "_win32_setuserobjectsecurity",
+    "security.setuserobjectsecurity",
+    "winuser/SetUserObjectSecurity"
+  ],
+  "old-location": "security\\setuserobjectsecurity.htm",
+  "tech.root": "security",
+  "ms.assetid": "219e41b8-9ac7-4747-a585-b6b9df6a1c9c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetUserObjectSecurity, SetUserObjectSecurity function [Security], _win32_setuserobjectsecurity, security.setuserobjectsecurity, winuser/SetUserObjectSecurity",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetUserObjectSecurity",
+    "winuser/SetUserObjectSecurity"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-usersecurity-l1-1-0.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Misc-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Misc-l1-2-0.dll",
+    "Ext-MS-Win-NTUser-Misc-l1-3-0.dll",
+    "ext-ms-win-ntuser-misc-l1-3-1.dll",
+    "Ext-MS-Win-NTUser-Misc-L1-4-0.dll",
+    "Ext-Ms-Win-NTUser-Misc-L1-5-0.dll",
+    "Ext-MS-Win-NTUser-Misc-L1-5-1.dll"
+  ],
+  "api_name": [
+    "SetUserObjectSecurity"
+  ]
+}

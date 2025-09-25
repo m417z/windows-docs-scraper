@@ -1,0 +1,48 @@
+{
+  "UID": "NF:namcache.RxNameCacheFinalize",
+  "title": "RxNameCacheFinalize function (namcache.h)",
+  "description": "RxNameCacheFinalize releases the storage for all of the NAME_CACHE entries associated with a NAME_CACHE_CONTROL structure.",
+  "old-location": "ifsk\\rxnamecachefinalize.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxNameCacheFinalize function"
+  ],
+  "ms.keywords": "RxNameCacheFinalize, RxNameCacheFinalize function [Installable File System Drivers], ifsk.rxnamecachefinalize, namcache/RxNameCacheFinalize, rxref_34ec3c3b-20b2-425a-8d12-4a2d685ffb2f.xml",
+  "req.header": "namcache.h",
+  "req.include-header": "Namcache.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxNameCacheFinalize",
+    "namcache/RxNameCacheFinalize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "namcache.h"
+  ],
+  "api_name": [
+    "RxNameCacheFinalize"
+  ]
+}

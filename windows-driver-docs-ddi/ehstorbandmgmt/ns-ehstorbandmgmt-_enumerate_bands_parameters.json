@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ehstorbandmgmt._ENUMERATE_BANDS_PARAMETERS",
+  "title": "_ENUMERATE_BANDS_PARAMETERS (ehstorbandmgmt.h)",
+  "description": "The ENUMERATE_BANDS_PARAMETERS structure is used to select which band information entries are selected for return from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.",
+  "old-location": "storage\\enumerate_bands_parameters.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ENUMERATE_BANDS_PARAMETERS structure"
+  ],
+  "ms.keywords": "*PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_ENUM_ALL_BANDS, ENUMBANDS_REPORT_CRYPTO_ALGO, ENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], PENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], _ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, storage.enumerate_bands_parameters",
+  "req.header": "ehstorbandmgmt.h",
+  "req.include-header": "EhStorBandMgmt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ENUMERATE_BANDS_PARAMETERS, *PENUMERATE_BANDS_PARAMETERS",
+  "f1_keywords": [
+    "_ENUMERATE_BANDS_PARAMETERS",
+    "ehstorbandmgmt/_ENUMERATE_BANDS_PARAMETERS",
+    "PENUMERATE_BANDS_PARAMETERS",
+    "ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS",
+    "ENUMERATE_BANDS_PARAMETERS",
+    "ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "EhStorBandMgmt.h"
+  ],
+  "api_name": [
+    "_ENUMERATE_BANDS_PARAMETERS",
+    "PENUMERATE_BANDS_PARAMETERS",
+    "ENUMERATE_BANDS_PARAMETERS"
+  ]
+}

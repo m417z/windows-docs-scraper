@@ -1,0 +1,66 @@
+{
+  "UID": "NS:powrprof._USER_POWER_POLICY",
+  "title": "USER_POWER_POLICY (powrprof.h)",
+  "description": "Contains power policy settings that are unique to each power scheme for a user.",
+  "helpviewer_keywords": [
+    "*PUSER_POWER_POLICY",
+    "PUSER_POWER_POLICY",
+    "PUSER_POWER_POLICY structure pointer",
+    "USER_POWER_POLICY",
+    "USER_POWER_POLICY structure",
+    "_win32_user_power_policy_str",
+    "base.user_power_policy_str",
+    "powrprof/PUSER_POWER_POLICY",
+    "powrprof/USER_POWER_POLICY"
+  ],
+  "old-location": "base\\user_power_policy_str.htm",
+  "tech.root": "base",
+  "ms.assetid": "616c45f6-ec80-42d9-a485-e9e778f2b971",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PUSER_POWER_POLICY, PUSER_POWER_POLICY, PUSER_POWER_POLICY structure pointer, USER_POWER_POLICY, USER_POWER_POLICY structure, _win32_user_power_policy_str, base.user_power_policy_str, powrprof/PUSER_POWER_POLICY, powrprof/USER_POWER_POLICY",
+  "req.header": "powrprof.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USER_POWER_POLICY, *PUSER_POWER_POLICY",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_USER_POWER_POLICY",
+    "powrprof/_USER_POWER_POLICY",
+    "PUSER_POWER_POLICY",
+    "powrprof/PUSER_POWER_POLICY",
+    "USER_POWER_POLICY",
+    "powrprof/USER_POWER_POLICY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "PowrProf.h"
+  ],
+  "api_name": [
+    "USER_POWER_POLICY"
+  ]
+}

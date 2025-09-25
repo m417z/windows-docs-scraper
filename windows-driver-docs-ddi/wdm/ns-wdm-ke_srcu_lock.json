@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._KE_SRCU_LOCK",
+  "tech.root": "kernel",
+  "title": "KE_SRCU_LOCK structure (wdm.h)",
+  "ms.date": "09/02/2025",
+  "targetos": "Windows",
+  "description": "The KE_SRCU_LOCK structure represents the lock context used in SRCU read-side critical sections.",
+  "prerelease": false,
+  "ai-usage": "ai-assisted",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": "Windows Server 2025",
+  "req.target-type": null,
+  "req.typenames": "KE_SRCU_LOCK, *PKE_SRCU_LOCK",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_KE_SRCU_LOCK",
+    "PKE_SRCU_LOCK",
+    "KE_SRCU_LOCK"
+  ],
+  "f1_keywords": [
+    "_KE_SRCU_LOCK",
+    "wdm/_KE_SRCU_LOCK",
+    "PKE_SRCU_LOCK",
+    "wdm/PKE_SRCU_LOCK",
+    "KE_SRCU_LOCK",
+    "wdm/KE_SRCU_LOCK"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_KE_SRCU_LOCK"
+  ]
+}

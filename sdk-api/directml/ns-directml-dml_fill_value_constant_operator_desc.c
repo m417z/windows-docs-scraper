@@ -1,0 +1,5 @@
+struct DML_FILL_VALUE_CONSTANT_OPERATOR_DESC {
+  const DML_TENSOR_DESC *OutputTensor;
+  DML_TENSOR_DATA_TYPE  ValueDataType;
+  DML_SCALAR_UNION      Value;
+};

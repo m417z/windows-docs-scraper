@@ -1,0 +1,63 @@
+{
+  "UID": "NF:clusapi.ClusterNodeControl",
+  "title": "ClusterNodeControl function (clusapi.h)",
+  "description": "Initiates an operation that affects a node. The operation performed depends on the control code passed to the dwControlCode parameter.",
+  "helpviewer_keywords": [
+    "ClusterNodeControl",
+    "ClusterNodeControl function [Failover Cluster]",
+    "_wolf_clusternodecontrol",
+    "clusapi/ClusterNodeControl",
+    "mscs.clusternodecontrol"
+  ],
+  "old-location": "mscs\\clusternodecontrol.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "f6fc8525-a2d3-4643-9372-548df5e30900",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterNodeControl, ClusterNodeControl function [Failover Cluster], _wolf_clusternodecontrol, clusapi/ClusterNodeControl, mscs.clusternodecontrol",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterNodeControl",
+    "clusapi/ClusterNodeControl"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ClusAPI.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-2.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll"
+  ],
+  "api_name": [
+    "ClusterNodeControl"
+  ]
+}

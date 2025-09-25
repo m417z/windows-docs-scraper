@@ -1,0 +1,50 @@
+{
+  "UID": "NF:winuser.RegisterForTooltipDismissNotification",
+  "tech.root": "inputdev",
+  "title": "RegisterForTooltipDismissNotification",
+  "ms.date": "06/17/2022",
+  "targetos": "Windows",
+  "description": "Lets apps or UI frameworks register and unregister windows to receive notification to dismiss their tooltip windows.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winuser.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "user32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 Build 22621",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winuser.h"
+  ],
+  "api_name": [
+    "RegisterForTooltipDismissNotification"
+  ],
+  "f1_keywords": [
+    "RegisterForTooltipDismissNotification",
+    "winuser/RegisterForTooltipDismissNotification"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "RegisterForTooltipDismissNotification"
+  ]
+}

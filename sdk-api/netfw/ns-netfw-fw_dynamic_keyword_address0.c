@@ -1,0 +1,6 @@
+typedef struct _tag_FW_DYNAMIC_KEYWORD_ADDRESS0 {
+  GUID   id;
+  PCWSTR keyword;
+  DWORD  flags;
+  PCWSTR addresses;
+} FW_DYNAMIC_KEYWORD_ADDRESS0, *PFW_DYNAMIC_KEYWORD_ADDRESS0;

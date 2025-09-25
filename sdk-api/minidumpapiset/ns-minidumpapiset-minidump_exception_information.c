@@ -1,0 +1,5 @@
+typedef struct _MINIDUMP_EXCEPTION_INFORMATION {
+  DWORD               ThreadId;
+  PEXCEPTION_POINTERS ExceptionPointers;
+  BOOL                ClientPointers;
+} MINIDUMP_EXCEPTION_INFORMATION, *PMINIDUMP_EXCEPTION_INFORMATION;

@@ -1,0 +1,3 @@
+int GET_KEYSTATE_WPARAM(
+    WPARAM wParam
+);

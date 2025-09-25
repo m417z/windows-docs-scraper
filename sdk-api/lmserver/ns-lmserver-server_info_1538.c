@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1538 {
+  BOOL sv1538_enablefcbopens;
+} SERVER_INFO_1538, *PSERVER_INFO_1538, *LPSERVER_INFO_1538;

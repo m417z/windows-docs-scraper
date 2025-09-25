@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002 Pfnd3d12ddiCreateUnorderedAccessView0002;
+
+VOID Pfnd3d12ddiCreateUnorderedAccessView0002(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_UNORDERED_ACCESS_VIEW_0002 *unnamedParam2,
+  D3D12DDI_CPU_DESCRIPTOR_HANDLE DestDescriptor
+)
+{...}

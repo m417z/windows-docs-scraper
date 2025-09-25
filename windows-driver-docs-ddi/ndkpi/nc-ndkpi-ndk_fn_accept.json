@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndkpi.NDK_FN_ACCEPT",
+  "title": "NDK_FN_ACCEPT (ndkpi.h)",
+  "description": "The NdkAccept (NDK_FN_ACCEPT) function accepts an incoming connection request over a listener object.",
+  "old-location": "netvista\\ndk_fn_accept.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDK_FN_ACCEPT callback function"
+  ],
+  "ms.keywords": "NDK_FN_ACCEPT, NDK_FN_ACCEPT callback, NdkAccept, NdkAccept callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkAccept, netvista.ndk_fn_accept",
+  "req.header": "ndkpi.h",
+  "req.include-header": "Ndkpi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported,Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDK_FN_ACCEPT",
+    "ndkpi/NDK_FN_ACCEPT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "NDK_FN_ACCEPT"
+  ]
+}

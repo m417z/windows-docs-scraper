@@ -1,0 +1,70 @@
+{
+  "UID": "NF:winuser.GetMenuBarInfo",
+  "title": "GetMenuBarInfo function (winuser.h)",
+  "description": "Retrieves information about the specified menu bar.",
+  "helpviewer_keywords": [
+    "GetMenuBarInfo",
+    "GetMenuBarInfo function [Menus and Other Resources]",
+    "OBJID_CLIENT",
+    "OBJID_MENU",
+    "OBJID_SYSMENU",
+    "_win32_GetMenuBarInfo",
+    "_win32_getmenubarinfo_cpp",
+    "menurc.getmenubarinfo",
+    "winui._win32_getmenubarinfo",
+    "winuser/GetMenuBarInfo"
+  ],
+  "old-location": "menurc\\getmenubarinfo.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\menus\\menureference\\menufunctions\\getmenubarinfo.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMenuBarInfo, GetMenuBarInfo function [Menus and Other Resources], OBJID_CLIENT, OBJID_MENU, OBJID_SYSMENU, _win32_GetMenuBarInfo, _win32_getmenubarinfo_cpp, menurc.getmenubarinfo, winui._win32_getmenubarinfo, winuser/GetMenuBarInfo",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetMenuBarInfo",
+    "winuser/GetMenuBarInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-misc-l1-7-0.dll",
+    "ext-ms-win-ntuser-misc-l1-6-0.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Misc-l1-3-1.dll",
+    "Ext-MS-Win-NTUser-Misc-L1-4-0.dll",
+    "Ext-Ms-Win-NTUser-Misc-L1-5-0.dll",
+    "Ext-MS-Win-NTUser-Misc-L1-5-1.dll"
+  ],
+  "api_name": [
+    "GetMenuBarInfo"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-misc-l1-5-0 (introduced in Windows 10, version 10.0.10240)"
+}

@@ -1,0 +1,6 @@
+typedef struct _IPSEC_OFFLOAD_V2_ALGORITHM_INFO {
+  ULONG Identifier;
+  ULONG KeyLength;
+  ULONG KeyOffsetBytes;
+  ULONG AdditionalInfo;
+} IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO;

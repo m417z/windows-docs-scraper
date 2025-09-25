@@ -1,0 +1,58 @@
+{
+  "UID": "NF:mprapi.MprAdminConnectionHangupNotification3",
+  "title": "MprAdminConnectionHangupNotification3 function (mprapi.h)",
+  "description": "Remote Access Service calls the MprAdminConnectionHangupNotification3 function after the last link for the specified connection has been dismantled.",
+  "helpviewer_keywords": [
+    "MprAdminConnectionHangupNotification3",
+    "MprAdminConnectionHangupNotification3 callback",
+    "MprAdminConnectionHangupNotification3 callback function [RAS]",
+    "mprapi/MprAdminConnectionHangupNotification3",
+    "rras.mpradminconnectionhangupnotification3"
+  ],
+  "old-location": "rras\\mpradminconnectionhangupnotification3.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "8c31d345-8f57-47f5-a021-e399f7ccca5d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MprAdminConnectionHangupNotification3, MprAdminConnectionHangupNotification3 callback, MprAdminConnectionHangupNotification3 callback function [RAS], mprapi/MprAdminConnectionHangupNotification3, rras.mpradminconnectionhangupnotification3",
+  "req.header": "mprapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MprAdminConnectionHangupNotification3",
+    "mprapi/MprAdminConnectionHangupNotification3"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Mprapi.h"
+  ],
+  "api_name": [
+    "MprAdminConnectionHangupNotification3"
+  ]
+}

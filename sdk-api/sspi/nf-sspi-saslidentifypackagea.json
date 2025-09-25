@@ -1,0 +1,57 @@
+{
+  "UID": "NF:sspi.SaslIdentifyPackageA",
+  "title": "SaslIdentifyPackageA function (sspi.h)",
+  "description": "Returns the negotiate prefix that matches the specified SASL negotiation buffer. (ANSI)",
+  "helpviewer_keywords": [
+    "SaslIdentifyPackageA",
+    "sspi/SaslIdentifyPackageA"
+  ],
+  "old-location": "security\\saslidentifypackage.htm",
+  "tech.root": "security",
+  "ms.assetid": "df6f4749-8f28-4ee5-8165-f7aeb3bea7ab",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW",
+  "req.header": "sspi.h",
+  "req.include-header": "Security.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SaslIdentifyPackageW (Unicode) and SaslIdentifyPackageA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "Secur32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SaslIdentifyPackageA",
+    "sspi/SaslIdentifyPackageA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Secur32.dll"
+  ],
+  "api_name": [
+    "SaslIdentifyPackage",
+    "SaslIdentifyPackageA",
+    "SaslIdentifyPackageW"
+  ]
+}

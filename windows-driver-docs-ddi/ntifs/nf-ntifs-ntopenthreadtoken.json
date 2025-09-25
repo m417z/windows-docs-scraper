@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.NtOpenThreadToken",
+  "tech.root": "kernel",
+  "title": "NtOpenThreadToken",
+  "ms.date": "10/06/2022",
+  "targetos": "Windows",
+  "description": "The NtOpenThreadToken routine opens the access token associated with a thread, and returns a handle that can be used to access that token.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "NtosKrnl.exe",
+  "req.header": "ntifs.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "NtOpenThreadToken"
+  ],
+  "f1_keywords": [
+    "NtOpenThreadToken",
+    "ntifs/NtOpenThreadToken"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "ms.custom": "engagement-fy23"
+}

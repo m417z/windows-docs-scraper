@@ -1,0 +1,50 @@
+{
+  "UID": "NF:fwpmk.IPsecDospStateDestroyEnumHandle0",
+  "tech.root": "netvista",
+  "title": "IPsecDospStateDestroyEnumHandle0",
+  "ms.date": "06/20/2024",
+  "targetos": "Windows",
+  "description": "The IPsecDospStateDestroyEnumHandle0 function frees a handle returned by IPsecDospStateCreateEnumHandle0.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fwpmk.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "fwpkclnt.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fwpmk.h"
+  ],
+  "api_name": [
+    "IPsecDospStateDestroyEnumHandle0"
+  ],
+  "f1_keywords": [
+    "IPsecDospStateDestroyEnumHandle0",
+    "fwpmk/IPsecDospStateDestroyEnumHandle0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IPsecDospStateDestroyEnumHandle0"
+  ]
+}

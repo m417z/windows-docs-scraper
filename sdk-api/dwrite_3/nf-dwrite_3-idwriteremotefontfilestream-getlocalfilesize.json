@@ -1,0 +1,64 @@
+{
+  "UID": "NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocalFileSize",
+  "title": "IDWriteRemoteFontFileStream::GetLocalFileSize (dwrite_3.h)",
+  "description": "GetLocalFileSize returns the number of bytes of the font file that are currently local, which should always be less than or equal to the full file size returned by GetFileSize.",
+  "helpviewer_keywords": [
+    "GetLocalFileSize",
+    "GetLocalFileSize method [Direct Write]",
+    "GetLocalFileSize method [Direct Write]",
+    "IDWriteRemoteFontFileStream interface",
+    "IDWriteRemoteFontFileStream interface [Direct Write]",
+    "GetLocalFileSize method",
+    "IDWriteRemoteFontFileStream.GetLocalFileSize",
+    "IDWriteRemoteFontFileStream::GetLocalFileSize",
+    "directwrite.idwriteremotefontfilestream_getlocalfilesize",
+    "dwrite_3/IDWriteRemoteFontFileStream::GetLocalFileSize"
+  ],
+  "old-location": "directwrite\\idwriteremotefontfilestream_getlocalfilesize.htm",
+  "tech.root": "DirectWrite",
+  "ms.assetid": "06FB14D5-19F6-48D3-AEA9-3D622219EF2A",
+  "ms.date": "09/10/2025",
+  "ms.keywords": "GetLocalFileSize, GetLocalFileSize method [Direct Write], GetLocalFileSize method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetLocalFileSize method, IDWriteRemoteFontFileStream.GetLocalFileSize, IDWriteRemoteFontFileStream::GetLocalFileSize, directwrite.idwriteremotefontfilestream_getlocalfilesize, dwrite_3/IDWriteRemoteFontFileStream::GetLocalFileSize",
+  "req.header": "dwrite_3.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 15063",
+  "req.target-min-winversvr": "Windows 10 Build 15063",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dwrite.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDWriteRemoteFontFileStream::GetLocalFileSize",
+    "dwrite_3/IDWriteRemoteFontFileStream::GetLocalFileSize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Dwrite.lib",
+    "Dwrite.dll"
+  ],
+  "api_name": [
+    "IDWriteRemoteFontFileStream.GetLocalFileSize"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.MmMapLockedPages",
+  "title": "MmMapLockedPages function (wdm.h)",
+  "description": "The MmMapLockedPages routine is obsolete for Windows 2000 and later versions of Windows, and for Windows Me.",
+  "old-location": "kernel\\mmmaplockedpages.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "MmMapLockedPages function"
+  ],
+  "ms.keywords": "MmMapLockedPages, MmMapLockedPages routine [Kernel-Mode Driver Architecture], k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml, kernel.mmmaplockedpages, wdm/MmMapLockedPages",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Obsolete for Windows 2000 and later versions of Windows, and for Windows Me. This routine is supported only for WDM drivers that must run on Windows 98. Otherwise, use MmMapLockedPagesSpecifyCache.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmMapLockedPages",
+    "wdm/MmMapLockedPages"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmMapLockedPages"
+  ]
+}

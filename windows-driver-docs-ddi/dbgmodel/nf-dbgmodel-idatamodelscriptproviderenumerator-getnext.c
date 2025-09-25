@@ -1,0 +1,3 @@
+HRESULT GetNext(
+  IDataModelScriptProvider **provider
+);

@@ -1,0 +1,47 @@
+{
+  "UID": "NS:sspi._SecPkgContext_NegotiatedTlsExtensions",
+  "title": "SecPkgContext_NegotiatedTlsExtensions",
+  "ms.date": "11/4/2019",
+  "targetos": "Windows",
+  "description": "The SecPkgContext_NegotiatedTlsExtensions structure contains information about the (D)TLS extensions negotiated for the current (D)TLS connection.",
+  "tech.root": "security",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "sspi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.typenames": "SecPkgContext_NegotiatedTlsExtensions, *PSecPkgContext_NegotiatedTlsExtensions",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "sspi.h"
+  ],
+  "api_name": [
+    "_SecPkgContext_NegotiatedTlsExtensions",
+    "SecPkgContext_NegotiatedTlsExtensions"
+  ],
+  "f1_keywords": [
+    "_SecPkgContext_NegotiatedTlsExtensions",
+    "sspi/_SecPkgContext_NegotiatedTlsExtensions",
+    "PSecPkgContext_NegotiatedTlsExtensions",
+    "sspi/PSecPkgContext_NegotiatedTlsExtensions",
+    "SecPkgContext_NegotiatedTlsExtensions",
+    "sspi/SecPkgContext_NegotiatedTlsExtensions"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

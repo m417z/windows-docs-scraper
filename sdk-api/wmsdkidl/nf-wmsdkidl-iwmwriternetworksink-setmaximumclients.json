@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterNetworkSink.SetMaximumClients",
+  "title": "IWMWriterNetworkSink::SetMaximumClients (wmsdkidl.h)",
+  "description": "The SetMaximumClients method sets the maximum number of clients that can connect to this sink. Call this method before streaming begins.",
+  "helpviewer_keywords": [
+    "IWMWriterNetworkSink interface [windows Media Format]",
+    "SetMaximumClients method",
+    "IWMWriterNetworkSink.SetMaximumClients",
+    "IWMWriterNetworkSink::SetMaximumClients",
+    "IWMWriterNetworkSinkSetMaximumClients",
+    "SetMaximumClients",
+    "SetMaximumClients method [windows Media Format]",
+    "SetMaximumClients method [windows Media Format]",
+    "IWMWriterNetworkSink interface",
+    "wmformat.iwmwriternetworksink_setmaximumclients",
+    "wmsdkidl/IWMWriterNetworkSink::SetMaximumClients"
+  ],
+  "old-location": "wmformat\\iwmwriternetworksink_setmaximumclients.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "619f0684-28bb-4412-acbf-27434672083a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMWriterNetworkSink interface [windows Media Format],SetMaximumClients method, IWMWriterNetworkSink.SetMaximumClients, IWMWriterNetworkSink::SetMaximumClients, IWMWriterNetworkSinkSetMaximumClients, SetMaximumClients, SetMaximumClients method [windows Media Format], SetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setmaximumclients, wmsdkidl/IWMWriterNetworkSink::SetMaximumClients",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterNetworkSink::SetMaximumClients",
+    "wmsdkidl/IWMWriterNetworkSink::SetMaximumClients"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterNetworkSink.SetMaximumClients"
+  ]
+}

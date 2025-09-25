@@ -1,0 +1,10 @@
+typedef struct _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 {
+  ULONG                   Signature;
+  union {
+    UCHAR MethodName[4];
+    ULONG MethodNameAsUlong;
+  } DUMMYUNIONNAME;
+  ULONG                   Size;
+  ULONG                   ArgumentCount;
+  ACPI_METHOD_ARGUMENT_V1 Argument[ANYSIZE_ARRAY];
+} ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX;

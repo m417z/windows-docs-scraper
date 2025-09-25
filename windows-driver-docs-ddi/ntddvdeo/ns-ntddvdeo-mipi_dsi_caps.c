@@ -1,0 +1,20 @@
+typedef struct _MIPI_DSI_CAPS {
+  UCHAR  DSITypeMajor;
+  UCHAR  DSITypeMinor;
+  UCHAR  SpecVersionMajor;
+  UCHAR  SpecVersionMinor;
+  UCHAR  SpecVersionPatch;
+  USHORT TargetMaximumReturnPacketSize;
+  UCHAR  ResultCodeFlags;
+  UCHAR  ResultCodeStatus;
+  UCHAR  Revision;
+  UCHAR  Level;
+  UCHAR  DeviceClassHi;
+  UCHAR  DeviceClassLo;
+  UCHAR  ManufacturerHi;
+  UCHAR  ManufacturerLo;
+  UCHAR  ProductHi;
+  UCHAR  ProductLo;
+  UCHAR  LengthHi;
+  UCHAR  LengthLo;
+} MIPI_DSI_CAPS, *PMIPI_DSI_CAPS;

@@ -1,0 +1,43 @@
+{
+  "UID": "NF:storport.StorPortWaitForSingleObject",
+  "title": "StorPortWaitForSingleObject function",
+  "description": "A miniport can call StorPortWaitForSingleObject function to put the current thread into a wait state until the given dispatcher object is set to signaled state or optionally times out.",
+  "tech.root": "storage",
+  "ms.date": "03/24/2020",
+  "ms.keywords": "StorPortWaitForSingleObject",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "StorPortWaitForSingleObject",
+    "storport/StorPortWaitForSingleObject"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Storport.lib",
+    "Storport.dll"
+  ],
+  "api_name": [
+    "StorPortWaitForSingleObject"
+  ]
+}

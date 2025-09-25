@@ -1,0 +1,65 @@
+{
+  "UID": "NF:mswmdm.IWMDMObjectInfo.SetPlayLength",
+  "title": "IWMDMObjectInfo::SetPlayLength (mswmdm.h)",
+  "description": "The SetPlayLength method sets the play length of the object, in units appropriate to the format. This is the maximum length that the object plays regardless of its actual length.",
+  "helpviewer_keywords": [
+    "IWMDMObjectInfo interface [windows Media Device Manager]",
+    "SetPlayLength method",
+    "IWMDMObjectInfo.SetPlayLength",
+    "IWMDMObjectInfo::SetPlayLength",
+    "IWMDMObjectInfoSetPlayLength",
+    "SetPlayLength",
+    "SetPlayLength method [windows Media Device Manager]",
+    "SetPlayLength method [windows Media Device Manager]",
+    "IWMDMObjectInfo interface",
+    "mswmdm/IWMDMObjectInfo::SetPlayLength",
+    "wmdm.iwmdmobjectinfo_setplaylength"
+  ],
+  "old-location": "wmdm\\iwmdmobjectinfo_setplaylength.htm",
+  "tech.root": "WMDM",
+  "ms.assetid": "7dfa6443-4eb8-4a88-8af1-c082750e8d22",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IWMDMObjectInfo interface [windows Media Device Manager],SetPlayLength method, IWMDMObjectInfo.SetPlayLength, IWMDMObjectInfo::SetPlayLength, IWMDMObjectInfoSetPlayLength, SetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayLength, wmdm.iwmdmobjectinfo_setplaylength",
+  "req.header": "mswmdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mssachlp.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDMObjectInfo::SetPlayLength",
+    "mswmdm/IWMDMObjectInfo::SetPlayLength"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mssachlp.lib",
+    "mssachlp.dll"
+  ],
+  "api_name": [
+    "IWMDMObjectInfo.SetPlayLength"
+  ]
+}

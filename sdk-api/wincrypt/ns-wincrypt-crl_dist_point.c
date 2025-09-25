@@ -1,0 +1,5 @@
+typedef struct _CRL_DIST_POINT {
+  CRL_DIST_POINT_NAME DistPointName;
+  CRYPT_BIT_BLOB      ReasonFlags;
+  CERT_ALT_NAME_INFO  CRLIssuer;
+} CRL_DIST_POINT, *PCRL_DIST_POINT;

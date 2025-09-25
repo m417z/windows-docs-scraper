@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngQueryDeviceAttribute",
+  "title": "EngQueryDeviceAttribute function (winddi.h)",
+  "description": "The EngQueryDeviceAttribute function allows the driver to query the system about particular attributes of the device.",
+  "helpviewer_keywords": [
+    "EngQueryDeviceAttribute",
+    "EngQueryDeviceAttribute function [Display Devices]",
+    "display.engquerydeviceattribute",
+    "gdifncs_1f76b3e8-f265-4959-a7f0-4bc433936be7.xml",
+    "winddi/EngQueryDeviceAttribute"
+  ],
+  "old-location": "display\\engquerydeviceattribute.htm",
+  "tech.root": "display",
+  "ms.assetid": "767d0d78-c17f-461b-8ca6-04a00dc456de",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngQueryDeviceAttribute, EngQueryDeviceAttribute function [Display Devices], display.engquerydeviceattribute, gdifncs_1f76b3e8-f265-4959-a7f0-4bc433936be7.xml, winddi/EngQueryDeviceAttribute",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngQueryDeviceAttribute",
+    "winddi/EngQueryDeviceAttribute"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngQueryDeviceAttribute"
+  ]
+}

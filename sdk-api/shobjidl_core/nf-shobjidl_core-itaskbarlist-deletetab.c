@@ -1,0 +1,3 @@
+HRESULT DeleteTab(
+  HWND hwnd
+);

@@ -1,0 +1,5 @@
+typedef struct D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW {
+  [in] UINT MipSlice;
+  [in] UINT FirstArraySlice;
+  [in] UINT ArraySize;
+} D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW;

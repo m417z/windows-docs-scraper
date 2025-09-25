@@ -1,0 +1,49 @@
+{
+  "UID": "NF:hidpi.HidP_SetUsages",
+  "title": "HidP_SetUsages function (hidpi.h)",
+  "description": "The HidP_SetUsages routine sets specified HID control buttons ON (1) in a HID report.",
+  "old-location": "hid\\hidp_setusages.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "HidP_SetUsages function"
+  ],
+  "ms.keywords": "HidP_SetUsages, HidP_SetUsages routine [Human Input Devices], hid.hidp_setusages, hidfunc_4d0213bb-2715-446b-bdaf-f82be3cbc11b.xml, hidpi/HidP_SetUsages",
+  "req.header": "hidpi.h",
+  "req.include-header": "Hidpi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hidparse.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidP_SetUsages",
+    "hidpi/HidP_SetUsages"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Hidparse.lib",
+    "Hidparse.dll"
+  ],
+  "api_name": [
+    "HidP_SetUsages"
+  ]
+}

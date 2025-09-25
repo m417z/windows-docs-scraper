@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winnls.GetSystemDefaultUILanguage",
+  "title": "GetSystemDefaultUILanguage function (winnls.h)",
+  "description": "Retrieves the language identifier for the system default UI language of the operating system, also known as the &quot;install language&quot; on Windows Vista and later. For more information, see User Interface Language Management.",
+  "helpviewer_keywords": [
+    "GetSystemDefaultUILanguage",
+    "GetSystemDefaultUILanguage function [Internationalization for Windows Applications]",
+    "_win32_GetSystemDefaultUILanguage",
+    "intl.getsystemdefaultuilanguage",
+    "winnls/GetSystemDefaultUILanguage"
+  ],
+  "old-location": "intl\\getsystemdefaultuilanguage.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "34fc125d-0f0b-43d0-aa2b-91501bd6cd26",
+  "ms.date": "09/24/2020",
+  "ms.keywords": "GetSystemDefaultUILanguage, GetSystemDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetSystemDefaultUILanguage, intl.getsystemdefaultuilanguage, winnls/GetSystemDefaultUILanguage",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetSystemDefaultUILanguage",
+    "winnls/GetSystemDefaultUILanguage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll"
+  ],
+  "api_name": [
+    "GetSystemDefaultUILanguage"
+  ]
+}

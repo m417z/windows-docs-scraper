@@ -1,0 +1,9 @@
+PFND3D11_1DDI_CREATEVIDEOPROCESSOR Pfnd3d111DdiCreatevideoprocessor;
+
+HRESULT Pfnd3d111DdiCreatevideoprocessor(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D11_1DDIARG_CREATEVIDEOPROCESSOR *unnamedParam2,
+  D3D11_1DDI_HVIDEOPROCESSOR unnamedParam3,
+  D3D11_1DDI_HRTVIDEOPROCESSOR unnamedParam4
+)
+{...}

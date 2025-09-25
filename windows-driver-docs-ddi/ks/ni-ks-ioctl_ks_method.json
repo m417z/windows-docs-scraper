@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ks.IOCTL_KS_METHOD",
+  "title": "IOCTL_KS_METHOD (ks.h)",
+  "description": "An application can use IOCTL_KS_METHOD to execute a method on a KS object. The application passes IOCTL_KS_METHOD with the parameters described below to the KsSynchronousDeviceControl function.",
+  "old-location": "stream\\ioctl_ks_method.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_KS_METHOD IOCTL"
+  ],
+  "ms.keywords": "IOCTL_KS_METHOD, IOCTL_KS_METHOD control, IOCTL_KS_METHOD control code [Streaming Media Devices], ks-ioctl_4e1471f0-3763-4828-9186-7771de6201bd.xml, ks/IOCTL_KS_METHOD, stream.ioctl_ks_method",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_KS_METHOD",
+    "ks/IOCTL_KS_METHOD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "IOCTL_KS_METHOD"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.FsRtlCurrentOplockH",
+  "title": "FsRtlCurrentOplockH function (ntifs.h)",
+  "description": "A file system or filter driver calls FsRtlCurrentOplockH to determine whether there are any CACHE_HANDLE_LEVEL opportunistic locks (oplocks) on a file.",
+  "old-location": "ifsk\\fsrtlcurrentoplockh.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FsRtlCurrentOplockH function"
+  ],
+  "ms.keywords": "FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The FsRtlCurrentOplockH routine is available starting with Windows 7.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FsRtlCurrentOplockH",
+    "ntifs/FsRtlCurrentOplockH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FsRtlCurrentOplockH"
+  ]
+}

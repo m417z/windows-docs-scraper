@@ -1,0 +1,57 @@
+{
+  "UID": "NF:msi.MsiSourceListForceResolutionA",
+  "title": "MsiSourceListForceResolutionA function (msi.h)",
+  "description": "The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required. (ANSI)",
+  "helpviewer_keywords": [
+    "MsiSourceListForceResolutionA",
+    "msi/MsiSourceListForceResolutionA"
+  ],
+  "old-location": "setup\\msisourcelistforceresolution.htm",
+  "tech.root": "setup",
+  "ms.assetid": "b58747bf-65db-4563-b09a-0b05d2cf62ea",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiSourceListForceResolution, MsiSourceListForceResolution function, MsiSourceListForceResolutionA, MsiSourceListForceResolutionW, _msi_msisourcelistforceresolution, msi/MsiSourceListForceResolution, msi/MsiSourceListForceResolutionA, msi/MsiSourceListForceResolutionW, setup.msisourcelistforceresolution",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiSourceListForceResolutionW (Unicode) and MsiSourceListForceResolutionA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiSourceListForceResolutionA",
+    "msi/MsiSourceListForceResolutionA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiSourceListForceResolution",
+    "MsiSourceListForceResolutionA",
+    "MsiSourceListForceResolutionW"
+  ]
+}

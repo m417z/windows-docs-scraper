@@ -1,0 +1,3 @@
+HRESULT GetHyphenation(
+  long *pValue
+);

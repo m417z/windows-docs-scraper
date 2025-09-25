@@ -1,0 +1,4 @@
+typedef struct _PEP_PPM_QUERY_PLATFORM_STATE {
+  [in]  ULONG                   StateIndex;
+  [out] PEP_PLATFORM_IDLE_STATE State;
+} PEP_PPM_QUERY_PLATFORM_STATE, *PPEP_PPM_QUERY_PLATFORM_STATE;

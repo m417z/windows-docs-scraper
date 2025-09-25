@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterFileSink3.OnDataUnitEx",
+  "title": "IWMWriterFileSink3::OnDataUnitEx (wmsdkidl.h)",
+  "description": "The OnDataUnitEx method is called when the writer has finished sending a data unit.",
+  "helpviewer_keywords": [
+    "IWMWriterFileSink3 interface [windows Media Format]",
+    "OnDataUnitEx method",
+    "IWMWriterFileSink3.OnDataUnitEx",
+    "IWMWriterFileSink3::OnDataUnitEx",
+    "IWMWriterFileSink3OnDataUnitEx",
+    "OnDataUnitEx",
+    "OnDataUnitEx method [windows Media Format]",
+    "OnDataUnitEx method [windows Media Format]",
+    "IWMWriterFileSink3 interface",
+    "wmformat.iwmwriterfilesink3_ondataunitex",
+    "wmsdkidl/IWMWriterFileSink3::OnDataUnitEx"
+  ],
+  "old-location": "wmformat\\iwmwriterfilesink3_ondataunitex.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "1dbcb27b-7588-4475-99fe-3e547d1659d3",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMWriterFileSink3 interface [windows Media Format],OnDataUnitEx method, IWMWriterFileSink3.OnDataUnitEx, IWMWriterFileSink3::OnDataUnitEx, IWMWriterFileSink3OnDataUnitEx, OnDataUnitEx, OnDataUnitEx method [windows Media Format], OnDataUnitEx method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_ondataunitex, wmsdkidl/IWMWriterFileSink3::OnDataUnitEx",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterFileSink3::OnDataUnitEx",
+    "wmsdkidl/IWMWriterFileSink3::OnDataUnitEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterFileSink3.OnDataUnitEx"
+  ]
+}

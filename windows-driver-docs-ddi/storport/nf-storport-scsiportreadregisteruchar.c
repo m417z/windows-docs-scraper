@@ -1,0 +1,3 @@
+void ScsiPortReadRegisterUchar(
+  [in] Register
+);

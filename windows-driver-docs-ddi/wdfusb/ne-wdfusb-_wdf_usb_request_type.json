@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdfusb._WDF_USB_REQUEST_TYPE",
+  "title": "_WDF_USB_REQUEST_TYPE (wdfusb.h)",
+  "description": "The WDF_USB_REQUEST_TYPE enumeration identifies the types of USB requests that a framework-based driver can send to a USB I/O target.",
+  "old-location": "wdf\\wdf_usb_request_type.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_USB_REQUEST_TYPE enumeration"
+  ],
+  "ms.keywords": "*PWDF_USB_REQUEST_TYPE, DFUsbRef_b3c4cd6e-66ac-40b3-b78b-c550f14c3e94.xml, PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE enumeration pointer, WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeDeviceString, WdfUsbRequestTypeDeviceUrb, WdfUsbRequestTypeInvalid, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeAbort, WdfUsbRequestTypePipeRead, WdfUsbRequestTypePipeReset, WdfUsbRequestTypePipeUrb, WdfUsbRequestTypePipeWrite, _WDF_USB_REQUEST_TYPE, kmdf.wdf_usb_request_type, wdf.wdf_usb_request_type, wdfusb/PWDF_USB_REQUEST_TYPE, wdfusb/WDF_USB_REQUEST_TYPE, wdfusb/WdfUsbRequestTypeDeviceControlTransfer, wdfusb/WdfUsbRequestTypeDeviceString, wdfusb/WdfUsbRequestTypeDeviceUrb, wdfusb/WdfUsbRequestTypeInvalid, wdfusb/WdfUsbRequestTypeNoFormat, wdfusb/WdfUsbRequestTypePipeAbort, wdfusb/WdfUsbRequestTypePipeRead, wdfusb/WdfUsbRequestTypePipeReset, wdfusb/WdfUsbRequestTypePipeUrb, wdfusb/WdfUsbRequestTypePipeWrite",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE",
+  "f1_keywords": [
+    "_WDF_USB_REQUEST_TYPE",
+    "wdfusb/_WDF_USB_REQUEST_TYPE",
+    "PWDF_USB_REQUEST_TYPE",
+    "wdfusb/PWDF_USB_REQUEST_TYPE",
+    "WDF_USB_REQUEST_TYPE",
+    "wdfusb/WDF_USB_REQUEST_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfusb.h"
+  ],
+  "api_name": [
+    "_WDF_USB_REQUEST_TYPE",
+    "PWDF_USB_REQUEST_TYPE",
+    "WDF_USB_REQUEST_TYPE"
+  ]
+}

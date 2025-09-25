@@ -1,0 +1,3 @@
+HRESULT GetListStart(
+  long *pValue
+);

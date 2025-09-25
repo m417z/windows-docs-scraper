@@ -1,0 +1,9 @@
+_ENTITY_METHOD EntityMethod;
+
+VOID EntityMethod(
+  RTM_ENTITY_HANDLE CallerHandle,
+  RTM_ENTITY_HANDLE CalleeHandle,
+  RTM_ENTITY_METHOD_INPUT *Input,
+  RTM_ENTITY_METHOD_OUTPUT *Output
+)
+{...}

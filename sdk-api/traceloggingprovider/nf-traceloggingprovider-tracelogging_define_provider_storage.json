@@ -1,0 +1,58 @@
+{
+  "UID": "NF:traceloggingprovider.TRACELOGGING_DEFINE_PROVIDER_STORAGE",
+  "title": "TRACELOGGING_DEFINE_PROVIDER_STORAGE macro (traceloggingprovider.h)",
+  "description": "Reserves static storage for a TraceLogging provider handle that will be defined by the user. Prefer TRACELOGGING_DEFINE_PROVIDER over this macro.",
+  "helpviewer_keywords": [
+    "TRACELOGGING_DEFINE_PROVIDER_STORAGE",
+    "TRACELOGGING_DEFINE_PROVIDER_STORAGE macro",
+    "tracelogging.TRACELOGGING_DEFINE_PROVIDER_STORAGE",
+    "tracelogging.traceloggingproviderstorage",
+    "traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE"
+  ],
+  "old-location": "tracelogging\\TRACELOGGING_DEFINE_PROVIDER_STORAGE.htm",
+  "tech.root": "tracelogging",
+  "ms.assetid": "C7244C95-5F02-4336-ADFF-876514665C87",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "TRACELOGGING_DEFINE_PROVIDER_STORAGE, TRACELOGGING_DEFINE_PROVIDER_STORAGE macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER_STORAGE, tracelogging.traceloggingproviderstorage, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE",
+  "req.header": "traceloggingprovider.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TRACELOGGING_DEFINE_PROVIDER_STORAGE",
+    "traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "traceloggingprovider.h"
+  ],
+  "api_name": [
+    "TRACELOGGING_DEFINE_PROVIDER_STORAGE"
+  ]
+}

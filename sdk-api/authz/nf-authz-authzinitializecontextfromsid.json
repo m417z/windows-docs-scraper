@@ -1,0 +1,62 @@
+{
+  "UID": "NF:authz.AuthzInitializeContextFromSid",
+  "title": "AuthzInitializeContextFromSid function (authz.h)",
+  "description": "Creates a user-mode client context from a user security identifier (SID).",
+  "helpviewer_keywords": [
+    "AUTHZ_COMPUTE_PRIVILEGES",
+    "AUTHZ_REQUIRE_S4U_LOGON",
+    "AUTHZ_SKIP_TOKEN_GROUPS",
+    "AuthzInitializeContextFromSid",
+    "AuthzInitializeContextFromSid function [Security]",
+    "_win32_authzinitializecontextfromsid",
+    "authz/AuthzInitializeContextFromSid",
+    "security.authzinitializecontextfromsid"
+  ],
+  "old-location": "security\\authzinitializecontextfromsid.htm",
+  "tech.root": "security",
+  "ms.assetid": "402a8641-5644-45c1-80e9-c60321c1ac38",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AUTHZ_COMPUTE_PRIVILEGES, AUTHZ_REQUIRE_S4U_LOGON, AUTHZ_SKIP_TOKEN_GROUPS, AuthzInitializeContextFromSid, AuthzInitializeContextFromSid function [Security], _win32_authzinitializecontextfromsid, authz/AuthzInitializeContextFromSid, security.authzinitializecontextfromsid",
+  "req.header": "authz.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Authz.lib",
+  "req.dll": "Authz.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AuthzInitializeContextFromSid",
+    "authz/AuthzInitializeContextFromSid"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Authz.dll",
+    "Ext-MS-Win-authz-context-l1-1-0.dll"
+  ],
+  "api_name": [
+    "AuthzInitializeContextFromSid"
+  ]
+}

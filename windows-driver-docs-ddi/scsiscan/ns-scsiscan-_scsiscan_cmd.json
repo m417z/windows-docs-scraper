@@ -1,0 +1,54 @@
+{
+  "UID": "NS:scsiscan._SCSISCAN_CMD",
+  "title": "_SCSISCAN_CMD (scsiscan.h)",
+  "description": "The SCSISCAN_CMD structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_SCSISCAN_CMD.",
+  "old-location": "image\\scsiscan_cmd.htm",
+  "tech.root": "image",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "SCSISCAN_CMD structure"
+  ],
+  "ms.keywords": "*PSCSISCAN_CMD, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml",
+  "req.header": "scsiscan.h",
+  "req.include-header": "Scsiscan.h, Srb.h, Scsi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SCSISCAN_CMD, *PSCSISCAN_CMD",
+  "f1_keywords": [
+    "_SCSISCAN_CMD",
+    "scsiscan/_SCSISCAN_CMD",
+    "PSCSISCAN_CMD",
+    "scsiscan/PSCSISCAN_CMD",
+    "SCSISCAN_CMD",
+    "scsiscan/SCSISCAN_CMD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsiscan.h"
+  ],
+  "api_name": [
+    "_SCSISCAN_CMD",
+    "PSCSISCAN_CMD",
+    "SCSISCAN_CMD"
+  ]
+}

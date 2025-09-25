@@ -1,0 +1,58 @@
+# DsListInfoForServerA function
+
+## Description
+
+The **DsListInfoForServer** function lists miscellaneous data for a server.
+
+## Parameters
+
+### `hDs` [in]
+
+Contains a directory service handle obtained from either the
+[DSBind](https://learn.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda) or
+[DSBindWithCred](https://learn.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda) function.
+
+### `server` [in]
+
+Pointer to a null-terminated string that specifies the server name. This name must be the same as one of the strings returned by the [DsListServersForDomainInSite](https://learn.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dslistserversfordomaininsitea) or [DsListServersInSite](https://learn.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dslistserversinsitea) function.
+
+### `ppInfo` [out]
+
+Pointer to a variable that receives a pointer to a
+[DS_NAME_RESULT](https://learn.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta) structure that contains the server data. The returned structure must be deallocated using
+[DsFreeNameResult](https://learn.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreenameresulta).
+
+The indexes of the array in the [DS_NAME_RESULT](https://learn.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta) structure indicate what data are contained by each array element. The following constants may be used to specify the desired index for a particular piece of data.
+
+#### DS_LIST_ACCOUNT_OBJECT_FOR_SERVER
+
+Name of the account object for the domain controller (DC).
+
+#### DS_LIST_DNS_HOST_NAME_FOR_SERVER
+
+DNS host name of the DC.
+
+#### DS_LIST_DSA_OBJECT_FOR_SERVER
+
+GUID of the directory service agent (DSA) for the domain controller (DC).
+
+## Return value
+
+If the function returns server data, the return value is **NO_ERROR**.
+
+If the function fails, the return value can be one of the following error codes.
+
+## Remarks
+
+Individual name conversion errors are reported in the returned [DS_NAME_RESULT](https://learn.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta) structure.
+
+> [!NOTE]
+> The ntdsapi.h header defines DsListInfoForServer as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[DS_NAME_RESULT](https://learn.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta)
+
+[Domain Controller and Replication Management Functions](https://learn.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions)
+
+[DsFreeNameResult](https://learn.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreenameresulta)

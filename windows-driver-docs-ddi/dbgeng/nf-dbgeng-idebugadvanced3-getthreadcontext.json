@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugAdvanced3.GetThreadContext",
+  "title": "IDebugAdvanced3::GetThreadContext (dbgeng.h)",
+  "description": "The (IDebugAdvanced3) GetThreadContext method returns the current thread context represented by the CONTEXT structure for the target's effective processor.",
+  "old-location": "debugger\\getthreadcontext.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugAdvanced3::GetThreadContext"
+  ],
+  "ms.keywords": "GetThreadContext, GetThreadContext method [Windows Debugging], GetThreadContext method [Windows Debugging],IDebugAdvanced interface, GetThreadContext method [Windows Debugging],IDebugAdvanced2 interface, GetThreadContext method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced interface [Windows Debugging],GetThreadContext method, IDebugAdvanced2 interface [Windows Debugging],GetThreadContext method, IDebugAdvanced2::GetThreadContext, IDebugAdvanced3 interface [Windows Debugging],GetThreadContext method, IDebugAdvanced3.GetThreadContext, IDebugAdvanced3::GetThreadContext, IDebugAdvanced::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, dbgeng/IDebugAdvanced2::GetThreadContext, dbgeng/IDebugAdvanced3::GetThreadContext, dbgeng/IDebugAdvanced::GetThreadContext, debugger.getthreadcontext",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h, Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugAdvanced3::GetThreadContext",
+    "dbgeng/IDebugAdvanced3::GetThreadContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugAdvanced3::GetThreadContext"
+  ]
+}

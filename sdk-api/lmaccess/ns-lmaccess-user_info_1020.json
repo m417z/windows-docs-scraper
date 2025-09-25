@@ -1,0 +1,70 @@
+{
+  "UID": "NS:lmaccess._USER_INFO_1020",
+  "title": "USER_INFO_1020 (lmaccess.h)",
+  "description": "The USER_INFO_1020 structure contains the times during which a user can log on to the network. This information level is valid only when you call the NetUserSetInfo function.",
+  "helpviewer_keywords": [
+    "*LPUSER_INFO_1020",
+    "*PUSER_INFO_1020",
+    "LPUSER_INFO_1020",
+    "LPUSER_INFO_1020 structure pointer [Network Management]",
+    "PUSER_INFO_1020",
+    "PUSER_INFO_1020 structure pointer [Network Management]",
+    "USER_INFO_1020",
+    "USER_INFO_1020 structure [Network Management]",
+    "_win32_user_info_1020_str",
+    "lmaccess/LPUSER_INFO_1020",
+    "lmaccess/PUSER_INFO_1020",
+    "lmaccess/USER_INFO_1020",
+    "netmgmt.user_info_1020_str"
+  ],
+  "old-location": "netmgmt\\user_info_1020_str.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "959ed1f4-d5ee-4d77-abd7-bb681778f0b1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPUSER_INFO_1020, *PUSER_INFO_1020, LPUSER_INFO_1020, LPUSER_INFO_1020 structure pointer [Network Management], PUSER_INFO_1020, PUSER_INFO_1020 structure pointer [Network Management], USER_INFO_1020, USER_INFO_1020 structure [Network Management], _win32_user_info_1020_str, lmaccess/LPUSER_INFO_1020, lmaccess/PUSER_INFO_1020, lmaccess/USER_INFO_1020, netmgmt.user_info_1020_str",
+  "req.header": "lmaccess.h",
+  "req.include-header": "Lm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USER_INFO_1020, *PUSER_INFO_1020, *LPUSER_INFO_1020",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_USER_INFO_1020",
+    "lmaccess/_USER_INFO_1020",
+    "PUSER_INFO_1020",
+    "lmaccess/PUSER_INFO_1020",
+    "USER_INFO_1020",
+    "lmaccess/USER_INFO_1020"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Lmaccess.h"
+  ],
+  "api_name": [
+    "USER_INFO_1020"
+  ]
+}

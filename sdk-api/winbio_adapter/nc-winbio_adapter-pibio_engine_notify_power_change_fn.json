@@ -1,0 +1,62 @@
+{
+  "UID": "NC:winbio_adapter.PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN",
+  "title": "PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN (winbio_adapter.h)",
+  "description": "Receives notification about a change in the computer power state and prepares the engine adapter accordingly.",
+  "helpviewer_keywords": [
+    "EngineAdapterNotifyPowerChange",
+    "EngineAdapterNotifyPowerChange callback function [Windows Biometric Framework API]",
+    "PBT_APMPOWERSTATUSCHANGE",
+    "PBT_APMRESUMEAUTOMATIC",
+    "PBT_APMSUSPEND",
+    "PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN",
+    "PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN callback",
+    "secbiomet.engineadapternotifypowerchange",
+    "winbio_adapter/EngineAdapterNotifyPowerChange"
+  ],
+  "old-location": "secbiomet\\engineadapternotifypowerchange.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "805152AE-CCFE-4C05-8142-F9EF8D124625",
+  "ms.date": "11/19/2020",
+  "ms.keywords": "EngineAdapterNotifyPowerChange, EngineAdapterNotifyPowerChange callback function [Windows Biometric Framework API], PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN, PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN callback, secbiomet.engineadapternotifypowerchange, winbio_adapter/EngineAdapterNotifyPowerChange",
+  "req.header": "winbio_adapter.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN",
+    "winbio_adapter/PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winbio_adapter.h"
+  ],
+  "api_name": [
+    "EngineAdapterNotifyPowerChange"
+  ]
+}

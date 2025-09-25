@@ -1,0 +1,4 @@
+typedef struct _EFI_GET_VARIABLE_IN {
+  GUID   VendorGuid;
+  CHAR16 VariableName[ANYSIZE_ARRAY];
+} EFI_GET_VARIABLE_IN, *PEFI_GET_VARIABLE_IN;

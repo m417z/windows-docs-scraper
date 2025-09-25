@@ -1,0 +1,3 @@
+HRESULT WindowsDeleteString(
+  HSTRING string
+);

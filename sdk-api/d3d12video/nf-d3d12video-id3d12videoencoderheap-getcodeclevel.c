@@ -1,0 +1,3 @@
+HRESULT GetCodecLevel(
+  D3D12_VIDEO_ENCODER_LEVEL_SETTING dstLevel
+);

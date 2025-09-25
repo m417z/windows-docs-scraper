@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ucxusbdevice._USBDEVICE_ENABLE",
+  "title": "_USBDEVICE_ENABLE (ucxusbdevice.h)",
+  "description": "Contains parameters for a request to enable the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_ENABLE callback function.",
+  "old-location": "buses\\_usbdevice_enable.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBDEVICE_ENABLE structure"
+  ],
+  "ms.keywords": "*PUSBDEVICE_ENABLE, P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], _USBDEVICE_ENABLE, buses._usbdevice_enable, ucxusbdevice/P_USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE",
+  "req.header": "ucxusbdevice.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE",
+  "f1_keywords": [
+    "_USBDEVICE_ENABLE",
+    "ucxusbdevice/_USBDEVICE_ENABLE",
+    "PUSBDEVICE_ENABLE",
+    "ucxusbdevice/PUSBDEVICE_ENABLE",
+    "USBDEVICE_ENABLE",
+    "ucxusbdevice/USBDEVICE_ENABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucxusbdevice.h"
+  ],
+  "api_name": [
+    "_USBDEVICE_ENABLE",
+    "PUSBDEVICE_ENABLE",
+    "USBDEVICE_ENABLE"
+  ]
+}

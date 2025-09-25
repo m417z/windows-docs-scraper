@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.StorPortValidateRange",
+  "title": "StorPortValidateRange function (storport.h)",
+  "description": "The StorPortValidateRange routine determines whether a specified range of I/O addresses is in use by another adapter. This routine is obsolete in Windows NT 4.0 and later operating systems.",
+  "old-location": "storage\\storportvalidaterange.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortValidateRange function"
+  ],
+  "ms.keywords": "StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "StorPortDeprecated",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Storport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortValidateRange",
+    "storport/StorPortValidateRange"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Storport.lib",
+    "Storport.dll"
+  ],
+  "api_name": [
+    "StorPortValidateRange"
+  ]
+}

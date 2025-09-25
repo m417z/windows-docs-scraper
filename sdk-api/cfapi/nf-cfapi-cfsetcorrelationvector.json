@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cfapi.CfSetCorrelationVector",
+  "title": "CfSetCorrelationVector function (cfapi.h)",
+  "description": "Allows a sync provider to instruct the platform to use a specific correlation vector for telemetry purposes on a placeholder file. This is optional.",
+  "helpviewer_keywords": [
+    "CfSetCorrelationVector",
+    "CfSetCorrelationVector function",
+    "cfapi/CfSetCorrelationVector",
+    "cloudApi.cfsetcorrelationvector"
+  ],
+  "old-location": "cloudapi\\cfsetcorrelationvector.htm",
+  "tech.root": "cloudapi",
+  "ms.assetid": "B9B05D24-BEE5-4BE6-95D5-C28466D69543",
+  "ms.date": "03/31/2023",
+  "ms.keywords": "CfSetCorrelationVector, CfSetCorrelationVector function, cfapi/CfSetCorrelationVector, cloudApi.cfsetcorrelationvector",
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "CldApi.lib",
+  "req.dll": "CldApi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CfSetCorrelationVector",
+    "cfapi/CfSetCorrelationVector"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CldApi.dll"
+  ],
+  "api_name": [
+    "CfSetCorrelationVector"
+  ]
+}

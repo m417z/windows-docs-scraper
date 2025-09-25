@@ -1,0 +1,3 @@
+typedef struct _D3DDDICB_DESTROYOVERLAY {
+  [in] D3DKMT_HANDLE hKernelOverlay;
+} D3DDDICB_DESTROYOVERLAY;

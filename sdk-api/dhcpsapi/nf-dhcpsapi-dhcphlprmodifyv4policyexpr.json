@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpHlprModifyV4PolicyExpr",
+  "title": "DhcpHlprModifyV4PolicyExpr function (dhcpsapi.h)",
+  "description": "Modifies the DHCP server policy expression in a DHCP server policy structure.",
+  "helpviewer_keywords": [
+    "DhcpHlprModifyV4PolicyExpr",
+    "DhcpHlprModifyV4PolicyExpr function [DHCP]",
+    "dhcp.dhcphlprmodifyv4policyexpr",
+    "dhcpsapi/DhcpHlprModifyV4PolicyExpr"
+  ],
+  "old-location": "dhcp\\dhcphlprmodifyv4policyexpr.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "5d6818f9-4e44-4f24-a489-84defd1117c0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DHCP], dhcp.dhcphlprmodifyv4policyexpr, dhcpsapi/DhcpHlprModifyV4PolicyExpr",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpHlprModifyV4PolicyExpr",
+    "dhcpsapi/DhcpHlprModifyV4PolicyExpr"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpHlprModifyV4PolicyExpr"
+  ]
+}

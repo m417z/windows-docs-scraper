@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTReclaimAllocations2(
+  D3DKMT_RECLAIMALLOCATIONS2 *unnamedParam1
+);

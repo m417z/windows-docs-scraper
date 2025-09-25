@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddser.IOCTL_SERIAL_SET_XON",
+  "title": "IOCTL_SERIAL_SET_XON (ntddser.h)",
+  "description": "The IOCTL_SERIAL_SET_XON request emulates the reception of a XON (transmit on) character, which restarts reception of data.",
+  "old-location": "serports\\ioctl_serial_set_xon.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_SERIAL_SET_XON IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SERIAL_SET_XON, IOCTL_SERIAL_SET_XON control, IOCTL_SERIAL_SET_XON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XON, serports.ioctl_serial_set_xon, serref_1c7446da-0080-45f4-af38-c674b874883d.xml",
+  "req.header": "ntddser.h",
+  "req.include-header": "Ntddser.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SERIAL_SET_XON",
+    "ntddser/IOCTL_SERIAL_SET_XON"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddser.h"
+  ],
+  "api_name": [
+    "IOCTL_SERIAL_SET_XON"
+  ]
+}

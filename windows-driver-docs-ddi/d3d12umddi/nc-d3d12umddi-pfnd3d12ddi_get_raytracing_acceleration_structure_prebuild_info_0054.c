@@ -1,0 +1,8 @@
+PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054;
+
+void Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054(
+  [in]  D3D12DDI_HDEVICE unnamedParam1,
+  [in]  const D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054 *unnamedParam2,
+  [out] D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 *unnamedParam3
+)
+{...}

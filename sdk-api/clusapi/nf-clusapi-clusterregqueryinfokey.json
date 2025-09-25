@@ -1,0 +1,58 @@
+{
+  "UID": "NF:clusapi.ClusterRegQueryInfoKey",
+  "title": "ClusterRegQueryInfoKey function (clusapi.h)",
+  "description": "Returns information about a cluster database key.",
+  "helpviewer_keywords": [
+    "ClusterRegQueryInfoKey",
+    "ClusterRegQueryInfoKey function [Failover Cluster]",
+    "_wolf_clusterregqueryinfokey",
+    "clusapi/ClusterRegQueryInfoKey",
+    "mscs.clusterregqueryinfokey"
+  ],
+  "old-location": "mscs\\clusterregqueryinfokey.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "90feb6ae-bd15-4431-ba99-0116fa20e94a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterRegQueryInfoKey, ClusterRegQueryInfoKey function [Failover Cluster], _wolf_clusterregqueryinfokey, clusapi/ClusterRegQueryInfoKey, mscs.clusterregqueryinfokey",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterRegQueryInfoKey",
+    "clusapi/ClusterRegQueryInfoKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "ClusterRegQueryInfoKey"
+  ]
+}

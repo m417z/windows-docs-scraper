@@ -1,0 +1,4 @@
+VIDEOPORT_DEPRECATED VIDEOPORT_API VOID VideoPortWritePortUlong(
+  PULONG Port,
+  ULONG  Value
+);

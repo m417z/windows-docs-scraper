@@ -1,0 +1,3 @@
+HRESULT SetVerticalGlyphOrientation(
+  DWRITE_VERTICAL_GLYPH_ORIENTATION glyphOrientation
+);

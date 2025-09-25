@@ -1,0 +1,6 @@
+typedef struct D3D11_PIXEL_SHADER_TRACE_DESC {
+  UINT64 Invocation;
+  INT    X;
+  INT    Y;
+  UINT64 SampleMask;
+} D3D11_PIXEL_SHADER_TRACE_DESC;

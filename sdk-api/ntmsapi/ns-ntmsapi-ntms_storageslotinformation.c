@@ -1,0 +1,5 @@
+typedef struct _NTMS_STORAGESLOTINFORMATION {
+  DWORD     Number;
+  DWORD     State;
+  NTMS_GUID Library;
+} NTMS_STORAGESLOTINFORMATION;

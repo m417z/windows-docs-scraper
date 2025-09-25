@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntifs.RtlGetCompressionWorkSpaceSize",
+  "title": "RtlGetCompressionWorkSpaceSize function (ntifs.h)",
+  "description": "Learn more about the RtlGetCompressionWorkSpaceSize function.",
+  "tech.root": "ifsk",
+  "ms.date": "09/27/2023",
+  "keywords": [
+    "RtlGetCompressionWorkSpaceSize function"
+  ],
+  "ms.keywords": "RtlGetCompressionWorkSpaceSize, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers], ifsk.rtlgetcompressionworkspacesize, ntifs/RtlGetCompressionWorkSpaceSize, rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Fltkernel.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlGetCompressionWorkSpaceSize",
+    "ntifs/RtlGetCompressionWorkSpaceSize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlGetCompressionWorkSpaceSize"
+  ]
+}

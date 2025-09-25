@@ -1,0 +1,62 @@
+{
+  "UID": "NF:msiquery.MsiDatabaseExportW",
+  "title": "MsiDatabaseExportW function (msiquery.h)",
+  "description": "The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File. (Unicode)",
+  "helpviewer_keywords": [
+    "MsiDatabaseExport",
+    "MsiDatabaseExport function",
+    "MsiDatabaseExportW",
+    "_msi_msidatabaseexport",
+    "msiquery/MsiDatabaseExport",
+    "msiquery/MsiDatabaseExportW",
+    "setup.msidatabaseexport"
+  ],
+  "old-location": "setup\\msidatabaseexport.htm",
+  "tech.root": "setup",
+  "ms.assetid": "c20c168d-900e-496a-894c-5678f308cdbe",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport",
+  "req.header": "msiquery.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiDatabaseExportW (Unicode) and MsiDatabaseExportA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiDatabaseExportW",
+    "msiquery/MsiDatabaseExportW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiDatabaseExport",
+    "MsiDatabaseExportA",
+    "MsiDatabaseExportW"
+  ]
+}

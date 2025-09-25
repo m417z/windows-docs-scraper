@@ -1,0 +1,4 @@
+typedef struct _CRYPT_ATTRIBUTES {
+  DWORD            cAttr;
+  PCRYPT_ATTRIBUTE rgAttr;
+} CRYPT_ATTRIBUTES, *PCRYPT_ATTRIBUTES;

@@ -1,0 +1,51 @@
+{
+  "UID": "NS:wdm._GENERIC_MAPPING",
+  "title": "_GENERIC_MAPPING (wdm.h)",
+  "description": "The GENERIC_MAPPING structure describes the ACCESS_MASK value of specific access rights associated with each type of generic access right.",
+  "old-location": "kernel\\generic_mapping.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "GENERIC_MAPPING structure"
+  ],
+  "ms.keywords": "*PGENERIC_MAPPING, GENERIC_MAPPING, GENERIC_MAPPING structure [Kernel-Mode Driver Architecture], PGENERIC_MAPPING, PGENERIC_MAPPING structure pointer [Kernel-Mode Driver Architecture], _GENERIC_MAPPING, kernel.generic_mapping, kstruct_b_488ee84c-2f22-4682-8b90-56e892f07f7b.xml, wdm/GENERIC_MAPPING, wdm/PGENERIC_MAPPING",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GENERIC_MAPPING",
+  "f1_keywords": [
+    "_GENERIC_MAPPING",
+    "wdm/_GENERIC_MAPPING",
+    "GENERIC_MAPPING",
+    "wdm/GENERIC_MAPPING"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_GENERIC_MAPPING",
+    "GENERIC_MAPPING"
+  ]
+}

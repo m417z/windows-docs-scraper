@@ -1,0 +1,4 @@
+typedef enum _ACX_KEYWORDSPOTTER_CONFIG_FLAGS {
+  AcxKeywordSpotterConfigNoFlags,
+  AcxKeywordSpotterConfigValidFlags
+} ACX_KEYWORDSPOTTER_CONFIG_FLAGS;

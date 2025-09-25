@@ -1,0 +1,4 @@
+typedef struct _MIB_ICMP_EX_XPSP1 {
+  MIBICMPSTATS_EX icmpInStats;
+  MIBICMPSTATS_EX icmpOutStats;
+} MIB_ICMP_EX_XPSP1, *PMIB_ICMP_EX_XPSP1;

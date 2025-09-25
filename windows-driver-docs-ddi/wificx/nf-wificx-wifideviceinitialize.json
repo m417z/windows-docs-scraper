@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wificx.WifiDeviceInitialize",
+  "tech.root": "netvista",
+  "title": "WifiDeviceInitialize (wificx.h)",
+  "ms.date": "08/18/2021",
+  "targetos": "Windows",
+  "description": "The WifiDeviceInitialize function registers the client driver's WiFiCx-specific callback functions.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wificx.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wificx.h"
+  ],
+  "api_name": [
+    "WifiDeviceInitialize"
+  ],
+  "f1_keywords": [
+    "WifiDeviceInitialize",
+    "wificx/WifiDeviceInitialize"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

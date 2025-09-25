@@ -1,0 +1,3 @@
+HRESULT AVIGetFromClipboard(
+  PAVIFILE *lppf
+);

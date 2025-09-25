@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED",
+  "title": "EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED (wdfdevice.h)",
+  "description": "A driver's EvtDeviceWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal.",
+  "old-location": "wdf\\evtdevicewakefroms0triggered.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_d5f1f5da-3fa1-4d26-ab15-587b66c7d5c2.xml, EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED, EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED callback, EvtDeviceWakeFromS0Triggered, EvtDeviceWakeFromS0Triggered callback function, kmdf.evtdevicewakefroms0triggered, wdf.evtdevicewakefroms0triggered, wdfdevice/EvtDeviceWakeFromS0Triggered",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED",
+    "wdfdevice/EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED"
+  ]
+}

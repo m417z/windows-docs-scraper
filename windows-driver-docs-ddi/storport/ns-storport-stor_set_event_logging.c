@@ -1,0 +1,4 @@
+typedef struct _STOR_SET_EVENT_LOGGING {
+  STORPORT_ETW_EVENT_CHANNEL Channel;
+  BOOLEAN                    Enabled;
+} STOR_SET_EVENT_LOGGING, *PSTOR_SET_EVENT_LOGGING;

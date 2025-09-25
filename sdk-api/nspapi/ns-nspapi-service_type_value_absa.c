@@ -1,0 +1,7 @@
+typedef struct _SERVICE_TYPE_VALUE_ABSA {
+  DWORD dwNameSpace;
+  DWORD dwValueType;
+  DWORD dwValueSize;
+  LPSTR lpValueName;
+  PVOID lpValue;
+} SERVICE_TYPE_VALUE_ABSA, *PSERVICE_TYPE_VALUE_ABSA, *LPSERVICE_TYPE_VALUE_ABSA;

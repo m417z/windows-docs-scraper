@@ -1,0 +1,3 @@
+typedef struct _WWAN_GET_SLOT_INFO {
+  ULONG SlotIndex;
+} WWAN_GET_SLOT_INFO, *PWWAN_GET_SLOT_INFO;

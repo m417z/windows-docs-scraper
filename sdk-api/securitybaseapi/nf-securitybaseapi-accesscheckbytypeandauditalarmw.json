@@ -1,0 +1,57 @@
+{
+  "UID": "NF:securitybaseapi.AccessCheckByTypeAndAuditAlarmW",
+  "tech.root": "security",
+  "title": "AccessCheckByTypeAndAuditAlarmW",
+  "ms.date": "04/20/2021",
+  "targetos": "Windows",
+  "description": "Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread. (AccessCheckByTypeAndAuditAlarmW)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Advapi32.dll",
+  "req.header": "securitybaseapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Advapi32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-base-l1-2-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "API-MS-Win-Security-base-l1-1-0.dll",
+    "API-MS-Win-Security-base-l1-2-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Security-Base-L1-2-1.dll"
+  ],
+  "api_name": [
+    "AccessCheckByTypeAndAuditAlarmW",
+    "AccessCheckByTypeAndAuditAlarm"
+  ],
+  "f1_keywords": [
+    "AccessCheckByTypeAndAuditAlarmW",
+    "securitybaseapi/AccessCheckByTypeAndAuditAlarmW",
+    "AccessCheckByTypeAndAuditAlarm",
+    "securitybaseapi/AccessCheckByTypeAndAuditAlarm"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

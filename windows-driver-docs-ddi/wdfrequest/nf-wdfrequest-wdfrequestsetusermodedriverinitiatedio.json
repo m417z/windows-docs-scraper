@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfrequest.WdfRequestSetUserModeDriverInitiatedIo",
+  "title": "WdfRequestSetUserModeDriverInitiatedIo function (wdfrequest.h)",
+  "description": "The WdfRequestSetUserModeDriverInitiatedIo method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.",
+  "old-location": "wdf\\wdfrequestsetusermodedriverinitiatedio.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfRequestSetUserModeDriverInitiatedIo function"
+  ],
+  "ms.keywords": "WdfRequestSetUserModeDriverInitiatedIo, WdfRequestSetUserModeDriverInitiatedIo method, wdf.wdfrequestsetusermodedriverinitiatedio, wdfrequest/WdfRequestSetUserModeDriverInitiatedIo",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WUDFx02000.lib; WUDFx02000.dll",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfRequestSetUserModeDriverInitiatedIo",
+    "wdfrequest/WdfRequestSetUserModeDriverInitiatedIo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "WUDFx02000.lib",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfRequestSetUserModeDriverInitiatedIo"
+  ]
+}

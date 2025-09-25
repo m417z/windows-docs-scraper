@@ -1,0 +1,63 @@
+{
+  "UID": "NF:dbghelp.SymUnloadModule64",
+  "title": "SymUnloadModule64 function (dbghelp.h)",
+  "description": "Unloads the symbol table. (SymUnloadModule64)",
+  "helpviewer_keywords": [
+    "SymUnloadModule",
+    "SymUnloadModule function",
+    "SymUnloadModule64",
+    "SymUnloadModule64 function",
+    "_win32_symunloadmodule64",
+    "base.symunloadmodule64",
+    "dbghelp/SymUnloadModule",
+    "dbghelp/SymUnloadModule64"
+  ],
+  "old-location": "base\\symunloadmodule64.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "f4801039-eba2-4ec3-8c23-706ab89bb442",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dbghelp.lib",
+  "req.dll": "Dbghelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 5.1 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SymUnloadModule64",
+    "dbghelp/SymUnloadModule64"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dbghelp.dll",
+    "imagehlp.dll"
+  ],
+  "api_name": [
+    "SymUnloadModule64",
+    "SymUnloadModule"
+  ]
+}

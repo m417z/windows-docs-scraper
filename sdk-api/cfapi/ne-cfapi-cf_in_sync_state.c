@@ -1,0 +1,4 @@
+typedef enum CF_IN_SYNC_STATE {
+  CF_IN_SYNC_STATE_NOT_IN_SYNC = 0,
+  CF_IN_SYNC_STATE_IN_SYNC = 1
+} ;

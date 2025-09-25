@@ -1,0 +1,64 @@
+{
+  "UID": "NF:ocidl.IPointerInactive.GetActivationPolicy",
+  "title": "IPointerInactive::GetActivationPolicy (ocidl.h)",
+  "description": "Retrieves the current activation policy for the object. This method is called by the container on receipt of a WM_SETCURSOR or WM_MOUSEMOVE message when an inactive object is under the mouse pointer.",
+  "helpviewer_keywords": [
+    "GetActivationPolicy",
+    "GetActivationPolicy method [COM]",
+    "GetActivationPolicy method [COM]",
+    "IPointerInactive interface",
+    "IPointerInactive interface [COM]",
+    "GetActivationPolicy method",
+    "IPointerInactive.GetActivationPolicy",
+    "IPointerInactive::GetActivationPolicy",
+    "_ctrl_ipointerinactive_getactivationpolicy",
+    "com.ipointerinactive_getactivationpolicy",
+    "ocidl/IPointerInactive::GetActivationPolicy"
+  ],
+  "old-location": "com\\ipointerinactive_getactivationpolicy.htm",
+  "tech.root": "com",
+  "ms.assetid": "bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetActivationPolicy, GetActivationPolicy method [COM], GetActivationPolicy method [COM],IPointerInactive interface, IPointerInactive interface [COM],GetActivationPolicy method, IPointerInactive.GetActivationPolicy, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy",
+  "req.header": "ocidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "OCIdl.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPointerInactive::GetActivationPolicy",
+    "ocidl/IPointerInactive::GetActivationPolicy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "OCIdl.h"
+  ],
+  "api_name": [
+    "IPointerInactive.GetActivationPolicy"
+  ]
+}

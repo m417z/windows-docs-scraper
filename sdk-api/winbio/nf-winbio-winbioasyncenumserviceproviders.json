@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winbio.WinBioAsyncEnumServiceProviders",
+  "title": "WinBioAsyncEnumServiceProviders function (winbio.h)",
+  "description": "Asynchronously returns information about installed biometric service providers. Starting with Windows 10, build 1607, this function is available to use with a mobile image.",
+  "helpviewer_keywords": [
+    "WinBioAsyncEnumServiceProviders",
+    "WinBioAsyncEnumServiceProviders function [Windows Biometric Framework API]",
+    "secbiomet.winbioasyncenumserviceproviders",
+    "winbio/WinBioAsyncEnumServiceProviders"
+  ],
+  "old-location": "secbiomet\\winbioasyncenumserviceproviders.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "5B194DE3-2809-4C32-8D5F-EDF23B6CD87E",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinBioAsyncEnumServiceProviders, WinBioAsyncEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioasyncenumserviceproviders, winbio/WinBioAsyncEnumServiceProviders",
+  "req.header": "winbio.h",
+  "req.include-header": "Winbio.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winbio.lib",
+  "req.dll": "Winbio.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinBioAsyncEnumServiceProviders",
+    "winbio/WinBioAsyncEnumServiceProviders"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-biometrics-winbio-core-l1-1-6.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-5.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-4.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-3.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-2.dll",
+    "Winbio.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-Core-l1-1-0.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll"
+  ],
+  "api_name": [
+    "WinBioAsyncEnumServiceProviders"
+  ]
+}

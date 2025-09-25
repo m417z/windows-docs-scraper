@@ -1,0 +1,4 @@
+typedef enum MBN_PIN_CONSTANTS {
+  MBN_ATTEMPTS_REMAINING_UNKNOWN = 0xffffffff,
+  MBN_PIN_LENGTH_UNKNOWN = 0xffffffff
+} ;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:bthddi.PFNBTHPORT_INDICATION_CALLBACK",
+  "title": "PFNBTHPORT_INDICATION_CALLBACK (bthddi.h)",
+  "description": "Profile drivers implement a L2CAP callback function to provide the Bluetooth driver stack with a mechanism to notify the profile driver about incoming L2CAP connection requests from remote devices, and any changes to the status of a currently open L2CAP connection.",
+  "old-location": "bltooth\\l2cap_callback_function.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "PFNBTHPORT_INDICATION_CALLBACK callback function"
+  ],
+  "ms.keywords": "BluetoothPortIndicationCallback, BluetoothPortIndicationCallback callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK, PFNBTHPORT_INDICATION_CALLBACK callback, bltooth.l2cap_callback_function, bth_funcs_76d9cb39-ead0-4465-9cc5-83b559b0ba55.xml, bthddi/BluetoothPortIndicationCallback",
+  "req.header": "bthddi.h",
+  "req.include-header": "Bthddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNBTHPORT_INDICATION_CALLBACK",
+    "bthddi/PFNBTHPORT_INDICATION_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "bthddi.h"
+  ],
+  "api_name": [
+    "PFNBTHPORT_INDICATION_CALLBACK"
+  ]
+}

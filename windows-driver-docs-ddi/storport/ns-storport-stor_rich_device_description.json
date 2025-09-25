@@ -1,0 +1,48 @@
+{
+  "UID": "NS:storport._STOR_RICH_DEVICE_DESCRIPTION",
+  "tech.root": "storage",
+  "title": "STOR_RICH_DEVICE_DESCRIPTION",
+  "ms.date": "02/28/2024",
+  "targetos": "Windows",
+  "description": "STOR_RICH_DEVICE_DESCRIPTION is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiUnitRichDescription.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_RICH_DEVICE_DESCRIPTION",
+    "PSTOR_RICH_DEVICE_DESCRIPTION",
+    "STOR_RICH_DEVICE_DESCRIPTION"
+  ],
+  "f1_keywords": [
+    "_STOR_RICH_DEVICE_DESCRIPTION",
+    "storport/_STOR_RICH_DEVICE_DESCRIPTION",
+    "PSTOR_RICH_DEVICE_DESCRIPTION",
+    "storport/PSTOR_RICH_DEVICE_DESCRIPTION",
+    "STOR_RICH_DEVICE_DESCRIPTION",
+    "storport/STOR_RICH_DEVICE_DESCRIPTION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

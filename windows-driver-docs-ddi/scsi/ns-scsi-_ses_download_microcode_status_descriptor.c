@@ -1,0 +1,10 @@
+typedef struct _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR {
+  UCHAR Reserved1;
+  UCHAR SubEnclosureId;
+  UCHAR Status;
+  UCHAR AdditionalStatus;
+  UCHAR MaximumImageSize[4];
+  UCHAR Reserved2[3];
+  UCHAR ExpectedBufferId;
+  UCHAR ExpectedBufferOffset;
+} SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR;

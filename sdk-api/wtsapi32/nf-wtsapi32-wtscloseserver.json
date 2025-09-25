@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wtsapi32.WTSCloseServer",
+  "title": "WTSCloseServer function (wtsapi32.h)",
+  "description": "Closes an open handle to a Remote Desktop Session Host (RD Session Host) server.",
+  "helpviewer_keywords": [
+    "WTSCloseServer",
+    "WTSCloseServer function [Remote Desktop Services]",
+    "_win32_wtscloseserver",
+    "termserv.wtscloseserver",
+    "wtsapi32/WTSCloseServer"
+  ],
+  "old-location": "termserv\\wtscloseserver.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "092a6107-21bf-40a7-9fe7-f069eb0c89ca",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WTSCloseServer, WTSCloseServer function [Remote Desktop Services], _win32_wtscloseserver, termserv.wtscloseserver, wtsapi32/WTSCloseServer",
+  "req.header": "wtsapi32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wtsapi32.lib",
+  "req.dll": "Wtsapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WTSCloseServer",
+    "wtsapi32/WTSCloseServer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wtsapi32.dll"
+  ],
+  "api_name": [
+    "WTSCloseServer"
+  ]
+}

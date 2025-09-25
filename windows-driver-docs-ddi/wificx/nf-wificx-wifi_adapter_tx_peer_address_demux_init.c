@@ -1,0 +1,4 @@
+void WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT(
+  WIFI_ADAPTER_TX_DEMUX *Demux,
+  UINT8                 Range
+);

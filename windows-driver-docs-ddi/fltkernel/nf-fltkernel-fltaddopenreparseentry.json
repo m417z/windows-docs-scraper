@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltAddOpenReparseEntry",
+  "title": "FltAddOpenReparseEntry function (fltkernel.h)",
+  "description": "This routine adds a caller allocated open reparse structure, OPEN_REPARSE_LIST_ENTRY, into a create operation.",
+  "old-location": "ifsk\\fltaddopenreparseentry.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltAddOpenReparseEntry function"
+  ],
+  "ms.keywords": "FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltaddopenreparseentry",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "_IRQL_requires_max_(APC_LEVEL)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltAddOpenReparseEntry",
+    "fltkernel/FltAddOpenReparseEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltKernel.h"
+  ],
+  "api_name": [
+    "FltAddOpenReparseEntry"
+  ]
+}

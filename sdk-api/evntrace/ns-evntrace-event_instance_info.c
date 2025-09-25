@@ -1,0 +1,4 @@
+typedef struct EVENT_INSTANCE_INFO {
+  HANDLE RegHandle;
+  ULONG  InstanceId;
+} EVENT_INSTANCE_INFO, *PEVENT_INSTANCE_INFO;

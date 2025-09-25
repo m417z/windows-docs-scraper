@@ -1,0 +1,46 @@
+{
+  "UID": "NF:nettxqueue.NetTxQueueGetDemux8021p",
+  "tech.root": "netvista",
+  "title": "NetTxQueueGetDemux8021p",
+  "ms.date": "04/01/2022",
+  "targetos": "Windows",
+  "description": "NetTxQueueGetDemux8021p retrieves the IEEE 802.1p priority information associated with a transmit queue.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nettxqueue.h",
+  "req.idl": null,
+  "req.include-header": "netadaptercx.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": 2.33,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nettxqueue.h"
+  ],
+  "api_name": [
+    "NetTxQueueGetDemux8021p"
+  ],
+  "f1_keywords": [
+    "NetTxQueueGetDemux8021p",
+    "nettxqueue/NetTxQueueGetDemux8021p"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

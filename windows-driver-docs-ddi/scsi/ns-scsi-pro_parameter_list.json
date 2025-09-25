@@ -1,0 +1,50 @@
+{
+  "UID": "NS:scsi.PRO_PARAMETER_LIST",
+  "title": "PRO_PARAMETER_LIST (scsi.h)",
+  "description": "The PRO_PARAMETER_LIST structure (scsi.h) contains reservation information that is sent in a Persistent Reserve Out (PRO) command to a device server.",
+  "tech.root": "storage",
+  "ms.date": "09/20/2022",
+  "keywords": [
+    "PRO_PARAMETER_LIST structure"
+  ],
+  "ms.keywords": "*PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], PRO_PARAMETER_LIST, PRO_PARAMETER_LIST structure [Storage Devices], storage.pro_parameter_list, storport/PPRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml",
+  "req.header": "scsi.h",
+  "req.include-header": "Ntddstor.h, Minitape.h, Scsi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST",
+  "f1_keywords": [
+    "PPRO_PARAMETER_LIST",
+    "scsi/PPRO_PARAMETER_LIST",
+    "PRO_PARAMETER_LIST",
+    "scsi/PRO_PARAMETER_LIST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "PPRO_PARAMETER_LIST",
+    "PRO_PARAMETER_LIST"
+  ]
+}

@@ -1,0 +1,11 @@
+typedef struct WINML_BINDING_DESC {
+  LPCWSTR            Name;
+  WINML_BINDING_TYPE BindType;
+  union {
+    WINML_TENSOR_BINDING_DESC   Tensor;
+    WINML_SEQUENCE_BINDING_DESC Sequence;
+    WINML_MAP_BINDING_DESC      Map;
+    WINML_IMAGE_BINDING_DESC    Image;
+    WINML_RESOURCE_BINDING_DESC Resource;
+  };
+} WINML_BINDING_DESC;

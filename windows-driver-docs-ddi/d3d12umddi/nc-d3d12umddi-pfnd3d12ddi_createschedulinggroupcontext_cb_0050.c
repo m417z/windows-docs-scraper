@@ -1,0 +1,7 @@
+PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXT_CB_0050 Pfnd3d12ddiCreateschedulinggroupcontextCb0050;
+
+HRESULT Pfnd3d12ddiCreateschedulinggroupcontextCb0050(
+  D3D12DDI_HRTSCHEDULINGGROUP_0050 hRTSchedulingGroup,
+  D3DDDICB_CREATECONTEXT *unnamedParam2
+)
+{...}

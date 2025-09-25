@@ -1,0 +1,8 @@
+typedef struct _XFORML {
+  FLOATL eM11;
+  FLOATL eM12;
+  FLOATL eM21;
+  FLOATL eM22;
+  FLOATL eDx;
+  FLOATL eDy;
+} XFORML, *PXFORML;

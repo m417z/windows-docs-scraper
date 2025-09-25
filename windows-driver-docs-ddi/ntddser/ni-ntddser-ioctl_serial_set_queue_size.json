@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddser.IOCTL_SERIAL_SET_QUEUE_SIZE",
+  "title": "IOCTL_SERIAL_SET_QUEUE_SIZE (ntddser.h)",
+  "description": "The IOCTL_SERIAL_SET_QUEUE_SIZE request sets the size of the internal receive buffer. If the requested size is greater than the current receive buffer size, a new receive buffer is created. Otherwise, the receive buffer is not changed.",
+  "old-location": "serports\\ioctl_serial_set_queue_size.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_SERIAL_SET_QUEUE_SIZE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SERIAL_SET_QUEUE_SIZE, IOCTL_SERIAL_SET_QUEUE_SIZE control, IOCTL_SERIAL_SET_QUEUE_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_QUEUE_SIZE, serports.ioctl_serial_set_queue_size, serref_52ce370d-5e55-4a48-a7d2-87da706bb4e7.xml",
+  "req.header": "ntddser.h",
+  "req.include-header": "Ntddser.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SERIAL_SET_QUEUE_SIZE",
+    "ntddser/IOCTL_SERIAL_SET_QUEUE_SIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddser.h"
+  ],
+  "api_name": [
+    "IOCTL_SERIAL_SET_QUEUE_SIZE"
+  ]
+}

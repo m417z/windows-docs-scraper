@@ -1,0 +1,63 @@
+{
+  "UID": "NF:bcrypt.BCryptEnumAlgorithms",
+  "title": "BCryptEnumAlgorithms function (bcrypt.h)",
+  "description": "Gets a list of the registered algorithm identifiers.",
+  "helpviewer_keywords": [
+    "BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION",
+    "BCRYPT_CIPHER_OPERATION",
+    "BCRYPT_HASH_OPERATION",
+    "BCRYPT_RNG_OPERATION",
+    "BCRYPT_SECRET_AGREEMENT_OPERATION",
+    "BCRYPT_SIGNATURE_OPERATION",
+    "BCryptEnumAlgorithms",
+    "BCryptEnumAlgorithms function [Security]",
+    "bcrypt/BCryptEnumAlgorithms",
+    "security.bcryptenumalgorithms_func"
+  ],
+  "old-location": "security\\bcryptenumalgorithms_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "7fa227c0-2b80-49ab-8a19-72f8444d5507",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, BCRYPT_CIPHER_OPERATION, BCRYPT_HASH_OPERATION, BCRYPT_RNG_OPERATION, BCRYPT_SECRET_AGREEMENT_OPERATION, BCRYPT_SIGNATURE_OPERATION, BCryptEnumAlgorithms, BCryptEnumAlgorithms function [Security], bcrypt/BCryptEnumAlgorithms, security.bcryptenumalgorithms_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptEnumAlgorithms",
+    "bcrypt/BCryptEnumAlgorithms"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptEnumAlgorithms"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "UID": "NC:ntlsa.LSA_FREE_LSA_HEAP",
+  "title": "LSA_FREE_LSA_HEAP (ntlsa.h)",
+  "description": "Deallocates heap memory previously allocated by AllocateLsaHeap.",
+  "helpviewer_keywords": [
+    "FreeLsaHeap",
+    "FreeLsaHeap callback function [Security]",
+    "LSA_FREE_LSA_HEAP",
+    "LSA_FREE_LSA_HEAP callback",
+    "_lsa_freelsaheap",
+    "ntlsa/FreeLsaHeap",
+    "security.freelsaheap"
+  ],
+  "old-location": "security\\freelsaheap.htm",
+  "tech.root": "security",
+  "ms.assetid": "bd461a23-2501-48c5-8f2f-c6c98383157f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FreeLsaHeap, FreeLsaHeap callback function [Security], LSA_FREE_LSA_HEAP, LSA_FREE_LSA_HEAP callback, _lsa_freelsaheap, ntlsa/FreeLsaHeap, security.freelsaheap",
+  "req.header": "ntlsa.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LSA_FREE_LSA_HEAP",
+    "ntlsa/LSA_FREE_LSA_HEAP"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntlsa.h"
+  ],
+  "api_name": [
+    "FreeLsaHeap"
+  ]
+}

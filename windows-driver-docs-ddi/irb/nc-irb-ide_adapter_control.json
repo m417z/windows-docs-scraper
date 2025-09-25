@@ -1,0 +1,48 @@
+{
+  "UID": "NC:irb.IDE_ADAPTER_CONTROL",
+  "title": "IDE_ADAPTER_CONTROL (irb.h)",
+  "description": "The AtaAdapterControl miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ataadaptercontrol.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IDE_ADAPTER_CONTROL callback function"
+  ],
+  "ms.keywords": "AtaAdapterControl, AtaAdapterControl routine [Storage Devices], IDE_ADAPTER_CONTROL, atartns_6460976d-3415-4cda-b128-f74baefd075f.xml, irb/AtaAdapterControl, storage.ataadaptercontrol",
+  "req.header": "irb.h",
+  "req.include-header": "Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDE_ADAPTER_CONTROL",
+    "irb/IDE_ADAPTER_CONTROL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "irb.h"
+  ],
+  "api_name": [
+    "IDE_ADAPTER_CONTROL"
+  ]
+}

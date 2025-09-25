@@ -1,0 +1,65 @@
+{
+  "UID": "NF:setupapi.SetupOpenInfFileW",
+  "title": "SetupOpenInfFileW function (setupapi.h)",
+  "description": "The SetupOpenInfFile function opens an INF file and returns a handle to it. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupOpenInfFile",
+    "SetupOpenInfFile function [Setup API]",
+    "SetupOpenInfFileW",
+    "_setupapi_setupopeninffile",
+    "setup.setupopeninffile",
+    "setupapi/SetupOpenInfFile",
+    "setupapi/SetupOpenInfFileW"
+  ],
+  "old-location": "setup\\setupopeninffile.htm",
+  "tech.root": "setup",
+  "ms.assetid": "a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupOpenInfFile, SetupOpenInfFile function [Setup API], SetupOpenInfFileA, SetupOpenInfFileW, _setupapi_setupopeninffile, setup.setupopeninffile, setupapi/SetupOpenInfFile, setupapi/SetupOpenInfFileA, setupapi/SetupOpenInfFileW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupOpenInfFileW (Unicode) and SetupOpenInfFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupOpenInfFileW",
+    "setupapi/SetupOpenInfFileW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll",
+    "Ext-MS-Win-setupapi-inf-l1-1-0.dll",
+    "Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll"
+  ],
+  "api_name": [
+    "SetupOpenInfFile",
+    "SetupOpenInfFileA",
+    "SetupOpenInfFileW"
+  ],
+  "req.apiset": "ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)"
+}

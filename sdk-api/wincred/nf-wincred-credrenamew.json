@@ -1,0 +1,62 @@
+{
+  "UID": "NF:wincred.CredRenameW",
+  "title": "CredRenameW function (wincred.h)",
+  "description": "CredRename is no longer supported. (Unicode)",
+  "helpviewer_keywords": [
+    "CredRename",
+    "CredRename function [Security]",
+    "CredRenameW",
+    "_cred_credrename",
+    "security.credrename",
+    "wincred/CredRename",
+    "wincred/CredRenameW"
+  ],
+  "old-location": "security\\credrename.htm",
+  "tech.root": "security",
+  "ms.assetid": "e598f2ae-f975-4dd2-bf0b-e2fd96d4c940",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CredRename, CredRename function [Security], CredRenameA, CredRenameW, _cred_credrename, security.credrename, wincred/CredRename, wincred/CredRenameA, wincred/CredRenameW",
+  "req.header": "wincred.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CredRenameW (Unicode) and CredRenameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CredRenameW",
+    "wincred/CredRenameW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "CredRename",
+    "CredRenameA",
+    "CredRenameW"
+  ]
+}

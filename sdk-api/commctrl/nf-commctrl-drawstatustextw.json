@@ -1,0 +1,67 @@
+{
+  "UID": "NF:commctrl.DrawStatusTextW",
+  "title": "DrawStatusTextW function (commctrl.h)",
+  "description": "The DrawStatusText function draws the specified text in the style of a status window with borders. (Unicode)",
+  "helpviewer_keywords": [
+    "DrawStatusText",
+    "DrawStatusText function [Windows Controls]",
+    "DrawStatusTextW",
+    "SBT_NOBORDERS",
+    "SBT_POPOUT",
+    "SBT_RTLREADING",
+    "_win32_DrawStatusText",
+    "_win32_DrawStatusText_cpp",
+    "commctrl/DrawStatusText",
+    "commctrl/DrawStatusTextW",
+    "controls.DrawStatusText",
+    "controls._win32_DrawStatusText"
+  ],
+  "old-location": "controls\\DrawStatusText.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\status\\functions\\drawstatustext.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DrawStatusText, DrawStatusText function [Windows Controls], DrawStatusTextA, DrawStatusTextW, SBT_NOBORDERS, SBT_POPOUT, SBT_RTLREADING, _win32_DrawStatusText, _win32_DrawStatusText_cpp, commctrl/DrawStatusText, commctrl/DrawStatusTextA, commctrl/DrawStatusTextW, controls.DrawStatusText, controls._win32_DrawStatusText",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DrawStatusTextW (Unicode) and DrawStatusTextA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Comctl32.lib",
+  "req.dll": "Comctl32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DrawStatusTextW",
+    "commctrl/DrawStatusTextW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Comctl32.dll"
+  ],
+  "api_name": [
+    "DrawStatusText",
+    "DrawStatusTextA",
+    "DrawStatusTextW"
+  ]
+}

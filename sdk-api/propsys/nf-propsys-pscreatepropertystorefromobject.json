@@ -1,0 +1,61 @@
+{
+  "UID": "NF:propsys.PSCreatePropertyStoreFromObject",
+  "title": "PSCreatePropertyStoreFromObject function (propsys.h)",
+  "description": "Accepts the IUnknown interface of an object that supports IPropertyStore or IPropertySetStorage. If the object supports IPropertySetStorage, it is wrapped so that it supports IPropertyStore.",
+  "helpviewer_keywords": [
+    "PSCreatePropertyStoreFromObject",
+    "PSCreatePropertyStoreFromObject function [Windows Properties]",
+    "STGM_READ",
+    "STGM_READWRITE",
+    "_shell_PSCreatePropertyStoreFromObject",
+    "properties.PSCreatePropertyStoreFromObject",
+    "propsys/PSCreatePropertyStoreFromObject",
+    "shell.PSCreatePropertyStoreFromObject"
+  ],
+  "old-location": "properties\\PSCreatePropertyStoreFromObject.htm",
+  "tech.root": "properties",
+  "ms.assetid": "010572d5-0357-4101-803e-0a27fc60ca5e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PSCreatePropertyStoreFromObject, PSCreatePropertyStoreFromObject function [Windows Properties], STGM_READ, STGM_READWRITE, _shell_PSCreatePropertyStoreFromObject, properties.PSCreatePropertyStoreFromObject, propsys/PSCreatePropertyStoreFromObject, shell.PSCreatePropertyStoreFromObject",
+  "req.header": "propsys.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2, Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Propsys.lib",
+  "req.dll": "Propsys.dll (version 6.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Desktop Search (WDS) 3.0",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PSCreatePropertyStoreFromObject",
+    "propsys/PSCreatePropertyStoreFromObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Propsys.dll"
+  ],
+  "api_name": [
+    "PSCreatePropertyStoreFromObject"
+  ]
+}

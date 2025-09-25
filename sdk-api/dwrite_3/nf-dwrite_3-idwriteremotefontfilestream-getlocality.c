@@ -1,0 +1,1 @@
+DWRITE_LOCALITY GetLocality();

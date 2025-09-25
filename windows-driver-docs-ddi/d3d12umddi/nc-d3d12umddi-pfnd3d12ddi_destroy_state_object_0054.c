@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROY_STATE_OBJECT_0054 Pfnd3d12ddiDestroyStateObject0054;
+
+VOID Pfnd3d12ddiDestroyStateObject0054(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HSTATEOBJECT_0054 unnamedParam2
+)
+{...}

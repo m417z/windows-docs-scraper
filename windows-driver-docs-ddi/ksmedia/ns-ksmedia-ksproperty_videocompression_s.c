@@ -1,0 +1,5 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      StreamIndex;
+  LONG       Value;
+} KSPROPERTY_VIDEOCOMPRESSION_S, *PKSPROPERTY_VIDEOCOMPRESSION_S;

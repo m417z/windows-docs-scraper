@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winbase.ApplicationRecoveryFinished",
+  "title": "ApplicationRecoveryFinished function (winbase.h)",
+  "description": "Indicates that the calling application has completed its data recovery.",
+  "helpviewer_keywords": [
+    "ApplicationRecoveryFinished",
+    "ApplicationRecoveryFinished function [Recovery]",
+    "recovery.applicationrecoveryfinished",
+    "winbase/ApplicationRecoveryFinished"
+  ],
+  "old-location": "recovery\\applicationrecoveryfinished.htm",
+  "tech.root": "Recovery",
+  "ms.assetid": "2c9309c5-c36d-4b68-a642-ed087024dba1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ApplicationRecoveryFinished, ApplicationRecoveryFinished function [Recovery], recovery.applicationrecoveryfinished, winbase/ApplicationRecoveryFinished",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ApplicationRecoveryFinished",
+    "winbase/ApplicationRecoveryFinished"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "ApplicationRecoveryFinished"
+  ]
+}

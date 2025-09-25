@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winevt.EvtOpenPublisherMetadata",
+  "title": "EvtOpenPublisherMetadata function (winevt.h)",
+  "description": "Gets a handle that you use to read the specified provider's metadata.",
+  "helpviewer_keywords": [
+    "EvtOpenPublisherMetadata",
+    "EvtOpenPublisherMetadata function [EventLog]",
+    "wes.evtopenpublishermetadata",
+    "winevt/EvtOpenPublisherMetadata"
+  ],
+  "old-location": "wes\\evtopenpublishermetadata.htm",
+  "tech.root": "wes",
+  "ms.assetid": "0839fb15-12a9-4e30-9afa-6f6437956df0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata",
+  "req.header": "winevt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wevtapi.lib",
+  "req.dll": "Wevtapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EvtOpenPublisherMetadata",
+    "winevt/EvtOpenPublisherMetadata"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wevtapi-eventlog-l1-1-3.dll",
+    "Wevtapi.dll",
+    "Ext-MS-Win-WevtAPI-EventLog-L1-1-2.dll"
+  ],
+  "api_name": [
+    "EvtOpenPublisherMetadata"
+  ]
+}

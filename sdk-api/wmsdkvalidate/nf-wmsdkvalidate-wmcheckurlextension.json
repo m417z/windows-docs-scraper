@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wmsdkvalidate.WMCheckURLExtension",
+  "title": "WMCheckURLExtension function (wmsdkvalidate.h)",
+  "description": "The WMCheckURLExtension function examines the file name extension in the URL or file name that is passed in as an argument.",
+  "helpviewer_keywords": [
+    "WMCheckURLExtension",
+    "WMCheckURLExtension function [windows Media Format]",
+    "wmformat.wmcheckurlextension",
+    "wmsdkvalidate/WMCheckURLExtension"
+  ],
+  "old-location": "wmformat\\wmcheckurlextension.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "f001d9e7-ccbd-4dc9-bb4b-fe45cb47700c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "WMCheckURLExtension, WMCheckURLExtension function [windows Media Format], wmformat.wmcheckurlextension, wmsdkvalidate/WMCheckURLExtension",
+  "req.header": "wmsdkvalidate.h",
+  "req.include-header": "Wmsdkidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib",
+  "req.dll": "Wmvcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WMCheckURLExtension",
+    "wmsdkvalidate/WMCheckURLExtension"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wmvcore.dll"
+  ],
+  "api_name": [
+    "WMCheckURLExtension"
+  ]
+}

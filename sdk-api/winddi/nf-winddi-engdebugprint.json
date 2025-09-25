@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngDebugPrint",
+  "title": "EngDebugPrint function (winddi.h)",
+  "description": "The EngDebugPrint function prints the specified debug message to the kernel debugger.",
+  "helpviewer_keywords": [
+    "EngDebugPrint",
+    "EngDebugPrint function [Display Devices]",
+    "display.engdebugprint",
+    "gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml",
+    "winddi/EngDebugPrint"
+  ],
+  "old-location": "display\\engdebugprint.htm",
+  "tech.root": "display",
+  "ms.assetid": "2480adec-68b6-4ffe-8b20-2ca7cb1a4d79",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngDebugPrint, EngDebugPrint function [Display Devices], display.engdebugprint, gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml, winddi/EngDebugPrint",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngDebugPrint",
+    "winddi/EngDebugPrint"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngDebugPrint"
+  ]
+}

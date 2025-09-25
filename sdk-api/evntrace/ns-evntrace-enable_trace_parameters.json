@@ -1,0 +1,74 @@
+{
+  "UID": "NS:evntrace._ENABLE_TRACE_PARAMETERS",
+  "title": "ENABLE_TRACE_PARAMETERS (evntrace.h)",
+  "description": "Contains information used to enable a provider via EnableTraceEx2.",
+  "helpviewer_keywords": [
+    "*PENABLE_TRACE_PARAMETERS",
+    "ENABLE_TRACE_PARAMETERS",
+    "ENABLE_TRACE_PARAMETERS structure [ETW]",
+    "EVENT_ENABLE_PROPERTY_EVENT_KEY",
+    "EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE",
+    "EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0",
+    "EVENT_ENABLE_PROPERTY_PROCESS_START_KEY",
+    "EVENT_ENABLE_PROPERTY_PROVIDER_GROUP",
+    "EVENT_ENABLE_PROPERTY_SID",
+    "EVENT_ENABLE_PROPERTY_STACK_TRACE",
+    "EVENT_ENABLE_PROPERTY_TS_ID",
+    "PENABLE_TRACE_PARAMETERS",
+    "PENABLE_TRACE_PARAMETERS structure pointer [ETW]",
+    "_ENABLE_TRACE_PARAMETERS",
+    "etw.enable_trace_parameters",
+    "evntrace/ENABLE_TRACE_PARAMETERS",
+    "evntrace/PENABLE_TRACE_PARAMETERS"
+  ],
+  "old-location": "etw\\enable_trace_parameters.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "bc7cf886-f763-428a-9e75-031e8df26554",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PENABLE_TRACE_PARAMETERS, ENABLE_TRACE_PARAMETERS, ENABLE_TRACE_PARAMETERS structure [ETW], EVENT_ENABLE_PROPERTY_EVENT_KEY, EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE, EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0, EVENT_ENABLE_PROPERTY_PROCESS_START_KEY, EVENT_ENABLE_PROPERTY_PROVIDER_GROUP, EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_STACK_TRACE, EVENT_ENABLE_PROPERTY_TS_ID, PENABLE_TRACE_PARAMETERS, PENABLE_TRACE_PARAMETERS structure pointer [ETW], _ENABLE_TRACE_PARAMETERS, etw.enable_trace_parameters, evntrace/ENABLE_TRACE_PARAMETERS, evntrace/PENABLE_TRACE_PARAMETERS",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ENABLE_TRACE_PARAMETERS, *PENABLE_TRACE_PARAMETERS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_ENABLE_TRACE_PARAMETERS",
+    "evntrace/_ENABLE_TRACE_PARAMETERS",
+    "PENABLE_TRACE_PARAMETERS",
+    "evntrace/PENABLE_TRACE_PARAMETERS",
+    "ENABLE_TRACE_PARAMETERS",
+    "evntrace/ENABLE_TRACE_PARAMETERS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Evntrace.h"
+  ],
+  "api_name": [
+    "ENABLE_TRACE_PARAMETERS"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupDiRestartDevices",
+  "title": "SetupDiRestartDevices function (setupapi.h)",
+  "description": "The SetupDiRestartDevices function restarts a specified device or, if necessary, restarts all devices that are operated by the same function and filter drivers that operate the specified device.",
+  "helpviewer_keywords": [
+    "SetupDiRestartDevices",
+    "SetupDiRestartDevices function [Device and Driver Installation]",
+    "devinst.setupdirestartdevices",
+    "di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml",
+    "setupapi/SetupDiRestartDevices"
+  ],
+  "old-location": "devinst\\setupdirestartdevices.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "38bb2e40-e522-4155-9d2c-f6aaeea70839",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiRestartDevices, SetupDiRestartDevices function [Device and Driver Installation], devinst.setupdirestartdevices, di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml, setupapi/SetupDiRestartDevices",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Server 2003 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiRestartDevices",
+    "setupapi/SetupDiRestartDevices"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiRestartDevices"
+  ]
+}

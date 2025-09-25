@@ -1,0 +1,48 @@
+{
+  "UID": "NF:iointex.WdmlibIoDisconnectInterruptEx",
+  "title": "WdmlibIoDisconnectInterruptEx function (iointex.h)",
+  "description": "The WdmlibIoDisconnectInterruptEx function unregisters an interrupt service routine (ISR) that was registered by a previous call to the WdmlibIoConnectInterruptEx function.",
+  "old-location": "kernel\\wdmlibiodisconnectinterruptex.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WdmlibIoDisconnectInterruptEx function"
+  ],
+  "ms.keywords": "IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, kernel.wdmlibiodisconnectinterruptex",
+  "req.header": "iointex.h",
+  "req.include-header": "Iointex.h, Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista. Drivers that must also work Microsoft Windows 2000, Windows XP, or Windows Server 2003 can instead link to Iointex.lib to use the routine.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib; Iointex.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdmlibIoDisconnectInterruptEx",
+    "iointex/WdmlibIoDisconnectInterruptEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "WdmlibIoDisconnectInterruptEx"
+  ]
+}

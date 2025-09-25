@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ObDereferenceObject",
+  "title": "ObDereferenceObject macro (wdm.h)",
+  "description": "The ObDereferenceObject routine decrements the given object's reference count and performs retention checks.",
+  "tech.root": "kernel",
+  "ms.date": "12/13/2022",
+  "keywords": [
+    "ObDereferenceObject macro"
+  ],
+  "ms.keywords": "ObDereferenceObject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml, kernel.obdereferenceobject, wdm/ObDereferenceObject",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ObDereferenceObject",
+    "wdm/ObDereferenceObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ObDereferenceObject"
+  ]
+}

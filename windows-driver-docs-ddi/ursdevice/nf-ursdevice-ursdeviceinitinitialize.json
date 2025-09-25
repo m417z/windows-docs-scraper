@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ursdevice.UrsDeviceInitInitialize",
+  "title": "UrsDeviceInitInitialize function (ursdevice.h)",
+  "description": "Learn how this function initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.",
+  "old-location": "buses\\ursdeviceinitinitialize.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UrsDeviceInitInitialize function"
+  ],
+  "ms.keywords": "UrsDeviceInitInitialize, UrsDeviceInitInitialize method [Buses], buses.ursdeviceinitinitialize, ursdevice/UrsDeviceInitInitialize",
+  "req.header": "ursdevice.h",
+  "req.include-header": "Urscx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Urscxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UrsDeviceInitInitialize",
+    "ursdevice/UrsDeviceInitInitialize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Urscxstub.lib",
+    "Urscxstub.dll"
+  ],
+  "api_name": [
+    "UrsDeviceInitInitialize"
+  ]
+}

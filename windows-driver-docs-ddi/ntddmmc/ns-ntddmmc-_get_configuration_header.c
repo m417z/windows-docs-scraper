@@ -1,0 +1,6 @@
+typedef struct _GET_CONFIGURATION_HEADER {
+  UCHAR DataLength[4];
+  UCHAR Reserved[2];
+  UCHAR CurrentProfile[2];
+  UCHAR Data[0];
+} GET_CONFIGURATION_HEADER, *PGET_CONFIGURATION_HEADER;

@@ -1,0 +1,4 @@
+typedef struct _WIN32_FIND_STREAM_DATA {
+  LARGE_INTEGER StreamSize;
+  WCHAR         cStreamName[MAX_PATH + 36];
+} WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA;

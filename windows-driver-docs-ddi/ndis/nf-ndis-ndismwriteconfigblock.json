@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMWriteConfigBlock",
+  "title": "NdisMWriteConfigBlock function (ndis.h)",
+  "description": "A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the NdisMWriteConfigBlock function to write data to a VF configuration block.",
+  "old-location": "netvista\\ndismwriteconfigblock.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMWriteConfigBlock function"
+  ],
+  "ms.keywords": "NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "None supported,Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMWriteConfigBlock",
+    "ndis/NdisMWriteConfigBlock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMWriteConfigBlock"
+  ]
+}

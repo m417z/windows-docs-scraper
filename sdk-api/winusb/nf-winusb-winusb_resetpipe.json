@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winusb.WinUsb_ResetPipe",
+  "title": "WinUsb_ResetPipe function (winusb.h)",
+  "description": "The WinUsb_ResetPipe function resets the data toggle and clears the stall condition on a pipe.",
+  "helpviewer_keywords": [
+    "WinUsb_ResetPipe",
+    "WinUsb_ResetPipe function [Buses]",
+    "buses.winusb_resetpipe",
+    "winusb/WinUsb_ResetPipe",
+    "winusbfunc_6d4baf88-4b6f-46fb-802b-67ac51ddaf8d.xml"
+  ],
+  "old-location": "buses\\winusb_resetpipe.htm",
+  "tech.root": "buses",
+  "ms.assetid": "0fd30723-8cb9-4e29-942b-abe48c691d8e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinUsb_ResetPipe, WinUsb_ResetPipe function [Buses], buses.winusb_resetpipe, winusb/WinUsb_ResetPipe, winusbfunc_6d4baf88-4b6f-46fb-802b-67ac51ddaf8d.xml",
+  "req.header": "winusb.h",
+  "req.include-header": "Winusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winusb.lib",
+  "req.dll": "Winusb.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinUsb_ResetPipe",
+    "winusb/WinUsb_ResetPipe"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winusb.dll"
+  ],
+  "api_name": [
+    "WinUsb_ResetPipe"
+  ]
+}

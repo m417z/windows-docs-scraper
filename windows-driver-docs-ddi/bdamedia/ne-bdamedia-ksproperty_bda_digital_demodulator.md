@@ -1,0 +1,61 @@
+## Description
+
+This topic describes the **KSPROPERTY_BDA_DIGITAL_DEMODULATOR** enumeration.
+
+## Constants
+
+### `KSPROPERTY_BDA_MODULATION_TYPE`
+
+Defines the **KSPROPERTY_BDA_MODULATION_TYPE** constant.
+
+### `KSPROPERTY_BDA_INNER_FEC_TYPE`
+
+Defines the **KSPROPERTY_BDA_INNER_FEC_TYPE** constant.
+
+### `KSPROPERTY_BDA_INNER_FEC_RATE`
+
+Defines the **KSPROPERTY_BDA_INNER_FEC_RATE** constant.
+
+### `KSPROPERTY_BDA_OUTER_FEC_TYPE`
+
+Defines the **KSPROPERTY_BDA_OUTER_FEC_TYPE** constant.
+
+### `KSPROPERTY_BDA_OUTER_FEC_RATE`
+
+Defines the **KSPROPERTY_BDA_OUTER_FEC_RATE** constant.
+
+### `KSPROPERTY_BDA_SYMBOL_RATE`
+
+Defines the **KSPROPERTY_BDA_SYMBOL_RATE** constant.
+
+### `KSPROPERTY_BDA_SPECTRAL_INVERSION`
+
+Defines the **KSPROPERTY_BDA_SPECTRAL_INVERSION** constant.
+
+### `KSPROPERTY_BDA_GUARD_INTERVAL`
+
+Defines the **KSPROPERTY_BDA_GUARD_INTERVAL** constant.
+
+### `KSPROPERTY_BDA_TRANSMISSION_MODE`
+
+Defines the **KSPROPERTY_BDA_TRANSMISSION_MODE** constant.
+
+### `KSPROPERTY_BDA_ROLL_OFF`
+
+Defines the **KSPROPERTY_BDA_ROLL_OFF** constant.
+
+### `KSPROPERTY_BDA_PILOT`
+
+Defines the **KSPROPERTY_BDA_PILOT** constant.
+
+### `KSPROPERTY_BDA_SIGNALTIMEOUTS`
+
+Defines the **KSPROPERTY_BDA_SIGNALTIMEOUTS** constant.
+
+### `KSPROPERTY_BDA_PLP_NUMBER`
+
+Defines the **KSPROPERTY_BDA_PLP_NUMBER** constant.
+
+## Remarks
+
+## See also

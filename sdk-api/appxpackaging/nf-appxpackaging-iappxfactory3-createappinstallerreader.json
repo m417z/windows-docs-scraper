@@ -1,0 +1,50 @@
+{
+  "UID": "NF:appxpackaging.IAppxFactory3.CreateAppInstallerReader",
+  "tech.root": "appxpkg",
+  "title": "IAppxFactory3::CreateAppInstallerReader",
+  "ms.date": "02/10/2023",
+  "targetos": "Windows",
+  "description": "Creates an instance of IAppInstallerReader, with an optional parameter for specifying the expected digest for the App Installer file.",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "appxpackaging.h",
+  "req.idl": "AppxPackaging.idl",
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "appxpackaging.h"
+  ],
+  "api_name": [
+    "IAppxFactory3::CreateAppInstallerReader"
+  ],
+  "f1_keywords": [
+    "IAppxFactory3::CreateAppInstallerReader",
+    "appxpackaging/IAppxFactory3::CreateAppInstallerReader"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "CreateAppInstallerReader"
+  ]
+}

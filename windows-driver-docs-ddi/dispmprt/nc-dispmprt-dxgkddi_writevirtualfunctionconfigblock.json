@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK",
+  "title": "DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK",
+  "description": "This function allows the non-privileged virtual machine to write configuration data supplied by the Physical Function driver in the privileged VM.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK callback function"
+  ],
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK",
+    "dispmprt/DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

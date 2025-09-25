@@ -1,0 +1,4 @@
+DWORD ICCompressGetFormat(
+     hic,
+     lpbi
+);

@@ -1,0 +1,74 @@
+{
+  "UID": "NF:winuser.CallWindowProcW",
+  "title": "CallWindowProcW function (winuser.h)",
+  "description": "Passes message information to the specified window procedure. (Unicode)",
+  "helpviewer_keywords": [
+    "CallWindowProc",
+    "CallWindowProc function [Windows and Messages]",
+    "CallWindowProcW",
+    "_win32_CallWindowProc",
+    "_win32_callwindowproc_cpp",
+    "winmsg.callwindowproc",
+    "winui._win32_callwindowproc",
+    "winuser/CallWindowProc",
+    "winuser/CallWindowProcW"
+  ],
+  "old-location": "winmsg\\callwindowproc.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windowprocedures\\windowprocedurereference\\windowprocedurefunctions\\callwindowproc.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CallWindowProc, CallWindowProc function [Windows and Messages], CallWindowProcA, CallWindowProcW, _win32_CallWindowProc, _win32_callwindowproc_cpp, winmsg.callwindowproc, winui._win32_callwindowproc, winuser/CallWindowProc, winuser/CallWindowProcA, winuser/CallWindowProcW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CallWindowProcW (Unicode) and CallWindowProcA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CallWindowProcW",
+    "winuser/CallWindowProcW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-window-l1-1-0.dll",
+    "ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll",
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "User32.dll",
+    "API-MS-Win-NTUser-IE-Window-l1-1-0.dll",
+    "ie_shims.dll",
+    "API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll",
+    "minuser.dll",
+    "Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CallWindowProc",
+    "CallWindowProcA",
+    "CallWindowProcW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)"
+}

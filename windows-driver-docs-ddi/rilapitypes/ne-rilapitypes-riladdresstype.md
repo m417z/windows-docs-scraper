@@ -1,0 +1,46 @@
+# RILADDRESSTYPE enumeration (rilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_ADDRTYPE_UNKNOWN`
+
+### `RIL_ADDRTYPE_INTERNATIONAL`
+
+### `RIL_ADDRTYPE_NATIONAL`
+
+### `RIL_ADDRTYPE_NETWKSPECIFIC`
+
+### `RIL_ADDRTYPE_SUBSCRIBER`
+
+### `RIL_ADDRTYPE_ALPHANUM`
+
+### `RIL_ADDRTYPE_ABBREV`
+
+### `RIL_ADDRTYPE_IP`
+
+### `RIL_ADDRTYPE_EMAIL`
+
+### `RIL_ADDRTYPE_URI`
+
+### `RIL_ADDRTYPE_MAX`
+
+## Syntax
+
+```cpp
+typedef enum _RILADDRESSTYPE {
+  RIL_ADDRTYPE_INTERNATIONAL,
+  RIL_ADDRTYPE_NATIONAL,
+  RIL_ADDRTYPE_NETWKSPECIFIC,
+  RIL_ADDRTYPE_SUBSCRIBER,
+  RIL_ADDRTYPE_ALPHANUM,
+  RIL_ADDRTYPE_ABBREV,
+  RIL_ADDRTYPE_IP,
+  RIL_ADDRTYPE_EMAIL,
+  RIL_ADDRTYPE_URI,
+  RIL_ADDRTYPE_MAX
+} RILADDRESSTYPE;
+```

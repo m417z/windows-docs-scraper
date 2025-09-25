@@ -1,0 +1,57 @@
+{
+  "UID": "NF:webservices.WsGetServiceHostProperty",
+  "title": "WsGetServiceHostProperty function (webservices.h)",
+  "description": "Retrieves a specified Service Host property. The property to retrieve is identified by a WS_SERVICE_PROPERTY_ID input parameter.",
+  "helpviewer_keywords": [
+    "WsGetServiceHostProperty",
+    "WsGetServiceHostProperty function [Web Services for Windows]",
+    "webservices/WsGetServiceHostProperty",
+    "wsw.wsgetservicehostproperty"
+  ],
+  "old-location": "wsw\\wsgetservicehostproperty.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "3793cb79-37b9-4d94-9932-9eb3b259b60e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WsGetServiceHostProperty, WsGetServiceHostProperty function [Web Services for Windows], webservices/WsGetServiceHostProperty, wsw.wsgetservicehostproperty",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WebServices.lib",
+  "req.dll": "WebServices.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WsGetServiceHostProperty",
+    "webservices/WsGetServiceHostProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WebServices.dll"
+  ],
+  "api_name": [
+    "WsGetServiceHostProperty"
+  ]
+}

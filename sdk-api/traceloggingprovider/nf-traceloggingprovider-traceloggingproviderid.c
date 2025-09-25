@@ -1,0 +1,3 @@
+GUID TraceLoggingProviderId(
+  TraceLoggingHProvider hProvider
+);

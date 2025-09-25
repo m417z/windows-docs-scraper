@@ -1,0 +1,64 @@
+{
+  "UID": "NF:comsvcs.ObjectContext.SetComplete",
+  "title": "ObjectContext::SetComplete (comsvcs.h)",
+  "description": "Declares that the transaction in which the object is executing can be committed and that the object should be deactivated on return.",
+  "helpviewer_keywords": [
+    "ObjectContext interface [COM+]",
+    "SetComplete method",
+    "ObjectContext.SetComplete",
+    "ObjectContext::SetComplete",
+    "SetComplete",
+    "SetComplete method [COM+]",
+    "SetComplete method [COM+]",
+    "ObjectContext interface",
+    "_cos_ObjectContext_SetComplete",
+    "comsvcs/ObjectContext::SetComplete",
+    "cos.objectcontext_setcomplete"
+  ],
+  "old-location": "cos\\objectcontext_setcomplete.htm",
+  "tech.root": "cos",
+  "ms.assetid": "3bf3bbc2-9b4f-4dba-89ef-62c58640710b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ObjectContext interface [COM+],SetComplete method, ObjectContext.SetComplete, ObjectContext::SetComplete, SetComplete, SetComplete method [COM+], SetComplete method [COM+],ObjectContext interface, _cos_ObjectContext_SetComplete, comsvcs/ObjectContext::SetComplete, cos.objectcontext_setcomplete",
+  "req.header": "comsvcs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ObjectContext::SetComplete",
+    "comsvcs/ObjectContext::SetComplete"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ComSvcs.h"
+  ],
+  "api_name": [
+    "ObjectContext.SetComplete"
+  ]
+}

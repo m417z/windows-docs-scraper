@@ -1,0 +1,3 @@
+HRESULT OnSelect(
+  DWORD dwSelectType
+);

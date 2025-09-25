@@ -1,0 +1,20 @@
+typedef struct IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0_ {
+  UINT32 currentActiveMainModes;
+  UINT32 totalMainModesStarted;
+  UINT32 totalSuccessfulMainModes;
+  UINT32 totalFailedMainModes;
+  UINT32 totalResponderMainModes;
+  UINT32 currentNewResponderMainModes;
+  UINT32 currentActiveQuickModes;
+  UINT32 totalQuickModesStarted;
+  UINT32 totalSuccessfulQuickModes;
+  UINT32 totalFailedQuickModes;
+  UINT32 totalAcquires;
+  UINT32 totalReinitAcquires;
+  UINT32 currentActiveExtendedModes;
+  UINT32 totalExtendedModesStarted;
+  UINT32 totalSuccessfulExtendedModes;
+  UINT32 totalFailedExtendedModes;
+  UINT32 totalImpersonationExtendedModes;
+  UINT32 totalImpersonationMainModes;
+} IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0;

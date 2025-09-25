@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortWaveRTStream.MapAllocatedPages",
+  "title": "IPortWaveRTStream::MapAllocatedPages (portcls.h)",
+  "description": "The MapAllocatedPages method maps a list of previously allocated physical pages into a contiguous block of virtual memory that is accessible from kernel-mode.",
+  "old-location": "audio\\iportwavertstream_mapallocatedpages.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortWaveRTStream::MapAllocatedPages"
+  ],
+  "ms.keywords": "IPortWaveRTStream interface [Audio Devices],MapAllocatedPages method, IPortWaveRTStream.MapAllocatedPages, IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages, MapAllocatedPages method [Audio Devices], MapAllocatedPages method [Audio Devices],IPortWaveRTStream interface, audio.iportwavertstream_mapallocatedpages, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, portcls/IPortWaveRTStream::MapAllocatedPages",
+  "req.header": "portcls.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Passive level.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortWaveRTStream::MapAllocatedPages",
+    "portcls/IPortWaveRTStream::MapAllocatedPages"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Portcls.h"
+  ],
+  "api_name": [
+    "IPortWaveRTStream::MapAllocatedPages"
+  ]
+}

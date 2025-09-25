@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ZwRecoverTransactionManager",
+  "title": "ZwRecoverTransactionManager function (wdm.h)",
+  "description": "Learn how the ZwRecoverTransactionManager routine reconstructs the state of the transaction manager object from the recovery information that is in the log stream.",
+  "old-location": "kernel\\zwrecovertransactionmanager.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ZwRecoverTransactionManager function"
+  ],
+  "ms.keywords": "NtRecoverTransactionManager, ZwRecoverTransactionManager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrecovertransactionmanager, ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, wdm/NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwRecoverTransactionManager",
+    "wdm/ZwRecoverTransactionManager"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwRecoverTransactionManager"
+  ]
+}

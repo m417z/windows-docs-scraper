@@ -1,0 +1,54 @@
+{
+  "UID": "NS:fltkernel._FLT_NAME_CONTROL",
+  "title": "_FLT_NAME_CONTROL (fltkernel.h)",
+  "description": "A minifilter that provides file names for the Filter Manager's name cache can use the FLT_NAME_CONTROL structure to manage its name buffers.",
+  "old-location": "ifsk\\flt_name_control.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FLT_NAME_CONTROL structure"
+  ],
+  "ms.keywords": "*PFLT_NAME_CONTROL, FLT_NAME_CONTROL, FLT_NAME_CONTROL structure [Installable File System Drivers], FltSystemStructures_691a74ca-7671-44e3-9072-5d081c508a6c.xml, PFLT_NAME_CONTROL, PFLT_NAME_CONTROL structure pointer [Installable File System Drivers], _FLT_NAME_CONTROL, fltkernel/FLT_NAME_CONTROL, fltkernel/PFLT_NAME_CONTROL, ifsk.flt_name_control",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FLT_NAME_CONTROL, *PFLT_NAME_CONTROL",
+  "f1_keywords": [
+    "_FLT_NAME_CONTROL",
+    "fltkernel/_FLT_NAME_CONTROL",
+    "PFLT_NAME_CONTROL",
+    "fltkernel/PFLT_NAME_CONTROL",
+    "FLT_NAME_CONTROL",
+    "fltkernel/FLT_NAME_CONTROL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "_FLT_NAME_CONTROL",
+    "PFLT_NAME_CONTROL",
+    "FLT_NAME_CONTROL"
+  ]
+}

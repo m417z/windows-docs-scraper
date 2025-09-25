@@ -1,0 +1,3 @@
+HRESULT GetHardwareRequirementSystemInfo(
+  HWREQCHK_DEVICE_HARDWARE_SYSINFO *deviceHardwareSystemInfo
+);

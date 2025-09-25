@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PGET_LINK_POSITION_REGISTER",
+  "title": "PGET_LINK_POSITION_REGISTER (hdaudio.h)",
+  "description": "The GetLinkPositionRegister routine retrieves a pointer to a DMA engine's link position register.The function pointer type for a GetLinkPositionRegister routine is defined as follows.",
+  "old-location": "audio\\getlinkpositionregister.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PGET_LINK_POSITION_REGISTER callback function"
+  ],
+  "ms.keywords": "GetLinkPositionRegister, GetLinkPositionRegister callback function [Audio Devices], PGET_LINK_POSITION_REGISTER, PGET_LINK_POSITION_REGISTER callback, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml, audio.getlinkpositionregister, hdaudio/GetLinkPositionRegister",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PGET_LINK_POSITION_REGISTER",
+    "hdaudio/PGET_LINK_POSITION_REGISTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PGET_LINK_POSITION_REGISTER"
+  ]
+}

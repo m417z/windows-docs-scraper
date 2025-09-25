@@ -1,0 +1,67 @@
+{
+  "UID": "NF:clusapi.DestroyClusterGroup",
+  "title": "DestroyClusterGroup function (clusapi.h)",
+  "description": "Deletes the specified group from a cluster.",
+  "helpviewer_keywords": [
+    "DestroyClusterGroup",
+    "DestroyClusterGroup function [Failover Cluster]",
+    "PCLUSAPI_DESTROY_CLUSTER_GROUP",
+    "PCLUSAPI_DESTROY_CLUSTER_GROUP function [Failover Cluster]",
+    "clusapi/DestroyClusterGroup",
+    "clusapi/PCLUSAPI_DESTROY_CLUSTER_GROUP",
+    "mscs.destroyclustergroup"
+  ],
+  "old-location": "mscs\\destroyclustergroup.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "ac293d5b-edc8-4c5f-9b05-9e2349bf1453",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DestroyClusterGroup, DestroyClusterGroup function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER_GROUP, PCLUSAPI_DESTROY_CLUSTER_GROUP function [Failover Cluster], clusapi/DestroyClusterGroup, clusapi/PCLUSAPI_DESTROY_CLUSTER_GROUP, mscs.destroyclustergroup",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DestroyClusterGroup",
+    "clusapi/DestroyClusterGroup"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll"
+  ],
+  "api_name": [
+    "DestroyClusterGroup"
+  ]
+}

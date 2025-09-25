@@ -1,0 +1,1 @@
+NTSYSAPI BOOLEAN RtlIsStateSeparationEnabled();

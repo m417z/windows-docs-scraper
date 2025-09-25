@@ -1,0 +1,51 @@
+{
+  "UID": "NE:srb.STOR_POWER_ACTION",
+  "title": "STOR_POWER_ACTION (srb.h)",
+  "description": "The STOR_POWER_ACTION (srb.h) contains values that indicate the power state that the system is about to enter during a power transition.",
+  "old-location": "storage\\stor_power_action.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "STOR_POWER_ACTION enumeration"
+  ],
+  "ms.keywords": "*PSTOR_POWER_ACTION, PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], STOR_POWER_ACTION, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionHibernate, StorPowerActionNone, StorPowerActionReserved, StorPowerActionShutdown, StorPowerActionShutdownOff, StorPowerActionShutdownReset, StorPowerActionSleep, StorPowerActionWarmEject, storage.stor_power_action, storport/PSTOR_POWER_ACTION, storport/STOR_POWER_ACTION, storport/StorPowerActionHibernate, storport/StorPowerActionNone, storport/StorPowerActionReserved, storport/StorPowerActionShutdown, storport/StorPowerActionShutdownOff, storport/StorPowerActionShutdownReset, storport/StorPowerActionSleep, storport/StorPowerActionWarmEject, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml",
+  "req.header": "srb.h",
+  "req.include-header": "Storport.h, Minitape.h, Srb.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STOR_POWER_ACTION, *PSTOR_POWER_ACTION",
+  "f1_keywords": [
+    "PSTOR_POWER_ACTION",
+    "srb/PSTOR_POWER_ACTION",
+    "STOR_POWER_ACTION",
+    "srb/STOR_POWER_ACTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "PSTOR_POWER_ACTION",
+    "STOR_POWER_ACTION"
+  ]
+}

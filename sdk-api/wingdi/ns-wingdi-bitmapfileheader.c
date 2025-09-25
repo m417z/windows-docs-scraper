@@ -1,0 +1,7 @@
+typedef struct tagBITMAPFILEHEADER {
+  WORD  bfType;
+  DWORD bfSize;
+  WORD  bfReserved1;
+  WORD  bfReserved2;
+  DWORD bfOffBits;
+} BITMAPFILEHEADER, *LPBITMAPFILEHEADER, *PBITMAPFILEHEADER;

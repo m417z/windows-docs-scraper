@@ -1,0 +1,63 @@
+{
+  "UID": "NS:iphlpapi._INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+  "title": "INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+  "description": "Describes the software timestamping capabilities of a NIC's miniport driver.",
+  "helpviewer_keywords": [
+    "*PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES structure [IP Helper]",
+    "PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES structure pointer [IP Helper]",
+    "iphlp.INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "iphlpapi/INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "iphlpapi/PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES"
+  ],
+  "tech.root": "IpHlp",
+  "ms.date": "12/16/2020",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES, *PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+  "req.redist": null,
+  "f1_keywords": [
+    "_INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "iphlpapi/_INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "iphlpapi/PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "iphlpapi/INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "iphlpapi.h"
+  ],
+  "api_name": [
+    "_INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "PINTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES",
+    "INTERFACE_SOFTWARE_TIMESTAMP_CAPABILITIES"
+  ]
+}

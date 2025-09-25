@@ -1,0 +1,3 @@
+void FAILED(
+  hr
+);

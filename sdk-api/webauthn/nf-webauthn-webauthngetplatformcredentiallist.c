@@ -1,0 +1,4 @@
+HRESULT WebAuthNGetPlatformCredentialList(
+  PCWEBAUTHN_GET_CREDENTIALS_OPTIONS pGetCredentialsOptions,
+  PWEBAUTHN_CREDENTIAL_DETAILS_LIST  *ppCredentialDetailsList
+);

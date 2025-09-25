@@ -1,0 +1,3 @@
+HRESULT InstallPKCS7(
+  [in] BSTR PKCS7
+);

@@ -1,0 +1,3 @@
+typedef struct _WSD_UNKNOWN_LOOKUP {
+  WSDXML_ELEMENT *Any;
+} WSD_UNKNOWN_LOOKUP;

@@ -1,0 +1,11 @@
+typedef struct _INT10_BIOS_ARGUMENTS {
+  ULONG  Eax;
+  ULONG  Ebx;
+  ULONG  Ecx;
+  ULONG  Edx;
+  ULONG  Esi;
+  ULONG  Edi;
+  ULONG  Ebp;
+  USHORT SegDs;
+  USHORT SegEs;
+} INT10_BIOS_ARGUMENTS, *PINT10_BIOS_ARGUMENTS;

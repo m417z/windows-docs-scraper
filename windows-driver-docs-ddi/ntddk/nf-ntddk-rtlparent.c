@@ -1,0 +1,3 @@
+void RtlParent(
+  [in] Links
+);

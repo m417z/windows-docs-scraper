@@ -1,0 +1,3 @@
+BOOL DeleteTimerQueue(
+  HANDLE TimerQueue
+);

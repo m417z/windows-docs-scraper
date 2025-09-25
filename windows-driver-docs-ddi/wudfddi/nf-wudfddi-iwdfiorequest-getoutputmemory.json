@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFIoRequest.GetOutputMemory",
+  "title": "IWDFIoRequest::GetOutputMemory (wudfddi.h)",
+  "description": "The GetOutputMemory method retrieves the memory object that represents the output buffer for an I/O request.",
+  "old-location": "wdf\\iwdfiorequest_getoutputmemory.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFIoRequest::GetOutputMemory"
+  ],
+  "ms.keywords": "GetOutputMemory, GetOutputMemory method, GetOutputMemory method,IWDFIoRequest interface, IWDFIoRequest interface,GetOutputMemory method, IWDFIoRequest.GetOutputMemory, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, umdf.iwdfiorequest_getoutputmemory, wdf.iwdfiorequest_getoutputmemory, wudfddi/IWDFIoRequest::GetOutputMemory",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFIoRequest::GetOutputMemory",
+    "wudfddi/IWDFIoRequest::GetOutputMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFIoRequest::GetOutputMemory"
+  ]
+}

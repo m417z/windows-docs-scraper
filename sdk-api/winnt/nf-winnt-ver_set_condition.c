@@ -1,0 +1,5 @@
+ULONGLONG VER_SET_CONDITION(
+    ULONGLONG _m_,
+    DWORD _t_,
+    BYTE _c_
+);

@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.Edit_NoSetFocus",
+  "title": "Edit_NoSetFocus macro (commctrl.h)",
+  "description": "Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the EM_NOSETFOCUS message explicitly.",
+  "helpviewer_keywords": [
+    "Edit_NoSetFocus",
+    "Edit_NoSetFocus macro [Windows Controls]",
+    "_win32_Edit_NoSetFocus",
+    "_win32_Edit_NoSetFocus_cpp",
+    "commctrl/Edit_NoSetFocus",
+    "controls.Edit_NoSetFocus",
+    "controls._win32_Edit_NoSetFocus"
+  ],
+  "old-location": "controls\\Edit_NoSetFocus.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\editcontrols\\editcontrolreference\\editcontrolmacros\\edit_nosetfocus.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "Edit_NoSetFocus, Edit_NoSetFocus macro [Windows Controls], _win32_Edit_NoSetFocus, _win32_Edit_NoSetFocus_cpp, commctrl/Edit_NoSetFocus, controls.Edit_NoSetFocus, controls._win32_Edit_NoSetFocus",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Edit_NoSetFocus",
+    "commctrl/Edit_NoSetFocus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "Edit_NoSetFocus"
+  ]
+}

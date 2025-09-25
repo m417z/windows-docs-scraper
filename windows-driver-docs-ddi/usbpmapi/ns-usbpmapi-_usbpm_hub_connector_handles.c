@@ -1,0 +1,5 @@
+typedef struct _USBPM_HUB_CONNECTOR_HANDLES {
+  USBPM_HUB       HubHandle;
+  ULONG           ConnectorCount;
+  USBPM_CONNECTOR *ConnectorHandles;
+} USBPM_HUB_CONNECTOR_HANDLES, *PUSBPM_HUB_CONNECTOR_HANDLES;

@@ -1,0 +1,40 @@
+# IUPnPDescriptionDocument::DeviceByUDN
+
+## Description
+
+The
+**DeviceByUDN** method returns the device with the specified unique device name (UDN) contained within the loaded description document.
+
+## Parameters
+
+### `bstrUDN` [in]
+
+Specifies the UDN of the device.
+
+### `ppudDevice` [out]
+
+Receives a reference to an
+[IUPnPDevice](https://learn.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice) object that describes the device. This reference must be released when it is no longer used.
+
+## Return value
+
+If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
+
+## Remarks
+
+Use
+**DeviceByUDN** after loading the device description using
+[IUPnPDescriptionDocument::Load](https://learn.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load) or
+[IUPnPDescriptionDocument::LoadAsync](https://learn.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync). The
+[IUPnPDescriptionDocument::ReadyState](https://learn.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate) property returns READYSTATE_COMPLETED.
+
+Do not use
+**DeviceByUDN** unless a device description is first loaded using either
+[IUPnPDescriptionDocument::Load](https://learn.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load) or
+[IUPnPDescriptionDocument::LoadAsync](https://learn.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync). The search operation only searches in the currently loaded device description.
+
+## See also
+
+[IUPnPDescriptionDocument](https://learn.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument)
+
+[IUPnPDevice](https://learn.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice)

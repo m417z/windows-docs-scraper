@@ -1,0 +1,48 @@
+{
+  "UID": "NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_SAVE_PACKET",
+  "title": "EVT_VMB_CHANNEL_SAVE_PACKET (vmbuskernelmodeclientlibapi.h)",
+  "description": "The EvtVmbChannelSavePacket callback function is invoked when the virtualization service provider (VSP) endpoint must save the state associated with a packet.",
+  "old-location": "netvista\\evt_vmb_channel_save_packet.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "EVT_VMB_CHANNEL_SAVE_PACKET callback function"
+  ],
+  "ms.keywords": "EVT_VMB_CHANNEL_SAVE_PACKET, EVT_VMB_CHANNEL_SAVE_PACKET callback, EvtVmbChannelSavePacket, EvtVmbChannelSavePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_SAVE_PACKET, PFN_VMB_CHANNEL_SAVE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_save_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelSavePacket",
+  "req.header": "vmbuskernelmodeclientlibapi.h",
+  "req.include-header": "VmbusKernelModeClientLibApi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_VMB_CHANNEL_SAVE_PACKET",
+    "vmbuskernelmodeclientlibapi/EVT_VMB_CHANNEL_SAVE_PACKET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "VmbusKernelModeClientLibApi.h"
+  ],
+  "api_name": [
+    "EVT_VMB_CHANNEL_SAVE_PACKET"
+  ]
+}

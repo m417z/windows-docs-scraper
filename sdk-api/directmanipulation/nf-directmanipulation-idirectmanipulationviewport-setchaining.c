@@ -1,0 +1,3 @@
+HRESULT SetChaining(
+  [in] DIRECTMANIPULATION_MOTION_TYPES enabledTypes
+);

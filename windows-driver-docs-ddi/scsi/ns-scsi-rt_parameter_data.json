@@ -1,0 +1,50 @@
+{
+  "UID": "NS:scsi.RT_PARAMETER_DATA",
+  "title": "RT_PARAMETER_DATA (scsi.h)",
+  "description": "The RT_PARAMETER_DATA structure (scsi.h) contains the parameter data for the report timestamp command.",
+  "tech.root": "storage",
+  "ms.date": "09/20/2022",
+  "keywords": [
+    "RT_PARAMETER_DATA structure"
+  ],
+  "ms.keywords": "*PRT_PARAMETER_DATA, PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], RT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], scsi/PRT_PARAMETER_DATA, scsi/RT_PARAMETER_DATA, storage.rt_parameter_data",
+  "req.header": "scsi.h",
+  "req.include-header": "Minitape.h, Storport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows 10, version 1709 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RT_PARAMETER_DATA, *PRT_PARAMETER_DATA",
+  "f1_keywords": [
+    "PRT_PARAMETER_DATA",
+    "scsi/PRT_PARAMETER_DATA",
+    "RT_PARAMETER_DATA",
+    "scsi/RT_PARAMETER_DATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "PRT_PARAMETER_DATA",
+    "RT_PARAMETER_DATA"
+  ]
+}

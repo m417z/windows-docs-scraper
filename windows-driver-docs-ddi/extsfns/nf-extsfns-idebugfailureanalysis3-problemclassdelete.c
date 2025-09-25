@@ -1,0 +1,3 @@
+HRESULT ProblemClassDelete(
+  ULONG nIndex
+);

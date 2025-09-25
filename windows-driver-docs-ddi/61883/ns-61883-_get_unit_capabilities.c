@@ -1,0 +1,7 @@
+typedef struct _GET_UNIT_CAPABILITIES {
+  OUT ULONG NumOutputPlugs;
+  OUT ULONG NumInputPlugs;
+  OUT ULONG MaxDataRate;
+  OUT ULONG CTSFlags;
+  OUT ULONG HardwareFlags;
+} GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES;

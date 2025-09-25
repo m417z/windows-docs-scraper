@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortReadPortUlong",
+  "title": "VideoPortReadPortUlong function (video.h)",
+  "description": "The VideoPortReadPortUlong function reads a ULONG value from a mapped I/O port.",
+  "old-location": "display\\videoportreadportulong.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortReadPortUlong function"
+  ],
+  "ms.keywords": "VideoPortReadPortUlong, VideoPortReadPortUlong function [Display Devices], VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, display.videoportreadportulong, video/VideoPortReadPortUlong",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortReadPortUlong",
+    "video/VideoPortReadPortUlong"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortReadPortUlong"
+  ]
+}

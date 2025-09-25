@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_BUFBLT1",
+  "title": "PFND3DDDI_BUFBLT1 (d3dumddi.h)",
+  "description": "Performs a bit-block transfer (bitblt) operation from a source vertex or index buffer to a destination vertex or index buffer. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.",
+  "old-location": "display\\bufblt1.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_BUFBLT1 callback function"
+  ],
+  "ms.keywords": "BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, PFND3DDDI_BUFBLT1 callback, d3dumddi/BufBlt1, display.bufblt1",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_BUFBLT1",
+    "d3dumddi/PFND3DDDI_BUFBLT1"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_BUFBLT1"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ntddk.PSHED_PI_GET_ALL_ERROR_SOURCES",
+  "title": "PSHED_PI_GET_ALL_ERROR_SOURCES (ntddk.h)",
+  "description": "A PSHED plug-in's GetAllErrorSources callback function returns a list of error source descriptor structures that represents all of the error sources that are implemented by the hardware platform.",
+  "tech.root": "whea",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "PSHED_PI_GET_ALL_ERROR_SOURCES callback function"
+  ],
+  "ms.keywords": "GetAllErrorSources, GetAllErrorSources callback function [WHEA Drivers and Applications], PSHED_PI_GET_ALL_ERROR_SOURCES, PSHED_PI_GET_ALL_ERROR_SOURCES callback, ntddk/GetAllErrorSources, whea.getallerrorsources, whearef_fe2e1679-84ee-4f90-8615-24cbab3cb686.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSHED_PI_GET_ALL_ERROR_SOURCES",
+    "ntddk/PSHED_PI_GET_ALL_ERROR_SOURCES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PSHED_PI_GET_ALL_ERROR_SOURCES"
+  ]
+}

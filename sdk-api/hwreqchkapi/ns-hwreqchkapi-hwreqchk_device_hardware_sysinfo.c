@@ -1,0 +1,25 @@
+typedef struct HWREQCHK_DEVICE_HARDWARE_SYSINFO {
+  BOOL                       SSE2ProcessorSupport;
+  BOOL                       NXProcessorSupport;
+  BOOL                       CompareExchange128Support;
+  BOOL                       LahfSahfSupport;
+  BOOL                       PrefetchWSupport;
+  BOOL                       ArmV81ProcessorSupport;
+  BOOL                       SecureBootCapable;
+  ULONG                      TpmVersion;
+  ULONG                      RamMB;
+  ULONG                      SystemDiskSizeMB;
+  ULONG                      CpuMhz;
+  ULONG                      CpuCoreCount;
+  ULONG                      CpuFamily;
+  ULONG                      CpuModel;
+  ULONG                      CpuStepping;
+  ULONG                      Platform;
+  HWREQCHK_CPU_VENDOR        CpuVendor;
+  ULONG                      Architecture;
+  WCHAR                      ProcessorName[HWREQCHK_MAX_PROPERTY_VALUE];
+  BOOL                       IsServer;
+  WLDP_WINDOWS_LOCKDOWN_MODE LockdownMode;
+  ULONG                      ProductOS;
+  WCHAR                      ProductName[HWREQCHK_MAX_PROPERTY_VALUE];
+} HWREQCHK_DEVICE_HARDWARE_SYSINFO;

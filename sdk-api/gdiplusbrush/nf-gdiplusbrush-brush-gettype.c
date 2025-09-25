@@ -1,0 +1,1 @@
+BrushType GetType();

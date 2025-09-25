@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSubmitSignalSyncObjectsToHwQueue(
+  [in] const D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *unnamedParam1
+);

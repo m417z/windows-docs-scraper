@@ -1,0 +1,3 @@
+HRESULT SetCreator(
+  LPCWSTR pwszCreator
+);

@@ -1,0 +1,3 @@
+HRESULT Unlock(
+  long lFlags
+);

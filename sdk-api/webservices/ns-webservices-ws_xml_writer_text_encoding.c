@@ -1,0 +1,4 @@
+typedef struct _WS_XML_WRITER_TEXT_ENCODING {
+  WS_XML_WRITER_ENCODING encoding;
+  WS_CHARSET             charSet;
+} WS_XML_WRITER_TEXT_ENCODING;

@@ -1,0 +1,3 @@
+void DOCUMENTEVENT_EVENT(
+  iEsc
+);

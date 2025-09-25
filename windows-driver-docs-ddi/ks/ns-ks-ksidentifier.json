@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ks.KSIDENTIFIER",
+  "title": "KSIDENTIFIER (ks.h)",
+  "description": "The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.",
+  "tech.root": "stream",
+  "ms.date": "07/14/2022",
+  "ms.custom": "contperf-fy22q1",
+  "keywords": [
+    "KSIDENTIFIER structure"
+  ],
+  "ms.keywords": "*PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSIDENTIFIER, *PKSIDENTIFIER",
+  "f1_keywords": [
+    "PKSIDENTIFIER",
+    "ks/PKSIDENTIFIER",
+    "KSIDENTIFIER",
+    "ks/KSIDENTIFIER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PKSIDENTIFIER",
+    "KSIDENTIFIER"
+  ]
+}

@@ -1,0 +1,15 @@
+## Description
+
+## Constants
+
+### `D3D12_DRED_DEVICE_STATE_UNKNOWN`
+
+### `D3D12_DRED_DEVICE_STATE_HUNG`
+
+### `D3D12_DRED_DEVICE_STATE_FAULT`
+
+### `D3D12_DRED_DEVICE_STATE_PAGEFAULT`
+
+## Remarks
+
+## See also

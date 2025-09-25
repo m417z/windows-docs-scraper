@@ -1,0 +1,4 @@
+typedef struct _READ_ELEMENT_ADDRESS_INFO {
+  DWORD                  NumberOfElements;
+  CHANGER_ELEMENT_STATUS ElementStatus[1];
+} READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO;

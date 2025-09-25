@@ -1,0 +1,63 @@
+{
+  "UID": "NF:winuser.ScrollWindow",
+  "title": "ScrollWindow function (winuser.h)",
+  "description": "The ScrollWindow function scrolls the contents of the specified window's client area.",
+  "helpviewer_keywords": [
+    "ScrollWindow",
+    "ScrollWindow function [Windows Controls]",
+    "_win32_ScrollWindow",
+    "_win32_ScrollWindow_cpp",
+    "controls.ScrollWindow",
+    "controls._win32_ScrollWindow",
+    "winuser/ScrollWindow"
+  ],
+  "old-location": "controls\\ScrollWindow.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\scrollbars\\scrollbarreference\\scrollbarfunctions\\scrollwindow.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ScrollWindow, ScrollWindow function [Windows Controls], _win32_ScrollWindow, _win32_ScrollWindow_cpp, controls.ScrollWindow, controls._win32_ScrollWindow, winuser/ScrollWindow",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ScrollWindow",
+    "winuser/ScrollWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "User32.dll"
+  ],
+  "api_name": [
+    "ScrollWindow"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)"
+}

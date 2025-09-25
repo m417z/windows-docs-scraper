@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDriver.CreateWdfObject",
+  "title": "IWDFDriver::CreateWdfObject (wudfddi.h)",
+  "description": "The CreateWdfObject method creates a custom (or user) WDF object from a parent WDF object.",
+  "old-location": "wdf\\iwdfdriver_createwdfobject.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDriver::CreateWdfObject"
+  ],
+  "ms.keywords": "CreateWdfObject, CreateWdfObject method, CreateWdfObject method,IWDFDriver interface, IWDFDriver interface,CreateWdfObject method, IWDFDriver.CreateWdfObject, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, umdf.iwdfdriver_createwdfobject, wdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDriver::CreateWdfObject",
+    "wudfddi/IWDFDriver::CreateWdfObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDriver::CreateWdfObject"
+  ]
+}

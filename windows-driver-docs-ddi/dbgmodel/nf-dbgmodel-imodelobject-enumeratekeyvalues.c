@@ -1,0 +1,3 @@
+HRESULT EnumerateKeyValues(
+  IKeyEnumerator **enumerator
+);

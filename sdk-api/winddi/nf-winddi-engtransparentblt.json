@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngTransparentBlt",
+  "title": "EngTransparentBlt function (winddi.h)",
+  "description": "The EngTransparentBlt function provides bit-block transfer capabilities with transparency.",
+  "helpviewer_keywords": [
+    "EngTransparentBlt",
+    "EngTransparentBlt function [Display Devices]",
+    "display.engtransparentblt",
+    "gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml",
+    "winddi/EngTransparentBlt"
+  ],
+  "old-location": "display\\engtransparentblt.htm",
+  "tech.root": "display",
+  "ms.assetid": "db98b15f-6b4b-4efc-aa24-20c728b09358",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngTransparentBlt, EngTransparentBlt function [Display Devices], display.engtransparentblt, gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml, winddi/EngTransparentBlt",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngTransparentBlt",
+    "winddi/EngTransparentBlt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-common-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngTransparentBlt"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:mediaobj.IMediaObject.GetInputStreamInfo",
+  "title": "IMediaObject::GetInputStreamInfo (mediaobj.h)",
+  "description": "The GetInputStreamInfo method retrieves information about an input stream, such as any restrictions on the number of samples per buffer, and whether the stream performs lookahead on the input data. This information never changes.",
+  "helpviewer_keywords": [
+    "GetInputStreamInfo",
+    "GetInputStreamInfo method [DirectShow]",
+    "GetInputStreamInfo method [DirectShow]",
+    "IMediaObject interface",
+    "IMediaObject interface [DirectShow]",
+    "GetInputStreamInfo method",
+    "IMediaObject.GetInputStreamInfo",
+    "IMediaObject::GetInputStreamInfo",
+    "IMediaObjectGetInputStreamInfo",
+    "dshow.imediaobject_getinputstreaminfo",
+    "mediaobj/IMediaObject::GetInputStreamInfo"
+  ],
+  "old-location": "dshow\\imediaobject_getinputstreaminfo.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "9e18bf5e-cf29-4446-a1ba-422b41e02edc",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetInputStreamInfo, GetInputStreamInfo method [DirectShow], GetInputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStreamInfo method, IMediaObject.GetInputStreamInfo, IMediaObject::GetInputStreamInfo, IMediaObjectGetInputStreamInfo, dshow.imediaobject_getinputstreaminfo, mediaobj/IMediaObject::GetInputStreamInfo",
+  "req.header": "mediaobj.h",
+  "req.include-header": "Dmo.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dmoguids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaObject::GetInputStreamInfo",
+    "mediaobj/IMediaObject::GetInputStreamInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Dmoguids.lib",
+    "Dmoguids.dll"
+  ],
+  "api_name": [
+    "IMediaObject.GetInputStreamInfo"
+  ]
+}

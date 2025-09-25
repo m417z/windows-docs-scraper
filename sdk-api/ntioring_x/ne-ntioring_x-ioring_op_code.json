@@ -1,0 +1,39 @@
+{
+  "UID": "NE:ntioring_x.IORING_OP_CODE",
+  "tech.root": "fs",
+  "title": "IORING_OP_CODE",
+  "ms.date": "07/16/2021",
+  "targetos": "Windows",
+  "description": "Specifies the type of an I/O ring operation.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ntioring_x.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntioring_x.h"
+  ],
+  "api_name": [
+    "IORING_OP_CODE"
+  ],
+  "f1_keywords": [
+    "IORING_OP_CODE",
+    "ntioring_x/IORING_OP_CODE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT SetSdrWhiteLevel(
+  FLOAT fWhiteLevelInNits
+);

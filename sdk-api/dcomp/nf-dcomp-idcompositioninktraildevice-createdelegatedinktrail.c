@@ -1,0 +1,3 @@
+HRESULT CreateDelegatedInkTrail(
+  IDCompositionDelegatedInkTrail **inkTrail
+);

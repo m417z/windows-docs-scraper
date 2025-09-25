@@ -1,0 +1,3 @@
+HRESULT IsAvailable(
+  boolean *isAvailable
+);

@@ -1,0 +1,5 @@
+typedef struct _XVARIABLE_NAME {
+  ULONG NextEntryOffset;
+  GUID  VendorGuid;
+  WCHAR Name[ANYSIZE_ARRAY];
+} XVARIABLE_NAME, *PXVARIABLE_NAME;

@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ntddcdvd.DVD_READ_STRUCTURE",
+  "title": "DVD_READ_STRUCTURE (ntddcdvd.h)",
+  "description": "The DVD_READ_STRUCTURE structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD descriptor containing information about a DVD disc.",
+  "old-location": "storage\\dvd_read_structure.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DVD_READ_STRUCTURE structure"
+  ],
+  "ms.keywords": "*PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], ntddcdvd/DVD_READ_STRUCTURE, ntddcdvd/PDVD_READ_STRUCTURE, storage.dvd_read_structure, structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml",
+  "req.header": "ntddcdvd.h",
+  "req.include-header": "Ntddcdvd.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE",
+  "f1_keywords": [
+    "DVD_READ_STRUCTURE",
+    "ntddcdvd/DVD_READ_STRUCTURE",
+    "PDVD_READ_STRUCTURE",
+    "ntddcdvd/PDVD_READ_STRUCTURE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddcdvd.h"
+  ],
+  "api_name": [
+    "DVD_READ_STRUCTURE",
+    "PDVD_READ_STRUCTURE"
+  ]
+}

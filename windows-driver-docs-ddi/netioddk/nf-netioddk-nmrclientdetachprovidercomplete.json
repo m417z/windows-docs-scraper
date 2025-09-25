@@ -1,0 +1,49 @@
+{
+  "UID": "NF:netioddk.NmrClientDetachProviderComplete",
+  "title": "NmrClientDetachProviderComplete function (netioddk.h)",
+  "description": "The NmrClientDetachProviderComplete function notifies the NMR that a client module has completed detaching from a provider module.",
+  "old-location": "netvista\\nmrclientdetachprovidercomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NmrClientDetachProviderComplete function"
+  ],
+  "ms.keywords": "NmrClientDetachProviderComplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrClientDetachProviderComplete, netvista.nmrclientdetachprovidercomplete, nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml",
+  "req.header": "netioddk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netio.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NmrClientDetachProviderComplete",
+    "netioddk/NmrClientDetachProviderComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netio.lib",
+    "netio.dll"
+  ],
+  "api_name": [
+    "NmrClientDetachProviderComplete"
+  ]
+}

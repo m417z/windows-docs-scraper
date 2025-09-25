@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTOpenProtectedSessionFromNtHandle",
+  "title": "D3DKMTOpenProtectedSessionFromNtHandle function (d3dkmthk.h)",
+  "description": "The D3DKMTOpenProtectedSessionFromNtHandle function specifies an NT session handle that is used to open a protected kernel session.",
+  "old-location": "display\\d3dkmtopenprotectedsessionfromnthandle.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTOpenProtectedSessionFromNtHandle function"
+  ],
+  "ms.keywords": "D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTOpenProtectedSessionFromNtHandle",
+    "d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTOpenProtectedSessionFromNtHandle"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "UID": "NC:winldap.QUERYCLIENTCERT",
+  "title": "QUERYCLIENTCERT (winldap.h)",
+  "description": "Enables the server to request a certificate from the client when establishing a Secure Sockets Layer (SSL) connection.",
+  "helpviewer_keywords": [
+    "QUERYCLIENTCERT",
+    "QUERYCLIENTCERT callback",
+    "QUERYCLIENTCERT callback function [LDAP]",
+    "_ldap_queryclientcert",
+    "ldap.queryclientcert",
+    "winldap/QUERYCLIENTCERT"
+  ],
+  "old-location": "ldap\\queryclientcert.htm",
+  "tech.root": "ldap",
+  "ms.assetid": "c2788fb9-14db-41d2-9555-ae264f825121",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT",
+  "req.header": "winldap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "QUERYCLIENTCERT",
+    "winldap/QUERYCLIENTCERT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winldap.h"
+  ],
+  "api_name": [
+    "QUERYCLIENTCERT"
+  ]
+}

@@ -1,0 +1,3 @@
+LONG VerifyApplicationUserModelId(
+  PCWSTR applicationUserModelId
+);

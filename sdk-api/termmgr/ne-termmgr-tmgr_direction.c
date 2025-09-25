@@ -1,0 +1,5 @@
+typedef enum __MIDL___MIDL_itf_termmgr_0000_0000_0001 {
+  TMGR_TD_CAPTURE = 1,
+  TMGR_TD_RENDER = 2,
+  TMGR_TD_BOTH = 3
+} TMGR_DIRECTION;

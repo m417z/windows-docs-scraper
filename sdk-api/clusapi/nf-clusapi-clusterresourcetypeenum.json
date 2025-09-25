@@ -1,0 +1,70 @@
+{
+  "UID": "NF:clusapi.ClusterResourceTypeEnum",
+  "title": "ClusterResourceTypeEnum function (clusapi.h)",
+  "description": "Enumerates a resource type's possible owner nodes or resources.",
+  "helpviewer_keywords": [
+    "CLUSTER_RESOURCE_TYPE_ENUM_NODES",
+    "CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES",
+    "ClusterResourceTypeEnum",
+    "ClusterResourceTypeEnum function [Failover Cluster]",
+    "PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM",
+    "PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM function [Failover Cluster]",
+    "_wolf_clusterresourcetypeenum",
+    "clusapi/ClusterResourceTypeEnum",
+    "clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM",
+    "mscs.clusterresourcetypeenum"
+  ],
+  "old-location": "mscs\\clusterresourcetypeenum.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, ClusterResourceTypeEnum, ClusterResourceTypeEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM function [Failover Cluster], _wolf_clusterresourcetypeenum, clusapi/ClusterResourceTypeEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, mscs.clusterresourcetypeenum",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterResourceTypeEnum",
+    "clusapi/ClusterResourceTypeEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "ClusterResourceTypeEnum"
+  ]
+}

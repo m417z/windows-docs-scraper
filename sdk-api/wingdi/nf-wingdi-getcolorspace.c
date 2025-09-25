@@ -1,0 +1,3 @@
+HCOLORSPACE GetColorSpace(
+  HDC hdc
+);

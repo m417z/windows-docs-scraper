@@ -1,0 +1,3 @@
+void NET_WAKE_SOURCE_LIST_INIT(
+  [_Out_] NET_WAKE_SOURCE_LIST *List
+);

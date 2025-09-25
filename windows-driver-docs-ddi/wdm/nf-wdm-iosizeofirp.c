@@ -1,0 +1,3 @@
+void IoSizeOfIrp(
+  [in] StackSize
+);

@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_LBA_RANGE",
+  "tech.root": "fs",
+  "title": "NVME_LBA_RANGE",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains parameters that define a collection of contiguous logical blocks specified by a starting LBA and number of logical blocks.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_LBA_RANGE, *PNVME_LBA_RANGE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_LBA_RANGE",
+    "NVME_LBA_RANGE"
+  ],
+  "f1_keywords": [
+    "PNVME_LBA_RANGE",
+    "nvme/PNVME_LBA_RANGE",
+    "NVME_LBA_RANGE",
+    "nvme/NVME_LBA_RANGE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,7 @@
+PFND3D12DDI_UNPINRESOURCES_CB_0076 Pfnd3d12ddiUnpinresourcesCb0076;
+
+HRESULT Pfnd3d12ddiUnpinresourcesCb0076(
+  D3D12DDI_HRTDEVICE hRTDevice,
+  const D3D12DDICB_UNPIN_RESOURCES_0076 *unnamedParam2
+)
+{...}

@@ -1,0 +1,4 @@
+LONG MCIWndPutDest(
+     hwnd,
+     prc
+);

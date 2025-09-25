@@ -1,0 +1,3 @@
+ULONG PsGetServerSiloActiveConsoleId(
+  PESILO Silo
+);

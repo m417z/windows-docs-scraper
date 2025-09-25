@@ -1,0 +1,65 @@
+{
+  "UID": "NF:resapi.ResUtilFindSzProperty",
+  "title": "ResUtilFindSzProperty function (resapi.h)",
+  "description": "Locates a string property in a property list. The PRESUTIL_FIND_SZ_PROPERTY type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_FIND_SZ_PROPERTY",
+    "PRESUTIL_FIND_SZ_PROPERTY function [Failover Cluster]",
+    "ResUtilFindSzProperty",
+    "ResUtilFindSzProperty function [Failover Cluster]",
+    "_wolf_resutilfindszproperty",
+    "mscs.resutilfindszproperty",
+    "resapi/PRESUTIL_FIND_SZ_PROPERTY",
+    "resapi/ResUtilFindSzProperty"
+  ],
+  "old-location": "mscs\\resutilfindszproperty.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "b7fb6c7e-5a13-4838-98f4-45931e9e96d0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY function [Failover Cluster], ResUtilFindSzProperty, ResUtilFindSzProperty function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY, resapi/ResUtilFindSzProperty",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilFindSzProperty",
+    "resapi/ResUtilFindSzProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ext-ms-win-cluster-resutils-l1-1-2.dll",
+    "ResUtils.dll",
+    "ext-ms-win-cluster-resutils-l1-1-0.dll",
+    "ext-ms-win-cluster-resutils-l1-1-1.dll"
+  ],
+  "api_name": [
+    "ResUtilFindSzProperty"
+  ]
+}

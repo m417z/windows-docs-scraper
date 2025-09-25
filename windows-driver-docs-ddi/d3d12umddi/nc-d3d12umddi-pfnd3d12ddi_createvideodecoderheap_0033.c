@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 Pfnd3d12ddiCreatevideodecoderheap0033;
+
+HRESULT Pfnd3d12ddiCreatevideodecoderheap0033(
+  D3D12DDI_HDEVICE hDrvDevice,
+  const D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 *unnamedParam2,
+  D3D12DDI_HVIDEODECODERHEAP_0032 hDrvVideoDecoderHeap
+)
+{...}

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:fltuser.FilterConnectCommunicationPort",
+  "title": "FilterConnectCommunicationPort function (fltuser.h)",
+  "description": "FilterConnectCommunicationPort opens a new connection to a communication server port that is created by a file system minifilter.",
+  "helpviewer_keywords": [
+    "FLT_PORT_FLAG_SYNC_HANDLE",
+    "FilterConnectCommunicationPort",
+    "FilterConnectCommunicationPort function [Installable File System Drivers]",
+    "FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml",
+    "fltuser/FilterConnectCommunicationPort",
+    "ifsk.filterconnectcommunicationport"
+  ],
+  "old-location": "ifsk\\filterconnectcommunicationport.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "294783f2-2cbf-4eea-82ae-a396c62f911a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FLT_PORT_FLAG_SYNC_HANDLE, FilterConnectCommunicationPort, FilterConnectCommunicationPort function [Installable File System Drivers], FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml, fltuser/FilterConnectCommunicationPort, ifsk.filterconnectcommunicationport",
+  "req.header": "fltuser.h",
+  "req.include-header": "Fltuser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterConnectCommunicationPort",
+    "fltuser/FilterConnectCommunicationPort"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterConnectCommunicationPort"
+  ]
+}

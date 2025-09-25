@@ -1,0 +1,3 @@
+typedef struct _DD_CLIPPER_GLOBAL {
+  ULONG_PTR dwReserved1;
+} *PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL;

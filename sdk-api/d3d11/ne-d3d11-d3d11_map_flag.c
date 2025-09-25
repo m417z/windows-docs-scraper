@@ -1,0 +1,3 @@
+typedef enum D3D11_MAP_FLAG {
+  D3D11_MAP_FLAG_DO_NOT_WAIT = 0x100000L
+} ;

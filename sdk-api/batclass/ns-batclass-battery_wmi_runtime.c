@@ -1,0 +1,4 @@
+typedef struct _BATTERY_WMI_RUNTIME {
+  ULONG Tag;
+  ULONG EstimatedRuntime;
+} BATTERY_WMI_RUNTIME, *PBATTERY_WMI_RUNTIME;

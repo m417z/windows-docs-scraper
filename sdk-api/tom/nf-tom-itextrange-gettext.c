@@ -1,0 +1,3 @@
+HRESULT GetText(
+  BSTR *pbstr
+);

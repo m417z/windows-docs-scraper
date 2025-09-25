@@ -1,0 +1,79 @@
+{
+  "UID": "NF:certview.ICertView.GetColumnIndex",
+  "title": "ICertView::GetColumnIndex (certview.h)",
+  "description": "Retrieves the zero-based index of a column.",
+  "helpviewer_keywords": [
+    "CCertView object [Security]",
+    "GetColumnIndex method",
+    "CVRC_COLUMN_MASK",
+    "CVRC_COLUMN_RESULT",
+    "CVRC_COLUMN_SCHEMA",
+    "CVRC_COLUMN_VALUE",
+    "GetColumnIndex",
+    "GetColumnIndex method [Security]",
+    "GetColumnIndex method [Security]",
+    "CCertView object",
+    "GetColumnIndex method [Security]",
+    "ICertView interface",
+    "GetColumnIndex method [Security]",
+    "ICertView2 interface",
+    "ICertView interface [Security]",
+    "GetColumnIndex method",
+    "ICertView.GetColumnIndex",
+    "ICertView2 interface [Security]",
+    "GetColumnIndex method",
+    "ICertView2::GetColumnIndex",
+    "ICertView::GetColumnIndex",
+    "certview/ICertView2::GetColumnIndex",
+    "certview/ICertView::GetColumnIndex",
+    "security.icertview2_getcolumnindex"
+  ],
+  "old-location": "security\\icertview2_getcolumnindex.htm",
+  "tech.root": "SecCrypto",
+  "ms.assetid": "3d869db9-b4df-4fcd-85e7-19fe773b4262",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CCertView object [Security],GetColumnIndex method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnIndex, GetColumnIndex method [Security], GetColumnIndex method [Security],CCertView object, GetColumnIndex method [Security],ICertView interface, GetColumnIndex method [Security],ICertView2 interface, ICertView interface [Security],GetColumnIndex method, ICertView.GetColumnIndex, ICertView2 interface [Security],GetColumnIndex method, ICertView2::GetColumnIndex, ICertView::GetColumnIndex, certview/ICertView2::GetColumnIndex, certview/ICertView::GetColumnIndex, security.icertview2_getcolumnindex",
+  "req.header": "certview.h",
+  "req.include-header": "Certsrv.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Certidl.lib",
+  "req.dll": "Certadm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICertView::GetColumnIndex",
+    "certview/ICertView::GetColumnIndex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certadm.dll"
+  ],
+  "api_name": [
+    "ICertView2.GetColumnIndex",
+    "ICertView.GetColumnIndex",
+    "CCertView.GetColumnIndex"
+  ]
+}

@@ -1,0 +1,4 @@
+LONG AVIStreamNearestSampleTime(
+     pavi,
+     t
+);

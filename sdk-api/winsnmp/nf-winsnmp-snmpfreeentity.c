@@ -1,0 +1,3 @@
+SNMPAPI_STATUS SNMPAPI_CALL SnmpFreeEntity(
+  [in] HSNMP_ENTITY entity
+);

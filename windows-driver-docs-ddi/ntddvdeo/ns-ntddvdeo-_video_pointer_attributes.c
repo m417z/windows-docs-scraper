@@ -1,0 +1,10 @@
+typedef struct _VIDEO_POINTER_ATTRIBUTES {
+  ULONG Flags;
+  ULONG Width;
+  ULONG Height;
+  ULONG WidthInBytes;
+  ULONG Enable;
+  SHORT Column;
+  SHORT Row;
+  UCHAR Pixels[1];
+} VIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES;

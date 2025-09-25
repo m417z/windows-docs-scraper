@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMSyncReader.SetOutputSetting",
+  "title": "IWMSyncReader::SetOutputSetting (wmsdkidl.h)",
+  "description": "The SetOutputSetting method specifies a named setting for a particular output.",
+  "helpviewer_keywords": [
+    "IWMSyncReader interface [windows Media Format]",
+    "SetOutputSetting method",
+    "IWMSyncReader.SetOutputSetting",
+    "IWMSyncReader::SetOutputSetting",
+    "IWMSyncReaderSetOutputSetting",
+    "SetOutputSetting",
+    "SetOutputSetting method [windows Media Format]",
+    "SetOutputSetting method [windows Media Format]",
+    "IWMSyncReader interface",
+    "wmformat.iwmsyncreader_setoutputsetting",
+    "wmsdkidl/IWMSyncReader::SetOutputSetting"
+  ],
+  "old-location": "wmformat\\iwmsyncreader_setoutputsetting.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "8deb322f-8b52-46cf-9b5c-76fa34b6bde2",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMSyncReader interface [windows Media Format],SetOutputSetting method, IWMSyncReader.SetOutputSetting, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMSyncReader::SetOutputSetting",
+    "wmsdkidl/IWMSyncReader::SetOutputSetting"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMSyncReader.SetOutputSetting"
+  ]
+}

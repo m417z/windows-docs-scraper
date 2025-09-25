@@ -1,0 +1,22 @@
+typedef struct _STORAGE_PROTOCOL_COMMAND {
+  ULONG                 Version;
+  ULONG                 Length;
+  STORAGE_PROTOCOL_TYPE ProtocolType;
+  ULONG                 Flags;
+  ULONG                 ReturnStatus;
+  ULONG                 ErrorCode;
+  ULONG                 CommandLength;
+  ULONG                 ErrorInfoLength;
+  ULONG                 DataToDeviceTransferLength;
+  ULONG                 DataFromDeviceTransferLength;
+  ULONG                 TimeOutValue;
+  ULONG                 ErrorInfoOffset;
+  ULONG                 DataToDeviceBufferOffset;
+  ULONG                 DataFromDeviceBufferOffset;
+  ULONG                 CommandSpecific;
+  ULONG                 Reserved0;
+  ULONG                 FixedProtocolReturnData;
+  ULONG                 FixedProtocolReturnData2;
+  ULONG                 Reserved1[2];
+  UCHAR                 Command[ANYSIZE_ARRAY];
+} STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND;

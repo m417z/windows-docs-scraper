@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfiotarget.WdfIoTargetPurge",
+  "title": "WdfIoTargetPurge function (wdfiotarget.h)",
+  "description": "The WdfIoTargetPurge method cancels all I/O requests queued to a local, remote, or specialized I/O target and prevents any new I/O requests from being queued.",
+  "old-location": "wdf\\wdfiotargetpurge.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfIoTargetPurge function"
+  ],
+  "ms.keywords": "WdfIoTargetPurge, WdfIoTargetPurge method, kmdf.wdfiotargetpurge, wdf.wdfiotargetpurge, wdfiotarget/WdfIoTargetPurge",
+  "req.header": "wdfiotarget.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfIoTargetPurge",
+    "wdfiotarget/WdfIoTargetPurge"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfIoTargetPurge"
+  ]
+}

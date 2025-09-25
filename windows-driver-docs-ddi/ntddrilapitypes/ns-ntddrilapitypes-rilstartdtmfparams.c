@@ -1,0 +1,4 @@
+typedef struct RILSTARTDTMFPARAMS {
+  DWORD dwExecutor;
+  char  ch;
+} RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS;

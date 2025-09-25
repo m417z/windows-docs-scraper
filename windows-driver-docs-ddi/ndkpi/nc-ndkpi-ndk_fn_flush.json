@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndkpi.NDK_FN_FLUSH",
+  "title": "NDK_FN_FLUSH (ndkpi.h)",
+  "description": "The NdkFlush (NDK_FN_FLUSH) function initiates cancelling of the receive and the initiator queue requests that are currently pending on an NDK queue pair (QP) object.",
+  "old-location": "netvista\\ndk_fn_flush.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDK_FN_FLUSH callback function"
+  ],
+  "ms.keywords": "NDK_FN_FLUSH, NDK_FN_FLUSH callback, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush",
+  "req.header": "ndkpi.h",
+  "req.include-header": "Ndkpi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported,Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDK_FN_FLUSH",
+    "ndkpi/NDK_FN_FLUSH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "NDK_FN_FLUSH"
+  ]
+}

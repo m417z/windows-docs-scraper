@@ -1,0 +1,4 @@
+typedef struct _SOURCEFILEW {
+  DWORD64 ModBase;
+  PWSTR   FileName;
+} SOURCEFILEW, *PSOURCEFILEW;

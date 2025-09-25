@@ -1,0 +1,3 @@
+NTSTATUS RemoveStreamResource(
+  PCSTREAMRESOURCE ResourceHandle
+);

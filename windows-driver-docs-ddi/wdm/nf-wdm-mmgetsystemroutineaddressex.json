@@ -1,0 +1,42 @@
+{
+  "UID": "NF:wdm.MmGetSystemRoutineAddressEx",
+  "title": "MmGetSystemRoutineAddressEx function",
+  "description": "The MmGetSystemRoutineAddressEx function returns the address of the specified function in the specified system module.",
+  "tech.root": "kernel",
+  "ms.date": "03/01/2020",
+  "ms.keywords": "MmGetSystemRoutineAddressEx",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Xbox",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "MmGetSystemRoutineAddressEx"
+  ],
+  "f1_keywords": [
+    "MmGetSystemRoutineAddressEx",
+    "wdm/MmGetSystemRoutineAddressEx"
+  ]
+}

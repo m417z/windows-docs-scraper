@@ -1,0 +1,3 @@
+BOOL IsCharLowerW(
+  WCHAR ch
+);

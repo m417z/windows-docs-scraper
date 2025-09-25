@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.IoCancelFileOpen",
+  "title": "IoCancelFileOpen function (ntddk.h)",
+  "description": "The IoCancelFileOpen routine can be used by a file system filter driver to close a file that has been opened by a file system driver in the filter driver's device stack.",
+  "tech.root": "ifsk",
+  "ms.date": "12/06/2022",
+  "keywords": [
+    "IoCancelFileOpen function"
+  ],
+  "ms.keywords": "IoCancelFileOpen, IoCancelFileOpen routine [Installable File System Drivers], ifsk.iocancelfileopen, ioref_e63977d2-a70b-4743-85e2-557458ca89ae.xml, ntddk/IoCancelFileOpen",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available on Microsoft Windows 2000 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoCancelFileOpen",
+    "ntddk/IoCancelFileOpen"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoCancelFileOpen"
+  ]
+}

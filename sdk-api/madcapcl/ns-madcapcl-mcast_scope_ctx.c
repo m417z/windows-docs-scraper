@@ -1,0 +1,5 @@
+typedef struct _MCAST_SCOPE_CTX {
+  IPNG_ADDRESS ScopeID;
+  IPNG_ADDRESS Interface;
+  IPNG_ADDRESS ServerID;
+} MCAST_SCOPE_CTX, *PMCAST_SCOPE_CTX;

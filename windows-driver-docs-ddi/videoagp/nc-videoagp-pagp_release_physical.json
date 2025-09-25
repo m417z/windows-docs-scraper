@@ -1,0 +1,48 @@
+{
+  "UID": "NC:videoagp.PAGP_RELEASE_PHYSICAL",
+  "title": "PAGP_RELEASE_PHYSICAL (videoagp.h)",
+  "description": "The AgpReleasePhysical function frees a physical address range reserved by a previous call to AgpReservePhysical.",
+  "old-location": "display\\agpreleasephysical.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PAGP_RELEASE_PHYSICAL callback function"
+  ],
+  "ms.keywords": "AgpReleasePhysical, AgpReleasePhysical callback function [Display Devices], PAGP_RELEASE_PHYSICAL, PAGP_RELEASE_PHYSICAL callback, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml, display.agpreleasephysical, videoagp/AgpReleasePhysical",
+  "req.header": "videoagp.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PAGP_RELEASE_PHYSICAL",
+    "videoagp/PAGP_RELEASE_PHYSICAL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "videoagp.h"
+  ],
+  "api_name": [
+    "PAGP_RELEASE_PHYSICAL"
+  ]
+}

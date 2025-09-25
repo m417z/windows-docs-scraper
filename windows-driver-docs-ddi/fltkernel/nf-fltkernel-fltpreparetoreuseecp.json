@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltPrepareToReuseEcp",
+  "title": "FltPrepareToReuseEcp function (fltkernel.h)",
+  "description": "The FltPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse.",
+  "old-location": "ifsk\\fltpreparetoreuseecp.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltPrepareToReuseEcp function"
+  ],
+  "ms.keywords": "FltPrepareToReuseEcp, FltPrepareToReuseEcp routine [Installable File System Drivers], fltkernel/FltPrepareToReuseEcp, ifsk.fltpreparetoreuseecp",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltPrepareToReuseEcp",
+    "fltkernel/FltPrepareToReuseEcp"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltPrepareToReuseEcp"
+  ]
+}

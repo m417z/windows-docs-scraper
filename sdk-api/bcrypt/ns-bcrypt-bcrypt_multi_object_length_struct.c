@@ -1,0 +1,4 @@
+typedef struct _BCRYPT_MULTI_OBJECT_LENGTH_STRUCT {
+  ULONG cbPerObject;
+  ULONG cbPerElement;
+} BCRYPT_MULTI_OBJECT_LENGTH_STRUCT;

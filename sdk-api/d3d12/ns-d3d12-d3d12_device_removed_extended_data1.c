@@ -1,0 +1,5 @@
+typedef struct D3D12_DEVICE_REMOVED_EXTENDED_DATA1 {
+  HRESULT                            DeviceRemovedReason;
+  D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT AutoBreadcrumbsOutput;
+  D3D12_DRED_PAGE_FAULT_OUTPUT       PageFaultOutput;
+} D3D12_DEVICE_REMOVED_EXTENDED_DATA1;

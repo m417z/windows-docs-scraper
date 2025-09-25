@@ -1,0 +1,20 @@
+typedef struct _NDIS_RESTART_GENERAL_ATTRIBUTES {
+  NDIS_OBJECT_HEADER               Header;
+  ULONG                            MtuSize;
+  ULONG64                          MaxXmitLinkSpeed;
+  ULONG64                          MaxRcvLinkSpeed;
+  ULONG                            LookaheadSize;
+  ULONG                            MacOptions;
+  ULONG                            SupportedPacketFilters;
+  ULONG                            MaxMulticastListSize;
+  PNDIS_RECEIVE_SCALE_CAPABILITIES RecvScaleCapabilities;
+  NET_IF_ACCESS_TYPE               AccessType;
+  ULONG                            Flags;
+  NET_IF_CONNECTION_TYPE           ConnectionType;
+  ULONG                            SupportedStatistics;
+  ULONG                            DataBackFillSize;
+  ULONG                            ContextBackFillSize;
+  PNDIS_OID                        SupportedOidList;
+  ULONG                            SupportedOidListLength;
+  ULONG                            MaxLookaheadSizeAccessed;
+} NDIS_RESTART_GENERAL_ATTRIBUTES, *PNDIS_RESTART_GENERAL_ATTRIBUTES;

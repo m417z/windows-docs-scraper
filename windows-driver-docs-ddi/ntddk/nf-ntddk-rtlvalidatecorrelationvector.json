@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlValidateCorrelationVector",
+  "title": "RtlValidateCorrelationVector function (ntddk.h)",
+  "description": "Validates the specified correlation vector to check whether it conforms to the Correlation Vector Specification (v2).",
+  "old-location": "kernel\\rtlvalidatecorrelationvector.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlValidateCorrelationVector function"
+  ],
+  "ms.keywords": "RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode)",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlValidateCorrelationVector",
+    "ntddk/RtlValidateCorrelationVector"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlValidateCorrelationVector"
+  ]
+}

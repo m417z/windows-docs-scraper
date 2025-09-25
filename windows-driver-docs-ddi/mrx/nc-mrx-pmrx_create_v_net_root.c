@@ -1,0 +1,6 @@
+PMRX_CREATE_V_NET_ROOT PmrxCreateVNetRoot;
+
+NTSTATUS PmrxCreateVNetRoot(
+  IN OUT PMRX_CREATENETROOT_CONTEXT Context
+)
+{...}

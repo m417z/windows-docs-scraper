@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFObject.RetrieveContext",
+  "title": "IWDFObject::RetrieveContext (wudfddi.h)",
+  "description": "The RetrieveContext method retrieves a context that was previously registered through the IWDFObject::AssignContext method.",
+  "old-location": "wdf\\iwdfobject_retrievecontext.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFObject::RetrieveContext"
+  ],
+  "ms.keywords": "IWDFObject interface,RetrieveContext method, IWDFObject.RetrieveContext, IWDFObject::RetrieveContext, RetrieveContext, RetrieveContext method, RetrieveContext method,IWDFObject interface, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, umdf.iwdfobject_retrievecontext, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFObject::RetrieveContext",
+    "wudfddi/IWDFObject::RetrieveContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFObject::RetrieveContext"
+  ]
+}

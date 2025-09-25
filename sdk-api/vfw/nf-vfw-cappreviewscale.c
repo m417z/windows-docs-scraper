@@ -1,0 +1,4 @@
+BOOL capPreviewScale(
+     hwnd,
+     f
+);

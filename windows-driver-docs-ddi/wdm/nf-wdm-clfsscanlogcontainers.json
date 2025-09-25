@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.ClfsScanLogContainers",
+  "title": "ClfsScanLogContainers function (wdm.h)",
+  "description": "The ClfsScanLogContainers routine retrieves descriptive information for a sequence of containers that belong to a particular CLFS log.",
+  "old-location": "kernel\\clfsscanlogcontainers.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ClfsScanLogContainers function"
+  ],
+  "ms.keywords": "ClfsScanLogContainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, kernel.clfsscanlogcontainers, wdm/ClfsScanLogContainers",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfs.lib",
+  "req.dll": "Clfs.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ClfsScanLogContainers",
+    "wdm/ClfsScanLogContainers"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Clfs.sys",
+    "Ext-MS-Win-fs-clfs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ClfsScanLogContainers"
+  ]
+}

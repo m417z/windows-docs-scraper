@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._PCI_SLOT_NUMBER",
+  "title": "_PCI_SLOT_NUMBER (wdm.h)",
+  "description": "The _PCI_SLOT_NUMBER structure (wdm.h) is obsolete. It defines the format of the Slot parameter to the obsolete HalXxxBusData routines.",
+  "old-location": "kernel\\pci_slot_number.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PCI_SLOT_NUMBER structure"
+  ],
+  "ms.keywords": "*PPCI_SLOT_NUMBER, PCI_SLOT_NUMBER, PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], PPCI_SLOT_NUMBER, PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], _PCI_SLOT_NUMBER, kernel.pci_slot_number, kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml, wdm/PCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PCI_SLOT_NUMBER, *PPCI_SLOT_NUMBER",
+  "f1_keywords": [
+    "_PCI_SLOT_NUMBER",
+    "wdm/_PCI_SLOT_NUMBER",
+    "PPCI_SLOT_NUMBER",
+    "wdm/PPCI_SLOT_NUMBER",
+    "PCI_SLOT_NUMBER",
+    "wdm/PCI_SLOT_NUMBER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_PCI_SLOT_NUMBER",
+    "PPCI_SLOT_NUMBER",
+    "PCI_SLOT_NUMBER"
+  ]
+}

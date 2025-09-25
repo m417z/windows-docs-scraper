@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winenclaveapi.EnclaveGetAttestationReport",
+  "title": "EnclaveGetAttestationReport function (winenclaveapi.h)",
+  "description": "Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave.",
+  "helpviewer_keywords": [
+    "EnclaveGetAttestationReport",
+    "EnclaveGetAttestationReport function",
+    "base.enclavegetattestationreport",
+    "winenclaveapi/EnclaveGetAttestationReport"
+  ],
+  "old-location": "base\\enclavegetattestationreport.htm",
+  "tech.root": "base",
+  "ms.assetid": "FEE8F05B-540F-4C10-A90C-55607A4E9293",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "EnclaveGetAttestationReport, EnclaveGetAttestationReport function, base.enclavegetattestationreport, winenclaveapi/EnclaveGetAttestationReport",
+  "req.header": "winenclaveapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vertdll.lib",
+  "req.dll": "Vertdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnclaveGetAttestationReport",
+    "winenclaveapi/EnclaveGetAttestationReport"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "EnclaveGetAttestationReport"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdbgexts.PSYM_DUMP_FIELD_CALLBACK",
+  "title": "PSYM_DUMP_FIELD_CALLBACK (wdbgexts.h)",
+  "description": "The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the IG_DUMP_SYMBOL_INFO Ioctl operation with information about a member in the specified symbol.",
+  "old-location": "debugger\\psym_dump_field_callback.htm",
+  "tech.root": "debugger",
+  "ms.date": "03/26/2018",
+  "keywords": [
+    "PSYM_DUMP_FIELD_CALLBACK callback"
+  ],
+  "ms.keywords": "PSYM_DUMP_FIELD_CALLBACK, PSYM_DUMP_FIELD_CALLBACK function pointer [Windows Debugging], WdbgExts_Ref_37493dec-e340-408d-8f7c-bda18057f427.xml, debugger.psym_dump_field_callback, wdbgexts/PSYM_DUMP_FIELD_CALLBACK",
+  "req.header": "wdbgexts.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT",
+  "f1_keywords": [
+    "PSYM_DUMP_FIELD_CALLBACK",
+    "wdbgexts/PSYM_DUMP_FIELD_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "PSYM_DUMP_FIELD_CALLBACK"
+  ]
+}

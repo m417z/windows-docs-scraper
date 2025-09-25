@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxprocs.RxDriverEntry",
+  "title": "RxDriverEntry function (rxprocs.h)",
+  "description": "RxDriverEntry is called by a monolithic network mini-redirector driver from its DriverEntry routine to initialize the RDBSS static library.",
+  "old-location": "ifsk\\rxdriverentry.htm",
+  "tech.root": "ifsk",
+  "ms.date": "12/16/2021",
+  "keywords": [
+    "RxDriverEntry function"
+  ],
+  "ms.keywords": "RxDriverEntry, RxDriverEntry routine [Installable File System Drivers], ifsk.rxdriverentry, rxprocs/RxDriverEntry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml",
+  "req.header": "rxprocs.h",
+  "req.include-header": "Rxprocs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxDriverEntry",
+    "rxprocs/RxDriverEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxprocs.h"
+  ],
+  "api_name": [
+    "RxDriverEntry"
+  ]
+}

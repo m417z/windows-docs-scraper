@@ -1,0 +1,61 @@
+{
+  "UID": "NF:objbase.CreateBindCtx",
+  "title": "CreateBindCtx function (objbase.h)",
+  "description": "Returns a pointer to an implementation of IBindCtx (a bind context object). This object stores information about a particular moniker-binding operation.",
+  "helpviewer_keywords": [
+    "CreateBindCtx",
+    "CreateBindCtx function [COM]",
+    "_com_CreateBindCtx",
+    "com.createbindctx",
+    "objbase/CreateBindCtx"
+  ],
+  "old-location": "com\\createbindctx.htm",
+  "tech.root": "com",
+  "ms.assetid": "0f0ded09-7a7c-40bb-8198-b9f5058827d4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateBindCtx, CreateBindCtx function [COM], _com_CreateBindCtx, com.createbindctx, objbase/CreateBindCtx",
+  "req.header": "objbase.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateBindCtx",
+    "objbase/CreateBindCtx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ole32.dll",
+    "API-MS-Win-OLE32-IE-l1-1-0.dll",
+    "ole32_wp.dll",
+    "Ext-MS-Win-OLE32-bindctx-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CreateBindCtx"
+  ]
+}

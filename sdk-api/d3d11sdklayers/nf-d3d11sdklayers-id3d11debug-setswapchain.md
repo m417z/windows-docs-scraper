@@ -1,0 +1,29 @@
+# ID3D11Debug::SetSwapChain
+
+## Description
+
+Sets a swap chain that the runtime will use for automatically calling [IDXGISwapChain::Present](https://learn.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present).
+
+## Parameters
+
+### `pSwapChain` [in, optional]
+
+Type: **[IDXGISwapChain](https://learn.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain)***
+
+Swap chain that the runtime will use for automatically calling [IDXGISwapChain::Present](https://learn.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present); must have been created with the DXGI_SWAP_EFFECT_SEQUENTIAL swap-effect flag.
+
+## Return value
+
+Type: **[HRESULT](https://learn.microsoft.com/windows/win32/com/structure-of-com-error-codes)**
+
+This method returns one of the following [Direct3D 11 Return Codes](https://learn.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues).
+
+## Remarks
+
+**Note** If you call this API in a Session 0 process, it returns [DXGI_ERROR_NOT_CURRENTLY_AVAILABLE](https://learn.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error).
+
+The swap chain set by this method will only be used if D3D11_DEBUG_FEATURE_PRESENT_PER_RENDER_OP is set in the [feature mask](https://learn.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask).
+
+## See also
+
+[ID3D11Debug Interface](https://learn.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11debug)

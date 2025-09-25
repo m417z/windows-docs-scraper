@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PALLOCATE_RENDER_DMA_ENGINE",
+  "title": "PALLOCATE_RENDER_DMA_ENGINE (hdaudio.h)",
+  "description": "The AllocateRenderDmaEngine routine allocates a DMA engine for a render stream.The function pointer type for an AllocateRenderDmaEngine routine is defined as follows.",
+  "old-location": "audio\\allocaterenderdmaengine.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PALLOCATE_RENDER_DMA_ENGINE callback function"
+  ],
+  "ms.keywords": "AllocateRenderDmaEngine, AllocateRenderDmaEngine callback function [Audio Devices], PALLOCATE_RENDER_DMA_ENGINE, PALLOCATE_RENDER_DMA_ENGINE callback, aud-prop2_69a03ff9-5eda-4f39-85cf-e4af523214e1.xml, audio.allocaterenderdmaengine, hdaudio/AllocateRenderDmaEngine",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PALLOCATE_RENDER_DMA_ENGINE",
+    "hdaudio/PALLOCATE_RENDER_DMA_ENGINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PALLOCATE_RENDER_DMA_ENGINE"
+  ]
+}

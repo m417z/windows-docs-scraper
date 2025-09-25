@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMemInputPin.GetAllocatorRequirements",
+  "title": "IMemInputPin::GetAllocatorRequirements (strmif.h)",
+  "description": "The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.",
+  "helpviewer_keywords": [
+    "GetAllocatorRequirements",
+    "GetAllocatorRequirements method [DirectShow]",
+    "GetAllocatorRequirements method [DirectShow]",
+    "IMemInputPin interface",
+    "IMemInputPin interface [DirectShow]",
+    "GetAllocatorRequirements method",
+    "IMemInputPin.GetAllocatorRequirements",
+    "IMemInputPin::GetAllocatorRequirements",
+    "IMemInputPinGetAllocatorRequirements",
+    "dshow.imeminputpin_getallocatorrequirements",
+    "strmif/IMemInputPin::GetAllocatorRequirements"
+  ],
+  "old-location": "dshow\\imeminputpin_getallocatorrequirements.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "61e6ea4f-70cd-43d8-bbb7-76e041ee0eeb",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetAllocatorRequirements, GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocatorRequirements method, IMemInputPin.GetAllocatorRequirements, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMemInputPin::GetAllocatorRequirements",
+    "strmif/IMemInputPin::GetAllocatorRequirements"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMemInputPin.GetAllocatorRequirements"
+  ]
+}

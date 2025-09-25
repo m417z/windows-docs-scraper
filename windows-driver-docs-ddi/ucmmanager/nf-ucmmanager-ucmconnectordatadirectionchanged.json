@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ucmmanager.UcmConnectorDataDirectionChanged",
+  "title": "UcmConnectorDataDirectionChanged function (ucmmanager.h)",
+  "description": "Notifies the USB connector manager framework extension (UcmCx) with the new data role of a change in data role.",
+  "old-location": "buses\\ucmconnectordatadirectionchanged.htm",
+  "tech.root": "usbref",
+  "ms.date": "01/05/2022",
+  "keywords": [
+    "UcmConnectorDataDirectionChanged function"
+  ],
+  "ms.keywords": "UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses], buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged",
+  "req.header": "ucmmanager.h",
+  "req.include-header": "Ucmcx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": 2.15,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "UcmCxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UcmConnectorDataDirectionChanged",
+    "ucmmanager/UcmConnectorDataDirectionChanged"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "UcmCxstub.lib",
+    "UcmCxstub.dll"
+  ],
+  "api_name": [
+    "UcmConnectorDataDirectionChanged"
+  ]
+}

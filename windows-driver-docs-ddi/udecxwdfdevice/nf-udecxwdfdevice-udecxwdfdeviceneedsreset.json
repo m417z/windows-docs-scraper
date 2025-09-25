@@ -1,0 +1,46 @@
+{
+  "UID": "NF:udecxwdfdevice.UdecxWdfDeviceNeedsReset",
+  "title": "UdecxWdfDeviceNeedsReset function (udecxwdfdevice.h)",
+  "description": "Informs the USB device emulation class extension (UdeCx) that the device needs a reset operation.",
+  "tech.root": "usbref",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "UdecxWdfDeviceNeedsReset function"
+  ],
+  "ms.keywords": "UdecxWdfDeviceNeedsReset",
+  "req.header": "udecxwdfdevice.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": "N/A",
+  "req.lib": "Udecxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "UdecxWdfDeviceNeedsReset",
+    "udecxwdfdevice/UdecxWdfDeviceNeedsReset"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Udecxstub.lib"
+  ],
+  "api_name": [
+    "UdecxWdfDeviceNeedsReset"
+  ]
+}

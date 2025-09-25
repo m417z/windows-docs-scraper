@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winuser.SetThreadDesktop",
+  "title": "SetThreadDesktop function (winuser.h)",
+  "description": "Assigns the specified desktop to the calling thread. All subsequent operations on the desktop use the access rights granted to the desktop.",
+  "helpviewer_keywords": [
+    "SetThreadDesktop",
+    "SetThreadDesktop function [Windows Stations and Desktops]",
+    "_win32_setthreaddesktop",
+    "base.setthreaddesktop",
+    "winstation.setthreaddesktop",
+    "winuser/SetThreadDesktop"
+  ],
+  "old-location": "winstation\\setthreaddesktop.htm",
+  "tech.root": "winstation",
+  "ms.assetid": "619c591f-54b7-4b61-aa07-fc57e05ee37a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetThreadDesktop, SetThreadDesktop function [Windows Stations and Desktops], _win32_setthreaddesktop, base.setthreaddesktop, winstation.setthreaddesktop, winuser/SetThreadDesktop",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetThreadDesktop",
+    "winuser/SetThreadDesktop"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "API-MS-Win-RTCore-NTUser-WindowStation-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll",
+    "Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll"
+  ],
+  "api_name": [
+    "SetThreadDesktop"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)"
+}

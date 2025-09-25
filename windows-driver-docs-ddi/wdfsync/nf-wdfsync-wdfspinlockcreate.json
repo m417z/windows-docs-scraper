@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfsync.WdfSpinLockCreate",
+  "title": "WdfSpinLockCreate function (wdfsync.h)",
+  "description": "The WdfSpinLockCreate method creates a framework spin-lock object.",
+  "old-location": "wdf\\wdfspinlockcreate.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfSpinLockCreate function"
+  ],
+  "ms.keywords": "DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, WdfSpinLockCreate, WdfSpinLockCreate method, kmdf.wdfspinlockcreate, wdf.wdfspinlockcreate, wdfsync/WdfSpinLockCreate",
+  "req.header": "wdfsync.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2, ParentObjectCheckLock, WdfSpinlock",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfSpinLockCreate",
+    "wdfsync/WdfSpinLockCreate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfSpinLockCreate"
+  ]
+}

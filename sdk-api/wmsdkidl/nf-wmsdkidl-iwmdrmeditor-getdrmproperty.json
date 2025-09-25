@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMDRMEditor.GetDRMProperty",
+  "title": "IWMDRMEditor::GetDRMProperty (wmsdkidl.h)",
+  "description": "The GetDRMProperty method retrieves the specified DRM property.",
+  "helpviewer_keywords": [
+    "GetDRMProperty",
+    "GetDRMProperty method [windows Media Format]",
+    "GetDRMProperty method [windows Media Format]",
+    "IWMDRMEditor interface",
+    "IWMDRMEditor interface [windows Media Format]",
+    "GetDRMProperty method",
+    "IWMDRMEditor.GetDRMProperty",
+    "IWMDRMEditor::GetDRMProperty",
+    "IWMDRMEditorGetDRMProperty",
+    "wmformat.iwmdrmeditor_getdrmproperty",
+    "wmsdkidl/IWMDRMEditor::GetDRMProperty"
+  ],
+  "old-location": "wmformat\\iwmdrmeditor_getdrmproperty.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMEditor interface, IWMDRMEditor interface [windows Media Format],GetDRMProperty method, IWMDRMEditor.GetDRMProperty, IWMDRMEditor::GetDRMProperty, IWMDRMEditorGetDRMProperty, wmformat.iwmdrmeditor_getdrmproperty, wmsdkidl/IWMDRMEditor::GetDRMProperty",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDRMEditor::GetDRMProperty",
+    "wmsdkidl/IWMDRMEditor::GetDRMProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMDRMEditor.GetDRMProperty"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _DNS_APPLICATION_SETTINGS {
+  ULONG   Version;
+  ULONG64 Flags;
+} DNS_APPLICATION_SETTINGS;

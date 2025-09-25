@@ -1,0 +1,81 @@
+{
+  "UID": "NS:srrestoreptapi._RESTOREPTINFOA",
+  "title": "RESTOREPOINTINFOA (srrestoreptapi.h)",
+  "description": "Contains information used by the SRSetRestorePoint function. (ANSI)",
+  "helpviewer_keywords": [
+    "*PRESTOREPOINTINFOA",
+    "APPLICATION_INSTALL",
+    "APPLICATION_UNINSTALL",
+    "BEGIN_NESTED_SYSTEM_CHANGE",
+    "BEGIN_SYSTEM_CHANGE",
+    "CANCELLED_OPERATION",
+    "DEVICE_DRIVER_INSTALL",
+    "END_NESTED_SYSTEM_CHANGE",
+    "END_SYSTEM_CHANGE",
+    "MODIFY_SETTINGS",
+    "PRESTOREPOINTINFO",
+    "PRESTOREPOINTINFO structure pointer [System Restore]",
+    "RESTOREPOINTINFO",
+    "RESTOREPOINTINFO structure [System Restore]",
+    "RESTOREPOINTINFOA",
+    "RESTOREPOINTINFOW",
+    "_sr_restorepointinfo_str",
+    "sr.restorepointinfo_str",
+    "srrestoreptapi/PRESTOREPOINTINFO",
+    "srrestoreptapi/RESTOREPOINTINFO",
+    "srrestoreptapi/RESTOREPOINTINFOA",
+    "srrestoreptapi/RESTOREPOINTINFOW"
+  ],
+  "old-location": "sr\\restorepointinfo_str.htm",
+  "tech.root": "sr",
+  "ms.assetid": "6f3c1fab-5298-47bb-ba38-87d11f111245",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PRESTOREPOINTINFOA, APPLICATION_INSTALL, APPLICATION_UNINSTALL, BEGIN_NESTED_SYSTEM_CHANGE, BEGIN_SYSTEM_CHANGE, CANCELLED_OPERATION, DEVICE_DRIVER_INSTALL, END_NESTED_SYSTEM_CHANGE, END_SYSTEM_CHANGE, MODIFY_SETTINGS, PRESTOREPOINTINFO, PRESTOREPOINTINFO structure pointer [System Restore], RESTOREPOINTINFO, RESTOREPOINTINFO structure [System Restore], RESTOREPOINTINFOA, RESTOREPOINTINFOW, _sr_restorepointinfo_str, sr.restorepointinfo_str, srrestoreptapi/PRESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFOA, srrestoreptapi/RESTOREPOINTINFOW",
+  "req.header": "srrestoreptapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RESTOREPOINTINFOW (Unicode) and RESTOREPOINTINFOA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RESTOREPOINTINFOA, *PRESTOREPOINTINFOA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_RESTOREPTINFOA",
+    "srrestoreptapi/_RESTOREPTINFOA",
+    "PRESTOREPOINTINFOA",
+    "srrestoreptapi/PRESTOREPOINTINFOA",
+    "RESTOREPOINTINFOA",
+    "srrestoreptapi/RESTOREPOINTINFOA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "SRRestorePtAPI.h"
+  ],
+  "api_name": [
+    "RESTOREPOINTINFO",
+    "RESTOREPOINTINFOA",
+    "RESTOREPOINTINFOW"
+  ]
+}

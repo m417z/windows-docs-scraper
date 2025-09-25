@@ -1,0 +1,7 @@
+PFND3D12DDI_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054 Pfnd3d12ddiCopyRaytracingAccelerationStructure0054;
+
+VOID Pfnd3d12ddiCopyRaytracingAccelerationStructure0054(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  const D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054 *unnamedParam2
+)
+{...}

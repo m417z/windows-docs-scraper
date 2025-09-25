@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDISETPOWERCOMPONENTFSTATE",
+  "title": "DXGKDDISETPOWERCOMPONENTFSTATE (d3dkmddi.h)",
+  "description": "Called by the Microsoft DirectX graphics kernel subsystem to transition a power component to an idle state (an F-state).",
+  "old-location": "display\\dxgkddisetpowercomponentfstate.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDISETPOWERCOMPONENTFSTATE callback function"
+  ],
+  "ms.keywords": "DXGKDDISETPOWERCOMPONENTFSTATE, DXGKDDISETPOWERCOMPONENTFSTATE callback, DxgkDdiSetPowerComponentFState, DxgkDdiSetPowerComponentFState callback function [Display Devices], d3dkmddi/DxgkDdiSetPowerComponentFState, display.dxgkddisetpowercomponentfstate",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDISETPOWERCOMPONENTFSTATE",
+    "d3dkmddi/DXGKDDISETPOWERCOMPONENTFSTATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDISETPOWERCOMPONENTFSTATE"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _CHANGER_SET_ACCESS {
+  CHANGER_ELEMENT Element;
+  ULONG           Control;
+} CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS;

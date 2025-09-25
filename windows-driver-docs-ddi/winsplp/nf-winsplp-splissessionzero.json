@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winsplp.SplIsSessionZero",
+  "title": "SplIsSessionZero function (winsplp.h)",
+  "description": "The SplIsSessionZero function determines whether a certain print job (print handle plus job ID) was issued in session zero.",
+  "tech.root": "print",
+  "ms.date": "07/27/2022",
+  "keywords": [
+    "SplIsSessionZero function"
+  ],
+  "ms.keywords": "SplIsSessionZero, SplIsSessionZero function [Print Devices], print.splissessionzero, spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, winsplp/SplIsSessionZero",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "This function is available in Windows XP and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Spoolss.lib",
+  "req.dll": "Spoolss.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SplIsSessionZero",
+    "winsplp/SplIsSessionZero"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Spoolss.dll"
+  ],
+  "api_name": [
+    "SplIsSessionZero"
+  ]
+}

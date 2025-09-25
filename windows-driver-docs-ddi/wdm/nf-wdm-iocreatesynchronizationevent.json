@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoCreateSynchronizationEvent",
+  "title": "IoCreateSynchronizationEvent function (wdm.h)",
+  "description": "The IoCreateSynchronizationEvent routine creates or opens a named synchronization event for use in serialization of access to hardware between two otherwise unrelated drivers.",
+  "old-location": "kernel\\iocreatesynchronizationevent.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoCreateSynchronizationEvent function"
+  ],
+  "ms.keywords": "IoCreateSynchronizationEvent, IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml, kernel.iocreatesynchronizationevent, wdm/IoCreateSynchronizationEvent",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlIoPassive4, PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoCreateSynchronizationEvent",
+    "wdm/IoCreateSynchronizationEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoCreateSynchronizationEvent"
+  ]
+}

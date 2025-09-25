@@ -1,0 +1,3 @@
+typedef struct D3D11_FEATURE_DATA_D3D9_OPTIONS {
+  BOOL FullNonPow2TextureSupport;
+} D3D11_FEATURE_DATA_D3D9_OPTIONS;

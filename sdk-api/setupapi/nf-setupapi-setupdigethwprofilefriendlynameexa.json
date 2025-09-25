@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupDiGetHwProfileFriendlyNameExA",
+  "title": "SetupDiGetHwProfileFriendlyNameExA function (setupapi.h)",
+  "description": "The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupDiGetHwProfileFriendlyNameExA",
+    "di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml"
+  ],
+  "old-location": "devinst\\setupdigethwprofilefriendlynameex.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "839c1e4c-cfa6-4f59-979c-24623a040d5c",
+  "ms.date": "01/30/2023",
+  "ms.keywords": "SetupDiGetHwProfileFriendlyNameEx, SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameExA, SetupDiGetHwProfileFriendlyNameExW, devinst.setupdigethwprofilefriendlynameex, di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml, setupapi/SetupDiGetHwProfileFriendlyNameEx",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiGetHwProfileFriendlyNameExA",
+    "setupapi/SetupDiGetHwProfileFriendlyNameExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiGetHwProfileFriendlyNameEx",
+    "SetupDiGetHwProfileFriendlyNameExA"
+  ]
+}

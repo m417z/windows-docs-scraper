@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlLookupFirstMatchingElementGenericTableAvl",
+  "title": "RtlLookupFirstMatchingElementGenericTableAvl function (ntddk.h)",
+  "description": "The RtlLookupFirstMatchingElementGenericTableAvl routine finds the left-most element in the tree that matches the indicated data.",
+  "old-location": "ifsk\\rtllookupfirstmatchingelementgenerictableavl.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlLookupFirstMatchingElementGenericTableAvl function"
+  ],
+  "ms.keywords": "RtlLookupFirstMatchingElementGenericTableAvl, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupfirstmatchingelementgenerictableavl, ntddk/RtlLookupFirstMatchingElementGenericTableAvl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "FltKernel.h, Ntifs.h, Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlLookupFirstMatchingElementGenericTableAvl",
+    "ntddk/RtlLookupFirstMatchingElementGenericTableAvl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlLookupFirstMatchingElementGenericTableAvl"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.DbgPrint",
+  "title": "DbgPrint function (wdm.h)",
+  "description": "The DbgPrint routine sends a message to the kernel debugger.",
+  "tech.root": "devtest",
+  "ms.date": "01/19/2023",
+  "keywords": [
+    "DbgPrint function"
+  ],
+  "ms.keywords": "DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtDll.lib (user mode); NtosKrnl.lib (kernel mode)",
+  "req.dll": "NtDll.dll (user mode); NtosKrnl.exe (kernel mode)",
+  "req.irql": "IRQL <= DIRQL (see Comments section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DbgPrint",
+    "wdm/DbgPrint"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtDll.dll",
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "DbgPrint"
+  ]
+}

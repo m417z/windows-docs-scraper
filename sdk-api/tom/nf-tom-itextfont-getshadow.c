@@ -1,0 +1,3 @@
+HRESULT GetShadow(
+  long *pValue
+);

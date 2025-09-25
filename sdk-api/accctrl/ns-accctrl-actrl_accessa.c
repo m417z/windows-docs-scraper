@@ -1,0 +1,4 @@
+typedef struct _ACTRL_ALISTA {
+  ULONG                  cEntries;
+  PACTRL_PROPERTY_ENTRYA pPropertyAccessList;
+} ACTRL_ACCESSA, *PACTRL_ACCESSA, ACTRL_AUDITA, *PACTRL_AUDITA;

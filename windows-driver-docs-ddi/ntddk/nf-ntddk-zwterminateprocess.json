@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.ZwTerminateProcess",
+  "title": "ZwTerminateProcess function (ntddk.h)",
+  "description": "The ZwTerminateProcess routine terminates a process and all of its threads.",
+  "tech.root": "kernel",
+  "ms.date": "12/07/2022",
+  "keywords": [
+    "ZwTerminateProcess function"
+  ],
+  "ms.keywords": "NtTerminateProcess, ZwTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml, kernel.zwterminateprocess, ntddk/NtTerminateProcess, ntddk/ZwTerminateProcess",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwTerminateProcess",
+    "ntddk/ZwTerminateProcess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwTerminateProcess"
+  ]
+}

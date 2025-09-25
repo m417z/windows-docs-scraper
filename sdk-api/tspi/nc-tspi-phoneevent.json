@@ -1,0 +1,61 @@
+{
+  "UID": "NC:tspi.PHONEEVENT",
+  "title": "PHONEEVENT (tspi.h)",
+  "description": "Phone_Event a callback function implemented by TAPI and supplied to the service provider as a parameter to TSPI_phoneOpen. The service provider calls this function to report events that occur on the phone.",
+  "helpviewer_keywords": [
+    "PHONEEVENT",
+    "PHONEEVENT callback",
+    "Phone_Event",
+    "Phone_Event callback function [TAPI 2.2]",
+    "_tspi_phoneevent",
+    "tspi.phone_event_tspi",
+    "tspi.phoneevent",
+    "tspi/Phone_Event"
+  ],
+  "old-location": "tspi\\phone_event_tspi.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "0b5745a4-7652-48ce-9e8a-eef52c09455f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PHONEEVENT, PHONEEVENT callback, Phone_Event, Phone_Event callback function [TAPI 2.2], _tspi_phoneevent, tspi.phone_event_tspi, tspi.phoneevent, tspi/Phone_Event",
+  "req.header": "tspi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PHONEEVENT",
+    "tspi/PHONEEVENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Tspi.h"
+  ],
+  "api_name": [
+    "Phone_Event"
+  ]
+}

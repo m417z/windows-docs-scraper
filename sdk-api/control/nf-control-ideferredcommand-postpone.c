@@ -1,0 +1,3 @@
+HRESULT Postpone(
+  REFTIME newtime
+);

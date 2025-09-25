@@ -1,0 +1,3 @@
+typedef struct D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT {
+  ID3D12VideoMotionVectorHeap *pMotionVectorHeap;
+} D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT;

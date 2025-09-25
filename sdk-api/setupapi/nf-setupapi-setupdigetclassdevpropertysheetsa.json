@@ -1,0 +1,56 @@
+{
+  "UID": "NF:setupapi.SetupDiGetClassDevPropertySheetsA",
+  "title": "SetupDiGetClassDevPropertySheetsA function (setupapi.h)",
+  "description": "The SetupDiGetClassDevPropertySheets function retrieves handles to the property sheets of a device information element or of the device setup class of a device information set. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupDiGetClassDevPropertySheetsA",
+    "di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml"
+  ],
+  "old-location": "devinst\\setupdigetclassdevpropertysheets.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "cf5e8511-37be-4fb8-bded-b9b1e6bd247b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDiGetClassDevPropertySheets, SetupDiGetClassDevPropertySheets function [Device and Driver Installation], SetupDiGetClassDevPropertySheetsA, SetupDiGetClassDevPropertySheetsW, devinst.setupdigetclassdevpropertysheets, di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml, setupapi/SetupDiGetClassDevPropertySheets",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiGetClassDevPropertySheetsA",
+    "setupapi/SetupDiGetClassDevPropertySheetsA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiGetClassDevPropertySheets - SetupDiGetClassDevPropertySheetsA"
+  ]
+}

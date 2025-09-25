@@ -1,0 +1,22 @@
+typedef struct _DEVICE_DESCRIPTION {
+  ULONG            Version;
+  BOOLEAN          Master;
+  BOOLEAN          ScatterGather;
+  BOOLEAN          DemandMode;
+  BOOLEAN          AutoInitialize;
+  BOOLEAN          Dma32BitAddresses;
+  BOOLEAN          IgnoreCount;
+  BOOLEAN          Reserved1;
+  BOOLEAN          Dma64BitAddresses;
+  ULONG            BusNumber;
+  ULONG            DmaChannel;
+  INTERFACE_TYPE   InterfaceType;
+  DMA_WIDTH        DmaWidth;
+  DMA_SPEED        DmaSpeed;
+  ULONG            MaximumLength;
+  ULONG            DmaPort;
+  ULONG            DmaAddressWidth;
+  ULONG            DmaControllerInstance;
+  ULONG            DmaRequestLine;
+  PHYSICAL_ADDRESS DeviceAddress;
+} DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION;

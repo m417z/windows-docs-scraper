@@ -1,0 +1,59 @@
+{
+  "UID": "NF:shobjidl_core.SHGetPropertyStoreFromIDList",
+  "title": "SHGetPropertyStoreFromIDList function (shobjidl_core.h)",
+  "description": "Retrieves an object that supports IPropertyStore or related interfaces from a pointer to an item identifier list (PIDL).",
+  "helpviewer_keywords": [
+    "SHGetPropertyStoreFromIDList",
+    "SHGetPropertyStoreFromIDList function [Windows Properties]",
+    "_shell_SHGetPropertyStoreFromIDList",
+    "properties.SHGetPropertyStoreFromIDList",
+    "shell.SHGetPropertyStoreFromIDList",
+    "shobjidl_core/SHGetPropertyStoreFromIDList"
+  ],
+  "old-location": "properties\\SHGetPropertyStoreFromIDList.htm",
+  "tech.root": "properties",
+  "ms.assetid": "2a3c3c80-1bfc-4da0-ba6e-ac9e9a5c3e5b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHGetPropertyStoreFromIDList, SHGetPropertyStoreFromIDList function [Windows Properties], _shell_SHGetPropertyStoreFromIDList, properties.SHGetPropertyStoreFromIDList, shell.SHGetPropertyStoreFromIDList, shobjidl_core/SHGetPropertyStoreFromIDList",
+  "req.header": "shobjidl_core.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHGetPropertyStoreFromIDList",
+    "shobjidl_core/SHGetPropertyStoreFromIDList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Shell32.dll"
+  ],
+  "api_name": [
+    "SHGetPropertyStoreFromIDList"
+  ]
+}

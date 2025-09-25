@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortWaveRTStream.AllocatePagesForMdl",
+  "title": "IPortWaveRTStream::AllocatePagesForMdl (portcls.h)",
+  "description": "The AllocatePagesForMdl method allocates a list of nonpaged physical memory pages and returns a pointer to a memory descriptor list (MDL) that describes them.",
+  "old-location": "audio\\iportwavertstream_allocatepagesformdl.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortWaveRTStream::AllocatePagesForMdl"
+  ],
+  "ms.keywords": "AllocatePagesForMdl, AllocatePagesForMdl method [Audio Devices], AllocatePagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocatePagesForMdl method, IPortWaveRTStream.AllocatePagesForMdl, IPortWaveRTStream::AllocatePagesForMdl, audio.iportwavertstream_allocatepagesformdl, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, portcls/IPortWaveRTStream::AllocatePagesForMdl",
+  "req.header": "portcls.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Passive level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortWaveRTStream::AllocatePagesForMdl",
+    "portcls/IPortWaveRTStream::AllocatePagesForMdl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Portcls.h"
+  ],
+  "api_name": [
+    "IPortWaveRTStream::AllocatePagesForMdl"
+  ]
+}

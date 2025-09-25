@@ -1,0 +1,143 @@
+# CryptDecrypt function
+
+## Description
+
+**Important** This API is deprecated. New and existing software should start using [Cryptography Next Generation APIs.](https://learn.microsoft.com/windows/desktop/SecCNG/cng-portal) Microsoft may remove this API in future releases.
+
+The **CryptDecrypt** function decrypts data previously encrypted by using
+the [CryptEncrypt](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt) function.
+
+Important changes to support [Secure/Multipurpose Internet Mail Extensions](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly) (S/MIME) email interoperability have been made to CryptoAPI that affect the handling of enveloped messages. For more information, see the Remarks section of [CryptMsgOpenToEncode](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode).
+
+## Parameters
+
+### `hKey` [in]
+
+A handle to the key to use for the decryption. An application obtains this handle by using either the
+[CryptGenKey](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey) or
+[CryptImportKey](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey) function.
+
+This key specifies the decryption algorithm to be used.
+
+### `hHash` [in]
+
+A handle to a [hash object](https://learn.microsoft.com/windows/desktop/SecGloss/h-gly). If data is to be decrypted and hashed simultaneously, a handle to a hash object is passed in this parameter. The hash value is updated with the decrypted [plaintext](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly). This option is useful when simultaneously decrypting and verifying a signature.
+
+Before calling **CryptDecrypt**, the application must obtain a handle to the hash object by calling the
+[CryptCreateHash](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash) function. After the decryption is complete, the hash value can be obtained by using the
+[CryptGetHashParam](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam) function, it can also be signed by using
+the [CryptSignHash](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha) function, or it can be used to verify a [digital signature](https://learn.microsoft.com/windows/desktop/SecGloss/d-gly) by using
+the [CryptVerifySignature](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea) function.
+
+If no hash is to be done, this parameter must be zero.
+
+### `Final` [in]
+
+A Boolean value that specifies whether this is the last section in a series being decrypted. This value is **TRUE** if this is the last or only block. If this is not the last block, this value is **FALSE**. For more information, see Remarks.
+
+### `dwFlags` [in]
+
+The following flag values are defined.
+
+| Value | Meaning |
+| --- | --- |
+| **CRYPT_OAEP**<br><br>0x00000040 | Use Optimal Asymmetric Encryption Padding (OAEP) (PKCS #1 version 2). This flag is only supported by the [Microsoft Enhanced Cryptographic Provider](https://learn.microsoft.com/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider) with RSA encryption/decryption. This flag cannot be combined with the **CRYPT_DECRYPT_RSA_NO_PADDING_CHECK** flag. |
+| **CRYPT_DECRYPT_RSA_NO_PADDING_CHECK**<br><br>0x00000020 | Perform the decryption on the [BLOB](https://learn.microsoft.com/windows/desktop/SecGloss/b-gly) without checking the padding. This flag is only supported by the [Microsoft Enhanced Cryptographic Provider](https://learn.microsoft.com/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider) with RSA encryption/decryption. This flag cannot be combined with the **CRYPT_OAEP** flag. |
+
+### `pbData` [in, out]
+
+A pointer to a buffer that contains the data to be decrypted. After the decryption has been performed, the plaintext is placed back into this same buffer.
+
+The number of encrypted bytes in this buffer is specified by *pdwDataLen*.
+
+### `pdwDataLen` [in, out]
+
+A pointer to a **DWORD** value that indicates the length of the *pbData* buffer. Before calling this function, the calling application sets the **DWORD** value to the number of bytes to be decrypted. Upon return, the **DWORD** value contains the number of bytes of the decrypted plaintext.
+
+When a [block cipher](https://learn.microsoft.com/windows/desktop/SecGloss/b-gly) is used, this data length must be a multiple of the block size unless this is the final section of data to be decrypted and the *Final* parameter is **TRUE**.
+
+## Return value
+
+If the function succeeds, the function returns nonzero (**TRUE**).
+
+If the function fails, it returns zero (**FALSE**). For extended error information, call
+[GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+
+The error codes prefaced by NTE are generated by the particular CSP being used. Some possible error codes follow.
+
+| Value | Description |
+| --- | --- |
+| **ERROR_INVALID_HANDLE** | One of the parameters specifies a handle that is not valid. |
+| **ERROR_INVALID_PARAMETER** | One of the parameters contains a value that is not valid. This is most often a pointer that is not valid. |
+| **NTE_BAD_ALGID** | The *hKey* [session key](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly) specifies an algorithm that this CSP does not support. |
+| **NTE_BAD_DATA** | The data to be decrypted is not valid. For example, when a block cipher is used and the *Final* flag is **FALSE**, the value specified by *pdwDataLen* must be a multiple of the block size. This error can also be returned when the [padding](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly) is found to be not valid. |
+| **NTE_BAD_FLAGS** | The *dwFlags* parameter is nonzero. |
+| **NTE_BAD_HASH** | The *hHash* parameter contains a handle that is not valid. |
+| **NTE_BAD_KEY** | The *hKey* parameter does not contain a valid handle to a key. |
+| **NTE_BAD_LEN** | The size of the output buffer is too small to hold the generated plaintext. |
+| **NTE_BAD_UID** | The CSP context that was specified when the key was created cannot be found. |
+| **NTE_DOUBLE_ENCRYPT** | The application attempted to decrypt the same data twice. |
+| **NTE_FAIL** | The function failed in some unexpected way. |
+
+## Remarks
+
+If a large amount of data is to be decrypted, it can be done in sections by calling **CryptDecrypt** repeatedly. The *Final* parameter must be set to **TRUE** only on the last call to **CryptDecrypt**, so that the decryption engine can properly finish the decryption process. The following extra actions are performed when *Final* is **TRUE**:
+
+* If the key is a block cipher key, the data is padded to a multiple of the block size of the cipher. To find the block size of a cipher, use
+  [CryptGetKeyParam](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam) to get the KP_BLOCKLEN value of the key.
+* If the cipher is operating in a [chaining mode](https://learn.microsoft.com/windows/desktop/SecGloss/c-gly), the next **CryptDecrypt** operation resets the cipher's feedback register to the KP_IV value of the key.
+* If the cipher is a [stream cipher](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly), the next **CryptDecrypt** call resets the cipher to its initial [state](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly).
+
+There is no way to set the cipher's feedback register to the KP_IV value of the key without setting the *Final* parameter to **TRUE**. If this is necessary, as in the case where you do not want to add an additional padding block or change the size of each block, you can simulate this by creating a duplicate of the original key by using the [CryptDuplicateKey](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptduplicatekey) function, and passing the duplicate key to the **CryptDecrypt** function. This causes the KP_IV of the original key to be placed in the duplicate key. After you create or import the original key, you cannot use the original key for encryption because the feedback register of the key will be changed. The following pseudocode shows how this can be done.
+
+``` syntax
+// Set the IV for the original key. Do not use the original key for
+// encryption or decryption after doing this because the key's
+// feedback register will get modified and you cannot change it.
+CryptSetKeyParam(hOriginalKey, KP_IV, newIV)
+
+while(block = NextBlock())
+{
+    // Create a duplicate of the original key. This causes the
+    // original key's IV to be copied into the duplicate key's
+    // feedback register.
+    hDuplicateKey = CryptDuplicateKey(hOriginalKey)
+
+    // Decrypt the block with the duplicate key.
+    CryptDecrypt(hDuplicateKey, block)
+
+    // Destroy the duplicate key. Its feedback register has been
+    // modified by the CryptEncrypt function, so it cannot be used
+    // again. It will be re-duplicated in the next iteration of the
+    // loop.
+    CryptDestroyKey(hDuplicateKey)
+}
+```
+
+The [Microsoft Enhanced Cryptographic Provider](https://learn.microsoft.com/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider) supports direct encryption with [RSA](https://learn.microsoft.com/windows/desktop/SecGloss/r-gly) [public keys](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly) and decryption with RSA [private keys](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly). The encryption uses PKCS #1 [padding](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly). On decryption, this padding is verified. The length of [ciphertext](https://learn.microsoft.com/windows/desktop/SecGloss/c-gly) data to be decrypted must be the same length as the modulus of the RSA key used to decrypt the data. If the ciphertext has zeros in the most significant bytes, these bytes must be included in the input data buffer and in the input buffer length. The ciphertext must be in [little-endian](https://learn.microsoft.com/windows/desktop/SecGloss/l-gly) format.
+
+#### Examples
+
+For an example that uses this function, see [Example C Program: Decrypting a File](https://learn.microsoft.com/windows/desktop/SecCrypto/example-c-program-decrypting-a-file).
+
+## See also
+
+[CryptCreateHash](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash)
+
+[CryptEncrypt](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt)
+
+[CryptGenKey](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey)
+
+[CryptGetHashParam](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam)
+
+[CryptGetKeyParam](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam)
+
+[CryptImportKey](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey)
+
+[CryptMsgOpenToEncode](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode)
+
+[CryptSignHash](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha)
+
+[CryptVerifySignature](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea)
+
+[Data Encryption/Decryption Functions](https://learn.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)

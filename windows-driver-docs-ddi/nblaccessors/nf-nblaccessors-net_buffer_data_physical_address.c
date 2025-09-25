@@ -1,0 +1,1 @@
+#define NET_BUFFER_DATA_PHYSICAL_ADDRESS(_NB) ((_NB)->DataPhysicalAddress)

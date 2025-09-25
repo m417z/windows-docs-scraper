@@ -1,0 +1,60 @@
+{
+  "UID": "NF:bcrypt.BCryptSignHash",
+  "title": "BCryptSignHash function (bcrypt.h)",
+  "description": "Creates a signature of a hash value. (BCryptSignHash)",
+  "helpviewer_keywords": [
+    "BCRYPT_PAD_PKCS1",
+    "BCRYPT_PAD_PSS",
+    "BCryptSignHash",
+    "BCryptSignHash function [Security]",
+    "bcrypt/BCryptSignHash",
+    "security.bcryptsignhash_func"
+  ],
+  "old-location": "security\\bcryptsignhash_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "f402ea9e-89ae-4ccc-9591-aa2328287c0e",
+  "ms.date": "06/16/2025",
+  "ms.keywords": "BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptSignHash, BCryptSignHash function [Security], bcrypt/BCryptSignHash, security.bcryptsignhash_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptSignHash",
+    "bcrypt/BCryptSignHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptSignHash"
+  ]
+}

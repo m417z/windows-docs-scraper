@@ -1,0 +1,3 @@
+UINT GetSystemDpiForProcess(
+  HANDLE hProcess
+);

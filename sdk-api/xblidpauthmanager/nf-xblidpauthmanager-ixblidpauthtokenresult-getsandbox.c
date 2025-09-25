@@ -1,0 +1,3 @@
+HRESULT GetSandbox(
+  LPWSTR *sandbox
+);

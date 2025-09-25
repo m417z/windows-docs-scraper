@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntifs.SeQuerySubjectContextToken",
+  "title": "SeQuerySubjectContextToken macro (ntifs.h)",
+  "description": "Learn more about the SeQuerySubjectContextToken macro.",
+  "tech.root": "ifsk",
+  "ms.date": "02/21/2023",
+  "keywords": [
+    "SeQuerySubjectContextToken macro"
+  ],
+  "ms.keywords": "SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeQuerySubjectContextToken",
+    "ntifs/SeQuerySubjectContextToken"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "SeQuerySubjectContextToken"
+  ]
+}

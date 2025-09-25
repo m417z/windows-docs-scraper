@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE",
+  "title": "EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE (wdfdevice.h)",
+  "description": "The EvtDeviceWdmPostPoFxRegisterDevice callback function performs device-specific operations after the framework has registered with the power framework.",
+  "old-location": "wdf\\evtdevicewdmpostpofxregisterdevice.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback function"
+  ],
+  "ms.keywords": "EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback, EvtDeviceWdmPostPoFxRegisterDevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, kmdf.evtdevicewdmpostpofxregisterdevice, wdf.evtdevicewdmpostpofxregisterdevice, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE",
+    "wdfdevice/EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE"
+  ]
+}

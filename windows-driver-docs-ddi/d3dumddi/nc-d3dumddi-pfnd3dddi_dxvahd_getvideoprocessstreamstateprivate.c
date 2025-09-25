@@ -1,0 +1,7 @@
+PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE Pfnd3dddiDxvahdGetvideoprocessstreamstateprivate;
+
+HRESULT Pfnd3dddiDxvahdGetvideoprocessstreamstateprivate(
+  HANDLE unnamedParam1,
+  D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE *unnamedParam2
+)
+{...}

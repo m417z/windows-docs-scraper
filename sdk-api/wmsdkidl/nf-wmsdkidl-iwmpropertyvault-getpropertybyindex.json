@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMPropertyVault.GetPropertyByIndex",
+  "title": "IWMPropertyVault::GetPropertyByIndex (wmsdkidl.h)",
+  "description": "The GetPropertyByIndex method retrieves a property from the vault by its index value.",
+  "helpviewer_keywords": [
+    "GetPropertyByIndex",
+    "GetPropertyByIndex method [windows Media Format]",
+    "GetPropertyByIndex method [windows Media Format]",
+    "IWMPropertyVault interface",
+    "IWMPropertyVault interface [windows Media Format]",
+    "GetPropertyByIndex method",
+    "IWMPropertyVault.GetPropertyByIndex",
+    "IWMPropertyVault::GetPropertyByIndex",
+    "IWMPropertyVaultGetPropertyByIndex",
+    "wmformat.iwmpropertyvault_getpropertybyindex",
+    "wmsdkidl/IWMPropertyVault::GetPropertyByIndex"
+  ],
+  "old-location": "wmformat\\iwmpropertyvault_getpropertybyindex.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "edecc6d2-f784-4205-bd79-6098e553d5cd",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetPropertyByIndex, GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByIndex method, IWMPropertyVault.GetPropertyByIndex, IWMPropertyVault::GetPropertyByIndex, IWMPropertyVaultGetPropertyByIndex, wmformat.iwmpropertyvault_getpropertybyindex, wmsdkidl/IWMPropertyVault::GetPropertyByIndex",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMPropertyVault::GetPropertyByIndex",
+    "wmsdkidl/IWMPropertyVault::GetPropertyByIndex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMPropertyVault.GetPropertyByIndex"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef enum tagUASFLAGS {
+  UAS_NORMAL = 0,
+  UAS_BLOCKED = 0x1,
+  UAS_NOPARENTENABLE = 0x2,
+  UAS_MASK = 0x3
+} UASFLAGS;

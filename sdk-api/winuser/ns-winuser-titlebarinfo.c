@@ -1,0 +1,5 @@
+typedef struct tagTITLEBARINFO {
+  DWORD cbSize;
+  RECT  rcTitleBar;
+  DWORD rgstate[CCHILDREN_TITLEBAR + 1];
+} TITLEBARINFO, *PTITLEBARINFO, *LPTITLEBARINFO;

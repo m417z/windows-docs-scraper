@@ -1,0 +1,3 @@
+HBA_STATUS HBA_API HBA_RegisterLibraryV2(
+  PHBA_ENTRYPOINTSV2 entrypoints
+);

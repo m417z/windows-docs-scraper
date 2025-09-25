@@ -1,0 +1,3 @@
+BOOLEAN IsAdminOverrideActive(
+  PADMINISTRATOR_POWER_POLICY papp
+);

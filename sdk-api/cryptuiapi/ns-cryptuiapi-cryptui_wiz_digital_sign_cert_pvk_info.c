@@ -1,0 +1,9 @@
+typedef struct _CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO {
+  DWORD  dwSize;
+  LPWSTR pwszSigningCertFileName;
+  DWORD  dwPvkChoice;
+  union {
+    PCCRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO pPvkFileInfo;
+    PCRYPT_KEY_PROV_INFO                     pPvkProvInfo;
+  };
+} CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO;

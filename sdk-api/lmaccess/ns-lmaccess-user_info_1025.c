@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1025 {
+  DWORD usri1025_code_page;
+} USER_INFO_1025, *PUSER_INFO_1025, *LPUSER_INFO_1025;

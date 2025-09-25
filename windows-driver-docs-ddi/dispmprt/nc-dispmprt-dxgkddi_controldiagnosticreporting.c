@@ -1,0 +1,7 @@
+DXGKDDI_CONTROLDIAGNOSTICREPORTING DxgkddiControldiagnosticreporting;
+
+NTSTATUS DxgkddiControldiagnosticreporting(
+  IN_CONST_PVOID MiniportDeviceContext,
+  IN_PDXGKARG_CONTROLDIAGNOSTICREPORTING pArgControlDiagnosticReporting
+)
+{...}

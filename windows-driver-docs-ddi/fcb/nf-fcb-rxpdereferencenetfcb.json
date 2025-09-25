@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxpDereferenceNetFcb",
+  "title": "RxpDereferenceNetFcb function (fcb.h)",
+  "description": "RxpDereferenceNetFcb decrements the reference count on an FCB structure.",
+  "old-location": "ifsk\\rxpdereferencenetfcb.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxpDereferenceNetFcb function"
+  ],
+  "ms.keywords": "RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers], fcb/RxpDereferenceNetFcb, ifsk.rxpdereferencenetfcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxpDereferenceNetFcb",
+    "fcb/RxpDereferenceNetFcb"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxpDereferenceNetFcb"
+  ]
+}

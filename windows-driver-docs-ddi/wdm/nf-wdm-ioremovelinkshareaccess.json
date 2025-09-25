@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.IoRemoveLinkShareAccess",
+  "title": "IoRemoveLinkShareAccess function (wdm.h)",
+  "description": "The IoRemoveLinkShareAccess routine removes the access and link share-access information for a given open instance of a file object.",
+  "old-location": "kernel\\ioremovelinkshareaccess.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoRemoveLinkShareAccess function"
+  ],
+  "ms.keywords": "IoRemoveLinkShareAccess, IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IoRemoveLinkShareAccess",
+    "wdm/IoRemoveLinkShareAccess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoRemoveLinkShareAccess"
+  ]
+}

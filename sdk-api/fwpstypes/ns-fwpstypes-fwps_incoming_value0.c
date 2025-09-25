@@ -1,0 +1,3 @@
+typedef struct FWPS_INCOMING_VALUE0_ {
+  FWP_VALUE0 value;
+} FWPS_INCOMING_VALUE0;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDevice.ConfigureRequestDispatching",
+  "title": "IWDFDevice::ConfigureRequestDispatching (wudfddi.h)",
+  "description": "The ConfigureRequestDispatching method configures the queuing of I/O requests of the specified type to the specified I/O queue.",
+  "old-location": "wdf\\iwdfdevice_configurerequestdispatching.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDevice::ConfigureRequestDispatching"
+  ],
+  "ms.keywords": "ConfigureRequestDispatching, ConfigureRequestDispatching method, ConfigureRequestDispatching method,IWDFDevice interface, IWDFDevice interface,ConfigureRequestDispatching method, IWDFDevice.ConfigureRequestDispatching, IWDFDevice::ConfigureRequestDispatching, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, umdf.iwdfdevice_configurerequestdispatching, wdf.iwdfdevice_configurerequestdispatching, wudfddi/IWDFDevice::ConfigureRequestDispatching",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDevice::ConfigureRequestDispatching",
+    "wudfddi/IWDFDevice::ConfigureRequestDispatching"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDevice::ConfigureRequestDispatching"
+  ]
+}

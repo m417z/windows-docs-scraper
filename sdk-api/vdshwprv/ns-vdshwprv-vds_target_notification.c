@@ -1,0 +1,4 @@
+typedef struct _VDS_TARGET_NOTIFICATION {
+  ULONG         ulEvent;
+  VDS_OBJECT_ID targetId;
+} VDS_TARGET_NOTIFICATION;

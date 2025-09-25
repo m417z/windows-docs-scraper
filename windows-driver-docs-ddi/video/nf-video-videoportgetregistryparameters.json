@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortGetRegistryParameters",
+  "title": "VideoPortGetRegistryParameters function (video.h)",
+  "description": "The VideoPortGetRegistryParameters function retrieves device-specific configuration information under the adapter key in the registry at startup.",
+  "old-location": "display\\videoportgetregistryparameters.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortGetRegistryParameters function"
+  ],
+  "ms.keywords": "VideoPortGetRegistryParameters, VideoPortGetRegistryParameters function [Display Devices], VideoPort_Functions_f4e1230a-ae49-4751-8c60-e05043dbb049.xml, display.videoportgetregistryparameters, video/VideoPortGetRegistryParameters",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortGetRegistryParameters",
+    "video/VideoPortGetRegistryParameters"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortGetRegistryParameters"
+  ]
+}

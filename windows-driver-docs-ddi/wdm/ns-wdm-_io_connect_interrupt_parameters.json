@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._IO_CONNECT_INTERRUPT_PARAMETERS",
+  "title": "_IO_CONNECT_INTERRUPT_PARAMETERS (wdm.h)",
+  "description": "The IO_CONNECT_INTERRUPT_PARAMETERS structure contains the parameters that a driver supplies to the IoConnectInterruptEx routine to register an interrupt service routine (ISR).",
+  "old-location": "kernel\\io_connect_interrupt_parameters.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IO_CONNECT_INTERRUPT_PARAMETERS structure"
+  ],
+  "ms.keywords": "*PIO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_CONNECT_INTERRUPT_PARAMETERS, PIO_CONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_CONNECT_INTERRUPT_PARAMETERS, kernel.io_connect_interrupt_parameters, kstruct_b_c3854cf4-b084-42f4-9f3b-92a96fc741c1.xml, wdm/IO_CONNECT_INTERRUPT_PARAMETERS, wdm/PIO_CONNECT_INTERRUPT_PARAMETERS",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IO_CONNECT_INTERRUPT_PARAMETERS, *PIO_CONNECT_INTERRUPT_PARAMETERS",
+  "f1_keywords": [
+    "_IO_CONNECT_INTERRUPT_PARAMETERS",
+    "wdm/_IO_CONNECT_INTERRUPT_PARAMETERS",
+    "PIO_CONNECT_INTERRUPT_PARAMETERS",
+    "wdm/PIO_CONNECT_INTERRUPT_PARAMETERS",
+    "IO_CONNECT_INTERRUPT_PARAMETERS",
+    "wdm/IO_CONNECT_INTERRUPT_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_IO_CONNECT_INTERRUPT_PARAMETERS",
+    "PIO_CONNECT_INTERRUPT_PARAMETERS",
+    "IO_CONNECT_INTERRUPT_PARAMETERS"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortWavePciStream.ReleaseMapping",
+  "title": "IPortWavePciStream::ReleaseMapping (portcls.h)",
+  "description": "The ReleaseMapping method releases a mapping that was obtained by a previous call to IPortWavePciStream::GetMapping.",
+  "old-location": "audio\\iportwavepcistream_releasemapping.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortWavePciStream::ReleaseMapping"
+  ],
+  "ms.keywords": "IPortWavePciStream interface [Audio Devices],ReleaseMapping method, IPortWavePciStream.ReleaseMapping, IPortWavePciStream::ReleaseMapping, ReleaseMapping, ReleaseMapping method [Audio Devices], ReleaseMapping method [Audio Devices],IPortWavePciStream interface, audio.iportwavepcistream_releasemapping, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, portcls/IPortWavePciStream::ReleaseMapping",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortWavePciStream::ReleaseMapping",
+    "portcls/IPortWavePciStream::ReleaseMapping"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IPortWavePciStream::ReleaseMapping"
+  ]
+}

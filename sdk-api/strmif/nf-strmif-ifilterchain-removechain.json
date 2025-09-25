@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IFilterChain.RemoveChain",
+  "title": "IFilterChain::RemoveChain (strmif.h)",
+  "description": "The RemoveChain method removes every filter in a filter chain from the filter graph.",
+  "helpviewer_keywords": [
+    "IFilterChain interface [DirectShow]",
+    "RemoveChain method",
+    "IFilterChain.RemoveChain",
+    "IFilterChain::RemoveChain",
+    "IFilterChainRemoveChain",
+    "RemoveChain",
+    "RemoveChain method [DirectShow]",
+    "RemoveChain method [DirectShow]",
+    "IFilterChain interface",
+    "dshow.ifilterchain_removechain",
+    "strmif/IFilterChain::RemoveChain"
+  ],
+  "old-location": "dshow\\ifilterchain_removechain.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "a47d2087-5f06-4fce-b573-16935370a34c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IFilterChain interface [DirectShow],RemoveChain method, IFilterChain.RemoveChain, IFilterChain::RemoveChain, IFilterChainRemoveChain, RemoveChain, RemoveChain method [DirectShow], RemoveChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_removechain, strmif/IFilterChain::RemoveChain",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFilterChain::RemoveChain",
+    "strmif/IFilterChain::RemoveChain"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFilterChain.RemoveChain"
+  ]
+}

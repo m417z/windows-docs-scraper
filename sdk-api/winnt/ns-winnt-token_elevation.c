@@ -1,0 +1,3 @@
+typedef struct _TOKEN_ELEVATION {
+  DWORD TokenIsElevated;
+} TOKEN_ELEVATION, *PTOKEN_ELEVATION;

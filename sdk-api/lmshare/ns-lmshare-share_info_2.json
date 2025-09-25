@@ -1,0 +1,85 @@
+{
+  "UID": "NS:lmshare._SHARE_INFO_2",
+  "title": "SHARE_INFO_2 (lmshare.h)",
+  "description": "Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections.",
+  "helpviewer_keywords": [
+    "*LPSHARE_INFO_2",
+    "*PSHARE_INFO_2",
+    "ACCESS_ALL",
+    "ACCESS_ATRIB",
+    "ACCESS_CREATE",
+    "ACCESS_DELETE",
+    "ACCESS_EXEC",
+    "ACCESS_PERM",
+    "ACCESS_READ",
+    "ACCESS_WRITE",
+    "LPSHARE_INFO_2",
+    "LPSHARE_INFO_2 structure pointer [Files]",
+    "PSHARE_INFO_2",
+    "PSHARE_INFO_2 structure pointer [Files]",
+    "SHARE_INFO_2",
+    "SHARE_INFO_2 structure [Files]",
+    "STYPE_DEVICE",
+    "STYPE_DISKTREE",
+    "STYPE_IPC",
+    "STYPE_PRINTQ",
+    "STYPE_SPECIAL",
+    "STYPE_TEMPORARY",
+    "_win32_share_info_2_str",
+    "fs.share_info_2_str",
+    "lmshare/LPSHARE_INFO_2",
+    "lmshare/PSHARE_INFO_2",
+    "lmshare/SHARE_INFO_2",
+    "netmgmt.share_info_2_str"
+  ],
+  "old-location": "fs\\share_info_2_str.htm",
+  "tech.root": "fs",
+  "ms.assetid": "cd152ccd-cd60-455f-b25c-c4939c65e0ab",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPSHARE_INFO_2, *PSHARE_INFO_2, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_2, LPSHARE_INFO_2 structure pointer [Files], PSHARE_INFO_2, PSHARE_INFO_2 structure pointer [Files], SHARE_INFO_2, SHARE_INFO_2 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_2_str, fs.share_info_2_str, lmshare/LPSHARE_INFO_2, lmshare/PSHARE_INFO_2, lmshare/SHARE_INFO_2, netmgmt.share_info_2_str",
+  "req.header": "lmshare.h",
+  "req.include-header": "Lm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SHARE_INFO_2, *PSHARE_INFO_2, *LPSHARE_INFO_2",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SHARE_INFO_2",
+    "lmshare/_SHARE_INFO_2",
+    "PSHARE_INFO_2",
+    "lmshare/PSHARE_INFO_2",
+    "SHARE_INFO_2",
+    "lmshare/SHARE_INFO_2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Lmshare.h"
+  ],
+  "api_name": [
+    "SHARE_INFO_2"
+  ]
+}

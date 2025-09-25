@@ -1,0 +1,42 @@
+{
+  "UID": "NF:ntifs.RtlUnicodeStringToUTF8String",
+  "title": "RtlUnicodeStringToUTF8String function (ntifs.h)",
+  "description": "RtlUnicodeStringToUTF8String converts the specified Unicode string to a UTF-8 string.",
+  "tech.root": "ifsk",
+  "ms.date": "03/24/2020",
+  "ms.keywords": "RtlUnicodeStringToUTF8String",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "RtlUnicodeStringToUTF8String",
+    "ntifs/RtlUnicodeStringToUTF8String"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlUnicodeStringToUTF8String"
+  ]
+}

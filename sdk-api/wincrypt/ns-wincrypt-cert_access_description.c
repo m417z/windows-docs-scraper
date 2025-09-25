@@ -1,0 +1,4 @@
+typedef struct _CERT_ACCESS_DESCRIPTION {
+  LPSTR               pszAccessMethod;
+  CERT_ALT_NAME_ENTRY AccessLocation;
+} CERT_ACCESS_DESCRIPTION, *PCERT_ACCESS_DESCRIPTION;

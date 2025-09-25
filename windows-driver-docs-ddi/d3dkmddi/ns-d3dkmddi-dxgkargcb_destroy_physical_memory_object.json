@@ -1,0 +1,45 @@
+{
+  "UID": "NS:d3dkmddi._DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT",
+  "tech.root": "display",
+  "title": "DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT",
+  "ms.date": "06/24/2022",
+  "targetos": "Windows",
+  "description": "The DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT structure contains the information used by the DxgkCbDestroyPhysicalMemoryObject callback function to destroy physical memory.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022 (WDDM 2.9)",
+  "req.target-type": null,
+  "req.typenames": "DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "_DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT",
+    "DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT"
+  ],
+  "f1_keywords": [
+    "_DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT",
+    "d3dkmddi/_DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT",
+    "DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT",
+    "d3dkmddi/DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

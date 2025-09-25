@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltGetFileContext",
+  "title": "FltGetFileContext function (fltkernel.h)",
+  "description": "Learn more about the FltGetFileContext function.",
+  "old-location": "ifsk\\fltgetfilecontext.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/25/2023",
+  "keywords": [
+    "FltGetFileContext function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml, FltGetFileContext, FltGetFileContext routine [Installable File System Drivers], fltkernel/FltGetFileContext, ifsk.fltgetfilecontext",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltGetFileContext",
+    "fltkernel/FltGetFileContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltGetFileContext"
+  ]
+}

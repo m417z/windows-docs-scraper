@@ -1,0 +1,57 @@
+{
+  "UID": "NF:storprop.CdromIsDigitalPlaybackEnabled",
+  "title": "CdromIsDigitalPlaybackEnabled function (storprop.h)",
+  "description": "Determines whether digital playback is enabled for the specified CD-ROM or DVD drive.",
+  "helpviewer_keywords": [
+    "CdromIsDigitalPlaybackEnabled",
+    "CdromIsDigitalPlaybackEnabled function",
+    "base.cdromisdigitalplaybackenabled",
+    "storprop/CdromIsDigitalPlaybackEnabled"
+  ],
+  "old-location": "base\\cdromisdigitalplaybackenabled.htm",
+  "tech.root": "base",
+  "ms.assetid": "17d1ccc6-a552-434f-84f5-471455e97dc2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled",
+  "req.header": "storprop.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "StorProp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CdromIsDigitalPlaybackEnabled",
+    "storprop/CdromIsDigitalPlaybackEnabled"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "StorProp.dll"
+  ],
+  "api_name": [
+    "CdromIsDigitalPlaybackEnabled"
+  ]
+}

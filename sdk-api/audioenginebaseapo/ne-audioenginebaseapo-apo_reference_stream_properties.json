@@ -1,0 +1,43 @@
+{
+  "UID": "NE:audioenginebaseapo.APO_REFERENCE_STREAM_PROPERTIES",
+  "tech.root": "audio",
+  "title": "APO_REFERENCE_STREAM_PROPERTIES",
+  "ms.date": "04/27/2023",
+  "targetos": "Windows",
+  "description": "Specifies loopback stream properties for the IApoAcousticEchoCancellation2::GetDesiredReferenceStreamProperties callback method.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "audioenginebaseapo.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows Build 22621",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audioenginebaseapo.h"
+  ],
+  "api_name": [
+    "APO_REFERENCE_STREAM_PROPERTIES"
+  ],
+  "f1_keywords": [
+    "APO_REFERENCE_STREAM_PROPERTIES",
+    "audioenginebaseapo/APO_REFERENCE_STREAM_PROPERTIES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "APO_REFERENCE_STREAM_PROPERTIES"
+  ]
+}

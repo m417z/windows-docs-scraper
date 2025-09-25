@@ -1,0 +1,36 @@
+# NdisRawReadPortUshort macro
+
+## Description
+
+**NdisRawReadPortUshort** reads a USHORT value from a given I/O port on the NIC.
+
+## Parameters
+
+### `Port` [in]
+
+Specifies the I/O port. This address falls in a range that was mapped during initialization with
+[NdisMRegisterIoPortRange](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange).
+
+### `Data` [out]
+
+Pointer to a caller-supplied variable in which this function returns a USHORT value read in from
+the port.
+
+## Remarks
+
+**NdisRawReadPortUshort** runs fast because it need not map a bus-relative I/O port address onto a
+host-dependent logical port address at every call.
+
+## See also
+
+[MiniportInitializeEx](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
+
+[NdisMRegisterIoPortRange](https://learn.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange)
+
+[NdisRawReadPortBufferUshort](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawreadportbufferushort)
+
+[NdisRawReadPortUchar](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawreadportuchar)
+
+[NdisRawReadPortUlong](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawreadportulong)
+
+[NdisRawWritePortUshort](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawwriteportushort)

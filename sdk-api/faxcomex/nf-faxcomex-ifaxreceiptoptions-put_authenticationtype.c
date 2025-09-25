@@ -1,0 +1,3 @@
+HRESULT put_AuthenticationType(
+  FAX_SMTP_AUTHENTICATION_TYPE_ENUM Type
+);

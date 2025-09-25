@@ -1,0 +1,65 @@
+{
+  "UID": "NF:iwstdec.IAMWstDecoder.SetRedrawAlways",
+  "title": "IAMWstDecoder::SetRedrawAlways (iwstdec.h)",
+  "description": "Downstream filters use the SetRedrawAlways method to determine whether the whole output bitmap should be redrawn for each sample.",
+  "helpviewer_keywords": [
+    "IAMWstDecoder interface [DirectShow]",
+    "SetRedrawAlways method",
+    "IAMWstDecoder.SetRedrawAlways",
+    "IAMWstDecoder::SetRedrawAlways",
+    "IAMWstDecoderSetRedrawAlways",
+    "SetRedrawAlways",
+    "SetRedrawAlways method [DirectShow]",
+    "SetRedrawAlways method [DirectShow]",
+    "IAMWstDecoder interface",
+    "dshow.iamwstdecoder_setredrawalways",
+    "iwstdec/IAMWstDecoder::SetRedrawAlways"
+  ],
+  "old-location": "dshow\\iamwstdecoder_setredrawalways.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "4663a9c0-3d08-4f25-8742-458081536f98",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWstDecoder.SetRedrawAlways, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways",
+  "req.header": "iwstdec.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMWstDecoder::SetRedrawAlways",
+    "iwstdec/IAMWstDecoder::SetRedrawAlways"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMWstDecoder.SetRedrawAlways"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "UID": "NF:ntifs.RtlCreateHeap",
+  "title": "RtlCreateHeap function (ntifs.h)",
+  "description": "The RtlCreateHeap routine creates a heap object that can be used by the calling process. This routine reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.",
+  "tech.root": "ifsk",
+  "ms.date": "08/20/2025",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)",
+  "req.irql": "< DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlCreateHeap",
+    "ntifs/RtlCreateHeap"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlCreateHeap"
+  ]
+}

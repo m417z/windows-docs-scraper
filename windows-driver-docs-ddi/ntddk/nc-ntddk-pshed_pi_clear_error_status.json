@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ntddk.PSHED_PI_CLEAR_ERROR_STATUS",
+  "title": "PSHED_PI_CLEAR_ERROR_STATUS (ntddk.h)",
+  "description": "A PSHED plug-in's ClearErrorStatus callback function clears any platform-specific error status registers for a corrected hardware error condition.",
+  "tech.root": "whea",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "PSHED_PI_CLEAR_ERROR_STATUS callback function"
+  ],
+  "ms.keywords": "ClearErrorStatus, ClearErrorStatus callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_STATUS, PSHED_PI_CLEAR_ERROR_STATUS callback, ntddk/ClearErrorStatus, whea.clearerrorstatus, whearef_022b6321-f051-4d35-ad0c-e6528d03a411.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSHED_PI_CLEAR_ERROR_STATUS",
+    "ntddk/PSHED_PI_CLEAR_ERROR_STATUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PSHED_PI_CLEAR_ERROR_STATUS"
+  ]
+}

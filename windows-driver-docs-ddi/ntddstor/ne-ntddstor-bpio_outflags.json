@@ -1,0 +1,42 @@
+{
+  "UID": "NE:ntddstor._BPIO_OUTFLAGS",
+  "tech.root": "storage",
+  "title": "BPIO_OUTFLAGS",
+  "ms.date": "07/08/2021",
+  "targetos": "Windows",
+  "description": "BPIO_OUTFLAGS defines the BypassIO output flags for the IOCTL_STORAGE_MANAGE_BYPASS_IO control code.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_BPIO_OUTFLAGS",
+    "BPIO_OUTFLAGS"
+  ],
+  "f1_keywords": [
+    "_BPIO_OUTFLAGS",
+    "ntddstor/_BPIO_OUTFLAGS",
+    "BPIO_OUTFLAGS",
+    "ntddstor/BPIO_OUTFLAGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

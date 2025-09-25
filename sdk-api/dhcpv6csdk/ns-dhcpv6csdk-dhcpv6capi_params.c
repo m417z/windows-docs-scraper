@@ -1,0 +1,7 @@
+typedef struct _DHCPV6CAPI_PARAMS {
+  ULONG  Flags;
+  ULONG  OptionId;
+  BOOL   IsVendor;
+  LPBYTE Data;
+  DWORD  nBytesData;
+} DHCPV6CAPI_PARAMS, *PDHCPV6CAPI_PARAMS, *LPDHCPV6CAPI_PARAMS;

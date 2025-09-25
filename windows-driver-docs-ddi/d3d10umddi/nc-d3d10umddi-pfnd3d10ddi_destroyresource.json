@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10DDI_DESTROYRESOURCE",
+  "title": "PFND3D10DDI_DESTROYRESOURCE (d3d10umddi.h)",
+  "description": "The DestroyResource(D3D10) function destroys the specified resource object. The resource object can be destroyed only if it is not currently bound to a display device, and if all views that refer to the resource are also destroyed.",
+  "old-location": "display\\destroyresource_d3d10_.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10DDI_DESTROYRESOURCE callback function"
+  ],
+  "ms.keywords": "DestroyResource, DestroyResource callback function [Display Devices], PFND3D10DDI_DESTROYRESOURCE, PFND3D10DDI_DESTROYRESOURCE callback, UserModeDisplayDriverDx10_Functions_59a8abb1-fb74-49b0-a6b8-c0e867f9d7d6.xml, d3d10umddi/DestroyResource, display.destroyresource_d3d10_",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10DDI_DESTROYRESOURCE",
+    "d3d10umddi/PFND3D10DDI_DESTROYRESOURCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10DDI_DESTROYRESOURCE"
+  ]
+}

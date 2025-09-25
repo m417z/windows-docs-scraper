@@ -1,0 +1,39 @@
+{
+  "UID": "NE:ioringapi.IORING_REF_KIND",
+  "tech.root": "fs",
+  "title": "IORING_REF_KIND",
+  "ms.date": "07/16/2021",
+  "targetos": "Windows",
+  "description": "Specifies the type of an IORING_HANDLE_REF structure.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ioringapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ioringapi.h"
+  ],
+  "api_name": [
+    "IORING_REF_KIND"
+  ],
+  "f1_keywords": [
+    "IORING_REF_KIND",
+    "ioringapi/IORING_REF_KIND"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT WldpSetDynamicCodeTrust(
+  HANDLE fileHandle
+);

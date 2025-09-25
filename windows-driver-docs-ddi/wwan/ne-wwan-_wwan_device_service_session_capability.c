@@ -1,0 +1,5 @@
+typedef enum _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY {
+  WwanDeviceServiceSessionNotSupported,
+  WwanDeviceServiceSessionWriteSupported,
+  WwanDeviceServiceSessionReadSupported
+} WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY;

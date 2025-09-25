@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dot11wdi.MINIPORT_WDI_RX_THROTTLE",
+  "title": "MINIPORT_WDI_RX_THROTTLE (dot11wdi.h)",
+  "description": "The MiniportWdiRxThrottle handler function tells the TAL/target to enable mechanisms to reduce the rate of RX MSDUs.",
+  "old-location": "netvista\\miniportwdirxthrottle.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_WDI_RX_THROTTLE callback function"
+  ],
+  "ms.keywords": "MINIPORT_WDI_RX_THROTTLE, MINIPORT_WDI_RX_THROTTLE callback, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle",
+  "req.header": "dot11wdi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_WDI_RX_THROTTLE",
+    "dot11wdi/MINIPORT_WDI_RX_THROTTLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dot11wdi.h"
+  ],
+  "api_name": [
+    "MINIPORT_WDI_RX_THROTTLE"
+  ]
+}

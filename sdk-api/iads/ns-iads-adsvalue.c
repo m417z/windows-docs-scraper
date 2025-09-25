@@ -1,0 +1,32 @@
+typedef struct _adsvalue {
+  ADSTYPE dwType;
+  union {
+    ADS_DN_STRING              DNString;
+    ADS_CASE_EXACT_STRING      CaseExactString;
+    ADS_CASE_IGNORE_STRING     CaseIgnoreString;
+    ADS_PRINTABLE_STRING       PrintableString;
+    ADS_NUMERIC_STRING         NumericString;
+    ADS_BOOLEAN                Boolean;
+    ADS_INTEGER                Integer;
+    ADS_OCTET_STRING           OctetString;
+    ADS_UTC_TIME               UTCTime;
+    ADS_LARGE_INTEGER          LargeInteger;
+    ADS_OBJECT_CLASS           ClassName;
+    ADS_PROV_SPECIFIC          ProviderSpecific;
+    PADS_CASEIGNORE_LIST       pCaseIgnoreList;
+    PADS_OCTET_LIST            pOctetList;
+    PADS_PATH                  pPath;
+    PADS_POSTALADDRESS         pPostalAddress;
+    ADS_TIMESTAMP              Timestamp;
+    ADS_BACKLINK               BackLink;
+    PADS_TYPEDNAME             pTypedName;
+    ADS_HOLD                   Hold;
+    PADS_NETADDRESS            pNetAddress;
+    PADS_REPLICAPOINTER        pReplicaPointer;
+    PADS_FAXNUMBER             pFaxNumber;
+    ADS_EMAIL                  Email;
+    ADS_NT_SECURITY_DESCRIPTOR SecurityDescriptor;
+    PADS_DN_WITH_BINARY        pDNWithBinary;
+    PADS_DN_WITH_STRING        pDNWithString;
+  };
+} ADSVALUE, *PADSVALUE, *LPADSVALUE;

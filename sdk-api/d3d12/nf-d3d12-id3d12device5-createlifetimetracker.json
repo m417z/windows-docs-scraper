@@ -1,0 +1,51 @@
+{
+  "UID": "NF:d3d12.ID3D12Device5.CreateLifetimeTracker",
+  "title": "ID3D12Device5::CreateLifetimeTracker",
+  "description": "Creates a lifetime tracker associated with an application-defined callback; the callback receives notifications when the lifetime of a tracked object is changed.",
+  "helpviewer_keywords": [
+    "ID3D12Device5::CreateLifetimeTracker"
+  ],
+  "tech.root": "direct3d12",
+  "ms.date": "10/30/2019",
+  "ms.keywords": "ID3D12Device5::CreateLifetimeTracker",
+  "req.header": "d3d12.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "ID3D12Device5::CreateLifetimeTracker",
+    "d3d12/ID3D12Device5::CreateLifetimeTracker"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "d3d12.dll"
+  ],
+  "api_name": [
+    "ID3D12Device5::CreateLifetimeTracker"
+  ]
+}

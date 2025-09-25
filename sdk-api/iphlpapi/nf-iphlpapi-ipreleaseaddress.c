@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD IpReleaseAddress(
+  [in] PIP_ADAPTER_INDEX_MAP AdapterInfo
+);

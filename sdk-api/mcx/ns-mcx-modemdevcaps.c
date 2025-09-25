@@ -1,0 +1,22 @@
+typedef struct _MODEMDEVCAPS {
+  DWORD dwActualSize;
+  DWORD dwRequiredSize;
+  DWORD dwDevSpecificOffset;
+  DWORD dwDevSpecificSize;
+  DWORD dwModemProviderVersion;
+  DWORD dwModemManufacturerOffset;
+  DWORD dwModemManufacturerSize;
+  DWORD dwModemModelOffset;
+  DWORD dwModemModelSize;
+  DWORD dwModemVersionOffset;
+  DWORD dwModemVersionSize;
+  DWORD dwDialOptions;
+  DWORD dwCallSetupFailTimer;
+  DWORD dwInactivityTimeout;
+  DWORD dwSpeakerVolume;
+  DWORD dwSpeakerMode;
+  DWORD dwModemOptions;
+  DWORD dwMaxDTERate;
+  DWORD dwMaxDCERate;
+  BYTE  abVariablePortion[1];
+} MODEMDEVCAPS, *PMODEMDEVCAPS, *LPMODEMDEVCAPS;

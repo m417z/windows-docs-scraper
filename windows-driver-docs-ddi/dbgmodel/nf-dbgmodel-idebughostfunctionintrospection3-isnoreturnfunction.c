@@ -1,0 +1,3 @@
+HRESULT IsNoReturnFunction(
+  bool *pIsNoReturnFunction
+);

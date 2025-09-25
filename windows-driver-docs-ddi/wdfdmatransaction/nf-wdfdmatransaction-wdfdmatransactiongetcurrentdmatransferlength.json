@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfdmatransaction.WdfDmaTransactionGetCurrentDmaTransferLength",
+  "title": "WdfDmaTransactionGetCurrentDmaTransferLength function (wdfdmatransaction.h)",
+  "description": "The WdfDmaTransactionGetCurrentDmaTransferLength method returns the size of the current DMA transfer.",
+  "old-location": "wdf\\wdfdmatransactiongetcurrentdmatransferlength.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDmaTransactionGetCurrentDmaTransferLength function"
+  ],
+  "ms.keywords": "DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml, WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength method, kmdf.wdfdmatransactiongetcurrentdmatransferlength, wdf.wdfdmatransactiongetcurrentdmatransferlength, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength",
+  "req.header": "wdfdmatransaction.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDmaTransactionGetCurrentDmaTransferLength",
+    "wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDmaTransactionGetCurrentDmaTransferLength"
+  ]
+}

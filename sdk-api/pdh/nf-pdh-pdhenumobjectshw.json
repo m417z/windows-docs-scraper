@@ -1,0 +1,69 @@
+{
+  "UID": "NF:pdh.PdhEnumObjectsHW",
+  "title": "PdhEnumObjectsHW function (pdh.h)",
+  "description": "Returns a list of objects available on the specified computer or in the specified log file.This function is identical to PdhEnumObjects, except that it supports the use of handles to data sources. (Unicode)",
+  "helpviewer_keywords": [
+    "FALSE",
+    "PERF_DETAIL_ADVANCED",
+    "PERF_DETAIL_EXPERT",
+    "PERF_DETAIL_NOVICE",
+    "PERF_DETAIL_WIZARD",
+    "PdhEnumObjectsH",
+    "PdhEnumObjectsH function [Perf]",
+    "PdhEnumObjectsHW",
+    "TRUE",
+    "_win32_pdhenumobjectsh",
+    "base.pdhenumobjectsh",
+    "pdh/PdhEnumObjectsH",
+    "pdh/PdhEnumObjectsHW",
+    "perf.pdhenumobjectsh"
+  ],
+  "old-location": "perf\\pdhenumobjectsh.htm",
+  "tech.root": "perf",
+  "ms.assetid": "8f68a7a8-cc56-4f7f-a86f-4b439738808d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectsH, PdhEnumObjectsH function [Perf], PdhEnumObjectsHA, PdhEnumObjectsHW, TRUE, _win32_pdhenumobjectsh, base.pdhenumobjectsh, pdh/PdhEnumObjectsH, pdh/PdhEnumObjectsHA, pdh/PdhEnumObjectsHW, perf.pdhenumobjectsh",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhEnumObjectsHW (Unicode) and PdhEnumObjectsHA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhEnumObjectsHW",
+    "pdh/PdhEnumObjectsHW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhEnumObjectsH",
+    "PdhEnumObjectsHA",
+    "PdhEnumObjectsHW"
+  ]
+}

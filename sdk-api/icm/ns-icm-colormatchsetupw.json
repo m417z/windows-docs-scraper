@@ -1,0 +1,48 @@
+{
+  "UID": "NS:icm._tagCOLORMATCHSETUPW",
+  "title": "COLORMATCHSETUPW",
+  "description": "The **COLORMATCHSETUP** structure contains information that the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function uses to initialize the **ColorManagement** dialog box. (Unicode)",
+  "tech.root": "wcs",
+  "ms.date": "02/01/2021",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "icm.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional \\[desktop apps only\\]",
+  "req.target-min-winversvr": "Windows 2000 Server \\[desktop apps only\\]",
+  "req.target-type": null,
+  "req.typenames": "COLORMATCHSETUPW, *PCOLORMATCHSETUPW, *LPCOLORMATCHSETUPW",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "icm.h"
+  ],
+  "api_name": [
+    "_tagCOLORMATCHSETUPW",
+    "PCOLORMATCHSETUPW",
+    "COLORMATCHSETUPW"
+  ],
+  "f1_keywords": [
+    "_tagCOLORMATCHSETUPW",
+    "icm/_tagCOLORMATCHSETUPW",
+    "PCOLORMATCHSETUPW",
+    "icm/PCOLORMATCHSETUPW",
+    "COLORMATCHSETUPW",
+    "icm/COLORMATCHSETUPW"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "UID": "NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES",
+  "title": "_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES (netreceivescaling.h)",
+  "description": "The NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure represents a series of move operations for all entries in the receive side scaling (RSS) indirection table.",
+  "tech.root": "netvista",
+  "ms.date": "07/13/2018",
+  "keywords": [
+    "NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure"
+  ],
+  "ms.keywords": "_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES,",
+  "req.header": "netreceivescaling.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES",
+    "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES",
+    "NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES",
+    "netreceivescaling/NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netreceivescaling.h"
+  ],
+  "api_name": [
+    "_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES",
+    "NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES"
+  ]
+}

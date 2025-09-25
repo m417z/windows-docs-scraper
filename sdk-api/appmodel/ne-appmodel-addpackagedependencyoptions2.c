@@ -1,0 +1,5 @@
+typedef enum AddPackageDependencyOptions2 {
+  AddPackageDependencyOptions2_None,
+  AddPackageDependencyOptions2_PrependIfRankCollision,
+  AddPackageDependencyOptions2_SpecifiedPackageFamilyOnly
+} ;

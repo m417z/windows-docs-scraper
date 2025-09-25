@@ -1,0 +1,61 @@
+{
+  "UID": "NF:tdh.TdhLoadManifest",
+  "title": "TdhLoadManifest function (tdh.h)",
+  "description": "Loads the manifest used to decode a log file.",
+  "helpviewer_keywords": [
+    "TdhLoadManifest",
+    "TdhLoadManifest function [ETW]",
+    "etw.tdhloadmanifest",
+    "tdh/TdhLoadManifest"
+  ],
+  "old-location": "etw\\tdhloadmanifest.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "85dfcf73-ea3a-47e2-ad1a-3891b3917ecf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TdhLoadManifest, TdhLoadManifest function [ETW], etw.tdhloadmanifest, tdh/TdhLoadManifest",
+  "req.header": "tdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tdh.lib",
+  "req.dll": "Tdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TdhLoadManifest",
+    "tdh/TdhLoadManifest"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-eventing-tdh-l1-1-2.dll",
+    "api-ms-win-eventing-tdh-l1-1-1.dll",
+    "Tdh.dll",
+    "API-MS-Win-Eventing-Tdh-L1-1-0.dll",
+    "MinTdh.dll"
+  ],
+  "api_name": [
+    "TdhLoadManifest"
+  ]
+}

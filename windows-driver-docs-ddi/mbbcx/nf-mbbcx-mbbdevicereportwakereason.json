@@ -1,0 +1,46 @@
+{
+  "UID": "NF:mbbcx.MbbDeviceReportWakeReason",
+  "title": "MbbDeviceReportWakeReason function (mbbcx.h)",
+  "description": "The MbbDeviceReportWakeReason method reports to the framework the reason that a mobile broadband device has generated a wake-up event.",
+  "tech.root": "netvista",
+  "ms.date": "11/07/2019",
+  "keywords": [
+    "MbbDeviceReportWakeReason function"
+  ],
+  "ms.keywords": "MbbDeviceReportWakeReason",
+  "req.header": "mbbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "mbbcxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "Vb",
+  "f1_keywords": [
+    "MbbDeviceReportWakeReason",
+    "mbbcx/MbbDeviceReportWakeReason"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "mbbcxstub.lib"
+  ],
+  "api_name": [
+    "MbbDeviceReportWakeReason"
+  ]
+}

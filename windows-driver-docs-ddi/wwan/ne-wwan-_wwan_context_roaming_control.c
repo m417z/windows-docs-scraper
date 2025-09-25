@@ -1,0 +1,10 @@
+typedef enum _WWAN_CONTEXT_ROAMING_CONTROL {
+  WwanContextRoamingControlHomeOnly,
+  WwanContextRoamingControlPartnerOnly,
+  WwanContextRoamingControlNonPartnerOnly,
+  WwanContextRoamingControlHomeAndPartner,
+  WwanContextRoamingControlHomeAndNonPartner,
+  WwanContextRoamingControlPartnerAndNonPartner,
+  WwanContextRoamingControlAllowAll,
+  WwanContextRoamingControlMaximum
+} WWAN_CONTEXT_ROAMING_CONTROL, *PWWAN_CONTEXT_ROAMING_CONTROL;

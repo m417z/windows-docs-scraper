@@ -1,0 +1,5 @@
+typedef struct _SHRINK_VOLUME_INFORMATION {
+  SHRINK_VOLUME_REQUEST_TYPES ShrinkRequestType;
+  DWORDLONG                   Flags;
+  LONGLONG                    NewNumberOfSectors;
+} SHRINK_VOLUME_INFORMATION, *PSHRINK_VOLUME_INFORMATION;

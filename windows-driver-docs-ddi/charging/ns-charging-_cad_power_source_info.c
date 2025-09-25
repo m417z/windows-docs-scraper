@@ -1,0 +1,5 @@
+typedef struct _CAD_POWER_SOURCE_INFO {
+  POWERSOURCEID SourceId;
+  USHORT        Version;
+  ULONG         VaData[1];
+} CAD_POWER_SOURCE_INFO, *PCAD_POWER_SOURCE_INFO;

@@ -1,0 +1,3 @@
+NTSTATUS PoDeletePowerLimitRequest(
+  PVOID PowerLimitRequest
+);

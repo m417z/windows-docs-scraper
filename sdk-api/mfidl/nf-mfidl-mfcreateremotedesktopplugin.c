@@ -1,0 +1,3 @@
+HRESULT MFCreateRemoteDesktopPlugin(
+  IMFRemoteDesktopPlugin **ppPlugin
+);

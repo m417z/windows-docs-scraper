@@ -1,0 +1,5 @@
+typedef struct tagSOLE_AUTHENTICATION_INFO {
+  DWORD dwAuthnSvc;
+  DWORD dwAuthzSvc;
+  void  *pAuthInfo;
+} SOLE_AUTHENTICATION_INFO, *PSOLE_AUTHENTICATION_INFO;

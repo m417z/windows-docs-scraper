@@ -1,0 +1,3 @@
+void RTM_IPV4_MASK_FROM_LEN(
+  Len
+);

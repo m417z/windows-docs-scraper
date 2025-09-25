@@ -1,0 +1,1 @@
+KSALLOCATORMODE KsGetAllocatorMode();

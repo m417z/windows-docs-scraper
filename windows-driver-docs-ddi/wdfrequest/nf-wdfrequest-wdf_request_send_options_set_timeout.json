@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdfrequest.WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT",
+  "title": "WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function (wdfrequest.h)",
+  "description": "The WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function sets a time-out value in a driver's WDF_REQUEST_SEND_OPTIONS structure.",
+  "old-location": "wdf\\wdf_request_send_options_set_timeout.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function"
+  ],
+  "ms.keywords": "DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, kmdf.wdf_request_send_options_set_timeout, wdf.wdf_request_send_options_set_timeout, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT",
+    "wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfrequest.h"
+  ],
+  "api_name": [
+    "WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct D3D12_RESOURCE_UAV_BARRIER {
+  ID3D12Resource *pResource;
+} D3D12_RESOURCE_UAV_BARRIER;

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngReadStateEvent",
+  "title": "EngReadStateEvent function (winddi.h)",
+  "description": "The EngReadStateEvent function returns the current state of the specified event object:\\_signaled or nonsignaled.",
+  "helpviewer_keywords": [
+    "EngReadStateEvent",
+    "EngReadStateEvent function [Display Devices]",
+    "display.engreadstateevent",
+    "gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml",
+    "winddi/EngReadStateEvent"
+  ],
+  "old-location": "display\\engreadstateevent.htm",
+  "tech.root": "display",
+  "ms.assetid": "32dddcc0-4cf2-467f-b1a6-03c9892d3473",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngReadStateEvent, EngReadStateEvent function [Display Devices], display.engreadstateevent, gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml, winddi/EngReadStateEvent",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This function is available in Windows XP and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngReadStateEvent",
+    "winddi/EngReadStateEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngReadStateEvent"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "UID": "NS:swdevicedef._SW_DEVICE_CREATE_INFO",
+  "title": "SW_DEVICE_CREATE_INFO (swdevicedef.h)",
+  "description": "Describes info that PnP uses to create the software device.",
+  "helpviewer_keywords": [
+    "*PSW_DEVICE_CREATE_INFO",
+    "PSW_DEVICE_CREATE_INFO",
+    "PSW_DEVICE_CREATE_INFO structure pointer",
+    "SWDeviceCapabilitiesDriverRequired",
+    "SWDeviceCapabilitiesNoDisplayInUI",
+    "SWDeviceCapabilitiesNone",
+    "SWDeviceCapabilitiesRemovable",
+    "SWDeviceCapabilitiesSilentInstall",
+    "SW_DEVICE_CREATE_INFO",
+    "SW_DEVICE_CREATE_INFO structure",
+    "swdevice.sw_device_create_info",
+    "swdevicedef/PSW_DEVICE_CREATE_INFO",
+    "swdevicedef/SW_DEVICE_CREATE_INFO"
+  ],
+  "old-location": "swdevice\\sw_device_create_info.htm",
+  "tech.root": "swdevice",
+  "ms.assetid": "9519FD17-AB43-4C9E-BE77-9DFAC3263447",
+  "ms.date": "07/23/2024",
+  "ms.keywords": "*PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO structure pointer, SWDeviceCapabilitiesDriverRequired, SWDeviceCapabilitiesNoDisplayInUI, SWDeviceCapabilitiesNone, SWDeviceCapabilitiesRemovable, SWDeviceCapabilitiesSilentInstall, SW_DEVICE_CREATE_INFO, SW_DEVICE_CREATE_INFO structure, swdevice.sw_device_create_info, swdevicedef/PSW_DEVICE_CREATE_INFO, swdevicedef/SW_DEVICE_CREATE_INFO",
+  "req.header": "swdevicedef.h",
+  "req.include-header": "Swdevice.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SW_DEVICE_CREATE_INFO, *PSW_DEVICE_CREATE_INFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SW_DEVICE_CREATE_INFO",
+    "swdevicedef/_SW_DEVICE_CREATE_INFO",
+    "PSW_DEVICE_CREATE_INFO",
+    "swdevicedef/PSW_DEVICE_CREATE_INFO",
+    "SW_DEVICE_CREATE_INFO",
+    "swdevicedef/SW_DEVICE_CREATE_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Swdevicedef.h"
+  ],
+  "api_name": [
+    "SW_DEVICE_CREATE_INFO"
+  ]
+}

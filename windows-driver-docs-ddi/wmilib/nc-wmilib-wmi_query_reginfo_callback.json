@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wmilib.WMI_QUERY_REGINFO_CALLBACK",
+  "title": "WMI_QUERY_REGINFO_CALLBACK (wmilib.h)",
+  "description": "The DpWmiQueryReginfo routine provides information about the data blocks and event blocks to be registered by a driver. This routine is required.",
+  "old-location": "kernel\\dpwmiqueryreginfo.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WMI_QUERY_REGINFO_CALLBACK callback function"
+  ],
+  "ms.keywords": "DpWmiQueryReginfo, DpWmiQueryReginfo callback function [Kernel-Mode Driver Architecture], WMI_QUERY_REGINFO_CALLBACK, WMI_QUERY_REGINFO_CALLBACK callback, k903_61d9ad7d-1bdf-49d5-8a12-5bf0d6912ccc.xml, kernel.dpwmiqueryreginfo, wmilib/DpWmiQueryReginfo",
+  "req.header": "wmilib.h",
+  "req.include-header": "Wmilib.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WMI_QUERY_REGINFO_CALLBACK",
+    "wmilib/WMI_QUERY_REGINFO_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wmilib.h"
+  ],
+  "api_name": [
+    "WMI_QUERY_REGINFO_CALLBACK"
+  ]
+}

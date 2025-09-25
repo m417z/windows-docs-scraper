@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderNetworkConfig.GetLoggingUrl",
+  "title": "IWMReaderNetworkConfig::GetLoggingUrl (wmsdkidl.h)",
+  "description": "The GetLoggingUrl method retrieves a URL from the list of servers that receive logging information from the reader object. Use the IWMReaderNetworkConfig::GetLoggingUrl method to add servers to the list.",
+  "helpviewer_keywords": [
+    "GetLoggingUrl",
+    "GetLoggingUrl method [windows Media Format]",
+    "GetLoggingUrl method [windows Media Format]",
+    "IWMReaderNetworkConfig interface",
+    "IWMReaderNetworkConfig interface [windows Media Format]",
+    "GetLoggingUrl method",
+    "IWMReaderNetworkConfig.GetLoggingUrl",
+    "IWMReaderNetworkConfig::GetLoggingUrl",
+    "IWMReaderNetworkConfigGetLoggingUrl",
+    "wmformat.iwmreadernetworkconfig_getloggingurl",
+    "wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl"
+  ],
+  "old-location": "wmformat\\iwmreadernetworkconfig_getloggingurl.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "27c5a97b-e04b-4d15-b19a-3c0d78feee95",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetLoggingUrl, GetLoggingUrl method [windows Media Format], GetLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrl method, IWMReaderNetworkConfig.GetLoggingUrl, IWMReaderNetworkConfig::GetLoggingUrl, IWMReaderNetworkConfigGetLoggingUrl, wmformat.iwmreadernetworkconfig_getloggingurl, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderNetworkConfig::GetLoggingUrl",
+    "wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderNetworkConfig.GetLoggingUrl"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_PROCESSING_COMPLETE",
+  "title": "EVT_VMB_CHANNEL_PROCESSING_COMPLETE (vmbuskernelmodeclientlibapi.h)",
+  "description": "The EvtVmbChannelProcessingComplete callback function is invoked when a group of packets has been delivered by the EvtVmbChannelProcessPacket function, if there is a pause before delivering subsequent packets.",
+  "old-location": "netvista\\evt_vmb_channel_processing_complete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "EVT_VMB_CHANNEL_PROCESSING_COMPLETE callback function"
+  ],
+  "ms.keywords": "EVT_VMB_CHANNEL_PROCESSING_COMPLETE, EVT_VMB_CHANNEL_PROCESSING_COMPLETE callback, EvtVmbChannelProcessingComplete, EvtVmbChannelProcessingComplete callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESSING_COMPLETE, PFN_VMB_CHANNEL_PROCESSING_COMPLETE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_processing_complete, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessingComplete",
+  "req.header": "vmbuskernelmodeclientlibapi.h",
+  "req.include-header": "VmbusKernelModeClientLibApi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_VMB_CHANNEL_PROCESSING_COMPLETE",
+    "vmbuskernelmodeclientlibapi/EVT_VMB_CHANNEL_PROCESSING_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "VmbusKernelModeClientLibApi.h"
+  ],
+  "api_name": [
+    "EVT_VMB_CHANNEL_PROCESSING_COMPLETE"
+  ]
+}

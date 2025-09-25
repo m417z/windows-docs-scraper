@@ -1,0 +1,3 @@
+HRESULT SetTTL(
+  [in] DWORD dwTTL
+);

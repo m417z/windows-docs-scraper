@@ -1,0 +1,3 @@
+void MFP_GET_PLAYBACK_ENDED_EVENT(
+   pHdr
+);

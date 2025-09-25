@@ -1,0 +1,44 @@
+# InternetSetOptionExW function
+
+## Description
+
+Not supported.
+
+Implemented only as a stub that calls the [InternetSetOption](https://learn.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona) function; **InternetSetOptionEx** has no functionality of its own. Do not use this function at this time.
+
+## Parameters
+
+### `hInternet`
+
+Unused.
+
+### `dwOption`
+
+Unused.
+
+### `lpBuffer`
+
+Unused.
+
+### `dwBufferLength`
+
+Unused.
+
+### `dwFlags`
+
+Unused.
+
+## Return value
+
+This function does not return a value.
+
+## Remarks
+
+**Note** WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://learn.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+
+> [!NOTE]
+> The wininet.h header defines InternetSetOptionEx as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[InternetSetOption](https://learn.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona)

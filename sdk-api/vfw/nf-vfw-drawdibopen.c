@@ -1,0 +1,1 @@
+HDRAWDIB VFWAPI DrawDibOpen();

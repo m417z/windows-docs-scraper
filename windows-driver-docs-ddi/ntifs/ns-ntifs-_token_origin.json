@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_ORIGIN",
+  "title": "TOKEN_ORIGIN (ntifs.h)",
+  "description": "The TOKEN_ORIGIN structure contains information about the origin of the logon session.",
+  "old-location": "ifsk\\token_origin.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "TOKEN_ORIGIN structure"
+  ],
+  "ms.keywords": "*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Installable File System Drivers], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Installable File System Drivers], _TOKEN_ORIGIN, ifsk.token_origin, ntifs/PTOKEN_ORIGIN, ntifs/TOKEN_ORIGIN, securitystructures_5cc2fc36-4e83-4544-8f24-dcbf768dbb9c.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Server 2003",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_ORIGIN, *PTOKEN_ORIGIN",
+  "f1_keywords": [
+    "_TOKEN_ORIGIN",
+    "ntifs/_TOKEN_ORIGIN",
+    "PTOKEN_ORIGIN",
+    "ntifs/PTOKEN_ORIGIN",
+    "TOKEN_ORIGIN",
+    "ntifs/TOKEN_ORIGIN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_ORIGIN",
+    "PTOKEN_ORIGIN",
+    "TOKEN_ORIGIN"
+  ]
+}

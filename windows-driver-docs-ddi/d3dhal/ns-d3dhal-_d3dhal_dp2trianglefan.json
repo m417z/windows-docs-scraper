@@ -1,0 +1,54 @@
+{
+  "UID": "NS:d3dhal._D3DHAL_DP2TRIANGLEFAN",
+  "title": "_D3DHAL_DP2TRIANGLEFAN (d3dhal.h)",
+  "description": "One D3DHAL_DP2TRIANGLEFAN structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLEFAN, and is used to render a triangle fan.",
+  "old-location": "display\\d3dhal_dp2trianglefan.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DHAL_DP2TRIANGLEFAN structure"
+  ],
+  "ms.keywords": "*LPD3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN structure [Display Devices], LPD3DHAL_DP2TRIANGLEFAN, LPD3DHAL_DP2TRIANGLEFAN structure pointer [Display Devices], _D3DHAL_DP2TRIANGLEFAN, d3dhal/D3DHAL_DP2TRIANGLEFAN, d3dhal/LPD3DHAL_DP2TRIANGLEFAN, d3dstrct_6726a70e-3ff1-4a9f-ac1e-46acf9be04e9.xml, display.d3dhal_dp2trianglefan",
+  "req.header": "d3dhal.h",
+  "req.include-header": "D3dhal.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "D3DHAL_DP2TRIANGLEFAN, *LPD3DHAL_DP2TRIANGLEFAN",
+  "f1_keywords": [
+    "_D3DHAL_DP2TRIANGLEFAN",
+    "d3dhal/_D3DHAL_DP2TRIANGLEFAN",
+    "LPD3DHAL_DP2TRIANGLEFAN",
+    "d3dhal/LPD3DHAL_DP2TRIANGLEFAN",
+    "D3DHAL_DP2TRIANGLEFAN",
+    "d3dhal/D3DHAL_DP2TRIANGLEFAN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dhal.h"
+  ],
+  "api_name": [
+    "_D3DHAL_DP2TRIANGLEFAN",
+    "LPD3DHAL_DP2TRIANGLEFAN",
+    "D3DHAL_DP2TRIANGLEFAN"
+  ]
+}

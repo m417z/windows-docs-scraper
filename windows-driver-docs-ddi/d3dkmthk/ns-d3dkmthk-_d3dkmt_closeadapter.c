@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_CLOSEADAPTER {
+  D3DKMT_HANDLE hAdapter;
+} D3DKMT_CLOSEADAPTER;

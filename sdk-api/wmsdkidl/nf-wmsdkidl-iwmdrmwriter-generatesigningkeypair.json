@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMDRMWriter.GenerateSigningKeyPair",
+  "title": "IWMDRMWriter::GenerateSigningKeyPair (wmsdkidl.h)",
+  "description": "The GenerateSigningKeyPair method generates a public and private key pair that are used to sign the DRM header object.",
+  "helpviewer_keywords": [
+    "GenerateSigningKeyPair",
+    "GenerateSigningKeyPair method [windows Media Format]",
+    "GenerateSigningKeyPair method [windows Media Format]",
+    "IWMDRMWriter interface",
+    "IWMDRMWriter interface [windows Media Format]",
+    "GenerateSigningKeyPair method",
+    "IWMDRMWriter.GenerateSigningKeyPair",
+    "IWMDRMWriter::GenerateSigningKeyPair",
+    "IWMDRMWriterGenerateSigningKeyPair",
+    "wmformat.iwmdrmwriter_generatesigningkeypair",
+    "wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair"
+  ],
+  "old-location": "wmformat\\iwmdrmwriter_generatesigningkeypair.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "2ad66a22-b088-423c-b726-63bc6372f3c2",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GenerateSigningKeyPair, GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateSigningKeyPair method, IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDRMWriter::GenerateSigningKeyPair",
+    "wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMDRMWriter.GenerateSigningKeyPair"
+  ]
+}

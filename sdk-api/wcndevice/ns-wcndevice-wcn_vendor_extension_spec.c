@@ -1,0 +1,6 @@
+typedef struct tagWCN_VENDOR_EXTENSION_SPEC {
+  DWORD VendorId;
+  DWORD SubType;
+  DWORD Index;
+  DWORD Flags;
+} WCN_VENDOR_EXTENSION_SPEC;

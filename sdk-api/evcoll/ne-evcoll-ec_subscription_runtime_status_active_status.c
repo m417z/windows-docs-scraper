@@ -1,0 +1,6 @@
+typedef enum _EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS {
+  EcRuntimeStatusActiveStatusDisabled = 1,
+  EcRuntimeStatusActiveStatusActive,
+  EcRuntimeStatusActiveStatusInactive,
+  EcRuntimeStatusActiveStatusTrying
+} EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS;

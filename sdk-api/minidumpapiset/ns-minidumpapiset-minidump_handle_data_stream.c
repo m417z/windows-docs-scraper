@@ -1,0 +1,6 @@
+typedef struct _MINIDUMP_HANDLE_DATA_STREAM {
+  ULONG32 SizeOfHeader;
+  ULONG32 SizeOfDescriptor;
+  ULONG32 NumberOfDescriptors;
+  ULONG32 Reserved;
+} MINIDUMP_HANDLE_DATA_STREAM, *PMINIDUMP_HANDLE_DATA_STREAM;

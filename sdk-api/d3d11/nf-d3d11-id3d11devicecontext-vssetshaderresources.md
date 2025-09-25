@@ -1,0 +1,45 @@
+# ID3D11DeviceContext::VSSetShaderResources
+
+## Description
+
+Bind an array of shader resources to the vertex-shader stage.
+
+## Parameters
+
+### `StartSlot` [in]
+
+Type: **[UINT](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+
+Index into the device's zero-based array to begin setting shader resources to (range is from 0 to D3D11_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT - 1).
+
+### `NumViews` [in]
+
+Type: **[UINT](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+
+Number of shader resources to set. Up to a maximum of 128 slots are available for shader resources (range is from 0 to D3D11_COMMONSHADER_INPUT_RESOURCE_SLOT_COUNT - StartSlot).
+
+### `ppShaderResourceViews` [in, optional]
+
+Type: **[ID3D11ShaderResourceView](https://learn.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview)***
+
+Array of [shader resource view](https://learn.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview) interfaces to set to the device.
+
+## Remarks
+
+If an overlapping resource view is already bound to an output slot, such as a rendertarget, then this API will fill the destination shader resource slot with **NULL**.
+
+For information about creating shader-resource views, see [ID3D11Device::CreateShaderResourceView](https://learn.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createshaderresourceview).
+
+The method will hold a reference to the interfaces passed in.
+This differs from the device state behavior in Direct3D 10.
+
+In order to unbind resource slots, you must pass an array containing null values. For example, to clear the first 4 slots, use:
+
+```
+ID3D11ShaderResourceView* nullsrv[] = { nullptr, nullptr, nullptr, nullptr };
+context->VSSetShaderResources(0, 4, nullsrv);
+```
+
+## See also
+
+[ID3D11DeviceContext](https://learn.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext)

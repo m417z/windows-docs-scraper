@@ -1,0 +1,64 @@
+{
+  "UID": "NF:netfw.INetFwAuthorizedApplications.Item",
+  "title": "INetFwAuthorizedApplications::Item (netfw.h)",
+  "description": "The Item method returns the specified application if it is in the collection.",
+  "helpviewer_keywords": [
+    "INetFwAuthorizedApplications interface [ICS/ICF]",
+    "Item method",
+    "INetFwAuthorizedApplications.Item",
+    "INetFwAuthorizedApplications::Item",
+    "Item",
+    "Item method [ICS/ICF]",
+    "Item method [ICS/ICF]",
+    "INetFwAuthorizedApplications interface",
+    "ics.inetfwauthorizedapplications_item",
+    "netfw/INetFwAuthorizedApplications::Item"
+  ],
+  "old-location": "ics\\inetfwauthorizedapplications_item.htm",
+  "tech.root": "ics",
+  "ms.assetid": "3c9eac16-9ba5-43f6-b52e-4340598745d8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INetFwAuthorizedApplications::Item",
+    "netfw/INetFwAuthorizedApplications::Item"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FirewallAPI.dll",
+    "Hnetcfg.dll"
+  ],
+  "api_name": [
+    "INetFwAuthorizedApplications.Item"
+  ]
+}

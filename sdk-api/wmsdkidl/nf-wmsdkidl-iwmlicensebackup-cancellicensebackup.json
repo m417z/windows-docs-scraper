@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMLicenseBackup.CancelLicenseBackup",
+  "title": "IWMLicenseBackup::CancelLicenseBackup (wmsdkidl.h)",
+  "description": "The CancelLicenseBackup method cancels a current backup operation.",
+  "helpviewer_keywords": [
+    "CancelLicenseBackup",
+    "CancelLicenseBackup method [windows Media Format]",
+    "CancelLicenseBackup method [windows Media Format]",
+    "IWMLicenseBackup interface",
+    "IWMLicenseBackup interface [windows Media Format]",
+    "CancelLicenseBackup method",
+    "IWMLicenseBackup.CancelLicenseBackup",
+    "IWMLicenseBackup::CancelLicenseBackup",
+    "IWMLicenseBackupCancelLicenseBackup",
+    "wmformat.iwmlicensebackup_cancellicensebackup",
+    "wmsdkidl/IWMLicenseBackup::CancelLicenseBackup"
+  ],
+  "old-location": "wmformat\\iwmlicensebackup_cancellicensebackup.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "aa226875-d59f-4fac-b38b-f94727fa2f4a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "CancelLicenseBackup, CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],CancelLicenseBackup method, IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMLicenseBackup::CancelLicenseBackup",
+    "wmsdkidl/IWMLicenseBackup::CancelLicenseBackup"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMLicenseBackup.CancelLicenseBackup"
+  ]
+}

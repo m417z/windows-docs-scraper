@@ -1,0 +1,3 @@
+HRESULT TxGetText(
+  BSTR *pbstrText
+);

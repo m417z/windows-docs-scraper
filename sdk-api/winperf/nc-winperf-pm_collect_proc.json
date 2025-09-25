@@ -1,0 +1,60 @@
+{
+  "UID": "NC:winperf.PM_COLLECT_PROC",
+  "title": "PM_COLLECT_PROC (winperf.h)",
+  "description": "Collects the performance data and returns it to the consumer.",
+  "helpviewer_keywords": [
+    "CollectPerformanceData",
+    "CollectPerformanceData callback function [Perf]",
+    "PM_COLLECT_PROC",
+    "PM_COLLECT_PROC callback",
+    "base.collectperformancedata",
+    "perf.collectperformancedata",
+    "winperf/CollectPerformanceData"
+  ],
+  "old-location": "perf\\collectperformancedata.htm",
+  "tech.root": "perf",
+  "ms.assetid": "9903eb4b-017b-47df-81c5-98c4e1ac697d",
+  "ms.date": "09/24/2020",
+  "ms.keywords": "CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData",
+  "req.header": "winperf.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PM_COLLECT_PROC",
+    "winperf/PM_COLLECT_PROC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winperf.h"
+  ],
+  "api_name": [
+    "CollectPerformanceData"
+  ]
+}

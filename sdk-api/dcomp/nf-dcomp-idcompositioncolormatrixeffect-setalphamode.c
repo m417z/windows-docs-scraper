@@ -1,0 +1,3 @@
+HRESULT SetAlphaMode(
+  [in] D2D1_COLORMATRIX_ALPHA_MODE mode
+);

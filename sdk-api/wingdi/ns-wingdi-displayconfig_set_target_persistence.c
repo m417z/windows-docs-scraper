@@ -1,0 +1,10 @@
+typedef struct DISPLAYCONFIG_SET_TARGET_PERSISTENCE {
+  DISPLAYCONFIG_DEVICE_INFO_HEADER header;
+  union {
+    struct {
+      UINT32 bootPersistenceOn : 1;
+      UINT32 reserved : 31;
+    } DUMMYSTRUCTNAME;
+    UINT32 value;
+  } DUMMYUNIONNAME;
+} DISPLAYCONFIG_SET_TARGET_PERSISTENCE;

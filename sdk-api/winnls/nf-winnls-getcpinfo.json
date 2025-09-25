@@ -1,0 +1,67 @@
+{
+  "UID": "NF:winnls.GetCPInfo",
+  "title": "GetCPInfo function (winnls.h)",
+  "description": "Retrieves information about any valid installed or available code page. (GetCPInfo)",
+  "helpviewer_keywords": [
+    "GetCPInfo",
+    "GetCPInfo function [Internationalization for Windows Applications]",
+    "_win32_GetCPInfo",
+    "intl.getcpinfo",
+    "winnls/GetCPInfo"
+  ],
+  "old-location": "intl\\getcpinfo.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "f7401cd5-d0ed-49b1-b8fc-dda8df99e6b6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCPInfo, GetCPInfo function [Internationalization for Windows Applications], _win32_GetCPInfo, intl.getcpinfo, winnls/GetCPInfo",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetCPInfo",
+    "winnls/GetCPInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-localization-l1-2-4.dll",
+    "api-ms-win-core-localization-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Localization-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Localization-l1-2-0.dll",
+    "API-MS-Win-Core-Localization-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Localization-L1-2-2.dll"
+  ],
+  "api_name": [
+    "GetCPInfo"
+  ]
+}

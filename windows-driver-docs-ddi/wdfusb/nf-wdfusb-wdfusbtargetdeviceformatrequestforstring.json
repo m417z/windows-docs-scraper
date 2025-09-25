@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfusb.WdfUsbTargetDeviceFormatRequestForString",
+  "title": "WdfUsbTargetDeviceFormatRequestForString function (wdfusb.h)",
+  "description": "The WdfUsbTargetDeviceFormatRequestForString method builds a request for the USB string descriptor that is associated with a USB device's string index value.",
+  "old-location": "wdf\\wdfusbtargetdeviceformatrequestforstring.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfUsbTargetDeviceFormatRequestForString function"
+  ],
+  "ms.keywords": "DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString method, kmdf.wdfusbtargetdeviceformatrequestforstring, wdf.wdfusbtargetdeviceformatrequestforstring, wdfusb/WdfUsbTargetDeviceFormatRequestForString",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2, RequestFormattedValid, RequestForUrbXrb, RequestSendAndForgetNoFormatting, RequestSendAndForgetNoFormatting2, UsbKmdfIrql, UsbKmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfUsbTargetDeviceFormatRequestForString",
+    "wdfusb/WdfUsbTargetDeviceFormatRequestForString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfUsbTargetDeviceFormatRequestForString"
+  ]
+}

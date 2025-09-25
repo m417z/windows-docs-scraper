@@ -1,0 +1,49 @@
+{
+  "UID": "NS:wsk._WSK_BUF_LIST",
+  "tech.root": "netvista",
+  "title": "WSK_BUF_LIST",
+  "ms.date": "08/02/2021",
+  "targetos": "Windows",
+  "description": "The WSK_BUF_LIST structure is used to send multiple datagrams via a single call to WskSendMessages.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wsk.h",
+  "req.include-header": "wsk.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "WSK_BUF_LIST, *PWSK_BUF_LIST",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wsk.h"
+  ],
+  "api_name": [
+    "_WSK_BUF_LIST",
+    "PWSK_BUF_LIST",
+    "WSK_BUF_LIST"
+  ],
+  "f1_keywords": [
+    "_WSK_BUF_LIST",
+    "wsk/_WSK_BUF_LIST",
+    "PWSK_BUF_LIST",
+    "wsk/PWSK_BUF_LIST",
+    "WSK_BUF_LIST",
+    "wsk/WSK_BUF_LIST"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

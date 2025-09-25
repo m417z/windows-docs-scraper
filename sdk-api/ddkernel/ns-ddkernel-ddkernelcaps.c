@@ -1,0 +1,5 @@
+typedef struct _DDKERNELCAPS {
+  DWORD dwSize;
+  DWORD dwCaps;
+  DWORD dwIRQCaps;
+} *LPDDKERNELCAPS, DDKERNELCAPS;

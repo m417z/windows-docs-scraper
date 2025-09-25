@@ -1,0 +1,48 @@
+{
+  "UID": "NC:spbcx.EVT_SPB_CONTROLLER_UNLOCK",
+  "title": "EVT_SPB_CONTROLLER_UNLOCK (spbcx.h)",
+  "description": "An SPB controller driver's EvtSpbControllerUnlock event callback function unlocks the SPB controller, which was locked by a previous call to the EvtSpbControllerLock event callback function.",
+  "old-location": "spb\\evtspbcontrollerunlock.htm",
+  "tech.root": "SPB",
+  "ms.date": "09/14/2021",
+  "keywords": [
+    "EVT_SPB_CONTROLLER_UNLOCK callback function"
+  ],
+  "ms.keywords": "EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock",
+  "req.header": "spbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SPB_CONTROLLER_UNLOCK",
+    "spbcx/EVT_SPB_CONTROLLER_UNLOCK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Spbcx.h"
+  ],
+  "api_name": [
+    "EVT_SPB_CONTROLLER_UNLOCK"
+  ]
+}

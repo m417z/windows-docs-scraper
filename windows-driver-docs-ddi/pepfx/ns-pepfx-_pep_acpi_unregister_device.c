@@ -1,0 +1,4 @@
+typedef struct _PEP_ACPI_UNREGISTER_DEVICE {
+  [in] PEPHANDLE DeviceHandle;
+  [in] ULONG     InputFlags;
+} PEP_ACPI_UNREGISTER_DEVICE, *PPEP_ACPI_UNREGISTER_DEVICE;

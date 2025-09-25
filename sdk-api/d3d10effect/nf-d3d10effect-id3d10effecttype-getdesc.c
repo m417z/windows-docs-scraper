@@ -1,0 +1,3 @@
+HRESULT GetDesc(
+  [in] D3D10_EFFECT_TYPE_DESC *pDesc
+);

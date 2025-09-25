@@ -1,0 +1,58 @@
+{
+  "UID": "NF:uiautomationcoreapi.UiaRaiseActiveTextPositionChangedEvent",
+  "title": "UiaRaiseActiveTextPositionChangedEvent function (uiautomationcoreapi.h)",
+  "description": "Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text. (UiaRaiseActiveTextPositionChangedEvent)",
+  "helpviewer_keywords": [
+    "UiaRaiseActiveTextPositionChangedEvent",
+    "UiaRaiseActiveTextPositionChangedEvent function [Windows Accessibility]",
+    "uiautomationcoreapi/UiaRaiseActiveTextPositionChangedEvent",
+    "winauto.uiauto_UiaRaiseActiveTextPositionChangedEventFunction"
+  ],
+  "old-location": "winauto\\uiauto_UiaRaiseActiveTextPositionChangedEventFunction.htm",
+  "tech.root": "WinAuto",
+  "ms.date": "09/24/2020",
+  "ms.keywords": "UiaRaiseActiveTextPositionChangedEvent, UiaRaiseActiveTextPositionChangedEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseActiveTextPositionChangedEvent, winauto.uiauto_UiaRaiseActiveTextPositionChangedEventFunction",
+  "req.header": "uiautomationcoreapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uiautomationcore.lib",
+  "req.dll": "Uiautomationcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "UiaRaiseActiveTextPositionChangedEvent",
+    "uiautomationcoreapi/UiaRaiseActiveTextPositionChangedEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Uiautomationcore.dll",
+    "Ext-MS-Win-UIaCore-l1-1-2.dll",
+    "Ext-MS-Win-UiaCore-L1-1-3.dll"
+  ],
+  "api_name": [
+    "UiaRaiseActiveTextPositionChangedEvent"
+  ]
+}

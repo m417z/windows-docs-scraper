@@ -1,0 +1,3 @@
+typedef struct _DD_SURFACE_INT {
+  PDD_SURFACE_LOCAL lpLcl;
+} *PDD_SURFACE_INT, DD_SURFACE_INT;

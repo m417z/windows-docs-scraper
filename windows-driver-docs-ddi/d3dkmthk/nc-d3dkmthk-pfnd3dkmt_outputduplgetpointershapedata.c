@@ -1,0 +1,6 @@
+PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA Pfnd3dkmtOutputduplgetpointershapedata;
+
+NTSTATUS Pfnd3dkmtOutputduplgetpointershapedata(
+  D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA *unnamedParam1
+)
+{...}

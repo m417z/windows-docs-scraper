@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d12umddi.PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063",
+  "title": "PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063",
+  "description": "When an application changes background processing mode, PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063 is called to inform the UMD of the new settings.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063 callback function"
+  ],
+  "req.header": "d3d12umddi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "D3D12 Release 6, Build rev 3., 19H1",
+  "f1_keywords": [
+    "PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063",
+    "d3d12umddi/PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d12umddi.h"
+  ],
+  "api_name": [
+    "PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

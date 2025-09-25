@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddstor._STORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+  "title": "STORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+  "description": "The **STORAGE_PROTOCOL_SPECIFIC_DATA_EXT** structure describes the protocol-specific device data for IOCTL_STORAGE_QUERY_PROPERTY and IOCTL_STORAGE_SET_PROPERTY requests.",
+  "tech.root": "storage",
+  "ms.date": "02/21/2024",
+  "keywords": [
+    "STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure"
+  ],
+  "ms.keywords": "STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT,",
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_STORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+    "ntddstor/_STORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+    "PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+    "ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+    "STORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+    "ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA_EXT"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_STORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+    "PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT",
+    "STORAGE_PROTOCOL_SPECIFIC_DATA_EXT"
+  ]
+}

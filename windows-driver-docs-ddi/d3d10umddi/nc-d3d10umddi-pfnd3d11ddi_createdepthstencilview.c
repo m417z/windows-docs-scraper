@@ -1,0 +1,9 @@
+PFND3D11DDI_CREATEDEPTHSTENCILVIEW Pfnd3d11ddiCreatedepthstencilview;
+
+VOID Pfnd3d11ddiCreatedepthstencilview(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D11DDIARG_CREATEDEPTHSTENCILVIEW *unnamedParam2,
+  D3D10DDI_HDEPTHSTENCILVIEW unnamedParam3,
+  D3D10DDI_HRTDEPTHSTENCILVIEW unnamedParam4
+)
+{...}

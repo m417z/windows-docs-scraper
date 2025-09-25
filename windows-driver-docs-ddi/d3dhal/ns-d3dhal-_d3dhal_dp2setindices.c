@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2SETINDICES {
+  DWORD dwVBHandle;
+  DWORD dwStride;
+} D3DHAL_DP2SETINDICES;

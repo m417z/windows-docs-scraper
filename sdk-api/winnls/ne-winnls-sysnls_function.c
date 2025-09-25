@@ -1,0 +1,3 @@
+typedef enum SYSNLS_FUNCTION {
+  COMPARE_STRING = 0x0001
+} ;

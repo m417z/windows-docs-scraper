@@ -1,0 +1,4 @@
+typedef struct _DHCP_FILTER_ENUM_INFO {
+  DWORD                NumElements;
+  LPDHCP_FILTER_RECORD pEnumRecords;
+} DHCP_FILTER_ENUM_INFO, *LPDHCP_FILTER_ENUM_INFO;

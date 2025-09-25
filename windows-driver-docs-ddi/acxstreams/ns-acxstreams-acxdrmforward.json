@@ -1,0 +1,49 @@
+{
+  "UID": "NS:acxstreams._ACXDRMFORWARD",
+  "tech.root": "audio",
+  "title": "ACXDRMFORWARD",
+  "ms.date": "07/28/2022",
+  "targetos": "Windows",
+  "description": "The ACXDRMFORWARD structure contains the information that the DRM system driver needs in order to forward a DRM content ID to a device that handles protected content.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxstreams.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "ACXDRMFORWARD, *PACXDRMFORWARD",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxstreams.h"
+  ],
+  "api_name": [
+    "_ACXDRMFORWARD",
+    "PACXDRMFORWARD",
+    "ACXDRMFORWARD"
+  ],
+  "f1_keywords": [
+    "_ACXDRMFORWARD",
+    "acxstreams/_ACXDRMFORWARD",
+    "PACXDRMFORWARD",
+    "acxstreams/PACXDRMFORWARD",
+    "ACXDRMFORWARD",
+    "acxstreams/ACXDRMFORWARD"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

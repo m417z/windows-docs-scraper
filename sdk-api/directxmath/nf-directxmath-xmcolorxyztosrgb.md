@@ -1,0 +1,33 @@
+# XMColorXYZToSRGB function
+
+## Description
+
+Converts XYZ color values to SRGB color values.
+
+## Parameters
+
+### `xyz` [in]
+
+Color value to convert with the tristimulus values of X, Y, and Z in the corresponding element, and the W element with Alpha. Each has a range of 0.0 to 1.0.
+
+## Return value
+
+ Returns the converted color value. X element is Red, Y element is Green, Z element is Blue, and W element is Alpha (a copy of xyz.w). Each has a range of 0.0 to 1.0 in the linear sRGB colorspace.
+
+## Remarks
+
+Uses the CIE XYZ colorspace.
+
+The sRGB linear color space is defined as IEC 61966-2-1:1999.
+
+**Note** `XMColorXYZToSRGB` is new for DirectXMath and is not available for XNAMath 2.x.
+
+### Platform Requirements
+
+Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
+
+## See also
+
+[DirectXMath Library Color Functions](https://learn.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-color)
+
+[XMColorSRGBToXYZ](https://learn.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcolorsrgbtoxyz)

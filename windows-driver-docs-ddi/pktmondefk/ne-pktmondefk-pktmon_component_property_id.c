@@ -1,0 +1,20 @@
+typedef enum _PKTMON_COMPONENT_PROPERTY_ID {
+  PktMonCompProp_IfIndex,
+  PktMonCompProp_MiniportIfIndex,
+  PktMonCompProp_LowerIfIndex,
+  PktMonCompProp_IfGuid,
+  PktMonCompProp_NdisMedium,
+  PktMonCompProp_PhysAddress,
+  PktMonCompProp_EtherType,
+  PktMonCompProp_OptDataPath,
+  PktMonCompProp_NdisObject,
+  PktMonCompProp_VMSwitchName,
+  PktMonCompProp_VmsExtIfIndex,
+  PktMonCompProp_LowestIfIndex,
+  PktMonCompProp_IpAddress,
+  PktMonCompProp_IpIfIndex,
+  PktMonCompProp_Vsid,
+  PktMonCompProp_Vlan,
+  PktMonCompProp_CompartmentId,
+  PktMonCompProp_Max
+} PKTMON_COMPONENT_PROPERTY_ID;

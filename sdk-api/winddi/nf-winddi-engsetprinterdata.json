@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngSetPrinterData",
+  "title": "EngSetPrinterData function (winddi.h)",
+  "description": "The EngSetPrinterData function is obsolete in Windows 2000 and later. In earlier versions of Windows EngSetPrinterData sets the configuration data for the specified printer.",
+  "helpviewer_keywords": [
+    "EngSetPrinterData",
+    "EngSetPrinterData function [Display Devices]",
+    "display.engsetprinterdata",
+    "gdifncs_5d3c9c7e-f688-4361-8aee-545c7244921a.xml",
+    "winddi/EngSetPrinterData"
+  ],
+  "old-location": "display\\engsetprinterdata.htm",
+  "tech.root": "display",
+  "ms.assetid": "8e6ff116-8735-49b1-a67c-70f5d65efb0f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngSetPrinterData, EngSetPrinterData function [Display Devices], display.engsetprinterdata, gdifncs_5d3c9c7e-f688-4361-8aee-545c7244921a.xml, winddi/EngSetPrinterData",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngSetPrinterData",
+    "winddi/EngSetPrinterData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngSetPrinterData"
+  ]
+}

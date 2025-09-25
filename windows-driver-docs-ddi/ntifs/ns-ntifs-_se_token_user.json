@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ntifs._SE_TOKEN_USER",
+  "title": "SE_TOKEN_USER (ntifs.h)",
+  "description": "The SE_TOKEN_USER structure holds the maximum-sized valid user SID that can be returned by SeQueryInformationToken, GetTokenInformation, or ZwQueryInformationToken with the TokenUser information class. This structure is suitable for stack allocation.",
+  "old-location": "ifsk\\se_token_user.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "SE_TOKEN_USER structure"
+  ],
+  "ms.keywords": "PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SE_TOKEN_USER, PSE_TOKEN_USER",
+  "f1_keywords": [
+    "_SE_TOKEN_USER",
+    "ntifs/_SE_TOKEN_USER",
+    "SE_TOKEN_USER",
+    "ntifs/SE_TOKEN_USER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SE_TOKEN_USER",
+    "SE_TOKEN_USER"
+  ]
+}

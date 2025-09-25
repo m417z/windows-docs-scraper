@@ -1,0 +1,5 @@
+typedef struct SENSOR_PROPERTY_LIST {
+  ULONG       AllocatedSizeInBytes;
+  ULONG       Count;
+  PROPERTYKEY List[1];
+} SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST;

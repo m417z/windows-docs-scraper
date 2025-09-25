@@ -1,0 +1,9 @@
+typedef struct _PROCESS_MITIGATION_SEHOP_POLICY {
+  union {
+    ULONG Flags;
+    struct {
+      ULONG EnableSehop : 1;
+      ULONG ReservedFlags : 31;
+    } DUMMYSTRUCTNAME;
+  } DUMMYUNIONNAME;
+} PROCESS_MITIGATION_SEHOP_POLICY, *PPROCESS_MITIGATION_SEHOP_POLICY;

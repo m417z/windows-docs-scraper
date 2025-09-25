@@ -1,0 +1,4 @@
+typedef struct _WWAN_RADIO_STATE {
+  WWAN_RADIO HwRadioState;
+  WWAN_RADIO SwRadioState;
+} WWAN_RADIO_STATE, *PWWAN_RADIO_STATE;

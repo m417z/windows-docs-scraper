@@ -1,0 +1,4 @@
+typedef struct DXGI_OUTDUPL_POINTER_POSITION {
+  POINT Position;
+  BOOL  Visible;
+} DXGI_OUTDUPL_POINTER_POSITION;

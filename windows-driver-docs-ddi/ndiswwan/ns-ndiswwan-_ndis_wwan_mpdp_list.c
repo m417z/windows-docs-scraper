@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_MPDP_LIST {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_LIST_HEADER   ChildInterfaceList;
+} NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.PROTOCOL_CM_REG_SAP",
+  "title": "PROTOCOL_CM_REG_SAP (ndis.h)",
+  "description": "The ProtocolCmRegisterSap function is a required function that is called by NDIS to request that a call manager register a SAP (service access point) on behalf of a connection-oriented client.Note  You must declare the function by using the PROTOCOL_CM_REG_SAP type. For more information, see the following Examples section.",
+  "old-location": "netvista\\protocolcmregistersap.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PROTOCOL_CM_REG_SAP callback function"
+  ],
+  "ms.keywords": "PROTOCOL_CM_REG_SAP, PROTOCOL_CM_REG_SAP callback, ProtocolCmRegisterSap, ProtocolCmRegisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_aaaefdc1-4954-4911-84a4-1f82141ccca6.xml, ndis/ProtocolCmRegisterSap, netvista.protocolcmregistersap",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see    ProtocolCmRegisterSap (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    ProtocolCmRegisterSap (NDIS   5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PROTOCOL_CM_REG_SAP",
+    "ndis/PROTOCOL_CM_REG_SAP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "PROTOCOL_CM_REG_SAP"
+  ]
+}

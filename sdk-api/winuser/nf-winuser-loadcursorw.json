@@ -1,0 +1,73 @@
+{
+  "UID": "NF:winuser.LoadCursorW",
+  "title": "LoadCursorW function (winuser.h)",
+  "description": "Loads the specified cursor resource from the executable (.EXE) file associated with an application instance. (Unicode)",
+  "helpviewer_keywords": [
+    "LoadCursor",
+    "LoadCursor function [Menus and Other Resources]",
+    "LoadCursorW",
+    "_win32_LoadCursor",
+    "_win32_loadcursor_cpp",
+    "menurc.loadcursor",
+    "winui._win32_loadcursor",
+    "winuser/LoadCursor",
+    "winuser/LoadCursorW"
+  ],
+  "old-location": "menurc\\loadcursor.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\cursors\\cursorreference\\cursorfunctions\\loadcursor.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LoadCursor, LoadCursor function [Menus and Other Resources], LoadCursorA, LoadCursorW, _win32_LoadCursor, _win32_loadcursor_cpp, menurc.loadcursor, winui._win32_loadcursor, winuser/LoadCursor, winuser/LoadCursorA, winuser/LoadCursorW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "LoadCursorW (Unicode) and LoadCursorA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LoadCursorW",
+    "winuser/LoadCursorW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-cursor-l1-1-1.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-GUI-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-GUI-l1-1-1.dll",
+    "Ext-MS-Win-NTUser-GUI-l1-2-0.dll",
+    "api-ms-win-ntuser-ie-gui-l1-1-0.dll",
+    "ie_stubs.dll",
+    "ext-ms-win-ntuser-gui-l1-2-1.dll",
+    "Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll",
+    "MinUser.dll"
+  ],
+  "api_name": [
+    "LoadCursor",
+    "LoadCursorA",
+    "LoadCursorW"
+  ]
+}

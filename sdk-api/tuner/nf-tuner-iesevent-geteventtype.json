@@ -1,0 +1,62 @@
+{
+  "UID": "NF:tuner.IESEvent.GetEventType",
+  "title": "IESEvent::GetEventType (tuner.h)",
+  "description": "Gets the GUID that identifies an event that is derived from the IESEvent interface. The GUID is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.",
+  "helpviewer_keywords": [
+    "GetEventType",
+    "GetEventType method [Microsoft TV Technologies]",
+    "GetEventType method [Microsoft TV Technologies]",
+    "IESEvent interface",
+    "IESEvent interface [Microsoft TV Technologies]",
+    "GetEventType method",
+    "IESEvent.GetEventType",
+    "IESEvent::GetEventType",
+    "mstv.iesevent_geteventtype",
+    "tuner/IESEvent::GetEventType"
+  ],
+  "old-location": "mstv\\iesevent_geteventtype.htm",
+  "tech.root": "mstv",
+  "ms.assetid": "8418116a-2393-4a1b-8c5b-2356d373e426",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetEventType, GetEventType method [Microsoft TV Technologies], GetEventType method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventType method, IESEvent.GetEventType, IESEvent::GetEventType, mstv.iesevent_geteventtype, tuner/IESEvent::GetEventType",
+  "f1_keywords": [
+    "tuner/IESEvent.GetEventType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "req.header": "tuner.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows7 [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Tuner.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "tuner.h"
+  ],
+  "api_name": [
+    "IESEvent.GetEventType"
+  ],
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1"
+}

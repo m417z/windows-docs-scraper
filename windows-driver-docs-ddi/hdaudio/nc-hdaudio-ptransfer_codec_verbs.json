@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PTRANSFER_CODEC_VERBS",
+  "title": "PTRANSFER_CODEC_VERBS (hdaudio.h)",
+  "description": "The TransferCodecVerbs routine transfers one or more commands to a codec or codecs and retrieves the responses to those commands.The function pointer type for a TransferCodecVerbs routine is defined as follows.",
+  "old-location": "audio\\transfercodecverbs.htm",
+  "tech.root": "audio",
+  "ms.date": "07/25/2023",
+  "keywords": [
+    "PTRANSFER_CODEC_VERBS callback function"
+  ],
+  "ms.keywords": "PTRANSFER_CODEC_VERBS, PTRANSFER_CODEC_VERBS callback, TransferCodecVerbs, TransferCodecVerbs callback function [Audio Devices], aud-prop2_120467b8-2871-49f5-9e5a-0715505e786e.xml, audio.transfercodecverbs, hdaudio/TransferCodecVerbs",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PTRANSFER_CODEC_VERBS",
+    "hdaudio/PTRANSFER_CODEC_VERBS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PTRANSFER_CODEC_VERBS"
+  ]
+}

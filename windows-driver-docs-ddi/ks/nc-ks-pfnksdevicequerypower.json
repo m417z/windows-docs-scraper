@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSDEVICEQUERYPOWER",
+  "title": "PFNKSDEVICEQUERYPOWER (ks.h)",
+  "description": "AVStream calls a minidriver's AVStrMiniDeviceQueryPower routine when it receives an IRP_MN_QUERY_POWER request.",
+  "old-location": "stream\\avstrminidevicequerypower.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSDEVICEQUERYPOWER callback function"
+  ],
+  "ms.keywords": "AVStrMiniDeviceQueryPower, AVStrMiniDeviceQueryPower routine [Streaming Media Devices], PFNKSDEVICEQUERYPOWER, avstclbk_47f0fecd-9906-4582-9f1d-bb80a469ffa6.xml, ks/AVStrMiniDeviceQueryPower, stream.avstrminidevicequerypower",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSDEVICEQUERYPOWER",
+    "ks/PFNKSDEVICEQUERYPOWER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSDEVICEQUERYPOWER"
+  ]
+}

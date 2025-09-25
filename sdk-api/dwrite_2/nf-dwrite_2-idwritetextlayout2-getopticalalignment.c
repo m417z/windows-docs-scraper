@@ -1,0 +1,1 @@
+DWRITE_OPTICAL_ALIGNMENT GetOpticalAlignment();

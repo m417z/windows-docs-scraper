@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdfrequest.WdfRequestGetRequestorProcessId",
+  "title": "WdfRequestGetRequestorProcessId function (wdfrequest.h)",
+  "description": "The WdfRequestGetRequestorProcessId method retrieves the identifier of the process that sent an I/O request.",
+  "old-location": "wdf\\wdfrequestgetrequestorprocessid.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfRequestGetRequestorProcessId function"
+  ],
+  "ms.keywords": "WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, wdf.wdfrequestgetrequestorprocessid, wdfrequest/WdfRequestGetRequestorProcessId",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.21,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.lib",
+  "req.dll": "WUDFx02000.dll",
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfRequestGetRequestorProcessId",
+    "wdfrequest/WdfRequestGetRequestorProcessId"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WUDFx02000.dll"
+  ],
+  "api_name": [
+    "WdfRequestGetRequestorProcessId"
+  ]
+}

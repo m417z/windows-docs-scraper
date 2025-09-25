@@ -1,0 +1,7 @@
+DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 DxgkddiSetvidpnsourceaddresswithmultiplaneoverlay2;
+
+NTSTATUS DxgkddiSetvidpnsourceaddresswithmultiplaneoverlay2(
+       IN_CONST_HANDLE hAdapter,
+  [in] IN_CONST_PDXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 pSetVidPnSourceAddressWithMultiPlaneOverlay
+)
+{...}

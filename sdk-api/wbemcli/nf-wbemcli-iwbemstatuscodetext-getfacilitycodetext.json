@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wbemcli.IWbemStatusCodeText.GetFacilityCodeText",
+  "title": "IWbemStatusCodeText::GetFacilityCodeText (wbemcli.h)",
+  "description": "The IWbemStatusCodeText::GetFacilityCodeText method returns the name of the subsystem where the error occurred, such as &quot;Windows&quot;, &quot;WBEM&quot;, &quot;SSPI&quot;, or &quot;RPC&quot;.",
+  "helpviewer_keywords": [
+    "GetFacilityCodeText",
+    "GetFacilityCodeText method [Windows Management Instrumentation]",
+    "GetFacilityCodeText method [Windows Management Instrumentation]",
+    "IWbemStatusCodeText interface",
+    "IWbemStatusCodeText interface [Windows Management Instrumentation]",
+    "GetFacilityCodeText method",
+    "IWbemStatusCodeText.GetFacilityCodeText",
+    "IWbemStatusCodeText::GetFacilityCodeText",
+    "_hmm_iwbemstatuscodetext_getfacilitycodetext",
+    "wbemcli/IWbemStatusCodeText::GetFacilityCodeText",
+    "wmi.iwbemstatuscodetext_getfacilitycodetext"
+  ],
+  "old-location": "wmi\\iwbemstatuscodetext_getfacilitycodetext.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "831f8eb4-3dcd-42ec-aa43-309360e9a5ce",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetFacilityCodeText, GetFacilityCodeText method [Windows Management Instrumentation], GetFacilityCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetFacilityCodeText method, IWbemStatusCodeText.GetFacilityCodeText, IWbemStatusCodeText::GetFacilityCodeText, _hmm_iwbemstatuscodetext_getfacilitycodetext, wbemcli/IWbemStatusCodeText::GetFacilityCodeText, wmi.iwbemstatuscodetext_getfacilitycodetext",
+  "req.header": "wbemcli.h",
+  "req.include-header": "Wbemidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wbemuuid.lib",
+  "req.dll": "Wmiutils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWbemStatusCodeText::GetFacilityCodeText",
+    "wbemcli/IWbemStatusCodeText::GetFacilityCodeText"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmiutils.dll"
+  ],
+  "api_name": [
+    "IWbemStatusCodeText.GetFacilityCodeText"
+  ]
+}

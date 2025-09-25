@@ -1,0 +1,50 @@
+{
+  "UID": "NC:prminterface.PRM_QUERY_HANDLER",
+  "tech.root": "kernel",
+  "title": "PRM_QUERY_HANDLER",
+  "ms.date": "02/05/2024",
+  "targetos": "Windows",
+  "description": "Queries for the presence of a specific PRM handler.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "prminterface.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= HIGH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "prminterface.h"
+  ],
+  "api_name": [
+    "PRM_QUERY_HANDLER"
+  ],
+  "f1_keywords": [
+    "PRM_QUERY_HANDLER",
+    "prminterface/PRM_QUERY_HANDLER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "PRM_QUERY_HANDLER"
+  ]
+}

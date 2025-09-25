@@ -1,0 +1,50 @@
+# DRMCALLBACK callback function
+
+## Description
+
+>[!Note]
+>The AD RMS SDK leveraging functionality exposed by the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or unavailable in subsequent versions. Instead, use [Active Directory Rights Management Services SDK 2.1](https://learn.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal), which leverages functionality exposed by the client in Msipc.dll.
+
+Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.
+
+## Parameters
+
+### `unnamedParam1`
+
+Specifies the action being performed. This can be one of the [DRM_STATUS_MSG](https://learn.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drm_status_msg) enumeration values.
+
+### `unnamedParam2`
+
+The status of the current action.
+
+### -param
+
+An application-defined value, such as a pointer to a callback function or a pointer to an event handle.
+
+#### - pvParam
+
+This parameter depends on the action being processed. For more information, see the specific message value in the [DRM_STATUS_MSG](https://learn.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drm_status_msg) enumeration.
+
+## Return value
+
+ If the function succeeds, the function returns S_OK.
+
+If the function fails, it returns an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](https://learn.microsoft.com/windows/desktop/SecCrypto/common-hresult-values).
+
+## Remarks
+
+The following asynchronous AD RMS functions use a callback function:
+
+* [DRMCreateClientSession](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession)
+* [DRMGetSignedIssuanceLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetsignedissuancelicense)
+* [DRMAcquireAdvisories](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquireadvisories)
+* [DRMAcquireLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense)
+* [DRMActivate](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate)
+
+## See also
+
+[Creating a Callback Function](https://learn.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function)
+
+[End-User License Callback Example](https://learn.microsoft.com/previous-versions/windows/desktop/adrms_sdk/end-user-license-callback-example)
+
+[Issuance License Callback Example](https://learn.microsoft.com/previous-versions/windows/desktop/adrms_sdk/issuance-license-callback-example)

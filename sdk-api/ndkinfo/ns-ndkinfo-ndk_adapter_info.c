@@ -1,0 +1,24 @@
+typedef struct _NDK_ADAPTER_INFO {
+  NDK_VERSION         Version;
+  UINT32              VendorId;
+  UINT32              DeviceId;
+  SIZE_T              MaxRegistrationSize;
+  SIZE_T              MaxWindowSize;
+  ULONG               FRMRPageCount;
+  ULONG               MaxInitiatorRequestSge;
+  ULONG               MaxReceiveRequestSge;
+  ULONG               MaxReadRequestSge;
+  ULONG               MaxTransferLength;
+  ULONG               MaxInlineDataSize;
+  ULONG               MaxInboundReadLimit;
+  ULONG               MaxOutboundReadLimit;
+  ULONG               MaxReceiveQueueDepth;
+  ULONG               MaxInitiatorQueueDepth;
+  ULONG               MaxSrqDepth;
+  ULONG               MaxCqDepth;
+  ULONG               LargeRequestThreshold;
+  ULONG               MaxCallerData;
+  ULONG               MaxCalleeData;
+  ULONG               AdapterFlags;
+  NDK_RDMA_TECHNOLOGY RdmaTechnology;
+} NDK_ADAPTER_INFO;

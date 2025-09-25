@@ -1,0 +1,3 @@
+NETADAPTER WifiWakeSourceGetAdapter(
+  WIFIWAKESOURCE WakeSource
+);

@@ -1,0 +1,71 @@
+{
+  "UID": "NS:npapi._NOTIFYADD",
+  "title": "NOTIFYADD (npapi.h)",
+  "description": "The NOTIFYADD structure contains the details of a network connect operation. It is used by the AddConnectNotify function.",
+  "helpviewer_keywords": [
+    "*LPNOTIFYADD",
+    "CONNECT_INTERACTIVE",
+    "CONNECT_PROMPT",
+    "CONNECT_TEMPORARY",
+    "CONNECT_UPDATE_PROFILE",
+    "CONNECT_UPDATE_RECENT",
+    "LPNOTIFYADD",
+    "LPNOTIFYADD structure pointer [Security]",
+    "NOTIFYADD",
+    "NOTIFYADD structure [Security]",
+    "_mnp_notifyadd",
+    "npapi/LPNOTIFYADD",
+    "npapi/NOTIFYADD",
+    "security.notifyadd"
+  ],
+  "old-location": "security\\notifyadd.htm",
+  "tech.root": "security",
+  "ms.assetid": "23698bd9-12f6-4c1f-b833-bd5fddeba048",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, LPNOTIFYADD, LPNOTIFYADD structure pointer [Security], NOTIFYADD, NOTIFYADD structure [Security], _mnp_notifyadd, npapi/LPNOTIFYADD, npapi/NOTIFYADD, security.notifyadd",
+  "req.header": "npapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NOTIFYADD, *LPNOTIFYADD",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_NOTIFYADD",
+    "npapi/_NOTIFYADD",
+    "LPNOTIFYADD",
+    "npapi/LPNOTIFYADD",
+    "NOTIFYADD",
+    "npapi/NOTIFYADD"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Npapi.h"
+  ],
+  "api_name": [
+    "NOTIFYADD"
+  ]
+}

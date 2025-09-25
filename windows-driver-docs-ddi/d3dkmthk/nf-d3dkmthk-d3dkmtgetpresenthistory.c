@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetPresentHistory(
+  D3DKMT_GETPRESENTHISTORY *unnamedParam1
+);

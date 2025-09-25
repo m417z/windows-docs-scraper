@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_INITIALIZE",
+  "title": "MINIPORT_INITIALIZE (ndis.h)",
+  "description": "NDIS calls a miniport driver's MiniportInitializeEx function to initialize a miniport adapter for network I/O operations.",
+  "old-location": "netvista\\miniportinitializeex.htm",
+  "tech.root": "netvista",
+  "ms.date": "07/23/2025",
+  "keywords": [
+    "MINIPORT_INITIALIZE callback function"
+  ],
+  "ms.keywords": "MINIPORT_INITIALIZE, MINIPORT_INITIALIZE callback, MiniportInitializeEx, MiniportInitializeEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_d98605bf-4032-4cfe-8529-2d0bebc9e29e.xml, ndis/MiniportInitializeEx, netvista.miniportinitializeex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_INITIALIZE",
+    "ndis/MINIPORT_INITIALIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_INITIALIZE"
+  ]
+}

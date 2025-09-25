@@ -1,0 +1,3 @@
+void EnableShaderInstrumentation(
+  BOOL bEnable
+);

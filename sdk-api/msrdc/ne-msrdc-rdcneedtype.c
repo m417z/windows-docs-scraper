@@ -1,0 +1,6 @@
+typedef enum __MIDL___MIDL_itf_msrdc_0000_0000_0003 {
+  RDCNEED_SOURCE = 0,
+  RDCNEED_TARGET = 1,
+  RDCNEED_SEED = 2,
+  RDCNEED_SEED_MAX = 255
+} RdcNeedType;

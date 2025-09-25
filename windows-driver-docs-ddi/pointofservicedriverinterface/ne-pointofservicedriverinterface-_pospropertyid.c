@@ -1,0 +1,21 @@
+typedef enum _PosPropertyId {
+  IsEnabled,
+  IsDisabledOnDataReceived,
+  PowerState,
+  BarcodeScannerIsDecodeDataEnabled,
+  BarcodeScannerCapabilities,
+  BarcodeScannerSupportedSymbologies,
+  BarcodeScannerActiveSymbologies,
+  BarcodeScannerSupportedProfiles,
+  BarcodeScannerActiveProfile,
+  MagneticStripeReaderIsDecodeDataEnabled,
+  MagneticStripeReaderCapabilities,
+  MagneticStripeReaderSupportedCardTypes,
+  MagneticStripeReaderDeviceAuthenticationProtocol,
+  MagneticStripeReaderErrorReportingType,
+  MagneticStripeReaderTracksToRead,
+  MagneticStripeReaderIsTransmitSentinelsEnabled,
+  MagneticStripeReaderIsDeviceAuthenticated,
+  MagneticStripeReaderDataEncryptionAlgorithm,
+  BarcodeScannerVideoDeviceId
+} PosPropertyId;

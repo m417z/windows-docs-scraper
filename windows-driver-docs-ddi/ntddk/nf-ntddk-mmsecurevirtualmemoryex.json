@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ntddk.MmSecureVirtualMemoryEx",
+  "title": "MmSecureVirtualMemoryEx function",
+  "description": "This routine probes the requested address range and protects the specified address range from having its protection made more restrictive and being deleted.",
+  "tech.root": "kernel",
+  "ms.date": "08/19/2019",
+  "keywords": [
+    "MmSecureVirtualMemoryEx function"
+  ],
+  "ms.keywords": "MmSecureVirtualMemoryEx",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "APC_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MmSecureVirtualMemoryEx",
+    "ntddk/MmSecureVirtualMemoryEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "MmSecureVirtualMemoryEx"
+  ]
+}

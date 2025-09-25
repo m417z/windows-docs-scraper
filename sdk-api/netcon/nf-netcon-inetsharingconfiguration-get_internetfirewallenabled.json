@@ -1,0 +1,64 @@
+{
+  "UID": "NF:netcon.INetSharingConfiguration.get_InternetFirewallEnabled",
+  "title": "INetSharingConfiguration::get_InternetFirewallEnabled (netcon.h)",
+  "description": "The get_InternetFirewallEnabled method determines whether Internet Connection Firewall is enabled on this connection.",
+  "helpviewer_keywords": [
+    "INetSharingConfiguration interface [ICS/ICF]",
+    "get_InternetFirewallEnabled method",
+    "INetSharingConfiguration.get_InternetFirewallEnabled",
+    "INetSharingConfiguration::get_InternetFirewallEnabled",
+    "_ics_inetsharingconfiguration_get_internetfirewallenabled",
+    "get_InternetFirewallEnabled",
+    "get_InternetFirewallEnabled method [ICS/ICF]",
+    "get_InternetFirewallEnabled method [ICS/ICF]",
+    "INetSharingConfiguration interface",
+    "ics.inetsharingconfiguration_get_internetfirewallenabled",
+    "netcon/INetSharingConfiguration::get_InternetFirewallEnabled"
+  ],
+  "old-location": "ics\\inetsharingconfiguration_get_internetfirewallenabled.htm",
+  "tech.root": "ics",
+  "ms.assetid": "85f6b76f-3c31-4669-a54f-30d12a82935e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INetSharingConfiguration interface [ICS/ICF],get_InternetFirewallEnabled method, INetSharingConfiguration.get_InternetFirewallEnabled, INetSharingConfiguration::get_InternetFirewallEnabled, _ics_inetsharingconfiguration_get_internetfirewallenabled, get_InternetFirewallEnabled, get_InternetFirewallEnabled method [ICS/ICF], get_InternetFirewallEnabled method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_internetfirewallenabled, netcon/INetSharingConfiguration::get_InternetFirewallEnabled",
+  "req.header": "netcon.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Hnetcfg.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INetSharingConfiguration::get_InternetFirewallEnabled",
+    "netcon/INetSharingConfiguration::get_InternetFirewallEnabled"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Hnetcfg.dll"
+  ],
+  "api_name": [
+    "INetSharingConfiguration.get_InternetFirewallEnabled"
+  ]
+}

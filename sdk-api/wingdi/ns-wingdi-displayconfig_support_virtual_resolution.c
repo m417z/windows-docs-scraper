@@ -1,0 +1,10 @@
+typedef struct DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION {
+  DISPLAYCONFIG_DEVICE_INFO_HEADER header;
+  union {
+    struct {
+      UINT32 disableMonitorVirtualResolution : 1;
+      UINT32 reserved : 31;
+    } DUMMYSTRUCTNAME;
+    UINT32 value;
+  } DUMMYSTRUCTNAME;
+} DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION;

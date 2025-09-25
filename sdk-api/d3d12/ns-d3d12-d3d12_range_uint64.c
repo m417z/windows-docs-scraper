@@ -1,0 +1,4 @@
+typedef struct D3D12_RANGE_UINT64 {
+  UINT64 Begin;
+  UINT64 End;
+} D3D12_RANGE_UINT64;

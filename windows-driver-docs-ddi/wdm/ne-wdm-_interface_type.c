@@ -1,0 +1,22 @@
+typedef enum _INTERFACE_TYPE {
+  InterfaceTypeUndefined,
+  Internal,
+  Isa,
+  Eisa,
+  MicroChannel,
+  TurboChannel,
+  PCIBus,
+  VMEBus,
+  NuBus,
+  PCMCIABus,
+  CBus,
+  MPIBus,
+  MPSABus,
+  ProcessorInternal,
+  InternalPowerBus,
+  PNPISABus,
+  PNPBus,
+  Vmcs,
+  ACPIBus,
+  MaximumInterfaceType
+} INTERFACE_TYPE, *PINTERFACE_TYPE;

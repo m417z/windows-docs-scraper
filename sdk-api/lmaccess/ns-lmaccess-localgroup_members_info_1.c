@@ -1,0 +1,5 @@
+typedef struct _LOCALGROUP_MEMBERS_INFO_1 {
+  PSID         lgrmi1_sid;
+  SID_NAME_USE lgrmi1_sidusage;
+  LPWSTR       lgrmi1_name;
+} LOCALGROUP_MEMBERS_INFO_1, *PLOCALGROUP_MEMBERS_INFO_1, *LPLOCALGROUP_MEMBERS_INFO_1;

@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntddk._PS_CREATE_NOTIFY_INFO",
+  "title": "PS_CREATE_NOTIFY_INFO (ntddk.h)",
+  "description": "The PS_CREATE_NOTIFY_INFO structure provides information about a newly created process.",
+  "tech.root": "kernel",
+  "ms.date": "12/08/2022",
+  "keywords": [
+    "PS_CREATE_NOTIFY_INFO structure"
+  ],
+  "ms.keywords": "*PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], PS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], _PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, ntddk/PPS_CREATE_NOTIFY_INFO, ntddk/PS_CREATE_NOTIFY_INFO",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PS_CREATE_NOTIFY_INFO, *PPS_CREATE_NOTIFY_INFO",
+  "f1_keywords": [
+    "_PS_CREATE_NOTIFY_INFO",
+    "ntddk/_PS_CREATE_NOTIFY_INFO",
+    "PPS_CREATE_NOTIFY_INFO",
+    "ntddk/PPS_CREATE_NOTIFY_INFO",
+    "PS_CREATE_NOTIFY_INFO",
+    "ntddk/PS_CREATE_NOTIFY_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "_PS_CREATE_NOTIFY_INFO",
+    "PPS_CREATE_NOTIFY_INFO",
+    "PS_CREATE_NOTIFY_INFO"
+  ]
+}

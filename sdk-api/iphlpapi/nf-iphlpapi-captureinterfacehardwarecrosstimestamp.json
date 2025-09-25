@@ -1,0 +1,56 @@
+{
+  "UID": "NF:iphlpapi.CaptureInterfaceHardwareCrossTimestamp",
+  "title": "CaptureInterfaceHardwareCrossTimestamp function (iphlpapi.h)",
+  "description": "Retrieves cross timestamp info for a network adapter.",
+  "helpviewer_keywords": [
+    "CaptureInterfaceHardwareCrossTimestamp",
+    "CaptureInterfaceHardwareCrossTimestamp function [IP Helper]",
+    "iphlp.captureinterfacehardwarecrosstimestamp",
+    "iphlpapi/CaptureInterfaceHardwareCrossTimestamp"
+  ],
+  "old-location": "iphlp\\captureinterfacehardwarecrosstimestamp.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "FB3C27CD-7D56-40F3-9DF9-A1115772D1C6",
+  "ms.date": "12/02/2020",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 11 (Build 10.0.22000.194)",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CaptureInterfaceHardwareCrossTimestamp",
+    "iphlpapi/CaptureInterfaceHardwareCrossTimestamp"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "CaptureInterfaceHardwareCrossTimestamp"
+  ]
+}

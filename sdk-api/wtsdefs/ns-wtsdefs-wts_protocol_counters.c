@@ -1,0 +1,20 @@
+typedef struct _WTS_PROTOCOL_COUNTERS {
+  ULONG  WdBytes;
+  ULONG  WdFrames;
+  ULONG  WaitForOutBuf;
+  ULONG  Frames;
+  ULONG  Bytes;
+  ULONG  CompressedBytes;
+  ULONG  CompressFlushes;
+  ULONG  Errors;
+  ULONG  Timeouts;
+  ULONG  AsyncFramingError;
+  ULONG  AsyncOverrunError;
+  ULONG  AsyncOverflowError;
+  ULONG  AsyncParityError;
+  ULONG  TdErrors;
+  USHORT ProtocolType;
+  USHORT Length;
+  USHORT Specific;
+  ULONG  Reserved[WTS_MAX_RESERVED];
+} _WTS_PROTOCOL_COUNTERS, WTS_PROTOCOL_COUNTERS, *PWTS_PROTOCOL_COUNTERS, _WRDS_PROTOCOL_COUNTERS;

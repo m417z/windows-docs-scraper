@@ -1,0 +1,5 @@
+typedef struct _DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA {
+  BOOL            Enable;
+  DXVAHD_RATIONAL SourceAspectRatio;
+  DXVAHD_RATIONAL DestinationAspectRatio;
+} DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptFreeBuffer",
+  "title": "BCryptFreeBuffer function (bcrypt.h)",
+  "description": "Used to free memory that was allocated by one of the CNG functions.",
+  "helpviewer_keywords": [
+    "BCryptFreeBuffer",
+    "BCryptFreeBuffer function [Security]",
+    "bcrypt/BCryptFreeBuffer",
+    "security.bcryptfreebuffer_func"
+  ],
+  "old-location": "security\\bcryptfreebuffer_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "0ee83ca1-2fe6-4ff2-823e-888b3e66f310",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptFreeBuffer, BCryptFreeBuffer function [Security], bcrypt/BCryptFreeBuffer, security.bcryptfreebuffer_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptFreeBuffer",
+    "bcrypt/BCryptFreeBuffer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptFreeBuffer"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct _D3DKMT_QUERYSTATISTICS_PROCESS_NODE_INFORMATION {
+  D3DKMT_ALIGN64 LARGE_INTEGER                  RunningTime;
+  ULONG                                         ContextSwitch;
+  D3DKMT_QUERYSTATISTICS_PREEMPTION_INFORMATION PreemptionStatistics;
+  D3DKMT_QUERYSTATISTICS_PACKET_INFORMATION     PacketStatistics;
+  D3DKMT_ALIGN64 UINT64                         Reserved[8];
+} D3DKMT_QUERYSTATISTICS_PROCESS_NODE_INFORMATION;

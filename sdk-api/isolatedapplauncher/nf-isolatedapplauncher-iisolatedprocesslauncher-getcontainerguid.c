@@ -1,0 +1,3 @@
+HRESULT GetContainerGuid(
+  GUID *guid
+);

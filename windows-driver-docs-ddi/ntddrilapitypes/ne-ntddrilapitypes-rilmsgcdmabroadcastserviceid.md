@@ -1,0 +1,17 @@
+# RILMSGCDMABROADCASTSERVICEID enumeration (ntddrilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_1xBROADCAST_CMAS_PRESIDENTIAL`
+
+### `RIL_1xBROADCAST_CMAS_EXTREME`
+
+### `RIL_1xBROADCAST_CMAS_SEVERE`
+
+### `RIL_1xBROADCAST_CMAS_AMBER`
+
+### `RIL_1xBROADCAST_CMAS_TEST`

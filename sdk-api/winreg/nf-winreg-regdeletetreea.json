@@ -1,0 +1,66 @@
+{
+  "UID": "NF:winreg.RegDeleteTreeA",
+  "title": "RegDeleteTreeA function (winreg.h)",
+  "description": "Deletes the subkeys and values of the specified key recursively. (ANSI)",
+  "helpviewer_keywords": [
+    "RegDeleteTreeA",
+    "winreg/RegDeleteTreeA"
+  ],
+  "old-location": "base\\regdeletetree.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "984813a9-e191-498f-8288-b8a4c567112b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegDeleteTree, RegDeleteTree function, RegDeleteTreeA, RegDeleteTreeW, base.regdeletetree, winreg/RegDeleteTree, winreg/RegDeleteTreeA, winreg/RegDeleteTreeW",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RegDeleteTreeW (Unicode) and RegDeleteTreeA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegDeleteTreeA",
+    "winreg/RegDeleteTreeA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Localregistry-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Registry-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "MinKernelBase.dll",
+    "api-ms-win-core-registry-l1-1-1.dll",
+    "kernel32.dll"
+  ],
+  "api_name": [
+    "RegDeleteTree",
+    "RegDeleteTreeA",
+    "RegDeleteTreeW"
+  ]
+}

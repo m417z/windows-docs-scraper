@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ZwPrepareEnlistment",
+  "title": "ZwPrepareEnlistment function (wdm.h)",
+  "description": "Learn how the ZwPrepareEnlistment routine initiates the prepare operation for a specified enlistment's transaction.",
+  "old-location": "kernel\\zwprepareenlistment.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ZwPrepareEnlistment function"
+  ],
+  "ms.keywords": "NtPrepareEnlistment, ZwPrepareEnlistment, ZwPrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwprepareenlistment, ktm_ref_2da2ab5a-1353-4598-9413-35f6bfc8ee31.xml, wdm/NtPrepareEnlistment, wdm/ZwPrepareEnlistment",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwPrepareEnlistment",
+    "wdm/ZwPrepareEnlistment"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwPrepareEnlistment"
+  ]
+}

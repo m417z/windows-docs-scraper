@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winuser.ChangeClipboardChain",
+  "title": "ChangeClipboardChain function (winuser.h)",
+  "description": "Removes a specified window from the chain of clipboard viewers.",
+  "helpviewer_keywords": [
+    "ChangeClipboardChain",
+    "ChangeClipboardChain function [Data Exchange]",
+    "_win32_ChangeClipboardChain",
+    "_win32_changeclipboardchain_cpp",
+    "dataxchg.changeclipboardchain",
+    "winui._win32_changeclipboardchain",
+    "winuser/ChangeClipboardChain"
+  ],
+  "old-location": "dataxchg\\changeclipboardchain.htm",
+  "tech.root": "dataxchg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\dataexchange\\clipboard\\clipboardreference\\clipboardfunctions\\changeclipboardchain.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ChangeClipboardChain, ChangeClipboardChain function [Data Exchange], _win32_ChangeClipboardChain, _win32_changeclipboardchain_cpp, dataxchg.changeclipboardchain, winui._win32_changeclipboardchain, winuser/ChangeClipboardChain",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ChangeClipboardChain",
+    "winuser/ChangeClipboardChain"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-misc-l1-7-0.dll",
+    "ext-ms-win-ntuser-misc-l1-6-0.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Misc-L1-5-1.dll"
+  ],
+  "api_name": [
+    "ChangeClipboardChain"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)"
+}

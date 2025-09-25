@@ -1,0 +1,58 @@
+{
+  "UID": "NF:apiquery2.IsApiSetImplemented",
+  "title": "IsApiSetImplemented function (apiquery2.h)",
+  "description": "The IsApiSetImplemented function tests if a specified API set is present on the computer.",
+  "helpviewer_keywords": [
+    "IsApiSetImplemented",
+    "IsApiSetImplemented function [Windows API]",
+    "apiquery2/IsApiSetImplemented",
+    "winprog.isapisetimplemented"
+  ],
+  "old-location": "winprog\\isapisetimplemented.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "DF177716-9F33-4E39-BD63-D1B8E39CD67C",
+  "ms.date": "10/23/2020",
+  "ms.keywords": "IsApiSetImplemented, IsApiSetImplemented function [Windows API], apiquery2/IsApiSetImplemented, winprog.isapisetimplemented",
+  "req.construct-type": "function",
+  "req.header": "apiquery2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "api-ms-win-core-apiquery-l2-1-0.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IsApiSetImplemented",
+    "apiquery2/IsApiSetImplemented"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-apiquery-l2-1-0.dll"
+  ],
+  "api_name": [
+    "IsApiSetImplemented"
+  ]
+}

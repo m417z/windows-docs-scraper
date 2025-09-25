@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winreg.RegCreateKeyExA",
+  "title": "RegCreateKeyExA function (winreg.h)",
+  "description": "Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive. (ANSI)",
+  "helpviewer_keywords": [
+    "REG_CREATED_NEW_KEY",
+    "REG_OPENED_EXISTING_KEY",
+    "REG_OPTION_BACKUP_RESTORE",
+    "REG_OPTION_CREATE_LINK",
+    "REG_OPTION_NON_VOLATILE",
+    "REG_OPTION_VOLATILE",
+    "RegCreateKeyExA",
+    "winreg/RegCreateKeyExA"
+  ],
+  "old-location": "base\\regcreatekeyex.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_CREATE_LINK, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyEx, RegCreateKeyEx function, RegCreateKeyExA, RegCreateKeyExW, _win32_regcreatekeyex, base.regcreatekeyex, winreg/RegCreateKeyEx, winreg/RegCreateKeyExA, winreg/RegCreateKeyExW",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RegCreateKeyExW (Unicode) and RegCreateKeyExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegCreateKeyExA",
+    "winreg/RegCreateKeyExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Localregistry-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Registry-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "MinKernelBase.dll",
+    "api-ms-win-core-registry-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RegCreateKeyEx",
+    "RegCreateKeyExA",
+    "RegCreateKeyExW"
+  ]
+}

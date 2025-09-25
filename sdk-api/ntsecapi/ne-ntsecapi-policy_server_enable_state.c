@@ -1,0 +1,4 @@
+typedef enum _POLICY_SERVER_ENABLE_STATE {
+  PolicyServerEnabled = 2,
+  PolicyServerDisabled
+} POLICY_SERVER_ENABLE_STATE, *PPOLICY_SERVER_ENABLE_STATE;

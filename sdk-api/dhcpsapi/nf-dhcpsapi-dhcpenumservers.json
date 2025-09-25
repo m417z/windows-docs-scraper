@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpEnumServers",
+  "title": "DhcpEnumServers function (dhcpsapi.h)",
+  "description": "The DhcpEnumServers function returns an enumerated list of DHCP servers found in the directory service.",
+  "helpviewer_keywords": [
+    "DhcpEnumServers",
+    "DhcpEnumServers function [DHCP]",
+    "dhcp.dhcpenumservers",
+    "dhcpsapi/DhcpEnumServers"
+  ],
+  "old-location": "dhcp\\dhcpenumservers.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "c8b4d241-19d4-4a97-9129-c2954d63b6ac",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpEnumServers",
+    "dhcpsapi/DhcpEnumServers"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpEnumServers"
+  ]
+}

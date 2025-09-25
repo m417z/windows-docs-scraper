@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.IoRegisterDriverReinitialization",
+  "title": "IoRegisterDriverReinitialization function (ntddk.h)",
+  "description": "The IoRegisterDriverReinitialization routine is called by a driver during its initialization or reinitialization to register its Reinitialize routine to be called again before the driver's and, possibly the system's, initialization is complete.",
+  "old-location": "kernel\\ioregisterdriverreinitialization.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoRegisterDriverReinitialization function"
+  ],
+  "ms.keywords": "IoRegisterDriverReinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlIoPassive5, PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoRegisterDriverReinitialization",
+    "ntddk/IoRegisterDriverReinitialization"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoRegisterDriverReinitialization"
+  ]
+}

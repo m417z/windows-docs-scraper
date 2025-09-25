@@ -1,0 +1,20 @@
+typedef struct _D3DHAL_CONTEXTCREATEDATA {
+  union {
+    LPDDRAWI_DIRECTDRAW_GBL lpDDGbl;
+    LPDDRAWI_DIRECTDRAW_LCL lpDDLcl;
+  };
+  union {
+    LPDIRECTDRAWSURFACE       lpDDS;
+    LPDDRAWI_DDRAWSURFACE_LCL lpDDSLcl;
+  };
+  union {
+    LPDIRECTDRAWSURFACE       lpDDSZ;
+    LPDDRAWI_DDRAWSURFACE_LCL lpDDSZLcl;
+  };
+  union {
+    DWORD     dwPID;
+    ULONG_PTR dwrstates;
+  };
+  ULONG_PTR dwhContext;
+  HRESULT   ddrval;
+} D3DHAL_CONTEXTCREATEDATA;

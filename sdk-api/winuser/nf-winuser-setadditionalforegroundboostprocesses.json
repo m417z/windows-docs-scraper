@@ -1,0 +1,50 @@
+{
+  "UID": "NF:winuser.SetAdditionalForegroundBoostProcesses",
+  "tech.root": "winmsg",
+  "title": "SetAdditionalForegroundBoostProcesses",
+  "ms.date": "06/30/2023",
+  "targetos": "Windows",
+  "description": "SetAdditionalForegroundBoostProcesses is a performance assist API to help applications with a multi-process application model where multiple processes contribute to a foreground experience, either as data or rendering.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "User32.dll",
+  "req.header": "Winuser.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "User32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 Build 22621",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DLLExport"
+  ],
+  "api_location": [
+    "winuser.h"
+  ],
+  "api_name": [
+    "SetAdditionalForegroundBoostProcesses"
+  ],
+  "f1_keywords": [
+    "SetAdditionalForegroundBoostProcesses",
+    "winuser/SetAdditionalForegroundBoostProcesses"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "SetAdditionalForegroundBoostProcesses"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _GRADIENT_RECT {
+  ULONG UpperLeft;
+  ULONG LowerRight;
+} GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT;

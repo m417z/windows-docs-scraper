@@ -1,0 +1,48 @@
+{
+  "UID": "NS:storport._SCSI_SUPPORTED_CONTROL_TYPE_LIST",
+  "tech.root": "storage",
+  "title": "SCSI_SUPPORTED_CONTROL_TYPE_LIST (storport.h)",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "SCSI_SUPPORTED_CONTROL_TYPE_LIST is the structure pointed to by the Parameters parameter when a miniport's HwStorUnitControl routine is called with a ControlType of ScsiQuerySupportedUnitControlTypes or HwStorAdapterControl routine is called with a ControlType of ScsiQuerySupportedControlTypes.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SCSI_SUPPORTED_CONTROL_TYPE_LIST, *PSCSI_SUPPORTED_CONTROL_TYPE_LIST",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_SCSI_SUPPORTED_CONTROL_TYPE_LIST",
+    "PSCSI_SUPPORTED_CONTROL_TYPE_LIST",
+    "SCSI_SUPPORTED_CONTROL_TYPE_LIST"
+  ],
+  "f1_keywords": [
+    "_SCSI_SUPPORTED_CONTROL_TYPE_LIST",
+    "storport/_SCSI_SUPPORTED_CONTROL_TYPE_LIST",
+    "PSCSI_SUPPORTED_CONTROL_TYPE_LIST",
+    "storport/PSCSI_SUPPORTED_CONTROL_TYPE_LIST",
+    "SCSI_SUPPORTED_CONTROL_TYPE_LIST",
+    "storport/SCSI_SUPPORTED_CONTROL_TYPE_LIST"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

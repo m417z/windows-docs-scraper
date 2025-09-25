@@ -1,0 +1,6 @@
+typedef struct tagEMRARC {
+  EMR    emr;
+  RECTL  rclBox;
+  POINTL ptlStart;
+  POINTL ptlEnd;
+} EMRARC, *PEMRARC, EMRARCTO, *PEMRARCTO, EMRCHORD, *PEMRCHORD, EMRPIE, *PEMRPIE;

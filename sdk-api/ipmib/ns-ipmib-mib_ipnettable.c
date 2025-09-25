@@ -1,0 +1,4 @@
+typedef struct _MIB_IPNETTABLE {
+  DWORD        dwNumEntries;
+  MIB_IPNETROW table[ANY_SIZE];
+} MIB_IPNETTABLE, *PMIB_IPNETTABLE;

@@ -1,0 +1,22 @@
+typedef struct _AppInfoData {
+  DWORD  cbSize;
+  DWORD  dwMask;
+  LPWSTR pszDisplayName;
+  LPWSTR pszVersion;
+  LPWSTR pszPublisher;
+  LPWSTR pszProductID;
+  LPWSTR pszRegisteredOwner;
+  LPWSTR pszRegisteredCompany;
+  LPWSTR pszLanguage;
+  LPWSTR pszSupportUrl;
+  LPWSTR pszSupportTelephone;
+  LPWSTR pszHelpLink;
+  LPWSTR pszInstallLocation;
+  LPWSTR pszInstallSource;
+  LPWSTR pszInstallDate;
+  LPWSTR pszContact;
+  LPWSTR pszComments;
+  LPWSTR pszImage;
+  LPWSTR pszReadmeUrl;
+  LPWSTR pszUpdateInfoUrl;
+} APPINFODATA, *PAPPINFODATA;

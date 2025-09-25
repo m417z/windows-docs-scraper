@@ -1,0 +1,5 @@
+typedef struct _PCI_VENDOR_SPECIFIC_CAPABILITY {
+  PCI_CAPABILITIES_HEADER Header;
+  UCHAR                   VscLength;
+  UCHAR                   VendorSpecific;
+} PCI_VENDOR_SPECIFIC_CAPABILITY, *PPCI_VENDOR_SPECIFIC_CAPABILITY;

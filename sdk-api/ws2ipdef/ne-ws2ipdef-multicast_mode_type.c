@@ -1,0 +1,4 @@
+typedef enum {
+  MCAST_INCLUDE = 0,
+  MCAST_EXCLUDE
+} MULTICAST_MODE_TYPE;

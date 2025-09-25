@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_winsync_0000_0000_0001 {
+  SPR_SOURCE = 0,
+  SPR_DESTINATION
+} SYNC_PROVIDER_ROLE;

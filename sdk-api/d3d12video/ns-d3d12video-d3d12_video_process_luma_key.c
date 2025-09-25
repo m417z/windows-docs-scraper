@@ -1,0 +1,5 @@
+typedef struct D3D12_VIDEO_PROCESS_LUMA_KEY {
+  BOOL  Enable;
+  FLOAT Lower;
+  FLOAT Upper;
+} D3D12_VIDEO_PROCESS_LUMA_KEY;

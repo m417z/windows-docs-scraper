@@ -1,0 +1,3 @@
+Status GetRectangle(
+  RectF *rect
+);

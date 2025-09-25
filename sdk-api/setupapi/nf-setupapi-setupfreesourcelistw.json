@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupFreeSourceListW",
+  "title": "SetupFreeSourceListW function (setupapi.h)",
+  "description": "The SetupFreeSourceList function frees the system resources allocated to a source list. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupFreeSourceList",
+    "SetupFreeSourceList function [Setup API]",
+    "SetupFreeSourceListW",
+    "_setupapi_setupfreesourcelist",
+    "setup.setupfreesourcelist",
+    "setupapi/SetupFreeSourceList",
+    "setupapi/SetupFreeSourceListW"
+  ],
+  "old-location": "setup\\setupfreesourcelist.htm",
+  "tech.root": "setup",
+  "ms.assetid": "ac326a2c-df67-4a3e-9290-663f84027a48",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupFreeSourceList, SetupFreeSourceList function [Setup API], SetupFreeSourceListA, SetupFreeSourceListW, _setupapi_setupfreesourcelist, setup.setupfreesourcelist, setupapi/SetupFreeSourceList, setupapi/SetupFreeSourceListA, setupapi/SetupFreeSourceListW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupFreeSourceListW (Unicode) and SetupFreeSourceListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupFreeSourceListW",
+    "setupapi/SetupFreeSourceListW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupFreeSourceList",
+    "SetupFreeSourceListA",
+    "SetupFreeSourceListW"
+  ]
+}

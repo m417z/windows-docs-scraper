@@ -1,0 +1,4 @@
+typedef struct _DXGKARG_QUERYPROBEDBARS {
+  ULONG  VirtualFunctionIndex;
+  PULONG BaseRegisterValues;
+} DXGKARG_QUERYPROBEDBARS, *PDXGKARG_QUERYPROBEDBARS;

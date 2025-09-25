@@ -1,0 +1,48 @@
+{
+  "UID": "NF:mcd.DriverEntry",
+  "title": "DriverEntry function (mcd.h)",
+  "description": "The DriverEntry miniport driver routine is called when the miniport driver is loaded.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\driverentry.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DriverEntry function"
+  ],
+  "ms.keywords": "DriverEntry, DriverEntry routine [Storage Devices], atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml, storage.driverentry, wdm/DriverEntry",
+  "req.header": "mcd.h",
+  "req.include-header": "Ntddk.h, Mcd.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DriverEntry",
+    "mcd/DriverEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "DriverEntry"
+  ]
+}

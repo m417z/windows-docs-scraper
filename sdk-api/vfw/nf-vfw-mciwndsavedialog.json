@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndSaveDialog",
+  "title": "MCIWndSaveDialog macro (vfw.h)",
+  "description": "The MCIWndSaveDialog macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the MCI_SAVE command.",
+  "helpviewer_keywords": [
+    "MCIWndSaveDialog",
+    "MCIWndSaveDialog macro [Windows Multimedia]",
+    "_win32_MCIWndSaveDialog",
+    "multimedia.mciwndsavedialog",
+    "vfw/MCIWndSaveDialog"
+  ],
+  "old-location": "multimedia\\mciwndsavedialog.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "3ab1121f-5122-424b-a1df-ceeb57751dac",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndSaveDialog",
+    "vfw/MCIWndSaveDialog"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndSaveDialog"
+  ]
+}

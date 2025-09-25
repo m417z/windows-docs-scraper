@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_USSD_EVENT {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_USSD_EVENT    UssdEvent;
+} NDIS_WWAN_USSD_EVENT, *PNDIS_WWAN_USSD_EVENT;

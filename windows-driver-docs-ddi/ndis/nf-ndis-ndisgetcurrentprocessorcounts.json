@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisGetCurrentProcessorCounts",
+  "title": "NdisGetCurrentProcessorCounts function (ndis.h)",
+  "description": "The NdisGetCurrentProcessorCounts function returns counts for the current processor that a driver can use to determine CPU usage for a particular time interval.",
+  "old-location": "netvista\\ndisgetcurrentprocessorcounts.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisGetCurrentProcessorCounts function"
+  ],
+  "ms.keywords": "NdisGetCurrentProcessorCounts, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, netvista.ndisgetcurrentprocessorcounts",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and later drivers in Windows Vista and later. Supported for NDIS 5.1 drivers (see       NdisGetCurrentProcessorCounts (NDIS 5.1)) in Windows XP and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Miscellaneous_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisGetCurrentProcessorCounts",
+    "ndis/NdisGetCurrentProcessorCounts"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisGetCurrentProcessorCounts"
+  ]
+}

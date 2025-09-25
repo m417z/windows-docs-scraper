@@ -1,0 +1,69 @@
+{
+  "UID": "NE:clusapi._CLUSTER_SHARED_VOLUME_BACKUP_STATE",
+  "title": "CLUSTER_SHARED_VOLUME_BACKUP_STATE (clusapi.h)",
+  "description": "Describes the CSV backup state.",
+  "helpviewer_keywords": [
+    "*PCLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "CLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration [Failover Cluster]",
+    "PCLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "PCLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration pointer [Failover Cluster]",
+    "VolumeBackupInProgress",
+    "VolumeBackupNone",
+    "clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "clusapi/PCLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "clusapi/VolumeBackupInProgress",
+    "clusapi/VolumeBackupNone",
+    "mscs.cluster_shared_volume_backup_state"
+  ],
+  "old-location": "mscs\\cluster_shared_volume_backup_state.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "f83a7dfe-ad48-41e2-983e-75dfd921c137",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PCLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration [Failover Cluster], PCLUSTER_SHARED_VOLUME_BACKUP_STATE, PCLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/PCLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/VolumeBackupInProgress, clusapi/VolumeBackupNone, mscs.cluster_shared_volume_backup_state",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CLUSTER_SHARED_VOLUME_BACKUP_STATE, *PCLUSTER_SHARED_VOLUME_BACKUP_STATE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_CLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "clusapi/_CLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "PCLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "clusapi/PCLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "CLUSTER_SHARED_VOLUME_BACKUP_STATE",
+    "clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ClusAPI.h"
+  ],
+  "api_name": [
+    "CLUSTER_SHARED_VOLUME_BACKUP_STATE"
+  ]
+}

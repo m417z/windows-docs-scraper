@@ -1,0 +1,61 @@
+{
+  "UID": "NF:strsafe.StringCbVPrintf_lW",
+  "title": "StringCbVPrintf_lW function (strsafe.h)",
+  "description": "Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCbVPrintf_lW)",
+  "helpviewer_keywords": [
+    "StringCbVPrintf_l",
+    "StringCbVPrintf_l function [Menus and Other Resources]",
+    "StringCbVPrintf_lW",
+    "menurc.stringcbvprintf_l",
+    "strsafe/StringCbVPrintf_l",
+    "strsafe/StringCbVPrintf_lW"
+  ],
+  "old-location": "menurc\\stringcbvprintf_l.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "e3e39151-03f7-4d85-91a0-d353122e6b4b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "StringCbVPrintf_l, StringCbVPrintf_l function [Menus and Other Resources], StringCbVPrintf_lA, StringCbVPrintf_lW, menurc.stringcbvprintf_l, strsafe/StringCbVPrintf_l, strsafe/StringCbVPrintf_lA, strsafe/StringCbVPrintf_lW",
+  "req.header": "strsafe.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "StringCbVPrintf_lW (Unicode) and StringCbVPrintf_lA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StringCbVPrintf_lW",
+    "strsafe/StringCbVPrintf_lW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "StrSafe.h"
+  ],
+  "api_name": [
+    "StringCbVPrintf_l",
+    "StringCbVPrintf_lA",
+    "StringCbVPrintf_lW"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_NITZ_INFO {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_NITZ_INFO     NitzInfo;
+} NDIS_WWAN_NITZ_INFO, *PNDIS_WWAN_NITZ_INFO;

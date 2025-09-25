@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winbase.GetNumaNodeProcessorMask",
+  "title": "GetNumaNodeProcessorMask function (winbase.h)",
+  "description": "Retrieves the processor mask for the specified node.",
+  "helpviewer_keywords": [
+    "GetNumaNodeProcessorMask",
+    "GetNumaNodeProcessorMask function",
+    "_win32_getnumanodeprocessormask",
+    "base.getnumanodeprocessormask",
+    "winbase/GetNumaNodeProcessorMask"
+  ],
+  "old-location": "base\\getnumanodeprocessormask.htm",
+  "tech.root": "backup",
+  "ms.assetid": "bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8",
+  "ms.date": "03/15/2021",
+  "ms.keywords": "GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetNumaNodeProcessorMask",
+    "winbase/GetNumaNodeProcessorMask"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "Kernel32Legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "GetNumaNodeProcessorMask"
+  ]
+}

@@ -1,0 +1,4 @@
+VOID WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING(
+  [out] PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS Params,
+  [in]  UCHAR                                    SettingIndex
+);

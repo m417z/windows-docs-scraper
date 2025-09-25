@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.MFT_ENUM_DATA_V1",
+  "tech.root": "ifsk",
+  "title": "MFT_ENUM_DATA_V1",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the MFT_ENUM_DATA_V1 structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "MFT_ENUM_DATA_V1, *PMFT_ENUM_DATA_V1",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "MFT_ENUM_DATA_V1",
+    "PMFT_ENUM_DATA_V1"
+  ],
+  "f1_keywords": [
+    "MFT_ENUM_DATA_V1",
+    "ntifs/MFT_ENUM_DATA_V1",
+    "PMFT_ENUM_DATA_V1",
+    "ntifs/PMFT_ENUM_DATA_V1"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "MFT_ENUM_DATA_V1"
+  ]
+}

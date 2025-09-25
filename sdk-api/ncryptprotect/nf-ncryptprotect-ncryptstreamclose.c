@@ -1,0 +1,3 @@
+SECURITY_STATUS NCryptStreamClose(
+  [in] NCRYPT_STREAM_HANDLE hStream
+);

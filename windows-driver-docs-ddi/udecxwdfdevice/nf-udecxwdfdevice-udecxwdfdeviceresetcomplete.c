@@ -1,0 +1,3 @@
+VOID UdecxWdfDeviceResetComplete(
+  WDFDEVICE UdeWdfDevice
+);

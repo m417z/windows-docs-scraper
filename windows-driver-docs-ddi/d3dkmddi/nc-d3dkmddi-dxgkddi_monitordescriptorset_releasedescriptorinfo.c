@@ -1,0 +1,7 @@
+DXGKDDI_MONITORDESCRIPTORSET_RELEASEDESCRIPTORINFO DxgkddiMonitordescriptorsetReleasedescriptorinfo;
+
+NTSTATUS DxgkddiMonitordescriptorsetReleasedescriptorinfo(
+  IN_CONST_D3DKMDT_HMONITORDESCRIPTORSET hMonitorDescriptorSet,
+  IN_CONST_PD3DKMDT_MONITOR_DESCRIPTOR_CONST pMonitorDescriptorInfo
+)
+{...}

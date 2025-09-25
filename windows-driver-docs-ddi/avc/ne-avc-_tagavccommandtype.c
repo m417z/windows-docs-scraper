@@ -1,0 +1,7 @@
+typedef enum _tagAvcCommandType {
+  AVC_CTYPE_CONTROL,
+  AVC_CTYPE_STATUS,
+  AVC_CTYPE_SPEC_INQ,
+  AVC_CTYPE_NOTIFY,
+  AVC_CTYPE_GEN_INQ
+} AvcCommandType;

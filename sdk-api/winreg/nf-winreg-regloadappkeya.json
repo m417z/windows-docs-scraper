@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winreg.RegLoadAppKeyA",
+  "title": "RegLoadAppKeyA function (winreg.h)",
+  "description": "Loads the specified registry hive as an application hive. (ANSI)",
+  "helpviewer_keywords": [
+    "RegLoadAppKeyA",
+    "winreg/RegLoadAppKeyA"
+  ],
+  "old-location": "base\\regloadappkey.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "88eb79c1-9ea0-436e-ad2e-9ce05b8dcb2c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegLoadAppKey, RegLoadAppKey function, RegLoadAppKeyA, RegLoadAppKeyW, base.regloadappkey, winreg/RegLoadAppKey, winreg/RegLoadAppKeyA, winreg/RegLoadAppKeyW",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RegLoadAppKeyW (Unicode) and RegLoadAppKeyA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegLoadAppKeyA",
+    "winreg/RegLoadAppKeyA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Registry-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "MinKernelBase.dll",
+    "api-ms-win-core-registry-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RegLoadAppKey",
+    "RegLoadAppKeyA",
+    "RegLoadAppKeyW"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisIfQueryBindingIfIndex",
+  "title": "NdisIfQueryBindingIfIndex function (ndis.h)",
+  "description": "The NdisIfQueryBindingIfIndex function retrieves the network interface indexes and NET_LUID values for the highest and lowest layered network interfaces that are associated with a specified protocol binding.",
+  "old-location": "netvista\\ndisifquerybindingifindex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisIfQueryBindingIfIndex function"
+  ],
+  "ms.keywords": "NdisIfQueryBindingIfIndex, NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfQueryBindingIfIndex, net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, netvista.ndisifquerybindingifindex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Interfaces_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisIfQueryBindingIfIndex",
+    "ndis/NdisIfQueryBindingIfIndex"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisIfQueryBindingIfIndex"
+  ]
+}

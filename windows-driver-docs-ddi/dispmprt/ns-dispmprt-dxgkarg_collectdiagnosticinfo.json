@@ -1,0 +1,48 @@
+{
+  "UID": "NS:dispmprt._DXGKARG_COLLECTDIAGNOSTICINFO",
+  "title": "DXGKARG_COLLECTDIAGNOSTICINFO",
+  "description": "Used by the DXGKDDI_COLLECTDIAGNOSTICINFO callback function to collect private driver information for a variety of reasons.",
+  "tech.root": "display",
+  "ms.date": "03/24/2020",
+  "keywords": [
+    "DXGKARG_COLLECTDIAGNOSTICINFO structure"
+  ],
+  "ms.keywords": "DXGKARG_COLLECTDIAGNOSTICINFO, DXGKARG_COLLECTDIAGNOSTICINFO, *INOUT_PDXGKARG_COLLECTDIAGNOSTICINFO",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "DXGKARG_COLLECTDIAGNOSTICINFO",
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DXGKARG_COLLECTDIAGNOSTICINFO",
+    "dispmprt/_DXGKARG_COLLECTDIAGNOSTICINFO",
+    "DXGKARG_COLLECTDIAGNOSTICINFO",
+    "dispmprt/DXGKARG_COLLECTDIAGNOSTICINFO"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGKARG_COLLECTDIAGNOSTICINFO",
+    "DXGKARG_COLLECTDIAGNOSTICINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

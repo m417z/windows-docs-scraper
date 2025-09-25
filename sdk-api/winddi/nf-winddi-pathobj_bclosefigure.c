@@ -1,0 +1,3 @@
+ENGAPI BOOL PATHOBJ_bCloseFigure(
+  PATHOBJ *ppo
+);

@@ -1,0 +1,4 @@
+typedef struct IKEEXT_COOKIE_PAIR0_ {
+  IKEEXT_COOKIE initiator;
+  IKEEXT_COOKIE responder;
+} IKEEXT_COOKIE_PAIR0;

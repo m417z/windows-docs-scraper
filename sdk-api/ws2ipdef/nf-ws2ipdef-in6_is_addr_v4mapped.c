@@ -1,0 +1,3 @@
+BOOLEAN IN6_IS_ADDR_V4MAPPED(
+  const IN6_ADDR *a
+);

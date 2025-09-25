@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxprocs.RxPurgeAllFobxs",
+  "title": "RxPurgeAllFobxs function (rxprocs.h)",
+  "description": "RxPurgeAllFobxs purges all of the FOBX structures associated with a network mini-redirector.",
+  "old-location": "ifsk\\rxpurgeallfobxs.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxPurgeAllFobxs function"
+  ],
+  "ms.keywords": "RxPurgeAllFobxs, RxPurgeAllFobxs function [Installable File System Drivers], ifsk.rxpurgeallfobxs, rxprocs/RxPurgeAllFobxs, rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml",
+  "req.header": "rxprocs.h",
+  "req.include-header": "Rxprocs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxPurgeAllFobxs",
+    "rxprocs/RxPurgeAllFobxs"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxprocs.h"
+  ],
+  "api_name": [
+    "RxPurgeAllFobxs"
+  ]
+}

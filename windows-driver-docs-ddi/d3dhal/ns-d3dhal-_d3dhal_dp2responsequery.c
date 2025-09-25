@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2RESPONSEQUERY {
+  DWORD dwQueryID;
+  DWORD dwSize;
+} D3DHAL_DP2RESPONSEQUERY;

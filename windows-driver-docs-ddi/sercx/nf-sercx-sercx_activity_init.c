@@ -1,0 +1,3 @@
+VOID SERCX_ACTIVITY_INIT(
+  [out] SERCX_ACTIVITY *Activity
+);

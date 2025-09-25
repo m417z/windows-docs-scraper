@@ -1,0 +1,4 @@
+typedef struct _DHCP_OPTION_VALUE_ARRAY {
+  DWORD               NumElements;
+  LPDHCP_OPTION_VALUE Values;
+} DHCP_OPTION_VALUE_ARRAY, *LPDHCP_OPTION_VALUE_ARRAY;

@@ -1,0 +1,61 @@
+{
+  "UID": "NF:setupapi.SetupDiSetClassPropertyExW",
+  "title": "SetupDiSetClassPropertyExW function (setupapi.h)",
+  "description": "The SetupDiSetClassPropertyEx function sets a device property for a device setup class or a device interface class on a local or remote computer.",
+  "helpviewer_keywords": [
+    "SetupDiSetClassPropertyEx",
+    "SetupDiSetClassPropertyEx function [Device and Driver Installation]",
+    "SetupDiSetClassPropertyExW",
+    "devinst.setupdisetclasspropertyex",
+    "di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml",
+    "setupapi/SetupDiSetClassPropertyEx"
+  ],
+  "old-location": "devinst\\setupdisetclasspropertyex.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "99b58da2-0398-4dc1-8c9e-0eefaf03bf91",
+  "ms.date": "01/30/2023",
+  "ms.keywords": "SetupDiSetClassPropertyEx, SetupDiSetClassPropertyEx function [Device and Driver Installation], SetupDiSetClassPropertyExW, devinst.setupdisetclasspropertyex, di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml, setupapi/SetupDiSetClassPropertyEx",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiSetClassPropertyExW",
+    "setupapi/SetupDiSetClassPropertyExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ext-ms-win-setupapi-devobj-l1-1-0.dll",
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiSetClassPropertyEx"
+  ]
+}

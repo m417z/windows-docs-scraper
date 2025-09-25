@@ -1,0 +1,3 @@
+void GlobalDiscard(
+  [in] h
+);

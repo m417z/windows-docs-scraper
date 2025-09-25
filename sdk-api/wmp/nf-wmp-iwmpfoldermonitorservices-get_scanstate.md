@@ -1,0 +1,39 @@
+# IWMPFolderMonitorServices::get_scanState
+
+## Description
+
+\[The feature associated with this page, [Windows Media Player SDK](https://learn.microsoft.com/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](https://learn.microsoft.com/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+This method and all other methods of the [IWMPFolderMonitorServices](https://learn.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices) interface are deprecated.
+
+The **get_scanState** method retrieves the scan state for the current scanning operation.
+
+## Parameters
+
+### `pwmpfss` [out]
+
+Pointer to a variable that receives a value from the **WMPFolderScanState** enumeration that indicates the scan state.
+
+## Return value
+
+The method returns an **HRESULT**. Possible values include, but are not limited to, those in the following table.
+
+| Return code | Description |
+| --- | --- |
+| **S_OK** | The method succeeded. |
+
+## Remarks
+
+A scanning operation consists of two phases: scanning and updating. During the first phase, Windows Media Player determines which digital media files to add to the library. During the second phase, the Player adds the files. You can handle the **FolderScanStateChange** event to receive notifications when the scan state changes.
+
+**Windows Media Player 10 Mobile:** This method is not supported.
+
+## See also
+
+[IWMPEvents3::FolderScanStateChange](https://learn.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-folderscanstatechange)
+
+[IWMPFolderMonitorServices Interface](https://learn.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
+
+[IWMPFolderMonitorServices::startScan](https://learn.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-startscan)
+
+[WMPFolderScanState](https://learn.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate)

@@ -1,0 +1,1 @@
+NTHALAPI KIRQL KeGetCurrentIrql();

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOutputDuplGetFrameInfo(
+  D3DKMT_OUTPUTDUPL_GET_FRAMEINFO *unnamedParam1
+);

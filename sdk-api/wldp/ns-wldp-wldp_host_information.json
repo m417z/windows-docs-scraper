@@ -1,0 +1,49 @@
+{
+  "UID": "NS:wldp.WLDP_HOST_INFORMATION",
+  "tech.root": "security",
+  "title": "WLDP_HOST_INFORMATION",
+  "ms.date": "08/23/2022",
+  "targetos": "Windows",
+  "description": "A structure identifying the host and source file to be evaluated.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wldp.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.target-type": null,
+  "req.typenames": "WLDP_HOST_INFORMATION, *PWLDP_HOST_INFORMATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wldp.h"
+  ],
+  "api_name": [
+    "WLDP_HOST_INFORMATION",
+    "PWLDP_HOST_INFORMATION"
+  ],
+  "f1_keywords": [
+    "WLDP_HOST_INFORMATION",
+    "wldp/WLDP_HOST_INFORMATION",
+    "PWLDP_HOST_INFORMATION",
+    "wldp/PWLDP_HOST_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WLDP_HOST_INFORMATION"
+  ]
+}

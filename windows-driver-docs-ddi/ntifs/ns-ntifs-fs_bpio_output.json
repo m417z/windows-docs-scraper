@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntifs._FS_BPIO_OUTPUT",
+  "tech.root": "ifsk",
+  "title": "FS_BPIO_OUTPUT",
+  "ms.date": "12/08/2021",
+  "targetos": "Windows",
+  "description": "The FS_BPIO_OUTPUT structure is used to return information about the BypassIO operation for the FSCTL_MANAGE_BYPASS_IO control code.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FS_BPIO_OUTPUT, *PFS_BPIO_OUTPUT",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FS_BPIO_OUTPUT",
+    "PFS_BPIO_OUTPUT",
+    "FS_BPIO_OUTPUT"
+  ],
+  "f1_keywords": [
+    "_FS_BPIO_OUTPUT",
+    "ntifs/_FS_BPIO_OUTPUT",
+    "PFS_BPIO_OUTPUT",
+    "ntifs/PFS_BPIO_OUTPUT",
+    "FS_BPIO_OUTPUT",
+    "ntifs/FS_BPIO_OUTPUT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct _tagSYNCMGRLOGERRORINFO {
+  DWORD cbSize;
+  DWORD mask;
+  DWORD dwSyncMgrErrorFlags;
+  GUID  ErrorID;
+  GUID  ItemID;
+} SYNCMGRLOGERRORINFO, *LPSYNCMGRLOGERRORINFO;

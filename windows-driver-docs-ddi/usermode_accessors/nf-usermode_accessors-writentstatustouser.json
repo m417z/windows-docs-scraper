@@ -1,0 +1,51 @@
+{
+  "UID": "NF:usermode_accessors.WriteNtStatusToUser",
+  "tech.root": "kernel",
+  "title": "WriteNtStatusToUser",
+  "ms.date": "07/02/2025",
+  "targetos": "Windows",
+  "description": "The WriteNtStatusToUser function safely writes an NTSTATUS value to user-mode memory.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "usermode_accessors.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Less than or equal to APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "umaccess.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "See Remarks",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usermode_accessors.h"
+  ],
+  "api_name": [
+    "WriteNtStatusToUser"
+  ],
+  "f1_keywords": [
+    "WriteNtStatusToUser",
+    "usermode_accessors/WriteNtStatusToUser"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WriteNtStatusToUser"
+  ],
+  "ai-usage": "ai-assisted"
+}

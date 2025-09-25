@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PGET_DMA_ALIGNMENT",
+  "title": "PGET_DMA_ALIGNMENT (wdm.h)",
+  "description": "The GetDmaAlignment routine returns the alignment requirements of the DMA system.",
+  "old-location": "kernel\\getdmaalignment.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PGET_DMA_ALIGNMENT callback function"
+  ],
+  "ms.keywords": "GetDmaAlignment, GetDmaAlignment callback function [Kernel-Mode Driver Architecture], PGET_DMA_ALIGNMENT, PGET_DMA_ALIGNMENT callback, kdma_3b830c2d-6c3d-477c-b781-c9d1a7dbe5bf.xml, kernel.getdmaalignment, wdm/GetDmaAlignment",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with  Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlDispatch",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PGET_DMA_ALIGNMENT",
+    "wdm/PGET_DMA_ALIGNMENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PGET_DMA_ALIGNMENT"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "UID": "NF:dispmprt.DxgkInitialize",
+  "title": "DxgkInitialize function (dispmprt.h)",
+  "description": "Learn more about the DxgkInitialize function.",
+  "tech.root": "display",
+  "ms.date": "01/13/2025",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista (WDDM 1.0)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DxgkInitialize",
+    "dispmprt/DxgkInitialize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Displib.lib"
+  ],
+  "api_name": [
+    "DxgkInitialize"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winsock2.setsockopt",
+  "title": "setsockopt function (winsock2.h)",
+  "description": "The setsockopt function (winsock2.h) sets the current value for a socket option associated with a socket of any type, in any state.",
+  "helpviewer_keywords": [
+    "_win32_setsockopt_2",
+    "setsockopt",
+    "setsockopt function [Winsock]",
+    "winsock.setsockopt_2",
+    "winsock/setsockopt"
+  ],
+  "old-location": "winsock\\setsockopt_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "3a6960c9-0c04-4403-aee1-ce250459dc30",
+  "ms.date": "08/03/2022",
+  "ms.keywords": "_win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt",
+  "req.header": "winsock2.h",
+  "req.include-header": "Winsock2.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "setsockopt",
+    "winsock2/setsockopt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll",
+    "wsock32.dll"
+  ],
+  "api_name": [
+    "setsockopt"
+  ]
+}

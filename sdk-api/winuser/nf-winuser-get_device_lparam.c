@@ -1,0 +1,3 @@
+WORD GET_DEVICE_LPARAM(
+    LPARAM lParam
+);

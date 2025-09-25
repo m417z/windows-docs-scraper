@@ -1,0 +1,44 @@
+{
+  "UID": "NC:wdm.IOMMU_SET_DEVICE_FAULT_REPORTING",
+  "title": "IOMMU_SET_DEVICE_FAULT_REPORTING (wdm.h)",
+  "description": "This routine sets the device fault reporting state to a device already attached to a domain.",
+  "tech.root": "kernel",
+  "ms.date": "01/19/2023",
+  "keywords": [
+    "IOMMU_SET_DEVICE_FAULT_REPORTING callback function"
+  ],
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "IOMMU_SET_DEVICE_FAULT_REPORTING",
+    "wdm/IOMMU_SET_DEVICE_FAULT_REPORTING"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "IOMMU_SET_DEVICE_FAULT_REPORTING"
+  ]
+}

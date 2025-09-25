@@ -1,0 +1,5 @@
+typedef enum _STORAGE_PROTOCOL_ATA_DATA_TYPE {
+  AtaDataTypeUnknown,
+  AtaDataTypeIdentify,
+  AtaDataTypeLogPage
+} STORAGE_PROTOCOL_ATA_DATA_TYPE, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE;

@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._PCI_SECURITY_INTERFACE2",
+  "tech.root": "kernel",
+  "title": "PCI_SECURITY_INTERFACE2",
+  "ms.date": "06/13/2021",
+  "targetos": "Windows",
+  "description": "Defines the PCI_SECURITY_INTERFACE2 structure.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "PCI_SECURITY_INTERFACE2, *PPCI_SECURITY_INTERFACE2",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_PCI_SECURITY_INTERFACE2",
+    "PPCI_SECURITY_INTERFACE2",
+    "PCI_SECURITY_INTERFACE2"
+  ],
+  "f1_keywords": [
+    "_PCI_SECURITY_INTERFACE2",
+    "wdm/_PCI_SECURITY_INTERFACE2",
+    "PPCI_SECURITY_INTERFACE2",
+    "wdm/PPCI_SECURITY_INTERFACE2",
+    "PCI_SECURITY_INTERFACE2",
+    "wdm/PCI_SECURITY_INTERFACE2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

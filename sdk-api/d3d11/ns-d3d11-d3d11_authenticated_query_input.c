@@ -1,0 +1,5 @@
+typedef struct D3D11_AUTHENTICATED_QUERY_INPUT {
+  GUID   QueryType;
+  HANDLE hChannel;
+  UINT   SequenceNumber;
+} D3D11_AUTHENTICATED_QUERY_INPUT;

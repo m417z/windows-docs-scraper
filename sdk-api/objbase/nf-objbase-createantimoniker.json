@@ -1,0 +1,62 @@
+{
+  "UID": "NF:objbase.CreateAntiMoniker",
+  "title": "CreateAntiMoniker function (objbase.h)",
+  "description": "Creates and returns a new anti-moniker.",
+  "helpviewer_keywords": [
+    "CreateAntiMoniker",
+    "CreateAntiMoniker function [COM]",
+    "_com_CreateAntiMoniker",
+    "com.createantimoniker",
+    "objbase/CreateAntiMoniker"
+  ],
+  "old-location": "com\\createantimoniker.htm",
+  "tech.root": "com",
+  "ms.assetid": "1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker",
+  "req.header": "objbase.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateAntiMoniker",
+    "objbase/CreateAntiMoniker"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-com-ole32-l1-4-0.dll",
+    "ext-ms-win-com-ole32-l1-3-0.dll",
+    "ext-ms-win-com-ole32-l1-2-0.dll",
+    "Ole32.dll"
+  ],
+  "api_name": [
+    "CreateAntiMoniker"
+  ],
+  "req.apiset": "ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)"
+}

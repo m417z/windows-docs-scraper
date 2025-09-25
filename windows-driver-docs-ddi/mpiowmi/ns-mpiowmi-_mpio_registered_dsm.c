@@ -1,0 +1,4 @@
+typedef struct _MPIO_REGISTERED_DSM {
+  ULONG          NumberDSMs;
+  DSM_PARAMETERS DsmParameters[1];
+} MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM;

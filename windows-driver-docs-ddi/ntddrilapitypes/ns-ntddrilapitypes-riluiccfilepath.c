@@ -1,0 +1,5 @@
+typedef struct RILUICCFILEPATH {
+  HUICCAPP hUiccApp;
+  DWORD    dwFilePathLen;
+  WORD     wFilePath[8];
+} RILUICCFILEPATH, *LPRILUICCFILEPATH;

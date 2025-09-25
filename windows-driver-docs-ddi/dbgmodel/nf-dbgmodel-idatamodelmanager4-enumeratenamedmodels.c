@@ -1,0 +1,3 @@
+HRESULT EnumerateNamedModels(
+  INamedModelsEnumerator **ppEnumerator
+);

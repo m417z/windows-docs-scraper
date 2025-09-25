@@ -1,0 +1,20 @@
+typedef struct _MINIPORT_DUMP_POINTERS {
+  USHORT                 Version;
+  USHORT                 Size;
+  WCHAR                  DriverName[DUMP_MINIPORT_NAME_LENGTH];
+  struct _ADAPTER_OBJECT *AdapterObject;
+  PVOID                  MappedRegisterBase;
+  ULONG                  CommonBufferSize;
+  PVOID                  MiniportPrivateDumpData;
+  ULONG                  SystemIoBusNumber;
+  INTERFACE_TYPE         AdapterInterfaceType;
+  ULONG                  MaximumTransferLength;
+  ULONG                  NumberOfPhysicalBreaks;
+  ULONG                  AlignmentMask;
+  ULONG                  NumberOfAccessRanges;
+  ACCESS_RANGE( )          *AccessRanges[];
+  UCHAR                  NumberOfBuses;
+  BOOLEAN                Master;
+  BOOLEAN                MapBuffers;
+  UCHAR                  MaximumNumberOfTargets;
+} MINIPORT_DUMP_POINTERS, *PMINIPORT_DUMP_POINTERS;

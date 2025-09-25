@@ -1,0 +1,3 @@
+NOT_BUILD_WINDOWS_DEPRECATE VOID PeerGraphFreeData(
+  [in] PVOID pvData
+);

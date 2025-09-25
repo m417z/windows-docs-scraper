@@ -1,0 +1,48 @@
+{
+  "UID": "NS:storport._STORPORT_CAPTURE_LIVEDUMP",
+  "tech.root": "storage",
+  "title": "STORPORT_CAPTURE_LIVEDUMP",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "The STORPORT_CAPTURE_LIVEDUMP structure contains the data needed to generate a live dump.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "STORPORT_CAPTURE_LIVEDUMP, *PSTORPORT_CAPTURE_LIVEDUMP",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STORPORT_CAPTURE_LIVEDUMP",
+    "PSTORPORT_CAPTURE_LIVEDUMP",
+    "STORPORT_CAPTURE_LIVEDUMP"
+  ],
+  "f1_keywords": [
+    "_STORPORT_CAPTURE_LIVEDUMP",
+    "storport/_STORPORT_CAPTURE_LIVEDUMP",
+    "PSTORPORT_CAPTURE_LIVEDUMP",
+    "storport/PSTORPORT_CAPTURE_LIVEDUMP",
+    "STORPORT_CAPTURE_LIVEDUMP",
+    "storport/STORPORT_CAPTURE_LIVEDUMP"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

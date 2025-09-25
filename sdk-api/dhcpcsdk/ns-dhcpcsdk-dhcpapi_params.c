@@ -1,0 +1,11 @@
+typedef struct _DHCPAPI_PARAMS {
+  ULONG  Flags;
+  ULONG  OptionId;
+  BOOL   IsVendor;
+#if ...
+  LPBYTE Data;
+#else
+  LPBYTE Data;
+#endif
+  DWORD  nBytesData;
+} DHCPAPI_PARAMS, *PDHCPAPI_PARAMS, *LPDHCPAPI_PARAMS, DHCPCAPI_PARAMS, *PDHCPCAPI_PARAMS, *LPDHCPCAPI_PARAMS;

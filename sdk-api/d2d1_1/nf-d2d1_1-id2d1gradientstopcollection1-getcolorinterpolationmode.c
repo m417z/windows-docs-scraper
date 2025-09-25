@@ -1,0 +1,1 @@
+D2D1_COLOR_INTERPOLATION_MODE GetColorInterpolationMode();

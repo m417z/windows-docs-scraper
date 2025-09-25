@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSDEVICE",
+  "title": "PFNKSDEVICE (ks.h)",
+  "description": "An AVStream minidriver's AVStrMiniDevicePostStart routine is called when AVStream performs post-PnP-start processing. Use it to load drivers at start time, for example. Such events then will occur in the context of a worker thread after PnP start.",
+  "old-location": "stream\\avstrminidevicepoststart.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSDEVICE callback function"
+  ],
+  "ms.keywords": "AVStrMiniDevicePostStart, AVStrMiniDevicePostStart routine [Streaming Media Devices], PFNKSDEVICE, avstclbk_2eb05ad1-c345-4625-9f76-f979e3ea7962.xml, ks/AVStrMiniDevicePostStart, stream.avstrminidevicepoststart",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSDEVICE",
+    "ks/PFNKSDEVICE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSDEVICE"
+  ]
+}

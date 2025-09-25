@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2DRAWTRIPATCH {
+  DWORD Handle;
+  DWORD Flags;
+} D3DHAL_DP2DRAWTRIPATCH;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntddk.PGET_LOCATION_STRING",
+  "title": "PGET_LOCATION_STRING (ntddk.h)",
+  "description": "The PnpGetLocationString routine provides the device-specific part of the device's SPDRP_LOCATION_PATHS property.",
+  "old-location": "kernel\\pnpgetlocationstring.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PGET_LOCATION_STRING callback function"
+  ],
+  "ms.keywords": "PGET_LOCATION_STRING, PnpGetLocationString, PnpGetLocationString routine [Kernel-Mode Driver Architecture], drvr_interface_86bd2a9c-408f-430f-9ab7-5c368600de1e.xml, kernel.pnpgetlocationstring, ntddk/PnpGetLocationString",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows Server 2003.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PGET_LOCATION_STRING",
+    "ntddk/PGET_LOCATION_STRING"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PGET_LOCATION_STRING"
+  ]
+}

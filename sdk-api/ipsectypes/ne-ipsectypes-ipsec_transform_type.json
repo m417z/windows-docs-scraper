@@ -1,0 +1,71 @@
+{
+  "UID": "NE:ipsectypes.IPSEC_TRANSFORM_TYPE_",
+  "title": "IPSEC_TRANSFORM_TYPE (ipsectypes.h)",
+  "description": "Indicates the type of an IPsec security association (SA) transform.",
+  "helpviewer_keywords": [
+    "IPSEC_TRANSFORM_AH",
+    "IPSEC_TRANSFORM_ESP_AUTH",
+    "IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER",
+    "IPSEC_TRANSFORM_ESP_AUTH_FW",
+    "IPSEC_TRANSFORM_ESP_CIPHER",
+    "IPSEC_TRANSFORM_TYPE",
+    "IPSEC_TRANSFORM_TYPE enumeration [Filtering]",
+    "IPSEC_TRANSFORM_TYPE_MAX",
+    "fwp.ipsec_transform_type_enum",
+    "ipsectypes/IPSEC_TRANSFORM_AH",
+    "ipsectypes/IPSEC_TRANSFORM_ESP_AUTH",
+    "ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER",
+    "ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_FW",
+    "ipsectypes/IPSEC_TRANSFORM_ESP_CIPHER",
+    "ipsectypes/IPSEC_TRANSFORM_TYPE",
+    "ipsectypes/IPSEC_TRANSFORM_TYPE_MAX"
+  ],
+  "old-location": "fwp\\ipsec_transform_type_enum.htm",
+  "tech.root": "fwp",
+  "ms.assetid": "068f17f2-8696-4419-9daa-d8f6486e39a3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IPSEC_TRANSFORM_AH, IPSEC_TRANSFORM_ESP_AUTH, IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, IPSEC_TRANSFORM_ESP_AUTH_FW, IPSEC_TRANSFORM_ESP_CIPHER, IPSEC_TRANSFORM_TYPE, IPSEC_TRANSFORM_TYPE enumeration [Filtering], IPSEC_TRANSFORM_TYPE_MAX, fwp.ipsec_transform_type_enum, ipsectypes/IPSEC_TRANSFORM_AH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_FW, ipsectypes/IPSEC_TRANSFORM_ESP_CIPHER, ipsectypes/IPSEC_TRANSFORM_TYPE, ipsectypes/IPSEC_TRANSFORM_TYPE_MAX",
+  "req.header": "ipsectypes.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Ipsectypes.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IPSEC_TRANSFORM_TYPE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPSEC_TRANSFORM_TYPE_",
+    "ipsectypes/IPSEC_TRANSFORM_TYPE_",
+    "IPSEC_TRANSFORM_TYPE",
+    "ipsectypes/IPSEC_TRANSFORM_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ipsectypes.h"
+  ],
+  "api_name": [
+    "IPSEC_TRANSFORM_TYPE"
+  ]
+}

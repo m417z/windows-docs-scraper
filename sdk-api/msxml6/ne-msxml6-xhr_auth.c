@@ -1,0 +1,5 @@
+typedef enum _XHR_AUTH {
+  XHR_AUTH_ALL = 0,
+  XHR_AUTH_NONE = 0x1,
+  XHR_AUTH_PROXY = 0x2
+} XHR_AUTH;

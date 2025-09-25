@@ -1,0 +1,6 @@
+typedef enum _WDF_PROPERTY_STORE_ROOT_CLASS {
+  WdfPropertyStoreRootClassHardwareKey,
+  WdfPropertyStoreRootClassSoftwareKey,
+  WdfPropertyStoreRootClassDeviceInterfaceKey,
+  WdfPropertyStoreRootClassLegacyHardwareKey
+} WDF_PROPERTY_STORE_ROOT_CLASS;

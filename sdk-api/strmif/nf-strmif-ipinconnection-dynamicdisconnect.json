@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IPinConnection.DynamicDisconnect",
+  "title": "IPinConnection::DynamicDisconnect (strmif.h)",
+  "description": "The DynamicDisconnect method disconnects the pin when the filter is active (paused or running). Call this method instead of IPin::Disconnect to disconnect a pin when the graph is running or paused.",
+  "helpviewer_keywords": [
+    "DynamicDisconnect",
+    "DynamicDisconnect method [DirectShow]",
+    "DynamicDisconnect method [DirectShow]",
+    "IPinConnection interface",
+    "IPinConnection interface [DirectShow]",
+    "DynamicDisconnect method",
+    "IPinConnection.DynamicDisconnect",
+    "IPinConnection::DynamicDisconnect",
+    "IPinConnectionDynamicDisconnect",
+    "dshow.ipinconnection_dynamicdisconnect",
+    "strmif/IPinConnection::DynamicDisconnect"
+  ],
+  "old-location": "dshow\\ipinconnection_dynamicdisconnect.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "44a5a219-fd42-4fe1-a767-f74d01d86012",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "DynamicDisconnect, DynamicDisconnect method [DirectShow], DynamicDisconnect method [DirectShow],IPinConnection interface, IPinConnection interface [DirectShow],DynamicDisconnect method, IPinConnection.DynamicDisconnect, IPinConnection::DynamicDisconnect, IPinConnectionDynamicDisconnect, dshow.ipinconnection_dynamicdisconnect, strmif/IPinConnection::DynamicDisconnect",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPinConnection::DynamicDisconnect",
+    "strmif/IPinConnection::DynamicDisconnect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IPinConnection.DynamicDisconnect"
+  ]
+}

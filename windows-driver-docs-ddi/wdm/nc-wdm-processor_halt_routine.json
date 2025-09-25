@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PROCESSOR_HALT_ROUTINE",
+  "title": "PROCESSOR_HALT_ROUTINE (wdm.h)",
+  "description": "A Halt callback routine transitions the processor to an idle state.",
+  "old-location": "kernel\\halt.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PROCESSOR_HALT_ROUTINE callback function"
+  ],
+  "ms.keywords": "Halt, Halt routine [Kernel-Mode Driver Architecture], PROCESSOR_HALT_ROUTINE, kernel.halt, wdm/Halt",
+  "req.header": "wdm.h",
+  "req.include-header": "Pepfx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PROCESSOR_HALT_ROUTINE",
+    "wdm/PROCESSOR_HALT_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "PROCESSOR_HALT_ROUTINE"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT ValidateMethodFlags(
+  long lFlags
+);

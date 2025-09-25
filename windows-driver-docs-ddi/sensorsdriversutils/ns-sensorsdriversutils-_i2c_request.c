@@ -1,0 +1,4 @@
+typedef struct _I2C_REQUEST {
+  UCHAR RegAddress;
+  UCHAR Value[I2C_MAX_DATA_LENGTH];
+} I2C_REQUEST, *PI2C_REQUEST;

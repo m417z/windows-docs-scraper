@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ks.KSPROPERTY_ITEM",
+  "title": "KSPROPERTY_ITEM (ks.h)",
+  "description": "Drivers use the KSPROPERTY_ITEM structure to describe how they support a property in a property set.",
+  "tech.root": "stream",
+  "ms.date": "03/06/2023",
+  "keywords": [
+    "KSPROPERTY_ITEM structure"
+  ],
+  "ms.keywords": "*PKSPROPERTY_ITEM, KSPROPERTY_ITEM, KSPROPERTY_ITEM structure [Streaming Media Devices], PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, ks/KSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, stream.ksproperty_item",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSPROPERTY_ITEM, *PKSPROPERTY_ITEM",
+  "f1_keywords": [
+    "PKSPROPERTY_ITEM",
+    "ks/PKSPROPERTY_ITEM",
+    "KSPROPERTY_ITEM",
+    "ks/KSPROPERTY_ITEM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PKSPROPERTY_ITEM",
+    "KSPROPERTY_ITEM"
+  ]
+}

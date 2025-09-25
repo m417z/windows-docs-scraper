@@ -1,0 +1,3 @@
+HRESULT SetFriendlyName(
+  LPWSTR pwszFriendlyName
+);

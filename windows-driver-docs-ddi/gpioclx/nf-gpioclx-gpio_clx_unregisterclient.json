@@ -1,0 +1,49 @@
+{
+  "UID": "NF:gpioclx.GPIO_CLX_UnregisterClient",
+  "title": "GPIO_CLX_UnregisterClient function (gpioclx.h)",
+  "description": "The GPIO_CLX_UnregisterClient method removes a general-purpose I/O (GPIO) controller driver's registration with the GPIO framework extension (GpioClx).",
+  "old-location": "gpio\\gpio_clx_unregisterclient.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "GPIO_CLX_UnregisterClient function"
+  ],
+  "ms.keywords": "GPIO.gpio_clx_unregisterclient, GPIO_CLX_UnregisterClient, GPIO_CLX_UnregisterClient method [Parallel Ports], gpioclx/GPIO_CLX_UnregisterClient",
+  "req.header": "gpioclx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msgpioclxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GPIO_CLX_UnregisterClient",
+    "gpioclx/GPIO_CLX_UnregisterClient"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Msgpioclxstub.lib",
+    "Msgpioclxstub.dll"
+  ],
+  "api_name": [
+    "GPIO_CLX_UnregisterClient"
+  ]
+}

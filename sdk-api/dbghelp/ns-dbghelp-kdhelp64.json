@@ -1,0 +1,70 @@
+{
+  "UID": "NS:dbghelp._KDHELP64",
+  "title": "KDHELP64 (dbghelp.h)",
+  "description": "Information that is used by kernel debuggers to trace through user-mode callbacks in a thread's kernel stack. (KDHELP64)",
+  "helpviewer_keywords": [
+    "*PKDHELP64",
+    "KDHELP",
+    "KDHELP structure",
+    "KDHELP64",
+    "KDHELP64 structure",
+    "PKDHELP64",
+    "PKDHELP64 structure pointer",
+    "_KDHELP64",
+    "_win32_kdhelp64_str",
+    "base.kdhelp64_str",
+    "dbghelp/KDHELP64",
+    "dbghelp/PKDHELP64"
+  ],
+  "old-location": "base\\kdhelp64_str.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "da31c92c-0257-4ae2-8d69-ea8cd58adc10",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PKDHELP64, KDHELP, KDHELP structure, KDHELP64, KDHELP64 structure, PKDHELP64, PKDHELP64 structure pointer, _KDHELP64, _win32_kdhelp64_str, base.kdhelp64_str, dbghelp/KDHELP64, dbghelp/PKDHELP64",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KDHELP64, *PKDHELP64",
+  "req.redist": "DbgHelp.dll 5.1 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_KDHELP64",
+    "dbghelp/_KDHELP64",
+    "PKDHELP64",
+    "dbghelp/PKDHELP64",
+    "KDHELP64",
+    "dbghelp/KDHELP64"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DbgHelp.h"
+  ],
+  "api_name": [
+    "KDHELP64",
+    "KDHELP"
+  ]
+}

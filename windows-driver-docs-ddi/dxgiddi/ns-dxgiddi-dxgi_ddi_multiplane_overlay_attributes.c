@@ -1,0 +1,19 @@
+typedef struct DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES {
+  UINT                                           Flags;
+  RECT                                           SrcRect;
+  RECT                                           DstRect;
+  RECT                                           ClipRect;
+  DXGI_DDI_MODE_ROTATION                         Rotation;
+  DXGI_DDI_MULTIPLANE_OVERLAY_BLEND              Blend;
+  UINT                                           DirtyRectCount;
+  RECT                                           *pDirtyRects;
+  UINT                                           NumFilters;
+  void                                           *pFilters;
+  DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT VideoFrameFormat;
+  UINT                                           YCbCrFlags;
+  DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT      StereoFormat;
+  BOOL                                           StereoLeftViewFrame0;
+  BOOL                                           StereoBaseViewFrame0;
+  DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE   StereoFlipMode;
+  DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY    StretchQuality;
+} DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES;

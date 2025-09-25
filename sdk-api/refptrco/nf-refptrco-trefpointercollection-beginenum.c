@@ -1,0 +1,3 @@
+BOOL BeginEnum(
+  [ref] REFPTRCOLLECTION_POSITION & pos
+);

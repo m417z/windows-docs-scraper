@@ -1,0 +1,3 @@
+USHORT READ_REGISTER_USHORT(
+  _In_ PUSHORT Register
+);

@@ -1,0 +1,60 @@
+{
+  "UID": "NF:powersetting.PowerGetActiveScheme",
+  "title": "PowerGetActiveScheme function (powersetting.h)",
+  "description": "Retrieves the active power scheme and returns a GUID that identifies the scheme.",
+  "helpviewer_keywords": [
+    "PowerGetActiveScheme",
+    "PowerGetActiveScheme function",
+    "base.powergetactivescheme",
+    "powersetting/PowerGetActiveScheme",
+    "powrprof/PowerGetActiveScheme"
+  ],
+  "old-location": "base\\powergetactivescheme.htm",
+  "tech.root": "base",
+  "ms.assetid": "cd72562c-8987-40c1-89c7-04a95b5f1fd0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PowerGetActiveScheme, PowerGetActiveScheme function, base.powergetactivescheme, powersetting/PowerGetActiveScheme, powrprof/PowerGetActiveScheme",
+  "req.header": "powersetting.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "PowrProf.lib",
+  "req.dll": "PowrProf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PowerGetActiveScheme",
+    "powersetting/PowerGetActiveScheme"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-power-setting-l1-1-1.dll",
+    "PowrProf.dll",
+    "API-MS-Win-power-setting-l1-1-0.dll"
+  ],
+  "api_name": [
+    "PowerGetActiveScheme"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ucxusbdevice.EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD",
+  "title": "EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD (ucxusbdevice.h)",
+  "description": "The client driver's implementation that UCX calls to add a new default endpoint for a USB device.",
+  "old-location": "buses\\evt_ucx_usbdevice_default_endpoint_add.htm",
+  "tech.root": "usbref",
+  "ms.date": "01/14/2022",
+  "keywords": [
+    "EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function"
+  ],
+  "ms.keywords": "EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd",
+  "req.header": "ucxusbdevice.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD",
+    "ucxusbdevice/EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ucxusbdevice.h"
+  ],
+  "api_name": [
+    "EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD"
+  ]
+}

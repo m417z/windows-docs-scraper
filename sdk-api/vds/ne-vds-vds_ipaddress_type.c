@@ -1,0 +1,6 @@
+typedef enum VDS_IPADDRESS_TYPE {
+  VDS_IPT_TEXT = 0,
+  VDS_IPT_IPV4 = 1,
+  VDS_IPT_IPV6 = 2,
+  VDS_IPT_EMPTY = 3
+} ;

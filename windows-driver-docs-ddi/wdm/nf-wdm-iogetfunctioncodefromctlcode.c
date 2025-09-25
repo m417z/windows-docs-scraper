@@ -1,0 +1,3 @@
+void IoGetFunctionCodeFromCtlCode(
+  [in] ControlCode
+);

@@ -1,0 +1,144 @@
+# DFS_INFO_107 structure
+
+## Description
+
+Contains information about a DFS root or link, including the comment, state, time-out, property flags,
+and link reparse point security descriptor. This structure is only for use with the
+[NetDfsGetInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo) and
+[NetDfsSetInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo) functions.
+
+## Members
+
+### `Comment`
+
+Pointer to a null-terminated Unicode string that contains a comment associated with the DFS root or
+link.
+
+### `State`
+
+Specifies a set of bit flags that describe the DFS root or link. One
+**DFS_VOLUME_STATE** flag is set, and one **DFS_VOLUME_FLAVOR** flag
+is set. The **DFS_VOLUME_FLAVORS** bitmask (0x00000300) must be used to extract the DFS
+namespace flavor, and the **DFS_VOLUME_STATES** bitmask (0x0000000F) must be used to
+extract the DFS root or link state from this member. For an example that describes the interpretation of the
+flags, see the Remarks section of [DFS_INFO_2](https://learn.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2).
+
+#### DFS_VOLUME_STATE_OK (0x00000001)
+
+The specified DFS root or link is in the normal state.
+
+#### DFS_VOLUME_STATE_INCONSISTENT (0x00000002)
+
+The internal DFS database is inconsistent with the specified DFS root or link. Attempts to repair the
+inconsistency have failed.
+
+#### DFS_VOLUME_STATE_OFFLINE (0x00000003)
+
+The specified DFS root or link is offline or unavailable.
+
+#### DFS_VOLUME_STATE_ONLINE (0x00000004)
+
+The specified DFS root or link is available.
+
+#### DFS_VOLUME_FLAVOR_STANDALONE (0x00000100)
+
+The system sets this flag if the root is associated with a stand-alone DFS namespace.
+
+#### DFS_VOLUME_FLAVOR_AD_BLOB (0x00000200)
+
+The system sets this flag if the root is associated with a domain-based DFS namespace.
+
+### `Timeout`
+
+Specifies the time-out, in seconds, of the DFS root or link.
+
+### `PropertyFlagMask`
+
+Specifies a mask value that indicates which flags are valid for evaluation in the
+**PropertyFlags** field.
+
+### `PropertyFlags`
+
+Bitfield, with each bit responsible for a specific property applicable to the whole DFS namespace, the DFS
+root, or an individual DFS link, depending on the actual property. Any combination of bits is allowed unless
+indicated otherwise.
+
+#### DFS_PROPERTY_FLAG_INSITE_REFERRALS (0x00000001)
+
+Referral response from a DFS server for a DFS root or link that contains only those targets in the same
+site as the client requesting the referral. Targets in the two global priority classes are always returned,
+regardless of their site location. This flag applies to domain-based DFS roots, stand-alone DFS roots, and
+DFS links. If this flag is set at the DFS root, it applies to all links; otherwise, it applies to an
+individual link. The setting at the link does not override the root setting.
+
+#### DFS_PROPERTY_FLAG_ROOT_SCALABILITY (0x00000002)
+
+If this flag is set, the DFS server polls the nearest domain controller (DC) instead of the primary domain
+controller (PDC) to check for DFS namespace changes for that namespace. Any modification to the DFS metadata
+by the DFS server is not controlled by this flag but is sent to the PDC. This flag is valid for the entire
+namespace and applies only to domain-based DFS namespaces.
+
+#### DFS_PROPERTY_FLAG_SITE_COSTING (0x00000004)
+
+Set this flag to enable Active Directory site costing of targets. Targets returned from the DFS server to
+the requesting DFS client are grouped by inter-site cost with respect to the DFS client. The groups are
+ordered in terms of increasing site cost with the first group consisting of targets in the same site as the
+client. Targets within each group are ordered randomly.
+
+If this flag is not enabled, the default return is two sets: one set of targets in the same site as the
+client, and one set of all remaining targets. This flag is valid for the entire DFS namespace and applies to
+both domain-based and stand-alone DFS namespaces.
+
+Target priorities can further influence target ordering. For more information on how site-costing is used
+to prioritize targets, see
+[DFS Server Target Prioritization](https://learn.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization).
+
+#### DFS_PROPERTY_FLAG_TARGET_FAILBACK (0x00000008)
+
+Set this flag to enable V4 DFS clients to fail back to a more optimal (lower cost or higher priority)
+target. If this flag is set at the DFS root, it applies to all links; otherwise, it applies to an individual
+link. An individual link setting will not override a root setting. The target failback setting is provided to
+the DFS client in a V4 referral response by the DFS server. This flag applies to domain-based roots,
+stand-alone roots, and links.
+
+#### DFS_PROPERTY_FLAG_CLUSTER_ENABLED (0x00000010)
+
+If this flag is set, the DFS root is clustered to provide high availability for storage failover. This
+flag cannot be set using the [NetDfsSetInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo) function
+and applies only to stand-alone DFS roots and links.
+
+#### DFS_PROPERTY_FLAG_ABDE (0x00000020)
+
+Scope: Domain-based DFS roots and stand-alone DFS roots.
+
+When this flag is set, Access-Based Directory Enumeration (ABDE) mode support is enabled on the entire DFS
+root target share of the DFS namespace. This flag is valid only for DFS namespaces for which the
+**DFS_NAMESPACE_CAPABILITY_ABDE** capability flag is set. For more information, see
+[DFS_INFO_50](https://learn.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_50) and
+[DFS_SUPPORTED_NAMESPACE_VERSION_INFO](https://learn.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info).
+
+The **DFS_PROPERTY_FLAG_ABDE** flag is valid only on the DFS namespace root and not
+on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a
+DFS link.
+
+### `SecurityDescriptorLength`
+
+### `pSecurityDescriptor.size_is`
+
+### `pSecurityDescriptor.size_is.SecurityDescriptorLength`
+
+### `SdLengthReserved`
+
+This member is reserved for system use.
+
+### `pSecurityDescriptor`
+
+Pointer to a [SECURITY_DESCRIPTOR](https://learn.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
+structure that specifies a self-relative security descriptor to be associated with the DFS link's reparse point.
+This field is valid for DFS links only.
+
+## See also
+
+[Distributed File System Functions](https://learn.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions)
+
+[NetDfsSetInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo)

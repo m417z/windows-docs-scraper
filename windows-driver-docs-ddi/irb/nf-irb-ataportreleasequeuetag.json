@@ -1,0 +1,51 @@
+{
+  "UID": "NF:irb.AtaPortReleaseQueueTag",
+  "title": "AtaPortReleaseQueueTag function (irb.h)",
+  "description": "The AtaPortReleaseQueueTag routine releases the specified queue tag.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ataportreleasequeuetag.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortReleaseQueueTag function"
+  ],
+  "ms.keywords": "AtaPortReleaseQueueTag, AtaPortReleaseQueueTag routine [Storage Devices], atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml, irb/AtaPortReleaseQueueTag, storage.ataportreleasequeuetag",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ataport.lib; Pciidex.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortReleaseQueueTag",
+    "irb/AtaPortReleaseQueueTag"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ataport.lib",
+    "ataport.dll",
+    "pciidex.lib",
+    "pciidex.dll"
+  ],
+  "api_name": [
+    "AtaPortReleaseQueueTag"
+  ]
+}

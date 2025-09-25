@@ -1,0 +1,4 @@
+typedef struct _SEC_APPLICATION_PROTOCOLS {
+  unsigned long                 ProtocolListsSize;
+  SEC_APPLICATION_PROTOCOL_LIST ProtocolLists[ANYSIZE_ARRAY];
+} SEC_APPLICATION_PROTOCOLS, *PSEC_APPLICATION_PROTOCOLS;

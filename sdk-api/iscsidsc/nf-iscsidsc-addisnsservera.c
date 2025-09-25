@@ -1,0 +1,3 @@
+ISDSC_STATUS ISDSC_API AddISNSServerA(
+  [in] PSTR Address
+);

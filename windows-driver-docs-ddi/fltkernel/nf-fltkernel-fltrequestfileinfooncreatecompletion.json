@@ -1,0 +1,45 @@
+{
+  "UID": "NF:fltkernel.FltRequestFileInfoOnCreateCompletion",
+  "title": "FltRequestFileInfoOnCreateCompletion function",
+  "description": "A minifilter calls FltRequestFileInfoOnCreateCompletion during file pre-create to request that the file system stores the specified file information for retrieval upon create complete.",
+  "tech.root": "ifsk",
+  "ms.date": "01/11/2019",
+  "keywords": [
+    "FltRequestFileInfoOnCreateCompletion function"
+  ],
+  "ms.keywords": "FltRequestFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletionEx",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "FltRequestFileInfoOnCreateCompletion",
+    "fltkernel/FltRequestFileInfoOnCreateCompletion"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "FltRequestFileInfoOnCreateCompletion"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wlanapi.WlanGetSupportedDeviceServices",
+  "title": "WlanGetSupportedDeviceServices",
+  "description": "Retrieves a list of the supported device services on a given wireless LAN interface.",
+  "tech.root": "nwifi",
+  "helpviewer_keywords": [
+    "WlanGetSupportedDeviceServices"
+  ],
+  "ms.date": "01/07/2019",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wlanapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wlanapi.dll"
+  ],
+  "api_name": [
+    "WlanGetSupportedDeviceServices"
+  ],
+  "f1_keywords": [
+    "WlanGetSupportedDeviceServices",
+    "wlanapi/WlanGetSupportedDeviceServices"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

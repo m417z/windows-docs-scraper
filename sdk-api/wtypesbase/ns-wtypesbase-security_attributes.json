@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wtypesbase._SECURITY_ATTRIBUTES",
+  "tech.root": "com",
+  "title": "SECURITY_ATTRIBUTES",
+  "ms.date": "03/23/2021",
+  "targetos": "Windows",
+  "description": "The SECURITY_ATTRIBUTES structure contains the security descriptor for an object and specifies whether the handle retrieved by specifying this structure is inheritable.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wtypesbase.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.target-type": null,
+  "req.typenames": "SECURITY_ATTRIBUTES, *PSECURITY_ATTRIBUTES, *LPSECURITY_ATTRIBUTES",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wtypesbase.h"
+  ],
+  "api_name": [
+    "_SECURITY_ATTRIBUTES",
+    "PSECURITY_ATTRIBUTES",
+    "SECURITY_ATTRIBUTES"
+  ],
+  "f1_keywords": [
+    "_SECURITY_ATTRIBUTES",
+    "wtypesbase/_SECURITY_ATTRIBUTES",
+    "PSECURITY_ATTRIBUTES",
+    "wtypesbase/PSECURITY_ATTRIBUTES",
+    "SECURITY_ATTRIBUTES",
+    "wtypesbase/SECURITY_ATTRIBUTES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

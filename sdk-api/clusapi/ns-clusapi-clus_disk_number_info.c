@@ -1,0 +1,4 @@
+typedef struct _CLUS_DISK_NUMBER_INFO {
+  DWORD DiskNumber;
+  DWORD BytesPerSector;
+} CLUS_DISK_NUMBER_INFO, *PCLUS_DISK_NUMBER_INFO;

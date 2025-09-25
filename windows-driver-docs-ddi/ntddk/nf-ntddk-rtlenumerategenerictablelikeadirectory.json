@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.RtlEnumerateGenericTableLikeADirectory",
+  "title": "RtlEnumerateGenericTableLikeADirectory function (ntddk.h)",
+  "description": "The RtlEnumerateGenericTableLikeADirectory routine returns the elements of a generic table, one-by-one, in collation order.",
+  "tech.root": "ifsk",
+  "ms.date": "01/10/2023",
+  "keywords": [
+    "RtlEnumerateGenericTableLikeADirectory function"
+  ],
+  "ms.keywords": "RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], ifsk.rtlenumerategenerictablelikeadirectory, ntddk/RtlEnumerateGenericTableLikeADirectory, rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h, FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlEnumerateGenericTableLikeADirectory",
+    "ntddk/RtlEnumerateGenericTableLikeADirectory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlEnumerateGenericTableLikeADirectory"
+  ]
+}

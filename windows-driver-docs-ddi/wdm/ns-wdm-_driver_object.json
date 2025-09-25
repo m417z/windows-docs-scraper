@@ -1,0 +1,49 @@
+{
+  "UID": "NS:wdm._DRIVER_OBJECT",
+  "title": "DRIVER_OBJECT (wdm.h)",
+  "description": "Each driver object represents the image of a loaded kernel-mode driver.",
+  "tech.root": "kernel",
+  "ms.date": "07/31/2025",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DRIVER_OBJECT, *PDRIVER_OBJECT",
+  "f1_keywords": [
+    "_DRIVER_OBJECT",
+    "wdm/_DRIVER_OBJECT",
+    "PDRIVER_OBJECT",
+    "wdm/PDRIVER_OBJECT",
+    "DRIVER_OBJECT",
+    "wdm/DRIVER_OBJECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_DRIVER_OBJECT",
+    "PDRIVER_OBJECT",
+    "DRIVER_OBJECT"
+  ]
+}

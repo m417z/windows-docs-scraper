@@ -1,0 +1,3 @@
+HRESULT GetInlinedFunction(
+  IDebugHostSymbol **inlineFunction
+);

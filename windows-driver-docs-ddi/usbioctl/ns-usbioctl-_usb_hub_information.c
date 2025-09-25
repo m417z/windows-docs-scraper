@@ -1,0 +1,4 @@
+typedef struct _USB_HUB_INFORMATION {
+  USB_HUB_DESCRIPTOR HubDescriptor;
+  BOOLEAN            HubIsBusPowered;
+} USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION;

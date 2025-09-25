@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndCanWindow",
+  "title": "MCIWndCanWindow macro (vfw.h)",
+  "description": "The MCIWndCanWindow macro determines if an MCI device supports window-oriented MCI commands. You can use this macro or explicitly send the MCIWNDM_CAN_WINDOW message.",
+  "helpviewer_keywords": [
+    "MCIWndCanWindow",
+    "MCIWndCanWindow macro [Windows Multimedia]",
+    "_win32_MCIWndCanWindow",
+    "multimedia.mciwndcanwindow",
+    "vfw/MCIWndCanWindow"
+  ],
+  "old-location": "multimedia\\mciwndcanwindow.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "2db1d83a-3e03-474e-b36e-8b3b3e3faa82",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndCanWindow, MCIWndCanWindow macro [Windows Multimedia], _win32_MCIWndCanWindow, multimedia.mciwndcanwindow, vfw/MCIWndCanWindow",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndCanWindow",
+    "vfw/MCIWndCanWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndCanWindow"
+  ]
+}

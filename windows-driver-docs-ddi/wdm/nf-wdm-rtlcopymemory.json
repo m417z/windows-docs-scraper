@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.RtlCopyMemory",
+  "title": "RtlCopyMemory macro (wdm.h)",
+  "description": "Learn how the RtlCopyMemory routine copies the contents of a source memory block to a destination memory block.",
+  "tech.root": "kernel",
+  "ms.date": "01/18/2023",
+  "keywords": [
+    "RtlCopyMemory macro"
+  ],
+  "ms.keywords": "RtlCopyBytes, RtlCopyMemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, kernel.rtlcopymemory, wdm/RtlCopyMemory",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtDll.dll (user mode); NtosKrnl.exe (kernel mode)",
+  "req.irql": "Any level (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlCopyMemory",
+    "wdm/RtlCopyMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtDll.dll",
+    "NtosKrnl.exe",
+    "API-MS-Win-Core-Rtlsupport-l1-1-0.dll"
+  ],
+  "api_name": [
+    "RtlCopyMemory"
+  ]
+}

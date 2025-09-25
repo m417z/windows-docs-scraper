@@ -1,0 +1,3 @@
+HRESULT NotifyParent(
+  IModelObject *parentModel
+);

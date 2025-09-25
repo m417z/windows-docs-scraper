@@ -1,0 +1,53 @@
+{
+  "UID": "NS:strmini._ACCESS_RANGE",
+  "title": "ACCESS_RANGE (strmini.h)",
+  "description": "Learn how an ACCESS_RANGE structure (strmini.h) describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.",
+  "tech.root": "storage",
+  "ms.date": "01/04/2023",
+  "keywords": [
+    "ACCESS_RANGE structure"
+  ],
+  "ms.keywords": "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml",
+  "req.header": "strmini.h",
+  "req.include-header": "Srb.h, Storport.h, Strmini.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ACCESS_RANGE, *PACCESS_RANGE",
+  "f1_keywords": [
+    "_ACCESS_RANGE",
+    "strmini/_ACCESS_RANGE",
+    "PACCESS_RANGE",
+    "strmini/PACCESS_RANGE",
+    "ACCESS_RANGE",
+    "strmini/ACCESS_RANGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "srb.h"
+  ],
+  "api_name": [
+    "_ACCESS_RANGE",
+    "PACCESS_RANGE",
+    "ACCESS_RANGE"
+  ]
+}

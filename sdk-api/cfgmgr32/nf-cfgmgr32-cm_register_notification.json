@@ -1,0 +1,60 @@
+{
+  "UID": "NF:cfgmgr32.CM_Register_Notification",
+  "title": "CM_Register_Notification function (cfgmgr32.h)",
+  "description": "The CM_Register_Notification function registers an application callback routine to be called when a PnP event of the specified type occurs.",
+  "helpviewer_keywords": [
+    "CM_Register_Notification",
+    "CM_Register_Notification function [Device and Driver Installation]",
+    "cfgmgr32/CM_Register_Notification",
+    "devinst.cm_register_notification"
+  ],
+  "old-location": "devinst\\cm_register_notification.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "15847F9C-9F2A-453F-9EF8-0AF63CFF93C9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CM_Register_Notification, CM_Register_Notification function [Device and Driver Installation], cfgmgr32/CM_Register_Notification, devinst.cm_register_notification",
+  "req.header": "cfgmgr32.h",
+  "req.include-header": "Cfgmgr32.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 8 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cfgmgr32.lib; OneCoreUAP.lib on Windows 10",
+  "req.dll": "CfgMgr32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CM_Register_Notification",
+    "cfgmgr32/CM_Register_Notification"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-config-l1-1-2.dll",
+    "CfgMgr32.dll",
+    "API-MS-Win-devices-config-l1-1-0.dll",
+    "API-MS-Win-devices-config-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CM_Register_Notification"
+  ]
+}

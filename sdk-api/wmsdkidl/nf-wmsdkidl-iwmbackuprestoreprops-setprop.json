@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMBackupRestoreProps.SetProp",
+  "title": "IWMBackupRestoreProps::SetProp (wmsdkidl.h)",
+  "description": "The SetProp method adds a property, and specifies its name and value.",
+  "helpviewer_keywords": [
+    "IWMBackupRestoreProps interface [windows Media Format]",
+    "SetProp method",
+    "IWMBackupRestoreProps.SetProp",
+    "IWMBackupRestoreProps::SetProp",
+    "IWMBackupRestorePropsSetProp",
+    "SetProp",
+    "SetProp method [windows Media Format]",
+    "SetProp method [windows Media Format]",
+    "IWMBackupRestoreProps interface",
+    "wmformat.iwmbackuprestoreprops_setprop",
+    "wmsdkidl/IWMBackupRestoreProps::SetProp"
+  ],
+  "old-location": "wmformat\\iwmbackuprestoreprops_setprop.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "582c1590-8855-409c-9964-a0fb7baa05bd",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMBackupRestoreProps interface [windows Media Format],SetProp method, IWMBackupRestoreProps.SetProp, IWMBackupRestoreProps::SetProp, IWMBackupRestorePropsSetProp, SetProp, SetProp method [windows Media Format], SetProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_setprop, wmsdkidl/IWMBackupRestoreProps::SetProp",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMBackupRestoreProps::SetProp",
+    "wmsdkidl/IWMBackupRestoreProps::SetProp"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMBackupRestoreProps.SetProp"
+  ]
+}

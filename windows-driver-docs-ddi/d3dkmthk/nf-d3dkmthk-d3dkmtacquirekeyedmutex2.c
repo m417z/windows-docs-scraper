@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTAcquireKeyedMutex2(
+  D3DKMT_ACQUIREKEYEDMUTEX2 *unnamedParam1
+);

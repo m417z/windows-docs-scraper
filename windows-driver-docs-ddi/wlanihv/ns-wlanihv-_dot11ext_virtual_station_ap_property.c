@@ -1,0 +1,8 @@
+typedef struct _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY {
+  DOT11_SSID             dot11SSID;
+  DOT11_AUTH_ALGORITHM   dot11AuthAlgo;
+  DOT11_CIPHER_ALGORITHM dot11CipherAlgo;
+  BOOL                   bIsPassPhrase;
+  DWORD                  dwKeyLength;
+  UCHAR                  ucKeyData[DOT11EXT_PSK_MAX_LENGTH];
+} DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, *PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY;

@@ -1,0 +1,61 @@
+{
+  "UID": "NC:resapi.PRELEASE_ROUTINE",
+  "title": "PRELEASE_ROUTINE (resapi.h)",
+  "description": "Releases the quorum resource from arbitration.",
+  "helpviewer_keywords": [
+    "PRELEASE_ROUTINE",
+    "PRELEASE_ROUTINE callback",
+    "Release",
+    "Release callback function [Failover Cluster]",
+    "_wolf_release",
+    "mscs.release",
+    "resapi/PRELEASE_ROUTINE",
+    "resapi/Release"
+  ],
+  "old-location": "mscs\\release.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "9e8e4557-b223-4f8f-9393-67f589181754",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PRELEASE_ROUTINE",
+    "resapi/PRELEASE_ROUTINE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ResApi.h"
+  ],
+  "api_name": [
+    "Release"
+  ]
+}

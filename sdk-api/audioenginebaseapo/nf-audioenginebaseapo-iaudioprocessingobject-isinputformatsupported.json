@@ -1,0 +1,65 @@
+{
+  "UID": "NF:audioenginebaseapo.IAudioProcessingObject.IsInputFormatSupported",
+  "title": "IAudioProcessingObject::IsInputFormatSupported (audioenginebaseapo.h)",
+  "description": "This method negotiates with the Windows Vista audio engine to establish a data format for the stream of audio data.",
+  "helpviewer_keywords": [
+    "IAudioProcessingObject interface [Audio Devices]",
+    "IsInputFormatSupported method",
+    "IAudioProcessingObject.IsInputFormatSupported",
+    "IAudioProcessingObject::IsInputFormatSupported",
+    "IsInputFormatSupported",
+    "IsInputFormatSupported method [Audio Devices]",
+    "IsInputFormatSupported method [Audio Devices]",
+    "IAudioProcessingObject interface",
+    "audio.iaudioprocessingobject_isinputformatsupported",
+    "audio_syseffects_r_d9f38647-9d9e-4776-98d4-1a9904271dc1.xml",
+    "audioenginebaseapo/IAudioProcessingObject::IsInputFormatSupported"
+  ],
+  "old-location": "audio\\iaudioprocessingobject_isinputformatsupported.htm",
+  "tech.root": "audio",
+  "ms.assetid": "11eebb5d-21fd-48f7-8929-cd2612a3f451",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IAudioProcessingObject interface [Audio Devices],IsInputFormatSupported method, IAudioProcessingObject.IsInputFormatSupported, IAudioProcessingObject::IsInputFormatSupported, IsInputFormatSupported, IsInputFormatSupported method [Audio Devices], IsInputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isinputformatsupported, audio_syseffects_r_d9f38647-9d9e-4776-98d4-1a9904271dc1.xml, audioenginebaseapo/IAudioProcessingObject::IsInputFormatSupported",
+  "req.header": "audioenginebaseapo.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available with Windows Vista and later Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Audioenginebaseapo.idl",
+  "req.dll": null,
+  "req.irql": "All levels",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAudioProcessingObject::IsInputFormatSupported",
+    "audioenginebaseapo/IAudioProcessingObject::IsInputFormatSupported"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Audioenginebaseapo.idl",
+    "Audioenginebaseapo.idl.dll"
+  ],
+  "api_name": [
+    "IAudioProcessingObject.IsInputFormatSupported"
+  ]
+}

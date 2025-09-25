@@ -1,0 +1,44 @@
+{
+  "UID": "NC:ntddk._WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER",
+  "title": "WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER",
+  "description": "The WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function initializes a driver's error source hardware and software state.",
+  "tech.root": "whea",
+  "ms.date": "01/19/2023",
+  "keywords": [
+    "WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function"
+  ],
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER",
+    "ntddk/_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER"
+  ]
+}

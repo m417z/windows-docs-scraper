@@ -1,0 +1,65 @@
+{
+  "UID": "NF:shlobj_core.SHCreateDataObject",
+  "title": "SHCreateDataObject function (shlobj_core.h)",
+  "description": "Creates a data object in a parent folder.",
+  "helpviewer_keywords": [
+    "SHCreateDataObject",
+    "SHCreateDataObject function [Windows Shell]",
+    "_shell_SHCreateDataObject",
+    "shell.SHCreateDataObject",
+    "shlobj_core/SHCreateDataObject"
+  ],
+  "old-location": "shell\\SHCreateDataObject.htm",
+  "tech.root": "shell",
+  "ms.assetid": "d56cdafe-9463-43a5-8ef0-6cfaf0c524a8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject",
+  "req.header": "shlobj_core.h",
+  "req.include-header": "Shlobj.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHCreateDataObject",
+    "shlobj_core/SHCreateDataObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "api-ms-win-shell-dataobject-l1-1-1.dll",
+    "Shell32.dll",
+    "windows.storage.dll",
+    "API-MS-Win-Shell-Dataobject-L1-1-0.dll"
+  ],
+  "api_name": [
+    "SHCreateDataObject"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)"
+}

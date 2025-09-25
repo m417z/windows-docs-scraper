@@ -1,0 +1,64 @@
+{
+  "UID": "NF:amstream.IAMMediaTypeSample.GetMediaType",
+  "title": "IAMMediaTypeSample::GetMediaType (amstream.h)",
+  "description": "Note  This interface is deprecated. New applications should not use it. The GetMediaType method retrieves the media type of the sample. If the format has not changed from the previous sample, the sample might not carry a media type.",
+  "helpviewer_keywords": [
+    "GetMediaType",
+    "GetMediaType method [DirectShow]",
+    "GetMediaType method [DirectShow]",
+    "IAMMediaTypeSample interface",
+    "IAMMediaTypeSample interface [DirectShow]",
+    "GetMediaType method",
+    "IAMMediaTypeSample.GetMediaType",
+    "IAMMediaTypeSample::GetMediaType",
+    "IAMMediaTypeSampleGetMediaType",
+    "amstream/IAMMediaTypeSample::GetMediaType",
+    "dshow.iammediatypesample_getmediatype"
+  ],
+  "old-location": "dshow\\iammediatypesample_getmediatype.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "40a2640e-aaeb-44f2-a772-2deda2fd3999",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaType method, IAMMediaTypeSample.GetMediaType, IAMMediaTypeSample::GetMediaType, IAMMediaTypeSampleGetMediaType, amstream/IAMMediaTypeSample::GetMediaType, dshow.iammediatypesample_getmediatype",
+  "req.header": "amstream.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMMediaTypeSample::GetMediaType",
+    "amstream/IAMMediaTypeSample::GetMediaType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "amstream.h"
+  ],
+  "api_name": [
+    "IAMMediaTypeSample.GetMediaType"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PFREE_MAP_REGISTERS",
+  "title": "PFREE_MAP_REGISTERS (wdm.h)",
+  "description": "The FreeMapRegisters routine releases a set of map registers that were saved from a call to AllocateAdapterChannel.",
+  "old-location": "kernel\\freemapregisters.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PFREE_MAP_REGISTERS callback function"
+  ],
+  "ms.keywords": "FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, PFREE_MAP_REGISTERS callback, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlDispatch, IrqlDispatch(storport)",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFREE_MAP_REGISTERS",
+    "wdm/PFREE_MAP_REGISTERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "PFREE_MAP_REGISTERS"
+  ]
+}

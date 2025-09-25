@@ -1,0 +1,3 @@
+HRESULT InvokeMain(
+  IDataModelScriptClient *client
+);

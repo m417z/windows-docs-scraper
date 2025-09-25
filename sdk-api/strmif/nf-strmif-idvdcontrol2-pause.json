@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IDvdControl2.Pause",
+  "title": "IDvdControl2::Pause (strmif.h)",
+  "description": "Note  This method is deprecated. Applications should call IMediaControl::Pause instead. For more information, see Data Flow in the DVD Navigator. The Pause method pauses or resumes playback at the current location.",
+  "helpviewer_keywords": [
+    "IDvdControl2 interface [DirectShow]",
+    "Pause method",
+    "IDvdControl2.Pause",
+    "IDvdControl2::Pause",
+    "IDvdControl2Pause",
+    "Pause",
+    "Pause method [DirectShow]",
+    "Pause method [DirectShow]",
+    "IDvdControl2 interface",
+    "dshow.idvdcontrol2_pause",
+    "strmif/IDvdControl2::Pause"
+  ],
+  "old-location": "dshow\\idvdcontrol2_pause.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "32ef572a-56f5-4aa4-b994-08f86a1f17ec",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IDvdControl2 interface [DirectShow],Pause method, IDvdControl2.Pause, IDvdControl2::Pause, IDvdControl2Pause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_pause, strmif/IDvdControl2::Pause",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDvdControl2::Pause",
+    "strmif/IDvdControl2::Pause"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IDvdControl2.Pause"
+  ]
+}

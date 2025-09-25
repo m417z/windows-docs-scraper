@@ -1,0 +1,3 @@
+VOID IoQueueThreadIrp(
+  PIRP Irp
+);

@@ -1,0 +1,6 @@
+typedef struct D3D12_VIDEO_ENCODER_PICTURE_CONTROL_DESC {
+  UINT                                           IntraRefreshFrameIndex;
+  D3D12_VIDEO_ENCODER_PICTURE_CONTROL_FLAGS      Flags;
+  D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA PictureControlCodecData;
+  D3D12_VIDEO_ENCODE_REFERENCE_FRAMES            ReferenceFrames;
+} D3D12_VIDEO_ENCODER_PICTURE_CONTROL_DESC;

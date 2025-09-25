@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storport.StorPortGetActiveGroupCount",
+  "title": "StorPortGetActiveGroupCount function (storport.h)",
+  "description": "The StorPortGetActiveGroupCount routine returns the number of processor groups that are present in the system.",
+  "old-location": "storage\\storportgetactivegroupcount.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortGetActiveGroupCount function"
+  ],
+  "ms.keywords": "StorPortGetActiveGroupCount, StorPortGetActiveGroupCount routine [Storage Devices], storage.storportgetactivegroupcount, storport/StorPortGetActiveGroupCount, storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "StorPortIrql",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortGetActiveGroupCount",
+    "storport/StorPortGetActiveGroupCount"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortGetActiveGroupCount"
+  ]
+}

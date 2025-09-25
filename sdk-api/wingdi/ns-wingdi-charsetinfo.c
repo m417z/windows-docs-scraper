@@ -1,0 +1,5 @@
+typedef struct tagCHARSETINFO {
+  UINT          ciCharset;
+  UINT          ciACP;
+  FONTSIGNATURE fs;
+} CHARSETINFO, *PCHARSETINFO, *NPCHARSETINFO, *LPCHARSETINFO;

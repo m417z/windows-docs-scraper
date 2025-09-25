@@ -1,0 +1,48 @@
+{
+  "UID": "NC:bthddi.PFNBTHPORT_INDICATION_CALLBACK_ENHANCED",
+  "title": "PFNBTHPORT_INDICATION_CALLBACK_ENHANCED (bthddi.h)",
+  "description": "Profile drivers implement an enhanced L2CAP callback function to provide the Bluetooth driver stack with a mechanism to notify the profile driver about any changes to the status of a currently open L2CAP or eL2CAP connection.",
+  "old-location": "bltooth\\enhanced_l2cap_callback_function.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback function"
+  ],
+  "ms.keywords": "BluetoothPortIndicationCallbackEnhanced, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback, bltooth.enhanced_l2cap_callback_function, bthddi/BluetoothPortIndicationCallbackEnhanced",
+  "req.header": "bthddi.h",
+  "req.include-header": "Bthddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in Windows 8 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNBTHPORT_INDICATION_CALLBACK_ENHANCED",
+    "bthddi/PFNBTHPORT_INDICATION_CALLBACK_ENHANCED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "bthddi.h"
+  ],
+  "api_name": [
+    "PFNBTHPORT_INDICATION_CALLBACK_ENHANCED"
+  ]
+}

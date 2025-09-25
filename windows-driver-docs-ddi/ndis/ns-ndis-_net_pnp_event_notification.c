@@ -1,0 +1,8 @@
+typedef struct _NET_PNP_EVENT_NOTIFICATION {
+  NDIS_OBJECT_HEADER       Header;
+  NDIS_PORT_NUMBER         PortNumber;
+  NET_PNP_EVENT            NetPnPEvent;
+  ULONG                    Flags;
+  NDIS_NIC_SWITCH_ID       SwitchId;
+  NDIS_NIC_SWITCH_VPORT_ID VPortId;
+} NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION;

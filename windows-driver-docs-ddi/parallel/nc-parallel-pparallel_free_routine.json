@@ -1,0 +1,48 @@
+{
+  "UID": "NC:parallel.PPARALLEL_FREE_ROUTINE",
+  "title": "PPARALLEL_FREE_ROUTINE (parallel.h)",
+  "description": "The PPARALLEL_FREE_ROUTINE-typed callback routine frees a parallel port. The system-supplied function driver for parallel ports supplies this routine.",
+  "old-location": "parports\\pparallel_free_routine.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "PPARALLEL_FREE_ROUTINE callback"
+  ],
+  "ms.keywords": "(*PPARALLEL_FREE_ROUTINE), (*PPARALLEL_FREE_ROUTINE) callback function [Parallel Ports], cisspd_5f5bcbed-0df6-4b2a-ab88-a26f48976ad7.xml, parallel/(*PPARALLEL_FREE_ROUTINE), parports.pparallel_free_routine",
+  "req.header": "parallel.h",
+  "req.include-header": "Parallel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "RILGBATOKEN, *LPRILGBATOKEN",
+  "f1_keywords": [
+    "PPARALLEL_FREE_ROUTINE",
+    "parallel/PPARALLEL_FREE_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "PPARALLEL_FREE_ROUTINE"
+  ]
+}

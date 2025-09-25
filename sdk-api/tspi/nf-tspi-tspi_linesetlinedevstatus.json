@@ -1,0 +1,58 @@
+{
+  "UID": "NF:tspi.TSPI_lineSetLineDevStatus",
+  "title": "TSPI_lineSetLineDevStatus function (tspi.h)",
+  "description": "The TSPI_lineSetLineDevStatus service provider sets the device status as indicated, sending appropriate LINE_LINEDEVSTATE messages to indicate the new status.",
+  "helpviewer_keywords": [
+    "TSPI_lineSetLineDevStatus",
+    "TSPI_lineSetLineDevStatus function [TAPI 2.2]",
+    "_tspi_tspi_linesetlinedevstatus",
+    "tspi.tspi_linesetlinedevstatus",
+    "tspi/TSPI_lineSetLineDevStatus"
+  ],
+  "old-location": "tspi\\tspi_linesetlinedevstatus.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "82afe6fd-a9fd-4e53-a460-370cab404366",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TSPI_lineSetLineDevStatus, TSPI_lineSetLineDevStatus function [TAPI 2.2], _tspi_tspi_linesetlinedevstatus, tspi.tspi_linesetlinedevstatus, tspi/TSPI_lineSetLineDevStatus",
+  "req.header": "tspi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TSPI_lineSetLineDevStatus",
+    "tspi/TSPI_lineSetLineDevStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Tspi.h"
+  ],
+  "api_name": [
+    "TSPI_lineSetLineDevStatus"
+  ]
+}

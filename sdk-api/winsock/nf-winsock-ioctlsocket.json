@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winsock.ioctlsocket",
+  "title": "ioctlsocket function (winsock.h)",
+  "description": "The ioctlsocket function (winsock.h) controls the I/O mode of a socket.",
+  "helpviewer_keywords": [
+    "_win32_ioctlsocket_2",
+    "ioctlsocket",
+    "ioctlsocket function [Winsock]",
+    "winsock.ioctlsocket_2",
+    "winsock/ioctlsocket"
+  ],
+  "old-location": "winsock\\ioctlsocket_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "048fcb8d-acd3-4917-a997-dd133db399f8",
+  "ms.date": "12/14/2023",
+  "ms.keywords": "_win32_ioctlsocket_2, ioctlsocket, ioctlsocket function [Winsock], winsock.ioctlsocket_2, winsock/ioctlsocket",
+  "req.header": "winsock.h",
+  "req.include-header": "Winsock2.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ioctlsocket",
+    "winsock/ioctlsocket"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "ioctlsocket"
+  ]
+}

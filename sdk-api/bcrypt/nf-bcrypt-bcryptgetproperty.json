@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptGetProperty",
+  "title": "BCryptGetProperty function (bcrypt.h)",
+  "description": "Retrieves the value of a named property for a CNG object.",
+  "helpviewer_keywords": [
+    "BCryptGetProperty",
+    "BCryptGetProperty function [Security]",
+    "bcrypt/BCryptGetProperty",
+    "security.bcryptgetproperty_func"
+  ],
+  "old-location": "security\\bcryptgetproperty_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "5c62ca3a-843e-41a7-9340-41785fbb15f4",
+  "ms.date": "06/16/2025",
+  "ms.keywords": "BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptGetProperty",
+    "bcrypt/BCryptGetProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptGetProperty"
+  ]
+}

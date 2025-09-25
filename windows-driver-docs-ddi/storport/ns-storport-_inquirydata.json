@@ -1,0 +1,54 @@
+{
+  "UID": "NS:storport._INQUIRYDATA",
+  "title": "INQUIRYDATA (storport.h)",
+  "description": "The _INQUIRYDATA structure (storport.h) contains information about the SCSI inquiry data associated with a tape device.",
+  "old-location": "storage\\inquirydata.htm",
+  "tech.root": "storage",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "INQUIRYDATA structure"
+  ],
+  "ms.keywords": "*PINQUIRYDATA, INQUIRYDATA, INQUIRYDATA structure [Storage Devices], PINQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], _INQUIRYDATA, scsi/INQUIRYDATA, scsi/PINQUIRYDATA, storage.inquirydata, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Scsi.h, Minitape.h, Storport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "INQUIRYDATA, *PINQUIRYDATA",
+  "f1_keywords": [
+    "_INQUIRYDATA",
+    "storport/_INQUIRYDATA",
+    "PINQUIRYDATA",
+    "storport/PINQUIRYDATA",
+    "INQUIRYDATA",
+    "storport/INQUIRYDATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "_INQUIRYDATA",
+    "PINQUIRYDATA",
+    "INQUIRYDATA"
+  ]
+}

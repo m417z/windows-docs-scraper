@@ -1,0 +1,64 @@
+{
+  "UID": "NF:shobjidl_core.IKnownFolderManager.RegisterFolder",
+  "title": "IKnownFolderManager::RegisterFolder (shobjidl_core.h)",
+  "description": "Adds a new known folder to the registry. Used particularly by independent software vendors (ISVs) that are adding one of their own folders to the known folder system.",
+  "helpviewer_keywords": [
+    "IKnownFolderManager interface [Windows Shell]",
+    "RegisterFolder method",
+    "IKnownFolderManager.RegisterFolder",
+    "IKnownFolderManager::RegisterFolder",
+    "RegisterFolder",
+    "RegisterFolder method [Windows Shell]",
+    "RegisterFolder method [Windows Shell]",
+    "IKnownFolderManager interface",
+    "_shell_IKnownFolderManager_RegisterFolder",
+    "shell.IKnownFolderManager_RegisterFolder",
+    "shobjidl_core/IKnownFolderManager::RegisterFolder"
+  ],
+  "old-location": "shell\\IKnownFolderManager_RegisterFolder.htm",
+  "tech.root": "shell",
+  "ms.assetid": "1b3d492f-26a3-4f04-ba01-768ebad39e1b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IKnownFolderManager interface [Windows Shell],RegisterFolder method, IKnownFolderManager.RegisterFolder, IKnownFolderManager::RegisterFolder, RegisterFolder, RegisterFolder method [Windows Shell], RegisterFolder method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_RegisterFolder, shell.IKnownFolderManager_RegisterFolder, shobjidl_core/IKnownFolderManager::RegisterFolder",
+  "req.header": "shobjidl_core.h",
+  "req.include-header": "Shobjidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Shobjidl.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IKnownFolderManager::RegisterFolder",
+    "shobjidl_core/IKnownFolderManager::RegisterFolder"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Shell32.dll"
+  ],
+  "api_name": [
+    "IKnownFolderManager.RegisterFolder"
+  ]
+}

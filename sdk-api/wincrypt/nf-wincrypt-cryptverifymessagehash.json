@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CryptVerifyMessageHash",
+  "title": "CryptVerifyMessageHash function (wincrypt.h)",
+  "description": "The CryptVerifyMessageHash function verifies the hash of specified content.",
+  "helpviewer_keywords": [
+    "CryptVerifyMessageHash",
+    "CryptVerifyMessageHash function [Security]",
+    "_crypto2_cryptverifymessagehash",
+    "security.cryptverifymessagehash",
+    "wincrypt/CryptVerifyMessageHash"
+  ],
+  "old-location": "security\\cryptverifymessagehash.htm",
+  "tech.root": "security",
+  "ms.assetid": "3b5185b9-e24b-4302-a60c-74ccbd19077c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptVerifyMessageHash",
+    "wincrypt/CryptVerifyMessageHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CryptVerifyMessageHash"
+  ]
+}

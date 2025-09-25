@@ -1,0 +1,7 @@
+typedef union {
+  struct {
+    ULONG NUM : 6;
+    ULONG Reserved0 : 26;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW11_FEATURE_LBA_RANGE_TYPE, *PNVME_CDW11_FEATURE_LBA_RANGE_TYPE;

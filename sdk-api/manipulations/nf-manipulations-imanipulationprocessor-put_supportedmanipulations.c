@@ -1,0 +1,3 @@
+HRESULT put_SupportedManipulations(
+  MANIPULATION_PROCESSOR_MANIPULATIONS manipulations
+);

@@ -1,0 +1,3 @@
+WDFDEVICE AcxCircuitGetWdfDevice(
+  ACXCIRCUIT Circuit
+);

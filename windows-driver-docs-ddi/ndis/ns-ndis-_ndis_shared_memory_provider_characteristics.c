@@ -1,0 +1,7 @@
+typedef struct _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS {
+  NDIS_OBJECT_HEADER             Header;
+  ULONG                          Flags;
+  NDIS_HANDLE                    ProviderContext;
+  ALLOCATE_SHARED_MEMORY_HANDLER AllocateSharedMemoryHandler;
+  FREE_SHARED_MEMORY_HANDLER     FreeSharedMemoryHandler;
+} NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, *PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS;

@@ -1,0 +1,3 @@
+VOID WlxReconnectNotify(
+  PVOID pWlxContext
+);

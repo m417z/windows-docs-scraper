@@ -1,0 +1,5 @@
+typedef struct RILRADIOSTATEITEMS {
+  DWORD             dwGroupId;
+  DWORD             dwCntItems;
+  RILRADIOSTATEITEM rilItems[1];
+} RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS;

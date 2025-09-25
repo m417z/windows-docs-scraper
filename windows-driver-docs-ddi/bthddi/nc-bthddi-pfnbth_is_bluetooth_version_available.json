@@ -1,0 +1,48 @@
+{
+  "UID": "NC:bthddi.PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE",
+  "title": "PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE (bthddi.h)",
+  "description": "The IsBluetoothVersionAvailable function checks whether a given Bluetooth version is supported by the operating system.",
+  "old-location": "bltooth\\isbluetoothversionavailable.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE callback function"
+  ],
+  "ms.keywords": "IsBluetoothVersionAvailable, IsBluetoothVersionAvailable callback function [Bluetooth Devices], PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE, PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE callback, bltooth.isbluetoothversionavailable, bth_funcs_34a25a87-fa07-46dc-aeaa-411009990c8b.xml, bthddi/IsBluetoothVersionAvailable",
+  "req.header": "bthddi.h",
+  "req.include-header": "Bthddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE",
+    "bthddi/PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "bthddi.h"
+  ],
+  "api_name": [
+    "PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "UID": "NF:azroles.IAzApplicationGroup.DeleteNonMember",
+  "title": "IAzApplicationGroup::DeleteNonMember (azroles.h)",
+  "description": "Removes the specified security identifier (SID) in text form from the list of accounts that are refused membership in the application group.",
+  "helpviewer_keywords": [
+    "AzApplicationGroup object [Security]",
+    "DeleteNonMember method",
+    "DeleteNonMember",
+    "DeleteNonMember method [Security]",
+    "DeleteNonMember method [Security]",
+    "AzApplicationGroup object",
+    "DeleteNonMember method [Security]",
+    "IAzApplicationGroup interface",
+    "IAzApplicationGroup interface [Security]",
+    "DeleteNonMember method",
+    "IAzApplicationGroup.DeleteNonMember",
+    "IAzApplicationGroup::DeleteNonMember",
+    "azroles/IAzApplicationGroup::DeleteNonMember",
+    "security.iazapplicationgroup_deletenonmember"
+  ],
+  "old-location": "security\\iazapplicationgroup_deletenonmember.htm",
+  "tech.root": "security",
+  "ms.assetid": "05d58f62-fa34-4829-a535-65ea0f5144ab",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AzApplicationGroup object [Security],DeleteNonMember method, DeleteNonMember, DeleteNonMember method [Security], DeleteNonMember method [Security],AzApplicationGroup object, DeleteNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMember method, IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzApplicationGroup::DeleteNonMember",
+    "azroles/IAzApplicationGroup::DeleteNonMember"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "IAzApplicationGroup.DeleteNonMember",
+    "AzApplicationGroup.DeleteNonMember"
+  ]
+}

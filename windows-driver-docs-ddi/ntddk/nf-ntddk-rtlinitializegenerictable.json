@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.RtlInitializeGenericTable",
+  "title": "RtlInitializeGenericTable function (ntddk.h)",
+  "description": "The RtlInitializeGenericTable routine initializes a generic table.",
+  "tech.root": "ifsk",
+  "ms.date": "01/10/2023",
+  "keywords": [
+    "RtlInitializeGenericTable function"
+  ],
+  "ms.keywords": "RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlInitializeGenericTable",
+    "ntddk/RtlInitializeGenericTable"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlInitializeGenericTable"
+  ]
+}

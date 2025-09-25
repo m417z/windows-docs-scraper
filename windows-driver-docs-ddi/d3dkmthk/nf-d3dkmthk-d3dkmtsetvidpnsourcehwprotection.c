@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetVidPnSourceHwProtection(
+  D3DKMT_SETVIDPNSOURCEHWPROTECTION *unnamedParam1
+);

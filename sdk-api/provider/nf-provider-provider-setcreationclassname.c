@@ -1,0 +1,3 @@
+bool SetCreationClassName(
+  CInstance *pInstance
+);

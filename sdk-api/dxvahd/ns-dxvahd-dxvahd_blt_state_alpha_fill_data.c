@@ -1,0 +1,4 @@
+typedef struct _DXVAHD_BLT_STATE_ALPHA_FILL_DATA {
+  DXVAHD_ALPHA_FILL_MODE Mode;
+  UINT                   StreamNumber;
+} DXVAHD_BLT_STATE_ALPHA_FILL_DATA;

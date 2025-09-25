@@ -1,0 +1,51 @@
+{
+  "UID": "NF:magnification.MagShowSystemCursor",
+  "title": "MagShowSystemCursor function (magnification.h)",
+  "description": "Shows or hides the system cursor.",
+  "old-location": "magapi\\magapi_magshowsystemcursor.htm",
+  "tech.root": "magapi",
+  "ms.assetid": "0C4D92D8-9B06-4592-A0FF-8AE4378E5641",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MagShowSystemCursor, MagShowSystemCursor function [Magnification API], magapi.magapi_magshowsystemcursor, magnification/MagShowSystemCursor",
+  "req.header": "magnification.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Magnification.lib",
+  "req.dll": "Magnification.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MagShowSystemCursor",
+    "magnification/MagShowSystemCursor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Magnification.dll"
+  ],
+  "api_name": [
+    "MagShowSystemCursor"
+  ]
+}

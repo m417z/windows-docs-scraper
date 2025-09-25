@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.IoIsFileObjectIgnoringSharing",
+  "title": "IoIsFileObjectIgnoringSharing function (ntddk.h)",
+  "description": "The IoIsFileObjectIgnoringSharing routine determines if a file object is set with the option to ignore file sharing access checks.",
+  "old-location": "ifsk\\ioisfileobjectignoringsharing.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "IoIsFileObjectIgnoringSharing function"
+  ],
+  "ms.keywords": "IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoIsFileObjectIgnoringSharing",
+    "ntddk/IoIsFileObjectIgnoringSharing"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoIsFileObjectIgnoringSharing"
+  ]
+}

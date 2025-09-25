@@ -1,0 +1,4 @@
+typedef enum D3D11_COPY_FLAGS {
+  D3D11_COPY_NO_OVERWRITE = 0x1,
+  D3D11_COPY_DISCARD = 0x2
+} ;

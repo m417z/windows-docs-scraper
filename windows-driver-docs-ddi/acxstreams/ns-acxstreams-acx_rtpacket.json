@@ -1,0 +1,49 @@
+{
+  "UID": "NS:acxstreams._ACX_RTPACKET",
+  "tech.root": "audio",
+  "title": "ACX_RTPACKET",
+  "ms.date": "07/28/2022",
+  "targetos": "Windows",
+  "description": "The ACX_RTPACKET structure represents a single allocated packet. The PacketBuffer must be an MDL.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxstreams.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "ACX_RTPACKET, *PACX_RTPACKET",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxstreams.h"
+  ],
+  "api_name": [
+    "_ACX_RTPACKET",
+    "PACX_RTPACKET",
+    "ACX_RTPACKET"
+  ],
+  "f1_keywords": [
+    "_ACX_RTPACKET",
+    "acxstreams/_ACX_RTPACKET",
+    "PACX_RTPACKET",
+    "acxstreams/PACX_RTPACKET",
+    "ACX_RTPACKET",
+    "acxstreams/ACX_RTPACKET"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

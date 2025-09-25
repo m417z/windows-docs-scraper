@@ -1,0 +1,3 @@
+void TraceLoggingUnregister(
+  TraceLoggingHProvider hProvider
+);

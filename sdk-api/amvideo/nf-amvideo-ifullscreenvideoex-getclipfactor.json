@@ -1,0 +1,65 @@
+{
+  "UID": "NF:amvideo.IFullScreenVideoEx.GetClipFactor",
+  "title": "IFullScreenVideoEx::GetClipFactor (amvideo.h)",
+  "description": "The GetClipFactor method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.",
+  "helpviewer_keywords": [
+    "GetClipFactor",
+    "GetClipFactor method [DirectShow]",
+    "GetClipFactor method [DirectShow]",
+    "IFullScreenVideoEx interface",
+    "IFullScreenVideoEx interface [DirectShow]",
+    "GetClipFactor method",
+    "IFullScreenVideoEx.GetClipFactor",
+    "IFullScreenVideoEx::GetClipFactor",
+    "IFullScreenVideoGetClipFactor",
+    "amvideo/IFullScreenVideoEx::GetClipFactor",
+    "dshow.ifullscreenvideoex_getclipfactor"
+  ],
+  "old-location": "dshow\\ifullscreenvideoex_getclipfactor.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "f45e1736-8130-483b-9f90-614c4b6970db",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetClipFactor, GetClipFactor method [DirectShow], GetClipFactor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetClipFactor method, IFullScreenVideoEx.GetClipFactor, IFullScreenVideoEx::GetClipFactor, IFullScreenVideoGetClipFactor, amvideo/IFullScreenVideoEx::GetClipFactor, dshow.ifullscreenvideoex_getclipfactor",
+  "req.header": "amvideo.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFullScreenVideoEx::GetClipFactor",
+    "amvideo/IFullScreenVideoEx::GetClipFactor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFullScreenVideoEx.GetClipFactor"
+  ]
+}

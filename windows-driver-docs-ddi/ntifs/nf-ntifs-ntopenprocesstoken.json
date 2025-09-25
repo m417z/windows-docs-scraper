@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntifs.NtOpenProcessToken",
+  "tech.root": "kernel",
+  "title": "NtOpenProcessToken function (ntifs.h)",
+  "ms.date": "06/21/2021",
+  "targetos": "Windows",
+  "description": "The NtOpenProcessToken routine opens the access token associated with a process, and returns a handle that can be used to access that token.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "NtosKrnl.exe",
+  "req.header": "ntifs.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "NtOpenProcessToken"
+  ],
+  "f1_keywords": [
+    "NtOpenProcessToken",
+    "ntifs/NtOpenProcessToken"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

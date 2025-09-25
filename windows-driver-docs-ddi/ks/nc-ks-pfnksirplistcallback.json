@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSIRPLISTCALLBACK",
+  "title": "PFNKSIRPLISTCALLBACK (ks.h)",
+  "description": "A streaming minidriver's KStrIrpListCallback routine is called to determine whether the passed in IRP should be moved from the source list to the destination list, or if IRP enumeration should be terminated.",
+  "old-location": "stream\\kstrirplistcallback.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSIRPLISTCALLBACK callback function"
+  ],
+  "ms.keywords": "KStrIrpListCallback, KStrIrpListCallback routine [Streaming Media Devices], PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml, stream.kstrirplistcallback",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSIRPLISTCALLBACK",
+    "ks/PFNKSIRPLISTCALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSIRPLISTCALLBACK"
+  ]
+}

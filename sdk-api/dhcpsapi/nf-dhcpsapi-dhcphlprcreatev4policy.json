@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpHlprCreateV4Policy",
+  "title": "DhcpHlprCreateV4Policy function (dhcpsapi.h)",
+  "description": "Allocates and initializes a DHCP server policy structure.",
+  "helpviewer_keywords": [
+    "DhcpHlprCreateV4Policy",
+    "DhcpHlprCreateV4Policy function [DHCP]",
+    "dhcp.dhcphlprcreatev4policy",
+    "dhcpsapi/DhcpHlprCreateV4Policy"
+  ],
+  "old-location": "dhcp\\dhcphlprcreatev4policy.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "91f04578-9f15-44b4-8cf6-99be13d0395e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpHlprCreateV4Policy, DhcpHlprCreateV4Policy function [DHCP], dhcp.dhcphlprcreatev4policy, dhcpsapi/DhcpHlprCreateV4Policy",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpHlprCreateV4Policy",
+    "dhcpsapi/DhcpHlprCreateV4Policy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpHlprCreateV4Policy"
+  ]
+}

@@ -1,0 +1,3 @@
+void wiauDbgInit(
+  a
+);

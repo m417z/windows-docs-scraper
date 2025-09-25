@@ -1,0 +1,49 @@
+{
+  "UID": "NF:winspool.FreePrintPropertyValue",
+  "title": "FreePrintPropertyValue function (winspool.h)",
+  "description": "Frees the value that is retrieved using GetJobNamedPropertyValue function.",
+  "old-location": "print\\freeprintpropertyvalue.htm",
+  "tech.root": "print",
+  "ms.date": "11/18/2019",
+  "keywords": [
+    "FreePrintPropertyValue function"
+  ],
+  "ms.keywords": "FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue",
+  "req.header": "winspool.h",
+  "req.include-header": "Winspool.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WinSpool.lib",
+  "req.dll": "Spoolss.dll; WinSpool.drv",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FreePrintPropertyValue",
+    "winspool/FreePrintPropertyValue"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "spoolss.dll",
+    "WinSpool.drv"
+  ],
+  "api_name": [
+    "FreePrintPropertyValue"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetComponentName(
+  BSTR *pbstrComponentName
+);

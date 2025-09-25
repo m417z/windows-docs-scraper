@@ -1,0 +1,3 @@
+LONG AVIStreamLength(
+  PAVISTREAM pavi
+);

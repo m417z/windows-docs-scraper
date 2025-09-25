@@ -1,0 +1,7 @@
+typedef struct _PROPSHEETUI_GETICON_INFO {
+  WORD  cbSize;
+  WORD  Flags;
+  WORD  cxIcon;
+  WORD  cyIcon;
+  HICON hIcon;
+} PROPSHEETUI_GETICON_INFO, *PPROPSHEETUI_GETICON_INFO;

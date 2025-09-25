@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+  "tech.root": "ifsk",
+  "title": "FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+  "ms.date": "02/06/2024",
+  "targetos": "Windows",
+  "description": "Learn more about the FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 23H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION, *PFILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+    "PFILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+    "FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+    "ntifs/_FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+    "PFILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+    "ntifs/PFILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+    "FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION",
+    "ntifs/FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION"
+  ]
+}

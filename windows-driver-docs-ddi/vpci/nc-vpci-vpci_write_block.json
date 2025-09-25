@@ -1,0 +1,50 @@
+{
+  "UID": "NC:vpci.VPCI_WRITE_BLOCK",
+  "tech.root": "pci",
+  "title": "VPCI_WRITE_BLOCK",
+  "ms.date": "09/29/2022",
+  "targetos": "Windows",
+  "description": "Learn more about the VPCI_WRITE_BLOCK routine",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "vpci.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "vpci.h"
+  ],
+  "api_name": [
+    "VPCI_WRITE_BLOCK"
+  ],
+  "f1_keywords": [
+    "VPCI_WRITE_BLOCK",
+    "vpci/VPCI_WRITE_BLOCK"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "VPCI_WRITE_BLOCK"
+  ]
+}

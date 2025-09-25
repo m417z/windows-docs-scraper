@@ -1,0 +1,5 @@
+typedef struct _DHCP_FILTER_ADD_INFOV4 {
+  DHCP_ADDR_PATTERN     AddrPatt;
+  LPWSTR                Comment;
+  DHCP_FILTER_LIST_TYPE ListType;
+} DHCP_FILTER_ADD_INFO, *LPDHCP_FILTER_ADD_INFO;

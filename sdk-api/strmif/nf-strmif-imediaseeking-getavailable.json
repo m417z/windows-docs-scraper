@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMediaSeeking.GetAvailable",
+  "title": "IMediaSeeking::GetAvailable (strmif.h)",
+  "description": "The GetAvailable method retrieves the range of times in which seeking is efficient.",
+  "helpviewer_keywords": [
+    "GetAvailable",
+    "GetAvailable method [DirectShow]",
+    "GetAvailable method [DirectShow]",
+    "IMediaSeeking interface",
+    "IMediaSeeking interface [DirectShow]",
+    "GetAvailable method",
+    "IMediaSeeking.GetAvailable",
+    "IMediaSeeking::GetAvailable",
+    "IMediaSeekingGetAvailable",
+    "dshow.imediaseeking_getavailable",
+    "strmif/IMediaSeeking::GetAvailable"
+  ],
+  "old-location": "dshow\\imediaseeking_getavailable.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "8c4114e5-ff82-421a-a7fb-9382d4182388",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetAvailable, GetAvailable method [DirectShow], GetAvailable method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetAvailable method, IMediaSeeking.GetAvailable, IMediaSeeking::GetAvailable, IMediaSeekingGetAvailable, dshow.imediaseeking_getavailable, strmif/IMediaSeeking::GetAvailable",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaSeeking::GetAvailable",
+    "strmif/IMediaSeeking::GetAvailable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaSeeking.GetAvailable"
+  ]
+}

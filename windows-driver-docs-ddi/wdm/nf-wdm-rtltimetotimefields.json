@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.RtlTimeToTimeFields",
+  "title": "RtlTimeToTimeFields function (wdm.h)",
+  "description": "The RtlTimeToTimeFields routine converts system time into a TIME_FIELDS structure.",
+  "old-location": "kernel\\rtltimetotimefields.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlTimeToTimeFields function"
+  ],
+  "ms.keywords": "RtlTimeToTimeFields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, kernel.rtltimetotimefields, wdm/RtlTimeToTimeFields",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)",
+  "req.irql": "Any level (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlTimeToTimeFields",
+    "wdm/RtlTimeToTimeFields"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlTimeToTimeFields"
+  ]
+}

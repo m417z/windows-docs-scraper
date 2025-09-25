@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptFinishHash",
+  "title": "BCryptFinishHash function (bcrypt.h)",
+  "description": "Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.",
+  "helpviewer_keywords": [
+    "BCryptFinishHash",
+    "BCryptFinishHash function [Security]",
+    "bcrypt/BCryptFinishHash",
+    "security.bcryptfinishhash_func"
+  ],
+  "old-location": "security\\bcryptfinishhash_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCryptFinishHash, security.bcryptfinishhash_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptFinishHash",
+    "bcrypt/BCryptFinishHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptFinishHash"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdbgexts._SEARCHMEMORY",
+  "title": "_SEARCHMEMORY (wdbgexts.h)",
+  "description": "Learn how the SearchMemory function searches the target's virtual memory for a specified pattern of bytes.",
+  "old-location": "debugger\\searchmemory.htm",
+  "tech.root": "debugger",
+  "ms.date": "07/27/2023",
+  "keywords": [
+    "SEARCHMEMORY structure"
+  ],
+  "ms.keywords": "*PSEARCHMEMORY, SEARCHMEMORY, SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, _SEARCHMEMORY, debugger.searchmemory, wdbgexts/SearchMemory",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SEARCHMEMORY, *PSEARCHMEMORY",
+  "f1_keywords": [
+    "_SEARCHMEMORY",
+    "wdbgexts/_SEARCHMEMORY",
+    "PSEARCHMEMORY",
+    "wdbgexts/PSEARCHMEMORY",
+    "SEARCHMEMORY",
+    "wdbgexts/SEARCHMEMORY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "_SEARCHMEMORY",
+    "PSEARCHMEMORY",
+    "SEARCHMEMORY"
+  ]
+}

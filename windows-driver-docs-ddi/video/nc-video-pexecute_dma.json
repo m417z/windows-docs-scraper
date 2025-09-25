@@ -1,0 +1,48 @@
+{
+  "UID": "NC:video.PEXECUTE_DMA",
+  "title": "PEXECUTE_DMA (video.h)",
+  "description": "HwVidExecuteDma is a miniport driver-implemented callback routine that is responsible for retrieving physical address/length pairs from a scatter/gather list, and for programming the hardware to start the actual DMA transfer.",
+  "old-location": "display\\hwvidexecutedma.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PEXECUTE_DMA callback function"
+  ],
+  "ms.keywords": "HwVidExecuteDma, HwVidExecuteDma callback function [Display Devices], PEXECUTE_DMA, PEXECUTE_DMA callback, VideoMiniport_Functions_5819a796-9dfd-41fe-9158-6ec09ac14760.xml, display.hwvidexecutedma, video/HwVidExecuteDma",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PEXECUTE_DMA",
+    "video/PEXECUTE_DMA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "video.h"
+  ],
+  "api_name": [
+    "PEXECUTE_DMA"
+  ]
+}

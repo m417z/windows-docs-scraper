@@ -1,0 +1,3 @@
+HRESULT SetExceptionMode(
+  UINT RaiseFlags
+);

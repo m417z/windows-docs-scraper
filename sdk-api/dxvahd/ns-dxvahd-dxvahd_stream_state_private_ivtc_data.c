@@ -1,0 +1,6 @@
+typedef struct _DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA {
+  BOOL Enable;
+  UINT ITelecineFlags;
+  UINT Frames;
+  UINT InputField;
+} DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA;

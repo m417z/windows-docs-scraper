@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pcivirt._SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+  "title": "_SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT (pcivirt.h)",
+  "description": "This structures is the output buffer received by the IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request that indicates the virtual function (VF) whose memory-mapped I/O space was mitigated.",
+  "old-location": "pci\\sriov_mitigated_range_update_output.htm",
+  "tech.root": "PCI",
+  "ms.date": "02/24/2018",
+  "keywords": [
+    "SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure"
+  ],
+  "ms.keywords": "*PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, PCI.sriov_mitigated_range_update_output, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+  "req.header": "pcivirt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, *PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+  "f1_keywords": [
+    "_SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+    "pcivirt/_SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+    "PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+    "pcivirt/PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+    "SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+    "pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Pcivirt.h"
+  ],
+  "api_name": [
+    "_SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+    "PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT",
+    "SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT"
+  ]
+}

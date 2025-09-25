@@ -1,0 +1,59 @@
+{
+  "UID": "NF:icmpapi.IcmpSendEcho2",
+  "title": "IcmpSendEcho2 function (icmpapi.h)",
+  "description": "The **IcmpSendEcho2** function sends an IPv4 ICMP echo request, and returns either immediately (if *Event* or *ApcRoutine* is non-**NULL**), or returns after the specified time-out. The *ReplyBuffer* contains the ICMP echo responses, if any.",
+  "helpviewer_keywords": [
+    "IcmpSendEcho2",
+    "IcmpSendEcho2 function [IP Helper]",
+    "_iphlp_icmpsendecho2",
+    "icmpapi/IcmpSendEcho2",
+    "iphlp.icmpsendecho2"
+  ],
+  "old-location": "iphlp\\icmpsendecho2.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "1f70b6cc-9085-4eb8-b2cc-3b3d98d0ea46",
+  "ms.date": "03/24/2023",
+  "ms.keywords": "IcmpSendEcho2, IcmpSendEcho2 function [IP Helper], _iphlp_icmpsendecho2, icmpapi/IcmpSendEcho2, iphlp.icmpsendecho2",
+  "req.header": "icmpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IcmpSendEcho2",
+    "icmpapi/IcmpSendEcho2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll",
+    "Icmp.dll"
+  ],
+  "api_name": [
+    "IcmpSendEcho2"
+  ]
+}

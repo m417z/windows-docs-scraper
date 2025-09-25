@@ -1,0 +1,57 @@
+{
+  "UID": "NF:webservices.WsRemoveNode",
+  "title": "WsRemoveNode function (webservices.h)",
+  "description": "Removes the node at the specified position from the xml buffer. If positioned on an element it will remove the element including all of its children and its corresponding end element, otherwise it will remove a single node.",
+  "helpviewer_keywords": [
+    "WsRemoveNode",
+    "WsRemoveNode function [Web Services for Windows]",
+    "webservices/WsRemoveNode",
+    "wsw.wsremovenode"
+  ],
+  "old-location": "wsw\\wsremovenode.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "955fd0b3-b351-40db-a25f-dd1ed8b55550",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WsRemoveNode, WsRemoveNode function [Web Services for Windows], webservices/WsRemoveNode, wsw.wsremovenode",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WebServices.lib",
+  "req.dll": "WebServices.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WsRemoveNode",
+    "webservices/WsRemoveNode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WebServices.dll"
+  ],
+  "api_name": [
+    "WsRemoveNode"
+  ]
+}

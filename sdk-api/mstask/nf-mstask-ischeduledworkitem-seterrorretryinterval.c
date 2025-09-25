@@ -1,0 +1,3 @@
+HRESULT SetErrorRetryInterval(
+  WORD wRetryInterval
+);

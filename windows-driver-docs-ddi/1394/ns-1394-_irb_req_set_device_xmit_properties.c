@@ -1,0 +1,4 @@
+typedef struct _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES {
+  ULONG fulSpeed;
+  ULONG fulPriority;
+} IRB_REQ_SET_DEVICE_XMIT_PROPERTIES;

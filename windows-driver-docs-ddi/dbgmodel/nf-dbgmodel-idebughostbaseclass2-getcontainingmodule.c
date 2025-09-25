@@ -1,0 +1,3 @@
+HRESULT GetContainingModule(
+  IDebugHostModule **containingModule
+);

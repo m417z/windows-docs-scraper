@@ -1,0 +1,4 @@
+typedef struct _OPLOCK_KEY_ECP_CONTEXT {
+  GUID  OplockKey;
+  ULONG Reserved;
+} OPLOCK_KEY_ECP_CONTEXT, *POPLOCK_KEY_ECP_CONTEXT;

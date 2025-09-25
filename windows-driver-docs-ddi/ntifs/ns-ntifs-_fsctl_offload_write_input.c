@@ -1,0 +1,8 @@
+typedef struct _FSCTL_OFFLOAD_WRITE_INPUT {
+  ULONG     Size;
+  ULONG     Flags;
+  ULONGLONG FileOffset;
+  ULONGLONG CopyLength;
+  ULONGLONG TransferOffset;
+  UCHAR     Token[512];
+} FSCTL_OFFLOAD_WRITE_INPUT, *PFSCTL_OFFLOAD_WRITE_INPUT;

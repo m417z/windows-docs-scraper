@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mspstrm.CMSPStream.ShutDown",
+  "title": "CMSPStream::ShutDown (mspstrm.h)",
+  "description": "The ShutDown method is called by the MSPCall object. It unselects all the terminal objects (via UnselectTerminal). It also calls MSPCallRelease on the call object. This is needed to break the circular refcount.",
+  "helpviewer_keywords": [
+    "CMSPStream interface [TAPI 2.2]",
+    "ShutDown method",
+    "CMSPStream.ShutDown",
+    "CMSPStream::ShutDown",
+    "ShutDown",
+    "ShutDown method [TAPI 2.2]",
+    "ShutDown method [TAPI 2.2]",
+    "CMSPStream interface",
+    "_tapi3_cmspstream_shutdown",
+    "mspstrm/CMSPStream::ShutDown",
+    "tapi3.cmspstream_shutdown"
+  ],
+  "old-location": "tapi3\\cmspstream_shutdown.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "5434c9ea-f045-4293-802d-35fb59123922",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CMSPStream interface [TAPI 2.2],ShutDown method, CMSPStream.ShutDown, CMSPStream::ShutDown, ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_shutdown, mspstrm/CMSPStream::ShutDown, tapi3.cmspstream_shutdown",
+  "req.header": "mspstrm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CMSPStream::ShutDown",
+    "mspstrm/CMSPStream::ShutDown"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mspstrm.h"
+  ],
+  "api_name": [
+    "CMSPStream.ShutDown"
+  ]
+}

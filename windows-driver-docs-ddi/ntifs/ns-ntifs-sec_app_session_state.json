@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._SEC_APP_SESSION_STATE",
+  "tech.root": "ifsk",
+  "title": "SEC_APP_SESSION_STATE",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the SEC_APP_SESSION_STATE structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SEC_APP_SESSION_STATE, *PSEC_APP_SESSION_STATE",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SEC_APP_SESSION_STATE",
+    "PSEC_APP_SESSION_STATE",
+    "SEC_APP_SESSION_STATE"
+  ],
+  "f1_keywords": [
+    "_SEC_APP_SESSION_STATE",
+    "ntifs/_SEC_APP_SESSION_STATE",
+    "PSEC_APP_SESSION_STATE",
+    "ntifs/PSEC_APP_SESSION_STATE",
+    "SEC_APP_SESSION_STATE",
+    "ntifs/SEC_APP_SESSION_STATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_SEC_APP_SESSION_STATE"
+  ]
+}

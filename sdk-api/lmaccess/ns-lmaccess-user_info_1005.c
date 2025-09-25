@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1005 {
+  DWORD usri1005_priv;
+} USER_INFO_1005, *PUSER_INFO_1005, *LPUSER_INFO_1005;

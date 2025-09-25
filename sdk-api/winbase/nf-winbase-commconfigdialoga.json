@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winbase.CommConfigDialogA",
+  "title": "CommConfigDialogA function (winbase.h)",
+  "description": "Displays a driver-supplied configuration dialog box. (ANSI)",
+  "helpviewer_keywords": [
+    "CommConfigDialogA",
+    "winbase/CommConfigDialogA"
+  ],
+  "old-location": "base\\commconfigdialog.htm",
+  "tech.root": "base",
+  "ms.assetid": "6c7a3833-1d40-40c5-bfa7-14523bc73ab0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CommConfigDialog, CommConfigDialog function, CommConfigDialogA, CommConfigDialogW, _win32_commconfigdialog, base.commconfigdialog, winbase/CommConfigDialog, winbase/CommConfigDialogA, winbase/CommConfigDialogW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CommConfigDialogW (Unicode) and CommConfigDialogA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CommConfigDialogA",
+    "winbase/CommConfigDialogA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "CommConfigDialog",
+    "CommConfigDialogA",
+    "CommConfigDialogW"
+  ]
+}

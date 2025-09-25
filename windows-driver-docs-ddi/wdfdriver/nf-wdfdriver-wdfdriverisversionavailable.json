@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfdriver.WdfDriverIsVersionAvailable",
+  "title": "WdfDriverIsVersionAvailable function (wdfdriver.h)",
+  "description": "The WdfDriverIsVersionAvailable method returns a Boolean value that indicates whether the driver is running with a specified version of the Kernel-Mode Driver Framework library.",
+  "old-location": "wdf\\wdfdriverisversionavailable.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDriverIsVersionAvailable function"
+  ],
+  "ms.keywords": "DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, WdfDriverIsVersionAvailable method, kmdf.wdfdriverisversionavailable, wdf.wdfdriverisversionavailable, wdfdriver/WdfDriverIsVersionAvailable",
+  "req.header": "wdfdriver.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDriverIsVersionAvailable",
+    "wdfdriver/WdfDriverIsVersionAvailable"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfDriverIsVersionAvailable"
+  ]
+}

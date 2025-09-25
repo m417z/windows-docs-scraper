@@ -1,0 +1,3 @@
+HRESULT SetTransform(
+  PresentationTransform *transform
+);

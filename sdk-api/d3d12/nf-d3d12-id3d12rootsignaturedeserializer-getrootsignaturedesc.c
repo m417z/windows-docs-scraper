@@ -1,0 +1,1 @@
+const D3D12_ROOT_SIGNATURE_DESC * GetRootSignatureDesc();

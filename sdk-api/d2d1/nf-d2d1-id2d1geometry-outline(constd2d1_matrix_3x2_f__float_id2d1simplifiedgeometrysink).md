@@ -1,0 +1,35 @@
+# ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink)
+
+## Description
+
+Computes the outline of the geometry and writes the result to an [ID2D1SimplifiedGeometrySink](https://learn.microsoft.com/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink).
+
+## Parameters
+
+### `worldTransform` [ref]
+
+Type: **const [D2D1_MATRIX_3X2_F](https://learn.microsoft.com/windows/win32/Direct2D/d2d1-matrix-3x2-f)**
+
+The transform to apply to the geometry outline.
+
+### `flatteningTolerance`
+
+Type: **FLOAT**
+
+The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution.
+
+### `geometrySink` [in]
+
+Type: **[ID2D1SimplifiedGeometrySink](https://learn.microsoft.com/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink)***
+
+The [ID2D1SimplifiedGeometrySink](https://learn.microsoft.com/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) to which the geometry transformed outline is appended.
+
+## Return value
+
+Type: **[HRESULT](https://learn.microsoft.com/windows/win32/com/structure-of-com-error-codes)**
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](https://learn.microsoft.com/windows/desktop/com/structure-of-com-error-codes) error code.
+
+## See also
+
+[ID2D1Geometry](https://learn.microsoft.com/windows/win32/api/d2d1/nn-d2d1-id2d1geometry)

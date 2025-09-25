@@ -1,0 +1,5 @@
+typedef struct _USBDEVICE_DISABLE {
+  USBDEVICE_MGMT_HEADER         Header;
+  UCXENDPOINT                   DefaultEndpoint;
+  UCX_USBDEVICE_RECOVERY_ACTION UsbDeviceRecoveryAction;
+} USBDEVICE_DISABLE, *PUSBDEVICE_DISABLE;

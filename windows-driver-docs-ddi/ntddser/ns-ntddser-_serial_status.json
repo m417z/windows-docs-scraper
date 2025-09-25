@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddser._SERIAL_STATUS",
+  "title": "_SERIAL_STATUS (ntddser.h)",
+  "description": "The SERIAL_STATUS structure contains status information about the serial port.",
+  "old-location": "serports\\serial_status.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "SERIAL_STATUS structure"
+  ],
+  "ms.keywords": "*PSERIAL_STATUS, PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], _SERIAL_STATUS, ntddser/PSERIAL_STATUS, ntddser/SERIAL_STATUS, serports.serial_status",
+  "req.header": "ntddser.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SERIAL_STATUS, *PSERIAL_STATUS",
+  "f1_keywords": [
+    "_SERIAL_STATUS",
+    "ntddser/_SERIAL_STATUS",
+    "PSERIAL_STATUS",
+    "ntddser/PSERIAL_STATUS",
+    "SERIAL_STATUS",
+    "ntddser/SERIAL_STATUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddser.h"
+  ],
+  "api_name": [
+    "_SERIAL_STATUS",
+    "PSERIAL_STATUS",
+    "SERIAL_STATUS"
+  ]
+}

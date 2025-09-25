@@ -1,0 +1,3 @@
+HRESULT GetImplementedMethod(
+  PSTR pMethodName
+);

@@ -1,0 +1,4 @@
+typedef struct _AVC_SUBUNIT_ADDR_SPEC {
+  ULONG Flags;
+  UCHAR SubunitAddress[1];
+} AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC;

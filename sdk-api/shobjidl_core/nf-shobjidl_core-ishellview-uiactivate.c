@@ -1,0 +1,3 @@
+HRESULT UIActivate(
+  UINT uState
+);

@@ -1,0 +1,3 @@
+HRESULT GetLastError(
+  LPDWORD pdwLastDeviceError
+);

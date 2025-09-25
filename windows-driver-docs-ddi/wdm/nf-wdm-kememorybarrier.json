@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.KeMemoryBarrier",
+  "title": "KeMemoryBarrier function (wdm.h)",
+  "description": "The KeMemoryBarrier routine creates a barrier at its position in the code&#8212;across which the compiler and the processor cannot move any operations.",
+  "tech.root": "kernel",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "KeMemoryBarrier function"
+  ],
+  "ms.keywords": "KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, kernel.kememorybarrier, wdm/KeMemoryBarrier",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeMemoryBarrier",
+    "wdm/KeMemoryBarrier"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "KeMemoryBarrier"
+  ]
+}

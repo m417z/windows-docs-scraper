@@ -1,0 +1,4 @@
+typedef struct tagEMRELLIPSE {
+  EMR   emr;
+  RECTL rclBox;
+} EMRELLIPSE, *PEMRELLIPSE, EMRRECTANGLE, *PEMRRECTANGLE;

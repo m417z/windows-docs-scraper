@@ -1,0 +1,3 @@
+NTSTATUS MmUnmapViewInSystemSpace(
+  PVOID MappedBase
+);

@@ -1,0 +1,52 @@
+{
+  "UID": "NF:devquery.DevFreeObjects",
+  "tech.root": "devinst",
+  "title": "DevFreeObjects",
+  "ms.date": "11/06/2024",
+  "targetos": "Windows",
+  "description": "Frees DEV_OBJECT structures allocated by a call to DevGetObjects or DevGetObjectsEx.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Cfgmgr32.dll",
+  "req.header": "devquery.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Onecore.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 version 1809",
+  "req.target-min-winversvr": "Windows Server 2019",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-query-l1-1-1.dll",
+    "api-ms-win-devices-query-l1-1-0.dll",
+    "Cfgmgr32.dll"
+  ],
+  "api_name": [
+    "DevFreeObjects"
+  ],
+  "f1_keywords": [
+    "DevFreeObjects",
+    "devquery/DevFreeObjects"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DevFreeObjects"
+  ]
+}

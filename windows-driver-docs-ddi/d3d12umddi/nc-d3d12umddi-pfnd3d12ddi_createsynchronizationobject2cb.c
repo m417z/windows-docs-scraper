@@ -1,0 +1,7 @@
+PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB Pfnd3d12ddiCreatesynchronizationobject2cb;
+
+HRESULT Pfnd3d12ddiCreatesynchronizationobject2cb(
+  D3D12DDI_HRTDEVICE hDevice,
+  D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2 *unnamedParam2
+)
+{...}

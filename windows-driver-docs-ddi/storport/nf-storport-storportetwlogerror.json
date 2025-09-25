@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.StorPortEtwLogError",
+  "title": "StorPortEtwLogError function",
+  "description": "StorPortEtwLogError logs an Event Tracing for Windows (ETW) event for a hardware protocol error.",
+  "tech.root": "storage",
+  "ms.date": "03/05/2019",
+  "keywords": [
+    "StorPortEtwLogError function"
+  ],
+  "ms.keywords": "StorPortEtwLogError",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10 version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StorPortEtwLogError",
+    "storport/StorPortEtwLogError"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortEtwLogError"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

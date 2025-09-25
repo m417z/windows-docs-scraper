@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pep_x._PEP_ACPI_EVALUATE_CONTROL_METHOD",
+  "title": "_PEP_ACPI_EVALUATE_CONTROL_METHOD (pep_x.h)",
+  "description": "Learn how the PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.",
+  "old-location": "kernel\\pep_acpi_evaluate_control_method.htm",
+  "tech.root": "kernel",
+  "ms.date": "08/08/2022",
+  "keywords": [
+    "PEP_ACPI_EVALUATE_CONTROL_METHOD structure"
+  ],
+  "ms.keywords": "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD",
+  "req.header": "pep_x.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_ACPI_EVALUATE_CONTROL_METHOD, *PPEP_ACPI_EVALUATE_CONTROL_METHOD",
+  "f1_keywords": [
+    "_PEP_ACPI_EVALUATE_CONTROL_METHOD",
+    "pep_x/_PEP_ACPI_EVALUATE_CONTROL_METHOD",
+    "PPEP_ACPI_EVALUATE_CONTROL_METHOD",
+    "pep_x/PPEP_ACPI_EVALUATE_CONTROL_METHOD",
+    "PEP_ACPI_EVALUATE_CONTROL_METHOD",
+    "pep_x/PEP_ACPI_EVALUATE_CONTROL_METHOD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_ACPI_EVALUATE_CONTROL_METHOD",
+    "PPEP_ACPI_EVALUATE_CONTROL_METHOD",
+    "PEP_ACPI_EVALUATE_CONTROL_METHOD"
+  ]
+}

@@ -1,0 +1,3 @@
+void CD3D11_RASTERIZER_DESC(
+  CD3D11_DEFAULT unnamedParam1
+);

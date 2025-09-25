@@ -1,0 +1,8 @@
+typedef union {
+  struct {
+    ULONG FS : 3;
+    ULONG AA : 2;
+    ULONG Reserved : 27;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW10_FIRMWARE_ACTIVATE, *PNVME_CDW10_FIRMWARE_ACTIVATE;

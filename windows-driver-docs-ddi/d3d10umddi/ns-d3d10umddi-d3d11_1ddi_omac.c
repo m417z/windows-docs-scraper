@@ -1,0 +1,3 @@
+typedef struct D3D11_1DDI_OMAC {
+  BYTE Omac[D3D_OMAC_SIZE];
+} D3D11_1DDI_OMAC;

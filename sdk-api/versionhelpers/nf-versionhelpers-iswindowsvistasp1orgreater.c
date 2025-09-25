@@ -1,0 +1,1 @@
+VERSIONHELPERAPI IsWindowsVistaSP1OrGreater();

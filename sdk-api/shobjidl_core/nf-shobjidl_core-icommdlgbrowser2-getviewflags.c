@@ -1,0 +1,3 @@
+HRESULT GetViewFlags(
+  DWORD *pdwFlags
+);

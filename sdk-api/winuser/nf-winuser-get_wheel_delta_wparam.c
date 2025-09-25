@@ -1,0 +1,3 @@
+short GET_WHEEL_DELTA_WPARAM(
+    WPARAM wParam
+);

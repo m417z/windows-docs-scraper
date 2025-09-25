@@ -1,0 +1,58 @@
+{
+  "UID": "NF:userenv.ProcessGroupPolicyCompletedEx",
+  "title": "ProcessGroupPolicyCompletedEx function (userenv.h)",
+  "description": "The ProcessGroupPolicyCompletedEx function notifies the system that the specified policy extension has finished applying policy. The function also reports the status of Resultant Set of Policy (RSoP) logging.",
+  "helpviewer_keywords": [
+    "ProcessGroupPolicyCompletedEx",
+    "ProcessGroupPolicyCompletedEx function [Group Policy]",
+    "_win32_processgrouppolicycompletedex",
+    "policy.processgrouppolicycompletedex",
+    "userenv/ProcessGroupPolicyCompletedEx"
+  ],
+  "old-location": "policy\\processgrouppolicycompletedex.htm",
+  "tech.root": "Policy",
+  "ms.assetid": "0d899190-7345-4762-ab59-b89e2e87d10f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ProcessGroupPolicyCompletedEx, ProcessGroupPolicyCompletedEx function [Group Policy], _win32_processgrouppolicycompletedex, policy.processgrouppolicycompletedex, userenv/ProcessGroupPolicyCompletedEx",
+  "req.header": "userenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Userenv.lib",
+  "req.dll": "Userenv.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ProcessGroupPolicyCompletedEx",
+    "userenv/ProcessGroupPolicyCompletedEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Userenv.dll"
+  ],
+  "api_name": [
+    "ProcessGroupPolicyCompletedEx"
+  ]
+}

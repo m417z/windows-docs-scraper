@@ -1,0 +1,4 @@
+MSTCPIP_INLINE VOID IN6_SET_6TO4_PREFIX(
+  IN6_ADDR      *Ipv6Address,
+  const IN_ADDR *Ipv4Address
+);

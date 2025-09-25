@@ -1,0 +1,7 @@
+typedef struct {
+  ULONG    Size;
+  ULONG    Version;
+  NTSTATUS Status;
+  FILETIME StatusTimeStamp;
+  BYTE     Unused[512];
+} GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA;

@@ -1,0 +1,4 @@
+PFLT_CALLBACK_DATA FLTAPI FltCbdqRemoveIo(
+  [in, out] PFLT_CALLBACK_DATA_QUEUE            Cbdq,
+  [in]      PFLT_CALLBACK_DATA_QUEUE_IO_CONTEXT Context
+);

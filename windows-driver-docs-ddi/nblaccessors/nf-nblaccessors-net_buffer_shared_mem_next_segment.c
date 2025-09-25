@@ -1,0 +1,1 @@
+#define NET_BUFFER_SHARED_MEM_NEXT_SEGMENT(_SHI) ((_SHI)->NextSharedMemorySegment)

@@ -1,0 +1,3 @@
+NDIS_EXPORTED_ROUTINE VOID NdisMDeregisterWdiMiniportDriver(
+  NDIS_MINIPORT_DRIVER_HANDLE NdisMiniportDriverHandle
+);

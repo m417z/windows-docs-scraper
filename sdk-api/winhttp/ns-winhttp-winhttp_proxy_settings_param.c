@@ -1,0 +1,5 @@
+typedef struct _WINHTTP_PROXY_SETTINGS_PARAM {
+  ULONGLONG ullFlags;
+  PCWSTR    pcwszConnectionName;
+  PCWSTR    pcwszProbeHost;
+} WINHTTP_PROXY_SETTINGS_PARAM, *PWINHTTP_PROXY_SETTINGS_PARAM;

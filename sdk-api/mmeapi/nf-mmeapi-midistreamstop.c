@@ -1,0 +1,3 @@
+MMRESULT midiStreamStop(
+  HMIDISTRM hms
+);

@@ -1,0 +1,5 @@
+typedef struct _ABCFLOAT {
+  FLOAT abcfA;
+  FLOAT abcfB;
+  FLOAT abcfC;
+} ABCFLOAT, *PABCFLOAT, *NPABCFLOAT, *LPABCFLOAT;

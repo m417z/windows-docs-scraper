@@ -1,0 +1,5 @@
+void WS_XML_STRING_DICTIONARY_VALUE(
+  S,
+  D,
+  I
+);

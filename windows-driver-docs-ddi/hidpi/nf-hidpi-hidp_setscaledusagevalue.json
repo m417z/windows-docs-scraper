@@ -1,0 +1,50 @@
+{
+  "UID": "NF:hidpi.HidP_SetScaledUsageValue",
+  "title": "HidP_SetScaledUsageValue function (hidpi.h)",
+  "description": "The HidP_SetScaledUsageValue routine converts a signed and scaled physical number to a HID usage's logical value, and sets the usage value in a specified HID report.",
+  "old-location": "hid\\hidp_setscaledusagevalue.htm",
+  "tech.root": "hid",
+  "ms.date": "01/07/2025",
+  "ai-usage": "ai-assisted",
+  "keywords": [
+    "HidP_SetScaledUsageValue function"
+  ],
+  "ms.keywords": "HidP_SetScaledUsageValue, HidP_SetScaledUsageValue routine [Human Input Devices], hid.hidp_setscaledusagevalue, hidfunc_0fcd2d78-aae7-4d56-a930-9bf0e4a417bf.xml, hidpi/HidP_SetScaledUsageValue",
+  "req.header": "hidpi.h",
+  "req.include-header": "Hidpi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hidparse.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidP_SetScaledUsageValue",
+    "hidpi/HidP_SetScaledUsageValue"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Hidparse.lib",
+    "Hidparse.dll"
+  ],
+  "api_name": [
+    "HidP_SetScaledUsageValue"
+  ]
+}

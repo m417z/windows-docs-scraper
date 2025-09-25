@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.EtwSetInformation",
+  "tech.root": "kernel",
+  "title": "EtwSetInformation",
+  "ms.date": "05/25/2023",
+  "targetos": "Windows",
+  "description": "The EtwSetInformation provides special-purpose information to modify a kernel-mode ETW provider registration.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available in Windows 10 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "EtwSetInformation"
+  ],
+  "f1_keywords": [
+    "EtwSetInformation",
+    "wdm/EtwSetInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "EtwSetInformation"
+  ]
+}

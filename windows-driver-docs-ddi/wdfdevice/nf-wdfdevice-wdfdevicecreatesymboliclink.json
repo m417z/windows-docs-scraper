@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfdevice.WdfDeviceCreateSymbolicLink",
+  "title": "WdfDeviceCreateSymbolicLink function (wdfdevice.h)",
+  "description": "The WdfDeviceCreateSymbolicLink method creates a symbolic link to a specified device.",
+  "old-location": "wdf\\wdfdevicecreatesymboliclink.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDeviceCreateSymbolicLink function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, WdfDeviceCreateSymbolicLink, WdfDeviceCreateSymbolicLink method, kmdf.wdfdevicecreatesymboliclink, wdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDeviceCreateSymbolicLink",
+    "wdfdevice/WdfDeviceCreateSymbolicLink"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfDeviceCreateSymbolicLink"
+  ]
+}

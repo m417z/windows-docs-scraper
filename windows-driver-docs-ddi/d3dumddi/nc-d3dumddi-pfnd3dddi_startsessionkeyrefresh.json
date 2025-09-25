@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_STARTSESSIONKEYREFRESH",
+  "title": "PFND3DDDI_STARTSESSIONKEYREFRESH (d3dumddi.h)",
+  "description": "The StartSessionKeyRefresh function returns a random number that the driver's FinishSessionKeyRefresh function subsequently uses to perform an exclusive OR operation (XOR) with the session key.",
+  "old-location": "display\\startsessionkeyrefresh.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_STARTSESSIONKEYREFRESH callback function"
+  ],
+  "ms.keywords": "PFND3DDDI_STARTSESSIONKEYREFRESH, PFND3DDDI_STARTSESSIONKEYREFRESH callback, StartSessionKeyRefresh, StartSessionKeyRefresh callback function [Display Devices], UserModeDisplayDriver_Functions_c68a1081-f350-4439-8c1c-91d9c54469bd.xml, d3dumddi/StartSessionKeyRefresh, display.startsessionkeyrefresh",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "StartSessionKeyRefresh is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_STARTSESSIONKEYREFRESH",
+    "d3dumddi/PFND3DDDI_STARTSESSIONKEYREFRESH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_STARTSESSIONKEYREFRESH"
+  ]
+}

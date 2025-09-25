@@ -1,0 +1,71 @@
+{
+  "UID": "NE:dhcpsapi._DHCP_FORCE_FLAG",
+  "title": "DHCP_FORCE_FLAG (dhcpsapi.h)",
+  "description": "The DHCP_FORCE_FLAG enumeration defines the set of flags describing the force level of a DHCP subnet element deletion operation.",
+  "helpviewer_keywords": [
+    "*LPDHCP_FORCE_FLAG",
+    "DHCP_FORCE_FLAG",
+    "DHCP_FORCE_FLAG enumeration [DHCP]",
+    "DhcpFailoverForce",
+    "DhcpFullForce",
+    "DhcpNoForce",
+    "LPDHCP_FORCE_FLAG",
+    "LPDHCP_FORCE_FLAG enumeration pointer [DHCP]",
+    "dhcp.dhcp_force_flag",
+    "dhcpsapi/DHCP_FORCE_FLAG",
+    "dhcpsapi/DhcpFailoverForce",
+    "dhcpsapi/DhcpFullForce",
+    "dhcpsapi/DhcpNoForce",
+    "dhcpsapi/LPDHCP_FORCE_FLAG"
+  ],
+  "old-location": "dhcp\\dhcp_force_flag.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "2ec45a99-432d-4218-9048-81714ceff36b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPDHCP_FORCE_FLAG, DHCP_FORCE_FLAG, DHCP_FORCE_FLAG enumeration [DHCP], DhcpFailoverForce, DhcpFullForce, DhcpNoForce, LPDHCP_FORCE_FLAG, LPDHCP_FORCE_FLAG enumeration pointer [DHCP], dhcp.dhcp_force_flag, dhcpsapi/DHCP_FORCE_FLAG, dhcpsapi/DhcpFailoverForce, dhcpsapi/DhcpFullForce, dhcpsapi/DhcpNoForce, dhcpsapi/LPDHCP_FORCE_FLAG",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DHCP_FORCE_FLAG, *LPDHCP_FORCE_FLAG",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DHCP_FORCE_FLAG",
+    "dhcpsapi/_DHCP_FORCE_FLAG",
+    "LPDHCP_FORCE_FLAG",
+    "dhcpsapi/LPDHCP_FORCE_FLAG",
+    "DHCP_FORCE_FLAG",
+    "dhcpsapi/DHCP_FORCE_FLAG"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Dhcpsapi.h"
+  ],
+  "api_name": [
+    "DHCP_FORCE_FLAG"
+  ]
+}

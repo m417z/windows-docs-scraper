@@ -1,0 +1,6 @@
+typedef struct _D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT {
+  UINT VidPnSourceId;
+  BOOL Update;
+  BOOL KernelSupported;
+  BOOL HudSupported;
+} D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT;

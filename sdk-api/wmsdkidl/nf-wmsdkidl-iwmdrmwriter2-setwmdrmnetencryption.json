@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMDRMWriter2.SetWMDRMNetEncryption",
+  "title": "IWMDRMWriter2::SetWMDRMNetEncryption (wmsdkidl.h)",
+  "description": "The SetWMDRMNetEncryption method configures the writer to receive input samples encoded with Windows Media DRM 10 for Network Devices.",
+  "helpviewer_keywords": [
+    "IWMDRMWriter2 interface [windows Media Format]",
+    "SetWMDRMNetEncryption method",
+    "IWMDRMWriter2.SetWMDRMNetEncryption",
+    "IWMDRMWriter2::SetWMDRMNetEncryption",
+    "IWMDRMWriter2SetWMDRMNetEncryption",
+    "SetWMDRMNetEncryption",
+    "SetWMDRMNetEncryption method [windows Media Format]",
+    "SetWMDRMNetEncryption method [windows Media Format]",
+    "IWMDRMWriter2 interface",
+    "wmformat.iwmdrmwriter2_setwmdrmnetencryption",
+    "wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption"
+  ],
+  "old-location": "wmformat\\iwmdrmwriter2_setwmdrmnetencryption.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "ecbc7dda-de24-40ce-9c42-44a14ab63881",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMDRMWriter2 interface [windows Media Format],SetWMDRMNetEncryption method, IWMDRMWriter2.SetWMDRMNetEncryption, IWMDRMWriter2::SetWMDRMNetEncryption, IWMDRMWriter2SetWMDRMNetEncryption, SetWMDRMNetEncryption, SetWMDRMNetEncryption method [windows Media Format], SetWMDRMNetEncryption method [windows Media Format],IWMDRMWriter2 interface, wmformat.iwmdrmwriter2_setwmdrmnetencryption, wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDRMWriter2::SetWMDRMNetEncryption",
+    "wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMDRMWriter2.SetWMDRMNetEncryption"
+  ]
+}

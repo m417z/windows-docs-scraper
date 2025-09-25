@@ -1,0 +1,58 @@
+{
+  "UID": "NI:emi.IOCTL_EMI_GET_MEASUREMENT",
+  "title": "IOCTL_EMI_GET_MEASUREMENT (emi.h)",
+  "description": "The IOCTL_EMI_GET_MEASUREMENT control code retrieves the current energy measurement and the time at which the measurement was taken.",
+  "helpviewer_keywords": [
+    "IOCTL_EMI_GET_MEASUREMENT",
+    "IOCTL_EMI_GET_MEASUREMENT control",
+    "IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices]",
+    "emi/IOCTL_EMI_GET_MEASUREMENT",
+    "powermeter.ioctl_emi_get_measurement"
+  ],
+  "old-location": "powermeter\\ioctl_emi_get_measurement.htm",
+  "tech.root": "powermeter",
+  "ms.assetid": "E23B1ED2-A87D-419A-8BEB-136AA77258AE",
+  "ms.date": "11/19/2021",
+  "ms.keywords": "IOCTL_EMI_GET_MEASUREMENT, IOCTL_EMI_GET_MEASUREMENT control, IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_MEASUREMENT, powermeter.ioctl_emi_get_measurement",
+  "req.header": "emi.h",
+  "req.include-header": "Emi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOCTL_EMI_GET_MEASUREMENT",
+    "emi/IOCTL_EMI_GET_MEASUREMENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "emi.h"
+  ],
+  "api_name": [
+    "IOCTL_EMI_GET_MEASUREMENT"
+  ]
+}

@@ -1,0 +1,1 @@
+USHORT NdisActiveGroupCount();

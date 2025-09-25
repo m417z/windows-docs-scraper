@@ -1,0 +1,4 @@
+DWORD ICDrawSetTime(
+     hic,
+     lTime
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NI:bthioctl.IOCTL_INTERNAL_BTH_SUBMIT_BRB",
+  "title": "IOCTL_INTERNAL_BTH_SUBMIT_BRB (bthioctl.h)",
+  "description": "Profile drivers use IOCTL_INTERNAL_BTH_SUBMIT_BRB to submit a Bluetooth Request Block (BRB) to the Bluetooth driver stack.",
+  "old-location": "bltooth\\ioctl_internal_bth_submit_brb.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB",
+  "req.header": "bthioctl.h",
+  "req.include-header": "BthIoctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_INTERNAL_BTH_SUBMIT_BRB",
+    "bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "BthIoctl.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_BTH_SUBMIT_BRB"
+  ]
+}

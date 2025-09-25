@@ -1,0 +1,26 @@
+typedef struct _CDROM_TOC_ATIP_DATA_BLOCK {
+  UCHAR CdrwReferenceSpeed : 3;
+  UCHAR Reserved3 : 1;
+  UCHAR WritePower : 3;
+  UCHAR True1 : 1;
+  UCHAR Reserved4 : 6;
+  UCHAR UnrestrictedUse : 1;
+  UCHAR Reserved5 : 1;
+  UCHAR A3Valid : 1;
+  UCHAR A2Valid : 1;
+  UCHAR A1Valid : 1;
+  UCHAR DiscSubType : 3;
+  UCHAR IsCdrw : 1;
+  UCHAR True2 : 1;
+  UCHAR Reserved7;
+  UCHAR LeadInMsf[3];
+  UCHAR Reserved8;
+  UCHAR LeadOutMsf[3];
+  UCHAR Reserved9;
+  UCHAR A1Values[3];
+  UCHAR Reserved10;
+  UCHAR A2Values[3];
+  UCHAR Reserved11;
+  UCHAR A3Values[3];
+  UCHAR Reserved12;
+} CDROM_TOC_ATIP_DATA_BLOCK, *PCDROM_TOC_ATIP_DATA_BLOCK;

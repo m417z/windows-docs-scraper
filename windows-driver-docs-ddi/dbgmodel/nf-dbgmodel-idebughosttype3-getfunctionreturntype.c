@@ -1,0 +1,3 @@
+HRESULT GetFunctionReturnType(
+  IDebugHostType **returnType
+);

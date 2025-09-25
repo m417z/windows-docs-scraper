@@ -1,0 +1,60 @@
+{
+  "UID": "NF:ntlsa.LsaLookupPrivilegeValue",
+  "title": "LsaLookupPrivilegeValue function (ntlsa.h)",
+  "description": "Retrieves the locally unique identifier (LUID) used by the Local Security Authority (LSA) to represent the specified privilege name.",
+  "helpviewer_keywords": [
+    "LsaLookupPrivilegeValue",
+    "LsaLookupPrivilegeValue function [Security]",
+    "ntlsa/LsaLookupPrivilegeValue",
+    "security.lsalookupprivilegevalue"
+  ],
+  "old-location": "security\\lsalookupprivilegevalue.htm",
+  "tech.root": "security",
+  "ms.assetid": "4926fff9-6e1a-475c-95ab-78c9b67aaa87",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaLookupPrivilegeValue, LsaLookupPrivilegeValue function [Security], ntlsa/LsaLookupPrivilegeValue, security.lsalookupprivilegevalue",
+  "req.header": "ntlsa.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaLookupPrivilegeValue",
+    "ntlsa/LsaLookupPrivilegeValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-lsa-l1-1-4.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-3.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-2.dll",
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "LsaLookupPrivilegeValue"
+  ]
+}

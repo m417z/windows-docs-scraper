@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D11_1DDI_GETCERTIFICATESIZE",
+  "title": "PFND3D11_1DDI_GETCERTIFICATESIZE (d3d10umddi.h)",
+  "description": "Queries the size in bytes of the certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.",
+  "old-location": "display\\getcertificatesize.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D11_1DDI_GETCERTIFICATESIZE callback function"
+  ],
+  "ms.keywords": "PFND3D11_1DDI_GETCERTIFICATESIZE, PFND3D11_1DDI_GETCERTIFICATESIZE callback, d3d10umddi/pfnGetCertificateSize, display.getcertificatesize, pfnGetCertificateSize, pfnGetCertificateSize callback function [Display Devices]",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D11_1DDI_GETCERTIFICATESIZE",
+    "d3d10umddi/PFND3D11_1DDI_GETCERTIFICATESIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D11_1DDI_GETCERTIFICATESIZE"
+  ]
+}

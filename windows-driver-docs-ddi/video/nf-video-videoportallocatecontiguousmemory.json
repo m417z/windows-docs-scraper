@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortAllocateContiguousMemory",
+  "title": "VideoPortAllocateContiguousMemory function (video.h)",
+  "description": "The VideoPortAllocateContiguousMemory function is obsolete in Windows 2000 and later.",
+  "old-location": "display\\videoportallocatecontiguousmemory.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortAllocateContiguousMemory function"
+  ],
+  "ms.keywords": "VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, display.videoportallocatecontiguousmemory, video/VideoPortAllocateContiguousMemory",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortAllocateContiguousMemory",
+    "video/VideoPortAllocateContiguousMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortAllocateContiguousMemory"
+  ]
+}

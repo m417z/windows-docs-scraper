@@ -1,0 +1,62 @@
+{
+  "UID": "NF:commctrl.TreeView_SetBorder",
+  "title": "TreeView_SetBorder macro (commctrl.h)",
+  "description": "Sets the size of the border for the items in a tree-view control. You can use this macro or send the TVM_SETBORDER message explicitly.",
+  "helpviewer_keywords": [
+    "TVSBF_XBORDER",
+    "TVSBF_YBORDER",
+    "TreeView_SetBorder",
+    "TreeView_SetBorder macro [Windows Controls]",
+    "_win32_TreeView_SetBorder",
+    "_win32_TreeView_SetBorder_cpp",
+    "commctrl/TreeView_SetBorder",
+    "controls.TreeView_SetBorder",
+    "controls._win32_TreeView_SetBorder"
+  ],
+  "old-location": "controls\\TreeView_SetBorder.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\treeview\\macros\\treeview_setborder.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "TVSBF_XBORDER, TVSBF_YBORDER, TreeView_SetBorder, TreeView_SetBorder macro [Windows Controls], _win32_TreeView_SetBorder, _win32_TreeView_SetBorder_cpp, commctrl/TreeView_SetBorder, controls.TreeView_SetBorder, controls._win32_TreeView_SetBorder",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TreeView_SetBorder",
+    "commctrl/TreeView_SetBorder"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "TreeView_SetBorder"
+  ]
+}

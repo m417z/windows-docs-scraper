@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_SCSI_NAME_STRING",
+  "tech.root": "fs",
+  "title": "NVME_SCSI_NAME_STRING",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains information that is used to construct the SCSI name string identifier.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_SCSI_NAME_STRING, *PNVME_SCSI_NAME_STRING",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_SCSI_NAME_STRING",
+    "NVME_SCSI_NAME_STRING"
+  ],
+  "f1_keywords": [
+    "PNVME_SCSI_NAME_STRING",
+    "nvme/PNVME_SCSI_NAME_STRING",
+    "NVME_SCSI_NAME_STRING",
+    "nvme/NVME_SCSI_NAME_STRING"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

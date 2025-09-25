@@ -1,0 +1,48 @@
+{
+  "UID": "NF:bdasup.BdaGetChangeState",
+  "title": "BdaGetChangeState function (bdasup.h)",
+  "description": "The BdaGetChangeState function returns the current change state of BDA topology.",
+  "tech.root": "stream",
+  "ms.date": "04/25/2022",
+  "keywords": [
+    "BdaGetChangeState function"
+  ],
+  "ms.keywords": "BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, bdasup/BdaGetChangeState, stream.bdagetchangestate",
+  "req.header": "bdasup.h",
+  "req.include-header": "Bdasup.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bdasup.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "BdaGetChangeState",
+    "bdasup/BdaGetChangeState"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Bdasup.lib",
+    "Bdasup.dll"
+  ],
+  "api_name": [
+    "BdaGetChangeState"
+  ]
+}

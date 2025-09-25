@@ -1,0 +1,48 @@
+{
+  "UID": "NC:iddcx.PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE",
+  "title": "PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE",
+  "description": "PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE is a pointer to an OS callback function that updates the display configuration for the remote session.",
+  "tech.root": "display",
+  "ms.date": "09/28/2020",
+  "keywords": [
+    "PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE callback pointer"
+  ],
+  "req.header": "iddcx.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE",
+    "iddcx/PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "iddcx.h"
+  ],
+  "api_name": [
+    "PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

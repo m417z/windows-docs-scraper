@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.IoIsValidIrpStatus",
+  "title": "IoIsValidIrpStatus function (ntddk.h)",
+  "description": "The IoIsValidIrpStatus routine validates the specified NTSTATUS status code value.",
+  "old-location": "kernel\\ioisvalidirpstatus.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoIsValidIrpStatus function"
+  ],
+  "ms.keywords": "IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], kernel.ioisvalidirpstatus, ntddk/IoIsValidIrpStatus",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoIsValidIrpStatus",
+    "ntddk/IoIsValidIrpStatus"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoIsValidIrpStatus"
+  ]
+}

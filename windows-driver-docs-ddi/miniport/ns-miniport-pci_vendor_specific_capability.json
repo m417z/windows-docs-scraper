@@ -1,0 +1,52 @@
+{
+  "UID": "NS:miniport._PCI_VENDOR_SPECIFIC_CAPABILITY",
+  "tech.root": "kernel",
+  "title": "PCI_VENDOR_SPECIFIC_CAPABILITY (miniport.h)",
+  "ms.date": "03/30/2022",
+  "targetos": "Windows",
+  "description": "This topic describes the PCI_VENDOR_SPECIFIC_CAPABILITY structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "miniport.h",
+  "req.include-header": "Miniport.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "PCI_VENDOR_SPECIFIC_CAPABILITY, *PPCI_VENDOR_SPECIFIC_CAPABILITY",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "miniport.h"
+  ],
+  "api_name": [
+    "_PCI_VENDOR_SPECIFIC_CAPABILITY",
+    "PPCI_VENDOR_SPECIFIC_CAPABILITY",
+    "PCI_VENDOR_SPECIFIC_CAPABILITY"
+  ],
+  "f1_keywords": [
+    "_PCI_VENDOR_SPECIFIC_CAPABILITY",
+    "miniport/_PCI_VENDOR_SPECIFIC_CAPABILITY",
+    "PPCI_VENDOR_SPECIFIC_CAPABILITY",
+    "miniport/PPCI_VENDOR_SPECIFIC_CAPABILITY",
+    "PCI_VENDOR_SPECIFIC_CAPABILITY",
+    "miniport/PCI_VENDOR_SPECIFIC_CAPABILITY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_PCI_VENDOR_SPECIFIC_CAPABILITY"
+  ]
+}

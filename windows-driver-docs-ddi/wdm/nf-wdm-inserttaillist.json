@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.InsertTailList",
+  "title": "InsertTailList function (wdm.h)",
+  "description": "The InsertTailList routine inserts an entry at the tail of a doubly linked list of LIST_ENTRY structures.",
+  "old-location": "kernel\\inserttaillist.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "InsertTailList function"
+  ],
+  "ms.keywords": "InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, wdm/InsertTailList",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "InsertTailList",
+    "wdm/InsertTailList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "InsertTailList"
+  ]
+}

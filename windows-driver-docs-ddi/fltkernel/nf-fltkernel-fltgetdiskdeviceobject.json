@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltGetDiskDeviceObject",
+  "title": "FltGetDiskDeviceObject function (fltkernel.h)",
+  "description": "The FltGetDiskDeviceObject routine returns a pointer to the disk device object associated with a given volume.",
+  "old-location": "ifsk\\fltgetdiskdeviceobject.htm",
+  "tech.root": "ifsk",
+  "ms.date": "12/02/2020",
+  "keywords": [
+    "FltGetDiskDeviceObject function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fltmgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltGetDiskDeviceObject",
+    "fltkernel/FltGetDiskDeviceObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltGetDiskDeviceObject"
+  ]
+}

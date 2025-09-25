@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_SLOT_INFO {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_SLOT_INFO     SlotInfo;
+} NDIS_WWAN_SLOT_INFO, *PNDIS_WWAN_SLOT_INFO;

@@ -1,0 +1,61 @@
+{
+  "UID": "NF:pdh.PdhEnumObjectItemsHA",
+  "title": "PdhEnumObjectItemsHA function (pdh.h)",
+  "description": "Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. This function is identical to the PdhEnumObjectItems function, except that it supports the use of handles to data sources. (ANSI)",
+  "helpviewer_keywords": [
+    "PERF_DETAIL_ADVANCED",
+    "PERF_DETAIL_EXPERT",
+    "PERF_DETAIL_NOVICE",
+    "PERF_DETAIL_WIZARD",
+    "PdhEnumObjectItemsHA",
+    "pdh/PdhEnumObjectItemsHA"
+  ],
+  "old-location": "perf\\pdhenumobjectitemsh.htm",
+  "tech.root": "perf",
+  "ms.assetid": "2cea7d0a-cea2-4fee-a087-37663de254e9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectItemsH, PdhEnumObjectItemsH function [Perf], PdhEnumObjectItemsHA, PdhEnumObjectItemsHW, _win32_pdhenumobjectitemsh, base.pdhenumobjectitemsh, pdh/PdhEnumObjectItemsH, pdh/PdhEnumObjectItemsHA, pdh/PdhEnumObjectItemsHW, perf.pdhenumobjectitemsh",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhEnumObjectItemsHW (Unicode) and PdhEnumObjectItemsHA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhEnumObjectItemsHA",
+    "pdh/PdhEnumObjectItemsHA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhEnumObjectItemsH",
+    "PdhEnumObjectItemsHA",
+    "PdhEnumObjectItemsHW"
+  ]
+}

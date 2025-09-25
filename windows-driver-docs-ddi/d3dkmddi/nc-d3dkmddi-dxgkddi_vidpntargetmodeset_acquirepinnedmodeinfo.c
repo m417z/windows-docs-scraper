@@ -1,0 +1,7 @@
+DXGKDDI_VIDPNTARGETMODESET_ACQUIREPINNEDMODEINFO DxgkddiVidpntargetmodesetAcquirepinnedmodeinfo;
+
+NTSTATUS DxgkddiVidpntargetmodesetAcquirepinnedmodeinfo(
+  [in]  IN_CONST_D3DKMDT_HVIDPNTARGETMODESET hVidPnTargetModeSet,
+  [out] DEREF_OUT_CONST_PPD3DKMDT_VIDPN_TARGET_MODE ppPinnedVidPnTargetModeInfo
+)
+{...}

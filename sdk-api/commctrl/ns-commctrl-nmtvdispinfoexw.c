@@ -1,0 +1,4 @@
+typedef struct tagTVDISPINFOEXW {
+  NMHDR     hdr;
+  TVITEMEXW item;
+} NMTVDISPINFOEXW, *LPNMTVDISPINFOEXW;

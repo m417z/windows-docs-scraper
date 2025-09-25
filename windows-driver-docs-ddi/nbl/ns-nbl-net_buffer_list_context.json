@@ -1,0 +1,48 @@
+{
+  "UID": "NS:nbl._NET_BUFFER_LIST_CONTEXT",
+  "title": "NET_BUFFER_LIST_CONTEXT",
+  "ms.date": "11/30/2020",
+  "targetos": "Windows",
+  "description": "The NET_BUFFER_LIST_CONTEXT structure stores context information for a NET_BUFFER_LIST structure.",
+  "tech.root": "netvista",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nbl.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nbl.h"
+  ],
+  "api_name": [
+    "_NET_BUFFER_LIST_CONTEXT",
+    "PNET_BUFFER_LIST_CONTEXT",
+    "NET_BUFFER_LIST_CONTEXT"
+  ],
+  "f1_keywords": [
+    "_NET_BUFFER_LIST_CONTEXT",
+    "nbl/_NET_BUFFER_LIST_CONTEXT",
+    "PNET_BUFFER_LIST_CONTEXT",
+    "nbl/PNET_BUFFER_LIST_CONTEXT",
+    "NET_BUFFER_LIST_CONTEXT",
+    "nbl/NET_BUFFER_LIST_CONTEXT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

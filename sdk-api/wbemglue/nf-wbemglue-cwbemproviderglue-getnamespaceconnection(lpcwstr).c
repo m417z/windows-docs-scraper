@@ -1,0 +1,3 @@
+IWbemServices * GetNamespaceConnection(
+  LPCWSTR NameSpace
+);

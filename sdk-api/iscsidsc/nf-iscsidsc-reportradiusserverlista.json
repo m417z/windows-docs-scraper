@@ -1,0 +1,57 @@
+{
+  "UID": "NF:iscsidsc.ReportRadiusServerListA",
+  "title": "ReportRadiusServerListA function (iscsidsc.h)",
+  "description": "ReportRadiusServerList function retrieves the list of Remote Authentication Dial-In Service (RADIUS) servers the iSCSI initiator service uses during authentication. (ANSI)",
+  "helpviewer_keywords": [
+    "ReportRadiusServerListA",
+    "iscsidsc/ReportRadiusServerListA"
+  ],
+  "old-location": "iscsidisc\\reportradiusserverlist.htm",
+  "tech.root": "iSCSIDisc",
+  "ms.assetid": "83f9fdca-805a-44ed-bd6b-0a731c63cfe6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ReportRadiusServerList, ReportRadiusServerList function [iSCSI Discovery Library API], ReportRadiusServerListA, ReportRadiusServerListW, iscsidisc.reportradiusserverlist, iscsidsc/ReportRadiusServerList, iscsidsc/ReportRadiusServerListA, iscsidsc/ReportRadiusServerListW",
+  "req.header": "iscsidsc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "ReportRadiusServerListW (Unicode) and ReportRadiusServerListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iscsidsc.lib",
+  "req.dll": "Iscsidsc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ReportRadiusServerListA",
+    "iscsidsc/ReportRadiusServerListA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iscsidsc.dll"
+  ],
+  "api_name": [
+    "ReportRadiusServerList",
+    "ReportRadiusServerListA",
+    "ReportRadiusServerListW"
+  ]
+}

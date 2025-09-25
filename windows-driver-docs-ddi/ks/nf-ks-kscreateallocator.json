@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ks.KsCreateAllocator",
+  "title": "KsCreateAllocator function (ks.h)",
+  "description": "The KsCreateAllocator function creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.",
+  "old-location": "stream\\kscreateallocator.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KsCreateAllocator function"
+  ],
+  "ms.keywords": "KsCreateAllocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ks.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KsCreateAllocator",
+    "ks/KsCreateAllocator"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ks.lib",
+    "ks.dll"
+  ],
+  "api_name": [
+    "KsCreateAllocator"
+  ]
+}

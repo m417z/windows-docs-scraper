@@ -1,0 +1,3 @@
+typedef enum _MFT_SET_TYPE_FLAGS {
+  MFT_SET_TYPE_TEST_ONLY = 0x1
+} ;

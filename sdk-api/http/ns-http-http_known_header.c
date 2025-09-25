@@ -1,0 +1,4 @@
+typedef struct _HTTP_KNOWN_HEADER {
+  USHORT RawValueLength;
+  PCSTR  pRawValue;
+} HTTP_KNOWN_HEADER, *PHTTP_KNOWN_HEADER;

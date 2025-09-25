@@ -1,0 +1,4 @@
+typedef struct _DXGKARGCB_ENUMHANDLECHILDREN {
+  [in] D3DKMT_HANDLE hObject;
+  [in] UINT          Index;
+} DXGKARGCB_ENUMHANDLECHILDREN;

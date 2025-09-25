@@ -1,0 +1,3 @@
+HRESULT GetWeight(
+  long *pValue
+);

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_SOURCE",
+  "title": "TOKEN_SOURCE (ntifs.h)",
+  "description": "TOKEN_SOURCE identifies the source of an access token.",
+  "old-location": "ifsk\\token_source.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "TOKEN_SOURCE structure"
+  ],
+  "ms.keywords": "*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers], TOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], _TOKEN_SOURCE, ifsk.token_source, ntifs/PTOKEN_SOURCE, ntifs/TOKEN_SOURCE, securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_SOURCE, *PTOKEN_SOURCE",
+  "f1_keywords": [
+    "_TOKEN_SOURCE",
+    "ntifs/_TOKEN_SOURCE",
+    "PTOKEN_SOURCE",
+    "ntifs/PTOKEN_SOURCE",
+    "TOKEN_SOURCE",
+    "ntifs/TOKEN_SOURCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_SOURCE",
+    "PTOKEN_SOURCE",
+    "TOKEN_SOURCE"
+  ]
+}

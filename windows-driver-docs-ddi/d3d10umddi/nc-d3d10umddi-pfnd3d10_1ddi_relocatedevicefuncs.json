@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10_1DDI_RELOCATEDEVICEFUNCS",
+  "title": "PFND3D10_1DDI_RELOCATEDEVICEFUNCS (d3d10umddi.h)",
+  "description": "The RelocateDeviceFuncs(D3D10_1) function notifies the user-mode display driver about the new location of the driver function table.",
+  "old-location": "display\\relocatedevicefuncs_d3d10_1_.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10_1DDI_RELOCATEDEVICEFUNCS callback function"
+  ],
+  "ms.keywords": "PFND3D10_1DDI_RELOCATEDEVICEFUNCS, PFND3D10_1DDI_RELOCATEDEVICEFUNCS callback, RelocateDeviceFuncs_D3D10_1, RelocateDeviceFuncs_D3D10_1 callback function [Display Devices], UserModeDisplayDriverDx10_Functions_5798bcfe-7d15-407d-b7c2-cfe907e94991.xml, d3d10umddi/RelocateDeviceFuncs_D3D10_1, display.relocatedevicefuncs_d3d10_1_",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "RelocateDeviceFuncs(D3D10_1) is supported on Windows Vista with Service Pack 1 (SP1) and later versions and Windows Server 2008 and later versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10_1DDI_RELOCATEDEVICEFUNCS",
+    "d3d10umddi/PFND3D10_1DDI_RELOCATEDEVICEFUNCS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10_1DDI_RELOCATEDEVICEFUNCS"
+  ]
+}

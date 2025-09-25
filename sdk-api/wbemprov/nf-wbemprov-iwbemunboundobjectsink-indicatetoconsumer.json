@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wbemprov.IWbemUnboundObjectSink.IndicateToConsumer",
+  "title": "IWbemUnboundObjectSink::IndicateToConsumer (wbemprov.h)",
+  "description": "Called by WMI to actually deliver events to a consumer.",
+  "helpviewer_keywords": [
+    "IWbemUnboundObjectSink interface [Windows Management Instrumentation]",
+    "IndicateToConsumer method",
+    "IWbemUnboundObjectSink.IndicateToConsumer",
+    "IWbemUnboundObjectSink::IndicateToConsumer",
+    "IndicateToConsumer",
+    "IndicateToConsumer method [Windows Management Instrumentation]",
+    "IndicateToConsumer method [Windows Management Instrumentation]",
+    "IWbemUnboundObjectSink interface",
+    "_hmm_iwbemunboundobjectsink_indicatetoconsumer",
+    "wbemprov/IWbemUnboundObjectSink::IndicateToConsumer",
+    "wmi.iwbemunboundobjectsink_indicatetoconsumer"
+  ],
+  "old-location": "wmi\\iwbemunboundobjectsink_indicatetoconsumer.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "70fe9976-cfa9-442d-93a4-12293e80d1fa",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IWbemUnboundObjectSink interface [Windows Management Instrumentation],IndicateToConsumer method, IWbemUnboundObjectSink.IndicateToConsumer, IWbemUnboundObjectSink::IndicateToConsumer, IndicateToConsumer, IndicateToConsumer method [Windows Management Instrumentation], IndicateToConsumer method [Windows Management Instrumentation],IWbemUnboundObjectSink interface, _hmm_iwbemunboundobjectsink_indicatetoconsumer, wbemprov/IWbemUnboundObjectSink::IndicateToConsumer, wmi.iwbemunboundobjectsink_indicatetoconsumer",
+  "req.header": "wbemprov.h",
+  "req.include-header": "Wbemidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wbemuuid.lib",
+  "req.dll": "Fastprox.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWbemUnboundObjectSink::IndicateToConsumer",
+    "wbemprov/IWbemUnboundObjectSink::IndicateToConsumer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Fastprox.dll"
+  ],
+  "api_name": [
+    "IWbemUnboundObjectSink.IndicateToConsumer"
+  ]
+}

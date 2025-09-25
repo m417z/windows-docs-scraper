@@ -1,0 +1,47 @@
+{
+  "UID": "NF:mfidl.MFCreateCameraOcclusionStateMonitor",
+  "tech.root": "mf",
+  "title": "MFCreateCameraOcclusionStateMonitor",
+  "ms.date": "05/25/2021",
+  "targetos": "Windows",
+  "description": "Creates a new instance of IMFCameraOcclusionStateMonitor which allows an application to receive notifications when the camera occlusion state changes.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "mfsensorgroup.dll",
+  "req.header": "mfidl.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "mfsensorgroup.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "mfsensorgroup.dll"
+  ],
+  "api_name": [
+    "MFCreateCameraOcclusionStateMonitor"
+  ],
+  "f1_keywords": [
+    "MFCreateCameraOcclusionStateMonitor",
+    "mfidl/MFCreateCameraOcclusionStateMonitor"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

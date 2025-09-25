@@ -1,0 +1,65 @@
+{
+  "UID": "NF:clusapi.CreateClusterGroupEx",
+  "title": "CreateClusterGroupEx function (clusapi.h)",
+  "description": "Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.",
+  "helpviewer_keywords": [
+    "CreateClusterGroupEx",
+    "CreateClusterGroupEx function [Failover Cluster]",
+    "PCLUSAPI_CREATE_CLUSTER_GROUPEX",
+    "PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster]",
+    "clusapi/CreateClusterGroupEx",
+    "clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX",
+    "mscs.createclustergroupex"
+  ],
+  "old-location": "mscs\\createclustergroupex.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "D24A2622-758D-4344-8872-F0D8E4EE80CC",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateClusterGroupEx, CreateClusterGroupEx function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUPEX, PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster], clusapi/CreateClusterGroupEx, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX, mscs.createclustergroupex",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateClusterGroupEx",
+    "clusapi/CreateClusterGroupEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-2.dll"
+  ],
+  "api_name": [
+    "CreateClusterGroupEx"
+  ]
+}

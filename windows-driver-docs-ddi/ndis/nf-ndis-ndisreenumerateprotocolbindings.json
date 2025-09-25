@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisReEnumerateProtocolBindings",
+  "title": "NdisReEnumerateProtocolBindings function (ndis.h)",
+  "description": "The NdisReEnumerateProtocolBindings function causes NDIS to call a protocol driver's ProtocolBindAdapterEx function one time for each miniport adapter for which the driver is configured to bind but to which the driver is not currently bound.",
+  "old-location": "netvista\\ndisreenumerateprotocolbindings.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisReEnumerateProtocolBindings function"
+  ],
+  "ms.keywords": "NdisReEnumerateProtocolBindings, NdisReEnumerateProtocolBindings function [Network Drivers Starting with Windows Vista], ndis/NdisReEnumerateProtocolBindings, netvista.ndisreenumerateprotocolbindings, protocol_ndis_functions_ref_097465b9-b6e9-435a-8ac4-6d302363e946.xml",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisReEnumerateProtocolBindings (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisReEnumerateProtocolBindings (NDIS 5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Miscellaneous_Function, NdisReEnumerateProtocolBindings",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisReEnumerateProtocolBindings",
+    "ndis/NdisReEnumerateProtocolBindings"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisReEnumerateProtocolBindings"
+  ]
+}

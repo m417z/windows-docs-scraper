@@ -1,0 +1,3 @@
+HRESULT StopDebugging(
+  IDataModelScriptDebugClient *debugClient
+);

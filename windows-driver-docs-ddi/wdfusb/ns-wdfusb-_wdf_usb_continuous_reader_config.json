@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdfusb._WDF_USB_CONTINUOUS_READER_CONFIG",
+  "title": "_WDF_USB_CONTINUOUS_READER_CONFIG (wdfusb.h)",
+  "description": "The WDF_USB_CONTINUOUS_READER_CONFIG structure contains information that the framework uses to configure a continuous reader for a USB pipe.",
+  "old-location": "wdf\\wdf_usb_continuous_reader_config.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_USB_CONTINUOUS_READER_CONFIG structure"
+  ],
+  "ms.keywords": "*PWDF_USB_CONTINUOUS_READER_CONFIG, DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, PWDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, WDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG structure, _WDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, wdf.wdf_usb_continuous_reader_config, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG",
+  "f1_keywords": [
+    "_WDF_USB_CONTINUOUS_READER_CONFIG",
+    "wdfusb/_WDF_USB_CONTINUOUS_READER_CONFIG",
+    "PWDF_USB_CONTINUOUS_READER_CONFIG",
+    "wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG",
+    "WDF_USB_CONTINUOUS_READER_CONFIG",
+    "wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfusb.h"
+  ],
+  "api_name": [
+    "_WDF_USB_CONTINUOUS_READER_CONFIG",
+    "PWDF_USB_CONTINUOUS_READER_CONFIG",
+    "WDF_USB_CONTINUOUS_READER_CONFIG"
+  ]
+}

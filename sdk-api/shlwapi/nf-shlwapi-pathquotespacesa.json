@@ -1,0 +1,61 @@
+{
+  "UID": "NF:shlwapi.PathQuoteSpacesA",
+  "title": "PathQuoteSpacesA function (shlwapi.h)",
+  "description": "Searches a path for spaces. If spaces are found, the entire path is enclosed in quotation marks. (ANSI)",
+  "helpviewer_keywords": [
+    "PathQuoteSpacesA",
+    "shlwapi/PathQuoteSpacesA"
+  ],
+  "old-location": "shell\\PathQuoteSpaces.htm",
+  "tech.root": "shell",
+  "ms.assetid": "76a51c21-b924-4919-a6bb-8c6bdec5b3f0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PathQuoteSpaces, PathQuoteSpaces function [Windows Shell], PathQuoteSpacesA, PathQuoteSpacesW, _win32_PathQuoteSpaces, shell.PathQuoteSpaces, shlwapi/PathQuoteSpaces, shlwapi/PathQuoteSpacesA, shlwapi/PathQuoteSpacesW",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PathQuoteSpacesW (Unicode) and PathQuoteSpacesA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 4.71 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PathQuoteSpacesA",
+    "shlwapi/PathQuoteSpacesA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-shlwapi-l1-1-0.dll",
+    "Shlwapi.dll",
+    "API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-shlwapi-l1-1-1.dll"
+  ],
+  "api_name": [
+    "PathQuoteSpaces",
+    "PathQuoteSpacesA",
+    "PathQuoteSpacesW"
+  ]
+}

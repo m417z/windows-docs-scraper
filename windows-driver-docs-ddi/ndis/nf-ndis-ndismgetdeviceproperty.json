@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMGetDeviceProperty",
+  "title": "NdisMGetDeviceProperty function (ndis.h)",
+  "description": "The NdisMGetDeviceProperty function retrieves device objects required to set up communication with a miniport driver through a bus driver.",
+  "old-location": "netvista\\ndismgetdeviceproperty.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMGetDeviceProperty function"
+  ],
+  "ms.keywords": "NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Supported in NDIS 5.1, and NDIS 6.0 and later. For NDIS 5.1 drivers, see    NdisMGetDeviceProperty (NDIS   5.1).",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Miniport_Driver_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMGetDeviceProperty",
+    "ndis/NdisMGetDeviceProperty"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMGetDeviceProperty"
+  ]
+}

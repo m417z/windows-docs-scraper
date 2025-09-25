@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winhttp.WinHttpDetectAutoProxyConfigUrl",
+  "title": "WinHttpDetectAutoProxyConfigUrl function (winhttp.h)",
+  "description": "Finds the URL for the Proxy Auto-Configuration (PAC) file.",
+  "helpviewer_keywords": [
+    "WINHTTP_AUTO_DETECT_TYPE_DHCP",
+    "WINHTTP_AUTO_DETECT_TYPE_DNS_A",
+    "WinHttpDetectAutoProxyConfigUrl",
+    "WinHttpDetectAutoProxyConfigUrl function [WinHTTP]",
+    "http.winhttpdetectautoproxyconfigurl",
+    "winhttp/WinHttpDetectAutoProxyConfigUrl"
+  ],
+  "old-location": "http\\winhttpdetectautoproxyconfigurl.htm",
+  "tech.root": "http",
+  "ms.assetid": "a433ed3c-3f31-4c37-9c09-3f8344e9550d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl",
+  "req.header": "winhttp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP, Windows 2000 Professional with SP3 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winhttp.lib",
+  "req.dll": "Winhttp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinHttpDetectAutoProxyConfigUrl",
+    "winhttp/WinHttpDetectAutoProxyConfigUrl"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winhttp.dll"
+  ],
+  "api_name": [
+    "WinHttpDetectAutoProxyConfigUrl"
+  ]
+}

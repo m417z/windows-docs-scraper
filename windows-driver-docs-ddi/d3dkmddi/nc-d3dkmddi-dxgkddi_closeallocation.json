@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_CLOSEALLOCATION",
+  "title": "DXGKDDI_CLOSEALLOCATION (d3dkmddi.h)",
+  "description": "The DxgkDdiCloseAllocation function unbinds device-specific allocations that the DxgkDdiOpenAllocation function created.",
+  "old-location": "display\\dxgkddicloseallocation.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_CLOSEALLOCATION callback function"
+  ],
+  "ms.keywords": "DXGKDDI_CLOSEALLOCATION, DXGKDDI_CLOSEALLOCATION callback, DmFunctions_357920c4-694d-48f8-97ef-aa367e210a59.xml, DxgkDdiCloseAllocation, DxgkDdiCloseAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCloseAllocation, display.dxgkddicloseallocation",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_CLOSEALLOCATION",
+    "d3dkmddi/DXGKDDI_CLOSEALLOCATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_CLOSEALLOCATION"
+  ]
+}

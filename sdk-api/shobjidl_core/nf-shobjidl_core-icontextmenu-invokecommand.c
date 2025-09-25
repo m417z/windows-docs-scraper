@@ -1,0 +1,3 @@
+HRESULT InvokeCommand(
+  CMINVOKECOMMANDINFO *pici
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndkpi.NDK_FN_CREATE_SHARED_ENDPOINT",
+  "title": "NDK_FN_CREATE_SHARED_ENDPOINT (ndkpi.h)",
+  "description": "The NdkCreateSharedEndpoint (NDK_FN_CREATE_SHARED_ENDPOINT) function creates an NDK shared endpoint.",
+  "old-location": "netvista\\ndk_fn_create_shared_endpoint.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDK_FN_CREATE_SHARED_ENDPOINT callback function"
+  ],
+  "ms.keywords": "NDK_FN_CREATE_SHARED_ENDPOINT, NDK_FN_CREATE_SHARED_ENDPOINT callback, NdkCreateSharedEndpoint, NdkCreateSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSharedEndpoint, netvista.ndk_fn_create_shared_endpoint",
+  "req.header": "ndkpi.h",
+  "req.include-header": "Ndkpi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported,Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDK_FN_CREATE_SHARED_ENDPOINT",
+    "ndkpi/NDK_FN_CREATE_SHARED_ENDPOINT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "NDK_FN_CREATE_SHARED_ENDPOINT"
+  ]
+}

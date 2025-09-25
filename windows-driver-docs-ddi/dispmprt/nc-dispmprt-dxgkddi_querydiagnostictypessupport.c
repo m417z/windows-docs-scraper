@@ -1,0 +1,7 @@
+DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT DxgkddiQuerydiagnostictypessupport;
+
+NTSTATUS DxgkddiQuerydiagnostictypessupport(
+  IN_CONST_PVOID MiniportDeviceContext,
+  INOUT_PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT pArgQueryDiagnosticTypesSupport
+)
+{...}

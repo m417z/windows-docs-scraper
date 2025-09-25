@@ -1,0 +1,6 @@
+typedef enum {
+  CPT_ICC,
+  CPT_DMP,
+  CPT_CAMP,
+  CPT_GMMP
+} COLORPROFILETYPE;

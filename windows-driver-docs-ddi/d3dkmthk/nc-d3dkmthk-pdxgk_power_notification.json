@@ -1,0 +1,49 @@
+{
+  "UID": "NC:d3dkmthk.PDXGK_POWER_NOTIFICATION",
+  "title": "PDXGK_POWER_NOTIFICATION (d3dkmthk.h)",
+  "description": "A callback providing notification that the graphics device will be undergoing a device power state transition.",
+  "old-location": "display\\pdxgk_power_notification.htm",
+  "ms.date": "10/07/2022",
+  "keywords": [
+    "PDXGK_POWER_NOTIFICATION callback"
+  ],
+  "ms.keywords": "*PDXGK_POWER_NOTIFICATION, *PDXGK_POWER_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_POWER_NOTIFICATION, display.pdxgk_power_notification",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "ms.custom": "engagement-fy23",
+  "req.typenames": "DXGK_TARGETMODE_DETAIL_TIMING",
+  "f1_keywords": [
+    "PDXGK_POWER_NOTIFICATION",
+    "d3dkmthk/PDXGK_POWER_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmthk.h"
+  ],
+  "api_name": [
+    "PDXGK_POWER_NOTIFICATION"
+  ]
+}

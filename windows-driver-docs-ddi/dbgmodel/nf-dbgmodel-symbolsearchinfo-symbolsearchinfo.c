@@ -1,0 +1,3 @@
+void SymbolSearchInfo(
+  ULONG derivedSize
+);

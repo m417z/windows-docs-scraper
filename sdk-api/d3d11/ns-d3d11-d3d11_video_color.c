@@ -1,0 +1,6 @@
+typedef struct D3D11_VIDEO_COLOR {
+  union {
+    D3D11_VIDEO_COLOR_YCbCrA YCbCr;
+    D3D11_VIDEO_COLOR_RGBA   RGBA;
+  };
+} D3D11_VIDEO_COLOR;

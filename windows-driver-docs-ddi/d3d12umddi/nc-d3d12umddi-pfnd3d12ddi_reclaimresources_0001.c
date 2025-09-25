@@ -1,0 +1,7 @@
+PFND3D12DDI_RECLAIMRESOURCES_0001 Pfnd3d12ddiReclaimresources0001;
+
+HRESULT Pfnd3d12ddiReclaimresources0001(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDIARG_RECLAIMRESOURCES_0001 *unnamedParam2
+)
+{...}

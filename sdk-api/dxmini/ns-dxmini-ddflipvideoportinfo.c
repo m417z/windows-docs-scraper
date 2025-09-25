@@ -1,0 +1,6 @@
+typedef struct _DDFLIPVIDEOPORTINFO {
+  LPDDVIDEOPORTDATA lpVideoPortData;
+  LPDDSURFACEDATA   lpCurrentSurface;
+  LPDDSURFACEDATA   lpTargetSurface;
+  DWORD             dwFlipVPFlags;
+} DDFLIPVIDEOPORTINFO, *PDDFLIPVIDEOPORTINFO;

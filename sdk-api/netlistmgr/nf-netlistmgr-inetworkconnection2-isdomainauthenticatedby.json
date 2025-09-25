@@ -1,0 +1,51 @@
+{
+  "UID": "NF:netlistmgr.INetworkConnection2.IsDomainAuthenticatedBy",
+  "title": "INetworkConnection2::IsDomainAuthenticatedBy",
+  "description": "Queries whether the specified domain authentication method succeeded for this network connection.",
+  "tech.root": "nla",
+  "ms.date": "04/07/2022",
+  "req.construct-type": "function",
+  "req.header": "netlistmgr.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 11 Build 22621",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "netlistmgr.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "INetworkConnection2::IsDomainAuthenticatedBy",
+    "netlistmgr/INetworkConnection2::IsDomainAuthenticatedBy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "netlistmgr.h"
+  ],
+  "api_name": [
+    "INetworkConnection2::IsDomainAuthenticatedBy"
+  ],
+  "helpviewer_keywords": [
+    "IsDomainAuthenticatedBy"
+  ],
+  "prerelease": false
+}

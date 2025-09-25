@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._DMA_IOMMU_INTERFACE_V3",
+  "tech.root": "kernel",
+  "title": "DMA_IOMMU_INTERFACE_V3",
+  "ms.date": "08/07/2025",
+  "targetos": "Windows",
+  "description": "The DMA_IOMMU_INTERFACE_V3 structure contains the set of IOMMU Version 3 (V3) functions.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DMA_IOMMU_INTERFACE_V3, *PDMA_IOMMU_INTERFACE_V3",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "ai-usage": "ai-assisted",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DMA_IOMMU_INTERFACE_V3",
+    "PDMA_IOMMU_INTERFACE_V3",
+    "DMA_IOMMU_INTERFACE_V3"
+  ],
+  "f1_keywords": [
+    "_DMA_IOMMU_INTERFACE_V3",
+    "wdm/_DMA_IOMMU_INTERFACE_V3",
+    "PDMA_IOMMU_INTERFACE_V3",
+    "wdm/PDMA_IOMMU_INTERFACE_V3",
+    "DMA_IOMMU_INTERFACE_V3",
+    "wdm/DMA_IOMMU_INTERFACE_V3"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_DMA_IOMMU_INTERFACE_V3"
+  ]
+}

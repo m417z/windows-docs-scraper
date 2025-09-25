@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wsk.PFN_WSK_RECEIVE_FROM_EVENT",
+  "title": "PFN_WSK_RECEIVE_FROM_EVENT (wsk.h)",
+  "description": "The WskReceiveFromEvent event callback function notifies a WSK application that one or more datagrams have been received on a datagram socket.",
+  "old-location": "netvista\\wskreceivefromevent.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PFN_WSK_RECEIVE_FROM_EVENT callback function"
+  ],
+  "ms.keywords": "PFN_WSK_RECEIVE_FROM_EVENT, PFN_WSK_RECEIVE_FROM_EVENT callback, WskReceiveFromEvent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefromevent, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_WSK_RECEIVE_FROM_EVENT",
+    "wsk/PFN_WSK_RECEIVE_FROM_EVENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wsk.h"
+  ],
+  "api_name": [
+    "PFN_WSK_RECEIVE_FROM_EVENT"
+  ]
+}

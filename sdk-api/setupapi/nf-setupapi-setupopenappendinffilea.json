@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupOpenAppendInfFileA",
+  "title": "SetupOpenAppendInfFileA function (setupapi.h)",
+  "description": "The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupOpenAppendInfFileA",
+    "setupapi/SetupOpenAppendInfFileA"
+  ],
+  "old-location": "setup\\setupopenappendinffile.htm",
+  "tech.root": "setup",
+  "ms.assetid": "12b1c676-912f-4876-998c-6b0ff162b95d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupOpenAppendInfFile, SetupOpenAppendInfFile function [Setup API], SetupOpenAppendInfFileA, SetupOpenAppendInfFileW, _setupapi_setupopenappendinffile, setup.setupopenappendinffile, setupapi/SetupOpenAppendInfFile, setupapi/SetupOpenAppendInfFileA, setupapi/SetupOpenAppendInfFileW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupOpenAppendInfFileW (Unicode) and SetupOpenAppendInfFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupOpenAppendInfFileA",
+    "setupapi/SetupOpenAppendInfFileA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupOpenAppendInfFile",
+    "SetupOpenAppendInfFileA",
+    "SetupOpenAppendInfFileW"
+  ]
+}

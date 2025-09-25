@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ntddndis._NDIS_OFFLOAD_PARAMETERS",
+  "title": "_NDIS_OFFLOAD_PARAMETERS (ntddndis.h)",
+  "description": "The NDIS_OFFLOAD_PARAMETERS structure specifies the current task offload configuration settings in response to an OID set request of OID_TCP_OFFLOAD_PARAMETERS.",
+  "old-location": "netvista\\ndis_offload_parameters.htm",
+  "tech.root": "netvista",
+  "ms.date": "01/30/2024",
+  "ms.keywords": "*PNDIS_OFFLOAD_PARAMETERS, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_SET_OFF, NDIS_OFFLOAD_SET_ON, PNDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_PARAMETERS, netvista.ndis_offload_parameters, ntddndis/NDIS_OFFLOAD_PARAMETERS, ntddndis/PNDIS_OFFLOAD_PARAMETERS, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml",
+  "req.header": "ntddndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista,Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS",
+  "f1_keywords": [
+    "_NDIS_OFFLOAD_PARAMETERS",
+    "ntddndis/_NDIS_OFFLOAD_PARAMETERS",
+    "PNDIS_OFFLOAD_PARAMETERS",
+    "ntddndis/PNDIS_OFFLOAD_PARAMETERS",
+    "NDIS_OFFLOAD_PARAMETERS",
+    "ntddndis/NDIS_OFFLOAD_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_OFFLOAD_PARAMETERS",
+    "PNDIS_OFFLOAD_PARAMETERS",
+    "NDIS_OFFLOAD_PARAMETERS"
+  ]
+}

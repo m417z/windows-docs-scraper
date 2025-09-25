@@ -1,0 +1,3 @@
+GPEDITAPI HRESULT BrowseForGPO(
+  [in, out] LPGPOBROWSEINFO lpBrowseInfo
+);

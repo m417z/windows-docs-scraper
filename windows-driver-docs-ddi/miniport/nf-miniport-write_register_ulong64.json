@@ -1,0 +1,47 @@
+{
+  "UID": "NF:miniport.WRITE_REGISTER_ULONG64",
+  "title": "WRITE_REGISTER_ULONG64 function (miniport.h)",
+  "description": "The WRITE_REGISTER_ULONG64 function (miniport.h) writes a ULONG64 value to the specified register address.",
+  "tech.root": "wdf",
+  "ms.date": "07/14/2022",
+  "keywords": [
+    "WRITE_REGISTER_ULONG64 function"
+  ],
+  "ms.keywords": "WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function, umdf.write_register_ulong64, wdf.write_register_ulong64, wudfddi_hwaccess/WRITE_REGISTER_ULONG64",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Miniport.h, Wudfwdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "64-bit Windows",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.11,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.exe",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MEMORY_CACHING_TYPE",
+  "f1_keywords": [
+    "WRITE_REGISTER_ULONG64",
+    "miniport/WRITE_REGISTER_ULONG64"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wudfddi_hwaccess.h"
+  ],
+  "api_name": [
+    "WRITE_REGISTER_ULONG64"
+  ]
+}

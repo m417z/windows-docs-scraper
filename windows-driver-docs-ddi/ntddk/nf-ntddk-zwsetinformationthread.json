@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.ZwSetInformationThread",
+  "title": "ZwSetInformationThread function (ntddk.h)",
+  "description": "The ZwSetInformationThread routine sets the priority of a thread.",
+  "tech.root": "kernel",
+  "ms.date": "12/07/2022",
+  "keywords": [
+    "ZwSetInformationThread function"
+  ],
+  "ms.keywords": "MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, NtSetInformationThread, ZwSetInformationThread, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, kernel.zwsetinformationthread, ntddk/NtSetInformationThread, ntddk/ZwSetInformationThread",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwSetInformationThread",
+    "ntddk/ZwSetInformationThread"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwSetInformationThread"
+  ]
+}

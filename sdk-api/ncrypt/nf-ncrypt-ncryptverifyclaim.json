@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ncrypt.NCryptVerifyClaim",
+  "title": "NCryptVerifyClaim function (ncrypt.h)",
+  "description": "Verifies a key attestation claim.",
+  "helpviewer_keywords": [
+    "NCryptVerifyClaim",
+    "NCryptVerifyClaim function [Security]",
+    "ncrypt/NCryptVerifyClaim",
+    "security.ncryptverifyclaim"
+  ],
+  "old-location": "security\\ncryptverifyclaim.htm",
+  "tech.root": "security",
+  "ms.assetid": "D3C837A5-49D7-4099-B8FE-37364A275A73",
+  "ms.date": "11/01/2024",
+  "ms.keywords": "NCryptVerifyClaim, NCryptVerifyClaim function [Security], ncrypt/NCryptVerifyClaim, security.ncryptverifyclaim",
+  "req.header": "ncrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ncrypt.lib",
+  "req.dll": "Ncrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NCryptVerifyClaim",
+    "ncrypt/NCryptVerifyClaim"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ncrypt.dll"
+  ],
+  "api_name": [
+    "NCryptVerifyClaim"
+  ]
+}

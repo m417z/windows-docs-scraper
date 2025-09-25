@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ks.KsMethodHandlerWithAllocator",
+  "title": "KsMethodHandlerWithAllocator function (ks.h)",
+  "description": "The KsMethodHandlerWithAllocator functions performs the same handling as KsMethodHandler, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters.",
+  "tech.root": "stream",
+  "ms.date": "07/13/2022",
+  "keywords": [
+    "KsMethodHandlerWithAllocator function"
+  ],
+  "ms.keywords": "KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ks.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KsMethodHandlerWithAllocator",
+    "ks/KsMethodHandlerWithAllocator"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ks.lib",
+    "Ks.dll"
+  ],
+  "api_name": [
+    "KsMethodHandlerWithAllocator"
+  ]
+}

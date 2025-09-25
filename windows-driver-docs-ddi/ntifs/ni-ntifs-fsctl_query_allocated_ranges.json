@@ -1,0 +1,47 @@
+{
+  "UID": "NI:ntifs.FSCTL_QUERY_ALLOCATED_RANGES",
+  "tech.root": "ifsk",
+  "title": "FSCTL_QUERY_ALLOCATED_RANGES",
+  "ms.date": "10/07/2022",
+  "targetos": "Windows",
+  "description": "Learn more about the FSCTL_QUERY_ALLOCATED_RANGES FSCTL.",
+  "prerelease": false,
+  "req.construct-type": "ioctl",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FSCTL_QUERY_ALLOCATED_RANGES"
+  ],
+  "f1_keywords": [
+    "FSCTL_QUERY_ALLOCATED_RANGES",
+    "ntifs/FSCTL_QUERY_ALLOCATED_RANGES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FSCTL_QUERY_ALLOCATED_RANGES"
+  ],
+  "ms.custom": "engagement-fy23"
+}

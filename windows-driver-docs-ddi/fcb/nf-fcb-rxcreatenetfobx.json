@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxCreateNetFobx",
+  "title": "RxCreateNetFobx function (fcb.h)",
+  "description": "RxCreateNetFobx allocates, initializes, and inserts a new file object extension (FOBX) structure into the in-memory data structures for a FCB that this FOBX is being opened on.",
+  "old-location": "ifsk\\rxcreatenetfobx.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCreateNetFobx function"
+  ],
+  "ms.keywords": "RxCreateNetFobx, RxCreateNetFobx function [Installable File System Drivers], fcb/RxCreateNetFobx, ifsk.rxcreatenetfobx, rxref_851152a8-bc89-44f8-9e74-1621e425dbba.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Rxcontx.h, Mrxfcb.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCreateNetFobx",
+    "fcb/RxCreateNetFobx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxCreateNetFobx"
+  ]
+}

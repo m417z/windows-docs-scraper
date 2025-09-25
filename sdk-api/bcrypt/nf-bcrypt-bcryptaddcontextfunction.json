@@ -1,0 +1,68 @@
+{
+  "UID": "NF:bcrypt.BCryptAddContextFunction",
+  "title": "BCryptAddContextFunction function (bcrypt.h)",
+  "description": "Adds a cryptographic function to the list of functions that are supported by an existing CNG context.",
+  "helpviewer_keywords": [
+    "BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE",
+    "BCRYPT_CIPHER_INTERFACE",
+    "BCRYPT_HASH_INTERFACE",
+    "BCRYPT_RNG_INTERFACE",
+    "BCRYPT_SECRET_AGREEMENT_INTERFACE",
+    "BCRYPT_SIGNATURE_INTERFACE",
+    "BCryptAddContextFunction",
+    "BCryptAddContextFunction function [Security]",
+    "CRYPT_DOMAIN",
+    "CRYPT_LOCAL",
+    "NCRYPT_KEY_STORAGE_INTERFACE",
+    "NCRYPT_SCHANNEL_INTERFACE",
+    "NCRYPT_SCHANNEL_SIGNATURE_INTERFACE",
+    "bcrypt/BCryptAddContextFunction",
+    "security.bcryptaddcontextfunction"
+  ],
+  "old-location": "security\\bcryptaddcontextfunction.htm",
+  "tech.root": "security",
+  "ms.assetid": "4f5b6db0-775d-42de-b9d9-a99fb11c89f2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptAddContextFunction, BCryptAddContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptAddContextFunction, security.bcryptaddcontextfunction",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptAddContextFunction",
+    "bcrypt/BCryptAddContextFunction"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptAddContextFunction"
+  ]
+}

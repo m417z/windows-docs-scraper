@@ -1,0 +1,48 @@
+{
+  "UID": "NI:parallel.IOCTL_INTERNAL_LOCK_PORT_NO_SELECT",
+  "title": "IOCTL_INTERNAL_LOCK_PORT_NO_SELECT (parallel.h)",
+  "description": "The IOCTL_INTERNAL_LOCK_PORT_NO_SELECT request allocates the parallel device's parent parallel port, but does not select the parallel device.",
+  "old-location": "parports\\ioctl_internal_lock_port_no_select.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_INTERNAL_LOCK_PORT_NO_SELECT IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_LOCK_PORT_NO_SELECT, IOCTL_INTERNAL_LOCK_PORT_NO_SELECT control code [Parallel Ports], cisspd_a8b5a024-9169-47ef-843d-706a0322247b.xml, parallel/IOCTL_INTERNAL_LOCK_PORT_NO_SELECT, parports.ioctl_internal_lock_port_no_select",
+  "req.header": "parallel.h",
+  "req.include-header": "Parallel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RILGBATOKEN, *LPRILGBATOKEN",
+  "f1_keywords": [
+    "IOCTL_INTERNAL_LOCK_PORT_NO_SELECT",
+    "parallel/IOCTL_INTERNAL_LOCK_PORT_NO_SELECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_LOCK_PORT_NO_SELECT"
+  ]
+}

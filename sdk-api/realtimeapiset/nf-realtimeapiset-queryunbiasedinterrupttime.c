@@ -1,0 +1,3 @@
+BOOL QueryUnbiasedInterruptTime(
+  PULONGLONG UnbiasedTime
+);

@@ -1,0 +1,3 @@
+HRESULT GetCodecProfile(
+  D3D12_VIDEO_ENCODER_PROFILE_DESC dstProfile
+);

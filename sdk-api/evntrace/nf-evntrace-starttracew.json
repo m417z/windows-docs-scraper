@@ -1,0 +1,73 @@
+{
+  "UID": "NF:evntrace.StartTraceW",
+  "title": "StartTraceW function (evntrace.h)",
+  "description": "The StartTrace function starts an event tracing session. (Unicode)",
+  "helpviewer_keywords": [
+    "StartTrace",
+    "StartTrace function [ETW]",
+    "StartTraceA",
+    "StartTraceW",
+    "_evt_starttrace",
+    "base.starttrace",
+    "etw.starttrace",
+    "evntrace/StartTrace",
+    "evntrace/StartTraceA",
+    "evntrace/StartTraceW"
+  ],
+  "old-location": "etw\\starttrace.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "c040514a-733d-44b9-8300-a8341d2630b3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _evt_starttrace, base.starttrace, etw.starttrace, evntrace/StartTrace, evntrace/StartTraceA, evntrace/StartTraceW",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "StartTraceW (Unicode) and StartTraceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista",
+  "req.dll": "Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StartTraceW",
+    "evntrace/StartTraceW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-eventing-controller-l1-1-1.dll",
+    "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+    "Sechost.dll",
+    "Advapi32.dll",
+    "AdvApi32Legacy.dll",
+    "API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll",
+    "API-MS-Win-Eventing-Controller-l1-1-0.dll",
+    "API-MS-Win-Eventing-Legacy-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "StartTrace",
+    "StartTraceA",
+    "StartTraceW"
+  ]
+}

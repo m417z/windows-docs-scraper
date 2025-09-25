@@ -1,0 +1,8 @@
+typedef struct _USB_DRIVER_VERSION_PARAMETERS {
+  ULONG   DriverTrackingCode;
+  ULONG   USBDI_Version;
+  ULONG   USBUSER_Version;
+  BOOLEAN CheckedPortDriver;
+  BOOLEAN CheckedMiniportDriver;
+  USHORT  USB_Version;
+} USB_DRIVER_VERSION_PARAMETERS, *PUSB_DRIVER_VERSION_PARAMETERS;

@@ -1,0 +1,43 @@
+{
+  "UID": "NF:storport.StorPortMarkDeviceFailedEx",
+  "title": "StorPortMarkDeviceFailedEx function",
+  "description": "The StorPortMarkDeviceFailedEx routine marks a device with failed status and provides data that might be needed for diagnosis.",
+  "tech.root": "storage",
+  "ms.date": "05/24/2022",
+  "ms.keywords": "StorPortMarkDeviceFailedEx",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "StorPortMarkDeviceFailedEx",
+    "storport/StorPortMarkDeviceFailedEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Storport.lib",
+    "Storport.dll"
+  ],
+  "api_name": [
+    "StorPortMarkDeviceFailedEx"
+  ]
+}

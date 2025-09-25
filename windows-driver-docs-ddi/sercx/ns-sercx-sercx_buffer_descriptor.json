@@ -1,0 +1,51 @@
+{
+  "UID": "NS:sercx.SERCX_BUFFER_DESCRIPTOR",
+  "title": "SERCX_BUFFER_DESCRIPTOR (sercx.h)",
+  "description": "The SERCX_BUFFER_DESCRIPTOR structure describes a data buffer for a receive operation or transmit operation.",
+  "old-location": "serports\\sercx_buffer_descriptor.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "SERCX_BUFFER_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PSERCX_BUFFER_DESCRIPTOR, 1/PSERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], serports.sercx_buffer_descriptor",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR",
+  "f1_keywords": [
+    "SERCX_BUFFER_DESCRIPTOR",
+    "sercx/SERCX_BUFFER_DESCRIPTOR",
+    "PSERCX_BUFFER_DESCRIPTOR",
+    "sercx/PSERCX_BUFFER_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "1.0\\Sercx.h"
+  ],
+  "api_name": [
+    "SERCX_BUFFER_DESCRIPTOR",
+    "PSERCX_BUFFER_DESCRIPTOR"
+  ]
+}

@@ -1,0 +1,12 @@
+typedef enum PROXIMITY_SENSOR_CAPABILITIES {
+  Proximity_Sensor_Human_Presence_Capable,
+  Proximity_Sensor_Human_Engagement_Capable,
+  Proximity_Sensor_Human_Head_Azimuth_Capable,
+  Proximity_Sensor_Human_Head_Altitude_Capable,
+  Proximity_Sensor_Human_Head_Roll_Capable,
+  Proximity_Sensor_Human_Head_Pitch_Capable,
+  Proximity_Sensor_Human_Head_Yaw_Capable,
+  Proximity_Sensor_Human_Identification_Capable,
+  Proximity_Sensor_Multi_Person_Detection_Capable,
+  Proximity_Sensor_Supported_Capabilities
+} ;

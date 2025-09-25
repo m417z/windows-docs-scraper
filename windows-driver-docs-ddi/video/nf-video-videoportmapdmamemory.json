@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortMapDmaMemory",
+  "title": "VideoPortMapDmaMemory function (video.h)",
+  "description": "The VideoPortMapDmaMemory function is obsolete in Windows 2000 and later.VideoPortMapDmaMemory maps a range of memory for use in DMA transfers.",
+  "old-location": "display\\videoportmapdmamemory.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortMapDmaMemory function"
+  ],
+  "ms.keywords": "VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, display.videoportmapdmamemory, video/VideoPortMapDmaMemory",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortMapDmaMemory",
+    "video/VideoPortMapDmaMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortMapDmaMemory"
+  ]
+}

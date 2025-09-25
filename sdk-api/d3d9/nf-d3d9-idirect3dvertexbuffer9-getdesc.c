@@ -1,0 +1,3 @@
+HRESULT GetDesc(
+  [out] D3DVERTEXBUFFER_DESC *pDesc
+);

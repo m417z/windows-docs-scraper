@@ -1,0 +1,6 @@
+typedef struct _DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS {
+  ULONG ulProtectionType;
+  ULONG ulProtectionLevel;
+  ULONG Reserved;
+  ULONG Reserved2;
+} DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS;

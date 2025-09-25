@@ -1,0 +1,5 @@
+typedef enum _ACPI_PLD_VERTICAL_POSITION {
+  AcpiPldVPosUpper,
+  AcpiPldVPosCenter,
+  AcpiPldVPosLower
+} ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION;

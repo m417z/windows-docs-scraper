@@ -1,0 +1,42 @@
+{
+  "UID": "NS:d3d12video.D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC",
+  "title": "D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC",
+  "ms.date": "11/4/2019",
+  "targetos": "Windows",
+  "description": "Describes a ID3D12VideoMotionEstimatorHeap. Pass this structure into ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap to create an instance of ID3D12VideoMotionEstimatorHeap.",
+  "tech.root": "mf",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "d3d12video.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.target-type": null,
+  "req.typenames": "D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3d12video.h"
+  ],
+  "api_name": [
+    "D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC"
+  ],
+  "f1_keywords": [
+    "D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC",
+    "d3d12video/D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

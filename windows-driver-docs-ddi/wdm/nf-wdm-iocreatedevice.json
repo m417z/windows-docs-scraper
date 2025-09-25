@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.IoCreateDevice",
+  "title": "IoCreateDevice function (wdm.h)",
+  "description": "The IoCreateDevice routine creates a device object for use by a driver.",
+  "tech.root": "kernel",
+  "ms.date": "01/06/2023",
+  "keywords": [
+    "IoCreateDevice function"
+  ],
+  "ms.keywords": "IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, kernel.iocreatedevice, wdm/IoCreateDevice",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "AddDevice, CheckDeviceObjectFlags, IrqlIoPassive1, MiniportOnlyWdmDevice, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoCreateDevice",
+    "wdm/IoCreateDevice"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoCreateDevice"
+  ]
+}

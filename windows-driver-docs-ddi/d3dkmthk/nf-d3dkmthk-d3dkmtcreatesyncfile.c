@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateSyncFile(
+  D3DKMT_CREATESYNCFILE *unnamedParam1
+);

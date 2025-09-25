@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupDiBuildClassInfoListExA",
+  "title": "SetupDiBuildClassInfoListExA function (setupapi.h)",
+  "description": "The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupDiBuildClassInfoListExA",
+    "di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml"
+  ],
+  "old-location": "devinst\\setupdibuildclassinfolistex.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "32c6c548-79f8-41be-ad9a-5456972a16eb",
+  "ms.date": "01/30/2023",
+  "ms.keywords": "SetupDiBuildClassInfoListEx, SetupDiBuildClassInfoListEx function [Device and Driver Installation], SetupDiBuildClassInfoListExA, SetupDiBuildClassInfoListExW, devinst.setupdibuildclassinfolistex, di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml, setupapi/SetupDiBuildClassInfoListEx",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiBuildClassInfoListExA",
+    "setupapi/SetupDiBuildClassInfoListExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ext-ms-win-setupapi-devobj-l1-1-0.dll",
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiBuildClassInfoListEx",
+    "SetupDiBuildClassInfoListExA"
+  ]
+}

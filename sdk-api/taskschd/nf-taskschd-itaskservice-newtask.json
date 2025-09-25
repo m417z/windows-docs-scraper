@@ -1,0 +1,63 @@
+{
+  "UID": "NF:taskschd.ITaskService.NewTask",
+  "title": "ITaskService::NewTask (taskschd.h)",
+  "description": "Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.",
+  "helpviewer_keywords": [
+    "ITaskService interface [Task Scheduler]",
+    "NewTask method",
+    "ITaskService.NewTask",
+    "ITaskService::NewTask",
+    "NewTask",
+    "NewTask method [Task Scheduler]",
+    "NewTask method [Task Scheduler]",
+    "ITaskService interface",
+    "taskschd.itaskservice_newtask",
+    "taskschd/ITaskService::NewTask"
+  ],
+  "old-location": "taskschd\\itaskservice_newtask.htm",
+  "tech.root": "taskschd",
+  "ms.assetid": "821fc610-cf94-4548-950d-b4fd7b2f90dc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask",
+  "req.header": "taskschd.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Taskschd.lib",
+  "req.dll": "Taskschd.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITaskService::NewTask",
+    "taskschd/ITaskService::NewTask"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "taskschd.dll"
+  ],
+  "api_name": [
+    "ITaskService.NewTask"
+  ]
+}

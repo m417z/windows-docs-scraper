@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winuser.DisplayConfigGetDeviceInfo",
+  "title": "DisplayConfigGetDeviceInfo function (winuser.h)",
+  "description": "The DisplayConfigGetDeviceInfo function retrieves display configuration information about the device.",
+  "helpviewer_keywords": [
+    "CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml",
+    "DisplayConfigGetDeviceInfo",
+    "DisplayConfigGetDeviceInfo function [Display Devices]",
+    "display.displayconfiggetdeviceinfo",
+    "winuser/DisplayConfigGetDeviceInfo"
+  ],
+  "old-location": "display\\displayconfiggetdeviceinfo.htm",
+  "tech.root": "display",
+  "ms.assetid": "249dcb1a-4ce3-4478-8331-fb81e91313b0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib; OneCoreUAP.lib on Windows 10",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DisplayConfigGetDeviceInfo",
+    "winuser/DisplayConfigGetDeviceInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "API-MS-Win-NTUser-SysParams-l1-1-0.dll",
+    "MinUser.dll",
+    "Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll"
+  ],
+  "api_name": [
+    "DisplayConfigGetDeviceInfo"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)"
+}

@@ -1,0 +1,1 @@
+DWRITE_AUTOMATIC_FONT_AXES GetAutomaticFontAxes();

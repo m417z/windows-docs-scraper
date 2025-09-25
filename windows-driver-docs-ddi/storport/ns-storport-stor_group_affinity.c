@@ -1,0 +1,5 @@
+typedef struct _STOR_GROUP_AFFINITY {
+  STOR_AFFINITY Mask;
+  USHORT        Group;
+  USHORT        Reserved[3];
+} STOR_GROUP_AFFINITY, *PSTOR_GROUP_AFFINITY;

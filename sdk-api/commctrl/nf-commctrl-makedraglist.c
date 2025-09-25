@@ -1,0 +1,3 @@
+BOOL MakeDragList(
+  HWND hLB
+);

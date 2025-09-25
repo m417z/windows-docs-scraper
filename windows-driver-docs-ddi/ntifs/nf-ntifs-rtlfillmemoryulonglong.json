@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.RtlFillMemoryUlonglong",
+  "title": "RtlFillMemoryUlonglong macro (ntifs.h)",
+  "description": "The RtlFillMemoryUlonglong routine fills a given range of memory with one or more repetitions of a given ULONGLONG value.",
+  "old-location": "ifsk\\rtlfillmemoryulonglong.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlFillMemoryUlonglong macro"
+  ],
+  "ms.keywords": "RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], ifsk.rtlfillmemoryulonglong, ntifs/RtlFillMemoryUlonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "For AMD64 systems, Windows 2000. For non-AMD64 systems, Windows 7.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlFillMemoryUlonglong",
+    "ntifs/RtlFillMemoryUlonglong"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlFillMemoryUlonglong"
+  ]
+}

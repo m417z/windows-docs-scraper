@@ -1,0 +1,54 @@
+{
+  "UID": "NS:fltuserstructures._FILTER_AGGREGATE_STANDARD_INFORMATION",
+  "title": "_FILTER_AGGREGATE_STANDARD_INFORMATION (fltuserstructures.h)",
+  "description": "The FILTER_AGGREGATE_STANDARD_INFORMATION structure contains information about a minifilter or legacy filter driver.",
+  "old-location": "ifsk\\filter_aggregate_standard_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FILTER_AGGREGATE_STANDARD_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], FltSystemStructures_2b06b94c-69dc-4b0c-a9bc-56bba1592036.xml, PFILTER_AGGREGATE_STANDARD_INFORMATION, PFILTER_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], _FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_STANDARD_INFORMATION, ifsk.filter_aggregate_standard_information",
+  "req.header": "fltuserstructures.h",
+  "req.include-header": "FltUser.h, FltKernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "This structure is available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILTER_AGGREGATE_STANDARD_INFORMATION, *PFILTER_AGGREGATE_STANDARD_INFORMATION",
+  "f1_keywords": [
+    "_FILTER_AGGREGATE_STANDARD_INFORMATION",
+    "fltuserstructures/_FILTER_AGGREGATE_STANDARD_INFORMATION",
+    "PFILTER_AGGREGATE_STANDARD_INFORMATION",
+    "fltuserstructures/PFILTER_AGGREGATE_STANDARD_INFORMATION",
+    "FILTER_AGGREGATE_STANDARD_INFORMATION",
+    "fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltuserstructures.h"
+  ],
+  "api_name": [
+    "_FILTER_AGGREGATE_STANDARD_INFORMATION",
+    "PFILTER_AGGREGATE_STANDARD_INFORMATION",
+    "FILTER_AGGREGATE_STANDARD_INFORMATION"
+  ]
+}

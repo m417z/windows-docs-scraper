@@ -1,0 +1,4 @@
+typedef struct _AVC_EXT_PLUG_COUNTS {
+  ULONG ExtInputs;
+  ULONG ExtOutputs;
+} AVC_EXT_PLUG_COUNTS, *PAVC_EXT_PLUG_COUNTS;

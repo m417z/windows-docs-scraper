@@ -1,0 +1,7 @@
+typedef struct _WWAN_UICC_FILE_PATH {
+  ULONG Version;
+  BYTE  AppIdLength;
+  BYTE  AppId[WWAN_UICC_APP_ID_MAX_LEN];
+  BYTE  FilePathLength;
+  BYTE  FilePath[WWAN_UICC_FILE_PATH_MAX_LEN];
+} WWAN_UICC_FILE_PATH, *PWWAN_UICC_FILE_PATH;

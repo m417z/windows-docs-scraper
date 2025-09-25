@@ -1,0 +1,4 @@
+void AcxStreamStopIo(
+  Stream,
+  Flags
+);

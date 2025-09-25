@@ -1,0 +1,5 @@
+typedef struct _WWAN_USSD_STRING {
+  BYTE DataCodingScheme;
+  BYTE StringLength;
+  BYTE String[WWAN_USSD_STRING_LEN_MAX];
+} WWAN_USSD_STRING, *PWWAN_USSD_STRING;

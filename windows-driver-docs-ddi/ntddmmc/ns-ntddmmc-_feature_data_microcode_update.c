@@ -1,0 +1,6 @@
+typedef struct _FEATURE_DATA_MICROCODE_UPDATE {
+  FEATURE_HEADER Header;
+  UCHAR          M5 : 1;
+  UCHAR          Reserved1 : 7;
+  UCHAR          Reserved2[3];
+} FEATURE_DATA_MICROCODE_UPDATE, *PFEATURE_DATA_MICROCODE_UPDATE;

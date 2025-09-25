@@ -1,0 +1,4 @@
+typedef struct IPSEC_SA_CIPHER_INFORMATION0_ {
+  IPSEC_CIPHER_TRANSFORM0 cipherTransform;
+  FWP_BYTE_BLOB           cipherKey;
+} IPSEC_SA_CIPHER_INFORMATION0;

@@ -1,0 +1,6 @@
+typedef enum tagSYSKIND {
+  SYS_WIN16 = 0,
+  SYS_WIN32,
+  SYS_MAC,
+  SYS_WIN64
+} SYSKIND;

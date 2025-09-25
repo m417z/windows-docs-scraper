@@ -1,0 +1,64 @@
+{
+  "UID": "NF:icontact.IContactProperties.GetString",
+  "title": "IContactProperties::GetString (icontact.h)",
+  "description": "Retrieves the string value at a specified property into a caller-allocated buffer.",
+  "helpviewer_keywords": [
+    "GetString",
+    "GetString method [Windows Contacts]",
+    "GetString method [Windows Contacts]",
+    "IContactProperties interface",
+    "IContactProperties interface [Windows Contacts]",
+    "GetString method",
+    "IContactProperties.GetString",
+    "IContactProperties::GetString",
+    "_wincontacts_IContactProperties_GetString",
+    "icontact/IContactProperties::GetString",
+    "wincontacts._wincontacts_IContactProperties_GetString"
+  ],
+  "old-location": "wincontacts\\_wincontacts_IContactProperties_GetString.htm",
+  "tech.root": "wincontacts",
+  "ms.assetid": "ecab7290-9a35-4da3-a161-b8d52a031172",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetString, GetString method [Windows Contacts], GetString method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetString method, IContactProperties.GetString, IContactProperties::GetString, _wincontacts_IContactProperties_GetString, icontact/IContactProperties::GetString, wincontacts._wincontacts_IContactProperties_GetString",
+  "req.header": "icontact.h",
+  "req.include-header": "Contact.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Icontact.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Wab32.dll (Version 6.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IContactProperties::GetString",
+    "icontact/IContactProperties::GetString"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wab32.dll"
+  ],
+  "api_name": [
+    "IContactProperties.GetString"
+  ]
+}

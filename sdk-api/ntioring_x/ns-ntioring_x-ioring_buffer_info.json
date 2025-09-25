@@ -1,0 +1,43 @@
+{
+  "UID": "NS:ntioring_x.IORING_BUFFER_INFO",
+  "tech.root": "fs",
+  "title": "IORING_BUFFER_INFO",
+  "ms.date": "07/16/2021",
+  "targetos": "Windows",
+  "description": "Represents a data buffer that can be registered with an I/O ring.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntioring_x.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": "IORING_BUFFER_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntioring_x.h"
+  ],
+  "api_name": [
+    "IORING_BUFFER_INFO"
+  ],
+  "f1_keywords": [
+    "IORING_BUFFER_INFO",
+    "ntioring_x/IORING_BUFFER_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

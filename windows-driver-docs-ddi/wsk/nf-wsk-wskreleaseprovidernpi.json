@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wsk.WskReleaseProviderNPI",
+  "title": "WskReleaseProviderNPI function (wsk.h)",
+  "description": "The WskReleaseProviderNPI function releases a Network Programming Interface (NPI) that was captured with WskCaptureProviderNPI.",
+  "old-location": "netvista\\wskreleaseprovidernpi.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "WskReleaseProviderNPI function"
+  ],
+  "ms.keywords": "WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netio.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WskReleaseProviderNPI",
+    "wsk/WskReleaseProviderNPI"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Netio.lib",
+    "Netio.dll"
+  ],
+  "api_name": [
+    "WskReleaseProviderNPI"
+  ]
+}

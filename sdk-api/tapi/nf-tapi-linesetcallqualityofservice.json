@@ -1,0 +1,58 @@
+{
+  "UID": "NF:tapi.lineSetCallQualityOfService",
+  "title": "lineSetCallQualityOfService function (tapi.h)",
+  "description": "The lineSetCallQualityOfService function allows the application to attempt to change the quality of service parameters (reserved capacity and performance guarantees) for an existing call.",
+  "helpviewer_keywords": [
+    "_tapi2_linesetcallqualityofservice",
+    "lineSetCallQualityOfService",
+    "lineSetCallQualityOfService function [TAPI 2.2]",
+    "tapi/lineSetCallQualityOfService",
+    "tapi2.linesetcallqualityofservice"
+  ],
+  "old-location": "tapi2\\linesetcallqualityofservice.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "6a977dab-70f6-4462-a94f-78acdec7decf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_tapi2_linesetcallqualityofservice, lineSetCallQualityOfService, lineSetCallQualityOfService function [TAPI 2.2], tapi/lineSetCallQualityOfService, tapi2.linesetcallqualityofservice",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineSetCallQualityOfService",
+    "tapi/lineSetCallQualityOfService"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineSetCallQualityOfService"
+  ]
+}

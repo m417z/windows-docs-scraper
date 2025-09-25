@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION",
+  "title": "EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION (wdfdevice.h)",
+  "description": "A driver's EvtDevicePowerStateChange event callback function informs the driver that a device's power state machine is moving from one state to another.",
+  "old-location": "wdf\\evtdevicepowerstatechange.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_fc945165-b31d-4d35-b3be-5586c280d8ca.xml, EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION, EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION callback, EvtDevicePowerStateChange, EvtDevicePowerStateChange callback function, kmdf.evtdevicepowerstatechange, wdf.evtdevicepowerstatechange, wdfdevice/EvtDevicePowerStateChange",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION",
+    "wdfdevice/EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION"
+  ]
+}

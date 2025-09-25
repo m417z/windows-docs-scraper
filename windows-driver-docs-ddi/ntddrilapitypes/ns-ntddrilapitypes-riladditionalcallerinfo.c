@@ -1,0 +1,8 @@
+typedef struct RILADDITIONALCALLERINFO {
+  DWORD cbSize;
+  DWORD dwParams;
+  DWORD dwExecutor;
+  DWORD dwCallId;
+  DWORD dwCallerInfoLength;
+  WCHAR wszCallerInfo[1];
+} RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO;

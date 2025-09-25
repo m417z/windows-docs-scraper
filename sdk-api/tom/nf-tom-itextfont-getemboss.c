@@ -1,0 +1,3 @@
+HRESULT GetEmboss(
+  long *pValue
+);

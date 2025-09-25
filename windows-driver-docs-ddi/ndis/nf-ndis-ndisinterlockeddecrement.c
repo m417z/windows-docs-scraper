@@ -1,0 +1,3 @@
+void NdisInterlockedDecrement(
+  [in] Addend
+);

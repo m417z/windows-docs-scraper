@@ -1,0 +1,6 @@
+typedef struct _DXGK_TARGET_GAMMA_CAPS {
+  DXGK_TARGET_GAMMA_CAPS_VERSION Version;
+  DXGK_GAMMA_1DLUT_CAP           LookupTable1DDegammaCap;
+  DXGK_GAMMA_MATRIX_CAP          ColorMatrix3x3Cap;
+  DXGK_GAMMA_1DLUT_CAP           LookupTable1DRegammaCap;
+} DXGK_TARGET_GAMMA_CAPS, *PDXGK_TARGET_GAMMA_CAPS;

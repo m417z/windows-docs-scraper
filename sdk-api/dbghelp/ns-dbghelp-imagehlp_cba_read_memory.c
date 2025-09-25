@@ -1,0 +1,6 @@
+typedef struct _IMAGEHLP_CBA_READ_MEMORY {
+  DWORD64 addr;
+  PVOID   buf;
+  DWORD   bytes;
+  DWORD   *bytesread;
+} IMAGEHLP_CBA_READ_MEMORY, *PIMAGEHLP_CBA_READ_MEMORY;

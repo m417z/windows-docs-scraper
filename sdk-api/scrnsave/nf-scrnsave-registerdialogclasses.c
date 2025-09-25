@@ -1,0 +1,3 @@
+BOOL RegisterDialogClasses(
+  HANDLE hInst
+);

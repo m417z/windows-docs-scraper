@@ -1,0 +1,4 @@
+WPARAM MAKEWPARAM(
+    WORD l,
+    WORD h
+);

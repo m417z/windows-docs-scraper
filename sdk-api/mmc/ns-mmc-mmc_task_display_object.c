@@ -1,0 +1,7 @@
+typedef struct _MMC_TASK_DISPLAY_OBJECT {
+  MMC_TASK_DISPLAY_TYPE eDisplayType;
+  union {
+    MMC_TASK_DISPLAY_BITMAP uBitmap;
+    MMC_TASK_DISPLAY_SYMBOL uSymbol;
+  };
+} MMC_TASK_DISPLAY_OBJECT;

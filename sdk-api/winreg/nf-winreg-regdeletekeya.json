@@ -1,0 +1,63 @@
+{
+  "UID": "NF:winreg.RegDeleteKeyA",
+  "title": "RegDeleteKeyA function (winreg.h)",
+  "description": "Deletes a subkey and its values. (ANSI)",
+  "helpviewer_keywords": [
+    "RegDeleteKeyA",
+    "winreg/RegDeleteKeyA"
+  ],
+  "old-location": "base\\regdeletekey.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegDeleteKey, RegDeleteKey function, RegDeleteKeyA, RegDeleteKeyW, _win32_regdeletekey, base.regdeletekey, winreg/RegDeleteKey, winreg/RegDeleteKeyA, winreg/RegDeleteKeyW",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RegDeleteKeyW (Unicode) and RegDeleteKeyA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegDeleteKeyA",
+    "winreg/RegDeleteKeyA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l2-3-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Registry-l2-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-Deprecated-apis-advapi-l1-1-0.dll",
+    "API-MS-Win-Core-Registry-l2-2-0.dll",
+    "kernel32.dll"
+  ],
+  "api_name": [
+    "RegDeleteKey",
+    "RegDeleteKeyA",
+    "RegDeleteKeyW"
+  ]
+}

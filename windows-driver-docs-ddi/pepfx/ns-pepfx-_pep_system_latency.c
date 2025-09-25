@@ -1,0 +1,3 @@
+typedef struct _PEP_SYSTEM_LATENCY {
+  [in] ULONGLONG Latency;
+} PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY;

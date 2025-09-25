@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTFlushHeapTransitions(
+  D3DKMT_FLUSHHEAPTRANSITIONS *unnamedParam1
+);

@@ -1,0 +1,4 @@
+typedef struct _SEARCH_COLUMN_PROPERTIES {
+  PROPVARIANT Value;
+  LCID        lcid;
+} SEARCH_COLUMN_PROPERTIES;

@@ -1,0 +1,7 @@
+typedef struct _KDPC_WATCHDOG_INFORMATION {
+  ULONG DpcTimeLimit;
+  ULONG DpcTimeCount;
+  ULONG DpcWatchdogLimit;
+  ULONG DpcWatchdogCount;
+  ULONG Reserved;
+} KDPC_WATCHDOG_INFORMATION, *PKDPC_WATCHDOG_INFORMATION;

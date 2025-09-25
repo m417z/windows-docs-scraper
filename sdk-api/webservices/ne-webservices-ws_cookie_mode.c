@@ -1,0 +1,4 @@
+typedef enum {
+  WS_MANUAL_COOKIE_MODE = 1,
+  WS_AUTO_COOKIE_MODE = 2
+} WS_COOKIE_MODE;

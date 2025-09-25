@@ -1,0 +1,5 @@
+typedef struct _MPRAPI_OBJECT_HEADER {
+  UCHAR  revision;
+  UCHAR  type;
+  USHORT size;
+} MPRAPI_OBJECT_HEADER, *PMPRAPI_OBJECT_HEADER;

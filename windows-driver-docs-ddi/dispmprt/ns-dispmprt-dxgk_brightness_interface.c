@@ -1,0 +1,10 @@
+typedef struct {
+  IN USHORT                        Size;
+  IN USHORT                        Version;
+  OUT PVOID                        Context;
+  OUT PINTERFACE_REFERENCE         InterfaceReference;
+  OUT PINTERFACE_DEREFERENCE       InterfaceDereference;
+  OUT DXGK_BRIGHTNESS_GET_POSSIBLE GetPossibleBrightness;
+  OUT DXGK_BRIGHTNESS_SET          SetBrightness;
+  OUT DXGK_BRIGHTNESS_GET          GetBrightness;
+} DXGK_BRIGHTNESS_INTERFACE, *PDXGK_BRIGHTNESS_INTERFACE;

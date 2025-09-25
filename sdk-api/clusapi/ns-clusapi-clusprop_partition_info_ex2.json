@@ -1,0 +1,58 @@
+{
+  "UID": "NS:clusapi.CLUSPROP_PARTITION_INFO_EX2",
+  "title": "CLUSPROP_PARTITION_INFO_EX2 (clusapi.h)",
+  "description": "A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2 control code.",
+  "helpviewer_keywords": [
+    "*PCLUSPROP_PARTITION_INFO_EX2",
+    "CLUSPROP_PARTITION_INFO_EX2",
+    "CLUSPROP_PARTITION_INFO_EX2 structure [Failover Cluster]",
+    "clusapi/CLUSPROP_PARTITION_INFO_EX2",
+    "mscs.clusprop_partition_info_ex2"
+  ],
+  "old-location": "mscs\\clusprop_partition_info_ex2.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "D6D26335-80D0-4949-99B4-FE18DD2FFF3C",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PCLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2 structure [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX2, mscs.clusprop_partition_info_ex2",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CLUSPROP_PARTITION_INFO_EX2",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CLUSPROP_PARTITION_INFO_EX2",
+    "clusapi/CLUSPROP_PARTITION_INFO_EX2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ClusAPI.h"
+  ],
+  "api_name": [
+    "CLUSPROP_PARTITION_INFO_EX2"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "UID": "NS:minwinbase._DEBUG_EVENT",
+  "title": "DEBUG_EVENT (minwinbase.h)",
+  "description": "Describes a debugging event.",
+  "helpviewer_keywords": [
+    "*LPDEBUG_EVENT",
+    "CREATE_PROCESS_DEBUG_EVENT",
+    "CREATE_THREAD_DEBUG_EVENT",
+    "DEBUG_EVENT",
+    "DEBUG_EVENT structure",
+    "EXCEPTION_DEBUG_EVENT",
+    "EXIT_PROCESS_DEBUG_EVENT",
+    "EXIT_THREAD_DEBUG_EVENT",
+    "LOAD_DLL_DEBUG_EVENT",
+    "LPDEBUG_EVENT",
+    "LPDEBUG_EVENT structure pointer",
+    "OUTPUT_DEBUG_STRING_EVENT",
+    "RIP_EVENT",
+    "UNLOAD_DLL_DEBUG_EVENT",
+    "_win32_debug_event_str",
+    "base.debug_event_str",
+    "minwinbase/DEBUG_EVENT",
+    "minwinbase/LPDEBUG_EVENT"
+  ],
+  "old-location": "base\\debug_event_str.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "056aa7ee-51ca-48ec-9cd7-26085bb85b11",
+  "ms.date": "04/14/2021",
+  "ms.keywords": "*LPDEBUG_EVENT, CREATE_PROCESS_DEBUG_EVENT, CREATE_THREAD_DEBUG_EVENT, DEBUG_EVENT, DEBUG_EVENT structure, EXCEPTION_DEBUG_EVENT, EXIT_PROCESS_DEBUG_EVENT, EXIT_THREAD_DEBUG_EVENT, LOAD_DLL_DEBUG_EVENT, LPDEBUG_EVENT, LPDEBUG_EVENT structure pointer, OUTPUT_DEBUG_STRING_EVENT, RIP_EVENT, UNLOAD_DLL_DEBUG_EVENT, _win32_debug_event_str, base.debug_event_str, minwinbase/DEBUG_EVENT, minwinbase/LPDEBUG_EVENT",
+  "req.header": "minwinbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DEBUG_EVENT, *LPDEBUG_EVENT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DEBUG_EVENT",
+    "minwinbase/_DEBUG_EVENT",
+    "LPDEBUG_EVENT",
+    "minwinbase/LPDEBUG_EVENT",
+    "DEBUG_EVENT",
+    "minwinbase/DEBUG_EVENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "minwinbase.h"
+  ],
+  "api_name": [
+    "DEBUG_EVENT"
+  ]
+}

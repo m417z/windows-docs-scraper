@@ -1,0 +1,69 @@
+{
+  "UID": "NF:fsrmquota.IFsrmQuotaTemplateManager.ImportTemplates",
+  "title": "IFsrmQuotaTemplateManager::ImportTemplates (fsrmquota.h)",
+  "description": "Imports the specified quota templates from an XML string.",
+  "helpviewer_keywords": [
+    "FsrmQuotaTemplateManager class [File Server Resource Manager]",
+    "ImportTemplates method",
+    "IFsrmQuotaTemplateManager interface [File Server Resource Manager]",
+    "ImportTemplates method",
+    "IFsrmQuotaTemplateManager.ImportTemplates",
+    "IFsrmQuotaTemplateManager::ImportTemplates",
+    "ImportTemplates",
+    "ImportTemplates method [File Server Resource Manager]",
+    "ImportTemplates method [File Server Resource Manager]",
+    "FsrmQuotaTemplateManager class",
+    "ImportTemplates method [File Server Resource Manager]",
+    "IFsrmQuotaTemplateManager interface",
+    "fs.ifsrmquotatemplatemanager_importtemplates",
+    "fsrm.ifsrmquotatemplatemanager_importtemplates",
+    "fsrmquota/IFsrmQuotaTemplateManager::ImportTemplates"
+  ],
+  "old-location": "fsrm\\ifsrmquotatemplatemanager_importtemplates.htm",
+  "tech.root": "fsrm",
+  "ms.assetid": "f530d7fc-8b41-4a5e-a10a-b9211c7fe2bb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FsrmQuotaTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmQuotaTemplateManager.ImportTemplates, IFsrmQuotaTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, fs.ifsrmquotatemplatemanager_importtemplates, fsrm.ifsrmquotatemplatemanager_importtemplates, fsrmquota/IFsrmQuotaTemplateManager::ImportTemplates",
+  "req.header": "fsrmquota.h",
+  "req.include-header": "FsrmQuota.h, FsrmTlb.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "SrmSvc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFsrmQuotaTemplateManager::ImportTemplates",
+    "fsrmquota/IFsrmQuotaTemplateManager::ImportTemplates"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "SrmSvc.dll"
+  ],
+  "api_name": [
+    "IFsrmQuotaTemplateManager.ImportTemplates",
+    "FsrmQuotaTemplateManager.ImportTemplates"
+  ]
+}

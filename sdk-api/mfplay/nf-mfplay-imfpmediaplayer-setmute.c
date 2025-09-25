@@ -1,0 +1,3 @@
+HRESULT SetMute(
+  BOOL fMute
+);

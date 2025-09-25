@@ -1,0 +1,5 @@
+typedef struct _STOR_POWER_SETTING_INFO {
+  GUID  PowerSettingGuid;
+  PVOID Value;
+  ULONG ValueLength;
+} STOR_POWER_SETTING_INFO, *PSTOR_POWER_SETTING_INFO;

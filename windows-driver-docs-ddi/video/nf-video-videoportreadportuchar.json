@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortReadPortUchar",
+  "title": "VideoPortReadPortUchar function (video.h)",
+  "description": "The VideoPortReadPortUchar function reads a byte from a mapped I/O port.",
+  "old-location": "display\\videoportreadportuchar.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortReadPortUchar function"
+  ],
+  "ms.keywords": "VideoPortReadPortUchar, VideoPortReadPortUchar function [Display Devices], VideoPort_Functions_128aedd7-fb7b-4e0e-8447-12733a245bc0.xml, display.videoportreadportuchar, video/VideoPortReadPortUchar",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortReadPortUchar",
+    "video/VideoPortReadPortUchar"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortReadPortUchar"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT2 {
+  [in]  D3DKMT_HANDLE                     hDevice;
+  [in]  D3DDDI_SYNCHRONIZATIONOBJECTINFO2 Info;
+  [out] D3DKMT_HANDLE                     hSyncObject;
+} D3DKMT_CREATESYNCHRONIZATIONOBJECT2;

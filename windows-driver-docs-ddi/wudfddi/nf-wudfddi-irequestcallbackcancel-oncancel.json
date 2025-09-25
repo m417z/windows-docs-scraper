@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IRequestCallbackCancel.OnCancel",
+  "title": "IRequestCallbackCancel::OnCancel (wudfddi.h)",
+  "description": "The OnCancel method is called when an application cancels an I/O operation through the Microsoft Win32 CancelIo, CancelIoEx, or CancelSynchronousIo function.",
+  "old-location": "wdf\\irequestcallbackcancel_oncancel.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IRequestCallbackCancel::OnCancel"
+  ],
+  "ms.keywords": "IRequestCallbackCancel interface,OnCancel method, IRequestCallbackCancel.OnCancel, IRequestCallbackCancel::OnCancel, OnCancel, OnCancel method, OnCancel method,IRequestCallbackCancel interface, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, umdf.irequestcallbackcancel_oncancel, wdf.irequestcallbackcancel_oncancel, wudfddi/IRequestCallbackCancel::OnCancel",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IRequestCallbackCancel::OnCancel",
+    "wudfddi/IRequestCallbackCancel::OnCancel"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IRequestCallbackCancel::OnCancel"
+  ]
+}

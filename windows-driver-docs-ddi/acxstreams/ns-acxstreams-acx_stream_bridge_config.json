@@ -1,0 +1,49 @@
+{
+  "UID": "NS:acxstreams._ACX_STREAM_BRIDGE_CONFIG",
+  "tech.root": "audio",
+  "title": "ACX_STREAM_BRIDGE_CONFIG",
+  "ms.date": "03/17/2024",
+  "targetos": "Windows",
+  "description": "The ACX_STREAM_BRIDGE_CONFIG structure is used to configure attributes, such as the AUDIO_SIGNALPROCESSINGMODEs, and the ACX_STREAM_BRIDGE_TYPE for the AcxStreamBridge.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxstreams.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "ACX_STREAM_BRIDGE_CONFIG, *PACX_STREAM_BRIDGE_CONFIG",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxstreams.h"
+  ],
+  "api_name": [
+    "_ACX_STREAM_BRIDGE_CONFIG",
+    "PACX_STREAM_BRIDGE_CONFIG",
+    "ACX_STREAM_BRIDGE_CONFIG"
+  ],
+  "f1_keywords": [
+    "_ACX_STREAM_BRIDGE_CONFIG",
+    "acxstreams/_ACX_STREAM_BRIDGE_CONFIG",
+    "PACX_STREAM_BRIDGE_CONFIG",
+    "acxstreams/PACX_STREAM_BRIDGE_CONFIG",
+    "ACX_STREAM_BRIDGE_CONFIG",
+    "acxstreams/ACX_STREAM_BRIDGE_CONFIG"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

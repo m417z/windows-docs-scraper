@@ -1,0 +1,63 @@
+{
+  "UID": "NF:wmsecure.IWMSecureChannel.WMSC_AddSignature",
+  "title": "IWMSecureChannel::WMSC_AddSignature (wmsecure.h)",
+  "description": "The WMSC_AddSignature method adds signatures that this object will look for when trying to connect. If no signatures are added, then this object will connect to any other object.",
+  "helpviewer_keywords": [
+    "IWMSecureChannel interface [windows Media Format]",
+    "WMSC_AddSignature method",
+    "IWMSecureChannel.WMSC_AddSignature",
+    "IWMSecureChannel::WMSC_AddSignature",
+    "WMSC_AddSignature",
+    "WMSC_AddSignature method [windows Media Format]",
+    "WMSC_AddSignature method [windows Media Format]",
+    "IWMSecureChannel interface",
+    "wmformat.iwmsecurechannel_wmsc_addsignature",
+    "wmsecure/IWMSecureChannel::WMSC_AddSignature"
+  ],
+  "old-location": "wmformat\\iwmsecurechannel_wmsc_addsignature.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "08fa8ec6-8832-4b5d-bb0d-0a7485ca63d3",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMSecureChannel interface [windows Media Format],WMSC_AddSignature method, IWMSecureChannel.WMSC_AddSignature, IWMSecureChannel::WMSC_AddSignature, WMSC_AddSignature, WMSC_AddSignature method [windows Media Format], WMSC_AddSignature method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addsignature, wmsecure/IWMSecureChannel::WMSC_AddSignature",
+  "req.header": "wmsecure.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMSecureChannel::WMSC_AddSignature",
+    "wmsecure/IWMSecureChannel::WMSC_AddSignature"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmsecure.h"
+  ],
+  "api_name": [
+    "IWMSecureChannel.WMSC_AddSignature"
+  ]
+}

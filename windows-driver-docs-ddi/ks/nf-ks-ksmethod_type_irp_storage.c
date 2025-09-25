@@ -1,0 +1,3 @@
+void KSMETHOD_TYPE_IRP_STORAGE(
+  [in] Irp
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netdispumdddi.PFN_GET_NEXT_CHUNK_DATA",
+  "title": "PFN_GET_NEXT_CHUNK_DATA (netdispumdddi.h)",
+  "description": "Provides info about the next Miracast encode chunk that was reported to the Microsoft DirectX graphics kernel subsystem when the DXGK_INTERRUPT_TYPE interrupt type is DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE.The data type of this function is PFN_GET_NEXT_CHUNK_DATA.",
+  "old-location": "display\\getnextchunkdata.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFN_GET_NEXT_CHUNK_DATA callback function"
+  ],
+  "ms.keywords": "GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA callback, display.getnextchunkdata, netdispumdddi/GetNextChunkData",
+  "req.header": "netdispumdddi.h",
+  "req.include-header": "Netdispumdddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_GET_NEXT_CHUNK_DATA",
+    "netdispumdddi/PFN_GET_NEXT_CHUNK_DATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Netdispumdddi.h"
+  ],
+  "api_name": [
+    "PFN_GET_NEXT_CHUNK_DATA"
+  ]
+}

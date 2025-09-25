@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeSetEvent",
+  "title": "KeSetEvent function (wdm.h)",
+  "description": "The KeSetEvent routine sets an event object to a signaled state if the event was not already signaled, and returns the previous state of the event object.",
+  "old-location": "kernel\\kesetevent.htm",
+  "tech.root": "kernel",
+  "ms.date": "07/29/2021",
+  "keywords": [
+    "KeSetEvent function"
+  ],
+  "ms.keywords": "KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, wdm/KeSetEvent",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "CompletionEventChecking, IoAllocateIrpSignalEventInCompletion, IoBuildDeviceIoControlSetEvent, IoBuildFsdIrpSignalEventInCompletion, IrqlKeSetEvent, SignalEventInCompletion, DoubleKeSetEvent, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeSetEvent",
+    "wdm/KeSetEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeSetEvent"
+  ]
+}

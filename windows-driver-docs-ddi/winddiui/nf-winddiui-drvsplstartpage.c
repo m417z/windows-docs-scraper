@@ -1,0 +1,3 @@
+BOOL DrvSplStartPage(
+  HANDLE hDriver
+);

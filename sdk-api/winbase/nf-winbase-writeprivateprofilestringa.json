@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winbase.WritePrivateProfileStringA",
+  "title": "WritePrivateProfileStringA function (winbase.h)",
+  "description": "Copies a string into the specified section of an initialization file. (ANSI)",
+  "helpviewer_keywords": [
+    "WritePrivateProfileStringA",
+    "winbase/WritePrivateProfileStringA"
+  ],
+  "old-location": "base\\writeprivateprofilestring.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "f0799092-c6c1-4800-a17a-fcf744b1228f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WritePrivateProfileStringW (Unicode) and WritePrivateProfileStringA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WritePrivateProfileStringA",
+    "winbase/WritePrivateProfileStringA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Privateprofile-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Privateprofile-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll"
+  ],
+  "api_name": [
+    "WritePrivateProfileString",
+    "WritePrivateProfileStringA",
+    "WritePrivateProfileStringW"
+  ]
+}

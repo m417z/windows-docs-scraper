@@ -1,0 +1,41 @@
+{
+  "UID": "NE:storport.STOR_POWER_ACTION",
+  "tech.root": "storage",
+  "title": "STOR_POWER_ACTION",
+  "ms.date": "09/26/2022",
+  "targetos": "Windows",
+  "description": "The STOR_POWER_ACTION enumeration identifies the system power actions that can occur on a computer.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "PSTOR_POWER_ACTION",
+    "STOR_POWER_ACTION"
+  ],
+  "f1_keywords": [
+    "PSTOR_POWER_ACTION",
+    "storport/PSTOR_POWER_ACTION",
+    "STOR_POWER_ACTION",
+    "storport/STOR_POWER_ACTION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

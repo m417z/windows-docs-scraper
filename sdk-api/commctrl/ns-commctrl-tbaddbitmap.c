@@ -1,0 +1,4 @@
+typedef struct tagTBADDBITMAP {
+  HINSTANCE hInst;
+  UINT_PTR  nID;
+} TBADDBITMAP, *LPTBADDBITMAP;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winsnmp.SnmpFreePdu",
+  "title": "SnmpFreePdu function (winsnmp.h)",
+  "description": "The WinSNMP SnmpFreePdu function releases resources associated with an SNMP protocol data unit (PDU) created by the SnmpCreatePdu or the SnmpDuplicatePdu function.",
+  "helpviewer_keywords": [
+    "SnmpFreePdu",
+    "SnmpFreePdu function [SNMP]",
+    "_snmp_snmpfreepdu",
+    "snmp.snmpfreepdu",
+    "winsnmp/SnmpFreePdu"
+  ],
+  "old-location": "snmp\\snmpfreepdu.htm",
+  "tech.root": "SNMP",
+  "ms.assetid": "243e52aa-2b05-4c41-9f89-cf9c66517da6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SnmpFreePdu, SnmpFreePdu function [SNMP], _snmp_snmpfreepdu, snmp.snmpfreepdu, winsnmp/SnmpFreePdu",
+  "req.header": "winsnmp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wsnmp32.lib",
+  "req.dll": "Wsnmp32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SnmpFreePdu",
+    "winsnmp/SnmpFreePdu"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wsnmp32.dll"
+  ],
+  "api_name": [
+    "SnmpFreePdu"
+  ]
+}

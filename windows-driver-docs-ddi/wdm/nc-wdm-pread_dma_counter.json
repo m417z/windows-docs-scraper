@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PREAD_DMA_COUNTER",
+  "title": "PREAD_DMA_COUNTER (wdm.h)",
+  "description": "The ReadDmaCounter routine returns the number of bytes remaining to be transferred during the current subordinate DMA operation.",
+  "old-location": "kernel\\readdmacounter.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PREAD_DMA_COUNTER callback function"
+  ],
+  "ms.keywords": "PREAD_DMA_COUNTER, PREAD_DMA_COUNTER callback, ReadDmaCounter, ReadDmaCounter callback function [Kernel-Mode Driver Architecture], kdma_81865501-ca01-4f66-b2a9-da0493d72589.xml, kernel.readdmacounter, wdm/ReadDmaCounter",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlDispatch",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PREAD_DMA_COUNTER",
+    "wdm/PREAD_DMA_COUNTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "PREAD_DMA_COUNTER"
+  ]
+}

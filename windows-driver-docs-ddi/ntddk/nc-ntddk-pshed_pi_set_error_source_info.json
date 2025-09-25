@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ntddk.PSHED_PI_SET_ERROR_SOURCE_INFO",
+  "title": "PSHED_PI_SET_ERROR_SOURCE_INFO (ntddk.h)",
+  "description": "A PSHED plug-in's SetErrorSourceInfo callback function configures an error source.",
+  "tech.root": "whea",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "PSHED_PI_SET_ERROR_SOURCE_INFO callback function"
+  ],
+  "ms.keywords": "PSHED_PI_SET_ERROR_SOURCE_INFO, PSHED_PI_SET_ERROR_SOURCE_INFO callback, SetErrorSourceInfo, SetErrorSourceInfo callback function [WHEA Drivers and Applications], ntddk/SetErrorSourceInfo, whea.seterrorsourceinfo, whearef_49924aa5-519d-4e23-95c5-a52264713258.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSHED_PI_SET_ERROR_SOURCE_INFO",
+    "ntddk/PSHED_PI_SET_ERROR_SOURCE_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PSHED_PI_SET_ERROR_SOURCE_INFO"
+  ]
+}

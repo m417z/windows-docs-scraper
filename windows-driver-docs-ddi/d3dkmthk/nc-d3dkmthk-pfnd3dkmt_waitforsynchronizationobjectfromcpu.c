@@ -1,0 +1,6 @@
+PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU Pfnd3dkmtWaitforsynchronizationobjectfromcpu;
+
+NTSTATUS Pfnd3dkmtWaitforsynchronizationobjectfromcpu(
+  const D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU *unnamedParam1
+)
+{...}

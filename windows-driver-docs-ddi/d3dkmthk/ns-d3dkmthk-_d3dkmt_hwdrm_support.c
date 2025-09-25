@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_HWDRM_SUPPORT {
+  BOOLEAN Supported;
+} D3DKMT_HWDRM_SUPPORT;

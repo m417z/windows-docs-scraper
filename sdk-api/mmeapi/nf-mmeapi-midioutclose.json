@@ -1,0 +1,60 @@
+{
+  "UID": "NF:mmeapi.midiOutClose",
+  "title": "midiOutClose function (mmeapi.h)",
+  "description": "The midiOutClose function closes the specified MIDI output device.",
+  "helpviewer_keywords": [
+    "_win32_midiOutClose",
+    "midiOutClose",
+    "midiOutClose function [Windows Multimedia]",
+    "mmeapi/midiOutClose",
+    "multimedia.midioutclose"
+  ],
+  "old-location": "multimedia\\midioutclose.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "4f23295c-1c2c-4060-9c19-b3f0ed5bf44c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_midiOutClose, midiOutClose, midiOutClose function [Windows Multimedia], mmeapi/midiOutClose, multimedia.midioutclose",
+  "req.header": "mmeapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winmm.lib",
+  "req.dll": "Winmm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "midiOutClose",
+    "mmeapi/midiOutClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winmm.dll",
+    "API-MS-Win-mm-mme-l1-1-0.dll",
+    "winmmbase.dll"
+  ],
+  "api_name": [
+    "midiOutClose"
+  ]
+}

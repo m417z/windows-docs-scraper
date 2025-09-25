@@ -1,0 +1,58 @@
+{
+  "UID": "NF:msdrm.DRMSetRevocationPoint",
+  "title": "DRMSetRevocationPoint function (msdrm.h)",
+  "description": "Sets a refresh rate and location to obtain a revocation list.",
+  "helpviewer_keywords": [
+    "DRMSetRevocationPoint",
+    "DRMSetRevocationPoint function [Active Directory Rights Management Services SDK 1.0]",
+    "msdrm/DRMSetRevocationPoint",
+    "rm.drmsetrevocationpoint"
+  ],
+  "old-location": "rm\\drmsetrevocationpoint.htm",
+  "tech.root": "rm",
+  "ms.assetid": "a9f4ff8d-1b9f-46f4-8a69-5957d4b2aefb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DRMSetRevocationPoint, DRMSetRevocationPoint function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetRevocationPoint, rm.drmsetrevocationpoint",
+  "req.header": "msdrm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdrm.lib",
+  "req.dll": "Msdrm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Rights Management Services client 1.0 SP2 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DRMSetRevocationPoint",
+    "msdrm/DRMSetRevocationPoint"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdrm.dll"
+  ],
+  "api_name": [
+    "DRMSetRevocationPoint"
+  ]
+}

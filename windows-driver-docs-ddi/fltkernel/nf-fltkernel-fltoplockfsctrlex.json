@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltOplockFsctrlEx",
+  "title": "FltOplockFsctrlEx function (fltkernel.h)",
+  "description": "The FltOplockFsctrlEx routine performs various opportunistic lock (oplock) operations on behalf of a minifilter driver.",
+  "old-location": "ifsk\\fltoplockfsctrlex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "01/08/2021",
+  "keywords": [
+    "FltOplockFsctrlEx function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_fbf1fd08-c50d-41f9-8d13-5bd8f1265625.xml, FltOplockFsctrlEx, FltOplockFsctrlEx routine [Installable File System Drivers], fltkernel/FltOplockFsctrlEx, ifsk.fltoplockfsctrlex",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltOplockFsctrlEx",
+    "fltkernel/FltOplockFsctrlEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltOplockFsctrlEx"
+  ]
+}

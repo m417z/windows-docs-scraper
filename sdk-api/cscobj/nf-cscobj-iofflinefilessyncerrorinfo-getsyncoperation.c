@@ -1,0 +1,3 @@
+HRESULT GetSyncOperation(
+  [out] OFFLINEFILES_SYNC_OPERATION *pSyncOp
+);

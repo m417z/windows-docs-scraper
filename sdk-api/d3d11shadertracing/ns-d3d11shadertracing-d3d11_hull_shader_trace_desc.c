@@ -1,0 +1,3 @@
+typedef struct D3D11_HULL_SHADER_TRACE_DESC {
+  UINT64 Invocation;
+} D3D11_HULL_SHADER_TRACE_DESC;

@@ -1,0 +1,5 @@
+typedef enum _STORPORT_QUERY_CONFIGURATION_TYPE {
+  StorportQueryConfigurationD3,
+  StorportQueryConfigurationNvmeIce,
+  StorportQueryConfigurationMax
+} STORPORT_QUERY_CONFIGURATION_TYPE, *PSTORPORT_QUERY_CONFIGURATION_TYPE;

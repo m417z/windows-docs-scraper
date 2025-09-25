@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.EditStreamPaste",
+  "title": "EditStreamPaste function (vfw.h)",
+  "description": "The EditStreamPaste function copies a stream (or a portion of it) from one stream and pastes it within another stream at a specified location.",
+  "helpviewer_keywords": [
+    "EditStreamPaste",
+    "EditStreamPaste function [Windows Multimedia]",
+    "_win32_EditStreamPaste",
+    "multimedia.editstreampaste",
+    "vfw/EditStreamPaste"
+  ],
+  "old-location": "multimedia\\editstreampaste.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "c3c77ec1-0aa4-47ab-afc1-ed69d6aca201",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EditStreamPaste, EditStreamPaste function [Windows Multimedia], _win32_EditStreamPaste, multimedia.editstreampaste, vfw/EditStreamPaste",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EditStreamPaste",
+    "vfw/EditStreamPaste"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll"
+  ],
+  "api_name": [
+    "EditStreamPaste"
+  ]
+}

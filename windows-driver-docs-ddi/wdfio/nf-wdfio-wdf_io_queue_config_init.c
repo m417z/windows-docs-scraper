@@ -1,0 +1,4 @@
+VOID WDF_IO_QUEUE_CONFIG_INIT(
+  [out] PWDF_IO_QUEUE_CONFIG       Config,
+  [in]  WDF_IO_QUEUE_DISPATCH_TYPE DispatchType
+);

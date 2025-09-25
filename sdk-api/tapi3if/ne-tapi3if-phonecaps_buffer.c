@@ -1,0 +1,3 @@
+typedef enum PHONECAPS_BUFFER {
+  PCB_DEVSPECIFICBUFFER = 0
+} ;

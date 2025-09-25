@@ -1,0 +1,1 @@
+#define NET_BUFFER_DATA_LENGTH(_NB) ((_NB)->DataLength)

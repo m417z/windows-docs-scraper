@@ -1,0 +1,1 @@
+WINHTTPAPI BOOL WinHttpCheckPlatform();

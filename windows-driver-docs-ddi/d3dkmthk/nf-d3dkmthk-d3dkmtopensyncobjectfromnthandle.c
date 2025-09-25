@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenSyncObjectFromNtHandle(
+  D3DKMT_OPENSYNCOBJECTFROMNTHANDLE *unnamedParam1
+);

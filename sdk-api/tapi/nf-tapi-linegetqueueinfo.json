@@ -1,0 +1,58 @@
+{
+  "UID": "NF:tapi.lineGetQueueInfo",
+  "title": "lineGetQueueInfo function (tapi.h)",
+  "description": "The lineGetQueueInfo function returns a structure holding the ACD information associated with a particular queue.",
+  "helpviewer_keywords": [
+    "_tapi2_linegetqueueinfo",
+    "lineGetQueueInfo",
+    "lineGetQueueInfo function [TAPI 2.2]",
+    "tapi/lineGetQueueInfo",
+    "tapi2.linegetqueueinfo"
+  ],
+  "old-location": "tapi2\\linegetqueueinfo.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "f7bd6922-a9cd-43ab-96f7-5abf4c6a5b16",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_tapi2_linegetqueueinfo, lineGetQueueInfo, lineGetQueueInfo function [TAPI 2.2], tapi/lineGetQueueInfo, tapi2.linegetqueueinfo",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineGetQueueInfo",
+    "tapi/lineGetQueueInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineGetQueueInfo"
+  ]
+}

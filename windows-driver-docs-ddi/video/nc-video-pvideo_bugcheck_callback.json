@@ -1,0 +1,48 @@
+{
+  "UID": "NC:video.PVIDEO_BUGCHECK_CALLBACK",
+  "title": "PVIDEO_BUGCHECK_CALLBACK (video.h)",
+  "description": "The HwVidBugcheckCallback function enables the miniport driver to append data to a dump file when a bug check occurs.",
+  "old-location": "display\\hwvidbugcheckcallback.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PVIDEO_BUGCHECK_CALLBACK callback function"
+  ],
+  "ms.keywords": "HwVidBugcheckCallback, HwVidBugcheckCallback callback function [Display Devices], PVIDEO_BUGCHECK_CALLBACK, PVIDEO_BUGCHECK_CALLBACK callback, VideoMiniport_Functions_d3dcce93-d172-4948-8cc5-395dd2a1f9a5.xml, display.hwvidbugcheckcallback, video/HwVidBugcheckCallback",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PVIDEO_BUGCHECK_CALLBACK",
+    "video/PVIDEO_BUGCHECK_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "video.h"
+  ],
+  "api_name": [
+    "PVIDEO_BUGCHECK_CALLBACK"
+  ]
+}

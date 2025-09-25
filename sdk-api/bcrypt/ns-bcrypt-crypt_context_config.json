@@ -1,0 +1,67 @@
+{
+  "UID": "NS:bcrypt._CRYPT_CONTEXT_CONFIG",
+  "title": "CRYPT_CONTEXT_CONFIG (bcrypt.h)",
+  "description": "Contains configuration information for a CNG context.",
+  "helpviewer_keywords": [
+    "*PCRYPT_CONTEXT_CONFIG",
+    "CRYPT_CONTEXT_CONFIG",
+    "CRYPT_CONTEXT_CONFIG structure [Security]",
+    "CRYPT_EXCLUSIVE",
+    "CRYPT_OVERRIDE",
+    "PCRYPT_CONTEXT_CONFIG",
+    "PCRYPT_CONTEXT_CONFIG structure pointer [Security]",
+    "bcrypt/CRYPT_CONTEXT_CONFIG",
+    "bcrypt/PCRYPT_CONTEXT_CONFIG",
+    "security.crypt_context_config"
+  ],
+  "old-location": "security\\crypt_context_config.htm",
+  "tech.root": "security",
+  "ms.assetid": "3e07b7ae-84ef-4b77-bd49-d96906eaa4f8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CRYPT_CONTEXT_CONFIG, *PCRYPT_CONTEXT_CONFIG",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_CRYPT_CONTEXT_CONFIG",
+    "bcrypt/_CRYPT_CONTEXT_CONFIG",
+    "PCRYPT_CONTEXT_CONFIG",
+    "bcrypt/PCRYPT_CONTEXT_CONFIG",
+    "CRYPT_CONTEXT_CONFIG",
+    "bcrypt/CRYPT_CONTEXT_CONFIG"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Bcrypt.h"
+  ],
+  "api_name": [
+    "CRYPT_CONTEXT_CONFIG"
+  ]
+}

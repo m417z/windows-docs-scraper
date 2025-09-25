@@ -1,0 +1,72 @@
+{
+  "UID": "NS:winnt._IMAGE_ENCLAVE_CONFIG64",
+  "title": "IMAGE_ENCLAVE_CONFIG64 (winnt.h)",
+  "description": "Defines the format of the enclave configuration for systems running 32-bit Windows. (64 bit)",
+  "helpviewer_keywords": [
+    "*PIMAGE_ENCLAVE_CONFIG64",
+    "IMAGE_ENCLAVE_CONFIG",
+    "IMAGE_ENCLAVE_CONFIG32",
+    "IMAGE_ENCLAVE_CONFIG32 structure",
+    "IMAGE_ENCLAVE_CONFIG64",
+    "IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE",
+    "IMAGE_ENCLAVE_POLICY_DEBUGGABLE",
+    "PIMAGE_ENCLAVE_CONFIG32",
+    "PIMAGE_ENCLAVE_CONFIG32 structure pointer",
+    "_IMAGE_ENCLAVE_CONFIG32",
+    "base.image_enclave_config",
+    "base.image_enclave_config32",
+    "winnt/IMAGE_ENCLAVE_CONFIG32",
+    "winnt/PIMAGE_ENCLAVE_CONFIG32"
+  ],
+  "old-location": "base\\image_enclave_config32.htm",
+  "tech.root": "base",
+  "ms.assetid": "6006F018-4F3F-4595-8ED2-89D2CC7F782D",
+  "ms.date": "04/14/2025",
+  "ms.keywords": "*PIMAGE_ENCLAVE_CONFIG64, IMAGE_ENCLAVE_CONFIG, IMAGE_ENCLAVE_CONFIG32, IMAGE_ENCLAVE_CONFIG32 structure, IMAGE_ENCLAVE_CONFIG64, IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE, IMAGE_ENCLAVE_POLICY_DEBUGGABLE, PIMAGE_ENCLAVE_CONFIG32, PIMAGE_ENCLAVE_CONFIG32 structure pointer, _IMAGE_ENCLAVE_CONFIG32, base.image_enclave_config, base.image_enclave_config32, winnt/IMAGE_ENCLAVE_CONFIG32, winnt/PIMAGE_ENCLAVE_CONFIG32",
+  "req.header": "winnt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IMAGE_ENCLAVE_CONFIG64, *PIMAGE_ENCLAVE_CONFIG64",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_IMAGE_ENCLAVE_CONFIG64",
+    "winnt/_IMAGE_ENCLAVE_CONFIG64",
+    "PIMAGE_ENCLAVE_CONFIG64",
+    "winnt/PIMAGE_ENCLAVE_CONFIG64",
+    "IMAGE_ENCLAVE_CONFIG64",
+    "winnt/IMAGE_ENCLAVE_CONFIG64"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winnt.h"
+  ],
+  "api_name": [
+    "IMAGE_ENCLAVE_CONFIG32",
+    "IMAGE_ENCLAVE_CONFIG"
+  ]
+}

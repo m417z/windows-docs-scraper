@@ -1,0 +1,47 @@
+{
+  "UID": "NC:strmini.PHW_CANCEL_SRB",
+  "title": "PHW_CANCEL_SRB (strmini.h)",
+  "description": "The class driver calls the minidriver's StrMiniCancelPacket routine to signal that a stream request has been canceled.",
+  "tech.root": "stream",
+  "ms.date": "04/22/2022",
+  "keywords": [
+    "PHW_CANCEL_SRB callback function"
+  ],
+  "ms.keywords": "PHW_CANCEL_SRB, StrMiniCancelPacket, StrMiniCancelPacket routine [Streaming Media Devices], stream.strminicancelpacket, strmini-routines_976ab3d0-d8aa-4121-a0a8-b37d08a07219.xml, strmini/StrMiniCancelPacket",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PHW_CANCEL_SRB",
+    "strmini/PHW_CANCEL_SRB"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "strmini.h"
+  ],
+  "api_name": [
+    "PHW_CANCEL_SRB"
+  ]
+}

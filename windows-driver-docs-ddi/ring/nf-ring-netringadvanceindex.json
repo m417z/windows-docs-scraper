@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ring.NetRingAdvanceIndex",
+  "title": "NetRingAdvanceIndex function (ring.h)",
+  "description": "The NetRingAdvanceIndex function advances the index in a net ring forward, wrapping around if necessary.",
+  "tech.root": "netvista",
+  "ms.date": "04/01/2022",
+  "keywords": [
+    "NetRingAdvanceIndex function"
+  ],
+  "ms.keywords": "NetRingAdvanceIndex",
+  "req.header": "ring.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level as long as target memory is resident",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "Vb",
+  "f1_keywords": [
+    "NetRingAdvanceIndex",
+    "ring/NetRingAdvanceIndex"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ring.h"
+  ],
+  "api_name": [
+    "NetRingAdvanceIndex"
+  ]
+}

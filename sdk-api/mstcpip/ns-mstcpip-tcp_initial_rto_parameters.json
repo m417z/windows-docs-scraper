@@ -1,0 +1,65 @@
+{
+  "UID": "NS:mstcpip._TCP_INITIAL_RTO_PARAMETERS",
+  "title": "TCP_INITIAL_RTO_PARAMETERS (mstcpip.h)",
+  "description": "Specifies data used by the SIO_TCP_INITIAL_RTO IOCTL to configure initial retransmission timeout (RTO) parameters to be used on the socket.",
+  "helpviewer_keywords": [
+    "*PTCP_INITIAL_RTO_PARAMETERS",
+    "PTCP_INITIAL_RTO_PARAMETERS",
+    "PTCP_INITIAL_RTO_PARAMETERS structure pointer [Winsock]",
+    "TCP_INITIAL_RTO_PARAMETERS",
+    "TCP_INITIAL_RTO_PARAMETERS structure [Winsock]",
+    "mstcpip/PTCP_INITIAL_RTO_PARAMETERS",
+    "mstcpip/TCP_INITIAL_RTO_PARAMETERS",
+    "winsock.tcp_initial_rto_parameters"
+  ],
+  "old-location": "winsock\\tcp_initial_rto_parameters.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "D8445188-A7D5-4A2C-827A-CB559C3B0748",
+  "ms.date": "04/02/2024",
+  "ms.keywords": "*PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS, PTCP_INITIAL_RTO_PARAMETERS structure pointer [Winsock], TCP_INITIAL_RTO_PARAMETERS, TCP_INITIAL_RTO_PARAMETERS structure [Winsock], mstcpip/PTCP_INITIAL_RTO_PARAMETERS, mstcpip/TCP_INITIAL_RTO_PARAMETERS, winsock.tcp_initial_rto_parameters",
+  "req.header": "mstcpip.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TCP_INITIAL_RTO_PARAMETERS, *PTCP_INITIAL_RTO_PARAMETERS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_TCP_INITIAL_RTO_PARAMETERS",
+    "mstcpip/_TCP_INITIAL_RTO_PARAMETERS",
+    "PTCP_INITIAL_RTO_PARAMETERS",
+    "mstcpip/PTCP_INITIAL_RTO_PARAMETERS",
+    "TCP_INITIAL_RTO_PARAMETERS",
+    "mstcpip/TCP_INITIAL_RTO_PARAMETERS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Mstcpip.h"
+  ],
+  "api_name": [
+    "TCP_INITIAL_RTO_PARAMETERS"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "UID": "NI:usbprint.IOCTL_USBPRINT_GET_PROTOCOL",
+  "title": "IOCTL_USBPRINT_GET_PROTOCOL",
+  "description": "Retrieve the current printer protocol code of the USB printer interface.",
+  "tech.root": "print",
+  "ms.date": "04/19/2022",
+  "keywords": [
+    "IOCTL_USBPRINT_GET_PROTOCOL IOCTL"
+  ],
+  "req.header": "usbprint.h",
+  "req.include-header": "Usbprint.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "IOCTL_USBPRINT_GET_PROTOCOL",
+    "usbprint/IOCTL_USBPRINT_GET_PROTOCOL"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usbprint.h"
+  ],
+  "api_name": [
+    "IOCTL_USBPRINT_GET_PROTOCOL"
+  ]
+}

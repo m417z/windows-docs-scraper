@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wmistr.tagWNODE_EVENT_REFERENCE",
+  "title": "tagWNODE_EVENT_REFERENCE (wmistr.h)",
+  "description": "The WNODE_EVENT_REFERENCE structure contains information that WMI can use to query for an event that exceeds the event size limit set in the registry.",
+  "old-location": "kernel\\wnode_event_reference.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "tagWNODE_EVENT_REFERENCE structure"
+  ],
+  "ms.keywords": "*PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE structure pointer [Kernel-Mode Driver Architecture], WNODE_EVENT_REFERENCE, WNODE_EVENT_REFERENCE structure [Kernel-Mode Driver Architecture], kernel.wnode_event_reference, kstruct_d_cf8551b3-5506-4c02-b56a-a4836429d5e1.xml, tagWNODE_EVENT_REFERENCE, wmistr/PWNODE_EVENT_REFERENCE, wmistr/WNODE_EVENT_REFERENCE",
+  "req.header": "wmistr.h",
+  "req.include-header": "Wmistr.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WNODE_EVENT_REFERENCE, *PWNODE_EVENT_REFERENCE",
+  "f1_keywords": [
+    "tagWNODE_EVENT_REFERENCE",
+    "wmistr/tagWNODE_EVENT_REFERENCE",
+    "PWNODE_EVENT_REFERENCE",
+    "wmistr/PWNODE_EVENT_REFERENCE",
+    "WNODE_EVENT_REFERENCE",
+    "wmistr/WNODE_EVENT_REFERENCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wmistr.h"
+  ],
+  "api_name": [
+    "tagWNODE_EVENT_REFERENCE",
+    "PWNODE_EVENT_REFERENCE",
+    "WNODE_EVENT_REFERENCE"
+  ]
+}

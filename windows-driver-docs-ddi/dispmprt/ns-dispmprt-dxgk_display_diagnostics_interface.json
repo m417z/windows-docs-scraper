@@ -1,0 +1,48 @@
+{
+  "UID": "NS:dispmprt._DXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+  "title": "DXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+  "ms.date": "03/24/2020",
+  "targetos": "Windows",
+  "description": "A kernel-mode component that needs to use the display diagnostics interface calls the display miniport driver's DxgkDdiQueryInterface function.",
+  "tech.root": "display",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DXGK_DISPLAY_DIAGNOSTICS_INTERFACE, *PDXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+    "PDXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+    "DXGK_DISPLAY_DIAGNOSTICS_INTERFACE"
+  ],
+  "f1_keywords": [
+    "_DXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+    "dispmprt/_DXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+    "PDXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+    "dispmprt/PDXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+    "DXGK_DISPLAY_DIAGNOSTICS_INTERFACE",
+    "dispmprt/DXGK_DISPLAY_DIAGNOSTICS_INTERFACE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "UID": "NF:fhcfg.IFhReassociation.SelectConfiguration",
+  "title": "IFhReassociation::SelectConfiguration (fhcfg.h)",
+  "description": "Selects one of the File History configurations discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method for subsequent reassociation.",
+  "helpviewer_keywords": [
+    "FhReassociation class [Windows API]",
+    "SelectConfiguration method",
+    "IFhReassociation interface [Windows API]",
+    "SelectConfiguration method",
+    "IFhReassociation.SelectConfiguration",
+    "IFhReassociation::SelectConfiguration",
+    "SelectConfiguration",
+    "SelectConfiguration method [Windows API]",
+    "SelectConfiguration method [Windows API]",
+    "FhReassociation class",
+    "SelectConfiguration method [Windows API]",
+    "IFhReassociation interface",
+    "fhcfg/IFhReassociation::SelectConfiguration",
+    "winprog.ifhreassociation_selectconfiguration"
+  ],
+  "old-location": "winprog\\ifhreassociation_selectconfiguration.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "5501F87D-2998-4CB7-B9C8-9EC04F42B22D",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FhReassociation class [Windows API],SelectConfiguration method, IFhReassociation interface [Windows API],SelectConfiguration method, IFhReassociation.SelectConfiguration, IFhReassociation::SelectConfiguration, SelectConfiguration, SelectConfiguration method [Windows API], SelectConfiguration method [Windows API],FhReassociation class, SelectConfiguration method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::SelectConfiguration, winprog.ifhreassociation_selectconfiguration",
+  "req.header": "fhcfg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Fhcfg.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFhReassociation::SelectConfiguration",
+    "fhcfg/IFhReassociation::SelectConfiguration"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Fhcfg.h"
+  ],
+  "api_name": [
+    "IFhReassociation.SelectConfiguration",
+    "FhReassociation.SelectConfiguration"
+  ]
+}

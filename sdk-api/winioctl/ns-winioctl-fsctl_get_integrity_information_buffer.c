@@ -1,0 +1,7 @@
+typedef struct _FSCTL_GET_INTEGRITY_INFORMATION_BUFFER {
+  WORD  ChecksumAlgorithm;
+  WORD  Reserved;
+  DWORD Flags;
+  DWORD ChecksumChunkSizeInBytes;
+  DWORD ClusterSizeInBytes;
+} FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER;

@@ -1,0 +1,69 @@
+{
+  "UID": "NS:winioctl._REQUEST_OPLOCK_INPUT_BUFFER",
+  "title": "REQUEST_OPLOCK_INPUT_BUFFER",
+  "description": "Contains the information to request an opportunistic lock (oplock) or to acknowledge an oplock break with the FSCTL_REQUEST_OPLOCK control code.",
+  "helpviewer_keywords": [
+    "*PREQUEST_OPLOCK_INPUT_BUFFER",
+    "OPLOCK_LEVEL_CACHE_HANDLE",
+    "OPLOCK_LEVEL_CACHE_READ",
+    "OPLOCK_LEVEL_CACHE_WRITE",
+    "PREQUEST_OPLOCK_INPUT_BUFFER",
+    "PREQUEST_OPLOCK_INPUT_BUFFER structure pointer [Files]",
+    "REQUEST_OPLOCK_INPUT_BUFFER",
+    "REQUEST_OPLOCK_INPUT_BUFFER structure [Files]",
+    "REQUEST_OPLOCK_INPUT_FLAG_ACK",
+    "REQUEST_OPLOCK_INPUT_FLAG_REQUEST",
+    "fs.request_oplock_input_buffer",
+    "winioctl/PREQUEST_OPLOCK_INPUT_BUFFER",
+    "winioctl/REQUEST_OPLOCK_INPUT_BUFFER"
+  ],
+  "old-location": "fs\\request_oplock_input_buffer.htm",
+  "tech.root": "fs",
+  "ms.assetid": "ac19fbd3-a967-4ac8-9260-93e07b5008ac",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PREQUEST_OPLOCK_INPUT_BUFFER, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, PREQUEST_OPLOCK_INPUT_BUFFER, PREQUEST_OPLOCK_INPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_INPUT_BUFFER, REQUEST_OPLOCK_INPUT_BUFFER structure [Files], REQUEST_OPLOCK_INPUT_FLAG_ACK, REQUEST_OPLOCK_INPUT_FLAG_REQUEST, fs.request_oplock_input_buffer, winioctl/PREQUEST_OPLOCK_INPUT_BUFFER, winioctl/REQUEST_OPLOCK_INPUT_BUFFER",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "REQUEST_OPLOCK_INPUT_BUFFER, *PREQUEST_OPLOCK_INPUT_BUFFER",
+  "req.redist": null,
+  "f1_keywords": [
+    "_REQUEST_OPLOCK_INPUT_BUFFER",
+    "winioctl/_REQUEST_OPLOCK_INPUT_BUFFER",
+    "PREQUEST_OPLOCK_INPUT_BUFFER",
+    "winioctl/PREQUEST_OPLOCK_INPUT_BUFFER",
+    "REQUEST_OPLOCK_INPUT_BUFFER",
+    "winioctl/REQUEST_OPLOCK_INPUT_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "REQUEST_OPLOCK_INPUT_BUFFER"
+  ]
+}

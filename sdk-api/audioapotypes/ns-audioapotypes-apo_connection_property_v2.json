@@ -1,0 +1,47 @@
+{
+  "UID": "NS:audioapotypes.APO_CONNECTION_PROPERTY_V2",
+  "tech.root": "coreaudio",
+  "title": "APO_CONNECTION_PROPERTY_V2",
+  "ms.date": "02/17/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains the dynamically changing connection properties. Version two of this structure introduces a time stamp that can be used to synchronize an auxiliary reference stream initialized with IApoAuxiliaryInputConfiguration.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audioapotypes.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "APO_CONNECTION_PROPERTY_V2",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audioapotypes.h"
+  ],
+  "api_name": [
+    "APO_CONNECTION_PROPERTY_V2"
+  ],
+  "f1_keywords": [
+    "APO_CONNECTION_PROPERTY_V2",
+    "audioapotypes/APO_CONNECTION_PROPERTY_V2"
+  ],
+  "helpviewer_keywords": [
+    "APO_CONNECTION_PROPERTY_V2",
+    "audioapotypes/APO_CONNECTION_PROPERTY_V2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

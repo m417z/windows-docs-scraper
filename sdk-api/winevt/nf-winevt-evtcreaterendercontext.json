@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winevt.EvtCreateRenderContext",
+  "title": "EvtCreateRenderContext function (winevt.h)",
+  "description": "Creates a context that specifies the information in the event that you want to render.",
+  "helpviewer_keywords": [
+    "EvtCreateRenderContext",
+    "EvtCreateRenderContext function [EventLog]",
+    "wes.evtcreaterendercontext",
+    "winevt/EvtCreateRenderContext"
+  ],
+  "old-location": "wes\\evtcreaterendercontext.htm",
+  "tech.root": "wes",
+  "ms.assetid": "729cfd74-c158-463d-9247-ee2c75b259d4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EvtCreateRenderContext, EvtCreateRenderContext function [EventLog], wes.evtcreaterendercontext, winevt/EvtCreateRenderContext",
+  "req.header": "winevt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wevtapi.lib",
+  "req.dll": "Wevtapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EvtCreateRenderContext",
+    "winevt/EvtCreateRenderContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wevtapi-eventlog-l1-1-3.dll",
+    "Wevtapi.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll"
+  ],
+  "api_name": [
+    "EvtCreateRenderContext"
+  ]
+}

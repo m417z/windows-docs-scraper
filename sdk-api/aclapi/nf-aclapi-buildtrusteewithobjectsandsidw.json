@@ -1,0 +1,66 @@
+{
+  "UID": "NF:aclapi.BuildTrusteeWithObjectsAndSidW",
+  "title": "BuildTrusteeWithObjectsAndSidW function (aclapi.h)",
+  "description": "Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. (Unicode)",
+  "helpviewer_keywords": [
+    "BuildTrusteeWithObjectsAndSid",
+    "BuildTrusteeWithObjectsAndSid function [Security]",
+    "BuildTrusteeWithObjectsAndSidW",
+    "_win32_buildtrusteewithobjectsandsid",
+    "aclapi/BuildTrusteeWithObjectsAndSid",
+    "aclapi/BuildTrusteeWithObjectsAndSidW",
+    "security.buildtrusteewithobjectsandsid"
+  ],
+  "old-location": "security\\buildtrusteewithobjectsandsid.htm",
+  "tech.root": "security",
+  "ms.assetid": "e940a87f-013e-458c-bdc1-9e81c7d905e0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid",
+  "req.header": "aclapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "BuildTrusteeWithObjectsAndSidW (Unicode) and BuildTrusteeWithObjectsAndSidA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BuildTrusteeWithObjectsAndSidW",
+    "aclapi/BuildTrusteeWithObjectsAndSidW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-trustee-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-security-trustee-l1-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-security-trustee-l1-1-1.dll"
+  ],
+  "api_name": [
+    "BuildTrusteeWithObjectsAndSid",
+    "BuildTrusteeWithObjectsAndSidA",
+    "BuildTrusteeWithObjectsAndSidW"
+  ]
+}

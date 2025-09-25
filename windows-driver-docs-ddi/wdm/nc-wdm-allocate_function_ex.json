@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.ALLOCATE_FUNCTION_EX",
+  "title": "ALLOCATE_FUNCTION_EX (wdm.h)",
+  "description": "The LookasideListAllocateEx routine allocates the storage for a new lookaside-list entry when a client requests an entry from a lookaside list that is empty.",
+  "tech.root": "kernel",
+  "ms.date": "01/09/2023",
+  "keywords": [
+    "ALLOCATE_FUNCTION_EX callback function"
+  ],
+  "ms.keywords": "ALLOCATE_FUNCTION_EX, DrvrRtns_a8e59075-4ed4-49d3-a516-6cee5b6390c8.xml, LookasideListAllocateEx, LookasideListAllocateEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistallocateex, wdm/LookasideListAllocateEx",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ALLOCATE_FUNCTION_EX",
+    "wdm/ALLOCATE_FUNCTION_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "ALLOCATE_FUNCTION_EX"
+  ]
+}

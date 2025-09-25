@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddscsi.IOCTL_SCSI_MINIPORT_DIAGNOSTIC",
+  "title": "IOCTL_SCSI_MINIPORT_DIAGNOSTIC (ntddscsi.h)",
+  "description": "The IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code is use to perform a diagnostic request to the Miniport.",
+  "old-location": "storage\\ioctl_scsi_miniport_diagnostic.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SCSI_MINIPORT_DIAGNOSTIC, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC, storage.ioctl_scsi_miniport_diagnostic",
+  "req.header": "ntddscsi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SCSI_MINIPORT_DIAGNOSTIC",
+    "ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddscsi.h"
+  ],
+  "api_name": [
+    "IOCTL_SCSI_MINIPORT_DIAGNOSTIC"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:synchapi.ReleaseSRWLockExclusive",
+  "title": "ReleaseSRWLockExclusive function (synchapi.h)",
+  "description": "Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.",
+  "helpviewer_keywords": [
+    "ReleaseSRWLockExclusive",
+    "ReleaseSRWLockExclusive function",
+    "base.releasesrwlockexclusive",
+    "synchapi/ReleaseSRWLockExclusive",
+    "winbase/ReleaseSRWLockExclusive"
+  ],
+  "old-location": "base\\releasesrwlockexclusive.htm",
+  "tech.root": "base",
+  "ms.assetid": "77f9b8ee-f922-4bd1-b715-ccb1ca891dcc",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "ReleaseSRWLockExclusive, ReleaseSRWLockExclusive function, base.releasesrwlockexclusive, synchapi/ReleaseSRWLockExclusive, winbase/ReleaseSRWLockExclusive",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ReleaseSRWLockExclusive",
+    "synchapi/ReleaseSRWLockExclusive"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "ReleaseSRWLockExclusive"
+  ]
+}

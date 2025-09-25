@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoSetShareAccess",
+  "title": "IoSetShareAccess function (wdm.h)",
+  "description": "The IoSetShareAccess routine sets the access rights for sharing the given file object.",
+  "old-location": "kernel\\iosetshareaccess.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoSetShareAccess function"
+  ],
+  "ms.keywords": "IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture], k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, kernel.iosetshareaccess, wdm/IoSetShareAccess",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlIoPassive5, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoSetShareAccess",
+    "wdm/IoSetShareAccess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoSetShareAccess"
+  ]
+}

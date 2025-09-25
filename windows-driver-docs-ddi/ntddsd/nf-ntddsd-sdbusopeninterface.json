@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddsd.SdBusOpenInterface",
+  "title": "SdBusOpenInterface function (ntddsd.h)",
+  "description": "The SdBusOpenInterface routine obtains an interface from the Secure Digital (SD) bus driver.",
+  "old-location": "sd\\sdbusopeninterface.htm",
+  "tech.root": "SD",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "SdBusOpenInterface function"
+  ],
+  "ms.keywords": "SD.sdbusopeninterface, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml",
+  "req.header": "ntddsd.h",
+  "req.include-header": "Ntddsd.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "< DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SdBusOpenInterface",
+    "ntddsd/SdBusOpenInterface"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddsd.h"
+  ],
+  "api_name": [
+    "SdBusOpenInterface"
+  ]
+}

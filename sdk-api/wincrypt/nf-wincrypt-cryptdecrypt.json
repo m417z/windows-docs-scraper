@@ -1,0 +1,62 @@
+{
+  "UID": "NF:wincrypt.CryptDecrypt",
+  "title": "CryptDecrypt function (wincrypt.h)",
+  "description": "Decrypts data previously encrypted by using the CryptEncrypt function.",
+  "helpviewer_keywords": [
+    "CRYPT_DECRYPT_RSA_NO_PADDING_CHECK",
+    "CRYPT_OAEP",
+    "CryptDecrypt",
+    "CryptDecrypt function [Security]",
+    "_crypto2_cryptdecrypt",
+    "security.cryptdecrypt",
+    "wincrypt/CryptDecrypt"
+  ],
+  "old-location": "security\\cryptdecrypt.htm",
+  "tech.root": "security",
+  "ms.assetid": "7c3d2838-6fd1-4f6c-9586-8b94b459a31a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CRYPT_DECRYPT_RSA_NO_PADDING_CHECK, CRYPT_OAEP, CryptDecrypt, CryptDecrypt function [Security], _crypto2_cryptdecrypt, security.cryptdecrypt, wincrypt/CryptDecrypt",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptDecrypt",
+    "wincrypt/CryptDecrypt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-Security-cryptoapi-l1-1-0.dll",
+    "cryptsp.dll"
+  ],
+  "api_name": [
+    "CryptDecrypt"
+  ]
+}

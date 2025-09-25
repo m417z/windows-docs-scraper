@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxCreateVNetRoot",
+  "title": "RxCreateVNetRoot function (fcb.h)",
+  "description": "RxCreateVNetRoot allocates and initializes a NET_ROOT structure and inserts the name into the net name table on the associated device object.",
+  "old-location": "ifsk\\rxcreatevnetroot.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCreateVNetRoot function"
+  ],
+  "ms.keywords": "RxCreateVNetRoot, RxCreateVNetRoot function [Installable File System Drivers], fcb/RxCreateVNetRoot, ifsk.rxcreatevnetroot, rxref_adf9e6de-8b07-488e-86de-0d42036c3d7c.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Rxcontx.h, Mrxfcb.h, Prefix.h, Struchdr.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCreateVNetRoot",
+    "fcb/RxCreateVNetRoot"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxCreateVNetRoot"
+  ]
+}

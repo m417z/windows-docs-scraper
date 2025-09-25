@@ -1,0 +1,3 @@
+DRMEXPORT HRESULT UDAPICALL DRMCloseHandle(
+  [in] DRMHANDLE handle
+);

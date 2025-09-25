@@ -1,0 +1,3 @@
+HRESULT IsTransitionPoint(
+  bool *isTransitionPoint
+);

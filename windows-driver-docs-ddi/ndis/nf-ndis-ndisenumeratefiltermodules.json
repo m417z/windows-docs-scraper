@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisEnumerateFilterModules",
+  "title": "NdisEnumerateFilterModules function (ndis.h)",
+  "description": "The NdisEnumerateFilterModules function enumerates all the filters modules and filter intermediate driver instances in a filter stack.",
+  "old-location": "netvista\\ndisenumeratefiltermodules.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisEnumerateFilterModules function"
+  ],
+  "ms.keywords": "NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Filter_Driver_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisEnumerateFilterModules",
+    "ndis/NdisEnumerateFilterModules"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisEnumerateFilterModules"
+  ]
+}

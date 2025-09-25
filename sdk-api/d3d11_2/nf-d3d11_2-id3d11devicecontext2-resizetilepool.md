@@ -1,0 +1,49 @@
+# ID3D11DeviceContext2::ResizeTilePool
+
+## Description
+
+Resizes a tile pool.
+
+## Parameters
+
+### `pTilePool` [in]
+
+Type: **[ID3D11Buffer](https://learn.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer)***
+
+A pointer to an [ID3D11Buffer](https://learn.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer) for the tile pool to resize.
+
+### `NewSizeInBytes` [in]
+
+Type: **[UINT64](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+
+The new size in bytes of the tile pool. The size must be a multiple of 64 KB or 0.
+
+## Return value
+
+Type: **[HRESULT](https://learn.microsoft.com/windows/win32/com/structure-of-com-error-codes)**
+
+Returns S_OK if successful; otherwise, returns one of the following:
+
+* Returns **E_INVALIDARG** if the new tile pool size isn't a multiple of 64 KB or 0.
+* Returns **E_OUTOFMEMORY** if the call results in the driver having to allocate space for new page table mappings but running out of memory.
+* Returns **DXGI_ERROR_DEVICE_REMOVED** if the video card has been physically removed from the system, or a driver upgrade for the video card has occurred.
+
+For **E_INVALIDARG** or **E_OUTOFMEMORY**, the existing tile pool remains unchanged, which includes existing mappings.
+
+## Remarks
+
+**ResizeTilePool** increases or decreases the size of the tile pool depending on whether the app needs more or less working set for the tiled resources that are mapped into it. An app can allocate additional tile pools for new tiled resources, but if any single tiled resource needs more space than initially available in its tile pool, the app can increase the size of the resource's tile pool. A tiled resource can't have mappings into multiple tile pools simultaneously.
+
+When you increase the size of a tile pool, additional tiles are added to the end of the tile pool via one or more new allocations by the driver; your app can't detect the breakdown into the new allocations. Existing memory in the tile pool is left untouched, and existing tiled resource mappings into that memory remain intact.
+
+When you decrease the size of a tile pool, tiles are removed from the end (this is allowed even below the initial allocation size, down to 0). This means that new mappings can't be made past the new size. But, existing mappings past the end of the new size remain intact and useable. The memory is kept active as long as mappings to any part of the allocations that are being used for the tile pool memory remains. If after decreasing, some memory has been kept active because tile mappings are pointing to it and the tile pool is increased again (by any amount), the existing memory is reused first before any additional allocations occur to service the size of the increase.
+
+To be able to save memory, an app has to not only decrease a tile pool but also remove and remap existing mappings past the end of the new smaller tile pool size.
+
+The act of decreasing (and removing mappings) doesn't necessarily produce immediate memory savings. Freeing of memory depends on how granular the driver's underlying allocations for the tile pool are. When a decrease in the size of a tile pool happens to be enough to make a driver allocation unused, the driver can free the allocation. If a tile pool was increased and if you then decrease to previous sizes (and remove and remap tile mappings correspondingly), you will most likely yield memory savings. But, this scenario isn't guaranteed in the case that the sizes don't exactly align with the underlying allocation sizes chosen by the driver.
+
+For more info about tiled resources, see [Tiled resources](https://learn.microsoft.com/windows/desktop/direct3d11/tiled-resources).
+
+## See also
+
+[ID3D11DeviceContext2](https://learn.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2)

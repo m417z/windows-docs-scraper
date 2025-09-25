@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._PNP_BUS_INFORMATION",
+  "title": "_PNP_BUS_INFORMATION (wdm.h)",
+  "description": "The PNP_BUS_INFORMATION structure describes a bus.",
+  "old-location": "kernel\\pnp_bus_information.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PNP_BUS_INFORMATION structure"
+  ],
+  "ms.keywords": "*PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION, PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], PPNP_BUS_INFORMATION, PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PNP_BUS_INFORMATION, kernel.pnp_bus_information, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, wdm/PNP_BUS_INFORMATION, wdm/PPNP_BUS_INFORMATION",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION",
+  "f1_keywords": [
+    "_PNP_BUS_INFORMATION",
+    "wdm/_PNP_BUS_INFORMATION",
+    "PPNP_BUS_INFORMATION",
+    "wdm/PPNP_BUS_INFORMATION",
+    "PNP_BUS_INFORMATION",
+    "wdm/PNP_BUS_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_PNP_BUS_INFORMATION",
+    "PPNP_BUS_INFORMATION",
+    "PNP_BUS_INFORMATION"
+  ]
+}

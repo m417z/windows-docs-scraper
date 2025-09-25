@@ -1,0 +1,67 @@
+{
+  "UID": "NF:dbghelp.SymGetLineFromAddr64",
+  "title": "SymGetLineFromAddr64 function (dbghelp.h)",
+  "description": "Locates the source line for the specified address. (SymGetLineFromAddr64)",
+  "helpviewer_keywords": [
+    "SymGetLineFromAddr",
+    "SymGetLineFromAddr function",
+    "SymGetLineFromAddr64",
+    "SymGetLineFromAddr64 function",
+    "SymGetLineFromAddrW64",
+    "_win32_symgetlinefromaddr64",
+    "base.symgetlinefromaddr64",
+    "dbghelp/SymGetLineFromAddr",
+    "dbghelp/SymGetLineFromAddr64",
+    "dbghelp/SymGetLineFromAddrW64"
+  ],
+  "old-location": "base\\symgetlinefromaddr64.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "a1dad8e0-cd85-41f7-b0e3-e359be94c0ac",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SymGetLineFromAddr, SymGetLineFromAddr function, SymGetLineFromAddr64, SymGetLineFromAddr64 function, SymGetLineFromAddrW64, _win32_symgetlinefromaddr64, base.symgetlinefromaddr64, dbghelp/SymGetLineFromAddr, dbghelp/SymGetLineFromAddr64, dbghelp/SymGetLineFromAddrW64",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SymGetLineFromAddrW64 (Unicode) and SymGetLineFromAddr64 (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dbghelp.lib",
+  "req.dll": "Dbghelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 5.1 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SymGetLineFromAddr64",
+    "dbghelp/SymGetLineFromAddr64"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dbghelp.dll",
+    "imagehlp.dll"
+  ],
+  "api_name": [
+    "SymGetLineFromAddr64",
+    "SymGetLineFromAddr64",
+    "SymGetLineFromAddrW64",
+    "SymGetLineFromAddr"
+  ]
+}

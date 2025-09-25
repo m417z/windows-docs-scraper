@@ -1,0 +1,3 @@
+HRESULT KsSetPipe(
+  IKsAllocatorEx *KsAllocator
+);

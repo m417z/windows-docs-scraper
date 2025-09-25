@@ -1,0 +1,64 @@
+{
+  "UID": "NF:strmif.IAMDevMemoryControl.WriteSync",
+  "title": "IAMDevMemoryControl::WriteSync (strmif.h)",
+  "description": "Note  The IAMDevMemoryControl interface is deprecated. Used to synchronize with the completed write. This method returns when any data being written to the particular allocator region is fully written into the memory.",
+  "helpviewer_keywords": [
+    "IAMDevMemoryControl interface [DirectShow]",
+    "WriteSync method",
+    "IAMDevMemoryControl.WriteSync",
+    "IAMDevMemoryControl::WriteSync",
+    "IAMDevMemoryControlWriteSync",
+    "WriteSync",
+    "WriteSync method [DirectShow]",
+    "WriteSync method [DirectShow]",
+    "IAMDevMemoryControl interface",
+    "dshow.iamdevmemorycontrol_writesync",
+    "strmif/IAMDevMemoryControl::WriteSync"
+  ],
+  "old-location": "dshow\\iamdevmemorycontrol_writesync.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IAMDevMemoryControl interface [DirectShow],WriteSync method, IAMDevMemoryControl.WriteSync, IAMDevMemoryControl::WriteSync, IAMDevMemoryControlWriteSync, WriteSync, WriteSync method [DirectShow], WriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_writesync, strmif/IAMDevMemoryControl::WriteSync",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMDevMemoryControl::WriteSync",
+    "strmif/IAMDevMemoryControl::WriteSync"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmif.h"
+  ],
+  "api_name": [
+    "IAMDevMemoryControl.WriteSync"
+  ]
+}

@@ -1,0 +1,3 @@
+DWORD ICQueryConfigure(
+     hic
+);

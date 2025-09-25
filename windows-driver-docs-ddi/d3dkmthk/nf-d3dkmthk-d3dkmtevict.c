@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTEvict(
+  D3DKMT_EVICT *unnamedParam1
+);

@@ -1,0 +1,4 @@
+XMVECTOR XM_CALLCONV XMVector3Cross(
+  [in] FXMVECTOR V1,
+  [in] FXMVECTOR V2
+) noexcept;

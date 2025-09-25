@@ -1,0 +1,3 @@
+void Free(
+  LPWSTR wszUnparsedPath
+);

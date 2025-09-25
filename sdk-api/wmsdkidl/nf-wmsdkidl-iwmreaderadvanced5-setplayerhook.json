@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAdvanced5.SetPlayerHook",
+  "title": "IWMReaderAdvanced5::SetPlayerHook (wmsdkidl.h)",
+  "description": "The SetPlayerHook method assigns a player-hook callback to the reader. The reader calls the callback method before sending each sample to the graphics processor for decompression.",
+  "helpviewer_keywords": [
+    "IWMReaderAdvanced5 interface [windows Media Format]",
+    "SetPlayerHook method",
+    "IWMReaderAdvanced5.SetPlayerHook",
+    "IWMReaderAdvanced5::SetPlayerHook",
+    "IWMReaderAdvanced5SetPlayerHook",
+    "SetPlayerHook",
+    "SetPlayerHook method [windows Media Format]",
+    "SetPlayerHook method [windows Media Format]",
+    "IWMReaderAdvanced5 interface",
+    "wmformat.iwmreaderadvanced5_setplayerhook",
+    "wmsdkidl/IWMReaderAdvanced5::SetPlayerHook"
+  ],
+  "old-location": "wmformat\\iwmreaderadvanced5_setplayerhook.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "499c6c31-8cdf-4b99-964a-1fd51c14c5bd",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook method, IWMReaderAdvanced5.SetPlayerHook, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format],IWMReaderAdvanced5 interface, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK with update number 888656 installed, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAdvanced5::SetPlayerHook",
+    "wmsdkidl/IWMReaderAdvanced5::SetPlayerHook"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderAdvanced5.SetPlayerHook"
+  ]
+}

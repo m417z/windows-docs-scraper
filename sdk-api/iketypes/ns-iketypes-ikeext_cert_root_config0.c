@@ -1,0 +1,4 @@
+typedef struct IKEEXT_CERT_ROOT_CONFIG0_ {
+  FWP_BYTE_BLOB certData;
+  UINT32        flags;
+} IKEEXT_CERT_ROOT_CONFIG0;

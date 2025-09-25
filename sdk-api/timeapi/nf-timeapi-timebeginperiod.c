@@ -1,0 +1,3 @@
+MMRESULT timeBeginPeriod(
+  UINT uPeriod
+);

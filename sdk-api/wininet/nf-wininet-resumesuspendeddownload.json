@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wininet.ResumeSuspendedDownload",
+  "title": "ResumeSuspendedDownload function (wininet.h)",
+  "description": "The ResumeSuspendedDownload function resumes a request that is suspended by a user interface dialog box.",
+  "helpviewer_keywords": [
+    "ResumeSuspendedDownload",
+    "ResumeSuspendedDownload function [WinINet]",
+    "wininet.resumesuspendeddownload",
+    "wininet/ResumeSuspendedDownload"
+  ],
+  "old-location": "wininet\\resumesuspendeddownload.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "72b5511a-872d-4058-9f38-9b1bdf6784c3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ResumeSuspendedDownload, ResumeSuspendedDownload function [WinINet], wininet.resumesuspendeddownload, wininet/ResumeSuspendedDownload",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wininet.lib",
+  "req.dll": "Wininet.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResumeSuspendedDownload",
+    "wininet/ResumeSuspendedDownload"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wininet.dll"
+  ],
+  "api_name": [
+    "ResumeSuspendedDownload"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "UID": "NS:directml.DML_TOP_K_OPERATOR_DESC",
+  "title": "DML_TOP_K_OPERATOR_DESC",
+  "description": "Selects the largest *K* elements from each sequence along an axis of the *InputTensor*, and returns the values and indices of those elements in the *OutputValueTensor* and *OutputIndexTensor*, respectively.",
+  "helpviewer_keywords": [
+    "DML_TOP_K_OPERATOR_DESC",
+    "DML_TOP_K_OPERATOR_DESC structure",
+    "direct3d12.dml_top_k_operator_desc",
+    "directml/DML_TOP_K_OPERATOR_DESC"
+  ],
+  "old-location": "direct3d12\\dml_top_k_operator_desc.htm",
+  "tech.root": "directml",
+  "ms.assetid": "BB0FD5F7-BCD8-42E0-A037-4411AFF386C2",
+  "ms.date": "01/19/2022",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DML_TOP_K_OPERATOR_DESC",
+    "directml/DML_TOP_K_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_TOP_K_OPERATOR_DESC"
+  ]
+}

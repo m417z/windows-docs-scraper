@@ -1,0 +1,62 @@
+{
+  "UID": "NF:tapi.tapiGetLocationInfoW",
+  "title": "tapiGetLocationInfoW function (tapi.h)",
+  "description": "The tapiGetLocationInfoW (Unicode) function (tapi.h) returns the country, region, and city code that the user has set in the location parameters in the Telephony Control Panel.",
+  "helpviewer_keywords": [
+    "_tapi2_tapigetlocationinfo",
+    "tapi/tapiGetLocationInfo",
+    "tapi/tapiGetLocationInfoW",
+    "tapi2.tapigetlocationinfo",
+    "tapiGetLocationInfo",
+    "tapiGetLocationInfo function [TAPI 2.2]",
+    "tapiGetLocationInfoW"
+  ],
+  "old-location": "tapi2\\tapigetlocationinfo.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c",
+  "ms.date": "08/09/2022",
+  "ms.keywords": "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "tapiGetLocationInfoW (Unicode) and tapiGetLocationInfoA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tapiGetLocationInfoW",
+    "tapi/tapiGetLocationInfoW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "tapiGetLocationInfo",
+    "tapiGetLocationInfoA",
+    "tapiGetLocationInfoW"
+  ]
+}

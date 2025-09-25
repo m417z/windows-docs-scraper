@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ndis.NdisDeleteNPagedLookasideList",
+  "title": "NdisDeleteNPagedLookasideList macro (ndis.h)",
+  "description": "The NdisDeleteNPagedLookasideList function removes a nonpaged lookaside list from the system.",
+  "old-location": "netvista\\ndisdeletenpagedlookasidelist.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisDeleteNPagedLookasideList macro"
+  ],
+  "ms.keywords": "NdisDeleteNPagedLookasideList, NdisDeleteNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisDeleteNPagedLookasideList, ndis_lookaside_ref_37df3d7d-0aa7-4d8e-b6a5-38ab85ca929e.xml, netvista.ndisdeletenpagedlookasidelist",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisDeleteNPagedLookasideList (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisDeleteNPagedLookasideList (NDIS 5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Miscellaneous_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisDeleteNPagedLookasideList",
+    "ndis/NdisDeleteNPagedLookasideList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisDeleteNPagedLookasideList"
+  ]
+}

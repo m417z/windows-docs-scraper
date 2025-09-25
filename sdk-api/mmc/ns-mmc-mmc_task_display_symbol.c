@@ -1,0 +1,5 @@
+typedef struct _MMC_TASK_DISPLAY_SYMBOL {
+  LPOLESTR szFontFamilyName;
+  LPOLESTR szURLtoEOT;
+  LPOLESTR szSymbolString;
+} MMC_TASK_DISPLAY_SYMBOL;

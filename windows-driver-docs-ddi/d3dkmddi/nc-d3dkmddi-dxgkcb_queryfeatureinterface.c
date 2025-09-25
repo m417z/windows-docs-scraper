@@ -1,0 +1,7 @@
+DXGKCB_QUERYFEATUREINTERFACE DxgkcbQueryfeatureinterface;
+
+NTSTATUS DxgkcbQueryfeatureinterface(
+  IN_CONST_HANDLE hAdapter,
+  INOUT_PDXGKARGCB_QUERYFEATUREINTERFACE pArgs
+)
+{...}

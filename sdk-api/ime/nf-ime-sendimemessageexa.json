@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ime.SendIMEMessageExA",
+  "title": "SendIMEMessageExA function (ime.h)",
+  "description": "Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction. (ANSI)",
+  "helpviewer_keywords": [
+    "SendIMEMessageExA",
+    "ime/SendIMEMessageExA"
+  ],
+  "old-location": "winprog\\_win32_sendimemessageex.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\lowlevelclientsupport\\misc\\sendimemessageex.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex",
+  "req.header": "ime.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SendIMEMessageExW (Unicode) and SendIMEMessageExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SendIMEMessageExA",
+    "ime/SendIMEMessageExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "SendIMEMessageEx",
+    "SendIMEMessageExA",
+    "SendIMEMessageExW"
+  ]
+}

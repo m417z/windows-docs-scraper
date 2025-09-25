@@ -1,0 +1,4 @@
+typedef struct tagCHARACTER_RANGE {
+  WCHAR  wcLow;
+  USHORT cChars;
+} CHARACTER_RANGE, *PCHARACTER_RANGE;

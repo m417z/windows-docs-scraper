@@ -1,0 +1,8 @@
+typedef struct _MI_DeserializerFT {
+  MI_Result()(MI_Deserializer *deserializer) * Close;
+  MI_Result(ializer *deserializer,MI_Uint32 flags,MI_Uint8 *serializedBuffer,MI_Uint32 serializedBufferLength,MI_Class *parentClass, const MI_Char *serverName, const MI_Char *namespaceName,MI_Deserializer_ClassObjectNeeded classObjectNeeded, void *classObjectNeededContext,MI_Uint32 *serializedBufferRead,MI_Class **classObject,MI_Instance **cimErrorDetails) * )(MI_DeserDeserializeClass;
+  MI_Result(Deserializer *deserializer,MI_Uint8 *serializedBuffer,MI_Uint32 serializedBufferLength,MI_Char *className,MI_Uint32 *classNameLength,MI_Instance **cimErrorDetails) * )(MI_Class_GetClassName;
+  MI_Result(Deserializer *deserializer,MI_Uint8 *serializedBuffer,MI_Uint32 serializedBufferLength,MI_Char *parentClassName,MI_Uint32 *parentClassNameLength,MI_Instance **cimErrorDetails) * )(MI_Class_GetParentClassName;
+  MI_Result(rializer *deserializer,MI_Uint32 flags,MI_Uint8 *serializedBuffer,MI_Uint32 serializedBufferLength,MI_Class **classObjects,MI_Uint32 numberClassObjects,MI_Deserializer_ClassObjectNeeded classObjectNeeded, void *classObjectNeededContext,MI_Uint32 *serializedBufferRead,MI_Instance **instanceObject,MI_Instance **cimErrorDetails) * )(MI_DeseDeserializeInstance;
+  MI_Result(Deserializer *deserializer,MI_Uint8 *serializedBuffer,MI_Uint32 serializedBufferLength,MI_Char *className,MI_Uint32 *classNameLength,MI_Instance **cimErrorDetails) * )(MI_Instance_GetClassName;
+} MI_DeserializerFT;

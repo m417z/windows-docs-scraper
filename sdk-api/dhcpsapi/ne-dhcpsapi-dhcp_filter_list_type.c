@@ -1,0 +1,4 @@
+typedef enum _DHCP_FILTER_LIST_TYPE {
+  Deny,
+  Allow
+} DHCP_FILTER_LIST_TYPE, *LPDHCP_FILTER_LIST_TYPE;

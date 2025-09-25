@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mmstream.IStreamSample.SetSampleTimes",
+  "title": "IStreamSample::SetSampleTimes (mmstream.h)",
+  "description": "Note  This interface is deprecated. New applications should not use it. Sets the current sample's start and end times. You can call this method prior to updating the sample.",
+  "helpviewer_keywords": [
+    "IStreamSample interface [DirectShow]",
+    "SetSampleTimes method",
+    "IStreamSample.SetSampleTimes",
+    "IStreamSample::SetSampleTimes",
+    "IStreamSampleSetSampleTimes",
+    "SetSampleTimes",
+    "SetSampleTimes method [DirectShow]",
+    "SetSampleTimes method [DirectShow]",
+    "IStreamSample interface",
+    "dshow.istreamsample_setsampletimes",
+    "mmstream/IStreamSample::SetSampleTimes"
+  ],
+  "old-location": "dshow\\istreamsample_setsampletimes.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "c8d21ea2-0104-44e1-9f5b-5c0c23593e43",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IStreamSample interface [DirectShow],SetSampleTimes method, IStreamSample.SetSampleTimes, IStreamSample::SetSampleTimes, IStreamSampleSetSampleTimes, SetSampleTimes, SetSampleTimes method [DirectShow], SetSampleTimes method [DirectShow],IStreamSample interface, dshow.istreamsample_setsampletimes, mmstream/IStreamSample::SetSampleTimes",
+  "req.header": "mmstream.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IStreamSample::SetSampleTimes",
+    "mmstream/IStreamSample::SetSampleTimes"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mmstream.h"
+  ],
+  "api_name": [
+    "IStreamSample.SetSampleTimes"
+  ]
+}

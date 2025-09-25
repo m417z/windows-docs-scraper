@@ -1,0 +1,1 @@
+DWRITE_READING_DIRECTION GetParagraphReadingDirection();

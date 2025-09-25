@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.KDEFERRED_ROUTINE",
+  "title": "KDEFERRED_ROUTINE (wdm.h)",
+  "description": "The callback routine performs actions, after an InterruptService returns, of a threaded DPC, The CustomDpc routine finishes the servicing of an I/O operation, after an InterruptService routine returns.The CustomThreadedDpc routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.The CustomTimerDpc routine executes after a timer object's time interval expires.",
+  "tech.root": "kernel",
+  "ms.date": "01/11/2023",
+  "keywords": [
+    "KDEFERRED_ROUTINE callback function"
+  ],
+  "ms.keywords": "CustomDpc, CustomThreadedDpc, CustomTimerDpc, DrvrRtns_977bffb4-a7ff-4b2b-80c6-181d00462d69.xml, KDEFERRED_ROUTINE, MyDpc, MyDpc routine [Kernel-Mode Driver Architecture], kernel.customdpc, wdm/MyDpc",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at DISPATCH_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KDEFERRED_ROUTINE",
+    "wdm/KDEFERRED_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "KDEFERRED_ROUTINE"
+  ]
+}

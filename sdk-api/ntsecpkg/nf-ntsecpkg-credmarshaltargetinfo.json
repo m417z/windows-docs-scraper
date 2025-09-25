@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ntsecpkg.CredMarshalTargetInfo",
+  "title": "CredMarshalTargetInfo function (ntsecpkg.h)",
+  "description": "Serializes the specified target into an array of byte values.",
+  "helpviewer_keywords": [
+    "CredMarshalTargetInfo",
+    "CredMarshalTargetInfo function [Security]",
+    "ntsecpkg/CredMarshalTargetInfo",
+    "security.credmarshaltargetinfo"
+  ],
+  "old-location": "security\\credmarshaltargetinfo.htm",
+  "tech.root": "security",
+  "ms.assetid": "1e50a135-e8b3-4aa6-a3b0-f4b1490310e5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CredMarshalTargetInfo, CredMarshalTargetInfo function [Security], ntsecpkg/CredMarshalTargetInfo, security.credmarshaltargetinfo",
+  "req.header": "ntsecpkg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CredMarshalTargetInfo",
+    "ntsecpkg/CredMarshalTargetInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "CredMarshalTargetInfo"
+  ]
+}

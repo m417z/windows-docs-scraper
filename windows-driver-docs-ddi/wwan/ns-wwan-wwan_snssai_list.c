@@ -1,0 +1,4 @@
+typedef struct _WWAN_SNSSAI_LIST {
+  UINT32            ElementCount;
+  WWAN_SINGLE_NSSAI Snssais[ANYSIZE_ARRAY];
+} WWAN_SNSSAI_LIST, *PWWAN_SNSSAI_LIST;

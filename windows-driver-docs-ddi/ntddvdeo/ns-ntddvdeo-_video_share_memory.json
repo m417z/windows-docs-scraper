@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddvdeo._VIDEO_SHARE_MEMORY",
+  "title": "_VIDEO_SHARE_MEMORY (ntddvdeo.h)",
+  "description": "The VIDEO_SHARE_MEMORY structure is used in a request to the video miniport driver for a block of user-mode memory to be shared with the specified process.",
+  "old-location": "display\\video_share_memory.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VIDEO_SHARE_MEMORY structure"
+  ],
+  "ms.keywords": "*PVIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY structure pointer [Display Devices], VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY structure [Display Devices], Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, _VIDEO_SHARE_MEMORY, display.video_share_memory, ntddvdeo/PVIDEO_SHARE_MEMORY, ntddvdeo/VIDEO_SHARE_MEMORY",
+  "req.header": "ntddvdeo.h",
+  "req.include-header": "Ntddvdeo.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VIDEO_SHARE_MEMORY, *PVIDEO_SHARE_MEMORY",
+  "f1_keywords": [
+    "_VIDEO_SHARE_MEMORY",
+    "ntddvdeo/_VIDEO_SHARE_MEMORY",
+    "PVIDEO_SHARE_MEMORY",
+    "ntddvdeo/PVIDEO_SHARE_MEMORY",
+    "VIDEO_SHARE_MEMORY",
+    "ntddvdeo/VIDEO_SHARE_MEMORY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddvdeo.h"
+  ],
+  "api_name": [
+    "_VIDEO_SHARE_MEMORY",
+    "PVIDEO_SHARE_MEMORY",
+    "VIDEO_SHARE_MEMORY"
+  ]
+}

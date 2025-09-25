@@ -1,0 +1,59 @@
+{
+  "UID": "NF:cryptxml.CryptXmlOpenToEncode",
+  "title": "CryptXmlOpenToEncode function (cryptxml.h)",
+  "description": "Opens an XML digital signature to encode and returns a handle of the opened Signature element. The handle encapsulates a document context with a single CRYPT_XML_SIGNATURE structure and remains open until the CryptXmlClose function is called.",
+  "helpviewer_keywords": [
+    "CRYPT_XML_FLAG_DISABLE_EXTENSIONS",
+    "CRYPT_XML_FLAG_NO_SERIALIZE",
+    "CryptXmlOpenToEncode",
+    "CryptXmlOpenToEncode function [Security]",
+    "cryptxml/CryptXmlOpenToEncode",
+    "security.cryptxmlopentoencode"
+  ],
+  "old-location": "security\\cryptxmlopentoencode.htm",
+  "tech.root": "security",
+  "ms.assetid": "a313d14c-03fc-4719-bacd-c7b3e5ce2dba",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToEncode, CryptXmlOpenToEncode function [Security], cryptxml/CryptXmlOpenToEncode, security.cryptxmlopentoencode",
+  "req.header": "cryptxml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cryptxml.lib",
+  "req.dll": "Cryptxml.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptXmlOpenToEncode",
+    "cryptxml/CryptXmlOpenToEncode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Cryptxml.dll"
+  ],
+  "api_name": [
+    "CryptXmlOpenToEncode"
+  ]
+}

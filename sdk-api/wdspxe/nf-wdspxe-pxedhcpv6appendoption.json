@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wdspxe.PxeDhcpv6AppendOption",
+  "title": "PxeDhcpv6AppendOption function (wdspxe.h)",
+  "description": "Appends a DHCPv6 option to the reply packet. (PxeDhcpv6AppendOption)",
+  "helpviewer_keywords": [
+    "PxeDhcpv6AppendOption",
+    "PxeDhcpv6AppendOption function [Windows Deployment Services]",
+    "wds.pxedhcpv6appendoption",
+    "wdspxe/PxeDhcpv6AppendOption"
+  ],
+  "old-location": "wds\\pxedhcpv6appendoption.htm",
+  "tech.root": "wds",
+  "ms.assetid": "92A35846-360B-42D3-935B-6FC10AF687A5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PxeDhcpv6AppendOption, PxeDhcpv6AppendOption function [Windows Deployment Services], wds.pxedhcpv6appendoption, wdspxe/PxeDhcpv6AppendOption",
+  "req.header": "wdspxe.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WdsPxe.lib",
+  "req.dll": "WdsPxe.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PxeDhcpv6AppendOption",
+    "wdspxe/PxeDhcpv6AppendOption"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WdsPxe.dll"
+  ],
+  "api_name": [
+    "PxeDhcpv6AppendOption"
+  ]
+}

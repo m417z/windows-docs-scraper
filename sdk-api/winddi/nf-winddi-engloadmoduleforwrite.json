@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngLoadModuleForWrite",
+  "title": "EngLoadModuleForWrite function (winddi.h)",
+  "description": "The EngLoadModuleForWrite function loads the specified executable module into system memory for writing.",
+  "helpviewer_keywords": [
+    "EngLoadModuleForWrite",
+    "EngLoadModuleForWrite function [Display Devices]",
+    "display.engloadmoduleforwrite",
+    "gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml",
+    "winddi/EngLoadModuleForWrite"
+  ],
+  "old-location": "display\\engloadmoduleforwrite.htm",
+  "tech.root": "display",
+  "ms.assetid": "e5509142-624e-4c57-93b0-2579c6fb7089",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngLoadModuleForWrite, EngLoadModuleForWrite function [Display Devices], display.engloadmoduleforwrite, gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml, winddi/EngLoadModuleForWrite",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngLoadModuleForWrite",
+    "winddi/EngLoadModuleForWrite"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngLoadModuleForWrite"
+  ]
+}

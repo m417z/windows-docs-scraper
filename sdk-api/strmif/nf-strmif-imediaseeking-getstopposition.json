@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMediaSeeking.GetStopPosition",
+  "title": "IMediaSeeking::GetStopPosition (strmif.h)",
+  "description": "The GetStopPosition method retrieves the time at which the playback will stop, relative to the duration of the stream.",
+  "helpviewer_keywords": [
+    "GetStopPosition",
+    "GetStopPosition method [DirectShow]",
+    "GetStopPosition method [DirectShow]",
+    "IMediaSeeking interface",
+    "IMediaSeeking interface [DirectShow]",
+    "GetStopPosition method",
+    "IMediaSeeking.GetStopPosition",
+    "IMediaSeeking::GetStopPosition",
+    "IMediaSeekingGetStopPosition",
+    "dshow.imediaseeking_getstopposition",
+    "strmif/IMediaSeeking::GetStopPosition"
+  ],
+  "old-location": "dshow\\imediaseeking_getstopposition.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "7205ea09-65c1-4cd5-b76d-55977b0fbab9",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetStopPosition, GetStopPosition method [DirectShow], GetStopPosition method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetStopPosition method, IMediaSeeking.GetStopPosition, IMediaSeeking::GetStopPosition, IMediaSeekingGetStopPosition, dshow.imediaseeking_getstopposition, strmif/IMediaSeeking::GetStopPosition",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaSeeking::GetStopPosition",
+    "strmif/IMediaSeeking::GetStopPosition"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaSeeking.GetStopPosition"
+  ]
+}

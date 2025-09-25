@@ -1,0 +1,3 @@
+HRESULT DdqCloseSession(
+  HDIAGNOSTIC_DATA_QUERY_SESSION hSession
+);

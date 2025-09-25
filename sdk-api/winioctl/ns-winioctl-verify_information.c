@@ -1,0 +1,4 @@
+typedef struct _VERIFY_INFORMATION {
+  LARGE_INTEGER StartingOffset;
+  DWORD         Length;
+} VERIFY_INFORMATION, *PVERIFY_INFORMATION;

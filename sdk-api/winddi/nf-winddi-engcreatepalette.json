@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngCreatePalette",
+  "title": "EngCreatePalette function (winddi.h)",
+  "description": "The EngCreatePalette function sends a request to GDI to create an RGB palette.",
+  "helpviewer_keywords": [
+    "EngCreatePalette",
+    "EngCreatePalette function [Display Devices]",
+    "display.engcreatepalette",
+    "gdifncs_53382d1c-5765-48ee-904b-52dc46338d38.xml",
+    "winddi/EngCreatePalette"
+  ],
+  "old-location": "display\\engcreatepalette.htm",
+  "tech.root": "display",
+  "ms.assetid": "99b27e11-5a5f-4fa7-9cd0-422d24425fa1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngCreatePalette, EngCreatePalette function [Display Devices], display.engcreatepalette, gdifncs_53382d1c-5765-48ee-904b-52dc46338d38.xml, winddi/EngCreatePalette",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngCreatePalette",
+    "winddi/EngCreatePalette"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngCreatePalette"
+  ]
+}

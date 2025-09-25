@@ -1,0 +1,50 @@
+{
+  "UID": "NF:fltkernel.FltAcquirePushLockSharedEx",
+  "title": "FltAcquirePushLockSharedEx function (fltkernel.h)",
+  "description": "The FltAcquirePushLockSharedEx routine acquires the given push lock for shared access by the calling thread.",
+  "ms.date": "08/11/2022",
+  "tech.root": "ifsk",
+  "keywords": [
+    "FltAcquirePushLockSharedEx function"
+  ],
+  "ms.keywords": "FltAcquirePushLockSharedEx",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FltAcquirePushLockSharedEx",
+    "fltkernel/FltAcquirePushLockSharedEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltMgr.lib",
+    "FltMgr.sys"
+  ],
+  "api_name": [
+    "FltAcquirePushLockSharedEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

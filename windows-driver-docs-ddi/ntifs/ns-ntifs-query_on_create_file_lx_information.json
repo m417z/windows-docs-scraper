@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntifs._QUERY_ON_CREATE_FILE_LX_INFORMATION",
+  "tech.root": "ifsk",
+  "title": "QUERY_ON_CREATE_FILE_LX_INFORMATION",
+  "ms.date": "03/11/2021",
+  "targetos": "Windows",
+  "description": "The QUERY_ON_CREATE_FILE_LX_INFORMATION structure is used to write a file's Linux metadata extended attributes when FltRequestFileInfoOnCreateCompletion is called with the QoCFileLxInformation flag set in the InfoClassFlags parameter.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "QUERY_ON_CREATE_FILE_LX_INFORMATION, *PQUERY_ON_CREATE_FILE_LX_INFORMATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_QUERY_ON_CREATE_FILE_LX_INFORMATION",
+    "PQUERY_ON_CREATE_FILE_LX_INFORMATION",
+    "QUERY_ON_CREATE_FILE_LX_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_QUERY_ON_CREATE_FILE_LX_INFORMATION",
+    "ntifs/_QUERY_ON_CREATE_FILE_LX_INFORMATION",
+    "PQUERY_ON_CREATE_FILE_LX_INFORMATION",
+    "ntifs/PQUERY_ON_CREATE_FILE_LX_INFORMATION",
+    "QUERY_ON_CREATE_FILE_LX_INFORMATION",
+    "ntifs/QUERY_ON_CREATE_FILE_LX_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef enum enumLINE_METRICS {
+  LM_BASELINE = 0,
+  LM_MIDLINE = 1,
+  LM_ASCENDER = 2,
+  LM_DESCENDER = 3
+} LINE_METRICS;

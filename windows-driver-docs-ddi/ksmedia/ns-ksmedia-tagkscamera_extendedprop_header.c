@@ -1,0 +1,8 @@
+typedef struct tagKSCAMERA_EXTENDEDPROP_HEADER {
+  ULONG     Version;
+  ULONG     PinId;
+  ULONG     Size;
+  ULONG     Result;
+  ULONGLONG Flags;
+  ULONGLONG Capability;
+} KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER;

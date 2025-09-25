@@ -1,0 +1,48 @@
+{
+  "UID": "NE:wdm.DMA_COMPLETION_STATUS",
+  "title": "DMA_COMPLETION_STATUS (wdm.h)",
+  "description": "The DMA_COMPLETION_STATUS enumeration describes the completion status of a DMA transfer.",
+  "old-location": "kernel\\dma_completion_status.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "DMA_COMPLETION_STATUS enumeration"
+  ],
+  "ms.keywords": "DMA_COMPLETION_STATUS, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], DmaAborted, DmaCancelled, DmaComplete, DmaError, kernel.dma_completion_status, wdm/DMA_COMPLETION_STATUS, wdm/DmaAborted, wdm/DmaCancelled, wdm/DmaComplete, wdm/DmaError",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with  Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DMA_COMPLETION_STATUS",
+  "f1_keywords": [
+    "DMA_COMPLETION_STATUS",
+    "wdm/DMA_COMPLETION_STATUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "DMA_COMPLETION_STATUS"
+  ]
+}

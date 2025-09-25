@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vsbackup.IVssWMComponent.GetDatabaseFile",
+  "title": "IVssWMComponent::GetDatabaseFile (vsbackup.h)",
+  "description": "The GetDatabaseFile method obtains an IVssWMFiledesc object containing information about the specified database backup component file.",
+  "helpviewer_keywords": [
+    "GetDatabaseFile",
+    "GetDatabaseFile method [VSS]",
+    "GetDatabaseFile method [VSS]",
+    "IVssWMComponent interface",
+    "IVssWMComponent interface [VSS]",
+    "GetDatabaseFile method",
+    "IVssWMComponent.GetDatabaseFile",
+    "IVssWMComponent::GetDatabaseFile",
+    "_win32_ivsswmcomponent_getdatabasefile",
+    "base.ivsswmcomponent_getdatabasefile",
+    "vsbackup/IVssWMComponent::GetDatabaseFile"
+  ],
+  "old-location": "base\\ivsswmcomponent_getdatabasefile.htm",
+  "tech.root": "base",
+  "ms.assetid": "adb2d6f7-592c-403d-92c0-6b99e2180a6b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetDatabaseFile, GetDatabaseFile method [VSS], GetDatabaseFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseFile method, IVssWMComponent.GetDatabaseFile, IVssWMComponent::GetDatabaseFile, _win32_ivsswmcomponent_getdatabasefile, base.ivsswmcomponent_getdatabasefile, vsbackup/IVssWMComponent::GetDatabaseFile",
+  "req.header": "vsbackup.h",
+  "req.include-header": "VsBackup.h, Vss.h, VsWriter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VssApi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVssWMComponent::GetDatabaseFile",
+    "vsbackup/IVssWMComponent::GetDatabaseFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VssApi.lib",
+    "VssApi.dll"
+  ],
+  "api_name": [
+    "IVssWMComponent.GetDatabaseFile"
+  ]
+}

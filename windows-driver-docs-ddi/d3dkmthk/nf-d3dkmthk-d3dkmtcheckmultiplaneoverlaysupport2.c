@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCheckMultiPlaneOverlaySupport2(
+  D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 *unnamedParam1
+);

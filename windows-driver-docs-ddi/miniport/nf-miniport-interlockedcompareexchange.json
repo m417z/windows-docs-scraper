@@ -1,0 +1,53 @@
+{
+  "UID": "NF:miniport.InterlockedCompareExchange",
+  "title": "InterlockedCompareExchange function (miniport.h)",
+  "description": "The InterlockedCompareExchange routine performs an atomic operation that compares the input value pointed to by Destination with the value of Comparand.",
+  "old-location": "kernel\\interlockedcompareexchange.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "InterlockedCompareExchange function"
+  ],
+  "ms.keywords": "InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OneCoreUAP.lib on Windows 10",
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "InterlockedCompareExchange",
+    "miniport/InterlockedCompareExchange"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "OneCoreUAP.lib",
+    "OneCoreUAP.dll",
+    "API-MS-Win-Core-Interlocked-l1-1-0.dll",
+    "API-MS-Win-Core-Interlocked-l1-2-0.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "InterlockedCompareExchange"
+  ]
+}

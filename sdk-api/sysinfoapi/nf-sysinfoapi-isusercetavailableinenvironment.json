@@ -1,0 +1,45 @@
+{
+  "UID": "NF:sysinfoapi.IsUserCetAvailableInEnvironment",
+  "title": "IsUserCetAvailableInEnvironment",
+  "ms.date": "4/28/2020",
+  "targetos": "Windows",
+  "description": "Queries whether user-mode Hardware-enforced Stack Protection is available for the specified environment.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "sysinfoapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": null,
+  "api_location": [
+    "api-ms-win-core-sysinfo-l1-2-7.dll",
+    "api-ms-win-core-sysinfo-l1-2-6.dll",
+    "sysinfoapi.h"
+  ],
+  "api_name": [
+    "IsUserCetAvailableInEnvironment"
+  ],
+  "f1_keywords": [
+    "IsUserCetAvailableInEnvironment",
+    "sysinfoapi/IsUserCetAvailableInEnvironment"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

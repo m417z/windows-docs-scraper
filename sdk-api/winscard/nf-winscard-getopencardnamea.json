@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winscard.GetOpenCardNameA",
+  "title": "GetOpenCardNameA function (winscard.h)",
+  "description": "The GetOpenCardName function displays the smart card &quot;select card&quot; dialog box. (ANSI)",
+  "helpviewer_keywords": [
+    "GetOpenCardNameA",
+    "winscard/GetOpenCardNameA"
+  ],
+  "old-location": "security\\getopencardname.htm",
+  "tech.root": "security",
+  "ms.assetid": "b103cec0-dd28-4f90-864b-5f66d044ec55",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetOpenCardName, GetOpenCardName function [Security], GetOpenCardNameA, GetOpenCardNameW, _smart_getopencardname, security.getopencardname, winscard/GetOpenCardName, winscard/GetOpenCardNameA, winscard/GetOpenCardNameW",
+  "req.header": "winscard.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetOpenCardNameW (Unicode) and GetOpenCardNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scarddlg.lib",
+  "req.dll": "Scarddlg.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetOpenCardNameA",
+    "winscard/GetOpenCardNameA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Scarddlg.dll"
+  ],
+  "api_name": [
+    "GetOpenCardName",
+    "GetOpenCardNameA",
+    "GetOpenCardNameW"
+  ]
+}

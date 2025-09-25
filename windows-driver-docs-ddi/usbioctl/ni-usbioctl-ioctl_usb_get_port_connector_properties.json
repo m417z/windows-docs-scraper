@@ -1,0 +1,48 @@
+{
+  "UID": "NI:usbioctl.IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES",
+  "title": "IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES (usbioctl.h)",
+  "description": "The IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request is sent by an application to retrieve information about a specific port on a USB hub.",
+  "old-location": "buses\\ioctl_usb_get_port_connector_properties.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL"
+  ],
+  "ms.keywords": "IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES",
+  "req.header": "usbioctl.h",
+  "req.include-header": "Usbioctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES",
+    "usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Usbioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES"
+  ]
+}

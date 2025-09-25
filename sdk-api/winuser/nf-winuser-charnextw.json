@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.CharNextW",
+  "title": "CharNextW function (winuser.h)",
+  "description": "Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters. (Unicode)",
+  "helpviewer_keywords": [
+    "CharNext",
+    "CharNext function [Menus and Other Resources]",
+    "CharNextW",
+    "_win32_CharNext",
+    "_win32_charnext_cpp",
+    "menurc.charnext",
+    "winui._win32_charnext",
+    "winuser/CharNext",
+    "winuser/CharNextW"
+  ],
+  "old-location": "menurc\\charnext.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\strings\\stringreference\\stringfunctions\\charnext.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CharNext, CharNext function [Menus and Other Resources], CharNextA, CharNextW, _win32_CharNext, _win32_charnext_cpp, menurc.charnext, winui._win32_charnext, winuser/CharNext, winuser/CharNextA, winuser/CharNextW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CharNextW (Unicode) and CharNextA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CharNextW",
+    "winuser/CharNextW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "API-MS-Win-Core-String-l2-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-String-l2-1-1.dll",
+    "API-MS-Win-Core-Stringansi-l1-1-0.dll",
+    "API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll",
+    "API-MS-Win-DownLevel-user32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-user32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CharNext",
+    "CharNextA",
+    "CharNextW"
+  ]
+}

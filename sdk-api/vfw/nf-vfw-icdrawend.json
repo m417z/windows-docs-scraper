@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.ICDrawEnd",
+  "title": "ICDrawEnd macro (vfw.h)",
+  "description": "The ICDrawEnd macro notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can use this macro or explicitly call the ICM_DRAW_END message.",
+  "helpviewer_keywords": [
+    "ICDrawEnd",
+    "ICDrawEnd macro [Windows Multimedia]",
+    "_win32_ICDrawEnd",
+    "multimedia.icdrawend",
+    "vfw/ICDrawEnd"
+  ],
+  "old-location": "multimedia\\icdrawend.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "efcb1913-edaf-454c-a317-c14349805a81",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "ICDrawEnd, ICDrawEnd macro [Windows Multimedia], _win32_ICDrawEnd, multimedia.icdrawend, vfw/ICDrawEnd",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICDrawEnd",
+    "vfw/ICDrawEnd"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "ICDrawEnd"
+  ]
+}

@@ -1,0 +1,8 @@
+typedef struct _OSVERSIONINFOW {
+  ULONG dwOSVersionInfoSize;
+  ULONG dwMajorVersion;
+  ULONG dwMinorVersion;
+  ULONG dwBuildNumber;
+  ULONG dwPlatformId;
+  WCHAR szCSDVersion[128];
+} OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW;

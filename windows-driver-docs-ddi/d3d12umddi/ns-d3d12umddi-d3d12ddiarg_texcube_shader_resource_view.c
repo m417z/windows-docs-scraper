@@ -1,0 +1,7 @@
+typedef struct D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW {
+  UINT  MostDetailedMip;
+  UINT  MipLevels;
+  UINT  First2DArrayFace;
+  UINT  NumCubes;
+  FLOAT ResourceMinLODClamp;
+} D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW;

@@ -1,0 +1,3 @@
+HRESULT MFCreateASFProfile(
+  IMFASFProfile **ppIProfile
+);

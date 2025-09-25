@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.GetClassLongA",
+  "title": "GetClassLongA function (winuser.h)",
+  "description": "Retrieves the specified 32-bit (DWORD) value from the WNDCLASSEX structure associated with the specified window. (ANSI)",
+  "helpviewer_keywords": [
+    "GCL_CBCLSEXTRA",
+    "GCL_CBWNDEXTRA",
+    "GCL_HBRBACKGROUND",
+    "GCL_HCURSOR",
+    "GCL_HICON",
+    "GCL_HICONSM",
+    "GCL_HMODULE",
+    "GCL_MENUNAME",
+    "GCL_STYLE",
+    "GCL_WNDPROC",
+    "GCW_ATOM",
+    "GetClassLongA",
+    "winuser/GetClassLongA"
+  ],
+  "old-location": "winmsg\\getclasslong.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windowclasses\\windowclassreference\\windowclassfunctions\\getclasslong.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_HBRBACKGROUND, GCL_HCURSOR, GCL_HICON, GCL_HICONSM, GCL_HMODULE, GCL_MENUNAME, GCL_STYLE, GCL_WNDPROC, GCW_ATOM, GetClassLong, GetClassLong function [Windows and Messages], GetClassLongA, GetClassLongW, _win32_GetClassLong, _win32_getclasslong_cpp, winmsg.getclasslong, winui._win32_getclasslong, winuser/GetClassLong, winuser/GetClassLongA, winuser/GetClassLongW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetClassLongW (Unicode) and GetClassLongA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetClassLongA",
+    "winuser/GetClassLongA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll",
+    "ext-ms-win-ntuser-windowclass-l1-1-2.dll"
+  ],
+  "api_name": [
+    "GetClassLong",
+    "GetClassLongA",
+    "GetClassLongW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-windowclass-l1-1-1 (introduced in Windows 8.1)"
+}

@@ -1,0 +1,3 @@
+VOID SerCx2CustomTransmitTransactionCleanupComplete(
+  [in] SERCX2CUSTOMTRANSMITTRANSACTION CustomTransmitTransaction
+);

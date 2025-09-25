@@ -1,0 +1,6 @@
+typedef struct {
+  DATABLOCK_HEADER dbh;
+  DATABLOCK_HEADER DUMMYSTRUCTNAME;
+  CHAR             szDarwinID[MAX_PATH];
+  WCHAR            szwDarwinID[MAX_PATH];
+} EXP_DARWIN_LINK, *LPEXP_DARWIN_LINK;

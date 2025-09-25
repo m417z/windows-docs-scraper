@@ -1,0 +1,8 @@
+typedef struct _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION {
+  ULONG                           Flags;
+  IPSEC_OFFLOAD_V2_OPERATION      Operation;
+  IPSEC_OFFLOAD_V2_SPI_TYPE       Spi;
+  IPSEC_OFFLOAD_V2_ALGORITHM_INFO AuthenticationAlgorithm;
+  IPSEC_OFFLOAD_V2_ALGORITHM_INFO EncryptionAlgorithm;
+  ULONG                           SequenceNumberHighOrder;
+} IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION;

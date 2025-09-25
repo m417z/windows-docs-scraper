@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDevice2.GetSystemPowerAction",
+  "title": "IWDFDevice2::GetSystemPowerAction (wudfddi.h)",
+  "description": "The GetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer.",
+  "old-location": "wdf\\iwdfdevice2_getsystempoweraction.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDevice2::GetSystemPowerAction"
+  ],
+  "ms.keywords": "GetSystemPowerAction, GetSystemPowerAction method, GetSystemPowerAction method,IWDFDevice2 interface, IWDFDevice2 interface,GetSystemPowerAction method, IWDFDevice2.GetSystemPowerAction, IWDFDevice2::GetSystemPowerAction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, umdf.iwdfdevice2_getsystempoweraction, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.9,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDevice2::GetSystemPowerAction",
+    "wudfddi/IWDFDevice2::GetSystemPowerAction"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDevice2::GetSystemPowerAction"
+  ]
+}

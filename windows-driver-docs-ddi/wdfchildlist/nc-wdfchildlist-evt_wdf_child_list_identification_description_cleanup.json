@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfchildlist.EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP",
+  "title": "EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP (wdfchildlist.h)",
+  "description": "A driver's EvtChildListIdentificationDescriptionCleanup event callback function frees any memory allocations for an identification description that the driver's EvtChildListIdentificationDescriptionDuplicate callback function allocated.",
+  "old-location": "wdf\\evtchildlistidentificationdescriptioncleanup.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectChildListRef_f70d9bc7-a6f9-41c4-a6c3-7a9ef413096c.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP callback, EvtChildListIdentificationDescriptionCleanup, EvtChildListIdentificationDescriptionCleanup callback function, kmdf.evtchildlistidentificationdescriptioncleanup, wdf.evtchildlistidentificationdescriptioncleanup, wdfchildlist/EvtChildListIdentificationDescriptionCleanup",
+  "req.header": "wdfchildlist.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP",
+    "wdfchildlist/EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WdfChildlist.h"
+  ],
+  "api_name": [
+    "EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP"
+  ]
+}

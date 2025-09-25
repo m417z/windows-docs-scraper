@@ -1,0 +1,3 @@
+typedef struct _MSA_INFO_0 {
+  MSA_INFO_STATE State;
+} MSA_INFO_0, *PMSA_INFO_0, *LPMSA_INFO_0;

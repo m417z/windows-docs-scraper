@@ -1,0 +1,54 @@
+{
+  "UID": "NE:ntpoapi._POWER_STATE_TYPE",
+  "title": "_POWER_STATE_TYPE (ntpoapi.h)",
+  "description": "The POWER_STATE_TYPE enumeration type indicates that a power state value is a system power state or a device power state.",
+  "old-location": "kernel\\power_state_type.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "POWER_STATE_TYPE enumeration"
+  ],
+  "ms.keywords": "*PPOWER_STATE_TYPE, DevicePowerState, POWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], SystemPowerState, _POWER_STATE_TYPE, kernel.power_state_type, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, wdm/DevicePowerState, wdm/POWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/SystemPowerState",
+  "req.header": "ntpoapi.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "POWER_STATE_TYPE, *PPOWER_STATE_TYPE",
+  "f1_keywords": [
+    "_POWER_STATE_TYPE",
+    "ntpoapi/_POWER_STATE_TYPE",
+    "PPOWER_STATE_TYPE",
+    "ntpoapi/PPOWER_STATE_TYPE",
+    "POWER_STATE_TYPE",
+    "ntpoapi/POWER_STATE_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_POWER_STATE_TYPE",
+    "PPOWER_STATE_TYPE",
+    "POWER_STATE_TYPE"
+  ]
+}

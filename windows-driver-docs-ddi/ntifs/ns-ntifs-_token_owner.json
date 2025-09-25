@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_OWNER",
+  "title": "TOKEN_OWNER (ntifs.h)",
+  "description": "TOKEN_OWNER contains the default owner security identifier (SID) that will be applied to newly created objects.",
+  "old-location": "ifsk\\token_owner.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "TOKEN_OWNER structure"
+  ],
+  "ms.keywords": "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], TOKEN_OWNER, TOKEN_OWNER structure [Installable File System Drivers], _TOKEN_OWNER, ifsk.token_owner, ntifs/PTOKEN_OWNER, ntifs/TOKEN_OWNER, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_OWNER, *PTOKEN_OWNER",
+  "f1_keywords": [
+    "_TOKEN_OWNER",
+    "ntifs/_TOKEN_OWNER",
+    "PTOKEN_OWNER",
+    "ntifs/PTOKEN_OWNER",
+    "TOKEN_OWNER",
+    "ntifs/TOKEN_OWNER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_OWNER",
+    "PTOKEN_OWNER",
+    "TOKEN_OWNER"
+  ]
+}

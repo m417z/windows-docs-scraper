@@ -1,0 +1,15 @@
+typedef enum _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE {
+  UcmTcpciPortControllerAlertInvalid,
+  UcmTcpciPortControllerAlertCCStatus,
+  UcmTcpciPortControllerAlertPowerStatus,
+  UcmTcpciPortControllerAlertReceiveSOPMessageStatus,
+  UcmTcpciPortControllerAlertReceivedHardReset,
+  UcmTcpciPortControllerAlertTransmitSOPMessageFailed,
+  UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded,
+  UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful,
+  UcmTcpciPortControllerAlertVbusVoltageAlarmHi,
+  UcmTcpciPortControllerAlertVbusVoltageAlarmLo,
+  UcmTcpciPortControllerAlertFault,
+  UcmTcpciPortControllerAlertRxBufferOverflow,
+  UcmTcpciPortControllerAlertVbusSinkDisconnectDetected
+} UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:immdev.ImmSimulateHotKey",
+  "title": "ImmSimulateHotKey function (immdev.h)",
+  "description": "The ImmSimulateHotKey function (immdev.h) simulates the specified IME hot key, causing the same response as if the user presses the hot key in the specified window.",
+  "helpviewer_keywords": [
+    "ImmSimulateHotKey",
+    "ImmSimulateHotKey function [Internationalization for Windows Applications]",
+    "_win32_ImmSimulateHotKey",
+    "imm/ImmSimulateHotKey",
+    "intl.immsimulatehotkey"
+  ],
+  "old-location": "intl\\immsimulatehotkey.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "24d5dd3c-01bd-4665-ad45-9f93edb212b3",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization for Windows Applications], _win32_ImmSimulateHotKey, imm/ImmSimulateHotKey, intl.immsimulatehotkey",
+  "req.header": "immdev.h",
+  "req.include-header": "Immdev.h, Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],East Asian language support installed.",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Imm32.lib",
+  "req.dll": "Imm32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ImmSimulateHotKey",
+    "immdev/ImmSimulateHotKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Imm32.dll"
+  ],
+  "api_name": [
+    "ImmSimulateHotKey"
+  ]
+}

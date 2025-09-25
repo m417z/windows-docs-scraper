@@ -1,0 +1,39 @@
+{
+  "UID": "NE:nvme.NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS",
+  "tech.root": "fs",
+  "title": "NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains values that indicate a Controller Configuration (CC) shutdown notification.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS"
+  ],
+  "f1_keywords": [
+    "NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS",
+    "nvme/NVME_CC_SHN_SHUTDOWN_NOTIFICATIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

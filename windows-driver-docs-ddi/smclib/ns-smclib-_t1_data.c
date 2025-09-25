@@ -1,0 +1,21 @@
+typedef struct _T1_DATA {
+  UCHAR   IFSC;
+  UCHAR   IFSD;
+  ULONG   BytesReceived;
+  ULONG   BytesSent;
+  ULONG   BytesToSend;
+  UCHAR   LastError;
+  BOOLEAN MoreData;
+  UCHAR   NAD;
+  ULONG   OriginalState;
+  UCHAR   Resend;
+  UCHAR   Resynch;
+  UCHAR   RSN;
+  UCHAR   SSN;
+  ULONG   State;
+  UCHAR   Wtx;
+  PUCHAR  ReplyData;
+  BOOLEAN WaitForReply;
+  UCHAR   InfBytesSent;
+  UCHAR   Reserved[10 - sizeof(PUCHAR)- sizeof(BOOLEAN)- sizeof(UCHAR)];
+} T1_DATA, *PT1_DATA;

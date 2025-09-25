@@ -1,0 +1,3 @@
+VOID ObMakeTemporaryObject(
+  PVOID Object
+);

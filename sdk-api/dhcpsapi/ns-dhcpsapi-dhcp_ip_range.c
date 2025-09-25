@@ -1,0 +1,4 @@
+typedef struct _DHCP_IP_RANGE {
+  DHCP_IP_ADDRESS StartAddress;
+  DHCP_IP_ADDRESS EndAddress;
+} DHCP_IP_RANGE, *LPDHCP_IP_RANGE;

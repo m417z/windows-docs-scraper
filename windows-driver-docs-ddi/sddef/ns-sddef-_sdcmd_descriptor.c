@@ -1,0 +1,7 @@
+typedef struct _SDCMD_DESCRIPTOR {
+  SD_COMMAND_CODE       Cmd;
+  SD_COMMAND_CLASS      CmdClass;
+  SD_TRANSFER_DIRECTION TransferDirection;
+  SD_TRANSFER_TYPE      TransferType;
+  SD_RESPONSE_TYPE      ResponseType;
+} SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR;

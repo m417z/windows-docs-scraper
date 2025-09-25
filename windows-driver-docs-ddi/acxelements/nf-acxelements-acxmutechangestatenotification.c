@@ -1,0 +1,3 @@
+VOID AcxMuteChangeStateNotification(
+  ACXMUTE Mute
+);

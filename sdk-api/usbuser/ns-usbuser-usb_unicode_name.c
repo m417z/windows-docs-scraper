@@ -1,0 +1,4 @@
+typedef struct _USB_UNICODE_NAME {
+  ULONG Length;
+  WCHAR String[1];
+} USB_UNICODE_NAME, *PUSB_UNICODE_NAME;

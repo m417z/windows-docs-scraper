@@ -1,0 +1,5 @@
+HRESULT IddCxSwapChainReleaseAndAcquireBuffer2(
+  IDDCX_SWAPCHAIN                    SwapChainObject,
+  IDARG_IN_RELEASEANDACQUIREBUFFER2  *pInArgs,
+  IDARG_OUT_RELEASEANDACQUIREBUFFER2 *pOutArgs
+);

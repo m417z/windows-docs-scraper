@@ -1,0 +1,3 @@
+HRESULT DeleteObject(
+  long lnFlags
+);

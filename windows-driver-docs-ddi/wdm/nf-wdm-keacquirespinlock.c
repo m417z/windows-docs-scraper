@@ -1,0 +1,4 @@
+void KeAcquireSpinLock(
+  SpinLock,
+  OldIrql
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxFinalizeSrvCall",
+  "title": "RxFinalizeSrvCall function (fcb.h)",
+  "description": "RxFinalizeSrvCall finalizes the given SRV_CALL structure. The caller must have an exclusive lock on the netname table associated with the device object.",
+  "old-location": "ifsk\\rxfinalizesrvcall.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxFinalizeSrvCall function"
+  ],
+  "ms.keywords": "RxFinalizeSrvCall, RxFinalizeSrvCall function [Installable File System Drivers], fcb/RxFinalizeSrvCall, ifsk.rxfinalizesrvcall, rxref_0560ef8e-f9e2-47ba-b78b-c3298e66238e.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Mrxfcb.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxFinalizeSrvCall",
+    "fcb/RxFinalizeSrvCall"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxFinalizeSrvCall"
+  ]
+}

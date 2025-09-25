@@ -1,0 +1,24 @@
+typedef struct _UCX_CONTROLLER_CONFIG {
+  ULONG                                                                Size;
+  ULONG                                                                NumberOfPresentedDeviceMgmtEvtCallbacks;
+  PFN_UCX_CONTROLLER_QUERY_USB_CAPABILITY                              EvtControllerQueryUsbCapability;
+  HANDLE                                                               Reserved1;
+  PFN_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER                           EvtControllerGetCurrentFrameNumber;
+  PFN_UCX_CONTROLLER_USBDEVICE_ADD                                     EvtControllerUsbDeviceAdd;
+  PFN_UCX_CONTROLLER_RESET                                             EvtControllerReset;
+  HANDLE                                                               Reserved2;
+  HANDLE                                                               Reserved3;
+  HANDLE                                                               Reserved4;
+  UCX_CONTROLLER_PARENT_BUS_TYPE                                       ParentBusType;
+  UCX_CONTROLLER_PCI_INFORMATION                                       PciDeviceInfo;
+  UCX_CONTROLLER_ACPI_INFORMATION                                      AcpiDeviceInfo;
+  UCHAR                                                                DeviceDescription[MAX_GENERIC_USB_CONTROLLER_NAME_SIZE];
+  UNICODE_STRING                                                       ManufacturerNameString;
+  UNICODE_STRING                                                       ModelNameString;
+  UNICODE_STRING                                                       ModelNumberString;
+  PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS                     EvtControllerGetTransportCharacteristics;
+  PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION EvtControllerSetTransportCharacteristicsChangeNotification;
+  HANDLE                                                               Reserved5;
+  HANDLE                                                               Reserved6;
+  HANDLE                                                               Reserved7;
+} UCX_CONTROLLER_CONFIG, *PUCX_CONTROLLER_CONFIG;

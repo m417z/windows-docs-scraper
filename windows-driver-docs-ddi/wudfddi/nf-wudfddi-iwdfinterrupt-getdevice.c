@@ -1,0 +1,1 @@
+IWDFDevice3 * GetDevice();

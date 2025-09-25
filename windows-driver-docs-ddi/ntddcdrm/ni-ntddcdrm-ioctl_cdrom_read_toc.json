@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddcdrm.IOCTL_CDROM_READ_TOC",
+  "title": "IOCTL_CDROM_READ_TOC (ntddcdrm.h)",
+  "description": "Returns the table of contents of the media. Obsolete, beginning with Windows Vista.",
+  "old-location": "storage\\ioctl_cdrom_read_toc.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_CDROM_READ_TOC IOCTL"
+  ],
+  "ms.keywords": "IOCTL_CDROM_READ_TOC, IOCTL_CDROM_READ_TOC control, IOCTL_CDROM_READ_TOC control code [Storage Devices], k307_8e0f2b70-edd0-424e-abb4-a81ea9f382fe.xml, ntddcdrm/IOCTL_CDROM_READ_TOC, storage.ioctl_cdrom_read_toc",
+  "req.header": "ntddcdrm.h",
+  "req.include-header": "Ntddcdrm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Obsolete, beginning with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_CDROM_READ_TOC",
+    "ntddcdrm/IOCTL_CDROM_READ_TOC"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddcdrm.h"
+  ],
+  "api_name": [
+    "IOCTL_CDROM_READ_TOC"
+  ]
+}

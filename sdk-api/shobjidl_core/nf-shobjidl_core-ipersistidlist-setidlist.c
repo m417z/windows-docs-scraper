@@ -1,0 +1,3 @@
+HRESULT SetIDList(
+  [in] PCIDLIST_ABSOLUTE pidl
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NS:usb._URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS",
+  "title": "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS (usb.h)",
+  "description": "The _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure is used by USB client drivers to retrieve delays associated with isochronous transfer programming in the host controller and transfer completion so that the client driver can ensure that the device gets the isochronous packets in time.",
+  "old-location": "buses\\_urb_get_isoch_pipe_transfer_path_delays.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure"
+  ],
+  "ms.keywords": "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], buses._urb_get_isoch_pipe_transfer_path_delays, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS",
+  "req.header": "usb.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS",
+    "usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Usb.h"
+  ],
+  "api_name": [
+    "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
+  ]
+}

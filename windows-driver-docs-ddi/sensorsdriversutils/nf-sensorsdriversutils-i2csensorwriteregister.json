@@ -1,0 +1,45 @@
+{
+  "UID": "NF:sensorsdriversutils.I2CSensorWriteRegister",
+  "title": "I2CSensorWriteRegister function (sensorsdriversutils.h)",
+  "description": "The I2CSensorWriteRegister function writes to the device register(s) over I2C.",
+  "tech.root": "sensors",
+  "ms.date": "04/19/2018",
+  "keywords": [
+    "I2CSensorWriteRegister function"
+  ],
+  "ms.keywords": "I2CSensorWriteRegister",
+  "req.header": "sensorsdriversutils.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "I2CSensorWriteRegister",
+    "sensorsdriversutils/I2CSensorWriteRegister"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "I2CSensorWriteRegister"
+  ]
+}

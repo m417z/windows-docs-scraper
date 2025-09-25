@@ -1,0 +1,54 @@
+{
+  "UID": "NS:usbioctl._USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+  "title": "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION (usbioctl.h)",
+  "description": "Contains registration information filled when the IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE request completes.",
+  "old-location": "buses\\usb_transport_characteristics_change_notification.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION structure"
+  ],
+  "ms.keywords": "*PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION structure pointer [Buses], USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION structure [Buses], _USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, buses.usb_transport_characteristics_change_notification, usbioctl/PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, usbioctl/_USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+  "req.header": "usbioctl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+  "f1_keywords": [
+    "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+    "usbioctl/_USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+    "PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+    "usbioctl/PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+    "USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+    "usbioctl/USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Usbioctl.h"
+  ],
+  "api_name": [
+    "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+    "PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION",
+    "USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "UID": "NF:ole2.SetConvertStg",
+  "title": "SetConvertStg function (ole2.h)",
+  "description": "The SetConvertStg function sets the convert bit in a storage object to indicate that the object is to be converted to a new class when it is opened. The setting can be retrieved with a call to the GetConvertStg function.",
+  "helpviewer_keywords": [
+    "SetConvertStg",
+    "SetConvertStg function [Structured Storage]",
+    "_stg_setconvertstg",
+    "ole2/SetConvertStg",
+    "stg.setconvertstg"
+  ],
+  "old-location": "stg\\setconvertstg.htm",
+  "tech.root": "Stg",
+  "ms.assetid": "98c8fd20-6384-4656-941c-1f24d9a4d4a9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetConvertStg, SetConvertStg function [Structured Storage], _stg_setconvertstg, ole2/SetConvertStg, stg.setconvertstg",
+  "req.header": "ole2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetConvertStg",
+    "ole2/SetConvertStg"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-com-ole32-l1-4-0.dll",
+    "ext-ms-win-com-ole32-l1-3-0.dll",
+    "ext-ms-win-com-ole32-l1-2-0.dll",
+    "ext-ms-win-com-ole32-l1-1-5.dll",
+    "ext-ms-win-com-ole32-l1-1-4.dll",
+    "ext-ms-win-com-ole32-l1-1-3.dll",
+    "ext-ms-win-com-ole32-l1-1-2.dll",
+    "ext-ms-win-com-ole32-l1-1-1.dll",
+    "ext-ms-win-com-ole32-l1-1-0.dll",
+    "Ole32.dll"
+  ],
+  "api_name": [
+    "SetConvertStg"
+  ]
+}

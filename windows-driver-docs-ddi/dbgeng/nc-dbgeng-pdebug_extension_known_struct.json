@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dbgeng.PDEBUG_EXTENSION_KNOWN_STRUCT",
+  "title": "PDEBUG_EXTENSION_KNOWN_STRUCT (dbgeng.h)",
+  "description": "The engine calls the KnownStructOutput callback function to request information about structures that the extension DLL can format for printing. The engine calls this function for the following reasons.",
+  "old-location": "debugger\\knownstructoutput.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "PDEBUG_EXTENSION_KNOWN_STRUCT callback function"
+  ],
+  "ms.keywords": "Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT, PDEBUG_EXTENSION_KNOWN_STRUCT callback, dbgeng/KnownStructOutput, debugger.knownstructoutput",
+  "req.header": "dbgeng.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PDEBUG_EXTENSION_KNOWN_STRUCT",
+    "dbgeng/PDEBUG_EXTENSION_KNOWN_STRUCT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "PDEBUG_EXTENSION_KNOWN_STRUCT"
+  ]
+}

@@ -1,0 +1,1 @@
+FWPM_SERVICE_STATE FwpmBfeStateGet0();

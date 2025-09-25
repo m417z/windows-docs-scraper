@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS",
+  "title": "IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS (ucmtcpciportcontrollerrequests.h)",
+  "description": "Gets values of all status registers as per the Universal Serial Bus Type-C Port Controller Interface Specification. The client driver must retrieve the values of the CC_STATUS, POWER_STATUS, and FAULT_STATUS registers.",
+  "old-location": "buses\\ioctl_ucmtcpci_port_controller_get_status.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS IOCTL"
+  ],
+  "ms.keywords": "IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS control, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS control code [Buses], buses.ioctl_ioctl_ucmtcpci_port_controller_get_status, buses.ioctl_ucmtcpci_port_controller_get_status, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS",
+  "req.header": "ucmtcpciportcontrollerrequests.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS",
+    "ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "UcmTcpciPortControllerRequests.h"
+  ],
+  "api_name": [
+    "IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS"
+  ]
+}

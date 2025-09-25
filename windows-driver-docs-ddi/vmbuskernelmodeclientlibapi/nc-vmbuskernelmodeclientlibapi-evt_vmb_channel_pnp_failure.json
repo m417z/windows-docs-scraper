@@ -1,0 +1,48 @@
+{
+  "UID": "NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_PNP_FAILURE",
+  "title": "EVT_VMB_CHANNEL_PNP_FAILURE (vmbuskernelmodeclientlibapi.h)",
+  "description": "The EvtChannelPnpFailure callback function is invoked if the client endpoint in the guest virtual machine asynchronously fails to connect even though a PnP device was located.",
+  "old-location": "netvista\\evt_vmb_channel_pnp_failure.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "EVT_VMB_CHANNEL_PNP_FAILURE callback function"
+  ],
+  "ms.keywords": "EVT_VMB_CHANNEL_PNP_FAILURE, EVT_VMB_CHANNEL_PNP_FAILURE callback, EvtChannelPnpFailure, EvtChannelPnpFailure callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PNP_FAILURE, PFN_VMB_CHANNEL_PNP_FAILURE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_pnp_failure, vmbuskernelmodeclientlibapi/EvtChannelPnpFailure",
+  "req.header": "vmbuskernelmodeclientlibapi.h",
+  "req.include-header": "VmbusKernelModeClientLibApi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_VMB_CHANNEL_PNP_FAILURE",
+    "vmbuskernelmodeclientlibapi/EVT_VMB_CHANNEL_PNP_FAILURE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "VmbusKernelModeClientLibApi.h"
+  ],
+  "api_name": [
+    "EVT_VMB_CHANNEL_PNP_FAILURE"
+  ]
+}

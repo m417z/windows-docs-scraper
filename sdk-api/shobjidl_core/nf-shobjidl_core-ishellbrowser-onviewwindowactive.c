@@ -1,0 +1,3 @@
+HRESULT OnViewWindowActive(
+  IShellView *pshv
+);

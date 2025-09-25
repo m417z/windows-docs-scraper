@@ -1,0 +1,69 @@
+{
+  "UID": "NF:werapi.WerReportCreate",
+  "title": "WerReportCreate function (werapi.h)",
+  "description": "Creates a Windows Error Reporting (WER) report that describes an application event.",
+  "helpviewer_keywords": [
+    "WerReportApplicationCrash",
+    "WerReportApplicationHang",
+    "WerReportCreate",
+    "WerReportCreate function [Windows Error Reporting]",
+    "WerReportCritical",
+    "WerReportInvalid",
+    "WerReportKernel",
+    "WerReportNonCritical",
+    "base.werreportcreate",
+    "wer.werreportcreate",
+    "werapi/WerReportCreate"
+  ],
+  "old-location": "wer\\werreportcreate.htm",
+  "tech.root": "wer",
+  "ms.assetid": "41f68dde-5e43-45a6-8e0b-3ae0c6180e8b",
+  "ms.date": "07/25/2023",
+  "ms.keywords": "WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wer.lib",
+  "req.dll": "Wer.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerReportCreate",
+    "werapi/WerReportCreate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wer-reporting-l1-1-3.dll",
+    "ext-ms-win-wer-reporting-l1-1-2.dll",
+    "Wer.dll",
+    "Ext-MS-Win-wer-reporting-l1-1-0.dll",
+    "errorhandlingext.dll",
+    "Ext-MS-Win-Wer-Reporting-L1-1-1.dll"
+  ],
+  "api_name": [
+    "WerReportCreate"
+  ]
+}

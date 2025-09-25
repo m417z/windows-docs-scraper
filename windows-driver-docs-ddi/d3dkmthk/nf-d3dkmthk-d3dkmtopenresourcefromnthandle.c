@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenResourceFromNtHandle(
+  D3DKMT_OPENRESOURCEFROMNTHANDLE *unnamedParam1
+);

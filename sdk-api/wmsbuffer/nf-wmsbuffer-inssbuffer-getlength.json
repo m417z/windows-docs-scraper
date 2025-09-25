@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsbuffer.INSSBuffer.GetLength",
+  "title": "INSSBuffer::GetLength (wmsbuffer.h)",
+  "description": "The GetLength method retrieves the size of the used portion of the buffer controlled by the buffer object.",
+  "helpviewer_keywords": [
+    "GetLength",
+    "GetLength method [windows Media Format]",
+    "GetLength method [windows Media Format]",
+    "INSSBuffer interface",
+    "INSSBuffer interface [windows Media Format]",
+    "GetLength method",
+    "INSSBuffer.GetLength",
+    "INSSBuffer::GetLength",
+    "INSSBufferGetLength",
+    "wmformat.inssbuffer_getlength",
+    "wmsbuffer/INSSBuffer::GetLength"
+  ],
+  "old-location": "wmformat\\inssbuffer_getlength.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "a964124d-f25b-442c-a29d-0ee595bdbcce",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetLength, GetLength method [windows Media Format], GetLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetLength method, INSSBuffer.GetLength, INSSBuffer::GetLength, INSSBufferGetLength, wmformat.inssbuffer_getlength, wmsbuffer/INSSBuffer::GetLength",
+  "req.header": "wmsbuffer.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INSSBuffer::GetLength",
+    "wmsbuffer/INSSBuffer::GetLength"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "INSSBuffer.GetLength"
+  ]
+}

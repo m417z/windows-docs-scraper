@@ -1,0 +1,3 @@
+HRESULT DdqFreeDiagnosticRecordLocaleTags(
+  HDIAGNOSTIC_EVENT_TAG_DESCRIPTION hTagDescription
+);

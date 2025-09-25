@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisCmMakeCallComplete",
+  "title": "NdisCmMakeCallComplete function (ndis.h)",
+  "description": "NdisCmMakeCallComplete returns the final status of a client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to make an outgoing call.",
+  "old-location": "netvista\\ndiscmmakecallcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisCmMakeCallComplete function"
+  ],
+  "ms.keywords": "NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisCmMakeCallComplete (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisCmMakeCallComplete (NDIS   5.1)) in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_CallManager_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisCmMakeCallComplete",
+    "ndis/NdisCmMakeCallComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisCmMakeCallComplete"
+  ]
+}

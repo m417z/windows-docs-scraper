@@ -1,0 +1,5 @@
+typedef struct _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION {
+  PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION NextEntry;
+  ULONG                                Tag;
+  UCHAR                                Data[1];
+} NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION;

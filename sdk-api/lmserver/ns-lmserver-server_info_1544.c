@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1544 {
+  DWORD sv1544_initconntable;
+} SERVER_INFO_1544, *PSERVER_INFO_1544, *LPSERVER_INFO_1544;

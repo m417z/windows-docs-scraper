@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTShareObjectWithHost(
+  D3DKMT_SHAREOBJECTWITHHOST *unnamedParam1
+);

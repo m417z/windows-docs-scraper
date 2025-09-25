@@ -1,0 +1,4 @@
+typedef struct _MIB_IPNET_TABLE2 {
+  ULONG          NumEntries;
+  MIB_IPNET_ROW2 Table[ANY_SIZE];
+} MIB_IPNET_TABLE2, *PMIB_IPNET_TABLE2;

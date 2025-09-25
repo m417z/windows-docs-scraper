@@ -1,0 +1,3 @@
+HRESULT GetRelativePanel(
+  ULONG *panel
+);

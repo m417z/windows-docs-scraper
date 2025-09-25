@@ -1,0 +1,5 @@
+typedef struct _FAX_LOG_CATEGORYW {
+  LPCWSTR Name;
+  DWORD   Category;
+  DWORD   Level;
+} FAX_LOG_CATEGORYW, *PFAX_LOG_CATEGORYW;

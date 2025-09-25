@@ -1,0 +1,3 @@
+ULONG NdisGroupMaxProcessorCount(
+  USHORT Group
+);

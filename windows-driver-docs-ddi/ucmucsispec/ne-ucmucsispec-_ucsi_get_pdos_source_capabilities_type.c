@@ -1,0 +1,5 @@
+typedef enum _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE {
+  UcsiGetPdosCurrentSourceCapabilities,
+  UcsiGetPdosAdvertisedSourceCapabilities,
+  UcsiGetPdosMaxSourceCapabilities
+} UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE;

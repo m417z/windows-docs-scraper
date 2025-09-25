@@ -1,0 +1,58 @@
+{
+  "UID": "NF:gpedit.BrowseForGPO",
+  "title": "BrowseForGPO function (gpedit.h)",
+  "description": "The BrowseForGPO function creates a GPO browser dialog box that allows the user to open or create a GPO.",
+  "helpviewer_keywords": [
+    "BrowseForGPO",
+    "BrowseForGPO function [Group Policy]",
+    "_win32_browseforgpo",
+    "gpedit/BrowseForGPO",
+    "policy.browseforgpo"
+  ],
+  "old-location": "policy\\browseforgpo.htm",
+  "tech.root": "Policy",
+  "ms.assetid": "ff144ae4-fc8c-499e-9086-75625b86693c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BrowseForGPO, BrowseForGPO function [Group Policy], _win32_browseforgpo, gpedit/BrowseForGPO, policy.browseforgpo",
+  "req.header": "gpedit.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gpedit.lib",
+  "req.dll": "Gpedit.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BrowseForGPO",
+    "gpedit/BrowseForGPO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gpedit.dll"
+  ],
+  "api_name": [
+    "BrowseForGPO"
+  ]
+}

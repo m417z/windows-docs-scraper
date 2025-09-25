@@ -1,0 +1,4 @@
+TRFUNC Trfunc;
+
+VOID Trfunc()
+{...}

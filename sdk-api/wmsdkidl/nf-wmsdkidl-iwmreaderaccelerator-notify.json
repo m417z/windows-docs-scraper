@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAccelerator.Notify",
+  "title": "IWMReaderAccelerator::Notify (wmsdkidl.h)",
+  "description": "The Notify method is called by the source filter to pass in the negotiated media type.",
+  "helpviewer_keywords": [
+    "IWMReaderAccelerator interface [windows Media Format]",
+    "Notify method",
+    "IWMReaderAccelerator.Notify",
+    "IWMReaderAccelerator::Notify",
+    "IWMReaderAcceleratorNotify",
+    "Notify",
+    "Notify method [windows Media Format]",
+    "Notify method [windows Media Format]",
+    "IWMReaderAccelerator interface",
+    "wmformat.iwmreaderaccelerator_notify",
+    "wmsdkidl/IWMReaderAccelerator::Notify"
+  ],
+  "old-location": "wmformat\\iwmreaderaccelerator_notify.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "b5381f3a-e120-4db3-8463-5286e4318b13",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderAccelerator interface [windows Media Format],Notify method, IWMReaderAccelerator.Notify, IWMReaderAccelerator::Notify, IWMReaderAcceleratorNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IWMReaderAccelerator interface, wmformat.iwmreaderaccelerator_notify, wmsdkidl/IWMReaderAccelerator::Notify",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAccelerator::Notify",
+    "wmsdkidl/IWMReaderAccelerator::Notify"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderAccelerator.Notify"
+  ]
+}

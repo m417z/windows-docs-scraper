@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupTerminateFileLog",
+  "title": "SetupTerminateFileLog function (setupapi.h)",
+  "description": "The SetupTerminateFileLog function releases resources associated with a file log.",
+  "helpviewer_keywords": [
+    "SetupTerminateFileLog",
+    "SetupTerminateFileLog function [Setup API]",
+    "_setupapi_setupterminatefilelog",
+    "setup.setupterminatefilelog",
+    "setupapi/SetupTerminateFileLog"
+  ],
+  "old-location": "setup\\setupterminatefilelog.htm",
+  "tech.root": "setup",
+  "ms.assetid": "a230063a-2b4a-4ed3-8624-4859a17f8ccc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupTerminateFileLog, SetupTerminateFileLog function [Setup API], _setupapi_setupterminatefilelog, setup.setupterminatefilelog, setupapi/SetupTerminateFileLog",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupTerminateFileLog",
+    "setupapi/SetupTerminateFileLog"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupTerminateFileLog"
+  ]
+}

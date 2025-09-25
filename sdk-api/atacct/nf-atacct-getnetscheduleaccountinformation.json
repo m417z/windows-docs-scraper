@@ -1,0 +1,57 @@
+{
+  "UID": "NF:atacct.GetNetScheduleAccountInformation",
+  "title": "GetNetScheduleAccountInformation function (atacct.h)",
+  "description": "The GetNetScheduleAccountInformation function retrieves the AT Service account name.",
+  "helpviewer_keywords": [
+    "GetNetScheduleAccountInformation",
+    "GetNetScheduleAccountInformation function [Network Management]",
+    "atacct/GetNetScheduleAccountInformation",
+    "netmgmt.getnetscheduleaccountinformation"
+  ],
+  "old-location": "netmgmt\\getnetscheduleaccountinformation.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "935de94a-6791-4ea2-ac39-cf71ef7cb726",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetNetScheduleAccountInformation, GetNetScheduleAccountInformation function [Network Management], atacct/GetNetScheduleAccountInformation, netmgmt.getnetscheduleaccountinformation",
+  "req.header": "atacct.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mstask.lib",
+  "req.dll": "Mstask.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetNetScheduleAccountInformation",
+    "atacct/GetNetScheduleAccountInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Mstask.dll"
+  ],
+  "api_name": [
+    "GetNetScheduleAccountInformation"
+  ]
+}

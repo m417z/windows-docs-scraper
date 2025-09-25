@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntifs._FS_BPIO_INFO",
+  "tech.root": "ifsk",
+  "title": "FS_BPIO_INFO",
+  "ms.date": "12/08/2021",
+  "targetos": "Windows",
+  "description": "The FS_BPIO_INFO structure provides information about the BypassIO state of the volume.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FS_BPIO_INFO, *PFS_BPIO_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FS_BPIO_INFO",
+    "PFS_BPIO_INFO",
+    "FS_BPIO_INFO"
+  ],
+  "f1_keywords": [
+    "_FS_BPIO_INFO",
+    "ntifs/_FS_BPIO_INFO",
+    "PFS_BPIO_INFO",
+    "ntifs/PFS_BPIO_INFO",
+    "FS_BPIO_INFO",
+    "ntifs/FS_BPIO_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

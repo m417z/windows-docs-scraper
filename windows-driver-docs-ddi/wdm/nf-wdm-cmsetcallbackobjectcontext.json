@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.CmSetCallbackObjectContext",
+  "title": "CmSetCallbackObjectContext function (wdm.h)",
+  "description": "The CmSetCallbackObjectContext routine associates specified context information with a specified registry object.",
+  "old-location": "kernel\\cmsetcallbackobjectcontext.htm",
+  "tech.root": "kernel",
+  "ms.date": "07/29/2021",
+  "keywords": [
+    "CmSetCallbackObjectContext function"
+  ],
+  "ms.keywords": "CmSetCallbackObjectContext, CmSetCallbackObjectContext routine [Kernel-Mode Driver Architecture], ConfigMgrRef_86ecc2b5-c790-4414-973d-6d26475b211d.xml, kernel.cmsetcallbackobjectcontext, wdm/CmSetCallbackObjectContext",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "CmSetCallbackObjectContext",
+    "wdm/CmSetCallbackObjectContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "CmSetCallbackObjectContext"
+  ]
+}

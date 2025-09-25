@@ -1,0 +1,51 @@
+{
+  "UID": "NF:usermode_accessors.InterlockedCompareExchangeToMode",
+  "tech.root": "kernel",
+  "title": "InterlockedCompareExchangeToMode",
+  "ms.date": "07/02/2025",
+  "targetos": "Windows",
+  "description": "The InterlockedCompareExchangeToMode function performs an atomic compare-and-exchange operation on a 32-bit value in memory, with access dependent on the processor mode.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "usermode_accessors.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Less than or equal to APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "umaccess.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "See Remarks",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usermode_accessors.h"
+  ],
+  "api_name": [
+    "InterlockedCompareExchangeToMode"
+  ],
+  "f1_keywords": [
+    "InterlockedCompareExchangeToMode",
+    "usermode_accessors/InterlockedCompareExchangeToMode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "InterlockedCompareExchangeToMode"
+  ],
+  "ai-usage": "ai-assisted"
+}

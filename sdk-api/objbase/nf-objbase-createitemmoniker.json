@@ -1,0 +1,68 @@
+{
+  "UID": "NF:objbase.CreateItemMoniker",
+  "title": "CreateItemMoniker function (objbase.h)",
+  "description": "Creates an item moniker that identifies an object within a containing object (typically a compound document).",
+  "helpviewer_keywords": [
+    "CreateItemMoniker",
+    "CreateItemMoniker function [COM]",
+    "_com_CreateItemMoniker",
+    "com.createitemmoniker",
+    "objbase/CreateItemMoniker"
+  ],
+  "old-location": "com\\createitemmoniker.htm",
+  "tech.root": "com",
+  "ms.assetid": "339919ed-660c-4239-825b-7fa96c48e5cd",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateItemMoniker, CreateItemMoniker function [COM], _com_CreateItemMoniker, com.createitemmoniker, objbase/CreateItemMoniker",
+  "req.header": "objbase.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateItemMoniker",
+    "objbase/CreateItemMoniker"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-com-ole32-l1-4-0.dll",
+    "ext-ms-win-com-ole32-l1-3-0.dll",
+    "ext-ms-win-com-ole32-l1-2-0.dll",
+    "ext-ms-win-com-ole32-l1-1-5.dll",
+    "Ole32.dll",
+    "Ext-MS-Win-COM-OLE32-l1-1-0.dll",
+    "Ext-MS-Win-COM-OLE32-l1-1-1.dll",
+    "Ext-MS-Win-COM-OLE32-l1-1-2.dll",
+    "ext-ms-win-com-ole32-l1-1-3.dll",
+    "Ext-MS-Win-Com-Ole32-L1-1-4.dll"
+  ],
+  "api_name": [
+    "CreateItemMoniker"
+  ],
+  "req.apiset": "ext-ms-win-com-ole32-l1-1-0 (introduced in Windows 8)"
+}

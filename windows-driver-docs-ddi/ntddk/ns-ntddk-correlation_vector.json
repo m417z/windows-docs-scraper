@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddk.CORRELATION_VECTOR",
+  "title": "CORRELATION_VECTOR (ntddk.h)",
+  "description": "Store the correlation vector that is used to reference events and the generated logs for diagnostic purposes.",
+  "old-location": "kernel\\correlation_vector.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "CORRELATION_VECTOR structure"
+  ],
+  "ms.keywords": "*PCORRELATION_VECTOR, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, ntddk/CORRELATION_VECTOR",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CORRELATION_VECTOR",
+  "f1_keywords": [
+    "CORRELATION_VECTOR",
+    "ntddk/CORRELATION_VECTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "CORRELATION_VECTOR"
+  ]
+}

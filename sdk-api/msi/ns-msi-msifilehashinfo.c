@@ -1,0 +1,4 @@
+typedef struct _MSIFILEHASHINFO {
+  ULONG dwFileHashInfoSize;
+  ULONG dwData[4];
+} MSIFILEHASHINFO, *PMSIFILEHASHINFO;

@@ -1,0 +1,3 @@
+HRESULT WldpIsDynamicCodePolicyEnabled(
+  PBOOL isEnabled
+);

@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY      Property;
+  KSMULTIPLE_ITEM MultipleItem;
+} KSMULTIPLE_DATA_PROP, *PKSMULTIPLE_DATA_PROP;

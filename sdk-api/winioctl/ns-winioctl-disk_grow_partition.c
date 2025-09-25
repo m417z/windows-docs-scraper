@@ -1,0 +1,4 @@
+typedef struct _DISK_GROW_PARTITION {
+  DWORD         PartitionNumber;
+  LARGE_INTEGER BytesToGrow;
+} DISK_GROW_PARTITION, *PDISK_GROW_PARTITION;

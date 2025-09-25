@@ -1,0 +1,4 @@
+typedef struct _CERT_QC_STATEMENTS_EXT_INFO {
+  DWORD              cStatement;
+  PCERT_QC_STATEMENT rgStatement;
+} CERT_QC_STATEMENTS_EXT_INFO, *PCERT_QC_STATEMENTS_EXT_INFO;

@@ -1,0 +1,3 @@
+PEPROCESS FsRtlOplockGetAnyBreakOwnerProcess(
+  POPLOCK Oplock
+);

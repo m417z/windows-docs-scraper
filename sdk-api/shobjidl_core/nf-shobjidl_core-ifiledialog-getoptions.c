@@ -1,0 +1,3 @@
+HRESULT GetOptions(
+  [out] FILEOPENDIALOGOPTIONS *pfos
+);

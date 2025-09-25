@@ -1,0 +1,1 @@
+D3D12_DRED_DEVICE_STATE GetDeviceState();

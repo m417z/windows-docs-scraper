@@ -1,0 +1,3 @@
+NTSTATUS ConnectOutput(
+  PMXF sinkMXF
+);

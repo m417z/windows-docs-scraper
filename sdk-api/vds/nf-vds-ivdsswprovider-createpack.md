@@ -1,0 +1,34 @@
+# IVdsSwProvider::CreatePack
+
+## Description
+
+[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](https://learn.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal) COM interface is superseded by the [Windows Storage Management API](https://learn.microsoft.com/windows-hardware/drivers/storage/windows-storage-management-api-portal).]
+
+Creates a pack object.
+
+## Parameters
+
+### `ppPack` [out]
+
+The address of an [IVdsPack](https://learn.microsoft.com/windows/desktop/api/vds/nn-vds-ivdspack) interface. Callers must release the interface.
+
+## Return value
+
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and [VDS-specific return values](https://learn.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes). It can also return converted [system error codes](https://learn.microsoft.com/windows/desktop/Debug/system-error-codes) using the [HRESULT_FROM_WIN32](https://learn.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32) macro. Errors can originate from VDS itself or from the underlying [VDS provider](https://learn.microsoft.com/windows/desktop/VDS/about-vds) that is being used. Possible return values include the following.
+
+| Return code/value | Description |
+| --- | --- |
+| **S_OK** | The method completed successfully. |
+| **VDS_E_ONLINE_PACK_EXISTS**<br><br>0x80042464L | Another dynamic pack exists with **VDS_PS_ONLINE** status. Only one dynamic pack can have this status at a time. |
+
+## Remarks
+
+Use this method to create a pack before calling the [IVdsPack::MigrateDisks](https://learn.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-migratedisks) method to convert disk formatting. When converting a basic disk to dynamic format, pass either a new or existing pack as an argument to **MigrateDisks**. When converting a dynamic disk to basic format, use **CreatePack** to create a new, individual pack to hold the basic disk.
+
+## See also
+
+[IVdsPack](https://learn.microsoft.com/windows/desktop/api/vds/nn-vds-ivdspack)
+
+[IVdsPack::MigrateDisks](https://learn.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-migratedisks)
+
+[IVdsSwProvider](https://learn.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsswprovider)

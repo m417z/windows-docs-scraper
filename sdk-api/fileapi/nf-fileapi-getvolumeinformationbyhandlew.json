@@ -1,0 +1,87 @@
+{
+  "UID": "NF:fileapi.GetVolumeInformationByHandleW",
+  "title": "GetVolumeInformationByHandleW function (fileapi.h)",
+  "description": "Retrieves information about the file system and volume associated with the specified file.",
+  "helpviewer_keywords": [
+    "FILE_CASE_PRESERVED_NAMES",
+    "FILE_CASE_SENSITIVE_SEARCH",
+    "FILE_FILE_COMPRESSION",
+    "FILE_NAMED_STREAMS",
+    "FILE_PERSISTENT_ACLS",
+    "FILE_READ_ONLY_VOLUME",
+    "FILE_SEQUENTIAL_WRITE_ONCE",
+    "FILE_SUPPORTS_ENCRYPTION",
+    "FILE_SUPPORTS_EXTENDED_ATTRIBUTES",
+    "FILE_SUPPORTS_HARD_LINKS",
+    "FILE_SUPPORTS_OBJECT_IDS",
+    "FILE_SUPPORTS_OPEN_BY_FILE_ID",
+    "FILE_SUPPORTS_REPARSE_POINTS",
+    "FILE_SUPPORTS_SPARSE_FILES",
+    "FILE_SUPPORTS_TRANSACTIONS",
+    "FILE_SUPPORTS_USN_JOURNAL",
+    "FILE_UNICODE_ON_DISK",
+    "FILE_VOLUME_IS_COMPRESSED",
+    "FILE_VOLUME_QUOTAS",
+    "GetVolumeInformationByHandleW",
+    "GetVolumeInformationByHandleW function [Files]",
+    "fileapi/GetVolumeInformationByHandleW",
+    "fs.getvolumeinformationbyhandlew",
+    "winbase/GetVolumeInformationByHandleW"
+  ],
+  "old-location": "fs\\getvolumeinformationbyhandlew.htm",
+  "tech.root": "fs",
+  "ms.assetid": "09fab0a4-23fd-4bd9-b9f6-f0d1597ab609",
+  "ms.date": "09/27/2022",
+  "ms.keywords": "FILE_CASE_PRESERVED_NAMES, FILE_CASE_SENSITIVE_SEARCH, FILE_FILE_COMPRESSION, FILE_NAMED_STREAMS, FILE_PERSISTENT_ACLS, FILE_READ_ONLY_VOLUME, FILE_SEQUENTIAL_WRITE_ONCE, FILE_SUPPORTS_ENCRYPTION, FILE_SUPPORTS_EXTENDED_ATTRIBUTES, FILE_SUPPORTS_HARD_LINKS, FILE_SUPPORTS_OBJECT_IDS, FILE_SUPPORTS_OPEN_BY_FILE_ID, FILE_SUPPORTS_REPARSE_POINTS, FILE_SUPPORTS_SPARSE_FILES, FILE_SUPPORTS_TRANSACTIONS, FILE_SUPPORTS_USN_JOURNAL, FILE_UNICODE_ON_DISK, FILE_VOLUME_IS_COMPRESSED, FILE_VOLUME_QUOTAS, GetVolumeInformationByHandleW, GetVolumeInformationByHandleW function [Files], fileapi/GetVolumeInformationByHandleW, fs.getvolumeinformationbyhandlew, winbase/GetVolumeInformationByHandleW",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetVolumeInformationByHandleW",
+    "fileapi/GetVolumeInformationByHandleW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-0.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "GetVolumeInformationByHandleW"
+  ]
+}

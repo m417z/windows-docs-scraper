@@ -1,0 +1,5 @@
+typedef struct tagEMRRESIZEPALETTE {
+  EMR   emr;
+  DWORD ihPal;
+  DWORD cEntries;
+} EMRRESIZEPALETTE, *PEMRRESIZEPALETTE;

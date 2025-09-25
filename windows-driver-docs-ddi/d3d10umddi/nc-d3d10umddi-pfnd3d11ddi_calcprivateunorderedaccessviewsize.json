@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE",
+  "title": "PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE (d3d10umddi.h)",
+  "description": "The CalcPrivateUnorderedAccessViewSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an unordered access view.",
+  "old-location": "display\\calcprivateunorderedaccessviewsize.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE callback function"
+  ],
+  "ms.keywords": "CalcPrivateUnorderedAccessViewSize, CalcPrivateUnorderedAccessViewSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE, PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE callback, UserModeDisplayDriverDx11_Functions_bc7bfd55-2032-4df8-8a68-32672fe72b4b.xml, d3d10umddi/CalcPrivateUnorderedAccessViewSize, display.calcprivateunorderedaccessviewsize",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "CalcPrivateUnorderedAccessViewSize is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE",
+    "d3d10umddi/PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntdef.CONTAINING_RECORD",
+  "tech.root": null,
+  "title": "CONTAINING_RECORD",
+  "description": "The CONTAINING_RECORD macro returns the base address of an instance of a structure given the type and the address of a field within the containing structure.",
+  "ms.date": "08/03/2022",
+  "targetos": "Windows",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntdef.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Any level",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntdef.h"
+  ],
+  "api_name": [
+    "CONTAINING_RECORD"
+  ],
+  "f1_keywords": [
+    "CONTAINING_RECORD",
+    "ntdef/CONTAINING_RECORD"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

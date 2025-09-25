@@ -1,0 +1,7 @@
+PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE Pfnd3d111DdiCalcprivatevideoprocessoroutputviewsize;
+
+SIZE_T Pfnd3d111DdiCalcprivatevideoprocessoroutputviewsize(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW *unnamedParam2
+)
+{...}

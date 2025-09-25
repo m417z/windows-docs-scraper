@@ -1,0 +1,5 @@
+typedef struct _SP_ORIGINAL_FILE_INFO_W {
+  DWORD cbSize;
+  WCHAR OriginalInfName[MAX_PATH];
+  WCHAR OriginalCatalogName[MAX_PATH];
+} SP_ORIGINAL_FILE_INFO_W, *PSP_ORIGINAL_FILE_INFO_W;

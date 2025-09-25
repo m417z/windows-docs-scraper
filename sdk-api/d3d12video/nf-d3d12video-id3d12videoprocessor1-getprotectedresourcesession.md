@@ -1,0 +1,21 @@
+## Description
+
+Gets the [ID3D12ProtectedResourceSession](https://learn.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) that was passed into [ID3D12VideoDevice2::CreateVideoProcessor1](https://learn.microsoft.com/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodevice2-createvideoprocessor1) when the [ID3D12VideoProcessor1](https://learn.microsoft.com/windows/win32/api/d3d12video/nn-d3d12video-id3d12videoprocessor1) was created.
+
+## Parameters
+
+### `riid`
+
+The globally unique identifier (GUID) for the **ID3D12ProtectedResourceSession** interface.
+
+### `ppProtectedSession`
+
+Receives a void pointer representing the **ID3D12ProtectedResourceSession** interface.
+
+## Return value
+
+This method returns HRESULT.
+
+## Remarks
+
+## See also

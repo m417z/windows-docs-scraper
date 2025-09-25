@@ -1,0 +1,4 @@
+typedef struct D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM {
+  UINT64         Offset;
+  ID3D12Resource *pBuffer;
+} D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM;

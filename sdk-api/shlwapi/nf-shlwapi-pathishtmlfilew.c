@@ -1,0 +1,3 @@
+void PathIsHTMLFileW(
+  [in] pszPath
+);

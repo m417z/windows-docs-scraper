@@ -1,0 +1,49 @@
+{
+  "UID": "NF:strmini.StreamClassQueryMasterClock",
+  "title": "StreamClassQueryMasterClock function (strmini.h)",
+  "description": "When the minidriver calls the StreamClassQueryMasterClock routine, the class driver queries the appropriate time value of the master clock asynchronously, and passes the result to the routine passed in the ClockCallbackRoutine parameter.",
+  "old-location": "stream\\streamclassquerymasterclock.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "StreamClassQueryMasterClock function"
+  ],
+  "ms.keywords": "StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices], strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Stream.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StreamClassQueryMasterClock",
+    "strmini/StreamClassQueryMasterClock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Stream.lib",
+    "Stream.dll"
+  ],
+  "api_name": [
+    "StreamClassQueryMasterClock"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct tagCWPRETSTRUCT {
+  LRESULT lResult;
+  LPARAM  lParam;
+  WPARAM  wParam;
+  UINT    message;
+  HWND    hwnd;
+} CWPRETSTRUCT, *PCWPRETSTRUCT, *NPCWPRETSTRUCT, *LPCWPRETSTRUCT;

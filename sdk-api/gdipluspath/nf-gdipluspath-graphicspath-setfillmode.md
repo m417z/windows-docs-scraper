@@ -1,0 +1,35 @@
+# GraphicsPath::SetFillMode
+
+## Description
+
+The **GraphicsPath::SetFillMode** method sets the fill mode of this path.
+
+## Parameters
+
+### `fillmode` [in]
+
+Type: **[FillMode](https://learn.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fillmode)**
+
+Element of the [FillMode](https://learn.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fillmode) enumeration that specifies how to fill areas when the path intersects itself.
+
+## Return value
+
+Type: **[Status](https://learn.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status)**
+
+If the method succeeds, it returns Ok, which is an element of the [Status](https://learn.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status) enumeration.
+
+If the method fails, it returns one of the other elements of the [Status](https://learn.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status) enumeration.
+
+## See also
+
+[Clipping with a Region](https://learn.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-with-a-region-use)
+
+[Constructing and Drawing Paths](https://learn.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use)
+
+[Creating a Path Gradient](https://learn.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use)
+
+[FillMode](https://learn.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fillmode)
+
+[GraphicsPath](https://learn.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath)
+
+[Paths](https://learn.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about)

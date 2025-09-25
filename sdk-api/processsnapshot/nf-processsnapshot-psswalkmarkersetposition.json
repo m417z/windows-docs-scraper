@@ -1,0 +1,59 @@
+{
+  "UID": "NF:processsnapshot.PssWalkMarkerSetPosition",
+  "title": "PssWalkMarkerSetPosition function (processsnapshot.h)",
+  "description": "Sets the position of a walk marker.",
+  "helpviewer_keywords": [
+    "PssWalkMarkerSetPosition",
+    "PssWalkMarkerSetPosition function",
+    "proc_snap.psswalkmarkersetposition",
+    "processsnapshot/PssWalkMarkerSetPosition"
+  ],
+  "old-location": "proc_snap\\psswalkmarkersetposition.htm",
+  "tech.root": "proc_snap",
+  "ms.assetid": "D89EA4DB-D8C6-43D1-B292-D24F1EAB2E43",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PssWalkMarkerSetPosition, PssWalkMarkerSetPosition function, proc_snap.psswalkmarkersetposition, processsnapshot/PssWalkMarkerSetPosition",
+  "req.header": "processsnapshot.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PssWalkMarkerSetPosition",
+    "processsnapshot/PssWalkMarkerSetPosition"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll",
+    "API-MS-Win-Core-Processsnapshot-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "PssWalkMarkerSetPosition"
+  ]
+}

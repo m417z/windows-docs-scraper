@@ -1,0 +1,4 @@
+typedef struct _WSD_RESOLVE_MATCHES {
+  WSD_RESOLVE_MATCH *ResolveMatch;
+  WSDXML_ELEMENT    *Any;
+} WSD_RESOLVE_MATCHES;

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IPin.QueryInternalConnections",
+  "title": "IPin::QueryInternalConnections (strmif.h)",
+  "description": "The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).",
+  "helpviewer_keywords": [
+    "IPin interface [DirectShow]",
+    "QueryInternalConnections method",
+    "IPin.QueryInternalConnections",
+    "IPin::QueryInternalConnections",
+    "IPinQueryInternalConnections",
+    "QueryInternalConnections",
+    "QueryInternalConnections method [DirectShow]",
+    "QueryInternalConnections method [DirectShow]",
+    "IPin interface",
+    "dshow.ipin_queryinternalconnections",
+    "strmif/IPin::QueryInternalConnections"
+  ],
+  "old-location": "dshow\\ipin_queryinternalconnections.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "c0289b89-9220-402c-858c-09076e2ab6b6",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IPin interface [DirectShow],QueryInternalConnections method, IPin.QueryInternalConnections, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow],IPin interface, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPin::QueryInternalConnections",
+    "strmif/IPin::QueryInternalConnections"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IPin.QueryInternalConnections"
+  ]
+}

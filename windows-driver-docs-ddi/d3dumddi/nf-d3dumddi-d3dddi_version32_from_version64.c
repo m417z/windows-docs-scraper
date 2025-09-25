@@ -1,0 +1,3 @@
+void D3DDDI_VERSION32_FROM_VERSION64(
+  v
+);

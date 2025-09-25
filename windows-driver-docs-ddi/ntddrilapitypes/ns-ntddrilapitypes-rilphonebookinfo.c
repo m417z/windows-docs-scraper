@@ -1,0 +1,20 @@
+typedef struct RILPHONEBOOKINFO {
+  DWORD cbSize;
+  DWORD dwParams;
+  DWORD dwUsed;
+  DWORD dwTotal;
+  DWORD dwMaxAddressLength;
+  DWORD dwMaxTextLength;
+  DWORD dwMaxAdditionalNumbers;
+  DWORD dwMaxAdditionalNumberLength;
+  DWORD dwMaxAdditionalNumberTextLength;
+  DWORD dwUsedAdditionalNumberStrings;
+  DWORD dwTotalAdditionalNumberStrings;
+  DWORD dwMaxEmails;
+  DWORD dwMaxEmailAddressLength;
+  DWORD dwMaxGroups;
+  DWORD dwMaxGroupStringLength;
+  DWORD dwUsedGroupStrings;
+  DWORD dwTotalGroupStrings;
+  DWORD dwMaxSecondNameStringLength;
+} RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO;

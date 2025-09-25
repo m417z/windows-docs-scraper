@@ -1,0 +1,3 @@
+HRESULT UnsubscribeActivityCoordinatorPolicy(
+  ACTIVITY_COORDINATOR_SUBSCRIPTION subscription
+);

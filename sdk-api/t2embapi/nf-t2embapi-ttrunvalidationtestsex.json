@@ -1,0 +1,58 @@
+{
+  "UID": "NF:t2embapi.TTRunValidationTestsEx",
+  "title": "TTRunValidationTestsEx function (t2embapi.h)",
+  "description": "Validates part or all glyph data of a UCS-4 character (32-bit) font, in the size range specified.",
+  "helpviewer_keywords": [
+    "TTRunValidationTestsEx",
+    "TTRunValidationTestsEx function [Windows GDI]",
+    "_win32_TTRunValidationTestsEx",
+    "gdi.ttrunvalidationtestsex",
+    "t2embapi/TTRunValidationTestsEx"
+  ],
+  "old-location": "gdi\\ttrunvalidationtestsex.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "4b4fdd3f-c07c-407c-87eb-5bd8a1620d75",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GDI], _win32_TTRunValidationTestsEx, gdi.ttrunvalidationtestsex, t2embapi/TTRunValidationTestsEx",
+  "req.header": "t2embapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "T2embed.lib",
+  "req.dll": "T2embed.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TTRunValidationTestsEx",
+    "t2embapi/TTRunValidationTestsEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "T2embed.dll"
+  ],
+  "api_name": [
+    "TTRunValidationTestsEx"
+  ]
+}

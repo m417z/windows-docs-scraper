@@ -1,0 +1,9 @@
+typedef struct _STORAGE_TEMPERATURE_THRESHOLD {
+  ULONG   Version;
+  ULONG   Size;
+  USHORT  Flags;
+  USHORT  Index;
+  SHORT   Threshold;
+  BOOLEAN OverThreshold;
+  UCHAR   Reserved;
+} STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD;

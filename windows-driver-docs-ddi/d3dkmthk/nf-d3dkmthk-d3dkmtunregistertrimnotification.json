@@ -1,0 +1,50 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTUnregisterTrimNotification",
+  "title": "D3DKMTUnregisterTrimNotification function (d3dkmthk.h)",
+  "description": "D3DKMTUnregisterTrimNotification is used to remove a callback registration for a kernel mode device receiving notifications from a graphics framework (such as OpenGL).",
+  "old-location": "display\\d3dkmtunregistertrimnotification.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTUnregisterTrimNotification function"
+  ],
+  "ms.keywords": "D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTUnregisterTrimNotification",
+    "d3dkmthk/D3DKMTUnregisterTrimNotification"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "GDI32.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-1.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-2.dll"
+  ],
+  "api_name": [
+    "D3DKMTUnregisterTrimNotification"
+  ]
+}

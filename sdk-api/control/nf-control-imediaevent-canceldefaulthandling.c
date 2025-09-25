@@ -1,0 +1,3 @@
+HRESULT CancelDefaultHandling(
+  long lEvCode
+);

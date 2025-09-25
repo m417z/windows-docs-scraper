@@ -1,0 +1,3 @@
+typedef struct _WS_VOID_DESCRIPTION {
+  ULONG size;
+} WS_VOID_DESCRIPTION;

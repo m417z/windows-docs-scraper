@@ -1,0 +1,4 @@
+typedef struct _WWAN_IPV4_ADDRESS {
+  ULONG OnLinkPrefixLength;
+  UCHAR IPV4Address[4];
+} WWAN_IPV4_ADDRESS, *PWWAN_IPV4_ADDRESS;

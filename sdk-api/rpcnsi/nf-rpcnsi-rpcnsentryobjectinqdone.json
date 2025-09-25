@@ -1,0 +1,58 @@
+{
+  "UID": "NF:rpcnsi.RpcNsEntryObjectInqDone",
+  "title": "RpcNsEntryObjectInqDone function (rpcnsi.h)",
+  "description": "The RpcNsEntryObjectInqDone function deletes the inquiry context for a name-service database entry's objects.",
+  "helpviewer_keywords": [
+    "RpcNsEntryObjectInqDone",
+    "RpcNsEntryObjectInqDone function [RPC]",
+    "_rpc_rpcnsentryobjectinqdone",
+    "rpc.rpcnsentryobjectinqdone",
+    "rpcnsi/RpcNsEntryObjectInqDone"
+  ],
+  "old-location": "rpc\\rpcnsentryobjectinqdone.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "de1ed214-1018-498a-81a9-7932d4eead0b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RpcNsEntryObjectInqDone, RpcNsEntryObjectInqDone function [RPC], _rpc_rpcnsentryobjectinqdone, rpc.rpcnsentryobjectinqdone, rpcnsi/RpcNsEntryObjectInqDone",
+  "req.header": "rpcnsi.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcns4.lib",
+  "req.dll": "Rpcns4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RpcNsEntryObjectInqDone",
+    "rpcnsi/RpcNsEntryObjectInqDone"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcns4.dll"
+  ],
+  "api_name": [
+    "RpcNsEntryObjectInqDone"
+  ]
+}

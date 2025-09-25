@@ -1,0 +1,5 @@
+typedef enum _TS_SB_SORT_BY {
+  TS_SB_SORT_BY_NONE = 0,
+  TS_SB_SORT_BY_NAME = 0x1,
+  TS_SB_SORT_BY_PROP = 0x2
+} TS_SB_SORT_BY;

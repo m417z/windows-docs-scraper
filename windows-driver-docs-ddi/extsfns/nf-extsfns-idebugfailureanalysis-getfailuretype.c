@@ -1,0 +1,1 @@
+DEBUG_FAILURE_TYPE GetFailureType();

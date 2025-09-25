@@ -1,0 +1,71 @@
+{
+  "UID": "NF:netfw.INetFwProfile.put_ExceptionsNotAllowed",
+  "title": "INetFwProfile::put_ExceptionsNotAllowed (netfw.h)",
+  "description": "Indicates whether the firewall should not allow exceptions. (Put)",
+  "helpviewer_keywords": [
+    "ExceptionsNotAllowed property [ICS/ICF]",
+    "ExceptionsNotAllowed property [ICS/ICF]",
+    "INetFwProfile interface",
+    "INetFwProfile interface [ICS/ICF]",
+    "ExceptionsNotAllowed property",
+    "INetFwProfile.ExceptionsNotAllowed",
+    "INetFwProfile.put_ExceptionsNotAllowed",
+    "INetFwProfile::ExceptionsNotAllowed",
+    "INetFwProfile::get_ExceptionsNotAllowed",
+    "INetFwProfile::put_ExceptionsNotAllowed",
+    "ics.inetfwprofile_exceptionsnotallowed",
+    "netfw/INetFwProfile::ExceptionsNotAllowed",
+    "netfw/INetFwProfile::get_ExceptionsNotAllowed",
+    "netfw/INetFwProfile::put_ExceptionsNotAllowed",
+    "put_ExceptionsNotAllowed"
+  ],
+  "old-location": "ics\\inetfwprofile_exceptionsnotallowed.htm",
+  "tech.root": "ics",
+  "ms.assetid": "5b9eae72-546e-4724-acba-c2f2d9ad1cc6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ExceptionsNotAllowed property [ICS/ICF], ExceptionsNotAllowed property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],ExceptionsNotAllowed property, INetFwProfile.ExceptionsNotAllowed, INetFwProfile.put_ExceptionsNotAllowed, INetFwProfile::ExceptionsNotAllowed, INetFwProfile::get_ExceptionsNotAllowed, INetFwProfile::put_ExceptionsNotAllowed, ics.inetfwprofile_exceptionsnotallowed, netfw/INetFwProfile::ExceptionsNotAllowed, netfw/INetFwProfile::get_ExceptionsNotAllowed, netfw/INetFwProfile::put_ExceptionsNotAllowed, put_ExceptionsNotAllowed",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INetFwProfile::put_ExceptionsNotAllowed",
+    "netfw/INetFwProfile::put_ExceptionsNotAllowed"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FirewallAPI.dll",
+    "Hnetcfg.dll"
+  ],
+  "api_name": [
+    "INetFwProfile.ExceptionsNotAllowed",
+    "INetFwProfile.get_ExceptionsNotAllowed",
+    "INetFwProfile.put_ExceptionsNotAllowed"
+  ]
+}

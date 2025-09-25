@@ -1,0 +1,73 @@
+{
+  "UID": "NS:winuser.tagKEYBDINPUT",
+  "title": "KEYBDINPUT (winuser.h)",
+  "description": "Contains information about a simulated keyboard event.",
+  "helpviewer_keywords": [
+    "*LPKEYBDINPUT",
+    "*PKEYBDINPUT",
+    "KEYBDINPUT",
+    "KEYBDINPUT structure [Keyboard and Mouse Input]",
+    "KEYEVENTF_EXTENDEDKEY",
+    "KEYEVENTF_KEYUP",
+    "KEYEVENTF_SCANCODE",
+    "KEYEVENTF_UNICODE",
+    "PKEYBDINPUT",
+    "PKEYBDINPUT structure pointer [Keyboard and Mouse Input]",
+    "_win32_KEYBDINPUT_str",
+    "_win32_keybdinput_str_cpp",
+    "inputdev.keybdinput",
+    "winui._win32_keybdinput_str",
+    "winuser/KEYBDINPUT",
+    "winuser/PKEYBDINPUT"
+  ],
+  "old-location": "inputdev\\keybdinput.htm",
+  "tech.root": "inputdev",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\userinput\\keyboardinput\\keyboardinputreference\\keyboardinputstructures\\keybdinput.htm",
+  "ms.date": "05/02/2023",
+  "ms.keywords": "*LPKEYBDINPUT, *PKEYBDINPUT, KEYBDINPUT, KEYBDINPUT structure [Keyboard and Mouse Input], KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, KEYEVENTF_SCANCODE, KEYEVENTF_UNICODE, PKEYBDINPUT, PKEYBDINPUT structure pointer [Keyboard and Mouse Input], _win32_KEYBDINPUT_str, _win32_keybdinput_str_cpp, inputdev.keybdinput, winui._win32_keybdinput_str, winuser/KEYBDINPUT, winuser/PKEYBDINPUT",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KEYBDINPUT, *PKEYBDINPUT, *LPKEYBDINPUT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagKEYBDINPUT",
+    "winuser/tagKEYBDINPUT",
+    "PKEYBDINPUT",
+    "winuser/PKEYBDINPUT",
+    "KEYBDINPUT",
+    "winuser/KEYBDINPUT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winuser.h"
+  ],
+  "api_name": [
+    "KEYBDINPUT"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NF:iphlpapi.RegisterInterfaceTimestampConfigChange",
+  "title": "RegisterInterfaceTimestampConfigChange",
+  "description": "Registers a user-implemented callback function, which the system calls to notify you of a timestamp capability change.",
+  "helpviewer_keywords": [
+    "RegisterInterfaceTimestampConfigChange",
+    "RegisterInterfaceTimestampConfigChange function [IP Helper]",
+    "iphlp.registerinterfacetimestampconfigchange",
+    "iphlpapi/RegisterInterfaceTimestampConfigChange"
+  ],
+  "tech.root": "IpHlp",
+  "ms.date": "01/06/2021",
+  "req.construct-type": "function",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "RegisterInterfaceTimestampConfigChange",
+    "iphlpapi/RegisterInterfaceTimestampConfigChange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "RegisterInterfaceTimestampConfigChange"
+  ]
+}

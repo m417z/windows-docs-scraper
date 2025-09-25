@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_GETROOTPAGETABLESIZE",
+  "title": "DXGKDDI_GETROOTPAGETABLESIZE (d3dkmddi.h)",
+  "description": "DxgkDdiGetRootPageTableSize returns the minimum root page table size, in bytes, that is needed to hold the given number of page table entries.",
+  "old-location": "display\\dxgkddigetrootpagetablesize.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_GETROOTPAGETABLESIZE callback function"
+  ],
+  "ms.keywords": "DXGKDDI_GETROOTPAGETABLESIZE, DXGKDDI_GETROOTPAGETABLESIZE callback, DxgkDdiGetRootPageTableSize, DxgkDdiGetRootPageTableSize callback function [Display Devices], d3dkmddi/DxgkDdiGetRootPageTableSize, display.dxgkddigetrootpagetablesize",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_GETROOTPAGETABLESIZE",
+    "d3dkmddi/DXGKDDI_GETROOTPAGETABLESIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_GETROOTPAGETABLESIZE"
+  ]
+}

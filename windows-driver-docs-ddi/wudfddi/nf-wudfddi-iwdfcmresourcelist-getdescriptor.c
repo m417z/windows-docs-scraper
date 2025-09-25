@@ -1,0 +1,3 @@
+PCM_PARTIAL_RESOURCE_DESCRIPTOR GetDescriptor(
+  ULONG Index
+);

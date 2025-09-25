@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_VIDEOPROCESSBEGINFRAME",
+  "title": "PFND3DDDI_VIDEOPROCESSBEGINFRAME (d3dumddi.h)",
+  "description": "The VideoProcessBeginFrame function notifies the user-mode display driver that processing of a video frame can begin on the specified Microsoft DirectX Video Accelerator (VA) video processing device.",
+  "old-location": "display\\videoprocessbeginframe.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_VIDEOPROCESSBEGINFRAME callback function"
+  ],
+  "ms.keywords": "PFND3DDDI_VIDEOPROCESSBEGINFRAME, PFND3DDDI_VIDEOPROCESSBEGINFRAME callback, UserModeDisplayDriver_Functions_c3ad6569-b0a0-4688-bd1a-f02a7176a2f2.xml, VideoProcessBeginFrame, VideoProcessBeginFrame callback function [Display Devices], d3dumddi/VideoProcessBeginFrame, display.videoprocessbeginframe",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_VIDEOPROCESSBEGINFRAME",
+    "d3dumddi/PFND3DDDI_VIDEOPROCESSBEGINFRAME"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_VIDEOPROCESSBEGINFRAME"
+  ]
+}

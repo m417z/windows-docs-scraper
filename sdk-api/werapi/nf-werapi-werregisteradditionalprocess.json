@@ -1,0 +1,62 @@
+{
+  "UID": "NF:werapi.WerRegisterAdditionalProcess",
+  "title": "WerRegisterAdditionalProcess function (werapi.h)",
+  "description": "Registers a process to be included in the Windows Error Reporting (WER) report along with the main application process. Optionally specifies a thread within that registered process to get additional data from.",
+  "helpviewer_keywords": [
+    "WerRegisterAdditionalProcess",
+    "WerRegisterAdditionalProcess function [Windows Error Reporting]",
+    "wer.werregisteradditionalprocess",
+    "werapi/WerRegisterAdditionalProcess"
+  ],
+  "old-location": "wer\\werregisteradditionalprocess.htm",
+  "tech.root": "wer",
+  "ms.assetid": "F4E44C22-6BE1-4512-80F6-1B6741E3ADBB",
+  "ms.date": "07/25/2023",
+  "ms.keywords": "WerRegisterAdditionalProcess, WerRegisterAdditionalProcess function [Windows Error Reporting], wer.werregisteradditionalprocess, werapi/WerRegisterAdditionalProcess",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerRegisterAdditionalProcess",
+    "werapi/WerRegisterAdditionalProcess"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerRegisterAdditionalProcess"
+  ]
+}

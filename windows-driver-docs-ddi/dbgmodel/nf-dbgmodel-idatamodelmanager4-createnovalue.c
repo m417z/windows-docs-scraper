@@ -1,0 +1,3 @@
+HRESULT CreateNoValue(
+  IModelObject **object
+);

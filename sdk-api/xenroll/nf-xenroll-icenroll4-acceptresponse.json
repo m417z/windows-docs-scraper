@@ -1,0 +1,69 @@
+{
+  "UID": "NF:xenroll.ICEnroll4.acceptResponse",
+  "title": "ICEnroll4::acceptResponse (xenroll.h)",
+  "description": "Accepts delivery of the credentials issued in response to an earlier call to createRequest and places the credentials in the appropriate store.",
+  "helpviewer_keywords": [
+    "CEnroll object [Security]",
+    "acceptResponse method",
+    "ICEnroll4 interface [Security]",
+    "acceptResponse method",
+    "ICEnroll4.acceptResponse",
+    "ICEnroll4::acceptResponse",
+    "_xen_icenroll4_acceptresponse",
+    "acceptResponse",
+    "acceptResponse method [Security]",
+    "acceptResponse method [Security]",
+    "CEnroll object",
+    "acceptResponse method [Security]",
+    "ICEnroll4 interface",
+    "security.icenroll4_acceptresponse",
+    "xenroll/ICEnroll4::acceptResponse"
+  ],
+  "old-location": "security\\icenroll4_acceptresponse.htm",
+  "tech.root": "security",
+  "ms.assetid": "1149a76e-e714-4bc7-842c-6fcbe220cd24",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CEnroll object [Security],acceptResponse method, ICEnroll4 interface [Security],acceptResponse method, ICEnroll4.acceptResponse, ICEnroll4::acceptResponse, _xen_icenroll4_acceptresponse, acceptResponse, acceptResponse method [Security], acceptResponse method [Security],CEnroll object, acceptResponse method [Security],ICEnroll4 interface, security.icenroll4_acceptresponse, xenroll/ICEnroll4::acceptResponse",
+  "req.header": "xenroll.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": "Xenroll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICEnroll4::acceptResponse",
+    "xenroll/ICEnroll4::acceptResponse"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Xenroll.dll"
+  ],
+  "api_name": [
+    "ICEnroll4.acceptResponse",
+    "CEnroll.acceptResponse"
+  ]
+}

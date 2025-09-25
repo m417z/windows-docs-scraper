@@ -1,0 +1,3 @@
+HRESULT AddDeviceSourceInfo(
+  LPCWSTR DeviceSourceInfo
+);

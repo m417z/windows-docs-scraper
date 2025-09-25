@@ -1,0 +1,20 @@
+typedef struct _SERIAL_COMMPROP {
+  USHORT PacketLength;
+  USHORT PacketVersion;
+  ULONG  ServiceMask;
+  ULONG  Reserved1;
+  ULONG  MaxTxQueue;
+  ULONG  MaxRxQueue;
+  ULONG  MaxBaud;
+  ULONG  ProvSubType;
+  ULONG  ProvCapabilities;
+  ULONG  SettableParams;
+  ULONG  SettableBaud;
+  USHORT SettableData;
+  USHORT SettableStopParity;
+  ULONG  CurrentTxQueue;
+  ULONG  CurrentRxQueue;
+  ULONG  ProvSpec1;
+  ULONG  ProvSpec2;
+  WCHAR  ProvChar[1];
+} SERIAL_COMMPROP, *PSERIAL_COMMPROP;

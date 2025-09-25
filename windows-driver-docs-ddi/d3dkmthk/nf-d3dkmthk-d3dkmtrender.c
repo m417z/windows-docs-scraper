@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTRender(
+  D3DKMT_RENDER *unnamedParam1
+);

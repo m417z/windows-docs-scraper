@@ -1,0 +1,3 @@
+void SspiFreeAsyncContext(
+  SspiAsyncContext *Handle
+);

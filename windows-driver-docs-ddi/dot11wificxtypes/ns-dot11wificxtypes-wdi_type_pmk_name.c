@@ -1,0 +1,3 @@
+typedef struct _WDI_TYPE_PMK_NAME {
+  UINT8 Name[16];
+} WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME;

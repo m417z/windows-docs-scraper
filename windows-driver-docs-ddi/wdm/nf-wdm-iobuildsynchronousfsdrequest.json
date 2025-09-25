@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoBuildSynchronousFsdRequest",
+  "title": "IoBuildSynchronousFsdRequest function (wdm.h)",
+  "description": "The IoBuildSynchronousFsdRequest routine allocates and sets up an IRP for a synchronously processed I/O request.",
+  "old-location": "kernel\\iobuildsynchronousfsdrequest.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoBuildSynchronousFsdRequest function"
+  ],
+  "ms.keywords": "IoBuildSynchronousFsdRequest, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, kernel.iobuildsynchronousfsdrequest, wdm/IoBuildSynchronousFsdRequest",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "ForwardedAtBadIrqlFsdSync, IoBuildSynchronousFsdRequestNoFree, IoBuildSynchronousFsdRequestWait, IoBuildSynchronousFsdRequestWaitTimeout, PowerIrpDDis, SignalEventInCompletion, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoBuildSynchronousFsdRequest",
+    "wdm/IoBuildSynchronousFsdRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoBuildSynchronousFsdRequest"
+  ]
+}

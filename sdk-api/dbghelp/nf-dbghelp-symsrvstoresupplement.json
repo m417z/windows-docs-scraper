@@ -1,0 +1,61 @@
+{
+  "UID": "NF:dbghelp.SymSrvStoreSupplement",
+  "title": "SymSrvStoreSupplement function (dbghelp.h)",
+  "description": "The SymSrvStoreSupplement function (dbghelp.h) stores a file in the specified supplement to a symbol store.",
+  "helpviewer_keywords": [
+    "SymSrvStoreSupplement",
+    "SymSrvStoreSupplement function",
+    "SymSrvStoreSupplementW",
+    "base.symsrvstoresupplement",
+    "dbghelp/SymSrvStoreSupplement",
+    "dbghelp/SymSrvStoreSupplementW"
+  ],
+  "old-location": "base\\symsrvstoresupplement.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "579bd9ff-cb23-426b-8188-6897d83ada28",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SymSrvStoreSupplementW (Unicode) and SymSrvStoreSupplement (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dbghelp.lib",
+  "req.dll": "Dbghelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 6.3 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SymSrvStoreSupplement",
+    "dbghelp/SymSrvStoreSupplement"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dbghelp.dll"
+  ],
+  "api_name": [
+    "SymSrvStoreSupplement",
+    "SymSrvStoreSupplement",
+    "SymSrvStoreSupplementW"
+  ]
+}

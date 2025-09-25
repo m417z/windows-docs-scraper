@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._SEC_SESSION_TICKET",
+  "tech.root": "ifsk",
+  "title": "SEC_SESSION_TICKET",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the SEC_SESSION_TICKET structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SEC_SESSION_TICKET, *PSEC_SESSION_TICKET",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SEC_SESSION_TICKET",
+    "PSEC_SESSION_TICKET",
+    "SEC_SESSION_TICKET"
+  ],
+  "f1_keywords": [
+    "_SEC_SESSION_TICKET",
+    "ntifs/_SEC_SESSION_TICKET",
+    "PSEC_SESSION_TICKET",
+    "ntifs/PSEC_SESSION_TICKET",
+    "SEC_SESSION_TICKET",
+    "ntifs/SEC_SESSION_TICKET"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_SEC_SESSION_TICKET"
+  ]
+}

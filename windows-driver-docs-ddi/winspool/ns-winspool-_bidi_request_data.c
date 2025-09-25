@@ -1,0 +1,5 @@
+typedef struct _BIDI_REQUEST_DATA {
+  DWORD     dwReqNumber;
+  LPWSTR    pSchema;
+  BIDI_DATA data;
+} BIDI_REQUEST_DATA, *PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA;

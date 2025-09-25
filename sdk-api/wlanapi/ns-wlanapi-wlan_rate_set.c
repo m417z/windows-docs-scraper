@@ -1,0 +1,4 @@
+typedef struct _WLAN_RATE_SET {
+  ULONG  uRateSetLength;
+  USHORT usRateSet[DOT11_RATE_SET_MAX_LENGTH];
+} WLAN_RATE_SET, *PWLAN_RATE_SET;

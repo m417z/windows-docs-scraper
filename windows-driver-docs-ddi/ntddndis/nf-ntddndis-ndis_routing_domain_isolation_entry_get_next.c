@@ -1,0 +1,3 @@
+void NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY_GET_NEXT(
+  _IsolationInfoEntry_
+);

@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.DEVICE_RESET_HANDLER",
+  "title": "DEVICE_RESET_HANDLER (wdm.h)",
+  "description": "The DeviceReset routine is used to reset and recover a malfunctioning device.",
+  "tech.root": "kernel",
+  "ms.date": "05/31/2022",
+  "keywords": [
+    "PDEVICE_RESET_HANDLER callback function"
+  ],
+  "ms.keywords": "DeviceReset, PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PDEVICE_RESET_HANDLER",
+    "wdm/PDEVICE_RESET_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PDEVICE_RESET_HANDLER"
+  ]
+}

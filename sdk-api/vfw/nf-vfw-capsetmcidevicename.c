@@ -1,0 +1,4 @@
+BOOL capSetMCIDeviceName(
+     hwnd,
+     szName
+);

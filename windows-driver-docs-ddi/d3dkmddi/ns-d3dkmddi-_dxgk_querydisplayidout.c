@@ -1,0 +1,4 @@
+typedef struct _DXGK_QUERYDISPLAYIDOUT {
+  UINT Length;
+  BYTE *pDescriptor;
+} DXGK_QUERYDISPLAYIDOUT;

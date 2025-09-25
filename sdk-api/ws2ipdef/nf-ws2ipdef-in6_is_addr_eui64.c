@@ -1,0 +1,3 @@
+BOOLEAN IN6_IS_ADDR_EUI64(
+  const IN6_ADDR *a
+);

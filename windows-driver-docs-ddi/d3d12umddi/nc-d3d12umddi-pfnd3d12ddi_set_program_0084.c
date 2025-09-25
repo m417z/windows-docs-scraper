@@ -1,0 +1,7 @@
+PFND3D12DDI_SET_PROGRAM_0084 Pfnd3d12ddiSetProgram0084;
+
+void Pfnd3d12ddiSetProgram0084(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  const D3D12DDI_SET_PROGRAM_DESC_0084 *pDesc
+)
+{...}

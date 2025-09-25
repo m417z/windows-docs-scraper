@@ -1,0 +1,3 @@
+typedef struct _SERIAL_BAUD_RATE {
+  ULONG BaudRate;
+} SERIAL_BAUD_RATE, *PSERIAL_BAUD_RATE;

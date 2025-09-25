@@ -1,0 +1,61 @@
+{
+  "UID": "NF:resapi.ResUtilGetMultiSzProperty",
+  "title": "ResUtilGetMultiSzProperty function (resapi.h)",
+  "description": "Retrieves a multiple string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_MULTI_SZ_PROPERTY type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_GET_MULTI_SZ_PROPERTY",
+    "PRESUTIL_GET_MULTI_SZ_PROPERTY function [Failover Cluster]",
+    "ResUtilGetMultiSzProperty",
+    "ResUtilGetMultiSzProperty function [Failover Cluster]",
+    "_wolf_resutilgetmultiszproperty",
+    "mscs.resutilgetmultiszproperty",
+    "resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY",
+    "resapi/ResUtilGetMultiSzProperty"
+  ],
+  "old-location": "mscs\\resutilgetmultiszproperty.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "7f345cce-fa67-467c-bd4f-286609c3f757",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilGetMultiSzProperty, ResUtilGetMultiSzProperty function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY, resapi/ResUtilGetMultiSzProperty",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilGetMultiSzProperty",
+    "resapi/ResUtilGetMultiSzProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilGetMultiSzProperty"
+  ]
+}

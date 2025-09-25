@@ -1,0 +1,44 @@
+{
+  "UID": "NF:dxcore.DXCoreCreateAdapterFactory",
+  "title": "DXCoreCreateAdapterFactory",
+  "description": "Creates a DXCore adapter factory, which you can use to generate further DXCore objects.",
+  "tech.root": "dxcore",
+  "ms.date": "06/06/2019",
+  "ms.keywords": "DXCoreCreateAdapterFactory, DXCoreCreateAdapterFactory function, dxcore/DXCoreCreateAdapterFactory, dxcore.dxcorecreateadapterfactory",
+  "ms.localizationpriority": "low",
+  "targetos": "Windows",
+  "ms.service": "windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "dxcore.dll",
+  "req.header": "dxcore.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "dxcore.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 (Build 18936)",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref",
+    "kbsyntax"
+  ],
+  "api_type": [
+    "dllexport"
+  ],
+  "api_location": [
+    "ext-ms-win-dxcore-l1-1-0.dll",
+    "dxcore.dll"
+  ],
+  "api_name": [
+    "DXCoreCreateAdapterFactory"
+  ]
+}

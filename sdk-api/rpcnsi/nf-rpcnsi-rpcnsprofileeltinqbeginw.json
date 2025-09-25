@@ -1,0 +1,72 @@
+{
+  "UID": "NF:rpcnsi.RpcNsProfileEltInqBeginW",
+  "title": "RpcNsProfileEltInqBeginW function (rpcnsi.h)",
+  "description": "The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile. (Unicode)",
+  "helpviewer_keywords": [
+    "RPC_C_PROFILE_ALL_ELTS",
+    "RPC_C_PROFILE_DEFAULT_ELT",
+    "RPC_C_PROFILE_MATCH_BY_BOTH",
+    "RPC_C_PROFILE_MATCH_BY_IF",
+    "RPC_C_PROFILE_MATCH_BY_MBR",
+    "RPC_C_VERS_ALL",
+    "RPC_C_VERS_COMPATIBLE",
+    "RPC_C_VERS_EXACT",
+    "RPC_C_VERS_MAJOR_ONLY",
+    "RPC_C_VERS_UPTO",
+    "RpcNsProfileEltInqBegin",
+    "RpcNsProfileEltInqBegin function [RPC]",
+    "RpcNsProfileEltInqBeginW",
+    "_rpc_rpcnsprofileeltinqbegin",
+    "rpc.rpcnsprofileeltinqbegin",
+    "rpcnsi/RpcNsProfileEltInqBegin",
+    "rpcnsi/RpcNsProfileEltInqBeginW"
+  ],
+  "old-location": "rpc\\rpcnsprofileeltinqbegin.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "5b14eb21-0c3e-4f12-b1dc-95b364d87a4f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RPC_C_PROFILE_ALL_ELTS, RPC_C_PROFILE_DEFAULT_ELT, RPC_C_PROFILE_MATCH_BY_BOTH, RPC_C_PROFILE_MATCH_BY_IF, RPC_C_PROFILE_MATCH_BY_MBR, RPC_C_VERS_ALL, RPC_C_VERS_COMPATIBLE, RPC_C_VERS_EXACT, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsProfileEltInqBegin, RpcNsProfileEltInqBegin function [RPC], RpcNsProfileEltInqBeginA, RpcNsProfileEltInqBeginW, _rpc_rpcnsprofileeltinqbegin, rpc.rpcnsprofileeltinqbegin, rpcnsi/RpcNsProfileEltInqBegin, rpcnsi/RpcNsProfileEltInqBeginA, rpcnsi/RpcNsProfileEltInqBeginW",
+  "req.header": "rpcnsi.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RpcNsProfileEltInqBeginW (Unicode) and RpcNsProfileEltInqBeginA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcns4.lib",
+  "req.dll": "Rpcns4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RpcNsProfileEltInqBeginW",
+    "rpcnsi/RpcNsProfileEltInqBeginW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcns4.dll"
+  ],
+  "api_name": [
+    "RpcNsProfileEltInqBegin",
+    "RpcNsProfileEltInqBeginA",
+    "RpcNsProfileEltInqBeginW"
+  ]
+}

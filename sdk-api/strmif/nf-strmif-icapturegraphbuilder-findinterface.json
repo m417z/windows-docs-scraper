@@ -1,0 +1,64 @@
+{
+  "UID": "NF:strmif.ICaptureGraphBuilder.FindInterface",
+  "title": "ICaptureGraphBuilder::FindInterface (strmif.h)",
+  "description": "Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Looks for the specified interface on the filter, upstream and downstream from the filter, and, optionally, only on the output pin of the given category.",
+  "helpviewer_keywords": [
+    "FindInterface",
+    "FindInterface method [DirectShow]",
+    "FindInterface method [DirectShow]",
+    "ICaptureGraphBuilder interface",
+    "ICaptureGraphBuilder interface [DirectShow]",
+    "FindInterface method",
+    "ICaptureGraphBuilder.FindInterface",
+    "ICaptureGraphBuilder::FindInterface",
+    "ICaptureGraphBuilderFindInterface",
+    "dshow.icapturegraphbuilder_findinterface",
+    "strmif/ICaptureGraphBuilder::FindInterface"
+  ],
+  "old-location": "dshow\\icapturegraphbuilder_findinterface.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "23fe9a5a-0f3b-44b3-9d37-6889214657bf",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],FindInterface method, ICaptureGraphBuilder.FindInterface, ICaptureGraphBuilder::FindInterface, ICaptureGraphBuilderFindInterface, dshow.icapturegraphbuilder_findinterface, strmif/ICaptureGraphBuilder::FindInterface",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICaptureGraphBuilder::FindInterface",
+    "strmif/ICaptureGraphBuilder::FindInterface"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmif.h"
+  ],
+  "api_name": [
+    "ICaptureGraphBuilder.FindInterface"
+  ]
+}

@@ -1,0 +1,9 @@
+PKTMON_CLNT_ADD_EDGE PktmonClntAddEdge;
+
+NTSTATUS PktmonClntAddEdge(
+  PKTMON_COMPONENT_CONTEXT *CompContext,
+  PCUNICODE_STRING Name,
+  PKTMON_PACKET_TYPE PacketType,
+  PKTMON_EDGE_CONTEXT *EdgeContext
+)
+{...}

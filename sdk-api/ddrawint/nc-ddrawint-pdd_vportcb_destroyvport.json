@@ -1,0 +1,60 @@
+{
+  "UID": "NC:ddrawint.PDD_VPORTCB_DESTROYVPORT",
+  "title": "PDD_VPORTCB_DESTROYVPORT (ddrawint.h)",
+  "description": "The DdVideoPortDestroy callback function notifies the driver that DirectDraw has destroyed the specified VPE object.",
+  "helpviewer_keywords": [
+    "DdVideoPortDestroy",
+    "DdVideoPortDestroy callback function [Display Devices]",
+    "PDD_VPORTCB_DESTROYVPORT",
+    "PDD_VPORTCB_DESTROYVPORT callback",
+    "ddfncs_865d04b1-c817-4000-9fdc-9e498dee679c.xml",
+    "ddrawint/DdVideoPortDestroy",
+    "display.ddvideoportdestroy"
+  ],
+  "old-location": "display\\ddvideoportdestroy.htm",
+  "tech.root": "display",
+  "ms.assetid": "0426eeaa-4d9a-4e5e-8550-2f7adbb26685",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DdVideoPortDestroy, DdVideoPortDestroy callback function [Display Devices], PDD_VPORTCB_DESTROYVPORT, PDD_VPORTCB_DESTROYVPORT callback, ddfncs_865d04b1-c817-4000-9fdc-9e498dee679c.xml, ddrawint/DdVideoPortDestroy, display.ddvideoportdestroy",
+  "req.header": "ddrawint.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PDD_VPORTCB_DESTROYVPORT",
+    "ddrawint/PDD_VPORTCB_DESTROYVPORT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ddrawint.h"
+  ],
+  "api_name": [
+    "DdVideoPortDestroy"
+  ]
+}

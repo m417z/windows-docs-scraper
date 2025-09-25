@@ -1,0 +1,48 @@
+{
+  "UID": "NF:irb.AtaPortRegistryControllerKeyWriteDeferred",
+  "title": "AtaPortRegistryControllerKeyWriteDeferred function (irb.h)",
+  "description": "The AtaPortRegistryControllerKeyWriteDeferred routine writes the data asynchronously to the indicated value name under the registry key HKLM\\CurrentControlSet\\Services\\<service name>\\ControllerN, where N is the number of the controller.",
+  "old-location": "storage\\ataportregistrycontrollerkeywritedeferred.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortRegistryControllerKeyWriteDeferred function"
+  ],
+  "ms.keywords": "AtaPortRegistryControllerKeyWriteDeferred, AtaPortRegistryControllerKeyWriteDeferred routine [Storage Devices], atartns_cd43ce27-787a-4ffb-99d5-de7f410c4b32.xml, irb/AtaPortRegistryControllerKeyWriteDeferred, storage.ataportregistrycontrollerkeywritedeferred",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortRegistryControllerKeyWriteDeferred",
+    "irb/AtaPortRegistryControllerKeyWriteDeferred"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "irb.h"
+  ],
+  "api_name": [
+    "AtaPortRegistryControllerKeyWriteDeferred"
+  ]
+}

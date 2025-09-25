@@ -1,0 +1,5 @@
+typedef struct _RTM_NET_ADDRESS {
+  USHORT AddressFamily;
+  USHORT NumBits;
+  UCHAR  AddrBits[RTM_MAX_ADDRESS_SIZE];
+} RTM_NET_ADDRESS, *PRTM_NET_ADDRESS;

@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ieee8021q.NetExtensionGetPacketIeee8021Q",
+  "tech.root": "netvista",
+  "title": "NetExtensionGetPacketIeee8021Q",
+  "ms.date": "04/15/2021",
+  "targetos": "Windows",
+  "description": "The NetExtensionGetPacketIeee8021Q function retrieves the 802.1Q information for a NET_PACKET.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ieee8021q.h",
+  "req.idl": null,
+  "req.include-header": "netadaptercx.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": 2.33,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ieee8021q.h"
+  ],
+  "api_name": [
+    "NetExtensionGetPacketIeee8021Q"
+  ],
+  "f1_keywords": [
+    "NetExtensionGetPacketIeee8021Q",
+    "ieee8021q/NetExtensionGetPacketIeee8021Q"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

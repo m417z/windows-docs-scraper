@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetHwProtectionTeardownRecovery(
+  D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY *unnamedParam1
+);

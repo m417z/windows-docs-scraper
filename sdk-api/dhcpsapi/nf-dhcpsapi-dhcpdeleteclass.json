@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpDeleteClass",
+  "title": "DhcpDeleteClass function (dhcpsapi.h)",
+  "description": "Deletes a DHCP class from the DHCP server.",
+  "helpviewer_keywords": [
+    "DhcpDeleteClass",
+    "DhcpDeleteClass function [DHCP]",
+    "dhcp.dhcpdeleteclass",
+    "dhcpsapi/DhcpDeleteClass"
+  ],
+  "old-location": "dhcp\\dhcpdeleteclass.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "45659805-d0d0-4b84-ac98-4a0f53133b0c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpDeleteClass, DhcpDeleteClass function [DHCP], dhcp.dhcpdeleteclass, dhcpsapi/DhcpDeleteClass",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpDeleteClass",
+    "dhcpsapi/DhcpDeleteClass"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpDeleteClass"
+  ]
+}

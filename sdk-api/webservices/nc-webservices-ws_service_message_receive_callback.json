@@ -1,0 +1,58 @@
+{
+  "UID": "NC:webservices.WS_SERVICE_MESSAGE_RECEIVE_CALLBACK",
+  "title": "WS_SERVICE_MESSAGE_RECEIVE_CALLBACK (webservices.h)",
+  "description": "Invoked when a WS_MESSAGE is received on an endpoint configured with a WS_SERVICE_CONTRACT which has defaultMessageHandlerCallback set.",
+  "helpviewer_keywords": [
+    "WS_SERVICE_MESSAGE_RECEIVE_CALLBACK",
+    "WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback",
+    "WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows]",
+    "webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK",
+    "wsw.ws_service_message_receive_callback"
+  ],
+  "old-location": "wsw\\ws_service_message_receive_callback.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "2fcd8905-7002-41b8-b947-14d53c889c21",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, wsw.ws_service_message_receive_callback",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WS_SERVICE_MESSAGE_RECEIVE_CALLBACK",
+    "webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WebServices.h"
+  ],
+  "api_name": [
+    "WS_SERVICE_MESSAGE_RECEIVE_CALLBACK"
+  ]
+}

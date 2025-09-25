@@ -1,0 +1,19 @@
+typedef struct tagDIAGNOSTIC_REPORT_DATA {
+  DIAGNOSTIC_REPORT_SIGNATURE signature;
+  GUID                        bucketId;
+  GUID                        reportId;
+  FILETIME                    creationTime;
+  ULONGLONG                   sizeInBytes;
+  LPWSTR                      cabId;
+  DWORD                       reportStatus;
+  GUID                        reportIntegratorId;
+  LPWSTR                      *fileNames;
+  DWORD                       fileCount;
+  LPWSTR                      friendlyEventName;
+  LPWSTR                      applicationName;
+  LPWSTR                      applicationPath;
+  LPWSTR                      description;
+  LPWSTR                      bucketIdString;
+  UINT64                      legacyBucketId;
+  LPWSTR                      reportKey;
+} DIAGNOSTIC_REPORT_DATA;

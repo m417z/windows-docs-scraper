@@ -1,0 +1,3 @@
+HRESULT TxGetClientRect(
+  LPRECT prc
+);

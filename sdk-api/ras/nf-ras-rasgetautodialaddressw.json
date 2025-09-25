@@ -1,0 +1,65 @@
+{
+  "UID": "NF:ras.RasGetAutodialAddressW",
+  "title": "RasGetAutodialAddressW function (ras.h)",
+  "description": "The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database. (Unicode)",
+  "helpviewer_keywords": [
+    "RasGetAutodialAddress",
+    "RasGetAutodialAddress function [RAS]",
+    "RasGetAutodialAddressW",
+    "_ras_rasgetautodialaddress",
+    "ras/RasGetAutodialAddress",
+    "ras/RasGetAutodialAddressW",
+    "rras.rasgetautodialaddress"
+  ],
+  "old-location": "rras\\rasgetautodialaddress.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "b7182760-30c0-4c09-ae99-f656d868e150",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RasGetAutodialAddress, RasGetAutodialAddress function [RAS], RasGetAutodialAddressA, RasGetAutodialAddressW, _ras_rasgetautodialaddress, ras/RasGetAutodialAddress, ras/RasGetAutodialAddressA, ras/RasGetAutodialAddressW, rras.rasgetautodialaddress",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RasGetAutodialAddressW (Unicode) and RasGetAutodialAddressA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasGetAutodialAddressW",
+    "ras/RasGetAutodialAddressW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ras-rasapi32-l1-1-2.dll",
+    "Rasapi32.dll",
+    "Ext-MS-Win-ras-rasapi32-l1-1-0.dll",
+    "Ext-MS-Win-ras-rasapi32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RasGetAutodialAddress",
+    "RasGetAutodialAddressA",
+    "RasGetAutodialAddressW"
+  ]
+}

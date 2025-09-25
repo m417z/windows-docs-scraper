@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1515 {
+  BOOL sv1515_enableforcedlogoff;
+} SERVER_INFO_1515, *PSERVER_INFO_1515, *LPSERVER_INFO_1515;

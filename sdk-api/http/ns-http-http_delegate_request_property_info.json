@@ -1,0 +1,43 @@
+{
+  "UID": "NS:http._HTTP_DELEGATE_REQUEST_PROPERTY_INFO",
+  "title": "HTTP_DELEGATE_REQUEST_PROPERTY_INFO",
+  "description": "Describes additional property information when delegating a request.",
+  "ms.date": "09/28/2020",
+  "tech.root": "http",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": "httpapi.dll",
+  "req.header": "http.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": "httpapi.lib",
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.typenames": "HTTP_DELEGATE_REQUEST_PROPERTY_INFO, *PHTTP_DELEGATE_REQUEST_PROPERTY_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "httpapi.dll"
+  ],
+  "api_name": [
+    "_HTTP_DELEGATE_REQUEST_PROPERTY_INFO",
+    "HTTP_DELEGATE_REQUEST_PROPERTY_INFO"
+  ],
+  "f1_keywords": [
+    "http/_HTTP_DELEGATE_REQUEST_PROPERTY_INFO",
+    "http/HTTP_DELEGATE_REQUEST_PROPERTY_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

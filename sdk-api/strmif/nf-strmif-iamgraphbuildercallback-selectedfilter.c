@@ -1,0 +1,3 @@
+HRESULT SelectedFilter(
+  IMoniker *pMon
+);

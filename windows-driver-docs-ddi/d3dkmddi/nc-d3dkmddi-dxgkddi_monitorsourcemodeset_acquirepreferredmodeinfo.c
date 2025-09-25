@@ -1,0 +1,7 @@
+DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO DxgkddiMonitorsourcemodesetAcquirepreferredmodeinfo;
+
+NTSTATUS DxgkddiMonitorsourcemodesetAcquirepreferredmodeinfo(
+  [in]  IN_CONST_D3DKMDT_HMONITORSOURCEMODESET hMonitorSourceModeSet,
+  [out] DEREF_OUT_CONST_PPD3DKMDT_MONITOR_SOURCE_MODE ppFirstMonitorSourceModeInfo
+)
+{...}

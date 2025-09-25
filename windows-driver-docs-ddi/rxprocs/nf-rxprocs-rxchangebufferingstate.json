@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxprocs.RxChangeBufferingState",
+  "title": "RxChangeBufferingState function (rxprocs.h)",
+  "description": "RxChangeBufferingState is called to process a buffering state change request.",
+  "old-location": "ifsk\\rxchangebufferingstate.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxChangeBufferingState function"
+  ],
+  "ms.keywords": "RxChangeBufferingState, RxChangeBufferingState function [Installable File System Drivers], ifsk.rxchangebufferingstate, rxprocs/RxChangeBufferingState, rxref_be2316b0-d89d-4f61-bd09-05d631d1cfdd.xml",
+  "req.header": "rxprocs.h",
+  "req.include-header": "Rxprocs.h, Struchdr.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxChangeBufferingState",
+    "rxprocs/RxChangeBufferingState"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxprocs.h"
+  ],
+  "api_name": [
+    "RxChangeBufferingState"
+  ]
+}

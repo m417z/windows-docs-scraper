@@ -1,0 +1,3 @@
+HRESULT GetValue(
+  VARIANT *value
+);

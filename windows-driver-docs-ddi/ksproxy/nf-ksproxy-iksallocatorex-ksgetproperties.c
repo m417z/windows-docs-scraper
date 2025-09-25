@@ -1,0 +1,1 @@
+PALLOCATOR_PROPERTIES_EX KsGetProperties();

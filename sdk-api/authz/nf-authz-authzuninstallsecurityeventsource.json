@@ -1,0 +1,57 @@
+{
+  "UID": "NF:authz.AuthzUninstallSecurityEventSource",
+  "title": "AuthzUninstallSecurityEventSource function (authz.h)",
+  "description": "Removes the specified source from the list of valid security event sources.",
+  "helpviewer_keywords": [
+    "AuthzUninstallSecurityEventSource",
+    "AuthzUninstallSecurityEventSource function [Security]",
+    "authz/AuthzUninstallSecurityEventSource",
+    "security.authzuninstallsecurityeventsource"
+  ],
+  "old-location": "security\\authzuninstallsecurityeventsource.htm",
+  "tech.root": "security",
+  "ms.assetid": "495157da-d4ed-42ff-bcb4-5c07ab9ec0e6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AuthzUninstallSecurityEventSource, AuthzUninstallSecurityEventSource function [Security], authz/AuthzUninstallSecurityEventSource, security.authzuninstallsecurityeventsource",
+  "req.header": "authz.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Authz.lib",
+  "req.dll": "Authz.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AuthzUninstallSecurityEventSource",
+    "authz/AuthzUninstallSecurityEventSource"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Authz.dll"
+  ],
+  "api_name": [
+    "AuthzUninstallSecurityEventSource"
+  ]
+}

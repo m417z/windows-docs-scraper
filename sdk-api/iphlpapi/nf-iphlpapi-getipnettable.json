@@ -1,0 +1,58 @@
+{
+  "UID": "NF:iphlpapi.GetIpNetTable",
+  "title": "GetIpNetTable function (iphlpapi.h)",
+  "description": "The GetIpNetTable function retrieves the IPv4 to physical address mapping table.",
+  "helpviewer_keywords": [
+    "GetIpNetTable",
+    "GetIpNetTable function [IP Helper]",
+    "_iphlp_getipnettable",
+    "iphlp.getipnettable",
+    "iphlpapi/GetIpNetTable"
+  ],
+  "old-location": "iphlp\\getipnettable.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "01bcf86e-5fcc-4ce9-bb89-02d393e75d1d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetIpNetTable",
+    "iphlpapi/GetIpNetTable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "GetIpNetTable"
+  ]
+}

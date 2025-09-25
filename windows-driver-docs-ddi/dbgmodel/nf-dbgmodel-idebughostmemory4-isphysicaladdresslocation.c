@@ -1,0 +1,3 @@
+bool IsPhysicalAddressLocation(
+  Location *pLocation
+);

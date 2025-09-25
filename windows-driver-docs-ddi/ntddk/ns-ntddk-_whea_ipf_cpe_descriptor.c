@@ -1,0 +1,5 @@
+typedef struct _WHEA_IPF_CPE_DESCRIPTOR {
+  USHORT Type;
+  UCHAR  Enabled;
+  UCHAR  Reserved;
+} WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR;

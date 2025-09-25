@@ -1,0 +1,3 @@
+HRESULT WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable(
+  BOOL *pbIsUserVerifyingPlatformAuthenticatorAvailable
+);

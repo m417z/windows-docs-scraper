@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fwpsk.FwpsReassembleForwardFragmentGroup0",
+  "title": "FwpsReassembleForwardFragmentGroup0 function (fwpsk.h)",
+  "description": "The FwpsReassembleForwardFragmentGroup0 function assembles a list of IP fragments in the forwarding data path into a single packet.Note  FwpsReassembleForwardFragmentGroup0 is a specific version of FwpsReassembleForwardFragmentGroup.",
+  "old-location": "netvista\\fwpsreassembleforwardfragmentgroup0.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "FwpsReassembleForwardFragmentGroup0 function"
+  ],
+  "ms.keywords": "FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReassembleForwardFragmentGroup0, netvista.fwpsreassembleforwardfragmentgroup0, wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml",
+  "req.header": "fwpsk.h",
+  "req.include-header": "Fwpsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Server 2008.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fwpkclnt.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FwpsReassembleForwardFragmentGroup0",
+    "fwpsk/FwpsReassembleForwardFragmentGroup0"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpkclnt.lib",
+    "fwpkclnt.dll"
+  ],
+  "api_name": [
+    "FwpsReassembleForwardFragmentGroup0"
+  ]
+}

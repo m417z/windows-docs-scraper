@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dot11wdi.MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION",
+  "title": "MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION (dot11wdi.h)",
+  "description": "NDIS calls the MiniportWdiCancelIdleNotification handler function to notify the WDI miniport driver that NDIS has detected activity on the suspended network adapter.",
+  "old-location": "netvista\\miniportwdicancelidlenotification.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback function"
+  ],
+  "ms.keywords": "MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION, MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback, MiniportWdiCancelIdleNotification, MiniportWdiCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCancelIdleNotification, netvista.miniportwdicancelidlenotification",
+  "req.header": "dot11wdi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION",
+    "dot11wdi/MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dot11wdi.h"
+  ],
+  "api_name": [
+    "MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION"
+  ]
+}

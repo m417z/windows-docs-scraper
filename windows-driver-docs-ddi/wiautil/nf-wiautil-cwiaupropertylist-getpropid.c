@@ -1,0 +1,3 @@
+PROPID GetPropId(
+  INT index
+);

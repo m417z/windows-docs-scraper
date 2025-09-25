@@ -1,0 +1,4 @@
+typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT {
+  [in] D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
+  [in] UINT                           GroupIndex;
+} D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT;

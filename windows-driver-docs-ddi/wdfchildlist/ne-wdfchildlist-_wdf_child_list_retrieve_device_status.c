@@ -1,0 +1,6 @@
+typedef enum _WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS {
+  WdfChildListRetrieveDeviceUndefined = 0,
+  WdfChildListRetrieveDeviceSuccess,
+  WdfChildListRetrieveDeviceNotYetCreated,
+  WdfChildListRetrieveDeviceNoSuchDevice
+} WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, *PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS;

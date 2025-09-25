@@ -1,0 +1,50 @@
+{
+  "UID": "NF:ntifs.SeAccessCheckFromState",
+  "tech.root": "ifsk",
+  "title": "SeAccessCheckFromState",
+  "ms.date": "01/10/2023",
+  "targetos": "Windows",
+  "description": "Learn more about the SeAccessCheckFromState function.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "NtosKrnl.exe",
+  "req.header": "ntifs.h",
+  "req.idl": null,
+  "req.include-header": "ntifs.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "SeAccessCheckFromState"
+  ],
+  "f1_keywords": [
+    "SeAccessCheckFromState",
+    "ntifs/SeAccessCheckFromState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "SeAccessCheckFromState"
+  ]
+}

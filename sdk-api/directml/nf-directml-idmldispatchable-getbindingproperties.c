@@ -1,0 +1,1 @@
+DML_BINDING_PROPERTIES GetBindingProperties();

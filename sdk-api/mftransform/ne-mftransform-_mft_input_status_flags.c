@@ -1,0 +1,3 @@
+typedef enum _MFT_INPUT_STATUS_FLAGS {
+  MFT_INPUT_STATUS_ACCEPT_DATA = 0x1
+} ;

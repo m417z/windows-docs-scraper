@@ -1,0 +1,22 @@
+typedef enum RealTimeStylusDataInterest {
+  RTSDI_AllData = 0xffffffff,
+  RTSDI_None = 0,
+  RTSDI_Error = 0x1,
+  RTSDI_RealTimeStylusEnabled = 0x2,
+  RTSDI_RealTimeStylusDisabled = 0x4,
+  RTSDI_StylusNew = 0x8,
+  RTSDI_StylusInRange = 0x10,
+  RTSDI_InAirPackets = 0x20,
+  RTSDI_StylusOutOfRange = 0x40,
+  RTSDI_StylusDown = 0x80,
+  RTSDI_Packets = 0x100,
+  RTSDI_StylusUp = 0x200,
+  RTSDI_StylusButtonUp = 0x400,
+  RTSDI_StylusButtonDown = 0x800,
+  RTSDI_SystemEvents = 0x1000,
+  RTSDI_TabletAdded = 0x2000,
+  RTSDI_TabletRemoved = 0x4000,
+  RTSDI_CustomStylusDataAdded = 0x8000,
+  RTSDI_UpdateMapping = 0x10000,
+  RTSDI_DefaultEvents
+} ;

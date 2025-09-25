@@ -1,0 +1,4 @@
+HBA_STATUS HBA_API HBA_SetRNIDMgmtInfo(
+  HBA_HANDLE   Handle,
+  HBA_MGMTINFO *pInfo
+);

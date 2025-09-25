@@ -1,0 +1,4 @@
+typedef struct D3D12_VIDEO_FORMAT {
+  DXGI_FORMAT           Format;
+  DXGI_COLOR_SPACE_TYPE ColorSpace;
+} D3D12_VIDEO_FORMAT;

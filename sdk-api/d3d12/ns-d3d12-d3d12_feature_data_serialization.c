@@ -1,0 +1,4 @@
+typedef struct D3D12_FEATURE_DATA_SERIALIZATION {
+  UINT                          NodeIndex;
+  D3D12_HEAP_SERIALIZATION_TIER HeapSerializationTier;
+} D3D12_FEATURE_DATA_SERIALIZATION;

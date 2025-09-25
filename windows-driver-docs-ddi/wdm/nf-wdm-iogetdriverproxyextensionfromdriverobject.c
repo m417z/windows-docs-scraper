@@ -1,0 +1,3 @@
+PDRIVER_PROXY_EXTENSION IoGetDriverProxyExtensionFromDriverObject(
+  PDRIVER_OBJECT DriverObject
+);

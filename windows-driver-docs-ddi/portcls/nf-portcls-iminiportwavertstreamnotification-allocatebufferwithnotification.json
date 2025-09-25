@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IMiniportWaveRTStreamNotification.AllocateBufferWithNotification",
+  "title": "IMiniportWaveRTStreamNotification::AllocateBufferWithNotification (portcls.h)",
+  "description": "The AllocateAudioBufferWithNotification method allocates a cyclic buffer for audio data when you want to implement DMA-driven event notification. If you do not want event notification, you must use IMiniportWaveRTStream::AllocateAudioBuffer.",
+  "old-location": "audio\\iminiportwavertstreamnotification_allocatebufferwithnotification.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IMiniportWaveRTStreamNotification::AllocateBufferWithNotification"
+  ],
+  "ms.keywords": "AllocateBufferWithNotification, AllocateBufferWithNotification method [Audio Devices], AllocateBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],AllocateBufferWithNotification method, IMiniportWaveRTStreamNotification.AllocateBufferWithNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification",
+  "req.header": "portcls.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Passive level.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IMiniportWaveRTStreamNotification::AllocateBufferWithNotification",
+    "portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IMiniportWaveRTStreamNotification::AllocateBufferWithNotification"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:d3dhal._D3DHAL_DP2TRIANGLELIST",
+  "title": "_D3DHAL_DP2TRIANGLELIST (d3dhal.h)",
+  "description": "One D3DHAL_DP2TRIANGLELIST structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLELIST, and is used to render the specified unconnected triangles.",
+  "old-location": "display\\d3dhal_dp2trianglelist.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DHAL_DP2TRIANGLELIST structure"
+  ],
+  "ms.keywords": "*LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST structure [Display Devices], LPD3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], _D3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, d3dhal/LPD3DHAL_DP2TRIANGLELIST, d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, display.d3dhal_dp2trianglelist",
+  "req.header": "d3dhal.h",
+  "req.include-header": "D3dhal.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "D3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST",
+  "f1_keywords": [
+    "_D3DHAL_DP2TRIANGLELIST",
+    "d3dhal/_D3DHAL_DP2TRIANGLELIST",
+    "LPD3DHAL_DP2TRIANGLELIST",
+    "d3dhal/LPD3DHAL_DP2TRIANGLELIST",
+    "D3DHAL_DP2TRIANGLELIST",
+    "d3dhal/D3DHAL_DP2TRIANGLELIST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dhal.h"
+  ],
+  "api_name": [
+    "_D3DHAL_DP2TRIANGLELIST",
+    "LPD3DHAL_DP2TRIANGLELIST",
+    "D3DHAL_DP2TRIANGLELIST"
+  ]
+}

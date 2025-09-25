@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.MmGetMdlPfnArray",
+  "tech.root": "kernel",
+  "title": "MmGetMdlPfnArray (wdm.h)",
+  "ms.date": "08/16/2023",
+  "targetos": "Windows",
+  "description": "The MmGetMdlPfnArray macro returns a pointer to the beginning of the array of physical page numbers that are associated with a memory descriptor list (MDL).",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": "Any level",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "MmGetMdlPfnArray"
+  ],
+  "f1_keywords": [
+    "MmGetMdlPfnArray",
+    "wdm/MmGetMdlPfnArray"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "returns-override": true
+}

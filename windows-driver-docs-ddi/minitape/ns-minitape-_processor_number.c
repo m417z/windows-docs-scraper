@@ -1,0 +1,5 @@
+typedef struct _PROCESSOR_NUMBER {
+  USHORT Group;
+  UCHAR  Number;
+  UCHAR  Reserved;
+} PROCESSOR_NUMBER, *PPROCESSOR_NUMBER;

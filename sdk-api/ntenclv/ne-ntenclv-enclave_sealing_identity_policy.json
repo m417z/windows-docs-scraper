@@ -1,0 +1,69 @@
+{
+  "UID": "NE:ntenclv.ENCLAVE_SEALING_IDENTITY_POLICY",
+  "title": "ENCLAVE_SEALING_IDENTITY_POLICY (ntenclv.h)",
+  "description": "Defines values that specify how another enclave must be related to the enclave that calls EnclaveSealData for the enclave to unseal the data.",
+  "helpviewer_keywords": [
+    "ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE",
+    "ENCLAVE_IDENTITY_POLICY_SEAL_INVALID",
+    "ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR",
+    "ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY",
+    "ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE",
+    "ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE",
+    "ENCLAVE_SEALING_IDENTITY_POLICY",
+    "ENCLAVE_SEALING_IDENTITY_POLICY enumeration",
+    "base.enclave_sealing_identity_policy",
+    "ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE",
+    "ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_INVALID",
+    "ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR",
+    "ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY",
+    "ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE",
+    "ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE",
+    "ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY"
+  ],
+  "old-location": "base\\enclave_sealing_identity_policy.htm",
+  "tech.root": "base",
+  "ms.assetid": "986C122D-4CC9-487F-8B9F-6B3F9B727E4A",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ENCLAVE_SEALING_IDENTITY_POLICY, ENCLAVE_SEALING_IDENTITY_POLICY enumeration, base.enclave_sealing_identity_policy, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY",
+  "req.header": "ntenclv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ENCLAVE_SEALING_IDENTITY_POLICY",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ENCLAVE_SEALING_IDENTITY_POLICY",
+    "ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntenclv.h"
+  ],
+  "api_name": [
+    "ENCLAVE_SEALING_IDENTITY_POLICY"
+  ]
+}

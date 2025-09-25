@@ -1,0 +1,43 @@
+{
+  "UID": "NE:filter.IMAGE_PIXELFORMAT",
+  "tech.root": "search",
+  "title": "IMAGE_PIXELFORMAT",
+  "ms.date": "01/15/2025",
+  "targetos": "Windows",
+  "description": "Specifies the pixel format of an image. This enumeration is used with the IMAGE_INFO structure.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "filter.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11, version 26100",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "filter.h"
+  ],
+  "api_name": [
+    "IMAGE_PIXELFORMAT"
+  ],
+  "f1_keywords": [
+    "IMAGE_PIXELFORMAT",
+    "filter/IMAGE_PIXELFORMAT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IMAGE_PIXELFORMAT"
+  ]
+}

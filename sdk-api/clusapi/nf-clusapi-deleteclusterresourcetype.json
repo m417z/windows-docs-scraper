@@ -1,0 +1,61 @@
+{
+  "UID": "NF:clusapi.DeleteClusterResourceType",
+  "title": "DeleteClusterResourceType function (clusapi.h)",
+  "description": "Removes a resource type from a cluster.",
+  "helpviewer_keywords": [
+    "DeleteClusterResourceType",
+    "DeleteClusterResourceType function [Failover Cluster]",
+    "PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE",
+    "PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE function [Failover Cluster]",
+    "_wolf_deleteclusterresourcetype",
+    "clusapi/DeleteClusterResourceType",
+    "clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE",
+    "mscs.deleteclusterresourcetype"
+  ],
+  "old-location": "mscs\\deleteclusterresourcetype.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "39615efe-e0fe-4e7b-b6f0-ba4a79d841a8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DeleteClusterResourceType, DeleteClusterResourceType function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE function [Failover Cluster], _wolf_deleteclusterresourcetype, clusapi/DeleteClusterResourceType, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE, mscs.deleteclusterresourcetype",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteClusterResourceType",
+    "clusapi/DeleteClusterResourceType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "DeleteClusterResourceType"
+  ]
+}

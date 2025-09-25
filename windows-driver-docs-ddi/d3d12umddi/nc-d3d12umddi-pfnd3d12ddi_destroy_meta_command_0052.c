@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROY_META_COMMAND_0052 Pfnd3d12ddiDestroyMetaCommand0052;
+
+VOID Pfnd3d12ddiDestroyMetaCommand0052(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HMETACOMMAND_0052 unnamedParam2
+)
+{...}

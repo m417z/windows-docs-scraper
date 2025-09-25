@@ -1,0 +1,4 @@
+typedef struct _ACX_DRIVER_CONFIG {
+  ULONG Size;
+  ULONG Flags;
+} ACX_DRIVER_CONFIG, *PACX_DRIVER_CONFIG;

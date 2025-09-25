@@ -1,0 +1,3 @@
+HRESULT SetName(
+  PCWSTR name
+);

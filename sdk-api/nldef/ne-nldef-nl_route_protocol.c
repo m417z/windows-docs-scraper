@@ -1,0 +1,21 @@
+typedef enum {
+  RouteProtocolOther = 1,
+  RouteProtocolLocal = 2,
+  RouteProtocolNetMgmt = 3,
+  RouteProtocolIcmp = 4,
+  RouteProtocolEgp = 5,
+  RouteProtocolGgp = 6,
+  RouteProtocolHello = 7,
+  RouteProtocolRip = 8,
+  RouteProtocolIsIs = 9,
+  RouteProtocolEsIs = 10,
+  RouteProtocolCisco = 11,
+  RouteProtocolBbn = 12,
+  RouteProtocolOspf = 13,
+  RouteProtocolBgp = 14,
+  RouteProtocolIdpr = 15,
+  RouteProtocolEigrp = 16,
+  RouteProtocolDvmrp = 17,
+  RouteProtocolRpl = 18,
+  RouteProtocolDhcp = 19
+} NL_ROUTE_PROTOCOL, *PNL_ROUTE_PROTOCOL;

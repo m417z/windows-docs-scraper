@@ -1,0 +1,4 @@
+typedef struct _PEP_WORK_DEVICE_IDLE {
+  POHANDLE DeviceHandle;
+  BOOLEAN  IgnoreIdleTimeout;
+} PEP_WORK_DEVICE_IDLE, *PPEP_WORK_DEVICE_IDLE;

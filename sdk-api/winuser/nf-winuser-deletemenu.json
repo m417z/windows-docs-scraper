@@ -1,0 +1,67 @@
+{
+  "UID": "NF:winuser.DeleteMenu",
+  "title": "DeleteMenu function (winuser.h)",
+  "description": "Deletes an item from the specified menu. If the menu item opens a menu or submenu, this function destroys the handle to the menu or submenu and frees the memory used by the menu or submenu.",
+  "helpviewer_keywords": [
+    "DeleteMenu",
+    "DeleteMenu function [Menus and Other Resources]",
+    "MF_BYCOMMAND",
+    "MF_BYPOSITION",
+    "_win32_DeleteMenu",
+    "_win32_deletemenu_cpp",
+    "menurc.deletemenu",
+    "winui._win32_deletemenu",
+    "winuser/DeleteMenu"
+  ],
+  "old-location": "menurc\\deletemenu.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\menus\\menureference\\menufunctions\\deletemenu.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DeleteMenu, DeleteMenu function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_DeleteMenu, _win32_deletemenu_cpp, menurc.deletemenu, winui._win32_deletemenu, winuser/DeleteMenu",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteMenu",
+    "winuser/DeleteMenu"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Menu-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Menu-l1-1-1.dll",
+    "ext-ms-win-ntuser-menu-l1-1-2.dll",
+    "Ext-MS-Win-NTUser-Menu-L1-1-3.dll"
+  ],
+  "api_name": [
+    "DeleteMenu"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)"
+}

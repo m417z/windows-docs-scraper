@@ -1,0 +1,3 @@
+void NDIS_RAISE_IRQL_TO_DISPATCH(
+  _pIrql_
+);

@@ -1,0 +1,6 @@
+typedef struct RILCALLAUDIOMEDIASTATE {
+  DWORD               dwParams;
+  RILCALLAUDIOSOURCE  dwAudioSource;
+  RILCALLAUDIOQUALITY dwAudioQuality;
+  DWORD               dwFlags;
+} RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE;

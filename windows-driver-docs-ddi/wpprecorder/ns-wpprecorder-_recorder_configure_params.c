@@ -1,0 +1,6 @@
+typedef struct _RECORDER_CONFIGURE_PARAMS {
+  ULONG                  Size;
+  BOOLEAN                CreateDefaultLog;
+  WPP_RECORDER_TRI_STATE UseTimeStamp;
+  WPP_RECORDER_TRI_STATE PreciseTimeStamp;
+} RECORDER_CONFIGURE_PARAMS, *PRECORDER_CONFIGURE_PARAMS;

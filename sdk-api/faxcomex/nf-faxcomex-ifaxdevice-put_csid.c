@@ -1,0 +1,3 @@
+HRESULT put_CSID(
+  BSTR bstrCSID
+);

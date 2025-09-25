@@ -1,0 +1,4 @@
+typedef struct {
+  UCHAR                 CommandDataLength[4];
+  RS_COMMAND_DESCRIPTOR CommandDescriptor[ANYSIZE_ARRAY];
+} RS_ALL_COMMANDS_PARAMETER_DATA, *PRS_ALL_COMMANDS_PARAMETER_DATA;

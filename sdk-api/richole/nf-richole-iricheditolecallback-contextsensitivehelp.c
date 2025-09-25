@@ -1,0 +1,3 @@
+HRESULT ContextSensitiveHelp(
+  BOOL fEnterMode
+);

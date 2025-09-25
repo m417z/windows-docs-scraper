@@ -1,0 +1,9 @@
+typedef enum {
+  StorStartDevice = 0x0,
+  StorRemoveDevice = 0x2,
+  StorStopDevice = 0x4,
+  StorQueryCapabilities = 0x9,
+  StorQueryResourceRequirements = 0xB,
+  StorFilterResourceRequirements = 0xD,
+  StorSurpriseRemoval = 0x17
+} STOR_PNP_ACTION, *PSTOR_PNP_ACTION;

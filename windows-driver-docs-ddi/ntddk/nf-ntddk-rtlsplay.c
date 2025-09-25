@@ -1,0 +1,3 @@
+NTSYSAPI PRTL_SPLAY_LINKS RtlSplay(
+  [in, out] PRTL_SPLAY_LINKS Links
+);

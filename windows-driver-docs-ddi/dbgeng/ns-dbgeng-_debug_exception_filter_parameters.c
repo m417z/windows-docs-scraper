@@ -1,0 +1,8 @@
+typedef struct _DEBUG_EXCEPTION_FILTER_PARAMETERS {
+  ULONG ExecutionOption;
+  ULONG ContinueOption;
+  ULONG TextSize;
+  ULONG CommandSize;
+  ULONG SecondCommandSize;
+  ULONG ExceptionCode;
+} DEBUG_EXCEPTION_FILTER_PARAMETERS, *PDEBUG_EXCEPTION_FILTER_PARAMETERS;

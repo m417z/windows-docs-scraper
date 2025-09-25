@@ -1,0 +1,74 @@
+{
+  "UID": "NS:winuser.tagMOUSEHOOKSTRUCTEX",
+  "title": "MOUSEHOOKSTRUCTEX (winuser.h)",
+  "description": "Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc. This is an extension of the MOUSEHOOKSTRUCT structure that includes information about wheel movement or the use of the X button.",
+  "helpviewer_keywords": [
+    "*LPMOUSEHOOKSTRUCTEX",
+    "*PMOUSEHOOKSTRUCTEX",
+    "LPMOUSEHOOKSTRUCTEX",
+    "LPMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages]",
+    "MOUSEHOOKSTRUCTEX",
+    "MOUSEHOOKSTRUCTEX structure [Windows and Messages]",
+    "PMOUSEHOOKSTRUCTEX",
+    "PMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages]",
+    "XBUTTON1",
+    "XBUTTON2",
+    "_win32_MOUSEHOOKSTRUCTEX_str",
+    "_win32_mousehookstructex_str_cpp",
+    "winmsg.mousehookstructex",
+    "winui._win32_mousehookstructex_str",
+    "winuser/LPMOUSEHOOKSTRUCTEX",
+    "winuser/MOUSEHOOKSTRUCTEX",
+    "winuser/PMOUSEHOOKSTRUCTEX"
+  ],
+  "old-location": "winmsg\\mousehookstructex.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\hooks\\hookreference\\hookstructures\\mousehookstructex.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPMOUSEHOOKSTRUCTEX, *PMOUSEHOOKSTRUCTEX, LPMOUSEHOOKSTRUCTEX, LPMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages], MOUSEHOOKSTRUCTEX, MOUSEHOOKSTRUCTEX structure [Windows and Messages], PMOUSEHOOKSTRUCTEX, PMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages], XBUTTON1, XBUTTON2, _win32_MOUSEHOOKSTRUCTEX_str, _win32_mousehookstructex_str_cpp, winmsg.mousehookstructex, winui._win32_mousehookstructex_str, winuser/LPMOUSEHOOKSTRUCTEX, winuser/MOUSEHOOKSTRUCTEX, winuser/PMOUSEHOOKSTRUCTEX",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MOUSEHOOKSTRUCTEX, *LPMOUSEHOOKSTRUCTEX, *PMOUSEHOOKSTRUCTEX",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagMOUSEHOOKSTRUCTEX",
+    "winuser/tagMOUSEHOOKSTRUCTEX",
+    "LPMOUSEHOOKSTRUCTEX",
+    "winuser/LPMOUSEHOOKSTRUCTEX",
+    "MOUSEHOOKSTRUCTEX",
+    "winuser/MOUSEHOOKSTRUCTEX"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winuser.h"
+  ],
+  "api_name": [
+    "MOUSEHOOKSTRUCTEX"
+  ]
+}

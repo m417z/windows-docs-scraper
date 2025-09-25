@@ -1,0 +1,47 @@
+{
+  "UID": "NS:p2p.peer_group_event_data_tag~r1",
+  "title": "PEER_GROUP_EVENT_DATA",
+  "description": "The PEER_GROUP_EVENT_DATA structure (p2p.h) contains information about a specific peer group event that has occurred.",
+  "ms.date": "08/15/2022",
+  "ms.keywords": "peer_group_event_data_tag, PEER_GROUP_EVENT_DATA",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "p2p.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.typenames": "PEER_GROUP_EVENT_DATA, *PPEER_GROUP_EVENT_DATA",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "f1_keywords": [
+    "peer_group_event_data_tag",
+    "p2p/peer_group_event_data_tag",
+    "PPEER_GROUP_EVENT_DATA",
+    "p2p/PPEER_GROUP_EVENT_DATA",
+    "PEER_GROUP_EVENT_DATA",
+    "p2p/PEER_GROUP_EVENT_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "p2p.h"
+  ],
+  "api_name": [
+    "peer_group_event_data_tag",
+    "PEER_GROUP_EVENT_DATA"
+  ]
+}

@@ -1,0 +1,22 @@
+typedef enum _WHEA_ERROR_SOURCE_TYPE {
+  WheaErrSrcTypeMCE,
+  WheaErrSrcTypeCMC,
+  WheaErrSrcTypeCPE,
+  WheaErrSrcTypeNMI,
+  WheaErrSrcTypePCIe,
+  WheaErrSrcTypeGeneric,
+  WheaErrSrcTypeINIT,
+  WheaErrSrcTypeBOOT,
+  WheaErrSrcTypeSCIGeneric,
+  WheaErrSrcTypeIPFMCA,
+  WheaErrSrcTypeIPFCMC,
+  WheaErrSrcTypeIPFCPE,
+  WheaErrSrcTypeGenericV2,
+  WheaErrSrcTypeSCIGenericV2,
+  WheaErrSrcTypeBMC,
+  WheaErrSrcTypePMEM,
+  WheaErrSrcTypeDeviceDriver,
+  WheaErrSrcTypeSea,
+  WheaErrSrcTypeSei,
+  WheaErrSrcTypeMax
+} WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE;

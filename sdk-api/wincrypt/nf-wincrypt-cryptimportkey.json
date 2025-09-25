@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wincrypt.CryptImportKey",
+  "title": "CryptImportKey function (wincrypt.h)",
+  "description": "Transfers a cryptographic key from a key BLOB into a cryptographic service provider (CSP).",
+  "helpviewer_keywords": [
+    "CRYPT_EXPORTABLE",
+    "CRYPT_IPSEC_HMAC_KEY",
+    "CRYPT_NO_SALT",
+    "CRYPT_OAEP",
+    "CRYPT_USER_PROTECTED",
+    "CryptImportKey",
+    "CryptImportKey function [Security]",
+    "_crypto2_cryptimportkey",
+    "security.cryptimportkey",
+    "wincrypt/CryptImportKey"
+  ],
+  "old-location": "security\\cryptimportkey.htm",
+  "tech.root": "security",
+  "ms.assetid": "f48b6ec9-e03b-43b0-9f22-120ae93d934c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CRYPT_EXPORTABLE, CRYPT_IPSEC_HMAC_KEY, CRYPT_NO_SALT, CRYPT_OAEP, CRYPT_USER_PROTECTED, CryptImportKey, CryptImportKey function [Security], _crypto2_cryptimportkey, security.cryptimportkey, wincrypt/CryptImportKey",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptImportKey",
+    "wincrypt/CryptImportKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-Security-cryptoapi-l1-1-0.dll",
+    "cryptsp.dll"
+  ],
+  "api_name": [
+    "CryptImportKey"
+  ]
+}

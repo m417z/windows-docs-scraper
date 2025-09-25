@@ -1,0 +1,59 @@
+{
+  "UID": "NF:bluetoothapis.BluetoothUpdateDeviceRecord",
+  "title": "BluetoothUpdateDeviceRecord function (bluetoothapis.h)",
+  "description": "Updates the local computer cache about a Bluetooth device.",
+  "helpviewer_keywords": [
+    "BluetoothUpdateDeviceRecord",
+    "BluetoothUpdateDeviceRecord function [Bluetooth]",
+    "bluetooth.bluetoothupdatedevicerecord",
+    "bluetoothapis/BluetoothUpdateDeviceRecord"
+  ],
+  "old-location": "bluetooth\\bluetoothupdatedevicerecord.htm",
+  "tech.root": "bluetooth",
+  "ms.assetid": "afcf6708-1c2a-43ac-8e5e-1bd0ce7456fc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BluetoothUpdateDeviceRecord, BluetoothUpdateDeviceRecord function [Bluetooth], bluetooth.bluetoothupdatedevicerecord, bluetoothapis/BluetoothUpdateDeviceRecord",
+  "req.header": "bluetoothapis.h",
+  "req.include-header": "Bthsdpdef.h, BluetoothAPIs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bthprops.lib",
+  "req.dll": "bthprops.cpl",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BluetoothUpdateDeviceRecord",
+    "bluetoothapis/BluetoothUpdateDeviceRecord"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "bthprops.cpl",
+    "BluetoothAPIs.dll",
+    "Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "BluetoothUpdateDeviceRecord"
+  ]
+}

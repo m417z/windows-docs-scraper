@@ -1,0 +1,5 @@
+typedef struct _DEFAULT_ENDPOINT_UPDATE {
+  USBDEVICE_MGMT_HEADER Header;
+  UCXENDPOINT           DefaultEndpoint;
+  ULONG                 MaxPacketSize;
+} DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE;

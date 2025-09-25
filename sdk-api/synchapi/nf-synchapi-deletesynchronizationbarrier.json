@@ -1,0 +1,62 @@
+{
+  "UID": "NF:synchapi.DeleteSynchronizationBarrier",
+  "title": "DeleteSynchronizationBarrier function (synchapi.h)",
+  "description": "Deletes a synchronization barrier.",
+  "helpviewer_keywords": [
+    "DeleteSynchronizationBarrier",
+    "DeleteSynchronizationBarrier function",
+    "base.deletesynchronizationbarrier",
+    "synchapi/DeleteSynchronizationBarrier"
+  ],
+  "old-location": "base\\deletesynchronizationbarrier.htm",
+  "tech.root": "base",
+  "ms.assetid": "04626b6f-f5f7-4042-9786-7cabd68636ac",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier",
+  "req.header": "synchapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteSynchronizationBarrier",
+    "synchapi/DeleteSynchronizationBarrier"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "DeleteSynchronizationBarrier"
+  ]
+}

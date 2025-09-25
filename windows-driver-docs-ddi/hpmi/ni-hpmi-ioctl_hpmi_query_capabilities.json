@@ -1,0 +1,48 @@
+{
+  "UID": "NI:hpmi.IOCTL_HPMI_QUERY_CAPABILITIES",
+  "title": "IOCTL_HPMI_QUERY_CAPABILITIES (hpmi.h)",
+  "description": "The IOCTL_HPMI_QUERY_CAPABILITIES command is sent to query features supported by HPMI and Windows services requested by HPMI. Windows will issue this IOCL to HPMI once after a new HPMI driver instance is discovered.",
+  "old-location": "powermeter\\ioctl_hpmi_query_capabilities.htm",
+  "tech.root": "powermeter",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IOCTL_HPMI_QUERY_CAPABILITIES IOCTL"
+  ],
+  "ms.keywords": "IOCTL_HPMI_QUERY_CAPABILITIES, IOCTL_HPMI_QUERY_CAPABILITIES control, IOCTL_HPMI_QUERY_CAPABILITIES control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_QUERY_CAPABILITIES, powermeter.ioctl_hpmi_query_capabilities",
+  "req.header": "hpmi.h",
+  "req.include-header": "Hpmi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows 10, version 1709 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_HPMI_QUERY_CAPABILITIES",
+    "hpmi/IOCTL_HPMI_QUERY_CAPABILITIES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "hpmi.h"
+  ],
+  "api_name": [
+    "IOCTL_HPMI_QUERY_CAPABILITIES"
+  ]
+}

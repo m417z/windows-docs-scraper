@@ -1,0 +1,3 @@
+HRESULT MFCreateTopoLoader(
+  IMFTopoLoader **ppObj
+);

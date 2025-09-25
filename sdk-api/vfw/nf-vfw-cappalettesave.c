@@ -1,0 +1,4 @@
+BOOL capPaletteSave(
+     hwnd,
+     szName
+);

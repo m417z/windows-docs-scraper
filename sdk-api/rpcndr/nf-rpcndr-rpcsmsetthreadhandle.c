@@ -1,0 +1,3 @@
+RPC_STATUS RpcSmSetThreadHandle(
+  RPC_SS_THREAD_HANDLE Id
+);

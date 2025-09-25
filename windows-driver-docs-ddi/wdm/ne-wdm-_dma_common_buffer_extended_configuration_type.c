@@ -1,0 +1,6 @@
+typedef enum _DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE {
+  CommonBufferConfigTypeLogicalAddressLimits,
+  CommonBufferConfigTypeSubSection,
+  CommonBufferConfigTypeHardwareAccessPermissions,
+  CommonBufferConfigTypeMax
+} DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE, *PDMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE;

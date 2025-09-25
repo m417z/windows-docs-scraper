@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.TreeView_GetNextVisible",
+  "title": "TreeView_GetNextVisible macro (commctrl.h)",
+  "description": "Retrieves the next visible item that follows a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_NEXTVISIBLE flag.",
+  "helpviewer_keywords": [
+    "TreeView_GetNextVisible",
+    "TreeView_GetNextVisible macro [Windows Controls]",
+    "_win32_TreeView_GetNextVisible",
+    "_win32_TreeView_GetNextVisible_cpp",
+    "commctrl/TreeView_GetNextVisible",
+    "controls.TreeView_GetNextVisible",
+    "controls._win32_TreeView_GetNextVisible"
+  ],
+  "old-location": "controls\\TreeView_GetNextVisible.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\treeview\\macros\\treeview_getnextvisible.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "TreeView_GetNextVisible, TreeView_GetNextVisible macro [Windows Controls], _win32_TreeView_GetNextVisible, _win32_TreeView_GetNextVisible_cpp, commctrl/TreeView_GetNextVisible, controls.TreeView_GetNextVisible, controls._win32_TreeView_GetNextVisible",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TreeView_GetNextVisible",
+    "commctrl/TreeView_GetNextVisible"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "TreeView_GetNextVisible"
+  ]
+}

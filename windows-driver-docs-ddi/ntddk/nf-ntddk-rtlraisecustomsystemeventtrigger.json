@@ -1,0 +1,45 @@
+{
+  "UID": "NF:ntddk.RtlRaiseCustomSystemEventTrigger",
+  "title": "RtlRaiseCustomSystemEventTrigger function (ntddk.h)",
+  "description": "Allows NT services and kernel-mode and user-mode drivers to raise a custom trigger for a device.",
+  "ms.date": "10/19/2018",
+  "tech.root": "kernel",
+  "keywords": [
+    "RtlRaiseCustomSystemEventTrigger function"
+  ],
+  "ms.keywords": "RtlRaiseCustomSystemEventTrigger",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "RtlRaiseCustomSystemEventTrigger",
+    "ntddk/RtlRaiseCustomSystemEventTrigger"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlRaiseCustomSystemEventTrigger"
+  ]
+}

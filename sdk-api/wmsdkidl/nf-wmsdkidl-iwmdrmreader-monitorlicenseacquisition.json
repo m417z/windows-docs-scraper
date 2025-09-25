@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmsdkidl.IWMDRMReader.MonitorLicenseAcquisition",
+  "title": "IWMDRMReader::MonitorLicenseAcquisition (wmsdkidl.h)",
+  "description": "The MonitorLicenseAcquisition method, in nonsilent license acquisition, informs the application when a license has been successfully acquired.",
+  "helpviewer_keywords": [
+    "IWMDRMReader interface [windows Media Format]",
+    "MonitorLicenseAcquisition method",
+    "IWMDRMReader.MonitorLicenseAcquisition",
+    "IWMDRMReader::MonitorLicenseAcquisition",
+    "IWMDRMReaderMonitorLicenseAcquisition",
+    "MonitorLicenseAcquisition",
+    "MonitorLicenseAcquisition method [windows Media Format]",
+    "MonitorLicenseAcquisition method [windows Media Format]",
+    "IWMDRMReader interface",
+    "wmformat.iwmdrmreader_monitorlicenseacquisition",
+    "wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition"
+  ],
+  "old-location": "wmformat\\iwmdrmreader_monitorlicenseacquisition.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "0b15dce6-7591-479a-b28e-5006418a1c7b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMDRMReader interface [windows Media Format],MonitorLicenseAcquisition method, IWMDRMReader.MonitorLicenseAcquisition, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WMStubDRM.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDRMReader::MonitorLicenseAcquisition",
+    "wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMDRMReader.MonitorLicenseAcquisition"
+  ]
+}

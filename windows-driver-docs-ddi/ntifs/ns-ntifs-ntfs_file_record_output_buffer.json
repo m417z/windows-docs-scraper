@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.NTFS_FILE_RECORD_OUTPUT_BUFFER",
+  "tech.root": "ifsk",
+  "title": "NTFS_FILE_RECORD_OUTPUT_BUFFER",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the NTFS_FILE_RECORD_OUTPUT_BUFFER structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NTFS_FILE_RECORD_OUTPUT_BUFFER, *PNTFS_FILE_RECORD_OUTPUT_BUFFER",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "NTFS_FILE_RECORD_OUTPUT_BUFFER",
+    "PNTFS_FILE_RECORD_OUTPUT_BUFFER"
+  ],
+  "f1_keywords": [
+    "NTFS_FILE_RECORD_OUTPUT_BUFFER",
+    "ntifs/NTFS_FILE_RECORD_OUTPUT_BUFFER",
+    "PNTFS_FILE_RECORD_OUTPUT_BUFFER",
+    "ntifs/PNTFS_FILE_RECORD_OUTPUT_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NTFS_FILE_RECORD_OUTPUT_BUFFER"
+  ]
+}

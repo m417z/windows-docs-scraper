@@ -1,0 +1,48 @@
+{
+  "UID": "NC:spbcx.EVT_SPB_CONTROLLER_SEQUENCE",
+  "title": "EVT_SPB_CONTROLLER_SEQUENCE (spbcx.h)",
+  "description": "An SPB controller driver's EvtSpbControllerIoSequence event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.",
+  "old-location": "spb\\evtspbcontrolleriosequence.htm",
+  "tech.root": "SPB",
+  "ms.date": "09/14/2021",
+  "keywords": [
+    "EVT_SPB_CONTROLLER_SEQUENCE callback function"
+  ],
+  "ms.keywords": "EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence",
+  "req.header": "spbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SPB_CONTROLLER_SEQUENCE",
+    "spbcx/EVT_SPB_CONTROLLER_SEQUENCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Spbcx.h"
+  ],
+  "api_name": [
+    "EVT_SPB_CONTROLLER_SEQUENCE"
+  ]
+}

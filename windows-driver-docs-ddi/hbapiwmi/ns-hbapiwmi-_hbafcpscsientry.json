@@ -1,0 +1,54 @@
+{
+  "UID": "NS:hbapiwmi._HBAFCPScsiEntry",
+  "title": "_HBAFCPScsiEntry (hbapiwmi.h)",
+  "description": "The HBAFCPScsiEntry structure is used with GetFcpTargetMapping method of the MSFC_HBAFCPInfo WMI Class to define a binding between the operating system information that uniquely identifies a logical unit and the fibre channel protocol (FCP) identifier that identifies the logical unit.",
+  "old-location": "storage\\hbafcpscsientry.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "HBAFCPScsiEntry structure"
+  ],
+  "ms.keywords": "*PHBAFCPScsiEntry, HBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], _HBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry, storage.hbafcpscsientry, structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml",
+  "req.header": "hbapiwmi.h",
+  "req.include-header": "Hbapiwmi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "HBAFCPScsiEntry, *PHBAFCPScsiEntry",
+  "f1_keywords": [
+    "_HBAFCPScsiEntry",
+    "hbapiwmi/_HBAFCPScsiEntry",
+    "PHBAFCPScsiEntry",
+    "hbapiwmi/PHBAFCPScsiEntry",
+    "HBAFCPScsiEntry",
+    "hbapiwmi/HBAFCPScsiEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "hbapiwmi.h"
+  ],
+  "api_name": [
+    "_HBAFCPScsiEntry",
+    "PHBAFCPScsiEntry",
+    "HBAFCPScsiEntry"
+  ]
+}

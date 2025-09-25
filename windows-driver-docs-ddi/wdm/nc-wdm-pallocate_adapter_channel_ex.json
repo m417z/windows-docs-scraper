@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PALLOCATE_ADAPTER_CHANNEL_EX",
+  "title": "PALLOCATE_ADAPTER_CHANNEL_EX (wdm.h)",
+  "description": "The AllocateAdapterChannelEx routine allocates the resources that are needed to perform a DMA transfer, and then calls the driver-supplied AdapterControl routine to initiate the DMA transfer.",
+  "old-location": "kernel\\allocateadapterchannelex.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PALLOCATE_ADAPTER_CHANNEL_EX callback function"
+  ],
+  "ms.keywords": "AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PALLOCATE_ADAPTER_CHANNEL_EX, PALLOCATE_ADAPTER_CHANNEL_EX callback, kernel.allocateadapterchannelex, wdm/AllocateAdapterChannelEx",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PALLOCATE_ADAPTER_CHANNEL_EX",
+    "wdm/PALLOCATE_ADAPTER_CHANNEL_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PALLOCATE_ADAPTER_CHANNEL_EX"
+  ]
+}

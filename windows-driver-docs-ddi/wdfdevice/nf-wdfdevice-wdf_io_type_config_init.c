@@ -1,0 +1,3 @@
+VOID WDF_IO_TYPE_CONFIG_INIT(
+  [out] PWDF_IO_TYPE_CONFIG IoTypeConfig
+);

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pmi._PMI_CONFIGURATION",
+  "title": "_PMI_CONFIGURATION (pmi.h)",
+  "description": "The PMI_CONFIGURATION structure contains information about the current power metering and budgeting configuration of a power meter.",
+  "old-location": "powermeter\\pmi_configuration.htm",
+  "tech.root": "powermeter",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PMI_CONFIGURATION structure"
+  ],
+  "ms.keywords": "*PPMI_CONFIGURATION, PMI_CONFIGURATION, PMI_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_CONFIGURATION, PPMI_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_f3279ebc-cd57-40e8-8571-a7d0d6bf3edc.xml, _PMI_CONFIGURATION, pmi/PMI_CONFIGURATION, pmi/PPMI_CONFIGURATION, powermeter.pmi_configuration",
+  "req.header": "pmi.h",
+  "req.include-header": "Pmi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PMI_CONFIGURATION, *PPMI_CONFIGURATION",
+  "f1_keywords": [
+    "_PMI_CONFIGURATION",
+    "pmi/_PMI_CONFIGURATION",
+    "PPMI_CONFIGURATION",
+    "pmi/PPMI_CONFIGURATION",
+    "PMI_CONFIGURATION",
+    "pmi/PMI_CONFIGURATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pmi.h"
+  ],
+  "api_name": [
+    "_PMI_CONFIGURATION",
+    "PPMI_CONFIGURATION",
+    "PMI_CONFIGURATION"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _VPCI_READ_BLOCK_INPUT {
+  ULONG BlockId;
+  ULONG BytesRequested;
+} VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT;

@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfusb.WdfUsbTargetPipeGetIoTarget",
+  "title": "WdfUsbTargetPipeGetIoTarget function (wdfusb.h)",
+  "description": "The WdfUsbTargetPipeGetIoTarget method returns a handle to the I/O target object that is associated with a specified USB pipe.",
+  "old-location": "wdf\\wdfusbtargetpipegetiotarget.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfUsbTargetPipeGetIoTarget function"
+  ],
+  "ms.keywords": "DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml, WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget method, kmdf.wdfusbtargetpipegetiotarget, wdf.wdfusbtargetpipegetiotarget, wdfusb/WdfUsbTargetPipeGetIoTarget",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, FailD0EntryIoTargetState",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfUsbTargetPipeGetIoTarget",
+    "wdfusb/WdfUsbTargetPipeGetIoTarget"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfUsbTargetPipeGetIoTarget"
+  ]
+}

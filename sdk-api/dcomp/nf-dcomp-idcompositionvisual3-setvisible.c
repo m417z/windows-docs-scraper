@@ -1,0 +1,3 @@
+HRESULT SetVisible(
+  BOOL visible
+);

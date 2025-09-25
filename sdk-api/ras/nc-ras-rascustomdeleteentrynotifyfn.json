@@ -1,0 +1,64 @@
+{
+  "UID": "NC:ras.RasCustomDeleteEntryNotifyFn",
+  "title": "RasCustomDeleteEntryNotifyFn (ras.h)",
+  "description": "The RasCustomDeleteEntryNotify function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.",
+  "helpviewer_keywords": [
+    "RCD_AllUsers",
+    "RCD_Eap",
+    "RCD_Logon",
+    "RCD_SingleUser",
+    "RasCustomDeleteEntryNotify",
+    "RasCustomDeleteEntryNotify callback function [RAS]",
+    "RasCustomDeleteEntryNotifyFn",
+    "RasCustomDeleteEntryNotifyFn callback",
+    "_ras_rascustomdeleteentrynotify",
+    "ras/RasCustomDeleteEntryNotify",
+    "rras.rascustomdeleteentrynotify"
+  ],
+  "old-location": "rras\\rascustomdeleteentrynotify.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "bbdaff05-ec86-461a-b466-8f69cb9cba5a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RCD_AllUsers, RCD_Eap, RCD_Logon, RCD_SingleUser, RasCustomDeleteEntryNotify, RasCustomDeleteEntryNotify callback function [RAS], RasCustomDeleteEntryNotifyFn, RasCustomDeleteEntryNotifyFn callback, _ras_rascustomdeleteentrynotify, ras/RasCustomDeleteEntryNotify, rras.rascustomdeleteentrynotify",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasCustomDeleteEntryNotifyFn",
+    "ras/RasCustomDeleteEntryNotifyFn"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ras.h"
+  ],
+  "api_name": [
+    "RasCustomDeleteEntryNotify"
+  ]
+}

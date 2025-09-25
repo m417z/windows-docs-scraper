@@ -1,0 +1,4 @@
+typedef struct _SECURE_ELEMENT_ENDPOINT_INFO {
+  GUID                guidSecureElementId;
+  SECURE_ELEMENT_TYPE eSecureElementType;
+} SECURE_ELEMENT_ENDPOINT_INFO, *PSECURE_ELEMENT_ENDPOINT_INFO;

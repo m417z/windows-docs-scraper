@@ -1,0 +1,7 @@
+DRMEXPORT HRESULT UDAPICALL DRMGetInfo(
+  [in]      DRMHANDLE       handle,
+  [in]      PWSTR           wszAttribute,
+  [out]     DRMENCODINGTYPE *peEncoding,
+  [in, out] UINT            *pcBuffer,
+  [out]     BYTE            *pbBuffer
+);

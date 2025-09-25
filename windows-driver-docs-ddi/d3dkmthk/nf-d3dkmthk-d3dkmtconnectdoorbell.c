@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTConnectDoorbell(
+  D3DKMT_CONNECT_DOORBELL *unnamedParam1
+);

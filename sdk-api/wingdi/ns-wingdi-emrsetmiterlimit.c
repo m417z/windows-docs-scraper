@@ -1,0 +1,4 @@
+typedef struct tagEMRSETMITERLIMIT {
+  EMR   emr;
+  FLOAT eMiterLimit;
+} EMRSETMITERLIMIT, *PEMRSETMITERLIMIT;

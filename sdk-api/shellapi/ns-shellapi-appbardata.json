@@ -1,0 +1,70 @@
+{
+  "UID": "NS:shellapi._AppBarData",
+  "title": "APPBARDATA (shellapi.h)",
+  "description": "Contains information about a system appbar message.",
+  "helpviewer_keywords": [
+    "*PAPPBARDATA",
+    "ABE_BOTTOM",
+    "ABE_LEFT",
+    "ABE_RIGHT",
+    "ABE_TOP",
+    "APPBARDATA",
+    "APPBARDATA structure [Windows Shell]",
+    "PAPPBARDATA",
+    "PAPPBARDATA structure pointer [Windows Shell]",
+    "_win32_APPBARDATA",
+    "shell.APPBARDATA",
+    "shellapi/APPBARDATA",
+    "shellapi/PAPPBARDATA"
+  ],
+  "old-location": "shell\\APPBARDATA.htm",
+  "tech.root": "shell",
+  "ms.assetid": "cf86fe15-4beb-49b7-b73e-2ad61cedc3f8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PAPPBARDATA, ABE_BOTTOM, ABE_LEFT, ABE_RIGHT, ABE_TOP, APPBARDATA, APPBARDATA structure [Windows Shell], PAPPBARDATA, PAPPBARDATA structure pointer [Windows Shell], _win32_APPBARDATA, shell.APPBARDATA, shellapi/APPBARDATA, shellapi/PAPPBARDATA",
+  "req.header": "shellapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "APPBARDATA, *PAPPBARDATA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_AppBarData",
+    "shellapi/_AppBarData",
+    "PAPPBARDATA",
+    "shellapi/PAPPBARDATA",
+    "APPBARDATA",
+    "shellapi/APPBARDATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Shellapi.h"
+  ],
+  "api_name": [
+    "APPBARDATA"
+  ]
+}

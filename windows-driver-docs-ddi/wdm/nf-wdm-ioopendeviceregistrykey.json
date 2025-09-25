@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.IoOpenDeviceRegistryKey",
+  "title": "IoOpenDeviceRegistryKey function (wdm.h)",
+  "description": "The IoOpenDeviceRegistryKey routine returns a handle to a registry state location for a particular device instance.",
+  "tech.root": "kernel",
+  "ms.date": "01/03/2023",
+  "keywords": [
+    "IoOpenDeviceRegistryKey function"
+  ],
+  "ms.keywords": "IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, wdm/IoOpenDeviceRegistryKey",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoOpenDeviceRegistryKey",
+    "wdm/IoOpenDeviceRegistryKey"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoOpenDeviceRegistryKey"
+  ]
+}

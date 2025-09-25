@@ -1,0 +1,5 @@
+typedef struct _STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT {
+  ULONG                              Version;
+  ULONG                              Size;
+  STORAGE_PROTOCOL_SPECIFIC_DATA_EXT ProtocolSpecificData;
+} STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT;

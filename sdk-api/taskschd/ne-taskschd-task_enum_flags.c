@@ -1,0 +1,3 @@
+typedef enum _TASK_ENUM_FLAGS {
+  TASK_ENUM_HIDDEN = 0x1
+} TASK_ENUM_FLAGS;

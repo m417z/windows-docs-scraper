@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdbgexts._READCONTROLSPACE64",
+  "title": "_READCONTROLSPACE64 (wdbgexts.h)",
+  "description": "Learn how the ReadControlSpace64 function reads the processor-specific control space into the array pointed to by buf.",
+  "old-location": "debugger\\readcontrolspace64.htm",
+  "tech.root": "debugger",
+  "ms.date": "02/27/2018",
+  "keywords": [
+    "READCONTROLSPACE64 structure"
+  ],
+  "ms.keywords": "*PREADCONTROLSPACE64, READCONTROLSPACE64, ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, _READCONTROLSPACE64, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "READCONTROLSPACE64, *PREADCONTROLSPACE64",
+  "f1_keywords": [
+    "_READCONTROLSPACE64",
+    "wdbgexts/_READCONTROLSPACE64",
+    "PREADCONTROLSPACE64",
+    "wdbgexts/PREADCONTROLSPACE64",
+    "READCONTROLSPACE64",
+    "wdbgexts/READCONTROLSPACE64"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "_READCONTROLSPACE64",
+    "PREADCONTROLSPACE64",
+    "READCONTROLSPACE64"
+  ]
+}

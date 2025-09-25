@@ -1,0 +1,3 @@
+void ACX_STREAMAUDIOENGINE_CONFIG_INIT(
+  cfg
+);

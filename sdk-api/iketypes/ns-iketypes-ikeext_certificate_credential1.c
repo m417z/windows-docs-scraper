@@ -1,0 +1,6 @@
+typedef struct IKEEXT_CERTIFICATE_CREDENTIAL1_ {
+  FWP_BYTE_BLOB subjectName;
+  FWP_BYTE_BLOB certHash;
+  UINT32        flags;
+  FWP_BYTE_BLOB certificate;
+} IKEEXT_CERTIFICATE_CREDENTIAL1;

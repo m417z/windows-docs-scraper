@@ -1,0 +1,3 @@
+typedef struct _TOKEN_PRIMARY_GROUP {
+  PSID PrimaryGroup;
+} TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP;

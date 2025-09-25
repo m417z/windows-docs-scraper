@@ -1,0 +1,5 @@
+typedef struct {
+  KSNODEPROPERTY NodeProperty;
+  PVOID          ListenerId;
+  ULONG          Reserved;
+} KSNODEPROPERTY_AUDIO_3D_LISTENER, *PKSNODEPROPERTY_AUDIO_3D_LISTENER;

@@ -1,0 +1,5 @@
+typedef struct _STOR_FILTER_RESOURCE_REQUIREMENTS {
+  ULONG                          Version;
+  ULONG                          Size;
+  PIO_RESOURCE_REQUIREMENTS_LIST IoResourceRequirementsList;
+} STOR_FILTER_RESOURCE_REQUIREMENTS, *PSTOR_FILTER_RESOURCE_REQUIREMENTS;

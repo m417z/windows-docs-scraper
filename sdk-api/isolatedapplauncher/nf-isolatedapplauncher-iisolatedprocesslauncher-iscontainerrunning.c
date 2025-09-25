@@ -1,0 +1,3 @@
+HRESULT IsContainerRunning(
+  BOOL *running
+);

@@ -1,0 +1,3 @@
+HRESULT SetDepthMode(
+  [in] DCOMPOSITION_DEPTH_MODE mode
+);

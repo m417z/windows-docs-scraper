@@ -1,0 +1,3 @@
+HRESULT OnConnectFail(
+  DOT11_ADHOC_CONNECT_FAIL_REASON eFailReason
+);

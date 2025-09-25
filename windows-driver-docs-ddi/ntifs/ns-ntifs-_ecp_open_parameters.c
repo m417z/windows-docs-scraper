@@ -1,0 +1,5 @@
+typedef struct _ECP_OPEN_PARAMETERS {
+  USHORT Size;
+  USHORT Reserved;
+  ULONG  Flags;
+} ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS;

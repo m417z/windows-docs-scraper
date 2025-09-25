@@ -1,0 +1,11 @@
+typedef struct IKEEXT_AUTHENTICATION_METHOD0_ {
+  IKEEXT_AUTHENTICATION_METHOD_TYPE authenticationMethodType;
+  union {
+    IKEEXT_PRESHARED_KEY_AUTHENTICATION0 presharedKeyAuthentication;
+    IKEEXT_CERTIFICATE_AUTHENTICATION0   certificateAuthentication;
+    IKEEXT_KERBEROS_AUTHENTICATION0      kerberosAuthentication;
+    IKEEXT_NTLM_V2_AUTHENTICATION0       ntlmV2Authentication;
+    IKEEXT_CERTIFICATE_AUTHENTICATION0   sslAuthentication;
+    IKEEXT_IPV6_CGA_AUTHENTICATION0      cgaAuthentication;
+  };
+} IKEEXT_AUTHENTICATION_METHOD0;

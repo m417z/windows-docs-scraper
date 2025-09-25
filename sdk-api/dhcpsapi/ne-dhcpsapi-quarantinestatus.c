@@ -1,0 +1,9 @@
+typedef enum _QuarantineStatus {
+  NOQUARANTINE = 0,
+  RESTRICTEDACCESS,
+  DROPPACKET,
+  PROBATION,
+  EXEMPT,
+  DEFAULTQUARSETTING,
+  NOQUARINFO
+} QuarantineStatus;

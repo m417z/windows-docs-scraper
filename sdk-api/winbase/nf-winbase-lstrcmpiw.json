@@ -1,0 +1,72 @@
+{
+  "UID": "NF:winbase.lstrcmpiW",
+  "title": "lstrcmpiW function (winbase.h)",
+  "description": "Compares two character strings. The comparison is not case-sensitive. (Unicode)",
+  "helpviewer_keywords": [
+    "_win32_lstrcmpi",
+    "_win32_lstrcmpi_cpp",
+    "lstrcmpi",
+    "lstrcmpi function [Menus and Other Resources]",
+    "lstrcmpiW",
+    "menurc.lstrcmpi",
+    "winbase/lstrcmpi",
+    "winbase/lstrcmpiW",
+    "winui._win32_lstrcmpi"
+  ],
+  "old-location": "menurc\\lstrcmpi.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\strings\\stringreference\\stringfunctions\\lstrcmpi.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "lstrcmpiW (Unicode) and lstrcmpiA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lstrcmpiW",
+    "winbase/lstrcmpiW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-String-Obsolete-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-String-Obsolete-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-misc-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "lstrcmpi",
+    "lstrcmpiA",
+    "lstrcmpiW"
+  ]
+}

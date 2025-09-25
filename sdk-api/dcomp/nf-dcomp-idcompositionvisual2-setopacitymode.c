@@ -1,0 +1,3 @@
+HRESULT SetOpacityMode(
+  [in] DCOMPOSITION_OPACITY_MODE mode
+);

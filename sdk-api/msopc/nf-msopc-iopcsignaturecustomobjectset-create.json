@@ -1,0 +1,63 @@
+{
+  "UID": "NF:msopc.IOpcSignatureCustomObjectSet.Create",
+  "title": "IOpcSignatureCustomObjectSet::Create (msopc.h)",
+  "description": "Creates an IOpcSignatureCustomObject interface pointer to represent an application-specific Object element in the signature, and adds the new interface to the set.",
+  "helpviewer_keywords": [
+    "Create",
+    "Create method [Open Packaging Conventions]",
+    "Create method [Open Packaging Conventions]",
+    "IOpcSignatureCustomObjectSet interface",
+    "IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]",
+    "Create method",
+    "IOpcSignatureCustomObjectSet.Create",
+    "IOpcSignatureCustomObjectSet::Create",
+    "msopc/IOpcSignatureCustomObjectSet::Create",
+    "opc.iopcsignaturecustomobjectset_create"
+  ],
+  "old-location": "opc\\iopcsignaturecustomobjectset_create.htm",
+  "tech.root": "OPC",
+  "ms.assetid": "93bf4509-900c-42bc-9834-c8a33cfe7e65",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create",
+  "req.header": "msopc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "OpcDigitalSignature.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOpcSignatureCustomObjectSet::Create",
+    "msopc/IOpcSignatureCustomObjectSet::Create"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "msopc.h"
+  ],
+  "api_name": [
+    "IOpcSignatureCustomObjectSet.Create"
+  ]
+}

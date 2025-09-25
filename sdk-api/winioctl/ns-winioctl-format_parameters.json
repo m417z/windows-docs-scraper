@@ -1,0 +1,66 @@
+{
+  "UID": "NS:winioctl._FORMAT_PARAMETERS",
+  "title": "FORMAT_PARAMETERS",
+  "description": "Contains information used in formatting a contiguous set of disk tracks.",
+  "helpviewer_keywords": [
+    "*PFORMAT_PARAMETERS",
+    "FORMAT_PARAMETERS",
+    "FORMAT_PARAMETERS structure [Files]",
+    "PFORMAT_PARAMETERS",
+    "PFORMAT_PARAMETERS structure pointer [Files]",
+    "_win32_format_parameters_str",
+    "base.format_parameters_str",
+    "fs.format_parameters_str",
+    "winioctl/FORMAT_PARAMETERS",
+    "winioctl/PFORMAT_PARAMETERS"
+  ],
+  "old-location": "fs\\format_parameters_str.htm",
+  "tech.root": "fs",
+  "ms.assetid": "81fcfd8e-abb9-4c0b-b23d-302aa3645a6f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Files], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Files], _win32_format_parameters_str, base.format_parameters_str, fs.format_parameters_str, winioctl/FORMAT_PARAMETERS, winioctl/PFORMAT_PARAMETERS",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FORMAT_PARAMETERS, *PFORMAT_PARAMETERS",
+  "req.redist": null,
+  "f1_keywords": [
+    "_FORMAT_PARAMETERS",
+    "winioctl/_FORMAT_PARAMETERS",
+    "PFORMAT_PARAMETERS",
+    "winioctl/PFORMAT_PARAMETERS",
+    "FORMAT_PARAMETERS",
+    "winioctl/FORMAT_PARAMETERS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "FORMAT_PARAMETERS"
+  ]
+}

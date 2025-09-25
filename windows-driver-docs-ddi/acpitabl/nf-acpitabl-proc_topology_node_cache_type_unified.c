@@ -1,0 +1,3 @@
+void PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED(
+  CacheType
+);

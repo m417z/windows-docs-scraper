@@ -1,0 +1,4 @@
+BOOLEAN IN6ADDR_ISEQUAL(
+  const SOCKADDR_IN6 *a,
+  const SOCKADDR_IN6 *b
+);

@@ -1,0 +1,7 @@
+PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030 Pfnd3d12ddiCalcprivateopenedcryptosessionpolicysize0030;
+
+SIZE_T Pfnd3d12ddiCalcprivateopenedcryptosessionpolicysize0030(
+  D3D12DDI_HDEVICE hDrvDevice,
+  const D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030 *pArgs
+)
+{...}

@@ -1,0 +1,3 @@
+HRESULT RemoveTrailPoints(
+  UINT generationId
+);

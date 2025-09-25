@@ -1,0 +1,47 @@
+{
+  "UID": "NS:ntddndis._NDIS_QOS_SQ_STATS",
+  "title": "NDIS_QOS_SQ_STATS",
+  "ms.date": "10/30/2020",
+  "targetos": "Windows",
+  "description": "The NDIS_QOS_SQ_STATS structure is used by OID_QOS_OFFLOAD_SQ_STATS to query the stats of an NDIS QoS Scheduler Queue (SQ).",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddndis.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.85 and later.",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "NDIS_QOS_SQ_STATS, *PNDIS_QOS_SQ_STATS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_QOS_SQ_STATS",
+    "PNDIS_QOS_SQ_STATS",
+    "NDIS_QOS_SQ_STATS"
+  ],
+  "f1_keywords": [
+    "_NDIS_QOS_SQ_STATS",
+    "ntddndis/_NDIS_QOS_SQ_STATS",
+    "PNDIS_QOS_SQ_STATS",
+    "ntddndis/PNDIS_QOS_SQ_STATS",
+    "NDIS_QOS_SQ_STATS",
+    "ntddndis/NDIS_QOS_SQ_STATS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

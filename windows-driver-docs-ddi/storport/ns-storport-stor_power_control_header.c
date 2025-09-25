@@ -1,0 +1,5 @@
+typedef struct _STOR_POWER_CONTROL_HEADER {
+  ULONG         Version;
+  ULONG         Size;
+  PSTOR_ADDRESS Address;
+} STOR_POWER_CONTROL_HEADER, *PSTOR_POWER_CONTROL_HEADER;

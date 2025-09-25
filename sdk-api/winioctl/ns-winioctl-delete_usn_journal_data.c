@@ -1,0 +1,4 @@
+typedef struct {
+  DWORDLONG UsnJournalID;
+  DWORD     DeleteFlags;
+} DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA;

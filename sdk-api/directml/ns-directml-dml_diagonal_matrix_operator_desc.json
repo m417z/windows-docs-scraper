@@ -1,0 +1,43 @@
+{
+  "UID": "NS:directml.DML_DIAGONAL_MATRIX_OPERATOR_DESC",
+  "title": "DML_DIAGONAL_MATRIX_OPERATOR_DESC",
+  "description": "Generates an identity-like matrix with ones (or other explicit value) on the major diagonal, and zeros everywhere else.",
+  "tech.root": "directml",
+  "ms.date": "07/20/2022",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.target-type": "Windows",
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "directml.h"
+  ],
+  "api_name": [
+    "DML_DIAGONAL_MATRIX_OPERATOR_DESC"
+  ],
+  "f1_keywords": [
+    "DML_DIAGONAL_MATRIX_OPERATOR_DESC",
+    "directml/DML_DIAGONAL_MATRIX_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

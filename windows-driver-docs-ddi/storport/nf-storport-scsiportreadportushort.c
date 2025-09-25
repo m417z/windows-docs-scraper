@@ -1,0 +1,3 @@
+void ScsiPortReadPortUshort(
+  [in] Port
+);

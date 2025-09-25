@@ -1,0 +1,59 @@
+{
+  "UID": "NC:ws2spi.LPWSPJOINLEAF",
+  "title": "LPWSPJOINLEAF (ws2spi.h)",
+  "description": "The LPWSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.",
+  "helpviewer_keywords": [
+    "LPWSPJOINLEAF",
+    "WSPJoinLeaf",
+    "WSPJoinLeaf function [Winsock]",
+    "_win32_wspjoinleaf_2",
+    "winsock.wspjoinleaf_2",
+    "ws2spi/WSPJoinLeaf"
+  ],
+  "old-location": "winsock\\wspjoinleaf_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "3b0451e2-0e4c-4da7-b16c-37c242632bdd",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LPWSPJOINLEAF, WSPJoinLeaf, WSPJoinLeaf function [Winsock], _win32_wspjoinleaf_2, winsock.wspjoinleaf_2, ws2spi/WSPJoinLeaf",
+  "req.header": "ws2spi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LPWSPJOINLEAF",
+    "ws2spi/LPWSPJOINLEAF"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ws2spi.h"
+  ],
+  "api_name": [
+    "WSPJoinLeaf"
+  ]
+}

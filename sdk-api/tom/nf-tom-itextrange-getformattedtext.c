@@ -1,0 +1,3 @@
+HRESULT GetFormattedText(
+  ITextRange **ppRange
+);

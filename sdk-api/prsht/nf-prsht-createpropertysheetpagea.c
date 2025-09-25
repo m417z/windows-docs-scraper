@@ -1,0 +1,3 @@
+HPROPSHEETPAGE CreatePropertySheetPageA(
+  LPCPROPSHEETPAGEA constPropSheetPagePointer
+);

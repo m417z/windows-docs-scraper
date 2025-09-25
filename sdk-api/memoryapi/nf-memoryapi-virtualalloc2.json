@@ -1,0 +1,71 @@
+{
+  "UID": "NF:memoryapi.VirtualAlloc2",
+  "title": "VirtualAlloc2 function (memoryapi.h)",
+  "description": "Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero. (VirtualAlloc2)",
+  "helpviewer_keywords": [
+    "MEM_COMMIT",
+    "MEM_LARGE_PAGES",
+    "MEM_PHYSICAL",
+    "MEM_REPLACE_PLACEHOLDER",
+    "MEM_RESERVE",
+    "MEM_RESERVE_PLACEHOLDER",
+    "MEM_RESET",
+    "MEM_RESET_UNDO",
+    "MEM_TOP_DOWN",
+    "VirtualAlloc2",
+    "VirtualAlloc2 function",
+    "base.virtualalloc2",
+    "memoryapi/VirtualAlloc2"
+  ],
+  "old-location": "base\\virtualalloc2.htm",
+  "tech.root": "base",
+  "ms.assetid": "5021062F-E414-49A1-8B70-BE2A57A90E54",
+  "ms.date": "08/08/2025",
+  "ms.keywords": "MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAlloc2, VirtualAlloc2 function, base.virtualalloc2, memoryapi/VirtualAlloc2",
+  "req.header": "memoryapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "VirtualAlloc2",
+    "memoryapi/VirtualAlloc2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-memory-l1-1-9.dll",
+    "api-ms-win-core-memory-l1-1-8.dll",
+    "api-ms-win-core-memory-l1-1-7.dll",
+    "api-ms-win-core-memory-l1-1-6.dll",
+    "Kernel32.dll",
+    "onecore.lib"
+  ],
+  "api_name": [
+    "VirtualAlloc2"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfworkitem.EVT_WDF_WORKITEM",
+  "title": "EVT_WDF_WORKITEM (wdfworkitem.h)",
+  "description": "A driver's EvtWorkItem event callback function performs the work that is associated with a specified work item.",
+  "old-location": "wdf\\evtworkitem.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_WORKITEM callback function"
+  ],
+  "ms.keywords": "DFWorkItemObjectRef_e799d95c-bbde-402a-8ba6-6e03256772ff.xml, EVT_WDF_WORKITEM, EVT_WDF_WORKITEM callback, EvtWorkItem, EvtWorkItem callback function, kmdf.evtworkitem, wdf.evtworkitem, wdfworkitem/EvtWorkItem",
+  "req.header": "wdfworkitem.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_WORKITEM",
+    "wdfworkitem/EVT_WDF_WORKITEM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfworkitem.h"
+  ],
+  "api_name": [
+    "EVT_WDF_WORKITEM"
+  ]
+}

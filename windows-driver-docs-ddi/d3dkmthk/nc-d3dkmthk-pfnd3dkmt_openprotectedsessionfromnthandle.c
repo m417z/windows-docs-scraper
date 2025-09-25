@@ -1,0 +1,6 @@
+PFND3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE PfnD3dkmtOpenProtectedSessionFromNtHandle;
+
+NTSTATUS PfnD3dkmtOpenProtectedSessionFromNtHandle(
+    D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE *unnamedParam1
+)
+{...}

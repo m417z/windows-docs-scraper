@@ -1,0 +1,66 @@
+{
+  "UID": "NE:strmif.VMRMode",
+  "title": "VMRMode (strmif.h)",
+  "description": "The VMRMode enumeration type is used in calls to the IVMRFilterConfig::GetRenderingMode and IVMRFilterConfig::SetRenderingMode methods to retrieve or specify the Video Mixing Renderer Filter 7 (VMR-7) rendering mode.",
+  "helpviewer_keywords": [
+    "VMRMode",
+    "VMRMode enumeration [DirectShow]",
+    "VMRModeEnumeration",
+    "VMRMode_Mask",
+    "VMRMode_Renderless",
+    "VMRMode_Windowed",
+    "VMRMode_Windowless",
+    "dshow.vmrmode",
+    "strmif/VMRMode",
+    "strmif/VMRMode_Mask",
+    "strmif/VMRMode_Renderless",
+    "strmif/VMRMode_Windowed",
+    "strmif/VMRMode_Windowless"
+  ],
+  "old-location": "dshow\\vmrmode.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "cc924b1a-561f-4d62-8cc8-03ba5e5e8d5b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "VMRMode, VMRMode enumeration [DirectShow], VMRModeEnumeration, VMRMode_Mask, VMRMode_Renderless, VMRMode_Windowed, VMRMode_Windowless, dshow.vmrmode, strmif/VMRMode, strmif/VMRMode_Mask, strmif/VMRMode_Renderless, strmif/VMRMode_Windowed, strmif/VMRMode_Windowless",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VMRMode",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "VMRMode",
+    "strmif/VMRMode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "strmif.h"
+  ],
+  "api_name": [
+    "VMRMode"
+  ]
+}

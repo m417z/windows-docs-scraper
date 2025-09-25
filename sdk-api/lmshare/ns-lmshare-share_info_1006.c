@@ -1,0 +1,3 @@
+typedef struct _SHARE_INFO_1006 {
+  DWORD shi1006_max_uses;
+} SHARE_INFO_1006, *PSHARE_INFO_1006, *LPSHARE_INFO_1006;

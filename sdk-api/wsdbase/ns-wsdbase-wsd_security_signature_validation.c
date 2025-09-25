@@ -1,0 +1,6 @@
+typedef struct _WSD_SECURITY_SIGNATURE_VALIDATION {
+  PCCERT_CONTEXT *signingCertArray;
+  DWORD          dwSigningCertArrayCount;
+  HCERTSTORE     hSigningCertStore;
+  DWORD          dwFlags;
+} WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION;

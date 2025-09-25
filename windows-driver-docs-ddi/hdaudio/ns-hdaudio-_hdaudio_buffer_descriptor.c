@@ -1,0 +1,5 @@
+typedef struct _HDAUDIO_BUFFER_DESCRIPTOR {
+  PHYSICAL_ADDRESS Address;
+  ULONG            Length;
+  ULONG            InterruptOnCompletion;
+} HDAUDIO_BUFFER_DESCRIPTOR, *PHDAUDIO_BUFFER_DESCRIPTOR;

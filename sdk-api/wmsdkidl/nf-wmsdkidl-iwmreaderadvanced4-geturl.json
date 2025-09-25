@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAdvanced4.GetURL",
+  "title": "IWMReaderAdvanced4::GetURL (wmsdkidl.h)",
+  "description": "The GetURL method retrieves the URL of the file being read. This URL might be different from the URL that was passed to IWMReader::Open, because the reader might have been redirected.",
+  "helpviewer_keywords": [
+    "GetURL",
+    "GetURL method [windows Media Format]",
+    "GetURL method [windows Media Format]",
+    "IWMReaderAdvanced4 interface",
+    "IWMReaderAdvanced4 interface [windows Media Format]",
+    "GetURL method",
+    "IWMReaderAdvanced4.GetURL",
+    "IWMReaderAdvanced4::GetURL",
+    "IWMReaderAdvanced4GetURL",
+    "wmformat.iwmreaderadvanced4_geturl",
+    "wmsdkidl/IWMReaderAdvanced4::GetURL"
+  ],
+  "old-location": "wmformat\\iwmreaderadvanced4_geturl.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "1c17be57-da35-40f2-a216-97d6953c7311",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetURL, GetURL method [windows Media Format], GetURL method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetURL method, IWMReaderAdvanced4.GetURL, IWMReaderAdvanced4::GetURL, IWMReaderAdvanced4GetURL, wmformat.iwmreaderadvanced4_geturl, wmsdkidl/IWMReaderAdvanced4::GetURL",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAdvanced4::GetURL",
+    "wmsdkidl/IWMReaderAdvanced4::GetURL"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderAdvanced4.GetURL"
+  ]
+}

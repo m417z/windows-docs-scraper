@@ -1,0 +1,3 @@
+typedef struct _UCSI_GET_CAM_SUPPORTED_IN {
+  UINT8 bmAlternateModeSupported[16];
+} UCSI_GET_CAM_SUPPORTED_IN, *PUCSI_GET_CAM_SUPPORTED_IN;

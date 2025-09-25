@@ -1,0 +1,54 @@
+{
+  "UID": "NE:ucmtypes._UCM_CHARGING_STATE",
+  "title": "_UCM_CHARGING_STATE (ucmtypes.h)",
+  "description": "Defines the charging state of a Type-C connector.",
+  "old-location": "buses\\ucm_charging_state.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UCM_CHARGING_STATE enumeration"
+  ],
+  "ms.keywords": "*PUCM_CHARGING_STATE, UCM_CHARGING_STATE, UCM_CHARGING_STATE enumeration [Buses], UcmChargingStateInvalid, UcmChargingStateNominalCharging, UcmChargingStateNotCharging, UcmChargingStateSlowCharging, UcmChargingStateTrickleCharging, _UCM_CHARGING_STATE, buses.ucm_charging_state, ucmtypes/ UcmChargingStateTrickleCharging, ucmtypes/UCM_CHARGING_STATE, ucmtypes/UcmChargingStateInvalid, ucmtypes/UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateNotCharging, ucmtypes/UcmChargingStateSlowCharging",
+  "req.header": "ucmtypes.h",
+  "req.include-header": "Ucmcx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": 2.15,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "UCM_CHARGING_STATE, *PUCM_CHARGING_STATE",
+  "f1_keywords": [
+    "_UCM_CHARGING_STATE",
+    "ucmtypes/_UCM_CHARGING_STATE",
+    "PUCM_CHARGING_STATE",
+    "ucmtypes/PUCM_CHARGING_STATE",
+    "UCM_CHARGING_STATE",
+    "ucmtypes/UCM_CHARGING_STATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ucmtypes.h"
+  ],
+  "api_name": [
+    "_UCM_CHARGING_STATE",
+    "PUCM_CHARGING_STATE",
+    "UCM_CHARGING_STATE"
+  ]
+}

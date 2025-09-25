@@ -1,0 +1,4 @@
+typedef struct _DD_FREE_DEFERRED_AGP_DATA {
+  DD_GETDRIVERINFO2DATA gdi2;
+  DWORD                 dwProcessId;
+} DD_FREE_DEFERRED_AGP_DATA;

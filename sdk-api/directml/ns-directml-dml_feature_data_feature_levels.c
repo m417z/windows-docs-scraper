@@ -1,0 +1,3 @@
+struct DML_FEATURE_DATA_FEATURE_LEVELS {
+  DML_FEATURE_LEVEL MaxSupportedFeatureLevel;
+};

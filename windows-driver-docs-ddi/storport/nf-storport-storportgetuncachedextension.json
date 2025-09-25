@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.StorPortGetUncachedExtension",
+  "title": "StorPortGetUncachedExtension function (storport.h)",
+  "description": "The StorPortGetUncachedExtension routine allocates an uncached common buffer to be shared by the CPU and the device.",
+  "old-location": "storage\\storportgetuncachedextension.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortGetUncachedExtension function"
+  ],
+  "ms.keywords": "StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], storage.storportgetuncachedextension, storport/StorPortGetUncachedExtension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Storport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortGetUncachedExtension",
+    "storport/StorPortGetUncachedExtension"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Storport.lib",
+    "Storport.dll"
+  ],
+  "api_name": [
+    "StorPortGetUncachedExtension"
+  ]
+}

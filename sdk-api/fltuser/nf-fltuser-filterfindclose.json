@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterFindClose",
+  "title": "FilterFindClose function (fltuser.h)",
+  "description": "The FilterFindClose function closes the specified minifilter search handle. The FilterFindFirst and FilterFindNext functions use this search handle to locate minifilters.",
+  "helpviewer_keywords": [
+    "FilterFindClose",
+    "FilterFindClose function [Installable File System Drivers]",
+    "FltWin32ApiRef_37b77edb-bee8-40ca-803f-4091417ef714.xml",
+    "fltuser/FilterFindClose",
+    "ifsk.filterfindclose"
+  ],
+  "old-location": "ifsk\\filterfindclose.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "053c06b0-3bfd-436c-ab98-14c55e66da53",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterFindClose, FilterFindClose function [Installable File System Drivers], FltWin32ApiRef_37b77edb-bee8-40ca-803f-4091417ef714.xml, fltuser/FilterFindClose, ifsk.filterfindclose",
+  "req.header": "fltuser.h",
+  "req.include-header": "Fltuser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterFindClose",
+    "fltuser/FilterFindClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterFindClose"
+  ]
+}

@@ -1,0 +1,23 @@
+# PtrdiffTMult function
+
+## Description
+
+Multiplies two values of type **ptrdiff_t**.
+
+## Parameters
+
+### `Multiplicand` [in]
+
+The first value.
+
+### `Multiplier` [in]
+
+The second value.
+
+### `pResult` [out]
+
+The result.
+
+## Return value
+
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

@@ -1,0 +1,3 @@
+void FsRtlAreThereCurrentFileLocks(
+  FL
+);

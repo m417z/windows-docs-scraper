@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntifs.CcScheduleReadAheadEx",
+  "title": "CcScheduleReadAheadEx function (ntifs.h)",
+  "description": "Learn more about the CcScheduleReadAheadEx routine.",
+  "tech.root": "ifsk",
+  "ms.date": "07/06/2023",
+  "keywords": [
+    "CcScheduleReadAheadEx function"
+  ],
+  "ms.keywords": "CcScheduleReadAheadEx, ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "CcScheduleReadAheadEx",
+    "ntifs/CcScheduleReadAheadEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "CcScheduleReadAheadEx"
+  ]
+}

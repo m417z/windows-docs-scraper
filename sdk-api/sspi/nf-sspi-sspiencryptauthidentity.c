@@ -1,0 +1,3 @@
+SECURITY_STATUS SEC_ENTRY SspiEncryptAuthIdentity(
+  [in, out] PSEC_WINNT_AUTH_IDENTITY_OPAQUE AuthData
+);

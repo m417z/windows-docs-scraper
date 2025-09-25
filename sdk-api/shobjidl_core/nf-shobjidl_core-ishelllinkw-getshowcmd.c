@@ -1,0 +1,3 @@
+HRESULT GetShowCmd(
+  int *piShowCmd
+);

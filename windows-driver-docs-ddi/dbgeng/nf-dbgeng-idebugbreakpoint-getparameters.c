@@ -1,0 +1,3 @@
+HRESULT GetParameters(
+  [out] PDEBUG_BREAKPOINT_PARAMETERS Params
+);

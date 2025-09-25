@@ -1,0 +1,3 @@
+typedef enum _REM_FILTER_FLAGS {
+  REMFILTERF_LEAVECONNECTED = 0x1
+} ;

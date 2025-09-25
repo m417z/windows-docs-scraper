@@ -1,0 +1,3 @@
+HRESULT SetID(
+  UINT32 u32ID
+);

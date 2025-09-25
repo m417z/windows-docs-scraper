@@ -1,0 +1,3 @@
+EVNTPROV_PFORCEINLINE VOID EventDescZero(
+  [out] PEVENT_DESCRIPTOR EventDescriptor
+);

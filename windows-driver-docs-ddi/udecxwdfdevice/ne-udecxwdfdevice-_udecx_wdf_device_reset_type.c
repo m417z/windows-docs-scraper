@@ -1,0 +1,5 @@
+typedef enum _UDECX_WDF_DEVICE_RESET_TYPE {
+  UdecxWdfDeviceResetUndefined,
+  UdecxWdfDeviceResetAttemptFunctionLevelDeviceReset,
+  UdecxWdfDeviceResetAttemptPlatformLevelDeviceReset
+} UDECX_WDF_DEVICE_RESET_TYPE, *PUDECX_WDF_DEVICE_RESET_TYPE;

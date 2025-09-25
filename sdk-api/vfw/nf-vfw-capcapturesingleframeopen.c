@@ -1,0 +1,3 @@
+BOOL capCaptureSingleFrameOpen(
+     hwnd
+);

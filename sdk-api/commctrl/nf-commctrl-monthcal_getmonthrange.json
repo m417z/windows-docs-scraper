@@ -1,0 +1,62 @@
+{
+  "UID": "NF:commctrl.MonthCal_GetMonthRange",
+  "title": "MonthCal_GetMonthRange macro (commctrl.h)",
+  "description": "Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar control's display. You can use this macro or send the MCM_GETMONTHRANGE message explicitly.",
+  "helpviewer_keywords": [
+    "GMR_DAYSTATE",
+    "GMR_VISIBLE",
+    "MonthCal_GetMonthRange",
+    "MonthCal_GetMonthRange macro [Windows Controls]",
+    "_win32_MonthCal_GetMonthRange",
+    "_win32_MonthCal_GetMonthRange_cpp",
+    "commctrl/MonthCal_GetMonthRange",
+    "controls.MonthCal_GetMonthRange",
+    "controls._win32_MonthCal_GetMonthRange"
+  ],
+  "old-location": "controls\\MonthCal_GetMonthRange.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\monthcal\\macros\\monthcal_getmonthrange.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "GMR_DAYSTATE, GMR_VISIBLE, MonthCal_GetMonthRange, MonthCal_GetMonthRange macro [Windows Controls], _win32_MonthCal_GetMonthRange, _win32_MonthCal_GetMonthRange_cpp, commctrl/MonthCal_GetMonthRange, controls.MonthCal_GetMonthRange, controls._win32_MonthCal_GetMonthRange",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MonthCal_GetMonthRange",
+    "commctrl/MonthCal_GetMonthRange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "MonthCal_GetMonthRange"
+  ]
+}

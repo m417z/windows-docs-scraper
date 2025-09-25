@@ -1,0 +1,4 @@
+typedef struct D3D12_DEPTH_STENCIL_VALUE {
+  FLOAT Depth;
+  UINT8 Stencil;
+} D3D12_DEPTH_STENCIL_VALUE;

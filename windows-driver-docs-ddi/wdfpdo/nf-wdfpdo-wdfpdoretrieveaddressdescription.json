@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfpdo.WdfPdoRetrieveAddressDescription",
+  "title": "WdfPdoRetrieveAddressDescription function (wdfpdo.h)",
+  "description": "The WdfPdoRetrieveAddressDescription method retrieves the address description that is associated with a specified framework device object.",
+  "old-location": "wdf\\wdfpdoretrieveaddressdescription.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfPdoRetrieveAddressDescription function"
+  ],
+  "ms.keywords": "DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, WdfPdoRetrieveAddressDescription, WdfPdoRetrieveAddressDescription method, kmdf.wdfpdoretrieveaddressdescription, wdf.wdfpdoretrieveaddressdescription, wdfpdo/WdfPdoRetrieveAddressDescription",
+  "req.header": "wdfpdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfPdoRetrieveAddressDescription",
+    "wdfpdo/WdfPdoRetrieveAddressDescription"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfPdoRetrieveAddressDescription"
+  ]
+}

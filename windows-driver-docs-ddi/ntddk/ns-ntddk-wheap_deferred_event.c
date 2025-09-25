@@ -1,0 +1,4 @@
+typedef struct _WHEAP_DEFERRED_EVENT {
+  LIST_ENTRY           ListEntry;
+  WHEA_EVENT_LOG_ENTRY WheaEventLogEntry;
+} WHEAP_DEFERRED_EVENT, *PWHEAP_DEFERRED_EVENT;

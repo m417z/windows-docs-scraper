@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortPutDmaAdapter",
+  "title": "VideoPortPutDmaAdapter function (video.h)",
+  "description": "The VideoPortPutDmaAdapter function frees a VP_DMA_ADAPTER structure that was previously allocated by a call to VideoPortGetDmaAdapter.",
+  "old-location": "display\\videoportputdmaadapter.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortPutDmaAdapter function"
+  ],
+  "ms.keywords": "VideoPortPutDmaAdapter, VideoPortPutDmaAdapter function [Display Devices], VideoPort_Functions_3de2fb91-53a9-4a1d-9dcd-91e3c0d645ab.xml, display.videoportputdmaadapter, video/VideoPortPutDmaAdapter",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortPutDmaAdapter",
+    "video/VideoPortPutDmaAdapter"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortPutDmaAdapter"
+  ]
+}

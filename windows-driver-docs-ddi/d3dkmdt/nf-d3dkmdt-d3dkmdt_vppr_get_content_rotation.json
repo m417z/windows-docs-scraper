@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmdt.D3DKMDT_VPPR_GET_CONTENT_ROTATION",
+  "title": "D3DKMDT_VPPR_GET_CONTENT_ROTATION function (d3dkmdt.h)",
+  "description": "A helper function that extracts the combined rotation that the user sees from the default display orientation from a given value of the D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration.",
+  "old-location": "display\\d3dkmdt_vppr_get_content_rotation.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMDT_VPPR_GET_CONTENT_ROTATION function"
+  ],
+  "ms.keywords": "D3DKMDT_VPPR_GET_CONTENT_ROTATION, D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation",
+  "req.header": "d3dkmdt.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8.1,DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMDT_VPPR_GET_CONTENT_ROTATION",
+    "d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "D3dkmdt.h"
+  ],
+  "api_name": [
+    "D3DKMDT_VPPR_GET_CONTENT_ROTATION"
+  ]
+}

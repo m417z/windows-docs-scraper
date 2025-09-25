@@ -1,0 +1,5 @@
+typedef enum tagPrintSchemaParameterDataType {
+  PrintSchemaParameterDataType_Integer,
+  PrintSchemaParameterDataType_NumericString,
+  PrintSchemaParameterDataType_String
+} PrintSchemaParameterDataType;

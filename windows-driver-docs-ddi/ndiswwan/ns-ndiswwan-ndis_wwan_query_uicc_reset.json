@@ -1,0 +1,52 @@
+{
+  "UID": "NS:ndiswwan._NDIS_WWAN_QUERY_UICC_RESET",
+  "tech.root": "netvista",
+  "title": "NDIS_WWAN_QUERY_UICC_RESET",
+  "ms.date": "03/10/2022",
+  "targetos": "Windows",
+  "description": "The NDIS_WWAN_QUERY_UICC_RESET structure represents the SIM slot ID that is associated with an OID_WWAN_UICC_RESET query request.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndiswwan.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NDIS_WWAN_QUERY_UICC_RESET, *PNDIS_WWAN_QUERY_UICC_RESET",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndiswwan.h"
+  ],
+  "api_name": [
+    "_NDIS_WWAN_QUERY_UICC_RESET",
+    "PNDIS_WWAN_QUERY_UICC_RESET",
+    "NDIS_WWAN_QUERY_UICC_RESET"
+  ],
+  "f1_keywords": [
+    "_NDIS_WWAN_QUERY_UICC_RESET",
+    "ndiswwan/_NDIS_WWAN_QUERY_UICC_RESET",
+    "PNDIS_WWAN_QUERY_UICC_RESET",
+    "ndiswwan/PNDIS_WWAN_QUERY_UICC_RESET",
+    "NDIS_WWAN_QUERY_UICC_RESET",
+    "ndiswwan/NDIS_WWAN_QUERY_UICC_RESET"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_NDIS_WWAN_QUERY_UICC_RESET"
+  ]
+}

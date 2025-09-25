@@ -1,0 +1,58 @@
+{
+  "UID": "NS:windns._MDNS_QUERY_HANDLE",
+  "title": "MDNS_QUERY_HANDLE structure",
+  "description": "Contains information related to an ongoing MDNS query. Your application must not modify its contents.",
+  "tech.root": "dns",
+  "helpviewer_keywords": [
+    "_MDNS_QUERY_HANDLE",
+    "MDNS_QUERY_HANDLE"
+  ],
+  "ms.date": "02/19/2019",
+  "ms.keywords": "_MDNS_QUERY_HANDLE, MDNS_QUERY_HANDLE",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "windns.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.typenames": "MDNS_QUERY_HANDLE, *PMDNS_QUERY_HANDLE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_MDNS_QUERY_HANDLE",
+    "windns/_MDNS_QUERY_HANDLE",
+    "PMDNS_QUERY_HANDLE",
+    "windns/PMDNS_QUERY_HANDLE",
+    "MDNS_QUERY_HANDLE",
+    "windns/MDNS_QUERY_HANDLE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "windns.h"
+  ],
+  "api_name": [
+    "_MDNS_QUERY_HANDLE",
+    "MDNS_QUERY_HANDLE"
+  ]
+}

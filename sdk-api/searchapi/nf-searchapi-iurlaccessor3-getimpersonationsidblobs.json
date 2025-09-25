@@ -1,0 +1,71 @@
+{
+  "UID": "NF:searchapi.IUrlAccessor3.GetImpersonationSidBlobs",
+  "title": "IUrlAccessor3::GetImpersonationSidBlobs (searchapi.h)",
+  "description": "Retrieves an array of user security identifiers (SIDs) for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.",
+  "helpviewer_keywords": [
+    "GetImpersonationSidBlobs",
+    "GetImpersonationSidBlobs method [search]",
+    "GetImpersonationSidBlobs method [search]",
+    "IUrlAccessor3 interface",
+    "GetImpersonationSidBlobs method [search]",
+    "IUrlAccessor4 interface",
+    "IUrlAccessor3 interface [search]",
+    "GetImpersonationSidBlobs method",
+    "IUrlAccessor3.GetImpersonationSidBlobs",
+    "IUrlAccessor3::GetImpersonationSidBlobs",
+    "IUrlAccessor4 interface [search]",
+    "GetImpersonationSidBlobs method",
+    "IUrlAccessor4::GetImpersonationSidBlobs",
+    "_search_IUrlAccessor3_GetImpersonationSidBlobs",
+    "search._search_IUrlAccessor3_GetImpersonationSidBlobs",
+    "searchapi/IUrlAccessor3::GetImpersonationSidBlobs",
+    "searchapi/IUrlAccessor4::GetImpersonationSidBlobs"
+  ],
+  "old-location": "search\\_search_IUrlAccessor3_GetImpersonationSidBlobs.htm",
+  "tech.root": "search",
+  "ms.assetid": "VS|SEARCH|~\\search\\wds3x\\reference\\ifaces\\protocolhandlers\\iurlaccessor3\\getimpersonationsidblobs.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetImpersonationSidBlobs, GetImpersonationSidBlobs method [search], GetImpersonationSidBlobs method [search],IUrlAccessor3 interface, GetImpersonationSidBlobs method [search],IUrlAccessor4 interface, IUrlAccessor3 interface [search],GetImpersonationSidBlobs method, IUrlAccessor3.GetImpersonationSidBlobs, IUrlAccessor3::GetImpersonationSidBlobs, IUrlAccessor4 interface [search],GetImpersonationSidBlobs method, IUrlAccessor4::GetImpersonationSidBlobs, _search_IUrlAccessor3_GetImpersonationSidBlobs, search._search_IUrlAccessor3_GetImpersonationSidBlobs, searchapi/IUrlAccessor3::GetImpersonationSidBlobs, searchapi/IUrlAccessor4::GetImpersonationSidBlobs",
+  "req.header": "searchapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2, Windows Vista with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Urlaccsdk.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Search (WS) 4.0",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IUrlAccessor3::GetImpersonationSidBlobs",
+    "searchapi/IUrlAccessor3::GetImpersonationSidBlobs"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Searchapi.h"
+  ],
+  "api_name": [
+    "IUrlAccessor3.GetImpersonationSidBlobs",
+    "IUrlAccessor4.GetImpersonationSidBlobs"
+  ]
+}

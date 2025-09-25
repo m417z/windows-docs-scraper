@@ -1,0 +1,4 @@
+VIDEOPORT_DEPRECATED VIDEOPORT_API VOID VideoPortWriteRegisterUchar(
+  PUCHAR Register,
+  UCHAR  Value
+);

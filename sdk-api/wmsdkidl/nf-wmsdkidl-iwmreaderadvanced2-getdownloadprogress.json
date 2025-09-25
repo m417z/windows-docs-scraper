@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAdvanced2.GetDownloadProgress",
+  "title": "IWMReaderAdvanced2::GetDownloadProgress (wmsdkidl.h)",
+  "description": "The GetDownloadProgress method retrieves the percentage and amount of data that has been downloaded, and the time remaining to completion.",
+  "helpviewer_keywords": [
+    "GetDownloadProgress",
+    "GetDownloadProgress method [windows Media Format]",
+    "GetDownloadProgress method [windows Media Format]",
+    "IWMReaderAdvanced2 interface",
+    "IWMReaderAdvanced2 interface [windows Media Format]",
+    "GetDownloadProgress method",
+    "IWMReaderAdvanced2.GetDownloadProgress",
+    "IWMReaderAdvanced2::GetDownloadProgress",
+    "IWMReaderAdvanced2GetDownloadProgress",
+    "wmformat.iwmreaderadvanced2_getdownloadprogress",
+    "wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress"
+  ],
+  "old-location": "wmformat\\iwmreaderadvanced2_getdownloadprogress.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "06bff83f-c3f2-4eca-85dd-7e7b93cfd73d",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetDownloadProgress, GetDownloadProgress method [windows Media Format], GetDownloadProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetDownloadProgress method, IWMReaderAdvanced2.GetDownloadProgress, IWMReaderAdvanced2::GetDownloadProgress, IWMReaderAdvanced2GetDownloadProgress, wmformat.iwmreaderadvanced2_getdownloadprogress, wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAdvanced2::GetDownloadProgress",
+    "wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderAdvanced2.GetDownloadProgress"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT MFInvokeCallback(
+  IMFAsyncResult *pAsyncResult
+);

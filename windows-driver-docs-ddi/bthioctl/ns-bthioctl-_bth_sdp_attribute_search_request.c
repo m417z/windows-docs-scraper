@@ -1,0 +1,6 @@
+typedef struct _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST {
+  HANDLE_SDP_TYPE   HANDLE_SDP_FIELD_NAME;
+  ULONG             searchFlags;
+  ULONG             recordHandle;
+  SdpAttributeRange range[1];
+} BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST;

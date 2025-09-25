@@ -1,0 +1,4 @@
+typedef struct _CRYPT_CONTENT_INFO {
+  LPSTR          pszObjId;
+  CRYPT_DER_BLOB Content;
+} CRYPT_CONTENT_INFO, *PCRYPT_CONTENT_INFO;

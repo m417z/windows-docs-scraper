@@ -1,0 +1,60 @@
+{
+  "UID": "NF:winevt.EvtOpenSession",
+  "title": "EvtOpenSession function (winevt.h)",
+  "description": "Establishes a connection to a remote computer that you can use when calling the other Windows Event Log functions.",
+  "helpviewer_keywords": [
+    "EvtOpenSession",
+    "EvtOpenSession function [EventLog]",
+    "wes.evtopensession",
+    "winevt/EvtOpenSession"
+  ],
+  "old-location": "wes\\evtopensession.htm",
+  "tech.root": "wes",
+  "ms.assetid": "26f1745c-dcca-4452-872e-1fffe20f049c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EvtOpenSession, EvtOpenSession function [EventLog], wes.evtopensession, winevt/EvtOpenSession",
+  "req.header": "winevt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wevtapi.lib",
+  "req.dll": "Wevtapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EvtOpenSession",
+    "winevt/EvtOpenSession"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wevtapi-eventlog-l1-1-3.dll",
+    "Wevtapi.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll"
+  ],
+  "api_name": [
+    "EvtOpenSession"
+  ]
+}

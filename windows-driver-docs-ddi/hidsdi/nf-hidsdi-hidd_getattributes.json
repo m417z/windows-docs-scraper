@@ -1,0 +1,48 @@
+{
+  "UID": "NF:hidsdi.HidD_GetAttributes",
+  "title": "HidD_GetAttributes function (hidsdi.h)",
+  "description": "The HidD_GetAttributes routine returns the attributes of a specified top-level collection.",
+  "old-location": "hid\\hidd_getattributes.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "HidD_GetAttributes function"
+  ],
+  "ms.keywords": "HidD_GetAttributes, HidD_GetAttributes routine [Human Input Devices], hid.hidd_getattributes, hidfunc_e4c243d5-b210-409f-b454-68a69c28057c.xml, hidsdi/HidD_GetAttributes",
+  "req.header": "hidsdi.h",
+  "req.include-header": "Hidsdi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hid.lib",
+  "req.dll": "Hid.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidD_GetAttributes",
+    "hidsdi/HidD_GetAttributes"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hid.dll"
+  ],
+  "api_name": [
+    "HidD_GetAttributes"
+  ]
+}

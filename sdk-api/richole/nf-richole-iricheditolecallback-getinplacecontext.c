@@ -1,0 +1,5 @@
+HRESULT GetInPlaceContext(
+  LPOLEINPLACEFRAME     *lplpFrame,
+  LPOLEINPLACEUIWINDOW  *lplpDoc,
+  LPOLEINPLACEFRAMEINFO lpFrameInfo
+);

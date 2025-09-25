@@ -1,0 +1,8 @@
+typedef struct D3D12DDI_BARRIER_SUBRESOURCE_RANGE_0088 {
+  UINT32 IndexOrFirstMipLevel;
+  UINT32 NumMipLevels;
+  UINT32 FirstArraySlice;
+  UINT32 NumArraySlices;
+  UINT32 FirstPlane;
+  UINT32 NumPlanes;
+} D3D12DDI_BARRIER_SUBRESOURCE_RANGE_0088;

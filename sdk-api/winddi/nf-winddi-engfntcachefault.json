@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngFntCacheFault",
+  "title": "EngFntCacheFault function (winddi.h)",
+  "description": "The EngFntCacheFault function reports an error to the font engine if the font driver encountered an error reading from or writing to a font data cache.",
+  "helpviewer_keywords": [
+    "EngFntCacheFault",
+    "EngFntCacheFault function [Display Devices]",
+    "display.engfntcachefault",
+    "gdifncs_f6395707-6ff6-4396-b280-77d4256db07b.xml",
+    "winddi/EngFntCacheFault"
+  ],
+  "old-location": "display\\engfntcachefault.htm",
+  "tech.root": "display",
+  "ms.assetid": "27a44779-64df-4a3f-b8b8-9e0417010969",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngFntCacheFault, EngFntCacheFault function [Display Devices], display.engfntcachefault, gdifncs_f6395707-6ff6-4396-b280-77d4256db07b.xml, winddi/EngFntCacheFault",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This function is available in Windows XP and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngFntCacheFault",
+    "winddi/EngFntCacheFault"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngFntCacheFault"
+  ]
+}

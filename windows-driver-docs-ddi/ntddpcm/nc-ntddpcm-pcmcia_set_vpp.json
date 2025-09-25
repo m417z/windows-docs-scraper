@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntddpcm.PCMCIA_SET_VPP",
+  "title": "PCMCIA_SET_VPP (ntddpcm.h)",
+  "description": "The PCMCIA_SET_VPP interface routine sets the power level of the Vpp PCMCIA pin (secondary power source).",
+  "old-location": "pcmcia\\pcmcia_set_vpp.htm",
+  "tech.root": "PCMCIA",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "PCMCIA_SET_VPP callback function"
+  ],
+  "ms.keywords": "PCMCIA.pcmcia_set_vpp, PCMCIA_SET_VPP, PCMCIA_SET_VPP callback, SetVpp, SetVpp callback function [Buses], memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml, ntddpcm/SetVpp",
+  "req.header": "ntddpcm.h",
+  "req.include-header": "Ntddpcm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL (See Remarks section.)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCMCIA_SET_VPP",
+    "ntddpcm/PCMCIA_SET_VPP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntddpcm.h"
+  ],
+  "api_name": [
+    "PCMCIA_SET_VPP"
+  ]
+}

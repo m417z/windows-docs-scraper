@@ -1,0 +1,4 @@
+LONG MCIWndGetSource(
+     hwnd,
+     prc
+);

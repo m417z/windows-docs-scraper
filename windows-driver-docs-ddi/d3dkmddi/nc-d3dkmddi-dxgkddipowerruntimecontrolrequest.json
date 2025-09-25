@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDIPOWERRUNTIMECONTROLREQUEST",
+  "title": "DXGKDDIPOWERRUNTIMECONTROLREQUEST (d3dkmddi.h)",
+  "description": "Called by the Power Engine Plug-in (PEP) to exchange information with the display miniport driver. Also called by the Microsoft DirectX graphics kernel subsystem to notify the display miniport driver about certain events.",
+  "old-location": "display\\dxgkddipowerruntimecontrolrequest.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDIPOWERRUNTIMECONTROLREQUEST callback function"
+  ],
+  "ms.keywords": "DxgkDdiPowerRuntimeControlRequest, DxgkDdiPowerRuntimeControlRequest callback function [Display Devices], PDXGKDDIPOWERRUNTIMECONTROLREQUEST, PDXGKDDIPOWERRUNTIMECONTROLREQUEST callback, d3dkmddi/DxgkDdiPowerRuntimeControlRequest, display.dxgkddipowerruntimecontrolrequest",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDIPOWERRUNTIMECONTROLREQUEST",
+    "d3dkmddi/DXGKDDIPOWERRUNTIMECONTROLREQUEST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDIPOWERRUNTIMECONTROLREQUEST"
+  ]
+}

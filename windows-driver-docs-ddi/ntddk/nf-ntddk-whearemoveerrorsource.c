@@ -1,0 +1,3 @@
+VOID WheaRemoveErrorSource(
+  ULONG ErrorSourceId
+);

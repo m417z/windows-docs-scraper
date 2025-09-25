@@ -1,0 +1,6 @@
+typedef struct D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 {
+  UINT64        Status;
+  UINT64        NumMacroblocksAffected;
+  DXGI_RATIONAL FrameRate;
+  UINT          BitRate;
+} D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022;

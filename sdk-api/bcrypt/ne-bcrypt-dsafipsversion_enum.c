@@ -1,0 +1,4 @@
+typedef enum {
+  DSA_FIPS186_2,
+  DSA_FIPS186_3
+} DSAFIPSVERSION_ENUM;

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:commctrl.ListView_GetImageList",
+  "title": "ListView_GetImageList macro (commctrl.h)",
+  "description": "Gets the handle to an image list used for drawing list-view items. You can use this macro or send the LVM_GETIMAGELIST message explicitly.",
+  "helpviewer_keywords": [
+    "LVSIL_GROUPHEADER",
+    "LVSIL_NORMAL",
+    "LVSIL_SMALL",
+    "LVSIL_STATE",
+    "ListView_GetImageList",
+    "ListView_GetImageList macro [Windows Controls]",
+    "_win32_ListView_GetImageList",
+    "_win32_ListView_GetImageList_cpp",
+    "commctrl/ListView_GetImageList",
+    "controls.ListView_GetImageList",
+    "controls._win32_ListView_GetImageList"
+  ],
+  "old-location": "controls\\ListView_GetImageList.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_getimagelist.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_GetImageList, ListView_GetImageList macro [Windows Controls], _win32_ListView_GetImageList, _win32_ListView_GetImageList_cpp, commctrl/ListView_GetImageList, controls.ListView_GetImageList, controls._win32_ListView_GetImageList",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_GetImageList",
+    "commctrl/ListView_GetImageList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_GetImageList"
+  ]
+}

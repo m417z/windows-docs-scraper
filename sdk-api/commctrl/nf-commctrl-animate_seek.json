@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.Animate_Seek",
+  "title": "Animate_Seek macro (commctrl.h)",
+  "description": "Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the ACM_PLAY message explicitly.",
+  "helpviewer_keywords": [
+    "Animate_Seek",
+    "Animate_Seek macro [Windows Controls]",
+    "_win32_Animate_Seek",
+    "_win32_Animate_Seek_cpp",
+    "commctrl/Animate_Seek",
+    "controls.Animate_Seek",
+    "controls._win32_Animate_Seek"
+  ],
+  "old-location": "controls\\Animate_Seek.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\animation\\macros\\animate_seek.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "Animate_Seek, Animate_Seek macro [Windows Controls], _win32_Animate_Seek, _win32_Animate_Seek_cpp, commctrl/Animate_Seek, controls.Animate_Seek, controls._win32_Animate_Seek",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Animate_Seek",
+    "commctrl/Animate_Seek"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "Animate_Seek"
+  ]
+}

@@ -1,0 +1,23 @@
+typedef struct RILCALLINFO_V5 {
+  DWORD                          cbSize;
+  DWORD                          dwParams;
+  DWORD                          dwExecutor;
+  DWORD                          dwID;
+  RILCALLINFODIRECTION           dwDirection;
+  RILCALLINFOSTATUS              dwStatus;
+  RILCALLTYPE                    dwType;
+  RILCALLINFOMULTIPARTY          dwMultiparty;
+  RILADDRESS                     raAddress;
+  RILSUBADDRESS                  rsaSubAddress;
+  WCHAR                          wszDescription[256];
+  RILREMOTEPARTYINFOVALUE        dwNumberPresentationIndicator;
+  RILREMOTEPARTYINFOVALUE        dwNamePresentationIndicator;
+  DWORD                          dwFlags;
+  RILCALLINFODISCONNECTINITIATOR dwDisconnectInitiator;
+  RILCALLINFODISCONNECTREASON    dwDisconnectReason;
+  RILCALLDISCONNECTDETAILS       stDisconnectDetails;
+  RILCALLMEDIAOFFERANSWERSET     rcmOfferAnswer;
+  RILCALLHANDOVERSTATE           rchsHandoverState;
+  RILCALLMODIFICATIONCAUSECODE   dwCallModificationCauseCode;
+  RILCALLRTT                     stRTTInfo;
+} RILCALLINFO_V5, *LPRILCALLINFO_V5, RILCALLINFO, *LPRILCALLINFO;

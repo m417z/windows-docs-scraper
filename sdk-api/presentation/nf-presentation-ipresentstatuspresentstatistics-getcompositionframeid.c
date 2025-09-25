@@ -1,0 +1,1 @@
+CompositionFrameId GetCompositionFrameId();

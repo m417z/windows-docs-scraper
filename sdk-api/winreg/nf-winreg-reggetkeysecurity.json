@@ -1,0 +1,66 @@
+{
+  "UID": "NF:winreg.RegGetKeySecurity",
+  "title": "RegGetKeySecurity function (winreg.h)",
+  "description": "Retrieves a copy of the security descriptor protecting the specified open registry key.",
+  "helpviewer_keywords": [
+    "RegGetKeySecurity",
+    "RegGetKeySecurity function [Security]",
+    "_win32_reggetkeysecurity",
+    "security.reggetkeysecurity",
+    "winreg/RegGetKeySecurity"
+  ],
+  "old-location": "security\\reggetkeysecurity.htm",
+  "tech.root": "security",
+  "ms.assetid": "26bd8f89-9241-4c13-a214-c2b276d68c92",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegGetKeySecurity, RegGetKeySecurity function [Security], _win32_reggetkeysecurity, security.reggetkeysecurity, winreg/RegGetKeySecurity",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegGetKeySecurity",
+    "winreg/RegGetKeySecurity"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l1-1-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Localregistry-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Registry-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "MinKernelBase.dll",
+    "api-ms-win-core-registry-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RegGetKeySecurity"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ks.KsPinGetConnectedPinFileObject",
+  "title": "KsPinGetConnectedPinFileObject function (ks.h)",
+  "description": "The KsPinGetConnectedPinFileObject function returns the file object for the pin to which Pin is connected. Works only for source pins.",
+  "old-location": "stream\\kspingetconnectedpinfileobject.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KsPinGetConnectedPinFileObject function"
+  ],
+  "ms.keywords": "KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, ks/KsPinGetConnectedPinFileObject, stream.kspingetconnectedpinfileobject",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ks.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KsPinGetConnectedPinFileObject",
+    "ks/KsPinGetConnectedPinFileObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ks.lib",
+    "Ks.dll"
+  ],
+  "api_name": [
+    "KsPinGetConnectedPinFileObject"
+  ]
+}

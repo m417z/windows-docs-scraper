@@ -1,0 +1,40 @@
+{
+  "UID": "NI:ucmucsippmrequests.IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK",
+  "title": "IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK (ucmucsippmrequests.h)",
+  "tech.root": "usbref",
+  "description": "Sends a UCSI data block to the client driver.",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK IOCTL"
+  ],
+  "req.header": "Ucmucsippmrequests.h",
+  "req.include-header": "UcmUcsiCx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": "N/A",
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK",
+    "ucmucsippmrequests/IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucmucsippmrequests.h"
+  ],
+  "api_name": [
+    "IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK"
+  ]
+}

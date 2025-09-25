@@ -1,0 +1,39 @@
+{
+  "UID": "NE:ntifs.OPLOCK_NOTIFY_REASON",
+  "title": "_OPLOCK_NOTIFY_REASON (ntifs.h)",
+  "description": "OPLOCK_NOTIFY_REASON specifies the reason for calling the notification callback provided to FsRtlCheckOplockEx2.",
+  "tech.root": "ifsk",
+  "ms.date": "03/24/2020",
+  "ms.keywords": "_OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON,",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "req.typenames": "OPLOCK_NOTIFY_REASON, *POPLOCK_NOTIFY_REASON",
+  "targetos": "Windows",
+  "ms.custom": null,
+  "f1_keywords": [
+    "OPLOCK_NOTIFY_REASON",
+    "ntifs/OPLOCK_NOTIFY_REASON"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "OPLOCK_NOTIFY_REASON"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetBoundaryRectangle(
+  UiaRect *pUiaRect
+);

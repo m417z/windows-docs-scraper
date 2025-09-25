@@ -1,0 +1,6 @@
+typedef struct _D3DDEVINFO_VCACHE {
+  DWORD Pattern;
+  DWORD OptMethod;
+  DWORD CacheSize;
+  DWORD MagicNumber;
+} D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE;

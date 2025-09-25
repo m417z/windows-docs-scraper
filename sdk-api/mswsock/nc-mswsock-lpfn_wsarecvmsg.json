@@ -1,0 +1,47 @@
+{
+  "UID": "NC:mswsock.LPFN_WSARECVMSG",
+  "title": "LPFN_WSARECVMSG",
+  "description": "\\**LPFN_WSARECVMSG** is a function pointer type. You implement a matching **WSARecvMsg** callback function in your app. The system uses your callback function to transmit to you in-memory data, or file data, over a connected socket.",
+  "ms.date": "10/08/2020",
+  "ms.keywords": "WSARecvMsg",
+  "tech.root": "winsock",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "mswsock.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "mswsock.h"
+  ],
+  "api_name": [
+    "LPFN_WSARECVMSG"
+  ],
+  "f1_keywords": [
+    "LPFN_WSARECVMSG",
+    "mswsock/LPFN_WSARECVMSG"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

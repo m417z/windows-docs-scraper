@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfrequest.EVT_WDF_REQUEST_IMPERSONATE",
+  "title": "EVT_WDF_REQUEST_IMPERSONATE (wdfrequest.h)",
+  "description": "A driver's EvtRequestImpersonate event callback function performs tasks at the requested impersonation level, such as opening a protected file.",
+  "old-location": "wdf\\evtrequestimpersonate.htm",
+  "tech.root": "wdf",
+  "ms.date": "06/03/2020",
+  "keywords": [
+    "EVT_WDF_REQUEST_IMPERSONATE callback function"
+  ],
+  "ms.keywords": "EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_REQUEST_IMPERSONATE",
+    "wdfrequest/EVT_WDF_REQUEST_IMPERSONATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfrequest.h"
+  ],
+  "api_name": [
+    "EVT_WDF_REQUEST_IMPERSONATE"
+  ]
+}

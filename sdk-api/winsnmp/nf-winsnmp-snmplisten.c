@@ -1,0 +1,4 @@
+SNMPAPI_STATUS SNMPAPI_CALL SnmpListen(
+  [in] HSNMP_ENTITY   hEntity,
+  [in] SNMPAPI_STATUS lStatus
+);

@@ -1,0 +1,6 @@
+typedef struct D3D11_FEATURE_DATA_D3D9_OPTIONS1 {
+  BOOL FullNonPow2TextureSupported;
+  BOOL DepthAsTextureWithLessEqualComparisonFilterSupported;
+  BOOL SimpleInstancingSupported;
+  BOOL TextureCubeFaceRenderTargetWithNonCubeDepthStencilSupported;
+} D3D11_FEATURE_DATA_D3D9_OPTIONS1;

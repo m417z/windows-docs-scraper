@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winsplp.RemovePrintDeviceObject",
+  "title": "RemovePrintDeviceObject function (winsplp.h)",
+  "description": "The RemovePrintDeviceObject function removes a device object from a print provider queue.",
+  "tech.root": "print",
+  "ms.date": "11/30/2022",
+  "keywords": [
+    "RemovePrintDeviceObject function"
+  ],
+  "ms.keywords": "RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winspool.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WinSpool.lib",
+  "req.dll": "WinSpool.drv",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RemovePrintDeviceObject",
+    "winsplp/RemovePrintDeviceObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WinSpool.drv"
+  ],
+  "api_name": [
+    "RemovePrintDeviceObject"
+  ]
+}

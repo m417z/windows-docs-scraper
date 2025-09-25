@@ -1,0 +1,1 @@
+DashCap GetDashCap();

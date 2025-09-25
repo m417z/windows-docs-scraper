@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.ICGetBuffersWanted",
+  "title": "ICGetBuffersWanted macro (vfw.h)",
+  "description": "The ICGetBuffersWanted macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the ICM_GETBUFFERSWANTED message.",
+  "helpviewer_keywords": [
+    "ICGetBuffersWanted",
+    "ICGetBuffersWanted macro [Windows Multimedia]",
+    "_win32_ICGetBuffersWanted",
+    "multimedia.icgetbufferswanted",
+    "vfw/ICGetBuffersWanted"
+  ],
+  "old-location": "multimedia\\icgetbufferswanted.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "ed294649-d7e7-4e5f-89d4-49ed65c71b96",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICGetBuffersWanted",
+    "vfw/ICGetBuffersWanted"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "ICGetBuffersWanted"
+  ]
+}

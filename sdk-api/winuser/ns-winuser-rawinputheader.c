@@ -1,0 +1,6 @@
+typedef struct tagRAWINPUTHEADER {
+  DWORD  dwType;
+  DWORD  dwSize;
+  HANDLE hDevice;
+  WPARAM wParam;
+} RAWINPUTHEADER, *PRAWINPUTHEADER, *LPRAWINPUTHEADER;

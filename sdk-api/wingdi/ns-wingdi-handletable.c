@@ -1,0 +1,3 @@
+typedef struct tagHANDLETABLE {
+  HGDIOBJ objectHandle[1];
+} HANDLETABLE, *PHANDLETABLE, *LPHANDLETABLE;

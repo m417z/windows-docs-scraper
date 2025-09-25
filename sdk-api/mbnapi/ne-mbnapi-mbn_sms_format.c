@@ -1,0 +1,5 @@
+typedef enum MBN_SMS_FORMAT {
+  MBN_SMS_FORMAT_NONE = 0,
+  MBN_SMS_FORMAT_PDU = 0x1,
+  MBN_SMS_FORMAT_TEXT = 0x2
+} ;

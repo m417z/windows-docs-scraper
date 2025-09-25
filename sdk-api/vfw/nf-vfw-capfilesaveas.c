@@ -1,0 +1,4 @@
+BOOL capFileSaveAs(
+     hwnd,
+     szName
+);

@@ -1,0 +1,64 @@
+{
+  "UID": "NS:winioctl.STARTING_LCN_INPUT_BUFFER",
+  "title": "STARTING_LCN_INPUT_BUFFER",
+  "description": "Contains the starting LCN to the FSCTL_GET_VOLUME_BITMAP control code.",
+  "helpviewer_keywords": [
+    "*PSTARTING_LCN_INPUT_BUFFER",
+    "PSTARTING_LCN_INPUT_BUFFER",
+    "PSTARTING_LCN_INPUT_BUFFER structure pointer [Files]",
+    "STARTING_LCN_INPUT_BUFFER",
+    "STARTING_LCN_INPUT_BUFFER structure [Files]",
+    "_win32_starting_lcn_input_buffer_str",
+    "base.starting_lcn_input_buffer_str",
+    "fs.starting_lcn_input_buffer_str",
+    "winioctl/PSTARTING_LCN_INPUT_BUFFER",
+    "winioctl/STARTING_LCN_INPUT_BUFFER"
+  ],
+  "old-location": "fs\\starting_lcn_input_buffer_str.htm",
+  "tech.root": "fs",
+  "ms.assetid": "94bdb166-fe75-4851-9dbb-a1a1f5836675",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER structure pointer [Files], STARTING_LCN_INPUT_BUFFER, STARTING_LCN_INPUT_BUFFER structure [Files], _win32_starting_lcn_input_buffer_str, base.starting_lcn_input_buffer_str, fs.starting_lcn_input_buffer_str, winioctl/PSTARTING_LCN_INPUT_BUFFER, winioctl/STARTING_LCN_INPUT_BUFFER",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STARTING_LCN_INPUT_BUFFER, *PSTARTING_LCN_INPUT_BUFFER",
+  "req.redist": null,
+  "f1_keywords": [
+    "PSTARTING_LCN_INPUT_BUFFER",
+    "winioctl/PSTARTING_LCN_INPUT_BUFFER",
+    "STARTING_LCN_INPUT_BUFFER",
+    "winioctl/STARTING_LCN_INPUT_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "STARTING_LCN_INPUT_BUFFER"
+  ]
+}

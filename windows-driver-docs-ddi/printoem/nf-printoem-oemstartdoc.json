@@ -1,0 +1,47 @@
+{
+  "UID": "NF:printoem.OEMStartDoc",
+  "title": "OEMStartDoc function (printoem.h)",
+  "description": "The OEMStartDoc function is called by GDI when it is ready to start sending a document to the driver for rendering.",
+  "tech.root": "print",
+  "ms.date": "08/10/2022",
+  "keywords": [
+    "OEMStartDoc function"
+  ],
+  "ms.keywords": "OEMStartDoc, OEMStartDoc function [Print Devices], print.oemstartdoc, print_unidrv-pscript_rendering_728069a7-4d66-4a83-a1e2-949557157d71.xml, printoem/OEMStartDoc",
+  "req.header": "printoem.h",
+  "req.include-header": "Printoem.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "OEMStartDoc",
+    "printoem/OEMStartDoc"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "printoem.h"
+  ],
+  "api_name": [
+    "OEMStartDoc"
+  ]
+}

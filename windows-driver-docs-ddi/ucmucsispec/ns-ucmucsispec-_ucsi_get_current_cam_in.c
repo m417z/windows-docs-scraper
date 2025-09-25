@@ -1,0 +1,3 @@
+typedef struct _UCSI_GET_CURRENT_CAM_IN {
+  UINT8 CurrentAlternateMode;
+} UCSI_GET_CURRENT_CAM_IN, *PUCSI_GET_CURRENT_CAM_IN;

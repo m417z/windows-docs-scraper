@@ -1,0 +1,3 @@
+void NDIS_GET_NET_BUFFER_LIST_CANCEL_ID(
+  _NBL
+);

@@ -1,0 +1,3 @@
+HRESULT GetToneMappingMode(
+  WICBitmapToneMappingMode *mode
+);

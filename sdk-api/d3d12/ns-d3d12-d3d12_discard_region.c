@@ -1,0 +1,6 @@
+typedef struct D3D12_DISCARD_REGION {
+  UINT             NumRects;
+  const D3D12_RECT *pRects;
+  UINT             FirstSubresource;
+  UINT             NumSubresources;
+} D3D12_DISCARD_REGION;

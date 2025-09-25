@@ -1,0 +1,10 @@
+typedef struct _WTS_SYSTEMTIME {
+  USHORT wYear;
+  USHORT wMonth;
+  USHORT wDayOfWeek;
+  USHORT wDay;
+  USHORT wHour;
+  USHORT wMinute;
+  USHORT wSecond;
+  USHORT wMilliseconds;
+} _WTS_SYSTEMTIME, WTS_SYSTEMTIME, *PWTS_SYSTEMTIME, _WRDS_SYSTEMTIME;

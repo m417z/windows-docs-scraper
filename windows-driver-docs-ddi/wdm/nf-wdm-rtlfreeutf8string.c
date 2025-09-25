@@ -1,0 +1,3 @@
+NTSYSAPI VOID RtlFreeUTF8String(
+  PUTF8_STRING utf8String
+);

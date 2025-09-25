@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngAllocMem",
+  "title": "EngAllocMem macro (winddi.h)",
+  "description": "The EngAllocMem function allocates a block of memory and inserts a caller-supplied tag before the allocation.",
+  "helpviewer_keywords": [
+    "EngAllocMem",
+    "EngAllocMem function [Display Devices]",
+    "display.engallocmem",
+    "gdifncs_c8084f74-b624-4f79-be0a-cf1fc144afaa.xml",
+    "winddi/EngAllocMem"
+  ],
+  "old-location": "display\\engallocmem.htm",
+  "tech.root": "display",
+  "ms.assetid": "61bef5a1-bf68-4d37-ae5d-13ff045a2344",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngAllocMem, EngAllocMem function [Display Devices], display.engallocmem, gdifncs_c8084f74-b624-4f79-be0a-cf1fc144afaa.xml, winddi/EngAllocMem",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngAllocMem",
+    "winddi/EngAllocMem"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngAllocMem"
+  ]
+}

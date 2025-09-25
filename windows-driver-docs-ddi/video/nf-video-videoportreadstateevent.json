@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortReadStateEvent",
+  "title": "VideoPortReadStateEvent function (video.h)",
+  "description": "The VideoPortReadStateEvent function returns the current state of a given event object:\\_signaled or nonsignaled.",
+  "old-location": "display\\videoportreadstateevent.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortReadStateEvent function"
+  ],
+  "ms.keywords": "VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, display.videoportreadstateevent, video/VideoPortReadStateEvent",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortReadStateEvent",
+    "video/VideoPortReadStateEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortReadStateEvent"
+  ]
+}

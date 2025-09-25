@@ -1,0 +1,46 @@
+{
+  "UID": "NC:nblapi.NET_BUFFER_ALLOCATE_MDL",
+  "tech.root": "netvista",
+  "title": "NET_BUFFER_ALLOCATE_MDL",
+  "ms.date": "06/15/2021",
+  "targetos": "Windows",
+  "description": "The NetAllocateMdl function allocates an MDL with an associated memory block of a specified size.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nblapi.h",
+  "req.idl": null,
+  "req.include-header": "ndis.h",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "nblapi.h"
+  ],
+  "api_name": [
+    "NET_BUFFER_ALLOCATE_MDL"
+  ],
+  "f1_keywords": [
+    "NET_BUFFER_ALLOCATE_MDL",
+    "nblapi/NET_BUFFER_ALLOCATE_MDL"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

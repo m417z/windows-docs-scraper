@@ -1,0 +1,43 @@
+{
+  "UID": "NS:ioringapi.IORING_HANDLE_REF",
+  "tech.root": "fs",
+  "title": "IORING_HANDLE_REF",
+  "ms.date": "07/16/2021",
+  "targetos": "Windows",
+  "description": "Represents a reference to a file handle used in an I/O ring operation.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ioringapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": "IORING_HANDLE_REF",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ioringapi.h"
+  ],
+  "api_name": [
+    "IORING_HANDLE_REF"
+  ],
+  "f1_keywords": [
+    "IORING_HANDLE_REF",
+    "ioringapi/IORING_HANDLE_REF"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

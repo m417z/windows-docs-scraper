@@ -1,0 +1,63 @@
+{
+  "UID": "NF:azroles.IAzClientContext3.GetTasks",
+  "title": "IAzClientContext3::GetTasks (azroles.h)",
+  "description": "Returns a collection of the tasks, within the specified scope, that the principal represented by the current client context has permission to perform.",
+  "helpviewer_keywords": [
+    "GetTasks",
+    "GetTasks method [Security]",
+    "GetTasks method [Security]",
+    "IAzClientContext3 interface",
+    "IAzClientContext3 interface [Security]",
+    "GetTasks method",
+    "IAzClientContext3.GetTasks",
+    "IAzClientContext3::GetTasks",
+    "azroles/IAzClientContext3::GetTasks",
+    "security.iazclientcontext3_gettasks_method"
+  ],
+  "old-location": "security\\iazclientcontext3_gettasks_method.htm",
+  "tech.root": "security",
+  "ms.assetid": "285f0e9a-8604-4475-8a73-ed33581f87f4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetTasks, GetTasks method [Security], GetTasks method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetTasks method, IAzClientContext3.GetTasks, IAzClientContext3::GetTasks, azroles/IAzClientContext3::GetTasks, security.iazclientcontext3_gettasks_method",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Azroles.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzClientContext3::GetTasks",
+    "azroles/IAzClientContext3::GetTasks"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.h"
+  ],
+  "api_name": [
+    "IAzClientContext3.GetTasks"
+  ]
+}

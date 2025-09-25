@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.READ_REGISTER_UCHAR",
+  "title": "READ_REGISTER_UCHAR function (wdm.h)",
+  "description": "The READ_REGISTER_UCHAR function (wdm.h) returns a byte read from the specified register address in resident, mapped device memory.",
+  "old-location": "kernel\\read_register_uchar.htm",
+  "tech.root": "kernel",
+  "ms.date": "09/07/2021",
+  "keywords": [
+    "READ_REGISTER_UCHAR function"
+  ],
+  "ms.keywords": "READ_REGISTER_UCHAR, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, kernel.read_register_uchar, wdm/READ_REGISTER_UCHAR",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "READ_REGISTER_UCHAR",
+    "wdm/READ_REGISTER_UCHAR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "READ_REGISTER_UCHAR"
+  ]
+}

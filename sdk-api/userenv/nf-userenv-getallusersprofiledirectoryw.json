@@ -1,0 +1,62 @@
+{
+  "UID": "NF:userenv.GetAllUsersProfileDirectoryW",
+  "title": "GetAllUsersProfileDirectoryW function (userenv.h)",
+  "description": "Retrieves the path to the root of the directory that contains program data shared by all users. (Unicode)",
+  "helpviewer_keywords": [
+    "GetAllUsersProfileDirectory",
+    "GetAllUsersProfileDirectory function [Windows Shell]",
+    "GetAllUsersProfileDirectoryW",
+    "_shell_GetAllUsersProfileDirectory",
+    "shell.GetAllUsersProfileDirectory",
+    "userenv/GetAllUsersProfileDirectory",
+    "userenv/GetAllUsersProfileDirectoryW"
+  ],
+  "old-location": "shell\\GetAllUsersProfileDirectory.htm",
+  "tech.root": "shell",
+  "ms.assetid": "bd08947a-df57-4dd9-b9ba-a01b315bfdf1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetAllUsersProfileDirectory, GetAllUsersProfileDirectory function [Windows Shell], GetAllUsersProfileDirectoryA, GetAllUsersProfileDirectoryW, _shell_GetAllUsersProfileDirectory, shell.GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectoryA, userenv/GetAllUsersProfileDirectoryW",
+  "req.header": "userenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetAllUsersProfileDirectoryW (Unicode) and GetAllUsersProfileDirectoryA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Userenv.lib",
+  "req.dll": "Userenv.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetAllUsersProfileDirectoryW",
+    "userenv/GetAllUsersProfileDirectoryW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Userenv.dll"
+  ],
+  "api_name": [
+    "GetAllUsersProfileDirectory",
+    "GetAllUsersProfileDirectoryA",
+    "GetAllUsersProfileDirectoryW"
+  ]
+}

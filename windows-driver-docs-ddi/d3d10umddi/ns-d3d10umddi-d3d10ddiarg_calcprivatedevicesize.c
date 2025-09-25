@@ -1,0 +1,5 @@
+typedef struct D3D10DDIARG_CALCPRIVATEDEVICESIZE {
+  [in] UINT Interface;
+  [in] UINT Version;
+  [in] UINT Flags;
+} D3D10DDIARG_CALCPRIVATEDEVICESIZE;

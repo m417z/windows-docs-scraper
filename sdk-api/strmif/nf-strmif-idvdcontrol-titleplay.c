@@ -1,0 +1,3 @@
+HRESULT TitlePlay(
+  ULONG ulTitle
+);

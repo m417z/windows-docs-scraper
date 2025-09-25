@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddscsi.IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX",
+  "title": "IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX (ntddscsi.h)",
+  "description": "The IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control code request is the extended version of the IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT request. This request provides support for bidirectional data transfers and allows a command data block (CDB) > 16 bytes.",
+  "old-location": "storage\\ioctl_mpio_pass_through_path_direct_ex.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX IOCTL"
+  ],
+  "ms.keywords": "IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, storage.ioctl_mpio_pass_through_path_direct_ex",
+  "req.header": "ntddscsi.h",
+  "req.include-header": "Ntddscsi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX",
+    "ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddscsi.h"
+  ],
+  "api_name": [
+    "IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX"
+  ]
+}

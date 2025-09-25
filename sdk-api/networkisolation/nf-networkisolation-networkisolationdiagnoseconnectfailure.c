@@ -1,0 +1,3 @@
+DWORD NetworkIsolationDiagnoseConnectFailure(
+  LPCWSTR wszServerName
+);

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winuser.OpenInputDesktop",
+  "title": "OpenInputDesktop function (winuser.h)",
+  "description": "Opens the desktop that receives user input.",
+  "helpviewer_keywords": [
+    "DF_ALLOWOTHERACCOUNTHOOK",
+    "OpenInputDesktop",
+    "OpenInputDesktop function [Windows Stations and Desktops]",
+    "base.openinputdesktop",
+    "winstation.openinputdesktop",
+    "winuser/OpenInputDesktop"
+  ],
+  "old-location": "winstation\\openinputdesktop.htm",
+  "tech.root": "winstation",
+  "ms.assetid": "023d421e-bf32-4e08-b5b3-b7b2ca6c4e00",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DF_ALLOWOTHERACCOUNTHOOK, OpenInputDesktop, OpenInputDesktop function [Windows Stations and Desktops], base.openinputdesktop, winstation.openinputdesktop, winuser/OpenInputDesktop",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OpenInputDesktop",
+    "winuser/OpenInputDesktop"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-winstamin-l1-1-0.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll",
+    "api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll"
+  ],
+  "api_name": [
+    "OpenInputDesktop"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-windowstation-l1-1-1 (introduced in Windows 8.1)"
+}

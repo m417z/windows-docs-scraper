@@ -1,0 +1,69 @@
+{
+  "UID": "NS:wingdi._RGNDATA",
+  "title": "RGNDATA (wingdi.h)",
+  "description": "The RGNDATA structure contains a header and an array of rectangles that compose a region. The rectangles are sorted top to bottom, left to right. They do not overlap.",
+  "helpviewer_keywords": [
+    "*LPRGNDATA",
+    "*NPRGNDATA",
+    "*PRGNDATA",
+    "PRGNDATA",
+    "PRGNDATA structure pointer [Windows GDI]",
+    "RGNDATA",
+    "RGNDATA structure [Windows GDI]",
+    "_RGNDATA",
+    "_win32_RGNDATA_str",
+    "gdi.rgndata",
+    "wingdi/PRGNDATA",
+    "wingdi/RGNDATA"
+  ],
+  "old-location": "gdi\\rgndata.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "3eac0b23-3138-4b34-9c16-6cc185e4de22",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPRGNDATA, *NPRGNDATA, *PRGNDATA, PRGNDATA, PRGNDATA structure pointer [Windows GDI], RGNDATA, RGNDATA structure [Windows GDI], _RGNDATA, _win32_RGNDATA_str, gdi.rgndata, wingdi/PRGNDATA, wingdi/RGNDATA",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RGNDATA, *PRGNDATA, *NPRGNDATA, *LPRGNDATA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_RGNDATA",
+    "wingdi/_RGNDATA",
+    "PRGNDATA",
+    "wingdi/PRGNDATA",
+    "RGNDATA",
+    "wingdi/RGNDATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wingdi.h"
+  ],
+  "api_name": [
+    "RGNDATA"
+  ]
+}

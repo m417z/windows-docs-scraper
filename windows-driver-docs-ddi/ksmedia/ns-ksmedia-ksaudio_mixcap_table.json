@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ksmedia.KSAUDIO_MIXCAP_TABLE",
+  "title": "KSAUDIO_MIXCAP_TABLE (ksmedia.h)",
+  "description": "The KSAUDIO_MIXCAP_TABLE structure specifies the mixing capabilities of a supermixer node (KSNODETYPE_SUPERMIX). This structure is used to get or set the data value for the KSPROPERTY_AUDIO_MIX_LEVEL_CAPS property.",
+  "old-location": "audio\\ksaudio_mixcap_table.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "KSAUDIO_MIXCAP_TABLE structure"
+  ],
+  "ms.keywords": "*PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, audio.ksaudio_mixcap_table, ksmedia/KSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE",
+  "req.header": "ksmedia.h",
+  "req.include-header": "Ksmedia.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE",
+  "f1_keywords": [
+    "PKSAUDIO_MIXCAP_TABLE",
+    "ksmedia/PKSAUDIO_MIXCAP_TABLE",
+    "KSAUDIO_MIXCAP_TABLE",
+    "ksmedia/KSAUDIO_MIXCAP_TABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "PKSAUDIO_MIXCAP_TABLE",
+    "KSAUDIO_MIXCAP_TABLE"
+  ]
+}

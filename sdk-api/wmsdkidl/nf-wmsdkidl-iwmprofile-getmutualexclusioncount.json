@@ -1,0 +1,82 @@
+{
+  "UID": "NF:wmsdkidl.IWMProfile.GetMutualExclusionCount",
+  "title": "IWMProfile::GetMutualExclusionCount (wmsdkidl.h)",
+  "description": "The GetMutualExclusionCount method retrieves the number of mutual exclusion objects in the profile.",
+  "helpviewer_keywords": [
+    "GetMutualExclusionCount",
+    "GetMutualExclusionCount method [windows Media Format]",
+    "GetMutualExclusionCount method [windows Media Format]",
+    "IWMProfile interface",
+    "GetMutualExclusionCount method [windows Media Format]",
+    "IWMProfile2 interface",
+    "GetMutualExclusionCount method [windows Media Format]",
+    "IWMProfile3 interface",
+    "IWMProfile interface [windows Media Format]",
+    "GetMutualExclusionCount method",
+    "IWMProfile.GetMutualExclusionCount",
+    "IWMProfile2 interface [windows Media Format]",
+    "GetMutualExclusionCount method",
+    "IWMProfile2::GetMutualExclusionCount",
+    "IWMProfile3 interface [windows Media Format]",
+    "GetMutualExclusionCount method",
+    "IWMProfile3::GetMutualExclusionCount",
+    "IWMProfile::GetMutualExclusionCount",
+    "IWMProfileGetMutualExclusionCount",
+    "wmformat.iwmprofile_getmutualexclusioncount",
+    "wmsdkidl/IWMProfile2::GetMutualExclusionCount",
+    "wmsdkidl/IWMProfile3::GetMutualExclusionCount",
+    "wmsdkidl/IWMProfile::GetMutualExclusionCount"
+  ],
+  "old-location": "wmformat\\iwmprofile_getmutualexclusioncount.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "c223f75b-87c6-49bd-a16a-14b4751d5f1b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetMutualExclusionCount, GetMutualExclusionCount method [windows Media Format], GetMutualExclusionCount method [windows Media Format],IWMProfile interface, GetMutualExclusionCount method [windows Media Format],IWMProfile2 interface, GetMutualExclusionCount method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetMutualExclusionCount method, IWMProfile.GetMutualExclusionCount, IWMProfile2 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile2::GetMutualExclusionCount, IWMProfile3 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile3::GetMutualExclusionCount, IWMProfile::GetMutualExclusionCount, IWMProfileGetMutualExclusionCount, wmformat.iwmprofile_getmutualexclusioncount, wmsdkidl/IWMProfile2::GetMutualExclusionCount, wmsdkidl/IWMProfile3::GetMutualExclusionCount, wmsdkidl/IWMProfile::GetMutualExclusionCount",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProfile::GetMutualExclusionCount",
+    "wmsdkidl/IWMProfile::GetMutualExclusionCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll",
+    "qasf.dll"
+  ],
+  "api_name": [
+    "IWMProfile.GetMutualExclusionCount",
+    "IWMProfile2.GetMutualExclusionCount",
+    "IWMProfile3.GetMutualExclusionCount"
+  ]
+}

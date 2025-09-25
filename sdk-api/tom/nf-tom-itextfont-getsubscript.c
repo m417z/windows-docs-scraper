@@ -1,0 +1,3 @@
+HRESULT GetSubscript(
+  long *pValue
+);

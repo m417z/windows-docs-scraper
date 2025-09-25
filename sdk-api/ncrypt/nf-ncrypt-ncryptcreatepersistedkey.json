@@ -1,0 +1,61 @@
+{
+  "UID": "NF:ncrypt.NCryptCreatePersistedKey",
+  "title": "NCryptCreatePersistedKey function (ncrypt.h)",
+  "description": "Creates a new key and stores it in the specified key storage provider.",
+  "helpviewer_keywords": [
+    "AT_KEYEXCHANGE",
+    "AT_SIGNATURE",
+    "NCRYPT_MACHINE_KEY_FLAG",
+    "NCRYPT_OVERWRITE_KEY_FLAG",
+    "NCryptCreatePersistedKey",
+    "NCryptCreatePersistedKey function [Security]",
+    "ncrypt/NCryptCreatePersistedKey",
+    "security.ncryptcreatepersistedkey_func"
+  ],
+  "old-location": "security\\ncryptcreatepersistedkey_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "eeb1842f-fd9e-4edf-9db8-7b4e91760e9b",
+  "ms.date": "05/29/2024",
+  "ms.keywords": "AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_OVERWRITE_KEY_FLAG, NCryptCreatePersistedKey, NCryptCreatePersistedKey function [Security], ncrypt/NCryptCreatePersistedKey, security.ncryptcreatepersistedkey_func",
+  "req.header": "ncrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ncrypt.lib",
+  "req.dll": "Ncrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NCryptCreatePersistedKey",
+    "ncrypt/NCryptCreatePersistedKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ncrypt.dll"
+  ],
+  "api_name": [
+    "NCryptCreatePersistedKey"
+  ]
+}

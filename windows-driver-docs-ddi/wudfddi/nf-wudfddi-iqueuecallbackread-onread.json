@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IQueueCallbackRead.OnRead",
+  "title": "IQueueCallbackRead::OnRead (wudfddi.h)",
+  "description": "The OnRead method is called to handle a read request when an application reads information from a device through the Microsoft Win32 ReadFile or ReadFileEx function.",
+  "old-location": "wdf\\iqueuecallbackread_onread.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IQueueCallbackRead::OnRead"
+  ],
+  "ms.keywords": "IQueueCallbackRead interface,OnRead method, IQueueCallbackRead.OnRead, IQueueCallbackRead::OnRead, OnRead, OnRead method, OnRead method,IQueueCallbackRead interface, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml, umdf.iqueuecallbackread_onread, wdf.iqueuecallbackread_onread, wudfddi/IQueueCallbackRead::OnRead",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IQueueCallbackRead::OnRead",
+    "wudfddi/IQueueCallbackRead::OnRead"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IQueueCallbackRead::OnRead"
+  ]
+}

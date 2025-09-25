@@ -1,0 +1,7 @@
+PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW Pfnd3d111DdiDestroyvideoprocessorinputview;
+
+VOID Pfnd3d111DdiDestroyvideoprocessorinputview(
+  D3D10DDI_HDEVICE unnamedParam1,
+  D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW unnamedParam2
+)
+{...}

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTRegisterTrimNotification(
+  D3DKMT_REGISTERTRIMNOTIFICATION *unnamedParam1
+);

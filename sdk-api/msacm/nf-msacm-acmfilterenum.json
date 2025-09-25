@@ -1,0 +1,65 @@
+{
+  "UID": "NF:msacm.acmFilterEnum",
+  "title": "acmFilterEnum function (msacm.h)",
+  "description": "The acmFilterEnum function enumerates waveform-audio filters available for a given filter tag from an ACM driver. This function continues enumerating until there are no more suitable filters for the filter tag or the callback function returns FALSE.",
+  "helpviewer_keywords": [
+    "_win32_acmFilterEnum",
+    "acmFilterEnum",
+    "acmFilterEnum function [Windows Multimedia]",
+    "acmFilterEnumA",
+    "acmFilterEnumW",
+    "msacm/acmFilterEnum",
+    "msacm/acmFilterEnumA",
+    "msacm/acmFilterEnumW",
+    "multimedia.acmfilterenum"
+  ],
+  "old-location": "multimedia\\acmfilterenum.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "ee8154d6-3aa1-49ce-96c5-7b8526f02a8a",
+  "ms.date": "08/02/2022",
+  "ms.keywords": "_win32_acmFilterEnum, acmFilterEnum, acmFilterEnum function [Windows Multimedia], acmFilterEnumA, acmFilterEnumW, msacm/acmFilterEnum, msacm/acmFilterEnumA, msacm/acmFilterEnumW, multimedia.acmfilterenum",
+  "req.header": "msacm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "acmFilterEnumW (Unicode) and acmFilterEnumA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msacm32.lib",
+  "req.dll": "Msacm32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "acmFilterEnum",
+    "msacm/acmFilterEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msacm32.dll",
+    "Ext-MS-Win-mm-msacm-l1-1-0.dll"
+  ],
+  "api_name": [
+    "acmFilterEnum",
+    "acmFilterEnumA",
+    "acmFilterEnumW"
+  ]
+}

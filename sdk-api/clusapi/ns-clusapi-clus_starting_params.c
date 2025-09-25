@@ -1,0 +1,5 @@
+typedef struct CLUS_STARTING_PARAMS {
+  DWORD dwSize;
+  BOOL  bForm;
+  BOOL  bFirst;
+} CLUS_STARTING_PARAMS, *PCLUS_STARTING_PARAMS;

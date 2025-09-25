@@ -1,0 +1,3 @@
+HRESULT SetSerialization(
+  [in] const CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION *pcpcs
+);

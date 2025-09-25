@@ -1,0 +1,3 @@
+void UrlIsFileUrlW(
+  pszURL
+);

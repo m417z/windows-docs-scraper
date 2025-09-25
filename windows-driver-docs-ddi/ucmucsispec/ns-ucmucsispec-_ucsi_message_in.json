@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ucmucsispec._UCSI_MESSAGE_IN",
+  "title": "_UCSI_MESSAGE_IN (ucmucsispec.h)",
+  "description": "The MESSAGE IN data structure. See Section 3.4.",
+  "tech.root": "usbref",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "UCSI_MESSAGE_IN structure"
+  ],
+  "ms.keywords": "_UCSI_MESSAGE_IN, UCSI_MESSAGE_IN, *PUCSI_MESSAGE_IN,",
+  "req.header": "ucmucsispec.h",
+  "req.include-header": "UcmUcsiCx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": "N/A",
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "UCSI_MESSAGE_IN, *PUCSI_MESSAGE_IN",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_UCSI_MESSAGE_IN",
+    "ucmucsispec/_UCSI_MESSAGE_IN",
+    "PUCSI_MESSAGE_IN",
+    "ucmucsispec/PUCSI_MESSAGE_IN",
+    "UCSI_MESSAGE_IN",
+    "ucmucsispec/UCSI_MESSAGE_IN"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucmucsispec.h"
+  ],
+  "api_name": [
+    "_UCSI_MESSAGE_IN",
+    "PUCSI_MESSAGE_IN",
+    "UCSI_MESSAGE_IN"
+  ]
+}

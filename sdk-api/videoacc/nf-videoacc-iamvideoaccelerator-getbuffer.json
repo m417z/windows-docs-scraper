@@ -1,0 +1,65 @@
+{
+  "UID": "NF:videoacc.IAMVideoAccelerator.GetBuffer",
+  "title": "IAMVideoAccelerator::GetBuffer (videoacc.h)",
+  "description": "The GetBuffer method gets a pointer to a compressed or uncompressed surface that was allocated for DirectX Video Acceleration (DXVA) decoding.",
+  "helpviewer_keywords": [
+    "GetBuffer",
+    "GetBuffer method [DirectShow]",
+    "GetBuffer method [DirectShow]",
+    "IAMVideoAccelerator interface",
+    "IAMVideoAccelerator interface [DirectShow]",
+    "GetBuffer method",
+    "IAMVideoAccelerator.GetBuffer",
+    "IAMVideoAccelerator::GetBuffer",
+    "IAMVideoAcceleratorGetBuffer",
+    "dshow.iamvideoaccelerator_getbuffer",
+    "videoacc/IAMVideoAccelerator::GetBuffer"
+  ],
+  "old-location": "dshow\\iamvideoaccelerator_getbuffer.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "3385cad2-8885-4b17-83fa-f40f25b0c433",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetBuffer method, IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer",
+  "req.header": "videoacc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMVideoAccelerator::GetBuffer",
+    "videoacc/IAMVideoAccelerator::GetBuffer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMVideoAccelerator.GetBuffer"
+  ]
+}

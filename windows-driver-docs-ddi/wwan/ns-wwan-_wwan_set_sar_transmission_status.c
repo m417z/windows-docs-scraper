@@ -1,0 +1,4 @@
+typedef struct _WWAN_SET_SAR_TRANSMISSION_STATUS {
+  WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE ChannelNotification;
+  ULONG                                           HysteresisTimer;
+} WWAN_SET_SAR_TRANSMISSION_STATUS, *PWWAN_SET_SAR_TRANSMISSION_STATUS;

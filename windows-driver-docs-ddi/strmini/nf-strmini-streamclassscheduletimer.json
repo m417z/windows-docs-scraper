@@ -1,0 +1,49 @@
+{
+  "UID": "NF:strmini.StreamClassScheduleTimer",
+  "title": "StreamClassScheduleTimer function (strmini.h)",
+  "description": "The minidriver calls the StreamClassScheduleTimer routine to schedule a timer, and to specify a routine that is called when the timer expires.",
+  "old-location": "stream\\streamclassscheduletimer.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "StreamClassScheduleTimer function"
+  ],
+  "ms.keywords": "StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Stream.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StreamClassScheduleTimer",
+    "strmini/StreamClassScheduleTimer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Stream.lib",
+    "Stream.dll"
+  ],
+  "api_name": [
+    "StreamClassScheduleTimer"
+  ]
+}

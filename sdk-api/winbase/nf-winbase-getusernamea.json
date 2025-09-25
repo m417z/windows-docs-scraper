@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winbase.GetUserNameA",
+  "title": "GetUserNameA function (winbase.h)",
+  "description": "Retrieves the name of the user associated with the current thread. (ANSI)",
+  "helpviewer_keywords": [
+    "GetUserNameA",
+    "winbase/GetUserNameA"
+  ],
+  "old-location": "base\\getusername.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "87adc46a-c069-4ee5-900a-03b646306e64",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetUserNameW (Unicode) and GetUserNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetUserNameA",
+    "winbase/GetUserNameA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "AdvApi32Legacy.dll",
+    "API-MS-Win-Core-SysInfo-L2-1-0.dll"
+  ],
+  "api_name": [
+    "GetUserName",
+    "GetUserNameA",
+    "GetUserNameW"
+  ]
+}

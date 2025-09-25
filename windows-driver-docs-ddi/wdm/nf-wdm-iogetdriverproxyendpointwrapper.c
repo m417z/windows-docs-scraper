@@ -1,0 +1,4 @@
+PDRIVER_PROXY_WRAPPED_ENDPOINT_FUNCTION IoGetDriverProxyEndpointWrapper(
+  PDRIVER_PROXY_EXTENSION           DriverProxyExtension,
+  DRIVER_PROXY_ENDPOINT_FUNCTION_ID FunctionId
+);

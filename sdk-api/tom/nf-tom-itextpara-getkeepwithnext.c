@@ -1,0 +1,3 @@
+HRESULT GetKeepWithNext(
+  long *pValue
+);

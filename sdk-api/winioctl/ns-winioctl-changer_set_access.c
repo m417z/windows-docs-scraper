@@ -1,0 +1,4 @@
+typedef struct _CHANGER_SET_ACCESS {
+  CHANGER_ELEMENT Element;
+  DWORD           Control;
+} CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS;

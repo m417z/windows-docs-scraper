@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wdspxe.PxeDhcpGetOptionValue",
+  "title": "PxeDhcpGetOptionValue function (wdspxe.h)",
+  "description": "Retrieves an option value from a DHCP packet.",
+  "helpviewer_keywords": [
+    "PxeDhcpGetOptionValue",
+    "PxeDhcpGetOptionValue function [Windows Deployment Services]",
+    "wds.pxedhcpgetoptionvalue",
+    "wdspxe/PxeDhcpGetOptionValue"
+  ],
+  "old-location": "wds\\pxedhcpgetoptionvalue.htm",
+  "tech.root": "wds",
+  "ms.assetid": "831a830c-337c-4151-932b-db4783fc924e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PxeDhcpGetOptionValue, PxeDhcpGetOptionValue function [Windows Deployment Services], wds.pxedhcpgetoptionvalue, wdspxe/PxeDhcpGetOptionValue",
+  "req.header": "wdspxe.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WdsPxe.lib",
+  "req.dll": "WdsPxe.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PxeDhcpGetOptionValue",
+    "wdspxe/PxeDhcpGetOptionValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WdsPxe.dll"
+  ],
+  "api_name": [
+    "PxeDhcpGetOptionValue"
+  ]
+}

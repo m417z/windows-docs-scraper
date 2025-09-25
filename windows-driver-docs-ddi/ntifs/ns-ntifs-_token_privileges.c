@@ -1,0 +1,4 @@
+typedef struct _TOKEN_PRIVILEGES {
+  ULONG               PrivilegeCount;
+  LUID_AND_ATTRIBUTES Privileges[ANYSIZE_ARRAY];
+} TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES;

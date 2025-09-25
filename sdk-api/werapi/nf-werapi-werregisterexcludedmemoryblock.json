@@ -1,0 +1,62 @@
+{
+  "UID": "NF:werapi.WerRegisterExcludedMemoryBlock",
+  "title": "WerRegisterExcludedMemoryBlock function (werapi.h)",
+  "description": "Marks a memory block (that is normally included by default in error reports) to be excluded from the Windows Error Reporting (WER) error report.",
+  "helpviewer_keywords": [
+    "WerRegisterExcludedMemoryBlock",
+    "WerRegisterExcludedMemoryBlock function [Windows Error Reporting]",
+    "wer.werregisterexcludedmemoryblock",
+    "werapi/WerRegisterExcludedMemoryBlock"
+  ],
+  "old-location": "wer\\werregisterexcludedmemoryblock.htm",
+  "tech.root": "wer",
+  "ms.assetid": "6CDA8EDD-C8A5-471D-9716-3AB29E571133",
+  "ms.date": "07/25/2023",
+  "ms.keywords": "WerRegisterExcludedMemoryBlock, WerRegisterExcludedMemoryBlock function [Windows Error Reporting], wer.werregisterexcludedmemoryblock, werapi/WerRegisterExcludedMemoryBlock",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerRegisterExcludedMemoryBlock",
+    "werapi/WerRegisterExcludedMemoryBlock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerRegisterExcludedMemoryBlock"
+  ]
+}

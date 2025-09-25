@@ -1,0 +1,7 @@
+PMRX_CREATE_SRVCALL PmrxCreateSrvcall;
+
+NTSTATUS PmrxCreateSrvcall(
+  IN OUT PMRX_SRV_CALL SrvCall,
+  IN OUT PMRX_SRVCALL_CALLBACK_CONTEXT SrvCallCallBackContext
+)
+{...}

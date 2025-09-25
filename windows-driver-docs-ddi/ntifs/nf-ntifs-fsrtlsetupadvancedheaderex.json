@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.FsRtlSetupAdvancedHeaderEx",
+  "title": "FsRtlSetupAdvancedHeaderEx macro (ntifs.h)",
+  "description": "The FsRtlSetupAdvancedHeaderEx macro is used by file systems to initialize an FSRTL_ADVANCED_FCB_HEADER structure for use with both stream and file contexts.",
+  "old-location": "ifsk\\fsrtlsetupadvancedheaderex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "09/29/2021",
+  "keywords": [
+    "FsRtlSetupAdvancedHeaderEx macro"
+  ],
+  "ms.keywords": "FsRtlSetupAdvancedHeaderEx, FsRtlSetupAdvancedHeaderEx function [Installable File System Drivers], fsrtlref_9214990b-2568-43d9-801a-c43514a6448f.xml, ifsk.fsrtlsetupadvancedheaderex, ntifs/FsRtlSetupAdvancedHeaderEx",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Update Rollup for Microsoft Windows 2000 Service Pack 4 (SP4); Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FsRtlSetupAdvancedHeaderEx",
+    "ntifs/FsRtlSetupAdvancedHeaderEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FsRtlSetupAdvancedHeaderEx"
+  ]
+}

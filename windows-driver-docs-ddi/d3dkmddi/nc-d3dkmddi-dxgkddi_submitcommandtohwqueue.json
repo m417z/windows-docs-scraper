@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_SUBMITCOMMANDTOHWQUEUE",
+  "title": "DXGKDDI_SUBMITCOMMANDTOHWQUEUE (d3dkmddi.h)",
+  "description": "Invoked by the DirectX graphics kernel to append a DMA buffer to a GPU visible hardware queue.",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "DXGKDDI_SUBMITCOMMANDTOHWQUEUE callback function"
+  ],
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL or DISPATCH_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "tech.root": "display",
+  "f1_keywords": [
+    "DXGKDDI_SUBMITCOMMANDTOHWQUEUE",
+    "d3dkmddi/DXGKDDI_SUBMITCOMMANDTOHWQUEUE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_SUBMITCOMMANDTOHWQUEUE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

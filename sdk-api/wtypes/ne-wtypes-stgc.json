@@ -1,0 +1,70 @@
+{
+  "UID": "NE:wtypes.tagSTGC",
+  "title": "STGC (wtypes.h)",
+  "description": "Specify the conditions for performing the commit operation in the IStorage::Commit and IStream::Commit methods.",
+  "helpviewer_keywords": [
+    "STGC",
+    "STGC enumeration [Structured Storage]",
+    "STGC_CONSOLIDATE",
+    "STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE",
+    "STGC_DEFAULT",
+    "STGC_ONLYIFCURRENT",
+    "STGC_OVERWRITE",
+    "_stg_stgc",
+    "stg.stgc",
+    "wtypes/STGC",
+    "wtypes/STGC_CONSOLIDATE",
+    "wtypes/STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE",
+    "wtypes/STGC_DEFAULT",
+    "wtypes/STGC_ONLYIFCURRENT",
+    "wtypes/STGC_OVERWRITE"
+  ],
+  "old-location": "stg\\stgc.htm",
+  "tech.root": "Stg",
+  "ms.assetid": "f37260c0-d03d-4ead-a342-d2454ce8b1ac",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "STGC, STGC enumeration [Structured Storage], STGC_CONSOLIDATE, STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, STGC_DEFAULT, STGC_ONLYIFCURRENT, STGC_OVERWRITE, _stg_stgc, stg.stgc, wtypes/STGC, wtypes/STGC_CONSOLIDATE, wtypes/STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, wtypes/STGC_DEFAULT, wtypes/STGC_ONLYIFCURRENT, wtypes/STGC_OVERWRITE",
+  "req.header": "wtypes.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "WTypes.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STGC",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagSTGC",
+    "wtypes/tagSTGC",
+    "STGC",
+    "wtypes/STGC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WTypes.h"
+  ],
+  "api_name": [
+    "STGC"
+  ]
+}

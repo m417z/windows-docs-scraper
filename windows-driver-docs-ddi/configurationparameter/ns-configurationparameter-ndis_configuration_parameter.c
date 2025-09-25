@@ -1,0 +1,8 @@
+typedef struct _NDIS_CONFIGURATION_PARAMETER {
+  NDIS_PARAMETER_TYPE ParameterType;
+  union {
+    ULONG       IntegerData;
+    NDIS_STRING StringData;
+    BINARY_DATA BinaryData;
+  } ParameterData;
+} NDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER;

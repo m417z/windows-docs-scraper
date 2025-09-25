@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.MmProtectDriverSection",
+  "title": "MmProtectDriverSection function (wdm.h)",
+  "description": "The MmProtectDriverSection read-only protects a section of a loaded driver by using the services provided by the Virtual Secure Mode (VSM).",
+  "old-location": "kernel\\mmprotectdriversection.htm",
+  "tech.root": "kernel",
+  "ms.date": "12/17/2018",
+  "keywords": [
+    "MmProtectDriverSection function"
+  ],
+  "ms.keywords": "MmProtectDriverSection, MmProtectDriverSection routine [Kernel-Mode Driver Architecture], kernel.mmprotectdriversection , wdm/MmProtectDriverSection",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Insider 19548.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmProtectDriverSection",
+    "wdm/MmProtectDriverSection"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmProtectDriverSection"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "UID": "NS:d3d12umddi.D3D12DDIARG_EVICT",
+  "title": "D3D12DDIARG_EVICT (d3d12umddi.h)",
+  "description": "Arguments used in the PFND3D12DDI_EVICT2 callback function to instruct the OS to decrement the residency reference count.",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "D3D12DDIARG_EVICT structure"
+  ],
+  "ms.keywords": "D3D12DDIARG_EVICT, D3D12DDIARG_EVICT,",
+  "req.header": "d3d12umddi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "D3D12DDIARG_EVICT",
+  "targetos": "Windows",
+  "ms.custom": "RS5, 19H1",
+  "tech.root": "display",
+  "f1_keywords": [
+    "D3D12DDIARG_EVICT",
+    "d3d12umddi/D3D12DDIARG_EVICT"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3d12umddi.h"
+  ],
+  "api_name": [
+    "D3D12DDIARG_EVICT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

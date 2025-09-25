@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._DMA_IOMMU_INTERFACE_V2",
+  "tech.root": "kernel",
+  "title": "DMA_IOMMU_INTERFACE_V2",
+  "ms.date": "06/09/2021",
+  "targetos": "Windows",
+  "description": "A structure containing the set of IOMMU Version 2 (V2) functions.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "DMA_IOMMU_INTERFACE_V2, *PDMA_IOMMU_INTERFACE_V2",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DMA_IOMMU_INTERFACE_V2",
+    "PDMA_IOMMU_INTERFACE_V2",
+    "DMA_IOMMU_INTERFACE_V2"
+  ],
+  "f1_keywords": [
+    "_DMA_IOMMU_INTERFACE_V2",
+    "wdm/_DMA_IOMMU_INTERFACE_V2",
+    "PDMA_IOMMU_INTERFACE_V2",
+    "wdm/PDMA_IOMMU_INTERFACE_V2",
+    "DMA_IOMMU_INTERFACE_V2",
+    "wdm/DMA_IOMMU_INTERFACE_V2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

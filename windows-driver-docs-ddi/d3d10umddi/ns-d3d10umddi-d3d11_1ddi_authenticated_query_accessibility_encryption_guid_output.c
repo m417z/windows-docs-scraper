@@ -1,0 +1,5 @@
+typedef struct D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT {
+  D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT Output;
+  UINT                                  EncryptionGuidIndex;
+  GUID                                  EncryptionGuid;
+} D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT;

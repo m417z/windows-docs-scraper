@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.ScsiPortWriteRegisterBufferUchar",
+  "title": "ScsiPortWriteRegisterBufferUchar macro (storport.h)",
+  "description": "Learn how the ScsiPortWriteRegisterBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\scsiportwriteregisterbufferuchar.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ScsiPortWriteRegisterBufferUchar macro"
+  ],
+  "ms.keywords": "ScsiPortWriteRegisterBufferUchar, ScsiPortWriteRegisterBufferUchar routine [Storage Devices], scsiprt_260290c1-818a-49dd-9705-ea79984fa0af.xml, srb/ScsiPortWriteRegisterBufferUchar, storage.scsiportwriteregisterbufferuchar",
+  "req.header": "storport.h",
+  "req.include-header": "Miniport.h, Scsi.h, Storport.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scsiport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortWriteRegisterBufferUchar",
+    "storport/ScsiPortWriteRegisterBufferUchar"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Scsiport.lib",
+    "Scsiport.dll"
+  ],
+  "api_name": [
+    "ScsiPortWriteRegisterBufferUchar"
+  ]
+}

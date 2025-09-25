@@ -1,0 +1,63 @@
+{
+  "UID": "NF:oleacc.GetStateTextW",
+  "title": "GetStateTextW function (oleacc.h)",
+  "description": "Retrieves a localized string that describes an object's state for a single predefined state bit flag. Because state values are a combination of one or more bit flags, clients call this function more than once to retrieve all state strings. (Unicode)",
+  "helpviewer_keywords": [
+    "GetStateText",
+    "GetStateText function [Windows Accessibility]",
+    "GetStateTextW",
+    "_msaa_GetStateText",
+    "msaa.getstatetext",
+    "oleacc/GetStateText",
+    "oleacc/GetStateTextW",
+    "winauto.getstatetext"
+  ],
+  "old-location": "winauto\\getstatetext.htm",
+  "tech.root": "WinAuto",
+  "ms.assetid": "2a136883-870e-48c3-b182-1cdc64768894",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetStateText, GetStateText function [Windows Accessibility], GetStateTextA, GetStateTextW, _msaa_GetStateText, msaa.getstatetext, oleacc/GetStateText, oleacc/GetStateTextA, oleacc/GetStateTextW, winauto.getstatetext",
+  "req.header": "oleacc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetStateTextW (Unicode) and GetStateTextA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Oleacc.lib",
+  "req.dll": "Oleacc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetStateTextW",
+    "oleacc/GetStateTextW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Oleacc.dll"
+  ],
+  "api_name": [
+    "GetStateText",
+    "GetStateTextA",
+    "GetStateTextW"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFIoQueue.PurgeSynchronously",
+  "title": "IWDFIoQueue::PurgeSynchronously (wudfddi.h)",
+  "description": "The PurgeSynchronously method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. The method returns after all outstanding requests are canceled.",
+  "old-location": "wdf\\iwdfioqueue_purgesynchronously.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFIoQueue::PurgeSynchronously"
+  ],
+  "ms.keywords": "IWDFIoQueue interface,PurgeSynchronously method, IWDFIoQueue.PurgeSynchronously, IWDFIoQueue::PurgeSynchronously, PurgeSynchronously, PurgeSynchronously method, PurgeSynchronously method,IWDFIoQueue interface, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, umdf.iwdfioqueue_purgesynchronously, wdf.iwdfioqueue_purgesynchronously, wudfddi/IWDFIoQueue::PurgeSynchronously",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFIoQueue::PurgeSynchronously",
+    "wudfddi/IWDFIoQueue::PurgeSynchronously"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFIoQueue::PurgeSynchronously"
+  ]
+}

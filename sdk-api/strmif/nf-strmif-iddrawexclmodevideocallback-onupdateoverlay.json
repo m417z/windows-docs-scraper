@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IDDrawExclModeVideoCallback.OnUpdateOverlay",
+  "title": "IDDrawExclModeVideoCallback::OnUpdateOverlay (strmif.h)",
+  "description": "The OnUpdateOverlay method informs the application when the overlay surface for the video is about to become visible, invisible, change size, or change position, so that the application can repaint its window appropriately.",
+  "helpviewer_keywords": [
+    "IDDrawExclModeVideoCallback interface [DirectShow]",
+    "OnUpdateOverlay method",
+    "IDDrawExclModeVideoCallback.OnUpdateOverlay",
+    "IDDrawExclModeVideoCallback::OnUpdateOverlay",
+    "IDDrawExclModeVideoCallbackOnUpdateOverlay",
+    "OnUpdateOverlay",
+    "OnUpdateOverlay method [DirectShow]",
+    "OnUpdateOverlay method [DirectShow]",
+    "IDDrawExclModeVideoCallback interface",
+    "dshow.iddrawexclmodevideocallback_onupdateoverlay",
+    "strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay"
+  ],
+  "old-location": "dshow\\iddrawexclmodevideocallback_onupdateoverlay.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "ede823ba-8340-4339-8e8a-e1d4f9ad1273",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDDrawExclModeVideoCallback::OnUpdateOverlay",
+    "strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IDDrawExclModeVideoCallback.OnUpdateOverlay"
+  ]
+}

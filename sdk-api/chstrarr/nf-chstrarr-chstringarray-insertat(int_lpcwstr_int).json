@@ -1,0 +1,60 @@
+{
+  "UID": "NF:chstrarr.CHStringArray.InsertAt(int,LPCWSTR,int)",
+  "title": "CHStringArray::InsertAt (chstrarr.h)",
+  "description": "The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.",
+  "helpviewer_keywords": [
+    "CHStringArray.InsertAt",
+    "CHStringArray::InsertAt",
+    "CHStringArray::InsertAt methods [Windows Management Instrumentation]",
+    "InsertAt",
+    "chstrarr/CHStringArray::InsertAt",
+    "wmi.insertat_method_in_class_chstringarray"
+  ],
+  "old-location": "wmi\\insertat_method_in_class_chstringarray.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "1d6355bc-7df2-4aa3-8e47-0239d726ed7d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CHStringArray.InsertAt, CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray",
+  "req.header": "chstrarr.h",
+  "req.include-header": "FwCommon.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FrameDyn.lib",
+  "req.dll": "FrameDynOS.dll; FrameDyn.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CHStringArray::InsertAt",
+    "chstrarr/CHStringArray::InsertAt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FrameDynOS.dll",
+    "FrameDyn.dll"
+  ],
+  "api_name": [
+    "CHStringArray::InsertAt"
+  ]
+}

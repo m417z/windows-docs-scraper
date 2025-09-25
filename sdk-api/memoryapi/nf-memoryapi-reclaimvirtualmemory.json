@@ -1,0 +1,67 @@
+{
+  "UID": "NF:memoryapi.ReclaimVirtualMemory",
+  "title": "ReclaimVirtualMemory function (memoryapi.h)",
+  "description": "Reclaims a range of memory pages that were offered to the system with OfferVirtualMemory.",
+  "helpviewer_keywords": [
+    "ReclaimVirtualMemory",
+    "ReclaimVirtualMemory function",
+    "base.reclaimvirtualmemory",
+    "winbase/ReclaimVirtualMemory"
+  ],
+  "old-location": "base\\reclaimvirtualmemory.htm",
+  "tech.root": "base",
+  "ms.assetid": "bb0ec5aa-b098-8a3f-67df-864a1672ba8f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ReclaimVirtualMemory, ReclaimVirtualMemory function, base.reclaimvirtualmemory, winbase/ReclaimVirtualMemory",
+  "req.header": "memoryapi.h",
+  "req.include-header": "Windows.h, Memoryapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 Update [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 Update [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ReclaimVirtualMemory",
+    "memoryapi/ReclaimVirtualMemory"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-memory-l1-1-9.dll",
+    "api-ms-win-core-memory-l1-1-8.dll",
+    "api-ms-win-core-memory-l1-1-7.dll",
+    "api-ms-win-core-memory-l1-1-6.dll",
+    "api-ms-win-core-memory-l1-1-5.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-memory-l1-1-2.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-memory-l1-1-3.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Memory-L1-1-4.dll"
+  ],
+  "api_name": [
+    "ReclaimVirtualMemory"
+  ]
+}

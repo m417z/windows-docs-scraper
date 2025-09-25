@@ -1,0 +1,44 @@
+{
+  "UID": "NE:storport._RAID_SYSTEM_POWER",
+  "tech.root": "storage",
+  "title": "RAID_SYSTEM_POWER",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "RAID_SYSTEM_POWER is a system power usage indicator.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_RAID_SYSTEM_POWER",
+    "PRAID_SYSTEM_POWER",
+    "RAID_SYSTEM_POWER"
+  ],
+  "f1_keywords": [
+    "_RAID_SYSTEM_POWER",
+    "storport/_RAID_SYSTEM_POWER",
+    "PRAID_SYSTEM_POWER",
+    "storport/PRAID_SYSTEM_POWER",
+    "RAID_SYSTEM_POWER",
+    "storport/RAID_SYSTEM_POWER"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

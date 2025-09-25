@@ -1,0 +1,3 @@
+HRESULT SetDisableReadback(
+  boolean value
+);

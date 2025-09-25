@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTAdjustFullscreenGamma(
+  D3DKMT_ADJUSTFULLSCREENGAMMA *unnamedParam1
+);

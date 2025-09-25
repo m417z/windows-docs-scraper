@@ -1,0 +1,3 @@
+HRESULT GetRegister(
+  ULONG *registerId
+);

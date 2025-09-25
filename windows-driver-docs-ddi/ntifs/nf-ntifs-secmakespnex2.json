@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.SecMakeSPNEx2",
+  "title": "SecMakeSPNEx2 function (ntifs.h)",
+  "description": "SecMakeSPNEx2 creates a service provider name string that can be used when it communicates with specific security service providers.",
+  "old-location": "ifsk\\secmakespnex2.htm",
+  "tech.root": "ifsk",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "SecMakeSPNEx2 function"
+  ],
+  "ms.keywords": "SecMakeSPNEx2, SecMakeSPNEx2 function [Installable File System Drivers], ifsk.secmakespnex2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ntifs/SecMakeSPNEx2",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ksecdd.lib",
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SecMakeSPNEx2",
+    "ntifs/SecMakeSPNEx2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ksecdd.lib",
+    "Ksecdd.dll"
+  ],
+  "api_name": [
+    "SecMakeSPNEx2"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT Rename(
+  PCWSTR scriptName
+);

@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
+  [in] D3DKMT_HANDLE hResource;
+  [in] UINT          ClientPid;
+} D3DKMT_CHECKSHAREDRESOURCEACCESS;

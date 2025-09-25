@@ -1,0 +1,6 @@
+typedef struct D3D12_FEATURE_DATA_ARCHITECTURE {
+  UINT NodeIndex;
+  BOOL TileBasedRenderer;
+  BOOL UMA;
+  BOOL CacheCoherentUMA;
+} D3D12_FEATURE_DATA_ARCHITECTURE;

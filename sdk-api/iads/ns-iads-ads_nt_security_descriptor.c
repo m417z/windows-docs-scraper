@@ -1,0 +1,4 @@
+typedef struct __MIDL___MIDL_itf_ads_0000_0000_0003 {
+  DWORD  dwLength;
+  LPBYTE lpValue;
+} ADS_NT_SECURITY_DESCRIPTOR, *PADS_NT_SECURITY_DESCRIPTOR;

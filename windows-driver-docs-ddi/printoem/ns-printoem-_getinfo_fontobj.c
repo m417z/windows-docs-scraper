@@ -1,0 +1,4 @@
+typedef struct _GETINFO_FONTOBJ {
+  DWORD   dwSize;
+  FONTOBJ *pFontObj;
+} GETINFO_FONTOBJ, *PGETINFO_FONTOBJ;

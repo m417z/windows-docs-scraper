@@ -1,0 +1,65 @@
+{
+  "UID": "NF:uiautomationcore.ITextRangeProvider.ExpandToEnclosingUnit",
+  "title": "ITextRangeProvider::ExpandToEnclosingUnit (uiautomationcore.h)",
+  "description": "Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. (ITextRangeProvider.ExpandToEnclosingUnit)",
+  "helpviewer_keywords": [
+    "ExpandToEnclosingUnit",
+    "ExpandToEnclosingUnit method [Windows Accessibility]",
+    "ExpandToEnclosingUnit method [Windows Accessibility]",
+    "ITextRangeProvider interface",
+    "ITextRangeProvider interface [Windows Accessibility]",
+    "ExpandToEnclosingUnit method",
+    "ITextRangeProvider.ExpandToEnclosingUnit",
+    "ITextRangeProvider::ExpandToEnclosingUnit",
+    "uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit",
+    "uiauto_ITextRangeProvider_ExpandToEnclosingUnit",
+    "uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit",
+    "winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit"
+  ],
+  "old-location": "winauto\\uiauto_ITextRangeProvider_ExpandToEnclosingUnit.htm",
+  "tech.root": "WinAuto",
+  "ms.assetid": "6128b0ef-e78d-4f87-bc70-ab5ac0d055cf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],ExpandToEnclosingUnit method, ITextRangeProvider.ExpandToEnclosingUnit, ITextRangeProvider::ExpandToEnclosingUnit, uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit, winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit",
+  "req.header": "uiautomationcore.h",
+  "req.include-header": "UIAutomation.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "UIAutomationCore.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITextRangeProvider::ExpandToEnclosingUnit",
+    "uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "UIAutomationCore.h"
+  ],
+  "api_name": [
+    "ITextRangeProvider.ExpandToEnclosingUnit"
+  ]
+}

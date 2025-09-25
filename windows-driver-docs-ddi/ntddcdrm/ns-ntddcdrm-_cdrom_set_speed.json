@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddcdrm._CDROM_SET_SPEED",
+  "title": "_CDROM_SET_SPEED (ntddcdrm.h)",
+  "description": "The CDROM_SET_SPEED structure is used with the IOCTL_CDROM_SET_SPEED request to set the spindle speed of a CD-ROM drive during data transfers in which no data loss is permitted.",
+  "old-location": "storage\\cdrom_set_speed.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "CDROM_SET_SPEED structure"
+  ],
+  "ms.keywords": "*PCDROM_SET_SPEED, CDROM_SET_SPEED, CDROM_SET_SPEED structure [Storage Devices], PCDROM_SET_SPEED, PCDROM_SET_SPEED structure pointer [Storage Devices], _CDROM_SET_SPEED, ntddcdrm/CDROM_SET_SPEED, ntddcdrm/PCDROM_SET_SPEED, storage.cdrom_set_speed, structs-CD-ROM_e6e6b227-c3d9-4976-b1a5-a2100c49d266.xml",
+  "req.header": "ntddcdrm.h",
+  "req.include-header": "Ntddcdrm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CDROM_SET_SPEED, *PCDROM_SET_SPEED",
+  "f1_keywords": [
+    "_CDROM_SET_SPEED",
+    "ntddcdrm/_CDROM_SET_SPEED",
+    "PCDROM_SET_SPEED",
+    "ntddcdrm/PCDROM_SET_SPEED",
+    "CDROM_SET_SPEED",
+    "ntddcdrm/CDROM_SET_SPEED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddcdrm.h"
+  ],
+  "api_name": [
+    "_CDROM_SET_SPEED",
+    "PCDROM_SET_SPEED",
+    "CDROM_SET_SPEED"
+  ]
+}

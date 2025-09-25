@@ -1,0 +1,6 @@
+typedef struct _NDIS_SRIOV_BAR_RESOURCES_INFO {
+  NDIS_OBJECT_HEADER     Header;
+  NDIS_SRIOV_FUNCTION_ID VFId;
+  USHORT                 BarIndex;
+  ULONG                  BarResourcesOffset;
+} NDIS_SRIOV_BAR_RESOURCES_INFO, *PNDIS_SRIOV_BAR_RESOURCES_INFO;

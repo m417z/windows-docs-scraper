@@ -1,0 +1,6 @@
+PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU Pfnd3dkmtWaitforsynchronizationobjectfromgpu;
+
+NTSTATUS Pfnd3dkmtWaitforsynchronizationobjectfromgpu(
+  const D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU *unnamedParam1
+)
+{...}

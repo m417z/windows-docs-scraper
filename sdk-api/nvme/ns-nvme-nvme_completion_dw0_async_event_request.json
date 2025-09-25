@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST",
+  "tech.root": "fs",
+  "title": "NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST",
+  "ms.date": "03/06/2025",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains information about an asynchronous event that is posted to the Admin Completion Queue in DWord 0 of a Completion Queue Entry. Asynchronous events are used to notify the host software of status, error, and health information.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST, *PNVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST",
+    "NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST"
+  ],
+  "f1_keywords": [
+    "PNVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST",
+    "nvme/PNVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST",
+    "NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST",
+    "nvme/NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

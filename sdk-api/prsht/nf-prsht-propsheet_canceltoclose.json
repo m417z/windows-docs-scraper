@@ -1,0 +1,60 @@
+{
+  "UID": "NF:prsht.PropSheet_CancelToClose",
+  "title": "PropSheet_CancelToClose macro (prsht.h)",
+  "description": "Used when changes made since the most recent PSN_APPLY notification cannot be canceled. You can also send a PSM_CANCELTOCLOSE message explicitly.",
+  "helpviewer_keywords": [
+    "PropSheet_CancelToClose",
+    "PropSheet_CancelToClose macro [Windows Controls]",
+    "_win32_PropSheet_CancelToClose",
+    "_win32_PropSheet_CancelToClose_cpp",
+    "controls.PropSheet_CancelToClose",
+    "controls._win32_PropSheet_CancelToClose",
+    "prsht/PropSheet_CancelToClose"
+  ],
+  "old-location": "controls\\PropSheet_CancelToClose.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\propsheet\\macros\\propsheet_canceltoclose.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "PropSheet_CancelToClose, PropSheet_CancelToClose macro [Windows Controls], _win32_PropSheet_CancelToClose, _win32_PropSheet_CancelToClose_cpp, controls.PropSheet_CancelToClose, controls._win32_PropSheet_CancelToClose, prsht/PropSheet_CancelToClose",
+  "req.header": "prsht.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PropSheet_CancelToClose",
+    "prsht/PropSheet_CancelToClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Prsht.h"
+  ],
+  "api_name": [
+    "PropSheet_CancelToClose"
+  ]
+}

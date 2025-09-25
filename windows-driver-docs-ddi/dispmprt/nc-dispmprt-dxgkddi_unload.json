@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_UNLOAD",
+  "title": "DXGKDDI_UNLOAD (dispmprt.h)",
+  "description": "The DxgkDdiUnload function frees any resources allocated during execution of the display miniport driver's DriverEntry function.",
+  "old-location": "display\\dxgkddiunload.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_UNLOAD callback function"
+  ],
+  "ms.keywords": "DXGKDDI_UNLOAD, DXGKDDI_UNLOAD callback, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_UNLOAD",
+    "dispmprt/DXGKDDI_UNLOAD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_UNLOAD"
+  ]
+}

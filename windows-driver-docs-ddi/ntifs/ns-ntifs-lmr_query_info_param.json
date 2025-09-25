@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._LMR_QUERY_INFO_PARAM",
+  "tech.root": "ifsk",
+  "title": "LMR_QUERY_INFO_PARAM",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the LMR_QUERY_INFO_PARAM structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 version 1809, and Windows 10 version 2004 and above versions",
+  "req.target-min-winversvr": "Windows Server 2019",
+  "req.target-type": null,
+  "req.typenames": "LMR_QUERY_INFO_PARAM, *PLMR_QUERY_INFO_PARAM",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_LMR_QUERY_INFO_PARAM",
+    "PLMR_QUERY_INFO_PARAM",
+    "LMR_QUERY_INFO_PARAM"
+  ],
+  "f1_keywords": [
+    "_LMR_QUERY_INFO_PARAM",
+    "ntifs/_LMR_QUERY_INFO_PARAM",
+    "PLMR_QUERY_INFO_PARAM",
+    "ntifs/PLMR_QUERY_INFO_PARAM",
+    "LMR_QUERY_INFO_PARAM",
+    "ntifs/LMR_QUERY_INFO_PARAM"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_LMR_QUERY_INFO_PARAM"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "UID": "NC:dhcpssdk.LPDHCP_ENTRY_POINT_FUNC",
+  "title": "LPDHCP_ENTRY_POINT_FUNC (dhcpssdk.h)",
+  "description": "The DhcpServerCalloutEntry function is called by Microsoft DHCP Server to initialize a third-party DLL, and to discover for which events the third-party DLL wants notification. The DhcpServerCalloutEntry function is implemented by third-party DLLs.",
+  "helpviewer_keywords": [
+    "DhcpServerCalloutEntry",
+    "LPDHCP_ENTRY_POINT_FUNC",
+    "LPDHCP_ENTRY_POINT_FUNC callback",
+    "LPDHCP_ENTRY_POINT_FUNC callback function [DHCP]",
+    "_dhcp_dhcpservercalloutentry",
+    "dhcp.dhcpservercalloutentry",
+    "dhcpssdk/LPDHCP_ENTRY_POINT_FUNC"
+  ],
+  "old-location": "dhcp\\dhcpservercalloutentry.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "a80c2cd3-291d-4646-9dba-20a42e78dee5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpServerCalloutEntry, LPDHCP_ENTRY_POINT_FUNC, LPDHCP_ENTRY_POINT_FUNC callback, LPDHCP_ENTRY_POINT_FUNC callback function [DHCP], _dhcp_dhcpservercalloutentry, dhcp.dhcpservercalloutentry, dhcpssdk/LPDHCP_ENTRY_POINT_FUNC",
+  "req.header": "dhcpssdk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LPDHCP_ENTRY_POINT_FUNC",
+    "dhcpssdk/LPDHCP_ENTRY_POINT_FUNC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Dhcpssdk.h"
+  ],
+  "api_name": [
+    "LPDHCP_ENTRY_POINT_FUNC"
+  ]
+}

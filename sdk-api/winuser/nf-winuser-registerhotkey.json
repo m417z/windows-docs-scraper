@@ -1,0 +1,76 @@
+{
+  "UID": "NF:winuser.RegisterHotKey",
+  "title": "RegisterHotKey function (winuser.h)",
+  "description": "Defines a system-wide hot key.",
+  "helpviewer_keywords": [
+    "MOD_ALT",
+    "MOD_CONTROL",
+    "MOD_NOREPEAT",
+    "MOD_SHIFT",
+    "MOD_WIN",
+    "RegisterHotKey",
+    "RegisterHotKey function [Keyboard and Mouse Input]",
+    "_win32_RegisterHotKey",
+    "_win32_registerhotkey_cpp",
+    "inputdev.registerhotkey",
+    "winui._win32_registerhotkey",
+    "winuser/RegisterHotKey"
+  ],
+  "old-location": "inputdev\\registerhotkey.htm",
+  "tech.root": "inputdev",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\userinput\\keyboardinput\\keyboardinputreference\\keyboardinputfunctions\\registerhotkey.htm",
+  "ms.date": "06/11/2024",
+  "ms.keywords": "MOD_ALT, MOD_CONTROL, MOD_NOREPEAT, MOD_SHIFT, MOD_WIN, RegisterHotKey, RegisterHotKey function [Keyboard and Mouse Input], _win32_RegisterHotKey, _win32_registerhotkey_cpp, inputdev.registerhotkey, winui._win32_registerhotkey, winuser/RegisterHotKey",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegisterHotKey",
+    "winuser/RegisterHotKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-iam-l1-1-2.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-2.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-1.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll",
+    "Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll",
+    "ext-ms-win-ntuser-keyboard-l1-1-2.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll",
+    "Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll"
+  ],
+  "api_name": [
+    "RegisterHotKey"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NS:nbl._NET_BUFFER_SHARED_MEMORY",
+  "title": "NET_BUFFER_SHARED_MEMORY",
+  "ms.date": "11/30/2020",
+  "targetos": "Windows",
+  "description": "The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a NET_BUFFER structure.",
+  "tech.root": "netvista",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nbl.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.20 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nbl.h"
+  ],
+  "api_name": [
+    "_NET_BUFFER_SHARED_MEMORY",
+    "PNET_BUFFER_SHARED_MEMORY",
+    "NET_BUFFER_SHARED_MEMORY"
+  ],
+  "f1_keywords": [
+    "_NET_BUFFER_SHARED_MEMORY",
+    "nbl/_NET_BUFFER_SHARED_MEMORY",
+    "PNET_BUFFER_SHARED_MEMORY",
+    "nbl/PNET_BUFFER_SHARED_MEMORY",
+    "NET_BUFFER_SHARED_MEMORY",
+    "nbl/NET_BUFFER_SHARED_MEMORY"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

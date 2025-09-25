@@ -1,0 +1,46 @@
+{
+  "UID": "NS:winnt._PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+  "title": "PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+  "ms.date": "02/21/2021",
+  "targetos": "Windows",
+  "description": "Contains process mitigation policy settings for user-mode Hardware-enforced Stack Protection (HSP).",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winnt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.target-type": null,
+  "req.typenames": "PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY, *PPROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winnt.h"
+  ],
+  "api_name": [
+    "_PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+    "PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY"
+  ],
+  "f1_keywords": [
+    "_PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+    "winnt/_PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+    "PPROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+    "winnt/PPROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+    "PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY",
+    "winnt/PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

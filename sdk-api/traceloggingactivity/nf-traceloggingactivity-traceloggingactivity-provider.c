@@ -1,0 +1,1 @@
+TraceLoggingHProvider Provider();

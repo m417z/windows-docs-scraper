@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH",
+  "title": "EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH (wdfdevice.h)",
+  "description": "A driver's EvtDeviceSelfManagedIoFlush event callback function handles flush activity for the device's self-managed I/O operations.",
+  "old-location": "wdf\\evtdeviceselfmanagedioflush.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_d464c7ae-10fa-4838-b152-9bbaeaac76de.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback, EvtDeviceSelfManagedIoFlush, EvtDeviceSelfManagedIoFlush callback function, kmdf.evtdeviceselfmanagedioflush, wdf.evtdeviceselfmanagedioflush, wdfdevice/EvtDeviceSelfManagedIoFlush",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH",
+    "wdfdevice/EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH"
+  ]
+}

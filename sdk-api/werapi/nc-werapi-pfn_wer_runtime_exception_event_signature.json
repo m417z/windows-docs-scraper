@@ -1,0 +1,59 @@
+{
+  "UID": "NC:werapi.PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE",
+  "title": "PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE (werapi.h)",
+  "description": "Windows Error Reporting (WER) calls this function to get the report parameters that uniquely describe the problem.",
+  "helpviewer_keywords": [
+    "OutOfProcessExceptionEventSignatureCallback",
+    "OutOfProcessExceptionEventSignatureCallback callback function [Windows Error Reporting]",
+    "PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE",
+    "PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE callback",
+    "wer.outofprocessexceptioneventsignaturecallback",
+    "werapi/OutOfProcessExceptionEventSignatureCallback"
+  ],
+  "old-location": "wer\\outofprocessexceptioneventsignaturecallback.htm",
+  "tech.root": "wer",
+  "ms.assetid": "892498db-0265-4276-9735-63a8104ecaa9",
+  "ms.date": "07/21/2023",
+  "ms.keywords": "OutOfProcessExceptionEventSignatureCallback, OutOfProcessExceptionEventSignatureCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE, PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE callback, wer.outofprocessexceptioneventsignaturecallback, werapi/OutOfProcessExceptionEventSignatureCallback",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE",
+    "werapi/PFN_WER_RUNTIME_EXCEPTION_EVENT_SIGNATURE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Werapi.h"
+  ],
+  "api_name": [
+    "OutOfProcessExceptionEventSignatureCallback"
+  ]
+}

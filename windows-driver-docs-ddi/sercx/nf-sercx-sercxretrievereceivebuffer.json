@@ -1,0 +1,48 @@
+{
+  "UID": "NF:sercx.SerCxRetrieveReceiveBuffer",
+  "title": "SerCxRetrieveReceiveBuffer function (sercx.h)",
+  "description": "The SerCxRetrieveReceiveBuffer method obtains an input buffer into which data received from the serial port can be loaded.",
+  "old-location": "serports\\sercxretrievereceivebuffer.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "SerCxRetrieveReceiveBuffer function"
+  ],
+  "ms.keywords": "1/SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer method [Serial Ports], serports.sercxretrievereceivebuffer",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SerCxRetrieveReceiveBuffer",
+    "sercx/SerCxRetrieveReceiveBuffer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "1.0\\Sercx.h"
+  ],
+  "api_name": [
+    "SerCxRetrieveReceiveBuffer"
+  ]
+}

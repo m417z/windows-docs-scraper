@@ -1,0 +1,6 @@
+typedef struct tagENUMLOGFONTEXW {
+  LOGFONTW elfLogFont;
+  WCHAR    elfFullName[LF_FULLFACESIZE];
+  WCHAR    elfStyle[LF_FACESIZE];
+  WCHAR    elfScript[LF_FACESIZE];
+} ENUMLOGFONTEXW, *LPENUMLOGFONTEXW;

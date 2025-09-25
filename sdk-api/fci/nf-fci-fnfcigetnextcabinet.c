@@ -1,0 +1,3 @@
+void FNFCIGETNEXTCABINET(
+  fn
+);

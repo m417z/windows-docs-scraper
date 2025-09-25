@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wmpservices.IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin",
+  "title": "IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin (wmpservices.h)",
+  "description": "The IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin function adds information to the registry that identifies a Windows Media Player plug-in.",
+  "helpviewer_keywords": [
+    "IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin",
+    "IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin",
+    "WMPRegisterPlayerPlugin",
+    "WMPRegisterPlayerPlugin function [Windows Media Player]",
+    "wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin",
+    "wmpservices/WMPRegisterPlayerPlugin"
+  ],
+  "old-location": "wmp\\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm",
+  "tech.root": "WMP",
+  "ms.assetid": "db042911-c46f-431a-ad1c-ceb2c3b4546c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin",
+  "req.header": "wmpservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Media Player 9 Series or later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Wmp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin",
+    "wmpservices/IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wmp.dll"
+  ],
+  "api_name": [
+    "WMPRegisterPlayerPlugin"
+  ]
+}

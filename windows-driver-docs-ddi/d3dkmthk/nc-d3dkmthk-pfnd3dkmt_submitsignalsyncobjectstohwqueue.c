@@ -1,0 +1,6 @@
+PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE PfnD3dkmtSubmitSignalSyncObjectsToHwQueue;
+
+NTSTATUS PfnD3dkmtSubmitSignalSyncObjectsToHwQueue(
+    const D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *unnamedParam1
+)
+{...}

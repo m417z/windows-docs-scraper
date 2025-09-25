@@ -1,0 +1,4 @@
+typedef struct IRQ_Resource_32_s {
+  IRQ_DES_32 IRQ_Header;
+  IRQ_RANGE  IRQ_Data[ANYSIZE_ARRAY];
+} IRQ_RESOURCE_32, *PIRQ_RESOURCE_32;

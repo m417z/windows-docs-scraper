@@ -1,0 +1,3 @@
+HRESULT GetSessionId(
+  LPWSTR *sessionId
+);

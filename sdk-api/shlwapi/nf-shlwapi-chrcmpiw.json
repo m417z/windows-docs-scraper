@@ -1,0 +1,62 @@
+{
+  "UID": "NF:shlwapi.ChrCmpIW",
+  "title": "ChrCmpIW function (shlwapi.h)",
+  "description": "Performs a comparison between two characters. The comparison is not case-sensitive. (Unicode)",
+  "helpviewer_keywords": [
+    "ChrCmpI",
+    "ChrCmpI function [Windows Shell]",
+    "ChrCmpIW",
+    "_win32_ChrCmpI",
+    "shell.ChrCmpI",
+    "shlwapi/ChrCmpI",
+    "shlwapi/ChrCmpIW"
+  ],
+  "old-location": "shell\\ChrCmpI.htm",
+  "tech.root": "shell",
+  "ms.assetid": "ae2f3cbf-c65b-41a4-8d59-39d6fadf40ca",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ChrCmpI, ChrCmpI function [Windows Shell], ChrCmpIA, ChrCmpIW, _win32_ChrCmpI, shell.ChrCmpI, shlwapi/ChrCmpI, shlwapi/ChrCmpIA, shlwapi/ChrCmpIW",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "ChrCmpIW (Unicode) and ChrCmpIA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 4.71 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ChrCmpIW",
+    "shlwapi/ChrCmpIW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Shlwapi.dll"
+  ],
+  "api_name": [
+    "ChrCmpI",
+    "ChrCmpIA",
+    "ChrCmpIW"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _tagKSAUDIOENGINE_VOLUMELEVEL {
+  LONG             TargetVolume;
+  AUDIO_CURVE_TYPE CurveType;
+  ULONGLONG        CurveDuration;
+} KSAUDIOENGINE_VOLUMELEVEL, *PKSAUDIOENGINE_VOLUMELEVEL;

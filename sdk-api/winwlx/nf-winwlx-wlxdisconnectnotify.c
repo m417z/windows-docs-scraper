@@ -1,0 +1,3 @@
+VOID WlxDisconnectNotify(
+  PVOID pWlxContext
+);

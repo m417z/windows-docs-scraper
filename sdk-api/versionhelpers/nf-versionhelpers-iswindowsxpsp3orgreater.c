@@ -1,0 +1,1 @@
+VERSIONHELPERAPI IsWindowsXPSP3OrGreater();

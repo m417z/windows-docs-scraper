@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdfobject._WDF_EXECUTION_LEVEL",
+  "title": "_WDF_EXECUTION_LEVEL (wdfobject.h)",
+  "description": "The WDF_EXECUTION_LEVEL enumeration type specifies the maximum IRQL at which the framework will call the event callback functions that a driver has supplied for a framework object.",
+  "old-location": "wdf\\wdf_execution_level.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_EXECUTION_LEVEL enumeration"
+  ],
+  "ms.keywords": "DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, WDF_EXECUTION_LEVEL, WDF_EXECUTION_LEVEL enumeration, WdfExecutionLevelDispatch, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, WdfExecutionLevelPassive, _WDF_EXECUTION_LEVEL, kmdf.wdf_execution_level, wdf.wdf_execution_level, wdfobject/WDF_EXECUTION_LEVEL, wdfobject/WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelInheritFromParent, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelPassive",
+  "req.header": "wdfobject.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_EXECUTION_LEVEL",
+  "f1_keywords": [
+    "_WDF_EXECUTION_LEVEL",
+    "wdfobject/_WDF_EXECUTION_LEVEL",
+    "WDF_EXECUTION_LEVEL",
+    "wdfobject/WDF_EXECUTION_LEVEL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfobject.h"
+  ],
+  "api_name": [
+    "_WDF_EXECUTION_LEVEL",
+    "WDF_EXECUTION_LEVEL"
+  ]
+}

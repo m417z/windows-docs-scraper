@@ -1,0 +1,33 @@
+## Description
+
+This topic describes the **KSMETHOD_BDA_GDDS_SERVICE** enumeration.
+
+## Constants
+
+### `KSMETHOD_BDA_GDDS_DATATYPE`
+
+Defines the **KSMETHOD_BDA_GDDS_DATATYPE** constant.
+
+### `KSMETHOD_BDA_GDDS_DATA`
+
+Defines the **KSMETHOD_BDA_GDDS_DATA** constant.
+
+### `KSMETHOD_BDA_GDDS_TUNEXMLFROMIDX`
+
+Defines the **KSMETHOD_BDA_GDDS_TUNEXMLFROMIDX** constant.
+
+### `KSMETHOD_BDA_GDDS_GETSERVICES`
+
+Defines the **KSMETHOD_BDA_GDDS_GETSERVICES** constant.
+
+### `KSMETHOD_BDA_GDDS_SERVICEFROMTUNEXML`
+
+Defines the **KSMETHOD_BDA_GDDS_SERVICEFROMTUNEXML** constant.
+
+### `KSMETHOD_BDA_GDDS_DATAUPDATE`
+
+Defines the **KSMETHOD_BDA_GDDS_DATAUPDATE** constant.
+
+## Remarks
+
+## See also

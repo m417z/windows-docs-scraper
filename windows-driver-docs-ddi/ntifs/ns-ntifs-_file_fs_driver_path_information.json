@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FILE_FS_DRIVER_PATH_INFORMATION",
+  "title": "_FILE_FS_DRIVER_PATH_INFORMATION (ntifs.h)",
+  "description": "The FILE_FS_DRIVER_PATH_INFORMATION structure is used to query whether a given driver is in the I/O path for a file system volume.",
+  "old-location": "ifsk\\file_fs_driver_path_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FILE_FS_DRIVER_PATH_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION structure [Installable File System Drivers], PFILE_FS_DRIVER_PATH_INFORMATION, PFILE_FS_DRIVER_PATH_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_DRIVER_PATH_INFORMATION, fileinformationstructures_9d09c9ee-18a0-4230-af6b-0cddadbac901.xml, ifsk.file_fs_driver_path_information, ntifs/FILE_FS_DRIVER_PATH_INFORMATION, ntifs/PFILE_FS_DRIVER_PATH_INFORMATION",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_FS_DRIVER_PATH_INFORMATION, *PFILE_FS_DRIVER_PATH_INFORMATION",
+  "f1_keywords": [
+    "_FILE_FS_DRIVER_PATH_INFORMATION",
+    "ntifs/_FILE_FS_DRIVER_PATH_INFORMATION",
+    "PFILE_FS_DRIVER_PATH_INFORMATION",
+    "ntifs/PFILE_FS_DRIVER_PATH_INFORMATION",
+    "FILE_FS_DRIVER_PATH_INFORMATION",
+    "ntifs/FILE_FS_DRIVER_PATH_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_FS_DRIVER_PATH_INFORMATION",
+    "PFILE_FS_DRIVER_PATH_INFORMATION",
+    "FILE_FS_DRIVER_PATH_INFORMATION"
+  ]
+}

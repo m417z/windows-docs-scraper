@@ -1,0 +1,3 @@
+HRESULT GetAppend(
+  DWORD *pdwAppend
+);

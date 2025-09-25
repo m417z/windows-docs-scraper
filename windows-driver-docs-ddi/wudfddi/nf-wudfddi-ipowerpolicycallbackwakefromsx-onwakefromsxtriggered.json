@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered",
+  "title": "IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered (wudfddi.h)",
+  "description": "A driver's OnWakeFromSxTriggered event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal.",
+  "old-location": "wdf\\ipowerpolicycallbackwakefromsx_onwakefromsxtriggered.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered"
+  ],
+  "ms.keywords": "IPowerPolicyCallbackWakeFromSx interface,OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, OnWakeFromSxTriggered, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.9,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered",
+    "wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered"
+  ]
+}

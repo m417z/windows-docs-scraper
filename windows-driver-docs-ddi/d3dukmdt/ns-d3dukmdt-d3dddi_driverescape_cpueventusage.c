@@ -1,0 +1,6 @@
+typedef struct _D3DDDI_DRIVERESCAPE_CPUEVENTUSAGE {
+  D3DDDI_DRIVERESCAPETYPE EscapeType;
+  D3DKMT_HANDLE           hSyncObject;
+  D3DKMT_ALIGN64 UINT64   hKmdCpuEvent;
+  UINT                    Usage[8];
+} D3DDDI_DRIVERESCAPE_CPUEVENTUSAGE;

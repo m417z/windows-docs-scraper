@@ -1,0 +1,61 @@
+{
+  "UID": "NF:imm.ImmGetGuideLineA",
+  "title": "ImmGetGuideLineA function (imm.h)",
+  "description": "The ImmGetGuideLineA (ANSI) function (imm.h) retrieves information about errors. Applications use the information for user notifications.",
+  "helpviewer_keywords": [
+    "GGL_INDEX",
+    "GGL_LEVEL",
+    "GGL_PRIVATE",
+    "GGL_STRING",
+    "ImmGetGuideLineA",
+    "imm/ImmGetGuideLineA"
+  ],
+  "old-location": "intl\\immgetguideline.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "f6639061-0ad9-4f42-b5d4-66ad3f6298aa",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline",
+  "req.header": "imm.h",
+  "req.include-header": "Immdev.h, Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],East Asian language support installed.",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "ImmGetGuideLineW (Unicode) and ImmGetGuideLineA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Imm32.lib",
+  "req.dll": "Imm32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ImmGetGuideLineA",
+    "imm/ImmGetGuideLineA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Imm32.dll"
+  ],
+  "api_name": [
+    "ImmGetGuideLine",
+    "ImmGetGuideLineA",
+    "ImmGetGuideLineW"
+  ]
+}

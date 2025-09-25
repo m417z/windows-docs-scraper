@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.RtlFindNextForwardRunClear",
+  "title": "RtlFindNextForwardRunClear function (wdm.h)",
+  "description": "The RtlFindNextForwardRunClear routine searches a given bitmap variable for the next clear run of bits, starting from the specified index position.",
+  "old-location": "kernel\\rtlfindnextforwardrunclear.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlFindNextForwardRunClear function"
+  ],
+  "ms.keywords": "RtlFindNextForwardRunClear, RtlFindNextForwardRunClear routine [Kernel-Mode Driver Architecture], k109_3625ede2-f1b5-495d-9b79-2063e0daa567.xml, kernel.rtlfindnextforwardrunclear, wdm/RtlFindNextForwardRunClear",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlFindNextForwardRunClear",
+    "wdm/RtlFindNextForwardRunClear"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlFindNextForwardRunClear"
+  ]
+}

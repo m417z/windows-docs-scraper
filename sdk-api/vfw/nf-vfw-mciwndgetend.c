@@ -1,0 +1,3 @@
+LONG MCIWndGetEnd(
+     hwnd
+);

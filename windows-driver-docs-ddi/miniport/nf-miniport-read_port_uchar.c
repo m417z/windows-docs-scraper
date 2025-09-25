@@ -1,0 +1,3 @@
+UCHAR READ_PORT_UCHAR(
+  [in] PUCHAR Port
+);

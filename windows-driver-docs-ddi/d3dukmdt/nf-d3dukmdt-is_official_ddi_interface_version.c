@@ -1,0 +1,3 @@
+void IS_OFFICIAL_DDI_INTERFACE_VERSION(
+  version
+);

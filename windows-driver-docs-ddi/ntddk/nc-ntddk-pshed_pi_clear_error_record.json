@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ntddk.PSHED_PI_CLEAR_ERROR_RECORD",
+  "title": "PSHED_PI_CLEAR_ERROR_RECORD (ntddk.h)",
+  "description": "A PSHED plug-in's ClearErrorRecord callback function clears the specified error record from the system's persistent data storage.",
+  "tech.root": "whea",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "PSHED_PI_CLEAR_ERROR_RECORD callback function"
+  ],
+  "ms.keywords": "ClearErrorRecord, ClearErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_RECORD, PSHED_PI_CLEAR_ERROR_RECORD callback, ntddk/ClearErrorRecord, whea.clearerrorrecord, whearef_1644b60c-c232-4cca-805b-d6a061425f61.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSHED_PI_CLEAR_ERROR_RECORD",
+    "ntddk/PSHED_PI_CLEAR_ERROR_RECORD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "PSHED_PI_CLEAR_ERROR_RECORD"
+  ]
+}

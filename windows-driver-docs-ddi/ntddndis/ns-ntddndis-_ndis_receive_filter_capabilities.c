@@ -1,0 +1,23 @@
+typedef struct _NDIS_RECEIVE_FILTER_CAPABILITIES {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              Flags;
+  ULONG              EnabledFilterTypes;
+  ULONG              EnabledQueueTypes;
+  ULONG              NumQueues;
+  ULONG              SupportedQueueProperties;
+  ULONG              SupportedFilterTests;
+  ULONG              SupportedHeaders;
+  ULONG              SupportedMacHeaderFields;
+  ULONG              MaxMacHeaderFilters;
+  ULONG              MaxQueueGroups;
+  ULONG              MaxQueuesPerQueueGroup;
+  ULONG              MinLookaheadSplitSize;
+  ULONG              MaxLookaheadSplitSize;
+  ULONG              SupportedARPHeaderFields;
+  ULONG              SupportedIPv4HeaderFields;
+  ULONG              SupportedIPv6HeaderFields;
+  ULONG              SupportedUdpHeaderFields;
+  ULONG              MaxFieldTestsPerPacketCoalescingFilter;
+  ULONG              MaxPacketCoalescingFilters;
+  ULONG              NdisReserved;
+} NDIS_RECEIVE_FILTER_CAPABILITIES, *PNDIS_RECEIVE_FILTER_CAPABILITIES;

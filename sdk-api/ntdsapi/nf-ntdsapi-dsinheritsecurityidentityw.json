@@ -1,0 +1,62 @@
+{
+  "UID": "NF:ntdsapi.DsInheritSecurityIdentityW",
+  "title": "DsInheritSecurityIdentityW function (ntdsapi.h)",
+  "description": "Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction. (Unicode)",
+  "helpviewer_keywords": [
+    "DsInheritSecurityIdentity",
+    "DsInheritSecurityIdentity function [Active Directory]",
+    "DsInheritSecurityIdentityW",
+    "_glines_dsinheritsecurityidentity",
+    "ad.dsinheritsecurityidentity",
+    "ntdsapi/DsInheritSecurityIdentity",
+    "ntdsapi/DsInheritSecurityIdentityW"
+  ],
+  "old-location": "ad\\dsinheritsecurityidentity.htm",
+  "tech.root": "ad",
+  "ms.assetid": "ea467069-f886-4e22-896c-16e6e01f3968",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DsInheritSecurityIdentity, DsInheritSecurityIdentity function [Active Directory], DsInheritSecurityIdentityA, DsInheritSecurityIdentityW, _glines_dsinheritsecurityidentity, ad.dsinheritsecurityidentity, ntdsapi/DsInheritSecurityIdentity, ntdsapi/DsInheritSecurityIdentityA, ntdsapi/DsInheritSecurityIdentityW",
+  "req.header": "ntdsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsInheritSecurityIdentityW (Unicode) and DsInheritSecurityIdentityA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntdsapi.lib",
+  "req.dll": "Ntdsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsInheritSecurityIdentityW",
+    "ntdsapi/DsInheritSecurityIdentityW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdsapi.dll"
+  ],
+  "api_name": [
+    "DsInheritSecurityIdentity",
+    "DsInheritSecurityIdentityA",
+    "DsInheritSecurityIdentityW"
+  ]
+}

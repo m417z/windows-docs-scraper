@@ -1,0 +1,60 @@
+{
+  "UID": "NF:recapis.ResetContext",
+  "title": "ResetContext function (recapis.h)",
+  "description": "Deletes the current ink and recognition results from the context.The current settings of the recognizer context are preserved.",
+  "helpviewer_keywords": [
+    "92446aca-e611-42b2-8b55-2d1c47ccaa5c",
+    "ResetContext",
+    "ResetContext function [Tablet PC]",
+    "recapis/ResetContext",
+    "tablet.resetcontext"
+  ],
+  "old-location": "tablet\\resetcontext.htm",
+  "tech.root": "tablet",
+  "ms.assetid": "92446aca-e611-42b2-8b55-2d1c47ccaa5c",
+  "ms.date": "11/06/2024",
+  "ms.keywords": "92446aca-e611-42b2-8b55-2d1c47ccaa5c, ResetContext, ResetContext function [Tablet PC], recapis/ResetContext, tablet.resetcontext",
+  "req.header": "recapis.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP Tablet PC Edition [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "inkobjcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResetContext",
+    "recapis/ResetContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "recapis.h",
+    "inkobjcore.dll",
+    "mshwgst.dll"
+  ],
+  "api_name": [
+    "ResetContext"
+  ]
+}

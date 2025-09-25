@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winuser.GrayStringW",
+  "title": "GrayStringW function (winuser.h)",
+  "description": "The GrayString function draws gray text at the specified location. (Unicode)",
+  "helpviewer_keywords": [
+    "GrayString",
+    "GrayString function [Windows GDI]",
+    "GrayStringW",
+    "_win32_GrayString",
+    "gdi.graystring",
+    "winuser/GrayString",
+    "winuser/GrayStringW"
+  ],
+  "old-location": "gdi\\graystring.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "b14b8c40-f97f-4e41-8d8d-687692acfda9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GrayString, GrayString function [Windows GDI], GrayStringA, GrayStringW, _win32_GrayString, gdi.graystring, winuser/GrayString, winuser/GrayStringA, winuser/GrayStringW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GrayStringW (Unicode) and GrayStringA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GrayStringW",
+    "winuser/GrayStringW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-misc-l1-7-0.dll",
+    "ext-ms-win-ntuser-misc-l1-6-0.dll",
+    "ext-ms-win-ntuser-misc-l1-5-1.dll",
+    "ext-ms-win-ntuser-misc-l1-5-0.dll",
+    "ext-ms-win-ntuser-misc-l1-3-0.dll",
+    "ext-ms-win-ntuser-misc-l1-2-0.dll",
+    "ext-ms-win-ntuser-misc-l1-1-0.dll",
+    "user32.dll"
+  ],
+  "api_name": [
+    "GrayString",
+    "GrayStringA",
+    "GrayStringW"
+  ]
+}

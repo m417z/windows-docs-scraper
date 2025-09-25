@@ -1,0 +1,58 @@
+{
+  "UID": "NF:oleauto.DispGetParam",
+  "title": "DispGetParam function (oleauto.h)",
+  "description": "Retrieves a parameter from the DISPPARAMS structure, checking both named parameters and positional parameters, and coerces the parameter to the specified type.",
+  "helpviewer_keywords": [
+    "DispGetParam",
+    "DispGetParam function [Automation]",
+    "_oa96_DispGetParam",
+    "automat.dispgetparam",
+    "oleauto/DispGetParam"
+  ],
+  "old-location": "automat\\dispgetparam.htm",
+  "tech.root": "automat",
+  "ms.assetid": "72cdb768-4791-4606-8e5d-72cd003e854a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam",
+  "req.header": "oleauto.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OleAut32.lib",
+  "req.dll": "OleAut32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DispGetParam",
+    "oleauto/DispGetParam"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "OleAut32.dll"
+  ],
+  "api_name": [
+    "DispGetParam"
+  ]
+}

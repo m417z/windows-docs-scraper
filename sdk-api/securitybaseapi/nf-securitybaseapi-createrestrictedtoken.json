@@ -1,0 +1,70 @@
+{
+  "UID": "NF:securitybaseapi.CreateRestrictedToken",
+  "title": "CreateRestrictedToken function (securitybaseapi.h)",
+  "description": "Creates a new access token that is a restricted version of an existing access token. The restricted token can have disabled security identifiers (SIDs), deleted privileges, and a list of restricting SIDs.",
+  "helpviewer_keywords": [
+    "CreateRestrictedToken",
+    "CreateRestrictedToken function [Security]",
+    "DISABLE_MAX_PRIVILEGE",
+    "LUA_TOKEN",
+    "SANDBOX_INERT",
+    "WRITE_RESTRICTED",
+    "_win32_createrestrictedtoken",
+    "security.createrestrictedtoken",
+    "securitybaseapi/CreateRestrictedToken"
+  ],
+  "old-location": "security\\createrestrictedtoken.htm",
+  "tech.root": "security",
+  "ms.assetid": "e087f360-5d1d-4846-b3d6-214a426e5222",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken",
+  "req.header": "securitybaseapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateRestrictedToken",
+    "securitybaseapi/CreateRestrictedToken"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-base-l1-2-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "API-MS-Win-Security-base-l1-1-0.dll",
+    "API-MS-Win-Security-base-l1-2-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Security-Base-L1-2-1.dll"
+  ],
+  "api_name": [
+    "CreateRestrictedToken"
+  ]
+}

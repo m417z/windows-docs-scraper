@@ -1,0 +1,56 @@
+{
+  "UID": "NF:winbase.GetThreadContext",
+  "title": "GetThreadContext function (winbase.h)",
+  "description": "Retrieves the context of the specified thread.",
+  "helpviewer_keywords": [
+    "GetThreadContext",
+    "GetThreadContext function",
+    "base.getthreadcontext",
+    "winbase/GetThreadContext"
+  ],
+  "old-location": "base\\getthreadcontext.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "1bac28e1-3558-43c4-97e4-d8bb9514c38e",
+  "ms.date": "06/12/2025",
+  "ms.keywords": "GetThreadContext, GetThreadContext function, base.getthreadcontext, winbase/GetThreadContext",
+  "f1_keywords": [
+    "winbase/GetThreadContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "GetThreadContext"
+  ],
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1"
+}

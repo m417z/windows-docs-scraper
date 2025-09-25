@@ -1,0 +1,3 @@
+WDFIOTARGET AcxTargetStreamGetWdfIoTarget(
+  ACXTARGETSTREAM TargetStream
+);

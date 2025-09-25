@@ -1,0 +1,69 @@
+{
+  "UID": "NF:clusapi.ClusterResourceOpenEnum",
+  "title": "ClusterResourceOpenEnum function (clusapi.h)",
+  "description": "Opens an enumerator for iterating through a resource's dependencies and nodes.",
+  "helpviewer_keywords": [
+    "CLUSTER_RESOURCE_ENUM_DEPENDS",
+    "CLUSTER_RESOURCE_ENUM_NODES",
+    "CLUSTER_RESOURCE_ENUM_PROVIDES",
+    "ClusterResourceOpenEnum",
+    "ClusterResourceOpenEnum function [Failover Cluster]",
+    "PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM",
+    "PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM function [Failover Cluster]",
+    "_wolf_clusterresourceopenenum",
+    "clusapi/ClusterResourceOpenEnum",
+    "clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM",
+    "mscs.clusterresourceopenenum"
+  ],
+  "old-location": "mscs\\clusterresourceopenenum.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "f801401f-f49d-41de-b88b-b832330eeccf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, ClusterResourceOpenEnum, ClusterResourceOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM function [Failover Cluster], _wolf_clusterresourceopenenum, clusapi/ClusterResourceOpenEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, mscs.clusterresourceopenenum",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterResourceOpenEnum",
+    "clusapi/ClusterResourceOpenEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll"
+  ],
+  "api_name": [
+    "ClusterResourceOpenEnum"
+  ]
+}

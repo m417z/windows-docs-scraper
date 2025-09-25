@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeStallExecutionProcessor",
+  "title": "KeStallExecutionProcessor function (wdm.h)",
+  "description": "The KeStallExecutionProcessor routine in wdm.h stalls the caller on the current processor for a specified time interval.",
+  "old-location": "kernel\\kestallexecutionprocessor.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeStallExecutionProcessor function"
+  ],
+  "ms.keywords": "KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hal.lib",
+  "req.dll": "Hal.dll",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeStallExecutionProcessor",
+    "wdm/KeStallExecutionProcessor"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hal.dll"
+  ],
+  "api_name": [
+    "KeStallExecutionProcessor"
+  ]
+}

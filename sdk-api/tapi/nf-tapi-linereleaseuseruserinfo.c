@@ -1,0 +1,3 @@
+LONG lineReleaseUserUserInfo(
+  HCALL hCall
+);

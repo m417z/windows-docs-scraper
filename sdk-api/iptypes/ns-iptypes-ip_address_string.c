@@ -1,0 +1,3 @@
+typedef struct {
+  char *String[4  4];
+} IP_ADDRESS_STRING, *PIP_ADDRESS_STRING, IP_MASK_STRING, *PIP_MASK_STRING;

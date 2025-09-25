@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ucxusbdevice._USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS",
+  "title": "_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS (ucxusbdevice.h)",
+  "description": "Contains parameters for a request to update USB 2.0 link power management (LPM). UCX passes this structure in the EVT_UCX_USBDEVICE_UPDATE callback function.",
+  "old-location": "buses\\_usbdevice_update_20_hardware_lpm_parameters.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure"
+  ],
+  "ms.keywords": "P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure pointer [Buses], USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure [Buses], _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, buses._usbdevice_update_20_hardware_lpm_parameters, ucxusbdevice/P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS",
+  "req.header": "ucxusbdevice.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS",
+  "f1_keywords": [
+    "_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS",
+    "ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS",
+    "USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS",
+    "ucxusbdevice/USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucxusbdevice.h"
+  ],
+  "api_name": [
+    "_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS",
+    "USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS"
+  ]
+}

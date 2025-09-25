@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.MonthCal_SizeRectToMin",
+  "title": "MonthCal_SizeRectToMin macro (commctrl.h)",
+  "description": "Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the MCM_SIZERECTTOMIN message explicitly.",
+  "helpviewer_keywords": [
+    "MonthCal_SizeRectToMin",
+    "MonthCal_SizeRectToMin macro [Windows Controls]",
+    "_shell_MonthCal_SizeRectToMin",
+    "_shell_MonthCal_SizeRectToMin_cpp",
+    "commctrl/MonthCal_SizeRectToMin",
+    "controls.MonthCal_SizeRectToMin",
+    "controls._shell_MonthCal_SizeRectToMin"
+  ],
+  "old-location": "controls\\MonthCal_SizeRectToMin.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\monthcal\\macros\\monthcal_sizerecttomin.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "MonthCal_SizeRectToMin, MonthCal_SizeRectToMin macro [Windows Controls], _shell_MonthCal_SizeRectToMin, _shell_MonthCal_SizeRectToMin_cpp, commctrl/MonthCal_SizeRectToMin, controls.MonthCal_SizeRectToMin, controls._shell_MonthCal_SizeRectToMin",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MonthCal_SizeRectToMin",
+    "commctrl/MonthCal_SizeRectToMin"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "MonthCal_SizeRectToMin"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum _WLAN_HOSTED_NETWORK_PEER_AUTH_STATE {
+  wlan_hosted_network_peer_state_invalid,
+  wlan_hosted_network_peer_state_authenticated
+} WLAN_HOSTED_NETWORK_PEER_AUTH_STATE, *PWLAN_HOSTED_NETWORK_PEER_AUTH_STATE;

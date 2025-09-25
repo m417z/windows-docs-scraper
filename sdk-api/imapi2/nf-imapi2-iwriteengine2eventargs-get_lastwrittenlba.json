@@ -1,0 +1,63 @@
+{
+  "UID": "NF:imapi2.IWriteEngine2EventArgs.get_LastWrittenLba",
+  "title": "IWriteEngine2EventArgs::get_LastWrittenLba (imapi2.h)",
+  "description": "Retrieves the address of the sector most recently written to the device.",
+  "helpviewer_keywords": [
+    "IWriteEngine2EventArgs interface [IMAPI]",
+    "get_LastWrittenLba method",
+    "IWriteEngine2EventArgs.get_LastWrittenLba",
+    "IWriteEngine2EventArgs::get_LastWrittenLba",
+    "get_LastWrittenLba",
+    "get_LastWrittenLba method [IMAPI]",
+    "get_LastWrittenLba method [IMAPI]",
+    "IWriteEngine2EventArgs interface",
+    "imapi.iwriteengine2eventargs_get_lastwrittenlba",
+    "imapi2/IWriteEngine2EventArgs::get_LastWrittenLba"
+  ],
+  "old-location": "imapi\\iwriteengine2eventargs_get_lastwrittenlba.htm",
+  "tech.root": "imapi",
+  "ms.assetid": "ccb964b5-dd6f-4250-b6d2-41154258872f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IWriteEngine2EventArgs interface [IMAPI],get_LastWrittenLba method, IWriteEngine2EventArgs.get_LastWrittenLba, IWriteEngine2EventArgs::get_LastWrittenLba, get_LastWrittenLba, get_LastWrittenLba method [IMAPI], get_LastWrittenLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_lastwrittenlba, imapi2/IWriteEngine2EventArgs::get_LastWrittenLba",
+  "req.header": "imapi2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Imapi2.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWriteEngine2EventArgs::get_LastWrittenLba",
+    "imapi2/IWriteEngine2EventArgs::get_LastWrittenLba"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "imapi2.h"
+  ],
+  "api_name": [
+    "IWriteEngine2EventArgs.get_LastWrittenLba"
+  ]
+}

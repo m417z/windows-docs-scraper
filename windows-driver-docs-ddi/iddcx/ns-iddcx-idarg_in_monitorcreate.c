@@ -1,0 +1,4 @@
+struct IDARG_IN_MONITORCREATE {
+  PWDF_OBJECT_ATTRIBUTES ObjectAttributes;
+  IDDCX_MONITOR_INFO     *pMonitorInfo;
+};

@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_DESTROYDEVICE {
+  [in] D3DKMT_HANDLE hDevice;
+} D3DKMT_DESTROYDEVICE;

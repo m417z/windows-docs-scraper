@@ -1,0 +1,3 @@
+typedef struct _NFCRM_RADIO_STATE {
+  BOOLEAN MediaRadioOn;
+} NFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE;

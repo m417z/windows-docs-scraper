@@ -1,0 +1,3 @@
+HRESULT AddItem(
+  [in] CONTEXTMENUITEM2 *pItem
+);

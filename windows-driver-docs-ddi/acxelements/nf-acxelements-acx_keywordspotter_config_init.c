@@ -1,0 +1,3 @@
+void ACX_KEYWORDSPOTTER_CONFIG_INIT(
+  cfg
+);

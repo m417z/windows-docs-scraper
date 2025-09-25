@@ -1,0 +1,4 @@
+typedef struct _DEBUG_MODULE_AND_ID {
+  ULONG64 ModuleBase;
+  ULONG64 Id;
+} DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID;

@@ -1,0 +1,44 @@
+{
+  "UID": "NC:ntddk.pHalQuerySystemInformation",
+  "title": "pHalQuerySystemInformation (ntddk.h)",
+  "description": "The pHalQuerySystemInformation callback function reads the MCA banks' status registers.",
+  "tech.root": "kernel",
+  "ms.date": "01/19/2023",
+  "keywords": [
+    "pHalQuerySystemInformation callback function"
+  ],
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "pHalQuerySystemInformation",
+    "ntddk/pHalQuerySystemInformation"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "pHalQuerySystemInformation"
+  ]
+}

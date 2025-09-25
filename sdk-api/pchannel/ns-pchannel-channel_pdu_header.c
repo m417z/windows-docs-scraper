@@ -1,0 +1,4 @@
+typedef struct tagCHANNEL_PDU_HEADER {
+  UINT32 length;
+  UINT32 flags;
+} CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER;

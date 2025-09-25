@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT",
+  "title": "EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT (wdfdevice.h)",
+  "description": "A driver's EvtDeviceSelfManagedIoInit event callback function initializes and starts the device's self-managed I/O operations.",
+  "old-location": "wdf\\evtdeviceselfmanagedioinit.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_7c67b851-b6d0-450d-bdc9-2a32aa384a36.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT callback, EvtDeviceSelfManagedIoInit, EvtDeviceSelfManagedIoInit callback function, kmdf.evtdeviceselfmanagedioinit, wdf.evtdeviceselfmanagedioinit, wdfdevice/EvtDeviceSelfManagedIoInit",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT",
+    "wdfdevice/EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT put_NetworkProfile(
+  WDSTRANSPORT_NETWORK_PROFILE_TYPE ProfileType
+);

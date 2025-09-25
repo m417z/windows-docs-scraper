@@ -1,0 +1,79 @@
+{
+  "UID": "NF:powerbase.CallNtPowerInformation",
+  "title": "CallNtPowerInformation function (powerbase.h)",
+  "description": "Sets or retrieves power information.",
+  "helpviewer_keywords": [
+    "AdministratorPowerPolicy",
+    "CallNtPowerInformation",
+    "CallNtPowerInformation function",
+    "LastSleepTime",
+    "LastWakeTime",
+    "ProcessorInformation",
+    "ProcessorPowerPolicyAc",
+    "ProcessorPowerPolicyCurrent",
+    "ProcessorPowerPolicyDc",
+    "SystemBatteryState",
+    "SystemExecutionState",
+    "SystemPowerCapabilities",
+    "SystemPowerInformation",
+    "SystemPowerPolicyAc",
+    "SystemPowerPolicyCurrent",
+    "SystemPowerPolicyDc",
+    "SystemReserveHiberFile",
+    "VerifyProcessorPowerPolicyAc",
+    "VerifyProcessorPowerPolicyDc",
+    "VerifySystemPolicyAc",
+    "VerifySystemPolicyDc",
+    "_win32_callntpowerinformation",
+    "base.callntpowerinformation",
+    "powerbase/CallNtPowerInformation",
+    "powrprof/CallNtPowerInformation"
+  ],
+  "old-location": "base\\callntpowerinformation.htm",
+  "tech.root": "base",
+  "ms.assetid": "adc0052d-e2dd-4c55-996c-6af8f5987d79",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AdministratorPowerPolicy, CallNtPowerInformation, CallNtPowerInformation function, LastSleepTime, LastWakeTime, ProcessorInformation, ProcessorPowerPolicyAc, ProcessorPowerPolicyCurrent, ProcessorPowerPolicyDc, SystemBatteryState, SystemExecutionState, SystemPowerCapabilities, SystemPowerInformation, SystemPowerPolicyAc, SystemPowerPolicyCurrent, SystemPowerPolicyDc, SystemReserveHiberFile, VerifyProcessorPowerPolicyAc, VerifyProcessorPowerPolicyDc, VerifySystemPolicyAc, VerifySystemPolicyDc, _win32_callntpowerinformation, base.callntpowerinformation, powerbase/CallNtPowerInformation, powrprof/CallNtPowerInformation",
+  "req.header": "powerbase.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "PowrProf.lib",
+  "req.dll": "PowrProf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CallNtPowerInformation",
+    "powerbase/CallNtPowerInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "PowrProf.dll",
+    "API-MS-Win-power-base-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CallNtPowerInformation"
+  ]
+}

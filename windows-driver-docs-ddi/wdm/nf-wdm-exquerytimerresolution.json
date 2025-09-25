@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.ExQueryTimerResolution",
+  "title": "ExQueryTimerResolution function (wdm.h)",
+  "description": "The ExQueryTimerResolution routine reports the range of timer resolutions that are supported by the system clock.",
+  "old-location": "kernel\\exquerytimerresolution.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ExQueryTimerResolution function"
+  ],
+  "ms.keywords": "ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exquerytimerresolution, wdm/ExQueryTimerResolution",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": null,
+  "req.irql": "Any level.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExQueryTimerResolution",
+    "wdm/ExQueryTimerResolution"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ntoskrnl.lib",
+    "ntoskrnl.dll"
+  ],
+  "api_name": [
+    "ExQueryTimerResolution"
+  ]
+}

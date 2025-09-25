@@ -1,0 +1,8 @@
+EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE EvtNetAdapterReceiveScalingEnable;
+
+NTSTATUS EvtNetAdapterReceiveScalingEnable(
+  [_In_] NETADAPTER Adapter,
+  [_In_] NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE HashType,
+  [_In_] NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE ProtocolType
+)
+{...}

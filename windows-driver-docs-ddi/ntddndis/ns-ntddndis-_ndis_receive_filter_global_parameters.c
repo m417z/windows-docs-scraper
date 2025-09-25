@@ -1,0 +1,6 @@
+typedef struct _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              Flags;
+  ULONG              EnabledFilterTypes;
+  ULONG              EnabledQueueTypes;
+} NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, *PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS;

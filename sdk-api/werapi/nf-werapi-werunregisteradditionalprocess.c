@@ -1,0 +1,3 @@
+HRESULT WerUnregisterAdditionalProcess(
+  DWORD processId
+);

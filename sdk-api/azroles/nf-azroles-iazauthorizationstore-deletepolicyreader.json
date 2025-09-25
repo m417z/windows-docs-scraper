@@ -1,0 +1,68 @@
+{
+  "UID": "NF:azroles.IAzAuthorizationStore.DeletePolicyReader",
+  "title": "IAzAuthorizationStore::DeletePolicyReader (azroles.h)",
+  "description": "Removes the specified security identifier (SID) in text form from the list of principals that act as policy readers.",
+  "helpviewer_keywords": [
+    "AzAuthorizationStore object [Security]",
+    "DeletePolicyReader method",
+    "DeletePolicyReader",
+    "DeletePolicyReader method [Security]",
+    "DeletePolicyReader method [Security]",
+    "AzAuthorizationStore object",
+    "DeletePolicyReader method [Security]",
+    "IAzAuthorizationStore interface",
+    "IAzAuthorizationStore interface [Security]",
+    "DeletePolicyReader method",
+    "IAzAuthorizationStore.DeletePolicyReader",
+    "IAzAuthorizationStore::DeletePolicyReader",
+    "azroles/IAzAuthorizationStore::DeletePolicyReader",
+    "security.azauthorizationstore_deletepolicyreader"
+  ],
+  "old-location": "security\\azauthorizationstore_deletepolicyreader.htm",
+  "tech.root": "security",
+  "ms.assetid": "948732bb-4d29-402b-bb12-02d2b73bc443",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AzAuthorizationStore object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzAuthorizationStore object, DeletePolicyReader method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyReader method, IAzAuthorizationStore.DeletePolicyReader, IAzAuthorizationStore::DeletePolicyReader, azroles/IAzAuthorizationStore::DeletePolicyReader, security.azauthorizationstore_deletepolicyreader",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzAuthorizationStore::DeletePolicyReader",
+    "azroles/IAzAuthorizationStore::DeletePolicyReader"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "AzAuthorizationStore.DeletePolicyReader",
+    "IAzAuthorizationStore.DeletePolicyReader"
+  ]
+}

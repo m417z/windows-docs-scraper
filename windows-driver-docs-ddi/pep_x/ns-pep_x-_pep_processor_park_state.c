@@ -1,0 +1,5 @@
+typedef struct _PEP_PROCESSOR_PARK_STATE {
+  PEPHANDLE Processor;
+  BOOLEAN   Parked;
+  UCHAR     Reserved[3];
+} PEP_PROCESSOR_PARK_STATE, *PPEP_PROCESSOR_PARK_STATE;

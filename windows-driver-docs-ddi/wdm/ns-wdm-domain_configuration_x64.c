@@ -1,0 +1,4 @@
+typedef struct _DOMAIN_CONFIGURATION_X64 {
+  PHYSICAL_ADDRESS FirstLevelPageTableRoot;
+  BOOLEAN          TranslationEnabled;
+} DOMAIN_CONFIGURATION_X64, *PDOMAIN_CONFIGURATION_X64;

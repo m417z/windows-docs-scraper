@@ -1,0 +1,3 @@
+typedef struct _DXGK_PHYSICAL_MEMORY_CAPS {
+  PHYSICAL_ADDRESS HighestVisibleAddress;
+} DXGK_PHYSICAL_MEMORY_CAPS;

@@ -1,0 +1,4 @@
+DRMEXPORT HRESULT UDAPICALL DRMDuplicatePubHandle(
+  [in]  DRMPUBHANDLE hPubIn,
+  [out] DRMPUBHANDLE *phPubOut
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltIsOperationSynchronous",
+  "title": "FltIsOperationSynchronous function (fltkernel.h)",
+  "description": "The FltIsOperationSynchronous routine determines whether a given callback data structure (FLT_CALLBACK_DATA) represents a synchronous or asynchronous I/O operation.",
+  "old-location": "ifsk\\fltisoperationsynchronous.htm",
+  "tech.root": "ifsk",
+  "ms.date": "11/29/2021",
+  "keywords": [
+    "FltIsOperationSynchronous function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, FltIsOperationSynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], fltkernel/FltIsOperationSynchronous, ifsk.fltisoperationsynchronous",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltIsOperationSynchronous",
+    "fltkernel/FltIsOperationSynchronous"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltIsOperationSynchronous"
+  ]
+}

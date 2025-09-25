@@ -1,0 +1,71 @@
+{
+  "UID": "NF:mfidl.IMFMediaSink.GetCharacteristics",
+  "title": "IMFMediaSink::GetCharacteristics (mfidl.h)",
+  "description": "Gets the characteristics of the media sink.",
+  "helpviewer_keywords": [
+    "GetCharacteristics",
+    "GetCharacteristics method [Media Foundation]",
+    "GetCharacteristics method [Media Foundation]",
+    "IMFMediaSink interface",
+    "IMFMediaSink interface [Media Foundation]",
+    "GetCharacteristics method",
+    "IMFMediaSink.GetCharacteristics",
+    "IMFMediaSink::GetCharacteristics",
+    "MEDIASINK_CANNOT_MATCH_CLOCK",
+    "MEDIASINK_CAN_PREROLL",
+    "MEDIASINK_CLOCK_REQUIRED",
+    "MEDIASINK_FIXED_STREAMS",
+    "MEDIASINK_RATELESS",
+    "MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE",
+    "a7e8e2af-8b10-47f5-8b09-a7147ace5ba1",
+    "mf.imfmediasink_getcharacteristics",
+    "mfidl/IMFMediaSink::GetCharacteristics"
+  ],
+  "old-location": "mf\\imfmediasink_getcharacteristics.htm",
+  "tech.root": "mf",
+  "ms.assetid": "a7e8e2af-8b10-47f5-8b09-a7147ace5ba1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetCharacteristics method, IMFMediaSink.GetCharacteristics, IMFMediaSink::GetCharacteristics, MEDIASINK_CANNOT_MATCH_CLOCK, MEDIASINK_CAN_PREROLL, MEDIASINK_CLOCK_REQUIRED, MEDIASINK_FIXED_STREAMS, MEDIASINK_RATELESS, MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE, a7e8e2af-8b10-47f5-8b09-a7147ace5ba1, mf.imfmediasink_getcharacteristics, mfidl/IMFMediaSink::GetCharacteristics",
+  "req.header": "mfidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mfuuid.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMFMediaSink::GetCharacteristics",
+    "mfidl/IMFMediaSink::GetCharacteristics"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mfuuid.lib",
+    "mfuuid.dll"
+  ],
+  "api_name": [
+    "IMFMediaSink.GetCharacteristics"
+  ]
+}

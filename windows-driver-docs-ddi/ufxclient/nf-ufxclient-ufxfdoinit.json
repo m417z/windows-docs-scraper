@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ufxclient.UfxFdoInit",
+  "title": "UfxFdoInit function (ufxclient.h)",
+  "description": "Initializes the WDFDEVICE_INIT structure that the client driver subsequently provides when it calls WdfDeviceCreate.",
+  "old-location": "buses\\ufxfdoinit.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UfxFdoInit function"
+  ],
+  "ms.keywords": "UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit",
+  "req.header": "ufxclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ufxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UfxFdoInit",
+    "ufxclient/UfxFdoInit"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ufxclient.h"
+  ],
+  "api_name": [
+    "UfxFdoInit"
+  ]
+}

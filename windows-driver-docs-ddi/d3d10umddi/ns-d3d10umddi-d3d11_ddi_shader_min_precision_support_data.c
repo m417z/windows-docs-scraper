@@ -1,0 +1,4 @@
+typedef struct D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA {
+  UINT PixelShaderMinPrecision;
+  UINT AllOtherStagesMinPrecision;
+} D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA;

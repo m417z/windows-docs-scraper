@@ -1,0 +1,8 @@
+typedef enum _NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION {
+  NdisNicSwitchVPortInterruptModerationUndefined,
+  NdisNicSwitchVPortInterruptModerationAdaptive,
+  NdisNicSwitchVPortInterruptModerationOff,
+  NdisNicSwitchVPortInterruptModerationLow,
+  NdisNicSwitchVPortInterruptModerationMedium,
+  NdisNicSwitchVPortInterruptModerationHigh
+} NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION, *PNDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION;

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:appmodel.ParseApplicationUserModelId",
+  "title": "ParseApplicationUserModelId function (appmodel.h)",
+  "description": "Deconstructs an application user model ID to its package family name and package relative application ID (PRAID).",
+  "helpviewer_keywords": [
+    "ParseApplicationUserModelId",
+    "ParseApplicationUserModelId function [App packaging and management]",
+    "appmodel/ParseApplicationUserModelId",
+    "appxpkg.parseapplicationusermodelid"
+  ],
+  "old-location": "appxpkg\\parseapplicationusermodelid.htm",
+  "tech.root": "appxpkg",
+  "ms.assetid": "03B29E82-611F-47D1-8CB6-047B9BEB4D9E",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ParseApplicationUserModelId, ParseApplicationUserModelId function [App packaging and management], appmodel/ParseApplicationUserModelId, appxpkg.parseapplicationusermodelid",
+  "req.header": "appmodel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ParseApplicationUserModelId",
+    "appmodel/ParseApplicationUserModelId"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "api-ms-win-appmodel-runtime-l1-1-4.dll",
+    "api-ms-win-appmodel-runtime-l1-1-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-AppModel-RunTime-l1-1-1.dll",
+    "Kernel.AppCore.dll",
+    "API-MS-Win-AppModel-Runtime-L1-1-2.dll"
+  ],
+  "api_name": [
+    "ParseApplicationUserModelId"
+  ]
+}

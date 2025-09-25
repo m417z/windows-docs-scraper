@@ -1,0 +1,8 @@
+typedef enum PHONE_BUTTON_MODE {
+  PBM_DUMMY = 0,
+  PBM_CALL,
+  PBM_FEATURE,
+  PBM_KEYPAD,
+  PBM_LOCAL,
+  PBM_DISPLAY
+} ;

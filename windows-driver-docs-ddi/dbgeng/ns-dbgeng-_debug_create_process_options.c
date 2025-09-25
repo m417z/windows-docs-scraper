@@ -1,0 +1,6 @@
+typedef struct _DEBUG_CREATE_PROCESS_OPTIONS {
+  ULONG CreateFlags;
+  ULONG EngCreateFlags;
+  ULONG VerifierFlags;
+  ULONG Reserved;
+} DEBUG_CREATE_PROCESS_OPTIONS, *PDEBUG_CREATE_PROCESS_OPTIONS;

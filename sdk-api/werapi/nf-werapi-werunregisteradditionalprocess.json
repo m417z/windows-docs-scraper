@@ -1,0 +1,62 @@
+{
+  "UID": "NF:werapi.WerUnregisterAdditionalProcess",
+  "title": "WerUnregisterAdditionalProcess function (werapi.h)",
+  "description": "Removes a process from the list of additional processes to be included in the Windows Error Reporting (WER) error report.",
+  "helpviewer_keywords": [
+    "WerUnregisterAdditionalProcess",
+    "WerUnregisterAdditionalProcess function [Windows Error Reporting]",
+    "wer.werunregisteradditionalprocess",
+    "werapi/WerUnregisterAdditionalProcess"
+  ],
+  "old-location": "wer\\werunregisteradditionalprocess.htm",
+  "tech.root": "wer",
+  "ms.assetid": "CE840EE8-5EB6-4F0F-935E-5DA9097E950F",
+  "ms.date": "07/26/2023",
+  "ms.keywords": "WerUnregisterAdditionalProcess, WerUnregisterAdditionalProcess function [Windows Error Reporting], wer.werunregisteradditionalprocess, werapi/WerUnregisterAdditionalProcess",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerUnregisterAdditionalProcess",
+    "werapi/WerUnregisterAdditionalProcess"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerUnregisterAdditionalProcess"
+  ]
+}

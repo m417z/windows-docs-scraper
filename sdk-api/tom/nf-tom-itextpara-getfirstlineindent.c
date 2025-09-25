@@ -1,0 +1,3 @@
+HRESULT GetFirstLineIndent(
+  float *pValue
+);

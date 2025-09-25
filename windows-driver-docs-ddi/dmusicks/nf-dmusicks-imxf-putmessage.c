@@ -1,0 +1,3 @@
+NTSTATUS PutMessage(
+  PDMUS_KERNEL_EVENT pDMKEvt
+);

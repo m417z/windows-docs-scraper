@@ -1,0 +1,7 @@
+typedef union {
+  struct {
+    ULONG QID : 16;
+    ULONG QSIZE : 16;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW10_CREATE_IO_QUEUE, *PNVME_CDW10_CREATE_IO_QUEUE;

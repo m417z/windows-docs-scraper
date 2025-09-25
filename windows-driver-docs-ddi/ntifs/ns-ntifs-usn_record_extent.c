@@ -1,0 +1,4 @@
+typedef struct {
+  LONGLONG Offset;
+  LONGLONG Length;
+} USN_RECORD_EXTENT, *PUSN_RECORD_EXTENT;

@@ -1,0 +1,68 @@
+{
+  "UID": "NS:commctrl.tagTVKEYDOWN",
+  "title": "NMTVKEYDOWN (commctrl.h)",
+  "description": "Contains information about a keyboard event in a tree-view control. This structure is used with the TVN_KEYDOWN notification code. The structure is identical to the TV_KEYDOWN structure, but it has been renamed to follow current naming conventions.",
+  "helpviewer_keywords": [
+    "*LPNMTVKEYDOWN",
+    "LPNMTVKEYDOWN",
+    "LPNMTVKEYDOWN structure pointer [Windows Controls]",
+    "NMTVKEYDOWN",
+    "NMTVKEYDOWN structure [Windows Controls]",
+    "_win32_NMTVKEYDOWN",
+    "_win32_NMTVKEYDOWN_cpp",
+    "commctrl/LPNMTVKEYDOWN",
+    "commctrl/NMTVKEYDOWN",
+    "controls.NMTVKEYDOWN",
+    "controls._win32_NMTVKEYDOWN"
+  ],
+  "old-location": "controls\\NMTVKEYDOWN.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\treeview\\structures\\nmtvkeydown.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPNMTVKEYDOWN, LPNMTVKEYDOWN, LPNMTVKEYDOWN structure pointer [Windows Controls], NMTVKEYDOWN, NMTVKEYDOWN structure [Windows Controls], _win32_NMTVKEYDOWN, _win32_NMTVKEYDOWN_cpp, commctrl/LPNMTVKEYDOWN, commctrl/NMTVKEYDOWN, controls.NMTVKEYDOWN, controls._win32_NMTVKEYDOWN",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NMTVKEYDOWN, *LPNMTVKEYDOWN",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagTVKEYDOWN",
+    "commctrl/tagTVKEYDOWN",
+    "LPNMTVKEYDOWN",
+    "commctrl/LPNMTVKEYDOWN",
+    "NMTVKEYDOWN",
+    "commctrl/NMTVKEYDOWN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "NMTVKEYDOWN"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "UID": "NF:mbbcx.MbbAdapterGetSessionId",
+  "title": "MbbAdapterGetSessionId function (mbbcx.h)",
+  "description": "The MbbAdapterGetSessionId method retrieves the data session ID represented by the given NETADAPTER object.",
+  "tech.root": "netvista",
+  "ms.date": "06/29/2018",
+  "keywords": [
+    "MbbAdapterGetSessionId function"
+  ],
+  "ms.keywords": "MbbAdapterGetSessionId",
+  "req.header": "mbbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": null,
+  "req.lib": "mbbcxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "MbbAdapterGetSessionId",
+    "mbbcx/MbbAdapterGetSessionId"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "mbbcxstub.lib"
+  ],
+  "api_name": [
+    "MbbAdapterGetSessionId"
+  ]
+}

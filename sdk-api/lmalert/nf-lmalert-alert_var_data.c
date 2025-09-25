@@ -1,0 +1,3 @@
+LPBYTE ALERT_VAR_DATA(
+    LPBYTE p
+);

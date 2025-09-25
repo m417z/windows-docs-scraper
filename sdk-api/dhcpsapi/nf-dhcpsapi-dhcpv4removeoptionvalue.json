@@ -1,0 +1,58 @@
+{
+  "UID": "NF:dhcpsapi.DhcpV4RemoveOptionValue",
+  "title": "DhcpV4RemoveOptionValue function (dhcpsapi.h)",
+  "description": "Removes an option value from a scope defined on the DHCP server. This function extends the functionality provided by DhcpRemoveOptionValueV5 by allowing the caller to specify a policy for the option.",
+  "helpviewer_keywords": [
+    "DHCP_FLAGS_OPTION_IS_VENDOR",
+    "DhcpV4RemoveOptionValue",
+    "DhcpV4RemoveOptionValue function [DHCP]",
+    "dhcp.dhcpv4removeoptionvalue",
+    "dhcpsapi/DhcpV4RemoveOptionValue"
+  ],
+  "old-location": "dhcp\\dhcpv4removeoptionvalue.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "9f22e44e-0eb8-48a9-8a82-dccf41535ef6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4RemoveOptionValue, DhcpV4RemoveOptionValue function [DHCP], dhcp.dhcpv4removeoptionvalue, dhcpsapi/DhcpV4RemoveOptionValue",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpV4RemoveOptionValue",
+    "dhcpsapi/DhcpV4RemoveOptionValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpV4RemoveOptionValue"
+  ]
+}

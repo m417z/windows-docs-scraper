@@ -1,0 +1,4 @@
+typedef struct _DXGK_QUERYPAGINGBUFFERINFOIN {
+  UINT16 PhysicalAdapterIndex;
+  UINT16 Reserved;
+} DXGK_QUERYPAGINGBUFFERINFOIN;

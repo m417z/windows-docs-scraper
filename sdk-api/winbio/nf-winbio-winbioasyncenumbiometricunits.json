@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winbio.WinBioAsyncEnumBiometricUnits",
+  "title": "WinBioAsyncEnumBiometricUnits function (winbio.h)",
+  "description": "Asynchronously enumerates all attached biometric units that match the input factor type.",
+  "helpviewer_keywords": [
+    "WinBioAsyncEnumBiometricUnits",
+    "WinBioAsyncEnumBiometricUnits function [Windows Biometric Framework API]",
+    "secbiomet.winbioasyncenumbiometricunits",
+    "winbio/WinBioAsyncEnumBiometricUnits"
+  ],
+  "old-location": "secbiomet\\winbioasyncenumbiometricunits.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "3A7CEC71-7352-43B7-83D3-447D487C4703",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinBioAsyncEnumBiometricUnits, WinBioAsyncEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioasyncenumbiometricunits, winbio/WinBioAsyncEnumBiometricUnits",
+  "req.header": "winbio.h",
+  "req.include-header": "Winbio.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winbio.lib",
+  "req.dll": "Winbio.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinBioAsyncEnumBiometricUnits",
+    "winbio/WinBioAsyncEnumBiometricUnits"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-biometrics-winbio-core-l1-1-6.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-5.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-4.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-3.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-2.dll",
+    "Winbio.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-Core-l1-1-0.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll"
+  ],
+  "api_name": [
+    "WinBioAsyncEnumBiometricUnits"
+  ]
+}

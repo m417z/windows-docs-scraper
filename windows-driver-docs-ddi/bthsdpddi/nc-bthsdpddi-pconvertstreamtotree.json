@@ -1,0 +1,48 @@
+{
+  "UID": "NC:bthsdpddi.PCONVERTSTREAMTOTREE",
+  "title": "PCONVERTSTREAMTOTREE (bthsdpddi.h)",
+  "description": "The Bluetooth SdpConvertStreamToTree function is used to create a Microsoft proprietary tree-based representation of an SDP record, while leaving the original stream-based representation unmodified.",
+  "old-location": "bltooth\\sdpconvertstreamtotree.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "PCONVERTSTREAMTOTREE callback function"
+  ],
+  "ms.keywords": "PCONVERTSTREAMTOTREE, PCONVERTSTREAMTOTREE callback, SdpConvertStreamToTree, SdpConvertStreamToTree callback function [Bluetooth Devices], bltooth.sdpconvertstreamtotree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml, bthsdpddi/SdpConvertStreamToTree",
+  "req.header": "bthsdpddi.h",
+  "req.include-header": "BthSdpddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCONVERTSTREAMTOTREE",
+    "bthsdpddi/PCONVERTSTREAMTOTREE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "BthSdpddi.h"
+  ],
+  "api_name": [
+    "PCONVERTSTREAMTOTREE"
+  ]
+}

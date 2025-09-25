@@ -1,0 +1,3 @@
+NTSTATUS WaitForTC(
+  ULONG Timeout
+);

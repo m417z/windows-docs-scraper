@@ -1,0 +1,4 @@
+typedef enum {
+  DEVICE_PRIMARY = 0,
+  DEVICE_IMMERSIVE = 1
+} DISPLAY_DEVICE_TYPE;

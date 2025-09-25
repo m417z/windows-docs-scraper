@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ZwOpenEvent",
+  "title": "ZwOpenEvent function (wdm.h)",
+  "description": "The ZwOpenEvent routine opens a handle to an existing named event object with the specified desired access.",
+  "tech.root": "kernel",
+  "ms.date": "12/14/2022",
+  "keywords": [
+    "ZwOpenEvent function"
+  ],
+  "ms.keywords": "NtOpenEvent, ZwOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, wdm/NtOpenEvent, wdm/ZwOpenEvent",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwOpenEvent",
+    "wdm/ZwOpenEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwOpenEvent"
+  ]
+}

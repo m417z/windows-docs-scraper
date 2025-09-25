@@ -1,0 +1,60 @@
+{
+  "UID": "NF:shobjidl_core.SHResolveLibrary",
+  "title": "SHResolveLibrary function (shobjidl_core.h)",
+  "description": "Resolves all locations in a library, even those locations that have been moved or renamed.",
+  "helpviewer_keywords": [
+    "SHResolveLibrary",
+    "SHResolveLibrary function [Windows Shell]",
+    "_shell_SHResolveLibrary",
+    "shell.SHResolveLibrary",
+    "shobjidl_core/SHResolveLibrary"
+  ],
+  "old-location": "shell\\SHResolveLibrary.htm",
+  "tech.root": "shell",
+  "ms.assetid": "a8730c09-f872-4bf8-9482-9dd5af31b509",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHResolveLibrary, SHResolveLibrary function [Windows Shell], _shell_SHResolveLibrary, shell.SHResolveLibrary, shobjidl_core/SHResolveLibrary",
+  "req.header": "shobjidl_core.h",
+  "req.include-header": "Shobjidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHResolveLibrary",
+    "shobjidl_core/SHResolveLibrary"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Shell32.dll",
+    "API-MS-Win-Storage-Exports-Internal-L1-1-0.dll",
+    "Windows.Storage.dll"
+  ],
+  "api_name": [
+    "SHResolveLibrary"
+  ]
+}

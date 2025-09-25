@@ -1,0 +1,48 @@
+{
+  "UID": "NC:bthsdpddi.PVALIDATESTREAM",
+  "title": "PVALIDATESTREAM (bthsdpddi.h)",
+  "description": "The Bluetooth SdpValidateStream function is used to parse a raw SDP record and determine if it contains errors.",
+  "old-location": "bltooth\\sdpvalidatestream.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "PVALIDATESTREAM callback function"
+  ],
+  "ms.keywords": "PVALIDATESTREAM, PVALIDATESTREAM callback, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream",
+  "req.header": "bthsdpddi.h",
+  "req.include-header": "BthSdpddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PVALIDATESTREAM",
+    "bthsdpddi/PVALIDATESTREAM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "BthSdpddi.h"
+  ],
+  "api_name": [
+    "PVALIDATESTREAM"
+  ]
+}

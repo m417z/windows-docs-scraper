@@ -1,0 +1,4 @@
+typedef struct _SECPKG_SHORT_VECTOR {
+  ULONG  ShortArrayOffset;
+  USHORT ShortArrayCount;
+} SECPKG_SHORT_VECTOR, *PSECPKG_SHORT_VECTOR;

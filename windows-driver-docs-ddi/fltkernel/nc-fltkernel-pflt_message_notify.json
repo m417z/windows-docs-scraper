@@ -1,0 +1,50 @@
+{
+  "UID": "NC:fltkernel.PFLT_MESSAGE_NOTIFY",
+  "tech.root": "ifsk",
+  "title": "PFLT_MESSAGE_NOTIFY",
+  "ms.date": "07/10/2024",
+  "targetos": "Windows",
+  "description": "Learn more about the PFLT_MESSAGE_NOTIFY callback function.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "FltMgr.sys",
+  "req.header": "fltkernel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "FltMgr.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "PFLT_MESSAGE_NOTIFY"
+  ],
+  "f1_keywords": [
+    "PFLT_MESSAGE_NOTIFY",
+    "fltkernel/PFLT_MESSAGE_NOTIFY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "PFLT_MESSAGE_NOTIFY"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetSdrWhiteLevel(
+  FLOAT *pfWhiteLevelInNits
+);

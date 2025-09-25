@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.KeQueryHardwareCounterConfiguration",
+  "title": "KeQueryHardwareCounterConfiguration function (ntddk.h)",
+  "description": "The KeQueryHardwareCounterConfiguration routine queries the operating system for the list of hardware counters to use for thread profiling.",
+  "tech.root": "kernel",
+  "ms.date": "04/20/2023",
+  "keywords": [
+    "KeQueryHardwareCounterConfiguration function"
+  ],
+  "ms.keywords": "KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeQueryHardwareCounterConfiguration",
+    "ntddk/KeQueryHardwareCounterConfiguration"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeQueryHardwareCounterConfiguration"
+  ]
+}

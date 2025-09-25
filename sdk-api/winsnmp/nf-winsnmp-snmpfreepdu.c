@@ -1,0 +1,3 @@
+SNMPAPI_STATUS SNMPAPI_CALL SnmpFreePdu(
+  [in] HSNMP_PDU PDU
+);

@@ -1,0 +1,20 @@
+NTSTATUS FLTAPI FltCreateNamedPipeFile(
+  [in]            PFLT_FILTER               Filter,
+  [in, optional]  PFLT_INSTANCE             Instance,
+  [out]           PHANDLE                   FileHandle,
+  [out, optional] PFILE_OBJECT              *FileObject,
+  [in]            ULONG                     DesiredAccess,
+  [in]            POBJECT_ATTRIBUTES        ObjectAttributes,
+  [out]           PIO_STATUS_BLOCK          IoStatusBlock,
+  [in]            ULONG                     ShareAccess,
+  [in]            ULONG                     CreateDisposition,
+  [in]            ULONG                     CreateOptions,
+  [in]            ULONG                     NamedPipeType,
+  [in]            ULONG                     ReadMode,
+  [in]            ULONG                     CompletionMode,
+  [in]            ULONG                     MaximumInstances,
+                  ULONG                     InboundQuota,
+                  ULONG                     OutboundQuota,
+  [in, optional]  PLARGE_INTEGER            DefaultTimeout,
+  [in, optional]  PIO_DRIVER_CREATE_CONTEXT DriverContext
+);

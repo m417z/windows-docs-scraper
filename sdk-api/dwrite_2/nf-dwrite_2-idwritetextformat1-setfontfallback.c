@@ -1,0 +1,3 @@
+HRESULT SetFontFallback(
+  IDWriteFontFallback *fontFallback
+);

@@ -1,0 +1,6 @@
+typedef struct tagEMREXTSELECTCLIPRGN {
+  EMR   emr;
+  DWORD cbRgnData;
+  DWORD iMode;
+  BYTE  RgnData[1];
+} EMREXTSELECTCLIPRGN, *PEMREXTSELECTCLIPRGN;

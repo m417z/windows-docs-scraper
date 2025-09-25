@@ -1,0 +1,4 @@
+typedef struct CLUS_DNN_LEADER_STATUS {
+  BOOL IsOnline;
+  BOOL IsFileServerPresent;
+} CLUS_DNN_LEADER_STATUS, *PCLUS_DNN_LEADER_STATUS;

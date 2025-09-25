@@ -1,0 +1,59 @@
+{
+  "UID": "NF:mmiscapi.mmioStringToFOURCCA",
+  "title": "mmioStringToFOURCCA function (mmiscapi.h)",
+  "description": "The mmioStringToFOURCC function converts a null-terminated string to a four-character code. (mmioStringToFOURCCA)",
+  "helpviewer_keywords": [
+    "mmioStringToFOURCCA"
+  ],
+  "old-location": "multimedia\\mmiostringtofourcc.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "e2d4f7f0-7827-4af0-baa8-02607369247a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_mmioStringToFOURCC, mmioStringToFOURCC, mmioStringToFOURCC function [Windows Multimedia], mmioStringToFOURCCA, mmioStringToFOURCCW, mmsystem/mmioStringToFOURCC, mmsystem/mmioStringToFOURCCA, mmsystem/mmioStringToFOURCCW, multimedia.mmiostringtofourcc",
+  "req.header": "mmiscapi.h",
+  "req.include-header": "Mmiscapi.h, Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "mmioStringToFOURCCW (Unicode) and mmioStringToFOURCCA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winmm.lib",
+  "req.dll": "Winmm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "mmioStringToFOURCCA",
+    "mmiscapi/mmioStringToFOURCCA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winmm.dll",
+    "API-MS-Win-mm-misc-l1-1-0.dll",
+    "winmmbase.dll",
+    "API-MS-Win-mm-misc-l1-1-1.dll"
+  ],
+  "api_name": [
+    "mmioStringToFOURCC",
+    "mmioStringToFOURCCA",
+    "mmioStringToFOURCCW"
+  ]
+}

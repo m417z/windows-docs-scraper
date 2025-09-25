@@ -1,0 +1,38 @@
+{
+  "UID": "NE:ntddk.WELL_KNOWN_SID_TYPE",
+  "title": "WELL_KNOWN_SID_TYPE (ntddk.h)",
+  "description": "A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid).",
+  "tech.root": "ifsk",
+  "ms.date": "09/26/2022",
+  "keywords": [
+    "WELL_KNOWN_SID_TYPE enumeration"
+  ],
+  "ms.keywords": "WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "req.typenames": "WELL_KNOWN_SID_TYPE",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "WELL_KNOWN_SID_TYPE",
+    "ntddk/WELL_KNOWN_SID_TYPE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "WELL_KNOWN_SID_TYPE"
+  ]
+}

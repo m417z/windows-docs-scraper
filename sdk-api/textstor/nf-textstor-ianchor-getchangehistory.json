@@ -1,0 +1,65 @@
+{
+  "UID": "NF:textstor.IAnchor.GetChangeHistory",
+  "title": "IAnchor::GetChangeHistory (textstor.h)",
+  "description": "The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.",
+  "helpviewer_keywords": [
+    "GetChangeHistory",
+    "GetChangeHistory method [Text Services Framework]",
+    "GetChangeHistory method [Text Services Framework]",
+    "IAnchor interface",
+    "IAnchor interface [Text Services Framework]",
+    "GetChangeHistory method",
+    "IAnchor.GetChangeHistory",
+    "IAnchor::GetChangeHistory",
+    "TS_CH_FOLLOWING_DEL",
+    "TS_CH_PRECEDING_DEL",
+    "textstor/IAnchor::GetChangeHistory",
+    "tsf.ianchor_getchangehistory"
+  ],
+  "old-location": "tsf\\ianchor_getchangehistory.htm",
+  "tech.root": "TSF",
+  "ms.assetid": "d373a379-1d27-4438-abaf-2e11f2332790",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetChangeHistory, GetChangeHistory method [Text Services Framework], GetChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetChangeHistory method, IAnchor.GetChangeHistory, IAnchor::GetChangeHistory, TS_CH_FOLLOWING_DEL, TS_CH_PRECEDING_DEL, textstor/IAnchor::GetChangeHistory, tsf.ianchor_getchangehistory",
+  "req.header": "textstor.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Textstor.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Msctf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "TSF 1.0 on Windows 2000 Professional",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAnchor::GetChangeHistory",
+    "textstor/IAnchor::GetChangeHistory"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Msctf.dll"
+  ],
+  "api_name": [
+    "IAnchor.GetChangeHistory"
+  ]
+}

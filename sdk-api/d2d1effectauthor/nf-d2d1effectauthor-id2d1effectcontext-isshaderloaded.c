@@ -1,0 +1,3 @@
+BOOL IsShaderLoaded(
+  REFGUID shaderId
+);

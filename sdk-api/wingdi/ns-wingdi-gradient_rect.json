@@ -1,0 +1,67 @@
+{
+  "UID": "NS:wingdi._GRADIENT_RECT",
+  "title": "GRADIENT_RECT (wingdi.h)",
+  "description": "The GRADIENT_RECT structure specifies the index of two vertices in the pVertex array in the GradientFill function. These two vertices form the upper-left and lower-right boundaries of a rectangle.",
+  "helpviewer_keywords": [
+    "*LPGRADIENT_RECT",
+    "*PGRADIENT_RECT",
+    "GRADIENT_RECT",
+    "GRADIENT_RECT structure [Windows GDI]",
+    "PGRADIENT_RECT",
+    "PGRADIENT_RECT structure pointer [Windows GDI]",
+    "_win32_GRADIENT_RECT_str",
+    "gdi.gradient_rect",
+    "wingdi/GRADIENT_RECT",
+    "wingdi/PGRADIENT_RECT"
+  ],
+  "old-location": "gdi\\gradient_rect.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "8660114a-423f-40a8-b113-e0304bb0f383",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT structure [Windows GDI], PGRADIENT_RECT, PGRADIENT_RECT structure pointer [Windows GDI], _win32_GRADIENT_RECT_str, gdi.gradient_rect, wingdi/GRADIENT_RECT, wingdi/PGRADIENT_RECT",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_GRADIENT_RECT",
+    "wingdi/_GRADIENT_RECT",
+    "PGRADIENT_RECT",
+    "wingdi/PGRADIENT_RECT",
+    "GRADIENT_RECT",
+    "wingdi/GRADIENT_RECT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wingdi.h"
+  ],
+  "api_name": [
+    "GRADIENT_RECT"
+  ]
+}

@@ -1,0 +1,21 @@
+## Description
+
+This topic describes the **KSPROPERTY_BDA_IPv4_FILTER** enumeration.
+
+## Constants
+
+### `KSPROPERTY_BDA_IPv4_FILTER_MULTICAST_LIST_SIZE`
+
+Defines the **KSPROPERTY_BDA_IPv4_FILTER_MULTICAST_LIST_SIZE** constant.
+
+### `KSPROPERTY_BDA_IPv4_FILTER_MULTICAST_LIST`
+
+Defines the **KSPROPERTY_BDA_IPv4_FILTER_MULTICAST_LIST** constant.
+
+### `KSPROPERTY_BDA_IPv4_FILTER_MULTICAST_MODE`
+
+Defines the **KSPROPERTY_BDA_IPv4_FILTER_MULTICAST_MODE** constant.
+
+## Remarks
+
+## See also

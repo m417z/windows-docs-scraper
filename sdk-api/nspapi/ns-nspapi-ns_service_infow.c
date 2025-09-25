@@ -1,0 +1,4 @@
+typedef struct _NS_SERVICE_INFOW {
+  DWORD         dwNameSpace;
+  SERVICE_INFOW ServiceInfo;
+} NS_SERVICE_INFOW, *PNS_SERVICE_INFOW, *LPNS_SERVICE_INFOW;

@@ -1,0 +1,6 @@
+typedef struct _FILE_LINK_ENTRY_INFORMATION {
+  ULONG    NextEntryOffset;
+  LONGLONG ParentFileId;
+  ULONG    FileNameLength;
+  WCHAR    FileName[1];
+} FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION;

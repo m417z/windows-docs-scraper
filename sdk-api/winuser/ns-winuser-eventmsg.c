@@ -1,0 +1,7 @@
+typedef struct tagEVENTMSG {
+  UINT  message;
+  UINT  paramL;
+  UINT  paramH;
+  DWORD time;
+  HWND  hwnd;
+} EVENTMSG, *PEVENTMSGMSG, *NPEVENTMSGMSG, *LPEVENTMSGMSG, *PEVENTMSG, *NPEVENTMSG, *LPEVENTMSG;

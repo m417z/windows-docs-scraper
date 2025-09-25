@@ -1,0 +1,3 @@
+HRESULT GetWidowControl(
+  long *pValue
+);

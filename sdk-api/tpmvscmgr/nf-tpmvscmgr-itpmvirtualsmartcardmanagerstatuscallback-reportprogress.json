@@ -1,0 +1,64 @@
+{
+  "UID": "NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportProgress",
+  "title": "ITpmVirtualSmartCardManagerStatusCallback::ReportProgress (tpmvscmgr.h)",
+  "description": "Reports the progress of the current operation.",
+  "helpviewer_keywords": [
+    "ITpmVirtualSmartCardManagerStatusCallback interface [Security]",
+    "ReportProgress method",
+    "ITpmVirtualSmartCardManagerStatusCallback.ReportProgress",
+    "ITpmVirtualSmartCardManagerStatusCallback::ReportProgress",
+    "ReportProgress",
+    "ReportProgress method [Security]",
+    "ReportProgress method [Security]",
+    "ITpmVirtualSmartCardManagerStatusCallback interface",
+    "security.itpmvirtualsmartcardmanagerstatuscallback_reportprogress",
+    "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportProgress"
+  ],
+  "old-location": "security\\itpmvirtualsmartcardmanagerstatuscallback_reportprogress.htm",
+  "tech.root": "security",
+  "ms.assetid": "E20CF68F-0DFB-48E4-9B68-83A8E8763424",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportProgress method, ITpmVirtualSmartCardManagerStatusCallback.ReportProgress, ITpmVirtualSmartCardManagerStatusCallback::ReportProgress, ReportProgress, ReportProgress method [Security], ReportProgress method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reportprogress, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportProgress",
+  "req.header": "tpmvscmgr.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Tpmvscmgr.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vscmgr.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITpmVirtualSmartCardManagerStatusCallback::ReportProgress",
+    "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportProgress"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Vscmgr.lib",
+    "Vscmgr.dll"
+  ],
+  "api_name": [
+    "ITpmVirtualSmartCardManagerStatusCallback.ReportProgress"
+  ]
+}

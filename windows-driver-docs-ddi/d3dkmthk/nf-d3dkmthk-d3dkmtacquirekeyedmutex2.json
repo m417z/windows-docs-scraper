@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTAcquireKeyedMutex2",
+  "title": "D3DKMTAcquireKeyedMutex2 function (d3dkmthk.h)",
+  "description": "The D3DKMTAcquireKeyedMutex2 function acquires a keyed mutex object that includes private data.",
+  "old-location": "display\\d3dkmtacquirekeyedmutex2.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTAcquireKeyedMutex2 function"
+  ],
+  "ms.keywords": "D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 callback function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, PFND3DKMT_ACQUIREKEYEDMUTEX2 callback, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTAcquireKeyedMutex2",
+    "d3dkmthk/D3DKMTAcquireKeyedMutex2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTAcquireKeyedMutex2"
+  ]
+}

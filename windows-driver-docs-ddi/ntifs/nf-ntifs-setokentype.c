@@ -1,0 +1,3 @@
+TOKEN_TYPE SeTokenType(
+  PACCESS_TOKEN Token
+);

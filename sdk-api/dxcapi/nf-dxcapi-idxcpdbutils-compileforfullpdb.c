@@ -1,0 +1,3 @@
+HRESULT CompileForFullPDB(
+  IDxcResult **ppResult
+);

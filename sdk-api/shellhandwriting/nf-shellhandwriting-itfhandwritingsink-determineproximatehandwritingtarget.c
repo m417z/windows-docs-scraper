@@ -1,0 +1,3 @@
+HRESULT DetermineProximateHandwritingTarget(
+  [in] ITfDetermineProximateHandwritingTargetArgs *determineProximateHandwritingTargetArgs
+);

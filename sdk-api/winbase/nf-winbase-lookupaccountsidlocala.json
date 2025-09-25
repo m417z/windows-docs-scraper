@@ -1,0 +1,60 @@
+{
+  "UID": "NF:winbase.LookupAccountSidLocalA",
+  "title": "LookupAccountSidLocalA macro (winbase.h)",
+  "description": "Retrieves the name of the account for the specified SID on the local machine. (ANSI)",
+  "helpviewer_keywords": [
+    "LookupAccountSidLocalA",
+    "winbase/LookupAccountSidLocalA"
+  ],
+  "old-location": "security\\lookupaccountsidlocal.htm",
+  "tech.root": "security",
+  "ms.assetid": "B039FFD7-B483-4CC0-B606-FAA5003DA238",
+  "ms.date": "11/28/2022",
+  "ms.keywords": "LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "LookupAccountSidLocalW (Unicode) and LookupAccountSidLocalA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LookupAccountSidLocalA",
+    "winbase/LookupAccountSidLocalA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-lsalookup-l1-1-2.dll",
+    "api-ms-win-security-lsalookup-l1-1-1.dll",
+    "sechost.dll",
+    "api-ms-win-security-lsalookup-l1-1-0.dll"
+  ],
+  "api_name": [
+    "LookupAccountSidLocal",
+    "LookupAccountSidLocalA",
+    "LookupAccountSidLocalW"
+  ]
+}

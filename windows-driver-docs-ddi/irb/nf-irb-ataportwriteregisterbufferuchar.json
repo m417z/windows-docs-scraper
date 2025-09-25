@@ -1,0 +1,51 @@
+{
+  "UID": "NF:irb.AtaPortWriteRegisterBufferUchar",
+  "title": "AtaPortWriteRegisterBufferUchar function (irb.h)",
+  "description": "The AtaPortWriteRegisterBufferUchar routine transfers the indicated number of unsigned bytes from a buffer to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\ataportwriteregisterbufferuchar.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortWriteRegisterBufferUchar function"
+  ],
+  "ms.keywords": "AtaPortWriteRegisterBufferUchar, AtaPortWriteRegisterBufferUchar routine [Storage Devices], atartns_6722ff8e-9f8c-4b6a-88d1-305f892250bd.xml, irb/AtaPortWriteRegisterBufferUchar, storage.ataportwriteregisterbufferuchar",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ataport.lib; Pciidex.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortWriteRegisterBufferUchar",
+    "irb/AtaPortWriteRegisterBufferUchar"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ataport.lib",
+    "ataport.dll",
+    "pciidex.lib",
+    "pciidex.dll"
+  ],
+  "api_name": [
+    "AtaPortWriteRegisterBufferUchar"
+  ]
+}

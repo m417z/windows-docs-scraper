@@ -1,0 +1,6 @@
+typedef struct _LOG_MANAGEMENT_CALLBACKS {
+  PVOID                      CallbackContext;
+  PLOG_TAIL_ADVANCE_CALLBACK AdvanceTailCallback;
+  PLOG_FULL_HANDLER_CALLBACK LogFullHandlerCallback;
+  PLOG_UNPINNED_CALLBACK     LogUnpinnedCallback;
+} LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS;

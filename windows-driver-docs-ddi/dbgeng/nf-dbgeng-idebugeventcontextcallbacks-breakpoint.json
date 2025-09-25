@@ -1,0 +1,46 @@
+{
+  "UID": "NF:dbgeng.IDebugEventContextCallbacks.Breakpoint",
+  "tech.root": "debugger",
+  "title": "IDebugEventContextCallbacks::Breakpoint",
+  "ms.date": "02/12/2021",
+  "targetos": "Windows",
+  "description": "A breakpoint event is generated when a breakpoint exception is received and it can be mapped to an existing breakpoint.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dbgeng.h",
+  "req.idl": null,
+  "req.include-header": "dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugEventContextCallbacks::Breakpoint"
+  ],
+  "f1_keywords": [
+    "IDebugEventContextCallbacks::Breakpoint",
+    "dbgeng/IDebugEventContextCallbacks::Breakpoint"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

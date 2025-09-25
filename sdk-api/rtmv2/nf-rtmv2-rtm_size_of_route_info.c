@@ -1,0 +1,3 @@
+ULONG RTM_SIZE_OF_ROUTE_INFO(
+     NumHops
+);

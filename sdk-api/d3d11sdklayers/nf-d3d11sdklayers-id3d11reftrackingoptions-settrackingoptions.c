@@ -1,0 +1,3 @@
+HRESULT SetTrackingOptions(
+  UINT uOptions
+);

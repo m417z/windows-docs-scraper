@@ -1,0 +1,85 @@
+{
+  "UID": "NF:winuser.GetWindowLongPtrW",
+  "title": "GetWindowLongPtrW function (winuser.h)",
+  "description": "Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory. (Unicode)",
+  "helpviewer_keywords": [
+    "DWLP_DLGPROC",
+    "DWLP_MSGRESULT",
+    "DWLP_USER",
+    "GWLP_HINSTANCE",
+    "GWLP_HWNDPARENT",
+    "GWLP_ID",
+    "GWLP_USERDATA",
+    "GWLP_WNDPROC",
+    "GWL_EXSTYLE",
+    "GWL_STYLE",
+    "GetWindowLongPtr",
+    "GetWindowLongPtr function [Windows and Messages]",
+    "GetWindowLongPtrW",
+    "_win32_GetWindowLongPtr",
+    "_win32_getwindowlongptr_cpp",
+    "winmsg.getwindowlongptr",
+    "winui._win32_getwindowlongptr",
+    "winuser/GetWindowLongPtr",
+    "winuser/GetWindowLongPtrW"
+  ],
+  "old-location": "winmsg\\getwindowlongptr.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windowclasses\\windowclassreference\\windowclassfunctions\\getwindowlongptr.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_HWNDPARENT, GWLP_ID, GWLP_USERDATA, GWLP_WNDPROC, GWL_EXSTYLE, GWL_STYLE, GetWindowLongPtr, GetWindowLongPtr function [Windows and Messages], GetWindowLongPtrA, GetWindowLongPtrW, _win32_GetWindowLongPtr, _win32_getwindowlongptr_cpp, winmsg.getwindowlongptr, winui._win32_getwindowlongptr, winuser/GetWindowLongPtr, winuser/GetWindowLongPtrA, winuser/GetWindowLongPtrW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetWindowLongPtrW (Unicode) and GetWindowLongPtrA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetWindowLongPtrW",
+    "winuser/GetWindowLongPtrW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-window-l1-1-0.dll",
+    "ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll",
+    "User32.dll",
+    "API-MS-Win-NTUser-IE-Window-l1-1-0.dll",
+    "ie_shims.dll",
+    "API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll",
+    "minuser.dll",
+    "Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll",
+    "Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll",
+    "ext-ms-win-ntuser-windowclass-l1-1-2.dll"
+  ],
+  "api_name": [
+    "GetWindowLongPtr",
+    "GetWindowLongPtrA",
+    "GetWindowLongPtrW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)"
+}

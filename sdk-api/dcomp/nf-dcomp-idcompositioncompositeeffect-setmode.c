@@ -1,0 +1,3 @@
+HRESULT SetMode(
+  [in] D2D1_COMPOSITE_MODE mode
+);

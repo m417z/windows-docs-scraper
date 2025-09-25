@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfchildlist.EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN",
+  "title": "EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN (wdfchildlist.h)",
+  "description": "A driver's EvtChildListScanForChildren event callback function must report all of the child devices that are present.",
+  "old-location": "wdf\\evtchildlistscanforchildren.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectChildListRef_fa95ef9d-6bb7-4eb0-8535-06853fa1759c.xml, EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN, EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN callback, EvtChildListScanForChildren, EvtChildListScanForChildren callback function, kmdf.evtchildlistscanforchildren, wdf.evtchildlistscanforchildren, wdfchildlist/EvtChildListScanForChildren",
+  "req.header": "wdfchildlist.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN",
+    "wdfchildlist/EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WdfChildlist.h"
+  ],
+  "api_name": [
+    "EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN"
+  ]
+}

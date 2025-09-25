@@ -1,0 +1,3 @@
+HRESULT SetDefaultSensorDeviceIndex(
+  DWORD dwIndex
+);

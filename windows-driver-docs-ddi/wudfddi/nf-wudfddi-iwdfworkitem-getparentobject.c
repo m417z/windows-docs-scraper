@@ -1,0 +1,1 @@
+IWDFObject * GetParentObject();

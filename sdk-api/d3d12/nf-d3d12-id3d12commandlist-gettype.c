@@ -1,0 +1,1 @@
+D3D12_COMMAND_LIST_TYPE GetType();

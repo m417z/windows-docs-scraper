@@ -1,0 +1,1 @@
+INT WSAAPI WSARevertImpersonation();

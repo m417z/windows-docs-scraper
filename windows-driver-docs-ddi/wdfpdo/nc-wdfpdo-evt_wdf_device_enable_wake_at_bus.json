@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfpdo.EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS",
+  "title": "EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS (wdfpdo.h)",
+  "description": "A bus driver's EvtDeviceEnableWakeAtBus event callback function performs bus-level operations that enable one of the bus's devices to trigger a wake-up signal on the bus.",
+  "old-location": "wdf\\evtdeviceenablewakeatbus.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectFdoPdoRef_c418526b-2cf2-4193-b75c-f6af5d669433.xml, EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS, EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS callback, EvtDeviceEnableWakeAtBus, EvtDeviceEnableWakeAtBus callback function, kmdf.evtdeviceenablewakeatbus, wdf.evtdeviceenablewakeatbus, wdfpdo/EvtDeviceEnableWakeAtBus",
+  "req.header": "wdfpdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS",
+    "wdfpdo/EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfpdo.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS"
+  ]
+}

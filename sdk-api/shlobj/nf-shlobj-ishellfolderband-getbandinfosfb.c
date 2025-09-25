@@ -1,0 +1,3 @@
+HRESULT GetBandInfoSFB(
+  PBANDINFOSFB pbi
+);

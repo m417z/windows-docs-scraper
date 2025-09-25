@@ -1,0 +1,53 @@
+{
+  "UID": "NS:compstui._EXTPUSH",
+  "title": "EXTPUSH (compstui.h)",
+  "description": "The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.",
+  "tech.root": "print",
+  "ms.date": "11/15/2022",
+  "keywords": [
+    "EXTPUSH structure"
+  ],
+  "ms.keywords": "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush",
+  "req.header": "compstui.h",
+  "req.include-header": "Compstui.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "EXTPUSH, *PEXTPUSH",
+  "f1_keywords": [
+    "_EXTPUSH",
+    "compstui/_EXTPUSH",
+    "PEXTPUSH",
+    "compstui/PEXTPUSH",
+    "EXTPUSH",
+    "compstui/EXTPUSH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "compstui.h"
+  ],
+  "api_name": [
+    "_EXTPUSH",
+    "PEXTPUSH",
+    "EXTPUSH"
+  ]
+}

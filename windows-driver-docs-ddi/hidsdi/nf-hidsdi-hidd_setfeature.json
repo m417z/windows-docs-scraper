@@ -1,0 +1,48 @@
+{
+  "UID": "NF:hidsdi.HidD_SetFeature",
+  "title": "HidD_SetFeature function (hidsdi.h)",
+  "description": "The HidD_SetFeature routine sends a feature report to a top-level collection.",
+  "old-location": "hid\\hidd_setfeature.htm",
+  "tech.root": "hid",
+  "ms.date": "04/28/2022",
+  "keywords": [
+    "HidD_SetFeature function"
+  ],
+  "ms.keywords": "HidD_SetFeature, HidD_SetFeature routine [Human Input Devices], hid.hidd_setfeature, hidfunc_f34ed05a-c8c1-44e3-ab94-a8df000aac7d.xml, hidsdi/HidD_SetFeature",
+  "req.header": "hidsdi.h",
+  "req.include-header": "Hidsdi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hid.lib",
+  "req.dll": "Hid.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidD_SetFeature",
+    "hidsdi/HidD_SetFeature"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hid.dll"
+  ],
+  "api_name": [
+    "HidD_SetFeature"
+  ]
+}

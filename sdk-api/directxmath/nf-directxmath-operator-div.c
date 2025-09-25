@@ -1,0 +1,4 @@
+XMVECTOR XM_CALLCONV operator/(
+  FXMVECTOR V1,
+  FXMVECTOR V2
+) noexcept;

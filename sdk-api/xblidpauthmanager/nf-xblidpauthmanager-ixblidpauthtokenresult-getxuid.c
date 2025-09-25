@@ -1,0 +1,3 @@
+HRESULT GetXuid(
+  LPWSTR *xuid
+);

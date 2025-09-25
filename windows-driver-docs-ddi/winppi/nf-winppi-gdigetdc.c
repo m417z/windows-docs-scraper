@@ -1,0 +1,3 @@
+HDC GdiGetDC(
+  HANDLE SpoolFileHandle
+);

@@ -1,0 +1,66 @@
+{
+  "UID": "NF:textstor.ITextStoreACP2.RequestLock",
+  "title": "ITextStoreACP2::RequestLock (textstor.h)",
+  "description": "Called by the TSF manager to provide a document lock in order to modify the document. This method calls the OnLockGranted method to create the document lock.",
+  "helpviewer_keywords": [
+    "ITextStoreACP2 interface [Text Services Framework]",
+    "RequestLock method",
+    "ITextStoreACP2.RequestLock",
+    "ITextStoreACP2::RequestLock",
+    "RequestLock",
+    "RequestLock method [Text Services Framework]",
+    "RequestLock method [Text Services Framework]",
+    "ITextStoreACP2 interface",
+    "TS_LF_READ",
+    "TS_LF_READWRITE",
+    "TS_LF_SYNC",
+    "textstor/ITextStoreACP2::RequestLock",
+    "tsf.itextstoreacp2_requestlock"
+  ],
+  "old-location": "tsf\\itextstoreacp2_requestlock.htm",
+  "tech.root": "TSF",
+  "ms.assetid": "82254529-3deb-4e69-8571-3f8eaa533459",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITextStoreACP2 interface [Text Services Framework],RequestLock method, ITextStoreACP2.RequestLock, ITextStoreACP2::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP2 interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreACP2::RequestLock, tsf.itextstoreacp2_requestlock",
+  "req.header": "textstor.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Textstor.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Msctf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITextStoreACP2::RequestLock",
+    "textstor/ITextStoreACP2::RequestLock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "msctf.dll"
+  ],
+  "api_name": [
+    "ITextStoreACP2.RequestLock"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.MmIsDriverSuspectForVerifier",
+  "title": "MmIsDriverSuspectForVerifier function (wdm.h)",
+  "description": "The MmIsDriverSuspectForVerifier routine indicates whether the driver represented by the specified driver object is in the list of drivers that are selected to be verified by Driver Verifier.",
+  "old-location": "kernel\\mmisdriversuspectforverifier.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "MmIsDriverSuspectForVerifier function"
+  ],
+  "ms.keywords": "MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture], kernel.mmisdriversuspectforverifier, wdm/MmIsDriverSuspectForVerifier",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmIsDriverSuspectForVerifier",
+    "wdm/MmIsDriverSuspectForVerifier"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmIsDriverSuspectForVerifier"
+  ]
+}

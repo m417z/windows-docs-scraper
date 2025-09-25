@@ -1,0 +1,53 @@
+{
+  "UID": "NS:fileapi._CREATEFILE3_EXTENDED_PARAMETERS",
+  "tech.root": "fs",
+  "title": "CREATEFILE3_EXTENDED_PARAMETERS structure (fileapi.h)",
+  "ms.date": "04/10/2025",
+  "targetos": "Windows",
+  "description": null,
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 24H2 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2025 [desktop apps \\| UWP apps]",
+  "req.target-type": null,
+  "req.typenames": "CREATEFILE3_EXTENDED_PARAMETERS, *PCREATEFILE3_EXTENDED_PARAMETERS, *LPCREATEFILE3_EXTENDED_PARAMETERS",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fileapi.h"
+  ],
+  "api_name": [
+    "_CREATEFILE3_EXTENDED_PARAMETERS",
+    "PCREATEFILE3_EXTENDED_PARAMETERS",
+    "CREATEFILE3_EXTENDED_PARAMETERS"
+  ],
+  "f1_keywords": [
+    "_CREATEFILE3_EXTENDED_PARAMETERS",
+    "fileapi/_CREATEFILE3_EXTENDED_PARAMETERS",
+    "PCREATEFILE3_EXTENDED_PARAMETERS",
+    "fileapi/PCREATEFILE3_EXTENDED_PARAMETERS",
+    "CREATEFILE3_EXTENDED_PARAMETERS",
+    "fileapi/CREATEFILE3_EXTENDED_PARAMETERS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_CREATEFILE3_EXTENDED_PARAMETERS"
+  ]
+}

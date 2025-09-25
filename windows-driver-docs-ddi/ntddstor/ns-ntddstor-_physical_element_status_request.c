@@ -1,0 +1,8 @@
+typedef struct _PHYSICAL_ELEMENT_STATUS_REQUEST {
+  ULONG Version;
+  ULONG Size;
+  ULONG StartingElement;
+  UCHAR Filter;
+  UCHAR ReportType;
+  UCHAR Reserved[2];
+} PHYSICAL_ELEMENT_STATUS_REQUEST, *PPHYSICAL_ELEMENT_STATUS_REQUEST;

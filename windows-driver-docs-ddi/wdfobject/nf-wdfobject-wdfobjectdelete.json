@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfobject.WdfObjectDelete",
+  "title": "WdfObjectDelete function (wdfobject.h)",
+  "description": "The WdfObjectDelete method deletes a framework object and its child objects.",
+  "old-location": "wdf\\wdfobjectdelete.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfObjectDelete function"
+  ],
+  "ms.keywords": "DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, WdfObjectDelete, WdfObjectDelete method, kmdf.wdfobjectdelete, wdf.wdfobjectdelete, wdfobject/WdfObjectDelete",
+  "req.header": "wdfobject.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "AddPdoToStaticChildList, ControlDeviceDeleted, CtlDeviceFinishInitDeviceAdd, CtlDeviceFinishInitDrEntry, DriverCreate, InvalidReqAccessLocal, KmdfIrql, KmdfIrql2, MemAfterReqCompletedIntIoctlA, MemAfterReqCompletedIoctlA, MemAfterReqCompletedReadA, MemAfterReqCompletedWriteA, ReqDelete, ReqSendFail",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfObjectDelete",
+    "wdfobject/WdfObjectDelete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfObjectDelete"
+  ]
+}

@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_COMMAND_SIGNATURE_SIZE_0001 Pfnd3d12ddiCalcPrivateCommandSignatureSize0001;
+
+SIZE_T Pfnd3d12ddiCalcPrivateCommandSignatureSize0001(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 *unnamedParam2
+)
+{...}

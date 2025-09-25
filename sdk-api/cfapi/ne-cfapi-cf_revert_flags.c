@@ -1,0 +1,3 @@
+typedef enum CF_REVERT_FLAGS {
+  CF_REVERT_FLAG_NONE = 0x00000000
+} ;

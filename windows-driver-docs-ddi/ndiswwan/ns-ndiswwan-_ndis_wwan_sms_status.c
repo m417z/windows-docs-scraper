@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_SMS_STATUS {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_SMS_STATUS    SmsStatus;
+} NDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS;

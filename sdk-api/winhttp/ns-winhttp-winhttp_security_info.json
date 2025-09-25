@@ -1,0 +1,47 @@
+{
+  "UID": "NS:winhttp._WINHTTP_SECURITY_INFO",
+  "title": "WINHTTP_SECURITY_INFO",
+  "ms.date": "11/4/2019",
+  "targetos": "Windows",
+  "description": "The WINHTTP_SECURITY_INFO structure contains a variety of timing information for an HTTP request.",
+  "tech.root": "winhttp",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winhttp.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.typenames": "WINHTTP_SECURITY_INFO, *PWINHTTP_SECURITY_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winhttp.h"
+  ],
+  "api_name": [
+    "_WINHTTP_SECURITY_INFO",
+    "WINHTTP_SECURITY_INFO"
+  ],
+  "f1_keywords": [
+    "_WINHTTP_SECURITY_INFO",
+    "winhttp/_WINHTTP_SECURITY_INFO",
+    "PWINHTTP_SECURITY_INFO",
+    "winhttp/PWINHTTP_SECURITY_INFO",
+    "WINHTTP_SECURITY_INFO",
+    "winhttp/WINHTTP_SECURITY_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

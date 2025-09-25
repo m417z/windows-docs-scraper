@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdm._FSINFOCLASS",
+  "title": "_FSINFOCLASS (wdm.h)",
+  "description": "The FS_INFORMATION_CLASS enumeration contains the information class constants that specify what type of information structure is present for a set or a query operation.",
+  "old-location": "ifsk\\fs_information_class.htm",
+  "tech.root": "ifsk",
+  "ms.date": "08/16/2023",
+  "keywords": [
+    "FSINFOCLASS enumeration"
+  ],
+  "ms.keywords": "*PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsLabelInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeFlagsInformation, FileFsVolumeInformation, _FSINFOCLASS, ifsk.fs_information_class, wdm/FS_INFORMATION_CLASS, wdm/FileFsAttributeInformation, wdm/FileFsControlInformation, wdm/FileFsDeviceInformation, wdm/FileFsDriverPathInformation, wdm/FileFsFullSizeInformation, wdm/FileFsLabelInformation, wdm/FileFsObjectIdInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsSizeInformation, wdm/FileFsVolumeFlagsInformation, wdm/FileFsVolumeInformation",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS",
+  "f1_keywords": [
+    "_FSINFOCLASS",
+    "wdm/_FSINFOCLASS",
+    "PFS_INFORMATION_CLASS",
+    "wdm/PFS_INFORMATION_CLASS",
+    "FS_INFORMATION_CLASS",
+    "wdm/FS_INFORMATION_CLASS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_FSINFOCLASS",
+    "PFS_INFORMATION_CLASS",
+    "FS_INFORMATION_CLASS"
+  ]
+}

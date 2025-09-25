@@ -1,0 +1,71 @@
+{
+  "UID": "NS:ntdsapi.DS_NAME_RESULTA",
+  "title": "DS_NAME_RESULTA (ntdsapi.h)",
+  "description": "The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function. (ANSI)",
+  "helpviewer_keywords": [
+    "*PDS_NAME_RESULTA",
+    "DS_NAME_RESULT",
+    "DS_NAME_RESULT structure [Active Directory]",
+    "DS_NAME_RESULTA",
+    "DS_NAME_RESULTW",
+    "PDS_NAME_RESULT",
+    "PDS_NAME_RESULT structure pointer [Active Directory]",
+    "_glines_ds_name_result",
+    "ad.ds__name__result",
+    "ad.ds_name_result",
+    "ntdsapi/DS_NAME_RESULT",
+    "ntdsapi/DS_NAME_RESULTA",
+    "ntdsapi/DS_NAME_RESULTW",
+    "ntdsapi/PDS_NAME_RESULT"
+  ],
+  "old-location": "ad\\ds_name_result.htm",
+  "tech.root": "ad",
+  "ms.assetid": "8c3cedae-f998-482c-95db-33bca94e119b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PDS_NAME_RESULTA, DS_NAME_RESULT, DS_NAME_RESULT structure [Active Directory], DS_NAME_RESULTA, DS_NAME_RESULTW, PDS_NAME_RESULT, PDS_NAME_RESULT structure pointer [Active Directory], _glines_ds_name_result, ad.ds__name__result, ad.ds_name_result, ntdsapi/DS_NAME_RESULT, ntdsapi/DS_NAME_RESULTA, ntdsapi/DS_NAME_RESULTW, ntdsapi/PDS_NAME_RESULT",
+  "req.header": "ntdsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DS_NAME_RESULTW (Unicode) and DS_NAME_RESULTA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DS_NAME_RESULTA, *PDS_NAME_RESULTA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PDS_NAME_RESULTA",
+    "ntdsapi/PDS_NAME_RESULTA",
+    "DS_NAME_RESULTA",
+    "ntdsapi/DS_NAME_RESULTA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntdsapi.h"
+  ],
+  "api_name": [
+    "DS_NAME_RESULT",
+    "DS_NAME_RESULTA",
+    "DS_NAME_RESULTW"
+  ]
+}

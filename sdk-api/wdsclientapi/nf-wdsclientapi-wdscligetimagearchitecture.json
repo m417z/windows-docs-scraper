@@ -1,0 +1,60 @@
+{
+  "UID": "NF:wdsclientapi.WdsCliGetImageArchitecture",
+  "title": "WdsCliGetImageArchitecture function (wdsclientapi.h)",
+  "description": "Returns the processor architecture for the current image.",
+  "helpviewer_keywords": [
+    "PROCESSOR_ARCHITECTURE_AMD64",
+    "PROCESSOR_ARCHITECTURE_IA64",
+    "PROCESSOR_ARCHITECTURE_INTEL",
+    "WdsCliGetImageArchitecture",
+    "WdsCliGetImageArchitecture function [Windows Deployment Services]",
+    "wds.wdscligetimagearchitecture",
+    "wdsclientapi/WdsCliGetImageArchitecture"
+  ],
+  "old-location": "wds\\wdscligetimagearchitecture.htm",
+  "tech.root": "wds",
+  "ms.assetid": "69df2926-e0f1-4c52-bc91-7d2e1391f835",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliGetImageArchitecture, WdsCliGetImageArchitecture function [Windows Deployment Services], wds.wdscligetimagearchitecture, wdsclientapi/WdsCliGetImageArchitecture",
+  "req.header": "wdsclientapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WdsClientAPI.lib",
+  "req.dll": "WdsClientAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WdsCliGetImageArchitecture",
+    "wdsclientapi/WdsCliGetImageArchitecture"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WdsClientAPI.dll"
+  ],
+  "api_name": [
+    "WdsCliGetImageArchitecture"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NE:miniport._IRQ_DEVICE_POLICY",
+  "title": "_IRQ_DEVICE_POLICY (miniport.h)",
+  "description": "The _IRQ_DEVICE_POLICY enumeration (miniport.h) type indicates the operating system policy used to assign interrupts from a device to different processors.",
+  "old-location": "kernel\\irq_device_policy.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IRQ_DEVICE_POLICY enumeration"
+  ],
+  "ms.keywords": "*PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyAllCloseProcessors, IrqPolicyAllProcessorsInMachine, IrqPolicyMachineDefault, IrqPolicyOneCloseProcessor, IrqPolicySpecifiedProcessors, IrqPolicySpreadMessagesAcrossAllProcessors, PIRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], _IRQ_DEVICE_POLICY, kernel.irq_device_policy, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, wdm/IRQ_DEVICE_POLICY, wdm/IrqPolicyAllCloseProcessors, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyMachineDefault, wdm/IrqPolicyOneCloseProcessor, wdm/IrqPolicySpecifiedProcessors, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/PIRQ_DEVICE_POLICY",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY",
+  "f1_keywords": [
+    "_IRQ_DEVICE_POLICY",
+    "miniport/_IRQ_DEVICE_POLICY",
+    "PIRQ_DEVICE_POLICY",
+    "miniport/PIRQ_DEVICE_POLICY",
+    "IRQ_DEVICE_POLICY",
+    "miniport/IRQ_DEVICE_POLICY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_IRQ_DEVICE_POLICY",
+    "PIRQ_DEVICE_POLICY",
+    "IRQ_DEVICE_POLICY"
+  ]
+}

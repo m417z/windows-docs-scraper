@@ -1,0 +1,1 @@
+HRESULT __thiscall Initialize();

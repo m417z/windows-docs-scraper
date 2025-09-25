@@ -1,0 +1,50 @@
+{
+  "UID": "NC:fwpsu.FWPS_CALLOUT_CLASSIFY_FN1",
+  "tech.root": "fwp",
+  "title": "FWPS_CALLOUT_CLASSIFY_FN1",
+  "ms.date": "06/07/2024",
+  "targetos": "Windows",
+  "description": "The filter engine calls a callout's classifyFn1 callout function whenever there is data to be processed by the callout.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fwpsu.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpsu.h"
+  ],
+  "api_name": [
+    "FWPS_CALLOUT_CLASSIFY_FN1"
+  ],
+  "f1_keywords": [
+    "FWPS_CALLOUT_CLASSIFY_FN1",
+    "fwpsu/FWPS_CALLOUT_CLASSIFY_FN1"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FWPS_CALLOUT_CLASSIFY_FN1"
+  ]
+}

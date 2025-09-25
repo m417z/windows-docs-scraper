@@ -1,0 +1,5 @@
+typedef struct _VIRTUAL_DISK_PROGRESS {
+  DWORD     OperationStatus;
+  ULONGLONG CurrentValue;
+  ULONGLONG CompletionValue;
+} VIRTUAL_DISK_PROGRESS, *PVIRTUAL_DISK_PROGRESS;

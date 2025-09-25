@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winhttp.WinHttpSetTimeouts",
+  "title": "WinHttpSetTimeouts function (winhttp.h)",
+  "description": "Sets time-outs involved with HTTP transactions.",
+  "helpviewer_keywords": [
+    "WinHttpSetTimeouts",
+    "WinHttpSetTimeouts function [WinHTTP]",
+    "http.winhttpsettimeouts",
+    "winhttp.winhttpsettimeouts_function",
+    "winhttp/WinHttpSetTimeouts"
+  ],
+  "old-location": "http\\winhttpsettimeouts.htm",
+  "tech.root": "http",
+  "ms.assetid": "e31fee78-44bd-41cd-a181-bb3c0418b469",
+  "ms.date": "01/11/2024",
+  "ms.keywords": "WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts",
+  "req.header": "winhttp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP, Windows 2000 Professional with SP3 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winhttp.lib",
+  "req.dll": "Winhttp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinHttpSetTimeouts",
+    "winhttp/WinHttpSetTimeouts"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winhttp.dll"
+  ],
+  "api_name": [
+    "WinHttpSetTimeouts"
+  ]
+}

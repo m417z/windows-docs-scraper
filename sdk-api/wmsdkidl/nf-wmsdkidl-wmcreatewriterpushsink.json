@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wmsdkidl.WMCreateWriterPushSink",
+  "title": "WMCreateWriterPushSink function (wmsdkidl.h)",
+  "description": "The WMCreateWriterPushSink function creates a writer push sink object. Push sinks are used to deliver streaming content to other media servers for distribution.",
+  "helpviewer_keywords": [
+    "WMCreateWriterPushSink",
+    "WMCreateWriterPushSink function [windows Media Format]",
+    "wmformat.wmcreatewriterpushsink",
+    "wmsdkidl/WMCreateWriterPushSink"
+  ],
+  "old-location": "wmformat\\wmcreatewriterpushsink.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "544aa6d4-a8fe-4ce5-b329-01b031aa3e6f",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "WMCreateWriterPushSink, WMCreateWriterPushSink function [windows Media Format], wmformat.wmcreatewriterpushsink, wmsdkidl/WMCreateWriterPushSink",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib",
+  "req.dll": "Wmvcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WMCreateWriterPushSink",
+    "wmsdkidl/WMCreateWriterPushSink"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wmvcore.dll"
+  ],
+  "api_name": [
+    "WMCreateWriterPushSink"
+  ]
+}

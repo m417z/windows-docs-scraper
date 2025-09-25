@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.GetAsyncKeyState",
+  "title": "GetAsyncKeyState function (winuser.h)",
+  "description": "Determines whether a key is up or down at the time the function is called, and whether the key was pressed after a previous call to GetAsyncKeyState.",
+  "helpviewer_keywords": [
+    "GetAsyncKeyState",
+    "GetAsyncKeyState function [Keyboard and Mouse Input]",
+    "_win32_GetAsyncKeyState",
+    "_win32_getasynckeystate_cpp",
+    "inputdev.getasynckeystate",
+    "winui._win32_getasynckeystate",
+    "winuser/GetAsyncKeyState"
+  ],
+  "old-location": "inputdev\\getasynckeystate.htm",
+  "tech.root": "inputdev",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\userinput\\keyboardinput\\keyboardinputreference\\keyboardinputfunctions\\getasynckeystate.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetAsyncKeyState, GetAsyncKeyState function [Keyboard and Mouse Input], _win32_GetAsyncKeyState, _win32_getasynckeystate_cpp, inputdev.getasynckeystate, winui._win32_getasynckeystate, winuser/GetAsyncKeyState",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "snippet-project",
+  "f1_keywords": [
+    "GetAsyncKeyState",
+    "winuser/GetAsyncKeyState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-keyboard-l1-1-0.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-2.dll",
+    "ext-ms-win-ntuser-keyboard-l1-3-1.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll",
+    "api-ms-win-ntuser-ie-keyboard-l1-1-0.dll",
+    "ie_stubs.dll",
+    "ext-ms-win-ntuser-keyboard-l1-1-2.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll",
+    "Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll"
+  ],
+  "api_name": [
+    "GetAsyncKeyState"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.ScsiPortReadRegisterUchar",
+  "title": "ScsiPortReadRegisterUchar macro (storport.h)",
+  "description": "Learn how the ScsiPortReadRegisterUchar routine reads an unsigned byte value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\scsiportreadregisteruchar.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ScsiPortReadRegisterUchar macro"
+  ],
+  "ms.keywords": "ScsiPortReadRegisterUchar, ScsiPortReadRegisterUchar routine [Storage Devices], scsiprt_220f8972-dc09-4027-9cec-85a07ed5547d.xml, srb/ScsiPortReadRegisterUchar, storage.scsiportreadregisteruchar",
+  "req.header": "storport.h",
+  "req.include-header": "Miniport.h, Scsi.h, Storport.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scsiport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortReadRegisterUchar",
+    "storport/ScsiPortReadRegisterUchar"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Scsiport.lib",
+    "Scsiport.dll"
+  ],
+  "api_name": [
+    "ScsiPortReadRegisterUchar"
+  ]
+}

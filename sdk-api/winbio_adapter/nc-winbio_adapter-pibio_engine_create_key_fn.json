@@ -1,0 +1,59 @@
+{
+  "UID": "NC:winbio_adapter.PIBIO_ENGINE_CREATE_KEY_FN",
+  "title": "PIBIO_ENGINE_CREATE_KEY_FN (winbio_adapter.h)",
+  "description": "Called by the Windows Biometric Framework to push an HMAC key to the sensor. The returned key identifier will be passed back to the biometric unit when the framework calls EngineAdapterIdentifyFeatureSetSecure.",
+  "helpviewer_keywords": [
+    "EngineAdapterCreateKey",
+    "EngineAdapterCreateKey callback function [Windows Biometric Framework API]",
+    "PIBIO_ENGINE_CREATE_KEY_FN",
+    "PIBIO_ENGINE_CREATE_KEY_FN callback",
+    "secbiomet.engineadaptercreatekey",
+    "winbio_adapter/EngineAdapterCreateKey"
+  ],
+  "old-location": "secbiomet\\engineadaptercreatekey.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "3EB42081-6949-46F8-B235-377234A90C39",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngineAdapterCreateKey, EngineAdapterCreateKey callback function [Windows Biometric Framework API], PIBIO_ENGINE_CREATE_KEY_FN, PIBIO_ENGINE_CREATE_KEY_FN callback, secbiomet.engineadaptercreatekey, winbio_adapter/EngineAdapterCreateKey",
+  "req.header": "winbio_adapter.h",
+  "req.include-header": "Winbio_adapter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PIBIO_ENGINE_CREATE_KEY_FN",
+    "winbio_adapter/PIBIO_ENGINE_CREATE_KEY_FN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winbio_adapter.h"
+  ],
+  "api_name": [
+    "EngineAdapterCreateKey"
+  ]
+}

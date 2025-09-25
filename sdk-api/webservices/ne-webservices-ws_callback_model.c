@@ -1,0 +1,4 @@
+typedef enum {
+  WS_SHORT_CALLBACK = 0,
+  WS_LONG_CALLBACK = 1
+} WS_CALLBACK_MODEL;

@@ -1,0 +1,1 @@
+DPI_HOSTING_BEHAVIOR GetThreadDpiHostingBehavior();

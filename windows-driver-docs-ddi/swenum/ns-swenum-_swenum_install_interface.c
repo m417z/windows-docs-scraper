@@ -1,0 +1,5 @@
+typedef struct _SWENUM_INSTALL_INTERFACE {
+  GUID  DeviceId;
+  GUID  InterfaceId;
+  WCHAR ReferenceString[1];
+} SWENUM_INSTALL_INTERFACE, *PSWENUM_INSTALL_INTERFACE;

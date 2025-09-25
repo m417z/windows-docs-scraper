@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.PshedAllocateMemory",
+  "title": "PshedAllocateMemory function (ntddk.h)",
+  "description": "The PshedAllocateMemory function allocates a block of memory from the nonpaged pool.",
+  "tech.root": "whea",
+  "ms.date": "01/04/2023",
+  "keywords": [
+    "PshedAllocateMemory function"
+  ],
+  "ms.keywords": "PshedAllocateMemory, PshedAllocateMemory function [WHEA Drivers and Applications], ntddk/PshedAllocateMemory, whea.pshedallocatememory, whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pshed.lib",
+  "req.dll": "Pshed.dll",
+  "req.irql": "IRQL <=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PshedAllocateMemory",
+    "ntddk/PshedAllocateMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pshed.dll"
+  ],
+  "api_name": [
+    "PshedAllocateMemory"
+  ]
+}

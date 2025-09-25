@@ -1,0 +1,58 @@
+{
+  "UID": "NF:lmalert.ALERT_VAR_DATA",
+  "title": "ALERT_VAR_DATA macro (lmalert.h)",
+  "description": "The ALERT_VAR_DATA macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an ADMIN_OTHER_INFO, a PRINT_OTHER_INFO, or a USER_OTHER_INFO structure.",
+  "helpviewer_keywords": [
+    "ALERT_VAR_DATA",
+    "ALERT_VAR_DATA macro [Network Management]",
+    "_win32_alert_var_data",
+    "lmalert/ALERT_VAR_DATA",
+    "netmgmt.alert_var_data"
+  ],
+  "old-location": "netmgmt\\alert_var_data.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "ff71fb3d-8c01-47ac-93f2-108b1f49e2da",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "ALERT_VAR_DATA, ALERT_VAR_DATA macro [Network Management], _win32_alert_var_data, lmalert/ALERT_VAR_DATA, netmgmt.alert_var_data",
+  "req.header": "lmalert.h",
+  "req.include-header": "Lm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ALERT_VAR_DATA",
+    "lmalert/ALERT_VAR_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Lmalert.h"
+  ],
+  "api_name": [
+    "ALERT_VAR_DATA"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisSetCoalescableTimerObject",
+  "title": "NdisSetCoalescableTimerObject function (ndis.h)",
+  "description": "The NdisSetCoalescableTimerObject function sets a timer object that the operating system coordinates with other timers, typically to reduce power consumption, when the exact expiration of the timer is not important to driver operation.",
+  "old-location": "netvista\\ndissetcoalescabletimerobject.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisSetCoalescableTimerObject function"
+  ],
+  "ms.keywords": "NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetCoalescableTimerObject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, netvista.ndissetcoalescabletimerobject",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Supported in NDIS 6.20 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisSetCoalescableTimerObject",
+    "ndis/NdisSetCoalescableTimerObject"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisSetCoalescableTimerObject"
+  ]
+}

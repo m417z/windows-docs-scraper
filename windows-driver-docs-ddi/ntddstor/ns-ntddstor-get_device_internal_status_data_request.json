@@ -1,0 +1,44 @@
+{
+  "UID": "NS:ntddstor._GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+  "title": "GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+  "description": "The GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST structure describes the internal status data being requested through IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG.",
+  "tech.root": "storage",
+  "ms.date": "11/30/2019",
+  "ms.keywords": "GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST, GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST, *PGET_DEVICE_INTERNAL_STATUS_DATA_REQUEST,",
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST, *PGET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+    "ntddstor/_GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+    "PGET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+    "ntddstor/PGET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+    "GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+    "ntddstor/GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+    "PGET_DEVICE_INTERNAL_STATUS_DATA_REQUEST",
+    "GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST"
+  ]
+}

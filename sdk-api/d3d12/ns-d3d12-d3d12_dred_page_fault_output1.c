@@ -1,0 +1,5 @@
+typedef struct D3D12_DRED_PAGE_FAULT_OUTPUT1 {
+  D3D12_GPU_VIRTUAL_ADDRESS         PageFaultVA;
+  const D3D12_DRED_ALLOCATION_NODE1 *pHeadExistingAllocationNode;
+  const D3D12_DRED_ALLOCATION_NODE1 *pHeadRecentFreedAllocationNode;
+} D3D12_DRED_PAGE_FAULT_OUTPUT1;

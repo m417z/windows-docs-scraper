@@ -1,0 +1,8 @@
+typedef struct _DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS {
+  union {
+    struct {
+      UINT Reserved : 32;
+    };
+    UINT Value;
+  };
+} DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS, *PDXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS;

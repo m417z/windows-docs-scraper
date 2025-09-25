@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wingdi.StrokePath",
+  "title": "StrokePath function (wingdi.h)",
+  "description": "The StrokePath function renders the specified path by using the current pen.",
+  "helpviewer_keywords": [
+    "StrokePath",
+    "StrokePath function [Windows GDI]",
+    "_win32_StrokePath",
+    "gdi.strokepath",
+    "wingdi/StrokePath"
+  ],
+  "old-location": "gdi\\strokepath.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "5a9f1509-0a69-4db8-8d74-9bf360aca64d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "StrokePath, StrokePath function [Windows GDI], _win32_StrokePath, gdi.strokepath, wingdi/StrokePath",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StrokePath",
+    "wingdi/StrokePath"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll"
+  ],
+  "api_name": [
+    "StrokePath"
+  ]
+}

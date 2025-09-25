@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winbase.DeleteFileTransactedA",
+  "title": "DeleteFileTransactedA function (winbase.h)",
+  "description": "Deletes an existing file as a transacted operation. (ANSI)",
+  "helpviewer_keywords": [
+    "DeleteFileTransactedA",
+    "winbase/DeleteFileTransactedA"
+  ],
+  "old-location": "fs\\deletefiletransacted.htm",
+  "tech.root": "fs",
+  "ms.assetid": "e0a6230b-2da1-4746-95fe-80f7b6bae41f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DeleteFileTransactedW (Unicode) and DeleteFileTransactedA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteFileTransactedA",
+    "winbase/DeleteFileTransactedA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "Kernel32Legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "DeleteFileTransacted",
+    "DeleteFileTransactedA",
+    "DeleteFileTransactedW"
+  ]
+}

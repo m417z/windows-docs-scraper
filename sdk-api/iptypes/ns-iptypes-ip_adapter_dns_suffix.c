@@ -1,0 +1,4 @@
+typedef struct _IP_ADAPTER_DNS_SUFFIX {
+  struct _IP_ADAPTER_DNS_SUFFIX *Next;
+  WCHAR                         String[MAX_DNS_SUFFIX_STRING_LENGTH];
+} IP_ADAPTER_DNS_SUFFIX, *PIP_ADAPTER_DNS_SUFFIX;

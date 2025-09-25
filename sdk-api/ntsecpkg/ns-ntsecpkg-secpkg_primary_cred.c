@@ -1,0 +1,16 @@
+typedef struct _SECPKG_PRIMARY_CRED {
+  LUID           LogonId;
+  UNICODE_STRING DownlevelName;
+  UNICODE_STRING DomainName;
+  UNICODE_STRING Password;
+  UNICODE_STRING OldPassword;
+  PSID           UserSid;
+  ULONG          Flags;
+  UNICODE_STRING DnsDomainName;
+  UNICODE_STRING Upn;
+  UNICODE_STRING LogonServer;
+  UNICODE_STRING Spare1;
+  UNICODE_STRING Spare2;
+  UNICODE_STRING Spare3;
+  UNICODE_STRING Spare4;
+} SECPKG_PRIMARY_CRED, *PSECPKG_PRIMARY_CRED;

@@ -1,0 +1,6 @@
+typedef struct _DXGK_MITIGATEDRANGEINFO {
+  ULONG64 BasePageNumber;
+  ULONG   PageCount;
+  BOOLEAN InterceptReads;
+  BOOLEAN InterceptWrites;
+} DXGK_MITIGATEDRANGEINFO, *PDXGK_MITIGATEDRANGEINFO;

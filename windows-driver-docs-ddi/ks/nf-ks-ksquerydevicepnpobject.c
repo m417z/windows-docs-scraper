@@ -1,0 +1,3 @@
+KSDDKAPI PDEVICE_OBJECT KsQueryDevicePnpObject(
+  [in] KSDEVICE_HEADER Header
+);

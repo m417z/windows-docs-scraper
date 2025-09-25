@@ -1,0 +1,5 @@
+typedef struct {
+  KSPROPERTY Property;
+  GUID       PinCategory;
+  GUID       PinName;
+} SYSAUDIO_CREATE_VIRTUAL_SOURCE, *PSYSAUDIO_CREATE_VIRTUAL_SOURCE;

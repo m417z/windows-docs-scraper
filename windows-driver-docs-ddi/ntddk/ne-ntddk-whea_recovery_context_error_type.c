@@ -1,0 +1,5 @@
+typedef enum _WHEA_RECOVERY_CONTEXT_ERROR_TYPE {
+  WheaRecoveryContextErrorTypeMemory,
+  WheaRecoveryContextErrorTypePmem,
+  WheaRecoveryContextErrorTypeMax
+} WHEA_RECOVERY_CONTEXT_ERROR_TYPE, *PWHEA_RECOVERY_CONTEXT_ERROR_TYPE;

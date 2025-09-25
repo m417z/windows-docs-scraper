@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1506 {
+  DWORD sv1506_maxworkitems;
+} SERVER_INFO_1506, *PSERVER_INFO_1506, *LPSERVER_INFO_1506;

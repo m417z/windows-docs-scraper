@@ -1,0 +1,7 @@
+EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION EvtAcxStreamaudioengineAssignLoopbackProtection;
+
+NTSTATUS EvtAcxStreamaudioengineAssignLoopbackProtection(
+  ACXSTREAMAUDIOENGINE StreamAudioEngine,
+  ACX_CONSTRICTOR_OPTION ConstrictorOption
+)
+{...}

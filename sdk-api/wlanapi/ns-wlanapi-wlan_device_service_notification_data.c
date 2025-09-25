@@ -1,0 +1,10 @@
+typedef struct _WLAN_DEVICE_SERVICE_NOTIFICATION_DATA {
+  GUID  DeviceService;
+  DWORD dwOpCode;
+  DWORD dwDataSize;
+#if ...
+  BYTE  *DataBlob[];
+#else
+  BYTE  DataBlob[1];
+#endif
+} WLAN_DEVICE_SERVICE_NOTIFICATION_DATA, *PWLAN_DEVICE_SERVICE_NOTIFICATION_DATA;

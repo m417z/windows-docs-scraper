@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winreg.RegDisablePredefinedCache",
+  "title": "RegDisablePredefinedCache function (winreg.h)",
+  "description": "Disables handle caching of the predefined registry handle for HKEY_CURRENT_USER for the current process.",
+  "helpviewer_keywords": [
+    "RegDisablePredefinedCache",
+    "RegDisablePredefinedCache function",
+    "_win32_regdisablepredefinedcache",
+    "base.regdisablepredefinedcache",
+    "winreg/RegDisablePredefinedCache"
+  ],
+  "old-location": "base\\regdisablepredefinedcache.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "837584b3-5f61-4535-9e66-56f50ab3fa46",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegDisablePredefinedCache, RegDisablePredefinedCache function, _win32_regdisablepredefinedcache, base.regdisablepredefinedcache, winreg/RegDisablePredefinedCache",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegDisablePredefinedCache",
+    "winreg/RegDisablePredefinedCache"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l2-3-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Registry-l2-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-Core-Registry-l2-2-0.dll"
+  ],
+  "api_name": [
+    "RegDisablePredefinedCache"
+  ]
+}

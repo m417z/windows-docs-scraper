@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltIsIoCanceled",
+  "title": "FltIsIoCanceled function (fltkernel.h)",
+  "description": "The FltIsIoCanceled routine checks if an IRP-based operation has been canceled.",
+  "old-location": "ifsk\\fltisiocanceled.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltIsIoCanceled function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_00dccf3a-3f69-4c6c-b5c6-1d7371e4afbc.xml, FltIsIoCanceled, FltIsIoCanceled routine [Installable File System Drivers], fltkernel/FltIsIoCanceled, ifsk.fltisiocanceled",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltIsIoCanceled",
+    "fltkernel/FltIsIoCanceled"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltIsIoCanceled"
+  ]
+}

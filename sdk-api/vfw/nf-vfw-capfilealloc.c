@@ -1,0 +1,4 @@
+BOOL capFileAlloc(
+     hwnd,
+     dwSize
+);

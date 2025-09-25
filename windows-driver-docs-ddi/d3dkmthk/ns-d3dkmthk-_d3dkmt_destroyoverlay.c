@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_DESTROYOVERLAY {
+  [in] D3DKMT_HANDLE hDevice;
+  [in] D3DKMT_HANDLE hOverlay;
+} D3DKMT_DESTROYOVERLAY;

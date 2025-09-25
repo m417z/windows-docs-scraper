@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_NOTIFY_INTERRUPT",
+  "title": "DXGKCB_NOTIFY_INTERRUPT (d3dkmddi.h)",
+  "description": "The DxgkCbNotifyInterrupt function informs the graphics processing unit (GPU) scheduler about a graphics hardware update at interrupt-service-routine (ISR) time.",
+  "old-location": "display\\dxgkcbnotifyinterrupt.htm",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKCB_NOTIFY_INTERRUPT callback function"
+  ],
+  "ms.keywords": "DXGKCB_NOTIFY_INTERRUPT, DXGKCB_NOTIFY_INTERRUPT callback, DpFunctions_fdb60c96-9eec-4e57-a4bd-1b97ad99769b.xml, DxgkCbNotifyInterrupt, DxgkCbNotifyInterrupt callback function [Display Devices], d3dkmddi/DxgkCbNotifyInterrupt, display.dxgkcbnotifyinterrupt",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista (WDDM 1.0)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_NOTIFY_INTERRUPT",
+    "d3dkmddi/DXGKCB_NOTIFY_INTERRUPT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_NOTIFY_INTERRUPT"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:bcrypt.BCryptUnregisterConfigChangeNotify~r1",
+  "title": "BCryptUnregisterConfigChangeNotify",
+  "description": "Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.",
+  "ms.date": "01/30/2019",
+  "ms.keywords": "BCryptUnregisterConfigChangeNotify",
+  "ms.topic": "language-reference",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "bcrypt.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "req.typenames": null,
+  "f1_keywords": [
+    "BCryptUnregisterConfigChangeNotify",
+    "bcrypt/BCryptUnregisterConfigChangeNotify"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "bcrypt.h"
+  ],
+  "api_name": [
+    "BCryptUnregisterConfigChangeNotify"
+  ],
+  "product": "Windows",
+  "targetos": "Windows"
+}

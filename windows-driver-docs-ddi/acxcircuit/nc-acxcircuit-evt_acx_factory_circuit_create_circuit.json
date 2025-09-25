@@ -1,0 +1,47 @@
+{
+  "UID": "NC:acxcircuit.EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT",
+  "tech.root": "audio",
+  "title": "EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT",
+  "ms.date": "12/14/2022",
+  "targetos": "Windows",
+  "description": "The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxcircuit.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "acxcircuit.h"
+  ],
+  "api_name": [
+    "EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT"
+  ],
+  "f1_keywords": [
+    "EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT",
+    "acxcircuit/EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

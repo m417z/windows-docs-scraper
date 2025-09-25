@@ -1,0 +1,65 @@
+{
+  "UID": "NF:msinkaut.IInkRenderer.Measure",
+  "title": "IInkRenderer::Measure (msinkaut.h)",
+  "description": "Calculates the rectangle on the device context that would contain a collection of strokes if the strokes were drawn with the InkRenderer object using the DrawStroke method.",
+  "helpviewer_keywords": [
+    "1ef9ef91-ae96-454f-9ef8-570e64852395",
+    "IInkRenderer interface [Tablet PC]",
+    "Measure method",
+    "IInkRenderer.Measure",
+    "IInkRenderer::Measure",
+    "Measure",
+    "Measure method [Tablet PC]",
+    "Measure method [Tablet PC]",
+    "IInkRenderer interface",
+    "msinkaut/IInkRenderer::Measure",
+    "tablet.inkrenderer_measure"
+  ],
+  "old-location": "tablet\\inkrenderer_measure.htm",
+  "tech.root": "tablet",
+  "ms.assetid": "1ef9ef91-ae96-454f-9ef8-570e64852395",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "1ef9ef91-ae96-454f-9ef8-570e64852395, IInkRenderer interface [Tablet PC],Measure method, IInkRenderer.Measure, IInkRenderer::Measure, Measure, Measure method [Tablet PC], Measure method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Measure, tablet.inkrenderer_measure",
+  "req.header": "msinkaut.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP Tablet PC Edition [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "InkObj.dll",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IInkRenderer::Measure",
+    "msinkaut/IInkRenderer::Measure"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "InkObj.dll",
+    "InkObj.dll.dll"
+  ],
+  "api_name": [
+    "IInkRenderer.Measure"
+  ]
+}

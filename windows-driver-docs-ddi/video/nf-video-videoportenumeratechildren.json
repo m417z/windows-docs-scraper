@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortEnumerateChildren",
+  "title": "VideoPortEnumerateChildren function (video.h)",
+  "description": "The VideoPortEnumerateChildren function allows a video miniport driver to force a reenumeration of its child devices.",
+  "old-location": "display\\videoportenumeratechildren.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortEnumerateChildren function"
+  ],
+  "ms.keywords": "VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices], VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren, video/VideoPortEnumerateChildren",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortEnumerateChildren",
+    "video/VideoPortEnumerateChildren"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortEnumerateChildren"
+  ]
+}

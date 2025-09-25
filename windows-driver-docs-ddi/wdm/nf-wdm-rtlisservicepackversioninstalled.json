@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.RtlIsServicePackVersionInstalled",
+  "title": "RtlIsServicePackVersionInstalled function (wdm.h)",
+  "description": "The RtlIsServicePackVersionInstalled routine determines if a specified service pack version of the Microsoft Windows device driver interface (DDI) is installed.",
+  "old-location": "kernel\\rtlisservicepackversioninstalled.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlIsServicePackVersionInstalled function"
+  ],
+  "ms.keywords": "RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of Windows. A compatibility library supports this routine in earlier versions of Windows (see Remarks section).",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rtlver.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlIsServicePackVersionInstalled",
+    "wdm/RtlIsServicePackVersionInstalled"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Rtlver.lib",
+    "Rtlver.dll"
+  ],
+  "api_name": [
+    "RtlIsServicePackVersionInstalled"
+  ]
+}

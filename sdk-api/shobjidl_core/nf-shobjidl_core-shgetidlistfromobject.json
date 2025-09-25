@@ -1,0 +1,65 @@
+{
+  "UID": "NF:shobjidl_core.SHGetIDListFromObject",
+  "title": "SHGetIDListFromObject function (shobjidl_core.h)",
+  "description": "Retrieves the pointer to an item identifier list (PIDL) of an object.",
+  "helpviewer_keywords": [
+    "SHGetIDListFromObject",
+    "SHGetIDListFromObject function [Windows Shell]",
+    "_shell_SHGetIDListFromObject",
+    "shell.SHGetIDListFromObject",
+    "shobjidl_core/SHGetIDListFromObject"
+  ],
+  "old-location": "shell\\SHGetIDListFromObject.htm",
+  "tech.root": "shell",
+  "ms.assetid": "42821075-8123-4bfa-a6ba-8d3a77a9f50b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shell], _shell_SHGetIDListFromObject, shell.SHGetIDListFromObject, shobjidl_core/SHGetIDListFromObject",
+  "req.header": "shobjidl_core.h",
+  "req.include-header": "Shobjidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHGetIDListFromObject",
+    "shobjidl_core/SHGetIDListFromObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "api-ms-win-shell-namespace-l1-1-1.dll",
+    "Shell32.dll",
+    "Ext-MS-Win-shell-shell32-l1-2-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-1.dll",
+    "Ext-MS-Win-Shell-Shell32-L1-2-2.dll",
+    "windows.storage.dll",
+    "API-MS-Win-Shell-Namespace-L1-1-0.dll"
+  ],
+  "api_name": [
+    "SHGetIDListFromObject"
+  ]
+}

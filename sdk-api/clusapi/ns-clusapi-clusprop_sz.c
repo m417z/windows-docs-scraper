@@ -1,0 +1,3 @@
+typedef struct CLUSPROP_SZ : CLUSPROP_VALUE {
+  WCHAR sz[];
+} CLUSPROP_SZ, *PCLUSPROP_SZ;

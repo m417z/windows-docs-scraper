@@ -1,0 +1,3 @@
+DRMEXPORT HRESULT UDAPICALL DRMCloseQueryHandle(
+  [in] DRMQUERYHANDLE hQuery
+);

@@ -1,0 +1,3 @@
+HRESULT DestroyFunctionAlias(
+  PCWSTR aliasName
+);

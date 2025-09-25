@@ -1,0 +1,4 @@
+typedef struct FWPM_CLASSIFY_OPTION0_ {
+  FWP_CLASSIFY_OPTION_TYPE type;
+  FWP_VALUE0               value;
+} FWPM_CLASSIFY_OPTION0;

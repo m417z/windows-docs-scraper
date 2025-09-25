@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_D0_ENTRY",
+  "title": "EVT_WDF_DEVICE_D0_ENTRY (wdfdevice.h)",
+  "description": "A driver's EvtDeviceD0Entry event callback function performs operations that are needed when the driver's device enters the D0 power state.",
+  "old-location": "wdf\\evtdeviced0entry.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_D0_ENTRY callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_2be6c269-2579-4358-ba3a-855672e6d2bc.xml, EVT_WDF_DEVICE_D0_ENTRY, EVT_WDF_DEVICE_D0_ENTRY callback, EvtDeviceD0Entry, EvtDeviceD0Entry callback function, kmdf.evtdeviced0entry, wdf.evtdeviced0entry, wdfdevice/EvtDeviceD0Entry",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_D0_ENTRY",
+    "wdfdevice/EVT_WDF_DEVICE_D0_ENTRY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_D0_ENTRY"
+  ]
+}

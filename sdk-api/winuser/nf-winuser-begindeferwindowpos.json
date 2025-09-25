@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winuser.BeginDeferWindowPos",
+  "title": "BeginDeferWindowPos function (winuser.h)",
+  "description": "Allocates memory for a multiple-window- position structure and returns the handle to the structure.",
+  "helpviewer_keywords": [
+    "BeginDeferWindowPos",
+    "BeginDeferWindowPos function [Windows and Messages]",
+    "_win32_BeginDeferWindowPos",
+    "_win32_begindeferwindowpos_cpp",
+    "winmsg.begindeferwindowpos",
+    "winui._win32_begindeferwindowpos",
+    "winuser/BeginDeferWindowPos"
+  ],
+  "old-location": "winmsg\\begindeferwindowpos.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windows\\windowreference\\windowfunctions\\begindeferwindowpos.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BeginDeferWindowPos, BeginDeferWindowPos function [Windows and Messages], _win32_BeginDeferWindowPos, _win32_begindeferwindowpos_cpp, winmsg.begindeferwindowpos, winui._win32_begindeferwindowpos, winuser/BeginDeferWindowPos",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BeginDeferWindowPos",
+    "winuser/BeginDeferWindowPos"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll",
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "User32.dll",
+    "API-MS-Win-NTUser-IE-Window-l1-1-0.dll",
+    "ie_shims.dll",
+    "API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll",
+    "minuser.dll",
+    "Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll"
+  ],
+  "api_name": [
+    "BeginDeferWindowPos"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)"
+}

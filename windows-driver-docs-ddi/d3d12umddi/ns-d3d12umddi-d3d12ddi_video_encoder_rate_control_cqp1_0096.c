@@ -1,0 +1,6 @@
+typedef struct D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CQP1_0096 {
+  UINT ConstantQP_FullIntracodedFrame;
+  UINT ConstantQP_InterPredictedFrame_PrevRefOnly;
+  UINT ConstantQP_InterPredictedFrame_BiDirectionalRef;
+  UINT QualityVsSpeed;
+} D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CQP1_0096;

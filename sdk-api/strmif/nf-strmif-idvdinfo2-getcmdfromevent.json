@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IDvdInfo2.GetCmdFromEvent",
+  "title": "IDvdInfo2::GetCmdFromEvent (strmif.h)",
+  "description": "The GetCmdFromEvent method retrieves an IDvdCmd object from an EC_DVD_CMD_START or EC_DVD_CMD_END event.",
+  "helpviewer_keywords": [
+    "GetCmdFromEvent",
+    "GetCmdFromEvent method [DirectShow]",
+    "GetCmdFromEvent method [DirectShow]",
+    "IDvdInfo2 interface",
+    "IDvdInfo2 interface [DirectShow]",
+    "GetCmdFromEvent method",
+    "IDvdInfo2.GetCmdFromEvent",
+    "IDvdInfo2::GetCmdFromEvent",
+    "IDvdInfo2GetCmdFromEvent",
+    "dshow.idvdinfo2_getcmdfromevent",
+    "strmif/IDvdInfo2::GetCmdFromEvent"
+  ],
+  "old-location": "dshow\\idvdinfo2_getcmdfromevent.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "488a394f-222f-4536-a20a-579df5c2f91f",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDvdInfo2::GetCmdFromEvent",
+    "strmif/IDvdInfo2::GetCmdFromEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IDvdInfo2.GetCmdFromEvent"
+  ]
+}

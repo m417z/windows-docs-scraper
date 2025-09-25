@@ -1,0 +1,7 @@
+typedef union {
+  struct {
+    ULONG ELBAT : 16;
+    ULONG ELBATM : 16;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW15_READ_WRITE, *PNVME_CDW15_READ_WRITE;

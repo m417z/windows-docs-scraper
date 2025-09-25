@@ -1,0 +1,3 @@
+HRESULT SetShowCmd(
+  int iShowCmd
+);

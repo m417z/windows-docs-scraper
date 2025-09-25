@@ -1,0 +1,3 @@
+typedef struct _TUPLE_REQUEST {
+  USHORT Socket;
+} TUPLE_REQUEST, *PTUPLE_REQUEST;

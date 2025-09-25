@@ -1,0 +1,7 @@
+DXGKDDI_MONITORSOURCEMODESET_RELEASEMODEINFO DxgkddiMonitorsourcemodesetReleasemodeinfo;
+
+NTSTATUS DxgkddiMonitorsourcemodesetReleasemodeinfo(
+  [in] IN_CONST_D3DKMDT_HMONITORSOURCEMODESET hMonitorSourceModeSet,
+  [in] IN_CONST_PD3DKMDT_MONITOR_SOURCE_MODE_CONST pMonitorSourceModeInfo
+)
+{...}

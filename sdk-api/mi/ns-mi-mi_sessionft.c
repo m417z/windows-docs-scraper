@@ -1,0 +1,17 @@
+typedef struct _MI_SessionFT {
+  MI_Result(I_Session *session, void *completionContext, void(*completionCallback)(void *completionContext)) * )(MClose;
+  MI_Result((MI_Session *session,MI_Application *application) * )GetApplication;
+  void(Session *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Instance *inboundInstance,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_GetInstance;
+  void(Session *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Instance *inboundInstance,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_ModifyInstance;
+  void(Session *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Instance *inboundInstance,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_CreateInstance;
+  void(Session *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Instance *inboundInstance,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_DeleteInstance;
+  void(sion *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Char *className, const MI_Char *methodName, const MI_Instance *inboundInstance, const MI_Instance *inboundProperties,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_SesInvoke;
+  void(Session *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Char *className,MI_Boolean keysOnly,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_EnumerateInstances;
+  void(ession *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Char *queryDialect, const MI_Char *queryExpression,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_SQueryInstances;
+  void(ion *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Instance *instanceKeys, const MI_Char *assocClass, const MI_Char *resultClass, const MI_Char *role, const MI_Char *resultRole,MI_Boolean keysOnly,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_SessAssociatorInstances;
+  void(ssion *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Instance *instanceKeys, const MI_Char *resultClass, const MI_Char *role,MI_Boolean keysOnly,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_SeReferenceInstances;
+  void(ssion *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Char *queryDialect, const MI_Char *queryExpression, const MI_SubscriptionDeliveryOptions *deliverOptions,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_SeSubscribe;
+  void(Session *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Char *className,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_GetClass;
+  void(Session *session,MI_Uint32 flags,MI_OperationOptions *options, const MI_Char *namespaceName, const MI_Char *className,MI_Boolean classNamesOnly,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(MI_EnumerateClasses;
+  void(MI_Session *session,MI_Uint32 flags,MI_OperationCallbacks *callbacks,MI_Operation *operation)      * )(TestConnection;
+} MI_SessionFT;

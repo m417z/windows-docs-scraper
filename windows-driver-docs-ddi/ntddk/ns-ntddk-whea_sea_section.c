@@ -1,0 +1,6 @@
+typedef struct _WHEA_SEA_SECTION {
+  ULONG   Esr;
+  ULONG64 Far;
+  ULONG64 Par;
+  BOOLEAN WasKernel;
+} WHEA_SEA_SECTION, *PWHEA_SEA_SECTION;

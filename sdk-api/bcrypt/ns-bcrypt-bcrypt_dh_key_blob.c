@@ -1,0 +1,4 @@
+typedef struct _BCRYPT_DH_KEY_BLOB {
+  ULONG dwMagic;
+  ULONG cbKey;
+} BCRYPT_DH_KEY_BLOB, *PBCRYPT_DH_KEY_BLOB;

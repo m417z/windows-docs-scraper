@@ -1,0 +1,6 @@
+typedef struct _KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE {
+  KERB_PROTOCOL_MESSAGE_TYPE MessageType;
+  ULONG                      Flags;
+  ULONG                      ExtendedPolicies;
+  ULONG                      DsFlags;
+} KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, *PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE;

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ws2tcpip.GetAddrInfoExCancel",
+  "title": "GetAddrInfoExCancel function (ws2tcpip.h)",
+  "description": "Cancels an asynchronous operation by the GetAddrInfoEx function.",
+  "helpviewer_keywords": [
+    "GetAddrInfoExCancel",
+    "GetAddrInfoExCancel function [Winsock]",
+    "winsock.getaddrinfoexcancel",
+    "ws2tcpip/GetAddrInfoExCancel"
+  ],
+  "old-location": "winsock\\getaddrinfoexcancel.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "A4DE552D-DEA7-44F5-865F-5B02C9BB4AB6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetAddrInfoExCancel, GetAddrInfoExCancel function [Winsock], winsock.getaddrinfoexcancel, ws2tcpip/GetAddrInfoExCancel",
+  "req.header": "ws2tcpip.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetAddrInfoExCancel",
+    "ws2tcpip/GetAddrInfoExCancel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "GetAddrInfoExCancel"
+  ]
+}

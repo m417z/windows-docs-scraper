@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_SETPIXELSHADERCONST {
+  [in] UINT Register;
+  [in] UINT Count;
+} D3DDDIARG_SETPIXELSHADERCONST;

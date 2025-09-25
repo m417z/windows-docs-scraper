@@ -1,0 +1,65 @@
+{
+  "UID": "NS:credssp._SecPkgContext_ClientCreds",
+  "title": "SecPkgContext_ClientCreds (credssp.h)",
+  "description": "Specifies client credentials when calling the QueryContextAttributes (CredSSP) function.",
+  "helpviewer_keywords": [
+    "*PSecPkgContext_ClientCreds",
+    "PSecPkgContext_ClientCreds",
+    "PSecPkgContext_ClientCreds structure pointer [Security]",
+    "SecPkgContext_ClientCreds",
+    "SecPkgContext_ClientCreds structure [Security]",
+    "credssp/PSecPkgContext_ClientCreds",
+    "credssp/SecPkgContext_ClientCreds",
+    "security.secpkgcontext_clientcreds"
+  ],
+  "old-location": "security\\secpkgcontext_clientcreds.htm",
+  "tech.root": "security",
+  "ms.assetid": "85ab1bf7-a4d9-4b0e-b1e3-cb938c3183d3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds structure pointer [Security], SecPkgContext_ClientCreds, SecPkgContext_ClientCreds structure [Security], credssp/PSecPkgContext_ClientCreds, credssp/SecPkgContext_ClientCreds, security.secpkgcontext_clientcreds",
+  "req.header": "credssp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SecPkgContext_ClientCreds",
+    "credssp/_SecPkgContext_ClientCreds",
+    "PSecPkgContext_ClientCreds",
+    "credssp/PSecPkgContext_ClientCreds",
+    "SecPkgContext_ClientCreds",
+    "credssp/SecPkgContext_ClientCreds"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Credssp.h"
+  ],
+  "api_name": [
+    "SecPkgContext_ClientCreds"
+  ]
+}

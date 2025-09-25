@@ -1,0 +1,3 @@
+HRESULT GetMediaSource(
+  IMFMediaSource **ppMediaSource
+);

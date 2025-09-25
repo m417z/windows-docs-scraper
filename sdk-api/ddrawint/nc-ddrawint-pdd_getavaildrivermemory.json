@@ -1,0 +1,60 @@
+{
+  "UID": "NC:ddrawint.PDD_GETAVAILDRIVERMEMORY",
+  "title": "PDD_GETAVAILDRIVERMEMORY (ddrawint.h)",
+  "description": "The DdGetAvailDriverMemory callback function queries the amount of free memory in the driver-managed memory heap.",
+  "helpviewer_keywords": [
+    "DdGetAvailDriverMemory",
+    "DdGetAvailDriverMemory callback function [Display Devices]",
+    "PDD_GETAVAILDRIVERMEMORY",
+    "PDD_GETAVAILDRIVERMEMORY callback",
+    "ddfncs_670b3444-286c-4258-9936-9cb7995d0b24.xml",
+    "ddrawint/DdGetAvailDriverMemory",
+    "display.ddgetavaildrivermemory"
+  ],
+  "old-location": "display\\ddgetavaildrivermemory.htm",
+  "tech.root": "display",
+  "ms.assetid": "21a1988a-1bfd-47b8-b4b6-1bc137b2ba64",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DdGetAvailDriverMemory, DdGetAvailDriverMemory callback function [Display Devices], PDD_GETAVAILDRIVERMEMORY, PDD_GETAVAILDRIVERMEMORY callback, ddfncs_670b3444-286c-4258-9936-9cb7995d0b24.xml, ddrawint/DdGetAvailDriverMemory, display.ddgetavaildrivermemory",
+  "req.header": "ddrawint.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PDD_GETAVAILDRIVERMEMORY",
+    "ddrawint/PDD_GETAVAILDRIVERMEMORY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ddrawint.h"
+  ],
+  "api_name": [
+    "DdGetAvailDriverMemory"
+  ]
+}

@@ -1,0 +1,8 @@
+FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS FnVmbChannelInitSetProcessPacketCallbacks;
+
+NTSTATUS FnVmbChannelInitSetProcessPacketCallbacks(
+  VMBCHANNEL Channel,
+  PFN_VMB_CHANNEL_PROCESS_PACKET ProcessPacketCallback,
+  PFN_VMB_CHANNEL_PROCESSING_COMPLETE ProcessingCompleteCallback
+)
+{...}

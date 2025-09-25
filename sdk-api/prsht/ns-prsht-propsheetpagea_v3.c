@@ -1,0 +1,5 @@
+typedef struct _PROPSHEETPAGEA_V3 {
+  LPCSTR pszHeaderTitle;
+  LPCSTR pszHeaderSubTitle;
+  HANDLE hActCtx;
+} PROPSHEETPAGEA_V3, *LPPROPSHEETPAGEA_V3;

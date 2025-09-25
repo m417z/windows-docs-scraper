@@ -1,0 +1,4 @@
+typedef struct _WWAN_GSM_NMR {
+  ULONG ElementCount;
+  BYTE  GSMNmr[ANYSIZE_ARRAY];
+} WWAN_GSM_NMR, *PWWAN_GSM_NMR;

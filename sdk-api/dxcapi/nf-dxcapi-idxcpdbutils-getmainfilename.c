@@ -1,0 +1,3 @@
+HRESULT GetMainFileName(
+  BSTR *pResult
+);

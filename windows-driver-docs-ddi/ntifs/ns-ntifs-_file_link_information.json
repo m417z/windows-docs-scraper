@@ -1,0 +1,58 @@
+{
+  "UID": "NS:ntifs._FILE_LINK_INFORMATION",
+  "title": "FILE_LINK_INFORMATION (ntifs.h)",
+  "description": "The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file.",
+  "old-location": "ifsk\\file_link_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "FILE_LINK_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_FILE_LINK_INFORMATION",
+    "ntifs/_FILE_LINK_INFORMATION",
+    "PFILE_LINK_INFORMATION",
+    "ntifs/PFILE_LINK_INFORMATION",
+    "FILE_LINK_INFORMATION",
+    "ntifs/FILE_LINK_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_LINK_INFORMATION",
+    "PFILE_LINK_INFORMATION",
+    "FILE_LINK_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

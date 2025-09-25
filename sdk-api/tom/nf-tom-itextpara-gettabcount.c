@@ -1,0 +1,3 @@
+HRESULT GetTabCount(
+  long *pCount
+);

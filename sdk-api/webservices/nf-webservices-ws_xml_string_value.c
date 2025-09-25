@@ -1,0 +1,3 @@
+void WS_XML_STRING_VALUE(
+  S
+);

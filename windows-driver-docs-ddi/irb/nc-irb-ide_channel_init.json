@@ -1,0 +1,48 @@
+{
+  "UID": "NC:irb.IDE_CHANNEL_INIT",
+  "title": "IDE_CHANNEL_INIT (irb.h)",
+  "description": "The AtaChannelInitRoutine miniport driver routine initializes the miniport driver's channel interface.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\atachannelinitroutine.htm",
+  "tech.root": "storage",
+  "ms.date": "08/26/2022",
+  "keywords": [
+    "IDE_CHANNEL_INIT callback function"
+  ],
+  "ms.keywords": "AtaChannelInitRoutine, AtaChannelInitRoutine routine [Storage Devices], IDE_CHANNEL_INIT, atartns_7bbe3bef-24c7-4666-9b83-a29646d92f71.xml, irb/AtaChannelInitRoutine, storage.atachannelinitroutine",
+  "req.header": "irb.h",
+  "req.include-header": "Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDE_CHANNEL_INIT",
+    "irb/IDE_CHANNEL_INIT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "irb.h"
+  ],
+  "api_name": [
+    "IDE_CHANNEL_INIT"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "UID": "NS:scsi._PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+  "title": "_PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA (scsi.h)",
+  "description": "The PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA structure contains the parameter data for a physical element.",
+  "ms.date": "09/10/2018",
+  "tech.root": "storage",
+  "keywords": [
+    "PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA structure"
+  ],
+  "ms.keywords": "_PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA, PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA, *PPHYSICAL_ELEMENT_STATUS_PARAMETER_DATA,",
+  "req.header": "scsi.h",
+  "req.include-header": "scsi.h, storport.h, minitape.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA, *PPHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+    "scsi/_PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+    "PPHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+    "scsi/PPHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+    "PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+    "scsi/PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "_PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+    "PPHYSICAL_ELEMENT_STATUS_PARAMETER_DATA",
+    "PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

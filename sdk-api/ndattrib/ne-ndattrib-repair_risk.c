@@ -1,0 +1,5 @@
+typedef enum __MIDL___MIDL_itf_ndattrib_0000_0000_0002 {
+  RR_NOROLLBACK = 0,
+  RR_ROLLBACK,
+  RR_NORISK
+} REPAIR_RISK;

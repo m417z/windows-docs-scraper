@@ -1,0 +1,6 @@
+DXGKDDI_SETNATIVEFENCELOGBUFFER DxgkddiSetnativefencelogbuffer;
+
+NTSTATUS DxgkddiSetnativefencelogbuffer(
+  IN_CONST_PDXGKARG_SETNATIVEFENCELOGBUFFER pSetNativeFenceLogBuffer
+)
+{...}

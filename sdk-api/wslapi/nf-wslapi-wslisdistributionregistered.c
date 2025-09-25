@@ -1,0 +1,3 @@
+BOOL WslIsDistributionRegistered(
+  PCWSTR distributionName
+);

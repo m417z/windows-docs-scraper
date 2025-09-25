@@ -1,0 +1,50 @@
+{
+  "UID": "NF:fwpmk.FwpmProviderContextGetByKey2",
+  "tech.root": "netvista",
+  "title": "FwpmProviderContextGetByKey2",
+  "ms.date": "06/13/2024",
+  "targetos": "Windows",
+  "description": "The FwpmProviderContextGetByKey2 function retrieves a provider context.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fwpmk.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "fwpkclnt.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fwpmk.h"
+  ],
+  "api_name": [
+    "FwpmProviderContextGetByKey2"
+  ],
+  "f1_keywords": [
+    "FwpmProviderContextGetByKey2",
+    "fwpmk/FwpmProviderContextGetByKey2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FwpmProviderContextGetByKey2"
+  ]
+}

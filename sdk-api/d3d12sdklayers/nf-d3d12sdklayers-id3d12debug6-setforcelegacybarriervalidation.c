@@ -1,0 +1,3 @@
+void SetForceLegacyBarrierValidation(
+  BOOL Enable
+);

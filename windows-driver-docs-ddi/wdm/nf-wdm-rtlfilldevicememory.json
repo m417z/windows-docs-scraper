@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.RtlFillDeviceMemory",
+  "tech.root": "kernel",
+  "title": "RtlFillDeviceMemory function (wdm.h)",
+  "ms.date": "07/14/2025",
+  "targetos": "Windows",
+  "description": "The RtlFillDeviceMemory routine fills a block of device memory with the specified fill value and returns a pointer to the filled memory.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "NtosKrnl.exe",
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.irql": "Any level (See Remarks section)",
+  "req.kmdf-ver": null,
+  "req.lib": "volatileaccessk.lib (Kernel mode), volatileaccessu.lib (User mode)",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlFillDeviceMemory"
+  ],
+  "f1_keywords": [
+    "RtlFillDeviceMemory",
+    "wdm/RtlFillDeviceMemory"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "RtlFillDeviceMemory"
+  ]
+}

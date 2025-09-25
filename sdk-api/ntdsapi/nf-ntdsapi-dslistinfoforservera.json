@@ -1,0 +1,60 @@
+{
+  "UID": "NF:ntdsapi.DsListInfoForServerA",
+  "title": "DsListInfoForServerA function (ntdsapi.h)",
+  "description": "The DsListInfoForServer function lists miscellaneous data for a server. (ANSI)",
+  "helpviewer_keywords": [
+    "DS_LIST_ACCOUNT_OBJECT_FOR_SERVER",
+    "DS_LIST_DNS_HOST_NAME_FOR_SERVER",
+    "DS_LIST_DSA_OBJECT_FOR_SERVER",
+    "DsListInfoForServerA",
+    "ntdsapi/DsListInfoForServerA"
+  ],
+  "old-location": "ad\\dslistinfoforserver.htm",
+  "tech.root": "ad",
+  "ms.assetid": "15dcc7ac-4edb-42fa-8466-033794762046",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DS_LIST_ACCOUNT_OBJECT_FOR_SERVER, DS_LIST_DNS_HOST_NAME_FOR_SERVER, DS_LIST_DSA_OBJECT_FOR_SERVER, DsListInfoForServer, DsListInfoForServer function [Active Directory], DsListInfoForServerA, DsListInfoForServerW, _glines_dslistinfoforserver, ad.dslistinfoforserver, ntdsapi/DsListInfoForServer, ntdsapi/DsListInfoForServerA, ntdsapi/DsListInfoForServerW",
+  "req.header": "ntdsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsListInfoForServerW (Unicode) and DsListInfoForServerA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntdsapi.lib",
+  "req.dll": "Ntdsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsListInfoForServerA",
+    "ntdsapi/DsListInfoForServerA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdsapi.dll"
+  ],
+  "api_name": [
+    "DsListInfoForServer",
+    "DsListInfoForServerA",
+    "DsListInfoForServerW"
+  ]
+}

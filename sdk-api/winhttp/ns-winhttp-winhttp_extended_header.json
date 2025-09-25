@@ -1,0 +1,53 @@
+{
+  "UID": "NS:winhttp._WINHTTP_EXTENDED_HEADER",
+  "title": "WINHTTP_EXTENDED_HEADER",
+  "description": "Represents an HTTP request header as a name/value string pair.",
+  "tech.root": "http",
+  "ms.date": "06/30/2021",
+  "req.construct-type": "structure",
+  "req.header": "winhttp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WINHTTP_EXTENDED_HEADER, *PWINHTTP_EXTENDED_HEADER",
+  "req.redist": null,
+  "f1_keywords": [
+    "_WINHTTP_EXTENDED_HEADER",
+    "winhttp/_WINHTTP_EXTENDED_HEADER",
+    "PWINHTTP_EXTENDED_HEADER",
+    "winhttp/PWINHTTP_EXTENDED_HEADER",
+    "WINHTTP_EXTENDED_HEADER",
+    "winhttp/WINHTTP_EXTENDED_HEADER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winhttp.h"
+  ],
+  "api_name": [
+    "_WINHTTP_EXTENDED_HEADER",
+    "PWINHTTP_EXTENDED_HEADER",
+    "WINHTTP_EXTENDED_HEADER"
+  ]
+}

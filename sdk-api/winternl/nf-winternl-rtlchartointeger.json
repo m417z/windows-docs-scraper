@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winternl.RtlCharToInteger",
+  "title": "RtlCharToInteger function (winternl.h)",
+  "description": "Converts a character string to an integer.",
+  "helpviewer_keywords": [
+    "RtlCharToInteger",
+    "RtlCharToInteger function [Windows API]",
+    "winprog.rtlchartointeger",
+    "winternl/RtlCharToInteger",
+    "winui.rtlchartointeger"
+  ],
+  "old-location": "winprog\\rtlchartointeger.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\lowlevelclientsupport\\misc\\rtlchartointeger.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.rtlchartointeger, winternl/RtlCharToInteger, winui.rtlchartointeger",
+  "req.header": "winternl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ntdll.lib",
+  "req.dll": "ntdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlCharToInteger",
+    "winternl/RtlCharToInteger"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntdll.dll"
+  ],
+  "api_name": [
+    "RtlCharToInteger"
+  ]
+}

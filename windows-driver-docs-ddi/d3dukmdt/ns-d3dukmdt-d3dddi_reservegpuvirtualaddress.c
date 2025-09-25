@@ -1,0 +1,23 @@
+typedef struct D3DDDI_RESERVEGPUVIRTUALADDRESS {
+  union {
+    D3DKMT_HANDLE hPagingQueue;
+    D3DKMT_HANDLE hAdapter;
+  };
+  D3DKMT_ALIGN64 D3DGPU_VIRTUAL_ADDRESS BaseAddress;
+  D3DKMT_ALIGN64 D3DGPU_VIRTUAL_ADDRESS MinimumAddress;
+  D3DKMT_ALIGN64 D3DGPU_VIRTUAL_ADDRESS MaximumAddress;
+  D3DKMT_ALIGN64 D3DGPU_SIZE_T          Size;
+  union {
+    D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE ReservationType;
+    UINT                                     Reserved0;
+  };
+  union {
+    D3DKMT_ALIGN64 UINT64 DriverProtection;
+    D3DKMT_ALIGN64 UINT64 Reserved1;
+  };
+  D3DKMT_ALIGN64 D3DGPU_VIRTUAL_ADDRESS VirtualAddress;
+  union {
+    D3DKMT_ALIGN64 UINT64 PagingFenceValue;
+    D3DKMT_ALIGN64 UINT64 Reserved2;
+  };
+} D3DDDI_RESERVEGPUVIRTUALADDRESS;

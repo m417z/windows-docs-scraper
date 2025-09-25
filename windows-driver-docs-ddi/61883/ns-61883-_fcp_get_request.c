@@ -1,0 +1,5 @@
+typedef struct _FCP_GET_REQUEST {
+  OUT NODE_ADDRESS  NodeAddress;
+  IN OUT ULONG      Length;
+  IN OUT PFCP_FRAME Frame;
+} FCP_GET_REQUEST, *PFCP_GET_REQUEST;

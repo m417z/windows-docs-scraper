@@ -1,0 +1,4 @@
+typedef struct _WINHTTP_REQUEST_TIMES {
+  ULONG     cTimes;
+  ULONGLONG rgullTimes[WinHttpRequestTimeMax];
+} WINHTTP_REQUEST_TIMES, *PWINHTTP_REQUEST_TIMES;

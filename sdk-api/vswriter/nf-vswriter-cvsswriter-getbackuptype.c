@@ -1,0 +1,1 @@
+VSS_BACKUP_TYPE GetBackupType();

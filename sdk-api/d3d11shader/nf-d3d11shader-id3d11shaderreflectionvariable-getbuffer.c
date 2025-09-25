@@ -1,0 +1,1 @@
+ID3D11ShaderReflectionConstantBuffer * GetBuffer();

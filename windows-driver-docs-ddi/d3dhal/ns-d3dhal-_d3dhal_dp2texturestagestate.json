@@ -1,0 +1,51 @@
+{
+  "UID": "NS:d3dhal._D3DHAL_DP2TEXTURESTAGESTATE",
+  "title": "_D3DHAL_DP2TEXTURESTAGESTATE (d3dhal.h)",
+  "description": "One or more D3DHAL_DP2TEXTURESTAGESTATE structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TEXTURESTAGESTATE, and are used to set the appropriate texture stage state.",
+  "old-location": "display\\d3dhal_dp2texturestagestate.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DHAL_DP2TEXTURESTAGESTATE structure"
+  ],
+  "ms.keywords": "*LPD3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices], LPD3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices], _D3DHAL_DP2TEXTURESTAGESTATE, d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE, d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, display.d3dhal_dp2texturestagestate",
+  "req.header": "d3dhal.h",
+  "req.include-header": "D3dhal.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "D3DHAL_DP2TEXTURESTAGESTATE",
+  "f1_keywords": [
+    "_D3DHAL_DP2TEXTURESTAGESTATE",
+    "d3dhal/_D3DHAL_DP2TEXTURESTAGESTATE",
+    "D3DHAL_DP2TEXTURESTAGESTATE",
+    "d3dhal/D3DHAL_DP2TEXTURESTAGESTATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dhal.h"
+  ],
+  "api_name": [
+    "_D3DHAL_DP2TEXTURESTAGESTATE",
+    "D3DHAL_DP2TEXTURESTAGESTATE"
+  ]
+}

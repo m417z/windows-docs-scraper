@@ -1,0 +1,3 @@
+HRESULT SetTargetTime(
+  SystemInterruptTime targetTime
+);

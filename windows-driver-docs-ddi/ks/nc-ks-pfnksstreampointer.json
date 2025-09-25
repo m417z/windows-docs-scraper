@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSSTREAMPOINTER",
+  "title": "PFNKSSTREAMPOINTER (ks.h)",
+  "description": "AVStream calls a minidriver's AVStrMiniCancelCallback routine when the IRP that is associated with a cloned stream pointer is canceled. This routine is optional.",
+  "old-location": "stream\\avstrminicancelcallback.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSSTREAMPOINTER callback function"
+  ],
+  "ms.keywords": "AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], PFNKSSTREAMPOINTER, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml, ks/AVStrMiniCancelCallback, stream.avstrminicancelcallback",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSSTREAMPOINTER",
+    "ks/PFNKSSTREAMPOINTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSSTREAMPOINTER"
+  ]
+}

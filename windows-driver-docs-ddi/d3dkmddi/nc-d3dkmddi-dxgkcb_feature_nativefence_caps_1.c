@@ -1,0 +1,6 @@
+DXGKCB_FEATURE_NATIVEFENCE_CAPS_1 DxgkcbFeatureNativefenceCaps1;
+
+NTSTATUS DxgkcbFeatureNativefenceCaps1(
+  INOUT_PDXGKARGCB_FEATURE_NATIVEFENCE_CAPS_1 pArgs
+)
+{...}

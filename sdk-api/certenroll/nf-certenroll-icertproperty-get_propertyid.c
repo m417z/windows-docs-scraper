@@ -1,0 +1,3 @@
+HRESULT get_PropertyId(
+  CERTENROLL_PROPERTYID *pValue
+);

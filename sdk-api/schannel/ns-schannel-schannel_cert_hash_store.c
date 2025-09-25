@@ -1,0 +1,7 @@
+typedef struct _SCHANNEL_CERT_HASH_STORE {
+  DWORD      dwLength;
+  DWORD      dwFlags;
+  HCRYPTPROV hProv;
+  BYTE       ShaHash[20];
+  WCHAR      pwszStoreName[SCH_CRED_MAX_STORE_NAME_SIZE];
+} SCHANNEL_CERT_HASH_STORE, *PSCHANNEL_CERT_HASH_STORE;

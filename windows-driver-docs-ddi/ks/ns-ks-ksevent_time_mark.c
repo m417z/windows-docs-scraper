@@ -1,0 +1,4 @@
+typedef struct {
+  KSEVENTDATA EventData;
+  LONGLONG    MarkTime;
+} KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK;

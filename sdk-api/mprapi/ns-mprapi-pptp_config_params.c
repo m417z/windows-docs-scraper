@@ -1,0 +1,4 @@
+typedef struct _PPTP_CONFIG_PARAMS {
+  DWORD dwNumPorts;
+  DWORD dwPortFlags;
+} PPTP_CONFIG_PARAMS, *PPPTP_CONFIG_PARAMS;

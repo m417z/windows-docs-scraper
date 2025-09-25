@@ -1,0 +1,3 @@
+HRESULT SetSource(
+  IUnknown *pStream
+);

@@ -1,0 +1,9 @@
+typedef struct tACMFILTERTAGDETAILS {
+  DWORD cbStruct;
+  DWORD dwFilterTagIndex;
+  DWORD dwFilterTag;
+  DWORD cbFilterSize;
+  DWORD fdwSupport;
+  DWORD cStandardFilters;
+  char  szFilterTag[ACMFILTERTAGDETAILS_FILTERTAG_CHARS];
+} ACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, *LPACMFILTERTAGDETAILS;

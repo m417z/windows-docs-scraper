@@ -1,0 +1,6 @@
+typedef struct _DDGETAUTOFLIPOUT {
+  DWORD  ddRVal;
+  HANDLE hVideoSurface;
+  HANDLE hVBISurface;
+  BOOL   bPolarity;
+} DDGETAUTOFLIPOUT, *LPDDGETAUTOFLIPOUT;

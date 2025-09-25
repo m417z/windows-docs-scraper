@@ -1,0 +1,3 @@
+POPLOCK_KEY_ECP_CONTEXT IoGetOplockKeyContext(
+  PFILE_OBJECT FileObject
+);

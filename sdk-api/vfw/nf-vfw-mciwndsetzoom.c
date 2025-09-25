@@ -1,0 +1,4 @@
+void MCIWndSetZoom(
+  hwnd,
+  iZoom
+);

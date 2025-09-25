@@ -1,0 +1,54 @@
+{
+  "UID": "NS:fltkernel._FLT_CREATEFILE_TARGET_ECP_CONTEXT",
+  "title": "_FLT_CREATEFILE_TARGET_ECP_CONTEXT (fltkernel.h)",
+  "description": "The FLT_CREATEFILE_TARGET_ECP_CONTEXT structure is an extra create parameter (ECP) used to return reparse target information back to the caller of FltCreateFileEx2.",
+  "old-location": "ifsk\\flt_createfile_target_ecp_context.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FLT_CREATEFILE_TARGET_ECP_CONTEXT structure"
+  ],
+  "ms.keywords": "*PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], _FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context",
+  "req.header": "fltkernel.h",
+  "req.include-header": "FltKernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "This structure is available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT",
+  "f1_keywords": [
+    "_FLT_CREATEFILE_TARGET_ECP_CONTEXT",
+    "fltkernel/_FLT_CREATEFILE_TARGET_ECP_CONTEXT",
+    "PFLT_CREATEFILE_TARGET_ECP_CONTEXT",
+    "fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT",
+    "FLT_CREATEFILE_TARGET_ECP_CONTEXT",
+    "fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "_FLT_CREATEFILE_TARGET_ECP_CONTEXT",
+    "PFLT_CREATEFILE_TARGET_ECP_CONTEXT",
+    "FLT_CREATEFILE_TARGET_ECP_CONTEXT"
+  ]
+}

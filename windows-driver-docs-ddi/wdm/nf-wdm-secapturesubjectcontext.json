@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.SeCaptureSubjectContext",
+  "title": "SeCaptureSubjectContext function (wdm.h)",
+  "description": "The SeCaptureSubjectContext routine in wdm.h captures the security context of the calling thread for access validation and auditing.",
+  "old-location": "ifsk\\secapturesubjectcontext.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SeCaptureSubjectContext function"
+  ],
+  "ms.keywords": "SeCaptureSubjectContext, SeCaptureSubjectContext routine [Installable File System Drivers], ifsk.secapturesubjectcontext, ntifs/SeCaptureSubjectContext, seref_192d13d7-4841-4c3e-831f-c12fe3cde04f.xml",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntifs.h, Wdm.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeCaptureSubjectContext",
+    "wdm/SeCaptureSubjectContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "SeCaptureSubjectContext"
+  ]
+}

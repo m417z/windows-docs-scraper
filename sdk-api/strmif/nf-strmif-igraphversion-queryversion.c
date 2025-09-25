@@ -1,0 +1,3 @@
+HRESULT QueryVersion(
+  LONG *pVersion
+);

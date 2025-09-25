@@ -1,0 +1,5 @@
+typedef struct D3D11_1DDIARG_CREATECRYPTOSESSION {
+  GUID CryptoType;
+  GUID DecodeProfile;
+  GUID KeyExchangeType;
+} D3D11_1DDIARG_CREATECRYPTOSESSION;

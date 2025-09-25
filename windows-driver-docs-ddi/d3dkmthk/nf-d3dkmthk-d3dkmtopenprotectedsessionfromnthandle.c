@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenProtectedSessionFromNtHandle(
+  D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE *unnamedParam1
+);

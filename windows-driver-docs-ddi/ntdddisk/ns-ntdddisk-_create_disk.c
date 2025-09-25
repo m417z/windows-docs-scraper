@@ -1,0 +1,7 @@
+typedef struct _CREATE_DISK {
+  PARTITION_STYLE PartitionStyle;
+  union {
+    CREATE_DISK_MBR Mbr;
+    CREATE_DISK_GPT Gpt;
+  } DUMMYUNIONNAME;
+} CREATE_DISK, *PCREATE_DISK;

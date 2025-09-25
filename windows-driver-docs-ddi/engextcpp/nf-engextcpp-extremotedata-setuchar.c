@@ -1,0 +1,3 @@
+void SetUchar(
+  UCHAR Data
+);

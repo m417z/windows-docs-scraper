@@ -1,0 +1,13 @@
+typedef struct _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE {
+  UCHAR PageCode;
+  UCHAR SubEnclosureId;
+  UCHAR PageLength[2];
+  UCHAR ExpectedGenerationCode[4];
+  UCHAR Mode;
+  UCHAR Reserved[2];
+  UCHAR BufferID;
+  UCHAR BufferOffset[4];
+  UCHAR ImageLength[4];
+  UCHAR DataLength[4];
+  UCHAR Data[ANYSIZE_ARRAY];
+} SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE;

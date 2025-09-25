@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PFREE_DMA_BUFFER_WITH_NOTIFICATION",
+  "title": "PFREE_DMA_BUFFER_WITH_NOTIFICATION (hdaudio.h)",
+  "description": "The FreeDmaBufferWithNotification routine frees a DMA buffer that was previously allocated by a call to AllocateDmaBufferWithNotification.The function pointer type for a FreeDmaBufferWithNotification routine is defined as follows.",
+  "old-location": "audio\\freedmabufferwithnotification.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PFREE_DMA_BUFFER_WITH_NOTIFICATION callback function"
+  ],
+  "ms.keywords": "FreeDmaBufferWithNotification, FreeDmaBufferWithNotification callback function [Audio Devices], PFREE_DMA_BUFFER_WITH_NOTIFICATION, PFREE_DMA_BUFFER_WITH_NOTIFICATION callback, aud-prop2_065b7aad-f695-4076-9450-3311083ac17b.xml, audio.freedmabufferwithnotification, hdaudio/FreeDmaBufferWithNotification",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFREE_DMA_BUFFER_WITH_NOTIFICATION",
+    "hdaudio/PFREE_DMA_BUFFER_WITH_NOTIFICATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Hdaudio.h"
+  ],
+  "api_name": [
+    "PFREE_DMA_BUFFER_WITH_NOTIFICATION"
+  ]
+}

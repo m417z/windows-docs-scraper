@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMemAllocatorCallbackTemp.SetNotify",
+  "title": "IMemAllocatorCallbackTemp::SetNotify (strmif.h)",
+  "description": "The SetNotify method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's IMemAllocator::ReleaseBuffer method is called.",
+  "helpviewer_keywords": [
+    "IMemAllocatorCallbackTemp interface [DirectShow]",
+    "SetNotify method",
+    "IMemAllocatorCallbackTemp.SetNotify",
+    "IMemAllocatorCallbackTemp::SetNotify",
+    "IMemAllocatorCallbackTempSetNotify",
+    "SetNotify",
+    "SetNotify method [DirectShow]",
+    "SetNotify method [DirectShow]",
+    "IMemAllocatorCallbackTemp interface",
+    "dshow.imemallocatorcallbacktemp_setnotify",
+    "strmif/IMemAllocatorCallbackTemp::SetNotify"
+  ],
+  "old-location": "dshow\\imemallocatorcallbacktemp_setnotify.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "70e885d6-8b8d-479f-a3c5-095446dfc58e",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMemAllocatorCallbackTemp interface [DirectShow],SetNotify method, IMemAllocatorCallbackTemp.SetNotify, IMemAllocatorCallbackTemp::SetNotify, IMemAllocatorCallbackTempSetNotify, SetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow],IMemAllocatorCallbackTemp interface, dshow.imemallocatorcallbacktemp_setnotify, strmif/IMemAllocatorCallbackTemp::SetNotify",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMemAllocatorCallbackTemp::SetNotify",
+    "strmif/IMemAllocatorCallbackTemp::SetNotify"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMemAllocatorCallbackTemp.SetNotify"
+  ]
+}

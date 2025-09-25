@@ -1,0 +1,42 @@
+{
+  "UID": "NF:ntddk.RtlNormalizeSecurityDescriptor",
+  "title": "RtlNormalizeSecurityDescriptor function",
+  "description": "Examines a security descriptor for ways to modify its layout.",
+  "tech.root": "kernel",
+  "ms.date": "03/24/2020",
+  "ms.keywords": "RtlNormalizeSecurityDescriptor",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "APC_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlNormalizeSecurityDescriptor"
+  ],
+  "f1_keywords": [
+    "RtlNormalizeSecurityDescriptor",
+    "ntddk/RtlNormalizeSecurityDescriptor"
+  ]
+}

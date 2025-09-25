@@ -1,0 +1,48 @@
+{
+  "UID": "NC:parallel.PPARALLEL_TRY_ALLOCATE_ROUTINE",
+  "title": "PPARALLEL_TRY_ALLOCATE_ROUTINE (parallel.h)",
+  "description": "The PPARALLEL_TRY_ALLOCATE_ROUTINE-typed (ISR) callback routine attempts to allocate a parallel port at IRQL = DIRQL. The system-supplied function driver for parallel ports supplies this routine.",
+  "old-location": "parports\\parallel_try_allocate_routine__isr_.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "PPARALLEL_TRY_ALLOCATE_ROUTINE callback"
+  ],
+  "ms.keywords": "PPARALLEL_TRY_ALLOCATE_ROUTINE, ParallelTryAllocateRoutine, ParallelTryAllocateRoutine callback function [Parallel Ports], cisspd_737cb583-bcc9-46e9-915b-e073da2c11bf.xml, parallel/ParallelTryAllocateRoutine, parports.parallel_try_allocate_routine__isr_",
+  "req.header": "parallel.h",
+  "req.include-header": "Parallel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DIRQL",
+  "targetos": "Windows",
+  "req.typenames": "RILGBATOKEN, *LPRILGBATOKEN",
+  "f1_keywords": [
+    "PPARALLEL_TRY_ALLOCATE_ROUTINE",
+    "parallel/PPARALLEL_TRY_ALLOCATE_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "PPARALLEL_TRY_ALLOCATE_ROUTINE"
+  ]
+}

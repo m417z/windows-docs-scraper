@@ -1,0 +1,23 @@
+# PSS_THREAD_INFORMATION structure
+
+## Description
+
+Holds thread information returned by [PssQuerySnapshot](https://learn.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssquerysnapshot).
+
+## Members
+
+### `ThreadsCaptured`
+
+The count of threads in the snapshot.
+
+### `ContextLength`
+
+The length of the **CONTEXT** record captured, in bytes.
+
+## Remarks
+
+[PssQuerySnapshot](https://learn.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssquerysnapshot) returns a **PSS_THREAD_INFORMATION** structure when the [PSS_QUERY_INFORMATION_CLASS](https://learn.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_query_information_class) member that the caller provides it is **PSS_QUERY_THREAD_INFORMATION**.
+
+## See also
+
+[Process Snapshotting](https://learn.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal)

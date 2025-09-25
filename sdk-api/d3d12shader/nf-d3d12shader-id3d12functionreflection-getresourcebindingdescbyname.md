@@ -1,0 +1,33 @@
+# ID3D12FunctionReflection::GetResourceBindingDescByName
+
+## Description
+
+Gets a description of how a resource is bound to a function.
+
+## Parameters
+
+### `Name` [in]
+
+Type: **[LPCSTR](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+
+The constant-buffer name of the resource.
+
+### `pDesc` [out]
+
+Type: **[D3D12_SHADER_INPUT_BIND_DESC](https://learn.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc)***
+
+A pointer to a [D3D12_SHADER_INPUT_BIND_DESC](https://learn.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc) structure that describes input binding of the resource.
+
+## Return value
+
+Type: **[HRESULT](https://learn.microsoft.com/windows/win32/com/structure-of-com-error-codes)**
+
+Returns one of the [Direct3D 12 Return Codes](https://learn.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues).
+
+## Remarks
+
+A shader consists of executable code (the compiled HLSL functions) and a set of resources that supply the shader with input data. **GetResourceBindingDescByName** gets info about how one resource in the set is bound as an input to the shader. The *Name* parameter specifies the name of the resource.
+
+## See also
+
+[ID3D12FunctionReflection](https://learn.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection)

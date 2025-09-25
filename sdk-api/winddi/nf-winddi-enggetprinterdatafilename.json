@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winddi.EngGetPrinterDataFileName",
+  "title": "EngGetPrinterDataFileName function (winddi.h)",
+  "description": "The EngGetPrinterDataFileName function retrieves the string name of the printer's data file.",
+  "helpviewer_keywords": [
+    "EngGetPrinterDataFileName",
+    "EngGetPrinterDataFileName function [Display Devices]",
+    "display.enggetprinterdatafilename",
+    "gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml",
+    "winddi/EngGetPrinterDataFileName"
+  ],
+  "old-location": "display\\enggetprinterdatafilename.htm",
+  "tech.root": "display",
+  "ms.assetid": "bfc698d9-a340-49a5-97fb-0dae92ab6f2d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngGetPrinterDataFileName, EngGetPrinterDataFileName function [Display Devices], display.enggetprinterdatafilename, gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml, winddi/EngGetPrinterDataFileName",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngGetPrinterDataFileName",
+    "winddi/EngGetPrinterDataFileName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll",
+    "GDI32.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "EngGetPrinterDataFileName"
+  ]
+}

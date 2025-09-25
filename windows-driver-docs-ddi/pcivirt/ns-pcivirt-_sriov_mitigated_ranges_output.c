@@ -1,0 +1,6 @@
+typedef struct _SRIOV_MITIGATED_RANGES_OUTPUT {
+  ULONG64  BasePageNumber;
+  ULONG    PageCount;
+  BOOLEAN  InterceptReads;
+  BOOLEAN  InterceptWrites;
+} SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT;

@@ -1,0 +1,5 @@
+typedef struct D2D1_SVG_PRESERVE_ASPECT_RATIO {
+  BOOL                    defer;
+  D2D1_SVG_ASPECT_ALIGN   align;
+  D2D1_SVG_ASPECT_SCALING meetOrSlice;
+} D2D1_SVG_PRESERVE_ASPECT_RATIO;

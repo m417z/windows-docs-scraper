@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_COMMAND_DWORD0",
+  "tech.root": "fs",
+  "title": "NVME_COMMAND_DWORD0",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains parameters that are common for all Admin commands and NVM commands.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_COMMAND_DWORD0, *PNVME_COMMAND_DWORD0",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_COMMAND_DWORD0",
+    "NVME_COMMAND_DWORD0"
+  ],
+  "f1_keywords": [
+    "PNVME_COMMAND_DWORD0",
+    "nvme/PNVME_COMMAND_DWORD0",
+    "NVME_COMMAND_DWORD0",
+    "nvme/NVME_COMMAND_DWORD0"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

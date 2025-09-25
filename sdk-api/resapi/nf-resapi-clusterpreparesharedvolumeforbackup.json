@@ -1,0 +1,60 @@
+{
+  "UID": "NF:resapi.ClusterPrepareSharedVolumeForBackup",
+  "title": "ClusterPrepareSharedVolumeForBackup function (resapi.h)",
+  "description": "ClusterPrepareSharedVolumeForBackup may be altered or unavailable.",
+  "helpviewer_keywords": [
+    "ClusterPrepareSharedVolumeForBackup",
+    "ClusterPrepareSharedVolumeForBackup function [Failover Cluster]",
+    "PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP",
+    "PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP function [Failover Cluster]",
+    "mscs.clusterpreparesharedvolumeforbackup",
+    "resapi/ClusterPrepareSharedVolumeForBackup",
+    "resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP"
+  ],
+  "old-location": "mscs\\clusterpreparesharedvolumeforbackup.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "d30f1a5b-f231-4874-8e79-6d25cfd094a5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterPrepareSharedVolumeForBackup, ClusterPrepareSharedVolumeForBackup function [Failover Cluster], PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/ClusterPrepareSharedVolumeForBackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.Lib",
+  "req.dll": "ResUtils.Dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterPrepareSharedVolumeForBackup",
+    "resapi/ClusterPrepareSharedVolumeForBackup"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ResUtils.Dll"
+  ],
+  "api_name": [
+    "ClusterPrepareSharedVolumeForBackup"
+  ]
+}

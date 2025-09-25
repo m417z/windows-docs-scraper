@@ -1,0 +1,69 @@
+{
+  "UID": "NF:shobjidl_core.ICommDlgBrowser.OnStateChange",
+  "title": "ICommDlgBrowser::OnStateChange (shobjidl_core.h)",
+  "description": "Called after a state, identified by the uChange parameter, has changed in the IShellView interface.",
+  "helpviewer_keywords": [
+    "CDBOSC_KILLFOCUS",
+    "CDBOSC_RENAME",
+    "CDBOSC_SELCHANGE",
+    "CDBOSC_SETFOCUS",
+    "CDBOSC_STATECHANGE",
+    "ICommDlgBrowser interface [Windows Shell]",
+    "OnStateChange method",
+    "ICommDlgBrowser.OnStateChange",
+    "ICommDlgBrowser::OnStateChange",
+    "OnStateChange",
+    "OnStateChange method [Windows Shell]",
+    "OnStateChange method [Windows Shell]",
+    "ICommDlgBrowser interface",
+    "_win32_ICommDlgBrowser_OnStateChange",
+    "shell.ICommDlgBrowser_OnStateChange",
+    "shobjidl_core/ICommDlgBrowser::OnStateChange"
+  ],
+  "old-location": "shell\\ICommDlgBrowser_OnStateChange.htm",
+  "tech.root": "shell",
+  "ms.assetid": "ec9f0e5d-ca64-4ab4-b2cc-6d0748ede8b2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CDBOSC_KILLFOCUS, CDBOSC_RENAME, CDBOSC_SELCHANGE, CDBOSC_SETFOCUS, CDBOSC_STATECHANGE, ICommDlgBrowser interface [Windows Shell],OnStateChange method, ICommDlgBrowser.OnStateChange, ICommDlgBrowser::OnStateChange, OnStateChange, OnStateChange method [Windows Shell], OnStateChange method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnStateChange, shell.ICommDlgBrowser_OnStateChange, shobjidl_core/ICommDlgBrowser::OnStateChange",
+  "req.header": "shobjidl_core.h",
+  "req.include-header": "Shlobj.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll (version 4.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICommDlgBrowser::OnStateChange",
+    "shobjidl_core/ICommDlgBrowser::OnStateChange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Shell32.dll"
+  ],
+  "api_name": [
+    "ICommDlgBrowser.OnStateChange"
+  ]
+}

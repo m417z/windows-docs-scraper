@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vswriter.CVssWriter.GetRestoreType",
+  "title": "CVssWriter::GetRestoreType (vswriter.h)",
+  "description": "The GetRestoreType method returns the type of restore a writer is participating in.",
+  "helpviewer_keywords": [
+    "CVssWriter interface [VSS]",
+    "GetRestoreType method",
+    "CVssWriter.GetRestoreType",
+    "CVssWriter::GetRestoreType",
+    "GetRestoreType",
+    "GetRestoreType method [VSS]",
+    "GetRestoreType method [VSS]",
+    "CVssWriter interface",
+    "_win32_cvsswriter_getrestoretype",
+    "base.cvsswriter_getrestoretype",
+    "vswriter/CVssWriter::GetRestoreType"
+  ],
+  "old-location": "base\\cvsswriter_getrestoretype.htm",
+  "tech.root": "base",
+  "ms.assetid": "438298ee-ab8b-4604-9d43-5acefd7cabd5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CVssWriter interface [VSS],GetRestoreType method, CVssWriter.GetRestoreType, CVssWriter::GetRestoreType, GetRestoreType, GetRestoreType method [VSS], GetRestoreType method [VSS],CVssWriter interface, _win32_cvsswriter_getrestoretype, base.cvsswriter_getrestoretype, vswriter/CVssWriter::GetRestoreType",
+  "req.header": "vswriter.h",
+  "req.include-header": "Vss.h, VsWriter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VssApi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CVssWriter::GetRestoreType",
+    "vswriter/CVssWriter::GetRestoreType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VssApi.lib",
+    "VssApi.dll"
+  ],
+  "api_name": [
+    "CVssWriter.GetRestoreType"
+  ]
+}

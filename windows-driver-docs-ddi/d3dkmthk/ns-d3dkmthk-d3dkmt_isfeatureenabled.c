@@ -1,0 +1,5 @@
+typedef struct _D3DKMT_ISFEATUREENABLED {
+  D3DKMT_HANDLE                hAdapter;
+  DXGK_FEATURE_ID              FeatureId;
+  DXGK_ISFEATUREENABLED_RESULT Result;
+} D3DKMT_ISFEATUREENABLED;

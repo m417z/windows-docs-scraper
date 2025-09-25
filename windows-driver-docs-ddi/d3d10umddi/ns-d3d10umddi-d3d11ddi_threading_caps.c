@@ -1,0 +1,3 @@
+typedef struct D3D11DDI_THREADING_CAPS {
+  [in] UINT Caps;
+} D3D11DDI_THREADING_CAPS;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_PNP_IRP",
+  "title": "MINIPORT_PNP_IRP (ndis.h)",
+  "description": "The MiniportPnpIrp function enables a miniport driver to optionally manage its Plug and Play (PnP) resources.",
+  "old-location": "netvista\\miniportstartdevice.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_PNP_IRP callback function"
+  ],
+  "ms.keywords": "(*MINIPORT_PNP_IRP_HANDLER), (*MINIPORT_PNP_IRP_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_PNP_IRP, MINIPORT_PNP_IRP callback, MiniportPnpIrp, MiniportPnpIrp callback function [Network Drivers Starting with Windows Vista], ndis/MiniportPnpIrp, ndis_msix_ref_421866fc-9921-4101-87b5-3d48e064f855.xml, netvista.miniportstartdevice",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_PNP_IRP",
+    "ndis/MINIPORT_PNP_IRP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_PNP_IRP"
+  ]
+}

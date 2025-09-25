@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetResourcePresentPrivateDriverData(
+  D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA *unnamedParam1
+);

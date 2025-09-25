@@ -1,0 +1,5 @@
+typedef struct _SPB_CONNECTION_PARAMETERS {
+  USHORT Size;
+  PCWSTR ConnectionTag;
+  PVOID  ConnectionParameters;
+} SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS;

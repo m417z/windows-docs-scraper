@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cryptdlg.CertModifyCertificatesToTrust",
+  "title": "CertModifyCertificatesToTrust function (cryptdlg.h)",
+  "description": "Modifies the set of certificates in a certificate trust list (CTL) for a given purpose.",
+  "helpviewer_keywords": [
+    "CertModifyCertificatesToTrust",
+    "CertModifyCertificatesToTrust function [Security]",
+    "cryptdlg/CertModifyCertificatesToTrust",
+    "security.certmodifycertificatestotrust"
+  ],
+  "old-location": "security\\certmodifycertificatestotrust.htm",
+  "tech.root": "security",
+  "ms.assetid": "a23d968e-113f-470e-a629-18c22882c77f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust",
+  "req.header": "cryptdlg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "CryptDlg.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertModifyCertificatesToTrust",
+    "cryptdlg/CertModifyCertificatesToTrust"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CryptDlg.dll"
+  ],
+  "api_name": [
+    "CertModifyCertificatesToTrust"
+  ]
+}

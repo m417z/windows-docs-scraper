@@ -1,0 +1,3 @@
+void IsReparseTagReserved(
+  _tag
+);

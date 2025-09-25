@@ -1,0 +1,60 @@
+{
+  "UID": "NF:windowsx.ListBox_SelectString",
+  "title": "ListBox_SelectString macro (windowsx.h)",
+  "description": "Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the LB_SELECTSTRING message explicitly.",
+  "helpviewer_keywords": [
+    "ListBox_SelectString",
+    "ListBox_SelectString macro [Windows Controls]",
+    "_win32_ListBox_SelectString",
+    "_win32_ListBox_SelectString_cpp",
+    "controls.ListBox_SelectString",
+    "controls._win32_ListBox_SelectString",
+    "windowsx/ListBox_SelectString"
+  ],
+  "old-location": "controls\\ListBox_SelectString.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listboxes\\listboxreference\\listboxmacros\\listbox_selectstring.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "ListBox_SelectString, ListBox_SelectString macro [Windows Controls], _win32_ListBox_SelectString, _win32_ListBox_SelectString_cpp, controls.ListBox_SelectString, controls._win32_ListBox_SelectString, windowsx/ListBox_SelectString",
+  "req.header": "windowsx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListBox_SelectString",
+    "windowsx/ListBox_SelectString"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windowsx.h"
+  ],
+  "api_name": [
+    "ListBox_SelectString"
+  ]
+}

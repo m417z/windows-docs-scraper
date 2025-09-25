@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTQueryProtectedSessionStatus(
+  D3DKMT_QUERYPROTECTEDSESSIONSTATUS *unnamedParam1
+);

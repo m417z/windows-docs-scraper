@@ -1,0 +1,4 @@
+typedef struct _DXGK_GPUENGINETOPOLOGY {
+  [out] UINT NbAsymetricProcessingNodes;
+        UINT Reserved[DXGK_MAX_ASYMETRICAL_PROCESSING_NODES];
+} DXGK_GPUENGINETOPOLOGY;

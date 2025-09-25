@@ -1,0 +1,10 @@
+typedef struct _DXGK_CHILD_CAPABILITIES {
+  union {
+    DXGK_VIDEO_OUTPUT_CAPABILITIES VideoOutput;
+    struct {
+      UINT MustBeZero;
+    } Other;
+    DXGK_INTEGRATED_DISPLAY_CHILD  IntegratedDisplayChild;
+  } Type;
+  DXGK_CHILD_DEVICE_HPD_AWARENESS HpdAwareness;
+} DXGK_CHILD_CAPABILITIES, *PDXGK_CHILD_CAPABILITIES;

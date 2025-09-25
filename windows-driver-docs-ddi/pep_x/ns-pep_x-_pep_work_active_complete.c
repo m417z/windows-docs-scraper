@@ -1,0 +1,4 @@
+typedef struct _PEP_WORK_ACTIVE_COMPLETE {
+       POHANDLE DeviceHandle;
+  [in] ULONG    Component;
+} PEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE;

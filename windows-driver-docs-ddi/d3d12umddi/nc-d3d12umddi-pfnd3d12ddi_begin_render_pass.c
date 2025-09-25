@@ -1,0 +1,10 @@
+PFND3D12DDI_BEGIN_RENDER_PASS Pfnd3d12ddiBeginRenderPass;
+
+VOID Pfnd3d12ddiBeginRenderPass(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  UINT NumRenderTargets,
+  const D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC *pRenderTargets,
+  const D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC *pDepthStencil,
+  D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS UnorderedAccessViewAccessFlags
+)
+{...}

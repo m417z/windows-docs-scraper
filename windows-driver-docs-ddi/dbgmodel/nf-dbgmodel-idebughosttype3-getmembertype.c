@@ -1,0 +1,3 @@
+HRESULT GetMemberType(
+  IDebugHostType **memberType
+);

@@ -1,0 +1,3 @@
+void FNFCIFILEPLACED(
+  fn
+);

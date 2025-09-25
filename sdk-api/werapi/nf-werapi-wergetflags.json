@@ -1,0 +1,68 @@
+{
+  "UID": "NF:werapi.WerGetFlags",
+  "title": "WerGetFlags function (werapi.h)",
+  "description": "Retrieves the fault reporting settings for the specified process.",
+  "helpviewer_keywords": [
+    "WER_FAULT_REPORTING_ALWAYS_SHOW_UI",
+    "WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION",
+    "WER_FAULT_REPORTING_FLAG_NOHEAP",
+    "WER_FAULT_REPORTING_FLAG_QUEUE",
+    "WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD",
+    "WerGetFlags",
+    "WerGetFlags function [Windows Error Reporting]",
+    "base.wergetflags",
+    "wer.wergetflags",
+    "werapi/WerGetFlags"
+  ],
+  "old-location": "wer\\wergetflags.htm",
+  "tech.root": "wer",
+  "ms.assetid": "8c5f08c0-e2d1-448c-9a57-ef19897f64c6",
+  "ms.date": "07/21/2023",
+  "ms.keywords": "WER_FAULT_REPORTING_ALWAYS_SHOW_UI, WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION, WER_FAULT_REPORTING_FLAG_NOHEAP, WER_FAULT_REPORTING_FLAG_QUEUE, WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD, WerGetFlags, WerGetFlags function [Windows Error Reporting], base.wergetflags, wer.wergetflags, werapi/WerGetFlags",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerGetFlags",
+    "werapi/WerGetFlags"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerGetFlags"
+  ]
+}

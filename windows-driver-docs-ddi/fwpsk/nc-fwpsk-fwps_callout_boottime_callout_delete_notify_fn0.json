@@ -1,0 +1,50 @@
+{
+  "UID": "NC:fwpsk.FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0",
+  "tech.root": "netvista",
+  "title": "FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0",
+  "ms.date": "06/27/2024",
+  "targetos": "Windows",
+  "description": "The filter engine calls a callout's **FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0** function when the boottime callout has been removed.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fwpsk.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpsk.h"
+  ],
+  "api_name": [
+    "FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0"
+  ],
+  "f1_keywords": [
+    "FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0",
+    "fwpsk/FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0"
+  ]
+}

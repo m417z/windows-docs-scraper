@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntddstor._BPIO_INPUT",
+  "tech.root": "storage",
+  "title": "BPIO_INPUT",
+  "ms.date": "07/08/2021",
+  "targetos": "Windows",
+  "description": "The BPIO_INPUT structure specifies the requested BypassIO operation and flags for the IOCTL_STORAGE_MANAGE_BYPASS_IO control code.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "BPIO_INPUT, *PBPIO_INPUT",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_BPIO_INPUT",
+    "PBPIO_INPUT",
+    "BPIO_INPUT"
+  ],
+  "f1_keywords": [
+    "_BPIO_INPUT",
+    "ntddstor/_BPIO_INPUT",
+    "PBPIO_INPUT",
+    "ntddstor/PBPIO_INPUT",
+    "BPIO_INPUT",
+    "ntddstor/BPIO_INPUT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

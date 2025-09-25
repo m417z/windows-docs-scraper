@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winuser.GetPointerDeviceCursors",
+  "title": "GetPointerDeviceCursors function (winuser.h)",
+  "description": "Gets the cursor IDs that are mapped to the cursors associated with a pointer device.",
+  "helpviewer_keywords": [
+    "GetPointerDeviceCursors",
+    "GetPointerDeviceCursors function",
+    "input_pointerdevice.getpointerdevicecursors",
+    "unifiedinputstack.getpointerdevicecursors",
+    "winuser/GetPointerDeviceCursors"
+  ],
+  "old-location": "input_pointerdevice\\getpointerdevicecursors.htm",
+  "tech.root": "controls",
+  "ms.assetid": "4dd25033-e63a-4fa9-89b9-bfcae4061a76",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetPointerDeviceCursors, GetPointerDeviceCursors function, input_pointerdevice.getpointerdevicecursors, unifiedinputstack.getpointerdevicecursors, winuser/GetPointerDeviceCursors",
+  "req.header": "winuser.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetPointerDeviceCursors",
+    "winuser/GetPointerDeviceCursors"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "GetPointerDeviceCursors"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1024 {
+  DWORD usri1024_country_code;
+} USER_INFO_1024, *PUSER_INFO_1024, *LPUSER_INFO_1024;

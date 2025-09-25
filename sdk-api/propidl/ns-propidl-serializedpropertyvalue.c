@@ -1,0 +1,4 @@
+typedef struct tagSERIALIZEDPROPERTYVALUE {
+  DWORD dwType;
+  BYTE  rgb[1];
+} SERIALIZEDPROPERTYVALUE;

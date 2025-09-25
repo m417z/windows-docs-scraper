@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.AVIStreamFindSample",
+  "title": "AVIStreamFindSample function (vfw.h)",
+  "description": "The AVIStreamFindSample function returns the position of a sample (key frame, nonempty frame, or a frame containing a format change) relative to the specified position.",
+  "helpviewer_keywords": [
+    "AVIStreamFindSample",
+    "AVIStreamFindSample function [Windows Multimedia]",
+    "_win32_AVIStreamFindSample",
+    "multimedia.avistreamfindsample",
+    "vfw/AVIStreamFindSample"
+  ],
+  "old-location": "multimedia\\avistreamfindsample.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "2bd89f50-0d3a-4c34-b7b8-dc29f2d54d55",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AVIStreamFindSample, AVIStreamFindSample function [Windows Multimedia], _win32_AVIStreamFindSample, multimedia.avistreamfindsample, vfw/AVIStreamFindSample",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVIStreamFindSample",
+    "vfw/AVIStreamFindSample"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll"
+  ],
+  "api_name": [
+    "AVIStreamFindSample"
+  ]
+}

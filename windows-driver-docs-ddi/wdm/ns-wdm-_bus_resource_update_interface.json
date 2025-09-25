@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._BUS_RESOURCE_UPDATE_INTERFACE",
+  "title": "_BUS_RESOURCE_UPDATE_INTERFACE (wdm.h)",
+  "description": "Enables device drivers to make direct calls to parent bus driver routines. This structure defines the GUID_BUS_RESOURCE_UPDATE_INTERFACE interface.",
+  "ms.date": "09/30/2018",
+  "tech.root": "kernel",
+  "keywords": [
+    "BUS_RESOURCE_UPDATE_INTERFACE structure"
+  ],
+  "ms.keywords": "_BUS_RESOURCE_UPDATE_INTERFACE, BUS_RESOURCE_UPDATE_INTERFACE, *PBUS_RESOURCE_UPDATE_INTERFACE,",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "BUS_RESOURCE_UPDATE_INTERFACE, *PBUS_RESOURCE_UPDATE_INTERFACE",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_BUS_RESOURCE_UPDATE_INTERFACE",
+    "wdm/_BUS_RESOURCE_UPDATE_INTERFACE",
+    "PBUS_RESOURCE_UPDATE_INTERFACE",
+    "wdm/PBUS_RESOURCE_UPDATE_INTERFACE",
+    "BUS_RESOURCE_UPDATE_INTERFACE",
+    "wdm/BUS_RESOURCE_UPDATE_INTERFACE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_BUS_RESOURCE_UPDATE_INTERFACE",
+    "PBUS_RESOURCE_UPDATE_INTERFACE",
+    "BUS_RESOURCE_UPDATE_INTERFACE"
+  ]
+}

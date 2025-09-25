@@ -1,0 +1,49 @@
+{
+  "UID": "NF:miniport.WRITE_PORT_BUFFER_UCHAR",
+  "title": "WRITE_PORT_BUFFER_UCHAR function (miniport.h)",
+  "description": "The WRITE_PORT_BUFFER_UCHAR function (miniport.h) writes a number of bytes from a buffer to the specified port.",
+  "old-location": "kernel\\write_port_buffer_uchar.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WRITE_PORT_BUFFER_UCHAR function"
+  ],
+  "ms.keywords": "WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml, kernel.write_port_buffer_uchar, wdm/WRITE_PORT_BUFFER_UCHAR",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hal.lib",
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WRITE_PORT_BUFFER_UCHAR",
+    "miniport/WRITE_PORT_BUFFER_UCHAR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Hal.lib",
+    "Hal.dll"
+  ],
+  "api_name": [
+    "WRITE_PORT_BUFFER_UCHAR"
+  ]
+}

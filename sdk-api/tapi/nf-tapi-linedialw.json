@@ -1,0 +1,62 @@
+{
+  "UID": "NF:tapi.lineDialW",
+  "title": "lineDialW function (tapi.h)",
+  "description": "The lineDialW (Unicode) function (tapi.h) dials the specified dialable number on the specified call.",
+  "helpviewer_keywords": [
+    "_tapi2_linedial",
+    "lineDial",
+    "lineDial function [TAPI 2.2]",
+    "lineDialW",
+    "tapi/lineDial",
+    "tapi/lineDialW",
+    "tapi2.linedial"
+  ],
+  "old-location": "tapi2\\linedial.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "111e6c11-67a7-4aab-81dd-f1b4316887e7",
+  "ms.date": "08/08/2022",
+  "ms.keywords": "_tapi2_linedial, lineDial, lineDial function [TAPI 2.2], lineDialA, lineDialW, tapi/lineDial, tapi/lineDialA, tapi/lineDialW, tapi2.linedial",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "lineDialW (Unicode) and lineDialA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineDialW",
+    "tapi/lineDialW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineDial",
+    "lineDialA",
+    "lineDialW"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "UID": "NC:winwlx.PWLX_MESSAGE_BOX",
+  "title": "PWLX_MESSAGE_BOX (winwlx.h)",
+  "description": "Called by GINA to create, display, and operate a message box.",
+  "helpviewer_keywords": [
+    "MB_ABORTRETRYIGNORE",
+    "MB_APPLMODAL",
+    "MB_DEFAULT_DESKTOP_ONLY",
+    "MB_DEFBUTTON1",
+    "MB_DEFBUTTON2",
+    "MB_DEFBUTTON3",
+    "MB_DEFBUTTON4",
+    "MB_ICONASTERISK",
+    "MB_ICONEXCLAMATION",
+    "MB_ICONHAND",
+    "MB_ICONINFORMATION",
+    "MB_ICONQUESTION",
+    "MB_ICONSTOP",
+    "MB_OK",
+    "MB_OKCANCEL",
+    "MB_RETRYCANCEL",
+    "MB_SERVICE_NOTIFICATION",
+    "MB_SETFOREGROUND",
+    "MB_SYSTEMMODAL",
+    "MB_TASKMODAL",
+    "MB_YESNO",
+    "MB_YESNOCANCEL",
+    "PWLX_MESSAGE_BOX",
+    "PWLX_MESSAGE_BOX callback",
+    "WlxMessageBox",
+    "WlxMessageBox callback function [Security]",
+    "_gina_wlxmessagebox",
+    "security.wlxmessagebox",
+    "winwlx/WlxMessageBox"
+  ],
+  "old-location": "security\\wlxmessagebox.htm",
+  "tech.root": "security",
+  "ms.assetid": "5ae99416-c502-46f6-ba58-7385ce410e48",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_ICONASTERISK, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_YESNO, MB_YESNOCANCEL, PWLX_MESSAGE_BOX, PWLX_MESSAGE_BOX callback, WlxMessageBox, WlxMessageBox callback function [Security], _gina_wlxmessagebox, security.wlxmessagebox, winwlx/WlxMessageBox",
+  "req.header": "winwlx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PWLX_MESSAGE_BOX",
+    "winwlx/PWLX_MESSAGE_BOX"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "winwlx.h"
+  ],
+  "api_name": [
+    "WlxMessageBox"
+  ]
+}

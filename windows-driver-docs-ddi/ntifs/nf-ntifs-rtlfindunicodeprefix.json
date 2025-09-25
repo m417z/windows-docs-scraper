@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.RtlFindUnicodePrefix",
+  "title": "RtlFindUnicodePrefix function (ntifs.h)",
+  "description": "The RtlFindUnicodePrefix routine searches for the best match for a given Unicode file name in a prefix table.",
+  "old-location": "ifsk\\rtlfindunicodeprefix.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlFindUnicodePrefix function"
+  ],
+  "ms.keywords": "RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers], ifsk.rtlfindunicodeprefix, ntifs/RtlFindUnicodePrefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlFindUnicodePrefix",
+    "ntifs/RtlFindUnicodePrefix"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlFindUnicodePrefix"
+  ]
+}

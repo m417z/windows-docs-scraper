@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetStablePowerState(
+  const D3DKMT_SETSTABLEPOWERSTATE *unnamedParam1
+);

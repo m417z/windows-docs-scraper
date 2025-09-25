@@ -1,0 +1,69 @@
+{
+  "UID": "NF:certenc.ICertEncodeCRLDistInfo.GetNameChoice",
+  "title": "ICertEncodeCRLDistInfo::GetNameChoice (certenc.h)",
+  "description": "Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.",
+  "helpviewer_keywords": [
+    "CCertEncodeCRLDistInfo object [Security]",
+    "GetNameChoice method",
+    "GetNameChoice",
+    "GetNameChoice method [Security]",
+    "GetNameChoice method [Security]",
+    "CCertEncodeCRLDistInfo object",
+    "GetNameChoice method [Security]",
+    "ICertEncodeCRLDistInfo interface",
+    "ICertEncodeCRLDistInfo interface [Security]",
+    "GetNameChoice method",
+    "ICertEncodeCRLDistInfo.GetNameChoice",
+    "ICertEncodeCRLDistInfo::GetNameChoice",
+    "_certsrv_icertencodecrldistinfo_getnamechoice",
+    "certenc/ICertEncodeCRLDistInfo::GetNameChoice",
+    "security.icertencodecrldistinfo_getnamechoice"
+  ],
+  "old-location": "security\\icertencodecrldistinfo_getnamechoice.htm",
+  "tech.root": "security",
+  "ms.assetid": "cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CCertEncodeCRLDistInfo object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeCRLDistInfo object, GetNameChoice method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameChoice method, ICertEncodeCRLDistInfo.GetNameChoice, ICertEncodeCRLDistInfo::GetNameChoice, _certsrv_icertencodecrldistinfo_getnamechoice, certenc/ICertEncodeCRLDistInfo::GetNameChoice, security.icertencodecrldistinfo_getnamechoice",
+  "req.header": "certenc.h",
+  "req.include-header": "Certsrv.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Certidl.lib",
+  "req.dll": "Certenc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICertEncodeCRLDistInfo::GetNameChoice",
+    "certenc/ICertEncodeCRLDistInfo::GetNameChoice"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certenc.dll"
+  ],
+  "api_name": [
+    "ICertEncodeCRLDistInfo.GetNameChoice",
+    "CCertEncodeCRLDistInfo.GetNameChoice"
+  ]
+}

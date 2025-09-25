@@ -1,0 +1,8 @@
+typedef struct _PEP_ACPI_INTERRUPT_RESOURCE {
+  PEP_ACPI_RESOURCE_TYPE  Type;
+  KINTERRUPT_MODE         InterruptType;
+  KINTERRUPT_POLARITY     InterruptPolarity;
+  PEP_ACPI_RESOURCE_FLAGS Flags;
+  UCHAR                   Count;
+  PULONG                  Pins;
+} PEP_ACPI_INTERRUPT_RESOURCE, *PPEP_ACPI_INTERRUPT_RESOURCE;

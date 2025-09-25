@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfchildlist.WdfChildListAddOrUpdateChildDescriptionAsPresent",
+  "title": "WdfChildListAddOrUpdateChildDescriptionAsPresent function (wdfchildlist.h)",
+  "description": "The WdfChildListAddOrUpdateChildDescriptionAsPresent method adds a new child description to a list of children or updates an existing child description.",
+  "old-location": "wdf\\wdfchildlistaddorupdatechilddescriptionaspresent.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfChildListAddOrUpdateChildDescriptionAsPresent function"
+  ],
+  "ms.keywords": "DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, WdfChildListAddOrUpdateChildDescriptionAsPresent, WdfChildListAddOrUpdateChildDescriptionAsPresent method, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent",
+  "req.header": "wdfchildlist.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfChildListAddOrUpdateChildDescriptionAsPresent",
+    "wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfChildListAddOrUpdateChildDescriptionAsPresent"
+  ]
+}

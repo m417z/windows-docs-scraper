@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMemInputPin.GetAllocator",
+  "title": "IMemInputPin::GetAllocator (strmif.h)",
+  "description": "The GetAllocator method retrieves the memory allocator proposed by this pin. After the allocator has been selected, this method returns a pointer to the selected allocator.",
+  "helpviewer_keywords": [
+    "GetAllocator",
+    "GetAllocator method [DirectShow]",
+    "GetAllocator method [DirectShow]",
+    "IMemInputPin interface",
+    "IMemInputPin interface [DirectShow]",
+    "GetAllocator method",
+    "IMemInputPin.GetAllocator",
+    "IMemInputPin::GetAllocator",
+    "IMemInputPinGetAllocator",
+    "dshow.imeminputpin_getallocator",
+    "strmif/IMemInputPin::GetAllocator"
+  ],
+  "old-location": "dshow\\imeminputpin_getallocator.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "ab49028e-ae27-4d4e-a5f1-a086ade25c5e",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetAllocator, GetAllocator method [DirectShow], GetAllocator method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocator method, IMemInputPin.GetAllocator, IMemInputPin::GetAllocator, IMemInputPinGetAllocator, dshow.imeminputpin_getallocator, strmif/IMemInputPin::GetAllocator",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMemInputPin::GetAllocator",
+    "strmif/IMemInputPin::GetAllocator"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMemInputPin.GetAllocator"
+  ]
+}

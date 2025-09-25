@@ -1,0 +1,3 @@
+struct IDARG_IN_ADAPTER_INIT_FINISHED {
+  NTSTATUS AdapterInitStatus;
+};

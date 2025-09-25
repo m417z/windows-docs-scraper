@@ -1,0 +1,3 @@
+BOOL WindowsIsStringEmpty(
+  HSTRING string
+);

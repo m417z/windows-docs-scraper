@@ -1,0 +1,6 @@
+typedef struct _WEBAUTHN_HMAC_SECRET_SALT {
+  DWORD cbFirst;
+  PBYTE pbFirst;
+  DWORD cbSecond;
+  PBYTE pbSecond;
+} WEBAUTHN_HMAC_SECRET_SALT, *PWEBAUTHN_HMAC_SECRET_SALT;

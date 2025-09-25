@@ -1,0 +1,5 @@
+typedef struct D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW {
+  [in] UINT MipSlice;
+  [in] UINT FirstArraySlice;
+  [in] UINT ArraySize;
+} D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW;

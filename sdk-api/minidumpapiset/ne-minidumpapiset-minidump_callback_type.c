@@ -1,0 +1,23 @@
+typedef enum _MINIDUMP_CALLBACK_TYPE {
+  ModuleCallback,
+  ThreadCallback,
+  ThreadExCallback,
+  IncludeThreadCallback,
+  IncludeModuleCallback,
+  MemoryCallback,
+  CancelCallback,
+  WriteKernelMinidumpCallback,
+  KernelMinidumpStatusCallback,
+  RemoveMemoryCallback,
+  IncludeVmRegionCallback,
+  IoStartCallback,
+  IoWriteAllCallback,
+  IoFinishCallback,
+  ReadMemoryFailureCallback,
+  SecondaryFlagsCallback,
+  IsProcessSnapshotCallback,
+  VmStartCallback,
+  VmQueryCallback,
+  VmPreReadCallback,
+  VmPostReadCallback
+} MINIDUMP_CALLBACK_TYPE;

@@ -1,0 +1,3 @@
+Status GetGraphicsPath(
+  GraphicsPath *path
+);

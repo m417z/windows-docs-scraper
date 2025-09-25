@@ -1,0 +1,25 @@
+typedef struct _NTMS_LIBRARYINFORMATION {
+  DWORD     LibraryType;
+  NTMS_GUID CleanerSlot;
+  NTMS_GUID CleanerSlotDefault;
+  BOOL      LibrarySupportsDriveCleaning;
+  BOOL      BarCodeReaderInstalled;
+  DWORD     InventoryMethod;
+  DWORD     dwCleanerUsesRemaining;
+  DWORD     FirstDriveNumber;
+  DWORD     dwNumberOfDrives;
+  DWORD     FirstSlotNumber;
+  DWORD     dwNumberOfSlots;
+  DWORD     FirstDoorNumber;
+  DWORD     dwNumberOfDoors;
+  DWORD     FirstPortNumber;
+  DWORD     dwNumberOfPorts;
+  DWORD     FirstChangerNumber;
+  DWORD     dwNumberOfChangers;
+  DWORD     dwNumberOfMedia;
+  DWORD     dwNumberOfMediaTypes;
+  DWORD     dwNumberOfLibRequests;
+  GUID      Reserved;
+  BOOL      AutoRecovery;
+  DWORD     dwFlags;
+} NTMS_LIBRARYINFORMATION;

@@ -1,0 +1,3 @@
+typedef enum _USBC_PD_AUGMENTED_POWER_DATA_OBJECT_TYPE {
+  UsbCPdApdoTypeProgrammablePowerSupply
+} USBC_PD_AUGMENTED_POWER_DATA_OBJECT_TYPE;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeRemoveQueueDpc",
+  "title": "KeRemoveQueueDpc function (wdm.h)",
+  "description": "The KeRemoveQueueDpc routine removes the specified DPC object from the system DPC queue.",
+  "old-location": "kernel\\keremovequeuedpc.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeRemoveQueueDpc function"
+  ],
+  "ms.keywords": "KeRemoveQueueDpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, wdm/KeRemoveQueueDpc",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeRemoveQueueDpc",
+    "wdm/KeRemoveQueueDpc"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeRemoveQueueDpc"
+  ]
+}

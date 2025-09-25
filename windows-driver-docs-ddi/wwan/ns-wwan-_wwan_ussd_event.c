@@ -1,0 +1,5 @@
+typedef struct _WWAN_USSD_EVENT {
+  WWAN_USSD_EVENT_TYPE    EventType;
+  WWAN_USSD_SESSION_STATE SessionState;
+  WWAN_USSD_STRING        UssdString;
+} WWAN_USSD_EVENT, *PWWAN_USSD_EVENT;

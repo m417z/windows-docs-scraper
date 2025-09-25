@@ -1,0 +1,4 @@
+typedef struct _ADDRESS_OFFSET {
+  USHORT Off_High;
+  ULONG  Off_Low;
+} ADDRESS_OFFSET, *PADDRESS_OFFSET;

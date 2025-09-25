@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mergemod.IMsmMerge.OpenDatabase",
+  "title": "IMsmMerge::OpenDatabase (mergemod.h)",
+  "description": "The OpenDatabase method opens a Windows Installer installation database, located at a specified path, that is to be merged with a module. For more information, see the OpenDatabase method of the Merge object.",
+  "helpviewer_keywords": [
+    "IMsmMerge interface",
+    "OpenDatabase method",
+    "IMsmMerge.OpenDatabase",
+    "IMsmMerge::OpenDatabase",
+    "OpenDatabase",
+    "OpenDatabase method",
+    "OpenDatabase method",
+    "IMsmMerge interface",
+    "_msi_opendatabase_function",
+    "mergemod/IMsmMerge::OpenDatabase",
+    "setup.imsmmerge_opendatabase"
+  ],
+  "old-location": "setup\\imsmmerge_opendatabase.htm",
+  "tech.root": "setup",
+  "ms.assetid": "cafe02a0-2e86-43f6-9cde-e3dd23bdfc4c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IMsmMerge interface,OpenDatabase method, IMsmMerge.OpenDatabase, IMsmMerge::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IMsmMerge interface, _msi_opendatabase_function, mergemod/IMsmMerge::OpenDatabase, setup.imsmmerge_opendatabase",
+  "req.header": "mergemod.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Mergemod.dll 1.0 or later",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Mergemod.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMsmMerge::OpenDatabase",
+    "mergemod/IMsmMerge::OpenDatabase"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mergemod.dll"
+  ],
+  "api_name": [
+    "IMsmMerge.OpenDatabase"
+  ]
+}

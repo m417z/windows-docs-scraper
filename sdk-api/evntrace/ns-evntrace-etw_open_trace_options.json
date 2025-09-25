@@ -1,0 +1,45 @@
+{
+  "UID": "NS:evntrace.ETW_OPEN_TRACE_OPTIONS",
+  "tech.root": "ETW",
+  "title": "ETW_OPEN_TRACE_OPTIONS",
+  "ms.date": "11/21/2022",
+  "targetos": "Windows",
+  "description": "Provides configuration parameters to OpenTraceFromBufferStream, OpenTraceFromFile, OpenTraceFromRealTimeLogger, OpenTraceFromRealTimeLoggerWithAllocationOptions functions.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": "Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP",
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.typenames": "ETW_OPEN_TRACE_OPTIONS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "evntrace.h"
+  ],
+  "api_name": [
+    "ETW_OPEN_TRACE_OPTIONS"
+  ],
+  "f1_keywords": [
+    "ETW_OPEN_TRACE_OPTIONS",
+    "evntrace/ETW_OPEN_TRACE_OPTIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "ETW_OPEN_TRACE_OPTIONS"
+  ]
+}

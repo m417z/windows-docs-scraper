@@ -1,0 +1,7 @@
+typedef struct _CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO {
+  DWORD   dwSize;
+  GUID    *pGuidSubject;
+  DWORD   cbBlob;
+  BYTE    *pbBlob;
+  LPCWSTR pwszDisplayName;
+} CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO;

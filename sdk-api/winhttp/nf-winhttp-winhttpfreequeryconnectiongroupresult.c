@@ -1,0 +1,3 @@
+WINHTTPAPI VOID WinHttpFreeQueryConnectionGroupResult(
+  WINHTTP_QUERY_CONNECTION_GROUP_RESULT *pResult
+);

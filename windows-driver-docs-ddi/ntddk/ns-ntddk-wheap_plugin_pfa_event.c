@@ -1,0 +1,4 @@
+typedef struct _WHEAP_PLUGIN_PFA_EVENT {
+  WHEA_EVENT_LOG_ENTRY WheaEventLogEntry;
+  BOOLEAN              NoFurtherPfa;
+} WHEAP_PLUGIN_PFA_EVENT, *PWHEAP_PLUGIN_PFA_EVENT;

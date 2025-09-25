@@ -1,0 +1,3 @@
+void EngFreeUserMem(
+  [in] p
+);

@@ -1,0 +1,20 @@
+HRESULT MakeDecisionOnClearChannel(
+  [in]      UINT                fuFlags,
+  [in]      BYTE                *pData,
+  [in]      DWORD               dwSize,
+  [in]      DWORD               dwAppSec,
+  [in]      BYTE                *pbSPSessionKey,
+  [in]      DWORD               dwSessionKeyLen,
+  [in]      IMDSPStorageGlobals *pStorageGlobals,
+  [in]      IWMDMProgress3      *pProgressCallback,
+  [in]      BYTE                *pAppCertApp,
+  [in]      DWORD               dwAppCertAppLen,
+  [in]      BYTE                *pAppCertSP,
+  [in]      DWORD               dwAppCertSPLen,
+  [in, out] LPWSTR              *pszRevocationURL,
+  [in, out] DWORD               *pdwRevocationURLLen,
+  [out]     DWORD               *pdwRevocationBitFlag,
+  [in, out] ULONGLONG           *pqwFileSize,
+  [in]      IUnknown            *pUnknown,
+  [out]     ISCPSecureExchange  **ppExchange
+);

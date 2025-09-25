@@ -1,0 +1,65 @@
+{
+  "UID": "NF:control.IQueueCommand.InvokeAtStreamTime",
+  "title": "IQueueCommand::InvokeAtStreamTime (control.h)",
+  "description": "The InvokeAtStreamTime method queues a method or property change for execution at a specified stream time (that is, presentation time relative to the current stream time offset).",
+  "helpviewer_keywords": [
+    "IQueueCommand interface [DirectShow]",
+    "InvokeAtStreamTime method",
+    "IQueueCommand.InvokeAtStreamTime",
+    "IQueueCommand::InvokeAtStreamTime",
+    "IQueueCommandInvokeAtStreamTime",
+    "InvokeAtStreamTime",
+    "InvokeAtStreamTime method [DirectShow]",
+    "InvokeAtStreamTime method [DirectShow]",
+    "IQueueCommand interface",
+    "control/IQueueCommand::InvokeAtStreamTime",
+    "dshow.iqueuecommand_invokeatstreamtime"
+  ],
+  "old-location": "dshow\\iqueuecommand_invokeatstreamtime.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "350b6842-207c-47db-a3f8-9e2784d9da67",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IQueueCommand interface [DirectShow],InvokeAtStreamTime method, IQueueCommand.InvokeAtStreamTime, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime",
+  "req.header": "control.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IQueueCommand::InvokeAtStreamTime",
+    "control/IQueueCommand::InvokeAtStreamTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IQueueCommand.InvokeAtStreamTime"
+  ]
+}

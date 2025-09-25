@@ -1,0 +1,41 @@
+{
+  "UID": "NE:schannel._eTlsAlgorithmUsage",
+  "title": "eTlsAlgorithmUsage",
+  "ms.date": "11/4/2019",
+  "targetos": "Windows",
+  "description": "Specifies the algorithm being used to disable cryptographic settings.",
+  "tech.root": "security",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "schannel.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 1809 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "schannel.h"
+  ],
+  "api_name": [
+    "_eTlsAlgorithmUsage",
+    "eTlsAlgorithmUsage"
+  ],
+  "f1_keywords": [
+    "_eTlsAlgorithmUsage",
+    "schannel/_eTlsAlgorithmUsage",
+    "eTlsAlgorithmUsage",
+    "schannel/eTlsAlgorithmUsage"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

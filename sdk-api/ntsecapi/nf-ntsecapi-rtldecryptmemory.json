@@ -1,0 +1,59 @@
+{
+  "UID": "NF:ntsecapi.RtlDecryptMemory",
+  "title": "RtlDecryptMemory function (ntsecapi.h)",
+  "description": "Decrypts memory contents previously encrypted by the RtlEncryptMemory function.",
+  "helpviewer_keywords": [
+    "RTL_ENCRYPT_OPTION_CROSS_PROCESS",
+    "RTL_ENCRYPT_OPTION_SAME_LOGON",
+    "RtlDecryptMemory",
+    "RtlDecryptMemory function [Security]",
+    "ntsecapi/RtlDecryptMemory",
+    "security.rtldecryptmemory"
+  ],
+  "old-location": "security\\rtldecryptmemory.htm",
+  "tech.root": "security",
+  "ms.assetid": "8ecc5007-92ce-4e32-a093-dcb75ee8ba62",
+  "ms.date": "01/08/2025",
+  "ms.keywords": "RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlDecryptMemory, RtlDecryptMemory function [Security], ntsecapi/RtlDecryptMemory, security.rtldecryptmemory",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003, Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlDecryptMemory",
+    "ntsecapi/RtlDecryptMemory"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "RtlDecryptMemory"
+  ]
+}

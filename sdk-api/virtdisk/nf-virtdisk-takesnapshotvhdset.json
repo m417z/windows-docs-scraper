@@ -1,0 +1,58 @@
+{
+  "UID": "NF:virtdisk.TakeSnapshotVhdSet",
+  "title": "TakeSnapshotVhdSet function (virtdisk.h)",
+  "description": "Creates a snapshot of the current virtual disk for VHD Set files.",
+  "helpviewer_keywords": [
+    "TakeSnapshotVhdSet",
+    "TakeSnapshotVhdSet function [VHD]",
+    "vdssys/TakeSnapshotVhdSet",
+    "vhd.takesnapshotvhdset",
+    "virtdisk/TakeSnapshotVhdSet"
+  ],
+  "old-location": "vhd\\takesnapshotvhdset.htm",
+  "tech.root": "VStor",
+  "ms.assetid": "370C6DB2-EA0F-4B6F-BA14-CE14377E2314",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TakeSnapshotVhdSet, TakeSnapshotVhdSet function [VHD], vdssys/TakeSnapshotVhdSet, vhd.takesnapshotvhdset, virtdisk/TakeSnapshotVhdSet",
+  "req.header": "virtdisk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VirtDisk.lib",
+  "req.dll": "VirtDisk.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TakeSnapshotVhdSet",
+    "virtdisk/TakeSnapshotVhdSet"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "VirtDisk.dll"
+  ],
+  "api_name": [
+    "TakeSnapshotVhdSet"
+  ]
+}

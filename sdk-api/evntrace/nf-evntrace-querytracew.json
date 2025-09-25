@@ -1,0 +1,67 @@
+{
+  "UID": "NF:evntrace.QueryTraceW",
+  "title": "QueryTraceW function (evntrace.h)",
+  "description": "The QueryTraceW (Unicode) function (evntrace.h) retrieves the property settings and session statistics for the specified event tracing session.",
+  "helpviewer_keywords": [
+    "QueryTrace",
+    "QueryTrace function [ETW]",
+    "QueryTraceA",
+    "QueryTraceW",
+    "_evt_querytrace",
+    "base.querytrace",
+    "etw.querytrace",
+    "evntrace/QueryTrace",
+    "evntrace/QueryTraceA",
+    "evntrace/QueryTraceW"
+  ],
+  "old-location": "etw\\querytrace.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "8ad0f4f6-902c-490e-b26e-7499dd99fc95",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _evt_querytrace, base.querytrace, etw.querytrace, evntrace/QueryTrace, evntrace/QueryTraceA, evntrace/QueryTraceW",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "QueryTraceW (Unicode) and QueryTraceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "QueryTraceW",
+    "evntrace/QueryTraceW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-eventing-Legacy-l1-1-0.dll",
+    "advapi32legacy.dll"
+  ],
+  "api_name": [
+    "QueryTrace",
+    "QueryTraceA",
+    "QueryTraceW"
+  ]
+}

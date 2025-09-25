@@ -1,0 +1,64 @@
+{
+  "UID": "NF:deviceaccess.IDeviceIoControl.CancelOperation",
+  "title": "IDeviceIoControl::CancelOperation (deviceaccess.h)",
+  "description": "The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.",
+  "helpviewer_keywords": [
+    "CancelOperation",
+    "CancelOperation method [Device Access Broker API]",
+    "CancelOperation method [Device Access Broker API]",
+    "IDeviceIoControl interface",
+    "IDeviceIoControl interface [Device Access Broker API]",
+    "CancelOperation method",
+    "IDeviceIoControl.CancelOperation",
+    "IDeviceIoControl::CancelOperation",
+    "deviceaccess.ideviceiocontrol_canceloperation",
+    "deviceaccess/IDeviceIoControl::CancelOperation"
+  ],
+  "old-location": "deviceaccess\\ideviceiocontrol_canceloperation.htm",
+  "tech.root": "deviceaccess",
+  "ms.assetid": "476a84c8-4065-4a4f-ad74-68cbbbabd5dd",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CancelOperation, CancelOperation method [Device Access Broker API], CancelOperation method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],CancelOperation method, IDeviceIoControl.CancelOperation, IDeviceIoControl::CancelOperation, deviceaccess.ideviceiocontrol_canceloperation, deviceaccess/IDeviceIoControl::CancelOperation",
+  "req.header": "deviceaccess.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Deviceaccess.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Deviceaccess.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDeviceIoControl::CancelOperation",
+    "deviceaccess/IDeviceIoControl::CancelOperation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Deviceaccess.lib",
+    "Deviceaccess.dll"
+  ],
+  "api_name": [
+    "IDeviceIoControl.CancelOperation"
+  ]
+}

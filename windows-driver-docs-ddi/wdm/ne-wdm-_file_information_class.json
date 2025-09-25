@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdm._FILE_INFORMATION_CLASS",
+  "title": "FILE_INFORMATION_CLASS (wdm.h)",
+  "description": "Learn more about the FILE_INFORMATION_CLASS enumeration.",
+  "tech.root": "ifsk",
+  "ms.date": "02/06/2024",
+  "author": "lorihollasch",
+  "keywords": [
+    "FILE_INFORMATION_CLASS enumeration"
+  ],
+  "req.header": "wdm.h",
+  "req.include-header": "FltKernel.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS",
+  "f1_keywords": [
+    "_FILE_INFORMATION_CLASS",
+    "wdm/_FILE_INFORMATION_CLASS",
+    "PFILE_INFORMATION_CLASS",
+    "wdm/PFILE_INFORMATION_CLASS",
+    "FILE_INFORMATION_CLASS",
+    "wdm/FILE_INFORMATION_CLASS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h",
+    "wdm.h"
+  ],
+  "api_name": [
+    "_FILE_INFORMATION_CLASS",
+    "PFILE_INFORMATION_CLASS",
+    "FILE_INFORMATION_CLASS"
+  ]
+}

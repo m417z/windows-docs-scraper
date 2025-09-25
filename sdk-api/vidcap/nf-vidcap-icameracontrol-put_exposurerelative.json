@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vidcap.ICameraControl.put_ExposureRelative",
+  "title": "ICameraControl::put_ExposureRelative (vidcap.h)",
+  "description": "The put_ExposureRelative method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.",
+  "helpviewer_keywords": [
+    "ICameraControl interface [DirectShow]",
+    "put_ExposureRelative method",
+    "ICameraControl.put_ExposureRelative",
+    "ICameraControl::put_ExposureRelative",
+    "ICameraControlput_ExposureRelative",
+    "dshow.icameracontrol_put_exposurerelative",
+    "put_ExposureRelative",
+    "put_ExposureRelative method [DirectShow]",
+    "put_ExposureRelative method [DirectShow]",
+    "ICameraControl interface",
+    "vidcap/ICameraControl::put_ExposureRelative"
+  ],
+  "old-location": "dshow\\icameracontrol_put_exposurerelative.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "4afc3f7f-bba2-4160-b917-c792467d6305",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "ICameraControl interface [DirectShow],put_ExposureRelative method, ICameraControl.put_ExposureRelative, ICameraControl::put_ExposureRelative, ICameraControlput_ExposureRelative, dshow.icameracontrol_put_exposurerelative, put_ExposureRelative, put_ExposureRelative method [DirectShow], put_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ExposureRelative",
+  "req.header": "vidcap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICameraControl::put_ExposureRelative",
+    "vidcap/ICameraControl::put_ExposureRelative"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "ICameraControl.put_ExposureRelative"
+  ]
+}

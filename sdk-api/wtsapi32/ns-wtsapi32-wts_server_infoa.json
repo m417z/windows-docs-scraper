@@ -1,0 +1,71 @@
+{
+  "UID": "NS:wtsapi32._WTS_SERVER_INFOA",
+  "title": "WTS_SERVER_INFOA (wtsapi32.h)",
+  "description": "Contains information about a specific Remote Desktop Services server. (ANSI)",
+  "helpviewer_keywords": [
+    "*PWTS_SERVER_INFOA",
+    "PWTS_SERVER_INFO",
+    "PWTS_SERVER_INFO structure pointer [Remote Desktop Services]",
+    "WTS_SERVER_INFO",
+    "WTS_SERVER_INFO structure [Remote Desktop Services]",
+    "WTS_SERVER_INFOA",
+    "WTS_SERVER_INFOW",
+    "termserv.wts_server_info",
+    "wtsapi32/PWTS_SERVER_INFO",
+    "wtsapi32/WTS_SERVER_INFO",
+    "wtsapi32/WTS_SERVER_INFOA",
+    "wtsapi32/WTS_SERVER_INFOW"
+  ],
+  "old-location": "termserv\\wts_server_info.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "c7ba5a94-37ff-408f-9a77-91b07c28b7ce",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PWTS_SERVER_INFOA, PWTS_SERVER_INFO, PWTS_SERVER_INFO structure pointer [Remote Desktop Services], WTS_SERVER_INFO, WTS_SERVER_INFO structure [Remote Desktop Services], WTS_SERVER_INFOA, WTS_SERVER_INFOW, termserv.wts_server_info, wtsapi32/PWTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFOA, wtsapi32/WTS_SERVER_INFOW",
+  "req.header": "wtsapi32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WTS_SERVER_INFOW (Unicode) and WTS_SERVER_INFOA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WTS_SERVER_INFOA, *PWTS_SERVER_INFOA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_WTS_SERVER_INFOA",
+    "wtsapi32/_WTS_SERVER_INFOA",
+    "PWTS_SERVER_INFOA",
+    "wtsapi32/PWTS_SERVER_INFOA",
+    "WTS_SERVER_INFOA",
+    "wtsapi32/WTS_SERVER_INFOA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wtsapi32.h"
+  ],
+  "api_name": [
+    "WTS_SERVER_INFO",
+    "WTS_SERVER_INFOA",
+    "WTS_SERVER_INFOW"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "UID": "NC:dispmprt.DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP",
+  "title": "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP (dispmprt.h)",
+  "description": "Learn more about the DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function.",
+  "tech.root": "display",
+  "ms.date": "01/06/2025",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8 (WDDM 1.2)",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP",
+    "dispmprt/DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP"
+  ]
+}

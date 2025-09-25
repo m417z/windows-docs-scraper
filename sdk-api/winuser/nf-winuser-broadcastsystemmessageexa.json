@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.BroadcastSystemMessageExA",
+  "title": "BroadcastSystemMessageExA function (winuser.h)",
+  "description": "Sends a message to the specified recipients. (BroadcastSystemMessageExA)",
+  "helpviewer_keywords": [
+    "BSF_ALLOWSFW",
+    "BSF_FLUSHDISK",
+    "BSF_FORCEIFHUNG",
+    "BSF_IGNORECURRENTTASK",
+    "BSF_LUID",
+    "BSF_NOHANG",
+    "BSF_NOTIMEOUTIFNOTHUNG",
+    "BSF_POSTMESSAGE",
+    "BSF_QUERY",
+    "BSF_RETURNHDESK",
+    "BSF_SENDNOTIFYMESSAGE",
+    "BSM_ALLCOMPONENTS",
+    "BSM_ALLDESKTOPS",
+    "BSM_APPLICATIONS",
+    "BroadcastSystemMessageExA",
+    "winuser/BroadcastSystemMessageExA"
+  ],
+  "old-location": "winmsg\\broadcastsystemmessageex.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\messagesandmessagequeues\\messagesandmessagequeuesreference\\messagesandmessagequeuesfunctions\\broadcastsystemmessageex.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_LUID, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_RETURNHDESK, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessageEx, BroadcastSystemMessageEx function [Windows and Messages], BroadcastSystemMessageExA, BroadcastSystemMessageExW, _win32_BroadcastSystemMessageEx, _win32_broadcastsystemmessageex_cpp, winmsg.broadcastsystemmessageex, winui._win32_broadcastsystemmessageex, winuser/BroadcastSystemMessageEx, winuser/BroadcastSystemMessageExA, winuser/BroadcastSystemMessageExW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "BroadcastSystemMessageExW (Unicode) and BroadcastSystemMessageExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BroadcastSystemMessageExA",
+    "winuser/BroadcastSystemMessageExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "BroadcastSystemMessageEx",
+    "BroadcastSystemMessageExA",
+    "BroadcastSystemMessageExW"
+  ]
+}

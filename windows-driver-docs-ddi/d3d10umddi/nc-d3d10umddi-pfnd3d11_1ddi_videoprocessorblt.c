@@ -1,0 +1,11 @@
+PFND3D11_1DDI_VIDEOPROCESSORBLT Pfnd3d111DdiVideoprocessorblt;
+
+HRESULT Pfnd3d111DdiVideoprocessorblt(
+  D3D10DDI_HDEVICE unnamedParam1,
+  D3D11_1DDI_HVIDEOPROCESSOR unnamedParam2,
+  D3D11_1DDI_HVIDEOPROCESSOROUTPUTVIEW unnamedParam3,
+  UINT unnamedParam4,
+  UINT unnamedParam5,
+  const D3D11_1DDI_VIDEO_PROCESSOR_STREAM *unnamedParam6
+)
+{...}

@@ -1,0 +1,7 @@
+PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033 Pfnd3d12ddiCalcprivatevideodecoderheapsize0033;
+
+SIZE_T Pfnd3d12ddiCalcprivatevideodecoderheapsize0033(
+  D3D12DDI_HDEVICE hDrvDevice,
+  const D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 *pArgs
+)
+{...}

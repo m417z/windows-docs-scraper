@@ -1,0 +1,6 @@
+typedef struct RILCAPSLOCKINGPWDLENGTH {
+  DWORD cbSize;
+  DWORD dwParams;
+  DWORD dwPersoFeature;
+  DWORD dwPasswordLength;
+} RILCAPSLOCKINGPWDLENGTH, *LPRILCAPSLOCKINGPWDLENGTH;

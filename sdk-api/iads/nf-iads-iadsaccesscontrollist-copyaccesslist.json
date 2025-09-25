@@ -1,0 +1,65 @@
+{
+  "UID": "NF:iads.IADsAccessControlList.CopyAccessList",
+  "title": "IADsAccessControlList::CopyAccessList (iads.h)",
+  "description": "The IADsAccessControlList::CopyAccessList method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.",
+  "helpviewer_keywords": [
+    "CopyAccessList",
+    "CopyAccessList method [ADSI]",
+    "CopyAccessList method [ADSI]",
+    "IADsAccessControlList interface",
+    "IADsAccessControlList interface [ADSI]",
+    "CopyAccessList method",
+    "IADsAccessControlList.CopyAccessList",
+    "IADsAccessControlList::CopyAccessList",
+    "_ds_iadsaccesscontrollist_copyaccesslist",
+    "adsi.iadsaccesscontrollist__copyaccesslist",
+    "adsi.iadsaccesscontrollist_copyaccesslist",
+    "iads/IADsAccessControlList::CopyAccessList"
+  ],
+  "old-location": "adsi\\iadsaccesscontrollist_copyaccesslist.htm",
+  "tech.root": "adsi",
+  "ms.assetid": "3f4c89ec-1144-4886-981a-75353d2dfe8b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList",
+  "req.header": "iads.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Activeds.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IADsAccessControlList::CopyAccessList",
+    "iads/IADsAccessControlList::CopyAccessList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Activeds.dll"
+  ],
+  "api_name": [
+    "IADsAccessControlList.CopyAccessList"
+  ]
+}

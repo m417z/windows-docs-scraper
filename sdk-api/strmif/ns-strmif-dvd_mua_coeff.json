@@ -1,0 +1,60 @@
+{
+  "UID": "NS:strmif.tagDVD_MUA_Coeff",
+  "title": "DVD_MUA_Coeff (strmif.h)",
+  "description": "The DVD_MUA_Coeff structure defines the mixing coefficients for one channel in a multichannel audio stream. The DVD_MultichannelAudioAttributes structure contains an array of eight DVD_MUA_Coeff structures, one for each channel in the stream.",
+  "helpviewer_keywords": [
+    "DVD_MUA_Coeff",
+    "DVD_MUA_Coeff structure [DirectShow]",
+    "DVD_MUA_CoeffStructure",
+    "dshow.dvd_mua_coeff",
+    "strmif/DVD_MUA_Coeff"
+  ],
+  "old-location": "dshow\\dvd_mua_coeff.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "8b8402da-37c2-4983-ae09-967c269fc828",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffStructure, dshow.dvd_mua_coeff, strmif/DVD_MUA_Coeff",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DVD_MUA_Coeff",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagDVD_MUA_Coeff",
+    "strmif/tagDVD_MUA_Coeff",
+    "DVD_MUA_Coeff",
+    "strmif/DVD_MUA_Coeff"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "strmif.h"
+  ],
+  "api_name": [
+    "DVD_MUA_Coeff"
+  ]
+}

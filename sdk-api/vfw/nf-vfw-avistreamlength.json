@@ -1,0 +1,59 @@
+{
+  "UID": "NF:vfw.AVIStreamLength",
+  "title": "AVIStreamLength function (vfw.h)",
+  "description": "The AVIStreamLength function returns the length of the stream.",
+  "helpviewer_keywords": [
+    "AVIStreamLength",
+    "AVIStreamLength function [Windows Multimedia]",
+    "_win32_AVIStreamLength",
+    "multimedia.avistreamlength",
+    "vfw/AVIStreamLength"
+  ],
+  "old-location": "multimedia\\avistreamlength.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "5fc5dd31-9f2d-48c8-8d7e-76add4608473",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AVIStreamLength, AVIStreamLength function [Windows Multimedia], _win32_AVIStreamLength, multimedia.avistreamlength, vfw/AVIStreamLength",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVIStreamLength",
+    "vfw/AVIStreamLength"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-media-avi-l1-1-0.dll",
+    "Avifil32.dll"
+  ],
+  "api_name": [
+    "AVIStreamLength"
+  ]
+}

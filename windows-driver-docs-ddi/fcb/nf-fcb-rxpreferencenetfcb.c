@@ -1,0 +1,3 @@
+LONG RxpReferenceNetFcb(
+  PFCB Fcb
+);

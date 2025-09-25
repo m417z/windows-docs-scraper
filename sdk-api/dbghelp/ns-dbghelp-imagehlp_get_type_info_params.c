@@ -1,0 +1,20 @@
+typedef struct _IMAGEHLP_GET_TYPE_INFO_PARAMS {
+  ULONG                     SizeOfStruct;
+  ULONG                     Flags;
+  ULONG                     NumIds;
+  PULONG                    TypeIds;
+  ULONG64                   TagFilter;
+  ULONG                     NumReqs;
+  IMAGEHLP_SYMBOL_TYPE_INFO *ReqKinds;
+  PULONG_PTR                ReqOffsets;
+  PULONG                    ReqSizes;
+  ULONG_PTR                 ReqStride;
+  ULONG_PTR                 BufferSize;
+  PVOID                     Buffer;
+  ULONG                     EntriesMatched;
+  ULONG                     EntriesFilled;
+  ULONG64                   TagsFound;
+  ULONG64                   AllReqsValid;
+  ULONG                     NumReqsValid;
+  PULONG64                  ReqsValid;
+} IMAGEHLP_GET_TYPE_INFO_PARAMS, *PIMAGEHLP_GET_TYPE_INFO_PARAMS;

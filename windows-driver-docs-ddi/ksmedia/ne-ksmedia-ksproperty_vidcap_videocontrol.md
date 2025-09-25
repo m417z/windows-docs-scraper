@@ -1,0 +1,25 @@
+## Description
+
+This topic describes the **KSPROPERTY_VIDCAP_VIDEOCONTROL** enumeration (ksmedia.h).
+
+## Constants
+
+### `KSPROPERTY_VIDEOCONTROL_CAPS`
+
+Defines the **KSPROPERTY_VIDEOCONTROL_CAPS** constant.
+
+### `KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE`
+
+Defines the **KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE** constant.
+
+### `KSPROPERTY_VIDEOCONTROL_FRAME_RATES`
+
+Defines the **KSPROPERTY_VIDEOCONTROL_FRAME_RATES** constant.
+
+### `KSPROPERTY_VIDEOCONTROL_MODE`
+
+Defines the **KSPROPERTY_VIDEOCONTROL_MODE** constant.
+
+## Remarks
+
+## See also

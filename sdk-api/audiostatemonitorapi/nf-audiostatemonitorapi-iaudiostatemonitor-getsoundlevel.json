@@ -1,0 +1,50 @@
+{
+  "UID": "NF:audiostatemonitorapi.IAudioStateMonitor.GetSoundLevel",
+  "tech.root": "CoreAudio",
+  "title": "IAudioStateMonitor::GetSoundLevel",
+  "ms.date": "06/21/2023",
+  "targetos": "Windows",
+  "description": "Gets the current sound level for the audio streams associated with an IAudioStateMonitor.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audiostatemonitorapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows build 19043",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "audiostatemonitorapi.h"
+  ],
+  "api_name": [
+    "IAudioStateMonitor::GetSoundLevel"
+  ],
+  "f1_keywords": [
+    "IAudioStateMonitor::GetSoundLevel",
+    "audiostatemonitorapi/IAudioStateMonitor::GetSoundLevel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "GetSoundLevel"
+  ]
+}

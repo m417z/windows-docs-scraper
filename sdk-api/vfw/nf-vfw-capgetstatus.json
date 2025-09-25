@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capGetStatus",
+  "title": "capGetStatus macro (vfw.h)",
+  "description": "The capGetStatus macro retrieves the status of the capture window. You can use this macro or explicitly call the WM_CAP_GET_STATUS message.",
+  "helpviewer_keywords": [
+    "_win32_capGetStatus",
+    "capGetStatus",
+    "capGetStatus macro [Windows Multimedia]",
+    "multimedia.capgetstatus",
+    "vfw/capGetStatus"
+  ],
+  "old-location": "multimedia\\capgetstatus.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "5c974707-b6ca-4177-a262-6838d308fb0a",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Multimedia], multimedia.capgetstatus, vfw/capGetStatus",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capGetStatus",
+    "vfw/capGetStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capGetStatus"
+  ]
+}

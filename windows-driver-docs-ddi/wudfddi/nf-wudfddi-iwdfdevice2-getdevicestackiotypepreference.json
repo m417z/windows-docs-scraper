@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDevice2.GetDeviceStackIoTypePreference",
+  "title": "IWDFDevice2::GetDeviceStackIoTypePreference (wudfddi.h)",
+  "description": "The GetDeviceStackIoTypePreference method retrieves the buffer access methods that the framework is using for a device.",
+  "old-location": "wdf\\iwdfdevice2_getdevicestackiotypepreference.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDevice2::GetDeviceStackIoTypePreference"
+  ],
+  "ms.keywords": "GetDeviceStackIoTypePreference, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method,IWDFDevice2 interface, IWDFDevice2 interface,GetDeviceStackIoTypePreference method, IWDFDevice2.GetDeviceStackIoTypePreference, IWDFDevice2::GetDeviceStackIoTypePreference, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, umdf.iwdfdevice2_getdevicestackiotypepreference, wdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.9,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDevice2::GetDeviceStackIoTypePreference",
+    "wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDevice2::GetDeviceStackIoTypePreference"
+  ]
+}

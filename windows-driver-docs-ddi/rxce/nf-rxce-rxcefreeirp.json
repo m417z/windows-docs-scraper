@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxce.RxCeFreeIrp",
+  "title": "RxCeFreeIrp function (rxce.h)",
+  "description": "RxCeFreeIrp frees an IRP.",
+  "old-location": "ifsk\\rxcefreeirp.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCeFreeIrp function"
+  ],
+  "ms.keywords": "RxCeFreeIrp, RxCeFreeIrp function [Installable File System Drivers], ifsk.rxcefreeirp, rxce/RxCeFreeIrp, rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml",
+  "req.header": "rxce.h",
+  "req.include-header": "Rxce.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCeFreeIrp",
+    "rxce/RxCeFreeIrp"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxce.h"
+  ],
+  "api_name": [
+    "RxCeFreeIrp"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winusb.WinUsb_AbortPipe",
+  "title": "WinUsb_AbortPipe function (winusb.h)",
+  "description": "The WinUsb_AbortPipe function aborts all of the pending transfers for a pipe. This is a synchronous operation.",
+  "helpviewer_keywords": [
+    "WinUsb_AbortPipe",
+    "WinUsb_AbortPipe function [Buses]",
+    "buses.winusb_abortpipe",
+    "winusb/WinUsb_AbortPipe",
+    "winusbfunc_2cd765f4-18f0-462e-a6e1-c86f00232035.xml"
+  ],
+  "old-location": "buses\\winusb_abortpipe.htm",
+  "tech.root": "buses",
+  "ms.assetid": "08695612-d579-41e4-a8b6-1de44a57aeaa",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinUsb_AbortPipe, WinUsb_AbortPipe function [Buses], buses.winusb_abortpipe, winusb/WinUsb_AbortPipe, winusbfunc_2cd765f4-18f0-462e-a6e1-c86f00232035.xml",
+  "req.header": "winusb.h",
+  "req.include-header": "Winusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winusb.lib",
+  "req.dll": "Winusb.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinUsb_AbortPipe",
+    "winusb/WinUsb_AbortPipe"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winusb.dll"
+  ],
+  "api_name": [
+    "WinUsb_AbortPipe"
+  ]
+}

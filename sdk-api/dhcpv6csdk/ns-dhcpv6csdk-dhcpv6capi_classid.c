@@ -1,0 +1,9 @@
+typedef struct _DHCPV6CAPI_CLASSID {
+  ULONG  Flags;
+#if ...
+  LPBYTE Data;
+#else
+  LPBYTE Data;
+#endif
+  ULONG  nBytesData;
+} DHCPV6CAPI_CLASSID, *PDHCPV6CAPI_CLASSID, *LPDHCPV6CAPI_CLASSID;

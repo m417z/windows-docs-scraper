@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ehstorioctl._SILO_DRIVER_CAPABILITIES",
+  "title": "_SILO_DRIVER_CAPABILITIES (ehstorioctl.h)",
+  "description": "This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. SILO_DRIVER_CAPABILITIES is included in the system buffer of an IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES request.",
+  "old-location": "storage\\silo_driver_capabilities.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "SILO_DRIVER_CAPABILITIES structure"
+  ],
+  "ms.keywords": "*PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, CAP_ON_DEMAND_AUTHENTICATION, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities",
+  "req.header": "ehstorioctl.h",
+  "req.include-header": "EhStorIoctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES",
+  "f1_keywords": [
+    "_SILO_DRIVER_CAPABILITIES",
+    "ehstorioctl/_SILO_DRIVER_CAPABILITIES",
+    "PSILO_DRIVER_CAPABILITIES",
+    "ehstorioctl/PSILO_DRIVER_CAPABILITIES",
+    "SILO_DRIVER_CAPABILITIES",
+    "ehstorioctl/SILO_DRIVER_CAPABILITIES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "EhStorIoctl.h"
+  ],
+  "api_name": [
+    "_SILO_DRIVER_CAPABILITIES",
+    "PSILO_DRIVER_CAPABILITIES",
+    "SILO_DRIVER_CAPABILITIES"
+  ]
+}

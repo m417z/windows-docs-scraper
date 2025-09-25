@@ -1,0 +1,50 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTUpdateGpuVirtualAddress",
+  "title": "D3DKMTUpdateGpuVirtualAddress function (d3dkmthk.h)",
+  "description": "D3DKMTUpdateGpuVirtualAddress is a special operation used in the context of tile resources. It allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.",
+  "old-location": "display\\d3dkmtupdategpuvirtualaddress.htm",
+  "ms.date": "03/02/2022",
+  "keywords": [
+    "D3DKMTUpdateGpuVirtualAddress function"
+  ],
+  "ms.keywords": "D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTUpdateGpuVirtualAddress, display.d3dkmtupdategpuvirtualaddress",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTUpdateGpuVirtualAddress",
+    "d3dkmthk/D3DKMTUpdateGpuVirtualAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "API-MS-Win-DX-D3DKMT-L1-1-1.dll",
+    "GDI32.dll",
+    "API-MS-Win-DX-D3DKMT-L1-1-2.dll"
+  ],
+  "api_name": [
+    "D3DKMTUpdateGpuVirtualAddress"
+  ]
+}

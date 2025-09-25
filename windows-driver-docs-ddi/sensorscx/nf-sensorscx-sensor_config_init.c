@@ -1,0 +1,3 @@
+VOID SENSOR_CONFIG_INIT(
+  [out] PSENSOR_CONFIG pConfig
+);

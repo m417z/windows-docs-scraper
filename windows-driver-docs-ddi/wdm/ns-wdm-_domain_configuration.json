@@ -1,0 +1,47 @@
+{
+  "UID": "NS:wdm._DOMAIN_CONFIGURATION",
+  "title": "_DOMAIN_CONFIGURATION (wdm.h)",
+  "description": "Contains information required to configure a domain.",
+  "ms.date": "06/04/2021",
+  "tech.root": "kernel",
+  "keywords": [
+    "DOMAIN_CONFIGURATION structure"
+  ],
+  "ms.keywords": "_DOMAIN_CONFIGURATION, DOMAIN_CONFIGURATION, *PDOMAIN_CONFIGURATION,",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "DOMAIN_CONFIGURATION, *PDOMAIN_CONFIGURATION",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_DOMAIN_CONFIGURATION",
+    "wdm/_DOMAIN_CONFIGURATION",
+    "PDOMAIN_CONFIGURATION",
+    "wdm/PDOMAIN_CONFIGURATION",
+    "DOMAIN_CONFIGURATION",
+    "wdm/DOMAIN_CONFIGURATION"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DOMAIN_CONFIGURATION",
+    "PDOMAIN_CONFIGURATION",
+    "DOMAIN_CONFIGURATION"
+  ]
+}

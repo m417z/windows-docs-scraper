@@ -1,0 +1,50 @@
+{
+  "UID": "NE:wdm._DRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+  "tech.root": "kernel",
+  "title": "DRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+  "ms.date": "09/11/2025",
+  "targetos": "Windows",
+  "description": "Defines the phases during which a DriverProxy register callback can be invoked.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.typenames": "DRIVER_PROXY_REGISTER_CALLBACK_PHASE, *PDRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+    "PDRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+    "DRIVER_PROXY_REGISTER_CALLBACK_PHASE"
+  ],
+  "f1_keywords": [
+    "_DRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+    "wdm/_DRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+    "PDRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+    "wdm/PDRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+    "DRIVER_PROXY_REGISTER_CALLBACK_PHASE",
+    "wdm/DRIVER_PROXY_REGISTER_CALLBACK_PHASE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_DRIVER_PROXY_REGISTER_CALLBACK_PHASE"
+  ],
+  "ai-usage": "ai-generated"
+}

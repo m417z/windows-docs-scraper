@@ -1,0 +1,66 @@
+{
+  "UID": "NF:wincred.CredGetSessionTypes",
+  "title": "CredGetSessionTypes function (wincred.h)",
+  "description": "The CredGetSessionTypes function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.",
+  "helpviewer_keywords": [
+    "CRED_PERSIST_ENTERPRISE",
+    "CRED_PERSIST_LOCAL_MACHINE",
+    "CRED_PERSIST_NONE",
+    "CRED_PERSIST_SESSION",
+    "CredGetSessionTypes",
+    "CredGetSessionTypes function [Security]",
+    "_cred_credgetsessiontypes",
+    "security.credgetsessiontypes",
+    "wincred/CredGetSessionTypes"
+  ],
+  "old-location": "security\\credgetsessiontypes.htm",
+  "tech.root": "security",
+  "ms.assetid": "70f8d5e0-235b-4330-8add-566b41c91c17",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_NONE, CRED_PERSIST_SESSION, CredGetSessionTypes, CredGetSessionTypes function [Security], _cred_credgetsessiontypes, security.credgetsessiontypes, wincred/CredGetSessionTypes",
+  "req.header": "wincred.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CredGetSessionTypes",
+    "wincred/CredGetSessionTypes"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll",
+    "sechost.dll",
+    "API-MS-Win-Security-credentials-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CredGetSessionTypes"
+  ]
+}

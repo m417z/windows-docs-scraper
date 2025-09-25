@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROYCRYPTOSESSION_0030 Pfnd3d12ddiDestroycryptosession0030;
+
+VOID Pfnd3d12ddiDestroycryptosession0030(
+  D3D12DDI_HDEVICE hDrvDevice,
+  D3D12DDI_HCRYPTOSESSION_0030 hDrvCryptoSession
+)
+{...}

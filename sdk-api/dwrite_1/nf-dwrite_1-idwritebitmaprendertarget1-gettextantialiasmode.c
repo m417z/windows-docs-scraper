@@ -1,0 +1,1 @@
+DWRITE_TEXT_ANTIALIAS_MODE GetTextAntialiasMode();

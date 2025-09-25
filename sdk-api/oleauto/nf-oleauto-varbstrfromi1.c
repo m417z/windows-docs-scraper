@@ -1,0 +1,6 @@
+HRESULT VarBstrFromI1(
+  [in]  CHAR  cIn,
+  [in]  LCID  lcid,
+  [in]  ULONG dwFlags,
+  [out] BSTR  *pbstrOut
+);

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:sspi.SspiEncodeAuthIdentityAsStrings",
+  "title": "SspiEncodeAuthIdentityAsStrings function (sspi.h)",
+  "description": "Encodes the specified authentication identity as three strings.",
+  "helpviewer_keywords": [
+    "SspiEncodeAuthIdentityAsStrings",
+    "SspiEncodeAuthIdentityAsStrings function [Security]",
+    "SspiEncodeAuthIdentityAsStringsA",
+    "SspiEncodeAuthIdentityAsStringsW",
+    "security.sspiencodeauthidentityasstrings",
+    "sspi/SspiEncodeAuthIdentityAsStrings",
+    "sspi/SspiEncodeAuthIdentityAsStringsA",
+    "sspi/SspiEncodeAuthIdentityAsStringsW"
+  ],
+  "old-location": "security\\sspiencodeauthidentityasstrings.htm",
+  "tech.root": "security",
+  "ms.assetid": "0610a7b8-67e9-4c01-893f-da579eeea2f8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SspiEncodeAuthIdentityAsStrings, SspiEncodeAuthIdentityAsStrings function [Security], SspiEncodeAuthIdentityAsStringsA, SspiEncodeAuthIdentityAsStringsW, security.sspiencodeauthidentityasstrings, sspi/SspiEncodeAuthIdentityAsStrings, sspi/SspiEncodeAuthIdentityAsStringsA, sspi/SspiEncodeAuthIdentityAsStringsW",
+  "req.header": "sspi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SspiEncodeAuthIdentityAsStringsW (Unicode) and SspiEncodeAuthIdentityAsStringsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "SspiCli.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SspiEncodeAuthIdentityAsStrings",
+    "sspi/SspiEncodeAuthIdentityAsStrings"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "SspiCli.dll"
+  ],
+  "api_name": [
+    "SspiEncodeAuthIdentityAsStrings",
+    "SspiEncodeAuthIdentityAsStringsA",
+    "SspiEncodeAuthIdentityAsStringsW"
+  ]
+}

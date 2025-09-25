@@ -1,0 +1,3 @@
+BOOL DrvSplEndPage(
+  HANDLE hDriver
+);

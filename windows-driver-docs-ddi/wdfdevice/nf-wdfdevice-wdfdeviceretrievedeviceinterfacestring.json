@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfdevice.WdfDeviceRetrieveDeviceInterfaceString",
+  "title": "WdfDeviceRetrieveDeviceInterfaceString function (wdfdevice.h)",
+  "description": "The WdfDeviceRetrieveDeviceInterfaceString method retrieves the symbolic link name that the operating system assigned to a device interface that the driver registered for a specified device.",
+  "old-location": "wdf\\wdfdeviceretrievedeviceinterfacestring.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDeviceRetrieveDeviceInterfaceString function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, WdfDeviceRetrieveDeviceInterfaceString, WdfDeviceRetrieveDeviceInterfaceString method, kmdf.wdfdeviceretrievedeviceinterfacestring, wdf.wdfdeviceretrievedeviceinterfacestring, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDeviceRetrieveDeviceInterfaceString",
+    "wdfdevice/WdfDeviceRetrieveDeviceInterfaceString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfDeviceRetrieveDeviceInterfaceString"
+  ]
+}

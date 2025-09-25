@@ -1,0 +1,3 @@
+WINLDAPAPI ULONG LDAPAPI LdapMapErrorToWin32(
+  [in] ULONG LdapError
+);

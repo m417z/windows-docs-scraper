@@ -1,0 +1,3 @@
+typedef enum __MIDL___MIDL_itf_rdpencomapi_0000_0000_0008 {
+  APP_FLAG_PRIVILEGED = 1
+} RDPSRAPI_APP_FLAGS;

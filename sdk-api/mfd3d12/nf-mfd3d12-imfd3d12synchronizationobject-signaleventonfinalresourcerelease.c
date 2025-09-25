@@ -1,0 +1,3 @@
+HRESULT SignalEventOnFinalResourceRelease(
+  HANDLE hEvent
+);

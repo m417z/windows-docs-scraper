@@ -1,0 +1,4 @@
+BOOL capFileSaveDIB(
+     hwnd,
+     szName
+);

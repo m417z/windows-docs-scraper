@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTQueryVideoMemoryInfo(
+  D3DKMT_QUERYVIDEOMEMORYINFO *unnamedParam1
+);

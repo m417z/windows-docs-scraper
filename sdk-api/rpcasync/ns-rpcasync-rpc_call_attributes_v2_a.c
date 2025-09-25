@@ -1,0 +1,20 @@
+typedef struct tagRPC_CALL_ATTRIBUTES_V2_A {
+  unsigned int              Version;
+  unsigned long             Flags;
+  unsigned long             ServerPrincipalNameBufferLength;
+  unsigned char             *ServerPrincipalName;
+  unsigned long             ClientPrincipalNameBufferLength;
+  unsigned char             *ClientPrincipalName;
+  unsigned long             AuthenticationLevel;
+  unsigned long             AuthenticationService;
+  BOOL                      NullSession;
+  BOOL                      KernelModeCaller;
+  unsigned long             ProtocolSequence;
+  unsigned long             IsClientLocal;
+  HANDLE                    ClientPID;
+  unsigned long             CallStatus;
+  RpcCallType               CallType;
+  RPC_CALL_LOCAL_ADDRESS_V1 *CallLocalAddress;
+  unsigned short            OpNum;
+  UUID                      InterfaceUuid;
+} RPC_CALL_ATTRIBUTES_V2_A;

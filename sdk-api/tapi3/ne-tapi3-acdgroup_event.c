@@ -1,0 +1,4 @@
+typedef enum ACDGROUP_EVENT {
+  ACDGE_NEW_GROUP = 0,
+  ACDGE_GROUP_REMOVED
+} ;

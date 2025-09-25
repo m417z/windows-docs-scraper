@@ -1,0 +1,4 @@
+LPARAM MAKELPARAM(
+    WORD l,
+    WORD h
+);

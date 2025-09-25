@@ -1,0 +1,74 @@
+{
+  "UID": "NS:winscard.OPENCARDNAMEW",
+  "title": "OPENCARDNAMEW (winscard.h)",
+  "description": "Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box. (Unicode)",
+  "helpviewer_keywords": [
+    "*LPOPENCARDNAMEW",
+    "*POPENCARDNAMEW",
+    "LPOPENCARDNAME",
+    "LPOPENCARDNAME structure pointer [Security]",
+    "OPENCARDNAME",
+    "OPENCARDNAME structure [Security]",
+    "OPENCARDNAMEA",
+    "OPENCARDNAMEW",
+    "SC_DLG_FORCE_UI",
+    "SC_DLG_MINIMAL_UI",
+    "SC_DLG_NO_UI",
+    "_smart_opencardname",
+    "security.opencardname",
+    "winscard/LPOPENCARDNAME",
+    "winscard/OPENCARDNAME",
+    "winscard/OPENCARDNAMEA",
+    "winscard/OPENCARDNAMEW"
+  ],
+  "old-location": "security\\opencardname.htm",
+  "tech.root": "security",
+  "ms.assetid": "b409a6fc-2cfd-491e-8f4c-f8567df7b08f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPOPENCARDNAMEW, *POPENCARDNAMEW, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW",
+  "req.header": "winscard.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "OPENCARDNAMEW (Unicode) and OPENCARDNAMEA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OPENCARDNAMEW, *POPENCARDNAMEW, *LPOPENCARDNAMEW",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "POPENCARDNAMEW",
+    "winscard/POPENCARDNAMEW",
+    "OPENCARDNAMEW",
+    "winscard/OPENCARDNAMEW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winscard.h"
+  ],
+  "api_name": [
+    "OPENCARDNAME",
+    "OPENCARDNAMEA",
+    "OPENCARDNAMEW"
+  ]
+}

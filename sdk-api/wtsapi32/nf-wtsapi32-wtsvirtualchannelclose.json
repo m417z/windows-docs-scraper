@@ -1,0 +1,61 @@
+{
+  "UID": "NF:wtsapi32.WTSVirtualChannelClose",
+  "title": "WTSVirtualChannelClose function (wtsapi32.h)",
+  "description": "Closes an open virtual channel handle.",
+  "helpviewer_keywords": [
+    "WTSVirtualChannelClose",
+    "WTSVirtualChannelClose function [Remote Desktop Services]",
+    "_win32_wtsvirtualchannelclose",
+    "termserv.wtsvirtualchannelclose",
+    "wtsapi32/WTSVirtualChannelClose"
+  ],
+  "old-location": "termserv\\wtsvirtualchannelclose.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "d82cb1cd-a9bd-45e8-8a86-2c7dd860b987",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WTSVirtualChannelClose, WTSVirtualChannelClose function [Remote Desktop Services], _win32_wtsvirtualchannelclose, termserv.wtsvirtualchannelclose, wtsapi32/WTSVirtualChannelClose",
+  "req.header": "wtsapi32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wtsapi32.lib",
+  "req.dll": "Wtsapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WTSVirtualChannelClose",
+    "wtsapi32/WTSVirtualChannelClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-session-wtsapi32-l1-1-1.dll",
+    "Wtsapi32.dll",
+    "Ext-MS-Win-Session-WtsApi32-l1-1-0.dll"
+  ],
+  "api_name": [
+    "WTSVirtualChannelClose"
+  ],
+  "req.apiset": "ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)"
+}

@@ -1,0 +1,4 @@
+typedef struct _SECPKG_TARGETINFO {
+  PSID   DomainSid;
+  PCWSTR ComputerName;
+} SECPKG_TARGETINFO, *PSECPKG_TARGETINFO;

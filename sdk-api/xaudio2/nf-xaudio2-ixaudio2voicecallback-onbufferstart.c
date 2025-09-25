@@ -1,0 +1,3 @@
+void OnBufferStart(
+  void *pBufferContext
+);

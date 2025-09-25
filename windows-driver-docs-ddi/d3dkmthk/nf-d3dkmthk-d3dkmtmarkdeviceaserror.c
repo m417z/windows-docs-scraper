@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTMarkDeviceAsError(
+  D3DKMT_MARKDEVICEASERROR *unnamedParam1
+);

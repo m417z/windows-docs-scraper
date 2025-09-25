@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltGetVolumeContext",
+  "title": "FltGetVolumeContext function (fltkernel.h)",
+  "description": "Learn more about the FltGetVolumeContext function.",
+  "old-location": "ifsk\\fltgetvolumecontext.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/25/2023",
+  "keywords": [
+    "FltGetVolumeContext function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_8cec5d5c-18c3-4ffe-be18-fffcfc8d0c14.xml, FltGetVolumeContext, FltGetVolumeContext routine [Installable File System Drivers], fltkernel/FltGetVolumeContext, ifsk.fltgetvolumecontext",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltGetVolumeContext",
+    "fltkernel/FltGetVolumeContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltGetVolumeContext"
+  ]
+}

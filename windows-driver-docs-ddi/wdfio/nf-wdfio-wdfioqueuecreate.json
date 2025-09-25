@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfio.WdfIoQueueCreate",
+  "title": "WdfIoQueueCreate function (wdfio.h)",
+  "description": "The WdfIoQueueCreate method creates and configures an I/O queue for a specified device.",
+  "old-location": "wdf\\wdfioqueuecreate.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfIoQueueCreate function"
+  ],
+  "ms.keywords": "DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, WdfIoQueueCreate, WdfIoQueueCreate method, kmdf.wdfioqueuecreate, wdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "ChangeQueueState, DriverCreate, DrvAckIoStop, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfIoQueueCreate",
+    "wdfio/WdfIoQueueCreate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfIoQueueCreate"
+  ]
+}

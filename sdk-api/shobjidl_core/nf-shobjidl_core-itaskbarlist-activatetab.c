@@ -1,0 +1,3 @@
+HRESULT ActivateTab(
+  HWND hwnd
+);

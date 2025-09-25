@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wiamdef.wiasReadPropGuid",
+  "title": "wiasReadPropGuid function (wiamdef.h)",
+  "description": "The wiasReadPropGuid function retrieves a GUID property value from a WIA item.",
+  "tech.root": "image",
+  "ms.date": "04/19/2022",
+  "keywords": [
+    "wiasReadPropGuid function"
+  ],
+  "ms.keywords": "image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]",
+  "req.header": "wiamdef.h",
+  "req.include-header": "Wiamdef.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wiaservc.lib",
+  "req.dll": "Wiaservc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "wiasReadPropGuid",
+    "wiamdef/wiasReadPropGuid"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wiaservc.dll"
+  ],
+  "api_name": [
+    "wiasReadPropGuid"
+  ]
+}

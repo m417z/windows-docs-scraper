@@ -1,0 +1,4 @@
+typedef struct _BCRYPT_PSS_PADDING_INFO {
+  LPCWSTR pszAlgId;
+  ULONG   cbSalt;
+} BCRYPT_PSS_PADDING_INFO;

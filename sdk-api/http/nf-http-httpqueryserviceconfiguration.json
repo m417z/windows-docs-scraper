@@ -1,0 +1,64 @@
+{
+  "UID": "NF:http.HttpQueryServiceConfiguration",
+  "title": "HttpQueryServiceConfiguration function (http.h)",
+  "description": "Retrieves one or more HTTP Server API configuration records.",
+  "helpviewer_keywords": [
+    "HttpQueryServiceConfiguration",
+    "HttpQueryServiceConfiguration function [HTTP]",
+    "HttpServiceConfigIPListenList",
+    "HttpServiceConfigSSLCertInfo",
+    "HttpServiceConfigSslCcsCertInfo",
+    "HttpServiceConfigSslSniCertInfo",
+    "HttpServiceConfigTimeout",
+    "HttpServiceConfigUrlAclInfo",
+    "_http_httpqueryserviceconfiguration",
+    "http.httpqueryserviceconfiguration",
+    "http/HttpQueryServiceConfiguration"
+  ],
+  "old-location": "http\\httpqueryserviceconfiguration.htm",
+  "tech.root": "http",
+  "ms.assetid": "bbd2c3c4-d2d0-4590-9b5c-6916b91600cd",
+  "ms.date": "01/10/2024",
+  "ms.keywords": "HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration",
+  "req.header": "http.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Httpapi.lib",
+  "req.dll": "Httpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HttpQueryServiceConfiguration",
+    "http/HttpQueryServiceConfiguration"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Httpapi.dll"
+  ],
+  "api_name": [
+    "HttpQueryServiceConfiguration"
+  ]
+}

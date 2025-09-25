@@ -1,0 +1,48 @@
+{
+  "UID": "NF:mrx.RxMakeLateDeviceAvailable",
+  "title": "RxMakeLateDeviceAvailable function (mrx.h)",
+  "description": "RxMakeLateDeviceAvailable modifies the device object to make a &#0034;late device&#0034; available. A late device is one that is not created in the driver's load routine.",
+  "old-location": "ifsk\\rxmakelatedeviceavailable.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxMakeLateDeviceAvailable function"
+  ],
+  "ms.keywords": "RxMakeLateDeviceAvailable, RxMakeLateDeviceAvailable routine [Installable File System Drivers], ifsk.rxmakelatedeviceavailable, mrx/RxMakeLateDeviceAvailable, rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml",
+  "req.header": "mrx.h",
+  "req.include-header": "Mrx.h, Rxstruc.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxMakeLateDeviceAvailable",
+    "mrx/RxMakeLateDeviceAvailable"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "mrx.h"
+  ],
+  "api_name": [
+    "RxMakeLateDeviceAvailable"
+  ]
+}

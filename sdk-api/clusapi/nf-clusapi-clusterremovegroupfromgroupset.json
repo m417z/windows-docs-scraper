@@ -1,0 +1,60 @@
+{
+  "UID": "NF:clusapi.ClusterRemoveGroupFromGroupSet",
+  "title": "ClusterRemoveGroupFromGroupSet function (clusapi.h)",
+  "description": "Removes the specified group from the groupset to which it is currently a member.",
+  "helpviewer_keywords": [
+    "ClusterRemoveGroupFromGroupSet",
+    "ClusterRemoveGroupFromGroupSet function [Failover Cluster]",
+    "PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET",
+    "PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET function [Failover Cluster]",
+    "clusapi/ClusterRemoveGroupFromGroupSet",
+    "clusapi/PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET",
+    "mscs.clusterremovegroupfromgroupcollection"
+  ],
+  "old-location": "mscs\\clusterremovegroupfromgroupcollection.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "26fdf045-0c7d-49ca-adc4-2f687e85b858",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterRemoveGroupFromGroupSet, ClusterRemoveGroupFromGroupSet function [Failover Cluster], PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET, PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterRemoveGroupFromGroupSet, clusapi/PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET, mscs.clusterremovegroupfromgroupcollection",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterRemoveGroupFromGroupSet",
+    "clusapi/ClusterRemoveGroupFromGroupSet"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "ClusterRemoveGroupFromGroupSet"
+  ]
+}

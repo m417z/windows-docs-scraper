@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1541 {
+  BOOL sv1541_minfreeconnections;
+} SERVER_INFO_1541, *PSERVER_INFO_1541, *LPSERVER_INFO_1541;

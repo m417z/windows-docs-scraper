@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_RESOLVESHAREDRESOURCE",
+  "title": "PFND3DDDI_RESOLVESHAREDRESOURCE (d3dumddi.h)",
+  "description": "The ResolveSharedResource function informs a user-mode display driver that ownership of a shared surface changed or that a surface is being used for GDI interoperation.",
+  "old-location": "display\\resolvesharedresource.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_RESOLVESHAREDRESOURCE callback function"
+  ],
+  "ms.keywords": "PFND3DDDI_RESOLVESHAREDRESOURCE, PFND3DDDI_RESOLVESHAREDRESOURCE callback, ResolveSharedResource, ResolveSharedResource callback function [Display Devices], UserModeDisplayDriver_Functions_d1818521-a7ef-4daf-8bd7-47103bba2755.xml, d3dumddi/ResolveSharedResource, display.resolvesharedresource",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "ResolveSharedResource is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_RESOLVESHAREDRESOURCE",
+    "d3dumddi/PFND3DDDI_RESOLVESHAREDRESOURCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_RESOLVESHAREDRESOURCE"
+  ]
+}

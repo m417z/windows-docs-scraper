@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ufxclient.EVT_UFX_DEVICE_HOST_DISCONNECT",
+  "title": "EVT_UFX_DEVICE_HOST_DISCONNECT (ufxclient.h)",
+  "description": "The client driver's implementation to disable the function controller's communication with the host.",
+  "old-location": "buses\\evt_ufx_device_host_disconnect.htm",
+  "tech.root": "usbref",
+  "ms.date": "01/18/2022",
+  "keywords": [
+    "EVT_UFX_DEVICE_HOST_DISCONNECT callback function"
+  ],
+  "ms.keywords": "EVT_UFX_DEVICE_HOST_DISCONNECT, EVT_UFX_DEVICE_HOST_DISCONNECT callback, EvtUfxDeviceHostDisconnect, EvtUfxDeviceHostDisconnect callback function [Buses], PFN_UFX_DEVICE_HOST_DISCONNECT, PFN_UFX_DEVICE_HOST_DISCONNECT callback function pointer [Buses], buses.evt_ufx_device_host_disconnect, ufxclient/EvtUfxDeviceHostDisconnect",
+  "req.header": "ufxclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UFX_DEVICE_HOST_DISCONNECT",
+    "ufxclient/EVT_UFX_DEVICE_HOST_DISCONNECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ufxclient.h"
+  ],
+  "api_name": [
+    "EVT_UFX_DEVICE_HOST_DISCONNECT"
+  ]
+}

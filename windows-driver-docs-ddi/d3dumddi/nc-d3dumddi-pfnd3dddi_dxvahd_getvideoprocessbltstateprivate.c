@@ -1,0 +1,7 @@
+PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE Pfnd3dddiDxvahdGetvideoprocessbltstateprivate;
+
+HRESULT Pfnd3dddiDxvahdGetvideoprocessbltstateprivate(
+  HANDLE unnamedParam1,
+  D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE *unnamedParam2
+)
+{...}

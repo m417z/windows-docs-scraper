@@ -1,0 +1,53 @@
+{
+  "UID": "NS:miniport._PCI_PMC",
+  "title": "PCI_PMC (miniport.h)",
+  "description": "The _PCI_PMC structure (miniport.h) describes the contents of the power management capabilities register.",
+  "tech.root": "PCI",
+  "ms.date": "07/20/2022",
+  "keywords": [
+    "PCI_PMC structure"
+  ],
+  "ms.keywords": "*PPCI_PMC, PCI.pci_pmc, PCI_PMC, PCI_PMC structure [Buses], PPCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, wdm/PPCI_PMC",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": "PCI_PMC, *PPCI_PMC",
+  "f1_keywords": [
+    "_PCI_PMC",
+    "miniport/_PCI_PMC",
+    "PPCI_PMC",
+    "miniport/PPCI_PMC",
+    "PCI_PMC",
+    "miniport/PCI_PMC"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_PCI_PMC",
+    "PPCI_PMC",
+    "PCI_PMC"
+  ]
+}

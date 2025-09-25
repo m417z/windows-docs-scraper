@@ -1,0 +1,48 @@
+{
+  "UID": "NI:winsmcrd.IOCTL_SMARTCARD_IS_ABSENT",
+  "title": "IOCTL_SMARTCARD_IS_ABSENT (winsmcrd.h)",
+  "description": "The IOCTL_SMARTCARD_IS_ABSENT control code returns immediately with STATUS_SUCCESS if no smart card is currently detected.",
+  "old-location": "nfpdrivers\\ioctl_smartcard_is_absent.htm",
+  "tech.root": "nfpdrivers",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_SMARTCARD_IS_ABSENT IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SMARTCARD_IS_ABSENT, IOCTL_SMARTCARD_IS_ABSENT control, IOCTL_SMARTCARD_IS_ABSENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_absent, winsmcrd/IOCTL_SMARTCARD_IS_ABSENT",
+  "req.header": "winsmcrd.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SMARTCARD_IS_ABSENT",
+    "winsmcrd/IOCTL_SMARTCARD_IS_ABSENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winsmcrd.h"
+  ],
+  "api_name": [
+    "IOCTL_SMARTCARD_IS_ABSENT"
+  ]
+}

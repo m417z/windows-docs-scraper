@@ -1,0 +1,54 @@
+{
+  "UID": "NS:video._VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+  "title": "_VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE (video.h)",
+  "description": "The VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure describes the Write Combined video memory protection service routines implemented by the video port driver. The protected video memory cannot be accessed by the CPU.",
+  "old-location": "display\\video_port_wcmemoryprotection_interface.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure"
+  ],
+  "ms.keywords": "*PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure pointer [Display Devices], VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure [Display Devices], Video_Structs_15076908-e598-4025-8884-a9ed60b1668c.xml, _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, display.video_port_wcmemoryprotection_interface, video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+  "f1_keywords": [
+    "_VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+    "video/_VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+    "PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+    "video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+    "VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+    "video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "video.h"
+  ],
+  "api_name": [
+    "_VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+    "PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE",
+    "VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE"
+  ]
+}

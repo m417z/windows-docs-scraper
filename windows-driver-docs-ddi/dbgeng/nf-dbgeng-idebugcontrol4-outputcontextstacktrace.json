@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugControl4.OutputContextStackTrace",
+  "title": "IDebugControl4::OutputContextStackTrace (dbgeng.h)",
+  "description": "The OutputContextStackTrace method prints the call stack specified by an array of stack frames and corresponding register contexts.",
+  "old-location": "debugger\\outputcontextstacktrace.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugControl4::OutputContextStackTrace"
+  ],
+  "ms.keywords": "IDebugControl4 interface [Windows Debugging],OutputContextStackTrace method, IDebugControl4.OutputContextStackTrace, IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, OutputContextStackTrace, OutputContextStackTrace method [Windows Debugging], OutputContextStackTrace method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h, Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugControl4::OutputContextStackTrace",
+    "dbgeng/IDebugControl4::OutputContextStackTrace"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugControl4::OutputContextStackTrace"
+  ]
+}

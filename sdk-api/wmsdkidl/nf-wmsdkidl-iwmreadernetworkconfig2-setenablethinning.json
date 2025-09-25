@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableThinning",
+  "title": "IWMReaderNetworkConfig2::SetEnableThinning (wmsdkidl.h)",
+  "description": "The SetEnableThinning method enables or disables Intelligent Streaming. Intelligent Streaming is the communication between the reader and the streaming server that enables the server to change the content sent based on available bandwidth.",
+  "helpviewer_keywords": [
+    "IWMReaderNetworkConfig2 interface [windows Media Format]",
+    "SetEnableThinning method",
+    "IWMReaderNetworkConfig2.SetEnableThinning",
+    "IWMReaderNetworkConfig2::SetEnableThinning",
+    "IWMReaderNetworkConfig2SetEnableThinning",
+    "SetEnableThinning",
+    "SetEnableThinning method [windows Media Format]",
+    "SetEnableThinning method [windows Media Format]",
+    "IWMReaderNetworkConfig2 interface",
+    "wmformat.iwmreadernetworkconfig2_setenablethinning",
+    "wmsdkidl/IWMReaderNetworkConfig2::SetEnableThinning"
+  ],
+  "old-location": "wmformat\\iwmreadernetworkconfig2_setenablethinning.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "98d4eb7e-e712-4ca0-a532-1160254748b8",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableThinning method, IWMReaderNetworkConfig2.SetEnableThinning, IWMReaderNetworkConfig2::SetEnableThinning, IWMReaderNetworkConfig2SetEnableThinning, SetEnableThinning, SetEnableThinning method [windows Media Format], SetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablethinning, wmsdkidl/IWMReaderNetworkConfig2::SetEnableThinning",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderNetworkConfig2::SetEnableThinning",
+    "wmsdkidl/IWMReaderNetworkConfig2::SetEnableThinning"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderNetworkConfig2.SetEnableThinning"
+  ]
+}

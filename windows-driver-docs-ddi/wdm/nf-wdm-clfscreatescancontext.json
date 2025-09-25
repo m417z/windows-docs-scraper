@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.ClfsCreateScanContext",
+  "title": "ClfsCreateScanContext function (wdm.h)",
+  "description": "The ClfsCreateScanContext routine creates a scan context that can be used to iterate over the containers of a specified CLFS log.",
+  "old-location": "kernel\\clfscreatescancontext.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ClfsCreateScanContext function"
+  ],
+  "ms.keywords": "ClfsCreateScanContext, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfs.lib",
+  "req.dll": "Clfs.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ClfsCreateScanContext",
+    "wdm/ClfsCreateScanContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Clfs.sys",
+    "Ext-MS-Win-fs-clfs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ClfsCreateScanContext"
+  ]
+}

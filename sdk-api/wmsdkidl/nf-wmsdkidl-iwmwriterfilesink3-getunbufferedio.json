@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterFileSink3.GetUnbufferedIO",
+  "title": "IWMWriterFileSink3::GetUnbufferedIO (wmsdkidl.h)",
+  "description": "The GetUnbufferedIO method ascertains whether unbuffered I/O is used for the file sink.",
+  "helpviewer_keywords": [
+    "GetUnbufferedIO",
+    "GetUnbufferedIO method [windows Media Format]",
+    "GetUnbufferedIO method [windows Media Format]",
+    "IWMWriterFileSink3 interface",
+    "IWMWriterFileSink3 interface [windows Media Format]",
+    "GetUnbufferedIO method",
+    "IWMWriterFileSink3.GetUnbufferedIO",
+    "IWMWriterFileSink3::GetUnbufferedIO",
+    "IWMWriterFileSink3GetUnbufferedIO",
+    "wmformat.iwmwriterfilesink3_getunbufferedio",
+    "wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO"
+  ],
+  "old-location": "wmformat\\iwmwriterfilesink3_getunbufferedio.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "e87222eb-6ed1-49b7-a544-27703ba9806b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetUnbufferedIO, GetUnbufferedIO method [windows Media Format], GetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetUnbufferedIO method, IWMWriterFileSink3.GetUnbufferedIO, IWMWriterFileSink3::GetUnbufferedIO, IWMWriterFileSink3GetUnbufferedIO, wmformat.iwmwriterfilesink3_getunbufferedio, wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterFileSink3::GetUnbufferedIO",
+    "wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterFileSink3.GetUnbufferedIO"
+  ]
+}

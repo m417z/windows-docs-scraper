@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_SETPRIORITY {
+  HANDLE hResource;
+  UINT   Priority;
+} D3DDDIARG_SETPRIORITY;

@@ -1,0 +1,68 @@
+{
+  "UID": "NS:commctrl.tagNMDAYSTATE",
+  "title": "NMDAYSTATE (commctrl.h)",
+  "description": "Carries information required to process the MCN_GETDAYSTATE notification code. All members of this structure are for input, except prgDayState, which the receiving application must set when processing MCN_GETDAYSTATE.",
+  "helpviewer_keywords": [
+    "*LPNMDAYSTATE",
+    "LPNMDAYSTATE",
+    "LPNMDAYSTATE structure pointer [Windows Controls]",
+    "NMDAYSTATE",
+    "NMDAYSTATE structure [Windows Controls]",
+    "_win32_NMDAYSTATE",
+    "_win32_NMDAYSTATE_cpp",
+    "commctrl/LPNMDAYSTATE",
+    "commctrl/NMDAYSTATE",
+    "controls.NMDAYSTATE",
+    "controls._win32_NMDAYSTATE"
+  ],
+  "old-location": "controls\\NMDAYSTATE.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\monthcal\\structures\\nmdaystate.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPNMDAYSTATE, LPNMDAYSTATE, LPNMDAYSTATE structure pointer [Windows Controls], NMDAYSTATE, NMDAYSTATE structure [Windows Controls], _win32_NMDAYSTATE, _win32_NMDAYSTATE_cpp, commctrl/LPNMDAYSTATE, commctrl/NMDAYSTATE, controls.NMDAYSTATE, controls._win32_NMDAYSTATE",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NMDAYSTATE, *LPNMDAYSTATE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagNMDAYSTATE",
+    "commctrl/tagNMDAYSTATE",
+    "LPNMDAYSTATE",
+    "commctrl/LPNMDAYSTATE",
+    "NMDAYSTATE",
+    "commctrl/NMDAYSTATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "NMDAYSTATE"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "UID": "NF:dbghelp.SymSrvGetFileIndexString",
+  "title": "SymSrvGetFileIndexString function (dbghelp.h)",
+  "description": "The SymSrvGetFileIndexString function (dbghelp.h) retrieves the index string for the specified .pdb, .dbg, or image file.",
+  "helpviewer_keywords": [
+    "SymSrvGetFileIndexString",
+    "SymSrvGetFileIndexString function",
+    "SymSrvGetFileIndexStringW",
+    "base.symsrvgetfileindexstring",
+    "dbghelp/SymSrvGetFileIndexString",
+    "dbghelp/SymSrvGetFileIndexStringW"
+  ],
+  "old-location": "base\\symsrvgetfileindexstring.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "e66598fb-d7c7-4fde-a995-bfd1e7ceb24b",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "SymSrvGetFileIndexString, SymSrvGetFileIndexString function, SymSrvGetFileIndexStringW, base.symsrvgetfileindexstring, dbghelp/SymSrvGetFileIndexString, dbghelp/SymSrvGetFileIndexStringW",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SymSrvGetFileIndexStringW (Unicode) and SymSrvGetFileIndexString (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "DbgHelp.lib",
+  "req.dll": "DbgHelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 6.3 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SymSrvGetFileIndexString",
+    "dbghelp/SymSrvGetFileIndexString"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "DbgHelp.dll"
+  ],
+  "api_name": [
+    "SymSrvGetFileIndexString",
+    "SymSrvGetFileIndexString",
+    "SymSrvGetFileIndexStringW"
+  ]
+}

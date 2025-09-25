@@ -1,0 +1,3 @@
+void EFI_SET_VARIABLE_GET_VARIABLE_NAME(
+  _SetVariable
+);

@@ -1,0 +1,1 @@
+XMVECTOR XM_CALLCONV XMVectorFalseInt() noexcept;

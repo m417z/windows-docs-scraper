@@ -1,0 +1,4 @@
+typedef struct _IMAGE_DATA_DIRECTORY {
+  DWORD VirtualAddress;
+  DWORD Size;
+} IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storport.StorPortFreeMdl",
+  "title": "StorPortFreeMdl function (storport.h)",
+  "description": "The StorPortFreeMdl routine frees a memory descriptor list (MDL) describing non-paged pool memory.",
+  "old-location": "storage\\storportfreemdl.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortFreeMdl function"
+  ],
+  "ms.keywords": "StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], storage.storportfreemdl, storport/StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "StorPortIrql",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortFreeMdl",
+    "storport/StorPortFreeMdl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortFreeMdl"
+  ]
+}

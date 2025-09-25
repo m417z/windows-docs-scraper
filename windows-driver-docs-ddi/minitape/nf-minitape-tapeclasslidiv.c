@@ -1,0 +1,4 @@
+SCSIPORT_API LARGE_INTEGER TapeClassLiDiv(
+  [in] LARGE_INTEGER Dividend,
+  [in] LARGE_INTEGER Divisor
+);

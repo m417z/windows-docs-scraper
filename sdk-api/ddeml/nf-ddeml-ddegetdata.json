@@ -1,0 +1,60 @@
+{
+  "UID": "NF:ddeml.DdeGetData",
+  "title": "DdeGetData function (ddeml.h)",
+  "description": "Copies data from the specified Dynamic Data Exchange (DDE) object to the specified local buffer.",
+  "helpviewer_keywords": [
+    "DdeGetData",
+    "DdeGetData function [Data Exchange]",
+    "_win32_DdeGetData",
+    "_win32_ddegetdata_cpp",
+    "dataxchg.ddegetdata",
+    "ddeml/DdeGetData",
+    "winui._win32_ddegetdata"
+  ],
+  "old-location": "dataxchg\\ddegetdata.htm",
+  "tech.root": "dataxchg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\dataexchange\\dynamicdataexchangemanagementlibrary\\dynamicdataexchangemanagementreference\\dynamicdataexchangemanagementfunctions\\ddegetdata.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DdeGetData, DdeGetData function [Data Exchange], _win32_DdeGetData, _win32_ddegetdata_cpp, dataxchg.ddegetdata, ddeml/DdeGetData, winui._win32_ddegetdata",
+  "req.header": "ddeml.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DdeGetData",
+    "ddeml/DdeGetData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "DdeGetData"
+  ]
+}

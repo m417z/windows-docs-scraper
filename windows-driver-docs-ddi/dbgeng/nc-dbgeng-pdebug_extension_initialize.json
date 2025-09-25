@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dbgeng.PDEBUG_EXTENSION_INITIALIZE",
+  "title": "PDEBUG_EXTENSION_INITIALIZE (dbgeng.h)",
+  "description": "The DebugExtensionInitialize callback function is called by the engine after loading a DbgEng extension DLL.C++ CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;",
+  "old-location": "debugger\\debugextensioninitialize.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "PDEBUG_EXTENSION_INITIALIZE callback function"
+  ],
+  "ms.keywords": "DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, PDEBUG_EXTENSION_INITIALIZE callback, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize",
+  "req.header": "dbgeng.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PDEBUG_EXTENSION_INITIALIZE",
+    "dbgeng/PDEBUG_EXTENSION_INITIALIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "PDEBUG_EXTENSION_INITIALIZE"
+  ]
+}

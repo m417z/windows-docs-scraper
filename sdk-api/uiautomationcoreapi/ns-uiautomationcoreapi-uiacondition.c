@@ -1,0 +1,3 @@
+struct UiaCondition {
+  ConditionType ConditionType;
+};

@@ -1,0 +1,3 @@
+LONG MCIWndUseTime(
+     hwnd
+);

@@ -1,0 +1,3 @@
+HRESULT GetLanguage(
+  LanguageKind *pKind
+);

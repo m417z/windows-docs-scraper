@@ -1,0 +1,68 @@
+{
+  "UID": "NF:winbase.PowerSetRequest",
+  "title": "PowerSetRequest function (winbase.h)",
+  "description": "Increments the count of power requests of the specified type for a power request object.",
+  "helpviewer_keywords": [
+    "PowerRequestAwayModeRequired",
+    "PowerRequestDisplayRequired",
+    "PowerRequestExecutionRequired",
+    "PowerRequestSystemRequired",
+    "PowerSetRequest",
+    "PowerSetRequest function",
+    "base.powersetrequest",
+    "winbase/PowerSetRequest"
+  ],
+  "old-location": "base\\powersetrequest.htm",
+  "tech.root": "base",
+  "ms.assetid": "85249de8-5832-4f25-bbd9-3576cfd1caa0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PowerSetRequest",
+    "winbase/PowerSetRequest"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "PowerSetRequest"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT UnregisterDuckNotification(
+  IAudioVolumeDuckNotification *duckNotification
+);

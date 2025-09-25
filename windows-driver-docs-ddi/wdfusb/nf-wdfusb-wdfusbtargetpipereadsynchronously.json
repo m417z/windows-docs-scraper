@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfusb.WdfUsbTargetPipeReadSynchronously",
+  "title": "WdfUsbTargetPipeReadSynchronously function (wdfusb.h)",
+  "description": "The WdfUsbTargetPipeReadSynchronously method builds a read request and sends it synchronously to a specified USB input pipe.",
+  "old-location": "wdf\\wdfusbtargetpipereadsynchronously.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfUsbTargetPipeReadSynchronously function"
+  ],
+  "ms.keywords": "DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml, WdfUsbTargetPipeReadSynchronously, WdfUsbTargetPipeReadSynchronously method, kmdf.wdfusbtargetpipereadsynchronously, wdf.wdfusbtargetpipereadsynchronously, wdfusb/WdfUsbTargetPipeReadSynchronously",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, InternalIoctlReqs, IoctlReqs, KmdfIrql, KmdfIrql2, SyncReqSend, UsbKmdfIrql, UsbKmdfIrql2, WriteReqs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfUsbTargetPipeReadSynchronously",
+    "wdfusb/WdfUsbTargetPipeReadSynchronously"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfUsbTargetPipeReadSynchronously"
+  ]
+}

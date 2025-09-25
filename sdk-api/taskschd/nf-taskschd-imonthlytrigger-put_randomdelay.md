@@ -1,0 +1,13 @@
+# IMonthlyTrigger::put_RandomDelay
+
+## Description
+
+Gets or sets a delay time that is randomly added to the start time of the trigger.
+
+This property is read/write.
+
+## Parameters
+
+## See also
+
+[IMonthlyTrigger](https://learn.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger)

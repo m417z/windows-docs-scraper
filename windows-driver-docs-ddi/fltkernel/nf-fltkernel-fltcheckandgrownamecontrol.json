@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltCheckAndGrowNameControl",
+  "title": "FltCheckAndGrowNameControl function (fltkernel.h)",
+  "description": "The FltCheckAndGrowNameControl routine checks whether the buffer in a FLT_NAME_CONTROL structure is large enough to hold the specified number of bytes. If not, FltCheckAndGrowNameControl replaces it with a larger system-allocated buffer.",
+  "old-location": "ifsk\\fltcheckandgrownamecontrol.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltCheckAndGrowNameControl function"
+  ],
+  "ms.keywords": "FltApiRef_a_to_d_5ab0b3b3-adeb-4752-9cb5-1d7521b84607.xml, FltCheckAndGrowNameControl, FltCheckAndGrowNameControl routine [Installable File System Drivers], fltkernel/FltCheckAndGrowNameControl, ifsk.fltcheckandgrownamecontrol",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltCheckAndGrowNameControl",
+    "fltkernel/FltCheckAndGrowNameControl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "FltMgr.lib",
+    "FltMgr.dll"
+  ],
+  "api_name": [
+    "FltCheckAndGrowNameControl"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdtfpnpaction.IWDTFPNPAction2.EDTCancelRemoveDevice",
+  "title": "IWDTFPNPAction2::EDTCancelRemoveDevice (wdtfpnpaction.h)",
+  "description": "Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.",
+  "old-location": "dtf\\iwdtfpnpaction2_edtcancelremovedevice.htm",
+  "tech.root": "dtf",
+  "ms.date": "04/04/2018",
+  "keywords": [
+    "IWDTFPNPAction2::EDTCancelRemoveDevice"
+  ],
+  "ms.keywords": "EDTCancelRemoveDevice, EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTCancelRemoveDevice method, IWDTFPNPAction2.EDTCancelRemoveDevice, IWDTFPNPAction2::EDTCancelRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTCancelRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTCancelRemoveDevice, dtf.iwdtfpnpaction2_edtcancelremovedevice, wdtfpnpaction/IWDTFPNPAction2::EDTCancelRemoveDevice",
+  "req.header": "wdtfpnpaction.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows XP Professional",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "WDTFPNPAction.idl",
+  "req.max-support": null,
+  "req.namespace": "Microsoft.WDTF",
+  "req.assembly": "WDTFDriverPNPAction.Interop.dll",
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDTFPNPAction2::EDTCancelRemoveDevice",
+    "wdtfpnpaction/IWDTFPNPAction2::EDTCancelRemoveDevice"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WDTFDriverPNPAction.Interop.dll"
+  ],
+  "api_name": [
+    "IWDTFPNPAction2::EDTCancelRemoveDevice"
+  ]
+}

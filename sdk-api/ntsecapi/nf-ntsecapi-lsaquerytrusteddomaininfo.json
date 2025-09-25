@@ -1,0 +1,67 @@
+{
+  "UID": "NF:ntsecapi.LsaQueryTrustedDomainInfo",
+  "title": "LsaQueryTrustedDomainInfo function (ntsecapi.h)",
+  "description": "The LsaQueryTrustedDomainInfo function retrieves information about a trusted domain.",
+  "helpviewer_keywords": [
+    "LsaQueryTrustedDomainInfo",
+    "LsaQueryTrustedDomainInfo function [Security]",
+    "TrustedDomainFullInformation",
+    "TrustedDomainInformationBasic",
+    "TrustedDomainInformationEx",
+    "TrustedDomainNameInformation",
+    "TrustedPasswordInformation",
+    "TrustedPosixOffsetInformation",
+    "_lsa_lsaquerytrusteddomaininfo",
+    "ntsecapi/LsaQueryTrustedDomainInfo",
+    "security.lsaquerytrusteddomaininfo"
+  ],
+  "old-location": "security\\lsaquerytrusteddomaininfo.htm",
+  "tech.root": "security",
+  "ms.assetid": "62925515-a6f3-4b5f-bf97-edb968af19a3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaQueryTrustedDomainInfo, LsaQueryTrustedDomainInfo function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsaquerytrusteddomaininfo, ntsecapi/LsaQueryTrustedDomainInfo, security.lsaquerytrusteddomaininfo",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaQueryTrustedDomainInfo",
+    "ntsecapi/LsaQueryTrustedDomainInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-lsa-l1-1-4.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-3.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-2.dll",
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "LsaQueryTrustedDomainInfo"
+  ]
+}

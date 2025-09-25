@@ -1,0 +1,3 @@
+void UnregisterCallback(
+  AudioStateMonitorRegistrationHandle registration
+);

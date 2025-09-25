@@ -1,0 +1,48 @@
+{
+  "UID": "NF:umdprovider.UMDEtwRegister",
+  "title": "UMDEtwRegister function (umdprovider.h)",
+  "description": "Registers the event trace provider. The driver should call this function before it makes any calls to log events.",
+  "old-location": "display\\umdetwregister.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "UMDEtwRegister function"
+  ],
+  "ms.keywords": "UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister",
+  "req.header": "umdprovider.h",
+  "req.include-header": "Umdprovider.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UMDEtwRegister",
+    "umdprovider/UMDEtwRegister"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "umdprovider.h"
+  ],
+  "api_name": [
+    "UMDEtwRegister"
+  ]
+}

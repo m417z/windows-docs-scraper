@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.PROTOCOL_NET_PNP_EVENT",
+  "title": "PROTOCOL_NET_PNP_EVENT (ndis.h)",
+  "description": "NDIS calls the ProtocolNetPnPEvent function to indicate a network Plug and Play event, an NDIS PnP event, or a power management event to a protocol driver.Note  You must declare the function by using the PROTOCOL_NET_PNP_EVENT type.",
+  "old-location": "netvista\\protocolnetpnpevent.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PROTOCOL_NET_PNP_EVENT callback function"
+  ],
+  "ms.keywords": "PROTOCOL_NET_PNP_EVENT, PROTOCOL_NET_PNP_EVENT callback, ProtocolNetPnPEvent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolNetPnPEvent, netvista.protocolnetpnpevent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PROTOCOL_NET_PNP_EVENT",
+    "ndis/PROTOCOL_NET_PNP_EVENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "PROTOCOL_NET_PNP_EVENT"
+  ]
+}

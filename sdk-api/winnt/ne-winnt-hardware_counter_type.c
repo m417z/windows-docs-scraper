@@ -1,0 +1,4 @@
+typedef enum _HARDWARE_COUNTER_TYPE {
+  PMCCounter,
+  MaxHardwareCounterType
+} HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE;

@@ -1,0 +1,4 @@
+typedef struct _PPTT {
+  DESCRIPTION_HEADER Header;
+  PROC_TOPOLOGY_NODE HierarchyNodes[ANYSIZE_ARRAY];
+} PPTT, *PPPTT;

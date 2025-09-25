@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD GetIfEntry(
+  [in, out] PMIB_IFROW pIfRow
+);

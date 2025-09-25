@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltOplockBreakToNoneEx",
+  "title": "FltOplockBreakToNoneEx function (fltkernel.h)",
+  "description": "The FltOplockBreakToNoneEx routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.",
+  "old-location": "ifsk\\fltoplockbreaktononeex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltOplockBreakToNoneEx function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_7111d712-59f1-4c71-b02c-9bb415aa118f.xml, FltOplockBreakToNoneEx, FltOplockBreakToNoneEx routine [Installable File System Drivers], fltkernel/FltOplockBreakToNoneEx, ifsk.fltoplockbreaktononeex",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The FltOplockBreakToNoneEx routine is available starting with Windows 7.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltOplockBreakToNoneEx",
+    "fltkernel/FltOplockBreakToNoneEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltOplockBreakToNoneEx"
+  ]
+}

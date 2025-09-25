@@ -1,0 +1,3 @@
+BOOL CloseColorProfile(
+  HPROFILE hProfile
+);

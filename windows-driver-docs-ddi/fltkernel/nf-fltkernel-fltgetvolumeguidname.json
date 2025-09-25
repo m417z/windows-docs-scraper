@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltGetVolumeGuidName",
+  "title": "FltGetVolumeGuidName function (fltkernel.h)",
+  "description": "The FltGetVolumeGuidName routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format.",
+  "old-location": "ifsk\\fltgetvolumeguidname.htm",
+  "tech.root": "ifsk",
+  "ms.date": "08/10/2022",
+  "keywords": [
+    "FltGetVolumeGuidName function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName, FltGetVolumeGuidName routine [Installable File System Drivers], fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltGetVolumeGuidName",
+    "fltkernel/FltGetVolumeGuidName"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltGetVolumeGuidName"
+  ]
+}

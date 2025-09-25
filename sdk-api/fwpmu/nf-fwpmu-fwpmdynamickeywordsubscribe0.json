@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fwpmu.FwpmDynamicKeywordSubscribe0",
+  "title": "FwpmDynamicKeywordSubscribe0",
+  "description": "Requests the delivery of notifications regarding changes to particular dynamic keyword address ([FW_DYNAMIC_KEYWORD_ADDRESS0](/windows/win32/api/netfw/ns-netfw-fw_dynamic_keyword_address0)) objects.",
+  "tech.root": "fwp",
+  "ms.date": "05/17/2021",
+  "req.construct-type": "function",
+  "req.header": "fwpmu.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fwpuclnt.lib",
+  "req.dll": "Fwpuclnt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "FwpmDynamicKeywordSubscribe0",
+    "fwpmu/FwpmDynamicKeywordSubscribe0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Fwpuclnt.dll"
+  ],
+  "api_name": [
+    "FwpmDynamicKeywordSubscribe0"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _SERVER_INFO_100 {
+  DWORD sv100_platform_id;
+  LMSTR sv100_name;
+} SERVER_INFO_100, *PSERVER_INFO_100, *LPSERVER_INFO_100;

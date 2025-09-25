@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlRightChild",
+  "title": "RtlRightChild macro (ntddk.h)",
+  "description": "The RtlRightChild routine returns a pointer to the right child of the specified splay link node.",
+  "old-location": "ifsk\\rtlrightchild.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlRightChild macro"
+  ],
+  "ms.keywords": "RtlRightChild, RtlRightChild routine [Installable File System Drivers], ifsk.rtlrightchild, ntddk/RtlRightChild, rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlRightChild",
+    "ntddk/RtlRightChild"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "RtlRightChild"
+  ]
+}

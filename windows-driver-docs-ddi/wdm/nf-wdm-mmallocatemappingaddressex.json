@@ -1,0 +1,42 @@
+{
+  "UID": "NF:wdm.MmAllocateMappingAddressEx",
+  "title": "MmAllocateMappingAddressEx function",
+  "description": "The MmAllocateMappingAddressEx function allocates a system PTE mapping of the requested length that can be used later to map arbitrary addresses.",
+  "tech.root": "kernel",
+  "ms.date": "08/29/2025",
+  "ms.keywords": "MmAllocateMappingAddressEx",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=APC_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "MmAllocateMappingAddressEx"
+  ],
+  "f1_keywords": [
+    "MmAllocateMappingAddressEx",
+    "wdm/MmAllocateMappingAddressEx"
+  ]
+}

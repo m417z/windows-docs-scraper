@@ -1,0 +1,3 @@
+void IoDeassignArcName(
+  [in] ArcName
+);

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cfapi.CfSetInSyncState",
+  "title": "CfSetInSyncState function (cfapi.h)",
+  "description": "Sets the in-sync state for a placeholder file or folder.",
+  "helpviewer_keywords": [
+    "CfSetInSyncState",
+    "CfSetInSyncState function",
+    "cfapi/CfSetInSyncState",
+    "cloudApi.cfsetinsyncstate"
+  ],
+  "old-location": "cloudapi\\cfsetinsyncstate.htm",
+  "tech.root": "cloudapi",
+  "ms.assetid": "1CB7955D-E530-4F34-8D67-BC608F8B6AF1",
+  "ms.date": "03/31/2023",
+  "ms.keywords": "CfSetInSyncState, CfSetInSyncState function, cfapi/CfSetInSyncState, cloudApi.cfsetinsyncstate",
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "CldApi.lib",
+  "req.dll": "CldApi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CfSetInSyncState",
+    "cfapi/CfSetInSyncState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CldApi.dll"
+  ],
+  "api_name": [
+    "CfSetInSyncState"
+  ]
+}

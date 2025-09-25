@@ -1,0 +1,7 @@
+typedef enum _STORAGE_DIAGNOSTIC_TARGET_TYPE {
+  StorageDiagnosticTargetTypeUndefined,
+  StorageDiagnosticTargetTypePort,
+  StorageDiagnosticTargetTypeMiniport,
+  StorageDiagnosticTargetTypeHbaFirmware,
+  StorageDiagnosticTargetTypeMax
+} STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE;

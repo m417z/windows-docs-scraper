@@ -1,0 +1,7 @@
+PFND3D12DDI_IMPLICITSHADERCACHECONTROL_0080 Pfnd3d12ddiImplicitshadercachecontrol0080;
+
+void Pfnd3d12ddiImplicitshadercachecontrol0080(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_IMPLICIT_SHADER_CACHE_CONTROL_FLAGS_0080 unnamedParam2
+)
+{...}

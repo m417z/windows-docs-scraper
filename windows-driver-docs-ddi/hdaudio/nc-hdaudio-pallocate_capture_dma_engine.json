@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PALLOCATE_CAPTURE_DMA_ENGINE",
+  "title": "PALLOCATE_CAPTURE_DMA_ENGINE (hdaudio.h)",
+  "description": "The AllocateCaptureDmaEngine routine allocates a DMA engine for a capture stream.The function pointer type for an AllocateCaptureDmaEngine routine is defined as follows.",
+  "old-location": "audio\\allocatecapturedmaengine.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PALLOCATE_CAPTURE_DMA_ENGINE callback function"
+  ],
+  "ms.keywords": "AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, PALLOCATE_CAPTURE_DMA_ENGINE callback, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PALLOCATE_CAPTURE_DMA_ENGINE",
+    "hdaudio/PALLOCATE_CAPTURE_DMA_ENGINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PALLOCATE_CAPTURE_DMA_ENGINE"
+  ]
+}

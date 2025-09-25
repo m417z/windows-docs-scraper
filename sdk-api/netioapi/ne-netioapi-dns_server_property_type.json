@@ -1,0 +1,50 @@
+{
+  "UID": "NE:netioapi._DNS_SERVER_PROPERTY_TYPE",
+  "title": "DNS_SERVER_PROPERTY_TYPE",
+  "description": "Defines constants that specify the validity of the property held in the [DNS_SERVER_PROPERTY::Property](/windows/win32/api/netioapi/ns-netioapi-dns_server_property) member.",
+  "tech.root": "IpHlp",
+  "ms.date": "07/16/2021",
+  "req.construct-type": "enumeration",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MIB_IF_TABLE_LEVEL, *PMIB_IF_TABLE_LEVEL",
+  "req.redist": null,
+  "f1_keywords": [
+    "_DNS_SERVER_PROPERTY_TYPE",
+    "netioapi/_DNS_SERVER_PROPERTY_TYPE",
+    "DNS_SERVER_PROPERTY_TYPE",
+    "netioapi/DNS_SERVER_PROPERTY_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netioapi.h"
+  ],
+  "api_name": [
+    "_DNS_SERVER_PROPERTY_TYPE",
+    "DNS_SERVER_PROPERTY_TYPE"
+  ]
+}

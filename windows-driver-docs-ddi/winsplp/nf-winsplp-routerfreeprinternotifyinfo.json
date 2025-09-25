@@ -1,0 +1,48 @@
+{
+  "UID": "NF:winsplp.RouterFreePrinterNotifyInfo",
+  "title": "RouterFreePrinterNotifyInfo function (winsplp.h)",
+  "description": "The print spooler's RouterFreePrinterNotifyInfo function deallocates a specified PRINTER_NOTIFY_INFO structure and its associated PRINTER_NOTIFY_INFO_DATA structure array.",
+  "old-location": "print\\routerfreeprinternotifyinfo.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "RouterFreePrinterNotifyInfo function"
+  ],
+  "ms.keywords": "RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices], print.routerfreeprinternotifyinfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, winsplp/RouterFreePrinterNotifyInfo",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Spoolss.lib",
+  "req.dll": "Spoolss.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RouterFreePrinterNotifyInfo",
+    "winsplp/RouterFreePrinterNotifyInfo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Spoolss.dll"
+  ],
+  "api_name": [
+    "RouterFreePrinterNotifyInfo"
+  ]
+}

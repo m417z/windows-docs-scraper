@@ -1,0 +1,4 @@
+typedef struct {
+  INTERFACE           Interface;
+  PFNQUERYMEDIUMSLIST QueryMediumsList;
+} BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS;

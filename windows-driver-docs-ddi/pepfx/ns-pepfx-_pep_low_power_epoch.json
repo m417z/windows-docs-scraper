@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pepfx._PEP_LOW_POWER_EPOCH",
+  "title": "_PEP_LOW_POWER_EPOCH (pepfx.h)",
+  "description": "The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated).",
+  "old-location": "kernel\\pep_low_power_epoch.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PEP_LOW_POWER_EPOCH structure"
+  ],
+  "ms.keywords": "*PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH",
+  "req.header": "pepfx.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH",
+  "f1_keywords": [
+    "_PEP_LOW_POWER_EPOCH",
+    "pepfx/_PEP_LOW_POWER_EPOCH",
+    "PPEP_LOW_POWER_EPOCH",
+    "pepfx/PPEP_LOW_POWER_EPOCH",
+    "PEP_LOW_POWER_EPOCH",
+    "pepfx/PEP_LOW_POWER_EPOCH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_LOW_POWER_EPOCH",
+    "PPEP_LOW_POWER_EPOCH",
+    "PEP_LOW_POWER_EPOCH"
+  ]
+}

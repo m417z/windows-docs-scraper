@@ -1,0 +1,3 @@
+HRESULT GetMsaAppId(
+  LPWSTR *msaAppId
+);

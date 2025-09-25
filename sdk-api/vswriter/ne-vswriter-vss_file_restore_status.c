@@ -1,0 +1,6 @@
+typedef enum VSS_FILE_RESTORE_STATUS {
+  VSS_RS_UNDEFINED = 0,
+  VSS_RS_NONE,
+  VSS_RS_ALL,
+  VSS_RS_FAILED
+} ;

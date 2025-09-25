@@ -1,0 +1,6 @@
+typedef struct _GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST {
+  ULONG                                    Version;
+  ULONG                                    Size;
+  DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE RequestDataType;
+  DEVICE_INTERNAL_STATUS_DATA_SET          RequestDataSet;
+} GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST, *PGET_DEVICE_INTERNAL_STATUS_DATA_REQUEST;

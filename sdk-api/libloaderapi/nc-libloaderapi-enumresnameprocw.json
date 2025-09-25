@@ -1,0 +1,67 @@
+{
+  "UID": "NC:libloaderapi.ENUMRESNAMEPROCW",
+  "title": "ENUMRESNAMEPROCW (libloaderapi.h)",
+  "description": "An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions. (Unicode)",
+  "helpviewer_keywords": [
+    "EnumResNameProc",
+    "EnumResNameProc callback",
+    "EnumResNameProc callback function [Menus and Other Resources]",
+    "EnumResNameProcA",
+    "EnumResNameProcW",
+    "_win32_EnumResNameProc",
+    "_win32_enumresnameproc_cpp",
+    "libloaderapi/EnumResNameProc",
+    "libloaderapi/EnumResNameProcA",
+    "libloaderapi/EnumResNameProcW",
+    "menurc.enumresnameproc",
+    "winui._win32_enumresnameproc"
+  ],
+  "old-location": "menurc\\enumresnameproc.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\introductiontoresources\\resourcereference\\resourcefunctions\\enumresnameproc.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumResNameProc, EnumResNameProc callback, EnumResNameProc callback function [Menus and Other Resources], EnumResNameProcA, EnumResNameProcW, _win32_EnumResNameProc, _win32_enumresnameproc_cpp, libloaderapi/EnumResNameProc, libloaderapi/EnumResNameProcA, libloaderapi/EnumResNameProcW, menurc.enumresnameproc, winui._win32_enumresnameproc",
+  "req.header": "libloaderapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "EnumResNameProcW (Unicode) and EnumResNameProcA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ENUMRESNAMEPROCW",
+    "libloaderapi/ENUMRESNAMEPROCW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "libloaderapi.h"
+  ],
+  "api_name": [
+    "EnumResNameProc",
+    "EnumResNameProcA",
+    "EnumResNameProcW"
+  ]
+}

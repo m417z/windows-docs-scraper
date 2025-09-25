@@ -1,0 +1,3 @@
+HRESULT GetScriptFullFilePathName(
+  BSTR *scriptFullPathName
+);

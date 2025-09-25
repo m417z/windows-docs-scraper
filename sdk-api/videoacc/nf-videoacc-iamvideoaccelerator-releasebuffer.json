@@ -1,0 +1,65 @@
+{
+  "UID": "NF:videoacc.IAMVideoAccelerator.ReleaseBuffer",
+  "title": "IAMVideoAccelerator::ReleaseBuffer (videoacc.h)",
+  "description": "The ReleaseBuffer method releases a buffer that was locked by a previous call to IAMVideoAccelerator::GetBuffer.",
+  "helpviewer_keywords": [
+    "IAMVideoAccelerator interface [DirectShow]",
+    "ReleaseBuffer method",
+    "IAMVideoAccelerator.ReleaseBuffer",
+    "IAMVideoAccelerator::ReleaseBuffer",
+    "IAMVideoAcceleratorReleaseBuffer",
+    "ReleaseBuffer",
+    "ReleaseBuffer method [DirectShow]",
+    "ReleaseBuffer method [DirectShow]",
+    "IAMVideoAccelerator interface",
+    "dshow.iamvideoaccelerator_releasebuffer",
+    "videoacc/IAMVideoAccelerator::ReleaseBuffer"
+  ],
+  "old-location": "dshow\\iamvideoaccelerator_releasebuffer.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "2170cf7e-85c8-4658-84fd-96ebc0d2704f",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IAMVideoAccelerator interface [DirectShow],ReleaseBuffer method, IAMVideoAccelerator.ReleaseBuffer, IAMVideoAccelerator::ReleaseBuffer, IAMVideoAcceleratorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IAMVideoAccelerator interface, dshow.iamvideoaccelerator_releasebuffer, videoacc/IAMVideoAccelerator::ReleaseBuffer",
+  "req.header": "videoacc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMVideoAccelerator::ReleaseBuffer",
+    "videoacc/IAMVideoAccelerator::ReleaseBuffer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMVideoAccelerator.ReleaseBuffer"
+  ]
+}

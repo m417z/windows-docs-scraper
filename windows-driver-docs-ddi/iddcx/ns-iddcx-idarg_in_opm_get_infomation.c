@@ -1,0 +1,3 @@
+struct IDARG_IN_OPM_GET_INFOMATION {
+  IDDCX_OPM_GET_INFO_PARAMETERS GetInfoParameters;
+};

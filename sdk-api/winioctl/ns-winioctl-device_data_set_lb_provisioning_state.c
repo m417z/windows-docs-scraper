@@ -1,0 +1,9 @@
+typedef struct _DEVICE_DATA_SET_LB_PROVISIONING_STATE {
+  DWORD     Size;
+  DWORD     Version;
+  DWORDLONG SlabSizeInBytes;
+  DWORD     SlabOffsetDeltaInBytes;
+  DWORD     SlabAllocationBitMapBitCount;
+  DWORD     SlabAllocationBitMapLength;
+  DWORD     SlabAllocationBitMap[ANYSIZE_ARRAY];
+} DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DSM_ALLOCATION_OUTPUT, *PDEVICE_DSM_ALLOCATION_OUTPUT;

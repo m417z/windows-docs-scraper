@@ -1,0 +1,54 @@
+{
+  "UID": "NF:processthreadsapi.GetProcessDefaultCpuSets",
+  "tech.root": "processthreadsapi",
+  "title": "GetProcessDefaultCpuSets",
+  "ms.date": "03/12/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Retrieves the list of CPU Sets in the process default set that was set by SetProcessDefaultCpuSets.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "processthreadsapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-ProcessThreads-L1-1-3.dll",
+    "KernelBase.dll",
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "api-ms-win-core-processthreads-l1-1-6.dll",
+    "api-ms-win-core-processthreads-l1-1-5.dll",
+    "api-ms-win-core-processthreads-l1-1-4.dll"
+  ],
+  "api_name": [
+    "GetProcessDefaultCpuSets"
+  ],
+  "f1_keywords": [
+    "GetProcessDefaultCpuSets",
+    "processthreadsapi/GetProcessDefaultCpuSets"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

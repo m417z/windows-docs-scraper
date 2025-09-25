@@ -1,0 +1,4 @@
+IPHLPAPI_DLL_LINKAGE _NETIOAPI_SUCCESS_ NETIOAPI_API GetIpInterfaceTable(
+  [in]  ADDRESS_FAMILY         Family,
+  [out] PMIB_IPINTERFACE_TABLE *Table
+);

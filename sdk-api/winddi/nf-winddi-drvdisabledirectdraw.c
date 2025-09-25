@@ -1,0 +1,3 @@
+VOID DrvDisableDirectDraw(
+  DHPDEV dhpdev
+);

@@ -1,0 +1,43 @@
+{
+  "UID": "NS:winnt._FILE_SEGMENT_ELEMENT",
+  "title": "FILE_SEGMENT_ELEMENT",
+  "description": "The FILE_SEGMENT_ELEMENT structure represents a segment buffer structure for scatter/gather read/write actions.",
+  "ms.date": "08/03/2022",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winnt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winnt.h"
+  ],
+  "api_name": [
+    "_FILE_SEGMENT_ELEMENT",
+    "FILE_SEGMENT_ELEMENT"
+  ],
+  "f1_keywords": [
+    "winnt/_FILE_SEGMENT_ELEMENT",
+    "winnt/FILE_SEGMENT_ELEMENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

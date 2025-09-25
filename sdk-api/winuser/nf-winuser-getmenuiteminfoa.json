@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winuser.GetMenuItemInfoA",
+  "title": "GetMenuItemInfoA function (winuser.h)",
+  "description": "Retrieves information about a menu item. (ANSI)",
+  "helpviewer_keywords": [
+    "GetMenuItemInfoA",
+    "winuser/GetMenuItemInfoA"
+  ],
+  "old-location": "menurc\\getmenuiteminfo.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\menus\\menureference\\menufunctions\\getmenuiteminfo.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMenuItemInfo, GetMenuItemInfo function [Menus and Other Resources], GetMenuItemInfoA, GetMenuItemInfoW, _win32_GetMenuItemInfo, _win32_getmenuiteminfo_cpp, menurc.getmenuiteminfo, winui._win32_getmenuiteminfo, winuser/GetMenuItemInfo, winuser/GetMenuItemInfoA, winuser/GetMenuItemInfoW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetMenuItemInfoW (Unicode) and GetMenuItemInfoA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetMenuItemInfoA",
+    "winuser/GetMenuItemInfoA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Menu-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-Menu-l1-1-1.dll",
+    "ext-ms-win-ntuser-menu-l1-1-2.dll",
+    "Ext-MS-Win-NTUser-Menu-L1-1-3.dll"
+  ],
+  "api_name": [
+    "GetMenuItemInfo",
+    "GetMenuItemInfoA",
+    "GetMenuItemInfoW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)"
+}

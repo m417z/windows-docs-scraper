@@ -1,0 +1,4 @@
+typedef struct CONFIRM_CONFLICT_RESULT_INFO {
+  LPWSTR pszNewName;
+  UINT   iItemIndex;
+} CONFIRM_CONFLICT_RESULT_INFO;

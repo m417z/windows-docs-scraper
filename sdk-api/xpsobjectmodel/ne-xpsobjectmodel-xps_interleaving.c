@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0016 {
+  XPS_INTERLEAVING_OFF = 1,
+  XPS_INTERLEAVING_ON
+} XPS_INTERLEAVING;

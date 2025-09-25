@@ -1,0 +1,4 @@
+typedef struct {
+  LONGLONG Time;
+  LONGLONG SystemTime;
+} KSCORRELATED_TIME, *PKSCORRELATED_TIME;

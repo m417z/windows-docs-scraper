@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfcommonbuffer.WdfCommonBufferCreateWithConfig",
+  "title": "WdfCommonBufferCreateWithConfig function (wdfcommonbuffer.h)",
+  "description": "The WdfCommonBufferCreateWithConfig method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously, and the method also specifies buffer configuration information.",
+  "old-location": "wdf\\wdfcommonbuffercreatewithconfig.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfCommonBufferCreateWithConfig function"
+  ],
+  "ms.keywords": "DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig",
+  "req.header": "wdfcommonbuffer.h",
+  "req.include-header": "WdfCommonBuffer.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.1,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfCommonBufferCreateWithConfig",
+    "wdfcommonbuffer/WdfCommonBufferCreateWithConfig"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfCommonBufferCreateWithConfig"
+  ]
+}

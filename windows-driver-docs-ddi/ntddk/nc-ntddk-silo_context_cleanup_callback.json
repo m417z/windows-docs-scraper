@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntddk.SILO_CONTEXT_CLEANUP_CALLBACK",
+  "title": "SILO_CONTEXT_CLEANUP_CALLBACK (ntddk.h)",
+  "description": "This callback is invoked when the context object reaches a reference count of zero.",
+  "old-location": "kernel\\silo_context_cleanup_callback.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "SILO_CONTEXT_CLEANUP_CALLBACK callback function"
+  ],
+  "ms.keywords": "CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK callback, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SILO_CONTEXT_CLEANUP_CALLBACK",
+    "ntddk/SILO_CONTEXT_CLEANUP_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "SILO_CONTEXT_CLEANUP_CALLBACK"
+  ]
+}

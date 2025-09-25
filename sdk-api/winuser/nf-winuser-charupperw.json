@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.CharUpperW",
+  "title": "CharUpperW function (winuser.h)",
+  "description": "Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place. (Unicode)",
+  "helpviewer_keywords": [
+    "CharUpper",
+    "CharUpper function [Menus and Other Resources]",
+    "CharUpperW",
+    "_win32_CharUpper",
+    "_win32_charupper_cpp",
+    "menurc.charupper",
+    "winui._win32_charupper",
+    "winuser/CharUpper",
+    "winuser/CharUpperW"
+  ],
+  "old-location": "menurc\\charupper.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\strings\\stringreference\\stringfunctions\\charupper.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CharUpper, CharUpper function [Menus and Other Resources], CharUpperA, CharUpperW, _win32_CharUpper, _win32_charupper_cpp, menurc.charupper, winui._win32_charupper, winuser/CharUpper, winuser/CharUpperA, winuser/CharUpperW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CharUpperW (Unicode) and CharUpperA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CharUpperW",
+    "winuser/CharUpperW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "API-MS-Win-Core-String-l2-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-String-l2-1-1.dll",
+    "API-MS-Win-Core-Stringansi-l1-1-0.dll",
+    "API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll",
+    "API-MS-Win-DownLevel-user32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-user32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CharUpper",
+    "CharUpperA",
+    "CharUpperW"
+  ]
+}

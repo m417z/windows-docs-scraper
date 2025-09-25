@@ -1,0 +1,4 @@
+typedef struct _DHCP_FILTER_RECORD {
+  DHCP_ADDR_PATTERN AddrPatt;
+  LPWSTR            Comment;
+} DHCP_FILTER_RECORD, *LPDHCP_FILTER_RECORD;

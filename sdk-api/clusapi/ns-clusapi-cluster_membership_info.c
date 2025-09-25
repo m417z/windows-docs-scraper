@@ -1,0 +1,5 @@
+typedef struct _CLUSTER_MEMBERSHIP_INFO {
+  BOOL  HasQuorum;
+  DWORD UpnodesSize;
+  BYTE  Upnodes[1];
+} CLUSTER_MEMBERSHIP_INFO, *PCLUSTER_MEMBERSHIP_INFO;

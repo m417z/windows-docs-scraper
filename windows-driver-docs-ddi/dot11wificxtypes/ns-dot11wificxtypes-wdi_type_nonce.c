@@ -1,0 +1,3 @@
+typedef struct _WDI_TYPE_NONCE {
+  UINT8 Nonce[32];
+} WDI_TYPE_NONCE, *PWDI_TYPE_NONCE;

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:appmodel.AppPolicyGetThreadInitializationType",
+  "title": "AppPolicyGetThreadInitializationType function (appmodel.h)",
+  "description": "Retrieves the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.",
+  "helpviewer_keywords": [
+    "AppPolicyGetThreadInitializationType",
+    "AppPolicyGetThreadInitializationType function [App packaging and management]",
+    "appmodel/AppPolicyGetThreadInitializationType",
+    "appxpkg.apppolicygetthreadinitializationtype_function"
+  ],
+  "old-location": "appxpkg\\apppolicygetthreadinitializationtype_function.htm",
+  "tech.root": "appxpkg",
+  "ms.assetid": "E8D52FDB-CD62-407A-9F70-2825E0BF8523",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AppPolicyGetThreadInitializationType, AppPolicyGetThreadInitializationType function [App packaging and management], appmodel/AppPolicyGetThreadInitializationType, appxpkg.apppolicygetthreadinitializationtype_function",
+  "req.header": "appmodel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OneCoreUap.lib",
+  "req.dll": "Api-ms-win-appmodel-runtime-l1-1-2.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AppPolicyGetThreadInitializationType",
+    "appmodel/AppPolicyGetThreadInitializationType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "api-ms-win-appmodel-runtime-l1-1-4.dll",
+    "api-ms-win-appmodel-runtime-l1-1-3.dll",
+    "api-ms-win-appmodel-runtime-l1-1-2.dll",
+    "kernel.appcore.dll",
+    "kernel32.dll",
+    "kernelbase.dll"
+  ],
+  "api_name": [
+    "AppPolicyGetThreadInitializationType"
+  ]
+}

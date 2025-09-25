@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntdddisk._DRIVE_LAYOUT_INFORMATION_MBR",
+  "title": "_DRIVE_LAYOUT_INFORMATION_MBR (ntdddisk.h)",
+  "description": "The DRIVE_LAYOUT_INFORMATION_MBR structure reports the drive signature for a Master Boot Record partition.",
+  "old-location": "storage\\drive_layout_information_mbr.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DRIVE_LAYOUT_INFORMATION_MBR structure"
+  ],
+  "ms.keywords": "*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, storage.drive_layout_information_mbr, structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml",
+  "req.header": "ntdddisk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR",
+  "f1_keywords": [
+    "_DRIVE_LAYOUT_INFORMATION_MBR",
+    "ntdddisk/_DRIVE_LAYOUT_INFORMATION_MBR",
+    "PDRIVE_LAYOUT_INFORMATION_MBR",
+    "ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR",
+    "DRIVE_LAYOUT_INFORMATION_MBR",
+    "ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntdddisk.h"
+  ],
+  "api_name": [
+    "_DRIVE_LAYOUT_INFORMATION_MBR",
+    "PDRIVE_LAYOUT_INFORMATION_MBR",
+    "DRIVE_LAYOUT_INFORMATION_MBR"
+  ]
+}

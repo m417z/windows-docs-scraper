@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_DECODEENDFRAME {
+  HANDLE hDecode;
+  HANDLE *pHandleComplete;
+} D3DDDIARG_DECODEENDFRAME;

@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderNetworkConfig2.SetAutoReconnectLimit",
+  "title": "IWMReaderNetworkConfig2::SetAutoReconnectLimit (wmsdkidl.h)",
+  "description": "The SetAutoReconnectLimit method sets the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection.",
+  "helpviewer_keywords": [
+    "IWMReaderNetworkConfig2 interface [windows Media Format]",
+    "SetAutoReconnectLimit method",
+    "IWMReaderNetworkConfig2.SetAutoReconnectLimit",
+    "IWMReaderNetworkConfig2::SetAutoReconnectLimit",
+    "IWMReaderNetworkConfig2SetAutoReconnectLimit",
+    "SetAutoReconnectLimit",
+    "SetAutoReconnectLimit method [windows Media Format]",
+    "SetAutoReconnectLimit method [windows Media Format]",
+    "IWMReaderNetworkConfig2 interface",
+    "wmformat.iwmreadernetworkconfig2_setautoreconnectlimit",
+    "wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit"
+  ],
+  "old-location": "wmformat\\iwmreadernetworkconfig2_setautoreconnectlimit.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "0ef6bb5c-6369-4b80-a227-da790b1ab6da",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderNetworkConfig2 interface [windows Media Format],SetAutoReconnectLimit method, IWMReaderNetworkConfig2.SetAutoReconnectLimit, IWMReaderNetworkConfig2::SetAutoReconnectLimit, IWMReaderNetworkConfig2SetAutoReconnectLimit, SetAutoReconnectLimit, SetAutoReconnectLimit method [windows Media Format], SetAutoReconnectLimit method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderNetworkConfig2::SetAutoReconnectLimit",
+    "wmsdkidl/IWMReaderNetworkConfig2::SetAutoReconnectLimit"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderNetworkConfig2.SetAutoReconnectLimit"
+  ]
+}

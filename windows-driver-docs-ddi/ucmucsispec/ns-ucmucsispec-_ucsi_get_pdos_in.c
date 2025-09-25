@@ -1,0 +1,3 @@
+typedef struct _UCSI_GET_PDOS_IN {
+  UINT32 Pdos[4];
+} UCSI_GET_PDOS_IN, *PUCSI_GET_PDOS_IN;

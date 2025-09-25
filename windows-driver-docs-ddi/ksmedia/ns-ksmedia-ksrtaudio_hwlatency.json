@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ksmedia.KSRTAUDIO_HWLATENCY",
+  "title": "KSRTAUDIO_HWLATENCY (ksmedia.h)",
+  "description": "The KSRTAUDIO_HWLATENCY structure describes the latency that the audio hardware adds to a wave stream during playback or recording.",
+  "old-location": "audio\\ksrtaudio_hwlatency.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "KSRTAUDIO_HWLATENCY structure"
+  ],
+  "ms.keywords": "*PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY structure [Audio Devices], PKSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, audio.ksrtaudio_hwlatency, ksmedia/KSRTAUDIO_HWLATENCY, ksmedia/PKSRTAUDIO_HWLATENCY",
+  "req.header": "ksmedia.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSRTAUDIO_HWLATENCY, *PKSRTAUDIO_HWLATENCY",
+  "f1_keywords": [
+    "PKSRTAUDIO_HWLATENCY",
+    "ksmedia/PKSRTAUDIO_HWLATENCY",
+    "KSRTAUDIO_HWLATENCY",
+    "ksmedia/KSRTAUDIO_HWLATENCY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "PKSRTAUDIO_HWLATENCY",
+    "KSRTAUDIO_HWLATENCY"
+  ]
+}

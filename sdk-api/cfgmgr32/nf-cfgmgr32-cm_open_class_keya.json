@@ -1,0 +1,54 @@
+{
+  "UID": "NF:cfgmgr32.CM_Open_Class_KeyA",
+  "tech.root": "devinst",
+  "title": "CM_Open_Class_KeyA",
+  "ms.date": "04/13/2021",
+  "targetos": "Windows",
+  "description": "The CM_Open_Class_Key function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class. (ANSI)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "cfgmgr32.h",
+  "req.idl": null,
+  "req.include-header": "Cfgmgr32.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Desktop",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-config-l1-1-2.dll",
+    "Cfgmgr32.lib",
+    "Cfgmgr32.dll",
+    "API-Ms-Win-Devices-Config-L1-1-0.dll",
+    "API-Ms-Win-Devices-Config-L1-1-1.dll",
+    "CfgMgr32.dll"
+  ],
+  "api_name": [
+    "CM_Open_Class_KeyA",
+    "CM_Open_Class_Key"
+  ],
+  "f1_keywords": [
+    "CM_Open_Class_KeyA",
+    "cfgmgr32/CM_Open_Class_KeyA",
+    "CM_Open_Class_Key",
+    "cfgmgr32/CM_Open_Class_Key"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

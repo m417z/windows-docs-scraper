@@ -1,0 +1,49 @@
+{
+  "UID": "NF:procgrp.WdmlibProcgrpInitialize",
+  "title": "WdmlibProcgrpInitialize function (procgrp.h)",
+  "description": "The WdmlibProcgrpInitialize function initializes the Processor Group (ProcGrp) compatibility library.",
+  "old-location": "kernel\\wdmlibprocgrpinitialize.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WdmlibProcgrpInitialize function"
+  ],
+  "ms.keywords": "WdmlibProcgrpInitialize, WdmlibProcgrpInitialize function [Kernel-Mode Driver Architecture], kernel.wdmlibprocgrpinitialize, procgrp/WdmlibProcgrpInitialize, procgrp_ba92a7bb-1a2b-4056-bebd-d9df299768c1.xml",
+  "req.header": "procgrp.h",
+  "req.include-header": "Procgrp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Compatible with Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, and Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Procgrp.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdmlibProcgrpInitialize",
+    "procgrp/WdmlibProcgrpInitialize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Procgrp.lib",
+    "Procgrp.dll"
+  ],
+  "api_name": [
+    "WdmlibProcgrpInitialize"
+  ]
+}

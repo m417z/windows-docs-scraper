@@ -1,0 +1,3 @@
+void CLUSTER_GET_UPGRADE_VERSION(
+  _ver
+);

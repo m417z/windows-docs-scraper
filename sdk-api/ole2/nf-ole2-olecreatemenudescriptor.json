@@ -1,0 +1,65 @@
+{
+  "UID": "NF:ole2.OleCreateMenuDescriptor",
+  "title": "OleCreateMenuDescriptor function (ole2.h)",
+  "description": "Creates and returns an OLE menu descriptor (that is, an OLE-provided data structure that describes the menus) for OLE to use when dispatching menu messages and commands.",
+  "helpviewer_keywords": [
+    "OleCreateMenuDescriptor",
+    "OleCreateMenuDescriptor function [COM]",
+    "_ole_OleCreateMenuDescriptor",
+    "com.olecreatemenudescriptor",
+    "ole2/OleCreateMenuDescriptor"
+  ],
+  "old-location": "com\\olecreatemenudescriptor.htm",
+  "tech.root": "com",
+  "ms.assetid": "b4a6b3f1-aee9-4b68-8ffe-24bd497db0a0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "OleCreateMenuDescriptor, OleCreateMenuDescriptor function [COM], _ole_OleCreateMenuDescriptor, com.olecreatemenudescriptor, ole2/OleCreateMenuDescriptor",
+  "req.header": "ole2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OleCreateMenuDescriptor",
+    "ole2/OleCreateMenuDescriptor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-com-ole32-l1-4-0.dll",
+    "ext-ms-win-com-ole32-l1-3-0.dll",
+    "ext-ms-win-com-ole32-l1-2-0.dll",
+    "ext-ms-win-com-ole32-l1-1-5.dll",
+    "Ole32.dll",
+    "Ext-MS-Win-Com-OLE32-l1-1-3.dll",
+    "Ext-MS-Win-Com-Ole32-L1-1-4.dll"
+  ],
+  "api_name": [
+    "OleCreateMenuDescriptor"
+  ],
+  "req.apiset": "ext-ms-win-com-ole32-l1-1-3 (introduced in Windows 10, version 10.0.10240)"
+}

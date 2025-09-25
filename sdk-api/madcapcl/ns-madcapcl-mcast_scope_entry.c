@@ -1,0 +1,6 @@
+typedef struct _MCAST_SCOPE_ENTRY {
+  MCAST_SCOPE_CTX ScopeCtx;
+  IPNG_ADDRESS    LastAddr;
+  DWORD           TTL;
+  UNICODE_STRING  ScopeDesc;
+} MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY;

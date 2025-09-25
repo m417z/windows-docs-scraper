@@ -1,0 +1,62 @@
+{
+  "UID": "NF:commctrl.DateTime_SetRange",
+  "title": "DateTime_SetRange macro (commctrl.h)",
+  "description": "Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the DTM_SETRANGE message explicitly.",
+  "helpviewer_keywords": [
+    "DateTime_SetRange",
+    "DateTime_SetRange macro [Windows Controls]",
+    "GDTR_MAX",
+    "GDTR_MIN",
+    "_win32_DateTime_SetRange",
+    "_win32_DateTime_SetRange_cpp",
+    "commctrl/DateTime_SetRange",
+    "controls.DateTime_SetRange",
+    "controls._win32_DateTime_SetRange"
+  ],
+  "old-location": "controls\\DateTime_SetRange.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\datetime\\macros\\datetime_setrange.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "DateTime_SetRange, DateTime_SetRange macro [Windows Controls], GDTR_MAX, GDTR_MIN, _win32_DateTime_SetRange, _win32_DateTime_SetRange_cpp, commctrl/DateTime_SetRange, controls.DateTime_SetRange, controls._win32_DateTime_SetRange",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DateTime_SetRange",
+    "commctrl/DateTime_SetRange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "DateTime_SetRange"
+  ]
+}

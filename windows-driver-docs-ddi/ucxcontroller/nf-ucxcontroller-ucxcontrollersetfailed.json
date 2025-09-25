@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ucxcontroller.UcxControllerSetFailed",
+  "title": "UcxControllerSetFailed function (ucxcontroller.h)",
+  "description": "Informs USB Host Controller Extension (UCX) that the controller has encountered a critical failure.",
+  "old-location": "buses\\_ucxcontrollersetfailed.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UcxControllerSetFailed function"
+  ],
+  "ms.keywords": "UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed",
+  "req.header": "ucxcontroller.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UcxControllerSetFailed",
+    "ucxcontroller/UcxControllerSetFailed"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Ucxcontroller.h"
+  ],
+  "api_name": [
+    "UcxControllerSetFailed"
+  ]
+}

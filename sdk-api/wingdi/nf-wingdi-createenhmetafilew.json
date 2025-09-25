@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wingdi.CreateEnhMetaFileW",
+  "title": "CreateEnhMetaFileW function (wingdi.h)",
+  "description": "The CreateEnhMetaFile function creates a device context for an enhanced-format metafile. This device context can be used to store a device-independent picture. (Unicode)",
+  "helpviewer_keywords": [
+    "CreateEnhMetaFile",
+    "CreateEnhMetaFile function [Windows GDI]",
+    "CreateEnhMetaFileW",
+    "_win32_CreateEnhMetaFile",
+    "gdi.createenhmetafile",
+    "wingdi/CreateEnhMetaFile",
+    "wingdi/CreateEnhMetaFileW"
+  ],
+  "old-location": "gdi\\createenhmetafile.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "647f83ca-dca3-44af-a594-5f9ba2bd7607",
+  "ms.date": "03/18/2024",
+  "ms.keywords": "CreateEnhMetaFile, CreateEnhMetaFile function [Windows GDI], CreateEnhMetaFileA, CreateEnhMetaFileW, _win32_CreateEnhMetaFile, gdi.createenhmetafile, wingdi/CreateEnhMetaFile, wingdi/CreateEnhMetaFileA, wingdi/CreateEnhMetaFileW",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CreateEnhMetaFileW (Unicode) and CreateEnhMetaFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateEnhMetaFileW",
+    "wingdi/CreateEnhMetaFileW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "ext-ms-win-gdi-metafile-l1-1-2.dll",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "CreateEnhMetaFile",
+    "CreateEnhMetaFileA",
+    "CreateEnhMetaFileW"
+  ]
+}

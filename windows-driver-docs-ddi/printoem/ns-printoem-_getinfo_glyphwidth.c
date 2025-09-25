@@ -1,0 +1,7 @@
+typedef struct _GETINFO_GLYPHWIDTH {
+  DWORD dwSize;
+  DWORD dwType;
+  DWORD dwCount;
+  PVOID pGlyph;
+  PLONG plWidth;
+} GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH;

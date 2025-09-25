@@ -1,0 +1,25 @@
+typedef struct {
+  DWORD          dwStructSize;
+  HWND           hwndOwner;
+  SCARDCONTEXT   hSCardContext;
+  LPSTR          lpstrGroupNames;
+  DWORD          nMaxGroupNames;
+  LPSTR          lpstrCardNames;
+  DWORD          nMaxCardNames;
+  LPCGUID        rgguidInterfaces;
+  DWORD          cguidInterfaces;
+  LPSTR          lpstrRdr;
+  DWORD          nMaxRdr;
+  LPSTR          lpstrCard;
+  DWORD          nMaxCard;
+  LPCSTR         lpstrTitle;
+  DWORD          dwFlags;
+  LPVOID         pvUserData;
+  DWORD          dwShareMode;
+  DWORD          dwPreferredProtocols;
+  DWORD          dwActiveProtocol;
+  LPOCNCONNPROCA lpfnConnect;
+  LPOCNCHKPROC   lpfnCheck;
+  LPOCNDSCPROC   lpfnDisconnect;
+  SCARDHANDLE    hCardHandle;
+} OPENCARDNAMEA, *POPENCARDNAMEA, *LPOPENCARDNAMEA;

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:netioapi.ResolveIpNetEntry2",
+  "title": "ResolveIpNetEntry2 function (netioapi.h)",
+  "description": "Resolves the physical address for a neighbor IP address entry on the local computer. (ResolveIpNetEntry2)",
+  "helpviewer_keywords": [
+    "ResolveIpNetEntry2",
+    "ResolveIpNetEntry2 function [IP Helper]",
+    "iphlp.resolveipnetentry2",
+    "netioapi/ResolveIpNetEntry2"
+  ],
+  "old-location": "iphlp\\resolveipnetentry2.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "37f9dc58-362d-413e-a593-4dda52fb7d8b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResolveIpNetEntry2",
+    "netioapi/ResolveIpNetEntry2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "ResolveIpNetEntry2"
+  ]
+}

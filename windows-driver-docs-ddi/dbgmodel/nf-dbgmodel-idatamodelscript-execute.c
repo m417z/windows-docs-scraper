@@ -1,0 +1,3 @@
+HRESULT Execute(
+  IDataModelScriptClient *client
+);

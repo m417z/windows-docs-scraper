@@ -1,0 +1,3 @@
+HRESULT Kill(
+  BOOL bWait
+);

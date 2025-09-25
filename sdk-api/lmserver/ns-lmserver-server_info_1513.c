@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1513 {
+  DWORD sv1513_maxpagedmemoryusage;
+} SERVER_INFO_1513, *PSERVER_INFO_1513, *LPSERVER_INFO_1513;

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:msiquery.MsiRecordSetStreamA",
+  "title": "MsiRecordSetStreamA function (msiquery.h)",
+  "description": "The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields. (ANSI)",
+  "helpviewer_keywords": [
+    "MsiRecordSetStreamA",
+    "msiquery/MsiRecordSetStreamA"
+  ],
+  "old-location": "setup\\msirecordsetstream.htm",
+  "tech.root": "setup",
+  "ms.assetid": "ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiRecordSetStream, MsiRecordSetStream function, MsiRecordSetStreamA, MsiRecordSetStreamW, _msi_msirecordsetstream, msiquery/MsiRecordSetStream, msiquery/MsiRecordSetStreamA, msiquery/MsiRecordSetStreamW, setup.msirecordsetstream",
+  "req.header": "msiquery.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiRecordSetStreamW (Unicode) and MsiRecordSetStreamA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiRecordSetStreamA",
+    "msiquery/MsiRecordSetStreamA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiRecordSetStream",
+    "MsiRecordSetStreamA",
+    "MsiRecordSetStreamW"
+  ]
+}

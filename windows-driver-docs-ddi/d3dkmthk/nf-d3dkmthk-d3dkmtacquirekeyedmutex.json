@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTAcquireKeyedMutex",
+  "title": "D3DKMTAcquireKeyedMutex function (d3dkmthk.h)",
+  "description": "The D3DKMTAcquireKeyedMutex function acquires a keyed mutex object. The function returns STATUS_SUCCESS if the keyed mutex object was successfully acquired.",
+  "old-location": "display\\d3dkmtacquirekeyedmutex.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTAcquireKeyedMutex function"
+  ],
+  "ms.keywords": "D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex callback function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, PFND3DKMT_ACQUIREKEYEDMUTEX callback, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "D3DKMTAcquireKeyedMutex is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTAcquireKeyedMutex",
+    "d3dkmthk/D3DKMTAcquireKeyedMutex"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTAcquireKeyedMutex"
+  ]
+}

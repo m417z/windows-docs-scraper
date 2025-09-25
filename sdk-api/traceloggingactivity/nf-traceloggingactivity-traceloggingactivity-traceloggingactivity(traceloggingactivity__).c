@@ -1,0 +1,3 @@
+void TraceLoggingActivity(
+  TraceLoggingActivity && rhs
+);

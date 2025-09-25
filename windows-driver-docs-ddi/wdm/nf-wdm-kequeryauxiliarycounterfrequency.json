@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeQueryAuxiliaryCounterFrequency",
+  "title": "KeQueryAuxiliaryCounterFrequency function (wdm.h)",
+  "description": "The KeQueryAuxiliaryCounterFrequency routine returns frequency of the auxiliary counter in units of Hz.",
+  "old-location": "kernel\\kequeryauxiliarycounterfrequency.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeQueryAuxiliaryCounterFrequency function"
+  ],
+  "ms.keywords": "KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency, wdm/KeQueryAuxiliaryCounterFrequency",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": "Hal.dll",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeQueryAuxiliaryCounterFrequency",
+    "wdm/KeQueryAuxiliaryCounterFrequency"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hal.dll"
+  ],
+  "api_name": [
+    "KeQueryAuxiliaryCounterFrequency"
+  ]
+}

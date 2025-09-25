@@ -1,0 +1,53 @@
+{
+  "UID": "NS:wdm._CM_EISA_FUNCTION_INFORMATION",
+  "title": "_CM_EISA_FUNCTION_INFORMATION (wdm.h)",
+  "description": "The _CM_EISA_FUNCTION_INFORMATION structure (wdm.h)  defines detailed EISA configuration information returned by HalGetBusData or HalGetBusDataByOffset.",
+  "tech.root": "kernel",
+  "ms.date": "01/18/2023",
+  "keywords": [
+    "CM_EISA_FUNCTION_INFORMATION structure"
+  ],
+  "ms.keywords": "*PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], PCM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CM_EISA_FUNCTION_INFORMATION, kernel.cm_eisa_function_information, kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, wdm/CM_EISA_FUNCTION_INFORMATION, wdm/PCM_EISA_FUNCTION_INFORMATION",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION",
+  "f1_keywords": [
+    "_CM_EISA_FUNCTION_INFORMATION",
+    "wdm/_CM_EISA_FUNCTION_INFORMATION",
+    "PCM_EISA_FUNCTION_INFORMATION",
+    "wdm/PCM_EISA_FUNCTION_INFORMATION",
+    "CM_EISA_FUNCTION_INFORMATION",
+    "wdm/CM_EISA_FUNCTION_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_CM_EISA_FUNCTION_INFORMATION",
+    "PCM_EISA_FUNCTION_INFORMATION",
+    "CM_EISA_FUNCTION_INFORMATION"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT SetConfiguration(
+  [in] DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION configuration
+);

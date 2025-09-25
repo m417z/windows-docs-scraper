@@ -1,0 +1,58 @@
+{
+  "UID": "NF:tapi.lineGetTranslateCapsA",
+  "title": "lineGetTranslateCapsA function (tapi.h)",
+  "description": "The lineGetTranslateCaps function returns address translation capabilities. (lineGetTranslateCapsA)",
+  "helpviewer_keywords": [
+    "lineGetTranslateCapsA",
+    "tapi/lineGetTranslateCapsA"
+  ],
+  "old-location": "tapi2\\linegettranslatecaps.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "77437b06-fb02-44b5-8642-b3de700853ef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_tapi2_linegettranslatecaps, lineGetTranslateCaps, lineGetTranslateCaps function [TAPI 2.2], lineGetTranslateCapsA, lineGetTranslateCapsW, tapi/lineGetTranslateCaps, tapi/lineGetTranslateCapsA, tapi/lineGetTranslateCapsW, tapi2.linegettranslatecaps",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "lineGetTranslateCapsW (Unicode) and lineGetTranslateCapsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineGetTranslateCapsA",
+    "tapi/lineGetTranslateCapsA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ras-tapi32-l1-1-1.dll",
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineGetTranslateCaps",
+    "lineGetTranslateCapsA",
+    "lineGetTranslateCapsW"
+  ]
+}

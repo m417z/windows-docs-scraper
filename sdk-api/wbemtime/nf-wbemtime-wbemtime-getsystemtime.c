@@ -1,0 +1,3 @@
+BOOL GetSYSTEMTIME(
+  SYSTEMTIME *pst
+);

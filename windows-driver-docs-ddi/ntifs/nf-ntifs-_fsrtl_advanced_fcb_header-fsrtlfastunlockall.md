@@ -1,0 +1,37 @@
+# FsRtlFastUnlockAll function
+
+## Description
+
+The **FsRtlFastUnlockAll** routine releases all byte-range locks that were acquired by the specified process for a file.
+
+## Parameters
+
+### `FileLock` [in]
+
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to [FsRtlAllocateFileLock](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock) or [FsRtlInitializeFileLock](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock).
+
+### `FileObject` [in]
+
+Pointer to the file object for the file.
+
+### `ProcessId` [in]
+
+Pointer to the process ID for the process.
+
+### `Context` [in, optional]
+
+Optional context pointer to be used when completing IRPs.
+
+## Return value
+
+**FsRtlFastUnlockAll** returns STATUS_SUCCESS or an error status code such as STATUS_RANGE_NOT_LOCKED.
+
+## Remarks
+
+After releasing the byte-range locks, **FsRtlFastUnlockAll** completes any currently queued lock IRPs that can now be completed.
+
+## See also
+
+[FsRtlAllocateFileLock](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock)
+
+[FsRtlInitializeFileLock](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock)

@@ -1,0 +1,7 @@
+typedef struct _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              Flags;
+  ULONG              FirstElementOffset;
+  ULONG              NumElements;
+  ULONG              ElementSize;
+} NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY;

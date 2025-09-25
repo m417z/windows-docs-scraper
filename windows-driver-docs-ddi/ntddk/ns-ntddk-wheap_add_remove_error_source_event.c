@@ -1,0 +1,6 @@
+typedef struct _WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT {
+  WHEA_EVENT_LOG_ENTRY         WheaEventLogEntry;
+  WHEA_ERROR_SOURCE_DESCRIPTOR Descriptor;
+  NTSTATUS                     Status;
+  BOOLEAN                      IsRemove;
+} WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT, *PWHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT;

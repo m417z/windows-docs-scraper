@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1542 {
+  BOOL sv1542_maxfreeconnections;
+} SERVER_INFO_1542, *PSERVER_INFO_1542, *LPSERVER_INFO_1542;

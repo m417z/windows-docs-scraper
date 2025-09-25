@@ -1,0 +1,4 @@
+typedef enum MBN_PIN_MODE {
+  MBN_PIN_MODE_ENABLED = 1,
+  MBN_PIN_MODE_DISABLED
+} ;

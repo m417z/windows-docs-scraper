@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.RtlCopyMemoryNonTemporal",
+  "title": "RtlCopyMemoryNonTemporal function (wdm.h)",
+  "description": "This function copies from one buffer to another using non-temporal moves that do not pollute the cache. The buffers shouldn’t overlap.",
+  "ms.date": "10/19/2018",
+  "tech.root": "kernel",
+  "keywords": [
+    "RtlCopyMemoryNonTemporal function"
+  ],
+  "ms.keywords": "RtlCopyMemoryNonTemporal",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2003 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": "NtDll.lib (user mode); NtosKrnl.lib (kernel mode)",
+  "req.irql": "Any level (see Remarks section)",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "RtlCopyMemoryNonTemporal",
+    "wdm/RtlCopyMemoryNonTemporal"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtDll.dll",
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlCopyMemoryNonTemporal"
+  ]
+}

@@ -1,0 +1,3 @@
+void D3D12_DECODE_MAG_FILTER(
+  D3D12Filter
+);

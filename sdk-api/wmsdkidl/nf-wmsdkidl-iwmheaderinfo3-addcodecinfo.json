@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMHeaderInfo3.AddCodecInfo",
+  "title": "IWMHeaderInfo3::AddCodecInfo (wmsdkidl.h)",
+  "description": "The AddCodecInfo method adds codec information to a file. When you copy a compressed stream from one file to another, use this method to include the information about the encoding codec in the file header.",
+  "helpviewer_keywords": [
+    "AddCodecInfo",
+    "AddCodecInfo method [windows Media Format]",
+    "AddCodecInfo method [windows Media Format]",
+    "IWMHeaderInfo3 interface",
+    "IWMHeaderInfo3 interface [windows Media Format]",
+    "AddCodecInfo method",
+    "IWMHeaderInfo3.AddCodecInfo",
+    "IWMHeaderInfo3::AddCodecInfo",
+    "IWMHeaderInfo3AddCodecInfo",
+    "wmformat.iwmheaderinfo3_addcodecinfo",
+    "wmsdkidl/IWMHeaderInfo3::AddCodecInfo"
+  ],
+  "old-location": "wmformat\\iwmheaderinfo3_addcodecinfo.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "4c5bc019-e4bb-419b-91ce-779fd36d7b4c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "AddCodecInfo, AddCodecInfo method [windows Media Format], AddCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddCodecInfo method, IWMHeaderInfo3.AddCodecInfo, IWMHeaderInfo3::AddCodecInfo, IWMHeaderInfo3AddCodecInfo, wmformat.iwmheaderinfo3_addcodecinfo, wmsdkidl/IWMHeaderInfo3::AddCodecInfo",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMHeaderInfo3::AddCodecInfo",
+    "wmsdkidl/IWMHeaderInfo3::AddCodecInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMHeaderInfo3.AddCodecInfo"
+  ]
+}

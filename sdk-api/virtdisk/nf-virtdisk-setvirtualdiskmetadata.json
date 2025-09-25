@@ -1,0 +1,57 @@
+{
+  "UID": "NF:virtdisk.SetVirtualDiskMetadata",
+  "title": "SetVirtualDiskMetadata function (virtdisk.h)",
+  "description": "Sets a metadata item for a virtual disk.",
+  "helpviewer_keywords": [
+    "SetVirtualDiskMetadata",
+    "SetVirtualDiskMetadata function [Virtual Storage]",
+    "virtdisk/SetVirtualDiskMetadata",
+    "vstor.setvirtualdiskmetadata"
+  ],
+  "old-location": "vstor\\setvirtualdiskmetadata.htm",
+  "tech.root": "VStor",
+  "ms.assetid": "27ee1529-ccd9-43ea-aed9-4fd32d793354",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetVirtualDiskMetadata, SetVirtualDiskMetadata function [Virtual Storage], virtdisk/SetVirtualDiskMetadata, vstor.setvirtualdiskmetadata",
+  "req.header": "virtdisk.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VirtDisk.lib",
+  "req.dll": "VirtDisk.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetVirtualDiskMetadata",
+    "virtdisk/SetVirtualDiskMetadata"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "VirtDisk.dll"
+  ],
+  "api_name": [
+    "SetVirtualDiskMetadata"
+  ]
+}

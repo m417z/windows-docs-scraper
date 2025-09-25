@@ -1,0 +1,1 @@
+_Post_equals_last_error_ DWORD GetLastError();

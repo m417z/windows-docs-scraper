@@ -1,0 +1,20 @@
+typedef struct _MI_InstanceFT {
+  MI_Result(const MI_Instance *self,MI_Instance **newInstance) * )(Clone;
+  MI_Result()(MI_Instance *self) * Destruct;
+  MI_Result()(MI_Instance *self) * Delete;
+  MI_Result(const MI_Instance *self, const MI_ClassDecl *classDecl,MI_Boolean *flag) * )(IsA;
+  MI_Result(const MI_Instance *self, const MI_Char **className) * )(GetClassName;
+  MI_Result((MI_Instance *self, const MI_Char *nameSpace) * )SetNameSpace;
+  MI_Result(const MI_Instance *self, const MI_Char **nameSpace) * )(GetNameSpace;
+  MI_Result((const MI_Instance *self,MI_Uint32 *count) * )GetElementCount;
+  MI_Result(MI_Instance *self, const MI_Char *name, const MI_Value *value,MI_Type type,MI_Uint32 flags) * )(AddElement;
+  MI_Result(MI_Instance *self, const MI_Char *name, const MI_Value *value,MI_Type type,MI_Uint32 flags) * )(SetElement;
+  MI_Result((MI_Instance *self,MI_Uint32 index, const MI_Value *value,MI_Type type,MI_Uint32 flags) * )SetElementAt;
+  MI_Result(st MI_Instance *self, const MI_Char *name,MI_Value *value,MI_Type *type,MI_Uint32 *flags,MI_Uint32 *index) * )(conGetElement;
+  MI_Result(st MI_Instance *self,MI_Uint32 index, const MI_Char **name,MI_Value *value,MI_Type *type,MI_Uint32 *flags) * )(conGetElementAt;
+  MI_Result((MI_Instance *self, const MI_Char *name) * )ClearElement;
+  MI_Result()(MI_Instance *self,MI_Uint32 index) * ClearElementAt;
+  MI_Result(const MI_Instance *self, const MI_Char **name) * )(GetServerName;
+  MI_Result((MI_Instance *self, const MI_Char *name) * )SetServerName;
+  MI_Result(const MI_Instance *self,MI_Class **instanceClass) * )(GetClass;
+} MI_InstanceFT;

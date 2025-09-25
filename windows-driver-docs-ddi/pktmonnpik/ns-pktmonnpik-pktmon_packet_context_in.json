@@ -1,0 +1,51 @@
+{
+  "UID": "NS:pktmonnpik._PKTMON_PACKET_CONTEXT_IN",
+  "tech.root": "netvista",
+  "title": "PKTMON_PACKET_CONTEXT_IN",
+  "ms.date": "03/14/2025",
+  "targetos": "Windows",
+  "description": "The PKTMON_PACKET_CONTEXT_IN struct is used to contain the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "pktmonnpik.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "PKTMON_PACKET_CONTEXT_IN",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pktmonnpik.h"
+  ],
+  "api_name": [
+    "_PKTMON_PACKET_CONTEXT_IN",
+    "PKTMON_PACKET_CONTEXT_IN"
+  ],
+  "f1_keywords": [
+    "_PKTMON_PACKET_CONTEXT_IN",
+    "pktmonnpik/_PKTMON_PACKET_CONTEXT_IN",
+    "PKTMON_PACKET_CONTEXT_IN",
+    "pktmonnpik/PKTMON_PACKET_CONTEXT_IN"
+  ],
+  "dev_langs": [
+    "c",
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_PKTMON_PACKET_CONTEXT_IN"
+  ]
+}

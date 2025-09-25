@@ -1,0 +1,21 @@
+typedef struct RILSUPSVCINFO {
+  DWORD                           cbSize;
+  DWORD                           dwParams;
+  DWORD                           dwExecutor;
+  DWORD                           fFromNetwork;
+  DWORD                           dwFailureReason;
+  RILSUPSVCACTION                 dwSupSvcAction;
+  RILCALLFORWARDINGSETTINGSREASON dwCallForwardingReason;
+  RILCALLBARRINGSTATUSPARAMSTYPE  dwCallBarringType;
+  RILSUPSVCTYPE                   dwSupSvcType;
+  DWORD                           dwInfoClasses;
+  RILALPHAIDENTIFIER              aiIdentifier;
+  char                            szCallBarringPassword[256];
+  char                            szNewCallBarringPassword[256];
+  RILCALLFORWARDINGSETTINGS       callForwardSettings;
+  RILCALLERIDSETTINGS             callerIdSettings;
+  RILDIALEDIDSETTINGS             dialedIdSettings;
+  RILHIDEIDSETTINGS               hideIdSettings;
+  RILHIDECONNECTEDIDSETTINGS      hideConnectedIdSettings;
+  RILSUPSERVICEDATA               supServiceData;
+} RILSUPSVCINFO, *LPRILSUPSVCINFO;

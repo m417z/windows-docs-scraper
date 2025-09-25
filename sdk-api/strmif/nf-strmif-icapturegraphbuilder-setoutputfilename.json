@@ -1,0 +1,64 @@
+{
+  "UID": "NF:strmif.ICaptureGraphBuilder.SetOutputFileName",
+  "title": "ICaptureGraphBuilder::SetOutputFileName (strmif.h)",
+  "description": "Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Creates the rendering section of the filter graph, which will save bits to disk with the specified file name.",
+  "helpviewer_keywords": [
+    "ICaptureGraphBuilder interface [DirectShow]",
+    "SetOutputFileName method",
+    "ICaptureGraphBuilder.SetOutputFileName",
+    "ICaptureGraphBuilder::SetOutputFileName",
+    "ICaptureGraphBuilderSetOutputFileName",
+    "SetOutputFileName",
+    "SetOutputFileName method [DirectShow]",
+    "SetOutputFileName method [DirectShow]",
+    "ICaptureGraphBuilder interface",
+    "dshow.icapturegraphbuilder_setoutputfilename",
+    "strmif/ICaptureGraphBuilder::SetOutputFileName"
+  ],
+  "old-location": "dshow\\icapturegraphbuilder_setoutputfilename.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "f410465f-c560-49ab-9194-66d708274f77",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "ICaptureGraphBuilder interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder.SetOutputFileName, ICaptureGraphBuilder::SetOutputFileName, ICaptureGraphBuilderSetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setoutputfilename, strmif/ICaptureGraphBuilder::SetOutputFileName",
+  "req.header": "strmif.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Reference:\\_Dshowh",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Quartz.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICaptureGraphBuilder::SetOutputFileName",
+    "strmif/ICaptureGraphBuilder::SetOutputFileName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Quartz.dll"
+  ],
+  "api_name": [
+    "ICaptureGraphBuilder.SetOutputFileName"
+  ]
+}

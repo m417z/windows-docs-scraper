@@ -1,0 +1,71 @@
+{
+  "UID": "NS:winnt._SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+  "title": "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX (winnt.h)",
+  "description": "Contains information about the relationships of logical processors and related hardware. The GetLogicalProcessorInformationEx function uses this structure.",
+  "helpviewer_keywords": [
+    "*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure pointer",
+    "RelationCache",
+    "RelationGroup",
+    "RelationNumaNode",
+    "RelationProcessorCore",
+    "RelationProcessorPackage",
+    "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure",
+    "_SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "base.system_logical_processor_information_ex",
+    "winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
+  ],
+  "old-location": "base\\system_logical_processor_information_ex.htm",
+  "tech.root": "backup",
+  "ms.assetid": "6ff16cda-c1dc-4d5c-ac60-756653cd6b07",
+  "ms.date": "27/02/2023",
+  "ms.keywords": "*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure pointer, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, RelationProcessorModule, RelationProcessorDie, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, base.system_logical_processor_information_ex, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+  "req.header": "winnt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "winnt/_SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX",
+    "winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinNT.h"
+  ],
+  "api_name": [
+    "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
+  ]
+}

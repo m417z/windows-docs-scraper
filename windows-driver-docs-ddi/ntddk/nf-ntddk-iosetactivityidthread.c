@@ -1,0 +1,3 @@
+LPCGUID IoSetActivityIdThread(
+  LPCGUID ActivityId
+);

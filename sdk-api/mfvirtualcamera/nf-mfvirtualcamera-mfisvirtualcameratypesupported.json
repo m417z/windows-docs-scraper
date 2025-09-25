@@ -1,0 +1,47 @@
+{
+  "UID": "NF:mfvirtualcamera.MFIsVirtualCameraTypeSupported",
+  "tech.root": "mf",
+  "title": "MFIsVirtualCameraTypeSupported",
+  "ms.date": "05/17/2021",
+  "targetos": "Windows",
+  "description": "Returns a value indicating if a particular virtual camera is supported on the platform.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "mfsensorgroup.dll",
+  "req.header": "mfvirtualcamera.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "mfsensorgroup.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "mfsensorgroup.dll"
+  ],
+  "api_name": [
+    "MFIsVirtualCameraTypeSupported"
+  ],
+  "f1_keywords": [
+    "MFIsVirtualCameraTypeSupported",
+    "mfvirtualcamera/MFIsVirtualCameraTypeSupported"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

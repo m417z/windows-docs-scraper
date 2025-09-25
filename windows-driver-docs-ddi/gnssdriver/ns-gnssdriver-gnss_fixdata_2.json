@@ -1,0 +1,45 @@
+{
+  "UID": "NS:gnssdriver.GNSS_FIXDATA_2",
+  "title": "GNSS_FIXDATA_2 (gnssdriver.h)",
+  "ms.date": "04/05/2021",
+  "targetos": "Windows",
+  "tech.root": "gnss",
+  "description": "The GNSS_FIXDATA_2 structure defines the specific data elements associated with a GNSS fix returned from the driver.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "gnssdriver.h",
+  "req.include-header": "Gnssdriver.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "GNSS_FIXDATA_2, *PGNSS_FIXDATA_2",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "gnssdriver.h"
+  ],
+  "api_name": [
+    "PGNSS_FIXDATA_2",
+    "GNSS_FIXDATA_2"
+  ],
+  "f1_keywords": [
+    "PGNSS_FIXDATA_2",
+    "gnssdriver/PGNSS_FIXDATA_2",
+    "GNSS_FIXDATA_2",
+    "gnssdriver/GNSS_FIXDATA_2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

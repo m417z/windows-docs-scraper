@@ -1,0 +1,3 @@
+struct GRAYCOLOR {
+  WORD gray;
+};

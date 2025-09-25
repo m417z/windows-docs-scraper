@@ -1,0 +1,48 @@
+{
+  "UID": "NF:systemtopologyapi.GetNumaNodeProcessorMask2",
+  "tech.root": "ProcThread",
+  "title": "GetNumaNodeProcessorMask2",
+  "ms.date": "03/12/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Retrieves the multi-group processor mask of the specified node.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "systemtopologyapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-systemtopology-l1-1-2.dll",
+    "systemtopologyapi.h"
+  ],
+  "api_name": [
+    "GetNumaNodeProcessorMask2"
+  ],
+  "f1_keywords": [
+    "GetNumaNodeProcessorMask2",
+    "systemtopologyapi/GetNumaNodeProcessorMask2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

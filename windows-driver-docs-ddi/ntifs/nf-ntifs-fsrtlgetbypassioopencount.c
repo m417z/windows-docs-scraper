@@ -1,0 +1,3 @@
+void FsRtlGetBypassIoOpenCount(
+  _fo
+);

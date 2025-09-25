@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wincrypt.CertVerifyCertificateChainPolicy",
+  "title": "CertVerifyCertificateChainPolicy function (wincrypt.h)",
+  "description": "Checks a certificate chain to verify its validity, including its compliance with any specified validity policy criteria.",
+  "helpviewer_keywords": [
+    "CERT_CHAIN_POLICY_AUTHENTICODE",
+    "CERT_CHAIN_POLICY_AUTHENTICODE_TS",
+    "CERT_CHAIN_POLICY_BASE",
+    "CERT_CHAIN_POLICY_BASIC_CONSTRAINTS",
+    "CERT_CHAIN_POLICY_EV",
+    "CERT_CHAIN_POLICY_MICROSOFT_ROOT",
+    "CERT_CHAIN_POLICY_NT_AUTH",
+    "CERT_CHAIN_POLICY_SSL",
+    "CERT_CHAIN_POLICY_SSL_F12",
+    "CertVerifyCertificateChainPolicy",
+    "CertVerifyCertificateChainPolicy function [Security]",
+    "_crypto2_certverifycertificatechainpolicy",
+    "security.certverifycertificatechainpolicy",
+    "wincrypt/CertVerifyCertificateChainPolicy"
+  ],
+  "old-location": "security\\certverifycertificatechainpolicy.htm",
+  "tech.root": "security",
+  "ms.assetid": "19c37f77-1072-4740-b244-764b816a2a1f",
+  "ms.date": "07/19/2024",
+  "ms.keywords": "CERT_CHAIN_POLICY_AUTHENTICODE, CERT_CHAIN_POLICY_AUTHENTICODE_TS, CERT_CHAIN_POLICY_BASE, CERT_CHAIN_POLICY_BASIC_CONSTRAINTS, CERT_CHAIN_POLICY_EV, CERT_CHAIN_POLICY_MICROSOFT_ROOT, CERT_CHAIN_POLICY_NT_AUTH, CERT_CHAIN_POLICY_SSL, CERT_CHAIN_POLICY_SSL_F12, CertVerifyCertificateChainPolicy, CertVerifyCertificateChainPolicy function [Security], _crypto2_certverifycertificatechainpolicy, security.certverifycertificatechainpolicy, wincrypt/CertVerifyCertificateChainPolicy",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertVerifyCertificateChainPolicy",
+    "wincrypt/CertVerifyCertificateChainPolicy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertVerifyCertificateChainPolicy"
+  ]
+}

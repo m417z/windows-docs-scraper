@@ -1,0 +1,67 @@
+{
+  "UID": "NF:bcrypt.BCryptGenerateKeyPair",
+  "title": "BCryptGenerateKeyPair function (bcrypt.h)",
+  "description": "Creates an empty public/private key pair.",
+  "helpviewer_keywords": [
+    "BCRYPT_DH_ALGORITHM",
+    "BCRYPT_DSA_ALGORITHM",
+    "BCRYPT_ECDH_P256_ALGORITHM",
+    "BCRYPT_ECDH_P384_ALGORITHM",
+    "BCRYPT_ECDH_P521_ALGORITHM",
+    "BCRYPT_ECDSA_P256_ALGORITHM",
+    "BCRYPT_ECDSA_P384_ALGORITHM",
+    "BCRYPT_ECDSA_P521_ALGORITHM",
+    "BCRYPT_RSA_ALGORITHM",
+    "BCryptGenerateKeyPair",
+    "BCryptGenerateKeyPair function [Security]",
+    "bcrypt/BCryptGenerateKeyPair",
+    "security.bcryptgeneratekeypair_func"
+  ],
+  "old-location": "security\\bcryptgeneratekeypair_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "cdf0de2e-2445-45e3-91ba-89791a0c0642",
+  "ms.date": "06/16/2025",
+  "ms.keywords": "BCRYPT_DH_ALGORITHM, BCRYPT_DSA_ALGORITHM, BCRYPT_ECDH_P256_ALGORITHM, BCRYPT_ECDH_P384_ALGORITHM, BCRYPT_ECDH_P521_ALGORITHM, BCRYPT_ECDSA_P256_ALGORITHM, BCRYPT_ECDSA_P384_ALGORITHM, BCRYPT_ECDSA_P521_ALGORITHM, BCRYPT_RSA_ALGORITHM, BCryptGenerateKeyPair, BCryptGenerateKeyPair function [Security], bcrypt/BCryptGenerateKeyPair, security.bcryptgeneratekeypair_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptGenerateKeyPair",
+    "bcrypt/BCryptGenerateKeyPair"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptGenerateKeyPair"
+  ]
+}

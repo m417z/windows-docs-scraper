@@ -1,0 +1,80 @@
+{
+  "UID": "NF:winnls.FoldStringA",
+  "title": "FoldStringA function (winnls.h)",
+  "description": "Maps one Unicode string to another, performing the specified transformation. (FoldStringA)",
+  "helpviewer_keywords": [
+    "FoldString",
+    "FoldString function [Internationalization for Windows Applications]",
+    "FoldStringA",
+    "FoldStringW",
+    "MAP_COMPOSITE",
+    "MAP_EXPAND_LIGATURES",
+    "MAP_FOLDCZONE",
+    "MAP_FOLDDIGITS",
+    "MAP_PRECOMPOSED",
+    "_win32_FoldString",
+    "_win32_FoldString_cpp",
+    "intl.foldstring",
+    "stringapiset/FoldString",
+    "stringapiset/FoldStringA",
+    "stringapiset/FoldStringW",
+    "winnls/FoldString",
+    "winnls/FoldStringA",
+    "winnls/FoldStringW",
+    "winui._win32_FoldString"
+  ],
+  "old-location": "intl\\foldstring.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "986b9a72-04c0-49e2-8424-8948dc64de0c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FoldString, FoldString function [Internationalization for Windows Applications], FoldStringA, FoldStringW, MAP_COMPOSITE, MAP_EXPAND_LIGATURES, MAP_FOLDCZONE, MAP_FOLDDIGITS, MAP_PRECOMPOSED, _win32_FoldString, _win32_FoldString_cpp, intl.foldstring, stringapiset/FoldString, stringapiset/FoldStringA, stringapiset/FoldStringW, winnls/FoldString, winnls/FoldStringA, winnls/FoldStringW, winui._win32_FoldString",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FoldStringW (Unicode) and FoldStringA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FoldStringA",
+    "winnls/FoldStringA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-String-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Localization-Ansi-L1-1-0.dll",
+    "Kernel32Legacy.dll"
+  ],
+  "api_name": [
+    "FoldString",
+    "FoldStringA",
+    "FoldStringW"
+  ]
+}

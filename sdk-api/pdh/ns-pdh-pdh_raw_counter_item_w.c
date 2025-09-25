@@ -1,0 +1,4 @@
+typedef struct _PDH_RAW_COUNTER_ITEM_W {
+  LPWSTR          szName;
+  PDH_RAW_COUNTER RawValue;
+} PDH_RAW_COUNTER_ITEM_W, *PPDH_RAW_COUNTER_ITEM_W;

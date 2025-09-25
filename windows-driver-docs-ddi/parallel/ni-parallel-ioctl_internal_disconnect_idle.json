@@ -1,0 +1,48 @@
+{
+  "UID": "NI:parallel.IOCTL_INTERNAL_DISCONNECT_IDLE",
+  "title": "IOCTL_INTERNAL_DISCONNECT_IDLE (parallel.h)",
+  "description": "The IOCTL_INTERNAL_DISCONNECT_IDLE request disconnects the IEEE 1284 operating modes that are set for a parallel device.",
+  "old-location": "parports\\ioctl_internal_disconnect_idle.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_INTERNAL_DISCONNECT_IDLE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_DISCONNECT_IDLE, IOCTL_INTERNAL_DISCONNECT_IDLE control code [Parallel Ports], cisspd_ff4b2feb-d3b4-4b80-9f6f-f4fd16bab4c1.xml, parallel/IOCTL_INTERNAL_DISCONNECT_IDLE, parports.ioctl_internal_disconnect_idle",
+  "req.header": "parallel.h",
+  "req.include-header": "Parallel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RILGBATOKEN, *LPRILGBATOKEN",
+  "f1_keywords": [
+    "IOCTL_INTERNAL_DISCONNECT_IDLE",
+    "parallel/IOCTL_INTERNAL_DISCONNECT_IDLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_DISCONNECT_IDLE"
+  ]
+}

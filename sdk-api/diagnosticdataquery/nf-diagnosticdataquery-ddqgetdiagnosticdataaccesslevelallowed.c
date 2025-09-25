@@ -1,0 +1,3 @@
+HRESULT DdqGetDiagnosticDataAccessLevelAllowed(
+  DdqAccessLevel *accessLevel
+);

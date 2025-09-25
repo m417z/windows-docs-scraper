@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY         Property;
+  PVRAM_SURFACE_INFO pVramSurfaceInfo;
+} VRAM_SURFACE_INFO_PROPERTY_S, *PVRAM_SURFACE_INFO_PROPERTY_S;

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:sensapi.IsDestinationReachableW",
+  "title": "IsDestinationReachableW function (sensapi.h)",
+  "description": "The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination. (Unicode)",
+  "helpviewer_keywords": [
+    "IsDestinationReachable",
+    "IsDestinationReachable function [SENS]",
+    "IsDestinationReachableW",
+    "_zaw_isdestinationreachable",
+    "sens.isdestinationreachable",
+    "sensapi/IsDestinationReachable",
+    "sensapi/IsDestinationReachableW",
+    "syncmgr.isdestinationreachable"
+  ],
+  "old-location": "sens\\isdestinationreachable.htm",
+  "tech.root": "Sens",
+  "ms.assetid": "377af331-8494-4a3d-b822-78c2b568239c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IsDestinationReachable, IsDestinationReachable function [SENS], IsDestinationReachableA, IsDestinationReachableW, _zaw_isdestinationreachable, sens.isdestinationreachable, sensapi/IsDestinationReachable, sensapi/IsDestinationReachableA, sensapi/IsDestinationReachableW, syncmgr.isdestinationreachable",
+  "req.header": "sensapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "IsDestinationReachableW (Unicode) and IsDestinationReachableA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Sensapi.lib",
+  "req.dll": "Sensapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IsDestinationReachableW",
+    "sensapi/IsDestinationReachableW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Sensapi.dll"
+  ],
+  "api_name": [
+    "IsDestinationReachable",
+    "IsDestinationReachableA",
+    "IsDestinationReachableW"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugDataSpaces2.GetVirtualTranslationPhysicalOffsets",
+  "title": "IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets (dbgeng.h)",
+  "description": "This method returns the physical addresses of the system paging structures at different levels of the paging hierarchy.",
+  "old-location": "debugger\\getvirtualtranslationphysicaloffsets.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets"
+  ],
+  "ms.keywords": "GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], GetVirtualTranslationPhysicalOffsets method [Windows Debugging],IDebugDataSpaces2 interface, GetVirtualTranslationPhysicalOffsets method [Windows Debugging],IDebugDataSpaces3 interface, GetVirtualTranslationPhysicalOffsets method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging],GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces2.GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces3 interface [Windows Debugging],GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4 interface [Windows Debugging],GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces_661959c5-a514-4651-8eaa-fd4c4fb94bd7.xml, dbgeng/IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, dbgeng/IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, dbgeng/IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, debugger.getvirtualtranslationphysicaloffsets",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets",
+    "dbgeng/IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets"
+  ]
+}

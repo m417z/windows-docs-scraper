@@ -1,0 +1,48 @@
+{
+  "UID": "NF:winsplp.ConfigurePortUI",
+  "title": "ConfigurePortUI function (winsplp.h)",
+  "description": "A port monitor UI DLL's ConfigurePortUI function obtains port configuration information from the user and sends it to the port monitor server DLL.",
+  "old-location": "print\\configureportui.htm",
+  "tech.root": "print",
+  "ms.date": "02/02/2018",
+  "keywords": [
+    "ConfigurePortUI function"
+  ],
+  "ms.keywords": "pfnConfigurePortUI function [Print Devices], winsplp/pfnConfigurePortUI, ConfigurePortUI, print.configureportui, spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, pfnConfigurePortUI",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.exe",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NOTIFICATION_CONFIG_FLAGS",
+  "f1_keywords": [
+    "ConfigurePortUI",
+    "winsplp/ConfigurePortUI"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winsplp.h"
+  ],
+  "api_name": [
+    "ConfigurePortUI"
+  ]
+}

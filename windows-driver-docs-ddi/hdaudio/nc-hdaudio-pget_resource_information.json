@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PGET_RESOURCE_INFORMATION",
+  "title": "PGET_RESOURCE_INFORMATION (hdaudio.h)",
+  "description": "The GetResourceInformation routine retrieves information about hardware resources.The function pointer type for a GetResourceInformation routine is defined as follows.",
+  "old-location": "audio\\getresourceinformation.htm",
+  "tech.root": "audio",
+  "ms.date": "07/27/2023",
+  "keywords": [
+    "PGET_RESOURCE_INFORMATION callback function"
+  ],
+  "ms.keywords": "GetResourceInformation, GetResourceInformation callback function [Audio Devices], PGET_RESOURCE_INFORMATION, PGET_RESOURCE_INFORMATION callback, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml, audio.getresourceinformation, hdaudio/GetResourceInformation",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PGET_RESOURCE_INFORMATION",
+    "hdaudio/PGET_RESOURCE_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PGET_RESOURCE_INFORMATION"
+  ]
+}

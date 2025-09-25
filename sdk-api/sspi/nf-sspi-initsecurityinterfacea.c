@@ -1,0 +1,1 @@
+PSecurityFunctionTableA SEC_ENTRY InitSecurityInterfaceA();

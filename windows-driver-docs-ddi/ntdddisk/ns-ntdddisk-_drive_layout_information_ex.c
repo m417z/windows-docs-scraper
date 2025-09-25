@@ -1,0 +1,9 @@
+typedef struct _DRIVE_LAYOUT_INFORMATION_EX {
+  ULONG                    PartitionStyle;
+  ULONG                    PartitionCount;
+  union {
+    DRIVE_LAYOUT_INFORMATION_MBR Mbr;
+    DRIVE_LAYOUT_INFORMATION_GPT Gpt;
+  } DUMMYUNIONNAME;
+  PARTITION_INFORMATION_EX PartitionEntry[1];
+} DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX;

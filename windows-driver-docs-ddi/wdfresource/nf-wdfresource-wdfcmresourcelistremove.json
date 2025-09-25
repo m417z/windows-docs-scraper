@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfresource.WdfCmResourceListRemove",
+  "title": "WdfCmResourceListRemove function (wdfresource.h)",
+  "description": "The WdfCmResourceListRemove method removes a resource descriptor from a specified resource list.",
+  "old-location": "wdf\\wdfcmresourcelistremove.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfCmResourceListRemove function"
+  ],
+  "ms.keywords": "DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, WdfCmResourceListRemove, WdfCmResourceListRemove method, kmdf.wdfcmresourcelistremove, wdf.wdfcmresourcelistremove, wdfresource/WdfCmResourceListRemove",
+  "req.header": "wdfresource.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfCmResourceListRemove",
+    "wdfresource/WdfCmResourceListRemove"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfCmResourceListRemove"
+  ]
+}

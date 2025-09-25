@@ -1,0 +1,3 @@
+void D3DDDI_MAJOR16_FROM_INTERFACE32(
+  v
+);

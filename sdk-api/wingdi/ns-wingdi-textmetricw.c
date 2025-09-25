@@ -1,0 +1,22 @@
+typedef struct tagTEXTMETRICW {
+  LONG  tmHeight;
+  LONG  tmAscent;
+  LONG  tmDescent;
+  LONG  tmInternalLeading;
+  LONG  tmExternalLeading;
+  LONG  tmAveCharWidth;
+  LONG  tmMaxCharWidth;
+  LONG  tmWeight;
+  LONG  tmOverhang;
+  LONG  tmDigitizedAspectX;
+  LONG  tmDigitizedAspectY;
+  WCHAR tmFirstChar;
+  WCHAR tmLastChar;
+  WCHAR tmDefaultChar;
+  WCHAR tmBreakChar;
+  BYTE  tmItalic;
+  BYTE  tmUnderlined;
+  BYTE  tmStruckOut;
+  BYTE  tmPitchAndFamily;
+  BYTE  tmCharSet;
+} TEXTMETRICW, *PTEXTMETRICW, *NPTEXTMETRICW, *LPTEXTMETRICW;

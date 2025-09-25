@@ -1,0 +1,4 @@
+typedef struct _VDS_PORTAL_GROUP_NOTIFICATION {
+  ULONG         ulEvent;
+  VDS_OBJECT_ID portalGroupId;
+} VDS_PORTAL_GROUP_NOTIFICATION;

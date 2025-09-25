@@ -1,0 +1,4 @@
+typedef struct _CTL_ANY_SUBJECT_INFO {
+  CRYPT_ALGORITHM_IDENTIFIER SubjectAlgorithm;
+  CRYPT_DATA_BLOB            SubjectIdentifier;
+} CTL_ANY_SUBJECT_INFO, *PCTL_ANY_SUBJECT_INFO;

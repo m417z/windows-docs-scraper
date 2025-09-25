@@ -1,0 +1,6 @@
+typedef struct _DOCEVENT_CREATEDCPRE {
+  PWSTR     pszDriver;
+  PWSTR     pszDevice;
+  PDEVMODEW pdm;
+  BOOL      bIC;
+} DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE;

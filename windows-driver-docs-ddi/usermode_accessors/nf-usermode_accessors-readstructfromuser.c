@@ -1,0 +1,4 @@
+void ReadStructFromUser(
+  Destination,
+  Source
+);

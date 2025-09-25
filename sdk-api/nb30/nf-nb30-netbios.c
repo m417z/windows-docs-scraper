@@ -1,0 +1,3 @@
+UCHAR Netbios(
+  PNCB pncb
+);

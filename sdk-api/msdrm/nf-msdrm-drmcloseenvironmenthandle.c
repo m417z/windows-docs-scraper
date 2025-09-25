@@ -1,0 +1,3 @@
+DRMEXPORT HRESULT UDAPICALL DRMCloseEnvironmentHandle(
+  [in] DRMENVHANDLE hEnv
+);

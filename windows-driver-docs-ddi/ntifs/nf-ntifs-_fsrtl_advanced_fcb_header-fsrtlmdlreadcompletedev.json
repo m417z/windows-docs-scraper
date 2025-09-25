@@ -1,0 +1,52 @@
+{
+  "UID": "NF:ntifs.FsRtlMdlReadCompleteDev",
+  "title": "FsRtlMdlReadCompleteDev function (ntifs.h)",
+  "description": "The FsRtlMdlReadCompleteDev routine completes the read operation that the FsRtlMdlReadDev routine initiated.",
+  "old-location": "ifsk\\fsrtlmdlreadcompletedev.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FsRtlMdlReadCompleteDev function"
+  ],
+  "ms.keywords": "FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadCompleteDev, ifsk.fsrtlmdlreadcompletedev",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FsRtlMdlReadCompleteDev",
+    "ntifs/FsRtlMdlReadCompleteDev"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FsRtlMdlReadCompleteDev"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

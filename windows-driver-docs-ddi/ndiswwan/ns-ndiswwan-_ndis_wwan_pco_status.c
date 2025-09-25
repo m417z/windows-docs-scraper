@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_PCO_STATUS {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_PCO_VALUE     PcoValue;
+} NDIS_WWAN_PCO_STATUS, *PNDIS_WWAN_PCO_STATUS;

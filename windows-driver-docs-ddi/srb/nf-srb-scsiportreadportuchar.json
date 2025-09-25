@@ -1,0 +1,49 @@
+{
+  "UID": "NF:srb.ScsiPortReadPortUchar",
+  "title": "ScsiPortReadPortUchar function (srb.h)",
+  "description": "The ScsiPortReadPortUchar routine reads an unsigned byte value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\scsiportreadportuchar.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ScsiPortReadPortUchar function"
+  ],
+  "ms.keywords": "ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, srb/ScsiPortReadPortUchar, storage.scsiportreadportuchar",
+  "req.header": "srb.h",
+  "req.include-header": "Miniport.h, Scsi.h, Storport.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scsiport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortReadPortUchar",
+    "srb/ScsiPortReadPortUchar"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Scsiport.lib",
+    "Scsiport.dll"
+  ],
+  "api_name": [
+    "ScsiPortReadPortUchar"
+  ]
+}

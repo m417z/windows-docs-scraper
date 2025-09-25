@@ -1,0 +1,5 @@
+typedef struct _D3DKMT_OPENSYNCHRONIZATIONOBJECT {
+  [in]  D3DKMT_HANDLE         hSharedHandle;
+  [out] D3DKMT_HANDLE         hSyncObject;
+        D3DKMT_ALIGN64 UINT64 Reserved[8];
+} D3DKMT_OPENSYNCHRONIZATIONOBJECT;

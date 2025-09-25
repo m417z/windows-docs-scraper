@@ -1,0 +1,48 @@
+{
+  "UID": "NC:sercx.EVT_SERCX_PURGE",
+  "title": "EVT_SERCX_PURGE (sercx.h)",
+  "description": "The EvtSerCxPurge event callback function is called by the serial framework extension (SerCx) to purge the serial controller's hardware buffers.",
+  "old-location": "serports\\evtsercxpurge.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "EVT_SERCX_PURGE callback function"
+  ],
+  "ms.keywords": "1/EvtSerCxPurge, EVT_SERCX_PURGE, EVT_SERCX_PURGE callback, EvtSerCxPurge, EvtSerCxPurge callback function [Serial Ports], serports.evtsercxpurge",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SERCX_PURGE",
+    "sercx/EVT_SERCX_PURGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "1.0\\Sercx.h"
+  ],
+  "api_name": [
+    "EVT_SERCX_PURGE"
+  ]
+}

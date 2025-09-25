@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._POOL_EXTENDED_PARAMETER",
+  "title": "POOL_EXTENDED_PARAMETER",
+  "tech.root": "kernel",
+  "ms.date": "03/01/2020",
+  "targetos": "Windows",
+  "description": "Learn more about: POOL_EXTENDED_PARAMETER",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "POOL_EXTENDED_PARAMETER, *PPOOL_EXTENDED_PARAMETER",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_POOL_EXTENDED_PARAMETER",
+    "PPOOL_EXTENDED_PARAMETER",
+    "POOL_EXTENDED_PARAMETER"
+  ],
+  "f1_keywords": [
+    "_POOL_EXTENDED_PARAMETER",
+    "wdm/_POOL_EXTENDED_PARAMETER",
+    "PPOOL_EXTENDED_PARAMETER",
+    "wdm/PPOOL_EXTENDED_PARAMETER",
+    "POOL_EXTENDED_PARAMETER",
+    "wdm/POOL_EXTENDED_PARAMETER"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

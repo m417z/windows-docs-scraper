@@ -1,0 +1,5 @@
+typedef enum _MI_CallbackMode {
+  MI_CALLBACKMODE_REPORT,
+  MI_CALLBACKMODE_INQUIRE,
+  MI_CALLBACKMODE_IGNORE
+} MI_CallbackMode;

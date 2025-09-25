@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE _NETIOAPI_SUCCESS_ NETIOAPI_API GetNetworkConnectivityHint(
+  [out] NL_NETWORK_CONNECTIVITY_HINT *ConnectivityHint
+);

@@ -1,0 +1,5 @@
+typedef struct _NDIS_WWAN_PIN_LIST {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_STATUS        uStatus;
+  WWAN_PIN_LIST      PinList;
+} NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST;

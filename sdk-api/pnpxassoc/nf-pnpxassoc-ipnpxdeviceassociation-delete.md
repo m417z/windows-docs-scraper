@@ -1,0 +1,44 @@
+# IPNPXDeviceAssociation::Delete
+
+## Description
+
+[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
+
+Removes an entry from the association database and sends an appropriate notification.
+
+## Parameters
+
+### `pszSubcategory` [in, optional]
+
+The subcategory of the association database in which the entry is stored. This parameter can be **NULL**.
+
+### `pIFunctionDiscoveryNotification` [in]
+
+An [IFunctionDiscoveryNotification](https://learn.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification) object that is registered for notifications with Function Discovery.
+
+## Return value
+
+Possible return values include, but are not limited to, the following.
+
+| Return code | Description |
+| --- | --- |
+| **S_OK** | The method succeeded. |
+| **E_FAIL** | The method failed. |
+
+## Remarks
+
+This method modifies the association database entry corresponding to the function instance from which the [IPNPXDeviceAssociation](https://learn.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation) interface was obtained.
+
+The following logic is used to determine the callback method used for notification:
+
+* If a PnP notification is received after the device is deleted, then the [IFunctionDiscoveryNotification::OnUpdate](https://learn.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate) method is called with the *enumQueryUpdateAction* parameter set to **QUA_REMOVE**.
+* If no PnP notification is received after the device is deleted, and there are no pending PnP events, then the [IFunctionDiscoveryNotification::OnError](https://learn.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror) method is called.
+* Finally, if no PnP notification is received after the device is deleted, and there are pending PnP events, then no callback method is called.
+
+To mark a device as unavailable for use without deleting the association database entry, call [IPNPXDeviceAssociation::Unassociate](https://learn.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxdeviceassociation-unassociate).
+
+## See also
+
+[IPNPXAssociation::Delete](https://learn.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-delete)
+
+[IPNPXDeviceAssociation](https://learn.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation)

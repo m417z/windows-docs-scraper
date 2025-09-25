@@ -1,0 +1,3 @@
+HRESULT get_Cause(
+  [out] CALL_STATE_EVENT_CAUSE *pCEC
+);

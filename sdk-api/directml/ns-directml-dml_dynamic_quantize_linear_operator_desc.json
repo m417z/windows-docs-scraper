@@ -1,0 +1,47 @@
+{
+  "UID": "NS:directml.DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC",
+  "title": "DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC",
+  "description": "Calculates the quantization scale and zero point values necessary to quantize the *InputTensor*, then applies that quantization, writing the result to *OutputTensor*.",
+  "tech.root": "directml",
+  "ms.date": "07/02/2021",
+  "req.construct-type": "structure",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC",
+    "directml/DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "directml.h"
+  ],
+  "api_name": [
+    "DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC"
+  ]
+}

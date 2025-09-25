@@ -1,0 +1,3 @@
+VOID WdfSpinLockRelease(
+  WDFSPINLOCK SpinLock
+);

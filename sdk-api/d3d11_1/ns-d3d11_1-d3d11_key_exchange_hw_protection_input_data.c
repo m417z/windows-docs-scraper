@@ -1,0 +1,5 @@
+typedef struct D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA {
+  UINT PrivateDataSize;
+  UINT HWProtectionDataSize;
+  BYTE pbInput[4];
+} D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA;

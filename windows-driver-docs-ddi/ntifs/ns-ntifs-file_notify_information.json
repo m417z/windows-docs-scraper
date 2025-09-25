@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntifs._FILE_NOTIFY_INFORMATION",
+  "tech.root": "ifsk",
+  "title": "FILE_NOTIFY_INFORMATION",
+  "ms.date": "02/05/2024",
+  "targetos": "Windows",
+  "description": "Learn more about the FILE_NOTIFY_INFORMATION structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_NOTIFY_INFORMATION",
+    "PFILE_NOTIFY_INFORMATION",
+    "FILE_NOTIFY_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_FILE_NOTIFY_INFORMATION",
+    "ntifs/_FILE_NOTIFY_INFORMATION",
+    "PFILE_NOTIFY_INFORMATION",
+    "ntifs/PFILE_NOTIFY_INFORMATION",
+    "FILE_NOTIFY_INFORMATION",
+    "ntifs/FILE_NOTIFY_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

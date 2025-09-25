@@ -1,0 +1,4 @@
+typedef struct tagACT_AUTHZ_STATE {
+  UCHAR   ACT;
+  BOOLEAN fAuthorized;
+} ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE;

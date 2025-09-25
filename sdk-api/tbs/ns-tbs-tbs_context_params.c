@@ -1,0 +1,3 @@
+typedef struct tdTBS_CONTEXT_PARAMS {
+  UINT32 version;
+} TBS_CONTEXT_PARAMS, *PTBS_CONTEXT_PARAMS;

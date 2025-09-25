@@ -1,0 +1,34 @@
+# IATSC_ETT::GetExtendedMessageText
+
+## Description
+
+\[The feature associated with this page, [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+
+The **GetExtendedMessageText** method returns the message text.
+
+## Parameters
+
+### `pdwLength` [out]
+
+Receives the length of the title text, in bytes.
+
+### `ppText` [out]
+
+Receives a pointer to the title text buffer. The method allocates the buffer and fills it with the title text, which is formatted as a Multiple String Structure as defined by ATSC PSIP Standard A/65. The caller must free the buffer by calling **CoTaskMemFree**.
+
+## Return value
+
+The method returns an **HRESULT**. Possible values include those in the following table.
+
+| Return code | Description |
+| --- | --- |
+| **E_OUTOFMEMORY** | Insufficient memory. |
+| **E_POINTER** | NULL pointer argument. |
+| **S_FALSE** | The length of the text is zero. |
+| **S_OK** | The method succeeded. |
+
+## See also
+
+[IATSC_ETT Interface](https://learn.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_ett)

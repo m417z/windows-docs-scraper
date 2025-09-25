@@ -1,0 +1,9 @@
+typedef enum TAPI_OBJECT_TYPE {
+  TOT_NONE = 0,
+  TOT_TAPI,
+  TOT_ADDRESS,
+  TOT_TERMINAL,
+  TOT_CALL,
+  TOT_CALLHUB,
+  TOT_PHONE
+} ;

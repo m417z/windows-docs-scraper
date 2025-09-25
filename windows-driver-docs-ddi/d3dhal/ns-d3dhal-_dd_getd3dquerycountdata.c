@@ -1,0 +1,4 @@
+typedef struct _DD_GETD3DQUERYCOUNTDATA {
+  DD_GETDRIVERINFO2DATA gdi2;
+  DWORD                 dwNumQueries;
+} DD_GETD3DQUERYCOUNTDATA;

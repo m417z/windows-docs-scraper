@@ -1,0 +1,49 @@
+{
+  "UID": "NF:usbdlib.USBD_GetPdoRegistryParameter",
+  "title": "USBD_GetPdoRegistryParameter function (usbdlib.h)",
+  "description": "The USBD_GetPdoRegistryParameter routine retrieves the value from the specified key in the USB device's hardware registry.",
+  "old-location": "buses\\usbd_getpdoregistryparameter.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBD_GetPdoRegistryParameter function"
+  ],
+  "ms.keywords": "USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses], buses.usbd_getpdoregistryparameter, usbdlib/USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml",
+  "req.header": "usbdlib.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbd.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBD_GetPdoRegistryParameter",
+    "usbdlib/USBD_GetPdoRegistryParameter"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "usbd.lib",
+    "usbd.dll"
+  ],
+  "api_name": [
+    "USBD_GetPdoRegistryParameter"
+  ]
+}

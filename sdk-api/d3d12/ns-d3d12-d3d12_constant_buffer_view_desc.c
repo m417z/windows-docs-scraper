@@ -1,0 +1,4 @@
+typedef struct D3D12_CONSTANT_BUFFER_VIEW_DESC {
+  D3D12_GPU_VIRTUAL_ADDRESS BufferLocation;
+  UINT                      SizeInBytes;
+} D3D12_CONSTANT_BUFFER_VIEW_DESC;

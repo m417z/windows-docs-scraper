@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winsock2.WSAEnumNameSpaceProvidersExA",
+  "title": "WSAEnumNameSpaceProvidersExA function (winsock2.h)",
+  "description": "Retrieves information on available namespace providers. (ANSI)",
+  "helpviewer_keywords": [
+    "WSAEnumNameSpaceProvidersExA",
+    "winsock2/WSAEnumNameSpaceProvidersExA"
+  ],
+  "old-location": "winsock\\wsaenumnamespaceprovidersex.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "34bc96aa-63f7-4ab8-9376-6f4b979225ca",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSAEnumNameSpaceProvidersEx, WSAEnumNameSpaceProvidersEx function [Winsock], WSAEnumNameSpaceProvidersExA, WSAEnumNameSpaceProvidersExW, winsock.wsaenumnamespaceprovidersex, winsock2/WSAEnumNameSpaceProvidersEx, winsock2/WSAEnumNameSpaceProvidersExA, winsock2/WSAEnumNameSpaceProvidersExW",
+  "req.header": "winsock2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WSAEnumNameSpaceProvidersExW (Unicode) and WSAEnumNameSpaceProvidersExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSAEnumNameSpaceProvidersExA",
+    "winsock2/WSAEnumNameSpaceProvidersExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSAEnumNameSpaceProvidersEx",
+    "WSAEnumNameSpaceProvidersExA",
+    "WSAEnumNameSpaceProvidersExW"
+  ]
+}

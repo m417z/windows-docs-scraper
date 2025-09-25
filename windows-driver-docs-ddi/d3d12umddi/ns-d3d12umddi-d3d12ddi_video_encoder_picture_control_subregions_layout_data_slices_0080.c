@@ -1,0 +1,8 @@
+typedef struct D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA_SLICES_0080 {
+  union {
+    UINT MaxBytesPerSlice;
+    UINT NumberOfCodingUnitsPerSlice;
+    UINT NumberOfRowsPerSlice;
+    UINT NumberOfSlicesPerFrame;
+  };
+} D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA_SLICES_0080;

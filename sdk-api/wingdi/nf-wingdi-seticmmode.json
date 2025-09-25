@@ -1,0 +1,63 @@
+{
+  "UID": "NF:wingdi.SetICMMode",
+  "title": "SetICMMode function (wingdi.h)",
+  "description": "The SetICMMode function causes Image Color Management to be enabled, disabled, or queried on a given device context (DC).",
+  "helpviewer_keywords": [
+    "ICM_DONE_OUTSIDEDC",
+    "ICM_OFF",
+    "ICM_ON",
+    "ICM_QUERY",
+    "SetICMMode",
+    "SetICMMode function [Windows Color System]",
+    "_color_SetICMMode",
+    "wcs.seticmmode",
+    "wingdi/SetICMMode"
+  ],
+  "old-location": "wcs\\seticmmode.htm",
+  "tech.root": "WCS",
+  "ms.assetid": "40d70c1f-c580-43c4-b44b-6c9388e138fb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ICM_DONE_OUTSIDEDC, ICM_OFF, ICM_ON, ICM_QUERY, SetICMMode, SetICMMode function [Windows Color System], _color_SetICMMode, wcs.seticmmode, wingdi/SetICMMode",
+  "req.header": "wingdi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetICMMode",
+    "wingdi/SetICMMode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll"
+  ],
+  "api_name": [
+    "SetICMMode"
+  ]
+}

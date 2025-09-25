@@ -1,0 +1,5 @@
+typedef struct _PEP_PROCESSOR_PERF_STATE {
+  ULONG Performance;
+  ULONG Frequency;
+  ULONG Reserved[4];
+} PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._NDIS_SYSTEM_PROCESSOR_INFO",
+  "title": "_NDIS_SYSTEM_PROCESSOR_INFO (ndis.h)",
+  "description": "The NDIS_SYSTEM_PROCESSOR_INFO structure specifies information about the CPU topology of the local computer and the receive side scaling (RSS) processor set.",
+  "old-location": "netvista\\ndis_system_processor_info.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_SYSTEM_PROCESSOR_INFO structure"
+  ],
+  "ms.keywords": "*PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SYSTEM_PROCESSOR_INFO, ndis/NDIS_SYSTEM_PROCESSOR_INFO, ndis/PNDIS_SYSTEM_PROCESSOR_INFO, ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, netvista.ndis_system_processor_info",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_SYSTEM_PROCESSOR_INFO_EX.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_SYSTEM_PROCESSOR_INFO, *PNDIS_SYSTEM_PROCESSOR_INFO",
+  "f1_keywords": [
+    "_NDIS_SYSTEM_PROCESSOR_INFO",
+    "ndis/_NDIS_SYSTEM_PROCESSOR_INFO",
+    "PNDIS_SYSTEM_PROCESSOR_INFO",
+    "ndis/PNDIS_SYSTEM_PROCESSOR_INFO",
+    "NDIS_SYSTEM_PROCESSOR_INFO",
+    "ndis/NDIS_SYSTEM_PROCESSOR_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "_NDIS_SYSTEM_PROCESSOR_INFO",
+    "PNDIS_SYSTEM_PROCESSOR_INFO",
+    "NDIS_SYSTEM_PROCESSOR_INFO"
+  ]
+}

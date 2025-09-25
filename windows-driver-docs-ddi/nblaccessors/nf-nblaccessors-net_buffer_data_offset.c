@@ -1,0 +1,1 @@
+#define NET_BUFFER_DATA_OFFSET(_NB) ((_NB)->DataOffset)

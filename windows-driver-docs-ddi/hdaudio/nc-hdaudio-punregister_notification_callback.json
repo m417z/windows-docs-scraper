@@ -1,0 +1,45 @@
+{
+  "UID": "NC:hdaudio.PUNREGISTER_NOTIFICATION_CALLBACK",
+  "title": "PUNREGISTER_NOTIFICATION_CALLBACK",
+  "description": "The PUNREGISTER_NOTIFICATION_CALLBACK callback function deletes the registration of a notification callback routine that was previously registered by a call to RegisterNotificationCallback.",
+  "tech.root": "audio",
+  "ms.date": "04/08/2019",
+  "keywords": [
+    "PUNREGISTER_NOTIFICATION_CALLBACK callback function"
+  ],
+  "req.header": "hdaudio.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "19H1",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PUNREGISTER_NOTIFICATION_CALLBACK",
+    "hdaudio/PUNREGISTER_NOTIFICATION_CALLBACK"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PUNREGISTER_NOTIFICATION_CALLBACK"
+  ]
+}

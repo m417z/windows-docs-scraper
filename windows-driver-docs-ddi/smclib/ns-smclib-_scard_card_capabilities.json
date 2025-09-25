@@ -1,0 +1,54 @@
+{
+  "UID": "NS:smclib._SCARD_CARD_CAPABILITIES",
+  "title": "_SCARD_CARD_CAPABILITIES (smclib.h)",
+  "description": "The SCARD_CARD_CAPABILITIES structure declaration defines the data that is stored in the CardCapabilites member of the SMARTCARD_EXTENSION structure and holds all information that is specific to the particular smart card that is currently used.",
+  "old-location": "smartcrd\\scard_card_capabilities.htm",
+  "tech.root": "smartcrd",
+  "ms.date": "02/22/2018",
+  "keywords": [
+    "SCARD_CARD_CAPABILITIES structure"
+  ],
+  "ms.keywords": "*PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], SCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], _SCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, smartcrd.scard_card_capabilities, smclib/PSCARD_CARD_CAPABILITIES, smclib/SCARD_CARD_CAPABILITIES",
+  "req.header": "smclib.h",
+  "req.include-header": "Smclib.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES",
+  "f1_keywords": [
+    "_SCARD_CARD_CAPABILITIES",
+    "smclib/_SCARD_CARD_CAPABILITIES",
+    "PSCARD_CARD_CAPABILITIES",
+    "smclib/PSCARD_CARD_CAPABILITIES",
+    "SCARD_CARD_CAPABILITIES",
+    "smclib/SCARD_CARD_CAPABILITIES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "smclib.h"
+  ],
+  "api_name": [
+    "_SCARD_CARD_CAPABILITIES",
+    "PSCARD_CARD_CAPABILITIES",
+    "SCARD_CARD_CAPABILITIES"
+  ]
+}

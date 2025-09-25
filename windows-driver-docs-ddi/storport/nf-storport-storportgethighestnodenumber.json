@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storport.StorPortGetHighestNodeNumber",
+  "title": "StorPortGetHighestNodeNumber function (storport.h)",
+  "description": "The StorPortGetHighestNodeNumber routine returns the largest possible node number on the system.",
+  "old-location": "storage\\storportgethighestnodenumber.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortGetHighestNodeNumber function"
+  ],
+  "ms.keywords": "StorPortGetHighestNodeNumber, StorPortGetHighestNodeNumber routine [Storage Devices], storage.storportgethighestnodenumber, storport/StorPortGetHighestNodeNumber, storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "StorPortIrql",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortGetHighestNodeNumber",
+    "storport/StorPortGetHighestNodeNumber"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortGetHighestNodeNumber"
+  ]
+}

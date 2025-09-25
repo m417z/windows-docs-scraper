@@ -1,0 +1,3 @@
+HRESULT put_StateChange(
+  TASK_SESSION_STATE_CHANGE_TYPE type
+);

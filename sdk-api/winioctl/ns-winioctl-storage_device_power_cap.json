@@ -1,0 +1,64 @@
+{
+  "UID": "NS:winioctl._STORAGE_DEVICE_POWER_CAP",
+  "title": "STORAGE_DEVICE_POWER_CAP",
+  "description": "This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.",
+  "helpviewer_keywords": [
+    "*PSTORAGE_DEVICE_POWER_CAP",
+    "PSTORAGE_DEVICE_POWER_CAP",
+    "PSTORAGE_DEVICE_POWER_CAP structure pointer [Files]",
+    "STORAGE_DEVICE_POWER_CAP",
+    "STORAGE_DEVICE_POWER_CAP structure [Files]",
+    "fs.storage_device_power_cap",
+    "winioctl/PSTORAGE_DEVICE_POWER_CAP",
+    "winioctl/STORAGE_DEVICE_POWER_CAP"
+  ],
+  "old-location": "fs\\storage_device_power_cap.htm",
+  "tech.root": "fs",
+  "ms.assetid": "B81C7D08-980E-4BA2-8CF8-7B6E58709102",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Files], STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Files], fs.storage_device_power_cap, winioctl/PSTORAGE_DEVICE_POWER_CAP, winioctl/STORAGE_DEVICE_POWER_CAP",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP",
+  "req.redist": null,
+  "f1_keywords": [
+    "_STORAGE_DEVICE_POWER_CAP",
+    "winioctl/_STORAGE_DEVICE_POWER_CAP",
+    "PSTORAGE_DEVICE_POWER_CAP",
+    "winioctl/PSTORAGE_DEVICE_POWER_CAP",
+    "STORAGE_DEVICE_POWER_CAP",
+    "winioctl/STORAGE_DEVICE_POWER_CAP"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winioctl.h"
+  ],
+  "api_name": [
+    "STORAGE_DEVICE_POWER_CAP"
+  ]
+}

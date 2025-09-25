@@ -1,0 +1,3 @@
+ULONG RemoveVectoredContinueHandler(
+  PVOID Handle
+);

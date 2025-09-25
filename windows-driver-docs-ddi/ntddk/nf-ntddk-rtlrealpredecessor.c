@@ -1,0 +1,3 @@
+NTSYSAPI PRTL_SPLAY_LINKS RtlRealPredecessor(
+  [in] PRTL_SPLAY_LINKS Links
+);

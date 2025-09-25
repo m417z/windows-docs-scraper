@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_CREATEVERTEXSHADERDECL {
+  [in]  UINT   NumVertexElements;
+  [out] HANDLE ShaderHandle;
+} D3DDDIARG_CREATEVERTEXSHADERDECL;

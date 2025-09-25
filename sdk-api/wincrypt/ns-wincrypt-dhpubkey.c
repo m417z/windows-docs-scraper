@@ -1,0 +1,4 @@
+typedef struct _PUBKEY {
+  DWORD magic;
+  DWORD bitlen;
+} DHPUBKEY, DSSPUBKEY, KEAPUBKEY, TEKPUBKEY;

@@ -1,0 +1,3 @@
+HRESULT SetViewportOptions(
+  [in] DIRECTMANIPULATION_VIEWPORT_OPTIONS options
+);

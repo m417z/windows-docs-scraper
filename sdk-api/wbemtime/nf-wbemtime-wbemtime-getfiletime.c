@@ -1,0 +1,3 @@
+BOOL GetFILETIME(
+  FILETIME *pst
+);

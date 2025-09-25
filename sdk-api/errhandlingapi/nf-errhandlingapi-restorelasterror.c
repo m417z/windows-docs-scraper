@@ -1,0 +1,3 @@
+VOID RestoreLastError(
+  DWORD dwErrCode
+);

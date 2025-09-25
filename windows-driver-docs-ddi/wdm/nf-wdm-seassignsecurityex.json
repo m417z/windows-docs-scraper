@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.SeAssignSecurityEx",
+  "title": "SeAssignSecurityEx function (wdm.h)",
+  "description": "The SeAssignSecurityEx routine builds a self-relative security descriptor for a new object given the following optional parameters:\\_a security descriptor of the object's parent directory, an explicit security descriptor for the object, and the object type.",
+  "old-location": "kernel\\seassignsecurityex.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "SeAssignSecurityEx function"
+  ],
+  "ms.keywords": "SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, wdm/SeAssignSecurityEx",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeAssignSecurityEx",
+    "wdm/SeAssignSecurityEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "SeAssignSecurityEx"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "UID": "NS:dmemmgr._SURFACEALIGNMENT",
+  "title": "SURFACEALIGNMENT (dmemmgr.h)",
+  "description": "The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.",
+  "helpviewer_keywords": [
+    "*LPSURFACEALIGNMENT",
+    "SURFACEALIGNMENT",
+    "SURFACEALIGNMENT structure [Display Devices]",
+    "display.surfacealignment",
+    "dmemmgr/SURFACEALIGNMENT",
+    "grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"
+  ],
+  "old-location": "display\\surfacealignment.htm",
+  "tech.root": "display",
+  "ms.assetid": "200f4e08-b5d3-484e-b87a-b3069dc3c99f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure [Display Devices], display.surfacealignment, dmemmgr/SURFACEALIGNMENT, grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml",
+  "req.header": "dmemmgr.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SURFACEALIGNMENT, *LPSURFACEALIGNMENT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SURFACEALIGNMENT",
+    "dmemmgr/_SURFACEALIGNMENT",
+    "LPSURFACEALIGNMENT",
+    "dmemmgr/LPSURFACEALIGNMENT",
+    "SURFACEALIGNMENT",
+    "dmemmgr/SURFACEALIGNMENT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dmemmgr.h"
+  ],
+  "api_name": [
+    "SURFACEALIGNMENT"
+  ]
+}

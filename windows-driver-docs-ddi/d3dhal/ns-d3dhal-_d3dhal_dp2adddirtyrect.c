@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2ADDDIRTYRECT {
+  DWORD dwSurface;
+  RECTL rDirtyArea;
+} D3DHAL_DP2ADDDIRTYRECT;

@@ -1,0 +1,3 @@
+void D3D12_DECODE_MIN_FILTER(
+  D3D12Filter
+);

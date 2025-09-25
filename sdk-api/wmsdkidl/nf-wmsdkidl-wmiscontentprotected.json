@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wmsdkidl.WMIsContentProtected",
+  "title": "WMIsContentProtected function (wmsdkidl.h)",
+  "description": "The WMIsContentProtected function checks a file for DRM-protected content. This function is a shortcut so that your application can quickly identify protected files.",
+  "helpviewer_keywords": [
+    "WMIsContentProtected",
+    "WMIsContentProtected function [windows Media Format]",
+    "wmformat.wmiscontentprotected",
+    "wmsdkidl/WMIsContentProtected"
+  ],
+  "old-location": "wmformat\\wmiscontentprotected.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "WMIsContentProtected, WMIsContentProtected function [windows Media Format], wmformat.wmiscontentprotected, wmsdkidl/WMIsContentProtected",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib",
+  "req.dll": "Wmvcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WMIsContentProtected",
+    "wmsdkidl/WMIsContentProtected"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wmvcore.dll"
+  ],
+  "api_name": [
+    "WMIsContentProtected"
+  ]
+}

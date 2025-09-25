@@ -1,0 +1,3 @@
+int CompareNoCase(
+  LPCWSTR lpsz
+);

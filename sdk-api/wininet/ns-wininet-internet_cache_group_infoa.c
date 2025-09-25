@@ -1,0 +1,9 @@
+typedef struct _INTERNET_CACHE_GROUP_INFOA {
+  DWORD dwGroupSize;
+  DWORD dwGroupFlags;
+  DWORD dwGroupType;
+  DWORD dwDiskUsage;
+  DWORD dwDiskQuota;
+  DWORD dwOwnerStorage[GROUP_OWNER_STORAGE_SIZE];
+  CHAR  szGroupName[GROUPNAME_MAX_LENGTH];
+} INTERNET_CACHE_GROUP_INFOA, *LPINTERNET_CACHE_GROUP_INFOA;

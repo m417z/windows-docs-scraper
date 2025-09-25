@@ -1,0 +1,7 @@
+DXGKDDI_SETTARGETANALOGCOPYPROTECTION DxgkddiSettargetanalogcopyprotection;
+
+NTSTATUS DxgkddiSettargetanalogcopyprotection(
+  IN_CONST_HANDLE hAdapter,
+  IN_CONST_PDXGKARG_SETTARGETANALOGCOPYPROTECTION pSetTargetAnalogCopyProtectionArg
+)
+{...}

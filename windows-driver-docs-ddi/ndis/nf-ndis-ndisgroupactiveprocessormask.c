@@ -1,0 +1,3 @@
+KAFFINITY NdisGroupActiveProcessorMask(
+  USHORT Group
+);

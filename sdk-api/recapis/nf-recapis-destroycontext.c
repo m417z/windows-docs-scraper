@@ -1,0 +1,3 @@
+HRESULT DestroyContext(
+  HRECOCONTEXT hrc
+);

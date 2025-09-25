@@ -1,0 +1,4 @@
+BOOL capDriverConnect(
+     hwnd,
+     i
+);

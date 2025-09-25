@@ -1,0 +1,8 @@
+typedef union {
+  struct {
+    ULONG EHM : 1;
+    ULONG MR : 1;
+    ULONG Reserved : 30;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW11_FEATURE_HOST_MEMORY_BUFFER, *PNVME_CDW11_FEATURE_HOST_MEMORY_BUFFER;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKDDI_RESUMEVIRTUALGPU",
+  "title": "DXGKDDI_RESUMEVIRTUALGPU",
+  "description": "The DXGKDDI_RESUMEVIRTUALGPU callback function resumes execution of the specified virtual GPU. This callback function is not supported and is never used.",
+  "tech.root": "display",
+  "ms.date": "04/04/2019",
+  "keywords": [
+    "DXGKDDI_RESUMEVIRTUALGPU callback function"
+  ],
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DXGKDDI_RESUMEVIRTUALGPU",
+    "dispmprt/DXGKDDI_RESUMEVIRTUALGPU"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKDDI_RESUMEVIRTUALGPU"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

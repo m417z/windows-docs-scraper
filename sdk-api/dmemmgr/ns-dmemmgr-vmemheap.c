@@ -1,0 +1,19 @@
+typedef struct _VMEMHEAP {
+  DWORD         dwFlags;
+  DWORD         stride;
+  LPVOID        freeList;
+  LPVOID        allocList;
+  DWORD         dwTotalSize;
+  FLATPTR       fpGARTLin;
+  FLATPTR       fpGARTDev;
+  DWORD         dwCommitedSize;
+  DWORD         dwCoalesceCount;
+  HEAPALIGNMENT Alignment;
+  DDSCAPSEX     ddsCapsEx;
+  DDSCAPSEX     ddsCapsExAlt;
+  LARGE_INTEGER liPhysAGPBase;
+  HANDLE        hdevAGP;
+  LPVOID        pvPhysRsrv;
+  BYTE          *pAgpCommitMask;
+  DWORD         dwAgpCommitMaskSize;
+} VMEMHEAP;

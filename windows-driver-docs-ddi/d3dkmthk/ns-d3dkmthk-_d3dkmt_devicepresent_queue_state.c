@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_DEVICEPRESENT_QUEUE_STATE {
+  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
+  BOOLEAN                        bQueuedPresentLimitReached;
+} D3DKMT_DEVICEPRESENT_QUEUE_STATE;

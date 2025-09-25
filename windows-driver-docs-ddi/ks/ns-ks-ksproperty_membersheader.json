@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ks.KSPROPERTY_MEMBERSHEADER",
+  "title": "KSPROPERTY_MEMBERSHEADER (ks.h)",
+  "description": "A driver provides a structure of type KSPROPERTY_MEMBERSHEADER to describe the size and type of each element in an array containing property values or ranges.",
+  "tech.root": "stream",
+  "ms.date": "03/06/2023",
+  "keywords": [
+    "KSPROPERTY_MEMBERSHEADER structure"
+  ],
+  "ms.keywords": "*PKSPROPERTY_MEMBERSHEADER, KSPROPERTY_MEMBERSHEADER, KSPROPERTY_MEMBERSHEADER structure [Streaming Media Devices], PKSPROPERTY_MEMBERSHEADER, PKSPROPERTY_MEMBERSHEADER structure pointer [Streaming Media Devices], ks-struct_d43fb5ec-043b-4378-8bdb-aaf80a616150.xml, ks/KSPROPERTY_MEMBERSHEADER, ks/PKSPROPERTY_MEMBERSHEADER, stream.ksproperty_membersheader",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSPROPERTY_MEMBERSHEADER, *PKSPROPERTY_MEMBERSHEADER",
+  "f1_keywords": [
+    "PKSPROPERTY_MEMBERSHEADER",
+    "ks/PKSPROPERTY_MEMBERSHEADER",
+    "KSPROPERTY_MEMBERSHEADER",
+    "ks/KSPROPERTY_MEMBERSHEADER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PKSPROPERTY_MEMBERSHEADER",
+    "KSPROPERTY_MEMBERSHEADER"
+  ]
+}

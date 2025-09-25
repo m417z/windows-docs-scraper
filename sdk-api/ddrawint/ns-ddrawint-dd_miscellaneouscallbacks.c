@@ -1,0 +1,5 @@
+typedef struct _DD_MISCELLANEOUSCALLBACKS {
+  DWORD                    dwSize;
+  DWORD                    dwFlags;
+  PDD_GETAVAILDRIVERMEMORY GetAvailDriverMemory;
+} DD_MISCELLANEOUSCALLBACKS, *PDD_MISCELLANEOUSCALLBACKS;

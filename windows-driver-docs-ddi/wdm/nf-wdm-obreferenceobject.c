@@ -1,0 +1,3 @@
+void ObReferenceObject(
+  [in] Object
+);

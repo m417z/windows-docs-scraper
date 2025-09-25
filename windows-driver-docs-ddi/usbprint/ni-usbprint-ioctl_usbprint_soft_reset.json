@@ -1,0 +1,48 @@
+{
+  "UID": "NI:usbprint.IOCTL_USBPRINT_SOFT_RESET",
+  "title": "IOCTL_USBPRINT_SOFT_RESET (usbprint.h)",
+  "description": "The IOCTL_USBPRINT_SOFT_RESET request allows upper-layer software (such as a language monitor), to issue a class-specific soft reset command to the printer.",
+  "old-location": "print\\ioctl_usbprint_soft_reset.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "IOCTL_USBPRINT_SOFT_RESET IOCTL"
+  ],
+  "ms.keywords": "IOCTL_USBPRINT_SOFT_RESET, IOCTL_USBPRINT_SOFT_RESET control, IOCTL_USBPRINT_SOFT_RESET control code [Print Devices], print.ioctl_usbprint_soft_reset, usbioctl_282627ce-49eb-4d8c-88a6-8d211cb91830.xml, usbprint/IOCTL_USBPRINT_SOFT_RESET",
+  "req.header": "usbprint.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_USBPRINT_SOFT_RESET",
+    "usbprint/IOCTL_USBPRINT_SOFT_RESET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usbprint.h"
+  ],
+  "api_name": [
+    "IOCTL_USBPRINT_SOFT_RESET"
+  ]
+}

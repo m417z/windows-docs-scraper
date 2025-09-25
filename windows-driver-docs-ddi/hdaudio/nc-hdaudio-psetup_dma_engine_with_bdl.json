@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PSETUP_DMA_ENGINE_WITH_BDL",
+  "title": "PSETUP_DMA_ENGINE_WITH_BDL (hdaudio.h)",
+  "description": "The SetupDmaEngineWithBdl routine sets up a DMA engine to use a caller-allocated DMA buffer.The function pointer type for a SetupDmaEngineWithBdl routine is defined as follows.",
+  "old-location": "audio\\setupdmaenginewithbdl.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PSETUP_DMA_ENGINE_WITH_BDL callback function"
+  ],
+  "ms.keywords": "PSETUP_DMA_ENGINE_WITH_BDL, PSETUP_DMA_ENGINE_WITH_BDL callback, SetupDmaEngineWithBdl, SetupDmaEngineWithBdl callback function [Audio Devices], aud-prop2_7d264dff-4f47-4a5a-a587-636c57a12a9d.xml, audio.setupdmaenginewithbdl, hdaudio/SetupDmaEngineWithBdl",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSETUP_DMA_ENGINE_WITH_BDL",
+    "hdaudio/PSETUP_DMA_ENGINE_WITH_BDL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PSETUP_DMA_ENGINE_WITH_BDL"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ehstorbandmgmt._BAND_TABLE",
+  "title": "_BAND_TABLE (ehstorbandmgmt.h)",
+  "description": "The BAND_TABLE structure contains the table of bands returned from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.",
+  "old-location": "storage\\band_table.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "BAND_TABLE structure"
+  ],
+  "ms.keywords": "*PBAND_TABLE, BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, storage.band_table",
+  "req.header": "ehstorbandmgmt.h",
+  "req.include-header": "EhStorBandMgmt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BAND_TABLE, *PBAND_TABLE",
+  "f1_keywords": [
+    "_BAND_TABLE",
+    "ehstorbandmgmt/_BAND_TABLE",
+    "PBAND_TABLE",
+    "ehstorbandmgmt/PBAND_TABLE",
+    "BAND_TABLE",
+    "ehstorbandmgmt/BAND_TABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "EhStorBandMgmt.h"
+  ],
+  "api_name": [
+    "_BAND_TABLE",
+    "PBAND_TABLE",
+    "BAND_TABLE"
+  ]
+}

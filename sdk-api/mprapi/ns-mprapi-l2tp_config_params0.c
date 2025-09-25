@@ -1,0 +1,4 @@
+typedef struct _L2TP_CONFIG_PARAMS0 {
+  DWORD dwNumPorts;
+  DWORD dwPortFlags;
+} L2TP_CONFIG_PARAMS0, *PL2TP_CONFIG_PARAMS0;

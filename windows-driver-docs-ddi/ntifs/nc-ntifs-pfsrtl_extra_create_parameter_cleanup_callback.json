@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntifs.PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK",
+  "title": "PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK (ntifs.h)",
+  "description": "A filter driver can register a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's CleanupCallback callback routine for an extra create parameter (ECP) context structure.",
+  "old-location": "ifsk\\pfsrtl_extra_create_parameter_cleanup_callback.htm",
+  "tech.root": "ifsk",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK callback"
+  ],
+  "ms.keywords": "FilterCallbacks_afe97c84-8818-4577-ad94-8f8fdf044570.xml, PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK, PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK function pointer [Installable File System Drivers], ifsk.pfsrtl_extra_create_parameter_cleanup_callback, ntifs/PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT",
+  "f1_keywords": [
+    "PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK",
+    "ntifs/PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK"
+  ]
+}

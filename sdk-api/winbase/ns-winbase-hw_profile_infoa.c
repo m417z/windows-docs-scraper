@@ -1,0 +1,5 @@
+typedef struct tagHW_PROFILE_INFOA {
+  DWORD dwDockInfo;
+  CHAR  szHwProfileGuid[HW_PROFILE_GUIDLEN];
+  CHAR  szHwProfileName[MAX_PROFILE_LEN];
+} HW_PROFILE_INFOA, *LPHW_PROFILE_INFOA;

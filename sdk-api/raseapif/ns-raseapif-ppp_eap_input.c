@@ -1,0 +1,23 @@
+typedef struct _PPP_EAP_INPUT {
+  DWORD              dwSizeInBytes;
+  DWORD              fFlags;
+  BOOL               fAuthenticator;
+  WCHAR              *pwszIdentity;
+  WCHAR              *pwszPassword;
+  BYTE               bInitialId;
+  RAS_AUTH_ATTRIBUTE *pUserAttributes;
+  BOOL               fAuthenticationComplete;
+  DWORD              dwAuthResultCode;
+  HANDLE             hTokenImpersonateUser;
+  BOOL               fSuccessPacketReceived;
+  BOOL               fDataReceivedFromInteractiveUI;
+  PBYTE              pDataFromInteractiveUI;
+  DWORD              dwSizeOfDataFromInteractiveUI;
+  PBYTE              pConnectionData;
+  DWORD              dwSizeOfConnectionData;
+  PBYTE              pUserData;
+  DWORD              dwSizeOfUserData;
+  HANDLE             hReserved;
+  GUID               guidConnectionId;
+  BOOL               isVpn;
+} PPP_EAP_INPUT, *PPPP_EAP_INPUT;

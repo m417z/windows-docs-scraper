@@ -1,0 +1,50 @@
+{
+  "UID": "NF:windns.DnsIsFlatRecord",
+  "title": "DnsIsFlatRecord",
+  "description": "Determines whether a record has been flat-read (that is, it's just a data buffer), or whether it has been parsed into its corresponding struct format.",
+  "ms.date": "06/23/2025",
+  "tech.root": "DNS",
+  "targetos": "Windows",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "windns.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "windns.h"
+  ],
+  "api_name": [
+    "DnsIsFlatRecord"
+  ],
+  "f1_keywords": [
+    "DnsIsFlatRecord",
+    "windns/DnsIsFlatRecord"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DnsIsFlatRecord"
+  ]
+}

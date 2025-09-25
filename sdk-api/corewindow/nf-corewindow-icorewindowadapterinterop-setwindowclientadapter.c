@@ -1,0 +1,3 @@
+HRESULT SetWindowClientAdapter(
+  IUnknown *value
+);

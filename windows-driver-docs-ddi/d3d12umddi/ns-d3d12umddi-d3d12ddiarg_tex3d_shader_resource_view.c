@@ -1,0 +1,5 @@
+typedef struct D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW {
+  UINT  MostDetailedMip;
+  UINT  MipLevels;
+  FLOAT ResourceMinLODClamp;
+} D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW;

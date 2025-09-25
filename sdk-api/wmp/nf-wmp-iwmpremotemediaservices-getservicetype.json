@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wmp.IWMPRemoteMediaServices.GetServiceType",
+  "title": "IWMPRemoteMediaServices::GetServiceType (wmp.h)",
+  "description": "The GetServiceType method is called by Windows Media Player to determine whether a host program wants to run its embedded control remotely.",
+  "helpviewer_keywords": [
+    "GetServiceType",
+    "GetServiceType method [Windows Media Player]",
+    "GetServiceType method [Windows Media Player]",
+    "IWMPRemoteMediaServices interface",
+    "IWMPRemoteMediaServices interface [Windows Media Player]",
+    "GetServiceType method",
+    "IWMPRemoteMediaServices.GetServiceType",
+    "IWMPRemoteMediaServices::GetServiceType",
+    "IWMPRemoteMediaServicesGetServiceType",
+    "wmp.iwmpremotemediaservices_getservicetype",
+    "wmp/IWMPRemoteMediaServices::GetServiceType"
+  ],
+  "old-location": "wmp\\iwmpremotemediaservices_getservicetype.htm",
+  "tech.root": "WMP",
+  "ms.assetid": "866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType",
+  "req.header": "wmp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Media Player 9 Series or later. Use of the RemoteNoDialogs value requires Windows Media Player 9 Series update 819756 or later. Use of the NoDialogs, NoDeviceSupport, or FindFolders values requires Windows Media Player 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Wmp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMPRemoteMediaServices::GetServiceType",
+    "wmp/IWMPRemoteMediaServices::GetServiceType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "wmp.dll"
+  ],
+  "api_name": [
+    "IWMPRemoteMediaServices.GetServiceType"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct D3D12DDI_MIP_REGION_0075 {
+  UINT Width;
+  UINT Height;
+  UINT Depth;
+} D3D12DDI_MIP_REGION_0075;

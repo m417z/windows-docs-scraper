@@ -1,0 +1,81 @@
+{
+  "UID": "NE:wcmapi._WCM_CONNECTION_COST",
+  "title": "WCM_CONNECTION_COST (wcmapi.h)",
+  "description": "Determines the connection cost type and flags.",
+  "helpviewer_keywords": [
+    "*PWCM_CONNECTION_COST",
+    "PWCM_CONNECTION_COST",
+    "PWCM_CONNECTION_COST enumeration pointer [Windows Connection Manager]",
+    "WCM_CONNECTION_COST",
+    "WCM_CONNECTION_COST enumeration [Windows Connection Manager]",
+    "WCM_CONNECTION_COST_APPROACHINGDATALIMIT",
+    "WCM_CONNECTION_COST_CONGESTED",
+    "WCM_CONNECTION_COST_FIXED",
+    "WCM_CONNECTION_COST_OVERDATALIMIT",
+    "WCM_CONNECTION_COST_ROAMING",
+    "WCM_CONNECTION_COST_UNKNOWN",
+    "WCM_CONNECTION_COST_UNRESTRICTED",
+    "WCM_CONNECTION_COST_VARIABLE",
+    "wcm.wcm_connection_cost",
+    "wcmapi/PWCM_CONNECTION_COST",
+    "wcmapi/WCM_CONNECTION_COST",
+    "wcmapi/WCM_CONNECTION_COST_APPROACHINGDATALIMIT",
+    "wcmapi/WCM_CONNECTION_COST_CONGESTED",
+    "wcmapi/WCM_CONNECTION_COST_FIXED",
+    "wcmapi/WCM_CONNECTION_COST_OVERDATALIMIT",
+    "wcmapi/WCM_CONNECTION_COST_ROAMING",
+    "wcmapi/WCM_CONNECTION_COST_UNKNOWN",
+    "wcmapi/WCM_CONNECTION_COST_UNRESTRICTED",
+    "wcmapi/WCM_CONNECTION_COST_VARIABLE"
+  ],
+  "old-location": "wcm\\wcm_connection_cost.htm",
+  "tech.root": "wcm",
+  "ms.assetid": "1ab36082-3394-42e3-aee3-01df5e211ba7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PWCM_CONNECTION_COST, PWCM_CONNECTION_COST, PWCM_CONNECTION_COST enumeration pointer [Windows Connection Manager], WCM_CONNECTION_COST, WCM_CONNECTION_COST enumeration [Windows Connection Manager], WCM_CONNECTION_COST_APPROACHINGDATALIMIT, WCM_CONNECTION_COST_CONGESTED, WCM_CONNECTION_COST_FIXED, WCM_CONNECTION_COST_OVERDATALIMIT, WCM_CONNECTION_COST_ROAMING, WCM_CONNECTION_COST_UNKNOWN, WCM_CONNECTION_COST_UNRESTRICTED, WCM_CONNECTION_COST_VARIABLE, wcm.wcm_connection_cost, wcmapi/PWCM_CONNECTION_COST, wcmapi/WCM_CONNECTION_COST, wcmapi/WCM_CONNECTION_COST_APPROACHINGDATALIMIT, wcmapi/WCM_CONNECTION_COST_CONGESTED, wcmapi/WCM_CONNECTION_COST_FIXED, wcmapi/WCM_CONNECTION_COST_OVERDATALIMIT, wcmapi/WCM_CONNECTION_COST_ROAMING, wcmapi/WCM_CONNECTION_COST_UNKNOWN, wcmapi/WCM_CONNECTION_COST_UNRESTRICTED, wcmapi/WCM_CONNECTION_COST_VARIABLE",
+  "req.header": "wcmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WCM_CONNECTION_COST, *PWCM_CONNECTION_COST",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_WCM_CONNECTION_COST",
+    "wcmapi/_WCM_CONNECTION_COST",
+    "PWCM_CONNECTION_COST",
+    "wcmapi/PWCM_CONNECTION_COST",
+    "WCM_CONNECTION_COST",
+    "wcmapi/WCM_CONNECTION_COST"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wcmapi.h"
+  ],
+  "api_name": [
+    "WCM_CONNECTION_COST"
+  ]
+}

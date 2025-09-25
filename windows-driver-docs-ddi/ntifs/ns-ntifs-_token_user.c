@@ -1,0 +1,3 @@
+typedef struct _TOKEN_USER {
+  SID_AND_ATTRIBUTES User;
+} TOKEN_USER, *PTOKEN_USER;

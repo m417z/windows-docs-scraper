@@ -1,0 +1,54 @@
+{
+  "UID": "NF:errhandlingapi.RestoreLastError",
+  "tech.root": "Debug",
+  "title": "RestoreLastError",
+  "ms.date": "04/16/2024",
+  "targetos": "Windows",
+  "description": "Restores the last-error code for the calling thread.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "api-ms-win-core-errorhandling-l1-1-1.dll",
+  "req.header": "errhandlingapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-kernel32-l1-1-0.dll",
+    "api-ms-win-core-errorhandling-l1-1-3.dll",
+    "api-ms-win-core-errorhandling-l1-1-2.dll",
+    "api-ms-win-core-errorhandling-l1-1-1.dll",
+    "kernel32.dll"
+  ],
+  "api_name": [
+    "RestoreLastError"
+  ],
+  "f1_keywords": [
+    "RestoreLastError",
+    "errhandlingapi/RestoreLastError"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "RestoreLastError"
+  ]
+}

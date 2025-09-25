@@ -1,0 +1,1 @@
+LPAPI_VERSION IMAGEAPI ImagehlpApiVersion();

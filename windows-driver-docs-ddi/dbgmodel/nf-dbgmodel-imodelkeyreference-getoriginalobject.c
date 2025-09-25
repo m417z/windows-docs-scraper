@@ -1,0 +1,3 @@
+HRESULT GetOriginalObject(
+  IModelObject **originalObject
+);

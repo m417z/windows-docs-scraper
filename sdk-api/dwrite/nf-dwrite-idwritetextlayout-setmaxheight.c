@@ -1,0 +1,3 @@
+HRESULT SetMaxHeight(
+  FLOAT maxHeight
+);

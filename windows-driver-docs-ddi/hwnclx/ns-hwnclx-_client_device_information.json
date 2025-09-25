@@ -1,0 +1,54 @@
+{
+  "UID": "NS:hwnclx._CLIENT_DEVICE_INFORMATION",
+  "title": "_CLIENT_DEVICE_INFORMATION (hwnclx.h)",
+  "description": "The CLIENT_DEVICE_INFORMATION structure is used by the hardware notification callback HWN_CLIENT_QUERY_DEVICE_INFORMATION to return the total number of hardware notifications that the client device driver provides.",
+  "old-location": "gpiobtn\\_client_device_information.htm",
+  "tech.root": "gpiobtn",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "CLIENT_DEVICE_INFORMATION structure"
+  ],
+  "ms.keywords": "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, _CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, hwnclx/CLIENT_DEVICE_INFORMATION",
+  "req.header": "hwnclx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "CLIENT_DEVICE_INFORMATION, *PCLIENT_DEVICE_INFORMATION",
+  "f1_keywords": [
+    "_CLIENT_DEVICE_INFORMATION",
+    "hwnclx/_CLIENT_DEVICE_INFORMATION",
+    "PCLIENT_DEVICE_INFORMATION",
+    "hwnclx/PCLIENT_DEVICE_INFORMATION",
+    "CLIENT_DEVICE_INFORMATION",
+    "hwnclx/CLIENT_DEVICE_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Hwnclx.h"
+  ],
+  "api_name": [
+    "_CLIENT_DEVICE_INFORMATION",
+    "PCLIENT_DEVICE_INFORMATION",
+    "CLIENT_DEVICE_INFORMATION"
+  ]
+}

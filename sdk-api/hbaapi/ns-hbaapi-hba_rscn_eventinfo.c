@@ -1,0 +1,5 @@
+typedef struct HBA_RSCN_EventInfo {
+  HBA_UINT32 PortFcId;
+  HBA_UINT32 NPortPage;
+  HBA_UINT32 Reserved[2];
+} HBA_RSCN_EVENTINFO, *PHBA_RSCN_EVENTINFO;

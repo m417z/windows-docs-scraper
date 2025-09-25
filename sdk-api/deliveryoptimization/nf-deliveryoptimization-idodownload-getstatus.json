@@ -1,0 +1,50 @@
+{
+  "UID": "NF:deliveryoptimization.IDODownload.GetStatus",
+  "tech.root": "delivery_optimization",
+  "title": "IDODownload::GetStatus",
+  "ms.date": "08/03/2022",
+  "targetos": "Windows",
+  "description": "IDODownload::GetStatus retrieves a pointer to a DO_DOWNLOAD_STATUS structure that reflects the current status of the download.",
+  "req.assembly": "Retrieves a pointer to a **DO_DOWNLOAD_STATUS** structure that reflects the current status of the download.",
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "deliveryoptimization.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 Build 22621",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "deliveryoptimization.h"
+  ],
+  "api_name": [
+    "IDODownload::GetStatus"
+  ],
+  "f1_keywords": [
+    "IDODownload::GetStatus",
+    "deliveryoptimization/IDODownload::GetStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "GetStatus"
+  ],
+  "prerelease": false
+}

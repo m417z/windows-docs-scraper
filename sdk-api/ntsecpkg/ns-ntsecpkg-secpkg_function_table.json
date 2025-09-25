@@ -1,0 +1,66 @@
+{
+  "UID": "NS:ntsecpkg._SECPKG_FUNCTION_TABLE",
+  "title": "SECPKG_FUNCTION_TABLE (ntsecpkg.h)",
+  "description": "The SECPKG_FUNCTION_TABLE structure contains pointers to the LSA functions that a security package must implement. The Local Security Authority (LSA) obtains this structure from an SSP/AP DLL when it calls the SpLsaModeInitialize function.",
+  "helpviewer_keywords": [
+    "*PSECPKG_FUNCTION_TABLE",
+    "PSECPKG_FUNCTION_TABLE",
+    "PSECPKG_FUNCTION_TABLE structure pointer [Security]",
+    "SECPKG_FUNCTION_TABLE",
+    "SECPKG_FUNCTION_TABLE structure [Security]",
+    "_ssp_secpkg_function_table",
+    "ntsecpkg/PSECPKG_FUNCTION_TABLE",
+    "ntsecpkg/SECPKG_FUNCTION_TABLE",
+    "security.secpkg_function_table"
+  ],
+  "old-location": "security\\secpkg_function_table.htm",
+  "tech.root": "security",
+  "ms.assetid": "43ca0f9b-1393-48aa-9d9c-4dd19963a66d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE structure pointer [Security], SECPKG_FUNCTION_TABLE, SECPKG_FUNCTION_TABLE structure [Security], _ssp_secpkg_function_table, ntsecpkg/PSECPKG_FUNCTION_TABLE, ntsecpkg/SECPKG_FUNCTION_TABLE, security.secpkg_function_table",
+  "req.header": "ntsecpkg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SECPKG_FUNCTION_TABLE, *PSECPKG_FUNCTION_TABLE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SECPKG_FUNCTION_TABLE",
+    "ntsecpkg/_SECPKG_FUNCTION_TABLE",
+    "PSECPKG_FUNCTION_TABLE",
+    "ntsecpkg/PSECPKG_FUNCTION_TABLE",
+    "SECPKG_FUNCTION_TABLE",
+    "ntsecpkg/SECPKG_FUNCTION_TABLE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntsecpkg.h"
+  ],
+  "api_name": [
+    "SECPKG_FUNCTION_TABLE"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
+  [in]     HANDLE hChannel;
+  [in/out] UINT   DataSize;
+  [in/out] VOID   *pData;
+} D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE;

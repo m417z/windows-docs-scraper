@@ -1,0 +1,3 @@
+typedef struct D3D11_1DDI_ARCHITECTURE_INFO_DATA {
+  BOOL TileBasedDeferredRenderer;
+} D3D11_1DDI_ARCHITECTURE_INFO_DATA;

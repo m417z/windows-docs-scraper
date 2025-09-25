@@ -1,0 +1,48 @@
+{
+  "UID": "NI:pmi.IOCTL_PMI_GET_MEASUREMENT",
+  "title": "IOCTL_PMI_GET_MEASUREMENT (pmi.h)",
+  "description": "The IOCTL_PMI_GET_MEASUREMENT request returns the current measurement data from a power meter.",
+  "old-location": "powermeter\\ioctl_pmi_get_measurement.htm",
+  "tech.root": "powermeter",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IOCTL_PMI_GET_MEASUREMENT IOCTL"
+  ],
+  "ms.keywords": "IOCTL_PMI_GET_MEASUREMENT, IOCTL_PMI_GET_MEASUREMENT control, IOCTL_PMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], PowerMeterRef_2317a4b3-7909-4c52-a012-39c892a39154.xml, pmi/IOCTL_PMI_GET_MEASUREMENT, powermeter.ioctl_pmi_get_measurement",
+  "req.header": "pmi.h",
+  "req.include-header": "Pmi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_PMI_GET_MEASUREMENT",
+    "pmi/IOCTL_PMI_GET_MEASUREMENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Pmi.h"
+  ],
+  "api_name": [
+    "IOCTL_PMI_GET_MEASUREMENT"
+  ]
+}

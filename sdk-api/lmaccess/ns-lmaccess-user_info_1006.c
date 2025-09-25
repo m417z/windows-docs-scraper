@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1006 {
+  LPWSTR usri1006_home_dir;
+} USER_INFO_1006, *PUSER_INFO_1006, *LPUSER_INFO_1006;

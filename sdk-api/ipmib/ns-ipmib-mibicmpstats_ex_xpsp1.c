@@ -1,0 +1,5 @@
+typedef struct _MIBICMPSTATS_EX_XPSP1 {
+  DWORD dwMsgs;
+  DWORD dwErrors;
+  DWORD rgdwTypeCount[256];
+} MIBICMPSTATS_EX_XPSP1, *PMIBICMPSTATS_EX_XPSP1;

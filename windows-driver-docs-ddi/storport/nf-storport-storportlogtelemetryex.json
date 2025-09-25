@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.StorPortLogTelemetryEx",
+  "title": "StorPortLogTelemetryEx function",
+  "description": "Learn how the StorPortLogTelemetry routine logs a miniport telemetry event to help diagnose or collect any useful information.",
+  "tech.root": "storage",
+  "ms.date": "03/05/2019",
+  "keywords": [
+    "StorPortLogTelemetryEx function"
+  ],
+  "ms.keywords": "StorPortLogTelemetryEx, STOR_TELEMETRY_CATEGORY, STORPORT_TELEMETRY_EVENT, StorPortLogTelemetry",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StorPortLogTelemetryEx",
+    "storport/StorPortLogTelemetryEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortLogTelemetryEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,3 @@
+struct NAMEDCOLOR {
+  DWORD dwIndex;
+};

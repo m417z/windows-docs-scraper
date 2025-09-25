@@ -1,0 +1,47 @@
+{
+  "UID": "NF:cfapi.CfReportProviderProgress2",
+  "tech.root": "cloudapi",
+  "title": "CfReportProviderProgress2",
+  "ms.date": "03/30/2023",
+  "targetos": "Windows",
+  "description": "Allows a sync provider to report progress out-of-band. Extends CfReportProviderProgress with additional parameters.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "cfapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809 (10.0; Build 17763)",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "cfapi.h"
+  ],
+  "api_name": [
+    "CfReportProviderProgress2"
+  ],
+  "f1_keywords": [
+    "CfReportProviderProgress2",
+    "cfapi/CfReportProviderProgress2"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

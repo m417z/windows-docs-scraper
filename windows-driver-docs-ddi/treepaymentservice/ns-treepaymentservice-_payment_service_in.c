@@ -1,0 +1,4 @@
+typedef struct _PAYMENT_SERVICE_IN {
+  UINT32 CmdId;
+  UINT64 ValidMatchDuration;
+} PAYMENT_SERVICE_IN, *PPAYMENT_SERVICE_IN;

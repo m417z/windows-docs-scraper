@@ -1,0 +1,59 @@
+{
+  "UID": "NS:bcrypt._BCRYPT_ALGORITHM_IDENTIFIER",
+  "title": "BCRYPT_ALGORITHM_IDENTIFIER (bcrypt.h)",
+  "description": "Is used with the BCryptEnumAlgorithms function to contain a cryptographic algorithm identifier.",
+  "helpviewer_keywords": [
+    "BCRYPT_ALGORITHM_IDENTIFIER",
+    "BCRYPT_ALGORITHM_IDENTIFIER structure [Security]",
+    "bcrypt/BCRYPT_ALGORITHM_IDENTIFIER",
+    "security.bcrypt_algorithm_identifier_struct"
+  ],
+  "old-location": "security\\bcrypt_algorithm_identifier_struct.htm",
+  "tech.root": "security",
+  "ms.assetid": "a49a21c9-5668-4709-b52a-f6cacd944845",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BCRYPT_ALGORITHM_IDENTIFIER",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_BCRYPT_ALGORITHM_IDENTIFIER",
+    "bcrypt/_BCRYPT_ALGORITHM_IDENTIFIER",
+    "BCRYPT_ALGORITHM_IDENTIFIER",
+    "bcrypt/BCRYPT_ALGORITHM_IDENTIFIER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Bcrypt.h"
+  ],
+  "api_name": [
+    "BCRYPT_ALGORITHM_IDENTIFIER"
+  ]
+}

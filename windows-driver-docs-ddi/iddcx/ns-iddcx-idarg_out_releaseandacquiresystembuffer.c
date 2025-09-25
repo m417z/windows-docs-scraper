@@ -1,0 +1,4 @@
+struct IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER {
+  [out] IDDCX_METADATA           *pMetaData;
+  [out] IDDCX_SYSTEM_BUFFER_INFO *pBufferInfo;
+};

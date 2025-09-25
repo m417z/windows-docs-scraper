@@ -1,0 +1,48 @@
+{
+  "UID": "NC:videoagp.PAGP_SET_RATE",
+  "title": "PAGP_SET_RATE (videoagp.h)",
+  "description": "The AgpSetRate function reprograms the data transfer rate of the AGP chipset.",
+  "old-location": "display\\agpsetrate.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PAGP_SET_RATE callback function"
+  ],
+  "ms.keywords": "AgpSetRate, AgpSetRate callback function [Display Devices], PAGP_SET_RATE, PAGP_SET_RATE callback, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml, display.agpsetrate, videoagp/AgpSetRate",
+  "req.header": "videoagp.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PAGP_SET_RATE",
+    "videoagp/PAGP_SET_RATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "videoagp.h"
+  ],
+  "api_name": [
+    "PAGP_SET_RATE"
+  ]
+}

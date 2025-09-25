@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddser.IOCTL_SERENUM_GET_PORT_NAME",
+  "title": "IOCTL_SERENUM_GET_PORT_NAME (ntddser.h)",
+  "description": "The IOCTL_SERENUM_GET_PORT_NAME request returns the value of the PortName (or Identifier) entry value for the RS-232 port -- see Registry Settings for a Plug and Play Serial Device.",
+  "old-location": "serports\\ioctl_serenum_get_port_name.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IOCTL_SERENUM_GET_PORT_NAME IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SERENUM_GET_PORT_NAME, IOCTL_SERENUM_GET_PORT_NAME control, IOCTL_SERENUM_GET_PORT_NAME control code [Serial Ports], ntddser/IOCTL_SERENUM_GET_PORT_NAME, senumref_448bb4bf-eda4-4fbc-abb6-5f470d07861e.xml, serports.ioctl_serenum_get_port_name",
+  "req.header": "ntddser.h",
+  "req.include-header": "Ntddser.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SERENUM_GET_PORT_NAME",
+    "ntddser/IOCTL_SERENUM_GET_PORT_NAME"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddser.h"
+  ],
+  "api_name": [
+    "IOCTL_SERENUM_GET_PORT_NAME"
+  ]
+}

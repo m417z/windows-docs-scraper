@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoSetNextIrpStackLocation",
+  "title": "IoSetNextIrpStackLocation function (wdm.h)",
+  "description": "The IoSetNextIrpStackLocation routine sets the IRP stack location in a driver-allocated IRP to that of the caller.",
+  "old-location": "kernel\\iosetnextirpstacklocation.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoSetNextIrpStackLocation function"
+  ],
+  "ms.keywords": "IoSetNextIrpStackLocation, IoSetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_34f06977-f176-4590-9d5a-adffebbdd9b9.xml, kernel.iosetnextirpstacklocation, wdm/IoSetNextIrpStackLocation",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoSetNextIrpStackLocation",
+    "wdm/IoSetNextIrpStackLocation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "IoSetNextIrpStackLocation"
+  ]
+}

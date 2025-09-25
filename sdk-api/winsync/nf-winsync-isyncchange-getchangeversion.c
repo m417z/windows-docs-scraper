@@ -1,0 +1,4 @@
+HRESULT GetChangeVersion(
+  [in]  const BYTE   *pbCurrentReplicaId,
+  [out] SYNC_VERSION *pVersion
+);

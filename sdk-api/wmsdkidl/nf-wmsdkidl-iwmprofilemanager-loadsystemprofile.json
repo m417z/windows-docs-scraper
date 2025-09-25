@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMProfileManager.LoadSystemProfile",
+  "title": "IWMProfileManager::LoadSystemProfile (wmsdkidl.h)",
+  "description": "The LoadSystemProfile method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use IWMProfileManager::LoadProfileByID. To load a custom profile, use IWMProfileManager::LoadProfileByData.",
+  "helpviewer_keywords": [
+    "IWMProfileManager interface [windows Media Format]",
+    "LoadSystemProfile method",
+    "IWMProfileManager.LoadSystemProfile",
+    "IWMProfileManager::LoadSystemProfile",
+    "IWMProfileManagerLoadSystemProfile",
+    "LoadSystemProfile",
+    "LoadSystemProfile method [windows Media Format]",
+    "LoadSystemProfile method [windows Media Format]",
+    "IWMProfileManager interface",
+    "wmformat.iwmprofilemanager_loadsystemprofile",
+    "wmsdkidl/IWMProfileManager::LoadSystemProfile"
+  ],
+  "old-location": "wmformat\\iwmprofilemanager_loadsystemprofile.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "5de4bd41-953b-4f50-b495-1d852831ae34",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMProfileManager interface [windows Media Format],LoadSystemProfile method, IWMProfileManager.LoadSystemProfile, IWMProfileManager::LoadSystemProfile, IWMProfileManagerLoadSystemProfile, LoadSystemProfile, LoadSystemProfile method [windows Media Format], LoadSystemProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadsystemprofile, wmsdkidl/IWMProfileManager::LoadSystemProfile",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProfileManager::LoadSystemProfile",
+    "wmsdkidl/IWMProfileManager::LoadSystemProfile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMProfileManager.LoadSystemProfile"
+  ]
+}

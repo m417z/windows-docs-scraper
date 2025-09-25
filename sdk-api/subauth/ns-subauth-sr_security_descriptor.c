@@ -1,0 +1,4 @@
+typedef struct _SR_SECURITY_DESCRIPTOR {
+  ULONG  Length;
+  PUCHAR SecurityDescriptor;
+} SR_SECURITY_DESCRIPTOR, *PSR_SECURITY_DESCRIPTOR;

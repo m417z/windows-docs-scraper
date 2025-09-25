@@ -1,0 +1,74 @@
+{
+  "UID": "NF:clusapi.OfflineClusterResourceEx",
+  "title": "OfflineClusterResourceEx function (clusapi.h)",
+  "description": "Extends the OfflineClusterResource method.",
+  "helpviewer_keywords": [
+    "CLUSAPI_RESOURCE_OFFLINE_FORCE_WITH_TERMINATION",
+    "CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_STATUS",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_DELETED",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_RESTARTED",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_MOVING",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_NONE",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_PREEMPTED",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_SHUTTING_DOWN",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_UNKNOWN",
+    "CLUSAPI_RESOURCE_OFFLINE_REASON_USER_REQUESTED",
+    "OfflineClusterResourceEx",
+    "OfflineClusterResourceEx function [Failover Cluster]",
+    "clusapi/OfflineClusterResourceEx",
+    "mscs.offlineclusterresourceex"
+  ],
+  "old-location": "mscs\\offlineclusterresourceex.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "8AE70F5F-349B-40D1-830B-A135D4364B83",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CLUSAPI_RESOURCE_OFFLINE_FORCE_WITH_TERMINATION, CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_DELETED, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_RESTARTED, CLUSAPI_RESOURCE_OFFLINE_REASON_MOVING, CLUSAPI_RESOURCE_OFFLINE_REASON_NONE, CLUSAPI_RESOURCE_OFFLINE_REASON_PREEMPTED, CLUSAPI_RESOURCE_OFFLINE_REASON_SHUTTING_DOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_UNKNOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_USER_REQUESTED, OfflineClusterResourceEx, OfflineClusterResourceEx function [Failover Cluster], clusapi/OfflineClusterResourceEx, mscs.offlineclusterresourceex",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OfflineClusterResourceEx",
+    "clusapi/OfflineClusterResourceEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "OfflineClusterResourceEx"
+  ]
+}

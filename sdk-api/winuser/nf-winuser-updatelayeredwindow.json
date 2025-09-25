@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.UpdateLayeredWindow",
+  "title": "UpdateLayeredWindow function (winuser.h)",
+  "description": "Updates the position, size, shape, content, and translucency of a layered window.",
+  "helpviewer_keywords": [
+    "ULW_ALPHA",
+    "ULW_COLORKEY",
+    "ULW_EX_NORESIZE",
+    "ULW_OPAQUE",
+    "UpdateLayeredWindow",
+    "UpdateLayeredWindow function [Windows and Messages]",
+    "_win32_UpdateLayeredWindow",
+    "_win32_updatelayeredwindow_cpp",
+    "winmsg.updatelayeredwindow",
+    "winui._win32_updatelayeredwindow",
+    "winuser/UpdateLayeredWindow"
+  ],
+  "old-location": "winmsg\\updatelayeredwindow.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windows\\windowreference\\windowfunctions\\updatelayeredwindow.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UpdateLayeredWindow, UpdateLayeredWindow function [Windows and Messages], _win32_UpdateLayeredWindow, _win32_updatelayeredwindow_cpp, winmsg.updatelayeredwindow, winui._win32_updatelayeredwindow, winuser/UpdateLayeredWindow",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "UpdateLayeredWindow",
+    "winuser/UpdateLayeredWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Window-l1-1-1.dll",
+    "Ext-MS-Win-NTUser-Window-l1-1-2.dll",
+    "ext-ms-win-ntuser-window-l1-1-3.dll",
+    "Ext-MS-Win-NTUser-Window-L1-1-4.dll"
+  ],
+  "api_name": [
+    "UpdateLayeredWindow"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)"
+}

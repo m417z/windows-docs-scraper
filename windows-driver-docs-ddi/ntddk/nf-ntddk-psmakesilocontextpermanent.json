@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.PsMakeSiloContextPermanent",
+  "title": "PsMakeSiloContextPermanent function (ntddk.h)",
+  "description": "This routine makes the slot in a silo instance read-only, allowing the object in the slot to be retrieved without affecting the reference count on that object.",
+  "old-location": "kernel\\psmakesilocontextpermanent.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PsMakeSiloContextPermanent function"
+  ],
+  "ms.keywords": "PsMakeSiloContextPermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture], kernel.psmakesilocontextpermanent, ntddk/PsMakeSiloContextPermanent",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PsMakeSiloContextPermanent",
+    "ntddk/PsMakeSiloContextPermanent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "PsMakeSiloContextPermanent"
+  ]
+}

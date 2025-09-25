@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ks.KS_FRAMING_ITEM",
+  "title": "KS_FRAMING_ITEM (ks.h)",
+  "description": "The KS_FRAMING_ITEM structure is used to declare allocator requirements on a kernel-mode pin.",
+  "tech.root": "stream",
+  "ms.date": "03/06/2023",
+  "keywords": [
+    "KS_FRAMING_ITEM structure"
+  ],
+  "ms.keywords": "*PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, KS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, ks/KS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, stream.ks_framing_item",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KS_FRAMING_ITEM, *PKS_FRAMING_ITEM",
+  "f1_keywords": [
+    "PKS_FRAMING_ITEM",
+    "ks/PKS_FRAMING_ITEM",
+    "KS_FRAMING_ITEM",
+    "ks/KS_FRAMING_ITEM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PKS_FRAMING_ITEM",
+    "KS_FRAMING_ITEM"
+  ]
+}

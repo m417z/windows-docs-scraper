@@ -1,0 +1,20 @@
+typedef struct _WWAN_DEVICE_CAPS {
+  WWAN_DEVICE_TYPE    WwanDeviceType;
+  WWAN_CELLULAR_CLASS WwanCellularClass;
+  WWAN_VOICE_CLASS    WwanVoiceClass;
+  WWAN_SIM_CLASS      WwanSimClass;
+  ULONG               WwanDataClass;
+  WCHAR               CustomDataClass[WWAN_CUSTOM_DATA_CLASS_LEN];
+  ULONG               WwanGsmBandClass;
+  ULONG               WwanCdmaBandClass;
+  WCHAR               CustomBandClass[WWAN_CUSTOM_BAND_CLASS_LEN];
+  ULONG               WwanSmsCaps;
+  ULONG               WwanControlCaps;
+  WCHAR               DeviceId[WWAN_DEVICEID_LEN];
+  WCHAR               Manufacturer[WWAN_MANUFACTURER_LEN];
+  WCHAR               Model[WWAN_MODEL_LEN];
+  WCHAR               FirmwareInfo[WWAN_FIRMWARE_LEN];
+  ULONG               MaxActivatedContexts;
+  ULONG               WwanAuthAlgoCaps;
+  WWAN_LIST_HEADER    CellularClassListHeader;
+} WWAN_DEVICE_CAPS, *PWWAN_DEVICE_CAPS;

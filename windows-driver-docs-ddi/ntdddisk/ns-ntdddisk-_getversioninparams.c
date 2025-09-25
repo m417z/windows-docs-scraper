@@ -1,0 +1,8 @@
+typedef struct _GETVERSIONINPARAMS {
+  UCHAR bVersion;
+  UCHAR bRevision;
+  UCHAR bReserved;
+  UCHAR bIDEDeviceMap;
+  ULONG fCapabilities;
+  ULONG dwReserved[4];
+} GETVERSIONINPARAMS, *PGETVERSIONINPARAMS, *LPGETVERSIONINPARAMS;

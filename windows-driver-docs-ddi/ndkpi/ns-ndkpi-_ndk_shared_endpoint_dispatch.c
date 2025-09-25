@@ -1,0 +1,5 @@
+typedef struct _NDK_SHARED_ENDPOINT_DISPATCH {
+  NDK_FN_CLOSE_OBJECT                      NdkCloseSharedEndpoint;
+  NDK_FN_QUERY_EXTENSION_INTERFACE         NdkQueryExtension;
+  NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS NdkGetLocalAddress;
+} NDK_SHARED_ENDPOINT_DISPATCH;

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetSharedPrimaryHandle(
+  D3DKMT_GETSHAREDPRIMARYHANDLE *unnamedParam1
+);

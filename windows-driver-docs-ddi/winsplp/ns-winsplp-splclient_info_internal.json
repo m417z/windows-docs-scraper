@@ -1,0 +1,49 @@
+{
+  "UID": "NS:winsplp._SPLCLIENT_INFO_INTERNAL",
+  "tech.root": "print",
+  "title": "SPLCLIENT_INFO_INTERNAL (winsplp.h)",
+  "ms.date": "01/18/2024",
+  "targetos": "Windows",
+  "description": "The SPLCLIENT_INFO_INTERNAL structure is a super set of the information in splclient_info_1, splclient_info2 and splclient_info3 and contains additional information needed by the Device Control Defender code.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SPLCLIENT_INFO_INTERNAL",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winsplp.h"
+  ],
+  "api_name": [
+    "_SPLCLIENT_INFO_INTERNAL",
+    "SPLCLIENT_INFO_INTERNAL"
+  ],
+  "f1_keywords": [
+    "_SPLCLIENT_INFO_INTERNAL",
+    "winsplp/_SPLCLIENT_INFO_INTERNAL",
+    "SPLCLIENT_INFO_INTERNAL",
+    "winsplp/SPLCLIENT_INFO_INTERNAL"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_SPLCLIENT_INFO_INTERNAL"
+  ]
+}

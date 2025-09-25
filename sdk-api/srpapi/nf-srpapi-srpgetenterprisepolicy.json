@@ -1,0 +1,59 @@
+{
+  "UID": "NF:srpapi.SrpGetEnterprisePolicy",
+  "title": "SrpGetEnterprisePolicy function (srpapi.h)",
+  "description": "Policy can be applied on Windows 10, version 1607.Gets information about the enterprise policy of an app.",
+  "helpviewer_keywords": [
+    "EDP.srpgetenterprisepolicy",
+    "SrpGetEnterprisePolicy",
+    "SrpGetEnterprisePolicy function",
+    "srpapi/SrpGetEnterprisePolicy"
+  ],
+  "old-location": "edp\\srpgetenterprisepolicy.htm",
+  "tech.root": "EDP",
+  "ms.assetid": "BF31E36C-756E-4B4A-959B-4BA7517427CB",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EDP.srpgetenterprisepolicy, SrpGetEnterprisePolicy, SrpGetEnterprisePolicy function, srpapi/SrpGetEnterprisePolicy",
+  "req.header": "srpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Srpapi.lib",
+  "req.dll": "Srpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SrpGetEnterprisePolicy",
+    "srpapi/SrpGetEnterprisePolicy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "srpapi.dll",
+    "Ext-MS-Win-Security-Srp-L1-1-0.dll",
+    "Ext-MS-Win-Security-Srp-L1-1-1.dll"
+  ],
+  "api_name": [
+    "SrpGetEnterprisePolicy"
+  ]
+}

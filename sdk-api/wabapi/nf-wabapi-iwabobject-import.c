@@ -1,0 +1,3 @@
+HRESULT Import(
+  LPSTR lpWIP
+);

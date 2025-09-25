@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfrequest.WdfRequestCancelSentRequest",
+  "title": "WdfRequestCancelSentRequest function (wdfrequest.h)",
+  "description": "The WdfRequestCancelSentRequest method attempts to cancel an I/O request that the caller previously submitted to an I/O target.",
+  "old-location": "wdf\\wdfrequestcancelsentrequest.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfRequestCancelSentRequest function"
+  ],
+  "ms.keywords": "DFRequestObjectRef_203c9cb4-5e9d-4a6b-b30d-b60b8eadf6db.xml, WdfRequestCancelSentRequest, WdfRequestCancelSentRequest method, kmdf.wdfrequestcancelsentrequest, wdf.wdfrequestcancelsentrequest, wdfrequest/WdfRequestCancelSentRequest",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, EvtIoStopCancel, EvtIoStopCompleteOrStopAck, InvalidReqAccess, InvalidReqAccessLocal, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfRequestCancelSentRequest",
+    "wdfrequest/WdfRequestCancelSentRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfRequestCancelSentRequest"
+  ]
+}

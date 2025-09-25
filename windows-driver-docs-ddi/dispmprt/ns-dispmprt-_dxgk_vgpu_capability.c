@@ -1,0 +1,5 @@
+typedef struct _DXGK_VGPU_CAPABILITY {
+  UINT64 MinValue;
+  UINT64 MaxValue;
+  UINT64 CurrentValue;
+} DXGK_VGPU_CAPABILITY, *PDXGK_VGPU_CAPABILITY;

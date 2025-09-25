@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cfapi.CfGetPlatformInfo",
+  "title": "CfGetPlatformInfo function (cfapi.h)",
+  "description": "Gets the platform version information.",
+  "helpviewer_keywords": [
+    "CfGetPlatformInfo",
+    "CfGetPlatformInfo function",
+    "cfapi/CfGetPlatformInfo",
+    "cloudApi.cfgetplatforminfo"
+  ],
+  "old-location": "cloudapi\\cfgetplatforminfo.htm",
+  "tech.root": "cloudapi",
+  "ms.assetid": "BCF51702-87C1-405B-A3FF-98F5D0DDA8D5",
+  "ms.date": "03/30/2023",
+  "ms.keywords": "CfGetPlatformInfo, CfGetPlatformInfo function, cfapi/CfGetPlatformInfo, cloudApi.cfgetplatforminfo",
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "CldApi.lib",
+  "req.dll": "CldApi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CfGetPlatformInfo",
+    "cfapi/CfGetPlatformInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CldApi.dll"
+  ],
+  "api_name": [
+    "CfGetPlatformInfo"
+  ]
+}

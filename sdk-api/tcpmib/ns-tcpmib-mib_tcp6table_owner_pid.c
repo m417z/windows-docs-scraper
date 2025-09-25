@@ -1,0 +1,4 @@
+typedef struct _MIB_TCP6TABLE_OWNER_PID {
+  DWORD                 dwNumEntries;
+  MIB_TCP6ROW_OWNER_PID table[ANY_SIZE];
+} MIB_TCP6TABLE_OWNER_PID, *PMIB_TCP6TABLE_OWNER_PID;

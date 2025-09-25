@@ -1,0 +1,10 @@
+typedef struct _DEVICE_STORAGE_RANGE_ATTRIBUTES {
+  ULONGLONG LengthInBytes;
+  union {
+    ULONG AllFlags;
+    struct {
+      ULONG IsRangeBad : 1;
+    } DUMMYSTRUCTNAME;
+  } DUMMYUNIONNAME;
+  ULONG     Reserved;
+} DEVICE_STORAGE_RANGE_ATTRIBUTES, *PDEVICE_STORAGE_RANGE_ATTRIBUTES;

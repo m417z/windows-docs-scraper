@@ -1,0 +1,64 @@
+{
+  "UID": "NC:routprot.PADD_INTERFACE",
+  "title": "PADD_INTERFACE (routprot.h)",
+  "description": "The AddInterface function adds an interface to be managed by the routing protocol.",
+  "helpviewer_keywords": [
+    "AddInterface",
+    "AddInterface callback function [RAS]",
+    "DEMAND_DIAL",
+    "LOCAL_WORKSTATION_DIAL",
+    "PADD_INTERFACE",
+    "PADD_INTERFACE callback",
+    "PERMANENT",
+    "REMOTE_WORKSTATION_DIAL",
+    "_mpr_addinterface",
+    "routprot/AddInterface",
+    "rras.addinterface"
+  ],
+  "old-location": "rras\\addinterface.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "d2a90d20-7a1f-4301-adab-76224a4f8310",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AddInterface, AddInterface callback function [RAS], DEMAND_DIAL, LOCAL_WORKSTATION_DIAL, PADD_INTERFACE, PADD_INTERFACE callback, PERMANENT, REMOTE_WORKSTATION_DIAL, _mpr_addinterface, routprot/AddInterface, rras.addinterface",
+  "req.header": "routprot.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PADD_INTERFACE",
+    "routprot/PADD_INTERFACE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Routprot.h"
+  ],
+  "api_name": [
+    "AddInterface"
+  ]
+}

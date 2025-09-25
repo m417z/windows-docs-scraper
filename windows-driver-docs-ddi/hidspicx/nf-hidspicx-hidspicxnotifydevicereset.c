@@ -1,0 +1,3 @@
+VOID HidSpiCxNotifyDeviceReset(
+  WDFDEVICE Device
+);

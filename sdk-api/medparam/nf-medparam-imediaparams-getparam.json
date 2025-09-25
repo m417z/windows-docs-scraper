@@ -1,0 +1,65 @@
+{
+  "UID": "NF:medparam.IMediaParams.GetParam",
+  "title": "IMediaParams::GetParam (medparam.h)",
+  "description": "The GetParam method retrieves the current value of the specified parameter. If the parameter is currently within an envelope segment, the returned value is the value on the most recently processed sample.",
+  "helpviewer_keywords": [
+    "GetParam",
+    "GetParam method [DirectShow]",
+    "GetParam method [DirectShow]",
+    "IMediaParams interface",
+    "IMediaParams interface [DirectShow]",
+    "GetParam method",
+    "IMediaParams.GetParam",
+    "IMediaParams::GetParam",
+    "IMediaParamsGetParam",
+    "dshow.imediaparams_getparam",
+    "medparam/IMediaParams::GetParam"
+  ],
+  "old-location": "dshow\\imediaparams_getparam.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "4fcae36a-c659-4565-9169-66d97beb26a4",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetParam, GetParam method [DirectShow], GetParam method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],GetParam method, IMediaParams.GetParam, IMediaParams::GetParam, IMediaParamsGetParam, dshow.imediaparams_getparam, medparam/IMediaParams::GetParam",
+  "req.header": "medparam.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dmoguids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaParams::GetParam",
+    "medparam/IMediaParams::GetParam"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Dmoguids.lib",
+    "Dmoguids.dll"
+  ],
+  "api_name": [
+    "IMediaParams.GetParam"
+  ]
+}

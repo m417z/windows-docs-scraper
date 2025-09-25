@@ -1,0 +1,3 @@
+void FsRtlOplockIsFastIoPossible(
+  __a
+);

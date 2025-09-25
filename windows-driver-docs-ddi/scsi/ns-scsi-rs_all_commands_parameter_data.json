@@ -1,0 +1,50 @@
+{
+  "UID": "NS:scsi.RS_ALL_COMMANDS_PARAMETER_DATA",
+  "tech.root": "storage",
+  "title": "RS_ALL_COMMANDS_PARAMETER_DATA (scsi.h)",
+  "ms.date": "03/21/2024",
+  "targetos": "Windows",
+  "description": "The RS_ALL_COMMANDS_PARAMETER_DATA structure contains a list of RS_COMMAND_DESCRIPTOR structures.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "scsi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "RS_ALL_COMMANDS_PARAMETER_DATA, *PRS_ALL_COMMANDS_PARAMETER_DATA",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "RS_ALL_COMMANDS_PARAMETER_DATA",
+    "PRS_ALL_COMMANDS_PARAMETER_DATA"
+  ],
+  "f1_keywords": [
+    "RS_ALL_COMMANDS_PARAMETER_DATA",
+    "scsi/RS_ALL_COMMANDS_PARAMETER_DATA",
+    "PRS_ALL_COMMANDS_PARAMETER_DATA",
+    "scsi/PRS_ALL_COMMANDS_PARAMETER_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "RS_ALL_COMMANDS_PARAMETER_DATA"
+  ]
+}

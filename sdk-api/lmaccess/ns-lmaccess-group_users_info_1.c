@@ -1,0 +1,4 @@
+typedef struct _GROUP_USERS_INFO_1 {
+  LPWSTR grui1_name;
+  DWORD  grui1_attributes;
+} GROUP_USERS_INFO_1, *PGROUP_USERS_INFO_1, *LPGROUP_USERS_INFO_1;

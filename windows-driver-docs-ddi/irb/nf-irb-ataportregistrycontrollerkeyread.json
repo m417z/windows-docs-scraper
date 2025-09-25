@@ -1,0 +1,48 @@
+{
+  "UID": "NF:irb.AtaPortRegistryControllerKeyRead",
+  "title": "AtaPortRegistryControllerKeyRead function (irb.h)",
+  "description": "The AtaPortRegistryControllerKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\\CurrentControlSet\\Services\\<service name>\\ControllerN, where N is the number of the controller.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.",
+  "old-location": "storage\\ataportregistrycontrollerkeyread.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortRegistryControllerKeyRead function"
+  ],
+  "ms.keywords": "AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead routine [Storage Devices], atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml, irb/AtaPortRegistryControllerKeyRead, storage.ataportregistrycontrollerkeyread",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortRegistryControllerKeyRead",
+    "irb/AtaPortRegistryControllerKeyRead"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "irb.h"
+  ],
+  "api_name": [
+    "AtaPortRegistryControllerKeyRead"
+  ]
+}

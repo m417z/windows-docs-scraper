@@ -1,0 +1,6 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      BaseAddress;
+  ULONG      RequestedBufferSize;
+  ULONG      NotificationCount;
+} KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION32, *PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION32;

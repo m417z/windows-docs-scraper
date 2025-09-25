@@ -1,0 +1,62 @@
+{
+  "UID": "NF:synchapi.InitializeSynchronizationBarrier",
+  "title": "InitializeSynchronizationBarrier function (synchapi.h)",
+  "description": "Initializes a new synchronization barrier.",
+  "helpviewer_keywords": [
+    "InitializeSynchronizationBarrier",
+    "InitializeSynchronizationBarrier function",
+    "base.initializesynchronizationbarrier",
+    "synchapi/InitializeSynchronizationBarrier"
+  ],
+  "old-location": "base\\initializesynchronizationbarrier.htm",
+  "tech.root": "base",
+  "ms.assetid": "f69934a1-ee1f-4400-ae3e-cb9a19feff93",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "InitializeSynchronizationBarrier, InitializeSynchronizationBarrier function, base.initializesynchronizationbarrier, synchapi/InitializeSynchronizationBarrier",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InitializeSynchronizationBarrier",
+    "synchapi/InitializeSynchronizationBarrier"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "InitializeSynchronizationBarrier"
+  ]
+}

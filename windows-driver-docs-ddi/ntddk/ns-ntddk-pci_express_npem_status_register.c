@@ -1,0 +1,8 @@
+typedef union _PCI_EXPRESS_NPEM_STATUS_REGISTER {
+  struct {
+    ULONG CommandCompleted : 1;
+    ULONG Rsvd : 23;
+    ULONG EnclosureSpecificStatus : 8;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsULONG;
+} PCI_EXPRESS_NPEM_STATUS_REGISTER, *PPCI_EXPRESS_NPEM_STATUS_REGISTER;

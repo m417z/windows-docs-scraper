@@ -1,0 +1,6 @@
+typedef struct _CMSG_RECIPIENT_ENCRYPTED_KEY_INFO {
+  CERT_ID                     RecipientId;
+  CRYPT_DATA_BLOB             EncryptedKey;
+  FILETIME                    Date;
+  PCRYPT_ATTRIBUTE_TYPE_VALUE pOtherAttr;
+} CMSG_RECIPIENT_ENCRYPTED_KEY_INFO, *PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO;

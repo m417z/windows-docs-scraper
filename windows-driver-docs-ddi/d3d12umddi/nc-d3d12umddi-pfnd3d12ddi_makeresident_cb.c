@@ -1,0 +1,8 @@
+PFND3D12DDI_MAKERESIDENT_CB Pfnd3d12ddiMakeresidentCb;
+
+HRESULT Pfnd3d12ddiMakeresidentCb(
+  D3D12DDI_HRTDEVICE hRTDevice,
+  D3D12DDI_HRTPAGINGQUEUE hRTPagingQueue,
+  D3DDDI_MAKERESIDENT *unnamedParam3
+)
+{...}

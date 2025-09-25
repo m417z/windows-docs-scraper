@@ -1,0 +1,73 @@
+{
+  "UID": "NF:processthreadsapi.SetThreadIdealProcessor",
+  "title": "SetThreadIdealProcessor function (processthreadsapi.h)",
+  "description": "Sets a preferred processor for a thread. The system schedules threads on their preferred processors whenever possible.",
+  "helpviewer_keywords": [
+    "SetThreadIdealProcessor",
+    "SetThreadIdealProcessor function",
+    "_win32_setthreadidealprocessor",
+    "base.setthreadidealprocessor",
+    "processthreadsapi/SetThreadIdealProcessor"
+  ],
+  "old-location": "base\\setthreadidealprocessor.htm",
+  "tech.root": "processthreadsapi",
+  "ms.assetid": "b174f74b-4b61-4170-a8a6-2ddc4cc5e375",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetThreadIdealProcessor, SetThreadIdealProcessor function, _win32_setthreadidealprocessor, base.setthreadidealprocessor, processthreadsapi/SetThreadIdealProcessor",
+  "req.header": "processthreadsapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetThreadIdealProcessor",
+    "processthreadsapi/SetThreadIdealProcessor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "api-ms-win-core-processthreads-l1-1-6.dll",
+    "api-ms-win-core-processthreads-l1-1-5.dll",
+    "api-ms-win-core-processthreads-l1-1-4.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-ProcessThreads-L1-1-3.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "SetThreadIdealProcessor"
+  ]
+}

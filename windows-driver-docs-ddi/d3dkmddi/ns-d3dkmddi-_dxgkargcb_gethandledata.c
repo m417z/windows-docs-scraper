@@ -1,0 +1,5 @@
+typedef struct _DXGKARGCB_GETHANDLEDATA {
+  [in] D3DKMT_HANDLE             hObject;
+  [in] DXGK_HANDLE_TYPE          Type;
+  [in] DXGKCB_GETHANDLEDATAFLAGS Flags;
+} DXGKARGCB_GETHANDLEDATA;

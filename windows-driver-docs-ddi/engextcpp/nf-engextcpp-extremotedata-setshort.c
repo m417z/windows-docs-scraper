@@ -1,0 +1,3 @@
+void SetShort(
+  SHORT Data
+);

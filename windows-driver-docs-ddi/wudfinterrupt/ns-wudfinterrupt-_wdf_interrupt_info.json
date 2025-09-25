@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wudfinterrupt._WDF_INTERRUPT_INFO",
+  "title": "_WDF_INTERRUPT_INFO (wudfinterrupt.h)",
+  "description": "Learn how the WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource.",
+  "old-location": "wdf\\wdf_interrupt_info_umdf.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_INTERRUPT_INFO structure"
+  ],
+  "ms.keywords": "*PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wdf.wdf_interrupt_info_umdf, wudfinterrupt/PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO",
+  "req.header": "wudfinterrupt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.11,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO",
+  "f1_keywords": [
+    "_WDF_INTERRUPT_INFO",
+    "wudfinterrupt/_WDF_INTERRUPT_INFO",
+    "PWDF_INTERRUPT_INFO",
+    "wudfinterrupt/PWDF_INTERRUPT_INFO",
+    "WDF_INTERRUPT_INFO",
+    "wudfinterrupt/WDF_INTERRUPT_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wudfinterrupt.h"
+  ],
+  "api_name": [
+    "_WDF_INTERRUPT_INFO",
+    "PWDF_INTERRUPT_INFO",
+    "WDF_INTERRUPT_INFO"
+  ]
+}

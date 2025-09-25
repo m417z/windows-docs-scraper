@@ -1,0 +1,49 @@
+{
+  "UID": "NS:wdm._POOL_CREATE_EXTENDED_PARAMS",
+  "tech.root": "kernel",
+  "title": "POOL_CREATE_EXTENDED_PARAMS",
+  "ms.date": "08/17/2023",
+  "targetos": "Windows",
+  "description": "Defines the POOL_CREATE_EXTENDED_PARAMS structure.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "POOL_CREATE_EXTENDED_PARAMS, *PPOOL_CREATE_EXTENDED_PARAMS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_POOL_CREATE_EXTENDED_PARAMS",
+    "PPOOL_CREATE_EXTENDED_PARAMS",
+    "POOL_CREATE_EXTENDED_PARAMS"
+  ],
+  "f1_keywords": [
+    "_POOL_CREATE_EXTENDED_PARAMS",
+    "wdm/_POOL_CREATE_EXTENDED_PARAMS",
+    "PPOOL_CREATE_EXTENDED_PARAMS",
+    "wdm/PPOOL_CREATE_EXTENDED_PARAMS",
+    "POOL_CREATE_EXTENDED_PARAMS",
+    "wdm/POOL_CREATE_EXTENDED_PARAMS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "ai-usage": "ai-assisted"
+}

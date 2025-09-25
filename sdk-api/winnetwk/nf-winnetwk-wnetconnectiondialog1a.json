@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winnetwk.WNetConnectionDialog1A",
+  "title": "WNetConnectionDialog1A function (winnetwk.h)",
+  "description": "The WNetConnectionDialog1 function brings up a general browsing dialog for connecting to network resources. The function requires a CONNECTDLGSTRUCT to establish the dialog box parameters. (ANSI)",
+  "helpviewer_keywords": [
+    "WNetConnectionDialog1A",
+    "winnetwk/WNetConnectionDialog1A"
+  ],
+  "old-location": "wnet\\wnetconnectiondialog1.htm",
+  "tech.root": "WNet",
+  "ms.assetid": "11390693-0ab3-4f8b-9209-bc0bceb98032",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WNetConnectionDialog1, WNetConnectionDialog1 function [Windows Networking (WNet)], WNetConnectionDialog1A, WNetConnectionDialog1W, _win32_wnetconnectiondialog1, winnetwk/WNetConnectionDialog1, winnetwk/WNetConnectionDialog1A, winnetwk/WNetConnectionDialog1W, wnet.wnetconnectiondialog1",
+  "req.header": "winnetwk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WNetConnectionDialog1W (Unicode) and WNetConnectionDialog1A (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mpr.lib",
+  "req.dll": "Mpr.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WNetConnectionDialog1A",
+    "winnetwk/WNetConnectionDialog1A"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Mpr.dll",
+    "API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll"
+  ],
+  "api_name": [
+    "WNetConnectionDialog1",
+    "WNetConnectionDialog1A",
+    "WNetConnectionDialog1W"
+  ]
+}

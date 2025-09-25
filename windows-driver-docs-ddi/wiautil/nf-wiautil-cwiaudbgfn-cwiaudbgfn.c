@@ -1,0 +1,3 @@
+void CWiauDbgFn(
+  LPCSTR fname
+);

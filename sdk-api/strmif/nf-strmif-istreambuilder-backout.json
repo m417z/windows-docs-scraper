@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IStreamBuilder.Backout",
+  "title": "IStreamBuilder::Backout (strmif.h)",
+  "description": "The Backout method undoes steps taken in the IStreamBuilder::Render method. This includes disconnecting and removing any filters that were added inside Render.",
+  "helpviewer_keywords": [
+    "Backout",
+    "Backout method [DirectShow]",
+    "Backout method [DirectShow]",
+    "IStreamBuilder interface",
+    "IStreamBuilder interface [DirectShow]",
+    "Backout method",
+    "IStreamBuilder.Backout",
+    "IStreamBuilder::Backout",
+    "IStreamBuilderBackout",
+    "dshow.istreambuilder_backout",
+    "strmif/IStreamBuilder::Backout"
+  ],
+  "old-location": "dshow\\istreambuilder_backout.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "b8f895a7-7f71-4c0d-af9d-e2b0ed433172",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "Backout, Backout method [DirectShow], Backout method [DirectShow],IStreamBuilder interface, IStreamBuilder interface [DirectShow],Backout method, IStreamBuilder.Backout, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IStreamBuilder::Backout",
+    "strmif/IStreamBuilder::Backout"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IStreamBuilder.Backout"
+  ]
+}

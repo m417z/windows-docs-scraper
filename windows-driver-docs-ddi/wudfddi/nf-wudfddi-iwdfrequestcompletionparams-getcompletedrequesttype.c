@@ -1,0 +1,1 @@
+WDF_REQUEST_TYPE GetCompletedRequestType();

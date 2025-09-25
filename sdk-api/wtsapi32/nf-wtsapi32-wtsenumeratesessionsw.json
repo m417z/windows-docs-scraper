@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wtsapi32.WTSEnumerateSessionsW",
+  "title": "WTSEnumerateSessionsW function (wtsapi32.h)",
+  "description": "Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server. (Unicode)",
+  "helpviewer_keywords": [
+    "WTSEnumerateSessions",
+    "WTSEnumerateSessions function [Remote Desktop Services]",
+    "WTSEnumerateSessionsW",
+    "_win32_wtsenumeratesessions",
+    "termserv.wtsenumeratesessions",
+    "wtsapi32/WTSEnumerateSessions",
+    "wtsapi32/WTSEnumerateSessionsW"
+  ],
+  "old-location": "termserv\\wtsenumeratesessions.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "6f9dd7d4-48dc-411c-85f1-cd1239d1e106",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WTSEnumerateSessions, WTSEnumerateSessions function [Remote Desktop Services], WTSEnumerateSessionsA, WTSEnumerateSessionsW, _win32_wtsenumeratesessions, termserv.wtsenumeratesessions, wtsapi32/WTSEnumerateSessions, wtsapi32/WTSEnumerateSessionsA, wtsapi32/WTSEnumerateSessionsW",
+  "req.header": "wtsapi32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WTSEnumerateSessionsW (Unicode) and WTSEnumerateSessionsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wtsapi32.lib",
+  "req.dll": "Wtsapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WTSEnumerateSessionsW",
+    "wtsapi32/WTSEnumerateSessionsW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-session-wtsapi32-l1-1-1.dll",
+    "Wtsapi32.dll",
+    "Ext-MS-Win-Session-WtsApi32-l1-1-0.dll"
+  ],
+  "api_name": [
+    "WTSEnumerateSessions",
+    "WTSEnumerateSessionsA",
+    "WTSEnumerateSessionsW"
+  ],
+  "req.apiset": "ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)"
+}

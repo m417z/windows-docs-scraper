@@ -1,0 +1,1 @@
+D3D12_VIDEO_ENCODER_HEAP_FLAGS GetEncoderHeapFlags();

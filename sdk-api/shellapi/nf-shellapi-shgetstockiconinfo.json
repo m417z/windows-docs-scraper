@@ -1,0 +1,73 @@
+{
+  "UID": "NF:shellapi.SHGetStockIconInfo",
+  "title": "SHGetStockIconInfo function (shellapi.h)",
+  "description": "Retrieves information about system-defined Shell icons.",
+  "helpviewer_keywords": [
+    "SHGSI_ICON",
+    "SHGSI_ICONLOCATION",
+    "SHGSI_LARGEICON",
+    "SHGSI_LINKOVERLAY",
+    "SHGSI_SELECTED",
+    "SHGSI_SHELLICONSIZE",
+    "SHGSI_SMALLICON",
+    "SHGSI_SYSICONINDEX",
+    "SHGetStockIconInfo",
+    "SHGetStockIconInfo function [Windows Shell]",
+    "_shell_SHGetStockIconInfo",
+    "shell.SHGetStockIconInfo",
+    "shellapi/SHGetStockIconInfo"
+  ],
+  "old-location": "shell\\SHGetStockIconInfo.htm",
+  "tech.root": "shell",
+  "ms.assetid": "c08b1a53-e67c-4ed0-a9c6-d000c448e182",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHGSI_ICON, SHGSI_ICONLOCATION, SHGSI_LARGEICON, SHGSI_LINKOVERLAY, SHGSI_SELECTED, SHGSI_SHELLICONSIZE, SHGSI_SMALLICON, SHGSI_SYSICONINDEX, SHGetStockIconInfo, SHGetStockIconInfo function [Windows Shell], _shell_SHGetStockIconInfo, shell.SHGetStockIconInfo, shellapi/SHGetStockIconInfo",
+  "req.header": "shellapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHGetStockIconInfo",
+    "shellapi/SHGetStockIconInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-5-0.dll",
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "Shell32.dll",
+    "ext-ms-win-shell-shell32-l1-2-1.dll",
+    "Ext-MS-Win-Shell-Shell32-L1-2-2.dll"
+  ],
+  "api_name": [
+    "SHGetStockIconInfo"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)"
+}

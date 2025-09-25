@@ -1,0 +1,4 @@
+typedef struct _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER {
+  [in] UINT  PhysicalAdapterIndex;
+  [in] PVOID pBaseAddress;
+} DXGKARGCB_UNMAPFRAMEBUFFERPOINTER;

@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.KSERVICE_ROUTINE",
+  "title": "KSERVICE_ROUTINE (wdm.h)",
+  "description": "The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary.",
+  "tech.root": "kernel",
+  "ms.date": "01/10/2023",
+  "keywords": [
+    "KSERVICE_ROUTINE callback function"
+  ],
+  "ms.keywords": "DrvrRtns_ee9bfb68-3d4c-4abf-9d2b-81037c2572d5.xml, InterruptService, InterruptService routine [Kernel-Mode Driver Architecture], KSERVICE_ROUTINE, kernel.interruptservice, wdm/InterruptService",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at DIRQL (see Remarks section).",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KSERVICE_ROUTINE",
+    "wdm/KSERVICE_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "KSERVICE_ROUTINE"
+  ]
+}

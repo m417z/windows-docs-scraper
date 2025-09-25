@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wldp.WldpQueryDynamicCodeTrust",
+  "tech.root": "security",
+  "title": "WldpQueryDynamicCodeTrust",
+  "ms.date": "08/23/2022",
+  "targetos": "Windows",
+  "description": "Retrieves a value that determines if the specified in-memory or on-disk .NET CRL dynamic code is trusted by Device Guard policy.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "wldp.dll",
+  "req.header": "wldp.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "wldp.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wldp.dll"
+  ],
+  "api_name": [
+    "WldpQueryDynamicCodeTrust"
+  ],
+  "f1_keywords": [
+    "WldpQueryDynamicCodeTrust",
+    "wldp/WldpQueryDynamicCodeTrust"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WldpQueryDynamicCodeTrust"
+  ]
+}

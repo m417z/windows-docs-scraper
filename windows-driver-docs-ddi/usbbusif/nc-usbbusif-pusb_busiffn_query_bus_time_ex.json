@@ -1,0 +1,48 @@
+{
+  "UID": "NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME_EX",
+  "title": "PUSB_BUSIFFN_QUERY_BUS_TIME_EX (usbbusif.h)",
+  "description": "The QueryBusTimeEx routine gets the current 32-bit USB micro-frame number.",
+  "old-location": "buses\\querybustimeex.htm",
+  "tech.root": "usbref",
+  "ms.date": "02/04/2022",
+  "keywords": [
+    "PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function"
+  ],
+  "ms.keywords": "PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, USB_BUSIFFN_QUERY_BUS_TIME_EX callback, buses.querybustimeex, usbbusif/QueryBusTimeEx",
+  "req.header": "usbbusif.h",
+  "req.include-header": "Usbbusif.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "< = DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PUSB_BUSIFFN_QUERY_BUS_TIME_EX",
+    "usbbusif/PUSB_BUSIFFN_QUERY_BUS_TIME_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbbusif.h"
+  ],
+  "api_name": [
+    "PUSB_BUSIFFN_QUERY_BUS_TIME_EX"
+  ]
+}

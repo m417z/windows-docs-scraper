@@ -1,0 +1,9 @@
+typedef struct _D3DKMDT_MONITOR_FREQUENCY_RANGE {
+  D3DKMDT_MONITOR_CAPABILITIES_ORIGIN        Origin;
+  D3DKMDT_FREQUENCY_RANGE                    RangeLimits;
+  D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT ConstraintType;
+  union {
+    D3DKMDT_2DREGION ActiveSize;
+    SIZE_T           MaxPixelRate;
+  } Constraint;
+} D3DKMDT_MONITOR_FREQUENCY_RANGE;

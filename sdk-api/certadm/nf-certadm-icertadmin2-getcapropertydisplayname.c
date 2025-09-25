@@ -1,0 +1,5 @@
+HRESULT GetCAPropertyDisplayName(
+  [in]  const BSTR strConfig,
+  [in]  LONG       PropId,
+  [out] BSTR       *pstrDisplayName
+);

@@ -1,0 +1,4 @@
+typedef struct _MINIDUMP_STRING {
+  ULONG32 Length;
+  WCHAR   Buffer[0];
+} MINIDUMP_STRING, *PMINIDUMP_STRING;

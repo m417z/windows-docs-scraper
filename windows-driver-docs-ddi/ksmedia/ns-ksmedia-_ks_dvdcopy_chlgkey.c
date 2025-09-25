@@ -1,0 +1,4 @@
+typedef struct _KS_DVDCOPY_CHLGKEY {
+  BYTE ChlgKey[10];
+  BYTE Reserved[2];
+} KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY;

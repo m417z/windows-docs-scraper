@@ -1,0 +1,23 @@
+typedef enum AudioObjectType {
+  AudioObjectType_None = 0,
+  AudioObjectType_Dynamic,
+  AudioObjectType_FrontLeft,
+  AudioObjectType_FrontRight,
+  AudioObjectType_FrontCenter,
+  AudioObjectType_LowFrequency,
+  AudioObjectType_SideLeft,
+  AudioObjectType_SideRight,
+  AudioObjectType_BackLeft,
+  AudioObjectType_BackRight,
+  AudioObjectType_TopFrontLeft,
+  AudioObjectType_TopFrontRight,
+  AudioObjectType_TopBackLeft,
+  AudioObjectType_TopBackRight,
+  AudioObjectType_BottomFrontLeft,
+  AudioObjectType_BottomFrontRight,
+  AudioObjectType_BottomBackLeft,
+  AudioObjectType_BottomBackRight,
+  AudioObjectType_BackCenter,
+  AudioObjectType_StereoLeft,
+  AudioObjectType_StereoRight
+} ;

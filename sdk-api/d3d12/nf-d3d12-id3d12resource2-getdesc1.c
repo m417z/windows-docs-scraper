@@ -1,0 +1,1 @@
+D3D12_RESOURCE_DESC1 GetDesc1();

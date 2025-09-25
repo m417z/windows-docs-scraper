@@ -1,0 +1,62 @@
+{
+  "UID": "NF:ras.RasEnumDevicesW",
+  "title": "RasEnumDevicesW function (ras.h)",
+  "description": "The RasEnumDevices function returns the name and type of all available RAS-capable devices. (Unicode)",
+  "helpviewer_keywords": [
+    "RasEnumDevices",
+    "RasEnumDevices function [RAS]",
+    "RasEnumDevicesW",
+    "_ras_rasenumdevices",
+    "ras/RasEnumDevices",
+    "ras/RasEnumDevicesW",
+    "rras.rasenumdevices"
+  ],
+  "old-location": "rras\\rasenumdevices.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "819f069f-15e7-41b6-9153-4d602be4245d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RasEnumDevicesW (Unicode) and RasEnumDevicesA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasEnumDevicesW",
+    "ras/RasEnumDevicesW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rasapi32.dll"
+  ],
+  "api_name": [
+    "RasEnumDevices",
+    "RasEnumDevicesA",
+    "RasEnumDevicesW"
+  ]
+}

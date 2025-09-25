@@ -1,0 +1,5 @@
+typedef struct D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW {
+  [in] UINT FirstElement;
+  [in] UINT NumElements;
+  [in] UINT Flags;
+} D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW;

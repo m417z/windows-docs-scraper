@@ -1,0 +1,54 @@
+{
+  "UID": "NE:ntddndis._NDIS_SWITCH_PORT_PROPERTY_TYPE",
+  "title": "_NDIS_SWITCH_PORT_PROPERTY_TYPE (ntddndis.h)",
+  "description": "The NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration specifies the property type of a policy that is defined for a port on a Hyper-V extensible switch.",
+  "old-location": "netvista\\ndis_switch_port_property_type.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration"
+  ],
+  "ms.keywords": "*PNDIS_SWITCH_PORT_PROPERTY_TYPE, NDIS_SWITCH_PORT_PROPERTY_TYPE, NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPropertyTypeCustom, NdisSwitchPortPropertyTypeIsolation, NdisSwitchPortPropertyTypeMaximum, NdisSwitchPortPropertyTypeProfile, NdisSwitchPortPropertyTypeRoutingDomain, NdisSwitchPortPropertyTypeSecurity, NdisSwitchPortPropertyTypeUndefined, NdisSwitchPortPropertyTypeVlan, PNDIS_SWITCH_PORT_PROPERTY_TYPE, PNDIS_SWITCH_PORT_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_TYPE, netvista.ndis_switch_port_property_type, ntddndis/NDIS_SWITCH_PORT_PROPERTY_TYPE, ntddndis/NdisSwitchPortPropertyTypeCustom, ntddndis/NdisSwitchPortPropertyTypeIsolation, ntddndis/NdisSwitchPortPropertyTypeMaximum, ntddndis/NdisSwitchPortPropertyTypeProfile, ntddndis/NdisSwitchPortPropertyTypeRoutingDomain, ntddndis/NdisSwitchPortPropertyTypeSecurity, ntddndis/NdisSwitchPortPropertyTypeUndefined, ntddndis/NdisSwitchPortPropertyTypeVlan, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_TYPE",
+  "req.header": "ntddndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_SWITCH_PORT_PROPERTY_TYPE, *PNDIS_SWITCH_PORT_PROPERTY_TYPE",
+  "f1_keywords": [
+    "_NDIS_SWITCH_PORT_PROPERTY_TYPE",
+    "ntddndis/_NDIS_SWITCH_PORT_PROPERTY_TYPE",
+    "PNDIS_SWITCH_PORT_PROPERTY_TYPE",
+    "ntddndis/PNDIS_SWITCH_PORT_PROPERTY_TYPE",
+    "NDIS_SWITCH_PORT_PROPERTY_TYPE",
+    "ntddndis/NDIS_SWITCH_PORT_PROPERTY_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_SWITCH_PORT_PROPERTY_TYPE",
+    "PNDIS_SWITCH_PORT_PROPERTY_TYPE",
+    "NDIS_SWITCH_PORT_PROPERTY_TYPE"
+  ]
+}

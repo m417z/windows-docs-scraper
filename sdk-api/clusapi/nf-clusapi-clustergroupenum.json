@@ -1,0 +1,65 @@
+{
+  "UID": "NF:clusapi.ClusterGroupEnum",
+  "title": "ClusterGroupEnum function (clusapi.h)",
+  "description": "Enumerates the resources in a group or the nodes that are the preferred owners of a group, returning the name of the resource or node with each call.",
+  "helpviewer_keywords": [
+    "CLUSTER_GROUP_ENUM_CONTAINS",
+    "CLUSTER_GROUP_ENUM_NODES",
+    "ClusterGroupEnum",
+    "ClusterGroupEnum function [Failover Cluster]",
+    "PCLUSAPI_CLUSTER_GROUP_ENUM",
+    "PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster]",
+    "_wolf_clustergroupenum",
+    "clusapi/ClusterGroupEnum",
+    "clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM",
+    "mscs.clustergroupenum"
+  ],
+  "old-location": "mscs\\clustergroupenum.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "fffcae88-8df0-487f-9f6d-bc3560283ef1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupEnum, ClusterGroupEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster], _wolf_clustergroupenum, clusapi/ClusterGroupEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterGroupEnum",
+    "clusapi/ClusterGroupEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "ClusterGroupEnum"
+  ]
+}

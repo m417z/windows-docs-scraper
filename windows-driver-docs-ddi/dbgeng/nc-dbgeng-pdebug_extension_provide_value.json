@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dbgeng.PDEBUG_EXTENSION_PROVIDE_VALUE",
+  "title": "PDEBUG_EXTENSION_PROVIDE_VALUE (dbgeng.h)",
+  "description": "The DebugExtensionProvideValue callback function sets pseudo-register values.C++ CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;",
+  "old-location": "debugger\\debugextensionprovidevalue.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "PDEBUG_EXTENSION_PROVIDE_VALUE callback function"
+  ],
+  "ms.keywords": "DEBUG_EXT_PVTYPE_IS_POINTER, DEBUG_EXT_PVTYPE_IS_VALUE, DebugExtensionProvideValue, DebugExtensionProvideValue callback function [Windows Debugging], Extensions_Ref_fa822b69-6941-46e9-8b68-d57dd8d19d14.xml, PDEBUG_EXTENSION_PROVIDE_VALUE, PDEBUG_EXTENSION_PROVIDE_VALUE callback, dbgeng/DebugExtensionProvideValue, debugger.debugextensionprovidevalue",
+  "req.header": "dbgeng.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PDEBUG_EXTENSION_PROVIDE_VALUE",
+    "dbgeng/PDEBUG_EXTENSION_PROVIDE_VALUE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Dbgeng.h"
+  ],
+  "api_name": [
+    "PDEBUG_EXTENSION_PROVIDE_VALUE"
+  ]
+}

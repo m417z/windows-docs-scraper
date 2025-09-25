@@ -1,0 +1,4 @@
+typedef struct _CRYPT_XML_REFERENCES {
+  ULONG                cReference;
+  PCRYPT_XML_REFERENCE *rgpReference;
+} CRYPT_XML_REFERENCES, *PCRYPT_XML_REFERENCES;

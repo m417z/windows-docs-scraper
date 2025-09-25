@@ -1,0 +1,45 @@
+{
+  "UID": "NF:wdm.IoGetIommuInterface",
+  "title": "IoGetIommuInterface function (wdm.h)",
+  "description": "Retrieves a pointer to the interface that contains pointers to IOMMU routines.",
+  "tech.root": "kernel",
+  "ms.date": "01/06/2023",
+  "keywords": [
+    "IoGetIommuInterface function"
+  ],
+  "ms.keywords": "IoGetIommuInterface",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "IoGetIommuInterface",
+    "wdm/IoGetIommuInterface"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoGetIommuInterface"
+  ]
+}

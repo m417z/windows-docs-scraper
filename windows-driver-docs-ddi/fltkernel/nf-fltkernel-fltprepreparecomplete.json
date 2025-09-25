@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltPrePrepareComplete",
+  "title": "FltPrePrepareComplete function (fltkernel.h)",
+  "description": "The FltPrePrepareComplete routine acknowledges a TRANSACTION_NOTIFY_PREPREPARE notification.",
+  "old-location": "ifsk\\fltprepreparecomplete.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltPrePrepareComplete function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_d0d56c7a-abff-4cd2-a1c7-a511d1ac8903.xml, FltPrePrepareComplete, FltPrePrepareComplete routine [Installable File System Drivers], fltkernel/FltPrePrepareComplete, ifsk.fltprepreparecomplete",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available on Windows Vista and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltPrePrepareComplete",
+    "fltkernel/FltPrePrepareComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltPrePrepareComplete"
+  ]
+}

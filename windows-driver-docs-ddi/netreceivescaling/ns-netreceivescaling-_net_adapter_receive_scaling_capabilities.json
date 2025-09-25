@@ -1,0 +1,44 @@
+{
+  "UID": "NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES",
+  "title": "_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES (netreceivescaling.h)",
+  "description": "The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure describes a net adapter's receive side scaling (RSS) capabilities.",
+  "tech.root": "netvista",
+  "ms.date": "07/13/2018",
+  "keywords": [
+    "NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure"
+  ],
+  "ms.keywords": "_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES,",
+  "req.header": "netreceivescaling.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES",
+    "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES",
+    "NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES",
+    "netreceivescaling/NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netreceivescaling.h"
+  ],
+  "api_name": [
+    "_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES",
+    "NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES"
+  ]
+}

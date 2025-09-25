@@ -1,0 +1,66 @@
+{
+  "UID": "NS:npapi._NOTIFYINFO",
+  "title": "NOTIFYINFO (npapi.h)",
+  "description": "The NOTIFYINFO structure contains status information about a network connect or disconnect operation. It is used by the AddConnectNotify and CancelConnectNotify functions.",
+  "helpviewer_keywords": [
+    "*LPNOTIFYINFO",
+    "LPNOTIFYINFO",
+    "LPNOTIFYINFO structure pointer [Security]",
+    "NOTIFYINFO",
+    "NOTIFYINFO structure [Security]",
+    "_mnp_notifyinfo",
+    "npapi/LPNOTIFYINFO",
+    "npapi/NOTIFYINFO",
+    "security.notifyinfo"
+  ],
+  "old-location": "security\\notifyinfo.htm",
+  "tech.root": "security",
+  "ms.assetid": "43b31128-da9c-470b-b030-0010b250a291",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Security], NOTIFYINFO, NOTIFYINFO structure [Security], _mnp_notifyinfo, npapi/LPNOTIFYINFO, npapi/NOTIFYINFO, security.notifyinfo",
+  "req.header": "npapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NOTIFYINFO, *LPNOTIFYINFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_NOTIFYINFO",
+    "npapi/_NOTIFYINFO",
+    "LPNOTIFYINFO",
+    "npapi/LPNOTIFYINFO",
+    "NOTIFYINFO",
+    "npapi/NOTIFYINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Npapi.h"
+  ],
+  "api_name": [
+    "NOTIFYINFO"
+  ]
+}

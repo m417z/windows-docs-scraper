@@ -1,0 +1,1 @@
+void ObjectStublessClient21();

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:usbcamdi.USBCAMD_InitializeNewInterface",
+  "title": "USBCAMD_InitializeNewInterface function (usbcamdi.h)",
+  "description": "The USBCAMD_InitializeNewInterface function provides USBCAMD with all the necessary information to configure the camera minidriver to work correctly with the stream class driver and the USB bus driver.",
+  "tech.root": "stream",
+  "ms.date": "03/08/2023",
+  "keywords": [
+    "USBCAMD_InitializeNewInterface function"
+  ],
+  "ms.keywords": "USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], stream.usbcamd_initializenewinterface, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml",
+  "req.header": "usbcamdi.h",
+  "req.include-header": "Usbcamdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbcamd2.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBCAMD_InitializeNewInterface",
+    "usbcamdi/USBCAMD_InitializeNewInterface"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "usbcamd2.lib",
+    "usbcamd2.dll"
+  ],
+  "api_name": [
+    "USBCAMD_InitializeNewInterface"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef struct _CIP_HDR2_MPEGTS {
+  ULONG TSF : 1;
+  ULONG RSV23bit : 23;
+  ULONG FMT : 6;
+  ULONG Bit10 : 2;
+} CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS;

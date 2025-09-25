@@ -1,0 +1,59 @@
+{
+  "UID": "NF:bcrypt.BCryptCreateMultiHash",
+  "title": "BCryptCreateMultiHash function (bcrypt.h)",
+  "description": "The BCryptCreateMultiHash function creates a multi-hash state that allows for the parallel computation of multiple hash operations.",
+  "helpviewer_keywords": [
+    "BCRYPT_HASH_REUSABLE_FLAG",
+    "BCryptCreateMultiHash",
+    "BCryptCreateMultiHash function [Security]",
+    "bcrypt/BCryptCreateMultiHash",
+    "security.bcryptcreatemultihash"
+  ],
+  "old-location": "security\\bcryptcreatemultihash.htm",
+  "tech.root": "security",
+  "ms.assetid": "AAF91460-AEFB-4E16-91EA-4A60272B3839",
+  "ms.date": "03/21/2023",
+  "ms.keywords": "BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 Update [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 Update [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptCreateMultiHash",
+    "bcrypt/BCryptCreateMultiHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptCreateMultiHash"
+  ]
+}

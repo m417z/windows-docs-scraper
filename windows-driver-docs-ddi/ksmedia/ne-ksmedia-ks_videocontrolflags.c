@@ -1,0 +1,12 @@
+typedef enum {
+  KS_VideoControlFlag_FlipHorizontal,
+  KS_VideoControlFlag_FlipVertical,
+  KS_Obsolete_VideoControlFlag_ExternalTriggerEnable,
+  KS_Obsolete_VideoControlFlag_Trigger,
+  KS_VideoControlFlag_ExternalTriggerEnable,
+  KS_VideoControlFlag_Trigger,
+  KS_VideoControlFlag_IndependentImagePin,
+  KS_VideoControlFlag_StillCapturePreviewFrame,
+  KS_VideoControlFlag_StartPhotoSequenceCapture,
+  KS_VideoControlFlag_StopPhotoSequenceCapture
+} KS_VideoControlFlags;

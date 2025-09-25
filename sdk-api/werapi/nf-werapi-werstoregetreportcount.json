@@ -1,0 +1,53 @@
+{
+  "UID": "NF:werapi.WerStoreGetReportCount",
+  "tech.root": "wer",
+  "title": "WerStoreGetReportCount",
+  "ms.date": "07/21/2023",
+  "targetos": "Windows",
+  "description": "Gets the number of Windows Error Reporting (WER) reports in the error report store.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "werapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ext-ms-win-wer-reporting-l1-1-3.dll",
+    "ext-ms-win-wer-reporting-l1-1-2.dll",
+    "ext-ms-win-wer-reporting-l1-1-1.dll",
+    "werapi.h"
+  ],
+  "api_name": [
+    "WerStoreGetReportCount"
+  ],
+  "f1_keywords": [
+    "WerStoreGetReportCount",
+    "werapi/WerStoreGetReportCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WerStoreGetReportCount"
+  ]
+}

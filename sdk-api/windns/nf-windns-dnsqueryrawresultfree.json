@@ -1,0 +1,51 @@
+{
+  "UID": "NF:windns.DnsQueryRawResultFree",
+  "title": "DnsQueryRawResultFree",
+  "description": "Frees the memory allocated to a DNS_QUERY_RAW_RESULT structure object.",
+  "tech.root": "DNS",
+  "ms.date": "07/13/2023",
+  "targetos": "Windows",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "dnsapi.dll",
+  "req.header": "windns.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "dnsapi.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dnsapi.dll"
+  ],
+  "api_name": [
+    "DnsQueryRawResultFree"
+  ],
+  "f1_keywords": [
+    "DnsQueryRawResultFree",
+    "windns/DnsQueryRawResultFree"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DnsQueryRawResultFree"
+  ]
+}

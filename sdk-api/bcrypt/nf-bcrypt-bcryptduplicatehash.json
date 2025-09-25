@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptDuplicateHash",
+  "title": "BCryptDuplicateHash function (bcrypt.h)",
+  "description": "Duplicates an existing hash or Message Authentication Code (MAC) object.",
+  "helpviewer_keywords": [
+    "BCryptDuplicateHash",
+    "BCryptDuplicateHash function [Security]",
+    "bcrypt/BCryptDuplicateHash",
+    "security.bcryptduplicatehash_func"
+  ],
+  "old-location": "security\\bcryptduplicatehash_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "451ff5dc-b66a-4e8e-a327-28b4ee618b74",
+  "ms.date": "07/02/2025",
+  "ms.keywords": "BCryptDuplicateHash, BCryptDuplicateHash function [Security], bcrypt/BCryptDuplicateHash, security.bcryptduplicatehash_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptDuplicateHash",
+    "bcrypt/BCryptDuplicateHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptDuplicateHash"
+  ]
+}

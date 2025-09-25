@@ -1,0 +1,3 @@
+NTSTATUS DisconnectOutput(
+  PMXF sinkMXF
+);

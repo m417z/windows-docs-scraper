@@ -1,0 +1,61 @@
+{
+  "UID": "NF:msi.MsiNotifySidChangeW",
+  "title": "MsiNotifySidChangeW function (msi.h)",
+  "description": "The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs. (Unicode)",
+  "helpviewer_keywords": [
+    "MsiNotifySidChange",
+    "MsiNotifySidChange function",
+    "MsiNotifySidChangeW",
+    "msi/MsiNotifySidChange",
+    "msi/MsiNotifySidChangeW",
+    "setup.msinotifysidchange"
+  ],
+  "old-location": "setup\\msinotifysidchange.htm",
+  "tech.root": "setup",
+  "ms.assetid": "f35e503e-0bc0-4895-8e88-fc5636774e75",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer 3.1 on Windows Server 2003, Windows XP, and Windows 2000. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiNotifySidChangeW (Unicode) and MsiNotifySidChangeA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiNotifySidChangeW",
+    "msi/MsiNotifySidChangeW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiNotifySidChange",
+    "MsiNotifySidChangeA",
+    "MsiNotifySidChangeW"
+  ]
+}

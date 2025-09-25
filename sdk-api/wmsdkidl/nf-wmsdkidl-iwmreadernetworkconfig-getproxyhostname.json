@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyHostName",
+  "title": "IWMReaderNetworkConfig::GetProxyHostName (wmsdkidl.h)",
+  "description": "The GetProxyHostName method retrieves the name of the host to use as the proxy.",
+  "helpviewer_keywords": [
+    "GetProxyHostName",
+    "GetProxyHostName method [windows Media Format]",
+    "GetProxyHostName method [windows Media Format]",
+    "IWMReaderNetworkConfig interface",
+    "IWMReaderNetworkConfig interface [windows Media Format]",
+    "GetProxyHostName method",
+    "IWMReaderNetworkConfig.GetProxyHostName",
+    "IWMReaderNetworkConfig::GetProxyHostName",
+    "IWMReaderNetworkConfigGetProxyHostName",
+    "wmformat.iwmreadernetworkconfig_getproxyhostname",
+    "wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName"
+  ],
+  "old-location": "wmformat\\iwmreadernetworkconfig_getproxyhostname.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "a7411ed6-90ee-450c-bb06-408469036d22",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetProxyHostName, GetProxyHostName method [windows Media Format], GetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyHostName method, IWMReaderNetworkConfig.GetProxyHostName, IWMReaderNetworkConfig::GetProxyHostName, IWMReaderNetworkConfigGetProxyHostName, wmformat.iwmreadernetworkconfig_getproxyhostname, wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderNetworkConfig::GetProxyHostName",
+    "wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderNetworkConfig.GetProxyHostName"
+  ]
+}

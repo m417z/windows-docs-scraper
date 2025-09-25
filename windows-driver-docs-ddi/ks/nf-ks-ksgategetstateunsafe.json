@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ks.KsGateGetStateUnsafe",
+  "title": "KsGateGetStateUnsafe function (ks.h)",
+  "description": "The KsGateGetStateUnsafe function returns the state of the given gate (open or closed) in an unsafe manner, that is without regard to synchronization.",
+  "old-location": "stream\\ksgategetstateunsafe.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KsGateGetStateUnsafe function"
+  ],
+  "ms.keywords": "KsGateGetStateUnsafe, KsGateGetStateUnsafe function [Streaming Media Devices], avfunc_1f18b601-daaf-4df2-98c2-a91646f84c0d.xml, ks/KsGateGetStateUnsafe, stream.ksgategetstateunsafe",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KsGateGetStateUnsafe",
+    "ks/KsGateGetStateUnsafe"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "KsGateGetStateUnsafe"
+  ]
+}

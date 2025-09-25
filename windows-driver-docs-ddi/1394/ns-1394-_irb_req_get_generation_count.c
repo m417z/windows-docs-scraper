@@ -1,0 +1,3 @@
+typedef struct _IRB_REQ_GET_GENERATION_COUNT {
+  ULONG GenerationCount;
+} IRB_REQ_GET_GENERATION_COUNT;

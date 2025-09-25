@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVM_SET_LIST",
+  "tech.root": "fs",
+  "title": "NVM_SET_LIST",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains an array of entries for the NVME Set Attributes command.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVM_SET_LIST, *PNVM_SET_LIST",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVM_SET_LIST",
+    "NVM_SET_LIST"
+  ],
+  "f1_keywords": [
+    "PNVM_SET_LIST",
+    "nvme/PNVM_SET_LIST",
+    "NVM_SET_LIST",
+    "nvme/NVM_SET_LIST"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct IP_LOCAL_BINDING {
+  DWORD Address;
+  DWORD Mask;
+} IP_LOCAL_BINDING, *PIP_LOCAL_BINDING;

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mergemod.IMsmGetFiles.get_ModuleFiles",
+  "title": "IMsmGetFiles::get_ModuleFiles (mergemod.h)",
+  "description": "The get_ModuleFiles method retrieves the ModuleFiles property of the GetFiles object.",
+  "helpviewer_keywords": [
+    "IMsmGetFiles interface",
+    "get_ModuleFiles method",
+    "IMsmGetFiles.get_ModuleFiles",
+    "IMsmGetFiles::get_ModuleFiles",
+    "_msi_get_modulefiles_function",
+    "get_ModuleFiles",
+    "get_ModuleFiles method",
+    "get_ModuleFiles method",
+    "IMsmGetFiles interface",
+    "mergemod/IMsmGetFiles::get_ModuleFiles",
+    "setup.imsmgetfiles_get_modulefiles"
+  ],
+  "old-location": "setup\\imsmgetfiles_get_modulefiles.htm",
+  "tech.root": "setup",
+  "ms.assetid": "525c1a30-a870-4303-b704-e8b37f9e641f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IMsmGetFiles interface,get_ModuleFiles method, IMsmGetFiles.get_ModuleFiles, IMsmGetFiles::get_ModuleFiles, _msi_get_modulefiles_function, get_ModuleFiles, get_ModuleFiles method, get_ModuleFiles method,IMsmGetFiles interface, mergemod/IMsmGetFiles::get_ModuleFiles, setup.imsmgetfiles_get_modulefiles",
+  "req.header": "mergemod.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Mergemod.dll 1.0 or later",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Mergemod.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMsmGetFiles::get_ModuleFiles",
+    "mergemod/IMsmGetFiles::get_ModuleFiles"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mergemod.dll"
+  ],
+  "api_name": [
+    "IMsmGetFiles.get_ModuleFiles"
+  ]
+}

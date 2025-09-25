@@ -1,0 +1,54 @@
+{
+  "UID": "NS:srb._HW_INITIALIZATION_DATA",
+  "title": "_HW_INITIALIZATION_DATA (srb.h)",
+  "description": "Each SCSI miniport driver's DriverEntry routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.",
+  "old-location": "storage\\hw_initialization_data__scsi_.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "HW_INITIALIZATION_DATA structure"
+  ],
+  "ms.keywords": "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], srb/HW_INITIALIZATION_DATA, srb/PHW_INITIALIZATION_DATA, storage.hw_initialization_data__scsi_, structs-scsiport_4d9f09a8-742b-4c72-8fc5-dd968bd990d6.xml",
+  "req.header": "srb.h",
+  "req.include-header": "Srb.h, Strmini.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA",
+  "f1_keywords": [
+    "_HW_INITIALIZATION_DATA",
+    "srb/_HW_INITIALIZATION_DATA",
+    "PHW_INITIALIZATION_DATA",
+    "srb/PHW_INITIALIZATION_DATA",
+    "HW_INITIALIZATION_DATA",
+    "srb/HW_INITIALIZATION_DATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "srb.h"
+  ],
+  "api_name": [
+    "_HW_INITIALIZATION_DATA",
+    "PHW_INITIALIZATION_DATA",
+    "HW_INITIALIZATION_DATA"
+  ]
+}

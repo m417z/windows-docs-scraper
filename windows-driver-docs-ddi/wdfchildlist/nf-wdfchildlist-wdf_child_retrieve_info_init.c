@@ -1,0 +1,4 @@
+VOID WDF_CHILD_RETRIEVE_INFO_INIT(
+  [out] PWDF_CHILD_RETRIEVE_INFO                     Info,
+  [in]  PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER IdentificationDescription
+);

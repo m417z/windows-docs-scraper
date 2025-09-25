@@ -1,0 +1,6 @@
+typedef struct D3D12_RESOURCE_COORDINATE {
+  UINT64 X;
+  UINT   Y;
+  UINT   Z;
+  UINT   SubresourceIndex;
+} D3D12_RESOURCE_COORDINATE;

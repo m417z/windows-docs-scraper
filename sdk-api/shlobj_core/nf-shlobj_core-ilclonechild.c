@@ -1,0 +1,3 @@
+PITEMID_CHILD ILCloneChild(
+  [in] PCUITEMID_CHILD pidl
+);

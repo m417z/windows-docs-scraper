@@ -1,0 +1,48 @@
+{
+  "UID": "NF:strmini.StreamClassRegisterAdapter",
+  "title": "StreamClassRegisterAdapter function (strmini.h)",
+  "description": "The StreamClassRegisterAdapter routine registers a stream class minidriver.The name StreamClassRegisterAdapter is supported for backward compatibility only.Instead, Microsoft recommends the use of StreamClassRegisterMinidriver, an alias of StreamClassRegisterAdapter. The name StreamClassRegisterMinidriver more accurately indicates that the routine registers a stream class minidriver. Once registered, a minidriver can drive any number of adapter instances in a system.The StreamClassRegisterMinidriver routine registers a stream minidriver with the stream class driver.",
+  "old-location": "stream\\streamclassregisterminidriver.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "StreamClassRegisterAdapter function"
+  ],
+  "ms.keywords": "StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices], StreamClassRegisterMinidriver, strclass-routines_5336cc3e-8abd-4943-a191-12dbf9d25b85.xml, stream.streamclassregisterminidriver, strmini/StreamClassRegisterAdapter",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StreamClassRegisterAdapter",
+    "strmini/StreamClassRegisterAdapter"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "strmini.h"
+  ],
+  "api_name": [
+    "StreamClassRegisterAdapter"
+  ]
+}

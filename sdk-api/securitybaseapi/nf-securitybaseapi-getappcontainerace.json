@@ -1,0 +1,53 @@
+{
+  "UID": "NF:securitybaseapi.GetAppContainerAce",
+  "tech.root": "security",
+  "title": "GetAppContainerAce (securitybaseapi.h)",
+  "ms.date": "12/02/2022",
+  "ms.keywords": "GetAppContainerAce",
+  "targetos": "Windows",
+  "description": "Retrieves a value that indicates whether a package or capability SID is present.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Advapi32.dll",
+  "req.header": "securitybaseapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Advapi32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-security-base-l1-2-2.dll",
+    "api-ms-win-security-base-l1-2-1.dll",
+    "api-ms-win-security-base-l1-2-0.dll",
+    "securitybaseapi.h"
+  ],
+  "api_name": [
+    "GetAppContainerAce"
+  ],
+  "f1_keywords": [
+    "GetAppContainerAce",
+    "securitybaseapi/GetAppContainerAce"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "GetAppContainerAce"
+  ]
+}

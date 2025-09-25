@@ -1,0 +1,3 @@
+HRESULT ReleaseCachedData(
+  ULONG strokeId
+);

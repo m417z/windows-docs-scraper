@@ -1,0 +1,4 @@
+typedef struct XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS {
+  const WAVEFORMATEX *pFormat;
+  UINT32             MaxFrameCount;
+} XAPO_LOCKFORPROCESS_PARAMETERS;

@@ -1,0 +1,8 @@
+typedef struct _EXPAND_VIRTUAL_DISK_PARAMETERS {
+  EXPAND_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      ULONGLONG NewSize;
+    } Version1;
+  };
+} EXPAND_VIRTUAL_DISK_PARAMETERS, *PEXPAND_VIRTUAL_DISK_PARAMETERS;

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:cfgmgr32.CM_Set_Class_PropertyW",
+  "title": "CM_Set_Class_PropertyW function (cfgmgr32.h)",
+  "description": "The CM_Set_Class_Property function sets a class property for a device setup class or a device interface class.",
+  "helpviewer_keywords": [
+    "CM_Set_Class_Property",
+    "CM_Set_Class_Property function [Device and Driver Installation]",
+    "CM_Set_Class_PropertyW",
+    "cfgmgr32/CM_Set_Class_Property",
+    "cfgmgr32/CM_Set_Class_PropertyW",
+    "devinst.cm_set_class_property"
+  ],
+  "old-location": "devinst\\cm_set_class_property.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "BC026F97-4F4B-472F-83C0-FB5114AE1B7A",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CM_Set_Class_Property, CM_Set_Class_Property function [Device and Driver Installation], CM_Set_Class_PropertyW, cfgmgr32/CM_Set_Class_Property, cfgmgr32/CM_Set_Class_PropertyW, devinst.cm_set_class_property",
+  "req.header": "cfgmgr32.h",
+  "req.include-header": "Cfgmgr32.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CM_Set_Class_PropertyW (Unicode)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CM_Set_Class_PropertyW",
+    "cfgmgr32/CM_Set_Class_PropertyW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-config-l1-1-2.dll",
+    "Cfgmgr32.lib",
+    "Cfgmgr32.dll",
+    "API-Ms-Win-Devices-Config-L1-1-0.dll",
+    "API-Ms-Win-Devices-Config-L1-1-1.dll",
+    "CfgMgr32.dll"
+  ],
+  "api_name": [
+    "CM_Set_Class_Property",
+    "CM_Set_Class_PropertyW"
+  ]
+}

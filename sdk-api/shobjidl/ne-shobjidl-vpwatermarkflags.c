@@ -1,0 +1,4 @@
+typedef enum VPWATERMARKFLAGS {
+  VPWF_DEFAULT = 0,
+  VPWF_ALPHABLEND = 0x1
+} ;

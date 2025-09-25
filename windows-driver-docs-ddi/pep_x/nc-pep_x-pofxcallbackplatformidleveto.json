@@ -1,0 +1,48 @@
+{
+  "UID": "NC:pep_x.POFXCALLBACKPLATFORMIDLEVETO",
+  "title": "POFXCALLBACKPLATFORMIDLEVETO (pep_x.h)",
+  "description": "Learn how the PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state.",
+  "old-location": "kernel\\platformidleveto.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "POFXCALLBACKPLATFORMIDLEVETO callback function"
+  ],
+  "ms.keywords": "POFXCALLBACKPLATFORMIDLEVETO, PlatformIdleVeto, PlatformIdleVeto routine [Kernel-Mode Driver Architecture], kernel.platformidleveto, pepfx/PlatformIdleVeto",
+  "req.header": "pep_x.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "POFXCALLBACKPLATFORMIDLEVETO",
+    "pep_x/POFXCALLBACKPLATFORMIDLEVETO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "POFXCALLBACKPLATFORMIDLEVETO"
+  ]
+}

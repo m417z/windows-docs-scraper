@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTChangeVideoMemoryReservation(
+  const D3DKMT_CHANGEVIDEOMEMORYRESERVATION *unnamedParam1
+);

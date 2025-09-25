@@ -1,0 +1,4 @@
+typedef struct _COMDLG_FILTERSPEC {
+  LPCWSTR pszName;
+  LPCWSTR pszSpec;
+} COMDLG_FILTERSPEC;

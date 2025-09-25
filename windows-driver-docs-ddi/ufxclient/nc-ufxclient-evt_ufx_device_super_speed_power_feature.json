@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ufxclient.EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE",
+  "title": "EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE (ufxclient.h)",
+  "description": "The client driver's implementation to set or clear the specified power feature on the function controller.",
+  "old-location": "buses\\evt_ufx_device_super_speed_power_feature.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function"
+  ],
+  "ms.keywords": "EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback, EvtUfxDeviceSuperSpeedPowerFeature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], buses.evt_ufx_device_super_speed_power_feature, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature",
+  "req.header": "ufxclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE",
+    "ufxclient/EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ufxclient.h"
+  ],
+  "api_name": [
+    "EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE"
+  ]
+}

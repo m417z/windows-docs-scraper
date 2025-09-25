@@ -1,0 +1,3 @@
+WORD SORTVERSIONFROMLCID(
+    LCID lcid
+);

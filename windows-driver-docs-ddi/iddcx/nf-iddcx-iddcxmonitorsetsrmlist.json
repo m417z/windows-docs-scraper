@@ -1,0 +1,46 @@
+{
+  "UID": "NF:iddcx.IddCxMonitorSetSrmList",
+  "title": "IddCxMonitorSetSrmList",
+  "ms.date": "10/02/2020",
+  "tech.root": "display",
+  "targetos": "Windows",
+  "description": "IddCxMonitorSetSrmList passes a System Renewability Message (SRM) list to the GPU driver associated with the rendering of the specified monitor.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "iddcx.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "iddcx.h"
+  ],
+  "api_name": [
+    "IddCxMonitorSetSrmList"
+  ],
+  "f1_keywords": [
+    "IddCxMonitorSetSrmList",
+    "iddcx/IddCxMonitorSetSrmList"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

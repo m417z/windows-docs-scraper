@@ -1,0 +1,3 @@
+ACXDATAFORMATLIST AcxPinGetRawDataFormatList(
+  ACXPIN AcxPin
+);

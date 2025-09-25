@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.ExDeleteTimer",
+  "title": "ExDeleteTimer function (wdm.h)",
+  "description": "The ExDeleteTimer routine deletes a timer object that was previously allocated by the ExAllocateTimer routine.",
+  "old-location": "kernel\\exdeletetimer.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ExDeleteTimer function"
+  ],
+  "ms.keywords": "ExDeleteTimer, ExDeleteTimer routine [Kernel-Mode Driver Architecture], kernel.exdeletetimer, wdm/ExDeleteTimer",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": null,
+  "req.irql": "See Remarks.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExDeleteTimer",
+    "wdm/ExDeleteTimer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ntoskrnl.lib",
+    "ntoskrnl.dll"
+  ],
+  "api_name": [
+    "ExDeleteTimer"
+  ]
+}

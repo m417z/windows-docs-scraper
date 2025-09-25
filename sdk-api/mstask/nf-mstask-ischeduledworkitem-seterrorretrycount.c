@@ -1,0 +1,3 @@
+HRESULT SetErrorRetryCount(
+  WORD wRetryCount
+);

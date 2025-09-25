@@ -1,0 +1,5 @@
+typedef struct _SP_INF_INFORMATION {
+  DWORD InfStyle;
+  DWORD InfCount;
+  BYTE  VersionData[ANYSIZE_ARRAY];
+} SP_INF_INFORMATION, *PSP_INF_INFORMATION;

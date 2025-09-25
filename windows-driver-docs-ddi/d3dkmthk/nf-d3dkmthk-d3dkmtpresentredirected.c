@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTPresentRedirected(
+  D3DKMT_PRESENT_REDIRECTED *unnamedParam1
+);

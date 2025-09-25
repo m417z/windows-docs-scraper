@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.READ_REGISTER_BUFFER_ULONG64",
+  "title": "READ_REGISTER_BUFFER_ULONG64 function (wdm.h)",
+  "description": "The READ_REGISTER_BUFFER_ULONG64 function (wdm.h)reads a number of ULONG64 values from the specified register address into a buffer.",
+  "old-location": "wdf\\read_register_buffer_ulong64.htm",
+  "tech.root": "kernel",
+  "ms.date": "09/07/2021",
+  "keywords": [
+    "READ_REGISTER_BUFFER_ULONG64 function"
+  ],
+  "ms.keywords": "READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available only in 64-bit versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.exe",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "READ_REGISTER_BUFFER_ULONG64",
+    "wdm/READ_REGISTER_BUFFER_ULONG64"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "READ_REGISTER_BUFFER_ULONG64"
+  ]
+}

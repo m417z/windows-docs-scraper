@@ -1,0 +1,5 @@
+typedef struct _VDS_ISCSI_PORTAL_PROP {
+  VDS_OBJECT_ID           id;
+  VDS_IPADDRESS           address;
+  VDS_ISCSI_PORTAL_STATUS status;
+} VDS_ISCSI_PORTAL_PROP, *PVDS_ISCSI_PORTAL_PROP;

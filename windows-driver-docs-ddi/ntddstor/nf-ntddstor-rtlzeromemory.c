@@ -1,0 +1,4 @@
+void RtlZeroMemory(
+  Destination,
+  Length
+);

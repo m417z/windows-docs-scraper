@@ -1,0 +1,3 @@
+HRESULT GetSignature(
+  LPWSTR *signature
+);

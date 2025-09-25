@@ -1,0 +1,49 @@
+{
+  "UID": "NS:acxpin._ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+  "tech.root": "audio",
+  "title": "ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+  "ms.date": "07/22/2022",
+  "targetos": "Windows",
+  "description": "The ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION structure specifies how loopback audio is interleaved with the microphone audio for KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxpin.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION, *PACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxpin.h"
+  ],
+  "api_name": [
+    "_ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+    "PACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+    "ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+    "acxpin/_ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+    "PACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+    "acxpin/PACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+    "ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION",
+    "acxpin/ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

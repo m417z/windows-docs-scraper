@@ -1,0 +1,3 @@
+int Find(
+  LPCWSTR lpszSub
+);

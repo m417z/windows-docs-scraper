@@ -1,0 +1,51 @@
+{
+  "UID": "NF:usermode_accessors.WriteLongPtrToUser",
+  "tech.root": "kernel",
+  "title": "WriteLongPtrToUser",
+  "ms.date": "07/02/2025",
+  "targetos": "Windows",
+  "description": "The WriteLongPtrToUser function safely writes a LONG_PTR value to user-mode memory.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "usermode_accessors.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Less than or equal to APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "umaccess.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "See Remarks",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usermode_accessors.h"
+  ],
+  "api_name": [
+    "WriteLongPtrToUser"
+  ],
+  "f1_keywords": [
+    "WriteLongPtrToUser",
+    "usermode_accessors/WriteLongPtrToUser"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WriteLongPtrToUser"
+  ],
+  "ai-usage": "ai-assisted"
+}

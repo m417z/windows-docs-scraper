@@ -1,0 +1,3 @@
+HRESULT TxGetDropTarget(
+  IDropTarget **ppDropTarget
+);

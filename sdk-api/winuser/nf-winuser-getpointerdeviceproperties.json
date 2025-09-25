@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winuser.GetPointerDeviceProperties",
+  "title": "GetPointerDeviceProperties function (winuser.h)",
+  "description": "Gets device properties that aren't included in the POINTER_DEVICE_INFO structure.",
+  "helpviewer_keywords": [
+    "GetPointerDeviceProperties",
+    "GetPointerDeviceProperties function",
+    "input_pointerdevice.getpointerdeviceproperties",
+    "unifiedinputstack.getpointerdeviceproperties",
+    "winuser/GetPointerDeviceProperties"
+  ],
+  "old-location": "input_pointerdevice\\getpointerdeviceproperties.htm",
+  "tech.root": "controls",
+  "ms.assetid": "dbb81637-217a-49b1-9e81-2068cf4c0951",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetPointerDeviceProperties, GetPointerDeviceProperties function, input_pointerdevice.getpointerdeviceproperties, unifiedinputstack.getpointerdeviceproperties, winuser/GetPointerDeviceProperties",
+  "req.header": "winuser.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetPointerDeviceProperties",
+    "winuser/GetPointerDeviceProperties"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll",
+    "api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll",
+    "User32.dll",
+    "API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll",
+    "MinUser.dll",
+    "API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll",
+    "API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll",
+    "API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll"
+  ],
+  "api_name": [
+    "GetPointerDeviceProperties"
+  ]
+}

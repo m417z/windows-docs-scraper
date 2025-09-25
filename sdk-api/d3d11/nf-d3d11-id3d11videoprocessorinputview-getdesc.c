@@ -1,0 +1,3 @@
+void GetDesc(
+  [out] D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC *pDesc
+);

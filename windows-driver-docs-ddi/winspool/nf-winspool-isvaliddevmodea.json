@@ -1,0 +1,50 @@
+{
+  "UID": "NF:winspool.IsValidDevmodeA",
+  "title": "IsValidDevmodeA function (winspool.h)",
+  "description": "The print spooler's IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.",
+  "tech.root": "print",
+  "ms.date": "04/20/2022",
+  "keywords": [
+    "IsValidDevmodeA function"
+  ],
+  "ms.keywords": "IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeA, IsValidDevmodeW, print.isvaliddevmode, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, winspool/IsValidDevmode",
+  "req.header": "winspool.h",
+  "req.include-header": "Winspool.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winspool.lib",
+  "req.dll": "Winspool.drv",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IsValidDevmodeA",
+    "winspool/IsValidDevmodeA",
+    "IsValidDevmode",
+    "winspool/IsValidDevmode"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winspool.drv"
+  ],
+  "api_name": [
+    "IsValidDevmodeA",
+    "IsValidDevmode"
+  ]
+}

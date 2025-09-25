@@ -1,0 +1,3 @@
+ULONG WifiDirectDeviceGetPortId(
+  WIFIDIRECTDEVICE WifiDirectDevice
+);

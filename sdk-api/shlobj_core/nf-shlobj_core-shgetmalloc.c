@@ -1,0 +1,3 @@
+SHSTDAPI SHGetMalloc(
+  IMalloc **ppMalloc
+);

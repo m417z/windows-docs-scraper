@@ -1,0 +1,9 @@
+typedef struct _LSA_TOKEN_INFORMATION_V1 {
+  LARGE_INTEGER       ExpirationTime;
+  TOKEN_USER          User;
+  PTOKEN_GROUPS       Groups;
+  TOKEN_PRIMARY_GROUP PrimaryGroup;
+  PTOKEN_PRIVILEGES   Privileges;
+  TOKEN_OWNER         Owner;
+  TOKEN_DEFAULT_DACL  DefaultDacl;
+} LSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V1;

@@ -1,0 +1,4 @@
+void WriteStructToUser(
+  Destination,
+  Source
+);

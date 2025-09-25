@@ -1,0 +1,21 @@
+typedef struct _tagCOLORMATCHSETUPW {
+  DWORD         dwSize;
+  DWORD         dwVersion;
+  DWORD         dwFlags;
+  HWND          hwndOwner;
+  PCWSTR        pSourceName;
+  PCWSTR        pDisplayName;
+  PCWSTR        pPrinterName;
+  DWORD         dwRenderIntent;
+  DWORD         dwProofingIntent;
+  PWSTR         pMonitorProfile;
+  DWORD         ccMonitorProfile;
+  PWSTR         pPrinterProfile;
+  DWORD         ccPrinterProfile;
+  PWSTR         pTargetProfile;
+  DWORD         ccTargetProfile;
+  DLGPROC       lpfnHook;
+  LPARAM        lParam;
+  PCMSCALLBACKW lpfnApplyCallback;
+  LPARAM        lParamApplyCallback;
+} COLORMATCHSETUPW, *PCOLORMATCHSETUPW, *LPCOLORMATCHSETUPW;

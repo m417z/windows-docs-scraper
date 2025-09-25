@@ -1,0 +1,5 @@
+typedef enum _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE {
+  NdisSwitchPortFeatureStatusTypeUndefined,
+  NdisSwitchPortFeatureStatusTypeCustom,
+  NdisSwitchPortFeatureStatusTypeMaximum
+} NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE;

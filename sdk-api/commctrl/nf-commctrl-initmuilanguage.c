@@ -1,0 +1,3 @@
+void InitMUILanguage(
+  LANGID uiLang
+);

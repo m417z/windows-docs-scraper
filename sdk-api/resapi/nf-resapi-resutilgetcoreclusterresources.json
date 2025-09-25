@@ -1,0 +1,65 @@
+{
+  "UID": "NF:resapi.ResUtilGetCoreClusterResources",
+  "title": "ResUtilGetCoreClusterResources function (resapi.h)",
+  "description": "Returns handles to the core Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_GET_CORE_CLUSTER_RESOURCES",
+    "PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster]",
+    "ResUtilGetCoreClusterResources",
+    "ResUtilGetCoreClusterResources function [Failover Cluster]",
+    "_wolf_resutilgetcoreclusterresources",
+    "mscs.resutilgetcoreclusterresources",
+    "resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES",
+    "resapi/ResUtilGetCoreClusterResources"
+  ],
+  "old-location": "mscs\\resutilgetcoreclusterresources.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "cadfeaf7-951f-4fc7-96fa-2e256e52a370",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_GET_CORE_CLUSTER_RESOURCES, PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster], ResUtilGetCoreClusterResources, ResUtilGetCoreClusterResources function [Failover Cluster], _wolf_resutilgetcoreclusterresources, mscs.resutilgetcoreclusterresources, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES, resapi/ResUtilGetCoreClusterResources",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.Dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilGetCoreClusterResources",
+    "resapi/ResUtilGetCoreClusterResources"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ext-ms-win-cluster-resutils-l1-1-2.dll",
+    "ResUtils.Dll",
+    "Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll",
+    "ext-ms-win-cluster-resutils-l1-1-1.dll"
+  ],
+  "api_name": [
+    "ResUtilGetCoreClusterResources"
+  ]
+}

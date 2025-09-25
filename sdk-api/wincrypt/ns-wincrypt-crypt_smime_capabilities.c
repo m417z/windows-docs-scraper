@@ -1,0 +1,4 @@
+typedef struct _CRYPT_SMIME_CAPABILITIES {
+  DWORD                   cCapability;
+  PCRYPT_SMIME_CAPABILITY rgCapability;
+} CRYPT_SMIME_CAPABILITIES, *PCRYPT_SMIME_CAPABILITIES;

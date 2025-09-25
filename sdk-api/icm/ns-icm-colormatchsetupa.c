@@ -1,0 +1,21 @@
+typedef struct _tagCOLORMATCHSETUPA {
+  DWORD         dwSize;
+  DWORD         dwVersion;
+  DWORD         dwFlags;
+  HWND          hwndOwner;
+  PCSTR         pSourceName;
+  PCSTR         pDisplayName;
+  PCSTR         pPrinterName;
+  DWORD         dwRenderIntent;
+  DWORD         dwProofingIntent;
+  PSTR          pMonitorProfile;
+  DWORD         ccMonitorProfile;
+  PSTR          pPrinterProfile;
+  DWORD         ccPrinterProfile;
+  PSTR          pTargetProfile;
+  DWORD         ccTargetProfile;
+  DLGPROC       lpfnHook;
+  LPARAM        lParam;
+  PCMSCALLBACKA lpfnApplyCallback;
+  LPARAM        lParamApplyCallback;
+} COLORMATCHSETUPA, *PCOLORMATCHSETUPA, *LPCOLORMATCHSETUPA;

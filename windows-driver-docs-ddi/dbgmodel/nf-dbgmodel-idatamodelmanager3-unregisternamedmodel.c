@@ -1,0 +1,3 @@
+HRESULT UnregisterNamedModel(
+  PCWSTR modelName
+);

@@ -1,0 +1,7 @@
+typedef struct _CM_KEYBOARD_DEVICE_DATA {
+  USHORT Version;
+  USHORT Revision;
+  UCHAR  Type;
+  UCHAR  Subtype;
+  USHORT KeyboardFlags;
+} CM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA;

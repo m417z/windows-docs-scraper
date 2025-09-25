@@ -1,0 +1,45 @@
+{
+  "UID": "NF:fltkernel.FltQueryDirectoryFileEx",
+  "title": "FltQueryDirectoryFileEx function",
+  "description": "FltQueryDirectoryFileEx returns various kinds of information about files in the directory specified by a given file object.",
+  "tech.root": "ifsk",
+  "ms.date": "12/01/2021",
+  "keywords": [
+    "FltQueryDirectoryFileEx function"
+  ],
+  "ms.keywords": "FltQueryDirectoryFileEx, FltQueryDirectoryFile",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "FltQueryDirectoryFileEx",
+    "fltkernel/FltQueryDirectoryFileEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "FltQueryDirectoryFileEx"
+  ]
+}

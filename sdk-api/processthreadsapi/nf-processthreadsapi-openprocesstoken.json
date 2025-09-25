@@ -1,0 +1,73 @@
+{
+  "UID": "NF:processthreadsapi.OpenProcessToken",
+  "title": "OpenProcessToken function (processthreadsapi.h)",
+  "description": "Opens the access token associated with a process.",
+  "helpviewer_keywords": [
+    "OpenProcessToken",
+    "OpenProcessToken function [Security]",
+    "_win32_openprocesstoken",
+    "processthreadsapi/OpenProcessToken",
+    "security.openprocesstoken"
+  ],
+  "old-location": "security\\openprocesstoken.htm",
+  "tech.root": "processthreadsapi",
+  "ms.assetid": "1e760ad8-7e46-4748-8c45-36ad8efe936a",
+  "ms.date": "08/12/2022",
+  "ms.keywords": "OpenProcessToken, OpenProcessToken function [Security], _win32_openprocesstoken, processthreadsapi/OpenProcessToken, security.openprocesstoken",
+  "req.header": "processthreadsapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OpenProcessToken",
+    "processthreadsapi/OpenProcessToken"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "api-ms-win-core-processthreads-l1-1-6.dll",
+    "api-ms-win-core-processthreads-l1-1-5.dll",
+    "api-ms-win-core-processthreads-l1-1-4.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Processsecurity-l1-1-0.dll",
+    "Kernel32.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Processthreads-l1-1-0.dll",
+    "API-MS-Win-Core-Processthreads-l1-1-1.dll",
+    "API-MS-Win-Core-Processthreads-l1-1-2.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-ProcessThreads-L1-1-3.dll"
+  ],
+  "api_name": [
+    "OpenProcessToken"
+  ]
+}

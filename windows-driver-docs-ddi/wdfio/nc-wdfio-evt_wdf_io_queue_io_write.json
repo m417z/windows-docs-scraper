@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfio.EVT_WDF_IO_QUEUE_IO_WRITE",
+  "title": "EVT_WDF_IO_QUEUE_IO_WRITE (wdfio.h)",
+  "description": "A driver's EvtIoWrite event callback function processes a specified write request.",
+  "old-location": "wdf\\evtiowrite.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_IO_QUEUE_IO_WRITE callback function"
+  ],
+  "ms.keywords": "DFQueueObjectRef_c98601af-48d0-4fc1-9947-b94c50f7a994.xml, EVT_WDF_IO_QUEUE_IO_WRITE, EVT_WDF_IO_QUEUE_IO_WRITE callback, EvtIoWrite, EvtIoWrite callback function, kmdf.evtiowrite, wdf.evtiowrite, wdfio/EvtIoWrite",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_IO_QUEUE_IO_WRITE",
+    "wdfio/EVT_WDF_IO_QUEUE_IO_WRITE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfio.h"
+  ],
+  "api_name": [
+    "EVT_WDF_IO_QUEUE_IO_WRITE"
+  ]
+}

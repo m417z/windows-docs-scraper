@@ -1,0 +1,3 @@
+void DlDebugPrintEx(
+  arg
+);

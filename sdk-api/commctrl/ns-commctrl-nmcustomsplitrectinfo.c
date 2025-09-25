@@ -1,0 +1,6 @@
+typedef struct tagNMCUSTOMSPLITRECTINFO {
+  NMHDR hdr;
+  RECT  rcClient;
+  RECT  rcButton;
+  RECT  rcSplit;
+} NMCUSTOMSPLITRECTINFO, *LPNMCUSTOMSPLITRECTINFO;

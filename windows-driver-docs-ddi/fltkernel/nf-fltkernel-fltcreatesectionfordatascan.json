@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltCreateSectionForDataScan",
+  "title": "FltCreateSectionForDataScan function (fltkernel.h)",
+  "description": "The FltCreateSectionForDataScan routine creates a section object for a file. The filter manager can optionally synchronize I/O with the section created.",
+  "old-location": "ifsk\\fltcreatesectionfordatascan.htm",
+  "tech.root": "ifsk",
+  "ms.date": "12/07/2021",
+  "keywords": [
+    "FltCreateSectionForDataScan function"
+  ],
+  "ms.keywords": "FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltCreateSectionForDataScan",
+    "fltkernel/FltCreateSectionForDataScan"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "FltMgr.lib",
+    "FltMgr.dll"
+  ],
+  "api_name": [
+    "FltCreateSectionForDataScan"
+  ]
+}

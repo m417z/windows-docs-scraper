@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PALLOCATE_ADAPTER_CHANNEL",
+  "title": "PALLOCATE_ADAPTER_CHANNEL (wdm.h)",
+  "description": "The AllocateAdapterChannel routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied AdapterControl routine to carry out the DMA operation.",
+  "old-location": "kernel\\allocateadapterchannel.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PALLOCATE_ADAPTER_CHANNEL callback function"
+  ],
+  "ms.keywords": "AllocateAdapterChannel, AllocateAdapterChannel callback function [Kernel-Mode Driver Architecture], PALLOCATE_ADAPTER_CHANNEL, PALLOCATE_ADAPTER_CHANNEL callback, kdma_b2d02da0-ab8f-4fc3-a7a5-a981920c071d.xml, kernel.allocateadapterchannel, wdm/AllocateAdapterChannel",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlDispatch, IrqlDispatch(storport)",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PALLOCATE_ADAPTER_CHANNEL",
+    "wdm/PALLOCATE_ADAPTER_CHANNEL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "PALLOCATE_ADAPTER_CHANNEL"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _NDIS_POLL_DATA {
+  NDIS_OBJECT_HEADER      Header;
+  NDIS_POLL_TRANSMIT_DATA Transmit;
+  NDIS_POLL_RECEIVE_DATA  Receive;
+} NDIS_POLL_DATA;

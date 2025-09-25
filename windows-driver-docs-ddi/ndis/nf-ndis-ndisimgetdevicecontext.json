@@ -1,0 +1,51 @@
+{
+  "UID": "NF:ndis.NdisIMGetDeviceContext",
+  "tech.root": "netvista",
+  "title": "NdisIMGetDeviceContext",
+  "ms.date": "01/04/2023",
+  "targetos": "Windows",
+  "description": "This function allows an NDIS intermediate driver's MiniportInitialize function to access the device context area allocated by its ProtocolBindAdapter function.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "IRQL <= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "Ndis.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisIMGetDeviceContext"
+  ],
+  "f1_keywords": [
+    "NdisIMGetDeviceContext",
+    "ndis/NdisIMGetDeviceContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NdisIMGetDeviceContext"
+  ]
+}

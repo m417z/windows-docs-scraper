@@ -1,0 +1,4 @@
+VOID EFFECTIVE_POWER_MODE_CALLBACK(
+  EFFECTIVE_POWER_MODE Mode,
+  VOID                 *Context
+);

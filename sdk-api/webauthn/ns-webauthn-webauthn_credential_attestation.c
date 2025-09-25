@@ -1,0 +1,24 @@
+typedef struct _WEBAUTHN_CREDENTIAL_ATTESTATION {
+  DWORD                      dwVersion;
+  PCWSTR                     pwszFormatType;
+  DWORD                      cbAuthenticatorData;
+  PBYTE                      pbAuthenticatorData;
+  DWORD                      cbAttestation;
+  PBYTE                      pbAttestation;
+  DWORD                      dwAttestationDecodeType;
+  PVOID                      pvAttestationDecode;
+  DWORD                      cbAttestationObject;
+  PBYTE                      pbAttestationObject;
+  DWORD                      cbCredentialId;
+  PBYTE                      pbCredentialId;
+  WEBAUTHN_EXTENSIONS        Extensions;
+  DWORD                      dwUsedTransport;
+  BOOL                       bEpAtt;
+  BOOL                       bLargeBlobSupported;
+  BOOL                       bResidentKey;
+  BOOL                       bPrfEnabled;
+  DWORD                      cbUnsignedExtensionOutputs;
+  PBYTE                      pbUnsignedExtensionOutputs;
+  PWEBAUTHN_HMAC_SECRET_SALT pHmacSecret;
+  BOOL                       bThirdPartyPayment;
+} WEBAUTHN_CREDENTIAL_ATTESTATION, *PWEBAUTHN_CREDENTIAL_ATTESTATION;

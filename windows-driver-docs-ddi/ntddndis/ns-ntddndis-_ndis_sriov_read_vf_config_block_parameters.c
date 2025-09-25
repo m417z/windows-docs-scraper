@@ -1,0 +1,7 @@
+typedef struct _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS {
+  NDIS_OBJECT_HEADER     Header;
+  NDIS_SRIOV_FUNCTION_ID VFId;
+  ULONG                  BlockId;
+  ULONG                  Length;
+  ULONG                  BufferOffset;
+} NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS;

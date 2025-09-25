@@ -1,0 +1,54 @@
+{
+  "UID": "NS:mpiodisk._DSM_QueryUniqueId",
+  "title": "_DSM_QueryUniqueId (mpiodisk.h)",
+  "description": "The DSM_QueryUniqueId structure is used to query the DSM for a unique identifier.",
+  "old-location": "storage\\dsm_queryuniqueid.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DSM_QueryUniqueId structure"
+  ],
+  "ms.keywords": "*PDSM_QueryUniqueId, DSM_QueryUniqueId, DSM_QueryUniqueId structure [Storage Devices], PDSM_QueryUniqueId, PDSM_QueryUniqueId structure pointer [Storage Devices], _DSM_QueryUniqueId, mpiodisk/DSM_QueryUniqueId, mpiodisk/PDSM_QueryUniqueId, storage.dsm_queryuniqueid, structs-scsibus_eb6e8cc6-4b6a-468f-a14c-7a11c827ef30.xml",
+  "req.header": "mpiodisk.h",
+  "req.include-header": "Mpiowmi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DSM_QueryUniqueId, *PDSM_QueryUniqueId",
+  "f1_keywords": [
+    "_DSM_QueryUniqueId",
+    "mpiodisk/_DSM_QueryUniqueId",
+    "PDSM_QueryUniqueId",
+    "mpiodisk/PDSM_QueryUniqueId",
+    "DSM_QueryUniqueId",
+    "mpiodisk/DSM_QueryUniqueId"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "mpiodisk.h"
+  ],
+  "api_name": [
+    "_DSM_QueryUniqueId",
+    "PDSM_QueryUniqueId",
+    "DSM_QueryUniqueId"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _MCAST_CLIENT_UID {
+  LPBYTE ClientUID;
+  DWORD  ClientUIDLength;
+} MCAST_CLIENT_UID, *LPMCAST_CLIENT_UID;

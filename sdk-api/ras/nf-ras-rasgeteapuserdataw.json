@@ -1,0 +1,62 @@
+{
+  "UID": "NF:ras.RasGetEapUserDataW",
+  "title": "RasGetEapUserDataW function (ras.h)",
+  "description": "Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry. (Unicode)",
+  "helpviewer_keywords": [
+    "RasGetEapUserData",
+    "RasGetEapUserData function [RAS]",
+    "RasGetEapUserDataW",
+    "_ras_rasgeteapuserdata",
+    "ras/RasGetEapUserData",
+    "ras/RasGetEapUserDataW",
+    "rras.rasgeteapuserdata"
+  ],
+  "old-location": "rras\\rasgeteapuserdata.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "6b1a1c73-28af-43ff-b79c-c796ddae219c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RasGetEapUserData, RasGetEapUserData function [RAS], RasGetEapUserDataA, RasGetEapUserDataW, _ras_rasgeteapuserdata, ras/RasGetEapUserData, ras/RasGetEapUserDataA, ras/RasGetEapUserDataW, rras.rasgeteapuserdata",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RasGetEapUserDataW (Unicode) and RasGetEapUserDataA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasGetEapUserDataW",
+    "ras/RasGetEapUserDataW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rasapi32.dll"
+  ],
+  "api_name": [
+    "RasGetEapUserData",
+    "RasGetEapUserDataA",
+    "RasGetEapUserDataW"
+  ]
+}

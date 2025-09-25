@@ -1,0 +1,5 @@
+typedef struct _DXGKARG_QUERYDPCAPS {
+  UINT NumRootPorts;
+  BYTE DPVersionMajor;
+  BYTE DPVersionMinor;
+} DXGKARG_QUERYDPCAPS, *PDXGKARG_QUERYDPCAPS;

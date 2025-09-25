@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pepfx._PEP_WORK",
+  "title": "_PEP_WORK (pepfx.h)",
+  "description": "The PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx).",
+  "old-location": "kernel\\pep_work.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PEP_WORK structure"
+  ],
+  "ms.keywords": "*PPEP_WORK, PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work, pepfx/PEP_WORK, pepfx/PPEP_WORK",
+  "req.header": "pepfx.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_WORK, *PPEP_WORK",
+  "f1_keywords": [
+    "_PEP_WORK",
+    "pepfx/_PEP_WORK",
+    "PPEP_WORK",
+    "pepfx/PPEP_WORK",
+    "PEP_WORK",
+    "pepfx/PEP_WORK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_WORK",
+    "PPEP_WORK",
+    "PEP_WORK"
+  ]
+}

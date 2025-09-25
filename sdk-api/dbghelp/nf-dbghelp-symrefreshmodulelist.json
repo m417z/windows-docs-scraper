@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dbghelp.SymRefreshModuleList",
+  "title": "SymRefreshModuleList function (dbghelp.h)",
+  "description": "Refreshes the module list for the process.",
+  "helpviewer_keywords": [
+    "SymRefreshModuleList",
+    "SymRefreshModuleList function",
+    "base.symrefreshmodulelist",
+    "dbghelp/SymRefreshModuleList"
+  ],
+  "old-location": "base\\symrefreshmodulelist.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "c1c934e5-4a0a-4cb5-bb12-d6743f034ccb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SymRefreshModuleList, SymRefreshModuleList function, base.symrefreshmodulelist, dbghelp/SymRefreshModuleList",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dbghelp.lib",
+  "req.dll": "Dbghelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 6.5 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SymRefreshModuleList",
+    "dbghelp/SymRefreshModuleList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dbghelp.dll"
+  ],
+  "api_name": [
+    "SymRefreshModuleList"
+  ]
+}

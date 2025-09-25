@@ -1,0 +1,63 @@
+{
+  "UID": "NF:pdh.PdhGetDefaultPerfObjectW",
+  "title": "PdhGetDefaultPerfObjectW function (pdh.h)",
+  "description": "Retrieves the name of the default object. This name can be used to set the initial object selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfObjectH function. (Unicode)",
+  "helpviewer_keywords": [
+    "PdhGetDefaultPerfObject",
+    "PdhGetDefaultPerfObject function [Perf]",
+    "PdhGetDefaultPerfObjectW",
+    "_win32_pdhgetdefaultperfobject",
+    "base.pdhgetdefaultperfobject",
+    "pdh/PdhGetDefaultPerfObject",
+    "pdh/PdhGetDefaultPerfObjectW",
+    "perf.pdhgetdefaultperfobject"
+  ],
+  "old-location": "perf\\pdhgetdefaultperfobject.htm",
+  "tech.root": "perf",
+  "ms.assetid": "7c6d4d82-8b60-4422-8108-8ac10f254278",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PdhGetDefaultPerfObject, PdhGetDefaultPerfObject function [Perf], PdhGetDefaultPerfObjectA, PdhGetDefaultPerfObjectW, _win32_pdhgetdefaultperfobject, base.pdhgetdefaultperfobject, pdh/PdhGetDefaultPerfObject, pdh/PdhGetDefaultPerfObjectA, pdh/PdhGetDefaultPerfObjectW, perf.pdhgetdefaultperfobject",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhGetDefaultPerfObjectW (Unicode) and PdhGetDefaultPerfObjectA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhGetDefaultPerfObjectW",
+    "pdh/PdhGetDefaultPerfObjectW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhGetDefaultPerfObject",
+    "PdhGetDefaultPerfObjectA",
+    "PdhGetDefaultPerfObjectW"
+  ]
+}

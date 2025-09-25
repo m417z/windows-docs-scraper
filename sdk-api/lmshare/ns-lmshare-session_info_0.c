@@ -1,0 +1,3 @@
+typedef struct _SESSION_INFO_0 {
+  LMSTR sesi0_cname;
+} SESSION_INFO_0, *PSESSION_INFO_0, *LPSESSION_INFO_0;

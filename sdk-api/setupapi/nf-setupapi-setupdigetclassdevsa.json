@@ -1,0 +1,58 @@
+{
+  "UID": "NF:setupapi.SetupDiGetClassDevsA",
+  "title": "SetupDiGetClassDevsA",
+  "description": "The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer. (ANSI)",
+  "tech.root": "setup",
+  "helpviewer_keywords": [
+    "SetupDiGetClassDevsA"
+  ],
+  "ms.date": "4/26/2019",
+  "ms.keywords": "SetupDiGetClassDevsA",
+  "targetos": "Windows",
+  "req.header": "setupapi.h",
+  "req.include-header": "SetupAPI.h",
+  "req.target-type": "DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupDiGetClassDevsW (Unicode)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "SetupAPI.lib",
+  "req.dll": "SetupAPI.dll",
+  "req.irql": null,
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiGetClassDevsA",
+    "setupapi/SetupDiGetClassDevsA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-setupapi-devobj-l1-1-0.dll",
+    "SetupAPI.dll",
+    "ext-ms-win-setupapi-classinstallers-l1-1-0.dll",
+    "Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll",
+    "Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll"
+  ],
+  "api_name": [
+    "SetupDiGetClassDevs",
+    "SetupDiGetClassDevsA"
+  ],
+  "req.apiset": "ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)"
+}

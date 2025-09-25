@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_MULTIPLANEOVERLAYDISABLED",
+  "title": "DXGKCB_MULTIPLANEOVERLAYDISABLED (d3dkmddi.h)",
+  "description": "This callback allows the kernel mode driver to indicate that the current multiplane overlay configuration is no longer supported on the specified VidPnSourceId.",
+  "old-location": "display\\dxgkcb_multiplaneoverlaydisabled.htm",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "DXGKCB_MULTIPLANEOVERLAYDISABLED callback function"
+  ],
+  "ms.keywords": "DXGKCB_MULTIPLANEOVERLAYDISABLED, DXGKCB_MULTIPLANEOVERLAYDISABLED callback, DXGKCB_MULTIPLANEOVERLAYDISABLED callback function [Display Devices], d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED, display.dxgkcb_multiplaneoverlaydisabled",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607 (WDDM 2.1)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_MULTIPLANEOVERLAYDISABLED",
+    "d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_MULTIPLANEOVERLAYDISABLED"
+  ]
+}

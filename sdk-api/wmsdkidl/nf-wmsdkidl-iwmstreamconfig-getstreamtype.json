@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMStreamConfig.GetStreamType",
+  "title": "IWMStreamConfig::GetStreamType (wmsdkidl.h)",
+  "description": "The GetStreamType method retrieves the major type of the stream (audio, video, or script).",
+  "helpviewer_keywords": [
+    "GetStreamType",
+    "GetStreamType method [windows Media Format]",
+    "GetStreamType method [windows Media Format]",
+    "IWMStreamConfig interface",
+    "IWMStreamConfig interface [windows Media Format]",
+    "GetStreamType method",
+    "IWMStreamConfig.GetStreamType",
+    "IWMStreamConfig::GetStreamType",
+    "IWMStreamConfigGetStreamType",
+    "wmformat.iwmstreamconfig_getstreamtype",
+    "wmsdkidl/IWMStreamConfig::GetStreamType"
+  ],
+  "old-location": "wmformat\\iwmstreamconfig_getstreamtype.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "a8dc8c37-da52-4d0f-b143-aaa45e6f77b8",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetStreamType, GetStreamType method [windows Media Format], GetStreamType method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamType method, IWMStreamConfig.GetStreamType, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMStreamConfig::GetStreamType",
+    "wmsdkidl/IWMStreamConfig::GetStreamType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMStreamConfig.GetStreamType"
+  ]
+}

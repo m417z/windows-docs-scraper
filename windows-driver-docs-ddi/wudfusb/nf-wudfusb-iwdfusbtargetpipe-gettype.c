@@ -1,0 +1,1 @@
+USBD_PIPE_TYPE GetType();

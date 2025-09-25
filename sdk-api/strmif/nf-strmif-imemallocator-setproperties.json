@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMemAllocator.SetProperties",
+  "title": "IMemAllocator::SetProperties (strmif.h)",
+  "description": "The SetProperties method specifies the number of buffers to allocate and the size of each buffer.",
+  "helpviewer_keywords": [
+    "IMemAllocator interface [DirectShow]",
+    "SetProperties method",
+    "IMemAllocator.SetProperties",
+    "IMemAllocator::SetProperties",
+    "IMemAllocatorSetProperties",
+    "SetProperties",
+    "SetProperties method [DirectShow]",
+    "SetProperties method [DirectShow]",
+    "IMemAllocator interface",
+    "dshow.imemallocator_setproperties",
+    "strmif/IMemAllocator::SetProperties"
+  ],
+  "old-location": "dshow\\imemallocator_setproperties.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "c68f2e2f-c70f-447d-804b-dfdfe8ae8a52",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMemAllocator interface [DirectShow],SetProperties method, IMemAllocator.SetProperties, IMemAllocator::SetProperties, IMemAllocatorSetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMemAllocator interface, dshow.imemallocator_setproperties, strmif/IMemAllocator::SetProperties",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMemAllocator::SetProperties",
+    "strmif/IMemAllocator::SetProperties"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMemAllocator.SetProperties"
+  ]
+}

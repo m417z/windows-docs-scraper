@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMCmOidRequest",
+  "title": "NdisMCmOidRequest function (ndis.h)",
+  "description": "The NdisMCmOidRequest function sends an OID request from a miniport call manager (MCM) driver to a CoNDIS client.",
+  "old-location": "netvista\\ndismcmoidrequest.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMCmOidRequest function"
+  ],
+  "ms.keywords": "NdisMCmOidRequest, NdisMCmOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, ndis/NdisMCmOidRequest, netvista.ndismcmoidrequest",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_MCM_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMCmOidRequest",
+    "ndis/NdisMCmOidRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMCmOidRequest"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef enum _KEYBOARD_SCAN_STATE {
+  Normal,
+  GotE0,
+  GotE1
+} KEYBOARD_SCAN_STATE, *PKEYBOARD_SCAN_STATE;

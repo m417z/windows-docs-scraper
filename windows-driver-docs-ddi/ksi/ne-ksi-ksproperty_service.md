@@ -1,0 +1,9 @@
+# KSPROPERTY_SERVICE enumeration
+
+## Description
+
+## Constants
+
+### `KSPROPERTY_SERVICE_BUILDCACHE`
+
+### `KSPROPERTY_SERVICE_MERIT`

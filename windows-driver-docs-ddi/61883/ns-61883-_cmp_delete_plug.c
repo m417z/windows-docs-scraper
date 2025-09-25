@@ -1,0 +1,3 @@
+typedef struct _CMP_DELETE_PLUG {
+  IN HANDLE hPlug;
+} CMP_DELETE_PLUG, *PCMP_DELETE_PLUG;

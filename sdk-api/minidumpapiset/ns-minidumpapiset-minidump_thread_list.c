@@ -1,0 +1,4 @@
+typedef struct _MINIDUMP_THREAD_LIST {
+  ULONG32         NumberOfThreads;
+  MINIDUMP_THREAD Threads[0];
+} MINIDUMP_THREAD_LIST, *PMINIDUMP_THREAD_LIST;

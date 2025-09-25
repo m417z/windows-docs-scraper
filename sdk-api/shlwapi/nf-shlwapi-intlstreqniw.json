@@ -1,0 +1,62 @@
+{
+  "UID": "NF:shlwapi.IntlStrEqNIW",
+  "title": "IntlStrEqNIW macro (shlwapi.h)",
+  "description": "Performs a case-insensitive comparison of a specified number of characters from the beginning of two localized strings. (Unicode)",
+  "helpviewer_keywords": [
+    "IntlStrEqNI",
+    "IntlStrEqNI function [Windows Shell]",
+    "IntlStrEqNIW",
+    "_win32_IntlStrEqNI",
+    "shell.IntlStrEqNI",
+    "shlwapi/IntlStrEqNI",
+    "shlwapi/IntlStrEqNIW"
+  ],
+  "old-location": "shell\\IntlStrEqNI.htm",
+  "tech.root": "shell",
+  "ms.assetid": "3d201726-b24a-4739-84fb-49b54d3f0f07",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IntlStrEqNI, IntlStrEqNI function [Windows Shell], IntlStrEqNIA, IntlStrEqNIW, _win32_IntlStrEqNI, shell.IntlStrEqNI, shlwapi/IntlStrEqNI, shlwapi/IntlStrEqNIA, shlwapi/IntlStrEqNIW",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "IntlStrEqNIW (Unicode) and IntlStrEqNIA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 5.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IntlStrEqNIW",
+    "shlwapi/IntlStrEqNIW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Shlwapi.dll"
+  ],
+  "api_name": [
+    "IntlStrEqNI",
+    "IntlStrEqNIA",
+    "IntlStrEqNIW"
+  ]
+}

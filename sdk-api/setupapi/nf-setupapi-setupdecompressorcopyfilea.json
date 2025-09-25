@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupDecompressOrCopyFileA",
+  "title": "SetupDecompressOrCopyFileA function (setupapi.h)",
+  "description": "The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupDecompressOrCopyFileA",
+    "setupapi/SetupDecompressOrCopyFileA"
+  ],
+  "old-location": "setup\\setupdecompressorcopyfile.htm",
+  "tech.root": "setup",
+  "ms.assetid": "6058567b-fa34-472b-91d8-3c5f9ee741b1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupDecompressOrCopyFileW (Unicode) and SetupDecompressOrCopyFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDecompressOrCopyFileA",
+    "setupapi/SetupDecompressOrCopyFileA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDecompressOrCopyFile",
+    "SetupDecompressOrCopyFileA",
+    "SetupDecompressOrCopyFileW"
+  ]
+}

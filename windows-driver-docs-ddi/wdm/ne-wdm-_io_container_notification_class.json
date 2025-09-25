@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdm._IO_CONTAINER_NOTIFICATION_CLASS",
+  "title": "_IO_CONTAINER_NOTIFICATION_CLASS (wdm.h)",
+  "description": "The IO_CONTAINER_NOTIFICATION_CLASS enumeration contains constants that indicate the classes of events for which a kernel-mode driver can register to receive notifications.",
+  "old-location": "kernel\\io_container_notification_class.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IO_CONTAINER_NOTIFICATION_CLASS enumeration"
+  ],
+  "ms.keywords": "IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerNotificationClass, IoSessionStateNotification, _IO_CONTAINER_NOTIFICATION_CLASS, kernel.io_container_notification_class, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, wdm/IO_CONTAINER_NOTIFICATION_CLASS, wdm/IoMaxContainerNotificationClass, wdm/IoSessionStateNotification",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in Windows 7 and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IO_CONTAINER_NOTIFICATION_CLASS",
+  "f1_keywords": [
+    "_IO_CONTAINER_NOTIFICATION_CLASS",
+    "wdm/_IO_CONTAINER_NOTIFICATION_CLASS",
+    "IO_CONTAINER_NOTIFICATION_CLASS",
+    "wdm/IO_CONTAINER_NOTIFICATION_CLASS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IO_CONTAINER_NOTIFICATION_CLASS",
+    "IO_CONTAINER_NOTIFICATION_CLASS"
+  ]
+}

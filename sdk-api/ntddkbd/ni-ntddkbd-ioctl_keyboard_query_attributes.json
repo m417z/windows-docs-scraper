@@ -1,0 +1,59 @@
+{
+  "UID": "NI:ntddkbd.IOCTL_KEYBOARD_QUERY_ATTRIBUTES",
+  "title": "IOCTL_KEYBOARD_QUERY_ATTRIBUTES (ntddkbd.h)",
+  "description": "The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.",
+  "helpviewer_keywords": [
+    "IOCTL_KEYBOARD_QUERY_ATTRIBUTES",
+    "IOCTL_KEYBOARD_QUERY_ATTRIBUTES control",
+    "IOCTL_KEYBOARD_QUERY_ATTRIBUTES control code [Human Input Devices]",
+    "hid.ioctl_keyboard_query_attributes2",
+    "i8042ref_51ea405d-a67d-4074-9e29-a307c9681196.xml",
+    "ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES"
+  ],
+  "old-location": "hid\\ioctl_keyboard_query_attributes2.htm",
+  "tech.root": "hid",
+  "ms.assetid": "ebf0f275-dbf6-4538-bd90-40ba47a8bfc0",
+  "ms.date": "08/06/2020",
+  "ms.keywords": "IOCTL_KEYBOARD_QUERY_ATTRIBUTES, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_keyboard_query_attributes2, i8042ref_51ea405d-a67d-4074-9e29-a307c9681196.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES",
+  "req.header": "ntddkbd.h",
+  "req.include-header": "Ntddkbd.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOCTL_KEYBOARD_QUERY_ATTRIBUTES",
+    "ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddkbd.h"
+  ],
+  "api_name": [
+    "IOCTL_KEYBOARD_QUERY_ATTRIBUTES"
+  ]
+}

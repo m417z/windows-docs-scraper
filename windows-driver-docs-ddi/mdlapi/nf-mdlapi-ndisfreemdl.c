@@ -1,0 +1,3 @@
+NDIS_EXPORTED_ROUTINE VOID NdisFreeMdl(
+  [in] MDL *Mdl
+);

@@ -1,0 +1,7 @@
+PFND3DWDDM2_0DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE Pfnd3dwddm20DdiCalcprivateshaderresourceviewsize;
+
+SIZE_T Pfnd3dwddm20DdiCalcprivateshaderresourceviewsize(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3DWDDM2_0DDIARG_CREATESHADERRESOURCEVIEW *unnamedParam2
+)
+{...}

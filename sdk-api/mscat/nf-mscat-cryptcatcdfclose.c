@@ -1,0 +1,3 @@
+BOOL CryptCATCDFClose(
+  [in] CRYPTCATCDF *pCDF
+);

@@ -1,0 +1,53 @@
+{
+  "UID": "NF:libloaderapi.EnumResourceNamesA",
+  "tech.root": "menurc",
+  "title": "EnumResourceNamesA",
+  "ms.date": "06/02/2021",
+  "targetos": "Windows",
+  "description": "Enumerates resources of a specified type within a binary module. (ANSI)",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "libloaderapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-libraryloader-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-LibraryLoader-L1-2-2.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "EnumResourceNamesA",
+    "EnumResourceNames"
+  ],
+  "f1_keywords": [
+    "EnumResourceNamesA",
+    "libloaderapi/EnumResourceNamesA",
+    "EnumResourceNames",
+    "libloaderapi/EnumResourceNames"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

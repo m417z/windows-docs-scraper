@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptDestroyKey",
+  "title": "BCryptDestroyKey function (bcrypt.h)",
+  "description": "Destroys a key.",
+  "helpviewer_keywords": [
+    "BCryptDestroyKey",
+    "BCryptDestroyKey function [Security]",
+    "bcrypt/BCryptDestroyKey",
+    "security.bcryptdestroykey_func"
+  ],
+  "old-location": "security\\bcryptdestroykey_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "98c02e55-6489-4901-8a7a-021baac41965",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptDestroyKey, BCryptDestroyKey function [Security], bcrypt/BCryptDestroyKey, security.bcryptdestroykey_func",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptDestroyKey",
+    "bcrypt/BCryptDestroyKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptDestroyKey"
+  ]
+}

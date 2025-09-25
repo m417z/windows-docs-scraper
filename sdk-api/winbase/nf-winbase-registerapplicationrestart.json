@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winbase.RegisterApplicationRestart",
+  "title": "RegisterApplicationRestart function (winbase.h)",
+  "description": "Registers the active instance of an application for restart.",
+  "helpviewer_keywords": [
+    "RESTART_NO_CRASH",
+    "RESTART_NO_HANG",
+    "RESTART_NO_PATCH",
+    "RESTART_NO_REBOOT",
+    "RegisterApplicationRestart",
+    "RegisterApplicationRestart function [Recovery]",
+    "base.registerapplicationrestart",
+    "recovery.registerapplicationrestart",
+    "winbase/RegisterApplicationRestart"
+  ],
+  "old-location": "recovery\\registerapplicationrestart.htm",
+  "tech.root": "Recovery",
+  "ms.assetid": "f4cd25b3-2aee-460f-9f9f-b45ecded094f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RESTART_NO_CRASH, RESTART_NO_HANG, RESTART_NO_PATCH, RESTART_NO_REBOOT, RegisterApplicationRestart, RegisterApplicationRestart function [Recovery], base.registerapplicationrestart, recovery.registerapplicationrestart, winbase/RegisterApplicationRestart",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegisterApplicationRestart",
+    "winbase/RegisterApplicationRestart"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "Kernel32.dll",
+    "ext-ms-win-kernel32-windowserrorreporting-l1-1-1.dll",
+    "werapiexthost.dll"
+  ],
+  "api_name": [
+    "RegisterApplicationRestart"
+  ]
+}

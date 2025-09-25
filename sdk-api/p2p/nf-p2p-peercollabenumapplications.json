@@ -1,0 +1,57 @@
+{
+  "UID": "NF:p2p.PeerCollabEnumApplications",
+  "title": "PeerCollabEnumApplications function (p2p.h)",
+  "description": "Returns the handle to an enumeration that contains the applications registered to a specific peer's endpoint(s).",
+  "helpviewer_keywords": [
+    "PeerCollabEnumApplications",
+    "PeerCollabEnumApplications function [Peer Networking]",
+    "p2p.peercollabenumapplications",
+    "p2p/PeerCollabEnumApplications"
+  ],
+  "old-location": "p2p\\peercollabenumapplications.htm",
+  "tech.root": "p2p",
+  "ms.assetid": "550cbd9d-5569-485e-897d-73d8bab8430a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PeerCollabEnumApplications, PeerCollabEnumApplications function [Peer Networking], p2p.peercollabenumapplications, p2p/PeerCollabEnumApplications",
+  "req.header": "p2p.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "P2P.lib",
+  "req.dll": "P2P.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PeerCollabEnumApplications",
+    "p2p/PeerCollabEnumApplications"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "P2P.dll"
+  ],
+  "api_name": [
+    "PeerCollabEnumApplications"
+  ]
+}

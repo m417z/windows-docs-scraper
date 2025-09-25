@@ -1,0 +1,50 @@
+{
+  "UID": "NF:fwpsk.FwpsAllocateDeepCloneNetBufferList0",
+  "tech.root": "netvista",
+  "title": "FwpsAllocateDeepCloneNetBufferList0",
+  "ms.date": "03/08/2024",
+  "targetos": "Windows",
+  "description": "The FwpsAllocateDeepCloneNetBufferList0 function allocates a NET_BUFFER_LIST structure that is a deep clone of an existing NET_BUFFER_LIST structure.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fwpsk.h",
+  "req.idl": null,
+  "req.include-header": "Fwpsk.h",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "Fwpkclnt.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "WIP build 25324",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpsk.h"
+  ],
+  "api_name": [
+    "FwpsAllocateDeepCloneNetBufferList0"
+  ],
+  "f1_keywords": [
+    "FwpsAllocateDeepCloneNetBufferList0",
+    "fwpsk/FwpsAllocateDeepCloneNetBufferList0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FwpsAllocateDeepCloneNetBufferList0"
+  ]
+}

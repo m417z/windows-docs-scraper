@@ -1,0 +1,7 @@
+IOMMU_UNREGISTER_INTERFACE_STATE_CHANGE_CALLBACK IommuUnregisterInterfaceStateChangeCallback;
+
+NTSTATUS IommuUnregisterInterfaceStateChangeCallback(
+  PIOMMU_INTERFACE_STATE_CHANGE_CALLBACK StateChangeCallback,
+  PIOMMU_DMA_DEVICE DmaDevice
+)
+{...}

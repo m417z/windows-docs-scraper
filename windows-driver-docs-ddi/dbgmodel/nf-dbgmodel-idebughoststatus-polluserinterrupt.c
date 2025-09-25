@@ -1,0 +1,3 @@
+HRESULT PollUserInterrupt(
+  bool *interruptRequested
+);

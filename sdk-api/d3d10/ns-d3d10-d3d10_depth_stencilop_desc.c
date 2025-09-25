@@ -1,0 +1,6 @@
+typedef struct D3D10_DEPTH_STENCILOP_DESC {
+  D3D10_STENCIL_OP      StencilFailOp;
+  D3D10_STENCIL_OP      StencilDepthFailOp;
+  D3D10_STENCIL_OP      StencilPassOp;
+  D3D10_COMPARISON_FUNC StencilFunc;
+} D3D10_DEPTH_STENCILOP_DESC;

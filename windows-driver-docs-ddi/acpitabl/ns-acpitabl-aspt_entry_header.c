@@ -1,0 +1,4 @@
+typedef struct _ASPT_ENTRY_HEADER {
+  UINT16 Type;
+  UINT16 Length;
+} ASPT_ENTRY_HEADER, *PASPT_ENTRY_HEADER;

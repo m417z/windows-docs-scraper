@@ -1,0 +1,4 @@
+typedef struct _DXGK_QUERYPAGETABLELEVELDESCIN {
+  WORD LevelIndex;
+  WORD PhysicalAdapterIndex;
+} DXGK_QUERYPAGETABLELEVELDESCIN;

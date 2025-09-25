@@ -1,0 +1,3 @@
+HRESULT GetToken(
+  LPWSTR *token
+);

@@ -1,0 +1,75 @@
+{
+  "UID": "NF:cscobj.IOfflineFilesCache.Unpin",
+  "title": "IOfflineFilesCache::Unpin (cscobj.h)",
+  "description": "Unpins files, directories, and network shared folders from the Offline Files cache.",
+  "helpviewer_keywords": [
+    "IOfflineFilesCache interface [Offline Files]",
+    "Unpin method",
+    "IOfflineFilesCache.Unpin",
+    "IOfflineFilesCache::Unpin",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_FILL",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_FORALL",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE",
+    "OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY",
+    "OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS",
+    "Unpin",
+    "Unpin method [Offline Files]",
+    "Unpin method [Offline Files]",
+    "IOfflineFilesCache interface",
+    "cscobj/IOfflineFilesCache::Unpin",
+    "of.iofflinefilescache_unpin"
+  ],
+  "old-location": "of\\iofflinefilescache_unpin.htm",
+  "tech.root": "of",
+  "ms.assetid": "32d81a75-8845-4bd5-a0ff-e056a06ac11c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IOfflineFilesCache interface [Offline Files],Unpin method, IOfflineFilesCache.Unpin, IOfflineFilesCache::Unpin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Unpin, Unpin method [Offline Files], Unpin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Unpin, of.iofflinefilescache_unpin",
+  "req.header": "cscobj.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "CscSvc.dll; CscObj.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOfflineFilesCache::Unpin",
+    "cscobj/IOfflineFilesCache::Unpin"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "CscSvc.dll",
+    "CscObj.dll"
+  ],
+  "api_name": [
+    "IOfflineFilesCache.Unpin"
+  ]
+}

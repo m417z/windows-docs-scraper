@@ -1,0 +1,6 @@
+typedef struct _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS {
+  DWORD                 Flags;
+  DWORD                 Reserved;
+  DWORDLONG             TokenOffset;
+  STORAGE_OFFLOAD_TOKEN Token;
+} DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS;

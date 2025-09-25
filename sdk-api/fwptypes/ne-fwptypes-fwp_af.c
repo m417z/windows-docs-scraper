@@ -1,0 +1,6 @@
+typedef enum FWP_NE_FAMILY_ {
+  FWP_AF_INET,
+  FWP_AF_INET6,
+  FWP_AF_ETHER,
+  FWP_AF_NONE
+} FWP_AF;

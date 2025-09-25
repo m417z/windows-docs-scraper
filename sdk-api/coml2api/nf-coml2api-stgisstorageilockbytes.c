@@ -1,0 +1,3 @@
+HRESULT StgIsStorageILockBytes(
+  ILockBytes *plkbyt
+);

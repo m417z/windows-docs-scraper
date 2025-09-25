@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateContextVirtual(
+  D3DKMT_CREATECONTEXTVIRTUAL *unnamedParam1
+);

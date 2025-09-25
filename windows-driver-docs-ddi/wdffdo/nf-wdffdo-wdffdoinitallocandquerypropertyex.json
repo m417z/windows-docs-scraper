@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdffdo.WdfFdoInitAllocAndQueryPropertyEx",
+  "title": "WdfFdoInitAllocAndQueryPropertyEx function (wdffdo.h)",
+  "description": "The WdfFdoInitAllocAndQueryPropertyEx method allocates a buffer and retrieves a specified device property.",
+  "old-location": "wdf\\wdffdoinitallocandquerypropertyex.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfFdoInitAllocAndQueryPropertyEx function"
+  ],
+  "ms.keywords": "WdfFdoInitAllocAndQueryPropertyEx, WdfFdoInitAllocAndQueryPropertyEx method, wdf.wdffdoinitallocandquerypropertyex, wdffdo/WdfFdoInitAllocAndQueryPropertyEx",
+  "req.header": "wdffdo.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.13,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfFdoInitAllocAndQueryPropertyEx",
+    "wdffdo/WdfFdoInitAllocAndQueryPropertyEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfFdoInitAllocAndQueryPropertyEx"
+  ]
+}

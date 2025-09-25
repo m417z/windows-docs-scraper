@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winbase.BackupEventLogA",
+  "title": "BackupEventLogA function (winbase.h)",
+  "description": "Saves the specified event log to a backup file. (ANSI)",
+  "helpviewer_keywords": [
+    "BackupEventLogA",
+    "winbase/BackupEventLogA"
+  ],
+  "old-location": "base\\backupeventlog.htm",
+  "tech.root": "base",
+  "ms.assetid": "5cfd5bad-4401-4abd-9e81-5f139e4ecf73",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BackupEventLog, BackupEventLog function, BackupEventLogA, BackupEventLogW, _win32_backupeventlog, base.backupeventlog, winbase/BackupEventLog, winbase/BackupEventLogA, winbase/BackupEventLogW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "BackupEventLogW (Unicode) and BackupEventLogA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BackupEventLogA",
+    "winbase/BackupEventLogA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll"
+  ],
+  "api_name": [
+    "BackupEventLog",
+    "BackupEventLogA",
+    "BackupEventLogW"
+  ],
+  "req.apiset": "ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)"
+}

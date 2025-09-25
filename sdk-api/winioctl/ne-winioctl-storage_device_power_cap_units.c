@@ -1,0 +1,4 @@
+typedef enum _STORAGE_DEVICE_POWER_CAP_UNITS {
+  StorageDevicePowerCapUnitsPercent,
+  StorageDevicePowerCapUnitsMilliwatts
+} STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS;

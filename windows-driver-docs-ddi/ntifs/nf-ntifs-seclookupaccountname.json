@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.SecLookupAccountName",
+  "title": "SecLookupAccountName function (ntifs.h)",
+  "description": "SecLookupAccountName accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.",
+  "old-location": "ifsk\\seclookupaccountname.htm",
+  "tech.root": "ifsk",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "SecLookupAccountName function"
+  ],
+  "ms.keywords": "SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ksecdd.lib",
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SecLookupAccountName",
+    "ntifs/SecLookupAccountName"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ksecdd.lib",
+    "Ksecdd.dll"
+  ],
+  "api_name": [
+    "SecLookupAccountName"
+  ]
+}

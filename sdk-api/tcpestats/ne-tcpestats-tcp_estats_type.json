@@ -1,0 +1,80 @@
+{
+  "UID": "NE:tcpestats.TCP_ESTATS_TYPE",
+  "title": "TCP_ESTATS_TYPE (tcpestats.h)",
+  "description": "Defines the type of extended statistics for a TCP connection that is requested or being set.",
+  "helpviewer_keywords": [
+    "*PTCP_ESTATS_TYPE",
+    "TCP_ESTATS_TYPE",
+    "TCP_ESTATS_TYPE enumeration [IP Helper]",
+    "TcpConnectionEstatsBandwidth",
+    "TcpConnectionEstatsData",
+    "TcpConnectionEstatsFineRtt",
+    "TcpConnectionEstatsMaximum",
+    "TcpConnectionEstatsObsRec",
+    "TcpConnectionEstatsPath",
+    "TcpConnectionEstatsRec",
+    "TcpConnectionEstatsSendBuff",
+    "TcpConnectionEstatsSndCong",
+    "TcpConnectionEstatsSynOpts",
+    "iphlp.tcp_estats_type",
+    "tcpestats/TCP_ESTATS_TYPE",
+    "tcpestats/TcpConnectionEstatsBandwidth",
+    "tcpestats/TcpConnectionEstatsData",
+    "tcpestats/TcpConnectionEstatsFineRtt",
+    "tcpestats/TcpConnectionEstatsMaximum",
+    "tcpestats/TcpConnectionEstatsObsRec",
+    "tcpestats/TcpConnectionEstatsPath",
+    "tcpestats/TcpConnectionEstatsRec",
+    "tcpestats/TcpConnectionEstatsSendBuff",
+    "tcpestats/TcpConnectionEstatsSndCong",
+    "tcpestats/TcpConnectionEstatsSynOpts"
+  ],
+  "old-location": "iphlp\\tcp_estats_type.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "96f55528-e74a-4360-a7a2-54ba19c3a284",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PTCP_ESTATS_TYPE, TCP_ESTATS_TYPE, TCP_ESTATS_TYPE enumeration [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsMaximum, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.tcp_estats_type, tcpestats/TCP_ESTATS_TYPE, tcpestats/TcpConnectionEstatsBandwidth, tcpestats/TcpConnectionEstatsData, tcpestats/TcpConnectionEstatsFineRtt, tcpestats/TcpConnectionEstatsMaximum, tcpestats/TcpConnectionEstatsObsRec, tcpestats/TcpConnectionEstatsPath, tcpestats/TcpConnectionEstatsRec, tcpestats/TcpConnectionEstatsSendBuff, tcpestats/TcpConnectionEstatsSndCong, tcpestats/TcpConnectionEstatsSynOpts",
+  "req.header": "tcpestats.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PTCP_ESTATS_TYPE",
+    "tcpestats/PTCP_ESTATS_TYPE",
+    "TCP_ESTATS_TYPE",
+    "tcpestats/TCP_ESTATS_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Tcpestats.h"
+  ],
+  "api_name": [
+    "TCP_ESTATS_TYPE"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:portabledeviceconnectapi.IPortableDeviceConnector.SetProperty",
+  "title": "IPortableDeviceConnector::SetProperty (portabledeviceconnectapi.h)",
+  "description": "Sets the given property on the MTP/Bluetooth Bus Enumerator device.",
+  "helpviewer_keywords": [
+    "IPortableDeviceConnector interface [Windows Portable Devices SDK]",
+    "SetProperty method",
+    "IPortableDeviceConnector.SetProperty",
+    "IPortableDeviceConnector::SetProperty",
+    "SetProperty",
+    "SetProperty method [Windows Portable Devices SDK]",
+    "SetProperty method [Windows Portable Devices SDK]",
+    "IPortableDeviceConnector interface",
+    "devpkey/IPortableDeviceConnector::SetProperty",
+    "portabledeviceconnectapi/IPortableDeviceConnector::SetProperty",
+    "wpdsdk.iportabledeviceconnector_setproperty"
+  ],
+  "old-location": "wpdsdk\\iportabledeviceconnector_setproperty.htm",
+  "tech.root": "wpdsdk",
+  "ms.assetid": "045268e1-3e91-41a9-a14e-eb20b8a707e4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty",
+  "req.header": "portabledeviceconnectapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Portabledeviceconnectapi.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "PortableDeviceGuids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPortableDeviceConnector::SetProperty",
+    "portabledeviceconnectapi/IPortableDeviceConnector::SetProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "PortableDeviceGuids.lib",
+    "PortableDeviceGuids.dll"
+  ],
+  "api_name": [
+    "IPortableDeviceConnector.SetProperty"
+  ]
+}

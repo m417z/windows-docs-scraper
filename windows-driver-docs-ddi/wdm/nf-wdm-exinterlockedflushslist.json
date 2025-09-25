@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ExInterlockedFlushSList~r1",
+  "title": "ExInterlockedFlushSList function (wdm.h)",
+  "description": "The ExInterlockedFlushSList routine atomically removes all entries from a sequenced singly linked list.",
+  "old-location": "kernel\\exinterlockedflushslist.htm",
+  "tech.root": "kernel",
+  "ms.date": "12/07/2021",
+  "keywords": [
+    "ExInterlockedFlushSList macro"
+  ],
+  "ms.keywords": "ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExInterlockedFlushSList",
+    "wdm/ExInterlockedFlushSList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExInterlockedFlushSList"
+  ]
+}

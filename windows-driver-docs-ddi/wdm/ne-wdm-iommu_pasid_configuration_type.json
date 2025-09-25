@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdm._IOMMU_PASID_CONFIGURATION_TYPE",
+  "tech.root": "kernel",
+  "title": "IOMMU_PASID_CONFIGURATION_TYPE",
+  "ms.date": "08/07/2025",
+  "targetos": "Windows",
+  "description": "Describes the PASID support configuration types that can be enabled for an IOMMU device.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "IOMMU_PASID_CONFIGURATION_TYPE, *PIOMMU_PASID_CONFIGURATION_TYPE",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "ai-usage": "ai-assisted",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_PASID_CONFIGURATION_TYPE",
+    "PIOMMU_PASID_CONFIGURATION_TYPE",
+    "IOMMU_PASID_CONFIGURATION_TYPE"
+  ],
+  "f1_keywords": [
+    "_IOMMU_PASID_CONFIGURATION_TYPE",
+    "wdm/_IOMMU_PASID_CONFIGURATION_TYPE",
+    "PIOMMU_PASID_CONFIGURATION_TYPE",
+    "wdm/PIOMMU_PASID_CONFIGURATION_TYPE",
+    "IOMMU_PASID_CONFIGURATION_TYPE",
+    "wdm/IOMMU_PASID_CONFIGURATION_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_IOMMU_PASID_CONFIGURATION_TYPE"
+  ]
+}

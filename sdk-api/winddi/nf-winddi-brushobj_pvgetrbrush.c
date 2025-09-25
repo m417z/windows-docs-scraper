@@ -1,0 +1,3 @@
+ENGAPI PVOID BRUSHOBJ_pvGetRbrush(
+  BRUSHOBJ *pbo
+);

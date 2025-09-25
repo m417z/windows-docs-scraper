@@ -1,0 +1,3 @@
+HRESULT SetProcessorIndex(
+  ULONG ProcessorIndex
+);

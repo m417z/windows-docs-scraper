@@ -1,0 +1,6 @@
+typedef struct _BUS_INTERFACE_SWENUM {
+  INTERFACE                  Interface;
+  PFNREFERENCEDEVICEOBJECT   ReferenceDeviceObject;
+  PFNDEREFERENCEDEVICEOBJECT DereferenceDeviceObject;
+  PFNQUERYREFERENCESTRING    QueryReferenceString;
+} BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM;

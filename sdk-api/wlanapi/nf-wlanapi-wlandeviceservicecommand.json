@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wlanapi.WlanDeviceServiceCommand",
+  "title": "WlanDeviceServiceCommand",
+  "description": "Allows an OEM or IHV component to communicate with a device service on a particular wireless LAN interface.",
+  "tech.root": "nwifi",
+  "helpviewer_keywords": [
+    "WlanDeviceServiceCommand"
+  ],
+  "ms.date": "01/07/2019",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wlanapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wlanapi.dll"
+  ],
+  "api_name": [
+    "WlanDeviceServiceCommand"
+  ],
+  "f1_keywords": [
+    "WlanDeviceServiceCommand",
+    "wlanapi/WlanDeviceServiceCommand"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,4 @@
+void D3D12_MAKE_COARSE_SHADING_RATE(
+  x,
+  y
+);

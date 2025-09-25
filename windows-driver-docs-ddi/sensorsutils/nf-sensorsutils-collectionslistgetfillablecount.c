@@ -1,0 +1,3 @@
+ULONG CollectionsListGetFillableCount(
+  ULONG BufferSizeBytes
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fwpsk.FwpsCalloutRegister0",
+  "title": "FwpsCalloutRegister0 function (fwpsk.h)",
+  "description": "The FwpsCalloutRegister0 function registers a callout with the filter engine.Note  FwpsCalloutRegister0 is the specific version of FwpsCalloutRegister used in Windows Vista and later.",
+  "old-location": "netvista\\fwpscalloutregister0.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "FwpsCalloutRegister0 function"
+  ],
+  "ms.keywords": "FwpsCalloutRegister0, FwpsCalloutRegister0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister0, netvista.fwpscalloutregister0, wfp_ref_2_funct_3_fwps_C_a1902e8d-fa04-4d2c-ab39-04d313d01833.xml",
+  "req.header": "fwpsk.h",
+  "req.include-header": "Fwpsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fwpkclnt.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FwpsCalloutRegister0",
+    "fwpsk/FwpsCalloutRegister0"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Fwpkclnt.lib",
+    "Fwpkclnt.dll"
+  ],
+  "api_name": [
+    "FwpsCalloutRegister0"
+  ]
+}

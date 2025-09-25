@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpSetSubnetInfo",
+  "title": "DhcpSetSubnetInfo function (dhcpsapi.h)",
+  "description": "The DhcpSetSubnetInfo function sets information about a subnet defined on the DHCP server.",
+  "helpviewer_keywords": [
+    "DhcpSetSubnetInfo",
+    "DhcpSetSubnetInfo function [DHCP]",
+    "dhcp.dhcpsetsubnetinfo",
+    "dhcpsapi/DhcpSetSubnetInfo"
+  ],
+  "old-location": "dhcp\\dhcpsetsubnetinfo.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "a7978da5-945f-4893-83a8-5986c55703a5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpSetSubnetInfo, DhcpSetSubnetInfo function [DHCP], dhcp.dhcpsetsubnetinfo, dhcpsapi/DhcpSetSubnetInfo",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpSetSubnetInfo",
+    "dhcpsapi/DhcpSetSubnetInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpSetSubnetInfo"
+  ]
+}

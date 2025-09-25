@@ -1,0 +1,62 @@
+{
+  "UID": "NF:resapi.ResUtilSetDwordValue",
+  "title": "ResUtilSetDwordValue function (resapi.h)",
+  "description": "Sets a numeric value in the cluster database. The PRESUTIL_SET_DWORD_VALUE type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_SET_DWORD_VALUE",
+    "PRESUTIL_SET_DWORD_VALUE function [Failover Cluster]",
+    "ResUtilSetDwordValue",
+    "ResUtilSetDwordValue function [Failover Cluster]",
+    "_wolf_resutilsetdwordvalue",
+    "mscs.resutilsetdwordvalue",
+    "resapi/PRESUTIL_SET_DWORD_VALUE",
+    "resapi/ResUtilSetDwordValue"
+  ],
+  "old-location": "mscs\\resutilsetdwordvalue.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "e8b4393b-84f7-4440-92b5-fd7fa2be96a2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_SET_DWORD_VALUE, PRESUTIL_SET_DWORD_VALUE function [Failover Cluster], ResUtilSetDwordValue, ResUtilSetDwordValue function [Failover Cluster], _wolf_resutilsetdwordvalue, mscs.resutilsetdwordvalue, resapi/PRESUTIL_SET_DWORD_VALUE, resapi/ResUtilSetDwordValue",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilSetDwordValue",
+    "resapi/ResUtilSetDwordValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilSetDwordValue"
+  ]
+}

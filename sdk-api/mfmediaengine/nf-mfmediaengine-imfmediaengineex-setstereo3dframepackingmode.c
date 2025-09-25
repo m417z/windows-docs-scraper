@@ -1,0 +1,3 @@
+HRESULT SetStereo3DFramePackingMode(
+  [in] MF_MEDIA_ENGINE_S3D_PACKING_MODE packMode
+);

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:dxgi.IDXGISurface1.ReleaseDC",
+  "title": "IDXGISurface1::ReleaseDC (dxgi.h)",
+  "description": "Releases the GDI device context (DC) that is associated with the current surface and allows you to use Direct3D to render.",
+  "helpviewer_keywords": [
+    "07f8f820-f0ad-bbd6-94a3-383d2e895e69",
+    "IDXGISurface1 interface [DXGI]",
+    "ReleaseDC method",
+    "IDXGISurface1.ReleaseDC",
+    "IDXGISurface1::ReleaseDC",
+    "ReleaseDC",
+    "ReleaseDC method [DXGI]",
+    "ReleaseDC method [DXGI]",
+    "IDXGISurface1 interface",
+    "direct3ddxgi.idxgisurface1_releasedc",
+    "dxgi/IDXGISurface1::ReleaseDC"
+  ],
+  "old-location": "direct3ddxgi\\idxgisurface1_releasedc.htm",
+  "tech.root": "direct3ddxgi",
+  "ms.assetid": "2c3a0cf3-c970-4908-a960-ba261756bd5f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "07f8f820-f0ad-bbd6-94a3-383d2e895e69, IDXGISurface1 interface [DXGI],ReleaseDC method, IDXGISurface1.ReleaseDC, IDXGISurface1::ReleaseDC, ReleaseDC, ReleaseDC method [DXGI], ReleaseDC method [DXGI],IDXGISurface1 interface, direct3ddxgi.idxgisurface1_releasedc, dxgi/IDXGISurface1::ReleaseDC",
+  "req.header": "dxgi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "DXGI.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDXGISurface1::ReleaseDC",
+    "dxgi/IDXGISurface1::ReleaseDC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "DXGI.lib",
+    "DXGI.dll"
+  ],
+  "api_name": [
+    "IDXGISurface1.ReleaseDC"
+  ]
+}

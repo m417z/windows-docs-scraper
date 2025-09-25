@@ -1,0 +1,63 @@
+{
+  "UID": "NF:pdh.PdhRemoveCounter",
+  "title": "PdhRemoveCounter function (pdh.h)",
+  "description": "Removes a counter from a query.",
+  "helpviewer_keywords": [
+    "PdhRemoveCounter",
+    "PdhRemoveCounter function [Perf]",
+    "_win32_pdhremovecounter",
+    "base.pdhremovecounter",
+    "pdh/PdhRemoveCounter",
+    "perf.pdhremovecounter"
+  ],
+  "old-location": "perf\\pdhremovecounter.htm",
+  "tech.root": "perf",
+  "ms.assetid": "adf9c7bd-47d6-489a-88fc-954fdf127ce8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhRemoveCounter",
+    "pdh/PdhRemoveCounter"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-eventing-pdh-l1-1-3.dll",
+    "ext-ms-win-eventing-pdh-l1-1-2.dll",
+    "ext-ms-win-eventing-pdh-l1-1-1.dll",
+    "ext-ms-win-eventing-pdh-l1-1-0.dll",
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhRemoveCounter"
+  ]
+}

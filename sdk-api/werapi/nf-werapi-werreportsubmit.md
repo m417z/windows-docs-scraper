@@ -1,0 +1,81 @@
+# WerReportSubmit function
+
+## Description
+
+Submits the specified [Windows Error Reporting](https://learn.microsoft.com/windows/win32/api/_wer/) (WER) report.
+
+## Parameters
+
+### `hReportHandle` [in]
+
+A handle to the report. This handle is returned by the [**WerReportCreate**](https://learn.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
+
+### `consent` [in]
+
+The consent status. This parameter can be one of the following values from the [**WER_CONSENT**](https://learn.microsoft.com/windows/win32/api/werapi/ne-werapi-wer_consent) enumeration type.
+
+|Value|Meaning|
+|--- |--- |
+|**WerConsentAlwaysPrompt**<br>4|The user is always asked to submit the request.|
+|**WerConsentApproved**<br>2|The user has approved the submission request.|
+|**WerConsentDenied**<br>3|The user has denied the submission request.|
+|**WerConsentMax**<br>5|The maximum value for the **WER_CONSENT** enumeration type.|
+|**WerConsentNotAsked**<br>1|The user was not asked for consent.|
+
+### `dwFlags` [in]
+
+This parameter can be one or more of the following values.
+
+|Value|Meaning|
+|--- |--- |
+|**WER_SUBMIT_ADD_REGISTERED_DATA**<br>16|Add the data registered by [WerSetFlags](https://learn.microsoft.com/windows/desktop/api/werapi/nf-werapi-wersetflags), [WerRegisterFile](https://learn.microsoft.com/windows/win32/api/werapi/nf-werapi-werregisterfile), and [WerRegisterMemoryBlock](https://learn.microsoft.com/windows/win32/api/werapi/nf-werapi-werregistermemoryblock) to the report.|
+|**WER_SUBMIT_HONOR_RECOVERY**<br>1|Honor any recovery registration for the application. For more information, see [RegisterApplicationRecoveryCallback](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-registerapplicationrecoverycallback).|
+|**WER_SUBMIT_HONOR_RESTART**<br>2|Honor any restart registration for the application. For more information, see [RegisterApplicationRestart](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-registerapplicationrecoverycallback).|
+|**WER_SUBMIT_NO_ARCHIVE**<br>256|Do not archive the report.|
+|**WER_SUBMIT_NO_CLOSE_UI**<br>64|Do not display the close dialog box for the critical report.|
+|**WER_SUBMIT_NO_QUEUE**<br>128|Do not queue the report. If there is adequate user consent the report is sent to Microsoft immediately; otherwise, the report is discarded. You may use this flag for non-critical reports.<br><br>The report is discarded for any action that would require the report to be queued. For example, if the computer is offline when you submit the report, the report is discarded. Also, if there is insufficient consent (for example, consent was required for the data portion of the report), the report is discarded.|
+|**WER_SUBMIT_OUTOFPROCESS**<br>32|Spawn another process to submit the report. The calling thread is blocked until the function returns.<br><br>**NOTE:** Window messages will be pumped so that UI activity on the calling thread is not blocked.|
+|**WER_SUBMIT_OUTOFPROCESS_ASYNC**<br>1024|Spawn another process to submit the report and return from this function call immediately. Note that the contents of the *pSubmitResult* parameter are undefined and there is no way to query when the reporting completes or the completion status.|
+|**WER_SUBMIT_QUEUE**<br>4|Add the report to the WER queue without notifying the user. The report is queued only—reporting (sending the report to Microsoft) occurs later based on the user's consent level.|
+|**WER_SUBMIT_SHOW_DEBUG**<br>8|Show the debug button.|
+|**WER_SUBMIT_START_MINIMIZED**<br>512|The initial UI is minimized and flashing.|
+|**WER_SUBMIT_BYPASS_DATA_THROTTLING**<br>2048|Bypass data throttling for the report.<br><br>**Windows 7 or earlier:** This parameter is not available.|
+|**WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY**<br>4096|Archive only the parameters; the cab is discarded. This flag overrides the [ConfigureArchive](https://learn.microsoft.com/windows/desktop/wer/wer-settings) WER setting.<br><br>**Windows 7 or earlier:** This parameter is not available.|
+|**WER_SUBMIT_REPORT_MACHINE_ID**<br>8192|Always send the unique, 128-bit computer identifier with the report, regardless of the consent with which the report was submitted. See Remarks for additional information.<br><br>**Windows 7 or earlier:** This parameter is not available.|
+
+### `pSubmitResult` [out, optional]
+
+The result of the submission. This parameter can be one of the following values from the **WER_SUBMIT_RESULT** enumeration type.
+
+|Value|Meaning|
+|--- |--- |
+|**WerCustomAction**<br>9|Error reporting can be customized.|
+|**WerDisabled**<br>5|Error reporting was disabled.|
+|**WerDisabledQueue**<br>7|Queuing was disabled.|
+|**WerReportAsync**<br>8|The report was asynchronous.|
+|**WerReportCancelled**<br>6|The report was canceled.|
+|**WerReportDebug**<br>3|The Debug button was clicked.|
+|**WerReportFailed**<br>4|The report submission failed.|
+|**WerReportQueued**<br>1|The report was queued.|
+|**WerReportUploaded**<br>2|The report was uploaded.|
+
+## Return value
+
+This function returns **S_OK** on success or an error code on failure.
+
+## Remarks
+
+After the application calls this function, WER collects the specified data. If the *consent* parameter is WerConsentApproved, it submits the report to Microsoft. If *consent* is WerConsentNotAsked, WER displays the consent dialog box. To determine the submission status, check the *pSubmitResult* parameter.
+
+In the event of a critical application event, applications that have [registered for restart](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart) will be restarted.
+
+The computer identifier is sent with the report when:
+
+- The consent used to send the report does not come from the application. For example, the report was submitted with consent status set to WerConsentNotAsked.
+- The report was submitted with the WER_SUBMIT_REPORT_MACHINE_ID flag set.
+
+To view the reports submitted by your application, go to Windows Quality Online Services.
+
+## See also
+
+[Application Recovery and Restart](https://learn.microsoft.com/windows/desktop/wsw/portal), [WerReportCreate](https://learn.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate), [Windows Error Reporting](https://learn.microsoft.com/windows/desktop/wer)

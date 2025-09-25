@@ -1,0 +1,5 @@
+typedef struct DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO {
+  DXGI_DDI_HRESOURCE                     hResource;
+  UINT                                   SubResourceIndex;
+  DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
+} DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO;

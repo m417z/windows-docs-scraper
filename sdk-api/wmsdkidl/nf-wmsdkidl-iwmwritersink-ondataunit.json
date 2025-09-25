@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterSink.OnDataUnit",
+  "title": "IWMWriterSink::OnDataUnit (wmsdkidl.h)",
+  "description": "The OnDataUnit method is called by the writer when a data unit is ready for the sink. How your application handles the data unit depends upon the destination of the content.",
+  "helpviewer_keywords": [
+    "IWMWriterSink interface [windows Media Format]",
+    "OnDataUnit method",
+    "IWMWriterSink.OnDataUnit",
+    "IWMWriterSink::OnDataUnit",
+    "IWMWriterSinkOnDataUnit",
+    "OnDataUnit",
+    "OnDataUnit method [windows Media Format]",
+    "OnDataUnit method [windows Media Format]",
+    "IWMWriterSink interface",
+    "wmformat.iwmwritersink_ondataunit",
+    "wmsdkidl/IWMWriterSink::OnDataUnit"
+  ],
+  "old-location": "wmformat\\iwmwritersink_ondataunit.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "32e52cdb-e7cb-4caf-a202-0d2ff746017c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMWriterSink interface [windows Media Format],OnDataUnit method, IWMWriterSink.OnDataUnit, IWMWriterSink::OnDataUnit, IWMWriterSinkOnDataUnit, OnDataUnit, OnDataUnit method [windows Media Format], OnDataUnit method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_ondataunit, wmsdkidl/IWMWriterSink::OnDataUnit",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterSink::OnDataUnit",
+    "wmsdkidl/IWMWriterSink::OnDataUnit"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterSink.OnDataUnit"
+  ]
+}

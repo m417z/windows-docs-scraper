@@ -1,0 +1,66 @@
+{
+  "UID": "NF:clusapi.CreateClusterNotifyPortV2",
+  "title": "CreateClusterNotifyPortV2 function (clusapi.h)",
+  "description": "Creates or modifies a notification port. For information about notification ports, see Receiving Cluster Events.",
+  "helpviewer_keywords": [
+    "CreateClusterNotifyPortV2",
+    "CreateClusterNotifyPortV2 function [Failover Cluster]",
+    "PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2",
+    "PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 function [Failover Cluster]",
+    "clusapi/CreateClusterNotifyPortV2",
+    "clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2",
+    "mscs.createclusternotifyportv2"
+  ],
+  "old-location": "mscs\\createclusternotifyportv2.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateClusterNotifyPortV2, CreateClusterNotifyPortV2 function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 function [Failover Cluster], clusapi/CreateClusterNotifyPortV2, clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateClusterNotifyPortV2",
+    "clusapi/CreateClusterNotifyPortV2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "CreateClusterNotifyPortV2"
+  ]
+}

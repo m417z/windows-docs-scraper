@@ -1,0 +1,5 @@
+typedef struct _CERTIFICATE_BLOB {
+  DWORD dwCertEncodingType;
+  DWORD cbData;
+  PBYTE pbData;
+} EFS_CERTIFICATE_BLOB, *PEFS_CERTIFICATE_BLOB;

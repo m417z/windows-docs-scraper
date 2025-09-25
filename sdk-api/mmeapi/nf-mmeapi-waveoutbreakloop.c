@@ -1,0 +1,3 @@
+MMRESULT waveOutBreakLoop(
+  HWAVEOUT hwo
+);

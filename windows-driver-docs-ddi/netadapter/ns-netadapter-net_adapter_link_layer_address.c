@@ -1,0 +1,4 @@
+typedef struct _NET_ADAPTER_LINK_LAYER_ADDRESS {
+  USHORT Length;
+  UCHAR  Address[32];
+} NET_ADAPTER_LINK_LAYER_ADDRESS;

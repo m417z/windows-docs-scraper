@@ -1,0 +1,23 @@
+# D3D10_FILL_MODE enumeration
+
+## Description
+
+Determines the fill mode to use when rendering triangles.
+
+## Constants
+
+### `D3D10_FILL_WIREFRAME:2`
+
+Draw lines connecting the vertices. [Adjacent vertices](https://learn.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies) are not drawn.
+
+### `D3D10_FILL_SOLID:3`
+
+Fill the triangles formed by the vertices. Adjacent vertices are not drawn.
+
+## Remarks
+
+This enumeration is part of a rasterizer-state object description (see [D3D10_RASTERIZER_DESC](https://learn.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc)).
+
+## See also
+
+[Core Enumerations](https://learn.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums)

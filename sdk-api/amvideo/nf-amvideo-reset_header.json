@@ -1,0 +1,57 @@
+{
+  "UID": "NF:amvideo.RESET_HEADER",
+  "title": "RESET_HEADER macro (amvideo.h)",
+  "description": "The RESET_HEADER macro fills a VIDEOINFOHEADER with zeroes. You can also use this macro to clear just the VIDEOINFOHEADER portion of a VIDEOINFO structure.",
+  "helpviewer_keywords": [
+    "RESET_HEADER",
+    "RESET_HEADER macro [DirectShow]",
+    "amvideo/RESET_HEADER",
+    "dshow.reset_header"
+  ],
+  "old-location": "dshow\\reset_header.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "bd976ff0-fbfb-4911-bee6-d53044eb3d23",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "RESET_HEADER, RESET_HEADER macro [DirectShow], amvideo/RESET_HEADER, dshow.reset_header",
+  "req.header": "amvideo.h",
+  "req.include-header": "Streams.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RESET_HEADER",
+    "amvideo/RESET_HEADER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Amvideo.h"
+  ],
+  "api_name": [
+    "RESET_HEADER"
+  ]
+}

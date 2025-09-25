@@ -1,0 +1,1 @@
+PCM_RESOURCE_LIST TranslatedList();

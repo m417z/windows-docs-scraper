@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdftimer.EVT_WDF_TIMER",
+  "title": "EVT_WDF_TIMER (wdftimer.h)",
+  "description": "The EvtTimerFunc event callback function is called when a specified time period has elapsed.",
+  "old-location": "wdf\\evttimerfunc.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_TIMER callback function"
+  ],
+  "ms.keywords": "DFTimerObjectRef_adf533a0-e5e3-4036-b1fd-5071d010adb5.xml, EVT_WDF_TIMER, EVT_WDF_TIMER callback, EvtTimerFunc, EvtTimerFunc callback function, kmdf.evttimerfunc, wdf.evttimerfunc, wdftimer/EvtTimerFunc",
+  "req.header": "wdftimer.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_TIMER",
+    "wdftimer/EVT_WDF_TIMER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdftimer.h"
+  ],
+  "api_name": [
+    "EVT_WDF_TIMER"
+  ]
+}

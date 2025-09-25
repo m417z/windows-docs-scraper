@@ -1,0 +1,6 @@
+typedef enum _TRANSACTIONMANAGER_INFORMATION_CLASS {
+  TransactionManagerBasicInformation,
+  TransactionManagerLogInformation,
+  TransactionManagerLogPathInformation,
+  TransactionManagerRecoveryInformation
+} TRANSACTIONMANAGER_INFORMATION_CLASS;

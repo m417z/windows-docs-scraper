@@ -1,0 +1,63 @@
+{
+  "UID": "NF:winbase.GetApplicationRecoveryCallback",
+  "title": "GetApplicationRecoveryCallback function (winbase.h)",
+  "description": "Retrieves a pointer to the callback routine registered for the specified process. The address returned is in the virtual address space of the process.",
+  "helpviewer_keywords": [
+    "GetApplicationRecoveryCallback",
+    "GetApplicationRecoveryCallback function [Recovery]",
+    "base.getapplicationrecoverycallback",
+    "recovery.getapplicationrecoverycallback",
+    "winbase/GetApplicationRecoveryCallback"
+  ],
+  "old-location": "recovery\\getapplicationrecoverycallback.htm",
+  "tech.root": "Recovery",
+  "ms.assetid": "974147de-1249-4062-a492-4db9646043c6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetApplicationRecoveryCallback, GetApplicationRecoveryCallback function [Recovery], base.getapplicationrecoverycallback, recovery.getapplicationrecoverycallback, winbase/GetApplicationRecoveryCallback",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetApplicationRecoveryCallback",
+    "winbase/GetApplicationRecoveryCallback"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "GetApplicationRecoveryCallback"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:clusapi.ClusterSharedVolumeSetSnapshotState",
+  "title": "ClusterSharedVolumeSetSnapshotState function (clusapi.h)",
+  "description": "Updates the state of a snapshot of a cluster shared volume.",
+  "helpviewer_keywords": [
+    "ClusterSharedVolumeSetSnapshotState",
+    "ClusterSharedVolumeSetSnapshotState function [Failover Cluster]",
+    "PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE",
+    "PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE function [Failover Cluster]",
+    "clusapi/ClusterSharedVolumeSetSnapshotState",
+    "clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE",
+    "mscs.clustersharedvolumesetsnapshotstate"
+  ],
+  "old-location": "mscs\\clustersharedvolumesetsnapshotstate.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "B264CF0E-33FD-44F9-B91E-2F90C35D09AC",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterSharedVolumeSetSnapshotState, ClusterSharedVolumeSetSnapshotState function [Failover Cluster], PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE function [Failover Cluster], clusapi/ClusterSharedVolumeSetSnapshotState, clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, mscs.clustersharedvolumesetsnapshotstate",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterSharedVolumeSetSnapshotState",
+    "clusapi/ClusterSharedVolumeSetSnapshotState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll"
+  ],
+  "api_name": [
+    "ClusterSharedVolumeSetSnapshotState"
+  ]
+}

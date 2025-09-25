@@ -1,0 +1,5 @@
+typedef enum {
+  WS_IP_VERSION_4 = 1,
+  WS_IP_VERSION_6 = 2,
+  WS_IP_VERSION_AUTO = 3
+} WS_IP_VERSION;

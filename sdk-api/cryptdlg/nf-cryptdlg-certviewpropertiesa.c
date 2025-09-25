@@ -1,0 +1,3 @@
+CRYPTDLGAPI BOOL CertViewPropertiesA(
+  [in] PCERT_VIEWPROPERTIES_STRUCT_A pCertViewInfo
+);

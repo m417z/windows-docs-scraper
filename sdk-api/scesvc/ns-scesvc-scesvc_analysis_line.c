@@ -1,0 +1,5 @@
+typedef struct _SCESVC_ANALYSIS_LINE_ {
+  LPTSTR Key;
+  PBYTE  Value;
+  DWORD  ValueLen;
+} SCESVC_ANALYSIS_LINE, *PSCESVC_ANALYSIS_LINE;

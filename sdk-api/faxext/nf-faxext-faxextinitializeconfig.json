@@ -1,0 +1,58 @@
+{
+  "UID": "NF:faxext.FaxExtInitializeConfig",
+  "title": "FaxExtInitializeConfig function (faxext.h)",
+  "description": "The fax service calls the FaxExtInitializeConfig function to initialize the fax extension DLL. The service calls this function before it calls any other fax extension initialization function.",
+  "helpviewer_keywords": [
+    "FaxExtInitializeConfig",
+    "FaxExtInitializeConfig function [Fax Service]",
+    "_mfax_faxextinitializeconfig",
+    "fax._mfax_faxextinitializeconfig",
+    "faxext/FaxExtInitializeConfig"
+  ],
+  "old-location": "fax\\_mfax_faxextinitializeconfig.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxextconfigref_15lz.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig",
+  "req.header": "faxext.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FaxExtInitializeConfig",
+    "faxext/FaxExtInitializeConfig"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "FaxExt.h"
+  ],
+  "api_name": [
+    "FaxExtInitializeConfig"
+  ]
+}

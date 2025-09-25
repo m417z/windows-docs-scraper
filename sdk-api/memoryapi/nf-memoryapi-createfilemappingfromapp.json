@@ -1,0 +1,77 @@
+{
+  "UID": "NF:memoryapi.CreateFileMappingFromApp",
+  "title": "CreateFileMappingFromApp function (memoryapi.h)",
+  "description": "Creates or opens a named or unnamed file mapping object for a specified file from a Windows Store app.",
+  "helpviewer_keywords": [
+    "CreateFileMappingFromApp",
+    "CreateFileMappingFromApp function",
+    "PAGE_READONLY",
+    "PAGE_READWRITE",
+    "PAGE_WRITECOPY",
+    "SEC_COMMIT",
+    "SEC_IMAGE_NO_EXECUTE",
+    "SEC_LARGE_PAGES",
+    "SEC_NOCACHE",
+    "SEC_RESERVE",
+    "SEC_WRITECOMBINE",
+    "base.createfilemappingfromapp",
+    "memoryapi/CreateFileMappingFromApp"
+  ],
+  "old-location": "base\\createfilemappingfromapp.htm",
+  "tech.root": "base",
+  "ms.assetid": "ef7ad1aa-2ce7-4a77-a57e-d6e55d58b8d3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingfromapp, memoryapi/CreateFileMappingFromApp",
+  "req.header": "memoryapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateFileMappingFromApp",
+    "memoryapi/CreateFileMappingFromApp"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-memory-l1-1-9.dll",
+    "api-ms-win-core-memory-l1-1-8.dll",
+    "api-ms-win-core-memory-l1-1-7.dll",
+    "api-ms-win-core-memory-l1-1-6.dll",
+    "api-ms-win-core-memory-l1-1-5.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-memory-l1-1-1.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-memory-l1-1-2.dll",
+    "API-MS-Win-Core-memory-l1-1-3.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Memory-L1-1-4.dll"
+  ],
+  "api_name": [
+    "CreateFileMappingFromApp"
+  ]
+}

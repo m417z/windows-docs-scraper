@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdm.KeRcuReadUnlock",
+  "tech.root": "kernel",
+  "title": "KeRcuReadUnlock function (wdm.h)",
+  "ms.date": "09/02/2025",
+  "targetos": "Windows",
+  "description": "The KeRcuReadUnlock function exits a RCU read-side critical section in the default RCU domain that was previously entered with KeRcuReadLock.",
+  "prerelease": false,
+  "ai-usage": "ai-assisted",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": "Windows Server 2025",
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "KeRcuReadUnlock"
+  ],
+  "f1_keywords": [
+    "KeRcuReadUnlock",
+    "wdm/KeRcuReadUnlock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "KeRcuReadUnlock"
+  ]
+}

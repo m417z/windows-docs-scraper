@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ks.PFNKSPINIRP",
+  "title": "PFNKSPINIRP (ks.h)",
+  "description": "An AVStream minidriver's routine is called when an activity on the pin is performed and it receives these IRPs:IRP_MJ_CREATEIRP_MJ_CLOSE",
+  "tech.root": "stream",
+  "ms.date": "03/06/2023",
+  "keywords": [
+    "PFNKSPINIRP callback function"
+  ],
+  "ms.keywords": "AVStrMiniPinCreate, AVStrMiniPinCreate routine [Streaming Media Devices], PFNKSPINIRP, avstclbk_0feeeb85-88fe-43d7-83e4-399b0c26aa53.xml, ks/AVStrMiniPinCreate, stream.avstrminipincreate",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSPINIRP",
+    "ks/PFNKSPINIRP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSPINIRP"
+  ]
+}

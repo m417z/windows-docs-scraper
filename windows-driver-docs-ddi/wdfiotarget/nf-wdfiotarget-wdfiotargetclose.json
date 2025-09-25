@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfiotarget.WdfIoTargetClose",
+  "title": "WdfIoTargetClose function (wdfiotarget.h)",
+  "description": "The WdfIoTargetClose method closes a specified remote I/O target.",
+  "old-location": "wdf\\wdfiotargetclose.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfIoTargetClose function"
+  ],
+  "ms.keywords": "DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose, WdfIoTargetClose method, kmdf.wdfiotargetclose, wdf.wdfiotargetclose, wdfiotarget/WdfIoTargetClose",
+  "req.header": "wdfiotarget.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfIoTargetClose",
+    "wdfiotarget/WdfIoTargetClose"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfIoTargetClose"
+  ]
+}

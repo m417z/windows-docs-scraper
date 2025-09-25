@@ -1,0 +1,6 @@
+typedef struct _DXGKARG_GETDEVICELOCATION {
+  ULONG VirtualFunctionIndex;
+  ULONG SegmentNumber;
+  ULONG BusNumber;
+  ULONG FunctionNumber;
+} DXGKARG_GETDEVICELOCATION, *PDXGKARG_GETDEVICELOCATION;

@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfobject.WdfObjectCreate",
+  "title": "WdfObjectCreate function (wdfobject.h)",
+  "description": "The WdfObjectCreate method creates a general framework object.",
+  "old-location": "wdf\\wdfobjectcreate.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfObjectCreate function"
+  ],
+  "ms.keywords": "DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, WdfObjectCreate, WdfObjectCreate method, kmdf.wdfobjectcreate, wdf.wdfobjectcreate, wdfobject/WdfObjectCreate",
+  "req.header": "wdfobject.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfObjectCreate",
+    "wdfobject/WdfObjectCreate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfObjectCreate"
+  ]
+}

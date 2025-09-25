@@ -1,0 +1,48 @@
+{
+  "UID": "NS:dxva._DXVA_Status_AV1",
+  "tech.root": "display",
+  "title": "DXVA_Status_AV1",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "The DXVA_Status_AV1 data structure is sent by the accelerator to the host software decoder to convey decoding status information.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dxva.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "DXVA_Status_AV1, *LPDXVA_Status_AV1",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dxva.h"
+  ],
+  "api_name": [
+    "_DXVA_Status_AV1",
+    "LPDXVA_Status_AV1",
+    "DXVA_Status_AV1"
+  ],
+  "f1_keywords": [
+    "_DXVA_Status_AV1",
+    "dxva/_DXVA_Status_AV1",
+    "LPDXVA_Status_AV1",
+    "dxva/LPDXVA_Status_AV1",
+    "DXVA_Status_AV1",
+    "dxva/DXVA_Status_AV1"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

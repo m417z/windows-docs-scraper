@@ -1,0 +1,3 @@
+typedef struct _IRB_REQ_ISOCH_FREE_CHANNEL {
+  ULONG nChannel;
+} IRB_REQ_ISOCH_FREE_CHANNEL;

@@ -1,0 +1,3 @@
+BOOL IsWindowArranged(
+  HWND hwnd
+);

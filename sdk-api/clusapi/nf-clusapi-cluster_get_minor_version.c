@@ -1,0 +1,3 @@
+void CLUSTER_GET_MINOR_VERSION(
+  _ver
+);

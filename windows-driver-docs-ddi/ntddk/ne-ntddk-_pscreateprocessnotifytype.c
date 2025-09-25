@@ -1,0 +1,3 @@
+typedef enum _PSCREATEPROCESSNOTIFYTYPE {
+  PsCreateProcessNotifySubsystems
+} PSCREATEPROCESSNOTIFYTYPE;

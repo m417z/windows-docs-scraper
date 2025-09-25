@@ -1,0 +1,3 @@
+LUID IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Proxy(
+  IIndependentFlipFramePresentStatistics *This
+);

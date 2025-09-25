@@ -1,0 +1,3 @@
+struct IDARG_OUT_ADAPTER_INIT {
+  IDDCX_ADAPTER AdapterObject;
+};

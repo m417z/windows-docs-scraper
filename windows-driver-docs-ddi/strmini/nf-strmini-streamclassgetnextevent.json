@@ -1,0 +1,48 @@
+{
+  "UID": "NF:strmini.StreamClassGetNextEvent",
+  "title": "StreamClassGetNextEvent function (strmini.h)",
+  "description": "Minidrivers can use the StreamClassGetNextEvent routine to search the event queue of a device or of a particular stream.",
+  "tech.root": "stream",
+  "ms.date": "04/22/2022",
+  "keywords": [
+    "StreamClassGetNextEvent function"
+  ],
+  "ms.keywords": "StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, stream.streamclassgetnextevent, strmini/StreamClassGetNextEvent",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Stream.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StreamClassGetNextEvent",
+    "strmini/StreamClassGetNextEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Stream.lib",
+    "Stream.dll"
+  ],
+  "api_name": [
+    "StreamClassGetNextEvent"
+  ]
+}

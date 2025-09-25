@@ -1,0 +1,21 @@
+## Description
+
+This topic describes the **KSMETHOD_BDA_USERACTIVITY_SERVICE** enumeration.
+
+## Constants
+
+### `KSMETHOD_BDA_USERACTIVITY_USEREASON`
+
+Defines the **KSMETHOD_BDA_USERACTIVITY_USEREASON** constant.
+
+### `KSMETHOD_BDA_USERACTIVITY_INTERVAL`
+
+Defines the **KSMETHOD_BDA_USERACTIVITY_INTERVAL** constant.
+
+### `KSMETHOD_BDA_USERACTIVITY_DETECTED`
+
+Defines the **KSMETHOD_BDA_USERACTIVITY_DETECTED** constant.
+
+## Remarks
+
+## See also

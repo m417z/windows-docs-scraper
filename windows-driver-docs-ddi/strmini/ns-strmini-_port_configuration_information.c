@@ -1,0 +1,20 @@
+typedef struct _PORT_CONFIGURATION_INFORMATION {
+  ULONG           SizeOfThisPacket;
+  PVOID           HwDeviceExtension;
+  PDEVICE_OBJECT  ClassDeviceObject;
+  PDEVICE_OBJECT  PhysicalDeviceObject;
+  ULONG           SystemIoBusNumber;
+  INTERFACE_TYPE  AdapterInterfaceType;
+  ULONG           BusInterruptLevel;
+  ULONG           BusInterruptVector;
+  KINTERRUPT_MODE InterruptMode;
+  ULONG           DmaChannel;
+  ULONG           NumberOfAccessRanges;
+  PACCESS_RANGE   AccessRanges;
+  ULONG           StreamDescriptorSize;
+  PIRP            Irp;
+  PKINTERRUPT     InterruptObject;
+  PADAPTER_OBJECT DmaAdapterObject;
+  PDEVICE_OBJECT  RealPhysicalDeviceObject;
+  ULONG           Reserved[1];
+} PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION;

@@ -1,0 +1,4 @@
+void MCIWndSetRepeat(
+  hwnd,
+  f
+);

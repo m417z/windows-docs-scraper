@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2SETPRIORITY {
+  DWORD dwDDSurface;
+  DWORD dwPriority;
+} D3DHAL_DP2SETPRIORITY;

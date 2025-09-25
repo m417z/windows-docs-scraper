@@ -1,0 +1,57 @@
+{
+  "UID": "NI:winioctl.FSCTL_SET_INTEGRITY_INFORMATION",
+  "title": "FSCTL_SET_INTEGRITY_INFORMATION",
+  "description": "Retrieves the integrity status of a file or directory on a ReFS volume. (FSCTL_SET_INTEGRITY_INFORMATION)",
+  "helpviewer_keywords": [
+    "FSCTL_SET_INTEGRITY_INFORMATION",
+    "FSCTL_SET_INTEGRITY_INFORMATION control",
+    "FSCTL_SET_INTEGRITY_INFORMATION control code [Files]",
+    "fs.fsctl_set_integrity_information",
+    "winioctl/FSCTL_SET_INTEGRITY_INFORMATION"
+  ],
+  "old-location": "fs\\fsctl_set_integrity_information.htm",
+  "tech.root": "fs",
+  "ms.assetid": "bd5be96d-6fdc-4fad-9d01-81b913a5b653",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FSCTL_SET_INTEGRITY_INFORMATION, FSCTL_SET_INTEGRITY_INFORMATION control, FSCTL_SET_INTEGRITY_INFORMATION control code [Files], fs.fsctl_set_integrity_information, winioctl/FSCTL_SET_INTEGRITY_INFORMATION",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "FSCTL_SET_INTEGRITY_INFORMATION",
+    "winioctl/FSCTL_SET_INTEGRITY_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "FSCTL_SET_INTEGRITY_INFORMATION"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:control.IMediaEvent.WaitForCompletion",
+  "title": "IMediaEvent::WaitForCompletion (control.h)",
+  "description": "The WaitForCompletion method waits for the filter graph to render all available data. The filter graph must be running or the method fails.",
+  "helpviewer_keywords": [
+    "IMediaEvent interface [DirectShow]",
+    "WaitForCompletion method",
+    "IMediaEvent.WaitForCompletion",
+    "IMediaEvent::WaitForCompletion",
+    "IMediaEventWaitForCompletion",
+    "WaitForCompletion",
+    "WaitForCompletion method [DirectShow]",
+    "WaitForCompletion method [DirectShow]",
+    "IMediaEvent interface",
+    "control/IMediaEvent::WaitForCompletion",
+    "dshow.imediaevent_waitforcompletion"
+  ],
+  "old-location": "dshow\\imediaevent_waitforcompletion.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "760a90fe-7cbc-4f09-ba64-afe0ab0b4c74",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaEvent interface [DirectShow],WaitForCompletion method, IMediaEvent.WaitForCompletion, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow],IMediaEvent interface, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion",
+  "req.header": "control.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaEvent::WaitForCompletion",
+    "control/IMediaEvent::WaitForCompletion"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaEvent.WaitForCompletion"
+  ]
+}

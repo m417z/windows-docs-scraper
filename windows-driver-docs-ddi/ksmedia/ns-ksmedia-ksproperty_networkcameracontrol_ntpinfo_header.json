@@ -1,0 +1,42 @@
+{
+  "UID": "NS:ksmedia.KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER",
+  "title": "KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER (ksmedia.h)",
+  "description": "The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER structure contains a NTP-specific payload that is used to set or disable an NTP server on a Onvif protocol camera.",
+  "tech.root": "stream",
+  "ms.date": "06/24/2021",
+  "ms.keywords": "KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER, *PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER",
+  "req.header": "ksmedia.h",
+  "req.include-header": "Ksmedia.h",
+  "req.construct-type": "structure",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER, *PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER",
+    "ksmedia/PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER",
+    "KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER",
+    "ksmedia/KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER",
+    "KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER"
+  ]
+}

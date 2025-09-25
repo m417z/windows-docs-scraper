@@ -1,0 +1,8 @@
+typedef enum _UCSI_CONNECTOR_PARTNER_TYPE {
+  UcsiConnectorPartnerTypeDfp,
+  UcsiConnectorPartnerTypeUfp,
+  UcsiConnectorPartnerTypePoweredCableNoUfp,
+  UcsiConnectorPartnerTypePoweredCableWithUfp,
+  UcsiConnectorPartnerTypeDebugAccessory,
+  UcsiConnectorPartnerTypeAudioAccessory
+} UCSI_CONNECTOR_PARTNER_TYPE;

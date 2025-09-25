@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterFileSink.Open",
+  "title": "IWMWriterFileSink::Open (wmsdkidl.h)",
+  "description": "The Open method opens a file that acts as the writer sink.",
+  "helpviewer_keywords": [
+    "IWMWriterFileSink interface [windows Media Format]",
+    "Open method",
+    "IWMWriterFileSink.Open",
+    "IWMWriterFileSink::Open",
+    "IWMWriterFileSinkOpen",
+    "Open",
+    "Open method [windows Media Format]",
+    "Open method [windows Media Format]",
+    "IWMWriterFileSink interface",
+    "wmformat.iwmwriterfilesink_open",
+    "wmsdkidl/IWMWriterFileSink::Open"
+  ],
+  "old-location": "wmformat\\iwmwriterfilesink_open.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "14a36fe9-8293-4079-8189-8a8e0720c100",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMWriterFileSink interface [windows Media Format],Open method, IWMWriterFileSink.Open, IWMWriterFileSink::Open, IWMWriterFileSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterFileSink interface, wmformat.iwmwriterfilesink_open, wmsdkidl/IWMWriterFileSink::Open",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterFileSink::Open",
+    "wmsdkidl/IWMWriterFileSink::Open"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterFileSink.Open"
+  ]
+}

@@ -1,0 +1,3 @@
+struct DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT {
+  BOOL IsSupported;
+};

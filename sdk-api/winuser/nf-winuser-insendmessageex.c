@@ -1,0 +1,3 @@
+DWORD InSendMessageEx(
+  LPVOID lpReserved
+);

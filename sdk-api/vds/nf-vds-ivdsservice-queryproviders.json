@@ -1,0 +1,64 @@
+{
+  "UID": "NF:vds.IVdsService.QueryProviders",
+  "title": "IVdsService::QueryProviders (vds.h)",
+  "description": "Returns an enumeration object containing a list of the hardware and software providers known to VDS.",
+  "helpviewer_keywords": [
+    "IVdsService interface [VDS]",
+    "QueryProviders method",
+    "IVdsService.QueryProviders",
+    "IVdsService::QueryProviders",
+    "QueryProviders",
+    "QueryProviders method [VDS]",
+    "QueryProviders method [VDS]",
+    "IVdsService interface",
+    "base.ivdsservice_queryproviders",
+    "vds/IVdsService::QueryProviders"
+  ],
+  "old-location": "base\\ivdsservice_queryproviders.htm",
+  "tech.root": "base",
+  "ms.assetid": "55171eb1-6fec-4651-914c-88d23e8d7849",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders",
+  "req.header": "vds.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVdsService::QueryProviders",
+    "vds/IVdsService::QueryProviders"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Uuid.lib",
+    "Uuid.dll"
+  ],
+  "api_name": [
+    "IVdsService.QueryProviders"
+  ]
+}

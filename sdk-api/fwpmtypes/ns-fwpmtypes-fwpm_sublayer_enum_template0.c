@@ -1,0 +1,3 @@
+typedef struct FWPM_SUBLAYER_ENUM_TEMPLATE0_ {
+  GUID *providerKey;
+} FWPM_SUBLAYER_ENUM_TEMPLATE0;

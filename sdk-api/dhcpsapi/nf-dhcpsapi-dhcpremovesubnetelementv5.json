@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpRemoveSubnetElementV5",
+  "title": "DhcpRemoveSubnetElementV5 function (dhcpsapi.h)",
+  "description": "The DhcpRemoveSubnetElementV5 function removes an element from a subnet defined on the DHCP server.",
+  "helpviewer_keywords": [
+    "DhcpRemoveSubnetElementV5",
+    "DhcpRemoveSubnetElementV5 function [DHCP]",
+    "dhcp.dhcpremovesubnetelementv5",
+    "dhcpsapi/DhcpRemoveSubnetElementV5"
+  ],
+  "old-location": "dhcp\\dhcpremovesubnetelementv5.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "8232b2cc-0bb1-4509-ad5f-6d1d1ece9fe5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpRemoveSubnetElementV5, DhcpRemoveSubnetElementV5 function [DHCP], dhcp.dhcpremovesubnetelementv5, dhcpsapi/DhcpRemoveSubnetElementV5",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpRemoveSubnetElementV5",
+    "dhcpsapi/DhcpRemoveSubnetElementV5"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpRemoveSubnetElementV5"
+  ]
+}

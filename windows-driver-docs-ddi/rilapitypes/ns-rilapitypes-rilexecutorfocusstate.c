@@ -1,0 +1,6 @@
+typedef struct RILEXECUTORFOCUSSTATE {
+  DWORD cbSize;
+  DWORD dwParams;
+  DWORD dwNumberOfExecutors;
+  BOOL  fFocusStates[2];
+} RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE;

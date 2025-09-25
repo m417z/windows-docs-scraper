@@ -1,0 +1,7 @@
+typedef struct _DEVICE_INTERFACE_CHANGE_NOTIFICATION {
+  USHORT          Version;
+  USHORT          Size;
+  GUID            Event;
+  GUID            InterfaceClassGuid;
+  PUNICODE_STRING SymbolicLinkName;
+} DEVICE_INTERFACE_CHANGE_NOTIFICATION, *PDEVICE_INTERFACE_CHANGE_NOTIFICATION;

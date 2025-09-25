@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winbase.CreateUmsThreadContext",
+  "title": "CreateUmsThreadContext function (winbase.h)",
+  "description": "Creates a user-mode scheduling (UMS) thread context to represent a UMS worker thread.",
+  "helpviewer_keywords": [
+    "CreateUmsThreadContext",
+    "CreateUmsThreadContext function",
+    "base.createumsthreadcontext",
+    "winbase/CreateUmsThreadContext"
+  ],
+  "old-location": "base\\createumsthreadcontext.htm",
+  "tech.root": "backup",
+  "ms.assetid": "b27ce81a-8463-46af-8acf-2de091f625df",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateUmsThreadContext, CreateUmsThreadContext function, base.createumsthreadcontext, winbase/CreateUmsThreadContext",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 (64-bit only) [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateUmsThreadContext",
+    "winbase/CreateUmsThreadContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll",
+    "API-MS-Win-Core-ums-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CreateUmsThreadContext"
+  ],
+  "req.apiset": "api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)"
+}

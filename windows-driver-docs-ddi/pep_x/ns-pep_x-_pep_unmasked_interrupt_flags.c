@@ -1,0 +1,7 @@
+typedef union _PEP_UNMASKED_INTERRUPT_FLAGS {
+  struct {
+    USHORT SecondaryInterrupt : 1;
+    USHORT Reserved : 15;
+  };
+  USHORT AsUSHORT;
+} PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS;

@@ -1,0 +1,3 @@
+GUID AcxTargetElementGetNameTag(
+  ACXTARGETELEMENT TargetElement
+);

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winwlx.WlxWkstaLockedSAS",
+  "title": "WlxWkstaLockedSAS function (winwlx.h)",
+  "description": "Winlogon calls this function when it receives a secure attention sequence (SAS) and the workstation is locked.",
+  "helpviewer_keywords": [
+    "WLX_SAS_TYPE_CTRL_ALT_DEL",
+    "WLX_SAS_TYPE_SC_INSERT",
+    "WLX_SAS_TYPE_SC_REMOVE",
+    "WLX_SAS_TYPE_TIMEOUT",
+    "WlxWkstaLockedSAS",
+    "WlxWkstaLockedSAS function [Security]",
+    "_gina_wlxwkstalockedsas",
+    "security.wlxwkstalockedsas",
+    "winwlx/WlxWkstaLockedSAS"
+  ],
+  "old-location": "security\\wlxwkstalockedsas.htm",
+  "tech.root": "security",
+  "ms.assetid": "7a9f8b00-857a-432e-bb49-2251504c46a0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxWkstaLockedSAS, WlxWkstaLockedSAS function [Security], _gina_wlxwkstalockedsas, security.wlxwkstalockedsas, winwlx/WlxWkstaLockedSAS",
+  "req.header": "winwlx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WlxWkstaLockedSAS",
+    "winwlx/WlxWkstaLockedSAS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winwlx.h"
+  ],
+  "api_name": [
+    "WlxWkstaLockedSAS"
+  ]
+}

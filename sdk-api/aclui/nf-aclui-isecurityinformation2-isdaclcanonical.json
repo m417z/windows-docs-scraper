@@ -1,0 +1,64 @@
+{
+  "UID": "NF:aclui.ISecurityInformation2.IsDaclCanonical",
+  "title": "ISecurityInformation2::IsDaclCanonical (aclui.h)",
+  "description": "The IsDaclCanonical method determines whether the ACEs contained in the specified DACL structure are ordered according to the definition of DACL ordering implemented by the client.",
+  "helpviewer_keywords": [
+    "ISecurityInformation2 interface [Security]",
+    "IsDaclCanonical method",
+    "ISecurityInformation2.IsDaclCanonical",
+    "ISecurityInformation2::IsDaclCanonical",
+    "IsDaclCanonical",
+    "IsDaclCanonical method [Security]",
+    "IsDaclCanonical method [Security]",
+    "ISecurityInformation2 interface",
+    "_win32_isecurityinformation2_isdaclcanonical",
+    "aclui/ISecurityInformation2::IsDaclCanonical",
+    "security.isecurityinformation2_isdaclcanonical"
+  ],
+  "old-location": "security\\isecurityinformation2_isdaclcanonical.htm",
+  "tech.root": "security",
+  "ms.assetid": "54b83592-0cfb-45db-9788-05459c9ec35c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ISecurityInformation2 interface [Security],IsDaclCanonical method, ISecurityInformation2.IsDaclCanonical, ISecurityInformation2::IsDaclCanonical, IsDaclCanonical, IsDaclCanonical method [Security], IsDaclCanonical method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_isdaclcanonical, aclui/ISecurityInformation2::IsDaclCanonical, security.isecurityinformation2_isdaclcanonical",
+  "req.header": "aclui.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ISecurityInformation2::IsDaclCanonical",
+    "aclui/ISecurityInformation2::IsDaclCanonical"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Aclui.h"
+  ],
+  "api_name": [
+    "ISecurityInformation2.IsDaclCanonical"
+  ]
+}

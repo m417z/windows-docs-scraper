@@ -1,0 +1,5 @@
+typedef struct _DXGKARG_GETVIRTUALGPUPROFILE {
+  ULONG                        PartitionCount;
+  ULONG                        VirtualizationFlags;
+  DXGK_VGPU_PROFILE_CAPABILITY ProfileCapability[DXGK_VGPU_CAPABILITY_MAX];
+} DXGKARG_GETVIRTUALGPUPROFILE, *PDXGKARG_GETVIRTUALGPUPROFILE;

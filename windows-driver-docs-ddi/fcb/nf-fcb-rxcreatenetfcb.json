@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxCreateNetFcb",
+  "title": "RxCreateNetFcb function (fcb.h)",
+  "description": "RxCreateNetFCB allocates, initializes, and inserts a new FCB structure into the in-memory data structures for a V_NET_ROOT that this FCB is being opened on. The structure allocated has space for a SRV_OPEN and an FOBX structure.",
+  "old-location": "ifsk\\rxcreatenetfcb.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCreateNetFcb function"
+  ],
+  "ms.keywords": "RxCreateNetFCB, RxCreateNetFcb, RxCreateNetFcb function [Installable File System Drivers], fcb/RxCreateNetFcb, ifsk.rxcreatenetfcb, rxref_d5f0cde4-daba-475d-9a63-b56047cc24e2.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Rxcontx.h, Mrxfcb.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCreateNetFcb",
+    "fcb/RxCreateNetFcb"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxCreateNetFcb"
+  ]
+}

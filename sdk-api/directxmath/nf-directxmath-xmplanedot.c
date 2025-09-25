@@ -1,0 +1,4 @@
+XMVECTOR XM_CALLCONV XMPlaneDot(
+  [in] FXMVECTOR P,
+  [in] FXMVECTOR V
+) noexcept;

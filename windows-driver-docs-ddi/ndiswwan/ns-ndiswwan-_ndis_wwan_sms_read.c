@@ -1,0 +1,4 @@
+typedef struct _NDIS_WWAN_SMS_READ {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_SMS_READ      SmsRead;
+} NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ;

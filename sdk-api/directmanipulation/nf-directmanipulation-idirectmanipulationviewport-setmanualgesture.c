@@ -1,0 +1,3 @@
+HRESULT SetManualGesture(
+  [in] DIRECTMANIPULATION_GESTURE_CONFIGURATION configuration
+);

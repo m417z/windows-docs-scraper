@@ -1,0 +1,15 @@
+# MI_Sint32A structure
+
+## Description
+
+Represents an array of **MI_Sint32** types.
+
+## Members
+
+### `data`
+
+An array of **MI_Sint32** types.
+
+### `size`
+
+The number of items in the array.

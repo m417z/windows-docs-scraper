@@ -1,0 +1,8 @@
+PFND3D12DDI_RESOURCEBARRIER_0022 Pfnd3d12ddiResourcebarrier0022;
+
+VOID Pfnd3d12ddiResourcebarrier0022(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  UINT Count,
+  const D3D12DDIARG_RESOURCE_BARRIER_0022 *unnamedParam3
+)
+{...}

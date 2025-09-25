@@ -1,0 +1,7 @@
+typedef struct FWPS_PACKET_LIST_IPSEC_INFORMATION0_ {
+  union {
+    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0  inbound;
+    FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 outbound;
+    UINT32                                       flags;
+  };
+} FWPS_PACKET_LIST_IPSEC_INFORMATION0;

@@ -1,0 +1,3 @@
+HRESULT DeleteTab(
+  float tbPos
+);

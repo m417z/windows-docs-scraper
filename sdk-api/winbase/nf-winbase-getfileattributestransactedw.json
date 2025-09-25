@@ -1,0 +1,70 @@
+{
+  "UID": "NF:winbase.GetFileAttributesTransactedW",
+  "title": "GetFileAttributesTransactedW function (winbase.h)",
+  "description": "Retrieves file system attributes for a specified file or directory as a transacted operation. (Unicode)",
+  "helpviewer_keywords": [
+    "GetFileAttributesTransacted",
+    "GetFileAttributesTransacted function [Files]",
+    "GetFileAttributesTransactedW",
+    "GetFileExInfoStandard",
+    "fs.getfileattributestransacted",
+    "winbase/GetFileAttributesTransacted",
+    "winbase/GetFileAttributesTransactedW"
+  ],
+  "old-location": "fs\\getfileattributestransacted.htm",
+  "tech.root": "fs",
+  "ms.assetid": "dd1435da-93e5-440a-913a-9e40e39b4a01",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetFileAttributesTransacted, GetFileAttributesTransacted function [Files], GetFileAttributesTransactedA, GetFileAttributesTransactedW, GetFileExInfoStandard, fs.getfileattributestransacted, winbase/GetFileAttributesTransacted, winbase/GetFileAttributesTransactedA, winbase/GetFileAttributesTransactedW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetFileAttributesTransactedW (Unicode) and GetFileAttributesTransactedA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetFileAttributesTransactedW",
+    "winbase/GetFileAttributesTransactedW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "GetFileAttributesTransacted",
+    "GetFileAttributesTransactedA",
+    "GetFileAttributesTransactedW"
+  ]
+}

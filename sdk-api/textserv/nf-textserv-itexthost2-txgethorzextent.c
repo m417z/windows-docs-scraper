@@ -1,0 +1,3 @@
+HRESULT TxGetHorzExtent(
+  LONG *plHorzExtent
+);

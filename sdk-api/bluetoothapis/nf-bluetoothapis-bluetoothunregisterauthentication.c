@@ -1,0 +1,3 @@
+BOOL BluetoothUnregisterAuthentication(
+  HBLUETOOTH_AUTHENTICATION_REGISTRATION hRegHandle
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortSignalDmaComplete",
+  "title": "VideoPortSignalDmaComplete function (video.h)",
+  "description": "The VideoPortSignalDmaComplete function is obsolete in Windows 2000 and later.VideoPortSignalDmaComplete indicates to the video miniport driver whether the current DMA transfer is complete.",
+  "old-location": "display\\videoportsignaldmacomplete.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortSignalDmaComplete function"
+  ],
+  "ms.keywords": "VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, display.videoportsignaldmacomplete, video/VideoPortSignalDmaComplete",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortSignalDmaComplete",
+    "video/VideoPortSignalDmaComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortSignalDmaComplete"
+  ]
+}

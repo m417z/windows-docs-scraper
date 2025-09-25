@@ -1,0 +1,3 @@
+WCHAR GetAt(
+  int nIndex
+);

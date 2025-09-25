@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.PROTOCOL_CO_STATUS_EX",
+  "title": "PROTOCOL_CO_STATUS_EX (ndis.h)",
+  "description": "The ProtocolCoStatusEx function indicates status changes from underlying connection-oriented drivers or from NDIS.Note  You must declare the function by using the PROTOCOL_CO_STATUS_EX type.",
+  "old-location": "netvista\\protocolcostatusex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PROTOCOL_CO_STATUS_EX callback function"
+  ],
+  "ms.keywords": "PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PROTOCOL_CO_STATUS_EX",
+    "ndis/PROTOCOL_CO_STATUS_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "PROTOCOL_CO_STATUS_EX"
+  ]
+}

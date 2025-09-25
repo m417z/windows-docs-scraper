@@ -1,0 +1,6 @@
+typedef struct _VIDEO_MEMORY_INFORMATION {
+  PVOID VideoRamBase;
+  ULONG VideoRamLength;
+  PVOID FrameBufferBase;
+  ULONG FrameBufferLength;
+} VIDEO_MEMORY_INFORMATION, *PVIDEO_MEMORY_INFORMATION;

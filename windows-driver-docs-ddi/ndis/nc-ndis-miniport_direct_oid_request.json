@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_DIRECT_OID_REQUEST",
+  "title": "MINIPORT_DIRECT_OID_REQUEST (ndis.h)",
+  "description": "NDIS calls a miniport driver's MiniportDirectOidRequest function to handle a direct OID request to query or set information in the driver.",
+  "old-location": "netvista\\miniportdirectoidrequest.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_DIRECT_OID_REQUEST callback function"
+  ],
+  "ms.keywords": "MINIPORT_DIRECT_OID_REQUEST, MINIPORT_DIRECT_OID_REQUEST callback, MiniportDirectOidRequest, MiniportDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDirectOidRequest, ndis_request_direct_ref_8650027d-37db-4165-9bf6-c239b6db2919.xml, netvista.miniportdirectoidrequest",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.1 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_DIRECT_OID_REQUEST",
+    "ndis/MINIPORT_DIRECT_OID_REQUEST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_DIRECT_OID_REQUEST"
+  ]
+}

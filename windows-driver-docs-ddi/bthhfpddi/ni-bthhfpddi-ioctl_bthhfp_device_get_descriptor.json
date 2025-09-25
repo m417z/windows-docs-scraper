@@ -1,0 +1,48 @@
+{
+  "UID": "NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR",
+  "title": "IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR (bthhfpddi.h)",
+  "description": "The audio driver issues the IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code to get information about an enabled GUID_DEVINTERFACE_BLUETOOTH_HFP_SCO_HCIBYPASS device interface.",
+  "old-location": "audio\\ioctl_bthhfp_device_get_descriptor.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR IOCTL"
+  ],
+  "ms.keywords": "IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR",
+  "req.header": "bthhfpddi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR",
+    "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Bthhfpddi.h"
+  ],
+  "api_name": [
+    "IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR"
+  ]
+}

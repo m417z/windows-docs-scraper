@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winuser.GET_DEVICE_LPARAM",
+  "title": "GET_DEVICE_LPARAM macro (winuser.h)",
+  "description": "Retrieves the input device type from the specified LPARAM value.",
+  "helpviewer_keywords": [
+    "GET_DEVICE_LPARAM",
+    "GET_DEVICE_LPARAM macro [Keyboard and Mouse Input]",
+    "_win32_GET_DEVICE_LPARAM",
+    "_win32_get_device_lparam_cpp",
+    "inputdev.get_device_lparam",
+    "winui._win32_get_device_lparam",
+    "winuser/GET_DEVICE_LPARAM"
+  ],
+  "tech.root": "inputdev",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "GET_DEVICE_LPARAM, GET_DEVICE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_DEVICE_LPARAM, _win32_get_device_lparam_cpp, inputdev.get_device_lparam, winui._win32_get_device_lparam, winuser/GET_DEVICE_LPARAM",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GET_DEVICE_LPARAM",
+    "winuser/GET_DEVICE_LPARAM"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winuser.h"
+  ],
+  "api_name": [
+    "GET_DEVICE_LPARAM"
+  ]
+}

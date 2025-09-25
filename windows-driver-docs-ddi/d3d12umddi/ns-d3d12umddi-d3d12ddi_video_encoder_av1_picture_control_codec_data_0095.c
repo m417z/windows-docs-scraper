@@ -1,0 +1,26 @@
+typedef struct D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_CODEC_DATA_0095 {
+  D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_0095_FLAGS           Flags;
+  D3D12DDI_VIDEO_ENCODER_AV1_FRAME_TYPE_0095                      FrameType;
+  D3D12DDI_VIDEO_ENCODER_AV1_COMP_PREDICTION_TYPE_0095            CompoundPredictionType;
+  D3D12DDI_VIDEO_ENCODER_AV1_INTERPOLATION_FILTERS_0095           InterpolationFilter;
+  D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_CONFIG_0095              FrameRestorationConfig;
+  D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095                         TxMode;
+  UINT                                                            SuperResDenominator;
+  UINT                                                            OrderHint;
+  UINT                                                            PictureIndex;
+  UINT                                                            TemporalLayerIndexPlus1;
+  UINT                                                            SpatialLayerIndexPlus1;
+  D3D12DDI_VIDEO_ENCODER_AV1_REFERENCE_PICTURE_DESCRIPTOR_0095    ReferenceFramesReconPictureDescriptors[8];
+  UINT                                                            ReferenceIndices[7];
+  UINT                                                            PrimaryRefFrame;
+  UINT                                                            RefreshFrameFlags;
+  D3D12DDI_VIDEO_ENCODER_CODEC_AV1_LOOP_FILTER_CONFIG_0095        LoopFilter;
+  D3D12DDI_VIDEO_ENCODER_CODEC_AV1_LOOP_FILTER_DELTA_CONFIG_0095  LoopFilterDelta;
+  D3D12DDI_VIDEO_ENCODER_CODEC_AV1_QUANTIZATION_CONFIG_0095       Quantization;
+  D3D12DDI_VIDEO_ENCODER_CODEC_AV1_QUANTIZATION_DELTA_CONFIG_0095 QuantizationDelta;
+  D3D12DDI_VIDEO_ENCODER_AV1_CDEF_CONFIG_0095                     CDEF;
+  UINT                                                            QPMapValuesCount;
+  INT16                                                           *pRateControlQPMap;
+  D3D12DDI_VIDEO_ENCODER_AV1_SEGMENTATION_CONFIG_0095             CustomSegmentation;
+  D3D12DDI_VIDEO_ENCODER_AV1_SEGMENTATION_MAP_0095                CustomSegmentsMap;
+} D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_CODEC_DATA_0095;

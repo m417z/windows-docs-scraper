@@ -1,0 +1,68 @@
+{
+  "UID": "NF:shellapi.AssocCreateForClasses",
+  "title": "AssocCreateForClasses function (shellapi.h)",
+  "description": "Retrieves an object that implements an IQueryAssociations interface.",
+  "helpviewer_keywords": [
+    "AssocCreateForClasses",
+    "AssocCreateForClasses function [Windows Shell]",
+    "_shell_AssocCreateForClasses",
+    "shell.AssocCreateForClasses",
+    "shellapi/AssocCreateForClasses"
+  ],
+  "old-location": "shell\\AssocCreateForClasses.htm",
+  "tech.root": "shell",
+  "ms.assetid": "43257507-dd5e-4622-8445-c132187fd1e5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses",
+  "req.header": "shellapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AssocCreateForClasses",
+    "shellapi/AssocCreateForClasses"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-5-0.dll",
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "api-ms-win-shell-associations-l1-1-3.dll",
+    "api-ms-win-shell-associations-l1-1-2.dll",
+    "api-ms-win-shell-associations-l1-1-1.dll",
+    "Shell32.dll",
+    "Windows.Storage.dll",
+    "API-MS-Win-Shell-Associations-L1-1-0.dll"
+  ],
+  "api_name": [
+    "AssocCreateForClasses"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)"
+}

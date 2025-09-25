@@ -1,0 +1,1 @@
+ENGAPI PATHOBJ * EngCreatePath();

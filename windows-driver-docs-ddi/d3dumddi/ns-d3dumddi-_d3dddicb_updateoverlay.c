@@ -1,0 +1,4 @@
+typedef struct _D3DDDICB_UPDATEOVERLAY {
+  [in] D3DKMT_HANDLE            hKernelOverlay;
+  [in] D3DDDI_KERNELOVERLAYINFO OverlayInfo;
+} D3DDDICB_UPDATEOVERLAY;

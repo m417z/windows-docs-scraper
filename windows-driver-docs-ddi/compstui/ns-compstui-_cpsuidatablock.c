@@ -1,0 +1,4 @@
+typedef struct _CPSUIDATABLOCK {
+  DWORD  cbData;
+  LPBYTE pbData;
+} CPSUIDATABLOCK, *PCPSUIDATABLOCK;

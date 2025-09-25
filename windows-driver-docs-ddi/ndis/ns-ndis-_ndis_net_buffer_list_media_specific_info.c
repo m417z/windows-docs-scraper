@@ -1,0 +1,7 @@
+typedef struct _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO {
+  union {
+    PVOID MediaSpecificInfo;
+    PVOID NativeWifiSpecificInfo;
+    PVOID Value;
+  };
+} NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, *PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO;

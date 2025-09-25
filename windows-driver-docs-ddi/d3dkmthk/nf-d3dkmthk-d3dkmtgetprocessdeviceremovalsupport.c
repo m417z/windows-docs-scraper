@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetProcessDeviceRemovalSupport(
+  D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT *unnamedParam1
+);

@@ -1,0 +1,8 @@
+typedef struct _ACX_MICROPHONE_COORDINATES {
+  USHORT Type;
+  SHORT  XCoord;
+  SHORT  YCoord;
+  SHORT  ZCoord;
+  SHORT  VerticalAngle;
+  SHORT  HorizontalAngle;
+} ACX_MICROPHONE_COORDINATES, *PACX_MICROPHONE_COORDINATES;

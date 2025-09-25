@@ -1,0 +1,6 @@
+typedef enum _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY {
+  WdfIoForwardProgressInvalidPolicy = 0x0,
+  WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest,
+  WdfIoForwardProgressReservedPolicyUseExamine,
+  WdfIoForwardProgressReservedPolicyPagingIO
+} WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY;

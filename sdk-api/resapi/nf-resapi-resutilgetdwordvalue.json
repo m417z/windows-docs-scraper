@@ -1,0 +1,62 @@
+{
+  "UID": "NF:resapi.ResUtilGetDwordValue",
+  "title": "ResUtilGetDwordValue function (resapi.h)",
+  "description": "Returns a numeric value from the cluster database.",
+  "helpviewer_keywords": [
+    "PRESUTIL_GET_DWORD_VALUE",
+    "PRESUTIL_GET_DWORD_VALUE function [Failover Cluster]",
+    "ResUtilGetDwordValue",
+    "ResUtilGetDwordValue function [Failover Cluster]",
+    "_wolf_resutilgetdwordvalue",
+    "mscs.resutilgetdwordvalue",
+    "resapi/PRESUTIL_GET_DWORD_VALUE",
+    "resapi/ResUtilGetDwordValue"
+  ],
+  "old-location": "mscs\\resutilgetdwordvalue.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "2db6126e-a3a7-415b-a436-c3d0748fbc65",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_GET_DWORD_VALUE, PRESUTIL_GET_DWORD_VALUE function [Failover Cluster], ResUtilGetDwordValue, ResUtilGetDwordValue function [Failover Cluster], _wolf_resutilgetdwordvalue, mscs.resutilgetdwordvalue, resapi/PRESUTIL_GET_DWORD_VALUE, resapi/ResUtilGetDwordValue",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilGetDwordValue",
+    "resapi/ResUtilGetDwordValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilGetDwordValue"
+  ]
+}

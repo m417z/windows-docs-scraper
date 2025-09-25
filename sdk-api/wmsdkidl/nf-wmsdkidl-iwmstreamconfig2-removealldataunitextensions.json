@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMStreamConfig2.RemoveAllDataUnitExtensions",
+  "title": "IWMStreamConfig2::RemoveAllDataUnitExtensions (wmsdkidl.h)",
+  "description": "The RemoveAllDataUnitExtensions method removes all data unit extension systems that are associated with the stream.",
+  "helpviewer_keywords": [
+    "IWMStreamConfig2 interface [windows Media Format]",
+    "RemoveAllDataUnitExtensions method",
+    "IWMStreamConfig2.RemoveAllDataUnitExtensions",
+    "IWMStreamConfig2::RemoveAllDataUnitExtensions",
+    "IWMStreamConfig2RemoveAllDataUnitExtensions",
+    "RemoveAllDataUnitExtensions",
+    "RemoveAllDataUnitExtensions method [windows Media Format]",
+    "RemoveAllDataUnitExtensions method [windows Media Format]",
+    "IWMStreamConfig2 interface",
+    "wmformat.iwmstreamconfig2_removealldataunitextensions",
+    "wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions"
+  ],
+  "old-location": "wmformat\\iwmstreamconfig2_removealldataunitextensions.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "944c1b6c-1d1b-4a44-9b9e-d673c8d60306",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMStreamConfig2 interface [windows Media Format],RemoveAllDataUnitExtensions method, IWMStreamConfig2.RemoveAllDataUnitExtensions, IWMStreamConfig2::RemoveAllDataUnitExtensions, IWMStreamConfig2RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions method [windows Media Format], RemoveAllDataUnitExtensions method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_removealldataunitextensions, wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMStreamConfig2::RemoveAllDataUnitExtensions",
+    "wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMStreamConfig2.RemoveAllDataUnitExtensions"
+  ]
+}

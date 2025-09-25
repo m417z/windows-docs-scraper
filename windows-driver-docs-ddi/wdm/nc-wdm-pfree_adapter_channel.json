@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PFREE_ADAPTER_CHANNEL",
+  "title": "PFREE_ADAPTER_CHANNEL (wdm.h)",
+  "description": "The FreeAdapterChannel routine releases the system DMA controller when a driver has completed all DMA operations necessary to satisfy the current IRP.",
+  "old-location": "kernel\\freeadapterchannel.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PFREE_ADAPTER_CHANNEL callback function"
+  ],
+  "ms.keywords": "FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_CHANNEL, PFREE_ADAPTER_CHANNEL callback, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml, kernel.freeadapterchannel, wdm/FreeAdapterChannel",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlDispatch, IrqlDispatch(storport)",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFREE_ADAPTER_CHANNEL",
+    "wdm/PFREE_ADAPTER_CHANNEL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "PFREE_ADAPTER_CHANNEL"
+  ]
+}

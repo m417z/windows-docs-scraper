@@ -1,0 +1,63 @@
+{
+  "UID": "NF:clusapi.ClusterGroupCloseEnum",
+  "title": "ClusterGroupCloseEnum function (clusapi.h)",
+  "description": "Closes a group enumeration handle.",
+  "helpviewer_keywords": [
+    "ClusterGroupCloseEnum",
+    "ClusterGroupCloseEnum function [Failover Cluster]",
+    "PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM",
+    "PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM function [Failover Cluster]",
+    "_wolf_clustergroupcloseenum",
+    "clusapi/ClusterGroupCloseEnum",
+    "clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM",
+    "mscs.clustergroupcloseenum"
+  ],
+  "old-location": "mscs\\clustergroupcloseenum.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "9bdab6b9-a54d-4166-988c-effdeb2ab254",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterGroupCloseEnum, ClusterGroupCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM function [Failover Cluster], _wolf_clustergroupcloseenum, clusapi/ClusterGroupCloseEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, mscs.clustergroupcloseenum",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterGroupCloseEnum",
+    "clusapi/ClusterGroupCloseEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "ClusterGroupCloseEnum"
+  ]
+}

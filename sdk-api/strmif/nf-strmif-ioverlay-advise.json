@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IOverlay.Advise",
+  "title": "IOverlay::Advise (strmif.h)",
+  "description": "The Advise method sets up an advise link for the overlay events specified by the dwInterests parameter.",
+  "helpviewer_keywords": [
+    "Advise",
+    "Advise method [DirectShow]",
+    "Advise method [DirectShow]",
+    "IOverlay interface",
+    "IOverlay interface [DirectShow]",
+    "Advise method",
+    "IOverlay.Advise",
+    "IOverlay::Advise",
+    "IOverlayAdvise",
+    "dshow.ioverlay_advise",
+    "strmif/IOverlay::Advise"
+  ],
+  "old-location": "dshow\\ioverlay_advise.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "02db2233-b185-47a9-9655-409991a74d4e",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "Advise, Advise method [DirectShow], Advise method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],Advise method, IOverlay.Advise, IOverlay::Advise, IOverlayAdvise, dshow.ioverlay_advise, strmif/IOverlay::Advise",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOverlay::Advise",
+    "strmif/IOverlay::Advise"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IOverlay.Advise"
+  ]
+}

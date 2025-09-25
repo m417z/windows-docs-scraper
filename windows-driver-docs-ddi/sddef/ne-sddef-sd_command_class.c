@@ -1,0 +1,4 @@
+typedef enum {
+  SDCC_STANDARD,
+  SDCC_APP_CMD
+} SD_COMMAND_CLASS;

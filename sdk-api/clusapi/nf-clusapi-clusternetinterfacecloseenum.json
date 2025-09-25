@@ -1,0 +1,58 @@
+{
+  "UID": "NF:clusapi.ClusterNetInterfaceCloseEnum",
+  "title": "ClusterNetInterfaceCloseEnum function (clusapi.h)",
+  "description": "Closes a network interface enumeration handle.",
+  "helpviewer_keywords": [
+    "ClusterNetInterfaceCloseEnum",
+    "ClusterNetInterfaceCloseEnum function [Failover Cluster]",
+    "clusapi/ClusterNetInterfaceCloseEnum",
+    "mscs.clusternetinterfacecloseenum"
+  ],
+  "old-location": "mscs\\clusternetinterfacecloseenum.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "da7819b5-0f18-44e3-83e7-f6d5ccbc0de6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClusterNetInterfaceCloseEnum, ClusterNetInterfaceCloseEnum function [Failover Cluster], clusapi/ClusterNetInterfaceCloseEnum, mscs.clusternetinterfacecloseenum",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClusterNetInterfaceCloseEnum",
+    "clusapi/ClusterNetInterfaceCloseEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "ClusterNetInterfaceCloseEnum"
+  ]
+}

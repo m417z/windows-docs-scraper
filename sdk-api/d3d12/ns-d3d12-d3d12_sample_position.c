@@ -1,0 +1,4 @@
+typedef struct D3D12_SAMPLE_POSITION {
+  INT8 X;
+  INT8 Y;
+} D3D12_SAMPLE_POSITION;

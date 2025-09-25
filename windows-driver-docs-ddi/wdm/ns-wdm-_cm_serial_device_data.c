@@ -1,0 +1,5 @@
+typedef struct _CM_SERIAL_DEVICE_DATA {
+  USHORT Version;
+  USHORT Revision;
+  ULONG  BaudClock;
+} CM_SERIAL_DEVICE_DATA, *PCM_SERIAL_DEVICE_DATA;

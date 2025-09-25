@@ -1,0 +1,65 @@
+{
+  "UID": "NF:oleacc.IAccPropServices.ClearProps",
+  "title": "IAccPropServices::ClearProps (oleacc.h)",
+  "description": "Servers use ClearProps to restore default values to properties of accessible elements that they had previously annotated.",
+  "helpviewer_keywords": [
+    "ClearProps",
+    "ClearProps method [Windows Accessibility]",
+    "ClearProps method [Windows Accessibility]",
+    "IAccPropServices interface",
+    "IAccPropServices interface [Windows Accessibility]",
+    "ClearProps method",
+    "IAccPropServices.ClearProps",
+    "IAccPropServices::ClearProps",
+    "_msaa_IAccPropServices_ClearProps",
+    "msaa.iaccpropservices_iaccpropservices__clearprops",
+    "oleacc/IAccPropServices::ClearProps",
+    "winauto.iaccpropservices_iaccpropservices__clearprops"
+  ],
+  "old-location": "winauto\\iaccpropservices_iaccpropservices__clearprops.htm",
+  "tech.root": "WinAuto",
+  "ms.assetid": "6a3bce93-1d5d-48cf-84f4-cbca445b5451",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClearProps, ClearProps method [Windows Accessibility], ClearProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearProps method, IAccPropServices.ClearProps, IAccPropServices::ClearProps, _msaa_IAccPropServices_ClearProps, msaa.iaccpropservices_iaccpropservices__clearprops, oleacc/IAccPropServices::ClearProps, winauto.iaccpropservices_iaccpropservices__clearprops",
+  "req.header": "oleacc.h",
+  "req.include-header": "OleAcc.h Include Initguid.h first.",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Oleacc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAccPropServices::ClearProps",
+    "oleacc/IAccPropServices::ClearProps"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Oleacc.dll"
+  ],
+  "api_name": [
+    "IAccPropServices.ClearProps"
+  ]
+}

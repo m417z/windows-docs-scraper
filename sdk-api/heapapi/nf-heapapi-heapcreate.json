@@ -1,0 +1,68 @@
+{
+  "UID": "NF:heapapi.HeapCreate",
+  "title": "HeapCreate function (heapapi.h)",
+  "description": "Creates a private heap object that can be used by the calling process. The function reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.",
+  "helpviewer_keywords": [
+    "HEAP_CREATE_ENABLE_EXECUTE",
+    "HEAP_GENERATE_EXCEPTIONS",
+    "HEAP_NO_SERIALIZE",
+    "HeapCreate",
+    "HeapCreate function",
+    "_win32_heapcreate",
+    "base.heapcreate",
+    "heapapi/HeapCreate",
+    "winbase/HeapCreate"
+  ],
+  "old-location": "base\\heapcreate.htm",
+  "tech.root": "base",
+  "ms.assetid": "8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "HEAP_CREATE_ENABLE_EXECUTE, HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HeapCreate, HeapCreate function, _win32_heapcreate, base.heapcreate, heapapi/HeapCreate, winbase/HeapCreate",
+  "req.header": "heapapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HeapCreate",
+    "heapapi/HeapCreate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-heap-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-heap-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "HeapCreate"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddscsi.IOCTL_ATA_PASS_THROUGH",
+  "title": "IOCTL_ATA_PASS_THROUGH (ntddscsi.h)",
+  "description": "Allows an application to send almost any ATA command to a target device, with the following restrictions:\\_If a class driver for the target type of device exists, the application must send the request to the class driver.",
+  "old-location": "storage\\ioctl_ata_pass_through.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_ATA_PASS_THROUGH IOCTL"
+  ],
+  "ms.keywords": "IOCTL_ATA_PASS_THROUGH, IOCTL_ATA_PASS_THROUGH control, IOCTL_ATA_PASS_THROUGH control code [Storage Devices], k307_e93738e1-b773-452b-8776-854f9c616967.xml, ntddscsi/IOCTL_ATA_PASS_THROUGH, storage.ioctl_ata_pass_through",
+  "req.header": "ntddscsi.h",
+  "req.include-header": "Ntddscsi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows Server 2003.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_ATA_PASS_THROUGH",
+    "ntddscsi/IOCTL_ATA_PASS_THROUGH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddscsi.h"
+  ],
+  "api_name": [
+    "IOCTL_ATA_PASS_THROUGH"
+  ]
+}

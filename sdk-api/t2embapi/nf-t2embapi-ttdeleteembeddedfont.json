@@ -1,0 +1,59 @@
+{
+  "UID": "NF:t2embapi.TTDeleteEmbeddedFont",
+  "title": "TTDeleteEmbeddedFont function (t2embapi.h)",
+  "description": "Releases memory used by an embedded font, hFontReference.",
+  "helpviewer_keywords": [
+    "TTDELETE_DONTREMOVEFONT",
+    "TTDeleteEmbeddedFont",
+    "TTDeleteEmbeddedFont function [Windows GDI]",
+    "_win32_TTDeleteEmbeddedFont",
+    "gdi.ttdeleteembeddedfont",
+    "t2embapi/TTDeleteEmbeddedFont"
+  ],
+  "old-location": "gdi\\ttdeleteembeddedfont.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "cbd0945a-3f78-43d2-87f7-18e6e9d00096",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TTDELETE_DONTREMOVEFONT, TTDeleteEmbeddedFont, TTDeleteEmbeddedFont function [Windows GDI], _win32_TTDeleteEmbeddedFont, gdi.ttdeleteembeddedfont, t2embapi/TTDeleteEmbeddedFont",
+  "req.header": "t2embapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "T2embed.lib",
+  "req.dll": "T2embed.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TTDeleteEmbeddedFont",
+    "t2embapi/TTDeleteEmbeddedFont"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "T2embed.dll"
+  ],
+  "api_name": [
+    "TTDeleteEmbeddedFont"
+  ]
+}

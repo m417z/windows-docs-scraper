@@ -1,0 +1,4 @@
+typedef struct _NDIS_WWAN_SMS_SEND {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_SMS_SEND      SmsSend;
+} NDIS_WWAN_SMS_SEND, *PNDIS_WWAN_SMS_SEND;

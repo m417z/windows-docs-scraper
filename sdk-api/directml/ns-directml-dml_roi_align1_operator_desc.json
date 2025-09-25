@@ -1,0 +1,47 @@
+{
+  "UID": "NS:directml.DML_ROI_ALIGN1_OPERATOR_DESC",
+  "title": "DML_ROI_ALIGN1_OPERATOR_DESC",
+  "description": "Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. In summary, the operation extracts cropped windows from the input image tensor, and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.",
+  "tech.root": "directml",
+  "ms.date": "01/19/2022",
+  "req.construct-type": "structure",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "DML_ROI_ALIGN1_OPERATOR_DESC",
+    "directml/DML_ROI_ALIGN1_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "directml.h"
+  ],
+  "api_name": [
+    "DML_ROI_ALIGN1_OPERATOR_DESC"
+  ]
+}

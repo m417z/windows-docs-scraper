@@ -1,0 +1,76 @@
+{
+  "UID": "NF:wow64apiset.GetSystemWow64DirectoryW",
+  "title": "GetSystemWow64DirectoryW function (wow64apiset.h)",
+  "description": "Retrieves the path of the system directory used by WOW64. (Unicode)",
+  "helpviewer_keywords": [
+    "GetSystemWow64Directory",
+    "GetSystemWow64Directory function",
+    "GetSystemWow64DirectoryW",
+    "_win32_getsystemwow64directory",
+    "base.getsystemwow64directory",
+    "wow64apiset/GetSystemWow64Directory",
+    "wow64apiset/GetSystemWow64DirectoryW"
+  ],
+  "old-location": "base\\getsystemwow64directory.htm",
+  "tech.root": "fs",
+  "ms.assetid": "31ccd1bf-87c7-4df6-ae9d-5a3dfbd8b38b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetSystemWow64Directory, GetSystemWow64Directory function, GetSystemWow64DirectoryA, GetSystemWow64DirectoryW, _win32_getsystemwow64directory, base.getsystemwow64directory, wow64apiset/GetSystemWow64Directory, wow64apiset/GetSystemWow64DirectoryA, wow64apiset/GetSystemWow64DirectoryW",
+  "req.header": "wow64apiset.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetSystemWow64DirectoryW (Unicode) and GetSystemWow64DirectoryA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetSystemWow64DirectoryW",
+    "wow64apiset/GetSystemWow64DirectoryW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-wow64-l1-1-3.dll",
+    "api-ms-win-core-wow64-l1-1-2.dll",
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-Wow64-l1-1-1.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "GetSystemWow64Directory",
+    "GetSystemWow64DirectoryA",
+    "GetSystemWow64DirectoryW"
+  ]
+}

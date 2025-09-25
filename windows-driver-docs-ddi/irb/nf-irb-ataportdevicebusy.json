@@ -1,0 +1,48 @@
+{
+  "UID": "NF:irb.AtaPortDeviceBusy",
+  "title": "AtaPortDeviceBusy function (irb.h)",
+  "description": "The AtaPortDeviceBusy routine informs the port driver that the indicated device is busy.",
+  "old-location": "storage\\ataportdevicebusy.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortDeviceBusy function"
+  ],
+  "ms.keywords": "AtaPortDeviceBusy, AtaPortDeviceBusy routine [Storage Devices], atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, irb/AtaPortDeviceBusy, storage.ataportdevicebusy",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortDeviceBusy",
+    "irb/AtaPortDeviceBusy"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "irb.h"
+  ],
+  "api_name": [
+    "AtaPortDeviceBusy"
+  ]
+}

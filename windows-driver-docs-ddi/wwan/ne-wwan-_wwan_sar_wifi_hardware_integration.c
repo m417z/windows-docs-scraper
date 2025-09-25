@@ -1,0 +1,4 @@
+typedef enum _WWAN_SAR_WIFI_HARDWARE_INTEGRATION {
+  WwanSarWifiHardwareNotIntegrated,
+  WwanSarWifiHardwareIntegrated
+} WWAN_SAR_WIFI_HARDWARE_INTEGRATION, *PWWAN_SAR_WIFI_HARDWARE_INTEGRATION;

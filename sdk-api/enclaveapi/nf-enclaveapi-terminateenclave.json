@@ -1,0 +1,60 @@
+{
+  "UID": "NF:enclaveapi.TerminateEnclave",
+  "title": "TerminateEnclave function (enclaveapi.h)",
+  "description": "Ends the execution of the threads that are running within an enclave.",
+  "helpviewer_keywords": [
+    "TerminateEnclave",
+    "TerminateEnclave function",
+    "base.terminateenclave",
+    "enclaveapi/TerminateEnclave"
+  ],
+  "old-location": "base\\terminateenclave.htm",
+  "tech.root": "base",
+  "ms.assetid": "D2BAF02F-AE05-43F2-BDB1-013EAF3AC653",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "TerminateEnclave, TerminateEnclave function, base.terminateenclave, enclaveapi/TerminateEnclave",
+  "req.header": "enclaveapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "kernel32.dll; Api-ms-win-core-enclave-l1-1-0.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TerminateEnclave",
+    "enclaveapi/TerminateEnclave"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-enclave-l1-1-1.dll",
+    "kernel32.dll",
+    "api-ms-win-core-enclave-l1-1-0.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "TerminateEnclave"
+  ]
+}

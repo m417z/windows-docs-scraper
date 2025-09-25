@@ -1,0 +1,54 @@
+{
+  "UID": "NE:miniport._KINTERRUPT_POLARITY",
+  "title": "_KINTERRUPT_POLARITY (miniport.h)",
+  "description": "The _KINTERRUPT_POLARITY enumeration (miniport.h) contains values that indicate how a device signals an interrupt request on an interrupt line.",
+  "old-location": "kernel\\kinterrupt_polarity.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KINTERRUPT_POLARITY enumeration"
+  ],
+  "ms.keywords": "*PKINTERRUPT_POLARITY, InterruptActiveBoth, InterruptActiveBothTriggerHigh, InterruptActiveBothTriggerLow, InterruptActiveHigh, InterruptActiveLow, InterruptFallingEdge, InterruptPolarityUnknown, InterruptRisingEdge, KINTERRUPT_POLARITY, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], PKINTERRUPT_POLARITY, PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], _KINTERRUPT_POLARITY, kernel.kinterrupt_polarity, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/InterruptActiveBoth, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptActiveBothTriggerLow, wdm/InterruptActiveHigh, wdm/InterruptActiveLow, wdm/InterruptFallingEdge, wdm/InterruptPolarityUnknown, wdm/InterruptRisingEdge, wdm/KINTERRUPT_POLARITY, wdm/PKINTERRUPT_POLARITY",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KINTERRUPT_POLARITY, *PKINTERRUPT_POLARITY",
+  "f1_keywords": [
+    "_KINTERRUPT_POLARITY",
+    "miniport/_KINTERRUPT_POLARITY",
+    "PKINTERRUPT_POLARITY",
+    "miniport/PKINTERRUPT_POLARITY",
+    "KINTERRUPT_POLARITY",
+    "miniport/KINTERRUPT_POLARITY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_KINTERRUPT_POLARITY",
+    "PKINTERRUPT_POLARITY",
+    "KINTERRUPT_POLARITY"
+  ]
+}

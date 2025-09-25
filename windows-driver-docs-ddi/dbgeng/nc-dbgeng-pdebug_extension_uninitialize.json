@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dbgeng.PDEBUG_EXTENSION_UNINITIALIZE",
+  "title": "PDEBUG_EXTENSION_UNINITIALIZE (dbgeng.h)",
+  "description": "The DebugExtensionUninitialize callback function is called by the engine to uninitialize the DbgEng extension DLL before it is unloaded.",
+  "old-location": "debugger\\debugextensionuninitialize.htm",
+  "tech.root": "debugger",
+  "ms.date": "08/10/2023",
+  "keywords": [
+    "PDEBUG_EXTENSION_UNINITIALIZE callback function"
+  ],
+  "ms.keywords": "DebugExtensionUninitialize, DebugExtensionUninitialize callback function [Windows Debugging], Extensions_Ref_76594e24-5f2d-495f-b8a9-6acec1f21ba4.xml, PDEBUG_EXTENSION_UNINITIALIZE, PDEBUG_EXTENSION_UNINITIALIZE callback, dbgeng/DebugExtensionUninitialize, debugger.debugextensionuninitialize",
+  "req.header": "dbgeng.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PDEBUG_EXTENSION_UNINITIALIZE",
+    "dbgeng/PDEBUG_EXTENSION_UNINITIALIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "PDEBUG_EXTENSION_UNINITIALIZE"
+  ]
+}

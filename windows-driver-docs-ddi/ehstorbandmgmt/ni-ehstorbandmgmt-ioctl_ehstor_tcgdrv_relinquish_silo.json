@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ehstorbandmgmt.IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO",
+  "title": "IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO (ehstorbandmgmt.h)",
+  "description": "The IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO request relinquishes control of band management by the Trusted Computing Group (TCG) Storage Silo driver.",
+  "old-location": "storage\\ioctl_ehstor_tcgdrv_relinquish_silo.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO IOCTL"
+  ],
+  "ms.keywords": "IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, storage.ioctl_ehstor_tcgdrv_relinquish_silo",
+  "req.header": "ehstorbandmgmt.h",
+  "req.include-header": "EhStorBandMgmt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO",
+    "ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "EhStorBandMgmt.h"
+  ],
+  "api_name": [
+    "IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO"
+  ]
+}

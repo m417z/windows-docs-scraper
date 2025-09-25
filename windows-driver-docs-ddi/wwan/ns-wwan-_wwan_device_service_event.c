@@ -1,0 +1,5 @@
+typedef struct _WWAN_DEVICE_SERVICE_EVENT {
+  GUID  DeviceServiceGuid;
+  ULONG EventID;
+  ULONG uDataSize;
+} WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT;

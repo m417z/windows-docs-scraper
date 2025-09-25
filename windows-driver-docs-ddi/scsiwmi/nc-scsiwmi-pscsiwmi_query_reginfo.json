@@ -1,0 +1,48 @@
+{
+  "UID": "NC:scsiwmi.PSCSIWMI_QUERY_REGINFO",
+  "title": "PSCSIWMI_QUERY_REGINFO (scsiwmi.h)",
+  "description": "A miniport driver's HwScsiWmiQueryReginfo routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver.",
+  "old-location": "storage\\hwscsiwmiqueryreginfo.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "PSCSIWMI_QUERY_REGINFO callback function"
+  ],
+  "ms.keywords": "HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo",
+  "req.header": "scsiwmi.h",
+  "req.include-header": "Scsiwmi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSCSIWMI_QUERY_REGINFO",
+    "scsiwmi/PSCSIWMI_QUERY_REGINFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "scsiwmi.h"
+  ],
+  "api_name": [
+    "PSCSIWMI_QUERY_REGINFO"
+  ]
+}

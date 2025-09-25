@@ -1,0 +1,4 @@
+HRESULT put_IpAddressSource(
+  WDSTRANSPORT_IP_ADDRESS_TYPE        AddressType,
+  WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE SourceType
+);

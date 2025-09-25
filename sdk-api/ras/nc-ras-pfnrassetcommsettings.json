@@ -1,0 +1,60 @@
+{
+  "UID": "NC:ras.PFNRASSETCOMMSETTINGS",
+  "title": "PFNRASSETCOMMSETTINGS (ras.h)",
+  "description": "Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.",
+  "helpviewer_keywords": [
+    "PFNRASSETCOMMSETTINGS",
+    "PFNRASSETCOMMSETTINGS callback",
+    "RasSetCommSettings",
+    "RasSetCommSettings callback function [RAS]",
+    "_ras_rassetcommsettings",
+    "ras/RasSetCommSettings",
+    "rras.rassetcommsettings"
+  ],
+  "old-location": "rras\\rassetcommsettings.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "1df305b8-39b0-4426-b20a-62aa79240f67",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PFNRASSETCOMMSETTINGS, PFNRASSETCOMMSETTINGS callback, RasSetCommSettings, RasSetCommSettings callback function [RAS], _ras_rassetcommsettings, ras/RasSetCommSettings, rras.rassetcommsettings",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP, Windows 2000 Professional with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003, Windows 2000 Server with SP2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PFNRASSETCOMMSETTINGS",
+    "ras/PFNRASSETCOMMSETTINGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ras.h"
+  ],
+  "api_name": [
+    "RasSetCommSettings"
+  ]
+}

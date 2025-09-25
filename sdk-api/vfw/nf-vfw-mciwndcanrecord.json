@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndCanRecord",
+  "title": "MCIWndCanRecord macro (vfw.h)",
+  "description": "The MCIWndCanRecord macro determines if an MCI device supports recording. You can use this macro or explicitly send the MCIWNDM_CAN_RECORD message.",
+  "helpviewer_keywords": [
+    "MCIWndCanRecord",
+    "MCIWndCanRecord macro [Windows Multimedia]",
+    "_win32_MCIWndCanRecord",
+    "multimedia.mciwndcanrecord",
+    "vfw/MCIWndCanRecord"
+  ],
+  "old-location": "multimedia\\mciwndcanrecord.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "836747de-9306-4219-b462-e2c8efd42666",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndCanRecord, MCIWndCanRecord macro [Windows Multimedia], _win32_MCIWndCanRecord, multimedia.mciwndcanrecord, vfw/MCIWndCanRecord",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndCanRecord",
+    "vfw/MCIWndCanRecord"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndCanRecord"
+  ]
+}

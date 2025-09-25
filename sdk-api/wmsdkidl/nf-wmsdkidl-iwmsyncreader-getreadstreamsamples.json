@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMSyncReader.GetReadStreamSamples",
+  "title": "IWMSyncReader::GetReadStreamSamples (wmsdkidl.h)",
+  "description": "The GetReadStreamSamples method ascertains whether a stream is configured to deliver compressed samples.",
+  "helpviewer_keywords": [
+    "GetReadStreamSamples",
+    "GetReadStreamSamples method [windows Media Format]",
+    "GetReadStreamSamples method [windows Media Format]",
+    "IWMSyncReader interface",
+    "IWMSyncReader interface [windows Media Format]",
+    "GetReadStreamSamples method",
+    "IWMSyncReader.GetReadStreamSamples",
+    "IWMSyncReader::GetReadStreamSamples",
+    "IWMSyncReaderGetReadStreamSamples",
+    "wmformat.iwmsyncreader_getreadstreamsamples",
+    "wmsdkidl/IWMSyncReader::GetReadStreamSamples"
+  ],
+  "old-location": "wmformat\\iwmsyncreader_getreadstreamsamples.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "cb903723-fd4b-4b1c-aa2f-e3c9f74dcebd",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetReadStreamSamples, GetReadStreamSamples method [windows Media Format], GetReadStreamSamples method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetReadStreamSamples method, IWMSyncReader.GetReadStreamSamples, IWMSyncReader::GetReadStreamSamples, IWMSyncReaderGetReadStreamSamples, wmformat.iwmsyncreader_getreadstreamsamples, wmsdkidl/IWMSyncReader::GetReadStreamSamples",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMSyncReader::GetReadStreamSamples",
+    "wmsdkidl/IWMSyncReader::GetReadStreamSamples"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMSyncReader.GetReadStreamSamples"
+  ]
+}

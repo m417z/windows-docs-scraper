@@ -1,0 +1,58 @@
+{
+  "UID": "NF:elscore.MappingGetServices",
+  "title": "MappingGetServices function (elscore.h)",
+  "description": "Retrieves a list of available ELS platform-supported services, along with associated information, according to application-specified criteria.",
+  "helpviewer_keywords": [
+    "MappingGetServices",
+    "MappingGetServices function [Internationalization for Windows Applications]",
+    "elscore/MappingGetServices",
+    "intl.mappinggetservices"
+  ],
+  "old-location": "intl\\mappinggetservices.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "6d02e085-405e-4388-bf2f-409c92a7b190",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MappingGetServices, MappingGetServices function [Internationalization for Windows Applications], elscore/MappingGetServices, intl.mappinggetservices",
+  "req.header": "elscore.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Elscore.lib",
+  "req.dll": "Elscore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MappingGetServices",
+    "elscore/MappingGetServices"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Elscore.dll",
+    "ext-ms-win-els-elscore-l1-1-0.dll"
+  ],
+  "api_name": [
+    "MappingGetServices"
+  ]
+}

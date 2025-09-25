@@ -1,0 +1,3 @@
+void FNFCIREAD(
+  fn
+);

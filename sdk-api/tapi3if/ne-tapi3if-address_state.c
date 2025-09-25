@@ -1,0 +1,4 @@
+typedef enum ADDRESS_STATE {
+  AS_INSERVICE = 0,
+  AS_OUTOFSERVICE
+} ;

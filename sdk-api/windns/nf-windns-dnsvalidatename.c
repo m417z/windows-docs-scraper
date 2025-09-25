@@ -1,0 +1,4 @@
+void DnsValidateName(
+  p,
+  f
+);

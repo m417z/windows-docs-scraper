@@ -1,0 +1,4 @@
+typedef struct _MESSAGE_RESOURCE_DATA {
+  DWORD                  NumberOfBlocks;
+  MESSAGE_RESOURCE_BLOCK Blocks[1];
+} MESSAGE_RESOURCE_DATA, *PMESSAGE_RESOURCE_DATA;

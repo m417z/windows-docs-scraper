@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisIfAllocateNetLuidIndex",
+  "title": "NdisIfAllocateNetLuidIndex function (ndis.h)",
+  "description": "The NdisIfAllocateNetLuidIndex function allocates a NET_LUID index for an NDIS network interface provider.",
+  "old-location": "netvista\\ndisifallocatenetluidindex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisIfAllocateNetLuidIndex function"
+  ],
+  "ms.keywords": "NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Interfaces_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisIfAllocateNetLuidIndex",
+    "ndis/NdisIfAllocateNetLuidIndex"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisIfAllocateNetLuidIndex"
+  ]
+}

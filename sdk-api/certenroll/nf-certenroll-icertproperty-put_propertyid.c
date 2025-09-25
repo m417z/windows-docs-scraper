@@ -1,0 +1,3 @@
+HRESULT put_PropertyId(
+  CERTENROLL_PROPERTYID Value
+);

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndReturnString",
+  "title": "MCIWndReturnString macro (vfw.h)",
+  "description": "The MCIWndReturnString macro retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can use this macro or explicitly send the MCIWNDM_RETURNSTRING message.",
+  "helpviewer_keywords": [
+    "MCIWndReturnString",
+    "MCIWndReturnString macro [Windows Multimedia]",
+    "_win32_MCIWndReturnString",
+    "multimedia.mciwndreturnstring",
+    "vfw/MCIWndReturnString"
+  ],
+  "old-location": "multimedia\\mciwndreturnstring.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "8e7d54ec-882b-4896-a493-3ed61aec6184",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndReturnString, MCIWndReturnString macro [Windows Multimedia], _win32_MCIWndReturnString, multimedia.mciwndreturnstring, vfw/MCIWndReturnString",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndReturnString",
+    "vfw/MCIWndReturnString"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndReturnString"
+  ]
+}

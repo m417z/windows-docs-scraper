@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.ICaptureGraphBuilder2.AllocCapFile",
+  "title": "ICaptureGraphBuilder2::AllocCapFile (strmif.h)",
+  "description": "The AllocCapFile method preallocates a capture file to a specified size. For best results, always capture to a defragmented, preallocated capture file that is larger than the size of the capture data.",
+  "helpviewer_keywords": [
+    "AllocCapFile",
+    "AllocCapFile method [DirectShow]",
+    "AllocCapFile method [DirectShow]",
+    "ICaptureGraphBuilder2 interface",
+    "ICaptureGraphBuilder2 interface [DirectShow]",
+    "AllocCapFile method",
+    "ICaptureGraphBuilder2.AllocCapFile",
+    "ICaptureGraphBuilder2::AllocCapFile",
+    "ICaptureGraphBuilder2AllocCapFile",
+    "dshow.icapturegraphbuilder2_alloccapfile",
+    "strmif/ICaptureGraphBuilder2::AllocCapFile"
+  ],
+  "old-location": "dshow\\icapturegraphbuilder2_alloccapfile.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "e61459bd-cccb-4857-b336-82d23135fa16",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "AllocCapFile, AllocCapFile method [DirectShow], AllocCapFile method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],AllocCapFile method, ICaptureGraphBuilder2.AllocCapFile, ICaptureGraphBuilder2::AllocCapFile, ICaptureGraphBuilder2AllocCapFile, dshow.icapturegraphbuilder2_alloccapfile, strmif/ICaptureGraphBuilder2::AllocCapFile",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICaptureGraphBuilder2::AllocCapFile",
+    "strmif/ICaptureGraphBuilder2::AllocCapFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "ICaptureGraphBuilder2.AllocCapFile"
+  ]
+}

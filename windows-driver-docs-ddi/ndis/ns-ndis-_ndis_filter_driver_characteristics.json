@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._NDIS_FILTER_DRIVER_CHARACTERISTICS",
+  "title": "_NDIS_FILTER_DRIVER_CHARACTERISTICS (ndis.h)",
+  "description": "To specify its driver characteristics, a filter driver initializes an NDIS_FILTER_DRIVER_CHARACTERISTICS structure and passes it to NDIS.",
+  "old-location": "netvista\\ndis_filter_driver_characteristics.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/03/2019",
+  "keywords": [
+    "NDIS_FILTER_DRIVER_CHARACTERISTICS structure"
+  ],
+  "ms.keywords": "*PNDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_DRIVER_CHARACTERISTICS, filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_FILTER_DRIVER_CHARACTERISTICS, *PNDIS_FILTER_DRIVER_CHARACTERISTICS",
+  "f1_keywords": [
+    "_NDIS_FILTER_DRIVER_CHARACTERISTICS",
+    "ndis/_NDIS_FILTER_DRIVER_CHARACTERISTICS",
+    "PNDIS_FILTER_DRIVER_CHARACTERISTICS",
+    "ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS",
+    "NDIS_FILTER_DRIVER_CHARACTERISTICS",
+    "ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "_NDIS_FILTER_DRIVER_CHARACTERISTICS",
+    "PNDIS_FILTER_DRIVER_CHARACTERISTICS",
+    "NDIS_FILTER_DRIVER_CHARACTERISTICS"
+  ]
+}

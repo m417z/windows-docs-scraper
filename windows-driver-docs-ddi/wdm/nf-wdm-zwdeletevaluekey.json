@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ZwDeleteValueKey",
+  "title": "ZwDeleteValueKey function (wdm.h)",
+  "description": "The ZwDeleteValueKey routine deletes a value entry matching a name from an open key in the registry. If no such entry exists, an error is returned.",
+  "tech.root": "kernel",
+  "ms.date": "12/14/2022",
+  "keywords": [
+    "ZwDeleteValueKey function"
+  ],
+  "ms.keywords": "NtDeleteValueKey, ZwDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, kernel.zwdeletevaluekey, wdm/NtDeleteValueKey, wdm/ZwDeleteValueKey",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwDeleteValueKey",
+    "wdm/ZwDeleteValueKey"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwDeleteValueKey"
+  ]
+}

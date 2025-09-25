@@ -1,0 +1,70 @@
+{
+  "UID": "NF:winbase.CreateHardLinkW",
+  "title": "CreateHardLinkW function (winbase.h)",
+  "description": "Establishes a hard link between an existing file and a new file. (Unicode)",
+  "helpviewer_keywords": [
+    "CreateHardLink",
+    "CreateHardLink function [Files]",
+    "CreateHardLinkW",
+    "_win32_createhardlink",
+    "base.createhardlink",
+    "fs.createhardlink",
+    "winbase/CreateHardLink",
+    "winbase/CreateHardLinkW"
+  ],
+  "old-location": "fs\\createhardlink.htm",
+  "tech.root": "fs",
+  "ms.assetid": "9b0d3f04-775f-44ea-b563-93dee29a278a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, CreateHardLinkW, _win32_createhardlink, base.createhardlink, fs.createhardlink, winbase/CreateHardLink, winbase/CreateHardLinkA, winbase/CreateHardLinkW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CreateHardLinkW (Unicode) and CreateHardLinkA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateHardLinkW",
+    "winbase/CreateHardLinkW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l2-1-4.dll",
+    "api-ms-win-core-file-l2-1-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l2-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l2-1-1.dll",
+    "API-MS-Win-Core-File-l2-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CreateHardLink",
+    "CreateHardLinkA",
+    "CreateHardLinkW"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:secext.GetUserNameExW",
+  "title": "GetUserNameExW function (secext.h)",
+  "description": "Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name. (Unicode)",
+  "helpviewer_keywords": [
+    "GetUserNameEx",
+    "GetUserNameEx function",
+    "GetUserNameExW",
+    "_win32_getusernameex",
+    "base.getusernameex",
+    "secext/GetUserNameEx",
+    "secext/GetUserNameExW"
+  ],
+  "old-location": "base\\getusernameex.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "7e7d618b-2e64-4b0b-aed3-f3221b0443ca",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW",
+  "req.header": "secext.h",
+  "req.include-header": "Security.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetUserNameExW (Unicode) and GetUserNameExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "Secur32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetUserNameExW",
+    "secext/GetUserNameExW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Secur32.dll"
+  ],
+  "api_name": [
+    "GetUserNameEx",
+    "GetUserNameExA",
+    "GetUserNameExW"
+  ]
+}

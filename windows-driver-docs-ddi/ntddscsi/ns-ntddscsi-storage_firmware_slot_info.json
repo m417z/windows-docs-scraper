@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntddscsi._STORAGE_FIRMWARE_SLOT_INFO",
+  "tech.root": "storage",
+  "title": "STORAGE_FIRMWARE_SLOT_INFO",
+  "ms.date": "06/24/2024",
+  "targetos": "Windows",
+  "description": "Learn about the STORAGE_FIRMWARE_SLOT_INFO structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddscsi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STORAGE_FIRMWARE_SLOT_INFO, *PSTORAGE_FIRMWARE_SLOT_INFO",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddscsi.h"
+  ],
+  "api_name": [
+    "_STORAGE_FIRMWARE_SLOT_INFO",
+    "PSTORAGE_FIRMWARE_SLOT_INFO",
+    "STORAGE_FIRMWARE_SLOT_INFO"
+  ],
+  "f1_keywords": [
+    "_STORAGE_FIRMWARE_SLOT_INFO",
+    "ntddscsi/_STORAGE_FIRMWARE_SLOT_INFO",
+    "PSTORAGE_FIRMWARE_SLOT_INFO",
+    "ntddscsi/PSTORAGE_FIRMWARE_SLOT_INFO",
+    "STORAGE_FIRMWARE_SLOT_INFO",
+    "ntddscsi/STORAGE_FIRMWARE_SLOT_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_STORAGE_FIRMWARE_SLOT_INFO"
+  ]
+}

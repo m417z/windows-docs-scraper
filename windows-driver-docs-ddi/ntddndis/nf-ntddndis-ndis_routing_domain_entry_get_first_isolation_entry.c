@@ -1,0 +1,3 @@
+void NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY(
+  _RoutingDomainEntry_
+);

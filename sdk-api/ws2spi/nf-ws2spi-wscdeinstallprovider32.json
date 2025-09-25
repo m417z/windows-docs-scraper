@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ws2spi.WSCDeinstallProvider32",
+  "title": "WSCDeinstallProvider32 function (ws2spi.h)",
+  "description": "Removes the specified 32-bit transport provider from the system configuration database.",
+  "helpviewer_keywords": [
+    "WSCDeinstallProvider32",
+    "WSCDeinstallProvider32 function [Winsock]",
+    "winsock.wscdeinstallprovider32",
+    "ws2spi/WSCDeinstallProvider32"
+  ],
+  "old-location": "winsock\\wscdeinstallprovider32.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "3de74059-dbfb-49b9-830b-7b2f81f8b68c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32",
+  "req.header": "ws2spi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSCDeinstallProvider32",
+    "ws2spi/WSCDeinstallProvider32"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSCDeinstallProvider32"
+  ]
+}

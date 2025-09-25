@@ -1,0 +1,69 @@
+{
+  "UID": "NF:ras.RasConnectionNotificationW",
+  "title": "RasConnectionNotificationW function (ras.h)",
+  "description": "The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated. (Unicode)",
+  "helpviewer_keywords": [
+    "RASCN_BandwidthAdded",
+    "RASCN_BandwidthRemoved",
+    "RASCN_Connection",
+    "RASCN_Disconnection",
+    "RasConnectionNotification",
+    "RasConnectionNotification function [RAS]",
+    "RasConnectionNotificationW",
+    "_ras_rasconnectionnotification",
+    "ras/RasConnectionNotification",
+    "ras/RasConnectionNotificationW",
+    "rras.rasconnectionnotification"
+  ],
+  "old-location": "rras\\rasconnectionnotification.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "7bbf928e-9b62-44fc-9d57-6c80f89865f0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RASCN_BandwidthAdded, RASCN_BandwidthRemoved, RASCN_Connection, RASCN_Disconnection, RasConnectionNotification, RasConnectionNotification function [RAS], RasConnectionNotificationA, RasConnectionNotificationW, _ras_rasconnectionnotification, ras/RasConnectionNotification, ras/RasConnectionNotificationA, ras/RasConnectionNotificationW, rras.rasconnectionnotification",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RasConnectionNotificationW (Unicode) and RasConnectionNotificationA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasConnectionNotificationW",
+    "ras/RasConnectionNotificationW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ras-rasapi32-l1-1-2.dll",
+    "Rasapi32.dll",
+    "Ext-MS-Win-ras-rasapi32-l1-1-0.dll",
+    "Ext-MS-Win-ras-rasapi32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RasConnectionNotification",
+    "RasConnectionNotificationA",
+    "RasConnectionNotificationW"
+  ]
+}

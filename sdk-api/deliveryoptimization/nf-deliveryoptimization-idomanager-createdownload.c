@@ -1,0 +1,3 @@
+HRESULT CreateDownload(
+  IDODownload **download
+);

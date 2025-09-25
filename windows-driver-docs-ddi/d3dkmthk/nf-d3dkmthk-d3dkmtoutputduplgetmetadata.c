@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOutputDuplGetMetaData(
+  D3DKMT_OUTPUTDUPL_METADATA *unnamedParam1
+);

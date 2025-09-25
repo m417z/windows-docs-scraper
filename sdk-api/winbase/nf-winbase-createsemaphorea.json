@@ -1,0 +1,74 @@
+{
+  "UID": "NF:winbase.CreateSemaphoreA",
+  "title": "CreateSemaphoreA function (winbase.h)",
+  "description": "Creates or opens a named or unnamed semaphore object. (CreateSemaphoreA)",
+  "helpviewer_keywords": [
+    "CreateSemaphoreA",
+    "CreateSemaphoreA function",
+    "CreateSemaphoreW",
+    "base.createsemaphorea",
+    "winbase/CreateSemaphoreA",
+    "winbase/CreateSemaphoreW"
+  ],
+  "old-location": "base\\createsemaphorea.htm",
+  "tech.root": "backup",
+  "ms.assetid": "829C8CC6-3E2C-480A-9F36-41EB93CA8536",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateSemaphoreA, CreateSemaphoreA function, CreateSemaphoreW, base.createsemaphorea, winbase/CreateSemaphoreA, winbase/CreateSemaphoreW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CreateSemaphoreW (Unicode) and CreateSemaphoreA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateSemaphoreA",
+    "winbase/CreateSemaphoreA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Synch-Ansi-L1-1-0.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "CreateSemaphoreA",
+    "CreateSemaphoreA",
+    "CreateSemaphoreW"
+  ]
+}

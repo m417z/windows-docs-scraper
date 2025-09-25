@@ -1,0 +1,1 @@
+CompositingQuality GetCompositingQuality();

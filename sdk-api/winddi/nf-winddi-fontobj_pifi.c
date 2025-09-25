@@ -1,0 +1,3 @@
+IFIMETRICS * FONTOBJ_pifi(
+  FONTOBJ *pfo
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:bdasup.BdaCreateFilterFactoryEx",
+  "title": "BdaCreateFilterFactoryEx function (bdasup.h)",
+  "description": "The BdaCreateFilterFactoryEx function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology.",
+  "old-location": "stream\\bdacreatefilterfactoryex.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "BdaCreateFilterFactoryEx function"
+  ],
+  "ms.keywords": "BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, bdasup/BdaCreateFilterFactoryEx, stream.bdacreatefilterfactoryex",
+  "req.header": "bdasup.h",
+  "req.include-header": "Bdasup.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available on Microsoft Windows XP and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bdasup.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "BdaCreateFilterFactoryEx",
+    "bdasup/BdaCreateFilterFactoryEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Bdasup.lib",
+    "Bdasup.dll"
+  ],
+  "api_name": [
+    "BdaCreateFilterFactoryEx"
+  ]
+}

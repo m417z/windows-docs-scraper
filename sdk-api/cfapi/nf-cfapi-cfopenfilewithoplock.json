@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cfapi.CfOpenFileWithOplock",
+  "title": "CfOpenFileWithOplock function (cfapi.h)",
+  "description": "Opens an asynchronous opaque handle to a file or directory (for both normal and placeholder files) and sets up a proper oplock on it based on the open flags.",
+  "helpviewer_keywords": [
+    "CfOpenFileWithOplock",
+    "CfOpenFileWithOplock function",
+    "cfapi/CfOpenFileWithOplock",
+    "cloudApi.cfopenfilewithoplock"
+  ],
+  "old-location": "cloudapi\\cfopenfilewithoplock.htm",
+  "tech.root": "cloudapi",
+  "ms.assetid": "AFC48080-3B4A-4F6B-9122-25C2A025EA95",
+  "ms.date": "10/30/2023",
+  "ms.keywords": "CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFileWithOplock, cloudApi.cfopenfilewithoplock",
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "CldApi.lib",
+  "req.dll": "CldApi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CfOpenFileWithOplock",
+    "cfapi/CfOpenFileWithOplock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CldApi.dll"
+  ],
+  "api_name": [
+    "CfOpenFileWithOplock"
+  ]
+}

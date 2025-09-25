@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_INDICATE_CONNECTOR_CHANGE",
+  "title": "DXGKCB_INDICATE_CONNECTOR_CHANGE (d3dkmddi.h)",
+  "description": "DXGKCB_INDICATE_CONNECTOR_CHANGE is called by the KMD to indicate that it has added changes to its change queue which the OS should now query.",
+  "old-location": "display\\dxgkcb_indicate_connector_change.htm",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKCB_INDICATE_CONNECTOR_CHANGE callback function"
+  ],
+  "ms.keywords": "DXGKCB_INDICATE_CONNECTOR_CHANGE, DXGKCB_INDICATE_CONNECTOR_CHANGE callback, DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], d3dkmddi/DXGKCB_INDICATE_CONNECTOR_CHANGE, display.dxgkcb_indicate_connector_change",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 (WDDM 2.2)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_INDICATE_CONNECTOR_CHANGE",
+    "d3dkmddi/DXGKCB_INDICATE_CONNECTOR_CHANGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_INDICATE_CONNECTOR_CHANGE"
+  ]
+}

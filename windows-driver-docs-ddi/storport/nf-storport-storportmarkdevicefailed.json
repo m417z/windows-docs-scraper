@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.StorPortMarkDeviceFailed",
+  "title": "StorPortMarkDeviceFailed function",
+  "description": "The StorPortMarkDeviceFailed routine marks a device with failed status.",
+  "tech.root": "storage",
+  "ms.date": "03/19/2019",
+  "keywords": [
+    "StorPortMarkDeviceFailed function"
+  ],
+  "ms.keywords": "StorPortMarkDeviceFailed",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StorPortMarkDeviceFailed",
+    "storport/StorPortMarkDeviceFailed"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortMarkDeviceFailed"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

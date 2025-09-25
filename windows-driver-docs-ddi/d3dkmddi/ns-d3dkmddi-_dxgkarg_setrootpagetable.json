@@ -1,0 +1,51 @@
+{
+  "UID": "NS:d3dkmddi._DXGKARG_SETROOTPAGETABLE",
+  "title": "_DXGKARG_SETROOTPAGETABLE (d3dkmddi.h)",
+  "description": "DXGKARG_SETROOTPAGETABLE is used by the DxgkDdiSetRootPageTabledevice driver interface (DDI) to notify a context when its associated root page table is resized or moved in memory.",
+  "old-location": "display\\dxgkarg_setrootpagetable.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKARG_SETROOTPAGETABLE structure"
+  ],
+  "ms.keywords": "DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], _DXGKARG_SETROOTPAGETABLE, d3dkmddi/DXGKARG_SETROOTPAGETABLE, display.dxgkarg_setrootpagetable",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": "DXGKARG_SETROOTPAGETABLE",
+  "f1_keywords": [
+    "_DXGKARG_SETROOTPAGETABLE",
+    "d3dkmddi/_DXGKARG_SETROOTPAGETABLE",
+    "DXGKARG_SETROOTPAGETABLE",
+    "d3dkmddi/DXGKARG_SETROOTPAGETABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "_DXGKARG_SETROOTPAGETABLE",
+    "DXGKARG_SETROOTPAGETABLE"
+  ]
+}

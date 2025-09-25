@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisMCoIndicateStatusEx",
+  "title": "NdisMCoIndicateStatusEx function (ndis.h)",
+  "description": "The NdisMCoIndicateStatusEx function reports a change in the status of a CoNDIS miniport adapter.",
+  "old-location": "netvista\\ndismcoindicatestatusex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMCoIndicateStatusEx function"
+  ],
+  "ms.keywords": "NdisMCoIndicateStatusEx, NdisMCoIndicateStatusEx function [Network Drivers Starting with Windows Vista], condis_status_ref_1a0c27e2-e728-4b1d-8e45-9305869d3bfc.xml, ndis/NdisMCoIndicateStatusEx, netvista.ndismcoindicatestatusex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_MCO_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMCoIndicateStatusEx",
+    "ndis/NdisMCoIndicateStatusEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisMCoIndicateStatusEx"
+  ]
+}

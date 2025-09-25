@@ -1,0 +1,6 @@
+typedef struct {
+  INTERFACE                  Interface;
+  PFNREFERENCEDEVICEOBJECT   ReferenceDeviceObject;
+  PFNDEREFERENCEDEVICEOBJECT DereferenceDeviceObject;
+  PFNQUERYREFERENCESTRING    QueryReferenceString;
+} BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE;

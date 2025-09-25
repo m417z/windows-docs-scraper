@@ -1,0 +1,3 @@
+HRESULT FreeBuffer(
+  LPVOID lpBuffer
+);

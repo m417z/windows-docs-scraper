@@ -1,0 +1,3 @@
+HRESULT RevokeService(
+       DWORD cookie
+);

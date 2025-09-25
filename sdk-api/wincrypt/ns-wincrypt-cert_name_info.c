@@ -1,0 +1,4 @@
+typedef struct _CERT_NAME_INFO {
+  DWORD     cRDN;
+  PCERT_RDN rgRDN;
+} CERT_NAME_INFO, *PCERT_NAME_INFO;

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winbase.GetPrivateProfileStruct",
+  "title": "GetPrivateProfileStruct function (winbase.h)",
+  "description": "The GetPrivateProfileStruct function (winbase.h) retrieves the data associated with a key in the specified section of an initialization file.",
+  "helpviewer_keywords": [
+    "GetPrivateProfileStruct",
+    "GetPrivateProfileStruct function",
+    "GetPrivateProfileStructA",
+    "GetPrivateProfileStructW",
+    "_win32_getprivateprofilestruct",
+    "base.getprivateprofilestruct",
+    "winbase/GetPrivateProfileStruct",
+    "winbase/GetPrivateProfileStructA",
+    "winbase/GetPrivateProfileStructW"
+  ],
+  "old-location": "base\\getprivateprofilestruct.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "a14ba43e-d16d-4c52-a8ac-0d4c71229b7b",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "GetPrivateProfileStruct, GetPrivateProfileStruct function, GetPrivateProfileStructA, GetPrivateProfileStructW, _win32_getprivateprofilestruct, base.getprivateprofilestruct, winbase/GetPrivateProfileStruct, winbase/GetPrivateProfileStructA, winbase/GetPrivateProfileStructW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetPrivateProfileStructW (Unicode) and GetPrivateProfileStructA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetPrivateProfileStruct",
+    "winbase/GetPrivateProfileStruct"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "GetPrivateProfileStruct",
+    "GetPrivateProfileStructA",
+    "GetPrivateProfileStructW"
+  ]
+}

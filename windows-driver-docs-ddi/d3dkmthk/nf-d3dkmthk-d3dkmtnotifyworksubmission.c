@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTNotifyWorkSubmission(
+  D3DKMT_NOTIFY_WORK_SUBMISSION *unnamedParam1
+);

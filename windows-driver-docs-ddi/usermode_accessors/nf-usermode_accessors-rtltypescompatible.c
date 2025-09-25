@@ -1,0 +1,4 @@
+void RtlTypesCompatible(
+  Destination,
+  Source
+);

@@ -1,0 +1,4 @@
+typedef struct _SFVM_HELPTOPIC_DATA {
+  WCHAR wszHelpFile[MAX_PATH];
+  WCHAR wszHelpTopic[MAX_PATH];
+} SFVM_HELPTOPIC_DATA;

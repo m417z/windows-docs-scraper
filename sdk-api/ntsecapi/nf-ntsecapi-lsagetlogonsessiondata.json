@@ -1,0 +1,58 @@
+{
+  "UID": "NF:ntsecapi.LsaGetLogonSessionData",
+  "title": "LsaGetLogonSessionData function (ntsecapi.h)",
+  "description": "Retrieves information about a specified logon session.",
+  "helpviewer_keywords": [
+    "LsaGetLogonSessionData",
+    "LsaGetLogonSessionData function [Security]",
+    "_lsa_lsagetlogonsessiondata",
+    "ntsecapi/LsaGetLogonSessionData",
+    "security.lsagetlogonsessiondata"
+  ],
+  "old-location": "security\\lsagetlogonsessiondata.htm",
+  "tech.root": "security",
+  "ms.assetid": "b1478a7a-f508-4b98-8c7b-adeb2f07bb86",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "Secur32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaGetLogonSessionData",
+    "ntsecapi/LsaGetLogonSessionData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Secur32.dll"
+  ],
+  "api_name": [
+    "LsaGetLogonSessionData"
+  ]
+}

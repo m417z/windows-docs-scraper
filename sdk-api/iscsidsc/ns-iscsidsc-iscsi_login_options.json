@@ -1,0 +1,75 @@
+{
+  "UID": "NS:iscsidsc.ISCSI_LOGIN_OPTIONS",
+  "title": "ISCSI_LOGIN_OPTIONS (iscsidsc.h)",
+  "description": "ISCSI_LOGIN_OPTIONS structure is used by initiators to specify the characteristics of a login session.",
+  "helpviewer_keywords": [
+    "*PISCSI_LOGIN_OPTIONS",
+    "ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING",
+    "ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED",
+    "ISCSI_LOGIN_FLAG_REQUIRE_IPSEC",
+    "ISCSI_LOGIN_FLAG_RESERVED1",
+    "ISCSI_LOGIN_OPTIONS",
+    "ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API]",
+    "ISCSI_LOGIN_OPTIONS_AUTH_TYPE",
+    "ISCSI_LOGIN_OPTIONS_DATA_DIGEST",
+    "ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN",
+    "ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT",
+    "ISCSI_LOGIN_OPTIONS_HEADER_DIGEST",
+    "ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS",
+    "ISCSI_LOGIN_OPTIONS_PASSWORD",
+    "ISCSI_LOGIN_OPTIONS_USERNAME",
+    "PISCSI_LOGIN_OPTIONS",
+    "PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API]",
+    "iscsidisc.iscsi_login_options",
+    "iscsidsc/ISCSI_LOGIN_OPTIONS",
+    "iscsidsc/PISCSI_LOGIN_OPTIONS"
+  ],
+  "old-location": "iscsidisc\\iscsi_login_options.htm",
+  "tech.root": "iSCSIDisc",
+  "ms.assetid": "7d45be86-3d85-4253-aef7-92e05379f1b2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING, ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED, ISCSI_LOGIN_FLAG_REQUIRE_IPSEC, ISCSI_LOGIN_FLAG_RESERVED1, ISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API], ISCSI_LOGIN_OPTIONS_AUTH_TYPE, ISCSI_LOGIN_OPTIONS_DATA_DIGEST, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT, ISCSI_LOGIN_OPTIONS_HEADER_DIGEST, ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS, ISCSI_LOGIN_OPTIONS_PASSWORD, ISCSI_LOGIN_OPTIONS_USERNAME, PISCSI_LOGIN_OPTIONS, PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_login_options, iscsidsc/ISCSI_LOGIN_OPTIONS, iscsidsc/PISCSI_LOGIN_OPTIONS",
+  "req.header": "iscsidsc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PISCSI_LOGIN_OPTIONS",
+    "iscsidsc/PISCSI_LOGIN_OPTIONS",
+    "ISCSI_LOGIN_OPTIONS",
+    "iscsidsc/ISCSI_LOGIN_OPTIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Iscsidsc.h"
+  ],
+  "api_name": [
+    "ISCSI_LOGIN_OPTIONS"
+  ]
+}

@@ -1,0 +1,25 @@
+# IObjectWithProgID::GetProgID
+
+## Description
+
+Retrieves the ProgID associated with an object.
+
+## Parameters
+
+### `ppszProgID` [out]
+
+Type: **LPWSTR***
+
+A pointer to a string that, when this method returns successfully, contains the ProgID.
+
+## Return value
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## See also
+
+[IObjectWithProgID](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithprogid)
+
+[Programmatic Identifiers](https://learn.microsoft.com/windows/desktop/shell/fa-progids)

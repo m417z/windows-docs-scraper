@@ -1,0 +1,3 @@
+HRESULT GetOptionName(
+  LPWSTR *ppResult
+);

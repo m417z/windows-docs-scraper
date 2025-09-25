@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cfapi.CfConnectSyncRoot",
+  "title": "CfConnectSyncRoot function (cfapi.h)",
+  "description": "Initiates bi-directional communication between a sync provider and the sync filter API.",
+  "helpviewer_keywords": [
+    "CfConnectSyncRoot",
+    "CfConnectSyncRoot function",
+    "cfapi/CfConnectSyncRoot",
+    "cloudApi.cfconnectsyncroot"
+  ],
+  "old-location": "cloudapi\\cfconnectsyncroot.htm",
+  "tech.root": "cloudapi",
+  "ms.assetid": "287DA978-9797-48DF-9C90-BA53BB82475C",
+  "ms.date": "03/30/2023",
+  "ms.keywords": "CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncRoot, cloudApi.cfconnectsyncroot",
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "CldApi.lib",
+  "req.dll": "CldApi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CfConnectSyncRoot",
+    "cfapi/CfConnectSyncRoot"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CldApi.dll"
+  ],
+  "api_name": [
+    "CfConnectSyncRoot"
+  ]
+}

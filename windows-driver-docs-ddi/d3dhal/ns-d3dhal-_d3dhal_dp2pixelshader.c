@@ -1,0 +1,3 @@
+typedef struct _D3DHAL_DP2PIXELSHADER {
+  DWORD dwHandle;
+} D3DHAL_DP2PIXELSHADER;

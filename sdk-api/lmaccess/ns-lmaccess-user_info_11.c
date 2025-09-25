@@ -1,0 +1,22 @@
+typedef struct _USER_INFO_11 {
+  LPWSTR usri11_name;
+  LPWSTR usri11_comment;
+  LPWSTR usri11_usr_comment;
+  LPWSTR usri11_full_name;
+  DWORD  usri11_priv;
+  DWORD  usri11_auth_flags;
+  DWORD  usri11_password_age;
+  LPWSTR usri11_home_dir;
+  LPWSTR usri11_parms;
+  DWORD  usri11_last_logon;
+  DWORD  usri11_last_logoff;
+  DWORD  usri11_bad_pw_count;
+  DWORD  usri11_num_logons;
+  LPWSTR usri11_logon_server;
+  DWORD  usri11_country_code;
+  LPWSTR usri11_workstations;
+  DWORD  usri11_max_storage;
+  DWORD  usri11_units_per_week;
+  PBYTE  usri11_logon_hours;
+  DWORD  usri11_code_page;
+} USER_INFO_11, *PUSER_INFO_11, *LPUSER_INFO_11;

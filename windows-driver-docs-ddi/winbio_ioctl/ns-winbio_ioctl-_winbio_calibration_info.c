@@ -1,0 +1,5 @@
+typedef struct _WINBIO_CALIBRATION_INFO {
+  DWORD       PayloadSize;
+  HRESULT     WinBioHresult;
+  WINBIO_DATA CalibrationData;
+} WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO;

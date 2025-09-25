@@ -1,0 +1,1 @@
+LPWCH GetEnvironmentStringsW();

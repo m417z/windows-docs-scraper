@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortGetDmaContext",
+  "title": "VideoPortGetDmaContext function (video.h)",
+  "description": "The VideoPortGetDmaContext function is obsolete in Windows 2000 and later.VideoPortGetDmaContext gets the context previously associated with the specified DMA handle.",
+  "old-location": "display\\videoportgetdmacontext.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortGetDmaContext function"
+  ],
+  "ms.keywords": "VideoPortGetDmaContext, VideoPortGetDmaContext function [Display Devices], VideoPort_Functions_97335d32-fa36-4130-a050-39fbdfc08517.xml, display.videoportgetdmacontext, video/VideoPortGetDmaContext",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortGetDmaContext",
+    "video/VideoPortGetDmaContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortGetDmaContext"
+  ]
+}

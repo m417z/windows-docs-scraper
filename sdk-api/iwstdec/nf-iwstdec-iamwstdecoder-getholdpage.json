@@ -1,0 +1,65 @@
+{
+  "UID": "NF:iwstdec.IAMWstDecoder.GetHoldPage",
+  "title": "IAMWstDecoder::GetHoldPage (iwstdec.h)",
+  "description": "Downstream filters use the GetHoldPage method to determine whether the current WST page is held. When the WST decoder holds a page, any updates from the TV stream are turned off. It is though the page was paused in real time.",
+  "helpviewer_keywords": [
+    "GetHoldPage",
+    "GetHoldPage method [DirectShow]",
+    "GetHoldPage method [DirectShow]",
+    "IAMWstDecoder interface",
+    "IAMWstDecoder interface [DirectShow]",
+    "GetHoldPage method",
+    "IAMWstDecoder.GetHoldPage",
+    "IAMWstDecoder::GetHoldPage",
+    "IAMWstDecoderGetHoldPage",
+    "dshow.iamwstdecoder_getholdpage",
+    "iwstdec/IAMWstDecoder::GetHoldPage"
+  ],
+  "old-location": "dshow\\iamwstdecoder_getholdpage.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "db09b2a2-7f92-421a-8582-4ed648563119",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetHoldPage, GetHoldPage method [DirectShow], GetHoldPage method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetHoldPage method, IAMWstDecoder.GetHoldPage, IAMWstDecoder::GetHoldPage, IAMWstDecoderGetHoldPage, dshow.iamwstdecoder_getholdpage, iwstdec/IAMWstDecoder::GetHoldPage",
+  "req.header": "iwstdec.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMWstDecoder::GetHoldPage",
+    "iwstdec/IAMWstDecoder::GetHoldPage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMWstDecoder.GetHoldPage"
+  ]
+}

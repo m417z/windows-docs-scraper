@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterFileSink3.SetUnbufferedIO",
+  "title": "IWMWriterFileSink3::SetUnbufferedIO (wmsdkidl.h)",
+  "description": "The SetUnbufferedIO method specifies whether unbuffered I/O is used for the file sink. You can improve performance by using unbuffered I/O for writer sessions with a high bit rate and a long running time.",
+  "helpviewer_keywords": [
+    "IWMWriterFileSink3 interface [windows Media Format]",
+    "SetUnbufferedIO method",
+    "IWMWriterFileSink3.SetUnbufferedIO",
+    "IWMWriterFileSink3::SetUnbufferedIO",
+    "IWMWriterFileSink3SetUnbufferedIO",
+    "SetUnbufferedIO",
+    "SetUnbufferedIO method [windows Media Format]",
+    "SetUnbufferedIO method [windows Media Format]",
+    "IWMWriterFileSink3 interface",
+    "wmformat.iwmwriterfilesink3_setunbufferedio",
+    "wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO"
+  ],
+  "old-location": "wmformat\\iwmwriterfilesink3_setunbufferedio.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "51a9c21b-d301-41e4-a9bc-321a5b2decca",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMWriterFileSink3 interface [windows Media Format],SetUnbufferedIO method, IWMWriterFileSink3.SetUnbufferedIO, IWMWriterFileSink3::SetUnbufferedIO, IWMWriterFileSink3SetUnbufferedIO, SetUnbufferedIO, SetUnbufferedIO method [windows Media Format], SetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setunbufferedio, wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterFileSink3::SetUnbufferedIO",
+    "wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterFileSink3.SetUnbufferedIO"
+  ]
+}

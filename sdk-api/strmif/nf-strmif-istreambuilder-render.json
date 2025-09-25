@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IStreamBuilder.Render",
+  "title": "IStreamBuilder::Render (strmif.h)",
+  "description": "The Render method completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.",
+  "helpviewer_keywords": [
+    "IStreamBuilder interface [DirectShow]",
+    "Render method",
+    "IStreamBuilder.Render",
+    "IStreamBuilder::Render",
+    "IStreamBuilderRender",
+    "Render",
+    "Render method [DirectShow]",
+    "Render method [DirectShow]",
+    "IStreamBuilder interface",
+    "dshow.istreambuilder_render",
+    "strmif/IStreamBuilder::Render"
+  ],
+  "old-location": "dshow\\istreambuilder_render.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "7bba9d1a-03a8-4572-a08c-2e12071df73b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IStreamBuilder::Render",
+    "strmif/IStreamBuilder::Render"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IStreamBuilder.Render"
+  ]
+}

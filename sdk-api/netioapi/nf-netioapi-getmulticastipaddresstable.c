@@ -1,0 +1,4 @@
+IPHLPAPI_DLL_LINKAGE _NETIOAPI_SUCCESS_ NETIOAPI_API GetMulticastIpAddressTable(
+  [in]  ADDRESS_FAMILY                Family,
+  [out] PMIB_MULTICASTIPADDRESS_TABLE *Table
+);

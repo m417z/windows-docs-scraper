@@ -1,0 +1,68 @@
+{
+  "UID": "NF:xenroll.IEnroll4.GetKeyLenEx",
+  "title": "IEnroll4::GetKeyLenEx (xenroll.h)",
+  "description": "Retrieves size information for the signature and exchange keys.",
+  "helpviewer_keywords": [
+    "GetKeyLenEx",
+    "GetKeyLenEx method [Security]",
+    "GetKeyLenEx method [Security]",
+    "IEnroll4 interface",
+    "IEnroll4 interface [Security]",
+    "GetKeyLenEx method",
+    "IEnroll4.GetKeyLenEx",
+    "IEnroll4::GetKeyLenEx",
+    "XEKL_KEYSIZE_INC",
+    "XEKL_KEYSIZE_MAX",
+    "XEKL_KEYSIZE_MIN",
+    "XEKL_KEYSPEC_KEYX",
+    "XEKL_KEYSPEC_SIG",
+    "security.ienroll4_getkeylenex",
+    "xenroll/IEnroll4::GetKeyLenEx"
+  ],
+  "old-location": "security\\ienroll4_getkeylenex.htm",
+  "tech.root": "security",
+  "ms.assetid": "377fed60-7c04-41c1-bc3d-6567d7d8c389",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetKeyLenEx, GetKeyLenEx method [Security], GetKeyLenEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],GetKeyLenEx method, IEnroll4.GetKeyLenEx, IEnroll4::GetKeyLenEx, XEKL_KEYSIZE_INC, XEKL_KEYSIZE_MAX, XEKL_KEYSIZE_MIN, XEKL_KEYSPEC_KEYX, XEKL_KEYSPEC_SIG, security.ienroll4_getkeylenex, xenroll/IEnroll4::GetKeyLenEx",
+  "req.header": "xenroll.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": "Xenroll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IEnroll4::GetKeyLenEx",
+    "xenroll/IEnroll4::GetKeyLenEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Xenroll.dll"
+  ],
+  "api_name": [
+    "IEnroll4.GetKeyLenEx"
+  ]
+}

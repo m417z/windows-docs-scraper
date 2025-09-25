@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugSymbols5.GetFieldOffset",
+  "title": "IDebugSymbols5::GetFieldOffset method (dbgeng.h)",
+  "description": "The GetFieldOffset function returns the offset of a member from the beginning of a structure. This method belongs to the IDebugSymbols5 interface.",
+  "old-location": "debugger\\getfieldoffset.htm",
+  "tech.root": "debugger",
+  "ms.date": "07/26/2023",
+  "keywords": [
+    "IDebugSymbols5::GetFieldOffset method"
+  ],
+  "ms.keywords": "debugger.getfieldoffset, IDebugSymbols4::GetFieldOffset, WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, IDebugSymbols4, IDebugSymbols::GetFieldOffset, GetFieldOffset function [Windows Debugging], IDebugSymbols5::GetFieldOffset, wdbgexts/GetFieldOffset, GetFieldOffset, IDebugSymbols5, IDebugSymbols",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "dbgeng.h",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DOT4_ACTIVITY, *PDOT4_ACTIVITY",
+  "f1_keywords": [
+    "IDebugSymbols5::GetFieldOffset",
+    "dbgeng/IDebugSymbols5::GetFieldOffset"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "IDebugSymbols5::GetFieldOffset"
+  ]
+}

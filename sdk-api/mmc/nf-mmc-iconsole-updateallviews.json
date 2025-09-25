@@ -1,0 +1,63 @@
+{
+  "UID": "NF:mmc.IConsole.UpdateAllViews",
+  "title": "IConsole::UpdateAllViews (mmc.h)",
+  "description": "Called by a snap-in when there is a content change in the result pane. This method can be called either by IComponent or IComponentData.",
+  "helpviewer_keywords": [
+    "IConsole interface [MMC]",
+    "UpdateAllViews method",
+    "IConsole.UpdateAllViews",
+    "IConsole::UpdateAllViews",
+    "UpdateAllViews",
+    "UpdateAllViews method [MMC]",
+    "UpdateAllViews method [MMC]",
+    "IConsole interface",
+    "mmc.iconsole_updateallviews",
+    "mmc/IConsole::UpdateAllViews"
+  ],
+  "old-location": "mmc\\iconsole_updateallviews.htm",
+  "tech.root": "mmc",
+  "ms.assetid": "72A0FFF3-4084-4AD0-94E4-A7EB03F40BF2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IConsole interface [MMC],UpdateAllViews method, IConsole.UpdateAllViews, IConsole::UpdateAllViews, UpdateAllViews, UpdateAllViews method [MMC], UpdateAllViews method [MMC],IConsole interface, mmc.iconsole_updateallviews, mmc/IConsole::UpdateAllViews",
+  "req.header": "mmc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Mmc.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Mmcndmgr.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IConsole::UpdateAllViews",
+    "mmc/IConsole::UpdateAllViews"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mmcndmgr.dll"
+  ],
+  "api_name": [
+    "IConsole.UpdateAllViews"
+  ]
+}

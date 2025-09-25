@@ -1,0 +1,9 @@
+PFND3D10DDI_CREATESHADERRESOURCEVIEW Pfnd3d10ddiCreateshaderresourceview;
+
+VOID Pfnd3d10ddiCreateshaderresourceview(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D10DDIARG_CREATESHADERRESOURCEVIEW *unnamedParam2,
+  D3D10DDI_HSHADERRESOURCEVIEW unnamedParam3,
+  D3D10DDI_HRTSHADERRESOURCEVIEW unnamedParam4
+)
+{...}

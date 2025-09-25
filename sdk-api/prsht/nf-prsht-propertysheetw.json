@@ -1,0 +1,65 @@
+{
+  "UID": "NF:prsht.PropertySheetW",
+  "title": "PropertySheetW function (prsht.h)",
+  "description": "Creates a property sheet and adds the pages defined in the specified property sheet header structure. (Unicode)",
+  "helpviewer_keywords": [
+    "PropertySheet",
+    "PropertySheet function [Windows Controls]",
+    "PropertySheetW",
+    "_win32_PropertySheet",
+    "_win32_PropertySheet_cpp",
+    "controls.PropertySheet",
+    "controls._win32_PropertySheet",
+    "prsht/PropertySheet",
+    "prsht/PropertySheetW"
+  ],
+  "old-location": "controls\\PropertySheet.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\propsheet\\functions\\propertysheet.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PropertySheet, PropertySheet function [Windows Controls], PropertySheetA, PropertySheetW, _win32_PropertySheet, _win32_PropertySheet_cpp, controls.PropertySheet, controls._win32_PropertySheet, prsht/PropertySheet, prsht/PropertySheetA, prsht/PropertySheetW",
+  "req.header": "prsht.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PropertySheetW (Unicode) and PropertySheetA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Comctl32.lib",
+  "req.dll": "Comctl32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PropertySheetW",
+    "prsht/PropertySheetW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Comctl32.dll"
+  ],
+  "api_name": [
+    "PropertySheet",
+    "PropertySheetA",
+    "PropertySheetW"
+  ],
+  "req.apiset": "ext-ms-win-shell-comctl32-window-l1-1-0 (introduced in Windows 10, version 10.0.14393)"
+}

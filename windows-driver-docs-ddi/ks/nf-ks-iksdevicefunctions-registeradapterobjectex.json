@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ks.IKsDeviceFunctions.RegisterAdapterObjectEx",
+  "title": "IKsDeviceFunctions::RegisterAdapterObjectEx (ks.h)",
+  "description": "The IKsDeviceFunctions::RegisterAdapterObjectEx method registers a DMA adapter object with AVStream. All drivers compiled for Win64 platforms should use this method instead of KsDeviceRegisterAdapterObject.",
+  "old-location": "stream\\iksdevicefunctions_registeradapterobjectex.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "IKsDeviceFunctions::RegisterAdapterObjectEx"
+  ],
+  "ms.keywords": "IKsDeviceFunctions interface [Streaming Media Devices],RegisterAdapterObjectEx method, IKsDeviceFunctions.RegisterAdapterObjectEx, IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], RegisterAdapterObjectEx method [Streaming Media Devices],IKsDeviceFunctions interface, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, ks/IKsDeviceFunctions::RegisterAdapterObjectEx, stream.iksdevicefunctions_registeradapterobjectex",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows Server 2003 with Service Pack 1 (SP1) and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IKsDeviceFunctions::RegisterAdapterObjectEx",
+    "ks/IKsDeviceFunctions::RegisterAdapterObjectEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "IKsDeviceFunctions::RegisterAdapterObjectEx"
+  ]
+}

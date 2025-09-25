@@ -1,0 +1,6 @@
+PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY Pfnd3dkmtSetcontextinprocessschedulingpriority;
+
+NTSTATUS Pfnd3dkmtSetcontextinprocessschedulingpriority(
+  const D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY *unnamedParam1
+)
+{...}

@@ -1,0 +1,72 @@
+{
+  "UID": "NF:azroles.IAzAuthorizationStore.get_PolicyAdministrators",
+  "title": "IAzAuthorizationStore::get_PolicyAdministrators (azroles.h)",
+  "description": "Retrieves the security identifiers (SIDs) of principals that act as policy administrators in text form.",
+  "helpviewer_keywords": [
+    "AzAuthorizationStore object [Security]",
+    "PolicyAdministrators property",
+    "IAzAuthorizationStore interface [Security]",
+    "PolicyAdministrators property",
+    "IAzAuthorizationStore.PolicyAdministrators",
+    "IAzAuthorizationStore.get_PolicyAdministrators",
+    "IAzAuthorizationStore::PolicyAdministrators",
+    "IAzAuthorizationStore::get_PolicyAdministrators",
+    "PolicyAdministrators property [Security]",
+    "PolicyAdministrators property [Security]",
+    "AzAuthorizationStore object",
+    "PolicyAdministrators property [Security]",
+    "IAzAuthorizationStore interface",
+    "azroles/IAzAuthorizationStore::PolicyAdministrators",
+    "azroles/IAzAuthorizationStore::get_PolicyAdministrators",
+    "get_PolicyAdministrators",
+    "security.azauthorizationstore_policyadministrators"
+  ],
+  "old-location": "security\\azauthorizationstore_policyadministrators.htm",
+  "tech.root": "security",
+  "ms.assetid": "388d4970-5de4-4216-8c26-b9b24cc82ca3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AzAuthorizationStore object [Security],PolicyAdministrators property, IAzAuthorizationStore interface [Security],PolicyAdministrators property, IAzAuthorizationStore.PolicyAdministrators, IAzAuthorizationStore.get_PolicyAdministrators, IAzAuthorizationStore::PolicyAdministrators, IAzAuthorizationStore::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzAuthorizationStore object, PolicyAdministrators property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyAdministrators, azroles/IAzAuthorizationStore::get_PolicyAdministrators, get_PolicyAdministrators, security.azauthorizationstore_policyadministrators",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzAuthorizationStore::get_PolicyAdministrators",
+    "azroles/IAzAuthorizationStore::get_PolicyAdministrators"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "IAzAuthorizationStore.PolicyAdministrators",
+    "IAzAuthorizationStore.get_PolicyAdministrators",
+    "AzAuthorizationStore.PolicyAdministrators"
+  ]
+}

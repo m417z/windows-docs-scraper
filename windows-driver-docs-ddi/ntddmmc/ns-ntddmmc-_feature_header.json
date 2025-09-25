@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddmmc._FEATURE_HEADER",
+  "title": "FEATURE_HEADER (ntddmmc.h)",
+  "description": "The FEATURE_HEADER structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to report header information for both feature and profile descriptors.",
+  "old-location": "storage\\feature_header.htm",
+  "tech.root": "storage",
+  "ms.date": "11/10/2022",
+  "keywords": [
+    "FEATURE_HEADER structure"
+  ],
+  "ms.keywords": "*PFEATURE_HEADER, FEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], PFEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], _FEATURE_HEADER, ntddmmc/FEATURE_HEADER, ntddmmc/PFEATURE_HEADER, storage.feature_header, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml",
+  "req.header": "ntddmmc.h",
+  "req.include-header": "Ntddcdrm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FEATURE_HEADER, *PFEATURE_HEADER",
+  "f1_keywords": [
+    "_FEATURE_HEADER",
+    "ntddmmc/_FEATURE_HEADER",
+    "PFEATURE_HEADER",
+    "ntddmmc/PFEATURE_HEADER",
+    "FEATURE_HEADER",
+    "ntddmmc/FEATURE_HEADER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddmmc.h"
+  ],
+  "api_name": [
+    "_FEATURE_HEADER",
+    "PFEATURE_HEADER",
+    "FEATURE_HEADER"
+  ]
+}

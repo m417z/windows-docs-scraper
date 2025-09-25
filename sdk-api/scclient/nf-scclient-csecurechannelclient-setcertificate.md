@@ -1,0 +1,127 @@
+# CSecureChannelClient::SetCertificate
+
+## Description
+
+The **SetCertificate** method specifies the certificate and private key of the secure authenticated channel (SAC) client.
+
+## Parameters
+
+### `dwFlags` [in]
+
+Specifies the type of certificate being passed to this method. It must be set to SAC_CERT_V1.
+
+### `pbAppCert` [in]
+
+Pointer to the first byte of the certificate of the SAC client.
+
+### `dwCertLen` [in]
+
+**DWORD** specifying the length of the certificate to which *pbAppCert* points.
+
+### `pbAppPVK` [in]
+
+Pointer to the first byte of the private key of the SAC client.
+
+### `dwPVKLen` [in]
+
+**DWORD** specifying the length of the private key to which *pbAppPVK* points.
+
+## Return value
+
+The method returns an **HRESULT**. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
+
+* Standard COM error codes
+* Windows error codes converted to HRESULT values
+* Windows Media Device Manager error codes
+
+For an extensive list of possible error codes, see [Error Codes](https://learn.microsoft.com/windows/desktop/WMDM/error-codes).
+
+Possible values include, but are not limited to, those in the following table.
+
+| Return code | Description |
+| --- | --- |
+| S_OK | The method succeeded. |
+| E_INVALIDARG | A parameter is invalid or is a **NULL** pointer. |
+| E_FAIL | An unspecified error occurred. |
+
+## Remarks
+
+Call the **SetCertificate** method immediately after creating the **CsecureChannelClient** object, as in the following Example Code.
+
+You can specify the following dummy values for *pbAppCert* and *pbAppPVK* to allow basic functionality:
+
+```cpp
+
+BYTE abPVK[] = {0x00};
+BYTE abCert[] = {0x00};
+
+```
+
+You can request a key and certificate from Microsoft as described in [Tools for Development](https://learn.microsoft.com/windows/desktop/WMDM/tools-for-development).
+
+#### Examples
+
+The following C++ code authenticates the Windows Media Device Manager session and acquires the root object.
+
+```cpp
+
+// Authenticates the WMDM, and acquires an interface to the top-level object.
+HRESULT MyClass::Authenticate()
+{
+    HRESULT hr;
+    CComPtr<IComponentAuthenticate> pAuth;
+
+    // Create the WMDM object and acquire
+    // its authentication interface.
+    hr = CoCreateInstance(
+        __uuidof(MediaDevMgr),
+        NULL,
+        CLSCTX_INPROC_SERVER,
+        __uuidof(IComponentAuthenticate),
+        (void**)&pAuth);
+
+    if (hr != S_OK)
+        return hr;
+
+    // Create the secure channel client class needed to authenticate the application.
+    // We'll use a global member variable to hold the secure channel client
+    // in case we need to handle encryption, decryption, or MAC verification
+    // during this session.
+    m_pSAC = new CSecureChannelClient;
+    if (m_pSAC == NULL)
+        return E_FAIL;
+
+    // Send the application's transfer certificate and the associated
+    // private key to the secure channel client.
+    hr = m_pSAC->SetCertificate(
+        SAC_CERT_V1,
+        (BYTE *)abCert, sizeof(abCert),
+        (BYTE *)abPVK,  sizeof(abPVK));
+    if (hr != S_OK)
+        return hr;
+
+    // Send the authentication interface we created to the secure channel
+    // client and try authenticating the application with the V1 protocol.
+    m_pSAC->SetInterface(pAuth);
+    hr = m_pSAC->Authenticate(SAC_PROTOCOL_V1);
+    if (hr != S_OK)
+        return hr;
+
+    // Authenticated succeeded, so we can use the WMDM.
+    // Acquire an interface to the top-level WMDM interface.
+    hr = pAuth->QueryInterface(__uuidof(IWMDeviceManager), (void**)&m_IWMDeviceMgr);
+
+    return hr;
+}
+
+```
+
+## See also
+
+[Authenticating the Application](https://learn.microsoft.com/windows/desktop/WMDM/authenticating-the-application)
+
+[CSecureChannelClient Class](https://learn.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class)
+
+[CSecureChannelServer::SetCertificate](https://learn.microsoft.com/previous-versions/ms868518(v=msdn.10))
+
+[Using Secure Authenticated Channels](https://learn.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels)

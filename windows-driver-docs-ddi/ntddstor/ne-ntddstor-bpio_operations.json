@@ -1,0 +1,42 @@
+{
+  "UID": "NE:ntddstor._BPIO_OPERATIONS",
+  "tech.root": "storage",
+  "title": "BPIO_OPERATIONS",
+  "ms.date": "07/08/2021",
+  "targetos": "Windows",
+  "description": "BPIO_OPERATIONS defines the various BypassIO operations supported by the IOCTL_STORAGE_MANAGE_BYPASS_IO control code.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_BPIO_OPERATIONS",
+    "BPIO_OPERATIONS"
+  ],
+  "f1_keywords": [
+    "_BPIO_OPERATIONS",
+    "ntddstor/_BPIO_OPERATIONS",
+    "BPIO_OPERATIONS",
+    "ntddstor/BPIO_OPERATIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

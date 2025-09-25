@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ucxcontroller.UcxControllerNotifyTransportCharacteristicsChange",
+  "title": "UcxControllerNotifyTransportCharacteristicsChange function (ucxcontroller.h)",
+  "description": "Notifies UCX about a new port change event from host controller.",
+  "old-location": "buses\\ucxcontrollernotifytransportcharacteristicschange.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UcxControllerNotifyTransportCharacteristicsChange function"
+  ],
+  "ms.keywords": "UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange",
+  "req.header": "ucxcontroller.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ucxstubs.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UcxControllerNotifyTransportCharacteristicsChange",
+    "ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ucxstubs.lib",
+    "Ucxstubs.dll"
+  ],
+  "api_name": [
+    "UcxControllerNotifyTransportCharacteristicsChange"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "UID": "NF:azroles.IAzApplication.DeleteDelegatedPolicyUser",
+  "title": "IAzApplication::DeleteDelegatedPolicyUser (azroles.h)",
+  "description": "The IAzApplication::DeleteDelegatedPolicyUser method removes the specified security identifier in text form from the list of principals that act as delegated policy users.",
+  "helpviewer_keywords": [
+    "AzApplication object [Security]",
+    "DeleteDelegatedPolicyUser method",
+    "DeleteDelegatedPolicyUser",
+    "DeleteDelegatedPolicyUser method [Security]",
+    "DeleteDelegatedPolicyUser method [Security]",
+    "AzApplication object",
+    "DeleteDelegatedPolicyUser method [Security]",
+    "IAzApplication interface",
+    "IAzApplication interface [Security]",
+    "DeleteDelegatedPolicyUser method",
+    "IAzApplication.DeleteDelegatedPolicyUser",
+    "IAzApplication::DeleteDelegatedPolicyUser",
+    "azroles/IAzApplication::DeleteDelegatedPolicyUser",
+    "security.iazapplication_deletedelegatedpolicyuser"
+  ],
+  "old-location": "security\\iazapplication_deletedelegatedpolicyuser.htm",
+  "tech.root": "security",
+  "ms.assetid": "92e7f4fa-ff86-4ef5-8b87-086dd73966d1",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AzApplication object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzApplication object, DeleteDelegatedPolicyUser method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUser method, IAzApplication.DeleteDelegatedPolicyUser, IAzApplication::DeleteDelegatedPolicyUser, azroles/IAzApplication::DeleteDelegatedPolicyUser, security.iazapplication_deletedelegatedpolicyuser",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzApplication::DeleteDelegatedPolicyUser",
+    "azroles/IAzApplication::DeleteDelegatedPolicyUser"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "IAzApplication.DeleteDelegatedPolicyUser",
+    "AzApplication.DeleteDelegatedPolicyUser"
+  ]
+}

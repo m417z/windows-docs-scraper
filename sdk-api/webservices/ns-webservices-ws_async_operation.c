@@ -1,0 +1,3 @@
+typedef struct _WS_ASYNC_OPERATION {
+  WS_ASYNC_FUNCTION function;
+} WS_ASYNC_OPERATION;

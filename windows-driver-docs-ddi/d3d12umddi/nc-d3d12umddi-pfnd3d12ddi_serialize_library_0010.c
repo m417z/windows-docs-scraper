@@ -1,0 +1,8 @@
+PFND3D12DDI_SERIALIZE_LIBRARY_0010 Pfnd3d12ddiSerializeLibrary0010;
+
+HRESULT Pfnd3d12ddiSerializeLibrary0010(
+  D3D12DDI_HDEVICE hDevice,
+  D3D12DDI_HPIPELINELIBRARY hLibrary,
+  VOID *pBlob
+)
+{...}

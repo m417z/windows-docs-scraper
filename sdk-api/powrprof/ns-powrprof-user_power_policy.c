@@ -1,0 +1,24 @@
+typedef struct _USER_POWER_POLICY {
+  ULONG               Revision;
+  POWER_ACTION_POLICY IdleAc;
+  POWER_ACTION_POLICY IdleDc;
+  ULONG               IdleTimeoutAc;
+  ULONG               IdleTimeoutDc;
+  UCHAR               IdleSensitivityAc;
+  UCHAR               IdleSensitivityDc;
+  UCHAR               ThrottlePolicyAc;
+  UCHAR               ThrottlePolicyDc;
+  SYSTEM_POWER_STATE  MaxSleepAc;
+  SYSTEM_POWER_STATE  MaxSleepDc;
+  ULONG               Reserved[2];
+  ULONG               VideoTimeoutAc;
+  ULONG               VideoTimeoutDc;
+  ULONG               SpindownTimeoutAc;
+  ULONG               SpindownTimeoutDc;
+  BOOLEAN             OptimizeForPowerAc;
+  BOOLEAN             OptimizeForPowerDc;
+  UCHAR               FanThrottleToleranceAc;
+  UCHAR               FanThrottleToleranceDc;
+  UCHAR               ForcedThrottleAc;
+  UCHAR               ForcedThrottleDc;
+} USER_POWER_POLICY, *PUSER_POWER_POLICY;

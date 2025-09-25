@@ -1,0 +1,3 @@
+HRESULT WSDCreateHttpMessageParameters(
+  IWSDHttpMessageParameters **ppTxParams
+);

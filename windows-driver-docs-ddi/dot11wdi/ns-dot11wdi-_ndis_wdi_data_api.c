@@ -1,0 +1,20 @@
+typedef struct _NDIS_WDI_DATA_API {
+  NDIS_OBJECT_HEADER                                      Header;
+  NDIS_WDI_TX_DEQUEUE_IND_HANDLER                         TxDequeueIndication;
+  NDIS_WDI_TX_TRANSFER_COMPLETE_IND_HANDLER               TxTransferCompleteIndication;
+  NDIS_WDI_TX_SEND_COMPLETE_IND_HANDLER                   TxSendCompleteIndication;
+  NDIS_WDI_TX_QUERY_RA_TID_STATE_HANDLER                  TxQueryRATIDState;
+  NDIS_WDI_TX_SEND_PAUSE_IND_HANDLER                      TxSendPauseIndication;
+  NDIS_WDI_TX_SEND_RESTART_IND_HANDLER                    TxSendRestartIndication;
+  NDIS_WDI_TX_RELEASE_FRAMES_IND_HANDLER                  TxReleaseFrameIndication;
+  NDIS_WDI_TX_INJECT_FRAME_IND_HANDLER                    TxInjectFrameIndication;
+  NDIS_WDI_TX_ABORT_CONFIRM_HANDLER                       TxAbortConfirm;
+  NDIS_WDI_RX_INORDER_DATA_IND_HANDLER                    RxInorderDataIndication;
+  NDIS_WDI_RX_STOP_CONFIRM_HANDLER                        RxStopConfirm;
+  NDIS_WDI_RX_FLUSH_CONFIRM_HANDLER                       RxFlushConfirm;
+  NDIS_WDI_PEER_CREATE_IND_HANDLER                        PeerCreateIndication;
+  NDIS_WDI_PEER_DELETE_IND_HANDLER                        PeerDeleteIndication;
+  NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA_HANDLER            AllocateWiFiFrameMetaData;
+  NDIS_WDI_FREE_WDI_FRAME_METADATA_HANDLER                FreeWiFiFrameMetaData;
+  NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS_HANDLER TxQuerySuspectFrameCompleteStatus;
+} NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API;

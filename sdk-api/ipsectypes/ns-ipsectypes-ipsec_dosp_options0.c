@@ -1,0 +1,24 @@
+typedef struct IPSEC_DOSP_OPTIONS0_ {
+  UINT32               stateIdleTimeoutSeconds;
+  UINT32               perIPRateLimitQueueIdleTimeoutSeconds;
+  UINT8                ipV6IPsecUnauthDscp;
+  UINT32               ipV6IPsecUnauthRateLimitBytesPerSec;
+  UINT32               ipV6IPsecUnauthPerIPRateLimitBytesPerSec;
+  UINT8                ipV6IPsecAuthDscp;
+  UINT32               ipV6IPsecAuthRateLimitBytesPerSec;
+  UINT8                icmpV6Dscp;
+  UINT32               icmpV6RateLimitBytesPerSec;
+  UINT8                ipV6FilterExemptDscp;
+  UINT32               ipV6FilterExemptRateLimitBytesPerSec;
+  UINT8                defBlockExemptDscp;
+  UINT32               defBlockExemptRateLimitBytesPerSec;
+  UINT32               maxStateEntries;
+  UINT32               maxPerIPRateLimitQueues;
+  UINT32               flags;
+  UINT32               numPublicIFLuids;
+  UINT64               *publicIFLuids;
+  UINT32               numInternalIFLuids;
+  UINT64               *internalIFLuids;
+  FWP_V6_ADDR_AND_MASK publicV6AddrMask;
+  FWP_V6_ADDR_AND_MASK internalV6AddrMask;
+} IPSEC_DOSP_OPTIONS0;

@@ -1,0 +1,54 @@
+{
+  "UID": "NF:fileapi.RemoveDirectory2A",
+  "tech.root": "fs",
+  "title": "RemoveDirectory2A function (fileapi.h)",
+  "ms.date": "04/10/2025",
+  "targetos": "Windows",
+  "description": "Deletes an existing empty directory. (ANSI)",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "fileapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 24H2 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2025 [desktop apps \\| UWP apps]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "fileapi.h"
+  ],
+  "api_name": [
+    "RemoveDirectory2A",
+    "RemoveDirectory2"
+  ],
+  "f1_keywords": [
+    "RemoveDirectory2A",
+    "fileapi/RemoveDirectory2A",
+    "RemoveDirectory2",
+    "fileapi/RemoveDirectory2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "RemoveDirectory2A"
+  ]
+}

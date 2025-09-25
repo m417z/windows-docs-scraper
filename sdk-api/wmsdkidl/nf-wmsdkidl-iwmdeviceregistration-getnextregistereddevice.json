@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmsdkidl.IWMDeviceRegistration.GetNextRegisteredDevice",
+  "title": "IWMDeviceRegistration::GetNextRegisteredDevice (wmsdkidl.h)",
+  "description": "The GetNextRegisteredDevice method enumerates the registered devices of a specified type.",
+  "helpviewer_keywords": [
+    "GetNextRegisteredDevice",
+    "GetNextRegisteredDevice method [windows Media Format]",
+    "GetNextRegisteredDevice method [windows Media Format]",
+    "IWMDeviceRegistration interface",
+    "IWMDeviceRegistration interface [windows Media Format]",
+    "GetNextRegisteredDevice method",
+    "IWMDeviceRegistration.GetNextRegisteredDevice",
+    "IWMDeviceRegistration::GetNextRegisteredDevice",
+    "IWMDeviceRegistrationGetNextRegisteredDevice",
+    "wmformat.iwmdeviceregistration_getnextregistereddevice",
+    "wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice"
+  ],
+  "old-location": "wmformat\\iwmdeviceregistration_getnextregistereddevice.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "396e60a8-5845-45fa-8393-6f0defbd38bb",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetNextRegisteredDevice, GetNextRegisteredDevice method [windows Media Format], GetNextRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetNextRegisteredDevice method, IWMDeviceRegistration.GetNextRegisteredDevice, IWMDeviceRegistration::GetNextRegisteredDevice, IWMDeviceRegistrationGetNextRegisteredDevice, wmformat.iwmdeviceregistration_getnextregistereddevice, wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WMStubDRM.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDeviceRegistration::GetNextRegisteredDevice",
+    "wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMDeviceRegistration.GetNextRegisteredDevice"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.MmAllocateNodePagesForMdlEx",
+  "title": "MmAllocateNodePagesForMdlEx function (wdm.h)",
+  "description": "The MmAllocateNodePagesForMdlEx routine allocates nonpaged physical memory from an ideal node, and allocates an MDL structure to describe this memory.",
+  "tech.root": "kernel",
+  "ms.date": "12/13/2022",
+  "keywords": [
+    "MmAllocateNodePagesForMdlEx function"
+  ],
+  "ms.keywords": "MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatenodepagesformdlex, wdm/MmAllocateNodePagesForMdlEx",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= DISPATCH_LEVEL (See Remarks section.)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MmAllocateNodePagesForMdlEx",
+    "wdm/MmAllocateNodePagesForMdlEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "MmAllocateNodePagesForMdlEx"
+  ]
+}

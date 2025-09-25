@@ -1,0 +1,63 @@
+{
+  "UID": "NF:winfax.FaxSendDocumentForBroadcastW",
+  "title": "FaxSendDocumentForBroadcastW function (winfax.h)",
+  "description": "A fax client application calls the FaxSendDocumentForBroadcast function to queue several fax jobs that will transmit the same outgoing fax transmission to several recipients. (Unicode)",
+  "helpviewer_keywords": [
+    "FaxSendDocumentForBroadcast",
+    "FaxSendDocumentForBroadcast function [Fax Service]",
+    "FaxSendDocumentForBroadcastW",
+    "_mfax_faxsenddocumentforbroadcast",
+    "fax._mfax_faxsenddocumentforbroadcast",
+    "winfax/FaxSendDocumentForBroadcast",
+    "winfax/FaxSendDocumentForBroadcastW"
+  ],
+  "old-location": "fax\\_mfax_faxsenddocumentforbroadcast.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxlegacy_0sz8.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [Fax Service], FaxSendDocumentForBroadcastA, FaxSendDocumentForBroadcastW, _mfax_faxsenddocumentforbroadcast, fax._mfax_faxsenddocumentforbroadcast, winfax/FaxSendDocumentForBroadcast, winfax/FaxSendDocumentForBroadcastA, winfax/FaxSendDocumentForBroadcastW",
+  "req.header": "winfax.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FaxSendDocumentForBroadcastW (Unicode) and FaxSendDocumentForBroadcastA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WinFax.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FaxSendDocumentForBroadcastW",
+    "winfax/FaxSendDocumentForBroadcastW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "WinFax.lib",
+    "WinFax.dll"
+  ],
+  "api_name": [
+    "FaxSendDocumentForBroadcast",
+    "FaxSendDocumentForBroadcastA",
+    "FaxSendDocumentForBroadcastW"
+  ]
+}

@@ -1,0 +1,27 @@
+typedef struct _IMAGEHLP_MODULEW64 {
+  DWORD    SizeOfStruct;
+  DWORD64  BaseOfImage;
+  DWORD    ImageSize;
+  DWORD    TimeDateStamp;
+  DWORD    CheckSum;
+  DWORD    NumSyms;
+  SYM_TYPE SymType;
+  WCHAR    ModuleName[32];
+  WCHAR    ImageName[256];
+  WCHAR    LoadedImageName[256];
+  WCHAR    LoadedPdbName[256];
+  DWORD    CVSig;
+  WCHAR    *CVData[MAX_PATH  3];
+  DWORD    PdbSig;
+  GUID     PdbSig70;
+  DWORD    PdbAge;
+  BOOL     PdbUnmatched;
+  BOOL     DbgUnmatched;
+  BOOL     LineNumbers;
+  BOOL     GlobalSymbols;
+  BOOL     TypeInfo;
+  BOOL     SourceIndexed;
+  BOOL     Publics;
+  DWORD    MachineType;
+  DWORD    Reserved;
+} IMAGEHLP_MODULEW64, *PIMAGEHLP_MODULEW64;

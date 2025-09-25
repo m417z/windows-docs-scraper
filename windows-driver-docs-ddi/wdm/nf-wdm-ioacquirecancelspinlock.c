@@ -1,0 +1,3 @@
+VOID IoAcquireCancelSpinLock(
+  PKIRQL Irql
+);

@@ -1,0 +1,60 @@
+{
+  "UID": "NC:rpcdce.RPC_AUTH_KEY_RETRIEVAL_FN",
+  "title": "RPC_AUTH_KEY_RETRIEVAL_FN (rpcdce.h)",
+  "description": "The RPC_AUTH_KEY_RETRIEVAL_FN function is a prototype for a function that specifies the address of a server-application-provided routine returning encryption keys.",
+  "helpviewer_keywords": [
+    "RPC_AUTH_KEY_RETRIEVAL_FN",
+    "RPC_AUTH_KEY_RETRIEVAL_FN callback",
+    "RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC]",
+    "RpcAuthKeyRetrievalFn",
+    "_rpc_rpc_auth_key_retrieval_fn",
+    "rpc.rpc_auth_key_retrieval_fn",
+    "rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"
+  ],
+  "old-location": "rpc\\rpc_auth_key_retrieval_fn.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "643ce467-5df9-4b1a-a149-cf301865d47a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RPC_AUTH_KEY_RETRIEVAL_FN, RPC_AUTH_KEY_RETRIEVAL_FN callback, RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC], RpcAuthKeyRetrievalFn, _rpc_rpc_auth_key_retrieval_fn, rpc.rpc_auth_key_retrieval_fn, rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN",
+  "req.header": "rpcdce.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RPC_AUTH_KEY_RETRIEVAL_FN",
+    "rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Rpcdce.h"
+  ],
+  "api_name": [
+    "RPC_AUTH_KEY_RETRIEVAL_FN"
+  ]
+}

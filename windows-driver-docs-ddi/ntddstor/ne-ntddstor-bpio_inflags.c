@@ -1,0 +1,3 @@
+typedef enum _BPIO_INFLAGS {
+  BPIO_INFL_NONE
+} BPIO_INFLAGS;

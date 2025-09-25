@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxFinalizeVNetRoot",
+  "title": "RxFinalizeVNetRoot function (fcb.h)",
+  "description": "RxFinalizeVNetRoot finalizes the given V_NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.",
+  "old-location": "ifsk\\rxfinalizevnetroot.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxFinalizeVNetRoot function"
+  ],
+  "ms.keywords": "RxFinalizeVNetRoot, RxFinalizeVNetRoot function [Installable File System Drivers], fcb/RxFinalizeVNetRoot, ifsk.rxfinalizevnetroot, rxref_1c20872c-4783-4c7d-a1fa-44ca6170ab00.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Mrxfcb.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxFinalizeVNetRoot",
+    "fcb/RxFinalizeVNetRoot"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxFinalizeVNetRoot"
+  ]
+}

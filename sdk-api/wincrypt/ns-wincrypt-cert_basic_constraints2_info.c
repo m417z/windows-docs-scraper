@@ -1,0 +1,5 @@
+typedef struct _CERT_BASIC_CONSTRAINTS2_INFO {
+  BOOL  fCA;
+  BOOL  fPathLenConstraint;
+  DWORD dwPathLenConstraint;
+} CERT_BASIC_CONSTRAINTS2_INFO, *PCERT_BASIC_CONSTRAINTS2_INFO;

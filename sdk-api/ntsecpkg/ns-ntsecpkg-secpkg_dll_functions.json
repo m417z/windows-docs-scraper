@@ -1,0 +1,66 @@
+{
+  "UID": "NS:ntsecpkg._SECPKG_DLL_FUNCTIONS",
+  "title": "SECPKG_DLL_FUNCTIONS (ntsecpkg.h)",
+  "description": "The SECPKG_DLL_FUNCTIONS structure contains pointers to the LSA functions that a security package can call while executing in-process with a client/server application.",
+  "helpviewer_keywords": [
+    "*PSECPKG_DLL_FUNCTIONS",
+    "PSECPKG_DLL_FUNCTIONS",
+    "PSECPKG_DLL_FUNCTIONS structure pointer [Security]",
+    "SECPKG_DLL_FUNCTIONS",
+    "SECPKG_DLL_FUNCTIONS structure [Security]",
+    "_ssp_secpkg_dll_functions",
+    "ntsecpkg/PSECPKG_DLL_FUNCTIONS",
+    "ntsecpkg/SECPKG_DLL_FUNCTIONS",
+    "security.secpkg_dll_functions"
+  ],
+  "old-location": "security\\secpkg_dll_functions.htm",
+  "tech.root": "security",
+  "ms.assetid": "a7881f06-792c-4791-9aa6-9a7eb202020b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS structure pointer [Security], SECPKG_DLL_FUNCTIONS, SECPKG_DLL_FUNCTIONS structure [Security], _ssp_secpkg_dll_functions, ntsecpkg/PSECPKG_DLL_FUNCTIONS, ntsecpkg/SECPKG_DLL_FUNCTIONS, security.secpkg_dll_functions",
+  "req.header": "ntsecpkg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SECPKG_DLL_FUNCTIONS, *PSECPKG_DLL_FUNCTIONS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_SECPKG_DLL_FUNCTIONS",
+    "ntsecpkg/_SECPKG_DLL_FUNCTIONS",
+    "PSECPKG_DLL_FUNCTIONS",
+    "ntsecpkg/PSECPKG_DLL_FUNCTIONS",
+    "SECPKG_DLL_FUNCTIONS",
+    "ntsecpkg/SECPKG_DLL_FUNCTIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntsecpkg.h"
+  ],
+  "api_name": [
+    "SECPKG_DLL_FUNCTIONS"
+  ]
+}

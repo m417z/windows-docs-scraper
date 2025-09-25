@@ -1,0 +1,20 @@
+HRESULT ScriptPlaceOpenType(
+  [in, optional]  HDC                    hdc,
+  [in, out]       SCRIPT_CACHE           *psc,
+  [in, out]       SCRIPT_ANALYSIS        *psa,
+  [in]            OPENTYPE_TAG           tagScript,
+  [in]            OPENTYPE_TAG           tagLangSys,
+  [in, optional]  int                    *rcRangeChars,
+  [in, optional]  TEXTRANGE_PROPERTIES   **rpRangeProperties,
+  [in]            int                    cRanges,
+  [in]            const WCHAR            *pwcChars,
+  [in]            WORD                   *pwLogClust,
+  [in]            SCRIPT_CHARPROP        *pCharProps,
+  [in]            int                    cChars,
+  [in]            const WORD             *pwGlyphs,
+  [in]            const SCRIPT_GLYPHPROP *pGlyphProps,
+  [in]            int                    cGlyphs,
+  [out]           int                    *piAdvance,
+  [out]           GOFFSET                *pGoffset,
+  [out, optional] ABC                    *pABC
+);

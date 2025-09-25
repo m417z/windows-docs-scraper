@@ -1,0 +1,53 @@
+{
+  "UID": "NS:directml.DML_ARGMAX_OPERATOR_DESC",
+  "title": "DML_ARGMAX_OPERATOR_DESC",
+  "description": "Outputs the indices of the maximum-valued elements within one or more dimensions of the input tensor.",
+  "helpviewer_keywords": [
+    "DML_ARGMAX_OPERATOR_DESC",
+    "DML_ARGMAX_OPERATOR_DESC structure",
+    "direct3d12.dml_argmax_operator_desc",
+    "directml/DML_ARGMAX_OPERATOR_DESC"
+  ],
+  "tech.root": "directml",
+  "ms.date": "10/28/2020",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "DML_ARGMAX_OPERATOR_DESC",
+    "directml/DML_ARGMAX_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_ARGMAX_OPERATOR_DESC"
+  ]
+}

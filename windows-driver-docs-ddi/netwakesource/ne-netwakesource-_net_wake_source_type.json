@@ -1,0 +1,41 @@
+{
+  "UID": "NE:netwakesource._NET_WAKE_SOURCE_TYPE",
+  "tech.root": "netvista",
+  "title": "NET_WAKE_SOURCE_TYPE",
+  "ms.date": "09/07/2022",
+  "targetos": "Windows",
+  "description": "The NET_WAKE_SOURCE_TYPE enumeration specifies the type of a wake-on-LAN (WoL) wake-up event for a net adapter.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "netwakesource.h",
+  "req.include-header": "netadaptercx.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NET_WAKE_SOURCE_TYPE",
+  "req.umdf-ver": 2.33,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netwakesource.h"
+  ],
+  "api_name": [
+    "_NET_WAKE_SOURCE_TYPE",
+    "NET_WAKE_SOURCE_TYPE"
+  ],
+  "f1_keywords": [
+    "_NET_WAKE_SOURCE_TYPE",
+    "netwakesource/_NET_WAKE_SOURCE_TYPE",
+    "NET_WAKE_SOURCE_TYPE",
+    "netwakesource/NET_WAKE_SOURCE_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winusb.WinUsb_GetPipePolicy",
+  "title": "WinUsb_GetPipePolicy function (winusb.h)",
+  "description": "The WinUsb_GetPipePolicy function retrieves the policy for a specific pipe associated with an endpoint on the device. This is a synchronous operation.",
+  "helpviewer_keywords": [
+    "WinUsb_GetPipePolicy",
+    "WinUsb_GetPipePolicy function [Buses]",
+    "buses.winusb_getpipepolicy",
+    "winusb/WinUsb_GetPipePolicy",
+    "winusbfunc_1f0337bd-6717-4123-914b-daecb090ac89.xml"
+  ],
+  "old-location": "buses\\winusb_getpipepolicy.htm",
+  "tech.root": "buses",
+  "ms.assetid": "adf66b3d-cf63-40f1-837a-d83c353236a3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinUsb_GetPipePolicy, WinUsb_GetPipePolicy function [Buses], buses.winusb_getpipepolicy, winusb/WinUsb_GetPipePolicy, winusbfunc_1f0337bd-6717-4123-914b-daecb090ac89.xml",
+  "req.header": "winusb.h",
+  "req.include-header": "Winusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winusb.lib",
+  "req.dll": "Winusb.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinUsb_GetPipePolicy",
+    "winusb/WinUsb_GetPipePolicy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "winusb.dll"
+  ],
+  "api_name": [
+    "WinUsb_GetPipePolicy"
+  ]
+}

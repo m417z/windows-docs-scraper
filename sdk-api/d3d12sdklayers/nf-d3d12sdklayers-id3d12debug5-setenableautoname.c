@@ -1,0 +1,3 @@
+void SetEnableAutoName(
+  BOOL Enable
+);

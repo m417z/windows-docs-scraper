@@ -1,0 +1,21 @@
+typedef struct _DHCP_MIB_INFO_V5 {
+  DWORD               Discovers;
+  DWORD               Offers;
+  DWORD               Requests;
+  DWORD               Acks;
+  DWORD               Naks;
+  DWORD               Declines;
+  DWORD               Releases;
+  DATE_TIME           ServerStartTime;
+  DWORD               QtnNumLeases;
+  DWORD               QtnPctQtnLeases;
+  DWORD               QtnProbationLeases;
+  DWORD               QtnNonQtnLeases;
+  DWORD               QtnExemptLeases;
+  DWORD               QtnCapableClients;
+  DWORD               QtnIASErrors;
+  DWORD               DelayedOffers;
+  DWORD               ScopesWithDelayedOffers;
+  DWORD               Scopes;
+  LPSCOPE_MIB_INFO_V5 ScopeInfo;
+} DHCP_MIB_INFO_V5, *LPDHCP_MIB_INFO_V5;

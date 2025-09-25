@@ -1,0 +1,3 @@
+typedef struct _DD_PALETTE_GLOBAL {
+  ULONG_PTR dwReserved1;
+} *PDD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL;

@@ -1,0 +1,3 @@
+typedef struct _TOKEN_DEFAULT_DACL {
+  PACL DefaultDacl;
+} TOKEN_DEFAULT_DACL, *PTOKEN_DEFAULT_DACL;

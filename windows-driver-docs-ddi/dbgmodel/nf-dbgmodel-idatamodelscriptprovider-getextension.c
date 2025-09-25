@@ -1,0 +1,3 @@
+HRESULT GetExtension(
+  BSTR *extension
+);

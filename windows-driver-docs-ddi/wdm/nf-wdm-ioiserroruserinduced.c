@@ -1,0 +1,3 @@
+BOOLEAN IoIsErrorUserInduced(
+   Status
+);

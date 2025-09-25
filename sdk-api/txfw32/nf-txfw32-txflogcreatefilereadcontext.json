@@ -1,0 +1,57 @@
+{
+  "UID": "NF:txfw32.TxfLogCreateFileReadContext",
+  "title": "TxfLogCreateFileReadContext function (txfw32.h)",
+  "description": "Creates a context to be used to read replication records.",
+  "helpviewer_keywords": [
+    "TxfLogCreateFileReadContext",
+    "TxfLogCreateFileReadContext function [Files]",
+    "fs.txflogcreatefilereadcontext",
+    "txfw32/TxfLogCreateFileReadContext"
+  ],
+  "old-location": "fs\\txflogcreatefilereadcontext.htm",
+  "tech.root": "fs",
+  "ms.assetid": "57218f53-adcd-4a9a-b772-d3dab576b8c1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext",
+  "req.header": "txfw32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "TxfW32.lib",
+  "req.dll": "TxfW32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TxfLogCreateFileReadContext",
+    "txfw32/TxfLogCreateFileReadContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "TxfW32.dll"
+  ],
+  "api_name": [
+    "TxfLogCreateFileReadContext"
+  ]
+}

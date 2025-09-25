@@ -1,0 +1,4 @@
+typedef enum _MGM_ENUM_TYPES {
+  ANY_SOURCE = 0,
+  ALL_SOURCES
+} MGM_ENUM_TYPES;

@@ -1,0 +1,3 @@
+HRESULT GetEnd(
+  long *pcpLim
+);

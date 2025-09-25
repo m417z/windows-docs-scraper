@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngDitherColor",
+  "title": "EngDitherColor function (winddi.h)",
+  "description": "The EngDitherColor function returns a standard 8x8 dither that approximates the specified RGB color.",
+  "helpviewer_keywords": [
+    "EngDitherColor",
+    "EngDitherColor function [Display Devices]",
+    "display.engdithercolor",
+    "gdifncs_99024e1a-c511-4b02-80dc-e39dd82a8d57.xml",
+    "winddi/EngDitherColor"
+  ],
+  "old-location": "display\\engdithercolor.htm",
+  "tech.root": "display",
+  "ms.assetid": "6c45fd2a-3bba-4e41-a1ee-b3b10602b65a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngDitherColor, EngDitherColor function [Display Devices], display.engdithercolor, gdifncs_99024e1a-c511-4b02-80dc-e39dd82a8d57.xml, winddi/EngDitherColor",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngDitherColor",
+    "winddi/EngDitherColor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngDitherColor"
+  ]
+}

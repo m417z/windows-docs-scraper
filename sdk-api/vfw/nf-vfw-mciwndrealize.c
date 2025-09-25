@@ -1,0 +1,4 @@
+LONG MCIWndRealize(
+     hwnd,
+     fBkgnd
+);

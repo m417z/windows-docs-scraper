@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTUpdateAllocationProperty(
+  D3DDDI_UPDATEALLOCPROPERTY *unnamedParam1
+);

@@ -1,0 +1,6 @@
+typedef struct _DXVADDI_VALUERANGE {
+  [in] DXVADDI_FIXED32 MinValue;
+  [in] DXVADDI_FIXED32 MaxValue;
+  [in] DXVADDI_FIXED32 DefaultValue;
+  [in] DXVADDI_FIXED32 StepSize;
+} DXVADDI_VALUERANGE;

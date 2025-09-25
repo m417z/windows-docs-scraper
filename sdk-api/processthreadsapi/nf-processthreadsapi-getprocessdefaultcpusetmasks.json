@@ -1,0 +1,54 @@
+{
+  "UID": "NF:processthreadsapi.GetProcessDefaultCpuSetMasks",
+  "tech.root": "processthreadsapi",
+  "title": "GetProcessDefaultCpuSetMasks",
+  "ms.date": "03/12/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Retrieves the list of CPU Sets in the process default set that was set by SetProcessDefaultCpuSetMasks or SetProcessDefaultCpuSets.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "kernel32.dll",
+  "req.header": "processthreadsapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "kernel32.dll",
+    "api-ms-win-core-processthreads-l1-1-6"
+  ],
+  "api_name": [
+    "GetProcessDefaultCpuSetMasks"
+  ],
+  "helpviewer_keywords": [
+    "GetProcessDefaultCpuSetMasks",
+    "processthreadsapi/GetProcessDefaultCpuSetMasks"
+  ],
+  "f1_keywords": [
+    "GetProcessDefaultCpuSetMasks",
+    "processthreadsapi/GetProcessDefaultCpuSetMasks"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

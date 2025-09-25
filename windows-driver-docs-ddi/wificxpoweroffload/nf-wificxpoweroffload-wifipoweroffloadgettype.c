@@ -1,0 +1,3 @@
+WIFI_POWER_OFFLOAD_TYPE WifiPowerOffloadGetType(
+  WIFIPOWEROFFLOAD WifiPowerOffload
+);

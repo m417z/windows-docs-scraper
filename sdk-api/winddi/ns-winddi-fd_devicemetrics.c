@@ -1,0 +1,24 @@
+typedef struct _FD_DEVICEMETRICS {
+  FLONG    flRealizedType;
+  POINTE   pteBase;
+  POINTE   pteSide;
+  LONG     lD;
+  FIX      fxMaxAscender;
+  FIX      fxMaxDescender;
+  POINTL   ptlUnderline1;
+  POINTL   ptlStrikeOut;
+  POINTL   ptlULThickness;
+  POINTL   ptlSOThickness;
+  ULONG    cxMax;
+  ULONG    cyMax;
+  ULONG    cjGlyphMax;
+  FD_XFORM fdxQuantized;
+  LONG     lNonLinearExtLeading;
+  LONG     lNonLinearIntLeading;
+  LONG     lNonLinearMaxCharWidth;
+  LONG     lNonLinearAvgCharWidth;
+  LONG     lMinA;
+  LONG     lMinC;
+  LONG     lMinD;
+  LONG     alReserved[1];
+} FD_DEVICEMETRICS, *PFD_DEVICEMETRICS;

@@ -1,0 +1,3 @@
+VOID GetCurrentProcessHandle(
+  PHANDLE hp
+);

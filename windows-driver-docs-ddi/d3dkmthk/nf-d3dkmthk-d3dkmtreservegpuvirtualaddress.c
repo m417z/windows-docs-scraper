@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTReserveGpuVirtualAddress(
+  D3DDDI_RESERVEGPUVIRTUALADDRESS *unnamedParam1
+);

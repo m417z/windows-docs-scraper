@@ -1,0 +1,59 @@
+{
+  "UID": "NF:enclaveapi.DeleteEnclave",
+  "title": "DeleteEnclave function (enclaveapi.h)",
+  "description": "Deletes the specified enclave.",
+  "helpviewer_keywords": [
+    "DeleteEnclave",
+    "DeleteEnclave function",
+    "base.deleteenclave",
+    "enclaveapi/DeleteEnclave"
+  ],
+  "old-location": "base\\deleteenclave.htm",
+  "tech.root": "base",
+  "ms.assetid": "04FCD129-3A3B-40EA-AD62-01C674CF2E61",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave",
+  "req.header": "enclaveapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "kernel32.dll; Api-ms-win-core-enclave-l1-1-0.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteEnclave",
+    "enclaveapi/DeleteEnclave"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-enclave-l1-1-1.dll",
+    "kernel32.dll",
+    "api-ms-win-core-enclave-l1-1-0.dll"
+  ],
+  "api_name": [
+    "DeleteEnclave"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:enclaveapi.CreateEnclave",
+  "title": "CreateEnclave function (enclaveapi.h)",
+  "description": "Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.",
+  "helpviewer_keywords": [
+    "CreateEnclave",
+    "CreateEnclave function",
+    "ENCLAVE_TYPE_SGX",
+    "ENCLAVE_TYPE_SGX2",
+    "ENCLAVE_TYPE_VBS",
+    "base.createenclave",
+    "enclaveapi/CreateEnclave"
+  ],
+  "old-location": "base\\createenclave.htm",
+  "tech.root": "base",
+  "ms.assetid": "2193AE42-D9CC-4A9C-8676-7DE432ED58C3",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_SGX2, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave",
+  "req.header": "enclaveapi.h",
+  "req.include-header": "Winbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateEnclave",
+    "enclaveapi/CreateEnclave"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-enclave-l1-1-1.dll",
+    "api-ms-win-core-enclave-l1-1-0.dll",
+    "kernel32.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Enclave-L1-1-0.dll"
+  ],
+  "api_name": [
+    "CreateEnclave"
+  ]
+}

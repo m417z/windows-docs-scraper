@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PCHANGE_BANDWIDTH_ALLOCATION",
+  "title": "PCHANGE_BANDWIDTH_ALLOCATION (hdaudio.h)",
+  "description": "The ChangeBandwidthAllocation routine changes a DMA engine's bandwidth allocation on the HD Audio Link.The function pointer type for a ChangeBandwidthAllocation routine is defined as follows.",
+  "old-location": "audio\\changebandwidthallocation.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PCHANGE_BANDWIDTH_ALLOCATION callback function"
+  ],
+  "ms.keywords": "ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, PCHANGE_BANDWIDTH_ALLOCATION callback, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCHANGE_BANDWIDTH_ALLOCATION",
+    "hdaudio/PCHANGE_BANDWIDTH_ALLOCATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PCHANGE_BANDWIDTH_ALLOCATION"
+  ]
+}

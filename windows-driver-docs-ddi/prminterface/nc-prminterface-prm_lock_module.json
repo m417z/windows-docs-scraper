@@ -1,0 +1,50 @@
+{
+  "UID": "NC:prminterface.PRM_LOCK_MODULE",
+  "tech.root": "kernel",
+  "title": "PRM_LOCK_MODULE",
+  "ms.date": "02/05/2024",
+  "targetos": "Windows",
+  "description": "Locks a PRM module and prevents it from being unloaded.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "prminterface.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= HIGH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "prminterface.h"
+  ],
+  "api_name": [
+    "PRM_LOCK_MODULE"
+  ],
+  "f1_keywords": [
+    "PRM_LOCK_MODULE",
+    "prminterface/PRM_LOCK_MODULE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "PRM_LOCK_MODULE"
+  ]
+}

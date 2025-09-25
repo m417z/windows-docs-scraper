@@ -1,0 +1,76 @@
+{
+  "UID": "NS:winuser.tagWNDCLASSA",
+  "title": "WNDCLASSA (winuser.h)",
+  "description": "Contains the window class attributes that are registered by the RegisterClass function. (ANSI)",
+  "helpviewer_keywords": [
+    "*LPWNDCLASSA",
+    "*NPWNDCLASSA",
+    "*PWNDCLASSA",
+    "PWNDCLASS",
+    "PWNDCLASS structure pointer [Windows and Messages]",
+    "WNDCLASS",
+    "WNDCLASS structure [Windows and Messages]",
+    "WNDCLASSA",
+    "WNDCLASSW",
+    "_win32_WNDCLASS_str",
+    "_win32_wndclass_str_cpp",
+    "winmsg.wndclass",
+    "winui._win32_wndclass_str",
+    "winuser/PWNDCLASS",
+    "winuser/WNDCLASS",
+    "winuser/WNDCLASSA",
+    "winuser/WNDCLASSW"
+  ],
+  "old-location": "winmsg\\wndclass.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windowclasses\\windowclassreference\\windowclassstructures\\wndclass.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPWNDCLASSA, *NPWNDCLASSA, *PWNDCLASSA, PWNDCLASS, PWNDCLASS structure pointer [Windows and Messages], WNDCLASS, WNDCLASS structure [Windows and Messages], WNDCLASSA, WNDCLASSW, _win32_WNDCLASS_str, _win32_wndclass_str_cpp, winmsg.wndclass, winui._win32_wndclass_str, winuser/PWNDCLASS, winuser/WNDCLASS, winuser/WNDCLASSA, winuser/WNDCLASSW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WNDCLASSW (Unicode) and WNDCLASSA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WNDCLASSA, *PWNDCLASSA, *NPWNDCLASSA, *LPWNDCLASSA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagWNDCLASSA",
+    "winuser/tagWNDCLASSA",
+    "PWNDCLASSA",
+    "winuser/PWNDCLASSA",
+    "WNDCLASSA",
+    "winuser/WNDCLASSA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winuser.h"
+  ],
+  "api_name": [
+    "WNDCLASS",
+    "WNDCLASSA",
+    "WNDCLASSW"
+  ]
+}

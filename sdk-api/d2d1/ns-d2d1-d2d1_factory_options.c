@@ -1,0 +1,3 @@
+typedef struct D2D1_FACTORY_OPTIONS {
+  D2D1_DEBUG_LEVEL debugLevel;
+} D2D1_FACTORY_OPTIONS;

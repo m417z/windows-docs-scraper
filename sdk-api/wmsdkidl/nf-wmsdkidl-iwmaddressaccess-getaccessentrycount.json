@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMAddressAccess.GetAccessEntryCount",
+  "title": "IWMAddressAccess::GetAccessEntryCount (wmsdkidl.h)",
+  "description": "The GetAccessEntryCount method retrieves the number of entries in the IP address access list.",
+  "helpviewer_keywords": [
+    "GetAccessEntryCount",
+    "GetAccessEntryCount method [windows Media Format]",
+    "GetAccessEntryCount method [windows Media Format]",
+    "IWMAddressAccess interface",
+    "IWMAddressAccess interface [windows Media Format]",
+    "GetAccessEntryCount method",
+    "IWMAddressAccess.GetAccessEntryCount",
+    "IWMAddressAccess::GetAccessEntryCount",
+    "IWMAddressAccessGetAccessEntryCount",
+    "wmformat.iwmaddressaccess_getaccessentrycount",
+    "wmsdkidl/IWMAddressAccess::GetAccessEntryCount"
+  ],
+  "old-location": "wmformat\\iwmaddressaccess_getaccessentrycount.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "996d8a8a-887e-4e2f-b810-c57a4251f771",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetAccessEntryCount, GetAccessEntryCount method [windows Media Format], GetAccessEntryCount method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],GetAccessEntryCount method, IWMAddressAccess.GetAccessEntryCount, IWMAddressAccess::GetAccessEntryCount, IWMAddressAccessGetAccessEntryCount, wmformat.iwmaddressaccess_getaccessentrycount, wmsdkidl/IWMAddressAccess::GetAccessEntryCount",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMAddressAccess::GetAccessEntryCount",
+    "wmsdkidl/IWMAddressAccess::GetAccessEntryCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMAddressAccess.GetAccessEntryCount"
+  ]
+}

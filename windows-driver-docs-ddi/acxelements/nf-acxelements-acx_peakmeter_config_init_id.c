@@ -1,0 +1,4 @@
+VOID ACX_PEAKMETER_CONFIG_INIT_ID(
+  PACX_PEAKMETER_CONFIG Config,
+  ULONG                 Id
+);

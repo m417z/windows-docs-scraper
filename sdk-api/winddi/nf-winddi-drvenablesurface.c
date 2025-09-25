@@ -1,0 +1,3 @@
+HSURF DrvEnableSurface(
+  DHPDEV dhpdev
+);

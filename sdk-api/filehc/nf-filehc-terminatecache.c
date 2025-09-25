@@ -1,0 +1,1 @@
+FILEHC_EXPORT BOOL TerminateCache();

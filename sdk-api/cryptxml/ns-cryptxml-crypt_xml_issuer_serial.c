@@ -1,0 +1,4 @@
+typedef struct _CRYPT_XML_ISSUER_SERIAL {
+  LPCWSTR wszIssuer;
+  LPCWSTR wszSerial;
+} CRYPT_XML_ISSUER_SERIAL;

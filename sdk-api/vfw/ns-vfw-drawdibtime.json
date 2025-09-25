@@ -1,0 +1,64 @@
+{
+  "UID": "NS:vfw.DRAWDIBTIME",
+  "title": "DRAWDIBTIME (vfw.h)",
+  "description": "The DRAWDIBTIME structure contains elapsed timing information for performing a set of DrawDib operations. The DrawDibTime function resets the count and the elapsed time value for each operation each time it is called.",
+  "helpviewer_keywords": [
+    "*LPDRAWDIBTIME",
+    "DRAWDIBTIME",
+    "DRAWDIBTIME structure [Windows Multimedia]",
+    "LPDRAWDIBTIME",
+    "LPDRAWDIBTIME structure pointer [Windows Multimedia]",
+    "multimedia.drawdibtime_COLLISION618",
+    "multimedia.drawdibtime_struct",
+    "vfw/DRAWDIBTIME",
+    "vfw/LPDRAWDIBTIME"
+  ],
+  "old-location": "multimedia\\drawdibtime_struct.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "ec8a4e04-9e38-4db3-bb2b-838c63284f3a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DRAWDIBTIME, *LPDRAWDIBTIME",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LPDRAWDIBTIME",
+    "vfw/LPDRAWDIBTIME",
+    "DRAWDIBTIME",
+    "vfw/DRAWDIBTIME"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "DRAWDIBTIME"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:wingdi.GetMapMode",
+  "title": "GetMapMode function (wingdi.h)",
+  "description": "The GetMapMode function retrieves the current mapping mode.",
+  "helpviewer_keywords": [
+    "GetMapMode",
+    "GetMapMode function [Windows GDI]",
+    "_win32_GetMapMode",
+    "gdi.getmapmode",
+    "wingdi/GetMapMode"
+  ],
+  "old-location": "gdi\\getmapmode.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "bc446b86-3dde-4460-bc54-1eaa4ad19941",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMapMode, GetMapMode function [Windows GDI], _win32_GetMapMode, gdi.getmapmode, wingdi/GetMapMode",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetMapMode",
+    "wingdi/GetMapMode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "Ext-MS-Win-GDI-Draw-l1-1-1.dll",
+    "ext-ms-win-gdi-draw-l1-1-2.dll",
+    "Ext-MS-Win-GDI-Draw-L1-1-3.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "GetMapMode"
+  ]
+}

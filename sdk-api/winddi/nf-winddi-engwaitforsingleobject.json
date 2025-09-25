@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngWaitForSingleObject",
+  "title": "EngWaitForSingleObject function (winddi.h)",
+  "description": "The EngWaitForSingleObject function puts the current thread of the display driver into a wait state until the specified event object is set to the signaled state, or until the wait times out.",
+  "helpviewer_keywords": [
+    "EngWaitForSingleObject",
+    "EngWaitForSingleObject function [Display Devices]",
+    "display.engwaitforsingleobject",
+    "gdifncs_12c16d6b-ff3f-4cd4-8d4c-150ab8377dfb.xml",
+    "winddi/EngWaitForSingleObject"
+  ],
+  "old-location": "display\\engwaitforsingleobject.htm",
+  "tech.root": "display",
+  "ms.assetid": "a2a1c7ad-1e56-45f7-83de-49ebc0d831f9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngWaitForSingleObject, EngWaitForSingleObject function [Display Devices], display.engwaitforsingleobject, gdifncs_12c16d6b-ff3f-4cd4-8d4c-150ab8377dfb.xml, winddi/EngWaitForSingleObject",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This function is available in Windows XP and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngWaitForSingleObject",
+    "winddi/EngWaitForSingleObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngWaitForSingleObject"
+  ]
+}

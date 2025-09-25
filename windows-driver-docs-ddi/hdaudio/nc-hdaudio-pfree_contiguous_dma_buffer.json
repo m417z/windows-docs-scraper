@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PFREE_CONTIGUOUS_DMA_BUFFER",
+  "title": "PFREE_CONTIGUOUS_DMA_BUFFER (hdaudio.h)",
+  "description": "The FreeContiguousDmaBuffer routine frees a DMA buffer and buffer descriptor list (BDL) that were allocated by a call to AllocateContiguousDmaBuffer.The function pointer type for a FreeContiguousDmaBuffer routine is defined as follows.",
+  "old-location": "audio\\freecontiguousdmabuffer.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PFREE_CONTIGUOUS_DMA_BUFFER callback function"
+  ],
+  "ms.keywords": "FreeContiguousDmaBuffer, FreeContiguousDmaBuffer callback function [Audio Devices], PFREE_CONTIGUOUS_DMA_BUFFER, PFREE_CONTIGUOUS_DMA_BUFFER callback, aud-prop2_66797c8c-c8ac-443e-9515-1269a14a87a0.xml, audio.freecontiguousdmabuffer, hdaudio/FreeContiguousDmaBuffer",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFREE_CONTIGUOUS_DMA_BUFFER",
+    "hdaudio/PFREE_CONTIGUOUS_DMA_BUFFER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PFREE_CONTIGUOUS_DMA_BUFFER"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wlanapi.WlanQueryInterface",
+  "title": "WlanQueryInterface function (wlanapi.h)",
+  "description": "The WlanQueryInterface function queries various parameters of a specified interface.",
+  "helpviewer_keywords": [
+    "WlanQueryInterface",
+    "WlanQueryInterface function [NativeWIFI]",
+    "nwifi.wlanqueryinterface",
+    "wlanapi/WlanQueryInterface"
+  ],
+  "old-location": "nwifi\\wlanqueryinterface.htm",
+  "tech.root": "nwifi",
+  "ms.assetid": "e20eb9a3-5824-48ee-b13e-b0252bbf495e",
+  "ms.date": "03/18/2024",
+  "ms.keywords": "WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface",
+  "req.header": "wlanapi.h",
+  "req.include-header": "Wlanapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP3 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wlanapi.lib",
+  "req.dll": "Wlanapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Wireless LAN API for Windows XP with SP2",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WlanQueryInterface",
+    "wlanapi/WlanQueryInterface"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wlanapi.dll",
+    "Ext-MS-Win-networking-wlanapi-l1-1-0.dll"
+  ],
+  "api_name": [
+    "WlanQueryInterface"
+  ]
+}

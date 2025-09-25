@@ -1,0 +1,63 @@
+{
+  "UID": "NF:taskschd.ITaskFolder.DeleteFolder",
+  "title": "ITaskFolder::DeleteFolder (taskschd.h)",
+  "description": "Deletes a subfolder from the parent folder.",
+  "helpviewer_keywords": [
+    "DeleteFolder",
+    "DeleteFolder method [Task Scheduler]",
+    "DeleteFolder method [Task Scheduler]",
+    "ITaskFolder interface",
+    "ITaskFolder interface [Task Scheduler]",
+    "DeleteFolder method",
+    "ITaskFolder.DeleteFolder",
+    "ITaskFolder::DeleteFolder",
+    "taskschd.itaskfolder_deletefolder",
+    "taskschd/ITaskFolder::DeleteFolder"
+  ],
+  "old-location": "taskschd\\itaskfolder_deletefolder.htm",
+  "tech.root": "taskschd",
+  "ms.assetid": "7758afc5-73d8-456c-98a9-89e4b7ad42b9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteFolder method, ITaskFolder.DeleteFolder, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder",
+  "req.header": "taskschd.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Taskschd.lib",
+  "req.dll": "Taskschd.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITaskFolder::DeleteFolder",
+    "taskschd/ITaskFolder::DeleteFolder"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "taskschd.dll"
+  ],
+  "api_name": [
+    "ITaskFolder.DeleteFolder"
+  ]
+}

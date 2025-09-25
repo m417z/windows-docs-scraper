@@ -1,0 +1,3 @@
+BOOL PFXIsPFXBlob(
+  [in] CRYPT_DATA_BLOB *pPFX
+);

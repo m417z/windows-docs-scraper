@@ -1,0 +1,82 @@
+{
+  "UID": "NF:wmsdkidl.IWMHeaderInfo.SetAttribute",
+  "title": "IWMHeaderInfo::SetAttribute (wmsdkidl.h)",
+  "description": "The SetAttribute method sets a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::AddAttribute, and should not be used.",
+  "helpviewer_keywords": [
+    "IWMHeaderInfo interface [windows Media Format]",
+    "SetAttribute method",
+    "IWMHeaderInfo.SetAttribute",
+    "IWMHeaderInfo2 interface [windows Media Format]",
+    "SetAttribute method",
+    "IWMHeaderInfo2::SetAttribute",
+    "IWMHeaderInfo3 interface [windows Media Format]",
+    "SetAttribute method",
+    "IWMHeaderInfo3::SetAttribute",
+    "IWMHeaderInfo::SetAttribute",
+    "IWMHeaderInfoSetAttribute",
+    "SetAttribute",
+    "SetAttribute method [windows Media Format]",
+    "SetAttribute method [windows Media Format]",
+    "IWMHeaderInfo interface",
+    "SetAttribute method [windows Media Format]",
+    "IWMHeaderInfo2 interface",
+    "SetAttribute method [windows Media Format]",
+    "IWMHeaderInfo3 interface",
+    "wmformat.iwmheaderinfo_setattribute",
+    "wmsdkidl/IWMHeaderInfo2::SetAttribute",
+    "wmsdkidl/IWMHeaderInfo3::SetAttribute",
+    "wmsdkidl/IWMHeaderInfo::SetAttribute"
+  ],
+  "old-location": "wmformat\\iwmheaderinfo_setattribute.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "174969a2-4fe2-477b-9990-051d23bf8a29",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMHeaderInfo interface [windows Media Format],SetAttribute method, IWMHeaderInfo.SetAttribute, IWMHeaderInfo2 interface [windows Media Format],SetAttribute method, IWMHeaderInfo2::SetAttribute, IWMHeaderInfo3 interface [windows Media Format],SetAttribute method, IWMHeaderInfo3::SetAttribute, IWMHeaderInfo::SetAttribute, IWMHeaderInfoSetAttribute, SetAttribute, SetAttribute method [windows Media Format], SetAttribute method [windows Media Format],IWMHeaderInfo interface, SetAttribute method [windows Media Format],IWMHeaderInfo2 interface, SetAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_setattribute, wmsdkidl/IWMHeaderInfo2::SetAttribute, wmsdkidl/IWMHeaderInfo3::SetAttribute, wmsdkidl/IWMHeaderInfo::SetAttribute",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMHeaderInfo::SetAttribute",
+    "wmsdkidl/IWMHeaderInfo::SetAttribute"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll",
+    "qasf.dll"
+  ],
+  "api_name": [
+    "IWMHeaderInfo.SetAttribute",
+    "IWMHeaderInfo2.SetAttribute",
+    "IWMHeaderInfo3.SetAttribute"
+  ]
+}

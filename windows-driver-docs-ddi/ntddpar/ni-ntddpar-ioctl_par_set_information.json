@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddpar.IOCTL_PAR_SET_INFORMATION",
+  "title": "IOCTL_PAR_SET_INFORMATION (ntddpar.h)",
+  "description": "The IOCTL_PAR_SET_INFORMATION request resets and initializes a parallel device.",
+  "old-location": "parports\\ioctl_par_set_information.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_PAR_SET_INFORMATION IOCTL"
+  ],
+  "ms.keywords": "IOCTL_PAR_SET_INFORMATION, IOCTL_PAR_SET_INFORMATION control code [Parallel Ports], cisspd_950d6397-7eff-4966-a734-0497f1a84257.xml, ntddpar/IOCTL_PAR_SET_INFORMATION, parports.ioctl_par_set_information",
+  "req.header": "ntddpar.h",
+  "req.include-header": "Ntddpar.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION",
+  "f1_keywords": [
+    "IOCTL_PAR_SET_INFORMATION",
+    "ntddpar/IOCTL_PAR_SET_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddpar.h"
+  ],
+  "api_name": [
+    "IOCTL_PAR_SET_INFORMATION"
+  ]
+}

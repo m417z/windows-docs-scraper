@@ -1,0 +1,9 @@
+PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010 Pfnd3d12ddiAddPipelineStateToLibrary0010;
+
+HRESULT Pfnd3d12ddiAddPipelineStateToLibrary0010(
+  D3D12DDI_HDEVICE hDevice,
+  D3D12DDI_HPIPELINELIBRARY hLibrary,
+  D3D12DDI_HPIPELINESTATE hPipelineState,
+  UINT PipelineIndex
+)
+{...}

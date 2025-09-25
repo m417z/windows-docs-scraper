@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ringcollection.NetRingCollectionGetPacketRing",
+  "title": "NetRingCollectionGetPacketRing function (ringcollection.h)",
+  "description": "The NetRingCollectionGetPacketRing gets the packet ring for a packet queue.",
+  "tech.root": "netvista",
+  "ms.date": "02/06/2019",
+  "keywords": [
+    "NetRingCollectionGetPacketRing function"
+  ],
+  "ms.keywords": "NetRingCollectionGetPacketRing",
+  "req.header": "ringcollection.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.29,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level as long as target memory is resident",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.alt-api": null,
+  "req.alt-loc": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "NetRingCollectionGetPacketRing",
+    "ringcollection/NetRingCollectionGetPacketRing"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ringcollection.h"
+  ],
+  "api_name": [
+    "NetRingCollectionGetPacketRing"
+  ]
+}

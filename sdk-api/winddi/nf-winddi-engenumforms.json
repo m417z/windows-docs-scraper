@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngEnumForms",
+  "title": "EngEnumForms function (winddi.h)",
+  "description": "The EngEnumForms function enumerates the forms supported by the specified printer.",
+  "helpviewer_keywords": [
+    "EngEnumForms",
+    "EngEnumForms function [Display Devices]",
+    "display.engenumforms",
+    "gdifncs_62f2ba18-75e2-4636-94cf-c4a0b2b63ab1.xml",
+    "winddi/EngEnumForms"
+  ],
+  "old-location": "display\\engenumforms.htm",
+  "tech.root": "display",
+  "ms.assetid": "c249bb86-52cf-4c9d-9ea2-7e3a7d14a31a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngEnumForms, EngEnumForms function [Display Devices], display.engenumforms, gdifncs_62f2ba18-75e2-4636-94cf-c4a0b2b63ab1.xml, winddi/EngEnumForms",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngEnumForms",
+    "winddi/EngEnumForms"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngEnumForms"
+  ]
+}

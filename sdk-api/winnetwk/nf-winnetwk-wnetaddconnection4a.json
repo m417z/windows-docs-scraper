@@ -1,0 +1,53 @@
+{
+  "UID": "NF:winnetwk.WNetAddConnection4A",
+  "tech.root": "WNet",
+  "title": "WNetAddConnection4A function (winnetwk.h)",
+  "ms.date": "06/04/2025",
+  "targetos": "Windows",
+  "description": "The WNetAddConnection4 function makes a connection to a network resource. The function can redirect a local device to the network resource. (ANSI)",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Mpr.dll",
+  "req.header": "winnetwk.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Mpr.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": "WNetAddConnection4W (Unicode) and WNetAddConnection4A (ANSI)",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winnetwk.h"
+  ],
+  "api_name": [
+    "WNetAddConnection4A",
+    "WNetAddConnection4"
+  ],
+  "f1_keywords": [
+    "WNetAddConnection4A",
+    "winnetwk/WNetAddConnection4A",
+    "WNetAddConnection4",
+    "winnetwk/WNetAddConnection4"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WNetAddConnection4A"
+  ]
+}

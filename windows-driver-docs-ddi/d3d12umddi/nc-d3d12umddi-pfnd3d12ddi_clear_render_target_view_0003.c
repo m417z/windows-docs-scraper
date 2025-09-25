@@ -1,0 +1,10 @@
+PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003 Pfnd3d12ddiClearRenderTargetView0003;
+
+VOID Pfnd3d12ddiClearRenderTargetView0003(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  D3D12DDI_CPU_DESCRIPTOR_HANDLE ViewCPUHandle,
+  const FLOAT[4],
+  UINT NumRects,
+  const D3D12DDI_RECT *pRects
+)
+{...}

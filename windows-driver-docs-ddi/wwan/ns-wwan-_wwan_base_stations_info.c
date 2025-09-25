@@ -1,0 +1,27 @@
+typedef struct _WWAN_BASE_STATIONS_INFO {
+  ULONG SystemType;
+  ULONG SystemSubType;
+  ULONG GSMServingCellOffset;
+  ULONG GSMServingCellSize;
+  ULONG UMTSServingCellOffset;
+  ULONG UMTSServingCellSize;
+  ULONG TDSCDMAServingCellOffset;
+  ULONG TDSCDMAServingCellSize;
+  ULONG LTEServingCellOffset;
+  ULONG LTEServingCellSize;
+  ULONG GSMNmrOffset;
+  ULONG GSMNmrSize;
+  ULONG UMTSMrlOffset;
+  ULONG UMTSMrlSize;
+  ULONG TDSCDMAMrlOffset;
+  ULONG TDSCDMAMrlSize;
+  ULONG LTEMrlOffset;
+  ULONG LTEMrlSize;
+  ULONG CDMAMrlOffset;
+  ULONG CDMAMrlSize;
+  ULONG NRServingCellsOffset;
+  ULONG NRServingCellsSize;
+  ULONG NRNeighborCellsOffset;
+  ULONG NRNeighborCellsSize;
+  BYTE  BaseStationsData[ANYSIZE_ARRAY];
+} WWAN_BASE_STATIONS_INFO, *PWWAN_BASE_STATIONS_INFO;

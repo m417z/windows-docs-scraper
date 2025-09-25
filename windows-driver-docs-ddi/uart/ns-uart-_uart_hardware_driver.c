@@ -1,0 +1,9 @@
+typedef struct _UART_HARDWARE_DRIVER {
+  UART_INITIALIZE_PORT InitializePort;
+  UART_SET_BAUD        SetBaud;
+  UART_GET_BYTE        GetByte;
+  UART_PUT_BYTE        PutByte;
+  UART_RX_READY        RxReady;
+  UART_SET_POWER_D0    SetPowerD0;
+  UART_SET_POWER_D3    SetPowerD3;
+} UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER;

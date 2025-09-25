@@ -1,0 +1,3 @@
+HRESULT TxGetWindow(
+  HWND *phwnd
+);

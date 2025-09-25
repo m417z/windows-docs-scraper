@@ -1,0 +1,53 @@
+{
+  "UID": "NF:namedpipeapi.CallNamedPipeW",
+  "tech.root": "base",
+  "title": "CallNamedPipeW",
+  "ms.date": "04/19/2021",
+  "targetos": "Windows",
+  "description": "Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe. (CallNamedPipeW)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "namedpipeapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll",
+    "API-MS-Win-Core-NamedPipe-L1-2-2.dll",
+    "Kernel32Legacy.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "CallNamedPipeW",
+    "CallNamedPipe"
+  ],
+  "f1_keywords": [
+    "CallNamedPipeW",
+    "namedpipeapi/CallNamedPipeW",
+    "CallNamedPipe",
+    "namedpipeapi/CallNamedPipe"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

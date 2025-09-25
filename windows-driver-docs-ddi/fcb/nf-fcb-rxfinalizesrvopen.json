@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fcb.RxFinalizeSrvOpen",
+  "title": "RxFinalizeSrvOpen function (fcb.h)",
+  "description": "RxFinalizeSrvOpen finalizes the given SRV_OPEN structure. The caller must have an exclusive lock on the FCB associated with the SRV_OPEN and either a shared or exclusive lock on the table lock of the NET_ROOT associated with the FCB.",
+  "old-location": "ifsk\\rxfinalizesrvopen.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxFinalizeSrvOpen function"
+  ],
+  "ms.keywords": "RxFinalizeSrvOpen, RxFinalizeSrvOpen function [Installable File System Drivers], fcb/RxFinalizeSrvOpen, ifsk.rxfinalizesrvopen, rxref_0665a600-9a4c-4674-87bd-f9758b579cee.xml",
+  "req.header": "fcb.h",
+  "req.include-header": "Mrxfcb.h, Fcb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxFinalizeSrvOpen",
+    "fcb/RxFinalizeSrvOpen"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fcb.h"
+  ],
+  "api_name": [
+    "RxFinalizeSrvOpen"
+  ]
+}

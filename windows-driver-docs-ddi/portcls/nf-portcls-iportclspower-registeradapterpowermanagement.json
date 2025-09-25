@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortClsPower.RegisterAdapterPowerManagement",
+  "title": "IPortClsPower::RegisterAdapterPowerManagement (portcls.h)",
+  "description": "The RegisterAdapterPowerManagement method registers the power management interface of the adapter with PortCls.",
+  "old-location": "audio\\iportclspower_registeradapterpowermanagement.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortClsPower::RegisterAdapterPowerManagement"
+  ],
+  "ms.keywords": "IPortClsPower interface [Audio Devices],RegisterAdapterPowerManagement method, IPortClsPower.RegisterAdapterPowerManagement, IPortClsPower::RegisterAdapterPowerManagement, RegisterAdapterPowerManagement, RegisterAdapterPowerManagement method [Audio Devices], RegisterAdapterPowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_registeradapterpowermanagement, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, portcls/IPortClsPower::RegisterAdapterPowerManagement",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortClsPower::RegisterAdapterPowerManagement",
+    "portcls/IPortClsPower::RegisterAdapterPowerManagement"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IPortClsPower::RegisterAdapterPowerManagement"
+  ]
+}

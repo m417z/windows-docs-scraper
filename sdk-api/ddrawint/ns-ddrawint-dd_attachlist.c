@@ -1,0 +1,4 @@
+typedef struct _DD_ATTACHLIST {
+  PDD_ATTACHLIST    lpLink;
+  PDD_SURFACE_LOCAL lpAttached;
+} *PDD_ATTACHLIST, DD_ATTACHLIST;

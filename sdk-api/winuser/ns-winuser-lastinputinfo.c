@@ -1,0 +1,4 @@
+typedef struct tagLASTINPUTINFO {
+  UINT  cbSize;
+  DWORD dwTime;
+} LASTINPUTINFO, *PLASTINPUTINFO;

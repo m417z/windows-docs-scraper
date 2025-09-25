@@ -1,0 +1,6 @@
+typedef enum _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT {
+  UsbCUcsiSetPowerLevelCCurrentPpmDefault,
+  UsbCUcsiSetPowerLevelCCurrent3000mA,
+  UsbCUcsiSetPowerLevelCCurrent1500mA,
+  UsbCUcsiSetPowerLevelCCurrentDefaultUsb
+} USBC_UCSI_SET_POWER_LEVEL_C_CURRENT, *PUSBPM_UCSI_SET_POWER_LEVEL_C_CURRENT;

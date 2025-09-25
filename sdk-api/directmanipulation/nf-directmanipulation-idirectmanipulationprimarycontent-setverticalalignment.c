@@ -1,0 +1,3 @@
+HRESULT SetVerticalAlignment(
+  [in] DIRECTMANIPULATION_VERTICALALIGNMENT alignment
+);

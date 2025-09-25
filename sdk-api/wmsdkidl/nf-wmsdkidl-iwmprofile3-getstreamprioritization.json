@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMProfile3.GetStreamPrioritization",
+  "title": "IWMProfile3::GetStreamPrioritization (wmsdkidl.h)",
+  "description": "The GetStreamPrioritization method retrieves the stream prioritization that exists in the profile.",
+  "helpviewer_keywords": [
+    "GetStreamPrioritization",
+    "GetStreamPrioritization method [windows Media Format]",
+    "GetStreamPrioritization method [windows Media Format]",
+    "IWMProfile3 interface",
+    "IWMProfile3 interface [windows Media Format]",
+    "GetStreamPrioritization method",
+    "IWMProfile3.GetStreamPrioritization",
+    "IWMProfile3::GetStreamPrioritization",
+    "IWMProfile3GetStreamPrioritization",
+    "wmformat.iwmprofile3_getstreamprioritization",
+    "wmsdkidl/IWMProfile3::GetStreamPrioritization"
+  ],
+  "old-location": "wmformat\\iwmprofile3_getstreamprioritization.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "09545c1e-8090-4526-9faf-6cb2cb369208",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetStreamPrioritization, GetStreamPrioritization method [windows Media Format], GetStreamPrioritization method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStreamPrioritization method, IWMProfile3.GetStreamPrioritization, IWMProfile3::GetStreamPrioritization, IWMProfile3GetStreamPrioritization, wmformat.iwmprofile3_getstreamprioritization, wmsdkidl/IWMProfile3::GetStreamPrioritization",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProfile3::GetStreamPrioritization",
+    "wmsdkidl/IWMProfile3::GetStreamPrioritization"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMProfile3.GetStreamPrioritization"
+  ]
+}

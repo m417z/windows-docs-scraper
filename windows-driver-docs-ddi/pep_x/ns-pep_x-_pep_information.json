@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pep_x._PEP_INFORMATION",
+  "title": "_PEP_INFORMATION (pep_x.h)",
+  "description": "Learn how the PEP_INFORMATION structure specifies the interface that the platform extension plug-in (PEP) uses to receive notifications from the Windows power management framework (PoFx).",
+  "old-location": "kernel\\pep_information.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PEP_INFORMATION structure"
+  ],
+  "ms.keywords": "*PPEP_INFORMATION, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_INFORMATION, kernel.pep_information, pepfx/PEP_INFORMATION, pepfx/PPEP_INFORMATION",
+  "req.header": "pep_x.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_INFORMATION, *PPEP_INFORMATION",
+  "f1_keywords": [
+    "_PEP_INFORMATION",
+    "pep_x/_PEP_INFORMATION",
+    "PPEP_INFORMATION",
+    "pep_x/PPEP_INFORMATION",
+    "PEP_INFORMATION",
+    "pep_x/PEP_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_INFORMATION",
+    "PPEP_INFORMATION",
+    "PEP_INFORMATION"
+  ]
+}

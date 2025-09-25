@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IPnpCallback.OnD0Exit",
+  "title": "IPnpCallback::OnD0Exit (wudfddi.h)",
+  "description": "The OnD0Exit method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations, such as disabling the device.",
+  "old-location": "wdf\\ipnpcallback_ond0exit.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IPnpCallback::OnD0Exit"
+  ],
+  "ms.keywords": "IPnpCallback interface,OnD0Exit method, IPnpCallback.OnD0Exit, IPnpCallback::OnD0Exit, OnD0Exit, OnD0Exit method, OnD0Exit method,IPnpCallback interface, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPnpCallback::OnD0Exit",
+    "wudfddi/IPnpCallback::OnD0Exit"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IPnpCallback::OnD0Exit"
+  ]
+}

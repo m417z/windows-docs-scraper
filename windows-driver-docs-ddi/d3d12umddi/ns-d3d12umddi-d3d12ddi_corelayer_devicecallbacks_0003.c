@@ -1,0 +1,21 @@
+typedef struct D3D12DDI_CORELAYER_DEVICECALLBACKS_0003 {
+  PFND3D12DDI_SETERROR_CB               pfnSetErrorCb;
+  PFND3D12DDI_SETCOMMANDLISTERROR_CB    pfnSetCommandListErrorCb;
+  PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB pfnSetCommandListDDITableCb;
+  PFND3D12DDI_CREATECONTEXT_CB          pfnCreateContextCb;
+  PFND3D12DDI_CREATECONTEXTVIRTUAL_CB   pfnCreateContextVirtualCb;
+  void                                  *pfnReservedCreateContextVirtualCb;
+  PFND3D12DDI_DESTROYCONTEXT_CB         pfnDestroyContextCb;
+  PFND3D12DDI_CREATEPAGINGQUEUE_CB      pfnCreatePagingQueueCb;
+  PFND3D12DDI_DESTROYPAGINGQUEUE_CB     pfnDestroyPagingQueueCb;
+  PFND3D12DDI_MAKERESIDENT_CB           pfnMakeResidentCb;
+  PFND3D12DDI_EVICT_CB                  pfnEvictCb;
+  PFND3D12DDI_RECLAIMALLOCATIONS2_CB    pfnReclaimAllocations2Cb;
+  PFND3D12DDI_OFFERALLOCATIONS_CB       pfnOfferAllocationsCb;
+  void                                  *pfnReservedCreatePagingQueueCb;
+  void                                  *pfnReservedDestroyPagingQueueCb;
+  void                                  *pfnReservedMakeResidentCb;
+  void                                  *pfnReservedEvictCb;
+  void                                  *pfnReservedReclaimAllocations2Cb;
+  void                                  *pfnReservedOfferAllocationsCb;
+} D3D12DDI_CORELAYER_DEVICECALLBACKS_0003;

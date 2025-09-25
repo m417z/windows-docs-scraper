@@ -1,0 +1,51 @@
+{
+  "UID": "NC:windns.DNS_QUERY_RAW_COMPLETION_ROUTINE",
+  "title": "DNS_QUERY_RAW_COMPLETION_ROUTINE",
+  "description": "The function signature of an asynchronous callback function that you implement. The system calls your implementation with the results of a query that you initiated by calling DnsQueryRaw.",
+  "tech.root": "DNS",
+  "ms.date": "07/13/2023",
+  "targetos": "Windows",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "windns.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "windns.h"
+  ],
+  "api_name": [
+    "DNS_QUERY_RAW_COMPLETION_ROUTINE"
+  ],
+  "f1_keywords": [
+    "DNS_QUERY_RAW_COMPLETION_ROUTINE",
+    "windns/DNS_QUERY_RAW_COMPLETION_ROUTINE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DNS_QUERY_RAW_COMPLETION_ROUTINE"
+  ]
+}

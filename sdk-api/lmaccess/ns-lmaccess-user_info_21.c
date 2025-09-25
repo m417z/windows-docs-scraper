@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_21 {
+  BYTE usri21_password[ENCRYPTED_PWLEN];
+} USER_INFO_21, *PUSER_INFO_21, *LPUSER_INFO_21;

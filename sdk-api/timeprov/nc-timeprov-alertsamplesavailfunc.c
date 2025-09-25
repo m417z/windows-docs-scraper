@@ -1,0 +1,4 @@
+AlertSamplesAvailFunc Alertsamplesavailfunc;
+
+HRESULT Alertsamplesavailfunc()
+{...}

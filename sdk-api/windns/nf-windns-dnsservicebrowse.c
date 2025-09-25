@@ -1,0 +1,4 @@
+DNS_STATUS DnsServiceBrowse(
+  PDNS_SERVICE_BROWSE_REQUEST pRequest,
+  PDNS_SERVICE_CANCEL         pCancel
+);

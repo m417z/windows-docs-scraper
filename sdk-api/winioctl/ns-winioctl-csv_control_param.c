@@ -1,0 +1,4 @@
+typedef struct _CSV_CONTROL_PARAM {
+  CSV_CONTROL_OP Operation;
+  LONGLONG       Unused;
+} CSV_CONTROL_PARAM, *PCSV_CONTROL_PARAM;

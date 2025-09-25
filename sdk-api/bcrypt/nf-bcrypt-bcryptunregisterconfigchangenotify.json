@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptUnregisterConfigChangeNotify",
+  "title": "BCryptUnregisterConfigChangeNotify function (bcrypt.h)",
+  "description": "Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.",
+  "helpviewer_keywords": [
+    "BCryptUnregisterConfigChangeNotify",
+    "BCryptUnregisterConfigChangeNotify function [Security]",
+    "BCryptUnregisterConfigChangeNotify(HANDLE)",
+    "bcrypt/BCryptUnregisterConfigChangeNotify",
+    "security.bcryptunregisterconfigchangenotify_handle"
+  ],
+  "old-location": "security\\bcryptunregisterconfigchangenotify_handle.htm",
+  "tech.root": "security",
+  "ms.assetid": "204d289d-46c0-4815-a628-758310014790",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptUnregisterConfigChangeNotify, BCryptUnregisterConfigChangeNotify function [Security], BCryptUnregisterConfigChangeNotify(HANDLE), bcrypt/BCryptUnregisterConfigChangeNotify, security.bcryptunregisterconfigchangenotify_handle",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptUnregisterConfigChangeNotify",
+    "bcrypt/BCryptUnregisterConfigChangeNotify"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptUnregisterConfigChangeNotify"
+  ]
+}

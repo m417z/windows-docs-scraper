@@ -1,0 +1,7 @@
+typedef struct _DD_ADDATTACHEDSURFACEDATA {
+  PDD_DIRECTDRAW_GLOBAL lpDD;
+  PDD_SURFACE_LOCAL     lpDDSurface;
+  PDD_SURFACE_LOCAL     lpSurfAttached;
+  HRESULT               ddRVal;
+  VOID                  *AddAttachedSurface;
+} *PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA;

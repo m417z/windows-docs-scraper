@@ -1,0 +1,8 @@
+typedef struct tagCOLORMATCHTOTARGET {
+  EMR   emr;
+  DWORD dwAction;
+  DWORD dwFlags;
+  DWORD cbName;
+  DWORD cbData;
+  BYTE  Data[1];
+} EMRCOLORMATCHTOTARGET, *PEMRCOLORMATCHTOTARGET;

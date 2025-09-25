@@ -1,0 +1,5 @@
+typedef struct _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE {
+  [out] HANDLE                             hAllocation;
+  [in]  D3DDDI_VIDEO_PRESENT_SOURCE_ID     VidPnSourceId;
+        DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
+} DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE;

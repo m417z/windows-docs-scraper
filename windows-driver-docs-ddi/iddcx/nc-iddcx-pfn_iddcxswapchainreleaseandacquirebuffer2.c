@@ -1,0 +1,9 @@
+PFN_IDDCXSWAPCHAINRELEASEANDACQUIREBUFFER2 PfnIddcxswapchainreleaseandacquirebuffer2;
+
+HRESULT * PfnIddcxswapchainreleaseandacquirebuffer2(
+  PIDD_DRIVER_GLOBALS DriverGlobals,
+  IDDCX_SWAPCHAIN SwapChainObject,
+  IDARG_IN_RELEASEANDACQUIREBUFFER2 *pInArgs,
+  IDARG_OUT_RELEASEANDACQUIREBUFFER2 *pOutArgs
+)
+{...}

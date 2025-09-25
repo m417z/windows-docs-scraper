@@ -1,0 +1,66 @@
+{
+  "UID": "NF:commctrl.ListView_SetCallbackMask",
+  "title": "ListView_SetCallbackMask macro (commctrl.h)",
+  "description": "Changes the callback mask for a list-view control. You can use this macro or send the LVM_SETCALLBACKMASK message explicitly.",
+  "helpviewer_keywords": [
+    "LVIS_CUT",
+    "LVIS_DROPHILITED",
+    "LVIS_FOCUSED",
+    "LVIS_OVERLAYMASK",
+    "LVIS_SELECTED",
+    "LVIS_STATEIMAGEMASK",
+    "ListView_SetCallbackMask",
+    "ListView_SetCallbackMask macro [Windows Controls]",
+    "_win32_ListView_SetCallbackMask",
+    "_win32_ListView_SetCallbackMask_cpp",
+    "commctrl/ListView_SetCallbackMask",
+    "controls.ListView_SetCallbackMask",
+    "controls._win32_ListView_SetCallbackMask"
+  ],
+  "old-location": "controls\\ListView_SetCallbackMask.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_setcallbackmask.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_SetCallbackMask, ListView_SetCallbackMask macro [Windows Controls], _win32_ListView_SetCallbackMask, _win32_ListView_SetCallbackMask_cpp, commctrl/ListView_SetCallbackMask, controls.ListView_SetCallbackMask, controls._win32_ListView_SetCallbackMask",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_SetCallbackMask",
+    "commctrl/ListView_SetCallbackMask"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_SetCallbackMask"
+  ]
+}

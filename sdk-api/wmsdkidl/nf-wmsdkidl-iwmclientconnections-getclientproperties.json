@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMClientConnections.GetClientProperties",
+  "title": "IWMClientConnections::GetClientProperties (wmsdkidl.h)",
+  "description": "The GetClientProperties method retrieves information, including the IP address and protocol, about a connected client.",
+  "helpviewer_keywords": [
+    "GetClientProperties",
+    "GetClientProperties method [windows Media Format]",
+    "GetClientProperties method [windows Media Format]",
+    "IWMClientConnections interface",
+    "IWMClientConnections interface [windows Media Format]",
+    "GetClientProperties method",
+    "IWMClientConnections.GetClientProperties",
+    "IWMClientConnections::GetClientProperties",
+    "IWMClientConnectionsGetClientProperties",
+    "wmformat.iwmclientconnections_getclientproperties",
+    "wmsdkidl/IWMClientConnections::GetClientProperties"
+  ],
+  "old-location": "wmformat\\iwmclientconnections_getclientproperties.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "a05d7d1e-21dc-4e2a-a17b-5f04e639b143",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetClientProperties, GetClientProperties method [windows Media Format], GetClientProperties method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientProperties method, IWMClientConnections.GetClientProperties, IWMClientConnections::GetClientProperties, IWMClientConnectionsGetClientProperties, wmformat.iwmclientconnections_getclientproperties, wmsdkidl/IWMClientConnections::GetClientProperties",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMClientConnections::GetClientProperties",
+    "wmsdkidl/IWMClientConnections::GetClientProperties"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMClientConnections.GetClientProperties"
+  ]
+}

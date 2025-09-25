@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._EXT_SET_PARAMETERS_V0",
+  "title": "_EXT_SET_PARAMETERS_V0 (wdm.h)",
+  "description": "The EXT_SET_PARAMETERS structure contains an extended set of parameters for the ExSetTimer routine.",
+  "old-location": "kernel\\ext_set_parameters.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "EXT_SET_PARAMETERS_V0 structure"
+  ],
+  "ms.keywords": "*PEXT_SET_PARAMETERS, *PKT2_SET_PARAMETERS, EXT_SET_PARAMETERS, EXT_SET_PARAMETERS structure [Kernel-Mode Driver Architecture], KT2_SET_PARAMETERS, PEXT_SET_PARAMETERS, PEXT_SET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _EXT_SET_PARAMETERS_V0, kernel.ext_set_parameters, wdm/EXT_SET_PARAMETERS, wdm/PEXT_SET_PARAMETERS",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "EXT_SET_PARAMETERS, *PEXT_SET_PARAMETERS",
+  "f1_keywords": [
+    "_EXT_SET_PARAMETERS_V0",
+    "wdm/_EXT_SET_PARAMETERS_V0",
+    "PEXT_SET_PARAMETERS",
+    "wdm/PEXT_SET_PARAMETERS",
+    "EXT_SET_PARAMETERS",
+    "wdm/EXT_SET_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_EXT_SET_PARAMETERS_V0",
+    "PEXT_SET_PARAMETERS",
+    "EXT_SET_PARAMETERS"
+  ]
+}

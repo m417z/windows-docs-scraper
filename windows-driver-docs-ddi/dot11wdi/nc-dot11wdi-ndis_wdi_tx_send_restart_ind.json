@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dot11wdi.NDIS_WDI_TX_SEND_RESTART_IND",
+  "title": "NDIS_WDI_TX_SEND_RESTART_IND (dot11wdi.h)",
+  "description": "The NdisWdiTxSendRestartIndication callback function resumes transmission on a given port to a given peer or peer-TID combination.",
+  "old-location": "netvista\\ndiswditxsendrestartindication.htm",
+  "tech.root": "netvista",
+  "ms.date": "09/07/2022",
+  "keywords": [
+    "NDIS_WDI_TX_SEND_RESTART_IND callback function"
+  ],
+  "ms.keywords": "NDIS_WDI_TX_SEND_RESTART_IND, NDIS_WDI_TX_SEND_RESTART_IND callback, NdisWdiTxSendRestartIndication, NdisWdiTxSendRestartIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendRestartIndication, netvista.ndiswditxsendrestartindication",
+  "req.header": "dot11wdi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_WDI_TX_SEND_RESTART_IND",
+    "dot11wdi/NDIS_WDI_TX_SEND_RESTART_IND"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dot11wdi.h"
+  ],
+  "api_name": [
+    "NDIS_WDI_TX_SEND_RESTART_IND"
+  ]
+}

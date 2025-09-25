@@ -1,0 +1,46 @@
+{
+  "UID": "NE:fwpsk.IP_DISCARD_REASON",
+  "tech.root": "netvista",
+  "title": "IP_DISCARD_REASON",
+  "ms.date": "03/08/2024",
+  "targetos": "Windows",
+  "description": "The IP_DISCARD_REASON enum defines the possible reasons that data is discarded by one of the network layers.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "fwpsk.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fwpsk.h"
+  ],
+  "api_name": [
+    "IP_DISCARD_REASON",
+    "PIP_DISCARD_REASON"
+  ],
+  "f1_keywords": [
+    "IP_DISCARD_REASON",
+    "fwpsk/IP_DISCARD_REASON",
+    "PIP_DISCARD_REASON",
+    "fwpsk/PIP_DISCARD_REASON"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IP_DISCARD_REASON"
+  ]
+}

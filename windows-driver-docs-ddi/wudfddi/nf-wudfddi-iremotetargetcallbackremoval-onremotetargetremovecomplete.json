@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete",
+  "title": "IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete (wudfddi.h)",
+  "description": "A UMDF-based driver's OnRemoteTargetRemoveComplete event callback function performs operations that are necessary after the operating system completes the removal of a remote I/O target's device.",
+  "old-location": "wdf\\iremotetargetcallbackremoval_onremotetargetremovecomplete.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete"
+  ],
+  "ms.keywords": "IRemoteTargetCallbackRemoval interface,OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete method, OnRemoteTargetRemoveComplete method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.9,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete",
+    "wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete"
+  ]
+}

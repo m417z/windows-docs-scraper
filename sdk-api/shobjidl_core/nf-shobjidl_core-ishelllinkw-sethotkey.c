@@ -1,0 +1,3 @@
+HRESULT SetHotkey(
+  WORD wHotkey
+);

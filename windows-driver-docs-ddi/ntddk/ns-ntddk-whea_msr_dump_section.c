@@ -1,0 +1,5 @@
+typedef struct _WHEA_MSR_DUMP_SECTION {
+  UCHAR MsrDumpBuffer;
+  ULONG MsrDumpLength;
+  UCHAR MsrDumpData[1];
+} WHEA_MSR_DUMP_SECTION, *PWHEA_MSR_DUMP_SECTION;

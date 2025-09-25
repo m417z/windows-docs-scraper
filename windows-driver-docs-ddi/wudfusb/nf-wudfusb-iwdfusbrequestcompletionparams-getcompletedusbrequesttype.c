@@ -1,0 +1,1 @@
+WDF_USB_REQUEST_TYPE GetCompletedUsbRequestType();

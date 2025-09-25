@@ -1,0 +1,63 @@
+{
+  "UID": "NF:dwrite.IDWriteFontFace.GetGlyphRunOutline",
+  "title": "IDWriteFontFace::GetGlyphRunOutline (dwrite.h)",
+  "description": "Computes the outline of a run of glyphs by calling back to the outline sink interface.",
+  "helpviewer_keywords": [
+    "GetGlyphRunOutline",
+    "GetGlyphRunOutline method [Direct Write]",
+    "GetGlyphRunOutline method [Direct Write]",
+    "IDWriteFontFace interface",
+    "IDWriteFontFace interface [Direct Write]",
+    "GetGlyphRunOutline method",
+    "IDWriteFontFace.GetGlyphRunOutline",
+    "IDWriteFontFace::GetGlyphRunOutline",
+    "directwrite.IDWriteFontFace_GetGlyphRunOutline",
+    "dwrite/IDWriteFontFace::GetGlyphRunOutline"
+  ],
+  "old-location": "directwrite\\IDWriteFontFace_GetGlyphRunOutline.htm",
+  "tech.root": "DirectWrite",
+  "ms.assetid": "06edbd68-efc3-44e5-875c-a84488fca252",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetGlyphRunOutline, GetGlyphRunOutline method [Direct Write], GetGlyphRunOutline method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphRunOutline method, IDWriteFontFace.GetGlyphRunOutline, IDWriteFontFace::GetGlyphRunOutline, directwrite.IDWriteFontFace_GetGlyphRunOutline, dwrite/IDWriteFontFace::GetGlyphRunOutline",
+  "req.header": "dwrite.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dwrite.lib",
+  "req.dll": "Dwrite.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDWriteFontFace::GetGlyphRunOutline",
+    "dwrite/IDWriteFontFace::GetGlyphRunOutline"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dwrite.dll"
+  ],
+  "api_name": [
+    "IDWriteFontFace.GetGlyphRunOutline"
+  ]
+}

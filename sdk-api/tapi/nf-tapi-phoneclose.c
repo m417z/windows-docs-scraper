@@ -1,0 +1,3 @@
+LONG phoneClose(
+  HPHONE hPhone
+);

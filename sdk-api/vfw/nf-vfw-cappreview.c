@@ -1,0 +1,4 @@
+BOOL capPreview(
+     hwnd,
+     f
+);

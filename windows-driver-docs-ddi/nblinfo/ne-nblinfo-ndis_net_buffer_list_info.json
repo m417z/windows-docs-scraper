@@ -1,0 +1,44 @@
+{
+  "UID": "NE:nblinfo._NDIS_NET_BUFFER_LIST_INFO",
+  "title": "NDIS_NET_BUFFER_LIST_INFO",
+  "ms.date": "02/28/2024",
+  "targetos": "Windows",
+  "description": "The NDIS_NET_BUFFER_LIST_INFO enumeration identifies information that is common to all NET_BUFFER structures in a NET_BUFFER_LIST structure.",
+  "tech.root": "netvista",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ndis/nblinfo.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nblinfo.h"
+  ],
+  "api_name": [
+    "_NDIS_NET_BUFFER_LIST_INFO",
+    "PNDIS_NET_BUFFER_LIST_INFO",
+    "NDIS_NET_BUFFER_LIST_INFO"
+  ],
+  "f1_keywords": [
+    "_NDIS_NET_BUFFER_LIST_INFO",
+    "nblinfo/_NDIS_NET_BUFFER_LIST_INFO",
+    "PNDIS_NET_BUFFER_LIST_INFO",
+    "nblinfo/PNDIS_NET_BUFFER_LIST_INFO",
+    "NDIS_NET_BUFFER_LIST_INFO",
+    "nblinfo/NDIS_NET_BUFFER_LIST_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

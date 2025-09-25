@@ -1,0 +1,4 @@
+typedef struct _OCSP_BASIC_REVOKED_INFO {
+  FILETIME RevocationDate;
+  DWORD    dwCrlReasonCode;
+} OCSP_BASIC_REVOKED_INFO, *POCSP_BASIC_REVOKED_INFO;

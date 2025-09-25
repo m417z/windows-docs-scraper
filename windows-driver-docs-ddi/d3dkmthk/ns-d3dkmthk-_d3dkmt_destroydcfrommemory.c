@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_DESTROYDCFROMMEMORY {
+  [in] HDC    hDc;
+  [in] HANDLE hBitmap;
+} D3DKMT_DESTROYDCFROMMEMORY;

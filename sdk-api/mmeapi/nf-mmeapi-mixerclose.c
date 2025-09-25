@@ -1,0 +1,3 @@
+MMRESULT mixerClose(
+  HMIXER hmx
+);

@@ -1,0 +1,72 @@
+{
+  "UID": "NF:fileapi.LockFileEx",
+  "title": "LockFileEx function (fileapi.h)",
+  "description": "Locks the specified file for exclusive access by the calling process. This function can operate either synchronously or asynchronously and can request either an exclusive or a shared lock.",
+  "helpviewer_keywords": [
+    "LOCKFILE_EXCLUSIVE_LOCK",
+    "LOCKFILE_FAIL_IMMEDIATELY",
+    "LockFileEx",
+    "LockFileEx function [Files]",
+    "_win32_lockfileex",
+    "base.lockfileex",
+    "fileapi/LockFileEx",
+    "fs.lockfileex",
+    "winbase/LockFileEx"
+  ],
+  "old-location": "fs\\lockfileex.htm",
+  "tech.root": "fs",
+  "ms.assetid": "30931ed0-495c-4b50-964a-c507d4ebc2be",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LOCKFILE_EXCLUSIVE_LOCK, LOCKFILE_FAIL_IMMEDIATELY, LockFileEx, LockFileEx function [Files], _win32_lockfileex, base.lockfileex, fileapi/LockFileEx, fs.lockfileex, winbase/LockFileEx",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LockFileEx",
+    "fileapi/LockFileEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-0.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "LockFileEx"
+  ]
+}

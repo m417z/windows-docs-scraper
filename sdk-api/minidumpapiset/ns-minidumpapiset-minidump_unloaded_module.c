@@ -1,0 +1,7 @@
+typedef struct _MINIDUMP_UNLOADED_MODULE {
+  ULONG64 BaseOfImage;
+  ULONG32 SizeOfImage;
+  ULONG32 CheckSum;
+  ULONG32 TimeDateStamp;
+  RVA     ModuleNameRva;
+} MINIDUMP_UNLOADED_MODULE, *PMINIDUMP_UNLOADED_MODULE;

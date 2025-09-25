@@ -1,0 +1,7 @@
+typedef struct D3D12_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT_H264 {
+  UINT MaxL0ReferencesForP;
+  UINT MaxL0ReferencesForB;
+  UINT MaxL1ReferencesForB;
+  UINT MaxLongTermReferences;
+  UINT MaxDPBCapacity;
+} D3D12_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT_H264;

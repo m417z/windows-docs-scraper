@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_DESTROYCONTEXT {
+  [in] D3DKMT_HANDLE hContext;
+} D3DKMT_DESTROYCONTEXT;

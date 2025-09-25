@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDFDEVICE_WDM_IRP_DISPATCH",
+  "title": "EVT_WDFDEVICE_WDM_IRP_DISPATCH (wdfdevice.h)",
+  "description": "A driver's EvtDeviceWdmIrpDispatch event callback function receives an IRP before the framework processes the IRP.",
+  "old-location": "wdf\\evtdevicewdmirpdispatch.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDFDEVICE_WDM_IRP_DISPATCH callback function"
+  ],
+  "ms.keywords": "EVT_WDFDEVICE_WDM_IRP_DISPATCH, EVT_WDFDEVICE_WDM_IRP_DISPATCH callback, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": 2.17,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDFDEVICE_WDM_IRP_DISPATCH",
+    "wdfdevice/EVT_WDFDEVICE_WDM_IRP_DISPATCH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDFDEVICE_WDM_IRP_DISPATCH"
+  ]
+}

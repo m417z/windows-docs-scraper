@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMediaSeeking.GetPreroll",
+  "title": "IMediaSeeking::GetPreroll (strmif.h)",
+  "description": "The GetPreroll method retrieves the amount of data that will be queued before the start position.",
+  "helpviewer_keywords": [
+    "GetPreroll",
+    "GetPreroll method [DirectShow]",
+    "GetPreroll method [DirectShow]",
+    "IMediaSeeking interface",
+    "IMediaSeeking interface [DirectShow]",
+    "GetPreroll method",
+    "IMediaSeeking.GetPreroll",
+    "IMediaSeeking::GetPreroll",
+    "IMediaSeekingGetPreroll",
+    "dshow.imediaseeking_getpreroll",
+    "strmif/IMediaSeeking::GetPreroll"
+  ],
+  "old-location": "dshow\\imediaseeking_getpreroll.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "9d519aab-eb35-4a00-b6fe-23d734f969ae",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetPreroll, GetPreroll method [DirectShow], GetPreroll method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPreroll method, IMediaSeeking.GetPreroll, IMediaSeeking::GetPreroll, IMediaSeekingGetPreroll, dshow.imediaseeking_getpreroll, strmif/IMediaSeeking::GetPreroll",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaSeeking::GetPreroll",
+    "strmif/IMediaSeeking::GetPreroll"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaSeeking.GetPreroll"
+  ]
+}

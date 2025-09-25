@@ -1,0 +1,5 @@
+typedef enum _MFNetCredentialOptions {
+  MFNET_CREDENTIAL_SAVE = 0x1,
+  MFNET_CREDENTIAL_DONT_CACHE = 0x2,
+  MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT = 0x4
+} MFNetCredentialOptions;

@@ -1,0 +1,53 @@
+{
+  "UID": "NS:wdm._FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+  "title": "_FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS (wdm.h)",
+  "description": "The FUNCTION_LEVEL_DEVICE_RESET_PARAMETER structure is used as an argument to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.",
+  "tech.root": "kernel",
+  "ms.date": "06/06/2022",
+  "keywords": [
+    "FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure"
+  ],
+  "ms.keywords": "*PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure [Kernel-Mode Driver Architecture], PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, kernel.function_level_device_reset_parameters, wdm/FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, wdm/PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, *PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+  "f1_keywords": [
+    "_FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+    "wdm/_FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+    "PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+    "wdm/PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+    "FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+    "wdm/FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+    "PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS",
+    "FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
+  ]
+}

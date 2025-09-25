@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_CDW10_SECURITY_SEND_RECEIVE",
+  "tech.root": "fs",
+  "title": "NVME_CDW10_SECURITY_SEND_RECEIVE",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains parameters that are used in the Admin commands Security Send and Security Receive.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_CDW10_SECURITY_SEND_RECEIVE, *PNVME_CDW10_SECURITY_SEND_RECEIVE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_CDW10_SECURITY_SEND_RECEIVE",
+    "NVME_CDW10_SECURITY_SEND_RECEIVE"
+  ],
+  "f1_keywords": [
+    "PNVME_CDW10_SECURITY_SEND_RECEIVE",
+    "nvme/PNVME_CDW10_SECURITY_SEND_RECEIVE",
+    "NVME_CDW10_SECURITY_SEND_RECEIVE",
+    "nvme/NVME_CDW10_SECURITY_SEND_RECEIVE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,6 @@
+PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB Pfnd3dwddm22DdiShadercacheAddrefReleaseCb;
+
+void Pfnd3dwddm22DdiShadercacheAddrefReleaseCb(
+  D3DWDDM2_2DDI_HRTCACHESESSION hCacheSession
+)
+{...}

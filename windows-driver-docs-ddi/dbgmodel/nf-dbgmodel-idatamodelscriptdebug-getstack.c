@@ -1,0 +1,3 @@
+HRESULT GetStack(
+  IDataModelScriptDebugStack **stack
+);

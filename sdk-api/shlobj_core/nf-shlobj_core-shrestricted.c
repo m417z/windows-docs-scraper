@@ -1,0 +1,3 @@
+DWORD SHRestricted(
+  RESTRICTIONS rest
+);

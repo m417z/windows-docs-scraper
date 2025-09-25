@@ -1,0 +1,6 @@
+PFND3D12DDI_END_RENDER_PASS_0053 Pfnd3d12ddiEndRenderPass0053;
+
+VOID Pfnd3d12ddiEndRenderPass0053(
+  D3D12DDI_HCOMMANDLIST unnamedParam1
+)
+{...}

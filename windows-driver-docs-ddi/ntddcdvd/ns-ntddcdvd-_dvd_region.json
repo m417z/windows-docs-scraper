@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddcdvd._DVD_REGION",
+  "title": "_DVD_REGION (ntddcdvd.h)",
+  "description": "The DVD_REGION structure is used in conjunction with the IOCTL_DVD_GET_REGION request to retrieve region playback control (RPC) information for a DVD device.",
+  "old-location": "storage\\dvd_region.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DVD_REGION structure"
+  ],
+  "ms.keywords": "*PDVD_REGION, DVD_REGION, DVD_REGION structure [Storage Devices], PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], _DVD_REGION, ntddcdvd/DVD_REGION, ntddcdvd/PDVD_REGION, storage.dvd_region, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml",
+  "req.header": "ntddcdvd.h",
+  "req.include-header": "Ntddcdvd.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DVD_REGION, *PDVD_REGION",
+  "f1_keywords": [
+    "_DVD_REGION",
+    "ntddcdvd/_DVD_REGION",
+    "PDVD_REGION",
+    "ntddcdvd/PDVD_REGION",
+    "DVD_REGION",
+    "ntddcdvd/DVD_REGION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddcdvd.h"
+  ],
+  "api_name": [
+    "_DVD_REGION",
+    "PDVD_REGION",
+    "DVD_REGION"
+  ]
+}

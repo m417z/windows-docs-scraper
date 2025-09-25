@@ -1,0 +1,3 @@
+void SetChar(
+  CHAR Data
+);

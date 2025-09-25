@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.TRANSLATE_BUS_ADDRESS",
+  "title": "TRANSLATE_BUS_ADDRESS (wdm.h)",
+  "description": "The TranslateBusAddress routine translates addresses on the parent bus to logical addresses.",
+  "old-location": "kernel\\translatebusaddress.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "TRANSLATE_BUS_ADDRESS callback function"
+  ],
+  "ms.keywords": "TRANSLATE_BUS_ADDRESS, TranslateBusAddress, TranslateBusAddress routine [Kernel-Mode Driver Architecture], drvr_interface_68887adb-724b-47ca-80e6-b8b934ae2414.xml, kernel.bustranslatebusaddress, kernel.translatebusaddress, wdm/TranslateBusAddress",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "TRANSLATE_BUS_ADDRESS",
+    "wdm/TRANSLATE_BUS_ADDRESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "TRANSLATE_BUS_ADDRESS"
+  ]
+}

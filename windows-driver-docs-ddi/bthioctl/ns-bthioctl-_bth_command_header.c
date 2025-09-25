@@ -1,0 +1,4 @@
+typedef struct _BTH_COMMAND_HEADER {
+  USHORT OpCode;
+  UCHAR  TotalParameterLength;
+} BTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER;

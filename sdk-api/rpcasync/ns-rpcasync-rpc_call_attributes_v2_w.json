@@ -1,0 +1,75 @@
+{
+  "UID": "NS:rpcasync.tagRPC_CALL_ATTRIBUTES_V2_W",
+  "title": "RPC_CALL_ATTRIBUTES_V2_W (rpcasync.h)",
+  "description": "The RPC_CALL_ATTRIBUTES_V2 structure provides parameters to the RpcServerInqCallAttributes function. Version 2 specifies support for local addresses and client process IDs. (Unicode)",
+  "helpviewer_keywords": [
+    "RPC_CALL_ATTRIBUTES",
+    "RPC_CALL_ATTRIBUTES structure [RPC]",
+    "RPC_CALL_ATTRIBUTES_V2",
+    "RPC_CALL_ATTRIBUTES_V2 structure [RPC]",
+    "RPC_CALL_ATTRIBUTES_V2_A",
+    "RPC_CALL_ATTRIBUTES_V2_W",
+    "RPC_CALL_STATUS_CANCELLED",
+    "RPC_CALL_STATUS_DISCONNECTED",
+    "RPC_CALL_STATUS_IN_PROGRESS",
+    "RPC_QUERY_CALL_LOCAL_ADDRESS",
+    "RPC_QUERY_CLIENT_PID",
+    "RPC_QUERY_CLIENT_PRINCIPAL_NAME",
+    "RPC_QUERY_SERVER_PRINCIPAL_NAME",
+    "rpc.rpc_call_attributes_v2",
+    "rpcasync/RPC_CALL_ATTRIBUTES",
+    "rpcasync/RPC_CALL_ATTRIBUTES_V2",
+    "rpcasync/RPC_CALL_ATTRIBUTES_V2_A",
+    "rpcasync/RPC_CALL_ATTRIBUTES_V2_W"
+  ],
+  "old-location": "rpc\\rpc_call_attributes_v2.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "eccc4b78-19f8-415f-bd0f-b1f9f454435e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RPC_CALL_ATTRIBUTES, RPC_CALL_ATTRIBUTES structure [RPC], RPC_CALL_ATTRIBUTES_V2, RPC_CALL_ATTRIBUTES_V2 structure [RPC], RPC_CALL_ATTRIBUTES_V2_A, RPC_CALL_ATTRIBUTES_V2_W, RPC_CALL_STATUS_CANCELLED, RPC_CALL_STATUS_DISCONNECTED, RPC_CALL_STATUS_IN_PROGRESS, RPC_QUERY_CALL_LOCAL_ADDRESS, RPC_QUERY_CLIENT_PID, RPC_QUERY_CLIENT_PRINCIPAL_NAME, RPC_QUERY_SERVER_PRINCIPAL_NAME, rpc.rpc_call_attributes_v2, rpcasync/RPC_CALL_ATTRIBUTES, rpcasync/RPC_CALL_ATTRIBUTES_V2, rpcasync/RPC_CALL_ATTRIBUTES_V2_A, rpcasync/RPC_CALL_ATTRIBUTES_V2_W",
+  "req.header": "rpcasync.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RPC_CALL_ATTRIBUTES_V2_W (Unicode) and RPC_CALL_ATTRIBUTES_V2_A (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "RPC_CALL_ATTRIBUTES_V2_W",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagRPC_CALL_ATTRIBUTES_V2_W",
+    "rpcasync/tagRPC_CALL_ATTRIBUTES_V2_W",
+    "RPC_CALL_ATTRIBUTES_V2_W",
+    "rpcasync/RPC_CALL_ATTRIBUTES_V2_W"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Rpcasync.h"
+  ],
+  "api_name": [
+    "RPC_CALL_ATTRIBUTES_V2",
+    "RPC_CALL_ATTRIBUTES_V2_A",
+    "RPC_CALL_ATTRIBUTES_V2_W"
+  ]
+}

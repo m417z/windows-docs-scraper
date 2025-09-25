@@ -1,0 +1,5 @@
+typedef enum _UDECX_USB_DEVICE_FUNCTION_POWER {
+  UdecxUsbDeviceFunctionNotSuspended,
+  UdecxUsbDeviceFunctionSuspendedCannotWake,
+  UdecxUsbDeviceFunctionSuspendedCanWake
+} UDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER;

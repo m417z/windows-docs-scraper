@@ -1,0 +1,5 @@
+typedef struct _WWAN_SINGLE_TAI {
+  UINT16 Mcc;
+  UINT16 Mnc;
+  UINT32 Tac;
+} WWAN_SINGLE_TAI, *PWWAN_SINGLE_TAI;

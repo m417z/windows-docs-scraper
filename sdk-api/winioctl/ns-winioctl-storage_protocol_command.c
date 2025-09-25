@@ -1,0 +1,22 @@
+typedef struct _STORAGE_PROTOCOL_COMMAND {
+  DWORD                 Version;
+  DWORD                 Length;
+  STORAGE_PROTOCOL_TYPE ProtocolType;
+  DWORD                 Flags;
+  DWORD                 ReturnStatus;
+  DWORD                 ErrorCode;
+  DWORD                 CommandLength;
+  DWORD                 ErrorInfoLength;
+  DWORD                 DataToDeviceTransferLength;
+  DWORD                 DataFromDeviceTransferLength;
+  DWORD                 TimeOutValue;
+  DWORD                 ErrorInfoOffset;
+  DWORD                 DataToDeviceBufferOffset;
+  DWORD                 DataFromDeviceBufferOffset;
+  DWORD                 CommandSpecific;
+  DWORD                 Reserved0;
+  DWORD                 FixedProtocolReturnData;
+  DWORD                 FixedProtocolReturnData2;
+  DWORD                 Reserved1[2];
+  BYTE                  Command[ANYSIZE_ARRAY];
+} STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND;

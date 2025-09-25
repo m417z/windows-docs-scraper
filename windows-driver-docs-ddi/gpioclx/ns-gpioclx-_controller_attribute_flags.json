@@ -1,0 +1,54 @@
+{
+  "UID": "NS:gpioclx._CONTROLLER_ATTRIBUTE_FLAGS",
+  "title": "_CONTROLLER_ATTRIBUTE_FLAGS (gpioclx.h)",
+  "description": "The CONTROLLER_ATTRIBUTE_FLAGS structure describes the hardware attributes of the general-purpose I/O (GPIO) controller device.",
+  "old-location": "gpio\\controller_attribute_flags.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "CONTROLLER_ATTRIBUTE_FLAGS structure"
+  ],
+  "ms.keywords": "*PCONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS structure [Parallel Ports], GPIO.controller_attribute_flags, PCONTROLLER_ATTRIBUTE_FLAGS, PCONTROLLER_ATTRIBUTE_FLAGS structure pointer [Parallel Ports], _CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/PCONTROLLER_ATTRIBUTE_FLAGS",
+  "req.header": "gpioclx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS",
+  "f1_keywords": [
+    "_CONTROLLER_ATTRIBUTE_FLAGS",
+    "gpioclx/_CONTROLLER_ATTRIBUTE_FLAGS",
+    "PCONTROLLER_ATTRIBUTE_FLAGS",
+    "gpioclx/PCONTROLLER_ATTRIBUTE_FLAGS",
+    "CONTROLLER_ATTRIBUTE_FLAGS",
+    "gpioclx/CONTROLLER_ATTRIBUTE_FLAGS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Gpioclx.h"
+  ],
+  "api_name": [
+    "_CONTROLLER_ATTRIBUTE_FLAGS",
+    "PCONTROLLER_ATTRIBUTE_FLAGS",
+    "CONTROLLER_ATTRIBUTE_FLAGS"
+  ]
+}

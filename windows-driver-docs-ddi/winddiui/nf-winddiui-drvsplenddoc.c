@@ -1,0 +1,3 @@
+VOID DrvSplEndDoc(
+  HANDLE hDriver
+);

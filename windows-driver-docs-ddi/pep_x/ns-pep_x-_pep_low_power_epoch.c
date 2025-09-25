@@ -1,0 +1,3 @@
+typedef struct _PEP_LOW_POWER_EPOCH {
+  BOOLEAN LowPowerEpoch;
+} PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH;

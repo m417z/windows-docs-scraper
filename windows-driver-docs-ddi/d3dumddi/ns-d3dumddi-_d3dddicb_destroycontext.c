@@ -1,0 +1,3 @@
+typedef struct _D3DDDICB_DESTROYCONTEXT {
+  [in] HANDLE hContext;
+} D3DDDICB_DESTROYCONTEXT;

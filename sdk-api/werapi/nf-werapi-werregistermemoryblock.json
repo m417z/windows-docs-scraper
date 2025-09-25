@@ -1,0 +1,63 @@
+{
+  "UID": "NF:werapi.WerRegisterMemoryBlock",
+  "title": "WerRegisterMemoryBlock function (werapi.h)",
+  "description": "Registers a memory block to be collected when Windows Error Reporting (WER) creates an error report.",
+  "helpviewer_keywords": [
+    "WerRegisterMemoryBlock",
+    "WerRegisterMemoryBlock function [Windows Error Reporting]",
+    "base.werregistermemoryblock",
+    "wer.werregistermemoryblock",
+    "werapi/WerRegisterMemoryBlock"
+  ],
+  "old-location": "wer\\werregistermemoryblock.htm",
+  "tech.root": "wer",
+  "ms.assetid": "10fa2bf3-ec12-4c7c-b986-9b22cdaa7319",
+  "ms.date": "07/25/2023",
+  "ms.keywords": "WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Error Reporting], base.werregistermemoryblock, wer.werregistermemoryblock, werapi/WerRegisterMemoryBlock",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerRegisterMemoryBlock",
+    "werapi/WerRegisterMemoryBlock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerRegisterMemoryBlock"
+  ]
+}

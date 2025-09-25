@@ -1,0 +1,3 @@
+HRESULT SetMaximumFrameLatency(
+  UINT MaxLatency
+);

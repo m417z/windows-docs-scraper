@@ -1,0 +1,3 @@
+HTTPAPI_LINKAGE ULONG HttpCloseUrlGroup(
+  [in] HTTP_URL_GROUP_ID UrlGroupId
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdtfsystemaction.IWDTFSystemAction2.PowerTracingStartByFile",
+  "title": "IWDTFSystemAction2::PowerTracingStartByFile (wdtfsystemaction.h)",
+  "description": "Starts a trace session for power state transitions and saves the trace message file (.etl) using the specified path. This method is available starting with Windows 8.",
+  "old-location": "dtf\\iwdtfsystemaction2_powertracingstartbyfile.htm",
+  "tech.root": "dtf",
+  "ms.date": "04/04/2018",
+  "keywords": [
+    "IWDTFSystemAction2::PowerTracingStartByFile"
+  ],
+  "ms.keywords": "IWDTFSystemAction2 interface [Windows Device Testing Framework],PowerTracingStartByFile method, IWDTFSystemAction2.PowerTracingStartByFile, IWDTFSystemAction2::PowerTracingStartByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingStartByFile, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingStartByFile, PowerTracingStartByFile, PowerTracingStartByFile method [Windows Device Testing Framework], PowerTracingStartByFile method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_powertracingstartbyfile, wdtfsystemaction/IWDTFSystemAction2::PowerTracingStartByFile",
+  "req.header": "wdtfsystemaction.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows XP Professional",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "WDTFSystemAction.idl",
+  "req.max-support": null,
+  "req.namespace": "Microsoft.WDTF",
+  "req.assembly": "WDTFSystemAction.Interop.dll",
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDTFSystemAction2::PowerTracingStartByFile",
+    "wdtfsystemaction/IWDTFSystemAction2::PowerTracingStartByFile"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WDTFSystemAction.Interop.dll"
+  ],
+  "api_name": [
+    "IWDTFSystemAction2::PowerTracingStartByFile"
+  ]
+}

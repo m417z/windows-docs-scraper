@@ -1,0 +1,26 @@
+typedef struct _BTHDDI_SDP_NODE_INTERFACE {
+  INTERFACE                  Interface;
+  PCREATENODETREEROOT        SdpCreateNodeTree;
+  PFREETREE                  SdpFreeTree;
+  PCREATENODENIL             SdpCreateNodeNil;
+  PCREATENODEBOOLEAN         SdpCreateNodeBoolean;
+  PCREATENODEUINT8           SdpCreateNodeUint8;
+  PCREATENODEUINT16          SdpCreateNodeUint16;
+  PCREATENODEUINT32          SdpCreateNodeUint32;
+  PCREATENODEUINT64          SdpCreateNodeUint64;
+  PCREATENODEUINT128         SdpCreateNodeUint128;
+  PCREATENODEINT8            SdpCreateNodeInt8;
+  PCREATENODEINT16           SdpCreateNodeInt16;
+  PCREATENODEINT32           SdpCreateNodeInt32;
+  PCREATENODEINT64           SdpCreateNodeInt64;
+  PCREATENODEINT128          SdpCreateNodeInt128;
+  PCREATENODEUUID16          SdpCreateNodeUuid16;
+  PCREATENODEUUID32          SdpCreateNodeUuid32;
+  PCREATENODEUUID128         SdpCreateNodeUuid128;
+  PCREATENODESTRING          SdpCreateNodeString;
+  PCREATENODEURL             SdpCreateNodeUrl;
+  PCREATENODEALTERNATIVE     SdpCreateNodeAlternative;
+  PCREATENODESEQUENCE        SdpCreateNodeSequence;
+  PADDATTRIBUTETOTREEE       SdpAddAttributeToTree;
+  PAPPENDNODETOCONTAINERNODE SdpAppendNodeToContainerNode;
+} BTHDDI_SDP_NODE_INTERFACE, *PBTHDDI_SDP_NODE_INTERFACE;

@@ -1,0 +1,3 @@
+typedef struct _DDGETIRQINFO {
+  DWORD dwFlags;
+} DDGETIRQINFO, *PDDGETIRQINFO;

@@ -1,0 +1,102 @@
+## Description
+
+Describes the blend state for a render target.
+
+> [!NOTE]
+> This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
+
+## Members
+
+### `BlendEnable`
+
+Type: **[BOOL](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+
+Enable (or disable) blending.
+
+> [!NOTE]
+> It's not valid for *LogicOpEnable* and *BlendEnable* to both be **TRUE**.
+
+### `LogicOpEnable`
+
+Type: **[BOOL](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+
+Enable (or disable) a logical operation.
+
+> [!NOTE]
+> If you set *LogicOpEnable* to **TRUE**, then *BlendEnable* must be **FALSE**, and the system's [**D3D11_FEATURE_DATA_D3D11_OPTIONS::OutputMergerLogicOp**](https://learn.microsoft.com/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options) option must be **TRUE**.
+
+### `SrcBlend`
+
+Type: **[D3D11_BLEND](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend)**
+
+This [blend option](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend) specifies the operation to perform on the RGB value that the pixel shader outputs. The **BlendOp** member defines how to combine the **SrcBlend** and **DestBlend** operations.
+
+### `DestBlend`
+
+Type: **[D3D11_BLEND](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend)**
+
+This [blend option](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend) specifies the operation to perform on the current RGB value in the render target. The **BlendOp** member defines how to combine the **SrcBlend** and **DestBlend** operations.
+
+### `BlendOp`
+
+Type: **[D3D11_BLEND_OP](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend_op)**
+
+This [blend operation](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend_op) defines how to combine the **SrcBlend** and **DestBlend** operations.
+
+### `SrcBlendAlpha`
+
+Type: **[D3D11_BLEND](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend)**
+
+This [blend option](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend) specifies the operation to perform on the alpha value that the pixel shader outputs. Blend options that end in _COLOR are not allowed. The **BlendOpAlpha** member defines how to combine the **SrcBlendAlpha** and **DestBlendAlpha** operations.
+
+### `DestBlendAlpha`
+
+Type: **[D3D11_BLEND](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend)**
+
+This [blend option](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend) specifies the operation to perform on the current alpha value in the render target. Blend options that end in _COLOR are not allowed. The **BlendOpAlpha** member defines how to combine the **SrcBlendAlpha** and **DestBlendAlpha** operations.
+
+### `BlendOpAlpha`
+
+Type: **[D3D11_BLEND_OP](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend_op)**
+
+This [blend operation](https://learn.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_blend_op) defines how to combine the **SrcBlendAlpha** and **DestBlendAlpha** operations.
+
+### `LogicOp`
+
+Type: **[D3D11_LOGIC_OP](https://learn.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_logic_op)**
+
+A [D3D11_LOGIC_OP](https://learn.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_logic_op)-typed value that specifies the logical operation to configure for the render target.
+
+### `RenderTargetWriteMask`
+
+Type: **UINT8**
+
+A write mask.
+
+## Remarks
+
+> [!NOTE]
+> It's not valid for *LogicOpEnable* and *BlendEnable* to both be **TRUE**.
+
+You specify an array of **D3D11_RENDER_TARGET_BLEND_DESC1** structures in the **RenderTarget** member of the [D3D11_BLEND_DESC1](https://learn.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-cd3d11_blend_desc1) structure to describe the blend states for render targets; you can bind up to eight render targets to the [output-merger stage](https://learn.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage) at one time.
+
+For info about how blending is done, see the [output-merger stage](https://learn.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage).
+
+Here are the default values for blend state.
+
+| State | Default Value |
+| --- | --- |
+| BlendEnable | FALSE |
+| LogicOpEnable | FALSE |
+| SrcBlend | D3D11_BLEND_ONE |
+| DestBlend | D3D11_BLEND_ZERO |
+| BlendOp | D3D11_BLEND_OP_ADD |
+| SrcBlendAlpha | D3D11_BLEND_ONE |
+| DestBlendAlpha | D3D11_BLEND_ZERO |
+| BlendOpAlpha | D3D11_BLEND_OP_ADD |
+| LogicOp | D3D11_LOGIC_OP_NOOP |
+| RenderTargetWriteMask | D3D11_COLOR_WRITE_ENABLE_ALL |
+
+## See also
+
+[Core Structures](https://learn.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures)

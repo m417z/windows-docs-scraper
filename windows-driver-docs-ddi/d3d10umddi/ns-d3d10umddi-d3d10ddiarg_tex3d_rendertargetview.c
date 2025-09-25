@@ -1,0 +1,5 @@
+typedef struct D3D10DDIARG_TEX3D_RENDERTARGETVIEW {
+  [in] UINT MipSlice;
+  [in] UINT FirstW;
+  [in] UINT WSize;
+} D3D10DDIARG_TEX3D_RENDERTARGETVIEW;

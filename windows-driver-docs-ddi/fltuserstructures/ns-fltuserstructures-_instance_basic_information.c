@@ -1,0 +1,5 @@
+typedef struct _INSTANCE_BASIC_INFORMATION {
+  ULONG  NextEntryOffset;
+  USHORT InstanceNameLength;
+  USHORT InstanceNameBufferOffset;
+} INSTANCE_BASIC_INFORMATION, *PINSTANCE_BASIC_INFORMATION;

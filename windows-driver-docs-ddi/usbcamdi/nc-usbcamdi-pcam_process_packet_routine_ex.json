@@ -1,0 +1,47 @@
+{
+  "UID": "NC:usbcamdi.PCAM_PROCESS_PACKET_ROUTINE_EX",
+  "title": "PCAM_PROCESS_PACKET_ROUTINE_EX (usbcamdi.h)",
+  "description": "A camera minidriver's CamProcessUSBPacketEx callback function processes a USB packet.",
+  "tech.root": "stream",
+  "ms.date": "03/08/2023",
+  "keywords": [
+    "PCAM_PROCESS_PACKET_ROUTINE_EX callback function"
+  ],
+  "ms.keywords": "CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE_EX, stream.camprocessusbpacketex, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml",
+  "req.header": "usbcamdi.h",
+  "req.include-header": "Usbcamdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCAM_PROCESS_PACKET_ROUTINE_EX",
+    "usbcamdi/PCAM_PROCESS_PACKET_ROUTINE_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbcamdi.h"
+  ],
+  "api_name": [
+    "PCAM_PROCESS_PACKET_ROUTINE_EX"
+  ]
+}

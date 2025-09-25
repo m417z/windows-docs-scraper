@@ -1,0 +1,54 @@
+{
+  "UID": "NS:directml.DML_ADAM_OPTIMIZER_OPERATOR_DESC",
+  "title": "DML_ADAM_OPTIMIZER_OPERATOR_DESC",
+  "description": "Computes updated weights (parameters) using the supplied gradients, based on the Adam (**ADA**ptive **M**oment estimation) algorithm. This operator is an optimizer, and is typically used in the weight update step of a training loop to perform gradient descent.",
+  "helpviewer_keywords": [
+    "DML_ADAM_OPTIMIZER_OPERATOR_DESC",
+    "DML_ADAM_OPTIMIZER_OPERATOR_DESC structure",
+    "direct3d12.dml_adam_optimizer_operator_desc",
+    "directml/DML_ADAM_OPTIMIZER_OPERATOR_DESC"
+  ],
+  "tech.root": "directml",
+  "ms.date": "10/28/2020",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DML_ADAM_OPTIMIZER_OPERATOR_DESC",
+    "directml/DML_ADAM_OPTIMIZER_OPERATOR_DESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_ADAM_OPTIMIZER_OPERATOR_DESC"
+  ]
+}

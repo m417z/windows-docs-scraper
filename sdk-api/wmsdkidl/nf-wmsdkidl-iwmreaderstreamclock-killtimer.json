@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderStreamClock.KillTimer",
+  "title": "IWMReaderStreamClock::KillTimer (wmsdkidl.h)",
+  "description": "The KillTimer method cancels a timer that has been set on the clock.",
+  "helpviewer_keywords": [
+    "IWMReaderStreamClock interface [windows Media Format]",
+    "KillTimer method",
+    "IWMReaderStreamClock.KillTimer",
+    "IWMReaderStreamClock::KillTimer",
+    "IWMReaderStreamClockKillTimer",
+    "KillTimer",
+    "KillTimer method [windows Media Format]",
+    "KillTimer method [windows Media Format]",
+    "IWMReaderStreamClock interface",
+    "wmformat.iwmreaderstreamclock_killtimer",
+    "wmsdkidl/IWMReaderStreamClock::KillTimer"
+  ],
+  "old-location": "wmformat\\iwmreaderstreamclock_killtimer.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "ebcd965f-8ea1-44e2-b1b4-c34a229058b2",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMReaderStreamClock interface [windows Media Format],KillTimer method, IWMReaderStreamClock.KillTimer, IWMReaderStreamClock::KillTimer, IWMReaderStreamClockKillTimer, KillTimer, KillTimer method [windows Media Format], KillTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_killtimer, wmsdkidl/IWMReaderStreamClock::KillTimer",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderStreamClock::KillTimer",
+    "wmsdkidl/IWMReaderStreamClock::KillTimer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderStreamClock.KillTimer"
+  ]
+}

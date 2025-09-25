@@ -1,0 +1,60 @@
+{
+  "UID": "NF:winuser.RegisterPointerDeviceNotifications",
+  "title": "RegisterPointerDeviceNotifications function (winuser.h)",
+  "description": "Registers a window to process the WM_POINTERDEVICECHANGE, WM_POINTERDEVICEINRANGE, and WM_POINTERDEVICEOUTOFRANGE pointer device notifications.",
+  "helpviewer_keywords": [
+    "RegisterPointerDeviceNotifications",
+    "RegisterPointerDeviceNotifications function",
+    "input_pointerdevice.registerpointerdevicenotifications",
+    "unifiedinputstack.registerpointerdevicenotifications",
+    "winuser/RegisterPointerDeviceNotifications"
+  ],
+  "old-location": "input_pointerdevice\\registerpointerdevicenotifications.htm",
+  "tech.root": "controls",
+  "ms.assetid": "a7322d97-f96c-449d-94a6-2081962ec7ed",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegisterPointerDeviceNotifications, RegisterPointerDeviceNotifications function, input_pointerdevice.registerpointerdevicenotifications, unifiedinputstack.registerpointerdevicenotifications, winuser/RegisterPointerDeviceNotifications",
+  "req.header": "winuser.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegisterPointerDeviceNotifications",
+    "winuser/RegisterPointerDeviceNotifications"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-RTCore-NTUser-WMPointer-L1-1-0.dll"
+  ],
+  "api_name": [
+    "RegisterPointerDeviceNotifications"
+  ],
+  "req.apiset": "ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)"
+}

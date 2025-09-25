@@ -1,0 +1,4 @@
+typedef struct tagTVDISPINFOEXA {
+  NMHDR     hdr;
+  TVITEMEXA item;
+} NMTVDISPINFOEXA, *LPNMTVDISPINFOEXA;

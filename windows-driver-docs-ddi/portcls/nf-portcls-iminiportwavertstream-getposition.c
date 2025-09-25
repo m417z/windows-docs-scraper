@@ -1,0 +1,3 @@
+NTSTATUS GetPosition(
+  PKSAUDIO_POSITION Position
+);

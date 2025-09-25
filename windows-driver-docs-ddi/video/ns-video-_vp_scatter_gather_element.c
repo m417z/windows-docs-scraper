@@ -1,0 +1,5 @@
+typedef struct _VP_SCATTER_GATHER_ELEMENT {
+  PHYSICAL_ADDRESS Address;
+  ULONG            Length;
+  ULONG_PTR        Reserved;
+} VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT;

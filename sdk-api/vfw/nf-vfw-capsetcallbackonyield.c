@@ -1,0 +1,4 @@
+BOOL capSetCallbackOnYield(
+     hwnd,
+     fpProc
+);

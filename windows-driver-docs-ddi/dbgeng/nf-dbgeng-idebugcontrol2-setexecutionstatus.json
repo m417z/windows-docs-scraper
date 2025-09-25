@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugControl2.SetExecutionStatus",
+  "title": "IDebugControl2::SetExecutionStatus (dbgeng.h)",
+  "description": "The SetExecutionStatus method requests that the debugger engine enter an executable state. Actual execution doesn't occur until the next time WaitForEvent is called.",
+  "old-location": "debugger\\setexecutionstatus.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugControl2::SetExecutionStatus"
+  ],
+  "ms.keywords": "IDebugControl interface [Windows Debugging],SetExecutionStatus method, IDebugControl2 interface [Windows Debugging],SetExecutionStatus method, IDebugControl2.SetExecutionStatus, IDebugControl2::SetExecutionStatus, IDebugControl3 interface [Windows Debugging],SetExecutionStatus method, IDebugControl3::SetExecutionStatus, IDebugControl::SetExecutionStatus, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, SetExecutionStatus, SetExecutionStatus method [Windows Debugging], SetExecutionStatus method [Windows Debugging],IDebugControl interface, SetExecutionStatus method [Windows Debugging],IDebugControl2 interface, SetExecutionStatus method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetExecutionStatus, dbgeng/IDebugControl3::SetExecutionStatus, dbgeng/IDebugControl::SetExecutionStatus, debugger.setexecutionstatus",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugControl2::SetExecutionStatus",
+    "dbgeng/IDebugControl2::SetExecutionStatus"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugControl2::SetExecutionStatus"
+  ]
+}

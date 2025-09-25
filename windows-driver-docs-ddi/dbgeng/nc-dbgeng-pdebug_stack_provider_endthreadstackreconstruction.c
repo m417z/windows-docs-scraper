@@ -1,0 +1,4 @@
+PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION PdebugStackProviderEndthreadstackreconstruction;
+
+HRESULT PdebugStackProviderEndthreadstackreconstruction()
+{...}

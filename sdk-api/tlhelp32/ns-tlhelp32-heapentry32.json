@@ -1,0 +1,69 @@
+{
+  "UID": "NS:tlhelp32.tagHEAPENTRY32",
+  "title": "HEAPENTRY32 (tlhelp32.h)",
+  "description": "Describes one entry (block) of a heap that is being examined.",
+  "helpviewer_keywords": [
+    "*LPHEAPENTRY32",
+    "*PHEAPENTRY32",
+    "HEAPENTRY32",
+    "HEAPENTRY32 structure [ToolHelp]",
+    "LF32_FIXED",
+    "LF32_FREE",
+    "LF32_MOVEABLE",
+    "PHEAPENTRY32",
+    "PHEAPENTRY32 structure pointer [ToolHelp]",
+    "_win32_heapentry32_str",
+    "base.heapentry32_str",
+    "tlhelp32/HEAPENTRY32",
+    "tlhelp32/PHEAPENTRY32",
+    "toolhelp.heapentry32_str"
+  ],
+  "old-location": "toolhelp\\heapentry32_str.htm",
+  "tech.root": "ToolHelp",
+  "ms.assetid": "c5f1dc66-d44f-4491-b0b7-961b163d0f1f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPHEAPENTRY32, *PHEAPENTRY32, HEAPENTRY32, HEAPENTRY32 structure [ToolHelp], LF32_FIXED, LF32_FREE, LF32_MOVEABLE, PHEAPENTRY32, PHEAPENTRY32 structure pointer [ToolHelp], _win32_heapentry32_str, base.heapentry32_str, tlhelp32/HEAPENTRY32, tlhelp32/PHEAPENTRY32, toolhelp.heapentry32_str",
+  "req.header": "tlhelp32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "HEAPENTRY32",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagHEAPENTRY32",
+    "tlhelp32/tagHEAPENTRY32",
+    "HEAPENTRY32",
+    "tlhelp32/HEAPENTRY32"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "TlHelp32.h"
+  ],
+  "api_name": [
+    "HEAPENTRY32"
+  ]
+}

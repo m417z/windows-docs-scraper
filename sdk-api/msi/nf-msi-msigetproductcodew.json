@@ -1,0 +1,62 @@
+{
+  "UID": "NF:msi.MsiGetProductCodeW",
+  "title": "MsiGetProductCodeW function (msi.h)",
+  "description": "The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application. (Unicode)",
+  "helpviewer_keywords": [
+    "MsiGetProductCode",
+    "MsiGetProductCode function",
+    "MsiGetProductCodeW",
+    "_msi_msigetproductcode",
+    "msi/MsiGetProductCode",
+    "msi/MsiGetProductCodeW",
+    "setup.msigetproductcode"
+  ],
+  "old-location": "setup\\msigetproductcode.htm",
+  "tech.root": "setup",
+  "ms.assetid": "5893c437-6827-44d6-bc22-18c402dda894",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiGetProductCodeW (Unicode) and MsiGetProductCodeA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiGetProductCodeW",
+    "msi/MsiGetProductCodeW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiGetProductCode",
+    "MsiGetProductCodeA",
+    "MsiGetProductCodeW"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dxgi1_3.DXGIGetDebugInterface1",
+  "title": "DXGIGetDebugInterface1 function (dxgi1_3.h)",
+  "description": "Retrieves an interface that Windows Store apps use for debugging the Microsoft DirectX Graphics Infrastructure (DXGI).",
+  "helpviewer_keywords": [
+    "DXGIGetDebugInterface1",
+    "DXGIGetDebugInterface1 function [DXGI]",
+    "direct3ddxgi.dxgigetdebuginterface1",
+    "dxgi1_3/DXGIGetDebugInterface1"
+  ],
+  "old-location": "direct3ddxgi\\dxgigetdebuginterface1.htm",
+  "tech.root": "direct3ddxgi",
+  "ms.assetid": "0FE0EAF5-3ADC-426F-9DA9-FEDEC519EEF0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DXGIGetDebugInterface1, DXGIGetDebugInterface1 function [DXGI], direct3ddxgi.dxgigetdebuginterface1, dxgi1_3/DXGIGetDebugInterface1",
+  "req.header": "dxgi1_3.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "DXGI.lib",
+  "req.dll": "Dxgi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DXGIGetDebugInterface1",
+    "dxgi1_3/DXGIGetDebugInterface1"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dxgi.dll"
+  ],
+  "api_name": [
+    "DXGIGetDebugInterface1"
+  ]
+}

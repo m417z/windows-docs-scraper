@@ -1,0 +1,49 @@
+{
+  "UID": "NS:ntifs._FILE_FS_ATTRIBUTE_INFORMATION",
+  "title": "FILE_FS_ATTRIBUTE_INFORMATION (ntifs.h)",
+  "description": "Learn more about the FILE_FS_ATTRIBUTE_INFORMATION structure.",
+  "tech.root": "ifsk",
+  "ms.date": "12/20/2024",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION",
+  "f1_keywords": [
+    "_FILE_FS_ATTRIBUTE_INFORMATION",
+    "ntifs/_FILE_FS_ATTRIBUTE_INFORMATION",
+    "PFILE_FS_ATTRIBUTE_INFORMATION",
+    "ntifs/PFILE_FS_ATTRIBUTE_INFORMATION",
+    "FILE_FS_ATTRIBUTE_INFORMATION",
+    "ntifs/FILE_FS_ATTRIBUTE_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_FS_ATTRIBUTE_INFORMATION",
+    "PFILE_FS_ATTRIBUTE_INFORMATION",
+    "FILE_FS_ATTRIBUTE_INFORMATION"
+  ]
+}

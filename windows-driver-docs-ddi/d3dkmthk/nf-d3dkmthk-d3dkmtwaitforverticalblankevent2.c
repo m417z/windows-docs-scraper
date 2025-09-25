@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTWaitForVerticalBlankEvent2(
+  [in] const D3DKMT_WAITFORVERTICALBLANKEVENT2 *unnamedParam1
+);

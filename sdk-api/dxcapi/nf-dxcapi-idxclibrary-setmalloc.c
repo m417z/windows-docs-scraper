@@ -1,0 +1,3 @@
+HRESULT SetMalloc(
+  IMalloc *pMalloc
+);

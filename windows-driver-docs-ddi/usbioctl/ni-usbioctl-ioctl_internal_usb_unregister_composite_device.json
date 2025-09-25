@@ -1,0 +1,48 @@
+{
+  "UID": "NI:usbioctl.IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE",
+  "title": "IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE (usbioctl.h)",
+  "description": "The IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE I/O request unregisters the driver of a USB multi-function device (composite driver) and releases all resources that are associated with registration.",
+  "old-location": "buses\\ioctl_internal_usb_unregister_composite_driver.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE, IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE control, IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE control code [Buses], buses.ioctl_internal_usb_unregister_composite_driver, usbioctl/IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE",
+  "req.header": "usbioctl.h",
+  "req.include-header": "Usbioctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE",
+    "usbioctl/IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Usbioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:tokenbinding.TokenBindingDeleteAllBindings",
+  "title": "TokenBindingDeleteAllBindings function (tokenbinding.h)",
+  "description": "Deletes all token binding keys that are associated with the calling user or app container.",
+  "helpviewer_keywords": [
+    "TokenBindingDeleteAllBindings",
+    "TokenBindingDeleteAllBindings function [Security]",
+    "security.tokenbindingdeleteallbindings",
+    "tokenbinding/TokenBindingDeleteAllBindings"
+  ],
+  "old-location": "security\\tokenbindingdeleteallbindings.htm",
+  "tech.root": "security",
+  "ms.assetid": "0446F62F-96B4-4F4B-9789-0CD12173E601",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings function [Security], security.tokenbindingdeleteallbindings, tokenbinding/TokenBindingDeleteAllBindings",
+  "req.header": "tokenbinding.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tokenbinding.lib",
+  "req.dll": "Tokenbinding.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TokenBindingDeleteAllBindings",
+    "tokenbinding/TokenBindingDeleteAllBindings"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "tokenbinding.dll"
+  ],
+  "api_name": [
+    "TokenBindingDeleteAllBindings"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetContext(
+  IDebugHostContext **context
+);

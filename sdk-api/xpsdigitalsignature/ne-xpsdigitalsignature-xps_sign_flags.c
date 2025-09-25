@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0003 {
+  XPS_SIGN_FLAGS_NONE = 0,
+  XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY = 0x1
+} XPS_SIGN_FLAGS;

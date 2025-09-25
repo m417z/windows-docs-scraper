@@ -1,0 +1,75 @@
+{
+  "UID": "NE:strmif.VMRDeinterlaceTech",
+  "title": "VMRDeinterlaceTech (strmif.h)",
+  "description": "The VMRDeinterlaceTech enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.",
+  "helpviewer_keywords": [
+    "DeinterlaceTech_BOBLineReplicate",
+    "DeinterlaceTech_BOBVerticalStretch",
+    "DeinterlaceTech_EdgeFiltering",
+    "DeinterlaceTech_FieldAdaptive",
+    "DeinterlaceTech_MedianFiltering",
+    "DeinterlaceTech_MotionVectorSteered",
+    "DeinterlaceTech_PixelAdaptive",
+    "DeinterlaceTech_Unknown",
+    "VMRDeinterlaceTech",
+    "VMRDeinterlaceTech enumeration [DirectShow]",
+    "VMRDeinterlaceTechEnumeration",
+    "dshow.vmrdeinterlacetech",
+    "strmif/DeinterlaceTech_BOBLineReplicate",
+    "strmif/DeinterlaceTech_BOBVerticalStretch",
+    "strmif/DeinterlaceTech_EdgeFiltering",
+    "strmif/DeinterlaceTech_FieldAdaptive",
+    "strmif/DeinterlaceTech_MedianFiltering",
+    "strmif/DeinterlaceTech_MotionVectorSteered",
+    "strmif/DeinterlaceTech_PixelAdaptive",
+    "strmif/DeinterlaceTech_Unknown",
+    "strmif/VMRDeinterlaceTech"
+  ],
+  "old-location": "dshow\\vmrdeinterlacetech.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "10149023-c5e8-4dce-8a8c-cde96ae6c073",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "DeinterlaceTech_BOBLineReplicate, DeinterlaceTech_BOBVerticalStretch, DeinterlaceTech_EdgeFiltering, DeinterlaceTech_FieldAdaptive, DeinterlaceTech_MedianFiltering, DeinterlaceTech_MotionVectorSteered, DeinterlaceTech_PixelAdaptive, DeinterlaceTech_Unknown, VMRDeinterlaceTech, VMRDeinterlaceTech enumeration [DirectShow], VMRDeinterlaceTechEnumeration, dshow.vmrdeinterlacetech, strmif/DeinterlaceTech_BOBLineReplicate, strmif/DeinterlaceTech_BOBVerticalStretch, strmif/DeinterlaceTech_EdgeFiltering, strmif/DeinterlaceTech_FieldAdaptive, strmif/DeinterlaceTech_MedianFiltering, strmif/DeinterlaceTech_MotionVectorSteered, strmif/DeinterlaceTech_PixelAdaptive, strmif/DeinterlaceTech_Unknown, strmif/VMRDeinterlaceTech",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VMRDeinterlaceTech",
+  "req.redist": null,
+  "req.product": "Windows XP with SP1",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "VMRDeinterlaceTech",
+    "strmif/VMRDeinterlaceTech"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "strmif.h"
+  ],
+  "api_name": [
+    "VMRDeinterlaceTech"
+  ]
+}

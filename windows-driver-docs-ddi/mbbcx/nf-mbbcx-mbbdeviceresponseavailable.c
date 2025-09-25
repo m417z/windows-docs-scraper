@@ -1,0 +1,3 @@
+VOID MbbDeviceResponseAvailable(
+  WDFDEVICE Device
+);

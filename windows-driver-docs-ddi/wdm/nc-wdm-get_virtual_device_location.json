@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.GET_VIRTUAL_DEVICE_LOCATION",
+  "title": "GET_VIRTUAL_DEVICE_LOCATION (wdm.h)",
+  "description": "The GetLocation routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.",
+  "tech.root": "PCI",
+  "ms.date": "01/19/2023",
+  "keywords": [
+    "GET_VIRTUAL_DEVICE_LOCATION callback"
+  ],
+  "ms.keywords": "GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in Windows Server 2012 and later versions of Windows Server.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME",
+  "f1_keywords": [
+    "GET_VIRTUAL_DEVICE_LOCATION",
+    "wdm/GET_VIRTUAL_DEVICE_LOCATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "GET_VIRTUAL_DEVICE_LOCATION"
+  ]
+}

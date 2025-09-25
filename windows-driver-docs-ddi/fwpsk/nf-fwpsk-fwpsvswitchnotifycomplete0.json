@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fwpsk.FwpsvSwitchNotifyComplete0",
+  "title": "FwpsvSwitchNotifyComplete0 function (fwpsk.h)",
+  "description": "The FwpsvSwitchNotifyComplete0 function completes a pending virtual switch event notification.Note  FwpsvSwitchNotifyComplete0 is a specific version of FwpsvSwitchNotifyComplete.",
+  "old-location": "netvista\\fwpsvswitchnotifycomplete0.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "FwpsvSwitchNotifyComplete0 function"
+  ],
+  "ms.keywords": "FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchNotifyComplete0, netvista.fwpsvswitchnotifycomplete0",
+  "req.header": "fwpsk.h",
+  "req.include-header": "Fwpsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fwpkclnt.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FwpsvSwitchNotifyComplete0",
+    "fwpsk/FwpsvSwitchNotifyComplete0"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpkclnt.lib",
+    "fwpkclnt.dll"
+  ],
+  "api_name": [
+    "FwpsvSwitchNotifyComplete0"
+  ]
+}

@@ -1,0 +1,7 @@
+PFND3D12DDI_CREATECOMMANDQUEUE_0001 Pfnd3d12ddiCreatecommandqueue0001;
+
+HRESULT Pfnd3d12ddiCreatecommandqueue0001(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATECOMMANDQUEUE_0001 *unnamedParam2
+)
+{...}

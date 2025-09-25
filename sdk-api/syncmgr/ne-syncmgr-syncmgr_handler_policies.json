@@ -1,0 +1,90 @@
+{
+  "UID": "NE:syncmgr.SYNCMGR_HANDLER_POLICIES",
+  "title": "SYNCMGR_HANDLER_POLICIES (syncmgr.h)",
+  "description": "Enumerates policies specified by a sync handler that deviate from the default policy.",
+  "helpviewer_keywords": [
+    "SYNCMGR_HANDLER_POLICIES",
+    "SYNCMGR_HANDLER_POLICIES enumeration [Windows Shell]",
+    "SYNCMGR_HPM_BACKGROUND_SYNC_ONLY",
+    "SYNCMGR_HPM_DISABLE_BROWSE",
+    "SYNCMGR_HPM_DISABLE_DISABLE",
+    "SYNCMGR_HPM_DISABLE_ENABLE",
+    "SYNCMGR_HPM_DISABLE_SCHEDULE",
+    "SYNCMGR_HPM_DISABLE_START_SYNC",
+    "SYNCMGR_HPM_DISABLE_STOP_SYNC",
+    "SYNCMGR_HPM_HIDDEN_BY_DEFAULT",
+    "SYNCMGR_HPM_NONE",
+    "SYNCMGR_HPM_PREVENT_ACTIVATE",
+    "SYNCMGR_HPM_PREVENT_DEACTIVATE",
+    "SYNCMGR_HPM_PREVENT_DISABLE",
+    "SYNCMGR_HPM_PREVENT_ENABLE",
+    "SYNCMGR_HPM_PREVENT_START_SYNC",
+    "SYNCMGR_HPM_PREVENT_STOP_SYNC",
+    "SYNCMGR_HPM_VALID_MASK",
+    "shell.SYNCMGR_HANDLER_POLICIES",
+    "shell_SYNCMGR_HANDLER_POLICIES",
+    "syncmgr/SYNCMGR_HANDLER_POLICIES",
+    "syncmgr/SYNCMGR_HPM_BACKGROUND_SYNC_ONLY",
+    "syncmgr/SYNCMGR_HPM_DISABLE_BROWSE",
+    "syncmgr/SYNCMGR_HPM_DISABLE_DISABLE",
+    "syncmgr/SYNCMGR_HPM_DISABLE_ENABLE",
+    "syncmgr/SYNCMGR_HPM_DISABLE_SCHEDULE",
+    "syncmgr/SYNCMGR_HPM_DISABLE_START_SYNC",
+    "syncmgr/SYNCMGR_HPM_DISABLE_STOP_SYNC",
+    "syncmgr/SYNCMGR_HPM_HIDDEN_BY_DEFAULT",
+    "syncmgr/SYNCMGR_HPM_NONE",
+    "syncmgr/SYNCMGR_HPM_PREVENT_ACTIVATE",
+    "syncmgr/SYNCMGR_HPM_PREVENT_DEACTIVATE",
+    "syncmgr/SYNCMGR_HPM_PREVENT_DISABLE",
+    "syncmgr/SYNCMGR_HPM_PREVENT_ENABLE",
+    "syncmgr/SYNCMGR_HPM_PREVENT_START_SYNC",
+    "syncmgr/SYNCMGR_HPM_PREVENT_STOP_SYNC",
+    "syncmgr/SYNCMGR_HPM_VALID_MASK"
+  ],
+  "old-location": "shell\\SYNCMGR_HANDLER_POLICIES.htm",
+  "tech.root": "shell",
+  "ms.assetid": "2baf39ea-2b28-4d38-8635-8f5efca54702",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SYNCMGR_HANDLER_POLICIES, SYNCMGR_HANDLER_POLICIES enumeration [Windows Shell], SYNCMGR_HPM_BACKGROUND_SYNC_ONLY, SYNCMGR_HPM_DISABLE_BROWSE, SYNCMGR_HPM_DISABLE_DISABLE, SYNCMGR_HPM_DISABLE_ENABLE, SYNCMGR_HPM_DISABLE_SCHEDULE, SYNCMGR_HPM_DISABLE_START_SYNC, SYNCMGR_HPM_DISABLE_STOP_SYNC, SYNCMGR_HPM_HIDDEN_BY_DEFAULT, SYNCMGR_HPM_NONE, SYNCMGR_HPM_PREVENT_ACTIVATE, SYNCMGR_HPM_PREVENT_DEACTIVATE, SYNCMGR_HPM_PREVENT_DISABLE, SYNCMGR_HPM_PREVENT_ENABLE, SYNCMGR_HPM_PREVENT_START_SYNC, SYNCMGR_HPM_PREVENT_STOP_SYNC, SYNCMGR_HPM_VALID_MASK, shell.SYNCMGR_HANDLER_POLICIES, shell_SYNCMGR_HANDLER_POLICIES, syncmgr/SYNCMGR_HANDLER_POLICIES, syncmgr/SYNCMGR_HPM_BACKGROUND_SYNC_ONLY, syncmgr/SYNCMGR_HPM_DISABLE_BROWSE, syncmgr/SYNCMGR_HPM_DISABLE_DISABLE, syncmgr/SYNCMGR_HPM_DISABLE_ENABLE, syncmgr/SYNCMGR_HPM_DISABLE_SCHEDULE, syncmgr/SYNCMGR_HPM_DISABLE_START_SYNC, syncmgr/SYNCMGR_HPM_DISABLE_STOP_SYNC, syncmgr/SYNCMGR_HPM_HIDDEN_BY_DEFAULT, syncmgr/SYNCMGR_HPM_NONE, syncmgr/SYNCMGR_HPM_PREVENT_ACTIVATE, syncmgr/SYNCMGR_HPM_PREVENT_DEACTIVATE, syncmgr/SYNCMGR_HPM_PREVENT_DISABLE, syncmgr/SYNCMGR_HPM_PREVENT_ENABLE, syncmgr/SYNCMGR_HPM_PREVENT_START_SYNC, syncmgr/SYNCMGR_HPM_PREVENT_STOP_SYNC, syncmgr/SYNCMGR_HPM_VALID_MASK",
+  "req.header": "syncmgr.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Syncmgr.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SYNCMGR_HANDLER_POLICIES",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SYNCMGR_HANDLER_POLICIES",
+    "syncmgr/SYNCMGR_HANDLER_POLICIES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Syncmgr.h"
+  ],
+  "api_name": [
+    "SYNCMGR_HANDLER_POLICIES"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum D3D10_FILL_MODE {
+  D3D10_FILL_WIREFRAME = 2,
+  D3D10_FILL_SOLID = 3
+} ;

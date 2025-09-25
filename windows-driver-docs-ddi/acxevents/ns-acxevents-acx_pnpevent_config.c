@@ -1,0 +1,5 @@
+typedef struct _ACX_PNPEVENT_CONFIG {
+  ULONG Size;
+  ULONG Flags;
+  GUID  Event;
+} ACX_PNPEVENT_CONFIG, *PACX_PNPEVENT_CONFIG;

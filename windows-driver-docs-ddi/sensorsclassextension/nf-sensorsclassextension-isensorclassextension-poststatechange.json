@@ -1,0 +1,49 @@
+{
+  "UID": "NF:sensorsclassextension.ISensorClassExtension.PostStateChange",
+  "title": "ISensorClassExtension::PostStateChange (sensorsclassextension.h)",
+  "description": "The ISensorClassExtension::PostStateChange method notifies the sensor class extension about a change in the operational state of the sensor.",
+  "old-location": "sensors\\isensorclassextension_poststatechange.htm",
+  "tech.root": "sensors",
+  "ms.date": "12/16/2021",
+  "keywords": [
+    "ISensorClassExtension::PostStateChange"
+  ],
+  "ms.keywords": "ISensorClassExtension interface [Sensor Devices],PostStateChange method, ISensorClassExtension.PostStateChange, ISensorClassExtension::PostStateChange, PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices],ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange",
+  "req.header": "sensorsclassextension.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 7,Available in Windows 7.",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "SensorsClassExtension.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ISensorClassExtension::PostStateChange",
+    "sensorsclassextension/ISensorClassExtension::PostStateChange"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "SensorsClassExtension.lib",
+    "SensorsClassExtension.dll"
+  ],
+  "api_name": [
+    "ISensorClassExtension::PostStateChange"
+  ]
+}

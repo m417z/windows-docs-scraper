@@ -1,0 +1,5 @@
+typedef struct _CERT_KEY_ATTRIBUTES_INFO {
+  CRYPT_DATA_BLOB            KeyId;
+  CRYPT_BIT_BLOB             IntendedKeyUsage;
+  PCERT_PRIVATE_KEY_VALIDITY pPrivateKeyUsagePeriod;
+} CERT_KEY_ATTRIBUTES_INFO, *PCERT_KEY_ATTRIBUTES_INFO;

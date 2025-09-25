@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdfsync.WdfSpinLockRelease",
+  "tech.root": "wdf",
+  "title": "WdfSpinLockRelease",
+  "description": "The WdfSpinLockAcquire method releases a specified spin lock.",
+  "ms.date": "05/05/2023",
+  "targetos": "Windows",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdfsync.h",
+  "req.idl": null,
+  "req.include-header": "Wdf.h",
+  "req.irql": "DISPATCH_LEVEL",
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "wdfsync.h"
+  ],
+  "api_name": [
+    "WdfSpinLockRelease"
+  ],
+  "f1_keywords": [
+    "WdfSpinLockRelease",
+    "wdfsync/WdfSpinLockRelease"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WdfSpinLockRelease"
+  ]
+}

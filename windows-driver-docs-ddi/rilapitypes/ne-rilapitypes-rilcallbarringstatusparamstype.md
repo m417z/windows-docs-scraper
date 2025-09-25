@@ -1,0 +1,27 @@
+# RILCALLBARRINGSTATUSPARAMSTYPE enumeration (rilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_BARRTYPE_ALLOUTGOING`
+
+### `RIL_BARRTYPE_OUTGOINGINT`
+
+### `RIL_BARRTYPE_OUTGOINGINTEXTOHOME`
+
+### `RIL_BARRTYPE_ALLINCOMING`
+
+### `RIL_BARRTYPE_INCOMINGROAMING`
+
+### `RIL_BARRTYPE_INCOMINGNOTINUICC`
+
+### `RIL_BARRTYPE_ALLBARRING`
+
+### `RIL_BARRTYPE_ALLOUTGOINGBARRING`
+
+### `RIL_BARRTYPE_ALLINCOMINGBARRING`
+
+### `RIL_BARRTYPE_ALL`

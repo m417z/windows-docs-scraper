@@ -1,0 +1,62 @@
+{
+  "UID": "NF:sspi.EnumerateSecurityPackagesW",
+  "title": "EnumerateSecurityPackagesW function (sspi.h)",
+  "description": "Returns an array of SecPkgInfo structures that provide information about the security packages available to the client. (Unicode)",
+  "helpviewer_keywords": [
+    "EnumerateSecurityPackages",
+    "EnumerateSecurityPackages function [Security]",
+    "EnumerateSecurityPackagesW",
+    "_ssp_enumeratesecuritypackages",
+    "security.enumeratesecuritypackages",
+    "sspi/EnumerateSecurityPackages",
+    "sspi/EnumerateSecurityPackagesW"
+  ],
+  "old-location": "security\\enumeratesecuritypackages.htm",
+  "tech.root": "security",
+  "ms.assetid": "900790a6-111d-43f5-9316-e85aab03a3bc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW",
+  "req.header": "sspi.h",
+  "req.include-header": "Security.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "EnumerateSecurityPackagesW (Unicode) and EnumerateSecurityPackagesA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "SspiCli.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnumerateSecurityPackagesW",
+    "sspi/EnumerateSecurityPackagesW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "SspiCli.dll"
+  ],
+  "api_name": [
+    "EnumerateSecurityPackages",
+    "EnumerateSecurityPackagesA",
+    "EnumerateSecurityPackagesW"
+  ]
+}

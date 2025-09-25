@@ -1,0 +1,48 @@
+{
+  "UID": "NF:strmini.StreamClassGetPhysicalAddress",
+  "title": "StreamClassGetPhysicalAddress function (strmini.h)",
+  "description": "The StreamClassGetPhysicalAddress routine translates a virtual memory address to a physical memory address and locks the corresponding physical memory for a DMA operation.",
+  "tech.root": "stream",
+  "ms.date": "03/03/2023",
+  "keywords": [
+    "StreamClassGetPhysicalAddress function"
+  ],
+  "ms.keywords": "StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress routine [Streaming Media Devices], strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, stream.streamclassgetphysicaladdress, strmini/StreamClassGetPhysicalAddress",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Stream.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StreamClassGetPhysicalAddress",
+    "strmini/StreamClassGetPhysicalAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Stream.lib",
+    "Stream.dll"
+  ],
+  "api_name": [
+    "StreamClassGetPhysicalAddress"
+  ]
+}

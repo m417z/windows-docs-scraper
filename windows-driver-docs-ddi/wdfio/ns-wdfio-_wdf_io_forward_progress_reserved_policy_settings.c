@@ -1,0 +1,7 @@
+typedef struct _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS {
+  union {
+    struct {
+      PFN_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS EvtIoWdmIrpForForwardProgress;
+    } ExaminePolicy;
+  } Policy;
+} WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS;

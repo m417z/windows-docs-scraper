@@ -1,0 +1,6 @@
+LPD3DHAL_VALIDATETEXTURESTAGESTATECB Lpd3dhalValidatetexturestagestatecb;
+
+DWORD Lpd3dhalValidatetexturestagestatecb(
+  LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA unnamedParam1
+)
+{...}

@@ -1,0 +1,45 @@
+{
+  "UID": "NF:netadapteroffload.NetOffloadIsLsoIPv6Enabled",
+  "title": "NetOffloadIsLsoIPv6Enabled function (netadapteroffload.h)",
+  "description": "The NetOffloadIsLsoIPv6Enabled function determines whether a net adapter has large send offload (LSO) enabled for IPv6 packets.",
+  "tech.root": "netvista",
+  "ms.date": "10/09/2020",
+  "keywords": [
+    "NetOffloadIsLsoIPv6Enabled function"
+  ],
+  "ms.keywords": "NetOffloadIsLsoIPv6Enabled",
+  "req.header": "netadapteroffload.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 2.33,
+  "req.lib": "netadaptercxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "NetOffloadIsLsoIPv6Enabled",
+    "netadapteroffload/NetOffloadIsLsoIPv6Enabled"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netadaptercxstub.lib"
+  ],
+  "api_name": [
+    "NetOffloadIsLsoIPv6Enabled"
+  ]
+}

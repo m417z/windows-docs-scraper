@@ -1,0 +1,3 @@
+PCWSTR WebAuthNGetErrorName(
+  HRESULT hr
+);

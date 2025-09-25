@@ -1,0 +1,55 @@
+{
+  "UID": "NF:wdm.ExAcquireSpinLockShared",
+  "title": "ExAcquireSpinLockShared",
+  "description": "The ExAcquireSpinLockShared routine acquires a spin lock for shared access by the caller, and raises the IRQL to DISPATCH_LEVEL.",
+  "tech.root": "kernel",
+  "ms.date": "01/05/2023",
+  "targetos": "Windows",
+  "prerelease": false,
+  "keywords": [
+    "ExAcquireSpinLockShared function"
+  ],
+  "ms.keywords": "ExAcquireSpinLockShared, ExAcquireSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exacquirespinlockshared_, wdm/ExAcquireSpinLockShared",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "DISPATCH_LEVEL (See Remarks.)",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.typenames": "WORK_QUEUE_TYPE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "ExAcquireSpinLockShared"
+  ],
+  "f1_keywords": [
+    "ExAcquireSpinLockShared",
+    "wdm/ExAcquireSpinLockShared"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "ExAcquireSpinLockShared"
+  ]
+}

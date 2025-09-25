@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IEnumFilters.Clone",
+  "title": "IEnumFilters::Clone (strmif.h)",
+  "description": "The Clone method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.",
+  "helpviewer_keywords": [
+    "Clone",
+    "Clone method [DirectShow]",
+    "Clone method [DirectShow]",
+    "IEnumFilters interface",
+    "IEnumFilters interface [DirectShow]",
+    "Clone method",
+    "IEnumFilters.Clone",
+    "IEnumFilters::Clone",
+    "IEnumFiltersClone",
+    "dshow.ienumfilters_clone",
+    "strmif/IEnumFilters::Clone"
+  ],
+  "old-location": "dshow\\ienumfilters_clone.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "ed8380af-8467-447a-a595-38fe29f9f9e6",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumFilters interface, IEnumFilters interface [DirectShow],Clone method, IEnumFilters.Clone, IEnumFilters::Clone, IEnumFiltersClone, dshow.ienumfilters_clone, strmif/IEnumFilters::Clone",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IEnumFilters::Clone",
+    "strmif/IEnumFilters::Clone"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IEnumFilters.Clone"
+  ]
+}

@@ -1,0 +1,3 @@
+HCOLORSPACE CreateColorSpaceA(
+  LPLOGCOLORSPACEA lplcs
+);

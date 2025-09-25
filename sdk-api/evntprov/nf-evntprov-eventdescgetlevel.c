@@ -1,0 +1,3 @@
+EVNTPROV_PFORCEINLINE UCHAR EventDescGetLevel(
+  [in] PCEVENT_DESCRIPTOR EventDescriptor
+);

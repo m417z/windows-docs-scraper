@@ -1,0 +1,5 @@
+typedef struct _ACX_PEAKMETER_CALLBACKS {
+  ULONG                            Size;
+  PFN_ACX_PEAKMETER_RETRIEVE_LEVEL EvtAcxPeakMeterRetrieveLevel;
+  PFN_ACX_OBJECT_PROCESS_REQUEST   EvtAcxPeakMeterProcessRequest;
+} ACX_PEAKMETER_CALLBACKS, *PACX_PEAKMETER_CALLBACKS;

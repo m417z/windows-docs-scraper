@@ -1,0 +1,4 @@
+typedef struct _CRYPT_XML_DATA_BLOB {
+  ULONG cbData;
+  BYTE  *pbData;
+} CRYPT_XML_DATA_BLOB, *PCRYPT_XML_DATA_BLOB;

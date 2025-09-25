@@ -1,0 +1,3 @@
+void ScsiPortReadPortUlong(
+  [in] Port
+);

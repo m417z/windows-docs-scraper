@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004 {
+  WINSAT_BITMAP_SIZE_SMALL = 0,
+  WINSAT_BITMAP_SIZE_NORMAL = 1
+} WINSAT_BITMAP_SIZE;

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:commctrl.ListView_SetImageList",
+  "title": "ListView_SetImageList macro (commctrl.h)",
+  "description": "Assigns an image list to a list-view control. You can use this macro or send the LVM_SETIMAGELIST message explicitly.",
+  "helpviewer_keywords": [
+    "LVSIL_GROUPHEADER",
+    "LVSIL_NORMAL",
+    "LVSIL_SMALL",
+    "LVSIL_STATE",
+    "ListView_SetImageList",
+    "ListView_SetImageList macro [Windows Controls]",
+    "_win32_ListView_SetImageList",
+    "_win32_ListView_SetImageList_cpp",
+    "commctrl/ListView_SetImageList",
+    "controls.ListView_SetImageList",
+    "controls._win32_ListView_SetImageList"
+  ],
+  "old-location": "controls\\ListView_SetImageList.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_setimagelist.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_SetImageList, ListView_SetImageList macro [Windows Controls], _win32_ListView_SetImageList, _win32_ListView_SetImageList_cpp, commctrl/ListView_SetImageList, controls.ListView_SetImageList, controls._win32_ListView_SetImageList",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_SetImageList",
+    "commctrl/ListView_SetImageList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_SetImageList"
+  ]
+}

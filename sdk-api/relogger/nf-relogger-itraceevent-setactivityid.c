@@ -1,0 +1,3 @@
+HRESULT SetActivityId(
+  LPCGUID ActivityId
+);

@@ -1,0 +1,39 @@
+# VideoPortReadPortBufferUshort function
+
+## Description
+
+The **VideoPortReadPortBufferUshort** function reads a number of USHORT values from a mapped I/O port and writes them into a buffer.
+
+## Parameters
+
+### `Port`
+
+Pointer to the port. The given *Port* must be in a mapped I/O-space range returned by [VideoPortGetDeviceBase](https://learn.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase).
+
+### `Buffer` [out]
+
+Pointer to a buffer into which an array of USHORT values is written.
+
+### `Count`
+
+Specifies the number of USHORT values to be written to the buffer.
+
+## Return value
+
+None
+
+## Remarks
+
+The buffer must be large enough to contain at least the specified number of USHORT values.
+
+A miniport driver's [HwVidInterrupt](https://learn.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt) or [HwVidSynchronizeExecutionCallback](https://learn.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine) function can call **VideoPortReadPortBufferUshort**.
+
+Callers of **VideoPortReadPortBufferUshort** can be running at any IRQL, provided that the memory pointed to by the *Buffer* parameter is resident and that pointed to by the *Port* parameter is resident, mapped device memory.
+
+## See also
+
+[HwVidInterrupt](https://learn.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt)
+
+[HwVidSynchronizeExecutionCallback](https://learn.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine)
+
+[VideoPortGetDeviceBase](https://learn.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase)

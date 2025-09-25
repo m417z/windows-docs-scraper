@@ -1,0 +1,4 @@
+LONG MCIWndSetPalette(
+     hwnd,
+     hpal
+);

@@ -1,0 +1,5 @@
+typedef struct _PKCS12_PBES2_EXPORT_PARAMS {
+  DWORD  dwSize;
+  PVOID  hNcryptDescriptor;
+  LPWSTR pwszPbes2Alg;
+} PKCS12_PBES2_EXPORT_PARAMS, *PPKCS12_PBES2_EXPORT_PARAMS;

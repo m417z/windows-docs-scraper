@@ -1,0 +1,48 @@
+{
+  "UID": "NF:usbcamdi.USBCAMD_DriverEntry",
+  "title": "USBCAMD_DriverEntry function (usbcamdi.h)",
+  "description": "The USBCAMD_DriverEntry function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.",
+  "tech.root": "stream",
+  "ms.date": "04/19/2022",
+  "keywords": [
+    "USBCAMD_DriverEntry function"
+  ],
+  "ms.keywords": "USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml",
+  "req.header": "usbcamdi.h",
+  "req.include-header": "Usbcamdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbcamd2.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBCAMD_DriverEntry",
+    "usbcamdi/USBCAMD_DriverEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "usbcamd2.lib",
+    "usbcamd2.dll"
+  ],
+  "api_name": [
+    "USBCAMD_DriverEntry"
+  ]
+}

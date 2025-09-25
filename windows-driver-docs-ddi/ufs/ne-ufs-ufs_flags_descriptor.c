@@ -1,0 +1,20 @@
+typedef enum {
+  UFS_Reserved_00,
+  UFS_fDeviceInit,
+  UFS_fPermanentWPEn,
+  UFS_fPowerOnWPEn,
+  UFS_fBackgroundOpsEn,
+  UFS_fDeviceLifeSpanModeEn,
+  UFS_fPurgeEnable,
+  UFS_fRefreshEnable,
+  UFS_fPhyResourceRemoval,
+  UFS_fBusyRTC,
+  UFS_Reserved_0A,
+  UFS_fPermanentlyDisableFwUpdate,
+  UFS_Reserved_0C,
+  UFS_Reserved_0D,
+  UFS_fWriteBoosterEn,
+  UFS_fWriteBoosterBufferFlushEn,
+  UFS_fWriteBoosterBufferFlushDuringHibernate,
+  UFS_Reserved_11
+} UFS_FLAGS_DESCRIPTOR;

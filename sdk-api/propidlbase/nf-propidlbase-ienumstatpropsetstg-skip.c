@@ -1,0 +1,3 @@
+HRESULT Skip(
+  ULONG celt
+);

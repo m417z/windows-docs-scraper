@@ -1,0 +1,7 @@
+DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO DxgkddiMonitordescriptorsetAcquirefirstdescriptorinfo;
+
+NTSTATUS DxgkddiMonitordescriptorsetAcquirefirstdescriptorinfo(
+  [in]  IN_CONST_D3DKMDT_HMONITORDESCRIPTORSET hMonitorDescriptorSet,
+  [out] DEREF_OUT_CONST_PPD3DKMDT_MONITOR_DESCRIPTOR ppFirstMonitorDescriptorInfo
+)
+{...}

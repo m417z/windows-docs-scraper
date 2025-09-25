@@ -1,0 +1,59 @@
+{
+  "UID": "NF:opmapi.OPMGetVideoOutputForTarget",
+  "title": "OPMGetVideoOutputForTarget function (opmapi.h)",
+  "description": "Returns a video output object for the VidPN target on the specified adapter.",
+  "helpviewer_keywords": [
+    "OPMGetVideoOutputForTarget",
+    "OPMGetVideoOutputForTarget function [Media Foundation]",
+    "OPM_VOS_COPP_SEMANTICS",
+    "OPM_VOS_OPM_SEMANTICS",
+    "mf.opmgetvideooutputfortarget",
+    "opmapi/OPMGetVideoOutputForTarget"
+  ],
+  "old-location": "mf\\opmgetvideooutputfortarget.htm",
+  "tech.root": "mf",
+  "ms.assetid": "736F6C76-D208-49E8-9D96-F54ECE332FCA",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "OPMGetVideoOutputForTarget, OPMGetVideoOutputForTarget function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputfortarget, opmapi/OPMGetVideoOutputForTarget",
+  "req.header": "opmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dxva2.lib",
+  "req.dll": "Dxva2.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OPMGetVideoOutputForTarget",
+    "opmapi/OPMGetVideoOutputForTarget"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dxva2.dll"
+  ],
+  "api_name": [
+    "OPMGetVideoOutputForTarget"
+  ]
+}

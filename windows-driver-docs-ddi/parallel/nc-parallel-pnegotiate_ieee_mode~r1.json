@@ -1,0 +1,53 @@
+{
+  "UID": "NC:parallel.PNEGOTIATE_IEEE_MODE~r1",
+  "tech.root": "parports",
+  "title": "PNEGOTIATE_IEEE_MODE",
+  "ms.date": "08/04/2025",
+  "targetos": "Windows",
+  "description": "The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest forward and reverse protocols that the system-supplied bus driver for parallel ports supports from among those specified by the caller.",
+  "prerelease": false,
+  "keywords": [
+    "PNEGOTIATE_IEEE_MODE callback"
+  ],
+  "ms.keywords": "PNEGOTIATE_IEEE_MODE, PNEGOTIATE_IEEE_MODE function pointer [Parallel Ports], cisspd_0bea0bb3-2a7c-4cf4-938d-8bc67962a222.xml, parallel/PNEGOTIATE_IEEE_MODE, parports.pnegotiate_ieee_mode",
+  "req.assembly": null,
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "parallel.h",
+  "req.idl": null,
+  "req.include-header": "parallel.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Desktop",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "PNEGOTIATE_IEEE_MODE"
+  ],
+  "f1_keywords": [
+    "PNEGOTIATE_IEEE_MODE",
+    "parallel/PNEGOTIATE_IEEE_MODE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "PNEGOTIATE_IEEE_MODE"
+  ]
+}

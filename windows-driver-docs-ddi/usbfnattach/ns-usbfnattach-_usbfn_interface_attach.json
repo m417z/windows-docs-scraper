@@ -1,0 +1,54 @@
+{
+  "UID": "NS:usbfnattach._USBFN_INTERFACE_ATTACH",
+  "title": "_USBFN_INTERFACE_ATTACH (usbfnattach.h)",
+  "description": "Stores pointers to driver-implemented callback functions for handling attach and detach operations.",
+  "old-location": "buses\\usbfn_interface_attach.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBFN_INTERFACE_ATTACH structure"
+  ],
+  "ms.keywords": "*PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], _USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach, usbfnattach/PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH",
+  "req.header": "usbfnattach.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH",
+  "f1_keywords": [
+    "_USBFN_INTERFACE_ATTACH",
+    "usbfnattach/_USBFN_INTERFACE_ATTACH",
+    "PUSBFN_INTERFACE_ATTACH",
+    "usbfnattach/PUSBFN_INTERFACE_ATTACH",
+    "USBFN_INTERFACE_ATTACH",
+    "usbfnattach/USBFN_INTERFACE_ATTACH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usbfnattach.h"
+  ],
+  "api_name": [
+    "_USBFN_INTERFACE_ATTACH",
+    "PUSBFN_INTERFACE_ATTACH",
+    "USBFN_INTERFACE_ATTACH"
+  ]
+}

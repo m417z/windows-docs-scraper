@@ -1,0 +1,4 @@
+typedef struct _SERVICE_TABLE_ENTRYA {
+  LPSTR                    lpServiceName;
+  LPSERVICE_MAIN_FUNCTIONA lpServiceProc;
+} SERVICE_TABLE_ENTRYA, *LPSERVICE_TABLE_ENTRYA;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdbgexts.ReadIoSpace64",
+  "title": "ReadIoSpace64 function (wdbgexts.h)",
+  "description": "The ReadIoSpace64 function reads from the system I/O locations.",
+  "old-location": "debugger\\readiospace64.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "ReadIoSpace64 function"
+  ],
+  "ms.keywords": "ReadIoSpace64, ReadIoSpace64 function [Windows Debugging], WdbgExts_Ref_5e2a7cc2-0dc4-4970-9d6a-c9a2c5130577.xml, debugger.readiospace64, wdbgexts/ReadIoSpace64",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ReadIoSpace64",
+    "wdbgexts/ReadIoSpace64"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "ReadIoSpace64"
+  ]
+}

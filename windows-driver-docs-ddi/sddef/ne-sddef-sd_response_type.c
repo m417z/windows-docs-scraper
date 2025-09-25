@@ -1,0 +1,12 @@
+typedef enum {
+  SDRT_UNSPECIFIED,
+  SDRT_NONE,
+  SDRT_1,
+  SDRT_1B,
+  SDRT_2,
+  SDRT_3,
+  SDRT_4,
+  SDRT_5,
+  SDRT_5B,
+  SDRT_6
+} SD_RESPONSE_TYPE;

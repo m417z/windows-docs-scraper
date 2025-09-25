@@ -1,0 +1,60 @@
+{
+  "UID": "NF:http.HttpSetRequestProperty",
+  "title": "HttpSetRequestProperty function (http.h)",
+  "description": "Sets a new property or modifies an existing property on the specified request.",
+  "helpviewer_keywords": [
+    "HttpServer503VerbosityProperty",
+    "HttpServerLengthProperty",
+    "HttpServerStateProperty",
+    "HttpSetRequestProperty",
+    "HttpSetRequestProperty function [HTTP]",
+    "http.httpsetrequestproperty",
+    "http/HttpSetRequestProperty"
+  ],
+  "old-location": "http\\httpsetrequestproperty.htm",
+  "tech.root": "http",
+  "ms.assetid": "66b14012-ae14-49ff-bf07-c45092f4fddd",
+  "ms.date": "03/22/2021",
+  "ms.keywords": "HttpServer503VerbosityProperty, HttpServerLengthProperty, HttpServerStateProperty, HttpSetRequestProperty, HttpSetRequestProperty function [HTTP], http.httpsetrequestproperty, http/HttpSetRequestProperty",
+  "req.header": "http.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Httpapi.lib",
+  "req.dll": "Httpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": null,
+  "f1_keywords": [
+    "HttpSetRequestProperty",
+    "http/HttpSetRequestProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Httpapi.dll"
+  ],
+  "api_name": [
+    "HttpSetRequestProperty"
+  ]
+}

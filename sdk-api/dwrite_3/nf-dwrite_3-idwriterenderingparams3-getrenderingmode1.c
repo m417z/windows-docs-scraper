@@ -1,0 +1,1 @@
+DWRITE_RENDERING_MODE1 GetRenderingMode1();

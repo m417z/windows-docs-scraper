@@ -1,0 +1,58 @@
+{
+  "UID": "NF:secext.TranslateNameA",
+  "title": "TranslateNameA function (secext.h)",
+  "description": "Converts a directory service object name from one format to another. (ANSI)",
+  "helpviewer_keywords": [
+    "TranslateNameA",
+    "secext/TranslateNameA"
+  ],
+  "old-location": "base\\translatename.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "4df25519-e7d6-46ea-b0e8-ba1f82e5f94f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TranslateName, TranslateName function, TranslateNameA, TranslateNameW, _win32_translatename, base.translatename, secext/TranslateName, secext/TranslateNameA, secext/TranslateNameW",
+  "req.header": "secext.h",
+  "req.include-header": "Security.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "TranslateNameW (Unicode) and TranslateNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "Secur32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TranslateNameA",
+    "secext/TranslateNameA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Secur32.dll"
+  ],
+  "api_name": [
+    "TranslateName",
+    "TranslateNameA",
+    "TranslateNameW"
+  ],
+  "req.apiset": "ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)"
+}

@@ -1,0 +1,3 @@
+HRESULT SetBottomLeftRadiusX(
+  float radius
+);

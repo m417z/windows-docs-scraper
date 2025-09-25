@@ -1,0 +1,68 @@
+{
+  "UID": "NS:ddeml.tagCONVCONTEXT",
+  "title": "CONVCONTEXT (ddeml.h)",
+  "description": "Contains information supplied by a Dynamic Data Exchange (DDE) client application. The information is useful for specialized or cross-language DDE conversations.",
+  "helpviewer_keywords": [
+    "*PCONVCONTEXT",
+    "CONVCONTEXT",
+    "CONVCONTEXT structure [Data Exchange]",
+    "PCONVCONTEXT",
+    "PCONVCONTEXT structure pointer [Data Exchange]",
+    "_win32_CONVCONTEXT_str",
+    "_win32_convcontext_str_cpp",
+    "dataxchg.convcontext_str",
+    "ddeml/CONVCONTEXT",
+    "ddeml/PCONVCONTEXT",
+    "winui._win32_convcontext_str"
+  ],
+  "old-location": "dataxchg\\convcontext_str.htm",
+  "tech.root": "dataxchg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\dataexchange\\dynamicdataexchangemanagementlibrary\\dynamicdataexchangemanagementreference\\dynamicdataexchangemanagementstructures\\convcontext.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PCONVCONTEXT, CONVCONTEXT, CONVCONTEXT structure [Data Exchange], PCONVCONTEXT, PCONVCONTEXT structure pointer [Data Exchange], _win32_CONVCONTEXT_str, _win32_convcontext_str_cpp, dataxchg.convcontext_str, ddeml/CONVCONTEXT, ddeml/PCONVCONTEXT, winui._win32_convcontext_str",
+  "req.header": "ddeml.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CONVCONTEXT, *PCONVCONTEXT",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagCONVCONTEXT",
+    "ddeml/tagCONVCONTEXT",
+    "PCONVCONTEXT",
+    "ddeml/PCONVCONTEXT",
+    "CONVCONTEXT",
+    "ddeml/CONVCONTEXT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ddeml.h"
+  ],
+  "api_name": [
+    "CONVCONTEXT"
+  ]
+}

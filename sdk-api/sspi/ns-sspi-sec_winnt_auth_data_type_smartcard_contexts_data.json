@@ -1,0 +1,52 @@
+{
+  "UID": "NS:sspi._SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+  "tech.root": "security",
+  "title": "SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+  "ms.date": "07/20/2022",
+  "targetos": "Windows",
+  "description": "Contains the authentication data for a smartcard context.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "sspi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA, *PSEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "sspi.h"
+  ],
+  "api_name": [
+    "_SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+    "PSEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+    "SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA"
+  ],
+  "f1_keywords": [
+    "_SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+    "sspi/_SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+    "PSEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+    "sspi/PSEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+    "SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA",
+    "sspi/SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_SEC_WINNT_AUTH_DATA_TYPE_SMARTCARD_CONTEXTS_DATA"
+  ]
+}

@@ -1,0 +1,9 @@
+## Description
+
+Reserved for system use.
+
+## Constants
+
+### `REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE_PARAMETERS`
+
+### `REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE_METRICS_DATA`

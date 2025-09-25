@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_DOD_SET_DIRTYRECT_MODE {
+  BOOL bForceFullScreenDirty;
+} D3DKMT_DOD_SET_DIRTYRECT_MODE;

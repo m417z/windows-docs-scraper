@@ -1,0 +1,5 @@
+typedef struct DOT11_DATA_RATE_MAPPING_ENTRY {
+  UCHAR  ucDataRateIndex;
+  UCHAR  ucDataRateFlag;
+  USHORT usDataRateValue;
+} DOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY;

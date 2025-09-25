@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltReleaseContextsEx",
+  "title": "FltReleaseContextsEx function (fltkernel.h)",
+  "description": "FltReleaseContextsEx releases each context in a given FLT_RELATED_CONTEXTS_EX structure.",
+  "old-location": "ifsk\\fltreleasecontextsex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "01/22/2021",
+  "keywords": [
+    "FltReleaseContextsEx function"
+  ],
+  "ms.keywords": "FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers], fltkernel/FltReleaseContextsEx, ifsk.fltreleasecontextsex",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltReleaseContextsEx",
+    "fltkernel/FltReleaseContextsEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltReleaseContextsEx"
+  ]
+}

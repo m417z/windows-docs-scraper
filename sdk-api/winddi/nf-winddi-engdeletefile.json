@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngDeleteFile",
+  "title": "EngDeleteFile function (winddi.h)",
+  "description": "The EngDeleteFile function deletes a file.",
+  "helpviewer_keywords": [
+    "EngDeleteFile",
+    "EngDeleteFile function [Display Devices]",
+    "display.engdeletefile",
+    "gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml",
+    "winddi/EngDeleteFile"
+  ],
+  "old-location": "display\\engdeletefile.htm",
+  "tech.root": "display",
+  "ms.assetid": "2ed030cf-6d26-4bde-8d63-83fd6848ec0d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngDeleteFile, EngDeleteFile function [Display Devices], display.engdeletefile, gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml, winddi/EngDeleteFile",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngDeleteFile",
+    "winddi/EngDeleteFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngDeleteFile"
+  ]
+}

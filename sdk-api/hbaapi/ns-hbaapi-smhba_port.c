@@ -1,0 +1,4 @@
+typedef union SMHBA_Port {
+  SMHBA_FC_PORT  *FCPort;
+  SMHBA_SAS_PORT *SASPort;
+} SMHBA_PORT, *PSMHBA_PORT;

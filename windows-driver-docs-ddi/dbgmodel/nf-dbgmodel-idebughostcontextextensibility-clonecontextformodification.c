@@ -1,0 +1,3 @@
+HRESULT CloneContextForModification(
+  IDebugHostContextExtension **extensionHandle
+);

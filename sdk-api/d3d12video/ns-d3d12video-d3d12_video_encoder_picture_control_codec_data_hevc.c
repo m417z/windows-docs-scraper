@@ -1,0 +1,19 @@
+typedef struct D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_HEVC {
+  D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_HEVC_FLAGS Flags;
+  D3D12_VIDEO_ENCODER_FRAME_TYPE_HEVC                       FrameType;
+  UINT                                                      slice_pic_parameter_set_id;
+  UINT                                                      PictureOrderCountNumber;
+  UINT                                                      TemporalLayerIndex;
+  UINT                                                      List0ReferenceFramesCount;
+  UINT                                                      *pList0ReferenceFrames;
+  UINT                                                      List1ReferenceFramesCount;
+  UINT                                                      *pList1ReferenceFrames;
+  UINT                                                      ReferenceFramesReconPictureDescriptorsCount;
+  D3D12_VIDEO_ENCODER_REFERENCE_PICTURE_DESCRIPTOR_HEVC     *pReferenceFramesReconPictureDescriptors;
+  UINT                                                      List0RefPicModificationsCount;
+  UINT                                                      *pList0RefPicModifications;
+  UINT                                                      List1RefPicModificationsCount;
+  UINT                                                      *pList1RefPicModifications;
+  UINT                                                      QPMapValuesCount;
+  INT8                                                      *pRateControlQPMap;
+} D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_HEVC;

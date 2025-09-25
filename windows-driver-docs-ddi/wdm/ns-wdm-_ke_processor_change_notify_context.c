@@ -1,0 +1,6 @@
+typedef struct _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT {
+  KE_PROCESSOR_CHANGE_NOTIFY_STATE State;
+  ULONG                            NtNumber;
+  NTSTATUS                         Status;
+  PROCESSOR_NUMBER                 ProcNumber;
+} KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT;

@@ -1,0 +1,40 @@
+typedef struct _DXGK_ALLOCATIONINFOFLAGS {
+  union {
+    struct {
+      UINT CpuVisible : 1;
+      UINT PermanentSysMem : 1;
+      UINT Cached : 1;
+      UINT Protected : 1;
+      UINT ExistingSysMem : 1;
+      UINT ExistingKernelSysMem : 1;
+      UINT FromEndOfSegment : 1;
+      UINT Swizzled : 1;
+      UINT Overlay : 1;
+      UINT Capture : 1;
+      UINT UseAlternateVA : 1;
+      UINT SynchronousPaging : 1;
+      UINT LinkMirrored : 1;
+      UINT LinkInstanced : 1;
+      UINT HistoryBuffer : 1;
+      UINT AccessedPhysically : 1;
+      UINT ExplicitResidencyNotification : 1;
+      UINT HardwareProtected : 1;
+      UINT CpuVisibleOnDemand : 1;
+      UINT Reserved : 4;
+      UINT DXGK_ALLOC_RESERVED16 : 1;
+      UINT DXGK_ALLOC_RESERVED15 : 1;
+      UINT DXGK_ALLOC_RESERVED14 : 1;
+      UINT DXGK_ALLOC_RESERVED13 : 1;
+      UINT DXGK_ALLOC_RESERVED12 : 1;
+      UINT DXGK_ALLOC_RESERVED11 : 1;
+      UINT DXGK_ALLOC_RESERVED10 : 1;
+      UINT DXGK_ALLOC_RESERVED9 : 1;
+      UINT DXGK_ALLOC_RESERVED4 : 1;
+      UINT DXGK_ALLOC_RESERVED3 : 1;
+      UINT DXGK_ALLOC_RESERVED2 : 1;
+      UINT DXGK_ALLOC_RESERVED1 : 1;
+      UINT DXGK_ALLOC_RESERVED0 : 1;
+    };
+    UINT Value;
+  };
+} DXGK_ALLOCATIONINFOFLAGS;

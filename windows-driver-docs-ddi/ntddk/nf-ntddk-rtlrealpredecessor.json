@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlRealPredecessor",
+  "title": "RtlRealPredecessor function (ntddk.h)",
+  "description": "The RtlRealPredecessor routine returns a pointer to the predecessor of the specified node in the splay link tree.",
+  "old-location": "ifsk\\rtlrealpredecessor.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlRealPredecessor function"
+  ],
+  "ms.keywords": "RtlRealPredecessor, RtlRealPredecessor routine [Installable File System Drivers], ifsk.rtlrealpredecessor, ntddk/RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available on Microsoft Windows 2000 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlRealPredecessor",
+    "ntddk/RtlRealPredecessor"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlRealPredecessor"
+  ]
+}

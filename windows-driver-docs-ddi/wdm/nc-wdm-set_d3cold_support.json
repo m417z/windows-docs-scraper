@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.SET_D3COLD_SUPPORT",
+  "title": "SET_D3COLD_SUPPORT (wdm.h)",
+  "description": "The SetD3ColdSupport routine enables or disables transitions to the D3cold device power state.",
+  "tech.root": "kernel",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "SET_D3COLD_SUPPORT callback function"
+  ],
+  "ms.keywords": "SET_D3COLD_SUPPORT, SetD3ColdSupport, SetD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.setd3coldsupport, wdm/SetD3ColdSupport",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SET_D3COLD_SUPPORT",
+    "wdm/SET_D3COLD_SUPPORT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "SET_D3COLD_SUPPORT"
+  ]
+}

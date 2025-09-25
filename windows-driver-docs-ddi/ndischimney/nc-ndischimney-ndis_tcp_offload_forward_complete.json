@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndischimney.NDIS_TCP_OFFLOAD_FORWARD_COMPLETE",
+  "title": "NDIS_TCP_OFFLOAD_FORWARD_COMPLETE (ndischimney.h)",
+  "description": "An offload target calls the NdisTcpOffloadForwardComplete function to complete one or more forward requests that were made to the MiniportTcpOffloadForward function of the offload target.",
+  "old-location": "netvista\\ndistcpoffloadforwardcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback function"
+  ],
+  "ms.keywords": "NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDIS_TCP_OFFLOAD_FORWARD_COMPLETE",
+    "ndischimney/NDIS_TCP_OFFLOAD_FORWARD_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndischimney.h"
+  ],
+  "api_name": [
+    "NDIS_TCP_OFFLOAD_FORWARD_COMPLETE"
+  ]
+}

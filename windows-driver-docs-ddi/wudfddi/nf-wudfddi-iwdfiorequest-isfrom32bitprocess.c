@@ -1,0 +1,1 @@
+BOOL IsFrom32BitProcess();

@@ -1,0 +1,66 @@
+{
+  "UID": "NF:synchapi.InitializeCriticalSectionAndSpinCount",
+  "title": "InitializeCriticalSectionAndSpinCount function (synchapi.h)",
+  "description": "Initializes a critical section object and sets the spin count for the critical section.",
+  "helpviewer_keywords": [
+    "InitializeCriticalSectionAndSpinCount",
+    "InitializeCriticalSectionAndSpinCount function",
+    "_win32_initializecriticalsectionandspincount",
+    "base.initializecriticalsectionandspincount",
+    "synchapi/InitializeCriticalSectionAndSpinCount",
+    "winbase/InitializeCriticalSectionAndSpinCount"
+  ],
+  "old-location": "base\\initializecriticalsectionandspincount.htm",
+  "tech.root": "base",
+  "ms.assetid": "4b84b305-8bc0-4592-9378-b757bbc0de19",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "InitializeCriticalSectionAndSpinCount, InitializeCriticalSectionAndSpinCount function, _win32_initializecriticalsectionandspincount, base.initializecriticalsectionandspincount, synchapi/InitializeCriticalSectionAndSpinCount, winbase/InitializeCriticalSectionAndSpinCount",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InitializeCriticalSectionAndSpinCount",
+    "synchapi/InitializeCriticalSectionAndSpinCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "InitializeCriticalSectionAndSpinCount"
+  ]
+}

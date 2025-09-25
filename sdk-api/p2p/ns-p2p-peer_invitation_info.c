@@ -1,0 +1,21 @@
+typedef struct peer_invitation_info_tag {
+  DWORD                            dwSize;
+  DWORD                            dwFlags;
+  PWSTR                            pwzCloudName;
+  DWORD                            dwScope;
+  DWORD                            dwCloudFlags;
+  PWSTR                            pwzGroupPeerName;
+  PWSTR                            pwzIssuerPeerName;
+  PWSTR                            pwzSubjectPeerName;
+  PWSTR                            pwzGroupFriendlyName;
+  PWSTR                            pwzIssuerFriendlyName;
+  PWSTR                            pwzSubjectFriendlyName;
+  FILETIME                         ftValidityStart;
+  FILETIME                         ftValidityEnd;
+  ULONG                            cRoles;
+  PEER_ROLE_ID                     *pRoles;
+  ULONG                            cClassifiers;
+  PWSTR                            *ppwzClassifiers;
+  CERT_PUBLIC_KEY_INFO             *pSubjectPublicKey;
+  PEER_GROUP_AUTHENTICATION_SCHEME authScheme;
+} PEER_INVITATION_INFO, *PPEER_INVITATION_INFO;

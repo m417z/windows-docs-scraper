@@ -1,0 +1,47 @@
+{
+  "UID": "NF:fltkernel.FltWriteFile",
+  "title": "FltWriteFile function (fltkernel.h)",
+  "description": "Learn more about the FltWriteFile function.",
+  "tech.root": "ifsk",
+  "ms.date": "11/15/2023",
+  "keywords": [
+    "FltWriteFile function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, FltWriteFile, FltWriteFile function [Installable File System Drivers], fltkernel/FltWriteFile, ifsk.fltwritefile",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltWriteFile",
+    "fltkernel/FltWriteFile"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltWriteFile"
+  ]
+}

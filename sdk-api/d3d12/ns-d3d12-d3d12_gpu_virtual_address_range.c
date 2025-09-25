@@ -1,0 +1,4 @@
+typedef struct D3D12_GPU_VIRTUAL_ADDRESS_RANGE {
+  D3D12_GPU_VIRTUAL_ADDRESS StartAddress;
+  UINT64                    SizeInBytes;
+} D3D12_GPU_VIRTUAL_ADDRESS_RANGE;

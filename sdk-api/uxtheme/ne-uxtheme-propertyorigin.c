@@ -1,0 +1,7 @@
+typedef enum PROPERTYORIGIN {
+  PO_STATE,
+  PO_PART,
+  PO_CLASS,
+  PO_GLOBAL,
+  PO_NOTFOUND
+} ;

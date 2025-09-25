@@ -1,0 +1,13 @@
+## Description
+
+Describes the **KSPROPERTY_AUDIORESOURCEMANAGEMENT** enumeration.
+
+## Constants
+
+### `KSPROPERTY_AUDIORESOURCEMANAGEMENT_RESOURCEGROUP`
+
+Defines the **KSPROPERTY_AUDIORESOURCEMANAGEMENT_RESOURCEGROUP** constant.
+
+## Remarks
+
+## See also

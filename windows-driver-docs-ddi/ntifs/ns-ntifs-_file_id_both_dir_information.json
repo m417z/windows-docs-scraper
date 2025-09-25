@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FILE_ID_BOTH_DIR_INFORMATION",
+  "title": "FILE_ID_BOTH_DIR_INFORMATION (ntifs.h)",
+  "description": "The FILE_ID_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.",
+  "old-location": "ifsk\\file_id_both_dir_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "FILE_ID_BOTH_DIR_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_BOTH_DIR_INFORMATION, fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, ifsk.file_id_both_dir_information, ntifs/FILE_ID_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_BOTH_DIR_INFORMATION",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_ID_BOTH_DIR_INFORMATION, *PFILE_ID_BOTH_DIR_INFORMATION",
+  "f1_keywords": [
+    "_FILE_ID_BOTH_DIR_INFORMATION",
+    "ntifs/_FILE_ID_BOTH_DIR_INFORMATION",
+    "PFILE_ID_BOTH_DIR_INFORMATION",
+    "ntifs/PFILE_ID_BOTH_DIR_INFORMATION",
+    "FILE_ID_BOTH_DIR_INFORMATION",
+    "ntifs/FILE_ID_BOTH_DIR_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_ID_BOTH_DIR_INFORMATION",
+    "PFILE_ID_BOTH_DIR_INFORMATION",
+    "FILE_ID_BOTH_DIR_INFORMATION"
+  ]
+}

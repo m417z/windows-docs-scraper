@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMemAllocatorCallbackTemp.GetFreeCount",
+  "title": "IMemAllocatorCallbackTemp::GetFreeCount (strmif.h)",
+  "description": "The GetFreeCount method returns the number of free media samples. This number equals the total number of media samples minus the number of samples that are currently held by filters.",
+  "helpviewer_keywords": [
+    "GetFreeCount",
+    "GetFreeCount method [DirectShow]",
+    "GetFreeCount method [DirectShow]",
+    "IMemAllocatorCallbackTemp interface",
+    "IMemAllocatorCallbackTemp interface [DirectShow]",
+    "GetFreeCount method",
+    "IMemAllocatorCallbackTemp.GetFreeCount",
+    "IMemAllocatorCallbackTemp::GetFreeCount",
+    "IMemAllocatorCallbackTempGetFreeCount",
+    "dshow.imemallocatorcallbacktemp_getfreecount",
+    "strmif/IMemAllocatorCallbackTemp::GetFreeCount"
+  ],
+  "old-location": "dshow\\imemallocatorcallbacktemp_getfreecount.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "2dd0cdb3-664a-4022-b8bb-fda759172dd6",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetFreeCount, GetFreeCount method [DirectShow], GetFreeCount method [DirectShow],IMemAllocatorCallbackTemp interface, IMemAllocatorCallbackTemp interface [DirectShow],GetFreeCount method, IMemAllocatorCallbackTemp.GetFreeCount, IMemAllocatorCallbackTemp::GetFreeCount, IMemAllocatorCallbackTempGetFreeCount, dshow.imemallocatorcallbacktemp_getfreecount, strmif/IMemAllocatorCallbackTemp::GetFreeCount",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMemAllocatorCallbackTemp::GetFreeCount",
+    "strmif/IMemAllocatorCallbackTemp::GetFreeCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMemAllocatorCallbackTemp.GetFreeCount"
+  ]
+}

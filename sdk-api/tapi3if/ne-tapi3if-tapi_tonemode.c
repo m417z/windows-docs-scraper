@@ -1,0 +1,6 @@
+typedef enum TAPI_TONEMODE {
+  TTM_RINGBACK = 0x2,
+  TTM_BUSY = 0x4,
+  TTM_BEEP = 0x8,
+  TTM_BILLING = 0x10
+} ;

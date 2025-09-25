@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdfio._WDF_IO_FORWARD_PROGRESS_ACTION",
+  "title": "_WDF_IO_FORWARD_PROGRESS_ACTION (wdfio.h)",
+  "description": "The WDF_IO_FORWARD_PROGRESS_ACTION enumeration identifies actions that the framework can take for an I/O request packet (IRP) that your driver examines during a low-memory situation.",
+  "old-location": "wdf\\wdf_io_forward_progress_action.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_IO_FORWARD_PROGRESS_ACTION enumeration"
+  ],
+  "ms.keywords": "DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml, WDF_IO_FORWARD_PROGRESS_ACTION, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, WdfIoForwardProgressActionFailRequest, WdfIoForwardProgressActionInvalid, WdfIoForwardProgressActionUseReservedRequest, _WDF_IO_FORWARD_PROGRESS_ACTION, kmdf.wdf_io_forward_progress_action, wdf.wdf_io_forward_progress_action, wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionFailRequest, wdfio/WdfIoForwardProgressActionInvalid, wdfio/WdfIoForwardProgressActionUseReservedRequest",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.9,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_IO_FORWARD_PROGRESS_ACTION",
+  "f1_keywords": [
+    "_WDF_IO_FORWARD_PROGRESS_ACTION",
+    "wdfio/_WDF_IO_FORWARD_PROGRESS_ACTION",
+    "WDF_IO_FORWARD_PROGRESS_ACTION",
+    "wdfio/WDF_IO_FORWARD_PROGRESS_ACTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfio.h"
+  ],
+  "api_name": [
+    "_WDF_IO_FORWARD_PROGRESS_ACTION",
+    "WDF_IO_FORWARD_PROGRESS_ACTION"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _PD_BUFFER_VIRTUAL_SUBNET_INFO {
+  UINT32 VirtualSubnetId : 24;
+  UINT32 Reserved : 8;
+} PD_BUFFER_VIRTUAL_SUBNET_INFO;

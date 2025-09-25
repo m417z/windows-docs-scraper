@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winldap.ldap_unbind",
+  "title": "ldap_unbind function (winldap.h)",
+  "description": "The ldap_unbind function frees resources associated with an LDAP session.",
+  "helpviewer_keywords": [
+    "_ldap_ldap_unbind",
+    "ldap.ldap__unbind",
+    "ldap.ldap_unbind",
+    "ldap_unbind",
+    "ldap_unbind function [LDAP]",
+    "winldap/ldap_unbind"
+  ],
+  "old-location": "ldap\\ldap_unbind.htm",
+  "tech.root": "ldap",
+  "ms.assetid": "5d8b3198-3935-4305-b0f1-eaf1a9355cf3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_ldap_ldap_unbind, ldap.ldap__unbind, ldap.ldap_unbind, ldap_unbind, ldap_unbind function [LDAP], winldap/ldap_unbind",
+  "req.header": "winldap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wldap32.lib",
+  "req.dll": "Wldap32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ldap_unbind",
+    "winldap/ldap_unbind"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wldap32.dll"
+  ],
+  "api_name": [
+    "ldap_unbind"
+  ]
+}

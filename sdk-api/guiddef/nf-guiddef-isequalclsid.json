@@ -1,0 +1,50 @@
+{
+  "UID": "NF:guiddef.IsEqualCLSID",
+  "title": "IsEqualCLSID",
+  "description": "Evaluates to a Boolean value that indicates whether two CLSIDs are equal.",
+  "tech.root": "com",
+  "ms.date": "06/06/2022",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Ole32.dll",
+  "req.header": "guiddef.h",
+  "req.idl": null,
+  "req.include-header": "GuidDef.h, Objbase.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Ole32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "guiddef.h"
+  ],
+  "api_name": [
+    "IsEqualCLSID"
+  ],
+  "f1_keywords": [
+    "IsEqualCLSID",
+    "guiddef/IsEqualCLSID"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IsEqualCLSID"
+  ]
+}

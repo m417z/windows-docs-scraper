@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_ENABLE_MESSAGE_INTERRUPT",
+  "title": "MINIPORT_ENABLE_MESSAGE_INTERRUPT (ndis.h)",
+  "description": "NDIS can call a miniport driver's MiniportEnableMessageInterrupt function to enable a message interrupt for diagnostic and troubleshooting purposes.",
+  "old-location": "netvista\\miniportenablemessageinterrupt.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_ENABLE_MESSAGE_INTERRUPT callback function"
+  ],
+  "ms.keywords": "MINIPORT_ENABLE_MESSAGE_INTERRUPT, MINIPORT_ENABLE_MESSAGE_INTERRUPT callback, MiniportEnableMessageInterrupt, MiniportEnableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportEnableMessageInterrupt, ndis_interrupts_miniport_functions_ref_cc88ce4b-e75b-4da8-89aa-3d449451a0d3.xml, netvista.miniportenablemessageinterrupt",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DIRQL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_ENABLE_MESSAGE_INTERRUPT",
+    "ndis/MINIPORT_ENABLE_MESSAGE_INTERRUPT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_ENABLE_MESSAGE_INTERRUPT"
+  ]
+}

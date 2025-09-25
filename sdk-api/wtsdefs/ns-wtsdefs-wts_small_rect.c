@@ -1,0 +1,6 @@
+typedef struct _WTS_SMALL_RECT {
+  SHORT Left;
+  SHORT Top;
+  SHORT Right;
+  SHORT Bottom;
+} _WTS_SMALL_RECT, WTS_SMALL_RECT, *PWTS_SMALL_RECT, _WRDS_SMALL_RECT;

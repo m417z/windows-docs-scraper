@@ -1,0 +1,4 @@
+typedef enum peer_application_registration_type_tag {
+  PEER_APPLICATION_CURRENT_USER = 0,
+  PEER_APPLICATION_ALL_USERS = 1
+} PEER_APPLICATION_REGISTRATION_TYPE;

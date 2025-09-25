@@ -1,0 +1,4 @@
+typedef enum SYNCMGR_EVENT_FLAGS {
+  SYNCMGR_EF_NONE = 0,
+  SYNCMGR_EF_VALID = 0
+} ;

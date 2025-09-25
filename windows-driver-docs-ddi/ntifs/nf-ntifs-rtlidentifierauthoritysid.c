@@ -1,0 +1,3 @@
+NTSYSAPI PSID_IDENTIFIER_AUTHORITY RtlIdentifierAuthoritySid(
+  PSID Sid
+);

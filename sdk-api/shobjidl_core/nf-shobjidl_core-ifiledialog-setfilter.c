@@ -1,0 +1,3 @@
+HRESULT SetFilter(
+  IShellItemFilter *pFilter
+);

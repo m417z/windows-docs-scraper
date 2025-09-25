@@ -1,0 +1,4 @@
+typedef struct IPSEC_AUTH_TRANSFORM0_ {
+  IPSEC_AUTH_TRANSFORM_ID0 authTransformId;
+  IPSEC_CRYPTO_MODULE_ID   *cryptoModuleId;
+} IPSEC_AUTH_TRANSFORM0;

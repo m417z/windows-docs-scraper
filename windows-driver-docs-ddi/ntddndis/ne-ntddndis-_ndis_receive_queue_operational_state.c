@@ -1,0 +1,7 @@
+typedef enum _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE {
+  NdisReceiveQueueOperationalStateUndefined,
+  NdisReceiveQueueOperationalStateRunning,
+  NdisReceiveQueueOperationalStatePaused,
+  NdisReceiveQueueOperationalStateDmaStopped,
+  NdisReceiveQueueOperationalStateMaximum
+} NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, *PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE;

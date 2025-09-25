@@ -1,0 +1,61 @@
+{
+  "UID": "NF:evntrace.EnumerateTraceGuids",
+  "title": "EnumerateTraceGuids function (evntrace.h)",
+  "description": "Retrieves information about event trace providers that are currently running on the computer. The EnumerateTraceGuidsEx function supersedes this function.",
+  "helpviewer_keywords": [
+    "EnumerateTraceGuids",
+    "EnumerateTraceGuids function [ETW]",
+    "_evt_enumeratetraceguids",
+    "base.enumeratetraceguids",
+    "etw.enumeratetraceguids",
+    "evntrace/EnumerateTraceGuids"
+  ],
+  "old-location": "etw\\enumeratetraceguids.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnumerateTraceGuids",
+    "evntrace/EnumerateTraceGuids"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-eventing-Legacy-l1-1-0.dll",
+    "advapi32legacy.dll"
+  ],
+  "api_name": [
+    "EnumerateTraceGuids"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _DHCP_IP_RESERVATION {
+  DHCP_IP_ADDRESS ReservedIpAddress;
+  DHCP_CLIENT_UID *ReservedForClient;
+} DHCP_IP_RESERVATION, *LPDHCP_IP_RESERVATION;

@@ -1,0 +1,51 @@
+{
+  "UID": "NF:usbdlib.USBD_CreateHandle",
+  "title": "USBD_CreateHandle function (usbdlib.h)",
+  "description": "The USBD_CreateHandle routine is called by a WDM USB client driver to obtain a USBD handle. The routine registers the client driver with the underlying USB driver stack.",
+  "old-location": "buses\\usbd_register.htm",
+  "tech.root": "usbref",
+  "ms.date": "06/24/2019",
+  "keywords": [
+    "USBD_CreateHandle function"
+  ],
+  "ms.keywords": "USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, usbdlib/USBD_CreateHandle",
+  "req.header": "usbdlib.h",
+  "req.include-header": "usbdlib.h, usb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbdex.lib; Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBD_CreateHandle",
+    "usbdlib/USBD_CreateHandle"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Usbdex.lib",
+    "Usbdex.dll",
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "USBD_CreateHandle"
+  ]
+}

@@ -1,0 +1,3 @@
+BOOL SetProcessRestrictionExemption(
+  BOOL fEnableExemption
+);

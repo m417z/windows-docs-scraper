@@ -1,0 +1,49 @@
+{
+  "UID": "NF:srb.ScsiPortCompleteRequest",
+  "title": "ScsiPortCompleteRequest function (srb.h)",
+  "description": "The ScsiPortCompleteRequest routine completes all of the active requests for the given SCSI bus, controller, or LU, including a request being processed by the calling miniport driver routine.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.",
+  "old-location": "storage\\scsiportcompleterequest.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ScsiPortCompleteRequest function"
+  ],
+  "ms.keywords": "ScsiPortCompleteRequest, ScsiPortCompleteRequest routine [Storage Devices], scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, srb/ScsiPortCompleteRequest, storage.scsiportcompleterequest",
+  "req.header": "srb.h",
+  "req.include-header": "Miniport.h, Scsi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scsiport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortCompleteRequest",
+    "srb/ScsiPortCompleteRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Scsiport.lib",
+    "Scsiport.dll"
+  ],
+  "api_name": [
+    "ScsiPortCompleteRequest"
+  ]
+}

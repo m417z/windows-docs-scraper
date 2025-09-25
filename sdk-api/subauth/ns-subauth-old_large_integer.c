@@ -1,0 +1,4 @@
+typedef struct _OLD_LARGE_INTEGER {
+  ULONG LowPart;
+  LONG  HighPart;
+} OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER;

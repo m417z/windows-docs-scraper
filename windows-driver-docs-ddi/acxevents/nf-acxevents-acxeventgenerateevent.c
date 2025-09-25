@@ -1,0 +1,3 @@
+VOID AcxEventGenerateEvent(
+  ACXEVENT Event
+);

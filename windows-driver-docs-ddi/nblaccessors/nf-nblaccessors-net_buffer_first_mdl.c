@@ -1,0 +1,1 @@
+#define NET_BUFFER_FIRST_MDL(_NB) ((_NB)->MdlChain)

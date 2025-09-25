@@ -1,0 +1,4 @@
+typedef enum FFFP_MODE {
+  FFFP_EXACTMATCH = 0,
+  FFFP_NEARESTPARENTMATCH
+} ;

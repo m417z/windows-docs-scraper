@@ -1,0 +1,5 @@
+D2D1_VECTOR_3F Vector3F(
+  FLOAT x,
+  FLOAT y,
+  FLOAT z
+);

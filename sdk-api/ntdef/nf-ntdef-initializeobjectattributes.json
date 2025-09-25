@@ -1,0 +1,56 @@
+{
+  "UID": "NF:ntdef.InitializeObjectAttributes",
+  "title": "InitializeObjectAttributes macro (ntdef.h)",
+  "description": "The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.",
+  "helpviewer_keywords": [
+    "InitializeObjectAttributes",
+    "InitializeObjectAttributes macro [Kernel-Mode Driver Architecture]",
+    "k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml",
+    "kernel.initializeobjectattributes",
+    "ntdef/InitializeObjectAttributes"
+  ],
+  "old-location": "kernel\\initializeobjectattributes.htm",
+  "tech.root": "kernel",
+  "ms.assetid": "ee89a9af-0bdf-476e-b4e3-eb60662e160d",
+  "ms.date": "04/30/2018",
+  "ms.keywords": "InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, ntdef/InitializeObjectAttributes",
+  "req.header": "ntdef.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntdef.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "InitializeObjectAttributes",
+    "ntdef/InitializeObjectAttributes"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntdef.h"
+  ],
+  "api_name": [
+    "InitializeObjectAttributes"
+  ]
+}

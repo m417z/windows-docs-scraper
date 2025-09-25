@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROYVIDEOEXTENSIONCOMMAND_0063 Pfnd3d12ddiDestroyvideoextensioncommand0063;
+
+VOID Pfnd3d12ddiDestroyvideoextensioncommand0063(
+  D3D12DDI_HDEVICE hDrvDevice,
+  D3D12DDI_HVIDEOEXTENSIONCOMMAND_0063 hDrvVideoExtensionCommand
+)
+{...}

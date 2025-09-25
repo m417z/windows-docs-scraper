@@ -1,0 +1,74 @@
+{
+  "UID": "NF:winbase.ReadDirectoryChangesW",
+  "title": "ReadDirectoryChangesW function (winbase.h)",
+  "description": "Retrieves information that describes the changes within the specified directory.",
+  "helpviewer_keywords": [
+    "FILE_NOTIFY_CHANGE_ATTRIBUTES",
+    "FILE_NOTIFY_CHANGE_CREATION",
+    "FILE_NOTIFY_CHANGE_DIR_NAME",
+    "FILE_NOTIFY_CHANGE_FILE_NAME",
+    "FILE_NOTIFY_CHANGE_LAST_ACCESS",
+    "FILE_NOTIFY_CHANGE_LAST_WRITE",
+    "FILE_NOTIFY_CHANGE_SECURITY",
+    "FILE_NOTIFY_CHANGE_SIZE",
+    "ReadDirectoryChangesW",
+    "ReadDirectoryChangesW function [Files]",
+    "_win32_readdirectorychangesw",
+    "base.readdirectorychangesw",
+    "fs.readdirectorychangesw",
+    "winbase/ReadDirectoryChangesW"
+  ],
+  "old-location": "fs\\readdirectorychangesw.htm",
+  "tech.root": "fs",
+  "ms.assetid": "14dfc93d-557e-43d0-be45-8414cfd92c29",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_ACCESS, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, ReadDirectoryChangesW, ReadDirectoryChangesW function [Files], _win32_readdirectorychangesw, base.readdirectorychangesw, fs.readdirectorychangesw, winbase/ReadDirectoryChangesW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ReadDirectoryChangesW",
+    "winbase/ReadDirectoryChangesW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l2-1-4.dll",
+    "api-ms-win-core-file-l2-1-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l2-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l2-1-1.dll",
+    "API-MS-Win-Core-File-l2-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ReadDirectoryChangesW"
+  ]
+}

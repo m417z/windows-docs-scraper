@@ -1,0 +1,54 @@
+{
+  "UID": "NS:scsiscan._SCSISCAN_INFO",
+  "title": "_SCSISCAN_INFO (scsiscan.h)",
+  "description": "The SCSISCAN_INFO structure is used as a parameter to DeviceIoControl (described in the Microsoft Windows SDK documentation), when the specified I/O control code is IOCTL_SCSISCAN_GET_INFO.",
+  "old-location": "image\\scsiscan_info.htm",
+  "tech.root": "image",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "SCSISCAN_INFO structure"
+  ],
+  "ms.keywords": "*PSCSISCAN_INFO, PSCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], SCSISCAN_INFO, SCSISCAN_INFO structure [Imaging Devices], _SCSISCAN_INFO, image.scsiscan_info, scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml",
+  "req.header": "scsiscan.h",
+  "req.include-header": "Scsiscan.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SCSISCAN_INFO, *PSCSISCAN_INFO",
+  "f1_keywords": [
+    "_SCSISCAN_INFO",
+    "scsiscan/_SCSISCAN_INFO",
+    "PSCSISCAN_INFO",
+    "scsiscan/PSCSISCAN_INFO",
+    "SCSISCAN_INFO",
+    "scsiscan/SCSISCAN_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsiscan.h"
+  ],
+  "api_name": [
+    "_SCSISCAN_INFO",
+    "PSCSISCAN_INFO",
+    "SCSISCAN_INFO"
+  ]
+}

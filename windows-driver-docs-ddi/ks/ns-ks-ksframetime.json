@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ks.KSFRAMETIME",
+  "title": "KSFRAMETIME (ks.h)",
+  "description": "The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next frame of data, and flags associated with that frame.",
+  "old-location": "stream\\ksframetime.htm",
+  "tech.root": "stream",
+  "ms.date": "06/25/2020",
+  "keywords": [
+    "KSFRAMETIME structure"
+  ],
+  "ms.keywords": "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSFRAMETIME, *PKSFRAMETIME",
+  "f1_keywords": [
+    "PKSFRAMETIME",
+    "ks/PKSFRAMETIME",
+    "KSFRAMETIME",
+    "ks/KSFRAMETIME"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PKSFRAMETIME",
+    "KSFRAMETIME"
+  ]
+}

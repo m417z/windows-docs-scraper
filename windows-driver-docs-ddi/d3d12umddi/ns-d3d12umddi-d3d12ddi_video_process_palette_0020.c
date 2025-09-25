@@ -1,0 +1,5 @@
+typedef struct D3D12DDI_VIDEO_PROCESS_PALETTE_0020 {
+  BOOL Enable;
+  UINT NumEntries;
+  UINT *pEntries;
+} D3D12DDI_VIDEO_PROCESS_PALETTE_0020;

@@ -1,0 +1,48 @@
+{
+  "UID": "NS:usb._URB_CONTROL_TRANSFER_EX",
+  "title": "_URB_CONTROL_TRANSFER_EX (usb.h)",
+  "description": "The _URB_CONTROL_TRANSFER_EX structure is used by USB client drivers to transfer data to or from a control pipe, with a timeout that limits the acceptable transfer time.",
+  "old-location": "buses\\_urb_control_transfer_ex.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "URB_CONTROL_TRANSFER_EX structure"
+  ],
+  "ms.keywords": "USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER_EX, _URB_CONTROL_TRANSFER_EX structure [Buses], buses._urb_control_transfer_ex, usb/_URB_CONTROL_TRANSFER_EX, usbstrct_08c90b6d-8b25-4ebe-9131-5d2a0bacd5db.xml",
+  "req.header": "usb.h",
+  "req.include-header": "Usb.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "_URB_CONTROL_TRANSFER_EX",
+    "usb/_URB_CONTROL_TRANSFER_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usb.h"
+  ],
+  "api_name": [
+    "_URB_CONTROL_TRANSFER_EX"
+  ]
+}

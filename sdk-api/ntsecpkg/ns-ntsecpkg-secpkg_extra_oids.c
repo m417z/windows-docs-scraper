@@ -1,0 +1,4 @@
+typedef struct _SECPKG_EXTRA_OIDS {
+  ULONG                 OidCount;
+  SECPKG_SERIALIZED_OID Oids[1];
+} SECPKG_EXTRA_OIDS, *PSECPKG_EXTRA_OIDS;

@@ -1,0 +1,3 @@
+struct IDARG_OUT_MONITORCREATE {
+  IDDCX_MONITOR MonitorObject;
+};

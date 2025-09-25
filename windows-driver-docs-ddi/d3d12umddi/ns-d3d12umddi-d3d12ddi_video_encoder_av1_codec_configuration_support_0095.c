@@ -1,0 +1,12 @@
+typedef struct D3D12DDI_VIDEO_ENCODER_AV1_CODEC_CONFIGURATION_SUPPORT_0095 {
+  D3D12DDI_VIDEO_ENCODER_AV1_FEATURE_0095_FLAGS               SupportedFeatureFlags;
+  D3D12DDI_VIDEO_ENCODER_AV1_FEATURE_0095_FLAGS               RequiredFeatureFlags;
+  D3D12DDI_VIDEO_ENCODER_AV1_INTERPOLATION_FILTERS_0095_FLAGS SupportedInterpolationFilters;
+  D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_SUPPORT_0095_FLAGS   SupportedRestorationParams[3][3];
+  D3D12DDI_VIDEO_ENCODER_AV1_SEGMENTATION_MODE_0095_FLAGS     SupportedSegmentationModes;
+  D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095_FLAGS               SupportedTxModes[4];
+  D3D12DDI_VIDEO_ENCODER_AV1_SEGMENTATION_BLOCK_SIZE_0095     SegmentationBlockSize;
+  D3D12DDI_VIDEO_ENCODER_AV1_POST_ENCODE_VALUES_0095_FLAGS    PostEncodeValuesFlags;
+  UINT                                                        MaxTemporalLayers;
+  UINT                                                        MaxSpatialLayers;
+} D3D12DDI_VIDEO_ENCODER_AV1_CODEC_CONFIGURATION_SUPPORT_0095;

@@ -1,0 +1,5 @@
+typedef struct _DXVAHD_STREAM_STATE_PRIVATE_DATA {
+  GUID Guid;
+  UINT DataSize;
+  void *pData;
+} DXVAHD_STREAM_STATE_PRIVATE_DATA;

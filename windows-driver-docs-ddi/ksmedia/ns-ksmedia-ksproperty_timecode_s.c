@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY      Property;
+  TIMECODE_SAMPLE TimecodeSamp;
+} KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S;

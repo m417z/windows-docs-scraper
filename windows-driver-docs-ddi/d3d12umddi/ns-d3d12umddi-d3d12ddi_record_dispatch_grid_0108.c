@@ -1,0 +1,5 @@
+typedef struct D3D12DDI_RECORD_DISPATCH_GRID_0108 {
+  UINT16 ByteOffset;
+  UINT8  NumComponents;
+  BOOL   b16BitsPerComponent;
+} D3D12DDI_RECORD_DISPATCH_GRID_0108;

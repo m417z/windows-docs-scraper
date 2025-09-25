@@ -1,0 +1,20 @@
+typedef struct _IPX_SPXCONNSTATUS_DATA {
+  UCHAR  ConnectionState;
+  UCHAR  WatchDogActive;
+  USHORT LocalConnectionId;
+  USHORT RemoteConnectionId;
+  USHORT LocalSequenceNumber;
+  USHORT LocalAckNumber;
+  USHORT LocalAllocNumber;
+  USHORT RemoteAckNumber;
+  USHORT RemoteAllocNumber;
+  USHORT LocalSocket;
+  UCHAR  ImmediateAddress[6];
+  UCHAR  RemoteNetwork[4];
+  UCHAR  RemoteNode[6];
+  USHORT RemoteSocket;
+  USHORT RetransmissionCount;
+  USHORT EstimatedRoundTripDelay;
+  USHORT RetransmittedPackets;
+  USHORT SuppressedPacket;
+} IPX_SPXCONNSTATUS_DATA, *PIPX_SPXCONNSTATUS_DATA;

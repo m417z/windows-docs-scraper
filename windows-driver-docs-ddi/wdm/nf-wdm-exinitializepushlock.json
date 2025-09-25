@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wdm.ExInitializePushLock",
+  "title": "ExInitializePushLock function (wdm.h)",
+  "description": "Initializes a push lock variable.",
+  "tech.root": "kernel",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "ExInitializePushLock function"
+  ],
+  "ms.keywords": "ExInitializePushLock",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "ExInitializePushLock",
+    "wdm/ExInitializePushLock"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExInitializePushLock"
+  ]
+}

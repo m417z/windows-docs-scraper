@@ -1,0 +1,4 @@
+BOOL capSetCallbackOnVideoStream(
+     hwnd,
+     fpProc
+);

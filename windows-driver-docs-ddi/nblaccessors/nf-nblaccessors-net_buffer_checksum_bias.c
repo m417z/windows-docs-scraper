@@ -1,0 +1,1 @@
+#define NET_BUFFER_CHECKSUM_BIAS(_NB) ((_NB)->ChecksumBias)

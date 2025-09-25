@@ -1,0 +1,5 @@
+typedef struct _RSVP_FILTERSPEC_V6 {
+  IN_ADDR_IPV6 Address;
+  USHORT       UnUsed;
+  USHORT       Port;
+} RSVP_FILTERSPEC_V6, *LPRSVP_FILTERSPEC_V6;

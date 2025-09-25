@@ -1,0 +1,3 @@
+HRESULT GetFunctionVarArgsKind(
+  VarArgsKind *varArgsKind
+);

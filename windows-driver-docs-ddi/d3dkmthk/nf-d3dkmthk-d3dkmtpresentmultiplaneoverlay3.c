@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTPresentMultiPlaneOverlay3(
+  const D3DKMT_PRESENT_MULTIPLANE_OVERLAY3 *unnamedParam1
+);

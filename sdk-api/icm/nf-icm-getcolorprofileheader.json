@@ -1,0 +1,44 @@
+{
+  "UID": "NF:icm.GetColorProfileHeader",
+  "title": "GetColorProfileHeader",
+  "description": "Retrieves or derives ICC header structure from either ICC color profile or WCS XML profile. Drivers and applications should assume returning **TRUE** only indicates that a properly structured header is returned. Each tag will still need to be validated independently using either legacy ICM2 APIs or XML schema APIs.",
+  "tech.root": "wcs",
+  "ms.date": "02/01/2021",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Mscms.dll",
+  "req.header": "icm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Mscms.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional \\[desktop apps only\\]",
+  "req.target-min-winversvr": "Windows 2000 Server \\[desktop apps only\\]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": null,
+  "api_location": [
+    "mscms.dll"
+  ],
+  "api_name": [
+    "GetColorProfileHeader"
+  ],
+  "f1_keywords": [
+    "GetColorProfileHeader",
+    "icm/GetColorProfileHeader"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

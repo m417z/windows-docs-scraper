@@ -1,0 +1,3 @@
+void GetObjectContext(
+  [out] ppIOC
+);

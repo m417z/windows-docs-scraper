@@ -1,0 +1,3 @@
+HRESULT SetBuffer(
+  IPresentationBuffer *presentationBuffer
+);

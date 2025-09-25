@@ -1,0 +1,5 @@
+typedef struct _DDFLIPOVERLAYINFO {
+  LPDDSURFACEDATA lpCurrentSurface;
+  LPDDSURFACEDATA lpTargetSurface;
+  DWORD           dwFlags;
+} DDFLIPOVERLAYINFO, *PDDFLIPOVERLAYINFO;

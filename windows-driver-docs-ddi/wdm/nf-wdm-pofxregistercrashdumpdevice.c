@@ -1,0 +1,3 @@
+NTSTATUS PoFxRegisterCrashdumpDevice(
+  POHANDLE Handle
+);

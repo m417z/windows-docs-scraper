@@ -1,0 +1,3 @@
+typedef struct _DFS_INFO_101 {
+  DWORD State;
+} DFS_INFO_101, *PDFS_INFO_101, *LPDFS_INFO_101;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:mrx.RxpUnregisterMinirdr",
+  "title": "RxpUnregisterMinirdr function (mrx.h)",
+  "description": "RxpUnregisterMinirdr is called by a network mini-redirector driver to de-register the driver with RDBSS and remove the registration information from the internal RDBSS registration table.",
+  "old-location": "ifsk\\rxpunregisterminirdr.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxpUnregisterMinirdr function"
+  ],
+  "ms.keywords": "RxpUnregisterMinirdr, RxpUnregisterMinirdr function [Installable File System Drivers], ifsk.rxpunregisterminirdr, mrx/RxpUnregisterMinirdr, rxref_3d8dd57c-4753-47c7-afda-efbd54882c74.xml",
+  "req.header": "mrx.h",
+  "req.include-header": "Mrx.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxpUnregisterMinirdr",
+    "mrx/RxpUnregisterMinirdr"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "mrx.h"
+  ],
+  "api_name": [
+    "RxpUnregisterMinirdr"
+  ]
+}

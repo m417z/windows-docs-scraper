@@ -1,0 +1,20 @@
+typedef struct IPSEC_DOSP_STATISTICS0_ {
+  UINT64 totalStateEntriesCreated;
+  UINT64 currentStateEntries;
+  UINT64 totalInboundAllowedIPv6IPsecUnauthPkts;
+  UINT64 totalInboundRatelimitDiscardedIPv6IPsecUnauthPkts;
+  UINT64 totalInboundPerIPRatelimitDiscardedIPv6IPsecUnauthPkts;
+  UINT64 totalInboundOtherDiscardedIPv6IPsecUnauthPkts;
+  UINT64 totalInboundAllowedIPv6IPsecAuthPkts;
+  UINT64 totalInboundRatelimitDiscardedIPv6IPsecAuthPkts;
+  UINT64 totalInboundOtherDiscardedIPv6IPsecAuthPkts;
+  UINT64 totalInboundAllowedICMPv6Pkts;
+  UINT64 totalInboundRatelimitDiscardedICMPv6Pkts;
+  UINT64 totalInboundAllowedIPv6FilterExemptPkts;
+  UINT64 totalInboundRatelimitDiscardedIPv6FilterExemptPkts;
+  UINT64 totalInboundDiscardedIPv6FilterBlockPkts;
+  UINT64 totalInboundAllowedDefBlockExemptPkts;
+  UINT64 totalInboundRatelimitDiscardedDefBlockExemptPkts;
+  UINT64 totalInboundDiscardedDefBlockPkts;
+  UINT64 currentInboundIPv6IPsecUnauthPerIPRateLimitQueues;
+} IPSEC_DOSP_STATISTICS0;

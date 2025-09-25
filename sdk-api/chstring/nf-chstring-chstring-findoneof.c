@@ -1,0 +1,3 @@
+int FindOneOf(
+  LPCWSTR lpszCharSet
+);

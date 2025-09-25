@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mergemod.IMsmMerge.ExtractFiles",
+  "title": "IMsmMerge::ExtractFiles (mergemod.h)",
+  "description": "The ExtractFiles method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFiles method of the Merge object.",
+  "helpviewer_keywords": [
+    "ExtractFiles",
+    "ExtractFiles method",
+    "ExtractFiles method",
+    "IMsmMerge interface",
+    "IMsmMerge interface",
+    "ExtractFiles method",
+    "IMsmMerge.ExtractFiles",
+    "IMsmMerge::ExtractFiles",
+    "_msi_extractfiles_function",
+    "mergemod/IMsmMerge::ExtractFiles",
+    "setup.imsmmerge_extractfiles"
+  ],
+  "old-location": "setup\\imsmmerge_extractfiles.htm",
+  "tech.root": "setup",
+  "ms.assetid": "e5bafd2d-0750-4aa6-87e8-22ef3cfdd5ff",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ExtractFiles, ExtractFiles method, ExtractFiles method,IMsmMerge interface, IMsmMerge interface,ExtractFiles method, IMsmMerge.ExtractFiles, IMsmMerge::ExtractFiles, _msi_extractfiles_function, mergemod/IMsmMerge::ExtractFiles, setup.imsmmerge_extractfiles",
+  "req.header": "mergemod.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Mergemod.dll 1.0 or later",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Mergemod.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMsmMerge::ExtractFiles",
+    "mergemod/IMsmMerge::ExtractFiles"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mergemod.dll"
+  ],
+  "api_name": [
+    "IMsmMerge.ExtractFiles"
+  ]
+}

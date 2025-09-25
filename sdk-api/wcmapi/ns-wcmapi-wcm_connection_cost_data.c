@@ -1,0 +1,4 @@
+typedef struct _WCM_CONNECTION_COST_DATA {
+  DWORD                      ConnectionCost;
+  WCM_CONNECTION_COST_SOURCE CostSource;
+} WCM_CONNECTION_COST_DATA, *PWCM_CONNECTION_COST_DATA;

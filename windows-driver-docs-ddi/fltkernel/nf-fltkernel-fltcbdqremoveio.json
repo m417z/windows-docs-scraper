@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltCbdqRemoveIo",
+  "title": "FltCbdqRemoveIo function (fltkernel.h)",
+  "description": "FltCbdqRemoveIo removes a particular item from a minifilter driver's callback data queue.",
+  "old-location": "ifsk\\fltcbdqremoveio.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltCbdqRemoveIo function"
+  ],
+  "ms.keywords": "FltApiRef_a_to_d_3d737d8a-141a-4a15-9b78-45a215f9fd25.xml, FltCbdqRemoveIo, FltCbdqRemoveIo function [Installable File System Drivers], fltkernel/FltCbdqRemoveIo, ifsk.fltcbdqremoveio",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltCbdqRemoveIo",
+    "fltkernel/FltCbdqRemoveIo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "FltCbdqRemoveIo"
+  ]
+}

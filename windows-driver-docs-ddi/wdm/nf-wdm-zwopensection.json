@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ZwOpenSection",
+  "title": "ZwOpenSection function (wdm.h)",
+  "description": "The ZwOpenSection routine opens a handle for an existing section object.",
+  "tech.root": "kernel",
+  "ms.date": "12/14/2022",
+  "keywords": [
+    "ZwOpenSection function"
+  ],
+  "ms.keywords": "NtOpenSection, ZwOpenSection, ZwOpenSection routine [Kernel-Mode Driver Architecture], k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, kernel.zwopensection, wdm/NtOpenSection, wdm/ZwOpenSection",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwOpenSection",
+    "wdm/ZwOpenSection"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwOpenSection"
+  ]
+}

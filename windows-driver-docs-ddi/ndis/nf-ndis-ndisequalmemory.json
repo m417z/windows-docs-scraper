@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ndis.NdisEqualMemory",
+  "title": "NdisEqualMemory macro (ndis.h)",
+  "description": "The NdisEqualMemory function compares a specified number of characters in one block of memory with the same number of characters in a second block of memory.",
+  "old-location": "netvista\\ndisequalmemory.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisEqualMemory macro"
+  ],
+  "ms.keywords": "NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, netvista.ndisequalmemory",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlEqualMemory instead.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Miscellaneous_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisEqualMemory",
+    "ndis/NdisEqualMemory"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisEqualMemory"
+  ]
+}

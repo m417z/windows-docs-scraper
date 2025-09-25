@@ -1,0 +1,4 @@
+typedef struct {
+  WORD versionNumber;
+  WORD offset;
+} MENUITEMTEMPLATEHEADER, *PMENUITEMTEMPLATEHEADER;

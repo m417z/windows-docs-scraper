@@ -1,0 +1,60 @@
+{
+  "UID": "NF:clusapi.OpenClusterNodeEx",
+  "title": "OpenClusterNodeEx function (clusapi.h)",
+  "description": "Opens a node and returns a handle to it. (OpenClusterNodeEx)",
+  "helpviewer_keywords": [
+    "OpenClusterNodeEx",
+    "OpenClusterNodeEx function [Failover Cluster]",
+    "PCLUSAPI_OPEN_CLUSTER_NODE_EX",
+    "PCLUSAPI_OPEN_CLUSTER_NODE_EX function [Failover Cluster]",
+    "clusapi/OpenClusterNodeEx",
+    "clusapi/PCLUSAPI_OPEN_CLUSTER_NODE_EX",
+    "mscs.openclusternodeex"
+  ],
+  "old-location": "mscs\\openclusternodeex.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "2db24a30-0e4e-4647-8975-c9f584c3a9da",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "OpenClusterNodeEx, OpenClusterNodeEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NODE_EX, PCLUSAPI_OPEN_CLUSTER_NODE_EX function [Failover Cluster], clusapi/OpenClusterNodeEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE_EX, mscs.openclusternodeex",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OpenClusterNodeEx",
+    "clusapi/OpenClusterNodeEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "OpenClusterNodeEx"
+  ]
+}

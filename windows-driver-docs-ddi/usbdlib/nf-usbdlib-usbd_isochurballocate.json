@@ -1,0 +1,49 @@
+{
+  "UID": "NF:usbdlib.USBD_IsochUrbAllocate",
+  "title": "USBD_IsochUrbAllocate function (usbdlib.h)",
+  "description": "The USBD_IsochUrbAllocate routine allocates and formats a URB structure for an isochronous transfer request.",
+  "old-location": "buses\\usbd_isochurballocate.htm",
+  "tech.root": "usbref",
+  "ms.date": "02/08/2022",
+  "keywords": [
+    "USBD_IsochUrbAllocate function"
+  ],
+  "ms.keywords": "USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate, usbdlib/USBD_IsochUrbAllocate",
+  "req.header": "usbdlib.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbdex.lib",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBD_IsochUrbAllocate",
+    "usbdlib/USBD_IsochUrbAllocate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Usbdex.lib",
+    "Usbdex.dll"
+  ],
+  "api_name": [
+    "USBD_IsochUrbAllocate"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct _DXGKARG_RESUMECONTEXT {
+  HANDLE hContext;
+} DXGKARG_RESUMECONTEXT;

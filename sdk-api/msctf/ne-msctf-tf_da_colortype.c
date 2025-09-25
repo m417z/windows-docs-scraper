@@ -1,0 +1,5 @@
+typedef enum __MIDL___MIDL_itf_msctf_0000_0070_0002 {
+  TF_CT_NONE = 0,
+  TF_CT_SYSCOLOR = 1,
+  TF_CT_COLORREF = 2
+} TF_DA_COLORTYPE;

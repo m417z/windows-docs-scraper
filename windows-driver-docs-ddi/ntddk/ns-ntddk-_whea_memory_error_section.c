@@ -1,0 +1,22 @@
+typedef struct _WHEA_MEMORY_ERROR_SECTION {
+  WHEA_MEMORY_ERROR_SECTION_VALIDBITS ValidBits;
+  WHEA_ERROR_STATUS                   ErrorStatus;
+  ULONGLONG                           PhysicalAddress;
+  ULONGLONG                           PhysicalAddressMask;
+  USHORT                              Node;
+  USHORT                              Card;
+  USHORT                              Module;
+  USHORT                              Bank;
+  USHORT                              Device;
+  USHORT                              Row;
+  USHORT                              Column;
+  USHORT                              BitPosition;
+  ULONGLONG                           RequesterId;
+  ULONGLONG                           ResponderId;
+  ULONGLONG                           TargetId;
+  UCHAR                               ErrorType;
+  UCHAR                               Extended;
+  USHORT                              RankNumber;
+  USHORT                              CardHandle;
+  USHORT                              ModuleHandle;
+} WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION;

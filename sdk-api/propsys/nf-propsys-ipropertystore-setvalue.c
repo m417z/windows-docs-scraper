@@ -1,0 +1,4 @@
+HRESULT SetValue(
+  REFPROPERTYKEY key,
+  REFPROPVARIANT propvar
+);

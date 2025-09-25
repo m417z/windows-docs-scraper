@@ -1,0 +1,4 @@
+DWORD ICDecompressGetFormatSize(
+     hic,
+     lpbi
+);

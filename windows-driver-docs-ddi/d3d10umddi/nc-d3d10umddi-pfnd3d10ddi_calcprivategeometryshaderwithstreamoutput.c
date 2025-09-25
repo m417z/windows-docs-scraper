@@ -1,0 +1,8 @@
+PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT Pfnd3d10ddiCalcprivategeometryshaderwithstreamoutput;
+
+SIZE_T Pfnd3d10ddiCalcprivategeometryshaderwithstreamoutput(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT *unnamedParam2,
+  const D3D10DDIARG_STAGE_IO_SIGNATURES *unnamedParam3
+)
+{...}

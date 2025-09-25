@@ -1,0 +1,4 @@
+BOOL capOverlay(
+     hwnd,
+     f
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ks.KsStreamPointerLock",
+  "title": "KsStreamPointerLock function (ks.h)",
+  "description": "The KsStreamPointerLock function attempts to lock the specified stream pointer.",
+  "old-location": "stream\\ksstreampointerlock.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "KsStreamPointerLock function"
+  ],
+  "ms.keywords": "KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, ks/KsStreamPointerLock, stream.ksstreampointerlock",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ks.lib",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KsStreamPointerLock",
+    "ks/KsStreamPointerLock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ks.lib",
+    "Ks.dll"
+  ],
+  "api_name": [
+    "KsStreamPointerLock"
+  ]
+}

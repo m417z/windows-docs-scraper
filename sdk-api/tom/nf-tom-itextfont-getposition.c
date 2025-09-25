@@ -1,0 +1,3 @@
+HRESULT GetPosition(
+  float *pValue
+);

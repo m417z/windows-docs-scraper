@@ -1,0 +1,68 @@
+{
+  "UID": "NF:clusapi.SetClusterGroupName",
+  "title": "SetClusterGroupName function (clusapi.h)",
+  "description": "Sets the name for a group.",
+  "helpviewer_keywords": [
+    "PCLUSAPI_SET_CLUSTER_GROUP_NAME",
+    "PCLUSAPI_SET_CLUSTER_GROUP_NAME function [Failover Cluster]",
+    "SetClusterGroupName",
+    "SetClusterGroupName function [Failover Cluster]",
+    "_wolf_setclustergroupname",
+    "clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME",
+    "clusapi/SetClusterGroupName",
+    "mscs.setclustergroupname"
+  ],
+  "old-location": "mscs\\setclustergroupname.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "d2dc3837-24d3-4455-8e3e-bb74b95b1d44",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PCLUSAPI_SET_CLUSTER_GROUP_NAME, PCLUSAPI_SET_CLUSTER_GROUP_NAME function [Failover Cluster], SetClusterGroupName, SetClusterGroupName function [Failover Cluster], _wolf_setclustergroupname, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NAME, clusapi/SetClusterGroupName, mscs.setclustergroupname",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetClusterGroupName",
+    "clusapi/SetClusterGroupName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "SetClusterGroupName"
+  ]
+}

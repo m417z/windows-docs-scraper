@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdm._KTMOBJECT_TYPE",
+  "title": "_KTMOBJECT_TYPE (wdm.h)",
+  "description": "The KTMOBJECT_TYPE enumeration identifies the types of objects that KTM supports.",
+  "old-location": "kernel\\ktmobject_type.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KTMOBJECT_TYPE enumeration"
+  ],
+  "ms.keywords": "*PKTMOBJECT_TYPE, KTMOBJECT_ENLISTMENT, KTMOBJECT_INVALID, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PKTMOBJECT_TYPE, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _KTMOBJECT_TYPE, kernel.ktmobject_type, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, wdm/KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_INVALID, wdm/KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TRANSACTION_MANAGER, wdm/KTMOBJECT_TYPE, wdm/PKTMOBJECT_TYPE",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KTMOBJECT_TYPE, *PKTMOBJECT_TYPE",
+  "f1_keywords": [
+    "_KTMOBJECT_TYPE",
+    "wdm/_KTMOBJECT_TYPE",
+    "PKTMOBJECT_TYPE",
+    "wdm/PKTMOBJECT_TYPE",
+    "KTMOBJECT_TYPE",
+    "wdm/KTMOBJECT_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_KTMOBJECT_TYPE",
+    "PKTMOBJECT_TYPE",
+    "KTMOBJECT_TYPE"
+  ]
+}

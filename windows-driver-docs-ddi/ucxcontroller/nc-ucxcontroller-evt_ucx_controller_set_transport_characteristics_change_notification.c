@@ -1,0 +1,7 @@
+EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION EvtUcxControllerSetTransportCharacteristicsChangeNotification;
+
+VOID EvtUcxControllerSetTransportCharacteristicsChangeNotification(
+  [in] UCXCONTROLLER UcxController,
+  [in] UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS ChangeNotificationFlags
+)
+{...}

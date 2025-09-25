@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winddi.EngLoadModule",
+  "title": "EngLoadModule function (winddi.h)",
+  "description": "The EngLoadModule function loads the specified data module into system memory for reading.",
+  "helpviewer_keywords": [
+    "EngLoadModule",
+    "EngLoadModule function [Display Devices]",
+    "display.engloadmodule",
+    "gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml",
+    "winddi/EngLoadModule"
+  ],
+  "old-location": "display\\engloadmodule.htm",
+  "tech.root": "display",
+  "ms.assetid": "0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngLoadModule, EngLoadModule function [Display Devices], display.engloadmodule, gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml, winddi/EngLoadModule",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngLoadModule",
+    "winddi/EngLoadModule"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll",
+    "GDI32.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "EngLoadModule"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT {
+  [in] HANDLE hPhysicalMemoryObject;
+  [in] HANDLE hAdapterMemoryObject;
+} DXGKARGCB_DESTROY_PHYSICAL_MEMORY_OBJECT;

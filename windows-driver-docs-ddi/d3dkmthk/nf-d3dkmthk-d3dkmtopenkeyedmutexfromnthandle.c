@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenKeyedMutexFromNtHandle(
+  D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE *unnamedParam1
+);

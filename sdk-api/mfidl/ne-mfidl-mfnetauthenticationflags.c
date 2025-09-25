@@ -1,0 +1,5 @@
+typedef enum _MFNetAuthenticationFlags {
+  MFNET_AUTHENTICATION_PROXY = 0x1,
+  MFNET_AUTHENTICATION_CLEAR_TEXT = 0x2,
+  MFNET_AUTHENTICATION_LOGGED_ON_USER = 0x4
+} MFNetAuthenticationFlags;

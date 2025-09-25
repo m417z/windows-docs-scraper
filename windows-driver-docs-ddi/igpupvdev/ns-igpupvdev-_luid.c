@@ -1,0 +1,4 @@
+typedef struct _LUID {
+  DWORD LowPart;
+  LONG  HighPart;
+} LUID, *PLUID;

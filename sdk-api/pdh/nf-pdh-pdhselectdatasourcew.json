@@ -1,0 +1,65 @@
+{
+  "UID": "NF:pdh.PdhSelectDataSourceW",
+  "title": "PdhSelectDataSourceW function (pdh.h)",
+  "description": "Displays a dialog window that prompts the user to specify the source of the performance data. (Unicode)",
+  "helpviewer_keywords": [
+    "0",
+    "PDH_FLAGS_FILE_BROWSER_ONLY",
+    "PdhSelectDataSource",
+    "PdhSelectDataSource function [Perf]",
+    "PdhSelectDataSourceW",
+    "_win32_pdhselectdatasource",
+    "base.pdhselectdatasource",
+    "pdh/PdhSelectDataSource",
+    "pdh/PdhSelectDataSourceW",
+    "perf.pdhselectdatasource"
+  ],
+  "old-location": "perf\\pdhselectdatasource.htm",
+  "tech.root": "perf",
+  "ms.assetid": "211d4504-e1f9-48a0-8ddd-613f2f183c59",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "0, PDH_FLAGS_FILE_BROWSER_ONLY, PdhSelectDataSource, PdhSelectDataSource function [Perf], PdhSelectDataSourceA, PdhSelectDataSourceW, _win32_pdhselectdatasource, base.pdhselectdatasource, pdh/PdhSelectDataSource, pdh/PdhSelectDataSourceA, pdh/PdhSelectDataSourceW, perf.pdhselectdatasource",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhSelectDataSourceW (Unicode) and PdhSelectDataSourceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhSelectDataSourceW",
+    "pdh/PdhSelectDataSourceW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhSelectDataSource",
+    "PdhSelectDataSourceA",
+    "PdhSelectDataSourceW"
+  ]
+}

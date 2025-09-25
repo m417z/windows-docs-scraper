@@ -1,0 +1,9 @@
+# KSEVENT_CLOCK_POSITION enumeration
+
+## Description
+
+## Constants
+
+### `KSEVENT_CLOCK_INTERVAL_MARK`
+
+### `KSEVENT_CLOCK_POSITION_MARK`

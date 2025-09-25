@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdfverifier.WdfGetTriageInfo",
+  "title": "WdfGetTriageInfo function (wdfverifier.h)",
+  "description": "The WdfGetTriageInfo method is reserved for internal use only.",
+  "old-location": "wdf\\wdfgettriageinfo.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfGetTriageInfo function"
+  ],
+  "ms.keywords": "WdfGetTriageInfo, WdfGetTriageInfo function, kmdf.wdfgettriageinfo, wdf.wdfgettriageinfo, wdfverifier/WdfGetTriageInfo",
+  "req.header": "wdfverifier.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfGetTriageInfo",
+    "wdfverifier/WdfGetTriageInfo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdfverifier.h"
+  ],
+  "api_name": [
+    "WdfGetTriageInfo"
+  ]
+}

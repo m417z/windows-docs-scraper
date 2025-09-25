@@ -1,0 +1,4 @@
+BOOL capSetCallbackOnFrame(
+     hwnd,
+     fpProc
+);

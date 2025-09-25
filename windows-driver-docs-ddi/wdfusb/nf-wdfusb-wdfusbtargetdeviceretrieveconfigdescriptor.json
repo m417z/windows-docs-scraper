@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfusb.WdfUsbTargetDeviceRetrieveConfigDescriptor",
+  "title": "WdfUsbTargetDeviceRetrieveConfigDescriptor function (wdfusb.h)",
+  "description": "The WdfUsbTargetDeviceRetrieveConfigDescriptor method retrieves the USB configuration descriptor for the USB device that is associated with a specified framework USB device object.",
+  "old-location": "wdf\\wdfusbtargetdeviceretrieveconfigdescriptor.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfUsbTargetDeviceRetrieveConfigDescriptor function"
+  ],
+  "ms.keywords": "DFUsbRef_6c3748fe-16c0-4151-8cbd-42c5882475eb.xml, WdfUsbTargetDeviceRetrieveConfigDescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor method, kmdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor",
+  "req.header": "wdfusb.h",
+  "req.include-header": "Wdfusb.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2, UsbKmdfIrql, UsbKmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfUsbTargetDeviceRetrieveConfigDescriptor",
+    "wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfUsbTargetDeviceRetrieveConfigDescriptor"
+  ]
+}

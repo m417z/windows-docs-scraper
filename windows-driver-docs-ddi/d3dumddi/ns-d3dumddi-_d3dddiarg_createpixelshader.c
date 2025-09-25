@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_CREATEPIXELSHADER {
+  [in]  UINT   CodeSize;
+  [out] HANDLE ShaderHandle;
+} D3DDDIARG_CREATEPIXELSHADER;

@@ -1,0 +1,60 @@
+{
+  "UID": "NS:amvideo.tagVIDEOINFO",
+  "title": "VIDEOINFO (amvideo.h)",
+  "description": "The VIDEOINFO structure is equivalent to a VIDEOINFOHEADER structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.If you are writing a video filter, you can use this structure to guarantee that the format block always has enough memory to contain the largest possible VIDEOINFOHEADER structure.",
+  "helpviewer_keywords": [
+    "VIDEOINFO",
+    "VIDEOINFO structure [DirectShow]",
+    "VIDEOINFOStructure",
+    "amvideo/VIDEOINFO",
+    "dshow.videoinfo"
+  ],
+  "old-location": "dshow\\videoinfo.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "f08a449c-fed4-400b-a2fc-817bd59ba3fd",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "VIDEOINFO, VIDEOINFO structure [DirectShow], VIDEOINFOStructure, amvideo/VIDEOINFO, dshow.videoinfo",
+  "req.header": "amvideo.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VIDEOINFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagVIDEOINFO",
+    "amvideo/tagVIDEOINFO",
+    "VIDEOINFO",
+    "amvideo/VIDEOINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "amvideo.h"
+  ],
+  "api_name": [
+    "VIDEOINFO"
+  ]
+}

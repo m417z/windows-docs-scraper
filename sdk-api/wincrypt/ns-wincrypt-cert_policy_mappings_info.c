@@ -1,0 +1,4 @@
+typedef struct _CERT_POLICY_MAPPINGS_INFO {
+  DWORD                cPolicyMapping;
+  PCERT_POLICY_MAPPING rgPolicyMapping;
+} CERT_POLICY_MAPPINGS_INFO, *PCERT_POLICY_MAPPINGS_INFO;

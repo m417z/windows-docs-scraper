@@ -1,0 +1,3 @@
+void ReleaseGlyphImageData(
+  void *glyphDataContext
+);

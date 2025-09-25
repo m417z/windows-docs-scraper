@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wificx.WifiAdapterAddPeer",
+  "tech.root": "netvista",
+  "title": "WifiAdapterAddPeer (wificx.h)",
+  "ms.date": "09/07/2021",
+  "targetos": "Windows",
+  "description": "Client drivers call WifiAdapterAddPeer to tell the WiFiCx framework that a peer has connected with the given address.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wificx.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wificx.h"
+  ],
+  "api_name": [
+    "WifiAdapterAddPeer"
+  ],
+  "f1_keywords": [
+    "WifiAdapterAddPeer",
+    "wificx/WifiAdapterAddPeer"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

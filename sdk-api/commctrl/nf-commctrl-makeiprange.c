@@ -1,0 +1,4 @@
+LPARAM MAKEIPRANGE(
+   BYTE low,
+   BYTE high
+);

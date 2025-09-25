@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_PREPARE_HARDWARE",
+  "title": "EVT_WDF_DEVICE_PREPARE_HARDWARE (wdfdevice.h)",
+  "description": "A driver's EvtDevicePrepareHardware event callback function performs any operations that are needed to make a device accessible to the driver.",
+  "old-location": "wdf\\evtdevicepreparehardware.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_PREPARE_HARDWARE callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_a447de77-9692-4a48-83c2-3ced294863e4.xml, EVT_WDF_DEVICE_PREPARE_HARDWARE, EVT_WDF_DEVICE_PREPARE_HARDWARE callback, EvtDevicePrepareHardware, EvtDevicePrepareHardware callback function, kmdf.evtdevicepreparehardware, wdf.evtdevicepreparehardware, wdfdevice/EvtDevicePrepareHardware",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_PREPARE_HARDWARE",
+    "wdfdevice/EVT_WDF_DEVICE_PREPARE_HARDWARE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_PREPARE_HARDWARE"
+  ]
+}

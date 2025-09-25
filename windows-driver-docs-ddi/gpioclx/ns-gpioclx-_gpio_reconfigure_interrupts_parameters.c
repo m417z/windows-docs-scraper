@@ -1,0 +1,7 @@
+typedef struct _GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS {
+  BANK_ID                          BankId;
+  PIN_NUMBER                       PinNumber;
+  KINTERRUPT_MODE                  InterruptMode;
+  KINTERRUPT_POLARITY              Polarity;
+  GPIO_RECONFIGURE_INTERRUPT_FLAGS Flags;
+} GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS;

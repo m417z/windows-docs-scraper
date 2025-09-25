@@ -1,0 +1,65 @@
+{
+  "UID": "NF:mswmdm.IWMDMDevice3.GetFormatCapability",
+  "title": "IWMDMDevice3::GetFormatCapability (mswmdm.h)",
+  "description": "The GetFormatCapability method retrieves device support for files of a specified format. The capabilities are expressed as supported properties and their allowed values.",
+  "helpviewer_keywords": [
+    "GetFormatCapability",
+    "GetFormatCapability method [windows Media Device Manager]",
+    "GetFormatCapability method [windows Media Device Manager]",
+    "IWMDMDevice3 interface",
+    "IWMDMDevice3 interface [windows Media Device Manager]",
+    "GetFormatCapability method",
+    "IWMDMDevice3.GetFormatCapability",
+    "IWMDMDevice3::GetFormatCapability",
+    "IWMDMDevice3GetFormatCapability",
+    "mswmdm/IWMDMDevice3::GetFormatCapability",
+    "wmdm.iwmdmdevice3_getformatcapability"
+  ],
+  "old-location": "wmdm\\iwmdmdevice3_getformatcapability.htm",
+  "tech.root": "WMDM",
+  "ms.assetid": "728df998-748b-4c53-b5a6-3a6ccae0d7e4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetFormatCapability, GetFormatCapability method [windows Media Device Manager], GetFormatCapability method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],GetFormatCapability method, IWMDMDevice3.GetFormatCapability, IWMDMDevice3::GetFormatCapability, IWMDMDevice3GetFormatCapability, mswmdm/IWMDMDevice3::GetFormatCapability, wmdm.iwmdmdevice3_getformatcapability",
+  "req.header": "mswmdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mssachlp.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDMDevice3::GetFormatCapability",
+    "mswmdm/IWMDMDevice3::GetFormatCapability"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mssachlp.lib",
+    "mssachlp.dll"
+  ],
+  "api_name": [
+    "IWMDMDevice3.GetFormatCapability"
+  ]
+}

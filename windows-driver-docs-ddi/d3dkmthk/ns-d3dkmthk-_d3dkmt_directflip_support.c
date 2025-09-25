@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_DIRECTFLIP_SUPPORT {
+  BOOL Supported;
+} D3DKMT_DIRECTFLIP_SUPPORT;

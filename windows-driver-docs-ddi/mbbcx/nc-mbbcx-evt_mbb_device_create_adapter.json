@@ -1,0 +1,45 @@
+{
+  "UID": "NC:mbbcx.EVT_MBB_DEVICE_CREATE_ADAPTER",
+  "title": "EVT_MBB_DEVICE_CREATE_ADAPTER (mbbcx.h)",
+  "description": "The EvtMbbDeviceCreateAdapter callback function is implemented by the client driver to create a NETADAPTER object for a data session.",
+  "tech.root": "netvista",
+  "ms.date": "02/06/2019",
+  "keywords": [
+    "EVT_MBB_DEVICE_CREATE_ADAPTER callback function"
+  ],
+  "req.header": "mbbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.29,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EVT_MBB_DEVICE_CREATE_ADAPTER",
+    "mbbcx/EVT_MBB_DEVICE_CREATE_ADAPTER"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "mbbcx.h"
+  ],
+  "api_name": [
+    "EVT_MBB_DEVICE_CREATE_ADAPTER"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2ISSUEQUERY {
+  DWORD dwQueryID;
+  DWORD dwFlags;
+} D3DHAL_DP2ISSUEQUERY;

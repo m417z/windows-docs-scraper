@@ -1,0 +1,6 @@
+typedef enum tagVARKIND {
+  VAR_PERINSTANCE = 0,
+  VAR_STATIC,
+  VAR_CONST,
+  VAR_DISPATCH
+} VARKIND;

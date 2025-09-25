@@ -1,0 +1,58 @@
+{
+  "UID": "NF:lmat.NetScheduleJobDel",
+  "title": "NetScheduleJobDel function (lmat.h)",
+  "description": "The NetScheduleJobDel function deletes a range of jobs queued to run at a computer. This function requires that the schedule service be started at the computer to which the job deletion request is being sent.",
+  "helpviewer_keywords": [
+    "NetScheduleJobDel",
+    "NetScheduleJobDel function [Network Management]",
+    "_win32_netschedulejobdel",
+    "lmat/NetScheduleJobDel",
+    "netmgmt.netschedulejobdel"
+  ],
+  "old-location": "netmgmt\\netschedulejobdel.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "5ae668ab-f51d-457e-a239-2ec16a0e5a55",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel",
+  "req.header": "lmat.h",
+  "req.include-header": "Lmat.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NetScheduleJobDel",
+    "lmat/NetScheduleJobDel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "NetScheduleJobDel"
+  ]
+}

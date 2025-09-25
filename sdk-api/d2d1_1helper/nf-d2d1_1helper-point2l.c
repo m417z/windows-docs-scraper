@@ -1,0 +1,4 @@
+D2D1_POINT_2L Point2L(
+  INT32 x,
+  INT32 y
+);

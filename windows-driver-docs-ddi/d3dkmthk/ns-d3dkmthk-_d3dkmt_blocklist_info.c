@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_BLOCKLIST_INFO {
+  UINT  Size;
+  WCHAR BlockList[1];
+} D3DKMT_BLOCKLIST_INFO;

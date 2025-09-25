@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetFSEBlock(
+  const D3DKMT_SETFSEBLOCK *unnamedParam1
+);

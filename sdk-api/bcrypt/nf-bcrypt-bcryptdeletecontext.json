@@ -1,0 +1,59 @@
+{
+  "UID": "NF:bcrypt.BCryptDeleteContext",
+  "title": "BCryptDeleteContext function (bcrypt.h)",
+  "description": "Deletes an existing CNG configuration context.",
+  "helpviewer_keywords": [
+    "BCryptDeleteContext",
+    "BCryptDeleteContext function [Security]",
+    "CRYPT_DOMAIN",
+    "CRYPT_LOCAL",
+    "bcrypt/BCryptDeleteContext",
+    "security.bcryptdeletecontext"
+  ],
+  "old-location": "security\\bcryptdeletecontext.htm",
+  "tech.root": "security",
+  "ms.assetid": "6a250bed-0ea4-4cae-86e6-f0cea95dc56e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptDeleteContext, BCryptDeleteContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptDeleteContext, security.bcryptdeletecontext",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptDeleteContext",
+    "bcrypt/BCryptDeleteContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptDeleteContext"
+  ]
+}

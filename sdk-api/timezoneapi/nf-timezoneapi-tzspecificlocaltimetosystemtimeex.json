@@ -1,0 +1,61 @@
+{
+  "UID": "NF:timezoneapi.TzSpecificLocalTimeToSystemTimeEx",
+  "title": "TzSpecificLocalTimeToSystemTimeEx function (timezoneapi.h)",
+  "description": "Converts a local time to a time with dynamic daylight saving time settings to Coordinated Universal Time (UTC).",
+  "helpviewer_keywords": [
+    "TzSpecificLocalTimeToSystemTimeEx",
+    "TzSpecificLocalTimeToSystemTimeEx function",
+    "base.tzspecificlocaltimetosystemtimeex",
+    "timezoneapi/TzSpecificLocalTimeToSystemTimeEx"
+  ],
+  "old-location": "base\\tzspecificlocaltimetosystemtimeex.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "C202F91E-FFFF-412D-A968-3B7AE60A5846",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TzSpecificLocalTimeToSystemTimeEx, TzSpecificLocalTimeToSystemTimeEx function, base.tzspecificlocaltimetosystemtimeex, timezoneapi/TzSpecificLocalTimeToSystemTimeEx",
+  "req.header": "timezoneapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TzSpecificLocalTimeToSystemTimeEx",
+    "timezoneapi/TzSpecificLocalTimeToSystemTimeEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-timezone-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-TimeZone-l1-1-0.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "TzSpecificLocalTimeToSystemTimeEx"
+  ]
+}

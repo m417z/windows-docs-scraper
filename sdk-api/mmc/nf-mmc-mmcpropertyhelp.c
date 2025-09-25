@@ -1,0 +1,3 @@
+HRESULT MMCPropertyHelp(
+  LPOLESTR pszHelpTopic
+);

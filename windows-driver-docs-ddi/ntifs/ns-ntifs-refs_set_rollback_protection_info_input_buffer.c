@@ -1,0 +1,7 @@
+typedef struct _REFS_SET_ROLLBACK_PROTECTION_INFO_INPUT_BUFFER {
+  ULONG   Version;
+  BOOLEAN FailMountOnMismatch;
+  ULONG   CustomPayloadLength;
+  ULONG   CustomPayloadOffset;
+  BOOLEAN EnableRollbackProtection;
+} REFS_SET_ROLLBACK_PROTECTION_INFO_INPUT_BUFFER, *PREFS_SET_ROLLBACK_PROTECTION_INFO_INPUT_BUFFER;

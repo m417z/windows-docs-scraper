@@ -1,0 +1,65 @@
+{
+  "UID": "NF:control.IMediaPosition.put_StopTime",
+  "title": "IMediaPosition::put_StopTime (control.h)",
+  "description": "The put_StopTime method sets the time at which the playback will stop, relative to the duration of the stream.",
+  "helpviewer_keywords": [
+    "IMediaPosition interface [DirectShow]",
+    "put_StopTime method",
+    "IMediaPosition.put_StopTime",
+    "IMediaPosition::put_StopTime",
+    "IMediaPositionput_StopTime",
+    "control/IMediaPosition::put_StopTime",
+    "dshow.imediaposition_put_stoptime",
+    "put_StopTime",
+    "put_StopTime method [DirectShow]",
+    "put_StopTime method [DirectShow]",
+    "IMediaPosition interface"
+  ],
+  "old-location": "dshow\\imediaposition_put_stoptime.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "c068310e-4083-46ac-8ec6-3d57976f4a88",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaPosition interface [DirectShow],put_StopTime method, IMediaPosition.put_StopTime, IMediaPosition::put_StopTime, IMediaPositionput_StopTime, control/IMediaPosition::put_StopTime, dshow.imediaposition_put_stoptime, put_StopTime, put_StopTime method [DirectShow], put_StopTime method [DirectShow],IMediaPosition interface",
+  "req.header": "control.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaPosition::put_StopTime",
+    "control/IMediaPosition::put_StopTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaPosition.put_StopTime"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:faxroute.FaxRouteDeviceChangeNotification",
+  "title": "FaxRouteDeviceChangeNotification function (faxroute.h)",
+  "description": "The fax service calls the FaxRouteDeviceChangeNotification function to inform a fax routing extension DLL that a fax device has been removed from the fax server, or that a new fax device has been installed.",
+  "helpviewer_keywords": [
+    "FaxRouteDeviceChangeNotification",
+    "FaxRouteDeviceChangeNotification function [Fax Service]",
+    "_mfax_faxroutedevicechangenotification",
+    "fax._mfax_faxroutedevicechangenotification",
+    "faxroute/FaxRouteDeviceChangeNotification"
+  ],
+  "old-location": "fax\\_mfax_faxroutedevicechangenotification.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxrouteextapiref_7gry.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxRouteDeviceChangeNotification, FaxRouteDeviceChangeNotification function [Fax Service], _mfax_faxroutedevicechangenotification, fax._mfax_faxroutedevicechangenotification, faxroute/FaxRouteDeviceChangeNotification",
+  "req.header": "faxroute.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FaxRouteDeviceChangeNotification",
+    "faxroute/FaxRouteDeviceChangeNotification"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "FaxRoute.h"
+  ],
+  "api_name": [
+    "FaxRouteDeviceChangeNotification"
+  ]
+}

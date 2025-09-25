@@ -1,0 +1,59 @@
+{
+  "UID": "NC:winbio_adapter.PIBIO_STORAGE_GET_CURRENT_RECORD_FN",
+  "title": "PIBIO_STORAGE_GET_CURRENT_RECORD_FN (winbio_adapter.h)",
+  "description": "Retrieves the contents of the current record in the pipeline result set.",
+  "helpviewer_keywords": [
+    "PIBIO_STORAGE_GET_CURRENT_RECORD_FN",
+    "PIBIO_STORAGE_GET_CURRENT_RECORD_FN callback",
+    "StorageAdapterGetCurrentRecord",
+    "StorageAdapterGetCurrentRecord callback function [Windows Biometric Framework API]",
+    "secbiomet.storageadaptergetcurrentrecord",
+    "winbio_adapter/StorageAdapterGetCurrentRecord"
+  ],
+  "old-location": "secbiomet\\storageadaptergetcurrentrecord.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "a06550da-c6ea-44e5-b54f-8005bcbc0364",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PIBIO_STORAGE_GET_CURRENT_RECORD_FN, PIBIO_STORAGE_GET_CURRENT_RECORD_FN callback, StorageAdapterGetCurrentRecord, StorageAdapterGetCurrentRecord callback function [Windows Biometric Framework API], secbiomet.storageadaptergetcurrentrecord, winbio_adapter/StorageAdapterGetCurrentRecord",
+  "req.header": "winbio_adapter.h",
+  "req.include-header": "Winbio_adapter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PIBIO_STORAGE_GET_CURRENT_RECORD_FN",
+    "winbio_adapter/PIBIO_STORAGE_GET_CURRENT_RECORD_FN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winbio_adapter.h"
+  ],
+  "api_name": [
+    "StorageAdapterGetCurrentRecord"
+  ]
+}

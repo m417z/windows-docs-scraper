@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMediaSeeking.GetPositions",
+  "title": "IMediaSeeking::GetPositions (strmif.h)",
+  "description": "The GetPositions method retrieves the current position and the stop position, relative to the total duration of the stream.",
+  "helpviewer_keywords": [
+    "GetPositions",
+    "GetPositions method [DirectShow]",
+    "GetPositions method [DirectShow]",
+    "IMediaSeeking interface",
+    "IMediaSeeking interface [DirectShow]",
+    "GetPositions method",
+    "IMediaSeeking.GetPositions",
+    "IMediaSeeking::GetPositions",
+    "IMediaSeekingGetPositions",
+    "dshow.imediaseeking_getpositions",
+    "strmif/IMediaSeeking::GetPositions"
+  ],
+  "old-location": "dshow\\imediaseeking_getpositions.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "1b267c02-ec2d-4251-aac7-f2f711b16062",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetPositions, GetPositions method [DirectShow], GetPositions method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPositions method, IMediaSeeking.GetPositions, IMediaSeeking::GetPositions, IMediaSeekingGetPositions, dshow.imediaseeking_getpositions, strmif/IMediaSeeking::GetPositions",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaSeeking::GetPositions",
+    "strmif/IMediaSeeking::GetPositions"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaSeeking.GetPositions"
+  ]
+}

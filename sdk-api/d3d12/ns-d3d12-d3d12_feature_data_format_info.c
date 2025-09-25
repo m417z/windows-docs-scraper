@@ -1,0 +1,4 @@
+typedef struct D3D12_FEATURE_DATA_FORMAT_INFO {
+  DXGI_FORMAT Format;
+  UINT8       PlaneCount;
+} D3D12_FEATURE_DATA_FORMAT_INFO;

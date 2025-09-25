@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ws2spi.WSCGetProviderPath32",
+  "title": "WSCGetProviderPath32 function (ws2spi.h)",
+  "description": "Retrieves the DLL path for the specified 32-bit provider.Note  This call is a strictly 32-bit version of WSCGetProviderPath for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .",
+  "helpviewer_keywords": [
+    "WSCGetProviderPath32",
+    "WSCGetProviderPath32 function [Winsock]",
+    "winsock.wscgetproviderpath32",
+    "ws2spi/WSCGetProviderPath32"
+  ],
+  "old-location": "winsock\\wscgetproviderpath32.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "fd4ef7da-344d-4825-93b2-f0cd5622aeac",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSCGetProviderPath32, WSCGetProviderPath32 function [Winsock], winsock.wscgetproviderpath32, ws2spi/WSCGetProviderPath32",
+  "req.header": "ws2spi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSCGetProviderPath32",
+    "ws2spi/WSCGetProviderPath32"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSCGetProviderPath32"
+  ]
+}

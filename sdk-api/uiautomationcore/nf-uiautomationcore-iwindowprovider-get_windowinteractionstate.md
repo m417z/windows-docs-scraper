@@ -1,0 +1,15 @@
+# IWindowProvider::get_WindowInteractionState
+
+## Description
+
+Specifies the current state of the window for the purposes of user interaction.
+
+This property is read-only.
+
+## Parameters
+
+## See also
+
+[IWindowProvider](https://learn.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iwindowprovider)
+
+[UI Automation Providers Overview](https://learn.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview)

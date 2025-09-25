@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winuser.DlgDirListComboBoxA",
+  "title": "DlgDirListComboBoxA function (winuser.h)",
+  "description": "Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters. (ANSI)",
+  "helpviewer_keywords": [
+    "DDL_ARCHIVE",
+    "DDL_DIRECTORY",
+    "DDL_DRIVES",
+    "DDL_EXCLUSIVE",
+    "DDL_HIDDEN",
+    "DDL_POSTMSGS",
+    "DDL_READONLY",
+    "DDL_READWRITE",
+    "DDL_SYSTEM",
+    "DlgDirListComboBoxA",
+    "winuser/DlgDirListComboBoxA"
+  ],
+  "old-location": "controls\\DlgDirListComboBox.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\comboboxes\\comboboxreference\\comboboxfunctions\\dlgdirlistcombobox.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirListComboBox, DlgDirListComboBox function [Windows Controls], DlgDirListComboBoxA, DlgDirListComboBoxW, _win32_DlgDirListComboBox, _win32_DlgDirListComboBox_cpp, controls.DlgDirListComboBox, controls._win32_DlgDirListComboBox, winuser/DlgDirListComboBox, winuser/DlgDirListComboBoxA, winuser/DlgDirListComboBoxW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DlgDirListComboBoxW (Unicode) and DlgDirListComboBoxA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DlgDirListComboBoxA",
+    "winuser/DlgDirListComboBoxA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-dialogbox-l1-1-2.dll",
+    "ext-ms-win-ntuser-dialogbox-l1-1-1.dll",
+    "ext-ms-win-ntuser-dialogbox-l1-1-0.dll",
+    "User32.dll"
+  ],
+  "api_name": [
+    "DlgDirListComboBox",
+    "DlgDirListComboBoxA",
+    "DlgDirListComboBoxW"
+  ]
+}

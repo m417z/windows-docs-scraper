@@ -1,0 +1,3 @@
+typedef struct _D3DKMT_CHECKOCCLUSION {
+  [in] HWND hWindow;
+} D3DKMT_CHECKOCCLUSION;

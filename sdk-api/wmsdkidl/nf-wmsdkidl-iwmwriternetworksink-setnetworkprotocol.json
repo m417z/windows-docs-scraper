@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterNetworkSink.SetNetworkProtocol",
+  "title": "IWMWriterNetworkSink::SetNetworkProtocol (wmsdkidl.h)",
+  "description": "The SetNetworkProtocol method sets the network protocol that the network sink uses. Currently, HTTP is the only protocol supported by the network sink.",
+  "helpviewer_keywords": [
+    "IWMWriterNetworkSink interface [windows Media Format]",
+    "SetNetworkProtocol method",
+    "IWMWriterNetworkSink.SetNetworkProtocol",
+    "IWMWriterNetworkSink::SetNetworkProtocol",
+    "IWMWriterNetworkSinkSetNetworkProtocol",
+    "SetNetworkProtocol",
+    "SetNetworkProtocol method [windows Media Format]",
+    "SetNetworkProtocol method [windows Media Format]",
+    "IWMWriterNetworkSink interface",
+    "wmformat.iwmwriternetworksink_setnetworkprotocol",
+    "wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol"
+  ],
+  "old-location": "wmformat\\iwmwriternetworksink_setnetworkprotocol.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMWriterNetworkSink interface [windows Media Format],SetNetworkProtocol method, IWMWriterNetworkSink.SetNetworkProtocol, IWMWriterNetworkSink::SetNetworkProtocol, IWMWriterNetworkSinkSetNetworkProtocol, SetNetworkProtocol, SetNetworkProtocol method [windows Media Format], SetNetworkProtocol method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setnetworkprotocol, wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterNetworkSink::SetNetworkProtocol",
+    "wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterNetworkSink.SetNetworkProtocol"
+  ]
+}

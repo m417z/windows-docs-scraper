@@ -1,0 +1,52 @@
+{
+  "UID": "NS:wdm._DMA_ADAPTER_INFO",
+  "tech.root": "kernel",
+  "title": "DMA_ADAPTER_INFO (wdm.h)",
+  "ms.date": "03/02/2022",
+  "targetos": "Windows",
+  "description": "The DMA_ADAPTER_INFO structure is a container for a DMA_ADAPTER_INFO_XXX structure that describes the capabilities of a system DMA controller.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "DMA_ADAPTER_INFO, *PDMA_ADAPTER_INFO",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DMA_ADAPTER_INFO",
+    "PDMA_ADAPTER_INFO",
+    "DMA_ADAPTER_INFO"
+  ],
+  "f1_keywords": [
+    "_DMA_ADAPTER_INFO",
+    "wdm/_DMA_ADAPTER_INFO",
+    "PDMA_ADAPTER_INFO",
+    "wdm/PDMA_ADAPTER_INFO",
+    "DMA_ADAPTER_INFO",
+    "wdm/DMA_ADAPTER_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_DMA_ADAPTER_INFO"
+  ]
+}

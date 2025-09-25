@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pepfx._PEP_PPM_QUERY_VETO_REASONS",
+  "title": "_PEP_PPM_QUERY_VETO_REASONS (pepfx.h)",
+  "description": "The PEP_PPM_QUERY_VETO_REASONS structure specifies the total number of veto reasons that the PEP uses in calls to the ProcessorIdleVeto and PlatformIdleVeto routines.",
+  "old-location": "kernel\\pep_ppm_query_veto_reasons.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PEP_PPM_QUERY_VETO_REASONS structure"
+  ],
+  "ms.keywords": "*PPEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_VETO_REASONS, PPEP_PPM_QUERY_VETO_REASONS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASONS, kernel.pep_ppm_query_veto_reasons, pepfx/PEP_PPM_QUERY_VETO_REASONS, pepfx/PPEP_PPM_QUERY_VETO_REASONS",
+  "req.header": "pepfx.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_PPM_QUERY_VETO_REASONS, *PPEP_PPM_QUERY_VETO_REASONS",
+  "f1_keywords": [
+    "_PEP_PPM_QUERY_VETO_REASONS",
+    "pepfx/_PEP_PPM_QUERY_VETO_REASONS",
+    "PPEP_PPM_QUERY_VETO_REASONS",
+    "pepfx/PPEP_PPM_QUERY_VETO_REASONS",
+    "PEP_PPM_QUERY_VETO_REASONS",
+    "pepfx/PEP_PPM_QUERY_VETO_REASONS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_PPM_QUERY_VETO_REASONS",
+    "PPEP_PPM_QUERY_VETO_REASONS",
+    "PEP_PPM_QUERY_VETO_REASONS"
+  ]
+}

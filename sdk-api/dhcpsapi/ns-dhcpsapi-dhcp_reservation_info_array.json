@@ -1,0 +1,65 @@
+{
+  "UID": "NS:dhcpsapi._DHCP_RESERVATION_INFO_ARRAY",
+  "title": "DHCP_RESERVATION_INFO_ARRAY (dhcpsapi.h)",
+  "description": "The DHCP_RESERVATION_INFO_ARRAY structure defines an array of IPv4 reservations for DHCPv4 clients.",
+  "helpviewer_keywords": [
+    "*LPDHCP_RESERVATION_INFO_ARRAY",
+    "DHCP_RESERVATION_INFO_ARRAY",
+    "DHCP_RESERVATION_INFO_ARRAY structure [DHCP]",
+    "LPDHCP_RESERVATION_INFO_ARRAY",
+    "LPDHCP_RESERVATION_INFO_ARRAY structure pointer [DHCP]",
+    "dhcp.dhcp_reservation_info_array",
+    "dhcpsapi/DHCP_RESERVATION_INFO_ARRAY",
+    "dhcpsapi/LPDHCP_RESERVATION_INFO_ARRAY"
+  ],
+  "old-location": "dhcp\\dhcp_reservation_info_array.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "9823ee47-6b61-4256-8fac-d301d72774ec",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPDHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY structure [DHCP], LPDHCP_RESERVATION_INFO_ARRAY, LPDHCP_RESERVATION_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_reservation_info_array, dhcpsapi/DHCP_RESERVATION_INFO_ARRAY, dhcpsapi/LPDHCP_RESERVATION_INFO_ARRAY",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DHCP_RESERVATION_INFO_ARRAY, *LPDHCP_RESERVATION_INFO_ARRAY",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DHCP_RESERVATION_INFO_ARRAY",
+    "dhcpsapi/_DHCP_RESERVATION_INFO_ARRAY",
+    "LPDHCP_RESERVATION_INFO_ARRAY",
+    "dhcpsapi/LPDHCP_RESERVATION_INFO_ARRAY",
+    "DHCP_RESERVATION_INFO_ARRAY",
+    "dhcpsapi/DHCP_RESERVATION_INFO_ARRAY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dhcpsapi.h"
+  ],
+  "api_name": [
+    "DHCP_RESERVATION_INFO_ARRAY"
+  ]
+}

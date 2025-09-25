@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PSET_DMA_ENGINE_STATE",
+  "title": "PSET_DMA_ENGINE_STATE (hdaudio.h)",
+  "description": "The SetDmaEngineState routine sets the state of one or more DMA engines to the Running, Stopped, Paused, or Reset state.The function pointer type for a SetDmaEngineState routine is defined as follows.",
+  "old-location": "audio\\setdmaenginestate.htm",
+  "tech.root": "audio",
+  "ms.date": "07/25/2023",
+  "keywords": [
+    "PSET_DMA_ENGINE_STATE callback function"
+  ],
+  "ms.keywords": "PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE callback, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSET_DMA_ENGINE_STATE",
+    "hdaudio/PSET_DMA_ENGINE_STATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PSET_DMA_ENGINE_STATE"
+  ]
+}

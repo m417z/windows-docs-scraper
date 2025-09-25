@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsbuffer.INSSBuffer.GetBufferAndLength",
+  "title": "INSSBuffer::GetBufferAndLength (wmsbuffer.h)",
+  "description": "The GetBufferAndLength method retrieves the location and size of the used portion of the buffer controlled by the buffer object.",
+  "helpviewer_keywords": [
+    "GetBufferAndLength",
+    "GetBufferAndLength method [windows Media Format]",
+    "GetBufferAndLength method [windows Media Format]",
+    "INSSBuffer interface",
+    "INSSBuffer interface [windows Media Format]",
+    "GetBufferAndLength method",
+    "INSSBuffer.GetBufferAndLength",
+    "INSSBuffer::GetBufferAndLength",
+    "INSSBufferGetBufferAndLength",
+    "wmformat.inssbuffer_getbufferandlength",
+    "wmsbuffer/INSSBuffer::GetBufferAndLength"
+  ],
+  "old-location": "wmformat\\inssbuffer_getbufferandlength.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "cb03d006-fbaa-4971-8022-41a7fa29fb87",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetBufferAndLength, GetBufferAndLength method [windows Media Format], GetBufferAndLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBufferAndLength method, INSSBuffer.GetBufferAndLength, INSSBuffer::GetBufferAndLength, INSSBufferGetBufferAndLength, wmformat.inssbuffer_getbufferandlength, wmsbuffer/INSSBuffer::GetBufferAndLength",
+  "req.header": "wmsbuffer.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INSSBuffer::GetBufferAndLength",
+    "wmsbuffer/INSSBuffer::GetBufferAndLength"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "INSSBuffer.GetBufferAndLength"
+  ]
+}

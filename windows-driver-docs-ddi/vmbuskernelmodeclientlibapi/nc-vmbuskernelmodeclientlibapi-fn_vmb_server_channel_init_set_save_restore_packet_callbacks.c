@@ -1,0 +1,8 @@
+FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS FnVmbServerChannelInitSetSaveRestorePacketCallbacks;
+
+NTSTATUS FnVmbServerChannelInitSetSaveRestorePacketCallbacks(
+  VMBCHANNEL Channel,
+  PFN_VMB_CHANNEL_SAVE_PACKET SavePacketCallback,
+  PFN_VMB_CHANNEL_RESTORE_PACKET RestorePacketCallback
+)
+{...}

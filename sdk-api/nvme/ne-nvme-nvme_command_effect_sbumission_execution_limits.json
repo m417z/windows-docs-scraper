@@ -1,0 +1,39 @@
+{
+  "UID": "NE:nvme.NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS",
+  "tech.root": "fs",
+  "title": "NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains values that indicate the command submission and execution recommendations for the associated command.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS"
+  ],
+  "f1_keywords": [
+    "NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS",
+    "nvme/NVME_COMMAND_EFFECT_SBUMISSION_EXECUTION_LIMITS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum _HTTP_DELEGATE_REQUEST_PROPERTY_ID {
+  DelegateRequestReservedProperty,
+  DelegateRequestDelegateUrlProperty
+} HTTP_DELEGATE_REQUEST_PROPERTY_ID, *PHTTP_DELEGATE_REQUEST_PROPERTY_ID;

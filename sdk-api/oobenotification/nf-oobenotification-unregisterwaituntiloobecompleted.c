@@ -1,0 +1,3 @@
+BOOL UnregisterWaitUntilOOBECompleted(
+  PVOID WaitHandle
+);

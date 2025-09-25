@@ -1,0 +1,3 @@
+HRESULT SetOptions(
+  [in] EXPLORER_BROWSER_OPTIONS dwFlag
+);

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdbgexts._GETSETBUSDATA",
+  "title": "_GETSETBUSDATA (wdbgexts.h)",
+  "description": "The IG_GET_BUS_DATA Ioctl operation reads data from a system bus and the IG_SET_BUS_DATA Ioctl operation writes data to a system bus.",
+  "old-location": "debugger\\ig_get_bus_data.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "GETSETBUSDATA structure"
+  ],
+  "ms.keywords": "*PBUSDATA, BUSDATA, BUSDATA structure [Windows Debugging], GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], PBUSDATA, PBUSDATA structure pointer [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, _GETSETBUSDATA, debugger.ig_get_bus_data, wdbgexts/GETSETBUSDATA, wdbgexts/PBUSDATA",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BUSDATA, *PBUSDATA",
+  "f1_keywords": [
+    "_GETSETBUSDATA",
+    "wdbgexts/_GETSETBUSDATA",
+    "PBUSDATA",
+    "wdbgexts/PBUSDATA",
+    "BUSDATA",
+    "wdbgexts/BUSDATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "_GETSETBUSDATA",
+    "PBUSDATA",
+    "BUSDATA"
+  ]
+}

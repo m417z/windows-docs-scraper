@@ -1,0 +1,3 @@
+typedef struct _WS_XML_READER_INPUT {
+  WS_XML_READER_INPUT_TYPE inputType;
+} WS_XML_READER_INPUT;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdbgexts.PWINDBG_STACKTRACE_ROUTINE",
+  "title": "PWINDBG_STACKTRACE_ROUTINE (wdbgexts.h)",
+  "description": "The PWINDBG_STACKTRACE_ROUTINE (StackTrace) function retrieves a stack trace for the process being debugged. Returns the number of frames read into the buffer pointed to by StackFrames.",
+  "old-location": "debugger\\stacktrace.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "PWINDBG_STACKTRACE_ROUTINE callback function"
+  ],
+  "ms.keywords": "PWINDBG_STACKTRACE_ROUTINE, PWINDBG_STACKTRACE_ROUTINE callback, StackTrace, StackTrace callback function [Windows Debugging], WdbgExts_Ref_5ccc4adf-2b59-4373-8e4a-3bc8847c5749.xml, debugger.stacktrace, wdbgexts/StackTrace",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PWINDBG_STACKTRACE_ROUTINE",
+    "wdbgexts/PWINDBG_STACKTRACE_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "PWINDBG_STACKTRACE_ROUTINE"
+  ]
+}

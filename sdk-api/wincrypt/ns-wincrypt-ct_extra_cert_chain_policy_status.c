@@ -1,0 +1,7 @@
+typedef struct _CT_EXTRA_CERT_CHAIN_POLICY_STATUS {
+  DWORD cbSize;
+  LONG  lErrorStatus;
+  LONG  lErrorSubStatus;
+  DWORD cEntries;
+  DWORD cValidated;
+} CT_EXTRA_CERT_CHAIN_POLICY_STATUS, *PCT_EXTRA_CERT_CHAIN_POLICY_STATUS;

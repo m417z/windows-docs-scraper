@@ -1,0 +1,41 @@
+{
+  "UID": "NE:dispmprt._DXGK_DIAG_DISPLAY_MODE_SET",
+  "title": "DXGK_DIAG_DISPLAY_MODE_SET",
+  "ms.date": "03/24/2020",
+  "tech.root": "display",
+  "targetos": "Windows",
+  "description": "DXGK_DIAG_DISPLAY_MODE_SET provides a driver's last mode set state to the operating system (OS) when it is gathering nonintrusive display diagnostic information.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGK_DIAG_DISPLAY_MODE_SET",
+    "DXGK_DIAG_DISPLAY_MODE_SET"
+  ],
+  "f1_keywords": [
+    "_DXGK_DIAG_DISPLAY_MODE_SET",
+    "dispmprt/_DXGK_DIAG_DISPLAY_MODE_SET",
+    "DXGK_DIAG_DISPLAY_MODE_SET",
+    "dispmprt/DXGK_DIAG_DISPLAY_MODE_SET"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

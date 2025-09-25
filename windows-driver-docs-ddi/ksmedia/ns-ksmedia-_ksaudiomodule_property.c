@@ -1,0 +1,5 @@
+typedef struct _KSAUDIOMODULE_PROPERTY {
+  KSPROPERTY Property;
+  GUID       ClassId;
+  ULONG      InstanceId;
+} KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY;

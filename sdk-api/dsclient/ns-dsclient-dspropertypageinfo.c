@@ -1,0 +1,3 @@
+typedef struct {
+  DWORD offsetString;
+} DSPROPERTYPAGEINFO, *LPDSPROPERTYPAGEINFO;

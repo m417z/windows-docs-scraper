@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.MmGetMdlByteOffset",
+  "tech.root": "kernel",
+  "title": "MmGetMdlByteOffset",
+  "ms.date": "10/04/2022",
+  "targetos": "Windows",
+  "description": "The **MmGetMdlByteOffset** macro returns the byte offset within the initial page of the buffer described by the given MDL.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": "Any level (see Remarks)",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "MmGetMdlByteOffset"
+  ],
+  "f1_keywords": [
+    "MmGetMdlByteOffset",
+    "wdm/MmGetMdlByteOffset"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

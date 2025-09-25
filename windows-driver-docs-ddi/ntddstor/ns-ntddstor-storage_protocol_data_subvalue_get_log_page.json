@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddstor._STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+  "tech.root": "storage",
+  "title": "STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+  "ms.date": "02/21/2024",
+  "targetos": "Windows",
+  "description": "STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE is used to provide additional information to be specified when getting an NVMe log page.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE, *PSTORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+    "PSTORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+    "STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE"
+  ],
+  "f1_keywords": [
+    "_STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+    "ntddstor/_STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+    "PSTORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+    "ntddstor/PSTORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+    "STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE",
+    "ntddstor/STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

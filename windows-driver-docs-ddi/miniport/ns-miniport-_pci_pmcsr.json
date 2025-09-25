@@ -1,0 +1,53 @@
+{
+  "UID": "NS:miniport._PCI_PMCSR",
+  "title": "_PCI_PMCSR (miniport.h)",
+  "description": "The _PCI_PMCSR structure (miniport.h) describes the contents of the device's power management control status register.",
+  "tech.root": "PCI",
+  "ms.date": "03/03/2023",
+  "keywords": [
+    "PCI_PMCSR structure"
+  ],
+  "ms.keywords": "*PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR, PCI_PMCSR structure [Buses], PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], _PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, wdm/PPCI_PMCSR",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": "PCI_PMCSR, *PPCI_PMCSR",
+  "f1_keywords": [
+    "_PCI_PMCSR",
+    "miniport/_PCI_PMCSR",
+    "PPCI_PMCSR",
+    "miniport/PPCI_PMCSR",
+    "PCI_PMCSR",
+    "miniport/PCI_PMCSR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_PCI_PMCSR",
+    "PPCI_PMCSR",
+    "PCI_PMCSR"
+  ]
+}

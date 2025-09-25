@@ -1,0 +1,3 @@
+PROCESSTRACE_HANDLE WMIAPI OpenTraceA(
+  [in, out] PEVENT_TRACE_LOGFILEA Logfile
+);

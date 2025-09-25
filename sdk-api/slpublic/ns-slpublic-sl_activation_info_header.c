@@ -1,0 +1,4 @@
+typedef struct _tagSL_ACTIVATION_INFO_HEADER {
+  DWORD              cbSize;
+  SL_ACTIVATION_TYPE type;
+} SL_ACTIVATION_INFO_HEADER;

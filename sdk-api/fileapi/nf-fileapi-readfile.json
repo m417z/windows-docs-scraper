@@ -1,0 +1,70 @@
+{
+  "UID": "NF:fileapi.ReadFile",
+  "title": "ReadFile function (fileapi.h)",
+  "description": "Reads data from the specified file or input/output (I/O) device. Reads occur at the position specified by the file pointer if supported by the device.",
+  "helpviewer_keywords": [
+    "ReadFile",
+    "ReadFile function [Files]",
+    "_win32_readfile",
+    "base.readfile",
+    "fileapi/ReadFile",
+    "fs.readfile",
+    "winbase/ReadFile"
+  ],
+  "old-location": "fs\\readfile.htm",
+  "tech.root": "fs",
+  "ms.assetid": "4ad4580d-c002-44a4-a5f6-757e83ed8732",
+  "ms.date": "10/02/2024",
+  "ms.keywords": "ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ReadFile",
+    "fileapi/ReadFile"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-0.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "ReadFile"
+  ]
+}

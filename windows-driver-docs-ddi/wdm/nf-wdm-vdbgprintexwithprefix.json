@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.vDbgPrintExWithPrefix",
+  "title": "vDbgPrintExWithPrefix function (wdm.h)",
+  "description": "The vDbgPrintExWithPrefix routine sends a string to the kernel debugger if certain conditions that you specify are met. This routine can append a prefix to debugger output to help organize debugging results.",
+  "old-location": "devtest\\vdbgprintexwithprefix.htm",
+  "tech.root": "devtest",
+  "ms.date": "02/23/2018",
+  "keywords": [
+    "vDbgPrintExWithPrefix function"
+  ],
+  "ms.keywords": "DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml, devtest.vdbgprintexwithprefix, vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], wdm/vDbgPrintExWithPrefix",
+  "req.header": "wdm.h",
+  "req.include-header": "Dpfilter.h, Wdm.h, Ntddk.h, Ndis.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtDll.lib (user mode); NtosKrnl.lib (kernel mode)",
+  "req.dll": "NtDll.dll (user mode); NtosKrnl.exe (kernel mode)",
+  "req.irql": "<= DIRQL (see Comments section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "vDbgPrintExWithPrefix",
+    "wdm/vDbgPrintExWithPrefix"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtDll.dll",
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "vDbgPrintExWithPrefix"
+  ]
+}

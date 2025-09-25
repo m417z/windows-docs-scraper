@@ -1,0 +1,63 @@
+{
+  "UID": "NF:shobjidl_core.SHCreateShellItemArrayFromDataObject",
+  "title": "SHCreateShellItemArrayFromDataObject function (shobjidl_core.h)",
+  "description": "Creates a Shell item array object from a data object.",
+  "helpviewer_keywords": [
+    "SHCreateShellItemArrayFromDataObject",
+    "SHCreateShellItemArrayFromDataObject function [Windows Shell]",
+    "_shell_SHCreateShellItemArrayFromDataObject",
+    "shell.SHCreateShellItemArrayFromDataObject",
+    "shobjidl_core/SHCreateShellItemArrayFromDataObject"
+  ],
+  "old-location": "shell\\SHCreateShellItemArrayFromDataObject.htm",
+  "tech.root": "shell",
+  "ms.assetid": "91e65c9a-0600-42e3-97f5-2a5960e1ec89",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHCreateShellItemArrayFromDataObject, SHCreateShellItemArrayFromDataObject function [Windows Shell], _shell_SHCreateShellItemArrayFromDataObject, shell.SHCreateShellItemArrayFromDataObject, shobjidl_core/SHCreateShellItemArrayFromDataObject",
+  "req.header": "shobjidl_core.h",
+  "req.include-header": "Shobjidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHCreateShellItemArrayFromDataObject",
+    "shobjidl_core/SHCreateShellItemArrayFromDataObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-5-0.dll",
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "Shell32.dll"
+  ],
+  "api_name": [
+    "SHCreateShellItemArrayFromDataObject"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)"
+}

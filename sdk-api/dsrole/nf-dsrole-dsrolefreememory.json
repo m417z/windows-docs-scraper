@@ -1,0 +1,58 @@
+{
+  "UID": "NF:dsrole.DsRoleFreeMemory",
+  "title": "DsRoleFreeMemory function (dsrole.h)",
+  "description": "Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.",
+  "helpviewer_keywords": [
+    "DsRoleFreeMemory",
+    "DsRoleFreeMemory function [Active Directory]",
+    "_glines_dsrolefreememory",
+    "ad.dsrolefreememory",
+    "dsrole/DsRoleFreeMemory"
+  ],
+  "old-location": "ad\\dsrolefreememory.htm",
+  "tech.root": "ad",
+  "ms.assetid": "5560dfec-2134-4e02-9c87-26d246cd5841",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _glines_dsrolefreememory, ad.dsrolefreememory, dsrole/DsRoleFreeMemory",
+  "req.header": "dsrole.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsRoleFreeMemory",
+    "dsrole/DsRoleFreeMemory"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "DsRoleFreeMemory"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct DXGI_SHARED_RESOURCE {
+  HANDLE Handle;
+} DXGI_SHARED_RESOURCE;

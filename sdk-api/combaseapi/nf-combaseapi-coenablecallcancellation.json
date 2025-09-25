@@ -1,0 +1,65 @@
+{
+  "UID": "NF:combaseapi.CoEnableCallCancellation",
+  "title": "CoEnableCallCancellation function (combaseapi.h)",
+  "description": "Enables cancellation of synchronous calls on the calling thread.",
+  "helpviewer_keywords": [
+    "CoEnableCallCancellation",
+    "CoEnableCallCancellation function [COM]",
+    "_com_CoEnableCallCancellation",
+    "com.coenablecallcancellation",
+    "combaseapi/CoEnableCallCancellation"
+  ],
+  "old-location": "com\\coenablecallcancellation.htm",
+  "tech.root": "com",
+  "ms.assetid": "59b66f33-486e-49c3-9fb8-0eab93146ed9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CoEnableCallCancellation, CoEnableCallCancellation function [COM], _com_CoEnableCallCancellation, com.coenablecallcancellation, combaseapi/CoEnableCallCancellation",
+  "req.header": "combaseapi.h",
+  "req.include-header": "Objbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CoEnableCallCancellation",
+    "combaseapi/CoEnableCallCancellation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-ole32-l1-1-0.dll",
+    "api-ms-win-core-com-l1-1-3.dll",
+    "api-ms-win-core-com-l1-1-2.dll",
+    "Ole32.dll",
+    "API-MS-Win-Core-Com-l1-1-0.dll",
+    "ComBase.dll",
+    "API-MS-Win-Core-Com-l1-1-1.dll",
+    "API-MS-Win-DownLevel-Ole32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "CoEnableCallCancellation"
+  ]
+}

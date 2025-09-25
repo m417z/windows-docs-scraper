@@ -1,0 +1,3 @@
+NTSTATUS WifiDirectDeviceInitialize(
+  WIFIDIRECTDEVICE WifiDirectDevice
+);

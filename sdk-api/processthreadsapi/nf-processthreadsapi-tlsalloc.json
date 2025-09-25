@@ -1,0 +1,72 @@
+{
+  "UID": "NF:processthreadsapi.TlsAlloc",
+  "title": "TlsAlloc function (processthreadsapi.h)",
+  "description": "Allocates a thread local storage (TLS) index. Any thread of the process can subsequently use this index to store and retrieve values that are local to the thread, because each thread receives its own slot for the index.",
+  "helpviewer_keywords": [
+    "TlsAlloc",
+    "TlsAlloc function",
+    "_win32_tlsalloc",
+    "base.tlsalloc",
+    "processthreadsapi/TlsAlloc",
+    "winbase/TlsAlloc"
+  ],
+  "old-location": "base\\tlsalloc.htm",
+  "tech.root": "processthreadsapi",
+  "ms.assetid": "cbb3d832-cd92-4875-8366-6b69be7a536f",
+  "ms.date": "12/05/2024",
+  "ms.keywords": "TlsAlloc, TlsAlloc function, _win32_tlsalloc, base.tlsalloc, processthreadsapi/TlsAlloc, winbase/TlsAlloc",
+  "req.header": "processthreadsapi.h",
+  "req.include-header": "Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1",
+  "req.dll": "KernelBase.dll on Windows Phone 8.1; Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TlsAlloc",
+    "processthreadsapi/TlsAlloc"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "api-ms-win-core-processthreads-l1-1-6.dll",
+    "api-ms-win-core-processthreads-l1-1-5.dll",
+    "api-ms-win-core-processthreads-l1-1-4.dll",
+    "KernelBase.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-ProcessThreads-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-ProcessThreads-l1-1-1.dll",
+    "API-MS-Win-Core-ProcessThreads-l1-1-2.dll",
+    "api-ms-win-downlevel-kernel32-l1-1-0.dll",
+    "API-MS-Win-Core-ProcessThreads-L1-1-3.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "TlsAlloc"
+  ]
+}

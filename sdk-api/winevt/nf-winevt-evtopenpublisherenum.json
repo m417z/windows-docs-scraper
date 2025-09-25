@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winevt.EvtOpenPublisherEnum",
+  "title": "EvtOpenPublisherEnum function (winevt.h)",
+  "description": "Gets a handle that you use to enumerate the list of registered providers on the computer.",
+  "helpviewer_keywords": [
+    "EvtOpenPublisherEnum",
+    "EvtOpenPublisherEnum function [EventLog]",
+    "wes.evtopenpublisherenum",
+    "winevt/EvtOpenPublisherEnum"
+  ],
+  "old-location": "wes\\evtopenpublisherenum.htm",
+  "tech.root": "wes",
+  "ms.assetid": "156c434c-6d0f-4af0-bf10-20aa6bae0945",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EvtOpenPublisherEnum, EvtOpenPublisherEnum function [EventLog], wes.evtopenpublisherenum, winevt/EvtOpenPublisherEnum",
+  "req.header": "winevt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wevtapi.lib",
+  "req.dll": "Wevtapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EvtOpenPublisherEnum",
+    "winevt/EvtOpenPublisherEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wevtapi-eventlog-l1-1-3.dll",
+    "Wevtapi.dll"
+  ],
+  "api_name": [
+    "EvtOpenPublisherEnum"
+  ]
+}

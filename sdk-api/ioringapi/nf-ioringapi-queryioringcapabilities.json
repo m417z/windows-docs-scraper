@@ -1,0 +1,50 @@
+{
+  "UID": "NF:ioringapi.QueryIoRingCapabilities",
+  "tech.root": "fs",
+  "title": "QueryIoRingCapabilities",
+  "ms.date": "07/16/2021",
+  "targetos": "Windows",
+  "description": "Queries the OS for the supported capabilities for IORINGs.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ioringapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-ioring-l1-1-2.dll",
+    "api-ms-win-core-ioring-l1-1-1.dll",
+    "api-ms-win-core-ioring-l1-1-0.dll",
+    "ioringapi.h"
+  ],
+  "api_name": [
+    "QueryIoRingCapabilities"
+  ],
+  "f1_keywords": [
+    "QueryIoRingCapabilities",
+    "ioringapi/QueryIoRingCapabilities"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

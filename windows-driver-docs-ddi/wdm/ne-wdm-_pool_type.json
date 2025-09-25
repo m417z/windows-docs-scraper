@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdm._POOL_TYPE",
+  "title": "_POOL_TYPE (wdm.h)",
+  "description": "The POOL_TYPE enumeration type specifies the type of system memory to allocate.",
+  "old-location": "kernel\\pool_type.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "POOL_TYPE enumeration"
+  ],
+  "ms.keywords": "DontUseThisType, DontUseThisTypeSession, MaxPoolType, NonPagedPool, NonPagedPoolBase, NonPagedPoolBaseCacheAligned, NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolBaseMustSucceed, NonPagedPoolCacheAligned, NonPagedPoolCacheAlignedMustS, NonPagedPoolCacheAlignedMustSSession, NonPagedPoolCacheAlignedSession, NonPagedPoolExecute, NonPagedPoolMustSucceed, NonPagedPoolMustSucceedSession, NonPagedPoolNx, NonPagedPoolNxCacheAligned, NonPagedPoolSession, NonPagedPoolSessionNx, POOL_TYPE, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], PagedPool, PagedPoolCacheAligned, PagedPoolCacheAlignedSession, PagedPoolSession, _POOL_TYPE, kernel.pool_type, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/DontUseThisType, wdm/DontUseThisTypeSession, wdm/MaxPoolType, wdm/NonPagedPool, wdm/NonPagedPoolBase, wdm/NonPagedPoolBaseCacheAligned, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolBaseMustSucceed, wdm/NonPagedPoolCacheAligned, wdm/NonPagedPoolCacheAlignedMustS, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolExecute, wdm/NonPagedPoolMustSucceed, wdm/NonPagedPoolMustSucceedSession, wdm/NonPagedPoolNx, wdm/NonPagedPoolNxCacheAligned, wdm/NonPagedPoolSession, wdm/NonPagedPoolSessionNx, wdm/POOL_TYPE, wdm/PagedPool, wdm/PagedPoolCacheAligned, wdm/PagedPoolCacheAlignedSession, wdm/PagedPoolSession",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "POOL_TYPE",
+  "f1_keywords": [
+    "_POOL_TYPE",
+    "wdm/_POOL_TYPE",
+    "POOL_TYPE",
+    "wdm/POOL_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_POOL_TYPE",
+    "POOL_TYPE"
+  ]
+}

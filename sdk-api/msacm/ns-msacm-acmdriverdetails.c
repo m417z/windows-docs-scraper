@@ -1,0 +1,18 @@
+typedef struct tACMDRIVERDETAILS {
+  DWORD  cbStruct;
+  FOURCC fccType;
+  FOURCC fccComp;
+  WORD   wMid;
+  WORD   wPid;
+  DWORD  vdwACM;
+  DWORD  vdwDriver;
+  DWORD  fdwSupport;
+  DWORD  cFormatTags;
+  DWORD  cFilterTags;
+  HICON  hicon;
+  char   szShortName[ACMDRIVERDETAILS_SHORTNAME_CHARS];
+  char   szLongName[ACMDRIVERDETAILS_LONGNAME_CHARS];
+  char   szCopyright[ACMDRIVERDETAILS_COPYRIGHT_CHARS];
+  char   szLicensing[ACMDRIVERDETAILS_LICENSING_CHARS];
+  char   szFeatures[ACMDRIVERDETAILS_FEATURES_CHARS];
+} ACMDRIVERDETAILS, *PACMDRIVERDETAILS, *LPACMDRIVERDETAILS;

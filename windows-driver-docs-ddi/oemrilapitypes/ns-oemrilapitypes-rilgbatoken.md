@@ -1,0 +1,23 @@
+# RILGBATOKEN structure
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Members
+
+### `cbSize`
+
+### `cbBTIDSize`
+
+### `dwBTIDOffset`
+
+### `cbNAFKeyLifetimeSize`
+
+### `dwNAFKeyLifetimeOffset`
+
+### `cbNAFKeySize`
+
+### `dwNAFKeyOffset`
+
+### `bData`

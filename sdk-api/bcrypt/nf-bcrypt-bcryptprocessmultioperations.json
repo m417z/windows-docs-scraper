@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptProcessMultiOperations",
+  "title": "BCryptProcessMultiOperations function (bcrypt.h)",
+  "description": "The BCryptProcessMultiOperations function processes a sequence of operations on a multi-object state.",
+  "helpviewer_keywords": [
+    "BCryptProcessMultiOperations",
+    "BCryptProcessMultiOperations function [Security]",
+    "bcrypt/BCryptProcessMultiOperations",
+    "security.bcryptprocessmultioperation"
+  ],
+  "old-location": "security\\bcryptprocessmultioperation.htm",
+  "tech.root": "security",
+  "ms.assetid": "5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5",
+  "ms.date": "03/21/2023",
+  "ms.keywords": "BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 Update [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 Update [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptProcessMultiOperations",
+    "bcrypt/BCryptProcessMultiOperations"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll",
+    "Ksecdd.sys"
+  ],
+  "api_name": [
+    "BCryptProcessMultiOperations"
+  ]
+}

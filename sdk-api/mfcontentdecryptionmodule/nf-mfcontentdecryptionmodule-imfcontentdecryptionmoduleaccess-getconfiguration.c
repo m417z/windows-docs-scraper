@@ -1,0 +1,3 @@
+HRESULT GetConfiguration(
+  IPropertyStore **configuration
+);

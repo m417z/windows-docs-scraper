@@ -1,0 +1,54 @@
+{
+  "UID": "NS:video._VIDEO_PORT_INT10_INTERFACE",
+  "title": "_VIDEO_PORT_INT10_INTERFACE (video.h)",
+  "description": "The VIDEO_PORT_INT10_INTERFACE structure provides a way to allocate and deallocate memory in another thread's context, read from and write to that memory, and make INT10 BIOS calls.",
+  "old-location": "display\\video_port_int10_interface.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VIDEO_PORT_INT10_INTERFACE structure"
+  ],
+  "ms.keywords": "*PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], VIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE structure [Display Devices], Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, _VIDEO_PORT_INT10_INTERFACE, display.video_port_int10_interface, video/PVIDEO_PORT_INT10_INTERFACE, video/VIDEO_PORT_INT10_INTERFACE",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VIDEO_PORT_INT10_INTERFACE, *PVIDEO_PORT_INT10_INTERFACE",
+  "f1_keywords": [
+    "_VIDEO_PORT_INT10_INTERFACE",
+    "video/_VIDEO_PORT_INT10_INTERFACE",
+    "PVIDEO_PORT_INT10_INTERFACE",
+    "video/PVIDEO_PORT_INT10_INTERFACE",
+    "VIDEO_PORT_INT10_INTERFACE",
+    "video/VIDEO_PORT_INT10_INTERFACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "video.h"
+  ],
+  "api_name": [
+    "_VIDEO_PORT_INT10_INTERFACE",
+    "PVIDEO_PORT_INT10_INTERFACE",
+    "VIDEO_PORT_INT10_INTERFACE"
+  ]
+}

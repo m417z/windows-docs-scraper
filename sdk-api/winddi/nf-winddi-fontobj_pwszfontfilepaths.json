@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.FONTOBJ_pwszFontFilePaths",
+  "title": "FONTOBJ_pwszFontFilePaths function (winddi.h)",
+  "description": "The FONTOBJ_pwszFontFilePaths function retrieves the file path(s) associated with a font.",
+  "helpviewer_keywords": [
+    "FONTOBJ_pwszFontFilePaths",
+    "FONTOBJ_pwszFontFilePaths function [Display Devices]",
+    "display.fontobj_pwszfontfilepaths",
+    "gdifncs_51e9e4ce-3de8-4b6c-8d7f-ccd19b9bd449.xml",
+    "winddi/FONTOBJ_pwszFontFilePaths"
+  ],
+  "old-location": "display\\fontobj_pwszfontfilepaths.htm",
+  "tech.root": "display",
+  "ms.assetid": "a175a282-4d0c-4379-b2f8-5e7e8cf7a137",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FONTOBJ_pwszFontFilePaths, FONTOBJ_pwszFontFilePaths function [Display Devices], display.fontobj_pwszfontfilepaths, gdifncs_51e9e4ce-3de8-4b6c-8d7f-ccd19b9bd449.xml, winddi/FONTOBJ_pwszFontFilePaths",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FONTOBJ_pwszFontFilePaths",
+    "winddi/FONTOBJ_pwszFontFilePaths"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "FONTOBJ_pwszFontFilePaths"
+  ]
+}

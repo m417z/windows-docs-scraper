@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.FIND_BY_SID_OUTPUT",
+  "tech.root": "ifsk",
+  "title": "FIND_BY_SID_OUTPUT",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the FIND_BY_SID_OUTPUT structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FIND_BY_SID_OUTPUT, *PFIND_BY_SID_OUTPUT",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "FIND_BY_SID_OUTPUT",
+    "PFIND_BY_SID_OUTPUT"
+  ],
+  "f1_keywords": [
+    "FIND_BY_SID_OUTPUT",
+    "ntifs/FIND_BY_SID_OUTPUT",
+    "PFIND_BY_SID_OUTPUT",
+    "ntifs/PFIND_BY_SID_OUTPUT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FIND_BY_SID_OUTPUT"
+  ]
+}

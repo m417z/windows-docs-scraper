@@ -1,0 +1,23 @@
+typedef struct _MSiSCSI_HBAInformation {
+  ULONGLONG UniqueAdapterId;
+  BOOLEAN   IntegratedTCPIP;
+  BOOLEAN   RequiresBinaryIpAddresses;
+  UCHAR     VersionMin;
+  UCHAR     VersionMax;
+  BOOLEAN   MultifunctionDevice;
+  BOOLEAN   CacheValid;
+  ULONG     NumberOfPorts;
+  ULONG     Status;
+  ULONG     FunctionalitySupported;
+  UCHAR     GenerationalGuid[16];
+  ULONG     MaxCDBLength;
+  BOOLEAN   BiDiScsiCommands;
+  WCHAR     VendorID[255 + 1];
+  WCHAR     VendorModel[255 + 1];
+  WCHAR     VendorVersion[255 + 1];
+  WCHAR     FirmwareVersion[255 + 1];
+  WCHAR     AsicVersion[255 + 1];
+  WCHAR     OptionRomVersion[255 + 1];
+  WCHAR     SerialNumber[255 + 1];
+  WCHAR     DriverName[255 + 1];
+} MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation;

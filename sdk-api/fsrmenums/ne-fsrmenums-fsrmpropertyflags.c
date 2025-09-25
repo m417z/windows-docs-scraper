@@ -1,0 +1,22 @@
+typedef enum _FsrmPropertyFlags {
+  FsrmPropertyFlags_None = 0,
+  FsrmPropertyFlags_Orphaned = 0x1,
+  FsrmPropertyFlags_RetrievedFromCache = 0x2,
+  FsrmPropertyFlags_RetrievedFromStorage = 0x4,
+  FsrmPropertyFlags_SetByClassifier = 0x8,
+  FsrmPropertyFlags_Deleted = 0x10,
+  FsrmPropertyFlags_Reclassified = 0x20,
+  FsrmPropertyFlags_AggregationFailed = 0x40,
+  FsrmPropertyFlags_Existing = 0x80,
+  FsrmPropertyFlags_FailedLoadingProperties = 0x100,
+  FsrmPropertyFlags_FailedClassifyingProperties = 0x200,
+  FsrmPropertyFlags_FailedSavingProperties = 0x400,
+  FsrmPropertyFlags_Secure = 0x800,
+  FsrmPropertyFlags_PolicyDerived = 0x1000,
+  FsrmPropertyFlags_Inherited = 0x2000,
+  FsrmPropertyFlags_Manual = 0x4000,
+  FsrmPropertyFlags_ExplicitValueDeleted = 0x8000,
+  FsrmPropertyFlags_PropertyDeletedFromClear = 0x10000,
+  FsrmPropertyFlags_PropertySourceMask,
+  FsrmPropertyFlags_PersistentMask
+} FsrmPropertyFlags;

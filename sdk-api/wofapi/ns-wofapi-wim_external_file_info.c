@@ -1,0 +1,5 @@
+typedef struct _WIM_EXTERNAL_FILE_INFO {
+  LARGE_INTEGER DataSourceId;
+  UCHAR         ResourceHash[WIM_PROVIDER_HASH_SIZE];
+  ULONG         Flags;
+} WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO;

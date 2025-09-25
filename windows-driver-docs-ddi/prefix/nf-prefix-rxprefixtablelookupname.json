@@ -1,0 +1,48 @@
+{
+  "UID": "NF:prefix.RxPrefixTableLookupName",
+  "title": "RxPrefixTableLookupName function (prefix.h)",
+  "description": "RxPrefixTableLookupName looks up a name in a prefix table used to catalog SRV_CALL, NET_ROOT, and V_NET_ROOT names and converts the underlying pointer to a structure that contains the name.",
+  "old-location": "ifsk\\rxprefixtablelookupname.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxPrefixTableLookupName function"
+  ],
+  "ms.keywords": "RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], ifsk.rxprefixtablelookupname, prefix/RxPrefixTableLookupName, rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml",
+  "req.header": "prefix.h",
+  "req.include-header": "Prefix.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxPrefixTableLookupName",
+    "prefix/RxPrefixTableLookupName"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "prefix.h"
+  ],
+  "api_name": [
+    "RxPrefixTableLookupName"
+  ]
+}

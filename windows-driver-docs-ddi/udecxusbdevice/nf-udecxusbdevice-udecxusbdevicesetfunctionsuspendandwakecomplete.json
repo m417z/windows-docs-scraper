@@ -1,0 +1,49 @@
+{
+  "UID": "NF:udecxusbdevice.UdecxUsbDeviceSetFunctionSuspendAndWakeComplete",
+  "title": "UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function (udecxusbdevice.h)",
+  "description": "Completes an asynchronous request for changing the power state of a particular function of a virtual USB 3.0 device.",
+  "old-location": "buses\\udecxusbdevicesetfunctionsuspendandwakecomplete.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function"
+  ],
+  "ms.keywords": "UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete",
+  "req.header": "udecxusbdevice.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Udecxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UdecxUsbDeviceSetFunctionSuspendAndWakeComplete",
+    "udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Udecxstub.lib",
+    "Udecxstub.dll"
+  ],
+  "api_name": [
+    "UdecxUsbDeviceSetFunctionSuspendAndWakeComplete"
+  ]
+}

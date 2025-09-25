@@ -1,0 +1,48 @@
+{
+  "UID": "NF:prcomoem.IPrintOemUIMXDC.AdjustImageableArea",
+  "title": "IPrintOemUIMXDC::AdjustImageableArea (prcomoem.h)",
+  "description": "The IPrintOemUIMXDC::AdjustImageableArea method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of the printable area, including orientation and direction of rotation.",
+  "old-location": "print\\iprintoemuimxdc_adjustimageablearea.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "IPrintOemUIMXDC::AdjustImageableArea"
+  ],
+  "ms.keywords": "AdjustImageableArea, AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageableArea method, IPrintOemUIMXDC.AdjustImageableArea, IPrintOemUIMXDC::AdjustImageableArea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml",
+  "req.header": "prcomoem.h",
+  "req.include-header": "Prcomoem.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available with Windows Vista and later versions of Unidrvui.dll and Ps5ui.dll, which are redistributable. This method is also available for XPSDrv drivers in Microsoft Windows XP if you have installed the XPS Essentials Pack.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPrintOemUIMXDC::AdjustImageableArea",
+    "prcomoem/IPrintOemUIMXDC::AdjustImageableArea"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "prcomoem.h"
+  ],
+  "api_name": [
+    "IPrintOemUIMXDC::AdjustImageableArea"
+  ]
+}

@@ -1,0 +1,3 @@
+void NET_BUFFER_LIST_RECEIVE_QUEUE_ID(
+  _NBL
+);

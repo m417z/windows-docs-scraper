@@ -1,0 +1,9 @@
+typedef struct _PRINTPROCESSOROPENDATA {
+  PDEVMODE pDevMode;
+  LPWSTR   pDatatype;
+  LPWSTR   pParameters;
+  LPWSTR   pDocumentName;
+  DWORD    JobId;
+  LPWSTR   pOutputFile;
+  LPWSTR   pPrinterName;
+} PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA;

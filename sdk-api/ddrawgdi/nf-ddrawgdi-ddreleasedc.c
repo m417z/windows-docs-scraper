@@ -1,0 +1,3 @@
+BOOL DdReleaseDC(
+  LPDDRAWI_DDRAWSURFACE_LCL pSurfaceLocal
+);

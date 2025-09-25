@@ -1,0 +1,45 @@
+{
+  "UID": "NF:storport.StorPortFreeDmaMemory",
+  "title": "StorPortFreeDmaMemory function (storport.h)",
+  "description": "This function is the extended version of the StorPortFreeContiguousMemorySpecifyCache function. It deallocates a range of noncached memory in the nonpaged portion of the system address space.",
+  "tech.root": "storage",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "StorPortFreeDmaMemory function"
+  ],
+  "ms.keywords": "StorPortFreeDmaMemory",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10 (Version 1803)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "StorPortFreeDmaMemory",
+    "storport/StorPortFreeDmaMemory"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "StorPortFreeDmaMemory"
+  ]
+}

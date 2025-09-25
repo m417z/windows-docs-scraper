@@ -1,0 +1,5 @@
+typedef union _WSMAN_RESPONSE_DATA {
+  WSMAN_RECEIVE_DATA_RESULT receiveData;
+  WSMAN_CONNECT_DATA        connectData;
+  WSMAN_CREATE_SHELL_DATA   createData;
+} WSMAN_RESPONSE_DATA;

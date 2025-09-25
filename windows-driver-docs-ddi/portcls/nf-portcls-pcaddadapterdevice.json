@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.PcAddAdapterDevice",
+  "title": "PcAddAdapterDevice function (portcls.h)",
+  "description": "The PcAddAdapterDevice function adds an adapter device to the WDM device stack.",
+  "old-location": "audio\\pcaddadapterdevice.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PcAddAdapterDevice function"
+  ],
+  "ms.keywords": "PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting in Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcAddAdapterDevice",
+    "portcls/PcAddAdapterDevice"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "PcAddAdapterDevice"
+  ]
+}

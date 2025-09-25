@@ -1,0 +1,4 @@
+typedef struct _WTS_SESSION_ID {
+  GUID  SessionUniqueGuid;
+  ULONG SessionId;
+} _WTS_SESSION_ID, WTS_SESSION_ID, *PWTS_SESSION_ID, _WRDS_SESSION_ID;

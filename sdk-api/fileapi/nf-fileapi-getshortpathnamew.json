@@ -1,0 +1,86 @@
+{
+  "UID": "NF:fileapi.GetShortPathNameW",
+  "title": "GetShortPathNameW function (fileapi.h)",
+  "description": "Retrieves the short path form of the specified path. (GetShortPathNameW)",
+  "helpviewer_keywords": [
+    "GetShortPathName",
+    "GetShortPathName function [Files]",
+    "GetShortPathNameA",
+    "GetShortPathNameW",
+    "_win32_getshortpathname",
+    "base.getshortpathname",
+    "fileapi/GetShortPathName",
+    "fileapi/GetShortPathNameA",
+    "fileapi/GetShortPathNameW",
+    "fs.getshortpathname",
+    "winbase/GetShortPathName",
+    "winbase/GetShortPathNameA",
+    "winbase/GetShortPathNameW"
+  ],
+  "old-location": "fs\\getshortpathname.htm",
+  "tech.root": "fs",
+  "ms.assetid": "15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetShortPathName, GetShortPathName function [Files], GetShortPathNameA, GetShortPathNameW, _win32_getshortpathname, base.getshortpathname, fileapi/GetShortPathName, fileapi/GetShortPathNameA, fileapi/GetShortPathNameW, fs.getshortpathname, winbase/GetShortPathName, winbase/GetShortPathNameA, winbase/GetShortPathNameW",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetShortPathNameW (Unicode) and GetShortPathNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetShortPathNameW",
+    "fileapi/GetShortPathNameW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-File-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-0.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "GetShortPathName",
+    "GetShortPathNameA",
+    "GetShortPathNameW"
+  ]
+}

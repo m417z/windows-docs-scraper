@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ndis.NdisStoreUlong",
+  "title": "NdisStoreUlong macro (ndis.h)",
+  "description": "The NdisStoreUlong function stores a ULONG value at a particular address, avoiding alignment faults.",
+  "old-location": "netvista\\ndisstoreulong.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisStoreUlong macro"
+  ],
+  "ms.keywords": "NdisStoreUlong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlStoreUlong instead.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisStoreUlong",
+    "ndis/NdisStoreUlong"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisStoreUlong"
+  ]
+}

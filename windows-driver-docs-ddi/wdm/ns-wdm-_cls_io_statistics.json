@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._CLS_IO_STATISTICS",
+  "title": "_CLS_IO_STATISTICS (wdm.h)",
+  "description": "The CLFS_IO_STATISTICS structure holds I/O statistics data for a Common Log File System (CLFS) log.",
+  "old-location": "kernel\\clfs_io_statistics.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "CLS_IO_STATISTICS structure"
+  ],
+  "ms.keywords": "*PCLFS_IO_STATISTICS, *PCLS_IO_STATISTICS, CLFS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS, CLS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], PCLFS_IO_STATISTICS, PCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PCLS_IO_STATISTICS, PCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PPCLS_IO_STATISTICS, PPCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], _CLS_IO_STATISTICS, kernel.clfs_io_statistics, kstruct_a_2e43db78-8c4e-462f-ad85-8c799be2f2e3.xml, wdm/CLFS_IO_STATISTICS, wdm/CLS_IO_STATISTICS, wdm/PCLFS_IO_STATISTICS, wdm/PCLS_IO_STATISTICS, wdm/PPCLFS_IO_STATISTICS, wdm/PPCLS_IO_STATISTICS",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS",
+  "f1_keywords": [
+    "_CLS_IO_STATISTICS",
+    "wdm/_CLS_IO_STATISTICS",
+    "PCLS_IO_STATISTICS",
+    "wdm/PCLS_IO_STATISTICS",
+    "CLS_IO_STATISTICS",
+    "wdm/CLS_IO_STATISTICS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_CLS_IO_STATISTICS",
+    "PCLS_IO_STATISTICS",
+    "CLS_IO_STATISTICS"
+  ]
+}

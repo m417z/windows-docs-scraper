@@ -1,0 +1,3 @@
+VOID DrvDestroyFont(
+  FONTOBJ *pfo
+);

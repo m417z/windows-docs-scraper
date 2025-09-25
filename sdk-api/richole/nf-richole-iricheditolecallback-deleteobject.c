@@ -1,0 +1,3 @@
+HRESULT DeleteObject(
+  LPOLEOBJECT lpoleobj
+);

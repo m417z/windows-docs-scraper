@@ -1,0 +1,6 @@
+typedef struct _KERB_ADD_BINDING_CACHE_ENTRY_REQUEST {
+  KERB_PROTOCOL_MESSAGE_TYPE MessageType;
+  UNICODE_STRING             RealmName;
+  UNICODE_STRING             KdcAddress;
+  ULONG                      AddressType;
+} KERB_ADD_BINDING_CACHE_ENTRY_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_REQUEST;

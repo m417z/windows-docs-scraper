@@ -1,0 +1,3 @@
+HRESULT ConfirmEncryptionLoss(
+  IShellItem *psiSource
+);

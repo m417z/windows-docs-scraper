@@ -1,0 +1,48 @@
+{
+  "UID": "NC:pcivirt.READ_WRITE_MITIGATED_REGISTER",
+  "title": "READ_WRITE_MITIGATED_REGISTER (pcivirt.h)",
+  "description": "Reads or writes to mitigated address spaces.",
+  "old-location": "pci\\read_write_mitigated_registers.htm",
+  "tech.root": "PCI",
+  "ms.date": "02/24/2018",
+  "keywords": [
+    "READ_WRITE_MITIGATED_REGISTER callback"
+  ],
+  "ms.keywords": "*PREAD_WRITE_MITIGATED_REGISTER, *PREAD_WRITE_MITIGATED_REGISTER callback function pointer [Buses], PCI.read_write_mitigated_registers, READ_WRITE_MITIGATED_REGISTER, ReadWriteMitigatedRegister, ReadWriteMitigatedRegister callback function [Buses], pcivirt/ReadWriteMitigatedRegister",
+  "req.header": "pcivirt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "PARCLASS_INFORMATION, *PPARCLASS_INFORMATION",
+  "f1_keywords": [
+    "READ_WRITE_MITIGATED_REGISTER",
+    "pcivirt/READ_WRITE_MITIGATED_REGISTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Pcivirt.h"
+  ],
+  "api_name": [
+    "READ_WRITE_MITIGATED_REGISTER"
+  ]
+}

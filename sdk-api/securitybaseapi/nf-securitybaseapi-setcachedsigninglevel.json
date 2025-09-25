@@ -1,0 +1,53 @@
+{
+  "UID": "NF:securitybaseapi.SetCachedSigningLevel",
+  "tech.root": "security",
+  "title": "SetCachedSigningLevel (securitybaseapi.h)",
+  "ms.date": "04/10/2023",
+  "targetos": "Windows",
+  "description": "Sets the cached signing level.",
+  "ms.keywords": "SetCachedSigningLevel",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "kernel32.dll",
+  "req.header": "securitybaseapi.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-security-base-l1-2-2.dll",
+    "api-ms-win-security-base-l1-2-1.dll",
+    "api-ms-win-security-base-l1-2-0.dll",
+    "securitybaseapi.h"
+  ],
+  "api_name": [
+    "SetCachedSigningLevel"
+  ],
+  "f1_keywords": [
+    "SetCachedSigningLevel",
+    "securitybaseapi/SetCachedSigningLevel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "SetCachedSigningLevel"
+  ]
+}

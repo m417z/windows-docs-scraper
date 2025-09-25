@@ -1,0 +1,67 @@
+{
+  "UID": "NF:pdh.PdhAddCounterW",
+  "title": "PdhAddCounterW function (pdh.h)",
+  "description": "Adds the specified counter to the query. (Unicode)",
+  "helpviewer_keywords": [
+    "PdhAddCounter",
+    "PdhAddCounter function [Perf]",
+    "PdhAddCounterW",
+    "_win32_pdhaddcounter",
+    "base.pdhaddcounter",
+    "pdh/PdhAddCounter",
+    "pdh/PdhAddCounterW",
+    "perf.pdhaddcounter"
+  ],
+  "old-location": "perf\\pdhaddcounter.htm",
+  "tech.root": "perf",
+  "ms.assetid": "b8b9a332-ce28-46d4-92e2-91f9f6c24da5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PdhAddCounter, PdhAddCounter function [Perf], PdhAddCounterA, PdhAddCounterW, _win32_pdhaddcounter, base.pdhaddcounter, pdh/PdhAddCounter, pdh/PdhAddCounterA, pdh/PdhAddCounterW, perf.pdhaddcounter",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhAddCounterW (Unicode) and PdhAddCounterA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhAddCounterW",
+    "pdh/PdhAddCounterW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-eventing-pdh-l1-1-3.dll",
+    "ext-ms-win-eventing-pdh-l1-1-2.dll",
+    "ext-ms-win-eventing-pdh-l1-1-1.dll",
+    "ext-ms-win-eventing-pdh-l1-1-0.dll",
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhAddCounter",
+    "PdhAddCounterA",
+    "PdhAddCounterW"
+  ]
+}

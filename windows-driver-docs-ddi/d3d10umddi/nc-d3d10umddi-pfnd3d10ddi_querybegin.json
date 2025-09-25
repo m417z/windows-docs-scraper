@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10DDI_QUERYBEGIN",
+  "title": "PFND3D10DDI_QUERYBEGIN (d3d10umddi.h)",
+  "description": "The QueryBegin function marks the beginning of a sequence of graphics commands for a query and transitions the query to the \"building\" state.",
+  "old-location": "display\\querybegin.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10DDI_QUERYBEGIN callback function"
+  ],
+  "ms.keywords": "PFND3D10DDI_QUERYBEGIN, PFND3D10DDI_QUERYBEGIN callback, QueryBegin, QueryBegin callback function [Display Devices], UserModeDisplayDriverDx10_Functions_d456daf9-09b9-4174-8eba-7591ec45cd20.xml, d3d10umddi/QueryBegin, display.querybegin",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10DDI_QUERYBEGIN",
+    "d3d10umddi/PFND3D10DDI_QUERYBEGIN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10DDI_QUERYBEGIN"
+  ]
+}

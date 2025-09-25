@@ -1,0 +1,4 @@
+typedef struct _WS_DECIMAL_DESCRIPTION {
+  DECIMAL minValue;
+  DECIMAL maxValue;
+} WS_DECIMAL_DESCRIPTION;

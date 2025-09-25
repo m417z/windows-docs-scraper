@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterVolumeInstanceFindClose",
+  "title": "FilterVolumeInstanceFindClose function (fltuser.h)",
+  "description": "The FilterVolumeInstanceFindClose function closes the specified volume instance search handle. FilterVolumeInstanceFindFirst and FilterVolumeInstanceFindNext use this search handle to locate instances on a volume.",
+  "helpviewer_keywords": [
+    "FilterVolumeInstanceFindClose",
+    "FilterVolumeInstanceFindClose function [Installable File System Drivers]",
+    "FltWin32ApiRef_5cdcef76-2a6d-4d64-9af6-09b050073573.xml",
+    "fltuser/FilterVolumeInstanceFindClose",
+    "ifsk.filtervolumeinstancefindclose"
+  ],
+  "old-location": "ifsk\\filtervolumeinstancefindclose.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "4c56bcea-c027-4607-8531-da971e43e763",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterVolumeInstanceFindClose, FilterVolumeInstanceFindClose function [Installable File System Drivers], FltWin32ApiRef_5cdcef76-2a6d-4d64-9af6-09b050073573.xml, fltuser/FilterVolumeInstanceFindClose, ifsk.filtervolumeinstancefindclose",
+  "req.header": "fltuser.h",
+  "req.include-header": "Fltuser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterVolumeInstanceFindClose",
+    "fltuser/FilterVolumeInstanceFindClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterVolumeInstanceFindClose"
+  ]
+}

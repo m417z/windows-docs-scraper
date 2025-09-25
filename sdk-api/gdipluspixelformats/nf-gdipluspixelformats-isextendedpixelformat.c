@@ -1,0 +1,3 @@
+BOOL IsExtendedPixelFormat(
+  PixelFormat pixfmt
+);

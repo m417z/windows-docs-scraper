@@ -1,0 +1,75 @@
+{
+  "UID": "NF:certif.ICertServerPolicy.SetCertificateExtension",
+  "title": "ICertServerPolicy::SetCertificateExtension (certif.h)",
+  "description": "Adds a new extension to the certificate.",
+  "helpviewer_keywords": [
+    "CCertServerPolicy object [Security]",
+    "SetCertificateExtension method",
+    "EXTENSION_CRITICAL_FLAG",
+    "EXTENSION_DISABLE_FLAG",
+    "ICertServerPolicy interface [Security]",
+    "SetCertificateExtension method",
+    "ICertServerPolicy.SetCertificateExtension",
+    "ICertServerPolicy::SetCertificateExtension",
+    "PROPTYPE_BINARY",
+    "PROPTYPE_DATE",
+    "PROPTYPE_LONG",
+    "PROPTYPE_STRING",
+    "SetCertificateExtension",
+    "SetCertificateExtension method [Security]",
+    "SetCertificateExtension method [Security]",
+    "CCertServerPolicy object",
+    "SetCertificateExtension method [Security]",
+    "ICertServerPolicy interface",
+    "_certsrv_icertserverpolicy_setcertificateextension",
+    "certif/ICertServerPolicy::SetCertificateExtension",
+    "security.icertserverpolicy_setcertificateextension"
+  ],
+  "old-location": "security\\icertserverpolicy_setcertificateextension.htm",
+  "tech.root": "security",
+  "ms.assetid": "aed8b621-3881-41fe-b7a3-657fecdab351",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CCertServerPolicy object [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertServerPolicy interface [Security],SetCertificateExtension method, ICertServerPolicy.SetCertificateExtension, ICertServerPolicy::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertServerPolicy object, SetCertificateExtension method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateextension, certif/ICertServerPolicy::SetCertificateExtension, security.icertserverpolicy_setcertificateextension",
+  "req.header": "certif.h",
+  "req.include-header": "Certsrv.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Certidl.lib",
+  "req.dll": "Certcli.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICertServerPolicy::SetCertificateExtension",
+    "certif/ICertServerPolicy::SetCertificateExtension"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certcli.dll"
+  ],
+  "api_name": [
+    "ICertServerPolicy.SetCertificateExtension",
+    "CCertServerPolicy.SetCertificateExtension"
+  ]
+}

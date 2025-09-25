@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2",
+  "title": "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 (dispmprt.h)",
+  "description": "Called by a display miniport driver to obtain the display information from the current power-on self-test (POST) display device or the previously running Windows Display Driver Model (WDDM) driver.",
+  "old-location": "display\\dxgkcb_acquire_post_display_ownership2.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback function"
+  ],
+  "ms.keywords": "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback, DxgkcbAcquirePostDisplayOwnership2, DxgkcbAcquirePostDisplayOwnership2 callback function [Display Devices], callback function pointer [Display Devices], display.dxgkcb_acquire_post_display_ownership2, dispmprt/DxgkcbAcquirePostDisplayOwnership2",
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2",
+    "dispmprt/DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2"
+  ]
+}

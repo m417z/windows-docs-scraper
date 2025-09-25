@@ -1,0 +1,3 @@
+DRMEXPORT HRESULT UDAPICALL DRMClearAllRights(
+  [in] DRMPUBHANDLE hIssuanceLicense
+);

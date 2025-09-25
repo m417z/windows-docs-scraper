@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IMiniportWaveCyclic.Init",
+  "title": "IMiniportWaveCyclic::Init method (portcls.h)",
+  "description": "The Init method initializes the WaveCyclic miniport object. Initialization includes verification of the hardware using the resources specified in the resource list.",
+  "old-location": "audio\\iminiportwavecyclic_init.htm",
+  "tech.root": "audio",
+  "ms.date": "03/19/2018",
+  "keywords": [
+    "IMiniportWaveCyclic::Init method"
+  ],
+  "ms.keywords": "IMiniportWaveCyclic, IMiniportWaveCyclic::Init, IMiniportWavweCyclic interface [Audio Devices], Init method, IMiniportWavweCyclic::Init, Init method [Audio Devices], Init method [Audio Devices], IMiniportWavweCyclic interface, Init,IMiniportWaveCyclic.Init, audio.iminiportwavecyclic_init, audmp-routines_d18e9242-160d-4f55-9204-2e425b1f1669.xml, portcls/IMiniportWavweCyclic::Init",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "PC_EXIT_LATENCY, *PPC_EXIT_LATENCY",
+  "f1_keywords": [
+    "IMiniportWaveCyclic::Init",
+    "portcls/IMiniportWaveCyclic::Init"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IMiniportWaveCyclic::Init"
+  ]
+}

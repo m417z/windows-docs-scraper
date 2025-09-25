@@ -1,0 +1,23 @@
+typedef struct tagPDEXW {
+  DWORD            lStructSize;
+  HWND             hwndOwner;
+  HGLOBAL          hDevMode;
+  HGLOBAL          hDevNames;
+  HDC              hDC;
+  DWORD            Flags;
+  DWORD            Flags2;
+  DWORD            ExclusionFlags;
+  DWORD            nPageRanges;
+  DWORD            nMaxPageRanges;
+  LPPRINTPAGERANGE lpPageRanges;
+  DWORD            nMinPage;
+  DWORD            nMaxPage;
+  DWORD            nCopies;
+  HINSTANCE        hInstance;
+  LPCWSTR          lpPrintTemplateName;
+  LPUNKNOWN        lpCallback;
+  DWORD            nPropertyPages;
+  HPROPSHEETPAGE   *lphPropertyPages;
+  DWORD            nStartPage;
+  DWORD            dwResultAction;
+} PRINTDLGEXW, *LPPRINTDLGEXW;

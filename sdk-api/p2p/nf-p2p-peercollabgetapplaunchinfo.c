@@ -1,0 +1,3 @@
+NOT_BUILD_WINDOWS_DEPRECATE HRESULT PeerCollabGetAppLaunchInfo(
+  [out] PPEER_APP_LAUNCH_INFO *ppLaunchInfo
+);

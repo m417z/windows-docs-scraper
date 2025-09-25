@@ -1,0 +1,4 @@
+typedef enum _UDECX_WDF_DEVICE_RESET_ACTION {
+  UdecxWdfDeviceResetActionResetEachUsbDevice,
+  UdecxWdfDeviceResetActionResetWdfDevice
+} UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION;

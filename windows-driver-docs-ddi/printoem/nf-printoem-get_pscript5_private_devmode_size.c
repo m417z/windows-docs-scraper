@@ -1,0 +1,3 @@
+void GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE(
+  pdm
+);

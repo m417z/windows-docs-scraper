@@ -1,0 +1,4 @@
+typedef struct _D3D_SHADER_MACRO {
+  LPCSTR Name;
+  LPCSTR Definition;
+} D3D_SHADER_MACRO, *LPD3D_SHADER_MACRO;

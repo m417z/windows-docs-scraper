@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_DESTROYPROTECTEDSESSION",
+  "title": "DXGKDDI_DESTROYPROTECTEDSESSION (d3dkmddi.h)",
+  "description": "The DXGKDDI_DESTROYPROTECTEDSESSION callback function destroys a protected session and returns STATUS_SUCCESS on successful completion.",
+  "old-location": "display\\dxgkddi_destroyprotectedsession.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_DESTROYPROTECTEDSESSION callback function"
+  ],
+  "ms.keywords": "DXGKDDI_DESTROYPROTECTEDSESSION, DXGKDDI_DESTROYPROTECTEDSESSION callback, DXGKDDI_DESTROYPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPROTECTEDSESSION, display.dxgkddi_destroyprotectedsession",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "requires_(PASSIVE_LEVEL)",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_DESTROYPROTECTEDSESSION",
+    "d3dkmddi/DXGKDDI_DESTROYPROTECTEDSESSION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_DESTROYPROTECTEDSESSION"
+  ]
+}

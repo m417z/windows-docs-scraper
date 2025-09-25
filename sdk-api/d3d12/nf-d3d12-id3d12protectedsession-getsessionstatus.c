@@ -1,0 +1,1 @@
+D3D12_PROTECTED_SESSION_STATUS GetSessionStatus();

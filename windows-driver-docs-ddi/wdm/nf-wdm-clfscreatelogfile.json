@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.ClfsCreateLogFile",
+  "title": "ClfsCreateLogFile function (wdm.h)",
+  "description": "The ClfsCreateLogFile routine creates or opens a CLFS stream. If necessary, ClfsCreateLogFile also creates the underlying physical log that holds the stream's records.",
+  "old-location": "kernel\\clfscreatelogfile.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ClfsCreateLogFile function"
+  ],
+  "ms.keywords": "ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, kernel.clfscreatelogfile, wdm/ClfsCreateLogFile",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfs.lib",
+  "req.dll": "Clfs.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ClfsCreateLogFile",
+    "wdm/ClfsCreateLogFile"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Clfs.sys",
+    "Ext-MS-Win-fs-clfs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ClfsCreateLogFile"
+  ]
+}

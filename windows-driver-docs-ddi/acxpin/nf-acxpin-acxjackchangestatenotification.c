@@ -1,0 +1,3 @@
+VOID AcxJackChangeStateNotification(
+  ACXJACK Jack
+);

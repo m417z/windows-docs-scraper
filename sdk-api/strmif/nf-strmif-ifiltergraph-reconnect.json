@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IFilterGraph.Reconnect",
+  "title": "IFilterGraph::Reconnect (strmif.h)",
+  "description": "The Reconnect method disconnects a pin and then reconnects it to the same pin.",
+  "helpviewer_keywords": [
+    "IFilterGraph interface [DirectShow]",
+    "Reconnect method",
+    "IFilterGraph.Reconnect",
+    "IFilterGraph::Reconnect",
+    "IFilterGraphReconnect",
+    "Reconnect",
+    "Reconnect method [DirectShow]",
+    "Reconnect method [DirectShow]",
+    "IFilterGraph interface",
+    "dshow.ifiltergraph_reconnect",
+    "strmif/IFilterGraph::Reconnect"
+  ],
+  "old-location": "dshow\\ifiltergraph_reconnect.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "98a46014-031b-4f35-b1bc-58aef411360b",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IFilterGraph interface [DirectShow],Reconnect method, IFilterGraph.Reconnect, IFilterGraph::Reconnect, IFilterGraphReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_reconnect, strmif/IFilterGraph::Reconnect",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFilterGraph::Reconnect",
+    "strmif/IFilterGraph::Reconnect"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFilterGraph.Reconnect"
+  ]
+}

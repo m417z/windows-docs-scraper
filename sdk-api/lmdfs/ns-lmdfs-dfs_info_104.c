@@ -1,0 +1,3 @@
+typedef struct _DFS_INFO_104 {
+  DFS_TARGET_PRIORITY TargetPriority;
+} DFS_INFO_104, *PDFS_INFO_104, *LPDFS_INFO_104;

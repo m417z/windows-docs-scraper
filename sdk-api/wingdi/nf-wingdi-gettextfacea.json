@@ -1,0 +1,62 @@
+{
+  "UID": "NF:wingdi.GetTextFaceA",
+  "title": "GetTextFaceA function (wingdi.h)",
+  "description": "The GetTextFace function retrieves the typeface name of the font that is selected into the specified device context. (ANSI)",
+  "helpviewer_keywords": [
+    "GetTextFaceA",
+    "wingdi/GetTextFaceA"
+  ],
+  "old-location": "gdi\\gettextface.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "c4c8c8f5-3651-481b-a55f-da7f49d92f3a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetTextFaceW, _win32_GetTextFace, gdi.gettextface, wingdi/GetTextFace, wingdi/GetTextFaceA, wingdi/GetTextFaceW",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetTextFaceW (Unicode) and GetTextFaceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetTextFaceA",
+    "wingdi/GetTextFaceA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "Ext-MS-Win-GDI-Font-l1-1-0.dll",
+    "Ext-MS-Win-GDI-Font-l1-1-1.dll",
+    "ext-ms-win-gdi-font-l1-1-2.dll",
+    "Ext-MS-Win-GDI-Font-L1-1-3.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "GetTextFace",
+    "GetTextFaceA",
+    "GetTextFaceW"
+  ]
+}

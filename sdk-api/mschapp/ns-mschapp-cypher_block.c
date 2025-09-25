@@ -1,0 +1,3 @@
+typedef struct _CYPHER_BLOCK {
+  CHAR data[CYPHER_BLOCK_LENGTH];
+} CYPHER_BLOCK;

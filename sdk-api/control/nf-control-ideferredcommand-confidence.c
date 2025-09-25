@@ -1,0 +1,3 @@
+HRESULT Confidence(
+  LONG *pConfidence
+);

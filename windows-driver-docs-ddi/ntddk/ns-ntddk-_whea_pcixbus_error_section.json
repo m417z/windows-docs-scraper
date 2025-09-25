@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntddk._WHEA_PCIXBUS_ERROR_SECTION",
+  "title": "WHEA_PCIXBUS_ERROR_SECTION (ntddk.h)",
+  "description": "The WHEA_PCIXBUS_ERROR_SECTION structure describes PCI or PCI-X bus error data.",
+  "tech.root": "whea",
+  "ms.date": "01/11/2023",
+  "keywords": [
+    "WHEA_PCIXBUS_ERROR_SECTION structure"
+  ],
+  "ms.keywords": "*PWHEA_PCIXBUS_ERROR, *PWHEA_PCIXBUS_ERROR_SECTION, PWHEA_PCIXBUS_ERROR_SECTION, PWHEA_PCIXBUS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIXBUS_ERROR, WHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIXBUS_ERROR_SECTION, ntddk/PWHEA_PCIXBUS_ERROR_SECTION, ntddk/WHEA_PCIXBUS_ERROR_SECTION, whea.whea_pcixbus_error_section, whearef_6979fd7e-8c18-443b-b9be-1e78316dcd7d.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WHEA_PCIXBUS_ERROR_SECTION, *PWHEA_PCIXBUS_ERROR_SECTION",
+  "f1_keywords": [
+    "_WHEA_PCIXBUS_ERROR_SECTION",
+    "ntddk/_WHEA_PCIXBUS_ERROR_SECTION",
+    "PWHEA_PCIXBUS_ERROR_SECTION",
+    "ntddk/PWHEA_PCIXBUS_ERROR_SECTION",
+    "WHEA_PCIXBUS_ERROR_SECTION",
+    "ntddk/WHEA_PCIXBUS_ERROR_SECTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_WHEA_PCIXBUS_ERROR_SECTION",
+    "PWHEA_PCIXBUS_ERROR_SECTION",
+    "WHEA_PCIXBUS_ERROR_SECTION"
+  ]
+}

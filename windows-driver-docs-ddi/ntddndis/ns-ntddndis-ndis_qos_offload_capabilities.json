@@ -1,0 +1,47 @@
+{
+  "UID": "NS:ntddndis._NDIS_QOS_OFFLOAD_CAPABILITIES",
+  "title": "NDIS_QOS_OFFLOAD_CAPABILITIES",
+  "ms.date": "10/30/2020",
+  "targetos": "Windows",
+  "description": "The NDIS_QOS_OFFLOAD_CAPABILITIES structure specifies the hardware and current Hardware Quality of Service (QoS) capabilities of a miniport adapter.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddndis.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.85 and later.",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "NDIS_QOS_OFFLOAD_CAPABILITIES, *PNDIS_QOS_OFFLOAD_CAPABILITIES",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_QOS_OFFLOAD_CAPABILITIES",
+    "PNDIS_QOS_OFFLOAD_CAPABILITIES",
+    "NDIS_QOS_OFFLOAD_CAPABILITIES"
+  ],
+  "f1_keywords": [
+    "_NDIS_QOS_OFFLOAD_CAPABILITIES",
+    "ntddndis/_NDIS_QOS_OFFLOAD_CAPABILITIES",
+    "PNDIS_QOS_OFFLOAD_CAPABILITIES",
+    "ntddndis/PNDIS_QOS_OFFLOAD_CAPABILITIES",
+    "NDIS_QOS_OFFLOAD_CAPABILITIES",
+    "ntddndis/NDIS_QOS_OFFLOAD_CAPABILITIES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

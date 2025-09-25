@@ -1,0 +1,3 @@
+void SetRadiusX(
+  FLOAT radiusX
+);

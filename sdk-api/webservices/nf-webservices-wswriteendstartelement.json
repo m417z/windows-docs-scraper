@@ -1,0 +1,57 @@
+{
+  "UID": "NF:webservices.WsWriteEndStartElement",
+  "title": "WsWriteEndStartElement function (webservices.h)",
+  "description": "Forces the writer to commit the current element and prevent further attributes from being written to the element.",
+  "helpviewer_keywords": [
+    "WsWriteEndStartElement",
+    "WsWriteEndStartElement function [Web Services for Windows]",
+    "webservices/WsWriteEndStartElement",
+    "wsw.wswriteendstartelement"
+  ],
+  "old-location": "wsw\\wswriteendstartelement.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "56bf55f8-978c-4f03-9ace-f992530927c2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WsWriteEndStartElement, WsWriteEndStartElement function [Web Services for Windows], webservices/WsWriteEndStartElement, wsw.wswriteendstartelement",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WebServices.lib",
+  "req.dll": "WebServices.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WsWriteEndStartElement",
+    "webservices/WsWriteEndStartElement"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WebServices.dll"
+  ],
+  "api_name": [
+    "WsWriteEndStartElement"
+  ]
+}

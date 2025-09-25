@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ktmw32.CommitEnlistment",
+  "title": "CommitEnlistment function (ktmw32.h)",
+  "description": "Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).",
+  "helpviewer_keywords": [
+    "CommitEnlistment",
+    "CommitEnlistment function [Files]",
+    "fs.commitenlistment",
+    "ktmw32/CommitEnlistment"
+  ],
+  "old-location": "fs\\commitenlistment.htm",
+  "tech.root": "fs",
+  "ms.assetid": "d1e1043d-2db3-4f05-affc-2d32744baf10",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment",
+  "req.header": "ktmw32.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "KtmW32.lib",
+  "req.dll": "KtmW32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CommitEnlistment",
+    "ktmw32/CommitEnlistment"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "KtmW32.dll"
+  ],
+  "api_name": [
+    "CommitEnlistment"
+  ]
+}

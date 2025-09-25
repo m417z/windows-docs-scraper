@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IFilterChain.PauseChain",
+  "title": "IFilterChain::PauseChain (strmif.h)",
+  "description": "The PauseChain method switches all the filters in a filter chain into a paused state.",
+  "helpviewer_keywords": [
+    "IFilterChain interface [DirectShow]",
+    "PauseChain method",
+    "IFilterChain.PauseChain",
+    "IFilterChain::PauseChain",
+    "IFilterChainPauseChain",
+    "PauseChain",
+    "PauseChain method [DirectShow]",
+    "PauseChain method [DirectShow]",
+    "IFilterChain interface",
+    "dshow.ifilterchain_pausechain",
+    "strmif/IFilterChain::PauseChain"
+  ],
+  "old-location": "dshow\\ifilterchain_pausechain.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "a153ebf6-1d0a-45d0-ad2a-eb1eda62da2c",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IFilterChain interface [DirectShow],PauseChain method, IFilterChain.PauseChain, IFilterChain::PauseChain, IFilterChainPauseChain, PauseChain, PauseChain method [DirectShow], PauseChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_pausechain, strmif/IFilterChain::PauseChain",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFilterChain::PauseChain",
+    "strmif/IFilterChain::PauseChain"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFilterChain.PauseChain"
+  ]
+}

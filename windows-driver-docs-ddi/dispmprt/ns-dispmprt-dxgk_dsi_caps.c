@@ -1,0 +1,20 @@
+typedef struct _DXGK_DSI_CAPS {
+  BYTE DSITypeMajor;
+  BYTE DSITypeMinor;
+  BYTE SpecVersionMajor;
+  BYTE SpecVersionMinor;
+  BYTE SpecVersionPatch;
+  WORD TargetMaximumReturnPacketSize;
+  BYTE ResultCodeFlags;
+  BYTE ResultCodeStatus;
+  BYTE Revision;
+  BYTE Level;
+  BYTE DeviceClassHi;
+  BYTE DeviceClassLo;
+  BYTE ManufacturerHi;
+  BYTE ManufacturerLo;
+  BYTE ProductHi;
+  BYTE ProductLo;
+  BYTE LengthHi;
+  BYTE LengthLo;
+} DXGK_DSI_CAPS, *PDXGK_DSI_CAPS;

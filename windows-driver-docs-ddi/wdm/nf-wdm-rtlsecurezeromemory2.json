@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.RtlSecureZeroMemory2",
+  "tech.root": "kernel",
+  "title": "RtlSecureZeroMemory2 (wdm.h)",
+  "ms.date": "03/26/2024",
+  "targetos": "Windows",
+  "description": "Provides a convenience wrapper around RtlFillVolatileMemory and is identical to RtlZeroVolatileMemory.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "volatileaccessk.lib (Kernel mode), volatileaccessu.lib (User mode)",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "RtlSecureZeroMemory2"
+  ],
+  "f1_keywords": [
+    "RtlSecureZeroMemory2",
+    "wdm/RtlSecureZeroMemory2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "RtlSecureZeroMemory2"
+  ]
+}

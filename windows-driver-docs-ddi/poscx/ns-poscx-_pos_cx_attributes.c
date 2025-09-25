@@ -1,0 +1,6 @@
+typedef struct _POS_CX_ATTRIBUTES {
+  PFN_POS_CX_DEVICE_OWNERSHIP_CHANGE EvtDeviceOwnershipChange;
+  PFN_POS_CX_DEVICE_REMOTE_CLAIM     EvtDeviceRemoteClaim;
+  PFN_POS_CX_DEVICE_REMOTE_RELEASE   EvtDeviceRemoteRelease;
+  PFN_POS_CX_DEVICE_REMOTE_RETAIN    EvtDeviceRemoteRetain;
+} POS_CX_ATTRIBUTES;

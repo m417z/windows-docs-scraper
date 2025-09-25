@@ -1,0 +1,5 @@
+typedef struct _PSAPI_WS_WATCH_INFORMATION_EX {
+  PSAPI_WS_WATCH_INFORMATION BasicInfo;
+  ULONG_PTR                  FaultingThreadId;
+  ULONG_PTR                  Flags;
+} PSAPI_WS_WATCH_INFORMATION_EX, *PPSAPI_WS_WATCH_INFORMATION_EX;

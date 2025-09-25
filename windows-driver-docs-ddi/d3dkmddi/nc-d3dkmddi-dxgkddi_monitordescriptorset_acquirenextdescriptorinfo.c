@@ -1,0 +1,8 @@
+DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO DxgkddiMonitordescriptorsetAcquirenextdescriptorinfo;
+
+NTSTATUS DxgkddiMonitordescriptorsetAcquirenextdescriptorinfo(
+  [in]  IN_CONST_D3DKMDT_HMONITORDESCRIPTORSET hMonitorDescriptorSet,
+  [in]  IN_CONST_PD3DKMDT_MONITOR_DESCRIPTOR_CONST pMonitorDescriptorInfo,
+  [out] DEREF_OUT_CONST_PPD3DKMDT_MONITOR_DESCRIPTOR ppNextMonitorDescriptorInfo
+)
+{...}

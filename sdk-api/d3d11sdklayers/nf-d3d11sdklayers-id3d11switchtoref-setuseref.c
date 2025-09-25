@@ -1,0 +1,3 @@
+BOOL SetUseRef(
+  BOOL UseRef
+);

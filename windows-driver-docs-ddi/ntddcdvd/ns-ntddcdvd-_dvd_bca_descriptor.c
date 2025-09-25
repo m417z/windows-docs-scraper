@@ -1,0 +1,3 @@
+typedef struct _DVD_BCA_DESCRIPTOR {
+  UCHAR BCAInformation[0];
+} DVD_BCA_DESCRIPTOR, *PDVD_BCA_DESCRIPTOR;

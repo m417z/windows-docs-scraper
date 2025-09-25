@@ -1,0 +1,49 @@
+{
+  "UID": "NS:mstcpip._TIMESTAMPING_CONFIG",
+  "title": "TIMESTAMPING_CONFIG",
+  "description": "Describes the input structure used by the [SIO_TIMESTAMPING](/windows/win32/winsock/winsock-ioctls#sio_timestamping) IOCTL to configure timestamp reception for a datagram socket.",
+  "ms.date": "10/07/2020",
+  "targetos": "Windows",
+  "tech.root": "winsock",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "mstcpip.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.typenames": "TIMESTAMPING_CONFIG, *PTIMESTAMPING_CONFIG",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "mstcpip.h"
+  ],
+  "api_name": [
+    "_TIMESTAMPING_CONFIG",
+    "PTIMESTAMPING_CONFIG",
+    "TIMESTAMPING_CONFIG"
+  ],
+  "f1_keywords": [
+    "_TIMESTAMPING_CONFIG",
+    "mstcpip/_TIMESTAMPING_CONFIG",
+    "PTIMESTAMPING_CONFIG",
+    "mstcpip/PTIMESTAMPING_CONFIG",
+    "TIMESTAMPING_CONFIG",
+    "mstcpip/TIMESTAMPING_CONFIG"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

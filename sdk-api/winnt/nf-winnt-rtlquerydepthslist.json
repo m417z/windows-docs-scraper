@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winnt.RtlQueryDepthSList",
+  "title": "RtlQueryDepthSList function (winnt.h)",
+  "description": "Retrieves the number of entries in the specified singly linked list. (RtlQueryDepthSList)",
+  "helpviewer_keywords": [
+    "RtlQueryDepthSList",
+    "RtlQueryDepthSList function",
+    "base.rtlquerydepthslist",
+    "winnt/RtlQueryDepthSList"
+  ],
+  "old-location": "base\\rtlquerydepthslist.htm",
+  "tech.root": "backup",
+  "ms.assetid": "5a73b181-e1ea-459a-b3b0-6cf16980930c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepthslist, winnt/RtlQueryDepthSList",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ntdll.lib",
+  "req.dll": "ntdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlQueryDepthSList",
+    "winnt/RtlQueryDepthSList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlQueryDepthSList"
+  ]
+}

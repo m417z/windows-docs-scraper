@@ -1,0 +1,4 @@
+typedef struct CLUSPROP_VALUE {
+  CLUSPROP_SYNTAX Syntax;
+  DWORD           cbLength;
+} CLUSPROP_VALUE, *PCLUSPROP_VALUE;

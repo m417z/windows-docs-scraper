@@ -1,0 +1,4 @@
+typedef struct _MPR_CREDENTIALSEX_1 {
+  DWORD  dwSize;
+  LPBYTE lpbCredentialsInfo;
+} MPR_CREDENTIALSEX_1, *PMPR_CREDENTIALSEX_1;

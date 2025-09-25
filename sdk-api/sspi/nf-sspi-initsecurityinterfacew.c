@@ -1,0 +1,1 @@
+KSECDDDECLSPEC PSecurityFunctionTableW SEC_ENTRY InitSecurityInterfaceW();

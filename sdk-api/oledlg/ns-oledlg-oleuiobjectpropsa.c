@@ -1,0 +1,12 @@
+typedef struct tagOLEUIOBJECTPROPSA {
+  DWORD              cbStruct;
+  DWORD              dwFlags;
+  LPPROPSHEETHEADERA lpPS;
+  DWORD              dwObject;
+  LPOLEUIOBJINFOA    lpObjInfo;
+  DWORD              dwLink;
+  LPOLEUILINKINFOA   lpLinkInfo;
+  LPOLEUIGNRLPROPSA  lpGP;
+  LPOLEUIVIEWPROPSA  lpVP;
+  LPOLEUILINKPROPSA  lpLP;
+} OLEUIOBJECTPROPSA, *POLEUIOBJECTPROPSA, *LPOLEUIOBJECTPROPSA;

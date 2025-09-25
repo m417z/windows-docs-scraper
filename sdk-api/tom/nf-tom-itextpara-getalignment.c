@@ -1,0 +1,3 @@
+HRESULT GetAlignment(
+  long *pValue
+);

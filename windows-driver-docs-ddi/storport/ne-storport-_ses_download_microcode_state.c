@@ -1,0 +1,7 @@
+typedef enum _SES_DOWNLOAD_MICROCODE_STATE {
+  SesDownloadMcStateNoneInProgress,
+  SesDownloadMcStateInProgress,
+  SesDownloadMcStateCompletedPendingReset,
+  SesDownloadMcStateCompletedPendingPowerOn,
+  SesDownloadMcStateCompletedPendingActivation
+} SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE;

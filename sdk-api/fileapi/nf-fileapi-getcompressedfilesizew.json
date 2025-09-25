@@ -1,0 +1,71 @@
+{
+  "UID": "NF:fileapi.GetCompressedFileSizeW",
+  "title": "GetCompressedFileSizeW function (fileapi.h)",
+  "description": "Retrieves the actual number of bytes of disk storage used to store a specified file. (Unicode)",
+  "helpviewer_keywords": [
+    "GetCompressedFileSize",
+    "GetCompressedFileSize function [Files]",
+    "GetCompressedFileSizeW",
+    "_win32_getcompressedfilesize",
+    "base.getcompressedfilesize",
+    "fileapi/GetCompressedFileSize",
+    "fileapi/GetCompressedFileSizeW",
+    "fs.getcompressedfilesize"
+  ],
+  "old-location": "fs\\getcompressedfilesize.htm",
+  "tech.root": "fs",
+  "ms.assetid": "cca91080-2270-4996-8693-933c585ff168",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCompressedFileSize, GetCompressedFileSize function [Files], GetCompressedFileSizeA, GetCompressedFileSizeW, _win32_getcompressedfilesize, base.getcompressedfilesize, fileapi/GetCompressedFileSize, fileapi/GetCompressedFileSizeA, fileapi/GetCompressedFileSizeW, fs.getcompressedfilesize",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h, WinBase.h, Fileapi.h, Windows.h, WinBase.h, Fileapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetCompressedFileSizeW (Unicode) and GetCompressedFileSizeA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetCompressedFileSizeW",
+    "fileapi/GetCompressedFileSizeW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "GetCompressedFileSize",
+    "GetCompressedFileSizeA",
+    "GetCompressedFileSizeW"
+  ]
+}

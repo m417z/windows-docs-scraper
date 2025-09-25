@@ -1,0 +1,54 @@
+{
+  "UID": "NS:vpci._VPCI_WRITE_BLOCK_INPUT",
+  "title": "_VPCI_WRITE_BLOCK_INPUT (vpci.h)",
+  "description": "The VPCI_WRITE_BLOCK_INPUT structure is used in an IOCTL_VPCI_WRITE_BLOCK IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF).",
+  "old-location": "kernel\\vpci_write_block_input.htm",
+  "tech.root": "pci",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "VPCI_WRITE_BLOCK_INPUT structure"
+  ],
+  "ms.keywords": "*PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_WRITE_BLOCK_INPUT, kernel.vpci_write_block_input, vpci/PVPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT",
+  "req.header": "vpci.h",
+  "req.include-header": "Vpci.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT",
+  "f1_keywords": [
+    "_VPCI_WRITE_BLOCK_INPUT",
+    "vpci/_VPCI_WRITE_BLOCK_INPUT",
+    "PVPCI_WRITE_BLOCK_INPUT",
+    "vpci/PVPCI_WRITE_BLOCK_INPUT",
+    "VPCI_WRITE_BLOCK_INPUT",
+    "vpci/VPCI_WRITE_BLOCK_INPUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vpci.h"
+  ],
+  "api_name": [
+    "_VPCI_WRITE_BLOCK_INPUT",
+    "PVPCI_WRITE_BLOCK_INPUT",
+    "VPCI_WRITE_BLOCK_INPUT"
+  ]
+}

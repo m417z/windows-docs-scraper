@@ -1,0 +1,3 @@
+void ACX_AUDIOMODULE_CONFIG_INIT(
+  cfg
+);

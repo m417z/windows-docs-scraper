@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wsk.PFN_WSK_RECEIVE",
+  "title": "PFN_WSK_RECEIVE (wsk.h)",
+  "description": "The WskReceive function receives data over a connection-oriented or stream socket from a remote transport address.",
+  "old-location": "netvista\\wskreceive.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PFN_WSK_RECEIVE callback function"
+  ],
+  "ms.keywords": "PFN_WSK_RECEIVE, PFN_WSK_RECEIVE callback, WskReceive, WskReceive callback function [Network Drivers Starting with Windows Vista], netvista.wskreceive, wsk/WskReceive, wskref_7a0473b3-5687-44e8-b505-a346e9546807.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_WSK_RECEIVE",
+    "wsk/PFN_WSK_RECEIVE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wsk.h"
+  ],
+  "api_name": [
+    "PFN_WSK_RECEIVE"
+  ]
+}

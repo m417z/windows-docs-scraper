@@ -1,0 +1,3 @@
+void RpcSsFree(
+  void *NodeToFree
+);

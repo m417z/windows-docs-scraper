@@ -1,0 +1,8 @@
+PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043 Pfnd3d12ddiCalcprivateopenedheapandresourcesizes0043;
+
+D3D12DDI_HEAP_AND_RESOURCE_SIZES Pfnd3d12ddiCalcprivateopenedheapandresourcesizes0043(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_OPENHEAP_0003 *unnamedParam2,
+  D3D12DDI_HPROTECTEDRESOURCESESSION_0030 unnamedParam3
+)
+{...}

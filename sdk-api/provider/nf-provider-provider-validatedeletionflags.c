@@ -1,0 +1,3 @@
+HRESULT ValidateDeletionFlags(
+  long lFlags
+);

@@ -1,0 +1,5 @@
+typedef struct _DDGETVERSIONNUMBER {
+  DWORD ddRVal;
+  DWORD dwMajorVersion;
+  DWORD dwMinorVersion;
+} DDGETVERSIONNUMBER, *LPDDGETVERSIONNUMBER;

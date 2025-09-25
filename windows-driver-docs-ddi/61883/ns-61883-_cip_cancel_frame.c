@@ -1,0 +1,4 @@
+typedef struct _CIP_CANCEL_FRAME {
+  IN HANDLE     hConnect;
+  IN PCIP_FRAME Frame;
+} CIP_CANCEL_FRAME, *PCIP_CANCEL_FRAME;

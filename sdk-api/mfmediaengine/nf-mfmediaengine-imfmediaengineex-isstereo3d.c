@@ -1,0 +1,1 @@
+BOOL IsStereo3D();

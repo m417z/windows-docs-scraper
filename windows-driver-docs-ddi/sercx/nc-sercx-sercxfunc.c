@@ -1,0 +1,4 @@
+SERCXFUNC Sercxfunc;
+
+VOID Sercxfunc()
+{...}

@@ -1,0 +1,69 @@
+{
+  "UID": "NF:evntrace.TraceMessage",
+  "title": "TraceMessage function (evntrace.h)",
+  "description": "A RegisterTraceGuids-based (\"Classic\") event provider uses the TraceMessage function to send a message-based (TMF-based WPP) event to an event tracing session.",
+  "helpviewer_keywords": [
+    "PVOID",
+    "TRACE_MESSAGE_COMPONENTID",
+    "TRACE_MESSAGE_GUID",
+    "TRACE_MESSAGE_SEQUENCE",
+    "TRACE_MESSAGE_SYSTEMINFO",
+    "TRACE_MESSAGE_TIMESTAMP",
+    "TraceMessage",
+    "TraceMessage function [ETW]",
+    "_evt_tracemessage",
+    "base.tracemessage",
+    "etw.tracemessage",
+    "evntrace/TraceMessage",
+    "size_t"
+  ],
+  "old-location": "etw\\tracemessage.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "5d81c851-d47e-43f8-97b0-87156f36119a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PVOID, TRACE_MESSAGE_COMPONENTID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessage, TraceMessage function [ETW], _evt_tracemessage, base.tracemessage, etw.tracemessage, evntrace/TraceMessage, size_t",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TraceMessage",
+    "evntrace/TraceMessage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-eventing-classicprovider-l1-1-0.dll"
+  ],
+  "api_name": [
+    "TraceMessage"
+  ]
+}

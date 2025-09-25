@@ -1,0 +1,58 @@
+{
+  "UID": "NF:oleauto.SysAllocStringByteLen",
+  "title": "SysAllocStringByteLen function (oleauto.h)",
+  "description": "Takes an ANSI string as input, and returns a BSTR that contains an ANSI string. Does not perform any ANSI-to-Unicode translation.",
+  "helpviewer_keywords": [
+    "SysAllocStringByteLen",
+    "SysAllocStringByteLen function [Automation]",
+    "_oa96_SysAllocStringByteLen",
+    "automat.sysallocstringbytelen",
+    "oleauto/SysAllocStringByteLen"
+  ],
+  "old-location": "automat\\sysallocstringbytelen.htm",
+  "tech.root": "automat",
+  "ms.assetid": "e7f49441-eff1-4c00-b61f-8522c4e250ef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SysAllocStringByteLen, SysAllocStringByteLen function [Automation], _oa96_SysAllocStringByteLen, automat.sysallocstringbytelen, oleauto/SysAllocStringByteLen",
+  "req.header": "oleauto.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OleAut32.lib",
+  "req.dll": "OleAut32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SysAllocStringByteLen",
+    "oleauto/SysAllocStringByteLen"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "OleAut32.dll"
+  ],
+  "api_name": [
+    "SysAllocStringByteLen"
+  ]
+}

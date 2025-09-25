@@ -1,0 +1,3 @@
+DECLSPEC_DEPRECATED_DDK_WINXP LARGE_INTEGER NTAPI_INLINE RtlConvertLongToLargeInteger(
+  [in] LONG SignedInteger
+);

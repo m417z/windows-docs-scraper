@@ -1,0 +1,49 @@
+{
+  "UID": "NC:netdevice.EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS",
+  "title": "EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS (netdevice.h)",
+  "ms.date": "07/02/2020",
+  "ms.custom": "Fe",
+  "targetos": "Windows",
+  "description": "Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS to collect diagnostics from a failed hardware device and report it to the framework during the device reset and recovery process.",
+  "tech.root": "netvista",
+  "keywords": [
+    "EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS callback function"
+  ],
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "netadaptercx.h",
+  "req.idl": null,
+  "req.include-header": "netadaptercx.h",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": 2.33,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netdevice.h"
+  ],
+  "api_name": [
+    "EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS"
+  ],
+  "f1_keywords": [
+    "netdevice/EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

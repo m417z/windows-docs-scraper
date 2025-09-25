@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_IDENTIFY_NAMESPACE_DATA",
+  "tech.root": "fs",
+  "title": "NVME_IDENTIFY_NAMESPACE_DATA",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains values that indicate capabilities and settings that are specific to a particular namespace.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_IDENTIFY_NAMESPACE_DATA, *PNVME_IDENTIFY_NAMESPACE_DATA",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_IDENTIFY_NAMESPACE_DATA",
+    "NVME_IDENTIFY_NAMESPACE_DATA"
+  ],
+  "f1_keywords": [
+    "PNVME_IDENTIFY_NAMESPACE_DATA",
+    "nvme/PNVME_IDENTIFY_NAMESPACE_DATA",
+    "NVME_IDENTIFY_NAMESPACE_DATA",
+    "nvme/NVME_IDENTIFY_NAMESPACE_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

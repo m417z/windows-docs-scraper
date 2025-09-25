@@ -1,0 +1,65 @@
+{
+  "UID": "NF:msi.MsiInstallMissingComponentW",
+  "title": "MsiInstallMissingComponentW function (msi.h)",
+  "description": "The MsiInstallMissingComponent function installs files that are unexpectedly missing. (Unicode)",
+  "helpviewer_keywords": [
+    "INSTALLSTATE_DEFAULT",
+    "INSTALLSTATE_LOCAL",
+    "INSTALLSTATE_SOURCE",
+    "MsiInstallMissingComponent",
+    "MsiInstallMissingComponent function",
+    "MsiInstallMissingComponentW",
+    "_msi_msiinstallmissingcomponent",
+    "msi/MsiInstallMissingComponent",
+    "msi/MsiInstallMissingComponentW",
+    "setup.msiinstallmissingcomponent"
+  ],
+  "old-location": "setup\\msiinstallmissingcomponent.htm",
+  "tech.root": "setup",
+  "ms.assetid": "81b44b77-e972-409c-b933-8fcae8887266",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiInstallMissingComponent, MsiInstallMissingComponent function, MsiInstallMissingComponentA, MsiInstallMissingComponentW, _msi_msiinstallmissingcomponent, msi/MsiInstallMissingComponent, msi/MsiInstallMissingComponentA, msi/MsiInstallMissingComponentW, setup.msiinstallmissingcomponent",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiInstallMissingComponentW (Unicode) and MsiInstallMissingComponentA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiInstallMissingComponentW",
+    "msi/MsiInstallMissingComponentW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiInstallMissingComponent",
+    "MsiInstallMissingComponentA",
+    "MsiInstallMissingComponentW"
+  ]
+}

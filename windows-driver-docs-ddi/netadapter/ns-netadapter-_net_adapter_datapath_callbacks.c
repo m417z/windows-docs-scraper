@@ -1,0 +1,5 @@
+typedef struct _NET_ADAPTER_DATAPATH_CALLBACKS {
+  ULONG                          Size;
+  PFN_NET_ADAPTER_CREATE_TXQUEUE EvtAdapterCreateTxQueue;
+  PFN_NET_ADAPTER_CREATE_RXQUEUE EvtAdapterCreateRxQueue;
+} NET_ADAPTER_DATAPATH_CALLBACKS;

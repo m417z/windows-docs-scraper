@@ -1,0 +1,3 @@
+NTSTATUS MbbAdapterInitialize(
+  NETADAPTER Adapter
+);

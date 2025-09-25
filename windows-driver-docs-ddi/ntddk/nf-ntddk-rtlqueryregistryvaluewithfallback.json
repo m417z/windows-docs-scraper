@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ntddk.RtlQueryRegistryValueWithFallback",
+  "title": "RtlQueryRegistryValueWithFallback function (ntddk.h)",
+  "description": "Retrieves a value entry for a registry key by using, a primary handle; if not found, uses the fallback handle.",
+  "tech.root": "kernel",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "RtlQueryRegistryValueWithFallback function"
+  ],
+  "ms.keywords": "RtlQueryRegistryValueWithFallback",
+  "req.header": "ntddk.h",
+  "req.include-header": "wdm.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "RtlQueryRegistryValueWithFallback",
+    "ntddk/RtlQueryRegistryValueWithFallback"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlQueryRegistryValueWithFallback"
+  ]
+}

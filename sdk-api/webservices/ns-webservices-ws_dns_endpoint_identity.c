@@ -1,0 +1,4 @@
+typedef struct _WS_DNS_ENDPOINT_IDENTITY {
+  WS_ENDPOINT_IDENTITY identity;
+  WS_STRING            dns;
+} WS_DNS_ENDPOINT_IDENTITY;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterVolumeFindNext",
+  "title": "FilterVolumeFindNext function (fltuser.h)",
+  "description": "The FilterVolumeFindNext function continues a volume search started by a call to FilterVolumeFindFirst.",
+  "helpviewer_keywords": [
+    "FilterVolumeFindNext",
+    "FilterVolumeFindNext function [Installable File System Drivers]",
+    "FltWin32ApiRef_1a90a670-ab51-4fb7-80ba-72a8b66b3b9a.xml",
+    "fltuser/FilterVolumeFindNext",
+    "ifsk.filtervolumefindnext"
+  ],
+  "old-location": "ifsk\\filtervolumefindnext.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "c18085e9-9781-420e-8070-c71982a2bb46",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterVolumeFindNext, FilterVolumeFindNext function [Installable File System Drivers], FltWin32ApiRef_1a90a670-ab51-4fb7-80ba-72a8b66b3b9a.xml, fltuser/FilterVolumeFindNext, ifsk.filtervolumefindnext",
+  "req.header": "fltuser.h",
+  "req.include-header": "FltUser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterVolumeFindNext",
+    "fltuser/FilterVolumeFindNext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterVolumeFindNext"
+  ]
+}

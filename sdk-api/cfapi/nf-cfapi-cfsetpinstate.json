@@ -1,0 +1,57 @@
+{
+  "UID": "NF:cfapi.CfSetPinState",
+  "title": "CfSetPinState function (cfapi.h)",
+  "description": "This sets the pin state of a placeholder, used to represent a user’s intent. Any application (not just the sync provider) can call this function.",
+  "helpviewer_keywords": [
+    "CfSetPinState",
+    "CfSetPinState function",
+    "cfapi/CfSetPinState",
+    "cloudApi.cfsetpinstate"
+  ],
+  "old-location": "cloudapi\\cfsetpinstate.htm",
+  "tech.root": "cloudapi",
+  "ms.assetid": "8B279914-E23A-479B-8621-E83DE1978597",
+  "ms.date": "03/31/2023",
+  "ms.keywords": "CfSetPinState, CfSetPinState function, cfapi/CfSetPinState, cloudApi.cfsetpinstate",
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "CldApi.lib",
+  "req.dll": "CldApi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CfSetPinState",
+    "cfapi/CfSetPinState"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CldApi.dll"
+  ],
+  "api_name": [
+    "CfSetPinState"
+  ]
+}

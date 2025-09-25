@@ -1,0 +1,1 @@
+KPROCESSOR_MODE ExGetPreviousMode();

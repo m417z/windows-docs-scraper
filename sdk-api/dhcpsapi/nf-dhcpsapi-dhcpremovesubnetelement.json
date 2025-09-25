@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpRemoveSubnetElement",
+  "title": "DhcpRemoveSubnetElement function (dhcpsapi.h)",
+  "description": "Removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server.",
+  "helpviewer_keywords": [
+    "DhcpRemoveSubnetElement",
+    "DhcpRemoveSubnetElement function [DHCP]",
+    "dhcp.dhcpremovesubnetelement",
+    "dhcpsapi/DhcpRemoveSubnetElement"
+  ],
+  "old-location": "dhcp\\dhcpremovesubnetelement.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "b27de25f-c96d-4881-9788-495ffe220d61",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpRemoveSubnetElement",
+    "dhcpsapi/DhcpRemoveSubnetElement"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpRemoveSubnetElement"
+  ]
+}

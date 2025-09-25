@@ -1,0 +1,4 @@
+typedef union _PEP_ACPI_OBJECT_NAME {
+  UCHAR Name[4];
+  ULONG NameAsUlong;
+} PEP_ACPI_OBJECT_NAME, *PPEP_ACPI_OBJECT_NAME;

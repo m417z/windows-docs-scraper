@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndGetDevice",
+  "title": "MCIWndGetDevice macro (vfw.h)",
+  "description": "The MCIWndGetDevice macro retrieves the name of the current MCI device. You can use this macro or explicitly send the MCIWNDM_GETDEVICE message.",
+  "helpviewer_keywords": [
+    "MCIWndGetDevice",
+    "MCIWndGetDevice macro [Windows Multimedia]",
+    "_win32_MCIWndGetDevice",
+    "multimedia.mciwndgetdevice",
+    "vfw/MCIWndGetDevice"
+  ],
+  "old-location": "multimedia\\mciwndgetdevice.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "0e918cf0-e9aa-402a-9db6-f9a39c718962",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndGetDevice, MCIWndGetDevice macro [Windows Multimedia], _win32_MCIWndGetDevice, multimedia.mciwndgetdevice, vfw/MCIWndGetDevice",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndGetDevice",
+    "vfw/MCIWndGetDevice"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndGetDevice"
+  ]
+}

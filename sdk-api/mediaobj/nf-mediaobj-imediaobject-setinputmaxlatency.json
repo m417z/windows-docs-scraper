@@ -1,0 +1,65 @@
+{
+  "UID": "NF:mediaobj.IMediaObject.SetInputMaxLatency",
+  "title": "IMediaObject::SetInputMaxLatency (mediaobj.h)",
+  "description": "The SetInputMaxLatency method sets the maximum latency on a specified input stream. For the definition of maximum latency, see IMediaObject::GetInputMaxLatency.",
+  "helpviewer_keywords": [
+    "IMediaObject interface [DirectShow]",
+    "SetInputMaxLatency method",
+    "IMediaObject.SetInputMaxLatency",
+    "IMediaObject::SetInputMaxLatency",
+    "IMediaObjectSetInputMaxLatency",
+    "SetInputMaxLatency",
+    "SetInputMaxLatency method [DirectShow]",
+    "SetInputMaxLatency method [DirectShow]",
+    "IMediaObject interface",
+    "dshow.imediaobject_setinputmaxlatency",
+    "mediaobj/IMediaObject::SetInputMaxLatency"
+  ],
+  "old-location": "dshow\\imediaobject_setinputmaxlatency.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "45fb0caa-cd12-4847-a646-f6fd90c50b81",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaObject interface [DirectShow],SetInputMaxLatency method, IMediaObject.SetInputMaxLatency, IMediaObject::SetInputMaxLatency, IMediaObjectSetInputMaxLatency, SetInputMaxLatency, SetInputMaxLatency method [DirectShow], SetInputMaxLatency method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputmaxlatency, mediaobj/IMediaObject::SetInputMaxLatency",
+  "req.header": "mediaobj.h",
+  "req.include-header": "Dmo.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dmoguids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaObject::SetInputMaxLatency",
+    "mediaobj/IMediaObject::SetInputMaxLatency"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Dmoguids.lib",
+    "Dmoguids.dll"
+  ],
+  "api_name": [
+    "IMediaObject.SetInputMaxLatency"
+  ]
+}

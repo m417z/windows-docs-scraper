@@ -1,0 +1,67 @@
+{
+  "UID": "NF:winuser.TranslateMDISysAccel",
+  "title": "TranslateMDISysAccel function (winuser.h)",
+  "description": "Processes accelerator keystrokes for window menu commands of the multiple-document interface (MDI) child windows associated with the specified MDI client window.",
+  "helpviewer_keywords": [
+    "TranslateMDISysAccel",
+    "TranslateMDISysAccel function [Windows and Messages]",
+    "_win32_TranslateMDISysAccel",
+    "_win32_translatemdisysaccel_cpp",
+    "winmsg.translatemdisysaccel",
+    "winui._win32_translatemdisysaccel",
+    "winuser/TranslateMDISysAccel"
+  ],
+  "old-location": "winmsg\\translatemdisysaccel.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\multipledocumentinterface\\multipledocumentinterfacereference\\multipledocumentinterfacefunctions\\translatemdisysaccel.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TranslateMDISysAccel, TranslateMDISysAccel function [Windows and Messages], _win32_TranslateMDISysAccel, _win32_translatemdisysaccel_cpp, winmsg.translatemdisysaccel, winui._win32_translatemdisysaccel, winuser/TranslateMDISysAccel",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TranslateMDISysAccel",
+    "winuser/TranslateMDISysAccel"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "ext-ms-win-ntuser-window-l1-1-4.dll",
+    "ext-ms-win-ntuser-window-l1-1-3.dll",
+    "ext-ms-win-ntuser-window-l1-1-2.dll",
+    "ext-ms-win-ntuser-window-l1-1-1.dll",
+    "ext-ms-win-ntuser-window-l1-1-0.dll",
+    "User32.dll"
+  ],
+  "api_name": [
+    "TranslateMDISysAccel"
+  ]
+}

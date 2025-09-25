@@ -1,0 +1,6 @@
+typedef struct _SDEV_SECURE_RESOURCE_MEMORY_ENTRY {
+  SDEV_ENTRY_HEADER Header;
+  ULONG             Reserved;
+  ULONGLONG         MemoryAddressBase;
+  ULONGLONG         MemoryAddressLength;
+} SDEV_SECURE_RESOURCE_MEMORY_ENTRY, *PSDEV_SECURE_RESOURCE_MEMORY_ENTRY;

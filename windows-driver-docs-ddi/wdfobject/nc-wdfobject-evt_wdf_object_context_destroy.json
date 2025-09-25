@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfobject.EVT_WDF_OBJECT_CONTEXT_DESTROY",
+  "title": "EVT_WDF_OBJECT_CONTEXT_DESTROY (wdfobject.h)",
+  "description": "A driver's EvtDestroyCallback event callback function performs operations that are associated with the deletion of a framework object.",
+  "old-location": "wdf\\evtdestroycallback.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_OBJECT_CONTEXT_DESTROY callback function"
+  ],
+  "ms.keywords": "DFGenObjectRef_a9194b33-b67b-43bb-8d50-d918576769c0.xml, EVT_WDF_OBJECT_CONTEXT_DESTROY, EVT_WDF_OBJECT_CONTEXT_DESTROY callback, EvtDestroyCallback, EvtDestroyCallback callback function, kmdf.evtdestroycallback, wdf.evtdestroycallback, wdfobject/EvtDestroyCallback",
+  "req.header": "wdfobject.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_OBJECT_CONTEXT_DESTROY",
+    "wdfobject/EVT_WDF_OBJECT_CONTEXT_DESTROY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfobject.h"
+  ],
+  "api_name": [
+    "EVT_WDF_OBJECT_CONTEXT_DESTROY"
+  ]
+}

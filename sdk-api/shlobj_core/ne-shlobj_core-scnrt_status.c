@@ -1,0 +1,4 @@
+typedef enum {
+  SCNRT_ENABLE = 0,
+  SCNRT_DISABLE = 1
+} SCNRT_STATUS;

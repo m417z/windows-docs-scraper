@@ -1,0 +1,7 @@
+PFND3D12DDI_SET_ROOT_SIGNATURE Pfnd3d12ddiSetRootSignature;
+
+VOID Pfnd3d12ddiSetRootSignature(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  D3D12DDI_HROOTSIGNATURE unnamedParam2
+)
+{...}

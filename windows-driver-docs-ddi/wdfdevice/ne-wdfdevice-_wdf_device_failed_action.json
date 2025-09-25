@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdfdevice._WDF_DEVICE_FAILED_ACTION",
+  "title": "_WDF_DEVICE_FAILED_ACTION (wdfdevice.h)",
+  "description": "The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framework will take when a driver reports an unrecoverable software or hardware failure.",
+  "old-location": "wdf\\wdf_device_failed_action.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_DEVICE_FAILED_ACTION enumeration"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION enumeration, WdfDeviceFailedAttemptRestart, WdfDeviceFailedNoRestart, WdfDeviceFailedUndefined, _WDF_DEVICE_FAILED_ACTION, kmdf.wdf_device_failed_action, wdf.wdf_device_failed_action, wdfdevice/WDF_DEVICE_FAILED_ACTION, wdfdevice/WdfDeviceFailedAttemptRestart, wdfdevice/WdfDeviceFailedNoRestart, wdfdevice/WdfDeviceFailedUndefined",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_DEVICE_FAILED_ACTION",
+  "f1_keywords": [
+    "_WDF_DEVICE_FAILED_ACTION",
+    "wdfdevice/_WDF_DEVICE_FAILED_ACTION",
+    "WDF_DEVICE_FAILED_ACTION",
+    "wdfdevice/WDF_DEVICE_FAILED_ACTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfdevice.h"
+  ],
+  "api_name": [
+    "_WDF_DEVICE_FAILED_ACTION",
+    "WDF_DEVICE_FAILED_ACTION"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:msi.MsiInstallMissingFileW",
+  "title": "MsiInstallMissingFileW function (msi.h)",
+  "description": "The MsiInstallMissingFile function installs files that are unexpectedly missing. (Unicode)",
+  "helpviewer_keywords": [
+    "MsiInstallMissingFile",
+    "MsiInstallMissingFile function",
+    "MsiInstallMissingFileW",
+    "_msi_msiinstallmissingfile",
+    "msi/MsiInstallMissingFile",
+    "msi/MsiInstallMissingFileW",
+    "setup.msiinstallmissingfile"
+  ],
+  "old-location": "setup\\msiinstallmissingfile.htm",
+  "tech.root": "setup",
+  "ms.assetid": "289ce1e2-64ac-4222-9d0d-52c8fdd4f9c3",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MsiInstallMissingFile, MsiInstallMissingFile function, MsiInstallMissingFileA, MsiInstallMissingFileW, _msi_msiinstallmissingfile, msi/MsiInstallMissingFile, msi/MsiInstallMissingFileA, msi/MsiInstallMissingFileW, setup.msiinstallmissingfile",
+  "req.header": "msi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "MsiInstallMissingFileW (Unicode) and MsiInstallMissingFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msi.lib",
+  "req.dll": "Msi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MsiInstallMissingFileW",
+    "msi/MsiInstallMissingFileW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msi.dll"
+  ],
+  "api_name": [
+    "MsiInstallMissingFile",
+    "MsiInstallMissingFileA",
+    "MsiInstallMissingFileW"
+  ]
+}

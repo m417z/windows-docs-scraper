@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ProbeForWrite",
+  "title": "ProbeForWrite function (wdm.h)",
+  "description": "The ProbeForWrite routine checks that a user-mode buffer actually resides in the user-mode portion of the address space, is writable, and is correctly aligned.",
+  "old-location": "kernel\\probeforwrite.htm",
+  "tech.root": "kernel",
+  "ms.date": "05/22/2023",
+  "keywords": [
+    "ProbeForWrite function"
+  ],
+  "ms.keywords": "ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, wdm/ProbeForWrite",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlExApcLte2, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ProbeForWrite",
+    "wdm/ProbeForWrite"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ProbeForWrite"
+  ]
+}

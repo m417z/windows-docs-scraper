@@ -1,0 +1,61 @@
+{
+  "UID": "NF:pdh.PdhSetDefaultRealTimeDataSource",
+  "title": "PdhSetDefaultRealTimeDataSource function (pdh.h)",
+  "description": "Specifies the source of the real-time data.",
+  "helpviewer_keywords": [
+    "DATA_SOURCE_REGISTRY",
+    "DATA_SOURCE_WBEM",
+    "PdhSetDefaultRealTimeDataSource",
+    "PdhSetDefaultRealTimeDataSource function [Perf]",
+    "_win32_pdhsetdefaultrealtimedatasource",
+    "base.pdhsetdefaultrealtimedatasource",
+    "pdh/PdhSetDefaultRealTimeDataSource",
+    "perf.pdhsetdefaultrealtimedatasource"
+  ],
+  "old-location": "perf\\pdhsetdefaultrealtimedatasource.htm",
+  "tech.root": "perf",
+  "ms.assetid": "5a46ac26-c1a1-40c1-a328-688e0b394e18",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSource, PdhSetDefaultRealTimeDataSource function [Perf], _win32_pdhsetdefaultrealtimedatasource, base.pdhsetdefaultrealtimedatasource, pdh/PdhSetDefaultRealTimeDataSource, perf.pdhsetdefaultrealtimedatasource",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhSetDefaultRealTimeDataSource",
+    "pdh/PdhSetDefaultRealTimeDataSource"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhSetDefaultRealTimeDataSource"
+  ]
+}

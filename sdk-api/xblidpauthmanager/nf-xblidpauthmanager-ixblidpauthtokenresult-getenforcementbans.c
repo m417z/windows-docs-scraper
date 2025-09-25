@@ -1,0 +1,3 @@
+HRESULT GetEnforcementBans(
+  LPWSTR *enforcementBans
+);

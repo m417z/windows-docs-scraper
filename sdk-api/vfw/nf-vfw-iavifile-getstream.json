@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vfw.IAVIFile.GetStream",
+  "title": "IAVIFile::GetStream (vfw.h)",
+  "description": "The GetStream method opens a stream by accessing it in a file. Called when an application uses the AVIFileGetStream function.",
+  "helpviewer_keywords": [
+    "GetStream",
+    "GetStream method [Windows Multimedia]",
+    "GetStream method [Windows Multimedia]",
+    "IAVIFile interface",
+    "IAVIFile interface [Windows Multimedia]",
+    "GetStream method",
+    "IAVIFile.GetStream",
+    "IAVIFile::GetStream",
+    "_win32_IAVIFile_GetStream",
+    "multimedia.iavifile_getstream",
+    "vfw/IAVIFile::GetStream"
+  ],
+  "old-location": "multimedia\\iavifile_getstream.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "66ab2d8f-39f5-4eec-a873-c6f554e3b8ff",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetStream, GetStream method [Windows Multimedia], GetStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],GetStream method, IAVIFile.GetStream, IAVIFile::GetStream, _win32_IAVIFile_GetStream, multimedia.iavifile_getstream, vfw/IAVIFile::GetStream",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAVIFile::GetStream",
+    "vfw/IAVIFile::GetStream"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Vfw32.lib",
+    "Vfw32.dll"
+  ],
+  "api_name": [
+    "IAVIFile.GetStream"
+  ]
+}

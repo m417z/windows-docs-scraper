@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdfdevice._WDF_DEVICE_IO_TYPE",
+  "title": "_WDF_DEVICE_IO_TYPE (wdfdevice.h)",
+  "description": "The WDF_DEVICE_IO_TYPE enumeration is used to specify a method for accessing data buffers.",
+  "old-location": "wdf\\wdf_device_io_type.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_DEVICE_IO_TYPE enumeration"
+  ],
+  "ms.keywords": "*PWDF_DEVICE_IO_TYPE, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, PWDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE enumeration pointer, WDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoBuffered, WdfDeviceIoBufferedOrDirect, WdfDeviceIoDirect, WdfDeviceIoNeither, WdfDeviceIoUndefined, _WDF_DEVICE_IO_TYPE, kmdf.wdf_device_io_type, wdf.wdf_device_io_type, wdfdevice/PWDF_DEVICE_IO_TYPE, wdfdevice/WDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, wdfdevice/WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoDirect, wdfdevice/WdfDeviceIoNeither, wdfdevice/WdfDeviceIoUndefined",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE",
+  "f1_keywords": [
+    "_WDF_DEVICE_IO_TYPE",
+    "wdfdevice/_WDF_DEVICE_IO_TYPE",
+    "PWDF_DEVICE_IO_TYPE",
+    "wdfdevice/PWDF_DEVICE_IO_TYPE",
+    "WDF_DEVICE_IO_TYPE",
+    "wdfdevice/WDF_DEVICE_IO_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfdevice.h"
+  ],
+  "api_name": [
+    "_WDF_DEVICE_IO_TYPE",
+    "PWDF_DEVICE_IO_TYPE",
+    "WDF_DEVICE_IO_TYPE"
+  ]
+}

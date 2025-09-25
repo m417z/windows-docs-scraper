@@ -1,0 +1,7 @@
+PFND3D12DDI_RESET_COMMAND_POOL_0040 Pfnd3d12ddiResetCommandPool0040;
+
+VOID Pfnd3d12ddiResetCommandPool0040(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HCOMMANDPOOL_0040 unnamedParam2
+)
+{...}

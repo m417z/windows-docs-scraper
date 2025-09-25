@@ -1,0 +1,1 @@
+VOID SNMP_FUNC_TYPE SnmpExtensionClose();

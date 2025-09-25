@@ -1,0 +1,24 @@
+typedef struct _DOT11EXT_APIS {
+  DOT11EXT_ALLOCATE_BUFFER                Dot11ExtAllocateBuffer;
+  DOT11EXT_FREE_BUFFER                    Dot11ExtFreeBuffer;
+  DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA   Dot11ExtSetProfileCustomUserData;
+  DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA   Dot11ExtGetProfileCustomUserData;
+  DOT11EXT_SET_CURRENT_PROFILE            Dot11ExtSetCurrentProfile;
+  DOT11EXT_SEND_UI_REQUEST                Dot11ExtSendUIRequest;
+  DOT11EXT_PRE_ASSOCIATE_COMPLETION       Dot11ExtPreAssociateCompletion;
+  DOT11EXT_POST_ASSOCIATE_COMPLETION      Dot11ExtPostAssociateCompletion;
+  DOT11EXT_SEND_NOTIFICATION              Dot11ExtSendNotification;
+  DOT11EXT_SEND_PACKET                    Dot11ExtSendPacket;
+  DOT11EXT_SET_ETHERTYPE_HANDLING         Dot11ExtSetEtherTypeHandling;
+  DOT11EXT_SET_AUTH_ALGORITHM             Dot11ExtSetAuthAlgorithm;
+  DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM   Dot11ExtSetUnicastCipherAlgorithm;
+  DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM Dot11ExtSetMulticastCipherAlgorithm;
+  DOT11EXT_SET_DEFAULT_KEY                Dot11ExtSetDefaultKey;
+  DOT11EXT_SET_KEY_MAPPING_KEY            Dot11ExtSetKeyMappingKey;
+  DOT11EXT_SET_DEFAULT_KEY_ID             Dot11ExtSetDefaultKeyId;
+  DOT11EXT_NIC_SPECIFIC_EXTENSION         Dot11ExtNicSpecificExtension;
+  DOT11EXT_SET_EXCLUDE_UNENCRYPTED        Dot11ExtSetExcludeUnencrypted;
+  DOT11EXT_ONEX_START                     Dot11ExtStartOneX;
+  DOT11EXT_ONEX_STOP                      Dot11ExtStopOneX;
+  DOT11EXT_PROCESS_ONEX_PACKET            Dot11ExtProcessOneXPacket;
+} DOT11EXT_APIS, *PDOT11EXT_APIS;

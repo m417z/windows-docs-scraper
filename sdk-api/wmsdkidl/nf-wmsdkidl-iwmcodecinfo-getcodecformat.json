@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMCodecInfo.GetCodecFormat",
+  "title": "IWMCodecInfo::GetCodecFormat (wmsdkidl.h)",
+  "description": "The GetCodecFormat method retrieves one format supported by a specified codec. This method retrieves a pointer to the IWMStreamConfig interface of a stream configuration object containing the stream settings for the supported format.",
+  "helpviewer_keywords": [
+    "GetCodecFormat",
+    "GetCodecFormat method [windows Media Format]",
+    "GetCodecFormat method [windows Media Format]",
+    "IWMCodecInfo interface",
+    "IWMCodecInfo interface [windows Media Format]",
+    "GetCodecFormat method",
+    "IWMCodecInfo.GetCodecFormat",
+    "IWMCodecInfo::GetCodecFormat",
+    "IWMCodecInfoGetCodecFormat",
+    "wmformat.iwmcodecinfo_getcodecformat",
+    "wmsdkidl/IWMCodecInfo::GetCodecFormat"
+  ],
+  "old-location": "wmformat\\iwmcodecinfo_getcodecformat.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetCodecFormat, GetCodecFormat method [windows Media Format], GetCodecFormat method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormat method, IWMCodecInfo.GetCodecFormat, IWMCodecInfo::GetCodecFormat, IWMCodecInfoGetCodecFormat, wmformat.iwmcodecinfo_getcodecformat, wmsdkidl/IWMCodecInfo::GetCodecFormat",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMCodecInfo::GetCodecFormat",
+    "wmsdkidl/IWMCodecInfo::GetCodecFormat"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMCodecInfo.GetCodecFormat"
+  ]
+}

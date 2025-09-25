@@ -1,0 +1,5 @@
+typedef enum _WWAN_CONTEXT_LTE_ATTACH_STATE {
+  WwanContextLteAttachStateDetached,
+  WwanContextLteAttachStateAttached,
+  WwanContextLteAttachStateMaximum
+} WWAN_CONTEXT_LTE_ATTACH_STATE, *PWWAN_CONTEXT_LTE_ATTACH_STATE;

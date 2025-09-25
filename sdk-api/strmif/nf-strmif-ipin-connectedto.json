@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IPin.ConnectedTo",
+  "title": "IPin::ConnectedTo (strmif.h)",
+  "description": "The ConnectedTo method retrieves a pointer to the connected pin, if any.",
+  "helpviewer_keywords": [
+    "ConnectedTo",
+    "ConnectedTo method [DirectShow]",
+    "ConnectedTo method [DirectShow]",
+    "IPin interface",
+    "IPin interface [DirectShow]",
+    "ConnectedTo method",
+    "IPin.ConnectedTo",
+    "IPin::ConnectedTo",
+    "IPinConnectedTo",
+    "dshow.ipin_connectedto",
+    "strmif/IPin::ConnectedTo"
+  ],
+  "old-location": "dshow\\ipin_connectedto.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "970c814f-2309-481e-9e8e-9bd32b83fdc7",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IPin::ConnectedTo",
+    "strmif/IPin::ConnectedTo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IPin.ConnectedTo"
+  ]
+}

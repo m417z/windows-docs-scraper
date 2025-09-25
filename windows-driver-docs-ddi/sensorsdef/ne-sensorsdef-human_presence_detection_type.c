@@ -1,0 +1,8 @@
+typedef enum HUMAN_PRESENCE_DETECTION_TYPE {
+  HumanPresenceDetectionType_Undefined,
+  HumanPresenceDetectionType_VendorDefinedNonBiometric,
+  HumanPresenceDetectionType_VendorDefinedBiometric,
+  HumanPresenceDetectionType_FacialBiometric,
+  HumanPresenceDetectionType_AudioBiometric,
+  HumanPresenceDetectionType_Force_Dword
+} ;

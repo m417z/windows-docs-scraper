@@ -1,0 +1,4 @@
+typedef struct _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT {
+  [in] D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
+  [in] UINT                           PrivateDriverFormatAttribute;
+} D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT;

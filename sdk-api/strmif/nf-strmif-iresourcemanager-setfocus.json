@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IResourceManager.SetFocus",
+  "title": "IResourceManager::SetFocus (strmif.h)",
+  "description": "The SetFocus method notifies the resource manager that a specified object has been given the focus of the user.",
+  "helpviewer_keywords": [
+    "IResourceManager interface [DirectShow]",
+    "SetFocus method",
+    "IResourceManager.SetFocus",
+    "IResourceManager::SetFocus",
+    "IResourceManagerSetFocus",
+    "SetFocus",
+    "SetFocus method [DirectShow]",
+    "SetFocus method [DirectShow]",
+    "IResourceManager interface",
+    "dshow.iresourcemanager_setfocus",
+    "strmif/IResourceManager::SetFocus"
+  ],
+  "old-location": "dshow\\iresourcemanager_setfocus.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "3d0a87e1-6774-45cf-9ab5-18ec1d2fff0d",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IResourceManager interface [DirectShow],SetFocus method, IResourceManager.SetFocus, IResourceManager::SetFocus, IResourceManagerSetFocus, SetFocus, SetFocus method [DirectShow], SetFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_setfocus, strmif/IResourceManager::SetFocus",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IResourceManager::SetFocus",
+    "strmif/IResourceManager::SetFocus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IResourceManager.SetFocus"
+  ]
+}

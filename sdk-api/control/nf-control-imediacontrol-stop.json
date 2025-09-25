@@ -1,0 +1,65 @@
+{
+  "UID": "NF:control.IMediaControl.Stop",
+  "title": "IMediaControl::Stop (control.h)",
+  "description": "The Stop method stops all the filters in the graph.",
+  "helpviewer_keywords": [
+    "IMediaControl interface [DirectShow]",
+    "Stop method",
+    "IMediaControl.Stop",
+    "IMediaControl::Stop",
+    "IMediaControlStop",
+    "Stop",
+    "Stop method [DirectShow]",
+    "Stop method [DirectShow]",
+    "IMediaControl interface",
+    "control/IMediaControl::Stop",
+    "dshow.imediacontrol_stop"
+  ],
+  "old-location": "dshow\\imediacontrol_stop.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "89e48d43-a31f-4912-98ff-36ba2069812d",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaControl interface [DirectShow],Stop method, IMediaControl.Stop, IMediaControl::Stop, IMediaControlStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaControl interface, control/IMediaControl::Stop, dshow.imediacontrol_stop",
+  "req.header": "control.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaControl::Stop",
+    "control/IMediaControl::Stop"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaControl.Stop"
+  ]
+}

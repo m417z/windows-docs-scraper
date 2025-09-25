@@ -1,0 +1,21 @@
+typedef struct {
+  DWORD            ExitStatus;
+  void             *TebBaseAddress;
+  DWORD            ProcessId;
+  DWORD            ThreadId;
+  ULONG_PTR        AffinityMask;
+  int              Priority;
+  int              BasePriority;
+  void             *LastSyscallFirstArgument;
+  WORD             LastSyscallNumber;
+  FILETIME         CreateTime;
+  FILETIME         ExitTime;
+  FILETIME         KernelTime;
+  FILETIME         UserTime;
+  void             *Win32StartAddress;
+  FILETIME         CaptureTime;
+  PSS_THREAD_FLAGS Flags;
+  WORD             SuspendCount;
+  WORD             SizeOfContextRecord;
+  PCONTEXT         ContextRecord;
+} PSS_THREAD_ENTRY;

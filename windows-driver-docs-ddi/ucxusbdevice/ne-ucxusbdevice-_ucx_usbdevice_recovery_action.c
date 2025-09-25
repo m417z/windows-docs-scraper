@@ -1,0 +1,5 @@
+typedef enum _UCX_USBDEVICE_RECOVERY_ACTION {
+  UcxUsbDeviceRecoverActionNone,
+  UcxUsbDeviceRecoverActionFunctionLevelDeviceReset,
+  UcxUsbDeviceRecoverActionPlatformLevelDeviceReset
+} UCX_USBDEVICE_RECOVERY_ACTION;

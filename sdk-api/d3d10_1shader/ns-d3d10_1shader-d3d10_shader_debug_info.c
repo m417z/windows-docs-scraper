@@ -1,0 +1,23 @@
+typedef struct _D3D10_SHADER_DEBUG_INFO {
+  UINT Size;
+  UINT Creator;
+  UINT EntrypointName;
+  UINT ShaderTarget;
+  UINT CompileFlags;
+  UINT Files;
+  UINT FileInfo;
+  UINT Instructions;
+  UINT InstructionInfo;
+  UINT Variables;
+  UINT VariableInfo;
+  UINT InputVariables;
+  UINT InputVariableInfo;
+  UINT Tokens;
+  UINT TokenInfo;
+  UINT Scopes;
+  UINT ScopeInfo;
+  UINT ScopeVariables;
+  UINT ScopeVariableInfo;
+  UINT UintOffset;
+  UINT StringOffset;
+} D3D10_SHADER_DEBUG_INFO;

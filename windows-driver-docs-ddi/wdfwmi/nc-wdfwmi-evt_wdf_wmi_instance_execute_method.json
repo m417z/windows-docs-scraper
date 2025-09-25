@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfwmi.EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD",
+  "title": "EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD (wdfwmi.h)",
+  "description": "A driver's EvtWmiInstanceExecuteMethod callback function executes a specified method that the driver provides for a WMI data provider's instance.",
+  "old-location": "wdf\\evtwmiinstanceexecutemethod.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback function"
+  ],
+  "ms.keywords": "DFWMIRef_d54dc0b0-bdef-40a7-b863-5946f4d8e5f5.xml, EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD, EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback, EvtWmiInstanceExecuteMethod, EvtWmiInstanceExecuteMethod callback function, kmdf.evtwmiinstanceexecutemethod, wdf.evtwmiinstanceexecutemethod, wdfwmi/EvtWmiInstanceExecuteMethod",
+  "req.header": "wdfwmi.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD",
+    "wdfwmi/EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "WdfWMI.h"
+  ],
+  "api_name": [
+    "EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD"
+  ]
+}

@@ -1,0 +1,6 @@
+PFND3D12DDI_GET_PIPELINE_STACK_SIZE_0054 Pfnd3d12ddiGetPipelineStackSize0054;
+
+UINT Pfnd3d12ddiGetPipelineStackSize0054(
+  D3D12DDI_HSTATEOBJECT_0054 unnamedParam1
+)
+{...}

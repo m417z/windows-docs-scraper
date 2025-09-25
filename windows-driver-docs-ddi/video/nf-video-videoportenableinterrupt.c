@@ -1,0 +1,3 @@
+VIDEOPORT_DEPRECATED VIDEOPORT_API VP_STATUS VideoPortEnableInterrupt(
+  PVOID HwDeviceExtension
+);

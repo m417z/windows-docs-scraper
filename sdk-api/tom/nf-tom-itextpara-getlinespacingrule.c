@@ -1,0 +1,3 @@
+HRESULT GetLineSpacingRule(
+  long *pValue
+);

@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD SetIfEntry(
+  [in] PMIB_IFROW pIfRow
+);

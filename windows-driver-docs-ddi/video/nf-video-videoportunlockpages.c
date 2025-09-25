@@ -1,0 +1,4 @@
+VIDEOPORT_DEPRECATED VIDEOPORT_API BOOLEAN VideoPortUnlockPages(
+  PVOID hwDeviceExtension,
+  PDMA  pDma
+);

@@ -1,0 +1,8 @@
+typedef struct _BTH_LE_GATT_CHARACTERISTIC_VALUE {
+  ULONG DataSize;
+#if ...
+  UCHAR *Data[];
+#else
+  UCHAR Data[1];
+#endif
+} BTH_LE_GATT_CHARACTERISTIC_VALUE, *PBTH_LE_GATT_CHARACTERISTIC_VALUE;

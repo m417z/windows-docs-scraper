@@ -1,0 +1,7 @@
+PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030 Pfnd3d12ddiCalcprivateopenedprotectedresourcesessionsize0030;
+
+SIZE_T Pfnd3d12ddiCalcprivateopenedprotectedresourcesessionsize0030(
+  D3D12DDI_HDEVICE hDrvDevice,
+  const D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 *pArgs
+)
+{...}

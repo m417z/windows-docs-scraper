@@ -1,0 +1,60 @@
+{
+  "UID": "NF:sspi.EncryptMessage",
+  "title": "EncryptMessage function (sspi.h)",
+  "description": "Encrypts a message to provide privacy by using Digest.",
+  "helpviewer_keywords": [
+    "EncryptMessage",
+    "EncryptMessage (Digest)",
+    "EncryptMessage function [Security]",
+    "SealMessage [Security]",
+    "security.encryptmessage__digest_",
+    "sspi/EncryptMessage"
+  ],
+  "old-location": "security\\encryptmessage__digest_.htm",
+  "tech.root": "security",
+  "ms.assetid": "0045e931-929b-40c4-a524-5664d2fc5170",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage",
+  "req.header": "sspi.h",
+  "req.include-header": "Security.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Secur32.lib",
+  "req.dll": "Secur32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EncryptMessage",
+    "sspi/EncryptMessage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Secur32.dll",
+    "sspicli.dll"
+  ],
+  "api_name": [
+    "EncryptMessage"
+  ]
+}

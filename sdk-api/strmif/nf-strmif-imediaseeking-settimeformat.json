@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMediaSeeking.SetTimeFormat",
+  "title": "IMediaSeeking::SetTimeFormat (strmif.h)",
+  "description": "The SetTimeFormat method sets the time format for subsequent seek operations.",
+  "helpviewer_keywords": [
+    "IMediaSeeking interface [DirectShow]",
+    "SetTimeFormat method",
+    "IMediaSeeking.SetTimeFormat",
+    "IMediaSeeking::SetTimeFormat",
+    "IMediaSeekingSetTimeFormat",
+    "SetTimeFormat",
+    "SetTimeFormat method [DirectShow]",
+    "SetTimeFormat method [DirectShow]",
+    "IMediaSeeking interface",
+    "dshow.imediaseeking_settimeformat",
+    "strmif/IMediaSeeking::SetTimeFormat"
+  ],
+  "old-location": "dshow\\imediaseeking_settimeformat.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "b6f64f8a-67b8-4297-8f0d-389001fa1681",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaSeeking interface [DirectShow],SetTimeFormat method, IMediaSeeking.SetTimeFormat, IMediaSeeking::SetTimeFormat, IMediaSeekingSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_settimeformat, strmif/IMediaSeeking::SetTimeFormat",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaSeeking::SetTimeFormat",
+    "strmif/IMediaSeeking::SetTimeFormat"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaSeeking.SetTimeFormat"
+  ]
+}

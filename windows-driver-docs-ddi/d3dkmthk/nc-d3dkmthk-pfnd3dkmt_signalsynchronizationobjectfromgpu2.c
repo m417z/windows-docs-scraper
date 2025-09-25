@@ -1,0 +1,6 @@
+PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 Pfnd3dkmtSignalsynchronizationobjectfromgpu2;
+
+NTSTATUS Pfnd3dkmtSignalsynchronizationobjectfromgpu2(
+  const D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 *unnamedParam1
+)
+{...}

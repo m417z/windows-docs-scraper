@@ -1,0 +1,47 @@
+{
+  "UID": "NI:usbscan.IOCTL_SET_TIMEOUT",
+  "title": "IOCTL_SET_TIMEOUT (usbscan.h)",
+  "description": "Sets the time-out value for USB bulk IN, bulk OUT, or interrupt pipe access.",
+  "tech.root": "image",
+  "ms.date": "01/04/2023",
+  "keywords": [
+    "IOCTL_SET_TIMEOUT IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SET_TIMEOUT, IOCTL_SET_TIMEOUT control, IOCTL_SET_TIMEOUT control code [Imaging Devices], image.ioctl_set_timeout, stifnc_942a0b21-7e68-444d-8bf2-7f8388a8a8fc.xml, usbscan/IOCTL_SET_TIMEOUT",
+  "req.header": "usbscan.h",
+  "req.include-header": "Usbscan.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SET_TIMEOUT",
+    "usbscan/IOCTL_SET_TIMEOUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Usbscan.h"
+  ],
+  "api_name": [
+    "IOCTL_SET_TIMEOUT"
+  ]
+}

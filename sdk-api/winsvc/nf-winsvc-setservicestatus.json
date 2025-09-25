@@ -1,0 +1,67 @@
+{
+  "UID": "NF:winsvc.SetServiceStatus",
+  "title": "SetServiceStatus function (winsvc.h)",
+  "description": "Updates the service control manager's status information for the calling service.",
+  "helpviewer_keywords": [
+    "SetServiceStatus",
+    "SetServiceStatus function",
+    "_win32_setservicestatus",
+    "base.setservicestatus",
+    "winsvc/SetServiceStatus"
+  ],
+  "old-location": "base\\setservicestatus.htm",
+  "tech.root": "security",
+  "ms.assetid": "bb5943ff-2814-40f2-bee0-ae7132befde9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus",
+  "req.header": "winsvc.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetServiceStatus",
+    "winsvc/SetServiceStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-service-core-l1-1-5.dll",
+    "api-ms-win-service-core-l1-1-4.dll",
+    "api-ms-win-service-core-l1-1-3.dll",
+    "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll",
+    "sechost.dll",
+    "API-MS-Win-Service-Core-l1-1-0.dll",
+    "API-MS-Win-Service-Core-l1-1-1.dll",
+    "API-Ms-Win-Service-Core-L1-1-2.dll"
+  ],
+  "api_name": [
+    "SetServiceStatus"
+  ]
+}

@@ -1,0 +1,3 @@
+BOOL FrameworkLoginDLL(
+  LPCWSTR name
+);

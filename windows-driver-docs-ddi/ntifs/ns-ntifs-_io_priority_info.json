@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._IO_PRIORITY_INFO",
+  "title": "_IO_PRIORITY_INFO (ntifs.h)",
+  "description": "The IO_PRIORITY_INFO structure is used to hold thread priority information.",
+  "old-location": "ifsk\\io_priority_info.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "IO_PRIORITY_INFO structure"
+  ],
+  "ms.keywords": "*PIO_PRIORITY_INFO, IO_PRIORITY_INFO, IO_PRIORITY_INFO structure [Installable File System Drivers], PIO_PRIORITY_INFO, PIO_PRIORITY_INFO structure pointer [Installable File System Drivers], _IO_PRIORITY_INFO, ifsk.io_priority_info, ntifs/IO_PRIORITY_INFO, ntifs/PIO_PRIORITY_INFO, othersystemstructures_19a36a9e-6950-4a52-b1e3-e25977777952.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "This structure is available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IO_PRIORITY_INFO, *PIO_PRIORITY_INFO",
+  "f1_keywords": [
+    "_IO_PRIORITY_INFO",
+    "ntifs/_IO_PRIORITY_INFO",
+    "PIO_PRIORITY_INFO",
+    "ntifs/PIO_PRIORITY_INFO",
+    "IO_PRIORITY_INFO",
+    "ntifs/IO_PRIORITY_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_IO_PRIORITY_INFO",
+    "PIO_PRIORITY_INFO",
+    "IO_PRIORITY_INFO"
+  ]
+}

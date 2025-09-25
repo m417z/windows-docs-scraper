@@ -1,0 +1,49 @@
+{
+  "UID": "NF:udecxusbdevice.UdecxUsbDeviceSignalWake",
+  "title": "UdecxUsbDeviceSignalWake function (udecxusbdevice.h)",
+  "description": "Initiates wake up from a low link power state for a virtual USB 2.0 device.",
+  "old-location": "buses\\udecxusbdevicesignalwake.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UdecxUsbDeviceSignalWake function"
+  ],
+  "ms.keywords": "UdecxUsbDeviceSignalWake, UdecxUsbDeviceSignalWake function [Buses], buses.udecxusbdevicesignalwake, udecxusbdevice/UdecxUsbDeviceSignalWake",
+  "req.header": "udecxusbdevice.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Udecxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UdecxUsbDeviceSignalWake",
+    "udecxusbdevice/UdecxUsbDeviceSignalWake"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Udecxstub.lib",
+    "Udecxstub.dll"
+  ],
+  "api_name": [
+    "UdecxUsbDeviceSignalWake"
+  ]
+}

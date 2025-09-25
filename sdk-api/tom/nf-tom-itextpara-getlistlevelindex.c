@@ -1,0 +1,3 @@
+HRESULT GetListLevelIndex(
+  long *pValue
+);

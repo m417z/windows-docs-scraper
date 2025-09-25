@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortQueueDpc",
+  "title": "VideoPortQueueDpc function (video.h)",
+  "description": "The VideoPortQueueDpc function allows a miniport driver to queue a DPC.",
+  "old-location": "display\\videoportqueuedpc.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortQueueDpc function"
+  ],
+  "ms.keywords": "VideoPortQueueDpc, VideoPortQueueDpc function [Display Devices], VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, display.videoportqueuedpc, video/VideoPortQueueDpc",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "Greater than or equal to DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortQueueDpc",
+    "video/VideoPortQueueDpc"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortQueueDpc"
+  ]
+}

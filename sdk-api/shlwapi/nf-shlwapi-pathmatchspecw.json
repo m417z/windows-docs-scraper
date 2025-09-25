@@ -1,0 +1,66 @@
+{
+  "UID": "NF:shlwapi.PathMatchSpecW",
+  "title": "PathMatchSpecW function (shlwapi.h)",
+  "description": "Searches a string using a Microsoft MS-DOS wildcard match type. (Unicode)",
+  "helpviewer_keywords": [
+    "PathMatchSpec",
+    "PathMatchSpec function [Windows Shell]",
+    "PathMatchSpecW",
+    "_win32_PathMatchSpec",
+    "shell.PathMatchSpec",
+    "shlwapi/PathMatchSpec",
+    "shlwapi/PathMatchSpecW"
+  ],
+  "old-location": "shell\\PathMatchSpec.htm",
+  "tech.root": "shell",
+  "ms.assetid": "908e7204-d168-4179-9c7b-ad46ba68bebc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PathMatchSpec, PathMatchSpec function [Windows Shell], PathMatchSpecA, PathMatchSpecW, _win32_PathMatchSpec, shell.PathMatchSpec, shlwapi/PathMatchSpec, shlwapi/PathMatchSpecA, shlwapi/PathMatchSpecW",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PathMatchSpecW (Unicode) and PathMatchSpecA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 4.71 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PathMatchSpecW",
+    "shlwapi/PathMatchSpecW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-downlevel-shlwapi-l1-1-0.dll",
+    "Shlwapi.dll",
+    "API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-shlwapi-l1-1-1.dll"
+  ],
+  "api_name": [
+    "PathMatchSpec",
+    "PathMatchSpecA",
+    "PathMatchSpecW"
+  ]
+}

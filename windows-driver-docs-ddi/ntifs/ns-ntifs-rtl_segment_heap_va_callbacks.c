@@ -1,0 +1,6 @@
+typedef struct _RTL_SEGMENT_HEAP_VA_CALLBACKS {
+  HANDLE                               CallbackContext;
+  PALLOCATE_VIRTUAL_MEMORY_EX_CALLBACK AllocateVirtualMemory;
+  PFREE_VIRTUAL_MEMORY_EX_CALLBACK     FreeVirtualMemory;
+  PQUERY_VIRTUAL_MEMORY_CALLBACK       QueryVirtualMemory;
+} RTL_SEGMENT_HEAP_VA_CALLBACKS, *PRTL_SEGMENT_HEAP_VA_CALLBACKS;

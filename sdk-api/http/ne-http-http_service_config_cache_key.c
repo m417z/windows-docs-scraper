@@ -1,0 +1,4 @@
+typedef enum _HTTP_SERVICE_CONFIG_CACHE_KEY {
+  MaxCacheResponseSize = 0,
+  CacheRangeChunkSize
+} HTTP_SERVICE_CONFIG_CACHE_KEY, *PHTTP_SERVICE_CONFIG_CACHE_KEY;

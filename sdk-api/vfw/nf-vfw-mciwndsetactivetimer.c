@@ -1,0 +1,4 @@
+void MCIWndSetActiveTimer(
+  hwnd,
+  active
+);

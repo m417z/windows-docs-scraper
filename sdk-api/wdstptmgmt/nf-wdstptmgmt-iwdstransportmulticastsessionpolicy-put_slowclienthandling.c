@@ -1,0 +1,3 @@
+HRESULT put_SlowClientHandling(
+  WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE SlowClientHandling
+);

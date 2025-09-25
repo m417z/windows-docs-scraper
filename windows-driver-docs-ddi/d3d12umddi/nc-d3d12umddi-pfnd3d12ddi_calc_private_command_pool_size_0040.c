@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040 Pfnd3d12ddiCalcPrivateCommandPoolSize0040;
+
+SIZE_T Pfnd3d12ddiCalcPrivateCommandPoolSize0040(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_COMMAND_POOL_0040 *unnamedParam2
+)
+{...}

@@ -1,0 +1,3 @@
+HRESULT GetRealTimeWorkQueue(
+  DWORD *workQueueId
+);

@@ -1,0 +1,3 @@
+HRESULT EnumerateLocals(
+  IDataModelScriptDebugVariableSetEnumerator **variablesEnum
+);

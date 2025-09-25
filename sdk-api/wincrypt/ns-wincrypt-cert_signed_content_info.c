@@ -1,0 +1,5 @@
+typedef struct _CERT_SIGNED_CONTENT_INFO {
+  CRYPT_DER_BLOB             ToBeSigned;
+  CRYPT_ALGORITHM_IDENTIFIER SignatureAlgorithm;
+  CRYPT_BIT_BLOB             Signature;
+} CERT_SIGNED_CONTENT_INFO, *PCERT_SIGNED_CONTENT_INFO;

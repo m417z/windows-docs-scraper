@@ -1,0 +1,2 @@
+struct XMFLOAT4X4A : XMFLOAT4X4 {
+  };

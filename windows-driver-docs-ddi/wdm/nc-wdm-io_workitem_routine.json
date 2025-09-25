@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.IO_WORKITEM_ROUTINE",
+  "title": "IO_WORKITEM_ROUTINE (wdm.h)",
+  "description": "A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine.",
+  "tech.root": "kernel",
+  "ms.date": "01/09/2023",
+  "keywords": [
+    "IO_WORKITEM_ROUTINE callback function"
+  ],
+  "ms.keywords": "DrvrRtns_55d37b62-e72b-4aa3-b590-e9598ead0b46.xml, IO_WORKITEM_ROUTINE, WorkItem, WorkItem routine [Kernel-Mode Driver Architecture], kernel.workitem, wdm/WorkItem",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IO_WORKITEM_ROUTINE",
+    "wdm/IO_WORKITEM_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "IO_WORKITEM_ROUTINE"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct APO_CONNECTION_PROPERTY_V2 {
+  APO_CONNECTION_PROPERTY property;
+  UINT64                  u64QPCTime;
+} APO_CONNECTION_PROPERTY_V2;

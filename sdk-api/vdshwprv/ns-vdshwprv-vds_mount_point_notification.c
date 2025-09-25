@@ -1,0 +1,4 @@
+typedef struct _VDS_MOUNT_POINT_NOTIFICATION {
+  ULONG         ulEvent;
+  VDS_OBJECT_ID volumeId;
+} VDS_MOUNT_POINT_NOTIFICATION;

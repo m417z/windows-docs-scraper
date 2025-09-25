@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenNtHandleFromName(
+  D3DKMT_OPENNTHANDLEFROMNAME *unnamedParam1
+);

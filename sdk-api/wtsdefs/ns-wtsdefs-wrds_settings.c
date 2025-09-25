@@ -1,0 +1,5 @@
+typedef struct _WRDS_SETTINGS {
+  WRDS_SETTING_TYPE  WRdsSettingType;
+  WRDS_SETTING_LEVEL WRdsSettingLevel;
+  WRDS_SETTING       WRdsSetting;
+} WRDS_SETTINGS, *PWRDS_SETTINGS;

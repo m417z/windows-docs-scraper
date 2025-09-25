@@ -1,0 +1,20 @@
+typedef struct _STOR_DEVICE_CAPABILITIES_EX {
+  USHORT Version;
+  USHORT Size;
+  ULONG  DeviceD1 : 1;
+  ULONG  DeviceD2 : 1;
+  ULONG  LockSupported : 1;
+  ULONG  EjectSupported : 1;
+  ULONG  Removable : 1;
+  ULONG  DockDevice : 1;
+  ULONG  UniqueID : 1;
+  ULONG  SilentInstall : 1;
+  ULONG  RawDeviceOK : 1;
+  ULONG  SurpriseRemovalOK : 1;
+  ULONG  NoDisplayInUI : 1;
+  ULONG  DefaultWriteCacheEnabled : 1;
+  ULONG  Reserved0 : 20;
+  ULONG  Address;
+  ULONG  UINumber;
+  ULONG  Reserved1[2];
+} STOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX;

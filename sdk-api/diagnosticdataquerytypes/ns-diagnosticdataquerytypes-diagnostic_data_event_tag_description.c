@@ -1,0 +1,5 @@
+typedef struct tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION {
+  INT32  privacyTag;
+  LPWSTR name;
+  LPWSTR description;
+} DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION;

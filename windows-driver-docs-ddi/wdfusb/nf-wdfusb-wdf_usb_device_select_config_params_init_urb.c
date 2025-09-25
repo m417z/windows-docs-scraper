@@ -1,0 +1,4 @@
+VOID WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB(
+  [out] PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS Params,
+  [in]  PURB                                 Urb
+);

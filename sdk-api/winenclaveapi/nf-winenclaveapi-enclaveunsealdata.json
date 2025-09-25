@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winenclaveapi.EnclaveUnsealData",
+  "title": "EnclaveUnsealData function (winenclaveapi.h)",
+  "description": "Decrypts an encrypted binary large object (blob).",
+  "helpviewer_keywords": [
+    "ENCLAVE_UNSEAL_FLAG_STALE_KEY",
+    "EnclaveUnsealData",
+    "EnclaveUnsealData function",
+    "base.enclaveunsealdata",
+    "winenclaveapi/EnclaveUnsealData"
+  ],
+  "old-location": "base\\enclaveunsealdata.htm",
+  "tech.root": "base",
+  "ms.assetid": "DDBDBEDE-E7EA-43B0-B2C7-B85D75EF3EB0",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData function, base.enclaveunsealdata, winenclaveapi/EnclaveUnsealData",
+  "req.header": "winenclaveapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vertdll.lib",
+  "req.dll": "Vertdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnclaveUnsealData",
+    "winenclaveapi/EnclaveUnsealData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "EnclaveUnsealData"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "UID": "NE:wdm._POWER_REQUEST_TYPE",
+  "title": "POWER_REQUEST_TYPE (wdm.h)",
+  "description": "Learn how the POWER_REQUEST_TYPE enumeration indicates the power request type.",
+  "tech.root": "kernel",
+  "ms.date": "12/09/2022",
+  "keywords": [
+    "POWER_REQUEST_TYPE enumeration"
+  ],
+  "ms.keywords": "*PPOWER_REQUEST_TYPE, POWER_REQUEST_TYPE, POWER_REQUEST_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_REQUEST_TYPE, PPOWER_REQUEST_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, _POWER_REQUEST_TYPE, kernel.power_request_type, sysenum_2d1a5da5-2541-4db1-bfde-2bd06f38b17c.xml, wdm/POWER_REQUEST_TYPE, wdm/PPOWER_REQUEST_TYPE, wdm/PowerRequestAwayModeRequired, wdm/PowerRequestDisplayRequired, wdm/PowerRequestExecutionRequired, wdm/PowerRequestSystemRequired",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 7.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "POWER_REQUEST_TYPE, *PPOWER_REQUEST_TYPE",
+  "f1_keywords": [
+    "_POWER_REQUEST_TYPE",
+    "wdm/_POWER_REQUEST_TYPE",
+    "PPOWER_REQUEST_TYPE",
+    "wdm/PPOWER_REQUEST_TYPE",
+    "POWER_REQUEST_TYPE",
+    "wdm/POWER_REQUEST_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_POWER_REQUEST_TYPE",
+    "PPOWER_REQUEST_TYPE",
+    "POWER_REQUEST_TYPE"
+  ]
+}

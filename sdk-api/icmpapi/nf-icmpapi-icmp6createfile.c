@@ -1,0 +1,1 @@
+IPHLPAPI_DLL_LINKAGE HANDLE Icmp6CreateFile();

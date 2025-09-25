@@ -1,0 +1,51 @@
+{
+  "UID": "NS:wdm._ACL",
+  "title": "_ACL (wdm.h)",
+  "description": "The ACL structure is the header of an access-control list (ACL). A complete ACL consists of an ACL structure followed by an ordered list of zero or more access-control entries (ACE).",
+  "old-location": "ifsk\\acl.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "ACL structure"
+  ],
+  "ms.keywords": "*PACL, ACL, ACL structure [Installable File System Drivers], PACL, PACL structure pointer [Installable File System Drivers], _ACL, ifsk.acl, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/ACL, wdm/PACL",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ACL",
+  "f1_keywords": [
+    "_ACL",
+    "wdm/_ACL",
+    "ACL",
+    "wdm/ACL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_ACL",
+    "ACL"
+  ]
+}

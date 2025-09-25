@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.CountClipboardFormats",
+  "title": "CountClipboardFormats function (winuser.h)",
+  "description": "Retrieves the number of different data formats currently on the clipboard.",
+  "helpviewer_keywords": [
+    "CountClipboardFormats",
+    "CountClipboardFormats function [Data Exchange]",
+    "_win32_CountClipboardFormats",
+    "_win32_countclipboardformats_cpp",
+    "dataxchg.countclipboardformats",
+    "winui._win32_countclipboardformats",
+    "winuser/CountClipboardFormats"
+  ],
+  "old-location": "dataxchg\\countclipboardformats.htm",
+  "tech.root": "dataxchg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\dataexchange\\clipboard\\clipboardreference\\clipboardfunctions\\countclipboardformats.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CountClipboardFormats, CountClipboardFormats function [Data Exchange], _win32_CountClipboardFormats, _win32_countclipboardformats_cpp, dataxchg.countclipboardformats, winui._win32_countclipboardformats, winuser/CountClipboardFormats",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CountClipboardFormats",
+    "winuser/CountClipboardFormats"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-misc-l1-1-0.dll",
+    "ext-ms-win-ntuser-misc-l1-7-0.dll",
+    "ext-ms-win-ntuser-misc-l1-6-0.dll",
+    "ext-ms-win-ntuser-misc-l1-5-1.dll",
+    "ext-ms-win-ntuser-misc-l1-5-0.dll",
+    "ext-ms-win-ntuser-misc-l1-3-0.dll",
+    "ext-ms-win-ntuser-misc-l1-2-0.dll",
+    "User32.dll",
+    "API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll",
+    "minuser.dll",
+    "api-ms-win-ntuser-ie-clipboard-l1-1-0.dll",
+    "ie_stubs.dll"
+  ],
+  "api_name": [
+    "CountClipboardFormats"
+  ]
+}

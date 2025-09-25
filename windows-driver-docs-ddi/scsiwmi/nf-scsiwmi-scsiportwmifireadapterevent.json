@@ -1,0 +1,48 @@
+{
+  "UID": "NF:scsiwmi.ScsiPortWmiFireAdapterEvent",
+  "title": "ScsiPortWmiFireAdapterEvent macro (scsiwmi.h)",
+  "description": "The ScsiPortWmiFireAdapterEvent routine sends an event associated with an adapter unit to the port driver for delivery to WMI data consumers that have requested notification of the event.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.",
+  "old-location": "storage\\scsiportwmifireadapterevent.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "ScsiPortWmiFireAdapterEvent macro"
+  ],
+  "ms.keywords": "ScsiPortWmiFireAdapterEvent, ScsiPortWmiFireAdapterEvent macro [Storage Devices], scsiprt_39ab704d-53a4-46d4-9196-f545710692ae.xml, scsiwmi/ScsiPortWmiFireAdapterEvent, storage.scsiportwmifireadapterevent",
+  "req.header": "scsiwmi.h",
+  "req.include-header": "Miniport.h, Scsi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortWmiFireAdapterEvent",
+    "scsiwmi/ScsiPortWmiFireAdapterEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsiwmi.h"
+  ],
+  "api_name": [
+    "ScsiPortWmiFireAdapterEvent"
+  ]
+}

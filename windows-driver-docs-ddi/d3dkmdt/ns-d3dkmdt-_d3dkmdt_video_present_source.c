@@ -1,0 +1,4 @@
+typedef struct _D3DKMDT_VIDEO_PRESENT_SOURCE {
+  D3DDDI_VIDEO_PRESENT_SOURCE_ID Id;
+  DWORD                          dwReserved;
+} D3DKMDT_VIDEO_PRESENT_SOURCE;

@@ -1,0 +1,32 @@
+# ICspInformation::get_MaxKeyContainerNameLength
+
+## Description
+
+The **MaxKeyContainerNameLength** property retrieves the maximum supported length for the name of the private key container associated with the provider.
+
+This property is read-only.
+
+## Parameters
+
+## Remarks
+
+The key container name can be specified and retrieved by calling the [ContainerName](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername) property on the [IX509PrivateKey](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey) interface. The values associated with the providers distributed by Microsoft are listed in the following table. Some of these providers may not be included on all operating systems and others may be included instead.
+
+| Provider | MaxKeyContainerNameLength value |
+| --- | --- |
+| Microsoft Software Key Storage Provider | 261 |
+| Microsoft Smart Card Key Storage Provider | 40 |
+| Microsoft Base Cryptographic Provider v1.0 | 261 |
+| Microsoft Base DSS and Diffie-Hellman Cryptographic Provider | 261 |
+| Microsoft Base DSS Cryptographic Provider | 261 |
+| Microsoft Base Smart Card Crypto Provider | 40 |
+| Microsoft DH Schannel Cryptographic Provider | 261 |
+| Microsoft Enhanced Cryptographic Provider v1.0 | 261 |
+| Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider | 261 |
+| Microsoft Enhanced RSA and AES Cryptographic Provider | 261 |
+| Microsoft RSA Schannel Cryptographic Provider | 261 |
+| Microsoft Strong Cryptographic Provider | 261 |
+
+## See also
+
+[ICspInformation](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation)

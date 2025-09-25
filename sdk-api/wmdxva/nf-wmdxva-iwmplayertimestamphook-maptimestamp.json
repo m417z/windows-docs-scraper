@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wmdxva.IWMPlayerTimestampHook.MapTimestamp",
+  "title": "IWMPlayerTimestampHook::MapTimestamp (wmdxva.h)",
+  "description": "The MapTimestamp method is called by the WMV Decoder DMO to enable the source filter to provide the decoder with a time stamp. The decoder applies the time stamp to the sample before delivering the sample to the video renderer.",
+  "helpviewer_keywords": [
+    "IWMPlayerTimestampHook interface [windows Media Format]",
+    "MapTimestamp method",
+    "IWMPlayerTimestampHook.MapTimestamp",
+    "IWMPlayerTimestampHook::MapTimestamp",
+    "IWMPlayerTimestampHookMapTimestamp",
+    "MapTimestamp",
+    "MapTimestamp method [windows Media Format]",
+    "MapTimestamp method [windows Media Format]",
+    "IWMPlayerTimestampHook interface",
+    "wmdxva/IWMPlayerTimestampHook::MapTimestamp",
+    "wmformat.iwmplayertimestamphook_maptimestamp"
+  ],
+  "old-location": "wmformat\\iwmplayertimestamphook_maptimestamp.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "67da583f-85da-4a09-be2c-44cf96bf51e7",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMPlayerTimestampHook interface [windows Media Format],MapTimestamp method, IWMPlayerTimestampHook.MapTimestamp, IWMPlayerTimestampHook::MapTimestamp, IWMPlayerTimestampHookMapTimestamp, MapTimestamp, MapTimestamp method [windows Media Format], MapTimestamp method [windows Media Format],IWMPlayerTimestampHook interface, wmdxva/IWMPlayerTimestampHook::MapTimestamp, wmformat.iwmplayertimestamphook_maptimestamp",
+  "req.header": "wmdxva.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMPlayerTimestampHook::MapTimestamp",
+    "wmdxva/IWMPlayerTimestampHook::MapTimestamp"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmdxva.h"
+  ],
+  "api_name": [
+    "IWMPlayerTimestampHook.MapTimestamp"
+  ]
+}

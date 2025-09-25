@@ -1,0 +1,4 @@
+LONG MCIWndPlayFrom(
+     hwnd,
+     lPos
+);

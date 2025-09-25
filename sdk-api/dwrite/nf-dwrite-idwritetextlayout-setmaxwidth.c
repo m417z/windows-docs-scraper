@@ -1,0 +1,3 @@
+HRESULT SetMaxWidth(
+  FLOAT maxWidth
+);

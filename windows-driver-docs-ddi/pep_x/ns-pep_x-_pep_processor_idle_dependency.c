@@ -1,0 +1,6 @@
+typedef struct _PEP_PROCESSOR_IDLE_DEPENDENCY {
+  POHANDLE TargetProcessor;
+  UCHAR    ExpectedState;
+  BOOLEAN  AllowDeeperStates;
+  BOOLEAN  LooseDependency;
+} PEP_PROCESSOR_IDLE_DEPENDENCY, *PPEP_PROCESSOR_IDLE_DEPENDENCY;

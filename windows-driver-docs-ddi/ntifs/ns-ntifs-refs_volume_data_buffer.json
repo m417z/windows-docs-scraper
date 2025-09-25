@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ntifs.REFS_VOLUME_DATA_BUFFER",
+  "tech.root": "ifsk",
+  "title": "REFS_VOLUME_DATA_BUFFER",
+  "ms.date": "02/14/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the REFS_VOLUME_DATA_BUFFER structure.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "REFS_VOLUME_DATA_BUFFER, *PREFS_VOLUME_DATA_BUFFER",
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "REFS_VOLUME_DATA_BUFFER",
+    "PREFS_VOLUME_DATA_BUFFER"
+  ],
+  "f1_keywords": [
+    "REFS_VOLUME_DATA_BUFFER",
+    "ntifs/REFS_VOLUME_DATA_BUFFER",
+    "PREFS_VOLUME_DATA_BUFFER",
+    "ntifs/PREFS_VOLUME_DATA_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "REFS_VOLUME_DATA_BUFFER"
+  ]
+}

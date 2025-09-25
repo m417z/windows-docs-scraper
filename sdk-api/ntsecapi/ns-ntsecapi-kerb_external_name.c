@@ -1,0 +1,5 @@
+typedef struct _KERB_EXTERNAL_NAME {
+  SHORT          NameType;
+  USHORT         NameCount;
+  UNICODE_STRING Names[ANYSIZE_ARRAY];
+} KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME;

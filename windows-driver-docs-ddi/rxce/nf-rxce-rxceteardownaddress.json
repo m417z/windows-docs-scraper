@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxce.RxCeTearDownAddress",
+  "title": "RxCeTearDownAddress function (rxce.h)",
+  "description": "RxCeTearDownAddress deregisters a transport address from a transport binding.",
+  "old-location": "ifsk\\rxceteardownaddress.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxCeTearDownAddress function"
+  ],
+  "ms.keywords": "RxCeTearDownAddress, RxCeTearDownAddress function [Installable File System Drivers], ifsk.rxceteardownaddress, rxce/RxCeTearDownAddress, rxref_99fcdd00-8c1a-4a0b-8007-5b7f01a725bb.xml",
+  "req.header": "rxce.h",
+  "req.include-header": "Rxce.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxCeTearDownAddress",
+    "rxce/RxCeTearDownAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxce.h"
+  ],
+  "api_name": [
+    "RxCeTearDownAddress"
+  ]
+}

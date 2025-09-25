@@ -1,0 +1,4 @@
+typedef struct _MIB_IPMCAST_IF_TABLE {
+  DWORD                dwNumEntries;
+  MIB_IPMCAST_IF_ENTRY table[ANY_SIZE];
+} MIB_IPMCAST_IF_TABLE, *PMIB_IPMCAST_IF_TABLE;

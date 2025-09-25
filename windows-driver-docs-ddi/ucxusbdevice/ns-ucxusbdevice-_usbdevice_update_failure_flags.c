@@ -1,0 +1,4 @@
+typedef struct _USBDEVICE_UPDATE_FAILURE_FLAGS {
+  ULONG MaxExitLatencyTooLarge : 1;
+  ULONG Reserved : 31;
+} USBDEVICE_UPDATE_FAILURE_FLAGS;

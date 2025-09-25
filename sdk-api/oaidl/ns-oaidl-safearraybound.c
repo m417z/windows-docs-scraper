@@ -1,0 +1,4 @@
+typedef struct tagSAFEARRAYBOUND {
+  ULONG cElements;
+  LONG  lLbound;
+} SAFEARRAYBOUND, *LPSAFEARRAYBOUND;

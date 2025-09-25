@@ -1,0 +1,3 @@
+void GraphicsPath(
+  GpPath *nativePath
+);

@@ -1,0 +1,4 @@
+typedef struct _CERT_LDAP_STORE_OPENED_PARA {
+  void    *pvLdapSessionHandle;
+  LPCWSTR pwszLdapUrl;
+} CERT_LDAP_STORE_OPENED_PARA, *PCERT_LDAP_STORE_OPENED_PARA;

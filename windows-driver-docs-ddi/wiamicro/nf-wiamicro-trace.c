@@ -1,0 +1,4 @@
+VOID Trace(
+  LPCTSTR Format,
+  ...     
+);

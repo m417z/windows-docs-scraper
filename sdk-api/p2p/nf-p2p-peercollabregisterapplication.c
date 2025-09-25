@@ -1,0 +1,4 @@
+NOT_BUILD_WINDOWS_DEPRECATE HRESULT PeerCollabRegisterApplication(
+  [in] PCPEER_APPLICATION_REGISTRATION_INFO pcApplication,
+  [in] PEER_APPLICATION_REGISTRATION_TYPE   registrationType
+);

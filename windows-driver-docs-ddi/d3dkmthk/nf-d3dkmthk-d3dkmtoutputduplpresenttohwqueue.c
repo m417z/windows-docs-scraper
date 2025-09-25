@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOutputDuplPresentToHwQueue(
+  [in] const D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE *unnamedParam1
+);

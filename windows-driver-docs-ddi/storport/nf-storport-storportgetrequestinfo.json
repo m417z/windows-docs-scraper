@@ -1,0 +1,48 @@
+{
+  "UID": "NF:storport.StorPortGetRequestInfo",
+  "title": "StorPortGetRequestInfo function (storport.h)",
+  "description": "The StorPortGetRequestInfo routine retrieves the IO request information associated with a SCSI request block (SRB) and returns it in a STOR_REQUEST_INFO structure.",
+  "old-location": "storage\\storportgetrequestinfo.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortGetRequestInfo function"
+  ],
+  "ms.keywords": "StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], storage.storportgetrequestinfo, storport/StorPortGetRequestInfo",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 8 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortGetRequestInfo",
+    "storport/StorPortGetRequestInfo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortGetRequestInfo"
+  ]
+}

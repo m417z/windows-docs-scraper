@@ -1,0 +1,24 @@
+typedef struct tagOLEUICONVERTW {
+  DWORD         cbStruct;
+  DWORD         dwFlags;
+  HWND          hWndOwner;
+  LPCWSTR       lpszCaption;
+  LPFNOLEUIHOOK lpfnHook;
+  LPARAM        lCustData;
+  HINSTANCE     hInstance;
+  LPCWSTR       lpszTemplate;
+  HRSRC         hResource;
+  CLSID         clsid;
+  CLSID         clsidConvertDefault;
+  CLSID         clsidActivateDefault;
+  CLSID         clsidNew;
+  DWORD         dvAspect;
+  WORD          wFormat;
+  BOOL          fIsLinkedObject;
+  HGLOBAL       hMetaPict;
+  LPWSTR        lpszUserType;
+  BOOL          fObjectsIconChanged;
+  LPWSTR        lpszDefLabel;
+  UINT          cClsidExclude;
+  LPCLSID       lpClsidExclude;
+} OLEUICONVERTW, *POLEUICONVERTW, *LPOLEUICONVERTW;

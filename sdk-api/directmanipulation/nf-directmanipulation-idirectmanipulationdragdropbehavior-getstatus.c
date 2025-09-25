@@ -1,0 +1,3 @@
+HRESULT GetStatus(
+  [out, retval] DIRECTMANIPULATION_DRAG_DROP_STATUS *status
+);

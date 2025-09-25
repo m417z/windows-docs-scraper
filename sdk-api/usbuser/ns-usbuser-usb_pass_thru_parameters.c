@@ -1,0 +1,5 @@
+typedef struct _USB_PASS_THRU_PARAMETERS {
+  GUID  FunctionGUID;
+  ULONG ParameterLength;
+  UCHAR Parameters[4];
+} USB_PASS_THRU_PARAMETERS, *PUSB_PASS_THRU_PARAMETERS;

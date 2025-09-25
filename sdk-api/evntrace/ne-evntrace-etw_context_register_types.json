@@ -1,0 +1,43 @@
+{
+  "UID": "NE:evntrace.ETW_CONTEXT_REGISTER_TYPES",
+  "tech.root": "ETW",
+  "title": "ETW_CONTEXT_REGISTER_TYPES",
+  "ms.date": "06/06/2024",
+  "targetos": "Windows",
+  "description": "Specifies the set of registers to be collected when Context Register Tracing is enabled.",
+  "prerelease": true,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 23H2",
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "evntrace.h"
+  ],
+  "api_name": [
+    "ETW_CONTEXT_REGISTER_TYPES"
+  ],
+  "f1_keywords": [
+    "ETW_CONTEXT_REGISTER_TYPES",
+    "evntrace/ETW_CONTEXT_REGISTER_TYPES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "ETW_CONTEXT_REGISTER_TYPES"
+  ]
+}

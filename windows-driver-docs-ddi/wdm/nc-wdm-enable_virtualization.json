@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.ENABLE_VIRTUALIZATION",
+  "title": "ENABLE_VIRTUALIZATION (wdm.h)",
+  "description": "The EnableVirtualization routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.",
+  "tech.root": "PCI",
+  "ms.date": "01/19/2023",
+  "keywords": [
+    "ENABLE_VIRTUALIZATION callback"
+  ],
+  "ms.keywords": "ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in Windows Server 2012 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL <= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME",
+  "f1_keywords": [
+    "ENABLE_VIRTUALIZATION",
+    "wdm/ENABLE_VIRTUALIZATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "ENABLE_VIRTUALIZATION"
+  ]
+}

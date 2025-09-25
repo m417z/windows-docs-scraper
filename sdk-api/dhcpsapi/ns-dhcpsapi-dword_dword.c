@@ -1,0 +1,4 @@
+typedef struct _DWORD_DWORD {
+  DWORD DWord1;
+  DWORD DWord2;
+} DWORD_DWORD, *LPDWORD_DWORD;

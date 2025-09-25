@@ -1,0 +1,26 @@
+typedef struct {
+  USHORT MP;
+  UCHAR  Reserved0;
+  UCHAR  MPS : 1;
+  UCHAR  NOPS : 1;
+  UCHAR  Reserved1 : 6;
+  ULONG  ENLAT;
+  ULONG  EXLAT;
+  UCHAR  RRT : 5;
+  UCHAR  Reserved2 : 3;
+  UCHAR  RRL : 5;
+  UCHAR  Reserved3 : 3;
+  UCHAR  RWT : 5;
+  UCHAR  Reserved4 : 3;
+  UCHAR  RWL : 5;
+  UCHAR  Reserved5 : 3;
+  USHORT IDLP;
+  UCHAR  Reserved6 : 6;
+  UCHAR  IPS : 2;
+  UCHAR  Reserved7;
+  USHORT ACTP;
+  UCHAR  APW : 3;
+  UCHAR  Reserved8 : 3;
+  UCHAR  APS : 2;
+  UCHAR  Reserved9[9];
+} NVME_POWER_STATE_DESC, *PNVME_POWER_STATE_DESC;

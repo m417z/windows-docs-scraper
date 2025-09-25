@@ -1,0 +1,4 @@
+typedef struct _SERIAL_QUEUE_SIZE {
+  ULONG InSize;
+  ULONG OutSize;
+} SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE;

@@ -1,0 +1,4 @@
+typedef enum FOLDER_ENUM_MODE {
+  FEM_VIEWRESULT = 0,
+  FEM_NAVIGATION = 1
+} ;

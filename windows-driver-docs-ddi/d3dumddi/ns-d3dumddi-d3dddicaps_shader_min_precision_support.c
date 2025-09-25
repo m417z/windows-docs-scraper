@@ -1,0 +1,4 @@
+typedef struct D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT {
+  UINT VertexShaderMinPrecision;
+  UINT PixelShaderMinPrecision;
+} D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT;

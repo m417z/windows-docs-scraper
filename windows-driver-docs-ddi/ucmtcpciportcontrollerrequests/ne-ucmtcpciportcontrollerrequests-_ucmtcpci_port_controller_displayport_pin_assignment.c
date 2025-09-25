@@ -1,0 +1,14 @@
+typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT {
+  UcmTcpciPortControllerPinAssignmentInvalid,
+  UcmTcpciPortControllerDFPDPinAssignmentA,
+  UcmTcpciPortControllerDFPDPinAssignmentB,
+  UcmTcpciPortControllerDFPDPinAssignmentC,
+  UcmTcpciPortControllerDFPDPinAssignmentD,
+  UcmTcpciPortControllerDFPDPinAssignmentE,
+  UcmTcpciPortControllerDFPDPinAssignmentF,
+  UcmTcpciPortControllerUFPDPinAssignmentA,
+  UcmTcpciPortControllerUFPDPinAssignmentB,
+  UcmTcpciPortControllerUFPDPinAssignmentC,
+  UcmTcpciPortControllerUFPDPinAssignmentD,
+  UcmTcpciPortControllerUFPDPinAssignmentE
+} UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT;

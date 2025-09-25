@@ -1,0 +1,1 @@
+void ImageList_EndDrag();

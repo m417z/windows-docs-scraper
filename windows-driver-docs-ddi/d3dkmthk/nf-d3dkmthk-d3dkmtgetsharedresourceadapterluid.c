@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetSharedResourceAdapterLuid(
+  D3DKMT_GETSHAREDRESOURCEADAPTERLUID *unnamedParam1
+);

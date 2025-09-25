@@ -1,0 +1,48 @@
+{
+  "UID": "NI:nfcsedev.IOCTL_NFCSE_GET_NFCC_CAPABILITIES",
+  "title": "IOCTL_NFCSE_GET_NFCC_CAPABILITIES (nfcsedev.h)",
+  "description": "The IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code returns information about the current NFC controller capabilities, including the maximum Listen Mode Routing table size (defined in section 4.2 of the NFC Controller Interface (NCI) Technical Specification Version 1.1) and supported routing modes.",
+  "old-location": "nfpdrivers\\ioctl_nfcse_get_nfcc_capabilities.htm",
+  "tech.root": "nfpdrivers",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_NFCSE_GET_NFCC_CAPABILITIES IOCTL"
+  ],
+  "ms.keywords": "IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfpdrivers.ioctl_nfcse_get_nfcc_capabilities",
+  "req.header": "nfcsedev.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_NFCSE_GET_NFCC_CAPABILITIES",
+    "nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nfcsedev.h"
+  ],
+  "api_name": [
+    "IOCTL_NFCSE_GET_NFCC_CAPABILITIES"
+  ]
+}

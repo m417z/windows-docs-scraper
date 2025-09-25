@@ -1,0 +1,66 @@
+{
+  "UID": "NF:ole2.OleGetClipboard",
+  "title": "OleGetClipboard function (ole2.h)",
+  "description": "Retrieves a data object that you can use to access the contents of the clipboard.",
+  "helpviewer_keywords": [
+    "OleGetClipboard",
+    "OleGetClipboard function [COM]",
+    "_ole_OleGetClipboard",
+    "com.olegetclipboard",
+    "ole2/OleGetClipboard"
+  ],
+  "old-location": "com\\olegetclipboard.htm",
+  "tech.root": "com",
+  "ms.assetid": "c5e7badb-339b-48d5-8c9a-3950e2ffe6bf",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "OleGetClipboard, OleGetClipboard function [COM], _ole_OleGetClipboard, com.olegetclipboard, ole2/OleGetClipboard",
+  "req.header": "ole2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OleGetClipboard",
+    "ole2/OleGetClipboard"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-com-ole32-l1-4-0.dll",
+    "ext-ms-win-com-ole32-l1-3-0.dll",
+    "ext-ms-win-com-ole32-l1-2-0.dll",
+    "Ole32.dll",
+    "API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll",
+    "ie_shims.dll",
+    "ext-ms-win-ole32-clipboard-ie-l1-1-0.dll",
+    "API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll"
+  ],
+  "api_name": [
+    "OleGetClipboard"
+  ],
+  "req.apiset": "ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)"
+}

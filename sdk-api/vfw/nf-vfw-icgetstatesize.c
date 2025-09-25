@@ -1,0 +1,3 @@
+DWORD ICGetStateSize(
+     hic
+);

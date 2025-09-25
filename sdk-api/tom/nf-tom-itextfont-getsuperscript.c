@@ -1,0 +1,3 @@
+HRESULT GetSuperscript(
+  long *pValue
+);

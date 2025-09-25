@@ -1,0 +1,3 @@
+HRESULT RestrictToOutput(
+  IUnknown *output
+);

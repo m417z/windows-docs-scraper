@@ -1,0 +1,3 @@
+HRESULT UnregisterDestructionCallback(
+  UINT callbackID
+);

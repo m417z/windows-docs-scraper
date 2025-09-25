@@ -1,0 +1,3 @@
+typedef enum PRJ_PLACEHOLDER_ID {
+  PRJ_PLACEHOLDER_ID_LENGTH = 128
+} ;

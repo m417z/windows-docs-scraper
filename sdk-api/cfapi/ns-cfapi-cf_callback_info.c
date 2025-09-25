@@ -1,0 +1,21 @@
+typedef struct CF_CALLBACK_INFO {
+  DWORD               StructSize;
+  CF_CONNECTION_KEY   ConnectionKey;
+  LPVOID              CallbackContext;
+  PCWSTR              VolumeGuidName;
+  PCWSTR              VolumeDosName;
+  DWORD               VolumeSerialNumber;
+  LARGE_INTEGER       SyncRootFileId;
+  LPCVOID             SyncRootIdentity;
+  DWORD               SyncRootIdentityLength;
+  LARGE_INTEGER       FileId;
+  LARGE_INTEGER       FileSize;
+  LPCVOID             FileIdentity;
+  DWORD               FileIdentityLength;
+  PCWSTR              NormalizedPath;
+  CF_TRANSFER_KEY     TransferKey;
+  UCHAR               PriorityHint;
+  PCORRELATION_VECTOR CorrelationVector;
+  CF_PROCESS_INFO     *ProcessInfo;
+  CF_REQUEST_KEY      RequestKey;
+} CF_CALLBACK_INFO;

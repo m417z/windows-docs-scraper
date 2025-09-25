@@ -1,0 +1,23 @@
+typedef struct _NDIS_CO_CLIENT_OPTIONAL_HANDLERS {
+  NDIS_OBJECT_HEADER                  Header;
+  ULONG                               Reserved;
+  CO_CREATE_VC_HANDLER                ClCreateVcHandler;
+  CO_DELETE_VC_HANDLER                ClDeleteVcHandler;
+  CO_OID_REQUEST_HANDLER              ClOidRequestHandler;
+  CO_OID_REQUEST_COMPLETE_HANDLER     ClOidRequestCompleteHandler;
+  CL_OPEN_AF_COMPLETE_HANDLER_EX      ClOpenAfCompleteHandlerEx;
+  CL_CLOSE_AF_COMPLETE_HANDLER        ClCloseAfCompleteHandler;
+  CL_REG_SAP_COMPLETE_HANDLER         ClRegisterSapCompleteHandler;
+  CL_DEREG_SAP_COMPLETE_HANDLER       ClDeregisterSapCompleteHandler;
+  CL_MAKE_CALL_COMPLETE_HANDLER       ClMakeCallCompleteHandler;
+  CL_MODIFY_CALL_QOS_COMPLETE_HANDLER ClModifyCallQoSCompleteHandler;
+  CL_CLOSE_CALL_COMPLETE_HANDLER      ClCloseCallCompleteHandler;
+  CL_ADD_PARTY_COMPLETE_HANDLER       ClAddPartyCompleteHandler;
+  CL_DROP_PARTY_COMPLETE_HANDLER      ClDropPartyCompleteHandler;
+  CL_INCOMING_CALL_HANDLER            ClIncomingCallHandler;
+  CL_INCOMING_CALL_QOS_CHANGE_HANDLER ClIncomingCallQoSChangeHandler;
+  CL_INCOMING_CLOSE_CALL_HANDLER      ClIncomingCloseCallHandler;
+  CL_INCOMING_DROP_PARTY_HANDLER      ClIncomingDropPartyHandler;
+  CL_CALL_CONNECTED_HANDLER           ClCallConnectedHandler;
+  CL_NOTIFY_CLOSE_AF_HANDLER          ClNotifyCloseAfHandler;
+} NDIS_CO_CLIENT_OPTIONAL_HANDLERS, *PNDIS_CO_CLIENT_OPTIONAL_HANDLERS;

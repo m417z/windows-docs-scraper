@@ -1,0 +1,6 @@
+typedef struct _DXVAHD_COLOR_RGBA {
+  FLOAT R;
+  FLOAT G;
+  FLOAT B;
+  FLOAT A;
+} DXVAHD_COLOR_RGBA;

@@ -1,0 +1,3 @@
+typedef struct _DXVADDI_PVP_SETKEY {
+  [in] DXVADDI_PVP_KEY128 ContentKey;
+} DXVADDI_PVP_SETKEY;

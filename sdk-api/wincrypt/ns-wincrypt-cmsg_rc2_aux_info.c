@@ -1,0 +1,4 @@
+typedef struct _CMSG_RC2_AUX_INFO {
+  DWORD cbSize;
+  DWORD dwBitLen;
+} CMSG_RC2_AUX_INFO, *PCMSG_RC2_AUX_INFO;

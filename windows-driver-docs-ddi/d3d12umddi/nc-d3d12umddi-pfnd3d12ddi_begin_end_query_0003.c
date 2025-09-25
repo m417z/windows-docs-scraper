@@ -1,0 +1,9 @@
+PFND3D12DDI_BEGIN_END_QUERY_0003 Pfnd3d12ddiBeginEndQuery0003;
+
+VOID Pfnd3d12ddiBeginEndQuery0003(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  D3D12DDI_HQUERYHEAP unnamedParam2,
+  D3D12DDI_QUERY_TYPE unnamedParam3,
+  UINT unnamedParam4
+)
+{...}

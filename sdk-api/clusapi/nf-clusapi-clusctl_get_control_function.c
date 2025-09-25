@@ -1,0 +1,3 @@
+void CLUSCTL_GET_CONTROL_FUNCTION(
+  ControlCode
+);

@@ -1,0 +1,3 @@
+HRESULT get_IsCA(
+  VARIANT_BOOL *pValue
+);

@@ -1,0 +1,4 @@
+typedef struct _KS_DVDCOPY_BUSKEY {
+  BYTE BusKey[5];
+  BYTE Reserved[1];
+} KS_DVDCOPY_BUSKEY, *PKS_DVDCOPY_BUSKEY;

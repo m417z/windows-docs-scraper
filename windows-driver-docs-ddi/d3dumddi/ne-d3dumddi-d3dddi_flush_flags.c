@@ -1,0 +1,3 @@
+typedef enum D3DDDI_FLUSH_FLAGS {
+  D3DDDI_TRIM_MEMORY
+} ;

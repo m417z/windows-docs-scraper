@@ -1,0 +1,3 @@
+typedef struct _GROUP_INFO_1002 {
+  LPWSTR grpi1002_comment;
+} GROUP_INFO_1002, *PGROUP_INFO_1002, *LPGROUP_INFO_1002;

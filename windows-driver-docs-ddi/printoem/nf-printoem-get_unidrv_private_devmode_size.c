@@ -1,0 +1,3 @@
+void GET_UNIDRV_PRIVATE_DEVMODE_SIZE(
+  pdm
+);

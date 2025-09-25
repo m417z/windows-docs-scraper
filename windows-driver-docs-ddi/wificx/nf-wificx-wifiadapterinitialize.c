@@ -1,0 +1,3 @@
+NTSTATUS WifiAdapterInitialize(
+  NETADAPTER Adapter
+);

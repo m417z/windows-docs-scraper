@@ -1,0 +1,4 @@
+typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS {
+  UcmTcpciPortControllerDisplayOutStatusOff,
+  UcmTcpciPortControllerDisplayOutStatusOn
+} UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS;

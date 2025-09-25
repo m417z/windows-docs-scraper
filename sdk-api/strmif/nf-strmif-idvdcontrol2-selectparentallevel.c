@@ -1,0 +1,3 @@
+HRESULT SelectParentalLevel(
+  ULONG ulParentalLevel
+);

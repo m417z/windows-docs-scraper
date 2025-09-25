@@ -1,0 +1,4 @@
+typedef struct tagNMTOOLTIPSCREATED {
+  NMHDR hdr;
+  HWND  hwndToolTips;
+} NMTOOLTIPSCREATED, *LPNMTOOLTIPSCREATED;

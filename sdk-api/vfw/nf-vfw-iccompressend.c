@@ -1,0 +1,3 @@
+DWORD ICCompressEnd(
+     hic
+);

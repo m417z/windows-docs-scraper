@@ -1,0 +1,5 @@
+typedef struct _D3DHAL_DP2TEXTURESTAGESTATE {
+  WORD  wStage;
+  WORD  TSState;
+  DWORD dwValue;
+} D3DHAL_DP2TEXTURESTAGESTATE;

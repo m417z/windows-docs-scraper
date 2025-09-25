@@ -1,0 +1,3 @@
+HRESULT GetType(
+  [out] GROUP_POLICY_OBJECT_TYPE *gpoType
+);

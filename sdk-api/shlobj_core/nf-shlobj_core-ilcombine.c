@@ -1,0 +1,4 @@
+PIDLIST_ABSOLUTE ILCombine(
+  [in] PCIDLIST_ABSOLUTE  pidl1,
+  [in] PCUIDLIST_RELATIVE pidl2
+);

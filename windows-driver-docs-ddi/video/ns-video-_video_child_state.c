@@ -1,0 +1,4 @@
+typedef struct _VIDEO_CHILD_STATE {
+  ULONG Id;
+  ULONG State;
+} VIDEO_CHILD_STATE, *PVIDEO_CHILD_STATE;

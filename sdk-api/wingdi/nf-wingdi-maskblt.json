@@ -1,0 +1,60 @@
+{
+  "UID": "NF:wingdi.MaskBlt",
+  "title": "MaskBlt function (wingdi.h)",
+  "description": "The MaskBlt function combines the color data for the source and destination bitmaps using the specified mask and raster operation.",
+  "helpviewer_keywords": [
+    "MaskBlt",
+    "MaskBlt function [Windows GDI]",
+    "_win32_MaskBlt",
+    "gdi.maskblt",
+    "wingdi/MaskBlt"
+  ],
+  "old-location": "gdi\\maskblt.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "9fd6f0ce-a802-428d-9be5-a66afe39e9b7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MaskBlt, MaskBlt function [Windows GDI], _win32_MaskBlt, gdi.maskblt, wingdi/MaskBlt",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MaskBlt",
+    "wingdi/MaskBlt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "MaskBlt"
+  ]
+}

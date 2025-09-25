@@ -1,0 +1,3 @@
+HRESULT SetItem(
+  [in] LPRESULTDATAITEM item
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntdddump.DUMP_UNLOAD",
+  "title": "DUMP_UNLOAD (ntdddump.h)",
+  "description": "The Dump_Unload callback routine is called when the dump stack is unloaded.",
+  "old-location": "storage\\dump_unload.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "DUMP_UNLOAD callback function"
+  ],
+  "ms.keywords": "Dump_Unload, Dump_Unload routine [Storage Devices], PDUMP_UNLOAD, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml, ntdddump/Dump_Unload, storage.dump_unload",
+  "req.header": "ntdddump.h",
+  "req.include-header": "Ntdddump.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows Vista and Windows Server 2008.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DUMP_UNLOAD",
+    "ntdddump/DUMP_UNLOAD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntdddump.h"
+  ],
+  "api_name": [
+    "DUMP_UNLOAD"
+  ]
+}

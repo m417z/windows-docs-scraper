@@ -1,0 +1,7 @@
+DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO DxgkddiMonitorsourcemodesetCreatenewmodeinfo;
+
+NTSTATUS DxgkddiMonitorsourcemodesetCreatenewmodeinfo(
+  [in]  IN_CONST_D3DKMDT_HMONITORSOURCEMODESET hMonitorSourceModeSet,
+  [out] DEREF_OUT_PPD3DKMDT_MONITOR_SOURCE_MODE ppNewMonitorSourceModeInfo
+)
+{...}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:faxdev.FaxDevStartJob",
+  "title": "FaxDevStartJob function (faxdev.h)",
+  "description": "The fax service calls the FaxDevStartJob function to initialize a new fax job. The fax service also calls FaxDevStartJob to signal the beginning of each fax operation to the fax service provider (FSP). Each FSP must export the FaxDevStartJob function.",
+  "helpviewer_keywords": [
+    "FaxDevStartJob",
+    "FaxDevStartJob function [Fax Service]",
+    "_mfax_faxdevstartjob",
+    "fax._mfax_faxdevstartjob",
+    "faxdev/FaxDevStartJob"
+  ],
+  "old-location": "fax\\_mfax_faxdevstartjob.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxfspapiref_5ode.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxDevStartJob, FaxDevStartJob function [Fax Service], _mfax_faxdevstartjob, fax._mfax_faxdevstartjob, faxdev/FaxDevStartJob",
+  "req.header": "faxdev.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FaxDevStartJob",
+    "faxdev/FaxDevStartJob"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "FaxDev.h"
+  ],
+  "api_name": [
+    "FaxDevStartJob"
+  ]
+}

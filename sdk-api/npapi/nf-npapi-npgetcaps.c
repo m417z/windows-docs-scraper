@@ -1,0 +1,3 @@
+DWORD NPGetCaps(
+       DWORD ndex
+);

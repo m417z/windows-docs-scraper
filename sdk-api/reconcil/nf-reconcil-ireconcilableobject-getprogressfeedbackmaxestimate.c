@@ -1,0 +1,3 @@
+HRESULT GetProgressFeedbackMaxEstimate(
+  PULONG pulProgressMax
+);

@@ -1,0 +1,4 @@
+typedef struct _ONEX_VARIABLE_BLOB {
+  DWORD dwSize;
+  DWORD dwOffset;
+} ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB;

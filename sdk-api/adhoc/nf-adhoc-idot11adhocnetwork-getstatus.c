@@ -1,0 +1,3 @@
+HRESULT GetStatus(
+  [in, out] DOT11_ADHOC_NETWORK_CONNECTION_STATUS *eStatus
+);

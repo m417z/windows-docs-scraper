@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0025 Pfnd3d12ddiCreatedepthstencilstate0025;
+
+VOID Pfnd3d12ddiCreatedepthstencilstate0025(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDI_DEPTH_STENCIL_DESC_0025 *unnamedParam2,
+  D3D12DDI_HDEPTHSTENCILSTATE unnamedParam3
+)
+{...}

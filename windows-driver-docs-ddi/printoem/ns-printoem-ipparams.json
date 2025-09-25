@@ -1,0 +1,50 @@
+{
+  "UID": "NS:printoem.IPPARAMS",
+  "title": "IPPARAMS (printoem.h)",
+  "description": "The IPPARAMS structure is used as an input parameter to a rendering plug-in's IPrintOemUni::ImageProcessing method.",
+  "tech.root": "print",
+  "ms.date": "08/12/2022",
+  "keywords": [
+    "IPPARAMS structure"
+  ],
+  "ms.keywords": "*PIPPARAMS, IPPARAMS, IPPARAMS structure [Print Devices], PIPPARAMS, PIPPARAMS structure pointer [Print Devices], print.ipparams, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, printoem/IPPARAMS, printoem/PIPPARAMS",
+  "req.header": "printoem.h",
+  "req.include-header": "Printoem.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IPPARAMS, *PIPPARAMS",
+  "f1_keywords": [
+    "PIPPARAMS",
+    "printoem/PIPPARAMS",
+    "IPPARAMS",
+    "printoem/IPPARAMS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "printoem.h"
+  ],
+  "api_name": [
+    "PIPPARAMS",
+    "IPPARAMS"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "UID": "NS:d3dhal._DD_GETEXTENDEDMODEDATA",
+  "title": "_DD_GETEXTENDEDMODEDATA (d3dhal.h)",
+  "description": "DirectX 9.0 and later versions only. DD_GETEXTENDEDMODEDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETEXTENDEDMODE.",
+  "old-location": "display\\dd_getextendedmodedata.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DD_GETEXTENDEDMODEDATA structure"
+  ],
+  "ms.keywords": "DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], _DD_GETEXTENDEDMODEDATA, d3dhal/DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, display.dd_getextendedmodedata",
+  "req.header": "d3dhal.h",
+  "req.include-header": "D3dhal.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DD_GETEXTENDEDMODEDATA",
+  "f1_keywords": [
+    "_DD_GETEXTENDEDMODEDATA",
+    "d3dhal/_DD_GETEXTENDEDMODEDATA",
+    "DD_GETEXTENDEDMODEDATA",
+    "d3dhal/DD_GETEXTENDEDMODEDATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dhal.h"
+  ],
+  "api_name": [
+    "_DD_GETEXTENDEDMODEDATA",
+    "DD_GETEXTENDEDMODEDATA"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winbase.GetNumaProcessorNode",
+  "title": "GetNumaProcessorNode function (winbase.h)",
+  "description": "Retrieves the node number for the specified processor.",
+  "helpviewer_keywords": [
+    "GetNumaProcessorNode",
+    "GetNumaProcessorNode function",
+    "_win32_getnumaprocessornode",
+    "base.getnumaprocessornode",
+    "winbase/GetNumaProcessorNode"
+  ],
+  "old-location": "base\\getnumaprocessornode.htm",
+  "tech.root": "backup",
+  "ms.assetid": "88e6c6b3-7ec5-43e5-8cf3-21402925f718",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetNumaProcessorNode, GetNumaProcessorNode function, _win32_getnumaprocessornode, base.getnumaprocessornode, winbase/GetNumaProcessorNode",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetNumaProcessorNode",
+    "winbase/GetNumaProcessorNode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "GetNumaProcessorNode"
+  ]
+}

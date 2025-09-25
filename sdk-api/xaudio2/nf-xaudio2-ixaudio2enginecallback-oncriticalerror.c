@@ -1,0 +1,3 @@
+void OnCriticalError(
+  HRESULT Error
+);

@@ -1,0 +1,4 @@
+typedef struct {
+  ULONG Granularity;
+  ULONG Capacity;
+} BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE;

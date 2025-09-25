@@ -1,0 +1,53 @@
+{
+  "UID": "NS:strmini._HW_EVENT_DESCRIPTOR",
+  "title": "HW_EVENT_DESCRIPTOR (strmini.h)",
+  "description": "When the class driver calls one of the minidriver's StrMiniEvent routines, it passes a pointer to an HW_EVENT_DESCRIPTOR structure to describe the event as enabled or disabled.",
+  "tech.root": "stream",
+  "ms.date": "10/04/2022",
+  "keywords": [
+    "HW_EVENT_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PHW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR structure [Streaming Media Devices], PHW_EVENT_DESCRIPTOR, PHW_EVENT_DESCRIPTOR structure pointer [Streaming Media Devices], _HW_EVENT_DESCRIPTOR, strclass-struct_ca0c15b2-17d1-4114-9765-5638dd81ca24.xml, stream.hw_event_descriptor, strmini/HW_EVENT_DESCRIPTOR, strmini/PHW_EVENT_DESCRIPTOR",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "HW_EVENT_DESCRIPTOR, *PHW_EVENT_DESCRIPTOR",
+  "f1_keywords": [
+    "_HW_EVENT_DESCRIPTOR",
+    "strmini/_HW_EVENT_DESCRIPTOR",
+    "PHW_EVENT_DESCRIPTOR",
+    "strmini/PHW_EVENT_DESCRIPTOR",
+    "HW_EVENT_DESCRIPTOR",
+    "strmini/HW_EVENT_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "strmini.h"
+  ],
+  "api_name": [
+    "_HW_EVENT_DESCRIPTOR",
+    "PHW_EVENT_DESCRIPTOR",
+    "HW_EVENT_DESCRIPTOR"
+  ]
+}

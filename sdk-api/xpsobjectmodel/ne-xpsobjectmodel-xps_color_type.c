@@ -1,0 +1,5 @@
+typedef enum __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009 {
+  XPS_COLOR_TYPE_SRGB = 1,
+  XPS_COLOR_TYPE_SCRGB,
+  XPS_COLOR_TYPE_CONTEXT
+} XPS_COLOR_TYPE;

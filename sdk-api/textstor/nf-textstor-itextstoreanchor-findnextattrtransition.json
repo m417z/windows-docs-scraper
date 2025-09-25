@@ -1,0 +1,66 @@
+{
+  "UID": "NF:textstor.ITextStoreAnchor.FindNextAttrTransition",
+  "title": "ITextStoreAnchor::FindNextAttrTransition (textstor.h)",
+  "description": "The ITextStoreAnchor::FindNextAttrTransition method finds the location in the text stream where a transition occurs in an attribute value. The specified attribute to check is application-dependent.",
+  "helpviewer_keywords": [
+    "FindNextAttrTransition",
+    "FindNextAttrTransition method [Text Services Framework]",
+    "FindNextAttrTransition method [Text Services Framework]",
+    "ITextStoreAnchor interface",
+    "ITextStoreAnchor interface [Text Services Framework]",
+    "FindNextAttrTransition method",
+    "ITextStoreAnchor.FindNextAttrTransition",
+    "ITextStoreAnchor::FindNextAttrTransition",
+    "TS_ATTR_FIND_BACKWARDS",
+    "TS_ATTR_FIND_UPDATESTART",
+    "TS_ATTR_FIND_WANT_OFFSET",
+    "textstor/ITextStoreAnchor::FindNextAttrTransition",
+    "tsf.itextstoreanchor_findnextattrtransition"
+  ],
+  "old-location": "tsf\\itextstoreanchor_findnextattrtransition.htm",
+  "tech.root": "TSF",
+  "ms.assetid": "9bb21a4a-047e-4347-93b3-9c41cd2c20b7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],FindNextAttrTransition method, ITextStoreAnchor.FindNextAttrTransition, ITextStoreAnchor::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_UPDATESTART, TS_ATTR_FIND_WANT_OFFSET, textstor/ITextStoreAnchor::FindNextAttrTransition, tsf.itextstoreanchor_findnextattrtransition",
+  "req.header": "textstor.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Textstor.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Msctf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "TSF 1.0 on Windows 2000 Professional",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITextStoreAnchor::FindNextAttrTransition",
+    "textstor/ITextStoreAnchor::FindNextAttrTransition"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "msctf.dll"
+  ],
+  "api_name": [
+    "ITextStoreAnchor.FindNextAttrTransition"
+  ]
+}

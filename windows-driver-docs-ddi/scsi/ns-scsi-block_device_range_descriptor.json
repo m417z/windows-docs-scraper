@@ -1,0 +1,50 @@
+{
+  "UID": "NS:scsi.BLOCK_DEVICE_RANGE_DESCRIPTOR",
+  "title": "BLOCK_DEVICE_RANGE_DESCRIPTOR (scsi.h)",
+  "description": "The BLOCK_DEVICE_RANGE_DESCRIPTOR structure (scsi.h) describes a range of logical blocks associated with the fragments of a file.",
+  "tech.root": "storage",
+  "ms.date": "09/20/2022",
+  "keywords": [
+    "BLOCK_DEVICE_RANGE_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, storage.block_device_range_descriptor",
+  "req.header": "scsi.h",
+  "req.include-header": "Scsi.h, Minitape.h, Storport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR",
+  "f1_keywords": [
+    "PBLOCK_DEVICE_RANGE_DESCRIPTOR",
+    "scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR",
+    "BLOCK_DEVICE_RANGE_DESCRIPTOR",
+    "scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scsi.h"
+  ],
+  "api_name": [
+    "PBLOCK_DEVICE_RANGE_DESCRIPTOR",
+    "BLOCK_DEVICE_RANGE_DESCRIPTOR"
+  ]
+}

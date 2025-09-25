@@ -1,0 +1,25 @@
+typedef struct _SECURITY_LOGON_SESSION_DATA {
+  ULONG                     Size;
+  LUID                      LogonId;
+  LSA_UNICODE_STRING        UserName;
+  LSA_UNICODE_STRING        LogonDomain;
+  LSA_UNICODE_STRING        AuthenticationPackage;
+  ULONG                     LogonType;
+  ULONG                     Session;
+  PSID                      Sid;
+  LARGE_INTEGER             LogonTime;
+  LSA_UNICODE_STRING        LogonServer;
+  LSA_UNICODE_STRING        DnsDomainName;
+  LSA_UNICODE_STRING        Upn;
+  ULONG                     UserFlags;
+  LSA_LAST_INTER_LOGON_INFO LastLogonInfo;
+  LSA_UNICODE_STRING        LogonScript;
+  LSA_UNICODE_STRING        ProfilePath;
+  LSA_UNICODE_STRING        HomeDirectory;
+  LSA_UNICODE_STRING        HomeDirectoryDrive;
+  LARGE_INTEGER             LogoffTime;
+  LARGE_INTEGER             KickOffTime;
+  LARGE_INTEGER             PasswordLastSet;
+  LARGE_INTEGER             PasswordCanChange;
+  LARGE_INTEGER             PasswordMustChange;
+} SECURITY_LOGON_SESSION_DATA, *PSECURITY_LOGON_SESSION_DATA;

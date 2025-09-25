@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ASSERTMSG",
+  "title": "ASSERTMSG macro (wdm.h)",
+  "description": "ASSERTMSG tests an expression. If the expression is false, it breaks into the kernel debugger and sends it the specified message.",
+  "old-location": "devtest\\assertmsg.htm",
+  "tech.root": "devtest",
+  "ms.date": "02/23/2018",
+  "keywords": [
+    "ASSERTMSG macro"
+  ],
+  "ms.keywords": "ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ASSERTMSG",
+    "wdm/ASSERTMSG"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "ASSERTMSG"
+  ]
+}

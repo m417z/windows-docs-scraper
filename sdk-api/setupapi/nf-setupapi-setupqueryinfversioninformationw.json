@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupQueryInfVersionInformationW",
+  "title": "SetupQueryInfVersionInformationW function (setupapi.h)",
+  "description": "The SetupQueryInfVersionInformation function returns INF file version information from an SP_INF_INFORMATION structure to a buffer. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupQueryInfVersionInformation",
+    "SetupQueryInfVersionInformation function [Setup API]",
+    "SetupQueryInfVersionInformationW",
+    "_setupapi_setupqueryinfversioninformation",
+    "setup.setupqueryinfversioninformation",
+    "setupapi/SetupQueryInfVersionInformation",
+    "setupapi/SetupQueryInfVersionInformationW"
+  ],
+  "old-location": "setup\\setupqueryinfversioninformation.htm",
+  "tech.root": "setup",
+  "ms.assetid": "58768b91-a0c7-4791-8667-2890b742798c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupQueryInfVersionInformation, SetupQueryInfVersionInformation function [Setup API], SetupQueryInfVersionInformationA, SetupQueryInfVersionInformationW, _setupapi_setupqueryinfversioninformation, setup.setupqueryinfversioninformation, setupapi/SetupQueryInfVersionInformation, setupapi/SetupQueryInfVersionInformationA, setupapi/SetupQueryInfVersionInformationW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupQueryInfVersionInformationW (Unicode) and SetupQueryInfVersionInformationA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupQueryInfVersionInformationW",
+    "setupapi/SetupQueryInfVersionInformationW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupQueryInfVersionInformation",
+    "SetupQueryInfVersionInformationA",
+    "SetupQueryInfVersionInformationW"
+  ]
+}

@@ -1,0 +1,3 @@
+BOOL VFWAPI DrawDibEnd(
+  HDRAWDIB hdd
+);

@@ -1,0 +1,75 @@
+{
+  "UID": "NF:sysinfoapi.GetLogicalProcessorInformationEx",
+  "title": "GetLogicalProcessorInformationEx function (sysinfoapi.h)",
+  "description": "Retrieves information about the relationships of logical processors and related hardware.",
+  "helpviewer_keywords": [
+    "GetLogicalProcessorInformationEx",
+    "GetLogicalProcessorInformationEx function",
+    "RelationAll",
+    "RelationCache",
+    "RelationGroup",
+    "RelationNumaNode",
+    "RelationProcessorCore",
+    "RelationProcessorPackage",
+    "base.getlogicalprocessorinformationex",
+    "sysinfoapi/GetLogicalProcessorInformationEx"
+  ],
+  "old-location": "base\\getlogicalprocessorinformationex.htm",
+  "tech.root": "backup",
+  "ms.assetid": "dfc4f444-4651-4a02-b8f6-f30d9278eae2",
+  "ms.date": "02/27/2023",
+  "ms.keywords": "GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, RelationProcessorDie, RelationNumaNodeEx, RelationProcessorModule, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx",
+  "req.header": "sysinfoapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetLogicalProcessorInformationEx",
+    "sysinfoapi/GetLogicalProcessorInformationEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-sysinfo-l1-2-7.dll",
+    "api-ms-win-core-sysinfo-l1-2-6.dll",
+    "api-ms-win-core-sysinfo-l1-2-5.dll",
+    "api-ms-win-core-sysinfo-l1-2-4.dll",
+    "kernel32.dll",
+    "API-MS-Win-Core-SysInfo-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-0.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-1.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-3.dll"
+  ],
+  "api_name": [
+    "GetLogicalProcessorInformationEx"
+  ]
+}

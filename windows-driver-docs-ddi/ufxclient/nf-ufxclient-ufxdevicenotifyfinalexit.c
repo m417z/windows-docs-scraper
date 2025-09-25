@@ -1,0 +1,3 @@
+VOID UfxDeviceNotifyFinalExit(
+  UFXDEVICE UfxDevice
+);

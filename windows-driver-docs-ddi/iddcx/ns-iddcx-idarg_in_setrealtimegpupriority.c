@@ -1,0 +1,3 @@
+struct IDARG_IN_SETREALTIMEGPUPRIORITY {
+  IDXGIDevice *pDevice;
+};

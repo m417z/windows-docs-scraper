@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.ListView_GetNextItem",
+  "title": "ListView_GetNextItem macro (commctrl.h)",
+  "description": "Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can use this macro or send the LVM_GETNEXTITEM message explicitly.",
+  "helpviewer_keywords": [
+    "ListView_GetNextItem",
+    "ListView_GetNextItem macro [Windows Controls]",
+    "_win32_ListView_GetNextItem",
+    "_win32_ListView_GetNextItem_cpp",
+    "commctrl/ListView_GetNextItem",
+    "controls.ListView_GetNextItem",
+    "controls._win32_ListView_GetNextItem"
+  ],
+  "old-location": "controls\\ListView_GetNextItem.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\listview\\macros\\listview_getnextitem.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "ListView_GetNextItem, ListView_GetNextItem macro [Windows Controls], _win32_ListView_GetNextItem, _win32_ListView_GetNextItem_cpp, commctrl/ListView_GetNextItem, controls.ListView_GetNextItem, controls._win32_ListView_GetNextItem",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ListView_GetNextItem",
+    "commctrl/ListView_GetNextItem"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "ListView_GetNextItem"
+  ]
+}

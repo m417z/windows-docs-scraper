@@ -1,0 +1,5 @@
+typedef struct _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS {
+  ULONG                    Size;
+  PDEVICE_RESET_COMPLETION DeviceResetCompletion;
+  PVOID                    CompletionContext;
+} FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, *PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS;

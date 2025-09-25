@@ -1,0 +1,11 @@
+ContainmentType XM_CALLCONV ContainedBy(
+  FXMVECTOR V0,
+  FXMVECTOR V1,
+  FXMVECTOR V2,
+  GXMVECTOR Plane0,
+  HXMVECTOR Plane1,
+  HXMVECTOR Plane2,
+  CXMVECTOR Plane3,
+  CXMVECTOR Plane4,
+  CXMVECTOR Plane5
+) noexcept;

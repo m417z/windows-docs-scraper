@@ -1,0 +1,63 @@
+{
+  "UID": "NF:sddl.ConvertSidToStringSidA",
+  "title": "ConvertSidToStringSidA function (sddl.h)",
+  "description": "Converts a security identifier (SID) to a string format suitable for display, storage, or transmission. (ANSI)",
+  "helpviewer_keywords": [
+    "ConvertSidToStringSidA",
+    "sddl/ConvertSidToStringSidA"
+  ],
+  "old-location": "security\\convertsidtostringsid.htm",
+  "tech.root": "security",
+  "ms.assetid": "e673e727-edb1-450c-9e1a-a3dc90acc929",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid",
+  "req.header": "sddl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "ConvertSidToStringSidW (Unicode) and ConvertSidToStringSidA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ConvertSidToStringSidA",
+    "sddl/ConvertSidToStringSidA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "API-MS-Win-security-sddl-ansi-l1-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll",
+    "sechost.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll",
+    "API-MS-Win-Security-sddl-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ConvertSidToStringSid",
+    "ConvertSidToStringSidA",
+    "ConvertSidToStringSidW"
+  ]
+}

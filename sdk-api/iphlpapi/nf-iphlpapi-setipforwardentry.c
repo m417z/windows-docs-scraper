@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD SetIpForwardEntry(
+  [in] PMIB_IPFORWARDROW pRoute
+);

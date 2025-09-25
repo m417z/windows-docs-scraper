@@ -1,0 +1,6 @@
+typedef struct RILEXECUTORCONFIG {
+  DWORD    cbSize;
+  DWORD    dwFlags;
+  DWORD    dwNumApps;
+  HUICCAPP lphUiccApps[2];
+} RILEXECUTORCONFIG, *LPRILEXECUTORCONFIG;

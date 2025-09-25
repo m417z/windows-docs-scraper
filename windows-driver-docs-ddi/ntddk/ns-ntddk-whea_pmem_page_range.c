@@ -1,0 +1,5 @@
+typedef struct _WHEA_PMEM_PAGE_RANGE {
+  ULONG64 StartingPfn;
+  ULONG64 PageCount;
+  ULONG64 MarkedBadBitmap;
+} WHEA_PMEM_PAGE_RANGE, *PWHEA_PMEM_PAGE_RANGE;

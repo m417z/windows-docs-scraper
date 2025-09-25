@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMLicenseRevocationAgent.ProcessLRB",
+  "title": "IWMLicenseRevocationAgent::ProcessLRB (wmsdkidl.h)",
+  "description": "The ProcessLRB method removes licenses from the license store on the client computer.",
+  "helpviewer_keywords": [
+    "IWMLicenseRevocationAgent interface [windows Media Format]",
+    "ProcessLRB method",
+    "IWMLicenseRevocationAgent.ProcessLRB",
+    "IWMLicenseRevocationAgent::ProcessLRB",
+    "IWMLicenseRevocationAgentProcessLRB",
+    "ProcessLRB",
+    "ProcessLRB method [windows Media Format]",
+    "ProcessLRB method [windows Media Format]",
+    "IWMLicenseRevocationAgent interface",
+    "wmformat.iwmlicenserevocationagent_processlrb",
+    "wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB"
+  ],
+  "old-location": "wmformat\\iwmlicenserevocationagent_processlrb.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "185611f8-beef-47b8-a9c2-abcda7651a18",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMLicenseRevocationAgent interface [windows Media Format],ProcessLRB method, IWMLicenseRevocationAgent.ProcessLRB, IWMLicenseRevocationAgent::ProcessLRB, IWMLicenseRevocationAgentProcessLRB, ProcessLRB, ProcessLRB method [windows Media Format], ProcessLRB method [windows Media Format],IWMLicenseRevocationAgent interface, wmformat.iwmlicenserevocationagent_processlrb, wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMLicenseRevocationAgent::ProcessLRB",
+    "wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMLicenseRevocationAgent.ProcessLRB"
+  ]
+}

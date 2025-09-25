@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortStartTimer",
+  "title": "VideoPortStartTimer function (video.h)",
+  "description": "The VideoPortStartTimer function enables calls to a miniport driver's HwVidTimer function.",
+  "old-location": "display\\videoportstarttimer.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortStartTimer function"
+  ],
+  "ms.keywords": "VideoPortStartTimer, VideoPortStartTimer function [Display Devices], VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, display.videoportstarttimer, video/VideoPortStartTimer",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortStartTimer",
+    "video/VideoPortStartTimer"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortStartTimer"
+  ]
+}

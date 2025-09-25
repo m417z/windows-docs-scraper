@@ -1,0 +1,48 @@
+{
+  "UID": "NC:pep_x.PEPCALLBACKNOTIFYPPM",
+  "title": "PEPCALLBACKNOTIFYPPM (pep_x.h)",
+  "description": "Learn how an AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx).",
+  "old-location": "kernel\\acceptprocessornotification.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PEPCALLBACKNOTIFYPPM callback function"
+  ],
+  "ms.keywords": "AcceptProcessorNotification, AcceptProcessorNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYPPM, kernel.acceptprocessornotification, pepfx/AcceptProcessorNotification",
+  "req.header": "pep_x.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL to HIGH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PEPCALLBACKNOTIFYPPM",
+    "pep_x/PEPCALLBACKNOTIFYPPM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "PEPCALLBACKNOTIFYPPM"
+  ]
+}

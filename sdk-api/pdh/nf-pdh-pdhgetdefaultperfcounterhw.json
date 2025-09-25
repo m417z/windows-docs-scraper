@@ -1,0 +1,63 @@
+{
+  "UID": "NF:pdh.PdhGetDefaultPerfCounterHW",
+  "title": "PdhGetDefaultPerfCounterHW function (pdh.h)",
+  "description": "Retrieves the name of the default counter for the specified object. (Unicode)",
+  "helpviewer_keywords": [
+    "PdhGetDefaultPerfCounterH",
+    "PdhGetDefaultPerfCounterH function [Perf]",
+    "PdhGetDefaultPerfCounterHW",
+    "_win32_pdhgetdefaultperfcounterh",
+    "base.pdhgetdefaultperfcounterh",
+    "pdh/PdhGetDefaultPerfCounterH",
+    "pdh/PdhGetDefaultPerfCounterHW",
+    "perf.pdhgetdefaultperfcounterh"
+  ],
+  "old-location": "perf\\pdhgetdefaultperfcounterh.htm",
+  "tech.root": "perf",
+  "ms.assetid": "d1b3de9a-99ab-4339-8e9f-906f5a5d291d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PdhGetDefaultPerfCounterH, PdhGetDefaultPerfCounterH function [Perf], PdhGetDefaultPerfCounterHA, PdhGetDefaultPerfCounterHW, _win32_pdhgetdefaultperfcounterh, base.pdhgetdefaultperfcounterh, pdh/PdhGetDefaultPerfCounterH, pdh/PdhGetDefaultPerfCounterHA, pdh/PdhGetDefaultPerfCounterHW, perf.pdhgetdefaultperfcounterh",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhGetDefaultPerfCounterHW (Unicode) and PdhGetDefaultPerfCounterHA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhGetDefaultPerfCounterHW",
+    "pdh/PdhGetDefaultPerfCounterHW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhGetDefaultPerfCounterH",
+    "PdhGetDefaultPerfCounterHA",
+    "PdhGetDefaultPerfCounterHW"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.MINIPORT_HALT",
+  "title": "MINIPORT_HALT (ndis.h)",
+  "description": "NDIS calls a miniport driver's MiniportHaltEx function to free resources when a miniport adapter is removed, and to stop the hardware.",
+  "old-location": "netvista\\miniporthaltex.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "MINIPORT_HALT callback function"
+  ],
+  "ms.keywords": "MINIPORT_HALT, MINIPORT_HALT callback, MiniportHaltEx, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml, ndis/MiniportHaltEx, netvista.miniporthaltex",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "WlanAssociation, WlanConnectionRoaming, WlanDisassociation, WlanTimedAssociation, WlanTimedConnectionRoaming, WlanTimedConnectRequest, WlanTimedLinkQuality, WlanTimedScan",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "MINIPORT_HALT",
+    "ndis/MINIPORT_HALT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "MINIPORT_HALT"
+  ]
+}

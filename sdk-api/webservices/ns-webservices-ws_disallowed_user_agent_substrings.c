@@ -1,0 +1,4 @@
+typedef struct _WS_DISALLOWED_USER_AGENT_SUBSTRINGS {
+  ULONG     subStringCount;
+  WS_STRING **subStrings;
+} WS_DISALLOWED_USER_AGENT_SUBSTRINGS;

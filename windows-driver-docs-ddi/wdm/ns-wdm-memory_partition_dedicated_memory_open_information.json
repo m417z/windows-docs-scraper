@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+  "tech.root": "kernel",
+  "title": "MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+  "ms.date": "06/13/2021",
+  "targetos": "Windows",
+  "description": "Defines the MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION structure.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION, *PMEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+    "PMEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+    "MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+    "wdm/_MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+    "PMEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+    "wdm/PMEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+    "MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION",
+    "wdm/MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

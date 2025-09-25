@@ -1,0 +1,66 @@
+{
+  "UID": "NF:winbio.WinBioCaptureSample",
+  "title": "WinBioCaptureSample function (winbio.h)",
+  "description": "Captures a biometric sample and fills a biometric information record (BIR) with the raw or processed data.",
+  "helpviewer_keywords": [
+    "WINBIO_DATA_FLAG_INTEGRITY",
+    "WINBIO_DATA_FLAG_INTERMEDIATE",
+    "WINBIO_DATA_FLAG_PRIVACY",
+    "WINBIO_DATA_FLAG_PROCESSED",
+    "WINBIO_DATA_FLAG_RAW",
+    "WINBIO_DATA_FLAG_SIGNED",
+    "WinBioCaptureSample",
+    "WinBioCaptureSample function [Windows Biometric Framework API]",
+    "secbiomet.winbiocapturesample",
+    "winbio/WinBioCaptureSample"
+  ],
+  "old-location": "secbiomet\\winbiocapturesample.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "365dcefb-3382-4b62-b47d-919e2d3f56f1",
+  "ms.date": "11/17/2020",
+  "ms.keywords": "WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSample, WinBioCaptureSample function [Windows Biometric Framework API], secbiomet.winbiocapturesample, winbio/WinBioCaptureSample",
+  "req.header": "winbio.h",
+  "req.include-header": "Winbio.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winbio.lib",
+  "req.dll": "Winbio.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinBioCaptureSample",
+    "winbio/WinBioCaptureSample"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winbio.dll",
+    "WinBioExt.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll"
+  ],
+  "api_name": [
+    "WinBioCaptureSample"
+  ]
+}

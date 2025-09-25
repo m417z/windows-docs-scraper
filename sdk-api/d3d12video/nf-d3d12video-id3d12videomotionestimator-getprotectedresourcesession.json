@@ -1,0 +1,46 @@
+{
+  "UID": "NF:d3d12video.ID3D12VideoMotionEstimator.GetProtectedResourceSession",
+  "title": "ID3D12VideoMotionEstimator::GetProtectedResourceSession",
+  "ms.date": "11/4/2019",
+  "targetos": "Windows",
+  "description": "Gets the ID3D12ProtectedResourceSession that was passed into ID3D12VideoDevice1::CreateVideoMotionEstimator when the ID3D12VideoMotionEstimator was created.",
+  "tech.root": "mf",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "d3d12video.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "d3d12video.h"
+  ],
+  "api_name": [
+    "ID3D12VideoMotionEstimator::GetProtectedResourceSession"
+  ],
+  "f1_keywords": [
+    "ID3D12VideoMotionEstimator::GetProtectedResourceSession",
+    "d3d12video/ID3D12VideoMotionEstimator::GetProtectedResourceSession"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdm.PCONFIGURE_ADAPTER_CHANNEL",
+  "title": "PCONFIGURE_ADAPTER_CHANNEL (wdm.h)",
+  "description": "The ConfigureAdapterChannel routine invokes a custom function that is implemented by the DMA controller represented by an adapter object.",
+  "old-location": "kernel\\configureadapterchannel.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PCONFIGURE_ADAPTER_CHANNEL callback function"
+  ],
+  "ms.keywords": "ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL callback, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCONFIGURE_ADAPTER_CHANNEL",
+    "wdm/PCONFIGURE_ADAPTER_CHANNEL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PCONFIGURE_ADAPTER_CHANNEL"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmsdkidl.IWMDeviceRegistration.GetRegistrationStats",
+  "title": "IWMDeviceRegistration::GetRegistrationStats (wmsdkidl.h)",
+  "description": "The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.",
+  "helpviewer_keywords": [
+    "GetRegistrationStats",
+    "GetRegistrationStats method [windows Media Format]",
+    "GetRegistrationStats method [windows Media Format]",
+    "IWMDeviceRegistration interface",
+    "IWMDeviceRegistration interface [windows Media Format]",
+    "GetRegistrationStats method",
+    "IWMDeviceRegistration.GetRegistrationStats",
+    "IWMDeviceRegistration::GetRegistrationStats",
+    "IWMDeviceRegistrationGetRegistrationStats",
+    "wmformat.iwmdeviceregistration_getregistrationstats",
+    "wmsdkidl/IWMDeviceRegistration::GetRegistrationStats"
+  ],
+  "old-location": "wmformat\\iwmdeviceregistration_getregistrationstats.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetRegistrationStats, GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegistrationStats method, IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WMStubDRM.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDeviceRegistration::GetRegistrationStats",
+    "wmsdkidl/IWMDeviceRegistration::GetRegistrationStats"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMDeviceRegistration.GetRegistrationStats"
+  ]
+}

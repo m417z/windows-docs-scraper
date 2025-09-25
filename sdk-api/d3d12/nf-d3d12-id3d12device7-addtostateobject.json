@@ -1,0 +1,58 @@
+{
+  "UID": "NF:d3d12.ID3D12Device7.AddToStateObject",
+  "title": "ID3D12Device7::AddToStateObject",
+  "description": "Incrementally add to an existing state object. This incurs lower CPU overhead than creating a state object from scratch that is a superset of an existing one.",
+  "helpviewer_keywords": [
+    "ID3D12Device7 interface",
+    "AddToStateObject method",
+    "ID3D12Device7.AddToStateObject",
+    "ID3D12Device7::AddToStateObject",
+    "AddToStateObject",
+    "AddToStateObject method",
+    "AddToStateObject method",
+    "ID3D12Device7 interface",
+    "direct3d12.id3d12device7_addtostateobject",
+    "d3d12/ID3D12Device7::AddToStateObject"
+  ],
+  "tech.root": "direct3d12",
+  "ms.date": "09/15/2020",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "d3d12.dll",
+  "req.header": "d3d12.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "d3d12.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "d3d12.lib",
+    "d3d12.dll"
+  ],
+  "api_name": [
+    "ID3D12Device7::AddToStateObject"
+  ],
+  "f1_keywords": [
+    "d3d12/ID3D12Device7::AddToStateObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

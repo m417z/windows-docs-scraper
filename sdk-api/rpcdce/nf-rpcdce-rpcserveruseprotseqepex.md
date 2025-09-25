@@ -1,0 +1,90 @@
+# RpcServerUseProtseqEpEx function
+
+## Description
+
+The
+**RpcServerUseProtseqEpEx** function tells the RPC run-time library to use the specified protocol sequence combined with the specified endpoint for receiving remote procedure calls.
+
+## Parameters
+
+### `Protseq`
+
+Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
+
+### `MaxCalls`
+
+Backlog queue length for the **ncacn_ip_tcp** protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
+
+### `Endpoint`
+
+Pointer to the endpoint-address information to use in creating a binding for the protocol sequence specified by *Protseq*.
+
+### `SecurityDescriptor`
+
+Pointer to an optional parameter provided for the security subsystem. Used only for **ncacn_np** and *ncalrpc* protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
+
+### `Policy`
+
+Pointer to the
+[RPC_POLICY](https://learn.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy) structure, which contains flags that set transport-specific attributes. In the case of the **ncadg_mq** transport, these flags specify the properties of the server process–receive queue. In the case of the **ncacn_ip_tcp** or **ncadg_ip_udp** transports, these flags restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards.
+
+The flag settings in the **Policy** field are effective only when the **ncacn_ip_tcp**, **ncadg_ip_udp**, or **ncadg_mq** protocol sequences are in use. For all other protocol sequences, the RPC run time ignores these values.
+
+**Note** Portions of the policy associated with dynamic endpoints are ignored when the RpcServerUseProtseqEpEx function is called, since the port is specified in the endpoint itself.
+
+## Return value
+
+| Value | Meaning |
+| --- | --- |
+| **RPC_S_OK** | The call succeeded. |
+| **RPC_S_PROTSEQ_NOT_SUPPORTED** | The protocol sequence is not supported on this host. |
+| **RPC_S_INVALID_RPC_PROTSEQ** | The protocol sequence is invalid. |
+| **RPC_S_INVALID_ENDPOINT_FORMAT** | The endpoint format is invalid. |
+| **RPC_S_OUT_OF_MEMORY** | The system is out of memory. |
+| **RPC_S_DUPLICATE_ENDPOINT** | The endpoint is a duplicate. |
+| **RPC_S_INVALID_SECURITY_DESC** | The security descriptor is invalid. |
+
+**Note** For a list of valid error codes, see
+[RPC Return Values](https://learn.microsoft.com/windows/desktop/Rpc/rpc-return-values).
+
+## Remarks
+
+The parameters and effects of
+**RpcServerUseProtseqEpEx** subsume those of
+[RpcServerUseProtseqEp](https://learn.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqep). The difference is the *Policy* parameter, which allows you to set specific policies at the endpoints. Setting the **NICFlags** field of the
+[RPC_POLICY](https://learn.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy) structure to zero makes this extended function equivalent to the original
+**RpcServerUseProtseqEp** when used with the **ncacn_ip_tcp** or **ncadg_ip_udp** transports.
+
+A server application calls
+**RpcServerUseProtseqEpEx** to register one protocol sequence with the RPC run-time library. With each protocol sequence registration,
+**RpcServerUseProtseqEpEx** includes the specified endpoint-address information.
+
+To receive remote procedure call requests, a server must register at least one protocol sequence with the RPC run-time library. A server application can call this routine many times to register additional protocol sequences and endpoints. For each protocol sequence registered by a server, the RPC run-time library creates one or more endpoints through which the server receives remote procedure call requests. The RPC run-time library creates different endpoints for each protocol sequence. However, each interface in the process is accessible through any endpoint. For more information, see Writing a Secure RPC Client or Server.
+
+For *MaxCalls*, the value provided by the application is only a hint. The RPC run time or the Windows Sockets provider may override the value. For example, on Windows XP or Windows 2000 Professional, the value is limited to 5. Values greater than 5 are ignored and 5 is used instead. On Windows Server 2003 and Windows 2000 Server, the value will be honored.
+
+Applications must be careful to pass reasonable values in *MaxCalls*. Large values on Server, Advanced Server, or Datacenter Server can cause a large amount of non-paged pool memory to be used. Using too small a value is also unfavorable, as it may result in TCP SYN packets being met by TCP RST from the server if the backlog queue gets exhausted. An application developer should balance memory footprint versus scalability requirements when determining the proper value for *MaxCalls*.
+
+When the computer is configured to use selective binding, successful return does not guarantee that the server has created endpoints for all the network interfaces present on the computer. The RPC run-time may not listen on some network interfaces depending on the selective binding settings. In addition, if an interface has not yet received an IP address using DHCP, the RPC server does not listen on the network interface until a DHCP address is assigned to it. A successful return implies that the server is listening on at least one network interface; the full list of the binding handles over which remote procedure calls can be received can be obtained with a call to the RpcServerInqBindings function.
+
+For more information, see
+[Server-Side Binding](https://learn.microsoft.com/windows/desktop/Rpc/server-side-binding),
+[String Binding](https://learn.microsoft.com/windows/desktop/Rpc/string-binding),
+[Configuring the Registry for Port Allocations and Selective Binding](https://learn.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding), and
+[RPC Message Queuing](https://learn.microsoft.com/windows/desktop/Rpc/rpc-message-queuing) and the MIDL reference pages
+[message](https://learn.microsoft.com/windows/desktop/Midl/message) and
+[ncadg_mq](https://learn.microsoft.com/windows/desktop/Midl/ncadg-mq).
+
+## See also
+
+[RPC_POLICY](https://learn.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy)
+
+[RpcServerUseAllProtseqsEx](https://learn.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex)
+
+[RpcServerUseAllProtseqsIfEx](https://learn.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex)
+
+[RpcServerUseProtseqEx](https://learn.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqex)
+
+[RpcServerUseProtseqIfEx](https://learn.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex)
+
+Writing a Secure RPC Client or Server

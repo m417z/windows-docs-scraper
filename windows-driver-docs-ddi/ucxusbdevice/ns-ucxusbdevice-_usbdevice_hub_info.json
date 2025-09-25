@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ucxusbdevice._USBDEVICE_HUB_INFO",
+  "title": "_USBDEVICE_HUB_INFO (ucxusbdevice.h)",
+  "description": "Contains parameters for a request to get information about the specified hub. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_HUB_INFO callback function.",
+  "old-location": "buses\\_usbdevice_hub_info.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBDEVICE_HUB_INFO structure"
+  ],
+  "ms.keywords": "*PUSBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses], USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], _USBDEVICE_HUB_INFO, buses._usbdevice_hub_info, ucxusbdevice/P_USBDEVICE_HUB_INFO, ucxusbdevice/_USBDEVICE_HUB_INFO",
+  "req.header": "ucxusbdevice.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USBDEVICE_HUB_INFO, *PUSBDEVICE_HUB_INFO",
+  "f1_keywords": [
+    "_USBDEVICE_HUB_INFO",
+    "ucxusbdevice/_USBDEVICE_HUB_INFO",
+    "PUSBDEVICE_HUB_INFO",
+    "ucxusbdevice/PUSBDEVICE_HUB_INFO",
+    "USBDEVICE_HUB_INFO",
+    "ucxusbdevice/USBDEVICE_HUB_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucxusbdevice.h"
+  ],
+  "api_name": [
+    "_USBDEVICE_HUB_INFO",
+    "PUSBDEVICE_HUB_INFO",
+    "USBDEVICE_HUB_INFO"
+  ]
+}

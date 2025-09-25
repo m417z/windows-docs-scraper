@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ndis.NdisCoOidRequest",
+  "title": "NdisCoOidRequest function (ndis.h)",
+  "description": "The NdisCoOidRequest function forwards a request to targeted CoNDIS drivers to query or set OID-specified information of the target driver.",
+  "old-location": "netvista\\ndiscooidrequest.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisCoOidRequest function"
+  ],
+  "ms.keywords": "NdisCoOidRequest, NdisCoOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, ndis/NdisCoOidRequest, netvista.ndiscooidrequest",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "Irql_Connection_Function",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndis.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisCoOidRequest",
+    "ndis/NdisCoOidRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ndis.lib",
+    "ndis.dll"
+  ],
+  "api_name": [
+    "NdisCoOidRequest"
+  ]
+}

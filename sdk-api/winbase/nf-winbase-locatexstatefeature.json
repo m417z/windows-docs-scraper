@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winbase.LocateXStateFeature",
+  "title": "LocateXStateFeature function (winbase.h)",
+  "description": "Retrieves a pointer to the processor state for an XState feature within a CONTEXT structure.",
+  "helpviewer_keywords": [
+    "LocateXStateFeature",
+    "LocateXStateFeature function",
+    "base.locatexstatefeature",
+    "winbase/LocateXStateFeature"
+  ],
+  "old-location": "base\\locatexstatefeature.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "7AAEA13B-E4A4-4410-BFC7-09B81B92FF26",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 with SP1 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 with SP1 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LocateXStateFeature",
+    "winbase/LocateXStateFeature"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-xstate-l2-1-2.dll",
+    "api-ms-win-core-xstate-l2-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Xstate-l2-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "LocateXStateFeature"
+  ]
+}

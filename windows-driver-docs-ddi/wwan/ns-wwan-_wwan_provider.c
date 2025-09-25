@@ -1,0 +1,6 @@
+typedef struct _WWAN_PROVIDER {
+  WCHAR ProviderId[WWAN_PROVIDERID_LEN];
+  ULONG ProviderState;
+  WCHAR ProviderName[WWAN_PROVIDERNAME_LEN];
+  ULONG WwanDataClass;
+} WWAN_PROVIDER, *PWWAN_PROVIDER;

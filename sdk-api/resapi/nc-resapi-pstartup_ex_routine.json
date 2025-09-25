@@ -1,0 +1,58 @@
+{
+  "UID": "NC:resapi.PSTARTUP_EX_ROUTINE",
+  "title": "PSTARTUP_EX_ROUTINE (resapi.h)",
+  "description": "Loads a resource DLL, returning a structure that contains a function table and a version number.",
+  "helpviewer_keywords": [
+    "PSTARTUP_EX_ROUTINE",
+    "PSTARTUP_EX_ROUTINE callback function [Failover Cluster]",
+    "StartupEx",
+    "StartupEx callback",
+    "StartupEx callback function [Failover Cluster]",
+    "mscs.startupex",
+    "resapi/PSTARTUP_EX_ROUTINE",
+    "resapi/StartupEx"
+  ],
+  "old-location": "mscs\\startupex.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "7C669EDC-B7A1-4623-91A9-5D8C5949B50A",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PSTARTUP_EX_ROUTINE",
+    "resapi/PSTARTUP_EX_ROUTINE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "kbSyntax"
+  ],
+  "api_type": [
+    "<TBD>"
+  ],
+  "api_location": null,
+  "api_name": [
+    "StartupEx callback"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO",
+  "title": "DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO (d3dkmddi.h)",
+  "description": "The pfnReleaseModeInfo function releases a D3DKMDT_VIDPN_TARGET_MODE structure that the VidPN manager previously provided to the display miniport driver.",
+  "old-location": "display\\dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback function"
+  ],
+  "ms.keywords": "DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO, DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback, VidPnFunctions_faa4fee3-0bf7-43af-a000-e5b7e891c9e9.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO",
+    "d3dkmddi/DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO"
+  ]
+}

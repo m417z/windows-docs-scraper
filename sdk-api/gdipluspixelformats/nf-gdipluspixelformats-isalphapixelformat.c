@@ -1,0 +1,3 @@
+BOOL IsAlphaPixelFormat(
+  PixelFormat pixfmt
+);

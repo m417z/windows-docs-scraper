@@ -1,0 +1,43 @@
+{
+  "UID": "NC:wdm.GET_D3COLD_CAPABILITY",
+  "title": "GET_D3COLD_CAPABILITY (wdm.h)",
+  "description": "The GetBusDriverD3ColdSupport routine enables the driver for a device to query whether the device or enumerating bus driver supports the D3cold device power state.",
+  "tech.root": "kernel",
+  "ms.date": "08/05/2025",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GET_D3COLD_CAPABILITY",
+    "wdm/GET_D3COLD_CAPABILITY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "GET_D3COLD_CAPABILITY"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:clfs.ClfsLsnLess",
+  "title": "ClfsLsnLess function (clfs.h)",
+  "description": "Determines whether one LSN is less than another LSN. The two LSNs must be from the same stream.",
+  "helpviewer_keywords": [
+    "ClfsLsnLess",
+    "LsnLess",
+    "LsnLess function [Files]",
+    "clfs/LsnLess",
+    "fs.lsnless"
+  ],
+  "old-location": "fs\\lsnless.htm",
+  "tech.root": "fs",
+  "ms.assetid": "610023f3-6017-480f-9a0c-807e81a50e84",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ClfsLsnLess, LsnLess, LsnLess function [Files], clfs/LsnLess, fs.lsnless",
+  "req.header": "clfs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfsw32.lib",
+  "req.dll": "Clfsw32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ClfsLsnLess",
+    "clfs/ClfsLsnLess"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-fs-clfs-l1-1-0.dll",
+    "Clfsw32.dll"
+  ],
+  "api_name": [
+    "LsnLess"
+  ]
+}

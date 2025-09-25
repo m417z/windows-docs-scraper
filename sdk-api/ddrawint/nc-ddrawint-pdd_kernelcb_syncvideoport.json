@@ -1,0 +1,60 @@
+{
+  "UID": "NC:ddrawint.PDD_KERNELCB_SYNCVIDEOPORT",
+  "title": "PDD_KERNELCB_SYNCVIDEOPORT (ddrawint.h)",
+  "description": "The DdSyncVideoPortData callback function sets and modifies VPE object data before it is passed to the video miniport driver.",
+  "helpviewer_keywords": [
+    "DdSyncVideoPortData",
+    "DdSyncVideoPortData callback function [Display Devices]",
+    "PDD_KERNELCB_SYNCVIDEOPORT",
+    "PDD_KERNELCB_SYNCVIDEOPORT callback",
+    "ddfncs_828e83a4-4723-4cf5-8eac-8b6b449765c0.xml",
+    "ddrawint/DdSyncVideoPortData",
+    "display.ddsyncvideoportdata"
+  ],
+  "old-location": "display\\ddsyncvideoportdata.htm",
+  "tech.root": "display",
+  "ms.assetid": "3726a505-c3cf-4784-886e-2f4524fb0c5b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DdSyncVideoPortData, DdSyncVideoPortData callback function [Display Devices], PDD_KERNELCB_SYNCVIDEOPORT, PDD_KERNELCB_SYNCVIDEOPORT callback, ddfncs_828e83a4-4723-4cf5-8eac-8b6b449765c0.xml, ddrawint/DdSyncVideoPortData, display.ddsyncvideoportdata",
+  "req.header": "ddrawint.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PDD_KERNELCB_SYNCVIDEOPORT",
+    "ddrawint/PDD_KERNELCB_SYNCVIDEOPORT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ddrawint.h"
+  ],
+  "api_name": [
+    "DdSyncVideoPortData"
+  ]
+}

@@ -1,0 +1,1 @@
+VSS_ID GetCurrentSnapshotSetId();

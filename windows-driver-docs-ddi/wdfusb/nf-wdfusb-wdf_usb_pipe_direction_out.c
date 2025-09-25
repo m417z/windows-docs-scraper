@@ -1,0 +1,3 @@
+BOOLEAN WDF_USB_PIPE_DIRECTION_OUT(
+  [in] UCHAR EndpointAddress
+);

@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenSynchronizationObject(
+  D3DKMT_OPENSYNCHRONIZATIONOBJECT *unnamedParam1
+);

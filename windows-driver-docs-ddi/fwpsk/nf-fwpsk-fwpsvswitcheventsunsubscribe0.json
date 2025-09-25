@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fwpsk.FwpsvSwitchEventsUnsubscribe0",
+  "title": "FwpsvSwitchEventsUnsubscribe0 function (fwpsk.h)",
+  "description": "The FwpsvSwitchEventsUnsubscribe0 function releases resources that are associated with virtual switch notification subscriptions.Note  FwpsvSwitchEventsUnsubscribe0 is a specific version of FwpsvSwitchEventsUnsubscribe.",
+  "old-location": "netvista\\fwpsvswitcheventsunsubscribe0.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "FwpsvSwitchEventsUnsubscribe0 function"
+  ],
+  "ms.keywords": "FwpsvSwitchEventsUnsubscribe0, FwpsvSwitchEventsUnsubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsUnsubscribe0, netvista.fwpsvswitcheventsunsubscribe0",
+  "req.header": "fwpsk.h",
+  "req.include-header": "Fwpsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Fwpkclnt.lib",
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FwpsvSwitchEventsUnsubscribe0",
+    "fwpsk/FwpsvSwitchEventsUnsubscribe0"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "fwpkclnt.lib",
+    "fwpkclnt.dll"
+  ],
+  "api_name": [
+    "FwpsvSwitchEventsUnsubscribe0"
+  ]
+}

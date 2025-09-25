@@ -1,0 +1,72 @@
+{
+  "UID": "NF:processthreadsapi.CreateProcessAsUserA",
+  "title": "CreateProcessAsUserA function (processthreadsapi.h)",
+  "description": "Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token. (ANSI)",
+  "helpviewer_keywords": [
+    "CreateProcessAsUserA",
+    "processthreadsapi/CreateProcessAsUserA"
+  ],
+  "old-location": "base\\createprocessasuser.htm",
+  "tech.root": "processthreadsapi",
+  "ms.assetid": "6b3f4dd9-500b-420e-804a-401a9e188be8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW",
+  "req.header": "processthreadsapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CreateProcessAsUserW (Unicode) and CreateProcessAsUserA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateProcessAsUserA",
+    "processthreadsapi/CreateProcessAsUserA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "api-ms-win-core-processthreads-l1-1-6.dll",
+    "api-ms-win-core-processthreads-l1-1-5.dll",
+    "api-ms-win-core-processthreads-l1-1-4.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Processsecurity-l1-1-0.dll",
+    "Kernel32.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Processthreads-l1-1-0.dll",
+    "API-MS-Win-Core-Processthreads-l1-1-1.dll",
+    "API-MS-Win-Core-Processthreads-l1-1-2.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-ProcessThreads-L1-1-3.dll"
+  ],
+  "api_name": [
+    "CreateProcessAsUser",
+    "CreateProcessAsUserA",
+    "CreateProcessAsUserW"
+  ]
+}

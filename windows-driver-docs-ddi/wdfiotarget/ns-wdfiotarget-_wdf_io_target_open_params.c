@@ -1,0 +1,20 @@
+typedef struct _WDF_IO_TARGET_OPEN_PARAMS {
+  ULONG                             Size;
+  WDF_IO_TARGET_OPEN_TYPE           Type;
+  PFN_WDF_IO_TARGET_QUERY_REMOVE    EvtIoTargetQueryRemove;
+  PFN_WDF_IO_TARGET_REMOVE_CANCELED EvtIoTargetRemoveCanceled;
+  PFN_WDF_IO_TARGET_REMOVE_COMPLETE EvtIoTargetRemoveComplete;
+  PDEVICE_OBJECT                    TargetDeviceObject;
+  PFILE_OBJECT                      TargetFileObject;
+  UNICODE_STRING                    TargetDeviceName;
+  ACCESS_MASK                       DesiredAccess;
+  ULONG                             ShareAccess;
+  ULONG                             FileAttributes;
+  ULONG                             CreateDisposition;
+  ULONG                             CreateOptions;
+  PVOID                             EaBuffer;
+  ULONG                             EaBufferLength;
+  PLONGLONG                         AllocationSize;
+  ULONG                             FileInformation;
+  UNICODE_STRING                    FileName;
+} WDF_IO_TARGET_OPEN_PARAMS, *PWDF_IO_TARGET_OPEN_PARAMS;

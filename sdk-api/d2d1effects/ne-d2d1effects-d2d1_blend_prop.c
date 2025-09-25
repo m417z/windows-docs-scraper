@@ -1,0 +1,4 @@
+typedef enum D2D1_BLEND_PROP {
+  D2D1_BLEND_PROP_MODE = 0,
+  D2D1_BLEND_PROP_FORCE_DWORD = 0xffffffff
+} ;

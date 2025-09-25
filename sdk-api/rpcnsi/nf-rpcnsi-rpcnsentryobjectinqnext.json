@@ -1,0 +1,58 @@
+{
+  "UID": "NF:rpcnsi.RpcNsEntryObjectInqNext",
+  "title": "RpcNsEntryObjectInqNext function (rpcnsi.h)",
+  "description": "The RpcNsEntryObjectInqNext function returns one object at a time from a name-service database entry.",
+  "helpviewer_keywords": [
+    "RpcNsEntryObjectInqNext",
+    "RpcNsEntryObjectInqNext function [RPC]",
+    "_rpc_rpcnsentryobjectinqnext",
+    "rpc.rpcnsentryobjectinqnext",
+    "rpcnsi/RpcNsEntryObjectInqNext"
+  ],
+  "old-location": "rpc\\rpcnsentryobjectinqnext.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "95648480-5b53-4a8c-ba82-6c7f204520d2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RpcNsEntryObjectInqNext, RpcNsEntryObjectInqNext function [RPC], _rpc_rpcnsentryobjectinqnext, rpc.rpcnsentryobjectinqnext, rpcnsi/RpcNsEntryObjectInqNext",
+  "req.header": "rpcnsi.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcns4.lib",
+  "req.dll": "Rpcns4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RpcNsEntryObjectInqNext",
+    "rpcnsi/RpcNsEntryObjectInqNext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcns4.dll"
+  ],
+  "api_name": [
+    "RpcNsEntryObjectInqNext"
+  ]
+}

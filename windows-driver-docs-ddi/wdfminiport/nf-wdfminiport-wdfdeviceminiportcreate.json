@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfminiport.WdfDeviceMiniportCreate",
+  "title": "WdfDeviceMiniportCreate function (wdfminiport.h)",
+  "description": "The WdfDeviceMiniportCreate method creates a framework device object that a miniport driver can use.",
+  "old-location": "wdf\\wdfdeviceminiportcreate.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDeviceMiniportCreate function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, WdfDeviceMiniportCreate, WdfDeviceMiniportCreate method, kmdf.wdfdeviceminiportcreate, wdf.wdfdeviceminiportcreate, wdfminiport/WdfDeviceMiniportCreate",
+  "req.header": "wdfminiport.h",
+  "req.include-header": "Wdfminiport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDeviceMiniportCreate",
+    "wdfminiport/WdfDeviceMiniportCreate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDeviceMiniportCreate"
+  ]
+}

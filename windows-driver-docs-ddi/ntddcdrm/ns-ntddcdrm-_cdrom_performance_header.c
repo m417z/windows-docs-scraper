@@ -1,0 +1,8 @@
+typedef struct _CDROM_PERFORMANCE_HEADER {
+  UCHAR DataLength[4];
+  UCHAR Except : 1;
+  UCHAR Write : 1;
+  UCHAR Reserved1 : 6;
+  UCHAR Reserved2[3];
+  UCHAR Data[0];
+} CDROM_PERFORMANCE_HEADER, *PCDROM_PERFORMANCE_HEADER;

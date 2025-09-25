@@ -1,0 +1,4 @@
+typedef struct _MOUNTMGR_TARGET_NAME {
+  USHORT DeviceNameLength;
+  WCHAR  DeviceName[1];
+} MOUNTMGR_TARGET_NAME, *PMOUNTMGR_TARGET_NAME;

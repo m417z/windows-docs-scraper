@@ -1,0 +1,3 @@
+HRESULT GetBold(
+  long *pValue
+);

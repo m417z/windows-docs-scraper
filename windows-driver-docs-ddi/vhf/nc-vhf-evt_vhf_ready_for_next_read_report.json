@@ -1,0 +1,48 @@
+{
+  "UID": "NC:vhf.EVT_VHF_READY_FOR_NEXT_READ_REPORT",
+  "title": "EVT_VHF_READY_FOR_NEXT_READ_REPORT (vhf.h)",
+  "description": "The HID source driver implements this event call back function to use its buffering scheme for HID Input Reports, and wants to get notified when the next report can be submitted to VHF.",
+  "old-location": "hid\\evtvhfreadyfornextreadreport.htm",
+  "tech.root": "hid",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "EVT_VHF_READY_FOR_NEXT_READ_REPORT callback function"
+  ],
+  "ms.keywords": "EVT_VHF_READY_FOR_NEXT_READ_REPORT, EVT_VHF_READY_FOR_NEXT_READ_REPORT callback, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport",
+  "req.header": "vhf.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_VHF_READY_FOR_NEXT_READ_REPORT",
+    "vhf/EVT_VHF_READY_FOR_NEXT_READ_REPORT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "vhf.h"
+  ],
+  "api_name": [
+    "EVT_VHF_READY_FOR_NEXT_READ_REPORT"
+  ]
+}

@@ -1,0 +1,3 @@
+void WebAuthNFreeCredentialAttestation(
+  PWEBAUTHN_CREDENTIAL_ATTESTATION pWebAuthNCredentialAttestation
+);

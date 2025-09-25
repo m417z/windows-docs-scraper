@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winuser.GetScrollRange",
+  "title": "GetScrollRange function (winuser.h)",
+  "description": "The GetScrollRange function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.",
+  "helpviewer_keywords": [
+    "GetScrollRange",
+    "GetScrollRange function [Windows Controls]",
+    "SB_CTL",
+    "SB_HORZ",
+    "SB_VERT",
+    "_win32_GetScrollRange",
+    "_win32_GetScrollRange_cpp",
+    "controls.GetScrollRange",
+    "controls._win32_GetScrollRange",
+    "winuser/GetScrollRange"
+  ],
+  "old-location": "controls\\GetScrollRange.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\scrollbars\\scrollbarreference\\scrollbarfunctions\\getscrollrange.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetScrollRange, GetScrollRange function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, _win32_GetScrollRange, _win32_GetScrollRange_cpp, controls.GetScrollRange, controls._win32_GetScrollRange, winuser/GetScrollRange",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetScrollRange",
+    "winuser/GetScrollRange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-misc-l1-7-0.dll",
+    "ext-ms-win-ntuser-misc-l1-6-0.dll",
+    "ext-ms-win-ntuser-misc-l1-5-1.dll",
+    "ext-ms-win-ntuser-misc-l1-5-0.dll",
+    "ext-ms-win-ntuser-misc-l1-3-0.dll",
+    "ext-ms-win-ntuser-misc-l1-2-0.dll",
+    "User32.dll"
+  ],
+  "api_name": [
+    "GetScrollRange"
+  ]
+}

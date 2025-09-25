@@ -1,0 +1,6 @@
+typedef enum peer_record_change_type_tag {
+  PEER_RECORD_ADDED = 1,
+  PEER_RECORD_UPDATED = 2,
+  PEER_RECORD_DELETED = 3,
+  PEER_RECORD_EXPIRED = 4
+} PEER_RECORD_CHANGE_TYPE;

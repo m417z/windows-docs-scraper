@@ -1,0 +1,7 @@
+typedef struct _DXGKARG_CONTROLINTERRUPT2 {
+  DXGK_INTERRUPT_TYPE InterruptType;
+  union {
+    DXGK_INTERRUPT_STATE  InterruptState;
+    DXGK_CRTC_VSYNC_STATE CrtcVsyncState;
+  };
+} DXGKARG_CONTROLINTERRUPT2;

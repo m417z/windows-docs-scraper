@@ -1,0 +1,4 @@
+typedef enum {
+  KSRESET_BEGIN,
+  KSRESET_END
+} KSRESET;

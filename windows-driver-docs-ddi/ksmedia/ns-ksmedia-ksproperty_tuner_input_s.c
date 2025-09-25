@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      InputIndex;
+} KSPROPERTY_TUNER_INPUT_S, *PKSPROPERTY_TUNER_INPUT_S;

@@ -1,0 +1,4 @@
+typedef struct _WIAS_ENDORSER_VALUE {
+  LPWSTR wszTokenName;
+  LPWSTR wszValue;
+} WIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE;

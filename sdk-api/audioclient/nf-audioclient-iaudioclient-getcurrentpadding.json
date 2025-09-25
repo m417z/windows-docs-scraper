@@ -1,0 +1,64 @@
+{
+  "UID": "NF:audioclient.IAudioClient.GetCurrentPadding",
+  "title": "IAudioClient::GetCurrentPadding (audioclient.h)",
+  "description": "The GetCurrentPadding method retrieves the number of frames of padding in the endpoint buffer.",
+  "helpviewer_keywords": [
+    "GetCurrentPadding",
+    "GetCurrentPadding method [Core Audio]",
+    "GetCurrentPadding method [Core Audio]",
+    "IAudioClient interface",
+    "IAudioClient interface [Core Audio]",
+    "GetCurrentPadding method",
+    "IAudioClient.GetCurrentPadding",
+    "IAudioClient::GetCurrentPadding",
+    "IAudioClientGetCurrentPadding",
+    "audioclient/IAudioClient::GetCurrentPadding",
+    "coreaudio.iaudioclient_getcurrentpadding"
+  ],
+  "old-location": "coreaudio\\iaudioclient_getcurrentpadding.htm",
+  "tech.root": "CoreAudio",
+  "ms.assetid": "2a2c9ddf-f668-41ff-85f0-34de593c0fe2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetCurrentPadding, GetCurrentPadding method [Core Audio], GetCurrentPadding method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetCurrentPadding method, IAudioClient.GetCurrentPadding, IAudioClient::GetCurrentPadding, IAudioClientGetCurrentPadding, audioclient/IAudioClient::GetCurrentPadding, coreaudio.iaudioclient_getcurrentpadding",
+  "req.header": "audioclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAudioClient::GetCurrentPadding",
+    "audioclient/IAudioClient::GetCurrentPadding"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Audioclient.h"
+  ],
+  "api_name": [
+    "IAudioClient.GetCurrentPadding"
+  ]
+}

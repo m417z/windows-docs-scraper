@@ -1,0 +1,5 @@
+typedef struct _USBDEVICE_ENABLE {
+  USBDEVICE_MGMT_HEADER          Header;
+  UCXENDPOINT                    DefaultEndpoint;
+  USBDEVICE_ENABLE_FAILURE_FLAGS FailureFlags;
+} USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE;

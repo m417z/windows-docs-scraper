@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.ClfsMgmtQueryPolicy",
+  "title": "ClfsMgmtQueryPolicy function (wdm.h)",
+  "description": "The ClfsMgmtQueryPolicy routine retrieves a specific CLFS_MGMT_POLICY structure for a log.",
+  "old-location": "kernel\\clfsmgmtquerypolicy.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ClfsMgmtQueryPolicy function"
+  ],
+  "ms.keywords": "ClfsMgmtQueryPolicy, ClfsMgmtQueryPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_6f3ccba5-05e5-4022-9849-220aeefbde77.xml, kernel.clfsmgmtquerypolicy, wdm/ClfsMgmtQueryPolicy",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Clfs.lib",
+  "req.dll": "Clfs.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ClfsMgmtQueryPolicy",
+    "wdm/ClfsMgmtQueryPolicy"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Clfs.sys",
+    "Ext-MS-Win-fs-clfs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "ClfsMgmtQueryPolicy"
+  ]
+}

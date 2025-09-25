@@ -1,0 +1,7 @@
+PFND3D12DDI_CREATEHWQUEUE_CB_0050 Pfnd3d12ddiCreatehwqueueCb0050;
+
+HRESULT Pfnd3d12ddiCreatehwqueueCb0050(
+  D3D12DDI_HRTCOMMANDQUEUE hRTCommandQueue,
+  D3DDDICB_CREATEHWQUEUE *unnamedParam2
+)
+{...}

@@ -1,0 +1,4 @@
+void wiauDbgLegacyTrace(
+  LPCSTR fmt,
+  ...    
+);

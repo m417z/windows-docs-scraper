@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ras.RasGetSubEntryPropertiesA",
+  "title": "RasGetSubEntryPropertiesA function (ras.h)",
+  "description": "The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry. (ANSI)",
+  "helpviewer_keywords": [
+    "RasGetSubEntryPropertiesA",
+    "ras/RasGetSubEntryPropertiesA"
+  ],
+  "old-location": "rras\\rasgetsubentryproperties.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "6efe7824-54a1-491c-a568-21e23e98ed46",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RasGetSubEntryProperties, RasGetSubEntryProperties function [RAS], RasGetSubEntryPropertiesA, RasGetSubEntryPropertiesW, _ras_rasgetsubentryproperties, ras/RasGetSubEntryProperties, ras/RasGetSubEntryPropertiesA, ras/RasGetSubEntryPropertiesW, rras.rasgetsubentryproperties",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RasGetSubEntryPropertiesW (Unicode) and RasGetSubEntryPropertiesA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasGetSubEntryPropertiesA",
+    "ras/RasGetSubEntryPropertiesA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rasapi32.dll"
+  ],
+  "api_name": [
+    "RasGetSubEntryProperties",
+    "RasGetSubEntryPropertiesA",
+    "RasGetSubEntryPropertiesW"
+  ]
+}

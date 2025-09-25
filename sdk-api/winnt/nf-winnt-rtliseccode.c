@@ -1,0 +1,3 @@
+NTSYSAPI BOOLEAN RtlIsEcCode(
+  DWORD64 CodePointer
+);

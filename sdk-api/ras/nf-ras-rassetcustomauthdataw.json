@@ -1,0 +1,62 @@
+{
+  "UID": "NF:ras.RasSetCustomAuthDataW",
+  "title": "RasSetCustomAuthDataW function (ras.h)",
+  "description": "Use the RasSetCustomAuthData function to set connection-specific authentication information. This information should not be specific to a particular user. (Unicode)",
+  "helpviewer_keywords": [
+    "RasSetCustomAuthData",
+    "RasSetCustomAuthData function [RAS]",
+    "RasSetCustomAuthDataW",
+    "_ras_rassetcustomauthdata",
+    "ras/RasSetCustomAuthData",
+    "ras/RasSetCustomAuthDataW",
+    "rras.rassetcustomauthdata"
+  ],
+  "old-location": "rras\\rassetcustomauthdata.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "a3369537-1b46-4d7b-8ee1-f6965a3f296d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RasSetCustomAuthData, RasSetCustomAuthData function [RAS], RasSetCustomAuthDataA, RasSetCustomAuthDataW, _ras_rassetcustomauthdata, ras/RasSetCustomAuthData, ras/RasSetCustomAuthDataA, ras/RasSetCustomAuthDataW, rras.rassetcustomauthdata",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RasSetCustomAuthDataW (Unicode) and RasSetCustomAuthDataA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasSetCustomAuthDataW",
+    "ras/RasSetCustomAuthDataW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rasapi32.dll"
+  ],
+  "api_name": [
+    "RasSetCustomAuthData",
+    "RasSetCustomAuthDataA",
+    "RasSetCustomAuthDataW"
+  ]
+}

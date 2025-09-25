@@ -1,0 +1,1 @@
+void operator uint16_t() noexcept;

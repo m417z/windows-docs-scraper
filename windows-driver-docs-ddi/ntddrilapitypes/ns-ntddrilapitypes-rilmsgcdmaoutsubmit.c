@@ -1,0 +1,25 @@
+typedef struct RILMSGCDMAOUTSUBMIT {
+  RILADDRESS               raDestAddress;
+  RILSUBADDRESS            rsaDestSubaddr;
+  BOOL                     bDigit;
+  RILSYSTEMTIME            stValidityPeriodAbs;
+  RILSYSTEMTIME            stValidityPeriodRel;
+  RILSYSTEMTIME            stDeferredDelTimeAbs;
+  RILSYSTEMTIME            stDeferredDelTimeRel;
+  BOOL                     bDeliveryAckRequest;
+  BOOL                     bUserAckRequest;
+  BOOL                     bBearerReplyRequest;
+  DWORD                    dwReplySeqNumber;
+  RILMSGCDMAMSGDISPLAYMODE dwMsgDisplayMode;
+  RILADDRESS               raCallBackNumber;
+  RILMSGCDMAMSGPRIORITY    dwMsgPriority;
+  RILMSGCDMAMSGPRIVACY     dwMsgPrivacy;
+  DWORD                    dwTeleservice;
+  DWORD                    dwMsgID;
+  RILMSGCDMALANGUAGE       dwMsgLang;
+  RILMSGCDMAMSGENCODING    dwMsgEncoding;
+  DWORD                    cbHdrLength;
+  DWORD                    cchMsgLength;
+  BYTE                     rgbHdr[140];
+  BYTE                     rgbMsg[256];
+} RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT;

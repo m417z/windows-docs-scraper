@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10_2DDI_GETSUPPORTEDVERSIONS",
+  "title": "PFND3D10_2DDI_GETSUPPORTEDVERSIONS (d3d10umddi.h)",
+  "description": "The GetSupportedVersions function queries for the Direct3D interface versions that the driver supports.",
+  "old-location": "display\\getsupportedversions.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10_2DDI_GETSUPPORTEDVERSIONS callback function"
+  ],
+  "ms.keywords": "GetSupportedVersions, GetSupportedVersions callback function [Display Devices], PFND3D10_2DDI_GETSUPPORTEDVERSIONS, PFND3D10_2DDI_GETSUPPORTEDVERSIONS callback, UserModeDisplayDriverDx11_Functions_065e47e6-c02d-4091-b614-a93aa834cbfb.xml, d3d10umddi/GetSupportedVersions, display.getsupportedversions",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h, Prdrvcom.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "GetSupportedVersions is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10_2DDI_GETSUPPORTEDVERSIONS",
+    "d3d10umddi/PFND3D10_2DDI_GETSUPPORTEDVERSIONS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10_2DDI_GETSUPPORTEDVERSIONS"
+  ]
+}

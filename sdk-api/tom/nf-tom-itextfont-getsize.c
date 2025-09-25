@@ -1,0 +1,3 @@
+HRESULT GetSize(
+  float *pValue
+);

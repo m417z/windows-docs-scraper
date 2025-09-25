@@ -1,0 +1,50 @@
+{
+  "UID": "NS:netioapi._DNS_SERVER_PROPERTY_TYPES",
+  "title": "DNS_SERVER_PROPERTY_TYPES",
+  "description": "Contains a pointer to a DNS server property. The type of the property depends on the value of [DNS_SERVER_PROPERTY::Type](/windows/win32/api/netioapi/ns-netioapi-dns_server_property).",
+  "tech.root": "IpHlp",
+  "ms.date": "07/16/2021",
+  "req.header": "netioapi.h",
+  "req.construct-type": "structure",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DNS_SERVER_PROPERTY_TYPES",
+  "req.redist": null,
+  "f1_keywords": [
+    "_DNS_SERVER_PROPERTY_TYPES",
+    "netioapi/_DNS_SERVER_PROPERTY_TYPES",
+    "DNS_SERVER_PROPERTY_TYPES",
+    "netioapi/DNS_SERVER_PROPERTY_TYPES"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netioapi.h"
+  ],
+  "api_name": [
+    "_DNS_SERVER_PROPERTY_TYPES",
+    "DNS_SERVER_PROPERTY_TYPES"
+  ]
+}

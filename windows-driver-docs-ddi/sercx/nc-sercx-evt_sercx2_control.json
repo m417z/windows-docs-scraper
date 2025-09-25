@@ -1,0 +1,48 @@
+{
+  "UID": "NC:sercx.EVT_SERCX2_CONTROL",
+  "title": "EVT_SERCX2_CONTROL (sercx.h)",
+  "description": "The EvtSerCx2Control event callback function is called by version 2 of the serial framework extension (SerCx2) to handle a serial I/O control request.",
+  "old-location": "serports\\evtsercx2control.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "EVT_SERCX2_CONTROL callback function"
+  ],
+  "ms.keywords": "2/EvtSerCx2Control, EVT_SERCX2_CONTROL, EVT_SERCX2_CONTROL callback, EvtSerCx2Control, EvtSerCx2Control callback function [Serial Ports], serports.evtsercx2control",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SERCX2_CONTROL",
+    "sercx/EVT_SERCX2_CONTROL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "2.0\\Sercx.h"
+  ],
+  "api_name": [
+    "EVT_SERCX2_CONTROL"
+  ]
+}

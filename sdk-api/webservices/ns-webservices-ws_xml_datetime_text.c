@@ -1,0 +1,4 @@
+typedef struct _WS_XML_DATETIME_TEXT {
+  WS_XML_TEXT text;
+  WS_DATETIME value;
+} WS_XML_DATETIME_TEXT;

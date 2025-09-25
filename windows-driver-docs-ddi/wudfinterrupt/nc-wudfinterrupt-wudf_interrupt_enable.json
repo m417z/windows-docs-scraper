@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wudfinterrupt.WUDF_INTERRUPT_ENABLE",
+  "title": "WUDF_INTERRUPT_ENABLE (wudfinterrupt.h)",
+  "description": "A driver's OnInterruptEnable event callback function enables a specified hardware interrupt.",
+  "old-location": "wdf\\oninterruptenable.htm",
+  "tech.root": "wdf",
+  "ms.date": "08/12/2022",
+  "keywords": [
+    "WUDF_INTERRUPT_ENABLE callback function"
+  ],
+  "ms.keywords": "OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, WUDF_INTERRUPT_ENABLE callback, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable",
+  "req.header": "wudfinterrupt.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.11,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WUDF_INTERRUPT_ENABLE",
+    "wudfinterrupt/WUDF_INTERRUPT_ENABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wudfinterrupt.h"
+  ],
+  "api_name": [
+    "WUDF_INTERRUPT_ENABLE"
+  ]
+}

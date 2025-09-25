@@ -1,0 +1,46 @@
+{
+  "UID": "NF:fltkernel.FltAllocateContext",
+  "title": "FltAllocateContext function (fltkernel.h)",
+  "description": "Learn more about the FltAllocateContext function.",
+  "tech.root": "ifsk",
+  "ms.date": "03/15/2024",
+  "keywords": [
+    "FltAllocateContext function"
+  ],
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltAllocateContext",
+    "fltkernel/FltAllocateContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltAllocateContext"
+  ]
+}

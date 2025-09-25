@@ -1,0 +1,1 @@
+DWRITE_FONT_STRETCH GetFontStretch();

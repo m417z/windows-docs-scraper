@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfio.WDF_IO_QUEUE_STOPPED",
+  "title": "WDF_IO_QUEUE_STOPPED function (wdfio.h)",
+  "description": "The WDF_IO_QUEUE_STOPPED function returns TRUE if an I/O queue's state indicates that the queue is stopped.",
+  "old-location": "wdf\\wdf_io_queue_stopped.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_IO_QUEUE_STOPPED function"
+  ],
+  "ms.keywords": "DFQueueObjectRef_55457efd-0074-4be5-b078-bb223963bfca.xml, WDF_IO_QUEUE_STOPPED, WDF_IO_QUEUE_STOPPED function, kmdf.wdf_io_queue_stopped, wdf.wdf_io_queue_stopped, wdfio/WDF_IO_QUEUE_STOPPED",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "None",
+  "req.dll": null,
+  "req.irql": "Any IRQL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WDF_IO_QUEUE_STOPPED",
+    "wdfio/WDF_IO_QUEUE_STOPPED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "None",
+    "None.dll"
+  ],
+  "api_name": [
+    "WDF_IO_QUEUE_STOPPED"
+  ]
+}

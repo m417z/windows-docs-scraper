@@ -1,0 +1,7 @@
+typedef struct DXGI_OUTDUPL_POINTER_SHAPE_INFO {
+  UINT  Type;
+  UINT  Width;
+  UINT  Height;
+  UINT  Pitch;
+  POINT HotSpot;
+} DXGI_OUTDUPL_POINTER_SHAPE_INFO;

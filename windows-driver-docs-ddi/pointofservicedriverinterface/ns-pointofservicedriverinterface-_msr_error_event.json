@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pointofservicedriverinterface._MSR_ERROR_EVENT",
+  "title": "_MSR_ERROR_EVENT (pointofservicedriverinterface.h)",
+  "description": "This structure contains the error data that is passed to the MagneticStripeReaderErrorOccured event.",
+  "old-location": "pos\\msr_error_event.htm",
+  "tech.root": "pos",
+  "ms.date": "02/23/2018",
+  "keywords": [
+    "MSR_ERROR_EVENT structure"
+  ],
+  "ms.keywords": "*PMSR_ERROR_EVENT, MSR_ERROR_EVENT, MSR_ERROR_EVENT structure, PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, _MSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, pos.msr_error_event",
+  "req.header": "pointofservicedriverinterface.h",
+  "req.include-header": "PointOfServiceDriverInterface.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MSR_ERROR_EVENT, *PMSR_ERROR_EVENT",
+  "f1_keywords": [
+    "_MSR_ERROR_EVENT",
+    "pointofservicedriverinterface/_MSR_ERROR_EVENT",
+    "PMSR_ERROR_EVENT",
+    "pointofservicedriverinterface/PMSR_ERROR_EVENT",
+    "MSR_ERROR_EVENT",
+    "pointofservicedriverinterface/MSR_ERROR_EVENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "PointOfServiceDriverInterface.h"
+  ],
+  "api_name": [
+    "_MSR_ERROR_EVENT",
+    "PMSR_ERROR_EVENT",
+    "MSR_ERROR_EVENT"
+  ]
+}

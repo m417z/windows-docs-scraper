@@ -1,0 +1,61 @@
+{
+  "UID": "NF:cfgmgr32.CM_Get_Device_ID_ListA",
+  "title": "CM_Get_Device_ID_ListA function (cfgmgr32.h)",
+  "description": "The CM_Get_Device_ID_List function retrieves a list of device instance IDs for the local computer's device instances. (ANSI)",
+  "helpviewer_keywords": [
+    "CM_Get_Device_ID_ListA",
+    "cfgmgr32/CM_Get_Device_ID_ListA",
+    "cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml"
+  ],
+  "old-location": "devinst\\cm_get_device_id_list.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "aa0ab004-3813-4339-90bb-afd9acf200c8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CM_Get_Device_ID_List, CM_Get_Device_ID_List function [Device and Driver Installation], CM_Get_Device_ID_ListA, CM_Get_Device_ID_ListW, cfgmgr32/CM_Get_Device_ID_List, cfgmgr32/CM_Get_Device_ID_ListA, cfgmgr32/CM_Get_Device_ID_ListW, cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml, devinst.cm_get_device_id_list",
+  "req.header": "cfgmgr32.h",
+  "req.include-header": "Cfgmgr32.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Microsoft Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CM_Get_Device_ID_ListW (Unicode) and CM_Get_Device_ID_ListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cfgmgr32.lib",
+  "req.dll": "CfgMgr32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CM_Get_Device_ID_ListA",
+    "cfgmgr32/CM_Get_Device_ID_ListA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-devices-config-l1-1-2.dll",
+    "CfgMgr32.dll",
+    "API-MS-Win-Devices-Config-L1-1-0.dll",
+    "API-MS-Win-Devices-Config-L1-1-1.dll"
+  ],
+  "api_name": [
+    "CM_Get_Device_ID_List",
+    "CM_Get_Device_ID_ListA",
+    "CM_Get_Device_ID_ListW"
+  ]
+}

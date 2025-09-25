@@ -1,0 +1,59 @@
+{
+  "UID": "NS:wmsdkidl._WMLeakyBucketPair",
+  "title": "WM_LEAKY_BUCKET_PAIR (wmsdkidl.h)",
+  "description": "The WM_LEAKY_BUCKET_PAIR structure describes the buffering requirements for a VBR file. This structure is used with the ASFLeakyBucketPairs attribute.",
+  "helpviewer_keywords": [
+    "WM_LEAKY_BUCKET_PAIR",
+    "WM_LEAKY_BUCKET_PAIR structure [windows Media Format]",
+    "wmformat.wm_leaky_bucket_pair",
+    "wmsdkidl/WM_LEAKY_BUCKET_PAIR"
+  ],
+  "old-location": "wmformat\\wm_leaky_bucket_pair.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "8fada83d-cb66-4411-9ff5-0eb4c02a3b5f",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "WM_LEAKY_BUCKET_PAIR, WM_LEAKY_BUCKET_PAIR structure [windows Media Format], wmformat.wm_leaky_bucket_pair, wmsdkidl/WM_LEAKY_BUCKET_PAIR",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WM_LEAKY_BUCKET_PAIR",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_WMLeakyBucketPair",
+    "wmsdkidl/_WMLeakyBucketPair",
+    "WM_LEAKY_BUCKET_PAIR",
+    "wmsdkidl/WM_LEAKY_BUCKET_PAIR"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wmsdkidl.h"
+  ],
+  "api_name": [
+    "WM_LEAKY_BUCKET_PAIR"
+  ]
+}

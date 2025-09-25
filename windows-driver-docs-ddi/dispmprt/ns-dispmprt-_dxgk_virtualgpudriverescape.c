@@ -1,0 +1,7 @@
+typedef struct _DXGK_VIRTUALGPUDRIVERESCAPE {
+  ULONG PartitionId;
+  ULONG InputBufferSize;
+  ULONG OutputBufferSize;
+  PVOID pInputBuffer;
+  PVOID pOutputBuffer;
+} DXGK_VIRTUALGPUDRIVERESCAPE, *PDXGK_VIRTUALGPUDRIVERESCAPE;

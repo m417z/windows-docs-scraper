@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ADDRESS_AND_SIZE_TO_SPAN_PAGES",
+  "tech.root": "kernel",
+  "title": "ADDRESS_AND_SIZE_TO_SPAN_PAGES",
+  "ms.date": "08/28/2025",
+  "targetos": "Windows",
+  "description": "The ADDRESS_AND_SIZE_TO_SPAN_PAGES macro returns the number of pages that a virtual range spans. The virtual range is defined by a virtual address and the size in bytes of a transfer request.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Any level",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "ADDRESS_AND_SIZE_TO_SPAN_PAGES"
+  ],
+  "f1_keywords": [
+    "ADDRESS_AND_SIZE_TO_SPAN_PAGES",
+    "wdm/ADDRESS_AND_SIZE_TO_SPAN_PAGES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

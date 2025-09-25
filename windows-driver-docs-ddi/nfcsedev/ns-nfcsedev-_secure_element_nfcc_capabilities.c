@@ -1,0 +1,6 @@
+typedef struct _SECURE_ELEMENT_NFCC_CAPABILITIES {
+  USHORT  cbMaxRoutingTableSize;
+  BOOLEAN IsAidRoutingSupported;
+  BOOLEAN IsProtocolRoutingSupported;
+  BOOLEAN IsTechRoutingSupported;
+} SECURE_ELEMENT_NFCC_CAPABILITIES, *PSECURE_ELEMENT_NFCC_CAPABILITIES;

@@ -1,0 +1,4 @@
+typedef struct D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO {
+  [in] D3DKMT_HANDLE PresentAllocation;
+  [in] UINT          SubResourceIndex;
+} D3DDDI_MULTIPLANE_ALLOCATION_INFO;

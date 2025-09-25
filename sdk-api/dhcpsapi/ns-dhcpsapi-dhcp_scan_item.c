@@ -1,0 +1,4 @@
+typedef struct _DHCP_SCAN_ITEM {
+  DHCP_IP_ADDRESS IpAddress;
+  DHCP_SCAN_FLAG  ScanFlag;
+} DHCP_SCAN_ITEM, *LPDHCP_SCAN_ITEM;

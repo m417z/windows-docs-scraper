@@ -1,0 +1,65 @@
+{
+  "UID": "NF:control.IMediaPosition.put_CurrentPosition",
+  "title": "IMediaPosition::put_CurrentPosition (control.h)",
+  "description": "The put_CurrentPosition method sets the current position, relative to the total duration of the stream.",
+  "helpviewer_keywords": [
+    "IMediaPosition interface [DirectShow]",
+    "put_CurrentPosition method",
+    "IMediaPosition.put_CurrentPosition",
+    "IMediaPosition::put_CurrentPosition",
+    "IMediaPositionput_CurrentPosition",
+    "control/IMediaPosition::put_CurrentPosition",
+    "dshow.imediaposition_put_currentposition",
+    "put_CurrentPosition",
+    "put_CurrentPosition method [DirectShow]",
+    "put_CurrentPosition method [DirectShow]",
+    "IMediaPosition interface"
+  ],
+  "old-location": "dshow\\imediaposition_put_currentposition.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "6af44ce9-91d3-4329-835a-a1249924d672",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IMediaPosition interface [DirectShow],put_CurrentPosition method, IMediaPosition.put_CurrentPosition, IMediaPosition::put_CurrentPosition, IMediaPositionput_CurrentPosition, control/IMediaPosition::put_CurrentPosition, dshow.imediaposition_put_currentposition, put_CurrentPosition, put_CurrentPosition method [DirectShow], put_CurrentPosition method [DirectShow],IMediaPosition interface",
+  "req.header": "control.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaPosition::put_CurrentPosition",
+    "control/IMediaPosition::put_CurrentPosition"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaPosition.put_CurrentPosition"
+  ]
+}

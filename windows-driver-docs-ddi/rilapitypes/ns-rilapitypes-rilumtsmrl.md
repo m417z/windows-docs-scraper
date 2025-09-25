@@ -1,0 +1,44 @@
+# RILUMTSMRL structure (rilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Members
+
+### `dwParams`
+
+### `dwMobileCountryCode`
+
+### `dwMobileNetworkCode`
+
+### `dwLocationAreaCode`
+
+### `dwCellID`
+
+### `dwUARFCN`
+
+### `dwPrimaryScramblingCode`
+
+### `dwRSCP`
+
+### `dwECNO`
+
+### `dwPathLoss`
+
+## Syntax
+
+```cpp
+typedef struct _RILUMTSMRL {
+  DWORD  dwParams;
+  DWORD  dwMobileCountryCode;
+  DWORD  dwMobileNetworkCode;
+  DWORD  dwLocationAreaCode;
+  DWORD  dwCellID;
+  DWORD  dwUARFCN;
+  DWORD  dwPrimaryScramblingCode;
+  LONG   dwRSCP;
+  LONG   dwECNO;
+  DWORD  dwPathLoss;
+} RILUMTSMRL, RILUMTSMRL;
+```

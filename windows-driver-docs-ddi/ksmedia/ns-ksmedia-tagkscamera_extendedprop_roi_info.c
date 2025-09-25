@@ -1,0 +1,6 @@
+typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_INFO {
+  RECT      Region;
+  ULONGLONG Flags;
+  LONG      Weight;
+  LONG      RegionOfInterestType;
+} KSCAMERA_EXTENDEDPROP_ROI_INFO, *PKSCAMERA_EXTENDEDPROP_ROI_INFO;

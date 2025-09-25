@@ -1,0 +1,5 @@
+typedef enum CreatePackageDependencyOptions {
+  CreatePackageDependencyOptions_None,
+  CreatePackageDependencyOptions_DoNotVerifyDependencyResolution,
+  CreatePackageDependencyOptions_ScopeIsSystem
+} ;

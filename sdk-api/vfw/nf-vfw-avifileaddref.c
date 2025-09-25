@@ -1,0 +1,3 @@
+ULONG AVIFileAddRef(
+  PAVIFILE pfile
+);

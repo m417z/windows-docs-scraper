@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngPaint",
+  "title": "EngPaint function (winddi.h)",
+  "description": "The EngPaint function causes GDI to paint a specified region.",
+  "helpviewer_keywords": [
+    "EngPaint",
+    "EngPaint function [Display Devices]",
+    "display.engpaint",
+    "gdifncs_fdbafee3-278d-4d69-bd16-535e92436a1d.xml",
+    "winddi/EngPaint"
+  ],
+  "old-location": "display\\engpaint.htm",
+  "tech.root": "display",
+  "ms.assetid": "9bfa2e7b-06c7-427a-9283-54b9c6cdac30",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngPaint, EngPaint function [Display Devices], display.engpaint, gdifncs_fdbafee3-278d-4d69-bd16-535e92436a1d.xml, winddi/EngPaint",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngPaint",
+    "winddi/EngPaint"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngPaint"
+  ]
+}

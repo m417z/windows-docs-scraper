@@ -1,0 +1,6 @@
+typedef struct _BIDI_RESPONSE_CONTAINER {
+  DWORD              Version;
+  DWORD              Flags;
+  DWORD              Count;
+  BIDI_RESPONSE_DATA aData[1];
+} BIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER;

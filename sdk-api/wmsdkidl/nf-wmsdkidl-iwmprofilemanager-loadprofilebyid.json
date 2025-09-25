@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMProfileManager.LoadProfileByID",
+  "title": "IWMProfileManager::LoadProfileByID (wmsdkidl.h)",
+  "description": "The LoadProfileByID method loads a system profile identified by its globally unique identifier. To load a custom profile, use IWMProfileManager::LoadProfileByData.",
+  "helpviewer_keywords": [
+    "IWMProfileManager interface [windows Media Format]",
+    "LoadProfileByID method",
+    "IWMProfileManager.LoadProfileByID",
+    "IWMProfileManager::LoadProfileByID",
+    "IWMProfileManagerLoadProfileByID",
+    "LoadProfileByID",
+    "LoadProfileByID method [windows Media Format]",
+    "LoadProfileByID method [windows Media Format]",
+    "IWMProfileManager interface",
+    "wmformat.iwmprofilemanager_loadprofilebyid",
+    "wmsdkidl/IWMProfileManager::LoadProfileByID"
+  ],
+  "old-location": "wmformat\\iwmprofilemanager_loadprofilebyid.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "16104e70-c800-49a6-a9cf-2b4669c865eb",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMProfileManager interface [windows Media Format],LoadProfileByID method, IWMProfileManager.LoadProfileByID, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProfileManager::LoadProfileByID",
+    "wmsdkidl/IWMProfileManager::LoadProfileByID"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMProfileManager.LoadProfileByID"
+  ]
+}

@@ -1,0 +1,3 @@
+LPTOP_LEVEL_EXCEPTION_FILTER SetUnhandledExceptionFilter(
+  [in] LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter
+);

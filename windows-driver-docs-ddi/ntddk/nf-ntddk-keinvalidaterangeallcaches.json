@@ -1,0 +1,50 @@
+{
+  "UID": "NF:ntddk.KeInvalidateRangeAllCaches",
+  "tech.root": "kernel",
+  "title": "KeInvalidateRangeAllCaches function (ntddk.h)",
+  "ms.date": "07/27/2022",
+  "targetos": "Windows",
+  "description": "The KeInvalidateRangeAllCaches routine flushes the specified virtual address range from all processor caches.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddk.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": "Available in Windows Server 2008 and later versions of Windows.",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "KeInvalidateRangeAllCaches"
+  ],
+  "f1_keywords": [
+    "KeInvalidateRangeAllCaches",
+    "ntddk/KeInvalidateRangeAllCaches"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "KeInvalidateRangeAllCaches"
+  ]
+}

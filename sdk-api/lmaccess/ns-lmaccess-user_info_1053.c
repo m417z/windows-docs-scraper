@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1053 {
+  LPWSTR usri1053_home_dir_drive;
+} USER_INFO_1053, *PUSER_INFO_1053, *LPUSER_INFO_1053;

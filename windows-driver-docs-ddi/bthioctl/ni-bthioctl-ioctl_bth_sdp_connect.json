@@ -1,0 +1,48 @@
+{
+  "UID": "NI:bthioctl.IOCTL_BTH_SDP_CONNECT",
+  "title": "IOCTL_BTH_SDP_CONNECT (bthioctl.h)",
+  "description": "The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a remote Bluetooth device.",
+  "old-location": "bltooth\\ioctl_bth_sdp_connect.htm",
+  "tech.root": "bltooth",
+  "ms.date": "06/15/2023",
+  "keywords": [
+    "IOCTL_BTH_SDP_CONNECT IOCTL"
+  ],
+  "ms.keywords": "IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT",
+  "req.header": "bthioctl.h",
+  "req.include-header": "Bthioctl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_BTH_SDP_CONNECT",
+    "bthioctl/IOCTL_BTH_SDP_CONNECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Bthioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_BTH_SDP_CONNECT"
+  ]
+}

@@ -1,0 +1,8 @@
+typedef union {
+  struct {
+    ULONG Reserved0 : 8;
+    ULONG SPSP : 16;
+    ULONG SECP : 8;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CDW10_SECURITY_SEND_RECEIVE, *PNVME_CDW10_SECURITY_SEND_RECEIVE;

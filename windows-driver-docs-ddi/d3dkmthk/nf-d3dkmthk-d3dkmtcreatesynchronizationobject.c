@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTCreateSynchronizationObject(
+  D3DKMT_CREATESYNCHRONIZATIONOBJECT *unnamedParam1
+);

@@ -1,0 +1,8 @@
+typedef struct _DD_MISCELLANEOUS2CALLBACKS {
+  DWORD               dwSize;
+  DWORD               dwFlags;
+  PDD_ALPHABLT        AlphaBlt;
+  PDD_CREATESURFACEEX CreateSurfaceEx;
+  PDD_GETDRIVERSTATE  GetDriverState;
+  PDD_DESTROYDDLOCAL  DestroyDDLocal;
+} DD_MISCELLANEOUS2CALLBACKS, *PDD_MISCELLANEOUS2CALLBACKS;

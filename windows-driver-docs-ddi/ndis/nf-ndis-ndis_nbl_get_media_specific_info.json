@@ -1,0 +1,45 @@
+{
+  "UID": "NF:ndis.NDIS_NBL_GET_MEDIA_SPECIFIC_INFO",
+  "title": "NDIS_NBL_GET_MEDIA_SPECIFIC_INFO macro (ndis.h)",
+  "description": "The NDIS_NBL_GET_MEDIA_SPECIFIC_INFO macro gets a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.",
+  "tech.root": "netvista",
+  "ms.date": "04/13/2018",
+  "keywords": [
+    "NDIS_NBL_GET_MEDIA_SPECIFIC_INFO macro"
+  ],
+  "ms.keywords": "NDIS_NBL_GET_MEDIA_SPECIFIC_INFO",
+  "req.header": "ndis.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "NDIS_NBL_GET_MEDIA_SPECIFIC_INFO",
+    "ndis/NDIS_NBL_GET_MEDIA_SPECIFIC_INFO"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NDIS_NBL_GET_MEDIA_SPECIFIC_INFO"
+  ]
+}

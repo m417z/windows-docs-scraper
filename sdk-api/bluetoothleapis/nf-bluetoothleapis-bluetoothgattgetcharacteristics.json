@@ -1,0 +1,57 @@
+{
+  "UID": "NF:bluetoothleapis.BluetoothGATTGetCharacteristics",
+  "title": "BluetoothGATTGetCharacteristics function (bluetoothleapis.h)",
+  "description": "Gets all the characteristics available for the specified service.",
+  "helpviewer_keywords": [
+    "BluetoothGATTGetCharacteristics",
+    "BluetoothGATTGetCharacteristics function [Bluetooth Devices]",
+    "bltooth.bluetoothgattgetcharacteristics",
+    "bluetoothleapis/BluetoothGATTGetCharacteristics"
+  ],
+  "old-location": "bltooth\\bluetoothgattgetcharacteristics.htm",
+  "tech.root": "bltooth",
+  "ms.assetid": "974270EE-6319-45E3-BAB8-3A57665591EA",
+  "ms.date": "12/05/2018",
+  "req.header": "bluetoothleapis.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Supported in Windows 8 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "BluetoothApis.lib",
+  "req.dll": "BluetoothApis.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BluetoothGATTGetCharacteristics",
+    "bluetoothleapis/BluetoothGATTGetCharacteristics"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "BluetoothApis.dll",
+    "Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll"
+  ],
+  "api_name": [
+    "BluetoothGATTGetCharacteristics"
+  ]
+}

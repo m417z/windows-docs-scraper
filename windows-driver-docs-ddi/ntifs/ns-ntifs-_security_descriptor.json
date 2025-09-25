@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._SECURITY_DESCRIPTOR",
+  "title": "_SECURITY_DESCRIPTOR (ntifs.h)",
+  "description": "The SECURITY_DESCRIPTOR structure contains the security information associated with an object. Drivers use this structure to set and query an object's security status.",
+  "old-location": "ifsk\\security_descriptor.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SECURITY_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Installable File System Drivers], _SECURITY_DESCRIPTOR, ifsk.security_descriptor, ntifs/SECURITY_DESCRIPTOR, securitystructures_b3cd4d20-6abc-49e7-92dd-8dd707e973fa.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Microsoft Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SECURITY_DESCRIPTOR, *PISECURITY_DESCRIPTOR",
+  "f1_keywords": [
+    "_SECURITY_DESCRIPTOR",
+    "ntifs/_SECURITY_DESCRIPTOR",
+    "PISECURITY_DESCRIPTOR",
+    "ntifs/PISECURITY_DESCRIPTOR",
+    "SECURITY_DESCRIPTOR",
+    "ntifs/SECURITY_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_SECURITY_DESCRIPTOR",
+    "PISECURITY_DESCRIPTOR",
+    "SECURITY_DESCRIPTOR"
+  ]
+}

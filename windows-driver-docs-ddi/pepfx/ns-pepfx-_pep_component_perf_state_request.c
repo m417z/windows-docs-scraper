@@ -1,0 +1,7 @@
+typedef struct _PEP_COMPONENT_PERF_STATE_REQUEST {
+  ULONG Set;
+  union {
+    ULONG     StateIndex;
+    ULONGLONG StateValue;
+  };
+} PEP_COMPONENT_PERF_STATE_REQUEST, *PPEP_COMPONENT_PERF_STATE_REQUEST;

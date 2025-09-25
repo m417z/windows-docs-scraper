@@ -1,0 +1,3 @@
+HRESULT SetWorkingDirectory(
+  LPCWSTR pszDir
+);

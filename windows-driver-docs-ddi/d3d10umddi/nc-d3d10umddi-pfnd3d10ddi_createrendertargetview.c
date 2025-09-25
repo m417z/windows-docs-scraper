@@ -1,0 +1,9 @@
+PFND3D10DDI_CREATERENDERTARGETVIEW Pfnd3d10ddiCreaterendertargetview;
+
+VOID Pfnd3d10ddiCreaterendertargetview(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D10DDIARG_CREATERENDERTARGETVIEW *unnamedParam2,
+  D3D10DDI_HRENDERTARGETVIEW unnamedParam3,
+  D3D10DDI_HRTRENDERTARGETVIEW unnamedParam4
+)
+{...}

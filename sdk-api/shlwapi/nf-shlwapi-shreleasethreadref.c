@@ -1,0 +1,1 @@
+LWSTDAPI SHReleaseThreadRef();

@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2ADDDIRTYBOX {
+  DWORD  dwSurface;
+  D3DBOX DirtyBox;
+} D3DHAL_DP2ADDDIRTYBOX;

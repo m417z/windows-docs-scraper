@@ -1,0 +1,6 @@
+typedef struct _HIDD_ATTRIBUTES {
+  ULONG  Size;
+  USHORT VendorID;
+  USHORT ProductID;
+  USHORT VersionNumber;
+} HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES;

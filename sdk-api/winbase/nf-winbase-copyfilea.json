@@ -1,0 +1,68 @@
+{
+  "UID": "NF:winbase.CopyFileA",
+  "title": "CopyFileA function (winbase.h)",
+  "description": "Copies an existing file to a new file. (CopyFileA)",
+  "helpviewer_keywords": [
+    "CopyFileA",
+    "winbase/CopyFileA"
+  ],
+  "old-location": "fs\\copyfile.htm",
+  "tech.root": "fs",
+  "ms.assetid": "2c8ad002-cef4-499c-acda-c162205f6a8d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CopyFile, CopyFile function [Files], CopyFileA, CopyFileW, _win32_copyfile, base.copyfile, fs.copyfile, winbase/CopyFile, winbase/CopyFileA, winbase/CopyFileW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CopyFileW (Unicode) and CopyFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CopyFileA",
+    "winbase/CopyFileA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-File-l2-1-2.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "CopyFile",
+    "CopyFileA",
+    "CopyFileW"
+  ]
+}

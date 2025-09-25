@@ -1,0 +1,4 @@
+BOOL capSetCallbackOnWaveStream(
+     hwnd,
+     fpProc
+);

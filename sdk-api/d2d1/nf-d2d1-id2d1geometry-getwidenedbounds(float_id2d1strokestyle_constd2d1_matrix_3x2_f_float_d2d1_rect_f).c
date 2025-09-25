@@ -1,0 +1,7 @@
+HRESULT GetWidenedBounds(
+                 FLOAT                   strokeWidth,
+  [in, optional] ID2D1StrokeStyle        *strokeStyle,
+  [in, optional] const D2D1_MATRIX_3X2_F *worldTransform,
+                 FLOAT                   flatteningTolerance,
+  [out]          D2D1_RECT_F             *bounds
+);

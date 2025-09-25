@@ -1,0 +1,8 @@
+typedef struct _MIRROR_VIRTUAL_DISK_PARAMETERS {
+  MIRROR_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      PCWSTR MirrorVirtualDiskPath;
+    } Version1;
+  };
+} MIRROR_VIRTUAL_DISK_PARAMETERS, *PMIRROR_VIRTUAL_DISK_PARAMETERS;

@@ -1,0 +1,1 @@
+PESILO PsGetCurrentSilo();

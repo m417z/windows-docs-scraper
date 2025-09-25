@@ -1,0 +1,24 @@
+typedef struct D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_0082_0 {
+  D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_FLAGS_0080                                           Flags;
+  D3D12DDI_VIDEO_ENCODER_FRAME_TYPE_H264_0080                                                                 FrameType;
+  UINT                                                                                                        pic_parameter_set_id;
+  UINT                                                                                                        idr_pic_id;
+  UINT                                                                                                        PictureOrderCountNumber;
+  UINT                                                                                                        FrameDecodingOrderNumber;
+  UINT                                                                                                        TemporalLayerIndex;
+  UINT                                                                                                        List0ReferenceFramesCount;
+  UINT                                                                                                        *pList0ReferenceFrames;
+  UINT                                                                                                        List1ReferenceFramesCount;
+  UINT                                                                                                        *pList1ReferenceFrames;
+  UINT                                                                                                        ReferenceFramesReconPictureDescriptorsCount;
+  D3D12DDI_VIDEO_ENCODER_REFERENCE_PICTURE_DESCRIPTOR_H264_0080                                               *pReferenceFramesReconPictureDescriptors;
+  UCHAR                                                                                                       adaptive_ref_pic_marking_mode_flag;
+  UINT                                                                                                        RefPicMarkingOperationsCommandsCount;
+  D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_MARKING_OPERATION_0082_0           *pRefPicMarkingOperationsCommands;
+  UINT                                                                                                        List0RefPicModificationsCount;
+  D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_LIST_MODIFICATION_OPERATION_0082_0 *pList0RefPicModifications;
+  UINT                                                                                                        List1RefPicModificationsCount;
+  D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_LIST_MODIFICATION_OPERATION_0082_0 *pList1RefPicModifications;
+  UINT                                                                                                        QPMapValuesCount;
+  INT8                                                                                                        *pRateControlQPMap;
+} D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_0082_0;

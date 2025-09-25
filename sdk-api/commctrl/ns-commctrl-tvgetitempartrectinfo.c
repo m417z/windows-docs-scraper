@@ -1,0 +1,5 @@
+typedef struct tagTVGETITEMPARTRECTINFO {
+  HTREEITEM  hti;
+  RECT       *prc;
+  TVITEMPART partID;
+} TVGETITEMPARTRECTINFO;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_RECLAIMRESOURCES",
+  "title": "PFND3DDDI_RECLAIMRESOURCES (d3dumddi.h)",
+  "description": "Called by the Microsoft Direct3D runtime to reclaim video memory resources that it previously offered for reuse.",
+  "old-location": "display\\reclaimresources.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_RECLAIMRESOURCES callback function"
+  ],
+  "ms.keywords": "PFND3DDDI_RECLAIMRESOURCES, PFND3DDDI_RECLAIMRESOURCES callback, ReclaimResources, ReclaimResources callback function [Display Devices], d3dumddi/ReclaimResources, display.reclaimresources",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_RECLAIMRESOURCES",
+    "d3dumddi/PFND3DDDI_RECLAIMRESOURCES"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_RECLAIMRESOURCES"
+  ]
+}

@@ -1,0 +1,35 @@
+# OUTPUT_COLOR_ENCODING enumeration
+
+## Description
+
+Output color encoding.
+
+## Constants
+
+### `OUTPUT_COLOR_ENCODING_RGB`
+
+RGB.
+
+### `OUTPUT_COLOR_ENCODING_YCBCR444`
+
+YCBCR444.
+
+### `OUTPUT_COLOR_ENCODING_YCBCR422`
+
+YCBCR422.
+
+### `OUTPUT_COLOR_ENCODING_YCBCR420`
+
+YCBCR420.
+
+### `OUTPUT_COLOR_ENCODING_INTENSITY`
+
+Intensity.
+
+### `OUTPUT_COLOR_ENCODING_FORCE_UINT32`
+
+Uint32.
+
+## Remarks
+
+## See also

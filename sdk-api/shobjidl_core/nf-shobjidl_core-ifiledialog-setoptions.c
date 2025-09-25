@@ -1,0 +1,3 @@
+HRESULT SetOptions(
+  [in] FILEOPENDIALOGOPTIONS fos
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.IoSetDeviceToVerify",
+  "title": "IoSetDeviceToVerify function (ntifs.h)",
+  "description": "Learn more about the IoSetDeviceToVerify routine.",
+  "old-location": "ifsk\\iosetdevicetoverify.htm",
+  "tech.root": "ifsk",
+  "ms.date": "01/18/2023",
+  "keywords": [
+    "IoSetDeviceToVerify function"
+  ],
+  "ms.keywords": "IoSetDeviceToVerify, IoSetDeviceToVerify routine [Installable File System Drivers], ifsk.iosetdevicetoverify, ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, ntifs/IoSetDeviceToVerify",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlIoDispatch",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoSetDeviceToVerify",
+    "ntifs/IoSetDeviceToVerify"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoSetDeviceToVerify"
+  ]
+}

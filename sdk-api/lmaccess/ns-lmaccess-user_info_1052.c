@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1052 {
+  LPWSTR usri1052_profile;
+} USER_INFO_1052, *PUSER_INFO_1052, *LPUSER_INFO_1052;

@@ -1,0 +1,8 @@
+PFND3D12DDI_BEGIN_PASS Pfnd3d12ddiBeginPass;
+
+VOID Pfnd3d12ddiBeginPass(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  D3D12DDI_HPASS unnamedParam2,
+  D3D12DDI_PASS_FLAGS PassFlags
+)
+{...}

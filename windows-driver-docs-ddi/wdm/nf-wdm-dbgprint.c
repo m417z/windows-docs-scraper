@@ -1,0 +1,4 @@
+ULONG DbgPrint(
+  PCSTR Format,
+  ...   
+);

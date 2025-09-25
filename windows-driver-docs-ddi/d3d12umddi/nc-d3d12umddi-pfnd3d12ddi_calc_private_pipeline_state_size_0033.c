@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 Pfnd3d12ddiCalcPrivatePipelineStateSize0033;
+
+SIZE_T Pfnd3d12ddiCalcPrivatePipelineStateSize0033(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_PIPELINE_STATE_0033 *unnamedParam2
+)
+{...}

@@ -1,0 +1,5 @@
+typedef struct _DXGKARG_SETVIRTUALGPURESOURCES {
+  ULONG                         PartitionId;
+  ULONG                         NumMemoryAllocations;
+  DXGK_VIRTUALGPUMEMORYRESOURCE MemoryInfo[1];
+} DXGKARG_SETVIRTUALGPURESOURCES, *PDXGKARG_SETVIRTUALGPURESOURCES;

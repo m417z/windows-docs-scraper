@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterFileSink2.IsStopped",
+  "title": "IWMWriterFileSink2::IsStopped (wmsdkidl.h)",
+  "description": "The IsStopped method ascertains whether the file sink has stopped writing.",
+  "helpviewer_keywords": [
+    "IWMWriterFileSink2 interface [windows Media Format]",
+    "IsStopped method",
+    "IWMWriterFileSink2.IsStopped",
+    "IWMWriterFileSink2::IsStopped",
+    "IWMWriterFileSink2IsStopped",
+    "IsStopped",
+    "IsStopped method [windows Media Format]",
+    "IsStopped method [windows Media Format]",
+    "IWMWriterFileSink2 interface",
+    "wmformat.iwmwriterfilesink2_isstopped",
+    "wmsdkidl/IWMWriterFileSink2::IsStopped"
+  ],
+  "old-location": "wmformat\\iwmwriterfilesink2_isstopped.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "f1e5790a-3cac-4e0e-8a3f-b21afe2711ff",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMWriterFileSink2 interface [windows Media Format],IsStopped method, IWMWriterFileSink2.IsStopped, IWMWriterFileSink2::IsStopped, IWMWriterFileSink2IsStopped, IsStopped, IsStopped method [windows Media Format], IsStopped method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isstopped, wmsdkidl/IWMWriterFileSink2::IsStopped",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterFileSink2::IsStopped",
+    "wmsdkidl/IWMWriterFileSink2::IsStopped"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterFileSink2.IsStopped"
+  ]
+}

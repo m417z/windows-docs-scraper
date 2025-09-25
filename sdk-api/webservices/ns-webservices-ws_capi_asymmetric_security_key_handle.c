@@ -1,0 +1,5 @@
+typedef struct _WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE {
+  WS_SECURITY_KEY_HANDLE keyHandle;
+  HCRYPTPROV             provider;
+  ULONG                  keySpec;
+} WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE;

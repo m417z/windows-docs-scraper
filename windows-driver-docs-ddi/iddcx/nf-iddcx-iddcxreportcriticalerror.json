@@ -1,0 +1,46 @@
+{
+  "UID": "NF:iddcx.IddCxReportCriticalError",
+  "title": "IddCxReportCriticalError",
+  "tech.root": "display",
+  "ms.date": "9/24/2020",
+  "targetos": "Windows",
+  "description": "IddCxReportCriticalError is an OS callback function called by an indirect display driver (IDD) to report a critical error.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "iddcx.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "iddcx.h"
+  ],
+  "api_name": [
+    "IddCxReportCriticalError"
+  ],
+  "f1_keywords": [
+    "IddCxReportCriticalError",
+    "iddcx/IddCxReportCriticalError"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

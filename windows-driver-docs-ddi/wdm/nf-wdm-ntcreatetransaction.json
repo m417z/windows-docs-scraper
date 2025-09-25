@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.NtCreateTransaction",
+  "title": "NtCreateTransaction function (wdm.h)",
+  "description": "The ZwCreateTransaction routine creates a transaction object.",
+  "old-location": "kernel\\zwcreatetransaction.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "NtCreateTransaction function"
+  ],
+  "ms.keywords": "NtCreateTransaction, ZwCreateTransaction, ZwCreateTransaction routine [Kernel-Mode Driver Architecture], kernel.zwcreatetransaction, ktm_ref_8f89322d-b0ef-4711-9f1a-5e83b44e3740.xml, wdm/NtCreateTransaction, wdm/ZwCreateTransaction",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NtCreateTransaction",
+    "wdm/NtCreateTransaction"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "NtCreateTransaction"
+  ]
+}

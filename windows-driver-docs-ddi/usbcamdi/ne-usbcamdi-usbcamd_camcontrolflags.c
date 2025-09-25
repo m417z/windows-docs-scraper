@@ -1,0 +1,6 @@
+typedef enum {
+  USBCAMD_CamControlFlag_NoVideoRawProcessing,
+  USBCAMD_CamControlFlag_NoStillRawProcessing,
+  USBCAMD_CamControlFlag_AssociatedFormat,
+  USBCAMD_CamControlFlag_EnableDeviceEvents
+} USBCAMD_CamControlFlags;

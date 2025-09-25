@@ -1,0 +1,3 @@
+typedef struct D3D12_FEATURE_DATA_D3D12_OPTIONS8 {
+  BOOL UnalignedBlockTexturesSupported;
+} D3D12_FEATURE_DATA_D3D12_OPTIONS8;

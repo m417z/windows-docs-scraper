@@ -1,0 +1,3 @@
+typedef union _WRDS_SETTING {
+  WRDS_SETTINGS_1 WRdsSettings1;
+} WRDS_SETTING, *PWRDS_SETTING;

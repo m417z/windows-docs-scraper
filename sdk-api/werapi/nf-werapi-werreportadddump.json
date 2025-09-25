@@ -1,0 +1,67 @@
+{
+  "UID": "NF:werapi.WerReportAddDump",
+  "title": "WerReportAddDump function (werapi.h)",
+  "description": "Adds a dump of the specified type to the specified Windows Error Reporting (WER) report.",
+  "helpviewer_keywords": [
+    "WER_DUMP_NOHEAP_ONQUEUE",
+    "WerDumpTypeHeapDump",
+    "WerDumpTypeMicroDump",
+    "WerDumpTypeMiniDump",
+    "WerReportAddDump",
+    "WerReportAddDump function [Windows Error Reporting]",
+    "base.werreportadddump",
+    "wer.werreportadddump",
+    "werapi/WerReportAddDump"
+  ],
+  "old-location": "wer\\werreportadddump.htm",
+  "tech.root": "wer",
+  "ms.assetid": "b40dac44-f7c5-43f0-876d-6f97c26bf461",
+  "ms.date": "07/25/2023",
+  "ms.keywords": "WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump, WerDumpTypeMiniDump, WerReportAddDump, WerReportAddDump function [Windows Error Reporting], base.werreportadddump, wer.werreportadddump, werapi/WerReportAddDump",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wer.lib",
+  "req.dll": "Wer.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerReportAddDump",
+    "werapi/WerReportAddDump"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wer-reporting-l1-1-3.dll",
+    "ext-ms-win-wer-reporting-l1-1-2.dll",
+    "Wer.dll",
+    "Ext-MS-Win-wer-reporting-l1-1-0.dll",
+    "errorhandlingext.dll",
+    "Ext-MS-Win-Wer-Reporting-L1-1-1.dll"
+  ],
+  "api_name": [
+    "WerReportAddDump"
+  ]
+}

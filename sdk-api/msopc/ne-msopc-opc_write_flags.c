@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_msopc_0000_0002_0005 {
+  OPC_WRITE_DEFAULT = 0,
+  OPC_WRITE_FORCE_ZIP32 = 0x1
+} OPC_WRITE_FLAGS;

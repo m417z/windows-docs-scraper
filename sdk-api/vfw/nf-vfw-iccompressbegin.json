@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.ICCompressBegin",
+  "title": "ICCompressBegin macro (vfw.h)",
+  "description": "The ICCompressBegin macro notifies a video compression driver to prepare to compress data. You can use this macro or explicitly call the ICM_COMPRESS_BEGIN message.",
+  "helpviewer_keywords": [
+    "ICCompressBegin",
+    "ICCompressBegin macro [Windows Multimedia]",
+    "_win32_ICCompressBegin",
+    "multimedia.iccompressbegin",
+    "vfw/ICCompressBegin"
+  ],
+  "old-location": "multimedia\\iccompressbegin.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "e09d3ac8-ead3-459c-a773-ffbe8198b40f",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "ICCompressBegin, ICCompressBegin macro [Windows Multimedia], _win32_ICCompressBegin, multimedia.iccompressbegin, vfw/ICCompressBegin",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICCompressBegin",
+    "vfw/ICCompressBegin"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "ICCompressBegin"
+  ]
+}

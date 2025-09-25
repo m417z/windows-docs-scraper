@@ -1,0 +1,6 @@
+DXGKCB_DISCONNECTDOORBELL DxgkcbDisconnectdoorbell;
+
+NTSTATUS DxgkcbDisconnectdoorbell(
+  INOUT_PDXGKARGCB_DISCONNECTDOORBELL pArgs
+)
+{...}

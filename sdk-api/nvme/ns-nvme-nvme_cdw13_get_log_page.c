@@ -1,0 +1,3 @@
+typedef struct {
+  ULONG LPOU;
+} NVME_CDW13_GET_LOG_PAGE, *PNVME_CDW13_GET_LOG_PAGE;

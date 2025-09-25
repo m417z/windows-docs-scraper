@@ -1,0 +1,61 @@
+{
+  "UID": "NF:werapi.WerRegisterCustomMetadata",
+  "title": "WerRegisterCustomMetadata function (werapi.h)",
+  "description": "Registers app-specific metadata to be collected (in the form of key/value strings) for the Windows Error Reporting (WER) error report.",
+  "helpviewer_keywords": [
+    "WerRegisterCustomMetadata",
+    "WerRegisterCustomMetadata function [Windows Error Reporting]",
+    "wer.werregistercustommetadata",
+    "werapi/WerRegisterCustomMetadata"
+  ],
+  "old-location": "wer\\werregistercustommetadata.htm",
+  "tech.root": "wer",
+  "ms.assetid": "55FB3110-314A-4327-AA8F-3AF77B7006DD",
+  "ms.date": "07/25/2023",
+  "ms.keywords": "WerRegisterCustomMetadata, WerRegisterCustomMetadata function [Windows Error Reporting], wer.werregistercustommetadata, werapi/WerRegisterCustomMetadata",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerRegisterCustomMetadata",
+    "werapi/WerRegisterCustomMetadata"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-1.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerRegisterCustomMetadata"
+  ]
+}

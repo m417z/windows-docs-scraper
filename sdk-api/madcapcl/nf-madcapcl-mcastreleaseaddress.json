@@ -1,0 +1,58 @@
+{
+  "UID": "NF:madcapcl.McastReleaseAddress",
+  "title": "McastReleaseAddress function (madcapcl.h)",
+  "description": "The McastReleaseAddress function releases leased multicast addresses from the MCAST server.",
+  "helpviewer_keywords": [
+    "McastReleaseAddress",
+    "McastReleaseAddress function [MADCAP]",
+    "_mdhcp_mcastreleaseaddress",
+    "madcap.mcastreleaseaddress",
+    "madcapcl/McastReleaseAddress"
+  ],
+  "old-location": "madcap\\mcastreleaseaddress.htm",
+  "tech.root": "Madcap",
+  "ms.assetid": "6cb87e3b-0d2e-46f8-8ccf-6309c8fb888c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "McastReleaseAddress, McastReleaseAddress function [MADCAP], _mdhcp_mcastreleaseaddress, madcap.mcastreleaseaddress, madcapcl/McastReleaseAddress",
+  "req.header": "madcapcl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpcsvc.lib",
+  "req.dll": "Dhcpcsvc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "McastReleaseAddress",
+    "madcapcl/McastReleaseAddress"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpcsvc.dll"
+  ],
+  "api_name": [
+    "McastReleaseAddress"
+  ]
+}

@@ -1,0 +1,3 @@
+int GetPixelFormat(
+  HDC hdc
+);

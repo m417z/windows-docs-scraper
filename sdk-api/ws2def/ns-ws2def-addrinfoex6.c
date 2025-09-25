@@ -1,0 +1,21 @@
+typedef struct addrinfoex6 {
+  int                 ai_flags;
+  int                 ai_family;
+  int                 ai_socktype;
+  int                 ai_protocol;
+  size_t              ai_addrlen;
+  PWSTR               ai_canonname;
+  struct sockaddr     *ai_addr;
+  void                *ai_blob;
+  size_t              ai_bloblen;
+  GUID                *ai_provider;
+  struct addrinfoex5  *ai_next;
+  int                 ai_version;
+  PWSTR               ai_fqdn;
+  int                 ai_interfaceindex;
+  HANDLE              ai_resolutionhandle;
+  unsigned int        ai_ttl;
+  unsigned int        ai_numservers;
+  ADDRINFO_DNS_SERVER *ai_servers;
+  ULONG64             ai_responseflags;
+} ADDRINFOEX6, *PADDRINFOEX6;

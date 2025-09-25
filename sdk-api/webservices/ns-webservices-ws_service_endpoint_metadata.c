@@ -1,0 +1,5 @@
+typedef struct _WS_SERVICE_ENDPOINT_METADATA {
+  WS_XML_STRING *portName;
+  WS_XML_STRING *bindingName;
+  WS_XML_STRING *bindingNs;
+} WS_SERVICE_ENDPOINT_METADATA;

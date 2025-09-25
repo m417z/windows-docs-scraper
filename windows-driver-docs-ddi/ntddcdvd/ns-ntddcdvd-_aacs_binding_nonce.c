@@ -1,0 +1,4 @@
+typedef struct _AACS_BINDING_NONCE {
+  UCHAR BindingNonce[16];
+  UCHAR MAC[16];
+} AACS_BINDING_NONCE, *PAACS_BINDING_NONCE;

@@ -1,0 +1,12 @@
+typedef struct _WWAN_LTE_SERVING_CELL_INFO {
+  ULONG ProviderIdOffset;
+  ULONG ProviderIdSize;
+  ULONG CellId;
+  ULONG EARFCN;
+  ULONG PhysicalCellId;
+  ULONG TAC;
+  ULONG RSRP;
+  ULONG RSRQ;
+  ULONG TimingAdvance;
+  BYTE  Data[ANYSIZE_ARRAY];
+} WWAN_LTE_SERVING_CELL_INFO, *PWWAN_LTE_SERVING_CELL_INFO;

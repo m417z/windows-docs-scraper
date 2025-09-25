@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IOverlay.Unadvise",
+  "title": "IOverlay::Unadvise (strmif.h)",
+  "description": "The Unadvise method terminates the advise link established with the IOverlayNotify interface.",
+  "helpviewer_keywords": [
+    "IOverlay interface [DirectShow]",
+    "Unadvise method",
+    "IOverlay.Unadvise",
+    "IOverlay::Unadvise",
+    "IOverlayUnadvise",
+    "Unadvise",
+    "Unadvise method [DirectShow]",
+    "Unadvise method [DirectShow]",
+    "IOverlay interface",
+    "dshow.ioverlay_unadvise",
+    "strmif/IOverlay::Unadvise"
+  ],
+  "old-location": "dshow\\ioverlay_unadvise.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "da987152-d5cd-42c5-848a-6d70ad25ca33",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IOverlay interface [DirectShow],Unadvise method, IOverlay.Unadvise, IOverlay::Unadvise, IOverlayUnadvise, Unadvise, Unadvise method [DirectShow], Unadvise method [DirectShow],IOverlay interface, dshow.ioverlay_unadvise, strmif/IOverlay::Unadvise",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOverlay::Unadvise",
+    "strmif/IOverlay::Unadvise"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IOverlay.Unadvise"
+  ]
+}

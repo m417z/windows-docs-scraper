@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoWMIOpenBlock",
+  "title": "IoWMIOpenBlock function (wdm.h)",
+  "description": "The IoWMIOpenBlock routine opens the WMI data block object for the specified WMI class.",
+  "old-location": "kernel\\iowmiopenblock.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoWMIOpenBlock function"
+  ],
+  "ms.keywords": "IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, wdm/IoWMIOpenBlock",
+  "req.header": "wdm.h",
+  "req.include-header": "Ntddk.h, Ntifs.h. The WMIGUID_XXX values are declared in Wmistr.h. To use them, include Wmistr.h.",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoWMIOpenBlock",
+    "wdm/IoWMIOpenBlock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoWMIOpenBlock"
+  ]
+}

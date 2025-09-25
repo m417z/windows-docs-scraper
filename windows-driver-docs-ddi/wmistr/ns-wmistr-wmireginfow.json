@@ -1,0 +1,51 @@
+{
+  "UID": "NS:wmistr.WMIREGINFOW",
+  "title": "WMIREGINFOW (wmistr.h)",
+  "description": "The WMIREGINFO structure contains information provided by a driver to register or update its data blocks and event blocks.",
+  "old-location": "kernel\\wmireginfo.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WMIREGINFOW structure"
+  ],
+  "ms.keywords": "*PWMIREGINFOW, PWMIREGINFOW, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], WMIREGINFO, WMIREGINFOW, WMIREGINFOW structure [Kernel-Mode Driver Architecture], kernel.wmireginfo, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, wmistr/PWMIREGINFOW, wmistr/WMIREGINFOW",
+  "req.header": "wmistr.h",
+  "req.include-header": "Wmistr.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WMIREGINFOW, *PWMIREGINFOW",
+  "f1_keywords": [
+    "PWMIREGINFOW",
+    "wmistr/PWMIREGINFOW",
+    "WMIREGINFOW",
+    "wmistr/WMIREGINFOW"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wmistr.h"
+  ],
+  "api_name": [
+    "PWMIREGINFOW",
+    "WMIREGINFOW"
+  ]
+}

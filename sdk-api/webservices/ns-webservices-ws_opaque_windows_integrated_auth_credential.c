@@ -1,0 +1,4 @@
+typedef struct _WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL {
+  WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL credential;
+  void                                  *opaqueAuthIdentity;
+} WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL;

@@ -1,0 +1,7 @@
+typedef struct _STORAGE_DEVICE_UNIQUE_IDENTIFIER {
+  ULONG Version;
+  ULONG Size;
+  ULONG StorageDeviceIdOffset;
+  ULONG StorageDeviceOffset;
+  ULONG DriveLayoutSignatureOffset;
+} STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER;

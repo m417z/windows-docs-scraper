@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capGetUserData",
+  "title": "capGetUserData macro (vfw.h)",
+  "description": "The capGetUserData macro retrieves a LONG_PTR data value associated with a capture window. You can use this macro or explicitly call the WM_CAP_GET_USER_DATA message.",
+  "helpviewer_keywords": [
+    "_win32_capGetUserData",
+    "capGetUserData",
+    "capGetUserData macro [Windows Multimedia]",
+    "multimedia.capgetuserdata",
+    "vfw/capGetUserData"
+  ],
+  "old-location": "multimedia\\capgetuserdata.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "a71afead-9beb-48d0-9e7f-d948e0fe276f",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capGetUserData, capGetUserData, capGetUserData macro [Windows Multimedia], multimedia.capgetuserdata, vfw/capGetUserData",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capGetUserData",
+    "vfw/capGetUserData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capGetUserData"
+  ]
+}

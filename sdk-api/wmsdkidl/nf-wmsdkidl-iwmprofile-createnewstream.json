@@ -1,0 +1,82 @@
+{
+  "UID": "NF:wmsdkidl.IWMProfile.CreateNewStream",
+  "title": "IWMProfile::CreateNewStream (wmsdkidl.h)",
+  "description": "The CreateNewStream method creates a stream configuration object. You can use a stream configuration object to define the characteristics of a media stream.",
+  "helpviewer_keywords": [
+    "CreateNewStream",
+    "CreateNewStream method [windows Media Format]",
+    "CreateNewStream method [windows Media Format]",
+    "IWMProfile interface",
+    "CreateNewStream method [windows Media Format]",
+    "IWMProfile2 interface",
+    "CreateNewStream method [windows Media Format]",
+    "IWMProfile3 interface",
+    "IWMProfile interface [windows Media Format]",
+    "CreateNewStream method",
+    "IWMProfile.CreateNewStream",
+    "IWMProfile2 interface [windows Media Format]",
+    "CreateNewStream method",
+    "IWMProfile2::CreateNewStream",
+    "IWMProfile3 interface [windows Media Format]",
+    "CreateNewStream method",
+    "IWMProfile3::CreateNewStream",
+    "IWMProfile::CreateNewStream",
+    "IWMProfileCreateNewStream",
+    "wmformat.iwmprofile_createnewstream",
+    "wmsdkidl/IWMProfile2::CreateNewStream",
+    "wmsdkidl/IWMProfile3::CreateNewStream",
+    "wmsdkidl/IWMProfile::CreateNewStream"
+  ],
+  "old-location": "wmformat\\iwmprofile_createnewstream.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "4a1478ff-00fb-46e2-97a3-e00e9c1b819a",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "CreateNewStream, CreateNewStream method [windows Media Format], CreateNewStream method [windows Media Format],IWMProfile interface, CreateNewStream method [windows Media Format],IWMProfile2 interface, CreateNewStream method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewStream method, IWMProfile.CreateNewStream, IWMProfile2 interface [windows Media Format],CreateNewStream method, IWMProfile2::CreateNewStream, IWMProfile3 interface [windows Media Format],CreateNewStream method, IWMProfile3::CreateNewStream, IWMProfile::CreateNewStream, IWMProfileCreateNewStream, wmformat.iwmprofile_createnewstream, wmsdkidl/IWMProfile2::CreateNewStream, wmsdkidl/IWMProfile3::CreateNewStream, wmsdkidl/IWMProfile::CreateNewStream",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProfile::CreateNewStream",
+    "wmsdkidl/IWMProfile::CreateNewStream"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll",
+    "qasf.dll"
+  ],
+  "api_name": [
+    "IWMProfile.CreateNewStream",
+    "IWMProfile2.CreateNewStream",
+    "IWMProfile3.CreateNewStream"
+  ]
+}

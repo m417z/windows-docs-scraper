@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2WINFO {
+  D3DVALUE dvWNear;
+  D3DVALUE dvWFar;
+} D3DHAL_DP2WINFO;

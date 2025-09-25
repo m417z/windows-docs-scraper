@@ -1,0 +1,54 @@
+{
+  "UID": "NE:ntddcdrm._EXCLUSIVE_ACCESS_REQUEST_TYPE",
+  "title": "_EXCLUSIVE_ACCESS_REQUEST_TYPE (ntddcdrm.h)",
+  "description": "The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used to report the exclusive access state of a CD-ROM device.",
+  "old-location": "storage\\exclusive_access_request_type.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration"
+  ],
+  "ms.keywords": "*PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], ExclusiveAccessLockDevice, ExclusiveAccessQueryState, ExclusiveAccessUnlockDevice, PEXCLUSIVE_ACCESS_REQUEST_TYPE, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices], _EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/ExclusiveAccessLockDevice, ntddcdrm/ExclusiveAccessQueryState, ntddcdrm/ExclusiveAccessUnlockDevice, ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, storage.exclusive_access_request_type, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml",
+  "req.header": "ntddcdrm.h",
+  "req.include-header": "Ntddcdrm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE",
+  "f1_keywords": [
+    "_EXCLUSIVE_ACCESS_REQUEST_TYPE",
+    "ntddcdrm/_EXCLUSIVE_ACCESS_REQUEST_TYPE",
+    "PEXCLUSIVE_ACCESS_REQUEST_TYPE",
+    "ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE",
+    "EXCLUSIVE_ACCESS_REQUEST_TYPE",
+    "ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddcdrm.h"
+  ],
+  "api_name": [
+    "_EXCLUSIVE_ACCESS_REQUEST_TYPE",
+    "PEXCLUSIVE_ACCESS_REQUEST_TYPE",
+    "EXCLUSIVE_ACCESS_REQUEST_TYPE"
+  ]
+}

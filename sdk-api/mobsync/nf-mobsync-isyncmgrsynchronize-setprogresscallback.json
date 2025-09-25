@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mobsync.ISyncMgrSynchronize.SetProgressCallback",
+  "title": "ISyncMgrSynchronize::SetProgressCallback (mobsync.h)",
+  "description": "Sets the ISyncMgrSynchronizeCallback interface. Registered applications use this callback interface to give status information from within the ISyncMgrSynchronize::PrepareForSync and ISyncMgrSynchronize::Synchronize methods.",
+  "helpviewer_keywords": [
+    "ISyncMgrSynchronize interface [Windows Shell]",
+    "SetProgressCallback method",
+    "ISyncMgrSynchronize.SetProgressCallback",
+    "ISyncMgrSynchronize::SetProgressCallback",
+    "SetProgressCallback",
+    "SetProgressCallback method [Windows Shell]",
+    "SetProgressCallback method [Windows Shell]",
+    "ISyncMgrSynchronize interface",
+    "mobsync/ISyncMgrSynchronize::SetProgressCallback",
+    "shell.syncmgr_isyncmgrsynchronize_setprogresscallback",
+    "syncmgr.isyncmgrsynchronize_setprogresscallback"
+  ],
+  "old-location": "shell\\syncmgr_isyncmgrsynchronize_setprogresscallback.htm",
+  "tech.root": "shell",
+  "ms.assetid": "193926e8-824c-4969-9707-e2d95961c242",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ISyncMgrSynchronize interface [Windows Shell],SetProgressCallback method, ISyncMgrSynchronize.SetProgressCallback, ISyncMgrSynchronize::SetProgressCallback, SetProgressCallback, SetProgressCallback method [Windows Shell], SetProgressCallback method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetProgressCallback, shell.syncmgr_isyncmgrsynchronize_setprogresscallback, syncmgr.isyncmgrsynchronize_setprogresscallback",
+  "req.header": "mobsync.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Mobsync.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ISyncMgrSynchronize::SetProgressCallback",
+    "mobsync/ISyncMgrSynchronize::SetProgressCallback"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Mobsync.dll"
+  ],
+  "api_name": [
+    "ISyncMgrSynchronize.SetProgressCallback"
+  ]
+}

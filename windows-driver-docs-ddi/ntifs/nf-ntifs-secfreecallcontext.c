@@ -1,0 +1,1 @@
+VOID SEC_ENTRY SecFreeCallContext();

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._NDIS_SWITCH_OPTIONAL_HANDLERS",
+  "title": "_NDIS_SWITCH_OPTIONAL_HANDLERS (ndis.h)",
+  "description": "The NDIS_SWITCH_OPTIONAL_HANDLERS structure specifies the pointers to the Hyper-V extensible switch handler functions. These functions can be called by an extensible switch extension.",
+  "old-location": "netvista\\ndis_switch_optional_handlers.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_SWITCH_OPTIONAL_HANDLERS structure"
+  ],
+  "ms.keywords": "*PNDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_OPTIONAL_HANDLERS, PNDIS_SWITCH_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_OPTIONAL_HANDLERS, ndis/NDIS_SWITCH_OPTIONAL_HANDLERS, ndis/PNDIS_SWITCH_OPTIONAL_HANDLERS, netvista.ndis_switch_optional_handlers",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_SWITCH_OPTIONAL_HANDLERS, *PNDIS_SWITCH_OPTIONAL_HANDLERS",
+  "f1_keywords": [
+    "_NDIS_SWITCH_OPTIONAL_HANDLERS",
+    "ndis/_NDIS_SWITCH_OPTIONAL_HANDLERS",
+    "PNDIS_SWITCH_OPTIONAL_HANDLERS",
+    "ndis/PNDIS_SWITCH_OPTIONAL_HANDLERS",
+    "NDIS_SWITCH_OPTIONAL_HANDLERS",
+    "ndis/NDIS_SWITCH_OPTIONAL_HANDLERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "_NDIS_SWITCH_OPTIONAL_HANDLERS",
+    "PNDIS_SWITCH_OPTIONAL_HANDLERS",
+    "NDIS_SWITCH_OPTIONAL_HANDLERS"
+  ]
+}

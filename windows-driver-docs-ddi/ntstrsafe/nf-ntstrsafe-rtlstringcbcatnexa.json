@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntstrsafe.RtlStringCbCatNExA",
+  "title": "RtlStringCbCatNExA function (ntstrsafe.h)",
+  "description": "The RtlStringCbCatNExW and RtlStringCbCatNExA functions concatenate two byte-counted strings while limiting the size of the appended string.",
+  "old-location": "kernel\\rtlstringcbcatnex.htm",
+  "tech.root": "kernel",
+  "ms.date": "08/26/2022",
+  "keywords": [
+    "RtlStringCbCatNExA function"
+  ],
+  "ms.keywords": "RtlStringCbCatNEx, RtlStringCbCatNExA, RtlStringCbCatNExW, RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcatnex, ntstrsafe/RtlStringCbCatNExA, ntstrsafe/RtlStringCbCatNExW, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml",
+  "req.header": "ntstrsafe.h",
+  "req.include-header": "Ntstrsafe.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RtlStringCbCatNExW (Unicode) and RtlStringCbCatNExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "Any if strings being manipulated are always resident in memory, otherwise PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlStringCbCatNExA",
+    "ntstrsafe/RtlStringCbCatNExA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "RtlStringCbCatNExA"
+  ]
+}

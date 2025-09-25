@@ -1,0 +1,6 @@
+PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE PfnD3dkmtOpenKeyedMutexFromNtHandle;
+
+NTSTATUS PfnD3dkmtOpenKeyedMutexFromNtHandle(
+    D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE *unnamedParam1
+)
+{...}

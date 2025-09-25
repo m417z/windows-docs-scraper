@@ -1,0 +1,49 @@
+{
+  "UID": "NF:srb.ScsiPortLogError",
+  "title": "ScsiPortLogError function (srb.h)",
+  "description": "The ScsiPortLogError routine logs errors to the system event log when a miniport driver or its HBA detects a SCSI error condition.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.",
+  "old-location": "storage\\scsiportlogerror.htm",
+  "tech.root": "storage",
+  "ms.date": "08/31/2022",
+  "keywords": [
+    "ScsiPortLogError function"
+  ],
+  "ms.keywords": "ScsiPortLogError, ScsiPortLogError routine [Storage Devices], scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, srb/ScsiPortLogError, storage.scsiportlogerror",
+  "req.header": "srb.h",
+  "req.include-header": "Miniport.h, Scsi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scsiport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ScsiPortLogError",
+    "srb/ScsiPortLogError"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Scsiport.lib",
+    "Scsiport.dll"
+  ],
+  "api_name": [
+    "ScsiPortLogError"
+  ]
+}

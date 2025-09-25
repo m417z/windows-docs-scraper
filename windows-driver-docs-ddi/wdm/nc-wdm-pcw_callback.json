@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.PCW_CALLBACK",
+  "title": "PCW_CALLBACK (wdm.h)",
+  "description": "Providers can implement a PCW_CALLBACK function to receive notification when consumers perform certain actions, such as adding or removing counters from a query.",
+  "tech.root": "devtest",
+  "ms.date": "01/11/2023",
+  "keywords": [
+    "PCW_CALLBACK callback function"
+  ],
+  "ms.keywords": "PCW_CALLBACK, PCW_CALLBACK callback, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "IRQL <=APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PCW_CALLBACK",
+    "wdm/PCW_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PCW_CALLBACK"
+  ]
+}

@@ -1,0 +1,3 @@
+LONG lineClose(
+  HLINE hLine
+);

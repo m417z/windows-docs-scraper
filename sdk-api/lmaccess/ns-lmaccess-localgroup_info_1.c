@@ -1,0 +1,4 @@
+typedef struct _LOCALGROUP_INFO_1 {
+  LPWSTR lgrpi1_name;
+  LPWSTR lgrpi1_comment;
+} LOCALGROUP_INFO_1, *PLOCALGROUP_INFO_1, *LPLOCALGROUP_INFO_1;

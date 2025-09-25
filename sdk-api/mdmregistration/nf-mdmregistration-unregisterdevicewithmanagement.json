@@ -1,0 +1,57 @@
+{
+  "UID": "NF:mdmregistration.UnregisterDeviceWithManagement",
+  "title": "UnregisterDeviceWithManagement function (mdmregistration.h)",
+  "description": "Unregisters a device with the MDM service.",
+  "helpviewer_keywords": [
+    "UnregisterDeviceWithManagement",
+    "UnregisterDeviceWithManagement function [MDM Registration]",
+    "mdmreg.unregisterdevicewithmanagement",
+    "mdmregistration/UnregisterDeviceWithManagement"
+  ],
+  "old-location": "mdmreg\\unregisterdevicewithmanagement.htm",
+  "tech.root": "MDMReg",
+  "ms.assetid": "4095197d-40c9-4f51-b28f-fd2fd6d0bba2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "UnregisterDeviceWithManagement, UnregisterDeviceWithManagement function [MDM Registration], mdmreg.unregisterdevicewithmanagement, mdmregistration/UnregisterDeviceWithManagement",
+  "req.header": "mdmregistration.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "MDMRegistration.lib",
+  "req.dll": "MDMRegistration.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "UnregisterDeviceWithManagement",
+    "mdmregistration/UnregisterDeviceWithManagement"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "MDMRegistration.dll"
+  ],
+  "api_name": [
+    "UnregisterDeviceWithManagement"
+  ]
+}

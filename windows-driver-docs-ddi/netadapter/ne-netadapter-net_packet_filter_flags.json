@@ -1,0 +1,41 @@
+{
+  "UID": "NE:netadapter._NET_PACKET_FILTER_FLAGS",
+  "tech.root": "netvista",
+  "title": "NET_PACKET_FILTER_FLAGS",
+  "ms.date": "03/30/2022",
+  "targetos": "Windows",
+  "description": "NET_PACKET_FILTER_FLAGS describe a network adapter's receive packet filters.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "netadapter.h",
+  "req.include-header": "netadaptercx.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": 2.33,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netadapter.h"
+  ],
+  "api_name": [
+    "_NET_PACKET_FILTER_FLAGS",
+    "NET_PACKET_FILTER_FLAGS"
+  ],
+  "f1_keywords": [
+    "_NET_PACKET_FILTER_FLAGS",
+    "netadapter/_NET_PACKET_FILTER_FLAGS",
+    "NET_PACKET_FILTER_FLAGS",
+    "netadapter/NET_PACKET_FILTER_FLAGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

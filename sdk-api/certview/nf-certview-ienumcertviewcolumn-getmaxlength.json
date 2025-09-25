@@ -1,0 +1,65 @@
+{
+  "UID": "NF:certview.IEnumCERTVIEWCOLUMN.GetMaxLength",
+  "title": "IEnumCERTVIEWCOLUMN::GetMaxLength (certview.h)",
+  "description": "Retrieves the maximum allowable length, in bytes, for the column data.",
+  "helpviewer_keywords": [
+    "GetMaxLength",
+    "GetMaxLength method [Security]",
+    "GetMaxLength method [Security]",
+    "IEnumCERTVIEWCOLUMN interface",
+    "IEnumCERTVIEWCOLUMN interface [Security]",
+    "GetMaxLength method",
+    "IEnumCERTVIEWCOLUMN.GetMaxLength",
+    "IEnumCERTVIEWCOLUMN::GetMaxLength",
+    "_certsrv_ienumcertviewcolumn_getmaxlength",
+    "certview/IEnumCERTVIEWCOLUMN::GetMaxLength",
+    "security.ienumcertviewcolumn_getmaxlength"
+  ],
+  "old-location": "security\\ienumcertviewcolumn_getmaxlength.htm",
+  "tech.root": "security",
+  "ms.assetid": "20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMaxLength, GetMaxLength method [Security], GetMaxLength method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetMaxLength method, IEnumCERTVIEWCOLUMN.GetMaxLength, IEnumCERTVIEWCOLUMN::GetMaxLength, _certsrv_ienumcertviewcolumn_getmaxlength, certview/IEnumCERTVIEWCOLUMN::GetMaxLength, security.ienumcertviewcolumn_getmaxlength",
+  "req.header": "certview.h",
+  "req.include-header": "Certsrv.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Certidl.lib",
+  "req.dll": "Certadm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IEnumCERTVIEWCOLUMN::GetMaxLength",
+    "certview/IEnumCERTVIEWCOLUMN::GetMaxLength"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certadm.dll"
+  ],
+  "api_name": [
+    "IEnumCERTVIEWCOLUMN.GetMaxLength",
+    "IEnumCERTVIEWCOLUMN.GetMaxLength"
+  ]
+}

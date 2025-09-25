@@ -1,0 +1,57 @@
+{
+  "UID": "NS:cfapi.CF_PLATFORM_INFO",
+  "title": "CF_PLATFORM_INFO (cfapi.h)",
+  "description": "Returns information for the cloud files platform. This is intended for sync providers running on multiple versions of Windows.",
+  "helpviewer_keywords": [
+    "CF_PLATFORM_INFO",
+    "CF_PLATFORM_INFO structure",
+    "cfapi/CF_PLATFORM_INFO",
+    "cloudApi.cf_platform_info"
+  ],
+  "old-location": "cloudapi\\cf_platform_info.htm",
+  "tech.root": "cloudapi",
+  "ms.assetid": "BEB1CBF0-05FB-4D48-AC43-AA957F2208DB",
+  "ms.date": "04/04/2023",
+  "ms.keywords": "CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INFO, cloudApi.cf_platform_info",
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CF_PLATFORM_INFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CF_PLATFORM_INFO",
+    "cfapi/CF_PLATFORM_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "CfApi.h"
+  ],
+  "api_name": [
+    "CF_PLATFORM_INFO"
+  ]
+}

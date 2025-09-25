@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.DebugCreateEx",
+  "title": "DebugCreateEx function (dbgeng.h)",
+  "description": "The DebugCreateEx function creates a new client object and returns an interface pointer to it.",
+  "old-location": "debugger\\debugcreateex.htm",
+  "tech.root": "debugger",
+  "ms.date": "02/06/2022",
+  "keywords": [
+    "DebugCreateEx function"
+  ],
+  "ms.keywords": "DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DebugCreateEx",
+    "dbgeng/DebugCreateEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dbgeng.dll"
+  ],
+  "api_name": [
+    "DebugCreateEx"
+  ]
+}

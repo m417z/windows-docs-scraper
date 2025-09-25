@@ -1,0 +1,4 @@
+typedef struct _STARTUPINFOEXW {
+  STARTUPINFOW                 StartupInfo;
+  LPPROC_THREAD_ATTRIBUTE_LIST lpAttributeList;
+} STARTUPINFOEXW, *LPSTARTUPINFOEXW;

@@ -1,0 +1,20 @@
+typedef struct {
+  DWORD                      dwStructSize;
+  SCARDCONTEXT               hSCardContext;
+  HWND                       hwndOwner;
+  DWORD                      dwFlags;
+  LPCWSTR                    lpstrTitle;
+  LPCWSTR                    lpstrSearchDesc;
+  HICON                      hIcon;
+  POPENCARD_SEARCH_CRITERIAW pOpenCardSearchCriteria;
+  LPOCNCONNPROCW             lpfnConnect;
+  LPVOID                     pvUserData;
+  DWORD                      dwShareMode;
+  DWORD                      dwPreferredProtocols;
+  LPWSTR                     lpstrRdr;
+  DWORD                      nMaxRdr;
+  LPWSTR                     lpstrCard;
+  DWORD                      nMaxCard;
+  DWORD                      dwActiveProtocol;
+  SCARDHANDLE                hCardHandle;
+} OPENCARDNAME_EXW, *POPENCARDNAME_EXW, *LPOPENCARDNAME_EXW;

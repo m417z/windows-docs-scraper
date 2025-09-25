@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wsk.PFN_WSK_INSPECT_COMPLETE",
+  "title": "PFN_WSK_INSPECT_COMPLETE (wsk.h)",
+  "description": "The WskInspectComplete function completes the inspection of a previously pended incoming connection request that was received on a listening socket that has conditional accept mode enabled.",
+  "old-location": "netvista\\wskinspectcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PFN_WSK_INSPECT_COMPLETE callback function"
+  ],
+  "ms.keywords": "PFN_WSK_INSPECT_COMPLETE, PFN_WSK_INSPECT_COMPLETE callback, WskInspectComplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectcomplete, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_WSK_INSPECT_COMPLETE",
+    "wsk/PFN_WSK_INSPECT_COMPLETE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wsk.h"
+  ],
+  "api_name": [
+    "PFN_WSK_INSPECT_COMPLETE"
+  ]
+}

@@ -1,0 +1,4 @@
+void GetRaytracingAccelerationStructurePrebuildInfo(
+  [in]  const D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS *pDesc,
+  [out] D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO      *pInfo
+);

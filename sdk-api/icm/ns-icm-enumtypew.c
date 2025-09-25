@@ -1,0 +1,22 @@
+typedef struct tagENUMTYPEW {
+  DWORD  dwSize;
+  DWORD  dwVersion;
+  DWORD  dwFields;
+  PCWSTR pDeviceName;
+  DWORD  dwMediaType;
+  DWORD  dwDitheringMode;
+  DWORD  dwResolution[2];
+  DWORD  dwCMMType;
+  DWORD  dwClass;
+  DWORD  dwDataColorSpace;
+  DWORD  dwConnectionSpace;
+  DWORD  dwSignature;
+  DWORD  dwPlatform;
+  DWORD  dwProfileFlags;
+  DWORD  dwManufacturer;
+  DWORD  dwModel;
+  DWORD  dwAttributes[2];
+  DWORD  dwRenderingIntent;
+  DWORD  dwCreator;
+  DWORD  dwDeviceClass;
+} ENUMTYPEW, *PENUMTYPEW, *LPENUMTYPEW;

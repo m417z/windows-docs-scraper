@@ -1,0 +1,3 @@
+HCURSOR CopyCursor(
+  [in] pcur
+);

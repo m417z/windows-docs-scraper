@@ -1,0 +1,3 @@
+HRESULT SetChar(
+  long Char
+);

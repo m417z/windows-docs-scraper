@@ -1,0 +1,4 @@
+typedef struct tagAPPLETIDLIST {
+  INT count;
+  IID *pIIDList;
+} APPLETIDLIST, *LPAPPLETIDLIST;

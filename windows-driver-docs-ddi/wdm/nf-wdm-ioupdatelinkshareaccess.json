@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.IoUpdateLinkShareAccess",
+  "title": "IoUpdateLinkShareAccess function (wdm.h)",
+  "description": "The IoUpdateLinkShareAccess routine updates the share access for the given file object, usually when the file is being opened.",
+  "old-location": "kernel\\ioupdatelinkshareaccess.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoUpdateLinkShareAccess function"
+  ],
+  "ms.keywords": "IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IoUpdateLinkShareAccess",
+    "wdm/IoUpdateLinkShareAccess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoUpdateLinkShareAccess"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT CleanupFile(
+  IWDFFile *pWdfFile
+);

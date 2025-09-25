@@ -1,0 +1,57 @@
+{
+  "UID": "NF:netioapi.GetMulticastIpAddressEntry",
+  "title": "GetMulticastIpAddressEntry function (netioapi.h)",
+  "description": "Retrieves information for an existing multicast IP address entry on the local computer.",
+  "helpviewer_keywords": [
+    "GetMulticastIpAddressEntry",
+    "GetMulticastIpAddressEntry function [IP Helper]",
+    "iphlp.getmulticastipaddressentry",
+    "netioapi/GetMulticastIpAddressEntry"
+  ],
+  "old-location": "iphlp\\getmulticastipaddressentry.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "dc6401b6-7692-44a5-b2f0-4e729b996765",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetMulticastIpAddressEntry, GetMulticastIpAddressEntry function [IP Helper], iphlp.getmulticastipaddressentry, netioapi/GetMulticastIpAddressEntry",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetMulticastIpAddressEntry",
+    "netioapi/GetMulticastIpAddressEntry"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "GetMulticastIpAddressEntry"
+  ]
+}

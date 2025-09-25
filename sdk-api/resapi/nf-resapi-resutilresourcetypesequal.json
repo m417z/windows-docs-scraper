@@ -1,0 +1,62 @@
+{
+  "UID": "NF:resapi.ResUtilResourceTypesEqual",
+  "title": "ResUtilResourceTypesEqual function (resapi.h)",
+  "description": "Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_RESOURCE_TYPES_EQUAL",
+    "PRESUTIL_RESOURCE_TYPES_EQUAL function [Failover Cluster]",
+    "ResUtilResourceTypesEqual",
+    "ResUtilResourceTypesEqual function [Failover Cluster]",
+    "_wolf_resutilresourcetypesequal",
+    "mscs.resutilresourcetypesequal",
+    "resapi/PRESUTIL_RESOURCE_TYPES_EQUAL",
+    "resapi/ResUtilResourceTypesEqual"
+  ],
+  "old-location": "mscs\\resutilresourcetypesequal.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "716d2174-5fa7-4868-9f33-ab6f815e6335",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL function [Failover Cluster], ResUtilResourceTypesEqual, ResUtilResourceTypesEqual function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL, resapi/ResUtilResourceTypesEqual",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilResourceTypesEqual",
+    "resapi/ResUtilResourceTypesEqual"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilResourceTypesEqual"
+  ]
+}

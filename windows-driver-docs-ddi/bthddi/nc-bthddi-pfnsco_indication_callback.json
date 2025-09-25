@@ -1,0 +1,48 @@
+{
+  "UID": "NC:bthddi.PFNSCO_INDICATION_CALLBACK",
+  "title": "PFNSCO_INDICATION_CALLBACK (bthddi.h)",
+  "description": "Profile drivers implement a SCO callback function to provide the Bluetooth driver stack with a mechanism to notify the profile driver about incoming SCO connection requests from remote devices, and any changes to the status of a currently open SCO connection.",
+  "old-location": "bltooth\\sco_callback_function.htm",
+  "tech.root": "bltooth",
+  "ms.date": "04/27/2018",
+  "keywords": [
+    "PFNSCO_INDICATION_CALLBACK callback function"
+  ],
+  "ms.keywords": "PFNSCO_INDICATION_CALLBACK, PFNSCO_INDICATION_CALLBACK callback, SCOIndicationCallback, SCOIndicationCallback callback function [Bluetooth Devices], bltooth.sco_callback_function, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml, bthddi/SCOIndicationCallback",
+  "req.header": "bthddi.h",
+  "req.include-header": "Bthddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Versions:\\_Supported in Windows Vista, and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNSCO_INDICATION_CALLBACK",
+    "bthddi/PFNSCO_INDICATION_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "bthddi.h"
+  ],
+  "api_name": [
+    "PFNSCO_INDICATION_CALLBACK"
+  ]
+}

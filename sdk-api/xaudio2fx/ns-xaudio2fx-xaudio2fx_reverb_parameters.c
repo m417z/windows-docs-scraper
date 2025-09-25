@@ -1,0 +1,26 @@
+typedef struct XAUDIO2FX_REVERB_PARAMETERS {
+  float  WetDryMix;
+  UINT32 ReflectionsDelay;
+  BYTE   ReverbDelay;
+  BYTE   RearDelay;
+  BYTE   SideDelay;
+  BYTE   PositionLeft;
+  BYTE   PositionRight;
+  BYTE   PositionMatrixLeft;
+  BYTE   PositionMatrixRight;
+  BYTE   EarlyDiffusion;
+  BYTE   LateDiffusion;
+  BYTE   LowEQGain;
+  BYTE   LowEQCutoff;
+  BYTE   HighEQGain;
+  BYTE   HighEQCutoff;
+  float  RoomFilterFreq;
+  float  RoomFilterMain;
+  float  RoomFilterHF;
+  float  ReflectionsGain;
+  float  ReverbGain;
+  float  DecayTime;
+  float  Density;
+  float  RoomSize;
+  BOOL   DisableLateField;
+} XAUDIO2FX_REVERB_PARAMETERS;

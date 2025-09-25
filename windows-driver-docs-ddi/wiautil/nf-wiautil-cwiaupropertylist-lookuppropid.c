@@ -1,0 +1,3 @@
+INT LookupPropId(
+  PROPID PropId
+);

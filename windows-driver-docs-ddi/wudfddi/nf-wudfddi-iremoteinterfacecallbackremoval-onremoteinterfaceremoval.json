@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval",
+  "title": "IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval (wudfddi.h)",
+  "description": "A UMDF-based driver's OnRemoteInterfaceRemoval event callback function notifies the driver that it cannot use a device interface because the interface has been removed.",
+  "old-location": "wdf\\iremoteinterfacecallbackremoval_onremoteinterfaceremoval.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval"
+  ],
+  "ms.keywords": "IRemoteInterfaceCallbackRemoval interface,OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method,IRemoteInterfaceCallbackRemoval interface, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.9,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval",
+    "wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wudfddi.h"
+  ],
+  "api_name": [
+    "IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval"
+  ]
+}

@@ -1,0 +1,6 @@
+PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE Pfnd3dwddm22DdiCalcprivateShadercacheSessionSize;
+
+SIZE_T Pfnd3dwddm22DdiCalcprivateShadercacheSessionSize(
+  D3D10DDI_HDEVICE unnamedParam1
+)
+{...}

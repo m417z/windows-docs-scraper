@@ -1,0 +1,3 @@
+HRESULT GetNumberOfCategories(
+  DWORD *pdwCat
+);

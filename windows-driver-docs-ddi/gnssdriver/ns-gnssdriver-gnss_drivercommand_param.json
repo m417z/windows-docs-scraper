@@ -1,0 +1,50 @@
+{
+  "UID": "NS:gnssdriver.GNSS_DRIVERCOMMAND_PARAM",
+  "title": "GNSS_DRIVERCOMMAND_PARAM (gnssdriver.h)",
+  "description": "The GNSS_DRIVERCOMMAND_PARAM structure is used to send a command to the GNSS driver.",
+  "tech.root": "gnss",
+  "ms.date": "06/20/2022",
+  "keywords": [
+    "GNSS_DRIVERCOMMAND_PARAM structure"
+  ],
+  "ms.keywords": "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnss.gnss_drivercommand_param, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM",
+  "req.header": "gnssdriver.h",
+  "req.include-header": "Gnssdriver.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "GNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM",
+  "f1_keywords": [
+    "PGNSS_DRIVERCOMMAND_PARAM",
+    "gnssdriver/PGNSS_DRIVERCOMMAND_PARAM",
+    "GNSS_DRIVERCOMMAND_PARAM",
+    "gnssdriver/GNSS_DRIVERCOMMAND_PARAM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "gnssdriver.h"
+  ],
+  "api_name": [
+    "PGNSS_DRIVERCOMMAND_PARAM",
+    "GNSS_DRIVERCOMMAND_PARAM"
+  ]
+}

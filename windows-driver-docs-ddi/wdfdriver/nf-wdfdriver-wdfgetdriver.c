@@ -1,0 +1,1 @@
+WDFDRIVER WdfGetDriver();

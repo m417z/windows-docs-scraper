@@ -1,0 +1,69 @@
+{
+  "UID": "NC:imm.REGISTERWORDENUMPROCW",
+  "title": "REGISTERWORDENUMPROCW (imm.h)",
+  "description": "REGISTERWORDENUMPROCW (Unicode) (imm.h) is an application-defined callback function used with the ImmEnumRegisterWord function.",
+  "helpviewer_keywords": [
+    "EnumRegisterWordProc",
+    "EnumRegisterWordProc callback function [Internationalization for Windows Applications]",
+    "EnumRegisterWordProcA",
+    "EnumRegisterWordProcW",
+    "REGISTERWORDENUMPROC",
+    "REGISTERWORDENUMPROC callback",
+    "REGISTERWORDENUMPROCA",
+    "REGISTERWORDENUMPROCW",
+    "_win32_EnumRegisterWordProc",
+    "imm/EnumRegisterWordProc",
+    "imm/EnumRegisterWordProcA",
+    "imm/EnumRegisterWordProcW",
+    "intl.enumregisterwordproc"
+  ],
+  "old-location": "intl\\enumregisterwordproc.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "06038c87-3553-47de-ba9f-b9c65ea9920b",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "EnumRegisterWordProc, EnumRegisterWordProc callback function [Internationalization for Windows Applications], EnumRegisterWordProcA, EnumRegisterWordProcW, REGISTERWORDENUMPROC, REGISTERWORDENUMPROC callback, REGISTERWORDENUMPROCA, REGISTERWORDENUMPROCW, _win32_EnumRegisterWordProc, imm/EnumRegisterWordProc, imm/EnumRegisterWordProcA, imm/EnumRegisterWordProcW, intl.enumregisterwordproc",
+  "req.header": "imm.h",
+  "req.include-header": "Immdev.h, Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],East Asian language support installed.",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "EnumRegisterWordProcW (Unicode) and EnumRegisterWordProcA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "REGISTERWORDENUMPROCW",
+    "imm/REGISTERWORDENUMPROCW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Imm.h"
+  ],
+  "api_name": [
+    "EnumRegisterWordProc",
+    "EnumRegisterWordProcA",
+    "EnumRegisterWordProcW",
+    "registerwordenumprocw"
+  ]
+}

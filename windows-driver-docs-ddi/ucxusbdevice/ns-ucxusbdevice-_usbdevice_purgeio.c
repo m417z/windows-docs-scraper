@@ -1,0 +1,4 @@
+typedef struct _USBDEVICE_PURGEIO {
+  USBDEVICE_MGMT_HEADER Header;
+  BOOLEAN               OnSuspend;
+} USBDEVICE_PURGEIO, *PUSBDEVICE_PURGEIO;

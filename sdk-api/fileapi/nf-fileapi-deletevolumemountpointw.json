@@ -1,0 +1,80 @@
+{
+  "UID": "NF:fileapi.DeleteVolumeMountPointW",
+  "title": "DeleteVolumeMountPointW function (fileapi.h)",
+  "description": "Deletes a drive letter or mounted folder. (DeleteVolumeMountPointW)",
+  "helpviewer_keywords": [
+    "DeleteVolumeMountPoint",
+    "DeleteVolumeMountPoint function [Files]",
+    "DeleteVolumeMountPointA",
+    "DeleteVolumeMountPointW",
+    "_win32_deletevolumemountpoint",
+    "base.deletevolumemountpoint",
+    "fileapi/DeleteVolumeMountPoint",
+    "fileapi/DeleteVolumeMountPointA",
+    "fileapi/DeleteVolumeMountPointW",
+    "fs.deletevolumemountpoint",
+    "winbase/DeleteVolumeMountPoint",
+    "winbase/DeleteVolumeMountPointA",
+    "winbase/DeleteVolumeMountPointW"
+  ],
+  "old-location": "fs\\deletevolumemountpoint.htm",
+  "tech.root": "fs",
+  "ms.assetid": "b1a0a273-fa7f-4794-8b50-c74f00b0228d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DeleteVolumeMountPoint, DeleteVolumeMountPoint function [Files], DeleteVolumeMountPointA, DeleteVolumeMountPointW, _win32_deletevolumemountpoint, base.deletevolumemountpoint, fileapi/DeleteVolumeMountPoint, fileapi/DeleteVolumeMountPointA, fileapi/DeleteVolumeMountPointW, fs.deletevolumemountpoint, winbase/DeleteVolumeMountPoint, winbase/DeleteVolumeMountPointA, winbase/DeleteVolumeMountPointW",
+  "req.header": "fileapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DeleteVolumeMountPointW (Unicode) and DeleteVolumeMountPointA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteVolumeMountPointW",
+    "fileapi/DeleteVolumeMountPointW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l1-2-5.dll",
+    "api-ms-win-core-file-l1-2-4.dll",
+    "api-ms-win-core-file-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-File-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-File-l1-2-0.dll",
+    "API-MS-Win-Core-File-l1-2-1.dll",
+    "API-MS-Win-Core-File-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-Ms-Win-Core-File-Ansi-L1-1-0.dll",
+    "Kernel32Legacy.dll"
+  ],
+  "api_name": [
+    "DeleteVolumeMountPoint",
+    "DeleteVolumeMountPointA",
+    "DeleteVolumeMountPointW"
+  ]
+}

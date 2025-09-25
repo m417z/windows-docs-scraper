@@ -1,0 +1,47 @@
+{
+  "UID": "NC:mrx.PMRX_CALLDOWN",
+  "title": "PMRX_CALLDOWN (mrx.h)",
+  "description": "Learn more about the PMRX_CALLDOWN callback function.",
+  "tech.root": "ifsk",
+  "ms.date": "10/11/2023",
+  "keywords": [
+    "PMRX_CALLDOWN callback function"
+  ],
+  "ms.keywords": "MRxCleanupFobx, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MyCalldown, MyCalldown routine [Installable File System Drivers], PMRX_CALLDOWN, ifsk.mrxclosesrvopen, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml",
+  "req.header": "mrx.h",
+  "req.include-header": "Mrx.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PMRX_CALLDOWN",
+    "mrx/PMRX_CALLDOWN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "mrx.h"
+  ],
+  "api_name": [
+    "PMRX_CALLDOWN"
+  ]
+}

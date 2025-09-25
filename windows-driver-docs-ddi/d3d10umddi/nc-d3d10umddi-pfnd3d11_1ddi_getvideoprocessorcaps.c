@@ -1,0 +1,8 @@
+PFND3D11_1DDI_GETVIDEOPROCESSORCAPS Pfnd3d111DdiGetvideoprocessorcaps;
+
+VOID Pfnd3d111DdiGetvideoprocessorcaps(
+  D3D10DDI_HDEVICE unnamedParam1,
+  D3D11_1DDI_HVIDEOPROCESSORENUM unnamedParam2,
+  D3D11_1DDI_VIDEO_PROCESSOR_CAPS *unnamedParam3
+)
+{...}

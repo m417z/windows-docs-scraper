@@ -1,0 +1,45 @@
+{
+  "UID": "NF:ntifs.FsRtlIsNameInUnUpcasedExpression",
+  "title": "FsRtlIsNameInUnUpcasedExpression function (ntifs.h)",
+  "description": "The FsRtlIsNameInUnUpcasedExpression routine determines whether a Unicode string matches the specified pattern.",
+  "tech.root": "ifsk",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "FsRtlIsNameInUnUpcasedExpression function"
+  ],
+  "ms.keywords": "FsRtlIsNameInUnUpcasedExpression",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 10 (Version 1803)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "NtosKrnl.exe",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "FsRtlIsNameInUnUpcasedExpression",
+    "ntifs/FsRtlIsNameInUnUpcasedExpression"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FsRtlIsNameInUnUpcasedExpression"
+  ]
+}

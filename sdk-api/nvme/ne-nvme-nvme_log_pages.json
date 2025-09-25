@@ -1,0 +1,39 @@
+{
+  "UID": "NE:nvme.NVME_LOG_PAGES",
+  "tech.root": "fs",
+  "title": "NVME_LOG_PAGES",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains values that indicate the log pages that can be retrieved by the Get Log Page **NVME_ADMIN_COMMAND_GET_LOG_PAGE** Admin Command.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "NVME_LOG_PAGES"
+  ],
+  "f1_keywords": [
+    "NVME_LOG_PAGES",
+    "nvme/NVME_LOG_PAGES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

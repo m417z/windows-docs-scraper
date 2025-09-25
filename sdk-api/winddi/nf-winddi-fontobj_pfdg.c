@@ -1,0 +1,3 @@
+FD_GLYPHSET * FONTOBJ_pfdg(
+  FONTOBJ *pfo
+);

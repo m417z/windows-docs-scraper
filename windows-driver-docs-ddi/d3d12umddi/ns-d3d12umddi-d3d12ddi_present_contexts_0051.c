@@ -1,0 +1,5 @@
+typedef struct D3D12DDI_PRESENT_CONTEXTS_0051 {
+  HANDLE hContext;
+  UINT   BroadcastContextCount;
+  HANDLE BroadcastContext[D3DDDI_MAX_BROADCAST_CONTEXT];
+} D3D12DDI_PRESENT_CONTEXTS_0051;

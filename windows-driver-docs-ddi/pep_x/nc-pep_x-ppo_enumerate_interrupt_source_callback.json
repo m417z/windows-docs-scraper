@@ -1,0 +1,48 @@
+{
+  "UID": "NC:pep_x.PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK",
+  "title": "PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK (pep_x.h)",
+  "description": "Learn how an EnumerateInterruptSource callback routine supplies a platform extension plug-in (PEP) with information about an interrupt source.",
+  "old-location": "kernel\\enumerateinterruptsource.htm",
+  "tech.root": "kernel",
+  "ms.date": "02/24/2018",
+  "keywords": [
+    "PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback"
+  ],
+  "ms.keywords": "EnumerateInterruptSource, EnumerateInterruptSource routine [Kernel-Mode Driver Architecture], PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK, kernel.enumerateinterruptsource, pepfx/EnumerateInterruptSource",
+  "req.header": "pep_x.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks.",
+  "targetos": "Windows",
+  "req.typenames": "PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE",
+  "f1_keywords": [
+    "PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK",
+    "pep_x/PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct {
+  NMHDR hdr;
+  int   iItemid;
+  WCHAR szText[CBEMAXSTRLEN];
+} NMCBEDRAGBEGINW, *LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW;

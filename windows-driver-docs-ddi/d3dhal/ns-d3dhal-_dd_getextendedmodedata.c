@@ -1,0 +1,5 @@
+typedef struct _DD_GETEXTENDEDMODEDATA {
+  DD_GETDRIVERINFO2DATA gdi2;
+  DWORD                 dwModeIndex;
+  D3DDISPLAYMODE        mode;
+} DD_GETEXTENDEDMODEDATA;

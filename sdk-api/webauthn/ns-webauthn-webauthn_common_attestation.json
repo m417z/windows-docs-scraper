@@ -1,0 +1,52 @@
+{
+  "UID": "NS:webauthn._WEBAUTHN_COMMON_ATTESTATION",
+  "tech.root": "webauthn",
+  "title": "WEBAUTHN_COMMON_ATTESTATION",
+  "ms.date": "07/19/2022",
+  "targetos": "Windows",
+  "description": "The structure containing the common data for an attestation.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "webauthn.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "WEBAUTHN_COMMON_ATTESTATION, *PWEBAUTHN_COMMON_ATTESTATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "webauthn.h"
+  ],
+  "api_name": [
+    "_WEBAUTHN_COMMON_ATTESTATION",
+    "PWEBAUTHN_COMMON_ATTESTATION",
+    "WEBAUTHN_COMMON_ATTESTATION"
+  ],
+  "f1_keywords": [
+    "_WEBAUTHN_COMMON_ATTESTATION",
+    "webauthn/_WEBAUTHN_COMMON_ATTESTATION",
+    "PWEBAUTHN_COMMON_ATTESTATION",
+    "webauthn/PWEBAUTHN_COMMON_ATTESTATION",
+    "WEBAUTHN_COMMON_ATTESTATION",
+    "webauthn/WEBAUTHN_COMMON_ATTESTATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_WEBAUTHN_COMMON_ATTESTATION"
+  ]
+}

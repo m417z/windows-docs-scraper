@@ -1,0 +1,50 @@
+{
+  "UID": "NF:ntddk.WheaErrorRecordBuilderAddSection",
+  "tech.root": "kernel",
+  "title": "WheaErrorRecordBuilderAddSection (ntddk.h)",
+  "ms.date": "03/25/2022",
+  "targetos": "Windows",
+  "description": "The WheaErrorRecordBuilderAddSection function finds the next section, initializes its descriptor, and returns a pointer for the caller to populate with data.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddk.h",
+  "req.idl": null,
+  "req.include-header": "Ntddk.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "WheaErrorRecordBuilderAddSection"
+  ],
+  "f1_keywords": [
+    "WheaErrorRecordBuilderAddSection",
+    "ntddk/WheaErrorRecordBuilderAddSection"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "WheaErrorRecordBuilderAddSection"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _SENDCMDOUTPARAMS {
+  ULONG        cBufferSize;
+  DRIVERSTATUS DriverStatus;
+  UCHAR        bBuffer[1];
+} SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS;

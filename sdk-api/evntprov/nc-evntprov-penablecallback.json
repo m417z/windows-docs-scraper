@@ -1,0 +1,62 @@
+{
+  "UID": "NC:evntprov.PENABLECALLBACK",
+  "title": "PENABLECALLBACK (evntprov.h)",
+  "description": "ETW event providers optionally define an EnableCallback function to receive configuration change notifications. The PENABLECALLBACK type defines a pointer to this callback function. EnableCallback is a placeholder for the application-defined function name.",
+  "helpviewer_keywords": [
+    "EVENT_CONTROL_CODE_CAPTURE_STATE",
+    "EVENT_CONTROL_CODE_DISABLE_PROVIDER",
+    "EVENT_CONTROL_CODE_ENABLE_PROVIDER",
+    "PENABLECALLBACK",
+    "PENABLECALLBACK callback",
+    "PENABLECALLBACK callback function [ETW]",
+    "base.enablecallback",
+    "etw.enablecallback",
+    "evntprov/PENABLECALLBACK"
+  ],
+  "old-location": "etw\\enablecallback.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "f339323e-9da9-495f-aac5-f44969a018eb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, PENABLECALLBACK, PENABLECALLBACK callback, PENABLECALLBACK callback function [ETW], base.enablecallback, etw.enablecallback, evntprov/PENABLECALLBACK",
+  "req.header": "evntprov.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PENABLECALLBACK",
+    "evntprov/PENABLECALLBACK"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Evntprov.h"
+  ],
+  "api_name": [
+    "PENABLECALLBACK"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "UID": "NE:ntddcdrm._WRITE_ROTATION",
+  "title": "_WRITE_ROTATION (ntddcdrm.h)",
+  "description": "The WRITE_ROTATION enumeration specifies whether a CD-ROM drive uses constant linear velocity (CLV) rotation or constant angular velocity (CAV) rotation when it writes to a CD.",
+  "old-location": "storage\\write_rotation.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "WRITE_ROTATION enumeration"
+  ],
+  "ms.keywords": "*PWRITE_ROTATION, CdromCAVRotation, CdromDefaultRotation, PWRITE_ROTATION, PWRITE_ROTATION enumeration pointer [Storage Devices], WRITE_ROTATION, WRITE_ROTATION enumeration [Storage Devices], _WRITE_ROTATION, ntddcdrm/CdromCAVRotation, ntddcdrm/CdromDefaultRotation, ntddcdrm/PWRITE_ROTATION, ntddcdrm/WRITE_ROTATION, storage.write_rotation, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml",
+  "req.header": "ntddcdrm.h",
+  "req.include-header": "Ntddcdrm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WRITE_ROTATION, *PWRITE_ROTATION",
+  "f1_keywords": [
+    "_WRITE_ROTATION",
+    "ntddcdrm/_WRITE_ROTATION",
+    "PWRITE_ROTATION",
+    "ntddcdrm/PWRITE_ROTATION",
+    "WRITE_ROTATION",
+    "ntddcdrm/WRITE_ROTATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddcdrm.h"
+  ],
+  "api_name": [
+    "_WRITE_ROTATION",
+    "PWRITE_ROTATION",
+    "WRITE_ROTATION"
+  ]
+}

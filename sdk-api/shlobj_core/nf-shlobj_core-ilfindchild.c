@@ -1,0 +1,4 @@
+PUIDLIST_RELATIVE ILFindChild(
+  [in] PIDLIST_ABSOLUTE  pidlParent,
+  [in] PCIDLIST_ABSOLUTE pidlChild
+);

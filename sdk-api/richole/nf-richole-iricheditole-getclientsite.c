@@ -1,0 +1,3 @@
+HRESULT GetClientSite(
+  LPOLECLIENTSITE *lplpolesite
+);

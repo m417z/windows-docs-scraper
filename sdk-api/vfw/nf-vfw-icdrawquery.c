@@ -1,0 +1,4 @@
+DWORD ICDrawQuery(
+     hic,
+     lpbiInput
+);

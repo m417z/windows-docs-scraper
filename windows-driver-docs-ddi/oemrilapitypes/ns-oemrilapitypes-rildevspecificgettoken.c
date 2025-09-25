@@ -1,0 +1,8 @@
+typedef struct RILDEVSPECIFICGETTOKEN {
+  DWORD cbSize;
+  DWORD dwParams;
+  DWORD dwTimeout;
+  BYTE  bProtocolId[GBA_PROTOCOL_ID_SIZE];
+  DWORD cbHeaderSize;
+  BYTE  bHeader[];
+} RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN;

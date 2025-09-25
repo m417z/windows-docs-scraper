@@ -1,0 +1,5 @@
+typedef struct _SERIAL_LINE_CONTROL {
+  UCHAR StopBits;
+  UCHAR Parity;
+  UCHAR WordLength;
+} SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL;

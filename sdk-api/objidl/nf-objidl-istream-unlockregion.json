@@ -1,0 +1,64 @@
+{
+  "UID": "NF:objidl.IStream.UnlockRegion",
+  "title": "IStream::UnlockRegion (objidl.h)",
+  "description": "The UnlockRegion method removes the access restriction on a range of bytes previously restricted with IStream::LockRegion.",
+  "helpviewer_keywords": [
+    "IStream interface [Structured Storage]",
+    "UnlockRegion method",
+    "IStream.UnlockRegion",
+    "IStream::UnlockRegion",
+    "UnlockRegion",
+    "UnlockRegion method [Structured Storage]",
+    "UnlockRegion method [Structured Storage]",
+    "IStream interface",
+    "_stg_istream_unlockregion",
+    "objidl/IStream::UnlockRegion",
+    "stg.istream_unlockregion"
+  ],
+  "old-location": "stg\\istream_unlockregion.htm",
+  "tech.root": "Stg",
+  "ms.assetid": "e34c8d94-b24b-4041-b5dd-2a4ed74b01ec",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IStream interface [Structured Storage],UnlockRegion method, IStream.UnlockRegion, IStream::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],IStream interface, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion",
+  "req.header": "objidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Objidl.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IStream::UnlockRegion",
+    "objidl/IStream::UnlockRegion"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Ole32.dll"
+  ],
+  "api_name": [
+    "IStream.UnlockRegion"
+  ]
+}

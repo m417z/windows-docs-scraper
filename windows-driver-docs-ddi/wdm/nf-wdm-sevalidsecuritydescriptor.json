@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.SeValidSecurityDescriptor",
+  "title": "SeValidSecurityDescriptor function (wdm.h)",
+  "description": "The SeValidSecurityDescriptor routine returns whether a given security descriptor is structurally valid.",
+  "old-location": "kernel\\sevalidsecuritydescriptor.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "SeValidSecurityDescriptor function"
+  ],
+  "ms.keywords": "SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, wdm/SeValidSecurityDescriptor",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeValidSecurityDescriptor",
+    "wdm/SeValidSecurityDescriptor"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "SeValidSecurityDescriptor"
+  ]
+}

@@ -1,0 +1,8 @@
+typedef enum AGENT_SESSION_EVENT {
+  ASE_NEW_SESSION = 0,
+  ASE_NOT_READY,
+  ASE_READY,
+  ASE_BUSY,
+  ASE_WRAPUP,
+  ASE_END
+} ;

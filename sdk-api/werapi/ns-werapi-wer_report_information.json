@@ -1,0 +1,66 @@
+{
+  "UID": "NS:werapi._WER_REPORT_INFORMATION",
+  "title": "WER_REPORT_INFORMATION (werapi.h)",
+  "description": "Contains Windows Error Reporting (WER) information used by the WerReportCreate function.",
+  "helpviewer_keywords": [
+    "*PWER_REPORT_INFORMATION",
+    "PWER_REPORT_INFORMATION",
+    "PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting]",
+    "WER_REPORT_INFORMATION",
+    "WER_REPORT_INFORMATION structure [Windows Error Reporting]",
+    "base.wer_report_information",
+    "wer.wer_report_information",
+    "werapi/PWER_REPORT_INFORMATION",
+    "werapi/WER_REPORT_INFORMATION"
+  ],
+  "old-location": "wer\\wer_report_information.htm",
+  "tech.root": "wer",
+  "ms.assetid": "3efe2b43-53ac-48e3-bc39-4a9fe6041fca",
+  "ms.date": "07/26/2023",
+  "ms.keywords": "*PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting], WER_REPORT_INFORMATION, WER_REPORT_INFORMATION structure [Windows Error Reporting], base.wer_report_information, wer.wer_report_information, werapi/PWER_REPORT_INFORMATION, werapi/WER_REPORT_INFORMATION",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WER_REPORT_INFORMATION, *PWER_REPORT_INFORMATION",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_WER_REPORT_INFORMATION",
+    "werapi/_WER_REPORT_INFORMATION",
+    "PWER_REPORT_INFORMATION",
+    "werapi/PWER_REPORT_INFORMATION",
+    "WER_REPORT_INFORMATION",
+    "werapi/WER_REPORT_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Werapi.h"
+  ],
+  "api_name": [
+    "WER_REPORT_INFORMATION"
+  ]
+}

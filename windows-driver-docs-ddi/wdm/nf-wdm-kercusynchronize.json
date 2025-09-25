@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdm.KeRcuSynchronize",
+  "tech.root": "kernel",
+  "title": "KeRcuSynchronize function (wdm.h)",
+  "ms.date": "09/02/2025",
+  "targetos": "Windows",
+  "description": "The KeRcuSynchronize function waits for a grace period to elapse in the default RCU domain, ensuring all pre-existing RCU read-side critical sections have completed.",
+  "prerelease": false,
+  "ai-usage": "ai-assisted",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": "<= APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": "Windows Server 2025",
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "KeRcuSynchronize"
+  ],
+  "f1_keywords": [
+    "KeRcuSynchronize",
+    "wdm/KeRcuSynchronize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "KeRcuSynchronize"
+  ]
+}

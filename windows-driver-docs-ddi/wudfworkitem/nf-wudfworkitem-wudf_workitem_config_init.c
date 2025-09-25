@@ -1,0 +1,4 @@
+VOID WUDF_WORKITEM_CONFIG_INIT(
+  [out] PWUDF_WORKITEM_CONFIG pConfig,
+  [in]  PFN_WUDF_WORKITEM     OnWorkItemFunc
+);

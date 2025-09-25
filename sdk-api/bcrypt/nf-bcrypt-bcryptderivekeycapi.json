@@ -1,0 +1,57 @@
+{
+  "UID": "NF:bcrypt.BCryptDeriveKeyCapi",
+  "title": "BCryptDeriveKeyCapi function (bcrypt.h)",
+  "description": "Derives a key from a hash value.",
+  "helpviewer_keywords": [
+    "BCryptDeriveKeyCapi",
+    "BCryptDeriveKeyCapi function [Security]",
+    "bcrypt/BCryptDeriveKeyCapi",
+    "security.bcryptderivekeycapi"
+  ],
+  "old-location": "security\\bcryptderivekeycapi.htm",
+  "tech.root": "security",
+  "ms.assetid": "bebb0767-8c54-48b7-864c-f53caea7120d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptDeriveKeyCapi, BCryptDeriveKeyCapi function [Security], bcrypt/BCryptDeriveKeyCapi, security.bcryptderivekeycapi",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptDeriveKeyCapi",
+    "bcrypt/BCryptDeriveKeyCapi"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptDeriveKeyCapi"
+  ]
+}

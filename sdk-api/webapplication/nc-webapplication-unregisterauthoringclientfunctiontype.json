@@ -1,0 +1,58 @@
+{
+  "UID": "NC:webapplication.UnregisterAuthoringClientFunctionType",
+  "title": "UnregisterAuthoringClientFunctionType (webapplication.h)",
+  "description": "Unregisters the application-defined function that was registered with the RegisterAuthoringClientFunctionType function. This function is called when the app host terminates.",
+  "helpviewer_keywords": [
+    "UnregisterAuthoringClientFunctionType",
+    "UnregisterAuthoringClientFunctionType callback",
+    "UnregisterAuthoringClientFunctionType callback function [Debugging Windows Store apps]",
+    "debug.unregisterauthoringclientfunctiontype",
+    "webapplication/UnregisterAuthoringClientFunctionType"
+  ],
+  "old-location": "debug\\unregisterauthoringclientfunctiontype.htm",
+  "tech.root": "debug",
+  "ms.assetid": "2F48142B-88D2-49B7-9FAA-5D6BA4DC3837",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "UnregisterAuthoringClientFunctionType, UnregisterAuthoringClientFunctionType callback, UnregisterAuthoringClientFunctionType callback function [Debugging Windows Store apps], debug.unregisterauthoringclientfunctiontype, webapplication/UnregisterAuthoringClientFunctionType",
+  "req.header": "webapplication.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "UnregisterAuthoringClientFunctionType",
+    "webapplication/UnregisterAuthoringClientFunctionType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "webapplication.h"
+  ],
+  "api_name": [
+    "UnregisterAuthoringClientFunctionType"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winbase.MapViewOfFileExNuma",
+  "title": "MapViewOfFileExNuma function (winbase.h)",
+  "description": "Maps a view of a file mapping into the address space of a calling process and specifies the NUMA node for the physical memory.",
+  "helpviewer_keywords": [
+    "FILE_MAP_ALL_ACCESS",
+    "FILE_MAP_COPY",
+    "FILE_MAP_EXECUTE",
+    "FILE_MAP_LARGE_PAGES",
+    "FILE_MAP_READ",
+    "FILE_MAP_TARGETS_INVALID",
+    "FILE_MAP_WRITE",
+    "MapViewOfFileExNuma",
+    "MapViewOfFileExNuma function",
+    "NUMA_NO_PREFERRED_NODE",
+    "base.mapviewoffileexnuma",
+    "winbase/MapViewOfFileExNuma"
+  ],
+  "old-location": "base\\mapviewoffileexnuma.htm",
+  "tech.root": "base",
+  "ms.assetid": "1e28c8db-112d-481d-b470-8ca618e125ce",
+  "ms.date": "10/30/2024",
+  "ms.keywords": "FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileExNuma, MapViewOfFileExNuma function, NUMA_NO_PREFERRED_NODE, base.mapviewoffileexnuma, winbase/MapViewOfFileExNuma",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MapViewOfFileExNuma",
+    "winbase/MapViewOfFileExNuma"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "MapViewOfFileExNuma"
+  ]
+}

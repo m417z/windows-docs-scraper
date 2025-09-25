@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.IO_CSQ_ACQUIRE_LOCK",
+  "title": "IO_CSQ_ACQUIRE_LOCK (wdm.h)",
+  "description": "The CsqAcquireLock routine is used by the system to acquire the lock for a driver-implemented, cancel-safe IRP queue.",
+  "tech.root": "kernel",
+  "ms.date": "01/09/2023",
+  "keywords": [
+    "IO_CSQ_ACQUIRE_LOCK callback function"
+  ],
+  "ms.keywords": "CsqAcquireLock, CsqAcquireLock routine [Kernel-Mode Driver Architecture], DrvrRtns_02339dc6-f9f2-47b0-a0c9-df36f862b5d6.xml, IO_CSQ_ACQUIRE_LOCK, kernel.csqacquirelock, wdm/CsqAcquireLock",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IO_CSQ_ACQUIRE_LOCK",
+    "wdm/IO_CSQ_ACQUIRE_LOCK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "IO_CSQ_ACQUIRE_LOCK"
+  ]
+}

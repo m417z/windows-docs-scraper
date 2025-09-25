@@ -1,0 +1,4 @@
+HRESULT WSDXMLAddChild(
+  WSDXML_ELEMENT *pParent,
+  WSDXML_ELEMENT *pChild
+);

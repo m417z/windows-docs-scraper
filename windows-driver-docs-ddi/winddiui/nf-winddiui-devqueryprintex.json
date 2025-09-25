@@ -1,0 +1,48 @@
+{
+  "UID": "NF:winddiui.DevQueryPrintEx",
+  "title": "DevQueryPrintEx function (winddiui.h)",
+  "description": "A printer interface DLL's DevQueryPrintEx function determines if a specified print job is compatible with the printer's current configuration and can therefore be printed.",
+  "old-location": "print\\devqueryprintex.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "DevQueryPrintEx function"
+  ],
+  "ms.keywords": "DevQueryPrintEx, DevQueryPrintEx function [Print Devices], print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, winddiui/DevQueryPrintEx",
+  "req.header": "winddiui.h",
+  "req.include-header": "Winddiui.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winspool.lib",
+  "req.dll": "WinSpool.drv",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DevQueryPrintEx",
+    "winddiui/DevQueryPrintEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WinSpool.drv"
+  ],
+  "api_name": [
+    "DevQueryPrintEx"
+  ]
+}

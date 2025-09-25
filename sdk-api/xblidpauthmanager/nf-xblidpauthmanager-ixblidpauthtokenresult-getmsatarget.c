@@ -1,0 +1,3 @@
+HRESULT GetMsaTarget(
+  LPWSTR *msaTarget
+);

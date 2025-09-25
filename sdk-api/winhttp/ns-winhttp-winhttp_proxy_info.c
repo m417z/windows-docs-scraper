@@ -1,0 +1,5 @@
+typedef struct _WINHTTP_PROXY_INFO {
+  DWORD  dwAccessType;
+  LPWSTR lpszProxy;
+  LPWSTR lpszProxyBypass;
+} WINHTTP_PROXY_INFO, *LPWINHTTP_PROXY_INFO, *PWINHTTP_PROXY_INFO;

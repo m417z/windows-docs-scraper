@@ -1,0 +1,5 @@
+typedef struct D3D12DDIARG_TEX1D_RENDER_TARGET_VIEW {
+  UINT MipSlice;
+  UINT FirstArraySlice;
+  UINT ArraySize;
+} D3D12DDIARG_TEX1D_RENDER_TARGET_VIEW;

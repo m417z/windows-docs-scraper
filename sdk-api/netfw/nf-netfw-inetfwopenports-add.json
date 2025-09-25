@@ -1,0 +1,64 @@
+{
+  "UID": "NF:netfw.INetFwOpenPorts.Add",
+  "title": "INetFwOpenPorts::Add (netfw.h)",
+  "description": "Opens a new port and adds it to the collection.",
+  "helpviewer_keywords": [
+    "Add",
+    "Add method [ICS/ICF]",
+    "Add method [ICS/ICF]",
+    "INetFwOpenPorts interface",
+    "INetFwOpenPorts interface [ICS/ICF]",
+    "Add method",
+    "INetFwOpenPorts.Add",
+    "INetFwOpenPorts::Add",
+    "ics.inetfwopenports_add",
+    "netfw/INetFwOpenPorts::Add"
+  ],
+  "old-location": "ics\\inetfwopenports_add.htm",
+  "tech.root": "ics",
+  "ms.assetid": "fd97333d-9bd5-4ab2-9189-75a7f7f52622",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Add method, INetFwOpenPorts.Add, INetFwOpenPorts::Add, ics.inetfwopenports_add, netfw/INetFwOpenPorts::Add",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INetFwOpenPorts::Add",
+    "netfw/INetFwOpenPorts::Add"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FirewallAPI.dll",
+    "Hnetcfg.dll"
+  ],
+  "api_name": [
+    "INetFwOpenPorts.Add"
+  ]
+}

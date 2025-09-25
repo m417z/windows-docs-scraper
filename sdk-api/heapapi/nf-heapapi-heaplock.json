@@ -1,0 +1,65 @@
+{
+  "UID": "NF:heapapi.HeapLock",
+  "title": "HeapLock function (heapapi.h)",
+  "description": "Attempts to acquire the critical section object, or lock, that is associated with a specified heap.",
+  "helpviewer_keywords": [
+    "HeapLock",
+    "HeapLock function",
+    "_win32_heaplock",
+    "base.heaplock",
+    "heapapi/HeapLock",
+    "winbase/HeapLock"
+  ],
+  "old-location": "base\\heaplock.htm",
+  "tech.root": "base",
+  "ms.assetid": "bc01b82d-ef10-40d7-af82-e599ba825944",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapapi/HeapLock, winbase/HeapLock",
+  "req.header": "heapapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HeapLock",
+    "heapapi/HeapLock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-heap-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-heap-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "HeapLock"
+  ]
+}

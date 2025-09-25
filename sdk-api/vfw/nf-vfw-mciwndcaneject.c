@@ -1,0 +1,3 @@
+BOOL MCIWndCanEject(
+    HWND hwnd
+);

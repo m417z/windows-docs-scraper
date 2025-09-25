@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ntddk.IoAllocateAdapterChannel",
+  "title": "IoAllocateAdapterChannel function (ntddk.h)",
+  "description": "Deprecated. Use PALLOCATE_ADAPTER_CHANNEL.",
+  "tech.root": "kernel",
+  "ms.date": "06/13/2021",
+  "keywords": [
+    "IoAllocateAdapterChannel function"
+  ],
+  "ms.keywords": "IoAllocateAdapterChannel",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "IoAllocateAdapterChannel",
+    "ntddk/IoAllocateAdapterChannel"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoAllocateAdapterChannel"
+  ]
+}

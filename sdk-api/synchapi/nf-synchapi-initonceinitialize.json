@@ -1,0 +1,63 @@
+{
+  "UID": "NF:synchapi.InitOnceInitialize",
+  "title": "InitOnceInitialize function (synchapi.h)",
+  "description": "Initializes a one-time initialization structure.",
+  "helpviewer_keywords": [
+    "InitOnceInitialize",
+    "InitOnceInitialize function",
+    "base.initonceinitialize",
+    "synchapi/InitOnceInitialize",
+    "winbase/InitOnceInitialize"
+  ],
+  "old-location": "base\\initonceinitialize.htm",
+  "tech.root": "base",
+  "ms.assetid": "f2943ac5-0e43-4f07-8941-952383e2fa08",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "InitOnceInitialize, InitOnceInitialize function, base.initonceinitialize, synchapi/InitOnceInitialize, winbase/InitOnceInitialize",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InitOnceInitialize",
+    "synchapi/InitOnceInitialize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "InitOnceInitialize"
+  ]
+}

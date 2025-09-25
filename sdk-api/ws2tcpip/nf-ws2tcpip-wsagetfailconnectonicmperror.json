@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ws2tcpip.WSAGetFailConnectOnIcmpError",
+  "title": "WSAGetFailConnectOnIcmpError",
+  "author": "windows-sdk-content",
+  "description": "Queries the state of the [**TCP_FAIL_CONNECT_ON_ICMP_ERROR**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option.",
+  "tech.root": "WinSock",
+  "ms.author": "windowssdkdev",
+  "ms.date": "10/02/2019",
+  "ms.keywords": "WSAGetFailConnectOnIcmpError, WSAGetFailConnectOnIcmpError function [Winsock], winsock.wsagetfailconnectonicmperror, ws2tcpip/WSAGetFailConnectOnIcmpError",
+  "req.header": "ws2tcpip.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "WSAGetFailConnectOnIcmpError",
+    "ws2tcpip/WSAGetFailConnectOnIcmpError"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSAGetFailConnectOnIcmpError"
+  ]
+}

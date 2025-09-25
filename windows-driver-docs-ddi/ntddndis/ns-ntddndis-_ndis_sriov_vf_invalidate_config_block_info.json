@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddndis._NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+  "title": "_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO (ntddndis.h)",
+  "description": "The NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure specifies one or more Virtual Function (VF) configuration blocks whose data has been changed (invalidated) by the driver for the PCI Express (PCIe) Physical Function (PF) on the network adapter.",
+  "old-location": "netvista\\ndis_sriov_vf_invalidate_config_block_info.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure"
+  ],
+  "ms.keywords": "*PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, netvista.ndis_sriov_vf_invalidate_config_block_info, ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, ntddndis/PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+  "req.header": "ntddndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, *PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+  "f1_keywords": [
+    "_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+    "ntddndis/_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+    "PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+    "ntddndis/PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+    "NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+    "ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddndis.h"
+  ],
+  "api_name": [
+    "_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+    "PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO",
+    "NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef enum WSManDataType {
+  WSMAN_DATA_NONE = 0,
+  WSMAN_DATA_TYPE_TEXT = 1,
+  WSMAN_DATA_TYPE_BINARY = 2,
+  WSMAN_DATA_TYPE_DWORD = 4
+} ;

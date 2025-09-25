@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winenclaveapi.EnclaveSealData",
+  "title": "EnclaveSealData function (winenclaveapi.h)",
+  "description": "Generates an encrypted binary large object (blob) from unencypted data.",
+  "helpviewer_keywords": [
+    "ENCLAVE_RUNTIME_POLICY_ALLOW_DYNAMIC_DEBUG",
+    "ENCLAVE_RUNTIME_POLICY_ALLOW_FULL_DEBUG",
+    "EnclaveSealData",
+    "EnclaveSealData function",
+    "base.enclavesealdata",
+    "winenclaveapi/EnclaveSealData"
+  ],
+  "old-location": "base\\enclavesealdata.htm",
+  "tech.root": "base",
+  "ms.assetid": "C5711D43-F0B4-43C6-B0DB-D65622851384",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "ENCLAVE_RUNTIME_POLICY_ALLOW_DYNAMIC_DEBUG, ENCLAVE_RUNTIME_POLICY_ALLOW_FULL_DEBUG, EnclaveSealData, EnclaveSealData function, base.enclavesealdata, winenclaveapi/EnclaveSealData",
+  "req.header": "winenclaveapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vertdll.lib",
+  "req.dll": "Vertdll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EnclaveSealData",
+    "winenclaveapi/EnclaveSealData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "EnclaveSealData"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef struct _OB_PRE_DUPLICATE_HANDLE_INFORMATION {
+  ACCESS_MASK DesiredAccess;
+  ACCESS_MASK OriginalDesiredAccess;
+  PVOID       SourceProcess;
+  PVOID       TargetProcess;
+} OB_PRE_DUPLICATE_HANDLE_INFORMATION, *POB_PRE_DUPLICATE_HANDLE_INFORMATION;

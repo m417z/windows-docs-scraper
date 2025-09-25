@@ -1,0 +1,48 @@
+{
+  "UID": "NI:usbfnioctl.IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT",
+  "title": "IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT (usbfnioctl.h)",
+  "description": "The class driver sends this request to initiate an IN transfer to the specified pipe and appends a zero-length packet to indicate the end of the transfer.",
+  "old-location": "buses\\ioctl_internal_usbfn_transfer_in_append_zero_pkt.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT, IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT control, IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT control code [Buses], buses.ioctl_internal_usbfn_transfer_in_append_zero_pkt, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT",
+  "req.header": "usbfnioctl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT",
+    "usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usbfnioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT"
+  ]
+}

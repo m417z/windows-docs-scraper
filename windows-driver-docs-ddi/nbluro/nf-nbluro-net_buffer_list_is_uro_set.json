@@ -1,0 +1,51 @@
+{
+  "UID": "NF:nbluro.NET_BUFFER_LIST_IS_URO_SET",
+  "tech.root": "netvista",
+  "title": "NET_BUFFER_LIST_IS_URO_SET",
+  "ms.date": "01/18/2024",
+  "targetos": "Windows",
+  "description": "NET_BUFFER_LIST_IS_URO_SET returns whether the UDP RSC (URO) offload information is set for a NET_BUFFER_LIST structure.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nbluro.h",
+  "req.idl": null,
+  "req.include-header": "ndis.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 24H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "returns-override": true,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nbluro.h"
+  ],
+  "api_name": [
+    "NET_BUFFER_LIST_IS_URO_SET"
+  ],
+  "f1_keywords": [
+    "NET_BUFFER_LIST_IS_URO_SET",
+    "nbluro/NET_BUFFER_LIST_IS_URO_SET"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NET_BUFFER_LIST_IS_URO_SET"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _DHCP_RESERVED_SCOPE {
+  DHCP_IP_ADDRESS ReservedIpAddress;
+  DHCP_IP_ADDRESS ReservedIpSubnetAddress;
+} DHCP_RESERVED_SCOPE, *LPDHCP_RESERVED_SCOPE;

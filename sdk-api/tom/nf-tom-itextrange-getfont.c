@@ -1,0 +1,3 @@
+HRESULT GetFont(
+  ITextFont **ppFont
+);

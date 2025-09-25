@@ -1,0 +1,62 @@
+{
+  "UID": "NF:appmodel.AppPolicyGetMediaFoundationCodecLoading",
+  "title": "AppPolicyGetMediaFoundationCodecLoading function (appmodel.h)",
+  "description": "Retrieves a value indicating whether a process’s policy allows it to load non-Windows (third-party) plugins. You can use the value to decide whether or not to allow non-Windows (third-party) plugins.",
+  "helpviewer_keywords": [
+    "AppPolicyGetMediaFoundationCodecLoading",
+    "AppPolicyGetMediaFoundationCodecLoading function [App packaging and management]",
+    "appmodel/AppPolicyGetMediaFoundationCodecLoading",
+    "appxpkg.apppolicygetmediafoundationcodecloading"
+  ],
+  "old-location": "appxpkg\\apppolicygetmediafoundationcodecloading.htm",
+  "tech.root": "appxpkg",
+  "ms.assetid": "59231147-0505-4353-AADE-D81701ECBAD5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AppPolicyGetMediaFoundationCodecLoading, AppPolicyGetMediaFoundationCodecLoading function [App packaging and management], appmodel/AppPolicyGetMediaFoundationCodecLoading, appxpkg.apppolicygetmediafoundationcodecloading",
+  "req.header": "appmodel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OneCoreUap.lib",
+  "req.dll": "Api-ms-win-appmodel-runtime-l1-1-2.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AppPolicyGetMediaFoundationCodecLoading",
+    "appmodel/AppPolicyGetMediaFoundationCodecLoading"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "api-ms-win-appmodel-runtime-l1-1-4.dll",
+    "api-ms-win-appmodel-runtime-l1-1-3.dll",
+    "api-ms-win-appmodel-runtime-l1-1-2.dll"
+  ],
+  "api_name": [
+    "AppPolicyGetMediaFoundationCodecLoading"
+  ]
+}

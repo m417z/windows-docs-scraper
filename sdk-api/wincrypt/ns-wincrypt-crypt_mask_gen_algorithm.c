@@ -1,0 +1,4 @@
+typedef struct _CRYPT_MASK_GEN_ALGORITHM {
+  LPSTR                      pszObjId;
+  CRYPT_ALGORITHM_IDENTIFIER HashAlgorithm;
+} CRYPT_MASK_GEN_ALGORITHM, *PCRYPT_MASK_GEN_ALGORITHM;

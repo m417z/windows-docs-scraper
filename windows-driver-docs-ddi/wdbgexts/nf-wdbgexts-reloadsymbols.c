@@ -1,0 +1,3 @@
+VOID ReloadSymbols(
+  PSTR Arg
+);

@@ -1,0 +1,3 @@
+HRESULT put_ScheduledInstallationDay(
+  AutomaticUpdatesScheduledInstallationDay value
+);

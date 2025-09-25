@@ -1,0 +1,4 @@
+typedef struct _GET_LOCAL_HOST_INFO5 {
+  PVOID ConfigRom;
+  ULONG ConfigRomLength;
+} GET_LOCAL_HOST_INFO5, *PGET_LOCAL_HOST_INFO5;

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.PcNewMiniport",
+  "title": "PcNewMiniport function (portcls.h)",
+  "description": "The PcNewMiniport function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys.",
+  "old-location": "audio\\pcnewminiport.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PcNewMiniport function"
+  ],
+  "ms.keywords": "PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The PortCls system driver implements the PcNewMiniport function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcNewMiniport",
+    "portcls/PcNewMiniport"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "PcNewMiniport"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NS:acxdriver._ACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+  "tech.root": "audio",
+  "title": "ACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+  "ms.date": "01/31/2022",
+  "targetos": "Windows",
+  "description": "The ACX_DRIVER_VERSION_AVAILABLE_PARAMS structure is passed as a parameter to the AcxDriverIsVersionAvailable function.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "acxdriver.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "ACX_DRIVER_VERSION_AVAILABLE_PARAMS, *PACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "acxdriver.h"
+  ],
+  "api_name": [
+    "_ACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+    "PACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+    "ACX_DRIVER_VERSION_AVAILABLE_PARAMS"
+  ],
+  "f1_keywords": [
+    "_ACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+    "acxdriver/_ACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+    "PACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+    "acxdriver/PACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+    "ACX_DRIVER_VERSION_AVAILABLE_PARAMS",
+    "acxdriver/ACX_DRIVER_VERSION_AVAILABLE_PARAMS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

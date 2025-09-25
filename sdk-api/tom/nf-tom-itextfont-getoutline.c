@@ -1,0 +1,3 @@
+HRESULT GetOutline(
+  long *pValue
+);

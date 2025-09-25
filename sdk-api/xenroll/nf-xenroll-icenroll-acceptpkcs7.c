@@ -1,0 +1,3 @@
+HRESULT acceptPKCS7(
+  [in] BSTR PKCS7
+);

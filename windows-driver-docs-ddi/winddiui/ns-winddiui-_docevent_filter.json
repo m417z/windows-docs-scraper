@@ -1,0 +1,53 @@
+{
+  "UID": "NS:winddiui._DOCEVENT_FILTER",
+  "title": "_DOCEVENT_FILTER (winddiui.h)",
+  "description": "The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.",
+  "tech.root": "print",
+  "ms.date": "01/04/2023",
+  "keywords": [
+    "DOCEVENT_FILTER structure"
+  ],
+  "ms.keywords": "*PDOCEVENT_FILTER, DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], _DOCEVENT_FILTER, print.docevent_filter, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, winddiui/DOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER",
+  "req.header": "winddiui.h",
+  "req.include-header": "Winddiui.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DOCEVENT_FILTER, *PDOCEVENT_FILTER",
+  "f1_keywords": [
+    "_DOCEVENT_FILTER",
+    "winddiui/_DOCEVENT_FILTER",
+    "PDOCEVENT_FILTER",
+    "winddiui/PDOCEVENT_FILTER",
+    "DOCEVENT_FILTER",
+    "winddiui/DOCEVENT_FILTER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winddiui.h"
+  ],
+  "api_name": [
+    "_DOCEVENT_FILTER",
+    "PDOCEVENT_FILTER",
+    "DOCEVENT_FILTER"
+  ]
+}

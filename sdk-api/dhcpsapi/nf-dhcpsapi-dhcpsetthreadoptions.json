@@ -1,0 +1,58 @@
+{
+  "UID": "NF:dhcpsapi.DhcpSetThreadOptions",
+  "title": "DhcpSetThreadOptions function (dhcpsapi.h)",
+  "description": "The DhcpSetThreadOptions function sets options on the currently executing DHCP thread.",
+  "helpviewer_keywords": [
+    "DHCP_FLAGS_DONT_ACCESS_DS",
+    "DhcpSetThreadOptions",
+    "DhcpSetThreadOptions function [DHCP]",
+    "dhcp.dhcpsetthreadoptions",
+    "dhcpsapi/DhcpSetThreadOptions"
+  ],
+  "old-location": "dhcp\\dhcpsetthreadoptions.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "aadca143-6fdd-4b25-9bd5-1ba177be148e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DHCP_FLAGS_DONT_ACCESS_DS, DhcpSetThreadOptions, DhcpSetThreadOptions function [DHCP], dhcp.dhcpsetthreadoptions, dhcpsapi/DhcpSetThreadOptions",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008, Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpSetThreadOptions",
+    "dhcpsapi/DhcpSetThreadOptions"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpSetThreadOptions"
+  ]
+}

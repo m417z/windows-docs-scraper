@@ -1,0 +1,4 @@
+typedef struct _HTTP_QOS_SETTING_INFO {
+  HTTP_QOS_SETTING_TYPE QosType;
+  PVOID                 QosSetting;
+} HTTP_QOS_SETTING_INFO, *PHTTP_QOS_SETTING_INFO;

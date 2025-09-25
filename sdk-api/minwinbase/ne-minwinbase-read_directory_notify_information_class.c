@@ -1,0 +1,6 @@
+typedef enum _READ_DIRECTORY_NOTIFY_INFORMATION_CLASS {
+  ReadDirectoryNotifyInformation = 1,
+  ReadDirectoryNotifyExtendedInformation,
+  ReadDirectoryNotifyFullInformation,
+  ReadDirectoryNotifyMaximumInformation
+} READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, *PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS;

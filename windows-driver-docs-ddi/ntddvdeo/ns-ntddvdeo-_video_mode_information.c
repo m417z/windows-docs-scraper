@@ -1,0 +1,22 @@
+typedef struct _VIDEO_MODE_INFORMATION {
+  ULONG Length;
+  ULONG ModeIndex;
+  ULONG VisScreenWidth;
+  ULONG VisScreenHeight;
+  ULONG ScreenStride;
+  ULONG NumberOfPlanes;
+  ULONG BitsPerPlane;
+  ULONG Frequency;
+  ULONG XMillimeter;
+  ULONG YMillimeter;
+  ULONG NumberRedBits;
+  ULONG NumberGreenBits;
+  ULONG NumberBlueBits;
+  ULONG RedMask;
+  ULONG GreenMask;
+  ULONG BlueMask;
+  ULONG AttributeFlags;
+  ULONG VideoMemoryBitmapWidth;
+  ULONG VideoMemoryBitmapHeight;
+  ULONG DriverSpecificAttributeFlags;
+} VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION;

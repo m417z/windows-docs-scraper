@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndis.PROTOCOL_CO_OID_REQUEST",
+  "title": "PROTOCOL_CO_OID_REQUEST (ndis.h)",
+  "description": "The ProtocolCoOidRequest function handles OID requests that CoNDIS clients or stand-alone call managers initiate by calls to the NdisCoOidRequest function or that a miniport call manager (MCM) driver initiates by calls to the NdisMCmOidRequest function.Note  You must declare the function by using the PROTOCOL_CO_OID_REQUEST type. For more information, see the following Examples section.",
+  "old-location": "netvista\\protocolcooidrequest.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PROTOCOL_CO_OID_REQUEST callback function"
+  ],
+  "ms.keywords": "PROTOCOL_CO_OID_REQUEST, PROTOCOL_CO_OID_REQUEST callback, ProtocolCoOidRequest, ProtocolCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_b02b012f-58cc-4dd6-be48-6e1cc4f00b24.xml, ndis/ProtocolCoOidRequest, netvista.protocolcooidrequest",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PROTOCOL_CO_OID_REQUEST",
+    "ndis/PROTOCOL_CO_OID_REQUEST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "PROTOCOL_CO_OID_REQUEST"
+  ]
+}

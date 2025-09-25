@@ -1,0 +1,3 @@
+MSTCPIP_INLINE const UCHAR * IN6_GET_ADDR_V4COMPAT(
+  const IN6_ADDR *Ipv6Address
+);

@@ -1,0 +1,4 @@
+BOOL AVIStreamIsKeyFrame(
+     pavi,
+     l
+);

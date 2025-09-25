@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wuapi.IUpdateServiceManager.AddScanPackageService",
+  "title": "IUpdateServiceManager::AddScanPackageService (wuapi.h)",
+  "description": "Registers a scan package as a service with Windows Update Agent (WUA) and then returns an IUpdateService interface.",
+  "helpviewer_keywords": [
+    "AddScanPackageService",
+    "AddScanPackageService method [Windows Update Agent]",
+    "AddScanPackageService method [Windows Update Agent]",
+    "IUpdateServiceManager interface",
+    "IUpdateServiceManager interface [Windows Update Agent]",
+    "AddScanPackageService method",
+    "IUpdateServiceManager.AddScanPackageService",
+    "IUpdateServiceManager::AddScanPackageService",
+    "wua.iupdateservicemanager_addscanpackageservice",
+    "wuapi/IUpdateServiceManager::AddScanPackageService"
+  ],
+  "old-location": "wua\\iupdateservicemanager_addscanpackageservice.htm",
+  "tech.root": "wua",
+  "ms.assetid": "5b0677bb-9f19-4bb4-9942-8ca3da18b29a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService",
+  "req.header": "wuapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP, Windows 2000 Professional with SP3 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Wuapi.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wuguid.lib",
+  "req.dll": "Wuapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "req.product": "Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IUpdateServiceManager::AddScanPackageService",
+    "wuapi/IUpdateServiceManager::AddScanPackageService"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wuapi.dll"
+  ],
+  "api_name": [
+    "IUpdateServiceManager.AddScanPackageService"
+  ]
+}

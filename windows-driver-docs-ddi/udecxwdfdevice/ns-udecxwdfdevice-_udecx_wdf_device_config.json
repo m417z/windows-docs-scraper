@@ -1,0 +1,54 @@
+{
+  "UID": "NS:udecxwdfdevice._UDECX_WDF_DEVICE_CONFIG",
+  "title": "_UDECX_WDF_DEVICE_CONFIG (udecxwdfdevice.h)",
+  "description": "Contains pointers to event callback functions implemented by the UDE client driver for a USB host controller. Initialize this structure by calling UDECX_WDF_DEVICE_CONFIG_INIT.",
+  "old-location": "buses\\udecx_wdf_device_config.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UDECX_WDF_DEVICE_CONFIG structure"
+  ],
+  "ms.keywords": "*PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses], _UDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG",
+  "req.header": "udecxwdfdevice.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "UDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG",
+  "f1_keywords": [
+    "_UDECX_WDF_DEVICE_CONFIG",
+    "udecxwdfdevice/_UDECX_WDF_DEVICE_CONFIG",
+    "PUDECX_WDF_DEVICE_CONFIG",
+    "udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG",
+    "UDECX_WDF_DEVICE_CONFIG",
+    "udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "udecxwdfdevice.h"
+  ],
+  "api_name": [
+    "_UDECX_WDF_DEVICE_CONFIG",
+    "PUDECX_WDF_DEVICE_CONFIG",
+    "UDECX_WDF_DEVICE_CONFIG"
+  ]
+}

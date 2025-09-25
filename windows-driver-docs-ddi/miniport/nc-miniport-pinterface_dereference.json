@@ -1,0 +1,48 @@
+{
+  "UID": "NC:miniport.PINTERFACE_DEREFERENCE",
+  "title": "PINTERFACE_DEREFERENCE (miniport.h)",
+  "description": "The PINTERFACE_DEREFERENCE callback function (miniport.h) decrements the reference count on a driver-defined interface.",
+  "old-location": "kernel\\interfacedereference.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PINTERFACE_DEREFERENCE callback function"
+  ],
+  "ms.keywords": "InterfaceDereference, InterfaceDereference routine [Kernel-Mode Driver Architecture], PINTERFACE_DEREFERENCE, drvr_interface_96e41fd1-22ff-48d9-85ae-94b735ba67bf.xml, kernel.interfacedereference, wdm/InterfaceDereference",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PINTERFACE_DEREFERENCE",
+    "miniport/PINTERFACE_DEREFERENCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "PINTERFACE_DEREFERENCE"
+  ]
+}

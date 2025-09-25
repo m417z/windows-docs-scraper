@@ -1,0 +1,58 @@
+{
+  "UID": "NF:fltuser.FilterInstanceClose",
+  "title": "FilterInstanceClose function (fltuser.h)",
+  "description": "The FilterInstanceClose function closes a minifilter instance handle opened by FilterInstanceCreate.",
+  "helpviewer_keywords": [
+    "FilterInstanceClose",
+    "FilterInstanceClose function [Installable File System Drivers]",
+    "FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml",
+    "fltuser/FilterInstanceClose",
+    "ifsk.filterinstanceclose"
+  ],
+  "old-location": "ifsk\\filterinstanceclose.htm",
+  "tech.root": "ifsk",
+  "ms.assetid": "a0605b02-a5eb-4e7f-9659-0f0f538ea153",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FilterInstanceClose, FilterInstanceClose function [Installable File System Drivers], FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml, fltuser/FilterInstanceClose, ifsk.filterinstanceclose",
+  "req.header": "fltuser.h",
+  "req.include-header": "Fltuser.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltLib.lib",
+  "req.dll": "FltLib.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FilterInstanceClose",
+    "fltuser/FilterInstanceClose"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltLib.dll"
+  ],
+  "api_name": [
+    "FilterInstanceClose"
+  ]
+}

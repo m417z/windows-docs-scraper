@@ -1,0 +1,3 @@
+HRESULT BlameETHREAD(
+  ULONG64 Address
+);

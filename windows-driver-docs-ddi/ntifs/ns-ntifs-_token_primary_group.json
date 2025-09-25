@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_PRIMARY_GROUP",
+  "title": "TOKEN_PRIMARY_GROUP (ntifs.h)",
+  "description": "TOKEN_PRIMARY_GROUP specifies a group security identifier (SID) for an access token.",
+  "old-location": "ifsk\\token_primary_group.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "TOKEN_PRIMARY_GROUP structure"
+  ],
+  "ms.keywords": "*PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Installable File System Drivers], TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Installable File System Drivers], _TOKEN_PRIMARY_GROUP, ifsk.token_primary_group, ntifs/PTOKEN_PRIMARY_GROUP, ntifs/TOKEN_PRIMARY_GROUP, securitystructures_8d3bc1f9-abc5-4ac3-8351-cf2c56db6a20.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP",
+  "f1_keywords": [
+    "_TOKEN_PRIMARY_GROUP",
+    "ntifs/_TOKEN_PRIMARY_GROUP",
+    "PTOKEN_PRIMARY_GROUP",
+    "ntifs/PTOKEN_PRIMARY_GROUP",
+    "TOKEN_PRIMARY_GROUP",
+    "ntifs/TOKEN_PRIMARY_GROUP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_PRIMARY_GROUP",
+    "PTOKEN_PRIMARY_GROUP",
+    "TOKEN_PRIMARY_GROUP"
+  ]
+}

@@ -1,0 +1,8 @@
+typedef struct _STORAGE_DIAGNOSTIC_DATA {
+  ULONG Version;
+  ULONG Size;
+  GUID  ProviderId;
+  ULONG BufferSize;
+  ULONG Reserved;
+  UCHAR DiagnosticDataBuffer[ANYSIZE_ARRAY];
+} STORAGE_DIAGNOSTIC_DATA, *PSTORAGE_DIAGNOSTIC_DATA;

@@ -1,0 +1,6 @@
+typedef struct _BDA_TEMPLATE_CONNECTION {
+  ULONG FromNodeType;
+  ULONG FromNodePinType;
+  ULONG ToNodeType;
+  ULONG ToNodePinType;
+} BDA_TEMPLATE_CONNECTION, *PBDA_TEMPLATE_CONNECTION;

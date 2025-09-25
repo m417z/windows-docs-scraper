@@ -1,0 +1,3 @@
+typedef struct {
+  ULONG DialogueLevel;
+} KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL;

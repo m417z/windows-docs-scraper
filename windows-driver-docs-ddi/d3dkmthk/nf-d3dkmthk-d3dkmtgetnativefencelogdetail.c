@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetNativeFenceLogDetail(
+  D3DKMT_GETNATIVEFENCELOGDETAIL *unnamedParam1
+);

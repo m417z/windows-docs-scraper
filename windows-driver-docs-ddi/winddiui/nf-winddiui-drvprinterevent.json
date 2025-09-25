@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winddiui.DrvPrinterEvent",
+  "title": "DrvPrinterEvent function (winddiui.h)",
+  "description": "A printer interface DLL's DrvPrinterEvent function is called by the print spooler when processing printer-specific events that might require action by the printer driver.",
+  "tech.root": "print",
+  "ms.date": "01/04/2023",
+  "keywords": [
+    "DrvPrinterEvent function"
+  ],
+  "ms.keywords": "DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, winddiui/DrvPrinterEvent",
+  "req.header": "winddiui.h",
+  "req.include-header": "Winddiui.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DrvPrinterEvent",
+    "winddiui/DrvPrinterEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winddiui.h"
+  ],
+  "api_name": [
+    "DrvPrinterEvent"
+  ]
+}

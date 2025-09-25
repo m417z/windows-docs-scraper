@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wbemglue.CWbemProviderGlue.GetAllInstancesAsynch",
+  "title": "CWbemProviderGlue::GetAllInstancesAsynch (wbemglue.h)",
+  "description": "The GetAllInstancesAsynch method retrieves a list of instances returned by a specific class. This method allows the provider to respond asynchronously by returning one instance at a time.",
+  "helpviewer_keywords": [
+    "CWbemProviderGlue interface [Windows Management Instrumentation]",
+    "GetAllInstancesAsynch method",
+    "CWbemProviderGlue.GetAllInstancesAsynch",
+    "CWbemProviderGlue::GetAllInstancesAsynch",
+    "GetAllInstancesAsynch",
+    "GetAllInstancesAsynch method [Windows Management Instrumentation]",
+    "GetAllInstancesAsynch method [Windows Management Instrumentation]",
+    "CWbemProviderGlue interface",
+    "_hmm_cwbemproviderglue_getallinstancesasynch",
+    "wbemglue/CWbemProviderGlue::GetAllInstancesAsynch",
+    "wmi.cwbemproviderglue_getallinstancesasynch"
+  ],
+  "old-location": "wmi\\cwbemproviderglue_getallinstancesasynch.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "58fe7757-c130-4859-9b60-d08bfb445eb1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CWbemProviderGlue interface [Windows Management Instrumentation],GetAllInstancesAsynch method, CWbemProviderGlue.GetAllInstancesAsynch, CWbemProviderGlue::GetAllInstancesAsynch, GetAllInstancesAsynch, GetAllInstancesAsynch method [Windows Management Instrumentation], GetAllInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallinstancesasynch, wbemglue/CWbemProviderGlue::GetAllInstancesAsynch, wmi.cwbemproviderglue_getallinstancesasynch",
+  "req.header": "wbemglue.h",
+  "req.include-header": "FwCommon.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FrameDyn.lib",
+  "req.dll": "FrameDynOS.dll; FrameDyn.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CWbemProviderGlue::GetAllInstancesAsynch",
+    "wbemglue/CWbemProviderGlue::GetAllInstancesAsynch"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FrameDynOS.dll",
+    "FrameDyn.dll"
+  ],
+  "api_name": [
+    "CWbemProviderGlue.GetAllInstancesAsynch"
+  ]
+}

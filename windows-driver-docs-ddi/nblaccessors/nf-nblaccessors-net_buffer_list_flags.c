@@ -1,0 +1,1 @@
+#define NET_BUFFER_LIST_FLAGS(_NBL) ((_NBL)->Flags)

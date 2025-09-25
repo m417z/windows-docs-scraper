@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFIoRequest2.GetEffectiveIoType",
+  "title": "IWDFIoRequest2::GetEffectiveIoType (wudfddi.h)",
+  "description": "The GetEffectiveIoType method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the IWDFIoRequest2 interface represents.",
+  "old-location": "wdf\\iwdfiorequest2_geteffectiveiotype.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFIoRequest2::GetEffectiveIoType"
+  ],
+  "ms.keywords": "GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetEffectiveIoType method, IWDFIoRequest2.GetEffectiveIoType, IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, wdf.iwdfiorequest2_geteffectiveiotype, wudfddi/IWDFIoRequest2::GetEffectiveIoType",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.9,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFIoRequest2::GetEffectiveIoType",
+    "wudfddi/IWDFIoRequest2::GetEffectiveIoType"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFIoRequest2::GetEffectiveIoType"
+  ]
+}

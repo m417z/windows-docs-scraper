@@ -1,0 +1,3 @@
+void D3DDDI_BUILD16_FROM_VERSION32(
+  v
+);

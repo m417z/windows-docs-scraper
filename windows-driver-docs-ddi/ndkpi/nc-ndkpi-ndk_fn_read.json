@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndkpi.NDK_FN_READ",
+  "title": "NDK_FN_READ (ndkpi.h)",
+  "description": "The NdkRead (NDK_FN_READ) function posts a read request on an NDK queue pair (QP).",
+  "old-location": "netvista\\ndk_fn_read.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDK_FN_READ callback function"
+  ],
+  "ms.keywords": "NDK_FN_READ, NDK_FN_READ callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_RDMA_READ_LOCAL_INVALIDATE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkRead, NdkRead callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRead, netvista.ndk_fn_read",
+  "req.header": "ndkpi.h",
+  "req.include-header": "Ndkpi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported,Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NDK_FN_READ",
+    "ndkpi/NDK_FN_READ"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ndkpi.h"
+  ],
+  "api_name": [
+    "NDK_FN_READ"
+  ]
+}

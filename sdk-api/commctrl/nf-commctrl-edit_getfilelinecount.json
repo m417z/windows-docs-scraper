@@ -1,0 +1,57 @@
+{
+  "UID": "NF:commctrl.Edit_GetFileLineCount",
+  "title": "Edit_GetFileLineCount macro (commctrl.h)",
+  "description": "Gets the number of file (or logical) lines (text wrap delimiters are ignored). You can use this macro or send the EM_GETFILELINECOUNT message explicitly.",
+  "helpviewer_keywords": [
+    "Edit_GetFileLineCount",
+    "Edit_GetFileLineCount macro [Windows Controls]",
+    "commctrl/Edit_GetFileLineCount",
+    "controls.edit_getfilelinecount"
+  ],
+  "old-location": "controls\\edit_getfilelinecount.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "FEE1018B-AE00-4934-9C64-AB7A679E6A8C",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "Edit_GetFileLineCount, Edit_GetFileLineCount macro [Windows Controls], commctrl/Edit_GetFileLineCount, controls.edit_getfilelinecount",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Edit_GetFileLineCount",
+    "commctrl/Edit_GetFileLineCount"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "Edit_GetFileLineCount"
+  ]
+}

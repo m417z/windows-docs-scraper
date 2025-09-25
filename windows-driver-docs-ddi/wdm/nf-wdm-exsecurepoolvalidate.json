@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wdm.ExSecurePoolValidate",
+  "tech.root": "kernel",
+  "title": "ExSecurePoolValidate",
+  "ms.date": "06/03/2021",
+  "targetos": "Windows",
+  "description": "The ExSecurePoolValidate function validates that the secure pool provided is indeed the one previously created.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "ExSecurePoolValidate"
+  ],
+  "f1_keywords": [
+    "ExSecurePoolValidate",
+    "wdm/ExSecurePoolValidate"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

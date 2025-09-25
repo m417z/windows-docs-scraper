@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winhttp.WinHttpAddRequestHeadersEx",
+  "title": "WinHttpAddRequestHeadersEx",
+  "description": "Adds one or more HTTP request headers to an HTTP request handle, allowing you to use separate name/value strings.",
+  "tech.root": "http",
+  "ms.date": "06/30/2021",
+  "req.construct-type": "function",
+  "req.header": "winhttp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winhttp.lib",
+  "req.dll": "Winhttp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "WinHttpAddRequestHeadersEx",
+    "winhttp/WinHttpAddRequestHeadersEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winhttp.dll"
+  ],
+  "api_name": [
+    "WinHttpAddRequestHeadersEx"
+  ]
+}

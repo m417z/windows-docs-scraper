@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSCONTEXT_DISPATCH",
+  "title": "PFNKSCONTEXT_DISPATCH (ks.h)",
+  "description": "A streaming minidriver's KStrContextDispatch routine is called to process IRP_MJ_POWER IRPs.",
+  "old-location": "stream\\kstrcontextdispatch.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSCONTEXT_DISPATCH callback function"
+  ],
+  "ms.keywords": "KStrContextDispatch, KStrContextDispatch routine [Streaming Media Devices], PFNKSCONTEXT_DISPATCH, ks/KStrContextDispatch, ksfunc_b607dd80-6da6-4364-9452-4c2e53c54343.xml, stream.kstrcontextdispatch",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSCONTEXT_DISPATCH",
+    "ks/PFNKSCONTEXT_DISPATCH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSCONTEXT_DISPATCH"
+  ]
+}

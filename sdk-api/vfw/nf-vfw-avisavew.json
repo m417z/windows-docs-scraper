@@ -1,0 +1,62 @@
+{
+  "UID": "NF:vfw.AVISaveW",
+  "title": "AVISaveW function (vfw.h)",
+  "description": "The AVISave function builds a file by combining data streams from other files or from memory. (Unicode)",
+  "helpviewer_keywords": [
+    "AVISave",
+    "AVISave function [Windows Multimedia]",
+    "AVISaveW",
+    "_win32_AVISave",
+    "multimedia.avisave",
+    "vfw/AVISave",
+    "vfw/AVISaveW"
+  ],
+  "old-location": "multimedia\\avisave.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "44200871-541c-4d67-ba12-61af06da8788",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AVISave, AVISave function [Windows Multimedia], AVISaveA, AVISaveW, _win32_AVISave, multimedia.avisave, vfw/AVISave, vfw/AVISaveA, vfw/AVISaveW",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "AVISaveW (Unicode) and AVISaveA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVISaveW",
+    "vfw/AVISaveW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll"
+  ],
+  "api_name": [
+    "AVISave",
+    "AVISaveA",
+    "AVISaveW"
+  ]
+}

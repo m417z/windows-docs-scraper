@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugSystemObjects2.GetCurrentThreadTeb",
+  "title": "IDebugSystemObjects2::GetCurrentThreadTeb (dbgeng.h)",
+  "description": "The GetCurrentThreadTeb method returns the location of the thread environment block (TEB) for the current thread. This method belongs to IDebugSystemObjects2.",
+  "old-location": "debugger\\getcurrentthreadteb.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugSystemObjects2::GetCurrentThreadTeb"
+  ],
+  "ms.keywords": "GetCurrentThreadTeb, GetCurrentThreadTeb method [Windows Debugging], GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects interface, GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects2.GetCurrentThreadTeb, IDebugSystemObjects2::GetCurrentThreadTeb, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects3::GetCurrentThreadTeb, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects4::GetCurrentThreadTeb, IDebugSystemObjects::GetCurrentThreadTeb, IDebugSystemObjects_d496c1cf-524f-469f-9cb6-1476f972ae9a.xml, dbgeng/IDebugSystemObjects2::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects3::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects4::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects::GetCurrentThreadTeb, debugger.getcurrentthreadteb",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugSystemObjects2::GetCurrentThreadTeb",
+    "dbgeng/IDebugSystemObjects2::GetCurrentThreadTeb"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugSystemObjects2::GetCurrentThreadTeb"
+  ]
+}

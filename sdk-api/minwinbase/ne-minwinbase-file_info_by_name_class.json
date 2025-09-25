@@ -1,0 +1,50 @@
+{
+  "UID": "NE:minwinbase._FILE_INFO_BY_NAME_CLASS",
+  "tech.root": "fs",
+  "title": "FILE_INFO_BY_NAME_CLASS (minwinbase.h)",
+  "ms.date": "01/08/2024",
+  "targetos": "Windows",
+  "description": "Identifies the type of file information that GetFileInformationByName should retrieve.",
+  "prerelease": true,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "minwinbase.h",
+  "req.include-header": "winnt.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "minwinbase.h"
+  ],
+  "api_name": [
+    "_FILE_INFO_BY_NAME_CLASS",
+    "PFILE_INFO_BY_NAME_CLASS",
+    "FILE_INFO_BY_NAME_CLASS"
+  ],
+  "f1_keywords": [
+    "_FILE_INFO_BY_NAME_CLASS",
+    "minwinbase/_FILE_INFO_BY_NAME_CLASS",
+    "PFILE_INFO_BY_NAME_CLASS",
+    "minwinbase/PFILE_INFO_BY_NAME_CLASS",
+    "FILE_INFO_BY_NAME_CLASS",
+    "minwinbase/FILE_INFO_BY_NAME_CLASS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_FILE_INFO_BY_NAME_CLASS"
+  ]
+}

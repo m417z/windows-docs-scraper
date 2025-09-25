@@ -1,0 +1,63 @@
+{
+  "UID": "NS:winldap.ldapvlvinfo",
+  "title": "LDAPVLVInfo (winldap.h)",
+  "description": "Used to set up the search parameters for a virtual list view (VLV) request control (LDAP_CONTROL_VLVREQUEST).",
+  "helpviewer_keywords": [
+    "*PLDAPVLVInfo",
+    "LDAPVLVInfo",
+    "LDAPVLVInfo structure [LDAP]",
+    "_ldap_ldapvlvinfo",
+    "ldap.ldapvlvinfo",
+    "winldap/LDAPVLVInfo"
+  ],
+  "old-location": "ldap\\ldapvlvinfo.htm",
+  "tech.root": "ldap",
+  "ms.assetid": "2018ecb1-9b32-4afa-ad20-5cdae396376d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, winldap/LDAPVLVInfo",
+  "req.header": "winldap.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LDAPVLVInfo, *PLDAPVLVInfo",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ldapvlvinfo",
+    "winldap/ldapvlvinfo",
+    "PLDAPVLVInfo",
+    "winldap/PLDAPVLVInfo",
+    "LDAPVLVInfo",
+    "winldap/LDAPVLVInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winldap.h"
+  ],
+  "api_name": [
+    "LDAPVLVInfo"
+  ]
+}

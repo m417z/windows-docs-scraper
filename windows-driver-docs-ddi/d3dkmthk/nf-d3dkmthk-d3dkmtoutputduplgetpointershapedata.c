@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOutputDuplGetPointerShapeData(
+  D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA *unnamedParam1
+);

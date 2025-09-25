@@ -1,0 +1,5 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      MixerPinId;
+  ULONG      Reserved;
+} SYSAUDIO_ATTACH_VIRTUAL_SOURCE, *PSYSAUDIO_ATTACH_VIRTUAL_SOURCE;

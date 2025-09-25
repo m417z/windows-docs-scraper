@@ -1,0 +1,3 @@
+typedef struct _DNS_SERVICE_CANCEL {
+  PVOID reserved;
+} DNS_SERVICE_CANCEL, *PDNS_SERVICE_CANCEL;

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:ndfapi.NdfExecuteDiagnosis",
+  "title": "NdfExecuteDiagnosis function (ndfapi.h)",
+  "description": "The NdfExecuteDiagnosis function is used to diagnose the root cause of the incident that has occurred.",
+  "helpviewer_keywords": [
+    "NdfExecuteDiagnosis",
+    "NdfExecuteDiagnosis function [NDF]",
+    "ndf.ndfexecutediagnosis",
+    "ndfapi/NdfExecuteDiagnosis"
+  ],
+  "old-location": "ndf\\ndfexecutediagnosis.htm",
+  "tech.root": "NDF",
+  "ms.assetid": "b65f30c3-53d5-4282-8d38-5723772f15fc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NdfExecuteDiagnosis, NdfExecuteDiagnosis function [NDF], ndf.ndfexecutediagnosis, ndfapi/NdfExecuteDiagnosis",
+  "req.header": "ndfapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ndfapi.lib",
+  "req.dll": "Ndfapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NdfExecuteDiagnosis",
+    "ndfapi/NdfExecuteDiagnosis"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-net-nfdapi-l1-1-1.dll",
+    "ext-ms-win-net-nfdapi-l1-1-0.dll",
+    "Ndfapi.dll"
+  ],
+  "api_name": [
+    "NdfExecuteDiagnosis"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmsdkidl.IWMProximityDetection.StartDetection",
+  "title": "IWMProximityDetection::StartDetection (wmsdkidl.h)",
+  "description": "The StartDetection method begins the proximity detection process. After calling this method, do not release the IWMProximityDetection until you receive the WMT_PROXIMITY_COMPLETED message.",
+  "helpviewer_keywords": [
+    "IWMProximityDetection interface [windows Media Format]",
+    "StartDetection method",
+    "IWMProximityDetection.StartDetection",
+    "IWMProximityDetection::StartDetection",
+    "IWMProximityDetectionStartDetection",
+    "StartDetection",
+    "StartDetection method [windows Media Format]",
+    "StartDetection method [windows Media Format]",
+    "IWMProximityDetection interface",
+    "wmformat.iwmproximitydetection_startdetection",
+    "wmsdkidl/IWMProximityDetection::StartDetection"
+  ],
+  "old-location": "wmformat\\iwmproximitydetection_startdetection.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "90db4712-cf3e-4526-b07b-ea74c521dbc3",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMProximityDetection interface [windows Media Format],StartDetection method, IWMProximityDetection.StartDetection, IWMProximityDetection::StartDetection, IWMProximityDetectionStartDetection, StartDetection, StartDetection method [windows Media Format], StartDetection method [windows Media Format],IWMProximityDetection interface, wmformat.iwmproximitydetection_startdetection, wmsdkidl/IWMProximityDetection::StartDetection",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WMStubDRM.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMProximityDetection::StartDetection",
+    "wmsdkidl/IWMProximityDetection::StartDetection"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMProximityDetection.StartDetection"
+  ]
+}

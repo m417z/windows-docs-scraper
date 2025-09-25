@@ -1,0 +1,1 @@
+DXGI_COLOR_SPACE_TYPE GetDXGIColorSpace();

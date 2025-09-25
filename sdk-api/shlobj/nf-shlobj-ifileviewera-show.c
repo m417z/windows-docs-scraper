@@ -1,0 +1,3 @@
+HRESULT Show(
+  LPFVSHOWINFO pvsi
+);

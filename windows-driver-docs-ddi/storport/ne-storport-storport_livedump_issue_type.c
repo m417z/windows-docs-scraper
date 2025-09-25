@@ -1,0 +1,4 @@
+typedef enum _STORPORT_LIVEDUMP_ISSUE_TYPE {
+  StorportLivedumpIssueTypeUndefined,
+  StorportLivedumpIssueTypeDevicePanic
+} STORPORT_LIVEDUMP_ISSUE_TYPE, *PSTORPORT_LIVEDUMP_ISSUE_TYPE;

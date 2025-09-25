@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugRegisters2.OutputRegisters",
+  "title": "IDebugRegisters2::OutputRegisters (dbgeng.h)",
+  "description": "The OutputRegisters method formats and sends the target's registers to the clients as output. This method belongs to the IDebugRegisters2 interface.",
+  "old-location": "debugger\\outputregisters.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugRegisters2::OutputRegisters"
+  ],
+  "ms.keywords": "IDebugRegisters interface [Windows Debugging],OutputRegisters method, IDebugRegisters2 interface [Windows Debugging],OutputRegisters method, IDebugRegisters2.OutputRegisters, IDebugRegisters2::OutputRegisters, IDebugRegisters::OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging],IDebugRegisters interface, OutputRegisters method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters, dbgeng/IDebugRegisters::OutputRegisters, debugger.outputregisters",
+  "req.header": "dbgeng.h",
+  "req.include-header": "DbgEng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugRegisters2::OutputRegisters",
+    "dbgeng/IDebugRegisters2::OutputRegisters"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugRegisters2::OutputRegisters"
+  ]
+}

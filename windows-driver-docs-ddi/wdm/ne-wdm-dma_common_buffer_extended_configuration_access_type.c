@@ -1,0 +1,6 @@
+typedef enum _DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE {
+  CommonBufferHardwareAccessReadOnly,
+  CommonBufferHardwareAccessWriteOnly,
+  CommonBufferHardwareAccessReadWrite,
+  CommonBufferHardwareAccessMax
+} DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE, *PDMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE;

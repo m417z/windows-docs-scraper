@@ -1,0 +1,46 @@
+{
+  "UID": "NC:wificx.EVT_WIFI_DEVICE_SEND_COMMAND",
+  "tech.root": "netvista",
+  "title": "EVT_WIFI_DEVICE_SEND_COMMAND",
+  "ms.date": "08/23/2021",
+  "targetos": "Windows",
+  "description": "A WiFiCx driver's EvtWifiDeviceSendCommand callback function retrieves and processes the command message sent by the WiFiCx framework.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wificx.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "wificx.h"
+  ],
+  "api_name": [
+    "EVT_WIFI_DEVICE_SEND_COMMAND"
+  ],
+  "f1_keywords": [
+    "EVT_WIFI_DEVICE_SEND_COMMAND",
+    "wificx/EVT_WIFI_DEVICE_SEND_COMMAND"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

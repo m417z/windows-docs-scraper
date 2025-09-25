@@ -1,0 +1,8 @@
+PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 Pfnd3d12ddiCheckexisitingresourceallocationinfo0022;
+
+VOID Pfnd3d12ddiCheckexisitingresourceallocationinfo0022(
+  D3D12DDI_HDEVICE unnamedParam1,
+  D3D12DDI_HRESOURCE unnamedParam2,
+  D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 *unnamedParam3
+)
+{...}

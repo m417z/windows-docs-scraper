@@ -1,0 +1,5 @@
+DRMEXPORT HRESULT UDAPICALL DRMAddRightWithUser(
+  [in] DRMPUBHANDLE hIssuanceLicense,
+  [in] DRMPUBHANDLE hRight,
+  [in] DRMPUBHANDLE hUser
+);

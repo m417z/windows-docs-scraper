@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoReportInterruptInactive",
+  "title": "IoReportInterruptInactive function (wdm.h)",
+  "description": "The IoReportInterruptInactive routine informs the operating system that a registered interrupt service routine (ISR) is inactive and is not expecting interrupt requests.",
+  "old-location": "kernel\\ioreportinterruptinactive.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoReportInterruptInactive function"
+  ],
+  "ms.keywords": "IoReportInterruptInactive, IoReportInterruptInactive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptinactive, wdm/IoReportInterruptInactive",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoReportInterruptInactive",
+    "wdm/IoReportInterruptInactive"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoReportInterruptInactive"
+  ]
+}

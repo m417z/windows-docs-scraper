@@ -1,0 +1,54 @@
+{
+  "UID": "NS:dxva._DXVA_Highlight",
+  "title": "_DXVA_Highlight (dxva.h)",
+  "description": "The DXVA_Highlight structure is sent by the host decoder to the accelerator to specify a highlighted rectangular area of a subpicture, and to create an alpha-blending surface with DCCMD data and a DPXD surface.",
+  "old-location": "display\\dxva_highlight.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXVA_Highlight structure"
+  ],
+  "ms.keywords": "*LPDXVA_Highlight, DXVA_Highlight, DXVA_Highlight structure [Display Devices], LPDXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], _DXVA_Highlight, display.dxva_highlight, dxva/DXVA_Highlight, dxva/LPDXVA_Highlight, dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml",
+  "req.header": "dxva.h",
+  "req.include-header": "Dxva.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DXVA_Highlight, *LPDXVA_Highlight",
+  "f1_keywords": [
+    "_DXVA_Highlight",
+    "dxva/_DXVA_Highlight",
+    "LPDXVA_Highlight",
+    "dxva/LPDXVA_Highlight",
+    "DXVA_Highlight",
+    "dxva/DXVA_Highlight"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dxva.h"
+  ],
+  "api_name": [
+    "_DXVA_Highlight",
+    "LPDXVA_Highlight",
+    "DXVA_Highlight"
+  ]
+}

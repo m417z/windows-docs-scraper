@@ -1,0 +1,1 @@
+PCCERT_CONTEXT GetPrivateKeyArchiveCertificate();

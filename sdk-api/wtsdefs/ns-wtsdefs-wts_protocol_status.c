@@ -1,0 +1,8 @@
+typedef struct _WTS_PROTOCOL_STATUS {
+  WTS_PROTOCOL_COUNTERS Output;
+  WTS_PROTOCOL_COUNTERS Input;
+  WTS_CACHE_STATS       Cache;
+  ULONG                 AsyncSignal;
+  ULONG                 AsyncSignalMask;
+  LARGE_INTEGER         Counters[WTS_MAX_COUNTERS];
+} _WTS_PROTOCOL_STATUS, WTS_PROTOCOL_STATUS, *PWTS_PROTOCOL_STATUS, _WRDS_PROTOCOL_STATUS;

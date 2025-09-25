@@ -1,0 +1,3 @@
+void ObDereferenceObject(
+  [in] a
+);

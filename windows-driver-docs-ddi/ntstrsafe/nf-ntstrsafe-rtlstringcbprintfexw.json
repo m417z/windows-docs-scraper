@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntstrsafe.RtlStringCbPrintfExW",
+  "title": "RtlStringCbPrintfExW function (ntstrsafe.h)",
+  "description": "Learn how the RtlStringCbPrintfExW and RtlStringCbPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.",
+  "old-location": "kernel\\rtlstringcbprintfex.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlStringCbPrintfExW function"
+  ],
+  "ms.keywords": "RtlStringCbPrintfEx, RtlStringCbPrintfExA, RtlStringCbPrintfExW, RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbprintfex, ntstrsafe/RtlStringCbPrintfExA, ntstrsafe/RtlStringCbPrintfExW, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml",
+  "req.header": "ntstrsafe.h",
+  "req.include-header": "Ntstrsafe.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows XP with Service Pack 1 (SP1).",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RtlStringCbPrintfExW (Unicode) and RtlStringCbPrintfExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "Any if strings being manipulated are always resident in memory, otherwise PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlStringCbPrintfExW",
+    "ntstrsafe/RtlStringCbPrintfExW"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "RtlStringCbPrintfExW"
+  ]
+}

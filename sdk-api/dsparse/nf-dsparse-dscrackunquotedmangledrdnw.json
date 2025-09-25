@@ -1,0 +1,62 @@
+{
+  "UID": "NF:dsparse.DsCrackUnquotedMangledRdnW",
+  "title": "DsCrackUnquotedMangledRdnW function (dsparse.h)",
+  "description": "The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used. (Unicode)",
+  "helpviewer_keywords": [
+    "DsCrackUnquotedMangledRdn",
+    "DsCrackUnquotedMangledRdn function [Active Directory]",
+    "DsCrackUnquotedMangledRdnW",
+    "_glines_dscrackunquotedmangledrdn",
+    "ad.dscrackunquotedmangledrdn",
+    "dsparse/DsCrackUnquotedMangledRdn",
+    "dsparse/DsCrackUnquotedMangledRdnW"
+  ],
+  "old-location": "ad\\dscrackunquotedmangledrdn.htm",
+  "tech.root": "ad",
+  "ms.assetid": "30711d2d-f541-46b4-a301-a0f9fc7d6676",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Active Directory], DsCrackUnquotedMangledRdnA, DsCrackUnquotedMangledRdnW, _glines_dscrackunquotedmangledrdn, ad.dscrackunquotedmangledrdn, dsparse/DsCrackUnquotedMangledRdn, dsparse/DsCrackUnquotedMangledRdnA, dsparse/DsCrackUnquotedMangledRdnW",
+  "req.header": "dsparse.h",
+  "req.include-header": "Ntdsapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DsCrackUnquotedMangledRdnW (Unicode) and DsCrackUnquotedMangledRdnA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntdsapi.lib",
+  "req.dll": "Ntdsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DsCrackUnquotedMangledRdnW",
+    "dsparse/DsCrackUnquotedMangledRdnW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdsapi.dll"
+  ],
+  "api_name": [
+    "DsCrackUnquotedMangledRdn",
+    "DsCrackUnquotedMangledRdnA",
+    "DsCrackUnquotedMangledRdnW"
+  ]
+}

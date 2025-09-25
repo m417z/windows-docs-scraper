@@ -1,0 +1,4 @@
+typedef struct _USB_BUS_INFORMATION_LEVEL_0 {
+  ULONG TotalBandwidth;
+  ULONG ConsumedBandwidth;
+} USB_BUS_INFORMATION_LEVEL_0, *PUSB_BUS_INFORMATION_LEVEL_0;

@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntdddisk.IOCTL_DISK_GET_DRIVE_LAYOUT_EX",
+  "title": "IOCTL_DISK_GET_DRIVE_LAYOUT_EX (ntdddisk.h)",
+  "description": "The IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL returns information about the number of partitions, disk signature, and features of each partition on a disk.",
+  "old-location": "storage\\ioctl_disk_get_drive_layout_ex.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL"
+  ],
+  "ms.keywords": "IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Storage Devices], k307_81993d9b-900f-412c-ac07-f0765114141f.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX, storage.ioctl_disk_get_drive_layout_ex",
+  "req.header": "ntdddisk.h",
+  "req.include-header": "Ntdddisk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_DISK_GET_DRIVE_LAYOUT_EX",
+    "ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntdddisk.h"
+  ],
+  "api_name": [
+    "IOCTL_DISK_GET_DRIVE_LAYOUT_EX"
+  ]
+}

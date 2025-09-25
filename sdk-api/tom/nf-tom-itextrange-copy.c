@@ -1,0 +1,3 @@
+HRESULT Copy(
+  VARIANT *pVar
+);

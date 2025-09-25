@@ -1,0 +1,4 @@
+typedef struct _ACTRL_ALISTW {
+  ULONG                  cEntries;
+  PACTRL_PROPERTY_ENTRYW pPropertyAccessList;
+} ACTRL_ACCESSW, *PACTRL_ACCESSW, ACTRL_AUDITW, *PACTRL_AUDITW;

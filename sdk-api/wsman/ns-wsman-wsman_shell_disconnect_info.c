@@ -1,0 +1,3 @@
+typedef struct _WSMAN_SHELL_DISCONNECT_INFO {
+  DWORD idleTimeoutMs;
+} WSMAN_SHELL_DISCONNECT_INFO;

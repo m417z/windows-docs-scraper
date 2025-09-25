@@ -1,0 +1,61 @@
+{
+  "UID": "NF:setupapi.SetupDuplicateDiskSpaceListW",
+  "title": "SetupDuplicateDiskSpaceListW function (setupapi.h)",
+  "description": "The SetupDuplicateDiskSpaceList function duplicates a disk-space list as a new independent disk-space list. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupDuplicateDiskSpaceList",
+    "SetupDuplicateDiskSpaceList function [Setup API]",
+    "SetupDuplicateDiskSpaceListW",
+    "setup.setupduplicatediskspacelist",
+    "setupapi/SetupDuplicateDiskSpaceList",
+    "setupapi/SetupDuplicateDiskSpaceListW"
+  ],
+  "old-location": "setup\\setupduplicatediskspacelist.htm",
+  "tech.root": "setup",
+  "ms.assetid": "92d18c15-e8e2-4e89-8d2f-7c87c948603f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupDuplicateDiskSpaceList, SetupDuplicateDiskSpaceList function [Setup API], SetupDuplicateDiskSpaceListA, SetupDuplicateDiskSpaceListW, setup.setupduplicatediskspacelist, setupapi/SetupDuplicateDiskSpaceList, setupapi/SetupDuplicateDiskSpaceListA, setupapi/SetupDuplicateDiskSpaceListW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupDuplicateDiskSpaceListW (Unicode) and SetupDuplicateDiskSpaceListA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDuplicateDiskSpaceListW",
+    "setupapi/SetupDuplicateDiskSpaceListW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDuplicateDiskSpaceList",
+    "SetupDuplicateDiskSpaceListA",
+    "SetupDuplicateDiskSpaceListW"
+  ]
+}

@@ -1,0 +1,34 @@
+# EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO callback function
+
+## Description
+
+## Parameters
+
+### `ServiceDevice`
+
+### `SessionContext`
+
+### `Request`
+
+## Syntax
+
+```cpp
+//Declaration
+
+EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO EvtTrProcessOtherSecureServiceIo;
+
+// Definition
+
+VOID EvtTrProcessOtherSecureServiceIo
+(
+    WDFDEVICE ServiceDevice
+    WDFOBJECT SessionContext
+    WDFREQUEST Request
+)
+{...}
+
+```
+
+## Remarks
+
+## See also

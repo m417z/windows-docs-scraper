@@ -1,0 +1,60 @@
+{
+  "UID": "NF:iphlpapi.GetUdpStatisticsEx",
+  "title": "GetUdpStatisticsEx function (iphlpapi.h)",
+  "description": "The GetUdpStatisticsEx function retrieves the User Datagram Protocol (UDP) statistics for the current computer.",
+  "helpviewer_keywords": [
+    "AF_INET",
+    "AF_INET6",
+    "GetUdpStatisticsEx",
+    "GetUdpStatisticsEx function [IP Helper]",
+    "_iphlp_getudpstatisticsex",
+    "iphlp.getudpstatisticsex",
+    "iphlpapi/GetUdpStatisticsEx"
+  ],
+  "old-location": "iphlp\\getudpstatisticsex.htm",
+  "tech.root": "IpHlp",
+  "ms.assetid": "9de7fa95-6bda-4fcc-b563-aed2e61fc1c7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function [IP Helper], _iphlp_getudpstatisticsex, iphlp.getudpstatisticsex, iphlpapi/GetUdpStatisticsEx",
+  "req.header": "iphlpapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetUdpStatisticsEx",
+    "iphlpapi/GetUdpStatisticsEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "GetUdpStatisticsEx"
+  ]
+}

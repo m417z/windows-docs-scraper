@@ -1,0 +1,80 @@
+{
+  "UID": "NS:wlanapi._WLAN_AVAILABLE_NETWORK",
+  "title": "WLAN_AVAILABLE_NETWORK (wlanapi.h)",
+  "description": "Contains information about an available wireless network. (WLAN_AVAILABLE_NETWORK)",
+  "helpviewer_keywords": [
+    "*PWLAN_AVAILABLE_NETWORK",
+    "PWLAN_AVAILABLE_NETWORK",
+    "PWLAN_AVAILABLE_NETWORK structure pointer [NativeWIFI]",
+    "WLAN_AVAILABLE_NETWORK",
+    "WLAN_AVAILABLE_NETWORK structure [NativeWIFI]",
+    "WLAN_AVAILABLE_NETWORK_CONNECTED",
+    "WLAN_AVAILABLE_NETWORK_HAS_PROFILE",
+    "dot11_phy_type_IHV_end",
+    "dot11_phy_type_IHV_start",
+    "dot11_phy_type_any",
+    "dot11_phy_type_dsss",
+    "dot11_phy_type_erp",
+    "dot11_phy_type_fhss",
+    "dot11_phy_type_hrdsss",
+    "dot11_phy_type_ht",
+    "dot11_phy_type_irbaseband",
+    "dot11_phy_type_ofdm",
+    "dot11_phy_type_unknown",
+    "dot11_phy_type_vht",
+    "nativewifi.wlan_visible_network",
+    "nwifi.wlan_available_network",
+    "wlanapi/PWLAN_AVAILABLE_NETWORK",
+    "wlanapi/WLAN_AVAILABLE_NETWORK"
+  ],
+  "old-location": "nwifi\\wlan_available_network.htm",
+  "tech.root": "nwifi",
+  "ms.assetid": "82883cea-515b-426d-9961-c144ce99b3db",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE_NETWORK structure pointer [NativeWIFI], WLAN_AVAILABLE_NETWORK, WLAN_AVAILABLE_NETWORK structure [NativeWIFI], WLAN_AVAILABLE_NETWORK_CONNECTED, WLAN_AVAILABLE_NETWORK_HAS_PROFILE, dot11_phy_type_IHV_end, dot11_phy_type_IHV_start, dot11_phy_type_any, dot11_phy_type_dsss, dot11_phy_type_erp, dot11_phy_type_fhss, dot11_phy_type_hrdsss, dot11_phy_type_ht, dot11_phy_type_irbaseband, dot11_phy_type_ofdm, dot11_phy_type_unknown, dot11_phy_type_vht, nativewifi.wlan_visible_network, nwifi.wlan_available_network, wlanapi/PWLAN_AVAILABLE_NETWORK, wlanapi/WLAN_AVAILABLE_NETWORK",
+  "req.header": "wlanapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP3 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WLAN_AVAILABLE_NETWORK, *PWLAN_AVAILABLE_NETWORK",
+  "req.redist": "Wireless LAN API for Windows XP with SP2",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_WLAN_AVAILABLE_NETWORK",
+    "wlanapi/_WLAN_AVAILABLE_NETWORK",
+    "PWLAN_AVAILABLE_NETWORK",
+    "wlanapi/PWLAN_AVAILABLE_NETWORK",
+    "WLAN_AVAILABLE_NETWORK",
+    "wlanapi/WLAN_AVAILABLE_NETWORK"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wlanapi.h"
+  ],
+  "api_name": [
+    "WLAN_AVAILABLE_NETWORK"
+  ]
+}

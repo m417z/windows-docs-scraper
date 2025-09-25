@@ -1,0 +1,3 @@
+SNMPAPI_STATUS SNMPAPI_CALL SnmpFreeContext(
+  [in] HSNMP_CONTEXT context
+);

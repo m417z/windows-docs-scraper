@@ -1,0 +1,5 @@
+typedef struct _WDF_TASK_SEND_OPTIONS {
+  ULONG    Size;
+  ULONG    Flags;
+  LONGLONG Timeout;
+} WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS;

@@ -1,0 +1,3 @@
+HRESULT ValidateQueryFlags(
+  long lFlags
+);

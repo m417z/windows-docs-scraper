@@ -1,0 +1,3 @@
+void GetSource(
+  IWICBitmapSource **wicBitmapSource
+);

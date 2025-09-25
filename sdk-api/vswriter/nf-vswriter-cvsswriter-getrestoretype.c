@@ -1,0 +1,1 @@
+VSS_RESTORE_TYPE GetRestoreType();

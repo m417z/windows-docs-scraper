@@ -1,0 +1,55 @@
+{
+  "UID": "NS:ws2ipdef.icmp_error_info",
+  "title": "ICMP_ERROR_INFO",
+  "author": "windows-sdk-content",
+  "description": "Used to store received ICMP error information.",
+  "tech.root": "WinSock",
+  "ms.author": "windowssdkdev",
+  "ms.date": "10/04/2019",
+  "ms.keywords": "*PICMP_ERROR_INFO, ICMP_ERROR_INFO [Winsock], ICMP_ERROR_INFO, ICMP_ERROR_INFO structure [Winsock], PICMP_ERROR_INFO, PICMP_ERROR_INFO structure pointer [Winsock], icmp_error_info, icmp_error_info structure [Winsock], ws2ipdef.icmp_error_info, ws2ipdef/PICMP_ERROR_INFO, ws2ipdef/icmp_error_info, ws2ipdef/PICMP_ERROR_INFO, ws2ipdef/icmp_error_info",
+  "req.header": "ws2ipdef.h",
+  "req.include-header": "ws2tcpip.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041)",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ICMP_ERROR_INFO, *PICMP_ERROR_INFO",
+  "req.redist": null,
+  "f1_keywords": [
+    "icmp_error_info",
+    "ws2ipdef/icmp_error_info",
+    "PICMP_ERROR_INFO",
+    "ws2ipdef/PICMP_ERROR_INFO",
+    "ICMP_ERROR_INFO",
+    "ws2ipdef/ICMP_ERROR_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ws2ipdef.h",
+    "ws2tcpip.h"
+  ],
+  "api_name": [
+    "ICMP_ERROR_INFO"
+  ]
+}

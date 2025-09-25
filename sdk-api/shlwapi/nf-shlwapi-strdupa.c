@@ -1,0 +1,3 @@
+PSTR StrDupA(
+  PCSTR pszSrch
+);

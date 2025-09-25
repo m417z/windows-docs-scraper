@@ -1,0 +1,3 @@
+HRESULT GetLatencyClock(
+  IReferenceClock **ppClock
+);

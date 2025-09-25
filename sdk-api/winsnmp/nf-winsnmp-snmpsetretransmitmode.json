@@ -1,0 +1,60 @@
+{
+  "UID": "NF:winsnmp.SnmpSetRetransmitMode",
+  "title": "SnmpSetRetransmitMode function (winsnmp.h)",
+  "description": "The WinSNMP SnmpSetRetransmitMode function enables a WinSNMP application to set the retransmission mode.",
+  "helpviewer_keywords": [
+    "SNMPAPI_OFF",
+    "SNMPAPI_ON",
+    "SnmpSetRetransmitMode",
+    "SnmpSetRetransmitMode function [SNMP]",
+    "_snmp_snmpsetretransmitmode",
+    "snmp.snmpsetretransmitmode",
+    "winsnmp/SnmpSetRetransmitMode"
+  ],
+  "old-location": "snmp\\snmpsetretransmitmode.htm",
+  "tech.root": "SNMP",
+  "ms.assetid": "d206ba15-a068-4579-bd6a-ab2444a723e0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SNMPAPI_OFF, SNMPAPI_ON, SnmpSetRetransmitMode, SnmpSetRetransmitMode function [SNMP], _snmp_snmpsetretransmitmode, snmp.snmpsetretransmitmode, winsnmp/SnmpSetRetransmitMode",
+  "req.header": "winsnmp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wsnmp32.lib",
+  "req.dll": "Wsnmp32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SnmpSetRetransmitMode",
+    "winsnmp/SnmpSetRetransmitMode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wsnmp32.dll"
+  ],
+  "api_name": [
+    "SnmpSetRetransmitMode"
+  ]
+}

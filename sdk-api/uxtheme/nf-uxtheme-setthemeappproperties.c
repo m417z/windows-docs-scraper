@@ -1,0 +1,3 @@
+void SetThemeAppProperties(
+  DWORD dwFlags
+);

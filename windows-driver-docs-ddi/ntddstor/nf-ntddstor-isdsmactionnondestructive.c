@@ -1,0 +1,3 @@
+void IsDsmActionNonDestructive(
+  _Action
+);

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngCreateWnd",
+  "title": "EngCreateWnd function (winddi.h)",
+  "description": "The EngCreateWnd function creates a WNDOBJ structure for the window referenced by hwnd.",
+  "helpviewer_keywords": [
+    "EngCreateWnd",
+    "EngCreateWnd function [Display Devices]",
+    "display.engcreatewnd",
+    "gdifncs_71294a09-97a4-41c5-9ddb-2295febc73a2.xml",
+    "winddi/EngCreateWnd"
+  ],
+  "old-location": "display\\engcreatewnd.htm",
+  "tech.root": "display",
+  "ms.assetid": "14b1cced-32d0-4ba8-be7c-e626bef37e3f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngCreateWnd, EngCreateWnd function [Display Devices], display.engcreatewnd, gdifncs_71294a09-97a4-41c5-9ddb-2295febc73a2.xml, winddi/EngCreateWnd",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngCreateWnd",
+    "winddi/EngCreateWnd"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngCreateWnd"
+  ]
+}

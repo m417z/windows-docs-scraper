@@ -1,0 +1,57 @@
+{
+  "UID": "NF:webservices.WsOpenListener",
+  "title": "WsOpenListener function (webservices.h)",
+  "description": "Initiates &quot;listening&quot; on a specified address. Once a listener is opened channels can be accepted from it. If the open is successful the Listener must be closed using the WsCloseListener function before Listener resources can be released.",
+  "helpviewer_keywords": [
+    "WsOpenListener",
+    "WsOpenListener function [Web Services for Windows]",
+    "webservices/WsOpenListener",
+    "wsw.wsopenlistener"
+  ],
+  "old-location": "wsw\\wsopenlistener.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "36226881-3fe7-4510-b147-7ee30146482c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WebServices.lib",
+  "req.dll": "WebServices.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WsOpenListener",
+    "webservices/WsOpenListener"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WebServices.dll"
+  ],
+  "api_name": [
+    "WsOpenListener"
+  ]
+}

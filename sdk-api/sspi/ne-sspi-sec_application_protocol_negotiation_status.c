@@ -1,0 +1,5 @@
+typedef enum _SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS {
+  SecApplicationProtocolNegotiationStatus_None,
+  SecApplicationProtocolNegotiationStatus_Success,
+  SecApplicationProtocolNegotiationStatus_SelectedClientOnly
+} SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS;

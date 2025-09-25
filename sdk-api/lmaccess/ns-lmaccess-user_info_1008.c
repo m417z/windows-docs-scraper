@@ -1,0 +1,3 @@
+typedef struct _USER_INFO_1008 {
+  DWORD usri1008_flags;
+} USER_INFO_1008, *PUSER_INFO_1008, *LPUSER_INFO_1008;

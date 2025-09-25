@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTOpenAdapterFromGdiDisplayName(
+  D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME *unnamedParam1
+);

@@ -1,0 +1,70 @@
+{
+  "UID": "NF:certenroll.ISignerCertificate.put_Silent",
+  "title": "ISignerCertificate::put_Silent (certenroll.h)",
+  "description": "Specifies or retrieves a Boolean value that indicates whether the user is notified when the private key is used to sign a certificate request. (Put)",
+  "helpviewer_keywords": [
+    "ISignerCertificate interface [Security]",
+    "Silent property",
+    "ISignerCertificate.Silent",
+    "ISignerCertificate.put_Silent",
+    "ISignerCertificate::Silent",
+    "ISignerCertificate::get_Silent",
+    "ISignerCertificate::put_Silent",
+    "Silent property [Security]",
+    "Silent property [Security]",
+    "ISignerCertificate interface",
+    "certenroll/ISignerCertificate::Silent",
+    "certenroll/ISignerCertificate::get_Silent",
+    "certenroll/ISignerCertificate::put_Silent",
+    "put_Silent",
+    "security.isignercertificate_silent_property"
+  ],
+  "old-location": "security\\isignercertificate_silent_property.htm",
+  "tech.root": "security",
+  "ms.assetid": "b598d4a2-d53a-4091-a059-f9674acf9318",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ISignerCertificate interface [Security],Silent property, ISignerCertificate.Silent, ISignerCertificate.put_Silent, ISignerCertificate::Silent, ISignerCertificate::get_Silent, ISignerCertificate::put_Silent, Silent property [Security], Silent property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Silent, certenroll/ISignerCertificate::get_Silent, certenroll/ISignerCertificate::put_Silent, put_Silent, security.isignercertificate_silent_property",
+  "req.header": "certenroll.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "CertEnroll.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ISignerCertificate::put_Silent",
+    "certenroll/ISignerCertificate::put_Silent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "CertEnroll.dll"
+  ],
+  "api_name": [
+    "ISignerCertificate.Silent",
+    "ISignerCertificate.get_Silent",
+    "ISignerCertificate.put_Silent"
+  ]
+}

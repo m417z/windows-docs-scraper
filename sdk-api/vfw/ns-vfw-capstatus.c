@@ -1,0 +1,20 @@
+typedef struct tagCapStatus {
+  UINT     uiImageWidth;
+  UINT     uiImageHeight;
+  BOOL     fLiveWindow;
+  BOOL     fOverlayWindow;
+  BOOL     fScale;
+  POINT    ptScroll;
+  BOOL     fUsingDefaultPalette;
+  BOOL     fAudioHardware;
+  BOOL     fCapFileExists;
+  DWORD    dwCurrentVideoFrame;
+  DWORD    dwCurrentVideoFramesDropped;
+  DWORD    dwCurrentWaveSamples;
+  DWORD    dwCurrentTimeElapsedMS;
+  HPALETTE hPalCurrent;
+  BOOL     fCapturingNow;
+  DWORD    dwReturn;
+  UINT     wNumVideoAllocated;
+  UINT     wNumAudioAllocated;
+} CAPSTATUS, *PCAPSTATUS, *LPCAPSTATUS;

@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddsysenv.IOCTL_SYSENV_GET_VARIABLE",
+  "title": "IOCTL_SYSENV_GET_VARIABLE (ntddsysenv.h)",
+  "description": "Gets the value of the specified system environment variables using SysEnv device.",
+  "old-location": "kernel\\ioctl_ioctl_sysenv_get_variable.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IOCTL_SYSENV_GET_VARIABLE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SYSENV_GET_VARIABLE, IOCTL_SYSENV_GET_VARIABLE control, IOCTL_SYSENV_GET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_get_variable, ntddsysenv/IOCTL_SYSENV_GET_VARIABLE",
+  "req.header": "ntddsysenv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SYSENV_GET_VARIABLE",
+    "ntddsysenv/IOCTL_SYSENV_GET_VARIABLE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddsysenv.h"
+  ],
+  "api_name": [
+    "IOCTL_SYSENV_GET_VARIABLE"
+  ]
+}

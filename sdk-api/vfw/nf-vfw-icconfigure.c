@@ -1,0 +1,4 @@
+DWORD ICConfigure(
+     hic,
+     hwnd
+);

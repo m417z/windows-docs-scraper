@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ufxbase.IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE",
+  "title": "IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE (ufxbase.h)",
+  "description": "The USB function class extension sends this request to the client driver to update to the endpoint descriptor for the specified endpoint.",
+  "old-location": "buses\\ioctl_internal_usbfn_descriptor_update.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], buses.ioctl_internal_usbfn_descriptor_update, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE",
+  "req.header": "ufxbase.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE",
+    "ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ufxbase.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE"
+  ]
+}

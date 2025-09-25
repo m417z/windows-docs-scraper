@@ -1,0 +1,70 @@
+{
+  "UID": "NS:winnt._OBJECT_TYPE_LIST",
+  "title": "OBJECT_TYPE_LIST (winnt.h)",
+  "description": "Identifies an object type element in a hierarchy of object types.",
+  "helpviewer_keywords": [
+    "*POBJECT_TYPE_LIST",
+    "ACCESS_OBJECT_GUID",
+    "ACCESS_PROPERTY_GUID",
+    "ACCESS_PROPERTY_SET_GUID",
+    "OBJECT_TYPE_LIST",
+    "OBJECT_TYPE_LIST structure [Security]",
+    "POBJECT_TYPE_LIST",
+    "POBJECT_TYPE_LIST structure pointer [Security]",
+    "_OBJECT_TYPE_LIST",
+    "_win32_object_type_list_str",
+    "security.object_type_list",
+    "winnt/OBJECT_TYPE_LIST",
+    "winnt/POBJECT_TYPE_LIST"
+  ],
+  "old-location": "security\\object_type_list.htm",
+  "tech.root": "security",
+  "ms.assetid": "c729ff1a-65f3-4f6f-84dd-5700aead75ce",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*POBJECT_TYPE_LIST, ACCESS_OBJECT_GUID, ACCESS_PROPERTY_GUID, ACCESS_PROPERTY_SET_GUID, OBJECT_TYPE_LIST, OBJECT_TYPE_LIST structure [Security], POBJECT_TYPE_LIST, POBJECT_TYPE_LIST structure pointer [Security], _OBJECT_TYPE_LIST, _win32_object_type_list_str, security.object_type_list, winnt/OBJECT_TYPE_LIST, winnt/POBJECT_TYPE_LIST",
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_OBJECT_TYPE_LIST",
+    "winnt/_OBJECT_TYPE_LIST",
+    "POBJECT_TYPE_LIST",
+    "winnt/POBJECT_TYPE_LIST",
+    "OBJECT_TYPE_LIST",
+    "winnt/OBJECT_TYPE_LIST"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winnt.h"
+  ],
+  "api_name": [
+    "OBJECT_TYPE_LIST"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:bits.IBackgroundCopyJob.SetMinimumRetryDelay",
+  "title": "IBackgroundCopyJob::SetMinimumRetryDelay (bits.h)",
+  "description": "Sets the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.",
+  "helpviewer_keywords": [
+    "IBackgroundCopyJob interface [BITS]",
+    "SetMinimumRetryDelay method",
+    "IBackgroundCopyJob.SetMinimumRetryDelay",
+    "IBackgroundCopyJob::SetMinimumRetryDelay",
+    "SetMinimumRetryDelay",
+    "SetMinimumRetryDelay method [BITS]",
+    "SetMinimumRetryDelay method [BITS]",
+    "IBackgroundCopyJob interface",
+    "_drz_ibackgroundcopyjob_setminimumretrydelay",
+    "bits.ibackgroundcopyjob_setminimumretrydelay",
+    "bits/IBackgroundCopyJob::SetMinimumRetryDelay"
+  ],
+  "old-location": "bits\\ibackgroundcopyjob_setminimumretrydelay.htm",
+  "tech.root": "Bits",
+  "ms.assetid": "52d2b7a1-6f68-424e-9c0b-a9f8df4a5ad6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IBackgroundCopyJob interface [BITS],SetMinimumRetryDelay method, IBackgroundCopyJob.SetMinimumRetryDelay, IBackgroundCopyJob::SetMinimumRetryDelay, SetMinimumRetryDelay, SetMinimumRetryDelay method [BITS], SetMinimumRetryDelay method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setminimumretrydelay, bits.ibackgroundcopyjob_setminimumretrydelay, bits/IBackgroundCopyJob::SetMinimumRetryDelay",
+  "req.header": "bits.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Bits.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bits.lib",
+  "req.dll": "QmgrPrxy.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IBackgroundCopyJob::SetMinimumRetryDelay",
+    "bits/IBackgroundCopyJob::SetMinimumRetryDelay"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "QmgrPrxy.dll"
+  ],
+  "api_name": [
+    "IBackgroundCopyJob.SetMinimumRetryDelay"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "UID": "NS:winsplp.BranchOfficeJobDataPrinted",
+  "title": "BranchOfficeJobDataPrinted (winsplp.h)",
+  "description": "Contains the necessary data for logging a branch office job completed event on a remote server. This is based on standard job-related data available to the spooler.",
+  "old-location": "print\\branchofficejobdataprinted.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "BranchOfficeJobDataPrinted structure"
+  ],
+  "ms.keywords": "*PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], print.branchofficejobdataprinted, winsplp/BranchOfficeJobDataPrinted, winsplp/PBranchOfficeJobDataPrinted",
+  "req.header": "winsplp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted",
+  "f1_keywords": [
+    "PBranchOfficeJobDataPrinted",
+    "winsplp/PBranchOfficeJobDataPrinted",
+    "BranchOfficeJobDataPrinted",
+    "winsplp/BranchOfficeJobDataPrinted"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winsplp.h"
+  ],
+  "api_name": [
+    "PBranchOfficeJobDataPrinted",
+    "BranchOfficeJobDataPrinted"
+  ]
+}

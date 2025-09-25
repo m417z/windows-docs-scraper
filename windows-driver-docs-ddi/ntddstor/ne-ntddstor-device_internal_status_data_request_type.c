@@ -1,0 +1,7 @@
+typedef enum _DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE {
+  DeviceInternalStatusDataRequestTypeUndefined,
+  DeviceCurrentInternalStatusDataHeader,
+  DeviceCurrentInternalStatusData,
+  DeviceSavedInternalStatusDataHeader,
+  DeviceSavedInternalStatusData
+} DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE;

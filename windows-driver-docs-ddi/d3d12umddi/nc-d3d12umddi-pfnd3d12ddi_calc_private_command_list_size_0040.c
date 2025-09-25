@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_COMMAND_LIST_SIZE_0040 Pfnd3d12ddiCalcPrivateCommandListSize0040;
+
+SIZE_T Pfnd3d12ddiCalcPrivateCommandListSize0040(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_COMMAND_LIST_0040 *unnamedParam2
+)
+{...}

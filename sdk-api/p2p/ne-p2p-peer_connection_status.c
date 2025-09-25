@@ -1,0 +1,5 @@
+typedef enum peer_connection_status_tag {
+  PEER_CONNECTED = 1,
+  PEER_DISCONNECTED = 2,
+  PEER_CONNECTION_FAILED = 3
+} PEER_CONNECTION_STATUS;

@@ -1,0 +1,69 @@
+{
+  "UID": "NF:identityprovider.IIdentityProvider.Advise",
+  "title": "IIdentityProvider::Advise (identityprovider.h)",
+  "description": "Allows a calling application to specify the list of identity events for which the application is to be notified.",
+  "helpviewer_keywords": [
+    "Advise",
+    "Advise method [Security]",
+    "Advise method [Security]",
+    "IIdentityProvider interface",
+    "IDENTITY_ASSOCIATED",
+    "IDENTITY_CREATED",
+    "IDENTITY_DELETED",
+    "IDENTITY_DISASSOCIATED",
+    "IDENTITY_IMPORTED",
+    "IDENTITY_PROPCHANGE",
+    "IIdentityProvider interface [Security]",
+    "Advise method",
+    "IIdentityProvider.Advise",
+    "IIdentityProvider::Advise",
+    "identityprovider/IIdentityProvider::Advise",
+    "security.iidentityprovider_advise"
+  ],
+  "old-location": "security\\iidentityprovider_advise.htm",
+  "tech.root": "security",
+  "ms.assetid": "fcac9d30-64ed-4746-aacc-ee659c2b2642",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "Advise, Advise method [Security], Advise method [Security],IIdentityProvider interface, IDENTITY_ASSOCIATED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityProvider interface [Security],Advise method, IIdentityProvider.Advise, IIdentityProvider::Advise, identityprovider/IIdentityProvider::Advise, security.iidentityprovider_advise",
+  "req.header": "identityprovider.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Identityprovider.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IIdentityProvider::Advise",
+    "identityprovider/IIdentityProvider::Advise"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Identityprovider.h"
+  ],
+  "api_name": [
+    "IIdentityProvider.Advise"
+  ]
+}

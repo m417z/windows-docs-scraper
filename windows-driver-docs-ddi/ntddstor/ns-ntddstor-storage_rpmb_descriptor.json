@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddstor._STORAGE_RPMB_DESCRIPTOR",
+  "title": "STORAGE_RPMB_DESCRIPTOR",
+  "ms.date": "10/28/2020",
+  "tech.root": "storage",
+  "targetos": "Windows",
+  "description": "The STORAGE_RPMB_DESCRIPTOR structure contains information about a device's Replay Protected Memory Block (RPMB) support.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STORAGE_RPMB_DESCRIPTOR, *PSTORAGE_RPMB_DESCRIPTOR",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_STORAGE_RPMB_DESCRIPTOR",
+    "PSTORAGE_RPMB_DESCRIPTOR",
+    "STORAGE_RPMB_DESCRIPTOR"
+  ],
+  "f1_keywords": [
+    "_STORAGE_RPMB_DESCRIPTOR",
+    "ntddstor/_STORAGE_RPMB_DESCRIPTOR",
+    "PSTORAGE_RPMB_DESCRIPTOR",
+    "ntddstor/PSTORAGE_RPMB_DESCRIPTOR",
+    "STORAGE_RPMB_DESCRIPTOR",
+    "ntddstor/STORAGE_RPMB_DESCRIPTOR"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

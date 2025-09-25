@@ -1,0 +1,3 @@
+NTSTATUS VslDeleteSecureSection(
+  HANDLE GlobalHandle
+);

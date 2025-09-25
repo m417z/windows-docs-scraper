@@ -1,0 +1,3 @@
+UINT MCIWndGetStyles(
+     hwnd
+);

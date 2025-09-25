@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dwrite.DWriteCreateFactory",
+  "title": "DWriteCreateFactory function (dwrite.h)",
+  "description": "Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.",
+  "helpviewer_keywords": [
+    "DWriteCreateFactory",
+    "DWriteCreateFactory function [Direct Write]",
+    "directwrite.dwritecreatefactory",
+    "dwrite/DWriteCreateFactory"
+  ],
+  "old-location": "directwrite\\dwritecreatefactory.htm",
+  "tech.root": "DirectWrite",
+  "ms.assetid": "c74c0906-0a5c-4ab8-87cf-a195566e1d9e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DWriteCreateFactory, DWriteCreateFactory function [Direct Write], directwrite.dwritecreatefactory, dwrite/DWriteCreateFactory",
+  "req.header": "dwrite.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dwrite.lib",
+  "req.dll": "Dwrite.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DWriteCreateFactory",
+    "dwrite/DWriteCreateFactory"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dwrite.dll"
+  ],
+  "api_name": [
+    "DWriteCreateFactory"
+  ]
+}

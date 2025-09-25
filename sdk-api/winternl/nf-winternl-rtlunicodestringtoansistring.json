@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winternl.RtlUnicodeStringToAnsiString",
+  "title": "RtlUnicodeStringToAnsiString function (winternl.h)",
+  "description": "Converts the specified Unicode source string into an ANSI string.",
+  "helpviewer_keywords": [
+    "FALSE",
+    "RtlUnicodeStringToAnsiString",
+    "RtlUnicodeStringToAnsiString function [Windows API]",
+    "TRUE",
+    "winprog.rtlunicodestringtoansistring",
+    "winternl/RtlUnicodeStringToAnsiString",
+    "winui.rtlunicodestringtoansistring"
+  ],
+  "old-location": "winprog\\rtlunicodestringtoansistring.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\lowlevelclientsupport\\misc\\rtlunicodestringtoansistring.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FALSE, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString function [Windows API], TRUE, winprog.rtlunicodestringtoansistring, winternl/RtlUnicodeStringToAnsiString, winui.rtlunicodestringtoansistring",
+  "req.header": "winternl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ntdll.lib",
+  "req.dll": "ntdll.dll; NtosKrnl.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlUnicodeStringToAnsiString",
+    "winternl/RtlUnicodeStringToAnsiString"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdll.dll",
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlUnicodeStringToAnsiString"
+  ]
+}

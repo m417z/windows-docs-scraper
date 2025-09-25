@@ -1,0 +1,50 @@
+{
+  "UID": "NF:appxpackaging.IAppxEncryptionFactory5.CreateEncryptedBundleReader2",
+  "tech.root": "appxpkg",
+  "title": "IAppxEncryptionFactory5::CreateEncryptedBundleReader2",
+  "ms.date": "02/13/2023",
+  "targetos": "Windows",
+  "description": "Creates a read-only bundle object to which encrypted Windows app packages can be added, with an optional parameter for specifying the expected digest for the encrypted bundle.",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "appxpackaging.h",
+  "req.idl": "AppxPackaging.idl",
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "appxpackaging.h"
+  ],
+  "api_name": [
+    "IAppxEncryptionFactory5::CreateEncryptedBundleReader2"
+  ],
+  "f1_keywords": [
+    "IAppxEncryptionFactory5::CreateEncryptedBundleReader2",
+    "appxpackaging/IAppxEncryptionFactory5::CreateEncryptedBundleReader2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "CreateEncryptedBundleReader2"
+  ]
+}

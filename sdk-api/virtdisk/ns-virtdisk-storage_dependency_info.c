@@ -1,0 +1,8 @@
+typedef struct _STORAGE_DEPENDENCY_INFO {
+  STORAGE_DEPENDENCY_INFO_VERSION Version;
+  ULONG                           NumberEntries;
+  union {
+    STORAGE_DEPENDENCY_INFO_TYPE_1 Version1Entries[];
+    STORAGE_DEPENDENCY_INFO_TYPE_2 Version2Entries[];
+  };
+} STORAGE_DEPENDENCY_INFO, *PSTORAGE_DEPENDENCY_INFO;

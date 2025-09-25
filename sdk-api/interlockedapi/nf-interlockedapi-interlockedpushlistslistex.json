@@ -1,0 +1,61 @@
+{
+  "UID": "NF:interlockedapi.InterlockedPushListSListEx",
+  "title": "InterlockedPushListSListEx function (interlockedapi.h)",
+  "description": "Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the __fastcall calling convention.",
+  "helpviewer_keywords": [
+    "InterlockedPushListSListEx",
+    "InterlockedPushListSListEx function",
+    "base.interlockedpushlistslistex",
+    "interlockedapi/InterlockedPushListSListEx"
+  ],
+  "old-location": "base\\interlockedpushlistslistex.htm",
+  "tech.root": "backup",
+  "ms.assetid": "f4f334c6-fda8-4c5f-9177-b672c8aed6b3",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx",
+  "req.header": "interlockedapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InterlockedPushListSListEx",
+    "interlockedapi/InterlockedPushListSListEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-interlocked-l1-2-0.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "InterlockedPushListSListEx"
+  ]
+}

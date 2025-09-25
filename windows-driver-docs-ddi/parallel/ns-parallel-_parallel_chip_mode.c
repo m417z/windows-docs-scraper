@@ -1,0 +1,4 @@
+typedef struct _PARALLEL_CHIP_MODE {
+  UCHAR   ModeFlags;
+  BOOLEAN success;
+} PARALLEL_CHIP_MODE, *PPARALLEL_CHIP_MODE;

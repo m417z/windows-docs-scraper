@@ -1,0 +1,55 @@
+{
+  "UID": "NS:ntddstor._STORAGE_PROTOCOL_DATA_DESCRIPTOR",
+  "title": "STORAGE_PROTOCOL_DATA_DESCRIPTOR (ntddstor.h)",
+  "description": "This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return protocol-specific data from a storage device or adapter.",
+  "old-location": "storage\\storage_protocol_data_descriptor.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "STORAGE_PROTOCOL_DATA_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, storage.storage_protocol_data_descriptor",
+  "req.header": "ntddstor.h",
+  "req.include-header": "Ntddstor.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_STORAGE_PROTOCOL_DATA_DESCRIPTOR",
+    "ntddstor/_STORAGE_PROTOCOL_DATA_DESCRIPTOR",
+    "PSTORAGE_PROTOCOL_DATA_DESCRIPTOR",
+    "ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR",
+    "STORAGE_PROTOCOL_DATA_DESCRIPTOR",
+    "ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_STORAGE_PROTOCOL_DATA_DESCRIPTOR",
+    "PSTORAGE_PROTOCOL_DATA_DESCRIPTOR",
+    "STORAGE_PROTOCOL_DATA_DESCRIPTOR"
+  ]
+}

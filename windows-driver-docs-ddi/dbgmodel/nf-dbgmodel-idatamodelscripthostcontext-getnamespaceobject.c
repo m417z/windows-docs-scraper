@@ -1,0 +1,3 @@
+HRESULT GetNamespaceObject(
+  IModelObject **namespaceObject
+);

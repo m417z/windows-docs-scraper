@@ -1,0 +1,25 @@
+# RILIMSSSTATUSPARAMMASK enumeration (rilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_PARAM_IMSSTATUS_EXECUTOR`
+
+### `RIL_PARAM_IMSSTATUS_HUICCAPP`
+
+### `RIL_PARAM_IMSSTATUS_AVAILABLESERVICES`
+
+### `RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT`
+
+### `RIL_PARAM_IMSSTATUS_SERVINGDOMAIN`
+
+### `RIL_PARAM_IMSSTATUS_SYSTEMTYPE`
+
+### `RIL_PARAM_IMSSTATUS_ALL`
+
+### `RIL_PARAM_IMSSTATUS_BLOCKREASONLTE`
+
+### `RIL_PARAM_IMSSTATUS_BLOCKREASONWIFI`

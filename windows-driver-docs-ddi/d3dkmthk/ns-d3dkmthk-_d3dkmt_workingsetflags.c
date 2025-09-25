@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_WORKINGSETFLAGS {
+  UINT UseDefault : 1;
+  UINT Reserved : 31;
+} D3DKMT_WORKINGSETFLAGS;

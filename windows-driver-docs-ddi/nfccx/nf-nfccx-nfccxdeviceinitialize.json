@@ -1,0 +1,48 @@
+{
+  "UID": "NF:nfccx.NfcCxDeviceInitialize",
+  "title": "NfcCxDeviceInitialize function (nfccx.h)",
+  "description": "The NfcCxDeviceInitialize function (nfccx.h) initializes a WDF device that was created during the AddDevice routine.",
+  "old-location": "nfpdrivers\\_nfccxdeviceinitialize.htm",
+  "tech.root": "nfpdrivers",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "NfcCxDeviceInitialize function"
+  ],
+  "ms.keywords": "NfcCxDeviceInitialize, NfcCxDeviceInitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitialize, nfpdrivers._nfccxdeviceinitialize",
+  "req.header": "nfccx.h",
+  "req.include-header": "Ncidef.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Nfccxstub.lib",
+  "req.dll": "NfcCx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NfcCxDeviceInitialize",
+    "nfccx/NfcCxDeviceInitialize"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NfcCx.dll"
+  ],
+  "api_name": [
+    "NfcCxDeviceInitialize"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxprocs.RxSetSrvCallDomainName",
+  "title": "RxSetSrvCallDomainName function (rxprocs.h)",
+  "description": "RxSetSrvCallDomainName is called by a network mini-redirector driver to set the domain name associated with any given server (SRV_CALL structure).",
+  "old-location": "ifsk\\rxsetsrvcalldomainname.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxSetSrvCallDomainName function"
+  ],
+  "ms.keywords": "RxSetSrvCallDomainName, RxSetSrvCallDomainName function [Installable File System Drivers], ifsk.rxsetsrvcalldomainname, rxprocs/RxSetSrvCallDomainName, rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml",
+  "req.header": "rxprocs.h",
+  "req.include-header": "Mrxfcb.h, Rxprocs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxSetSrvCallDomainName",
+    "rxprocs/RxSetSrvCallDomainName"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxprocs.h"
+  ],
+  "api_name": [
+    "RxSetSrvCallDomainName"
+  ]
+}

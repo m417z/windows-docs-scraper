@@ -1,0 +1,70 @@
+{
+  "UID": "NE:isysmon.eReportValueTypeConstant",
+  "title": "ReportValueTypeConstants (isysmon.h)",
+  "description": "Determines if the Histogram and Report views graph the last value sampled or a calculated value using values from the sampling period, such as the average or minimum value.",
+  "helpviewer_keywords": [
+    "ReportValueTypeConstants",
+    "ReportValueTypeConstants enumeration [SysMon]",
+    "base.reportvaluetypeconstants",
+    "isysmon/ReportValueTypeConstants",
+    "isysmon/sysmonAverage",
+    "isysmon/sysmonCurrentValue",
+    "isysmon/sysmonDefaultValue",
+    "isysmon/sysmonMaximum",
+    "isysmon/sysmonMinimum",
+    "sysmon.reportvaluetypeconstants",
+    "sysmonAverage",
+    "sysmonCurrentValue",
+    "sysmonDefaultValue",
+    "sysmonMaximum",
+    "sysmonMinimum"
+  ],
+  "old-location": "sysmon\\reportvaluetypeconstants.htm",
+  "tech.root": "SysMon",
+  "ms.assetid": "63287889-3928-4abf-a04d-6790fd70df83",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ReportValueTypeConstants, ReportValueTypeConstants enumeration [SysMon], base.reportvaluetypeconstants, isysmon/ReportValueTypeConstants, isysmon/sysmonAverage, isysmon/sysmonCurrentValue, isysmon/sysmonDefaultValue, isysmon/sysmonMaximum, isysmon/sysmonMinimum, sysmon.reportvaluetypeconstants, sysmonAverage, sysmonCurrentValue, sysmonDefaultValue, sysmonMaximum, sysmonMinimum",
+  "req.header": "isysmon.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ReportValueTypeConstants",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "eReportValueTypeConstant",
+    "isysmon/eReportValueTypeConstant",
+    "ReportValueTypeConstants",
+    "isysmon/ReportValueTypeConstants"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ISysmon.h"
+  ],
+  "api_name": [
+    "ReportValueTypeConstants"
+  ]
+}

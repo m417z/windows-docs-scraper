@@ -1,0 +1,3 @@
+BOOL capEditCopy(
+     hwnd
+);

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:sercx.SerCx2PioReceiveCreate",
+  "title": "SerCx2PioReceiveCreate function (sercx.h)",
+  "description": "The SerCx2PioReceiveCreate method creates a PIO-receive object, which version 2 of the serial framework extension (SerCx2) uses to perform PIO-receive transactions.",
+  "old-location": "serports\\sercx2pioreceivecreate.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "SerCx2PioReceiveCreate function"
+  ],
+  "ms.keywords": "2/SerCx2PioReceiveCreate, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], serports.sercx2pioreceivecreate",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SerCx2PioReceiveCreate",
+    "sercx/SerCx2PioReceiveCreate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "2.0\\Sercx.h"
+  ],
+  "api_name": [
+    "SerCx2PioReceiveCreate"
+  ]
+}

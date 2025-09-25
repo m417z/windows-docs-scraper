@@ -1,0 +1,65 @@
+{
+  "UID": "NF:shlobj_core.SHGetFolderPathAndSubDirA",
+  "title": "SHGetFolderPathAndSubDirA function (shlobj_core.h)",
+  "description": "Gets the path of a folder and appends a user-provided subfolder path. (ANSI)",
+  "helpviewer_keywords": [
+    "SHGFP_TYPE_CURRENT",
+    "SHGFP_TYPE_DEFAULT",
+    "SHGetFolderPathAndSubDirA",
+    "shlobj_core/SHGetFolderPathAndSubDirA"
+  ],
+  "old-location": "shell\\SHGetFolderPathAndSubDir.htm",
+  "tech.root": "shell",
+  "ms.assetid": "7e92e136-1036-4c96-931f-6e0129fb839a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPathAndSubDir, SHGetFolderPathAndSubDir function [Windows Shell], SHGetFolderPathAndSubDirA, SHGetFolderPathAndSubDirW, _shell_SHGetFolderPathAndSubDir, shell.SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDirA, shlobj_core/SHGetFolderPathAndSubDirW",
+  "req.header": "shlobj_core.h",
+  "req.include-header": "Shlobj.h, Shlobj_core.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SHGetFolderPathAndSubDirW (Unicode) and SHGetFolderPathAndSubDirA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shell32.lib",
+  "req.dll": "Shell32.dll (version 5.60 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHGetFolderPathAndSubDirA",
+    "shlobj_core/SHGetFolderPathAndSubDirA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Shell32.dll",
+    "API-MS-Win-shell-shellfolders-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Storage-Exports-Internal-L1-1-0.dll",
+    "Windows.Storage.dll",
+    "Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll",
+    "Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll"
+  ],
+  "api_name": [
+    "SHGetFolderPathAndSubDir",
+    "SHGetFolderPathAndSubDirA",
+    "SHGetFolderPathAndSubDirW"
+  ]
+}

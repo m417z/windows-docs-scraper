@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.RtlNtStatusToDosError",
+  "title": "RtlNtStatusToDosError function (ntifs.h)",
+  "description": "The RtlNtStatusToDosError routine converts the specified NTSTATUS code to its equivalent system error code.",
+  "old-location": "ifsk\\rtlntstatustodoserror.htm",
+  "tech.root": "ifsk",
+  "ms.date": "11/04/2022",
+  "ms.custom": "content-health",
+  "keywords": [
+    "RtlNtStatusToDosError function"
+  ],
+  "ms.keywords": "RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], ifsk.rtlntstatustodoserror, ntifs/RtlNtStatusToDosError, rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "< DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlNtStatusToDosError",
+    "ntifs/RtlNtStatusToDosError"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlNtStatusToDosError"
+  ]
+}

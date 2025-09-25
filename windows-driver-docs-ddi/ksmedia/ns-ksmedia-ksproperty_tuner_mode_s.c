@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      Mode;
+} KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S;

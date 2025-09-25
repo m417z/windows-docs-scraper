@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntifs._FSCTL_OFFLOAD_WRITE_INPUT",
+  "title": "FSCTL_OFFLOAD_WRITE_INPUT (ntifs.h)",
+  "description": "Learn more about the FSCTL_OFFLOAD_WRITE_INPUT structure.",
+  "tech.root": "ifsk",
+  "ms.date": "07/06/2023",
+  "keywords": [
+    "FSCTL_OFFLOAD_WRITE_INPUT structure"
+  ],
+  "ms.keywords": "*PFSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_WRITE_INPUT, PFSCTL_OFFLOAD_WRITE_INPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_WRITE_INPUT, ifsk.fsctl_offload_write_input, ntifs/FSCTL_OFFLOAD_WRITE_INPUT, ntifs/PFSCTL_OFFLOAD_WRITE_INPUT",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FSCTL_OFFLOAD_WRITE_INPUT, *PFSCTL_OFFLOAD_WRITE_INPUT",
+  "f1_keywords": [
+    "_FSCTL_OFFLOAD_WRITE_INPUT",
+    "ntifs/_FSCTL_OFFLOAD_WRITE_INPUT",
+    "PFSCTL_OFFLOAD_WRITE_INPUT",
+    "ntifs/PFSCTL_OFFLOAD_WRITE_INPUT",
+    "FSCTL_OFFLOAD_WRITE_INPUT",
+    "ntifs/FSCTL_OFFLOAD_WRITE_INPUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FSCTL_OFFLOAD_WRITE_INPUT",
+    "PFSCTL_OFFLOAD_WRITE_INPUT",
+    "FSCTL_OFFLOAD_WRITE_INPUT"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct _SERVER_INFO_1530 {
+  DWORD sv1530_minfreeworkitems;
+} SERVER_INFO_1530, *PSERVER_INFO_1530, *LPSERVER_INFO_1530;

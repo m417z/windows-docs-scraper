@@ -1,0 +1,9 @@
+typedef enum {
+  PVCU_DEFAULT = 0,
+  PVCU_SECOND = 1,
+  PVCU_MINUTE = 2,
+  PVCU_HOUR = 3,
+  PVCU_DAY = 4,
+  PVCU_MONTH = 5,
+  PVCU_YEAR = 6
+} PROPVAR_COMPARE_UNIT;

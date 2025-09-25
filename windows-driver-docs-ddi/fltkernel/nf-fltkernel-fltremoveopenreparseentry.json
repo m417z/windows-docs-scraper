@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltRemoveOpenReparseEntry",
+  "title": "FltRemoveOpenReparseEntry function (fltkernel.h)",
+  "description": "This routine removes an OPEN_REPARSE_LIST_ENTRY structure (added by FltAddOpenReparseEntry) from a create operation.",
+  "old-location": "ifsk\\fltremoveopenreparseentry.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltRemoveOpenReparseEntry function"
+  ],
+  "ms.keywords": "FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltRemoveOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "_IRQL_requires_max_(APC_LEVEL)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltRemoveOpenReparseEntry",
+    "fltkernel/FltRemoveOpenReparseEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fltKernel.h"
+  ],
+  "api_name": [
+    "FltRemoveOpenReparseEntry"
+  ]
+}

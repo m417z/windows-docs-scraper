@@ -1,0 +1,61 @@
+{
+  "UID": "NF:ws2tcpip.FreeAddrInfoEx",
+  "title": "FreeAddrInfoEx function (ws2tcpip.h)",
+  "description": "The FreeAddrInfoEx function (ws2tcpip.h) frees address information that the GetAddrInfoEx function dynamically allocates in addrinfoex structures.",
+  "helpviewer_keywords": [
+    "FreeAddrInfoEx",
+    "FreeAddrInfoEx function [Winsock]",
+    "FreeAddrInfoExW",
+    "winsock.freeaddrinfoex",
+    "ws2tcpip/FreeAddrInfoEx",
+    "ws2tcpip/FreeAddrInfoExW"
+  ],
+  "old-location": "winsock\\freeaddrinfoex.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b",
+  "ms.date": "08/16/2022",
+  "ms.keywords": "FreeAddrInfoEx, FreeAddrInfoEx function [Winsock], FreeAddrInfoExW, winsock.freeaddrinfoex, ws2tcpip/FreeAddrInfoEx, ws2tcpip/FreeAddrInfoExW",
+  "req.header": "ws2tcpip.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FreeAddrInfoExW (Unicode) and FreeAddrInfoEx (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FreeAddrInfoEx",
+    "ws2tcpip/FreeAddrInfoEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "FreeAddrInfoEx",
+    "FreeAddrInfoEx",
+    "FreeAddrInfoExW"
+  ]
+}

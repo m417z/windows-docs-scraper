@@ -1,0 +1,48 @@
+{
+  "UID": "NF:namcache.RxNameCacheFreeEntry",
+  "title": "RxNameCacheFreeEntry function (namcache.h)",
+  "description": "RxNameCacheFreeEntry releases the storage for a NAME_CACHE entry and decrements the count of the NAME_CACHE cache entries associated with a NAME_CACHE_CONTROL structure.",
+  "old-location": "ifsk\\rxnamecachefreeentry.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxNameCacheFreeEntry function"
+  ],
+  "ms.keywords": "RxNameCacheFreeEntry, RxNameCacheFreeEntry function [Installable File System Drivers], ifsk.rxnamecachefreeentry, namcache/RxNameCacheFreeEntry, rxref_ca0b7c99-59df-4a51-b28b-4c369b451741.xml",
+  "req.header": "namcache.h",
+  "req.include-header": "Namcache.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxNameCacheFreeEntry",
+    "namcache/RxNameCacheFreeEntry"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "namcache.h"
+  ],
+  "api_name": [
+    "RxNameCacheFreeEntry"
+  ]
+}

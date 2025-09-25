@@ -1,0 +1,3 @@
+NTPSHEDAPI NTSTATUS PshedRegisterPlugin(
+  [in, out] PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET Packet
+);

@@ -1,0 +1,7 @@
+DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 DxgkddiSettargetadjustedcolorimetry2;
+
+NTSTATUS DxgkddiSettargetadjustedcolorimetry2(
+  IN_CONST_HANDLE hAdapter,
+  IN_PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 pArgSetTargetAdjustedColorimetry
+)
+{...}

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winbase.SetProcessDEPPolicy",
+  "title": "SetProcessDEPPolicy function (winbase.h)",
+  "description": "Changes data execution prevention (DEP) and DEP-ATL thunk emulation settings for a 32-bit process.",
+  "helpviewer_keywords": [
+    "PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION",
+    "PROCESS_DEP_ENABLE",
+    "SetProcessDEPPolicy",
+    "SetProcessDEPPolicy function",
+    "base.setprocessdeppolicy",
+    "winbase/SetProcessDEPPolicy"
+  ],
+  "old-location": "base\\setprocessdeppolicy.htm",
+  "tech.root": "base",
+  "ms.assetid": "17c9f522-fd64-4061-9212-8fc91cc96b18",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetProcessDEPPolicy, SetProcessDEPPolicy function, base.setprocessdeppolicy, winbase/SetProcessDEPPolicy",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista with SP1, Windows XP with SP3 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetProcessDEPPolicy",
+    "winbase/SetProcessDEPPolicy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "kernel32.dll"
+  ],
+  "api_name": [
+    "SetProcessDEPPolicy"
+  ]
+}

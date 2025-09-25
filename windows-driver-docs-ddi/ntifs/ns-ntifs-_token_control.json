@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_CONTROL",
+  "title": "_TOKEN_CONTROL (ntifs.h)",
+  "description": "The TOKEN_CONTROL structure contains information that identifies an access token.",
+  "old-location": "ifsk\\token_control.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "TOKEN_CONTROL structure"
+  ],
+  "ms.keywords": "*PTOKEN_CONTROL, PTOKEN_CONTROL, PTOKEN_CONTROL structure pointer [Installable File System Drivers], TOKEN_CONTROL, TOKEN_CONTROL structure [Installable File System Drivers], _TOKEN_CONTROL, ifsk.token_control, ntifs/PTOKEN_CONTROL, ntifs/TOKEN_CONTROL, securitystructures_26958d39-4a12-4979-b0cc-7a880e3d2384.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_CONTROL, *PTOKEN_CONTROL",
+  "f1_keywords": [
+    "_TOKEN_CONTROL",
+    "ntifs/_TOKEN_CONTROL",
+    "PTOKEN_CONTROL",
+    "ntifs/PTOKEN_CONTROL",
+    "TOKEN_CONTROL",
+    "ntifs/TOKEN_CONTROL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_CONTROL",
+    "PTOKEN_CONTROL",
+    "TOKEN_CONTROL"
+  ]
+}

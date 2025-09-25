@@ -1,0 +1,54 @@
+{
+  "UID": "NE:portcls._PC_EXIT_LATENCY",
+  "title": "_PC_EXIT_LATENCY (portcls.h)",
+  "description": "This topic discusses the PC_EXIT_LATENCY enum, and describes its members. The latency times map to specific maximum times in which the device must be able to exit its sleep state and enter the fully functional state (D0).",
+  "old-location": "audio\\pc_exit_latency.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PC_EXIT_LATENCY enumeration"
+  ],
+  "ms.keywords": "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY, PC_EXIT_LATENCY enumeration [Audio Devices], PcExitLatencyFast, PcExitLatencyInstant, PcExitLatencyResponsive, _PC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PC_EXIT_LATENCY, portcls/PcExitLatencyFast, portcls/PcExitLatencyInstant, portcls/PcExitLatencyResponsive",
+  "req.header": "portcls.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PC_EXIT_LATENCY, *PPC_EXIT_LATENCY",
+  "f1_keywords": [
+    "_PC_EXIT_LATENCY",
+    "portcls/_PC_EXIT_LATENCY",
+    "PPC_EXIT_LATENCY",
+    "portcls/PPC_EXIT_LATENCY",
+    "PC_EXIT_LATENCY",
+    "portcls/PC_EXIT_LATENCY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Portcls.h"
+  ],
+  "api_name": [
+    "_PC_EXIT_LATENCY",
+    "PPC_EXIT_LATENCY",
+    "PC_EXIT_LATENCY"
+  ]
+}

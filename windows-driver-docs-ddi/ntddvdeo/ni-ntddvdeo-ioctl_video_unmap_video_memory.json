@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddvdeo.IOCTL_VIDEO_UNMAP_VIDEO_MEMORY",
+  "title": "IOCTL_VIDEO_UNMAP_VIDEO_MEMORY (ntddvdeo.h)",
+  "description": "Releases a mapping between the virtual address space and the adapter's frame buffer and video RAM. Miniport drivers are required to support this nonmodal request.",
+  "old-location": "display\\ioctl_video_unmap_video_memory.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "IOCTL_VIDEO_UNMAP_VIDEO_MEMORY IOCTL"
+  ],
+  "ms.keywords": "IOCTL_VIDEO_UNMAP_VIDEO_MEMORY, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_97fad6e5-d6e7-4487-84ab-cee66609ccd9.xml, display.ioctl_video_unmap_video_memory, ntddvdeo/IOCTL_VIDEO_UNMAP_VIDEO_MEMORY",
+  "req.header": "ntddvdeo.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_VIDEO_UNMAP_VIDEO_MEMORY",
+    "ntddvdeo/IOCTL_VIDEO_UNMAP_VIDEO_MEMORY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddvdeo.h"
+  ],
+  "api_name": [
+    "IOCTL_VIDEO_UNMAP_VIDEO_MEMORY"
+  ]
+}

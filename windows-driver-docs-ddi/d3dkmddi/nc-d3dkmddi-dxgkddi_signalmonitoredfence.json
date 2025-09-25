@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_SIGNALMONITOREDFENCE",
+  "title": "DXGKDDI_SIGNALMONITOREDFENCE (d3dkmddi.h)",
+  "description": "Adds a GPU instruction to signal the paging monitored fence object to the DMA buffer.",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "DXGKDDI_SIGNALMONITOREDFENCE callback function"
+  ],
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1809",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "DXGKDDI_SIGNALMONITOREDFENCE",
+    "d3dkmddi/DXGKDDI_SIGNALMONITOREDFENCE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_SIGNALMONITOREDFENCE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntddk.NtOpenProcess",
+  "title": "NtOpenProcess function (ntddk.h)",
+  "description": "The ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.",
+  "tech.root": "kernel",
+  "ms.date": "12/07/2022",
+  "keywords": [
+    "NtOpenProcess function"
+  ],
+  "ms.keywords": "NtOpenProcess, ZwOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, kernel.zwopenprocess, ntddk/NtOpenProcess, ntddk/ZwOpenProcess",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NtOpenProcess",
+    "ntddk/NtOpenProcess"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "NtOpenProcess"
+  ]
+}

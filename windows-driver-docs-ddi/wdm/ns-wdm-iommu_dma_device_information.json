@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._IOMMU_DMA_DEVICE_INFORMATION",
+  "tech.root": "kernel",
+  "title": "IOMMU_DMA_DEVICE_INFORMATION",
+  "ms.date": "08/07/2025",
+  "targetos": "Windows",
+  "description": "Contains information about an IOMMU DMA device's PASID capabilities and configuration.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "IOMMU_DMA_DEVICE_INFORMATION, *PIOMMU_DMA_DEVICE_INFORMATION",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "ai-usage": "ai-assisted",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_DMA_DEVICE_INFORMATION",
+    "PIOMMU_DMA_DEVICE_INFORMATION",
+    "IOMMU_DMA_DEVICE_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_IOMMU_DMA_DEVICE_INFORMATION",
+    "wdm/_IOMMU_DMA_DEVICE_INFORMATION",
+    "PIOMMU_DMA_DEVICE_INFORMATION",
+    "wdm/PIOMMU_DMA_DEVICE_INFORMATION",
+    "IOMMU_DMA_DEVICE_INFORMATION",
+    "wdm/IOMMU_DMA_DEVICE_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_IOMMU_DMA_DEVICE_INFORMATION"
+  ]
+}

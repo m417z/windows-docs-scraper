@@ -1,0 +1,7 @@
+typedef struct _WNV_OBJECT_CHANGE_PARAM {
+  WNV_OBJECT_TYPE ObjectType;
+  union {
+    WNV_PROVIDER_ADDRESS_CHANGE_PARAM ProviderAddressChange;
+    WNV_CUSTOMER_ADDRESS_CHANGE_PARAM CustomerAddressChange;
+  } ObjectParam;
+} WNV_OBJECT_CHANGE_PARAM, *PWNV_OBJECT_CHANGE_PARAM;

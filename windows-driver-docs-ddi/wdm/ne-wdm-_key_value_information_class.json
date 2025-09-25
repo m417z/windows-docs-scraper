@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdm._KEY_VALUE_INFORMATION_CLASS",
+  "title": "_KEY_VALUE_INFORMATION_CLASS (wdm.h)",
+  "description": "The KEY_VALUE_INFORMATION_CLASS enumeration type specifies the type of information to supply about the value of a registry key.",
+  "old-location": "kernel\\key_value_information_class.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KEY_VALUE_INFORMATION_CLASS enumeration"
+  ],
+  "ms.keywords": "KEY_VALUE_INFORMATION_CLASS, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyValueBasicInformation, KeyValueFullInformation, KeyValueFullInformationAlign64, KeyValuePartialInformation, KeyValuePartialInformationAlign64, MaxKeyValueInfoClass, _KEY_VALUE_INFORMATION_CLASS, kernel.key_value_information_class, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, wdm/KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueBasicInformation, wdm/KeyValueFullInformation, wdm/KeyValueFullInformationAlign64, wdm/KeyValuePartialInformation, wdm/KeyValuePartialInformationAlign64, wdm/MaxKeyValueInfoClass",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KEY_VALUE_INFORMATION_CLASS",
+  "f1_keywords": [
+    "_KEY_VALUE_INFORMATION_CLASS",
+    "wdm/_KEY_VALUE_INFORMATION_CLASS",
+    "KEY_VALUE_INFORMATION_CLASS",
+    "wdm/KEY_VALUE_INFORMATION_CLASS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_KEY_VALUE_INFORMATION_CLASS",
+    "KEY_VALUE_INFORMATION_CLASS"
+  ]
+}

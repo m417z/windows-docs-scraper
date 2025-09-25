@@ -1,0 +1,3 @@
+BOOL ILIsEmpty(
+  [in] PCUIDLIST_RELATIVE pidl
+);

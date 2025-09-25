@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dumddi.PFND3DDDI_GETENCRYPTIONBLTKEY",
+  "title": "PFND3DDDI_GETENCRYPTIONBLTKEY (d3dumddi.h)",
+  "description": "The GetEncryptionBltKey function returns the key that is used to decrypt the data that the driver's EncryptionBlt function returns.",
+  "old-location": "display\\getencryptionbltkey.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3DDDI_GETENCRYPTIONBLTKEY callback function"
+  ],
+  "ms.keywords": "GetEncryptionBltKey, GetEncryptionBltKey callback function [Display Devices], PFND3DDDI_GETENCRYPTIONBLTKEY, PFND3DDDI_GETENCRYPTIONBLTKEY callback, UserModeDisplayDriver_Functions_c20ad527-141e-404f-a52e-47b893b2a2bb.xml, d3dumddi/GetEncryptionBltKey, display.getencryptionbltkey",
+  "req.header": "d3dumddi.h",
+  "req.include-header": "D3dumddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "GetEncryptionBltKey is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3DDDI_GETENCRYPTIONBLTKEY",
+    "d3dumddi/PFND3DDDI_GETENCRYPTIONBLTKEY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dumddi.h"
+  ],
+  "api_name": [
+    "PFND3DDDI_GETENCRYPTIONBLTKEY"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "UID": "NS:shlwapi.tagPARSEDURLW",
+  "title": "PARSEDURLW (shlwapi.h)",
+  "description": "Used by the ParseURL function to return the parsed URL. (Unicode)",
+  "helpviewer_keywords": [
+    "*PPARSEDURLW",
+    "PARSEDURL",
+    "PARSEDURL structure [Windows Shell]",
+    "PARSEDURLA",
+    "PARSEDURLW",
+    "PPARSEDURL",
+    "PPARSEDURL structure pointer [Windows Shell]",
+    "_win32_PARSEDURL",
+    "shell.PARSEDURL",
+    "shlwapi/PARSEDURL",
+    "shlwapi/PARSEDURLA",
+    "shlwapi/PARSEDURLW",
+    "shlwapi/PPARSEDURL"
+  ],
+  "old-location": "shell\\PARSEDURL.htm",
+  "tech.root": "shell",
+  "ms.assetid": "9092dd7a-ff5b-465f-a808-ef4e0067f540",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PPARSEDURLW, PARSEDURL, PARSEDURL structure [Windows Shell], PARSEDURLA, PARSEDURLW, PPARSEDURL, PPARSEDURL structure pointer [Windows Shell], _win32_PARSEDURL, shell.PARSEDURL, shlwapi/PARSEDURL, shlwapi/PARSEDURLA, shlwapi/PARSEDURLW, shlwapi/PPARSEDURL",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server, Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PARSEDURLW (Unicode) and PARSEDURLA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PARSEDURLW, *PPARSEDURLW",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagPARSEDURLW",
+    "shlwapi/tagPARSEDURLW",
+    "PPARSEDURLW",
+    "shlwapi/PPARSEDURLW",
+    "PARSEDURLW",
+    "shlwapi/PARSEDURLW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Shlwapi.h"
+  ],
+  "api_name": [
+    "PARSEDURL",
+    "PARSEDURLA",
+    "PARSEDURLW"
+  ]
+}

@@ -1,0 +1,4 @@
+void ASSERTMSG(
+  msg,
+  exp
+);

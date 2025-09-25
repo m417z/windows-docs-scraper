@@ -1,0 +1,48 @@
+{
+  "UID": "NC:sercx.EVT_SERCX_WAITMASK",
+  "title": "EVT_SERCX_WAITMASK (sercx.h)",
+  "description": "The EvtSerCxWaitmask event callback function configures the serial controller to monitor the events in a wait mask, which is a bitmask value that specifies a set of hardware events.",
+  "old-location": "serports\\evtsercxwaitmask.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "EVT_SERCX_WAITMASK callback function"
+  ],
+  "ms.keywords": "1/EvtSerCxWaitmask, EVT_SERCX_WAITMASK, EVT_SERCX_WAITMASK callback, EvtSerCxWaitmask, EvtSerCxWaitmask callback function [Serial Ports], serports.evtsercxwaitmask",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SERCX_WAITMASK",
+    "sercx/EVT_SERCX_WAITMASK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "1.0\\Sercx.h"
+  ],
+  "api_name": [
+    "EVT_SERCX_WAITMASK"
+  ]
+}

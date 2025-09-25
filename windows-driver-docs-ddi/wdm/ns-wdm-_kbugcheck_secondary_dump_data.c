@@ -1,0 +1,8 @@
+typedef struct _KBUGCHECK_SECONDARY_DUMP_DATA {
+  IN PVOID  InBuffer;
+  IN ULONG  InBufferLength;
+  IN ULONG  MaximumAllowed;
+  OUT GUID  Guid;
+  OUT PVOID OutBuffer;
+  OUT ULONG OutBufferLength;
+} KBUGCHECK_SECONDARY_DUMP_DATA, *PKBUGCHECK_SECONDARY_DUMP_DATA;

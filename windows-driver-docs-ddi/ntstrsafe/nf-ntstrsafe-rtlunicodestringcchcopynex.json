@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntstrsafe.RtlUnicodeStringCchCopyNEx",
+  "title": "RtlUnicodeStringCchCopyNEx function (ntstrsafe.h)",
+  "description": "The RtlUnicodeStringCchCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.",
+  "old-location": "kernel\\rtlunicodestringcchcopynex.htm",
+  "tech.root": "kernel",
+  "ms.date": "08/26/2022",
+  "keywords": [
+    "RtlUnicodeStringCchCopyNEx function"
+  ],
+  "ms.keywords": "RtlUnicodeStringCchCopyNEx, RtlUnicodeStringCchCopyNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcopynex, ntstrsafe/RtlUnicodeStringCchCopyNEx, safestrings_e87c890a-b794-41c0-b506-b2b29902339c.xml",
+  "req.header": "ntstrsafe.h",
+  "req.include-header": "Ntstrsafe.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows XP with Service Pack 1 (SP1).",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "Any if strings being manipulated are always resident in memory, otherwise PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlUnicodeStringCchCopyNEx",
+    "ntstrsafe/RtlUnicodeStringCchCopyNEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "RtlUnicodeStringCchCopyNEx"
+  ]
+}

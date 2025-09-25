@@ -1,0 +1,5 @@
+typedef struct _CMP_GET_PLUG_HANDLE {
+  IN ULONG         PlugNum;
+  IN CMP_PLUG_TYPE Type;
+  OUT HANDLE       hPlug;
+} CMP_GET_PLUG_HANDLE, *PCMP_GET_PLUG_HANDLE;

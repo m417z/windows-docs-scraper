@@ -1,0 +1,54 @@
+{
+  "UID": "NS:srb._SRBEX_DATA",
+  "title": "_SRBEX_DATA (srb.h)",
+  "description": "The _SRBEX_DATA structure (srb.h) describes the generalized format for containing extended SCSI Request Block (SRB) data.",
+  "old-location": "storage\\srbex_data.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "SRBEX_DATA structure"
+  ],
+  "ms.keywords": "*PSRBEX_DATA, PSRBEX_DATA, PSRBEX_DATA structure pointer [Storage Devices], SRBEX_DATA, SRBEX_DATA structure [Storage Devices], SrbExDataTypeBidirectional, SrbExDataTypeIoInfo, SrbExDataTypePnp, SrbExDataTypePower, SrbExDataTypeScsiCdb16, SrbExDataTypeScsiCdb32, SrbExDataTypeScsiCdbVar, SrbExDataTypeUnknown, SrbExDataTypeWmi, _SRBEX_DATA, storage.srbex_data, storport/PSRBEX_DATA, storport/SRBEX_DATA",
+  "req.header": "srb.h",
+  "req.include-header": "Storport.h, Srb.h, Minitape.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SRBEX_DATA, *PSRBEX_DATA",
+  "f1_keywords": [
+    "_SRBEX_DATA",
+    "srb/_SRBEX_DATA",
+    "PSRBEX_DATA",
+    "srb/PSRBEX_DATA",
+    "SRBEX_DATA",
+    "srb/SRBEX_DATA"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Storport.h"
+  ],
+  "api_name": [
+    "_SRBEX_DATA",
+    "PSRBEX_DATA",
+    "SRBEX_DATA"
+  ]
+}

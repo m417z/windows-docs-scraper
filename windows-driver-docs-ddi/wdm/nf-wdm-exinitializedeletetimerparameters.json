@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ExInitializeDeleteTimerParameters",
+  "title": "ExInitializeDeleteTimerParameters function (wdm.h)",
+  "description": "The ExInitializeDeleteTimerParameters routine initializes an EXT_DELETE_PARAMETERS structure.",
+  "old-location": "kernel\\exinitializedeletetimerparameters.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ExInitializeDeleteTimerParameters function"
+  ],
+  "ms.keywords": "ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters, wdm/ExInitializeDeleteTimerParameters",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExInitializeDeleteTimerParameters",
+    "wdm/ExInitializeDeleteTimerParameters"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "ExInitializeDeleteTimerParameters"
+  ]
+}

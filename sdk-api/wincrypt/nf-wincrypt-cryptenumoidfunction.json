@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CryptEnumOIDFunction",
+  "title": "CryptEnumOIDFunction function (wincrypt.h)",
+  "description": "The CryptEnumOIDFunction function enumerates the registered object identifier (OID) functions.",
+  "helpviewer_keywords": [
+    "CryptEnumOIDFunction",
+    "CryptEnumOIDFunction function [Security]",
+    "_crypto2_cryptenumoidfunction",
+    "security.cryptenumoidfunction",
+    "wincrypt/CryptEnumOIDFunction"
+  ],
+  "old-location": "security\\cryptenumoidfunction.htm",
+  "tech.root": "security",
+  "ms.assetid": "aa2fba03-183b-4b74-b306-8f4592995897",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CryptEnumOIDFunction, CryptEnumOIDFunction function [Security], _crypto2_cryptenumoidfunction, security.cryptenumoidfunction, wincrypt/CryptEnumOIDFunction",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptEnumOIDFunction",
+    "wincrypt/CryptEnumOIDFunction"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CryptEnumOIDFunction"
+  ]
+}

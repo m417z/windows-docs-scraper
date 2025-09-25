@@ -1,0 +1,64 @@
+{
+  "UID": "NF:netfw.INetFwMgr.IsPortAllowed",
+  "title": "INetFwMgr::IsPortAllowed (netfw.h)",
+  "description": "Determines whether an application can listen for inbound traffic on the specified port.",
+  "helpviewer_keywords": [
+    "INetFwMgr interface [ICS/ICF]",
+    "IsPortAllowed method",
+    "INetFwMgr.IsPortAllowed",
+    "INetFwMgr::IsPortAllowed",
+    "IsPortAllowed",
+    "IsPortAllowed method [ICS/ICF]",
+    "IsPortAllowed method [ICS/ICF]",
+    "INetFwMgr interface",
+    "ics.inetfwmgr_isportallowed",
+    "netfw/INetFwMgr::IsPortAllowed"
+  ],
+  "old-location": "ics\\inetfwmgr_isportallowed.htm",
+  "tech.root": "ics",
+  "ms.assetid": "39e68271-8046-470a-af90-17bed770716d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INetFwMgr interface [ICS/ICF],IsPortAllowed method, INetFwMgr.IsPortAllowed, INetFwMgr::IsPortAllowed, IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INetFwMgr::IsPortAllowed",
+    "netfw/INetFwMgr::IsPortAllowed"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FirewallAPI.dll",
+    "Hnetcfg.dll"
+  ],
+  "api_name": [
+    "INetFwMgr.IsPortAllowed"
+  ]
+}

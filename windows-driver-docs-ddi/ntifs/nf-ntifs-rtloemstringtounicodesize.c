@@ -1,0 +1,3 @@
+void RtlOemStringToUnicodeSize(
+  STRING
+);

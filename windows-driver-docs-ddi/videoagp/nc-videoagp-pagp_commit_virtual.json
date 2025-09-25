@@ -1,0 +1,48 @@
+{
+  "UID": "NC:videoagp.PAGP_COMMIT_VIRTUAL",
+  "title": "PAGP_COMMIT_VIRTUAL (videoagp.h)",
+  "description": "The AgpCommitVirtual function maps reserved virtual memory to an associated range of AGP-decodable physical addresses.",
+  "old-location": "display\\agpcommitvirtual.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PAGP_COMMIT_VIRTUAL callback function"
+  ],
+  "ms.keywords": "AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, PAGP_COMMIT_VIRTUAL callback, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual",
+  "req.header": "videoagp.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PAGP_COMMIT_VIRTUAL",
+    "videoagp/PAGP_COMMIT_VIRTUAL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "videoagp.h"
+  ],
+  "api_name": [
+    "PAGP_COMMIT_VIRTUAL"
+  ]
+}

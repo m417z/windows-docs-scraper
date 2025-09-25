@@ -1,0 +1,4 @@
+typedef struct _DISK_CONTROLLER_NUMBER {
+  ULONG ControllerNumber;
+  ULONG DiskNumber;
+} DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER;

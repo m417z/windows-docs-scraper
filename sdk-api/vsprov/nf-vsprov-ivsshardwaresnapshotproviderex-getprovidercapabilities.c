@@ -1,0 +1,3 @@
+HRESULT GetProviderCapabilities(
+  ULONGLONG *pllOriginalCapabilityMask
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:udecxusbdevice.UdecxUsbDeviceInitSetSpeed",
+  "title": "UdecxUsbDeviceInitSetSpeed function (udecxusbdevice.h)",
+  "description": "Sets the USB speed of the virtual USB device to create.",
+  "old-location": "buses\\udecxusbdeviceinitsetspeed.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UdecxUsbDeviceInitSetSpeed function"
+  ],
+  "ms.keywords": "UdecxUsbDeviceInitSetSpeed, UdecxUsbDeviceInitSetSpeed function [Buses], buses.udecxusbdeviceinitsetspeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed",
+  "req.header": "udecxusbdevice.h",
+  "req.include-header": "Udecx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Udecxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UdecxUsbDeviceInitSetSpeed",
+    "udecxusbdevice/UdecxUsbDeviceInitSetSpeed"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Udecxstub.lib",
+    "Udecxstub.dll"
+  ],
+  "api_name": [
+    "UdecxUsbDeviceInitSetSpeed"
+  ]
+}

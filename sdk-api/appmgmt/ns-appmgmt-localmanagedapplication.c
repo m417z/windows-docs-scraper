@@ -1,0 +1,6 @@
+typedef struct _LOCALMANAGEDAPPLICATION {
+  LPWSTR pszDeploymentName;
+  LPWSTR pszPolicyName;
+  LPWSTR pszProductId;
+  DWORD  dwState;
+} LOCALMANAGEDAPPLICATION, *PLOCALMANAGEDAPPLICATION;

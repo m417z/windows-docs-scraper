@@ -1,0 +1,4 @@
+typedef struct _WS_TIMESPAN_DESCRIPTION {
+  WS_TIMESPAN minValue;
+  WS_TIMESPAN maxValue;
+} WS_TIMESPAN_DESCRIPTION;

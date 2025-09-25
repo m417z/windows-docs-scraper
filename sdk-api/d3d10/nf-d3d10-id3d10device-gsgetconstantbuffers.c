@@ -1,0 +1,5 @@
+void GSGetConstantBuffers(
+  [in]  UINT         StartSlot,
+  [in]  UINT         NumBuffers,
+  [out] ID3D10Buffer **ppConstantBuffers
+);

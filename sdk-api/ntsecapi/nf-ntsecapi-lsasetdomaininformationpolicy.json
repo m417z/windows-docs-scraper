@@ -1,0 +1,62 @@
+{
+  "UID": "NF:ntsecapi.LsaSetDomainInformationPolicy",
+  "title": "LsaSetDomainInformationPolicy function (ntsecapi.h)",
+  "description": "Sets domain information to the Policyobject.",
+  "helpviewer_keywords": [
+    "LsaSetDomainInformationPolicy",
+    "LsaSetDomainInformationPolicy function [Security]",
+    "PolicyDomainEfsInformation",
+    "PolicyDomainKerberosTicketInformation",
+    "ntsecapi/LsaSetDomainInformationPolicy",
+    "security.lsasetdomaininformationpolicy"
+  ],
+  "old-location": "security\\lsasetdomaininformationpolicy.htm",
+  "tech.root": "security",
+  "ms.assetid": "77af6fdc-a52e-476c-9de2-36ee48133a87",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LsaSetDomainInformationPolicy, LsaSetDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaSetDomainInformationPolicy, security.lsasetdomaininformationpolicy",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LsaSetDomainInformationPolicy",
+    "ntsecapi/LsaSetDomainInformationPolicy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-advapi32-lsa-l1-1-4.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-3.dll",
+    "ext-ms-win-advapi32-lsa-l1-1-2.dll",
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "LsaSetDomainInformationPolicy"
+  ]
+}

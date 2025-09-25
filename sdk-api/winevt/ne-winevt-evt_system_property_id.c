@@ -1,0 +1,21 @@
+typedef enum _EVT_SYSTEM_PROPERTY_ID {
+  EvtSystemProviderName = 0,
+  EvtSystemProviderGuid,
+  EvtSystemEventID,
+  EvtSystemQualifiers,
+  EvtSystemLevel,
+  EvtSystemTask,
+  EvtSystemOpcode,
+  EvtSystemKeywords,
+  EvtSystemTimeCreated,
+  EvtSystemEventRecordId,
+  EvtSystemActivityID,
+  EvtSystemRelatedActivityID,
+  EvtSystemProcessID,
+  EvtSystemThreadID,
+  EvtSystemChannel,
+  EvtSystemComputer,
+  EvtSystemUserID,
+  EvtSystemVersion,
+  EvtSystemPropertyIdEND
+} EVT_SYSTEM_PROPERTY_ID;

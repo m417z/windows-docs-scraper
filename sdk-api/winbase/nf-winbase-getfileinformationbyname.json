@@ -1,0 +1,52 @@
+{
+  "UID": "NF:winbase.GetFileInformationByName",
+  "tech.root": "fs",
+  "title": "GetFileInformationByName function (winbase.h)",
+  "ms.date": "01/08/2024",
+  "targetos": "Windows",
+  "description": "Queries information about a file or directory, given the path to the file.",
+  "prerelease": true,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "winbase.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-file-l2-1-4.dll",
+    "winbase.h"
+  ],
+  "api_name": [
+    "GetFileInformationByName"
+  ],
+  "f1_keywords": [
+    "GetFileInformationByName",
+    "winbase/GetFileInformationByName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "GetFileInformationByName"
+  ]
+}

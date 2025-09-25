@@ -1,0 +1,3 @@
+HRESULT GetAnimation(
+  long *pValue
+);

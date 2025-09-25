@@ -1,0 +1,21 @@
+typedef enum _SCSI_UNIT_CONTROL_TYPE {
+  ScsiQuerySupportedUnitControlTypes,
+  ScsiUnitUsage,
+  ScsiUnitStart,
+  ScsiUnitPower,
+  ScsiUnitPoFxPowerInfo,
+  ScsiUnitPoFxPowerRequired,
+  ScsiUnitPoFxPowerActive,
+  ScsiUnitPoFxPowerSetFState,
+  ScsiUnitPoFxPowerControl,
+  ScsiUnitRemove,
+  ScsiUnitSurpriseRemoval,
+  ScsiUnitRichDescription,
+  ScsiUnitQueryBusType,
+  ScsiUnitQueryFruId,
+  ScsiUnitReportInternalData,
+  ScsiUnitKsrPowerDown,
+  ScsiUnitNvmeIceInformation,
+  ScsiUnitControlMax,
+  MakeUnitControlTypeSizeOfUlong
+} SCSI_UNIT_CONTROL_TYPE, *PSCSI_UNIT_CONTROL_TYPE;

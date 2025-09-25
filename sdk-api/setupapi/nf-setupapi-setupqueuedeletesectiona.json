@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupQueueDeleteSectionA",
+  "title": "SetupQueueDeleteSectionA function (setupapi.h)",
+  "description": "The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupQueueDeleteSectionA",
+    "setupapi/SetupQueueDeleteSectionA"
+  ],
+  "old-location": "setup\\setupqueuedeletesection.htm",
+  "tech.root": "setup",
+  "ms.assetid": "3e76e345-1d6c-4eb5-a743-b71d5ccc52e5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupQueueDeleteSection, SetupQueueDeleteSection function [Setup API], SetupQueueDeleteSectionA, SetupQueueDeleteSectionW, _setupapi_setupqueuedeletesection, setup.setupqueuedeletesection, setupapi/SetupQueueDeleteSection, setupapi/SetupQueueDeleteSectionA, setupapi/SetupQueueDeleteSectionW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupQueueDeleteSectionW (Unicode) and SetupQueueDeleteSectionA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupQueueDeleteSectionA",
+    "setupapi/SetupQueueDeleteSectionA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupQueueDeleteSection",
+    "SetupQueueDeleteSectionA",
+    "SetupQueueDeleteSectionW"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "UID": "NF:objidl.IDataObject.GetDataHere",
+  "title": "IDataObject::GetDataHere (objidl.h)",
+  "description": "Called by a data consumer to obtain data from a source data object. This method differs from the GetData method in that the caller must allocate and free the specified storage medium.",
+  "helpviewer_keywords": [
+    "GetDataHere",
+    "GetDataHere method [COM]",
+    "GetDataHere method [COM]",
+    "IDataObject interface",
+    "IDataObject interface [COM]",
+    "GetDataHere method",
+    "IDataObject.GetDataHere",
+    "IDataObject::GetDataHere",
+    "_ole_idataobject_getdatahere",
+    "com.idataobject_getdatahere",
+    "objidl/IDataObject::GetDataHere"
+  ],
+  "old-location": "com\\idataobject_getdatahere.htm",
+  "tech.root": "com",
+  "ms.assetid": "802fc49a-21c2-4490-9b00-1359ce9c325f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetDataHere, GetDataHere method [COM], GetDataHere method [COM],IDataObject interface, IDataObject interface [COM],GetDataHere method, IDataObject.GetDataHere, IDataObject::GetDataHere, _ole_idataobject_getdatahere, com.idataobject_getdatahere, objidl/IDataObject::GetDataHere",
+  "req.header": "objidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "ObjIdl.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDataObject::GetDataHere",
+    "objidl/IDataObject::GetDataHere"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ObjIdl.h"
+  ],
+  "api_name": [
+    "IDataObject.GetDataHere"
+  ]
+}

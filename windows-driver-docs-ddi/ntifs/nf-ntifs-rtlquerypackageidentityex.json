@@ -1,0 +1,42 @@
+{
+  "UID": "NF:ntifs.RtlQueryPackageIdentityEx",
+  "title": "RtlQueryPackageIdentityEx function",
+  "description": "RtlQueryPackageIdentityEx returns the associated full package name. It can optionally also return the package relative application name, and whether an application is considered packaged.",
+  "tech.root": "ifsk",
+  "ms.date": "10/30/2019",
+  "ms.keywords": "RtlQueryPackageIdentityEx",
+  "req.header": "ntifs.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "RtlQueryPackageIdentityEx",
+    "ntifs/RtlQueryPackageIdentityEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlQueryPackageIdentityEx"
+  ]
+}

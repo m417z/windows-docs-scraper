@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netdma.DMA_CHANNELS_CPU_AFFINITY_HANDLER",
+  "title": "DMA_CHANNELS_CPU_AFFINITY_HANDLER (netdma.h)",
+  "description": "The ProviderSetDmaChannelCpuAffinity function sets the CPU affinities for the DMA channels that are associated with a DMA provider.",
+  "old-location": "netvista\\providersetdmachannelcpuaffinity.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "DMA_CHANNELS_CPU_AFFINITY_HANDLER callback function"
+  ],
+  "ms.keywords": "DMA_CHANNELS_CPU_AFFINITY_HANDLER, DMA_CHANNELS_CPU_AFFINITY_HANDLER callback, ProviderSetDmaChannelCpuAffinity, ProviderSetDmaChannelCpuAffinity callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSetDmaChannelCpuAffinity, netdma_ref_bda3a4d0-7039-4f29-b75c-1e7e4a8f2131.xml, netvista.providersetdmachannelcpuaffinity",
+  "req.header": "netdma.h",
+  "req.include-header": "Netdma.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported for NetDMA 1.0 drivers in Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DMA_CHANNELS_CPU_AFFINITY_HANDLER",
+    "netdma/DMA_CHANNELS_CPU_AFFINITY_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "netdma.h"
+  ],
+  "api_name": [
+    "DMA_CHANNELS_CPU_AFFINITY_HANDLER"
+  ]
+}

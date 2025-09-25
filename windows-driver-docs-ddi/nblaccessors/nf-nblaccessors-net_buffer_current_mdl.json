@@ -1,0 +1,47 @@
+{
+  "UID": "NF:nblaccessors.NET_BUFFER_CURRENT_MDL",
+  "title": "NET_BUFFER_CURRENT_MDL",
+  "ms.date": "10/02/2023",
+  "targetos": "Windows",
+  "description": "NET_BUFFER_CURRENT_MDL is a macro that NDIS drivers use to get the CurrentMdl member of a NET_BUFFER_DATA structure in a NET_BUFFER structure.",
+  "tech.root": "netvista",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nblaccessors.h",
+  "req.idl": null,
+  "req.include-header": "ndis.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "returns-override": true,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nblaccessors.h"
+  ],
+  "api_name": [
+    "NET_BUFFER_CURRENT_MDL"
+  ],
+  "f1_keywords": [
+    "NET_BUFFER_CURRENT_MDL",
+    "nblaccessors/NET_BUFFER_CURRENT_MDL"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

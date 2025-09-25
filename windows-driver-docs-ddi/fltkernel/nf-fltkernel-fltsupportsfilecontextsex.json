@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltSupportsFileContextsEx",
+  "title": "FltSupportsFileContextsEx function (fltkernel.h)",
+  "description": "The FltSupportsFileContextsEx routine determines whether the file system or the filter manager support file contexts for a given file.",
+  "old-location": "ifsk\\fltsupportsfilecontextsex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "01/22/2021",
+  "keywords": [
+    "FltSupportsFileContextsEx function"
+  ],
+  "ms.keywords": "FltApiRef_p_to_z_3e8b5485-5c61-4405-9c5d-7d7c966f0478.xml, FltSupportsFileContextsEx, FltSupportsFileContextsEx routine [Installable File System Drivers], fltkernel/FltSupportsFileContextsEx, ifsk.fltsupportsfilecontextsex",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This routine is available on Windows Vista and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltSupportsFileContextsEx",
+    "fltkernel/FltSupportsFileContextsEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltSupportsFileContextsEx"
+  ]
+}

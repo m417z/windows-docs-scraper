@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IDDrawExclModeVideo.SetCallbackInterface",
+  "title": "IDDrawExclModeVideo::SetCallbackInterface (strmif.h)",
+  "description": "The SetCallbackInterface method retrieves a pointer to the callback interface of the Overlay Mixer so that the calling application can be notified about adjustments to the display during video playback.",
+  "helpviewer_keywords": [
+    "IDDrawExclModeVideo interface [DirectShow]",
+    "SetCallbackInterface method",
+    "IDDrawExclModeVideo.SetCallbackInterface",
+    "IDDrawExclModeVideo::SetCallbackInterface",
+    "IDDrawExclModeVideoSetCallbackInterface",
+    "SetCallbackInterface",
+    "SetCallbackInterface method [DirectShow]",
+    "SetCallbackInterface method [DirectShow]",
+    "IDDrawExclModeVideo interface",
+    "dshow.iddrawexclmodevideo_setcallbackinterface",
+    "strmif/IDDrawExclModeVideo::SetCallbackInterface"
+  ],
+  "old-location": "dshow\\iddrawexclmodevideo_setcallbackinterface.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "f8f885fe-d1a2-4635-9f30-d57ac0eb905e",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IDDrawExclModeVideo interface [DirectShow],SetCallbackInterface method, IDDrawExclModeVideo.SetCallbackInterface, IDDrawExclModeVideo::SetCallbackInterface, IDDrawExclModeVideoSetCallbackInterface, SetCallbackInterface, SetCallbackInterface method [DirectShow], SetCallbackInterface method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setcallbackinterface, strmif/IDDrawExclModeVideo::SetCallbackInterface",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDDrawExclModeVideo::SetCallbackInterface",
+    "strmif/IDDrawExclModeVideo::SetCallbackInterface"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IDDrawExclModeVideo.SetCallbackInterface"
+  ]
+}

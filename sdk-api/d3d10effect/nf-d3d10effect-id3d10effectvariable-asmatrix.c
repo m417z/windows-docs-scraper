@@ -1,0 +1,1 @@
+ID3D10EffectMatrixVariable * AsMatrix();

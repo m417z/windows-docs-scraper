@@ -1,0 +1,1 @@
+DWRITE_GLYPH_IMAGE_FORMATS GetGlyphImageFormats();

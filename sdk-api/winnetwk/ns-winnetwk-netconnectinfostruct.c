@@ -1,0 +1,7 @@
+typedef struct _NETCONNECTINFOSTRUCT {
+  DWORD cbStructure;
+  DWORD dwFlags;
+  DWORD dwSpeed;
+  DWORD dwDelay;
+  DWORD dwOptDataSize;
+} NETCONNECTINFOSTRUCT, *LPNETCONNECTINFOSTRUCT;

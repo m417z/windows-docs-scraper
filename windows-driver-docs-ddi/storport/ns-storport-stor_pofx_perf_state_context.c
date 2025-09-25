@@ -1,0 +1,7 @@
+typedef struct _STOR_POFX_PERF_STATE_CONTEXT {
+  ULONG   Version;
+  ULONG   Size;
+  ULONG   ComponentIndex;
+  BOOLEAN Succeeded;
+  PVOID   Context;
+} STOR_POFX_PERF_STATE_CONTEXT, *PSTOR_POFX_PERF_STATE_CONTEXT;

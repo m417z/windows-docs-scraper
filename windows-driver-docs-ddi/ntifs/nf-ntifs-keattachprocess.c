@@ -1,0 +1,3 @@
+VOID KeAttachProcess(
+  PRKPROCESS Process
+);

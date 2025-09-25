@@ -1,0 +1,26 @@
+typedef struct tagLVGROUP {
+  UINT   cbSize;
+  UINT   mask;
+  LPWSTR pszHeader;
+  int    cchHeader;
+  LPWSTR pszFooter;
+  int    cchFooter;
+  int    iGroupId;
+  UINT   stateMask;
+  UINT   state;
+  UINT   uAlign;
+  LPWSTR pszSubtitle;
+  UINT   cchSubtitle;
+  LPWSTR pszTask;
+  UINT   cchTask;
+  LPWSTR pszDescriptionTop;
+  UINT   cchDescriptionTop;
+  LPWSTR pszDescriptionBottom;
+  UINT   cchDescriptionBottom;
+  int    iTitleImage;
+  int    iExtendedImage;
+  int    iFirstItem;
+  UINT   cItems;
+  LPWSTR pszSubsetTitle;
+  UINT   cchSubsetTitle;
+} LVGROUP, *PLVGROUP;

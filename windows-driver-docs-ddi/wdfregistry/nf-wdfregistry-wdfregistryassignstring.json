@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfregistry.WdfRegistryAssignString",
+  "title": "WdfRegistryAssignString function (wdfregistry.h)",
+  "description": "The WdfRegistryAssignString method assigns a string to a specified value name in the registry. The string is contained in a specified framework string object.",
+  "old-location": "wdf\\wdfregistryassignstring.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfRegistryAssignString function"
+  ],
+  "ms.keywords": "DFRegKeyObjectRef_6b8641ef-885d-47f5-ad8b-afdd57a75c84.xml, WdfRegistryAssignString, WdfRegistryAssignString method, kmdf.wdfregistryassignstring, wdf.wdfregistryassignstring, wdfregistry/WdfRegistryAssignString",
+  "req.header": "wdfregistry.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfRegistryAssignString",
+    "wdfregistry/WdfRegistryAssignString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfRegistryAssignString"
+  ]
+}

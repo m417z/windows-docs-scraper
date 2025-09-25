@@ -1,0 +1,4 @@
+typedef struct {
+  BOOL  fStereo;
+  ULONG DualMode;
+} KSAC3_ALTERNATE_AUDIO, *PKSAC3_ALTERNATE_AUDIO;

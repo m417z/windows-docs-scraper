@@ -1,0 +1,63 @@
+{
+  "UID": "NC:winbio_adapter.PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN",
+  "title": "PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN (winbio_adapter.h)",
+  "description": "Makes the current contents of the sample buffer available to the engine adapter.",
+  "helpviewer_keywords": [
+    "PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN",
+    "PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback",
+    "SensorAdapterPushDataToEngine",
+    "SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API]",
+    "WINBIO_DATA_FLAG_INTEGRITY",
+    "WINBIO_DATA_FLAG_PRIVACY",
+    "WINBIO_DATA_FLAG_RAW",
+    "WINBIO_DATA_FLAG_SIGNED",
+    "secbiomet.sensoradapterpushdatatoengine",
+    "winbio_adapter/SensorAdapterPushDataToEngine"
+  ],
+  "old-location": "secbiomet\\sensoradapterpushdatatoengine.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "dea49f4b-668d-4b30-a16f-b74f260785c2",
+  "ms.date": "11/19/2020",
+  "ms.keywords": "PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN, PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback, SensorAdapterPushDataToEngine, SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API], WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.sensoradapterpushdatatoengine, winbio_adapter/SensorAdapterPushDataToEngine",
+  "req.header": "winbio_adapter.h",
+  "req.include-header": "Winbio_adapter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN",
+    "winbio_adapter/PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Winbio_adapter.h"
+  ],
+  "api_name": [
+    "SensorAdapterPushDataToEngine"
+  ]
+}

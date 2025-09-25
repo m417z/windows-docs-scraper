@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winscard.SCardGetCardTypeProviderNameW",
+  "title": "SCardGetCardTypeProviderNameW function (winscard.h)",
+  "description": "Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type. (Unicode)",
+  "helpviewer_keywords": [
+    "SCARD_PROVIDER_CARD_MODULE",
+    "SCARD_PROVIDER_CSP",
+    "SCARD_PROVIDER_KSP",
+    "SCARD_PROVIDER_PRIMARY",
+    "SCardGetCardTypeProviderName",
+    "SCardGetCardTypeProviderName function [Security]",
+    "SCardGetCardTypeProviderNameW",
+    "_smart_scardgetcardtypeprovidername",
+    "security.scardgetcardtypeprovidername",
+    "winscard/SCardGetCardTypeProviderName",
+    "winscard/SCardGetCardTypeProviderNameW"
+  ],
+  "old-location": "security\\scardgetcardtypeprovidername.htm",
+  "tech.root": "security",
+  "ms.assetid": "5006d1d6-b0f4-431f-8868-d1f4fc0c8124",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardGetCardTypeProviderName, SCardGetCardTypeProviderName function [Security], SCardGetCardTypeProviderNameA, SCardGetCardTypeProviderNameW, _smart_scardgetcardtypeprovidername, security.scardgetcardtypeprovidername, winscard/SCardGetCardTypeProviderName, winscard/SCardGetCardTypeProviderNameA, winscard/SCardGetCardTypeProviderNameW",
+  "req.header": "winscard.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SCardGetCardTypeProviderNameW (Unicode) and SCardGetCardTypeProviderNameA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winscard.lib",
+  "req.dll": "Winscard.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SCardGetCardTypeProviderNameW",
+    "winscard/SCardGetCardTypeProviderNameW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-security-winscard-l1-1-1.dll",
+    "Winscard.dll",
+    "Ext-MS-Win-wlan-scard-l1-1-0.dll",
+    "Ext-MS-Win-Security-WinSCard-L1-1-0.dll"
+  ],
+  "api_name": [
+    "SCardGetCardTypeProviderName",
+    "SCardGetCardTypeProviderNameA",
+    "SCardGetCardTypeProviderNameW"
+  ]
+}

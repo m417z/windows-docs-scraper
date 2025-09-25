@@ -1,0 +1,4 @@
+typedef struct _IDE_TASK_FILE {
+  IDEREGISTERS Current;
+  IDEREGISTERS Previous;
+} IDE_TASK_FILE, *PIDE_TASK_FILE;

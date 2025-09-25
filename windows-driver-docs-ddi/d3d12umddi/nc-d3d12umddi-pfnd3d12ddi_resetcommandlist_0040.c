@@ -1,0 +1,7 @@
+PFND3D12DDI_RESETCOMMANDLIST_0040 Pfnd3d12ddiResetcommandlist0040;
+
+VOID Pfnd3d12ddiResetcommandlist0040(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  const D3D12DDIARG_RESETCOMMANDLIST_0040 *unnamedParam2
+)
+{...}

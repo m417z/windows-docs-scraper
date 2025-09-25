@@ -1,0 +1,6 @@
+typedef struct _DRIVE_LAYOUT_INFORMATION_GPT {
+  GUID          DiskId;
+  LARGE_INTEGER StartingUsableOffset;
+  LARGE_INTEGER UsableLength;
+  ULONG         MaxPartitionCount;
+} DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT;

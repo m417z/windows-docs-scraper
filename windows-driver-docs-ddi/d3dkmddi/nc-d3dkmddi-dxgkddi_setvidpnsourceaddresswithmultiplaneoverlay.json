@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY",
+  "title": "DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY (d3dkmddi.h)",
+  "description": "Sets the addresses of multiple surfaces, including the Desktop Window Manager (DWM)'s swapchain, that are associated with a particular video present source. This function is used to present multiple surfaces (including the DWM’s swapchain) to the screen.",
+  "old-location": "display\\dxgkddisetvidpnsourceaddresswithmultiplaneoverlay.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY callback function"
+  ],
+  "ms.keywords": "DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY callback, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, display.dxgkddisetvidpnsourceaddresswithmultiplaneoverlay",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PROFILE_LEVEL  - 1",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY",
+    "d3dkmddi/DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY"
+  ]
+}

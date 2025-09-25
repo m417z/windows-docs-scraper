@@ -1,0 +1,4 @@
+BOOL capPreviewRate(
+     hwnd,
+     wMS
+);

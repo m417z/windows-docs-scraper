@@ -1,0 +1,59 @@
+{
+  "UID": "NF:opmapi.OPMGetVideoOutputsFromHMONITOR",
+  "title": "OPMGetVideoOutputsFromHMONITOR function (opmapi.h)",
+  "description": "Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular HMONITOR handle.",
+  "helpviewer_keywords": [
+    "OPMGetVideoOutputsFromHMONITOR",
+    "OPMGetVideoOutputsFromHMONITOR function [Media Foundation]",
+    "OPM_VOS_COPP_SEMANTICS",
+    "OPM_VOS_OPM_SEMANTICS",
+    "mf.opmgetvideooutputsfromhmonitor",
+    "opmapi/OPMGetVideoOutputsFromHMONITOR"
+  ],
+  "old-location": "mf\\opmgetvideooutputsfromhmonitor.htm",
+  "tech.root": "mf",
+  "ms.assetid": "c034ac81-43d4-482a-9dad-234d33a15046",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "OPMGetVideoOutputsFromHMONITOR, OPMGetVideoOutputsFromHMONITOR function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromhmonitor, opmapi/OPMGetVideoOutputsFromHMONITOR",
+  "req.header": "opmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dxva2.lib",
+  "req.dll": "Dxva2.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "OPMGetVideoOutputsFromHMONITOR",
+    "opmapi/OPMGetVideoOutputsFromHMONITOR"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dxva2.dll"
+  ],
+  "api_name": [
+    "OPMGetVideoOutputsFromHMONITOR"
+  ]
+}

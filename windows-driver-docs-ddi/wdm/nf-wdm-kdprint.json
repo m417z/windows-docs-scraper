@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.KdPrint",
+  "title": "KdPrint macro (wdm.h)",
+  "description": "The KdPrint macro sends a message to the kernel debugger.",
+  "tech.root": "devtest",
+  "ms.date": "01/05/2023",
+  "keywords": [
+    "KdPrint macro"
+  ],
+  "ms.keywords": "DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib (See DbgPrint.)",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KdPrint",
+    "wdm/KdPrint"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KdPrint"
+  ]
+}

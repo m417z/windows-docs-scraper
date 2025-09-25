@@ -1,0 +1,51 @@
+{
+  "UID": "NE:ntddk._PSCREATETHREADNOTIFYTYPE",
+  "title": "_PSCREATETHREADNOTIFYTYPE (ntddk.h)",
+  "description": "Indicates the type of thread notification. This enumeration is used in PsSetCreateThreadNotifyRoutineEx to register callback notifications associated with thread creation or deletion.",
+  "old-location": "kernel\\pscreatethreadnotifytype.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PSCREATETHREADNOTIFYTYPE enumeration"
+  ],
+  "ms.keywords": "PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateThreadNotifyNonSystem, PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, ntddk/PSCREATETHREADNOTIFYTYPE, ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PSCREATETHREADNOTIFYTYPE",
+  "f1_keywords": [
+    "_PSCREATETHREADNOTIFYTYPE",
+    "ntddk/_PSCREATETHREADNOTIFYTYPE",
+    "PSCREATETHREADNOTIFYTYPE",
+    "ntddk/PSCREATETHREADNOTIFYTYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddk.h"
+  ],
+  "api_name": [
+    "_PSCREATETHREADNOTIFYTYPE",
+    "PSCREATETHREADNOTIFYTYPE"
+  ]
+}

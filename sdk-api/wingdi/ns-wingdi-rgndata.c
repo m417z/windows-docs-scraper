@@ -1,0 +1,4 @@
+typedef struct _RGNDATA {
+  RGNDATAHEADER rdh;
+  char          Buffer[1];
+} RGNDATA, *PRGNDATA, *NPRGNDATA, *LPRGNDATA;

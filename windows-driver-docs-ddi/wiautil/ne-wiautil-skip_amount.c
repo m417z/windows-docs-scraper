@@ -1,0 +1,5 @@
+typedef enum {
+  SKIP_OFF,
+  SKIP_FILEHDR,
+  SKIP_BOTHHDR
+} SKIP_AMOUNT;

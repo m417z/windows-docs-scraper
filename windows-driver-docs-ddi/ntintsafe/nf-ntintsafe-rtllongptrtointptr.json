@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntintsafe.RtlLongPtrToIntPtr",
+  "title": "RtlLongPtrToIntPtr function (ntintsafe.h)",
+  "description": "Converts a value of type LONG_PTR to a value of type INT_PTR.",
+  "old-location": "kernel\\rtllongptrtointptr.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlLongPtrToIntPtr function"
+  ],
+  "ms.keywords": "RtlLongPtrToIntPtr, RtlLongPtrToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtllongptrtointptr, ntintsafe/RtlLongPtrToIntPtr",
+  "req.header": "ntintsafe.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlLongPtrToIntPtr",
+    "ntintsafe/RtlLongPtrToIntPtr"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntintsafe.h"
+  ],
+  "api_name": [
+    "RtlLongPtrToIntPtr"
+  ]
+}

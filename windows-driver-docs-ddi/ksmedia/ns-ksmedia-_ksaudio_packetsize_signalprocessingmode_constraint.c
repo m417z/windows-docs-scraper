@@ -1,0 +1,5 @@
+typedef struct _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT {
+  GUID  ProcessingMode;
+  ULONG SamplesPerProcessingPacket;
+  ULONG ProcessingPacketDurationInHns;
+} KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT;

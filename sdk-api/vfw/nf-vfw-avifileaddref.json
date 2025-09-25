@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.AVIFileAddRef",
+  "title": "AVIFileAddRef function (vfw.h)",
+  "description": "The AVIFileAddRef function increments the reference count of an AVI file.",
+  "helpviewer_keywords": [
+    "AVIFileAddRef",
+    "AVIFileAddRef function [Windows Multimedia]",
+    "_win32_AVIFileAddRef",
+    "multimedia.avifileaddref",
+    "vfw/AVIFileAddRef"
+  ],
+  "old-location": "multimedia\\avifileaddref.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "f3dd4fa0-69e3-4249-8c74-7502d09ff341",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AVIFileAddRef, AVIFileAddRef function [Windows Multimedia], _win32_AVIFileAddRef, multimedia.avifileaddref, vfw/AVIFileAddRef",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVIFileAddRef",
+    "vfw/AVIFileAddRef"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll"
+  ],
+  "api_name": [
+    "AVIFileAddRef"
+  ]
+}

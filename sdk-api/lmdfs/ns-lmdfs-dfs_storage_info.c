@@ -1,0 +1,5 @@
+typedef struct _DFS_STORAGE_INFO {
+  ULONG  State;
+  LPWSTR ServerName;
+  LPWSTR ShareName;
+} DFS_STORAGE_INFO, *PDFS_STORAGE_INFO, *LPDFS_STORAGE_INFO;

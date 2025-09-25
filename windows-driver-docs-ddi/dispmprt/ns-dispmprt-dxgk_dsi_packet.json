@@ -1,0 +1,48 @@
+{
+  "UID": "NS:dispmprt._DXGK_DSI_PACKET",
+  "title": "DXGK_DSI_PACKET",
+  "ms.date": "03/24/2020",
+  "targetos": "Windows",
+  "description": "An OEM panel driver uses DXGK_DSI_PACKET structures to transmit Digital Serial Interface (DSI) packets to the bus driver (graphics kernel).",
+  "tech.root": "display",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DXGK_DSI_PACKET, *PDXGK_DSI_PACKET",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGK_DSI_PACKET",
+    "PDXGK_DSI_PACKET",
+    "DXGK_DSI_PACKET"
+  ],
+  "f1_keywords": [
+    "_DXGK_DSI_PACKET",
+    "dispmprt/_DXGK_DSI_PACKET",
+    "PDXGK_DSI_PACKET",
+    "dispmprt/PDXGK_DSI_PACKET",
+    "DXGK_DSI_PACKET",
+    "dispmprt/DXGK_DSI_PACKET"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

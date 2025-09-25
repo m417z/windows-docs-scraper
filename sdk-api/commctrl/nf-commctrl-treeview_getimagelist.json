@@ -1,0 +1,62 @@
+{
+  "UID": "NF:commctrl.TreeView_GetImageList",
+  "title": "TreeView_GetImageList macro (commctrl.h)",
+  "description": "Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the TVM_GETIMAGELIST message explicitly.",
+  "helpviewer_keywords": [
+    "TVSIL_NORMAL",
+    "TVSIL_STATE",
+    "TreeView_GetImageList",
+    "TreeView_GetImageList macro [Windows Controls]",
+    "_win32_TreeView_GetImageList",
+    "_win32_TreeView_GetImageList_cpp",
+    "commctrl/TreeView_GetImageList",
+    "controls.TreeView_GetImageList",
+    "controls._win32_TreeView_GetImageList"
+  ],
+  "old-location": "controls\\TreeView_GetImageList.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\treeview\\macros\\treeview_getimagelist.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "TVSIL_NORMAL, TVSIL_STATE, TreeView_GetImageList, TreeView_GetImageList macro [Windows Controls], _win32_TreeView_GetImageList, _win32_TreeView_GetImageList_cpp, commctrl/TreeView_GetImageList, controls.TreeView_GetImageList, controls._win32_TreeView_GetImageList",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TreeView_GetImageList",
+    "commctrl/TreeView_GetImageList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "TreeView_GetImageList"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _SERVICE_ADDRESSES {
+  DWORD           dwAddressCount;
+  SERVICE_ADDRESS *Addressses[];
+  SERVICE_ADDRESS Addresses[1];
+} SERVICE_ADDRESSES, *PSERVICE_ADDRESSES, *LPSERVICE_ADDRESSES;

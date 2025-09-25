@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winscard.SCardUIDlgSelectCardA",
+  "title": "SCardUIDlgSelectCardA function (winscard.h)",
+  "description": "Displays the smart card Select Card dialog box. (ANSI)",
+  "helpviewer_keywords": [
+    "SCardUIDlgSelectCardA",
+    "winscard/SCardUIDlgSelectCardA"
+  ],
+  "old-location": "security\\scarduidlgselectcard.htm",
+  "tech.root": "security",
+  "ms.assetid": "68014e9e-0ea3-4032-8db5-c1887a1cc9ad",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW",
+  "req.header": "winscard.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SCardUIDlgSelectCardW (Unicode) and SCardUIDlgSelectCardA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Scarddlg.lib",
+  "req.dll": "Scarddlg.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SCardUIDlgSelectCardA",
+    "winscard/SCardUIDlgSelectCardA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Scarddlg.dll"
+  ],
+  "api_name": [
+    "SCardUIDlgSelectCard",
+    "SCardUIDlgSelectCardA",
+    "SCardUIDlgSelectCardW"
+  ]
+}

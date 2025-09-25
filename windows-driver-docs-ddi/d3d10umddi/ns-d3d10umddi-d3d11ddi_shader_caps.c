@@ -1,0 +1,3 @@
+typedef struct D3D11DDI_SHADER_CAPS {
+  [in] UINT Caps;
+} D3D11DDI_SHADER_CAPS;

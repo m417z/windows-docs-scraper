@@ -1,0 +1,3 @@
+void CD3D11_SAMPLER_DESC(
+  [ref] const D3D11_SAMPLER_DESC & o
+);

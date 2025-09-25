@@ -1,0 +1,7 @@
+typedef struct SMHBA_BindingEntry {
+  SMHBA_BIND_TYPE type;
+  SMHBA_SCSIID    ScsiId;
+  SMHBA_PORTLUN   PortLun;
+  SMHBA_LUID      LUID;
+  HBA_STATUS      Status;
+} SMHBA_BINDINGENTRY, *PSMHBA_BINDINGENTRY;

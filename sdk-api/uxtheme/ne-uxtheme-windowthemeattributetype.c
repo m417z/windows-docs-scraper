@@ -1,0 +1,3 @@
+typedef enum WINDOWTHEMEATTRIBUTETYPE {
+  WTA_NONCLIENT = 1
+} ;

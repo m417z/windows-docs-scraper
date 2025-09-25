@@ -1,0 +1,54 @@
+{
+  "UID": "NE:ufxbase._USBFN_ACTION",
+  "title": "_USBFN_ACTION (ufxbase.h)",
+  "description": "Defines special actions UFX should take when the client driver calls the UfxDevicePortDetectCompleteEx function.",
+  "old-location": "buses\\usbfn_action.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBFN_ACTION enumeration"
+  ],
+  "ms.keywords": "*PUSBFN_ACTION, USBFN_ACTION, USBFN_ACTION enumeration [Buses], UsbfnActionDetectProprietaryCharger, UsbfnActionNoCad, UsbfnActionNone, _USBFN_ACTION, buses.usbfn_action, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionNone",
+  "req.header": "ufxbase.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "USBFN_ACTION, *PUSBFN_ACTION",
+  "f1_keywords": [
+    "_USBFN_ACTION",
+    "ufxbase/_USBFN_ACTION",
+    "PUSBFN_ACTION",
+    "ufxbase/PUSBFN_ACTION",
+    "USBFN_ACTION",
+    "ufxbase/USBFN_ACTION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ufxbase.h"
+  ],
+  "api_name": [
+    "_USBFN_ACTION",
+    "PUSBFN_ACTION",
+    "USBFN_ACTION"
+  ]
+}

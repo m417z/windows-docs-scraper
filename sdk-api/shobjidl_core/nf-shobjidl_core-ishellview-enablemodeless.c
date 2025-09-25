@@ -1,0 +1,3 @@
+HRESULT EnableModeless(
+  BOOL fEnable
+);

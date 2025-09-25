@@ -1,0 +1,7 @@
+typedef enum _VDS_VERSION_SUPPORT_FLAG {
+  VDS_VSF_1_0 = 0x1,
+  VDS_VSF_1_1 = 0x2,
+  VDS_VSF_2_0 = 0x4,
+  VDS_VSF_2_1 = 0x8,
+  VDS_VSF_3_0 = 0x10
+} VDS_VERSION_SUPPORT_FLAG;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndGetError",
+  "title": "MCIWndGetError macro (vfw.h)",
+  "description": "The MCIWndGetError macro retrieves the last MCI error encountered. You can use this macro or explicitly send the MCIWNDM_GETERROR message.",
+  "helpviewer_keywords": [
+    "MCIWndGetError",
+    "MCIWndGetError macro [Windows Multimedia]",
+    "_win32_MCIWndGetError",
+    "multimedia.mciwndgeterror",
+    "vfw/MCIWndGetError"
+  ],
+  "old-location": "multimedia\\mciwndgeterror.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "67cbd522-2409-4eeb-b62b-d78f8caea349",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "MCIWndGetError, MCIWndGetError macro [Windows Multimedia], _win32_MCIWndGetError, multimedia.mciwndgeterror, vfw/MCIWndGetError",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndGetError",
+    "vfw/MCIWndGetError"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndGetError"
+  ]
+}

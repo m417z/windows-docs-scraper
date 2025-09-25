@@ -1,0 +1,3 @@
+BOOLEAN DlQueueDpc(
+  PVOID DeviceHandle
+);

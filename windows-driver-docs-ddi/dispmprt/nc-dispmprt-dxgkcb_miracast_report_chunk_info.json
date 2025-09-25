@@ -1,0 +1,48 @@
+{
+  "UID": "NC:dispmprt.DXGKCB_MIRACAST_REPORT_CHUNK_INFO",
+  "title": "DXGKCB_MIRACAST_REPORT_CHUNK_INFO (dispmprt.h)",
+  "description": "Called by the display miniport driver to report info about an encode chunk.",
+  "old-location": "display\\dxgkcbreportchunkinfo.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback function"
+  ],
+  "ms.keywords": "DXGKCB_MIRACAST_REPORT_CHUNK_INFO, DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback, DxgkCbReportChunkInfo, DxgkCbReportChunkInfo callback function [Display Devices], display.dxgkcbreportchunkinfo, dispmprt/DxgkCbReportChunkInfo",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 8.1",
+  "req.target-min-winversvr": "Windows Server 2012 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Can be called at any IRQL level.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKCB_MIRACAST_REPORT_CHUNK_INFO",
+    "dispmprt/DXGKCB_MIRACAST_REPORT_CHUNK_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Dispmprt.h"
+  ],
+  "api_name": [
+    "DXGKCB_MIRACAST_REPORT_CHUNK_INFO"
+  ]
+}

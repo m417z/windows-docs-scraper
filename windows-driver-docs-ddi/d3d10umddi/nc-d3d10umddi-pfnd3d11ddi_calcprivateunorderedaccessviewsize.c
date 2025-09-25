@@ -1,0 +1,7 @@
+PFND3D11DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE Pfnd3d11ddiCalcprivateunorderedaccessviewsize;
+
+SIZE_T Pfnd3d11ddiCalcprivateunorderedaccessviewsize(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D11DDIARG_CREATEUNORDEREDACCESSVIEW *unnamedParam2
+)
+{...}

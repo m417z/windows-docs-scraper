@@ -1,0 +1,62 @@
+{
+  "UID": "NF:commctrl.FlatSB_SetScrollRange",
+  "title": "FlatSB_SetScrollRange function (commctrl.h)",
+  "description": "Sets the scroll range of a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollRange function.",
+  "helpviewer_keywords": [
+    "FlatSB_SetScrollRange",
+    "FlatSB_SetScrollRange function [Windows Controls]",
+    "SB_HORZ",
+    "SB_VERT",
+    "_win32_FlatSB_SetScrollRange",
+    "_win32_FlatSB_SetScrollRange_cpp",
+    "commctrl/FlatSB_SetScrollRange",
+    "controls.FlatSB_SetScrollRange",
+    "controls._win32_FlatSB_SetScrollRange"
+  ],
+  "old-location": "controls\\FlatSB_SetScrollRange.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\flatsb\\functions\\flatsb_setscrollrange.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FlatSB_SetScrollRange, FlatSB_SetScrollRange function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollRange, _win32_FlatSB_SetScrollRange_cpp, commctrl/FlatSB_SetScrollRange, controls.FlatSB_SetScrollRange, controls._win32_FlatSB_SetScrollRange",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Comctl32.lib",
+  "req.dll": "Comctl32.dll (version 4.71 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FlatSB_SetScrollRange",
+    "commctrl/FlatSB_SetScrollRange"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Comctl32.dll"
+  ],
+  "api_name": [
+    "FlatSB_SetScrollRange"
+  ]
+}

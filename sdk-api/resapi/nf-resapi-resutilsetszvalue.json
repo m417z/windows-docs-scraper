@@ -1,0 +1,62 @@
+{
+  "UID": "NF:resapi.ResUtilSetSzValue",
+  "title": "ResUtilSetSzValue function (resapi.h)",
+  "description": "Sets a string value in the cluster database. The PRESUTIL_SET_SZ_VALUE type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PRESUTIL_SET_SZ_VALUE",
+    "PRESUTIL_SET_SZ_VALUE function [Failover Cluster]",
+    "ResUtilSetSzValue",
+    "ResUtilSetSzValue function [Failover Cluster]",
+    "_wolf_resutilsetszvalue",
+    "mscs.resutilsetszvalue",
+    "resapi/PRESUTIL_SET_SZ_VALUE",
+    "resapi/ResUtilSetSzValue"
+  ],
+  "old-location": "mscs\\resutilsetszvalue.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "b9227df3-0693-4b0f-99de-d10fa3d7acf5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE function [Failover Cluster], ResUtilSetSzValue, ResUtilSetSzValue function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE, resapi/ResUtilSetSzValue",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilSetSzValue",
+    "resapi/ResUtilSetSzValue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilSetSzValue"
+  ]
+}

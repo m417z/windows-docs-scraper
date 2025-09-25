@@ -1,0 +1,4 @@
+typedef struct _DOT11_CHANNEL_HINT {
+  DOT11_PHY_TYPE Dot11PhyType;
+  ULONG          uChannelNumber;
+} DOT11_CHANNEL_HINT, *PDOT11_CHANNEL_HINT;

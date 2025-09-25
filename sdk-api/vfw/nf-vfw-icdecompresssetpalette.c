@@ -1,0 +1,4 @@
+DWORD ICDecompressSetPalette(
+     hic,
+     lpbiPalette
+);

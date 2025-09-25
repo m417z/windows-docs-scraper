@@ -1,0 +1,6 @@
+typedef enum _ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS {
+  AcxCompositeTemplateConfigNoFlags,
+  AcxCompositeTemplateConfigPrivate,
+  AcxCompositeTemplateConfigSingleton,
+  AcxCompositeTemplateConfigValidFlags
+} ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS;

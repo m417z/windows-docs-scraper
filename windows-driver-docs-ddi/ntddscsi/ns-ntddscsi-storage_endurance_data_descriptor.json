@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ntddscsi._STORAGE_ENDURANCE_DATA_DESCRIPTOR",
+  "title": "STORAGE_ENDURANCE_DATA_DESCRIPTOR",
+  "description": "A miniport uses STORAGE_ENDURANCE_DATA_DESCRIPTOR to report a device's endurance information to the storage port driver.",
+  "tech.root": "storage",
+  "ms.date": "03/18/2019",
+  "keywords": [
+    "STORAGE_ENDURANCE_DATA_DESCRIPTOR structure"
+  ],
+  "ms.keywords": "STORAGE_ENDURANCE_DATA_DESCRIPTOR, STORAGE_ENDURANCE_DATA_DESCRIPTOR, *PSTORAGE_ENDURANCE_DATA_DESCRIPTOR, IOCTL_MINIPORT_ENDURANCE_INFO, IOCTL_SCSI_MINIPORT, STORAGE_ENDURANCE_INFO, STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR,",
+  "req.header": "ntddscsi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "STORAGE_ENDURANCE_DATA_DESCRIPTOR, *PSTORAGE_ENDURANCE_DATA_DESCRIPTOR",
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_STORAGE_ENDURANCE_DATA_DESCRIPTOR",
+    "ntddscsi/_STORAGE_ENDURANCE_DATA_DESCRIPTOR",
+    "PSTORAGE_ENDURANCE_DATA_DESCRIPTOR",
+    "ntddscsi/PSTORAGE_ENDURANCE_DATA_DESCRIPTOR",
+    "STORAGE_ENDURANCE_DATA_DESCRIPTOR",
+    "ntddscsi/STORAGE_ENDURANCE_DATA_DESCRIPTOR"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddscsi.h"
+  ],
+  "api_name": [
+    "_STORAGE_ENDURANCE_DATA_DESCRIPTOR",
+    "PSTORAGE_ENDURANCE_DATA_DESCRIPTOR",
+    "STORAGE_ENDURANCE_DATA_DESCRIPTOR"
+  ]
+}

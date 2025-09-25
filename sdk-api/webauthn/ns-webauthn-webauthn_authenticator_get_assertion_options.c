@@ -1,0 +1,24 @@
+typedef struct _WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS {
+  DWORD                                dwVersion;
+  DWORD                                dwTimeoutMilliseconds;
+  WEBAUTHN_CREDENTIALS                 CredentialList;
+  WEBAUTHN_EXTENSIONS                  Extensions;
+  DWORD                                dwAuthenticatorAttachment;
+  DWORD                                dwUserVerificationRequirement;
+  DWORD                                dwFlags;
+  PCWSTR                               pwszU2fAppId;
+  BOOL                                 *pbU2fAppId;
+  GUID                                 *pCancellationId;
+  PWEBAUTHN_CREDENTIAL_LIST            pAllowCredentialList;
+  DWORD                                dwCredLargeBlobOperation;
+  DWORD                                cbCredLargeBlob;
+  PBYTE                                pbCredLargeBlob;
+  PWEBAUTHN_HMAC_SECRET_SALT_VALUES    pHmacSecretSaltValues;
+  BOOL                                 bBrowserInPrivateMode;
+  PCTAPCBOR_HYBRID_STORAGE_LINKED_DATA pLinkedDevice;
+  BOOL                                 bAutoFill;
+  DWORD                                cbJsonExt;
+  PBYTE                                pbJsonExt;
+  DWORD                                cCredentialHints;
+  LPCWSTR                              *ppwszCredentialHints;
+} WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS, *PWEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS;

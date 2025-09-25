@@ -1,0 +1,51 @@
+{
+  "UID": "NS:d3dkmdt._DXGK_BACKLIGHT_INFO",
+  "title": "_DXGK_BACKLIGHT_INFO (d3dkmdt.h)",
+  "description": "Contains the current level of backlight reduction that is applied to the integrated display panel. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.",
+  "old-location": "display\\dxgk_backlight_info.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGK_BACKLIGHT_INFO structure"
+  ],
+  "ms.keywords": "DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info",
+  "req.header": "d3dkmdt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DXGK_BACKLIGHT_INFO",
+  "f1_keywords": [
+    "_DXGK_BACKLIGHT_INFO",
+    "d3dkmdt/_DXGK_BACKLIGHT_INFO",
+    "DXGK_BACKLIGHT_INFO",
+    "d3dkmdt/DXGK_BACKLIGHT_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "D3dkmdt.h"
+  ],
+  "api_name": [
+    "_DXGK_BACKLIGHT_INFO",
+    "DXGK_BACKLIGHT_INFO"
+  ]
+}

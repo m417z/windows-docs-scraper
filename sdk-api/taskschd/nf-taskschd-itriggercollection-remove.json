@@ -1,0 +1,65 @@
+{
+  "UID": "NF:taskschd.ITriggerCollection.Remove",
+  "title": "ITriggerCollection::Remove (taskschd.h)",
+  "description": "Removes the specified trigger from the collection of triggers used by the task.",
+  "helpviewer_keywords": [
+    "ITriggerCollection interface [Task Scheduler]",
+    "Remove method",
+    "ITriggerCollection.Remove",
+    "ITriggerCollection::Remove",
+    "Remove",
+    "Remove method [Task Scheduler]",
+    "Remove method [Task Scheduler]",
+    "ITriggerCollection interface",
+    "taskschd.itriggercollection_remove",
+    "taskschd/ITriggerCollection::Remove",
+    "triggers [Task Scheduler]",
+    "removing"
+  ],
+  "old-location": "taskschd\\itriggercollection_remove.htm",
+  "tech.root": "taskschd",
+  "ms.assetid": "af3e04e6-20ec-412b-a0d2-41d31137dfca",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITriggerCollection interface [Task Scheduler],Remove method, ITriggerCollection.Remove, ITriggerCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITriggerCollection interface, taskschd.itriggercollection_remove, taskschd/ITriggerCollection::Remove, triggers [Task Scheduler],removing",
+  "req.header": "taskschd.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Taskschd.lib",
+  "req.dll": "Taskschd.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITriggerCollection::Remove",
+    "taskschd/ITriggerCollection::Remove"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "taskschd.dll"
+  ],
+  "api_name": [
+    "ITriggerCollection.Remove"
+  ]
+}

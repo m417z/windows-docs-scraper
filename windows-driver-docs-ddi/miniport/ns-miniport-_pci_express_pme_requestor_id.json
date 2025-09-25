@@ -1,0 +1,53 @@
+{
+  "UID": "NS:miniport._PCI_EXPRESS_PME_REQUESTOR_ID",
+  "title": "PCI_EXPRESS_PME_REQUESTOR_ID (miniport.h)",
+  "description": "The _PCI_EXPRESS_PME_REQUESTOR_ID union (miniport.h) describes the identifier of the requester of a power management event (PME).",
+  "tech.root": "PCI",
+  "ms.date": "07/18/2022",
+  "keywords": [
+    "PCI_EXPRESS_PME_REQUESTOR_ID structure"
+  ],
+  "ms.keywords": "*PPCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, PCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], _PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml",
+  "req.header": "miniport.h",
+  "req.include-header": "Ntddk.h, Miniport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": "PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID",
+  "f1_keywords": [
+    "_PCI_EXPRESS_PME_REQUESTOR_ID",
+    "miniport/_PCI_EXPRESS_PME_REQUESTOR_ID",
+    "PPCI_EXPRESS_PME_REQUESTOR_ID",
+    "miniport/PPCI_EXPRESS_PME_REQUESTOR_ID",
+    "PCI_EXPRESS_PME_REQUESTOR_ID",
+    "miniport/PCI_EXPRESS_PME_REQUESTOR_ID"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_PCI_EXPRESS_PME_REQUESTOR_ID",
+    "PPCI_EXPRESS_PME_REQUESTOR_ID",
+    "PCI_EXPRESS_PME_REQUESTOR_ID"
+  ]
+}

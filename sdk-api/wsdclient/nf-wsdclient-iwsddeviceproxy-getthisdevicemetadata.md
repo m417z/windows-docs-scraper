@@ -1,0 +1,33 @@
+# IWSDDeviceProxy::GetThisDeviceMetadata
+
+## Description
+
+Retrieves device-specific metadata for this device.
+
+## Parameters
+
+### `ppThisDeviceMetadata` [out]
+
+Reference to a [WSD_THIS_DEVICE_METADATA](https://learn.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_device_metadata) structure that specifies the device-specific metadata of this device.
+Do not release this object.
+
+## Return value
+
+This method can return one of these values.
+
+Possible return values include, but are not limited to, the following.
+
+| Return code | Description |
+| --- | --- |
+| **S_OK** | Method completed successfully. |
+| **E_POINTER** | *ppThisDeviceMetadata* is **NULL**. |
+
+## Remarks
+
+**GetThisDeviceMetadata** will not cause the device proxy to retrieve metadata from the device. Instead, **GetThisDeviceMetadata** will return the metadata retrieved with the last call to [BeginGetMetadata](https://learn.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata) and [EndGetMetadata](https://learn.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata). If neither of these methods has been called, **GetThisDeviceMetadata** will return the metadata retrieved when the [IWSDDeviceProxy](https://learn.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy) object was initialized.
+
+Upon success, the memory at *ppMetadata* will be valid until [BeginGetMetadata](https://learn.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata) or [EndGetMetadata](https://learn.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata) is called or until the [IWSDDeviceProxy](https://learn.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy) object is released.
+
+## See also
+
+[IWSDDeviceProxy](https://learn.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy)

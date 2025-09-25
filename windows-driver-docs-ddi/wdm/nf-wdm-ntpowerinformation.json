@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.NtPowerInformation",
+  "title": "NtPowerInformation function (wdm.h)",
+  "description": "Learn how the ZwPowerInformation routine (wdm.h) sets or retrieves system power information.",
+  "old-location": "kernel\\zwpowerinformation.htm",
+  "tech.root": "kernel",
+  "ms.date": "07/30/2021",
+  "keywords": [
+    "NtPowerInformation function"
+  ],
+  "ms.keywords": "NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntpoapi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": "Ntoskrnl.lib",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NtPowerInformation",
+    "wdm/NtPowerInformation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntoskrnl.lib"
+  ],
+  "api_name": [
+    "NtPowerInformation"
+  ]
+}

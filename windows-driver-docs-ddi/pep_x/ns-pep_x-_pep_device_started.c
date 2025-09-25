@@ -1,0 +1,3 @@
+typedef struct _PEP_DEVICE_STARTED {
+  [in] PEPHANDLE DeviceHandle;
+} PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED;

@@ -1,0 +1,1 @@
+WDF_KPROCESSOR_MODE GetRequestorMode();

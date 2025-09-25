@@ -1,0 +1,4 @@
+typedef struct _AVC_PRECONNECT_INFO {
+  ULONG             PinId;
+  AVCPRECONNECTINFO ConnectInfo;
+} AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO;

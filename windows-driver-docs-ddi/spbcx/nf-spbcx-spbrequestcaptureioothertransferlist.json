@@ -1,0 +1,49 @@
+{
+  "UID": "NF:spbcx.SpbRequestCaptureIoOtherTransferList",
+  "title": "SpbRequestCaptureIoOtherTransferList function (spbcx.h)",
+  "description": "The SpbRequestCaptureIoOtherTransferList method retrieves the SPB_TRANSFER_LIST structure in the input buffer of the custom IOCTL request.",
+  "old-location": "spb\\spbrequestcaptureioothertransferlist.htm",
+  "tech.root": "SPB",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "SpbRequestCaptureIoOtherTransferList function"
+  ],
+  "ms.keywords": "SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList",
+  "req.header": "spbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Spbcxstubs.lib",
+  "req.dll": null,
+  "req.irql": "See Remarks.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SpbRequestCaptureIoOtherTransferList",
+    "spbcx/SpbRequestCaptureIoOtherTransferList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "spbcxstubs.lib",
+    "spbcxstubs.dll"
+  ],
+  "api_name": [
+    "SpbRequestCaptureIoOtherTransferList"
+  ]
+}

@@ -1,0 +1,21 @@
+typedef struct _SRIOV_DEVICE_INTERFACE_STANDARD_2 {
+  USHORT                           Size;
+  USHORT                           Version;
+  PVOID                            Context;
+  PINTERFACE_REFERENCE             InterfaceReference;
+  PINTERFACE_REFERENCE             InterfaceDereference;
+  PSRIOV_READ_CONFIG               ReadVfConfig;
+  PSRIOV_WRITE_CONFIG              WriteVfConfig;
+  PSRIOV_READ_BLOCK                ReadVfConfigBlock;
+  PSRIOV_WRITE_BLOCK               WriteVfConfigBlock;
+  PSRIOV_QUERY_PROBED_BARS         QueryProbedBars;
+  PSRIOV_GET_VENDOR_AND_DEVICE_IDS GetVendorAndDevice;
+  PSRIOV_GET_DEVICE_LOCATION       GetDeviceLocation;
+  PSRIOV_RESET_FUNCTION            ResetVf;
+  PSRIOV_SET_POWER_STATE           SetVfPowerState;
+  PSRIOV_GET_RESOURCE_FOR_BAR      GetResourceForBar;
+  PSRIOV_QUERY_LUID                QueryLuid;
+  PSRIOV_QUERY_PROBED_BARS_2       QueryProbedBars_2;
+  PSRIOV_QUERY_VF_LUID             QueryVfLuid;
+  PSRIOV_QUERY_LUID_VF             QueryLuidVf;
+} SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2;

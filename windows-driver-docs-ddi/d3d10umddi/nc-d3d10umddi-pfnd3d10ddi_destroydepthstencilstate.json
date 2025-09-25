@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3d10umddi.PFND3D10DDI_DESTROYDEPTHSTENCILSTATE",
+  "title": "PFND3D10DDI_DESTROYDEPTHSTENCILSTATE (d3d10umddi.h)",
+  "description": "The DestroyDepthStencilState function destroys the specified depth stencil state object. The depth stencil state object can be destroyed only if it is not currently bound to a display device.",
+  "old-location": "display\\destroydepthstencilstate.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PFND3D10DDI_DESTROYDEPTHSTENCILSTATE callback function"
+  ],
+  "ms.keywords": "DestroyDepthStencilState, DestroyDepthStencilState callback function [Display Devices], PFND3D10DDI_DESTROYDEPTHSTENCILSTATE, PFND3D10DDI_DESTROYDEPTHSTENCILSTATE callback, UserModeDisplayDriverDx10_Functions_0d9deca1-62e7-4caa-9bfd-9c42bdd85c2c.xml, d3d10umddi/DestroyDepthStencilState, display.destroydepthstencilstate",
+  "req.header": "d3d10umddi.h",
+  "req.include-header": "D3d10umddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFND3D10DDI_DESTROYDEPTHSTENCILSTATE",
+    "d3d10umddi/PFND3D10DDI_DESTROYDEPTHSTENCILSTATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3d10umddi.h"
+  ],
+  "api_name": [
+    "PFND3D10DDI_DESTROYDEPTHSTENCILSTATE"
+  ]
+}

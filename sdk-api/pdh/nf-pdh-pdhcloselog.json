@@ -1,0 +1,64 @@
+{
+  "UID": "NF:pdh.PdhCloseLog",
+  "title": "PdhCloseLog function (pdh.h)",
+  "description": "Closes the specified log file.",
+  "helpviewer_keywords": [
+    "PDH_FLAGS_CLOSE_QUERY",
+    "PdhCloseLog",
+    "PdhCloseLog function [Perf]",
+    "_win32_pdhcloselog",
+    "base.pdhcloselog",
+    "pdh/PdhCloseLog",
+    "perf.pdhcloselog"
+  ],
+  "old-location": "perf\\pdhcloselog.htm",
+  "tech.root": "perf",
+  "ms.assetid": "74039bdf-d1b5-41ba-aa4e-4779ce0dd02a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PDH_FLAGS_CLOSE_QUERY, PdhCloseLog, PdhCloseLog function [Perf], _win32_pdhcloselog, base.pdhcloselog, pdh/PdhCloseLog, perf.pdhcloselog",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhCloseLog",
+    "pdh/PdhCloseLog"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-eventing-pdh-l1-1-3.dll",
+    "ext-ms-win-eventing-pdh-l1-1-2.dll",
+    "ext-ms-win-eventing-pdh-l1-1-1.dll",
+    "ext-ms-win-eventing-pdh-l1-1-0.dll",
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhCloseLog"
+  ]
+}

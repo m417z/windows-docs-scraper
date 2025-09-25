@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.TmCommitTransaction",
+  "title": "TmCommitTransaction function (wdm.h)",
+  "description": "The TmCommitTransaction routine initiates a commit operation for a specified transaction.",
+  "old-location": "kernel\\tmcommittransaction.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "TmCommitTransaction function"
+  ],
+  "ms.keywords": "TmCommitTransaction, TmCommitTransaction routine [Kernel-Mode Driver Architecture], kernel.tmcommittransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, wdm/TmCommitTransaction",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later operating system versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "TmCommitTransaction",
+    "wdm/TmCommitTransaction"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ext-MS-Win-ntos-tm-l1-1-0.dll",
+    "tm.sys"
+  ],
+  "api_name": [
+    "TmCommitTransaction"
+  ]
+}

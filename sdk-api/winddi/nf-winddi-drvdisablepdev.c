@@ -1,0 +1,3 @@
+VOID DrvDisablePDEV(
+  DHPDEV dhpdev
+);

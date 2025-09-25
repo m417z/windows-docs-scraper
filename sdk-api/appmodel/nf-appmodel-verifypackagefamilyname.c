@@ -1,0 +1,3 @@
+LONG VerifyPackageFamilyName(
+  PCWSTR packageFamilyName
+);

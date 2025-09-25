@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlDelete",
+  "title": "RtlDelete function (ntddk.h)",
+  "description": "The RtlDelete routine deletes the specified node from the splay link tree.",
+  "old-location": "ifsk\\rtldelete.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlDelete function"
+  ],
+  "ms.keywords": "RtlDelete, RtlDelete routine [Installable File System Drivers], ifsk.rtldelete, ntddk/RtlDelete, rtlref_637fb420-7027-4426-a4a0-7ae887ad1950.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "See Remarks section.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlDelete",
+    "ntddk/RtlDelete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlDelete"
+  ]
+}

@@ -1,0 +1,1 @@
+PresentStatus GetPresentStatus();

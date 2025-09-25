@@ -1,0 +1,10 @@
+RPC_STATUS RpcServerInterfaceGroupCreate(
+  [in]  RPC_INTERFACE_TEMPLATE               *Interfaces,
+  [in]  unsigned long                        NumIfs,
+  [in]  RPC_ENDPOINT_TEMPLATE                *Endpoints,
+  [in]  unsigned long                        NumEndpoints,
+  [in]  unsigned long                        IdlePeriod,
+  [in]  RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN IdleCallbackFn,
+  [in]  void                                 *IdleCallbackContext,
+  [out] PRPC_INTERFACE_GROUP                 IfGroup
+);

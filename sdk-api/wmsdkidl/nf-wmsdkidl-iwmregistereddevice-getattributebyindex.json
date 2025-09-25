@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wmsdkidl.IWMRegisteredDevice.GetAttributeByIndex",
+  "title": "IWMRegisteredDevice::GetAttributeByIndex (wmsdkidl.h)",
+  "description": "The GetAttributeByIndex method retrieves an attribute associated with the device. This method uses the attribute index to specify the attribute to retrieve.",
+  "helpviewer_keywords": [
+    "GetAttributeByIndex",
+    "GetAttributeByIndex method [windows Media Format]",
+    "GetAttributeByIndex method [windows Media Format]",
+    "IWMRegisteredDevice interface",
+    "IWMRegisteredDevice interface [windows Media Format]",
+    "GetAttributeByIndex method",
+    "IWMRegisteredDevice.GetAttributeByIndex",
+    "IWMRegisteredDevice::GetAttributeByIndex",
+    "IWMRegisteredDeviceGetAttributeByIndex",
+    "wmformat.iwmregistereddevice_getattributebyindex",
+    "wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex"
+  ],
+  "old-location": "wmformat\\iwmregistereddevice_getattributebyindex.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "02a582d4-329e-47e3-9dbe-dba8a3e4b4b3",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByIndex method, IWMRegisteredDevice.GetAttributeByIndex, IWMRegisteredDevice::GetAttributeByIndex, IWMRegisteredDeviceGetAttributeByIndex, wmformat.iwmregistereddevice_getattributebyindex, wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only],Windows Media Format 9.5 SDK",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WMStubDRM.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMRegisteredDevice::GetAttributeByIndex",
+    "wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMRegisteredDevice.GetAttributeByIndex"
+  ]
+}

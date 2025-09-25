@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.SeImpersonateClient",
+  "title": "SeImpersonateClient function (ntifs.h)",
+  "description": "The SeImpersonateClient function is obsolete.",
+  "old-location": "ifsk\\seimpersonateclient.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "SeImpersonateClient function"
+  ],
+  "ms.keywords": "SeImpersonateClient, SeImpersonateClient function [Installable File System Drivers], ifsk.seimpersonateclient, ntifs/SeImpersonateClient, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SeImpersonateClient",
+    "ntifs/SeImpersonateClient"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "SeImpersonateClient"
+  ]
+}

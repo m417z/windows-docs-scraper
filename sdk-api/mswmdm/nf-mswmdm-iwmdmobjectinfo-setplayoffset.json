@@ -1,0 +1,65 @@
+{
+  "UID": "NF:mswmdm.IWMDMObjectInfo.SetPlayOffset",
+  "title": "IWMDMObjectInfo::SetPlayOffset (mswmdm.h)",
+  "description": "The SetPlayOffset method sets the play offset of the object, in the units appropriate to the format. This specifies the starting point for the next invocation of Play.",
+  "helpviewer_keywords": [
+    "IWMDMObjectInfo interface [windows Media Device Manager]",
+    "SetPlayOffset method",
+    "IWMDMObjectInfo.SetPlayOffset",
+    "IWMDMObjectInfo::SetPlayOffset",
+    "IWMDMObjectInfoSetPlayOffset",
+    "SetPlayOffset",
+    "SetPlayOffset method [windows Media Device Manager]",
+    "SetPlayOffset method [windows Media Device Manager]",
+    "IWMDMObjectInfo interface",
+    "mswmdm/IWMDMObjectInfo::SetPlayOffset",
+    "wmdm.iwmdmobjectinfo_setplayoffset"
+  ],
+  "old-location": "wmdm\\iwmdmobjectinfo_setplayoffset.htm",
+  "tech.root": "WMDM",
+  "ms.assetid": "b47cf5e8-1d5c-4a47-bb9a-0bec7203f497",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IWMDMObjectInfo interface [windows Media Device Manager],SetPlayOffset method, IWMDMObjectInfo.SetPlayOffset, IWMDMObjectInfo::SetPlayOffset, IWMDMObjectInfoSetPlayOffset, SetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayOffset, wmdm.iwmdmobjectinfo_setplayoffset",
+  "req.header": "mswmdm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mssachlp.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMDMObjectInfo::SetPlayOffset",
+    "mswmdm/IWMDMObjectInfo::SetPlayOffset"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mssachlp.lib",
+    "mssachlp.dll"
+  ],
+  "api_name": [
+    "IWMDMObjectInfo.SetPlayOffset"
+  ]
+}

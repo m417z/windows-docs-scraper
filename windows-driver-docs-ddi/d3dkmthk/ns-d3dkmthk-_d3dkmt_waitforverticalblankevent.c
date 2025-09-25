@@ -1,0 +1,5 @@
+typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
+  [in] D3DKMT_HANDLE                  hAdapter;
+  [in] D3DKMT_HANDLE                  hDevice;
+  [in] D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
+} D3DKMT_WAITFORVERTICALBLANKEVENT;

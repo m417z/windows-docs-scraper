@@ -1,0 +1,5 @@
+typedef enum drt_security_mode_tag {
+  DRT_SECURE_RESOLVE = 0,
+  DRT_SECURE_MEMBERSHIP = 1,
+  DRT_SECURE_CONFIDENTIALPAYLOAD = 2
+} DRT_SECURITY_MODE;

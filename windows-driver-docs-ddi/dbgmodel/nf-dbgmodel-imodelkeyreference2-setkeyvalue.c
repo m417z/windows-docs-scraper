@@ -1,0 +1,3 @@
+HRESULT SetKeyValue(
+  IModelObject *object
+);

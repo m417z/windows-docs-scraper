@@ -1,0 +1,3 @@
+HRESULT Open(
+  LPDMUS_PORTPARAMS pPortParams
+);

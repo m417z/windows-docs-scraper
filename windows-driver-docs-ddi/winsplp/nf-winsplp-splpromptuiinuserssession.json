@@ -1,0 +1,48 @@
+{
+  "UID": "NF:winsplp.SplPromptUIInUsersSession",
+  "title": "SplPromptUIInUsersSession function (winsplp.h)",
+  "description": "The SplPromptUIInUsersSession function displays a standard message box in the session indicated by the printer handle and job ID.",
+  "old-location": "print\\splpromptuiinuserssession.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "SplPromptUIInUsersSession function"
+  ],
+  "ms.keywords": "SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], print.splpromptuiinuserssession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, winsplp/SplPromptUIInUsersSession",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "The SplPromptUIInUsersSession function is available in Windows XP and later",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Spoolss.lib",
+  "req.dll": "Spoolss.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SplPromptUIInUsersSession",
+    "winsplp/SplPromptUIInUsersSession"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Spoolss.dll"
+  ],
+  "api_name": [
+    "SplPromptUIInUsersSession"
+  ]
+}

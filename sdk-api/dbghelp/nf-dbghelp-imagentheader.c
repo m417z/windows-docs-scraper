@@ -1,0 +1,3 @@
+PIMAGE_NT_HEADERS IMAGEAPI ImageNtHeader(
+  [in] PVOID Base
+);

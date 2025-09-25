@@ -1,0 +1,6 @@
+typedef struct DOT11_ASSOCIATION_PARAMS {
+  NDIS_OBJECT_HEADER Header;
+  DOT11_MAC_ADDRESS  BSSID;
+  ULONG              uAssocRequestIEsOffset;
+  ULONG              uAssocRequestIEsLength;
+} DOT11_ASSOCIATION_PARAMS, *PDOT11_ASSOCIATION_PARAMS;

@@ -1,0 +1,5 @@
+typedef struct _CRYPT_KEY_VERIFY_MESSAGE_PARA {
+  DWORD             cbSize;
+  DWORD             dwMsgEncodingType;
+  HCRYPTPROV_LEGACY hCryptProv;
+} CRYPT_KEY_VERIFY_MESSAGE_PARA, *PCRYPT_KEY_VERIFY_MESSAGE_PARA;

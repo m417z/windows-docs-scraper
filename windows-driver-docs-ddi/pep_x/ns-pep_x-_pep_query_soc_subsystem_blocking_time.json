@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pep_x._PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+  "title": "_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME (pep_x.h)",
+  "description": "The PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure (pep_x.h) is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.",
+  "old-location": "kernel\\pep_query_soc_subsystem_blocking_time.htm",
+  "tech.root": "kernel",
+  "ms.date": "07/30/2021",
+  "keywords": [
+    "PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure"
+  ],
+  "ms.keywords": "*PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, kernel.pep_query_soc_subsystem_blocking_time, pepfx/PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+  "req.header": "pep_x.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, *PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+  "f1_keywords": [
+    "_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+    "pep_x/_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+    "PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+    "pep_x/PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+    "PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+    "pep_x/PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+    "PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME",
+    "PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME"
+  ]
+}

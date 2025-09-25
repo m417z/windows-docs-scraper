@@ -1,0 +1,3 @@
+BOOL GetBreakOnID(
+  [in] D3D10_MESSAGE_ID ID
+);

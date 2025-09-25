@@ -1,0 +1,4 @@
+typedef struct _DXGKARGCB_PROTECTEDSESSIONSTATUS {
+  [in] HANDLE                        hProtectedSession;
+  [in] DXGK_PROTECTED_SESSION_STATUS Status;
+} DXGKARGCB_PROTECTEDSESSIONSTATUS;

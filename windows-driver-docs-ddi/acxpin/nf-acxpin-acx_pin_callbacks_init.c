@@ -1,0 +1,3 @@
+VOID ACX_PIN_CALLBACKS_INIT(
+  [out] PACX_PIN_CALLBACKS PinCallbacks
+);

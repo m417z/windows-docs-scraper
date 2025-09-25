@@ -1,0 +1,7 @@
+typedef struct tagBITMAPCOREHEADER {
+  DWORD bcSize;
+  WORD  bcWidth;
+  WORD  bcHeight;
+  WORD  bcPlanes;
+  WORD  bcBitCount;
+} BITMAPCOREHEADER, *LPBITMAPCOREHEADER, *PBITMAPCOREHEADER;

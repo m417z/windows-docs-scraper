@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3dkmthk.D3DKMTCreateKeyedMutex",
+  "title": "D3DKMTCreateKeyedMutex function (d3dkmthk.h)",
+  "description": "The D3DKMTCreateKeyedMutex function creates a keyed mutex object. The function returns STATUS_SUCCESS on successful creation of the keyed mutex object.",
+  "old-location": "display\\d3dkmtcreatekeyedmutex.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DKMTCreateKeyedMutex function"
+  ],
+  "ms.keywords": "D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, PFND3DKMT_CREATEKEYEDMUTEX callback, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex",
+  "req.header": "d3dkmthk.h",
+  "req.include-header": "D3dkmthk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "D3DKMTCreateKeyedMutex is supported beginning with the Windows 7 operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "D3DKMTCreateKeyedMutex",
+    "d3dkmthk/D3DKMTCreateKeyedMutex"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Gdi32.dll"
+  ],
+  "api_name": [
+    "D3DKMTCreateKeyedMutex"
+  ]
+}

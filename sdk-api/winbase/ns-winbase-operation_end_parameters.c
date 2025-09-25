@@ -1,0 +1,5 @@
+typedef struct _OPERATION_END_PARAMETERS {
+  ULONG        Version;
+  OPERATION_ID OperationId;
+  ULONG        Flags;
+} OPERATION_END_PARAMETERS, *POPERATION_END_PARAMETERS;

@@ -1,0 +1,6 @@
+PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY Pfnd3dkmtSethwprotectionteardownrecovery;
+
+NTSTATUS Pfnd3dkmtSethwprotectionteardownrecovery(
+  D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY *unnamedParam1
+)
+{...}

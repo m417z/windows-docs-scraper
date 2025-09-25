@@ -1,0 +1,3 @@
+NTDSAPI DWORD DsUnBindA(
+  [in] HANDLE *phDS
+);

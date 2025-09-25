@@ -1,0 +1,3 @@
+LONG AVIStreamStart(
+  PAVISTREAM pavi
+);

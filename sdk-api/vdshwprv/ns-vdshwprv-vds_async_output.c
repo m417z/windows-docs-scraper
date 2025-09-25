@@ -1,0 +1,30 @@
+typedef struct _VDS_ASYNC_OUTPUT {
+  VDS_ASYNC_OUTPUT_TYPE type;
+  union {
+    struct {
+      ULONGLONG     ullOffset;
+      VDS_OBJECT_ID volumeId;
+    } cp;
+    struct {
+      IUnknown *pVolumeUnk;
+    } cv;
+    struct {
+      IUnknown *pVolumeUnk;
+    } bvp;
+    struct {
+      ULONGLONG ullReclaimedBytes;
+    } sv;
+    struct {
+      IUnknown *pLunUnk;
+    } cl;
+    struct {
+      IUnknown *pTargetUnk;
+    } ct;
+    struct {
+      IUnknown *pPortalGroupUnk;
+    } cpg;
+    struct {
+      IUnknown *pVDiskUnk;
+    } cvd;
+  };
+} VDS_ASYNC_OUTPUT;

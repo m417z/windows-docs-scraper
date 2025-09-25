@@ -1,0 +1,3 @@
+HRESULT GetBaseLocation(
+  Location *moduleBaseLocation
+);

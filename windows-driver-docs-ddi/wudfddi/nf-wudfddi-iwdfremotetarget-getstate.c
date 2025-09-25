@@ -1,0 +1,1 @@
+WDF_IO_TARGET_STATE GetState();

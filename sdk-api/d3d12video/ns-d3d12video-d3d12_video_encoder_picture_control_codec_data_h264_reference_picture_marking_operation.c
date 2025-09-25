@@ -1,0 +1,7 @@
+typedef struct D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_MARKING_OPERATION {
+  UCHAR memory_management_control_operation;
+  UINT  difference_of_pic_nums_minus1;
+  UINT  long_term_pic_num;
+  UINT  long_term_frame_idx;
+  UINT  max_long_term_frame_idx_plus1;
+} D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_MARKING_OPERATION;

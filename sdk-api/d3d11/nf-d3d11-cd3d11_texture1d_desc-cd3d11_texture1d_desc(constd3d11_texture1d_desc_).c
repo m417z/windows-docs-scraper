@@ -1,0 +1,3 @@
+void CD3D11_TEXTURE1D_DESC(
+  [ref] const D3D11_TEXTURE1D_DESC & o
+);

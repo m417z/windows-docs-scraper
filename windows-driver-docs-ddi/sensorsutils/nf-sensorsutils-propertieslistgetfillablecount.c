@@ -1,0 +1,3 @@
+ULONG PropertiesListGetFillableCount(
+  ULONG BufferSizeBytes
+);

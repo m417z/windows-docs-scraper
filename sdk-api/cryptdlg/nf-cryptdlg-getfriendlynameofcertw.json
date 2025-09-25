@@ -1,0 +1,61 @@
+{
+  "UID": "NF:cryptdlg.GetFriendlyNameOfCertW",
+  "title": "GetFriendlyNameOfCertW function (cryptdlg.h)",
+  "description": "Retrieves the display name for a certificate. (Unicode)",
+  "helpviewer_keywords": [
+    "GetFriendlyNameOfCert",
+    "GetFriendlyNameOfCert function [Security]",
+    "GetFriendlyNameOfCertW",
+    "cryptdlg/GetFriendlyNameOfCert",
+    "cryptdlg/GetFriendlyNameOfCertW",
+    "security.getfriendlynameofcert"
+  ],
+  "old-location": "security\\getfriendlynameofcert.htm",
+  "tech.root": "security",
+  "ms.assetid": "a66a8573-b234-4d5d-bd38-72a3a44a0419",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert",
+  "req.header": "cryptdlg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetFriendlyNameOfCertW (Unicode) and GetFriendlyNameOfCertA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "CryptDlg.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetFriendlyNameOfCertW",
+    "cryptdlg/GetFriendlyNameOfCertW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "CryptDlg.dll"
+  ],
+  "api_name": [
+    "GetFriendlyNameOfCert",
+    "GetFriendlyNameOfCertA",
+    "GetFriendlyNameOfCertW"
+  ]
+}

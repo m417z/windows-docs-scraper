@@ -1,0 +1,9 @@
+PFND3D12DDI_ADD_TO_STATE_OBJECT_0072 Pfnd3d12ddiAddToStateObject0072;
+
+HRESULT Pfnd3d12ddiAddToStateObject0072(
+       D3D12DDI_HDEVICE unnamedParam1,
+  [in] const D3D12DDIARG_ADD_TO_STATE_OBJECT_0072 *unnamedParam2,
+       D3D12DDI_HSTATEOBJECT_0054 unnamedParam3,
+       D3D12DDI_HRTSTATEOBJECT_0054 unnamedParam4
+)
+{...}

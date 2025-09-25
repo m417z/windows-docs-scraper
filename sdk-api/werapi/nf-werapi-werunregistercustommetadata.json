@@ -1,0 +1,63 @@
+{
+  "UID": "NF:werapi.WerUnregisterCustomMetadata",
+  "title": "WerUnregisterCustomMetadata function (werapi.h)",
+  "description": "Removes an item of app-specific metadata being collected during Windows Error Reporting (WER) for the application.",
+  "helpviewer_keywords": [
+    "WerUnRegisterCustomMetadata",
+    "WerUnRegisterCustomMetadata function [Windows Error Reporting]",
+    "WerUnregisterCustomMetadata",
+    "wer.werunregistercustommetadata",
+    "werapi/WerUnRegisterCustomMetadata"
+  ],
+  "old-location": "wer\\werunregistercustommetadata.htm",
+  "tech.root": "wer",
+  "ms.assetid": "29DB2CE5-2A96-450B-96C8-082B786613F9",
+  "ms.date": "07/26/2023",
+  "ms.keywords": "WerUnRegisterCustomMetadata, WerUnRegisterCustomMetadata function [Windows Error Reporting], WerUnregisterCustomMetadata, wer.werunregistercustommetadata, werapi/WerUnRegisterCustomMetadata",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerUnregisterCustomMetadata",
+    "werapi/WerUnregisterCustomMetadata"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerUnRegisterCustomMetadata"
+  ]
+}

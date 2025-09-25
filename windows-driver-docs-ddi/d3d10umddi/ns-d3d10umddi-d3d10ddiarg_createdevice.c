@@ -1,0 +1,29 @@
+typedef struct D3D10DDIARG_CREATEDEVICE {
+  D3D10DDI_HRTDEVICE            hRTDevice;
+  UINT                          Interface;
+  UINT                          Version;
+  const D3DDDI_DEVICECALLBACKS  *pKTCallbacks;
+  union {
+    D3D10DDI_DEVICEFUNCS      *pDeviceFuncs;
+    D3D10_1DDI_DEVICEFUNCS    *p10_1DeviceFuncs;
+    D3D11DDI_DEVICEFUNCS      *p11DeviceFuncs;
+    D3D11_1DDI_DEVICEFUNCS    *p11_1DeviceFuncs;
+    D3DWDDM1_3DDI_DEVICEFUNCS *pWDDM1_3DeviceFuncs;
+    D3DWDDM2_0DDI_DEVICEFUNCS *pWDDM2_0DeviceFuncs;
+    D3DWDDM2_1DDI_DEVICEFUNCS *pWDDM2_1DeviceFuncs;
+    D3DWDDM2_2DDI_DEVICEFUNCS *pWDDM2_2DeviceFuncs;
+    D3DWDDM2_6DDI_DEVICEFUNCS *pWDDM2_6DeviceFuncs;
+  };
+  D3D10DDI_HDEVICE              hDrvDevice;
+  DXGI_DDI_BASE_ARGS            DXGIBaseDDI;
+  D3D10DDI_HRTCORELAYER         hRTCoreLayer;
+  union {
+    const D3D10DDI_CORELAYER_DEVICECALLBACKS      *pUMCallbacks;
+    const D3D11DDI_CORELAYER_DEVICECALLBACKS      *p11UMCallbacks;
+    const D3DWDDM2_0DDI_CORELAYER_DEVICECALLBACKS *pWDDM2_0UMCallbacks;
+    const D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS *pWDDM2_2UMCallbacks;
+    const D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS *pWDDM2_6UMCallbacks;
+  };
+  UINT                          Flags;
+  PFND3D10DDI_RETRIEVESUBOBJECT *ppfnRetrieveSubObject;
+} D3D10DDIARG_CREATEDEVICE;

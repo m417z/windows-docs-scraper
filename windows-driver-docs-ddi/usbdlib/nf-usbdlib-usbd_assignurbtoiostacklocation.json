@@ -1,0 +1,49 @@
+{
+  "UID": "NF:usbdlib.USBD_AssignUrbToIoStackLocation",
+  "title": "USBD_AssignUrbToIoStackLocation function (usbdlib.h)",
+  "description": "The USBD_AssignUrbToIoStackLocation routine is called by a client driver to associate an URB with the IRP's next stack location.",
+  "old-location": "buses\\usbd_assignurbtostacklocation.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBD_AssignUrbToIoStackLocation function"
+  ],
+  "ms.keywords": "USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], buses.usbd_assignurbtostacklocation, usbdlib/USBD_AssignUrbToIoStackLocation",
+  "req.header": "usbdlib.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbdex.lib",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBD_AssignUrbToIoStackLocation",
+    "usbdlib/USBD_AssignUrbToIoStackLocation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Usbdex.lib",
+    "Usbdex.dll"
+  ],
+  "api_name": [
+    "USBD_AssignUrbToIoStackLocation"
+  ]
+}

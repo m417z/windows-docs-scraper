@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._TOKEN_STATISTICS",
+  "title": "TOKEN_STATISTICS (ntifs.h)",
+  "description": "TOKEN_STATISTICS contains information about an access token. A driver can retrieve this information by calling SeQueryInformationToken or ZwQueryInformationToken.",
+  "old-location": "ifsk\\token_statistics.htm",
+  "tech.root": "ifsk",
+  "ms.date": "07/26/2022",
+  "keywords": [
+    "TOKEN_STATISTICS structure"
+  ],
+  "ms.keywords": "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], _TOKEN_STATISTICS, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TOKEN_STATISTICS, *PTOKEN_STATISTICS",
+  "f1_keywords": [
+    "_TOKEN_STATISTICS",
+    "ntifs/_TOKEN_STATISTICS",
+    "PTOKEN_STATISTICS",
+    "ntifs/PTOKEN_STATISTICS",
+    "TOKEN_STATISTICS",
+    "ntifs/TOKEN_STATISTICS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_TOKEN_STATISTICS",
+    "PTOKEN_STATISTICS",
+    "TOKEN_STATISTICS"
+  ]
+}

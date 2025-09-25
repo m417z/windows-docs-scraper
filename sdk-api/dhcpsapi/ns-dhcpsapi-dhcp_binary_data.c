@@ -1,0 +1,4 @@
+typedef struct _DHCP_BINARY_DATA {
+  DWORD DataLength;
+  BYTE  *Data;
+} DHCP_BINARY_DATA, *LPDHCP_BINARY_DATA;

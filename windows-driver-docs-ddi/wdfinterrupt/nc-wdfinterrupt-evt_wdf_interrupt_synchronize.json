@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfinterrupt.EVT_WDF_INTERRUPT_SYNCHRONIZE",
+  "title": "EVT_WDF_INTERRUPT_SYNCHRONIZE (wdfinterrupt.h)",
+  "description": "A driver's EvtInterruptSynchronize event callback function performs operations that must be synchronized with an EvtInterruptIsr callback function.",
+  "old-location": "wdf\\evtinterruptsynchronize.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_INTERRUPT_SYNCHRONIZE callback function"
+  ],
+  "ms.keywords": "DFInterruptObjectRef_4310d770-645e-48c8-bd33-b9edcc8cb667.xml, EVT_WDF_INTERRUPT_SYNCHRONIZE, EVT_WDF_INTERRUPT_SYNCHRONIZE callback, EvtInterruptSynchronize, EvtInterruptSynchronize callback function, kmdf.evtinterruptsynchronize, wdf.evtinterruptsynchronize, wdfinterrupt/EvtInterruptSynchronize",
+  "req.header": "wdfinterrupt.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "(See Remarks section.)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_INTERRUPT_SYNCHRONIZE",
+    "wdfinterrupt/EVT_WDF_INTERRUPT_SYNCHRONIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfinterrupt.h"
+  ],
+  "api_name": [
+    "EVT_WDF_INTERRUPT_SYNCHRONIZE"
+  ]
+}

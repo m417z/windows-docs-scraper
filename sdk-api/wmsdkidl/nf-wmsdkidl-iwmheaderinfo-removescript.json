@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMHeaderInfo.RemoveScript",
+  "title": "IWMHeaderInfo::RemoveScript (wmsdkidl.h)",
+  "description": "The RemoveScript method enables the object to remove a script from the header section of the ASF file.",
+  "helpviewer_keywords": [
+    "IWMHeaderInfo interface [windows Media Format]",
+    "RemoveScript method",
+    "IWMHeaderInfo.RemoveScript",
+    "IWMHeaderInfo::RemoveScript",
+    "IWMHeaderInfoRemoveScript",
+    "RemoveScript",
+    "RemoveScript method [windows Media Format]",
+    "RemoveScript method [windows Media Format]",
+    "IWMHeaderInfo interface",
+    "wmformat.iwmheaderinfo_removescript",
+    "wmsdkidl/IWMHeaderInfo::RemoveScript"
+  ],
+  "old-location": "wmformat\\iwmheaderinfo_removescript.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "c66e808d-25f9-4745-8bcc-731f2556f470",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMHeaderInfo interface [windows Media Format],RemoveScript method, IWMHeaderInfo.RemoveScript, IWMHeaderInfo::RemoveScript, IWMHeaderInfoRemoveScript, RemoveScript, RemoveScript method [windows Media Format], RemoveScript method [windows Media Format],IWMHeaderInfo interface, wmformat.iwmheaderinfo_removescript, wmsdkidl/IWMHeaderInfo::RemoveScript",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMHeaderInfo::RemoveScript",
+    "wmsdkidl/IWMHeaderInfo::RemoveScript"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMHeaderInfo.RemoveScript"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "UID": "NE:srb.SRBEX_DATA_NVME_COMMAND_TYPE",
+  "tech.root": "storage",
+  "title": "SRBEX_DATA_NVME_COMMAND_TYPE (srb.h)",
+  "ms.date": "02/21/2024",
+  "targetos": "Windows",
+  "description": "The SRBEX_DATA_NVME_COMMAND_TYPE (srb.h) contains values that indicate the SRBEX Data NVMe command types.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "srb.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "srb.h"
+  ],
+  "api_name": [
+    "PSRBEX_DATA_NVME_COMMAND_TYPE",
+    "SRBEX_DATA_NVME_COMMAND_TYPE"
+  ],
+  "f1_keywords": [
+    "PSRBEX_DATA_NVME_COMMAND_TYPE",
+    "srb/PSRBEX_DATA_NVME_COMMAND_TYPE",
+    "SRBEX_DATA_NVME_COMMAND_TYPE",
+    "srb/SRBEX_DATA_NVME_COMMAND_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

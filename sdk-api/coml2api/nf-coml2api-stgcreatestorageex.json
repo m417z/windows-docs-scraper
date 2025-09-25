@@ -1,0 +1,63 @@
+{
+  "UID": "NF:coml2api.StgCreateStorageEx",
+  "title": "StgCreateStorageEx function (coml2api.h)",
+  "description": "Creates a new storage object using a provided implementation for the IStorage or IPropertySetStorage interfaces.",
+  "helpviewer_keywords": [
+    "All other values of stgfmt",
+    "STGFMT_DOCFILE",
+    "StgCreateStorageEx",
+    "StgCreateStorageEx function [Structured Storage]",
+    "_stg_stgcreatestorageex",
+    "coml2api/StgCreateStorageEx",
+    "stg.stgcreatestorageex"
+  ],
+  "old-location": "stg\\stgcreatestorageex.htm",
+  "tech.root": "Stg",
+  "ms.assetid": "6442977d-e980-419e-abe9-9d15dbb045c1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex",
+  "req.header": "coml2api.h",
+  "req.include-header": "Objbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StgCreateStorageEx",
+    "coml2api/StgCreateStorageEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-com-ole32-l1-1-5.dll",
+    "Ole32.dll",
+    "API-MS-Win-Core-Com-l2-1-1.dll",
+    "coml2.dll"
+  ],
+  "api_name": [
+    "StgCreateStorageEx"
+  ]
+}

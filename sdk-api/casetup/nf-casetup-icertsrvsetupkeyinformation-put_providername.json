@@ -1,0 +1,70 @@
+{
+  "UID": "NF:casetup.ICertSrvSetupKeyInformation.put_ProviderName",
+  "title": "ICertSrvSetupKeyInformation::put_ProviderName (casetup.h)",
+  "description": "Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key. (Put)",
+  "helpviewer_keywords": [
+    "ICertSrvSetupKeyInformation interface [Security]",
+    "ProviderName property",
+    "ICertSrvSetupKeyInformation.ProviderName",
+    "ICertSrvSetupKeyInformation.put_ProviderName",
+    "ICertSrvSetupKeyInformation::ProviderName",
+    "ICertSrvSetupKeyInformation::get_ProviderName",
+    "ICertSrvSetupKeyInformation::put_ProviderName",
+    "ProviderName property [Security]",
+    "ProviderName property [Security]",
+    "ICertSrvSetupKeyInformation interface",
+    "casetup/ICertSrvSetupKeyInformation::ProviderName",
+    "casetup/ICertSrvSetupKeyInformation::get_ProviderName",
+    "casetup/ICertSrvSetupKeyInformation::put_ProviderName",
+    "put_ProviderName",
+    "security.icertsrvsetupkeyinformation_providername"
+  ],
+  "old-location": "security\\icertsrvsetupkeyinformation_providername.htm",
+  "tech.root": "security",
+  "ms.assetid": "a8f50b34-0403-40c0-9ecb-f663ccbd622a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ICertSrvSetupKeyInformation interface [Security],ProviderName property, ICertSrvSetupKeyInformation.ProviderName, ICertSrvSetupKeyInformation.put_ProviderName, ICertSrvSetupKeyInformation::ProviderName, ICertSrvSetupKeyInformation::get_ProviderName, ICertSrvSetupKeyInformation::put_ProviderName, ProviderName property [Security], ProviderName property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::ProviderName, casetup/ICertSrvSetupKeyInformation::get_ProviderName, casetup/ICertSrvSetupKeyInformation::put_ProviderName, put_ProviderName, security.icertsrvsetupkeyinformation_providername",
+  "req.header": "casetup.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Casetup.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Certocm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICertSrvSetupKeyInformation::put_ProviderName",
+    "casetup/ICertSrvSetupKeyInformation::put_ProviderName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certocm.dll"
+  ],
+  "api_name": [
+    "ICertSrvSetupKeyInformation.ProviderName",
+    "ICertSrvSetupKeyInformation.get_ProviderName",
+    "ICertSrvSetupKeyInformation.put_ProviderName"
+  ]
+}

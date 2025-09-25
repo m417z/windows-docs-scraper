@@ -1,0 +1,5 @@
+typedef struct _IOMMU_DMA_DEVICE_INFORMATION {
+  BOOLEAN DefaultPasidEnabled;
+  BOOLEAN PasidTaggedDmaEnabled;
+  BOOLEAN PasidFaultsSuppressed;
+} IOMMU_DMA_DEVICE_INFORMATION, *PIOMMU_DMA_DEVICE_INFORMATION;

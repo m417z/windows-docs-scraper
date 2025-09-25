@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wabiab.IAddrBook.GetSearchPath",
+  "tech.root": "wab wab",
+  "title": "IAddrBook::GetSearchPath",
+  "ms.date": "08/03/2022",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "IAddrBook::GetSearchPath returns an ordered list of the entry identifiers of containers to be included in the name resolution process initiated by the IAddrBook::ResolveName method.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wabiab.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "wabiab.h"
+  ],
+  "api_name": [
+    "IAddrBook::GetSearchPath"
+  ],
+  "f1_keywords": [
+    "IAddrBook::GetSearchPath",
+    "wabiab/IAddrBook::GetSearchPath"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1_ {
+  UINT32 totalSocketReceiveFailures;
+  UINT32 totalSocketSendFailures;
+} IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PREGISTER_NOTIFICATION_EVENT",
+  "title": "PREGISTER_NOTIFICATION_EVENT (hdaudio.h)",
+  "description": "The RegisterNotificationEvent routine registers a kernel event so that it can receive DMA progress notifications.The function pointer type for a RegisterNotificationEvent routine is defined as follows.",
+  "old-location": "audio\\registernotificationevent.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PREGISTER_NOTIFICATION_EVENT callback function"
+  ],
+  "ms.keywords": "PREGISTER_NOTIFICATION_EVENT, PREGISTER_NOTIFICATION_EVENT callback, RegisterNotificationEvent, RegisterNotificationEvent callback function [Audio Devices], aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml, audio.registernotificationevent, hdaudio/RegisterNotificationEvent",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PREGISTER_NOTIFICATION_EVENT",
+    "hdaudio/PREGISTER_NOTIFICATION_EVENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Hdaudio.h"
+  ],
+  "api_name": [
+    "PREGISTER_NOTIFICATION_EVENT"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_RESTARTFROMTIMEOUT",
+  "title": "DXGKDDI_RESTARTFROMTIMEOUT (d3dkmddi.h)",
+  "description": "The DxgkDdiRestartFromTimeout function indicates that the driver can access the graphics processing unit (GPU) again after the recovery from a hardware timeout has completed.",
+  "old-location": "display\\dxgkddirestartfromtimeout.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_RESTARTFROMTIMEOUT callback function"
+  ],
+  "ms.keywords": "DXGKDDI_RESTARTFROMTIMEOUT, DXGKDDI_RESTARTFROMTIMEOUT callback, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml, DxgkDdiRestartFromTimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiRestartFromTimeout, display.dxgkddirestartfromtimeout",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_RESTARTFROMTIMEOUT",
+    "d3dkmddi/DXGKDDI_RESTARTFROMTIMEOUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_RESTARTFROMTIMEOUT"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct _TOKEN_LINKED_TOKEN {
+  HANDLE LinkedToken;
+} TOKEN_LINKED_TOKEN, *PTOKEN_LINKED_TOKEN;

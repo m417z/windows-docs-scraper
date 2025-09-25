@@ -1,0 +1,7 @@
+typedef enum tagAMTunerModeType {
+  AMTUNER_MODE_DEFAULT = 0,
+  AMTUNER_MODE_TV = 0x1,
+  AMTUNER_MODE_FM_RADIO = 0x2,
+  AMTUNER_MODE_AM_RADIO = 0x4,
+  AMTUNER_MODE_DSS = 0x8
+} AMTunerModeType;

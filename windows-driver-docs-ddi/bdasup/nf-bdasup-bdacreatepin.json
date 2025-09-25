@@ -1,0 +1,49 @@
+{
+  "UID": "NF:bdasup.BdaCreatePin",
+  "title": "BdaCreatePin function (bdasup.h)",
+  "description": "The BdaCreatePin function creates a new pin in the specified filter.",
+  "old-location": "stream\\bdacreatepin.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "BdaCreatePin function"
+  ],
+  "ms.keywords": "BdaCreatePin, BdaCreatePin function [Streaming Media Devices], bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, bdasup/BdaCreatePin, stream.bdacreatepin",
+  "req.header": "bdasup.h",
+  "req.include-header": "Bdasup.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available on Microsoft Windows XP and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bdasup.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "BdaCreatePin",
+    "bdasup/BdaCreatePin"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Bdasup.lib",
+    "Bdasup.dll"
+  ],
+  "api_name": [
+    "BdaCreatePin"
+  ]
+}

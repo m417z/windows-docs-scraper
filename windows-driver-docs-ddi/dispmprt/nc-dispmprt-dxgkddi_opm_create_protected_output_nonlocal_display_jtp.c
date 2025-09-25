@@ -1,0 +1,11 @@
+DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP DxgkddiOpmCreateProtectedOutputNonlocalDisplayJtp;
+
+NTSTATUS DxgkddiOpmCreateProtectedOutputNonlocalDisplayJtp(
+  PVOID MiniportDeviceContext,
+  DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS NewVideoOutputSemantics,
+  ULONG64 OPMEncoderContext,
+  DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT *pActualOutputFormat,
+  D3DDDI_VIDEO_PRESENT_TARGET_ID NonLocalOutputId,
+  PHANDLE NewProtectedOutputHandle
+)
+{...}

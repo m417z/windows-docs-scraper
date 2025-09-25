@@ -1,0 +1,3 @@
+HRESULT MFCreatePresentationClock(
+  IMFPresentationClock **ppPresentationClock
+);

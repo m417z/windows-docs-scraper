@@ -1,0 +1,5 @@
+typedef struct _DEVICE_TRIM_DESCRIPTOR {
+  DWORD   Version;
+  DWORD   Size;
+  BOOLEAN TrimEnabled;
+} DEVICE_TRIM_DESCRIPTOR, *PDEVICE_TRIM_DESCRIPTOR;

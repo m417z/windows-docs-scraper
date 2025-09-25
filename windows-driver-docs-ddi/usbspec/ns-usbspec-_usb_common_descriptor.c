@@ -1,0 +1,4 @@
+typedef struct _USB_COMMON_DESCRIPTOR {
+  UCHAR bLength;
+  UCHAR bDescriptorType;
+} USB_COMMON_DESCRIPTOR, *PUSB_COMMON_DESCRIPTOR;

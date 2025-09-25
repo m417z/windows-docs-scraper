@@ -1,0 +1,3 @@
+typedef struct IPSEC_SA_ENUM_TEMPLATE0_ {
+  FWP_DIRECTION saDirection;
+} IPSEC_SA_ENUM_TEMPLATE0;

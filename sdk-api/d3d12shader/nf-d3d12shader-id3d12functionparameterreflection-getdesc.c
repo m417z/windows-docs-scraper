@@ -1,0 +1,3 @@
+HRESULT GetDesc(
+  [out] D3D12_PARAMETER_DESC *pDesc
+);

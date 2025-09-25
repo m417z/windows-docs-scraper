@@ -1,0 +1,1 @@
+POWER_ACTION GetSystemPowerAction();

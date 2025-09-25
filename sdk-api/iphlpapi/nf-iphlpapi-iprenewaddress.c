@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD IpRenewAddress(
+  [in] PIP_ADAPTER_INDEX_MAP AdapterInfo
+);

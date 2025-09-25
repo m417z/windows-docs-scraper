@@ -1,0 +1,8 @@
+typedef NTSTATUS
+  (USB_BUSIFFN *PUSB_BUSIFFN_ENUM_LOG_ENTRY) (
+    IN PVOID,
+    IN ULONG,
+    IN ULONG,
+    IN ULONG,
+    IN ULONG
+);

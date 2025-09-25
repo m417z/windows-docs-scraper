@@ -1,0 +1,65 @@
+{
+  "UID": "NS:windnsdef.DNS_WINS_DATA",
+  "title": "DNS_WINS_DATA (windnsdef.h)",
+  "description": "The DNS_WINS_DATA structure represents a DNS Windows Internet Name Service (WINS) record.",
+  "helpviewer_keywords": [
+    "*PDNS_WINS_DATA",
+    "DNS_WINS_DATA",
+    "DNS_WINS_DATA structure [DNS]",
+    "DNS_WINS_FLAG_LOCAL",
+    "DNS_WINS_FLAG_SCOPE",
+    "PDNS_WINS_DATA",
+    "PDNS_WINS_DATA structure pointer [DNS]",
+    "_dns_dns_wins_data",
+    "dns.dns_wins_data",
+    "windnsdef/DNS_WINS_DATA",
+    "windnsdef/PDNS_WINS_DATA"
+  ],
+  "old-location": "dns\\dns_wins_data.htm",
+  "tech.root": "DNS",
+  "ms.assetid": "df41c397-e662-42b4-9193-6776f9071898",
+  "ms.date": "01/15/2025",
+  "ms.keywords": "*PDNS_WINS_DATA, DNS_WINS_DATA, DNS_WINS_DATA structure [DNS], DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINS_DATA, PDNS_WINS_DATA structure pointer [DNS], _dns_dns_wins_data, dns.dns_wins_data, windnsdef/DNS_WINS_DATA, windnsdef/PDNS_WINS_DATA",
+  "req.header": "windnsdef.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DNS_WINS_DATA, *PDNS_WINS_DATA",
+  "req.redist": null,
+  "f1_keywords": [
+    "PDNS_WINS_DATA",
+    "windnsdef/PDNS_WINS_DATA",
+    "DNS_WINS_DATA",
+    "windnsdef/DNS_WINS_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windnsdef.h"
+  ],
+  "api_name": [
+    "DNS_WINS_DATA"
+  ]
+}

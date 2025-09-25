@@ -1,0 +1,3 @@
+ISDSC_STATUS ISDSC_API LogoutIScsiTarget(
+  [in] PISCSI_UNIQUE_SESSION_ID UniqueSessionId
+);

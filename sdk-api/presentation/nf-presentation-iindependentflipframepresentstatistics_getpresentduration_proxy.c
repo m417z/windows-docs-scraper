@@ -1,0 +1,3 @@
+SystemInterruptTime IIndependentFlipFramePresentStatistics_GetPresentDuration_Proxy(
+  IIndependentFlipFramePresentStatistics *This
+);

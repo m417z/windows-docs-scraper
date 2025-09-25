@@ -1,0 +1,7 @@
+PFND3D12DDI_DEALLOCATE_CB_0022 Pfnd3d12ddiDeallocateCb0022;
+
+HRESULT Pfnd3d12ddiDeallocateCb0022(
+  D3D12DDI_HRTDEVICE unnamedParam1,
+  const D3D12DDICB_DEALLOCATE_0022 *unnamedParam2
+)
+{...}

@@ -1,0 +1,5 @@
+struct IDDCX_GAMMARAMP_RGB256x3x16 {
+  USHORT Red[256];
+  USHORT Green[256];
+  USHORT Blue[256];
+};

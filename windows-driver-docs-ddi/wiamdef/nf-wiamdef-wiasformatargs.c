@@ -1,0 +1,4 @@
+BSTR wiasFormatArgs(
+  LPCSTR lpszFormat,
+  ...    
+);

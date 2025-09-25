@@ -1,0 +1,3 @@
+PDEVICE_DSM_RANGE DeviceDsmDataSetRanges(
+  PDEVICE_DSM_INPUT Input
+);

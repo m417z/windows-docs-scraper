@@ -1,0 +1,4 @@
+typedef struct _MOUNTDEV_UNIQUE_ID {
+  USHORT UniqueIdLength;
+  UCHAR  UniqueId[1];
+} MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID;

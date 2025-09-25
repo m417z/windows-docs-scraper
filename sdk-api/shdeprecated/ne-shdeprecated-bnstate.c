@@ -1,0 +1,5 @@
+typedef enum tagBNSTATE {
+  BNS_NORMAL = 0,
+  BNS_BEGIN_NAVIGATE = 1,
+  BNS_NAVIGATE = 2
+} BNSTATE;

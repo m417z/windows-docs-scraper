@@ -1,0 +1,5 @@
+COLORREF PALETTERGB(
+    BYTE r,
+    BYTE g,
+    BYTE b
+);

@@ -1,0 +1,20 @@
+typedef struct _WHEA_GENERIC_ERROR_DESCRIPTOR_V2 {
+  USHORT                       Type;
+  UCHAR                        Reserved;
+  UCHAR                        Enabled;
+  ULONG                        ErrStatusBlockLength;
+  ULONG                        RelatedErrorSourceId;
+  UCHAR                        ErrStatusAddressSpaceID;
+  UCHAR                        ErrStatusAddressBitWidth;
+  UCHAR                        ErrStatusAddressBitOffset;
+  UCHAR                        ErrStatusAddressAccessSize;
+  WHEA_PHYSICAL_ADDRESS        ErrStatusAddress;
+  WHEA_NOTIFICATION_DESCRIPTOR Notify;
+  UCHAR                        ReadAckAddressSpaceID;
+  UCHAR                        ReadAckAddressBitWidth;
+  UCHAR                        ReadAckAddressBitOffset;
+  UCHAR                        ReadAckAddressAccessSize;
+  WHEA_PHYSICAL_ADDRESS        ReadAckAddress;
+  ULONGLONG                    ReadAckPreserveMask;
+  ULONGLONG                    ReadAckWriteMask;
+} WHEA_GENERIC_ERROR_DESCRIPTOR_V2, *PWHEA_GENERIC_ERROR_DESCRIPTOR_V2;

@@ -1,0 +1,21 @@
+typedef struct _TAPE_INIT_DATA {
+  TAPE_VERIFY_INQUIRY_ROUTINE  VerifyInquiry;
+  BOOLEAN                      QueryModeCapabilitiesPage;
+  ULONG                        MinitapeExtensionSize;
+  TAPE_EXTENSION_INIT_ROUTINE  ExtensionInit;
+  ULONG                        DefaultTimeOutValue;
+  TAPE_ERROR_ROUTINE           TapeError;
+  ULONG                        CommandExtensionSize;
+  TAPE_PROCESS_COMMAND_ROUTINE CreatePartition;
+  TAPE_PROCESS_COMMAND_ROUTINE Erase;
+  TAPE_PROCESS_COMMAND_ROUTINE GetDriveParameters;
+  TAPE_PROCESS_COMMAND_ROUTINE GetMediaParameters;
+  TAPE_PROCESS_COMMAND_ROUTINE GetPosition;
+  TAPE_PROCESS_COMMAND_ROUTINE GetStatus;
+  TAPE_PROCESS_COMMAND_ROUTINE Prepare;
+  TAPE_PROCESS_COMMAND_ROUTINE SetDriveParameters;
+  TAPE_PROCESS_COMMAND_ROUTINE SetMediaParameters;
+  TAPE_PROCESS_COMMAND_ROUTINE SetPosition;
+  TAPE_PROCESS_COMMAND_ROUTINE WriteMarks;
+  TAPE_PROCESS_COMMAND_ROUTINE PreProcessReadWrite;
+} TAPE_INIT_DATA, *PTAPE_INIT_DATA;

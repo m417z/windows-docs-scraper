@@ -1,0 +1,10 @@
+typedef struct _COLORSPACE_TRANSFORM_MATRIX_CAP {
+  union {
+    struct {
+      ULONG MatrixSizeX : 10;
+      ULONG MatrixSizeY : 10;
+    };
+    ULONG Value;
+  };
+  COLORSPACE_TRANSFORM_DATA_CAP DataCap;
+} COLORSPACE_TRANSFORM_MATRIX_CAP, *PCOLORSPACE_TRANSFORM_MATRIX_CAP;

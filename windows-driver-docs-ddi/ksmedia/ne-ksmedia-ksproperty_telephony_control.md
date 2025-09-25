@@ -1,0 +1,33 @@
+## Description
+
+This topic describes the **KSPROPERTY_TELEPHONY_CONTROL** enumeration (ksmedia.h).
+
+## Constants
+
+### `KSPROPERTY_TELEPHONY_PROVIDERID`
+
+Defines the **KSPROPERTY_TELEPHONY_PROVIDERID** constant.
+
+### `KSPROPERTY_TELEPHONY_CALLINFO`
+
+Defines the **KSPROPERTY_TELEPHONY_CALLINFO** constant.
+
+### `KSPROPERTY_TELEPHONY_CALLCONTROL`
+
+Defines the **KSPROPERTY_TELEPHONY_CALLCONTROL** constant.
+
+### `KSPROPERTY_TELEPHONY_PROVIDERCHANGE`
+
+Defines the **KSPROPERTY_TELEPHONY_PROVIDERCHANGE** constant.
+
+### `KSPROPERTY_TELEPHONY_CALLHOLD`
+
+Defines the **KSPROPERTY_TELEPHONY_CALLHOLD** constant.
+
+### `KSPROPERTY_TELEPHONY_MUTE_TX`
+
+Defines the **KSPROPERTY_TELEPHONY_MUTE_TX** constant.
+
+## Remarks
+
+## See also

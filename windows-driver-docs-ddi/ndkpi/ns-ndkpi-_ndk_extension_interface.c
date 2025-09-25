@@ -1,0 +1,3 @@
+typedef struct _NDK_EXTENSION_INTERFACE {
+  const VOID *Dispatch;
+} NDK_EXTENSION_INTERFACE;

@@ -1,0 +1,40 @@
+{
+  "UID": "NI:ntddstor.IOCTL_STORAGE_SET_PROPERTY",
+  "title": "IOCTL_STORAGE_SET_PROPERTY (ntddstor.h)",
+  "description": "A driver can use IOCTL_STORAGE_SET_PROPERTY to set the properties of a storage device or adapter.",
+  "tech.root": "storage",
+  "ms.date": "08/18/2022",
+  "keywords": [
+    "IOCTL_STORAGE_SET_PROPERTY IOCTL"
+  ],
+  "req.header": "ntddstor.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOCTL_STORAGE_SET_PROPERTY",
+    "ntddstor/IOCTL_STORAGE_SET_PROPERTY"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "IOCTL_STORAGE_SET_PROPERTY"
+  ]
+}

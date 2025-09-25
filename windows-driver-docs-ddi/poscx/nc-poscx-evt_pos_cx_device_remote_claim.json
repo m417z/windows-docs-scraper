@@ -1,0 +1,48 @@
+{
+  "UID": "NC:poscx.EVT_POS_CX_DEVICE_REMOTE_CLAIM",
+  "title": "EVT_POS_CX_DEVICE_REMOTE_CLAIM (poscx.h)",
+  "description": "The EVT_POS_CX_DEVICE_REMOTE_CLAIM callback is called when the device is transitioning from unclaimed to claimed and allows the driver to do additional work.",
+  "old-location": "pos\\evt_pos_cx_device_remote_claim.htm",
+  "tech.root": "pos",
+  "ms.date": "02/23/2018",
+  "keywords": [
+    "EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function"
+  ],
+  "ms.keywords": "EVT_POS_CX_DEVICE_REMOTE_CLAIM, EVT_POS_CX_DEVICE_REMOTE_CLAIM callback, EvtPosCxDeviceRemoteClaim, EvtPosCxDeviceRemoteClaim callback function, pos.evt_pos_cx_device_remote_claim, poscx/EvtPosCxDeviceRemoteClaim",
+  "req.header": "poscx.h",
+  "req.include-header": "Poscx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_POS_CX_DEVICE_REMOTE_CLAIM",
+    "poscx/EVT_POS_CX_DEVICE_REMOTE_CLAIM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "poscx.h"
+  ],
+  "api_name": [
+    "EVT_POS_CX_DEVICE_REMOTE_CLAIM"
+  ]
+}

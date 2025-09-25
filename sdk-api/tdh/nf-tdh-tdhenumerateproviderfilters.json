@@ -1,0 +1,58 @@
+{
+  "UID": "NF:tdh.TdhEnumerateProviderFilters",
+  "title": "TdhEnumerateProviderFilters function (tdh.h)",
+  "description": "Enumerates the filters that the specified provider defined in the manifest.",
+  "helpviewer_keywords": [
+    "TdhEnumerateProviderFilters",
+    "TdhEnumerateProviderFilters function [ETW]",
+    "etw.tdhenumerateproviderfilters",
+    "tdh/TdhEnumerateProviderFilters"
+  ],
+  "old-location": "etw\\tdhenumerateproviderfilters.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters",
+  "req.header": "tdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tdh.lib",
+  "req.dll": "Tdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TdhEnumerateProviderFilters",
+    "tdh/TdhEnumerateProviderFilters"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tdh.dll",
+    "Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll"
+  ],
+  "api_name": [
+    "TdhEnumerateProviderFilters"
+  ]
+}

@@ -1,0 +1,3 @@
+BOOL capDlgVideoCompression(
+     hwnd
+);

@@ -1,0 +1,20 @@
+typedef struct _MSiSCSI_QMIPSECStats {
+  ULONGLONG ActiveSA;
+  ULONGLONG PendingKeyOperations;
+  ULONGLONG KeyAdditions;
+  ULONGLONG KeyDeletions;
+  ULONGLONG ReKeys;
+  ULONGLONG ActiveTunnels;
+  ULONGLONG BadSPIPackets;
+  ULONGLONG PacketsNotDecrypted;
+  ULONGLONG PacketsNotAuthenticated;
+  ULONGLONG PacketsWithReplayDetection;
+  ULONGLONG ConfidentialBytesSent;
+  ULONGLONG ConfidentialBytesReceived;
+  ULONGLONG AuthenticatedBytesSent;
+  ULONGLONG AuthenticatedBytesReceived;
+  ULONGLONG TransportBytesSent;
+  ULONGLONG TransportBytesReceived;
+  ULONGLONG TunnelBytesSent;
+  ULONGLONG TunnelBytesReceived;
+} MSiSCSI_QMIPSECStats, *PMSiSCSI_QMIPSECStats;

@@ -1,0 +1,3 @@
+typedef struct __MIDL___MIDL_itf_ads_0000_0000_0006 {
+  LPWSTR PostalAddress[6];
+} ADS_POSTALADDRESS, *PADS_POSTALADDRESS;

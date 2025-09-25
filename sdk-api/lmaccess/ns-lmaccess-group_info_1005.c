@@ -1,0 +1,3 @@
+typedef struct _GROUP_INFO_1005 {
+  DWORD grpi1005_attributes;
+} GROUP_INFO_1005, *PGROUP_INFO_1005, *LPGROUP_INFO_1005;

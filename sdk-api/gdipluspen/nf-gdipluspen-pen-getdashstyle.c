@@ -1,0 +1,1 @@
+DashStyle GetDashStyle();

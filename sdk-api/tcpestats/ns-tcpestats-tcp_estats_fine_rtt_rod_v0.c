@@ -1,0 +1,6 @@
+typedef struct _TCP_ESTATS_FINE_RTT_ROD_v0 {
+  ULONG RttVar;
+  ULONG MaxRtt;
+  ULONG MinRtt;
+  ULONG SumRtt;
+} TCP_ESTATS_FINE_RTT_ROD_v0, *PTCP_ESTATS_FINE_RTT_ROD_v0;

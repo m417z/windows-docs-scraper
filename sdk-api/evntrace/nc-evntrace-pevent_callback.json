@@ -1,0 +1,61 @@
+{
+  "UID": "NC:evntrace.PEVENT_CALLBACK",
+  "title": "PEVENT_CALLBACK (evntrace.h)",
+  "description": "ETW event consumers implement this callback to receive events from a trace processing session. The EventRecordCallback callback supersedes this callback.",
+  "helpviewer_keywords": [
+    "EventCallback",
+    "EventCallback callback function [ETW]",
+    "PEVENT_CALLBACK",
+    "PEVENT_CALLBACK callback",
+    "_evt_eventcallback",
+    "base.eventcallback",
+    "etw.eventcallback",
+    "evntrace/EventCallback"
+  ],
+  "old-location": "etw\\eventcallback.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "9312eaed-2997-4d44-952a-fcae3b262947",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, PEVENT_CALLBACK callback, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback",
+  "req.header": "evntrace.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PEVENT_CALLBACK",
+    "evntrace/PEVENT_CALLBACK"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Evntrace.h"
+  ],
+  "api_name": [
+    "EventCallback"
+  ]
+}

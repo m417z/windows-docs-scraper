@@ -1,0 +1,62 @@
+{
+  "UID": "NF:rpcnsi.RpcNsGroupMbrInqBeginW",
+  "title": "RpcNsGroupMbrInqBeginW function (rpcnsi.h)",
+  "description": "The RpcNsGroupMbrInqBegin function creates an inquiry context for viewing group members. (Unicode)",
+  "helpviewer_keywords": [
+    "RpcNsGroupMbrInqBegin",
+    "RpcNsGroupMbrInqBegin function [RPC]",
+    "RpcNsGroupMbrInqBeginW",
+    "_rpc_rpcnsgroupmbrinqbegin",
+    "rpc.rpcnsgroupmbrinqbegin",
+    "rpcnsi/RpcNsGroupMbrInqBegin",
+    "rpcnsi/RpcNsGroupMbrInqBeginW"
+  ],
+  "old-location": "rpc\\rpcnsgroupmbrinqbegin.htm",
+  "tech.root": "Rpc",
+  "ms.assetid": "f3a98563-0c7f-4f4b-b272-af7c0366b95d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RpcNsGroupMbrInqBegin, RpcNsGroupMbrInqBegin function [RPC], RpcNsGroupMbrInqBeginA, RpcNsGroupMbrInqBeginW, _rpc_rpcnsgroupmbrinqbegin, rpc.rpcnsgroupmbrinqbegin, rpcnsi/RpcNsGroupMbrInqBegin, rpcnsi/RpcNsGroupMbrInqBeginA, rpcnsi/RpcNsGroupMbrInqBeginW",
+  "req.header": "rpcnsi.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RpcNsGroupMbrInqBeginW (Unicode) and RpcNsGroupMbrInqBeginA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcns4.lib",
+  "req.dll": "Rpcns4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RpcNsGroupMbrInqBeginW",
+    "rpcnsi/RpcNsGroupMbrInqBeginW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcns4.dll"
+  ],
+  "api_name": [
+    "RpcNsGroupMbrInqBegin",
+    "RpcNsGroupMbrInqBeginA",
+    "RpcNsGroupMbrInqBeginW"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.StorPortQueryConfiguration",
+  "title": "StorPortQueryConfiguration function",
+  "description": "A miniport can call StorPortQueryConfiguration to get the specific configuration of the platform.",
+  "tech.root": "storage",
+  "ms.date": "03/06/2019",
+  "keywords": [
+    "StorPortQueryConfiguration function"
+  ],
+  "ms.keywords": "StorPortQueryConfiguration",
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "StorPortQueryConfiguration",
+    "storport/StorPortQueryConfiguration"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "StorPortQueryConfiguration"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

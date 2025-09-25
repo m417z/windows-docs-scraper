@@ -1,0 +1,10 @@
+PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052 Pfnd3d12ddiEnumerateMetaCommandParameters0052;
+
+HRESULT Pfnd3d12ddiEnumerateMetaCommandParameters0052(
+  D3D12DDI_HDEVICE unnamedParam1,
+  GUID CommandId,
+  D3D12DDI_META_COMMAND_PARAMETER_STAGE Stage,
+  UINT *pParameterCount,
+  D3D12DDIARG_META_COMMAND_PARAMETER_DESC *pParameterDescs
+)
+{...}

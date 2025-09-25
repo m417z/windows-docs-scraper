@@ -1,0 +1,4 @@
+typedef struct _ACX_AUDIOMODULE_CALLBACKS {
+  ULONG                              Size;
+  PFN_ACX_AUDIOMODULE_PROCESSCOMMAND EvtAcxAudioModuleProcessCommand;
+} ACX_AUDIOMODULE_CALLBACKS, *PACX_AUDIOMODULE_CALLBACKS;

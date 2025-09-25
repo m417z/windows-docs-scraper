@@ -1,0 +1,4 @@
+typedef struct tagRASDEVSPECIFICINFO {
+  DWORD dwSize;
+  BYTE  *pbDevSpecificInfo;
+} RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO;

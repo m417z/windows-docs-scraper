@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntstrsafe.RtlStringCbCatW",
+  "title": "RtlStringCbCatW function (ntstrsafe.h)",
+  "description": "Learn how the RtlStringCbCatW and RtlStringCbCatA functions concatenate two byte-counted strings.",
+  "old-location": "kernel\\rtlstringcbcat.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlStringCbCatW function"
+  ],
+  "ms.keywords": "RtlStringCbCat, RtlStringCbCatA, RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcat, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml",
+  "req.header": "ntstrsafe.h",
+  "req.include-header": "Ntstrsafe.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RtlStringCbCatW (Unicode) and RtlStringCbCatA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntstrsafe.lib",
+  "req.dll": null,
+  "req.irql": "Any if strings being manipulated are always resident in memory, otherwise PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlStringCbCatW",
+    "ntstrsafe/RtlStringCbCatW"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ntstrsafe.lib",
+    "Ntstrsafe.dll"
+  ],
+  "api_name": [
+    "RtlStringCbCatW"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum ACDQUEUE_EVENT {
+  ACDQE_NEW_QUEUE = 0,
+  ACDQE_QUEUE_REMOVED
+} ;

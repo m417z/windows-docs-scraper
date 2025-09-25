@@ -1,0 +1,47 @@
+{
+  "UID": "NS:directml.DML_RESAMPLE1_OPERATOR_DESC",
+  "title": "DML_RESAMPLE1_OPERATOR_DESC",
+  "description": "Resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size. You can use a linear or nearest-neighbor interpolation mode. (DML_RESAMPLE1_OPERATOR_DESC)",
+  "tech.root": "directml",
+  "ms.date": "01/08/2024",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "DirectML.h"
+  ],
+  "api_name": [
+    "DML_RESAMPLE1_OPERATOR_DESC"
+  ],
+  "f1_keywords": [
+    "DML_RESAMPLE1_OPERATOR_DESC",
+    "directml/DML_RESAMPLE1_OPERATOR_DESC"
+  ]
+}

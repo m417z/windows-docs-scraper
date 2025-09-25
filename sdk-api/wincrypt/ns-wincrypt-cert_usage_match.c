@@ -1,0 +1,4 @@
+typedef struct _CERT_USAGE_MATCH {
+  DWORD             dwType;
+  CERT_ENHKEY_USAGE Usage;
+} CERT_USAGE_MATCH, *PCERT_USAGE_MATCH;

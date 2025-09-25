@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.PoUnregisterPowerSettingCallback",
+  "title": "PoUnregisterPowerSettingCallback function (wdm.h)",
+  "description": "The PoUnregisterPowerSettingCallback routine in wdm.h unregisters a power-setting callback routine that a driver previously registered.",
+  "old-location": "kernel\\pounregisterpowersettingcallback.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PoUnregisterPowerSettingCallback function"
+  ],
+  "ms.keywords": "PoUnregisterPowerSettingCallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.pounregisterpowersettingcallback, portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, wdm/PoUnregisterPowerSettingCallback",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PoUnregisterPowerSettingCallback",
+    "wdm/PoUnregisterPowerSettingCallback"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "PoUnregisterPowerSettingCallback"
+  ]
+}

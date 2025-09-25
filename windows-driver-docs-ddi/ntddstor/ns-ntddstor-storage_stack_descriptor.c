@@ -1,0 +1,5 @@
+typedef struct _STORAGE_STACK_DESCRIPTOR {
+  ULONG              Version;
+  ULONG              Size;
+  STORAGE_STACK_TYPE StorageStackType;
+} STORAGE_STACK_DESCRIPTOR, *PSTORAGE_STACK_DESCRIPTOR;

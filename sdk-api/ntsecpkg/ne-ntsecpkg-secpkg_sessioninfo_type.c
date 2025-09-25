@@ -1,0 +1,3 @@
+typedef enum _SECPKG_SESSIONINFO_TYPE {
+  SecSessionPrimaryCred
+} SECPKG_SESSIONINFO_TYPE;

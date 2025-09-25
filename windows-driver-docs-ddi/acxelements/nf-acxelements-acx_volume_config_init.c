@@ -1,0 +1,3 @@
+void ACX_VOLUME_CONFIG_INIT(
+  cfg
+);

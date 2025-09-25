@@ -1,0 +1,4 @@
+typedef struct _STOR_POFX_UNIT_POWER_INFO {
+  STOR_POWER_CONTROL_HEADER Header;
+  BOOLEAN                   IdlePowerEnabled;
+} STOR_POFX_UNIT_POWER_INFO, *PSTOR_POFX_UNIT_POWER_INFO;

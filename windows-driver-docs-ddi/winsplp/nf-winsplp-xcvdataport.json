@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winsplp.XcvDataPort",
+  "title": "XcvDataPort function (winsplp.h)",
+  "description": "A port monitor server DLL's XcvDataPort function receives information from, and returns information to, the port monitor's UI DLL.",
+  "tech.root": "print",
+  "ms.date": "03/09/2023",
+  "keywords": [
+    "XcvDataPort function"
+  ],
+  "ms.keywords": "print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.exe",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NOTIFICATION_CONFIG_FLAGS",
+  "f1_keywords": [
+    "XcvDataPort",
+    "winsplp/XcvDataPort"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winsplp.h"
+  ],
+  "api_name": [
+    "XcvDataPort"
+  ]
+}

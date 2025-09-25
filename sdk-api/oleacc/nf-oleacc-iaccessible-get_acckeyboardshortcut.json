@@ -1,0 +1,65 @@
+{
+  "UID": "NF:oleacc.IAccessible.get_accKeyboardShortcut",
+  "title": "IAccessible::get_accKeyboardShortcut (oleacc.h)",
+  "description": "The IAccessible::get_accKeyboardShortcut method retrieves the specified object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property.",
+  "helpviewer_keywords": [
+    "IAccessible interface [Windows Accessibility]",
+    "get_accKeyboardShortcut method",
+    "IAccessible.get_accKeyboardShortcut",
+    "IAccessible::get_accKeyboardShortcut",
+    "_msaa_IAccessible_get_accKeyboardShortcut",
+    "get_accKeyboardShortcut",
+    "get_accKeyboardShortcut method [Windows Accessibility]",
+    "get_accKeyboardShortcut method [Windows Accessibility]",
+    "IAccessible interface",
+    "msaa.iaccessible_iaccessible__get_acckeyboardshortcut",
+    "oleacc/IAccessible::get_accKeyboardShortcut",
+    "winauto.iaccessible_iaccessible__get_acckeyboardshortcut"
+  ],
+  "old-location": "winauto\\iaccessible_iaccessible__get_acckeyboardshortcut.htm",
+  "tech.root": "WinAuto",
+  "ms.assetid": "0d91c791-1e9b-45da-8fa6-b879ac6d11a7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IAccessible interface [Windows Accessibility],get_accKeyboardShortcut method, IAccessible.get_accKeyboardShortcut, IAccessible::get_accKeyboardShortcut, _msaa_IAccessible_get_accKeyboardShortcut, get_accKeyboardShortcut, get_accKeyboardShortcut method [Windows Accessibility], get_accKeyboardShortcut method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acckeyboardshortcut, oleacc/IAccessible::get_accKeyboardShortcut, winauto.iaccessible_iaccessible__get_acckeyboardshortcut",
+  "req.header": "oleacc.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Oleacc.lib",
+  "req.dll": "Oleacc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAccessible::get_accKeyboardShortcut",
+    "oleacc/IAccessible::get_accKeyboardShortcut"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Oleacc.dll"
+  ],
+  "api_name": [
+    "IAccessible.get_accKeyboardShortcut"
+  ]
+}

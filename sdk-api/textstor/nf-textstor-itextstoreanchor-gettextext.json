@@ -1,0 +1,63 @@
+{
+  "UID": "NF:textstor.ITextStoreAnchor.GetTextExt",
+  "title": "ITextStoreAnchor::GetTextExt (textstor.h)",
+  "description": "The ITextStoreAnchor::GetTextExt method returns the bounding box, in screen coordinates, of a range of text. The caller must have a read-only lock on the document before calling this method.",
+  "helpviewer_keywords": [
+    "GetTextExt",
+    "GetTextExt method [Text Services Framework]",
+    "GetTextExt method [Text Services Framework]",
+    "ITextStoreAnchor interface",
+    "ITextStoreAnchor interface [Text Services Framework]",
+    "GetTextExt method",
+    "ITextStoreAnchor.GetTextExt",
+    "ITextStoreAnchor::GetTextExt",
+    "textstor/ITextStoreAnchor::GetTextExt",
+    "tsf.itextstoreanchor_gettextext"
+  ],
+  "old-location": "tsf\\itextstoreanchor_gettextext.htm",
+  "tech.root": "TSF",
+  "ms.assetid": "b8e21544-e5d2-4048-93aa-82a87562a70a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetTextExt method, ITextStoreAnchor.GetTextExt, ITextStoreAnchor::GetTextExt, textstor/ITextStoreAnchor::GetTextExt, tsf.itextstoreanchor_gettextext",
+  "req.header": "textstor.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Textstor.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Msctf.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "TSF 1.0 on Windows 2000 Professional",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITextStoreAnchor::GetTextExt",
+    "textstor/ITextStoreAnchor::GetTextExt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "msctf.dll"
+  ],
+  "api_name": [
+    "ITextStoreAnchor.GetTextExt"
+  ]
+}

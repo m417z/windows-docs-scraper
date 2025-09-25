@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngDeletePalette",
+  "title": "EngDeletePalette function (winddi.h)",
+  "description": "The EngDeletePalette function sends a request to GDI to delete the specified palette.",
+  "helpviewer_keywords": [
+    "EngDeletePalette",
+    "EngDeletePalette function [Display Devices]",
+    "display.engdeletepalette",
+    "gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml",
+    "winddi/EngDeletePalette"
+  ],
+  "old-location": "display\\engdeletepalette.htm",
+  "tech.root": "display",
+  "ms.assetid": "ebdbbb4e-aaa8-4fb7-9546-545dce803054",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngDeletePalette, EngDeletePalette function [Display Devices], display.engdeletepalette, gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml, winddi/EngDeletePalette",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngDeletePalette",
+    "winddi/EngDeletePalette"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngDeletePalette"
+  ]
+}

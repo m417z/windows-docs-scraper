@@ -1,0 +1,63 @@
+{
+  "UID": "NF:directml.IDMLBindingTable.Reset",
+  "title": "IDMLBindingTable::Reset",
+  "description": "Resets the binding table to wrap a new range of descriptors, potentially for a different operator or initializer. This allows dynamic reuse of the binding table.",
+  "helpviewer_keywords": [
+    "IDMLBindingTable interface",
+    "Reset method",
+    "IDMLBindingTable.Reset",
+    "IDMLBindingTable::Reset",
+    "Reset",
+    "Reset method",
+    "Reset method",
+    "IDMLBindingTable interface",
+    "direct3d12.idmlbindingtable_reset",
+    "directml/IDMLBindingTable::Reset"
+  ],
+  "old-location": "direct3d12\\idmlbindingtable_reset.htm",
+  "tech.root": "directml",
+  "ms.assetid": "85A816F8-CD3A-43B0-B63C-C58BC47438B1",
+  "ms.date": "12/5/2018",
+  "ms.keywords": "IDMLBindingTable interface,Reset method, IDMLBindingTable.Reset, IDMLBindingTable::Reset, Reset, Reset method, Reset method,IDMLBindingTable interface, direct3d12.idmlbindingtable_reset, directml/IDMLBindingTable::Reset",
+  "req.header": "directml.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "DirectML.lib",
+  "req.dll": "DirectML.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IDMLBindingTable::Reset",
+    "directml/IDMLBindingTable::Reset"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "DirectML.dll"
+  ],
+  "api_name": [
+    "IDMLBindingTable.Reset"
+  ]
+}

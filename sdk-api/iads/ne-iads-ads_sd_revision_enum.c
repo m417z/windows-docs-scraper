@@ -1,0 +1,3 @@
+typedef enum __MIDL___MIDL_itf_ads_0001_0048_0006 {
+  ADS_SD_REVISION_DS = 4
+} ADS_SD_REVISION_ENUM;

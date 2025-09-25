@@ -1,0 +1,48 @@
+{
+  "UID": "NC:sercx.EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE",
+  "title": "EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE (sercx.h)",
+  "description": "The EvtSerCx2SelectNextReceiveTransactionType event callback function is called by version 2 of the serial framework extension (SerCx2) to determine which data-transfer mechanism to use for the next read operation.",
+  "old-location": "serports\\evtsercx2selectnextreceivetransactiontype.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback function"
+  ],
+  "ms.keywords": "2/EvtSerCx2SelectNextReceiveTransactionType, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback, EvtSerCx2SelectNextReceiveTransactionType, EvtSerCx2SelectNextReceiveTransactionType callback function [Serial Ports], serports.evtsercx2selectnextreceivetransactiontype",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available starting with Windows 8.1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE",
+    "sercx/EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "2.0\\Sercx.h"
+  ],
+  "api_name": [
+    "EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE"
+  ]
+}

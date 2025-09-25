@@ -1,0 +1,58 @@
+{
+  "UID": "NF:snmp.SnmpUtilAsnAnyCpy",
+  "title": "SnmpUtilAsnAnyCpy function (snmp.h)",
+  "description": "The SnmpUtilAsnAnyCpy function copies the variable pointed to by the pAnySrc parameter to the pAnyDst parameter. The function allocates any necessary memory for the destination's copy. The SnmpUtilAsnAnyCpy function is an element of the SNMP Utility API.",
+  "helpviewer_keywords": [
+    "SnmpUtilAsnAnyCpy",
+    "SnmpUtilAsnAnyCpy function [SNMP]",
+    "_snmp_snmputilasnanycpy",
+    "snmp.snmputilasnanycpy",
+    "snmp/SnmpUtilAsnAnyCpy"
+  ],
+  "old-location": "snmp\\snmputilasnanycpy.htm",
+  "tech.root": "SNMP",
+  "ms.assetid": "0a8743da-ef4a-4b00-b9be-5550896d147a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputilasnanycpy, snmp.snmputilasnanycpy, snmp/SnmpUtilAsnAnyCpy",
+  "req.header": "snmp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Snmpapi.lib",
+  "req.dll": "Snmpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SnmpUtilAsnAnyCpy",
+    "snmp/SnmpUtilAsnAnyCpy"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Snmpapi.dll"
+  ],
+  "api_name": [
+    "SnmpUtilAsnAnyCpy"
+  ]
+}

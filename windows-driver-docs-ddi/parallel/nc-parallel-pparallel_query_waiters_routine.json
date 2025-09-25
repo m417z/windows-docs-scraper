@@ -1,0 +1,48 @@
+{
+  "UID": "NC:parallel.PPARALLEL_QUERY_WAITERS_ROUTINE",
+  "title": "PPARALLEL_QUERY_WAITERS_ROUTINE (parallel.h)",
+  "description": "The PPARALLEL_QUERY_WAITERS_ROUTINE-typed callback routine returns the number of IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE and IOCTL_INTERNAL_SELECT_DEVICE requests that are queued on the work queue of a parallel port.",
+  "old-location": "parports\\pparallel_query_waiters_routine.htm",
+  "tech.root": "parports",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "PPARALLEL_QUERY_WAITERS_ROUTINE callback"
+  ],
+  "ms.keywords": "(*PPARALLEL_QUERY_WAITERS_ROUTINE), (*PPARALLEL_QUERY_WAITERS_ROUTINE) callback function [Parallel Ports], cisspd_d1e6d424-75ec-4cc1-b144-05900a24a684.xml, parallel/(*PPARALLEL_QUERY_WAITERS_ROUTINE), parports.pparallel_query_waiters_routine",
+  "req.header": "parallel.h",
+  "req.include-header": "Parallel.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": "RILGBATOKEN, *LPRILGBATOKEN",
+  "f1_keywords": [
+    "PPARALLEL_QUERY_WAITERS_ROUTINE",
+    "parallel/PPARALLEL_QUERY_WAITERS_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "parallel.h"
+  ],
+  "api_name": [
+    "PPARALLEL_QUERY_WAITERS_ROUTINE"
+  ]
+}

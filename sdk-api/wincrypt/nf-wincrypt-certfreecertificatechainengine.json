@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CertFreeCertificateChainEngine",
+  "title": "CertFreeCertificateChainEngine function (wincrypt.h)",
+  "description": "The CertFreeCertificateChainEngine function frees a certificate trust engine.",
+  "helpviewer_keywords": [
+    "CertFreeCertificateChainEngine",
+    "CertFreeCertificateChainEngine function [Security]",
+    "_crypto2_certfreecertificatechainengine",
+    "security.certfreecertificatechainengine",
+    "wincrypt/CertFreeCertificateChainEngine"
+  ],
+  "old-location": "security\\certfreecertificatechainengine.htm",
+  "tech.root": "security",
+  "ms.assetid": "5aebc09d-342d-4938-8a1a-0cbfdc147bb5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertFreeCertificateChainEngine, CertFreeCertificateChainEngine function [Security], _crypto2_certfreecertificatechainengine, security.certfreecertificatechainengine, wincrypt/CertFreeCertificateChainEngine",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertFreeCertificateChainEngine",
+    "wincrypt/CertFreeCertificateChainEngine"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertFreeCertificateChainEngine"
+  ]
+}

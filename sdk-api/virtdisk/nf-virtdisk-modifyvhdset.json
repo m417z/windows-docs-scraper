@@ -1,0 +1,58 @@
+{
+  "UID": "NF:virtdisk.ModifyVhdSet",
+  "title": "ModifyVhdSet function (virtdisk.h)",
+  "description": "Modifies the internal contents of a virtual disk file. Can be used to set the active leaf, or to fix up snapshot entries.",
+  "helpviewer_keywords": [
+    "ModifyVhdSet",
+    "ModifyVhdSet function [VHD]",
+    "vdssys/ModifyVhdSet",
+    "vhd.modifyvhdset",
+    "virtdisk/ModifyVhdSet"
+  ],
+  "old-location": "vhd\\modifyvhdset.htm",
+  "tech.root": "VStor",
+  "ms.assetid": "C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet",
+  "req.header": "virtdisk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VirtDisk.lib",
+  "req.dll": "VirtDisk.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ModifyVhdSet",
+    "virtdisk/ModifyVhdSet"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "VirtDisk.dll"
+  ],
+  "api_name": [
+    "ModifyVhdSet"
+  ]
+}

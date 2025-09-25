@@ -1,0 +1,52 @@
+{
+  "UID": "NS:ws2def.addrinfo_dns_server",
+  "title": "ADDRINFO_DNS_SERVER",
+  "description": "Represents a custom Domain Name System (DNS) server, used in the Winsock APIs.",
+  "tech.root": "WinSock",
+  "ms.date": "06/14/2021",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.header": "ws2def.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ADDRINFO_DNS_SERVER",
+  "req.redist": null,
+  "f1_keywords": [
+    "addrinfo_dns_server",
+    "ws2def/addrinfo_dns_server",
+    "ADDRINFO_DNS_SERVER",
+    "ws2def/ADDRINFO_DNS_SERVER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ws2def.h"
+  ],
+  "api_name": [
+    "addrinfo_dns_server",
+    "ADDRINFO_DNS_SERVER"
+  ]
+}

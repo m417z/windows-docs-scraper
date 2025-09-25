@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDriverCreatedFile.Close",
+  "title": "IWDFDriverCreatedFile::Close (wudfddi.h)",
+  "description": "The Close method closes an instance of a UMDF driver-created-file object that was created by calling the IWDFDevice::CreateWdfFile method.",
+  "old-location": "wdf\\iwdfdrivercreatedfile_close.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDriverCreatedFile::Close"
+  ],
+  "ms.keywords": "Close, Close method, Close method,IWDFDriverCreatedFile interface, IWDFDriverCreatedFile interface,Close method, IWDFDriverCreatedFile.Close, IWDFDriverCreatedFile::Close, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, umdf.iwdfdrivercreatedfile_close, wdf.iwdfdrivercreatedfile_close, wudfddi/IWDFDriverCreatedFile::Close",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDriverCreatedFile::Close",
+    "wudfddi/IWDFDriverCreatedFile::Close"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDriverCreatedFile::Close"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfinterrupt.WdfInterruptGetDevice",
+  "title": "WdfInterruptGetDevice function (wdfinterrupt.h)",
+  "description": "The WdfInterruptGetDevice method returns a handle to the framework device object that is associated with a specified framework interrupt object.",
+  "old-location": "wdf\\wdfinterruptgetdevice.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfInterruptGetDevice function"
+  ],
+  "ms.keywords": "DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, WdfInterruptGetDevice, WdfInterruptGetDevice method, kmdf.wdfinterruptgetdevice, wdf.wdfinterruptgetdevice, wdfinterrupt/WdfInterruptGetDevice",
+  "req.header": "wdfinterrupt.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<= DIRQL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfInterruptGetDevice",
+    "wdfinterrupt/WdfInterruptGetDevice"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfInterruptGetDevice"
+  ]
+}

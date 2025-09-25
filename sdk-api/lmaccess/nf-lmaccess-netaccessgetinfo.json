@@ -1,0 +1,60 @@
+{
+  "UID": "NF:lmaccess.NetAccessGetInfo",
+  "title": "NetAccessGetInfo function (lmaccess.h)",
+  "description": "Not supported. (NetAccessGetInfo)",
+  "helpviewer_keywords": [
+    "0",
+    "1",
+    "NetAccessGetInfo",
+    "NetAccessGetInfo function [Network Management]",
+    "_win32_netaccessgetinfo",
+    "lmaccess/NetAccessGetInfo",
+    "netmgmt.netaccessgetinfo"
+  ],
+  "old-location": "netmgmt\\netaccessgetinfo.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "76d818db-ce13-4879-9ba5-c26d13fe098a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "0, 1, NetAccessGetInfo, NetAccessGetInfo function [Network Management], _win32_netaccessgetinfo, lmaccess/NetAccessGetInfo, netmgmt.netaccessgetinfo",
+  "req.header": "lmaccess.h",
+  "req.include-header": "Lm.h, Lmaccess.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netapi32.lib",
+  "req.dll": "Netapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NetAccessGetInfo",
+    "lmaccess/NetAccessGetInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Netapi32.dll"
+  ],
+  "api_name": [
+    "NetAccessGetInfo"
+  ]
+}

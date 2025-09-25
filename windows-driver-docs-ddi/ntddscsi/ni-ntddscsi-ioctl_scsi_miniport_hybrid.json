@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntddscsi.IOCTL_SCSI_MINIPORT_HYBRID",
+  "title": "IOCTL_SCSI_MINIPORT_HYBRID (ntddscsi.h)",
+  "description": "The IOCTL_SCSI_MINIPORT_HYBRID control code sends a hybrid disk control request to an HBA-specific miniport driver.",
+  "old-location": "storage\\ioctl_scsi_miniport_hybrid.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_SCSI_MINIPORT_HYBRID IOCTL"
+  ],
+  "ms.keywords": "IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid",
+  "req.header": "ntddscsi.h",
+  "req.include-header": "Ntddscsi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8.1.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_SCSI_MINIPORT_HYBRID",
+    "ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntddscsi.h"
+  ],
+  "api_name": [
+    "IOCTL_SCSI_MINIPORT_HYBRID"
+  ]
+}

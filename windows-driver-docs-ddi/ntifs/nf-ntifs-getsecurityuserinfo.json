@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ntifs.GetSecurityUserInfo",
+  "title": "GetSecurityUserInfo function (ntifs.h)",
+  "description": "The GetSecurityUserInfo function retrieves information about a logon session.",
+  "old-location": "ifsk\\getsecurityuserinfo.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "GetSecurityUserInfo function"
+  ],
+  "ms.keywords": "GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ifsk.getsecurityuserinfo, ntifs/GetSecurityUserInfo",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ksecdd.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GetSecurityUserInfo",
+    "ntifs/GetSecurityUserInfo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ksecdd.lib",
+    "ksecdd.dll"
+  ],
+  "api_name": [
+    "GetSecurityUserInfo"
+  ]
+}

@@ -1,0 +1,33 @@
+## Description
+
+This topic describes the **KSPROPERTY_BDA_DISEQC_COMMAND** enumeration.
+
+## Constants
+
+### `KSPROPERTY_BDA_DISEQC_ENABLE`
+
+Defines the **KSPROPERTY_BDA_DISEQC_ENABLE** constant.
+
+### `KSPROPERTY_BDA_DISEQC_LNB_SOURCE`
+
+Defines the **KSPROPERTY_BDA_DISEQC_LNB_SOURCE** constant.
+
+### `KSPROPERTY_BDA_DISEQC_USETONEBURST`
+
+Defines the **KSPROPERTY_BDA_DISEQC_USETONEBURST** constant.
+
+### `KSPROPERTY_BDA_DISEQC_REPEATS`
+
+Defines the **KSPROPERTY_BDA_DISEQC_REPEATS** constant.
+
+### `KSPROPERTY_BDA_DISEQC_SEND`
+
+Defines the **KSPROPERTY_BDA_DISEQC_SEND** constant.
+
+### `KSPROPERTY_BDA_DISEQC_RESPONSE`
+
+Defines the **KSPROPERTY_BDA_DISEQC_RESPONSE** constant.
+
+## Remarks
+
+## See also

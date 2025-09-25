@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTWaitForSynchronizationObjectFromCpu(
+  [in] const D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU *unnamedParam1
+);

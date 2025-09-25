@@ -1,0 +1,3 @@
+VOID mmTaskBlock(
+  DWORD h
+);

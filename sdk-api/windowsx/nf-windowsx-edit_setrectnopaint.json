@@ -1,0 +1,60 @@
+{
+  "UID": "NF:windowsx.Edit_SetRectNoPaint",
+  "title": "Edit_SetRectNoPaint macro (windowsx.h)",
+  "description": "Sets the formatting rectangle of a multiline edit control. This macro is equivalent to Edit_SetRect, except that it does not redraw the edit control window. You can use this macro or send the EM_SETRECTNP message explicitly.",
+  "helpviewer_keywords": [
+    "Edit_SetRectNoPaint",
+    "Edit_SetRectNoPaint macro [Windows Controls]",
+    "_win32_Edit_SetRectNoPaint",
+    "_win32_Edit_SetRectNoPaint_cpp",
+    "controls.Edit_SetRectNoPaint",
+    "controls._win32_Edit_SetRectNoPaint",
+    "windowsx/Edit_SetRectNoPaint"
+  ],
+  "old-location": "controls\\Edit_SetRectNoPaint.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\editcontrols\\editcontrolreference\\editcontrolmacros\\edit_setrectnopaint.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "Edit_SetRectNoPaint, Edit_SetRectNoPaint macro [Windows Controls], _win32_Edit_SetRectNoPaint, _win32_Edit_SetRectNoPaint_cpp, controls.Edit_SetRectNoPaint, controls._win32_Edit_SetRectNoPaint, windowsx/Edit_SetRectNoPaint",
+  "req.header": "windowsx.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Edit_SetRectNoPaint",
+    "windowsx/Edit_SetRectNoPaint"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windowsx.h"
+  ],
+  "api_name": [
+    "Edit_SetRectNoPaint"
+  ]
+}

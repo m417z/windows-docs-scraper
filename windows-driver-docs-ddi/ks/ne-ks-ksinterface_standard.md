@@ -1,0 +1,13 @@
+# KSINTERFACE_STANDARD enumeration
+
+## Description
+
+## Constants
+
+### `KSINTERFACE_STANDARD_STREAMING`
+
+### `KSINTERFACE_STANDARD_LOOPED_STREAMING`
+
+### `KSINTERFACE_STANDARD_CONTROL`
+
+Reserved for system use.

@@ -1,0 +1,52 @@
+{
+  "UID": "NS:wwan._WWAN_LADN",
+  "tech.root": "netvista",
+  "title": "WWAN_LADN",
+  "ms.date": "03/14/2022",
+  "targetos": "Windows",
+  "description": "The WWAN_LADN structure represents a Local Area Data Network (LADN).",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wwan.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11, version 22H2",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "WWAN_LADN, *PWWAN_LADN",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wwan.h"
+  ],
+  "api_name": [
+    "_WWAN_LADN",
+    "PWWAN_LADN",
+    "WWAN_LADN"
+  ],
+  "f1_keywords": [
+    "_WWAN_LADN",
+    "wwan/_WWAN_LADN",
+    "PWWAN_LADN",
+    "wwan/PWWAN_LADN",
+    "WWAN_LADN",
+    "wwan/WWAN_LADN"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_WWAN_LADN"
+  ]
+}

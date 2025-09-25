@@ -1,0 +1,5 @@
+typedef struct _VDS_PARTITION_NOTIFICATION {
+  ULONG         ulEvent;
+  VDS_OBJECT_ID diskId;
+  ULONGLONG     ullOffset;
+} VDS_PARTITION_NOTIFICATION;

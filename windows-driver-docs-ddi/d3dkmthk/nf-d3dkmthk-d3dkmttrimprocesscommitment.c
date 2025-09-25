@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTTrimProcessCommitment(
+  D3DKMT_TRIMPROCESSCOMMITMENT *unnamedParam1
+);

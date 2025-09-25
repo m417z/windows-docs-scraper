@@ -1,0 +1,6 @@
+EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION EvtSercx2SystemDmaReceiveCancelNewDataNotification;
+
+BOOLEAN EvtSercx2SystemDmaReceiveCancelNewDataNotification(
+  [in] SERCX2SYSTEMDMARECEIVE SystemDmaReceive
+)
+{...}

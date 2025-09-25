@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugClient3.FlushCallbacks",
+  "title": "IDebugClient3::FlushCallbacks (dbgeng.h)",
+  "description": "The IDebugClient3::FlushCallbacks method forces any remaining buffered output to be delivered to the IDebugOutputCallbacks object registered with this client.",
+  "old-location": "debugger\\flushcallbacks.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugClient3::FlushCallbacks"
+  ],
+  "ms.keywords": "FlushCallbacks, FlushCallbacks method [Windows Debugging], FlushCallbacks method [Windows Debugging],IDebugClient interface, FlushCallbacks method [Windows Debugging],IDebugClient2 interface, FlushCallbacks method [Windows Debugging],IDebugClient3 interface, FlushCallbacks method [Windows Debugging],IDebugClient4 interface, FlushCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],FlushCallbacks method, IDebugClient2 interface [Windows Debugging],FlushCallbacks method, IDebugClient2::FlushCallbacks, IDebugClient3 interface [Windows Debugging],FlushCallbacks method, IDebugClient3.FlushCallbacks, IDebugClient3::FlushCallbacks, IDebugClient4 interface [Windows Debugging],FlushCallbacks method, IDebugClient4::FlushCallbacks, IDebugClient5 interface [Windows Debugging],FlushCallbacks method, IDebugClient5::FlushCallbacks, IDebugClient::FlushCallbacks, IDebugClient_e808ca3a-5762-419b-96de-4c49984c1ccd.xml, dbgeng/IDebugClient2::FlushCallbacks, dbgeng/IDebugClient3::FlushCallbacks, dbgeng/IDebugClient4::FlushCallbacks, dbgeng/IDebugClient5::FlushCallbacks, dbgeng/IDebugClient::FlushCallbacks, debugger.flushcallbacks",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugClient3::FlushCallbacks",
+    "dbgeng/IDebugClient3::FlushCallbacks"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugClient3::FlushCallbacks"
+  ]
+}

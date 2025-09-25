@@ -1,0 +1,3 @@
+LONG lineRemoveFromConference(
+  HCALL hCall
+);

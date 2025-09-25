@@ -1,0 +1,3 @@
+void IsReparseTagValid(
+  _tag
+);

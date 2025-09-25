@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winuser.LogicalToPhysicalPointForPerMonitorDPI",
+  "title": "LogicalToPhysicalPointForPerMonitorDPI function (winuser.h)",
+  "description": "Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller.",
+  "helpviewer_keywords": [
+    "LogicalToPhysicalPointForPerMonitorDPI",
+    "LogicalToPhysicalPointForPerMonitorDPI function [High DPI]",
+    "hidpi.logicaltophysicalpointforpermonitordpi",
+    "winuser/LogicalToPhysicalPointForPerMonitorDPI"
+  ],
+  "old-location": "hidpi\\logicaltophysicalpointforpermonitordpi.htm",
+  "tech.root": "hidpi",
+  "ms.assetid": "C9ABDC73-1E96-42F1-B34D-3A649DDF02A6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LogicalToPhysicalPointForPerMonitorDPI, LogicalToPhysicalPointForPerMonitorDPI function [High DPI], hidpi.logicaltophysicalpointforpermonitordpi, winuser/LogicalToPhysicalPointForPerMonitorDPI",
+  "req.header": "winuser.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LogicalToPhysicalPointForPerMonitorDPI",
+    "winuser/LogicalToPhysicalPointForPerMonitorDPI"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Window-L1-1-4.dll"
+  ],
+  "api_name": [
+    "LogicalToPhysicalPointForPerMonitorDPI"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)"
+}

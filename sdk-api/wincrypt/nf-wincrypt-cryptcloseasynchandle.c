@@ -1,0 +1,3 @@
+BOOL CryptCloseAsyncHandle(
+  HCRYPTASYNC hAsync
+);

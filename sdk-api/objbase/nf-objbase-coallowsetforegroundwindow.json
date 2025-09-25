@@ -1,0 +1,68 @@
+{
+  "UID": "NF:objbase.CoAllowSetForegroundWindow",
+  "title": "CoAllowSetForegroundWindow function (objbase.h)",
+  "description": "This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process.",
+  "helpviewer_keywords": [
+    "CoAllowSetForegroundWindow",
+    "CoAllowSetForegroundWindow function [COM]",
+    "_com_CoAllowSetForegroundWindow",
+    "com.coallowsetforegroundwindow",
+    "objbase/CoAllowSetForegroundWindow"
+  ],
+  "old-location": "com\\coallowsetforegroundwindow.htm",
+  "tech.root": "com",
+  "ms.assetid": "a728aaad-3d7a-425c-b886-ba35c4fa54d0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow",
+  "req.header": "objbase.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ole32.lib",
+  "req.dll": "Ole32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CoAllowSetForegroundWindow",
+    "objbase/CoAllowSetForegroundWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-com-ole32-l1-4-0.dll",
+    "ext-ms-win-com-ole32-l1-3-0.dll",
+    "ext-ms-win-com-ole32-l1-2-0.dll",
+    "ext-ms-win-com-ole32-l1-1-5.dll",
+    "Ole32.dll",
+    "ComBase.dll",
+    "Ext-MS-Win-COM-OLE32-l1-1-1.dll",
+    "Ext-MS-Win-COM-OLE32-l1-1-2.dll",
+    "ext-ms-win-com-ole32-l1-1-3.dll",
+    "Ext-MS-Win-Com-Ole32-L1-1-4.dll"
+  ],
+  "api_name": [
+    "CoAllowSetForegroundWindow"
+  ],
+  "req.apiset": "ext-ms-win-com-ole32-l1-1-1 (introduced in Windows 8.1)"
+}

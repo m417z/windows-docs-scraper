@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_VERSION",
+  "tech.root": "fs",
+  "title": "NVME_VERSION",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains fields that specify the version number of the NVM Express specification that the controller implementation supports.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_VERSION, *PNVME_VERSION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_VERSION",
+    "NVME_VERSION"
+  ],
+  "f1_keywords": [
+    "PNVME_VERSION",
+    "nvme/PNVME_VERSION",
+    "NVME_VERSION",
+    "nvme/NVME_VERSION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

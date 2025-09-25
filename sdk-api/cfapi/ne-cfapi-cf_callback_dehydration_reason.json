@@ -1,0 +1,39 @@
+{
+  "UID": "NE:cfapi.CF_CALLBACK_DEHYDRATION_REASON",
+  "tech.root": "cloudapi",
+  "title": "CF_CALLBACK_DEHYDRATION_REASON",
+  "ms.date": "03/17/2022",
+  "targetos": "Windows",
+  "description": "Specifies the reason why a cloud file was dehydrated.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "cfapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10, version 1709",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "cfapi.h"
+  ],
+  "api_name": [
+    "CF_CALLBACK_DEHYDRATION_REASON"
+  ],
+  "f1_keywords": [
+    "CF_CALLBACK_DEHYDRATION_REASON",
+    "cfapi/CF_CALLBACK_DEHYDRATION_REASON"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

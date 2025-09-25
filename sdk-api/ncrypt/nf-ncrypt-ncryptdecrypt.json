@@ -1,0 +1,61 @@
+{
+  "UID": "NF:ncrypt.NCryptDecrypt",
+  "title": "NCryptDecrypt function (ncrypt.h)",
+  "description": "Decrypts a block of encrypted data.",
+  "helpviewer_keywords": [
+    "NCRYPT_NO_PADDING_FLAG",
+    "NCRYPT_PAD_OAEP_FLAG",
+    "NCRYPT_PAD_PKCS1_FLAG",
+    "NCRYPT_SILENT_FLAG",
+    "NCryptDecrypt",
+    "NCryptDecrypt function [Security]",
+    "ncrypt/NCryptDecrypt",
+    "security.ncryptdecrypt_func"
+  ],
+  "old-location": "security\\ncryptdecrypt_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "02c309bc-8c94-4c0f-901f-e024c83c824a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG, NCRYPT_SILENT_FLAG, NCryptDecrypt, NCryptDecrypt function [Security], ncrypt/NCryptDecrypt, security.ncryptdecrypt_func",
+  "req.header": "ncrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ncrypt.lib",
+  "req.dll": "Ncrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NCryptDecrypt",
+    "ncrypt/NCryptDecrypt"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ncrypt.dll"
+  ],
+  "api_name": [
+    "NCryptDecrypt"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "UID": "NF:usermode_accessors.ReadUInt64FromUser",
+  "tech.root": "kernel",
+  "title": "ReadUInt64FromUser",
+  "ms.date": "07/02/2025",
+  "targetos": "Windows",
+  "description": "The ReadUInt64FromUser function safely reads a UINT64 value from user-mode memory.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "usermode_accessors.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "Less than or equal to APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "umaccess.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "See Remarks",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "usermode_accessors.h"
+  ],
+  "api_name": [
+    "ReadUInt64FromUser"
+  ],
+  "f1_keywords": [
+    "ReadUInt64FromUser",
+    "usermode_accessors/ReadUInt64FromUser"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "ReadUInt64FromUser"
+  ],
+  "ai-usage": "ai-assisted"
+}

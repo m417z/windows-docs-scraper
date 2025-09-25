@@ -1,0 +1,4 @@
+VOID ACX_MUTE_CONFIG_INIT_ID(
+  PACX_MUTE_CONFIG Config,
+  ULONG            Id
+);

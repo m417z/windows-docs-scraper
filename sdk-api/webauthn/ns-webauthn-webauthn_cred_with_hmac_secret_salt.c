@@ -1,0 +1,5 @@
+typedef struct _WEBAUTHN_CRED_WITH_HMAC_SECRET_SALT {
+  DWORD                      cbCredID;
+  PBYTE                      pbCredID;
+  PWEBAUTHN_HMAC_SECRET_SALT pHmacSecretSalt;
+} WEBAUTHN_CRED_WITH_HMAC_SECRET_SALT, *PWEBAUTHN_CRED_WITH_HMAC_SECRET_SALT;

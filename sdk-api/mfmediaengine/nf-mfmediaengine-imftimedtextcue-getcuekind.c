@@ -1,0 +1,1 @@
+MF_TIMED_TEXT_TRACK_KIND GetCueKind();

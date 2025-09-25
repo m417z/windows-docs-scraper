@@ -1,0 +1,62 @@
+{
+  "UID": "NF:tdh.TdhGetEventInformation",
+  "title": "TdhGetEventInformation function (tdh.h)",
+  "description": "Retrieves metadata about an event.",
+  "helpviewer_keywords": [
+    "TdhGetEventInformation",
+    "TdhGetEventInformation function [ETW]",
+    "etw.tdhgeteventinformation_func",
+    "tdh.tdhgeteventinformation_func",
+    "tdh/TdhGetEventInformation"
+  ],
+  "old-location": "etw\\tdhgeteventinformation_func.htm",
+  "tech.root": "ETW",
+  "ms.assetid": "81542550-79aa-4d67-a472-ac3ee3a3ce63",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "TdhGetEventInformation, TdhGetEventInformation function [ETW], etw.tdhgeteventinformation_func, tdh.tdhgeteventinformation_func, tdh/TdhGetEventInformation",
+  "req.header": "tdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tdh.lib",
+  "req.dll": "Tdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TdhGetEventInformation",
+    "tdh/TdhGetEventInformation"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-eventing-tdh-l1-1-2.dll",
+    "api-ms-win-eventing-tdh-l1-1-1.dll",
+    "Tdh.dll",
+    "API-MS-Win-Eventing-Tdh-L1-1-0.dll",
+    "MinTdh.dll"
+  ],
+  "api_name": [
+    "TdhGetEventInformation"
+  ]
+}

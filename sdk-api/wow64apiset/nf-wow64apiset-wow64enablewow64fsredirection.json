@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wow64apiset.Wow64EnableWow64FsRedirection",
+  "tech.root": "fs",
+  "title": "Wow64EnableWow64FsRedirection",
+  "ms.assetid": "8d11a7ba-540d-4bd0-881a-a61605357dd8",
+  "ms.date": "04/12/2022",
+  "ms.keywords": "Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, wow64apiset/Wow64EnableWow64FsRedirection",
+  "targetos": "Windows",
+  "description": "Enables or disables file system redirection for the calling thread.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "wow64apiset.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-wow64-l1-1-3.dll",
+    "api-ms-win-core-wow64-l1-1-2.dll",
+    "api-ms-win-core-wow64-l1-1-1.dll",
+    "api-ms-win-core-wow64-l1-1-0.dll",
+    "api-ms-win-core-kernel32-private-l1-1-2.dll",
+    "api-ms-win-core-kernel32-private-l1-1-1.dll",
+    "api-ms-win-core-kernel32-private-l1-1-0.dll",
+    "wow64apiset.h"
+  ],
+  "api_name": [
+    "Wow64EnableWow64FsRedirection"
+  ],
+  "f1_keywords": [
+    "Wow64EnableWow64FsRedirection",
+    "wow64apiset/Wow64EnableWow64FsRedirection"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "Wow64EnableWow64FsRedirection"
+  ]
+}

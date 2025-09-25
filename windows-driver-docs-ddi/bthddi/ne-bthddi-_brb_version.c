@@ -1,0 +1,4 @@
+typedef enum _BRB_VERSION {
+  BLUETOOTH_V1,
+  BLUETOOTH_V2
+} BRB_VERSION;

@@ -1,0 +1,66 @@
+{
+  "UID": "NS:dmoreg._DMO_PARTIAL_MEDIATYPE",
+  "title": "DMO_PARTIAL_MEDIATYPE (dmoreg.h)",
+  "description": "The DMO_PARTIAL_MEDIATYPE structure partially describes a media type used by a Microsoft DirectX Media Object (DMO). The DMO registration functions use this structure to specify supported media types.",
+  "helpviewer_keywords": [
+    "*PDMO_PARTIAL_MEDIATYPE",
+    "DMO_PARTIAL_MEDIATYPE",
+    "DMO_PARTIAL_MEDIATYPE structure [DirectShow]",
+    "DMO_PARTIAL_MEDIATYPEStructure",
+    "PDMO_PARTIAL_MEDIATYPE",
+    "PDMO_PARTIAL_MEDIATYPE structure pointer [DirectShow]",
+    "dmoreg/DMO_PARTIAL_MEDIATYPE",
+    "dmoreg/PDMO_PARTIAL_MEDIATYPE",
+    "dshow.dmo_partial_mediatype"
+  ],
+  "old-location": "dshow\\dmo_partial_mediatype.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "53bf4c34-d180-4edd-b59a-55d7d90708b5",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "*PDMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE structure [DirectShow], DMO_PARTIAL_MEDIATYPEStructure, PDMO_PARTIAL_MEDIATYPE, PDMO_PARTIAL_MEDIATYPE structure pointer [DirectShow], dmoreg/DMO_PARTIAL_MEDIATYPE, dmoreg/PDMO_PARTIAL_MEDIATYPE, dshow.dmo_partial_mediatype",
+  "req.header": "dmoreg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DMO_PARTIAL_MEDIATYPE",
+    "dmoreg/_DMO_PARTIAL_MEDIATYPE",
+    "PDMO_PARTIAL_MEDIATYPE",
+    "dmoreg/PDMO_PARTIAL_MEDIATYPE",
+    "DMO_PARTIAL_MEDIATYPE",
+    "dmoreg/DMO_PARTIAL_MEDIATYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Dmoreg.h"
+  ],
+  "api_name": [
+    "DMO_PARTIAL_MEDIATYPE"
+  ]
+}

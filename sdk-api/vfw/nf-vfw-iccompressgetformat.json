@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.ICCompressGetFormat",
+  "title": "ICCompressGetFormat macro (vfw.h)",
+  "description": "The ICCompressGetFormat macro requests the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the ICM_COMPRESS_GET_FORMAT message.",
+  "helpviewer_keywords": [
+    "ICCompressGetFormat",
+    "ICCompressGetFormat macro [Windows Multimedia]",
+    "_win32_ICCompressGetFormat",
+    "multimedia.iccompressgetformat",
+    "vfw/ICCompressGetFormat"
+  ],
+  "old-location": "multimedia\\iccompressgetformat.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "d6552dc0-21fb-475c-9ec4-cb3ef1f3a70e",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "ICCompressGetFormat, ICCompressGetFormat macro [Windows Multimedia], _win32_ICCompressGetFormat, multimedia.iccompressgetformat, vfw/ICCompressGetFormat",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICCompressGetFormat",
+    "vfw/ICCompressGetFormat"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "ICCompressGetFormat"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NC:ncryptprotect.PFNCryptStreamOutputCallback",
+  "title": "PFNCryptStreamOutputCallback (ncryptprotect.h)",
+  "description": "Receives encrypted or decrypted data from tasks started by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.",
+  "helpviewer_keywords": [
+    "PFNCryptStreamOutputCallback",
+    "PFNCryptStreamOutputCallback callback",
+    "PFNCryptStreamOutputCallback callback function [Security]",
+    "ncryptprotect/PFNCryptStreamOutputCallback",
+    "security.pfncryptstreamoutputcallback"
+  ],
+  "old-location": "security\\pfncryptstreamoutputcallback.htm",
+  "tech.root": "security",
+  "ms.assetid": "D07B2B63-306B-4C41-AA14-320EFEFFB939",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback callback, PFNCryptStreamOutputCallback callback function [Security], ncryptprotect/PFNCryptStreamOutputCallback, security.pfncryptstreamoutputcallback",
+  "req.header": "ncryptprotect.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PFNCryptStreamOutputCallback",
+    "ncryptprotect/PFNCryptStreamOutputCallback"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "NCryptprotect.h"
+  ],
+  "api_name": [
+    "PFNCryptStreamOutputCallback"
+  ]
+}

@@ -1,0 +1,48 @@
+# SymFromNameW function
+
+## Description
+
+Retrieves symbol information for the specified name.
+
+## Parameters
+
+### `hProcess` [in]
+
+A handle to a process. This handle must have been previously passed to the
+[SymInitialize](https://learn.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize) function.
+
+### `Name` [in]
+
+The name of the symbol to be located.
+
+### `Symbol` [in, out]
+
+A pointer to a
+[SYMBOL_INFO](https://learn.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info) structure that provides information about the symbol.
+
+## Return value
+
+If the function succeeds, the return value is **TRUE**.
+
+If the function fails, the return value is **FALSE**. To retrieve extended error information, call
+[GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+
+## Remarks
+
+All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
+
+To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
+
+#### Examples
+
+For an example, see
+[Retrieving Symbol Information by Name](https://learn.microsoft.com/windows/desktop/Debug/retrieving-symbol-information-by-name).
+
+> [!NOTE]
+> The dbghelp.h header defines SymFromName as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[DbgHelp Functions](https://learn.microsoft.com/windows/desktop/Debug/dbghelp-functions)
+
+[SYMBOL_INFO](https://learn.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info)

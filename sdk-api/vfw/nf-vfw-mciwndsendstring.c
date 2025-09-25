@@ -1,0 +1,4 @@
+LONG MCIWndSendString(
+     hwnd,
+     sz
+);

@@ -1,0 +1,11 @@
+struct CD3D11_COUNTER_DESC : D3D11_COUNTER_DESC {
+  void CD3D11_COUNTER_DESC();
+  void CD3D11_COUNTER_DESC(
+    const D3D11_COUNTER_DESC & o
+  );
+  void CD3D11_COUNTER_DESC(
+    D3D11_COUNTER counter,
+    UINT          miscFlags
+  );
+  void ~CD3D11_COUNTER_DESC();
+};

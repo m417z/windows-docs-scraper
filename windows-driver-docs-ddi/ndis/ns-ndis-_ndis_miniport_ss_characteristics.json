@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ndis._NDIS_MINIPORT_SS_CHARACTERISTICS",
+  "title": "_NDIS_MINIPORT_SS_CHARACTERISTICS (ndis.h)",
+  "description": "The NDIS_MINIPORT_SS_CHARACTERISTICS structure specifies the pointers to a miniport driver's NDIS selective suspend handler functions. These functions are called by NDIS to issue idle notifications to the driver during a selective suspend operation.",
+  "old-location": "netvista\\ndis_miniport_ss_characteristics.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NDIS_MINIPORT_SS_CHARACTERISTICS structure"
+  ],
+  "ms.keywords": "*PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in NDIS 6.30 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "NDIS_MINIPORT_SS_CHARACTERISTICS, *PNDIS_MINIPORT_SS_CHARACTERISTICS",
+  "f1_keywords": [
+    "_NDIS_MINIPORT_SS_CHARACTERISTICS",
+    "ndis/_NDIS_MINIPORT_SS_CHARACTERISTICS",
+    "PNDIS_MINIPORT_SS_CHARACTERISTICS",
+    "ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS",
+    "NDIS_MINIPORT_SS_CHARACTERISTICS",
+    "ndis/NDIS_MINIPORT_SS_CHARACTERISTICS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ndis.h"
+  ],
+  "api_name": [
+    "_NDIS_MINIPORT_SS_CHARACTERISTICS",
+    "PNDIS_MINIPORT_SS_CHARACTERISTICS",
+    "NDIS_MINIPORT_SS_CHARACTERISTICS"
+  ]
+}

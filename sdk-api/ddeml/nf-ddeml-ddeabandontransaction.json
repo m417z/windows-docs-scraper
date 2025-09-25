@@ -1,0 +1,61 @@
+{
+  "UID": "NF:ddeml.DdeAbandonTransaction",
+  "title": "DdeAbandonTransaction function (ddeml.h)",
+  "description": "Abandons the specified asynchronous transaction and releases all resources associated with the transaction.",
+  "helpviewer_keywords": [
+    "DdeAbandonTransaction",
+    "DdeAbandonTransaction function [Data Exchange]",
+    "_win32_DdeAbandonTransaction",
+    "_win32_ddeabandontransaction_cpp",
+    "dataxchg.ddeabandontransaction",
+    "ddeml/DdeAbandonTransaction",
+    "winui._win32_ddeabandontransaction"
+  ],
+  "old-location": "dataxchg\\ddeabandontransaction.htm",
+  "tech.root": "dataxchg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\dataexchange\\dynamicdataexchangemanagementlibrary\\dynamicdataexchangemanagementreference\\dynamicdataexchangemanagementfunctions\\ddeabandontransaction.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DdeAbandonTransaction, DdeAbandonTransaction function [Data Exchange], _win32_DdeAbandonTransaction, _win32_ddeabandontransaction_cpp, dataxchg.ddeabandontransaction, ddeml/DdeAbandonTransaction, winui._win32_ddeabandontransaction",
+  "req.header": "ddeml.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DdeAbandonTransaction",
+    "ddeml/DdeAbandonTransaction"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ntuser-dde-l1-1-0.dll",
+    "User32.dll"
+  ],
+  "api_name": [
+    "DdeAbandonTransaction"
+  ]
+}

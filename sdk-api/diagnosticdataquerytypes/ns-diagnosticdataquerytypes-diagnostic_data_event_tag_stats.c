@@ -1,0 +1,4 @@
+typedef struct tagDIAGNOSTIC_DATA_EVENT_TAG_STATS {
+  INT32  privacyTag;
+  UINT32 eventCount;
+} DIAGNOSTIC_DATA_EVENT_TAG_STATS;

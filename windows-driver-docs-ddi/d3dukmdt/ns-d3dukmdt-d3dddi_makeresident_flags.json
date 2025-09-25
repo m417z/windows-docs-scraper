@@ -1,0 +1,48 @@
+{
+  "UID": "NS:d3dukmdt.D3DDDI_MAKERESIDENT_FLAGS",
+  "title": "D3DDDI_MAKERESIDENT_FLAGS (d3dukmdt.h)",
+  "description": "D3DDDI_MAKERESIDENT_FLAGS is used with MakeResident (pfnMakeResidentCb or D3DKMTMakeResident) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.",
+  "old-location": "display\\d3dddi_makeresident_flags.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DDDI_MAKERESIDENT_FLAGS structure"
+  ],
+  "ms.keywords": "D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, display.d3dddi_makeresident_flags",
+  "req.header": "d3dukmdt.h",
+  "req.include-header": "D3dumddi.h, D3dkmddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "D3DDDI_MAKERESIDENT_FLAGS",
+  "f1_keywords": [
+    "D3DDDI_MAKERESIDENT_FLAGS",
+    "d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dukmdt.h"
+  ],
+  "api_name": [
+    "D3DDDI_MAKERESIDENT_FLAGS"
+  ]
+}

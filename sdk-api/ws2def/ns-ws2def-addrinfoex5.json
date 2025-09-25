@@ -1,0 +1,55 @@
+{
+  "UID": "NS:ws2def.addrinfoex5",
+  "title": "ADDRINFOEX5",
+  "description": "Used by the <a href=\"/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexw\">GetAddrInfoExW</a> function to hold host address information when a specific network interface has been requested. (ADDRINFOEX5)",
+  "tech.root": "WinSock",
+  "ms.date": "06/14/2021",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.header": "ws2def.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ADDRINFOEX5, *PADDRINFOEX5, *LPADDRINFOEX5",
+  "req.redist": null,
+  "f1_keywords": [
+    "addrinfoex5",
+    "ws2def/addrinfoex5",
+    "PADDRINFOEX5",
+    "ws2def/PADDRINFOEX5",
+    "ADDRINFOEX5",
+    "ws2def/ADDRINFOEX5"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ws2def.h"
+  ],
+  "api_name": [
+    "addrinfoex5",
+    "PADDRINFOEX5",
+    "ADDRINFOEX5"
+  ]
+}

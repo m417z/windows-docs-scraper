@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltReleasePushLockEx",
+  "title": "FltReleasePushLockEx function (fltkernel.h)",
+  "description": "The FltReleasePushLockEx routine releases a specified push lock owned by the current thread.",
+  "ms.date": "08/11/2022",
+  "tech.root": "ifsk",
+  "keywords": [
+    "FltReleasePushLockEx function"
+  ],
+  "ms.keywords": "FltReleasePushLockEx",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FltReleasePushLockEx",
+    "fltkernel/FltReleasePushLockEx"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FltMgr.sys"
+  ],
+  "api_name": [
+    "FltReleasePushLockEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

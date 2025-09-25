@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wlanihv.DOT11EXTIHV_STOP_POST_ASSOCIATE",
+  "title": "DOT11EXTIHV_STOP_POST_ASSOCIATE (wlanihv.h)",
+  "description": "The DOT11EXTIHV_STOP_POST_ASSOCIATE callback function is part of the Native 802.11 Wireless LAN interface, which is deprecated for Windows 10 and later.",
+  "old-location": "netvista\\dot11extihvstoppostassociate.htm",
+  "tech.root": "netvista",
+  "ms.date": "02/16/2018",
+  "keywords": [
+    "DOT11EXTIHV_STOP_POST_ASSOCIATE callback"
+  ],
+  "ms.keywords": "DOT11EXTIHV_STOP_POST_ASSOCIATE, Dot11ExtIhvStopPostAssociate, Dot11ExtIhvStopPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_674652ff-a01d-493b-9b11-bff378f25f2a.xml, netvista.dot11extihvstoppostassociate, wlanihv/Dot11ExtIhvStopPostAssociate",
+  "req.header": "wlanihv.h",
+  "req.include-header": "Wlanihv.h, Windot11.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W",
+  "f1_keywords": [
+    "DOT11EXTIHV_STOP_POST_ASSOCIATE",
+    "wlanihv/DOT11EXTIHV_STOP_POST_ASSOCIATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wlanihv.h"
+  ],
+  "api_name": [
+    "DOT11EXTIHV_STOP_POST_ASSOCIATE"
+  ]
+}

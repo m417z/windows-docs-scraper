@@ -1,0 +1,5 @@
+typedef struct _VDS_ISCSI_INITIATOR_PORTAL_PROP {
+  VDS_OBJECT_ID id;
+  VDS_IPADDRESS address;
+  ULONG         ulPortIndex;
+} VDS_ISCSI_INITIATOR_PORTAL_PROP;

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fileapifromapp.CreateFile2FromAppW",
+  "tech.root": "fs",
+  "title": "CreateFile2FromAppW",
+  "ms.date": "03/23/2021",
+  "targetos": "Windows",
+  "description": "Creates or opens a file or I/O device. The behavior of this function is identical to CreateFile2, except that this function adheres to the Universal Windows Platform app security model.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fileapifromapp.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "sqlite.dll",
+    "api-ms-win-core-file-fromapp-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CreateFile2FromAppW",
+    "CreateFile2FromApp"
+  ],
+  "api_type": [
+    "DLLExport"
+  ],
+  "f1_keywords": [
+    "CreateFile2FromAppW",
+    "fileapifromapp/CreateFile2FromAppW"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

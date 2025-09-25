@@ -1,0 +1,3 @@
+HPALETTE MCIWndGetPalette(
+     hwnd
+);

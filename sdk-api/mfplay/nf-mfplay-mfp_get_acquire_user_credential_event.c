@@ -1,0 +1,3 @@
+void MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT(
+   pHdr
+);

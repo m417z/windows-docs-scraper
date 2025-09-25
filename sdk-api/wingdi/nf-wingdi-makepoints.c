@@ -1,0 +1,3 @@
+POINTS MAKEPOINTS(
+    DWORD l
+);

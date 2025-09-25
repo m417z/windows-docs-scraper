@@ -1,0 +1,4 @@
+typedef struct _MIB_MFE_STATS_TABLE_EX_XP {
+  DWORD                        dwNumEntries;
+  PMIB_IPMCAST_MFE_STATS_EX_XP table[ANY_SIZE];
+} MIB_MFE_STATS_TABLE_EX_XP, *PMIB_MFE_STATS_TABLE_EX_XP;

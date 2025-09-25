@@ -1,0 +1,50 @@
+{
+  "UID": "NC:audiostatemonitorapi.AudioStateMonitorCallback",
+  "tech.root": "CoreAudio",
+  "title": "AudioStateMonitorCallback",
+  "ms.date": "06/21/2023",
+  "targetos": "Windows",
+  "description": "Occurs when the system changes the sound level of the audio streams being monitored by an IAudioStreamStateMonitor.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audiostatemonitorapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows build 19043",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "audiostatemonitorapi.h"
+  ],
+  "api_name": [
+    "AudioStateMonitorCallback"
+  ],
+  "f1_keywords": [
+    "AudioStateMonitorCallback",
+    "audiostatemonitorapi/AudioStateMonitorCallback"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "AudioStateMonitorCallback"
+  ]
+}

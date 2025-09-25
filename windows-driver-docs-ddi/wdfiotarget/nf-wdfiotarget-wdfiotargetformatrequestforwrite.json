@@ -1,0 +1,51 @@
+{
+  "UID": "NF:wdfiotarget.WdfIoTargetFormatRequestForWrite",
+  "title": "WdfIoTargetFormatRequestForWrite function (wdfiotarget.h)",
+  "description": "The WdfIoTargetFormatRequestForWrite method builds a write request for an I/O target but does not send the request.",
+  "old-location": "wdf\\wdfiotargetformatrequestforwrite.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfIoTargetFormatRequestForWrite function"
+  ],
+  "ms.keywords": "DFIOTargetRef_d5d06763-e3a8-41bb-aad6-a116f167ff08.xml, WdfIoTargetFormatRequestForWrite, WdfIoTargetFormatRequestForWrite method, kmdf.wdfiotargetformatrequestforwrite, wdf.wdfiotargetformatrequestforwrite, wdfiotarget/WdfIoTargetFormatRequestForWrite",
+  "req.header": "wdfiotarget.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2, RequestFormattedValid, RequestSendAndForgetNoFormatting, RequestSendAndForgetNoFormatting2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)",
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfIoTargetFormatRequestForWrite",
+    "wdfiotarget/WdfIoTargetFormatRequestForWrite"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll",
+    "WUDFx02000.dll",
+    "WUDFx02000.dll.dll"
+  ],
+  "api_name": [
+    "WdfIoTargetFormatRequestForWrite"
+  ]
+}

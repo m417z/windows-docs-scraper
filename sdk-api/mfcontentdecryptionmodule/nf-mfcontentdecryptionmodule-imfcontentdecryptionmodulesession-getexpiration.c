@@ -1,0 +1,3 @@
+HRESULT GetExpiration(
+  double *expiration
+);

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vfw.AVIFileInfo",
+  "title": "AVIFileInfo function (vfw.h)",
+  "description": "The AVIFileInfo function (vfw.h) obtains information about an AVI file.",
+  "helpviewer_keywords": [
+    "AVIFileInfo",
+    "AVIFileInfo function [Windows Multimedia]",
+    "AVIFileInfoA",
+    "AVIFileInfoW",
+    "_win32_AVIFileInfo",
+    "multimedia.avifileinfo",
+    "vfw/AVIFileInfo",
+    "vfw/AVIFileInfoA",
+    "vfw/AVIFileInfoW"
+  ],
+  "old-location": "multimedia\\avifileinfo.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "10d7decf-a133-4d55-93d5-867952307819",
+  "ms.date": "08/16/2022",
+  "ms.keywords": "AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfoA, AVIFileInfoW, _win32_AVIFileInfo, multimedia.avifileinfo, vfw/AVIFileInfo, vfw/AVIFileInfoA, vfw/AVIFileInfoW",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "AVIFileInfoW (Unicode) and AVIFileInfoA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vfw32.lib",
+  "req.dll": "Avifil32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AVIFileInfo",
+    "vfw/AVIFileInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Avifil32.dll",
+    "Ext-MS-Win-Media-Avi-L1-1-0.dll"
+  ],
+  "api_name": [
+    "AVIFileInfo",
+    "AVIFileInfoA",
+    "AVIFileInfoW"
+  ]
+}

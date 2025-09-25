@@ -1,0 +1,19 @@
+typedef struct D2D_MATRIX_4X3_F {
+  union {
+    struct {
+      FLOAT _11;
+      FLOAT _12;
+      FLOAT _13;
+      FLOAT _21;
+      FLOAT _22;
+      FLOAT _23;
+      FLOAT _31;
+      FLOAT _32;
+      FLOAT _33;
+      FLOAT _41;
+      FLOAT _42;
+      FLOAT _43;
+    } DUMMYSTRUCTNAME;
+    FLOAT m[4][3];
+  } DUMMYUNIONNAME;
+} D2D_MATRIX_4X3_F;

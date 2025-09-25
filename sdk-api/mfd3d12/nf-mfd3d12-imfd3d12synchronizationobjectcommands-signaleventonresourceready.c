@@ -1,0 +1,3 @@
+HRESULT SignalEventOnResourceReady(
+  HANDLE hEvent
+);

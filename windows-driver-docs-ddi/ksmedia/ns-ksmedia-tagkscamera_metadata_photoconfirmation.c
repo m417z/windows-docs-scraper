@@ -1,0 +1,5 @@
+typedef struct tagKSCAMERA_METADATA_PHOTOCONFIRMATION {
+  KSCAMERA_METADATA_ITEMHEADER Header;
+  ULONG                        PhotoConfirmationIndex;
+  ULONG                        Reserved;
+} KSCAMERA_METADATA_PHOTOCONFIRMATION, *PKSCAMERA_METADATA_PHOTOCONFIRMATION;

@@ -1,0 +1,5 @@
+typedef struct D3D12DDI_VIDEO_ENCODE_REFERENCE_FRAMES_0080 {
+  UINT               NumTexture2Ds;
+  D3D12DDI_HRESOURCE *hDrvTexture2Ds;
+  UINT               *pSubresources;
+} D3D12DDI_VIDEO_ENCODE_REFERENCE_FRAMES_0080;

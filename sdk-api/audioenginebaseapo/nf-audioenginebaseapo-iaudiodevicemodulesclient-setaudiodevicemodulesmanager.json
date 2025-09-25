@@ -1,0 +1,46 @@
+{
+  "UID": "NF:audioenginebaseapo.IAudioDeviceModulesClient.SetAudioDeviceModulesManager",
+  "tech.root": "audio",
+  "title": "IAudioDeviceModulesClient::SetAudioDeviceModulesManager",
+  "ms.date": "04/30/2021",
+  "targetos": "Windows",
+  "description": "Called by the system to pass an instance of **IAudioDeviceModulesManager** to Audio Processing Objects (APOs) that implement the **IAudioDeviceModulesClient** interface.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audioenginebaseapo.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "audioenginebaseapo.h"
+  ],
+  "api_name": [
+    "IAudioDeviceModulesClient::SetAudioDeviceModulesManager"
+  ],
+  "f1_keywords": [
+    "IAudioDeviceModulesClient::SetAudioDeviceModulesManager",
+    "audioenginebaseapo/IAudioDeviceModulesClient::SetAudioDeviceModulesManager"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

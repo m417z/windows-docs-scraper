@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_STATE_OBJECT_SIZE_0054 Pfnd3d12ddiCalcPrivateStateObjectSize0054;
+
+SIZE_T Pfnd3d12ddiCalcPrivateStateObjectSize0054(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_STATE_OBJECT_0054 *unnamedParam2
+)
+{...}

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:winuser.BroadcastSystemMessageA",
+  "tech.root": "winmsg",
+  "title": "BroadcastSystemMessageA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "Sends a message to the specified recipients. (BroadcastSystemMessageA)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "User32.dll",
+  "req.header": "winuser.h",
+  "req.idl": null,
+  "req.include-header": "Windows.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "User32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll"
+  ],
+  "api_name": [
+    "BroadcastSystemMessageA",
+    "BroadcastSystemMessage"
+  ],
+  "f1_keywords": [
+    "BroadcastSystemMessageA",
+    "winuser/BroadcastSystemMessageA",
+    "BroadcastSystemMessage",
+    "winuser/BroadcastSystemMessage"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

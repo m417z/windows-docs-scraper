@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ws2spi.WSCSetProviderInfo",
+  "title": "WSCSetProviderInfo function (ws2spi.h)",
+  "description": "Sets the data value for the specified information class for a layered service provider (LSP).",
+  "helpviewer_keywords": [
+    "WSCSetProviderInfo",
+    "WSCSetProviderInfo function [Winsock]",
+    "winsock.wscsetproviderinfo",
+    "ws2spi/WSCSetProviderInfo"
+  ],
+  "old-location": "winsock\\wscsetproviderinfo.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "10eed3e6-d5a0-4ba4-964e-3d924a231afb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WSCSetProviderInfo, WSCSetProviderInfo function [Winsock], winsock.wscsetproviderinfo, ws2spi/WSCSetProviderInfo",
+  "req.header": "ws2spi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WSCSetProviderInfo",
+    "ws2spi/WSCSetProviderInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll"
+  ],
+  "api_name": [
+    "WSCSetProviderInfo"
+  ]
+}

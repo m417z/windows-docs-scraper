@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wsk.PFN_WSK_GET_REMOTE_ADDRESS",
+  "title": "PFN_WSK_GET_REMOTE_ADDRESS (wsk.h)",
+  "description": "The WskGetRemoteAddress function retrieves the remote transport address of a connection-oriented or stream socket.",
+  "old-location": "netvista\\wskgetremoteaddress.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "PFN_WSK_GET_REMOTE_ADDRESS callback function"
+  ],
+  "ms.keywords": "PFN_WSK_GET_REMOTE_ADDRESS, PFN_WSK_GET_REMOTE_ADDRESS callback, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFN_WSK_GET_REMOTE_ADDRESS",
+    "wsk/PFN_WSK_GET_REMOTE_ADDRESS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wsk.h"
+  ],
+  "api_name": [
+    "PFN_WSK_GET_REMOTE_ADDRESS"
+  ]
+}

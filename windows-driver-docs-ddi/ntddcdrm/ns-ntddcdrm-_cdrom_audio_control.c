@@ -1,0 +1,4 @@
+typedef struct _CDROM_AUDIO_CONTROL {
+  UCHAR  LbaFormat;
+  USHORT LogicalBlocksPerSecond;
+} CDROM_AUDIO_CONTROL, *PCDROM_AUDIO_CONTROL;

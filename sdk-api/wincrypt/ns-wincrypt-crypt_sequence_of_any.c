@@ -1,0 +1,4 @@
+typedef struct _CRYPT_SEQUENCE_OF_ANY {
+  DWORD           cValue;
+  PCRYPT_DER_BLOB rgValue;
+} CRYPT_SEQUENCE_OF_ANY, *PCRYPT_SEQUENCE_OF_ANY;

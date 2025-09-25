@@ -1,0 +1,44 @@
+{
+  "UID": "NC:wdm.FPGA_CONTROL_CONFIG_SPACE",
+  "title": "FPGA_CONTROL_CONFIG_SPACE (wdm.h)",
+  "description": "Reserved for future use. Enables or disables the access to the configuration space of the FPGA device.",
+  "ms.date": "01/19/2023",
+  "tech.root": "kernel",
+  "keywords": [
+    "FPGA_CONTROL_CONFIG_SPACE callback function"
+  ],
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "FPGA_CONTROL_CONFIG_SPACE",
+    "wdm/FPGA_CONTROL_CONFIG_SPACE"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "FPGA_CONTROL_CONFIG_SPACE"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:dhcpsapi.DhcpGetOptionInfoV5",
+  "title": "DhcpGetOptionInfoV5 function (dhcpsapi.h)",
+  "description": "The DhcpGetOptionInfoV5 function returns information on a specific DHCP option.",
+  "helpviewer_keywords": [
+    "DHCP_FLAGS_OPTION_IS_VENDOR",
+    "DhcpGetOptionInfoV5",
+    "DhcpGetOptionInfoV5 function [DHCP]",
+    "dhcp.dhcpgetoptioninfov5",
+    "dhcpsapi/DhcpGetOptionInfoV5"
+  ],
+  "old-location": "dhcp\\dhcpgetoptioninfov5.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "bf7b744d-da02-4c2f-b29a-e2b9b3fe3881",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV5, DhcpGetOptionInfoV5 function [DHCP], dhcp.dhcpgetoptioninfov5, dhcpsapi/DhcpGetOptionInfoV5",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpGetOptionInfoV5",
+    "dhcpsapi/DhcpGetOptionInfoV5"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpGetOptionInfoV5"
+  ]
+}

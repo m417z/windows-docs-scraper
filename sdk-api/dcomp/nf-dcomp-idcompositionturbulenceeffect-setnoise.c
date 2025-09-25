@@ -1,0 +1,3 @@
+HRESULT SetNoise(
+  [in] D2D1_TURBULENCE_NOISE noise
+);

@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wdm.ExAllocatePoolUninitialized",
+  "title": "ExAllocatePoolUninitialized",
+  "tech.root": "kernel",
+  "ms.date": "04/28/2025",
+  "targetos": "Windows",
+  "description": "This routine is a wrapper and replacement option for ExAllocatePoolWithTag.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.irql": "IRQL <= DISPATCH_LEVEL (see Remarks section)",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Requires WDK for Windows 10, version 2004. Targets Windows 7 and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Universal",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "ExAllocatePoolUninitialized"
+  ],
+  "f1_keywords": [
+    "ExAllocatePoolUninitialized",
+    "wdm/ExAllocatePoolUninitialized"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

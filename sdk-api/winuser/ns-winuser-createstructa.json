@@ -1,0 +1,74 @@
+{
+  "UID": "NS:winuser.tagCREATESTRUCTA",
+  "title": "CREATESTRUCTA (winuser.h)",
+  "description": "Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function. (ANSI)",
+  "helpviewer_keywords": [
+    "*LPCREATESTRUCTA",
+    "CREATESTRUCT",
+    "CREATESTRUCT structure [Windows and Messages]",
+    "CREATESTRUCTA",
+    "CREATESTRUCTW",
+    "LPCREATESTRUCT",
+    "LPCREATESTRUCT structure pointer [Windows and Messages]",
+    "_win32_CREATESTRUCT_str",
+    "_win32_createstruct_str_cpp",
+    "winmsg.createstruct",
+    "winui._win32_createstruct_str",
+    "winuser/CREATESTRUCT",
+    "winuser/CREATESTRUCTA",
+    "winuser/CREATESTRUCTW",
+    "winuser/LPCREATESTRUCT"
+  ],
+  "old-location": "winmsg\\createstruct.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windows\\windowreference\\windowstructures\\createstruct.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPCREATESTRUCTA, CREATESTRUCT, CREATESTRUCT structure [Windows and Messages], CREATESTRUCTA, CREATESTRUCTW, LPCREATESTRUCT, LPCREATESTRUCT structure pointer [Windows and Messages], _win32_CREATESTRUCT_str, _win32_createstruct_str_cpp, winmsg.createstruct, winui._win32_createstruct_str, winuser/CREATESTRUCT, winuser/CREATESTRUCTA, winuser/CREATESTRUCTW, winuser/LPCREATESTRUCT",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CREATESTRUCTW (Unicode) and CREATESTRUCTA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CREATESTRUCTA, *LPCREATESTRUCTA",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagCREATESTRUCTA",
+    "winuser/tagCREATESTRUCTA",
+    "LPCREATESTRUCTA",
+    "winuser/LPCREATESTRUCTA",
+    "CREATESTRUCTA",
+    "winuser/CREATESTRUCTA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Winuser.h"
+  ],
+  "api_name": [
+    "CREATESTRUCT",
+    "CREATESTRUCTA",
+    "CREATESTRUCTW"
+  ]
+}

@@ -1,0 +1,3 @@
+BOOL capCaptureSequenceNoFile(
+     hwnd
+);

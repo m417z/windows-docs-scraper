@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ks.KsDiscard",
+  "title": "KsDiscard macro (ks.h)",
+  "description": "The KsDiscard macro removes a given item from an object bag.",
+  "tech.root": "stream",
+  "ms.date": "03/11/2022",
+  "keywords": [
+    "KsDiscard macro"
+  ],
+  "ms.keywords": "KsDiscard, KsDiscard function [Streaming Media Devices], avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, stream.ksdiscard",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ks.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KsDiscard",
+    "ks/KsDiscard"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Ks.lib",
+    "Ks.dll"
+  ],
+  "api_name": [
+    "KsDiscard"
+  ]
+}

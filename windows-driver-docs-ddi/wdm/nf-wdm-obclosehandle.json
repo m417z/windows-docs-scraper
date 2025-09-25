@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.ObCloseHandle",
+  "title": "ObCloseHandle function (wdm.h)",
+  "description": "The ObCloseHandle routine closes an object handle.",
+  "tech.root": "kernel",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "ObCloseHandle function"
+  ],
+  "ms.keywords": "ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": "Ntoskrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ObCloseHandle",
+    "wdm/ObCloseHandle"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntoskrnl.exe"
+  ],
+  "api_name": [
+    "ObCloseHandle"
+  ]
+}

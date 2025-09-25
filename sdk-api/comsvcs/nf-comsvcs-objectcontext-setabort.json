@@ -1,0 +1,64 @@
+{
+  "UID": "NF:comsvcs.ObjectContext.SetAbort",
+  "title": "ObjectContext::SetAbort (comsvcs.h)",
+  "description": "Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated on return.",
+  "helpviewer_keywords": [
+    "ObjectContext interface [COM+]",
+    "SetAbort method",
+    "ObjectContext.SetAbort",
+    "ObjectContext::SetAbort",
+    "SetAbort",
+    "SetAbort method [COM+]",
+    "SetAbort method [COM+]",
+    "ObjectContext interface",
+    "_cos_ObjectContext_SetAbort",
+    "comsvcs/ObjectContext::SetAbort",
+    "cos.objectcontext_setabort"
+  ],
+  "old-location": "cos\\objectcontext_setabort.htm",
+  "tech.root": "cos",
+  "ms.assetid": "709c1752-f2fb-463e-a95e-a082cd28b110",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ObjectContext interface [COM+],SetAbort method, ObjectContext.SetAbort, ObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],ObjectContext interface, _cos_ObjectContext_SetAbort, comsvcs/ObjectContext::SetAbort, cos.objectcontext_setabort",
+  "req.header": "comsvcs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ObjectContext::SetAbort",
+    "comsvcs/ObjectContext::SetAbort"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ComSvcs.h"
+  ],
+  "api_name": [
+    "ObjectContext.SetAbort"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct _QUERY_PATH_RESPONSE {
+  ULONG LengthAccepted;
+} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;

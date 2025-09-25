@@ -1,0 +1,7 @@
+typedef struct D3D12DDIARG_CREATE_COMMAND_LIST_0040 {
+  D3D12DDI_COMMAND_LIST_TYPE   Type;
+  D3D12DDI_COMMAND_QUEUE_FLAGS QueueFlags;
+  UINT64                       ID;
+  D3D12DDI_COMMAND_LIST_FLAGS  CommandListFlags;
+  UINT                         NodeMask;
+} D3D12DDIARG_CREATE_COMMAND_LIST_0040;

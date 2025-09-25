@@ -1,0 +1,5 @@
+typedef enum __MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0007 {
+  EVENTACTIONSCALE_High,
+  EVENTACTIONSCALE_Medium,
+  EVENTACTIONSCALE_Low
+} EVENTACTIONSCALE;

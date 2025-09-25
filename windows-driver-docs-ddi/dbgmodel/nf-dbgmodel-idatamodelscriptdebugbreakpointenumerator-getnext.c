@@ -1,0 +1,3 @@
+HRESULT GetNext(
+  IDataModelScriptDebugBreakpoint **breakpoint
+);

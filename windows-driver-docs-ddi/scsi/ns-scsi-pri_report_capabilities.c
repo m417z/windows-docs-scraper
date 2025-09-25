@@ -1,0 +1,25 @@
+typedef struct {
+  UCHAR Length[2];
+  UCHAR PersistThroughPowerLossCapable : 1;
+  UCHAR Reserved : 1;
+  UCHAR AllTargetPortsCapable : 1;
+  UCHAR SpecifyInitiatorPortsCapable : 1;
+  UCHAR CompatibleReservationHandling : 1;
+  UCHAR Reserved1 : 2;
+  UCHAR ReplaceLostReservationCapable : 1;
+  UCHAR PersistThroughPowerLossActivated : 1;
+  UCHAR Reserved2 : 3;
+  UCHAR AllowCommands : 3;
+  UCHAR TypeMaskValid : 1;
+  UCHAR Reserved3 : 1;
+  UCHAR WriteExclusive : 1;
+  UCHAR Reserved4 : 1;
+  UCHAR ExclusiveAccess : 1;
+  UCHAR Reserved5 : 1;
+  UCHAR WriteExclusiveRegistrantsOnly : 1;
+  UCHAR ExclusiveAccessRegistrantsOnly : 1;
+  UCHAR WriteExclusiveAllRegistrants : 1;
+  UCHAR ExclusiveAccessAllRegistrants : 1;
+  UCHAR Reserved6 : 7;
+  UCHAR Reserved7[2];
+} PRI_REPORT_CAPABILITIES, *PPRI_REPORT_CAPABILITIES;

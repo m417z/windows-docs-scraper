@@ -1,0 +1,5 @@
+typedef struct _SHUFFLE_FILE_DATA {
+  LONGLONG StartingOffset;
+  LONGLONG Length;
+  ULONG    Flags;
+} SHUFFLE_FILE_DATA, *PSHUFFLE_FILE_DATA;

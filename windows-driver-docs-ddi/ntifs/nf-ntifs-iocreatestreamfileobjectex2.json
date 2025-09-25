@@ -1,0 +1,47 @@
+{
+  "UID": "NF:ntifs.IoCreateStreamFileObjectEx2",
+  "title": "IoCreateStreamFileObjectEx2 function (ntifs.h)",
+  "description": "Learn more about the IoCreateStreamFileObjectEx2 routine.",
+  "tech.root": "ifsk",
+  "ms.date": "07/06/2023",
+  "keywords": [
+    "IoCreateStreamFileObjectEx2 function"
+  ],
+  "ms.keywords": "IoCreateStreamFileObjectEx, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoCreateStreamFileObjectEx2",
+    "ntifs/IoCreateStreamFileObjectEx2"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoCreateStreamFileObjectEx2"
+  ]
+}

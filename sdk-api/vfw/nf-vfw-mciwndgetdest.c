@@ -1,0 +1,4 @@
+UINT MCIWndGetDest(
+     hwnd,
+     prc
+);

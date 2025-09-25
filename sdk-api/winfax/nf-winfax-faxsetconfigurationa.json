@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winfax.FaxSetConfigurationA",
+  "title": "FaxSetConfigurationA function (winfax.h)",
+  "description": "A fax client application calls the FaxSetConfiguration function to change the global configuration settings for the fax server to which the client has connected. (ANSI)",
+  "helpviewer_keywords": [
+    "FaxSetConfigurationA",
+    "winfax/FaxSetConfigurationA"
+  ],
+  "old-location": "fax\\_mfax_faxsetconfiguration.htm",
+  "tech.root": "Fax",
+  "ms.assetid": "VS|fax|~\\fax\\faxlegacy_8iwe.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FaxSetConfiguration, FaxSetConfiguration function [Fax Service], FaxSetConfigurationA, FaxSetConfigurationW, _mfax_faxsetconfiguration, fax._mfax_faxsetconfiguration, winfax/FaxSetConfiguration, winfax/FaxSetConfigurationA, winfax/FaxSetConfigurationW",
+  "req.header": "winfax.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FaxSetConfigurationW (Unicode) and FaxSetConfigurationA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WinFax.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FaxSetConfigurationA",
+    "winfax/FaxSetConfigurationA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "WinFax.lib",
+    "WinFax.dll"
+  ],
+  "api_name": [
+    "FaxSetConfiguration",
+    "FaxSetConfigurationA",
+    "FaxSetConfigurationW"
+  ]
+}

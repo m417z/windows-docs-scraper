@@ -1,0 +1,46 @@
+{
+  "UID": "NS:fileapi.DISK_SPACE_INFORMATION",
+  "tech.root": "fs",
+  "title": "DISK_SPACE_INFORMATION structure (fileapi.h)",
+  "ms.date": "01/05/2023",
+  "targetos": "Windows",
+  "description": "The DISK_SPACE_INFORMATION structure contains information about the disk space for a particular volume.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fileapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DISK_SPACE_INFORMATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fileapi.h"
+  ],
+  "api_name": [
+    "DISK_SPACE_INFORMATION"
+  ],
+  "f1_keywords": [
+    "DISK_SPACE_INFORMATION",
+    "fileapi/DISK_SPACE_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DISK_SPACE_INFORMATION"
+  ]
+}

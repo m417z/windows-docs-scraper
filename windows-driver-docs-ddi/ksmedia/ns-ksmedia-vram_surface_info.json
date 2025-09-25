@@ -1,0 +1,51 @@
+{
+  "UID": "NS:ksmedia.VRAM_SURFACE_INFO",
+  "title": "VRAM_SURFACE_INFO (ksmedia.h)",
+  "description": "The VRAM_SURFACE_INFO structure describes a region of system or display memory into which an AVStream minidriver captures audio or video data.",
+  "old-location": "stream\\vram_surface_info.htm",
+  "tech.root": "stream",
+  "ms.date": "04/30/2019",
+  "keywords": [
+    "VRAM_SURFACE_INFO structure"
+  ],
+  "ms.keywords": "*PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], VRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, ksmedia/PVRAM_SURFACE_INFO, ksmedia/VRAM_SURFACE_INFO, stream.vram_surface_info",
+  "req.header": "ksmedia.h",
+  "req.include-header": "Ksmedia.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO",
+  "f1_keywords": [
+    "PVRAM_SURFACE_INFO",
+    "ksmedia/PVRAM_SURFACE_INFO",
+    "VRAM_SURFACE_INFO",
+    "ksmedia/VRAM_SURFACE_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "PVRAM_SURFACE_INFO",
+    "VRAM_SURFACE_INFO"
+  ]
+}

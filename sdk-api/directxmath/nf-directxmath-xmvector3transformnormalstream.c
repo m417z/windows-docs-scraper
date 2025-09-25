@@ -1,0 +1,8 @@
+XMFLOAT3 *XM_CALLCONV XMVector3TransformNormalStream(
+  [out] XMFLOAT3       *pOutputStream,
+  [in]  size_t         OutputStride,
+  [in]  const XMFLOAT3 *pInputStream,
+  [in]  size_t         InputStride,
+  [in]  size_t         VectorCount,
+  [in]  FXMMATRIX      M
+) noexcept;

@@ -1,0 +1,3 @@
+void EngUnloadImage(
+  [in] h
+);

@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_DP2ZRANGE {
+  D3DVALUE dvMinZ;
+  D3DVALUE dvMaxZ;
+} D3DHAL_DP2ZRANGE;

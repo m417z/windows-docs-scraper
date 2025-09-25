@@ -1,0 +1,48 @@
+{
+  "UID": "NI:ntdddisk.IOCTL_DISK_REASSIGN_BLOCKS_EX",
+  "title": "IOCTL_DISK_REASSIGN_BLOCKS_EX (ntdddisk.h)",
+  "description": "Maps defective blocks to a new location on disk. This request instructs the device to reassign the bad block address to a good block from its spare-block pool.",
+  "old-location": "storage\\ioctl_disk_reassign_blocks_ex.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL"
+  ],
+  "ms.keywords": "IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Storage Devices], ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX, storage.ioctl_disk_reassign_blocks_ex",
+  "req.header": "ntdddisk.h",
+  "req.include-header": "Ntdddisk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_DISK_REASSIGN_BLOCKS_EX",
+    "ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntdddisk.h"
+  ],
+  "api_name": [
+    "IOCTL_DISK_REASSIGN_BLOCKS_EX"
+  ]
+}

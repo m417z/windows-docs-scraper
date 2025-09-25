@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IInterruptSync.RegisterServiceRoutine",
+  "title": "IInterruptSync::RegisterServiceRoutine (portcls.h)",
+  "description": "The RegisterServiceRoutine method registers an interrupt service routine (ISR) that is to be called when an interrupt occurs.",
+  "old-location": "audio\\iinterruptsync_registerserviceroutine.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IInterruptSync::RegisterServiceRoutine"
+  ],
+  "ms.keywords": "IInterruptSync interface [Audio Devices],RegisterServiceRoutine method, IInterruptSync.RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices],IInterruptSync interface, audio.iinterruptsync_registerserviceroutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IInterruptSync::RegisterServiceRoutine",
+    "portcls/IInterruptSync::RegisterServiceRoutine"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IInterruptSync::RegisterServiceRoutine"
+  ]
+}

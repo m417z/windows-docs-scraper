@@ -1,0 +1,4 @@
+typedef struct FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0_ {
+  GUID                       *providerKey;
+  FWPM_PROVIDER_CONTEXT_TYPE providerContextType;
+} FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0;

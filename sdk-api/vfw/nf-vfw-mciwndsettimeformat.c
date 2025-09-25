@@ -1,0 +1,4 @@
+LONG MCIWndSetTimeFormat(
+     hwnd,
+     lp
+);

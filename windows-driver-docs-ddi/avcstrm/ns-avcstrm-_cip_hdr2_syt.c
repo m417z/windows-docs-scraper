@@ -1,0 +1,8 @@
+typedef struct _CIP_HDR2_SYT {
+  ULONG SYT : 16;
+  ULONG RSV : 2;
+  ULONG STYPE : 5;
+  ULONG F5060_OR_TSF : 1;
+  ULONG FMT : 6;
+  ULONG Bit10 : 2;
+} CIP_HDR2_SYT, *PCIP_HDR2_SYT;

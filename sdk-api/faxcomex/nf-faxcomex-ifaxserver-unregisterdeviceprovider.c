@@ -1,0 +1,3 @@
+HRESULT UnregisterDeviceProvider(
+  BSTR bstrUniqueName
+);

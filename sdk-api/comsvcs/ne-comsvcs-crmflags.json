@@ -1,0 +1,74 @@
+{
+  "UID": "NE:comsvcs.tagCRMFLAGS",
+  "title": "CRMFLAGS (comsvcs.h)",
+  "description": "Provides information about when a particular log record to the CRM compensator was written.",
+  "helpviewer_keywords": [
+    "CRMFLAGS",
+    "CRMFLAGS enumeration [COM+]",
+    "CRMFLAG_FORGETTARGET",
+    "CRMFLAG_REPLAYINPROGRESS",
+    "CRMFLAG_WRITTENDURINGABORT",
+    "CRMFLAG_WRITTENDURINGCOMMIT",
+    "CRMFLAG_WRITTENDURINGPREPARE",
+    "CRMFLAG_WRITTENDURINGRECOVERY",
+    "CRMFLAG_WRITTENDURINGREPLAY",
+    "_cos_CRMFLAGS",
+    "comsvcs/CRMFLAGS",
+    "comsvcs/CRMFLAG_FORGETTARGET",
+    "comsvcs/CRMFLAG_REPLAYINPROGRESS",
+    "comsvcs/CRMFLAG_WRITTENDURINGABORT",
+    "comsvcs/CRMFLAG_WRITTENDURINGCOMMIT",
+    "comsvcs/CRMFLAG_WRITTENDURINGPREPARE",
+    "comsvcs/CRMFLAG_WRITTENDURINGRECOVERY",
+    "comsvcs/CRMFLAG_WRITTENDURINGREPLAY",
+    "cos.crmflags"
+  ],
+  "old-location": "cos\\crmflags.htm",
+  "tech.root": "cos",
+  "ms.assetid": "ef41c99c-9f57-430f-af43-ba0ee1eb7a03",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CRMFLAGS, CRMFLAGS enumeration [COM+], CRMFLAG_FORGETTARGET, CRMFLAG_REPLAYINPROGRESS, CRMFLAG_WRITTENDURINGABORT, CRMFLAG_WRITTENDURINGCOMMIT, CRMFLAG_WRITTENDURINGPREPARE, CRMFLAG_WRITTENDURINGRECOVERY, CRMFLAG_WRITTENDURINGREPLAY, _cos_CRMFLAGS, comsvcs/CRMFLAGS, comsvcs/CRMFLAG_FORGETTARGET, comsvcs/CRMFLAG_REPLAYINPROGRESS, comsvcs/CRMFLAG_WRITTENDURINGABORT, comsvcs/CRMFLAG_WRITTENDURINGCOMMIT, comsvcs/CRMFLAG_WRITTENDURINGPREPARE, comsvcs/CRMFLAG_WRITTENDURINGRECOVERY, comsvcs/CRMFLAG_WRITTENDURINGREPLAY, cos.crmflags",
+  "req.header": "comsvcs.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CRMFLAGS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "tagCRMFLAGS",
+    "comsvcs/tagCRMFLAGS",
+    "CRMFLAGS",
+    "comsvcs/CRMFLAGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ComSvcs.h"
+  ],
+  "api_name": [
+    "CRMFLAGS"
+  ]
+}

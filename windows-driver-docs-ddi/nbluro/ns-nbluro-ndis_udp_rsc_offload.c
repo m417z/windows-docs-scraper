@@ -1,0 +1,3 @@
+typedef struct _NDIS_UDP_RSC_OFFLOAD {
+  BOOLEAN Enabled;
+} NDIS_UDP_RSC_OFFLOAD;

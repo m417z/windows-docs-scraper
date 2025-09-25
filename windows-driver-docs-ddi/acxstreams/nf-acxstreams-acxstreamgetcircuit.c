@@ -1,0 +1,3 @@
+ACXCIRCUIT AcxStreamGetCircuit(
+  ACXSTREAM Stream
+);

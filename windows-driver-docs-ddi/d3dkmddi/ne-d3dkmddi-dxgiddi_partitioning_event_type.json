@@ -1,0 +1,41 @@
+{
+  "UID": "NE:d3dkmddi._DXGIDDI_PARTITIONING_EVENT_TYPE",
+  "tech.root": "display",
+  "title": "DXGIDDI_PARTITIONING_EVENT_TYPE",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "DXGIDDI_PARTITIONING_EVENT_TYPE identifies the type of ETW event being reported by DxgkCbLogEtwEvent when EventGuid is GUID_DXGKDDI_AZURE_TRIAGE_EVENT.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "_DXGIDDI_PARTITIONING_EVENT_TYPE",
+    "DXGIDDI_PARTITIONING_EVENT_TYPE"
+  ],
+  "f1_keywords": [
+    "_DXGIDDI_PARTITIONING_EVENT_TYPE",
+    "d3dkmddi/_DXGIDDI_PARTITIONING_EVENT_TYPE",
+    "DXGIDDI_PARTITIONING_EVENT_TYPE",
+    "d3dkmddi/DXGIDDI_PARTITIONING_EVENT_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

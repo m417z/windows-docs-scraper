@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ucmmanager.UcmConnectorPdConnectionStateChanged",
+  "title": "UcmConnectorPdConnectionStateChanged function (ucmmanager.h)",
+  "description": "Notifies the USB connector manager framework extension (UcmCx) with the connection capabilities of the currently negotiated PD contract (if any).",
+  "old-location": "buses\\ucmconnectorpdconnectionstatechanged.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UcmConnectorPdConnectionStateChanged function"
+  ],
+  "ms.keywords": "UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged",
+  "req.header": "ucmmanager.h",
+  "req.include-header": "Ucmcx.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": 1.15,
+  "req.umdf-ver": 2.15,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "UcmCxstub.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UcmConnectorPdConnectionStateChanged",
+    "ucmmanager/UcmConnectorPdConnectionStateChanged"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "UcmCxstub.lib",
+    "UcmCxstub.dll"
+  ],
+  "api_name": [
+    "UcmConnectorPdConnectionStateChanged"
+  ]
+}

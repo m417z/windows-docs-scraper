@@ -1,0 +1,7 @@
+typedef struct _SCHANNEL_CLIENT_SIGNATURE {
+  DWORD  cbLength;
+  ALG_ID aiHash;
+  DWORD  cbHash;
+  BYTE   HashValue[36];
+  BYTE   CertThumbprint[20];
+} SCHANNEL_CLIENT_SIGNATURE, *PSCHANNEL_CLIENT_SIGNATURE;

@@ -1,0 +1,3 @@
+BOOL IsUserCetAvailableInEnvironment(
+  DWORD UserCetEnvironment
+);

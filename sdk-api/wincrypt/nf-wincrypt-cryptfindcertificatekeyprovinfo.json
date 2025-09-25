@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wincrypt.CryptFindCertificateKeyProvInfo",
+  "title": "CryptFindCertificateKeyProvInfo function (wincrypt.h)",
+  "description": "Enumerates the cryptographic providers and their containers to find the private key that corresponds to the certificate's public key.",
+  "helpviewer_keywords": [
+    "CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG",
+    "CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG",
+    "CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG",
+    "CRYPT_FIND_MACHINE_KEYSET_FLAG",
+    "CRYPT_FIND_SILENT_KEYSET_FLAG",
+    "CRYPT_FIND_USER_KEYSET_FLAG",
+    "CryptFindCertificateKeyProvInfo",
+    "CryptFindCertificateKeyProvInfo function [Security]",
+    "_crypto2_cryptfindcertificatekeyprovinfo",
+    "security.cryptfindcertificatekeyprovinfo",
+    "wincrypt/CryptFindCertificateKeyProvInfo"
+  ],
+  "old-location": "security\\cryptfindcertificatekeyprovinfo.htm",
+  "tech.root": "security",
+  "ms.assetid": "9e63517d-a56e-45a9-972c-de9a297e9e25",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_FIND_MACHINE_KEYSET_FLAG, CRYPT_FIND_SILENT_KEYSET_FLAG, CRYPT_FIND_USER_KEYSET_FLAG, CryptFindCertificateKeyProvInfo, CryptFindCertificateKeyProvInfo function [Security], _crypto2_cryptfindcertificatekeyprovinfo, security.cryptfindcertificatekeyprovinfo, wincrypt/CryptFindCertificateKeyProvInfo",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptFindCertificateKeyProvInfo",
+    "wincrypt/CryptFindCertificateKeyProvInfo"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CryptFindCertificateKeyProvInfo"
+  ]
+}

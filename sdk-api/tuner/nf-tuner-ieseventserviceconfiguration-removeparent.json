@@ -1,0 +1,63 @@
+{
+  "UID": "NF:tuner.IESEventServiceConfiguration.RemoveParent",
+  "title": "IESEventServiceConfiguration::RemoveParent (tuner.h)",
+  "description": "Removes the parent of the current event service. Once an event service has removed a parent, the parent can no longer pass advise events to the child event service for handling.",
+  "helpviewer_keywords": [
+    "IESEventServiceConfiguration interface [Microsoft TV Technologies]",
+    "RemoveParent method",
+    "IESEventServiceConfiguration.RemoveParent",
+    "IESEventServiceConfiguration::RemoveParent",
+    "RemoveParent",
+    "RemoveParent method [Microsoft TV Technologies]",
+    "RemoveParent method [Microsoft TV Technologies]",
+    "IESEventServiceConfiguration interface",
+    "mstv.ieseventserviceconfiguration_removeparent",
+    "tuner/IESEventServiceConfiguration::RemoveParent"
+  ],
+  "old-location": "mstv\\ieseventserviceconfiguration_removeparent.htm",
+  "tech.root": "mstv",
+  "ms.assetid": "74d92e84-9819-49ed-bd56-26d6768f3ed0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveParent method, IESEventServiceConfiguration.RemoveParent, IESEventServiceConfiguration::RemoveParent, RemoveParent, RemoveParent method [Microsoft TV Technologies], RemoveParent method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removeparent, tuner/IESEventServiceConfiguration::RemoveParent",
+  "req.header": "tuner.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows7 [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Tuner.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IESEventServiceConfiguration::RemoveParent",
+    "tuner/IESEventServiceConfiguration::RemoveParent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "tuner.h"
+  ],
+  "api_name": [
+    "IESEventServiceConfiguration.RemoveParent"
+  ]
+}

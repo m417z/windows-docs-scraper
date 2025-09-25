@@ -1,0 +1,1 @@
+SmoothingMode GetSmoothingMode();

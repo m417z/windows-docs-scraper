@@ -1,0 +1,48 @@
+{
+  "UID": "NF:rxprocs.RxLogEventWithAnnotation",
+  "title": "RxLogEventWithAnnotation function (rxprocs.h)",
+  "description": "RxLogEventWithAnnotation allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.",
+  "old-location": "ifsk\\rxlogeventwithannotation.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxLogEventWithAnnotation function"
+  ],
+  "ms.keywords": "RxLogEventWithAnnotation, RxLogEventWithAnnotation function [Installable File System Drivers], ifsk.rxlogeventwithannotation, rxprocs/RxLogEventWithAnnotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml",
+  "req.header": "rxprocs.h",
+  "req.include-header": "Rxprocs.h, Rxstruc.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxLogEventWithAnnotation",
+    "rxprocs/RxLogEventWithAnnotation"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rxprocs.h"
+  ],
+  "api_name": [
+    "RxLogEventWithAnnotation"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT AVIFileEndRecord(
+  PAVIFILE pfile
+);

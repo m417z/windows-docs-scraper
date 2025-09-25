@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IAMTimecodeGenerator.GetTimecode",
+  "title": "IAMTimecodeGenerator::GetTimecode (strmif.h)",
+  "description": "The GetTimecode method retrieves the most recent timecode and/or userbit value available in the stream.",
+  "helpviewer_keywords": [
+    "GetTimecode",
+    "GetTimecode method [DirectShow]",
+    "GetTimecode method [DirectShow]",
+    "IAMTimecodeGenerator interface",
+    "IAMTimecodeGenerator interface [DirectShow]",
+    "GetTimecode method",
+    "IAMTimecodeGenerator.GetTimecode",
+    "IAMTimecodeGenerator::GetTimecode",
+    "IAMTimecodeGeneratorGetTimecode",
+    "dshow.iamtimecodegenerator_gettimecode",
+    "strmif/IAMTimecodeGenerator::GetTimecode"
+  ],
+  "old-location": "dshow\\iamtimecodegenerator_gettimecode.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "40f24a99-5a6b-4aff-b22c-e05811c910f4",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTimecode method, IAMTimecodeGenerator.GetTimecode, IAMTimecodeGenerator::GetTimecode, IAMTimecodeGeneratorGetTimecode, dshow.iamtimecodegenerator_gettimecode, strmif/IAMTimecodeGenerator::GetTimecode",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMTimecodeGenerator::GetTimecode",
+    "strmif/IAMTimecodeGenerator::GetTimecode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMTimecodeGenerator.GetTimecode"
+  ]
+}

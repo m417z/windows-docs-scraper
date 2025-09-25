@@ -1,0 +1,49 @@
+{
+  "UID": "NF:portcls.PcNewDmaChannel",
+  "title": "PcNewDmaChannel function (portcls.h)",
+  "description": "The PcNewDmaChannel function creates a new DMA-channel object. This function is obsolete; for more information, see the following comments.",
+  "old-location": "audio\\pcnewdmachannel.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PcNewDmaChannel function"
+  ],
+  "ms.keywords": "PcNewDmaChannel, PcNewDmaChannel function [Audio Devices], audio.pcnewdmachannel, audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, portcls/PcNewDmaChannel",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Obsolete. For all new audio drivers, use a IPortWaveXxx::NewXxxDmaChannel method instead. The PortCls system driver implements the PcNewDmaChannel function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Portcls.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcNewDmaChannel",
+    "portcls/PcNewDmaChannel"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Portcls.lib",
+    "Portcls.dll"
+  ],
+  "api_name": [
+    "PcNewDmaChannel"
+  ]
+}

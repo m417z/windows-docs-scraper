@@ -1,0 +1,58 @@
+{
+  "UID": "NC:dbghelp.PGET_TARGET_ATTRIBUTE_VALUE64",
+  "title": "PGET_TARGET_ATTRIBUTE_VALUE6464 (dbghelp.h)",
+  "description": "PGET_TARGET_ATTRIBUTE_VALUE64 (dbghelp.h) is an application-defined callback function used with the StackWalk2 function.",
+  "helpviewer_keywords": [
+    "GetTargetAttributeValueProc64",
+    "GetTargetAttributeValueProc64 callback",
+    "GetTargetAttributeValueProc64 callback function",
+    "PGET_TARGET_ATTRIBUTE_VALUE64",
+    "PGET_TARGET_ATTRIBUTE_VALUE64",
+    "dbghelp/GetTargetAttributeValue64"
+  ],
+  "tech.root": "Debug",
+  "ms.assetid": "A317127E-8551-4cf4-969C-80E0585F55F0",
+  "ms.date": "01/23/2025",
+  "ms.keywords": "GetTargetAttributeValueProc64, GetTargetAttributeValue64 callback, GetTargetAttributeValueProc64 callback function, PGET_TARGET_ATTRIBUTE_VALUE64, dbghelp/GetTargetAttributeValueProc64",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 10.0.22621.4602 or later",
+  "ms.custom": "22H2",
+  "f1_keywords": [
+    "PGET_TARGET_ATTRIBUTE_VALUE64",
+    "dbghelp/PGET_TARGET_ATTRIBUTE_VALUE64"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "DbgHelp.h"
+  ],
+  "api_name": [
+    "GetTargetAttributeValueProc64"
+  ]
+}

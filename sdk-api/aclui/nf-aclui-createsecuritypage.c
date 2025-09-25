@@ -1,0 +1,3 @@
+HPROPSHEETPAGE ACLUIAPI CreateSecurityPage(
+  [in] LPSECURITYINFO psi
+);

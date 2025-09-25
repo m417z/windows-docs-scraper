@@ -1,0 +1,4 @@
+typedef struct _IP_ADAPTER_ORDER_MAP {
+  ULONG NumAdapters;
+  ULONG AdapterOrder[1];
+} IP_ADAPTER_ORDER_MAP, *PIP_ADAPTER_ORDER_MAP;

@@ -1,0 +1,3 @@
+HRESULT CopyTiff(
+  BSTR bstrTiffPath
+);

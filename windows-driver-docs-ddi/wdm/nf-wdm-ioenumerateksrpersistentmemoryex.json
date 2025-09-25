@@ -1,0 +1,46 @@
+{
+  "UID": "NF:wdm.IoEnumerateKsrPersistentMemoryEx",
+  "tech.root": "kernel",
+  "title": "IoEnumerateKsrPersistentMemoryEx",
+  "ms.date": "12/15/2021",
+  "targetos": "Windows",
+  "description": "Microsoft reserves the IoEnumerateKsrPersistentMemoryEx function for internal use only. Don't use this function in your code.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "IoEnumerateKsrPersistentMemoryEx"
+  ],
+  "f1_keywords": [
+    "IoEnumerateKsrPersistentMemoryEx",
+    "wdm/IoEnumerateKsrPersistentMemoryEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

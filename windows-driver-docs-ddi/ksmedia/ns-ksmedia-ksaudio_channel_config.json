@@ -1,0 +1,50 @@
+{
+  "UID": "NS:ksmedia.KSAUDIO_CHANNEL_CONFIG",
+  "title": "KSAUDIO_CHANNEL_CONFIG (ksmedia.h)",
+  "description": "The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.",
+  "tech.root": "audio",
+  "ms.date": "01/04/2023",
+  "keywords": [
+    "KSAUDIO_CHANNEL_CONFIG structure"
+  ],
+  "ms.keywords": "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG",
+  "req.header": "ksmedia.h",
+  "req.include-header": "Ksmedia.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG",
+  "f1_keywords": [
+    "PKSAUDIO_CHANNEL_CONFIG",
+    "ksmedia/PKSAUDIO_CHANNEL_CONFIG",
+    "KSAUDIO_CHANNEL_CONFIG",
+    "ksmedia/KSAUDIO_CHANNEL_CONFIG"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "PKSAUDIO_CHANNEL_CONFIG",
+    "KSAUDIO_CHANNEL_CONFIG"
+  ]
+}

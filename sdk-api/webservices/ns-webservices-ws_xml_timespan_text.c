@@ -1,0 +1,4 @@
+typedef struct _WS_XML_TIMESPAN_TEXT {
+  WS_XML_TEXT text;
+  WS_TIMESPAN value;
+} WS_XML_TIMESPAN_TEXT;

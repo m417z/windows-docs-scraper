@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ExInitializeRundownProtection",
+  "title": "ExInitializeRundownProtection function (wdm.h)",
+  "description": "The ExInitializeRundownProtection routine initializes run-down protection on a shared object.",
+  "old-location": "kernel\\exinitializerundownprotection.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ExInitializeRundownProtection function"
+  ],
+  "ms.keywords": "ExInitializeRundownProtection, ExInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exinitializerundownprotection, wdm/ExInitializeRundownProtection",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ExInitializeRundownProtection",
+    "wdm/ExInitializeRundownProtection"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ExInitializeRundownProtection"
+  ]
+}

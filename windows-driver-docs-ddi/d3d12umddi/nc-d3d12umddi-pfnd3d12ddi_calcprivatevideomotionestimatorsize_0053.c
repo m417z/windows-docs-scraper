@@ -1,0 +1,7 @@
+PFND3D12DDI_CALCPRIVATEVIDEOMOTIONESTIMATORSIZE_0053 Pfnd3d12ddiCalcprivatevideomotionestimatorsize0053;
+
+SIZE_T Pfnd3d12ddiCalcprivatevideomotionestimatorsize0053(
+  D3D12DDI_HDEVICE hDrvDevice,
+  const D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053 *pArgs
+)
+{...}

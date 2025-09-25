@@ -1,0 +1,4 @@
+typedef struct _CRYPT_BLOB_ARRAY {
+  DWORD            cBlob;
+  PCRYPT_DATA_BLOB rgBlob;
+} CRYPT_BLOB_ARRAY, *PCRYPT_BLOB_ARRAY;

@@ -1,0 +1,20 @@
+typedef struct _TCP_ESTATS_SND_CONG_ROD_v0 {
+  ULONG  SndLimTransRwin;
+  ULONG  SndLimTimeRwin;
+  SIZE_T SndLimBytesRwin;
+  ULONG  SndLimTransCwnd;
+  ULONG  SndLimTimeCwnd;
+  SIZE_T SndLimBytesCwnd;
+  ULONG  SndLimTransSnd;
+  ULONG  SndLimTimeSnd;
+  SIZE_T SndLimBytesSnd;
+  ULONG  SlowStart;
+  ULONG  CongAvoid;
+  ULONG  OtherReductions;
+  ULONG  CurCwnd;
+  ULONG  MaxSsCwnd;
+  ULONG  MaxCaCwnd;
+  ULONG  CurSsthresh;
+  ULONG  MaxSsthresh;
+  ULONG  MinSsthresh;
+} TCP_ESTATS_SND_CONG_ROD_v0, *PTCP_ESTATS_SND_CONG_ROD_v0;

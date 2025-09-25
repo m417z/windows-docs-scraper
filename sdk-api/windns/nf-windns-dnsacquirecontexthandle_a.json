@@ -1,0 +1,62 @@
+{
+  "UID": "NF:windns.DnsAcquireContextHandle_A",
+  "title": "DnsAcquireContextHandle_A function (windns.h)",
+  "description": "The DnsAcquireContextHandle function type acquires a context handle to a set of credentials. (ANSI)",
+  "helpviewer_keywords": [
+    "DnsAcquireContextHandle",
+    "DnsAcquireContextHandle function [DNS]",
+    "DnsAcquireContextHandle_A",
+    "_dns_dnsacquirecontexthandle",
+    "dns.dnsacquirecontexthandle",
+    "windns/DnsAcquireContextHandle",
+    "windns/DnsAcquireContextHandle_A"
+  ],
+  "old-location": "dns\\dnsacquirecontexthandle.htm",
+  "tech.root": "DNS",
+  "ms.assetid": "9a820165-2f78-44f4-b49f-dc7a2b6fb4e5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DnsAcquireContextHandle, DnsAcquireContextHandle function [DNS], DnsAcquireContextHandle_A, DnsAcquireContextHandle_W, _dns_dnsacquirecontexthandle, dns.dnsacquirecontexthandle, windns/DnsAcquireContextHandle, windns/DnsAcquireContextHandle_A, windns/DnsAcquireContextHandle_W",
+  "req.header": "windns.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DnsAcquireContextHandle_W (Unicode) and DnsAcquireContextHandle_A (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dnsapi.lib",
+  "req.dll": "Dnsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DnsAcquireContextHandle_A",
+    "windns/DnsAcquireContextHandle_A"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dnsapi.dll"
+  ],
+  "api_name": [
+    "DnsAcquireContextHandle",
+    "DnsAcquireContextHandle_A",
+    "DnsAcquireContextHandle_W"
+  ]
+}

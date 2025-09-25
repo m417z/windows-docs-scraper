@@ -1,0 +1,64 @@
+{
+  "UID": "NF:namedpipeapi.CreateNamedPipeW",
+  "tech.root": "ipc",
+  "title": "CreateNamedPipeW",
+  "description": "The CreateNamedPipeW (Unicode) function (winbase.h) creates an instance of a named pipe and returns a handle for subsequent pipe operations.",
+  "ms.date": "08/05/2022",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Kernel32.dll",
+  "req.header": "namedpipeapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Kernel32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Core-NamedPipe-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-NamedPipe-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-NamedPipe-l1-2-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-NamedPipe-L1-2-2.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll"
+  ],
+  "api_name": [
+    "CreateNamedPipeW",
+    "CreateNamedPipe"
+  ],
+  "f1_keywords": [
+    "CreateNamedPipeW",
+    "namedpipeapi/CreateNamedPipeW",
+    "CreateNamedPipe",
+    "namedpipeapi/CreateNamedPipe"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

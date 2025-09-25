@@ -1,0 +1,47 @@
+{
+  "UID": "NC:ks.PFNKSINTERSECTHANDLER",
+  "title": "PFNKSINTERSECTHANDLER (ks.h)",
+  "description": "A streaming minidriver's KStrIntersectHandler routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection.",
+  "tech.root": "stream",
+  "ms.date": "03/06/2023",
+  "keywords": [
+    "PFNKSINTERSECTHANDLER callback function"
+  ],
+  "ms.keywords": "KStrIntersectHandler, KStrIntersectHandler routine [Streaming Media Devices], PFNKSINTERSECTHANDLER, ks/KStrIntersectHandler, ksfunc_25fa087e-9d66-4479-aa4c-632a63ee6779.xml, stream.kstrintersecthandler",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSINTERSECTHANDLER",
+    "ks/PFNKSINTERSECTHANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSINTERSECTHANDLER"
+  ]
+}

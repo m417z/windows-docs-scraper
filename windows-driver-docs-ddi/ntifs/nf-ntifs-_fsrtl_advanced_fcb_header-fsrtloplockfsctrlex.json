@@ -1,0 +1,52 @@
+{
+  "UID": "NF:ntifs.FsRtlOplockFsctrlEx",
+  "title": "FsRtlOplockFsctrlEx function (ntifs.h)",
+  "description": "The FsRtlOplockFsctrlEx routine performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver.",
+  "old-location": "ifsk\\fsrtloplockfsctrlex.htm",
+  "tech.root": "ifsk",
+  "ms.date": "01/08/2021",
+  "keywords": [
+    "FsRtlOplockFsctrlEx function"
+  ],
+  "ms.keywords": "FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers], fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The FsRtlOplockFsctrlEx routine is available starting with Windows 7.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FsRtlOplockFsctrlEx",
+    "ntifs/FsRtlOplockFsctrlEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FsRtlOplockFsctrlEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

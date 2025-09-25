@@ -1,0 +1,3 @@
+HRESULT GetMyDeviceOpenMode(
+  LPDWORD pdwOpenMode
+);

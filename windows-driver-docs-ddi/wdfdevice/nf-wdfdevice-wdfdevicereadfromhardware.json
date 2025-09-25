@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfdevice.WdfDeviceReadFromHardware",
+  "title": "WdfDeviceReadFromHardware function (wdfdevice.h)",
+  "description": "The WdfDeviceReadFromHardware method is used internally by the framework. Do not use.",
+  "old-location": "wdf\\wdfdevicereadfromhardware.htm",
+  "tech.root": "wdf",
+  "ms.date": "11/01/2021",
+  "keywords": [
+    "WdfDeviceReadFromHardware function"
+  ],
+  "ms.keywords": "PFN_WDFDEVICEREADFROMHARDWARE, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, wdfhwaccess/WdfDeviceReadFromHardware",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.11,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDeviceReadFromHardware",
+    "wdfdevice/WdfDeviceReadFromHardware"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDeviceReadFromHardware"
+  ]
+}

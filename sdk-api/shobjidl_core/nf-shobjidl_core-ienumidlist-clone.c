@@ -1,0 +1,3 @@
+HRESULT Clone(
+  IEnumIDList **ppenum
+);

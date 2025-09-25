@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngCreateDriverObj",
+  "title": "EngCreateDriverObj function (winddi.h)",
+  "description": "The EngCreateDriverObj function creates a DRIVEROBJ structure.",
+  "helpviewer_keywords": [
+    "EngCreateDriverObj",
+    "EngCreateDriverObj function [Display Devices]",
+    "display.engcreatedriverobj",
+    "gdifncs_b2ab33cf-bcdf-418d-87a5-eee4b0704433.xml",
+    "winddi/EngCreateDriverObj"
+  ],
+  "old-location": "display\\engcreatedriverobj.htm",
+  "tech.root": "display",
+  "ms.assetid": "2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngCreateDriverObj, EngCreateDriverObj function [Display Devices], display.engcreatedriverobj, gdifncs_b2ab33cf-bcdf-418d-87a5-eee4b0704433.xml, winddi/EngCreateDriverObj",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngCreateDriverObj",
+    "winddi/EngCreateDriverObj"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngCreateDriverObj"
+  ]
+}

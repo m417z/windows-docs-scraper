@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winevt.EvtSubscribe",
+  "title": "EvtSubscribe function (winevt.h)",
+  "description": "Creates a subscription that will receive current and future events from a channel or log file that match the specified query criteria.",
+  "helpviewer_keywords": [
+    "EvtSubscribe",
+    "EvtSubscribe function [EventLog]",
+    "wes.evtsubscribe",
+    "winevt/EvtSubscribe"
+  ],
+  "old-location": "wes\\evtsubscribe.htm",
+  "tech.root": "wes",
+  "ms.assetid": "e7c4c5f9-2a5a-4004-8f19-13eb61c4346b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe",
+  "req.header": "winevt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wevtapi.lib",
+  "req.dll": "Wevtapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EvtSubscribe",
+    "winevt/EvtSubscribe"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wevtapi-eventlog-l1-1-3.dll",
+    "Wevtapi.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll",
+    "Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll"
+  ],
+  "api_name": [
+    "EvtSubscribe"
+  ]
+}

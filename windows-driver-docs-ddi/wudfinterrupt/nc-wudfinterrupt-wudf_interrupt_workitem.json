@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wudfinterrupt.WUDF_INTERRUPT_WORKITEM",
+  "title": "WUDF_INTERRUPT_WORKITEM (wudfinterrupt.h)",
+  "description": "A driver's OnInterruptWorkItem event callback function processes interrupt information that the driver's OnInterruptIsr callback function has stored.",
+  "old-location": "wdf\\oninterruptworkitem.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WUDF_INTERRUPT_WORKITEM callback function"
+  ],
+  "ms.keywords": "OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, WUDF_INTERRUPT_WORKITEM callback, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem",
+  "req.header": "wudfinterrupt.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.11,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WUDF_INTERRUPT_WORKITEM",
+    "wudfinterrupt/WUDF_INTERRUPT_WORKITEM"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wudfinterrupt.h"
+  ],
+  "api_name": [
+    "WUDF_INTERRUPT_WORKITEM"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "UID": "NE:winsvc.SERVICE_SHARED_REGISTRY_STATE_TYPE",
+  "title": "SERVICE_SHARED_REGISTRY_STATE_TYPE",
+  "description": "Specifies a state type for a service registry key. (SERVICE_SHARED_REGISTRY_STATE_TYPE)",
+  "tech.root": "security",
+  "ms.date": "5/24/2021",
+  "ms.keywords": "SERVICE_SHARED_REGISTRY_STATE_TYPE",
+  "targetos": "Windows",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "winsvc.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10, version 20H2 (10.0; Build 19042)",
+  "req.target-min-winversvr": "Windows Server, version 20H2 (10.0; Build 19042)",
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winsvc.h"
+  ],
+  "api_name": [
+    "SERVICE_SHARED_REGISTRY_STATE_TYPE"
+  ],
+  "f1_keywords": [
+    "SERVICE_SHARED_REGISTRY_STATE_TYPE",
+    "winsvc/SERVICE_SHARED_REGISTRY_STATE_TYPE"
+  ]
+}

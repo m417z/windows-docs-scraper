@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortWriteRegisterUshort",
+  "title": "VideoPortWriteRegisterUshort function (video.h)",
+  "description": "The VideoPortWriteRegisterUshort function writes a USHORT value to a mapped register.",
+  "old-location": "display\\videoportwriteregisterushort.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortWriteRegisterUshort function"
+  ],
+  "ms.keywords": "VideoPortWriteRegisterUshort, VideoPortWriteRegisterUshort function [Display Devices], VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml, display.videoportwriteregisterushort, video/VideoPortWriteRegisterUshort",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortWriteRegisterUshort",
+    "video/VideoPortWriteRegisterUshort"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortWriteRegisterUshort"
+  ]
+}

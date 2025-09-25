@@ -1,0 +1,13 @@
+PFND3D12DDI_CREATEHEAPANDRESOURCE_0030 Pfnd3d12ddiCreateheapandresource0030;
+
+HRESULT Pfnd3d12ddiCreateheapandresource0030(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATEHEAP_0001 *unnamedParam2,
+  D3D12DDI_HHEAP unnamedParam3,
+  D3D12DDI_HRTRESOURCE unnamedParam4,
+  const D3D12DDIARG_CREATERESOURCE_0003 *unnamedParam5,
+  const D3D12DDI_CLEAR_VALUES *unnamedParam6,
+  D3D12DDI_HPROTECTEDRESOURCESESSION_0030 unnamedParam7,
+  D3D12DDI_HRESOURCE unnamedParam8
+)
+{...}

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFObject.ReleaseLock",
+  "title": "IWDFObject::ReleaseLock (wudfddi.h)",
+  "description": "The ReleaseLock method allows the framework to call methods of interfaces that are registered by the driver that the framework previously prevented from calling because the driver called the IWDFObject::AcquireLock method.",
+  "old-location": "wdf\\iwdfobject_releaselock.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFObject::ReleaseLock"
+  ],
+  "ms.keywords": "IWDFObject interface,ReleaseLock method, IWDFObject.ReleaseLock, IWDFObject::ReleaseLock, ReleaseLock, ReleaseLock method, ReleaseLock method,IWDFObject interface, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, umdf.iwdfobject_releaselock, wdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFObject::ReleaseLock",
+    "wudfddi/IWDFObject::ReleaseLock"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFObject::ReleaseLock"
+  ]
+}

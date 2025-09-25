@@ -1,0 +1,3 @@
+VOID WerFreeString(
+  PCWSTR pwszStr
+);

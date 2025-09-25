@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winuser.LoadBitmapW",
+  "title": "LoadBitmapW function (winuser.h)",
+  "description": "The LoadBitmap function loads the specified bitmap resource from a module's executable file. (Unicode)",
+  "helpviewer_keywords": [
+    "LoadBitmap",
+    "LoadBitmap function [Windows GDI]",
+    "LoadBitmapW",
+    "_win32_LoadBitmap",
+    "gdi.loadbitmap",
+    "winuser/LoadBitmap",
+    "winuser/LoadBitmapW"
+  ],
+  "old-location": "gdi\\loadbitmap.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "5eed5f78-deaf-4b23-986e-4802dc05936c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "LoadBitmapW (Unicode) and LoadBitmapA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LoadBitmapW",
+    "winuser/LoadBitmapW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "user32.dll",
+    "Ext-MS-Win-NTUser-Draw-l1-1-1.dll",
+    "ext-ms-win-ntuser-draw-l1-1-2.dll"
+  ],
+  "api_name": [
+    "LoadBitmap",
+    "LoadBitmapA",
+    "LoadBitmapW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-draw-l1-1-1 (introduced in Windows 8.1)"
+}

@@ -1,0 +1,3 @@
+HRESULT Stop(
+  [in] WDF_IO_TARGET_SENT_IO_ACTION Action
+);

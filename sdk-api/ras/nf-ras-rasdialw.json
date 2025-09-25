@@ -1,0 +1,68 @@
+{
+  "UID": "NF:ras.RasDialW",
+  "title": "RasDialW function (ras.h)",
+  "description": "The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information. (Unicode)",
+  "helpviewer_keywords": [
+    "0",
+    "1",
+    "2",
+    "RasDial",
+    "RasDial function [RAS]",
+    "RasDialW",
+    "_ras_rasdial",
+    "ras/RasDial",
+    "ras/RasDialW",
+    "rras.rasdial"
+  ],
+  "old-location": "rras\\rasdial.htm",
+  "tech.root": "RRAS",
+  "ms.assetid": "579a9038-8216-4948-a065-fd45b97da73a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial",
+  "req.header": "ras.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "RasDialW (Unicode) and RasDialA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rasapi32.lib",
+  "req.dll": "Rasapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RasDialW",
+    "ras/RasDialW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-ras-rasapi32-l1-1-2.dll",
+    "Rasapi32.dll",
+    "Ext-MS-Win-ras-rasapi32-l1-1-0.dll",
+    "Ext-MS-Win-ras-rasapi32-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RasDial",
+    "RasDialA",
+    "RasDialW"
+  ]
+}

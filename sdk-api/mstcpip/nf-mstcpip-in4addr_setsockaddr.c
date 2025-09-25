@@ -1,0 +1,5 @@
+MSTCPIP_INLINE VOID IN4ADDR_SETSOCKADDR(
+  PSOCKADDR_IN  a,
+  const IN_ADDR *addr,
+  USHORT        port
+);

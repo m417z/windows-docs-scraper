@@ -1,0 +1,64 @@
+{
+  "UID": "NF:endpointvolume.IAudioEndpointVolume.SetChannelVolumeLevelScalar",
+  "title": "IAudioEndpointVolume::SetChannelVolumeLevelScalar (endpointvolume.h)",
+  "description": "The SetChannelVolumeLevelScalar method sets the normalized, audio-tapered volume level of the specified channel in the audio stream that enters or leaves the audio endpoint device.",
+  "helpviewer_keywords": [
+    "IAudioEndpointVolume interface [Core Audio]",
+    "SetChannelVolumeLevelScalar method",
+    "IAudioEndpointVolume.SetChannelVolumeLevelScalar",
+    "IAudioEndpointVolume::SetChannelVolumeLevelScalar",
+    "IAudioEndpointVolumeSetChannelVolumeLevelScalar",
+    "SetChannelVolumeLevelScalar",
+    "SetChannelVolumeLevelScalar method [Core Audio]",
+    "SetChannelVolumeLevelScalar method [Core Audio]",
+    "IAudioEndpointVolume interface",
+    "coreaudio.iaudioendpointvolume_setchannelvolumelevelscalar",
+    "endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevelScalar"
+  ],
+  "old-location": "coreaudio\\iaudioendpointvolume_setchannelvolumelevelscalar.htm",
+  "tech.root": "CoreAudio",
+  "ms.assetid": "2e1f0d1c-060f-45b7-9194-591e45668b52",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IAudioEndpointVolume interface [Core Audio],SetChannelVolumeLevelScalar method, IAudioEndpointVolume.SetChannelVolumeLevelScalar, IAudioEndpointVolume::SetChannelVolumeLevelScalar, IAudioEndpointVolumeSetChannelVolumeLevelScalar, SetChannelVolumeLevelScalar, SetChannelVolumeLevelScalar method [Core Audio], SetChannelVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setchannelvolumelevelscalar, endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevelScalar",
+  "req.header": "endpointvolume.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAudioEndpointVolume::SetChannelVolumeLevelScalar",
+    "endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevelScalar"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Endpointvolume.h"
+  ],
+  "api_name": [
+    "IAudioEndpointVolume.SetChannelVolumeLevelScalar"
+  ]
+}

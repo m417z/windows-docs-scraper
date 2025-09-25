@@ -1,0 +1,3 @@
+typedef struct _CMP_DISCONNECT {
+  IN HANDLE hConnect;
+} CMP_DISCONNECT, *PCMP_DISCONNECT;

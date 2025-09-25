@@ -1,0 +1,3 @@
+VOID DlStopTimer(
+  PVOID DeviceHandle
+);

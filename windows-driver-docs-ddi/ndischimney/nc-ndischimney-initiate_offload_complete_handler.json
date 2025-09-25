@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndischimney.INITIATE_OFFLOAD_COMPLETE_HANDLER",
+  "title": "INITIATE_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)",
+  "description": "NDIS calls a protocol driver's or intermediate driver's ProtocolInitiateOffloadComplete function to complete an offload operation that the driver previously initiated by calling the NdisInitiateOffload function.",
+  "old-location": "netvista\\protocolinitiateoffloadcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "INITIATE_OFFLOAD_COMPLETE_HANDLER callback function"
+  ],
+  "ms.keywords": "INITIATE_OFFLOAD_COMPLETE_HANDLER, INITIATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInitiateOffloadComplete, ProtocolInitiateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInitiateOffloadComplete, netvista.protocolinitiateoffloadcomplete, tcp_chim_protocol_func_24008ba0-91ac-43de-a1b7-ba82e15057ad.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "INITIATE_OFFLOAD_COMPLETE_HANDLER",
+    "ndischimney/INITIATE_OFFLOAD_COMPLETE_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndischimney.h"
+  ],
+  "api_name": [
+    "INITIATE_OFFLOAD_COMPLETE_HANDLER"
+  ]
+}

@@ -1,0 +1,4 @@
+LONG MCIWndSeek(
+     hwnd,
+     lPos
+);

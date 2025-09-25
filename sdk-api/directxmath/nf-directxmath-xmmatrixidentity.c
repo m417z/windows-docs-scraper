@@ -1,0 +1,1 @@
+XMMATRIX XM_CALLCONV XMMatrixIdentity() noexcept;

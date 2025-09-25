@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetSyncRefreshCountWaitTarget(
+  const D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET *unnamedParam1
+);

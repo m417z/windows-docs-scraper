@@ -1,0 +1,48 @@
+{
+  "UID": "NF:fltkernel.FltOplockBreakH",
+  "title": "FltOplockBreakH function (fltkernel.h)",
+  "description": "The FltOplockBreakH routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).",
+  "old-location": "ifsk\\fltoplockbreakh.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltOplockBreakH function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], fltkernel/FltOplockBreakH, ifsk.fltoplockbreakh",
+  "req.header": "fltkernel.h",
+  "req.include-header": "Fltkernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "The FltOplockBreakH routine is available starting with Windows 7.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltOplockBreakH",
+    "fltkernel/FltOplockBreakH"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltOplockBreakH"
+  ]
+}

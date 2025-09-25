@@ -1,0 +1,4 @@
+typedef struct _DXVAHD_STREAM_STATE_FILTER_DATA {
+  BOOL Enable;
+  INT  Level;
+} DXVAHD_STREAM_STATE_FILTER_DATA;

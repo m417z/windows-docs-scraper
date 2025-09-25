@@ -1,0 +1,48 @@
+{
+  "UID": "NS:nbl._NET_BUFFER_DATA",
+  "title": "NET_BUFFER_DATA",
+  "ms.date": "11/30/2020",
+  "targetos": "Windows",
+  "description": "The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to a NET_BUFFER structure, and it identifies the next NET_BUFFER structure in a list of NET_BUFFER structures.",
+  "tech.root": "netvista",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis/nbl.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NET_BUFFER_DATA, *PNET_BUFFER_DATA",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nbl.h"
+  ],
+  "api_name": [
+    "_NET_BUFFER_DATA",
+    "PNET_BUFFER_DATA",
+    "NET_BUFFER_DATA"
+  ],
+  "f1_keywords": [
+    "_NET_BUFFER_DATA",
+    "nbl/_NET_BUFFER_DATA",
+    "PNET_BUFFER_DATA",
+    "nbl/PNET_BUFFER_DATA",
+    "NET_BUFFER_DATA",
+    "nbl/NET_BUFFER_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

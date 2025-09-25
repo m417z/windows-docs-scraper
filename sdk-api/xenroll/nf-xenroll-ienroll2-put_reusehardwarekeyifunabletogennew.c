@@ -1,0 +1,3 @@
+HRESULT put_ReuseHardwareKeyIfUnableToGenNew(
+  BOOL fReuseHardwareKeyIfUnableToGenNew
+);

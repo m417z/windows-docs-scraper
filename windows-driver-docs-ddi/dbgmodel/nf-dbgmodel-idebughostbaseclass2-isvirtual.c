@@ -1,0 +1,3 @@
+HRESULT IsVirtual(
+  bool *pIsVirtual
+);

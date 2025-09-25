@@ -1,0 +1,3 @@
+WIFI_WAKE_SOURCE_TYPE WifiWakeSourceGetType(
+  WIFIWAKESOURCE WakeSource
+);

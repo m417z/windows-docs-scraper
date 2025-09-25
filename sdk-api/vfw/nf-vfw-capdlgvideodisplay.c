@@ -1,0 +1,3 @@
+BOOL capDlgVideoDisplay(
+     hwnd
+);

@@ -1,0 +1,1 @@
+CHStringData * GetData();

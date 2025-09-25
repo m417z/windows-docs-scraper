@@ -1,0 +1,5 @@
+typedef struct _WIA_PROPERTY_CONTEXT {
+  ULONG  cProps;
+  PROPID *pProps;
+  BOOL   *pChanged;
+} WIA_PROPERTY_CONTEXT, *PWIA_PROPERTY_CONTEXT;

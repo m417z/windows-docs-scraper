@@ -1,0 +1,4 @@
+typedef struct _DHCP_POLICY_ARRAY {
+  DWORD         NumElements;
+  LPDHCP_POLICY Elements;
+} DHCP_POLICY_ARRAY, *PDHCP_POLICY_ARRAY, *LPDHCP_POLICY_ARRAY;

@@ -1,0 +1,19 @@
+# _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure
+
+## Description
+
+This structure is not supported.
+
+## Members
+
+### `DUMMYUNIONNAME`
+
+### `DUMMYUNIONNAME.Flags`
+
+### `DUMMYUNIONNAME.DUMMYSTRUCTNAME`
+
+### `DUMMYUNIONNAME.DUMMYSTRUCTNAME.FilterId`
+
+### `DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags`
+
+Reserved.

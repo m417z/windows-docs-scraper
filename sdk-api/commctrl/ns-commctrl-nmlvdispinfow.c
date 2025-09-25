@@ -1,0 +1,4 @@
+typedef struct tagLVDISPINFOW {
+  NMHDR   hdr;
+  LVITEMW item;
+} NMLVDISPINFOW, *LPNMLVDISPINFOW;

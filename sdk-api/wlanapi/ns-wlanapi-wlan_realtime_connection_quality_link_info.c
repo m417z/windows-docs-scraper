@@ -1,0 +1,7 @@
+typedef struct _WLAN_REALTIME_CONNECTION_QUALITY_LINK_INFO {
+  UCHAR         ucLinkID;
+  ULONG         ulChannelCenterFrequencyMhz;
+  ULONG         ulBandwidth;
+  LONG          lRssi;
+  WLAN_RATE_SET wlanRateSet;
+} WLAN_REALTIME_CONNECTION_QUALITY_LINK_INFO, *PWLAN_REALTIME_CONNECTION_QUALITY_LINK_INFO;

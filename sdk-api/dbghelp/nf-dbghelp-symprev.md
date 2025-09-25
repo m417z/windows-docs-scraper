@@ -1,0 +1,40 @@
+# SymPrev function
+
+## Description
+
+Retrieves symbol information for the previous symbol.
+
+## Parameters
+
+### `hProcess` [in]
+
+A handle to a process. This handle must have been previously passed to the
+[SymInitialize](https://learn.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize) function.
+
+### `si` [in, out]
+
+A pointer to a
+[SYMBOL_INFO](https://learn.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info) structure that provides information about the current symbol. Upon return, the structure contains information about the previous symbol.
+
+## Return value
+
+If the function succeeds, the return value is **TRUE**.
+
+If the function fails, the return value is **FALSE**. To retrieve extended error information, call
+[GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+
+## Remarks
+
+This function requires that the [SYMBOL_INFO](https://learn.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info) structure have valid data for the current symbol. The previous symbol is the symbol with a virtual address that immediately precedes this symbol.
+
+All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
+
+To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
+
+## See also
+
+[DbgHelp Functions](https://learn.microsoft.com/windows/desktop/Debug/dbghelp-functions)
+
+[SYMBOL_INFO](https://learn.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info)
+
+[SymNext](https://learn.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symnext)

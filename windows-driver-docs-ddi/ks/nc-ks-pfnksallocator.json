@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSALLOCATOR",
+  "title": "PFNKSALLOCATOR (ks.h)",
+  "description": "Minidrivers can optionally supply a callback function of type PFNKSALLOCATOR as a parameter in calls to KsEnableEventWithAllocator, KsPropertyHandlerWithAllocator, and KsMethodHandlerWithAllocator.",
+  "old-location": "stream\\kstrallocator.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSALLOCATOR callback function"
+  ],
+  "ms.keywords": "KStrAllocator, KStrAllocator routine [Streaming Media Devices], PFNKSALLOCATOR, ks/KStrAllocator, ksfunc_abd9491e-0ad2-4c28-bd96-90ecd6a6af3c.xml, stream.kstrallocator",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSALLOCATOR",
+    "ks/PFNKSALLOCATOR"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSALLOCATOR"
+  ]
+}

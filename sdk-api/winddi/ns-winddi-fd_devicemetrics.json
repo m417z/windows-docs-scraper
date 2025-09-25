@@ -1,0 +1,66 @@
+{
+  "UID": "NS:winddi._FD_DEVICEMETRICS",
+  "title": "FD_DEVICEMETRICS (winddi.h)",
+  "description": "The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the iMode parameter of the driver-supplied DrvQueryFontData function is QFD_MAXEXTENTS.",
+  "helpviewer_keywords": [
+    "*PFD_DEVICEMETRICS",
+    "FD_DEVICEMETRICS",
+    "FD_DEVICEMETRICS structure [Display Devices]",
+    "PFD_DEVICEMETRICS",
+    "PFD_DEVICEMETRICS structure pointer [Display Devices]",
+    "display.fd_devicemetrics",
+    "grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml",
+    "winddi/FD_DEVICEMETRICS",
+    "winddi/PFD_DEVICEMETRICS"
+  ],
+  "old-location": "display\\fd_devicemetrics.htm",
+  "tech.root": "display",
+  "ms.assetid": "c6518325-7efc-46dd-831b-7cb7d2f37ddb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [Display Devices], PFD_DEVICEMETRICS, PFD_DEVICEMETRICS structure pointer [Display Devices], display.fd_devicemetrics, grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml, winddi/FD_DEVICEMETRICS, winddi/PFD_DEVICEMETRICS",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FD_DEVICEMETRICS, *PFD_DEVICEMETRICS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_FD_DEVICEMETRICS",
+    "winddi/_FD_DEVICEMETRICS",
+    "PFD_DEVICEMETRICS",
+    "winddi/PFD_DEVICEMETRICS",
+    "FD_DEVICEMETRICS",
+    "winddi/FD_DEVICEMETRICS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winddi.h"
+  ],
+  "api_name": [
+    "FD_DEVICEMETRICS"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _ACX_MICARRAYGEOMETRY_CONFIG {
+  ULONG                  Size;
+  ULONG                  Flags;
+  ACX_MIC_ARRAY_GEOMETRY Geometry;
+} ACX_MICARRAYGEOMETRY_CONFIG, *PACX_MICARRAYGEOMETRY_CONFIG;

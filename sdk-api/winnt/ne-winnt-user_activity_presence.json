@@ -1,0 +1,49 @@
+{
+  "UID": "NE:winnt._USER_ACTIVITY_PRESENCE",
+  "tech.root": "base",
+  "title": "USER_ACTIVITY_PRESENCE",
+  "ms.date": "01/23/2024",
+  "targetos": "Windows",
+  "description": "Specifies the presence of a user for the purposes of power management based on activity detected.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "winnt.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winnt.h"
+  ],
+  "api_name": [
+    "_USER_ACTIVITY_PRESENCE",
+    "PUSER_ACTIVITY_PRESENCE",
+    "USER_ACTIVITY_PRESENCE"
+  ],
+  "f1_keywords": [
+    "_USER_ACTIVITY_PRESENCE",
+    "winnt/_USER_ACTIVITY_PRESENCE",
+    "PUSER_ACTIVITY_PRESENCE",
+    "winnt/PUSER_ACTIVITY_PRESENCE",
+    "USER_ACTIVITY_PRESENCE",
+    "winnt/USER_ACTIVITY_PRESENCE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_USER_ACTIVITY_PRESENCE"
+  ]
+}

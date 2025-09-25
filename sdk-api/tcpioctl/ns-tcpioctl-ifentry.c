@@ -1,0 +1,25 @@
+typedef struct IFEntry {
+  ulong if_index;
+  ulong if_type;
+  ulong if_mtu;
+  ulong if_speed;
+  ulong if_physaddrlen;
+  uchar if_physaddr[MAX_PHYSADDR_SIZE];
+  ulong if_adminstatus;
+  ulong if_operstatus;
+  ulong if_lastchange;
+  ulong if_inoctets;
+  ulong if_inucastpkts;
+  ulong if_innucastpkts;
+  ulong if_indiscards;
+  ulong if_inerrors;
+  ulong if_inunknownprotos;
+  ulong if_outoctets;
+  ulong if_outucastpkts;
+  ulong if_outnucastpkts;
+  ulong if_outdiscards;
+  ulong if_outerrors;
+  ulong if_outqlen;
+  ulong if_descrlen;
+  uchar if_descr[1];
+} IFEntry;

@@ -1,0 +1,59 @@
+{
+  "UID": "NF:dmemmgr.HeapVidMemAllocAligned",
+  "title": "HeapVidMemAllocAligned function (dmemmgr.h)",
+  "description": "The HeapVidMemAllocAligned function allocates off_screen_memory for a display driver by using the DirectDraw video memory heap manager.",
+  "helpviewer_keywords": [
+    "HeapVidMemAllocAligned",
+    "HeapVidMemAllocAligned function [Display Devices]",
+    "display.heapvidmemallocaligned",
+    "dmemmgr/HeapVidMemAllocAligned",
+    "gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml"
+  ],
+  "old-location": "display\\heapvidmemallocaligned.htm",
+  "tech.root": "display",
+  "ms.assetid": "efd004d5-58fc-4721-9a74-d018cb3e5de9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "HeapVidMemAllocAligned, HeapVidMemAllocAligned function [Display Devices], display.heapvidmemallocaligned, dmemmgr/HeapVidMemAllocAligned, gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml",
+  "req.header": "dmemmgr.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HeapVidMemAllocAligned",
+    "dmemmgr/HeapVidMemAllocAligned"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "HeapVidMemAllocAligned"
+  ]
+}

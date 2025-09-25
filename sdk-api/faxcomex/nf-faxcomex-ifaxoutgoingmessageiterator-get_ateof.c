@@ -1,0 +1,3 @@
+HRESULT get_AtEOF(
+  VARIANT_BOOL *pbEOF
+);

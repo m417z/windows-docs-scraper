@@ -1,0 +1,3 @@
+typedef enum __MIDL___MIDL_itf_rdpencomapi_0000_0000_0007 {
+  WND_FLAG_PRIVILEGED = 1
+} RDPSRAPI_WND_FLAGS;

@@ -1,0 +1,24 @@
+typedef struct tagOLEUIINSERTOBJECTA {
+  DWORD           cbStruct;
+  DWORD           dwFlags;
+  HWND            hWndOwner;
+  LPCSTR          lpszCaption;
+  LPFNOLEUIHOOK   lpfnHook;
+  LPARAM          lCustData;
+  HINSTANCE       hInstance;
+  LPCSTR          lpszTemplate;
+  HRSRC           hResource;
+  CLSID           clsid;
+  LPSTR           lpszFile;
+  UINT            cchFile;
+  UINT            cClsidExclude;
+  LPCLSID         lpClsidExclude;
+  IID             iid;
+  DWORD           oleRender;
+  LPFORMATETC     lpFormatEtc;
+  LPOLECLIENTSITE lpIOleClientSite;
+  LPSTORAGE       lpIStorage;
+  LPVOID          *ppvObj;
+  SCODE           sc;
+  HGLOBAL         hMetaPict;
+} OLEUIINSERTOBJECTA, *POLEUIINSERTOBJECTA, *LPOLEUIINSERTOBJECTA;

@@ -1,0 +1,8 @@
+EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2 EvtIddCxMonitorQueryTargetModes2;
+
+NTSTATUS EvtIddCxMonitorQueryTargetModes2(
+  IDDCX_MONITOR MonitorObject,
+  const IDARG_IN_QUERYTARGETMODES2 *pInArgs,
+  IDARG_OUT_QUERYTARGETMODES *pOutArgs
+)
+{...}

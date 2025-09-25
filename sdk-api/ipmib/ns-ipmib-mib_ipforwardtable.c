@@ -1,0 +1,4 @@
+typedef struct _MIB_IPFORWARDTABLE {
+  DWORD            dwNumEntries;
+  MIB_IPFORWARDROW table[ANY_SIZE];
+} MIB_IPFORWARDTABLE, *PMIB_IPFORWARDTABLE;

@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ks.PFNKSCLOCK_CORRELATEDTIME",
+  "title": "PFNKSCLOCK_CORRELATEDTIME (ks.h)",
+  "description": "The routine is a system-supplied routine that retrieves and the following:KStrClockGetCorrelatedTime is a system-supplied routine that retrieves both the current system time and the corresponding clock tick count since boot.KStrClockGetCorrelatedPhysicalTime is a system-supplied routine that retrieves both the current system time minus suspended delta and the corresponding clock tick since boot.",
+  "old-location": "stream\\kstrclockgetcorrelatedtime.htm",
+  "tech.root": "stream",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "PFNKSCLOCK_CORRELATEDTIME callback function"
+  ],
+  "ms.keywords": "KStrClockGetCorrelatedPhysicalTime, KStrClockGetCorrelatedTime, PFNKSCLOCK_CORRELATEDTIME, SystemCorrelatedTime, SystemCorrelatedTime routine [Streaming Media Devices], ks/SystemCorrelatedTime, ksfunc_dd229adf-e2be-44ac-bda2-f947b0f559a3.xml, stream.kstrclockgetcorrelatedtime",
+  "req.header": "ks.h",
+  "req.include-header": "Ks.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNKSCLOCK_CORRELATEDTIME",
+    "ks/PFNKSCLOCK_CORRELATEDTIME"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ks.h"
+  ],
+  "api_name": [
+    "PFNKSCLOCK_CORRELATEDTIME"
+  ]
+}

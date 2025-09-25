@@ -1,0 +1,3 @@
+BOOL capCaptureStop(
+     hwnd
+);

@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMWriterAdvanced.GetWriterTime",
+  "title": "IWMWriterAdvanced::GetWriterTime (wmsdkidl.h)",
+  "description": "The GetWriterTime method retrieves the clock time that the writer is working to.",
+  "helpviewer_keywords": [
+    "GetWriterTime",
+    "GetWriterTime method [windows Media Format]",
+    "GetWriterTime method [windows Media Format]",
+    "IWMWriterAdvanced interface",
+    "IWMWriterAdvanced interface [windows Media Format]",
+    "GetWriterTime method",
+    "IWMWriterAdvanced.GetWriterTime",
+    "IWMWriterAdvanced::GetWriterTime",
+    "IWMWriterAdvancedGetWriterTime",
+    "wmformat.iwmwriteradvanced_getwritertime",
+    "wmsdkidl/IWMWriterAdvanced::GetWriterTime"
+  ],
+  "old-location": "wmformat\\iwmwriteradvanced_getwritertime.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "ed15e545-8b37-4098-8e2f-96f4cfb271d3",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetWriterTime, GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetWriterTime method, IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMWriterAdvanced::GetWriterTime",
+    "wmsdkidl/IWMWriterAdvanced::GetWriterTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMWriterAdvanced.GetWriterTime"
+  ]
+}

@@ -1,0 +1,3 @@
+void SetStdBool(
+  bool Data
+);

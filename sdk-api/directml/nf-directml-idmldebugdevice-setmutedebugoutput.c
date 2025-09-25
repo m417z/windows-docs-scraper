@@ -1,0 +1,3 @@
+void SetMuteDebugOutput(
+  BOOL mute
+);

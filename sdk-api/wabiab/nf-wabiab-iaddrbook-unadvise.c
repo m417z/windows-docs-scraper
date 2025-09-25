@@ -1,0 +1,3 @@
+HRESULT Unadvise(
+  ULONG ulConnection
+);

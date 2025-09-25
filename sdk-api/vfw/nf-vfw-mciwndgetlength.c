@@ -1,0 +1,3 @@
+UINT MCIWndGetLength(
+     hwnd
+);

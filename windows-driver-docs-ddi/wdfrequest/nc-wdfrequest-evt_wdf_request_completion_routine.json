@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfrequest.EVT_WDF_REQUEST_COMPLETION_ROUTINE",
+  "title": "EVT_WDF_REQUEST_COMPLETION_ROUTINE (wdfrequest.h)",
+  "description": "A driver's CompletionRoutine event callback function executes when another driver completes a specified I/O request.",
+  "old-location": "wdf\\completionroutine.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_REQUEST_COMPLETION_ROUTINE callback function"
+  ],
+  "ms.keywords": "CompletionRoutine, CompletionRoutine callback function, DFRequestObjectRef_5eed5273-6939-4a56-846a-ee80c92c005a.xml, EVT_WDF_REQUEST_COMPLETION_ROUTINE, EVT_WDF_REQUEST_COMPLETION_ROUTINE callback, kmdf.completionroutine, wdf.completionroutine, wdfrequest/CompletionRoutine",
+  "req.header": "wdfrequest.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_REQUEST_COMPLETION_ROUTINE",
+    "wdfrequest/EVT_WDF_REQUEST_COMPLETION_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfrequest.h"
+  ],
+  "api_name": [
+    "EVT_WDF_REQUEST_COMPLETION_ROUTINE"
+  ]
+}

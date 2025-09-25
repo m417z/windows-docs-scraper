@@ -1,0 +1,5 @@
+typedef struct _GETINFO_GLYPHBITMAP {
+  DWORD     dwSize;
+  HGLYPH    hGlyph;
+  GLYPHDATA *pGlyphData;
+} GETINFO_GLYPHBITMAP, *PGETINFO_GLYPHBITMAP;

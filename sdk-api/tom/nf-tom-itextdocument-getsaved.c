@@ -1,0 +1,3 @@
+HRESULT GetSaved(
+  long *pValue
+);

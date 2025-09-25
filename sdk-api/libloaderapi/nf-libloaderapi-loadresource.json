@@ -1,0 +1,69 @@
+{
+  "UID": "NF:libloaderapi.LoadResource",
+  "title": "LoadResource function (libloaderapi.h)",
+  "description": "Retrieves a handle that can be used to obtain a pointer to the first byte of the specified resource in memory.",
+  "helpviewer_keywords": [
+    "LoadResource",
+    "LoadResource function [Menus and Other Resources]",
+    "_win32_LoadResource",
+    "_win32_loadresource_cpp",
+    "libloaderapi/LoadResource",
+    "menurc.loadresource",
+    "winui._win32_loadresource"
+  ],
+  "old-location": "menurc\\loadresource.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\introductiontoresources\\resourcereference\\resourcefunctions\\loadresource.htm",
+  "ms.date": "06/13/2025",
+  "ms.keywords": "LoadResource, LoadResource function [Menus and Other Resources], _win32_LoadResource, _win32_loadresource_cpp, libloaderapi/LoadResource, menurc.loadresource, winui._win32_loadresource",
+  "req.header": "libloaderapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LoadResource",
+    "libloaderapi/LoadResource"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-libraryloader-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-1-1.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Libraryloader-l1-2-1.dll",
+    "API-MS-Win-Core-LibraryLoader-L1-2-2.dll"
+  ],
+  "api_name": [
+    "LoadResource"
+  ]
+}

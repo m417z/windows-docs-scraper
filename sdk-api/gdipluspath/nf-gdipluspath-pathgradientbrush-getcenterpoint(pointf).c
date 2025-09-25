@@ -1,0 +1,3 @@
+Status GetCenterPoint(
+  PointF *point
+);

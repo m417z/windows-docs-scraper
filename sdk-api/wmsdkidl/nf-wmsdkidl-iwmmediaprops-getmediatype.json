@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMMediaProps.GetMediaType",
+  "title": "IWMMediaProps::GetMediaType (wmsdkidl.h)",
+  "description": "The GetMediaType method retrieves a structure describing the media type.",
+  "helpviewer_keywords": [
+    "GetMediaType",
+    "GetMediaType method [windows Media Format]",
+    "GetMediaType method [windows Media Format]",
+    "IWMMediaProps interface",
+    "IWMMediaProps interface [windows Media Format]",
+    "GetMediaType method",
+    "IWMMediaProps.GetMediaType",
+    "IWMMediaProps::GetMediaType",
+    "IWMMediaPropsGetMediaType",
+    "wmformat.iwmmediaprops_getmediatype",
+    "wmsdkidl/IWMMediaProps::GetMediaType"
+  ],
+  "old-location": "wmformat\\iwmmediaprops_getmediatype.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "8357e5c6-d8c6-4a30-8446-85fa7fa118f7",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetMediaType, GetMediaType method [windows Media Format], GetMediaType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetMediaType method, IWMMediaProps.GetMediaType, IWMMediaProps::GetMediaType, IWMMediaPropsGetMediaType, wmformat.iwmmediaprops_getmediatype, wmsdkidl/IWMMediaProps::GetMediaType",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMMediaProps::GetMediaType",
+    "wmsdkidl/IWMMediaProps::GetMediaType"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMMediaProps.GetMediaType"
+  ]
+}

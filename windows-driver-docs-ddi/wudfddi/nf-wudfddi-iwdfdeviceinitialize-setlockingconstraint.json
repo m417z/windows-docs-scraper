@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDeviceInitialize.SetLockingConstraint",
+  "title": "IWDFDeviceInitialize::SetLockingConstraint (wudfddi.h)",
+  "description": "The SetLockingConstraint method sets the synchronization (or locking) model for callback functions into the driver.",
+  "old-location": "wdf\\iwdfdeviceinitialize_setlockingconstraint.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDeviceInitialize::SetLockingConstraint"
+  ],
+  "ms.keywords": "IWDFDeviceInitialize interface,SetLockingConstraint method, IWDFDeviceInitialize.SetLockingConstraint, IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint, SetLockingConstraint method, SetLockingConstraint method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, umdf.iwdfdeviceinitialize_setlockingconstraint, wdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDeviceInitialize::SetLockingConstraint",
+    "wudfddi/IWDFDeviceInitialize::SetLockingConstraint"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDeviceInitialize::SetLockingConstraint"
+  ]
+}

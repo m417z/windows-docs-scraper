@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdbgexts.GetCurrentThreadAddr",
+  "title": "GetCurrentThreadAddr function (wdbgexts.h)",
+  "description": "The GetCurrentThreadAddr function returns the location of the system data that describes the current thread.",
+  "old-location": "debugger\\getcurrentthreadaddr.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "GetCurrentThreadAddr function"
+  ],
+  "ms.keywords": "GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging], WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, debugger.getcurrentthreadaddr, wdbgexts/GetCurrentThreadAddr",
+  "req.header": "wdbgexts.h",
+  "req.include-header": "Wdbgexts.h, Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GetCurrentThreadAddr",
+    "wdbgexts/GetCurrentThreadAddr"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdbgexts.h"
+  ],
+  "api_name": [
+    "GetCurrentThreadAddr"
+  ]
+}

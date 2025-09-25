@@ -1,0 +1,3 @@
+VOID ExReleaseResourceAndLeaveCriticalRegion(
+  PERESOURCE Resource
+);

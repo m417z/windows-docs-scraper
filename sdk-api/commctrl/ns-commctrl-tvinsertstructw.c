@@ -1,0 +1,8 @@
+typedef struct tagTVINSERTSTRUCTW {
+  HTREEITEM hParent;
+  HTREEITEM hInsertAfter;
+  union {
+    TVITEMEXW itemex;
+    TV_ITEMW  item;
+  } DUMMYUNIONNAME;
+} TVINSERTSTRUCTW, *LPTVINSERTSTRUCTW;

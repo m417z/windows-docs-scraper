@@ -1,0 +1,6 @@
+typedef struct _STORAGE_DEVICE_ID_DESCRIPTOR {
+  ULONG Version;
+  ULONG Size;
+  ULONG NumberOfIdentifiers;
+  UCHAR Identifiers[1];
+} STORAGE_DEVICE_ID_DESCRIPTOR, *PSTORAGE_DEVICE_ID_DESCRIPTOR;

@@ -1,0 +1,71 @@
+{
+  "UID": "NF:syncmgr.ISyncMgrSyncItem.GetObject",
+  "title": "ISyncMgrSyncItem::GetObject (syncmgr.h)",
+  "description": "Creates a specific type of object related to the item.",
+  "helpviewer_keywords": [
+    "GetObject",
+    "GetObject method [Windows Shell]",
+    "GetObject method [Windows Shell]",
+    "ISyncMgrSyncItem interface",
+    "ISyncMgrSyncItem interface [Windows Shell]",
+    "GetObject method",
+    "ISyncMgrSyncItem.GetObject",
+    "ISyncMgrSyncItem::GetObject",
+    "SYNCMGR_OBJECTID_BrowseContent",
+    "SYNCMGR_OBJECTID_ConflictStore",
+    "SYNCMGR_OBJECTID_EventStore",
+    "SYNCMGR_OBJECTID_Icon",
+    "SYNCMGR_OBJECTID_QueryBeforeDelete",
+    "SYNCMGR_OBJECTID_QueryBeforeDisable",
+    "SYNCMGR_OBJECTID_QueryBeforeEnable",
+    "_shell_ISyncMgrSyncItem_GetObject",
+    "shell.ISyncMgrSyncItem_GetObject",
+    "syncmgr/ISyncMgrSyncItem::GetObject"
+  ],
+  "old-location": "shell\\ISyncMgrSyncItem_GetObject.htm",
+  "tech.root": "shell",
+  "ms.assetid": "54336c43-348b-4767-94e4-fe7dc47c0876",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetObject method, ISyncMgrSyncItem.GetObject, ISyncMgrSyncItem::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeDelete, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, _shell_ISyncMgrSyncItem_GetObject, shell.ISyncMgrSyncItem_GetObject, syncmgr/ISyncMgrSyncItem::GetObject",
+  "req.header": "syncmgr.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Syncmgr.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ISyncMgrSyncItem::GetObject",
+    "syncmgr/ISyncMgrSyncItem::GetObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Syncmgr.h"
+  ],
+  "api_name": [
+    "ISyncMgrSyncItem.GetObject"
+  ]
+}

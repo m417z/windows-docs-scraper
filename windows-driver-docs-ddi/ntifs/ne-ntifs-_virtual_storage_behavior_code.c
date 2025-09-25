@@ -1,0 +1,7 @@
+typedef enum _VIRTUAL_STORAGE_BEHAVIOR_CODE {
+  VirtualStorageBehaviorUndefined,
+  VirtualStorageBehaviorCacheWriteThrough,
+  VirtualStorageBehaviorCacheWriteBack,
+  VirtualStorageBehaviorStopIoProcessing,
+  VirtualStorageBehaviorRestartIoProcessing
+} VIRTUAL_STORAGE_BEHAVIOR_CODE, *PVIRTUAL_STORAGE_BEHAVIOR_CODE;

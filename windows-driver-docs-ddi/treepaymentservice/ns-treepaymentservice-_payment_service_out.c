@@ -1,0 +1,5 @@
+typedef struct _PAYMENT_SERVICE_OUT {
+  INT32  Status;
+  UINT64 BioMatchTime;
+  UINT64 CurrentTime;
+} PAYMENT_SERVICE_OUT, *PPAYMENT_SERVICE_OUT;

@@ -1,0 +1,1 @@
+NET_DMA_EXPORT UINT NetDmaGetVersion();

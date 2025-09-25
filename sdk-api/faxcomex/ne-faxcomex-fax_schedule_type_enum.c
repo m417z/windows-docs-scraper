@@ -1,0 +1,5 @@
+typedef enum FAX_SCHEDULE_TYPE_ENUM {
+  fstNOW = 0,
+  fstSPECIFIC_TIME,
+  fstDISCOUNT_PERIOD
+} ;

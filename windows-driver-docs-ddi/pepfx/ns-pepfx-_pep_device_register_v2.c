@@ -1,0 +1,5 @@
+typedef struct _PEP_DEVICE_REGISTER_V2 {
+  ULONGLONG         Flags;
+  ULONG             ComponentCount;
+  PPEP_COMPONENT_V2 Components[ANYSIZE_ARRAY];
+} PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2;

@@ -1,0 +1,63 @@
+{
+  "UID": "NF:casetup.ICertSrvSetup.InitializeDefaults",
+  "title": "ICertSrvSetup::InitializeDefaults (casetup.h)",
+  "description": "Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.",
+  "helpviewer_keywords": [
+    "ICertSrvSetup interface [Security]",
+    "InitializeDefaults method",
+    "ICertSrvSetup.InitializeDefaults",
+    "ICertSrvSetup::InitializeDefaults",
+    "InitializeDefaults",
+    "InitializeDefaults method [Security]",
+    "InitializeDefaults method [Security]",
+    "ICertSrvSetup interface",
+    "casetup/ICertSrvSetup::InitializeDefaults",
+    "security.icertsrvsetup_initializedefaults"
+  ],
+  "old-location": "security\\icertsrvsetup_initializedefaults.htm",
+  "tech.root": "security",
+  "ms.assetid": "dff7e2e2-291a-4ea9-858a-8d98d96f79ac",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ICertSrvSetup interface [Security],InitializeDefaults method, ICertSrvSetup.InitializeDefaults, ICertSrvSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::InitializeDefaults, security.icertsrvsetup_initializedefaults",
+  "req.header": "casetup.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Casetup.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Certocm.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICertSrvSetup::InitializeDefaults",
+    "casetup/ICertSrvSetup::InitializeDefaults"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Certocm.dll"
+  ],
+  "api_name": [
+    "ICertSrvSetup.InitializeDefaults"
+  ]
+}

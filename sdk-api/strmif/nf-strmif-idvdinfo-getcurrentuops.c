@@ -1,0 +1,3 @@
+HRESULT GetCurrentUOPS(
+  [out] VALID_UOP_SOMTHING_OR_OTHER *pUOP
+);

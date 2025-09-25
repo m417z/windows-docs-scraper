@@ -1,0 +1,3 @@
+void Graphics(
+  GpGraphics *graphics
+);

@@ -1,0 +1,3 @@
+ULONG AVIFileRelease(
+  PAVIFILE pfile
+);

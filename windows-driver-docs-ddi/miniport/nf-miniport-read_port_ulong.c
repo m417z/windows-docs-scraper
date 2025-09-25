@@ -1,0 +1,3 @@
+ULONG READ_PORT_ULONG(
+  [in] PULONG Port
+);

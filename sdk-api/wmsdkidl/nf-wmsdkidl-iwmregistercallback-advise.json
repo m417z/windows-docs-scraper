@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMRegisterCallback.Advise",
+  "title": "IWMRegisterCallback::Advise (wmsdkidl.h)",
+  "description": "The Advise method registers the application to receive status messages from the sink object.",
+  "helpviewer_keywords": [
+    "Advise",
+    "Advise method [windows Media Format]",
+    "Advise method [windows Media Format]",
+    "IWMRegisterCallback interface",
+    "IWMRegisterCallback interface [windows Media Format]",
+    "Advise method",
+    "IWMRegisterCallback.Advise",
+    "IWMRegisterCallback::Advise",
+    "IWMRegisterCallbackAdvise",
+    "wmformat.iwmregistercallback_advise",
+    "wmsdkidl/IWMRegisterCallback::Advise"
+  ],
+  "old-location": "wmformat\\iwmregistercallback_advise.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "69d12e5c-23fd-4d4b-959e-fe7979bf3fdb",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "Advise, Advise method [windows Media Format], Advise method [windows Media Format],IWMRegisterCallback interface, IWMRegisterCallback interface [windows Media Format],Advise method, IWMRegisterCallback.Advise, IWMRegisterCallback::Advise, IWMRegisterCallbackAdvise, wmformat.iwmregistercallback_advise, wmsdkidl/IWMRegisterCallback::Advise",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMRegisterCallback::Advise",
+    "wmsdkidl/IWMRegisterCallback::Advise"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMRegisterCallback.Advise"
+  ]
+}

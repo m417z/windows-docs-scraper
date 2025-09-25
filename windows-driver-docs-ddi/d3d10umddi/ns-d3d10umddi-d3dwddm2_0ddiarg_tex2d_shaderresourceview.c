@@ -1,0 +1,8 @@
+typedef struct D3DWDDM2_0DDIARG_TEX2D_SHADERRESOURCEVIEW {
+  UINT MostDetailedMip;
+  UINT FirstArraySlice;
+  UINT MipLevels;
+  UINT ArraySize;
+  UINT PlaneSlice;
+  UINT PlaneIndex;
+} D3DWDDM2_0DDIARG_TEX2D_SHADERRESOURCEVIEW;

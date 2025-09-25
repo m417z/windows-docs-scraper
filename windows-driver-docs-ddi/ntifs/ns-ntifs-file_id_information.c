@@ -1,0 +1,4 @@
+typedef struct _FILE_ID_INFORMATION {
+  ULONGLONG   VolumeSerialNumber;
+  FILE_ID_128 FileId;
+} FILE_ID_INFORMATION, *PFILE_ID_INFORMATION;

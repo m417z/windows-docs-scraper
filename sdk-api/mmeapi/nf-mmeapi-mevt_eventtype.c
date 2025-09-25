@@ -1,0 +1,3 @@
+BYTE MEVT_EVENTTYPE(
+    DWORD x
+);

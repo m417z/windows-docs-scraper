@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ntddsd.SDBUS_CALLBACK_ROUTINE",
+  "title": "SDBUS_CALLBACK_ROUTINE (ntddsd.h)",
+  "description": "The PSDBUS_CALLBACK_ROUTINE prototype declares the Secure Digital (SD) driver callback routine that the SD bus driver uses to report device interrupts to the driver.",
+  "old-location": "sd\\psdbus_callback_routine.htm",
+  "tech.root": "SD",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "SDBUS_CALLBACK_ROUTINE callback function"
+  ],
+  "ms.keywords": "SD.psdbus_callback_routine, SDBUS_CALLBACK_ROUTINE, SDBUS_CALLBACK_ROUTINE callback, SdBusCallbackRoutine, SdBusCallbackRoutine callback function [Buses], ntddsd/SdBusCallbackRoutine, sd-rtns_a51040c8-723c-45ae-9e3b-15ef2baca85b.xml",
+  "req.header": "ntddsd.h",
+  "req.include-header": "Ntddsd.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SDBUS_CALLBACK_ROUTINE",
+    "ntddsd/SDBUS_CALLBACK_ROUTINE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ntddsd.h"
+  ],
+  "api_name": [
+    "SDBUS_CALLBACK_ROUTINE"
+  ]
+}

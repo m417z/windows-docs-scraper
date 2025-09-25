@@ -1,0 +1,4 @@
+typedef struct _DHCP_POL_COND_ARRAY {
+  DWORD           NumElements;
+  LPDHCP_POL_COND Elements;
+} DHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, *LPDHCP_POL_COND_ARRAY;

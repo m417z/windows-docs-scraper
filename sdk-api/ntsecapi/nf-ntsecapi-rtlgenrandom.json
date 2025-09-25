@@ -1,0 +1,57 @@
+{
+  "UID": "NF:ntsecapi.RtlGenRandom",
+  "title": "RtlGenRandom function (ntsecapi.h)",
+  "description": "Generates a pseudo-random number.",
+  "helpviewer_keywords": [
+    "RtlGenRandom",
+    "RtlGenRandom function [Security]",
+    "ntsecapi/RtlGenRandom",
+    "security.rtlgenrandom"
+  ],
+  "old-location": "security\\rtlgenrandom.htm",
+  "tech.root": "security",
+  "ms.assetid": "0b0d7019-49a1-40d0-912d-c773bce09a26",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom",
+  "req.header": "ntsecapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlGenRandom",
+    "ntsecapi/RtlGenRandom"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll"
+  ],
+  "api_name": [
+    "RtlGenRandom"
+  ]
+}

@@ -1,0 +1,5 @@
+NTSTATUS AcxObjectBagAddUI2(
+  ACXOBJECTBAG     ObjectBag,
+  PCUNICODE_STRING ValueName,
+  USHORT           Value
+);

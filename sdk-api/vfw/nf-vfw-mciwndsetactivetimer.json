@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.MCIWndSetActiveTimer",
+  "title": "MCIWndSetActiveTimer macro (vfw.h)",
+  "description": "The MCIWndSetActiveTimer macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is active. You can use this macro or explicitly send the MCIWNDM_SETACTIVETIMER message.",
+  "helpviewer_keywords": [
+    "MCIWndSetActiveTimer",
+    "MCIWndSetActiveTimer macro [Windows Multimedia]",
+    "_win32_MCIWndSetActiveTimer",
+    "multimedia.mciwndsetactivetimer",
+    "vfw/MCIWndSetActiveTimer"
+  ],
+  "old-location": "multimedia\\mciwndsetactivetimer.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "0a0815c4-6c35-4d67-a87b-d355f9ffbf3b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "MCIWndSetActiveTimer, MCIWndSetActiveTimer macro [Windows Multimedia], _win32_MCIWndSetActiveTimer, multimedia.mciwndsetactivetimer, vfw/MCIWndSetActiveTimer",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "MCIWndSetActiveTimer",
+    "vfw/MCIWndSetActiveTimer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "MCIWndSetActiveTimer"
+  ]
+}

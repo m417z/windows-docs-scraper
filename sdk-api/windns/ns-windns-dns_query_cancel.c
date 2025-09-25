@@ -1,0 +1,3 @@
+typedef struct _DNS_QUERY_CANCEL {
+  CHAR Reserved[32];
+} DNS_QUERY_CANCEL, *PDNS_QUERY_CANCEL;

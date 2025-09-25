@@ -1,0 +1,3 @@
+HRESULT UndockWindow(
+       HWND hwnd
+);

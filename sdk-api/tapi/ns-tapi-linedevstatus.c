@@ -1,0 +1,24 @@
+typedef struct linedevstatus_tag {
+  DWORD dwTotalSize;
+  DWORD dwNeededSize;
+  DWORD dwUsedSize;
+  DWORD dwNumOpens;
+  DWORD dwOpenMediaModes;
+  DWORD dwNumActiveCalls;
+  DWORD dwNumOnHoldCalls;
+  DWORD dwNumOnHoldPendCalls;
+  DWORD dwLineFeatures;
+  DWORD dwNumCallCompletions;
+  DWORD dwRingMode;
+  DWORD dwSignalLevel;
+  DWORD dwBatteryLevel;
+  DWORD dwRoamMode;
+  DWORD dwDevStatusFlags;
+  DWORD dwTerminalModesSize;
+  DWORD dwTerminalModesOffset;
+  DWORD dwDevSpecificSize;
+  DWORD dwDevSpecificOffset;
+  DWORD dwAvailableMediaModes;
+  DWORD dwAppInfoSize;
+  DWORD dwAppInfoOffset;
+} LINEDEVSTATUS, *LPLINEDEVSTATUS;

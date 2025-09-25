@@ -1,0 +1,6 @@
+typedef enum tagPrintSchemaConstrainedSetting {
+  PrintSchemaConstrainedSetting_None,
+  PrintSchemaConstrainedSetting_PrintTicket,
+  PrintSchemaConstrainedSetting_Admin,
+  PrintSchemaConstrainedSetting_Device
+} PrintSchemaConstrainedSetting;

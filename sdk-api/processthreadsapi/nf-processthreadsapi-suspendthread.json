@@ -1,0 +1,71 @@
+{
+  "UID": "NF:processthreadsapi.SuspendThread",
+  "title": "SuspendThread function (processthreadsapi.h)",
+  "description": "Suspends the specified thread.",
+  "helpviewer_keywords": [
+    "SuspendThread",
+    "SuspendThread function",
+    "_win32_suspendthread",
+    "base.suspendthread",
+    "processthreadsapi/SuspendThread",
+    "winbase/SuspendThread"
+  ],
+  "old-location": "base\\suspendthread.htm",
+  "tech.root": "processthreadsapi",
+  "ms.assetid": "1332abcb-3356-4890-a03c-843358c1a3ce",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SuspendThread, SuspendThread function, _win32_suspendthread, base.suspendthread, processthreadsapi/SuspendThread, winbase/SuspendThread",
+  "req.header": "processthreadsapi.h",
+  "req.include-header": "Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1",
+  "req.dll": "Kernel32.dll; KernelBase.dll on Windows Phone 8.1",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SuspendThread",
+    "processthreadsapi/SuspendThread"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "api-ms-win-core-processthreads-l1-1-6.dll",
+    "api-ms-win-core-processthreads-l1-1-5.dll",
+    "api-ms-win-core-processthreads-l1-1-4.dll",
+    "Kernel32.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-ProcessThreads-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-ProcessThreads-l1-1-1.dll",
+    "API-MS-Win-Core-ProcessThreads-l1-1-2.dll",
+    "api-ms-win-downlevel-kernel32-l1-1-0.dll",
+    "API-MS-Win-Core-ProcessThreads-L1-1-3.dll"
+  ],
+  "api_name": [
+    "SuspendThread"
+  ]
+}

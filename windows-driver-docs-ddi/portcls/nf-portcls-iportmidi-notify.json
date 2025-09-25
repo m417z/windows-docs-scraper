@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IPortMidi.Notify",
+  "title": "IPortMidi::Notify (portcls.h)",
+  "description": "The Notify method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).",
+  "old-location": "audio\\iportmidi_notify.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IPortMidi::Notify"
+  ],
+  "ms.keywords": "IPortMidi interface [Audio Devices],Notify method, IPortMidi.Notify, IPortMidi::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortMidi interface, audio.iportmidi_notify, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, portcls/IPortMidi::Notify",
+  "req.header": "portcls.h",
+  "req.include-header": "Portcls.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPortMidi::Notify",
+    "portcls/IPortMidi::Notify"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "portcls.h"
+  ],
+  "api_name": [
+    "IPortMidi::Notify"
+  ]
+}

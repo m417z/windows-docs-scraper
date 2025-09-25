@@ -1,0 +1,3 @@
+HRESULT GetContent(
+  IStream **contentStream
+);

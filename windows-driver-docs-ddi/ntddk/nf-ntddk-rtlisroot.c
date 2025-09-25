@@ -1,0 +1,3 @@
+void RtlIsRoot(
+  [in] Links
+);

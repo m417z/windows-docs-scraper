@@ -1,0 +1,5 @@
+typedef struct _JOBOBJECT_BASIC_PROCESS_ID_LIST {
+  DWORD     NumberOfAssignedProcesses;
+  DWORD     NumberOfProcessIdsInList;
+  ULONG_PTR ProcessIdList[1];
+} JOBOBJECT_BASIC_PROCESS_ID_LIST, *PJOBOBJECT_BASIC_PROCESS_ID_LIST;

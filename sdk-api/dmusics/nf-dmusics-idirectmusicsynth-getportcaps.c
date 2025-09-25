@@ -1,0 +1,3 @@
+HRESULT GetPortCaps(
+  LPDMUS_PORTCAPS pCaps
+);

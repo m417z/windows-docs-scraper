@@ -1,0 +1,4 @@
+typedef struct HBA_DeviceSelfDesc {
+  HBA_NED TokenNED;
+  HBA_NED DeviceNED;
+} HBA_DEVICESELFDESC, *PHBA_DEVICESELFDESC;

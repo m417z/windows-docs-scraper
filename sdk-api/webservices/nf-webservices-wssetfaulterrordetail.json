@@ -1,0 +1,57 @@
+{
+  "UID": "NF:webservices.WsSetFaultErrorDetail",
+  "title": "WsSetFaultErrorDetail function (webservices.h)",
+  "description": "Write the fault detail stored in a WS_ERROR object.",
+  "helpviewer_keywords": [
+    "WsSetFaultErrorDetail",
+    "WsSetFaultErrorDetail function [Web Services for Windows]",
+    "webservices/WsSetFaultErrorDetail",
+    "wsw.wssetfaulterrordetail"
+  ],
+  "old-location": "wsw\\wssetfaulterrordetail.htm",
+  "tech.root": "wsw",
+  "ms.assetid": "469982a5-42da-40e7-a053-4820fee58828",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WsSetFaultErrorDetail, WsSetFaultErrorDetail function [Web Services for Windows], webservices/WsSetFaultErrorDetail, wsw.wssetfaulterrordetail",
+  "req.header": "webservices.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "WebServices.lib",
+  "req.dll": "WebServices.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WsSetFaultErrorDetail",
+    "webservices/WsSetFaultErrorDetail"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "WebServices.dll"
+  ],
+  "api_name": [
+    "WsSetFaultErrorDetail"
+  ]
+}

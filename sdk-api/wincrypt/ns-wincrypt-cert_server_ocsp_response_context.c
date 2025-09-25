@@ -1,0 +1,5 @@
+typedef struct _CERT_SERVER_OCSP_RESPONSE_CONTEXT {
+  DWORD cbSize;
+  BYTE  *pbEncodedOcspResponse;
+  DWORD cbEncodedOcspResponse;
+} CERT_SERVER_OCSP_RESPONSE_CONTEXT, *PCERT_SERVER_OCSP_RESPONSE_CONTEXT;

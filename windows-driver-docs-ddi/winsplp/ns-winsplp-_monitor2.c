@@ -1,0 +1,25 @@
+typedef struct _MONITOR2 {
+  DWORD  cbSize;
+  BOOL( )(HANDLE hMonitor,LPWSTR pName,DWORD Level,LPBYTE pPorts,DWORD cbBuf,LPDWORD pcbNeeded,LPDWORD pcReturned)  *pfnEnumPorts;
+  BOOL( )(HANDLE hMonitor,LPWSTR pName,PHANDLE pHandle)  *pfnOpenPort;
+  BOOL()(HANDLE hMonitor,HANDLE hMonitorPort,LPWSTR pPortName,LPWSTR pPrinterName,PHANDLE pHandle,_MONITOR2 *pMonitor2)  * pfnOpenPortEx;
+  BOOL( )(HANDLE hPort,LPWSTR pPrinterName,DWORD JobId,DWORD Level,LPBYTE pDocInfo)  *pfnStartDocPort;
+  BOOL( )(HANDLE hPort,LPBYTE pBuffer,DWORD cbBuf,LPDWORD pcbWritten)  *pfnWritePort;
+  BOOL( )(HANDLE hPort,LPBYTE pBuffer,DWORD cbBuffer,LPDWORD pcbRead)  *pfnReadPort;
+  BOOL( )(HANDLE hPort)  *pfnEndDocPort;
+  BOOL( )(HANDLE hPort)  *pfnClosePort;
+  BOOL( )(HANDLE hMonitor,LPWSTR pName,HWND hWnd,LPWSTR pMonitorName)  *pfnAddPort;
+  BOOL( )(HANDLE hMonitor,LPWSTR pName,DWORD Level,LPBYTE lpBuffer,LPWSTR lpMonitorName)  *pfnAddPortEx;
+  BOOL( )(HANDLE hMonitor,LPWSTR pName,HWND hWnd,LPWSTR pPortName)  *pfnConfigurePort;
+  BOOL( )(HANDLE hMonitor,LPWSTR pName,HWND hWnd,LPWSTR pPortName)  *pfnDeletePort;
+  BOOL( )(HANDLE hPort,DWORD ControlID,LPWSTR pValueName,LPWSTR lpInBuffer,DWORD cbInBuffer,LPWSTR lpOutBuffer,DWORD cbOutBuffer,LPDWORD lpcbReturned)  *pfnGetPrinterDataFromPort;
+  BOOL( )(HANDLE hPort,LPCOMMTIMEOUTS lpCTO,DWORD reserved)  *pfnSetPortTimeOuts;
+  BOOL( )(HANDLE hMonitor,LPCWSTR pszObject,ACCESS_MASK GrantedAccess,PHANDLE phXcv)  *pfnXcvOpenPort;
+  DWORD( )(HANDLE hXcv,LPCWSTR pszDataName,PBYTE pInputData,DWORD cbInputData,PBYTE pOutputData,DWORD cbOutputData,PDWORD pcbOutputNeeded) *pfnXcvDataPort;
+  BOOL( )(HANDLE hXcv)  *pfnXcvClosePort;
+  VOID( )(HANDLE hMonitor)  *pfnShutdown;
+  DWORD()(HANDLE hPort,DWORD dwAccessBit,LPCWSTR pAction,PBIDI_REQUEST_CONTAINER pReqData,PBIDI_RESPONSE_CONTAINER *ppResData) * pfnSendRecvBidiDataFromPort;
+  DWORD()(HANDLE hMonitor,DWORD cPorts,PCWSTR *ppszPorts) * pfnNotifyUsedPorts;
+  DWORD()(HANDLE hMonitor,DWORD cPorts,PCWSTR *ppszPorts) * pfnNotifyUnusedPorts;
+  DWORD()(HANDLE hMonitor,DWORD event,POWERBROADCAST_SETTING *pSettings) * pfnPowerEvent;
+} MONITOR2, *PMONITOR2, *LPMONITOR2;

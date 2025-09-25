@@ -1,0 +1,3 @@
+HRESULT GetFullPDB(
+  IDxcBlob **ppFullPDB
+);

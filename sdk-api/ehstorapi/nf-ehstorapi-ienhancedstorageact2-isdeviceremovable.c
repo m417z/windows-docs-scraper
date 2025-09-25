@@ -1,0 +1,3 @@
+HRESULT IsDeviceRemovable(
+  BOOL *pIsDeviceRemovable
+);

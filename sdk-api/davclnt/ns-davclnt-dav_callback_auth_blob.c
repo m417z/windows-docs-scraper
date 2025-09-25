@@ -1,0 +1,5 @@
+typedef struct _DAV_CALLBACK_AUTH_BLOB {
+  PVOID pBuffer;
+  ULONG ulSize;
+  ULONG ulType;
+} DAV_CALLBACK_AUTH_BLOB, *PDAV_CALLBACK_AUTH_BLOB;

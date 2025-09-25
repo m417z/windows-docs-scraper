@@ -1,0 +1,3 @@
+BOOLEAN IN6_IS_ADDR_V4COMPAT(
+  const IN6_ADDR *a
+);

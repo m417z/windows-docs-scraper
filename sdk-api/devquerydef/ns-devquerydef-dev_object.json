@@ -1,0 +1,53 @@
+{
+  "UID": "NS:devquerydef._DEV_OBJECT",
+  "tech.root": "devinst",
+  "title": "DEV_OBJECT",
+  "ms.date": "10/31/2024",
+  "targetos": "Windows",
+  "description": "Contains information that represents a device object.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "devquerydef.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DEV_OBJECT, *PDEV_OBJECT",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "devquerydef.h"
+  ],
+  "api_name": [
+    "_DEV_OBJECT",
+    "PDEV_OBJECT",
+    "DEV_OBJECT"
+  ],
+  "f1_keywords": [
+    "_DEV_OBJECT",
+    "devquerydef/_DEV_OBJECT",
+    "PDEV_OBJECT",
+    "devquerydef/PDEV_OBJECT",
+    "DEV_OBJECT",
+    "devquerydef/DEV_OBJECT"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_DEV_OBJECT"
+  ]
+}

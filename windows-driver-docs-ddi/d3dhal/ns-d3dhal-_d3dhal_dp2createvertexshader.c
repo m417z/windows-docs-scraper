@@ -1,0 +1,5 @@
+typedef struct _D3DHAL_DP2CREATEVERTEXSHADER {
+  DWORD dwHandle;
+  DWORD dwDeclSize;
+  DWORD dwCodeSize;
+} D3DHAL_DP2CREATEVERTEXSHADER;

@@ -1,0 +1,50 @@
+{
+  "UID": "NF:dbgmodel.IDebugHostEvaluator3.EvaluateExpression",
+  "tech.root": "debugger",
+  "title": "IDebugHostEvaluator3::EvaluateExpression",
+  "ms.date": "01/20/2025",
+  "targetos": "Windows",
+  "description": "The EvaluateExpression method allows requests the debug host to evaluate a language (e.g C++) expression and return the resulting value of that expression evaluation boxed as an IModelObject.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dbgmodel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgmodel.h"
+  ],
+  "api_name": [
+    "IDebugHostEvaluator3::EvaluateExpression"
+  ],
+  "f1_keywords": [
+    "IDebugHostEvaluator3::EvaluateExpression",
+    "dbgmodel/IDebugHostEvaluator3::EvaluateExpression"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "EvaluateExpression"
+  ]
+}

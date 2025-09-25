@@ -1,0 +1,5 @@
+typedef struct tagDESIGNVECTOR {
+  DWORD dvReserved;
+  DWORD dvNumAxes;
+  LONG  dvValues[MM_MAX_NUMAXES];
+} DESIGNVECTOR, *PDESIGNVECTOR, *LPDESIGNVECTOR;

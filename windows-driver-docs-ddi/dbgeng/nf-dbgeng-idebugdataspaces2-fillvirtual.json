@@ -1,0 +1,48 @@
+{
+  "UID": "NF:dbgeng.IDebugDataSpaces2.FillVirtual",
+  "title": "IDebugDataSpaces2::FillVirtual (dbgeng.h)",
+  "description": "Learn how the FillVirtual method writes a pattern of bytes to the target's virtual memory. Pattern is written repeatedly until the specified memory range is filled.",
+  "old-location": "debugger\\fillvirtual.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugDataSpaces2::FillVirtual"
+  ],
+  "ms.keywords": "FillVirtual, FillVirtual method [Windows Debugging], FillVirtual method [Windows Debugging],IDebugDataSpaces2 interface, FillVirtual method [Windows Debugging],IDebugDataSpaces3 interface, FillVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces2.FillVirtual, IDebugDataSpaces2::FillVirtual, IDebugDataSpaces3 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces3::FillVirtual, IDebugDataSpaces4 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces4::FillVirtual, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, dbgeng/IDebugDataSpaces2::FillVirtual, dbgeng/IDebugDataSpaces3::FillVirtual, dbgeng/IDebugDataSpaces4::FillVirtual, debugger.fillvirtual",
+  "req.header": "dbgeng.h",
+  "req.include-header": "Dbgeng.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugDataSpaces2::FillVirtual",
+    "dbgeng/IDebugDataSpaces2::FillVirtual"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgeng.h"
+  ],
+  "api_name": [
+    "IDebugDataSpaces2::FillVirtual"
+  ]
+}

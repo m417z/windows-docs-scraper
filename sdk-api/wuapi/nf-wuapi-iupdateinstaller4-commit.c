@@ -1,0 +1,3 @@
+HRESULT Commit(
+  DWORD dwFlags
+);

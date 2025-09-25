@@ -1,0 +1,6 @@
+typedef enum _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE {
+  NetAdapterReceiveScalingEncapsulationTypeNone = 0x00000000,
+  NetAdapterReceiveScalingEncapsulationTypeNVGre = 0x00000001,
+  NetAdapterReceiveScalingEncapsulationTypeVXLan = 0x00000002,
+  NetAdapterReceiveScalingEncapsulationTypeVLan = 0x00000004
+} NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE;

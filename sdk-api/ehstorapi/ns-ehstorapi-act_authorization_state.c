@@ -1,0 +1,3 @@
+typedef struct _ACT_AUTHORIZATION_STATE {
+  ULONG ulState;
+} ACT_AUTHORIZATION_STATE;

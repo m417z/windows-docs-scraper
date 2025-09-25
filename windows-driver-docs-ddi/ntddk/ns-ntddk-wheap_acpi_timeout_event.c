@@ -1,0 +1,5 @@
+typedef struct _WHEAP_ACPI_TIMEOUT_EVENT {
+  WHEA_EVENT_LOG_ENTRY WheaEventLogEntry;
+  CHAR                 TableType[WHEA_ERROR_TEXT_LEN];
+  CHAR                 TableRequest[WHEA_ERROR_TEXT_LEN];
+} WHEAP_ACPI_TIMEOUT_EVENT, *PWHEAP_ACPI_TIMEOUT_EVENT;

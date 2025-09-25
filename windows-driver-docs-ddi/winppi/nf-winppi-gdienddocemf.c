@@ -1,0 +1,3 @@
+BOOL GdiEndDocEMF(
+  HANDLE SpoolFileHandle
+);

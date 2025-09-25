@@ -1,0 +1,3 @@
+EVNTPROV_PFORCEINLINE USHORT EventDescGetTask(
+  [in] PCEVENT_DESCRIPTOR EventDescriptor
+);

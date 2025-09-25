@@ -1,0 +1,3 @@
+typedef struct _WS_CERT_CREDENTIAL {
+  WS_CERT_CREDENTIAL_TYPE credentialType;
+} WS_CERT_CREDENTIAL;

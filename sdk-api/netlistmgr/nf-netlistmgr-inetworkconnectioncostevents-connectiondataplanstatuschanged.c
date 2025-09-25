@@ -1,0 +1,3 @@
+HRESULT ConnectionDataPlanStatusChanged(
+  GUID connectionId
+);

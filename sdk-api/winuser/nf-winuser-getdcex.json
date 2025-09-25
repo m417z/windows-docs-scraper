@@ -1,0 +1,71 @@
+{
+  "UID": "NF:winuser.GetDCEx",
+  "title": "GetDCEx function (winuser.h)",
+  "description": "The GetDCEx function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.",
+  "helpviewer_keywords": [
+    "DCX_CACHE",
+    "DCX_CLIPCHILDREN",
+    "DCX_CLIPSIBLINGS",
+    "DCX_EXCLUDERGN",
+    "DCX_INTERSECTRGN",
+    "DCX_INTERSECTUPDATE",
+    "DCX_LOCKWINDOWUPDATE",
+    "DCX_NORESETATTRS",
+    "DCX_PARENTCLIP",
+    "DCX_VALIDATE",
+    "DCX_WINDOW",
+    "GetDCEx",
+    "GetDCEx function [Windows GDI]",
+    "_win32_GetDCEx",
+    "gdi.getdcex",
+    "winuser/GetDCEx"
+  ],
+  "old-location": "gdi\\getdcex.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "590cf928-0ad6-43f8-97e9-1dafbcfa9f49",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DCX_CACHE, DCX_CLIPCHILDREN, DCX_CLIPSIBLINGS, DCX_EXCLUDERGN, DCX_INTERSECTRGN, DCX_INTERSECTUPDATE, DCX_LOCKWINDOWUPDATE, DCX_NORESETATTRS, DCX_PARENTCLIP, DCX_VALIDATE, DCX_WINDOW, GetDCEx, GetDCEx function [Windows GDI], _win32_GetDCEx, gdi.getdcex, winuser/GetDCEx",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetDCEx",
+    "winuser/GetDCEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "user32.dll",
+    "Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll",
+    "MinUser.dll"
+  ],
+  "api_name": [
+    "GetDCEx"
+  ]
+}

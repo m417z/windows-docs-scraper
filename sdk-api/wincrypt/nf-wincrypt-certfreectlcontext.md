@@ -1,0 +1,26 @@
+# CertFreeCTLContext function
+
+## Description
+
+The **CertFreeCTLContext** function frees a [certificate trust list](https://learn.microsoft.com/windows/desktop/SecGloss/c-gly) (CTL) [context](https://learn.microsoft.com/windows/desktop/SecGloss/c-gly) by decrementing its [reference count](https://learn.microsoft.com/windows/desktop/SecGloss/r-gly). When the reference count goes to zero, **CertFreeCTLContext** frees the memory used by a CTL context.
+
+To free a context obtained by a get, duplicate, or create function, call the appropriate free function. To free a context obtained by a find or enumerate function, either pass it in as the previous context parameter to a subsequent invocation of the function, or call the appropriate free function. For more information, see the reference topic for the function that obtains the context.
+
+## Parameters
+
+### `pCtlContext` [in]
+
+A pointer to the
+[CTL_CONTEXT](https://learn.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context) to be freed.
+
+## Return value
+
+The function always returns **TRUE**.
+
+## See also
+
+[CTL_CONTEXT](https://learn.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context)
+
+[CertFreeCRLContext](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext)
+
+[Certificate Trust List Functions](https://learn.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)

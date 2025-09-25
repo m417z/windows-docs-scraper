@@ -1,0 +1,3 @@
+HRESULT TxGetViewInset(
+  LPRECT prc
+);

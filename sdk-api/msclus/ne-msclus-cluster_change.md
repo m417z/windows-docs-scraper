@@ -1,0 +1,188 @@
+# CLUSTER_CHANGE enumeration
+
+## Description
+
+Describes the type of notification returned. The
+[GetClusterNotify](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify),
+[RegisterClusterNotify](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify), and
+[CreateCluster](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster) functions use this enumeration.
+
+## Constants
+
+### `CLUSTER_CHANGE_NODE_STATE:0x1`
+
+The queue receives a notification when a node changes state. For a list of possible node state values, see
+[GetClusterNodeState](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate).
+
+### `CLUSTER_CHANGE_NODE_DELETED:0x2`
+
+The queue receives a notification when a node is permanently removed from a cluster. A node can be
+permanently deleted from an existing cluster with a call to the
+[EvictClusterNode](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-evictclusternode) function.
+
+### `CLUSTER_CHANGE_NODE_ADDED:0x4`
+
+The queue receives a notification when a new [node](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/nodes)
+is added to the cluster. A node can be added only when the Cluster service is initially installed on the
+node.
+
+### `CLUSTER_CHANGE_NODE_PROPERTY:0x8`
+
+This notification is reserved for future use.
+
+### `CLUSTER_CHANGE_REGISTRY_NAME:0x10`
+
+The queue receives a notification when the name of a cluster database key has changed.
+
+### `CLUSTER_CHANGE_REGISTRY_ATTRIBUTES:0x20`
+
+The queue receives a notification when a
+[cluster database](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database) key's attributes are changed. The only
+currently defined cluster database key attribute is its security descriptor, which can be changed with
+[ClusterRegSetKeySecurity](https://learn.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetkeysecurity).
+
+### `CLUSTER_CHANGE_REGISTRY_VALUE:0x40`
+
+The queue receives a notification when a value of the specified cluster database key is changed or deleted.
+Cluster database values can be changed with the
+[ClusterRegSetValue](https://learn.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue) function and deleted with the
+[ClusterRegDeleteValue](https://learn.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregdeletevalue) function.
+
+### `CLUSTER_CHANGE_REGISTRY_SUBTREE:0x80`
+
+Indicates that the other **CLUSTER_CHANGE_REGISTRY_*** events apply to the entire
+cluster database. If this flag is not included, the events apply only to the specified key.
+
+### `CLUSTER_CHANGE_RESOURCE_STATE:0x100`
+
+The queue receives a notification when a resource changes state. For a list of the possible resource state
+values, see [GetClusterResourceState](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate).
+
+### `CLUSTER_CHANGE_RESOURCE_DELETED:0x200`
+
+The queue receives a notification when a resource is deleted.
+
+### `CLUSTER_CHANGE_RESOURCE_ADDED:0x400`
+
+The queue receives a notification when a new
+[resource](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/resources) is created in the cluster.
+
+### `CLUSTER_CHANGE_RESOURCE_PROPERTY:0x800`
+
+The queue receives a notification when the
+[properties](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties),
+[dependencies](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies), or
+[possible owner](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/p-gly) nodes of a resource change.
+
+### `CLUSTER_CHANGE_GROUP_STATE:0x1000`
+
+The queue receives a notification when a group changes state. For a list of the possible group state
+values, see [GetClusterGroupState](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclustergroupstate).
+
+### `CLUSTER_CHANGE_GROUP_DELETED:0x2000`
+
+The queue receives a notification when an existing group is deleted.
+
+### `CLUSTER_CHANGE_GROUP_ADDED:0x4000`
+
+The queue receives a notification when a new [group](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/groups) is created
+in the cluster.
+
+### `CLUSTER_CHANGE_GROUP_PROPERTY:0x8000`
+
+The queue receives a notification when the
+[properties](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/group-common-properties) of a group change or when a
+[resource](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/resources) is added or removed from a group.
+
+### `CLUSTER_CHANGE_RESOURCE_TYPE_DELETED:0x10000`
+
+The queue receives a notification when an existing resource type is deleted.
+
+### `CLUSTER_CHANGE_RESOURCE_TYPE_ADDED:0x20000`
+
+The queue receives a notification when a new
+[resource type](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/resource-types) is created in the cluster.
+
+### `CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY:0x40000`
+
+The queue receives a notification when the
+[properties](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties) of a resource type
+change.
+
+### `CLUSTER_CHANGE_CLUSTER_RECONNECT:0x80000`
+
+When generated by a client, this value indicates that the RPC connection to a server has been reconnected to another server for the specified cluster. When generated by the server, this value indicates that notification events were dropped by the server for the port.
+
+### `CLUSTER_CHANGE_NETWORK_STATE:0x100000`
+
+The queue receives a notification when a network changes state. For a list of the possible network state
+values, see [GetClusterNetworkState](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternetworkstate).
+
+### `CLUSTER_CHANGE_NETWORK_DELETED:0x200000`
+
+The queue receives a notification when a network is permanently removed from the cluster environment.
+
+### `CLUSTER_CHANGE_NETWORK_ADDED:0x400000`
+
+The queue receives a notification when a new
+[network](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/networks) is added to the cluster environment.
+
+### `CLUSTER_CHANGE_NETWORK_PROPERTY:0x800000`
+
+The queue receives a notification when the
+[properties](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/network-common-properties) of an existing network change.
+
+### `CLUSTER_CHANGE_NETINTERFACE_STATE:0x1000000`
+
+The queue receives a notification when a network interface changes state. For a list of the possible network
+interface state values, see
+[GetClusterNetInterfaceState](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternetinterfacestate).
+
+### `CLUSTER_CHANGE_NETINTERFACE_DELETED:0x2000000`
+
+The queue receives a notification when a network interface is permanently removed from a cluster node.
+
+### `CLUSTER_CHANGE_NETINTERFACE_ADDED:0x4000000`
+
+The queue receives a notification when a new
+[network interface](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces) is added to a cluster
+[node](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/nodes).
+
+### `CLUSTER_CHANGE_NETINTERFACE_PROPERTY:0x8000000`
+
+The queue receives a notification when the
+[properties](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/network-interface-common-properties) of an existing network
+interface change.
+
+### `CLUSTER_CHANGE_QUORUM_STATE:0x10000000`
+
+This notification is reserved for future use.
+
+### `CLUSTER_CHANGE_CLUSTER_STATE:0x20000000`
+
+The queue receives a notification when the cluster becomes unavailable, meaning that all attempts to
+communicate with the cluster fail.
+
+### `CLUSTER_CHANGE_CLUSTER_PROPERTY:0x40000000`
+
+The queue receives a notification when the cluster's prioritized list of internal
+[networks](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/networks) changes.
+
+### `CLUSTER_CHANGE_HANDLE_CLOSE:0x80000000`
+
+The queue receives a notification when a handle associated with a
+[cluster object](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects) is closed.
+
+### `CLUSTER_CHANGE_ALL`
+
+## See also
+
+[ClusterRegSetKeySecurity](https://learn.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetkeysecurity)
+
+[CreateCluster](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster)
+
+[Failover Cluster Enumerations](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations)
+
+[GetClusterNotify](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify)
+
+[RegisterClusterNotify](https://learn.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify)

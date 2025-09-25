@@ -1,0 +1,5 @@
+typedef enum {
+  SCF_VALUE_NONE = 0x00,
+  SCF_SCALE = 0x01,
+  SCF_PHYSICAL = 0x02
+} SCALE_CHANGE_FLAGS;

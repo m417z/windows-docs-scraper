@@ -1,0 +1,7 @@
+typedef struct _DEVICE_DSM_LOST_QUERY_OUTPUT {
+  ULONG     Version;
+  ULONG     Size;
+  ULONGLONG Alignment;
+  ULONG     NumberOfBits;
+  ULONG     BitMap[ANYSIZE_ARRAY];
+} DEVICE_DSM_LOST_QUERY_OUTPUT, *PDEVICE_DSM_LOST_QUERY_OUTPUT;

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:werapi.WerUnregisterRuntimeExceptionModule",
+  "title": "WerUnregisterRuntimeExceptionModule function (werapi.h)",
+  "description": "Removes the registration of the Windows Error Reporting (WER) exception handler.",
+  "helpviewer_keywords": [
+    "WerUnregisterRuntimeExceptionModule",
+    "WerUnregisterRuntimeExceptionModule function [Windows Error Reporting]",
+    "wer.werunregisterruntimeexceptionmodule",
+    "werapi/WerUnregisterRuntimeExceptionModule"
+  ],
+  "old-location": "wer\\werunregisterruntimeexceptionmodule.htm",
+  "tech.root": "wer",
+  "ms.assetid": "1a315923-b554-4363-a607-076690fc76a1",
+  "ms.date": "07/26/2023",
+  "ms.keywords": "WerUnregisterRuntimeExceptionModule, WerUnregisterRuntimeExceptionModule function [Windows Error Reporting], wer.werunregisterruntimeexceptionmodule, werapi/WerUnregisterRuntimeExceptionModule",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerUnregisterRuntimeExceptionModule",
+    "werapi/WerUnregisterRuntimeExceptionModule"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+    "api-ms-win-core-windowserrorreporting-l1-1-1.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerUnregisterRuntimeExceptionModule"
+  ]
+}

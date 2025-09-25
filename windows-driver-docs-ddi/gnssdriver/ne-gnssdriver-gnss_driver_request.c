@@ -1,0 +1,3 @@
+typedef enum {
+  SUPL_CONFIG_DATA
+} GNSS_DRIVER_REQUEST;

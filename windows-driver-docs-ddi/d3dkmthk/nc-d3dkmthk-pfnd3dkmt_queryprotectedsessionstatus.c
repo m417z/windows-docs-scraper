@@ -1,0 +1,6 @@
+PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS PfnD3dkmtQueryProtectedSessionStatus;
+
+NTSTATUS PfnD3dkmtQueryProtectedSessionStatus(
+    D3DKMT_QUERYPROTECTEDSESSIONSTATUS *
+)
+{...}

@@ -1,0 +1,48 @@
+{
+  "UID": "NI:gpio.IOCTL_GPIO_READ_PINS",
+  "title": "IOCTL_GPIO_READ_PINS (gpio.h)",
+  "description": "The IOCTL_GPIO_READ_PINS I/O control code enables a client of the general-purpose I/O (GPIO) controller to read from a set of GPIO pins that are configured as inputs.",
+  "old-location": "gpio\\ioctl_gpio_read_pins.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "IOCTL_GPIO_READ_PINS IOCTL"
+  ],
+  "ms.keywords": "GPIO.ioctl_gpio_read_pins, IOCTL_GPIO_READ_PINS, IOCTL_GPIO_READ_PINS control, IOCTL_GPIO_READ_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_READ_PINS",
+  "req.header": "gpio.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_GPIO_READ_PINS",
+    "gpio/IOCTL_GPIO_READ_PINS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Gpio.h"
+  ],
+  "api_name": [
+    "IOCTL_GPIO_READ_PINS"
+  ]
+}

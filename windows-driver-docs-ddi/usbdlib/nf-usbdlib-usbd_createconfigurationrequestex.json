@@ -1,0 +1,49 @@
+{
+  "UID": "NF:usbdlib.USBD_CreateConfigurationRequestEx",
+  "title": "USBD_CreateConfigurationRequestEx function (usbdlib.h)",
+  "description": "The USBD_CreateConfigurationRequestEx routine allocates and formats a URB to select a configuration for a USB device.USBD_CreateConfigurationRequestEx replaces USBD_CreateConfigurationRequest.",
+  "old-location": "buses\\usbd_createconfigurationrequestex.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "USBD_CreateConfigurationRequestEx function"
+  ],
+  "ms.keywords": "USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], buses.usbd_createconfigurationrequestex, usbdlib/USBD_CreateConfigurationRequestEx, usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml",
+  "req.header": "usbdlib.h",
+  "req.include-header": "Usbdlib.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Usbd.lib",
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL (See Remarks)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "USBD_CreateConfigurationRequestEx",
+    "usbdlib/USBD_CreateConfigurationRequestEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Usbd.lib",
+    "Usbd.dll"
+  ],
+  "api_name": [
+    "USBD_CreateConfigurationRequestEx"
+  ]
+}

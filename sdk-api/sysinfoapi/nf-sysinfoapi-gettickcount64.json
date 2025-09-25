@@ -1,0 +1,69 @@
+{
+  "UID": "NF:sysinfoapi.GetTickCount64",
+  "title": "GetTickCount64 function (sysinfoapi.h)",
+  "description": "Retrieves the number of milliseconds that have elapsed since the system was started.",
+  "helpviewer_keywords": [
+    "GetTickCount64",
+    "GetTickCount64 function",
+    "base.gettickcount64",
+    "sysinfoapi/GetTickCount64"
+  ],
+  "old-location": "base\\gettickcount64.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "3ebf05b9-cc53-43ae-bbcb-7841793a9d84",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetTickCount64, GetTickCount64 function, base.gettickcount64, sysinfoapi/GetTickCount64",
+  "req.header": "sysinfoapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetTickCount64",
+    "sysinfoapi/GetTickCount64"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-sysinfo-l1-2-7.dll",
+    "api-ms-win-core-sysinfo-l1-2-6.dll",
+    "api-ms-win-core-sysinfo-l1-2-5.dll",
+    "api-ms-win-core-sysinfo-l1-2-4.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-SysInfo-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-0.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-1.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-SysInfo-l1-2-3.dll"
+  ],
+  "api_name": [
+    "GetTickCount64"
+  ]
+}

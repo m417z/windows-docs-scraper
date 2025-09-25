@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vds.IVdsIscsiPortal.SetStatus",
+  "title": "IVdsIscsiPortal::SetStatus (vds.h)",
+  "description": "The IVdsIscsiPortal::SetStatus method (vds.h) sets the status of a portal to the specified value.",
+  "helpviewer_keywords": [
+    "IVdsIscsiPortal interface [VDS]",
+    "SetStatus method",
+    "IVdsIscsiPortal.SetStatus",
+    "IVdsIscsiPortal::SetStatus",
+    "SetStatus",
+    "SetStatus method [VDS]",
+    "SetStatus method [VDS]",
+    "IVdsIscsiPortal interface",
+    "base.ivdsiscsiportal_setstatus",
+    "vds/IVdsIscsiPortal::SetStatus",
+    "vdshwprv/IVdsIscsiPortal::SetStatus"
+  ],
+  "old-location": "base\\ivdsiscsiportal_setstatus.htm",
+  "tech.root": "base",
+  "ms.assetid": "6c63fa36-bccb-4731-999a-c6f8b565b38f",
+  "ms.date": "08/05/2022",
+  "ms.keywords": "IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.SetStatus, IVdsIscsiPortal::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setstatus, vds/IVdsIscsiPortal::SetStatus, vdshwprv/IVdsIscsiPortal::SetStatus",
+  "req.header": "vds.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "VDS 1.1",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVdsIscsiPortal::SetStatus",
+    "vds/IVdsIscsiPortal::SetStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Uuid.lib",
+    "Uuid.dll"
+  ],
+  "api_name": [
+    "IVdsIscsiPortal.SetStatus"
+  ]
+}

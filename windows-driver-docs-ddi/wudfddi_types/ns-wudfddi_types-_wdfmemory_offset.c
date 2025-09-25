@@ -1,0 +1,4 @@
+typedef struct _WDFMEMORY_OFFSET {
+  ULONG_PTR BufferOffset;
+  ULONG_PTR BufferLength;
+} WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET;

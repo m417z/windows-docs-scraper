@@ -1,0 +1,65 @@
+{
+  "UID": "NF:synchapi.CreateEventExA",
+  "title": "CreateEventExA function (synchapi.h)",
+  "description": "Creates or opens a named or unnamed event object and returns a handle to the object. (ANSI)",
+  "helpviewer_keywords": [
+    "CREATE_EVENT_INITIAL_SET",
+    "CREATE_EVENT_MANUAL_RESET",
+    "CreateEventExA",
+    "synchapi/CreateEventExA"
+  ],
+  "old-location": "base\\createeventex.htm",
+  "tech.root": "base",
+  "ms.assetid": "402a721d-8338-4df1-ba0b-074f868a1731",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CreateEventExW (Unicode) and CreateEventExA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateEventExA",
+    "synchapi/CreateEventExA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "CreateEventEx",
+    "CreateEventExA",
+    "CreateEventExW"
+  ]
+}

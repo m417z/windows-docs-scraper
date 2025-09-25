@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FILE_LEVEL_TRIM_RANGE",
+  "title": "_FILE_LEVEL_TRIM_RANGE (ntifs.h)",
+  "description": "Contains the offset and length of a trim range for a file.",
+  "old-location": "ifsk\\file_level_trim_range.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FILE_LEVEL_TRIM_RANGE structure"
+  ],
+  "ms.keywords": "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM_RANGE, ifsk.file_level_trim_range, ntifs/FILE_LEVEL_TRIM_RANGE, ntifs/PFILE_LEVEL_TRIM_RANGE",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE",
+  "f1_keywords": [
+    "_FILE_LEVEL_TRIM_RANGE",
+    "ntifs/_FILE_LEVEL_TRIM_RANGE",
+    "PFILE_LEVEL_TRIM_RANGE",
+    "ntifs/PFILE_LEVEL_TRIM_RANGE",
+    "FILE_LEVEL_TRIM_RANGE",
+    "ntifs/FILE_LEVEL_TRIM_RANGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_LEVEL_TRIM_RANGE",
+    "PFILE_LEVEL_TRIM_RANGE",
+    "FILE_LEVEL_TRIM_RANGE"
+  ]
+}

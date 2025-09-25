@@ -1,0 +1,72 @@
+{
+  "UID": "NS:dsclient._DOMAINDESC",
+  "title": "DOMAINDESC (dsclient.h)",
+  "description": "Contains data about an element in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method.",
+  "helpviewer_keywords": [
+    "*LPDOMAINDESC",
+    "*PDOMAIN_DESC",
+    "DOMAINDESC",
+    "DOMAINDESC structure [Active Directory]",
+    "DOMAIN_DESC",
+    "DOMAIN_DESC structure [Active Directory]",
+    "LPDOMAINDESC",
+    "LPDOMAINDESC structure pointer [Active Directory]",
+    "PDOMAIN_DESC",
+    "PDOMAIN_DESC structure pointer [Active Directory]",
+    "_glines_domaindesc",
+    "ad.domaindesc",
+    "dsclient/DOMAINDESC",
+    "dsclient/LPDOMAINDESC",
+    "dsclient/PDOMAIN_DESC"
+  ],
+  "old-location": "ad\\domaindesc.htm",
+  "tech.root": "ad",
+  "ms.assetid": "c788d106-2cc7-4d67-8568-23e858c0075f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPDOMAINDESC, *PDOMAIN_DESC, DOMAINDESC, DOMAINDESC structure [Active Directory], DOMAIN_DESC, DOMAIN_DESC structure [Active Directory], LPDOMAINDESC, LPDOMAINDESC structure pointer [Active Directory], PDOMAIN_DESC, PDOMAIN_DESC structure pointer [Active Directory], _glines_domaindesc, ad.domaindesc, dsclient/DOMAINDESC, dsclient/LPDOMAINDESC, dsclient/PDOMAIN_DESC",
+  "req.header": "dsclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DOMAIN_DESC, DOMAINDESC, *PDOMAIN_DESC, *LPDOMAINDESC",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_DOMAINDESC",
+    "dsclient/_DOMAINDESC",
+    "PDOMAIN_DESC",
+    "dsclient/PDOMAIN_DESC",
+    "DOMAINDESC",
+    "dsclient/DOMAINDESC"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Dsclient.h"
+  ],
+  "api_name": [
+    "DOMAIN_DESC"
+  ]
+}

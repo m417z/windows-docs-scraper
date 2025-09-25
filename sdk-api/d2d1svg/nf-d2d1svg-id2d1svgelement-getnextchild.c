@@ -1,0 +1,4 @@
+HRESULT GetNextChild(
+  [in] ID2D1SvgElement *referenceChild,
+       ID2D1SvgElement **nextChild
+);

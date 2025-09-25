@@ -1,0 +1,48 @@
+{
+  "UID": "NF:sercx.SerCxDeviceInitConfig",
+  "title": "SerCxDeviceInitConfig function (sercx.h)",
+  "description": "The SerCxDeviceInitConfig method is called by the serial controller driver to attach the serial framework extension (SerCx) to the I/O pipeline for a framework device object (FDO or PDO) that it is creating.",
+  "old-location": "serports\\sercxdeviceinitconfig.htm",
+  "tech.root": "serports",
+  "ms.date": "04/23/2018",
+  "keywords": [
+    "SerCxDeviceInitConfig function"
+  ],
+  "ms.keywords": "1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig",
+  "req.header": "sercx.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "SerCxDeviceInitConfig",
+    "sercx/SerCxDeviceInitConfig"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "1.0\\Sercx.h"
+  ],
+  "api_name": [
+    "SerCxDeviceInitConfig"
+  ]
+}

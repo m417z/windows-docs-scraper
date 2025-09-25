@@ -1,0 +1,4 @@
+typedef enum __MIDL___MIDL_itf_mfvirtualcamera_0000_0000_0002 {
+  MFVirtualCameraLifetime_Session,
+  MFVirtualCameraLifetime_System
+} MFVirtualCameraLifetime, *PMFVirtualCameraLifetime;

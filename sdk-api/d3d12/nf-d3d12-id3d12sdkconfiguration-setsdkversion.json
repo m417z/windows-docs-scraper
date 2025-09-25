@@ -1,0 +1,48 @@
+{
+  "UID": "NF:d3d12.ID3D12SDKConfiguration.SetSDKVersion",
+  "title": "ID3D12SDKConfiguration::SetSDKVersion",
+  "description": "Configures the SDK version to use.",
+  "tech.root": "direct3d12",
+  "ms.date": "08/25/2021",
+  "req.construct-type": "function",
+  "req.header": "d3d12.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "D3D12.lib",
+  "req.dll": "D3D12.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "ID3D12SDKConfiguration::SetSDKVersion",
+    "d3d12/ID3D12SDKConfiguration::SetSDKVersion"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "D3D12.dll"
+  ],
+  "api_name": [
+    "ID3D12SDKConfiguration::SetSDKVersion"
+  ]
+}

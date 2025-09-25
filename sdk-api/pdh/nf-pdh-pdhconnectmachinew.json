@@ -1,0 +1,63 @@
+{
+  "UID": "NF:pdh.PdhConnectMachineW",
+  "title": "PdhConnectMachineW function (pdh.h)",
+  "description": "Connects to the specified computer. (Unicode)",
+  "helpviewer_keywords": [
+    "PdhConnectMachine",
+    "PdhConnectMachine function [Perf]",
+    "PdhConnectMachineW",
+    "_win32_pdhconnectmachine",
+    "base.pdhconnectmachine",
+    "pdh/PdhConnectMachine",
+    "pdh/PdhConnectMachineW",
+    "perf.pdhconnectmachine"
+  ],
+  "old-location": "perf\\pdhconnectmachine.htm",
+  "tech.root": "perf",
+  "ms.assetid": "8f8b4651-b550-4b34-bb2f-d2497c56b572",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhConnectMachineW (Unicode) and PdhConnectMachineA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhConnectMachineW",
+    "pdh/PdhConnectMachineW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhConnectMachine",
+    "PdhConnectMachineA",
+    "PdhConnectMachineW"
+  ]
+}

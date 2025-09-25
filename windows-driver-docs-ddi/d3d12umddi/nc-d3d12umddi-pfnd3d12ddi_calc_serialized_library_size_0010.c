@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010 Pfnd3d12ddiCalcSerializedLibrarySize0010;
+
+SIZE_T Pfnd3d12ddiCalcSerializedLibrarySize0010(
+  D3D12DDI_HDEVICE hDevice,
+  D3D12DDI_HPIPELINELIBRARY hLibrary
+)
+{...}

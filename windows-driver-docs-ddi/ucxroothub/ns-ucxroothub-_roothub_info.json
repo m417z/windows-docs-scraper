@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ucxroothub._ROOTHUB_INFO",
+  "title": "_ROOTHUB_INFO (ucxroothub.h)",
+  "description": "Provides information about a USB root hub. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_INFO callback function.",
+  "old-location": "buses\\_roothub_info.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "ROOTHUB_INFO structure"
+  ],
+  "ms.keywords": "*PROOTHUB_INFO, P_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], _ROOTHUB_INFO, buses._roothub_info, ucxroothub/P_ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO",
+  "req.header": "ucxroothub.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ROOTHUB_INFO, *PROOTHUB_INFO",
+  "f1_keywords": [
+    "_ROOTHUB_INFO",
+    "ucxroothub/_ROOTHUB_INFO",
+    "PROOTHUB_INFO",
+    "ucxroothub/PROOTHUB_INFO",
+    "ROOTHUB_INFO",
+    "ucxroothub/ROOTHUB_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucxroothub.h"
+  ],
+  "api_name": [
+    "_ROOTHUB_INFO",
+    "PROOTHUB_INFO",
+    "ROOTHUB_INFO"
+  ]
+}

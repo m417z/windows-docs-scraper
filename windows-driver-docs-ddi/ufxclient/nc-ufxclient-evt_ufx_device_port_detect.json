@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ufxclient.EVT_UFX_DEVICE_PORT_DETECT",
+  "title": "EVT_UFX_DEVICE_PORT_DETECT (ufxclient.h)",
+  "description": "The client driver's implementation to initiate port detection.",
+  "old-location": "buses\\evt_ufx_device_port_detect.htm",
+  "tech.root": "usbref",
+  "ms.date": "01/18/2022",
+  "keywords": [
+    "EVT_UFX_DEVICE_PORT_DETECT callback function"
+  ],
+  "ms.keywords": "EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT callback, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect",
+  "req.header": "ufxclient.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UFX_DEVICE_PORT_DETECT",
+    "ufxclient/EVT_UFX_DEVICE_PORT_DETECT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ufxclient.h"
+  ],
+  "api_name": [
+    "EVT_UFX_DEVICE_PORT_DETECT"
+  ]
+}

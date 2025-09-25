@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._IOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+  "tech.root": "kernel",
+  "title": "IOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+  "ms.date": "06/04/2021",
+  "targetos": "Windows",
+  "description": "The IOMMU_DMA_LOGICAL_ADDRESS_TOKEN represents a reserved contiguous logical address range created by IOMMU_RESERVE_LOGICAL_ADDRESS_RANGE.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "IOMMU_DMA_LOGICAL_ADDRESS_TOKEN, *PIOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+    "PIOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+    "IOMMU_DMA_LOGICAL_ADDRESS_TOKEN"
+  ],
+  "f1_keywords": [
+    "_IOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+    "wdm/_IOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+    "PIOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+    "wdm/PIOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+    "IOMMU_DMA_LOGICAL_ADDRESS_TOKEN",
+    "wdm/IOMMU_DMA_LOGICAL_ADDRESS_TOKEN"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

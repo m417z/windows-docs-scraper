@@ -1,0 +1,44 @@
+{
+  "UID": "NF:dcomp.DCompositionGetTargetStatistics",
+  "tech.root": "directcomp",
+  "title": "DCompositionGetTargetStatistics",
+  "ms.date": "06/24/2021",
+  "targetos": "Windows",
+  "description": null,
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dcomp.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "dcomp.dll"
+  ],
+  "api_name": [
+    "DCompositionGetTargetStatistics"
+  ],
+  "f1_keywords": [
+    "DCompositionGetTargetStatistics",
+    "dcomp/DCompositionGetTargetStatistics"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

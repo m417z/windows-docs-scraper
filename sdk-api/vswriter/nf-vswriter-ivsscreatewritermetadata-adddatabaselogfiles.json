@@ -1,0 +1,65 @@
+{
+  "UID": "NF:vswriter.IVssCreateWriterMetadata.AddDatabaseLogFiles",
+  "title": "IVssCreateWriterMetadata::AddDatabaseLogFiles (vswriter.h)",
+  "description": "The AddDatabaseLogFiles method indicates the log files that are associated with a database to be backed up, as well as their location.",
+  "helpviewer_keywords": [
+    "AddDatabaseLogFiles",
+    "AddDatabaseLogFiles method [VSS]",
+    "AddDatabaseLogFiles method [VSS]",
+    "IVssCreateWriterMetadata interface",
+    "IVssCreateWriterMetadata interface [VSS]",
+    "AddDatabaseLogFiles method",
+    "IVssCreateWriterMetadata.AddDatabaseLogFiles",
+    "IVssCreateWriterMetadata::AddDatabaseLogFiles",
+    "_win32_ivsscreatewritermetadata_adddatabaselogfiles",
+    "base.ivsscreatewritermetadata_adddatabaselogfiles",
+    "vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles"
+  ],
+  "old-location": "base\\ivsscreatewritermetadata_adddatabaselogfiles.htm",
+  "tech.root": "base",
+  "ms.assetid": "09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AddDatabaseLogFiles, AddDatabaseLogFiles method [VSS], AddDatabaseLogFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseLogFiles method, IVssCreateWriterMetadata.AddDatabaseLogFiles, IVssCreateWriterMetadata::AddDatabaseLogFiles, _win32_ivsscreatewritermetadata_adddatabaselogfiles, base.ivsscreatewritermetadata_adddatabaselogfiles, vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles",
+  "req.header": "vswriter.h",
+  "req.include-header": "Vss.h, VsWriter.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "VssApi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVssCreateWriterMetadata::AddDatabaseLogFiles",
+    "vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "VssApi.lib",
+    "VssApi.dll"
+  ],
+  "api_name": [
+    "IVssCreateWriterMetadata.AddDatabaseLogFiles"
+  ]
+}

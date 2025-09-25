@@ -1,0 +1,62 @@
+{
+  "UID": "NF:wininet.GopherFindFirstFileW",
+  "title": "GopherFindFirstFileW function (wininet.h)",
+  "description": "Uses a Gopher locator and search criteria to create a session with the server and locate the requested documents, binary files, index servers, or directory trees. (Unicode)",
+  "helpviewer_keywords": [
+    "GopherFindFirstFile",
+    "GopherFindFirstFile function [WinINet]",
+    "GopherFindFirstFileW",
+    "_inet_gopherfindfirstfile_function",
+    "wininet.gopherfindfirstfile",
+    "wininet/GopherFindFirstFile",
+    "wininet/GopherFindFirstFileW"
+  ],
+  "old-location": "wininet\\gopherfindfirstfile.htm",
+  "tech.root": "wininet",
+  "ms.assetid": "801dc601-9d1d-4f7d-acf0-b36ea2314d70",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GopherFindFirstFile, GopherFindFirstFile function [WinINet], GopherFindFirstFileA, GopherFindFirstFileW, _inet_gopherfindfirstfile_function, wininet.gopherfindfirstfile, wininet/GopherFindFirstFile, wininet/GopherFindFirstFileA, wininet/GopherFindFirstFileW",
+  "req.header": "wininet.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GopherFindFirstFileW (Unicode) and GopherFindFirstFileA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wininet.lib",
+  "req.dll": "Wininet.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GopherFindFirstFileW",
+    "wininet/GopherFindFirstFileW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wininet.dll"
+  ],
+  "api_name": [
+    "GopherFindFirstFile",
+    "GopherFindFirstFileA",
+    "GopherFindFirstFileW"
+  ]
+}

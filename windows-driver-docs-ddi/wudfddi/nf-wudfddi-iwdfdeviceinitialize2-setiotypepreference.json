@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDeviceInitialize2.SetIoTypePreference",
+  "title": "IWDFDeviceInitialize2::SetIoTypePreference (wudfddi.h)",
+  "description": "The SetIoTypePreference method specifies your preferences for how UMDF and the driver access the data buffers of a device's I/O requests.",
+  "old-location": "wdf\\iwdfdeviceinitialize2_setiotypepreference.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDeviceInitialize2::SetIoTypePreference"
+  ],
+  "ms.keywords": "IWDFDeviceInitialize2 interface,SetIoTypePreference method, IWDFDeviceInitialize2.SetIoTypePreference, IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference, SetIoTypePreference method, SetIoTypePreference method,IWDFDeviceInitialize2 interface, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.9,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDeviceInitialize2::SetIoTypePreference",
+    "wudfddi/IWDFDeviceInitialize2::SetIoTypePreference"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDeviceInitialize2::SetIoTypePreference"
+  ]
+}

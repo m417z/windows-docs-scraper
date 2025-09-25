@@ -1,0 +1,3 @@
+void D3D12_GET_COARSE_SHADING_RATE_Y_AXIS(
+  y
+);

@@ -1,0 +1,8 @@
+DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO DxgkddiMonitorfrequencyrangesetAcquirenextfrequencyrangeinfo;
+
+NTSTATUS DxgkddiMonitorfrequencyrangesetAcquirenextfrequencyrangeinfo(
+  [in]  IN_CONST_D3DKMDT_HMONITORFREQUENCYRANGESET hMonitorFrequencyRangeSet,
+  [in]  IN_CONST_PD3DKMDT_MONITOR_FREQUENCY_RANGE_CONST pMonitorFrequencyRangeInfo,
+  [out] DEREF_OUT_CONST_PPD3DKMDT_MONITOR_FREQUENCY_RANGE ppNextMonitorFrequencyRangeInfo
+)
+{...}

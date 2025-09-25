@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetMultiPlaneOverlayCaps(
+  D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS *unnamedParam1
+);

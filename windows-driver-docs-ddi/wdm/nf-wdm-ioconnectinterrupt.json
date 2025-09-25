@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.IoConnectInterrupt",
+  "title": "IoConnectInterrupt function (wdm.h)",
+  "description": "The IoConnectInterrupt routine registers a device driver's InterruptService routine (ISR), so that it will be called when a device interrupts on any of a specified set of processors.",
+  "old-location": "kernel\\ioconnectinterrupt.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IoConnectInterrupt function"
+  ],
+  "ms.keywords": "IoConnectInterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, kernel.ioconnectinterrupt, wdm/IoConnectInterrupt",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "IrqlIoPassive2, PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IoConnectInterrupt",
+    "wdm/IoConnectInterrupt"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "IoConnectInterrupt"
+  ]
+}

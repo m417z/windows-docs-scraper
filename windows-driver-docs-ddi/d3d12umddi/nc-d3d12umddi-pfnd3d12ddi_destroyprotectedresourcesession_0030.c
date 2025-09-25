@@ -1,0 +1,7 @@
+PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 Pfnd3d12ddiDestroyprotectedresourcesession0030;
+
+VOID Pfnd3d12ddiDestroyprotectedresourcesession0030(
+  D3D12DDI_HDEVICE hDrvDevice,
+  D3D12DDI_HPROTECTEDRESOURCESESSION_0030 hDrvProtectedResourceSession
+)
+{...}

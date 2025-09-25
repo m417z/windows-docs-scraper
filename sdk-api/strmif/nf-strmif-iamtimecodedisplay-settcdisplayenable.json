@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IAMTimecodeDisplay.SetTCDisplayEnable",
+  "title": "IAMTimecodeDisplay::SetTCDisplayEnable (strmif.h)",
+  "description": "The SetTCDisplayEnable method enables or disables an external device's timecode character output generator.",
+  "helpviewer_keywords": [
+    "IAMTimecodeDisplay interface [DirectShow]",
+    "SetTCDisplayEnable method",
+    "IAMTimecodeDisplay.SetTCDisplayEnable",
+    "IAMTimecodeDisplay::SetTCDisplayEnable",
+    "IAMTimecodeDisplaySetTCDisplayEnable",
+    "SetTCDisplayEnable",
+    "SetTCDisplayEnable method [DirectShow]",
+    "SetTCDisplayEnable method [DirectShow]",
+    "IAMTimecodeDisplay interface",
+    "dshow.iamtimecodedisplay_settcdisplayenable",
+    "strmif/IAMTimecodeDisplay::SetTCDisplayEnable"
+  ],
+  "old-location": "dshow\\iamtimecodedisplay_settcdisplayenable.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "ae4eeeaa-1c73-4e3a-82b1-a073d9c7d667",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IAMTimecodeDisplay interface [DirectShow],SetTCDisplayEnable method, IAMTimecodeDisplay.SetTCDisplayEnable, IAMTimecodeDisplay::SetTCDisplayEnable, IAMTimecodeDisplaySetTCDisplayEnable, SetTCDisplayEnable, SetTCDisplayEnable method [DirectShow], SetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplayenable, strmif/IAMTimecodeDisplay::SetTCDisplayEnable",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMTimecodeDisplay::SetTCDisplayEnable",
+    "strmif/IAMTimecodeDisplay::SetTCDisplayEnable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMTimecodeDisplay.SetTCDisplayEnable"
+  ]
+}

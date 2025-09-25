@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetContextInProcessSchedulingPriority(
+  D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY *unnamedParam1
+);

@@ -1,0 +1,3 @@
+UINT GetPixelFormatSize(
+  PixelFormat pixfmt
+);

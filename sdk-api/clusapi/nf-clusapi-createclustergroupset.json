@@ -1,0 +1,60 @@
+{
+  "UID": "NF:clusapi.CreateClusterGroupSet",
+  "title": "CreateClusterGroupSet function (clusapi.h)",
+  "description": "Adds a groupset to a cluster and returns a handle to the newly added groupset.",
+  "helpviewer_keywords": [
+    "CreateClusterGroupSet",
+    "CreateClusterGroupSet function [Failover Cluster]",
+    "PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET",
+    "PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET function [Failover Cluster]",
+    "clusapi/CreateClusterGroupSet",
+    "clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET",
+    "mscs.createclustergroupcollection"
+  ],
+  "old-location": "mscs\\createclustergroupcollection.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "cb0cdf78-c6d6-47b3-bd11-5ab70416131b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateClusterGroupSet, CreateClusterGroupSet function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/CreateClusterGroupSet, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, mscs.createclustergroupcollection",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateClusterGroupSet",
+    "clusapi/CreateClusterGroupSet"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "CreateClusterGroupSet"
+  ]
+}

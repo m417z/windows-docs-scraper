@@ -1,0 +1,6 @@
+typedef struct tagEMRINVERTRGN {
+  EMR   emr;
+  RECTL rclBounds;
+  DWORD cbRgnData;
+  BYTE  RgnData[1];
+} EMRINVERTRGN, *PEMRINVERTRGN, EMRPAINTRGN, *PEMRPAINTRGN;

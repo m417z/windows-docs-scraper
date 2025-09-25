@@ -1,0 +1,13 @@
+# IEventClass2::get_MultiInterfacePublisherFilterCLSID
+
+## Description
+
+The CLSID of the object implementing [IMultiInterfacePublisherFilter](https://learn.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter).
+
+This property is read/write.
+
+## Parameters
+
+## See also
+
+[IEventClass2](https://learn.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass2)

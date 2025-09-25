@@ -1,0 +1,4 @@
+typedef struct _DHCP_ATTRIB_ARRAY {
+  ULONG         NumElements;
+  LPDHCP_ATTRIB DhcpAttribs;
+} DHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, *LPDHCP_ATTRIB_ARRAY;

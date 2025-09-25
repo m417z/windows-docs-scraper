@@ -1,0 +1,4 @@
+typedef struct _WTS_CLIENT_ADDRESS {
+  DWORD AddressFamily;
+  BYTE  Address[20];
+} WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS;

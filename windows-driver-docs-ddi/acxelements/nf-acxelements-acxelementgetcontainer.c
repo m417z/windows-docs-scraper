@@ -1,0 +1,3 @@
+ACXOBJECT AcxElementGetContainer(
+  ACXELEMENT Element
+);

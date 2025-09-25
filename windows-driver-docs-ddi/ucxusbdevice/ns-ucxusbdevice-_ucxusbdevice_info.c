@@ -1,0 +1,6 @@
+typedef struct _UCXUSBDEVICE_INFO {
+  ULONG                Size;
+  USB_DEVICE_SPEED     DeviceSpeed;
+  UCXUSBDEVICE         TtHub;
+  USB_DEVICE_PORT_PATH PortPath;
+} UCXUSBDEVICE_INFO, *PUCXUSBDEVICE_INFO;

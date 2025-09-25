@@ -1,0 +1,62 @@
+{
+  "UID": "NF:dwrite_3.IDWriteFontCollection3.GetExpirationEvent",
+  "title": "IDWriteFontCollection3::GetExpirationEvent",
+  "description": "Retrieves the expiration event for the font set, if any. The expiration event is set on a system font set object if it is out of date due to fonts being installed, uninstalled, or updated. (IDWriteFontCollection3::GetExpirationEvent)",
+  "helpviewer_keywords": [
+    "IDWriteFontCollection3 interface [Direct Write]",
+    "GetExpirationEvent method",
+    "IDWriteFontCollection3.GetExpirationEvent",
+    "IDWriteFontCollection3::GetExpirationEvent",
+    "GetExpirationEvent",
+    "GetExpirationEvent method [Direct Write]",
+    "GetExpirationEvent method [Direct Write]",
+    "IDWriteFontCollection3 interface",
+    "directwrite.idwritefontcollection3_getexpirationevent",
+    "dwrite_3/IDWriteFontCollection3::GetExpirationEvent"
+  ],
+  "tech.root": "DirectWrite",
+  "ms.date": "09/10/2025",
+  "ms.keywords": "IDWriteFontCollection3 interface [Direct Write],GetExpirationEvent method, IDWriteFontCollection3.GetExpirationEvent, IDWriteFontCollection3::GetExpirationEvent, GetExpirationEvent, GetExpirationEvent method [Direct Write], GetExpirationEvent method [Direct Write],IDWriteFontCollection3 interface, directwrite.idwritefontcollection3_getexpirationevent, dwrite_3/IDWriteFontCollection3::GetExpirationEvent",
+  "req.construct-type": "function",
+  "req.header": "dwrite_3.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 17134",
+  "req.target-min-winversvr": "Windows 10 Build 17134",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dwrite.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "IDWriteFontCollection3::GetExpirationEvent",
+    "dwrite_3/IDWriteFontCollection3::GetExpirationEvent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Dwrite.lib",
+    "Dwrite.dll"
+  ],
+  "api_name": [
+    "IDWriteFontCollection3::GetExpirationEvent"
+  ]
+}

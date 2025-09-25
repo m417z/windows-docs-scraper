@@ -1,0 +1,4 @@
+typedef enum RILFUNCTIONRESULTS {
+  RIL_RESULT_OK,
+  RIL_RESULT_ERROR
+} ;

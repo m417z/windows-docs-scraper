@@ -1,0 +1,50 @@
+{
+  "UID": "NF:appmodel.DeletePackageDependency",
+  "tech.root": "appxpkg",
+  "title": "DeletePackageDependency",
+  "ms.date": "7/12/2021",
+  "targetos": "Windows",
+  "description": "Deletes the install-time reference for the framework package dependency you created earlier by using the TryCreatePackageDependency method. This method informs the OS that it is safe to remove the framework package if no other apps have a dependency on it.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "appmodel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 (introduced in 10.0.22000.0)",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-appmodel-runtime-l1-1-7.dll",
+    "api-ms-win-appmodel-runtime-l1-1-6.dll",
+    "api-ms-win-appmodel-runtime-l1-1-5.dll",
+    "appmodel.h"
+  ],
+  "api_name": [
+    "DeletePackageDependency"
+  ],
+  "f1_keywords": [
+    "DeletePackageDependency",
+    "appmodel/DeletePackageDependency"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

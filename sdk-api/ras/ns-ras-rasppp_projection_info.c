@@ -1,0 +1,25 @@
+typedef struct _RASPPP_PROJECTION_INFO {
+  DWORD       dwIPv4NegotiationError;
+  RASIPV4ADDR ipv4Address;
+  RASIPV4ADDR ipv4ServerAddress;
+  DWORD       dwIPv4Options;
+  DWORD       dwIPv4ServerOptions;
+  DWORD       dwIPv6NegotiationError;
+  BYTE        bInterfaceIdentifier[8];
+  BYTE        bServerInterfaceIdentifier[8];
+  BOOL        fBundled;
+  BOOL        fMultilink;
+  DWORD       dwAuthenticationProtocol;
+  DWORD       dwAuthenticationData;
+  DWORD       dwServerAuthenticationProtocol;
+  DWORD       dwServerAuthenticationData;
+  DWORD       dwEapTypeId;
+  DWORD       dwServerEapTypeId;
+  DWORD       dwLcpOptions;
+  DWORD       dwLcpServerOptions;
+  DWORD       dwCcpError;
+  DWORD       dwCcpCompressionAlgorithm;
+  DWORD       dwCcpServerCompressionAlgorithm;
+  DWORD       dwCcpOptions;
+  DWORD       dwCcpServerOptions;
+} RASPPP_PROJECTION_INFO, *PRASPPP_PROJECTION_INFO;

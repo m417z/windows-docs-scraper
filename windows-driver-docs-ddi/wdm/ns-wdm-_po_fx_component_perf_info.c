@@ -1,0 +1,4 @@
+typedef struct _PO_FX_COMPONENT_PERF_INFO {
+  ULONG                    PerfStateSetsCount;
+  PO_FX_COMPONENT_PERF_SET PerfStateSets[ANYSIZE_ARRAY];
+} PO_FX_COMPONENT_PERF_INFO, *PPO_FX_COMPONENT_PERF_INFO;

@@ -1,0 +1,5 @@
+typedef struct _CM_FULL_RESOURCE_DESCRIPTOR {
+  INTERFACE_TYPE           InterfaceType;
+  ULONG                    BusNumber;
+  CM_PARTIAL_RESOURCE_LIST PartialResourceList;
+} CM_FULL_RESOURCE_DESCRIPTOR, *PCM_FULL_RESOURCE_DESCRIPTOR;

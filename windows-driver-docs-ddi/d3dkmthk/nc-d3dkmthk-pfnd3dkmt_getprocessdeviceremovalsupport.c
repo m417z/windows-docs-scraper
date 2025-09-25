@@ -1,0 +1,6 @@
+PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT PfnD3dkmtGetProcessDeviceRemovalSupport;
+
+NTSTATUS PfnD3dkmtGetProcessDeviceRemovalSupport(
+    D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT *unnamedParam1
+)
+{...}

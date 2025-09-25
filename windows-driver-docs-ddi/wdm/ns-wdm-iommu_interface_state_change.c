@@ -1,0 +1,4 @@
+typedef struct _IOMMU_INTERFACE_STATE_CHANGE {
+  IOMMU_INTERFACE_STATE_CHANGE_FIELDS PresentFields;
+  ULONG                               AvailableDomainTypes;
+} IOMMU_INTERFACE_STATE_CHANGE, *PIOMMU_INTERFACE_STATE_CHANGE;

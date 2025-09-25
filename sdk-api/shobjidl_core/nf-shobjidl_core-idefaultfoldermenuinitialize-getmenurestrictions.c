@@ -1,0 +1,4 @@
+HRESULT GetMenuRestrictions(
+  [in]  DEFAULT_FOLDER_MENU_RESTRICTIONS dfmrMask,
+  [out] DEFAULT_FOLDER_MENU_RESTRICTIONS *pdfmrValues
+);

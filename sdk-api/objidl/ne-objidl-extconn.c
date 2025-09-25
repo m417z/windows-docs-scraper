@@ -1,0 +1,5 @@
+typedef enum tagEXTCONN {
+  EXTCONN_STRONG = 0x1,
+  EXTCONN_WEAK = 0x2,
+  EXTCONN_CALLABLE = 0x4
+} EXTCONN;

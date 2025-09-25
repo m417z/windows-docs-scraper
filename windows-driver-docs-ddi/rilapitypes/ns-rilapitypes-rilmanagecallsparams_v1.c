@@ -1,0 +1,5 @@
+typedef struct RILMANAGECALLSPARAMS_V1 {
+  DWORD                      dwExecutor;
+  RILMANAGECALLPARAMSCOMMAND dwCommand;
+  DWORD                      dwID;
+} RILMANAGECALLSPARAMS_V1, *LPRILMANAGECALLSPARAMS_V1;

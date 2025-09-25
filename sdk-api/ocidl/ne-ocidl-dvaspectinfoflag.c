@@ -1,0 +1,3 @@
+typedef enum tagAspectInfoFlag {
+  DVASPECTINFOFLAG_CANOPTIMIZE = 1
+} DVASPECTINFOFLAG;

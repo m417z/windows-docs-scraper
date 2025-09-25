@@ -1,0 +1,3 @@
+void NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER(
+  _PortPropertyCustom_
+);

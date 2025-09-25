@@ -1,0 +1,4 @@
+typedef struct _VOLUME_PHYSICAL_OFFSETS {
+  ULONG                  NumberOfPhysicalOffsets;
+  VOLUME_PHYSICAL_OFFSET PhysicalOffset[ANYSIZE_ARRAY];
+} VOLUME_PHYSICAL_OFFSETS, *PVOLUME_PHYSICAL_OFFSETS;

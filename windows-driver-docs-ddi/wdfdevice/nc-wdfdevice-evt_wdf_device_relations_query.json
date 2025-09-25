@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfdevice.EVT_WDF_DEVICE_RELATIONS_QUERY",
+  "title": "EVT_WDF_DEVICE_RELATIONS_QUERY (wdfdevice.h)",
+  "description": "A driver's EvtDeviceRelationsQuery event callback reports changes in the relationships among devices that are supported by the driver.",
+  "old-location": "wdf\\evtdevicerelationsquery.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_DEVICE_RELATIONS_QUERY callback function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_b34ffaf4-1e73-4463-87fd-31350656a7a5.xml, EVT_WDF_DEVICE_RELATIONS_QUERY, EVT_WDF_DEVICE_RELATIONS_QUERY callback, EvtDeviceRelationsQuery, EvtDeviceRelationsQuery callback function, kmdf.evtdevicerelationsquery, wdf.evtdevicerelationsquery, wdfdevice/EvtDeviceRelationsQuery",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_DEVICE_RELATIONS_QUERY",
+    "wdfdevice/EVT_WDF_DEVICE_RELATIONS_QUERY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfdevice.h"
+  ],
+  "api_name": [
+    "EVT_WDF_DEVICE_RELATIONS_QUERY"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.capPaletteAuto",
+  "title": "capPaletteAuto macro (vfw.h)",
+  "description": "The capPaletteAuto macro requests that the capture driver sample video frames and automatically create a new palette. You can use this macro or explicitly call the WM_CAP_PAL_AUTOCREATE message.",
+  "helpviewer_keywords": [
+    "_win32_capPaletteAuto",
+    "capPaletteAuto",
+    "capPaletteAuto macro [Windows Multimedia]",
+    "multimedia.cappaletteauto",
+    "vfw/capPaletteAuto"
+  ],
+  "old-location": "multimedia\\cappaletteauto.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "d83e7dbc-d063-4e76-a7a1-37eaf73b5e8a",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "_win32_capPaletteAuto, capPaletteAuto, capPaletteAuto macro [Windows Multimedia], multimedia.cappaletteauto, vfw/capPaletteAuto",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "capPaletteAuto",
+    "vfw/capPaletteAuto"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "capPaletteAuto"
+  ]
+}

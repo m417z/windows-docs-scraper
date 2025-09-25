@@ -1,0 +1,4 @@
+typedef struct _CRYPT_CONTEXT_CONFIG {
+  ULONG dwFlags;
+  ULONG dwReserved;
+} CRYPT_CONTEXT_CONFIG, *PCRYPT_CONTEXT_CONFIG;

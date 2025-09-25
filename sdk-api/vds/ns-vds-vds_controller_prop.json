@@ -1,0 +1,69 @@
+{
+  "UID": "NS:vds._VDS_CONTROLLER_PROP",
+  "title": "VDS_CONTROLLER_PROP (vds.h)",
+  "description": "The VDS_CONTROLLER_PROP structure (vds.h) defines the properties of a controller object.",
+  "helpviewer_keywords": [
+    "*PVDS_CONTROLLER_PROP",
+    "VDS_CONTROLLER_PROP",
+    "VDS_CONTROLLER_PROP structure [VDS]",
+    "VDS_H_DEGRADED",
+    "VDS_H_FAILED",
+    "VDS_H_HEALTHY",
+    "VDS_H_REPLACED",
+    "VDS_H_UNKNOWN",
+    "base.vds_controller_prop",
+    "vds/_VDS_CONTROLLER_PROP",
+    "vdshwprv/_VDS_CONTROLLER_PROP"
+  ],
+  "old-location": "base\\vds_controller_prop.htm",
+  "tech.root": "base",
+  "ms.assetid": "b9da3920-9bae-4198-ba0d-a0755aee15e4",
+  "ms.date": "08/05/2022",
+  "ms.keywords": "*PVDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP structure [VDS], VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_REPLACED, VDS_H_UNKNOWN, base.vds_controller_prop, vds/_VDS_CONTROLLER_PROP, vdshwprv/_VDS_CONTROLLER_PROP",
+  "req.header": "vds.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "VDS_CONTROLLER_PROP, *PVDS_CONTROLLER_PROP",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_VDS_CONTROLLER_PROP",
+    "vds/_VDS_CONTROLLER_PROP",
+    "PVDS_CONTROLLER_PROP",
+    "vds/PVDS_CONTROLLER_PROP",
+    "VDS_CONTROLLER_PROP",
+    "vds/VDS_CONTROLLER_PROP"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vds.h",
+    "VdsHwPrv.h"
+  ],
+  "api_name": [
+    "VDS_CONTROLLER_PROP"
+  ]
+}

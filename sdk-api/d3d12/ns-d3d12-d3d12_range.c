@@ -1,0 +1,4 @@
+typedef struct D3D12_RANGE {
+  SIZE_T Begin;
+  SIZE_T End;
+} D3D12_RANGE;

@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdfio._WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+  "title": "_WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY (wdfio.h)",
+  "description": "The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure contains driver-supplied information that the framework uses to enable guaranteed forward progress for an I/O queue.",
+  "old-location": "wdf\\wdf_io_queue_forward_progress_policy.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure"
+  ],
+  "ms.keywords": "*PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, DFQueueObjectRef_cfd7143c-1ca1-4ecf-a840-0007971f9197.xml, PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure pointer, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure, _WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, kmdf.wdf_io_queue_forward_progress_policy, wdf.wdf_io_queue_forward_progress_policy, wdfio/PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.9,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY, *PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+  "f1_keywords": [
+    "_WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+    "wdfio/_WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+    "PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+    "wdfio/PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+    "WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+    "wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdfio.h"
+  ],
+  "api_name": [
+    "_WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+    "PWDF_IO_QUEUE_FORWARD_PROGRESS_POLICY",
+    "WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY"
+  ]
+}

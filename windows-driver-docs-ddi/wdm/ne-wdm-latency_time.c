@@ -1,0 +1,4 @@
+typedef enum {
+  LT_DONT_CARE,
+  LT_LOWEST_LATENCY
+} LATENCY_TIME;

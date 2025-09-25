@@ -1,0 +1,3 @@
+HRESULT IsInvocable(
+  bool *isInvocable
+);

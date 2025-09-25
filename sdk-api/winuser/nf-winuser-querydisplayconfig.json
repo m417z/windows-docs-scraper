@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winuser.QueryDisplayConfig",
+  "title": "QueryDisplayConfig function (winuser.h)",
+  "description": "The QueryDisplayConfig function retrieves information about all possible display paths for all display devices, or views, in the current setting.",
+  "helpviewer_keywords": [
+    "CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml",
+    "QueryDisplayConfig",
+    "QueryDisplayConfig function [Display Devices]",
+    "display.querydisplayconfig",
+    "winuser/QueryDisplayConfig"
+  ],
+  "old-location": "display\\querydisplayconfig.htm",
+  "tech.root": "display",
+  "ms.assetid": "b1792d7f-f216-4250-a6b6-a11b251a9cec",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml, QueryDisplayConfig, QueryDisplayConfig function [Display Devices], display.querydisplayconfig, winuser/QueryDisplayConfig",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib; OneCoreUAP.lib on Windows 10",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "QueryDisplayConfig",
+    "winuser/QueryDisplayConfig"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "API-MS-Win-NTUser-SysParams-l1-1-0.dll",
+    "Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll",
+    "MinUser.dll"
+  ],
+  "api_name": [
+    "QueryDisplayConfig"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)"
+}

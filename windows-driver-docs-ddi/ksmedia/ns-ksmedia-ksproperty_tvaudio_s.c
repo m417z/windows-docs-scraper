@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY Property;
+  ULONG      Mode;
+} KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S;

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:rpcndr.NdrSimpleStructBufferSize",
+  "title": "NdrSimpleStructBufferSize function (rpcndr.h)",
+  "description": "The NdrSimpleStructBufferSize function calculates the required buffer size, in bytes, to marshal the simple structure.",
+  "helpviewer_keywords": [
+    "NdrSimpleStructBufferSize",
+    "NdrSimpleStructBufferSize function [Windows API]",
+    "rpcndr/NdrSimpleStructBufferSize",
+    "winprog.ndrsimplestructbuffersize"
+  ],
+  "old-location": "winprog\\ndrsimplestructbuffersize.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "e88eaed3-0676-4c43-8ac1-7a5e19fc5748",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NdrSimpleStructBufferSize, NdrSimpleStructBufferSize function [Windows API], rpcndr/NdrSimpleStructBufferSize, winprog.ndrsimplestructbuffersize",
+  "req.header": "rpcndr.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rpcrt4.lib",
+  "req.dll": "Rpcrt4.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NdrSimpleStructBufferSize",
+    "rpcndr/NdrSimpleStructBufferSize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcrt4.dll"
+  ],
+  "api_name": [
+    "NdrSimpleStructBufferSize"
+  ]
+}

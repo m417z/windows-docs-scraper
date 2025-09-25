@@ -1,0 +1,64 @@
+{
+  "UID": "NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportError",
+  "title": "ITpmVirtualSmartCardManagerStatusCallback::ReportError (tpmvscmgr.h)",
+  "description": "Reports any errors from the requested operation.",
+  "helpviewer_keywords": [
+    "ITpmVirtualSmartCardManagerStatusCallback interface [Security]",
+    "ReportError method",
+    "ITpmVirtualSmartCardManagerStatusCallback.ReportError",
+    "ITpmVirtualSmartCardManagerStatusCallback::ReportError",
+    "ReportError",
+    "ReportError method [Security]",
+    "ReportError method [Security]",
+    "ITpmVirtualSmartCardManagerStatusCallback interface",
+    "security.itpmvirtualsmartcardmanagerstatuscallback_reporterror",
+    "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError"
+  ],
+  "old-location": "security\\itpmvirtualsmartcardmanagerstatuscallback_reporterror.htm",
+  "tech.root": "security",
+  "ms.assetid": "936F22EA-1C9F-4328-B71F-FA7720396F6F",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportError method, ITpmVirtualSmartCardManagerStatusCallback.ReportError, ITpmVirtualSmartCardManagerStatusCallback::ReportError, ReportError, ReportError method [Security], ReportError method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reporterror, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError",
+  "req.header": "tpmvscmgr.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Tpmvscmgr.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Vscmgr.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITpmVirtualSmartCardManagerStatusCallback::ReportError",
+    "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Vscmgr.lib",
+    "Vscmgr.dll"
+  ],
+  "api_name": [
+    "ITpmVirtualSmartCardManagerStatusCallback.ReportError"
+  ]
+}

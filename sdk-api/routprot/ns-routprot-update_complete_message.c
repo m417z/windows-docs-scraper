@@ -1,0 +1,5 @@
+typedef struct _UPDATE_COMPLETE_MESSAGE {
+  ULONG InterfaceIndex;
+  ULONG UpdateType;
+  ULONG UpdateStatus;
+} UPDATE_COMPLETE_MESSAGE, *PUPDATE_COMPLETE_MESSAGE;

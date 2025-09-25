@@ -1,0 +1,3 @@
+void KdBreakPointWithStatus(
+  [in] s
+);

@@ -1,0 +1,20 @@
+typedef struct _ADRPARM {
+  ULONG          cbABContEntryID;
+  LPENTRYID      lpABContEntryID;
+  ULONG          ulFlags;
+  LPVOID         lpReserved;
+  ULONG          ulHelpContext;
+  LPTSTR         lpszHelpFileName;
+  LPFNABSDI      lpfnABSDI;
+  LPFNDISMISS    lpfnDismiss;
+  LPVOID         lpvDismissContext;
+  LPTSTR         lpszCaption;
+  LPTSTR         lpszNewEntryTitle;
+  LPTSTR         lpszDestWellsTitle;
+  ULONG          cDestFields;
+  ULONG          nDestFieldFocus;
+  LPTSTR         *lppszDestTitles;
+  ULONG          *lpulDestComps;
+  LPSRestriction lpContRestriction;
+  LPSRestriction lpHierRestriction;
+} ADRPARM, *LPADRPARM;

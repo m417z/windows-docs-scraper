@@ -1,0 +1,1 @@
+_DECL_HAL_KE_IMPORT KIRQL KeRaiseIrqlToDpcLevel();

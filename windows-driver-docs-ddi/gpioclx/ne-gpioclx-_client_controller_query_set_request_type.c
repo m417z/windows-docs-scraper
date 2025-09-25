@@ -1,0 +1,6 @@
+typedef enum _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE {
+  QueryBankPowerInformation,
+  QueryBankInterruptBindingInformation,
+  QueryControllerFunctionBankMappingInformation,
+  QuerySetRequestMaximumType
+} CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE;

@@ -1,0 +1,3 @@
+HRESULT get_Reason(
+  ATTENDEE_DISCONNECT_REASON *pReason
+);

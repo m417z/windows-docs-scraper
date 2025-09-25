@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pepfx._PEP_COMPONENT_PERF_STATE_REQUEST",
+  "title": "_PEP_COMPONENT_PERF_STATE_REQUEST (pepfx.h)",
+  "description": "The PEP_COMPONENT_PERF_STATE_REQUEST structure specifies a performance state (P-state) set and a new performance level to assign to this set.",
+  "old-location": "kernel\\pep_component_perf_state_request.htm",
+  "tech.root": "kernel",
+  "ms.date": "08/10/2022",
+  "keywords": [
+    "PEP_COMPONENT_PERF_STATE_REQUEST structure"
+  ],
+  "ms.keywords": "*PPEP_COMPONENT_PERF_STATE_REQUEST, PEP_COMPONENT_PERF_STATE_REQUEST, PEP_COMPONENT_PERF_STATE_REQUEST structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_STATE_REQUEST, PPEP_COMPONENT_PERF_STATE_REQUEST structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_STATE_REQUEST, kernel.pep_component_perf_state_request, pepfx/PEP_COMPONENT_PERF_STATE_REQUEST, pepfx/PPEP_COMPONENT_PERF_STATE_REQUEST",
+  "req.header": "pepfx.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_COMPONENT_PERF_STATE_REQUEST, *PPEP_COMPONENT_PERF_STATE_REQUEST",
+  "f1_keywords": [
+    "_PEP_COMPONENT_PERF_STATE_REQUEST",
+    "pepfx/_PEP_COMPONENT_PERF_STATE_REQUEST",
+    "PPEP_COMPONENT_PERF_STATE_REQUEST",
+    "pepfx/PPEP_COMPONENT_PERF_STATE_REQUEST",
+    "PEP_COMPONENT_PERF_STATE_REQUEST",
+    "pepfx/PEP_COMPONENT_PERF_STATE_REQUEST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_COMPONENT_PERF_STATE_REQUEST",
+    "PPEP_COMPONENT_PERF_STATE_REQUEST",
+    "PEP_COMPONENT_PERF_STATE_REQUEST"
+  ]
+}

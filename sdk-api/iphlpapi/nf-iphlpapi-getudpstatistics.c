@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE ULONG GetUdpStatistics(
+  [out] PMIB_UDPSTATS Stats
+);

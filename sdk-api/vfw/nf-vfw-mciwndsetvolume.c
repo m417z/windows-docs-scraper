@@ -1,0 +1,4 @@
+LONG MCIWndSetVolume(
+     hwnd,
+     iVol
+);

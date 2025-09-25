@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMReaderAdvanced2.GetOutputSetting",
+  "title": "IWMReaderAdvanced2::GetOutputSetting (wmsdkidl.h)",
+  "description": "The GetOutputSetting method retrieves a setting for a particular output by name.",
+  "helpviewer_keywords": [
+    "GetOutputSetting",
+    "GetOutputSetting method [windows Media Format]",
+    "GetOutputSetting method [windows Media Format]",
+    "IWMReaderAdvanced2 interface",
+    "IWMReaderAdvanced2 interface [windows Media Format]",
+    "GetOutputSetting method",
+    "IWMReaderAdvanced2.GetOutputSetting",
+    "IWMReaderAdvanced2::GetOutputSetting",
+    "IWMReaderAdvanced2GetOutputSetting",
+    "wmformat.iwmreaderadvanced2_getoutputsetting",
+    "wmsdkidl/IWMReaderAdvanced2::GetOutputSetting"
+  ],
+  "old-location": "wmformat\\iwmreaderadvanced2_getoutputsetting.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "a46da973-8f2f-48b8-9a74-d54e67f68a83",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetOutputSetting method, IWMReaderAdvanced2.GetOutputSetting, IWMReaderAdvanced2::GetOutputSetting, IWMReaderAdvanced2GetOutputSetting, wmformat.iwmreaderadvanced2_getoutputsetting, wmsdkidl/IWMReaderAdvanced2::GetOutputSetting",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMReaderAdvanced2::GetOutputSetting",
+    "wmsdkidl/IWMReaderAdvanced2::GetOutputSetting"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMReaderAdvanced2.GetOutputSetting"
+  ]
+}

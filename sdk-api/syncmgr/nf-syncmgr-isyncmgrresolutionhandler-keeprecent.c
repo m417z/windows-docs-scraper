@@ -1,0 +1,3 @@
+HRESULT KeepRecent(
+  [out] SYNCMGR_RESOLUTION_FEEDBACK *pFeedback
+);

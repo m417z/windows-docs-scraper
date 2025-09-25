@@ -1,0 +1,1 @@
+NTPSHEDAPI BOOLEAN PshedIsSystemWheaEnabled();

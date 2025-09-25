@@ -1,0 +1,3 @@
+void gethostbyname(
+  [in] a
+);

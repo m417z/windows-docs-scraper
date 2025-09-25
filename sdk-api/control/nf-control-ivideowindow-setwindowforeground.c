@@ -1,0 +1,3 @@
+HRESULT SetWindowForeground(
+  long Focus
+);

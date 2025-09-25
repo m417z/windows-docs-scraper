@@ -1,0 +1,3 @@
+typedef enum WINML_RUNTIME_TYPE {
+  WINML_RUNTIME_CNTK = 0
+} ;

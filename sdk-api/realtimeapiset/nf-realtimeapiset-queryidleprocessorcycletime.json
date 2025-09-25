@@ -1,0 +1,64 @@
+{
+  "UID": "NF:realtimeapiset.QueryIdleProcessorCycleTime",
+  "title": "QueryIdleProcessorCycleTime function (realtimeapiset.h)",
+  "description": "Retrieves the cycle time for the idle thread of each processor in the system.",
+  "helpviewer_keywords": [
+    "QueryIdleProcessorCycleTime",
+    "QueryIdleProcessorCycleTime function",
+    "base.queryidleprocessorcycletime",
+    "realtimeapiset/QueryIdleProcessorCycleTime",
+    "winbase/QueryIdleProcessorCycleTime"
+  ],
+  "old-location": "base\\queryidleprocessorcycletime.htm",
+  "tech.root": "backup",
+  "ms.assetid": "75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06",
+  "ms.date": "09/26/2024",
+  "ms.keywords": "QueryIdleProcessorCycleTime, QueryIdleProcessorCycleTime function, base.queryidleprocessorcycletime, realtimeapiset/QueryIdleProcessorCycleTime, winbase/QueryIdleProcessorCycleTime",
+  "req.header": "realtimeapiset.h",
+  "req.include-header": "Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mincore.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "QueryIdleProcessorCycleTime",
+    "realtimeapiset/QueryIdleProcessorCycleTime"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-realtime-l1-1-2.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-realtime-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-RealTime-l1-1-1.dll"
+  ],
+  "api_name": [
+    "QueryIdleProcessorCycleTime"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _IO_SESSION_STATE_INFORMATION {
+  ULONG            SessionId;
+  IO_SESSION_STATE SessionState;
+  BOOLEAN          LocalSession;
+} IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION;

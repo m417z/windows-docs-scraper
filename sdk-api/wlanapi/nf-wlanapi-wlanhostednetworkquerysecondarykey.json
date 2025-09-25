@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wlanapi.WlanHostedNetworkQuerySecondaryKey",
+  "title": "WlanHostedNetworkQuerySecondaryKey function (wlanapi.h)",
+  "description": "Queries the secondary security key that is configured to be used by the wireless Hosted Network.",
+  "helpviewer_keywords": [
+    "WlanHostedNetworkQuerySecondaryKey",
+    "WlanHostedNetworkQuerySecondaryKey function [NativeWIFI]",
+    "nwifi.wlanhostednetworkquerysecondarykey",
+    "wlanapi/WlanHostedNetworkQuerySecondaryKey"
+  ],
+  "old-location": "nwifi\\wlanhostednetworkquerysecondarykey.htm",
+  "tech.root": "nwifi",
+  "ms.assetid": "5989977a-7a2f-43b8-a958-058db01fd24f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WlanHostedNetworkQuerySecondaryKey, WlanHostedNetworkQuerySecondaryKey function [NativeWIFI], nwifi.wlanhostednetworkquerysecondarykey, wlanapi/WlanHostedNetworkQuerySecondaryKey",
+  "req.header": "wlanapi.h",
+  "req.include-header": "Wlanapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wlanapi.lib",
+  "req.dll": "Wlanapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WlanHostedNetworkQuerySecondaryKey",
+    "wlanapi/WlanHostedNetworkQuerySecondaryKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wlanapi.dll"
+  ],
+  "api_name": [
+    "WlanHostedNetworkQuerySecondaryKey"
+  ]
+}

@@ -1,0 +1,3 @@
+DRMEXPORT HRESULT UDAPICALL DRMGetClientVersion(
+  [in] DRM_CLIENT_VERSION_INFO *pDRMClientVersionInfo
+);

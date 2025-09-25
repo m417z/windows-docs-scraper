@@ -1,0 +1,49 @@
+{
+  "UID": "NF:dbghelp.SymMatchStringA",
+  "tech.root": "Debug",
+  "title": "SymMatchStringA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "Compares the specified string to the specified wildcard expression. (SymMatchStringA)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Dbghelp.dll",
+  "req.header": "dbghelp.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Dbghelp.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": "DbgHelp.dll 6.2 or later",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dbghelp.dll"
+  ],
+  "api_name": [
+    "SymMatchStringA",
+    "SymMatchString"
+  ],
+  "f1_keywords": [
+    "SymMatchStringA",
+    "dbghelp/SymMatchStringA",
+    "SymMatchString",
+    "dbghelp/SymMatchString"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef struct _CREDENTIAL_ATTRIBUTEA {
+  LPSTR  Keyword;
+  DWORD  Flags;
+  DWORD  ValueSize;
+  LPBYTE Value;
+} CREDENTIAL_ATTRIBUTEA, *PCREDENTIAL_ATTRIBUTEA;

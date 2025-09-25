@@ -1,0 +1,57 @@
+{
+  "UID": "NF:setupapi.SetupDiGetClassRegistryPropertyA",
+  "title": "SetupDiGetClassRegistryPropertyA function (setupapi.h)",
+  "description": "The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry. (ANSI)",
+  "helpviewer_keywords": [
+    "SetupDiGetClassRegistryPropertyA",
+    "di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml"
+  ],
+  "old-location": "devinst\\setupdigetclassregistryproperty.htm",
+  "tech.root": "devinst",
+  "ms.assetid": "79a600af-15c1-4afc-a2cd-568b97d979dc",
+  "ms.date": "01/30/2023",
+  "ms.keywords": "SetupDiGetClassRegistryProperty, SetupDiGetClassRegistryProperty function [Device and Driver Installation], SetupDiGetClassRegistryPropertyA, SetupDiGetClassRegistryPropertyW, devinst.setupdigetclassregistryproperty, di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml, setupapi/SetupDiGetClassRegistryProperty",
+  "req.header": "setupapi.h",
+  "req.include-header": "Setupapi.h",
+  "req.target-type": "DesktopFor universal, call CM_Get_Class_Registry_Property",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupDiGetClassRegistryPropertyA",
+    "setupapi/SetupDiGetClassRegistryPropertyA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-setupapi-devobj-l1-1-0.dll",
+    "Setupapi.lib",
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupDiGetClassRegistryProperty - SetupDiGetClassRegistryPropertyA"
+  ]
+}

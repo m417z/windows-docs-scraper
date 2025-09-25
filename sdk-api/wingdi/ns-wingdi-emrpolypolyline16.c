@@ -1,0 +1,8 @@
+typedef struct tagEMRPOLYPOLYLINE16 {
+  EMR    emr;
+  RECTL  rclBounds;
+  DWORD  nPolys;
+  DWORD  cpts;
+  DWORD  aPolyCounts[1];
+  POINTS apts[1];
+} EMRPOLYPOLYLINE16, *PEMRPOLYPOLYLINE16, EMRPOLYPOLYGON16, *PEMRPOLYPOLYGON16;

@@ -1,0 +1,80 @@
+{
+  "UID": "NF:winbase.FindResourceA",
+  "title": "FindResourceA function (winbase.h)",
+  "description": "Determines the location of a resource with the specified type and name in the specified module. (FindResourceA)",
+  "helpviewer_keywords": [
+    "FindResource",
+    "FindResource function [Menus and Other Resources]",
+    "FindResourceA",
+    "FindResourceW",
+    "_win32_FindResource",
+    "_win32_findresource_cpp",
+    "menurc.findresource",
+    "winbase/FindResource",
+    "winbase/FindResourceA",
+    "winbase/FindResourceW",
+    "winui._win32_findresource"
+  ],
+  "old-location": "menurc\\findresource.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\introductiontoresources\\resourcereference\\resourcefunctions\\findresource.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FindResource, FindResource function [Menus and Other Resources], FindResourceA, FindResourceW, _win32_FindResource, _win32_findresource_cpp, menurc.findresource, winbase/FindResource, winbase/FindResourceA, winbase/FindResourceW, winui._win32_findresource",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "FindResourceW (Unicode) and FindResourceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FindResourceA",
+    "winbase/FindResourceA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-kernel32-legacy-l1-1-6.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll",
+    "kernel32legacy.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll",
+    "API-MS-Win-DownLevel-Kernel32-l2-1-0.dll",
+    "API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll",
+    "API-MS-Win-Core-Libraryloader-l1-2-1.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll",
+    "API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll",
+    "API-MS-Win-Core-LibraryLoader-L1-2-2.dll"
+  ],
+  "api_name": [
+    "FindResource",
+    "FindResourceA",
+    "FindResourceW"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef enum _WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE {
+  WdfReleaseHardwareOrderOnFailureInvalid = 0,
+  WdfReleaseHardwareOrderOnFailureEarly,
+  WdfReleaseHardwareOrderOnFailureAfterDescendants
+} WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE;

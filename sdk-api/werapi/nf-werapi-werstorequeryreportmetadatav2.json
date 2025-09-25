@@ -1,0 +1,61 @@
+{
+  "UID": "NF:werapi.WerStoreQueryReportMetadataV2",
+  "title": "WerStoreQueryReportMetadataV2 function (werapi.h)",
+  "description": "Retrieves metadata about a Windows Error Reporting (WER) report in the store.",
+  "helpviewer_keywords": [
+    "WerStoreQueryReportMetadataV2",
+    "WerStoreQueryReportMetadataV2 function [Windows Error Reporting]",
+    "wer.werstorequeryreportmetadatav2",
+    "werapi/WerStoreQueryReportMetadataV2"
+  ],
+  "old-location": "wer\\werstorequeryreportmetadatav2.htm",
+  "tech.root": "wer",
+  "ms.assetid": "ADF6619C-1F3E-4AFF-9E25-4F6F83D1353C",
+  "ms.date": "07/26/2023",
+  "ms.keywords": "WerStoreQueryReportMetadataV2, WerStoreQueryReportMetadataV2 function [Windows Error Reporting], wer.werstorequeryreportmetadatav2, werapi/WerStoreQueryReportMetadataV2",
+  "req.header": "werapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wer.lib",
+  "req.dll": "Wer.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WerStoreQueryReportMetadataV2",
+    "werapi/WerStoreQueryReportMetadataV2"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wer-reporting-l1-1-3.dll",
+    "ext-ms-win-wer-reporting-l1-1-2.dll",
+    "wer.dll",
+    "API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll",
+    "KernelBase.dll"
+  ],
+  "api_name": [
+    "WerStoreQueryReportMetadataV2"
+  ]
+}

@@ -1,0 +1,3 @@
+HRESULT GetGPUThreadPriority(
+  INT *pPriority
+);

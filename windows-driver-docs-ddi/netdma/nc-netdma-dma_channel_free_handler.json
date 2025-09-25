@@ -1,0 +1,48 @@
+{
+  "UID": "NC:netdma.DMA_CHANNEL_FREE_HANDLER",
+  "title": "DMA_CHANNEL_FREE_HANDLER (netdma.h)",
+  "description": "The ProviderFreeDmaChannel function frees a DMA channel that the ProviderAllocateDmaChannel function previously allocated.",
+  "old-location": "netvista\\providerfreedmachannel.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "DMA_CHANNEL_FREE_HANDLER callback function"
+  ],
+  "ms.keywords": "DMA_CHANNEL_FREE_HANDLER, DMA_CHANNEL_FREE_HANDLER callback, ProviderFreeDmaChannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml, netvista.providerfreedmachannel",
+  "req.header": "netdma.h",
+  "req.include-header": "Netdma.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported for NetDMA 1.0 drivers in Windows Vista.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DMA_CHANNEL_FREE_HANDLER",
+    "netdma/DMA_CHANNEL_FREE_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "netdma.h"
+  ],
+  "api_name": [
+    "DMA_CHANNEL_FREE_HANDLER"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct RILGPP2CAUSE {
+  DWORD dwCauseValue;
+} RILGPP2CAUSE, *LPRILGPP2CAUSE;

@@ -1,0 +1,47 @@
+{
+  "UID": "NS:schannel._CRYPTO_SETTINGS",
+  "title": "CRYPTO_SETTINGS",
+  "ms.date": "06/25/2024",
+  "targetos": "Windows",
+  "description": "Indicates disabled cryptographic settings.",
+  "tech.root": "security",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "schannel.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 1809 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.typenames": "CRYPTO_SETTINGS, *PCRYPTO_SETTINGS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "schannel.h"
+  ],
+  "api_name": [
+    "_CRYPTO_SETTINGS",
+    "CRYPTO_SETTINGS"
+  ],
+  "f1_keywords": [
+    "_CRYPTO_SETTINGS",
+    "schannel/_CRYPTO_SETTINGS",
+    "PCRYPTO_SETTINGS",
+    "schannel/PCRYPTO_SETTINGS",
+    "CRYPTO_SETTINGS",
+    "schannel/CRYPTO_SETTINGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

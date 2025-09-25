@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.KeSetImportanceDpc",
+  "title": "KeSetImportanceDpc function (wdm.h)",
+  "description": "Learn how the KeSetImportanceDpc routine specifies how soon the DPC routine is run.",
+  "old-location": "kernel\\kesetimportancedpc.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "KeSetImportanceDpc function"
+  ],
+  "ms.keywords": "KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, wdm/KeSetImportanceDpc",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "KeSetImportanceDpc",
+    "wdm/KeSetImportanceDpc"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "KeSetImportanceDpc"
+  ]
+}

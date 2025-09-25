@@ -1,0 +1,66 @@
+{
+  "UID": "NF:securitybaseapi.AccessCheckByTypeResultList",
+  "title": "AccessCheckByTypeResultList function (securitybaseapi.h)",
+  "description": "Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token. (AccessCheckByTypeResultList)",
+  "helpviewer_keywords": [
+    "AccessCheckByTypeResultList",
+    "AccessCheckByTypeResultList function [Security]",
+    "_win32_accesscheckbytyperesultlist",
+    "security.accesscheckbytyperesultlist",
+    "securitybaseapi/AccessCheckByTypeResultList"
+  ],
+  "old-location": "security\\accesscheckbytyperesultlist.htm",
+  "tech.root": "security",
+  "ms.assetid": "ce713421-d4ff-48ed-b751-5e5c5397d820",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList",
+  "req.header": "securitybaseapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "AccessCheckByTypeResultList",
+    "securitybaseapi/AccessCheckByTypeResultList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-base-l1-2-2.dll",
+    "Advapi32.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll",
+    "API-MS-Win-Security-base-l1-1-0.dll",
+    "API-MS-Win-Security-base-l1-2-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Security-Base-L1-2-1.dll"
+  ],
+  "api_name": [
+    "AccessCheckByTypeResultList"
+  ]
+}

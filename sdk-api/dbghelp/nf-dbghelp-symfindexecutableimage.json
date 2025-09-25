@@ -1,0 +1,61 @@
+{
+  "UID": "NF:dbghelp.SymFindExecutableImage",
+  "title": "SymFindExecutableImage function (dbghelp.h)",
+  "description": "The SymFindExecutableImage function (dbghelp.h) locates an executable file in the process search path.",
+  "helpviewer_keywords": [
+    "SymFindExecutableImage",
+    "SymFindExecutableImage function",
+    "SymFindExecutableImageW",
+    "base.symfindexecutableimage",
+    "dbghelp/SymFindExecutableImage",
+    "dbghelp/SymFindExecutableImageW"
+  ],
+  "old-location": "base\\symfindexecutableimage.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b",
+  "ms.date": "08/04/2022",
+  "ms.keywords": "SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SymFindExecutableImageW (Unicode) and SymFindExecutableImage (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dbghelp.lib",
+  "req.dll": "Dbghelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 6.6 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SymFindExecutableImage",
+    "dbghelp/SymFindExecutableImage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dbghelp.dll"
+  ],
+  "api_name": [
+    "SymFindExecutableImage",
+    "SymFindExecutableImage",
+    "SymFindExecutableImageW"
+  ]
+}

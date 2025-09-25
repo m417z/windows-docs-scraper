@@ -1,0 +1,68 @@
+{
+  "UID": "NF:azroles.IAzAuthorizationStore.AddPolicyReader",
+  "title": "IAzAuthorizationStore::AddPolicyReader (azroles.h)",
+  "description": "Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers. (IAzAuthorizationStore.AddPolicyReader)",
+  "helpviewer_keywords": [
+    "AddPolicyReader",
+    "AddPolicyReader method [Security]",
+    "AddPolicyReader method [Security]",
+    "AzAuthorizationStore object",
+    "AddPolicyReader method [Security]",
+    "IAzAuthorizationStore interface",
+    "AzAuthorizationStore object [Security]",
+    "AddPolicyReader method",
+    "IAzAuthorizationStore interface [Security]",
+    "AddPolicyReader method",
+    "IAzAuthorizationStore.AddPolicyReader",
+    "IAzAuthorizationStore::AddPolicyReader",
+    "azroles/IAzAuthorizationStore::AddPolicyReader",
+    "security.azauthorizationstore_addpolicyreader"
+  ],
+  "old-location": "security\\azauthorizationstore_addpolicyreader.htm",
+  "tech.root": "security",
+  "ms.assetid": "52872839-1066-4a43-8549-b7f37a0ebe40",
+  "ms.date": "03/20/2023",
+  "ms.keywords": "AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzAuthorizationStore object, AddPolicyReader method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReader method, IAzAuthorizationStore interface [Security],AddPolicyReader method, IAzAuthorizationStore.AddPolicyReader, IAzAuthorizationStore::AddPolicyReader, azroles/IAzAuthorizationStore::AddPolicyReader, security.azauthorizationstore_addpolicyreader",
+  "req.header": "azroles.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Azroles.lib",
+  "req.dll": "Azroles.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "Windows Server 2003 Administration Tools Pack on Windows XP",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAzAuthorizationStore::AddPolicyReader",
+    "azroles/IAzAuthorizationStore::AddPolicyReader"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Azroles.dll"
+  ],
+  "api_name": [
+    "AzAuthorizationStore.AddPolicyReader",
+    "IAzAuthorizationStore.AddPolicyReader"
+  ]
+}

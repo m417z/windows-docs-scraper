@@ -1,0 +1,21 @@
+typedef struct _NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS {
+  NDIS_OBJECT_HEADER                  Header;
+  ULONG                               Reserved;
+  CO_CREATE_VC_HANDLER                CmCreateVcHandler;
+  CO_DELETE_VC_HANDLER                CmDeleteVcHandler;
+  CM_OPEN_AF_HANDLER                  CmOpenAfHandler;
+  CM_CLOSE_AF_HANDLER                 CmCloseAfHandler;
+  CM_REG_SAP_HANDLER                  CmRegisterSapHandler;
+  CM_DEREG_SAP_HANDLER                CmDeregisterSapHandler;
+  CM_MAKE_CALL_HANDLER                CmMakeCallHandler;
+  CM_CLOSE_CALL_HANDLER               CmCloseCallHandler;
+  CM_INCOMING_CALL_COMPLETE_HANDLER   CmIncomingCallCompleteHandler;
+  CM_ADD_PARTY_HANDLER                CmAddPartyHandler;
+  CM_DROP_PARTY_HANDLER               CmDropPartyHandler;
+  CM_ACTIVATE_VC_COMPLETE_HANDLER     CmActivateVcCompleteHandler;
+  CM_DEACTIVATE_VC_COMPLETE_HANDLER   CmDeactivateVcCompleteHandler;
+  CM_MODIFY_CALL_QOS_HANDLER          CmModifyCallQoSHandler;
+  CO_OID_REQUEST_HANDLER              CmOidRequestHandler;
+  CO_OID_REQUEST_COMPLETE_HANDLER     CmOidRequestCompleteHandler;
+  CM_NOTIFY_CLOSE_AF_COMPLETE_HANDLER CmNotifyCloseAfCompleteHandler;
+} NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS, *PNDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS;

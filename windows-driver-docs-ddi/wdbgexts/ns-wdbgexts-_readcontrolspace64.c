@@ -1,0 +1,6 @@
+typedef struct _READCONTROLSPACE64 {
+  USHORT  Processor;
+  ULONG64 Address;
+  ULONG   BufLen;
+  UCHAR   Buf[1];
+} READCONTROLSPACE64, *PREADCONTROLSPACE64;

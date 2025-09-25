@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winver.GetFileVersionInfoSizeA",
+  "title": "GetFileVersionInfoSizeA function (winver.h)",
+  "description": "Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSize returns the size, in bytes, of that information. (ANSI)",
+  "helpviewer_keywords": [
+    "GetFileVersionInfoSizeA",
+    "winver/GetFileVersionInfoSizeA"
+  ],
+  "old-location": "menurc\\getfileversioninfosize.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\versioninformation\\versioninformationreference\\versioninformationfunctions\\getfileversioninfosize.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetFileVersionInfoSize, GetFileVersionInfoSize function [Menus and Other Resources], GetFileVersionInfoSizeA, GetFileVersionInfoSizeW, _win32_GetFileVersionInfoSize, _win32_getfileversioninfosize_cpp, menurc.getfileversioninfosize, winui._win32_getfileversioninfosize, winver/GetFileVersionInfoSize, winver/GetFileVersionInfoSizeA, winver/GetFileVersionInfoSizeW",
+  "req.header": "winver.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetFileVersionInfoSizeW (Unicode) and GetFileVersionInfoSizeA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Version.lib",
+  "req.dll": "Api-ms-win-core-version-l1-1-0.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetFileVersionInfoSizeA",
+    "winver/GetFileVersionInfoSizeA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-version-l1-1-0.dll",
+    "API-MS-Win-Core-Versionansi-L1-1-1.dll",
+    "API-MS-Win-Core-Version-L1-1-1.dll",
+    "KernelBase.dll",
+    "version.dll"
+  ],
+  "api_name": [
+    "GetFileVersionInfoSize",
+    "GetFileVersionInfoSizeA",
+    "GetFileVersionInfoSizeW"
+  ]
+}

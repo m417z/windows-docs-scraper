@@ -1,0 +1,4 @@
+typedef struct _DHCP_FILTER_GLOBAL_INFO {
+  BOOL EnforceAllowList;
+  BOOL EnforceDenyList;
+} DHCP_FILTER_GLOBAL_INFO, *LPDHCP_FILTER_GLOBAL_INFO;

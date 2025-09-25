@@ -1,0 +1,1 @@
+BSTR  throw(CHeap_Exception) GetBSTR();

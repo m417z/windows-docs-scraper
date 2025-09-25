@@ -1,0 +1,6 @@
+typedef struct _SP_DEVINFO_LIST_DETAIL_DATA_A {
+  DWORD  cbSize;
+  GUID   ClassGuid;
+  HANDLE RemoteMachineHandle;
+  CHAR   RemoteMachineName[SP_MAX_MACHINENAME_LENGTH];
+} SP_DEVINFO_LIST_DETAIL_DATA_A, *PSP_DEVINFO_LIST_DETAIL_DATA_A;

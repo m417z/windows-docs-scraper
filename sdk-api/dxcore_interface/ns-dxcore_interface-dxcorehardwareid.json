@@ -1,0 +1,42 @@
+{
+  "UID": "NS:dxcore_interface.DXCoreHardwareID",
+  "title": "DXCoreHardwareID",
+  "description": "Represents the PnP hardware ID parts for an adapter.",
+  "tech.root": "dxcore",
+  "ms.date": "06/06/2019",
+  "ms.keywords": "DXCoreHardwareID structure, dxcore_interface.dxcorehardwareid",
+  "ms.localizationpriority": "low",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": "dxcore.dll",
+  "req.header": "dxcore_interface.h",
+  "req.idl": null,
+  "req.include-header": "dxcore.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "dxcore.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 (Build 18936)",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref",
+    "kbsyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dxcore.dll"
+  ],
+  "api_name": [
+    "DXCoreHardwareID"
+  ]
+}

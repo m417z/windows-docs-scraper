@@ -1,0 +1,6 @@
+PFND3DKMT_OPENADAPTERFROMGDIDISPLAYNAME Pfnd3dkmtOpenadapterfromgdidisplayname;
+
+NTSTATUS Pfnd3dkmtOpenadapterfromgdidisplayname(
+  D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME *unnamedParam1
+)
+{...}

@@ -1,0 +1,27 @@
+# DXGK_DIAGNOSTIC_PSR structure
+
+## Description
+
+A diagnostic that indicates that the panel connected via the target in the *TargetId* field in the [**DXGK_DIAGNOSTIC_HEADER**](https://learn.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_diagnostic_header) structure has entered or exited a panel self-refresh (PSR) state.
+
+## Members
+
+### `Header`
+
+A [**DXGK_DIAGNOSTIC_HEADER**](https://learn.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_diagnostic_header) structure that indicates what kind of diagnostic is being reported.
+
+### `RefreshReason`
+
+A set of [**DXGK_DIAGNOSTIC_PSR_REFRESH_REASON**](https://learn.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_diagnostic_psr_refresh_reason) bit-fields that indicate the reason or reasons for exiting PSR or, if none is set, indicates that the target is entering PSR.
+
+### `Value`
+
+Value of the PSR.
+
+## Remarks
+
+When the panel enters self-refresh, the driver should send this diagnostic with none of the bit-fields set in the *RefreshReason* field.
+
+When the panel needs to exit self-refresh to update the content, the driver should send this diagnostic with at least one of the bit-fields within RefreshReason, indicating the reason(s) for exiting PSR. If multiple factors caused PSR to be exited, the driver should attempt to set all appropriate bit-field reasons. However, it is more important that flags should not be set if the reason was not the trigger to exit PSR, than it is to capture all the reasons which did trigger the exit. This is because once PSR has been exited, the driver should not subsequently report additional reasons that PSR would have been exited so under reporting is valid, as long as at least one reason is provided.
+
+If the panel and driver support PSR2, where updates do not require a full frame to be sent to the panel in order to refresh a smaller portion, such updates should still be reported to the OS while exiting PSR. For example, if the display is in PSR and the cursor shape is changed without any other updates, the driver should be able to send a small fraction of the full frame of pixels, likely only the lines containing the cursor. In this case, the driver should still report that PSR has been exited, with reason *CursorUpdate*. In a later release, extra diagnostic fields may be added to distinguish partial and full updates.

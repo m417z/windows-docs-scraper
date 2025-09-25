@@ -1,0 +1,3 @@
+HRESULT RemoveParentModel(
+  IModelObject *model
+);

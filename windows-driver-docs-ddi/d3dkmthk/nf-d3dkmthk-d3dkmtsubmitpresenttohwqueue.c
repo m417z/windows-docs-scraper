@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSubmitPresentToHwQueue(
+  [in,out] D3DKMT_SUBMITPRESENTTOHWQUEUE *unnamedParam1
+);

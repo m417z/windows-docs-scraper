@@ -1,0 +1,58 @@
+{
+  "UID": "NF:mmsystem.DIBINDEX",
+  "title": "DIBINDEX macro (mmsystem.h)",
+  "description": "The DIBINDEX macro takes an index to an entry in a DIB color table and returns a COLORREF value that specifies the color associated with the given index.",
+  "helpviewer_keywords": [
+    "DIBINDEX",
+    "DIBINDEX macro [Windows GDI]",
+    "_win32_DIBINDEX",
+    "gdi.dibindex",
+    "mmsystem/DIBINDEX"
+  ],
+  "old-location": "gdi\\dibindex.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "a1c2274e-ddcb-4e11-af70-9f79210d2d5f",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX",
+  "req.header": "mmsystem.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DIBINDEX",
+    "mmsystem/DIBINDEX"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Mmsystem.h"
+  ],
+  "api_name": [
+    "DIBINDEX"
+  ]
+}

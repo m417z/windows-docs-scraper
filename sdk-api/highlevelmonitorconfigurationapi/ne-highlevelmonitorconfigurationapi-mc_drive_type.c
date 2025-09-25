@@ -1,0 +1,5 @@
+typedef enum _MC_DRIVE_TYPE {
+  MC_RED_DRIVE,
+  MC_GREEN_DRIVE,
+  MC_BLUE_DRIVE
+} MC_DRIVE_TYPE;

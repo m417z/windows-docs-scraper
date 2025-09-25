@@ -1,0 +1,3 @@
+KIRQL KeAcquireInterruptSpinLock(
+  PKINTERRUPT Interrupt
+);

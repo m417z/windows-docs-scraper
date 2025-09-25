@@ -1,0 +1,4 @@
+typedef struct _BCRYPT_ECCKEY_BLOB {
+  ULONG dwMagic;
+  ULONG cbKey;
+} BCRYPT_ECCKEY_BLOB, *PBCRYPT_ECCKEY_BLOB;

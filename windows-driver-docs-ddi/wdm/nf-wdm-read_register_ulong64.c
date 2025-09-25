@@ -1,0 +1,3 @@
+ULONG64 READ_REGISTER_ULONG64(
+  [in] volatile ULONG64 *Register
+);

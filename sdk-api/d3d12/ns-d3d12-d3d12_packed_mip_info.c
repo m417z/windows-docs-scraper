@@ -1,0 +1,6 @@
+typedef struct D3D12_PACKED_MIP_INFO {
+  UINT8 NumStandardMips;
+  UINT8 NumPackedMips;
+  UINT  NumTilesForPackedMips;
+  UINT  StartTileIndexInOverallResource;
+} D3D12_PACKED_MIP_INFO;

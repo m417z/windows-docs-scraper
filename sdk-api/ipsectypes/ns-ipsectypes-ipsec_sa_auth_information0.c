@@ -1,0 +1,4 @@
+typedef struct IPSEC_SA_AUTH_INFORMATION0_ {
+  IPSEC_AUTH_TRANSFORM0 authTransform;
+  FWP_BYTE_BLOB         authKey;
+} IPSEC_SA_AUTH_INFORMATION0;

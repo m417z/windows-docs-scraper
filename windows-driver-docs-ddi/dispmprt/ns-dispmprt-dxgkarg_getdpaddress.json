@@ -1,0 +1,48 @@
+{
+  "UID": "NS:dispmprt._DXGKARG_GETDPADDRESS",
+  "title": "DXGKARG_GETDPADDRESS",
+  "ms.date": "03/24/2020",
+  "tech.root": "display",
+  "targetos": "Windows",
+  "description": "The DXGKARG_GETDPADDRESS structure is a parameter for the DXGKDDI_GETDPADDRESS callback.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "DXGKARG_GETDPADDRESS, *PDXGKARG_GETDPADDRESS",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGKARG_GETDPADDRESS",
+    "PDXGKARG_GETDPADDRESS",
+    "DXGKARG_GETDPADDRESS"
+  ],
+  "f1_keywords": [
+    "_DXGKARG_GETDPADDRESS",
+    "dispmprt/_DXGKARG_GETDPADDRESS",
+    "PDXGKARG_GETDPADDRESS",
+    "dispmprt/PDXGKARG_GETDPADDRESS",
+    "DXGKARG_GETDPADDRESS",
+    "dispmprt/DXGKARG_GETDPADDRESS"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _SCHANNEL_SESSION_TOKEN {
+  DWORD dwTokenType;
+  DWORD dwFlags;
+} SCHANNEL_SESSION_TOKEN;

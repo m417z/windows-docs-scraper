@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._OB_OPERATION_REGISTRATION",
+  "title": "_OB_OPERATION_REGISTRATION (wdm.h)",
+  "description": "The OB_OPERATION_REGISTRATION structure specifies ObjectPreCallback and ObjectPostCallback callback routines and the types of operations that the routines are called for.",
+  "old-location": "kernel\\ob_operation_registration.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "OB_OPERATION_REGISTRATION structure"
+  ],
+  "ms.keywords": "*POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, PsThreadType, _OB_OPERATION_REGISTRATION, kernel.ob_operation_registration, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with Windows Server 2008.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION",
+  "f1_keywords": [
+    "_OB_OPERATION_REGISTRATION",
+    "wdm/_OB_OPERATION_REGISTRATION",
+    "POB_OPERATION_REGISTRATION",
+    "wdm/POB_OPERATION_REGISTRATION",
+    "OB_OPERATION_REGISTRATION",
+    "wdm/OB_OPERATION_REGISTRATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_OB_OPERATION_REGISTRATION",
+    "POB_OPERATION_REGISTRATION",
+    "OB_OPERATION_REGISTRATION"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef enum __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0002 {
+  AA_MAIN_SESSION_CREATION = 0,
+  AA_SUB_SESSION_CREATION,
+  AA_SUB_SESSION_CLOSED,
+  AA_MAIN_SESSION_CLOSED
+} AAAccountingDataType;

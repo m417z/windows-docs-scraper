@@ -1,0 +1,6 @@
+typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION {
+  D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE    CopyProtectionType;
+  UINT                                              APSTriggerBits;
+  BYTE                                              OEMCopyProtection[D3DKMDT_MACROVISION_OEMCOPYPROTECTION_SIZE];
+  D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT CopyProtectionSupport;
+} D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION;

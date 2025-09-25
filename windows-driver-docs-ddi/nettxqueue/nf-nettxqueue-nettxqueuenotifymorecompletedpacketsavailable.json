@@ -1,0 +1,47 @@
+{
+  "UID": "NF:nettxqueue.NetTxQueueNotifyMoreCompletedPacketsAvailable",
+  "title": "NetTxQueueNotifyMoreCompletedPacketsAvailable function (nettxqueue.h)",
+  "description": "The client driver calls NetTxQueueNotifyMoreCompletedPacketsAvailable to resume queue operations after NetAdapterCx calls the client's EVT_TXQUEUE_SET_NOTIFICATION_ENABLED event callback routine.",
+  "tech.root": "netvista",
+  "ms.date": "04/01/2022",
+  "keywords": [
+    "NetTxQueueNotifyMoreCompletedPacketsAvailable function"
+  ],
+  "ms.keywords": "NetTxQueueNotifyMoreCompletedPacketsAvailable",
+  "req.header": "nettxqueue.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= HIGH_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.alt-api": null,
+  "req.alt-loc": null,
+  "targetos": "Windows",
+  "f1_keywords": [
+    "NetTxQueueNotifyMoreCompletedPacketsAvailable",
+    "nettxqueue/NetTxQueueNotifyMoreCompletedPacketsAvailable"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nettxqueue.h"
+  ],
+  "api_name": [
+    "NetTxQueueNotifyMoreCompletedPacketsAvailable"
+  ]
+}

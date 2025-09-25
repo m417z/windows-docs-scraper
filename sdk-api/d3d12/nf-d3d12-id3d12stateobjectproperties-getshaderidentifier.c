@@ -1,0 +1,3 @@
+void * GetShaderIdentifier(
+  LPCWSTR pExportName
+);

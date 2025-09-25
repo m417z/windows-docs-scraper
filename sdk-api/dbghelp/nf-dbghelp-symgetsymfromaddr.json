@@ -1,0 +1,62 @@
+{
+  "UID": "NF:dbghelp.SymGetSymFromAddr",
+  "title": "SymGetSymFromAddr function (dbghelp.h)",
+  "description": "Locates the symbol for the specified address. (SymGetSymFromAddr)",
+  "helpviewer_keywords": [
+    "SymGetSymFromAddr",
+    "SymGetSymFromAddr function",
+    "SymGetSymFromAddr64",
+    "SymGetSymFromAddr64 function",
+    "_win32_symgetsymfromaddr64",
+    "base.symgetsymfromaddr64",
+    "dbghelp/SymGetSymFromAddr",
+    "dbghelp/SymGetSymFromAddr64"
+  ],
+  "old-location": "base\\symgetsymfromaddr64.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "c4882a3b-7773-4ab0-ad83-bdde512b5fb4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64, SymGetSymFromAddr64 function, _win32_symgetsymfromaddr64, base.symgetsymfromaddr64, dbghelp/SymGetSymFromAddr, dbghelp/SymGetSymFromAddr64",
+  "req.header": "dbghelp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dbghelp.lib",
+  "req.dll": "Dbghelp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": "DbgHelp.dll 5.1 or later",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SymGetSymFromAddr",
+    "dbghelp/SymGetSymFromAddr"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dbghelp.dll"
+  ],
+  "api_name": [
+    "SymGetSymFromAddr64",
+    "SymGetSymFromAddr"
+  ]
+}

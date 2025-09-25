@@ -1,0 +1,48 @@
+{
+  "UID": "NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_PROCESS_PACKET",
+  "title": "EVT_VMB_CHANNEL_PROCESS_PACKET (vmbuskernelmodeclientlibapi.h)",
+  "description": "The EvtVmbChannelProcessPacket callback function is invoked when a packet arrives in the incoming ring buffer.",
+  "old-location": "netvista\\evt_vmb_channel_process_packet.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "EVT_VMB_CHANNEL_PROCESS_PACKET callback function"
+  ],
+  "ms.keywords": "EVT_VMB_CHANNEL_PROCESS_PACKET, EVT_VMB_CHANNEL_PROCESS_PACKET callback, EvtVmbChannelProcessPacket, EvtVmbChannelProcessPacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESS_PACKET, PFN_VMB_CHANNEL_PROCESS_PACKET callback function pointer [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_PROCESS_PACKET_FLAGS, netvista.evt_vmb_channel_process_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessPacket",
+  "req.header": "vmbuskernelmodeclientlibapi.h",
+  "req.include-header": "VmbusKernelModeClientLibApi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_VMB_CHANNEL_PROCESS_PACKET",
+    "vmbuskernelmodeclientlibapi/EVT_VMB_CHANNEL_PROCESS_PACKET"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "VmbusKernelModeClientLibApi.h"
+  ],
+  "api_name": [
+    "EVT_VMB_CHANNEL_PROCESS_PACKET"
+  ]
+}

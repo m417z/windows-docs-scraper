@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._QUERY_FILE_LAYOUT_INPUT",
+  "title": "QUERY_FILE_LAYOUT_INPUT (ntifs.h)",
+  "description": "The QUERY_FILE_LAYOUT_INPUT structure selects which file layout entries are returned from a FSCTL_QUERY_FILE_LAYOUT request.",
+  "old-location": "ifsk\\query_file_layout_input.htm",
+  "tech.root": "ifsk",
+  "ms.date": "05/24/2022",
+  "keywords": [
+    "QUERY_FILE_LAYOUT_INPUT structure"
+  ],
+  "ms.keywords": "*PQUERY_FILE_LAYOUT_INPUT, PQUERY_FILE_LAYOUT_INPUT, PQUERY_FILE_LAYOUT_INPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_FILTER_TYPE_CLUSTERS, QUERY_FILE_LAYOUT_FILTER_TYPE_FILEID, QUERY_FILE_LAYOUT_FILTER_TYPE_NONE, QUERY_FILE_LAYOUT_INCLUDE_EXTENTS, QUERY_FILE_LAYOUT_INCLUDE_EXTRA_INFO, QUERY_FILE_LAYOUT_INCLUDE_NAMES, QUERY_FILE_LAYOUT_INCLUDE_STREAMS, QUERY_FILE_LAYOUT_INCLUDE_STREAMS_WITH_NO_CLUSTERS_ALLOCATED, QUERY_FILE_LAYOUT_INPUT, QUERY_FILE_LAYOUT_INPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_RESTART, _QUERY_FILE_LAYOUT_INPUT, ifsk.query_file_layout_input, ntifs/PQUERY_FILE_LAYOUT_INPUT, ntifs/QUERY_FILE_LAYOUT_INPUT",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "QUERY_FILE_LAYOUT_INPUT, *PQUERY_FILE_LAYOUT_INPUT",
+  "f1_keywords": [
+    "_QUERY_FILE_LAYOUT_INPUT",
+    "ntifs/_QUERY_FILE_LAYOUT_INPUT",
+    "PQUERY_FILE_LAYOUT_INPUT",
+    "ntifs/PQUERY_FILE_LAYOUT_INPUT",
+    "QUERY_FILE_LAYOUT_INPUT",
+    "ntifs/QUERY_FILE_LAYOUT_INPUT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntifs.h"
+  ],
+  "api_name": [
+    "_QUERY_FILE_LAYOUT_INPUT",
+    "PQUERY_FILE_LAYOUT_INPUT",
+    "QUERY_FILE_LAYOUT_INPUT"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "UID": "NF:taskschd.IEmailAction.put_Server",
+  "title": "IEmailAction::put_Server (taskschd.h)",
+  "description": "Gets or sets the name of the SMTP server that you use to send email from. (Put)",
+  "helpviewer_keywords": [
+    "IEmailAction interface [Task Scheduler]",
+    "Server property",
+    "IEmailAction.Server",
+    "IEmailAction.put_Server",
+    "IEmailAction::Server",
+    "IEmailAction::get_Server",
+    "IEmailAction::put_Server",
+    "Server property [Task Scheduler]",
+    "Server property [Task Scheduler]",
+    "IEmailAction interface",
+    "put_Server",
+    "taskschd.iemailaction_server",
+    "taskschd/IEmailAction::Server",
+    "taskschd/IEmailAction::get_Server",
+    "taskschd/IEmailAction::put_Server"
+  ],
+  "old-location": "taskschd\\iemailaction_server.htm",
+  "tech.root": "taskschd",
+  "ms.assetid": "c781f189-f27b-4f37-af53-144e1ae8cb75",
+  "ms.date": "08/15/2022",
+  "ms.keywords": "IEmailAction interface [Task Scheduler],Server property, IEmailAction.Server, IEmailAction.put_Server, IEmailAction::Server, IEmailAction::get_Server, IEmailAction::put_Server, Server property [Task Scheduler], Server property [Task Scheduler],IEmailAction interface, put_Server, taskschd.iemailaction_server, taskschd/IEmailAction::Server, taskschd/IEmailAction::get_Server, taskschd/IEmailAction::put_Server",
+  "req.header": "taskschd.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Taskschd.lib",
+  "req.dll": "Taskschd.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IEmailAction::put_Server",
+    "taskschd/IEmailAction::put_Server"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "taskschd.dll"
+  ],
+  "api_name": [
+    "IEmailAction.Server",
+    "IEmailAction.get_Server",
+    "IEmailAction.put_Server"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct tagMENUGETOBJECTINFO {
+  DWORD dwFlags;
+  UINT  uPos;
+  HMENU hmenu;
+  PVOID riid;
+  PVOID pvObj;
+} MENUGETOBJECTINFO, *PMENUGETOBJECTINFO;

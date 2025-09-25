@@ -1,0 +1,67 @@
+{
+  "UID": "NF:winnls.IsValidLocaleName",
+  "title": "IsValidLocaleName function (winnls.h)",
+  "description": "Determines if the specified locale name is valid for a locale that is installed or supported on the operating system.Note  An application running only on Windows Vista and later should call this function in preference to IsValidLocale to determine the validity of a supplemental locale.",
+  "helpviewer_keywords": [
+    "IsValidLocaleName",
+    "IsValidLocaleName function [Internationalization for Windows Applications]",
+    "_win32_IsValidLocaleName",
+    "intl.isvalidlocalename",
+    "winnls/IsValidLocaleName"
+  ],
+  "old-location": "intl\\isvalidlocalename.htm",
+  "tech.root": "Intl",
+  "ms.assetid": "cd1b5a4e-7a9c-47a1-9ece-284fce3d5be4",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IsValidLocaleName, IsValidLocaleName function [Internationalization for Windows Applications], _win32_IsValidLocaleName, intl.isvalidlocalename, winnls/IsValidLocaleName",
+  "req.header": "winnls.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IsValidLocaleName",
+    "winnls/IsValidLocaleName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-localization-l1-2-4.dll",
+    "api-ms-win-core-localization-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-Localization-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Localization-l1-2-0.dll",
+    "API-MS-Win-Core-Localization-l1-2-1.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Localization-L1-2-2.dll"
+  ],
+  "api_name": [
+    "IsValidLocaleName"
+  ]
+}

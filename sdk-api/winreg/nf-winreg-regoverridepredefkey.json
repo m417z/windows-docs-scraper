@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winreg.RegOverridePredefKey",
+  "title": "RegOverridePredefKey function (winreg.h)",
+  "description": "Maps a predefined registry key to the specified registry key.",
+  "helpviewer_keywords": [
+    "RegOverridePredefKey",
+    "RegOverridePredefKey function",
+    "_win32_regoverridepredefkey",
+    "base.regoverridepredefkey",
+    "winreg/RegOverridePredefKey"
+  ],
+  "old-location": "base\\regoverridepredefkey.htm",
+  "tech.root": "winprog",
+  "ms.assetid": "ad58b7ff-cd61-4719-9028-b470ae7e9bb0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey",
+  "req.header": "winreg.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RegOverridePredefKey",
+    "winreg/RegOverridePredefKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-registry-l2-3-0.dll",
+    "Advapi32.dll",
+    "API-MS-Win-Core-Registry-l2-1-0.dll",
+    "advapi32legacy.dll",
+    "API-MS-Win-Core-Registry-l2-2-0.dll"
+  ],
+  "api_name": [
+    "RegOverridePredefKey"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct IKEEXT_CERTIFICATE_CRITERIA0_ {
+  FWP_BYTE_BLOB     certData;
+  FWP_BYTE_BLOB     certHash;
+  IKEEXT_CERT_EKUS0 *eku;
+  IKEEXT_CERT_NAME0 *name;
+  UINT32            flags;
+} IKEEXT_CERTIFICATE_CRITERIA0;

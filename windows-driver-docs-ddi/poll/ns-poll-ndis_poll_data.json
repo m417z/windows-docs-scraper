@@ -1,0 +1,45 @@
+{
+  "UID": "NS:poll._NDIS_POLL_DATA",
+  "tech.root": "netvista",
+  "title": "NDIS_POLL_DATA",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "NDIS_POLL_DATA contains pointers to the NDIS_POLL_TRANSMIT_DATA and NDIS_POLL_RECEIVE_DATA structures that the driver can use to perform receive indications and send completions.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "poll.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "NDIS_POLL_DATA",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "poll.h"
+  ],
+  "api_name": [
+    "_NDIS_POLL_DATA",
+    "NDIS_POLL_DATA"
+  ],
+  "f1_keywords": [
+    "_NDIS_POLL_DATA",
+    "poll/_NDIS_POLL_DATA",
+    "NDIS_POLL_DATA",
+    "poll/NDIS_POLL_DATA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

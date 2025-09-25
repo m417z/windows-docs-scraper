@@ -1,0 +1,3 @@
+HRESULT GetBackupSchema(
+  DWORD *pdwSchemaMask
+);

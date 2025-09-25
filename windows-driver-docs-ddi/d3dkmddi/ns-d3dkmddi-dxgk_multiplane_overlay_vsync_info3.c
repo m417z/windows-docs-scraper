@@ -1,0 +1,4 @@
+typedef struct _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3 {
+  DWORD LayerIndex;
+  ULONG FirstFreeFlipQueueLogEntryIndex;
+} DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3;

@@ -1,0 +1,6 @@
+void StorPortReadPortBufferUlong(
+  [in] h,
+  [in] p,
+  [in] b,
+  [in] c
+);

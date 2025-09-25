@@ -1,0 +1,68 @@
+{
+  "UID": "NF:dwmapi.DwmShowContact",
+  "title": "DwmShowContact function (dwmapi.h)",
+  "description": "Called by an app or framework to specify the visual feedback type to draw in response to a particular touch or pen contact.",
+  "helpviewer_keywords": [
+    "DWMSC_ALL",
+    "DWMSC_DOWN",
+    "DWMSC_DRAG",
+    "DWMSC_HOLD",
+    "DWMSC_NONE",
+    "DWMSC_PENBARREL",
+    "DWMSC_UP",
+    "DwmShowContact",
+    "DwmShowContact function [Desktop Window Manager]",
+    "dwm.DwmShowContact",
+    "dwmapi/DwmShowContact"
+  ],
+  "old-location": "dwm\\DwmShowContact.htm",
+  "tech.root": "dwm",
+  "ms.assetid": "E9C302AA-D622-483d-83AC-0D0D7D23719E",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PENBARREL, DWMSC_UP, DwmShowContact, DwmShowContact function [Desktop Window Manager], dwm.DwmShowContact, dwmapi/DwmShowContact",
+  "req.header": "dwmapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dwmapi.lib",
+  "req.dll": "Dwmapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DwmShowContact",
+    "dwmapi/DwmShowContact"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-dwmapi-ext-l1-1-2.dll",
+    "ext-ms-win-dwmapi-ext-l1-1-1.dll",
+    "Dwmapi.dll",
+    "API-MS-Win-dwmapi-l1-1-0.dll",
+    "Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll"
+  ],
+  "api_name": [
+    "DwmShowContact"
+  ]
+}

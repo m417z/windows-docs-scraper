@@ -1,0 +1,1 @@
+UINT _get_itbLastFocus();

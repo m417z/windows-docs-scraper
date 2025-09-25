@@ -1,0 +1,5 @@
+typedef struct _DXGKARG_ENUMVIDPNCOFUNCMODALITY {
+  IN D3DKMDT_HVIDPN                        hConstrainingVidPn;
+  IN D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE EnumPivotType;
+  IN DXGK_ENUM_PIVOT                       EnumPivot;
+} DXGKARG_ENUMVIDPNCOFUNCMODALITY;

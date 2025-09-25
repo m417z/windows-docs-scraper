@@ -1,0 +1,3 @@
+MMRESULT waveInStart(
+  HWAVEIN hwi
+);

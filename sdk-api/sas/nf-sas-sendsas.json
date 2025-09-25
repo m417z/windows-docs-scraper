@@ -1,0 +1,57 @@
+{
+  "UID": "NF:sas.SendSAS",
+  "title": "SendSAS function (sas.h)",
+  "description": "Simulates a secure attention sequence (SAS).",
+  "helpviewer_keywords": [
+    "SendSAS",
+    "SendSAS function [Security]",
+    "sas/SendSAS",
+    "security.sendsas"
+  ],
+  "old-location": "security\\sendsas.htm",
+  "tech.root": "security",
+  "ms.assetid": "da5d0915-dc41-4b63-a500-a0bec3f19a65",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas",
+  "req.header": "sas.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Sas.lib",
+  "req.dll": "Sas.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SendSAS",
+    "sas/SendSAS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Sas.dll"
+  ],
+  "api_name": [
+    "SendSAS"
+  ]
+}

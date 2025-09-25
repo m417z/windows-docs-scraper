@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winuser.CreateDialogIndirectParamA",
+  "title": "CreateDialogIndirectParamA function (winuser.h)",
+  "description": "Creates a modeless dialog box from a dialog box template in memory. (ANSI)",
+  "helpviewer_keywords": [
+    "CreateDialogIndirectParamA",
+    "winuser/CreateDialogIndirectParamA"
+  ],
+  "old-location": "dlgbox\\createdialogindirectparam.htm",
+  "tech.root": "dlgbox",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\dialogboxes\\dialogboxreference\\dialogboxfunctions\\createdialogindirectparam.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateDialogIndirectParam, CreateDialogIndirectParam function [Dialog Boxes], CreateDialogIndirectParamA, CreateDialogIndirectParamW, _win32_CreateDialogIndirectParam, _win32_createdialogindirectparam_cpp, dlgbox.createdialogindirectparam, winui._win32_createdialogindirectparam, winuser/CreateDialogIndirectParam, winuser/CreateDialogIndirectParamA, winuser/CreateDialogIndirectParamW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "CreateDialogIndirectParamW (Unicode) and CreateDialogIndirectParamA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateDialogIndirectParamA",
+    "winuser/CreateDialogIndirectParamA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll",
+    "Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll",
+    "ext-ms-win-ntuser-dialogbox-l1-1-2.dll"
+  ],
+  "api_name": [
+    "CreateDialogIndirectParam",
+    "CreateDialogIndirectParamA",
+    "CreateDialogIndirectParamW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)"
+}

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wmsdkidl.WMCreateIndexer",
+  "title": "WMCreateIndexer function (wmsdkidl.h)",
+  "description": "The WMCreateIndexer function creates an indexer object.",
+  "helpviewer_keywords": [
+    "WMCreateIndexer",
+    "WMCreateIndexer function [windows Media Format]",
+    "wmformat.wmcreateindexer",
+    "wmsdkidl/WMCreateIndexer"
+  ],
+  "old-location": "wmformat\\wmcreateindexer.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "08f83923-ed33-41d2-b7f8-d70627197b31",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "WMCreateIndexer, WMCreateIndexer function [windows Media Format], wmformat.wmcreateindexer, wmsdkidl/WMCreateIndexer",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib",
+  "req.dll": "Wmvcore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WMCreateIndexer",
+    "wmsdkidl/WMCreateIndexer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Wmvcore.dll"
+  ],
+  "api_name": [
+    "WMCreateIndexer"
+  ]
+}

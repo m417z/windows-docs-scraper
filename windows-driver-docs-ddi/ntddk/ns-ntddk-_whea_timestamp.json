@@ -1,0 +1,53 @@
+{
+  "UID": "NS:ntddk._WHEA_TIMESTAMP",
+  "title": "WHEA_TIMESTAMP (ntddk.h)",
+  "description": "The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.",
+  "tech.root": "whea",
+  "ms.date": "12/09/2022",
+  "keywords": [
+    "WHEA_TIMESTAMP structure"
+  ],
+  "ms.keywords": "*PWHEA_TIMESTAMP, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whea.whea_timestamp, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WHEA_TIMESTAMP, *PWHEA_TIMESTAMP",
+  "f1_keywords": [
+    "_WHEA_TIMESTAMP",
+    "ntddk/_WHEA_TIMESTAMP",
+    "PWHEA_TIMESTAMP",
+    "ntddk/PWHEA_TIMESTAMP",
+    "WHEA_TIMESTAMP",
+    "ntddk/WHEA_TIMESTAMP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_WHEA_TIMESTAMP",
+    "PWHEA_TIMESTAMP",
+    "WHEA_TIMESTAMP"
+  ]
+}

@@ -1,0 +1,7 @@
+PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026 Pfnd3d12ddiCalcPrivateShaderSize0026;
+
+SIZE_T Pfnd3d12ddiCalcPrivateShaderSize0026(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_SHADER_0026 *unnamedParam2
+)
+{...}

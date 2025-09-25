@@ -1,0 +1,41 @@
+{
+  "UID": "NE:dispmprt._DXGK_DIAG_DISPLAY_SCANOUT_STATE",
+  "title": "DXGK_DIAG_DISPLAY_SCANOUT_STATE",
+  "ms.date": "03/24/2020",
+  "targetos": "Windows",
+  "description": "DXGK_DIAG_DISPLAY_SCANOUT_STATE indicates whether the display pipeline is currently fetching and scanning out pixels actively to the given target/display.",
+  "tech.root": "display",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "dispmprt.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "_DXGK_DIAG_DISPLAY_SCANOUT_STATE",
+    "DXGK_DIAG_DISPLAY_SCANOUT_STATE"
+  ],
+  "f1_keywords": [
+    "_DXGK_DIAG_DISPLAY_SCANOUT_STATE",
+    "dispmprt/_DXGK_DIAG_DISPLAY_SCANOUT_STATE",
+    "DXGK_DIAG_DISPLAY_SCANOUT_STATE",
+    "dispmprt/DXGK_DIAG_DISPLAY_SCANOUT_STATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

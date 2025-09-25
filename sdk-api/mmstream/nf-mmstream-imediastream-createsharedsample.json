@@ -1,0 +1,64 @@
+{
+  "UID": "NF:mmstream.IMediaStream.CreateSharedSample",
+  "title": "IMediaStream::CreateSharedSample (mmstream.h)",
+  "description": "Note  This interface is deprecated. New applications should not use it. Creates a new stream sample that shares the same backing object as the existing sample.",
+  "helpviewer_keywords": [
+    "CreateSharedSample",
+    "CreateSharedSample method [DirectShow]",
+    "CreateSharedSample method [DirectShow]",
+    "IMediaStream interface",
+    "IMediaStream interface [DirectShow]",
+    "CreateSharedSample method",
+    "IMediaStream.CreateSharedSample",
+    "IMediaStream::CreateSharedSample",
+    "IMediaStreamCreateSharedSample",
+    "dshow.imediastream_createsharedsample",
+    "mmstream/IMediaStream::CreateSharedSample"
+  ],
+  "old-location": "dshow\\imediastream_createsharedsample.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "acefa476-e607-45b4-854d-840e948af029",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "CreateSharedSample, CreateSharedSample method [DirectShow], CreateSharedSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],CreateSharedSample method, IMediaStream.CreateSharedSample, IMediaStream::CreateSharedSample, IMediaStreamCreateSharedSample, dshow.imediastream_createsharedsample, mmstream/IMediaStream::CreateSharedSample",
+  "req.header": "mmstream.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaStream::CreateSharedSample",
+    "mmstream/IMediaStream::CreateSharedSample"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mmstream.h"
+  ],
+  "api_name": [
+    "IMediaStream.CreateSharedSample"
+  ]
+}

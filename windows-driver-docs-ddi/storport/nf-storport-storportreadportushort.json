@@ -1,0 +1,49 @@
+{
+  "UID": "NF:storport.StorPortReadPortUshort",
+  "title": "StorPortReadPortUshort macro (storport.h)",
+  "description": "The StorPortReadPortUshort routine reads a value from a specified port address.",
+  "old-location": "storage\\storportreadportushort.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "StorPortReadPortUshort macro"
+  ],
+  "ms.keywords": "StorPortReadPortUshort, StorPortReadPortUshort routine [Storage Devices], storage.storportreadportushort, storport/StorPortReadPortUshort, storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Storport.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StorPortReadPortUshort",
+    "storport/StorPortReadPortUshort"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Storport.lib",
+    "Storport.dll"
+  ],
+  "api_name": [
+    "StorPortReadPortUshort"
+  ]
+}

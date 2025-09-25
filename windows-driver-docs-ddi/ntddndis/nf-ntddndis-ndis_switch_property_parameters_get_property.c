@@ -1,0 +1,3 @@
+void NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY(
+  _SwitchParameters_
+);

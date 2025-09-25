@@ -1,0 +1,6 @@
+typedef struct {
+  DWORD_PTR Socket;
+  DWORD     SourcePort;
+  DWORD     DestPort;
+  DWORD     Flags;
+} INTERNET_DIAGNOSTIC_SOCKET_INFO, *LPINTERNET_DIAGNOSTIC_SOCKET_INFO;

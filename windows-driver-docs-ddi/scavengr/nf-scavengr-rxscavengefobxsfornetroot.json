@@ -1,0 +1,48 @@
+{
+  "UID": "NF:scavengr.RxScavengeFobxsForNetRoot",
+  "title": "RxScavengeFobxsForNetRoot function (scavengr.h)",
+  "description": "RxScavengeFobxsForNetRoot scavenges all of the FOBX structures associated with a given NET_ROOT structure.",
+  "old-location": "ifsk\\rxscavengefobxsfornetroot.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxScavengeFobxsForNetRoot function"
+  ],
+  "ms.keywords": "RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], ifsk.rxscavengefobxsfornetroot, rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, scavengr/RxScavengeFobxsForNetRoot",
+  "req.header": "scavengr.h",
+  "req.include-header": "Rxprocs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxScavengeFobxsForNetRoot",
+    "scavengr/RxScavengeFobxsForNetRoot"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scavengr.h"
+  ],
+  "api_name": [
+    "RxScavengeFobxsForNetRoot"
+  ]
+}

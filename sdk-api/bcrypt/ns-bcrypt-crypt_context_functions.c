@@ -1,0 +1,4 @@
+typedef struct _CRYPT_CONTEXT_FUNCTIONS {
+  ULONG cFunctions;
+  PWSTR *rgpszFunctions;
+} CRYPT_CONTEXT_FUNCTIONS, *PCRYPT_CONTEXT_FUNCTIONS;

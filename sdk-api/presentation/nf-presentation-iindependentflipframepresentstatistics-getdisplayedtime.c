@@ -1,0 +1,1 @@
+SystemInterruptTime GetDisplayedTime();

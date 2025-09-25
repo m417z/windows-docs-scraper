@@ -1,0 +1,69 @@
+{
+  "UID": "NF:bcrypt.BCryptQueryProviderRegistration",
+  "title": "BCryptQueryProviderRegistration function (bcrypt.h)",
+  "description": "Retrieves information about a CNG provider.",
+  "helpviewer_keywords": [
+    "BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE",
+    "BCRYPT_CIPHER_INTERFACE",
+    "BCRYPT_HASH_INTERFACE",
+    "BCRYPT_RNG_INTERFACE",
+    "BCRYPT_SECRET_AGREEMENT_INTERFACE",
+    "BCRYPT_SIGNATURE_INTERFACE",
+    "BCryptQueryProviderRegistration",
+    "BCryptQueryProviderRegistration function [Security]",
+    "CRYPT_ANY",
+    "CRYPT_KM",
+    "CRYPT_MM",
+    "CRYPT_UM",
+    "NCRYPT_KEY_STORAGE_INTERFACE",
+    "NCRYPT_SCHANNEL_INTERFACE",
+    "bcrypt/BCryptQueryProviderRegistration",
+    "security.bcryptqueryproviderregistration"
+  ],
+  "old-location": "security\\bcryptqueryproviderregistration.htm",
+  "tech.root": "security",
+  "ms.assetid": "28b8bca9-442f-4d58-86aa-8aa274777ede",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryProviderRegistration, BCryptQueryProviderRegistration function [Security], CRYPT_ANY, CRYPT_KM, CRYPT_MM, CRYPT_UM, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryProviderRegistration, security.bcryptqueryproviderregistration",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptQueryProviderRegistration",
+    "bcrypt/BCryptQueryProviderRegistration"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptQueryProviderRegistration"
+  ]
+}

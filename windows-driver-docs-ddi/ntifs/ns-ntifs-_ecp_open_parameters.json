@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._ECP_OPEN_PARAMETERS",
+  "title": "ECP_OPEN_PARAMETERS (ntifs.h)",
+  "description": "The ECP_OPEN_PARAMETERS structure allows a caller to specify the purpose of opening of a file without interfering with existing handles and/or oplocks on the file.",
+  "old-location": "ifsk\\ecp_open_parameters.htm",
+  "tech.root": "ifsk",
+  "ms.date": "09/09/2021",
+  "keywords": [
+    "ECP_OPEN_PARAMETERS structure"
+  ],
+  "ms.keywords": "*PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], _ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1709.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS",
+  "f1_keywords": [
+    "_ECP_OPEN_PARAMETERS",
+    "ntifs/_ECP_OPEN_PARAMETERS",
+    "PECP_OPEN_PARAMETERS",
+    "ntifs/PECP_OPEN_PARAMETERS",
+    "ECP_OPEN_PARAMETERS",
+    "ntifs/ECP_OPEN_PARAMETERS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_ECP_OPEN_PARAMETERS",
+    "PECP_OPEN_PARAMETERS",
+    "ECP_OPEN_PARAMETERS"
+  ]
+}

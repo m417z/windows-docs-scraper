@@ -1,0 +1,63 @@
+{
+  "UID": "NF:gpmgmt.IGPM2.InitializeReportingEx",
+  "title": "IGPM2::InitializeReportingEx (gpmgmt.h)",
+  "description": "Sets the location to search for .adm files and the reporting option to determine whether to include comments in the report. This method initializes reporting in an asynchronous manner.",
+  "helpviewer_keywords": [
+    "IGPM2 interface [GPMC]",
+    "InitializeReportingEx method",
+    "IGPM2.InitializeReportingEx",
+    "IGPM2::InitializeReportingEx",
+    "InitializeReportingEx",
+    "InitializeReportingEx method [GPMC]",
+    "InitializeReportingEx method [GPMC]",
+    "IGPM2 interface",
+    "gpmc.igpm2_initializereportingex",
+    "gpmgmt/IGPM2::InitializeReportingEx"
+  ],
+  "old-location": "gpmc\\igpm2_initializereportingex.htm",
+  "tech.root": "gpmc",
+  "ms.assetid": "3de74745-d9b3-47a7-8ba7-08b4e57d2ab7",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IGPM2 interface [GPMC],InitializeReportingEx method, IGPM2.InitializeReportingEx, IGPM2::InitializeReportingEx, InitializeReportingEx, InitializeReportingEx method [GPMC], InitializeReportingEx method [GPMC],IGPM2 interface, gpmc.igpm2_initializereportingex, gpmgmt/IGPM2::InitializeReportingEx",
+  "req.header": "gpmgmt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Gpmgmt.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Gpmgmt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IGPM2::InitializeReportingEx",
+    "gpmgmt/IGPM2::InitializeReportingEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "gpmgmt.dll"
+  ],
+  "api_name": [
+    "IGPM2.InitializeReportingEx"
+  ]
+}

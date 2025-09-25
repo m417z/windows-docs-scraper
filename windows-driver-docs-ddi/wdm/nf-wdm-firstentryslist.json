@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.FirstEntrySList",
+  "title": "FirstEntrySList function (wdm.h)",
+  "description": "The FirstEntrySList routine returns the first entry in a sequenced singly linked list.",
+  "old-location": "kernel\\firstentryslist.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "FirstEntrySList function"
+  ],
+  "ms.keywords": "FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, kernel.firstentryslist, wdm/FirstEntrySList",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntifs.h, Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FirstEntrySList",
+    "wdm/FirstEntrySList"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "FirstEntrySList"
+  ]
+}

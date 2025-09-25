@@ -1,0 +1,72 @@
+{
+  "UID": "NS:nspapi._CSADDR_INFO",
+  "title": "CSADDR_INFO (nspapi.h)",
+  "description": "The CSADDR_INFO structure (nspapi.h) contains Windows Sockets address information for a socket, network service, or namespace provider.",
+  "helpviewer_keywords": [
+    "*LPCSADDR_INFO",
+    "*PCSADDR_INFO",
+    "CSADDR_INFO",
+    "CSADDR_INFO structure [Winsock]",
+    "IPPROTO_RM",
+    "IPPROTO_TCP",
+    "IPPROTO_UDP",
+    "SOCK_DGRAM",
+    "SOCK_RDM",
+    "SOCK_SEQPACKET",
+    "SOCK_STREAM",
+    "_CSADDR_INFO",
+    "_win32_csaddr_info_2",
+    "winsock.csaddr_info_2",
+    "ws2def/CSADDR_INFO"
+  ],
+  "old-location": "winsock\\csaddr_info_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "9cad3586-e315-4f6f-9045-7c95502bb768",
+  "ms.date": "08/12/2022",
+  "ms.keywords": "*LPCSADDR_INFO, *PCSADDR_INFO, CSADDR_INFO, CSADDR_INFO structure [Winsock], IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _CSADDR_INFO, _win32_csaddr_info_2, winsock.csaddr_info_2, ws2def/CSADDR_INFO",
+  "req.header": "nspapi.h",
+  "req.include-header": "Nspapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CSADDR_INFO, *PCSADDR_INFO, *LPCSADDR_INFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_CSADDR_INFO",
+    "nspapi/_CSADDR_INFO",
+    "PCSADDR_INFO",
+    "nspapi/PCSADDR_INFO",
+    "CSADDR_INFO",
+    "nspapi/CSADDR_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ws2def.h"
+  ],
+  "api_name": [
+    "CSADDR_INFO"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "UID": "NC:d3dkmddi.DXGKCB_MAPMDLTOIOMMU",
+  "title": "DXGKCB_MAPMDLTOIOMMU (d3dkmddi.h)",
+  "description": "DXGKCB_MAPMDLTOIOMMU maps a memory descriptor list (MDL) to the IOMMU so that the underlying memory can be accessed by the GPU.",
+  "ms.date": "10/13/2021",
+  "keywords": [
+    "DXGKCB_MAPMDLTOIOMMU callback function"
+  ],
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803 (WDDM 2.4)",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "tech.root": "display",
+  "f1_keywords": [
+    "DXGKCB_MAPMDLTOIOMMU",
+    "d3dkmddi/DXGKCB_MAPMDLTOIOMMU"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKCB_MAPMDLTOIOMMU"
+  ]
+}

@@ -1,0 +1,6 @@
+typedef struct _WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT {
+  WHEA_EVENT_LOG_ENTRY WheaEventLogEntry;
+  UINT32               SocketId;
+  UINT32               ChannelId;
+  UINT32               DimmSlot;
+} WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT, *PWHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT;

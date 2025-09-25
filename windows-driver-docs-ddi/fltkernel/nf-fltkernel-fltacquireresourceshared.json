@@ -1,0 +1,50 @@
+{
+  "UID": "NF:fltkernel.FltAcquireResourceShared",
+  "tech.root": "ifsk",
+  "title": "FltAcquireResourceShared",
+  "ms.date": "03/03/2023",
+  "targetos": "Windows",
+  "description": "Learn more about the FltAcquireResourceShared function.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "fltkernel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "IRQL <= APC_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "FltMgr.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP SP2",
+  "req.target-min-winversvr": "Windows Server 2003 SP1",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltkernel.h"
+  ],
+  "api_name": [
+    "FltAcquireResourceShared"
+  ],
+  "f1_keywords": [
+    "FltAcquireResourceShared",
+    "fltkernel/FltAcquireResourceShared"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "FltAcquireResourceShared"
+  ]
+}

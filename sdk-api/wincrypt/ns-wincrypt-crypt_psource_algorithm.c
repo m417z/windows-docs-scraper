@@ -1,0 +1,4 @@
+typedef struct _CRYPT_PSOURCE_ALGORITHM {
+  LPSTR           pszObjId;
+  CRYPT_DATA_BLOB EncodingParameters;
+} CRYPT_PSOURCE_ALGORITHM, *PCRYPT_PSOURCE_ALGORITHM;

@@ -1,0 +1,6 @@
+typedef struct _NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS {
+  ULONG                                Size;
+  PFN_NET_DEVICE_PREVIEW_WAKE_SOURCE   EvtDevicePreviewBitmapPattern;
+  PFN_NET_DEVICE_PREVIEW_POWER_OFFLOAD EvtDevicePreviewArpOffload;
+  PFN_NET_DEVICE_PREVIEW_POWER_OFFLOAD EvtDevicePreviewNSOffload;
+} NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS;

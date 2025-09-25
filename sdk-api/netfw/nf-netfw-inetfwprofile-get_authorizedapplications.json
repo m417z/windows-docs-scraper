@@ -1,0 +1,68 @@
+{
+  "UID": "NF:netfw.INetFwProfile.get_AuthorizedApplications",
+  "title": "INetFwProfile::get_AuthorizedApplications (netfw.h)",
+  "description": "Retrieves the collection of authorized applications of the profile.",
+  "helpviewer_keywords": [
+    "AuthorizedApplications property [ICS/ICF]",
+    "AuthorizedApplications property [ICS/ICF]",
+    "INetFwProfile interface",
+    "INetFwProfile interface [ICS/ICF]",
+    "AuthorizedApplications property",
+    "INetFwProfile.AuthorizedApplications",
+    "INetFwProfile.get_AuthorizedApplications",
+    "INetFwProfile::AuthorizedApplications",
+    "INetFwProfile::get_AuthorizedApplications",
+    "get_AuthorizedApplications",
+    "ics.inetfwprofile_authorizedapplications",
+    "netfw/INetFwProfile::AuthorizedApplications",
+    "netfw/INetFwProfile::get_AuthorizedApplications"
+  ],
+  "old-location": "ics\\inetfwprofile_authorizedapplications.htm",
+  "tech.root": "ics",
+  "ms.assetid": "230f7dc0-6afd-4355-a02c-92343d3e10cd",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "AuthorizedApplications property [ICS/ICF], AuthorizedApplications property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],AuthorizedApplications property, INetFwProfile.AuthorizedApplications, INetFwProfile.get_AuthorizedApplications, INetFwProfile::AuthorizedApplications, INetFwProfile::get_AuthorizedApplications, get_AuthorizedApplications, ics.inetfwprofile_authorizedapplications, netfw/INetFwProfile::AuthorizedApplications, netfw/INetFwProfile::get_AuthorizedApplications",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 with SP1 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INetFwProfile::get_AuthorizedApplications",
+    "netfw/INetFwProfile::get_AuthorizedApplications"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FirewallAPI.dll",
+    "Hnetcfg.dll"
+  ],
+  "api_name": [
+    "INetFwProfile.AuthorizedApplications",
+    "INetFwProfile.get_AuthorizedApplications"
+  ]
+}

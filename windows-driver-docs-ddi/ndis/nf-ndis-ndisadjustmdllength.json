@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ndis.NdisAdjustMdlLength",
+  "title": "NdisAdjustMdlLength macro (ndis.h)",
+  "description": "The NdisAdjustMdlLength function modifies the length of the data that is associated with an MDL.",
+  "old-location": "netvista\\ndisadjustmdllength.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisAdjustMdlLength macro"
+  ],
+  "ms.keywords": "NdisAdjustMdlLength, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, netvista.ndisadjustmdllength",
+  "req.header": "ndis.h",
+  "req.include-header": "Ndis.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisAdjustMdlLength",
+    "ndis/NdisAdjustMdlLength"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisAdjustMdlLength"
+  ]
+}

@@ -1,0 +1,7 @@
+typedef struct _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX {
+  USHORT HeaderSize;
+  ULONG  Flags;
+  ULONG  NotificationInfoSize;
+  USHORT NotificationInfoOffset;
+  USHORT ProviderMajorVersion;
+} VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, *PVIRTUALIZATION_INSTANCE_INFO_INPUT_EX;

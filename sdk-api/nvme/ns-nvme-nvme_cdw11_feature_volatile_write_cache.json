@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE",
+  "tech.root": "fs",
+  "title": "NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains parameters for the Volatile Write Cache Feature that controls the volatile write cache, if it is supported and present, on the controller.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE, *PNVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE",
+    "NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE"
+  ],
+  "f1_keywords": [
+    "PNVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE",
+    "nvme/PNVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE",
+    "NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE",
+    "nvme/NVME_CDW11_FEATURE_VOLATILE_WRITE_CACHE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

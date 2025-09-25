@@ -1,0 +1,49 @@
+{
+  "UID": "NF:miniport.WRITE_PORT_USHORT",
+  "title": "WRITE_PORT_USHORT function (miniport.h)",
+  "description": "The WRITE_PORT_USHORT function (miniport.h) writes a USHORT value to the specified port address in resident, mapped device memory.",
+  "old-location": "kernel\\write_port_ushort.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "WRITE_PORT_USHORT function"
+  ],
+  "ms.keywords": "WRITE_PORT_USHORT, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, kernel.write_port_ushort, wdm/WRITE_PORT_USHORT",
+  "req.header": "miniport.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hal.lib",
+  "req.dll": null,
+  "req.irql": "Any level (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WRITE_PORT_USHORT",
+    "miniport/WRITE_PORT_USHORT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Hal.lib",
+    "Hal.dll"
+  ],
+  "api_name": [
+    "WRITE_PORT_USHORT"
+  ]
+}

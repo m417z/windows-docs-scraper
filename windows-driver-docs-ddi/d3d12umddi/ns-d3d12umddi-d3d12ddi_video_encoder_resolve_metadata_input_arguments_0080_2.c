@@ -1,0 +1,7 @@
+typedef struct D3D12DDI_VIDEO_ENCODER_RESOLVE_METADATA_INPUT_ARGUMENTS_0080_2 {
+  D3D12DDI_VIDEO_ENCODER_CODEC_0080                              EncoderCodec;
+  D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2                     EncoderProfile;
+  DXGI_FORMAT                                                    EncoderInputFormat;
+  D3D12DDI_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC_0080            EncodedPictureEffectiveResolution;
+  D3D12DDI_VIDEO_ENCODER_ENCODE_OPERATION_METADATA_BUFFER_0080_2 HWLayoutEncoderMetadataDrvBuffer;
+} D3D12DDI_VIDEO_ENCODER_RESOLVE_METADATA_INPUT_ARGUMENTS_0080_2;

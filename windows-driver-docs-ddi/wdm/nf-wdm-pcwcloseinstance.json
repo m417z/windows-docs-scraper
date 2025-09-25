@@ -1,0 +1,47 @@
+{
+  "UID": "NF:wdm.PcwCloseInstance",
+  "title": "PcwCloseInstance function (wdm.h)",
+  "description": "The PcwCloseInstance function closes the specified instance of the counterset.",
+  "tech.root": "devtest",
+  "ms.date": "01/12/2023",
+  "keywords": [
+    "PcwCloseInstance function"
+  ],
+  "ms.keywords": "PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], devtest.pcwcloseinstance, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, wdm/PcwCloseInstance",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "IRQL <= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PcwCloseInstance",
+    "wdm/PcwCloseInstance"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "PcwCloseInstance"
+  ]
+}

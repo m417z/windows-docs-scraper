@@ -1,0 +1,58 @@
+{
+  "UID": "NF:imagehlp.ImageGetCertificateData",
+  "title": "ImageGetCertificateData function (imagehlp.h)",
+  "description": "Retrieves a complete certificate from a file.",
+  "helpviewer_keywords": [
+    "ImageGetCertificateData",
+    "ImageGetCertificateData function",
+    "_win32_imagegetcertificatedata",
+    "base.imagegetcertificatedata",
+    "imagehlp/ImageGetCertificateData"
+  ],
+  "old-location": "base\\imagegetcertificatedata.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "ca4cf3a3-9324-4784-a6d8-44692f4840eb",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ImageGetCertificateData, ImageGetCertificateData function, _win32_imagegetcertificatedata, base.imagegetcertificatedata, imagehlp/ImageGetCertificateData",
+  "req.header": "imagehlp.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Imagehlp.lib",
+  "req.dll": "Imagehlp.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ImageGetCertificateData",
+    "imagehlp/ImageGetCertificateData"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Imagehlp.dll"
+  ],
+  "api_name": [
+    "ImageGetCertificateData"
+  ]
+}

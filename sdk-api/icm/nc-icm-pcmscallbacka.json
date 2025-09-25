@@ -1,0 +1,46 @@
+{
+  "UID": "NC:icm.PCMSCALLBACKA",
+  "title": "PCMSCALLBACKA",
+  "description": "\\**PCMSCALLBACKA** (or **ApplyCallbackFunction**) is a callback function that you implement that updates the WCS configuration data while the dialog box displayed by the [**SetupColorMatchingW**](/windows/win32/api/icm/nf-icm-setupcolormatchingw) function is executing.",
+  "tech.root": "wcs",
+  "ms.date": "02/01/2021",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "icm.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 2000 Professional \\[desktop apps only\\]",
+  "req.target-min-winversvr": "Windows 2000 Server \\[desktop apps only\\]",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "icm.h"
+  ],
+  "api_name": [
+    "PCMSCALLBACKA"
+  ],
+  "f1_keywords": [
+    "PCMSCALLBACKA",
+    "icm/PCMSCALLBACKA"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winuser.InsertMenuItemA",
+  "title": "InsertMenuItemA function (winuser.h)",
+  "description": "Inserts a new menu item at the specified position in a menu. (ANSI)",
+  "helpviewer_keywords": [
+    "InsertMenuItemA",
+    "winuser/InsertMenuItemA"
+  ],
+  "old-location": "menurc\\insertmenuitem.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\menus\\menureference\\menufunctions\\insertmenuitem.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "InsertMenuItem, InsertMenuItem function [Menus and Other Resources], InsertMenuItemA, InsertMenuItemW, _win32_InsertMenuItem, _win32_insertmenuitem_cpp, menurc.insertmenuitem, winui._win32_insertmenuitem, winuser/InsertMenuItem, winuser/InsertMenuItemA, winuser/InsertMenuItemW",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "InsertMenuItemW (Unicode) and InsertMenuItemA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InsertMenuItemA",
+    "winuser/InsertMenuItemA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "User32.dll",
+    "Ext-MS-Win-NTUser-Menu-l1-1-1.dll",
+    "ext-ms-win-ntuser-menu-l1-1-2.dll",
+    "Ext-MS-Win-NTUser-Menu-L1-1-3.dll"
+  ],
+  "api_name": [
+    "InsertMenuItem",
+    "InsertMenuItemA",
+    "InsertMenuItemW"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)"
+}

@@ -1,0 +1,1 @@
+CMAPI WORD CM_Get_Version();

@@ -1,0 +1,3 @@
+typedef enum {
+  DS_KCC_TASKID_UPDATE_TOPOLOGY = 0
+} DS_KCC_TASKID;

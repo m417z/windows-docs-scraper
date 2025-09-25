@@ -1,0 +1,3 @@
+HRESULT OverrideContextObject(
+  IModelObject *newContextObject
+);

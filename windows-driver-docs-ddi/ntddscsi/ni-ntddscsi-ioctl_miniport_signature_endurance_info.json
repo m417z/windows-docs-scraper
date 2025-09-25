@@ -1,0 +1,40 @@
+{
+  "UID": "NI:ntddscsi.IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO",
+  "title": "IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO",
+  "description": "IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO is the system-defined signature used in conjunction with the IOCTL_SCSI_MINIPORT control code to request that a miniport return endurance data for a target device.",
+  "tech.root": "storage",
+  "ms.date": "08/18/2022",
+  "keywords": [
+    "IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO SIGNATURE"
+  ],
+  "req.header": "ntddscsi.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO",
+    "ntddscsi/IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddscsi.h"
+  ],
+  "api_name": [
+    "IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winsplp.GetJobAttributesEx",
+  "title": "GetJobAttributesEx function (winsplp.h)",
+  "description": "A print provider's GetJobAttributesEx function obtains information about a print job, including N-up and reverse printing options.",
+  "tech.root": "print",
+  "ms.date": "11/30/2022",
+  "keywords": [
+    "GetJobAttributesEx function"
+  ],
+  "ms.keywords": "GetJobAttributesEx, GetJobAttributesEx function [Print Devices], print.getjobattributesex, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, winsplp/GetJobAttributesEx",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Spoolss.lib",
+  "req.dll": "Spoolss.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GetJobAttributesEx",
+    "winsplp/GetJobAttributesEx"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Spoolss.dll"
+  ],
+  "api_name": [
+    "GetJobAttributesEx"
+  ]
+}

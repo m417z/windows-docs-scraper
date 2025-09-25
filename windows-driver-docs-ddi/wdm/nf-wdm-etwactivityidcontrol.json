@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.EtwActivityIdControl",
+  "title": "EtwActivityIdControl function (wdm.h)",
+  "description": "The EtwActivityIdControl function creates, queries, and sets the current activity identifier.",
+  "tech.root": "devtest",
+  "ms.date": "02/15/2023",
+  "keywords": [
+    "EtwActivityIdControl function"
+  ],
+  "ms.keywords": "EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EtwActivityIdControl, EtwActivityIdControl function [Driver Development Tools], devtest.etwactivityidcontrol, etw_km_ecbfd65a-dd05-422b-9039-bb2a307d5978.xml, wdm/EtwActivityIdControl",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe; Ntdll.dll",
+  "req.irql": "See Comments section",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EtwActivityIdControl",
+    "wdm/EtwActivityIdControl"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe",
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "EtwActivityIdControl"
+  ]
+}

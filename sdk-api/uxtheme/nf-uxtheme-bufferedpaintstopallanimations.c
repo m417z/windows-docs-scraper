@@ -1,0 +1,3 @@
+HRESULT BufferedPaintStopAllAnimations(
+  HWND hwnd
+);

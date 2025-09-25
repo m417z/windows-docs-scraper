@@ -1,0 +1,6 @@
+typedef struct _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT {
+  ULONG     Flags;
+  ULONG     AlignmentShift;
+  ULONGLONG FileOffsetToAlign;
+  ULONG     FallbackAlignmentShift;
+} SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT;

@@ -1,0 +1,29 @@
+## Description
+
+The **D3D12DDI_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT_0080_2** structure represents picture control support for multiple codecs.
+
+## Members
+
+### `DataSize`
+
+Size of the referenced data, in bytes.
+
+### `pH264Support`
+
+Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT_H264_0080_2**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_encoder_codec_picture_control_support_h264_0080_2) structure that contains picture control support parameters for H.264 encoding.
+
+### `pHEVCSupport`
+
+Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT_HEVC_0080_2**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_encoder_codec_picture_control_support_hevc_0080_2) structure that contains picture control support parameters for HEVC encoding.
+
+### `pAV1Support`
+
+Pointer to a [**D3D12DDI_VIDEO_ENCODER_CODEC_AV1_PICTURE_CONTROL_SUPPORT_0095**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_encoder_codec_av1_picture_control_support_0095) structure that contains picture control support parameters for AV1 encoding. Added in Windows 11, version 24H2 (WDDM 3.2).
+
+## Remarks
+
+See [D3D12 video encoding](https://learn.microsoft.com/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
+
+## See also
+
+[**D3D12DDICAPS_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT_DATA_0080_2**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddicaps_video_encoder_codec_picture_control_support_data_0080_2)

@@ -1,0 +1,19 @@
+# WS_SERVICE_PROXY_STATE enumeration
+
+## Description
+
+The state of the service proxy.
+
+## Constants
+
+### `WS_SERVICE_PROXY_STATE_CREATED:0`
+
+### `WS_SERVICE_PROXY_STATE_OPENING:1`
+
+### `WS_SERVICE_PROXY_STATE_OPEN:2`
+
+### `WS_SERVICE_PROXY_STATE_CLOSING:3`
+
+### `WS_SERVICE_PROXY_STATE_CLOSED:4`
+
+### `WS_SERVICE_PROXY_STATE_FAULTED:5`

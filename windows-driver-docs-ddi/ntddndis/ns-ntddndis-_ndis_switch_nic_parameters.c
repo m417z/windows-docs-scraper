@@ -1,0 +1,20 @@
+typedef struct _NDIS_SWITCH_NIC_PARAMETERS {
+  NDIS_OBJECT_HEADER           Header;
+  ULONG                        Flags;
+  NDIS_SWITCH_NIC_NAME         NicName;
+  NDIS_SWITCH_NIC_FRIENDLYNAME NicFriendlyName;
+  NDIS_SWITCH_PORT_ID          PortId;
+  NDIS_SWITCH_NIC_INDEX        NicIndex;
+  NDIS_SWITCH_NIC_TYPE         NicType;
+  NDIS_SWITCH_NIC_STATE        NicState;
+  NDIS_VM_NAME                 VmName;
+  NDIS_VM_FRIENDLYNAME         VmFriendlyName;
+  GUID                         NetCfgInstanceId;
+  ULONG                        MTU;
+  USHORT                       NumaNodeId;
+  UCHAR                        PermanentMacAddress[NDIS_MAX_PHYS_ADDRESS_LENGTH];
+  UCHAR                        VMMacAddress[NDIS_MAX_PHYS_ADDRESS_LENGTH];
+  UCHAR                        CurrentMacAddress[NDIS_MAX_PHYS_ADDRESS_LENGTH];
+  BOOLEAN                      VFAssigned;
+  ULONG64                      NdisReserved[2];
+} NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS;

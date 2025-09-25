@@ -1,0 +1,4 @@
+LONG MCIWndStep(
+     hwnd,
+     n
+);

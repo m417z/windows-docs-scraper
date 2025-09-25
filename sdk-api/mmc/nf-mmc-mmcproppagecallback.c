@@ -1,0 +1,3 @@
+HRESULT MMCPropPageCallback(
+  void *vpsp
+);

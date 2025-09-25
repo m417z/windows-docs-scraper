@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.CcGetFlushedValidData",
+  "title": "CcGetFlushedValidData function (ntifs.h)",
+  "description": "The CcGetFlushedValidData routine determines how much of a cached file has been flushed to disk.",
+  "old-location": "ifsk\\ccgetflushedvaliddata.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "CcGetFlushedValidData function"
+  ],
+  "ms.keywords": "CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "CcGetFlushedValidData",
+    "ntifs/CcGetFlushedValidData"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "CcGetFlushedValidData"
+  ]
+}

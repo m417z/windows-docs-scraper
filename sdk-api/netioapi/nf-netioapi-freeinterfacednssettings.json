@@ -1,0 +1,47 @@
+{
+  "UID": "NF:netioapi.FreeInterfaceDnsSettings",
+  "title": "FreeInterfaceDnsSettings",
+  "description": "Frees the settings object returned by [GetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings).",
+  "tech.root": "IpHlp",
+  "ms.date": "07/15/2021",
+  "req.construct-type": "function",
+  "req.header": "netioapi.h",
+  "req.include-header": "Iphlpapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 19041",
+  "req.target-min-winversvr": "Windows 10 Build 19041",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Iphlpapi.lib",
+  "req.dll": "Iphlpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "FreeInterfaceDnsSettings",
+    "netioapi/FreeInterfaceDnsSettings"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Iphlpapi.dll"
+  ],
+  "api_name": [
+    "FreeInterfaceDnsSettings"
+  ]
+}

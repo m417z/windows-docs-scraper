@@ -1,0 +1,5 @@
+typedef struct _BTH_VENDOR_PATTERN {
+  UCHAR Offset;
+  UCHAR Size;
+  UCHAR Pattern[1];
+} BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:msacm.acmFilterTagDetailsA",
+  "title": "acmFilterTagDetailsA function (msacm.h)",
+  "description": "The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag. (acmFilterTagDetailsA)",
+  "helpviewer_keywords": [
+    "acmFilterTagDetailsA",
+    "msacm/acmFilterTagDetailsA"
+  ],
+  "old-location": "multimedia\\acmfiltertagdetails.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "6b1fd113-5753-4a45-974c-ecf3f5d27866",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_win32_acmFilterTagDetails, acmFilterTagDetails, acmFilterTagDetails function [Windows Multimedia], acmFilterTagDetailsA, acmFilterTagDetailsW, msacm/acmFilterTagDetails, msacm/acmFilterTagDetailsA, msacm/acmFilterTagDetailsW, multimedia.acmfiltertagdetails",
+  "req.header": "msacm.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "acmFilterTagDetailsW (Unicode) and acmFilterTagDetailsA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msacm32.lib",
+  "req.dll": "Msacm32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "acmFilterTagDetailsA",
+    "msacm/acmFilterTagDetailsA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msacm32.dll",
+    "Ext-MS-Win-mm-msacm-l1-1-0.dll"
+  ],
+  "api_name": [
+    "acmFilterTagDetails",
+    "acmFilterTagDetailsA",
+    "acmFilterTagDetailsW"
+  ]
+}

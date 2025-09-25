@@ -1,0 +1,48 @@
+{
+  "UID": "NS:storport._STOR_GROUP_AFFINITY",
+  "tech.root": "storage",
+  "title": "STOR_GROUP_AFFINITY",
+  "ms.date": "05/13/2021",
+  "targetos": "Windows",
+  "description": "The STOR_GROUP_AFFINITY structure specifies a group number and the processor affinity within that group.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "STOR_GROUP_AFFINITY, *PSTOR_GROUP_AFFINITY",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_GROUP_AFFINITY",
+    "PSTOR_GROUP_AFFINITY",
+    "STOR_GROUP_AFFINITY"
+  ],
+  "f1_keywords": [
+    "_STOR_GROUP_AFFINITY",
+    "storport/_STOR_GROUP_AFFINITY",
+    "PSTOR_GROUP_AFFINITY",
+    "storport/PSTOR_GROUP_AFFINITY",
+    "STOR_GROUP_AFFINITY",
+    "storport/STOR_GROUP_AFFINITY"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

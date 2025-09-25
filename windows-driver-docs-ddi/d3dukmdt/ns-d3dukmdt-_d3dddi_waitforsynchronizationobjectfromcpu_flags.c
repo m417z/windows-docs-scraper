@@ -1,0 +1,9 @@
+typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
+  union {
+    struct {
+      UINT WaitAny : 1;
+      UINT Reserved : 31;
+    };
+    UINT Value;
+  };
+} D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS;

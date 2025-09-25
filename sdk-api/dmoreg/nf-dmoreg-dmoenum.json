@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dmoreg.DMOEnum",
+  "title": "DMOEnum function (dmoreg.h)",
+  "description": "The DMOEnum function enumerates DMOs listed in the registry. The caller can search by category, media type, or both.",
+  "helpviewer_keywords": [
+    "DMOEnum",
+    "DMOEnum function [DirectShow]",
+    "dmoreg/DMOEnum",
+    "dshow.dmoenum"
+  ],
+  "old-location": "dshow\\dmoenum.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "2cb69d28-15be-44fb-a180-98b560848c08",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoenum",
+  "req.header": "dmoreg.h",
+  "req.include-header": "Dmo.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Msdmo.lib",
+  "req.dll": "Msdmo.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DMOEnum",
+    "dmoreg/DMOEnum"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Msdmo.dll"
+  ],
+  "api_name": [
+    "DMOEnum"
+  ]
+}

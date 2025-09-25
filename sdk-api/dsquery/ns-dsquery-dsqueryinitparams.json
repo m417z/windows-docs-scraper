@@ -1,0 +1,71 @@
+{
+  "UID": "NS:dsquery.DSQUERYINITPARAMS",
+  "title": "DSQUERYINITPARAMS (dsquery.h)",
+  "description": "Describes the data used to initialize a browse dialog box in the directory service query.",
+  "helpviewer_keywords": [
+    "*LPDSQUERYINITPARAMS",
+    "DSQPF_ENABLEADMINFEATURES",
+    "DSQPF_ENABLEADVANCEDFEATURES",
+    "DSQPF_HASCREDENTIALS",
+    "DSQPF_NOCHOOSECOLUMNS",
+    "DSQPF_NOSAVE",
+    "DSQPF_SAVELOCATION",
+    "DSQPF_SHOWHIDDENOBJECTS",
+    "DSQUERYINITPARAMS",
+    "DSQUERYINITPARAMS structure [Active Directory]",
+    "LPDSQUERYINITPARAMS",
+    "LPDSQUERYINITPARAMS structure pointer [Active Directory]",
+    "_glines_dsqueryinitparams",
+    "ad.dsqueryinitparams",
+    "dsquery/DSQUERYINITPARAMS",
+    "dsquery/LPDSQUERYINITPARAMS"
+  ],
+  "old-location": "ad\\dsqueryinitparams.htm",
+  "tech.root": "ad",
+  "ms.assetid": "ff1cb792-efb0-46f5-bc9b-95c9fb2959db",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPDSQUERYINITPARAMS, DSQPF_ENABLEADMINFEATURES, DSQPF_ENABLEADVANCEDFEATURES, DSQPF_HASCREDENTIALS, DSQPF_NOCHOOSECOLUMNS, DSQPF_NOSAVE, DSQPF_SAVELOCATION, DSQPF_SHOWHIDDENOBJECTS, DSQUERYINITPARAMS, DSQUERYINITPARAMS structure [Active Directory], LPDSQUERYINITPARAMS, LPDSQUERYINITPARAMS structure pointer [Active Directory], _glines_dsqueryinitparams, ad.dsqueryinitparams, dsquery/DSQUERYINITPARAMS, dsquery/LPDSQUERYINITPARAMS",
+  "req.header": "dsquery.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DSQUERYINITPARAMS, *LPDSQUERYINITPARAMS",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LPDSQUERYINITPARAMS",
+    "dsquery/LPDSQUERYINITPARAMS",
+    "DSQUERYINITPARAMS",
+    "dsquery/DSQUERYINITPARAMS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Dsquery.h"
+  ],
+  "api_name": [
+    "DSQUERYINITPARAMS"
+  ]
+}

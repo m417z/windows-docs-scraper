@@ -1,0 +1,4 @@
+typedef struct _FILE_ATTRIBUTE_TAG_INFO {
+  DWORD FileAttributes;
+  DWORD ReparseTag;
+} FILE_ATTRIBUTE_TAG_INFO, *PFILE_ATTRIBUTE_TAG_INFO;

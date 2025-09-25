@@ -1,0 +1,7 @@
+PFND3D12DDI_CREATEDEVICE_0003 Pfnd3d12ddiCreatedevice0003;
+
+HRESULT Pfnd3d12ddiCreatedevice0003(
+  D3D12DDI_HADAPTER unnamedParam1,
+  const D3D12DDIARG_CREATEDEVICE_0003 *unnamedParam2
+)
+{...}

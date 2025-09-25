@@ -1,0 +1,6 @@
+MSTCPIP_INLINE VOID IN6ADDR_SETSOCKADDR(
+  PSOCKADDR_IN6  a,
+  const IN6_ADDR *addr,
+  SCOPE_ID       scope,
+  USHORT         port
+);

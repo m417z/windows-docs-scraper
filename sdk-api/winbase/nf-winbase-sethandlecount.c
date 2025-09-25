@@ -1,0 +1,3 @@
+UINT SetHandleCount(
+  UINT uNumber
+);

@@ -1,0 +1,3 @@
+BOOL BeginRead(
+  DWORD dwTimeOut
+);

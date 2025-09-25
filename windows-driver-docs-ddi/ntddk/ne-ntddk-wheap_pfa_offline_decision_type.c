@@ -1,0 +1,4 @@
+typedef enum _WHEAP_PFA_OFFLINE_DECISION_TYPE {
+  WheapPfaOfflinePredictiveFailure,
+  WheapPfaOfflineUncorrectedError
+} WHEAP_PFA_OFFLINE_DECISION_TYPE, *PWHEAP_PFA_OFFLINE_DECISION_TYPE;

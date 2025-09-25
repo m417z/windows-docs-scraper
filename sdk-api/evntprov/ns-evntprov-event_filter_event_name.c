@@ -1,0 +1,8 @@
+typedef struct _EVENT_FILTER_EVENT_NAME {
+  ULONGLONG MatchAnyKeyword;
+  ULONGLONG MatchAllKeyword;
+  UCHAR     Level;
+  BOOLEAN   FilterIn;
+  USHORT    NameCount;
+  UCHAR     Names[ANYSIZE_ARRAY];
+} EVENT_FILTER_EVENT_NAME, *PEVENT_FILTER_EVENT_NAME;

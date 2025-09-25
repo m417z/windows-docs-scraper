@@ -1,0 +1,1 @@
+SNMPAPI_STATUS SNMPAPI_CALL SnmpCleanupEx();

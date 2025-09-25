@@ -1,0 +1,64 @@
+{
+  "UID": "NF:winbio.WinBioGetEnrolledFactors",
+  "title": "WinBioGetEnrolledFactors function (winbio.h)",
+  "description": "Gets information about the biometric enrollments that the specified user has on the computer.",
+  "helpviewer_keywords": [
+    "WinBioGetEnrolledFactors",
+    "WinBioGetEnrolledFactors function [Windows Biometric Framework API]",
+    "secbiomet.winbiogetenrolledfactors",
+    "winbio/WinBioGetEnrolledFactors"
+  ],
+  "old-location": "secbiomet\\winbiogetenrolledfactors.htm",
+  "tech.root": "SecBioMet",
+  "ms.assetid": "25DCB7FC-6971-4EFD-A686-E994F4345D2B",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Windows Biometric Framework API], secbiomet.winbiogetenrolledfactors, winbio/WinBioGetEnrolledFactors",
+  "req.header": "winbio.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winbio.lib",
+  "req.dll": "Winbio.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WinBioGetEnrolledFactors",
+    "winbio/WinBioGetEnrolledFactors"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-biometrics-winbio-core-l1-1-6.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-5.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-4.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-3.dll",
+    "ext-ms-win-biometrics-winbio-core-l1-1-2.dll",
+    "winbio.dll",
+    "Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll",
+    "Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll"
+  ],
+  "api_name": [
+    "WinBioGetEnrolledFactors"
+  ]
+}

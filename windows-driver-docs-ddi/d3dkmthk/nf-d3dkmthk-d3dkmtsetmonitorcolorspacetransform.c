@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSetMonitorColorSpaceTransform(
+  D3DKMT_SET_COLORSPACE_TRANSFORM *unnamedParam1
+);

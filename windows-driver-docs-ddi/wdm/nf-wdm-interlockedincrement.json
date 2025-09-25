@@ -1,0 +1,53 @@
+{
+  "UID": "NF:wdm.InterlockedIncrement",
+  "title": "InterlockedIncrement function (wdm.h)",
+  "description": "The InterlockedIncrement function (wdm.h) increments a caller-supplied variable as an atomic operation.",
+  "old-location": "kernel\\interlockedincrement.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "InterlockedIncrement function"
+  ],
+  "ms.keywords": "InterlockedIncrement, InterlockedIncrement routine [Kernel-Mode Driver Architecture], k102_8d625992-2e36-464d-a771-629d5f08b398.xml, kernel.interlockedincrement, wdm/InterlockedIncrement",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Miniport.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OneCoreUAP.lib on Windows 10",
+  "req.dll": null,
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "InterlockedIncrement",
+    "wdm/InterlockedIncrement"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "OneCoreUAP.lib",
+    "OneCoreUAP.dll",
+    "API-MS-Win-Core-Interlocked-l1-1-0.dll",
+    "API-MS-Win-Core-Interlocked-l1-2-0.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll"
+  ],
+  "api_name": [
+    "InterlockedIncrement"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:restartmanager.RmGetList",
+  "title": "RmGetList function (restartmanager.h)",
+  "description": "Gets a list of all applications and services that are currently using resources that have been registered with the Restart Manager session.",
+  "helpviewer_keywords": [
+    "RmGetList",
+    "RmGetList function [Restart Mgr]",
+    "restartmanager/RmGetList",
+    "rstmgr.rmgetlist"
+  ],
+  "old-location": "rstmgr\\rmgetlist.htm",
+  "tech.root": "rstmgr",
+  "ms.assetid": "de4feea4-2b45-4430-a4b3-8ca26c455e42",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetList, rstmgr.rmgetlist",
+  "req.header": "restartmanager.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rstrtmgr.lib",
+  "req.dll": "Rstrtmgr.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RmGetList",
+    "restartmanager/RmGetList"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-base-rstrtmgr-l1-1-0.dll",
+    "Rstrtmgr.dll"
+  ],
+  "api_name": [
+    "RmGetList"
+  ]
+}

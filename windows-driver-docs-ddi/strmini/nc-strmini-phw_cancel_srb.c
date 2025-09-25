@@ -1,0 +1,6 @@
+PHW_CANCEL_SRB PhwCancelSrb;
+
+VOID PhwCancelSrb(
+  [in] IN PHW_STREAM_REQUEST_BLOCK SRB
+)
+{...}

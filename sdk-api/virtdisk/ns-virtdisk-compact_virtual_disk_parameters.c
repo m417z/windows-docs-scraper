@@ -1,0 +1,8 @@
+typedef struct _COMPACT_VIRTUAL_DISK_PARAMETERS {
+  COMPACT_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      ULONG Reserved;
+    } Version1;
+  };
+} COMPACT_VIRTUAL_DISK_PARAMETERS, *PCOMPACT_VIRTUAL_DISK_PARAMETERS;

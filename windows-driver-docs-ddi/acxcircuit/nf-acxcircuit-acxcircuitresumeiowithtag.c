@@ -1,0 +1,4 @@
+void AcxCircuitResumeIoWithTag(
+  Circuit,
+  Tag
+);

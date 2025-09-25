@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFDevice.GetDefaultIoQueue",
+  "title": "IWDFDevice::GetDefaultIoQueue (wudfddi.h)",
+  "description": "The GetDefaultIoQueue method retrieves the interface of the default I/O queue for a device.",
+  "old-location": "wdf\\iwdfdevice_getdefaultioqueue.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFDevice::GetDefaultIoQueue"
+  ],
+  "ms.keywords": "GetDefaultIoQueue, GetDefaultIoQueue method, GetDefaultIoQueue method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoQueue method, IWDFDevice.GetDefaultIoQueue, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, umdf.iwdfdevice_getdefaultioqueue, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFDevice::GetDefaultIoQueue",
+    "wudfddi/IWDFDevice::GetDefaultIoQueue"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFDevice::GetDefaultIoQueue"
+  ]
+}

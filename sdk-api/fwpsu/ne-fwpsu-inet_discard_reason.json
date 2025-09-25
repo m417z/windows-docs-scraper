@@ -1,0 +1,46 @@
+{
+  "UID": "NE:fwpsu.INET_DISCARD_REASON",
+  "tech.root": "fwp",
+  "title": "INET_DISCARD_REASON",
+  "ms.date": "06/06/2024",
+  "targetos": "Windows",
+  "description": "Defines the possible reasons that data is discarded by one of the transport layers.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "fwpsu.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": true,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "fwpsu.h"
+  ],
+  "api_name": [
+    "INET_DISCARD_REASON",
+    "PINET_DISCARD_REASON"
+  ],
+  "f1_keywords": [
+    "INET_DISCARD_REASON",
+    "fwpsu/INET_DISCARD_REASON",
+    "PINET_DISCARD_REASON",
+    "fwpsu/PINET_DISCARD_REASON"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "INET_DISCARD_REASON"
+  ]
+}

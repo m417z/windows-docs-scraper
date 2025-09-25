@@ -1,0 +1,48 @@
+{
+  "UID": "NF:scavengr.RxPurgeRelatedFobxs",
+  "title": "RxPurgeRelatedFobxs function (scavengr.h)",
+  "description": "RxPurgeRelatedFobxs purges all of the FOBX structures associated with a NET_ROOT structure.",
+  "old-location": "ifsk\\rxpurgerelatedfobxs.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxPurgeRelatedFobxs function"
+  ],
+  "ms.keywords": "RxPurgeRelatedFobxs, RxPurgeRelatedFobxs function [Installable File System Drivers], ifsk.rxpurgerelatedfobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, scavengr/RxPurgeRelatedFobxs",
+  "req.header": "scavengr.h",
+  "req.include-header": "Rxprocs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxPurgeRelatedFobxs",
+    "scavengr/RxPurgeRelatedFobxs"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "scavengr.h"
+  ],
+  "api_name": [
+    "RxPurgeRelatedFobxs"
+  ]
+}

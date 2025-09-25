@@ -1,0 +1,46 @@
+{
+  "UID": "NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE",
+  "title": "DXGK_BRIGHTNESS_INTERFACE (dispmprt.h)",
+  "description": "The DXGK_BRIGHTNESS_INTERFACE structure contains pointers to functions in the Panel Brightness Control Interface, which is implemented by the display miniport driver.",
+  "tech.root": "display",
+  "ms.date": "08/15/2025",
+  "req.header": "dispmprt.h",
+  "req.include-header": "Dispmprt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DXGK_BRIGHTNESS_INTERFACE, *PDXGK_BRIGHTNESS_INTERFACE",
+  "f1_keywords": [
+    "PDXGK_BRIGHTNESS_INTERFACE",
+    "dispmprt/PDXGK_BRIGHTNESS_INTERFACE",
+    "DXGK_BRIGHTNESS_INTERFACE",
+    "dispmprt/DXGK_BRIGHTNESS_INTERFACE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dispmprt.h"
+  ],
+  "api_name": [
+    "PDXGK_BRIGHTNESS_INTERFACE",
+    "DXGK_BRIGHTNESS_INTERFACE"
+  ]
+}

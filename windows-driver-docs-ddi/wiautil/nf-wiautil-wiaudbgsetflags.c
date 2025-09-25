@@ -1,0 +1,3 @@
+void wiauDbgSetFlags(
+  a
+);

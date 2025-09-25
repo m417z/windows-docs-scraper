@@ -1,0 +1,6 @@
+typedef struct D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_PARAMETERS {
+  GUID                                          CommandId;
+  D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE Stage;
+  UINT                                          ParameterCount;
+  D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO  *pParameterInfos;
+} D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_PARAMETERS;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:adsprop.ADsPropCheckIfWritable",
+  "title": "ADsPropCheckIfWritable function (adsprop.h)",
+  "description": "The ADsPropCheckIfWritable function determines if an attribute can be written.",
+  "helpviewer_keywords": [
+    "ADsPropCheckIfWritable",
+    "ADsPropCheckIfWritable function [Active Directory]",
+    "_glines_adspropcheckifwritable",
+    "ad.adspropcheckifwritable",
+    "adsprop/ADsPropCheckIfWritable"
+  ],
+  "old-location": "ad\\adspropcheckifwritable.htm",
+  "tech.root": "ad",
+  "ms.assetid": "ec0c3a70-58ad-4d92-85dc-63090b1fce94",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable",
+  "req.header": "adsprop.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dsprop.lib",
+  "req.dll": "Dsprop.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ADsPropCheckIfWritable",
+    "adsprop/ADsPropCheckIfWritable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dsprop.dll"
+  ],
+  "api_name": [
+    "ADsPropCheckIfWritable"
+  ]
+}

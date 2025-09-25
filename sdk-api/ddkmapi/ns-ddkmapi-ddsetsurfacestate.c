@@ -1,0 +1,6 @@
+typedef struct _DDSETSURFACETATE {
+  HANDLE hDirectDraw;
+  HANDLE hSurface;
+  DWORD  dwState;
+  DWORD  dwStartField;
+} DDSETSURFACESTATE, *LPDDSETSURFACESTATE;

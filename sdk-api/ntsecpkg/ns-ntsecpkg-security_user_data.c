@@ -1,0 +1,6 @@
+typedef struct _SECURITY_USER_DATA {
+  SECURITY_STRING UserName;
+  SECURITY_STRING LogonDomainName;
+  SECURITY_STRING LogonServer;
+  PSID            pSid;
+} SECURITY_USER_DATA, *PSECURITY_USER_DATA;

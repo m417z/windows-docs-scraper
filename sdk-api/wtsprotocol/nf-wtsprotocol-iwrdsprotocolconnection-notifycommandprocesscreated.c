@@ -1,0 +1,3 @@
+HRESULT NotifyCommandProcessCreated(
+  ULONG SessionId
+);

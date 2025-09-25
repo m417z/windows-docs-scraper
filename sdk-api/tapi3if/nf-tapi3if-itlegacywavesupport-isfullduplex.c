@@ -1,0 +1,3 @@
+HRESULT IsFullDuplex(
+  FULLDUPLEX_SUPPORT *pSupport
+);

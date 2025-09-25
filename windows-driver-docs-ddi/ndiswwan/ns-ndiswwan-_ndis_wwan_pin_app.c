@@ -1,0 +1,4 @@
+typedef struct _NDIS_WWAN_PIN_APP {
+  NDIS_OBJECT_HEADER Header;
+  WWAN_PIN_APP       PinApp;
+} NDIS_WWAN_PIN_APP, *PNDIS_WWAN_PIN_APP;

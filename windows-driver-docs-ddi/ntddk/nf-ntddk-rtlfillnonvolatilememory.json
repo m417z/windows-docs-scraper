@@ -1,0 +1,46 @@
+{
+  "UID": "NF:ntddk.RtlFillNonVolatileMemory",
+  "title": "RtlFillNonVolatileMemory function",
+  "description": "Fills the non-volatile destination buffer with the given value.",
+  "tech.root": "ifsk",
+  "ms.date": "08/19/2019",
+  "keywords": [
+    "RtlFillNonVolatileMemory function"
+  ],
+  "ms.keywords": "RtlFillNonVolatileMemory",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1903",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DPC_LEVEL",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RtlFillNonVolatileMemory",
+    "ntddk/RtlFillNonVolatileMemory"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "RtlFillNonVolatileMemory"
+  ]
+}

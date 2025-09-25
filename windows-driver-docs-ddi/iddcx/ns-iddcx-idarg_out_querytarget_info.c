@@ -1,0 +1,4 @@
+struct IDARG_OUT_QUERYTARGET_INFO {
+  IDDCX_TARGET_CAPS             TargetCaps;
+  IDDCX_WIRE_BITS_PER_COMPONENT DitheringSupport;
+};

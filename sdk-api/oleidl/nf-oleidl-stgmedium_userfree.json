@@ -1,0 +1,51 @@
+{
+  "UID": "NF:oleidl.STGMEDIUM_UserFree",
+  "tech.root": "com",
+  "title": "STGMEDIUM_UserFree (oleidl.h)",
+  "ms.date": "08/15/2022",
+  "targetos": "Windows",
+  "description": "The STGMEDIUM_UserFree function (oleidl.h) frees resources on the server side when called by RPC stub files.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "oleidl.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-marshal-l2-1-0.dll",
+    "ole32.dll"
+  ],
+  "api_name": [
+    "STGMEDIUM_UserFree"
+  ],
+  "f1_keywords": [
+    "STGMEDIUM_UserFree",
+    "oleidl/STGMEDIUM_UserFree"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "STGMEDIUM_UserFree"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _SERVICE_TABLE_ENTRYW {
+  LPWSTR                   lpServiceName;
+  LPSERVICE_MAIN_FUNCTIONW lpServiceProc;
+} SERVICE_TABLE_ENTRYW, *LPSERVICE_TABLE_ENTRYW;

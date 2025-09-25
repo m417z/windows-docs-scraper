@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wct.CloseThreadWaitChainSession",
+  "title": "CloseThreadWaitChainSession function (wct.h)",
+  "description": "Closes the specified WCT session and cancels any outstanding asynchronous operations.",
+  "helpviewer_keywords": [
+    "CloseThreadWaitChainSession",
+    "CloseThreadWaitChainSession function",
+    "base.closethreadwaitchainsession",
+    "wct/CloseThreadWaitChainSession"
+  ],
+  "old-location": "base\\closethreadwaitchainsession.htm",
+  "tech.root": "Debug",
+  "ms.assetid": "dc288418-01e4-4737-9c63-e6e6b73b5d13",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CloseThreadWaitChainSession, CloseThreadWaitChainSession function, base.closethreadwaitchainsession, wct/CloseThreadWaitChainSession",
+  "req.header": "wct.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Advapi32.lib",
+  "req.dll": "Advapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CloseThreadWaitChainSession",
+    "wct/CloseThreadWaitChainSession"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Advapi32.dll",
+    "Ext-MS-Win-wer-wct-l1-1-0.dll",
+    "wer.dll"
+  ],
+  "api_name": [
+    "CloseThreadWaitChainSession"
+  ]
+}

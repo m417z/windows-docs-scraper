@@ -1,0 +1,7 @@
+typedef struct _NDIS_IF_PROVIDER_CHARACTERISTICS {
+  NDIS_OBJECT_HEADER Header;
+  IFP_QUERY_OBJECT   QueryObjectHandler;
+  IFP_SET_OBJECT     SetObjectHandler;
+  PVOID              Reserved1;
+  PVOID              Reserved2;
+} NDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS;

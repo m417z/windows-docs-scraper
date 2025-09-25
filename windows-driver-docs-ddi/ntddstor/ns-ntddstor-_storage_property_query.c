@@ -1,0 +1,5 @@
+typedef struct _STORAGE_PROPERTY_QUERY {
+  STORAGE_PROPERTY_ID PropertyId;
+  STORAGE_QUERY_TYPE  QueryType;
+  UCHAR               AdditionalParameters[1];
+} STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY;

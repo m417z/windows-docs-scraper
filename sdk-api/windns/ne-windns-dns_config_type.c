@@ -1,0 +1,21 @@
+typedef enum {
+  DnsConfigPrimaryDomainName_W,
+  DnsConfigPrimaryDomainName_A,
+  DnsConfigPrimaryDomainName_UTF8,
+  DnsConfigAdapterDomainName_W,
+  DnsConfigAdapterDomainName_A,
+  DnsConfigAdapterDomainName_UTF8,
+  DnsConfigDnsServerList,
+  DnsConfigSearchList,
+  DnsConfigAdapterInfo,
+  DnsConfigPrimaryHostNameRegistrationEnabled,
+  DnsConfigAdapterHostNameRegistrationEnabled,
+  DnsConfigAddressRegistrationMaxCount,
+  DnsConfigHostName_W,
+  DnsConfigHostName_A,
+  DnsConfigHostName_UTF8,
+  DnsConfigFullHostName_W,
+  DnsConfigFullHostName_A,
+  DnsConfigFullHostName_UTF8,
+  DnsConfigNameServer
+} DNS_CONFIG_TYPE;

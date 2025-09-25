@@ -1,0 +1,4 @@
+typedef struct _MIB_TCP6TABLE2 {
+  DWORD        dwNumEntries;
+  MIB_TCP6ROW2 table[ANY_SIZE];
+} MIB_TCP6TABLE2, *PMIB_TCP6TABLE2;

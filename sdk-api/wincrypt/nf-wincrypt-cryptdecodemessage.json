@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CryptDecodeMessage",
+  "title": "CryptDecodeMessage function (wincrypt.h)",
+  "description": "Decodes, decrypts, and verifies a cryptographic message.",
+  "helpviewer_keywords": [
+    "CryptDecodeMessage",
+    "CryptDecodeMessage function [Security]",
+    "_crypto2_cryptdecodemessage",
+    "security.cryptdecodemessage",
+    "wincrypt/CryptDecodeMessage"
+  ],
+  "old-location": "security\\cryptdecodemessage.htm",
+  "tech.root": "security",
+  "ms.assetid": "25ffd058-8f75-4ba5-b075-e3efc09f5d9d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptDecodeMessage",
+    "wincrypt/CryptDecodeMessage"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CryptDecodeMessage"
+  ]
+}

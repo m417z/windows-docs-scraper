@@ -1,0 +1,7 @@
+DXGKCB_ISFEATUREENABLED2 DxgkcbIsfeatureenabled2;
+
+NTSTATUS DxgkcbIsfeatureenabled2(
+  IN_CONST_HANDLE hAdapter,
+  INOUT_PDXGKARGCB_ISFEATUREENABLED2 pArgs
+)
+{...}

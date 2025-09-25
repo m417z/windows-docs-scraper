@@ -1,0 +1,56 @@
+{
+  "UID": "NF:dwrite.DWRITE_MAKE_OPENTYPE_TAG",
+  "title": "DWRITE_MAKE_OPENTYPE_TAG macro (dwrite.h)",
+  "description": "Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little endian architectures), which can be used to compare with tags in the font file.",
+  "helpviewer_keywords": [
+    "DWRITE_MAKE_OPENTYPE_TAG",
+    "DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write]",
+    "directwrite.dwrite_make_opentype_tag",
+    "dwrite/DWRITE_MAKE_OPENTYPE_TAG"
+  ],
+  "old-location": "directwrite\\dwrite_make_opentype_tag.htm",
+  "tech.root": "DirectWrite",
+  "ms.assetid": "fe93a24a-5f3d-4e73-87ac-b33357c838e3",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write], directwrite.dwrite_make_opentype_tag, dwrite/DWRITE_MAKE_OPENTYPE_TAG",
+  "req.header": "dwrite.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "DWRITE_MAKE_OPENTYPE_TAG",
+    "dwrite/DWRITE_MAKE_OPENTYPE_TAG"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dwrite.h"
+  ],
+  "api_name": [
+    "DWRITE_MAKE_OPENTYPE_TAG"
+  ]
+}

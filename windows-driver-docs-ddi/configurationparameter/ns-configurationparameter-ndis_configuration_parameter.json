@@ -1,0 +1,54 @@
+{
+  "UID": "NS:configurationparameter._NDIS_CONFIGURATION_PARAMETER",
+  "tech.root": "netvista",
+  "title": "NDIS_CONFIGURATION_PARAMETER",
+  "ms.date": "07/22/2025",
+  "targetos": "Windows",
+  "description": "The NDIS_CONFIGURATION_PARAMETER structure contains the data and type of a named entry in the registry.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "configurationparameter.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Supported for NDIS 6.0 and NDIS 5.1 drivers in Windows Vista. Supported for NDIS   5.1 drivers in Windows XP.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "NDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "configurationparameter.h"
+  ],
+  "api_name": [
+    "_NDIS_CONFIGURATION_PARAMETER",
+    "PNDIS_CONFIGURATION_PARAMETER",
+    "NDIS_CONFIGURATION_PARAMETER"
+  ],
+  "f1_keywords": [
+    "_NDIS_CONFIGURATION_PARAMETER",
+    "configurationparameter/_NDIS_CONFIGURATION_PARAMETER",
+    "PNDIS_CONFIGURATION_PARAMETER",
+    "configurationparameter/PNDIS_CONFIGURATION_PARAMETER",
+    "NDIS_CONFIGURATION_PARAMETER",
+    "configurationparameter/NDIS_CONFIGURATION_PARAMETER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_NDIS_CONFIGURATION_PARAMETER"
+  ]
+}

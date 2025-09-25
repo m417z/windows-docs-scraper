@@ -1,0 +1,7 @@
+PFND3D12DDI_DISPATCH_GRAPH_0084 Pfnd3d12ddiDispatchGraph0084;
+
+void Pfnd3d12ddiDispatchGraph0084(
+  D3D12DDI_HCOMMANDLIST unnamedParam1,
+  const D3D12DDI_DISPATCH_GRAPH_DESC_0084 *unnamedParam2
+)
+{...}

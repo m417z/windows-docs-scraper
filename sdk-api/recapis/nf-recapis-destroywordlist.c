@@ -1,0 +1,3 @@
+HRESULT DestroyWordList(
+  HRECOWORDLIST hwl
+);

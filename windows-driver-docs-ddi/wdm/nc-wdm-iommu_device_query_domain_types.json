@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.IOMMU_DEVICE_QUERY_DOMAIN_TYPES",
+  "tech.root": "kernel",
+  "title": "IOMMU_DEVICE_QUERY_DOMAIN_TYPES",
+  "ms.date": "06/04/2021",
+  "targetos": "Windows",
+  "description": "Queries for the available types of domains that a IOMMU_DMA_DEVICE is allowed to attach to, depending on environment factors, such as platform and DMA Guard Policy.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "IOMMU_DEVICE_QUERY_DOMAIN_TYPES"
+  ],
+  "f1_keywords": [
+    "IOMMU_DEVICE_QUERY_DOMAIN_TYPES",
+    "wdm/IOMMU_DEVICE_QUERY_DOMAIN_TYPES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

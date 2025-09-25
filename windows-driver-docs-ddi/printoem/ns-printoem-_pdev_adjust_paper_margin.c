@@ -1,0 +1,3 @@
+typedef struct _PDEV_ADJUST_PAPER_MARGIN {
+  RECTL rcImageableArea;
+} PDEV_ADJUST_PAPER_MARGIN;

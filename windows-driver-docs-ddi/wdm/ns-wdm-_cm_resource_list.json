@@ -1,0 +1,53 @@
+{
+  "UID": "NS:wdm._CM_RESOURCE_LIST",
+  "title": "_CM_RESOURCE_LIST (wdm.h)",
+  "description": "The CM_RESOURCE_LIST structure specifies all of the system hardware resources assigned to a device.",
+  "tech.root": "kernel",
+  "ms.date": "01/18/2023",
+  "keywords": [
+    "CM_RESOURCE_LIST structure"
+  ],
+  "ms.keywords": "*PCM_RESOURCE_LIST, CM_RESOURCE_LIST, CM_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PCM_RESOURCE_LIST, PCM_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _CM_RESOURCE_LIST, kernel.cm_resource_list, kstruct_a_29dadb2f-b0d2-41a4-b17e-f69c12b6def6.xml, wdm/CM_RESOURCE_LIST, wdm/PCM_RESOURCE_LIST",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CM_RESOURCE_LIST, *PCM_RESOURCE_LIST",
+  "f1_keywords": [
+    "_CM_RESOURCE_LIST",
+    "wdm/_CM_RESOURCE_LIST",
+    "PCM_RESOURCE_LIST",
+    "wdm/PCM_RESOURCE_LIST",
+    "CM_RESOURCE_LIST",
+    "wdm/CM_RESOURCE_LIST"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_CM_RESOURCE_LIST",
+    "PCM_RESOURCE_LIST",
+    "CM_RESOURCE_LIST"
+  ]
+}

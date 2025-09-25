@@ -1,0 +1,12 @@
+typedef struct _HEAPALIGNMENT {
+  DWORD            dwSize;
+  DDSCAPS          ddsCaps;
+  DWORD            dwReserved;
+  SURFACEALIGNMENT ExecuteBuffer;
+  SURFACEALIGNMENT Overlay;
+  SURFACEALIGNMENT Texture;
+  SURFACEALIGNMENT ZBuffer;
+  SURFACEALIGNMENT AlphaBuffer;
+  SURFACEALIGNMENT Offscreen;
+  SURFACEALIGNMENT FlipTarget;
+} HEAPALIGNMENT, *LPHEAPALIGNMENT;

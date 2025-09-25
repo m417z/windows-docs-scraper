@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.IOMMU_MAP_IDENTITY_RANGE_EX",
+  "tech.root": "kernel",
+  "title": "IOMMU_MAP_IDENTITY_RANGE_EX",
+  "ms.date": "06/09/2021",
+  "targetos": "Windows",
+  "description": "Creates an identity mapping for a provided physical address space in the provided domain.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "IOMMU_MAP_IDENTITY_RANGE_EX"
+  ],
+  "f1_keywords": [
+    "IOMMU_MAP_IDENTITY_RANGE_EX",
+    "wdm/IOMMU_MAP_IDENTITY_RANGE_EX"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

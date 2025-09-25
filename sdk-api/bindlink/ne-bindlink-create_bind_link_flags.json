@@ -1,0 +1,45 @@
+{
+  "UID": "NE:bindlink.CREATE_BIND_LINK_FLAGS",
+  "tech.root": "fs",
+  "title": "CREATE_BIND_LINK_FLAGS (bindlink.h)",
+  "ms.date": "04/24/2023",
+  "targetos": "Windows",
+  "description": "These flags can be passed in to CreateBindLink to change the default bind link behavior to suit the needs of the user.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "bindlink.h",
+  "req.dll": "bindlink.dll",
+  "req.lib": "bindlink.lib",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "bindlink.h"
+  ],
+  "api_name": [
+    "CREATE_BIND_LINK_FLAGS"
+  ],
+  "f1_keywords": [
+    "CREATE_BIND_LINK_FLAGS",
+    "bindlink/CREATE_BIND_LINK_FLAGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "CREATE_BIND_LINK_FLAGS"
+  ]
+}

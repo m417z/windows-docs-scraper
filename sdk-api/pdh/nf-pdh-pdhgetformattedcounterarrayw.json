@@ -1,0 +1,73 @@
+{
+  "UID": "NF:pdh.PdhGetFormattedCounterArrayW",
+  "title": "PdhGetFormattedCounterArrayW function (pdh.h)",
+  "description": "Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name. (Unicode)",
+  "helpviewer_keywords": [
+    "PDH_FMT_1000",
+    "PDH_FMT_DOUBLE",
+    "PDH_FMT_LARGE",
+    "PDH_FMT_LONG",
+    "PDH_FMT_NOCAP100",
+    "PDH_FMT_NOSCALE",
+    "PdhGetFormattedCounterArray",
+    "PdhGetFormattedCounterArray function [Perf]",
+    "PdhGetFormattedCounterArrayW",
+    "_win32_pdhgetformattedcounterarray",
+    "base.pdhgetformattedcounterarray",
+    "pdh/PdhGetFormattedCounterArray",
+    "pdh/PdhGetFormattedCounterArrayW",
+    "perf.pdhgetformattedcounterarray"
+  ],
+  "old-location": "perf\\pdhgetformattedcounterarray.htm",
+  "tech.root": "perf",
+  "ms.assetid": "0f388c7e-d0c8-461d-908c-48af92166996",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterArray, PdhGetFormattedCounterArray function [Perf], PdhGetFormattedCounterArrayA, PdhGetFormattedCounterArrayW, _win32_pdhgetformattedcounterarray, base.pdhgetformattedcounterarray, pdh/PdhGetFormattedCounterArray, pdh/PdhGetFormattedCounterArrayA, pdh/PdhGetFormattedCounterArrayW, perf.pdhgetformattedcounterarray",
+  "req.header": "pdh.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PdhGetFormattedCounterArrayW (Unicode) and PdhGetFormattedCounterArrayA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Pdh.lib",
+  "req.dll": "Pdh.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PdhGetFormattedCounterArrayW",
+    "pdh/PdhGetFormattedCounterArrayW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-eventing-pdh-l1-1-3.dll",
+    "ext-ms-win-eventing-pdh-l1-1-2.dll",
+    "ext-ms-win-eventing-pdh-l1-1-1.dll",
+    "ext-ms-win-eventing-pdh-l1-1-0.dll",
+    "Pdh.dll"
+  ],
+  "api_name": [
+    "PdhGetFormattedCounterArray",
+    "PdhGetFormattedCounterArrayA",
+    "PdhGetFormattedCounterArrayW"
+  ]
+}

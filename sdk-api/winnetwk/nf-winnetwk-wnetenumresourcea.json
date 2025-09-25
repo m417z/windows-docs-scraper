@@ -1,0 +1,57 @@
+{
+  "UID": "NF:winnetwk.WNetEnumResourceA",
+  "title": "WNetEnumResourceA function (winnetwk.h)",
+  "description": "The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function. (ANSI)",
+  "helpviewer_keywords": [
+    "WNetEnumResourceA",
+    "winnetwk/WNetEnumResourceA"
+  ],
+  "old-location": "wnet\\wnetenumresource.htm",
+  "tech.root": "WNet",
+  "ms.assetid": "2c58c6d0-d5fe-447e-be39-df34072c160e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WNetEnumResource, WNetEnumResource function [Windows Networking (WNet)], WNetEnumResourceA, WNetEnumResourceW, _win32_wnetenumresource, winnetwk/WNetEnumResource, winnetwk/WNetEnumResourceA, winnetwk/WNetEnumResourceW, wnet.wnetenumresource",
+  "req.header": "winnetwk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "WNetEnumResourceW (Unicode) and WNetEnumResourceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Mpr.lib",
+  "req.dll": "Mpr.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WNetEnumResourceA",
+    "winnetwk/WNetEnumResourceA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Mpr.dll"
+  ],
+  "api_name": [
+    "WNetEnumResource",
+    "WNetEnumResourceA",
+    "WNetEnumResourceW"
+  ]
+}

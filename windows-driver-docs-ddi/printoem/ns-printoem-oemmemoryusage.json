@@ -1,0 +1,50 @@
+{
+  "UID": "NS:printoem.OEMMEMORYUSAGE",
+  "title": "OEMMEMORYUSAGE (printoem.h)",
+  "description": "The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's IPrintOemUni::MemoryUsage method.",
+  "tech.root": "print",
+  "ms.date": "08/12/2022",
+  "keywords": [
+    "OEMMEMORYUSAGE structure"
+  ],
+  "ms.keywords": "*POEMMEMORYUSAGE, OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], print.oemmemoryusage, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE",
+  "req.header": "printoem.h",
+  "req.include-header": "Printoem.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "OEMMEMORYUSAGE, *POEMMEMORYUSAGE",
+  "f1_keywords": [
+    "POEMMEMORYUSAGE",
+    "printoem/POEMMEMORYUSAGE",
+    "OEMMEMORYUSAGE",
+    "printoem/OEMMEMORYUSAGE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "printoem.h"
+  ],
+  "api_name": [
+    "POEMMEMORYUSAGE",
+    "OEMMEMORYUSAGE"
+  ]
+}

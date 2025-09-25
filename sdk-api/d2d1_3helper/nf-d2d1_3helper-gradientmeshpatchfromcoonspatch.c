@@ -1,0 +1,22 @@
+D2D1_GRADIENT_MESH_PATCH GradientMeshPatchFromCoonsPatch(
+  D2D1_POINT_2F        point0,
+  D2D1_POINT_2F        point1,
+  D2D1_POINT_2F        point2,
+  D2D1_POINT_2F        point3,
+  D2D1_POINT_2F        point4,
+  D2D1_POINT_2F        point5,
+  D2D1_POINT_2F        point6,
+  D2D1_POINT_2F        point7,
+  D2D1_POINT_2F        point8,
+  D2D1_POINT_2F        point9,
+  D2D1_POINT_2F        point10,
+  D2D1_POINT_2F        point11,
+  D2D1_COLOR_F         color0,
+  D2D1_COLOR_F         color1,
+  D2D1_COLOR_F         color2,
+  D2D1_COLOR_F         color3,
+  D2D1_PATCH_EDGE_MODE topEdgeMode,
+  D2D1_PATCH_EDGE_MODE leftEdgeMode,
+  D2D1_PATCH_EDGE_MODE bottomEdgeMode,
+  D2D1_PATCH_EDGE_MODE rightEdgeMode
+);

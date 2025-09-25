@@ -1,0 +1,1 @@
+ULONGLONG GetTickCount64();

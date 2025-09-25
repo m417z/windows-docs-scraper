@@ -1,0 +1,3 @@
+typedef struct CF_SYNC_ROOT_BASIC_INFO {
+  LARGE_INTEGER SyncRootFileId;
+} CF_SYNC_ROOT_BASIC_INFO;

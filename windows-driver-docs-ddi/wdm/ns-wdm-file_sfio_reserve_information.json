@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._FILE_SFIO_RESERVE_INFORMATION",
+  "title": "FILE_SFIO_RESERVE_INFORMATION",
+  "ms.date": "11/20/2020",
+  "tech.root": "ifsk",
+  "targetos": "Windows",
+  "description": "FILE_SFIO_RESERVE_INFORMATION is used to query or set a file's reserved bandwidth information for scheduled file I/O (SFIO).",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "FILE_SFIO_RESERVE_INFORMATION, *PFILE_SFIO_RESERVE_INFORMATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_FILE_SFIO_RESERVE_INFORMATION",
+    "PFILE_SFIO_RESERVE_INFORMATION",
+    "FILE_SFIO_RESERVE_INFORMATION"
+  ],
+  "f1_keywords": [
+    "_FILE_SFIO_RESERVE_INFORMATION",
+    "wdm/_FILE_SFIO_RESERVE_INFORMATION",
+    "PFILE_SFIO_RESERVE_INFORMATION",
+    "wdm/PFILE_SFIO_RESERVE_INFORMATION",
+    "FILE_SFIO_RESERVE_INFORMATION",
+    "wdm/FILE_SFIO_RESERVE_INFORMATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

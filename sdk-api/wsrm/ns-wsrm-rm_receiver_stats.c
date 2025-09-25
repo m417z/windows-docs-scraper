@@ -1,0 +1,20 @@
+typedef struct _RM_RECEIVER_STATS {
+  ULONGLONG NumODataPacketsReceived;
+  ULONGLONG NumRDataPacketsReceived;
+  ULONGLONG NumDuplicateDataPackets;
+  ULONGLONG DataBytesReceived;
+  ULONGLONG TotalBytesReceived;
+  ULONGLONG RateKBitsPerSecOverall;
+  ULONGLONG RateKBitsPerSecLast;
+  ULONGLONG TrailingEdgeSeqId;
+  ULONGLONG LeadingEdgeSeqId;
+  ULONGLONG AverageSequencesInWindow;
+  ULONGLONG MinSequencesInWindow;
+  ULONGLONG MaxSequencesInWindow;
+  ULONGLONG FirstNakSequenceNumber;
+  ULONGLONG NumPendingNaks;
+  ULONGLONG NumOutstandingNaks;
+  ULONGLONG NumDataPacketsBuffered;
+  ULONGLONG TotalSelectiveNaksSent;
+  ULONGLONG TotalParityNaksSent;
+} RM_RECEIVER_STATS;

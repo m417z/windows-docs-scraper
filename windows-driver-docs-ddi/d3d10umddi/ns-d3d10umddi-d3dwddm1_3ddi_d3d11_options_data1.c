@@ -1,0 +1,3 @@
+typedef struct D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 {
+  UINT TiledResourcesSupportFlags;
+} D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1;

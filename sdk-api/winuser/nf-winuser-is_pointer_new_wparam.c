@@ -1,0 +1,3 @@
+BOOL IS_POINTER_NEW_WPARAM(
+    WPARAM wParam
+);

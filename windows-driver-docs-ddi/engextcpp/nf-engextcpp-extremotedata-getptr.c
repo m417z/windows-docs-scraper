@@ -1,0 +1,1 @@
+ULONG64 GetPtr();

@@ -1,0 +1,20 @@
+typedef struct _CM_FLOPPY_DEVICE_DATA {
+  USHORT Version;
+  USHORT Revision;
+  CHAR   Size[8];
+  ULONG  MaxDensity;
+  ULONG  MountDensity;
+  UCHAR  StepRateHeadUnloadTime;
+  UCHAR  HeadLoadTime;
+  UCHAR  MotorOffTime;
+  UCHAR  SectorLengthCode;
+  UCHAR  SectorPerTrack;
+  UCHAR  ReadWriteGapLength;
+  UCHAR  DataTransferLength;
+  UCHAR  FormatGapLength;
+  UCHAR  FormatFillCharacter;
+  UCHAR  HeadSettleTime;
+  UCHAR  MotorSettleTime;
+  UCHAR  MaximumTrackValue;
+  UCHAR  DataTransferRate;
+} CM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA;

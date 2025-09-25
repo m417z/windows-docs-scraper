@@ -1,0 +1,4 @@
+typedef struct _MINIDUMP_MODULE_LIST {
+  ULONG32         NumberOfModules;
+  MINIDUMP_MODULE Modules[0];
+} MINIDUMP_MODULE_LIST, *PMINIDUMP_MODULE_LIST;

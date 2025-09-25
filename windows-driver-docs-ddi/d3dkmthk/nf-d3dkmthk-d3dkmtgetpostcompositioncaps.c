@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetPostCompositionCaps(
+  D3DKMT_GET_POST_COMPOSITION_CAPS *unnamedParam1
+);

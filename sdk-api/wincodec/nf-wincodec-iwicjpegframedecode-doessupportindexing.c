@@ -1,0 +1,3 @@
+HRESULT DoesSupportIndexing(
+  BOOL *pfIndexingSupported
+);

@@ -1,0 +1,3 @@
+HRESULT SetBackFaceVisibility(
+  DCOMPOSITION_BACKFACE_VISIBILITY visibility
+);

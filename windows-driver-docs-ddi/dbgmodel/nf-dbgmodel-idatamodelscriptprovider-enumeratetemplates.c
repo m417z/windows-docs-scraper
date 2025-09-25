@@ -1,0 +1,3 @@
+HRESULT EnumerateTemplates(
+  IDataModelScriptTemplateEnumerator **enumerator
+);

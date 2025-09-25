@@ -1,0 +1,4 @@
+typedef enum RILSMSACKOPT {
+  RIL_SMSACKOPT_NONE,
+  RIL_SMSACKOPT_IMS
+} ;

@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winsock2.SocketNotificationRetrieveEvents",
+  "title": "SocketNotificationRetrieveEvents",
+  "description": "This inline helper function is provided as a convenience to retrieve the events mask from an [OVERLAPPED_ENTRY](/windows/win32/api/minwinbase/ns-minwinbase-overlapped_entry).",
+  "ms.date": "11/17/2020",
+  "tech.root": "WinSock",
+  "targetos": "Windows",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Ws2_32.dll",
+  "req.header": "winsock2.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Ws2_32.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ws2_32.dll",
+    "wsock32.dll"
+  ],
+  "api_name": [
+    "SocketNotificationRetrieveEvents"
+  ],
+  "f1_keywords": [
+    "SocketNotificationRetrieveEvents",
+    "winsock2/SocketNotificationRetrieveEvents"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

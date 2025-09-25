@@ -1,0 +1,46 @@
+{
+  "UID": "NS:nvme.NVME_CONTROLLER_MEMORY_BUFFER_LOCATION",
+  "tech.root": "fs",
+  "title": "NVME_CONTROLLER_MEMORY_BUFFER_LOCATION",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Defines the location of the optional Controller Memory Buffer Location register in the **CMBLOC** field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "NVME_CONTROLLER_MEMORY_BUFFER_LOCATION, *PNVME_CONTROLLER_MEMORY_BUFFER_LOCATION",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "PNVME_CONTROLLER_MEMORY_BUFFER_LOCATION",
+    "NVME_CONTROLLER_MEMORY_BUFFER_LOCATION"
+  ],
+  "f1_keywords": [
+    "PNVME_CONTROLLER_MEMORY_BUFFER_LOCATION",
+    "nvme/PNVME_CONTROLLER_MEMORY_BUFFER_LOCATION",
+    "NVME_CONTROLLER_MEMORY_BUFFER_LOCATION",
+    "nvme/NVME_CONTROLLER_MEMORY_BUFFER_LOCATION"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

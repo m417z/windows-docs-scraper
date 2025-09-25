@@ -1,0 +1,58 @@
+{
+  "UID": "NF:vfw.ICDecompressBegin",
+  "title": "ICDecompressBegin macro (vfw.h)",
+  "description": "The ICDecompressBegin macro notifies a video decompression driver to prepare to decompress data. You can use this macro or explicitly call the ICM_DECOMPRESS_BEGIN message.",
+  "helpviewer_keywords": [
+    "ICDecompressBegin",
+    "ICDecompressBegin macro [Windows Multimedia]",
+    "_win32_ICDecompressBegin",
+    "multimedia.icdecompressbegin",
+    "vfw/ICDecompressBegin"
+  ],
+  "old-location": "multimedia\\icdecompressbegin.htm",
+  "tech.root": "Multimedia",
+  "ms.assetid": "3e9fb4b7-bdc6-402c-a5c6-3f837149c291",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "ICDecompressBegin, ICDecompressBegin macro [Windows Multimedia], _win32_ICDecompressBegin, multimedia.icdecompressbegin, vfw/ICDecompressBegin",
+  "req.header": "vfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICDecompressBegin",
+    "vfw/ICDecompressBegin"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Vfw.h"
+  ],
+  "api_name": [
+    "ICDecompressBegin"
+  ]
+}

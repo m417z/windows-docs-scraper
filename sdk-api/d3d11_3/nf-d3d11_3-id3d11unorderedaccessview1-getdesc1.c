@@ -1,0 +1,3 @@
+void GetDesc1(
+  [out] D3D11_UNORDERED_ACCESS_VIEW_DESC1 *pDesc1
+);

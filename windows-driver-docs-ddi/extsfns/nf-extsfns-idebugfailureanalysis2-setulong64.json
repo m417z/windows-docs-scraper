@@ -1,0 +1,48 @@
+{
+  "UID": "NF:extsfns.IDebugFailureAnalysis2.SetUlong64",
+  "title": "IDebugFailureAnalysis2::SetUlong64 (extsfns.h)",
+  "description": "The SetUlong64 method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified ULONG64 value.",
+  "old-location": "debugger\\idebugfailureanalysis2_setulong64.htm",
+  "tech.root": "debugger",
+  "ms.date": "05/03/2018",
+  "keywords": [
+    "IDebugFailureAnalysis2::SetUlong64"
+  ],
+  "ms.keywords": "IDebugFailureAnalysis2 interface [Windows Debugging],SetUlong64 method, IDebugFailureAnalysis2.SetUlong64, IDebugFailureAnalysis2::SetUlong64, SetUlong64, SetUlong64 method [Windows Debugging], SetUlong64 method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensionulong64, debugger.idebugfailureanalysis2_setulong64, extsfns/IDebugFailureAnalysis2::SetUlong64",
+  "req.header": "extsfns.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IDebugFailureAnalysis2::SetUlong64",
+    "extsfns/IDebugFailureAnalysis2::SetUlong64"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "extsfns.h"
+  ],
+  "api_name": [
+    "IDebugFailureAnalysis2::SetUlong64"
+  ]
+}

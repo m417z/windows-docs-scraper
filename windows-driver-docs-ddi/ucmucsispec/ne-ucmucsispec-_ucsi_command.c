@@ -1,0 +1,23 @@
+typedef enum _UCSI_COMMAND {
+  UcsiCommandPpmReset,
+  UcsiCommandCancel,
+  UcsiCommandConnectorReset,
+  UcsiCommandAckCcCi,
+  UcsiCommandSetNotificationEnable,
+  UcsiCommandGetCapability,
+  UcsiCommandGetConnectorCapability,
+  UcsiCommandSetUom,
+  UcsiCommandSetUor,
+  UcsiCommandSetPdm,
+  UcsiCommandSetPdr,
+  UcsiCommandGetAlternateModes,
+  UcsiCommandGetCamSupported,
+  UcsiCommandGetCurrentCam,
+  UcsiCommandSetNewCam,
+  UcsiCommandGetPdos,
+  UcsiCommandGetCableProperty,
+  UcsiCommandGetConnectorStatus,
+  UcsiCommandGetErrorStatus,
+  UcsiCommandSetPowerLevel,
+  UcsiCommandMax
+} UCSI_COMMAND;

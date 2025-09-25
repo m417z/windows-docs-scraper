@@ -1,0 +1,3 @@
+HRESULT RegisterFontFileLoader(
+  IDWriteFontFileLoader *fontFileLoader
+);

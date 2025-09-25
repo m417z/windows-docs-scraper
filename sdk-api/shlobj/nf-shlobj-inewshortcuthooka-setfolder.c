@@ -1,0 +1,3 @@
+HRESULT SetFolder(
+  PCSTR pcszFolder
+);

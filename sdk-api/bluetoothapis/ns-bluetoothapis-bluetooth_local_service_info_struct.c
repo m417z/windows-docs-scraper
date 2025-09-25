@@ -1,0 +1,6 @@
+typedef struct _BLUETOOTH_LOCAL_SERVICE_INFO {
+  BOOL              Enabled;
+  BLUETOOTH_ADDRESS btAddr;
+  WCHAR             szName[BLUETOOTH_MAX_SERVICE_NAME_SIZE];
+  WCHAR             szDeviceString[BLUETOOTH_DEVICE_NAME_SIZE];
+} BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT;

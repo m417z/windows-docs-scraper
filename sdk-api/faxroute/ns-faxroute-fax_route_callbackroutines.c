@@ -1,0 +1,8 @@
+typedef struct _FAX_ROUTE_CALLBACKROUTINES {
+  DWORD                      SizeOfStruct;
+  PFAXROUTEADDFILE           FaxRouteAddFile;
+  PFAXROUTEDELETEFILE        FaxRouteDeleteFile;
+  PFAXROUTEGETFILE           FaxRouteGetFile;
+  PFAXROUTEENUMFILES         FaxRouteEnumFiles;
+  PFAXROUTEMODIFYROUTINGDATA FaxRouteModifyRoutingData;
+} FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES;

@@ -1,0 +1,1 @@
+#define NET_BUFFER_LIST_CONTEXT_DATA_SIZE(_NBL) (((_NBL)->Context)->Size)

@@ -1,0 +1,4 @@
+typedef struct DXGI_DDI_MULTIPLANE_OVERLAY_CAPS {
+  UINT MaxPlanes;
+  UINT NumCapabilityGroups;
+} DXGI_DDI_MULTIPLANE_OVERLAY_CAPS;

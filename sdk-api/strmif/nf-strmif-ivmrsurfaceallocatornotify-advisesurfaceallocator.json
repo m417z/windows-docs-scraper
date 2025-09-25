@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator",
+  "title": "IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator (strmif.h)",
+  "description": "The AdviseSurfaceAllocator method is called by an application to instruct the VMR to use a custom allocator-presenter.",
+  "helpviewer_keywords": [
+    "AdviseSurfaceAllocator",
+    "AdviseSurfaceAllocator method [DirectShow]",
+    "AdviseSurfaceAllocator method [DirectShow]",
+    "IVMRSurfaceAllocatorNotify interface",
+    "IVMRSurfaceAllocatorNotify interface [DirectShow]",
+    "AdviseSurfaceAllocator method",
+    "IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator",
+    "IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator",
+    "IVMRSurfaceAllocatorNotifyAdviseSurfaceAllocator",
+    "dshow.ivmrsurfaceallocatornotify_advisesurfaceallocator",
+    "strmif/IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator"
+  ],
+  "old-location": "dshow\\ivmrsurfaceallocatornotify_advisesurfaceallocator.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "fdb0837c-1ee3-4dc9-b797-3d726c8ba3dc",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "AdviseSurfaceAllocator, AdviseSurfaceAllocator method [DirectShow], AdviseSurfaceAllocator method [DirectShow],IVMRSurfaceAllocatorNotify interface, IVMRSurfaceAllocatorNotify interface [DirectShow],AdviseSurfaceAllocator method, IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotifyAdviseSurfaceAllocator, dshow.ivmrsurfaceallocatornotify_advisesurfaceallocator, strmif/IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator",
+    "strmif/IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:lmconfig.NetConfigGetAll",
+  "title": "NetConfigGetAll function (lmconfig.h)",
+  "description": "The NetConfigGetAll function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.",
+  "helpviewer_keywords": [
+    "NetConfigGetAll",
+    "NetConfigGetAll function [Network Management]",
+    "_win32_netconfiggetall",
+    "lmconfig/NetConfigGetAll",
+    "netmgmt.netconfiggetall"
+  ],
+  "old-location": "netmgmt\\netconfiggetall.htm",
+  "tech.root": "NetMgmt",
+  "ms.assetid": "1819f3d0-5e85-454b-947a-ae5e3db30987",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "NetConfigGetAll, NetConfigGetAll function [Network Management], _win32_netconfiggetall, lmconfig/NetConfigGetAll, netmgmt.netconfiggetall",
+  "req.header": "lmconfig.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NetConfigGetAll",
+    "lmconfig/NetConfigGetAll"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "lmconfig.h"
+  ],
+  "api_name": [
+    "NetConfigGetAll"
+  ]
+}

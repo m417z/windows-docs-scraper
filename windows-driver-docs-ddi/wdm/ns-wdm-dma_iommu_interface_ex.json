@@ -1,0 +1,48 @@
+{
+  "UID": "NS:wdm._DMA_IOMMU_INTERFACE_EX",
+  "tech.root": "kernel",
+  "title": "DMA_IOMMU_INTERFACE_EX",
+  "ms.date": "08/07/2025",
+  "targetos": "Windows",
+  "description": "An interface structure that allows device drivers to interface with the IOMMU functions that perform device domain operations.",
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": "Windows Server 2022",
+  "req.target-type": null,
+  "req.typenames": "DMA_IOMMU_INTERFACE_EX, *PDMA_IOMMU_INTERFACE_EX",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_DMA_IOMMU_INTERFACE_EX",
+    "PDMA_IOMMU_INTERFACE_EX",
+    "DMA_IOMMU_INTERFACE_EX"
+  ],
+  "f1_keywords": [
+    "_DMA_IOMMU_INTERFACE_EX",
+    "wdm/_DMA_IOMMU_INTERFACE_EX",
+    "PDMA_IOMMU_INTERFACE_EX",
+    "wdm/PDMA_IOMMU_INTERFACE_EX",
+    "DMA_IOMMU_INTERFACE_EX",
+    "wdm/DMA_IOMMU_INTERFACE_EX"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

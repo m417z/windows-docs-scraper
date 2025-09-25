@@ -1,0 +1,68 @@
+{
+  "UID": "NS:clfs._CLS_WRITE_ENTRY",
+  "title": "CLS_WRITE_ENTRY (clfs.h)",
+  "description": "Contains a user buffer, which is to become part of a log record, and its length.",
+  "helpviewer_keywords": [
+    "*PCLFS_WRITE_ENTRY",
+    "*PCLS_WRITE_ENTRY",
+    "CLFS_WRITE_ENTRY",
+    "CLFS_WRITE_ENTRY structure [Files]",
+    "CLS_WRITE_ENTRY",
+    "PCLFS_WRITE_ENTRY",
+    "PCLFS_WRITE_ENTRY structure pointer [Files]",
+    "PPCLS_WRITE_ENTRY",
+    "clfs/PCLFS_WRITE_ENTRY",
+    "clfs/_CLFS_WRITE_ENTRY",
+    "fs.clfs_write_entry"
+  ],
+  "old-location": "fs\\clfs_write_entry.htm",
+  "tech.root": "fs",
+  "ms.assetid": "7c81a695-b93c-4c74-8ee8-133eea9f12d9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Files], CLS_WRITE_ENTRY, PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Files], PPCLS_WRITE_ENTRY, clfs/PCLFS_WRITE_ENTRY, clfs/_CLFS_WRITE_ENTRY, fs.clfs_write_entry",
+  "req.header": "clfs.h",
+  "req.include-header": "Clfsw32.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_CLS_WRITE_ENTRY",
+    "clfs/_CLS_WRITE_ENTRY",
+    "PCLS_WRITE_ENTRY",
+    "clfs/PCLS_WRITE_ENTRY",
+    "CLS_WRITE_ENTRY",
+    "clfs/CLS_WRITE_ENTRY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Clfs.h"
+  ],
+  "api_name": [
+    "CLFS_WRITE_ENTRY"
+  ]
+}

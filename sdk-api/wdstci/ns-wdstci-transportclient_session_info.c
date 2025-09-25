@@ -1,0 +1,5 @@
+typedef struct _TRANSPORTCLIENT_SESSION_INFO {
+  ULONG          ulStructureLength;
+  ULARGE_INTEGER ullFileSize;
+  ULONG          ulBlockSize;
+} TRANSPORTCLIENT_SESSION_INFO, *PTRANSPORTCLIENT_SESSION_INFO;

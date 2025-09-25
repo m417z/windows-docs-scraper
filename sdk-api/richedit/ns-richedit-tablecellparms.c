@@ -1,0 +1,20 @@
+typedef struct _tableCellParms {
+    LONG     dxWidth;
+  2 WORD     nVertAlign : 2;
+  1 WORD     fMergeTop : 1;
+  1 WORD     fMergePrev : 1;
+  1 WORD     fVertical : 1;
+  1 WORD     fMergeStart : 1;
+  1 WORD     fMergeCont : 1;
+    WORD     wShading;
+    SHORT    dxBrdrLeft;
+    SHORT    dyBrdrTop;
+    SHORT    dxBrdrRight;
+    SHORT    dyBrdrBottom;
+    COLORREF crBrdrLeft;
+    COLORREF crBrdrTop;
+    COLORREF crBrdrRight;
+    COLORREF crBrdrBottom;
+    COLORREF crBackPat;
+    COLORREF crForePat;
+} TABLECELLPARMS;

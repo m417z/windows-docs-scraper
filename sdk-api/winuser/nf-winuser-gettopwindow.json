@@ -1,0 +1,69 @@
+{
+  "UID": "NF:winuser.GetTopWindow",
+  "title": "GetTopWindow function (winuser.h)",
+  "description": "Examines the Z order of the child windows associated with the specified parent window and retrieves a handle to the child window at the top of the Z order.",
+  "helpviewer_keywords": [
+    "GetTopWindow",
+    "GetTopWindow function [Windows and Messages]",
+    "_win32_GetTopWindow",
+    "_win32_gettopwindow_cpp",
+    "winmsg.gettopwindow",
+    "winui._win32_gettopwindow",
+    "winuser/GetTopWindow"
+  ],
+  "old-location": "winmsg\\gettopwindow.htm",
+  "tech.root": "winmsg",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\windowing\\windows\\windowreference\\windowfunctions\\gettopwindow.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetTopWindow, GetTopWindow function [Windows and Messages], _win32_GetTopWindow, _win32_gettopwindow_cpp, winmsg.gettopwindow, winui._win32_gettopwindow, winuser/GetTopWindow",
+  "req.header": "winuser.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "User32.lib",
+  "req.dll": "User32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetTopWindow",
+    "winuser/GetTopWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll",
+    "ext-ms-win-ntuser-window-l1-1-6.dll",
+    "ext-ms-win-ntuser-window-l1-1-5.dll",
+    "User32.dll",
+    "API-MS-Win-NTUser-IE-Window-l1-1-0.dll",
+    "ie_shims.dll",
+    "API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll",
+    "minuser.dll",
+    "Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll"
+  ],
+  "api_name": [
+    "GetTopWindow"
+  ],
+  "req.apiset": "ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)"
+}

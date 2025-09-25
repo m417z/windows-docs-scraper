@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortLogError",
+  "title": "VideoPortLogError function (video.h)",
+  "description": "The VideoPortLogError function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.",
+  "old-location": "display\\videoportlogerror.htm",
+  "tech.root": "display",
+  "ms.date": "08/18/2022",
+  "keywords": [
+    "VideoPortLogError function"
+  ],
+  "ms.keywords": "VideoPortLogError, VideoPortLogError function [Display Devices], VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror, video/VideoPortLogError",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows 2000",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "<= DIRQL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortLogError",
+    "video/VideoPortLogError"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortLogError"
+  ]
+}

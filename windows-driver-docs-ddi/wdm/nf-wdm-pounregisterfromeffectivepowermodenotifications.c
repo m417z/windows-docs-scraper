@@ -1,0 +1,3 @@
+NTSTATUS PoUnregisterFromEffectivePowerModeNotifications(
+  PO_EPM_HANDLE RegistrationHandle
+);

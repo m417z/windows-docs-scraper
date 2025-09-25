@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngFntCacheLookUp",
+  "title": "EngFntCacheLookUp function (winddi.h)",
+  "description": "The EngFntCacheLookUp function retrieves the address of cached font file data.",
+  "helpviewer_keywords": [
+    "EngFntCacheLookUp",
+    "EngFntCacheLookUp function [Display Devices]",
+    "display.engfntcachelookup",
+    "gdifncs_2fee1e8e-2cb5-4088-b0aa-f697689fe56f.xml",
+    "winddi/EngFntCacheLookUp"
+  ],
+  "old-location": "display\\engfntcachelookup.htm",
+  "tech.root": "display",
+  "ms.assetid": "daf93826-fdcb-4c9d-ade6-ad4f0ef40ff5",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngFntCacheLookUp, EngFntCacheLookUp function [Display Devices], display.engfntcachelookup, gdifncs_2fee1e8e-2cb5-4088-b0aa-f697689fe56f.xml, winddi/EngFntCacheLookUp",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "This function is available in Windows XP and later.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngFntCacheLookUp",
+    "winddi/EngFntCacheLookUp"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngFntCacheLookUp"
+  ]
+}

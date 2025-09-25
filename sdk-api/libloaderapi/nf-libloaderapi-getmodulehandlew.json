@@ -1,0 +1,73 @@
+{
+  "UID": "NF:libloaderapi.GetModuleHandleW",
+  "title": "GetModuleHandleW function (libloaderapi.h)",
+  "description": "Retrieves a module handle for the specified module. The module must have been loaded by the calling process. (Unicode)",
+  "helpviewer_keywords": [
+    "GetModuleHandle",
+    "GetModuleHandle function",
+    "GetModuleHandleW",
+    "_win32_getmodulehandle",
+    "base.getmodulehandle",
+    "libloaderapi/GetModuleHandle",
+    "libloaderapi/GetModuleHandleW"
+  ],
+  "old-location": "base\\getmodulehandle.htm",
+  "tech.root": "base",
+  "ms.assetid": "29514410-89fe-4888-8b34-0c30d5af237f",
+  "ms.date": "12/09/2024",
+  "ms.keywords": "GetModuleHandle, GetModuleHandle function, GetModuleHandleA, GetModuleHandleW, _win32_getmodulehandle, base.getmodulehandle, libloaderapi/GetModuleHandle, libloaderapi/GetModuleHandleA, libloaderapi/GetModuleHandleW, winbase/GetModuleHandle, winbase/GetModuleHandleA, winbase/GetModuleHandleW",
+  "req.header": "libloaderapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "GetModuleHandleW (Unicode) and GetModuleHandleA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-libraryloader-l1-2-3.dll",
+    "Kernel32.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-1-1.dll",
+    "API-MS-Win-Core-LibraryLoader-l1-2-0.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-Libraryloader-l1-2-1.dll",
+    "API-MS-Win-Core-LibraryLoader-L1-2-2.dll"
+  ],
+  "api_name": [
+    "GetModuleHandle",
+    "GetModuleHandleA",
+    "GetModuleHandleW"
+  ],
+  "f1_keywords": [
+    "GetModuleHandleW",
+    "libloaderapi/GetModuleHandleW",
+    "GetModuleHandle",
+    "libloaderapi/GetModuleHandle"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

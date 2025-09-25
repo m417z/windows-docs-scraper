@@ -1,0 +1,66 @@
+{
+  "UID": "NS:tapi.lineforwardlist_tag",
+  "title": "LINEFORWARDLIST (tapi.h)",
+  "description": "The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.",
+  "helpviewer_keywords": [
+    "*LPLINEFORWARDLIST",
+    "LINEFORWARDLIST",
+    "LINEFORWARDLIST structure [TAPI 2.2]",
+    "LPLINEFORWARDLIST",
+    "LPLINEFORWARDLIST structure pointer [TAPI 2.2]",
+    "_tapi2_lineforwardlist_str",
+    "tapi/LINEFORWARDLIST",
+    "tapi/LPLINEFORWARDLIST",
+    "tapi2.lineforwardlist_str"
+  ],
+  "old-location": "tapi2\\lineforwardlist_str.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "3dec9ab6-43d8-4dda-b0b1-a25407e4d77a",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPLINEFORWARDLIST, LINEFORWARDLIST, LINEFORWARDLIST structure [TAPI 2.2], LPLINEFORWARDLIST, LPLINEFORWARDLIST structure pointer [TAPI 2.2], _tapi2_lineforwardlist_str, tapi/LINEFORWARDLIST, tapi/LPLINEFORWARDLIST, tapi2.lineforwardlist_str",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LINEFORWARDLIST, *LPLINEFORWARDLIST",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineforwardlist_tag",
+    "tapi/lineforwardlist_tag",
+    "LPLINEFORWARDLIST",
+    "tapi/LPLINEFORWARDLIST",
+    "LINEFORWARDLIST",
+    "tapi/LINEFORWARDLIST"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Tapi.h"
+  ],
+  "api_name": [
+    "LINEFORWARDLIST"
+  ]
+}

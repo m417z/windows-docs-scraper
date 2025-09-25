@@ -1,0 +1,24 @@
+typedef struct tagCERT_VIEWPROPERTIES_STRUCT_W {
+  DWORD          dwSize;
+  HWND           hwndParent;
+  HINSTANCE      hInstance;
+  DWORD          dwFlags;
+  LPCWSTR        szTitle;
+  PCCERT_CONTEXT pCertContext;
+  LPSTR          *arrayPurposes;
+  DWORD          cArrayPurposes;
+  DWORD          cRootStores;
+  HCERTSTORE     *rghstoreRoots;
+  DWORD          cStores;
+  HCERTSTORE     *rghstoreCAs;
+  DWORD          cTrustStores;
+  HCERTSTORE     *rghstoreTrust;
+  HCRYPTPROV     hprov;
+  LPARAM         lCustData;
+  DWORD          dwPad;
+  LPCWSTR        szHelpFileName;
+  DWORD          dwHelpId;
+  DWORD          nStartPage;
+  DWORD          cArrayPropSheetPages;
+  PROPSHEETPAGE  *arrayPropSheetPages;
+} CERT_VIEWPROPERTIES_STRUCT_W, *PCERT_VIEWPROPERTIES_STRUCT_W;

@@ -1,0 +1,4 @@
+typedef enum _CDROM_PERFORMANCE_REQUEST_TYPE {
+  CdromPerformanceRequest,
+  CdromWriteSpeedRequest
+} CDROM_PERFORMANCE_REQUEST_TYPE, *PCDROM_PERFORMANCE_REQUEST_TYPE;

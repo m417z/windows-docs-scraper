@@ -1,0 +1,48 @@
+{
+  "UID": "NF:usbdlib.UsbBuildOpenStaticStreamsRequest",
+  "title": "UsbBuildOpenStaticStreamsRequest function (usbdlib.h)",
+  "description": "The UsbBuildOpenStaticStreamsRequest inline function formats an URB structure for an open-streams request. The request opens streams associated with the specified bulk endpoint.",
+  "old-location": "buses\\usbbuildopenbasicstreamsrequest.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "UsbBuildOpenStaticStreamsRequest function"
+  ],
+  "ms.keywords": "UsbBuildOpenStaticStreamsRequest, UsbBuildOpenStaticStreamsRequest function [Buses], buses.usbbuildopenbasicstreamsrequest, usbdlib/UsbBuildOpenStaticStreamsRequest",
+  "req.header": "usbdlib.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UsbBuildOpenStaticStreamsRequest",
+    "usbdlib/UsbBuildOpenStaticStreamsRequest"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Usbdlib.h"
+  ],
+  "api_name": [
+    "UsbBuildOpenStaticStreamsRequest"
+  ]
+}

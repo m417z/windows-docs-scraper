@@ -1,0 +1,4 @@
+typedef struct _ACTRL_ACCESS_ENTRY_LISTA {
+  ULONG               cEntries;
+  ACTRL_ACCESS_ENTRYA *pAccessList;
+} ACTRL_ACCESS_ENTRY_LISTA, *PACTRL_ACCESS_ENTRY_LISTA;

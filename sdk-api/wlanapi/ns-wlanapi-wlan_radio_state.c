@@ -1,0 +1,4 @@
+typedef struct _WLAN_RADIO_STATE {
+  DWORD                dwNumberOfPhys;
+  WLAN_PHY_RADIO_STATE PhyRadioState[WLAN_MAX_PHY_INDEX];
+} WLAN_RADIO_STATE, *PWLAN_RADIO_STATE;

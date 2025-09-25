@@ -1,0 +1,61 @@
+{
+  "UID": "NF:winscard.SCardForgetReaderGroupA",
+  "title": "SCardForgetReaderGroupA function (winscard.h)",
+  "description": "Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database. (ANSI)",
+  "helpviewer_keywords": [
+    "SCARD_ALL_READERS",
+    "SCARD_DEFAULT_READERS",
+    "SCARD_LOCAL_READERS",
+    "SCARD_SYSTEM_READERS",
+    "SCardForgetReaderGroupA",
+    "winscard/SCardForgetReaderGroupA"
+  ],
+  "old-location": "security\\scardforgetreadergroup.htm",
+  "tech.root": "security",
+  "ms.assetid": "c6c98542-01b6-4b23-88cf-a619faee882e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardForgetReaderGroup, SCardForgetReaderGroup function [Security], SCardForgetReaderGroupA, SCardForgetReaderGroupW, _smart_scardforgetreadergroup, security.scardforgetreadergroup, winscard/SCardForgetReaderGroup, winscard/SCardForgetReaderGroupA, winscard/SCardForgetReaderGroupW",
+  "req.header": "winscard.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SCardForgetReaderGroupW (Unicode) and SCardForgetReaderGroupA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Winscard.lib",
+  "req.dll": "Winscard.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SCardForgetReaderGroupA",
+    "winscard/SCardForgetReaderGroupA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Winscard.dll"
+  ],
+  "api_name": [
+    "SCardForgetReaderGroup",
+    "SCardForgetReaderGroupA",
+    "SCardForgetReaderGroupW"
+  ]
+}

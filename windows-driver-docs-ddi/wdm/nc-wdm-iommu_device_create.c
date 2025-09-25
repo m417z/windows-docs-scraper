@@ -1,0 +1,8 @@
+IOMMU_DEVICE_CREATE IommuDeviceCreate;
+
+NTSTATUS IommuDeviceCreate(
+  PDEVICE_OBJECT DeviceObject,
+  PIOMMU_DEVICE_CREATION_CONFIGURATION DeviceConfig,
+  PIOMMU_DMA_DEVICE *DmaDeviceOut
+)
+{...}

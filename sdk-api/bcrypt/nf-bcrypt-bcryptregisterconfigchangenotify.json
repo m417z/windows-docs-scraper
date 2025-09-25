@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptRegisterConfigChangeNotify",
+  "title": "BCryptRegisterConfigChangeNotify function (bcrypt.h)",
+  "description": "Creates a user mode CNG configuration change event handler.",
+  "helpviewer_keywords": [
+    "BCryptRegisterConfigChangeNotify",
+    "BCryptRegisterConfigChangeNotify function [Security]",
+    "BCryptRegisterConfigChangeNotify(HANDLE*)",
+    "bcrypt/BCryptRegisterConfigChangeNotify",
+    "security.bcryptregisterconfigchangenotify_handle"
+  ],
+  "old-location": "security\\bcryptregisterconfigchangenotify_handle.htm",
+  "tech.root": "security",
+  "ms.assetid": "e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "BCryptRegisterConfigChangeNotify",
+    "bcrypt/BCryptRegisterConfigChangeNotify"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptRegisterConfigChangeNotify"
+  ]
+}

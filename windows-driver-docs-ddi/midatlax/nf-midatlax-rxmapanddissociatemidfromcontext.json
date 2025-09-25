@@ -1,0 +1,48 @@
+{
+  "UID": "NF:midatlax.RxMapAndDissociateMidFromContext",
+  "title": "RxMapAndDissociateMidFromContext function (midatlax.h)",
+  "description": "RxMapAndDissociateMidFromContext maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure and then disassociates the MID from the context.",
+  "old-location": "ifsk\\rxmapanddissociatemidfromcontext.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RxMapAndDissociateMidFromContext function"
+  ],
+  "ms.keywords": "RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext function [Installable File System Drivers], ifsk.rxmapanddissociatemidfromcontext, midatlax/RxMapAndDissociateMidFromContext, rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml",
+  "req.header": "midatlax.h",
+  "req.include-header": "Midatlax.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RxMapAndDissociateMidFromContext",
+    "midatlax/RxMapAndDissociateMidFromContext"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "midatlax.h"
+  ],
+  "api_name": [
+    "RxMapAndDissociateMidFromContext"
+  ]
+}

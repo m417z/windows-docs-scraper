@@ -1,0 +1,68 @@
+{
+  "UID": "NF:cmnquery.ICommonQuery.OpenQueryWindow",
+  "title": "ICommonQuery::OpenQueryWindow (cmnquery.h)",
+  "description": "The ICommonQuery::OpenQueryWindow method displays the directory service query dialog. This method does not return until the dialog box has been closed by the user.",
+  "helpviewer_keywords": [
+    "CFSTR_DSOBJECTNAMES",
+    "CFSTR_DSQUERYPARAMS",
+    "CFSTR_DSQUERYSCOPE",
+    "ICommonQuery interface [Active Directory]",
+    "OpenQueryWindow method",
+    "ICommonQuery.OpenQueryWindow",
+    "ICommonQuery::OpenQueryWindow",
+    "OpenQueryWindow",
+    "OpenQueryWindow method [Active Directory]",
+    "OpenQueryWindow method [Active Directory]",
+    "ICommonQuery interface",
+    "_glines_icommonquery_openquerywindow",
+    "ad.icommonquery__openquerywindow",
+    "ad.icommonquery_openquerywindow",
+    "cmnquery/ICommonQuery::OpenQueryWindow"
+  ],
+  "old-location": "ad\\icommonquery_openquerywindow.htm",
+  "tech.root": "ad",
+  "ms.assetid": "604c4d7a-1f85-4e5b-9879-be502c5c7bff",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CFSTR_DSOBJECTNAMES, CFSTR_DSQUERYPARAMS, CFSTR_DSQUERYSCOPE, ICommonQuery interface [Active Directory],OpenQueryWindow method, ICommonQuery.OpenQueryWindow, ICommonQuery::OpenQueryWindow, OpenQueryWindow, OpenQueryWindow method [Active Directory], OpenQueryWindow method [Active Directory],ICommonQuery interface, _glines_icommonquery_openquerywindow, ad.icommonquery__openquerywindow, ad.icommonquery_openquerywindow, cmnquery/ICommonQuery::OpenQueryWindow",
+  "req.header": "cmnquery.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Uuid.lib",
+  "req.dll": "Dsquery.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ICommonQuery::OpenQueryWindow",
+    "cmnquery/ICommonQuery::OpenQueryWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Dsquery.dll"
+  ],
+  "api_name": [
+    "ICommonQuery.OpenQueryWindow"
+  ]
+}

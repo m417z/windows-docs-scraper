@@ -1,0 +1,59 @@
+{
+  "UID": "NF:http.HttpReceiveClientCertificate",
+  "title": "HttpReceiveClientCertificate function (http.h)",
+  "description": "The HttpReceiveClientCertificate function is used by a server application to retrieve a client SSL certificate or channel binding token (CBT).",
+  "helpviewer_keywords": [
+    "HTTP_RECEIVE_SECURE_CHANNEL_TOKEN",
+    "HttpReceiveClientCertificate",
+    "HttpReceiveClientCertificate function [HTTP]",
+    "_http_httpreceiveclientcertificate",
+    "http.httpreceiveclientcertificate",
+    "http/HttpReceiveClientCertificate"
+  ],
+  "old-location": "http\\httpreceiveclientcertificate.htm",
+  "tech.root": "http",
+  "ms.assetid": "f0cf7b77-2868-4142-a663-32d6ea7df9e9",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "HTTP_RECEIVE_SECURE_CHANNEL_TOKEN, HttpReceiveClientCertificate, HttpReceiveClientCertificate function [HTTP], _http_httpreceiveclientcertificate, http.httpreceiveclientcertificate, http/HttpReceiveClientCertificate",
+  "req.header": "http.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista, Windows XP with SP2 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Httpapi.lib",
+  "req.dll": "Httpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HttpReceiveClientCertificate",
+    "http/HttpReceiveClientCertificate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Httpapi.dll"
+  ],
+  "api_name": [
+    "HttpReceiveClientCertificate"
+  ]
+}

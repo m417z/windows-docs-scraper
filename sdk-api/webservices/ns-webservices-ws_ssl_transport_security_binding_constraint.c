@@ -1,0 +1,6 @@
+typedef struct _WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT {
+  WS_SECURITY_BINDING_CONSTRAINT bindingConstraint;
+  struct {
+    BOOL clientCertCredentialRequired;
+  } out;
+} WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT;

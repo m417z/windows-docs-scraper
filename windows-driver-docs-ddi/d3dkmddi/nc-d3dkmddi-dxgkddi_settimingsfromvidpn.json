@@ -1,0 +1,52 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_SETTIMINGSFROMVIDPN",
+  "title": "DXGKDDI_SETTIMINGSFROMVIDPN (d3dkmddi.h)",
+  "description": "DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display timings on an adapter. This DDI replaces DxgkDdiCommitVidPn.",
+  "old-location": "display\\dxgkddi_settimingsfromvidpn.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_SETTIMINGSFROMVIDPN callback function"
+  ],
+  "ms.keywords": "DXGKDDI_SETTIMINGSFROMVIDPN, DXGKDDI_SETTIMINGSFROMVIDPN callback, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN, display.dxgkddi_settimingsfromvidpn",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DXGKDDI_SETTIMINGSFROMVIDPN",
+    "d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "d3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_SETTIMINGSFROMVIDPN"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

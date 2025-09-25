@@ -1,0 +1,4 @@
+typedef struct _DEBUG_CLIENT_CONTEXT {
+  UINT cbSize;
+  UINT eClient;
+} DEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT;

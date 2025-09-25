@@ -1,0 +1,19 @@
+typedef struct D3D11_VIDEO_DECODER_CONFIG {
+  GUID   guidConfigBitstreamEncryption;
+  GUID   guidConfigMBcontrolEncryption;
+  GUID   guidConfigResidDiffEncryption;
+  UINT   ConfigBitstreamRaw;
+  UINT   ConfigMBcontrolRasterOrder;
+  UINT   ConfigResidDiffHost;
+  UINT   ConfigSpatialResid8;
+  UINT   ConfigResid8Subtraction;
+  UINT   ConfigSpatialHost8or9Clipping;
+  UINT   ConfigSpatialResidInterleaved;
+  UINT   ConfigIntraResidUnsigned;
+  UINT   ConfigResidDiffAccelerator;
+  UINT   ConfigHostInverseScan;
+  UINT   ConfigSpecificIDCT;
+  UINT   Config4GroupedCoefs;
+  USHORT ConfigMinRenderTargetBuffCount;
+  USHORT ConfigDecoderSpecific;
+} D3D11_VIDEO_DECODER_CONFIG;

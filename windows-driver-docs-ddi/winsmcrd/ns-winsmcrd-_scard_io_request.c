@@ -1,0 +1,4 @@
+typedef struct _SCARD_IO_REQUEST {
+  DWORD dwProtocol;
+  DWORD cbPciLength;
+} SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;

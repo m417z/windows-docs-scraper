@@ -1,0 +1,64 @@
+{
+  "UID": "NC:mswsock.LPFN_TRANSMITPACKETS",
+  "title": "LPFN_TRANSMITPACKETS (mswsock.h)",
+  "description": "Transmits in-memory data or file data over a connected socket.",
+  "helpviewer_keywords": [
+    "LPFN_TRANSMITPACKETS",
+    "LPFN_TRANSMITPACKETS callback",
+    "LPFN_TRANSMITPACKETS callback function [Winsock]",
+    "TF_DISCONNECT",
+    "TF_REUSE_SOCKET",
+    "TF_USE_DEFAULT_WORKER",
+    "TF_USE_KERNEL_APC",
+    "TF_USE_SYSTEM_THREAD",
+    "_win32_transmitpackets_2",
+    "mswsock/LPFN_TRANSMITPACKETS",
+    "winsock.transmitpackets_2"
+  ],
+  "old-location": "winsock\\transmitpackets_2.htm",
+  "tech.root": "WinSock",
+  "ms.assetid": "c574d320-2a90-40bb-b34c-6023e80514e6",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "LPFN_TRANSMITPACKETS, LPFN_TRANSMITPACKETS callback, LPFN_TRANSMITPACKETS callback function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, _win32_transmitpackets_2, mswsock/LPFN_TRANSMITPACKETS, winsock.transmitpackets_2",
+  "req.header": "mswsock.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "LPFN_TRANSMITPACKETS",
+    "mswsock/LPFN_TRANSMITPACKETS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Mswsock.h"
+  ],
+  "api_name": [
+    "LPFN_TRANSMITPACKETS"
+  ]
+}

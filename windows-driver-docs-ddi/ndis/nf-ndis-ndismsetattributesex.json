@@ -1,0 +1,51 @@
+{
+  "UID": "NF:ndis.NdisMSetAttributesEx",
+  "tech.root": "netvista",
+  "title": "NdisMSetAttributesEx",
+  "ms.date": "01/04/2023",
+  "targetos": "Windows",
+  "description": "NdisMSetAttributesEx informs the NDIS library about significant features of the caller's NIC or virtual NIC during initialization.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ndis.h",
+  "req.idl": null,
+  "req.include-header": "Ndis.h",
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": "Ndis.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "ndis.h"
+  ],
+  "api_name": [
+    "NdisMSetAttributesEx"
+  ],
+  "f1_keywords": [
+    "NdisMSetAttributesEx",
+    "ndis/NdisMSetAttributesEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "NdisMSetAttributesEx"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct _DXVAHDDDI_STREAM_STATE_PALETTE_DATA {
+  [in] UINT     Count;
+  [in] D3DCOLOR *pEntries;
+} DXVAHDDDI_STREAM_STATE_PALETTE_DATA;

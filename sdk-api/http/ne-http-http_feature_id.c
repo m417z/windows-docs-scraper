@@ -1,0 +1,20 @@
+typedef enum _HTTP_FEATURE_ID {
+  HttpFeatureUnknown = 0,
+  HttpFeatureResponseTrailers = 1,
+  HttpFeatureApiTimings = 2,
+  HttpFeatureDelegateEx = 3,
+  HttpFeatureHttp3,
+  HttpFeatureTlsSessionTickets,
+  HttpFeatureDisableTlsSessionId,
+  HttpFeatureTlsDualCerts,
+  HttpFeatureAutomaticChunkedEncoding,
+  HttpFeatureDedicatedReqQueueDelegationType,
+  HttpFeatureFastForwardResponse,
+  HttpFeatureCacheTlsClientHello,
+  HttpFeatureIdleConnectionTimeoutRequestProperty,
+  HttpFeatureDisableAiaFlag,
+  HttpFeatureDscp,
+  HttpFeatureQueryCipherInfo,
+  HttpFeatureLast,
+  HttpFeaturemax = 0xFFFFFFFF
+} HTTP_FEATURE_ID, *PHTTP_FEATURE_ID;

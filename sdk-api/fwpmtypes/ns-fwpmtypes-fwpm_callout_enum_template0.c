@@ -1,0 +1,4 @@
+typedef struct FWPM_CALLOUT_ENUM_TEMPLATE0_ {
+  GUID *providerKey;
+  GUID layerKey;
+} FWPM_CALLOUT_ENUM_TEMPLATE0;

@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.ZwOpenKeyTransacted",
+  "title": "ZwOpenKeyTransacted function (wdm.h)",
+  "description": "The ZwOpenKeyTransacted routine opens an existing registry key and associates the key with a transaction.",
+  "old-location": "kernel\\zwopenkeytransacted.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "ZwOpenKeyTransacted function"
+  ],
+  "ms.keywords": "ZwOpenKeyTransacted, ZwOpenKeyTransacted routine [Kernel-Mode Driver Architecture], k111_e4192ee9-7dba-48d2-81be-38b33ff0b1d6.xml, kernel.zwopenkeytransacted, wdm/ZwOpenKeyTransacted",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating system.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "PowerIrpDDis, HwStorPortProhibitedDDIs",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "ZwOpenKeyTransacted",
+    "wdm/ZwOpenKeyTransacted"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "ZwOpenKeyTransacted"
+  ]
+}

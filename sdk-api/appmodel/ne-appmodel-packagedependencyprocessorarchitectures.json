@@ -1,0 +1,39 @@
+{
+  "UID": "NE:appmodel.PackageDependencyProcessorArchitectures",
+  "tech.root": "appxpkg",
+  "title": "PackageDependencyProcessorArchitectures",
+  "ms.date": "7/12/2021",
+  "targetos": "Windows",
+  "description": "Defines the processor architectures for a framework package dependency that you create by using the TryCreatePackageDependency function.",
+  "prerelease": false,
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "appmodel.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 11 (introduced in 10.0.22000.0)",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "appmodel.h"
+  ],
+  "api_name": [
+    "PackageDependencyProcessorArchitectures"
+  ],
+  "f1_keywords": [
+    "PackageDependencyProcessorArchitectures",
+    "appmodel/PackageDependencyProcessorArchitectures"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

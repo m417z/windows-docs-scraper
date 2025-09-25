@@ -1,0 +1,3 @@
+ULONG AcxCircuitGetElementsCount(
+  ACXCIRCUIT Circuit
+);

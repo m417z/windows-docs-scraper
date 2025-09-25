@@ -1,0 +1,48 @@
+{
+  "UID": "NF:processthreadsapi.SetProcessDynamicEnforcedCetCompatibleRanges",
+  "tech.root": "processthreadsapi",
+  "title": "SetProcessDynamicEnforcedCetCompatibleRanges",
+  "ms.date": "02/02/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Sets dynamic enforced CETCOMPAT ranges for the specified process.",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "processthreadsapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10, version 2004 (10.0; Build 19041.662)",
+  "req.target-min-winversvr": "Windows Server, version 2004 (10.0; Build 19041.662)",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": null,
+  "api_location": [
+    "api-ms-win-core-processthreads-l1-1-8.dll",
+    "api-ms-win-core-processthreads-l1-1-7.dll",
+    "api-ms-win-core-processthreads-l1-1-6.dll",
+    "processthreadsapi.h"
+  ],
+  "api_name": [
+    "SetProcessDynamicEnforcedCetCompatibleRanges"
+  ],
+  "f1_keywords": [
+    "SetProcessDynamicEnforcedCetCompatibleRanges",
+    "processthreadsapi/SetProcessDynamicEnforcedCetCompatibleRanges"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

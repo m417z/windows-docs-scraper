@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntifs._FILE_GET_EA_INFORMATION",
+  "title": "_FILE_GET_EA_INFORMATION (ntifs.h)",
+  "description": "The FILE_GET_EA_INFORMATION structure is used to query for extended-attribute (EA) information.",
+  "old-location": "ifsk\\file_get_ea_information.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FILE_GET_EA_INFORMATION structure"
+  ],
+  "ms.keywords": "*PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION structure [Installable File System Drivers], PFILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers], _FILE_GET_EA_INFORMATION, fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml, ifsk.file_get_ea_information, ntifs/FILE_GET_EA_INFORMATION, ntifs/PFILE_GET_EA_INFORMATION",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, Fltkernel.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION",
+  "f1_keywords": [
+    "_FILE_GET_EA_INFORMATION",
+    "ntifs/_FILE_GET_EA_INFORMATION",
+    "PFILE_GET_EA_INFORMATION",
+    "ntifs/PFILE_GET_EA_INFORMATION",
+    "FILE_GET_EA_INFORMATION",
+    "ntifs/FILE_GET_EA_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_name": [
+    "_FILE_GET_EA_INFORMATION",
+    "PFILE_GET_EA_INFORMATION",
+    "FILE_GET_EA_INFORMATION"
+  ]
+}

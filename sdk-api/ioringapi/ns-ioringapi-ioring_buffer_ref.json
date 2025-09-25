@@ -1,0 +1,43 @@
+{
+  "UID": "NS:ioringapi.IORING_BUFFER_REF",
+  "tech.root": "fs",
+  "title": "IORING_BUFFER_REF",
+  "ms.date": "08/03/2022",
+  "targetos": "Windows",
+  "description": "IORING_BUFFER_REF represents a reference to a buffer used in an I/O ring operation.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ioringapi.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": "Windows Build 22000",
+  "req.target-type": null,
+  "req.typenames": "IORING_BUFFER_REF",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ioringapi.h"
+  ],
+  "api_name": [
+    "IORING_BUFFER_REF"
+  ],
+  "f1_keywords": [
+    "IORING_BUFFER_REF",
+    "ioringapi/IORING_BUFFER_REF"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

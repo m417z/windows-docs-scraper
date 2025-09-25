@@ -1,0 +1,54 @@
+{
+  "UID": "NS:storport._MESSAGE_INTERRUPT_INFORMATION",
+  "title": "_MESSAGE_INTERRUPT_INFORMATION (storport.h)",
+  "description": "The MESSAGE_INTERRUPT_INFORMATION structure describes a message signaled interrupt (MSI).",
+  "old-location": "storage\\message_interrupt_information.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "MESSAGE_INTERRUPT_INFORMATION structure"
+  ],
+  "ms.keywords": "*PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], PMESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], _MESSAGE_INTERRUPT_INFORMATION, storage.message_interrupt_information, storport/MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION",
+  "f1_keywords": [
+    "_MESSAGE_INTERRUPT_INFORMATION",
+    "storport/_MESSAGE_INTERRUPT_INFORMATION",
+    "PMESSAGE_INTERRUPT_INFORMATION",
+    "storport/PMESSAGE_INTERRUPT_INFORMATION",
+    "MESSAGE_INTERRUPT_INFORMATION",
+    "storport/MESSAGE_INTERRUPT_INFORMATION"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_MESSAGE_INTERRUPT_INFORMATION",
+    "PMESSAGE_INTERRUPT_INFORMATION",
+    "MESSAGE_INTERRUPT_INFORMATION"
+  ]
+}

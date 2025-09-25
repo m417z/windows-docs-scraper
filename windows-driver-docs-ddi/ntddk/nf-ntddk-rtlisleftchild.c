@@ -1,0 +1,3 @@
+void RtlIsLeftChild(
+  [in] Links
+);

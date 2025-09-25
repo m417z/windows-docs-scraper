@@ -1,0 +1,48 @@
+{
+  "UID": "NC:spbcx.EVT_SPB_CONTROLLER_READ",
+  "title": "EVT_SPB_CONTROLLER_READ (spbcx.h)",
+  "description": "An SPB controller driver's EvtSpbControllerIoRead event callback function reads data from the specified target device into the buffers that are supplied with the read request.",
+  "old-location": "spb\\evtspbcontrollerioread.htm",
+  "tech.root": "SPB",
+  "ms.date": "09/14/2021",
+  "keywords": [
+    "EVT_SPB_CONTROLLER_READ callback function"
+  ],
+  "ms.keywords": "EVT_SPB_CONTROLLER_READ, EVT_SPB_CONTROLLER_READ callback, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead",
+  "req.header": "spbcx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at IRQL <= DISPATCH_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_SPB_CONTROLLER_READ",
+    "spbcx/EVT_SPB_CONTROLLER_READ"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Spbcx.h"
+  ],
+  "api_name": [
+    "EVT_SPB_CONTROLLER_READ"
+  ]
+}

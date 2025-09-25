@@ -1,0 +1,3 @@
+typedef struct {
+  USN Usn;
+} USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT;

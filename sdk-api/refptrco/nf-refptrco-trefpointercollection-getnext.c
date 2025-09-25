@@ -1,0 +1,3 @@
+TYPED_PTR * GetNext(
+  [ref] REFPTRCOLLECTION_POSITION & pos
+);

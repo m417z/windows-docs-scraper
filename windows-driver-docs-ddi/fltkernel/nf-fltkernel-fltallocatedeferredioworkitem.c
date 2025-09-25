@@ -1,0 +1,1 @@
+PFLT_DEFERRED_IO_WORKITEM FLTAPI FltAllocateDeferredIoWorkItem();

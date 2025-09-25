@@ -1,0 +1,3 @@
+HRESULT GetLocalKind(
+  LocalKind *kind
+);

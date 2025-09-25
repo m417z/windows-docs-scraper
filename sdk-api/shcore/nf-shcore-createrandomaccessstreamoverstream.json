@@ -1,0 +1,58 @@
+{
+  "UID": "NF:shcore.CreateRandomAccessStreamOverStream",
+  "title": "CreateRandomAccessStreamOverStream function (shcore.h)",
+  "description": "Creates a Windows Runtime random access stream around an IStream base implementation.",
+  "helpviewer_keywords": [
+    "CreateRandomAccessStreamOverStream",
+    "CreateRandomAccessStreamOverStream function [Windows Runtime]",
+    "shcore/CreateRandomAccessStreamOverStream",
+    "winrt.createrandomaccessstreamoverstream"
+  ],
+  "old-location": "winrt\\createrandomaccessstreamoverstream.htm",
+  "tech.root": "WinRT",
+  "ms.assetid": "7A4BA702-0E2E-4FA9-8BEB-313D2D29762E",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateRandomAccessStreamOverStream, CreateRandomAccessStreamOverStream function [Windows Runtime], shcore/CreateRandomAccessStreamOverStream, winrt.createrandomaccessstreamoverstream",
+  "req.header": "shcore.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ShCore.lib",
+  "req.dll": "ShCore.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateRandomAccessStreamOverStream",
+    "shcore/CreateRandomAccessStreamOverStream"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ShCore.dll",
+    "API-MS-Win-ShCore-Stream-WinRT-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CreateRandomAccessStreamOverStream"
+  ]
+}

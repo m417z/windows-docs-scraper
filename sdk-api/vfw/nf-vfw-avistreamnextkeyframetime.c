@@ -1,0 +1,4 @@
+LONG AVIStreamNextKeyFrameTime(
+     pavi,
+     t
+);

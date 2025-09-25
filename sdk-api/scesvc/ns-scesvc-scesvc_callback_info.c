@@ -1,0 +1,7 @@
+typedef struct _SCESVC_CALLBACK_INFO_ {
+  SCE_HANDLE       sceHandle;
+  PFSCE_QUERY_INFO pfQueryInfo;
+  PFSCE_SET_INFO   pfSetInfo;
+  PFSCE_FREE_INFO  pfFreeInfo;
+  PFSCE_LOG_INFO   pfLogInfo;
+} SCESVC_CALLBACK_INFO, *PSCESVC_CALLBACK_INFO;

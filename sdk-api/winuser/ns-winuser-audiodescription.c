@@ -1,0 +1,5 @@
+typedef struct tagAUDIODESCRIPTION {
+  UINT cbSize;
+  BOOL Enabled;
+  LCID Locale;
+} AUDIODESCRIPTION, *LPAUDIODESCRIPTION;

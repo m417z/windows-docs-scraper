@@ -1,0 +1,22 @@
+typedef struct _BrowseDlgConfig_HA {
+  DWORD               bIncludeInstanceIndex : 1;
+  DWORD               bSingleCounterPerAdd : 1;
+  DWORD               bSingleCounterPerDialog : 1;
+  DWORD               bLocalCountersOnly : 1;
+  DWORD               bWildCardInstances : 1;
+  DWORD               bHideDetailBox : 1;
+  DWORD               bInitializePath : 1;
+  DWORD               bDisableMachineSelection : 1;
+  DWORD               bIncludeCostlyObjects : 1;
+  DWORD               bShowObjectBrowser : 1;
+  DWORD               bReserved : 22;
+  HWND                hWndOwner;
+  PDH_HLOG            hDataSource;
+  LPSTR               szReturnPathBuffer;
+  DWORD               cchReturnPathLength;
+  CounterPathCallBack pCallBack;
+  DWORD_PTR           dwCallBackArg;
+  PDH_STATUS          CallBackStatus;
+  DWORD               dwDefaultDetailLevel;
+  LPSTR               szDialogBoxCaption;
+} PDH_BROWSE_DLG_CONFIG_HA, *PPDH_BROWSE_DLG_CONFIG_HA;

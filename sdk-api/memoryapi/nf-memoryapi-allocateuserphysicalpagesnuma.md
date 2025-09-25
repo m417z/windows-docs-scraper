@@ -1,0 +1,84 @@
+# AllocateUserPhysicalPagesNuma function
+
+## Description
+
+Allocates physical memory pages to be mapped and unmapped within any
+[Address Windowing Extensions](https://learn.microsoft.com/windows/desktop/Memory/address-windowing-extensions) (AWE) region of a
+specified process and specifies the NUMA node for the physical memory.
+
+## Parameters
+
+### `hProcess` [in]
+
+A handle to a process.
+
+The function allocates memory that can later be mapped within the virtual address
+space of this process. The handle must have the **PROCESS_VM_OPERATION** access right. For
+more information, see
+[Process Security and Access Rights](https://learn.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights).
+
+### `NumberOfPages` [in, out]
+
+The size of the physical memory to allocate, in pages.
+
+To determine the page size of the computer, use the
+[GetSystemInfo](https://learn.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) function. On output, this parameter
+receives the number of pages that are actually allocated, which might be less than the number requested.
+
+### `PageArray` [out]
+
+A pointer to an array to store the page frame numbers of the allocated memory.
+
+The size of the array that is allocated should be at least the *NumberOfPages* times
+the size of the **ULONG_PTR** data type.
+
+**Caution** Do not attempt to modify this buffer. It contains operating system data, and corruption
+could be catastrophic. The information in the buffer is not useful to an application.
+
+### `nndPreferred` [in]
+
+The NUMA node where the physical memory should reside.
+
+## Return value
+
+If the function succeeds, the return value is **TRUE**.
+
+Fewer pages than requested can be allocated. The caller must check the value of the
+*NumberOfPages* parameter on return to see how many pages are allocated. All allocated
+page frame numbers are sequentially placed in the memory pointed to by the *PageArray*
+parameter.
+
+If the function fails, the return value is **FALSE** and no frames are allocated. To get
+extended error information, call the [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)
+function.
+
+## Remarks
+
+The **AllocateUserPhysicalPagesNuma**
+function is used to allocate physical memory within a NUMA node that can later be mapped within the virtual
+address space of the process. The **SeLockMemoryPrivilege** privilege must be enabled in the
+caller's token or the function will fail with **ERROR_PRIVILEGE_NOT_HELD**. For more
+information, see [Privilege Constants](https://learn.microsoft.com/windows/desktop/SecAuthZ/privilege-constants).
+
+Memory allocated by this function must be physically present in the system. After the memory is allocated, it
+is locked down and unavailable to the rest of the virtual memory management system.
+
+Physical pages cannot be simultaneously mapped at more than one virtual address.
+
+Physical pages can reside at any physical address. You should make no assumptions about the contiguity of the
+physical pages.
+
+To compile an application that uses this function, define **_WIN32_WINNT** as 0x0600
+or later.
+
+## See also
+
+[Address Windowing Extensions](https://learn.microsoft.com/windows/desktop/Memory/address-windowing-extensions)
+
+[AllocateUserPhysicalPages](https://learn.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages)
+
+[FreeUserPhysicalPages](https://learn.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages)
+
+[Memory Management Functions](https://learn.microsoft.com/windows/desktop/Memory/memory-management-functions)
+
+[NUMA Support](https://learn.microsoft.com/windows/desktop/ProcThread/numa-support)

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:winbase.SetDefaultCommConfigW",
+  "title": "SetDefaultCommConfigW function (winbase.h)",
+  "description": "Sets the default configuration for a communications device. (Unicode)",
+  "helpviewer_keywords": [
+    "SetDefaultCommConfig",
+    "SetDefaultCommConfig function",
+    "SetDefaultCommConfigW",
+    "_win32_setdefaultcommconfig",
+    "base.setdefaultcommconfig",
+    "winbase/SetDefaultCommConfig",
+    "winbase/SetDefaultCommConfigW"
+  ],
+  "old-location": "base\\setdefaultcommconfig.htm",
+  "tech.root": "base",
+  "ms.assetid": "3b228b56-34ca-4b37-af67-4e4e1fa60df2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetDefaultCommConfig, SetDefaultCommConfig function, SetDefaultCommConfigA, SetDefaultCommConfigW, _win32_setdefaultcommconfig, base.setdefaultcommconfig, winbase/SetDefaultCommConfig, winbase/SetDefaultCommConfigA, winbase/SetDefaultCommConfigW",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP",
+  "req.target-min-winversvr": "Windows Server 2003",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetDefaultCommConfigW (Unicode) and SetDefaultCommConfigA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetDefaultCommConfigW",
+    "winbase/SetDefaultCommConfigW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "SetDefaultCommConfig",
+    "SetDefaultCommConfigA",
+    "SetDefaultCommConfigW"
+  ]
+}

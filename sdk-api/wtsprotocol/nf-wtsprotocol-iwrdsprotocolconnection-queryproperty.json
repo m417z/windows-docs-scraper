@@ -1,0 +1,68 @@
+{
+  "UID": "NF:wtsprotocol.IWRdsProtocolConnection.QueryProperty",
+  "title": "IWRdsProtocolConnection::QueryProperty (wtsprotocol.h)",
+  "description": "Retrieves a property value from the protocol.",
+  "helpviewer_keywords": [
+    "IWRdsProtocolConnection interface [Remote Desktop Services]",
+    "QueryProperty method",
+    "IWRdsProtocolConnection.QueryProperty",
+    "IWRdsProtocolConnection::QueryProperty",
+    "PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION",
+    "QueryProperty",
+    "QueryProperty method [Remote Desktop Services]",
+    "QueryProperty method [Remote Desktop Services]",
+    "IWRdsProtocolConnection interface",
+    "WRDS_QUERY_ALLOWED_INITIAL_APP",
+    "WRDS_QUERY_AUDIOENUM_DLL",
+    "WRDS_QUERY_LOGON_SCREEN_SIZE",
+    "WRDS_QUERY_MF_FORMAT_SUPPORT",
+    "termserv.iwrdsprotocolconnection_queryproperty",
+    "wtsprotocol/IWRdsProtocolConnection::QueryProperty"
+  ],
+  "old-location": "termserv\\iwrdsprotocolconnection_queryproperty.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "d504a40f-5dc5-4c1b-960f-d41cccef9154",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IWRdsProtocolConnection interface [Remote Desktop Services],QueryProperty method, IWRdsProtocolConnection.QueryProperty, IWRdsProtocolConnection::QueryProperty, PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION, QueryProperty, QueryProperty method [Remote Desktop Services], QueryProperty method [Remote Desktop Services],IWRdsProtocolConnection interface, WRDS_QUERY_ALLOWED_INITIAL_APP, WRDS_QUERY_AUDIOENUM_DLL, WRDS_QUERY_LOGON_SCREEN_SIZE, WRDS_QUERY_MF_FORMAT_SUPPORT, termserv.iwrdsprotocolconnection_queryproperty, wtsprotocol/IWRdsProtocolConnection::QueryProperty",
+  "req.header": "wtsprotocol.h",
+  "req.include-header": "Wtsdefs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "Wtsprotocol.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWRdsProtocolConnection::QueryProperty",
+    "wtsprotocol/IWRdsProtocolConnection::QueryProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wtsprotocol.h"
+  ],
+  "api_name": [
+    "IWRdsProtocolConnection.QueryProperty"
+  ]
+}

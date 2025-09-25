@@ -1,0 +1,4 @@
+typedef struct {
+  ULONG                Count;
+  ISCSI_TARGET_PORTALA Portals[1];
+} ISCSI_TARGET_PORTAL_GROUPA, *PISCSI_TARGET_PORTAL_GROUPA;

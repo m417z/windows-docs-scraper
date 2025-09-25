@@ -1,0 +1,4 @@
+typedef struct _DXGK_HARDWARERESERVEDRANGES {
+  UINT32                     NumRanges;
+  DXGK_PHYSICAL_MEMORY_RANGE *pPhysicalRanges;
+} DXGK_HARDWARERESERVEDRANGES;

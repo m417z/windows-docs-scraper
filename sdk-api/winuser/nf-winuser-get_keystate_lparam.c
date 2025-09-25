@@ -1,0 +1,3 @@
+int GET_KEYSTATE_LPARAM(
+    LPARAM lParam
+);

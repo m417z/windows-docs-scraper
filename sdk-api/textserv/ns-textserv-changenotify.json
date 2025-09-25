@@ -1,0 +1,61 @@
+{
+  "UID": "NS:textserv.CHANGENOTIFY",
+  "title": "CHANGENOTIFY (textserv.h)",
+  "description": "Contains information that is associated with an EN_CHANGE notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.",
+  "helpviewer_keywords": [
+    "CHANGENOTIFY",
+    "CHANGENOTIFY structure [Windows Controls]",
+    "CN_GENERIC",
+    "CN_NEWREDO",
+    "CN_NEWUNDO",
+    "CN_TEXTCHANGED",
+    "controls.changenotify",
+    "textserv/CHANGENOTIFY"
+  ],
+  "old-location": "controls\\changenotify.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "F4756754-EF22-430F-B9EE-F4270EBBEF33",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CHANGENOTIFY, CHANGENOTIFY structure [Windows Controls], CN_GENERIC, CN_NEWREDO, CN_NEWUNDO, CN_TEXTCHANGED, controls.changenotify, textserv/CHANGENOTIFY",
+  "req.header": "textserv.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CHANGENOTIFY",
+    "textserv/CHANGENOTIFY"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Textserv.h"
+  ],
+  "api_name": [
+    "CHANGENOTIFY"
+  ]
+}

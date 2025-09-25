@@ -1,0 +1,4 @@
+typedef enum UI_CONTROLDOCK {
+  UI_CONTROLDOCK_TOP = 1,
+  UI_CONTROLDOCK_BOTTOM = 3
+} ;

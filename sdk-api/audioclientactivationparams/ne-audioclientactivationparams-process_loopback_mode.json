@@ -1,0 +1,43 @@
+{
+  "UID": "NE:audioclientactivationparams.PROCESS_LOOPBACK_MODE",
+  "tech.root": "coreaudio",
+  "title": "PROCESS_LOOPBACK_MODE",
+  "ms.date": "01/21/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Specifies the loopback mode for an AUDIOCLIENT_ACTIVATION_PARAMS structure passed into a call to ActivateAudioInterfaceAsync.",
+  "offlinehelp_keywords": [
+    "PROCESS_LOOPBACK_MODE",
+    "audioclientactivationparams/PROCESS_LOOPBACK_MODE"
+  ],
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "audioclientactivationparams.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audioclientactivationparams.h"
+  ],
+  "api_name": [
+    "PROCESS_LOOPBACK_MODE"
+  ],
+  "f1_keywords": [
+    "PROCESS_LOOPBACK_MODE",
+    "audioclientactivationparams/PROCESS_LOOPBACK_MODE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

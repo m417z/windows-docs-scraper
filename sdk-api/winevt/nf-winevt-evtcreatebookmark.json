@@ -1,0 +1,58 @@
+{
+  "UID": "NF:winevt.EvtCreateBookmark",
+  "title": "EvtCreateBookmark function (winevt.h)",
+  "description": "Creates a bookmark that identifies an event in a channel.",
+  "helpviewer_keywords": [
+    "EvtCreateBookmark",
+    "EvtCreateBookmark function [EventLog]",
+    "wes.evtcreatebookmark",
+    "winevt/EvtCreateBookmark"
+  ],
+  "old-location": "wes\\evtcreatebookmark.htm",
+  "tech.root": "wes",
+  "ms.assetid": "1020d923-090b-48fc-96c2-394db5cd241e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EvtCreateBookmark, EvtCreateBookmark function [EventLog], wes.evtcreatebookmark, winevt/EvtCreateBookmark",
+  "req.header": "winevt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wevtapi.lib",
+  "req.dll": "Wevtapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EvtCreateBookmark",
+    "winevt/EvtCreateBookmark"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-wevtapi-eventlog-l1-1-3.dll",
+    "Wevtapi.dll"
+  ],
+  "api_name": [
+    "EvtCreateBookmark"
+  ]
+}

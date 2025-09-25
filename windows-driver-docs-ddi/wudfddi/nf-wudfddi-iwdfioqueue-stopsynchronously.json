@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFIoQueue.StopSynchronously",
+  "title": "IWDFIoQueue::StopSynchronously (wudfddi.h)",
+  "description": "The StopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.",
+  "old-location": "wdf\\iwdfioqueue_stopsynchronously.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFIoQueue::StopSynchronously"
+  ],
+  "ms.keywords": "IWDFIoQueue interface,StopSynchronously method, IWDFIoQueue.StopSynchronously, IWDFIoQueue::StopSynchronously, StopSynchronously, StopSynchronously method, StopSynchronously method,IWDFIoQueue interface, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, wudfddi/IWDFIoQueue::StopSynchronously",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFIoQueue::StopSynchronously",
+    "wudfddi/IWDFIoQueue::StopSynchronously"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFIoQueue::StopSynchronously"
+  ]
+}

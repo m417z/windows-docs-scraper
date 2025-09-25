@@ -1,0 +1,12 @@
+typedef struct tagKSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS {
+  LONG ResolutionX;
+  LONG ResolutionY;
+  LONG PorchTop;
+  LONG PorchLeft;
+  LONG PorchBottom;
+  LONG PorchRight;
+  LONG NonUpscalingWindowSize;
+  LONG MinWindowSize;
+  LONG MaxWindowSize;
+  LONG Reserved;
+} KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS, *PKSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS;

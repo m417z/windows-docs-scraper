@@ -1,0 +1,3 @@
+HRESULT Draw(
+  [in] IMAGELISTDRAWPARAMS *pimldp
+);

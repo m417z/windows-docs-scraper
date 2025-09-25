@@ -1,0 +1,3 @@
+void SetRadiusY(
+  FLOAT radiusY
+);

@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdm.RtlIsNtDdiVersionAvailable",
+  "title": "RtlIsNtDdiVersionAvailable function (wdm.h)",
+  "description": "The RtlIsNtDdiVersionAvailable routine determines if a specified version of the Microsoft Windows device driver interface (DDI) is available.",
+  "old-location": "kernel\\rtlisntddiversionavailable.htm",
+  "tech.root": "kernel",
+  "ms.date": "01/16/2024",
+  "keywords": [
+    "RtlIsNtDdiVersionAvailable function"
+  ],
+  "ms.keywords": "RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows Vista. A compatibility library supports this routine in earlier versions of Windows (see Remarks section).",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rtlver.lib",
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlIsNtDdiVersionAvailable",
+    "wdm/RtlIsNtDdiVersionAvailable"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Rtlver.lib",
+    "Rtlver.dll"
+  ],
+  "api_name": [
+    "RtlIsNtDdiVersionAvailable"
+  ]
+}

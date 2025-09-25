@@ -1,0 +1,3 @@
+void HRESULT_FROM_WIN32(
+  x
+);

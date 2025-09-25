@@ -1,0 +1,6 @@
+typedef struct _IP_MCAST_COUNTER_INFO {
+  ULONG64 InMcastOctets;
+  ULONG64 OutMcastOctets;
+  ULONG64 InMcastPkts;
+  ULONG64 OutMcastPkts;
+} IP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO;

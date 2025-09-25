@@ -1,0 +1,3 @@
+struct IDARG_OUT_OPM_GET_INFOMATION {
+  IDDCX_OPM_REQUESTED_INFORMATION RequestedInformation;
+};

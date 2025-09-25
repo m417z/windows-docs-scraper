@@ -1,0 +1,3 @@
+typedef struct _DsmSetLoadBalancePolicyALUA_IN {
+  DSM_Load_Balance_Policy_V2 LoadBalancePolicy;
+} DsmSetLoadBalancePolicyALUA_IN, *PDsmSetLoadBalancePolicyALUA_IN;

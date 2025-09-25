@@ -1,0 +1,3 @@
+BOOLEAN ExTryAcquirePushLockExclusive(
+   Lock
+);

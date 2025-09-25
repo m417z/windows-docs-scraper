@@ -1,0 +1,4 @@
+typedef struct tagEMROFFSETCLIPRGN {
+  EMR    emr;
+  POINTL ptlOffset;
+} EMROFFSETCLIPRGN, *PEMROFFSETCLIPRGN;

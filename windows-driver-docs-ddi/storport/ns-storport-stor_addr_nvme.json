@@ -1,0 +1,53 @@
+{
+  "UID": "NS:storport._STOR_ADDR_NVME",
+  "tech.root": "storage",
+  "title": "STOR_ADDR_NVME",
+  "ms.date": "05/21/2025",
+  "targetos": "Windows",
+  "description": "Learn more about the STOR_ADDR_NVME structure.",
+  "prerelease": true,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "storport.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "WIN11_NEXT",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "STOR_ADDR_NVME, *PSTOR_ADDR_NVME",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "storport.h"
+  ],
+  "api_name": [
+    "_STOR_ADDR_NVME",
+    "PSTOR_ADDR_NVME",
+    "STOR_ADDR_NVME"
+  ],
+  "f1_keywords": [
+    "_STOR_ADDR_NVME",
+    "storport/_STOR_ADDR_NVME",
+    "PSTOR_ADDR_NVME",
+    "storport/PSTOR_ADDR_NVME",
+    "STOR_ADDR_NVME",
+    "storport/STOR_ADDR_NVME"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_STOR_ADDR_NVME"
+  ]
+}

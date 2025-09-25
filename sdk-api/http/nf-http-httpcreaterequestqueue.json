@@ -1,0 +1,59 @@
+{
+  "UID": "NF:http.HttpCreateRequestQueue",
+  "title": "HttpCreateRequestQueue function (http.h)",
+  "description": "Creates a new request queue or opens an existing request queue.",
+  "helpviewer_keywords": [
+    "HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER",
+    "HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING",
+    "HttpCreateRequestQueue",
+    "HttpCreateRequestQueue function [HTTP]",
+    "http.httpcreaterequestqueue",
+    "http/HttpCreateRequestQueue"
+  ],
+  "old-location": "http\\httpcreaterequestqueue.htm",
+  "tech.root": "http",
+  "ms.assetid": "a0f4112e-db81-4eda-afeb-d00117f7240c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue",
+  "req.header": "http.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Httpapi.lib",
+  "req.dll": "Httpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HttpCreateRequestQueue",
+    "http/HttpCreateRequestQueue"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Httpapi.dll"
+  ],
+  "api_name": [
+    "HttpCreateRequestQueue"
+  ]
+}

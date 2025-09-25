@@ -1,0 +1,54 @@
+{
+  "UID": "NS:storport._STOR_ADDR_BTL8",
+  "title": "_STOR_ADDR_BTL8 (storport.h)",
+  "description": "The _STOR_ADDR_BTL8 structure (storport.h) contains the addressing information for an 8-bit Bus-Target-LUN (BTL8) address.",
+  "old-location": "storage\\stor_addr_btl8.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "STOR_ADDR_BTL8 structure"
+  ],
+  "ms.keywords": "*PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], STOR_ADDR_BTL8, STOR_ADDR_BTL8 structure [Storage Devices], _STOR_ADDR_BTL8, storage.stor_addr_btl8, storport/PSTOR_ADDR_BTL8, storport/STOR_ADDR_BTL8",
+  "req.header": "storport.h",
+  "req.include-header": "Storport.h, Scsi.h, Minitape.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8",
+  "f1_keywords": [
+    "_STOR_ADDR_BTL8",
+    "storport/_STOR_ADDR_BTL8",
+    "PSTOR_ADDR_BTL8",
+    "storport/PSTOR_ADDR_BTL8",
+    "STOR_ADDR_BTL8",
+    "storport/STOR_ADDR_BTL8"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Storport.h"
+  ],
+  "api_name": [
+    "_STOR_ADDR_BTL8",
+    "PSTOR_ADDR_BTL8",
+    "STOR_ADDR_BTL8"
+  ]
+}

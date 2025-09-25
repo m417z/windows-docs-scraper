@@ -1,0 +1,67 @@
+{
+  "UID": "NF:shlwapi.PathFindSuffixArrayW",
+  "title": "PathFindSuffixArrayW function (shlwapi.h)",
+  "description": "Determines whether a given file name has one of a list of suffixes. (Unicode)",
+  "helpviewer_keywords": [
+    "PathFindSuffixArray",
+    "PathFindSuffixArray function [Windows Shell]",
+    "PathFindSuffixArrayW",
+    "_win32_PathFindSuffixArray",
+    "shell.PathFindSuffixArray",
+    "shlwapi/PathFindSuffixArray",
+    "shlwapi/PathFindSuffixArrayW"
+  ],
+  "old-location": "shell\\PathFindSuffixArray.htm",
+  "tech.root": "shell",
+  "ms.assetid": "e2285f7d-bb5d-48c5-bdf1-10ca410389f0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PathFindSuffixArray, PathFindSuffixArray function [Windows Shell], PathFindSuffixArrayA, PathFindSuffixArrayW, _win32_PathFindSuffixArray, shell.PathFindSuffixArray, shlwapi/PathFindSuffixArray, shlwapi/PathFindSuffixArrayA, shlwapi/PathFindSuffixArrayW",
+  "req.header": "shlwapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional, Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "PathFindSuffixArrayW (Unicode) and PathFindSuffixArrayA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Shlwapi.lib",
+  "req.dll": "Shlwapi.dll (version 5.0 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PathFindSuffixArrayW",
+    "shlwapi/PathFindSuffixArrayW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shlwapi-l1-2-1.dll",
+    "ext-ms-win-shell-shlwapi-l1-2-0.dll",
+    "Shlwapi.dll",
+    "API-MS-Win-shlwapi-IE-l1-1-0.dll",
+    "API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll",
+    "api-ms-win-shlwapi-winrt-storage-l1-1-1.dll"
+  ],
+  "api_name": [
+    "PathFindSuffixArray",
+    "PathFindSuffixArrayA",
+    "PathFindSuffixArrayW"
+  ]
+}

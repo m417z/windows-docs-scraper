@@ -1,0 +1,51 @@
+{
+  "UID": "NF:irb.AtaPortGetPhysicalAddress",
+  "title": "AtaPortGetPhysicalAddress function (irb.h)",
+  "description": "The AtaPortGetPhysicalAddress routine converts the virtual address range to the physical address range.",
+  "old-location": "storage\\ataportgetphysicaladdress.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "AtaPortGetPhysicalAddress function"
+  ],
+  "ms.keywords": "AtaPortGetPhysicalAddress, AtaPortGetPhysicalAddress routine [Storage Devices], atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml, irb/AtaPortGetPhysicalAddress, storage.ataportgetphysicaladdress",
+  "req.header": "irb.h",
+  "req.include-header": "Ata.h, Irb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ataport.lib; Pciidex.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "AtaPortGetPhysicalAddress",
+    "irb/AtaPortGetPhysicalAddress"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "ataport.lib",
+    "ataport.dll",
+    "pciidex.lib",
+    "pciidex.dll"
+  ],
+  "api_name": [
+    "AtaPortGetPhysicalAddress"
+  ]
+}

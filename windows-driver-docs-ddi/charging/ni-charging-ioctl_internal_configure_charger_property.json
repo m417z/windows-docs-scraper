@@ -1,0 +1,48 @@
+{
+  "UID": "NI:charging.IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY",
+  "title": "IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY (charging.h)",
+  "description": "The IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code is sent from a configurable charger to a device that handles configurable chargers. It configures charger properties.",
+  "old-location": "battery\\ioctl_internal_configure_charger_property.htm",
+  "tech.root": "battery",
+  "ms.date": "07/25/2023",
+  "keywords": [
+    "IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL"
+  ],
+  "ms.keywords": "IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code [Battery Devices], battery.ioctl_internal_configure_charger_property, charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY",
+  "req.header": "charging.h",
+  "req.include-header": "Charging.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 and later operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY",
+    "charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "charging.h"
+  ],
+  "api_name": [
+    "IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY"
+  ]
+}

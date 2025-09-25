@@ -1,0 +1,57 @@
+{
+  "UID": "NF:compressapi.ResetCompressor",
+  "title": "ResetCompressor function (compressapi.h)",
+  "description": "Prepares the compressor for the compression of a new stream.",
+  "helpviewer_keywords": [
+    "ResetCompressor",
+    "ResetCompressor function [Compression API]",
+    "cmpapi.resetcompressor",
+    "compressapi/ResetCompressor"
+  ],
+  "old-location": "cmpapi\\resetcompressor.htm",
+  "tech.root": "cmpapi",
+  "ms.assetid": "1ea542e0-7236-4158-9578-f5d55f8c7f8e",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ResetCompressor, ResetCompressor function [Compression API], cmpapi.resetcompressor, compressapi/ResetCompressor",
+  "req.header": "compressapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Cabinet.lib",
+  "req.dll": "Cabinet.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResetCompressor",
+    "compressapi/ResetCompressor"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "cabinet.dll"
+  ],
+  "api_name": [
+    "ResetCompressor"
+  ]
+}

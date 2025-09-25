@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfusb.IWDFUsbTargetPipe.Flush",
+  "title": "IWDFUsbTargetPipe::Flush (wudfusb.h)",
+  "description": "The Flush method discards any data that WinUsb saved when the device returned more data than the client requested.",
+  "old-location": "wdf\\iwdfusbtargetpipe_flush.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFUsbTargetPipe::Flush"
+  ],
+  "ms.keywords": "Flush, Flush method, Flush method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Flush method, IWDFUsbTargetPipe.Flush, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush",
+  "req.header": "wudfusb.h",
+  "req.include-header": "Wudfusb.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.5,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFUsbTargetPipe::Flush",
+    "wudfusb/IWDFUsbTargetPipe::Flush"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFUsbTargetPipe::Flush"
+  ]
+}

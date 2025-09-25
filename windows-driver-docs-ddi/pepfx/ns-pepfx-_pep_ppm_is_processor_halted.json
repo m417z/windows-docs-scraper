@@ -1,0 +1,54 @@
+{
+  "UID": "NS:pepfx._PEP_PPM_IS_PROCESSOR_HALTED",
+  "title": "_PEP_PPM_IS_PROCESSOR_HALTED (pepfx.h)",
+  "description": "The PEP_PPM_IS_PROCESSOR_HALTED structure indicates whether the processor is currently halted in its selected idle state.",
+  "old-location": "kernel\\pep_ppm_is_processor_halted.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PEP_PPM_IS_PROCESSOR_HALTED structure"
+  ],
+  "ms.keywords": "*PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture], PPEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, pepfx/PPEP_PPM_IS_PROCESSOR_HALTED",
+  "req.header": "pepfx.h",
+  "req.include-header": "Pep_x.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported starting with Windows 10.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "PEP_PPM_IS_PROCESSOR_HALTED, *PPEP_PPM_IS_PROCESSOR_HALTED",
+  "f1_keywords": [
+    "_PEP_PPM_IS_PROCESSOR_HALTED",
+    "pepfx/_PEP_PPM_IS_PROCESSOR_HALTED",
+    "PPEP_PPM_IS_PROCESSOR_HALTED",
+    "pepfx/PPEP_PPM_IS_PROCESSOR_HALTED",
+    "PEP_PPM_IS_PROCESSOR_HALTED",
+    "pepfx/PEP_PPM_IS_PROCESSOR_HALTED"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "pepfx.h"
+  ],
+  "api_name": [
+    "_PEP_PPM_IS_PROCESSOR_HALTED",
+    "PPEP_PPM_IS_PROCESSOR_HALTED",
+    "PEP_PPM_IS_PROCESSOR_HALTED"
+  ]
+}

@@ -1,0 +1,25 @@
+typedef struct IPSNMPInfo {
+  ulong ipsi_forwarding;
+  ulong ipsi_defaultttl;
+  ulong ipsi_inreceives;
+  ulong ipsi_inhdrerrors;
+  ulong ipsi_inaddrerrors;
+  ulong ipsi_forwdatagrams;
+  ulong ipsi_inunknownprotos;
+  ulong ipsi_indiscards;
+  ulong ipsi_indelivers;
+  ulong ipsi_outrequests;
+  ulong ipsi_routingdiscards;
+  ulong ipsi_outdiscards;
+  ulong ipsi_outnoroutes;
+  ulong ipsi_reasmtimeout;
+  ulong ipsi_reasmreqds;
+  ulong ipsi_reasmoks;
+  ulong ipsi_reasmfails;
+  ulong ipsi_fragoks;
+  ulong ipsi_fragfails;
+  ulong ipsi_fragcreates;
+  ulong ipsi_numif;
+  ulong ipsi_numaddr;
+  ulong ipsi_numroutes;
+} IPSNMPInfo;

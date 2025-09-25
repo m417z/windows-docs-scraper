@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortClearEvent",
+  "title": "VideoPortClearEvent function (video.h)",
+  "description": "The VideoPortClearEvent function sets a given event object to the nonsignaled state.",
+  "old-location": "display\\videoportclearevent.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortClearEvent function"
+  ],
+  "ms.keywords": "VideoPortClearEvent, VideoPortClearEvent function [Display Devices], VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, display.videoportclearevent, video/VideoPortClearEvent",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows XP and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortClearEvent",
+    "video/VideoPortClearEvent"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortClearEvent"
+  ]
+}

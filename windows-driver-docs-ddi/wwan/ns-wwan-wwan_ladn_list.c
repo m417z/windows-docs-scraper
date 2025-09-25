@@ -1,0 +1,4 @@
+typedef struct _WWAN_LADN_LIST {
+  UINT32    ElementCount;
+  WWAN_LADN Ladns[ANYSIZE_ARRAY];
+} WWAN_LADN_LIST, *PWWAN_LADN_LIST;

@@ -1,0 +1,3 @@
+int GET_XBUTTON_WPARAM(
+    WPARAM wParam
+);

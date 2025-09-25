@@ -1,0 +1,48 @@
+{
+  "UID": "NC:hdaudio.PUNREGISTER_EVENT_CALLBACK",
+  "title": "PUNREGISTER_EVENT_CALLBACK (hdaudio.h)",
+  "description": "The UnregisterEventCallback routine deletes the registration of an event callback that was previously registered by a call to RegisterEventCallback.The function pointer type for an UnregisterEventCallback routine is defined as follows.",
+  "old-location": "audio\\unregistereventcallback.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "PUNREGISTER_EVENT_CALLBACK callback function"
+  ],
+  "ms.keywords": "PUNREGISTER_EVENT_CALLBACK, PUNREGISTER_EVENT_CALLBACK callback, UnregisterEventCallback, UnregisterEventCallback callback function [Audio Devices], aud-prop2_9d6c50d7-56ac-4364-9a1e-74ea0d934046.xml, audio.unregistereventcallback, hdaudio/UnregisterEventCallback",
+  "req.header": "hdaudio.h",
+  "req.include-header": "Hdaudio.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PUNREGISTER_EVENT_CALLBACK",
+    "hdaudio/PUNREGISTER_EVENT_CALLBACK"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "hdaudio.h"
+  ],
+  "api_name": [
+    "PUNREGISTER_EVENT_CALLBACK"
+  ]
+}

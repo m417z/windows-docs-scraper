@@ -1,0 +1,4 @@
+typedef struct _DXGK_ALLOCATIONUSAGEHINT {
+  [out] UINT                      Version;
+  [out] DXGK_ALLOCATIONUSAGEINFO1 v1;
+} DXGK_ALLOCATIONUSAGEHINT;

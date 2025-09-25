@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ucxcontroller.EVT_UCX_CONTROLLER_USBDEVICE_ADD",
+  "title": "EVT_UCX_CONTROLLER_USBDEVICE_ADD (ucxcontroller.h)",
+  "description": "The client driver's implementation that UCX calls when a new USB device is detected.",
+  "old-location": "buses\\evt_ucx_controller_usbdevice_add.htm",
+  "tech.root": "usbref",
+  "ms.date": "05/07/2018",
+  "keywords": [
+    "EVT_UCX_CONTROLLER_USBDEVICE_ADD callback function"
+  ],
+  "ms.keywords": "EVT_UCX_CONTROLLER_USBDEVICE_ADD, EVT_UCX_CONTROLLER_USBDEVICE_ADD callback, EvtUcxControllerUsbDeviceAdd, EvtUcxControllerUsbDeviceAdd callback function [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], buses.evt_ucx_controller_usbdevice_add, ucxcontroller/EvtUcxControllerUsbDeviceAdd",
+  "req.header": "ucxcontroller.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_UCX_CONTROLLER_USBDEVICE_ADD",
+    "ucxcontroller/EVT_UCX_CONTROLLER_USBDEVICE_ADD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ucxcontroller.h"
+  ],
+  "api_name": [
+    "EVT_UCX_CONTROLLER_USBDEVICE_ADD"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "UID": "NF:winbase.EndUpdateResourceW",
+  "title": "EndUpdateResourceW function (winbase.h)",
+  "description": "Commits or discards changes made prior to a call to UpdateResource. (Unicode)",
+  "helpviewer_keywords": [
+    "EndUpdateResource",
+    "EndUpdateResource function [Menus and Other Resources]",
+    "EndUpdateResourceW",
+    "_win32_EndUpdateResource",
+    "_win32_endupdateresource_cpp",
+    "menurc.endupdateresource",
+    "winbase/EndUpdateResource",
+    "winbase/EndUpdateResourceW",
+    "winui._win32_endupdateresource"
+  ],
+  "old-location": "menurc\\endupdateresource.htm",
+  "tech.root": "menurc",
+  "ms.assetid": "VS|winui|~\\winui\\windowsuserinterface\\resources\\introductiontoresources\\resourcereference\\resourcefunctions\\endupdateresource.htm",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EndUpdateResource, EndUpdateResource function [Menus and Other Resources], EndUpdateResourceA, EndUpdateResourceW, _win32_EndUpdateResource, _win32_endupdateresource_cpp, menurc.endupdateresource, winbase/EndUpdateResource, winbase/EndUpdateResourceA, winbase/EndUpdateResourceW, winui._win32_endupdateresource",
+  "req.header": "winbase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "EndUpdateResourceW (Unicode) and EndUpdateResourceA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EndUpdateResourceW",
+    "winbase/EndUpdateResourceW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-kernel32-updateresource-l1-1-0.dll",
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "EndUpdateResource",
+    "EndUpdateResourceA",
+    "EndUpdateResourceW"
+  ]
+}

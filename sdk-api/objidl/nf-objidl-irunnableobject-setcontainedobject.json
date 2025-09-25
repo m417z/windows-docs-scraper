@@ -1,0 +1,64 @@
+{
+  "UID": "NF:objidl.IRunnableObject.SetContainedObject",
+  "title": "IRunnableObject::SetContainedObject (objidl.h)",
+  "description": "Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects. (IRunnableObject.SetContainedObject)",
+  "helpviewer_keywords": [
+    "IRunnableObject interface [COM]",
+    "SetContainedObject method",
+    "IRunnableObject.SetContainedObject",
+    "IRunnableObject::SetContainedObject",
+    "SetContainedObject",
+    "SetContainedObject method [COM]",
+    "SetContainedObject method [COM]",
+    "IRunnableObject interface",
+    "_com_irunnableobject_setcontainedobject",
+    "com.irunnableobject_setcontainedobject",
+    "objidl/IRunnableObject::SetContainedObject"
+  ],
+  "old-location": "com\\irunnableobject_setcontainedobject.htm",
+  "tech.root": "com",
+  "ms.assetid": "dbd3f632-2b81-44d1-8376-4b507316895f",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IRunnableObject interface [COM],SetContainedObject method, IRunnableObject.SetContainedObject, IRunnableObject::SetContainedObject, SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM],IRunnableObject interface, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject",
+  "req.header": "objidl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "ObjIdl.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IRunnableObject::SetContainedObject",
+    "objidl/IRunnableObject::SetContainedObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "ObjIdl.h"
+  ],
+  "api_name": [
+    "IRunnableObject.SetContainedObject"
+  ]
+}

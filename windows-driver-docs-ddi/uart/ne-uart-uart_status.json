@@ -1,0 +1,41 @@
+{
+  "UID": "NE:uart.UART_STATUS",
+  "title": "UART_STATUS (uart.h)",
+  "description": "Defines values for the status of a UART operation.",
+  "tech.root": "uart",
+  "ms.date": "10/19/2018",
+  "keywords": [
+    "UART_STATUS enumeration"
+  ],
+  "ms.keywords": "UART_STATUS, UART_STATUS, *PUART_STATUS,",
+  "req.header": "uart.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1803",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.max-support": null,
+  "req.typenames": "UART_STATUS, *PUART_STATUS",
+  "targetos": "Windows",
+  "f1_keywords": [
+    "PUART_STATUS",
+    "uart/PUART_STATUS",
+    "UART_STATUS",
+    "uart/UART_STATUS"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "uart.h"
+  ],
+  "api_name": [
+    "PUART_STATUS",
+    "UART_STATUS"
+  ]
+}

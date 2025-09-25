@@ -1,0 +1,58 @@
+{
+  "UID": "NF:tapi.lineSetTerminal",
+  "title": "lineSetTerminal function (tapi.h)",
+  "description": "The lineSetTerminal function enables an application to specify which terminal information related to the specified line, address, or call is to be routed.",
+  "helpviewer_keywords": [
+    "_tapi2_linesetterminal",
+    "lineSetTerminal",
+    "lineSetTerminal function [TAPI 2.2]",
+    "tapi/lineSetTerminal",
+    "tapi2.linesetterminal"
+  ],
+  "old-location": "tapi2\\linesetterminal.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "362114d9-c5b6-4b78-bb31-811eb89fe82d",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineSetTerminal",
+    "tapi/lineSetTerminal"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineSetTerminal"
+  ]
+}

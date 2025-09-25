@@ -1,0 +1,5 @@
+typedef enum {
+  DS_SPN_ADD_SPN_OP = 0,
+  DS_SPN_REPLACE_SPN_OP = 1,
+  DS_SPN_DELETE_SPN_OP = 2
+} DS_SPN_WRITE_OP;

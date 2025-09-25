@@ -1,0 +1,53 @@
+{
+  "UID": "NE:ntddk._BDCB_CALLBACK_TYPE",
+  "title": "_BDCB_CALLBACK_TYPE (ntddk.h)",
+  "description": "The BDCB_CALLBACK_TYPE enumeration specifies whether the callback being passed to a BOOT_DRIVER_CALLBACK_FUNCTION routine is a status update or a boot-start driver initialization notification.",
+  "tech.root": "kernel",
+  "ms.date": "04/17/2023",
+  "keywords": [
+    "BDCB_CALLBACK_TYPE enumeration"
+  ],
+  "ms.keywords": "*PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Available starting with  Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "BDCB_CALLBACK_TYPE, *PBDCB_CALLBACK_TYPE",
+  "f1_keywords": [
+    "_BDCB_CALLBACK_TYPE",
+    "ntddk/_BDCB_CALLBACK_TYPE",
+    "PBDCB_CALLBACK_TYPE",
+    "ntddk/PBDCB_CALLBACK_TYPE",
+    "BDCB_CALLBACK_TYPE",
+    "ntddk/BDCB_CALLBACK_TYPE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_BDCB_CALLBACK_TYPE",
+    "PBDCB_CALLBACK_TYPE",
+    "BDCB_CALLBACK_TYPE"
+  ]
+}

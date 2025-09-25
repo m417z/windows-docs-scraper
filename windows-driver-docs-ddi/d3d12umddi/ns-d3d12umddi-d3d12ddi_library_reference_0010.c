@@ -1,0 +1,4 @@
+typedef struct D3D12DDI_LIBRARY_REFERENCE_0010 {
+  D3D12DDI_HPIPELINELIBRARY hLibrary;
+  UINT                      PipelineIndex;
+} D3D12DDI_LIBRARY_REFERENCE_0010;

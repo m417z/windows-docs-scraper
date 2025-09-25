@@ -1,0 +1,64 @@
+{
+  "UID": "NF:wbemprov.IWbemEventSink.SetSinkSecurity",
+  "title": "IWbemEventSink::SetSinkSecurity (wbemprov.h)",
+  "description": "Used to set a security descriptor (SD) on a sink for all the events passing through.",
+  "helpviewer_keywords": [
+    "IWbemEventSink interface [Windows Management Instrumentation]",
+    "SetSinkSecurity method",
+    "IWbemEventSink.SetSinkSecurity",
+    "IWbemEventSink::SetSinkSecurity",
+    "SetSinkSecurity",
+    "SetSinkSecurity method [Windows Management Instrumentation]",
+    "SetSinkSecurity method [Windows Management Instrumentation]",
+    "IWbemEventSink interface",
+    "_hmm_iwbemeventsink_setsinksecurity",
+    "wbemprov/IWbemEventSink::SetSinkSecurity",
+    "wmi.iwbemeventsink_setsinksecurity"
+  ],
+  "old-location": "wmi\\iwbemeventsink_setsinksecurity.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "887b3c21-2ff6-4ae9-80bf-19f601da5e8b",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IWbemEventSink interface [Windows Management Instrumentation],SetSinkSecurity method, IWbemEventSink.SetSinkSecurity, IWbemEventSink::SetSinkSecurity, SetSinkSecurity, SetSinkSecurity method [Windows Management Instrumentation], SetSinkSecurity method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_setsinksecurity, wbemprov/IWbemEventSink::SetSinkSecurity, wmi.iwbemeventsink_setsinksecurity",
+  "req.header": "wbemprov.h",
+  "req.include-header": "Wbemidl.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wbemuuid.lib",
+  "req.dll": "Wbemsvc.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWbemEventSink::SetSinkSecurity",
+    "wbemprov/IWbemEventSink::SetSinkSecurity"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wbemsvc.dll"
+  ],
+  "api_name": [
+    "IWbemEventSink.SetSinkSecurity"
+  ]
+}

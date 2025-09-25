@@ -1,0 +1,21 @@
+typedef struct _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS {
+  NDIS_OBJECT_HEADER                     Header;
+  UCHAR                                  MajorNdisVersion;
+  UCHAR                                  MinorNdisVersion;
+  UCHAR                                  MajorDriverVersion;
+  UCHAR                                  MinorDriverVersion;
+  ULONG                                  Flags;
+  NDIS_STRING                            Name;
+  SET_OPTIONS_HANDLER                    SetOptionsHandler;
+  BIND_HANDLER_EX                        BindAdapterHandlerEx;
+  UNBIND_HANDLER_EX                      UnbindAdapterHandlerEx;
+  OPEN_ADAPTER_COMPLETE_HANDLER_EX       OpenAdapterCompleteHandlerEx;
+  CLOSE_ADAPTER_COMPLETE_HANDLER_EX      CloseAdapterCompleteHandlerEx;
+  NET_PNP_EVENT_HANDLER                  NetPnPEventHandler;
+  UNINSTALL_PROTOCOL_HANDLER             UninstallHandler;
+  OID_REQUEST_COMPLETE_HANDLER           OidRequestCompleteHandler;
+  STATUS_HANDLER_EX                      StatusHandlerEx;
+  RECEIVE_NET_BUFFER_LISTS_HANDLER       ReceiveNetBufferListsHandler;
+  SEND_NET_BUFFER_LISTS_COMPLETE_HANDLER SendNetBufferListsCompleteHandler;
+  DIRECT_OID_REQUEST_COMPLETE_HANDLER    DirectOidRequestCompleteHandler;
+} NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, *PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS;

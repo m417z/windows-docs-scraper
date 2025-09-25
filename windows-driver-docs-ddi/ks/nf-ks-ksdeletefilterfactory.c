@@ -1,0 +1,3 @@
+void KsDeleteFilterFactory(
+  [in] FilterFactory
+);

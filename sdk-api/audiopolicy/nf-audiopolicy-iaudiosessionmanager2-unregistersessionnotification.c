@@ -1,0 +1,3 @@
+HRESULT UnregisterSessionNotification(
+  IAudioSessionNotification *SessionNotification
+);

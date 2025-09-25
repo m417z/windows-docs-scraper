@@ -1,0 +1,4 @@
+typedef struct _USB_HCD_DRIVERKEY_NAME {
+  ULONG ActualLength;
+  WCHAR DriverKeyName[1];
+} USB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME;

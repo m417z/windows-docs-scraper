@@ -1,0 +1,7 @@
+typedef struct HBA_FCPBindingEntry2 {
+  HBA_BIND_TYPE type;
+  HBA_SCSIID    ScsiId;
+  HBA_FCPID     FcpId;
+  HBA_LUID      LUID;
+  HBA_STATUS    Status;
+} HBA_FCPBINDINGENTRY2, *PHBA_FCPBINDINGENTRY2;

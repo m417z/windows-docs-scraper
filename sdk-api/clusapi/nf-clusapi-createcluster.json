@@ -1,0 +1,67 @@
+{
+  "UID": "NF:clusapi.CreateCluster",
+  "title": "CreateCluster function (clusapi.h)",
+  "description": "Creates and starts a cluster.",
+  "helpviewer_keywords": [
+    "CreateCluster",
+    "CreateCluster function [Failover Cluster]",
+    "PCLUSAPI_CREATE_CLUSTER",
+    "PCLUSAPI_CREATE_CLUSTER function [Failover Cluster]",
+    "clusapi/CreateCluster",
+    "clusapi/PCLUSAPI_CREATE_CLUSTER",
+    "mscs.createcluster"
+  ],
+  "old-location": "mscs\\createcluster.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "672a1573-63e5-4321-a049-25bdafc1b5e0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CreateCluster, CreateCluster function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER, PCLUSAPI_CREATE_CLUSTER function [Failover Cluster], clusapi/CreateCluster, clusapi/PCLUSAPI_CREATE_CLUSTER, mscs.createcluster",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CreateCluster",
+    "clusapi/CreateCluster"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-clusapi-l1-1-6.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-5.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-4.dll",
+    "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+    "ClusAPI.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll",
+    "Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll"
+  ],
+  "api_name": [
+    "CreateCluster"
+  ]
+}

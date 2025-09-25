@@ -1,0 +1,3 @@
+BOOL DeleteColorSpace(
+  HCOLORSPACE hcs
+);

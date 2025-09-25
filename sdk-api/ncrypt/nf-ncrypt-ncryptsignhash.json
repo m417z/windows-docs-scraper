@@ -1,0 +1,60 @@
+{
+  "UID": "NF:ncrypt.NCryptSignHash",
+  "title": "NCryptSignHash function (ncrypt.h)",
+  "description": "Creates a signature of a hash value. (NCryptSignHash)",
+  "helpviewer_keywords": [
+    "BCRYPT_PAD_PKCS1",
+    "BCRYPT_PAD_PSS",
+    "NCRYPT_SILENT_FLAG",
+    "NCryptSignHash",
+    "NCryptSignHash function [Security]",
+    "ncrypt/NCryptSignHash",
+    "security.ncryptsignhash_func"
+  ],
+  "old-location": "security\\ncryptsignhash_func.htm",
+  "tech.root": "security",
+  "ms.assetid": "7404e37a-d7c6-49ed-b951-6081dd2b921a",
+  "ms.date": "06/25/2025",
+  "ms.keywords": "BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func",
+  "req.header": "ncrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ncrypt.lib",
+  "req.dll": "Ncrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "NCryptSignHash",
+    "ncrypt/NCryptSignHash"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ncrypt.dll"
+  ],
+  "api_name": [
+    "NCryptSignHash"
+  ]
+}

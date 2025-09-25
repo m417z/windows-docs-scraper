@@ -1,0 +1,3 @@
+HRESULT SetFeatureMask(
+  UINT Mask
+);

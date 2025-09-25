@@ -1,0 +1,47 @@
+{
+  "UID": "NF:audioengineextensionapo.IAudioProcessingObjectRTQueueService.GetRealTimeWorkQueue",
+  "tech.root": "audio",
+  "title": "IAudioProcessingObjectRTQueueService::GetRealTimeWorkQueue",
+  "ms.date": "06/19/2021",
+  "targetos": "Windows",
+  "description": "Gets the ID of a work queue that the APO can use to schedule tasks that need to run at a real-time priority.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audioengineextensionapo.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Build 22000",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "audioengineextensionapo.h"
+  ],
+  "api_name": [
+    "IAudioProcessingObjectRTQueueService::GetRealTimeWorkQueue"
+  ],
+  "f1_keywords": [
+    "IAudioProcessingObjectRTQueueService::GetRealTimeWorkQueue",
+    "audioengineextensionapo/IAudioProcessingObjectRTQueueService::GetRealTimeWorkQueue"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef struct {
+  KSPROPERTY Property;
+  GUID       EventId;
+} KSSOUNDDETECTORPROPERTY, *PKSSOUNDDETECTORPROPERTY;

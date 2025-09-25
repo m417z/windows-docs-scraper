@@ -1,0 +1,66 @@
+{
+  "UID": "NS:tapi.linecallhubtrackinginfo_tag",
+  "title": "LINECALLHUBTRACKINGINFO (tapi.h)",
+  "description": "The LINECALLHUBTRACKINGINFO structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.",
+  "helpviewer_keywords": [
+    "*LPLINECALLHUBTRACKINGINFO",
+    "LINECALLHUBTRACKINGINFO",
+    "LINECALLHUBTRACKINGINFO structure [TAPI 2.2]",
+    "LPLINECALLHUBTRACKINGINFO",
+    "LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2]",
+    "_tapi2_linecallhubtrackinginfo_str",
+    "tapi/LINECALLHUBTRACKINGINFO",
+    "tapi/LPLINECALLHUBTRACKINGINFO",
+    "tapi2.linecallhubtrackinginfo_str"
+  ],
+  "old-location": "tapi2\\linecallhubtrackinginfo_str.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "1f4eaf7d-fc80-4131-af5a-30c6869c74ef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPLINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO structure [TAPI 2.2], LPLINECALLHUBTRACKINGINFO, LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2], _tapi2_linecallhubtrackinginfo_str, tapi/LINECALLHUBTRACKINGINFO, tapi/LPLINECALLHUBTRACKINGINFO, tapi2.linecallhubtrackinginfo_str",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LINECALLHUBTRACKINGINFO, *LPLINECALLHUBTRACKINGINFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "linecallhubtrackinginfo_tag",
+    "tapi/linecallhubtrackinginfo_tag",
+    "LPLINECALLHUBTRACKINGINFO",
+    "tapi/LPLINECALLHUBTRACKINGINFO",
+    "LINECALLHUBTRACKINGINFO",
+    "tapi/LINECALLHUBTRACKINGINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Tapi.h"
+  ],
+  "api_name": [
+    "LINECALLHUBTRACKINGINFO"
+  ]
+}

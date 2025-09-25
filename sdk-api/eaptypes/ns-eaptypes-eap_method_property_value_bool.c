@@ -1,0 +1,4 @@
+typedef struct _EAP_METHOD_PROPERTY_VALUE_BOOL {
+  DWORD length;
+  BOOL  value;
+} EAP_METHOD_PROPERTY_VALUE_BOOL;

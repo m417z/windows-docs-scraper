@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.IO_CSQ_COMPLETE_CANCELED_IRP",
+  "title": "IO_CSQ_COMPLETE_CANCELED_IRP (wdm.h)",
+  "description": "The CsqCompleteCanceledIrp routine is used by the system to signal to the driver that it can complete a canceled IRP.",
+  "tech.root": "kernel",
+  "ms.date": "01/09/2023",
+  "keywords": [
+    "IO_CSQ_COMPLETE_CANCELED_IRP callback function"
+  ],
+  "ms.keywords": "CsqCompleteCanceledIrp, CsqCompleteCanceledIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_07239a13-c445-4f75-8765-ff5806515ecb.xml, IO_CSQ_COMPLETE_CANCELED_IRP, kernel.csqcompletecanceledirp, wdm/CsqCompleteCanceledIrp",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IO_CSQ_COMPLETE_CANCELED_IRP",
+    "wdm/IO_CSQ_COMPLETE_CANCELED_IRP"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "IO_CSQ_COMPLETE_CANCELED_IRP"
+  ]
+}

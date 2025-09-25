@@ -1,0 +1,66 @@
+{
+  "UID": "NS:tapi.lineagentsessioninfo_tag",
+  "title": "LINEAGENTSESSIONINFO (tapi.h)",
+  "description": "The LINEAGENTSESSIONINFO structure contains information about the ACD agent session. The lineGetAgentSessionInfo function returns the LINEAGENTSESSIONINFO structure.",
+  "helpviewer_keywords": [
+    "*LPLINEAGENTSESSIONINFO",
+    "LINEAGENTSESSIONINFO",
+    "LINEAGENTSESSIONINFO structure [TAPI 2.2]",
+    "LPLINEAGENTSESSIONINFO",
+    "LPLINEAGENTSESSIONINFO structure pointer [TAPI 2.2]",
+    "_tapi2_lineagentsessioninfo_str",
+    "tapi/LINEAGENTSESSIONINFO",
+    "tapi/LPLINEAGENTSESSIONINFO",
+    "tapi2.lineagentsessioninfo_str"
+  ],
+  "old-location": "tapi2\\lineagentsessioninfo_str.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "567e21b4-c79c-4a54-b9f4-6c8c949bf4ee",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*LPLINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO structure [TAPI 2.2], LPLINEAGENTSESSIONINFO, LPLINEAGENTSESSIONINFO structure pointer [TAPI 2.2], _tapi2_lineagentsessioninfo_str, tapi/LINEAGENTSESSIONINFO, tapi/LPLINEAGENTSESSIONINFO, tapi2.lineagentsessioninfo_str",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LINEAGENTSESSIONINFO, *LPLINEAGENTSESSIONINFO",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineagentsessioninfo_tag",
+    "tapi/lineagentsessioninfo_tag",
+    "LPLINEAGENTSESSIONINFO",
+    "tapi/LPLINEAGENTSESSIONINFO",
+    "LINEAGENTSESSIONINFO",
+    "tapi/LINEAGENTSESSIONINFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Tapi.h"
+  ],
+  "api_name": [
+    "LINEAGENTSESSIONINFO"
+  ]
+}

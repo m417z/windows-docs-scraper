@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTSubmitPresentBltToHwQueue(
+  const D3DKMT_SUBMITPRESENTBLTTOHWQUEUE *unnamedParam1
+);

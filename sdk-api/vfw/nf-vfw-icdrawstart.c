@@ -1,0 +1,3 @@
+void ICDrawStart(
+  hic
+);

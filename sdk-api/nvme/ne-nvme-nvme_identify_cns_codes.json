@@ -1,0 +1,39 @@
+{
+  "UID": "NE:nvme.NVME_IDENTIFY_CNS_CODES",
+  "tech.root": "fs",
+  "title": "NVME_IDENTIFY_CNS_CODES",
+  "ms.date": "02/19/2021",
+  "ms.topic": "language-reference",
+  "targetos": "Windows",
+  "description": "Contains values that indicate the type of controller or namespace information that will be returned in the Controller or Namespace Structure (CNS) member of the NVME_CDW10_IDENTIFY structure.",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "nvme.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "nvme.h"
+  ],
+  "api_name": [
+    "NVME_IDENTIFY_CNS_CODES"
+  ],
+  "f1_keywords": [
+    "NVME_IDENTIFY_CNS_CODES",
+    "nvme/NVME_IDENTIFY_CNS_CODES"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

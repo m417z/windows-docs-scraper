@@ -1,0 +1,9 @@
+typedef struct _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
+  NDIS_OBJECT_HEADER Header;
+  DOT11_MAC_ADDRESS  ReceiverDeviceAddress;
+  DOT11_DIALOG_TOKEN DialogToken;
+  PVOID              RequestContext;
+  ULONG              uSendTimeout;
+  ULONG              uIEsOffset;
+  ULONG              uIEsLength;
+} DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS;

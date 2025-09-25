@@ -1,0 +1,3 @@
+HRESULT GetRangeInfo(
+  MF_CAMERA_CONTROL_RANGE_INFO *rangeInfo
+);

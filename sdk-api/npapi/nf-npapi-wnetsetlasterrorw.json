@@ -1,0 +1,49 @@
+{
+  "UID": "NF:npapi.WNetSetLastErrorW",
+  "tech.root": "security",
+  "title": "WNetSetLastErrorW",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "Sets extended error information. Network providers should call this function instead of SetLastError. (Unicode)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Mpr.dll",
+  "req.header": "npapi.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "Mpr.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Mpr.dll"
+  ],
+  "api_name": [
+    "WNetSetLastErrorW",
+    "WNetSetLastError"
+  ],
+  "f1_keywords": [
+    "WNetSetLastErrorW",
+    "npapi/WNetSetLastErrorW",
+    "WNetSetLastError",
+    "npapi/WNetSetLastError"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

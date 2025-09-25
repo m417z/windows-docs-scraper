@@ -1,0 +1,8 @@
+typedef struct DXGI_MATRIX_3X2_F {
+  FLOAT _11;
+  FLOAT _12;
+  FLOAT _21;
+  FLOAT _22;
+  FLOAT _31;
+  FLOAT _32;
+} DXGI_MATRIX_3X2_F;

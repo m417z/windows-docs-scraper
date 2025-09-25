@@ -1,0 +1,63 @@
+{
+  "UID": "NF:systemtopologyapi.GetNumaNodeProcessorMaskEx",
+  "title": "GetNumaNodeProcessorMaskEx function (systemtopologyapi.h)",
+  "description": "Retrieves the processor mask for a node regardless of the processor group the node belongs to.",
+  "helpviewer_keywords": [
+    "GetNumaNodeProcessorMaskEx",
+    "GetNumaNodeProcessorMaskEx function",
+    "base.getnumanodeprocessormaskex",
+    "systemtopologyapi/GetNumaNodeProcessorMaskEx",
+    "winbase/GetNumaNodeProcessorMaskEx"
+  ],
+  "old-location": "base\\getnumanodeprocessormaskex.htm",
+  "tech.root": "ProcThread",
+  "ms.assetid": "4baf7193-aab3-4bd0-bc0a-60fd9277fc72",
+  "ms.date": "03/15/2021",
+  "ms.keywords": "GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, base.getnumanodeprocessormaskex, systemtopologyapi/GetNumaNodeProcessorMaskEx, winbase/GetNumaNodeProcessorMaskEx",
+  "req.header": "systemtopologyapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetNumaNodeProcessorMaskEx",
+    "systemtopologyapi/GetNumaNodeProcessorMaskEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-systemtopology-l1-1-2.dll",
+    "kernel32.dll",
+    "API-MS-Win-Core-systemtopology-l1-1-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-DownLevel-Kernel32-l1-1-0.dll",
+    "API-MS-Win-Core-Systemtopology-L1-1-1.dll"
+  ],
+  "api_name": [
+    "GetNumaNodeProcessorMaskEx"
+  ]
+}

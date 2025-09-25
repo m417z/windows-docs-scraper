@@ -1,0 +1,4 @@
+typedef struct _CMC_TAGGED_CERT_REQUEST {
+  DWORD          dwBodyPartID;
+  CRYPT_DER_BLOB SignedCertRequest;
+} CMC_TAGGED_CERT_REQUEST, *PCMC_TAGGED_CERT_REQUEST;

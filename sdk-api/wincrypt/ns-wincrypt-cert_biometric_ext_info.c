@@ -1,0 +1,4 @@
+typedef struct _CERT_BIOMETRIC_EXT_INFO {
+  DWORD                cBiometricData;
+  PCERT_BIOMETRIC_DATA rgBiometricData;
+} CERT_BIOMETRIC_EXT_INFO, *PCERT_BIOMETRIC_EXT_INFO;

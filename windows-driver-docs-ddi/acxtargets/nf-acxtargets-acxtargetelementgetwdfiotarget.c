@@ -1,0 +1,3 @@
+WDFIOTARGET AcxTargetElementGetWdfIoTarget(
+  ACXTARGETELEMENT TargetElement
+);

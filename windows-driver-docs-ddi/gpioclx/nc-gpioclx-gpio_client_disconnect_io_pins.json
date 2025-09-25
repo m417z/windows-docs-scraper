@@ -1,0 +1,48 @@
+{
+  "UID": "NC:gpioclx.GPIO_CLIENT_DISCONNECT_IO_PINS",
+  "title": "GPIO_CLIENT_DISCONNECT_IO_PINS (gpioclx.h)",
+  "description": "The CLIENT_DisconnectIoPins event callback function closes a logical connection to a set of general-purpose I/O (GPIO) pins that are configured for data read or write operations.",
+  "old-location": "gpio\\client_disconnectiopins.htm",
+  "tech.root": "GPIO",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "GPIO_CLIENT_DISCONNECT_IO_PINS callback function"
+  ],
+  "ms.keywords": "CLIENT_DisconnectIoPins, CLIENT_DisconnectIoPins callback, CLIENT_DisconnectIoPins callback function [Parallel Ports], GPIO.client_disconnectiopins, GPIO_CLIENT_DISCONNECT_IO_PINS, gpioclx/CLIENT_DisconnectIoPins",
+  "req.header": "gpioclx.h",
+  "req.include-header": null,
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Supported starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "GPIO_CLIENT_DISCONNECT_IO_PINS",
+    "gpioclx/GPIO_CLIENT_DISCONNECT_IO_PINS"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Gpioclx.h"
+  ],
+  "api_name": [
+    "GPIO_CLIENT_DISCONNECT_IO_PINS"
+  ]
+}

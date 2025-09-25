@@ -1,0 +1,65 @@
+{
+  "UID": "NF:provider.Provider.ValidateFlags",
+  "title": "Provider::ValidateFlags (provider.h)",
+  "description": "The ValidateFlags method determines whether a set of flags is valid.",
+  "helpviewer_keywords": [
+    "Provider interface [Windows Management Instrumentation]",
+    "ValidateFlags method",
+    "Provider.ValidateFlags",
+    "Provider::ValidateFlags",
+    "ValidateFlags",
+    "ValidateFlags method [Windows Management Instrumentation]",
+    "ValidateFlags method [Windows Management Instrumentation]",
+    "Provider interface",
+    "_hmm_provider_validateflags",
+    "provider/Provider::ValidateFlags",
+    "wmi.provider_validateflags"
+  ],
+  "old-location": "wmi\\provider_validateflags.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "1d6d1006-99b9-4646-a5c4-835940ce3ac0",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "Provider interface [Windows Management Instrumentation],ValidateFlags method, Provider.ValidateFlags, Provider::ValidateFlags, ValidateFlags, ValidateFlags method [Windows Management Instrumentation], ValidateFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateflags, provider/Provider::ValidateFlags, wmi.provider_validateflags",
+  "req.header": "provider.h",
+  "req.include-header": "FwCommon.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FrameDyn.lib",
+  "req.dll": "FrameDynOS.dll; FrameDyn.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Provider::ValidateFlags",
+    "provider/Provider::ValidateFlags"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "FrameDynOS.dll",
+    "FrameDyn.dll"
+  ],
+  "api_name": [
+    "Provider.ValidateFlags"
+  ]
+}

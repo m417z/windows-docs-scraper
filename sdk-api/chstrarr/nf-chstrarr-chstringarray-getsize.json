@@ -1,0 +1,67 @@
+{
+  "UID": "NF:chstrarr.CHStringArray.GetSize",
+  "title": "CHStringArray::GetSize (chstrarr.h)",
+  "description": "The GetSize method gets the size of the array. Because indexes are zero-based, the size is one greater than the largest index.",
+  "helpviewer_keywords": [
+    "?GetSize@CHStringArray@@QEBAHXZ",
+    "CHStringArray interface [Windows Management Instrumentation]",
+    "GetSize method",
+    "CHStringArray.GetSize",
+    "CHStringArray::GetSize",
+    "GetSize",
+    "GetSize method [Windows Management Instrumentation]",
+    "GetSize method [Windows Management Instrumentation]",
+    "CHStringArray interface",
+    "_hmm_chstringarray_getsize",
+    "chstrarr/CHStringArray::GetSize",
+    "wmi.chstringarray_getsize"
+  ],
+  "old-location": "wmi\\chstringarray_getsize.htm",
+  "tech.root": "wmi",
+  "ms.assetid": "5db50c38-a9c7-4711-925e-291cebf2b6f1",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize",
+  "req.header": "chstrarr.h",
+  "req.include-header": "FwCommon.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": "Windows Server 2008",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FrameDyn.lib",
+  "req.dll": "FrameDynOS.dll; FrameDyn.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CHStringArray::GetSize",
+    "chstrarr/CHStringArray::GetSize"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "FrameDynOS.dll",
+    "FrameDyn.dll"
+  ],
+  "api_name": [
+    "CHStringArray.GetSize",
+    "?GetSize@CHStringArray@@QEBAHXZ"
+  ]
+}

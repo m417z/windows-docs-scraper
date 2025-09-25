@@ -1,0 +1,8 @@
+PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD Pfnd3d111DdiVideoprocessorinputviewreadafterwritehazard;
+
+VOID Pfnd3d111DdiVideoprocessorinputviewreadafterwritehazard(
+  D3D10DDI_HDEVICE unnamedParam1,
+  D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW unnamedParam2,
+  D3D10DDI_HRESOURCE unnamedParam3
+)
+{...}

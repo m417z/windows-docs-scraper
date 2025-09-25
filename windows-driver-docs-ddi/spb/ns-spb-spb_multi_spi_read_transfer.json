@@ -1,0 +1,46 @@
+{
+  "UID": "NS:spb.SPB_MULTI_SPI_READ_TRANSFER",
+  "tech.root": "SPB",
+  "title": "SPB_MULTI_SPI_READ_TRANSFER",
+  "ms.date": "11/15/2021",
+  "targetos": "Windows",
+  "description": "The SPB_MULTI_SPI_READ_TRANSFER structure describes a read operation to be executed in a Multi-SPI (e.g. Dual SPI or Quad SPI) mode.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "spb.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SPB_MULTI_SPI_READ_TRANSFER, *PSPB_MULTI_SPI_READ_TRANSFER",
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "spb.h"
+  ],
+  "api_name": [
+    "SPB_MULTI_SPI_READ_TRANSFER",
+    "PSPB_MULTI_SPI_READ_TRANSFER"
+  ],
+  "f1_keywords": [
+    "SPB_MULTI_SPI_READ_TRANSFER",
+    "spb/SPB_MULTI_SPI_READ_TRANSFER",
+    "PSPB_MULTI_SPI_READ_TRANSFER",
+    "spb/PSPB_MULTI_SPI_READ_TRANSFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

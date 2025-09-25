@@ -1,0 +1,4 @@
+typedef struct _DHCP_BIND_ELEMENT_ARRAY {
+  DWORD               NumElements;
+  LPDHCP_BIND_ELEMENT Elements;
+} DHCP_BIND_ELEMENT_ARRAY, *LPDHCP_BIND_ELEMENT_ARRAY;

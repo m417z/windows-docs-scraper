@@ -1,0 +1,9 @@
+typedef struct tACMFORMATTAGDETAILS {
+  DWORD cbStruct;
+  DWORD dwFormatTagIndex;
+  DWORD dwFormatTag;
+  DWORD cbFormatSize;
+  DWORD fdwSupport;
+  DWORD cStandardFormats;
+  char  szFormatTag[ACMFORMATTAGDETAILS_FORMATTAG_CHARS];
+} ACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, *LPACMFORMATTAGDETAILS;

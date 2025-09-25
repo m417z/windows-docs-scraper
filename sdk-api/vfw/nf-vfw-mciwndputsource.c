@@ -1,0 +1,4 @@
+LONG MCIWndPutSource(
+     hwnd,
+     prc
+);

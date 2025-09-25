@@ -1,0 +1,1 @@
+#define NET_BUFFER_MINIPORT_RESERVED(_NB) ((_NB)->MiniportReserved)

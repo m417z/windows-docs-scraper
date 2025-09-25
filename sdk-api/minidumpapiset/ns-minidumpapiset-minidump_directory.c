@@ -1,0 +1,4 @@
+typedef struct _MINIDUMP_DIRECTORY {
+  ULONG32                      StreamType;
+  MINIDUMP_LOCATION_DESCRIPTOR Location;
+} MINIDUMP_DIRECTORY, *PMINIDUMP_DIRECTORY;

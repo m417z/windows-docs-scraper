@@ -1,0 +1,3 @@
+HRESULT WebAuthNGetCancellationId(
+  GUID *pCancellationId
+);

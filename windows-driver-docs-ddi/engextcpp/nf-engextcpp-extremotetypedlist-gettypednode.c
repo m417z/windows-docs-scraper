@@ -1,0 +1,1 @@
+ExtRemoteTyped GetTypedNode();

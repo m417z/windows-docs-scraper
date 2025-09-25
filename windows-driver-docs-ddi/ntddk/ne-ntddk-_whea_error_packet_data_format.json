@@ -1,0 +1,53 @@
+{
+  "UID": "NE:ntddk._WHEA_ERROR_PACKET_DATA_FORMAT",
+  "title": "_WHEA_ERROR_PACKET_DATA_FORMAT (ntddk.h)",
+  "description": "The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error data format in a hardware error packet.",
+  "tech.root": "whea",
+  "ms.date": "03/13/2023",
+  "keywords": [
+    "WHEA_ERROR_PACKET_DATA_FORMAT enumeration"
+  ],
+  "ms.keywords": "*PWHEA_ERROR_PACKET_DATA_FORMAT, PWHEA_ERROR_PACKET_DATA_FORMAT, PWHEA_ERROR_PACKET_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET_DATA_FORMAT, WHEA_ERROR_PACKET_DATA_FORMAT enumeration [WHEA Drivers and Applications], WheaDataFormatGeneric, WheaDataFormatIPFSalRecord, WheaDataFormatMax, WheaDataFormatMemory, WheaDataFormatNMIPort, WheaDataFormatPCIExpress, WheaDataFormatPCIXBus, WheaDataFormatPCIXDevice, WheaDataFormatXPFMCA, _WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/PWHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WheaDataFormatGeneric, ntddk/WheaDataFormatIPFSalRecord, ntddk/WheaDataFormatMax, ntddk/WheaDataFormatMemory, ntddk/WheaDataFormatNMIPort, ntddk/WheaDataFormatPCIExpress, ntddk/WheaDataFormatPCIXBus, ntddk/WheaDataFormatPCIXDevice, ntddk/WheaDataFormatXPFMCA, whea.whea_error_packet_data_format, whearef_19f75c8f-94d0-4837-ab44-e9ba9fbe51f7.xml",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Supported in Windows 7 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "WHEA_ERROR_PACKET_DATA_FORMAT, *PWHEA_ERROR_PACKET_DATA_FORMAT",
+  "f1_keywords": [
+    "_WHEA_ERROR_PACKET_DATA_FORMAT",
+    "ntddk/_WHEA_ERROR_PACKET_DATA_FORMAT",
+    "PWHEA_ERROR_PACKET_DATA_FORMAT",
+    "ntddk/PWHEA_ERROR_PACKET_DATA_FORMAT",
+    "WHEA_ERROR_PACKET_DATA_FORMAT",
+    "ntddk/WHEA_ERROR_PACKET_DATA_FORMAT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "_WHEA_ERROR_PACKET_DATA_FORMAT",
+    "PWHEA_ERROR_PACKET_DATA_FORMAT",
+    "WHEA_ERROR_PACKET_DATA_FORMAT"
+  ]
+}

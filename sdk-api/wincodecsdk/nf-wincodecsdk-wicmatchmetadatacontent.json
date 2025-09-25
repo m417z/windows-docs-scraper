@@ -1,0 +1,59 @@
+{
+  "UID": "NF:wincodecsdk.WICMatchMetadataContent",
+  "title": "WICMatchMetadataContent function (wincodecsdk.h)",
+  "description": "Obtains a metadata format GUID for a specified container format and vendor that best matches the content within a given stream.",
+  "helpviewer_keywords": [
+    "WICMatchMetadataContent",
+    "WICMatchMetadataContent function [Windows Imaging Component]",
+    "_wic_codec_wicmatchmetadatacontent",
+    "wic._wic_codec_wicmatchmetadatacontent",
+    "wincodecsdk/WICMatchMetadataContent"
+  ],
+  "old-location": "wic\\_wic_codec_wicmatchmetadatacontent.htm",
+  "tech.root": "wic",
+  "ms.assetid": "2d1ab317-a77c-4e91-9455-e6738fd40e88",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "WICMatchMetadataContent, WICMatchMetadataContent function [Windows Imaging Component], _wic_codec_wicmatchmetadatacontent, wic._wic_codec_wicmatchmetadatacontent, wincodecsdk/WICMatchMetadataContent",
+  "req.header": "wincodecsdk.h",
+  "req.include-header": "Wincodec.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP with SP2, Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Windowscodecs.lib",
+  "req.dll": "Windowscodecs.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WICMatchMetadataContent",
+    "wincodecsdk/WICMatchMetadataContent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Windowscodecs.dll",
+    "Windowscodecs.lib"
+  ],
+  "api_name": [
+    "WICMatchMetadataContent"
+  ]
+}

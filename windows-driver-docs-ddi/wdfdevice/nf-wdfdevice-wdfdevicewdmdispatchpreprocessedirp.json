@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wdfdevice.WdfDeviceWdmDispatchPreprocessedIrp",
+  "title": "WdfDeviceWdmDispatchPreprocessedIrp function (wdfdevice.h)",
+  "description": "The WdfDeviceWdmDispatchPreprocessedIrp method returns a preprocessed IRP to the framework.",
+  "old-location": "wdf\\wdfdevicewdmdispatchpreprocessedirp.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "WdfDeviceWdmDispatchPreprocessedIrp function"
+  ],
+  "ms.keywords": "DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp, WdfDeviceWdmDispatchPreprocessedIrp method, kmdf.wdfdevicewdmdispatchpreprocessedirp, wdf.wdfdevicewdmdispatchpreprocessedirp, wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp",
+  "req.header": "wdfdevice.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": "DriverCreate, KmdfIrql, KmdfIrql2",
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wdf01000.sys (see Framework Library Versioning.)",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WdfDeviceWdmDispatchPreprocessedIrp",
+    "wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Wdf01000.sys",
+    "Wdf01000.sys.dll"
+  ],
+  "api_name": [
+    "WdfDeviceWdmDispatchPreprocessedIrp"
+  ]
+}

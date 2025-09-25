@@ -1,0 +1,53 @@
+{
+  "UID": "NS:netfw._tag_FW_DYNAMIC_KEYWORD_ADDRESS0",
+  "title": "FW_DYNAMIC_KEYWORD_ADDRESS0",
+  "description": "Allows the client to create a dynamic keyword address, which holds a list of IP addresses.",
+  "tech.root": "ics",
+  "ms.date": "05/13/2021",
+  "req.construct-type": "structure",
+  "req.header": "netfw.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 Build 20348",
+  "req.target-min-winversvr": "Windows 10 Build 20348",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "FW_DYNAMIC_KEYWORD_ADDRESS0, *PFW_DYNAMIC_KEYWORD_ADDRESS0",
+  "req.redist": null,
+  "f1_keywords": [
+    "_tag_FW_DYNAMIC_KEYWORD_ADDRESS0",
+    "netfw/_tag_FW_DYNAMIC_KEYWORD_ADDRESS0",
+    "PFW_DYNAMIC_KEYWORD_ADDRESS0",
+    "netfw/PFW_DYNAMIC_KEYWORD_ADDRESS0",
+    "FW_DYNAMIC_KEYWORD_ADDRESS0",
+    "netfw/FW_DYNAMIC_KEYWORD_ADDRESS0"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "firewallapi.dll"
+  ],
+  "api_name": [
+    "_tag_FW_DYNAMIC_KEYWORD_ADDRESS0",
+    "PFW_DYNAMIC_KEYWORD_ADDRESS0",
+    "FW_DYNAMIC_KEYWORD_ADDRESS0"
+  ]
+}

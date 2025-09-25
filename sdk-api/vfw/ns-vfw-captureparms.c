@@ -1,0 +1,26 @@
+typedef struct tagCaptureParms {
+  DWORD dwRequestMicroSecPerFrame;
+  BOOL  fMakeUserHitOKToCapture;
+  UINT  wPercentDropForError;
+  BOOL  fYield;
+  DWORD dwIndexSize;
+  UINT  wChunkGranularity;
+  BOOL  fUsingDOSMemory;
+  UINT  wNumVideoRequested;
+  BOOL  fCaptureAudio;
+  UINT  wNumAudioRequested;
+  UINT  vKeyAbort;
+  BOOL  fAbortLeftMouse;
+  BOOL  fAbortRightMouse;
+  BOOL  fLimitEnabled;
+  UINT  wTimeLimit;
+  BOOL  fMCIControl;
+  BOOL  fStepMCIDevice;
+  DWORD dwMCIStartTime;
+  DWORD dwMCIStopTime;
+  BOOL  fStepCaptureAt2x;
+  UINT  wStepCaptureAverageFrames;
+  DWORD dwAudioBufferSize;
+  BOOL  fDisableWriteCache;
+  UINT  AVStreamMaster;
+} CAPTUREPARMS, *PCAPTUREPARMS, *LPCAPTUREPARMS;

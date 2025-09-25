@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wdm.PoFxSetDeviceIdleTimeout",
+  "title": "PoFxSetDeviceIdleTimeout function (wdm.h)",
+  "description": "The PoFxSetDeviceIdleTimeout routine specifies the minimum time interval from when the last component of the device enters the idle condition to when the power management framework (PoFx) calls the driver's DevicePowerNotRequiredCallback routine.",
+  "old-location": "kernel\\pofxsetdeviceidletimeout.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PoFxSetDeviceIdleTimeout function"
+  ],
+  "ms.keywords": "PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout",
+  "req.header": "wdm.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 8.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntoskrnl.lib",
+  "req.dll": "Ntoskrnl.exe",
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PoFxSetDeviceIdleTimeout",
+    "wdm/PoFxSetDeviceIdleTimeout"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntoskrnl.exe"
+  ],
+  "api_name": [
+    "PoFxSetDeviceIdleTimeout"
+  ]
+}

@@ -1,0 +1,3 @@
+GUID AcxTargetElementGetType(
+  ACXTARGETELEMENT TargetElement
+);

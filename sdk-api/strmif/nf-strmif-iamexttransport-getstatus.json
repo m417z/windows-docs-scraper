@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IAMExtTransport.GetStatus",
+  "title": "IAMExtTransport::GetStatus (strmif.h)",
+  "description": "The GetStatus method returns information about the transport's status.",
+  "helpviewer_keywords": [
+    "GetStatus",
+    "GetStatus method [DirectShow]",
+    "GetStatus method [DirectShow]",
+    "IAMExtTransport interface",
+    "IAMExtTransport interface [DirectShow]",
+    "GetStatus method",
+    "IAMExtTransport.GetStatus",
+    "IAMExtTransport::GetStatus",
+    "IAMExtTransportGetStatus",
+    "dshow.iamexttransport_getstatus",
+    "strmif/IAMExtTransport::GetStatus"
+  ],
+  "old-location": "dshow\\iamexttransport_getstatus.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "01d90527-4851-45a3-9481-929a9f4aa0cd",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetStatus method, IAMExtTransport.GetStatus, IAMExtTransport::GetStatus, IAMExtTransportGetStatus, dshow.iamexttransport_getstatus, strmif/IAMExtTransport::GetStatus",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IAMExtTransport::GetStatus",
+    "strmif/IAMExtTransport::GetStatus"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IAMExtTransport.GetStatus"
+  ]
+}

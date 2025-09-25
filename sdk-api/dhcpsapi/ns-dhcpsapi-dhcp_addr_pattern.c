@@ -1,0 +1,7 @@
+typedef struct _DHCP_ADDR_PATTERN {
+  BOOL MatchHWType;
+  BYTE HWType;
+  BOOL IsWildcard;
+  BYTE Length;
+  BYTE Pattern[MAX_PATTERN_LENGTH];
+} DHCP_ADDR_PATTERN, *LPDHCP_ADDR_PATTERN;

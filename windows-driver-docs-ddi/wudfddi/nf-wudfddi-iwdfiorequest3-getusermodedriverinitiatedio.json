@@ -1,0 +1,48 @@
+{
+  "UID": "NF:wudfddi.IWDFIoRequest3.GetUserModeDriverInitiatedIo",
+  "title": "IWDFIoRequest3::GetUserModeDriverInitiatedIo (wudfddi.h)",
+  "description": "The GetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver.",
+  "old-location": "wdf\\iwdfiorequest3_getusermodedriverinitiatedio.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "IWDFIoRequest3::GetUserModeDriverInitiatedIo"
+  ],
+  "ms.keywords": "GetUserModeDriverInitiatedIo, GetUserModeDriverInitiatedIo method, GetUserModeDriverInitiatedIo method,IWDFIoRequest3 interface, IWDFIoRequest3 interface,GetUserModeDriverInitiatedIo method, IWDFIoRequest3.GetUserModeDriverInitiatedIo, IWDFIoRequest3::GetUserModeDriverInitiatedIo, umdf.iwdfiorequest3_getusermodedriverinitiatedio, wdf.iwdfiorequest3_getusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::GetUserModeDriverInitiatedIo",
+  "req.header": "wudfddi.h",
+  "req.include-header": "Wudfddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 1.11,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": "Unavailable in UMDF 2.0 and later.",
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "WUDFx.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IWDFIoRequest3::GetUserModeDriverInitiatedIo",
+    "wudfddi/IWDFIoRequest3::GetUserModeDriverInitiatedIo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "WUDFx.dll"
+  ],
+  "api_name": [
+    "IWDFIoRequest3::GetUserModeDriverInitiatedIo"
+  ]
+}

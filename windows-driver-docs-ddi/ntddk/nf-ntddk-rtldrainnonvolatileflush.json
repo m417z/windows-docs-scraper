@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlDrainNonVolatileFlush",
+  "title": "RtlDrainNonVolatileFlush function (ntddk.h)",
+  "description": "The routine RtlDrainNonVolatileFlush waits for the flushes initiated by RtlFlushNonVolatileMemory to finish.",
+  "old-location": "ifsk\\rtldrainnonvolatileflush.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "RtlDrainNonVolatileFlush function"
+  ],
+  "ms.keywords": "RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush",
+  "req.header": "ntddk.h",
+  "req.include-header": "Winnt.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1703",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlDrainNonVolatileFlush",
+    "ntddk/RtlDrainNonVolatileFlush"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "RtlDrainNonVolatileFlush"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "UID": "NF:tapi.lineCreateAgentSessionW",
+  "title": "lineCreateAgentSessionW function (tapi.h)",
+  "description": "The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION. (Unicode)",
+  "helpviewer_keywords": [
+    "_tapi2_linecreateagentsession",
+    "lineCreateAgentSession",
+    "lineCreateAgentSession function [TAPI 2.2]",
+    "lineCreateAgentSessionW",
+    "tapi/lineCreateAgentSession",
+    "tapi/lineCreateAgentSessionW",
+    "tapi2.linecreateagentsession"
+  ],
+  "old-location": "tapi2\\linecreateagentsession.htm",
+  "tech.root": "tapi3",
+  "ms.assetid": "38b080d9-365f-49b6-a125-625602971bb8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "_tapi2_linecreateagentsession, lineCreateAgentSession, lineCreateAgentSession function [TAPI 2.2], lineCreateAgentSessionA, lineCreateAgentSessionW, tapi/lineCreateAgentSession, tapi/lineCreateAgentSessionA, tapi/lineCreateAgentSessionW, tapi2.linecreateagentsession",
+  "req.header": "tapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "lineCreateAgentSessionW (Unicode) and lineCreateAgentSessionA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Tapi32.lib",
+  "req.dll": "Tapi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "lineCreateAgentSessionW",
+    "tapi/lineCreateAgentSessionW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Tapi32.dll"
+  ],
+  "api_name": [
+    "lineCreateAgentSession",
+    "lineCreateAgentSessionA",
+    "lineCreateAgentSessionW"
+  ]
+}

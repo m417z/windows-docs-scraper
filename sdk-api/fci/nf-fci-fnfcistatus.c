@@ -1,0 +1,3 @@
+void FNFCISTATUS(
+  fn
+);

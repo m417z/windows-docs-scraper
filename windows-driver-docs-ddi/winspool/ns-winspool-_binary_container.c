@@ -1,0 +1,4 @@
+typedef struct _BINARY_CONTAINER {
+  DWORD  cbBuf;
+  LPBYTE pData;
+} BINARY_CONTAINER, *PBINARY_CONTAINER;

@@ -1,0 +1,67 @@
+{
+  "UID": "NS:ntsecpkg._LSA_TOKEN_INFORMATION_NULL",
+  "title": "LSA_TOKEN_INFORMATION_NULL (ntsecpkg.h)",
+  "description": "Used in cases where a non-authenticated system access is needed.",
+  "helpviewer_keywords": [
+    "*PLSA_TOKEN_INFORMATION_NULL",
+    "LSA_TOKEN_INFORMATION_NULL",
+    "LSA_TOKEN_INFORMATION_NULL structure [Security]",
+    "PLSA_TOKEN_INFORMATION_NULL",
+    "PLSA_TOKEN_INFORMATION_NULL structure pointer [Security]",
+    "_LSA_TOKEN_INFORMATION_NULL",
+    "_lsa_lsa_token_information_null",
+    "ntsecpkg/LSA_TOKEN_INFORMATION_NULL",
+    "ntsecpkg/PLSA_TOKEN_INFORMATION_NULL",
+    "security.lsa_token_information_null"
+  ],
+  "old-location": "security\\lsa_token_information_null.htm",
+  "tech.root": "security",
+  "ms.assetid": "fbcd0f78-1ad5-4bea-a95f-d19fb3894537",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PLSA_TOKEN_INFORMATION_NULL, LSA_TOKEN_INFORMATION_NULL, LSA_TOKEN_INFORMATION_NULL structure [Security], PLSA_TOKEN_INFORMATION_NULL, PLSA_TOKEN_INFORMATION_NULL structure pointer [Security], _LSA_TOKEN_INFORMATION_NULL, _lsa_lsa_token_information_null, ntsecpkg/LSA_TOKEN_INFORMATION_NULL, ntsecpkg/PLSA_TOKEN_INFORMATION_NULL, security.lsa_token_information_null",
+  "req.header": "ntsecpkg.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "LSA_TOKEN_INFORMATION_NULL, *PLSA_TOKEN_INFORMATION_NULL",
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "_LSA_TOKEN_INFORMATION_NULL",
+    "ntsecpkg/_LSA_TOKEN_INFORMATION_NULL",
+    "PLSA_TOKEN_INFORMATION_NULL",
+    "ntsecpkg/PLSA_TOKEN_INFORMATION_NULL",
+    "LSA_TOKEN_INFORMATION_NULL",
+    "ntsecpkg/LSA_TOKEN_INFORMATION_NULL"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Ntsecpkg.h"
+  ],
+  "api_name": [
+    "LSA_TOKEN_INFORMATION_NULL"
+  ]
+}

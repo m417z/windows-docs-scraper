@@ -1,0 +1,54 @@
+{
+  "UID": "NE:wdm._SYSTEM_POWER_STATE",
+  "title": "_SYSTEM_POWER_STATE (wdm.h)",
+  "description": "Learn how the SYSTEM_POWER_STATE enumeration type is used to indicate a system power state.",
+  "old-location": "kernel\\system_power_state.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "SYSTEM_POWER_STATE enumeration"
+  ],
+  "ms.keywords": "*PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE, kernel.system_power_state, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, wdm/PowerSystemMaximum, wdm/PowerSystemShutdown, wdm/PowerSystemSleeping1, wdm/PowerSystemSleeping2, wdm/PowerSystemSleeping3, wdm/PowerSystemUnspecified, wdm/PowerSystemWorking, wdm/SYSTEM_POWER_STATE",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE",
+  "f1_keywords": [
+    "_SYSTEM_POWER_STATE",
+    "wdm/_SYSTEM_POWER_STATE",
+    "PSYSTEM_POWER_STATE",
+    "wdm/PSYSTEM_POWER_STATE",
+    "SYSTEM_POWER_STATE",
+    "wdm/SYSTEM_POWER_STATE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "_SYSTEM_POWER_STATE",
+    "PSYSTEM_POWER_STATE",
+    "SYSTEM_POWER_STATE"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef struct _TCP_ESTATS_SEND_BUFF_RW_v0 {
+  BOOLEAN EnableCollection;
+} TCP_ESTATS_SEND_BUFF_RW_v0, *PTCP_ESTATS_SEND_BUFF_RW_v0;

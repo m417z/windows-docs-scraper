@@ -1,0 +1,63 @@
+{
+  "UID": "NF:tsgpolicyengine.ITSGAuthorizeResourceSink.OnChannelAuthorized",
+  "title": "ITSGAuthorizeResourceSink::OnChannelAuthorized (tsgpolicyengine.h)",
+  "description": "Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.",
+  "helpviewer_keywords": [
+    "ITSGAuthorizeResourceSink interface [Remote Desktop Services]",
+    "OnChannelAuthorized method",
+    "ITSGAuthorizeResourceSink.OnChannelAuthorized",
+    "ITSGAuthorizeResourceSink::OnChannelAuthorized",
+    "OnChannelAuthorized",
+    "OnChannelAuthorized method [Remote Desktop Services]",
+    "OnChannelAuthorized method [Remote Desktop Services]",
+    "ITSGAuthorizeResourceSink interface",
+    "termserv.itsgauthorizeresourcesink_onchannelauthorized",
+    "tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized"
+  ],
+  "old-location": "termserv\\itsgauthorizeresourcesink_onchannelauthorized.htm",
+  "tech.root": "TermServ",
+  "ms.assetid": "e09247af-54ea-4846-97d5-d503a811ab29",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "ITSGAuthorizeResourceSink interface [Remote Desktop Services],OnChannelAuthorized method, ITSGAuthorizeResourceSink.OnChannelAuthorized, ITSGAuthorizeResourceSink::OnChannelAuthorized, OnChannelAuthorized, OnChannelAuthorized method [Remote Desktop Services], OnChannelAuthorized method [Remote Desktop Services],ITSGAuthorizeResourceSink interface, termserv.itsgauthorizeresourcesink_onchannelauthorized, tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized",
+  "req.header": "tsgpolicyengine.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7",
+  "req.target-min-winversvr": "Windows Server 2008 R2",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": "TSGPolicyEngine.idl",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ITSGAuthorizeResourceSink::OnChannelAuthorized",
+    "tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "TSGPolicyEngine.h"
+  ],
+  "api_name": [
+    "ITSGAuthorizeResourceSink.OnChannelAuthorized"
+  ]
+}

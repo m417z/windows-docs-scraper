@@ -1,0 +1,3 @@
+HRESULT GetMyDeviceHandle(
+  LPHANDLE lph
+);

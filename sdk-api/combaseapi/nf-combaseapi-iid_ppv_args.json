@@ -1,0 +1,59 @@
+{
+  "UID": "NF:combaseapi.IID_PPV_ARGS",
+  "title": "IID_PPV_ARGS macro (combaseapi.h)",
+  "description": "Used to retrieve an interface pointer, supplying the IID value of the requested interface automatically based on the type of the interface pointer used. This avoids a common coding error by checking the type of the value passed at compile time.",
+  "helpviewer_keywords": [
+    "IID_PPV_ARGS",
+    "IID_PPV_ARGS macro [Windows Shell]",
+    "IID_PPV_ARGS_Helper",
+    "_shell_IID_PPV_ARGS",
+    "combaseapi/IID_PPV_ARGS",
+    "shell.IID_PPV_ARGS"
+  ],
+  "old-location": "shell\\IID_PPV_ARGS.htm",
+  "tech.root": "shell",
+  "ms.assetid": "268B59FA-44EB-4777-8162-C50981CBDD09",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "IID_PPV_ARGS, IID_PPV_ARGS macro [Windows Shell], IID_PPV_ARGS_Helper, _shell_IID_PPV_ARGS, combaseapi/IID_PPV_ARGS, shell.IID_PPV_ARGS",
+  "req.header": "combaseapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IID_PPV_ARGS",
+    "combaseapi/IID_PPV_ARGS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "combaseapi.h"
+  ],
+  "api_name": [
+    "IID_PPV_ARGS"
+  ]
+}

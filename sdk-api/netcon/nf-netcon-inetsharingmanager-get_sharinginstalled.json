@@ -1,0 +1,64 @@
+{
+  "UID": "NF:netcon.INetSharingManager.get_SharingInstalled",
+  "title": "INetSharingManager::get_SharingInstalled (netcon.h)",
+  "description": "Reports whether the currently-installed version of Windows XP supports connection sharing.",
+  "helpviewer_keywords": [
+    "INetSharingManager interface [ICS/ICF]",
+    "get_SharingInstalled method",
+    "INetSharingManager.get_SharingInstalled",
+    "INetSharingManager::get_SharingInstalled",
+    "_ics_inetsharingmanager_get_sharinginstalled",
+    "get_SharingInstalled",
+    "get_SharingInstalled method [ICS/ICF]",
+    "get_SharingInstalled method [ICS/ICF]",
+    "INetSharingManager interface",
+    "ics.inetsharingmanager_get_sharinginstalled",
+    "netcon/INetSharingManager::get_SharingInstalled"
+  ],
+  "old-location": "ics\\inetsharingmanager_get_sharinginstalled.htm",
+  "tech.root": "ics",
+  "ms.assetid": "7cf705dd-41c3-4ac7-a75f-5677a7b49645",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "INetSharingManager interface [ICS/ICF],get_SharingInstalled method, INetSharingManager.get_SharingInstalled, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled",
+  "req.header": "netcon.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "None supported",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Hnetcfg.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "INetSharingManager::get_SharingInstalled",
+    "netcon/INetSharingManager::get_SharingInstalled"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Hnetcfg.dll"
+  ],
+  "api_name": [
+    "INetSharingManager.get_SharingInstalled"
+  ]
+}

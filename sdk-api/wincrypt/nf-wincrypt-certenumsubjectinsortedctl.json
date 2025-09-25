@@ -1,0 +1,58 @@
+{
+  "UID": "NF:wincrypt.CertEnumSubjectInSortedCTL",
+  "title": "CertEnumSubjectInSortedCTL function (wincrypt.h)",
+  "description": "Retrieves the first or next TrustedSubject in a sorted certificate trust list (CTL).",
+  "helpviewer_keywords": [
+    "CertEnumSubjectInSortedCTL",
+    "CertEnumSubjectInSortedCTL function [Security]",
+    "_crypto2_certenumsubjectinsortedctl",
+    "security.certenumsubjectinsortedctl",
+    "wincrypt/CertEnumSubjectInSortedCTL"
+  ],
+  "old-location": "security\\certenumsubjectinsortedctl.htm",
+  "tech.root": "security",
+  "ms.assetid": "b37cff03-5e9c-4e6c-b46e-d3f02dbf8783",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertEnumSubjectInSortedCTL, CertEnumSubjectInSortedCTL function [Security], _crypto2_certenumsubjectinsortedctl, security.certenumsubjectinsortedctl, wincrypt/CertEnumSubjectInSortedCTL",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertEnumSubjectInSortedCTL",
+    "wincrypt/CertEnumSubjectInSortedCTL"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertEnumSubjectInSortedCTL"
+  ]
+}

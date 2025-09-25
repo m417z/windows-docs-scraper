@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.RtlCopyString",
+  "title": "RtlCopyString function (ntddk.h)",
+  "description": "The RtlCopyString routine copies a source string to a destination string.",
+  "old-location": "kernel\\rtlcopystring.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "RtlCopyString function"
+  ],
+  "ms.keywords": "RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring, ntddk/RtlCopyString",
+  "req.header": "ntddk.h",
+  "req.include-header": "Ntddk.h, Ntifs.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available starting with Windows 2000.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "Any level (See Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "RtlCopyString",
+    "ntddk/RtlCopyString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "RtlCopyString"
+  ]
+}

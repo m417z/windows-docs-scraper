@@ -1,0 +1,1 @@
+LONG64 GetLongPtr();

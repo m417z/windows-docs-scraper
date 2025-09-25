@@ -1,0 +1,4 @@
+typedef struct tagDIAGNOSTIC_REPORT_SIGNATURE {
+  WCHAR                       eventName[65];
+  DIAGNOSTIC_REPORT_PARAMETER parameters[10];
+} DIAGNOSTIC_REPORT_SIGNATURE;

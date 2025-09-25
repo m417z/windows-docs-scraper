@@ -1,0 +1,48 @@
+{
+  "UID": "NF:upssvc.UPSCancelWait",
+  "title": "UPSCancelWait function (upssvc.h)",
+  "description": "The UPSCancelWait function cancels all waits initiated by calls to UPSWaitForStateChange.",
+  "old-location": "battery\\upscancelwait.htm",
+  "tech.root": "battery",
+  "ms.date": "02/15/2018",
+  "keywords": [
+    "UPSCancelWait function"
+  ],
+  "ms.keywords": "UPSCancelWait, UPSCancelWait function [Battery Devices], UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml, battery.upscancelwait, upssvc/UPSCancelWait",
+  "req.header": "upssvc.h",
+  "req.include-header": "Upssvc.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UPSCancelWait",
+    "upssvc/UPSCancelWait"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Upssvc.h"
+  ],
+  "api_name": [
+    "UPSCancelWait"
+  ]
+}

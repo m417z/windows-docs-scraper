@@ -1,0 +1,15 @@
+typedef union _WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS {
+  struct {
+    ULONGLONG ErrorStatus : 1;
+    ULONGLONG ErrorType : 1;
+    ULONGLONG BusId : 1;
+    ULONGLONG BusAddress : 1;
+    ULONGLONG BusData : 1;
+    ULONGLONG BusCommand : 1;
+    ULONGLONG RequesterId : 1;
+    ULONGLONG CompleterId : 1;
+    ULONGLONG TargetId : 1;
+    ULONGLONG Reserved : 55;
+  } DUMMYSTRUCTNAME;
+  ULONGLONG ValidBits;
+} WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS;

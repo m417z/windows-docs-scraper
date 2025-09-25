@@ -1,0 +1,3 @@
+CHString GetAt(
+  int nIndex
+);

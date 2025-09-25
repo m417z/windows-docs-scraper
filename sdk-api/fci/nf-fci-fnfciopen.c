@@ -1,0 +1,3 @@
+void FNFCIOPEN(
+  [in] fn
+);

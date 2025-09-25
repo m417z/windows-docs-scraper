@@ -1,0 +1,48 @@
+{
+  "UID": "NF:portcls.IAdapterPowerManagement3.D3ExitLatencyChanged",
+  "title": "IAdapterPowerManagement3::D3ExitLatencyChanged (portcls.h)",
+  "description": "PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) power state, to provide a new exit latency value.",
+  "old-location": "audio\\iadapterpowermanagement3_d3exitlatencychanged.htm",
+  "tech.root": "audio",
+  "ms.date": "05/08/2018",
+  "keywords": [
+    "IAdapterPowerManagement3::D3ExitLatencyChanged"
+  ],
+  "ms.keywords": "D3ExitLatencyChanged, D3ExitLatencyChanged method [Audio Devices], D3ExitLatencyChanged method [Audio Devices],IAdapterPowerManagement3 interface, IAdapterPowerManagement3 interface [Audio Devices],D3ExitLatencyChanged method, IAdapterPowerManagement3.D3ExitLatencyChanged, IAdapterPowerManagement3::D3ExitLatencyChanged, audio.iadapterpowermanagement3_d3exitlatencychanged, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged",
+  "req.header": "portcls.h",
+  "req.include-header": null,
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 8",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IAdapterPowerManagement3::D3ExitLatencyChanged",
+    "portcls/IAdapterPowerManagement3::D3ExitLatencyChanged"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Portcls.h"
+  ],
+  "api_name": [
+    "IAdapterPowerManagement3::D3ExitLatencyChanged"
+  ]
+}

@@ -1,0 +1,3 @@
+typedef enum CF_HYDRATE_FLAGS {
+  CF_HYDRATE_FLAG_NONE = 0x00000000
+} ;

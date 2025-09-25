@@ -1,0 +1,4 @@
+typedef struct _WINBIO_UPDATE_FIRMWARE {
+  DWORD       PayloadSize;
+  WINBIO_DATA FirmwareData;
+} WINBIO_UPDATE_FIRMWARE, *PWINBIO_UPDATE_FIRMWARE;

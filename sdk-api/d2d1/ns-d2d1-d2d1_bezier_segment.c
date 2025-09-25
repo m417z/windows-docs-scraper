@@ -1,0 +1,5 @@
+typedef struct D2D1_BEZIER_SEGMENT {
+  D2D1_POINT_2F point1;
+  D2D1_POINT_2F point2;
+  D2D1_POINT_2F point3;
+} D2D1_BEZIER_SEGMENT;

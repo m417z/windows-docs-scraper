@@ -1,0 +1,4 @@
+typedef struct _CRYPT_OID_FUNC_ENTRY {
+  LPCSTR pszOID;
+  void   *pvFuncAddr;
+} CRYPT_OID_FUNC_ENTRY, *PCRYPT_OID_FUNC_ENTRY;

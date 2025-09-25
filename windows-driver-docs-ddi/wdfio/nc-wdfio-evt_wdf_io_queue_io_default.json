@@ -1,0 +1,48 @@
+{
+  "UID": "NC:wdfio.EVT_WDF_IO_QUEUE_IO_DEFAULT",
+  "title": "EVT_WDF_IO_QUEUE_IO_DEFAULT (wdfio.h)",
+  "description": "A driver's EvtIoDefault event callback function processes a specified I/O request.",
+  "old-location": "wdf\\evtiodefault.htm",
+  "tech.root": "wdf",
+  "ms.date": "02/26/2018",
+  "keywords": [
+    "EVT_WDF_IO_QUEUE_IO_DEFAULT callback function"
+  ],
+  "ms.keywords": "DFQueueObjectRef_aca0c34e-8d7d-4eba-b1ac-c91928db896e.xml, EVT_WDF_IO_QUEUE_IO_DEFAULT, EVT_WDF_IO_QUEUE_IO_DEFAULT callback, EvtIoDefault, EvtIoDefault callback function, kmdf.evtiodefault, wdf.evtiodefault, wdfio/EvtIoDefault",
+  "req.header": "wdfio.h",
+  "req.include-header": "Wdf.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL (see Remarks section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "EVT_WDF_IO_QUEUE_IO_DEFAULT",
+    "wdfio/EVT_WDF_IO_QUEUE_IO_DEFAULT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdfio.h"
+  ],
+  "api_name": [
+    "EVT_WDF_IO_QUEUE_IO_DEFAULT"
+  ]
+}

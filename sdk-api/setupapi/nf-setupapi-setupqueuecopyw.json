@@ -1,0 +1,62 @@
+{
+  "UID": "NF:setupapi.SetupQueueCopyW",
+  "title": "SetupQueueCopyW function (setupapi.h)",
+  "description": "The SetupQueueCopy function adds a single file copy operation to a setup file queue. (Unicode)",
+  "helpviewer_keywords": [
+    "SetupQueueCopy",
+    "SetupQueueCopy function [Setup API]",
+    "SetupQueueCopyW",
+    "_setupapi_setupqueuecopy",
+    "setup.setupqueuecopy",
+    "setupapi/SetupQueueCopy",
+    "setupapi/SetupQueueCopyW"
+  ],
+  "old-location": "setup\\setupqueuecopy.htm",
+  "tech.root": "setup",
+  "ms.assetid": "c8683438-7a28-4713-8781-45f9bd75b72c",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SetupQueueCopy, SetupQueueCopy function [Setup API], SetupQueueCopyA, SetupQueueCopyW, _setupapi_setupqueuecopy, setup.setupqueuecopy, setupapi/SetupQueueCopy, setupapi/SetupQueueCopyA, setupapi/SetupQueueCopyW",
+  "req.header": "setupapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "SetupQueueCopyW (Unicode) and SetupQueueCopyA (ANSI)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Setupapi.lib",
+  "req.dll": "Setupapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SetupQueueCopyW",
+    "setupapi/SetupQueueCopyW"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Setupapi.dll"
+  ],
+  "api_name": [
+    "SetupQueueCopy",
+    "SetupQueueCopyA",
+    "SetupQueueCopyW"
+  ]
+}

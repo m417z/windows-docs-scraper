@@ -1,0 +1,3 @@
+BOOL AddERExcludedApplicationW(
+  LPCWSTR wszApplication
+);

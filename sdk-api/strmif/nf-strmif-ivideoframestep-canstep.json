@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IVideoFrameStep.CanStep",
+  "title": "IVideoFrameStep::CanStep (strmif.h)",
+  "description": "The CanStep method determines the stepping capabilities of the specified filter.",
+  "helpviewer_keywords": [
+    "CanStep",
+    "CanStep method [DirectShow]",
+    "CanStep method [DirectShow]",
+    "IVideoFrameStep interface",
+    "IVideoFrameStep interface [DirectShow]",
+    "CanStep method",
+    "IVideoFrameStep.CanStep",
+    "IVideoFrameStep::CanStep",
+    "IVideoFrameStepCanStep",
+    "dshow.ivideoframestep_canstep",
+    "strmif/IVideoFrameStep::CanStep"
+  ],
+  "old-location": "dshow\\ivideoframestep_canstep.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "e2e3f665-28be-4a6d-b29a-4f0485d9a672",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "CanStep, CanStep method [DirectShow], CanStep method [DirectShow],IVideoFrameStep interface, IVideoFrameStep interface [DirectShow],CanStep method, IVideoFrameStep.CanStep, IVideoFrameStep::CanStep, IVideoFrameStepCanStep, dshow.ivideoframestep_canstep, strmif/IVideoFrameStep::CanStep",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IVideoFrameStep::CanStep",
+    "strmif/IVideoFrameStep::CanStep"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IVideoFrameStep.CanStep"
+  ]
+}

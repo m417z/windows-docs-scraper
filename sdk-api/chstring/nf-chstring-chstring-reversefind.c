@@ -1,0 +1,3 @@
+int ReverseFind(
+  WCHAR ch
+);

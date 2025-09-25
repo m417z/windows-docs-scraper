@@ -1,0 +1,50 @@
+{
+  "UID": "NF:wdm.KeGetCurrentProcessorIndex",
+  "tech.root": "kernel",
+  "title": "KeGetCurrentProcessorIndex",
+  "ms.date": "10/23/2024",
+  "targetos": "Windows",
+  "description": "KeGetCurrentProcessorIndex returns the index of the processor that the caller is running on.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.idl": null,
+  "req.include-header": "Wdm.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "KeGetCurrentProcessorIndex"
+  ],
+  "f1_keywords": [
+    "KeGetCurrentProcessorIndex",
+    "wdm/KeGetCurrentProcessorIndex"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "KeGetCurrentProcessorIndex"
+  ]
+}

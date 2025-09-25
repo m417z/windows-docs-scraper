@@ -1,0 +1,3 @@
+LPVOID GetFrame(
+  LONG lPos
+);

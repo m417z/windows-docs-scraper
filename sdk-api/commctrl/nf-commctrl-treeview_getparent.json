@@ -1,0 +1,60 @@
+{
+  "UID": "NF:commctrl.TreeView_GetParent",
+  "title": "TreeView_GetParent macro (commctrl.h)",
+  "description": "Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PARENT flag.",
+  "helpviewer_keywords": [
+    "TreeView_GetParent",
+    "TreeView_GetParent macro [Windows Controls]",
+    "_win32_TreeView_GetParent",
+    "_win32_TreeView_GetParent_cpp",
+    "commctrl/TreeView_GetParent",
+    "controls.TreeView_GetParent",
+    "controls._win32_TreeView_GetParent"
+  ],
+  "old-location": "controls\\TreeView_GetParent.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\treeview\\macros\\treeview_getparent.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "TreeView_GetParent, TreeView_GetParent macro [Windows Controls], _win32_TreeView_GetParent, _win32_TreeView_GetParent_cpp, commctrl/TreeView_GetParent, controls.TreeView_GetParent, controls._win32_TreeView_GetParent",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TreeView_GetParent",
+    "commctrl/TreeView_GetParent"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "TreeView_GetParent"
+  ]
+}

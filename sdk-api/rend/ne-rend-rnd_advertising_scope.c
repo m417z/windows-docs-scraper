@@ -1,0 +1,6 @@
+typedef enum RND_ADVERTISING_SCOPE {
+  RAS_LOCAL = 1,
+  RAS_SITE = 2,
+  RAS_REGION = 3,
+  RAS_WORLD = 4
+} ;

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:securitybaseapi.DeriveCapabilitySidsFromName",
+  "title": "DeriveCapabilitySidsFromName function (securitybaseapi.h)",
+  "description": "This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.",
+  "helpviewer_keywords": [
+    "DeriveCapabilitySidsFromName",
+    "DeriveCapabilitySidsFromName function [Security]",
+    "security.derivecapabilitysidsfromname",
+    "securitybaseapi/DeriveCapabilitySidsFromName"
+  ],
+  "old-location": "security\\derivecapabilitysidsfromname.htm",
+  "tech.root": "security",
+  "ms.assetid": "1A911FCC-6D11-4185-B532-20FE6C7C4B0B",
+  "ms.date": "03/20/2025",
+  "ms.keywords": "DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function [Security], security.derivecapabilitysidsfromname, securitybaseapi/DeriveCapabilitySidsFromName",
+  "req.header": "securitybaseapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "OneCoreUAP.lib",
+  "req.dll": "Kernel32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeriveCapabilitySidsFromName",
+    "securitybaseapi/DeriveCapabilitySidsFromName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-security-base-l1-2-2.dll",
+    "Kernel32.dll"
+  ],
+  "api_name": [
+    "DeriveCapabilitySidsFromName"
+  ]
+}

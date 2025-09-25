@@ -1,0 +1,3 @@
+HRESULT SetStablePowerState(
+  BOOL Enable
+);

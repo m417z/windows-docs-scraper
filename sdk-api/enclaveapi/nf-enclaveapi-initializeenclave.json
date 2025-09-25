@@ -1,0 +1,61 @@
+{
+  "UID": "NF:enclaveapi.InitializeEnclave",
+  "title": "InitializeEnclave function (enclaveapi.h)",
+  "description": "Initializes an enclave that you created and loaded with data.",
+  "helpviewer_keywords": [
+    "InitializeEnclave",
+    "InitializeEnclave function",
+    "base.initializeenclave",
+    "enclaveapi/InitializeEnclave"
+  ],
+  "old-location": "base\\initializeenclave.htm",
+  "tech.root": "base",
+  "ms.assetid": "6A711135-A522-40AE-965F-E1AF97D0076A",
+  "ms.date": "02/02/2024",
+  "ms.keywords": "InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave",
+  "req.header": "enclaveapi.h",
+  "req.include-header": "Winbase.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2016 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "InitializeEnclave",
+    "enclaveapi/InitializeEnclave"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "api-ms-win-core-enclave-l1-1-1.dll",
+    "api-ms-win-core-enclave-l1-1-0.dll",
+    "kernel32.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Enclave-L1-1-0.dll"
+  ],
+  "api_name": [
+    "InitializeEnclave"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wincrypt.CryptSignMessageWithKey",
+  "title": "CryptSignMessageWithKey function (wincrypt.h)",
+  "description": "Signs a message by using a CSP's private key specified in the parameters.",
+  "helpviewer_keywords": [
+    "CryptSignMessageWithKey",
+    "CryptSignMessageWithKey function [Security]",
+    "security.cryptsignmessagewithkey",
+    "wincrypt/CryptSignMessageWithKey"
+  ],
+  "old-location": "security\\cryptsignmessagewithkey.htm",
+  "tech.root": "security",
+  "ms.assetid": "d31024bf-7022-440b-8134-a02578510357",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CryptSignMessageWithKey",
+    "wincrypt/CryptSignMessageWithKey"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CryptSignMessageWithKey"
+  ]
+}

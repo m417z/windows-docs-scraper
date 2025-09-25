@@ -1,0 +1,4 @@
+typedef struct RILGETIMSPARAMS {
+  DWORD cbSize;
+  DWORD dwExecutor;
+} RILGETIMSPARAMS, *LPRILGETIMSPARAMS;

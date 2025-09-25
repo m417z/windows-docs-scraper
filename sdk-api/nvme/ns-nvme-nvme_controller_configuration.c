@@ -1,0 +1,14 @@
+typedef union {
+  struct {
+    ULONG EN : 1;
+    ULONG Reserved0 : 3;
+    ULONG CSS : 3;
+    ULONG MPS : 4;
+    ULONG AMS : 3;
+    ULONG SHN : 2;
+    ULONG IOSQES : 4;
+    ULONG IOCQES : 4;
+    ULONG Reserved1 : 8;
+  } DUMMYSTRUCTNAME;
+  ULONG  AsUlong;
+} NVME_CONTROLLER_CONFIGURATION, *PNVME_CONTROLLER_CONFIGURATION;

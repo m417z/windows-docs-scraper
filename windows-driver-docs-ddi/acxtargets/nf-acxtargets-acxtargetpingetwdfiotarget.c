@@ -1,0 +1,3 @@
+WDFIOTARGET AcxTargetPinGetWdfIoTarget(
+  ACXTARGETPIN TargetPin
+);

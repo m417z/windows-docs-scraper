@@ -1,0 +1,3 @@
+WINHTTPAPI DWORD WinHttpUnregisterProxyChangeNotification(
+  WINHTTP_PROXY_CHANGE_REGISTRATION_HANDLE hRegistration
+);

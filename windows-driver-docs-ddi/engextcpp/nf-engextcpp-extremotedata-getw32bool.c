@@ -1,0 +1,1 @@
+BOOL GetW32Bool();

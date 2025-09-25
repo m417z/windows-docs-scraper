@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.XFORMOBJ_iGetXform",
+  "title": "XFORMOBJ_iGetXform function (winddi.h)",
+  "description": "The XFORMOBJ_iGetXform function downloads a transform to the driver.",
+  "helpviewer_keywords": [
+    "XFORMOBJ_iGetXform",
+    "XFORMOBJ_iGetXform function [Display Devices]",
+    "display.xformobj_igetxform",
+    "gdifncs_b011606a-15e6-4f4f-a6ce-37ad087788c4.xml",
+    "winddi/XFORMOBJ_iGetXform"
+  ],
+  "old-location": "display\\xformobj_igetxform.htm",
+  "tech.root": "display",
+  "ms.assetid": "0a78663c-15c9-4fed-b758-fea0f2571971",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "XFORMOBJ_iGetXform, XFORMOBJ_iGetXform function [Display Devices], display.xformobj_igetxform, gdifncs_b011606a-15e6-4f4f-a6ce-37ad087788c4.xml, winddi/XFORMOBJ_iGetXform",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "XFORMOBJ_iGetXform",
+    "winddi/XFORMOBJ_iGetXform"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "XFORMOBJ_iGetXform"
+  ]
+}

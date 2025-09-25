@@ -1,0 +1,6 @@
+typedef struct {
+  KSDS3D_HRTF_FILTER_METHOD  FilterMethod;
+  KSDS3D_HRTF_COEFF_FORMAT   CoeffFormat;
+  KSDS3D_HRTF_FILTER_VERSION Version;
+  ULONG                      Reserved;
+} KSDS3D_HRTF_FILTER_FORMAT_MSG, *PKSDS3D_HRTF_FILTER_FORMAT_MSG;

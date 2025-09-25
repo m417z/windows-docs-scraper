@@ -1,0 +1,23 @@
+typedef enum _WWAN_PIN_TYPE {
+  WwanPinTypeNone,
+  WwanPinTypeCustom,
+  WwanPinTypePin1,
+  WwanPinTypePin2,
+  WwanPinTypeDeviceSimPin,
+  WwanPinTypeDeviceFirstSimPin,
+  WwanPinTypeNetworkPin,
+  WwanPinTypeNetworkSubsetPin,
+  WwanPinTypeSvcProviderPin,
+  WwanPinTypeCorporatePin,
+  WwanPinTypeSubsidyLock,
+  WwanPinTypePuk1,
+  WwanPinTypePuk2,
+  WwanPinTypeDeviceFirstSimPuk,
+  WwanPinTypeNetworkPuk,
+  WwanPinTypeNetworkSubsetPuk,
+  WwanPinTypeSvcProviderPuk,
+  WwanPinTypeCorporatePuk,
+  WwanPinTypeNev,
+  WwanPinTypeAdm,
+  WwanPinTypeMax
+} WWAN_PIN_TYPE, *PWWAN_PIN_TYPE;

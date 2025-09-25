@@ -1,0 +1,6 @@
+typedef struct _DEVICEPROPERTYHEADER {
+  WORD   cbSize;
+  WORD   Flags;
+  HANDLE hPrinter;
+  LPTSTR pszPrinterName;
+} DEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER;

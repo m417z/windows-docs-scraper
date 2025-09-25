@@ -1,0 +1,61 @@
+{
+  "UID": "NC:resapi.PSIGNAL_FAILURE_ROUTINE",
+  "title": "PSIGNAL_FAILURE_ROUTINE (resapi.h)",
+  "description": "Reports that there was a failure in a resource instance. The PSIGNAL_FAILURE_ROUTINE type defines a pointer to this function.",
+  "helpviewer_keywords": [
+    "PSIGNAL_FAILURE_ROUTINE",
+    "PSIGNAL_FAILURE_ROUTINE callback function [Failover Cluster]",
+    "SignalFailure",
+    "SignalFailure callback",
+    "SignalFailure callback function [Failover Cluster]",
+    "mscs.signalfailure",
+    "resapi/PSIGNAL_FAILURE_ROUTINE",
+    "resapi/SignalFailure"
+  ],
+  "old-location": "mscs\\signalfailure.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "C4226174-B983-4BF5-8DA5-638201124037",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PSIGNAL_FAILURE_ROUTINE, PSIGNAL_FAILURE_ROUTINE callback function [Failover Cluster], SignalFailure, SignalFailure callback, SignalFailure callback function [Failover Cluster], mscs.signalfailure, resapi/PSIGNAL_FAILURE_ROUTINE, resapi/SignalFailure",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2012",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "PSIGNAL_FAILURE_ROUTINE",
+    "resapi/PSIGNAL_FAILURE_ROUTINE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "ResApi.h"
+  ],
+  "api_name": [
+    "SignalFailure"
+  ]
+}

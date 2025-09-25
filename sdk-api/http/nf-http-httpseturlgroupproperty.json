@@ -1,0 +1,65 @@
+{
+  "UID": "NF:http.HttpSetUrlGroupProperty",
+  "title": "HttpSetUrlGroupProperty function (http.h)",
+  "description": "Sets a new property or modifies an existing property on the specified URL Group.",
+  "helpviewer_keywords": [
+    "HttpServerAuthenticationProperty",
+    "HttpServerBindingProperty",
+    "HttpServerChannelBindProperty",
+    "HttpServerExtendedAuthenticationProperty",
+    "HttpServerLoggingProperty",
+    "HttpServerQosProperty",
+    "HttpServerStateProperty",
+    "HttpServerTimeoutsProperty",
+    "HttpSetUrlGroupProperty",
+    "HttpSetUrlGroupProperty function [HTTP]",
+    "http.httpseturlgroupproperty",
+    "http/HttpSetUrlGroupProperty"
+  ],
+  "old-location": "http\\httpseturlgroupproperty.htm",
+  "tech.root": "http",
+  "ms.assetid": "e0826a25-1c50-4757-9355-69eb4946e8dd",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty",
+  "req.header": "http.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Httpapi.lib",
+  "req.dll": "Httpapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "HttpSetUrlGroupProperty",
+    "http/HttpSetUrlGroupProperty"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Httpapi.dll"
+  ],
+  "api_name": [
+    "HttpSetUrlGroupProperty"
+  ]
+}

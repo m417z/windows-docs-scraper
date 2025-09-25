@@ -1,0 +1,3 @@
+HRESULT ProcessIoControl(
+  IWDFIoRequest *pRequest
+);

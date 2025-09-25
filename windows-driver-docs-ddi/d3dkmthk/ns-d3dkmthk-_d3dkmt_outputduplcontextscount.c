@@ -1,0 +1,4 @@
+typedef struct _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT {
+  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
+  UINT                           OutputDuplicationCount;
+} D3DKMT_OUTPUTDUPLCONTEXTSCOUNT;

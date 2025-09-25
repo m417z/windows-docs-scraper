@@ -1,0 +1,45 @@
+{
+  "UID": "NS:netadapter._NET_ADAPTER_DATAPATH_CALLBACKS",
+  "title": "_NET_ADAPTER_DATAPATH_CALLBACKS (netadapter.h)",
+  "description": "The NET_ADAPTER_DATAPATH_CALLBACKS structure describes a net adapter's callback functions for creating its datapath queues.",
+  "tech.root": "netvista",
+  "ms.date": "07/27/2018",
+  "keywords": [
+    "NET_ADAPTER_DATAPATH_CALLBACKS structure"
+  ],
+  "ms.keywords": "_NET_ADAPTER_DATAPATH_CALLBACKS, NET_ADAPTER_DATAPATH_CALLBACKS, *PNET_ADAPTER_DATAPATH_CALLBACKS,",
+  "req.header": "netadapter.h",
+  "req.include-header": "netadaptercx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "NET_ADAPTER_DATAPATH_CALLBACKS, *PNET_ADAPTER_DATAPATH_CALLBACKS",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_NET_ADAPTER_DATAPATH_CALLBACKS",
+    "netadapter/_NET_ADAPTER_DATAPATH_CALLBACKS",
+    "NET_ADAPTER_DATAPATH_CALLBACKS",
+    "netadapter/NET_ADAPTER_DATAPATH_CALLBACKS"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "netadapter.h"
+  ],
+  "api_name": [
+    "_NET_ADAPTER_DATAPATH_CALLBACKS",
+    "NET_ADAPTER_DATAPATH_CALLBACKS"
+  ]
+}

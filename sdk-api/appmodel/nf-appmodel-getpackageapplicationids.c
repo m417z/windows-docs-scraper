@@ -1,0 +1,6 @@
+LONG GetPackageApplicationIds(
+  [in]            PACKAGE_INFO_REFERENCE packageInfoReference,
+  [in, out]       UINT32                 *bufferLength,
+  [out, optional] BYTE                   *buffer,
+  [out, optional] UINT32                 *count
+);

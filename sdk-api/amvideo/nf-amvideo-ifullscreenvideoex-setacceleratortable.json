@@ -1,0 +1,65 @@
+{
+  "UID": "NF:amvideo.IFullScreenVideoEx.SetAcceleratorTable",
+  "title": "IFullScreenVideoEx::SetAcceleratorTable (amvideo.h)",
+  "description": "The SetAcceleratorTable method specifies an accelerator table that will be used to translate keyboard messages. The Full Screen Renderer filter does not support this method.",
+  "helpviewer_keywords": [
+    "IFullScreenVideoEx interface [DirectShow]",
+    "SetAcceleratorTable method",
+    "IFullScreenVideoEx.SetAcceleratorTable",
+    "IFullScreenVideoEx::SetAcceleratorTable",
+    "IFullScreenVideoExSetAcceleratorTable",
+    "SetAcceleratorTable",
+    "SetAcceleratorTable method [DirectShow]",
+    "SetAcceleratorTable method [DirectShow]",
+    "IFullScreenVideoEx interface",
+    "amvideo/IFullScreenVideoEx::SetAcceleratorTable",
+    "dshow.ifullscreenvideoex_setacceleratortable"
+  ],
+  "old-location": "dshow\\ifullscreenvideoex_setacceleratortable.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "aff393e8-e0a5-418d-8706-3fde96dbcfd9",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IFullScreenVideoEx interface [DirectShow],SetAcceleratorTable method, IFullScreenVideoEx.SetAcceleratorTable, IFullScreenVideoEx::SetAcceleratorTable, IFullScreenVideoExSetAcceleratorTable, SetAcceleratorTable, SetAcceleratorTable method [DirectShow], SetAcceleratorTable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetAcceleratorTable, dshow.ifullscreenvideoex_setacceleratortable",
+  "req.header": "amvideo.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IFullScreenVideoEx::SetAcceleratorTable",
+    "amvideo/IFullScreenVideoEx::SetAcceleratorTable"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IFullScreenVideoEx.SetAcceleratorTable"
+  ]
+}

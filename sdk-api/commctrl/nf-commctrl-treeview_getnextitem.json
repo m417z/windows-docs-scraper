@@ -1,0 +1,71 @@
+{
+  "UID": "NF:commctrl.TreeView_GetNextItem",
+  "title": "TreeView_GetNextItem macro (commctrl.h)",
+  "description": "Retrieves the tree-view item that bears the specified relationship to a specified item. You can use this macro, use one of the TreeView_Get macros described below, or send the TVM_GETNEXTITEM message explicitly.",
+  "helpviewer_keywords": [
+    "TVGN_CARET",
+    "TVGN_CHILD",
+    "TVGN_DROPHILITE",
+    "TVGN_FIRSTVISIBLE",
+    "TVGN_NEXT",
+    "TVGN_NEXTSELECTED",
+    "TVGN_NEXTVISIBLE",
+    "TVGN_PARENT",
+    "TVGN_PREVIOUS",
+    "TVGN_PREVIOUSVISIBLE",
+    "TVGN_ROOT",
+    "TreeView_GetNextItem",
+    "TreeView_GetNextItem macro [Windows Controls]",
+    "_win32_TreeView_GetNextItem",
+    "_win32_TreeView_GetNextItem_cpp",
+    "commctrl/TreeView_GetNextItem",
+    "controls.TreeView_GetNextItem",
+    "controls._win32_TreeView_GetNextItem"
+  ],
+  "old-location": "controls\\TreeView_GetNextItem.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "VS|Controls|~\\controls\\treeview\\macros\\treeview_getnextitem.htm",
+  "ms.date": "10/21/2024",
+  "ms.keywords": "TVGN_CARET, TVGN_CHILD, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TVGN_NEXT, TVGN_NEXTSELECTED, TVGN_NEXTVISIBLE, TVGN_PARENT, TVGN_PREVIOUS, TVGN_PREVIOUSVISIBLE, TVGN_ROOT, TreeView_GetNextItem, TreeView_GetNextItem macro [Windows Controls], _win32_TreeView_GetNextItem, _win32_TreeView_GetNextItem_cpp, commctrl/TreeView_GetNextItem, controls.TreeView_GetNextItem, controls._win32_TreeView_GetNextItem",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "TreeView_GetNextItem",
+    "commctrl/TreeView_GetNextItem"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "TreeView_GetNextItem"
+  ]
+}

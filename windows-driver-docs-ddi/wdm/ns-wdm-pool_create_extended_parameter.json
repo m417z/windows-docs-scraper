@@ -1,0 +1,54 @@
+{
+  "UID": "NS:wdm._POOL_CREATE_EXTENDED_PARAMETER",
+  "tech.root": "kernel",
+  "title": "POOL_CREATE_EXTENDED_PARAMETER",
+  "ms.date": "08/08/2025",
+  "targetos": "Windows",
+  "description": "Describes an individual extended parameter supplied to ExCreatePool.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "POOL_CREATE_EXTENDED_PARAMETER, *PPOOL_CREATE_EXTENDED_PARAMETER",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_POOL_CREATE_EXTENDED_PARAMETER",
+    "PPOOL_CREATE_EXTENDED_PARAMETER",
+    "POOL_CREATE_EXTENDED_PARAMETER"
+  ],
+  "f1_keywords": [
+    "_POOL_CREATE_EXTENDED_PARAMETER",
+    "wdm/_POOL_CREATE_EXTENDED_PARAMETER",
+    "PPOOL_CREATE_EXTENDED_PARAMETER",
+    "wdm/PPOOL_CREATE_EXTENDED_PARAMETER",
+    "POOL_CREATE_EXTENDED_PARAMETER",
+    "wdm/POOL_CREATE_EXTENDED_PARAMETER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_POOL_CREATE_EXTENDED_PARAMETER"
+  ],
+  "ai-usage": "ai-assisted"
+}

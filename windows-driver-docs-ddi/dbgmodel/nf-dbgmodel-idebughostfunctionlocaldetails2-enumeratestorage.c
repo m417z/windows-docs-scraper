@@ -1,0 +1,3 @@
+HRESULT EnumerateStorage(
+  IDebugHostFunctionLocalStorageEnumerator **storageEnum
+);

@@ -1,0 +1,4 @@
+typedef struct _USBFN_USB_STRING {
+  UINT8 StringIndex;
+  WCHAR UsbString[MAX_USB_STRING_LENGTH];
+} USBFN_USB_STRING, *PUSBFN_USB_STRING;

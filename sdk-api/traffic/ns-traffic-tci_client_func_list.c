@@ -1,0 +1,6 @@
+typedef struct _TCI_CLIENT_FUNC_LIST {
+  TCI_NOTIFY_HANDLER            ClNotifyHandler;
+  TCI_ADD_FLOW_COMPLETE_HANDLER ClAddFlowCompleteHandler;
+  TCI_MOD_FLOW_COMPLETE_HANDLER ClModifyFlowCompleteHandler;
+  TCI_DEL_FLOW_COMPLETE_HANDLER ClDeleteFlowCompleteHandler;
+} TCI_CLIENT_FUNC_LIST, *PTCI_CLIENT_FUNC_LIST;

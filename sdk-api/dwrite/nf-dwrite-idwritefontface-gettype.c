@@ -1,0 +1,1 @@
+DWRITE_FONT_FACE_TYPE GetType();

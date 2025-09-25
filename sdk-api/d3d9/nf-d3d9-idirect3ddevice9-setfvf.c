@@ -1,0 +1,3 @@
+HRESULT SetFVF(
+  [in] DWORD FVF
+);

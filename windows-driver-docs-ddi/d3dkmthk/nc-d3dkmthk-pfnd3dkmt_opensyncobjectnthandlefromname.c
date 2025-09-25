@@ -1,0 +1,6 @@
+PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME Pfnd3dkmtOpensyncobjectnthandlefromname;
+
+NTSTATUS Pfnd3dkmtOpensyncobjectnthandlefromname(
+  D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME *unnamedParam1
+)
+{...}

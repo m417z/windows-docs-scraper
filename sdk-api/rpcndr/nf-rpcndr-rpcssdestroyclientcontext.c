@@ -1,0 +1,3 @@
+void RpcSsDestroyClientContext(
+  void **ContextHandle
+);

@@ -1,0 +1,3 @@
+void WSDDetachLinkedMemory(
+  void *pVoid
+);

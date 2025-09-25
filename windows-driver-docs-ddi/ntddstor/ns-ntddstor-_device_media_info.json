@@ -1,0 +1,54 @@
+{
+  "UID": "NS:ntddstor._DEVICE_MEDIA_INFO",
+  "title": "_DEVICE_MEDIA_INFO (ntddstor.h)",
+  "description": "The _DEVICE_MEDIA_INFO structure (ntddstor.h) contains detailed information about the characteristics of a media device.",
+  "old-location": "storage\\device_media_info.htm",
+  "tech.root": "storage",
+  "ms.date": "04/01/2021",
+  "keywords": [
+    "DEVICE_MEDIA_INFO structure"
+  ],
+  "ms.keywords": "*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure [Storage Devices], MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer [Storage Devices], _DEVICE_MEDIA_INFO, ntddstor/DEVICE_MEDIA_INFO, ntddstor/PDEVICE_MEDIA_INFO, storage.device_media_info, structs-general_e2c363ff-f053-45be-a807-f90480c0ae1f.xml",
+  "req.header": "ntddstor.h",
+  "req.include-header": "Ntddstor.h, Minitape.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO",
+  "f1_keywords": [
+    "_DEVICE_MEDIA_INFO",
+    "ntddstor/_DEVICE_MEDIA_INFO",
+    "PDEVICE_MEDIA_INFO",
+    "ntddstor/PDEVICE_MEDIA_INFO",
+    "DEVICE_MEDIA_INFO",
+    "ntddstor/DEVICE_MEDIA_INFO"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddstor.h"
+  ],
+  "api_name": [
+    "_DEVICE_MEDIA_INFO",
+    "PDEVICE_MEDIA_INFO",
+    "DEVICE_MEDIA_INFO"
+  ]
+}

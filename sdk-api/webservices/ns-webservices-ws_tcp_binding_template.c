@@ -1,0 +1,3 @@
+typedef struct _WS_TCP_BINDING_TEMPLATE {
+  WS_CHANNEL_PROPERTIES channelProperties;
+} WS_TCP_BINDING_TEMPLATE;

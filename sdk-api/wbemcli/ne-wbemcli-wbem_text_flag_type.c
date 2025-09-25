@@ -1,0 +1,3 @@
+typedef enum tag_WBEM_TEXT_FLAG_TYPE {
+  WBEM_FLAG_NO_FLAVORS = 0x1
+} WBEM_TEXT_FLAG_TYPE;

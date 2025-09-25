@@ -1,0 +1,3 @@
+PWSTR StrDupW(
+  PCWSTR pszSrch
+);

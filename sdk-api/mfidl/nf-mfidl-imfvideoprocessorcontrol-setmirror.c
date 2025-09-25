@@ -1,0 +1,3 @@
+HRESULT SetMirror(
+  MF_VIDEO_PROCESSOR_MIRROR eMirror
+);

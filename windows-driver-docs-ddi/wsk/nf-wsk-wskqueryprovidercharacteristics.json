@@ -1,0 +1,49 @@
+{
+  "UID": "NF:wsk.WskQueryProviderCharacteristics",
+  "title": "WskQueryProviderCharacteristics function (wsk.h)",
+  "description": "The WskQueryProviderCharacteristics function queries the range of WSK NPI versions supported by the WSK subsystem.",
+  "old-location": "netvista\\wskqueryprovidercharacteristics.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "WskQueryProviderCharacteristics function"
+  ],
+  "ms.keywords": "WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml",
+  "req.header": "wsk.h",
+  "req.include-header": "Wsk.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows Vista and later versions of the Windows operating   systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Netio.lib",
+  "req.dll": null,
+  "req.irql": "<= DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "WskQueryProviderCharacteristics",
+    "wsk/WskQueryProviderCharacteristics"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "netio.lib",
+    "netio.dll"
+  ],
+  "api_name": [
+    "WskQueryProviderCharacteristics"
+  ]
+}

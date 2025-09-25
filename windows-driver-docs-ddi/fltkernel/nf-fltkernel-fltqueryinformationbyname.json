@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltQueryInformationByName",
+  "title": "FltQueryInformationByName function (fltkernel.h)",
+  "description": "The FltQueryInformationByName routine returns the requested information about a named file.",
+  "tech.root": "ifsk",
+  "ms.date": "03/11/2021",
+  "keywords": [
+    "FltQueryInformationByName function"
+  ],
+  "ms.keywords": "FltQueryInformationByName",
+  "req.header": "fltkernel.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": "Windows 10, version 1706",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": "Fltmgr.sys",
+  "req.irql": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "FltQueryInformationByName",
+    "fltkernel/FltQueryInformationByName"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "fltmgr.sys"
+  ],
+  "api_name": [
+    "FltQueryInformationByName"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

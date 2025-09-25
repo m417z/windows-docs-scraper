@@ -1,0 +1,1 @@
+DWRITE_GRID_FIT_MODE GetGridFitMode();

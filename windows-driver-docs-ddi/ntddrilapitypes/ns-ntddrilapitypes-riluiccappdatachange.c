@@ -1,0 +1,5 @@
+typedef struct RILUICCAPPDATACHANGE {
+  DWORD                    cbSize;
+  HUICCAPP                 hUiccApp;
+  RILUICCAPPDATACHANGEENUM dwDataChange;
+} RILUICCAPPDATACHANGE, *LPRILUICCAPPDATACHANGE;

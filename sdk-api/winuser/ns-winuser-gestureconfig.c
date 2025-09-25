@@ -1,0 +1,5 @@
+typedef struct tagGESTURECONFIG {
+  DWORD dwID;
+  DWORD dwWant;
+  DWORD dwBlock;
+} GESTURECONFIG, *PGESTURECONFIG;

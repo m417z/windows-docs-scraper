@@ -1,0 +1,41 @@
+# _D3DKMT_CREATEPAGINGQUEUE structure
+
+## Description
+
+**D3DKMT_CREATEPAGINGQUEUE** is used with [D3DKMTCreatePagingQueue](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatepagingqueue) to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
+
+## Members
+
+### `hDevice` [in]
+
+Device to create a new paging queue object for.
+
+### `Priority` [in]
+
+Scheduling priority relative to other paging queues on this device. Paging queues with higher priority values will be processed ahead of paging queues with lower priority values.
+
+### `hPagingQueue` [out]
+
+A paging queue handle that will be used to synchronize paging operations.
+
+### `hSyncObject` [out]
+
+Handle to the monitored fence object used to synchronize paging operations for this paging queue. Destroying the paging queue (either implicitly or explicitly) will automatically destroy this sync object.
+
+### `FenceValueCPUVirtualAddress` [out]
+
+A read-only mapping of the paging fence object value for the CPU. This is a user mode address readable from the process that created the monitored fence object.
+
+### `PhysicalAdapterIndex` [in]
+
+Physical adapter index (engine ordinal) for the queue.
+
+## Remarks
+
+A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling [D3DKMTDestroyPagingQueue](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroypagingqueue), or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
+
+## See also
+
+[D3DKMTCreatePagingQueue](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatepagingqueue)
+
+[D3DKMTDestroyPagingQueue](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroypagingqueue)

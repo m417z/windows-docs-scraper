@@ -1,0 +1,25 @@
+typedef struct _NDIS_PD_CAPABILITIES {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              Flags;
+  ULONG              MaximumTxPartialBufferCount;
+  ULONG              MaximumRxPartialBufferCount;
+  UCHAR              RxFilterContextWidth;
+  ULONG              CapabilityFlags;
+  ULONG              MaxNumberOfRxQueues;
+  ULONG              MaxNumberOfTxQueues;
+  ULONG              MaxNumberOfRxQueuesForDefaultVport;
+  ULONG              MaxNumberOfTxQueuesForDefaultVport;
+  ULONG              MaxNumberOfRxQueuesPerNonDefaultVport;
+  ULONG              MaxNumberOfTxQueuesPerNonDefaultVport;
+  ULONG              ExactMatchProfileArrayOffset;
+  ULONG              ExactMatchProfileArrayNumElements;
+  ULONG              ExactMatchProfileArrayElementSize;
+  ULONG              WildcardMatchProfileArrayOffset;
+  ULONG              WildcardMatchProfileArrayNumElements;
+  ULONG              WildcardMatchProfileArrayElementSize;
+  ULONG              MinimumModerationInterval;
+  ULONG              MaximumModerationInterval;
+  ULONG              ModerationIntervalGranularity;
+  ULONG              MaxRxQueueSize;
+  ULONG              MaxTxQueueSize;
+} NDIS_PD_CAPABILITIES;

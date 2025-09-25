@@ -1,0 +1,44 @@
+{
+  "UID": "NE:oidtypes._NDIS_REQUEST_TYPE",
+  "title": "NDIS_REQUEST_TYPE",
+  "ms.date": "11/30/2020",
+  "targetos": "Windows",
+  "description": "The NDIS_REQUEST_TYPE enumeration identifies the request type in an OID request.",
+  "tech.root": "netvista",
+  "req.construct-type": "enumeration",
+  "req.ddi-compliance": null,
+  "req.header": "ndis/oidtypes.h",
+  "req.include-header": "ndis.h",
+  "req.kmdf-ver": null,
+  "req.max-support": null,
+  "req.target-min-winverclnt": "Supported in NDIS 6.0 and later.",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "oidtypes.h"
+  ],
+  "api_name": [
+    "_NDIS_REQUEST_TYPE",
+    "PNDIS_REQUEST_TYPE",
+    "NDIS_REQUEST_TYPE"
+  ],
+  "f1_keywords": [
+    "_NDIS_REQUEST_TYPE",
+    "oidtypes/_NDIS_REQUEST_TYPE",
+    "PNDIS_REQUEST_TYPE",
+    "oidtypes/PNDIS_REQUEST_TYPE",
+    "NDIS_REQUEST_TYPE",
+    "oidtypes/NDIS_REQUEST_TYPE"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

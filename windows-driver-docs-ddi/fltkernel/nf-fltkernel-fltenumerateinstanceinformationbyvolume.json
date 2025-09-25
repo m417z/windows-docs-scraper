@@ -1,0 +1,49 @@
+{
+  "UID": "NF:fltkernel.FltEnumerateInstanceInformationByVolume",
+  "title": "FltEnumerateInstanceInformationByVolume function (fltkernel.h)",
+  "description": "The FltEnumerateInstanceInformationByVolume routine provides information about minifilter driver instances and legacy filter drivers (Windows Vista only) that are attached to a given volume.",
+  "old-location": "ifsk\\fltenumerateinstanceinformationbyvolume.htm",
+  "tech.root": "ifsk",
+  "ms.date": "04/16/2018",
+  "keywords": [
+    "FltEnumerateInstanceInformationByVolume function"
+  ],
+  "ms.keywords": "FltApiRef_e_to_o_682cf119-8631-4725-b2cc-eb0218acb4d7.xml, FltEnumerateInstanceInformationByVolume, FltEnumerateInstanceInformationByVolume routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolume, ifsk.fltenumerateinstanceinformationbyvolume",
+  "req.header": "fltkernel.h",
+  "req.include-header": "FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "FltMgr.lib",
+  "req.dll": null,
+  "req.irql": "<= APC_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "FltEnumerateInstanceInformationByVolume",
+    "fltkernel/FltEnumerateInstanceInformationByVolume"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "FltMgr.lib",
+    "FltMgr.dll"
+  ],
+  "api_name": [
+    "FltEnumerateInstanceInformationByVolume"
+  ]
+}

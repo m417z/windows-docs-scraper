@@ -1,0 +1,4 @@
+BOOL capFileSetInfoChunk(
+     hwnd,
+     lpInfoChunk
+);

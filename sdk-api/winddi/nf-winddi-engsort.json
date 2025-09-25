@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngSort",
+  "title": "EngSort function (winddi.h)",
+  "description": "The EngSort function performs a quick-sort on the specified list.",
+  "helpviewer_keywords": [
+    "EngSort",
+    "EngSort function [Display Devices]",
+    "display.engsort",
+    "gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml",
+    "winddi/EngSort"
+  ],
+  "old-location": "display\\engsort.htm",
+  "tech.root": "display",
+  "ms.assetid": "e3d1864e-97da-4085-89fa-86135a687f60",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngSort",
+    "winddi/EngSort"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngSort"
+  ]
+}

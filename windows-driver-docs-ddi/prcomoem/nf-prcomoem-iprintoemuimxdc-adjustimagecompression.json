@@ -1,0 +1,48 @@
+{
+  "UID": "NF:prcomoem.IPrintOemUIMXDC.AdjustImageCompression",
+  "title": "IPrintOemUIMXDC::AdjustImageCompression (prcomoem.h)",
+  "description": "The IPrintOemUIMXDC::AdjustImageCompression method allows an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of compression level for JPEG or PNG images.",
+  "old-location": "print\\iprintoemuimxdc_adjustimagecompression.htm",
+  "tech.root": "print",
+  "ms.date": "04/20/2018",
+  "keywords": [
+    "IPrintOemUIMXDC::AdjustImageCompression"
+  ],
+  "ms.keywords": "AdjustImageCompression, AdjustImageCompression method [Print Devices], AdjustImageCompression method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageCompression method, IPrintOemUIMXDC.AdjustImageCompression, IPrintOemUIMXDC::AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, print.iprintoemuimxdc_adjustimagecompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml",
+  "req.header": "prcomoem.h",
+  "req.include-header": "Prcomoem.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available with Windows Vista and later versions of Unidrvui.dll and Ps5ui.dll, which are redistributable. This method is also available for XPSDrv drivers in Microsoft Windows XP if you have installed the XPS Essentials Pack.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "IPrintOemUIMXDC::AdjustImageCompression",
+    "prcomoem/IPrintOemUIMXDC::AdjustImageCompression"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "prcomoem.h"
+  ],
+  "api_name": [
+    "IPrintOemUIMXDC::AdjustImageCompression"
+  ]
+}

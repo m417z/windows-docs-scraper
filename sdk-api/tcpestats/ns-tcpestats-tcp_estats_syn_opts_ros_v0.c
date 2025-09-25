@@ -1,0 +1,5 @@
+typedef struct _TCP_ESTATS_SYN_OPTS_ROS_v0 {
+  BOOLEAN ActiveOpen;
+  ULONG   MssRcvd;
+  ULONG   MssSent;
+} TCP_ESTATS_SYN_OPTS_ROS_v0, *PTCP_ESTATS_SYN_OPTS_ROS_v0;

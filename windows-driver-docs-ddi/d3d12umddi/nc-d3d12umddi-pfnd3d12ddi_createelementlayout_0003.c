@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATEELEMENTLAYOUT_0003 Pfnd3d12ddiCreateelementlayout0003;
+
+VOID Pfnd3d12ddiCreateelementlayout0003(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATEELEMENTLAYOUT *unnamedParam2,
+  D3D12DDI_HELEMENTLAYOUT unnamedParam3
+)
+{...}

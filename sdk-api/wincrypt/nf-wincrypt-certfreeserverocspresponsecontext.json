@@ -1,0 +1,57 @@
+{
+  "UID": "NF:wincrypt.CertFreeServerOcspResponseContext",
+  "title": "CertFreeServerOcspResponseContext function (wincrypt.h)",
+  "description": "Decrements the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.",
+  "helpviewer_keywords": [
+    "CertFreeServerOcspResponseContext",
+    "CertFreeServerOcspResponseContext function [Security]",
+    "security.certfreeserverocspresponsecontext",
+    "wincrypt/CertFreeServerOcspResponseContext"
+  ],
+  "old-location": "security\\certfreeserverocspresponsecontext.htm",
+  "tech.root": "security",
+  "ms.assetid": "a07fc1e0-6f06-4336-b33c-d4d6a838b609",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "CertFreeServerOcspResponseContext, CertFreeServerOcspResponseContext function [Security], security.certfreeserverocspresponsecontext, wincrypt/CertFreeServerOcspResponseContext",
+  "req.header": "wincrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Crypt32.lib",
+  "req.dll": "Crypt32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "CertFreeServerOcspResponseContext",
+    "wincrypt/CertFreeServerOcspResponseContext"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Crypt32.dll"
+  ],
+  "api_name": [
+    "CertFreeServerOcspResponseContext"
+  ]
+}

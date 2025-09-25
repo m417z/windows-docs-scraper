@@ -1,0 +1,3 @@
+typedef struct _WIA_PATCH_CODE_INFO {
+  DWORD Type;
+} WIA_PATCH_CODE_INFO;

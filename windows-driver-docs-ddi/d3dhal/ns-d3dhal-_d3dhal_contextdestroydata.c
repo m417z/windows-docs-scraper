@@ -1,0 +1,4 @@
+typedef struct _D3DHAL_CONTEXTDESTROYDATA {
+  ULONG_PTR dwhContext;
+  HRESULT   ddrval;
+} D3DHAL_CONTEXTDESTROYDATA;

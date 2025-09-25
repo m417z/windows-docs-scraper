@@ -1,0 +1,3 @@
+void MmLockPagableCodeSection(
+  [in] Address
+);

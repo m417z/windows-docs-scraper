@@ -1,0 +1,3 @@
+void FNSEEK(
+  [in] fn
+);

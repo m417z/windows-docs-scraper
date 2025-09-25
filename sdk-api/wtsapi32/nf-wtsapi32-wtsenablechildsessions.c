@@ -1,0 +1,3 @@
+BOOL WTSEnableChildSessions(
+  BOOL bEnable
+);

@@ -1,0 +1,60 @@
+{
+  "UID": "NF:restartmanager.RmShutdown",
+  "title": "RmShutdown function (restartmanager.h)",
+  "description": "Initiates the shutdown of applications.",
+  "helpviewer_keywords": [
+    "RmForceShutdown",
+    "RmShutdown",
+    "RmShutdown function [Restart Mgr]",
+    "RmShutdownOnlyRegistered",
+    "restartmanager/RmShutdown",
+    "rstmgr.rmshutdown"
+  ],
+  "old-location": "rstmgr\\rmshutdown.htm",
+  "tech.root": "rstmgr",
+  "ms.assetid": "cdbc3bb7-0b3c-4fbc-8023-45a309c65bae",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmShutdownOnlyRegistered, restartmanager/RmShutdown, rstmgr.rmshutdown",
+  "req.header": "restartmanager.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Rstrtmgr.lib",
+  "req.dll": "Rstrtmgr.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "RmShutdown",
+    "restartmanager/RmShutdown"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-base-rstrtmgr-l1-1-0.dll",
+    "Rstrtmgr.dll"
+  ],
+  "api_name": [
+    "RmShutdown"
+  ]
+}

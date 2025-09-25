@@ -1,0 +1,5 @@
+typedef struct _CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT {
+  DWORDLONG VetoedFromAltitudeIntegral;
+  DWORDLONG VetoedFromAltitudeDecimal;
+  WCHAR     Reason[256];
+} CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, *PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT;

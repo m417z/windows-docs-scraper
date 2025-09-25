@@ -1,0 +1,22 @@
+typedef struct tagOLEUIPASTESPECIALA {
+  DWORD              cbStruct;
+  DWORD              dwFlags;
+  HWND               hWndOwner;
+  LPCSTR             lpszCaption;
+  LPFNOLEUIHOOK      lpfnHook;
+  LPARAM             lCustData;
+  HINSTANCE          hInstance;
+  LPCSTR             lpszTemplate;
+  HRSRC              hResource;
+  LPDATAOBJECT       lpSrcDataObj;
+  LPOLEUIPASTEENTRYA arrPasteEntries;
+  int                cPasteEntries;
+  UINT               *arrLinkTypes;
+  int                cLinkTypes;
+  UINT               cClsidExclude;
+  LPCLSID            lpClsidExclude;
+  int                nSelectedIndex;
+  BOOL               fLink;
+  HGLOBAL            hMetaPict;
+  SIZEL              sizel;
+} OLEUIPASTESPECIALA, *POLEUIPASTESPECIALA, *LPOLEUIPASTESPECIALA;

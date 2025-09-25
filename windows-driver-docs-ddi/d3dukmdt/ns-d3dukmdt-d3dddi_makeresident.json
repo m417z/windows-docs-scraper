@@ -1,0 +1,48 @@
+{
+  "UID": "NS:d3dukmdt.D3DDDI_MAKERESIDENT",
+  "title": "D3DDDI_MAKERESIDENT (d3dukmdt.h)",
+  "description": "D3DDDI_MAKERESIDENT is used with MakeResident (pfnMakeResidentCb or D3DKMTMakeResident) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.",
+  "old-location": "display\\d3dddi_makeresident.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "D3DDDI_MAKERESIDENT structure"
+  ],
+  "ms.keywords": "D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT, display.d3dddi_makeresident",
+  "req.header": "d3dukmdt.h",
+  "req.include-header": "D3dumddi.h, D3dkmddi.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "D3DDDI_MAKERESIDENT",
+  "f1_keywords": [
+    "D3DDDI_MAKERESIDENT",
+    "d3dukmdt/D3DDDI_MAKERESIDENT"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "d3dukmdt.h"
+  ],
+  "api_name": [
+    "D3DDDI_MAKERESIDENT"
+  ]
+}

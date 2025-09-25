@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntifs.CcCoherencyFlushAndPurgeCache",
+  "title": "CcCoherencyFlushAndPurgeCache function (ntifs.h)",
+  "description": "The CcCoherencyFlushAndPurgeCache routine flushes and/or purges the cache to ensure cache coherency.",
+  "old-location": "ifsk\\cccoherencyflushandpurgecache.htm",
+  "tech.root": "ifsk",
+  "ms.date": "02/25/2022",
+  "keywords": [
+    "CcCoherencyFlushAndPurgeCache function"
+  ],
+  "ms.keywords": "CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache",
+  "req.header": "ntifs.h",
+  "req.include-header": "Ntifs.h, FltKernel.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Windows 7",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "NtosKrnl.lib",
+  "req.dll": "NtosKrnl.exe",
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "CcCoherencyFlushAndPurgeCache",
+    "ntifs/CcCoherencyFlushAndPurgeCache"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "NtosKrnl.exe"
+  ],
+  "api_name": [
+    "CcCoherencyFlushAndPurgeCache"
+  ]
+}

@@ -1,0 +1,4 @@
+typedef enum LAMP_MODE {
+  LAMP_MODE_WHITE,
+  LAMP_MODE_COLOR
+} ;

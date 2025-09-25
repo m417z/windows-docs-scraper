@@ -1,0 +1,48 @@
+{
+  "UID": "NF:video.VideoPortEnableInterrupt",
+  "title": "VideoPortEnableInterrupt function (video.h)",
+  "description": "The VideoPortEnableInterrupt function is obsolete and should not be called.The VideoPortEnableInterrupt function reenables interrupts from a video adapter after a call to VideoPortDisableInterrupt.",
+  "old-location": "display\\videoportenableinterrupt.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "VideoPortEnableInterrupt function"
+  ],
+  "ms.keywords": "VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, display.videoportenableinterrupt, video/VideoPortEnableInterrupt",
+  "req.header": "video.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Videoprt.lib",
+  "req.dll": "Videoprt.sys",
+  "req.irql": "Any level",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "VideoPortEnableInterrupt",
+    "video/VideoPortEnableInterrupt"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Videoprt.sys"
+  ],
+  "api_name": [
+    "VideoPortEnableInterrupt"
+  ]
+}

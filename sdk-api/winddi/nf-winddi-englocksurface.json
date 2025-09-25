@@ -1,0 +1,59 @@
+{
+  "UID": "NF:winddi.EngLockSurface",
+  "title": "EngLockSurface function (winddi.h)",
+  "description": "The EngLockSurface function creates a user object for a given surface. This function gives drivers access to surfaces they create.",
+  "helpviewer_keywords": [
+    "EngLockSurface",
+    "EngLockSurface function [Display Devices]",
+    "display.englocksurface",
+    "gdifncs_99ca0d6a-a445-42ad-96fb-4ef8d3e23db7.xml",
+    "winddi/EngLockSurface"
+  ],
+  "old-location": "display\\englocksurface.htm",
+  "tech.root": "display",
+  "ms.assetid": "a5d44e16-459c-4722-b3e8-5dc4b5be5865",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "EngLockSurface, EngLockSurface function [Display Devices], display.englocksurface, gdifncs_99ca0d6a-a445-42ad-96fb-4ef8d3e23db7.xml, winddi/EngLockSurface",
+  "req.header": "winddi.h",
+  "req.include-header": "Winddi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Win32k.lib",
+  "req.dll": "Win32k.sys",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "EngLockSurface",
+    "winddi/EngLockSurface"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+    "Win32k.sys"
+  ],
+  "api_name": [
+    "EngLockSurface"
+  ]
+}

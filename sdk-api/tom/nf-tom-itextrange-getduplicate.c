@@ -1,0 +1,3 @@
+HRESULT GetDuplicate(
+  ITextRange **ppRange
+);

@@ -1,0 +1,3 @@
+void D3DDDI_MAJOR16_FROM_VERSION64(
+  v
+);

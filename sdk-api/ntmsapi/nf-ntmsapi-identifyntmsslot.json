@@ -1,0 +1,61 @@
+{
+  "UID": "NF:ntmsapi.IdentifyNtmsSlot",
+  "title": "IdentifyNtmsSlot function (ntmsapi.h)",
+  "description": "The IdentifyNtmsSlot function identifies the media in the specified slot in a library. The command returns when the identification is complete.",
+  "helpviewer_keywords": [
+    "IdentifyNtmsSlot",
+    "IdentifyNtmsSlot function [Files]",
+    "NTMS_DISMOUNT_DEFERRED",
+    "NTMS_DISMOUNT_IMMEDIATE",
+    "_zaw_identifyntmsslot",
+    "base.identifyntmsslot",
+    "fs.identifyntmsslot",
+    "ntmsapi/IdentifyNtmsSlot"
+  ],
+  "old-location": "fs\\identifyntmsslot.htm",
+  "tech.root": "fs",
+  "ms.assetid": "8fdddce9-34fa-4223-b55e-17620db9bbfc",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot",
+  "req.header": "ntmsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ntmsapi.lib",
+  "req.dll": "Ntmsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IdentifyNtmsSlot",
+    "ntmsapi/IdentifyNtmsSlot"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntmsapi.dll"
+  ],
+  "api_name": [
+    "IdentifyNtmsSlot"
+  ]
+}

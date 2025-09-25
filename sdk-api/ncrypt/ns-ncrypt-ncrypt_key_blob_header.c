@@ -1,0 +1,6 @@
+typedef struct _NCRYPT_KEY_BLOB_HEADER {
+  ULONG cbSize;
+  ULONG dwMagic;
+  ULONG cbAlgName;
+  ULONG cbKeyData;
+} NCRYPT_KEY_BLOB_HEADER, *PNCRYPT_KEY_BLOB_HEADER;

@@ -1,0 +1,4 @@
+USHORT WDF_READ_REGISTER_USHORT(
+  [in] WDFDEVICE Device,
+  [in] PUSHORT   Register
+);

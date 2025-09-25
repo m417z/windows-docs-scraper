@@ -1,0 +1,6 @@
+typedef struct _NDIS_MINIPORT_SS_CHARACTERISTICS {
+  NDIS_OBJECT_HEADER                        Header;
+  ULONG                                     Flags;
+  MINIPORT_IDLE_NOTIFICATION_HANDLER        IdleNotificationHandler;
+  MINIPORT_CANCEL_IDLE_NOTIFICATION_HANDLER CancelIdleNotificationHandler;
+} NDIS_MINIPORT_SS_CHARACTERISTICS, *PNDIS_MINIPORT_SS_CHARACTERISTICS;

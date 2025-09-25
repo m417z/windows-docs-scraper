@@ -1,0 +1,5 @@
+NTSYSAPI ULONG RtlFindSetBits(
+  [in] PRTL_BITMAP BitMapHeader,
+  [in] ULONG       NumberToFind,
+  [in] ULONG       HintIndex
+);

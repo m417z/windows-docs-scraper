@@ -1,0 +1,4 @@
+typedef struct _D3DDDIARG_MULTIPLYTRANSFORM {
+  [in] D3DTRANSFORMSTATETYPE TransformType;
+  [in] D3DMATRIX             Matrix;
+} D3DDDIARG_MULTIPLYTRANSFORM;

@@ -1,0 +1,6 @@
+typedef enum _WWAN_NETWORK_BLACKLIST_STATE {
+  WwanNetworkBlacklistStateNotActuated,
+  WwanNetworkBlacklistSIMProviderActuated,
+  WwanNetworkBlacklistNetworkProviderActuated,
+  WwanNetworkBlacklistStateMaximum
+} WWAN_NETWORK_BLACKLIST_STATE;

@@ -1,0 +1,6 @@
+typedef struct _CRYPT_XML_KEY_ECDSA_KEY_VALUE {
+  LPCWSTR             wszNamedCurve;
+  CRYPT_XML_DATA_BLOB X;
+  CRYPT_XML_DATA_BLOB Y;
+  CRYPT_XML_BLOB      ExplicitPara;
+} CRYPT_XML_KEY_ECDSA_KEY_VALUE;

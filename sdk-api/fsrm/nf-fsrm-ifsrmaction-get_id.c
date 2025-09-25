@@ -1,0 +1,3 @@
+HRESULT get_Id(
+  FSRM_OBJECT_ID *id
+);

@@ -1,0 +1,12 @@
+typedef struct _INTERNET_BUFFERSW {
+  DWORD                     dwStructSize;
+  struct _INTERNET_BUFFERSW *Next;
+  LPCWSTR                   lpcszHeader;
+  DWORD                     dwHeadersLength;
+  DWORD                     dwHeadersTotal;
+  LPVOID                    lpvBuffer;
+  DWORD                     dwBufferLength;
+  DWORD                     dwBufferTotal;
+  DWORD                     dwOffsetLow;
+  DWORD                     dwOffsetHigh;
+} INTERNET_BUFFERSW, *LPINTERNET_BUFFERSW;

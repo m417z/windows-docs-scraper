@@ -1,0 +1,6 @@
+typedef struct _WDF_REQUEST_REUSE_PARAMS {
+  ULONG    Size;
+  ULONG    Flags;
+  NTSTATUS Status;
+  PIRP     NewIrp;
+} WDF_REQUEST_REUSE_PARAMS, *PWDF_REQUEST_REUSE_PARAMS;

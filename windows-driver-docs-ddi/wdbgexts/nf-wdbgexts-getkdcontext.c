@@ -1,0 +1,3 @@
+void GetKdContext(
+  ppi
+);

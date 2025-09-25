@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD SetTcpEntry(
+  [in] PMIB_TCPROW pTcpRow
+);

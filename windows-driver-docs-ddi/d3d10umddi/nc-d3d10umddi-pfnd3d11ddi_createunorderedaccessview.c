@@ -1,0 +1,9 @@
+PFND3D11DDI_CREATEUNORDEREDACCESSVIEW Pfnd3d11ddiCreateunorderedaccessview;
+
+VOID Pfnd3d11ddiCreateunorderedaccessview(
+  D3D10DDI_HDEVICE unnamedParam1,
+  const D3D11DDIARG_CREATEUNORDEREDACCESSVIEW *unnamedParam2,
+  D3D11DDI_HUNORDEREDACCESSVIEW unnamedParam3,
+  D3D11DDI_HRTUNORDEREDACCESSVIEW unnamedParam4
+)
+{...}

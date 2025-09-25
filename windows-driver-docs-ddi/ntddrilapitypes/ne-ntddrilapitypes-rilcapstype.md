@@ -1,0 +1,31 @@
+# RILCAPSTYPE enumeration (ntddrilapitypes.h)
+
+## Description
+
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+## Constants
+
+### `RIL_CAPSTYPE_PERSOLOCKSUPPORT`
+
+### `RIL_CAPSTYPE_PERSOLOCKPWDLENGTH`
+
+### `RIL_CAPSTYPE_PBMAXREAD`
+
+### `RIL_CAPSTYPE_PBSTORELOCATIONS`
+
+### `RIL_CAPSTYPE_RADIOCONFIGURATIONS`
+
+### `RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION`
+
+### `RIL_CAPSTYPE_NITZNOTIFICATION`
+
+### `RIL_CAPSTYPE_CALLSUPPORT`
+
+### `RIL_CAPSTYPE_SMSSUPPORT`
+
+### `RIL_CAPSTYPE_ARG_SMALLEST`
+
+### `RIL_CAPSTYPE_ARG_LARGEST`
+
+### `RIL_CAPSTYPE_MAX`

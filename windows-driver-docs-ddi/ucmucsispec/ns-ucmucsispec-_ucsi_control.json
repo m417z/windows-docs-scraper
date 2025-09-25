@@ -1,0 +1,48 @@
+{
+  "UID": "NS:ucmucsispec._UCSI_CONTROL",
+  "title": "_UCSI_CONTROL (ucmucsispec.h)",
+  "tech.root": "usbref",
+  "description": "Used in the SET_NOTIFICATION_ENABLE command. See Table 4-9.",
+  "ms.date": "09/30/2018",
+  "keywords": [
+    "UCSI_CONTROL structure"
+  ],
+  "ms.keywords": "_UCSI_CONTROL, UCSI_CONTROL, *PUCSI_CONTROL,",
+  "req.header": "ucmucsispec.h",
+  "req.include-header": "UcmUcsiCx.h",
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.27,
+  "req.umdf-ver": "N/A",
+  "req.lib": null,
+  "req.dll": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.max-support": null,
+  "req.typenames": "UCSI_CONTROL, *PUCSI_CONTROL",
+  "targetos": "Windows",
+  "ms.custom": "RS5",
+  "f1_keywords": [
+    "_UCSI_CONTROL",
+    "ucmucsispec/_UCSI_CONTROL",
+    "PUCSI_CONTROL",
+    "ucmucsispec/PUCSI_CONTROL",
+    "UCSI_CONTROL",
+    "ucmucsispec/UCSI_CONTROL"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ucmucsispec.h"
+  ],
+  "api_name": [
+    "_UCSI_CONTROL",
+    "PUCSI_CONTROL",
+    "UCSI_CONTROL"
+  ]
+}

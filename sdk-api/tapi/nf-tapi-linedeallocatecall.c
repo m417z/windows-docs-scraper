@@ -1,0 +1,3 @@
+LONG lineDeallocateCall(
+  HCALL hCall
+);

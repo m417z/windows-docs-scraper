@@ -1,0 +1,68 @@
+{
+  "UID": "NF:shellapi.SHSetLocalizedName",
+  "title": "SHSetLocalizedName function (shellapi.h)",
+  "description": "Sets the localized name of a file in a Shell folder.",
+  "helpviewer_keywords": [
+    "SHSetLocalizedName",
+    "SHSetLocalizedName function [Windows Shell]",
+    "_shell_SHSetLocalizedName",
+    "_shell_SHSetLocalizedName_cpp",
+    "shell.SHSetLocalizedName",
+    "shellapi/SHSetLocalizedName"
+  ],
+  "old-location": "shell\\SHSetLocalizedName.htm",
+  "tech.root": "shell",
+  "ms.assetid": "35b83fc8-3dad-4f08-a3fe-ce047b2ca3a2",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "SHSetLocalizedName, SHSetLocalizedName function [Windows Shell], _shell_SHSetLocalizedName, _shell_SHSetLocalizedName_cpp, shell.SHSetLocalizedName, shellapi/SHSetLocalizedName",
+  "req.header": "shellapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": "Shell32.dll; Shell32.dll (version 5.6 or later)",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "SHSetLocalizedName",
+    "shellapi/SHSetLocalizedName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-shell-shell32-l1-5-0.dll",
+    "ext-ms-win-shell-shell32-l1-4-0.dll",
+    "ext-ms-win-shell-shell32-l1-3-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-3.dll",
+    "Shell32.dll",
+    "Shell32.dll",
+    "Ext-MS-Win-shell-shell32-l1-2-0.dll",
+    "ext-ms-win-shell-shell32-l1-2-1.dll",
+    "Ext-MS-Win-Shell-Shell32-L1-2-2.dll"
+  ],
+  "api_name": [
+    "SHSetLocalizedName"
+  ],
+  "req.apiset": "ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)"
+}

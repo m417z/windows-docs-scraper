@@ -1,0 +1,3 @@
+NOT_BUILD_WINDOWS_DEPRECATE HRESULT PeerGroupClose(
+  [in] HGROUP hGroup
+);

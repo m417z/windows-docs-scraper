@@ -1,0 +1,1 @@
+DWORD ACMAPI acmGetVersion();

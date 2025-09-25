@@ -1,0 +1,6 @@
+typedef struct _MINIDUMP_IO_CALLBACK {
+  HANDLE  Handle;
+  ULONG64 Offset;
+  PVOID   Buffer;
+  ULONG   BufferBytes;
+} MINIDUMP_IO_CALLBACK, *PMINIDUMP_IO_CALLBACK;

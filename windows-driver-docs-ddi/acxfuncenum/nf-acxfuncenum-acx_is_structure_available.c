@@ -1,0 +1,3 @@
+void ACX_IS_STRUCTURE_AVAILABLE(
+  StructName
+);

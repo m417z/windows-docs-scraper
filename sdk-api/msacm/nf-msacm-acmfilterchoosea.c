@@ -1,0 +1,3 @@
+MMRESULT ACMAPI acmFilterChooseA(
+  LPACMFILTERCHOOSEA pafltrc
+);

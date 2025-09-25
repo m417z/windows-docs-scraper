@@ -1,0 +1,3 @@
+typedef enum CF_SET_IN_SYNC_FLAGS {
+  CF_SET_IN_SYNC_FLAG_NONE = 0x00000000
+} ;

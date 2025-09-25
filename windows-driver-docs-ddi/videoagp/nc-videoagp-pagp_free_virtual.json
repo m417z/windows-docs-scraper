@@ -1,0 +1,48 @@
+{
+  "UID": "NC:videoagp.PAGP_FREE_VIRTUAL",
+  "title": "PAGP_FREE_VIRTUAL (videoagp.h)",
+  "description": "The AgpFreeVirtual function frees virtual memory committed by a previous call to AgpCommitVirtual.",
+  "old-location": "display\\agpfreevirtual.htm",
+  "tech.root": "display",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "PAGP_FREE_VIRTUAL callback function"
+  ],
+  "ms.keywords": "AgpFreeVirtual, AgpFreeVirtual callback function [Display Devices], PAGP_FREE_VIRTUAL, PAGP_FREE_VIRTUAL callback, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml, display.agpfreevirtual, videoagp/AgpFreeVirtual",
+  "req.header": "videoagp.h",
+  "req.include-header": "Video.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of the Windows operating systems.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PAGP_FREE_VIRTUAL",
+    "videoagp/PAGP_FREE_VIRTUAL"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "videoagp.h"
+  ],
+  "api_name": [
+    "PAGP_FREE_VIRTUAL"
+  ]
+}

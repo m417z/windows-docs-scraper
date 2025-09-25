@@ -1,0 +1,6 @@
+typedef enum _UCSI_GET_ALTERNATE_MODES_RECIPIENT {
+  UcsiGetAlternateModesRecipientConnector,
+  UcsiGetAlternateModesRecipientSop,
+  UcsiGetAlternateModesRecipientSopP,
+  UcsiGetAlternateModesRecipientSopPP
+} UCSI_GET_ALTERNATE_MODES_RECIPIENT;

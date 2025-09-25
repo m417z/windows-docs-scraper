@@ -1,0 +1,49 @@
+{
+  "UID": "NF:hidsdi.HidD_GetSerialNumberString",
+  "title": "HidD_GetSerialNumberString function (hidsdi.h)",
+  "description": "The HidD_GetSerialNumberString routine returns the embedded string of a top-level collection that identifies the serial number of the collection's physical device.",
+  "old-location": "hid\\hidd_getserialnumberstring.htm",
+  "tech.root": "hid",
+  "ms.assetid": "807f1432-1b2f-45fc-899c-b2920ea79f7a",
+  "ms.date": "06/19/2019",
+  "keywords": [
+    "HidD_GetSerialNumberString function"
+  ],
+  "ms.keywords": "HidD_GetSerialNumberString, HidD_GetSerialNumberString routine [Human Input Devices], hid.hidd_getserialnumberstring, hidfunc_b01ce302-052c-43f1-9b8f-6421ebb66954.xml, hidsdi/HidD_GetSerialNumberString",
+  "req.header": "hidsdi.h",
+  "req.include-header": "Hidsdi.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": "Available in Windows 2000 and later versions of Windows.",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Hid.lib",
+  "req.dll": "Hid.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "HidD_GetSerialNumberString",
+    "hidsdi/HidD_GetSerialNumberString"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Hid.dll"
+  ],
+  "api_name": [
+    "HidD_GetSerialNumberString"
+  ]
+}

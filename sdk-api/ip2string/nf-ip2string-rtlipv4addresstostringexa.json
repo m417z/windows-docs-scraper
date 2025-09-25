@@ -1,0 +1,49 @@
+{
+  "UID": "NF:ip2string.RtlIpv4AddressToStringExA",
+  "tech.root": "IpHlp",
+  "title": "RtlIpv4AddressToStringExA",
+  "ms.date": "04/14/2021",
+  "targetos": "Windows",
+  "description": "Converts an IPv4 address and port number to a string in Internet standard format. (ANSI)",
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": "Ntdll.dll",
+  "req.header": "ip2string.h",
+  "req.idl": null,
+  "req.include-header": "Mstcpip.h",
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": "ntdll.lib",
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows Vista [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps \\| UWP apps]",
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlIpv4AddressToStringExA",
+    "RtlIpv4AddressToStringEx"
+  ],
+  "f1_keywords": [
+    "RtlIpv4AddressToStringExA",
+    "ip2string/RtlIpv4AddressToStringExA",
+    "RtlIpv4AddressToStringEx",
+    "ip2string/RtlIpv4AddressToStringEx"
+  ],
+  "dev_langs": [
+    "c++"
+  ]
+}

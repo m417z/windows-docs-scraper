@@ -1,0 +1,65 @@
+{
+  "UID": "NF:strmif.IMediaSample.GetPointer",
+  "title": "IMediaSample::GetPointer (strmif.h)",
+  "description": "The GetPointer method retrieves a read/write pointer to the media sample's buffer.",
+  "helpviewer_keywords": [
+    "GetPointer",
+    "GetPointer method [DirectShow]",
+    "GetPointer method [DirectShow]",
+    "IMediaSample interface",
+    "IMediaSample interface [DirectShow]",
+    "GetPointer method",
+    "IMediaSample.GetPointer",
+    "IMediaSample::GetPointer",
+    "IMediaSampleGetPointer",
+    "dshow.imediasample_getpointer",
+    "strmif/IMediaSample::GetPointer"
+  ],
+  "old-location": "dshow\\imediasample_getpointer.htm",
+  "tech.root": "dshow",
+  "ms.assetid": "a3c69dfb-6ee4-401b-8dcb-4e42a8cd8156",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetPointer method, IMediaSample.GetPointer, IMediaSample::GetPointer, IMediaSampleGetPointer, dshow.imediasample_getpointer, strmif/IMediaSample::GetPointer",
+  "req.header": "strmif.h",
+  "req.include-header": "Dshow.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Strmiids.lib",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IMediaSample::GetPointer",
+    "strmif/IMediaSample::GetPointer"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Strmiids.lib",
+    "Strmiids.dll"
+  ],
+  "api_name": [
+    "IMediaSample.GetPointer"
+  ]
+}

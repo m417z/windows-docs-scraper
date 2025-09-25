@@ -1,0 +1,57 @@
+{
+  "UID": "NF:dhcpsapi.DhcpEnumOptionValues",
+  "title": "DhcpEnumOptionValues function (dhcpsapi.h)",
+  "description": "Returns an enumerated list of option values (just the option data and the associated ID number) for a given scope.",
+  "helpviewer_keywords": [
+    "DhcpEnumOptionValues",
+    "DhcpEnumOptionValues function [DHCP]",
+    "dhcp.dhcpenumoptionvalues",
+    "dhcpsapi/DhcpEnumOptionValues"
+  ],
+  "old-location": "dhcp\\dhcpenumoptionvalues.htm",
+  "tech.root": "DHCP",
+  "ms.assetid": "4054cab9-b5f9-4ffa-8151-3ea705bc0755",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DhcpEnumOptionValues, DhcpEnumOptionValues function [DHCP], dhcp.dhcpenumoptionvalues, dhcpsapi/DhcpEnumOptionValues",
+  "req.header": "dhcpsapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Dhcpsapi.lib",
+  "req.dll": "Dhcpsapi.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DhcpEnumOptionValues",
+    "dhcpsapi/DhcpEnumOptionValues"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Dhcpsapi.dll"
+  ],
+  "api_name": [
+    "DhcpEnumOptionValues"
+  ]
+}

@@ -1,0 +1,5 @@
+typedef struct _CUSTOMSIZEPARAM {
+  LONG dwOrder;
+  LONG lMinVal;
+  LONG lMaxVal;
+} CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM;

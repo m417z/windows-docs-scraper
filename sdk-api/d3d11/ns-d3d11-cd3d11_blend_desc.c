@@ -1,0 +1,10 @@
+struct CD3D11_BLEND_DESC : D3D11_BLEND_DESC {
+  void CD3D11_BLEND_DESC();
+  void CD3D11_BLEND_DESC(
+    const D3D11_BLEND_DESC & o
+  );
+  void CD3D11_BLEND_DESC(
+    CD3D11_DEFAULT unnamedParam1
+  );
+  void ~CD3D11_BLEND_DESC();
+};

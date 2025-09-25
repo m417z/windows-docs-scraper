@@ -1,0 +1,4 @@
+typedef struct D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_0080 {
+  D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_MODE_0080 Mode;
+  UINT                                           IntraRefreshDuration;
+} D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_0080;

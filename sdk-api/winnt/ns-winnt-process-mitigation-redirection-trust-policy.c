@@ -1,0 +1,10 @@
+typedef struct _PROCESS_MITIGATION_REDIRECTION_TRUST_POLICY {
+  union {
+    DWORD Flags;
+    struct {
+      DWORD EnforceRedirectionTrust : 1;
+      DWORD AuditRedirectionTrust : 1;
+      DWORD ReservedFlags : 30;
+    } DUMMYSTRUCTNAME;
+  } DUMMYUNIONNAME;
+} PROCESS_MITIGATION_REDIRECTION_TRUST_POLICY, *PPROCESS_MITIGATION_REDIRECTION_TRUST_POLICY;

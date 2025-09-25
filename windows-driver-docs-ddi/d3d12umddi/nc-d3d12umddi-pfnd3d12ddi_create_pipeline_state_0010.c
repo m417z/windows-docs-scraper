@@ -1,0 +1,8 @@
+PFND3D12DDI_CREATE_PIPELINE_STATE_0010 Pfnd3d12ddiCreatePipelineState0010;
+
+HRESULT Pfnd3d12ddiCreatePipelineState0010(
+  D3D12DDI_HDEVICE unnamedParam1,
+  const D3D12DDIARG_CREATE_PIPELINE_STATE_0010 *unnamedParam2,
+  D3D12DDI_HPIPELINESTATE unnamedParam3
+)
+{...}

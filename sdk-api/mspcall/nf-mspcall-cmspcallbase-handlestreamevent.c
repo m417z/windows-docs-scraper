@@ -1,0 +1,3 @@
+HRESULT HandleStreamEvent(
+  MSPEVENTITEM *EventItem
+);

@@ -1,0 +1,3 @@
+HRESULT SetServerCertificateValidationInterface(
+  IUnknown *certValidationCallback
+);

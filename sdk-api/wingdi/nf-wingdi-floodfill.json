@@ -1,0 +1,60 @@
+{
+  "UID": "NF:wingdi.FloodFill",
+  "title": "FloodFill function (wingdi.h)",
+  "description": "The FloodFill function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the color parameter.",
+  "helpviewer_keywords": [
+    "FloodFill",
+    "FloodFill function [Windows GDI]",
+    "_win32_FloodFill",
+    "gdi.floodfill",
+    "wingdi/FloodFill"
+  ],
+  "old-location": "gdi\\floodfill.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "e53bebb5-4e46-4ea4-8d41-c12f4c6645ef",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "FloodFill",
+    "wingdi/FloodFill"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll",
+    "GDI32Full.dll"
+  ],
+  "api_name": [
+    "FloodFill"
+  ]
+}

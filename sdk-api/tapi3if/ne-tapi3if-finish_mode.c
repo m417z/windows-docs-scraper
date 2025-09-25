@@ -1,0 +1,4 @@
+typedef enum FINISH_MODE {
+  FM_ASTRANSFER = 0,
+  FM_ASCONFERENCE
+} ;

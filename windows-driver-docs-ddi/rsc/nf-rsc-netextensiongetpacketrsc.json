@@ -1,0 +1,46 @@
+{
+  "UID": "NF:rsc.NetExtensionGetPacketRsc",
+  "title": "NetExtensionGetPacketRsc function (rsc.h)",
+  "description": "The NetExtensionGetPacketRsc function retrieves receive segment coalescence (RSC) information for a packet.",
+  "tech.root": "netvista",
+  "ms.date": "09/24/2019",
+  "keywords": [
+    "NetExtensionGetPacketRsc function"
+  ],
+  "ms.keywords": "NetExtensionGetPacketRsc",
+  "req.header": "rsc.h",
+  "req.include-header": null,
+  "req.target-type": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": 2.33,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Any level as long as target memory is resident",
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "targetos": "Windows",
+  "ms.custom": "Vb",
+  "f1_keywords": [
+    "NetExtensionGetPacketRsc",
+    "rsc/NetExtensionGetPacketRsc"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "rsc.h"
+  ],
+  "api_name": [
+    "NetExtensionGetPacketRsc"
+  ]
+}

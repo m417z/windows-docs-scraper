@@ -1,0 +1,57 @@
+{
+  "UID": "NF:roerrorapi.RoInspectCapturedStackBackTrace",
+  "title": "RoInspectCapturedStackBackTrace function",
+  "description": "Provides a way to for debuggers to inspect a call stack from a target process.",
+  "helpviewer_keywords": [
+    "RoInspectCapturedStackBackTrace",
+    "RoInspectCapturedStackBackTrace function [Windows Runtime]",
+    "roerrorapi/RoInspectCapturedStackBackTrace",
+    "winrt.roinspectcapturedstackbacktrace"
+  ],
+  "old-location": "winrt\\roinspectcapturedstackbacktrace.htm",
+  "tech.root": "WinRT",
+  "ms.assetid": "2C5B04DD-888B-4400-A01D-CDF9DD870584",
+  "ms.date": "12/5/2018",
+  "ms.keywords": "RoInspectCapturedStackBackTrace, RoInspectCapturedStackBackTrace function [Windows Runtime], roerrorapi/RoInspectCapturedStackBackTrace, winrt.roinspectcapturedstackbacktrace",
+  "req.header": "roerrorapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8.1 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2012 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "RuntimeObject.lib",
+  "req.dll": "ComBase.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "RoInspectCapturedStackBackTrace",
+    "roerrorapi/RoInspectCapturedStackBackTrace"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ComBase.dll",
+    "API-MS-Win-Core-WinRT-error-l1-1-1.dll"
+  ],
+  "api_name": [
+    "RoInspectCapturedStackBackTrace"
+  ]
+}

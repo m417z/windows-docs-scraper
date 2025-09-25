@@ -1,0 +1,62 @@
+{
+  "UID": "NF:resapi.ResUtilGetPropertiesToParameterBlock",
+  "title": "ResUtilGetPropertiesToParameterBlock function (resapi.h)",
+  "description": "Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.",
+  "helpviewer_keywords": [
+    "PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK",
+    "PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster]",
+    "ResUtilGetPropertiesToParameterBlock",
+    "ResUtilGetPropertiesToParameterBlock function [Failover Cluster]",
+    "_wolf_resutilgetpropertiestoparameterblock",
+    "mscs.resutilgetpropertiestoparameterblock",
+    "resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK",
+    "resapi/ResUtilGetPropertiesToParameterBlock"
+  ],
+  "old-location": "mscs\\resutilgetpropertiestoparameterblock.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "38d368ac-b212-4539-8faa-d7cd744da226",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster], ResUtilGetPropertiesToParameterBlock, ResUtilGetPropertiesToParameterBlock function [Failover Cluster], _wolf_resutilgetpropertiestoparameterblock, mscs.resutilgetpropertiestoparameterblock, resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, resapi/ResUtilGetPropertiesToParameterBlock",
+  "req.header": "resapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Enterprise, Windows Server 2008 Datacenter",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ResUtils.lib",
+  "req.dll": "ResUtils.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "ResUtilGetPropertiesToParameterBlock",
+    "resapi/ResUtilGetPropertiesToParameterBlock"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ext-ms-win-cluster-resutils-l1-1-3.dll",
+    "ResUtils.dll"
+  ],
+  "api_name": [
+    "ResUtilGetPropertiesToParameterBlock"
+  ]
+}

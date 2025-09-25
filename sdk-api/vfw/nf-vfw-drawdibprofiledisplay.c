@@ -1,0 +1,3 @@
+LRESULT VFWAPI DrawDibProfileDisplay(
+  LPBITMAPINFOHEADER lpbi
+);

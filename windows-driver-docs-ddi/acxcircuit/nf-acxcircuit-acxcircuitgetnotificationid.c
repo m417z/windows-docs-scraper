@@ -1,0 +1,3 @@
+GUID AcxCircuitGetNotificationId(
+  ACXCIRCUIT Circuit
+);

@@ -1,0 +1,4 @@
+LONG AVIStreamNearestKeyFrame(
+     pavi,
+     l
+);

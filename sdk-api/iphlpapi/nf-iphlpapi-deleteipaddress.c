@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD DeleteIPAddress(
+  [in] ULONG NTEContext
+);

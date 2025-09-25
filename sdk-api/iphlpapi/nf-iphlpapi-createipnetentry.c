@@ -1,0 +1,3 @@
+IPHLPAPI_DLL_LINKAGE DWORD CreateIpNetEntry(
+  [in] PMIB_IPNETROW pArpEntry
+);

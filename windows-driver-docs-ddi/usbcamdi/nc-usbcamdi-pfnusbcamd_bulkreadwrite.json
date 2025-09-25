@@ -1,0 +1,47 @@
+{
+  "UID": "NC:usbcamdi.PFNUSBCAMD_BulkReadWrite",
+  "title": "PFNUSBCAMD_BulkReadWrite (usbcamdi.h)",
+  "description": "The USBCAMD_BulkReadWrite service performs a read or write operation on the specified bulk pipe.",
+  "tech.root": "stream",
+  "ms.date": "03/08/2023",
+  "keywords": [
+    "PFNUSBCAMD_BulkReadWrite callback function"
+  ],
+  "ms.keywords": "PFNUSBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite routine [Streaming Media Devices], stream.usbcamd_bulkreadwrite, usbcamdi/USBCAMD_BulkReadWrite, usbcmdpr_6044cfed-1a8c-48a5-ac28-16c8ac151fcc.xml",
+  "req.header": "usbcamdi.h",
+  "req.include-header": "Usbcamdi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PFNUSBCAMD_BulkReadWrite",
+    "usbcamdi/PFNUSBCAMD_BulkReadWrite"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "usbcamdi.h"
+  ],
+  "api_name": [
+    "PFNUSBCAMD_BulkReadWrite"
+  ]
+}

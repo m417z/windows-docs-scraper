@@ -1,0 +1,47 @@
+{
+  "UID": "NC:wdm.DRIVER_INITIALIZE",
+  "title": "DRIVER_INITIALIZE (wdm.h)",
+  "description": "DriverEntry is the first routine called after a driver is loaded, and is responsible for initializing the driver.",
+  "tech.root": "kernel",
+  "ms.date": "01/09/2023",
+  "keywords": [
+    "DRIVER_INITIALIZE callback function"
+  ],
+  "ms.keywords": "DRIVER_INITIALIZE, DriverEntry, DriverEntry routine [Kernel-Mode Driver Architecture], DrvrRtns_dc503a23-7c31-421d-ac7b-ff6f4651e44e.xml, kernel.driverentry, wdm/DriverEntry",
+  "req.header": "wdm.h",
+  "req.include-header": "Mcd.h, Ntddk.h, Ntifs.h, Wudfwdm.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "Called at PASSIVE_LEVEL.",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DRIVER_INITIALIZE",
+    "wdm/DRIVER_INITIALIZE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Wdm.h"
+  ],
+  "api_name": [
+    "DRIVER_INITIALIZE"
+  ]
+}

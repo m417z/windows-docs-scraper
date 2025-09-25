@@ -1,0 +1,48 @@
+{
+  "UID": "NF:strmini.StreamClassCallAtNewPriority",
+  "title": "StreamClassCallAtNewPriority function (strmini.h)",
+  "description": "The StreamClassCallAtNewPriority routine schedules a routine to be called at a different priority.",
+  "tech.root": "stream",
+  "ms.date": "03/03/2023",
+  "keywords": [
+    "StreamClassCallAtNewPriority function"
+  ],
+  "ms.keywords": "StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority",
+  "req.header": "strmini.h",
+  "req.include-header": "Strmini.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Stream.lib",
+  "req.dll": null,
+  "req.irql": "(See Parameters section)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "StreamClassCallAtNewPriority",
+    "strmini/StreamClassCallAtNewPriority"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "Stream.lib",
+    "Stream.dll"
+  ],
+  "api_name": [
+    "StreamClassCallAtNewPriority"
+  ]
+}

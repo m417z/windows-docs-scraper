@@ -1,0 +1,62 @@
+{
+  "UID": "NF:synchapi.WakeByAddressAll",
+  "title": "WakeByAddressAll function (synchapi.h)",
+  "description": "Wakes all threads that are waiting for the value of an address to change.",
+  "helpviewer_keywords": [
+    "WakeByAddressAll",
+    "WakeByAddressAll function",
+    "base.wakebyaddressall",
+    "synchapi/WakeByAddressAll"
+  ],
+  "old-location": "base\\wakebyaddressall.htm",
+  "tech.root": "base",
+  "ms.assetid": "2d538cea-06cb-4973-8677-27ebcde0aa6f",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "WakeByAddressAll, WakeByAddressAll function, base.wakebyaddressall, synchapi/WakeByAddressAll",
+  "req.header": "synchapi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 8 [desktop apps \\| UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2012 [desktop apps \\| UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Synchronization.lib",
+  "req.dll": "API-MS-Win-Core-Synch-l1-2-0.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "WakeByAddressAll",
+    "synchapi/WakeByAddressAll"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-Synch-l1-2-0.dll",
+    "KernelBase.dll",
+    "API-MS-Win-Core-Synch-l1-2-1.dll",
+    "MinKernelBase.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "WakeByAddressAll"
+  ]
+}

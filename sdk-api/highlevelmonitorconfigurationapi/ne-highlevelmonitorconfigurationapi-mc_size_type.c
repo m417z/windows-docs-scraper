@@ -1,0 +1,4 @@
+typedef enum _MC_SIZE_TYPE {
+  MC_WIDTH,
+  MC_HEIGHT
+} MC_SIZE_TYPE;

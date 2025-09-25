@@ -1,0 +1,48 @@
+{
+  "UID": "NC:ndischimney.TCP_OFFLOAD_SEND_COMPLETE_HANDLER",
+  "title": "TCP_OFFLOAD_SEND_COMPLETE_HANDLER (ndischimney.h)",
+  "description": "NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadSendComplete function to complete a send operation that the driver previously initiated by calling the NdisOffloadTcpSend function.",
+  "old-location": "netvista\\protocoltcpoffloadsendcomplete.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "TCP_OFFLOAD_SEND_COMPLETE_HANDLER callback function"
+  ],
+  "ms.keywords": "ProtocolTcpOffloadSendComplete, ProtocolTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_SEND_COMPLETE_HANDLER, TCP_OFFLOAD_SEND_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadSendComplete, netvista.protocoltcpoffloadsendcomplete, tcp_chim_protocol_func_5d69efad-e470-44ce-850f-b7693d1a1f2e.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "TCP_OFFLOAD_SEND_COMPLETE_HANDLER",
+    "ndischimney/TCP_OFFLOAD_SEND_COMPLETE_HANDLER"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "Ndischimney.h"
+  ],
+  "api_name": [
+    "TCP_OFFLOAD_SEND_COMPLETE_HANDLER"
+  ]
+}

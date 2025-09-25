@@ -1,0 +1,3 @@
+void SetOpacity(
+  FLOAT opacity
+);

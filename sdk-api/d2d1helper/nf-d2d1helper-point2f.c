@@ -1,0 +1,4 @@
+D2D1_POINT_2F Point2F(
+  FLOAT x,
+  FLOAT y
+);

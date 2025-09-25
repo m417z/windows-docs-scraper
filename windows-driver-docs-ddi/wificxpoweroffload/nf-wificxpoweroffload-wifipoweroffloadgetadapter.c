@@ -1,0 +1,3 @@
+NETADAPTER WifiPowerOffloadGetAdapter(
+  WIFIPOWEROFFLOAD WifiPowerOffload
+);

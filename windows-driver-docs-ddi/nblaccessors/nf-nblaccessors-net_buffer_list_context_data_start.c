@@ -1,0 +1,1 @@
+#define NET_BUFFER_LIST_CONTEXT_DATA_START(_NBL) ((PUCHAR)(((_NBL)->Context)+1)+(_NBL)->Context->Offset)

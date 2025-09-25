@@ -1,0 +1,4 @@
+void AcxCircuitStopIo(
+  Circuit,
+  Flags
+);

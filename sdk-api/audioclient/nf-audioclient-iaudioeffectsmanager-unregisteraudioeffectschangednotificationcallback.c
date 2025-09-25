@@ -1,0 +1,3 @@
+HRESULT UnregisterAudioEffectsChangedNotificationCallback(
+  IAudioEffectsChangedNotificationClient *client
+);

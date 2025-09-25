@@ -1,0 +1,3 @@
+void ACX_PEAKMETER_CONFIG_INIT(
+  cfg
+);

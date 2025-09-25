@@ -1,0 +1,3 @@
+NTSTATUS SetState(
+  KSSTATE State
+);

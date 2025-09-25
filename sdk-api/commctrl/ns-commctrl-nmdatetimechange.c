@@ -1,0 +1,5 @@
+typedef struct tagNMDATETIMECHANGE {
+  NMHDR      nmhdr;
+  DWORD      dwFlags;
+  SYSTEMTIME st;
+} NMDATETIMECHANGE, *LPNMDATETIMECHANGE;

@@ -1,0 +1,4 @@
+typedef struct RILNOTIFICATIONPARAMS {
+  DWORD dwNotificationCount;
+  DWORD pdwNotifications[1];
+} RILNOTIFICATIONPARAMS, *LPRILNOTIFICATIONPARAMS;

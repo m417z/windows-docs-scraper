@@ -1,0 +1,5 @@
+void NET_ADAPTER_DATAPATH_CALLBACKS_INIT(
+  [_Out_] NET_ADAPTER_DATAPATH_CALLBACKS *DatapathCallbacks,
+  [_In_]  PFN_NET_ADAPTER_CREATE_TXQUEUE EvtAdapterCreateTxQueue,
+  [_In_]  PFN_NET_ADAPTER_CREATE_RXQUEUE EvtAdapterCreateRxQueue
+);

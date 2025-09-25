@@ -1,0 +1,4 @@
+typedef struct tagCLIENTCREATESTRUCT {
+  HANDLE hWindowMenu;
+  UINT   idFirstChild;
+} CLIENTCREATESTRUCT, *LPCLIENTCREATESTRUCT;

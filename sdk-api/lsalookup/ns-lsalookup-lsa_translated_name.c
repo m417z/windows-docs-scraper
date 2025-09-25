@@ -1,0 +1,5 @@
+typedef struct _LSA_TRANSLATED_NAME {
+  SID_NAME_USE       Use;
+  LSA_UNICODE_STRING Name;
+  LONG               DomainIndex;
+} LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME;

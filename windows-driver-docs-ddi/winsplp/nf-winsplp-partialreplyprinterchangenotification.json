@@ -1,0 +1,47 @@
+{
+  "UID": "NF:winsplp.PartialReplyPrinterChangeNotification",
+  "title": "PartialReplyPrinterChangeNotification function (winsplp.h)",
+  "description": "The print spooler's PartialReplyPrinterChangeNotification function allows a print provider to update the spooler's database of printer changes associated with a notification handle.",
+  "tech.root": "print",
+  "ms.date": "07/27/2022",
+  "keywords": [
+    "PartialReplyPrinterChangeNotification function"
+  ],
+  "ms.keywords": "PartialReplyPrinterChangeNotification, PartialReplyPrinterChangeNotification function [Print Devices], print.partialreplyprinterchangenotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, winsplp/PartialReplyPrinterChangeNotification",
+  "req.header": "winsplp.h",
+  "req.include-header": "Winsplp.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Spoolss.lib",
+  "req.dll": "Spoolss.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PartialReplyPrinterChangeNotification",
+    "winsplp/PartialReplyPrinterChangeNotification"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Spoolss.dll"
+  ],
+  "api_name": [
+    "PartialReplyPrinterChangeNotification"
+  ]
+}

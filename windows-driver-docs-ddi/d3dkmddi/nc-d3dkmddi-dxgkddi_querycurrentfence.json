@@ -1,0 +1,48 @@
+{
+  "UID": "NC:d3dkmddi.DXGKDDI_QUERYCURRENTFENCE",
+  "title": "DXGKDDI_QUERYCURRENTFENCE (d3dkmddi.h)",
+  "description": "The DxgkDdiQueryCurrentFence function queries about the latest completed submission fence identifier in the hardware command execution unit.",
+  "old-location": "display\\dxgkddiquerycurrentfence.htm",
+  "ms.date": "05/10/2018",
+  "keywords": [
+    "DXGKDDI_QUERYCURRENTFENCE callback function"
+  ],
+  "ms.keywords": "DXGKDDI_QUERYCURRENTFENCE, DXGKDDI_QUERYCURRENTFENCE callback, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence",
+  "req.header": "d3dkmddi.h",
+  "req.include-header": "D3dkmddi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": "Windows Vista",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "targetos": "Windows",
+  "tech.root": "display",
+  "req.typenames": null,
+  "f1_keywords": [
+    "DXGKDDI_QUERYCURRENTFENCE",
+    "d3dkmddi/DXGKDDI_QUERYCURRENTFENCE"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "D3dkmddi.h"
+  ],
+  "api_name": [
+    "DXGKDDI_QUERYCURRENTFENCE"
+  ]
+}

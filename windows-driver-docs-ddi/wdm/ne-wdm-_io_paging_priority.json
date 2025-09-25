@@ -1,0 +1,51 @@
+{
+  "UID": "NE:wdm._IO_PAGING_PRIORITY",
+  "title": "_IO_PAGING_PRIORITY (wdm.h)",
+  "description": "The IO_PAGING_PRIORITY enumeration describes the priority value for a paging I/O IRP.",
+  "old-location": "kernel\\io_paging_priority.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "IO_PAGING_PRIORITY enumeration"
+  ],
+  "ms.keywords": "IO_PAGING_PRIORITY, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], IoPagingPriorityHigh, IoPagingPriorityInvalid, IoPagingPriorityNormal, IoPagingPriorityReserved1, IoPagingPriorityReserved2, _IO_PAGING_PRIORITY, kernel.io_paging_priority, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, wdm/IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityInvalid, wdm/IoPagingPriorityNormal, wdm/IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved2",
+  "req.header": "wdm.h",
+  "req.include-header": "Wdm.h, Ntddk.h, Ntifs.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "IO_PAGING_PRIORITY",
+  "f1_keywords": [
+    "_IO_PAGING_PRIORITY",
+    "wdm/_IO_PAGING_PRIORITY",
+    "IO_PAGING_PRIORITY",
+    "wdm/IO_PAGING_PRIORITY"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "wdm.h"
+  ],
+  "api_name": [
+    "_IO_PAGING_PRIORITY",
+    "IO_PAGING_PRIORITY"
+  ]
+}

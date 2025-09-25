@@ -1,0 +1,3 @@
+NTSTATUS D3DKMTGetDWMVerticalBlankEvent(
+  const D3DKMT_GETVERTICALBLANKEVENT *unnamedParam1
+);

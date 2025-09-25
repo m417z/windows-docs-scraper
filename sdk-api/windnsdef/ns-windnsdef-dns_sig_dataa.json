@@ -1,0 +1,73 @@
+{
+  "UID": "NS:windnsdef.DNS_SIG_DATAA",
+  "title": "DNS_SIG_DATAA (windnsdef.h)",
+  "description": "Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034. (ANSI)",
+  "helpviewer_keywords": [
+    "*PDNS_RRSIG_DATA",
+    "*PDNS_RRSIG_DATAA",
+    "*PDNS_SIG_DATA",
+    "*PDNS_SIG_DATAA",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "DNS_RRSIG_DATA",
+    "DNS_RRSIG_DATA structure [DNS]",
+    "DNS_RRSIG_DATAA",
+    "DNS_SIG_DATA",
+    "DNS_SIG_DATAA",
+    "PDNS_RRSIG_DATA",
+    "PDNS_RRSIG_DATA structure pointer [DNS]",
+    "dns.dns_rrsig_data",
+    "windnsdef/DNS_RRSIG_DATA",
+    "windnsdef/PDNS_RRSIG_DATA"
+  ],
+  "old-location": "dns\\dns_rrsig_data.htm",
+  "tech.root": "DNS",
+  "ms.assetid": "09c2f515-acc1-402f-8e62-a0d273031633",
+  "ms.date": "01/15/2025",
+  "ms.keywords": "*PDNS_RRSIG_DATA, *PDNS_RRSIG_DATAA, *PDNS_SIG_DATA, *PDNS_SIG_DATAA, 1, 2, 3, 4, 5, DNS_RRSIG_DATA, DNS_RRSIG_DATA structure [DNS], DNS_RRSIG_DATAA, DNS_SIG_DATA, DNS_SIG_DATAA, PDNS_RRSIG_DATA, PDNS_RRSIG_DATA structure pointer [DNS], dns.dns_rrsig_data, windnsdef/DNS_RRSIG_DATA, windnsdef/PDNS_RRSIG_DATA",
+  "req.header": "windnsdef.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 7 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 R2 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "DNS_SIG_DATAA, *PDNS_SIG_DATAA, DNS_RRSIG_DATAA, *PDNS_RRSIG_DATAA",
+  "req.redist": null,
+  "f1_keywords": [
+    "PDNS_SIG_DATAA",
+    "windnsdef/PDNS_SIG_DATAA",
+    "DNS_SIG_DATAA",
+    "windnsdef/DNS_SIG_DATAA"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Windnsdef.h"
+  ],
+  "api_name": [
+    "DNS_RRSIG_DATA"
+  ]
+}

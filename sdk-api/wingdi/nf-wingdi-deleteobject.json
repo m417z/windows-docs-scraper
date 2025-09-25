@@ -1,0 +1,65 @@
+{
+  "UID": "NF:wingdi.DeleteObject",
+  "title": "DeleteObject function (wingdi.h)",
+  "description": "The DeleteObject function deletes a logical pen, brush, font, bitmap, region, or palette, freeing all system resources associated with the object. After the object is deleted, the specified handle is no longer valid.",
+  "helpviewer_keywords": [
+    "DeleteObject",
+    "DeleteObject function [Windows GDI]",
+    "DeleteObjectW",
+    "_win32_DeleteObject",
+    "gdi.deleteobject",
+    "wingdi/DeleteObject",
+    "wingdi/DeleteObjectW"
+  ],
+  "old-location": "gdi\\deleteobject.htm",
+  "tech.root": "gdi",
+  "ms.assetid": "cc679af0-6839-4c83-9c42-39d7ededda40",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _win32_DeleteObject, gdi.deleteobject, wingdi/DeleteObject, wingdi/DeleteObjectW",
+  "req.header": "wingdi.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only]",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": "DeleteObjectW (Unicode)",
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Gdi32.lib",
+  "req.dll": "Gdi32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "DeleteObject",
+    "wingdi/DeleteObject"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "gdi32.dll",
+    "Ext-MS-Win-RTCore-GDI-object-l1-1-0.dll",
+    "api-ms-win-gdi-ie-rgn-l1-1-0.dll",
+    "ie_shims.dll",
+    "ext-ms-win-gdi-dc-l1-1-0.dll"
+  ],
+  "api_name": [
+    "DeleteObject",
+    "DeleteObjectW"
+  ]
+}

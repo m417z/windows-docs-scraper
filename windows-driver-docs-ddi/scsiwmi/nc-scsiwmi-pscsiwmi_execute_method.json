@@ -1,0 +1,48 @@
+{
+  "UID": "NC:scsiwmi.PSCSIWMI_EXECUTE_METHOD",
+  "title": "PSCSIWMI_EXECUTE_METHOD (scsiwmi.h)",
+  "description": "A miniport driver's HwScsiWmiExecuteMethod routine is called to execute a method associated with a data block.",
+  "old-location": "storage\\hwscsiwmiexecutemethod.htm",
+  "tech.root": "storage",
+  "ms.date": "03/29/2018",
+  "keywords": [
+    "PSCSIWMI_EXECUTE_METHOD callback function"
+  ],
+  "ms.keywords": "HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], PSCSIWMI_EXECUTE_METHOD, PSCSIWMI_EXECUTE_METHOD callback, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml, scsiwmi/HwScsiWmiExecuteMethod, storage.hwscsiwmiexecutemethod",
+  "req.header": "scsiwmi.h",
+  "req.include-header": "Scsiwmi.h",
+  "req.target-type": "Desktop",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PSCSIWMI_EXECUTE_METHOD",
+    "scsiwmi/PSCSIWMI_EXECUTE_METHOD"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "UserDefined"
+  ],
+  "api_location": [
+    "scsiwmi.h"
+  ],
+  "api_name": [
+    "PSCSIWMI_EXECUTE_METHOD"
+  ]
+}

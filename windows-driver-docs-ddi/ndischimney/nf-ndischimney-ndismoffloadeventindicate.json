@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ndischimney.NdisMOffloadEventIndicate",
+  "title": "NdisMOffloadEventIndicate function (ndischimney.h)",
+  "description": "An offload target calls the NdisMOffloadEventIndicate function to indicate various events to the host stack.",
+  "old-location": "netvista\\ndismoffloadeventindicate.htm",
+  "tech.root": "netvista",
+  "ms.date": "05/02/2018",
+  "keywords": [
+    "NdisMOffloadEventIndicate function"
+  ],
+  "ms.keywords": "NdisMOffloadEventIndicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], ndischimney/NdisMOffloadEventIndicate, netvista.ndismoffloadeventindicate, tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml",
+  "req.header": "ndischimney.h",
+  "req.include-header": "Ndischimney.h",
+  "req.target-type": "Universal",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "NdisMOffloadEventIndicate",
+    "ndischimney/NdisMOffloadEventIndicate"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ndischimney.h"
+  ],
+  "api_name": [
+    "NdisMOffloadEventIndicate"
+  ]
+}

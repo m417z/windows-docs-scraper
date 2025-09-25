@@ -1,0 +1,6 @@
+typedef enum _WDF_DEVICE_IO_BUFFER_RETRIEVAL {
+  WdfDeviceIoBufferRetrievalInvalid,
+  WdfDeviceIoBufferRetrievalCopyImmediately,
+  WdfDeviceIoBufferRetrievalDeferred,
+  WdfDeviceIoBufferRetrievalMaximum
+} WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL;

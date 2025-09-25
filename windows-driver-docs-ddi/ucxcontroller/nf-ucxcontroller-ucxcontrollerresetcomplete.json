@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ucxcontroller.UcxControllerResetComplete",
+  "title": "UcxControllerResetComplete function (ucxcontroller.h)",
+  "description": "Informs USB host controller extension (UCX) that the reset operation has competed.",
+  "old-location": "buses\\_ucxcontrollerresetcomplete.htm",
+  "tech.root": "usbref",
+  "ms.date": "09/13/2021",
+  "keywords": [
+    "UcxControllerResetComplete function"
+  ],
+  "ms.keywords": "UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete",
+  "req.header": "ucxcontroller.h",
+  "req.include-header": "Ucxclass.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10",
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": 1.0,
+  "req.umdf-ver": 2.0,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "<=DISPATCH_LEVEL",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "UcxControllerResetComplete",
+    "ucxcontroller/UcxControllerResetComplete"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Ucxcontroller.h"
+  ],
+  "api_name": [
+    "UcxControllerResetComplete"
+  ]
+}

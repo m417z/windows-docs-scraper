@@ -1,0 +1,57 @@
+{
+  "UID": "NF:commctrl.Edit_GetFileLineLength",
+  "title": "Edit_GetFileLineLength macro (commctrl.h)",
+  "description": "Gets the length of the file (or logical) line of text from the specified character index (text wrap delimiters are ignored). You can use this macro or send the EM_FILELINELENGTH message explicitly.",
+  "helpviewer_keywords": [
+    "Edit_GetFileLineLength",
+    "Edit_GetFileLineLength macro [Windows Controls]",
+    "commctrl/Edit_GetFileLineLength",
+    "controls.edit_getfilelinelength"
+  ],
+  "old-location": "controls\\edit_getfilelinelength.htm",
+  "tech.root": "Controls",
+  "ms.assetid": "04315431-FC5C-41FB-9806-7904F71C19FD",
+  "ms.date": "07/01/2025",
+  "ms.keywords": "Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Controls], commctrl/Edit_GetFileLineLength, controls.edit_getfilelinelength",
+  "req.header": "commctrl.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1809 [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "Edit_GetFileLineLength",
+    "commctrl/Edit_GetFileLineLength"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "Commctrl.h"
+  ],
+  "api_name": [
+    "Edit_GetFileLineLength"
+  ]
+}

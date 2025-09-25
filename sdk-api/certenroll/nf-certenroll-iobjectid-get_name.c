@@ -1,0 +1,3 @@
+HRESULT get_Name(
+  CERTENROLL_OBJECTID *pValue
+);

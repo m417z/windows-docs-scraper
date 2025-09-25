@@ -1,0 +1,50 @@
+{
+  "UID": "NF:dbgmodel.IDebugHostFunctionLocalStorage.GetRegister",
+  "tech.root": "debugger",
+  "title": "IDebugHostFunctionLocalStorage::GetRegister",
+  "ms.date": "02/03/2025",
+  "targetos": "Windows",
+  "description": "The GetRegister method retrieves the register the local data is stored within, or the register it is relative to. The returned value is architecture-specific.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dbgmodel.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "dbgmodel.h"
+  ],
+  "api_name": [
+    "IDebugHostFunctionLocalStorage::GetRegister"
+  ],
+  "f1_keywords": [
+    "IDebugHostFunctionLocalStorage::GetRegister",
+    "dbgmodel/IDebugHostFunctionLocalStorage::GetRegister"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "GetRegister"
+  ]
+}

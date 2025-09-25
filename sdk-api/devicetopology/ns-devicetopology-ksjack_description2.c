@@ -1,0 +1,4 @@
+typedef struct _tagKSJACK_DESCRIPTION2 {
+  DWORD DeviceStateInfo;
+  DWORD JackCapabilities;
+} KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2;

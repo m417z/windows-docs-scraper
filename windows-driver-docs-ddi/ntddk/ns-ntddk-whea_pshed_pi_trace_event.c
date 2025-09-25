@@ -1,0 +1,4 @@
+typedef struct _WHEA_PSHED_PI_TRACE_EVENT {
+  WHEA_EVENT_LOG_ENTRY WheaEventLogEntry;
+  CCHAR                Buffer[256];
+} WHEA_PSHED_PI_TRACE_EVENT, *PWHEA_PSHED_PI_TRACE_EVENT;

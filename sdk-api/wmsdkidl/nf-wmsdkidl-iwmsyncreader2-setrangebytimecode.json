@@ -1,0 +1,67 @@
+{
+  "UID": "NF:wmsdkidl.IWMSyncReader2.SetRangeByTimecode",
+  "title": "IWMSyncReader2::SetRangeByTimecode (wmsdkidl.h)",
+  "description": "The SetRangeByTimecode method sets a starting and ending time, based on SMPTE time codes, for playback of a file.",
+  "helpviewer_keywords": [
+    "IWMSyncReader2 interface [windows Media Format]",
+    "SetRangeByTimecode method",
+    "IWMSyncReader2.SetRangeByTimecode",
+    "IWMSyncReader2::SetRangeByTimecode",
+    "IWMSyncReader2SetRangeByTimecode",
+    "SetRangeByTimecode",
+    "SetRangeByTimecode method [windows Media Format]",
+    "SetRangeByTimecode method [windows Media Format]",
+    "IWMSyncReader2 interface",
+    "wmformat.iwmsyncreader2_setrangebytimecode",
+    "wmsdkidl/IWMSyncReader2::SetRangeByTimecode"
+  ],
+  "old-location": "wmformat\\iwmsyncreader2_setrangebytimecode.htm",
+  "tech.root": "wmformat",
+  "ms.assetid": "304564b1-6ae3-4e1c-bea9-7a49c522a914",
+  "ms.date": "4/26/2023",
+  "ms.keywords": "IWMSyncReader2 interface [windows Media Format],SetRangeByTimecode method, IWMSyncReader2.SetRangeByTimecode, IWMSyncReader2::SetRangeByTimecode, IWMSyncReader2SetRangeByTimecode, SetRangeByTimecode, SetRangeByTimecode method [windows Media Format], SetRangeByTimecode method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setrangebytimecode, wmsdkidl/IWMSyncReader2::SetRangeByTimecode",
+  "req.header": "wmsdkidl.h",
+  "req.include-header": "Wmsdk.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK",
+  "req.target-min-winversvr": "Windows 2000 Server [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Wmvcore.lib; WMStubDRM.lib (if you use DRM)",
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "IWMSyncReader2::SetRangeByTimecode",
+    "wmsdkidl/IWMSyncReader2::SetRangeByTimecode"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "Wmvcore.lib",
+    "Wmvcore.dll",
+    "WMStubDRM.lib",
+    "WMStubDRM.dll"
+  ],
+  "api_name": [
+    "IWMSyncReader2.SetRangeByTimecode"
+  ]
+}

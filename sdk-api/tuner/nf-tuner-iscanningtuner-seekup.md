@@ -1,0 +1,23 @@
+# IScanningTuner::SeekUp
+
+## Description
+
+\[The feature associated with this page, [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+The **SeekUp** method changes the channel to the next higher channel with valid programming.
+
+## Return value
+
+When the method succeeds, it returns S_OK. Otherwise it returns an **HRESULT** error code.
+
+## Remarks
+
+This method returns immediately, and the seek continues in the background. The seek can be canceled by calling any other tuning operation.
+
+Currently the DVB-C and DVB-S Network Provider filters do not implement this method, and return E_NOTIMPL. The method is implemented for DVB-T.
+
+## See also
+
+[Error and Success Codes](https://learn.microsoft.com/windows/desktop/DirectShow/error-and-success-codes)
+
+[IScanningTuner Interface](https://learn.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner)

@@ -1,0 +1,4 @@
+typedef struct _WSMAN_USERNAME_PASSWORD_CREDS {
+  PCWSTR username;
+  PCWSTR password;
+} WSMAN_USERNAME_PASSWORD_CREDS;

@@ -1,0 +1,3 @@
+HRESULT EnumerateScriptProviders(
+  IDataModelScriptProviderEnumerator **enumerator
+);

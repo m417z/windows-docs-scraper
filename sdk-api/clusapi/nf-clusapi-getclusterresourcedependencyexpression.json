@@ -1,0 +1,60 @@
+{
+  "UID": "NF:clusapi.GetClusterResourceDependencyExpression",
+  "title": "GetClusterResourceDependencyExpression function (clusapi.h)",
+  "description": "Retrieves the dependency expression associated with the specified resource.",
+  "helpviewer_keywords": [
+    "GetClusterResourceDependencyExpression",
+    "GetClusterResourceDependencyExpression function [Failover Cluster]",
+    "PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION",
+    "PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION function [Failover Cluster]",
+    "clusapi/GetClusterResourceDependencyExpression",
+    "clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION",
+    "mscs.getclusterresourcedependencyexpression"
+  ],
+  "old-location": "mscs\\getclusterresourcedependencyexpression.htm",
+  "tech.root": "MsCS",
+  "ms.assetid": "16071086-66fe-428e-9bd5-dd0b31cf7b15",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "GetClusterResourceDependencyExpression, GetClusterResourceDependencyExpression function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION function [Failover Cluster], clusapi/GetClusterResourceDependencyExpression, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, mscs.getclusterresourcedependencyexpression",
+  "req.header": "clusapi.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "None supported",
+  "req.target-min-winversvr": "Windows Server 2008 Datacenter, Windows Server 2008 Enterprise",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "ClusAPI.lib",
+  "req.dll": "ClusAPI.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "f1_keywords": [
+    "GetClusterResourceDependencyExpression",
+    "clusapi/GetClusterResourceDependencyExpression"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "ClusAPI.dll"
+  ],
+  "api_name": [
+    "GetClusterResourceDependencyExpression"
+  ]
+}

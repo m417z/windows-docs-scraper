@@ -1,0 +1,48 @@
+{
+  "UID": "NF:ntddk.PsGetCurrentSilo",
+  "title": "PsGetCurrentSilo function (ntddk.h)",
+  "description": "This routine returns the current silo for the calling thread. First the thread is checked to see if it has been attached to a silo. If not, then the thread is checked to see if it is in a silo.",
+  "old-location": "kernel\\psgetcurrentsilo.htm",
+  "tech.root": "kernel",
+  "ms.date": "04/30/2018",
+  "keywords": [
+    "PsGetCurrentSilo function"
+  ],
+  "ms.keywords": "PsGetCurrentSilo, PsGetCurrentSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentsilo, ntddk/PsGetCurrentSilo",
+  "req.header": "ntddk.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 10, version 1607",
+  "req.target-min-winversvr": "Windows Server 2016",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": "_IRQL_requires_max_(DISPATCH_LEVEL)",
+  "targetos": "Windows",
+  "req.typenames": null,
+  "f1_keywords": [
+    "PsGetCurrentSilo",
+    "ntddk/PsGetCurrentSilo"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ntddk.h"
+  ],
+  "api_name": [
+    "PsGetCurrentSilo"
+  ]
+}

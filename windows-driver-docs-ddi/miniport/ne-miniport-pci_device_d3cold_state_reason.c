@@ -1,0 +1,9 @@
+typedef enum {
+  PciDeviceD3Cold_State_Disabled_BitIndex,
+  PciDeviceD3Cold_State_Enabled_BitIndex,
+  PciDeviceD3Cold_State_ParentRootPortS0WakeSupported_BitIndex,
+  PciDeviceD3Cold_State_Disabled_Bridge_HackFlags_BitIndex,
+  PciDeviceD3Cold_Reason_Default_State_BitIndex,
+  PciDeviceD3Cold_Reason_INF_BitIndex,
+  PciDeviceD3Cold_Reason_Interface_Api_BitIndex
+} PCI_DEVICE_D3COLD_STATE_REASON;

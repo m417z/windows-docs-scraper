@@ -1,0 +1,64 @@
+{
+  "UID": "NS:winioctl._TXFS_LIST_TRANSACTIONS",
+  "title": "TXFS_LIST_TRANSACTIONS",
+  "description": "Contains a list of transactions.",
+  "helpviewer_keywords": [
+    "*PTXFS_LIST_TRANSACTIONS",
+    "PTXFS_LIST_TRANSACTIONS",
+    "PTXFS_LIST_TRANSACTIONS structure pointer [Files]",
+    "TXFS_LIST_TRANSACTIONS",
+    "TXFS_LIST_TRANSACTIONS structure [Files]",
+    "fs.txfs_list_transactions",
+    "winioctl/PTXFS_LIST_TRANSACTIONS",
+    "winioctl/TXFS_LIST_TRANSACTIONS"
+  ],
+  "old-location": "fs\\txfs_list_transactions.htm",
+  "tech.root": "fs",
+  "ms.assetid": "4c5ec2eb-f0d9-4603-96d5-1a53e56e97b8",
+  "ms.date": "12/05/2018",
+  "ms.keywords": "*PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS structure pointer [Files], TXFS_LIST_TRANSACTIONS, TXFS_LIST_TRANSACTIONS structure [Files], fs.txfs_list_transactions, winioctl/PTXFS_LIST_TRANSACTIONS, winioctl/TXFS_LIST_TRANSACTIONS",
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": null,
+  "req.dll": null,
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": "TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS",
+  "req.redist": null,
+  "f1_keywords": [
+    "_TXFS_LIST_TRANSACTIONS",
+    "winioctl/_TXFS_LIST_TRANSACTIONS",
+    "PTXFS_LIST_TRANSACTIONS",
+    "winioctl/PTXFS_LIST_TRANSACTIONS",
+    "TXFS_LIST_TRANSACTIONS",
+    "winioctl/TXFS_LIST_TRANSACTIONS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "WinIoCtl.h"
+  ],
+  "api_name": [
+    "TXFS_LIST_TRANSACTIONS"
+  ]
+}

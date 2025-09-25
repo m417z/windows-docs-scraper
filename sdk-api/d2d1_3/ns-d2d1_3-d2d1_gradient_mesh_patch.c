@@ -1,0 +1,26 @@
+typedef struct D2D1_GRADIENT_MESH_PATCH {
+  D2D1_POINT_2F        point00;
+  D2D1_POINT_2F        point01;
+  D2D1_POINT_2F        point02;
+  D2D1_POINT_2F        point03;
+  D2D1_POINT_2F        point10;
+  D2D1_POINT_2F        point11;
+  D2D1_POINT_2F        point12;
+  D2D1_POINT_2F        point13;
+  D2D1_POINT_2F        point20;
+  D2D1_POINT_2F        point21;
+  D2D1_POINT_2F        point22;
+  D2D1_POINT_2F        point23;
+  D2D1_POINT_2F        point30;
+  D2D1_POINT_2F        point31;
+  D2D1_POINT_2F        point32;
+  D2D1_POINT_2F        point33;
+  D2D1_COLOR_F         color00;
+  D2D1_COLOR_F         color03;
+  D2D1_COLOR_F         color30;
+  D2D1_COLOR_F         color33;
+  D2D1_PATCH_EDGE_MODE topEdgeMode;
+  D2D1_PATCH_EDGE_MODE leftEdgeMode;
+  D2D1_PATCH_EDGE_MODE bottomEdgeMode;
+  D2D1_PATCH_EDGE_MODE rightEdgeMode;
+} D2D1_GRADIENT_MESH_PATCH;

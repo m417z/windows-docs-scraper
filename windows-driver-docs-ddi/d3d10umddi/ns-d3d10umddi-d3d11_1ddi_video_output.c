@@ -1,0 +1,3 @@
+typedef struct D3D11_1DDI_VIDEO_OUTPUT {
+  UINT8 Reserved;
+} D3D11_1DDI_VIDEO_OUTPUT;
