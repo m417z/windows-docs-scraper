@@ -50,7 +50,12 @@ Reserved. Set to 0.
 
 ### `TimeOutValue`
 
-Indicates the interval in seconds that the request can execute before the port driver considers it timed out.
+Indicates the interval in seconds that the request can execute before the port driver considers it timed out. Do not set this value to 0. Default values often range from:
+
+* Typical operations: 30 to 60 seconds
+* Short operations: 10 to 30 seconds
+* Medium operations: 30 to 120 seconds
+* Long operations (like format, extended self-test): 300 to 3600 seconds or more
 
 ### `StorAddressOffset`
 

@@ -12,5 +12,6 @@ typedef enum _HTTP_REQUEST_INFO_TYPE {
   HttpRequestInfoTypeQuicStatsV2,
   HttpRequestInfoTypeTcpInfoV2,
   HttpRequestInfoTypeTransportIdleConnectionTimeout,
-  HttpRequestInfoTypeDscpTag
+  HttpRequestInfoTypeDscpTag,
+  HttpRequestInfoTypeInitialPacketTtl
 } HTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE;

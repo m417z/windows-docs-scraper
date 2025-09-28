@@ -350,7 +350,8 @@ Storport features requested for the adapter. Available starting in Windows 8. A 
 | STOR_ADAPTER_DMA_V3_PREFERRED 0x00000008 | The miniport driver prefers to use DMA V3 kernel API for the adapter. |
 | STOR_ADAPTER_FEATURE_ABORT_COMMAND 0x00000010 | The miniport driver supports the ability to abort an outstanding command via SRB_FUNCTION_ABORT_COMMAND. |
 | STOR_ADAPTER_FEATURE_RICH_TEMPERATURE_THRESHOLD 0x00000020 | The adapter supports richer temperature threshold information than defined in SCSI SPC4 spec. |
-| STOR_ADAPTER_DMA_ADDRESS_WIDTH_SPECIFIED 0x00000040 | The miniport driver specified the DMA address width in **DmaAddressWidth** for the adapter. This value can be used starting in Windows 10, version 2004.|
+| STOR_ADAPTER_DMA_ADDRESS_WIDTH_SPECIFIED 0x00000040 | The miniport driver specified the DMA address width in **DmaAddressWidth** for the adapter. This value was added in Windows 10, version 2004.|
+| STOR_ADAPTER_FEATURE_UNIQUE_QUEUEING_TAG 0x00000080 | The miniport driver supports unique queueing tags for I/O operations. This value was added in Windows 11, version 24H2. |
 
 ## Remarks
 

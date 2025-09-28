@@ -8,21 +8,17 @@ The **KBUGCHECK_REMOVE_PAGES** structure describes one or more pages of driver-s
 
 ### `Context`
 
-Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, **Context** is **NULL**.
+Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, **Context** is NULL.
 
 ### `Flags`
 
 Contains flags that describe the remove-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits:
 
-```cpp
-KB_ADD_PAGES_FEATURE_SHIFT       4
-
-KB_REMOVE_PAGES_FEATURE_SHIFT    4
-
-KB_ADD_PAGES_FEATURE_MASK        (0xF << KB_ADD_PAGES_FEATURE_SHIFT)
-
-KB_REMOVE_PAGES_FEATURE_MASK     (0xF << (KB_ADD_PAGES_FEATURE_SHIFT + KB_REMOVE_PAGES_FEATURE_SHIFT))
-```
+| Flag | Value | Description |
+|------|-------|-------------|
+| **KB_REMOVE_PAGES_FLAG_VIRTUAL_ADDRESS** | 0x00000001UL | Indicates the **Address** member contains a virtual address. |
+| **KB_REMOVE_PAGES_FLAG_PHYSICAL_ADDRESS** | 0x00000002UL | Indicates the **Address** member contains a physical address. |
+| **KB_REMOVE_PAGES_FLAG_ADDITIONAL_RANGES_EXIST** | 0x80000000UL | Indicates that the callback routine requests that it be called again so that it can remove more pages. |
 
 ### `BugCheckCode`
 
@@ -38,8 +34,10 @@ Specifies the number of contiguous pages to remove from the crash dump file, sta
 
 ## Remarks
 
-In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine, the operating system sets the *Reason* parameter to **KbCallbackRemovePages**, and sets the *ReasonSpecificData* parameter to point to a **KBUGCHECK_REMOVE_PAGES** structure.
+In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine, the operating system sets the **Reason** parameter to **KbCallbackRemovePages**, and sets the **ReasonSpecificData** parameter to point to a **KBUGCHECK_REMOVE_PAGES** structure.
 
 For more information about bug check callback routines, see [Writing a Bug Check Callback Routine](https://learn.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine).
 
 ## See also
+
+[**KBUGCHECK_ADD_PAGES**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_add_pages)

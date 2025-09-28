@@ -1,10 +1,13 @@
-# _SCSI_PASS_THROUGH structure
+# SCSI_PASS_THROUGH structure
 
 ## Description
 
 The SCSI_PASS_THROUGH structure is used in conjunction with an [IOCTL_SCSI_PASS_THROUGH](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through) request to instruct the port driver to send an embedded SCSI command to the target device.
 
-**Note** The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+> **Note**
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+
+The SCSI_PASS_THROUGH structure is used in conjunction with an [IOCTL_SCSI_PASS_THROUGH](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through) request to instruct the port driver to send an embedded SCSI command to the target device.
 
 ## Members
 
@@ -38,9 +41,13 @@ Indicates the size in bytes of the request-sense buffer.
 
 ### `DataIn`
 
-##### This field must have one of three values:
+Indicates whether the SCSI command will read or write data. This field must have one of three values:
 
-#######
+| Value | Meaning |
+| ----- | ------- |
+| SCSI_IOCTL_DATA_OUT (0) | Write data to the device |
+| SCSI_IOCTL_DATA_IN (1) | Read data from the device |
+| SCSI_IOCTL_DATA_UNSPECIFIED (2) | No data transfer or transfer direction is unknown |
 
 ### `DataTransferLength`
 
@@ -48,7 +55,12 @@ Indicates the size in bytes of the data buffer. Many devices transfer chunks of 
 
 ### `TimeOutValue`
 
-Indicates the interval in seconds that the request can execute before the port driver considers it timed out.
+Indicates the interval in seconds that the request can execute before the port driver considers it timed out. Do not set this value to 0. Default values often range from:
+
+* Typical operations: 30 to 60 seconds
+* Short operations: 10 to 30 seconds
+* Medium operations: 30 to 120 seconds
+* Long operations (like format, extended self-test): 300 to 3600 seconds or more
 
 ### `DataBufferOffset`
 

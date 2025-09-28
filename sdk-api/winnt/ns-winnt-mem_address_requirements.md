@@ -16,12 +16,13 @@ If this member is **NULL**, then there is no lower limit.
 ### `HighestEndingAddress`
 
 Specifies the highest acceptable address (inclusive).
-This address must not exceed **lpMaximumApplicationAddress** returned by [GetSystemInfo](https://learn.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo).
+This address must not exceed **lpMaximumApplicationAddress** and must be **one less** than a multiple of the allocation granularity returned by [GetSystemInfo](https://learn.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo).
 If this member is **NULL**, then there is no upper limit.
 
 ### `Alignment`
 
 Specifies power-of-2 alignment. Specifying 0 aligns the returned address on the system allocation granularity.
+If nonzero, this value must be greater than or equal to the system allocation granularity.
 
 ## Remarks
 

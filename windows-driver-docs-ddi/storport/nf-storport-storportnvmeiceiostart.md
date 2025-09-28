@@ -1,6 +1,6 @@
 ## Description
 
-The **StorPortNvmeIceIoStart** function initiates an NVMe ICE (instant cryptographic erase) I/O operation.
+The **StorPortNvmeIceIoStart** function initiates an NVMe ICE (Inline Cryptographic Engine) I/O operation.
 
 ## Parameters
 
@@ -10,7 +10,7 @@ The **StorPortNvmeIceIoStart** function initiates an NVMe ICE (instant cryptogra
 
 ### `Srb`
 
-[in] A pointer to a SCSI request block. This structure represents a single I/O request.
+[in] A pointer to a [SCSI request block](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_request_block). This structure represents a single I/O request.
 
 ### `LbaCount`
 

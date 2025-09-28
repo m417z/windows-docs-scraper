@@ -21,4 +21,5 @@ typedef struct _WEBAUTHN_CREDENTIAL_ATTESTATION {
   PBYTE                      pbUnsignedExtensionOutputs;
   PWEBAUTHN_HMAC_SECRET_SALT pHmacSecret;
   BOOL                       bThirdPartyPayment;
+  DWORD                      dwTransports;
 } WEBAUTHN_CREDENTIAL_ATTESTATION, *PWEBAUTHN_CREDENTIAL_ATTESTATION;
