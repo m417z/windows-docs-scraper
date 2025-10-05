@@ -1,0 +1,3 @@
+BOOL WTSActiveSessionExists(
+  PBOOL pbActiveSessionExists
+);

@@ -14,7 +14,7 @@ A driver can use **IOCTL_STORAGE_FIRMWARE_ACTIVATE** to activate a firmware imag
 
 ### Input buffer length
 
-**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= **sizeof**([STORAGE_HW_FIRMWARE_ACTIVATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_activate)).
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= ```sizeof(STORAGE_HW_FIRMWARE_ACTIVATE)```.
 
 ### Output buffer
 

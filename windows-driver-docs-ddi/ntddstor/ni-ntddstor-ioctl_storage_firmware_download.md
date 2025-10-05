@@ -14,7 +14,7 @@ A driver can use **IOCTL_STORAGE_FIRMWARE_DOWNLOAD** to download a firmware imag
 
 ### Input buffer length
 
-**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= **sizeof**([STORAGE_HW_FIRMWARE_DOWNLOAD](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_download)).
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= ```sizeof(STORAGE_HW_FIRMWARE_DOWNLOAD)```.
 
 ### Output buffer
 

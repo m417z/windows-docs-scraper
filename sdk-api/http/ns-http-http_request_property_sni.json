@@ -1,0 +1,53 @@
+{
+  "UID": "NS:http._HTTP_REQUEST_PROPERTY_SNI",
+  "title": "HTTP_REQUEST_PROPERTY_SNI",
+  "description": "Used to check what domain the client requested when opening a TLS connection.",
+  "ms.date": "09/19/2025",
+  "tech.root": "http",
+  "targetos": "Windows",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "http.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "HTTP_REQUEST_PROPERTY_SNI, *PHTTP_REQUEST_PROPERTY_SNI",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "http.h"
+  ],
+  "api_name": [
+    "_HTTP_REQUEST_PROPERTY_SNI",
+    "PHTTP_REQUEST_PROPERTY_SNI",
+    "HTTP_REQUEST_PROPERTY_SNI"
+  ],
+  "f1_keywords": [
+    "_HTTP_REQUEST_PROPERTY_SNI",
+    "http/_HTTP_REQUEST_PROPERTY_SNI",
+    "PHTTP_REQUEST_PROPERTY_SNI",
+    "http/PHTTP_REQUEST_PROPERTY_SNI",
+    "HTTP_REQUEST_PROPERTY_SNI",
+    "http/HTTP_REQUEST_PROPERTY_SNI"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_HTTP_REQUEST_PROPERTY_SNI"
+  ]
+}

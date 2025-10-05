@@ -2,7 +2,7 @@
 
 ## Description
 
-A driver can use **IOCTL_STORAGE_FIRMWARE_GET_INFO** to query a storage device for detailed firmware information. A successful call will return information about firmware revisions, activity status, as well as read/write attributes for each slot. The amount of data returned will vary based on storage protocol.
+A driver can use **IOCTL_STORAGE_FIRMWARE_GET_INFO** to query a storage device for detailed firmware information. A successful call will return information about firmware revisions, activity status, as well as read/write attributes for each slot. The amount of data returned varies based on storage protocol.
 
 ## Parameters
 
@@ -10,15 +10,11 @@ A driver can use **IOCTL_STORAGE_FIRMWARE_GET_INFO** to query a storage device f
 
 ### Input buffer
 
-**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= **sizeof**([STORAGE_HW_FIRMWARE_INFO_QUERY](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info_query)).
-
 **Irp->AssociatedIrp.SystemBuffer** contains [STORAGE_HW_FIRMWARE_INFO_QUERY](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info_query) data that specifies the target of the request.
-
-**Parameters.DeviceIoControl.OutputBufferLength** indicates the number of bytes that can be written to **Irp->AssociatedIrp.SystemBuffer**. **OutputBufferLength** must be **sizeof**([STORAGE_HW_FIRMWARE_INFO](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info)) + **sizeof**([STORAGE_HW_FIRMWARE_SLOT_INFO](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_slot_info)) * (**STORAGE_HW_FIRMWARE_INFO.SlotCount** -1).
 
 ### Input buffer length
 
-The length of .
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= ```sizeof(STORAGE_HW_FIRMWARE_INFO_QUERY)```.
 
 ### Output buffer
 
@@ -26,7 +22,7 @@ The driver returns query data to the buffer at **Irp->AssociatedIrp.SystemBuffer
 
 ### Output buffer length
 
-The length of .
+**Parameters.DeviceIoControl.OutputBufferLength** indicates the number of bytes that can be written to **Irp->AssociatedIrp.SystemBuffer**. **OutputBufferLength** must be **sizeof**([STORAGE_HW_FIRMWARE_INFO](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info)) + ```sizeof(STORAGE_HW_FIRMWARE_SLOT_INFO) * (STORAGE_HW_FIRMWARE_INFO.SlotCount -1)```.
 
 ### Input/output buffer
 

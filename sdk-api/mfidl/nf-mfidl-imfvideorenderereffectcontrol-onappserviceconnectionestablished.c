@@ -1,0 +1,3 @@
+HRESULT OnAppServiceConnectionEstablished(
+  IUnknown *pAppServiceConnection
+);

@@ -8,7 +8,9 @@ Creates a new [**HSTRING**](https://learn.microsoft.com/windows/win32/winrt/hstr
 
 Type: [in, optional] **LPCWSTR**
 
-A null-terminated string to use as the source for the new [**HSTRING**](https://learn.microsoft.com/windows/win32/winrt/hstring). To create a new, empty, or **NULL** string, pass **NULL** for *sourceString* and 0 for *length*.
+The UTF-16LE-encoded text buffer to use as the source for the new [**HSTRING**](https://learn.microsoft.com/windows/win32/winrt/hstring). To create a new, empty, or **NULL** string, pass **NULL** for *sourceString* and 0 for *length*.
+
+This buffer is not required to be null-terminated. **WindowsCreateString** will copy its contents and add a null-terminator in the new buffer backing the returned [**HSTRING**](https://learn.microsoft.com/windows/win32/winrt/hstring).
 
 ### `length`
 

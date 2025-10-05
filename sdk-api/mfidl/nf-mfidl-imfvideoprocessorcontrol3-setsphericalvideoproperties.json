@@ -1,0 +1,50 @@
+{
+  "UID": "NF:mfidl.IMFVideoProcessorControl3.SetSphericalVideoProperties",
+  "tech.root": "mf",
+  "title": "IMFVideoProcessorControl3::SetSphericalVideoProperties",
+  "ms.date": "09/09/2025",
+  "targetos": "Windows",
+  "description": "When rendering spherical video (360 video) this sets the view direction of the camera.  X,Y,Z,W are the components of the camera's view direction quaternion.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "mfidl.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 10 version 1803",
+  "req.target-min-winversvr": "Windows Server version 1803",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "mfidl.h"
+  ],
+  "api_name": [
+    "IMFVideoProcessorControl3::SetSphericalVideoProperties"
+  ],
+  "f1_keywords": [
+    "IMFVideoProcessorControl3::SetSphericalVideoProperties",
+    "mfidl/IMFVideoProcessorControl3::SetSphericalVideoProperties"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "SetSphericalVideoProperties"
+  ]
+}

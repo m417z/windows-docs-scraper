@@ -2,6 +2,11 @@
 
 ## Description
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](https://learn.microsoft.com/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The **LOCATION_DESIRED_ACCURACY**  enumeration type defines values for the [SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY](https://learn.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2) property.
 
 ## Constants

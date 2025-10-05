@@ -22,7 +22,7 @@ The field type.
 
 Type: **LPWSTR**
 
-A pointer to a buffer containing the friendly name of the field as a null-terminated Unicode string. This is used for accessibility and queuing purposes. For example, some standard fields would have friend names of "Username", "Password", and "Log On To".
+A pointer to a buffer containing the friendly name of the field as a `null`-terminated Unicode string. This is used for accessibility and queuing purposes. For example, some standard fields would have friendly names of "Username", "Password", and "Log On To".
 
 ### `guidFieldType`
 
@@ -43,4 +43,4 @@ The following table lists the *guidFieldType* values supported by Windows. These
 
 ## Remarks
 
-Each UI element presented to the user on a tile is defined by the credential provider as a field. The **CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR** is how the credential provider identifies the fields. Once a field has been defined for a particular usage scenario, it can not be added to or subtracted from. Credential providers need to fully define all of their fields before enumerating tiles. If fields are going to appear or disappear as part of the credential acquisition process, those fields still not to be defined ahead of time. Use [CREDENTIAL_PROVIDER_FIELD_STATE](https://learn.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_state) to hide or display the fields as necessary.
+Each UI element presented to the user on a tile is defined by the credential provider as a field. The **CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR** is how the credential provider identifies the fields. Once a field has been defined for a particular usage scenario, it cannot be added to or subtracted from. Credential providers need to fully define all of their fields before enumerating tiles. If fields are going to appear or disappear as part of the credential acquisition process, those fields still need to be defined ahead of time. Use [CREDENTIAL_PROVIDER_FIELD_STATE](https://learn.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_state) to hide or display the fields as necessary.

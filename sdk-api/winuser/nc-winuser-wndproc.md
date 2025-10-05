@@ -1,6 +1,6 @@
 ## Description
 
-A callback function, which you define in your application, that processes messages sent to a window. The **WNDPROC** type defines a pointer to this callback function. The *WndProc* name is a placeholder for the name of the function that you define in your application.
+A callback function, which you define in your application, that processes messages sent to a window. The **WNDPROC** type defines a pointer to this callback function. The _WndProc_ name is a placeholder for the name of the function that you define in your application.
 
 ## Parameters
 
@@ -8,13 +8,13 @@ A callback function, which you define in your application, that processes messag
 
 Type: **[HWND](https://learn.microsoft.com/windows/win32/winprog/windows-data-types)**
 
-A handle to the window. This parameter is typically named *hWnd*.
+A handle to the window. This parameter is typically named _hWnd_.
 
 ### `unnamedParam2`
 
 Type: **[UINT](https://learn.microsoft.com/windows/win32/winprog/windows-data-types)**
 
-The message. This parameter is typically named *uMsg*.
+The message. This parameter is typically named _uMsg_.
 
 For lists of the system-provided messages, see [System-defined messages](https://learn.microsoft.com/windows/win32/winmsg/about-messages-and-message-queues#system-defined-messages).
 
@@ -22,17 +22,17 @@ For lists of the system-provided messages, see [System-defined messages](https:/
 
 Type: **[WPARAM](https://learn.microsoft.com/windows/win32/winprog/windows-data-types)**
 
-Additional message information. This parameter is typically named *wParam*.
+Additional message information. This parameter is typically named _wParam_.
 
-The contents of the *wParam* parameter depend on the value of the *uMsg* parameter.
+The contents of the _wParam_ parameter depend on the value of the _uMsg_ parameter.
 
 ### `unnamedParam4`
 
 Type: **[LPARAM](https://learn.microsoft.com/windows/win32/winprog/windows-data-types)**
 
-Additional message information. This parameter is typically named *lParam*.
+Additional message information. This parameter is typically named _lParam_.
 
-The contents of the *lParam* parameter depend on the value of the *uMsg* parameter.
+The contents of the _lParam_ parameter depend on the value of the _uMsg_ parameter.
 
 ## Return value
 
