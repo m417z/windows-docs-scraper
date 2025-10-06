@@ -12,6 +12,8 @@ import json
 import re
 import time
 import traceback
+from dataclasses import dataclass
+from enum import IntEnum, auto
 from pathlib import Path
 from typing import Dict, Optional, Tuple
 from urllib.parse import quote, urljoin
@@ -21,6 +23,52 @@ import yaml
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString
 from markdownify import MarkdownConverter
+
+
+class DocsRepositoryType(IntEnum):
+    # With file name prefixes and more-or-less organized structure and metadata.
+    ORGANIZED = auto()
+
+    # Without file name prefixes and less organized structure and metadata.
+    FUZZY = auto()
+
+
+@dataclass
+class DocsRepositoryInfo:
+    content_path: str
+    base_url: str
+    type: DocsRepositoryType
+
+
+DOCS_REPOSITORY_INFO = {
+    'windows-driver-docs-ddi': DocsRepositoryInfo(
+        content_path='wdk-ddi-src/content',
+        base_url='https://learn.microsoft.com/windows-hardware/drivers/ddi/',
+        type=DocsRepositoryType.ORGANIZED,
+    ),
+    'sdk-api': DocsRepositoryInfo(
+        content_path='sdk-api-src/content',
+        base_url='https://learn.microsoft.com/windows/win32/api/',
+        type=DocsRepositoryType.ORGANIZED,
+    ),
+    'windows-driver-docs': DocsRepositoryInfo(
+        content_path='windows-driver-docs-pr',
+        base_url='https://learn.microsoft.com/windows-hardware/drivers/',
+        type=DocsRepositoryType.FUZZY,
+    ),
+    'win32': DocsRepositoryInfo(
+        content_path='desktop-src',
+        base_url='https://learn.microsoft.com/windows/win32/',
+        type=DocsRepositoryType.FUZZY,
+    ),
+}
+
+
+class UnsupportedFuzzyDoc(Exception):
+    """Raised when a fuzzy documentation page is unsupported for processing."""
+
+    pass
+
 
 REQUESTS_SESSION = requests.Session()
 REQUESTS_SESSION.headers.update({
@@ -48,9 +96,15 @@ def parse_arguments() -> argparse.Namespace:
         description="Process Windows Driver Kit DDI or Win32 API reference documentation"
     )
     parser.add_argument(
+        "--repository",
+        required=True,
+        choices=list(DOCS_REPOSITORY_INFO.keys()),
+        help="Name of the documentation repository"
+    )
+    parser.add_argument(
         "--input",
         required=True,
-        help="Path to windows-driver-docs-ddi or sdk-api directory",
+        help="Path to the repository directory",
     )
     parser.add_argument(
         "--output",
@@ -64,16 +118,6 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "--input-filter",
         help="Filter to only process files containing this string in their filename (e.g., 'nc-sercx-evt_sercx_apply_config')"
-    )
-    parser.add_argument(
-        "--content-path",
-        default="sdk-api-src/content",
-        help="Path to the content directory relative to input directory (default: sdk-api-src/content)"
-    )
-    parser.add_argument(
-        "--base-url",
-        default="https://learn.microsoft.com/windows/win32/api/",
-        help="Base URL for the online documentation (default: https://learn.microsoft.com/windows/win32/api/)"
     )
     return parser.parse_args()
 
@@ -167,6 +211,9 @@ def clean_markdown_content(content_url: str, content: str) -> str:
         content = content.replace(unescaped, html_escape(unescaped))
     elif content_url.endswith('/ws2spi/nc-ws2spi-lpwspioctl'):
         content = content.replace('\n| <dl> <dt>', '\n| ')
+
+    # Remove <dl><dt>...</dt></dl> in table cells (mainly in win32).
+    content = re.sub(r'\|\s*<dl>\s*<dt>\s*(.*?)\s*</dt>\s*</dl>\s*\|', r'| \1 |', content)
 
     # Remove brackets in links.
     content = re.sub(r'\[([\s\S]*?)\]\(<([^)]+)>\)', r'[\1](\2)', content)
@@ -300,7 +347,7 @@ def get_online_url_from_file_path(file_path: str, base_url: str) -> str:
     # Construct from file path
     # Example: ntifs/nf-ntifs-ntwritefile.md ->
     # https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile
-    rel_path = Path(file_path).as_posix()
+    rel_path = Path(file_path).as_posix().lower()
 
     # Remove .md extension
     if rel_path.endswith('.md'):
@@ -394,11 +441,101 @@ def scrape_function_prototype(url: str) -> Optional[str]:
     return prototype
 
 
+def extract_fuzzy_type_ident(markdown_content: str) -> Tuple[str, str]:
+    """
+    Extract identifier from fuzzy documentation content.
+
+    Args:
+        markdown_content: The markdown content to extract identifier from
+
+    Returns:
+        The extracted identifier
+
+    Raises:
+        UnsupportedFuzzyDoc: If the document doesn't contain a supported identifier
+        RuntimeError: If the identifier format is not supported
+    """
+    # Best effort to filter relevant pages. Not all pages have reliable
+    # metadata such as topic_type, especially in windows-driver-docs.
+    p = r'^# (\S+) (macro|callback function|function|structure|enumeration|routine|union|control code)(:? *\([^)]+\.h\))? *$'
+    match = re.search(p, markdown_content, flags=re.IGNORECASE | re.MULTILINE)
+    if not match:
+        raise UnsupportedFuzzyDoc
+
+    fuzzy_ident = match.group(1).replace(R'\_', '_')
+    if fuzzy_ident.endswith('A/W'):
+        fuzzy_ident = fuzzy_ident.removesuffix('A/W') + 'W'
+
+    fuzzy_type = match.group(2)
+
+    # Skip templates/generics
+    if '&lt;' in fuzzy_ident:
+        raise UnsupportedFuzzyDoc
+
+    # Skip C++ stuff
+    if '::' in fuzzy_ident:
+        raise UnsupportedFuzzyDoc
+
+    # Skip unsupported identifiers
+    if fuzzy_ident in [
+        'NOTIFICATION-TYPE',
+        'OBJECT-TYPE',
+        'TEXTUAL-CONVENTION',
+        'TRAP-TYPE',
+        'GatherBlue(S,float,int2,int2,int2,int2)',
+        'Load2(uint,uint)',
+        'Load3(uint,uint)',
+        'Load4(uint,uint)',
+    ] or fuzzy_ident.startswith(R'MRxLowIOSubmit\['):
+        raise UnsupportedFuzzyDoc
+
+    if not re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]*', fuzzy_ident):
+        raise RuntimeError(f"Unsupported identifier '{fuzzy_ident}'")
+
+    return fuzzy_type, fuzzy_ident
+
+
+def extract_fuzzy_header(markdown_content: str) -> Optional[str]:
+    """
+    Extract header file from fuzzy documentation content.
+
+    Args:
+        markdown_content: The markdown content to extract header from
+    
+    Returns:
+        The extracted header file, or None if not found
+    """
+    p = r'^\|\s*Header(?:<br\s*/?>)?\s*\|(.*)'
+    match = re.search(p, markdown_content, flags=re.IGNORECASE | re.MULTILINE)
+
+    if not match:
+        p = r'^\*\*Header:\*\* (.*)'
+        match = re.search(p, markdown_content, flags=re.IGNORECASE | re.MULTILINE)
+
+    if not match:
+        p = r'<td[^>]*><p>Header</p></td>\s*<td[^>]*>\s*(.*)'
+        match = re.search(p, markdown_content, flags=re.IGNORECASE)
+
+    if not match:
+        return None
+
+    header = match.group(1)
+    header = re.sub(r'<[^>]+>', '', header)  # Remove HTML tags
+    header = header.strip().lstrip('*').strip()
+    match = re.match(r'([A-Za-z0-9_./-]+\.h)\b', header, flags=re.IGNORECASE)
+    if not match:
+        return None
+
+    header = match.group(1)
+    return header.lower()
+
+
 def process_markdown_file(
     relative_path: Path,
     input_dir: Path,
     output_dir: Path,
     base_url: str,
+    repo_type: DocsRepositoryType,
     previous_output_dir: Optional[Path] = None,
 ) -> bool:
     """
@@ -409,6 +546,7 @@ def process_markdown_file(
         input_dir: Path to the input content directory
         output_dir: Path to the output directory
         base_url: Base URL for the online documentation
+        repo_type: Type of the documentation repository (organized or fuzzy)
         previous_output_dir: Optional path to previous output directory for reusing .c files
 
     Returns True if code was extracted, False otherwise.
@@ -434,12 +572,28 @@ def process_markdown_file(
         # found character '\t' that cannot start any token
         # https://github.com/MicrosoftDocs/sdk-api/pull/2098
         content = re.sub(r"^(ms.keywords: .*?)\t,", r"\1,", content, flags=re.MULTILINE)
-    elif input_file.name == "nf-msrdc-irdcgeneratorfiltermaxparameters-sethashwindowsize.md":
-        # https://github.com/MicrosoftDocs/sdk-api/pull/2095#issuecomment-3331004704
-        content = re.sub(r"^(description: .*?): ", r"\1 - ", content, flags=re.MULTILINE)
 
     # Extract YAML front matter
     metadata, markdown_content = extract_yaml_frontmatter(content)
+
+    # For fuzzy repos, try to extract identifier and code definition
+    fuzzy_code_definition = None
+    if repo_type == DocsRepositoryType.FUZZY:
+        if metadata.get('ms.topic') != 'reference':
+            raise UnsupportedFuzzyDoc
+
+        fuzzy_type, fuzzy_ident = extract_fuzzy_type_ident(markdown_content)
+        metadata['_fuzzy_type'] = fuzzy_type
+        metadata['_fuzzy_ident'] = fuzzy_ident
+
+        if fuzzy_header := extract_fuzzy_header(markdown_content):
+            metadata['_fuzzy_header'] = fuzzy_header
+
+        p = r'^#+ Syntax *$\n\s*```.*\n([\s\S]+?)```'
+        match = re.search(p, markdown_content, flags=re.IGNORECASE | re.MULTILINE)
+        if match:
+            fuzzy_code_definition = match.group(1).strip()
+            markdown_content = markdown_content[:match.start(0)] + markdown_content[match.end(0):]
 
     # Clean markdown content (remove HTML tags, etc.)
     clean_content = clean_markdown_content(url, markdown_content)
@@ -463,44 +617,55 @@ def process_markdown_file(
             json.dump(metadata, f, indent=2, ensure_ascii=False)
 
     # Try to scrape function prototype or code definition
-    code_extracted = False
+    prototype = None
 
-    # Skip scraping for IOCTL files
-    if not base_name.startswith('ni-'):
+    # Check if we can reuse from previous output
+    if previous_output_dir:
+        previous_c_file = previous_output_dir / relative_path.parent / f"{base_name}.c"
+        if previous_c_file.exists():
+            # Read the existing .c file
+            with open(previous_c_file, 'r', encoding='utf-8') as f:
+                prototype = f.read()
+
+    # If we didn't find a previous file
+    if prototype is None:
+        if repo_type == DocsRepositoryType.ORGANIZED:
+            # Skip scraping for IOCTL files
+            if not base_name.startswith('ni-'):
+                prototype = scrape_function_prototype(url)
+        elif repo_type == DocsRepositoryType.FUZZY:
+            if fuzzy_code_definition is not None:
+                prototype = fuzzy_code_definition
+
+    # Save the prototype if we found one
+    if prototype is not None:
+        # Replace nbsp with regular space.
+        prototype = prototype.replace('\u00a0', ' ')
+
         c_output = output_subdir / f"{base_name}.c"
 
-        # Check if we can reuse from previous output
-        if previous_output_dir:
-            previous_c_file = previous_output_dir / relative_path.parent / f"{base_name}.c"
-            if previous_c_file.exists():
-                # Copy the existing .c file
-                with open(previous_c_file, 'r', encoding='utf-8') as f:
-                    prototype = f.read()
-                with open(c_output, 'w', encoding='utf-8') as f:
-                    f.write(prototype)
-                code_extracted = True
+        with open(c_output, 'w', encoding='utf-8') as f:
+            f.write(prototype)
 
-        # If we didn't find a previous file, scrape from web
-        if not code_extracted:
-            prototype = scrape_function_prototype(url)
-            if prototype is not None:  # Include empty string as success
-                with open(c_output, 'w', encoding='utf-8') as f:
-                    f.write(prototype)
-                code_extracted = True
-
-    return code_extracted
+        return True
+    else:
+        return False
 
 
 def main():
     """Main function."""
     args = parse_arguments()
 
+    # Get repository info
+    repo_info = DOCS_REPOSITORY_INFO[args.repository]
+    content_path = repo_info.content_path
+    base_url = repo_info.base_url
+    repo_type = repo_info.type
+
     input_path = Path(args.input)
     output_path = Path(args.output)
     previous_output_path = Path(args.previous_output) if args.previous_output else None
     input_filter = args.input_filter
-    content_path = args.content_path
-    base_url = args.base_url
 
     # Validate input directory
     if not input_path.exists():
@@ -523,32 +688,32 @@ def main():
     for md_file in markdown_files:
         base_name = md_file.stem
 
-        # Skip index.md files
-        if base_name in ['index', 'TOC']:
+        if base_name.lower() in ['index', 'toc']:
             ignored_count += 1
             continue
 
-        if '-' not in base_name:
-            raise RuntimeError(f"Filename does not contain a dash: {md_file}")
+        if repo_type == DocsRepositoryType.ORGANIZED:
+            if '-' not in base_name:
+                raise RuntimeError(f"Filename does not contain a dash: {md_file}")
 
-        prefix = base_name.split('-', 1)[0]
+            prefix = base_name.split('-', 1)[0]
 
-        # Skip unsupported files
-        # na: header
-        # nl: class
-        # nn: interface
-        if prefix in ['na', 'nl', 'nn']:
-            ignored_count += 1
-            continue
+            # Skip unsupported files
+            # na: header
+            # nl: class
+            # nn: interface
+            if prefix in ['na', 'nl', 'nn']:
+                ignored_count += 1
+                continue
 
-        # Check for unknown prefixes and throw exception
-        # nc: callback
-        # ne: enum
-        # nf: function
-        # ni: IOCTL
-        # ns: struct
-        if prefix not in ['nc', 'ne', 'nf', 'ni', 'ns']:
-            raise RuntimeError(f"Unknown file prefix '{prefix}' in file: {base_name}")
+            # Check for unknown prefixes and throw exception
+            # nc: callback
+            # ne: enum
+            # nf: function
+            # ni: IOCTL
+            # ns: struct
+            if prefix not in ['nc', 'ne', 'nf', 'ni', 'ns']:
+                raise RuntimeError(f"Unknown file prefix '{prefix}' in file: {base_name}")
 
         filtered_files.append(md_file)
 
@@ -573,20 +738,31 @@ def main():
         # Calculate relative path from content directory
         relative_path = md_file.relative_to(content_dir)
         base_name = relative_path.stem
-        print(f"[{i}/{total}] Processing {base_name}...", end=" ")
+        status = f"[{i}/{total}] Processing {base_name}..."
 
         try:
-            code_success = process_markdown_file(relative_path, content_dir, output_path, base_url, previous_output_path)
+            code_success = process_markdown_file(
+                relative_path,
+                content_dir,
+                output_path,
+                base_url,
+                repo_type,
+                previous_output_path,
+            )
             if code_success:
-                print("OK")
+                status += " OK"
                 code_extracted += 1
             else:
-                print("No code extracted")
+                status += " No code extracted"
                 code_not_extracted += 1
+        except UnsupportedFuzzyDoc:
+            continue
         except Exception as e:
-            print("Error, exception raised:")
             print(traceback.format_exc())
+            status += " Error, exception raised"
             exception_count += 1
+
+        print(status)
 
     print(f"\nProcessing complete:")
     print(f"Code definitions extracted: {code_extracted}")

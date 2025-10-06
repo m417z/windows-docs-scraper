@@ -29,6 +29,16 @@ jobs:
         with:
           repository: MicrosoftDocs/sdk-api
           path: sdk-api
+      - name: Checkout MicrosoftDocs/windows-driver-docs
+        uses: actions/checkout@v5
+        with:
+          repository: MicrosoftDocs/windows-driver-docs
+          path: windows-driver-docs
+      - name: Checkout MicrosoftDocs/win32
+        uses: actions/checkout@v5
+        with:
+          repository: MicrosoftDocs/win32
+          path: win32
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -41,18 +51,30 @@ jobs:
         run: |
           cd main
           python -u scraper.py \
+            --repository windows-driver-docs-ddi \
             --input ../windows-driver-docs-ddi \
-            --output ./output/windows-driver-docs-ddi \
-            --content-path wdk-ddi-src/content \
-            --base-url https://learn.microsoft.com/windows-hardware/drivers/ddi/
+            --output ./output/windows-driver-docs-ddi
       - name: Generate docs - Win32 API
         run: |
           cd main
           python -u scraper.py \
+            --repository sdk-api \
             --input ../sdk-api \
-            --output ./output/sdk-api \
-            --content-path sdk-api-src/content \
-            --base-url https://learn.microsoft.com/windows/win32/api/
+            --output ./output/sdk-api
+      - name: Generate docs - Windows Driver Documentation
+        run: |
+          cd main
+          python -u scraper.py \
+            --repository windows-driver-docs \
+            --input ../windows-driver-docs \
+            --output ./output/windows-driver-docs
+      - name: Generate docs - Win32
+        run: |
+          cd main
+          python -u scraper.py \
+            --repository win32 \
+            --input ../win32 \
+            --output ./output/win32
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
