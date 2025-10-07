@@ -168,7 +168,7 @@ Indicates that a font is compliant with the Unicode standard.
 
 Indicates that the **dpwszFamilyName** offset in PRINTIFI32 is actually the offset to a list of equivalent family names or aliases. The first name is the base or real name; the subsequent names are equivalents or aliases. Each name in the list is null-terminated; the list is terminated by two zeros.
 
-`   ... `
+`<base name> <alias 0> <alias 1> ... <alias n>`
 
 The based names are used only for mapping; they are not enumerated.
 

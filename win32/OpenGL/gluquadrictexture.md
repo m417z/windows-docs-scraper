@@ -14,16 +14,8 @@ A flag indicating whether texture coordinates are to be generated. The following
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-|
-
-**GL\_TRUE**
-
-| Generate texture coordinates.<br> |
-|
-
-**GL\_FALSE**
-
-| Do not generate texture coordinates. This is the default value.<br> |
+| **GL\_TRUE** | Generate texture coordinates.<br> |
+| **GL\_FALSE** | Do not generate texture coordinates. This is the default value.<br> |
 
 ## Return value
 

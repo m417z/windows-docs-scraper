@@ -16,21 +16,9 @@ To store configuration data that can be published in the directory service (DS),
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-|
-
-**SPLDS_DRIVER_KEY**
-
-| Printer drivers use this key to store driver properties.<br> |
-|
-
-**SPLDS_SPOOLER_KEY**
-
-| Reserved. Used only by the print spooler to store internal spooler properties.<br> |
-|
-
-**SPLDS_USER_KEY**
-
-| Applications use this key to store printer properties such as printer asset numbers.<br> |
+| **SPLDS_DRIVER_KEY** | Printer drivers use this key to store driver properties.<br> |
+| **SPLDS_SPOOLER_KEY** | Reserved. Used only by the print spooler to store internal spooler properties.<br> |
+| **SPLDS_USER_KEY** | Applications use this key to store printer properties such as printer asset numbers.<br> |
 
 Values that are stored under the SPLDS_USER_KEY key are published in the directory service only if there is a corresponding property in the schema. A domain administrator must create the property if it doesn't already exist. To publish a user-defined property after you use **SetPrinterDataEx** to add or change a value, call [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter) with *Level* = 7 and with the **dwAction** member of [**PRINTER_INFO_7**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-7) set to **DSPRINT_UPDATE**.
 

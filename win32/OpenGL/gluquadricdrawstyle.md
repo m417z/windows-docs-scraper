@@ -14,26 +14,10 @@ The desired draw style. The following values are valid.
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GLU\_FILL**
-
-| Quadrics are rendered with polygon primitives. The polygons are drawn in a counterclockwise fashion with respect to their normals (as defined with [**gluQuadricOrientation**](https://learn.microsoft.com/windows/win32/opengl/gluquadricorientation)).<br> |
-|
-
-**GLU\_LINE**
-
-| Quadrics are rendered as a set of lines.<br> |
-|
-
-**GLU\_SILHOUETTE**
-
-| Quadrics are rendered as a set of lines, except that edges separating coplanar faces will not be drawn.<br> |
-|
-
-**GLU\_POINT**
-
-| Quadrics are rendered as a set of points.<br> |
+| **GLU\_FILL** | Quadrics are rendered with polygon primitives. The polygons are drawn in a counterclockwise fashion with respect to their normals (as defined with [**gluQuadricOrientation**](https://learn.microsoft.com/windows/win32/opengl/gluquadricorientation)).<br> |
+| **GLU\_LINE** | Quadrics are rendered as a set of lines.<br> |
+| **GLU\_SILHOUETTE** | Quadrics are rendered as a set of lines, except that edges separating coplanar faces will not be drawn.<br> |
+| **GLU\_POINT** | Quadrics are rendered as a set of points.<br> |
 
 ## Return value
 

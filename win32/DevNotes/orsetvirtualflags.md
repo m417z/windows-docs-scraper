@@ -14,27 +14,13 @@ This parameter controls the behavior of the registry when a Create or Open opera
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **REG\_KEY\_DONT\_SILENT\_FAIL**
 
-**REG\_KEY\_DONT\_SILENT\_FAIL**
+4 | If this flag is set and an Open operation fails on a key for which virtualization is enabled, the registry does not attempt to reopen the key. If this flag is clear, the registry attempts to reopen the key with the MAXIMUM\_ALLOWED access.\ | | **REG\_KEY\_DONT\_VIRTUALIZE**
 
-4
+2 | If this flag is set and a Create Key operation fails because the caller does not have the KEY\_CREATE\_SUB\_KEY right on the parent key, the registry fails the Create operation. If this flag is clear, the registry attempts to create the key in the virtual store. The caller must have the KEY\_READ right on the parent key.\ | | **REG\_KEY\_RECURSE\_FLAG**
 
-| If this flag is set and an Open operation fails on a key for which virtualization is enabled, the registry does not attempt to reopen the key. If this flag is clear, the registry attempts to reopen the key with the MAXIMUM\_ALLOWED access.<br> |
-|
-
-**REG\_KEY\_DONT\_VIRTUALIZE**
-
-2
-
-| If this flag is set and a Create Key operation fails because the caller does not have the KEY\_CREATE\_SUB\_KEY right on the parent key, the registry fails the Create operation. If this flag is clear, the registry attempts to create the key in the virtual store. The caller must have the KEY\_READ right on the parent key.<br> |
-|
-
-**REG\_KEY\_RECURSE\_FLAG**
-
-8
-
-| If this flag is set, registry virtualization flags are propagated from the parent key. If this flag is clear, registry virtualization flags are not propagated.<br> |
+8 | If this flag is set, registry virtualization flags are propagated from the parent key. If this flag is clear, registry virtualization flags are not propagated.\ |
 
 ## Return value
 

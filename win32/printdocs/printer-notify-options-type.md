@@ -12,20 +12,11 @@ The type to be watched. This member can be one of the following values.
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-|
+| **JOB\_NOTIFY\_TYPE**
 
-**JOB\_NOTIFY\_TYPE**
+0x01 | Indicates that the fields specified in the **pFields** array are JOB\_NOTIFY\_FIELD\_\* constants.\ | | **PRINTER\_NOTIFY\_TYPE**
 
-0x01
-
-| Indicates that the fields specified in the **pFields** array are JOB\_NOTIFY\_FIELD\_\* constants.<br> |
-|
-
-**PRINTER\_NOTIFY\_TYPE**
-
-0x00
-
-| Indicates that the fields specified in the **pFields** array are PRINTER\_NOTIFY\_FIELD\_\* constants.<br> |
+0x00 | Indicates that the fields specified in the **pFields** array are PRINTER\_NOTIFY\_FIELD\_\* constants.\ |
 
 **Reserved0**
 

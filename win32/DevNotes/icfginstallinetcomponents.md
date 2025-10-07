@@ -14,27 +14,13 @@ A combination of the following flags that control the installation and configura
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
-|
+| **ICFG\_INSTALLMAIL**
 
-**ICFG\_INSTALLMAIL**
+0x00000004 | Install Exchange and Internet mail.\ | | **ICFG\_INSTALLRAS**
 
-0x00000004
+0x00000002 | Install RAS (if needed).\ | | **ICFG\_INSTALLTCP**
 
-| Install Exchange and Internet mail.<br> |
-|
-
-**ICFG\_INSTALLRAS**
-
-0x00000002
-
-| Install RAS (if needed).<br> |
-|
-
-**ICFG\_INSTALLTCP**
-
-0x00000001
-
-| Install TCP/IP (if needed).<br> |
+0x00000001 | Install TCP/IP (if needed).\ |
 
 *lpfNeedsRestart*
 

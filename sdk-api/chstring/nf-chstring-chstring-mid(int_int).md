@@ -12,7 +12,7 @@ The method returns a copy of the extracted substring.
 
 ### `nFirst`
 
-The zero-based index of the first character in this CHString string that is be included in the extracted substring.
+The zero-based index of the first character in this \<wdcml:xref targtype="object" rid="wmi.chstring" xmlns:wdcml="http://microsoft.com/wdcml">CHString\</wdcml:xref> string that is be included in the extracted substring.
 
 ### `nCount`
 

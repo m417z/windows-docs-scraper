@@ -14,11 +14,7 @@ Flag that specifies the type of time stamp to generate. This parameter can be on
 | Value | Meaning |
 |-------|---------|
 | **SIGNER_TIMESTAMP_AUTHENTICODE**<br> | Specifies an Authenticode time stamp.<br> **Note:** Authenticode is no longer the preferred type of time stamp. Support for Authenticode time stamps may be removed in the future. We recommend that you use RFC 3161 instead.<br> |
-|
-
-**SIGNER_TIMESTAMP_RFC3161**
-
-| Specifies an RFC 3161–compliant time stamp.<br>
+| **SIGNER_TIMESTAMP_RFC3161** | Specifies an RFC 3161–compliant time stamp.<br>
 *dwIndex* \[in\]
 
 Specifies the sequence number of the signature to which the timestamp will be added. If this value is zero (0), the outer signature will be time stamped.

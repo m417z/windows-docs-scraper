@@ -55,7 +55,7 @@ will return `HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)` (user-mode) or
 
 To override the default behavior of this function, define the
 `TLG_HAVE_EVENT_SET_INFORMATION` macro before you
-`#include `:
+`#include <TraceLoggingProvider.h>`:
 
 - If you `#define TLG_HAVE_EVENT_SET_INFORMATION 0` then
   **TraceLoggingSetInformation** will do nothing and return

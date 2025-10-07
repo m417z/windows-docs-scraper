@@ -16,21 +16,9 @@ Pointer to a protocol-family-specific structure that specifies the new or update
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-|
-
-**RR\_Network**
-
-| Specifies the destination network number. <br> |
-|
-
-**RR\_InterfaceID**
-
-| Specifies the index of the interface through which the route was received.<br> |
-|
-
-**RR\_NextHopAddress**
-
-| Specifies the network address of the next-hop router.<br> |
+| **RR\_Network** | Specifies the destination network number. <br> |
+| **RR\_InterfaceID** | Specifies the index of the interface through which the route was received.<br> |
+| **RR\_NextHopAddress** | Specifies the network address of the next-hop router.<br> |
 
 *Flags* \[out\]
 
@@ -38,21 +26,9 @@ Pointer to a set of flags that indicate the type of the change message, and what
 
 | Flags | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**RTM\_NO\_CHANGE**
-
-| Deleting the route did not affect the best route to any destination network. In other words, another entry represents a route to the same destination network and has a lower metric.<br> |
-|
-
-**RTM\_ROUTE\_DELETED**
-
-| The route deleted was the only route available for a particular destination network.<br> |
-|
-
-**RTM\_ROUTE\_CHANGED**
-
-| After this route was deleted, another route became the best route to a particular destination network. *CurBestRoute* points to the information for the new best route.<br> |
+| **RTM\_NO\_CHANGE** | Deleting the route did not affect the best route to any destination network. In other words, another entry represents a route to the same destination network and has a lower metric.<br> |
+| **RTM\_ROUTE\_DELETED** | The route deleted was the only route available for a particular destination network.<br> |
+| **RTM\_ROUTE\_CHANGED** | After this route was deleted, another route became the best route to a particular destination network. *CurBestRoute* points to the information for the new best route.<br> |
 
 *CurBestRoute* \[out\]
 

@@ -13,11 +13,7 @@ Flags specifying script verification options.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-|
-
-**VS\_ALLOW\_LATIN**
-
-| Allow "Latn" (Latin script) in the test list, even if it is not in the locale list.<br> |
+| **VS\_ALLOW\_LATIN** | Allow "Latn" (Latin script) in the test list, even if it is not in the locale list.<br> |
 
 *lpLocaleScripts* \[in\]
 

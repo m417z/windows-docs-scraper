@@ -22,21 +22,9 @@ This can be any of the following values:
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**UPDP_SILENT_UPLOAD**
-
-| The UI will not be shown during the upload.<br> |
-|
-
-**UPDP_UPLOAD_ALWAYS**
-
-| The files will be uploaded even if the package is already in the server's driver store.<br> |
-|
-
-**UPDP_CHECK_DRIVERSTORE**
-
-| The server's driver store will be checked before upload to see if the package is already there. This setting is ignored if UPDP_UPLOAD_ALWAYS is set.<br> |
+| **UPDP_SILENT_UPLOAD** | The UI will not be shown during the upload.<br> |
+| **UPDP_UPLOAD_ALWAYS** | The files will be uploaded even if the package is already in the server's driver store.<br> |
+| **UPDP_CHECK_DRIVERSTORE** | The server's driver store will be checked before upload to see if the package is already there. This setting is ignored if UPDP_UPLOAD_ALWAYS is set.<br> |
 
 *hwnd* \[in\]
 

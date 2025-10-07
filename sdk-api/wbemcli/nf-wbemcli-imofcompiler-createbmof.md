@@ -17,13 +17,13 @@ The name of the text file to be parsed.
 
 **Localized MOF file:** The *BMOFFileName* string must contain the following comma-separated values:
 
-* a<locale>
+* a\<locale>
 
   Specifies the locale information. This value must start with a preceding comma. For more information, see the description of the **-ADMENDMENT** switch for the [mofcomp](https://learn.microsoft.com/windows/desktop/WmiSdk/mofcomp) utility.
-* n<filename.mof>
+* n\<filename.mof>
 
   The name of the file in which the resulting binary MOF data is to be stored.
-* l<filename.mfl>
+* l\<filename.mfl>
 
   The name of the file in which the resulting localized MOF data is to be stored.
 

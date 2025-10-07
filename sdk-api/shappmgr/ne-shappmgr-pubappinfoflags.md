@@ -8,7 +8,7 @@ Specifies which members in the [PUBAPPINFO](https://learn.microsoft.com/windows/
 
 ### `PAI_SOURCE:0x1`
 
-The [pszSource](https://learn.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo) string is valid and contains the display name of the publishing source. If multiple sources publish an application of the same name, Add/Remove Programs identifies them by "<application name> : <publishing source>".
+The [pszSource](https://learn.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo) string is valid and contains the display name of the publishing source. If multiple sources publish an application of the same name, Add/Remove Programs identifies them by "\<application name> : \<publishing source>".
 
 ### `PAI_ASSIGNEDTIME:0x2`
 

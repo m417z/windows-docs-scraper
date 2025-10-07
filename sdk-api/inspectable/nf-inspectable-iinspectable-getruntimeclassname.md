@@ -35,7 +35,7 @@ The following table shows example class name strings that could be returned by t
 | Fabrikam.Kitchen.IToaster | An interface in the Fabrikam.Kitchen namespace. |
 | Fabrikam.Kitchen.Chef | An class in the Fabrikam.Kitchen namespace. |
 | Windows.Foundation.Collections.IVector`1<TailspinToys.IStore> | A vector of TailspinToys.IStore interfaces. |
-| Windows.Foundation.Collections.IVector`1<Windows.Foundation.Collections.IMap`2<String, TailspinToys.IStore>> | A vector of maps of strings to TailspinToys.IStore interfaces. |
+| Windows.Foundation.Collections.IVector`1&lt;Windows.Foundation.Collections.IMap`2\<String, TailspinToys.IStore>> | A vector of maps of strings to TailspinToys.IStore interfaces. |
 
 The **GetRuntimeClassName** method provides the most specific type information that the server object guarantees that it implements. The type name may be a runtime class name, interface group name, interface name, or parameterized interface name.
 

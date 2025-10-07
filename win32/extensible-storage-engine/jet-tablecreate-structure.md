@@ -37,9 +37,15 @@ The name must use meet the following conditions:
 
   - Have a value less than JET_cbNameMost, not including the terminating NULL.
 
+<!-- end list -->
+
   - Consist of the following set of characters: 0 through 9, A through Z, a through z, and all other punctuation except for exclamation point (\!), comma (,), opening bracket (\[), and closing bracket (\]), that is, ASCII characters 0x20, 0x22 through 0x2d, 0x2f through 0x5a, 0x5c, and 0x5d through 0x7f.
 
+<!-- end list -->
+
   - Not begin with a space.
+
+<!-- end list -->
 
   - Consist of at least one non-space character.
 

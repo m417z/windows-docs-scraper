@@ -26,11 +26,7 @@ Specifies miscellaneous options for special handling of the routing protocol. Th
 
 | Flags | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**RTM\_PROTOCOL\_SINGLE\_ROUTE**
-
-| The routing table manager keeps only one route per destination network for the routing protocol. In other words, the routing table manager replaces route entries that have the same destination network numbers instead of adding new ones.<br> |
+| **RTM\_PROTOCOL\_SINGLE\_ROUTE** | The routing table manager keeps only one route per destination network for the routing protocol. In other words, the routing table manager replaces route entries that have the same destination network numbers instead of adding new ones.<br> |
 
 ## Return value
 

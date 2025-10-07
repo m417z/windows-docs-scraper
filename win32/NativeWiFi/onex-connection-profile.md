@@ -70,27 +70,13 @@ The supplicantMode element in the 802.1X schema that specifies the method of tra
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **OneXSupplicantModeInhibitTransmission**
 
-**OneXSupplicantModeInhibitTransmission**
+0 | EAPOL-Start messages are not transmitted. Valid for wired LAN profiles only.\ | | **OneXSupplicantModeLearn**
 
-0
+1 | The client determines when to send EAPOL-Start packets based on network capability. EAPOL-Start messages are only sent when required. Valid for wired LAN profiles only.\ | | **OneXSupplicantModeCompliant**
 
-| EAPOL-Start messages are not transmitted. Valid for wired LAN profiles only.<br> |
-|
-
-**OneXSupplicantModeLearn**
-
-1
-
-| The client determines when to send EAPOL-Start packets based on network capability. EAPOL-Start messages are only sent when required. Valid for wired LAN profiles only.<br> |
-|
-
-**OneXSupplicantModeCompliant**
-
-2
-
-| EAPOL-Start messages are transmitted as specified by 802.1X. Valid for both wired and wireless LAN profiles.<br> |
+2 | EAPOL-Start messages are transmitted as specified by 802.1X. Valid for both wired and wireless LAN profiles.\ |
 
 **authMode**
 
@@ -98,41 +84,17 @@ The authMode element in the 802.1X schema that specifies the type of credentials
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **OneXAuthModeMachineOrUser**
 
-**OneXAuthModeMachineOrUser**
+0 | Use machine or user credentials. When a user is logged on, the user's credentials are used for authentication. When no user is logged on, machine credentials are used.\ | | **OneXAuthModeMachineOnly**
 
-0
+1 | Use machine credentials only.\ | | **OneXAuthModeUserOnly**
 
-| Use machine or user credentials. When a user is logged on, the user's credentials are used for authentication. When no user is logged on, machine credentials are used.<br> |
-|
+2 | Use user credentials only.\ | | **OneXAuthModeGuest**
 
-**OneXAuthModeMachineOnly**
+3 | Use guest (empty) credentials only.\ | | **OneXAuthModeUnspecified**
 
-1
-
-| Use machine credentials only.<br> |
-|
-
-**OneXAuthModeUserOnly**
-
-2
-
-| Use user credentials only.<br> |
-|
-
-**OneXAuthModeGuest**
-
-3
-
-| Use guest (empty) credentials only.<br> |
-|
-
-**OneXAuthModeUnspecified**
-
-4
-
-| Credentials to use are not specified.<br> |
+4 | Credentials to use are not specified.\ |
 
 **dwHeldPeriod**
 

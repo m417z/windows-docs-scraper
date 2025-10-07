@@ -20,4 +20,4 @@ The signature of the drive.
 
 [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](https://learn.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex)
 
-[IOCTL_DISK_SET_DRIVE_LAYOUT_EX](https://learn.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout)
+[IOCTL_DISK_SET_DRIVE_LAYOUT_EX](https://learn.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout_ex)

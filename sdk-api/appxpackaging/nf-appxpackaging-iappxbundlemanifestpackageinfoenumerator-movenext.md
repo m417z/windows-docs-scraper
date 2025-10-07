@@ -2,7 +2,7 @@
 
 ## Description
 
-Advances the position of the enumerator to the next <Package> element.
+Advances the position of the enumerator to the next \<Package> element.
 
 ## Parameters
 

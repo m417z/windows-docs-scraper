@@ -34,7 +34,7 @@ A pointer to a string variable that contains the name of the proxy server to use
 A pointer to a string variable that contains an optional semicolon delimited list of host names or IP addresses, or both, that should not be routed through the proxy when
 *dwAccessType* is set to
 **WINHTTP_ACCESS_TYPE_NAMED_PROXY**. The list can contain wildcard characters. Do not use an empty string, because the
-**WinHttpOpen** function uses it as the proxy bypass list. If this parameter specifies the "<local>" macro in the list as the only entry, this function bypasses any host name that does not contain a period. If
+**WinHttpOpen** function uses it as the proxy bypass list. If this parameter specifies the "\<local>" macro in the list as the only entry, this function bypasses any host name that does not contain a period. If
 *dwAccessType* is not set to
 **WINHTTP_ACCESS_TYPE_NAMED_PROXY**, this parameter must be set to **WINHTTP_NO_PROXY_BYPASS**.
 

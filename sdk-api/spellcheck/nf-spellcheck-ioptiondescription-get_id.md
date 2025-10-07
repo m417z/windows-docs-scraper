@@ -14,8 +14,8 @@ Option identifiers all exist in the same area. Spell checker providers should us
 
 Specifically, the structure for naming the option identifiers should be:
 
-* **For the Microsoft spell checker engine:** <language tag>:<option name>. For example, "pt-BR:2009Reform."
-* **For spell check provider engines:** <engine id>:<language tag>:<option name> (the language tag may be omitted if the option is not language specific). For example, "samplespell:fr-FR:AccentedUppercase".
+* **For the Microsoft spell checker engine:** \<language tag>:\<option name>. For example, "pt-BR:2009Reform."
+* **For spell check provider engines:** \<engine id>:\<language tag>:\<option name> (the language tag may be omitted if the option is not language specific). For example, "samplespell:fr-FR:AccentedUppercase".
 
 **Note** Spell check providers are allowed to support existing Microsoft option identifiers, but they must not create new option identifiers in the Microsoft namespace. That is, spell check providers must use the engine identifier as a prefix.
 

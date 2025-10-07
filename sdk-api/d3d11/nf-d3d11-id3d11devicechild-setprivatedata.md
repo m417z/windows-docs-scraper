@@ -34,7 +34,7 @@ This method returns one of the following [Direct3D 11 Return Codes](https://lear
 
 The data stored in the device child with this method can be retrieved with [ID3D11DeviceChild::GetPrivateData](https://learn.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicechild-getprivatedata).
 
-The [debug layer](https://learn.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers) reports memory leaks by outputting a list of object interface pointers along with their friendly names. The default friendly name is "<unnamed>". You can set the friendly name so that you can determine if the corresponding object interface pointer caused the leak. To set the friendly name, use the **SetPrivateData** method and the **WKPDID_D3DDebugObjectName** GUID that is in D3Dcommon.h. For example, to give pContext a friendly name of *My name*, use the following code:
+The [debug layer](https://learn.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers) reports memory leaks by outputting a list of object interface pointers along with their friendly names. The default friendly name is "\<unnamed>". You can set the friendly name so that you can determine if the corresponding object interface pointer caused the leak. To set the friendly name, use the **SetPrivateData** method and the **WKPDID_D3DDebugObjectName** GUID that is in D3Dcommon.h. For example, to give pContext a friendly name of *My name*, use the following code:
 
 ```
 

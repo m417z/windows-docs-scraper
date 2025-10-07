@@ -2,7 +2,7 @@
 
 ## Description
 
-Retrieves an object that represents the <OptionalBundles> element under the root <Bundle> element.
+Retrieves an object that represents the \<OptionalBundles> element under the root \<Bundle> element.
 
 ## Parameters
 

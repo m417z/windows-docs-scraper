@@ -34,31 +34,11 @@ This parameter can be one of the following informational flags:
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**NETWORKINFO\_FLAGS\_PMODE\_NOT\_SUPPORTED**
-
-| The network card does not support promiscuous mode, meaning that it will only capture traffic which is broadcast in nature or only involves the local machine.<br> |
-|
-
-**NETWORKINFO\_FLAGS\_RAS**
-
-| This is a virtual network card that is a RAS (Remote Access Server) connection through a modem or another network card.<br> |
-|
-
-**NETWORKINFO\_FLAGS\_REMOTE\_CARD**
-
-| The network card is not on the local computer, but is capturing on a remote machine at the bequest of the local computer.<br> |
-|
-
-**NETWORKINFO\_FLAGS\_REMOTE\_NAL**
-
-| Obsolete; do not use.<br> |
-|
-
-**NETWORKINFO\_FLAGS\_REMOTE\_NAL\_CONNECTED**
-
-| Obsolete; do not use.<br> |
+| **NETWORKINFO\_FLAGS\_PMODE\_NOT\_SUPPORTED** | The network card does not support promiscuous mode, meaning that it will only capture traffic which is broadcast in nature or only involves the local machine.<br> |
+| **NETWORKINFO\_FLAGS\_RAS** | This is a virtual network card that is a RAS (Remote Access Server) connection through a modem or another network card.<br> |
+| **NETWORKINFO\_FLAGS\_REMOTE\_CARD** | The network card is not on the local computer, but is capturing on a remote machine at the bequest of the local computer.<br> |
+| **NETWORKINFO\_FLAGS\_REMOTE\_NAL** | Obsolete; do not use.<br> |
+| **NETWORKINFO\_FLAGS\_REMOTE\_NAL\_CONNECTED** | Obsolete; do not use.<br> |
 
 **TimestampScaleFactor**
 

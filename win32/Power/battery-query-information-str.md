@@ -16,69 +16,25 @@ The level of the battery information being queried. The data returned by the IOC
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **BatteryDeviceName**
 
-**BatteryDeviceName**
+4 | Null-terminated Unicode string that contains the battery's name.\ | | **BatteryEstimatedTime**
 
-4
+3 | A **ULONG** that specifies the estimated battery run time, in seconds. If the rate of drain provided in the **AtRate** member of the **BATTERY\_QUERY\_INFORMATION** structure is zero, this calculation is based on the present rate of drain. If **AtRate** is nonzero, the time returned is the expected run time for the given rate. If the estimated time is unknown (for example, the battery is not discharging and the **AtRate** specified was zero), the return value is BATTERY\_UNKNOWN\_TIME. Note that this value is not very accurate on some battery systems, and may vary widely depending on present power usage, which could be affected by disk activity and other factors. There is no notification mechanism for changes in this value.\ | | **BatteryGranularityInformation**
 
-| Null-terminated Unicode string that contains the battery's name.<br> |
-|
+1 | An array of [**BATTERY\_REPORTING\_SCALE**](https://learn.microsoft.com/windows/desktop/api/WinNT/ns-winnt-battery_reporting_scale) structures, never more than four entries.\ | | **BatteryInformation**
 
-**BatteryEstimatedTime**
+0 | A [**BATTERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-information-str) structure.\ | | **BatteryManufactureDate**
 
-3
+5 | A [**BATTERY\_MANUFACTURE\_DATE**](https://learn.microsoft.com/windows/win32/power/battery-manufacture-date-str) structure.\ | | **BatteryManufactureName**
 
-| A **ULONG** that specifies the estimated battery run time, in seconds. If the rate of drain provided in the **AtRate** member of the **BATTERY\_QUERY\_INFORMATION** structure is zero, this calculation is based on the present rate of drain. If **AtRate** is nonzero, the time returned is the expected run time for the given rate. If the estimated time is unknown (for example, the battery is not discharging and the **AtRate** specified was zero), the return value is BATTERY\_UNKNOWN\_TIME. Note that this value is not very accurate on some battery systems, and may vary widely depending on present power usage, which could be affected by disk activity and other factors. There is no notification mechanism for changes in this value.<br> |
-|
+6 | Null-terminated Unicode string that specifies the name of the manufacturer of the battery.\ | | **BatterySerialNumber**
 
-**BatteryGranularityInformation**
+8 | Null-terminated Unicode string that specifies the battery's serial number.\ | | **BatteryTemperature**
 
-1
+2 | A **ULONG** that specifies the battery's current temperature, in 10ths of a degree Kelvin.\ | | **BatteryUniqueID**
 
-| An array of [**BATTERY\_REPORTING\_SCALE**](https://learn.microsoft.com/windows/desktop/api/WinNT/ns-winnt-battery_reporting_scale) structures, never more than four entries.<br> |
-|
-
-**BatteryInformation**
-
-0
-
-| A [**BATTERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-information-str) structure.<br> |
-|
-
-**BatteryManufactureDate**
-
-5
-
-| A [**BATTERY\_MANUFACTURE\_DATE**](https://learn.microsoft.com/windows/win32/power/battery-manufacture-date-str) structure.<br> |
-|
-
-**BatteryManufactureName**
-
-6
-
-| Null-terminated Unicode string that specifies the name of the manufacturer of the battery.<br> |
-|
-
-**BatterySerialNumber**
-
-8
-
-| Null-terminated Unicode string that specifies the battery's serial number.<br> |
-|
-
-**BatteryTemperature**
-
-2
-
-| A **ULONG** that specifies the battery's current temperature, in 10ths of a degree Kelvin.<br> |
-|
-
-**BatteryUniqueID**
-
-7
-
-| Null-terminated Unicode string that uniquely identifies the battery. This value can be used to track a specific battery. In the case of smart batteries, this ID would be the concatenation of the manufacturer's name, device name, date of manufacture, and a printable representation of the serial number. <br> This value is not intended to be displayed to the user.<br> |
+7 | Null-terminated Unicode string that uniquely identifies the battery. This value can be used to track a specific battery. In the case of smart batteries, this ID would be the concatenation of the manufacturer's name, device name, date of manufacture, and a printable representation of the serial number. \ This value is not intended to be displayed to the user.\ |
 
 **AtRate**
 

@@ -10,7 +10,7 @@ Gets the URI of the referenced XML element.
 
 A pointer to the URI of the referenced element.
 
-This URI represented by a string is "#" followed by the **Id** attribute value of the referenced element: "#*<elementIdValue>*".
+This URI represented by a string is "#" followed by the **Id** attribute value of the referenced element: "#*\<elementIdValue>*".
 
 For examples, see the Remarks section.
 
@@ -31,8 +31,8 @@ The following table shows two examples of the *referenceUri* parameter value rep
 
 | *referenceUri* Value as String | Referenced Element | Element Description |
 | --- | --- | --- |
-| "#*idMyCustomObject*" | "<Object Id="*idMyCustomObject*">*...*</Object>" | An application-specific **Object** element. |
-| "#*idMyElement*" | "<Object><*MyElement* Id="*idMyElement*">*...*</*MyElement*>...</Object>" | A child element of an application-specific **Object**. |
+| "#*idMyCustomObject*" | "\<Object Id="*idMyCustomObject*">*...*\</Object>" | An application-specific **Object** element. |
+| "#*idMyElement*" | "\<Object><*MyElement* Id="*idMyElement*">*...*</*MyElement*>...\</Object>" | A child element of an application-specific **Object**. |
 
 #### Thread Safety
 

@@ -20,51 +20,15 @@ A pointer to a buffer containing data to set for the printer, or containing info
 
 | Level | Structure |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**0**
-
-| If the *Command* parameter is **PRINTER\_CONTROL\_SET\_STATUS**, *pPrinter* must contain a **DWORD** value that specifies the new printer status to set. For a list of the possible status values, see the **Status** member of the [**PRINTER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-2) structure. Note that **PRINTER\_STATUS\_PAUSED** and **PRINTER\_STATUS\_PENDING\_DELETION** are not valid status values to set.<br> If *Level* is 0, but the *Command* parameter is not **PRINTER\_CONTROL\_SET\_STATUS**, *pPrinter* must be **NULL**.<br> |
-|
-
-**2**
-
-| A [**PRINTER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-2) structure containing detailed information about the printer.<br> |
-|
-
-**3**
-
-| A [**PRINTER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-3) structure containing the printer's security information.<br> |
-|
-
-**4**
-
-| A [**PRINTER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-4) structure containing minimal printer information, including the name of the printer, the name of the server, and whether the printer is remote or local.<br> |
-|
-
-**5**
-
-| A [**PRINTER\_INFO\_5**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-5) structure containing printer information such as printer attributes and time-out settings.<br> |
-|
-
-**6**
-
-| A [**PRINTER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-6) structure specifying the status value of a printer.<br> |
-|
-
-**7**
-
-| A [**PRINTER\_INFO\_7**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-7) structure. The *dwAction* member of this structure indicates whether **SetPrinter** should publish, unpublish, re-publish, or update the printer's data in the directory service.<br> |
-|
-
-**8**
-
-| A [**PRINTER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-8) structure specifying the global default printer settings.<br> |
-|
-
-**9**
-
-| A [**PRINTER\_INFO\_9**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-9) structure specifying the per-user default printer settings.<br> |
+| **0** | If the *Command* parameter is **PRINTER\_CONTROL\_SET\_STATUS**, *pPrinter* must contain a **DWORD** value that specifies the new printer status to set. For a list of the possible status values, see the **Status** member of the [**PRINTER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-2) structure. Note that **PRINTER\_STATUS\_PAUSED** and **PRINTER\_STATUS\_PENDING\_DELETION** are not valid status values to set.<br> If *Level* is 0, but the *Command* parameter is not **PRINTER\_CONTROL\_SET\_STATUS**, *pPrinter* must be **NULL**.<br> |
+| **2** | A [**PRINTER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-2) structure containing detailed information about the printer.<br> |
+| **3** | A [**PRINTER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-3) structure containing the printer's security information.<br> |
+| **4** | A [**PRINTER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-4) structure containing minimal printer information, including the name of the printer, the name of the server, and whether the printer is remote or local.<br> |
+| **5** | A [**PRINTER\_INFO\_5**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-5) structure containing printer information such as printer attributes and time-out settings.<br> |
+| **6** | A [**PRINTER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-6) structure specifying the status value of a printer.<br> |
+| **7** | A [**PRINTER\_INFO\_7**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-7) structure. The *dwAction* member of this structure indicates whether **SetPrinter** should publish, unpublish, re-publish, or update the printer's data in the directory service.<br> |
+| **8** | A [**PRINTER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-8) structure specifying the global default printer settings.<br> |
+| **9** | A [**PRINTER\_INFO\_9**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-9) structure specifying the per-user default printer settings.<br> |
 
 *Command* \[in\]
 
@@ -76,26 +40,10 @@ If the *Level* parameter is zero, set the value of this parameter to one of the 
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**PRINTER\_CONTROL\_PAUSE**
-
-| Pause the printer.<br> |
-|
-
-**PRINTER\_CONTROL\_PURGE**
-
-| Delete all print jobs in the printer.<br> |
-|
-
-**PRINTER\_CONTROL\_RESUME**
-
-| Resume a paused printer.<br> |
-|
-
-**PRINTER\_CONTROL\_SET\_STATUS**
-
-| Set the printer status.<br> Set the *pPrinter* parameter to a pointer to a **DWORD** value that specifies the new printer status.<br> |
+| **PRINTER\_CONTROL\_PAUSE** | Pause the printer.<br> |
+| **PRINTER\_CONTROL\_PURGE** | Delete all print jobs in the printer.<br> |
+| **PRINTER\_CONTROL\_RESUME** | Resume a paused printer.<br> |
+| **PRINTER\_CONTROL\_SET\_STATUS** | Set the printer status.<br> Set the *pPrinter* parameter to a pointer to a **DWORD** value that specifies the new printer status.<br> |
 
 ## Return value
 

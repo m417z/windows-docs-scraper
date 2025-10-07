@@ -26,7 +26,7 @@ Request access to enterprise-protected content for a specific target app.
 
 ### `asyncOperation`
 
-An [IAsyncOperation<ProtectionPolicyEvaluationResult>](https://learn.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_) with a value of the [ProtectionPolicyEvaluationResult](https://learn.microsoft.com/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult) enumeration that is the result of the request.
+An [IAsyncOperation\<ProtectionPolicyEvaluationResult>](https://learn.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_) with a value of the [ProtectionPolicyEvaluationResult](https://learn.microsoft.com/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult) enumeration that is the result of the request.
 
 ## Return value
 

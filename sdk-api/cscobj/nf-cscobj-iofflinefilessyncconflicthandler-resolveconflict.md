@@ -68,7 +68,7 @@ This parameter may be **NULL** if a new name is not required by the resolution.
 
 The Offline Files conflict handler used by Sync Center creates a name of the following format:
 
-<original name> (<user name> v*N*).<original ext>
+\<original name> (\<user name> v*N*).\<original ext>
 
 where *N* is a version number. Therefore, if the original file name is "samples.doc" and the user's name is "Alice", the new file name will be:
 

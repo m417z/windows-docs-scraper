@@ -32,21 +32,9 @@ The operations the function performs. If this parameter is zero, the **DocumentP
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**DM\_IN\_BUFFER**
-
-| Input value. Before prompting, copying, or updating, the function merges the printer driver's current print settings with the settings in the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure specified by the *pDevModeInput* parameter. The function updates the structure only for those members specified by the **DEVMODE** structure's **dmFields** member. This value is also defined as **DM\_MODIFY**. In cases of conflict during the merge, the settings in the **DEVMODE** structure specified by *pDevModeInput* override the printer driver's current print settings.<br> |
-|
-
-**DM\_IN\_PROMPT**
-
-| Input value. The function presents the printer driver's Print Setup property sheet and then changes the settings in the printer's [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) data structure to those values specified by the user. This value is also defined as **DM\_PROMPT**.<br> |
-|
-
-**DM\_OUT\_BUFFER**
-
-| Output value. The function writes the printer driver's current print settings, including private data, to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) data structure specified by the *pDevModeOutput* parameter. The caller must allocate a buffer sufficiently large to contain the information. If the bit **DM\_OUT\_BUFFER** sets is clear, the *pDevModeOutput* parameter can be **NULL**. This value is also defined as **DM\_COPY**.<br> |
+| **DM\_IN\_BUFFER** | Input value. Before prompting, copying, or updating, the function merges the printer driver's current print settings with the settings in the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure specified by the *pDevModeInput* parameter. The function updates the structure only for those members specified by the **DEVMODE** structure's **dmFields** member. This value is also defined as **DM\_MODIFY**. In cases of conflict during the merge, the settings in the **DEVMODE** structure specified by *pDevModeInput* override the printer driver's current print settings.<br> |
+| **DM\_IN\_PROMPT** | Input value. The function presents the printer driver's Print Setup property sheet and then changes the settings in the printer's [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) data structure to those values specified by the user. This value is also defined as **DM\_PROMPT**.<br> |
+| **DM\_OUT\_BUFFER** | Output value. The function writes the printer driver's current print settings, including private data, to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) data structure specified by the *pDevModeOutput* parameter. The caller must allocate a buffer sufficiently large to contain the information. If the bit **DM\_OUT\_BUFFER** sets is clear, the *pDevModeOutput* parameter can be **NULL**. This value is also defined as **DM\_COPY**.<br> |
 
 ## Return value
 

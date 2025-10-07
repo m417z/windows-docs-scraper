@@ -2,7 +2,7 @@
 
 ## Description
 
-Gets the <Package> element at the current position of the enumerator.
+Gets the \<Package> element at the current position of the enumerator.
 
 ## Parameters
 
@@ -10,7 +10,7 @@ Gets the <Package> element at the current position of the enumerator.
 
 Type: **[IAppxBundleManifestPackageInfo](https://learn.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo)****
 
-The current <Package> element.
+The current \<Package> element.
 
 ## Return value
 

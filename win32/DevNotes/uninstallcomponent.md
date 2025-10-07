@@ -14,21 +14,9 @@ The flags used to control installation behaviors. This parameter can be a combin
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-|
-
-**COMP\_FLAGS\_NOUI**
-
-| Suppresses all UI.<br> |
-|
-
-**COMP\_FLAGS\_UPDATE\_DLLCACHE**
-
-| Forces the DLLCACHE directory to be updated when a system file is updated.<br> |
-|
-
-**COMP\_FLAGS\_USE\_SVCPACK\_CACHE**
-
-| Uses files cached by a Windows service pack install to supersede files backed up.<br> |
+| **COMP\_FLAGS\_NOUI** | Suppresses all UI.<br> |
+| **COMP\_FLAGS\_UPDATE\_DLLCACHE** | Forces the DLLCACHE directory to be updated when a system file is updated.<br> |
+| **COMP\_FLAGS\_USE\_SVCPACK\_CACHE** | Uses files cached by a Windows service pack install to supersede files backed up.<br> |
 
 *VerMajor* \[in, optional\]
 

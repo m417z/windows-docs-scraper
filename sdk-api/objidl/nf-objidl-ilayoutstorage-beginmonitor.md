@@ -11,7 +11,7 @@ This method supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_I
 
 | Return code | Description |
 |----------------|---------------|
-| STG_E_INUSE | BeginMonitor was called while **ILayoutStorage** was already monitoring. |
+| STG_E_INUSE | BeginMonitor\</xref> was called while **ILayoutStorage** was already monitoring. |
 
 ## Remarks
 

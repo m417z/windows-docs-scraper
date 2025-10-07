@@ -2,13 +2,13 @@
 
 ## Description
 
-Gets the <MainPackageDependency> element at the current position of the enumerator.
+Gets the \<MainPackageDependency> element at the current position of the enumerator.
 
 ## Parameters
 
 ### `mainPackageDependency` [out, retval]
 
-The current <MainPackageDependency> element.
+The current \<MainPackageDependency> element.
 
 ## Return value
 

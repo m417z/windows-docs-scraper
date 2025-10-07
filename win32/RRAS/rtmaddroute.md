@@ -16,36 +16,12 @@ Pointer to a protocol-family-specific structure that specifies the new or update
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**RR\_Network**
-
-| Specifies the destination network number.<br> |
-|
-
-**RR\_InterfaceID**
-
-| Specifies the index of the interface through which the route was received.<br> |
-|
-
-**RR\_NextHopAddress**
-
-| Specifies the address of the next-hop router.<br> |
-|
-
-**RR\_FamilySpecificData**
-
-| Specifies data that is specific to the protocol family. Although the data is transparent to the routing table manager, it is considered when comparing routes to determine if route information has changed. The data is also used to set metric values that are independent of the routing protocol. Consequently, this data is used to determine the best route for the destination network.<br> |
-|
-
-**RR\_ProtocolSpecificData**
-
-| Specifies data which is specific to the routing protocol that supplied the route.<br> |
-|
-
-**RR\_TimeStamp**
-
-| Specifies the current system time. This field is set by the routing table manager.<br> |
+| **RR\_Network** | Specifies the destination network number.<br> |
+| **RR\_InterfaceID** | Specifies the index of the interface through which the route was received.<br> |
+| **RR\_NextHopAddress** | Specifies the address of the next-hop router.<br> |
+| **RR\_FamilySpecificData** | Specifies data that is specific to the protocol family. Although the data is transparent to the routing table manager, it is considered when comparing routes to determine if route information has changed. The data is also used to set metric values that are independent of the routing protocol. Consequently, this data is used to determine the best route for the destination network.<br> |
+| **RR\_ProtocolSpecificData** | Specifies data which is specific to the routing protocol that supplied the route.<br> |
+| **RR\_TimeStamp** | Specifies the current system time. This field is set by the routing table manager.<br> |
 
 *TimeToLive* \[in\]
 
@@ -57,21 +33,9 @@ Pointer to a **DWORD** variable. The value of this variable is set by the routin
 
 | Flags | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**RTM\_NO\_CHANGE**
-
-| The addition or update either did not change any of the significant route parameters, or the route entry affected is not the best route among the entries for the destination network.<br> |
-|
-
-**RTM\_ROUTE\_ADDED**
-
-| The route was added for the destination network. The *CurBestRoute* parameter points to the information for the added route.<br> |
-|
-
-**RTM\_ROUTE\_CHANGED**
-
-| At least one of the significant parameters was changed for the best route to the destination network. The significant parameters are: <br> Protocol identifier<br> Interface index<br> Next-hop address<br> Protocol-family-specific data (including route metrics)<br> |
+| **RTM\_NO\_CHANGE** | The addition or update either did not change any of the significant route parameters, or the route entry affected is not the best route among the entries for the destination network.<br> |
+| **RTM\_ROUTE\_ADDED** | The route was added for the destination network. The *CurBestRoute* parameter points to the information for the added route.<br> |
+| **RTM\_ROUTE\_CHANGED** | At least one of the significant parameters was changed for the best route to the destination network. The significant parameters are: <br> Protocol identifier<br> Interface index<br> Next-hop address<br> Protocol-family-specific data (including route metrics)<br> |
 
 The *PrevBestRoute* parameter points to the route information as it was before the change. The *CurBestRoute* parameter points to the current (that is, after-change) route information.
 

@@ -8,7 +8,7 @@ Informs the system that a previously reported dynamic function table is no longe
 
 ### `DynamicTable` [in]
 
-An opaque reference returned by [RtlAddGrowableFunctionTable.](https://learn.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdgrowablefunctiontable)
+An opaque reference returned by [RtlAddGrowableFunctionTable](https://learn.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdgrowablefunctiontable).
 
 ## Return value
 

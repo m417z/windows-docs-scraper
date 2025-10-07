@@ -26,20 +26,11 @@ This parameter can be 0 or one of the following values.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **REG\_OPTION\_CREATE\_LINK**
 
-**REG\_OPTION\_CREATE\_LINK**
+0x00000002L | The key is a symbolic link. The target path is assigned to the L"SymbolicLinkValue" value of the key. The target path must be an absolute registry path. If this option is set, **REG\_OPTION\_NON\_VOLATILE** must also be set. \ If the *lpSubKey* parameter specifies an existing key, it must have been created with **REG\_OPTION\_CREATE\_LINK**.\ Registry symbolic links should be used only when absolutely necessary for application compatibility. \ | | **REG\_OPTION\_NON\_VOLATILE**
 
-0x00000002L
-
-| The key is a symbolic link. The target path is assigned to the L"SymbolicLinkValue" value of the key. The target path must be an absolute registry path. If this option is set, **REG\_OPTION\_NON\_VOLATILE** must also be set. <br> If the *lpSubKey* parameter specifies an existing key, it must have been created with **REG\_OPTION\_CREATE\_LINK**.<br> Registry symbolic links should be used only when absolutely necessary for application compatibility. <br> |
-|
-
-**REG\_OPTION\_NON\_VOLATILE**
-
-0x00000000L
-
-| The key is not volatile; this is the default. The information is stored in a file and is preserved when the system is restarted. The [**ORSaveHive**](https://learn.microsoft.com/windows/win32/devnotes/orsavehive) function saves keys that are not volatile.<br> |
+0x00000000L | The key is not volatile; this is the default. The information is stored in a file and is preserved when the system is restarted. The [**ORSaveHive**](https://learn.microsoft.com/windows/win32/devnotes/orsavehive) function saves keys that are not volatile.\ |
 
 *pSecurityDescriptor* \[in, optional\]
 
@@ -55,22 +46,11 @@ A pointer to a variable that receives one of the following disposition values.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-|
+| **REG\_CREATED\_NEW\_KEY**
 
-**REG\_CREATED\_NEW\_KEY**
+0x00000001L | The key did not exist and was created.\ | | **REG\_OPENED\_EXISTING\_KEY**
 
-0x00000001L
-
-| The key did not exist and was created.<br> |
-|
-
-**REG\_OPENED\_EXISTING\_KEY**
-
-0x00000002L
-
-| The key existed and was simply opened without being changed.<br> |
-
-If *pdwDisposition* is **NULL**, no disposition information is returned.
+0x00000002L | The key existed and was simply opened without being changed.\ | If *pdwDisposition* is **NULL**, no disposition information is returned.
 
 ## Return value
 

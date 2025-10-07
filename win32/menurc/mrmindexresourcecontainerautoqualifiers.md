@@ -60,8 +60,8 @@ For example:
 
 | filePath | resource name (inside file) | resourceName | qualifiers |
 |-|-|-|-|
-| resources.resw | my_string | ms-resource:///resources/my_string | \ |
-| images.resw | logo.scale-200.png | ms-resource:///images/logo/scale-200/png | \ |
+| resources.resw | my_string | ms-resource:///resources/my_string | \<N/A> |
+| images.resw | logo.scale-200.png | ms-resource:///images/logo/scale-200/png | \<N/A> |
 | **language-es**\\text.**homeregion-mx**.resjson | greeting | ms-resource:///text/greeting | language-es_homeregion-mx |
 | content\\**language-jp**\\menu.scale-100.submenu.resjson | title.text | ms-resource:///menu.scale-100.submenu/title/text | language-jp |
 

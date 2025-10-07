@@ -14,20 +14,11 @@ The flags for this attribute.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-|
+| **ATTRIBUTE\_AVAILABLE**
 
-**ATTRIBUTE\_AVAILABLE**
+0x00000001 | The attribute is available.\ | | **ATTRIBUTE\_FAILED**
 
-0x00000001
-
-| The attribute is available.<br> |
-|
-
-**ATTRIBUTE\_FAILED**
-
-0x00000002
-
-| The call failed because the attribute is not available.<br> |
+0x00000002 | The call failed because the attribute is not available.\ |
 
 **ullAttr**
 

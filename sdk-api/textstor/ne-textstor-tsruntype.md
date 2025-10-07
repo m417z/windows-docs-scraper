@@ -25,7 +25,7 @@ A text run is a collection of consecutive characters that is visible, hidden, or
 | Text Run | Value |
 | --- | --- |
 | <b> | TS_RT_HIDDEN |
-| Hello<space> | TS_RT_PLAIN |
+| Hello\<space> | TS_RT_PLAIN |
 | </b> | TS_RT_HIDDEN |
 | <i> | TS_RT_HIDDEN |
 | World | TS_RT_PLAIN |

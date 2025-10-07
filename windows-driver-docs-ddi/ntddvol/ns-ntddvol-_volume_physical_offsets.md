@@ -12,7 +12,7 @@ Contains the number of physical offsets returned by the call to [IOCTL_VOLUME_LO
 
 ### `PhysicalOffset`
 
-Contains an array of structures of type [VOLUME_PHYSICAL_OFFSET](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset). Each element of the array contains a pair consisting of a physical disk number and an accompanying physical offset .
+Contains an array of structures of type [VOLUME_PHYSICAL_OFFSET](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset). Each element of the array contains a pair consisting of a physical disk number and an accompanying physical offset \<disk number, disk offset>.
 
 ## See also
 

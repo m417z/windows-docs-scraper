@@ -18,46 +18,14 @@ A set of flags that describes who sends the event data, and how the event is dis
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**EVENT\_FLAG\_EXPERT**
-
-| The event came from an expert. <br> |
-|
-
-**NMEVENTFLAG\_DO\_NOT\_DISPLAY\_SEVERITY**
-
-| Do not display the severity level for the event. <br> |
-|
-
-**NMEVENTFLAG\_DO\_NOT\_DISPLAY\_SOURCE**
-
-| Do not display the source name for the event. <br> |
-|
-
-**NMEVENTFLAG\_DO\_NOT\_DISPLAY\_EVENT\_NAME**
-
-| Do not display the event name for the event. <br> |
-|
-
-**NMEVENTFLAG\_DO\_NOT\_DISPLAY\_DESCRIPTION**
-
-| Do not display the description for the event. <br> |
-|
-
-**NMEVENTFLAG\_DO\_NOT\_DISPLAY\_MACHINE**
-
-| Do not display the machine name for the event. <br> |
-|
-
-**NMEVENTFLAG\_DO\_NOT\_DISPLAY\_TIME**
-
-| Do not display the time for the event <br> |
-|
-
-**NMEVENTFLAG\_DO\_NOT\_DISPLAY\_FIXED\_COLUMNS**
-
-| Do not display the Severity, Source, Event Name, Description, Machine, or Time columns. This is not a single flag, but it is a union of the previous six flags. <br> |
+| **EVENT\_FLAG\_EXPERT** | The event came from an expert. <br> |
+| **NMEVENTFLAG\_DO\_NOT\_DISPLAY\_SEVERITY** | Do not display the severity level for the event. <br> |
+| **NMEVENTFLAG\_DO\_NOT\_DISPLAY\_SOURCE** | Do not display the source name for the event. <br> |
+| **NMEVENTFLAG\_DO\_NOT\_DISPLAY\_EVENT\_NAME** | Do not display the event name for the event. <br> |
+| **NMEVENTFLAG\_DO\_NOT\_DISPLAY\_DESCRIPTION** | Do not display the description for the event. <br> |
+| **NMEVENTFLAG\_DO\_NOT\_DISPLAY\_MACHINE** | Do not display the machine name for the event. <br> |
+| **NMEVENTFLAG\_DO\_NOT\_DISPLAY\_TIME** | Do not display the time for the event <br> |
+| **NMEVENTFLAG\_DO\_NOT\_DISPLAY\_FIXED\_COLUMNS** | Do not display the Severity, Source, Event Name, Description, Machine, or Time columns. This is not a single flag, but it is a union of the previous six flags. <br> |
 
 **Severity**
 

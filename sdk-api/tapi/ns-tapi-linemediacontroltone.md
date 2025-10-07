@@ -39,7 +39,7 @@ Media control action. This member uses one of the
 This structure may not be extended.
 
 The
-**LINEMEDIACONTROLTONE** structure defines a tuple <tone, media-control action>. An array of these tuples is passed to the
+**LINEMEDIACONTROLTONE** structure defines a tuple \<tone, media-control action>. An array of these tuples is passed to the
 [lineSetMediaControl](https://learn.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol) function to set media control actions triggered by media type changes for a given call. When a change to a listed media type is detected, the corresponding action on the media stream is invoked.
 
 A tone with all frequencies set to zero corresponds to silence. An application can thus monitor the call's information stream for silence.

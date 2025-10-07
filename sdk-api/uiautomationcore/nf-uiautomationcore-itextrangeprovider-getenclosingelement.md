@@ -31,7 +31,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 1. This example shows a text stream that contains an image link. The link is a child of the image, but both span the same text range and are exposed as embedded objects within the text stream.
 
-    *Hello \ World*
+    *Hello \<Image Link\> World*
 
     - Both image and link are also descendents of the stream's [ITextProvider](https://learn.microsoft.com/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextprovider), and either can be specified as the *childElement* in a call to [ITextProvider::RangeFromChild](https://learn.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefromchild).
     - Calling [ITextRangeProvider::RangeFromChild](https://learn.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefromchild), using either the image or the link, returns the same text range (*Range1*).

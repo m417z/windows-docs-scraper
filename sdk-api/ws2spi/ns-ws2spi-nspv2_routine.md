@@ -28,7 +28,7 @@ The minor version of the service provider specification supported by this provid
 
 ### `NSPv2Startup`
 
-Type: ** LPNSPV2STARTUP**
+Type: **LPNSPV2STARTUP**
 
 A pointer to the [NSPv2Startup](https://learn.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup) function for this NSPv2 provider.
 

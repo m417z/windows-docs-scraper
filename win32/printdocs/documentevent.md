@@ -18,76 +18,20 @@ An escape code that identifies the event to be handled. This parameter can be on
 
 | Constant | Event |
 |-|-|
-|
-
-**DOCUMENTEVENT\_ABORTDOC**
-
-| GDI is about to process a call to its [**AbortDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-abortdoc) function. |
-|
-
-**DOCUMENTEVENT\_CREATEDCPOST**
-
-| GDI has just processed a call to its [**CreateDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) or [**CreateIC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica) function.<br> This escape code should not be used unless there has been a previous call to **DocumentEvent** with *iEsc* set to DOCUMENTEVENT\_CREATEDCPRE. |
-|
-
-**DOCUMENTEVENT\_CREATEDCPRE**
-
-| GDI is about to process a call to its [**CreateDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) or [**CreateIC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica) function. |
-|
-
-**DOCUMENTEVENT\_DELETEDC**
-
-| GDI is about to process a call to its [**DeleteDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc) function. |
-|
-
-**DOCUMENTEVENT\_ENDDOCPOST**
-
-| GDI has just processed a call to its [**EndDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-enddoc) function. |
-|
-
-**DOCUMENTEVENT\_ENDDOCPRE or DOCUMENTEVENT\_ENDDOC**
-
-| GDI is about to process a call to its [**EndDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-enddoc) function. |
-|
-
-**DOCUMENTEVENT\_ENDPAGE**
-
-| GDI is about to process a call to its [**EndPage**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-endpage) function. |
-|
-
-**DOCUMENTEVENT\_ESCAPE**
-
-| GDI is about to process a call to its [**ExtEscape**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-extescape) function. |
-|
-
-**DOCUMENTEVENT\_QUERYFILTER**
-
-| The DOCUMENTEVENT\_QUERYFILTER event represents an opportunity for the spooler to query the driver for a list of the DOCUMENTEVENT\_ *XXX* events to which the driver will respond. This event is issued just prior to a call to **DocumentEvent** that passes the DOCUMENTEVENT\_CREATEDCPRE event. |
-|
-
-**DOCUMENTEVENT\_RESETDCPOST**
-
-| GDI has just processed a call to its [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca) function.<br> This escape code should not be used unless there has been a previous call to **DocumentEvent** with *iEsc* set to DOCUMENTEVENT\_RESETDCPRE. |
-|
-
-**DOCUMENTEVENT\_RESETDCPRE**
-
-| GDI is about to process a call to its [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca) function. |
-|
-
-**DOCUMENTEVENT\_STARTDOCPOST**
-
-| GDI has just processed a call to its [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca) function. |
-|
-
-**DOCUMENTEVENT\_STARTDOCPRE or DOCUMENTEVENT\_STARTDOC**
-
-| GDI is about to process a call to its [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca) function. |
-|
-
-**DOCUMENTEVENT\_STARTPAGE**
-
-| GDI is about to process a call to its [**StartPage**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startpage) function. |
+| **DOCUMENTEVENT\_ABORTDOC** | GDI is about to process a call to its [**AbortDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-abortdoc) function. |
+| **DOCUMENTEVENT\_CREATEDCPOST** | GDI has just processed a call to its [**CreateDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) or [**CreateIC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica) function.<br> This escape code should not be used unless there has been a previous call to **DocumentEvent** with *iEsc* set to DOCUMENTEVENT\_CREATEDCPRE. |
+| **DOCUMENTEVENT\_CREATEDCPRE** | GDI is about to process a call to its [**CreateDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) or [**CreateIC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica) function. |
+| **DOCUMENTEVENT\_DELETEDC** | GDI is about to process a call to its [**DeleteDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc) function. |
+| **DOCUMENTEVENT\_ENDDOCPOST** | GDI has just processed a call to its [**EndDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-enddoc) function. |
+| **DOCUMENTEVENT\_ENDDOCPRE or DOCUMENTEVENT\_ENDDOC** | GDI is about to process a call to its [**EndDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-enddoc) function. |
+| **DOCUMENTEVENT\_ENDPAGE** | GDI is about to process a call to its [**EndPage**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-endpage) function. |
+| **DOCUMENTEVENT\_ESCAPE** | GDI is about to process a call to its [**ExtEscape**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-extescape) function. |
+| **DOCUMENTEVENT\_QUERYFILTER** | The DOCUMENTEVENT\_QUERYFILTER event represents an opportunity for the spooler to query the driver for a list of the DOCUMENTEVENT\_ *XXX* events to which the driver will respond. This event is issued just prior to a call to **DocumentEvent** that passes the DOCUMENTEVENT\_CREATEDCPRE event. |
+| **DOCUMENTEVENT\_RESETDCPOST** | GDI has just processed a call to its [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca) function.<br> This escape code should not be used unless there has been a previous call to **DocumentEvent** with *iEsc* set to DOCUMENTEVENT\_RESETDCPRE. |
+| **DOCUMENTEVENT\_RESETDCPRE** | GDI is about to process a call to its [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca) function. |
+| **DOCUMENTEVENT\_STARTDOCPOST** | GDI has just processed a call to its [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca) function. |
+| **DOCUMENTEVENT\_STARTDOCPRE or DOCUMENTEVENT\_STARTDOC** | GDI is about to process a call to its [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca) function. |
+| **DOCUMENTEVENT\_STARTPAGE** | GDI is about to process a call to its [**StartPage**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startpage) function. |
 
 *cbIn*
 
@@ -99,76 +43,20 @@ A pointer to a buffer. What the buffer contains depends on the value of *iEsc*, 
 
 | Constant | pvin Contents |
 |-|-|
-|
-
-**DOCUMENTEVENT\_ABORTDOC**
-
-| Not used. |
-|
-
-**DOCUMENTEVENT\_CREATEDCPOST**
-
-| *pvIn* contains the address of a pointer to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure specified in the *pvOut* parameter in a previous call to this function, for which the *iEsc* parameter was set to DOCUMENTEVENT\_CREATEDCPRE. |
-|
-
-**DOCUMENTEVENT\_CREATEDCPRE**
-
-| *pvIn* points to a DOCEVENT\_CREATEDCPRE structure which is documented in the [Windows Driver Development Kit](https://msdn.microsoft.com/windows/hardware/gg487428). |
-|
-
-**DOCUMENTEVENT\_DELETEDC**
-
-| Not used. |
-|
-
-**DOCUMENTEVENT\_ENDDOCPOST**
-
-| Not used. |
-|
-
-**DOCUMENTEVENT\_ENDDOCPRE or DOCUMENTEVENT\_ENDDOC**
-
-| Not used. |
-|
-
-**DOCUMENTEVENT\_ENDPAGE**
-
-| Not used. |
-|
-
-**DOCUMENTEVENT\_ESCAPE**
-
-| *pvIn* points to a DOCEVENT\_ESCAPE structure which is documented in the [Windows Driver Development Kit](https://msdn.microsoft.com/windows/hardware/gg487428). |
-|
-
-**DOCUMENTEVENT\_QUERYFILTER**
-
-| Same as for DOCUMENTEVENT\_CREATEDCPRE. |
-|
-
-**DOCUMENTEVENT\_RESETDCPOST**
-
-| *pvIn* contains the address of a pointer to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure specified in the *pvOut* parameter in a previous call to this function, for which the *iEsc* parameter was set to DOCUMENTEVENT\_RESETDCPRE. |
-|
-
-**DOCUMENTEVENT\_RESETDCPRE**
-
-| *pvIn* contains the address of a pointer to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure supplied by the caller of [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca). |
-|
-
-**DOCUMENTEVENT\_STARTDOCPOST**
-
-| *pvIn* points to a LONG that specifies the print job identifier returned by [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca). |
-|
-
-**DOCUMENTEVENT\_STARTDOCPRE or DOCUMENTEVENT\_STARTDOC**
-
-| *pvIn* contains the address of a pointer to a [**DOCINFO**](https://learn.microsoft.com/windows/desktop/api/Wingdi/ns-wingdi-docinfoa) structure supplied by the caller of [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca). |
-|
-
-**DOCUMENTEVENT\_STARTPAGE**
-
-| Not used. |
+| **DOCUMENTEVENT\_ABORTDOC** | Not used. |
+| **DOCUMENTEVENT\_CREATEDCPOST** | *pvIn* contains the address of a pointer to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure specified in the *pvOut* parameter in a previous call to this function, for which the *iEsc* parameter was set to DOCUMENTEVENT\_CREATEDCPRE. |
+| **DOCUMENTEVENT\_CREATEDCPRE** | *pvIn* points to a DOCEVENT\_CREATEDCPRE structure which is documented in the [Windows Driver Development Kit](https://msdn.microsoft.com/windows/hardware/gg487428). |
+| **DOCUMENTEVENT\_DELETEDC** | Not used. |
+| **DOCUMENTEVENT\_ENDDOCPOST** | Not used. |
+| **DOCUMENTEVENT\_ENDDOCPRE or DOCUMENTEVENT\_ENDDOC** | Not used. |
+| **DOCUMENTEVENT\_ENDPAGE** | Not used. |
+| **DOCUMENTEVENT\_ESCAPE** | *pvIn* points to a DOCEVENT\_ESCAPE structure which is documented in the [Windows Driver Development Kit](https://msdn.microsoft.com/windows/hardware/gg487428). |
+| **DOCUMENTEVENT\_QUERYFILTER** | Same as for DOCUMENTEVENT\_CREATEDCPRE. |
+| **DOCUMENTEVENT\_RESETDCPOST** | *pvIn* contains the address of a pointer to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure specified in the *pvOut* parameter in a previous call to this function, for which the *iEsc* parameter was set to DOCUMENTEVENT\_RESETDCPRE. |
+| **DOCUMENTEVENT\_RESETDCPRE** | *pvIn* contains the address of a pointer to the [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure supplied by the caller of [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca). |
+| **DOCUMENTEVENT\_STARTDOCPOST** | *pvIn* points to a LONG that specifies the print job identifier returned by [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca). |
+| **DOCUMENTEVENT\_STARTDOCPRE or DOCUMENTEVENT\_STARTDOC** | *pvIn* contains the address of a pointer to a [**DOCINFO**](https://learn.microsoft.com/windows/desktop/api/Wingdi/ns-wingdi-docinfoa) structure supplied by the caller of [**StartDoc**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-startdoca). |
+| **DOCUMENTEVENT\_STARTPAGE** | Not used. |
 
 *cbOut*
 
@@ -184,26 +72,10 @@ A pointer to a buffer. The contents of the buffer depend on the value supplied f
 
 | Constant | pvOut Contents |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**DOCUMENTEVENT\_CREATEDCPRE**
-
-| A pointer to a driver-supplied [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure, which GDI uses instead of the one supplied by the [**CreateDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) caller. (If **NULL**, GDI uses the caller-supplied structure.)<br> |
-|
-
-**DOCUMENTEVENT\_ESCAPE**
-
-| A pointer to a buffer that is used as the *lpszOutData* parameter for [**ExtEscape**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-extescape).<br> |
-|
-
-**DOCUMENTEVENT\_QUERYFILTER**
-
-| A pointer to buffer containing a DOCEVENT\_FILTER structure which is documented in the [Windows Driver Development Kit](https://msdn.microsoft.com/windows/hardware/gg487428).<br> |
-|
-
-**DOCUMENTEVENT\_RESETDCPRE**
-
-| A pointer to a driver-supplied [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure, which GDI uses instead of the one supplied by the [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca) caller. (If **NULL**, GDI uses the caller-supplied structure.)<br> |
+| **DOCUMENTEVENT\_CREATEDCPRE** | A pointer to a driver-supplied [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure, which GDI uses instead of the one supplied by the [**CreateDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca) caller. (If **NULL**, GDI uses the caller-supplied structure.)<br> |
+| **DOCUMENTEVENT\_ESCAPE** | A pointer to a buffer that is used as the *lpszOutData* parameter for [**ExtEscape**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-extescape).<br> |
+| **DOCUMENTEVENT\_QUERYFILTER** | A pointer to buffer containing a DOCEVENT\_FILTER structure which is documented in the [Windows Driver Development Kit](https://msdn.microsoft.com/windows/hardware/gg487428).<br> |
+| **DOCUMENTEVENT\_RESETDCPRE** | A pointer to a driver-supplied [**DEVMODE**](https://learn.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) structure, which GDI uses instead of the one supplied by the [**ResetDC**](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-resetdca) caller. (If **NULL**, GDI uses the caller-supplied structure.)<br> |
 
 ## Return value
 

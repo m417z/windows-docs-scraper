@@ -26,7 +26,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-*bstrAccountName* must be of the form <domainName>\<username> or just <username> for local users.
+*bstrAccountName* must be of the form \<domainName>\<username> or just \<username> for local users.
 
 When the new account is returned, all its values except the name are set to defaults.
 

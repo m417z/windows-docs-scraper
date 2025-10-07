@@ -26,7 +26,7 @@ Use one of the following constants to specify a namespace.
 | **NS_DNS** | The Domain Name System used in the Internet for host name resolution. |
 | **NS_NETBT** | The NetBIOS over TCP/IP layer. All operating systems register their computer names with NetBIOS. This namespace is used to resolve a computer name into an IP address using this registration. Note that NS_NETBT can access a WINS server to perform the resolution. |
 | **NS_SAP** | The NetWare Service Advertising Protocol. This can access the NetWare bindery if appropriate. NS_SAP is a dynamic namespace that allows registration of services. |
-| **NS_TCPIP_HOSTS** | Looks up host names and IP addresses in the <systemroot>\system32\drivers\etc\hosts file. |
+| **NS_TCPIP_HOSTS** | Looks up host names and IP addresses in the \<systemroot>\system32\drivers\etc\hosts file. |
 | **NS_TCPIP_LOCAL** | Local TCP/IP name resolution mechanisms, including comparisons against the local host name and looks up host names and IP addresses in cache of host to IP address mappings. |
 
 Most calls to

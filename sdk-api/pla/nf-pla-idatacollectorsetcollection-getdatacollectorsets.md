@@ -12,7 +12,7 @@ The computer whose data collector sets you want to enumerate. You can specify a 
 
 ### `filter` [in]
 
-If empty, PLA enumerates sets from all namespaces; otherwise, specify a specific namespace to enumerate. The form is <namespace>\*. For possible namespace values, see [IDataCollectorSet::Commit](https://learn.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit).
+If empty, PLA enumerates sets from all namespaces; otherwise, specify a specific namespace to enumerate. The form is \<namespace>\*. For possible namespace values, see [IDataCollectorSet::Commit](https://learn.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit).
 
 ## Return value
 

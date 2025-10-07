@@ -16,41 +16,13 @@ Specifies the state of the port. This member can be one of the following values.
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**RAS\_PORT\_NON\_OPERATIONAL**
-
-| The port is not operational. Check the event log for errors reported by the server.<br> |
-|
-
-**RAS\_PORT\_DISCONNECTED**
-
-| The port is currently disconnected.<br> |
-|
-
-**RAS\_PORT\_CALLING\_BACK**
-
-| The RAS server is calling back the RAS client.<br> |
-|
-
-**RAS\_PORT\_LISTENING**
-
-| The port is waiting for a client to call in.<br> |
-|
-
-**RAS\_PORT\_AUTHENTICATING**
-
-| The server is in the process of authenticating the remote client.<br> |
-|
-
-**RAS\_PORT\_AUTHENTICATED**
-
-| The remote client is now authenticated.<br> |
-|
-
-**RAS\_PORT\_INITIALIZING**
-
-| The device attached to the port is being initialized. The state of the port will change to RAS\_PORT\_LISTENING when the initialization has been completed.<br> |
+| **RAS\_PORT\_NON\_OPERATIONAL** | The port is not operational. Check the event log for errors reported by the server.<br> |
+| **RAS\_PORT\_DISCONNECTED** | The port is currently disconnected.<br> |
+| **RAS\_PORT\_CALLING\_BACK** | The RAS server is calling back the RAS client.<br> |
+| **RAS\_PORT\_LISTENING** | The port is waiting for a client to call in.<br> |
+| **RAS\_PORT\_AUTHENTICATING** | The server is in the process of authenticating the remote client.<br> |
+| **RAS\_PORT\_AUTHENTICATED** | The remote client is now authenticated.<br> |
+| **RAS\_PORT\_INITIALIZING** | The device attached to the port is being initialized. The state of the port will change to RAS\_PORT\_LISTENING when the initialization has been completed.<br> |
 
 **HardwareCondition**
 
@@ -58,16 +30,8 @@ Specifies one of the following values to indicate the state of the device attach
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-|
-
-**RAS\_MODEM\_OPERATIONAL**
-
-| The modem attached to this port is operational and is ready to receive client calls.<br> |
-|
-
-**RAS\_MODEM\_HARDWARE\_FAILURE**
-
-| The modem attached to this port has a hardware problem.<br> |
+| **RAS\_MODEM\_OPERATIONAL** | The modem attached to this port is operational and is ready to receive client calls.<br> |
+| **RAS\_MODEM\_HARDWARE\_FAILURE** | The modem attached to this port has a hardware problem.<br> |
 
 **LineSpeed**
 

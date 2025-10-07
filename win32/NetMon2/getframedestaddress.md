@@ -22,16 +22,8 @@ The flags used to modify returned destination address data.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-|
-
-**ADDRESSTYPE\_FLAGS\_NORMALIZE**
-
-| Cancels the routing and group BITs.<br> |
-|
-
-**ADDRESSTYPE\_FLAGS\_BIT\_REVERSE**
-
-| Converts token ring network addresses back to normal.<br> |
+| **ADDRESSTYPE\_FLAGS\_NORMALIZE** | Cancels the routing and group BITs.<br> |
+| **ADDRESSTYPE\_FLAGS\_BIT\_REVERSE** | Converts token ring network addresses back to normal.<br> |
 
 ## Return value
 

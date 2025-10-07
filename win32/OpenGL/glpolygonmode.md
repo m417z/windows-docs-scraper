@@ -14,21 +14,9 @@ The way polygons will be rasterized. The following modes are defined and can be 
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_POINT**
-
-| Polygon vertices that are marked as the start of a boundary edge are drawn as points. Point attributes such as GL\_POINT\_SIZE and GL\_POINT\_SMOOTH control the rasterization of the points. Polygon rasterization attributes other than GL\_POLYGON\_MODE have no effect.<br> |
-|
-
-**GL\_LINE**
-
-| Boundary edges of the polygon are drawn as line segments. They are treated as connected line segments for line stippling; the line stipple counter and pattern are not reset between segments (see [**glLineStipple**](https://learn.microsoft.com/windows/win32/opengl/gllinestipple)). Line attributes such as GL\_LINE\_WIDTH and GL\_LINE\_SMOOTH control the rasterization of the lines. Polygon rasterization attributes other than GL\_POLYGON\_MODE have no effect.<br> |
-|
-
-**GL\_FILL**
-
-| The interior of the polygon is filled. Polygon attributes such as GL\_POLYGON\_STIPPLE and GL\_POLYGON\_SMOOTH control the rasterization of the polygon.<br> |
+| **GL\_POINT** | Polygon vertices that are marked as the start of a boundary edge are drawn as points. Point attributes such as GL\_POINT\_SIZE and GL\_POINT\_SMOOTH control the rasterization of the points. Polygon rasterization attributes other than GL\_POLYGON\_MODE have no effect.<br> |
+| **GL\_LINE** | Boundary edges of the polygon are drawn as line segments. They are treated as connected line segments for line stippling; the line stipple counter and pattern are not reset between segments (see [**glLineStipple**](https://learn.microsoft.com/windows/win32/opengl/gllinestipple)). Line attributes such as GL\_LINE\_WIDTH and GL\_LINE\_SMOOTH control the rasterization of the lines. Polygon rasterization attributes other than GL\_POLYGON\_MODE have no effect.<br> |
+| **GL\_FILL** | The interior of the polygon is filled. Polygon attributes such as GL\_POLYGON\_STIPPLE and GL\_POLYGON\_SMOOTH control the rasterization of the polygon.<br> |
 
 ## Return value
 

@@ -30,20 +30,11 @@ One of the following constants.
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-|
+| **NCRYPT\_SSL\_CLIENT\_FLAG**
 
-**NCRYPT\_SSL\_CLIENT\_FLAG**
+0x00000001 | Specifies that this is a client call.\ | | **NCRYPT\_SSL\_SERVER\_FLAG**
 
-0x00000001
-
-| Specifies that this is a client call.<br> |
-|
-
-**NCRYPT\_SSL\_SERVER\_FLAG**
-
-0x00000002
-
-| Specifies that this is a server call.<br> |
+0x00000002 | Specifies that this is a server call.\ |
 
 ## Return value
 

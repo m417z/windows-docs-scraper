@@ -27,7 +27,7 @@ If the function fails, the return value is a system error code. For a list of er
 
 ## Remarks
 
-The security descriptor is set on the "CN=DFS-Configuration,CN=System,DC=*domain*" object in Active Directory from the primary domain controller (PDC) of the domain specified in the *DomainName* parameter, where <domain> is the distinguished name of the domain specified in the *DomainName* parameter.
+The security descriptor is set on the "CN=DFS-Configuration,CN=System,DC=*domain*" object in Active Directory from the primary domain controller (PDC) of the domain specified in the *DomainName* parameter, where \<domain> is the distinguished name of the domain specified in the *DomainName* parameter.
 
 ## See also
 

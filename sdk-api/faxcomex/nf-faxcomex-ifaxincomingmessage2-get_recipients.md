@@ -14,7 +14,7 @@ This property is read/write.
 
 A received message starts with a null value for the recipients when it arrives. A list of recipients can be specified by a [routing assistant](https://learn.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary) when it is reassigned.
 
-Each recipient is identified on the pattern of <DomainName>\<UserName>. A colon ":" separates each recipient. For local users, <DomainName> is the local computer name.
+Each recipient is identified on the pattern of \<DomainName>\<UserName>. A colon ":" separates each recipient. For local users, \<DomainName> is the local computer name.
 
 ## See also
 

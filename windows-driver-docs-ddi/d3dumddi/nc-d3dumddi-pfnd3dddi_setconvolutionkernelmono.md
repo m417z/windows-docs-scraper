@@ -31,9 +31,9 @@ D3DTEXF_CONVOLUTIONMONO is a texture filter mode that is used for sampling monoc
 
 The following formula is used to perform the convolution:
 
-Result = Sum(i=0, i v)[ (Ri*(1 - alpha) + Ri+1*alpha) * S)]
+Result = Sum(i=0, i \<Nv)[ (Ri*(1 - alpha) + Ri+1*alpha) * S)]
 
-Rₖ = Sum(j=0, j u)[Tk,j*(1 - beta) + Tk,j+1*beta], where 0 < k < Nv
+Rₖ = Sum(j=0, j \<Nu)[Tk,j*(1 - beta) + Tk,j+1*beta], where 0 < k < Nv
 
 S = 1 / (Nu * Nv)
 

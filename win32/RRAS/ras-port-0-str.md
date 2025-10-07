@@ -32,36 +32,12 @@ Specifies a set of bit flags that specify the nature of the connection made on t
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GATEWAY\_ACTIVE**
-
-| If this flag is set, the NetBIOS gateway is active on the server.<br> |
-|
-
-**MESSENGER\_PRESENT**
-
-| If this flag is set, the messenger service is running on the remote client.<br> |
-|
-
-**PORT\_MULTILINKED**
-
-| If this flag is set, the port is multilinked with other ports. Use this information to display the connection status as a multilinked port. <br> For a multilinked port, the [**RAS\_PORT\_STATISTICS**](https://learn.microsoft.com/windows/win32/rras/ras-port-statistics-str) structure contains two sets of statistics: one for the port alone, and another for the combined ports in the multilink connection.<br> |
-|
-
-**PPP\_CLIENT**
-
-| If this flag is set, the remote client connected using PPP. If this flag is not set, the remote client connected using the AMB protocol.<br> |
-|
-
-**REMOTE\_LISTEN**
-
-| If this flag is set, the RemoteListen parameter of the NetBIOS gateway is set to 1 on the server.<br> |
-|
-
-**USER\_AUTHENTICATED**
-
-| If this flag is set, a remote client is connected to the server and the user has been authenticated. Check this flag to ensure that a client is actually connected to a port.<br> |
+| **GATEWAY\_ACTIVE** | If this flag is set, the NetBIOS gateway is active on the server.<br> |
+| **MESSENGER\_PRESENT** | If this flag is set, the messenger service is running on the remote client.<br> |
+| **PORT\_MULTILINKED** | If this flag is set, the port is multilinked with other ports. Use this information to display the connection status as a multilinked port. <br> For a multilinked port, the [**RAS\_PORT\_STATISTICS**](https://learn.microsoft.com/windows/win32/rras/ras-port-statistics-str) structure contains two sets of statistics: one for the port alone, and another for the combined ports in the multilink connection.<br> |
+| **PPP\_CLIENT** | If this flag is set, the remote client connected using PPP. If this flag is not set, the remote client connected using the AMB protocol.<br> |
+| **REMOTE\_LISTEN** | If this flag is set, the RemoteListen parameter of the NetBIOS gateway is set to 1 on the server.<br> |
+| **USER\_AUTHENTICATED** | If this flag is set, a remote client is connected to the server and the user has been authenticated. Check this flag to ensure that a client is actually connected to a port.<br> |
 
 If the MESSENGER\_PRESENT, GATEWAY\_ACTIVE, and REMOTE\_LISTEN flags are set, use the messenger service to send an administrative message to the remote client. If MESSENGER\_PRESENT and REMOTE\_LISTEN are set, but GATEWAY\_ACTIVE is not, send messages to the client only from the RAS server to which the client is connected.
 

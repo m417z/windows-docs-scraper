@@ -39,7 +39,7 @@ This method can return one of these values.
 
 In the sentence, "This is *italic text*.", the italic attribute starts before the word *italic* and ends after the word *text*.
 
-If the flag **TS_ATTR_FIND_WANT_END** is set in *dwFlags*, the method would return the italic attribute for the text "*italic* <anchor>normal", because there is an end transition at the anchor location.
+If the flag **TS_ATTR_FIND_WANT_END** is set in *dwFlags*, the method would return the italic attribute for the text "*italic* \<anchor>normal", because there is an end transition at the anchor location.
 
 ## See also
 

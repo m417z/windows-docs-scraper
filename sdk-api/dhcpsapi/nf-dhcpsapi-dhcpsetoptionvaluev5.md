@@ -27,7 +27,7 @@ parameter should be 0.
 DHCP_OPTION_ID value that contains the unique option ID number (also called an "option code") of the
 option being set. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP
 option codes can be found at
-<http://www.ietf.org/rfc/rfc2132.txt>.
+\<http://www.ietf.org/rfc/rfc2132.txt>.
 
 ### `ClassName` [in, optional]
 

@@ -1,6 +1,6 @@
 ## Description
 
-Represents activation parameters for a spatial audio render stream for metadata, extending  with the ability to specify stream options.
+Represents activation parameters for a spatial audio render stream for metadata, extending \<xref:NS:spatialaudiometadata.SpatialAudioObjectRenderStreamForMetadataActivationParams> with the ability to specify stream options.
 
 ## Members
 
@@ -46,7 +46,7 @@ The object that provides notifications for spatial audio clients to respond to c
 
 ### `Options`
 
-A member of the  emumeration, specifying options for the activated audio stream.
+A member of the \<xref:NE:spatialaudioclient.SPATIAL_AUDIO_STREAM_OPTIONS> emumeration, specifying options for the activated audio stream.
 
 ## Remarks
 

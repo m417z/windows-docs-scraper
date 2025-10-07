@@ -123,7 +123,7 @@ following list describes possible combinations of license acquisition type with 
 
 **Note** Although the issuance license is signed and protected by encryption, it would be possible for a malicious publisher to include the URL of a malicious website; there is no way to verify the nature of this URL in advance.
 
-AD RMS allows an administrator to specify an extranet licensing URL in addition to an internal (intranet) URL. Each URL is copied into the license under a separate <DISTRIBUTIONPOINT> node with the internal URL appearing first. This is illustrated by the following example.
+AD RMS allows an administrator to specify an extranet licensing URL in addition to an internal (intranet) URL. Each URL is copied into the license under a separate \<DISTRIBUTIONPOINT> node with the internal URL appearing first. This is illustrated by the following example.
 
 ```xml
 

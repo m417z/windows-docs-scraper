@@ -12,20 +12,11 @@ Indicates the type of information provided. This member can be one of the follow
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-|
+| **JOB\_NOTIFY\_TYPE**
 
-**JOB\_NOTIFY\_TYPE**
+0x01 | Indicates that the **Field** member specifies a JOB\_NOTIFY\_FIELD\_\* constant.\ | | **PRINTER\_NOTIFY\_TYPE**
 
-0x01
-
-| Indicates that the **Field** member specifies a JOB\_NOTIFY\_FIELD\_\* constant.<br> |
-|
-
-**PRINTER\_NOTIFY\_TYPE**
-
-0x00
-
-| Indicates that the **Field** member specifies a PRINTER\_NOTIFY\_FIELD\_\* constant.<br> |
+0x00 | Indicates that the **Field** member specifies a PRINTER\_NOTIFY\_FIELD\_\* constant.\ |
 
 **Field**
 

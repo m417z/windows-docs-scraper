@@ -15,41 +15,17 @@ If the file to be signed is a portable executable (PE) file, this can be zero or
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG**
 
-**SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG**
+0x10 | Exclude page hashes when creating SIP indirect data for the PE file. This flag takes precedence over the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag.\ If neither the **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG** or the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag is specified, the value set with the [**WintrustSetDefaultIncludePEPageHashes**](https://learn.microsoft.com/windows/desktop/api/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes) function is used for this setting. The default for this setting is to exclude page hashes when creating SIP indirect data for PE files.\ **Windows Server 2003 and Windows XP:** This value is not supported.\ | | **SPC\_INC\_PE\_IMPORT\_ADDR\_TABLE\_FLAG**
 
-0x10
+0x20 | This value is not supported.\ | | **SPC\_INC\_PE\_DEBUG\_INFO\_FLAG**
 
-| Exclude page hashes when creating SIP indirect data for the PE file. This flag takes precedence over the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag.<br> If neither the **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG** or the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag is specified, the value set with the [**WintrustSetDefaultIncludePEPageHashes**](https://learn.microsoft.com/windows/desktop/api/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes) function is used for this setting. The default for this setting is to exclude page hashes when creating SIP indirect data for PE files.<br> **Windows Server 2003 and Windows XP:** This value is not supported.<br> |
-|
+0x40 | This value is not supported.\ | | **SPC\_INC\_PE\_RESOURCES\_FLAG**
 
-**SPC\_INC\_PE\_IMPORT\_ADDR\_TABLE\_FLAG**
+0x80 | This value is not supported.\ | | **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG**
 
-0x20
-
-| This value is not supported.<br> |
-|
-
-**SPC\_INC\_PE\_DEBUG\_INFO\_FLAG**
-
-0x40
-
-| This value is not supported.<br> |
-|
-
-**SPC\_INC\_PE\_RESOURCES\_FLAG**
-
-0x80
-
-| This value is not supported.<br> |
-|
-
-**SPC\_INC\_PE\_PAGE\_HASHES\_FLAG**
-
-0x100
-
-| Include page hashes when creating SIP indirect data for the PE file.<br> **Windows Server 2003 and Windows XP:** This value is not supported.<br> |
+0x100 | Include page hashes when creating SIP indirect data for the PE file.\ **Windows Server 2003 and Windows XP:** This value is not supported.\ |
 
 *pSubjectInfo* \[in\]
 

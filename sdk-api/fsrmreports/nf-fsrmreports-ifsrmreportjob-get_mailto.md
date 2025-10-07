@@ -16,7 +16,7 @@ The email message is sent only if the job finishes successfully. Email is not se
 **FsrmReportType_ExportReport** report types. The reports are attached to the email
 message. You can specify [Admin Email] to send notification to the administrator (if the
 [IFsrmSetting::AdminEmail](https://learn.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_adminemail) property is set). The
-subject is "<ReportType>: <ReportName>". The body of the email message is empty.
+subject is "\<ReportType>: \<ReportName>". The body of the email message is empty.
 
 ## See also
 

@@ -9,7 +9,7 @@ Retrieves a
 
 ### `bstrPath` [in]
 
-Path of the [GPMWMIFilter](https://learn.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter) object to retrieve, in the following format: MSFT_SomFilter.Domain="*<domain of the WMI filter>*", ID="*<GUID that represents the WMI filter>*". Consider this example: MSFT_SomFilter.Domain="example.microsoft.com", ID="{7ab06d20-5e0a-4de9-8170-13dea779a528}".
+Path of the [GPMWMIFilter](https://learn.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter) object to retrieve, in the following format: MSFT_SomFilter.Domain="*\<domain of the WMI filter>*", ID="*\<GUID that represents the WMI filter>*". Consider this example: MSFT_SomFilter.Domain="example.microsoft.com", ID="{7ab06d20-5e0a-4de9-8170-13dea779a528}".
 
 ### `ppWMIFilter` [out]
 

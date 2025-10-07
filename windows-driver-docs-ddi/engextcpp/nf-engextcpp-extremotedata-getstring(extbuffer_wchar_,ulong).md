@@ -1,4 +1,4 @@
-# ExtRemoteData::GetString(ExtBuffer,ULONG)
+# ExtRemoteData::GetString(ExtBuffer\<WCHAR>,ULONG)
 
 ## Description
 

@@ -7,14 +7,14 @@ Returns true if the expression is the same for every active lane in the current 
 *expr*
 
 The expression to evaluate.
-`` can be a basic scalar, vector, or matrix type.
+`<type>` can be a basic scalar, vector, or matrix type.
 
 ## Return value
 
 Returns `true` for each component of `expr` that is the same for every active lane in the current wave.
 
-`` will be a scalar, vector, or matrix of `bool`, matching the dimensionality of the input ``.
-For instance, an input `` of `matrix` will result in a return `` of `matrix`.
+`<bool-type>` will be a scalar, vector, or matrix of `bool`, matching the dimensionality of the input `<type>`.
+For instance, an input `<type>` of `matrix<float, 4, 3>` will result in a return `<bool-type>` of `matrix<bool, 4, 3>`.
 
 ## Remarks
 

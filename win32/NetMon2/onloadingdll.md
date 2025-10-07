@@ -14,16 +14,8 @@ The flags that indicate how the MCSVC controls the creation of a monitor. This p
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**MCS\_CREATE\_ONE\_PER\_NETCARD**
-
-| The MCSVC ensures that only one instance of this monitor exists for each NIC. A second instance can be created only if the first one is destroyed.<br> |
-|
-
-**MCS\_CREATE\_CONFIGS\_BY\_DEFAULT**
-
-| If the monitor has a default internal configuration, the MCSVC does not require the user to configure the monitor before the instance is created.<br> |
+| **MCS\_CREATE\_ONE\_PER\_NETCARD** | The MCSVC ensures that only one instance of this monitor exists for each NIC. A second instance can be created only if the first one is destroyed.<br> |
+| **MCS\_CREATE\_CONFIGS\_BY\_DEFAULT** | If the monitor has a default internal configuration, the MCSVC does not require the user to configure the monitor before the instance is created.<br> |
 
 *ppDefaultName* \[out\]
 

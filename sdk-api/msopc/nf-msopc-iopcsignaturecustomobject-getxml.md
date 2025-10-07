@@ -45,7 +45,7 @@ To replace signature markup, call the [IOpcDigitalSignatureManager::ReplaceSigna
 
 To sign an application-specific **Object** element or a child of that element, create a reference to the XML element to be signed. Create the reference by calling the [IOpcSignatureReferenceSet::Create](https://learn.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereferenceset-create) method with the *referenceUri* parameter value set to "#" followed by the **Id** attribute value of the referenced element. For example, if the **Id** attribute of the referenced element is "Application", set *referenceUri* to "#Application".
 
-The following table shows a [byte order mark](https://learn.microsoft.com/previous-versions/ms776429(v=vs.85)) at the beginning of an *xmlMarkup* buffer that contains "<Object Id="id1"></Object>":
+The following table shows a [byte order mark](https://learn.microsoft.com/previous-versions/ms776429(v=vs.85)) at the beginning of an *xmlMarkup* buffer that contains "\<Object Id="id1">\</Object>":
 
 |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

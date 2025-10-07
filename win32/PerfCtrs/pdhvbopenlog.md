@@ -21,46 +21,18 @@ Type of access to be specified when the log file is opened. This parameter can b
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-|
-
-**PDH\_LOG\_READ\_ACCESS**
-
-| A log file is opened for a read operation.<br> |
-|
-
-**PDH\_LOG\_WRITE\_ACCESS**
-
-| A new log file is opened for a write operation.<br> |
-|
-
-**PDH\_LOG\_UPDATE\_ACCESS**
-
-| An existing log file is opened for a write operation.<br> |
+| **PDH\_LOG\_READ\_ACCESS** | A log file is opened for a read operation.<br> |
+| **PDH\_LOG\_WRITE\_ACCESS** | A new log file is opened for a write operation.<br> |
+| **PDH\_LOG\_UPDATE\_ACCESS** | An existing log file is opened for a write operation.<br> |
 
 The value selected from the previous table can be combined using the OR operator with one of the following create access flags.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**PDH\_LOG\_CREATE\_NEW**
-
-| A new log file with the specified name is created.<br> |
-|
-
-**PDH\_LOG\_CREATE\_ALWAYS**
-
-| A new log file with the specified name is created and any existing log file with the same name is erased.<br> |
-|
-
-**PDH\_LOG\_OPEN\_EXISTING**
-
-| An existing log file with the specified name is opened. If a log file with the specified name does not exist, this is equal to PDH\_LOG\_CREATE\_NEW.<br> |
-|
-
-**PDH\_LOG\_OPEN\_ALWAYS**
-
-| An existing log file with the specified name is opened or a new log file with the specified name is created.<br> |
+| **PDH\_LOG\_CREATE\_NEW** | A new log file with the specified name is created.<br> |
+| **PDH\_LOG\_CREATE\_ALWAYS** | A new log file with the specified name is created and any existing log file with the same name is erased.<br> |
+| **PDH\_LOG\_OPEN\_EXISTING** | An existing log file with the specified name is opened. If a log file with the specified name does not exist, this is equal to PDH\_LOG\_CREATE\_NEW.<br> |
+| **PDH\_LOG\_OPEN\_ALWAYS** | An existing log file with the specified name is opened or a new log file with the specified name is created.<br> |
 
 *lpdwLogType* \[in\]
 
@@ -68,36 +40,12 @@ Pointer to a variable that indicates the type of log file to be opened. This par
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-|
-
-**PDH\_LOG\_TYPE\_UNDEFINED**
-
-| Undefined log file format.<br> |
-|
-
-**PDH\_LOG\_TYPE\_CSV**
-
-| Text files containing column headers in the first line, and individual data samples in each subsequent line.<br> |
-|
-
-**PDH\_LOG\_TYPE\_SQL**
-
-| The data in the log file is in SQL.<br> |
-|
-
-**PDH\_LOG\_TYPE\_TSV**
-
-| Same as PDH\_LOG\_TYPE\_CSV.<br> |
-|
-
-**PDH\_LOG\_TYPE\_BINARY**
-
-| Binary log file format. Includes circular log files.<br> |
-|
-
-**PDH\_LOG\_TYPE\_PERFMON**
-
-| Perfmon log file format.<br> |
+| **PDH\_LOG\_TYPE\_UNDEFINED** | Undefined log file format.<br> |
+| **PDH\_LOG\_TYPE\_CSV** | Text files containing column headers in the first line, and individual data samples in each subsequent line.<br> |
+| **PDH\_LOG\_TYPE\_SQL** | The data in the log file is in SQL.<br> |
+| **PDH\_LOG\_TYPE\_TSV** | Same as PDH\_LOG\_TYPE\_CSV.<br> |
+| **PDH\_LOG\_TYPE\_BINARY** | Binary log file format. Includes circular log files.<br> |
+| **PDH\_LOG\_TYPE\_PERFMON** | Perfmon log file format.<br> |
 
 *hQuery* \[in\]
 

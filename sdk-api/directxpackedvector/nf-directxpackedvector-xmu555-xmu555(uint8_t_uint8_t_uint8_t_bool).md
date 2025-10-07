@@ -30,7 +30,7 @@ The magnitude of this argument will be clamped to a range of [0, 31].
 
 ### `_w`
 
-Value of the w-coordinate of the vector, the w member of the new **XMU555** instance.
+Value of the w-coordinate of the vector, the \<wdcml:mark type="member">w\</wdcml:mark> member of the new **XMU555** instance.
 
 The magnitude of this argument will be clamped to a range of [0, 1].
 

@@ -18,40 +18,19 @@ The flags used to control installation behaviors. This parameter can be a combin
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **COMP\_FLAGS\_FORCE**
 
-**COMP\_FLAGS\_FORCE**
+0x00000020 | Skips the version check on file replacements.\ | | **COMP\_FLAGS\_NEEDS\_UNINSTALL**
 
-0x00000020
+| Back up files that are updated to be used by an uninstall of the component.\ | | **COMP\_FLAGS\_NO\_OVERWRITE**
 
-| Skips the version check on file replacements.<br> |
-|
+| Skips backing up files if the Exception component version is the same as an installed component. This flag is used in a reinstallation scenario.\ | | **COMP\_FLAGS\_NOUI**
 
-**COMP\_FLAGS\_NEEDS\_UNINSTALL**
+0x00000002 | Suppresses all UI.\ | | **COMP\_FLAGS\_UPDATE\_DLLCACHE**
 
-| Back up files that are updated to be used by an uninstall of the component.<br> |
-|
+| Forces the DLLCACHE directory to be updated when a system file is updated.\ | | **COMP\_FLAGS\_USE\_SVCPACK\_CACHE**
 
-**COMP\_FLAGS\_NO\_OVERWRITE**
-
-| Skips backing up files if the Exception component version is the same as an installed component. This flag is used in a reinstallation scenario.<br> |
-|
-
-**COMP\_FLAGS\_NOUI**
-
-0x00000002
-
-| Suppresses all UI.<br> |
-|
-
-**COMP\_FLAGS\_UPDATE\_DLLCACHE**
-
-| Forces the DLLCACHE directory to be updated when a system file is updated.<br> |
-|
-
-**COMP\_FLAGS\_USE\_SVCPACK\_CACHE**
-
-| Uses files cached by a Windows service pack install to supersede files backed up.<br> |
+| Uses files cached by a Windows service pack install to supersede files backed up.\ |
 
 *VerMajor* \[in, optional\]
 

@@ -24,7 +24,7 @@ Defines shortcut menu restrictions used by [IDefaultFolderMenuInitialize::GetMen
 
 ### `DFMR_OPTIN_HANDLERS_ONLY:0x40`
 
-0x0040. Opt-in to load handler for partial cloud files. Only used for handlers that will not cause implicit hydration. Opt-in handlers must have the registry value "ContextMenuOptIn" under HKCR\CLSID\
+0x0040. Opt-in to load handler for partial cloud files. Only used for handlers that will not cause implicit hydration. Opt-in handlers must have the registry value "ContextMenuOptIn" under HKCR\CLSID\<handler clsid>
 
 ### `DFMR_RESOURCE_AND_FOLDER_VERBS_ONLY:0x80`
 

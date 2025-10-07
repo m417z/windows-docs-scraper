@@ -14,41 +14,13 @@ The material parameter of the face or faces being updated. The parameters that c
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_AMBIENT**
-
-| The params parameter contains four integer values that specify the ambient RGBA reflectance of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default ambient reflectance for both front-facing and back-facing materials is (0.2, 0.2, 0.2, 1.0). <br> |
-|
-
-**GL\_DIFFUSE**
-
-| The params parameter contains four integer values that specify the diffuse RGBA reflectance of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default diffuse reflectance for both front-facing and back-facing materials is (0.8, 0.8, 0.8, 1.0). <br> |
-|
-
-**GL\_SPECULAR**
-
-| The params parameter contains four integer values that specify the specular RGBA reflectance of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default specular reflectance for both front-facing and back-facing materials is (0.0, 0.0, 0.0, 1.0). <br> |
-|
-
-**GL\_EMISSION**
-
-| The params parameter contains four integer values that specify the RGBA emitted light intensity of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default emission intensity for both front-facing and back-facing materials is (0.0, 0.0, 0.0, 1.0). <br> |
-|
-
-**GL\_SHININESS**
-
-| The *param* parameter is a single integer that specifies the RGBA specular exponent of the material. Integer values are mapped directly. Only values in the range \[0, 128\] are accepted. The default specular exponent for both front-facing and back-facing materials is 0. <br> |
-|
-
-**GL\_AMBIENT\_AND\_DIFFUSE**
-
-| Equivalent to calling [**glMaterial**](https://learn.microsoft.com/windows/win32/opengl/glmaterial-functions) twice with the same parameter values, once with GL\_AMBIENT and once with GL\_DIFFUSE. <br> |
-|
-
-**GL\_COLOR\_INDEXES**
-
-| The params parameter contains three integer values specifying the color indexes for ambient, diffuse, and specular lighting. These three values, and GL\_SHININESS, are the only material values used by the color-index mode lighting equation. Refer to [**glLightModel**](https://learn.microsoft.com/windows/win32/opengl/gllightmodel-functions) for a discussion of color-index lighting.<br> |
+| **GL\_AMBIENT** | The params parameter contains four integer values that specify the ambient RGBA reflectance of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default ambient reflectance for both front-facing and back-facing materials is (0.2, 0.2, 0.2, 1.0). <br> |
+| **GL\_DIFFUSE** | The params parameter contains four integer values that specify the diffuse RGBA reflectance of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default diffuse reflectance for both front-facing and back-facing materials is (0.8, 0.8, 0.8, 1.0). <br> |
+| **GL\_SPECULAR** | The params parameter contains four integer values that specify the specular RGBA reflectance of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default specular reflectance for both front-facing and back-facing materials is (0.0, 0.0, 0.0, 1.0). <br> |
+| **GL\_EMISSION** | The params parameter contains four integer values that specify the RGBA emitted light intensity of the material. Integer values are mapped linearly such that the most positive representable value maps to 1.0, and the most negative representable value maps to -1.0. Floating-point values are mapped directly. Neither integer nor floating-point values are clamped. The default emission intensity for both front-facing and back-facing materials is (0.0, 0.0, 0.0, 1.0). <br> |
+| **GL\_SHININESS** | The *param* parameter is a single integer that specifies the RGBA specular exponent of the material. Integer values are mapped directly. Only values in the range \[0, 128\] are accepted. The default specular exponent for both front-facing and back-facing materials is 0. <br> |
+| **GL\_AMBIENT\_AND\_DIFFUSE** | Equivalent to calling [**glMaterial**](https://learn.microsoft.com/windows/win32/opengl/glmaterial-functions) twice with the same parameter values, once with GL\_AMBIENT and once with GL\_DIFFUSE. <br> |
+| **GL\_COLOR\_INDEXES** | The params parameter contains three integer values specifying the color indexes for ambient, diffuse, and specular lighting. These three values, and GL\_SHININESS, are the only material values used by the color-index mode lighting equation. Refer to [**glLightModel**](https://learn.microsoft.com/windows/win32/opengl/gllightmodel-functions) for a discussion of color-index lighting.<br> |
 
 *params*
 

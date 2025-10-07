@@ -18,7 +18,7 @@ A **UINT** specifying the value to be used in the slice headers of the current f
 
 ### `idr_pic_id`
 
-When **FrameType**** is **D3D12_VIDEO_ENCODER_FRAME_TYPE_H264_IDR_FRAME**, a **UINT** indicating the identifier of the IDR frame to be used in all the slices headers present in the frame.
+When **FrameType** is **D3D12_VIDEO_ENCODER_FRAME_TYPE_H264_IDR_FRAME**, a **UINT** indicating the identifier of the IDR frame to be used in all the slices headers present in the frame.
 
 ### `PictureOrderCountNumber`
 
@@ -177,8 +177,8 @@ seq_parameter_set_id | User specific | None |
 entropy_coding_mode_flag | Based on D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAG_ENABLE_CABAC_ENCODING | None |
 pic_order_present_flag | 0 | Only support for pic_cnt_type = 0, 2 |
 num_slice_groups_minus1 | 0 | None |
-num_ref_idx_l1_active_minus1 | std::max(static_cast<INT>(pictureControl.List0ReferenceFramesCount) - 1, 0) | None |
-num_ref_idx_l0_active_minus1 | std::max(static_cast<INT>(pictureControl.List1ReferenceFramesCount) - 1, 0) | None |
+num_ref_idx_l1_active_minus1 | std::max(static_cast\<INT>(pictureControl.List0ReferenceFramesCount) - 1, 0) | None |
+num_ref_idx_l0_active_minus1 | std::max(static_cast\<INT>(pictureControl.List1ReferenceFramesCount) - 1, 0) | None |
 weighted_pred_flag | 0 | None |
 weighted_bipred_idc | 0 | None |
 pic_init_qp_minus26 | 0 | None |

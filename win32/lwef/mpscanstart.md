@@ -24,56 +24,16 @@ Specifies various options for scanning operation.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**MPSCAN\_OPTION\_NONE**
-
-| No specific option is requested.<br> |
-|
-
-**MPSCAN\_OPTION\_ASYNC**
-
-| The scan operation is to be asynchronous, where **MpScanStart** returns immediately after the successful initiation of scanning. (By default the scan operation is synchronous, meaning **MpScanStart** will return only after the scan is finished.)<br> |
-|
-
-**MPSCAN\_OPTION\_PROGRESS**
-
-| The caller is interested in receiving scan progress information via a callback.<br> |
-|
-
-**MPSCAN\_OPTION\_LOWPRIORITY**
-
-| Perform the scan with low priority. (By default the scan operation is performed with normal priority.)<br> |
-|
-
-**MPSCAN\_OPTION\_PACKEDEXES**
-
-| Scan packed executables for possible threats.<br> |
-|
-
-**MPSCAN\_OPTION\_ARCHIVES**
-
-| Scan archive contents for possible threats. Archives are files with extensions such as .zip, .cab, or .tar.<br> |
-|
-
-**MPSCAN\_OPTION\_HEURISTICS**
-
-| Enable heuristics-based scanning. This will scan for threats with detection type set to heuristics.<br> |
-|
-
-**MPSCAN\_OPTION\_REPORTFRIENDLY**
-
-| Report friendly items in a resource scan. This is intended for internal use only.<br> |
-|
-
-**MPSCAN\_OPTION\_REPORTUNKNOWN**
-
-| Report unknown items in a resource scan. This is intended for internal use only.<br> |
-|
-
-**MPSCAN\_OPTION\_NOCONSOLIDATE**
-
-| Do not consolidate scan results with global threat view. This is useful for a client (such as an email client) which wants to control cleaning UX by itself rather than allowing default anti-malware cleaning UX. This is intended for internal use only.<br> |
+| **MPSCAN\_OPTION\_NONE** | No specific option is requested.<br> |
+| **MPSCAN\_OPTION\_ASYNC** | The scan operation is to be asynchronous, where **MpScanStart** returns immediately after the successful initiation of scanning. (By default the scan operation is synchronous, meaning **MpScanStart** will return only after the scan is finished.)<br> |
+| **MPSCAN\_OPTION\_PROGRESS** | The caller is interested in receiving scan progress information via a callback.<br> |
+| **MPSCAN\_OPTION\_LOWPRIORITY** | Perform the scan with low priority. (By default the scan operation is performed with normal priority.)<br> |
+| **MPSCAN\_OPTION\_PACKEDEXES** | Scan packed executables for possible threats.<br> |
+| **MPSCAN\_OPTION\_ARCHIVES** | Scan archive contents for possible threats. Archives are files with extensions such as .zip, .cab, or .tar.<br> |
+| **MPSCAN\_OPTION\_HEURISTICS** | Enable heuristics-based scanning. This will scan for threats with detection type set to heuristics.<br> |
+| **MPSCAN\_OPTION\_REPORTFRIENDLY** | Report friendly items in a resource scan. This is intended for internal use only.<br> |
+| **MPSCAN\_OPTION\_REPORTUNKNOWN** | Report unknown items in a resource scan. This is intended for internal use only.<br> |
+| **MPSCAN\_OPTION\_NOCONSOLIDATE** | Do not consolidate scan results with global threat view. This is useful for a client (such as an email client) which wants to control cleaning UX by itself rather than allowing default anti-malware cleaning UX. This is intended for internal use only.<br> |
 
 *pScanResources* \[in, optional\]
 
@@ -89,61 +49,17 @@ A pointer to the callback information used to feed the client with scan state ch
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**MPNOTIFY\_SCAN\_START**
-
-| Scan operation started.<br> |
-|
-
-**MPNOTIFY\_SCAN\_COMPLETE**
-
-| Scan operation completed. Additional information is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
-|
-
-**MPNOTIFY\_SCAN\_PAUSED**
-
-| Scan operation is paused.<br> |
-|
-
-**MPNOTIFY\_SCAN\_RESUMED**
-
-| Scan operation resumed from pause.<br> |
-|
-
-**MPNOTIFY\_SCAN\_CANCEL**
-
-| Scan operation was cancelled.<br> |
-|
-
-**MPNOTIFY\_SCAN\_PROGRESS**
-
-| Scan progress information. Additional information (such as resource statistics) is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
-|
-
-**MPNOTIFY\_SCAN\_ERROR**
-
-| Scan error information for a specific resource. The specific resource information is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
-|
-
-**MPNOTIFY\_SCAN\_INFECTED**
-
-| Scan found an infected resource. Note that in most of the cases this will result in some threat reported at the end of the scan. Sometimes it may not materialize as a threat because of exclusions. Additional infected resource information is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
-|
-
-**MPNOTIFY\_SCAN\_MEMORYSTART**
-
-| Quick scan portion of the full scan has started.<br> |
-|
-
-**MPNOTIFY\_SCAN\_MEMORYCOMPLETE**
-
-| Quick scan portion of the full scan has completed.<br> |
-|
-
-**MPNOTIFY\_INTERNAL\_FAILURE**
-
-| Scan operation has encountered a generic failure. The *hResult* in [**MPCALLBACK\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpcallback-data) has the specific error code.<br> |
+| **MPNOTIFY\_SCAN\_START** | Scan operation started.<br> |
+| **MPNOTIFY\_SCAN\_COMPLETE** | Scan operation completed. Additional information is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
+| **MPNOTIFY\_SCAN\_PAUSED** | Scan operation is paused.<br> |
+| **MPNOTIFY\_SCAN\_RESUMED** | Scan operation resumed from pause.<br> |
+| **MPNOTIFY\_SCAN\_CANCEL** | Scan operation was cancelled.<br> |
+| **MPNOTIFY\_SCAN\_PROGRESS** | Scan progress information. Additional information (such as resource statistics) is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
+| **MPNOTIFY\_SCAN\_ERROR** | Scan error information for a specific resource. The specific resource information is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
+| **MPNOTIFY\_SCAN\_INFECTED** | Scan found an infected resource. Note that in most of the cases this will result in some threat reported at the end of the scan. Sometimes it may not materialize as a threat because of exclusions. Additional infected resource information is available via [**MPSCAN\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpscan-data) structure.<br> |
+| **MPNOTIFY\_SCAN\_MEMORYSTART** | Quick scan portion of the full scan has started.<br> |
+| **MPNOTIFY\_SCAN\_MEMORYCOMPLETE** | Quick scan portion of the full scan has completed.<br> |
+| **MPNOTIFY\_INTERNAL\_FAILURE** | Scan operation has encountered a generic failure. The *hResult* in [**MPCALLBACK\_DATA**](https://learn.microsoft.com/windows/win32/lwef/mpcallback-data) has the specific error code.<br> |
 
 *phScanHandle* \[out\]
 

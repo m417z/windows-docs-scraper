@@ -14,7 +14,7 @@ A value that contains the interface index over which the query is sent. If `Inte
 
 ### `QueryName`
 
-A pointer to a string that represents the service name. This is a fully qualified domain name that begins with a service name, and ends with ".local". It takes the generalized form "\.\_\.\_\.local". For example, "MyMusicServer._http._tcp.local".
+A pointer to a string that represents the service name. This is a fully qualified domain name that begins with a service name, and ends with ".local". It takes the generalized form "\<ServiceName\>.\_\<ServiceType\>.\_\<TransportProtocol\>.local". For example, "MyMusicServer._http._tcp.local".
 
 ### `pResolveCompletionCallback`
 

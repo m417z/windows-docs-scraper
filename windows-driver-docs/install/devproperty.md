@@ -43,7 +43,7 @@ Here are possible DEVPROP\_TYPE\_ values:
 | [DEVPROP_TYPE_BINARY](https://learn.microsoft.com/windows-hardware/drivers/install/devprop-type-binary) (DEVPROP_TYPE_BYTE \| DEVPROP_TYPEMOD_ARRAY) | Custom binary data |
 | [DEVPROP_TYPE_ERROR](https://learn.microsoft.com/windows-hardware/drivers/install/devprop-type-error) 0x00000017 | 32-bit Win32 system error code |
 | [DEVPROP_TYPE_NTSTATUS](https://learn.microsoft.com/windows-hardware/drivers/install/devprop-type-ntstatus) 0x00000018 | 32-bit NTSTATUS code |
-| [DEVPROP_TYPE_STRING_INDIRECT](https://learn.microsoft.com/windows-hardware/drivers/install/devprop-type-string-indirect) 0x00000019 | String resource (@[path\]<dllname>,-<strId>) |
+| [DEVPROP_TYPE_STRING_INDIRECT](https://learn.microsoft.com/windows-hardware/drivers/install/devprop-type-string-indirect) 0x00000019 | String resource (@[path\]\<dllname>,-\<strId>) |
 
 Here are possible DEVPROP\_TYPEMOD\_ values:
 

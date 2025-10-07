@@ -62,7 +62,7 @@ Here are examples of different possible input typenames:
 
   + **Input typename**
 
-    Windows.Foundation.Collections.IIterator`1<Windows.Foundation.Collections.IMapView`2<Windows.Foundation.Collections.IVector`1<String>, String>>
+    Windows.Foundation.Collections.IIterator`1&lt;Windows.Foundation.Collections.IMapView`2\<Windows.Foundation.Collections.IVector`1<String>, String>>
   + **Output**
 
     Array element 0: Windows.Foundation.Collections.IIterator`1

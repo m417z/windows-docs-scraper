@@ -29,20 +29,11 @@ Specifies the type of private key information. This member can be one or more of
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-|
+| **PVK\_TYPE\_FILE\_NAME**
 
-**PVK\_TYPE\_FILE\_NAME**
+1 (0x1) | The private key information is a file name.\ | | **PVK\_TYPE\_KEYCONTAINER**
 
-1 (0x1)
-
-| The private key information is a file name.<br> |
-|
-
-**PVK\_TYPE\_KEYCONTAINER**
-
-2 (0x2)
-
-| The private key information is a key container.<br> |
+2 (0x2) | The private key information is a key container.\ |
 
 **pwszPvkFileName**
 

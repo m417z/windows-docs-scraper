@@ -27,11 +27,7 @@ The only flag defined is:
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**EXPERT\_STARTUP\_FLAG\_USE\_STARTUP\_DATA\_OVER\_CONFIG\_DATA.**
-
-| This flag indicates that the expert uses the *pExpertStartupInfo* parameter, and does not use the *pConfig* parameter. Typically, you can set this flag when the expert can start from a right-mouse click. If the flag is not set, the following two things can occur: either the expert does not start from a right-mouse click, or the expert starts from a right-mouse click, and then the user configures it.<br> |
+| **EXPERT\_STARTUP\_FLAG\_USE\_STARTUP\_DATA\_OVER\_CONFIG\_DATA.** | This flag indicates that the expert uses the *pExpertStartupInfo* parameter, and does not use the *pConfig* parameter. Typically, you can set this flag when the expert can start from a right-mouse click. If the flag is not set, the following two things can occur: either the expert does not start from a right-mouse click, or the expert starts from a right-mouse click, and then the user configures it.<br> |
 
 *hWndParent* \[in\]
 

@@ -14,21 +14,9 @@ A **ULONG** value that specifies the type of the biometric unit. This can be one
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|
-
-**WINBIO\_POOL\_UNKNOWN**
-
-| The type is unknown.<br> |
-|
-
-**WINBIO\_POOL\_SYSTEM**
-
-| The session connects to a shared collection of biometric units managed by the service provider.<br> |
-|
-
-**WINBIO\_POOL\_PRIVATE**
-
-| The session connects to a collection of biometric units that are managed by the caller.<br> |
+| **WINBIO\_POOL\_UNKNOWN** | The type is unknown.<br> |
+| **WINBIO\_POOL\_SYSTEM** | The session connects to a shared collection of biometric units managed by the service provider.<br> |
+| **WINBIO\_POOL\_PRIVATE** | The session connects to a collection of biometric units that are managed by the caller.<br> |
 
 **BiometricFactor**
 

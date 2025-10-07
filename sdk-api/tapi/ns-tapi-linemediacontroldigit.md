@@ -28,7 +28,7 @@ Media control action. This member uses one of the
 This structure may not be extended.
 
 The
-[LINEMEDIACONTROLMEDIA](https://learn.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia) structure defines a triple <digit, digit mode(s), media-control action>. An array of these triples is passed to the
+[LINEMEDIACONTROLMEDIA](https://learn.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia) structure defines a triple \<digit, digit mode(s), media-control action>. An array of these triples is passed to the
 [lineSetMediaControl](https://learn.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol) function to set the media control actions triggered by digits detected on a given call. When a listed digit is detected, then the corresponding action on the media stream is invoked.
 
 ## See also

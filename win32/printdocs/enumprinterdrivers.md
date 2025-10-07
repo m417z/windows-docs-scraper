@@ -22,41 +22,13 @@ The type of information structure returned in the *pDriverInfo* buffer. It can b
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-|
-
-**1**
-
-| [**DRIVER\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-1)<br> |
-|
-
-**2**
-
-| [**DRIVER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-2)<br> |
-|
-
-**3**
-
-| [**DRIVER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-3)<br> |
-|
-
-**4**
-
-| [**DRIVER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-4)<br> |
-|
-
-**5**
-
-| [**DRIVER\_INFO\_5**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-5)<br> |
-|
-
-**6**
-
-| [**DRIVER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-6)<br> |
-|
-
-**8**
-
-| [**DRIVER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-8)<br> |
+| **1** | [**DRIVER\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-1)<br> |
+| **2** | [**DRIVER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-2)<br> |
+| **3** | [**DRIVER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-3)<br> |
+| **4** | [**DRIVER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-4)<br> |
+| **5** | [**DRIVER\_INFO\_5**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-5)<br> |
+| **6** | [**DRIVER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-6)<br> |
+| **8** | [**DRIVER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-8)<br> |
 
 *pDriverInfo* \[out\]
 

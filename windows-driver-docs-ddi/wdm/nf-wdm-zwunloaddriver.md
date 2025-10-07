@@ -6,7 +6,7 @@ The **ZwUnloadDriver** routine unloads a driver from the system. Use this routin
 
 ### `DriverServiceName` [in]
 
-Pointer to a counted Unicode string that specifies a path to the driver's registry key, `\Registry\Machine\System\CurrentControlSet\Services\`, where *DriverName* is the name of the driver.
+Pointer to a counted Unicode string that specifies a path to the driver's registry key, `\Registry\Machine\System\CurrentControlSet\Services\<DriverName>`, where *DriverName* is the name of the driver.
 
 ## Return value
 

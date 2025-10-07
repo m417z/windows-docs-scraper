@@ -10,46 +10,14 @@ The test function. The following eight tokens are valid.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-|
-
-**GL\_NEVER**
-
-| Always fails.<br> |
-|
-
-**GL\_LESS**
-
-| Passes if (*ref* & *mask*) < (*stencil* & *mask*).<br> |
-|
-
-**GL\_LEQUAL**
-
-| Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br> |
-|
-
-**GL\_GREATER**
-
-| Passes if (*ref* & *mask*) > (*stencil* & *mask*).<br> |
-|
-
-**GL\_GEQUAL**
-
-| Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br> |
-|
-
-**GL\_EQUAL**
-
-| Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br> |
-|
-
-**GL\_NOTEQUAL**
-
-| Passes if (*ref* & *mask*) ? (*stencil* & *mask*).<br> |
-|
-
-**GL\_ALWAYS**
-
-| Always passes.<br> |
+| **GL\_NEVER** | Always fails.<br> |
+| **GL\_LESS** | Passes if (*ref* & *mask*) < (*stencil* & *mask*).<br> |
+| **GL\_LEQUAL** | Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br> |
+| **GL\_GREATER** | Passes if (*ref* & *mask*) > (*stencil* & *mask*).<br> |
+| **GL\_GEQUAL** | Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br> |
+| **GL\_EQUAL** | Passes if (*ref* & *mask*) = (*stencil* & *mask*).<br> |
+| **GL\_NOTEQUAL** | Passes if (*ref* & *mask*) ? (*stencil* & *mask*).<br> |
+| **GL\_ALWAYS** | Always passes.<br> |
 
 *ref*
 

@@ -14,21 +14,9 @@ A value that identifies how Network Monitor searches for the frame.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-|
-
-**GET\_SPECIFIED\_FRAME**
-
-| Return the requested frame.<br> |
-|
-
-**GET\_FRAME\_NEXT\_FORWARD**
-
-| Return the next frame.<br> |
-|
-
-**GET\_FRAME\_NEXT\_BACKWARD**
-
-| Return the previous frame.<br> |
+| **GET\_SPECIFIED\_FRAME** | Return the requested frame.<br> |
+| **GET\_FRAME\_NEXT\_FORWARD** | Return the next frame.<br> |
+| **GET\_FRAME\_NEXT\_BACKWARD** | Return the previous frame.<br> |
 
 *RequestFlags* \[in\]
 
@@ -36,16 +24,8 @@ The flags that specify how Network Monitor should handle the request. Specify on
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**FLAGS\_DEFER\_TO\_UI\_FILTER**
-
-| Before applying the display filter parameter of the expert which is specified in *hFilter*, apply the display filter that Network Monitor is using when the expert starts.<br> |
-|
-
-**FLAGS\_ATTACH\_PROPERTIES**
-
-| The properties that all protocol parsers find with claimed sections of this frame are attached to the frame. If the flag is not set, the **lpPropertyTable** field of the [**EXPERTFRAMEDESCRIPTOR**](https://learn.microsoft.com/windows/win32/netmon2/expertframedescriptor) structure (returned by **pEFrameDescriptor**) will be set to **NULL**.<br> |
+| **FLAGS\_DEFER\_TO\_UI\_FILTER** | Before applying the display filter parameter of the expert which is specified in *hFilter*, apply the display filter that Network Monitor is using when the expert starts.<br> |
+| **FLAGS\_ATTACH\_PROPERTIES** | The properties that all protocol parsers find with claimed sections of this frame are attached to the frame. If the flag is not set, the **lpPropertyTable** field of the [**EXPERTFRAMEDESCRIPTOR**](https://learn.microsoft.com/windows/win32/netmon2/expertframedescriptor) structure (returned by **pEFrameDescriptor**) will be set to **NULL**.<br> |
 
 *RequestedFrameNumber* \[in\]
 

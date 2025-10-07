@@ -48,7 +48,7 @@ Received signal strength of serving cell (0...63) where:
 
 x=63, RSS > -49dBm
 
-0 <x <63, -110+x < RSS < -109+x)
+0 \<x <63, -110+x < RSS < -109+x)
 
 ## Syntax
 

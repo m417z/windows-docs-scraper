@@ -53,7 +53,7 @@ In this scenario, the following table provides some sample data for each of the 
 | [PKEY_Identity_LogonStatusString](https://learn.microsoft.com/windows/desktop/properties/props-system-identity-logonstatusstring) | "Signed-in" | "Locked" | "Remotely signed in from lisa-pc" |
 | [PKEY_Identity_PrimarySid](https://learn.microsoft.com/windows/desktop/properties/props-system-identity-primarysid) | "{S-1-5-21-2279990834-2601404236-735077814-1001}" | "{S-1-5-21-2279990834-2601404236-735077814-1001}" | "{S-1-5-21-2279990834-2601404236-735077814-1001}" |
 | [PKEY_Identity_ProviderID](https://learn.microsoft.com/windows/desktop/properties/props-system-identity-providerid) | "{A198529B-730F-4089-B646-A12557F5665E}" | "{A198529B-730F-4089-B646-A12557F5665E}" | Not pre-defined |
-| [PKEY_Identity_QualifiedUserName](https://learn.microsoft.com/windows/desktop/properties/props-system-identity-qualifiedusername) | "contoso\lisa" | "lisa-pc\lisa" | "<account provider name>\lisa@contoso.com" |
+| [PKEY_Identity_QualifiedUserName](https://learn.microsoft.com/windows/desktop/properties/props-system-identity-qualifiedusername) | "contoso\lisa" | "lisa-pc\lisa" | "\<account provider name>\lisa@contoso.com" |
 | [PKEY_Identity_UserName](https://learn.microsoft.com/windows/desktop/properties/props-system-identity-username) | "contoso\lisa" | "lisa" | "lisa@contoso.com" |
 
 ## See also

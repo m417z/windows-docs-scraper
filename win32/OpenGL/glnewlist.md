@@ -14,16 +14,8 @@ The compilation mode. The following values are accepted.
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-|
-
-**GL\_COMPILE**
-
-| Commands are merely compiled.<br> |
-|
-
-**GL\_COMPILE\_AND\_EXECUTE**
-
-| Commands are executed as they are compiled into the display list.<br> |
+| **GL\_COMPILE** | Commands are merely compiled.<br> |
+| **GL\_COMPILE\_AND\_EXECUTE** | Commands are executed as they are compiled into the display list.<br> |
 
 ## Return value
 

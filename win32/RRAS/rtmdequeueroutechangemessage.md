@@ -16,21 +16,9 @@ Pointer to a **DWORD** variable. The value of this variable is set by the routin
 
 | Flags | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**RTM\_ROUTE\_ADDED**
-
-| The first route was added for a particular destination network. The *CurBestRoute* parameter points to the information for the added route.<br> |
-|
-
-**RTM\_ROUTE\_DELETED**
-
-| The only route available for a particular destination network was deleted. The *PrevBestRoute* parameter points to the information for the deleted route.<br> |
-|
-
-**RTM\_ROUTE\_CHANGED**
-
-| At least one of the significant parameters was changed for a best route to a particular destination network. The significant parameters are: <br> Protocol identifier<br> Interface index<br> Next-hop address<br> Protocol-family-specific data (including route metrics)<br> |
+| **RTM\_ROUTE\_ADDED** | The first route was added for a particular destination network. The *CurBestRoute* parameter points to the information for the added route.<br> |
+| **RTM\_ROUTE\_DELETED** | The only route available for a particular destination network was deleted. The *PrevBestRoute* parameter points to the information for the deleted route.<br> |
+| **RTM\_ROUTE\_CHANGED** | At least one of the significant parameters was changed for a best route to a particular destination network. The significant parameters are: <br> Protocol identifier<br> Interface index<br> Next-hop address<br> Protocol-family-specific data (including route metrics)<br> |
 
 The *PrevBestRoute* parameter points to the route information as it was before the change. The *CurBestRoute* parameter points to current (that is, after-change) route information.
 

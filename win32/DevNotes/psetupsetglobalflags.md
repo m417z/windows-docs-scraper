@@ -12,20 +12,11 @@ The flags used to disable user interface or automatic backup.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-|
+| **PSPGF\_NONINTERACTIVE**
 
-**PSPGF\_NONINTERACTIVE**
+0x004 | Set to disable user interface.\ | | **PSPGF\_NO\_BACKUP**
 
-0x004
-
-| Set to disable user interface.<br> |
-|
-
-**PSPGF\_NO\_BACKUP**
-
-0x002
-
-| Set to disable automatic backup.<br> |
+0x002 | Set to disable automatic backup.\ |
 
 ## Return value
 

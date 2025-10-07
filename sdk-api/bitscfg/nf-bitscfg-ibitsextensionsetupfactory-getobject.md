@@ -11,7 +11,7 @@ Use the
 
 ### `Path` [in]
 
-Null-terminated string containing the path to the directory service. For example, "IIS://<machine name>/w3svc/1/*virtual directory*".
+Null-terminated string containing the path to the directory service. For example, "IIS://\<machine name>/w3svc/1/*virtual directory*".
 
 ### `ppExtensionSetup` [out]
 

@@ -18,20 +18,11 @@ A 32-bit value that specifies the signature of the parent structure.
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **STOWED\_EXCEPTION\_INFORMATION\_V1\_SIGNATURE**
 
-**STOWED\_EXCEPTION\_INFORMATION\_V1\_SIGNATURE**
+'SE01' | This value indicates that the parent is a **STOWED\_EXCEPTION\_INFORMATION\_V1** structure.\ | | **STOWED\_EXCEPTION\_INFORMATION\_V2\_SIGNATURE**
 
-'SE01'
-
-| This value indicates that the parent is a **STOWED\_EXCEPTION\_INFORMATION\_V1** structure.<br> |
-|
-
-**STOWED\_EXCEPTION\_INFORMATION\_V2\_SIGNATURE**
-
-'SE02'
-
-| This value indicates that the parent is a [**STOWED\_EXCEPTION\_INFORMATION\_V2**](https://learn.microsoft.com/windows/win32/wer/stowed-exception-information-v2) structure.<br> |
+'SE02' | This value indicates that the parent is a [**STOWED\_EXCEPTION\_INFORMATION\_V2**](https://learn.microsoft.com/windows/win32/wer/stowed-exception-information-v2) structure.\ |
 
 ## Remarks
 

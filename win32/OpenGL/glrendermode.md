@@ -10,21 +10,9 @@ The rasterization mode. The following three values are accepted. The default val
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_RENDER**
-
-| Render mode. Primitives are rasterized, producing pixel fragments, which are written into the framebuffer. This is the normal mode and also the default mode.<br> |
-|
-
-**GL\_SELECT**
-
-| Selection mode. No pixel fragments are produced, and no change to the framebuffer contents is made. Instead, a record of the names of primitives that would have been drawn if the render mode was GL\_RENDER is returned in a select buffer, which must be created (see [**glSelectBuffer**](https://learn.microsoft.com/windows/win32/opengl/glselectbuffer)) before selection mode is entered.<br> |
-|
-
-**GL\_FEEDBACK**
-
-| Feedback mode. No pixel fragments are produced, and no change to the framebuffer contents is made. Instead, the coordinates and attributes of vertices that would have been drawn had the render mode been GL\_RENDER are returned in a feedback buffer, which must be created (see [**glFeedbackBuffer**](https://learn.microsoft.com/windows/win32/opengl/glfeedbackbuffer)) before feedback mode is entered.<br> |
+| **GL\_RENDER** | Render mode. Primitives are rasterized, producing pixel fragments, which are written into the framebuffer. This is the normal mode and also the default mode.<br> |
+| **GL\_SELECT** | Selection mode. No pixel fragments are produced, and no change to the framebuffer contents is made. Instead, a record of the names of primitives that would have been drawn if the render mode was GL\_RENDER is returned in a select buffer, which must be created (see [**glSelectBuffer**](https://learn.microsoft.com/windows/win32/opengl/glselectbuffer)) before selection mode is entered.<br> |
+| **GL\_FEEDBACK** | Feedback mode. No pixel fragments are produced, and no change to the framebuffer contents is made. Instead, the coordinates and attributes of vertices that would have been drawn had the render mode been GL\_RENDER are returned in a feedback buffer, which must be created (see [**glFeedbackBuffer**](https://learn.microsoft.com/windows/win32/opengl/glfeedbackbuffer)) before feedback mode is entered.<br> |
 
 ## Error codes
 

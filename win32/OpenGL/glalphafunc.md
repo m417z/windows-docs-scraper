@@ -10,46 +10,14 @@ The alpha comparison function. The following are the accepted symbolic constants
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-|
-
-**GL\_NEVER**
-
-| Never passes.<br> |
-|
-
-**GL\_LESS**
-
-| Passes if the incoming alpha value is less than the reference value.<br> |
-|
-
-**GL\_EQUAL**
-
-| Passes if the incoming alpha value is equal to the reference value.<br> |
-|
-
-**GL\_LEQUAL**
-
-| Passes if the incoming alpha value is less than or equal to the reference value.<br> |
-|
-
-**GL\_GREATER**
-
-| Passes if the incoming alpha value is greater than the reference value.<br> |
-|
-
-**GL\_NOTEQUAL**
-
-| Passes if the incoming alpha value is not equal to the reference value.<br> |
-|
-
-**GL\_GEQUAL**
-
-| Passes if the incoming alpha value is greater than or equal to the reference value.<br> |
-|
-
-**GL\_ALWAYS**
-
-| Always passes. This is the default.<br> |
+| **GL\_NEVER** | Never passes.<br> |
+| **GL\_LESS** | Passes if the incoming alpha value is less than the reference value.<br> |
+| **GL\_EQUAL** | Passes if the incoming alpha value is equal to the reference value.<br> |
+| **GL\_LEQUAL** | Passes if the incoming alpha value is less than or equal to the reference value.<br> |
+| **GL\_GREATER** | Passes if the incoming alpha value is greater than the reference value.<br> |
+| **GL\_NOTEQUAL** | Passes if the incoming alpha value is not equal to the reference value.<br> |
+| **GL\_GEQUAL** | Passes if the incoming alpha value is greater than or equal to the reference value.<br> |
+| **GL\_ALWAYS** | Always passes. This is the default.<br> |
 
 *ref*
 

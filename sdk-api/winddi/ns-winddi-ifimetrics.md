@@ -146,7 +146,7 @@ Indicates that a font is compliant with the Unicode standard.
 
 Indicates that the **dpwszFamilyName** offset in IFIMETRICS is actually the offset to a list of equivalent family names or aliases. The first name is the base or real name; the subsequent names are equivalents or aliases. Each name in the list is null-terminated; the list is terminated by two zeros.
 
-<base name> <0> <alias 1> <0>...<alias n>
+\<base name> <0> \<alias 1> <0>...\<alias n>
 
 <0> <0>
 

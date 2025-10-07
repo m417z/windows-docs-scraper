@@ -18,26 +18,10 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**BCRYPT\_DH\_PUBLIC\_BLOB**
-
-| Export a Diffie-Hellman [*public key*](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly). The *pbOutput* buffer receives a [**BCRYPT\_DH\_KEY\_BLOB**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dh_key_blob) structure immediately followed by the key data.<br> |
-|
-
-**BCRYPT\_ECCPUBLIC\_BLOB**
-
-| Export an [*elliptic curve cryptography*](https://learn.microsoft.com/windows/desktop/SecGloss/e-gly) (ECC) [*public key*](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly). The *pbOutput* buffer receives a [**BCRYPT\_ECCKEY\_BLOB**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_ecckey_blob) structure immediately followed by the key data.<br> |
-|
-
-**BCRYPT\_OPAQUE\_KEY\_BLOB**
-
-| Export a [*symmetric key*](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly) in a format that is specific to a single [*cryptographic service provider*](https://learn.microsoft.com/windows/desktop/SecGloss/c-gly) (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB.<br> |
-|
-
-**BCRYPT\_RSAPUBLIC\_BLOB**
-
-| Export an [*RSA*](https://learn.microsoft.com/windows/desktop/SecGloss/r-gly) public key. The *pbOutput* buffer receives a [**BCRYPT\_RSAKEY\_BLOB**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_rsakey_blob) structure immediately followed by the key data.<br> |
+| **BCRYPT\_DH\_PUBLIC\_BLOB** | Export a Diffie-Hellman [*public key*](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly). The *pbOutput* buffer receives a [**BCRYPT\_DH\_KEY\_BLOB**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dh_key_blob) structure immediately followed by the key data.<br> |
+| **BCRYPT\_ECCPUBLIC\_BLOB** | Export an [*elliptic curve cryptography*](https://learn.microsoft.com/windows/desktop/SecGloss/e-gly) (ECC) [*public key*](https://learn.microsoft.com/windows/desktop/SecGloss/p-gly). The *pbOutput* buffer receives a [**BCRYPT\_ECCKEY\_BLOB**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_ecckey_blob) structure immediately followed by the key data.<br> |
+| **BCRYPT\_OPAQUE\_KEY\_BLOB** | Export a [*symmetric key*](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly) in a format that is specific to a single [*cryptographic service provider*](https://learn.microsoft.com/windows/desktop/SecGloss/c-gly) (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB.<br> |
+| **BCRYPT\_RSAPUBLIC\_BLOB** | Export an [*RSA*](https://learn.microsoft.com/windows/desktop/SecGloss/r-gly) public key. The *pbOutput* buffer receives a [**BCRYPT\_RSAKEY\_BLOB**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_rsakey_blob) structure immediately followed by the key data.<br> |
 
 *pbKeyBlob* \[in\]
 

@@ -49,9 +49,9 @@ A 2-dimensional 3x3 array representing the matrix.
 
 ## Remarks
 
-The scalar members of **XMFLOAT3X3** have names that follow the form *_\\* (for example, *_11*). They provide 1-based indexing, where *row_number* specifies the 1-based matrix row (ranging from 1 to 3), and *column_number* specifies the 1-based matrix column (ranging from 1 to 3).
+The scalar members of **XMFLOAT3X3** have names that follow the form *_\<row_number\>\<column_number\>* (for example, *_11*). They provide 1-based indexing, where *row_number* specifies the 1-based matrix row (ranging from 1 to 3), and *column_number* specifies the 1-based matrix column (ranging from 1 to 3).
 
-The member *m* is a 2-dimensional 3x3 array. It provides 0-based indexing of the structure's matrix. When accessing *m\[\, \\]*, *\* ranges from 0 to 2, and *\* ranges from 0 to 2.
+The member *m* is a 2-dimensional 3x3 array. It provides 0-based indexing of the structure's matrix. When accessing *m\[\<row_index\>, \<column_index\>\]*, *\<row_index\>* ranges from 0 to 2, and *\<column_index\>* ranges from 0 to 2.
 
 You can load an [XMMATRIX](https://learn.microsoft.com/windows/win32/api/directxmath/ns-directxmath-xmmatrix) from an **XMFLOAT3X3** by using [XMLoadFloat3x3](https://learn.microsoft.com/windows/win32/api/directxmath/nf-directxmath-xmloadfloat3x3).
 

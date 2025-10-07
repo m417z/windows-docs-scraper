@@ -6,7 +6,7 @@ Gets the maximum supported frame count per processing pass.
 
 ### `category` [in]
 
-The  of the audio stream for which support is queried.
+The \<xref:NE:audiosessiontypes._AUDIO_STREAM_CATEGORY> of the audio stream for which support is queried.
 
 ### `offloadEnabled` [in]
 
@@ -14,7 +14,7 @@ A boolean value specifying whether the returned frame count should be calculated
 
 ### `objectFormat` [in]
 
-A pointer to a  structure specifying the format of the audio stream for which support is queried.
+A pointer to a \<xref:NS:mmeapi.tWAVEFORMATEX> structure specifying the format of the audio stream for which support is queried.
 
 ### `frameCountPerBuffer` [out]
 

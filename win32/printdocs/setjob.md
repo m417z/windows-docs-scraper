@@ -44,51 +44,15 @@ The print job operation to perform. This parameter can be one of the following v
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-|
-
-**JOB\_CONTROL\_CANCEL**
-
-| Do not use. To delete a print job, use **JOB\_CONTROL\_DELETE**.<br> |
-|
-
-**JOB\_CONTROL\_PAUSE**
-
-| Pause the print job.<br> |
-|
-
-**JOB\_CONTROL\_RESTART**
-
-| Restart the print job. A job can only be restarted if it was printing.<br> |
-|
-
-**JOB\_CONTROL\_RESUME**
-
-| Resume a paused print job.<br> |
-|
-
-**JOB\_CONTROL\_DELETE**
-
-| Delete the print job.<br> |
-|
-
-**JOB\_CONTROL\_SENT\_TO\_PRINTER**
-
-| Used by port monitors to end the print job.<br> |
-|
-
-**JOB\_CONTROL\_LAST\_PAGE\_EJECTED**
-
-| Used by language monitors to end the print job.<br> |
-|
-
-**JOB\_CONTROL\_RETAIN**
-
-| **Windows Vista and later**: Keep the job in the queue after it prints.<br> |
-|
-
-**JOB\_CONTROL\_RELEASE**
-
-| **Windows Vista and later**: Release the print job.<br> |
+| **JOB\_CONTROL\_CANCEL** | Do not use. To delete a print job, use **JOB\_CONTROL\_DELETE**.<br> |
+| **JOB\_CONTROL\_PAUSE** | Pause the print job.<br> |
+| **JOB\_CONTROL\_RESTART** | Restart the print job. A job can only be restarted if it was printing.<br> |
+| **JOB\_CONTROL\_RESUME** | Resume a paused print job.<br> |
+| **JOB\_CONTROL\_DELETE** | Delete the print job.<br> |
+| **JOB\_CONTROL\_SENT\_TO\_PRINTER** | Used by port monitors to end the print job.<br> |
+| **JOB\_CONTROL\_LAST\_PAGE\_EJECTED** | Used by language monitors to end the print job.<br> |
+| **JOB\_CONTROL\_RETAIN** | **Windows Vista and later**: Keep the job in the queue after it prints.<br> |
+| **JOB\_CONTROL\_RELEASE** | **Windows Vista and later**: Release the print job.<br> |
 
 You can use the same call to the **SetJob** function to set print job parameters and to give a command to a print job. Thus, *Command* does not need to be 0 if you are setting print job parameters, although it can be.
 

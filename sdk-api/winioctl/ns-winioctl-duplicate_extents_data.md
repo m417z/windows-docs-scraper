@@ -2,7 +2,7 @@
 
 ## Description
 
-Contains parameters for the [FSCTL_DUPLICATE_EXTENTS](https://learn.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file) control code that performs the [Block Cloning](https://learn.microsoft.com/windows/desktop/FileIO/block-cloning) operation.
+Contains parameters for the [FSCTL_DUPLICATE_EXTENTS_TO_FILE](https://learn.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file) control code that performs the [Block Cloning](https://learn.microsoft.com/windows/desktop/FileIO/block-cloning) operation.
 
 ## Members
 

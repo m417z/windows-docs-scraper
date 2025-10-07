@@ -29,41 +29,17 @@ A bitfield that specifies the following flags.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-|
+| **ILOT\_UNINSTALL**
 
-**ILOT\_UNINSTALL**
+0x00000001 | Same as **ILOT\_DISABLED**.\ | | **ILOT\_DEFPROFILE**
 
-0x00000001
+0x00000002 | Sets the specified layout or tip as a default item.\ | | **ILOT\_NOAPPLYTOCURRENTSESSION**
 
-| Same as **ILOT\_DISABLED**.<br> |
-|
+0x00000020 | The setting is saved but is not applied to the current session.\ | | **ILOT\_CLEANINSTALL**
 
-**ILOT\_DEFPROFILE**
+0x00000040 | Disables all of the current keyboard layouts and text services.\ | | **ILOT\_DISABLED**
 
-0x00000002
-
-| Sets the specified layout or tip as a default item.<br> |
-|
-
-**ILOT\_NOAPPLYTOCURRENTSESSION**
-
-0x00000020
-
-| The setting is saved but is not applied to the current session.<br> |
-|
-
-**ILOT\_CLEANINSTALL**
-
-0x00000040
-
-| Disables all of the current keyboard layouts and text services.<br> |
-|
-
-**ILOT\_DISABLED**
-
-0x00000080
-
-| Disables the specified keyboard layout and text service.<br> |
+0x00000080 | Disables the specified keyboard layout and text service.\ |
 
 ## Return value
 
@@ -76,11 +52,11 @@ A bitfield that specifies the following flags.
 
 The string format of the layout list is:
 
-\:\;\[...\:\
+\<LangID 1\>:\<KLID 1\>;\[...\<LangID N\>:\<KLID N\>
 
 The string format of the text service profile list is:
 
-\:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
+\<LangID 1\>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
 
 The following is an example of a value for the *psz* parameter:
 

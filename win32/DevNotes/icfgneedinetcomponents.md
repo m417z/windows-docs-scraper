@@ -10,27 +10,13 @@ A combination of the following flags that specify which components to detect fro
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-|
+| **ICFG\_INSTALLMAIL**
 
-**ICFG\_INSTALLMAIL**
+0x00000004 | Is Exchange or Internet mail needed?\ | | **ICFG\_INSTALLRAS**
 
-0x00000004
+0x00000002 | Is RAS needed?\ | | **ICFG\_INSTALLTCP**
 
-| Is Exchange or Internet mail needed?<br> |
-|
-
-**ICFG\_INSTALLRAS**
-
-0x00000002
-
-| Is RAS needed?<br> |
-|
-
-**ICFG\_INSTALLTCP**
-
-0x00000001
-
-| Is TCP/IP needed?<br> |
+0x00000001 | Is TCP/IP needed?\ |
 
 *lpfNeedComponents*
 

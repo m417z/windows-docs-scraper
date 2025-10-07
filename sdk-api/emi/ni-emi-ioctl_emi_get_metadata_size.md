@@ -9,19 +9,19 @@ control code retrieves the size of the EMI metadata object that can be obtained 
 
 ### Input buffer
 
- None.
+\<text> None. \</text>
 
 ### Input buffer length
 
- None.
+\<text> None. \</text>
 
 ### Output buffer
 
- The  **AssociatedIrp.SystemBuffer**  member specifies the address of a caller-allocated buffer that contains a [EMI_METADATA_SIZE](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_metadata_size) structure. On output, this structure holds the size of EMI metadata
+\<text> The  **AssociatedIrp.SystemBuffer**  member specifies the address of a caller-allocated buffer that contains a [EMI_METADATA_SIZE](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_metadata_size) structure. On output, this structure holds the size of EMI metadata \</text>
 
 ### Output buffer length
 
- The size of this buffer is specified in the  **Parameters.DeviceIoControl.OutputBufferLength**  member.
+\<text> The size of this buffer is specified in the  **Parameters.DeviceIoControl.OutputBufferLength**  member. \</text>
 
 ### Status block
 

@@ -10,26 +10,10 @@ Specifies the format of the identity information contained in this structure. Th
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-|
-
-**WINBIO\_ID\_TYPE\_NULL**
-
-| The template has no associated ID.<br> |
-|
-
-**WINBIO\_ID\_TYPE\_WILDCARD**
-
-| The structure matches all template identities.<br> |
-|
-
-**WINBIO\_ID\_TYPE\_GUID**
-
-| The structure contains a GUID associated with the template.<br> |
-|
-
-**WINBIO\_ID\_TYPE\_SID**
-
-| The structure contains the account SID associated with the template.<br> |
+| **WINBIO\_ID\_TYPE\_NULL** | The template has no associated ID.<br> |
+| **WINBIO\_ID\_TYPE\_WILDCARD** | The structure matches all template identities.<br> |
+| **WINBIO\_ID\_TYPE\_GUID** | The structure contains a GUID associated with the template.<br> |
+| **WINBIO\_ID\_TYPE\_SID** | The structure contains the account SID associated with the template.<br> |
 
 **Value**
 

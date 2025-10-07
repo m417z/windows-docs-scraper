@@ -2,7 +2,7 @@
 
 ## Description
 
-Retrieves an enumerator that iterates through all the <Resource> elements that are defined in the app package's manifest.
+Retrieves an enumerator that iterates through all the \<Resource> elements that are defined in the app package's manifest.
 
 ## Parameters
 

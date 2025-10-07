@@ -55,7 +55,7 @@ The format of the SPN produced by the **DsMakeSpn** function depends on the inpu
 
 **Note** This format is used by host-based services.
 
-**To produce an SPN with the "<ServiceClass>/<host>" format**
+**To produce an SPN with the "\<ServiceClass>/\<host>" format**
 
 1. Set the *ServiceName* parameter to the DNS name of the host computer for the service instance. This is the host component of the SPN.
 2. Set the *InstanceName* and *Referrer* parameters to **NULL**.
@@ -67,7 +67,7 @@ The format of the SPN produced by the **DsMakeSpn** function depends on the inpu
 
 **Note** This format is used by replicable services.
 
-**To produce an SPN with the "<ServiceClass>/<host>:<InstancePort>" format**
+**To produce an SPN with the "\<ServiceClass>/\<host>:\<InstancePort>" format**
 
 1. Set the *InstanceName* parameter to the DNS name of the host computer for the service instance. This is the host component.
 2. Set the *ServiceName* parameter to a string that identifies an instance of the service. For example, it could be the distinguished name of the service connection point for this service instance.

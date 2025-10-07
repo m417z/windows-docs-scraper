@@ -19,7 +19,7 @@ Api(..., &value, sizeof(value), ...);
 
 ```
 // always written
-123
+<element>123</element>
 ```
 
 This option is not supported for pointer types
@@ -41,7 +41,7 @@ Api(..., &valuePointer, sizeof(valuePointer), ...);
 
 ```
 // always written
-123
+<element>123</element>
 ```
 
 If the pointer to the value specified in the storage is **NULL**,
@@ -64,9 +64,10 @@ Api(..., &value, sizeof(value), ...);
 
 ```
 // if value is non-nil
-hello
+<element>hello</element>
 
 // if value is nil
+<element xsi:nil='true'/>
 ```
 
 This option is only supported for the following types, listed below,
@@ -93,7 +94,8 @@ Api(..., &valuePointer, sizeof(valuePointer), ...);
 
 ```
 // if value is non-NULL
-123
+<element>123</element>
 
 // if value is NULL
+<element xsi:nil='true'/>
 ```

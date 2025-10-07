@@ -10,26 +10,10 @@ The status of sample collection for the enrollment template. The following value
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-|
-
-**S\_OK**
-
-| The enrollment is ready to be saved.<br> |
-|
-
-**WINBIO\_E\_INVALID\_OPERATION**
-
-| No enrollment is in progress.<br> |
-|
-
-**WINBIO\_I\_MORE\_DATA**
-
-| More samples are required to complete the template.<br> |
-|
-
-**WINBIO\_E\_BAD\_CAPTURE**
-
-| The most recent sample is not usable.<br> |
+| **S\_OK** | The enrollment is ready to be saved.<br> |
+| **WINBIO\_E\_INVALID\_OPERATION** | No enrollment is in progress.<br> |
+| **WINBIO\_I\_MORE\_DATA** | More samples are required to complete the template.<br> |
+| **WINBIO\_E\_BAD\_CAPTURE** | The most recent sample is not usable.<br> |
 
 **RejectDetail**
 

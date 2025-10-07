@@ -38,7 +38,7 @@ The **DsWriteAccountSpn** function registers the SPNs for one or more instances 
 
 One exception to this rule is that a service running under the LocalSystem account can call **DsWriteAccountSpn** to register a simple SPN of the form "ServiceClass/Host:Port" if the host specified in the SPN is the DNS or NetBIOS name of the computer on which the service is running.
 
-Another exception is that the default DACL on computer accounts allows callers to register SPNs on themselves, subject to certain constraints. For example, a computer account can have SPNs relative to its computername, of the form "host/<computername>". Because the computername is contained in the SPN, the SPN is allowable.
+Another exception is that the default DACL on computer accounts allows callers to register SPNs on themselves, subject to certain constraints. For example, a computer account can have SPNs relative to its computername, of the form "host/\<computername>". Because the computername is contained in the SPN, the SPN is allowable.
 
 None of the rules above apply if the DSA is configured to allow any SPN to be written. This reduces security, however, so it is not recommended.
 

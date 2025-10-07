@@ -43,6 +43,6 @@ For more information, see [NTSTATUS Values](https://learn.microsoft.com/windows-
 
 ## See also
 
-* [CHANGER_INITIALIZE_ELEMENT_STATUS](https://learn.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_changer_initialize_element_status)
+* [CHANGER_INITIALIZE_ELEMENT_STATUS](https://learn.microsoft.com/windows/win32/api/winioctl/ns-winioctl-changer_initialize_element_status)
 * [Device Management Control Codes](https://learn.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](https://learn.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)

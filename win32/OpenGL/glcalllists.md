@@ -14,56 +14,16 @@ The type of values in *lists*. The following symbolic constants are accepted.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_BYTE**
-
-| The *lists* parameter is treated as an array of signed bytes, each in the range -128 through 127.<br> |
-|
-
-**GL\_UNSIGNED\_BYTE**
-
-| The *lists* parameter is treated as an array of unsigned bytes, each in the range 0 through 255.<br> |
-|
-
-**GL\_SHORT**
-
-| The *lists* parameter is treated as an array of signed 2-byte integers, each in the range -32768 through 32767.<br> |
-|
-
-**GL\_UNSIGNED\_SHORT**
-
-| The *lists* parameter is treated as an array of unsigned 2-byte integers, each in the range 0 through 65535.<br> |
-|
-
-**GL\_INT**
-
-| The *lists* parameter is treated as an array of signed 4-byte integers.<br> |
-|
-
-**GL\_UNSIGNED\_INT**
-
-| The *lists* parameter is treated as an array of unsigned 4-byte integers.<br> |
-|
-
-**GL\_FLOAT**
-
-| The *lists* parameter is treated as an array of 4-byte, floating-point values.<br> |
-|
-
-**GL\_2\_BYTES**
-
-| The *lists* parameter is treated as an array of unsigned bytes. Each pair of bytes specifies a single display-list name. The value of the pair is computed as 256 times the unsigned value of the first byte plus the unsigned value of the second byte.<br> |
-|
-
-**GL\_3\_BYTES**
-
-| The *lists* parameter is treated as an array of unsigned bytes. Each triplet of bytes specifies a single display list name. The value of the triplet is computed as 65536 times the unsigned value of the first byte, plus 256 times the unsigned value of the second byte, plus the unsigned value of the third byte.<br> |
-|
-
-**GL\_4\_BYTES**
-
-| The *lists* parameter is treated as an array of unsigned bytes. Each quadruplet of bytes specifies a single display list name. The value of the quadruplet is computed as 16777216 times the unsigned value of the first byte, plus 65536 times the unsigned value of the second byte, plus 256 times the unsigned value of the third byte, plus the unsigned value of the fourth byte.<br> |
+| **GL\_BYTE** | The *lists* parameter is treated as an array of signed bytes, each in the range -128 through 127.<br> |
+| **GL\_UNSIGNED\_BYTE** | The *lists* parameter is treated as an array of unsigned bytes, each in the range 0 through 255.<br> |
+| **GL\_SHORT** | The *lists* parameter is treated as an array of signed 2-byte integers, each in the range -32768 through 32767.<br> |
+| **GL\_UNSIGNED\_SHORT** | The *lists* parameter is treated as an array of unsigned 2-byte integers, each in the range 0 through 65535.<br> |
+| **GL\_INT** | The *lists* parameter is treated as an array of signed 4-byte integers.<br> |
+| **GL\_UNSIGNED\_INT** | The *lists* parameter is treated as an array of unsigned 4-byte integers.<br> |
+| **GL\_FLOAT** | The *lists* parameter is treated as an array of 4-byte, floating-point values.<br> |
+| **GL\_2\_BYTES** | The *lists* parameter is treated as an array of unsigned bytes. Each pair of bytes specifies a single display-list name. The value of the pair is computed as 256 times the unsigned value of the first byte plus the unsigned value of the second byte.<br> |
+| **GL\_3\_BYTES** | The *lists* parameter is treated as an array of unsigned bytes. Each triplet of bytes specifies a single display list name. The value of the triplet is computed as 65536 times the unsigned value of the first byte, plus 256 times the unsigned value of the second byte, plus the unsigned value of the third byte.<br> |
+| **GL\_4\_BYTES** | The *lists* parameter is treated as an array of unsigned bytes. Each quadruplet of bytes specifies a single display list name. The value of the quadruplet is computed as 16777216 times the unsigned value of the first byte, plus 65536 times the unsigned value of the second byte, plus 256 times the unsigned value of the third byte, plus the unsigned value of the fourth byte.<br> |
 
 *lists*
 

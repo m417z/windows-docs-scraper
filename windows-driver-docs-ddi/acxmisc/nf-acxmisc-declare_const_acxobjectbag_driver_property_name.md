@@ -1,6 +1,6 @@
 ## Description
 
-The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with `drv__`.
+The DECLARE_CONST_ACXOBJECTBAG_DRIVER_PROPERTY_NAME function declares an ACX object bag property name. Driver defined properties start with `drv_<ven>_`.
 
 ## Parameters
 

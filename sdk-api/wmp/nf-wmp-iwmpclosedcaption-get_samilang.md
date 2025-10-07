@@ -22,7 +22,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 ## Remarks
 
-A SAMI file can contain text for one or many languages. The languages available for closed captioning are defined between the <STYLE> and </STYLE> tags in the SAMI file. A language identifier is specified by a unique alphanumeric string that is preceded by a period (.). The name specified for a language can be any string. For example, the following could be used to define US English:
+A SAMI file can contain text for one or many languages. The languages available for closed captioning are defined between the \<STYLE> and \</STYLE> tags in the SAMI file. A language identifier is specified by a unique alphanumeric string that is preceded by a period (.). The name specified for a language can be any string. For example, the following could be used to define US English:
 
 ```
 

@@ -16,7 +16,7 @@ Element, attribute, or CDATA content.
 
 ### `WS_XML_NODE_TYPE_END_ELEMENT:3`
 
-An end element. (e.g. </purchaseOrder>)
+An end element. (e.g. \</purchaseOrder>)
 
 ### `WS_XML_NODE_TYPE_COMMENT:4`
 

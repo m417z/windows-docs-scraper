@@ -16,7 +16,7 @@ The null-terminated Unicode string that specifies the ADsPath of the ADSI object
 
 Type: **LPCWSTR**
 
-The null-terminated Unicode string that specifies the user name to supply to the directory service to use for credentials. This string should always be in the format "<domain\\><user name>" to avoid ambiguity. For example, if DomainA and DomainB have a trust relationship and both domains have a user with the name "user1", it is not possible to predict which domain **ADsOpenObject** will use to validate "user1".
+The null-terminated Unicode string that specifies the user name to supply to the directory service to use for credentials. This string should always be in the format "\<domain\\>\<user name>" to avoid ambiguity. For example, if DomainA and DomainB have a trust relationship and both domains have a user with the name "user1", it is not possible to predict which domain **ADsOpenObject** will use to validate "user1".
 
 ### `lpszPassword` [in]
 

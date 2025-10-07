@@ -15,8 +15,8 @@ This property is read/write.
 
 When setting *scAddress*, the calling application must use either of these formats.
 
-* "+ <International Country Code> <SMS Service Center Number>\0"
-* "<SMS Service Center Number>\0"
+* "+ \<International Country Code> \<SMS Service Center Number>\0"
+* "\<SMS Service Center Number>\0"
 
 ## See also
 

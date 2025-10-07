@@ -12,26 +12,10 @@ Specifies the route type as defined in [RFC 1354](https://learn.microsoft.com/wi
 
 | Member | Meaning |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**1**
-
-| The route type is not specified. The type is different from those listed here.<br> |
-|
-
-**2**
-
-| The route is invalid. Normally, this value is used to invalidate a route. However, since invalidation is not supported by the routing table manager, the route is still considered in best-route computations. Therefore, routing protocols should not use this value.<br> |
-|
-
-**3**
-
-| The route is a local route, that is, the next hop is the final destination.<br> |
-|
-
-**4**
-
-| The route is a remote route, that is, the next hop is not the final destination.<br> |
+| **1** | The route type is not specified. The type is different from those listed here.<br> |
+| **2** | The route is invalid. Normally, this value is used to invalidate a route. However, since invalidation is not supported by the routing table manager, the route is still considered in best-route computations. Therefore, routing protocols should not use this value.<br> |
+| **3** | The route is a local route, that is, the next hop is the final destination.<br> |
+| **4** | The route is a remote route, that is, the next hop is not the final destination.<br> |
 
 **FSD\_Policy**
 

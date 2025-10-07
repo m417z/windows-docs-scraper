@@ -52,8 +52,8 @@ The profile functions use the following steps to locate initialization informati
 1. Look in the registry for the name of the initialization file under the **IniFileMapping** key.
 2. Look for the section name specified by *lpAppName*. This will be a named value under the key that has the name of the initialization file, or a subkey with this name, or the name will not exist as either a value or subkey.
 3. If the section name specified by *lpAppName* is a named value, then that value specifies where in the registry you will find the keys for the section.
-4. If the section name specified by *lpAppName* is a subkey, then named values under that subkey specify where in the registry you will find the keys for the section. If the key you are looking for does not exist as a named value, then there will be an unnamed value (shown as **<No Name>**) that specifies the default location in the registry where you will find the key.
-5. If the section name specified by *lpAppName* does not exist as a named value or as a subkey, then there will be an unnamed value (shown as **<No Name>**) that specifies the default location in the registry where you will find the keys for the section.
+4. If the section name specified by *lpAppName* is a subkey, then named values under that subkey specify where in the registry you will find the keys for the section. If the key you are looking for does not exist as a named value, then there will be an unnamed value (shown as **\<No Name>**) that specifies the default location in the registry where you will find the key.
+5. If the section name specified by *lpAppName* does not exist as a named value or as a subkey, then there will be an unnamed value (shown as **\<No Name>**) that specifies the default location in the registry where you will find the keys for the section.
 6. If there is no subkey or entry for the section name, then look for the actual initialization file on the disk and read its contents.
 
 When looking at values in the registry that specify other registry locations, there are several prefixes that change the behavior of the .ini file mapping:

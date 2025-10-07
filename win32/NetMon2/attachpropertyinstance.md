@@ -38,21 +38,9 @@ A BIT field value that indicates the order of the BITs within a property. Previo
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-|
-
-**IFLAG\_ERROR**
-
-| Data in the frame has an error.<br> |
-|
-
-**IFLAG\_SWAPPED**
-
-| At attach time, **WORD** byte is a non-Intel format.<br> |
-|
-
-**IFLAG\_UNICODE**
-
-| At attach time, **STRING** is Unicode.<br> |
+| **IFLAG\_ERROR** | Data in the frame has an error.<br> |
+| **IFLAG\_SWAPPED** | At attach time, **WORD** byte is a non-Intel format.<br> |
+| **IFLAG\_UNICODE** | At attach time, **STRING** is Unicode.<br> |
 
 ## Return value
 

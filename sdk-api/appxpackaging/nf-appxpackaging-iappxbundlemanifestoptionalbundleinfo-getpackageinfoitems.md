@@ -10,7 +10,7 @@ Retrieves optional packages in the bundle.
 
 Type: **IAppxBundleManifestPackageInfoEnumerator****
 
- An enumerator over all payload packages in a <OptionalBundle> element of a bundle.
+ An enumerator over all payload packages in a \<OptionalBundle> element of a bundle.
 
 ## Return value
 

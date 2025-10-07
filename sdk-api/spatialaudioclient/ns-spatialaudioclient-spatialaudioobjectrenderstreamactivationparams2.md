@@ -1,6 +1,6 @@
 ## Description
 
-Represents activation parameters for a spatial audio render stream, extending  with the ability to specify stream options. Pass this structure to [ISpatialAudioClient::ActivateSpatialAudioStream](https://learn.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream) when activating a stream.
+Represents activation parameters for a spatial audio render stream, extending \<xref:NS:spatialaudioclient.SpatialAudioObjectRenderStreamActivationParams> with the ability to specify stream options. Pass this structure to [ISpatialAudioClient::ActivateSpatialAudioStream](https://learn.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream) when activating a stream.
 
 ## Members
 

@@ -53,8 +53,8 @@ This method can be used to send a SMS message for a CDMA device. However, this i
 
 The *address* parameter can be in either of these formats.
 
-* "+ <International Country Code> <SMS Service Center Number>\0"
-* "<SMS Service Center Number>\0"
+* "+ \<International Country Code> \<SMS Service Center Number>\0"
+* "\<SMS Service Center Number>\0"
 
 This is an asynchronous operation that will return immediately. If the method returns without error, then the Mobile Broadband service will call the [OnSmsSendComplete](https://learn.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmssendcomplete) method of the [IMbnSmsEvents](https://learn.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents) interface.
 

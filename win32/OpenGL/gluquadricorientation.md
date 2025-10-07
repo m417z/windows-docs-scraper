@@ -14,16 +14,8 @@ The desired orientation. The following values are valid.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-|
-
-**GLU\_OUTSIDE**
-
-| Draw quadrics with normals pointing outward. This is the default value.<br> |
-|
-
-**GLU\_INSIDE**
-
-| Draw quadrics with normals pointing inward.<br> |
+| **GLU\_OUTSIDE** | Draw quadrics with normals pointing outward. This is the default value.<br> |
+| **GLU\_INSIDE** | Draw quadrics with normals pointing inward.<br> |
 
 ## Return value
 

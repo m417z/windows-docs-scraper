@@ -14,36 +14,12 @@ Current status of the analysis. Specify one of the following [EXPERTSTATUSENUMER
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-|
-
-**EXPERTSTATUS\_INACTIVE**
-
-| The expert never started. <br> |
-|
-
-**EXPERTSTATUS\_STARTING**
-
-| The expert is starting. <br> |
-|
-
-**EXPERTSTATUS\_RUNNING**
-
-| The expert is running normally. <br> |
-|
-
-**EXPERTSTATUS\_PROBLEM**
-
-| A problem specified in the SubStatus parameter stopped the expert. <br> |
-|
-
-**EXPERTSTATUS\_ABORTED**
-
-| Network Monitor stopped the expert. <br> |
-|
-
-**EXPERTSTATUS\_DONE**
-
-| The expert finished the analysis successfully. <br> |
+| **EXPERTSTATUS\_INACTIVE** | The expert never started. <br> |
+| **EXPERTSTATUS\_STARTING** | The expert is starting. <br> |
+| **EXPERTSTATUS\_RUNNING** | The expert is running normally. <br> |
+| **EXPERTSTATUS\_PROBLEM** | A problem specified in the SubStatus parameter stopped the expert. <br> |
+| **EXPERTSTATUS\_ABORTED** | Network Monitor stopped the expert. <br> |
+| **EXPERTSTATUS\_DONE** | The expert finished the analysis successfully. <br> |
 
 *SubStatus* \[in\]
 

@@ -9,19 +9,19 @@ control code retrieves the current version of the EMI interface supported by the
 
 ### Input buffer
 
- None.
+\<text> None. \</text>
 
 ### Input buffer length
 
- None.
+\<text> None. \</text>
 
 ### Output buffer
 
- The  **AssociatedIrp.SystemBuffer**  member specifies the address of a caller-allocated buffer that contains a EMI_VERSION structure. On output, this structure holds the EMI version that is supported by the device.
+\<text> The  **AssociatedIrp.SystemBuffer**  member specifies the address of a caller-allocated buffer that contains a EMI_VERSION structure. On output, this structure holds the EMI version that is supported by the device. \</text>
 
 ### Output buffer length
 
- The size of this buffer is specified in the  **Parameters.DeviceIoControl.OutputBufferLength**  member.
+\<text> The size of this buffer is specified in the  **Parameters.DeviceIoControl.OutputBufferLength**  member. \</text>
 
 ### Status block
 

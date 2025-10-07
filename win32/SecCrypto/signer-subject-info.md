@@ -21,20 +21,11 @@ Specifies whether the subject is a file or a [*BLOB*](https://learn.microsoft.co
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-|
+| **SIGNER\_SUBJECT\_BLOB**
 
-**SIGNER\_SUBJECT\_BLOB**
+2 (0x2) | The subject is a BLOB.\ | | **SIGNER\_SUBJECT\_FILE**
 
-2 (0x2)
-
-| The subject is a BLOB.<br> |
-|
-
-**SIGNER\_SUBJECT\_FILE**
-
-1 (0x1)
-
-| The subject is a file.<br> |
+1 (0x1) | The subject is a file.\ |
 
 **pSignerFileInfo**
 

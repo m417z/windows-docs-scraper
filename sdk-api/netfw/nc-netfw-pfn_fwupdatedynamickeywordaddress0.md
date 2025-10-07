@@ -59,8 +59,8 @@ To clear the addresses for an object, pass in NULL for the *updatedAddresses* va
 Valid format for the *updatedAddresses* parameter is a comma-separated list of IP address tokens. Tokens can be individual IP addresses, ranges, or subnets. Valid token formats include:
   * A valid IPv4 address (for example, 10.0.0.10)
   * A valid IPv6 address (for example, 2620:1ec:c11::200)
-  * An IPv4 address range in the format \-\, with no spaces included (for example, 10.0.0.0-10.0.0.255)
-  * An IPv6 address range in the format \-\, with no spaces included (for example, 2001:db8:abcd:12::-2001:db8:abcd:12:ffff:ffff:ffff:ffff)
+  * An IPv4 address range in the format \<start address\>-\<end address\>, with no spaces included (for example, 10.0.0.0-10.0.0.255)
+  * An IPv6 address range in the format \<start address\>-\<end address\>, with no spaces included (for example, 2001:db8:abcd:12::-2001:db8:abcd:12:ffff:ffff:ffff:ffff)
   * A valid IPv4 subnet specified using the network prefix notation (for example, 10.0.0.0/24)
   * A valid IPv6 subnet specified using the prefix length notation (for example, 2001:db8:abcd:0012::0/64)
 

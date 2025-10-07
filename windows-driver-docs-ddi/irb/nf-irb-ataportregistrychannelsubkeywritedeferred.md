@@ -2,7 +2,7 @@
 
 ## Description
 
-The **AtaPortRegistryChannelSubKeyWriteDeferred** routine writes data asynchronously to the indicated value name under the registry key `HKLM\CurrentControlSet\Services\\ControllerN\ChannelM`, where *N* is the number of the controller and *M* is the number of the channel.
+The **AtaPortRegistryChannelSubKeyWriteDeferred** routine writes data asynchronously to the indicated value name under the registry key `HKLM\CurrentControlSet\Services\<service name>\ControllerN\ChannelM`, where *N* is the number of the controller and *M* is the number of the channel.
 
 **Note** The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 

@@ -17,8 +17,8 @@ For a received message, this is the sender's number. For a sent or draft message
 
 The *address* can be in either of these formats.
 
-* "+ <International Country Code> <SMS Service Center Number>\0"
-* "<SMS Service Center Number>\0"
+* "+ \<International Country Code> \<SMS Service Center Number>\0"
+* "\<SMS Service Center Number>\0"
 
 ## See also
 

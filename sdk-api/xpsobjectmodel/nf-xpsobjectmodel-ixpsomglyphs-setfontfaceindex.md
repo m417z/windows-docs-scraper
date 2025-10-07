@@ -25,7 +25,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 The default value of the font face index property is –1, which means that a font index has not been set or the font resource is not a **TrueType** font collection.
 
-If this value is specified and is not –1, "#<Index>" is appended to the Font URI during serialization. Here, <Index> is the value that is set by **SetFontFaceIndex**.
+If this value is specified and is not –1, "#\<Index>" is appended to the Font URI during serialization. Here, \<Index> is the value that is set by **SetFontFaceIndex**.
 
 The following markup of a FixedPage shows the result of setting the *fontFaceIndex* to 1. Notice that the **FontUri** attribute of the **Glyphs** element has a value of `../Resources/Fonts/Font.TTF#1`, which includes the index of the font face.
 

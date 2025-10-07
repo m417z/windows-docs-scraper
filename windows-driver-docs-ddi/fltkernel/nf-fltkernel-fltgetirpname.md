@@ -12,7 +12,7 @@ The IRP major function code whose name is to be returned.
 
 ## Return value
 
-If **IrpMajorCode** is a valid major function code value, **FltGetIrpName** returns its name as a null-terminated string of ANSI characters (such as "IRP_MJ_CREATE"). Otherwise, **FltGetIrpName** returns "\".
+If **IrpMajorCode** is a valid major function code value, **FltGetIrpName** returns its name as a null-terminated string of ANSI characters (such as "IRP_MJ_CREATE"). Otherwise, **FltGetIrpName** returns "\<Invalid IRP code\>".
 
 ## Remarks
 

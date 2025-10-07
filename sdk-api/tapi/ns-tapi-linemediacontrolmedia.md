@@ -28,7 +28,7 @@ Media control action. This member uses one of the
 This structure may not be extended.
 
 The
-**LINEMEDIACONTROLMEDIA** structure defines a triple <media type(s), duration, media-control action>. An array of these triples is passed to the
+**LINEMEDIACONTROLMEDIA** structure defines a triple \<media type(s), duration, media-control action>. An array of these triples is passed to the
 [lineSetMediaControl](https://learn.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol) function to set the media control actions triggered by media type changes for a given call. When a change to a listed media type is detected, then the corresponding action on the media stream is invoked.
 
 ## See also

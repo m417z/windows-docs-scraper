@@ -12,11 +12,7 @@ Specifies flags that describe the route. Currently, this member is either zero o
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-|
-
-**IPX\_GLOBAL\_CLIENT\_WAN\_ROUTE**
-
-| Specifies that this route is for the global network allocated for all WAN clients.<br> |
+| **IPX\_GLOBAL\_CLIENT\_WAN\_ROUTE** | Specifies that this route is for the global network allocated for all WAN clients.<br> |
 
 **FSD\_TickCount**
 

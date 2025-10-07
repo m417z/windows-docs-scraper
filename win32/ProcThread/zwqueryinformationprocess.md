@@ -16,42 +16,18 @@ The type of process information to be retrieved. This parameter can be one of th
 
 | Value | Meaning |
 |-------|---------|
-|
+| **ProcessBasicInformation**
 
-**ProcessBasicInformation**
+0 | Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. \ It is best to use the [**CheckRemoteDebuggerPresent**](https://learn.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent) and [**GetProcessId**](https://learn.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid) functions to obtain this information.\ | | **ProcessDebugPort**
 
-0
+7 | Retrieves a **DWORD_PTR** value that is the port number of the debugger for the process. A nonzero value indicates that the process is being run under the control of a ring 3 debugger.\ It is best to use the [**CheckRemoteDebuggerPresent**](https://learn.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent) or [**IsDebuggerPresent**](https://learn.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent) function.\ | | **ProcessWow64Information**
 
-| Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. <br> It is best to use the [**CheckRemoteDebuggerPresent**](https://learn.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent) and [**GetProcessId**](https://learn.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid) functions to obtain this information.<br> |
-|
+26 | Determines whether the process is running in the WOW64 environment (WOW64 is the x86 emulator that allows Win32-based applications to run on 64-bit Windows).\ It is best to use the [**IsWow64Process**](https://learn.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process) function to obtain this information.\ | | **ProcessImageFileName**
 
-**ProcessDebugPort**
+27 | Retrieves a **UNICODE_STRING** value containing the name of the image file for the process.\ | | **ProcessBreakOnTermination**\ 29\ | Retrieves a **ULONG** value indicating whether the process is considered critical.\ **Note:** This value can be used starting in Windows XP with SP3. Starting in Windows 8.1, [**IsProcessCritical**](https://learn.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical) should be used instead.\ | | **ProcessProtectionInformation**
 
-7
+61 | Retrieves a BYTE value indicating the type of protected process and the protected process signer.\
 
-| Retrieves a **DWORD_PTR** value that is the port number of the debugger for the process. A nonzero value indicates that the process is being run under the control of a ring 3 debugger.<br> It is best to use the [**CheckRemoteDebuggerPresent**](https://learn.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent) or [**IsDebuggerPresent**](https://learn.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent) function.<br> |
-|
-
-**ProcessWow64Information**
-
-26
-
-| Determines whether the process is running in the WOW64 environment (WOW64 is the x86 emulator that allows Win32-based applications to run on 64-bit Windows).<br> It is best to use the [**IsWow64Process**](https://learn.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process) function to obtain this information.<br> |
-|
-
-**ProcessImageFileName**
-
-27
-
-| Retrieves a **UNICODE_STRING** value containing the name of the image file for the process.<br> |
-| **ProcessBreakOnTermination**<br>29<br> | Retrieves a **ULONG** value indicating whether the process is considered critical.<br> **Note:** This value can be used starting in Windows XP with SP3. Starting in Windows 8.1, [**IsProcessCritical**](https://learn.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical) should be used instead.<br> |
-|
-
-**ProcessProtectionInformation**
-
-61
-
-| Retrieves a BYTE value indicating the type of protected process and the protected process signer.<br>
 *ProcessInformation* \[out\]
 
 A pointer to a buffer supplied by the calling application into which the function writes the requested information. The size of the information written varies depending on the value of the *ProcessInformationClass* parameter:

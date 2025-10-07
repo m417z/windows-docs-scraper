@@ -47,18 +47,18 @@ When **ITfReadOnlyProperty::EnumRanges** is called with *pTargetRange* set to th
 
 | Range Index | Color Property Value | Range Text |
 | --- | --- | --- |
-| 0 | <empty> | "this " |
+| 0 | \<empty> | "this " |
 | 1 | R | "is" |
-| 2 | <empty> | " some " |
+| 2 | \<empty> | " some " |
 | 3 | G | "colored " |
-| 4 | <empty> | "text" |
+| 4 | \<empty> | "text" |
 
 If *pTargetRange* is **NULL**, then the enumerator will begin and end with the first and last range that contains a non-empty property value in the context. Specifying **NULL** for *pTargetRange* in the above example would result in an enumerator with three ranges.
 
 | Range Index | Color Property Value | Text Within Range |
 | --- | --- | --- |
 | 0 | R | "is" |
-| 1 | <empty> | " some " |
+| 1 | \<empty> | " some " |
 | 2 | G | "colored " |
 
 The enumerated ranges will begin and end with the start and end anchors of *pTargetRange*, even if either anchor is positioned in the middle of a property.

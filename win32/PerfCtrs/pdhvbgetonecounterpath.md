@@ -23,26 +23,10 @@ Types of counters to be displayed in the dialog box. This parameter can be one o
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**PERF\_DETAIL\_ADVANCED**
-
-| Counters that the advanced user is likely to understand, in addition to the novice-user counters.<br> |
-|
-
-**PERF\_DETAIL\_EXPERT**
-
-| Counters that the expert user and software developer is likely to understand, in addition to the counters for the novice and advanced users.<br> |
-|
-
-**PERF\_DETAIL\_NOVICE**
-
-| Only counters that the novice user is likely to understand.<br> |
-|
-
-**PERF\_DETAIL\_WIZARD**
-
-| All counters in the system.<br> |
+| **PERF\_DETAIL\_ADVANCED** | Counters that the advanced user is likely to understand, in addition to the novice-user counters.<br> |
+| **PERF\_DETAIL\_EXPERT** | Counters that the expert user and software developer is likely to understand, in addition to the counters for the novice and advanced users.<br> |
+| **PERF\_DETAIL\_NOVICE** | Only counters that the novice user is likely to understand.<br> |
+| **PERF\_DETAIL\_WIZARD** | All counters in the system.<br> |
 
 *CaptionString*
 

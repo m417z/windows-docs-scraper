@@ -6,7 +6,7 @@ Represents a DNS service running on the network.
 
 ### `pszInstanceName`
 
-A string that represents the service name. This is a fully qualified domain name that begins with a service name, and ends with ".local". It takes the generalized form "\.\_\.\_\.local". For example, "MyMusicServer._http._tcp.local".
+A string that represents the service name. This is a fully qualified domain name that begins with a service name, and ends with ".local". It takes the generalized form "\<ServiceName\>.\_\<ServiceType\>.\_\<TransportProtocol\>.local". For example, "MyMusicServer._http._tcp.local".
 
 ### `pszHostName`
 
@@ -50,7 +50,7 @@ A value that contains the interface index on which the service was discovered.
 
 ## Remarks
 
-`pszInstanceName`. A string that represents the service name. This is a fully qualified domain name that begins with a service name, and ends with ".local". It takes the generalized form "\.\_\.\_\.local". For example, "MyMusicServer._http._tcp.local".
+`pszInstanceName`. A string that represents the service name. This is a fully qualified domain name that begins with a service name, and ends with ".local". It takes the generalized form "\<ServiceName\>.\_\<ServiceType\>.\_\<TransportProtocol\>.local". For example, "MyMusicServer._http._tcp.local".
 
 `pszHostName`. A string that represents the name of the host of the service.
 

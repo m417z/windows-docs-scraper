@@ -16,26 +16,10 @@ The type of the contour being defined. The following values are valid.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GLU\_EXTERIOR**
-
-| An exterior contour defines an exterior boundary of the polygon.<br> |
-|
-
-**GLU\_INTERIOR**
-
-| An interior contour defines an interior boundary of the polygon (such as a hole).<br> |
-|
-
-**GLU\_UNKNOWN**
-
-| An unknown contour is analyzed by the library to determine whether it is interior or exterior.<br> |
-|
-
-**GLU\_CCW, GLU\_CW**
-
-| The first GLU\_CCW or GLU\_CW contour defined is considered to be exterior. All other contours are considered to be exterior if they are oriented in the same direction (clockwise or counterclockwise) as the first contour, and interior if they are not.<br> If one contour is of type GLU\_CCW or GLU\_CW, then all contours must be of the same type (if they are not, then all GLU\_CCW and GLU\_CW contours will be changed to GLU\_UNKNOWN). Note that there is no real difference between the GLU\_CCW and GLU\_CW contour types.<br> |
+| **GLU\_EXTERIOR** | An exterior contour defines an exterior boundary of the polygon.<br> |
+| **GLU\_INTERIOR** | An interior contour defines an interior boundary of the polygon (such as a hole).<br> |
+| **GLU\_UNKNOWN** | An unknown contour is analyzed by the library to determine whether it is interior or exterior.<br> |
+| **GLU\_CCW, GLU\_CW** | The first GLU\_CCW or GLU\_CW contour defined is considered to be exterior. All other contours are considered to be exterior if they are oriented in the same direction (clockwise or counterclockwise) as the first contour, and interior if they are not.<br> If one contour is of type GLU\_CCW or GLU\_CW, then all contours must be of the same type (if they are not, then all GLU\_CCW and GLU\_CW contours will be changed to GLU\_UNKNOWN). Note that there is no real difference between the GLU\_CCW and GLU\_CW contour types.<br> |
 
 ## Return value
 

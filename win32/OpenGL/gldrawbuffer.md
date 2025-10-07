@@ -10,61 +10,17 @@ Specifies up to four color buffers to be drawn into with the following acceptabl
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_NONE**
-
-| No color buffers are written.<br> |
-|
-
-**GL\_FRONT\_LEFT**
-
-| Only the front-left color buffer is written.<br> |
-|
-
-**GL\_FRONT\_RIGHT**
-
-| Only the front-right color buffer is written.<br> |
-|
-
-**GL\_BACK\_LEFT**
-
-| Only the back-left color buffer is written.<br> |
-|
-
-**GL\_BACK\_RIGHT**
-
-| Only the back-right color buffer is written.<br> |
-|
-
-**GL\_FRONT**
-
-| Only the front-left and front-right color buffers are written. If there is no front-right color buffer, only the front left-color buffer is written.<br> |
-|
-
-**GL\_BACK**
-
-| Only the back-left and back-right color buffers are written. If there is no back-right color buffer, only the back-left color buffer is written.<br> |
-|
-
-**GL\_LEFT**
-
-| Only the front-left and back-left color buffers are written. If there is no back-left color buffer, only the front-left color buffer is written.<br> |
-|
-
-**GL\_RIGHT**
-
-| Only the front-right and back-right color buffers are written. If there is no back-right color buffer, only the front-right color buffer is written.<br> |
-|
-
-**GL\_FRONT\_AND\_BACK**
-
-| All the front and back color buffers (front-left, front-right, back-left, back-right) are written. If there are no back color buffers, only the front-left and front-right color buffers are written. If there are no right color buffers, only the front-left and back-left color buffers are written. If there are no right or back color buffers, only the front-left color buffer is written.<br> |
-|
-
-**GL\_AUXi**
-
-| Only the auxiliary color buffer *i* is written; *i* is between 0 and GL\_AUX\_BUFFERS - 1. (GL\_AUX\_BUFFERS is not the upper limit; use [**glGet**](https://learn.microsoft.com/windows/win32/opengl/glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv) to query the number of available auxiliary buffers.)<br> |
+| **GL\_NONE** | No color buffers are written.<br> |
+| **GL\_FRONT\_LEFT** | Only the front-left color buffer is written.<br> |
+| **GL\_FRONT\_RIGHT** | Only the front-right color buffer is written.<br> |
+| **GL\_BACK\_LEFT** | Only the back-left color buffer is written.<br> |
+| **GL\_BACK\_RIGHT** | Only the back-right color buffer is written.<br> |
+| **GL\_FRONT** | Only the front-left and front-right color buffers are written. If there is no front-right color buffer, only the front left-color buffer is written.<br> |
+| **GL\_BACK** | Only the back-left and back-right color buffers are written. If there is no back-right color buffer, only the back-left color buffer is written.<br> |
+| **GL\_LEFT** | Only the front-left and back-left color buffers are written. If there is no back-left color buffer, only the front-left color buffer is written.<br> |
+| **GL\_RIGHT** | Only the front-right and back-right color buffers are written. If there is no back-right color buffer, only the front-right color buffer is written.<br> |
+| **GL\_FRONT\_AND\_BACK** | All the front and back color buffers (front-left, front-right, back-left, back-right) are written. If there are no back color buffers, only the front-left and front-right color buffers are written. If there are no right color buffers, only the front-left and back-left color buffers are written. If there are no right or back color buffers, only the front-left color buffer is written.<br> |
+| **GL\_AUXi** | Only the auxiliary color buffer *i* is written; *i* is between 0 and GL\_AUX\_BUFFERS - 1. (GL\_AUX\_BUFFERS is not the upper limit; use [**glGet**](https://learn.microsoft.com/windows/win32/opengl/glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv) to query the number of available auxiliary buffers.)<br> |
 
 The default value is GL\_FRONT for single-buffered contexts, and GL\_BACK for double-buffered contexts.
 

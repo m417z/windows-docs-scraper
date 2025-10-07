@@ -24,7 +24,7 @@ Use one of the following constants to specify a namespace.
 | **NS_NDS** | The NetWare 4 provider. |
 | **NS_NETBT** | The NetBIOS over TCP/IP layer. All Windows systems register their computer names with NetBIOS. This namespace is used to convert a computer name to an IP address that uses this registration. |
 | **NS_SAP** | The NetWare Service Advertising Protocol. This can access the NetWare bindery, if appropriate. NS_SAP is a dynamic namespace that enables the registration of services. |
-| **NS_TCPIP_HOSTS** | Lookup value in the <systemroot>\system32\drivers\etc\posts file. |
+| **NS_TCPIP_HOSTS** | Lookup value in the \<systemroot>\system32\drivers\etc\posts file. |
 | **NS_TCPIP_LOCAL** | Local TCP/IP name resolution mechanisms, including comparisons against the local host name and lookup value in the cache of host to IP address mappings. |
 
 ### `dwOperation` [in]

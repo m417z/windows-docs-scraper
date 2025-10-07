@@ -32,7 +32,7 @@ If the function fails, the return value is zero. To get extended error informati
 If the current thread is impersonating another client, the
 **GetUserName** function returns the user name of the client that the thread is impersonating.
 
-If **GetUserName** is called from a process that is running under the "NETWORK SERVICE" account, the string returned in *lpBuffer* may be different depending on the version of Windows. On Windows XP, the "NETWORK SERVICE" string is returned. On Windows Vista, the “<HOSTNAME>$” string is returned.
+If **GetUserName** is called from a process that is running under the "NETWORK SERVICE" account, the string returned in *lpBuffer* may be different depending on the version of Windows. On Windows XP, the "NETWORK SERVICE" string is returned. On Windows Vista, the “\<HOSTNAME>$” string is returned.
 
 #### Examples
 

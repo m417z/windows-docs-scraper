@@ -2,7 +2,7 @@
 
 ## Description
 
-Determines whether there is a <MainPackageDependency> element at the current position of the enumerator.
+Determines whether there is a \<MainPackageDependency> element at the current position of the enumerator.
 
 ## Parameters
 

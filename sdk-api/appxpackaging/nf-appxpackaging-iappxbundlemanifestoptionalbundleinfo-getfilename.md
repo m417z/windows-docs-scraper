@@ -2,7 +2,7 @@
 
 ## Description
 
-Retrieves the file-name attribute of the <OptionalBundle>.
+Retrieves the file-name attribute of the \<OptionalBundle>.
 
 ## Parameters
 

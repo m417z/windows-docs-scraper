@@ -18,11 +18,7 @@ Specifies the signature update control option. It must be the following value:
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-|
-
-**MPCONTROL\_ABORT**
-
-| Abort the signature update operation.<br> |
+| **MPCONTROL\_ABORT** | Abort the signature update operation.<br> |
 
 ## Return value
 

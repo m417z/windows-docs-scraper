@@ -16,16 +16,8 @@ Identifies the type of data associated with the parameter. This member can be on
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-|
-
-**ParamNumber**
-
-| Indicates that the data associated with the key is a number.<br> |
-|
-
-**ParamString**
-
-| Indicates that the data associated with the key is a string.<br> |
+| **ParamNumber** | Indicates that the data associated with the key is a number.<br> |
+| **ParamString** | Indicates that the data associated with the key is a string.<br> |
 
 **P\_Attributes**
 

@@ -532,7 +532,7 @@ App3.exe
 
 Run the following command to start the tracing session:
 
-**tracelog.exe -start <sessionname> -guid #cfaa5446-c6c4-4f5c-866f-31c9b55b962d -f <filename> -flag <traceFlags>**
+**tracelog.exe -start \<sessionname> -guid #cfaa5446-c6c4-4f5c-866f-31c9b55b962d -f \<filename> -flag \<traceFlags>**
 
 *sessionname* is the name given for the trace session. The
 *guid* for the DCLocator tracing provider is
@@ -554,7 +554,7 @@ flags which signify which areas to trace:
 
 Run the following command to stop the trace session:
 
-**tracelog.exe -stop <sessionname>**
+**tracelog.exe -stop \<sessionname>**
 
 *sessionname* is the same name as the name you used when starting the session.
 

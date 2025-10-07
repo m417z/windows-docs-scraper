@@ -42,34 +42,15 @@ The content type that corresponds to this packet, which specifies the higher lev
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-|
+| **CT\_CHANGE\_CIPHER\_SPEC**
 
-**CT\_CHANGE\_CIPHER\_SPEC**
+20 | Indicates a change in the ciphering strategy.\ | | **CT\_ALERT**
 
-20
+21 | Indicates that the enclosed packet contains an alert.\ | | **CT\_HANDSHAKE**
 
-| Indicates a change in the ciphering strategy.<br> |
-|
+22 | Indicates that the enclosed packet is part of the handshake protocol.\ | | **CT\_APPLICATIONDATA**
 
-**CT\_ALERT**
-
-21
-
-| Indicates that the enclosed packet contains an alert.<br> |
-|
-
-**CT\_HANDSHAKE**
-
-22
-
-| Indicates that the enclosed packet is part of the handshake protocol.<br> |
-|
-
-**CT\_APPLICATIONDATA**
-
-23
-
-| Indicates that the packet contains application data.<br> |
+23 | Indicates that the packet contains application data.\ |
 
 *dwFlags* \[in\]
 

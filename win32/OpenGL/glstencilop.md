@@ -10,36 +10,12 @@ The action to take when the stencil test fails. The following six symbolic const
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_KEEP**
-
-| Keeps the current value.<br> |
-|
-
-**GL\_ZERO**
-
-| Sets the stencil buffer value to zero.<br> |
-|
-
-**GL\_REPLACE**
-
-| Sets the stencil buffer value to *ref*, as specified by **glStencilFunc**.<br> |
-|
-
-**GL\_INCR**
-
-| Increments the current stencil buffer value. Clamps to the maximum representable unsigned value.<br> |
-|
-
-**GL\_DECR**
-
-| Decrements the current stencil buffer value. Clamps to zero.<br> |
-|
-
-**GL\_INVERT**
-
-| Bitwise inverts the current stencil buffer value.<br> |
+| **GL\_KEEP** | Keeps the current value.<br> |
+| **GL\_ZERO** | Sets the stencil buffer value to zero.<br> |
+| **GL\_REPLACE** | Sets the stencil buffer value to *ref*, as specified by **glStencilFunc**.<br> |
+| **GL\_INCR** | Increments the current stencil buffer value. Clamps to the maximum representable unsigned value.<br> |
+| **GL\_DECR** | Decrements the current stencil buffer value. Clamps to zero.<br> |
+| **GL\_INVERT** | Bitwise inverts the current stencil buffer value.<br> |
 
 *zfail*
 

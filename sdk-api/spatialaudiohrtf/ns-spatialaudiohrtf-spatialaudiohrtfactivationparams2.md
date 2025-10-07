@@ -1,6 +1,6 @@
 ## Description
 
-Represents activation parameters for a spatial audio render stream, extending  with the ability to specify stream options.
+Represents activation parameters for a spatial audio render stream, extending \<xref:NS:spatialaudiohrtf.SpatialAudioHrtfActivationParams> with the ability to specify stream options.
 
 ## Members
 
@@ -50,7 +50,7 @@ Optional default value for the orientation of [ISpatialAudioObjectForHrtf](https
 
 ### `Options`
 
-A member of the  emumeration, specifying options for the activated audio stream.
+A member of the \<xref:NE:spatialaudioclient.SPATIAL_AUDIO_STREAM_OPTIONS> emumeration, specifying options for the activated audio stream.
 
 ## Remarks
 

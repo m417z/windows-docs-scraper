@@ -10,31 +10,11 @@ A symbolic constant indicating the behavior to be controlled. The following symb
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_FOG\_HINT**
-
-| Indicates the accuracy of fog calculation. If per-pixel fog calculation is not efficiently supported by the OpenGL implementation, hinting GL\_DONT\_CARE or GL\_FASTEST can result in per-vertex calculation of fog effects.<br> |
-|
-
-**GL\_LINE\_SMOOTH\_HINT**
-
-| Indicates the sampling quality of antialiased lines. Hinting GL\_NICEST can result in more pixel fragments being generated during rasterization, if a larger filter function is applied.<br> |
-|
-
-**GL\_PERSPECTIVE\_CORRECTION\_HINT**
-
-| Indicates the quality of color and texture coordinate interpolation. If perspective-corrected parameter interpolation is not efficiently supported by the OpenGL implementation, hinting GL\_DONT\_CARE or GL\_FASTEST can result in simple linear interpolation of colors and/or texture coordinates.<br> |
-|
-
-**GL\_POINT\_SMOOTH\_HINT**
-
-| Indicates the sampling quality of antialiased points. Hinting GL\_NICEST can result in more pixel fragments being generated during rasterization, if a larger filter function is applied.<br> |
-|
-
-**GL\_POLYGON\_SMOOTH\_HINT**
-
-| Indicates the sampling quality of antialiased polygons. Hinting GL\_NICEST can result in more pixel fragments being generated during rasterization, if a larger filter function is applied.<br> |
+| **GL\_FOG\_HINT** | Indicates the accuracy of fog calculation. If per-pixel fog calculation is not efficiently supported by the OpenGL implementation, hinting GL\_DONT\_CARE or GL\_FASTEST can result in per-vertex calculation of fog effects.<br> |
+| **GL\_LINE\_SMOOTH\_HINT** | Indicates the sampling quality of antialiased lines. Hinting GL\_NICEST can result in more pixel fragments being generated during rasterization, if a larger filter function is applied.<br> |
+| **GL\_PERSPECTIVE\_CORRECTION\_HINT** | Indicates the quality of color and texture coordinate interpolation. If perspective-corrected parameter interpolation is not efficiently supported by the OpenGL implementation, hinting GL\_DONT\_CARE or GL\_FASTEST can result in simple linear interpolation of colors and/or texture coordinates.<br> |
+| **GL\_POINT\_SMOOTH\_HINT** | Indicates the sampling quality of antialiased points. Hinting GL\_NICEST can result in more pixel fragments being generated during rasterization, if a larger filter function is applied.<br> |
+| **GL\_POLYGON\_SMOOTH\_HINT** | Indicates the sampling quality of antialiased polygons. Hinting GL\_NICEST can result in more pixel fragments being generated during rasterization, if a larger filter function is applied.<br> |
 
 *mode*
 
@@ -42,21 +22,9 @@ A symbolic constant indicating the desired behavior. The following symbolic cons
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-|
-
-**GL\_FASTEST**
-
-| The most efficient option should be chosen.<br> |
-|
-
-**GL\_NICEST**
-
-| The most correct, or highest quality, option should be chosen.<br> |
-|
-
-**GL\_DONT\_CARE**
-
-| The client doesn't have a preference.<br> |
+| **GL\_FASTEST** | The most efficient option should be chosen.<br> |
+| **GL\_NICEST** | The most correct, or highest quality, option should be chosen.<br> |
+| **GL\_DONT\_CARE** | The client doesn't have a preference.<br> |
 
 ## Return value
 

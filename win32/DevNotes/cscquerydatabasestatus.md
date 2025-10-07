@@ -12,34 +12,15 @@ The status. This parameter can be one of the following values.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-|
+| **FLAG\_DATABASESTATUS\_ENCRYPTED**
 
-**FLAG\_DATABASESTATUS\_ENCRYPTED**
+0x00000002 | The cache is marked for encryption and all files in the cache are encrypted.\ | | **FLAG\_DATABASESTATUS\_PARTIALLY\_ENCRYPTED**
 
-0x00000002
+0x00000004 | The cache is marked for encryption, but some files in the cache are not encrypted.\ | | **FLAG\_DATABASESTATUS\_PARTIALLY\_UNENCRYPTED**
 
-| The cache is marked for encryption and all files in the cache are encrypted.<br> |
-|
+0x00000004 | The cache is not marked for encryption, but not all files in the cache have been decrypted.\ | | **FLAG\_DATABASESTATUS\_UNENCRYPTED**
 
-**FLAG\_DATABASESTATUS\_PARTIALLY\_ENCRYPTED**
-
-0x00000004
-
-| The cache is marked for encryption, but some files in the cache are not encrypted.<br> |
-|
-
-**FLAG\_DATABASESTATUS\_PARTIALLY\_UNENCRYPTED**
-
-0x00000004
-
-| The cache is not marked for encryption, but not all files in the cache have been decrypted.<br> |
-|
-
-**FLAG\_DATABASESTATUS\_UNENCRYPTED**
-
-0x00000000
-
-| The cache is not marked for encryption and all files in the cache have been decrypted.<br> |
+0x00000000 | The cache is not marked for encryption and all files in the cache have been decrypted.\ |
 
 *pulErrors*
 

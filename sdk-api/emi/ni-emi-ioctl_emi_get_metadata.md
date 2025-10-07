@@ -9,20 +9,20 @@ control code retrieves EMI metadata from a device. The metadata describe how EMI
 
 ### Input buffer
 
- None.
+\<text> None. \</text>
 
 ### Input buffer length
 
- None.
+\<text> None. \</text>
 
 ### Output buffer
 
- The  **AssociatedIrp.SystemBuffer**
-member specifies the address of a caller-allocated buffer that is used to retrieve the device-specific metadata that extended by [EMI_METADATA_V1](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_metadata_v1) or [EMI_METADATA_V2](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_metadata_v2) based on the interface version. On output, this structure holds the metadata of the channels of the requesting device.
+\<text> The  **AssociatedIrp.SystemBuffer**
+member specifies the address of a caller-allocated buffer that is used to retrieve the device-specific metadata that extended by [EMI_METADATA_V1](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_metadata_v1) or [EMI_METADATA_V2](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_metadata_v2) based on the interface version. On output, this structure holds the metadata of the channels of the requesting device. \</text>
 
 ### Output buffer length
 
- The length of buffer should be either equal or greater than the value retrieved from [IOCTL_EMI_GET_METADATA_SIZE](https://learn.microsoft.com/windows/win32/api/emi/ni-emi-ioctl_emi_get_metadata_size) and it is specified in the  **Parameters.DeviceIoControl.OutputBufferLength**  member.
+\<text> The length of buffer should be either equal or greater than the value retrieved from [IOCTL_EMI_GET_METADATA_SIZE](https://learn.microsoft.com/windows/win32/api/emi/ni-emi-ioctl_emi_get_metadata_size) and it is specified in the  **Parameters.DeviceIoControl.OutputBufferLength**  member. \</text>
 
 ### Status block
 

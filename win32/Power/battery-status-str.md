@@ -10,34 +10,15 @@ The battery state. This member can be zero, one, or more of the following values
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-|
+| **BATTERY\_CHARGING**
 
-**BATTERY\_CHARGING**
+0x00000004 | Indicates that the battery is currently charging.\ | | **BATTERY\_CRITICAL**
 
-0x00000004
+0x00000008 | Indicates that battery failure is imminent. See the Remarks section for more information.\ | | **BATTERY\_DISCHARGING**
 
-| Indicates that the battery is currently charging.<br> |
-|
+0x00000002 | Indicates that the battery is currently discharging.\ | | **BATTERY\_POWER\_ON\_LINE**
 
-**BATTERY\_CRITICAL**
-
-0x00000008
-
-| Indicates that battery failure is imminent. See the Remarks section for more information.<br> |
-|
-
-**BATTERY\_DISCHARGING**
-
-0x00000002
-
-| Indicates that the battery is currently discharging.<br> |
-|
-
-**BATTERY\_POWER\_ON\_LINE**
-
-0x00000001
-
-| Indicates that the system has access to AC power, so no batteries are being discharged.<br> |
+0x00000001 | Indicates that the system has access to AC power, so no batteries are being discharged.\ |
 
 **Capacity**
 

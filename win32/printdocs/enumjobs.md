@@ -22,21 +22,9 @@ The type of information returned in the *pJob* buffer.
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-|
-
-**1**
-
-| *pJob* receives an array of [**JOB\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/job-info-1) structures<br> |
-|
-
-**2**
-
-| *pJob* receives an array of [**JOB\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/job-info-2) structures<br> |
-|
-
-**3**
-
-| *pJob* receives an array of [**JOB\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/job-info-3) structures<br> |
+| **1** | *pJob* receives an array of [**JOB\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/job-info-1) structures<br> |
+| **2** | *pJob* receives an array of [**JOB\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/job-info-2) structures<br> |
+| **3** | *pJob* receives an array of [**JOB\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/job-info-3) structures<br> |
 
 *pJob* \[out\]
 

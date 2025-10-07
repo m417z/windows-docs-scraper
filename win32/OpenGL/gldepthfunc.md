@@ -10,46 +10,14 @@ Specifies the depth-comparison function. The following symbolic constants are ac
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_NEVER**
-
-| Never passes.<br> |
-|
-
-**GL\_LESS**
-
-| Passes if the incoming *z* value is less than the stored *z* value. This is the default value.<br> |
-|
-
-**GL\_LEQUAL**
-
-| Passes if the incoming z value is less than or equal to the stored z value.<br> |
-|
-
-**GL\_EQUAL**
-
-| Passes if the incoming z value is equal to the stored z value.<br> |
-|
-
-**GL\_GREATER**
-
-| Passes if the incoming z value is greater than the stored z value.<br> |
-|
-
-**GL\_NOTEQUAL**
-
-| Passes if the incoming z value is not equal to the stored z value.<br> |
-|
-
-**GL\_GEQUAL**
-
-| Passes if the incoming z value is greater than or equal to the stored z value.<br> |
-|
-
-**GL\_ALWAYS**
-
-| Always passes.<br> |
+| **GL\_NEVER** | Never passes.<br> |
+| **GL\_LESS** | Passes if the incoming *z* value is less than the stored *z* value. This is the default value.<br> |
+| **GL\_LEQUAL** | Passes if the incoming z value is less than or equal to the stored z value.<br> |
+| **GL\_EQUAL** | Passes if the incoming z value is equal to the stored z value.<br> |
+| **GL\_GREATER** | Passes if the incoming z value is greater than the stored z value.<br> |
+| **GL\_NOTEQUAL** | Passes if the incoming z value is not equal to the stored z value.<br> |
+| **GL\_GEQUAL** | Passes if the incoming z value is greater than or equal to the stored z value.<br> |
+| **GL\_ALWAYS** | Always passes.<br> |
 
 ## Return value
 

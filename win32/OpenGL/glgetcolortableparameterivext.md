@@ -16,36 +16,12 @@ The following are the accepted symbolic constants and their meanings.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_COLOR\_TABLE\_FORMAT\_EXT**
-
-| Return the internal format specified by the most recent call to [**glColorTableEXT**](https://learn.microsoft.com/windows/win32/opengl/glcolortableext) or the default value.<br> |
-|
-
-**GL\_COLOR\_TABLE\_WIDTH\_EXT**
-
-| Return the width of the current palette.<br> |
-|
-
-**GL\_COLOR\_TABLE\_RED\_SIZE\_EXT**
-
-| Return the actual size used internally to store the red component of the palette data.<br> |
-|
-
-**GL\_COLOR\_TABLE\_GREEN\_SIZE\_EXT**
-
-| Return the actual size used internally to store the green component of the palette data.<br> |
-|
-
-**GL\_COLOR\_TABLE\_BLUE\_SIZE\_EXT**
-
-| Return the actual size used internally to store the blue component of the palette data.<br> |
-|
-
-**GL\_COLOR\_TABLE\_ALPHA\_SIZE\_EXT**
-
-| Return the actual size used internally to store the alpha component of the palette data.<br> |
+| **GL\_COLOR\_TABLE\_FORMAT\_EXT** | Return the internal format specified by the most recent call to [**glColorTableEXT**](https://learn.microsoft.com/windows/win32/opengl/glcolortableext) or the default value.<br> |
+| **GL\_COLOR\_TABLE\_WIDTH\_EXT** | Return the width of the current palette.<br> |
+| **GL\_COLOR\_TABLE\_RED\_SIZE\_EXT** | Return the actual size used internally to store the red component of the palette data.<br> |
+| **GL\_COLOR\_TABLE\_GREEN\_SIZE\_EXT** | Return the actual size used internally to store the green component of the palette data.<br> |
+| **GL\_COLOR\_TABLE\_BLUE\_SIZE\_EXT** | Return the actual size used internally to store the blue component of the palette data.<br> |
+| **GL\_COLOR\_TABLE\_ALPHA\_SIZE\_EXT** | Return the actual size used internally to store the alpha component of the palette data.<br> |
 
 *params*
 

@@ -16,26 +16,10 @@ Specifies which routes should be enumerated. This parameter limits the set of ro
 
 | EnumerationFlags | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**RTM\_ONLY\_THIS\_NETWORK**
-
-| Enumerate only those routes that have the same network number as the RR\_Network member of the structure pointed to by CriteriaRoute.<br> |
-|
-
-**RTM\_ONLY\_THIS\_INTERFACE**
-
-| Enumerate only those routes that were obtained through the interface specified by the RR\_InterfaceID field of the structure pointed to by CriteriaRoute.<br> |
-|
-
-**RTM\_ONLY\_THIS\_PROTOCOL**
-
-| Enumerate only those routes that were added by the routing protocol specified by the RR\_RoutingProtocol field of the structure pointed to by CriteriaRoute.<br> |
-|
-
-**RTM\_ONLY\_BEST\_ROUTES**
-
-| Enumerate only the best routes to each of the networks in the set.<br> |
+| **RTM\_ONLY\_THIS\_NETWORK** | Enumerate only those routes that have the same network number as the RR\_Network member of the structure pointed to by CriteriaRoute.<br> |
+| **RTM\_ONLY\_THIS\_INTERFACE** | Enumerate only those routes that were obtained through the interface specified by the RR\_InterfaceID field of the structure pointed to by CriteriaRoute.<br> |
+| **RTM\_ONLY\_THIS\_PROTOCOL** | Enumerate only those routes that were added by the routing protocol specified by the RR\_RoutingProtocol field of the structure pointed to by CriteriaRoute.<br> |
+| **RTM\_ONLY\_BEST\_ROUTES** | Enumerate only the best routes to each of the networks in the set.<br> |
 
 *CriteriaRoute* \[in\]
 

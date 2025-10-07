@@ -14,21 +14,9 @@ Specifies which parameter to return. The following symbolic names are accepted.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_COEFF**
-
-| The *v* parameter returns the control points for the evaluator function. One-dimensional evaluators return *order* control points, and two-dimensional evaluators return *uorder* *x* *vorder* control points. Each control point consists of one, two, three, or four integer, single-precision floating-point, or double-precision floating-point values, depending on the type of the evaluator. Two-dimensional control points are returned in row-major order, incrementing the *uorder* index quickly, and the *vorder* index after each row. Integer values, when requested, are computed by rounding the internal floating-point values to the nearest integer values.<br> |
-|
-
-**GL\_ORDER**
-
-| The *v* parameter returns the order of the evaluator function. One-dimensional evaluators return a single value, *order*. Two-dimensional evaluators return two values, *uorder* and *vorder*.<br> |
-|
-
-**GL\_DOMAIN**
-
-| The *v* parameter returns the linear *u* and *v* mapping parameters. One-dimensional evaluators return two values, *u* 1 and *u* 2, as specified by [**glMap1**](https://learn.microsoft.com/windows/win32/opengl/glmap1). Two-dimensional evaluators return four values (*u1*, *u2*, *v1*, and *v2*) as specified by [**glMap2**](https://learn.microsoft.com/windows/win32/opengl/glmap2). Integer values, when requested, are computed by rounding the internal floating-point values to the nearest integer values.<br> |
+| **GL\_COEFF** | The *v* parameter returns the control points for the evaluator function. One-dimensional evaluators return *order* control points, and two-dimensional evaluators return *uorder* *x* *vorder* control points. Each control point consists of one, two, three, or four integer, single-precision floating-point, or double-precision floating-point values, depending on the type of the evaluator. Two-dimensional control points are returned in row-major order, incrementing the *uorder* index quickly, and the *vorder* index after each row. Integer values, when requested, are computed by rounding the internal floating-point values to the nearest integer values.<br> |
+| **GL\_ORDER** | The *v* parameter returns the order of the evaluator function. One-dimensional evaluators return a single value, *order*. Two-dimensional evaluators return two values, *uorder* and *vorder*.<br> |
+| **GL\_DOMAIN** | The *v* parameter returns the linear *u* and *v* mapping parameters. One-dimensional evaluators return two values, *u* 1 and *u* 2, as specified by [**glMap1**](https://learn.microsoft.com/windows/win32/opengl/glmap1). Two-dimensional evaluators return four values (*u1*, *u2*, *v1*, and *v2*) as specified by [**glMap2**](https://learn.microsoft.com/windows/win32/opengl/glmap2). Integer values, when requested, are computed by rounding the internal floating-point values to the nearest integer values.<br> |
 
 *v*
 

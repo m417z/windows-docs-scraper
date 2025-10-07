@@ -28,7 +28,7 @@ Returns **S_OK** if successful, or an error value otherwise.
 
 ## Remarks
 
-The *pszPropList* parameter must be of the form "prop:<canonical-property-name>;<canonical-property-name>" where "<canonical-property-name>" is replaced by an actual canonical property name. The parameter can contain one or more properties delimited by semicolons.
+The *pszPropList* parameter must be of the form "prop:\<canonical-property-name>;\<canonical-property-name>" where "\<canonical-property-name>" is replaced by an actual canonical property name. The parameter can contain one or more properties delimited by semicolons.
 
 ## See also
 

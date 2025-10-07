@@ -22,21 +22,9 @@ MAC value of the first protocol in a frame. Typically, the *MacType* value is us
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-|
-
-**MAC\_TYPE\_ETHERNET**
-
-| 802.3 <br> |
-|
-
-**MAC\_TYPE\_TOKENRING**
-
-| 802.5 <br> |
-|
-
-**MAC\_TYPE\_FDDI**
-
-| ANSI X3T9.5 <br> |
+| **MAC\_TYPE\_ETHERNET** | 802.3 <br> |
+| **MAC\_TYPE\_TOKENRING** | 802.5 <br> |
+| **MAC\_TYPE\_FDDI** | ANSI X3T9.5 <br> |
 
 *BytesLeft* \[in\]
 
@@ -56,26 +44,10 @@ Protocol status indicator. The parser DLL must set one of the following status c
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**PROTOCOL\_STATUS\_RECOGNIZED**
-
-| The parser recognizes the data but does not know which protocol follows. After setting the code, return a pointer to the remaining unclaimed data that follow the recognized protocol. Network Monitor uses the [*follow set*](https://learn.microsoft.com/windows/win32/netmon2/f) of the protocol to continue parsing. <br> |
-|
-
-**PROTOCOL\_STATUS\_NOT\_RECOGNIZED**
-
-| The parser does not recognize the data. After setting this code, return the pointer to the beginning of the data using the pointer that the *lpProtocol* parameter passes to the parser DLL. Network Monitor uses the *follow set* of the previous protocol to continue parsing. <br> |
-|
-
-**PROTOCOL\_STATUS\_CLAIMED**
-
-| The parser recognizes the data and claims the remaining data. After setting the code, return **NULL** for Network Monitor to terminate parsing a frame. <br> |
-|
-
-**PROTOCOL\_STATUS\_NEXT\_PROTOCOL**
-
-| The parser recognizes the data and knows which protocol follows. After setting the code, set the *phNextProtocol* parameter, and return a pointer to the remaining unclaimed data that follow the recognized protocol. Network Monitor continues parsing the frame. <br> |
+| **PROTOCOL\_STATUS\_RECOGNIZED** | The parser recognizes the data but does not know which protocol follows. After setting the code, return a pointer to the remaining unclaimed data that follow the recognized protocol. Network Monitor uses the [*follow set*](https://learn.microsoft.com/windows/win32/netmon2/f) of the protocol to continue parsing. <br> |
+| **PROTOCOL\_STATUS\_NOT\_RECOGNIZED** | The parser does not recognize the data. After setting this code, return the pointer to the beginning of the data using the pointer that the *lpProtocol* parameter passes to the parser DLL. Network Monitor uses the *follow set* of the previous protocol to continue parsing. <br> |
+| **PROTOCOL\_STATUS\_CLAIMED** | The parser recognizes the data and claims the remaining data. After setting the code, return **NULL** for Network Monitor to terminate parsing a frame. <br> |
+| **PROTOCOL\_STATUS\_NEXT\_PROTOCOL** | The parser recognizes the data and knows which protocol follows. After setting the code, set the *phNextProtocol* parameter, and return a pointer to the remaining unclaimed data that follow the recognized protocol. Network Monitor continues parsing the frame. <br> |
 
 *phNextProtocol* \[out\]
 

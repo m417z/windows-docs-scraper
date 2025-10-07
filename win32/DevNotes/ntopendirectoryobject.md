@@ -16,41 +16,17 @@ An [**ACCESS\_MASK**](https://learn.microsoft.com/windows/win32/secauthz/access-
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-|
+| **DIRECTORY\_QUERY**
 
-**DIRECTORY\_QUERY**
+0x0001 | Query access to the directory object.\ | | **DIRECTORY\_TRAVERSE**
 
-0x0001
+0x0002 | Name-lookup access to the directory object.\ | | **DIRECTORY\_CREATE\_OBJECT**
 
-| Query access to the directory object.<br> |
-|
+0x0004 | Name-creation access to the directory object.\ | | **DIRECTORY\_CREATE\_SUBDIRECTORY**
 
-**DIRECTORY\_TRAVERSE**
+0x0008 | Subdirectory-creation access to the directory object.\ | | **DIRECTORY\_ALL\_ACCESS**
 
-0x0002
-
-| Name-lookup access to the directory object.<br> |
-|
-
-**DIRECTORY\_CREATE\_OBJECT**
-
-0x0004
-
-| Name-creation access to the directory object.<br> |
-|
-
-**DIRECTORY\_CREATE\_SUBDIRECTORY**
-
-0x0008
-
-| Subdirectory-creation access to the directory object.<br> |
-|
-
-**DIRECTORY\_ALL\_ACCESS**
-
-STANDARD\_RIGHTS\_REQUIRED \| 0xF
-
-| All of the preceding rights plus **STANDARD\_RIGHTS\_REQUIRED**.<br> |
+STANDARD\_RIGHTS\_REQUIRED \| 0xF | All of the preceding rights plus **STANDARD\_RIGHTS\_REQUIRED**.\ |
 
 *ObjectAttributes* \[in\]
 

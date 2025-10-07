@@ -21,31 +21,11 @@ A pointer to a structure containing printer driver information. It can be one of
 
 | Value of Level | DRIVER\_INFO\_\* Structure |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-|
-
-**2**
-
-| [**DRIVER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-2)<br> |
-|
-
-**3**
-
-| [**DRIVER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-3)<br> |
-|
-
-**4**
-
-| [**DRIVER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-4)<br> |
-|
-
-**6**
-
-| [**DRIVER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-6)<br> |
-|
-
-**8**
-
-| [**DRIVER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-8)<br> |
+| **2** | [**DRIVER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-2)<br> |
+| **3** | [**DRIVER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-3)<br> |
+| **4** | [**DRIVER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-4)<br> |
+| **6** | [**DRIVER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-6)<br> |
+| **8** | [**DRIVER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-8)<br> |
 
 If the **pEnvironment** member of the structure pointed to by *pDriverInfo* is **NULL**, the function uses the current environment of the caller/client, not the environment of the destination/server.
 
@@ -55,31 +35,11 @@ The options for copying the driver files. This parameter can be one of the follo
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**APD\_COPY\_ALL\_FILES**
-
-| Add the printer driver and copy all the files in the printer-driver directory. The file time stamps are ignored with this option.<br> |
-|
-
-**APD\_COPY\_FROM\_DIRECTORY**
-
-| Add the printer driver using the fully qualified file names specified in the [**DRIVER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-6) structure. This flag is ORed in conjunction with one of the other copy flags. If this flag is set, **AddPrinterDriverEx** will fail if the files do not exist where they are specified to exist by the **DRIVER\_INFO\_6** structure. The files do not need to be copied to the system's printer-driver directory. See the Remarks.<br> **Windows 2000:** This flag is not supported.<br> |
-|
-
-**APD\_COPY\_NEW\_FILES**
-
-| Add the printer driver and copy the files in the printer-driver directory that are newer than any corresponding files that are currently in use. This flag emulates the behavior of [**AddPrinterDriver**](https://learn.microsoft.com/windows/win32/printdocs/addprinterdriver).<br> |
-|
-
-**APD\_STRICT\_DOWNGRADE**
-
-| Add the printer driver only if all the files in the printer-driver directory are older than any corresponding files currently in use.<br> |
-|
-
-**APD\_STRICT\_UPGRADE**
-
-| Add the printer driver only if all the files in the printer-driver directory are newer than any corresponding files currently in use.<br> |
+| **APD\_COPY\_ALL\_FILES** | Add the printer driver and copy all the files in the printer-driver directory. The file time stamps are ignored with this option.<br> |
+| **APD\_COPY\_FROM\_DIRECTORY** | Add the printer driver using the fully qualified file names specified in the [**DRIVER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/driver-info-6) structure. This flag is ORed in conjunction with one of the other copy flags. If this flag is set, **AddPrinterDriverEx** will fail if the files do not exist where they are specified to exist by the **DRIVER\_INFO\_6** structure. The files do not need to be copied to the system's printer-driver directory. See the Remarks.<br> **Windows 2000:** This flag is not supported.<br> |
+| **APD\_COPY\_NEW\_FILES** | Add the printer driver and copy the files in the printer-driver directory that are newer than any corresponding files that are currently in use. This flag emulates the behavior of [**AddPrinterDriver**](https://learn.microsoft.com/windows/win32/printdocs/addprinterdriver).<br> |
+| **APD\_STRICT\_DOWNGRADE** | Add the printer driver only if all the files in the printer-driver directory are older than any corresponding files currently in use.<br> |
+| **APD\_STRICT\_UPGRADE** | Add the printer driver only if all the files in the printer-driver directory are newer than any corresponding files currently in use.<br> |
 
 ## Return value
 

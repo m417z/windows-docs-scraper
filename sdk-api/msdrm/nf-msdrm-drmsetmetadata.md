@@ -52,7 +52,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 The **DRMSetMetaData** function is typically called after [DRMCreateIssuanceLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense) to set the content ID, name, and type in an issuance license for a specific item of content. The function is also called before [DRMCreateBoundLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense) or [DRMEnumerateLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense).
 
-Content IDs are created and set in issuance licenses by a publishing application. For example, the application can call [DRMCreateIssuanceLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense) to create a new issuance license. It can then call **CoCreateGUID** to create a unique ID and **DRMSetMetaData** to associate the ID with the license. The AD RMS client places the ID in the <WORK> node of the issuance license as shown by the following diagram. For more information, see [Creating an Issuance License](https://learn.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-an-issuance-license).
+Content IDs are created and set in issuance licenses by a publishing application. For example, the application can call [DRMCreateIssuanceLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense) to create a new issuance license. It can then call **CoCreateGUID** to create a unique ID and **DRMSetMetaData** to associate the ID with the license. The AD RMS client places the ID in the \<WORK> node of the issuance license as shown by the following diagram. For more information, see [Creating an Issuance License](https://learn.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-an-issuance-license).
 
 ``` syntax
 <WORK>
@@ -66,7 +66,7 @@ Content IDs are created and set in issuance licenses by a publishing application
 </WORK>
 ```
 
-After an issuance license has been created, a consuming application can use it to acquire an end–user license. For more information, see [DRMAcquireLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense). The appropriate <WORK> nodes and their respective content IDs are copied from the issuance license to the end–user license.
+After an issuance license has been created, a consuming application can use it to acquire an end–user license. For more information, see [DRMAcquireLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense). The appropriate \<WORK> nodes and their respective content IDs are copied from the issuance license to the end–user license.
 
 Once an end–user license has been acquired, consuming applications internally use the content ID to bind to that license. For more information, see [DRMCreateBoundLicense](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense). Binding verifies the license chain, principals, and environment, and removes all rights that do not apply to the specified user. The bound license can then be used to decrypt protected content.
 

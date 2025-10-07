@@ -16,20 +16,11 @@ In addition to the values shown, this member can also be a combination of the ty
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-|
+| **MF\_END**
 
-**MF\_END**
+0x80 | The menu item is the last on the menu; the flag is used internally by the system. \ | | **MF\_POPUP**
 
-0x80
-
-| The menu item is the last on the menu; the flag is used internally by the system. <br> |
-|
-
-**MF\_POPUP**
-
-0x01
-
-| The menu item opens a menu or a submenu; the flag is used internally by the system. <br> |
+0x01 | The menu item opens a menu or a submenu; the flag is used internally by the system. \ |
 
 **state**
 
@@ -53,20 +44,11 @@ A set of bit flags that specify the type of menu item. This member can be one of
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-|
+| **MFR\_END**
 
-**MFR\_END**
+0x80 | The menu item is the last in this submenu or menu resource; this flag is used internally by the system.\ | | **MFR\_POPUP**
 
-0x80
-
-| The menu item is the last in this submenu or menu resource; this flag is used internally by the system.<br> |
-|
-
-**MFR\_POPUP**
-
-0x01
-
-| The menu item opens a menu or a submenu; the flag is used internally by the system.<br> |
+0x01 | The menu item opens a menu or a submenu; the flag is used internally by the system.\ |
 
 **menuText**
 

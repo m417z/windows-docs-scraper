@@ -31,4 +31,4 @@ Contains attributes.
 
 [IOCTL_DISK_GET_DISK_ATTRIBUTES](https://learn.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes)
 
-[SET_DISK_ATTRIBUTES](https://learn.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes)
+[SET_DISK_ATTRIBUTES](https://learn.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-set_disk_attributes)

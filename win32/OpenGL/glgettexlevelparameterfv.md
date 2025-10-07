@@ -18,61 +18,17 @@ The symbolic name of a texture parameter. The following parameter names are acce
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_TEXTURE\_WIDTH**
-
-| The *params* parameter returns a single value containing the width of the texture image. This value includes the border of the texture image.<br> |
-|
-
-**GL\_TEXTURE\_HEIGHT**
-
-| The *params* parameter returns a single value containing the height of the texture image. This value includes the border of the texture image.<br> |
-|
-
-**GL\_TEXTURE\_INTERNAL\_FORMAT**
-
-| The *params* parameter returns a single value which describes the texel format of the texture.<br> |
-|
-
-**GL\_TEXTURE\_BORDER**
-
-| The *params* parameter returns a single value: the width in pixels of the border of the texture image.<br> |
-|
-
-**GL\_TEXTURE\_RED\_SIZE**
-
-| The internal storage resolution of the red component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
-|
-
-**GL\_TEXTURE\_GREEN\_SIZE**
-
-| The internal storage resolution of the green component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
-|
-
-**GL\_TEXTURE\_BLUE\_SIZE**
-
-| The internal storage resolution of the blue component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
-|
-
-**GL\_TEXTURE\_ALPHA\_SIZE**
-
-| The internal storage resolution of the alpha component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
-|
-
-**GL\_TEXTURE\_LUMINANCE\_SIZE**
-
-| The internal storage resolution of the luminance component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
-|
-
-**GL\_TEXTURE\_INTENSITY\_SIZE**
-
-| The internal storage resolution of the intensity component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
-|
-
-**GL\_TEXTURE\_COMPONENTS**
-
-| The *params* parameter returns a single value: the number of components in the texture image.<br> |
+| **GL\_TEXTURE\_WIDTH** | The *params* parameter returns a single value containing the width of the texture image. This value includes the border of the texture image.<br> |
+| **GL\_TEXTURE\_HEIGHT** | The *params* parameter returns a single value containing the height of the texture image. This value includes the border of the texture image.<br> |
+| **GL\_TEXTURE\_INTERNAL\_FORMAT** | The *params* parameter returns a single value which describes the texel format of the texture.<br> |
+| **GL\_TEXTURE\_BORDER** | The *params* parameter returns a single value: the width in pixels of the border of the texture image.<br> |
+| **GL\_TEXTURE\_RED\_SIZE** | The internal storage resolution of the red component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
+| **GL\_TEXTURE\_GREEN\_SIZE** | The internal storage resolution of the green component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
+| **GL\_TEXTURE\_BLUE\_SIZE** | The internal storage resolution of the blue component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
+| **GL\_TEXTURE\_ALPHA\_SIZE** | The internal storage resolution of the alpha component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
+| **GL\_TEXTURE\_LUMINANCE\_SIZE** | The internal storage resolution of the luminance component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
+| **GL\_TEXTURE\_INTENSITY\_SIZE** | The internal storage resolution of the intensity component of a texel. The resolution chosen by the OpenGL will be a close match for the resolution requested by the user with the component argument of [**glTexImage1D**](https://learn.microsoft.com/windows/win32/opengl/glteximage1d) or [**glTexImage2D**](https://learn.microsoft.com/windows/win32/opengl/glteximage2d).<br> |
+| **GL\_TEXTURE\_COMPONENTS** | The *params* parameter returns a single value: the number of components in the texture image.<br> |
 
 *params*
 

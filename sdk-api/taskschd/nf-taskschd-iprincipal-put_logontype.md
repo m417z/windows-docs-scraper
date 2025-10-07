@@ -12,7 +12,7 @@ This property is read/write.
 
 This property is valid only when a user identifier is specified by the [UserId](https://learn.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid) property.
 
-When reading or writing XML for a task, the logon type is specified in the [<LogonType>](https://learn.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-logontype-principaltype-element) element of the Task Scheduler schema.
+When reading or writing XML for a task, the logon type is specified in the [\<LogonType>](https://learn.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-logontype-principaltype-element) element of the Task Scheduler schema.
 
 For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type. To set the task logon type to be interactive, specify **TASK_LOGON_INTERACTIVE_TOKEN** or **TASK_LOGON_GROUP** in the **LogonType** property of the task principal, or in the *logonType* parameter of [ITaskFolder::RegisterTask](https://learn.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) or [ITaskFolder::RegisterTaskDefinition](https://learn.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition).
 

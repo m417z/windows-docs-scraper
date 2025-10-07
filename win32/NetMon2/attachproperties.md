@@ -22,21 +22,9 @@ MAC value of the first protocol in a frame. The *MacType* can be one of the foll
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-|
-
-**MAC\_TYPE\_ETHERNET**
-
-| 802.3 <br> |
-|
-
-**MAC\_TYPE\_TOKENRING**
-
-| 802.5 <br> |
-|
-
-**MAC\_TYPE\_FDDI**
-
-| ANSI X3T9.5 <br> |
+| **MAC\_TYPE\_ETHERNET** | 802.3 <br> |
+| **MAC\_TYPE\_TOKENRING** | 802.5 <br> |
+| **MAC\_TYPE\_FDDI** | ANSI X3T9.5 <br> |
 
 *BytesLeft* \[in\]
 

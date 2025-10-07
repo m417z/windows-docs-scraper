@@ -18,16 +18,8 @@ Controls which query information is returned. Some information is expensive and 
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
-|
-
-**MP\_STATUS\_QUERY\_FLAGS\_NONE**
-
-| Default.<br> |
-|
-
-**MP\_STATUS\_QUERY\_FLAG\_NOSTATE**
-
-| Do not query for state information.<br> |
+| **MP\_STATUS\_QUERY\_FLAGS\_NONE** | Default.<br> |
+| **MP\_STATUS\_QUERY\_FLAG\_NOSTATE** | Do not query for state information.<br> |
 
 *pStatusInfo* \[out\]
 

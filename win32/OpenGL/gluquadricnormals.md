@@ -14,21 +14,9 @@ The desired type of normals. The following values are valid.
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-|
-
-**GLU\_NONE**
-
-| No normals are generated.<br> |
-|
-
-**GLU\_FLAT**
-
-| One normal is generated for every facet of a quadric.<br> |
-|
-
-**GLU\_SMOOTH**
-
-| One normal is generated for every vertex of a quadric. This is the default value.<br> |
+| **GLU\_NONE** | No normals are generated.<br> |
+| **GLU\_FLAT** | One normal is generated for every facet of a quadric.<br> |
+| **GLU\_SMOOTH** | One normal is generated for every vertex of a quadric. This is the default value.<br> |
 
 ## Return value
 

@@ -35,48 +35,19 @@ This parameter can be a bitwise combination of zero or more of the following con
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-|
+| **CERT\_CONFIDENCE\_SIG**
 
-**CERT\_CONFIDENCE\_SIG**
+0x10000000 | The signature of the certificate is valid.\ | | **CERT\_CONFIDENCE\_TIME**
 
-0x10000000
+0x01000000 | The time of the certificate issuer is valid.\ | | **CERT\_CONFIDENCE\_TIMENEST**
 
-| The signature of the certificate is valid.<br> |
-|
+0x00100000 | The time of the certificate is valid.\ | | **CERT\_CONFIDENCE\_AUTHIDEXT**
 
-**CERT\_CONFIDENCE\_TIME**
+0x00010000 | The authority ID extension is valid.\ | | **CERT\_CONFIDENCE\_HYGIENE**
 
-0x01000000
+0x00001000 | At a minimum, the signature of the certificate and authority ID extension are valid.\ | | **CERT\_CONFIDENCE\_HIGHEST**
 
-| The time of the certificate issuer is valid.<br> |
-|
-
-**CERT\_CONFIDENCE\_TIMENEST**
-
-0x00100000
-
-| The time of the certificate is valid.<br> |
-|
-
-**CERT\_CONFIDENCE\_AUTHIDEXT**
-
-0x00010000
-
-| The authority ID extension is valid.<br> |
-|
-
-**CERT\_CONFIDENCE\_HYGIENE**
-
-0x00001000
-
-| At a minimum, the signature of the certificate and authority ID extension are valid.<br> |
-|
-
-**CERT\_CONFIDENCE\_HIGHEST**
-
-0x11111000
-
-| A combination of all of the other confidence values.<br> |
+0x11111000 | A combination of all of the other confidence values.\ |
 
 *dwError* \[out\]
 

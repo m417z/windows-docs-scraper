@@ -53,20 +53,11 @@ Specifies whether this function is being used for client-side or server-side key
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-|
+| **NCRYPT\_SSL\_CLIENT\_FLAG**
 
-**NCRYPT\_SSL\_CLIENT\_FLAG**
+0x00000001 | Specifies a client-side key exchange.\ | | **NCRYPT\_SSL\_SERVER\_FLAG**
 
-0x00000001
-
-| Specifies a client-side key exchange.<br> |
-|
-
-**NCRYPT\_SSL\_SERVER\_FLAG**
-
-0x00000002
-
-| Specifies a server-side key exchange.<br> |
+0x00000002 | Specifies a server-side key exchange.\ |
 
 ## Return value
 

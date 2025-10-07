@@ -17,20 +17,11 @@ A bitfield that specifies the following flags.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **SDLOT\_NOAPPLYTOCURRENTSESSION**
 
-**SDLOT\_NOAPPLYTOCURRENTSESSION**
+0x00000001 | Stores the setting in the registry but does not update the runtime keyboard setting of the current session. If the alternative registry path is set in [**SetDefaultLayoutOrTipUserReg**](https://learn.microsoft.com/windows/desktop/TSF/setdefaultlayoutortipuserreg), this flag should be set.\ | | **SDLOT\_APPLYTOCURRENTTHREAD**
 
-0x00000001
-
-| Stores the setting in the registry but does not update the runtime keyboard setting of the current session. If the alternative registry path is set in [**SetDefaultLayoutOrTipUserReg**](https://learn.microsoft.com/windows/desktop/TSF/setdefaultlayoutortipuserreg), this flag should be set.<br> |
-|
-
-**SDLOT\_APPLYTOCURRENTTHREAD**
-
-0x00000002
-
-| Applies the setting immediately on the current thread.<br> |
+0x00000002 | Applies the setting immediately on the current thread.\ |
 
 ## Return value
 
@@ -43,11 +34,11 @@ A bitfield that specifies the following flags.
 
 The string format of the layout list is:
 
-\:\;\[...\:\
+\<LangID 1\>:\<KLID 1\>;\[...\<LangID N\>:\<KLID N\>
 
 The string format of the text service profile list is:
 
-\:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
+\<LangID 1\>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
 
 The following is an example of a value for the *psz* parameter:
 

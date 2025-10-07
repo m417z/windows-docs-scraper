@@ -22,7 +22,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 ## Remarks
 
-A SAMI file can contain several format style definitions. SAMI styles are defined between the <STYLE> and </STYLE> tags in the SAMI file. A style is defined with a text string preceded by a # character. For example, the following code specifies text formatting to be used for a style.
+A SAMI file can contain several format style definitions. SAMI styles are defined between the \<STYLE> and \</STYLE> tags in the SAMI file. A style is defined with a text string preceded by a # character. For example, the following code specifies text formatting to be used for a style.
 
 ```
 

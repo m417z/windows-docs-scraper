@@ -10,21 +10,9 @@ The matrix stack that is the target for subsequent matrix operations. The *mode*
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-|
-
-**GL\_MODELVIEW**
-
-| Applies subsequent matrix operations to the modelview matrix stack.<br> |
-|
-
-**GL\_PROJECTION**
-
-| Applies subsequent matrix operations to the projection matrix stack.<br> |
-|
-
-**GL\_TEXTURE**
-
-| Applies subsequent matrix operations to the texture matrix stack.<br> |
+| **GL\_MODELVIEW** | Applies subsequent matrix operations to the modelview matrix stack.<br> |
+| **GL\_PROJECTION** | Applies subsequent matrix operations to the projection matrix stack.<br> |
+| **GL\_TEXTURE** | Applies subsequent matrix operations to the texture matrix stack.<br> |
 
 ## Return value
 

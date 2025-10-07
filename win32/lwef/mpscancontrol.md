@@ -18,21 +18,9 @@ Specifies a scan control option. This parameter must be one of the following con
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-|
-
-**MPCONTROL\_ABORT**
-
-| Abort the scan operation.<br> |
-|
-
-**MPCONTROL\_PAUSE**
-
-| Pause the scan operation.<br> |
-|
-
-**MPCONTROL\_RESUME**
-
-| Resume the paused scan operation.<br> |
+| **MPCONTROL\_ABORT** | Abort the scan operation.<br> |
+| **MPCONTROL\_PAUSE** | Pause the scan operation.<br> |
+| **MPCONTROL\_RESUME** | Resume the paused scan operation.<br> |
 
 ## Return value
 

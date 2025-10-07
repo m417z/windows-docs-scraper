@@ -22,5 +22,5 @@ entry must follow the following EBNF.
 ### `bypass`
 
 A semicolon separated list of servers which must be bypassed by the proxy.
-The bypass list can contain the string <local> to indicate that
+The bypass list can contain the string \<local> to indicate that
 all local machine servers are bypassed.

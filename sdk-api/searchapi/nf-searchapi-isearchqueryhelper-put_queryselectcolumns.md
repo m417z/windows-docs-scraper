@@ -20,7 +20,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-No defined and fixed set of properties applies to all documents. For this reason, the SQL asterisk is not permitted in the <columns> setting. For a list of valis Shell system properties, refer to [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx).
+No defined and fixed set of properties applies to all documents. For this reason, the SQL asterisk is not permitted in the \<columns> setting. For a list of valis Shell system properties, refer to [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx).
 
 Checkout the [DSearch code sample](https://learn.microsoft.com/windows/win32/search/-search-sample-dsearch) to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for [ISearchQueryHelper](https://learn.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper).
 

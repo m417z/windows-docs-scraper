@@ -8,7 +8,7 @@ Outputs a single page of a Portable Document Format (PDF) file to a Microsoft Di
 
 ### `pdfPage` [in]
 
-The **IPdfPage** interface as an instance of the [PdfPage](https://learn.microsoft.com/uwp/api/windows.data.pdf.pdfpage) class type-casted to the **IUnknown** interface, `page.as().get()`, representing the page to be output.
+The **IPdfPage** interface as an instance of the [PdfPage](https://learn.microsoft.com/uwp/api/windows.data.pdf.pdfpage) class type-casted to the **IUnknown** interface, `page.as<IUnknown>().get()`, representing the page to be output.
 
 ### `pSurface` [in]
 

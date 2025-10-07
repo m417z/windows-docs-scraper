@@ -2,7 +2,7 @@
 
 ## Description
 
-Retrieves an enumerator over all the <Package> elements under the <Packages> element.
+Retrieves an enumerator over all the \<Package> elements under the \<Packages> element.
 
 ## Parameters
 
@@ -10,7 +10,7 @@ Retrieves an enumerator over all the <Package> elements under the <Packages> ele
 
 Type: **IAppxBundleManifestPackageInfoEnumerator****
 
- An enumerator over all payload packages in a <Packages> element of a bundle.
+ An enumerator over all payload packages in a \<Packages> element of a bundle.
 
 ## Return value
 

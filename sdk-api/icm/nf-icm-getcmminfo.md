@@ -14,21 +14,9 @@ Specifies the information to be retrieved. This parameter can take one of the fo
 
 | Value | Meaning |
 |-|-|
-|
-
-**CMM\_WIN\_VERSION**
-
-| Retrieves the version of Windows targeted by the color management module (CMM).<br> |
-|
-
-**CMM\_DLL\_VERSION**
-
-| Retrieves the version number of the CMM.<br> |
-|
-
-**CMM\_IDENT**
-
-| Retrieves the CMM signature registered with the International Color Consortium (ICC).<br> |
+| **CMM\_WIN\_VERSION** | Retrieves the version of Windows targeted by the color management module (CMM).<br> |
+| **CMM\_DLL\_VERSION** | Retrieves the version number of the CMM.<br> |
+| **CMM\_IDENT** | Retrieves the CMM signature registered with the International Color Consortium (ICC).<br> |
 
 ## Return value
 

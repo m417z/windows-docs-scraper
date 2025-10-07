@@ -10,56 +10,16 @@ A symbolic map name. The ten maps are as follows.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-|
-
-**GL\_PIXEL\_MAP\_I\_TO\_I**
-
-| Maps color indexes to color indexes.<br> |
-|
-
-**GL\_PIXEL\_MAP\_S\_TO\_S**
-
-| Maps stencil indexes to stencil indexes.<br> |
-|
-
-**GL\_PIXEL\_MAP\_I\_TO\_R**
-
-| Maps color indexes to red components.<br> |
-|
-
-**GL\_PIXEL\_MAP\_I\_TO\_G**
-
-| Maps color indexes to green components.<br> |
-|
-
-**GL\_PIXEL\_MAP\_I\_TO\_B**
-
-| Maps color indexes to blue components.<br> |
-|
-
-**GL\_PIXEL\_MAP\_I\_TO\_A**
-
-| Maps color indexes to alpha components.<br> |
-|
-
-**GL\_PIXEL\_MAP\_R\_TO\_R**
-
-| Maps red components to red components.<br> |
-|
-
-**GL\_PIXEL\_MAP\_G\_TO\_G**
-
-| Maps green components to green components.<br> |
-|
-
-**GL\_PIXEL\_MAP\_B\_TO\_B**
-
-| Maps blue components to blue components.<br> |
-|
-
-**GL\_PIXEL\_MAP\_A\_TO\_A**
-
-| Maps alpha components to alpha components.<br> |
+| **GL\_PIXEL\_MAP\_I\_TO\_I** | Maps color indexes to color indexes.<br> |
+| **GL\_PIXEL\_MAP\_S\_TO\_S** | Maps stencil indexes to stencil indexes.<br> |
+| **GL\_PIXEL\_MAP\_I\_TO\_R** | Maps color indexes to red components.<br> |
+| **GL\_PIXEL\_MAP\_I\_TO\_G** | Maps color indexes to green components.<br> |
+| **GL\_PIXEL\_MAP\_I\_TO\_B** | Maps color indexes to blue components.<br> |
+| **GL\_PIXEL\_MAP\_I\_TO\_A** | Maps color indexes to alpha components.<br> |
+| **GL\_PIXEL\_MAP\_R\_TO\_R** | Maps red components to red components.<br> |
+| **GL\_PIXEL\_MAP\_G\_TO\_G** | Maps green components to green components.<br> |
+| **GL\_PIXEL\_MAP\_B\_TO\_B** | Maps blue components to blue components.<br> |
+| **GL\_PIXEL\_MAP\_A\_TO\_A** | Maps alpha components to alpha components.<br> |
 
 *mapsize*
 

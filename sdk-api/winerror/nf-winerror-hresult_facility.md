@@ -20,6 +20,8 @@ This macro is defined as follows:
 
 ## Possible values
 
+<!-- List from https://learn.microsoft.com/en-us/archive/blogs/andrew_richards/hresult-facility-by-value -->
+
 | FACILITY | Decimal | Hex |
 |---------------------------------------------------|---------|-------|
 | FACILITY_NULL | 0 | 0x0 |

@@ -10,21 +10,9 @@ A mask that indicates which attributes to save. The following are the symbolic m
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-|
-
-**GL\_CLIENT\_PIXEL\_STORE\_BIT**
-
-| Pixel storage mode attributes.<br> |
-|
-
-**GL\_CLIENT\_VERTEX\_ARRAY\_BIT**
-
-| Vertex array attributes.<br> |
-|
-
-**GL\_CLIENT\_ALL\_ATTRIB\_BITs**
-
-| all stackable client-state attributes.<br> |
+| **GL\_CLIENT\_PIXEL\_STORE\_BIT** | Pixel storage mode attributes.<br> |
+| **GL\_CLIENT\_VERTEX\_ARRAY\_BIT** | Vertex array attributes.<br> |
+| **GL\_CLIENT\_ALL\_ATTRIB\_BITs** | all stackable client-state attributes.<br> |
 
 ## Return value
 

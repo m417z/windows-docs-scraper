@@ -66,9 +66,9 @@ When you parse the **HardwareID** buffer, you must ensure that you correctly det
 For example, depending on how the list of [hardware ID](https://learn.microsoft.com/windows-hardware/drivers/install/hardware-ids) and [compatible IDs](https://learn.microsoft.com/windows-hardware/drivers/install/compatible-ids) are specified in the [INF Models section](https://learn.microsoft.com/windows-hardware/drivers/install/inf-models-section), the **HardwareID** buffer can resemble any of the following:
 
 * \0
-* <HWID>\0
-* <HWID>\0<COMPATID_1>\0...<COMPATID_N>\0\0
-* \0<COMPATID_1>\0...<COMPATID_N>\0\0
+* \<HWID>\0
+* \<HWID>\0\<COMPATID_1>\0...\<COMPATID_N>\0\0
+* \0\<COMPATID_1>\0...\<COMPATID_N>\0\0
 
 An algorithm to correctly parse this buffer must use the **CompatIDsOffset** and **CompatIDsLength** fields to extract the [hardware ID](https://learn.microsoft.com/windows-hardware/drivers/install/hardware-ids) and [compatible IDs](https://learn.microsoft.com/windows-hardware/drivers/install/compatible-ids), as shown in the following code example:
 

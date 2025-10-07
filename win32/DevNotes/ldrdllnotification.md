@@ -15,20 +15,11 @@ The reason that the notification callback function was called. This parameter ca
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **LDR\_DLL\_NOTIFICATION\_REASON\_LOADED**
 
-**LDR\_DLL\_NOTIFICATION\_REASON\_LOADED**
+1 | The DLL was loaded. The *NotificationData* parameter points to an **LDR\_DLL\_LOADED\_NOTIFICATION\_DATA** structure. \ | | **LDR\_DLL\_NOTIFICATION\_REASON\_UNLOADED**
 
-1
-
-| The DLL was loaded. The *NotificationData* parameter points to an **LDR\_DLL\_LOADED\_NOTIFICATION\_DATA** structure. <br> |
-|
-
-**LDR\_DLL\_NOTIFICATION\_REASON\_UNLOADED**
-
-2
-
-| The DLL was unloaded. The *NotificationData* parameter points to an **LDR\_DLL\_UNLOADED\_NOTIFICATION\_DATA** structure. <br> |
+2 | The DLL was unloaded. The *NotificationData* parameter points to an **LDR\_DLL\_UNLOADED\_NOTIFICATION\_DATA** structure. \ |
 
 *NotificationData* \[in\]
 

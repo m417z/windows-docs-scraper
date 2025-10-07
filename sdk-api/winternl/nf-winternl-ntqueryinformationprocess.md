@@ -48,7 +48,7 @@ typedef struct _PROCESS_BASIC_INFORMATION {
 | Field | Meaning |
 |-------|---------|
 | **ExitStatus** | Contains the same value that [**GetExitCodeProcess**](https://learn.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess) returns. However the use of **GetExitCodeProcess** is preferable for clarity and safety. |
-| **PebBaseAddress** | Points to a [**PEB**](https://learn.microsoft.com/windows/desktop/api/Winternl/ns-winternl-peb) structure. |
+| **PebBaseAddress** | Points to a [**PEB**](https://learn.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb) structure. |
 | **AffinityMask** | Can be cast to a **DWORD** and contains the same value that [**GetProcessAffinityMask**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-getprocessaffinitymask) returns for the `lpProcessAffinityMask` parameter. |
 | **BasePriority** | Contains the process priority as described in [Scheduling Priorities](https://learn.microsoft.com/windows/win32/procthread/scheduling-priorities#base-priority). |
 | **UniqueProcessId** | Can be cast to a **DWORD** and contains a unique identifier for this process. We recommend using the [**GetProcessId**](https://learn.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid) function to retrieve this information. |

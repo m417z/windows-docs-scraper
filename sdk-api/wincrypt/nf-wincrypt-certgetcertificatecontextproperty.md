@@ -239,7 +239,7 @@ Returns an encoded OCSP response for this certificate.
 
 Data type of *pvData*: Pointer to a null-terminated Unicode string.
 
-Returns an `L""` string representing the certificate’s public key algorithm and bit length. The following `` algorithms are supported:
+Returns an `L"<PUBKEY><BITLENGTH>"` string representing the certificate’s public key algorithm and bit length. The following `<PUBKEY>` algorithms are supported:
 
 - L"RSA" (BCRYPT_RSA_ALGORITHM)
 - L"DSA" (BCRYPT_DSA_ALGORITHM)
@@ -309,13 +309,13 @@ computed by using the [CryptHashCertificate](https://learn.microsoft.com/windows
 
 Data type of *pvData*: Pointer to a null-terminated Unicode string.
 
-Returns the `L"/"` string representing the certificate signature. The `` value identifies the CNG public key algorithm. The following algorithms are supported:
+Returns the `L"<SIGNATURE>/<HASH>"` string representing the certificate signature. The `<SIGNATURE>` value identifies the CNG public key algorithm. The following algorithms are supported:
 
 - L"RSA" (BCRYPT_RSA_ALGORITHM)
 - L"DSA" (BCRYPT_DSA_ALGORITHM)
 - L"ECDSA" (SSL_ECDSA_ALGORITHM)
 
-The `` value identifies the CNG hash algorithm. The following algorithms are supported:
+The `<HASH>` value identifies the CNG hash algorithm. The following algorithms are supported:
 
 - L"MD5" (BCRYPT_MD5_ALGORITHM)
 - L"SHA1" (BCRYPT_SHA1_ALGORITHM)

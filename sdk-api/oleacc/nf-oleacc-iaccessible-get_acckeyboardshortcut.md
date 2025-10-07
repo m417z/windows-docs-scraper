@@ -40,7 +40,7 @@ Controls such as toolbar buttons and menu items often have an associated shortcu
 
 **Note to client developers:**
 
-If this property returns a single character, you cannot assume it is an access key or a keyboard shortcut. With standard menu items, the access key is returned by **IAccessible::get_accKeyboardShortcut**, and the shortcut key is returned as part of the menu item name returned from [IAccessible::get_accName](https://learn.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname). In general, access keys tend to be defined as ALT + <letter>, and keyboard shortcuts tend to be CTRL + <letter>.
+If this property returns a single character, you cannot assume it is an access key or a keyboard shortcut. With standard menu items, the access key is returned by **IAccessible::get_accKeyboardShortcut**, and the shortcut key is returned as part of the menu item name returned from [IAccessible::get_accName](https://learn.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname). In general, access keys tend to be defined as ALT + \<letter>, and keyboard shortcuts tend to be CTRL + \<letter>.
 
 **Note to server developers:** If the UI element can receive keyboard focus, then you should expose the access key for the element. If the UI element cannot receive keyboard focus (such as toolbar icons), then you should display the shortcut key.
 

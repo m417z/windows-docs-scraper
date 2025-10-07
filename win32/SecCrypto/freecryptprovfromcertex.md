@@ -21,21 +21,9 @@ The address of a **DWORD** variable that receives additional information about t
 
 | Value | Meaning |
 |-------|---------|
-|
-
-**AT\_KEYEXCHANGE**
-
-| The key pair is a key exchange pair. |
-|
-
-**AT\_SIGNATURE**
-
-| The key pair is a signature pair. |
-|
-
-**CERT\_NCRYPT\_KEY\_SPEC**
-
-| The key is a CNG key.<br> **Windows Server 2003 and Windows XP:** This value is not supported. |
+| **AT\_KEYEXCHANGE** | The key pair is a key exchange pair. |
+| **AT\_SIGNATURE** | The key pair is a signature pair. |
+| **CERT\_NCRYPT\_KEY\_SPEC** | The key is a CNG key.<br> **Windows Server 2003 and Windows XP:** This value is not supported. |
 
 *pwszCapiProvider* `[in, optional]`
 

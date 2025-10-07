@@ -32,7 +32,7 @@ This function returns DSGETDCAPI DWORD.
 
 ## Remarks
 
-This function deregisters SRV and CNAME records only. It leaves type A records intact. Deletion of site specific records, for example, _ldap._tcp._<SiteName>._sites.dc._msdcs.<DnsDomainName>, is attempted for every site (<SiteName> in this example) in the enterprise of the domain controller on which the function is executed. Therefore, this function call could create a time-consuming run and may generate significant network traffic for enterprises with many sites.
+This function deregisters SRV and CNAME records only. It leaves type A records intact. Deletion of site specific records, for example, _ldap._tcp._\<SiteName>._sites.dc._msdcs.\<DnsDomainName>, is attempted for every site (\<SiteName> in this example) in the enterprise of the domain controller on which the function is executed. Therefore, this function call could create a time-consuming run and may generate significant network traffic for enterprises with many sites.
 
 > [!NOTE]
 > The dsgetdc.h header defines DsDeregisterDnsHostRecords as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).

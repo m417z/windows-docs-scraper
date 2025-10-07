@@ -56,7 +56,7 @@ A call to the
 
    `SnmpListen (hAgent, SNMPAPI_ON);`
 
-where <addrString> contains the string representation of an IP address or an IPX address, and <nPort> contains the new port assignment for the agent application.
+where \<addrString> contains the string representation of an IP address or an IPX address, and \<nPort> contains the new port assignment for the agent application.
 
 Note that an IPX address contains a network number that consists of eight hexadecimal digits (zero-filled if necessary); a separator (either ":", "." or " – "); and a node number that consists of 12 hexadecimal digits (zero-filled if necessary)—for example, 00000001:00081A0D01C2. For more information, see
 [Support for IPX Address Strings in WinSNMP](https://learn.microsoft.com/windows/desktop/SNMP/support-for-ipx-address-strings-in-winsnmp).

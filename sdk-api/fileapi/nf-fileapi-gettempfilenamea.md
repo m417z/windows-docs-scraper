@@ -40,21 +40,15 @@ The following is a list of possible return values:
 
 The **GetTempFileName** function creates a temporary file name of the following form:
 
-`\
-
-```
-.TMP`
+`<path>\<pre><uuuu>.TMP`
 
 The following table describes the file name syntax:
 
 | Component | Meaning |
 |-----------|---------|
-| `` | Path specified by the *lpPathName* parameter |
-| `
-
-```
-`  | First three letters of the *lpPrefixString* string |
-| `` | Hexadecimal value of *uUnique* |
+| `<path>` | Path specified by the *lpPathName* parameter |
+| `<pre>` | First three letters of the *lpPrefixString* string |
+| `<uuuu>` | Hexadecimal value of *uUnique* |
 
 If *uUnique* is zero, **GetTempFileName** creates an empty file and closes it. If *uUnique* is not zero, you must create the file yourself. Only a file name is created, because **GetTempFileName** is not able to guarantee that the file name is unique.
 
@@ -94,5 +88,3 @@ For an example, see [Creating and Using a Temporary File](https://learn.microsof
 [GetTempPath2](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-gettemppath2a)
 
 [Naming Files, Paths, and Namespaces](https://learn.microsoft.com/windows/win32/FileIO/naming-a-file)
-```
-```

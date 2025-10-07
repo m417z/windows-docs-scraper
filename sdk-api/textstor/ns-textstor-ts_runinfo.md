@@ -21,7 +21,7 @@ A text run is a collection of consecutive visible, hidden, or embedded character
 | Text Run | uCount | TsRunType |
 | --- | --- | --- |
 | <b> | 3 | TS_RT_HIDDEN |
-| Hello<space> | 5 | TS_RT_PLAIN |
+| Hello\<space> | 5 | TS_RT_PLAIN |
 | </b><i> | 7 | TS_RT_HIDDEN |
 | World | 5 | TS_RT_PLAIN |
 | </i> | 4 | TS_RT_HIDDEN |

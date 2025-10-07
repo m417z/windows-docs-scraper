@@ -20,21 +20,9 @@ Specifies the version of the RAS server. Use this information to take version-sp
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-|
-
-**RASDOWNLEVEL**
-
-| Indicates a LAN Manager version 1.0 RAS server.<br> |
-|
-
-**RASADMIN\_35**
-
-| Indicates a Windows NT Server 3.51 and earlier RAS server or client.<br> |
-|
-
-**RASADMIN\_CURRENT**
-
-| Indicates a Windows NT 4.0 RAS server or client.<br> |
+| **RASDOWNLEVEL** | Indicates a LAN Manager version 1.0 RAS server.<br> |
+| **RASADMIN\_35** | Indicates a Windows NT Server 3.51 and earlier RAS server or client.<br> |
+| **RASADMIN\_CURRENT** | Indicates a Windows NT 4.0 RAS server or client.<br> |
 
 ## Requirements
 

@@ -17,34 +17,15 @@ Specifies which digest sign implementation to use.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **DIGEST\_SIGN**
 
-**DIGEST\_SIGN**
+1 (0x1) | Use the DIGEST_SIGN implementation.\ | | **DIGEST\_SIGN\_WITHFILEHANDLE**
 
-1 (0x1)
+2 (0x2) | Use the DIGEST_SIGN_WITHFILEHANDLE implementation. \ | | **DIGEST\_SIGN\_EX**
 
-| Use the DIGEST_SIGN implementation.<br> |
-|
+3 (0x3) | Use the DIGEST_SIGN_EX implementation.\ | | **DIGEST\_SIGN\_EX\_WITHFILEHANDLE**
 
-**DIGEST\_SIGN\_WITHFILEHANDLE**
-
-2 (0x2)
-
-| Use the DIGEST_SIGN_WITHFILEHANDLE implementation. <br> |
-|
-
-**DIGEST\_SIGN\_EX**
-
-3 (0x3)
-
-| Use the DIGEST_SIGN_EX implementation.<br> |
-|
-
-**DIGEST\_SIGN\_EX\_WITHFILEHANDLE**
-
-4 (0x4)
-
-|Use the DIGEST_SIGN_EX_WITHFILEHANDLE implementation.<br> |
+4 (0x4) |Use the DIGEST_SIGN_EX_WITHFILEHANDLE implementation.\ |
 
 **pfnAuthenticodeDigestSign**
 

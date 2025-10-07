@@ -30,41 +30,13 @@ Each of these structures has an opcode member that specifies what the MXDC is su
 
 | Operations code (opcode) | Action |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**MXDCOP\_GET\_FILENAME**
-
-| Sets the *lpszOutData* parameter of the [**ExtEscape**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-extescape) function to, either the full path of the output file as a zero-terminated string or else the size of that string.<br> |
-|
-
-**MXDCOP\_PRINTTICKET\_FIXED\_DOC\_SEQ**
-
-| Associates a print ticket with an XPS fixed document sequence.<br> |
-|
-
-**MXDCOP\_PRINTTICKET\_FIXED\_DOC**
-
-| Associates a print ticket with an XPS document.<br> |
-|
-
-**MXDCOP\_PRINTTICKET\_FIXED\_PAGE**
-
-| Associates a print ticket with an XPS page.<br> |
-|
-
-**MXDCOP\_SET\_S0PAGE**
-
-| Sends the XPS markup of the current page to the output.<br> |
-|
-
-**MXDCOP\_SET\_S0PAGE\_RESOURCE**
-
-| Sends a resource on the page, such as an image or font, to the output.<br> |
-|
-
-**MXDCOP\_SET\_XPSPASSTHRU\_MODE**
-
-| Puts the MXDC into a pass through state, enabling an application to write XPS directly to the output file without any processing by the MXDC. An entire document or even document sequence can be written in this way.<br> |
+| **MXDCOP\_GET\_FILENAME** | Sets the *lpszOutData* parameter of the [**ExtEscape**](https://learn.microsoft.com/windows/desktop/api/Wingdi/nf-wingdi-extescape) function to, either the full path of the output file as a zero-terminated string or else the size of that string.<br> |
+| **MXDCOP\_PRINTTICKET\_FIXED\_DOC\_SEQ** | Associates a print ticket with an XPS fixed document sequence.<br> |
+| **MXDCOP\_PRINTTICKET\_FIXED\_DOC** | Associates a print ticket with an XPS document.<br> |
+| **MXDCOP\_PRINTTICKET\_FIXED\_PAGE** | Associates a print ticket with an XPS page.<br> |
+| **MXDCOP\_SET\_S0PAGE** | Sends the XPS markup of the current page to the output.<br> |
+| **MXDCOP\_SET\_S0PAGE\_RESOURCE** | Sends a resource on the page, such as an image or font, to the output.<br> |
+| **MXDCOP\_SET\_XPSPASSTHRU\_MODE** | Puts the MXDC into a pass through state, enabling an application to write XPS directly to the output file without any processing by the MXDC. An entire document or even document sequence can be written in this way.<br> |
 
 *cbOutput*
 

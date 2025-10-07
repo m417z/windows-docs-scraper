@@ -45,9 +45,9 @@ If the function fails, the return value is a system error code. For a list of er
 
 ## Remarks
 
-For domain-based DFS namespaces, the security descriptor is retrieved from the "CN=*DomDfsName*,CN=DFS-Configuration,CN=System,DC=*domain*" object in Active Directory from the primary domain controller (PDC) of the domain that hosts the DFS namespace, where *DomDfsName* is the name of the domain-based DFS namespace and <domain> is the distinguished name of the Active Directory domain that hosts the namespace.
+For domain-based DFS namespaces, the security descriptor is retrieved from the "CN=*DomDfsName*,CN=DFS-Configuration,CN=System,DC=*domain*" object in Active Directory from the primary domain controller (PDC) of the domain that hosts the DFS namespace, where *DomDfsName* is the name of the domain-based DFS namespace and \<domain> is the distinguished name of the Active Directory domain that hosts the namespace.
 
-For stand-alone roots, the security descriptor is retrieved from the object specified by the **HKLM**\**Software**\**Microsoft**\**Dfs**\**Standalone**\**<root-name>** registry entry.
+For stand-alone roots, the security descriptor is retrieved from the object specified by the **HKLM**\**Software**\**Microsoft**\**Dfs**\**Standalone**\**\<root-name>** registry entry.
 
 ## See also
 

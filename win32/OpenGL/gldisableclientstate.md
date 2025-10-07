@@ -10,36 +10,12 @@ A symbolic constant for the array you want to enable or disable. This parameter 
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_COLOR\_ARRAY**
-
-| If enabled, use color arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glColorPointer**](https://learn.microsoft.com/windows/win32/opengl/glcolorpointer).<br> |
-|
-
-**GL\_EDGE\_FLAG\_ARRAY**
-
-| If enabled, use edge flag arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glEdgeFlagPointer**](https://learn.microsoft.com/windows/win32/opengl/gledgeflagpointer).<br> |
-|
-
-**GL\_INDEX\_ARRAY**
-
-| If enabled, use index arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glIndexPointer**](https://learn.microsoft.com/windows/win32/opengl/glindexpointer).<br> |
-|
-
-**GL\_NORMAL\_ARRAY**
-
-| If enabled, use normal arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glNormalPointer**](https://learn.microsoft.com/windows/win32/opengl/glnormalpointer).<br> |
-|
-
-**GL\_TEXTURE\_COORD\_ARRAY**
-
-| If enabled, use texture coordinate arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glTexCoordPointer**](https://learn.microsoft.com/windows/win32/opengl/gltexcoordpointer).<br> |
-|
-
-**GL\_VERTEX\_ARRAY**
-
-| If enabled, use vertex arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glVertexPointer**](https://learn.microsoft.com/windows/win32/opengl/glvertexpointer).<br> |
+| **GL\_COLOR\_ARRAY** | If enabled, use color arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glColorPointer**](https://learn.microsoft.com/windows/win32/opengl/glcolorpointer).<br> |
+| **GL\_EDGE\_FLAG\_ARRAY** | If enabled, use edge flag arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glEdgeFlagPointer**](https://learn.microsoft.com/windows/win32/opengl/gledgeflagpointer).<br> |
+| **GL\_INDEX\_ARRAY** | If enabled, use index arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glIndexPointer**](https://learn.microsoft.com/windows/win32/opengl/glindexpointer).<br> |
+| **GL\_NORMAL\_ARRAY** | If enabled, use normal arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glNormalPointer**](https://learn.microsoft.com/windows/win32/opengl/glnormalpointer).<br> |
+| **GL\_TEXTURE\_COORD\_ARRAY** | If enabled, use texture coordinate arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glTexCoordPointer**](https://learn.microsoft.com/windows/win32/opengl/gltexcoordpointer).<br> |
+| **GL\_VERTEX\_ARRAY** | If enabled, use vertex arrays with calls to [**glArrayElement**](https://learn.microsoft.com/windows/win32/opengl/glarrayelement), [**glDrawElements**](https://learn.microsoft.com/windows/win32/opengl/gldrawelements), or [**glDrawArrays**](https://learn.microsoft.com/windows/win32/opengl/gldrawarrays).<br> See also [**glVertexPointer**](https://learn.microsoft.com/windows/win32/opengl/glvertexpointer).<br> |
 
 ## Return value
 

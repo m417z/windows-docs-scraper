@@ -13,16 +13,8 @@ Value that specifies the type of time stamp to generate. This parameter can be o
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-|
-
-**SIGNER\_TIMESTAMP\_AUTHENTICODE**
-
-| Specifies an Authenticode time stamp.<br> |
-|
-
-**SIGNER\_TIMESTAMP\_RFC3161**
-
-| Specifies an RFC 3161–compliant time stamp.<br> |
+| **SIGNER\_TIMESTAMP\_AUTHENTICODE** | Specifies an Authenticode time stamp.<br> |
+| **SIGNER\_TIMESTAMP\_RFC3161** | Specifies an RFC 3161–compliant time stamp.<br> |
 
 *pSubjectInfo* \[in\]
 

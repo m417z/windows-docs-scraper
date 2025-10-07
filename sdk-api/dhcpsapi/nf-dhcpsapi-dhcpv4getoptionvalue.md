@@ -21,7 +21,7 @@ Indicates whether the option is for a specific or default vendor.
 
 ### `OptionID` [in]
 
-[DHCP_OPTION_ID](https://learn.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions) structure that specifies the unique option code for the option value to retrieve. A complete list of standard DHCP and BOOTP option codes can be found at <http://www.ietf.org/rfc/rfc2132.txt>
+[DHCP_OPTION_ID](https://learn.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions) structure that specifies the unique option code for the option value to retrieve. A complete list of standard DHCP and BOOTP option codes can be found at \<http://www.ietf.org/rfc/rfc2132.txt>
 
 ### `PolicyName` [in, optional]
 

@@ -23,7 +23,7 @@ Specifies the number of elements in the array pointed to by the *Ids* parameter.
 
 The function returns a null-terminated string that contains the string representation of the array of numbers pointed to by the *Ids* parameter. The string contains a sequence of numbers separated by periods ('.'); for example, 1.3.6.1.4.1.311.
 
-If the *Ids* parameter is null, or if the *IdLength* parameter specifies zero, the function returns the string "<null oid>".
+If the *Ids* parameter is null, or if the *IdLength* parameter specifies zero, the function returns the string "\<null oid>".
 
 The maximum length of the returned string is 256 characters. If the string's length exceeds 256 characters, the string is truncated and terminated with a sequence of three periods ('...').
 

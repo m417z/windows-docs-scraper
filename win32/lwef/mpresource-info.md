@@ -24,41 +24,17 @@ This field is set when the resource is identified as part of the threat. It spec
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-|
+| **MP\_RESOURCE\_CLASS\_UNKNOWN**
 
-**MP\_RESOURCE\_CLASS\_UNKNOWN**
+0x0000 | | | **MP\_RESOURCE\_CLASS\_CONCRETE**
 
-0x0000
+0x0001 | Mutually exclusive with **MP\_RESOURCE\_CLASS\_LATENT**.\ | | **MP\_RESOURCE\_CLASS\_LATENT**
 
-| |
-|
+0x0002 | Mutually exclusive with **MP\_RESOURCE\_CLASS\_CONCRETE**.\ | | **MP\_RESOURCE\_CLASS\_SAMPLE\_FILE**
 
-**MP\_RESOURCE\_CLASS\_CONCRETE**
+0x0004 | | | **MP\_RESOURCE\_CLASS\_SHARED**
 
-0x0001
-
-| Mutually exclusive with **MP\_RESOURCE\_CLASS\_LATENT**.<br> |
-|
-
-**MP\_RESOURCE\_CLASS\_LATENT**
-
-0x0002
-
-| Mutually exclusive with **MP\_RESOURCE\_CLASS\_CONCRETE**.<br> |
-|
-
-**MP\_RESOURCE\_CLASS\_SAMPLE\_FILE**
-
-0x0004
-
-| |
-|
-
-**MP\_RESOURCE\_CLASS\_SHARED**
-
-0x0100
-
-| |
+0x0100 | |
 
 ## Requirements
 

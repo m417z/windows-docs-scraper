@@ -23,16 +23,8 @@ Flag indicating how the property progresses from the previous value to this valu
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-|
-
-**DEXTERF\_JUMP**
-
-| The property jumps instantly to the new value at the specified time.<br> |
-|
-
-**DEXTERF\_INTERPOLATE**
-
-| The property is interpolated linearly over time from the previous value.<br> |
+| **DEXTERF\_JUMP** | The property jumps instantly to the new value at the specified time.<br> |
+| **DEXTERF\_INTERPOLATE** | The property is interpolated linearly over time from the previous value.<br> |
 
 ## Requirements
 

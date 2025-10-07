@@ -22,55 +22,21 @@ A value that specifies the format of the header data. This can be a bitwise **OR
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **WINBIO\_DATA\_FLAG\_PRIVACY**
 
-**WINBIO\_DATA\_FLAG\_PRIVACY**
+((UCHAR)0x02) | The data is encrypted.\ | | **WINBIO\_DATA\_FLAG\_INTEGRITY**
 
-((UCHAR)0x02)
+((UCHAR)0x01) | The data is digitally signed or protected by a message authentication code (MAC).\ | | **WINBIO\_DATA\_FLAG\_SIGNED**
 
-| The data is encrypted.<br> |
-|
+((UCHAR)0x04) | If this flag and the **WINBIO\_DATA\_FLAG\_INTEGRITY** flag are set, the data is signed. If this flag is not set but the **WINBIO\_DATA\_FLAG\_INTEGRITY** flag is set, a MAC is computed over the data.\ | | **WINBIO\_DATA\_FLAG\_RAW**
 
-**WINBIO\_DATA\_FLAG\_INTEGRITY**
+((UCHAR)0x20) | The data is in the format with which it was captured.\ | | **WINBIO\_DATA\_FLAG\_INTERMEDIATE**
 
-((UCHAR)0x01)
+((UCHAR)0x40) | The data is not raw but has not been completely processed.\ | | **WINBIO\_DATA\_FLAG\_PROCESSED**
 
-| The data is digitally signed or protected by a message authentication code (MAC).<br> |
-|
+((UCHAR)0x80) | The data has been processed.\ | | **WINBIO\_DATA\_FLAG\_OPTION\_MASK\_PRESENT**
 
-**WINBIO\_DATA\_FLAG\_SIGNED**
-
-((UCHAR)0x04)
-
-| If this flag and the **WINBIO\_DATA\_FLAG\_INTEGRITY** flag are set, the data is signed. If this flag is not set but the **WINBIO\_DATA\_FLAG\_INTEGRITY** flag is set, a MAC is computed over the data.<br> |
-|
-
-**WINBIO\_DATA\_FLAG\_RAW**
-
-((UCHAR)0x20)
-
-| The data is in the format with which it was captured.<br> |
-|
-
-**WINBIO\_DATA\_FLAG\_INTERMEDIATE**
-
-((UCHAR)0x40)
-
-| The data is not raw but has not been completely processed.<br> |
-|
-
-**WINBIO\_DATA\_FLAG\_PROCESSED**
-
-((UCHAR)0x80)
-
-| The data has been processed.<br> |
-|
-
-**WINBIO\_DATA\_FLAG\_OPTION\_MASK\_PRESENT**
-
-((UCHAR)0x08)
-
-| This value is always 1.<br> |
+((UCHAR)0x08) | This value is always 1.\ |
 
 **Type**
 
@@ -97,20 +63,11 @@ A value that specifies the relative quality of the biometric data in the biometr
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-|
+| **WINBIO\_DATA\_QUALITY\_NOT\_SET**
 
-**WINBIO\_DATA\_QUALITY\_NOT\_SET**
+((WINBIO\_BIR\_QUALITY)-1) | Quality measurements are supported by the BIR creator but no value is set in the BIR.\ | | **WINBIO\_DATA\_QUALITY\_NOT\_SUPPORTED**
 
-((WINBIO\_BIR\_QUALITY)-1)
-
-| Quality measurements are supported by the BIR creator but no value is set in the BIR.<br> |
-|
-
-**WINBIO\_DATA\_QUALITY\_NOT\_SUPPORTED**
-
-((WINBIO\_BIR\_QUALITY)-2)
-
-| Quality measurements are not supported by the BIR creator.<br> |
+((WINBIO\_BIR\_QUALITY)-2) | Quality measurements are not supported by the BIR creator.\ |
 
 **CreationDate**
 
@@ -134,20 +91,11 @@ A [**WINBIO\_REGISTERED\_FORMAT**](https://learn.microsoft.com/windows/win32/sec
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|
+| **WINBIO\_NO\_FORMAT\_OWNER\_AVAILABLE**
 
-**WINBIO\_NO\_FORMAT\_OWNER\_AVAILABLE**
+((USHORT)0) | No IBIA (International Biometric Industry Association) assigned owner value has been specified.\ | | **WINBIO\_NO\_FORMAT\_TYPE\_AVAILABLE**
 
-((USHORT)0)
-
-| No IBIA (International Biometric Industry Association) assigned owner value has been specified.<br> |
-|
-
-**WINBIO\_NO\_FORMAT\_TYPE\_AVAILABLE**
-
-((USHORT)0)
-
-| No format type has been specified.<br> |
+((USHORT)0) | No format type has been specified.\ |
 
 **ProductId**
 

@@ -20,34 +20,15 @@ Zero, one, or more of the following status bits, which indicate the state of the
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-|
+| **BATTERY\_CHARGING**
 
-**BATTERY\_CHARGING**
+0x00000004 | Indicates that the battery is currently charging.\ | | **BATTERY\_CRITICAL**
 
-0x00000004
+0x00000008 | Indicates that battery failure is imminent. See the Remarks section for more information.\ | | **BATTERY\_DISCHARGING**
 
-| Indicates that the battery is currently charging.<br> |
-|
+0x00000002 | Indicates that the battery is currently discharging.\ | | **BATTERY\_POWER\_ON\_LINE**
 
-**BATTERY\_CRITICAL**
-
-0x00000008
-
-| Indicates that battery failure is imminent. See the Remarks section for more information.<br> |
-|
-
-**BATTERY\_DISCHARGING**
-
-0x00000002
-
-| Indicates that the battery is currently discharging.<br> |
-|
-
-**BATTERY\_POWER\_ON\_LINE**
-
-0x00000001
-
-| Indicates that the battery has access to AC power.<br> |
+0x00000001 | Indicates that the battery has access to AC power.\ |
 
 **LowCapacity**
 

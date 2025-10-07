@@ -10,26 +10,10 @@ Bitwise OR operators of masks that indicate the buffers to be cleared. The four 
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-|
-
-**GL\_COLOR\_BUFFER\_BIT**
-
-| The buffers currently enabled for color writing.<br> |
-|
-
-**GL\_DEPTH\_BUFFER\_BIT**
-
-| The depth buffer.<br> |
-|
-
-**GL\_ACCUM\_BUFFER\_BIT**
-
-| The accumulation buffer.<br> |
-|
-
-**GL\_STENCIL\_BUFFER\_BIT**
-
-| The stencil buffer.<br> |
+| **GL\_COLOR\_BUFFER\_BIT** | The buffers currently enabled for color writing.<br> |
+| **GL\_DEPTH\_BUFFER\_BIT** | The depth buffer.<br> |
+| **GL\_ACCUM\_BUFFER\_BIT** | The accumulation buffer.<br> |
+| **GL\_STENCIL\_BUFFER\_BIT** | The stencil buffer.<br> |
 
 ## Return value
 

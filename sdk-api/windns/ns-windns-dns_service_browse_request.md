@@ -14,7 +14,7 @@ A value that contains the interface index over which the query is sent. If `Inte
 
 ### `QueryName`
 
-A pointer to a string that represents the service type whose matching services you wish to browse for. It takes the generalized form "\_\.\_\.local". For example, "_http._tcp.local", which defines a query to browse for http services on the local link.
+A pointer to a string that represents the service type whose matching services you wish to browse for. It takes the generalized form "\_\<ServiceType\>.\_\<TransportProtocol\>.local". For example, "_http._tcp.local", which defines a query to browse for http services on the local link.
 
 ### `pBrowseCallback`
 

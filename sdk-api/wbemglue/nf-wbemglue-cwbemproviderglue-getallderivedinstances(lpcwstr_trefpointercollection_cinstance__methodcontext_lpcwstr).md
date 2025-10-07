@@ -1,4 +1,4 @@
-# CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection,MethodContext,LPCWSTR)
+# CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection\<CInstance>,MethodContext,LPCWSTR)
 
 ## Description
 

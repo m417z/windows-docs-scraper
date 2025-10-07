@@ -4,7 +4,7 @@
 
 Initializes a new instance of [XMHALF2](https://learn.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2) from a two element `float` array argument.
 
-This constructor initializes a new instance of** XMHALF2** from a two element `float` array argument.
+This constructor initializes a new instance of **XMHALF2** from a two element `float` array argument.
 
 **Note** This constructor is only available under C++.
 

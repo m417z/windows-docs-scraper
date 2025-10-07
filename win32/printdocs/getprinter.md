@@ -22,51 +22,15 @@ The type of structure is determined by the value of *Level*.
 
 | Level | Structure |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**1**
-
-| A [**PRINTER\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-1) structure containing general printer information.<br> |
-|
-
-**2**
-
-| A [**PRINTER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-2) structure containing detailed information about the printer.<br> |
-|
-
-**3**
-
-| A [**PRINTER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-3) structure containing the printer's security information.<br> |
-|
-
-**4**
-
-| A [**PRINTER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-4) structure containing minimal printer information, including the name of the printer, the name of the server, and whether the printer is remote or local.<br> |
-|
-
-**5**
-
-| A [**PRINTER\_INFO\_5**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-5) structure containing printer information such as printer attributes and time-out settings.<br> |
-|
-
-**6**
-
-| A [**PRINTER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-6) structure specifying the status value of a printer.<br> |
-|
-
-**7**
-
-| A [**PRINTER\_INFO\_7**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-7) structure that indicates whether the printer is published in the directory service.<br> |
-|
-
-**8**
-
-| A [**PRINTER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-8) structure specifying the global default printer settings.<br> |
-|
-
-**9**
-
-| A [**PRINTER\_INFO\_9**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-9) structure specifying the per-user default printer settings.<br> |
+| **1** | A [**PRINTER\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-1) structure containing general printer information.<br> |
+| **2** | A [**PRINTER\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-2) structure containing detailed information about the printer.<br> |
+| **3** | A [**PRINTER\_INFO\_3**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-3) structure containing the printer's security information.<br> |
+| **4** | A [**PRINTER\_INFO\_4**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-4) structure containing minimal printer information, including the name of the printer, the name of the server, and whether the printer is remote or local.<br> |
+| **5** | A [**PRINTER\_INFO\_5**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-5) structure containing printer information such as printer attributes and time-out settings.<br> |
+| **6** | A [**PRINTER\_INFO\_6**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-6) structure specifying the status value of a printer.<br> |
+| **7** | A [**PRINTER\_INFO\_7**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-7) structure that indicates whether the printer is published in the directory service.<br> |
+| **8** | A [**PRINTER\_INFO\_8**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-8) structure specifying the global default printer settings.<br> |
+| **9** | A [**PRINTER\_INFO\_9**](https://learn.microsoft.com/windows/win32/printdocs/printer-info-9) structure specifying the per-user default printer settings.<br> |
 
 *cbBuf* \[in\]
 

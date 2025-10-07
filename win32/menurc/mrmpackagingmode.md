@@ -34,7 +34,7 @@ target markets. If you are building a packaged app and want to create Resource P
 For example, assume the indexer was created with English as the default qualifer, and it contains resources with all the
 following qualifiers:
 
-1. \
+1. \<none>
 1. language-en
 1. language-en_scale-100
 1. language-de

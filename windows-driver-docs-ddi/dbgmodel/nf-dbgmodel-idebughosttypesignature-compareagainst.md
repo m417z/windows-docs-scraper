@@ -20,7 +20,7 @@ Signature 2:
 std::pair<int, *>
 ```
 
-Because the type instance std::pair matches either one equally well (both have one concrete and one wildcard match).
+Because the type instance std::pair\<int, int> matches either one equally well (both have one concrete and one wildcard match).
 
 **LessSpecific** - One signature or type is less specific than the other. Often, this means that the less specific signature has a wildcard where the more specific one has a concrete type. As an example, the first signature below is less specific than the second:
 

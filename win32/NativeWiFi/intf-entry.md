@@ -24,27 +24,13 @@ The current NDIS media connect state for the interface. The following table show
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-|
+| **MEDIA\_STATE\_CONNECTED**
 
-**MEDIA\_STATE\_CONNECTED**
+1 | The media is connected.\ | | **MEDIA\_STATE\_DISCONNECTED**
 
-1
+0 | The media is disconnected.\ | | **MEDIA\_STATE\_UNKNOWN**
 
-| The media is connected.<br> |
-|
-
-**MEDIA\_STATE\_DISCONNECTED**
-
-0
-
-| The media is disconnected.<br> |
-|
-
-**MEDIA\_STATE\_UNKNOWN**
-
--1
-
-| The media state is unknown.<br> |
+-1 | The media state is unknown.\ |
 
 **ulMediaType**
 
@@ -66,69 +52,25 @@ The following table shows the possible values for the parameter based on the **N
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **Ndis802\_11AuthModeOpen**
 
-**Ndis802\_11AuthModeOpen**
+1 | IEEE 802.11 Open System authentication.\ | | **Ndis802\_11AuthModeShared**
 
-1
+2 | IEEE 802.11 shared authentication that uses a pre-shared wired equivalent privacy (WEP) key. \ | | **Ndis802\_11AuthModeAutoSwitch**
 
-| IEEE 802.11 Open System authentication.<br> |
-|
+3 | Auto-switch mode. When using auto-switch mode, the wireless network interface card (NIC) tries shared authentication mode first. If shared mode fails, the NIC attempts to use open authentication mode. \ | | **Ndis802\_11AuthModeWPA**
 
-**Ndis802\_11AuthModeShared**
+4 | Wireless Protected Access(WPA) security. Authentication is performed between the supplicant, authenticator, and authentication server over IEEE 802.1X. Encryption keys are dynamic and are derived through the authentication process. \ | | **Ndis802\_11AuthModeWPAPSK**
 
-2
+5 | WPA security using a pre-shared key. Authentication is performed between the supplicant and authenticator over IEEE 802.1X. Encryption keys are dynamic and are derived through the preshared key used by the supplicant and authenticator. \ | | **Ndis802\_11AuthModeWPANone**
 
-| IEEE 802.11 shared authentication that uses a pre-shared wired equivalent privacy (WEP) key. <br> |
-|
+6 | WPA security. Authentication is performed using a preshared key without IEEE 802.1X authentication. Encryption keys are static and are derived through the preshared key. This mode is applicable only to ad hoc network types. \ | | **Ndis802\_11AuthModeWPA2**
 
-**Ndis802\_11AuthModeAutoSwitch**
+7 | WPA2 security. Authentication is performed between the supplicant, authenticator, and authentication server over IEEE 802.1X. Encryption keys are dynamic and are derived through the authentication process. \ | | **Ndis802\_11AuthModeWPA2PSK**
 
-3
+8 | Specifies WPA2 security. Authentication is performed between the supplicant and authenticator over IEEE 802 1X. Encryption keys are dynamic and are derived through the preshared key used by the supplicant and authenticator. \ | | **Ndis802\_11AuthModeMax**
 
-| Auto-switch mode. When using auto-switch mode, the wireless network interface card (NIC) tries shared authentication mode first. If shared mode fails, the NIC attempts to use open authentication mode. <br> |
-|
-
-**Ndis802\_11AuthModeWPA**
-
-4
-
-| Wireless Protected Access(WPA) security. Authentication is performed between the supplicant, authenticator, and authentication server over IEEE 802.1X. Encryption keys are dynamic and are derived through the authentication process. <br> |
-|
-
-**Ndis802\_11AuthModeWPAPSK**
-
-5
-
-| WPA security using a pre-shared key. Authentication is performed between the supplicant and authenticator over IEEE 802.1X. Encryption keys are dynamic and are derived through the preshared key used by the supplicant and authenticator. <br> |
-|
-
-**Ndis802\_11AuthModeWPANone**
-
-6
-
-| WPA security. Authentication is performed using a preshared key without IEEE 802.1X authentication. Encryption keys are static and are derived through the preshared key. This mode is applicable only to ad hoc network types. <br> |
-|
-
-**Ndis802\_11AuthModeWPA2**
-
-7
-
-| WPA2 security. Authentication is performed between the supplicant, authenticator, and authentication server over IEEE 802.1X. Encryption keys are dynamic and are derived through the authentication process. <br> |
-|
-
-**Ndis802\_11AuthModeWPA2PSK**
-
-8
-
-| Specifies WPA2 security. Authentication is performed between the supplicant and authenticator over IEEE 802 1X. Encryption keys are dynamic and are derived through the preshared key used by the supplicant and authenticator. <br> |
-|
-
-**Ndis802\_11AuthModeMax**
-
-9
-
-| The maximum possible value for the **NDIS\_802\_11\_AUTHENTICATION\_MODE** enumeration value. This is not a legal value for the authentication mode. <br> |
+9 | The maximum possible value for the **NDIS\_802\_11\_AUTHENTICATION\_MODE** enumeration value. This is not a legal value for the authentication mode. \ |
 
 **nWepStatus**
 
@@ -142,55 +84,21 @@ The following table shows the possible bit values.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **INTFCTL\_CM\_MASK**
 
-**INTFCTL\_CM\_MASK**
+0x0007 | A bitmask for the network filter mode. INTFCTL\_CM\_MASK & dwCtlFlags result in a value of the type NDIS\_802\_11\_NETWORK\_INFRASTRUCTURE. The resulting value indicates whether WZCSVC connects only to infrastructure networks, adhoc networks, or to both types of networks.\ | | **INTFCTL\_ENABLED**
 
-0x0007
+0x8000 | Indicates whether WZCSVC should configure the interface.\ | | **INTFCTL\_FALLBACK**
 
-| A bitmask for the network filter mode. INTFCTL\_CM\_MASK & dwCtlFlags result in a value of the type NDIS\_802\_11\_NETWORK\_INFRASTRUCTURE. The resulting value indicates whether WZCSVC connects only to infrastructure networks, adhoc networks, or to both types of networks.<br> |
-|
+0x4000 | If a preferred network is not available, this value indicates whether WZCSVC should automatically configure the NIC to associate to any available network.\ | | **INTFCTL\_OIDSSUPP**
 
-**INTFCTL\_ENABLED**
+0x2000 | Indicates whether the NIC driver supports all the 802.11 OIDs required by WZCSVC to function.\ | | **INTFCTL\_VOLATILE**
 
-0x8000
+0x1000 | Indicates whether the service parameters for this interface should be retained in the registry. \ If this value is set, then these parameters are volatile and should not be retained in the registry.\ | | **INTFCTL\_POLICY**
 
-| Indicates whether WZCSVC should configure the interface.<br> |
-|
+0x0800 | Indicates whether the service parameters for this interface are pushed by a group policy.\ If this value is set, then the service parameters are pushed to the local computer by group policy.\ | | **INTFCTL\_8021XSUPP**
 
-**INTFCTL\_FALLBACK**
-
-0x4000
-
-| If a preferred network is not available, this value indicates whether WZCSVC should automatically configure the NIC to associate to any available network.<br> |
-|
-
-**INTFCTL\_OIDSSUPP**
-
-0x2000
-
-| Indicates whether the NIC driver supports all the 802.11 OIDs required by WZCSVC to function.<br> |
-|
-
-**INTFCTL\_VOLATILE**
-
-0x1000
-
-| Indicates whether the service parameters for this interface should be retained in the registry. <br> If this value is set, then these parameters are volatile and should not be retained in the registry.<br> |
-|
-
-**INTFCTL\_POLICY**
-
-0x0800
-
-| Indicates whether the service parameters for this interface are pushed by a group policy.<br> If this value is set, then the service parameters are pushed to the local computer by group policy.<br> |
-|
-
-**INTFCTL\_8021XSUPP**
-
-0x1000
-
-| Indicates whether 802.1X support is enabled.<br> |
+0x1000 | Indicates whether 802.1X support is enabled.\ |
 
 **dwDynFlags**
 
@@ -202,13 +110,9 @@ The following table shows the possible bit values.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **INTFDYN\_NOSCAN**
 
-**INTFDYN\_NOSCAN**
-
-0x00000001
-
-| Indicates that the WZCSVC should not request the interface conduct an active scan, but instead use the cached values in the NIC driver.<br> |
+0x00000001 | Indicates that the WZCSVC should not request the interface conduct an active scan, but instead use the cached values in the NIC driver.\ |
 
 **dwCapabilities**
 
@@ -216,27 +120,13 @@ Specifies the driver capabilities.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **INTFCAP\_MAX\_CIPHER\_MASK**
 
-**INTFCAP\_MAX\_CIPHER\_MASK**
+0x000000ff | The lower order bits of this member are used to indicate the maximum encryption that is supported. The possible values are some of the enumeration values defined in the **NDIS\_802\_11\_WEP\_STATUS** structure in the *NtDDNdis.h* header file included in the Windows SDK.\ The Ndis802\_11Encryption1Enabled value (2) indicates that WEP is supported. TKIP and AES are not supported, and a transmit key may or may not be available. \ The Ndis802\_11Encryption2Enabled value (9) indicates that TKIP and WEP are supported. AES is not supported, and a transmit key is available. \ The Ndis802\_11Encryption3Enabled value (11) indicates that AES, TKIP, and WEP are supported, and a transmit key is available. \ The Ndis802\_11EncryptionNotSupported (8) indicates Indicates that the WEP key is not supported. \ | | **INTFCAP\_SSN**
 
-0x000000ff
+0x00000100 | Indicates support for Simple Secure Network (SSN) which is a subset of 802.11i. \ SSN changes the encryption key periodically, as opposed to the WEP (Wired Equivalent Privacy) standard, which uses a static key. In order for SSN to work, the maximum supported cipher should be at least TKIP. SSN was developed by a consortium of vendors in 2002 as an interim approach to improve wireless LAN security while the IEEE 802.11i standard was being completed.\ | | **INTFCAP\_80211I**
 
-| The lower order bits of this member are used to indicate the maximum encryption that is supported. The possible values are some of the enumeration values defined in the **NDIS\_802\_11\_WEP\_STATUS** structure in the *NtDDNdis.h* header file included in the Windows SDK.<br> The Ndis802\_11Encryption1Enabled value (2) indicates that WEP is supported. TKIP and AES are not supported, and a transmit key may or may not be available. <br> The Ndis802\_11Encryption2Enabled value (9) indicates that TKIP and WEP are supported. AES is not supported, and a transmit key is available. <br> The Ndis802\_11Encryption3Enabled value (11) indicates that AES, TKIP, and WEP are supported, and a transmit key is available. <br> The Ndis802\_11EncryptionNotSupported (8) indicates Indicates that the WEP key is not supported. <br> |
-|
-
-**INTFCAP\_SSN**
-
-0x00000100
-
-| Indicates support for Simple Secure Network (SSN) which is a subset of 802.11i. <br> SSN changes the encryption key periodically, as opposed to the WEP (Wired Equivalent Privacy) standard, which uses a static key. In order for SSN to work, the maximum supported cipher should be at least TKIP. SSN was developed by a consortium of vendors in 2002 as an interim approach to improve wireless LAN security while the IEEE 802.11i standard was being completed.<br> |
-|
-
-**INTFCAP\_80211I**
-
-0x00000200
-
-| Indicates support for the IEEE 802.11i standard.<br> |
+0x00000200 | Indicates support for the IEEE 802.11i standard.\ |
 
 **rdNicCapabilities**
 

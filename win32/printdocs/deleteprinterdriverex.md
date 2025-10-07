@@ -22,21 +22,9 @@ The options for deleting files and versions of the driver. This parameter can be
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**DPD\_DELETE\_SPECIFIC\_VERSION**
-
-| Deletes the version specified in *dwVersionFlag*. This does not ensure that the driver will be removed from the list of supported drivers for the server.<br> |
-|
-
-**DPD\_DELETE\_UNUSED\_FILES**
-
-| Removes any unused driver files.<br> |
-|
-
-**DPD\_DELETE\_ALL\_FILES**
-
-| Deletes the driver only if all its associated files can be removed. The delete operation fails if any of the driver's files are being used by some other installed driver.<br> |
+| **DPD\_DELETE\_SPECIFIC\_VERSION** | Deletes the version specified in *dwVersionFlag*. This does not ensure that the driver will be removed from the list of supported drivers for the server.<br> |
+| **DPD\_DELETE\_UNUSED\_FILES** | Removes any unused driver files.<br> |
+| **DPD\_DELETE\_ALL\_FILES** | Deletes the driver only if all its associated files can be removed. The delete operation fails if any of the driver's files are being used by some other installed driver.<br> |
 
 If DPD\_DELETE\_SPECIFIC\_VERSION is not specified, the function deletes all versions of the driver if none of them is in use. If neither DPD\_DELETE\_UNUSED\_FILES nor DPD\_DELETE\_ALL\_FILES is specified, the function does not delete driver files.
 

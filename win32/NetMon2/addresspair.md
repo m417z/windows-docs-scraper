@@ -10,31 +10,11 @@ Flags that describe the addresses used by a capture filter. See Remarks for more
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-|
-
-**ADDRESS\_FLAGS\_MATCH\_DST**
-
-| Matches the destination address.<br> |
-|
-
-**ADDRESS\_FLAGS\_MATCH\_SRC**
-
-| Matches the source address.<br> |
-|
-
-**ADDRESS\_FLAGS\_EXCLUDED**
-
-| Excludes the frame if this address is found.<br> |
-|
-
-**ADDRESS\_FLAGS\_DST\_GROUP\_ADDR**
-
-| Matches group bit only. Use this for broadcast-type messages.<br> |
-|
-
-**ADDRESS\_FLAGS\_MATCH\_BOTH**
-
-| Matches destination and source addresses.<br> |
+| **ADDRESS\_FLAGS\_MATCH\_DST** | Matches the destination address.<br> |
+| **ADDRESS\_FLAGS\_MATCH\_SRC** | Matches the source address.<br> |
+| **ADDRESS\_FLAGS\_EXCLUDED** | Excludes the frame if this address is found.<br> |
+| **ADDRESS\_FLAGS\_DST\_GROUP\_ADDR** | Matches group bit only. Use this for broadcast-type messages.<br> |
+| **ADDRESS\_FLAGS\_MATCH\_BOTH** | Matches destination and source addresses.<br> |
 
 **NalReserved**
 

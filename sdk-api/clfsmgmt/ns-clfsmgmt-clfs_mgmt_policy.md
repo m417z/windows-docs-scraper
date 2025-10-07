@@ -104,9 +104,9 @@ Specifies the length of **PrefixString**.
 
 Specifies the prefix string. This string should include a full path to the directory where the containers are created, and a prefix for the container name.
 
-The default path to the container is the directory that contains the base log. The default value is "Container". The log container is created with the name <Name of Log><Default Prefix><Number>.
+The default path to the container is the directory that contains the base log. The default value is "Container". The log container is created with the name \<Name of Log>\<Default Prefix>\<Number>.
 
-**Note** The Common Log File System (CLFS) determines the value of <Number>.
+**Note** The Common Log File System (CLFS) determines the value of \<Number>.
 
 ### `PolicyParameters.NewContainerSuffix`
 

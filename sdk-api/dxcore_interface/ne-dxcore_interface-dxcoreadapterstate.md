@@ -53,7 +53,7 @@ This returns the number of processes using this adapter, and the PIDs in it, res
 This query takes in the physical adapter and engine indices, and outputs the clock frequency of the respective engine in hertz. The output structure also includes the maximum frequency for the engine, with and without overclocking.
 
 ```
-uint64_t GetEngineFrequency(com_ptr adapter, uint32_t physicalIndex, uint32_t engineIndex)
+uint64_t GetEngineFrequency(com_ptr<IDXCoreAdapter1> adapter, uint32_t physicalIndex, uint32_t engineIndex)
 {
     DXCoreAdapterEngineIndex index;
     index.PhysicalAdapterIndex = physicalIndex;
@@ -72,9 +72,9 @@ uint64_t GetEngineFrequency(com_ptr adapter, uint32_t physicalIndex, uint32_t en
 This query takes in the physical adapter index, and outputs the clock frequency of its memory in hertz. The output structure also includes the maximum frequency for the memory, with and without overclocking.
 
 ```
-uint64_t GetEngineFrequency(com_ptr adapter, uint32_t physicalIndex, uint32_t engineIndex)
+uint64_t GetEngineFrequency(com_ptr<IDXCoreAdapter1> adapter, uint32_t physicalIndex, uint32_t engineIndex)
 {
-uint64_t GetMemoryFrequency(com_ptr adapter, uint32_t physicalIndex)
+uint64_t GetMemoryFrequency(com_ptr<IDXCoreAdapter1> adapter, uint32_t physicalIndex)
 {
     DXCoreFrequencyQueryOutput frequencyData = {};
 

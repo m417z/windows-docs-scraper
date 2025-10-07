@@ -35,7 +35,7 @@ The sample should be digitally signed or protected by a message authentication c
 If this flag and the WINBIO_DATA_FLAG_INTEGRITY flag are set, the sample should be signed. If this flag is not set but the WINBIO_DATA_FLAG_INTEGRITY flag is set, a MAC should be computed.
 * **WINBIO_DATA_FLAG_RAW**
 
-The sample should be placed in the WINBIO_BIR object in the format in which it was captured.
+The sample should be placed in the \<xref targtype="struct" rid="secbiomet.winbio_bir">WINBIO_BIR\</xref> object in the format in which it was captured.
 
 ### `RejectDetail` [out]
 

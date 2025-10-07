@@ -40,7 +40,7 @@ A handle to the user that owns the issuance license. The handle is created by ca
 
 Do not confuse the owner of an issuance license with a user who has been granted the OWNER right. Ownership of an issuance license does not automatically grant any rights to use or modify content. Specifying a value for the optional *hOwner* parameter merely enables an application to identify the content owner or author. The ID is added as metadata to the license. The OWNER right, on the other hand, grants a user the authority to exercise all rights contained in the license. Granting yourself (or anyone else) the OWNER right must be done explicitly by using [DRMAddRightWithUser](https://learn.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmaddrightwithuser). Zero, one, or more users can be granted the OWNER right, which never expires.
 
-If specified, the issuance license owner is added as metadata beneath the <WORK> node of the license.
+If specified, the issuance license owner is added as metadata beneath the \<WORK> node of the license.
 
 ```
 <WORK>
@@ -60,7 +60,7 @@ If specified, the issuance license owner is added as metadata beneath the <WORK>
 
 ```
 
-If granted, the OWNER right is added as an attribute of the <RIGHT> element in the license XrML.
+If granted, the OWNER right is added as an attribute of the \<RIGHT> element in the license XrML.
 
 ```
 <WORK>

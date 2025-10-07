@@ -53,7 +53,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 This function is useful as part of a strategy to mitigate security issues related to [internationalized domain names (IDNs)](https://learn.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns).
 
-The script determination is based on the script values published by the Unicode Consortium in <http://www.unicode.org/Public/4.1.0/ucd/Scripts.txt>, except that the unassigned characters have the value "Zzzz" (UNASSIGNED) instead of "Zyyy" (COMMON).
+The script determination is based on the script values published by the Unicode Consortium in \<http://www.unicode.org/Public/4.1.0/ucd/Scripts.txt>, except that the unassigned characters have the value "Zzzz" (UNASSIGNED) instead of "Zyyy" (COMMON).
 
 Here are some examples of the behavior of this function:
 

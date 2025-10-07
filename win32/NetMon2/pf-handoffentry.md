@@ -26,21 +26,9 @@ Numeric base of the protocol value that is specified in **dwHandOffValue**. The 
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-|
-
-**HANDOFF\_VALUE\_FORMAT\_BASE\_UNKNOWN**
-
-| Unknown base<br> |
-|
-
-**HANDOFF\_VALUE\_FORMAT\_BASE\_DECIMAL**
-
-| Decimal base<br> |
-|
-
-**HANDOFF\_VALUE\_FORMAT\_BASE\_HEX**
-
-| Hexadecimal base<br> |
+| **HANDOFF\_VALUE\_FORMAT\_BASE\_UNKNOWN** | Unknown base<br> |
+| **HANDOFF\_VALUE\_FORMAT\_BASE\_DECIMAL** | Decimal base<br> |
+| **HANDOFF\_VALUE\_FORMAT\_BASE\_HEX** | Hexadecimal base<br> |
 
 ## Remarks
 

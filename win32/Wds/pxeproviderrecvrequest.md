@@ -30,34 +30,15 @@ Specifies the action that the system should take.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **PXE\_BA\_NBP**
 
-**PXE\_BA\_NBP**
+1 | The provider replied to a client with a standard DHCP response packet that contains a path to the Network Boot Program. Returning this action means that the provider successfully completed the client request by calling the [**PxeSendReply**](https://learn.microsoft.com/windows/desktop/api/WdsPxe/nf-wdspxe-pxesendreply) function at least once.\ | | **PXE\_BA\_CUSTOM**
 
-1
+2 | The provider replied to a client by using a custom response that does not conform to DHCP specifications. Returning this action means that the provider successfully completed the client request by calling the [**PxeSendReply**](https://learn.microsoft.com/windows/desktop/api/WdsPxe/nf-wdspxe-pxesendreply) function at least once.\ | | **PXE\_BA\_IGNORE**
 
-| The provider replied to a client with a standard DHCP response packet that contains a path to the Network Boot Program. Returning this action means that the provider successfully completed the client request by calling the [**PxeSendReply**](https://learn.microsoft.com/windows/desktop/api/WdsPxe/nf-wdspxe-pxesendreply) function at least once.<br> |
-|
+3 | The provider does not want to service the client request and the request should not be passed to the next provider. All resources associated with the client request are released and the client request is ignored. Providers can also use this value if they recognize the client but the request was malformed.\ | | **PXE\_BA\_REJECTED**
 
-**PXE\_BA\_CUSTOM**
-
-2
-
-| The provider replied to a client by using a custom response that does not conform to DHCP specifications. Returning this action means that the provider successfully completed the client request by calling the [**PxeSendReply**](https://learn.microsoft.com/windows/desktop/api/WdsPxe/nf-wdspxe-pxesendreply) function at least once.<br> |
-|
-
-**PXE\_BA\_IGNORE**
-
-3
-
-| The provider does not want to service the client request and the request should not be passed to the next provider. All resources associated with the client request are released and the client request is ignored. Providers can also use this value if they recognize the client but the request was malformed.<br> |
-|
-
-**PXE\_BA\_REJECTED**
-
-4
-
-| The provider does not want to service the client request. The system passes the request to the next provider in the list of registered providers. If this was the last provider in the list, then all resources associated with the client request are released and client request is ignored.<br> |
+4 | The provider does not want to service the client request. The system passes the request to the next provider in the list of registered providers. If this was the last provider in the list, then all resources associated with the client request are released and client request is ignored.\ |
 
 *pContext* \[in\]
 

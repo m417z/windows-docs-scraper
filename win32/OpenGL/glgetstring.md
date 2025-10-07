@@ -10,26 +10,10 @@ One of the following symbolic constants.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_VENDOR**
-
-| Returns the company responsible for this OpenGL implementation. This name does not change from release to release.<br> |
-|
-
-**GL\_RENDERER**
-
-| Returns the name of the renderer. This name is typically specific to a particular configuration of a hardware platform. It does not change from release to release.<br> |
-|
-
-**GL\_VERSION**
-
-| Returns a version or release number.<br> |
-|
-
-**GL\_EXTENSIONS**
-
-| Returns a space-separated list of supported extensions to OpenGL.<br> |
+| **GL\_VENDOR** | Returns the company responsible for this OpenGL implementation. This name does not change from release to release.<br> |
+| **GL\_RENDERER** | Returns the name of the renderer. This name is typically specific to a particular configuration of a hardware platform. It does not change from release to release.<br> |
+| **GL\_VERSION** | Returns a version or release number.<br> |
+| **GL\_EXTENSIONS** | Returns a space-separated list of supported extensions to OpenGL.<br> |
 
 ## Error codes
 

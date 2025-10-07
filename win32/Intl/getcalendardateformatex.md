@@ -21,31 +21,11 @@ Flags specifying date format options. If *lpFormat* is not set to **NULL**, this
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**DATE\_SHORTDATE**
-
-| Use the short date format. This is the default. This value cannot be used with DATE\_LONGDATE or DATE\_YEARMONTH. <br> |
-|
-
-**DATE\_LONGDATE**
-
-| Use the long date format. This value cannot be used with DATE\_SHORTDATE or DATE\_YEARMONTH. <br> |
-|
-
-**DATE\_YEARMONTH**
-
-| Use the year/month format. This value cannot be used with DATE\_SHORTDATE or DATE\_LONGDATE.<br> |
-|
-
-**DATE\_LTRREADING**
-
-| Add marks for left-to-right reading layout. This value cannot be used with DATE\_RTLREADING.<br> |
-|
-
-**DATE\_RTLREADING**
-
-| Add marks for right-to-left reading layout. This value cannot be used with DATE\_LTRREADING<br> |
+| **DATE\_SHORTDATE** | Use the short date format. This is the default. This value cannot be used with DATE\_LONGDATE or DATE\_YEARMONTH. <br> |
+| **DATE\_LONGDATE** | Use the long date format. This value cannot be used with DATE\_SHORTDATE or DATE\_YEARMONTH. <br> |
+| **DATE\_YEARMONTH** | Use the year/month format. This value cannot be used with DATE\_SHORTDATE or DATE\_LONGDATE.<br> |
+| **DATE\_LTRREADING** | Add marks for left-to-right reading layout. This value cannot be used with DATE\_RTLREADING.<br> |
+| **DATE\_RTLREADING** | Add marks for right-to-left reading layout. This value cannot be used with DATE\_LTRREADING<br> |
 
 *lpCalDateTime* \[in\]
 

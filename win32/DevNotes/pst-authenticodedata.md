@@ -16,27 +16,13 @@ A value that identifies the modifier that one of a chain of callers must verify.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **PST\_AC\_SINGLE\_CALLER**
 
-**PST\_AC\_SINGLE\_CALLER**
+0 | Only a single level in the call chain to PStore. The caller passes the verification check. The specified image is the immediate caller, and is an application (.exe).\ | | **PST\_AC\_TOP\_LEVEL\_CALLER**
 
-0
+1 | The top-level caller must pass the check, but there may be intermediate DLLs. The specified image is not necessarily the immediate caller, and is an application (.exe).\ | | **PST\_AC\_IMMEDIATE\_CALLER**
 
-| Only a single level in the call chain to PStore. The caller passes the verification check. The specified image is the immediate caller, and is an application (.exe).<br> |
-|
-
-**PST\_AC\_TOP\_LEVEL\_CALLER**
-
-1
-
-| The top-level caller must pass the check, but there may be intermediate DLLs. The specified image is not necessarily the immediate caller, and is an application (.exe).<br> |
-|
-
-**PST\_AC\_IMMEDIATE\_CALLER**
-
-2
-
-| The immediate caller must pass the check, but need not be the top-level process. The specified image is the immediate caller, and the image can be an application (.exe) or a DLL.<br> |
+2 | The immediate caller must pass the check, but need not be the top-level process. The specified image is the immediate caller, and the image can be an application (.exe) or a DLL.\ |
 
 **szRootCA**
 

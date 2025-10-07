@@ -1,4 +1,4 @@
-# CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection,MethodContext,LPCWSTR)
+# CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection\<CInstance>,MethodContext,LPCWSTR)
 
 ## Description
 

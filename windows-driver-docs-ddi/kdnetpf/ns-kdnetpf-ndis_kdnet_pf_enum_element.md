@@ -10,7 +10,7 @@ A [NDIS_OBJECT_HEADER structure](https://learn.microsoft.com/windows-hardware/dr
 
 ### `PfNumber`
 
-The PF value (e.g. if ``, then PF value = fun).
+The PF value (e.g. if `<bus.dev.fun>`, then PF value = fun).
 
 ### `PfState`
 

@@ -20,11 +20,11 @@ The list contains only third-party property descriptions that are registered on 
 
 ### `PDEF_VIEWABLE:3`
 
-The list contains only viewable properties, where <typeInfo isViewable="true">.
+The list contains only viewable properties, where \<typeInfo isViewable="true">.
 
 ### `PDEF_QUERYABLE:4`
 
-Deprecated in **Windows 7 and later**. The list contains only queryable properties, where <typeInfo isViewable="true" isQueryable="true">.
+Deprecated in **Windows 7 and later**. The list contains only queryable properties, where \<typeInfo isViewable="true" isQueryable="true">.
 
 ### `PDEF_INFULLTEXTQUERY:5`
 

@@ -44,6 +44,6 @@ To specify that this directory entry is for a symbolic link, the provider format
 
 * `extendedInfo.InfoType = PRJ_EXT_INFO_TYPE_SYMLINK`
 * `extendedInfo.NextInfoOffset = 0`
-* `extendedInfo.Symlink.TargetName = `
+* `extendedInfo.Symlink.TargetName = <path to the target of the symbolic link>`
 
 ## See also

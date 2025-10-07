@@ -22,7 +22,7 @@ One of the following values that indicate which known category to add to the lis
 
 #### KDC_NONE (-1)
 
--1 - Do not use a category. Note, this value is not represented in KNOWNDESTCATEGORY, use `static_cast(-1)` to represent this.
+-1 - Do not use a category. Note, this value is not represented in KNOWNDESTCATEGORY, use `static_cast<KNOWNDESTCATEGORY>(-1)` to represent this.
 
 ## Return value
 

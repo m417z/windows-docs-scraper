@@ -51,7 +51,7 @@ The name of the index must meet the following conditions:
 
 A pointer to a double-null-terminated string of null-delimited tokens.
 
-Each token is of the form "\\", where direction-specification is either "+" or "-". For example, a **szKey** of "+abc\\0-def\\0+ghi\\0" will index over the three columns "abc" (in ascending order), "def" (in descending order), and "ghi" (in ascending order). In the C language, string literals have an implied **NULL** terminator; therefore, the above string will be terminated by a double-NULL.
+Each token is of the form "\<direction-specifier\>\<column-name\>", where direction-specification is either "+" or "-". For example, a **szKey** of "+abc\\0-def\\0+ghi\\0" will index over the three columns "abc" (in ascending order), "def" (in descending order), and "ghi" (in ascending order). In the C language, string literals have an implied **NULL** terminator; therefore, the above string will be terminated by a double-NULL.
 
 The number of columns specified in **szKey** may not exceed the value of **JET_ccolKeyMost** (a version-dependent constant).
 

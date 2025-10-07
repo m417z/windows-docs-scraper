@@ -25,5 +25,5 @@ An
 The function
 [NdrGetUserMarshalInfo](https://learn.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-ndrgetusermarshalinfo) fills this structure with supplemental information for the
 [user_marshal](https://learn.microsoft.com/windows/desktop/Midl/user-marshal) and
-[wire_marshal](https://learn.microsoft.com/windows/desktop/Midl/wire-marshal) helper functions <type>_UserSize, <type>_UserMarshal, <type>_UserUnmarshal, and <type>_UserFree. This information supplements the *pFlags* parameter that is passed to these helper functions. Not all of these fields will contain valid information in all contexts. Level1.pRpcChannelBuffer is only valid for COM interfaces, and the buffer fields are only valid when
-**NdrGetUserMarshalInfo** is called from <type>_UserMarshal or <type>_UserUnmarshal.
+[wire_marshal](https://learn.microsoft.com/windows/desktop/Midl/wire-marshal) helper functions \<type>_UserSize, \<type>_UserMarshal, \<type>_UserUnmarshal, and \<type>_UserFree. This information supplements the *pFlags* parameter that is passed to these helper functions. Not all of these fields will contain valid information in all contexts. Level1.pRpcChannelBuffer is only valid for COM interfaces, and the buffer fields are only valid when
+**NdrGetUserMarshalInfo** is called from \<type>_UserMarshal or \<type>_UserUnmarshal.

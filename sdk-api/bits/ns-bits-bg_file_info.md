@@ -8,7 +8,7 @@ Provides the local and remote names of the file to transfer.
 
 ### `RemoteName`
 
-Null-terminated string that contains the name of the file on the server (for example, http://<server>/<path>/file.ext). The format of the name must conform to the transfer protocol you use. You cannot use wildcards in the path or file name. The URL must contain only legal URL characters; no escape processing is performed. The URL is limited to 2,200 characters, not including the null terminator.
+Null-terminated string that contains the name of the file on the server (for example, http://\<server>/\<path>/file.ext). The format of the name must conform to the transfer protocol you use. You cannot use wildcards in the path or file name. The URL must contain only legal URL characters; no escape processing is performed. The URL is limited to 2,200 characters, not including the null terminator.
 
 Each segment of the URL is limited to MAX_PATH characters.
 

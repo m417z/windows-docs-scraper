@@ -55,15 +55,15 @@ The following is a possible return value.
 The **GetTempFileName** function creates a temporary
 file name of the following form:
 
-*<path>*\*<pre>**<uuuu>*.TMP
+*\<path>*\*<pre>**\<uuuu>*.TMP
 
 The following table describes the file name syntax.
 
 | Component | Meaning |
 | --- | --- |
-| *<path>* | Path specified by the *lpPathName* parameter |
+| *\<path>* | Path specified by the *lpPathName* parameter |
 | *<pre>* | First three letters of the *lpPrefixString* string |
-| *<uuuu>* | Hexadecimal value of *uUnique* |
+| *\<uuuu>* | Hexadecimal value of *uUnique* |
 
 If *uUnique* is zero,
 **GetTempFileName** creates an empty file and closes it. If

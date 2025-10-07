@@ -22,7 +22,7 @@ Retrieves version information about Windows Update Agent (WUA).
 * Returns the minor version of the WUA API as a **LONG** value within the **VARIANT** variable if the value of *varInfoIdentifier* is **ApiMinorVersion**.
 * Returns the file version of the Wuapi.dll file as a **BSTR** value within the **VARIANT** variable if the value of *varInfoIdentifier* is **ProductVersionString**.
 
-**Note** The format of a returned string is as follows: "*<Windows-major-version>*.*<Windows-minor-version>*.*<build>*.*<update>*".
+**Note** The format of a returned string is as follows: "*\<Windows-major-version>*.*\<Windows-minor-version>*.*\<build>*.*\<update>*".
 
 ## Return value
 

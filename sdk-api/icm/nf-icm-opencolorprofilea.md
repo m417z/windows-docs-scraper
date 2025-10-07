@@ -14,16 +14,8 @@ Specifies how to access the given profile. This parameter must take one the foll
 
 | Value | Meaning |
 |-|-|
-|
-
-**PROFILE\_READ**
-
-| Opens the profile for read access.<br> |
-|
-
-**PROFILE\_READWRITE**
-
-| Opens the profile for both read and write access. Has no effect for WCS XML profiles.<br> |
+| **PROFILE\_READ** | Opens the profile for read access.<br> |
+| **PROFILE\_READWRITE** | Opens the profile for both read and write access. Has no effect for WCS XML profiles.<br> |
 
 ### `dwShareMode`
 
@@ -31,16 +23,8 @@ Specifies how the profile should be shared, if the profile is contained in a fil
 
 | Value | Meaning |
 |-|-|
-|
-
-**FILE\_SHARE\_READ**
-
-| Other open operations can be performed on the profile for read access.<br> |
-|
-
-**FILE\_SHARE\_WRITE**
-
-| Other open operations can be performed on the profile for write access. Has no effect for WCS XML profiles.<br> |
+| **FILE\_SHARE\_READ** | Other open operations can be performed on the profile for read access.<br> |
+| **FILE\_SHARE\_WRITE** | Other open operations can be performed on the profile for write access. Has no effect for WCS XML profiles.<br> |
 
 ### `dwCreationMode`
 
@@ -48,31 +32,11 @@ Specifies which actions to take on the profile while opening it, if it is contai
 
 | Value | Meaning |
 |-|-|
-|
-
-**CREATE\_NEW**
-
-| Creates a new profile. Fails if the profile already exists.<br> |
-|
-
-**CREATE\_ALWAYS**
-
-| Creates a new profile. Overwrites the profile if it exists.<br> |
-|
-
-**OPEN\_EXISTING**
-
-| Opens the profile. Fails if it does not exist<br> |
-|
-
-**OPEN\_ALWAYS**
-
-| Opens the profile if it exists. For ICC profiles, if the profile does not exist, creates the profile. For WCS XML profiles, if the profile does not exist, returns an error.<br> |
-|
-
-**TRUNCATE\_EXISTING**
-
-| Opens the profile, and truncates it to zero bytes, returning a blank ICC profile. Fails if the profile doesn't exist.<br> |
+| **CREATE\_NEW** | Creates a new profile. Fails if the profile already exists.<br> |
+| **CREATE\_ALWAYS** | Creates a new profile. Overwrites the profile if it exists.<br> |
+| **OPEN\_EXISTING** | Opens the profile. Fails if it does not exist<br> |
+| **OPEN\_ALWAYS** | Opens the profile if it exists. For ICC profiles, if the profile does not exist, creates the profile. For WCS XML profiles, if the profile does not exist, returns an error.<br> |
+| **TRUNCATE\_EXISTING** | Opens the profile, and truncates it to zero bytes, returning a blank ICC profile. Fails if the profile doesn't exist.<br> |
 
 ## Return value
 

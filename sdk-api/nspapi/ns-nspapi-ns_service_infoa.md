@@ -25,7 +25,7 @@ Use one of the following constant values to specify a namespace.
 | **NS_NIS** |  |
 | **NS_SAP** | The NetWare Service Advertising Protocol. This can access the NetWare bindery, if appropriate. NS_SAP is a dynamic namespace that enables the registration of services. |
 | **NS_STDA** |  |
-| **NS_TCPIP_HOSTS** | Lookup value in the <systemroot>\system32\drivers\etc\posts file. |
+| **NS_TCPIP_HOSTS** | Lookup value in the \<systemroot>\system32\drivers\etc\posts file. |
 | **NS_TCPIP_LOCAL** | Local TCP/IP name resolution mechanisms, including comparisons against the local host name and lookup value in the cache of host to IP address mappings. |
 | **NS_WINS** | The Windows Internet Name System (WINS) namespace. |
 | **NS_X500** | The X.500 directory service namespace. |

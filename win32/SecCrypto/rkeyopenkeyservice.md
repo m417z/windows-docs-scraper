@@ -24,11 +24,9 @@ A pointer to a **void** that represents the authentication settings. This pointe
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|
+| **RKEYSVC\_CONNECT\_SECURE\_ONLY**
 
-**RKEYSVC\_CONNECT\_SECURE\_ONLY**
-
-| The client requires mutual authentication. If this value is specified, fallback to NTLM will fail.<br> |
+| The client requires mutual authentication. If this value is specified, fallback to NTLM will fail.\ |
 
 *pReserved* \[in, out\]
 

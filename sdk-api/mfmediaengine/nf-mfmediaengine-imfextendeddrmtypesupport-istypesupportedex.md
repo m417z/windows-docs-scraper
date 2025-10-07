@@ -6,9 +6,9 @@ Queries whether the specified content type is supported for the specified key sy
 
 ### `type` [in]
 
-A **BSTR** identifying the features for which support is queried. This parameter accepts RFC 2045 Content-Type strings to specify media type and subtype identifiers, and RFC 6381 Codecs identifiers for the codecs required. These base strings are consistent with those used in the HTML5 HTMLMediaElement canPlayType method. RFC 2045 allows for additional, custom parameters as modifiers in the form of ";<parameter>=<name>\[=<value>\] \[,<name>\[=<value>\]". RFC 2045 compliant parsers must ignore these parameters if not recognized. For the feature queries, <parameter> is named feature.
+A **BSTR** identifying the features for which support is queried. This parameter accepts RFC 2045 Content-Type strings to specify media type and subtype identifiers, and RFC 6381 Codecs identifiers for the codecs required. These base strings are consistent with those used in the HTML5 HTMLMediaElement canPlayType method. RFC 2045 allows for additional, custom parameters as modifiers in the form of ";\<parameter>=\<name>\[=\<value>\] \[,\<name>\[=\<value>\]". RFC 2045 compliant parsers must ignore these parameters if not recognized. For the feature queries, \<parameter> is named feature.
 
-The implementation requires the RFC 2045 media type and subtype identifiers, for example "video/mp4", and RFC 6381 codec parameter codec=”<video codec>\[,<audio codec>\]” to always be present in order to provide valid query results.
+The implementation requires the RFC 2045 media type and subtype identifiers, for example "video/mp4", and RFC 6381 codec parameter codec=”\<video codec>\[,\<audio codec>\]” to always be present in order to provide valid query results.
 
 Note that the terms content type and type are well known historically as MIME type.
 
@@ -27,17 +27,17 @@ S_OK on success.
 ## Remarks
 The *type* input parameter must have RFC 6381 Content-Type media type and subtype identifiers present. It must also have the RFC 2045 Codecs parameter string present. MPEG-4 is the only container supported for this API. H.264 (avc1) and HEVC (hvc1, hev1) are the only video codecs providing supported answers. MPEG-4 (mp4a), MPEG-1 Layer 3 (mp3), Dolby Digital (ac-3), and Dolby Digital Plus (ec-3) are the only audio codecs providing supported answers. Supported strings are:
 
-`video/mp4;codecs=”avc1,”`
+`video/mp4;codecs=”avc1,<audio codec>”`
 
-`video/mp4;codecs=”hvc1, ”`
+`video/mp4;codecs=”hvc1, <audio codec>”`
 
-`video/mp4;codecs=”hev1, ”`
+`video/mp4;codecs=”hev1, <audio codec>”`
 
 Starting with the Windows 10, version 1709, the following are also supported:
 
-`Video/mp4;codecs=”vp9,”`
+`Video/mp4;codecs=”vp9,<audio codec>”`
 
-`Video/mp4;codecs=”vp09,”`
+`Video/mp4;codecs=”vp09,<audio codec>”`
 
 The features part of the query string is appended to one the above strings using a semicolon delimiter. The underlying graphics driver and hardware impose constraints on how features may be queried. For the video subsystems the following requirements apply:
 

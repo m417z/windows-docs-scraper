@@ -10,21 +10,9 @@ Indicates the current state of the NPP.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-|
-
-**NETWORKSTATUS\_STATE\_VOID**
-
-| The NPP is not connected, or it is connected and the capture is not started.<br> |
-|
-
-**NETWORKSTATUS\_STATE\_CAPTURING**
-
-| The NPP is capturing data.<br> |
-|
-
-**NETWORKSTATUS\_STATE\_PAUSED**
-
-| The NPP has paused while capturing data.<br> |
+| **NETWORKSTATUS\_STATE\_VOID** | The NPP is not connected, or it is connected and the capture is not started.<br> |
+| **NETWORKSTATUS\_STATE\_CAPTURING** | The NPP is capturing data.<br> |
+| **NETWORKSTATUS\_STATE\_PAUSED** | The NPP has paused while capturing data.<br> |
 
 **Flags**
 
@@ -32,11 +20,7 @@ Flags that describe the current state of the NPP.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-|
-
-**NETWORKSTATUS\_FLAGS\_TRIGGER\_PENDING**
-
-| There is a trigger pending for the NPP.<br> |
+| **NETWORKSTATUS\_FLAGS\_TRIGGER\_PENDING** | There is a trigger pending for the NPP.<br> |
 
 ## Remarks
 

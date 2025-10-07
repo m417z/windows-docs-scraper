@@ -202,19 +202,31 @@ By default, this property is **FALSE**.
 For an input XML string like:
 
 ```
-xml version="1.0" encoding="utf-8"?
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+ <emptyElement />
+ <emptyElementWithEndTag></emptyElementWithEndTag>
+</container>
 ```
 
 If this property is **FALSE**, [WsCopyNode](https://learn.microsoft.com/windows/win32/api/webservices/nf-webservices-wscopynode) will generate the following xml:
 
 ```
-xml version="1.0" encoding="utf-8"?
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+ <emptyElement />
+ <emptyElementWithEndTag></emptyElementWithEndTag>
+</container>
 ```
 
 If this property is **TRUE**, [WsCopyNode](https://learn.microsoft.com/windows/win32/api/webservices/nf-webservices-wscopynode) will generate the following xml:
 
 ```
-xml version="1.0" encoding="utf-8"?
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+ <emptyElement />
+ <emptyElementWithEndTag />
+</container>
 ```
 
 ### `WS_XML_WRITER_PROPERTY_EMIT_UNCOMPRESSED_EMPTY_ELEMENTS:18`
@@ -224,11 +236,12 @@ Windows 8 or later: A **BOOL** that controls how empty elements are emitted.
 If set to **FALSE**, an element that is created by only calls to [WsWriteStartElement](https://learn.microsoft.com/windows/win32/api/webservices/nf-webservices-wswritestartelement) and [WsWriteEndElement](https://learn.microsoft.com/windows/win32/api/webservices/nf-webservices-wswriteendelement) will be emitted as follows:
 
 ```
-
+<emptyElement />
 ```
 
 If set to **TRUE**, that element will be emitted as follows:
 
 xml
+\<emptyElement>\</emptyElement>
 
 The default is **FALSE**

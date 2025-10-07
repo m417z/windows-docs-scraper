@@ -25,7 +25,7 @@ Specifies where to inject the raw data in the PostScript output. This member can
 | PSINJECT_PAGEORDER | Replaces driver's %%PageOrder. |
 | PSINJECT_ORIENTATION | Replaces driver's %%Orientation. |
 | PSINJECT_BOUNDINGBOX | Replaces driver's %%BoundingBox. |
-| PSINJECT_DOCUMENTPROCESSCOLORS | Replaces driver's %%DocumentProcessColors <color>. |
+| PSINJECT_DOCUMENTPROCESSCOLORS | Replaces driver's %%DocumentProcessColors \<color>. |
 | PSINJECT_COMMENTS | Before %%EndComments. |
 | PSINJECT_BEGINDEFAULTS | After %%BeginDefaults. |
 | PSINJECT_ENDDEFAULTS | Before %%EndDefaults. |
@@ -42,7 +42,7 @@ Specifies where to inject the raw data in the PostScript output. This member can
 | PSINJECT_BEGINPAGESETUP | After %%BeginPageSetup |
 | PSINJECT_ENDPAGESETUP | Before %%EndPageSetup |
 | PSINJECT_PAGETRAILER | After %%PageTrailer |
-| PSINJECT_PLATECOLOR | Replace driver's %%PlateColor: <color> |
+| PSINJECT_PLATECOLOR | Replace driver's %%PlateColor: \<color> |
 | PSINJECT_SHOWPAGE | Before showpage operator |
 | PSINJECT_PAGEBBOX | Replaces driver's %%PageBoundingBox |
 | PSINJECT_ENDPAGECOMMENTS | Before %%EndPageComments |

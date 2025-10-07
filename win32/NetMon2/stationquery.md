@@ -10,26 +10,10 @@ Flags that Identify the current state of Network Monitor.
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-|
-
-**STATIONQUERY\_FLAGS\_LOADED**
-
-| The driver is loaded, but the kernel is not.<br> |
-|
-
-**STATIONQUERY\_FLAGS\_RUNNING**
-
-| The driver is loaded but not capturing data.<br> |
-|
-
-**STATIONQUERY\_FLAGS\_CAPTURING**
-
-| The driver is actively engaged in a capture.<br> |
-|
-
-**STATIONQUERY\_FLAGS\_TRANSMITTING**
-
-| This flag is obsolete.<br> |
+| **STATIONQUERY\_FLAGS\_LOADED** | The driver is loaded, but the kernel is not.<br> |
+| **STATIONQUERY\_FLAGS\_RUNNING** | The driver is loaded but not capturing data.<br> |
+| **STATIONQUERY\_FLAGS\_CAPTURING** | The driver is actively engaged in a capture.<br> |
+| **STATIONQUERY\_FLAGS\_TRANSMITTING** | This flag is obsolete.<br> |
 
 **BCDVerMinor**
 

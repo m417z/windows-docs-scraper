@@ -18,7 +18,7 @@ For a description of the return values, see [RealTimeStylus Classes and Interfac
 
 You can use **IDynamicRenderer::Draw Method** for tasks such as double buffering.
 
-**Note** Drawing cached data cannot be used on Microsoft<entity type="reg"/> Windows<entity type="reg"/> XP Tablet PC Edition 2005 systems.
+**Note** Drawing cached data cannot be used on Microsoft\<entity type="reg"/> Windows\<entity type="reg"/> XP Tablet PC Edition 2005 systems.
 
 ## See also
 

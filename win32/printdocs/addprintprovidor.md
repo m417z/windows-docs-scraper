@@ -19,16 +19,8 @@ The level of the structure to which *pProviderInfo* points. It can be one of the
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-|
-
-**1**
-
-| Function uses a [**PROVIDOR\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/providor-info-1) structure.<br> |
-|
-
-**2**
-
-| Function uses a [**PROVIDOR\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/providor-info-2) structure.<br> |
+| **1** | Function uses a [**PROVIDOR\_INFO\_1**](https://learn.microsoft.com/windows/win32/printdocs/providor-info-1) structure.<br> |
+| **2** | Function uses a [**PROVIDOR\_INFO\_2**](https://learn.microsoft.com/windows/win32/printdocs/providor-info-2) structure.<br> |
 
 *pProviderInfo* \[in\]
 

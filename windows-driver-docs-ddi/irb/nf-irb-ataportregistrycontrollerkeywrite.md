@@ -2,7 +2,7 @@
 
 ## Description
 
-The **AtaPortRegistryControllerKeyWrite** routine writes the data to the indicated value name under the registry key `HKLM\CurrentControlSet\Services\\ControllerN`, where *N* is the number of the controller.
+The **AtaPortRegistryControllerKeyWrite** routine writes the data to the indicated value name under the registry key `HKLM\CurrentControlSet\Services\<service name>\ControllerN`, where *N* is the number of the controller.
 
 **Note** The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://learn.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 

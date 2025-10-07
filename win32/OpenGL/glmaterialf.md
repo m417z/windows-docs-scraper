@@ -14,11 +14,7 @@ The single-valued material parameter of the face or faces being updated. Must be
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_SHININESS**
-
-| The *param* parameter is a single floating-point value that specifies the RGBA specular exponent of the material. Integer values are mapped directly. Only values in the range \[0, 128\] are accepted. The default specular exponent for both front-facing and back-facing materials is 0. <br> |
+| **GL\_SHININESS** | The *param* parameter is a single floating-point value that specifies the RGBA specular exponent of the material. Integer values are mapped directly. Only values in the range \[0, 128\] are accepted. The default specular exponent for both front-facing and back-facing materials is 0. <br> |
 
 *param*
 

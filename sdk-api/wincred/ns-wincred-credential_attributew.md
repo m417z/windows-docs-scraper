@@ -10,7 +10,7 @@ The **CREDENTIAL_ATTRIBUTE** structure contains an application-defined attribute
 
 ### `Keyword`
 
-Name of the application-specific attribute. Names should be of the form <CompanyName>_<Name>.
+Name of the application-specific attribute. Names should be of the form \<CompanyName>_\<Name>.
 
 This member cannot be longer than CRED_MAX_STRING_LENGTH (256) characters.
 

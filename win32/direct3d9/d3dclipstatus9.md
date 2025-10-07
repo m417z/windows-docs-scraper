@@ -12,71 +12,19 @@ Clip union flags that describe the current clip status. This member can be one o
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-|
-
-**D3DCS\_ALL**
-
-| Combination of all clip flags.<br> |
-|
-
-**D3DCS\_LEFT**
-
-| All vertices are clipped by the left plane of the viewing frustum.<br> |
-|
-
-**D3DCS\_RIGHT**
-
-| All vertices are clipped by the right plane of the viewing frustum.<br> |
-|
-
-**D3DCS\_TOP**
-
-| All vertices are clipped by the top plane of the viewing frustum.<br> |
-|
-
-**D3DCS\_BOTTOM**
-
-| All vertices are clipped by the bottom plane of the viewing frustum.<br> |
-|
-
-**D3DCS\_FRONT**
-
-| All vertices are clipped by the front plane of the viewing frustum.<br> |
-|
-
-**D3DCS\_BACK**
-
-| All vertices are clipped by the back plane of the viewing frustum.<br> |
-|
-
-**D3DCS\_PLANE0**
-
-| Application-defined clipping planes.<br> |
-|
-
-**D3DCS\_PLANE1**
-
-| Application-defined clipping planes.<br> |
-|
-
-**D3DCS\_PLANE2**
-
-| Application-defined clipping planes.<br> |
-|
-
-**D3DCS\_PLANE3**
-
-| Application-defined clipping planes.<br> |
-|
-
-**D3DCS\_PLANE4**
-
-| Application-defined clipping planes.<br> |
-|
-
-**D3DCS\_PLANE5**
-
-| Application-defined clipping planes.<br> |
+| **D3DCS\_ALL** | Combination of all clip flags.<br> |
+| **D3DCS\_LEFT** | All vertices are clipped by the left plane of the viewing frustum.<br> |
+| **D3DCS\_RIGHT** | All vertices are clipped by the right plane of the viewing frustum.<br> |
+| **D3DCS\_TOP** | All vertices are clipped by the top plane of the viewing frustum.<br> |
+| **D3DCS\_BOTTOM** | All vertices are clipped by the bottom plane of the viewing frustum.<br> |
+| **D3DCS\_FRONT** | All vertices are clipped by the front plane of the viewing frustum.<br> |
+| **D3DCS\_BACK** | All vertices are clipped by the back plane of the viewing frustum.<br> |
+| **D3DCS\_PLANE0** | Application-defined clipping planes.<br> |
+| **D3DCS\_PLANE1** | Application-defined clipping planes.<br> |
+| **D3DCS\_PLANE2** | Application-defined clipping planes.<br> |
+| **D3DCS\_PLANE3** | Application-defined clipping planes.<br> |
+| **D3DCS\_PLANE4** | Application-defined clipping planes.<br> |
+| **D3DCS\_PLANE5** | Application-defined clipping planes.<br> |
 
 **ClipIntersection**
 

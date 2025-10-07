@@ -22,21 +22,9 @@ A value of the [**CRED\_FETCH**](https://learn.microsoft.com/windows/win32/secmg
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**CredFetchDefault**
-
-| The operating system first attempts to retrieve the password from the local cache if it is not time to fetch the password. If it is time to fetch the password, then the operating system contacts the domain controller, otherwise, return any cached passwords with a status value of success.<br> |
-|
-
-**CredFetchDPAPI**
-
-| Returns the local DPAPI credential to the caller. SSPs generally would not require use of this value.<br> |
-|
-
-**CredFetchForced**
-
-| Forces the operating system to attempt to read the password from the domain controller. During the password rollover time, the password may have changed at the domain controller and other member hosts, but the gMSA member host recognizes the password as still valid. This can happen due to clock skew issues between different domain controllers. When this value is specified, the operating system determines if there could be a possible password change due to clock skew and if so, retrieves the password. Otherwise, the cached credential is returned. If there is no cached credential, then the operating system attempts to get one from the domain controller.<br> |
+| **CredFetchDefault** | The operating system first attempts to retrieve the password from the local cache if it is not time to fetch the password. If it is time to fetch the password, then the operating system contacts the domain controller, otherwise, return any cached passwords with a status value of success.<br> |
+| **CredFetchDPAPI** | Returns the local DPAPI credential to the caller. SSPs generally would not require use of this value.<br> |
+| **CredFetchForced** | Forces the operating system to attempt to read the password from the domain controller. During the password rollover time, the password may have changed at the domain controller and other member hosts, but the gMSA member host recognizes the password as still valid. This can happen due to clock skew issues between different domain controllers. When this value is specified, the operating system determines if there could be a possible password change due to clock skew and if so, retrieves the password. Otherwise, the cached credential is returned. If there is no cached credential, then the operating system attempts to get one from the domain controller.<br> |
 
 *FileTimeExpiry* \[in, out, optional\]
 

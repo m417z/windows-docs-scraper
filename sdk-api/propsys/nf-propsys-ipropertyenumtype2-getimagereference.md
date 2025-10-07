@@ -10,7 +10,7 @@ Retrieves the image reference associated with a property enumeration.
 
 Type: **LPWSTR***
 
-A pointer to a buffer that, when this method returns successfully, receives a string of the form <dll name>,-<resid> that is suitable to be passed to [PathParseIconLocation](https://learn.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa).
+A pointer to a buffer that, when this method returns successfully, receives a string of the form \<dll name>,-\<resid> that is suitable to be passed to [PathParseIconLocation](https://learn.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa).
 
 ## Return value
 

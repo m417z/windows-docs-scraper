@@ -4,7 +4,7 @@
 
 Initializes a new instance of [XMU565](https://learn.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565) from three `int8_t` arguments.
 
-This constructor initializes a new instance of XMU565  from three `int8_t` arguments.
+This constructor initializes a new instance of \<wdcml:xref rid="dxmath.xmu565" targtype="struct">XMU565 \</wdcml:xref> from three `int8_t` arguments.
 
 **Note** This is only available for C++ based development.
 

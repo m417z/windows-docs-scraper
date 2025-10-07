@@ -20,20 +20,11 @@ The value of this parameter can be `STRTAB_CASE_SENSITIVE | STRTAB_NEW_EXTRADATA
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-|
+| **STRTAB\_CASE\_SENSITIVE**
 
-**STRTAB\_CASE\_SENSITIVE**
+0x001 | String is case sensitive.\ | | **STRTAB\_NEW\_EXTRADATA**
 
-0x001
-
-| String is case sensitive.<br> |
-|
-
-**STRTAB\_NEW\_EXTRADATA**
-
-0x004
-
-| There is extra data.<br> |
+0x004 | There is extra data.\ |
 
 *ExtraData* \[in, optional\]
 

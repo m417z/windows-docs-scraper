@@ -15,62 +15,23 @@ If the file to be signed is a portable executable (PE) file, this can be zero or
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG**
 
-**SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG**
+0x10 | Exclude page hashes when creating SIP indirect data for the PE file. This flag takes precedence over the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag.\ If neither the **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG** or the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag is specified, the value set with the [**WintrustSetDefaultIncludePEPageHashes**](https://learn.microsoft.com/windows/desktop/api/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes) function is used for this setting. The default for this setting is to exclude page hashes when creating SIP indirect data for PE files.\ This value is defined in the Mssip.h header file.\ **Windows Server 2003 and Windows XP:** This value is not supported.\ | | **SPC\_INC\_PE\_IMPORT\_ADDR\_TABLE\_FLAG**
 
-0x10
+0x20 | This value is not supported.\ | | **SPC\_INC\_PE\_DEBUG\_INFO\_FLAG**
 
-| Exclude page hashes when creating SIP indirect data for the PE file. This flag takes precedence over the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag.<br> If neither the **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG** or the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag is specified, the value set with the [**WintrustSetDefaultIncludePEPageHashes**](https://learn.microsoft.com/windows/desktop/api/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes) function is used for this setting. The default for this setting is to exclude page hashes when creating SIP indirect data for PE files.<br> This value is defined in the Mssip.h header file.<br> **Windows Server 2003 and Windows XP:** This value is not supported.<br> |
-|
+0x40 | This value is not supported.\ | | **SPC\_INC\_PE\_RESOURCES\_FLAG**
 
-**SPC\_INC\_PE\_IMPORT\_ADDR\_TABLE\_FLAG**
+0x80 | This value is not supported.\ | | **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG**
 
-0x20
+0x100 | Include page hashes when creating SIP indirect data for the PE file.\ **Windows Server 2003 and Windows XP:** This value is not supported.\ This value is defined in the Mssip.h header file.\ | | **SPC\_DIGEST\_SIGN\_FLAG**
 
-| This value is not supported.<br> |
-|
+0x800 | Digest signing will be done.\ | | **SIG\_APPEND**
 
-**SPC\_INC\_PE\_DEBUG\_INFO\_FLAG**
+0x1000 | The signature will be nested. If you set this flag before any signature has been added, the generated signature will be added as the outer signature. If you do not set this flag, the generated signature replaces the outer signature, deleting all inner signatures.\ | | **SPC\_DIGEST\_SIGN\_EX\_FLAG**
 
-0x40
-
-| This value is not supported.<br> |
-|
-
-**SPC\_INC\_PE\_RESOURCES\_FLAG**
-
-0x80
-
-| This value is not supported.<br> |
-|
-
-**SPC\_INC\_PE\_PAGE\_HASHES\_FLAG**
-
-0x100
-
-| Include page hashes when creating SIP indirect data for the PE file.<br> **Windows Server 2003 and Windows XP:** This value is not supported.<br> This value is defined in the Mssip.h header file.<br> |
-|
-
-**SPC\_DIGEST\_SIGN\_FLAG**
-
-0x800
-
-| Digest signing will be done.<br> |
-|
-
-**SIG\_APPEND**
-
-0x1000
-
-| The signature will be nested. If you set this flag before any signature has been added, the generated signature will be added as the outer signature. If you do not set this flag, the generated signature replaces the outer signature, deleting all inner signatures.<br> |
-|
-
-**SPC\_DIGEST\_SIGN\_EX\_FLAG**
-
-0x4000
-
-| Digest signing will be done. The caller’s digest signing function will select and return the code signing certificate which performed the signing operation. |
+0x4000 | Digest signing will be done. The caller’s digest signing function will select and return the code signing certificate which performed the signing operation. |
 
 *pSubjectInfo* \[in\]
 
@@ -96,16 +57,8 @@ Flags that will be passed to [**SignerTimeStampEx3**](https://learn.microsoft.co
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-|
-
-**SIGNER\_TIMESTAMP\_AUTHENTICODE**
-
-| Default value. Specifies an Authenticode timestamp.<br> |
-|
-
-**SIGNER\_TIMESTAMP\_RFC3161**
-
-| Specifies an RFC 3161 timestamp.<br> |
+| **SIGNER\_TIMESTAMP\_AUTHENTICODE** | Default value. Specifies an Authenticode timestamp.<br> |
+| **SIGNER\_TIMESTAMP\_RFC3161** | Specifies an RFC 3161 timestamp.<br> |
 
 This parameter is ignored if the *pwszHttpTimeStamp* parameter is **NULL**.
 

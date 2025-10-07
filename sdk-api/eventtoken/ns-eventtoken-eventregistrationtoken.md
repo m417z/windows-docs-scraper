@@ -20,4 +20,4 @@ You acquire an **EventRegistrationToken** when you subscribe to an event.
 
 ## See also
 
-[IEventHandler\ interface](https://learn.microsoft.com/previous-versions/hh438424(v=vs.85))
+[IEventHandler\<T\> interface](https://learn.microsoft.com/previous-versions/hh438424(v=vs.85))

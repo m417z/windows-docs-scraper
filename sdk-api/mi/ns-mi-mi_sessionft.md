@@ -2,7 +2,7 @@
 
 Function table for all actions on a session object.
 
-For details, see **MI_Session_<method name>** functions.
+For details, see **MI_Session_\<method name>** functions.
 
 ## Members
 

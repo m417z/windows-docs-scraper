@@ -26,4 +26,4 @@ A pointer to variable that receives a pin number.
 
 ## Remarks
 
-The pin path must be a Unicode character string that ends in the pin number as follows: *...\*.
+The pin path must be a Unicode character string that ends in the pin number as follows: *...\<PinNumber>*.

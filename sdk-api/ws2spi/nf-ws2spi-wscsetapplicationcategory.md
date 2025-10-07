@@ -51,7 +51,7 @@ If no error occurs, **WSCSetApplicationCategory** returns **ERROR_SUCCESS** (zer
 
 **WSCSetApplicationCategory** is used to set the LSP category flags associated with an application instance. Applications can determine which LSP behaviors are acceptable within the application's context. Therefore, through specifying permitted LSP categories, an application can permit only those layered service providers which implement acceptable behaviors to be loaded.
 
-The *Extra* parameter is required when the command line is used to distinguish between different instances of an application or service hosted within the same executable. Each instance can have different application categorization needs. Svchost.exe and Rundll32.exe are two examples where the command line is required to differentiate between different process instances. For SvcHost.exe, the **-k <svcinstance>** switch defines the process instance.
+The *Extra* parameter is required when the command line is used to distinguish between different instances of an application or service hosted within the same executable. Each instance can have different application categorization needs. Svchost.exe and Rundll32.exe are two examples where the command line is required to differentiate between different process instances. For SvcHost.exe, the **-k \<svcinstance>** switch defines the process instance.
 
 For services, using the Service Name is not sufficient, because the Winsock Catalog is global to a given process, and a process may host several services.
 

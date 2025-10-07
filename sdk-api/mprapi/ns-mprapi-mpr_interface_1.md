@@ -61,7 +61,7 @@ Where day is a numeral that corresponds to a day of the week.
 
 Time range is of the form HH:MM-HH:MM, using 24-hour notation.
 
-The string <space> in the preceding syntax denotes a space character. The string <NULL> denotes a null character.
+The string \<space> in the preceding syntax denotes a space character. The string \<NULL> denotes a null character.
 
 The restriction string is terminated by two consecutive null characters.
 

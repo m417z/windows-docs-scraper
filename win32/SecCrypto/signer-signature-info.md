@@ -21,20 +21,11 @@ Specifies whether the signature has [*Authenticode*](https://learn.microsoft.com
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **SIGNER\_AUTHCODE\_ATTR**
 
-**SIGNER\_AUTHCODE\_ATTR**
+1 | The signature has [*Authenticode*](https://learn.microsoft.com/windows/win32/secgloss/a-gly) attributes.\ | | **SIGNER\_NO\_ATTR**
 
-1
-
-| The signature has [*Authenticode*](https://learn.microsoft.com/windows/win32/secgloss/a-gly) attributes.<br> |
-|
-
-**SIGNER\_NO\_ATTR**
-
-0
-
-| The signature does not have [*Authenticode*](https://learn.microsoft.com/windows/win32/secgloss/a-gly) attributes.<br> |
+0 | The signature does not have [*Authenticode*](https://learn.microsoft.com/windows/win32/secgloss/a-gly) attributes.\ |
 
 **pAttrAuthcode**
 

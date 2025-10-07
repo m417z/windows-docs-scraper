@@ -18,36 +18,12 @@ Used to control the source of threat enumeration. The possible values for this p
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-|
-
-**MPTHREAT\_SOURCE\_SCAN**
-
-| Threats that are associated with the specific scan handle.<br> |
-|
-
-**MPTHREAT\_SOURCE\_ACTIVE**
-
-| Threats that are currently active in the system.<br> |
-|
-
-**MPTHREAT\_SOURCE\_HISTORY**
-
-| Threats that are acted upon and preserved as a history.<br> |
-|
-
-**MPTHREAT\_SOURCE\_QUARANTINE**
-
-| Threats that are quarantined.<br> |
-|
-
-**MPTHREAT\_SOURCE\_SIGNATURE**
-
-| Threats that are possible to detect with the current signature database.<br> |
-|
-
-**MPTHREAT\_SOURCE\_STATE**
-
-| Threats that have been acted upon recently. ("Recently" is defined by a configurable internal setting.)<br> |
+| **MPTHREAT\_SOURCE\_SCAN** | Threats that are associated with the specific scan handle.<br> |
+| **MPTHREAT\_SOURCE\_ACTIVE** | Threats that are currently active in the system.<br> |
+| **MPTHREAT\_SOURCE\_HISTORY** | Threats that are acted upon and preserved as a history.<br> |
+| **MPTHREAT\_SOURCE\_QUARANTINE** | Threats that are quarantined.<br> |
+| **MPTHREAT\_SOURCE\_SIGNATURE** | Threats that are possible to detect with the current signature database.<br> |
+| **MPTHREAT\_SOURCE\_STATE** | Threats that have been acted upon recently. ("Recently" is defined by a configurable internal setting.)<br> |
 
 *ThreatType* \[in\]
 
@@ -57,31 +33,11 @@ Used to filter enumerated threats based on the detection type. The possible valu
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|
-
-**MPTHREAT\_TYPE\_KNOWNBAD**
-
-| Detection is performed based on a specific signature, emulation, or other threat detection method.<br> |
-|
-
-**MPTHREAT\_TYPE\_SUSPICIOUS**
-
-| Detection is performed based on behavior monitoring.<br> |
-|
-
-**MPTHREAT\_TYPE\_UNKNOWN**
-
-| Detection is performed based on unknown threats (unclassified).<br> |
-|
-
-**MPTHREAT\_TYPE\_KNOWNGOOD**
-
-| Detection is performed based on known safe threats.<br> |
-|
-
-**MPTHREAT\_TYPE\_NIS**
-
-| Detection is performed based on NIS threats.<br> |
+| **MPTHREAT\_TYPE\_KNOWNBAD** | Detection is performed based on a specific signature, emulation, or other threat detection method.<br> |
+| **MPTHREAT\_TYPE\_SUSPICIOUS** | Detection is performed based on behavior monitoring.<br> |
+| **MPTHREAT\_TYPE\_UNKNOWN** | Detection is performed based on unknown threats (unclassified).<br> |
+| **MPTHREAT\_TYPE\_KNOWNGOOD** | Detection is performed based on known safe threats.<br> |
+| **MPTHREAT\_TYPE\_NIS** | Detection is performed based on NIS threats.<br> |
 
 *phThreatEnumHandle* \[out\]
 

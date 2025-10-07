@@ -93,7 +93,7 @@ policyParams.dwFlags =
 6. Call [CertVerifyCertificateChainPolicy](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy) with policy type, chain context, policy parameters, and policy status.
 7. Convert the Win32 error (`policyStatus.dwError`) to an HRESULT and return that.
 
-A description of the BITS validation caching behaviors follows. BITS maintains a per-job cache of certificates that have passed custom validation. This is to avoid redundant and potentially expensive re-validation over the lifetime of the job. The cache consists of \ tuples, where *endpoint* is defined as *server name:port*. If a job has already allowed a specific certificate from a specific endpoint, then the callback will not be called again.
+A description of the BITS validation caching behaviors follows. BITS maintains a per-job cache of certificates that have passed custom validation. This is to avoid redundant and potentially expensive re-validation over the lifetime of the job. The cache consists of \<server endpoint, cert hash\> tuples, where *endpoint* is defined as *server name:port*. If a job has already allowed a specific certificate from a specific endpoint, then the callback will not be called again.
 
 Of course, the certificate will have to pass through the OS validation logic on every connection attempt (you can customize the OS validation logic with a call to [IBackgroundCopyJobHttpOptions::SetSecurityFlags](https://learn.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags)), which addresses time-sensitive corner cases such as when the certificate was valid very recently (in terms of seconds), but it has expired now.
 

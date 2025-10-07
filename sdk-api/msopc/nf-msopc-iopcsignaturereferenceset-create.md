@@ -10,7 +10,7 @@ Creates an [IOpcSignatureReference](https://learn.microsoft.com/previous-version
 
 The URI of the referenced XML element.
 
-Set the value of this parameter to a URI that represents "#" followed by the **Id** attribute value of the referenced element: "#*<elementIdValue>*".
+Set the value of this parameter to a URI that represents "#" followed by the **Id** attribute value of the referenced element: "#*\<elementIdValue>*".
 
 For examples, see the Remarks section.
 
@@ -55,8 +55,8 @@ To reference an XML element for signing, set the *referenceUri* parameter value 
 
 | *referenceUri* Value as String | Referenced Element | Element Description |
 | --- | --- | --- |
-| "#*idMyCustomObject*" | "<Object Id="*idMyCustomObject*">*...*</Object>" | An application-specific **Object** element. |
-| "#*idMyElement*" | "<Object><*MyElement* Id="*idMyElement*">*...*</*MyElement*>...</Object>" | A child element of an application-specific **Object**. |
+| "#*idMyCustomObject*" | "\<Object Id="*idMyCustomObject*">*...*\</Object>" | An application-specific **Object** element. |
+| "#*idMyElement*" | "\<Object><*MyElement* Id="*idMyElement*">*...*</*MyElement*>...\</Object>" | A child element of an application-specific **Object**. |
 
 This method does not create the reference to the package-specific **Object** element to be signed; that reference is created automatically when the signature is generated.
 

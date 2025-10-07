@@ -12,31 +12,11 @@ Accepts one of the following values.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_FOG\_MODE**
-
-| The *params* parameter is a single floating-point value that specifies the equation to be used to compute the fog blend factor, *f*. Three symbolic constants are accepted: GL\_LINEAR, GL\_EXP, and GL\_EXP2. The equations corresponding to these symbolic constants are defined in the following Remarks section. The default fog mode is GL\_EXP.<br> |
-|
-
-**GL\_FOG\_DENSITY**
-
-| The *params* parameter is a single floating-point value that specifies *density*, the fog density used in both exponential fog equations. Only nonnegative densities are accepted. The default fog density is 1.0.<br> |
-|
-
-**GL\_FOG\_START**
-
-| The *params* parameter is a single floating-point value that specifies *start*, the near distance used in the linear fog equation. The default near distance is 0.0.<br> |
-|
-
-**GL\_FOG\_END**
-
-| The *params* parameter is a single floating-point value that specifies *end*, the far distance used in the linear fog equation. The default far distance is 1.0.<br> |
-|
-
-**GL\_FOG\_INDEX**
-
-| The *params* parameter is a single floating-point value that specifies *i*f , the fog color index. The default fog index is 0.0.<br> |
+| **GL\_FOG\_MODE** | The *params* parameter is a single floating-point value that specifies the equation to be used to compute the fog blend factor, *f*. Three symbolic constants are accepted: GL\_LINEAR, GL\_EXP, and GL\_EXP2. The equations corresponding to these symbolic constants are defined in the following Remarks section. The default fog mode is GL\_EXP.<br> |
+| **GL\_FOG\_DENSITY** | The *params* parameter is a single floating-point value that specifies *density*, the fog density used in both exponential fog equations. Only nonnegative densities are accepted. The default fog density is 1.0.<br> |
+| **GL\_FOG\_START** | The *params* parameter is a single floating-point value that specifies *start*, the near distance used in the linear fog equation. The default near distance is 0.0.<br> |
+| **GL\_FOG\_END** | The *params* parameter is a single floating-point value that specifies *end*, the far distance used in the linear fog equation. The default far distance is 1.0.<br> |
+| **GL\_FOG\_INDEX** | The *params* parameter is a single floating-point value that specifies *i*f , the fog color index. The default fog index is 0.0.<br> |
 
 *param*
 

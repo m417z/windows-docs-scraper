@@ -81,11 +81,11 @@ The following example shows how **ScriptShape** generates a logical cluster arra
 * Third cluster: three characters represented by one glyph
 * Fourth cluster: two characters represented by three glyphs
 
-Character array, where c<n>u<m> means cluster n, Unicode code point m:
+Character array, where c\<n>u\<m> means cluster n, Unicode code point m:
 
 * | c1u1 | c2u1 | c3u1 c3u2 c3u3 | c4u1 c4u2 |
 
-Glyph array, where c<n>g<m> means cluster n, glyph m:
+Glyph array, where c\<n>g\<m> means cluster n, glyph m:
 
 * | c1g1 | c2g1 c2g2 c2g3 | c3g1 | c4g1 c4g2 c4g3 |
 

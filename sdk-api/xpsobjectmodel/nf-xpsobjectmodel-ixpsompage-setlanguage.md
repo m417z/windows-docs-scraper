@@ -21,7 +21,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 ## Remarks
 
-The language tag string must conform to the language tag syntax that is described in the Internet Engineering Task Force (IETF) RFC 3066. For more information, go to <http://tools.ietf.org/html/rfc3066>.
+The language tag string must conform to the language tag syntax that is described in the Internet Engineering Task Force (IETF) RFC 3066. For more information, go to \<http://tools.ietf.org/html/rfc3066>.
 
 ## See also
 

@@ -10,46 +10,14 @@ The types of print objects that the function should enumerate. This value can be
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**PRINTER\_ENUM\_LOCAL**
-
-| If the PRINTER\_ENUM\_NAME flag is not also passed, the function ignores the *Name* parameter, and enumerates the locally installed printers. If PRINTER\_ENUM\_NAME is also passed, the function enumerates the local printers on *Name*. <br> |
-|
-
-**PRINTER\_ENUM\_NAME**
-
-| The function enumerates the printer identified by *Name*. This can be a server, a domain, or a print provider. If *Name* is **NULL**, the function enumerates available print providers.<br> |
-|
-
-**PRINTER\_ENUM\_SHARED**
-
-| The function enumerates printers that have the shared attribute. Cannot be used in isolation; use an OR operation to combine with another PRINTER\_ENUM type.<br> |
-|
-
-**PRINTER\_ENUM\_CONNECTIONS**
-
-| The function enumerates the list of printers to which the user has made previous connections.<br> |
-|
-
-**PRINTER\_ENUM\_NETWORK**
-
-| The function enumerates network printers in the computer's domain. This value is valid only if *Level* is 1.<br> |
-|
-
-**PRINTER\_ENUM\_REMOTE**
-
-| The function enumerates network printers and print servers in the computer's domain. This value is valid only if *Level* is 1.<br> |
-|
-
-**PRINTER\_ENUM\_CATEGORY\_3D**
-
-| The function enumerates only 3D printers.<br> |
-|
-
-**PRINTER\_ENUM\_CATEGORY\_ALL**
-
-| The function enumerates all print devices, including 3D printers.<br> |
+| **PRINTER\_ENUM\_LOCAL** | If the PRINTER\_ENUM\_NAME flag is not also passed, the function ignores the *Name* parameter, and enumerates the locally installed printers. If PRINTER\_ENUM\_NAME is also passed, the function enumerates the local printers on *Name*. <br> |
+| **PRINTER\_ENUM\_NAME** | The function enumerates the printer identified by *Name*. This can be a server, a domain, or a print provider. If *Name* is **NULL**, the function enumerates available print providers.<br> |
+| **PRINTER\_ENUM\_SHARED** | The function enumerates printers that have the shared attribute. Cannot be used in isolation; use an OR operation to combine with another PRINTER\_ENUM type.<br> |
+| **PRINTER\_ENUM\_CONNECTIONS** | The function enumerates the list of printers to which the user has made previous connections.<br> |
+| **PRINTER\_ENUM\_NETWORK** | The function enumerates network printers in the computer's domain. This value is valid only if *Level* is 1.<br> |
+| **PRINTER\_ENUM\_REMOTE** | The function enumerates network printers and print servers in the computer's domain. This value is valid only if *Level* is 1.<br> |
+| **PRINTER\_ENUM\_CATEGORY\_3D** | The function enumerates only 3D printers.<br> |
+| **PRINTER\_ENUM\_CATEGORY\_ALL** | The function enumerates all print devices, including 3D printers.<br> |
 
 If *Level* is 4, you can only use the PRINTER\_ENUM\_CONNECTIONS and PRINTER\_ENUM\_LOCAL constants.
 

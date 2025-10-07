@@ -85,7 +85,7 @@ The ADsPaths for objects selected from this scope are converted to use the GC pr
 
 #### DSOP_SCOPE_FLAG_WANT_SID_PATH (0x00000010)
 
-The ADsPaths having an **objectSid** attribute are converted to the form **LDAP://<SID=***x***>** where *x* represents the hexadecimal digits of the objectSid attribute value.
+The ADsPaths having an **objectSid** attribute are converted to the form **LDAP://\<SID=***x***>** where *x* represents the hexadecimal digits of the objectSid attribute value.
 
 #### DSOP_SCOPE_FLAG_WANT_DOWNLEVEL_BUILTIN_PATH (0x00000020)
 

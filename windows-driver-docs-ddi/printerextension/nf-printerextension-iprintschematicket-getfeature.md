@@ -7,7 +7,7 @@ Gets a named feature from the PrintTicket, by name and full namespace URI.
 ### `bstrName` [in]
 
 The base name of the **name** attribute value of the feature element.
-For example, for the Print Schema feature , the base name of the feature is "JobOutputBin".
+For example, for the Print Schema feature \<psf:Feature name="psk:JobOutputBin">, the base name of the feature is "JobOutputBin".
 
 ### `bstrNamespaceUri` [in]
 

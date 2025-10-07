@@ -14,11 +14,7 @@ The callback being defined. The only valid value is GLU\_ERROR.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GLU\_ERROR**
-
-| The **gluQuadricCallback** function is called when an error is encountered. Its single argument is of type **GLenum**, and it indicates the specific error that occurred. Character strings describing these errors can be retrieved with the [**gluErrorString**](https://learn.microsoft.com/windows/win32/opengl/gluerrorstring) call.<br> |
+| **GLU\_ERROR** | The **gluQuadricCallback** function is called when an error is encountered. Its single argument is of type **GLenum**, and it indicates the specific error that occurred. Character strings describing these errors can be retrieved with the [**gluErrorString**](https://learn.microsoft.com/windows/win32/opengl/gluerrorstring) call.<br> |
 
 *fn*
 

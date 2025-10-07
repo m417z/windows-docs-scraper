@@ -16,76 +16,27 @@ The record type. This member may be one of the following values.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **RecordTypeLogHeader**
 
-**RecordTypeLogHeader**
+0 | The record is the header for the change log.\ | | **RecordTypeLogEntry**
 
-0
+1 | The record is the header for a change log entry.\ | | **RecordTypeVolumePath**
 
-| The record is the header for the change log.<br> |
-|
+2 | The data is the volume path for the change log entry.\ | | **RecordTypeFirstPath**
 
-**RecordTypeLogEntry**
+3 | The data is the file path for the change log entry.\ | | **RecordTypeSecondPath**
 
-1
+4 | The data is used when renaming change log entries; this path is where the renamed file is stored.\ | | **RecordTypeTempPath**
 
-| The record is the header for a change log entry.<br> |
-|
+5 | The data is the name of the backup file used to restore the change log entry. The backup files are located in the RP*n* folder. The file name has the following format: A*xxxxxxx*.*ext*, where *xxxxxxx* is a seven-digit number and *ext* is the file name extension.\ | | **RecordTypeAclInline**
 
-**RecordTypeVolumePath**
+6 | The data is an ACL. The data format is a [**SECURITY\_DESCRIPTOR**](https://learn.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure. \ This value cannot be larger than 8,192 bytes. To specify a value larger than 8,192 bytes, use the **RecordTypeAclFile** member.\ | | **RecordTypeAclFile**
 
-2
+7 | The data is the name of the ACL file used to store the ACL. The ACL files are located in the RP*n* folder. The file name has the following format: S*xxxxxxx*.acl, where *xxxxxxx* is a seven-digit number.\ | | **RecordTypeDebugInfo**
 
-| The data is the volume path for the change log entry.<br> |
-|
+8 | The data is debug information for the change log entry. The data format is a **SR\_LOG\_DEBUG\_INFO** structure. For more information, see Remarks.\ | | **RecordTypeShortName**
 
-**RecordTypeFirstPath**
-
-3
-
-| The data is the file path for the change log entry.<br> |
-|
-
-**RecordTypeSecondPath**
-
-4
-
-| The data is used when renaming change log entries; this path is where the renamed file is stored.<br> |
-|
-
-**RecordTypeTempPath**
-
-5
-
-| The data is the name of the backup file used to restore the change log entry. The backup files are located in the RP*n* folder. The file name has the following format: A*xxxxxxx*.*ext*, where *xxxxxxx* is a seven-digit number and *ext* is the file name extension.<br> |
-|
-
-**RecordTypeAclInline**
-
-6
-
-| The data is an ACL. The data format is a [**SECURITY\_DESCRIPTOR**](https://learn.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure. <br> This value cannot be larger than 8,192 bytes. To specify a value larger than 8,192 bytes, use the **RecordTypeAclFile** member.<br> |
-|
-
-**RecordTypeAclFile**
-
-7
-
-| The data is the name of the ACL file used to store the ACL. The ACL files are located in the RP*n* folder. The file name has the following format: S*xxxxxxx*.acl, where *xxxxxxx* is a seven-digit number.<br> |
-|
-
-**RecordTypeDebugInfo**
-
-8
-
-| The data is debug information for the change log entry. The data format is a **SR\_LOG\_DEBUG\_INFO** structure. For more information, see Remarks.<br> |
-|
-
-**RecordTypeShortName**
-
-9
-
-| The data is the short name of the backup file.<br> |
+9 | The data is the short name of the backup file.\ |
 
 ## Remarks
 

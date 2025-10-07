@@ -14,21 +14,9 @@ The symbolic name of the value(s) to be returned. Must be either GL\_TEXTURE\_GE
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_TEXTURE\_GEN\_MODE**
-
-| The *params* parameter returns the single-valued texture generation function, a symbolic constant.<br> |
-|
-
-**GL\_OBJECT\_PLANE**
-
-| The *params* parameter returns the four plane equation coefficients that specify object linear-coordinate generation. Integer values, when requested, are mapped directly from the internal floating-point representation.<br> |
-|
-
-**GL\_EYE\_PLANE**
-
-| The *params* parameter returns the four plane equation coefficients that specify eye linear-coordinate generation. Integer values, when requested, are mapped directly from the internal floating-point representation. The returned values are those maintained in eye coordinates. They are not equal to the values specified using [**glTexGen**](https://learn.microsoft.com/windows/win32/opengl/gltexgen-functions), unless the modelview matrix was identified at the time **glTexGen** was called.<br> |
+| **GL\_TEXTURE\_GEN\_MODE** | The *params* parameter returns the single-valued texture generation function, a symbolic constant.<br> |
+| **GL\_OBJECT\_PLANE** | The *params* parameter returns the four plane equation coefficients that specify object linear-coordinate generation. Integer values, when requested, are mapped directly from the internal floating-point representation.<br> |
+| **GL\_EYE\_PLANE** | The *params* parameter returns the four plane equation coefficients that specify eye linear-coordinate generation. Integer values, when requested, are mapped directly from the internal floating-point representation. The returned values are those maintained in eye coordinates. They are not equal to the values specified using [**glTexGen**](https://learn.microsoft.com/windows/win32/opengl/gltexgen-functions), unless the modelview matrix was identified at the time **glTexGen** was called.<br> |
 
 *params*
 

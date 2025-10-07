@@ -12,27 +12,13 @@ Expiration reason. This is one of the following possible values:
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
-|
+| **MP\_EXPIRED\_UNKNOWN**
 
-**MP\_EXPIRED\_UNKNOWN**
+0 | Unknown.\ | | **MP\_EXPIRED\_EVAL**
 
-0
+1 | Evaluation.\ | | **MP\_EXPIRED\_WAT**
 
-| Unknown.<br> |
-|
-
-**MP\_EXPIRED\_EVAL**
-
-1
-
-| Evaluation.<br> |
-|
-
-**MP\_EXPIRED\_WAT**
-
-2
-
-| WAT.<br> |
+2 | WAT.\ |
 
 **State**
 
@@ -42,34 +28,15 @@ Expiration state. This is one of the following possible values:
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-|
+| **MP\_EXPIRE\_STATE\_REPORT\_UNKNOWN**
 
-**MP\_EXPIRE\_STATE\_REPORT\_UNKNOWN**
+0 | State unknown.\ | | **MP\_EXPIRE\_STATE\_REPORT\_VALID**
 
-0
+1 | No expiration.\ | | **MP\_EXPIRE\_STATE\_REPORT\_WARNING**
 
-| State unknown.<br> |
-|
+2 | Near expired.\ | | **MP\_EXPIRE\_STATE\_REPORT\_EXPIRED**
 
-**MP\_EXPIRE\_STATE\_REPORT\_VALID**
-
-1
-
-| No expiration.<br> |
-|
-
-**MP\_EXPIRE\_STATE\_REPORT\_WARNING**
-
-2
-
-| Near expired.<br> |
-|
-
-**MP\_EXPIRE\_STATE\_REPORT\_EXPIRED**
-
-3
-
-| Expired.<br> |
+3 | Expired.\ |
 
 ## Requirements
 

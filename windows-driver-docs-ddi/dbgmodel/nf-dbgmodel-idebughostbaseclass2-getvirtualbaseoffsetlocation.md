@@ -18,7 +18,7 @@ A pointer to a boolean that indicates whether the offset read from the slot shou
 
 ## Remarks
 
-The location of the vtbl/vbtbl is `( + *pTableOffset)` and the location of the offset within that table is given as `(v[b]tbl + pSlotOffset)`.
+The location of the vtbl/vbtbl is `(<object> + *pTableOffset)` and the location of the offset within that table is given as `(v[b]tbl + pSlotOffset)`.
 
 ## See also
 

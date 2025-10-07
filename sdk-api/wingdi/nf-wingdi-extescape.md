@@ -132,8 +132,8 @@ In GDI-centric mode, the application can only inject valid DSC block data by usi
 
 * It consists of an integral sequence of "lines."
 * Each "line" must begin with "%%".
-* Each "line" except the last line must end with <CR>, <LF>, or <CR><LF> except for the last line. If the last line does not end with <CR>, <LF>, or <CR><LF>, the driver appends <CR><LF> after the last byte of the injection data.
-* Each "line" must be 255 bytes or less including the "%%" but not counting the <CR>/<LF> line termination.
+* Each "line" except the last line must end with \<CR>, \<LF>, or \<CR>\<LF> except for the last line. If the last line does not end with \<CR>, \<LF>, or \<CR>\<LF>, the driver appends \<CR>\<LF> after the last byte of the injection data.
+* Each "line" must be 255 bytes or less including the "%%" but not counting the \<CR>/\<LF> line termination.
 
 The [POSTSCRIPT_PASSTHROUGH](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/dd162831(v=vs.85)) printer escape function sends data directly to a PostScript printer driver.
 

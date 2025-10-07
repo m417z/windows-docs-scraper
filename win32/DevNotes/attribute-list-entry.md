@@ -12,83 +12,29 @@ The attribute type code.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **$STANDARD\_INFORMATION**
 
-**$STANDARD\_INFORMATION**
+0x10 | File attributes (such as read-only and archive), time stamps (such as file creation and last modified), and the hard link count.\ | | **$ATTRIBUTE\_LIST**
 
-0x10
+0x20 | A list of attributes that make up the file and the file reference of the MFT file record in which each attribute is located.\ | | **$FILE\_NAME**
 
-| File attributes (such as read-only and archive), time stamps (such as file creation and last modified), and the hard link count.<br> |
-|
+0x30 | The name of the file, in Unicode characters.\ | | **$OBJECT\_ID**
 
-**$ATTRIBUTE\_LIST**
+0x40 | An 16-byte object identifier assigned by the link-tracking service.\ | | **$VOLUME\_NAME**
 
-0x20
+0x60 | The volume label. Present in the $Volume file.\ | | **$VOLUME\_INFORMATION**
 
-| A list of attributes that make up the file and the file reference of the MFT file record in which each attribute is located.<br> |
-|
+0x70 | The volume information. Present in the $Volume file.\ | | **$DATA**
 
-**$FILE\_NAME**
+0x80 | The contents of the file.\ | | **$INDEX\_ROOT**
 
-0x30
+0x90 | Used to implement filename allocation for large directories.\ | | **$INDEX\_ALLOCATION**
 
-| The name of the file, in Unicode characters.<br> |
-|
+0xA0 | Used to implement filename allocation for large directories.\ | | **$BITMAP**
 
-**$OBJECT\_ID**
+0xB0 | A bitmap index for a large directory.\ | | **$REPARSE\_POINT**
 
-0x40
-
-| An 16-byte object identifier assigned by the link-tracking service.<br> |
-|
-
-**$VOLUME\_NAME**
-
-0x60
-
-| The volume label. Present in the $Volume file.<br> |
-|
-
-**$VOLUME\_INFORMATION**
-
-0x70
-
-| The volume information. Present in the $Volume file.<br> |
-|
-
-**$DATA**
-
-0x80
-
-| The contents of the file.<br> |
-|
-
-**$INDEX\_ROOT**
-
-0x90
-
-| Used to implement filename allocation for large directories.<br> |
-|
-
-**$INDEX\_ALLOCATION**
-
-0xA0
-
-| Used to implement filename allocation for large directories.<br> |
-|
-
-**$BITMAP**
-
-0xB0
-
-| A bitmap index for a large directory.<br> |
-|
-
-**$REPARSE\_POINT**
-
-0xC0
-
-| The reparse point data.<br> |
+0xC0 | The reparse point data.\ |
 
 **RecordLength**
 

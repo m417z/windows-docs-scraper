@@ -56,7 +56,7 @@ For example:
 |-|-|-|
 | Assets\\**language-en**\\**scale-200**\logo.png | ms-resource:///files/Assets/logo.png | language-en_scale-200 |
 | Images\icon.**scale-100**.**contrast-high**.jpg | ms-resource:///files/Images/icon.jpg | scale-100_contrast-high |
-| Data\menu.txt | ms-resource:///files/Data/menu.txt | \ |
+| Data\menu.txt | ms-resource:///files/Data/menu.txt | \<N/A> |
 | Images\\**scale-200**\HomePage\\**language-de**\welcome.**contrast-high**.png | ms-resource:///files/Images/HomePage/welcome.png | scale-200_language-de_contrast-high |
 
 Note that there is no way to determine what the inferred `resourceName` and `qualifiers` are

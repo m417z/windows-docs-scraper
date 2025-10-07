@@ -20,27 +20,13 @@ One or more DDE share types. This member can be a combination of the following s
 
 | Share type | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-|
+| **SHARE\_TYPE\_NEW**
 
-**SHARE\_TYPE\_NEW**
+0x02 | The share contains an OLE application/topic pair.\ | | **SHARE\_TYPE\_OLD**
 
-0x02
+0x01 | The share contains a DDE application/topic pair.\ | | **SHARE\_TYPE\_STATIC**
 
-| The share contains an OLE application/topic pair.<br> |
-|
-
-**SHARE\_TYPE\_OLD**
-
-0x01
-
-| The share contains a DDE application/topic pair.<br> |
-|
-
-**SHARE\_TYPE\_STATIC**
-
-0x04
-
-| The share contains a static application/topic pair.<br> |
+0x04 | The share contains a static application/topic pair.\ |
 
 **lpszAppTopicList**
 

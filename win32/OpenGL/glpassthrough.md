@@ -10,11 +10,7 @@ A marker value to be placed in the feedback buffer. It is indicated with the fol
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_PASS\_THROUGH\_TOKEN**
-
-| The order of **glPassThrough** commands with respect to the specification of graphics primitives is maintained.<br> |
+| **GL\_PASS\_THROUGH\_TOKEN** | The order of **glPassThrough** commands with respect to the specification of graphics primitives is maintained.<br> |
 
 ## Return value
 

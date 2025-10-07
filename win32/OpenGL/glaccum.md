@@ -10,31 +10,11 @@ The accumulation buffer operation. The accepted symbolic constants are as follow
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_ACCUM**
-
-| Obtains R, G, B, and A values from the buffer currently selected for reading (see [**glReadBuffer**](https://learn.microsoft.com/windows/win32/opengl/glreadbuffer)). Each component value is divided by 2*n* 1, where *n* is the number of bits allocated to each color component in the currently selected buffer. The result is a floating-point value in the range \[0,1\], which is multiplied by *value* and added to the corresponding pixel component in the accumulation buffer, thereby updating the accumulation buffer.<br> |
-|
-
-**GL\_LOAD**
-
-| Similar to GL\_ACCUM, except that the current value in the accumulation buffer is not used in the calculation of the new value. That is, the R, G, B, and A values from the currently selected buffer are divided by 2*n* 1, multiplied by *value*, and then stored in the corresponding accumulation buffer cell, overwriting the current value.<br> |
-|
-
-**GL\_ADD**
-
-| Adds *value* to each R, G, B, and A in the accumulation buffer.<br> |
-|
-
-**GL\_MULT**
-
-| Multiplies each R, G, B, and A in the accumulation buffer by *value* and returns the scaled component to its corresponding accumulation buffer location.<br> |
-|
-
-**GL\_RETURN**
-
-| Transfers accumulation buffer values to the color buffer or buffers currently selected for writing. Each R, G, B, and A component is multiplied by *value*, then multiplied by 2*n* 1, clamped to the range \[0, 2*n* 1 \], and stored in the corresponding display buffer cell. The only fragment operations that are applied to this transfer are pixel ownership, scissor, dithering, and color writemasks.<br> |
+| **GL\_ACCUM** | Obtains R, G, B, and A values from the buffer currently selected for reading (see [**glReadBuffer**](https://learn.microsoft.com/windows/win32/opengl/glreadbuffer)). Each component value is divided by 2*n* 1, where *n* is the number of bits allocated to each color component in the currently selected buffer. The result is a floating-point value in the range \[0,1\], which is multiplied by *value* and added to the corresponding pixel component in the accumulation buffer, thereby updating the accumulation buffer.<br> |
+| **GL\_LOAD** | Similar to GL\_ACCUM, except that the current value in the accumulation buffer is not used in the calculation of the new value. That is, the R, G, B, and A values from the currently selected buffer are divided by 2*n* 1, multiplied by *value*, and then stored in the corresponding accumulation buffer cell, overwriting the current value.<br> |
+| **GL\_ADD** | Adds *value* to each R, G, B, and A in the accumulation buffer.<br> |
+| **GL\_MULT** | Multiplies each R, G, B, and A in the accumulation buffer by *value* and returns the scaled component to its corresponding accumulation buffer location.<br> |
+| **GL\_RETURN** | Transfers accumulation buffer values to the color buffer or buffers currently selected for writing. Each R, G, B, and A component is multiplied by *value*, then multiplied by 2*n* 1, clamped to the range \[0, 2*n* 1 \], and stored in the corresponding display buffer cell. The only fragment operations that are applied to this transfer are pixel ownership, scissor, dithering, and color writemasks.<br> |
 
 *value*
 

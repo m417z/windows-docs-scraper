@@ -31,4 +31,9 @@ Optional pointer to [**CRYPT_DATA_BLOB**](https://learn.microsoft.com/windows/wi
 | Minimum supported server<br> | Windows Server 2022 \[desktop apps only\]<br> |
 | DLL | Mssign32.dll
 
+<!--
+## See also
+
+[**SIGNER\_CERT**](https://learn.microsoft.com/windows/win32/seccrypto/signer-cert)
+
   -->

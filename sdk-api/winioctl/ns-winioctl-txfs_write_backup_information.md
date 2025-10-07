@@ -8,7 +8,7 @@ available techniques. Furthermore, TxF may not be available in future versions o
 information, and alternatives to TxF, please see
 [Alternatives to using Transactional NTFS](https://learn.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).]
 
-Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling [TXFS_WRITE_BACKUP_INFORMATION](https://learn.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_read_backup_information_out).
+Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
 
 ## Members
 

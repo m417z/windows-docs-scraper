@@ -16,111 +16,27 @@ A pointer to a variable whose bits are set to indicate the changes that occurred
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-|
-
-**PRINTER\_CHANGE\_ADD\_FORM**
-
-| A form was added to the server.<br> |
-|
-
-**PRINTER\_CHANGE\_ADD\_JOB**
-
-| A print job was sent to the printer.<br> |
-|
-
-**PRINTER\_CHANGE\_ADD\_PORT**
-
-| A port or monitor was added to the server.<br> |
-|
-
-**PRINTER\_CHANGE\_ADD\_PRINT\_PROCESSOR**
-
-| A print processor was added to the server.<br> |
-|
-
-**PRINTER\_CHANGE\_ADD\_PRINTER**
-
-| A printer was added to the server.<br> |
-|
-
-**PRINTER\_CHANGE\_ADD\_PRINTER\_DRIVER**
-
-| A printer driver was added to the server.<br> |
-|
-
-**PRINTER\_CHANGE\_CONFIGURE\_PORT**
-
-| A port was configured on the server.<br> |
-|
-
-**PRINTER\_CHANGE\_DELETE\_FORM**
-
-| A form was deleted from the server.<br> |
-|
-
-**PRINTER\_CHANGE\_DELETE\_JOB**
-
-| A job was deleted.<br> |
-|
-
-**PRINTER\_CHANGE\_DELETE\_PORT**
-
-| A port or monitor was deleted from the server.<br> |
-|
-
-**PRINTER\_CHANGE\_DELETE\_PRINT\_PROCESSOR**
-
-| A print processor was deleted from the server.<br> |
-|
-
-**PRINTER\_CHANGE\_DELETE\_PRINTER**
-
-| A printer was deleted.<br> |
-|
-
-**PRINTER\_CHANGE\_DELETE\_PRINTER\_DRIVER**
-
-| A printer driver was deleted from the server.<br> |
-|
-
-**PRINTER\_CHANGE\_FAILED\_CONNECTION\_PRINTER**
-
-| A printer connection has failed.<br> |
-|
-
-**PRINTER\_CHANGE\_SET\_FORM**
-
-| A form was set on the server.<br> |
-|
-
-**PRINTER\_CHANGE\_SET\_JOB**
-
-| A job was set.<br> |
-|
-
-**PRINTER\_CHANGE\_SET\_PRINTER**
-
-| A printer was set.<br> |
-|
-
-**PRINTER\_CHANGE\_SET\_PRINTER\_DRIVER**
-
-| A printer driver was set.<br> |
-|
-
-**PRINTER\_CHANGE\_WRITE\_JOB**
-
-| Job data was written.<br> |
-|
-
-**PRINTER\_CHANGE\_TIMEOUT**
-
-| The job timed out.<br> |
-|
-
-**PRINTER\_CHANGE\_SERVER**
-
-| Windows 7: A change occurred on the server.<br> |
+| **PRINTER\_CHANGE\_ADD\_FORM** | A form was added to the server.<br> |
+| **PRINTER\_CHANGE\_ADD\_JOB** | A print job was sent to the printer.<br> |
+| **PRINTER\_CHANGE\_ADD\_PORT** | A port or monitor was added to the server.<br> |
+| **PRINTER\_CHANGE\_ADD\_PRINT\_PROCESSOR** | A print processor was added to the server.<br> |
+| **PRINTER\_CHANGE\_ADD\_PRINTER** | A printer was added to the server.<br> |
+| **PRINTER\_CHANGE\_ADD\_PRINTER\_DRIVER** | A printer driver was added to the server.<br> |
+| **PRINTER\_CHANGE\_CONFIGURE\_PORT** | A port was configured on the server.<br> |
+| **PRINTER\_CHANGE\_DELETE\_FORM** | A form was deleted from the server.<br> |
+| **PRINTER\_CHANGE\_DELETE\_JOB** | A job was deleted.<br> |
+| **PRINTER\_CHANGE\_DELETE\_PORT** | A port or monitor was deleted from the server.<br> |
+| **PRINTER\_CHANGE\_DELETE\_PRINT\_PROCESSOR** | A print processor was deleted from the server.<br> |
+| **PRINTER\_CHANGE\_DELETE\_PRINTER** | A printer was deleted.<br> |
+| **PRINTER\_CHANGE\_DELETE\_PRINTER\_DRIVER** | A printer driver was deleted from the server.<br> |
+| **PRINTER\_CHANGE\_FAILED\_CONNECTION\_PRINTER** | A printer connection has failed.<br> |
+| **PRINTER\_CHANGE\_SET\_FORM** | A form was set on the server.<br> |
+| **PRINTER\_CHANGE\_SET\_JOB** | A job was set.<br> |
+| **PRINTER\_CHANGE\_SET\_PRINTER** | A printer was set.<br> |
+| **PRINTER\_CHANGE\_SET\_PRINTER\_DRIVER** | A printer driver was set.<br> |
+| **PRINTER\_CHANGE\_WRITE\_JOB** | Job data was written.<br> |
+| **PRINTER\_CHANGE\_TIMEOUT** | The job timed out.<br> |
+| **PRINTER\_CHANGE\_SERVER** | Windows 7: A change occurred on the server.<br> |
 
 *pPrinterNotifyOptions* \[in, optional\]
 

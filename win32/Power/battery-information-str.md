@@ -10,41 +10,17 @@ The battery capabilities. This member can be one or more of the following values
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **BATTERY\_CAPACITY\_RELATIVE**
 
-**BATTERY\_CAPACITY\_RELATIVE**
+0x40000000 | Indicates that the battery capacity and rate information are relative, and not in any specific units. If this bit is not set, the reporting units are milliwatt-hours (mWh) for capacity and milliwatts (mW) for rate. If this bit is set, all references to units in the other battery documentation can be ignored. All rate information is reported in units per hour. For example, if the fully charged capacity is reported as 100, a rate of 200 indicates that the battery will use all of its capacity in half an hour.\ | | **BATTERY\_IS\_SHORT\_TERM**
 
-0x40000000
+0x20000000 | Indicates that the normal operation is for a fail-safe function. If this bit is not set the battery is expected to be used during normal system usage.\ | | **BATTERY\_SET\_CHARGE\_SUPPORTED**
 
-| Indicates that the battery capacity and rate information are relative, and not in any specific units. If this bit is not set, the reporting units are milliwatt-hours (mWh) for capacity and milliwatts (mW) for rate. If this bit is set, all references to units in the other battery documentation can be ignored. All rate information is reported in units per hour. For example, if the fully charged capacity is reported as 100, a rate of 200 indicates that the battery will use all of its capacity in half an hour.<br> |
-|
+0x00000001 | Indicates that set information requests of the type BatteryCharge are supported by this battery device.\ | | **BATTERY\_SET\_DISCHARGE\_SUPPORTED**
 
-**BATTERY\_IS\_SHORT\_TERM**
+0x00000002 | Indicates that set information requests of the type BatteryDischarge are supported by this battery device.\ | | **BATTERY\_SYSTEM\_BATTERY**
 
-0x20000000
-
-| Indicates that the normal operation is for a fail-safe function. If this bit is not set the battery is expected to be used during normal system usage.<br> |
-|
-
-**BATTERY\_SET\_CHARGE\_SUPPORTED**
-
-0x00000001
-
-| Indicates that set information requests of the type BatteryCharge are supported by this battery device.<br> |
-|
-
-**BATTERY\_SET\_DISCHARGE\_SUPPORTED**
-
-0x00000002
-
-| Indicates that set information requests of the type BatteryDischarge are supported by this battery device.<br> |
-|
-
-**BATTERY\_SYSTEM\_BATTERY**
-
-0x80000000
-
-| Indicates that the battery can provide general power to run the system.<br> |
+0x80000000 | Indicates that the battery can provide general power to run the system.\ |
 
 **Technology**
 
@@ -65,41 +41,13 @@ An abbreviated character string that indicates the battery's chemistry. This str
 
 | Unicode string | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-|
-
-**PbAc**
-
-| Lead Acid<br> |
-|
-
-**LION**
-
-| Lithium Ion<br> |
-|
-
-**Li-I**
-
-| Lithium Ion<br> |
-|
-
-**NiCd**
-
-| Nickel Cadmium<br> |
-|
-
-**NiMH**
-
-| Nickel Metal Hydride<br> |
-|
-
-**NiZn**
-
-| Nickel Zinc<br> |
-|
-
-**RAM**
-
-| Rechargeable Alkaline-Manganese<br> |
+| **PbAc** | Lead Acid<br> |
+| **LION** | Lithium Ion<br> |
+| **Li-I** | Lithium Ion<br> |
+| **NiCd** | Nickel Cadmium<br> |
+| **NiMH** | Nickel Metal Hydride<br> |
+| **NiZn** | Nickel Zinc<br> |
+| **RAM** | Rechargeable Alkaline-Manganese<br> |
 
 Other chemistries may appear in the future and your code should be able to handle them.
 

@@ -69,7 +69,7 @@ This function can return one of these values.
 
 The query tree allocated by the **CITextToFullTreeEx** function must be freed either with the [ICommandTree::FreeCommandTree](https://learn.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-freecommandtree) method or passed to the [ICommandTree::SetCommandTree](https://learn.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree) method with the *fCopy* parameter set to **FALSE**.
 
-Be sure to include the following #define directive before your #include <oledberr.h> to access the command tree definitions.
+Be sure to include the following #define directive before your #include \<oledberr.h> to access the command tree definitions.
 
 ```
 #define DBINITCONSTANTS

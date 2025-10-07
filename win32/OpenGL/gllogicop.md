@@ -10,86 +10,22 @@ A symbolic constant that selects a logical operation. The following symbols are 
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-|
-
-**GL\_CLEAR**
-
-| 0<br> |
-|
-
-**GL\_SET**
-
-| 1<br> |
-|
-
-**GL\_COPY**
-
-| s<br> |
-|
-
-**GL\_COPY\_INVERTED**
-
-| !s<br> |
-|
-
-**GL\_NOOP**
-
-| d<br> |
-|
-
-**GL\_INVERT**
-
-| !d<br> |
-|
-
-**GL\_AND**
-
-| s & d<br> |
-|
-
-**GL\_NAND**
-
-| !(s & d)<br> |
-|
-
-**GL\_OR**
-
-| s \| d<br> |
-|
-
-**GL\_NOR**
-
-| !(s \| d)<br> |
-|
-
-**GL\_XOR**
-
-| s ^ d<br> |
-|
-
-**GL\_EQUIV**
-
-| !(s ^ d)<br> |
-|
-
-**GL\_AND\_REVERSE**
-
-| s & !d<br> |
-|
-
-**GL\_AND\_INVERTED**
-
-| !s & d<br> |
-|
-
-**GL\_OR\_REVERSE**
-
-| s \| !d<br> |
-|
-
-**GL\_OR\_INVERTED**
-
-| !s \| d<br> |
+| **GL\_CLEAR** | 0<br> |
+| **GL\_SET** | 1<br> |
+| **GL\_COPY** | s<br> |
+| **GL\_COPY\_INVERTED** | !s<br> |
+| **GL\_NOOP** | d<br> |
+| **GL\_INVERT** | !d<br> |
+| **GL\_AND** | s & d<br> |
+| **GL\_NAND** | !(s & d)<br> |
+| **GL\_OR** | s \| d<br> |
+| **GL\_NOR** | !(s \| d)<br> |
+| **GL\_XOR** | s ^ d<br> |
+| **GL\_EQUIV** | !(s ^ d)<br> |
+| **GL\_AND\_REVERSE** | s & !d<br> |
+| **GL\_AND\_INVERTED** | !s & d<br> |
+| **GL\_OR\_REVERSE** | s \| !d<br> |
+| **GL\_OR\_INVERTED** | !s \| d<br> |
 
 ## Return value
 

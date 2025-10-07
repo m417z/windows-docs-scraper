@@ -2,7 +2,7 @@
 
 ## Description
 
-Retrieves an object that represents the identity of the <OptionalBundle>.
+Retrieves an object that represents the identity of the \<OptionalBundle>.
 
 ## Parameters
 

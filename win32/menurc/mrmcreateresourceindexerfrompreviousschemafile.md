@@ -106,7 +106,7 @@ The new resource file will contain the following for English:
 
 | Name | Index | Value |
 |-|-|-|
-| ms-resource:///strings/test | 0 | \ |
+| ms-resource:///strings/test | 0 | \<none> |
 | ms-resource:///strings/save | 1 | "Save" |
 | ms-resource:///strings/delete | 2 | "Delete" |
 

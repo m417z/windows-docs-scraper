@@ -27,7 +27,7 @@ LINEERR_OPERATIONFAILED, LINEERR_INIFILECORRUPT, LINEERR_NOMEM, LINEERR_INVALPAR
 
 ## Remarks
 
-This function must guarantee that the service provider's section and privately-defined information for the service provider is removed from the registry if it returns success. In particular, the [Provider<PPID>] section whose <PPID> matches *dwPermanentProviderID* must be removed, including its *NumLines* and *NumPhones* entries. If the function returns success, it is the caller's responsibility to remove the matching *ProviderIDx* and *ProviderFilenamex* entries from the [Providers] section, and renumber the remaining entries in the [Providers] section accordingly.
+This function must guarantee that the service provider's section and privately-defined information for the service provider is removed from the registry if it returns success. In particular, the [Provider\<PPID>] section whose \<PPID> matches *dwPermanentProviderID* must be removed, including its *NumLines* and *NumPhones* entries. If the function returns success, it is the caller's responsibility to remove the matching *ProviderIDx* and *ProviderFilenamex* entries from the [Providers] section, and renumber the remaining entries in the [Providers] section accordingly.
 
 This procedure must leave the system in a consistent state. It should run to completion, not allowing the user to abort the removal when it is partly completed. If removal fails, it is the provider's responsibility to "back out" what was done and return an error. This may imply pre-scanning to verify that a complete removal is possible, before the removal begins.
 

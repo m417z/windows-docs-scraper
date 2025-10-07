@@ -20,11 +20,7 @@ This parameter can be one or more of the following values.
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**PRINTER\_CHANGE\_FORM**
-
-| Notify of any changes to a form. You can set this general flag or one or more of the following specific flags:<br>
+| **PRINTER\_CHANGE\_FORM** | Notify of any changes to a form. You can set this general flag or one or more of the following specific flags:<br>
 PRINTER\_CHANGE\_ADD\_FORM
 
 PRINTER\_CHANGE\_SET\_FORM
@@ -32,11 +28,7 @@ PRINTER\_CHANGE\_SET\_FORM
 PRINTER\_CHANGE\_DELETE\_FORM
 
 |
-|
-
-**PRINTER\_CHANGE\_JOB**
-
-| Notify of any changes to a job. You can set this general flag or one or more of the following specific flags:<br>
+| **PRINTER\_CHANGE\_JOB** | Notify of any changes to a job. You can set this general flag or one or more of the following specific flags:<br>
 PRINTER\_CHANGE\_ADD\_JOB
 
 PRINTER\_CHANGE\_SET\_JOB
@@ -46,11 +38,7 @@ PRINTER\_CHANGE\_DELETE\_JOB
 PRINTER\_CHANGE\_WRITE\_JOB
 
 |
-|
-
-**PRINTER\_CHANGE\_PORT**
-
-| Notify of any changes to a port. You can set this general flag or one or more of the following specific flags:<br>
+| **PRINTER\_CHANGE\_PORT** | Notify of any changes to a port. You can set this general flag or one or more of the following specific flags:<br>
 PRINTER\_CHANGE\_ADD\_PORT
 
 PRINTER\_CHANGE\_CONFIGURE\_PORT
@@ -58,21 +46,13 @@ PRINTER\_CHANGE\_CONFIGURE\_PORT
 PRINTER\_CHANGE\_DELETE\_PORT
 
 |
-|
-
-**PRINTER\_CHANGE\_PRINT\_PROCESSOR**
-
-| Notify of any changes to a print processor. You can set this general flag or one or more of the following specific flags: <br>
+| **PRINTER\_CHANGE\_PRINT\_PROCESSOR** | Notify of any changes to a print processor. You can set this general flag or one or more of the following specific flags: <br>
 PRINTER\_CHANGE\_ADD\_PRINT\_PROCESSOR
 
 PRINTER\_CHANGE\_DELETE\_PRINT\_PROCESSOR
 
 |
-|
-
-**PRINTER\_CHANGE\_PRINTER**
-
-| Notify of any changes to a printer. You can set this general flag or one or more of the following specific flags:<br>
+| **PRINTER\_CHANGE\_PRINTER** | Notify of any changes to a printer. You can set this general flag or one or more of the following specific flags:<br>
 PRINTER\_CHANGE\_ADD\_PRINTER
 
 PRINTER\_CHANGE\_SET\_PRINTER
@@ -82,11 +62,7 @@ PRINTER\_CHANGE\_DELETE\_PRINTER
 PRINTER\_CHANGE\_FAILED\_CONNECTION\_PRINTER
 
 |
-|
-
-**PRINTER\_CHANGE\_PRINTER\_DRIVER**
-
-| Notify of any changes to a printer driver. You can set this general flag or one or more of the following specific flags:<br>
+| **PRINTER\_CHANGE\_PRINTER\_DRIVER** | Notify of any changes to a printer driver. You can set this general flag or one or more of the following specific flags:<br>
 PRINTER\_CHANGE\_ADD\_PRINTER\_DRIVER
 
 PRINTER\_CHANGE\_SET\_PRINTER\_DRIVER
@@ -94,16 +70,8 @@ PRINTER\_CHANGE\_SET\_PRINTER\_DRIVER
 PRINTER\_CHANGE\_DELETE\_PRINTER\_DRIVER
 
 |
-|
-
-**PRINTER\_CHANGE\_ALL**
-
-| Notify if any of the preceding changes occur.<br> |
-|
-
-**PRINTER\_CHANGE\_SERVER**
-
-| Windows 7: Notify of any changes to the server.<br> This flag is not included in the changes monitored by setting the **PRINTER\_CHANGE\_ALL** value.<br> |
+| **PRINTER\_CHANGE\_ALL** | Notify if any of the preceding changes occur.<br> |
+| **PRINTER\_CHANGE\_SERVER** | Windows 7: Notify of any changes to the server.<br> This flag is not included in the changes monitored by setting the **PRINTER\_CHANGE\_ALL** value.<br> |
 
 For descriptions of the more specific flags in the preceding table, see the [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) function.
 
@@ -113,22 +81,11 @@ The flag that determines the category of printers for which notifications will w
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **PRINTER\_NOTIFY\_CATEGORY\_ALL**
 
-**PRINTER\_NOTIFY\_CATEGORY\_ALL**
+0x001000 | [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications for both 2D and 3D printers.\ | | **PRINTER\_NOTIFY\_CATEGORY\_3D**
 
-0x001000
-
-| [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications for both 2D and 3D printers.<br> |
-|
-
-**PRINTER\_NOTIFY\_CATEGORY\_3D**
-
-0x002000
-
-| [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications only for 3D printers.<br> |
-
-When this flag is set to zero (0), **FindFirstPrinterChangeNotification** will only work for 2D printers. This is the default value.
+0x002000 | [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications only for 3D printers.\ | When this flag is set to zero (0), **FindFirstPrinterChangeNotification** will only work for 2D printers. This is the default value.
 
 *pPrinterNotifyOptions* \[in, optional\]
 

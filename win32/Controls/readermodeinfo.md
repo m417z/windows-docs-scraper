@@ -26,27 +26,13 @@ Flags customizing the functionality of the reader mode window. This parameter ca
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|
+| **RMF\_ZEROCURSOR**
 
-**RMF\_ZEROCURSOR**
+0x01 | Sets the cursor in the center of the area specified in **prc**. If this flag is not specified, the cursor position remains unchanged.\ | | **RMF\_VERTICALONLY**
 
-0x01
+0x02 | Allows only vertical scrolling.\ | | **RMF\_HORIZONTALONLY**
 
-| Sets the cursor in the center of the area specified in **prc**. If this flag is not specified, the cursor position remains unchanged.<br> |
-|
-
-**RMF\_VERTICALONLY**
-
-0x02
-
-| Allows only vertical scrolling.<br> |
-|
-
-**RMF\_HORIZONTALONLY**
-
-0x04
-
-| Allows only horizontal scrolling.<br> |
+0x04 | Allows only horizontal scrolling.\ |
 
 **prc**
 

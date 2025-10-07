@@ -10,7 +10,7 @@ Null-terminated string that was specified with the **AddFileWithRanges** call.
 
 **sourceURL**
 
-Null-terminated string that contains the name of the file on the server (for example, https://<server>/<path>/file.ext).
+Null-terminated string that contains the name of the file on the server (for example, https://\<server>/\<path>/file.ext).
 
 **fileSize**
 

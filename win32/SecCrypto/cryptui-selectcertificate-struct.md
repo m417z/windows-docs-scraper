@@ -18,26 +18,10 @@ Specifies additional options for the [**CryptUIDlgSelectCertificate**](https://l
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**CRYPTUI\_SELECTCERT\_ADDFROMDS**
-
-| Reserved.<br> |
-|
-
-**CRYPTUI\_SELECTCERT\_LEGACY**
-
-| Specifies that the legacy dialog is to be displayed.<br> |
-|
-
-**CRYPTUI\_SELECTCERT\_MULTISELECT**
-
-| Allows the user to select more than one certificate in the dialog box. If this flag is set, the [**CryptUIDlgSelectCertificate**](https://learn.microsoft.com/windows/win32/seccrypto/cryptuidlgselectcertificate) function always returns **NULL**. The **hSelectedCertStore** member of this structure must contain a handle to a certificate store. The certificates selected by the user will be added to this store.<br> |
-|
-
-**CRYPTUI\_SELECTCERT\_PUT\_WINDOW\_TOPMOST**
-
-| Forces the cryptography UI to be the top window on the screen.<br> |
+| **CRYPTUI\_SELECTCERT\_ADDFROMDS** | Reserved.<br> |
+| **CRYPTUI\_SELECTCERT\_LEGACY** | Specifies that the legacy dialog is to be displayed.<br> |
+| **CRYPTUI\_SELECTCERT\_MULTISELECT** | Allows the user to select more than one certificate in the dialog box. If this flag is set, the [**CryptUIDlgSelectCertificate**](https://learn.microsoft.com/windows/win32/seccrypto/cryptuidlgselectcertificate) function always returns **NULL**. The **hSelectedCertStore** member of this structure must contain a handle to a certificate store. The certificates selected by the user will be added to this store.<br> |
+| **CRYPTUI\_SELECTCERT\_PUT\_WINDOW\_TOPMOST** | Forces the cryptography UI to be the top window on the screen.<br> |
 
 **szTitle**
 
@@ -49,48 +33,19 @@ Flags that can be combined to exclude columns of the display.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-|
+| **CRYPTUI\_SELECT\_ISSUEDTO\_COLUMN**
 
-**CRYPTUI\_SELECT\_ISSUEDTO\_COLUMN**
+1 (0x1) | Do not display **ISSUEDTO** information.\ | | **CRYPTUI\_SELECT\_ISSUEDBY\_COLUMN**
 
-1 (0x1)
+2 (0x2) | Do not display **ISSUEDBY** information.\ | | **CRYPTUI\_SELECT\_INTENDEDUSE\_COLUMN**
 
-| Do not display **ISSUEDTO** information.<br> |
-|
+4 (0x4) | Do not display **IntendedUse** information.\ | | **CRYPTUI\_SELECT\_FRIENDLYNAME\_COLUMN**
 
-**CRYPTUI\_SELECT\_ISSUEDBY\_COLUMN**
+8 (0x8) | Do not display name information.\ | | **CRYPTUI\_SELECT\_LOCATION\_COLUMN**
 
-2 (0x2)
+16 (0x10) | Do not display location information.\ | | **CRYPTUI\_SELECT\_EXPIRATION\_COLUMN**
 
-| Do not display **ISSUEDBY** information.<br> |
-|
-
-**CRYPTUI\_SELECT\_INTENDEDUSE\_COLUMN**
-
-4 (0x4)
-
-| Do not display **IntendedUse** information.<br> |
-|
-
-**CRYPTUI\_SELECT\_FRIENDLYNAME\_COLUMN**
-
-8 (0x8)
-
-| Do not display name information.<br> |
-|
-
-**CRYPTUI\_SELECT\_LOCATION\_COLUMN**
-
-16 (0x10)
-
-| Do not display location information.<br> |
-|
-
-**CRYPTUI\_SELECT\_EXPIRATION\_COLUMN**
-
-32 (0x20)
-
-| Do not display expiration information.<br> |
+32 (0x20) | Do not display expiration information.\ |
 
 **szDisplayString**
 

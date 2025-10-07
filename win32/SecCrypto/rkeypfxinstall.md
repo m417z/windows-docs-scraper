@@ -24,16 +24,11 @@ Flags that specify the certificate installation options. This parameter can be a
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-|
+| **CRYPT\_EXPORTABLE**
 
-**CRYPT\_EXPORTABLE**
+| Imported keys are marked as exportable.\ | | **CRYPT\_MACHINE\_KEYSET**
 
-| Imported keys are marked as exportable.<br> |
-|
-
-**CRYPT\_MACHINE\_KEYSET**
-
-| Private keys are stored under the remote computer and not under the current user.<br> |
+| Private keys are stored under the remote computer and not under the current user.\ |
 
 ## Return value
 

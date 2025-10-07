@@ -32,7 +32,7 @@ Paste operation.
 
 ### `UID_AUTOTABLE:6`
 
-Automatic table insertion; for example, typing +---+---+<Enter> to insert a table row.
+Automatic table insertion; for example, typing +---+---+\<Enter> to insert a table row.
 
 ## See also
 

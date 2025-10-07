@@ -38,7 +38,7 @@ Pointer to a **null**-terminated string that specifies the name of the proxy ser
 Pointer to a **null**-terminated string that specifies an optional list of host names or IP addresses, or both, that should not be routed through the proxy when
 *dwAccessType* is set to
 **INTERNET_OPEN_TYPE_PROXY**. The list can contain wildcards. Do not use an empty string, because
-**InternetOpen** will use it as the proxy bypass list. If this parameter specifies the "<local>" macro, the function bypasses the proxy for any host name that does not contain a period.
+**InternetOpen** will use it as the proxy bypass list. If this parameter specifies the "\<local>" macro, the function bypasses the proxy for any host name that does not contain a period.
 
 By default, WinINet will bypass the proxy for requests that use the host names "localhost", "loopback", "127.0.0.1", or "[::1]". This behavior exists because a remote proxy server typically will not resolve these addresses properly.**Internet Explorer 9:** You can remove the local computer from the proxy bypass list using the "<-loopback>" macro.
 

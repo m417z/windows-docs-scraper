@@ -2,7 +2,7 @@
 
 ## Description
 
-Advances the position of the enumerator to the next <MainPackageDependency> element.
+Advances the position of the enumerator to the next \<MainPackageDependency> element.
 
 ## Parameters
 

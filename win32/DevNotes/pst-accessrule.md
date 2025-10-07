@@ -16,20 +16,11 @@ The access modes to which a specified set of access clauses pertain.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-|
+| **PST\_READ**
 
-**PST\_READ**
+0x0001 | Read access mode.\ | | **PST\_WRITE**
 
-0x0001
-
-| Read access mode.<br> |
-|
-
-**PST\_WRITE**
-
-0x0002
-
-| Write access mode.<br> |
+0x0002 | Write access mode.\ |
 
 **cClauses**
 

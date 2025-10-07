@@ -18,7 +18,7 @@ Pointer to a string that specifies the address of the recipient. The *lpszAddres
 
 ### `ulFlags`
 
-Value of type ULONG that specifies the bitmask of flags that affect the one-off recipient. The following flags are valid in the Windows Address Book (WAB).
+Value of type ULONG that specifies the bitmask of flags that affect the one-off recipient. The following flags are valid in the Windows Address Book (WAB).\</desc>
 
 | Flag | Description |
 |------|-------------|

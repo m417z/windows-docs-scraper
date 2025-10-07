@@ -13,11 +13,7 @@ Flags specifying options for script retrieval.
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GSS\_ALLOW\_INHERITED\_COMMON**
-
-| Retrieve "Qaii" (INHERITED) and "Zyyy" (COMMON) script information. This value does not affect the processing of unassigned characters. These characters in the input string always cause a "Zzzz" (UNASSIGNED script) to appear in the script string.<br> |
+| **GSS\_ALLOW\_INHERITED\_COMMON** | Retrieve "Qaii" (INHERITED) and "Zyyy" (COMMON) script information. This value does not affect the processing of unassigned characters. These characters in the input string always cause a "Zzzz" (UNASSIGNED script) to appear in the script string.<br> |
 
 > [!Note]
 > By default, this function ignores any inherited or common characters in the input Unicode string. If GSS\_ALLOW\_INHERITED\_COMMON is not set, neither "Qaii" nor "Zyyy" will appear in the script string, even if the input string contains such characters. If GSS\_ALLOW\_INHERITED\_COMMON is set, and if the input string contains inherited and/or common characters, "Qaii" and/or "Zyyy" appear in the script string. See the Remarks section.
@@ -59,7 +55,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 This function is useful as part of a strategy to mitigate security issues related to [internationalized domain names (IDNs)](https://learn.microsoft.com/windows/win32/intl/handling-internationalized-domain-names--idns).
 
-The script determination is based on the script values published by the Unicode Consortium in , except that the unassigned characters have the value "Zzzz" (UNASSIGNED) instead of "Zyyy" (COMMON).
+The script determination is based on the script values published by the Unicode Consortium in \<https://www.unicode.org/Public/4.1.0/ucd/Scripts.txt>, except that the unassigned characters have the value "Zzzz" (UNASSIGNED) instead of "Zyyy" (COMMON).
 
 Here are some examples of the behavior of this function:
 

@@ -8,19 +8,19 @@
 
 ### `D3DDDI_QUERYREGISTRY_SERVICEKEY`
 
-Indicates to retrieve registry data from the service hive. The registry path is `\REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Services\`.
+Indicates to retrieve registry data from the service hive. The registry path is `\REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Services\<ServiceName>`.
 
 See [Introduction to Registry Keys for Drivers](https://learn.microsoft.com/windows-hardware/drivers/wdf/introduction-to-registry-keys-for-drivers) for more details, where it is referred to as the driver's Parameters key.
 
 ### `D3DDDI_QUERYREGISTRY_ADAPTERKEY`
 
-Indicates to retrieve registry data from the adapter hive. The registry path is `\REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\`.
+Indicates to retrieve registry data from the adapter hive. The registry path is `\REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\<Number>`.
 
 See [Introduction to Registry Keys for Drivers](https://learn.microsoft.com/windows-hardware/drivers/wdf/introduction-to-registry-keys-for-drivers) for more details, where it is referred to as the driver's Software key.
 
 ### `D3DDDI_QUERYREGISTRY_DRIVERSTOREPATH`
 
-Indicates to retrieve the driver store path for the adapter. The full driver store path is returned in [**D3DDDI_QUERYREGISTRY_INFO::OutputString**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_queryregistry_info). The path is returned in the form of `:\system32\DriverStore\FileRepository\`.
+Indicates to retrieve the driver store path for the adapter. The full driver store path is returned in [**D3DDDI_QUERYREGISTRY_INFO::OutputString**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_queryregistry_info). The path is returned in the form of `<SystemDrive>:\system32\DriverStore\FileRepository\<DriverString>`.
 
 ### `D3DDDI_QUERYREGISTRY_DRIVERIMAGEPATH`
 

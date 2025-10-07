@@ -14,21 +14,9 @@ A single-valued light source parameter for *light*. The following symbolic names
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_SPOT\_EXPONENT**
-
-| The *param* parameter is a single integer value that specifies the intensity distribution of the light. Integer and floating-point values are mapped directly. Only values in the range \[0, 128\] are accepted. <br> Effective light intensity is attenuated by the cosine of the angle between the direction of the light and the direction from the light to the vertex being lighted, raised to the power of the spot exponent. Thus, higher spot exponents result in a more focused light source, regardless of the spot cutoff angle. The default spot exponent is 0, resulting in uniform light distribution.<br> |
-|
-
-**GL\_SPOT\_CUTOFF**
-
-| The *param* parameter is a single integer value that specifies the maximum spread angle of a light source. Integer and floating-point values are mapped directly. Only values in the range \[0, 90\], and the special value 180, are accepted. <br> If the angle between the direction of the light and the direction from the light to the vertex being lighted is greater than the spot cutoff angle, then the light is completely masked. Otherwise, its intensity is controlled by the spot exponent and the attenuation factors. The default spot cutoff is 180, resulting in uniform light distribution.<br> |
-|
-
-**GL\_CONSTANT\_ATTENUATION, GL\_LINEAR\_ATTENUATION, GL\_QUADRATIC\_ATTENUATION**
-
-| The *param* parameter is a single integer value that specifies one of the three light attenuation factors. Integer and floating-point values are mapped directly. Only nonnegative values are accepted. <br> If the light is positional, rather than directional, its intensity is attenuated by the reciprocal of the sum of: the constant factor, the linear factor multiplied by the distance between the light and the vertex being lighted, and the quadratic factor multiplied by the square of the same distance. The default attenuation factors are (1,0,0), resulting in no attenuation.<br> |
+| **GL\_SPOT\_EXPONENT** | The *param* parameter is a single integer value that specifies the intensity distribution of the light. Integer and floating-point values are mapped directly. Only values in the range \[0, 128\] are accepted. <br> Effective light intensity is attenuated by the cosine of the angle between the direction of the light and the direction from the light to the vertex being lighted, raised to the power of the spot exponent. Thus, higher spot exponents result in a more focused light source, regardless of the spot cutoff angle. The default spot exponent is 0, resulting in uniform light distribution.<br> |
+| **GL\_SPOT\_CUTOFF** | The *param* parameter is a single integer value that specifies the maximum spread angle of a light source. Integer and floating-point values are mapped directly. Only values in the range \[0, 90\], and the special value 180, are accepted. <br> If the angle between the direction of the light and the direction from the light to the vertex being lighted is greater than the spot cutoff angle, then the light is completely masked. Otherwise, its intensity is controlled by the spot exponent and the attenuation factors. The default spot cutoff is 180, resulting in uniform light distribution.<br> |
+| **GL\_CONSTANT\_ATTENUATION, GL\_LINEAR\_ATTENUATION, GL\_QUADRATIC\_ATTENUATION** | The *param* parameter is a single integer value that specifies one of the three light attenuation factors. Integer and floating-point values are mapped directly. Only nonnegative values are accepted. <br> If the light is positional, rather than directional, its intensity is attenuated by the reciprocal of the sum of: the constant factor, the linear factor multiplied by the distance between the light and the vertex being lighted, and the quadratic factor multiplied by the square of the same distance. The default attenuation factors are (1,0,0), resulting in no attenuation.<br> |
 
 *param*
 

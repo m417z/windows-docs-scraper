@@ -56,14 +56,15 @@ If no error occurs and the operation has completed immediately, **LPWSPIoctl** r
 
 | Error code | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [WSA_IO_PENDING](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending) | An overlapped operation was successfully initiated and completion will be indicated at a later time.<br> |
-| [WSAEFAULT](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault) | The *lpvInBuffer*, *lpvOutBuffer* or *lpcbBytesReturned* parameter is not totally contained in a valid part of the user address space, or the *cbInBuffer* or *cbOutBuffer* parameter is too small.<br> |
-| [WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval) | The *dwIoControlCode* is not a valid command, or a supplied input parameter is not acceptable, or the command is not applicable to the type of socket supplied.<br> |
-| [WSAEINPROGRESS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinprogress) | The function is invoked when a callback is in progress.<br> |
-| [WSAENETDOWN](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown) | The network subsystem has failed.<br> |
-| [WSAENOTSOCK](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock) | The descriptor *s* is not a socket.<br> |
-| [WSAEOPNOTSUPP](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp) | The specified IOCTL command cannot be realized. For example, the flow specifications specified in **SIO_SET_QOS** cannot be satisfied.<br> |
-| [WSAEWOULDBLOCK](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) | The socket is marked as nonblocking and the requested operation would block.<br>
+| [WSA_IO_PENDING](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending) | An overlapped operation was successfully initiated and completion will be indicated at a later time. |
+| [WSAEFAULT](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault) | The *lpvInBuffer*, *lpvOutBuffer* or *lpcbBytesReturned* parameter is not totally contained in a valid part of the user address space, or the *cbInBuffer* or *cbOutBuffer* parameter is too small. |
+| [WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval) | The *dwIoControlCode* is not a valid command, or a supplied input parameter is not acceptable, or the command is not applicable to the type of socket supplied. |
+| [WSAEINPROGRESS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinprogress) | The function is invoked when a callback is in progress. |
+| [WSAENETDOWN](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown) | The network subsystem has failed. |
+| [WSAENOTSOCK](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock) | The descriptor *s* is not a socket. |
+| [WSAEOPNOTSUPP](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp) | The specified IOCTL command cannot be realized. For example, the flow specifications specified in **SIO_SET_QOS** cannot be satisfied. |
+| [WSAEWOULDBLOCK](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) | The socket is marked as nonblocking and the requested operation would block.
+
 ## Remarks
 
 This routine is used to set or retrieve operating parameters associated with the socket, the transport protocol, or the communications subsystem. If both *lpOverlapped* and *lpCompletionRoutine* are **NULL**, the socket in this function will be treated as a nonoverlapped socket.

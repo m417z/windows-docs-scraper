@@ -12,7 +12,7 @@ Initializes a new instance of the **XMMATRIX** structure from a sixteen element 
 
 ### `pArray`
 
-Address of a 16 element float array, specifying the value of each member of a new instance of **XMMATRIX**.
+Address of a 16 element \<wdcml:mark type="appdef" xmlns:wdcml="http://microsoft.com/wdcml">float\</wdcml:mark> array, specifying the value of each member of a new instance of **XMMATRIX**.
 
 ## Remarks
 

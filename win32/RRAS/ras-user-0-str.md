@@ -12,26 +12,10 @@ A set of bit flags that specify the RAS privileges of the user. This member can 
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-|
-
-**RASPRIV\_NoCallback**
-
-| The user has no call-back privilege.<br> |
-|
-
-**RASPRIV\_AdminSetCallback**
-
-| The user account is configured to have the administrator set the call-back number.<br> |
-|
-
-**RASPRIV\_CallerSetCallback**
-
-| The remote user can specify a call-back phone number when dialing in.<br> |
-|
-
-**RASPRIV\_DialinPrivilege**
-
-| The user has permission to dial in to this server.<br> |
+| **RASPRIV\_NoCallback** | The user has no call-back privilege.<br> |
+| **RASPRIV\_AdminSetCallback** | The user account is configured to have the administrator set the call-back number.<br> |
+| **RASPRIV\_CallerSetCallback** | The remote user can specify a call-back phone number when dialing in.<br> |
+| **RASPRIV\_DialinPrivilege** | The user has permission to dial in to this server.<br> |
 
 Specify one of the call-back flags in the call to the [**RasAdminUserSetInfo**](https://learn.microsoft.com/windows/win32/rras/rasadminusersetinfo) function.
 

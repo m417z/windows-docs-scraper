@@ -9,19 +9,19 @@ control code retrieves the current energy measurement and the time at which the 
 
 ### Input buffer
 
- None.
+\<text> None. \</text>
 
 ### Input buffer length
 
- None.
+\<text> None. \</text>
 
 ### Output buffer
 
- The **AssociatedIrp.SystemBuffer** member specifies the address of a caller-allocated buffer that contains the measurement data from provider device driver.
+\<text> The **AssociatedIrp.SystemBuffer** member specifies the address of a caller-allocated buffer that contains the measurement data from provider device driver. \</text>
 
 ### Output buffer length
 
- The length of output buffer should be the size of [EMI_MEASUREMENT_DATA_V1](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_channel_measurement_data) or [EMI_MEASUREMENT_DATA_V2](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_measurement_data_v2) multiply by number of channels, it is specified in the  **Parameters.DeviceIoControl.OutputBufferLength** member.
+\<text> The length of output buffer should be the size of [EMI_MEASUREMENT_DATA_V1](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_channel_measurement_data) or [EMI_MEASUREMENT_DATA_V2](https://learn.microsoft.com/windows/win32/api/emi/ns-emi-emi_measurement_data_v2) multiply by number of channels, it is specified in the  **Parameters.DeviceIoControl.OutputBufferLength** member. \</text>
 
 ### Status block
 

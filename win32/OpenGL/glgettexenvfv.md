@@ -14,16 +14,8 @@ The symbolic name of a texture environment parameter. The following values are a
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**GL\_TEXTURE\_ENV\_MODE**
-
-| The *params* parameter returns the single-valued texture environment mode, a symbolic constant.<br> |
-|
-
-**GL\_TEXTURE\_ENV\_COLOR**
-
-| The *params* parameter returns four integer or floating-point values that are the texture environment color. Integer values, when requested, are linearly mapped from the internal floating-point representation such that 1.0 maps to the most positive representable integer, and -1.0 maps to the most negative representable integer.<br> |
+| **GL\_TEXTURE\_ENV\_MODE** | The *params* parameter returns the single-valued texture environment mode, a symbolic constant.<br> |
+| **GL\_TEXTURE\_ENV\_COLOR** | The *params* parameter returns four integer or floating-point values that are the texture environment color. Integer values, when requested, are linearly mapped from the internal floating-point representation such that 1.0 maps to the most positive representable integer, and -1.0 maps to the most negative representable integer.<br> |
 
 *params*
 

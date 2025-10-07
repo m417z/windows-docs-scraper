@@ -24,7 +24,7 @@ Media control action. This member uses one of the
 This structure may not be extended.
 
 The
-**LINEMEDIACONTROLCALLSTATE** structure defines a triple <call state(s), media-control action>. An array of these triples is passed to the
+**LINEMEDIACONTROLCALLSTATE** structure defines a triple \<call state(s), media-control action>. An array of these triples is passed to the
 [lineSetMediaControl](https://learn.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol) function to set the media control actions triggered by the transition to the call state of the given call. When a transition to a listed call state is detected, the corresponding action on the media stream is invoked.
 
 ## See also
