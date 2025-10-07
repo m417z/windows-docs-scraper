@@ -39,7 +39,7 @@ A markdown documentation file with YAML Front Matter metadata.
 
 ### Online documentation
 
-https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntwritefile
+https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile
 
 ## Example output
 
@@ -71,8 +71,7 @@ C file with the function prototype, scraped from the online documentation.
 
 ```console
 python scraper.py \
-    --input <windows-driver-docs-ddi> \
-    --output <output-folder> \
-    --content-path wdk-ddi-src/content \
-    --base-url https://learn.microsoft.com/windows-hardware/drivers/ddi/
+    --repository windows-driver-docs-ddi \
+    --input <path-to-cloned-repo-root> \
+    --output <output-folder>
 ```
