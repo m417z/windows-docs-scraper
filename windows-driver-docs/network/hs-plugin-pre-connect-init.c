@@ -1,0 +1,3 @@
+typedef DWORD (WINAPI *HS_PLUGIN_PRE_CONNECT_INIT)(
+  _In_ HS_NETWORK_IDENTITY *pNetworkIdentity
+);

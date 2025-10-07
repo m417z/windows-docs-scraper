@@ -1,0 +1,23 @@
+typedef struct _PRINTER_INFO_2 {
+  LPTSTR               pServerName;
+  LPTSTR               pPrinterName;
+  LPTSTR               pShareName;
+  LPTSTR               pPortName;
+  LPTSTR               pDriverName;
+  LPTSTR               pComment;
+  LPTSTR               pLocation;
+  LPDEVMODE            pDevMode;
+  LPTSTR               pSepFile;
+  LPTSTR               pPrintProcessor;
+  LPTSTR               pDatatype;
+  LPTSTR               pParameters;
+  PSECURITY_DESCRIPTOR pSecurityDescriptor;
+  DWORD                Attributes;
+  DWORD                Priority;
+  DWORD                DefaultPriority;
+  DWORD                StartTime;
+  DWORD                UntilTime;
+  DWORD                Status;
+  DWORD                cJobs;
+  DWORD                AveragePPM;
+} PRINTER_INFO_2, *PPRINTER_INFO_2;

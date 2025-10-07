@@ -1,0 +1,3 @@
+<type> WavePrefixProduct(
+   <type> value
+);

@@ -1,0 +1,46 @@
+{
+  "UID": null,
+  "title": "InterlockedPushListSList function",
+  "description": "Inserts a singly-linked list at the front of another singly linked list.",
+  "old-location": null,
+  "ms.assetid": "na",
+  "ms.date": "02/05/2024",
+  "ms.keywords": "InterlockedPushListSListEx",
+  "ms.topic": "reference",
+  "req.header": [
+    "WinBase.h on Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2",
+    "InterlockedAPI.h on Windows 8 and Windows Server 2012"
+  ],
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows Vista [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2008 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "API-MS-Win-Core-interlocked-l1-1-0.dll",
+  "req.irql": null,
+  "topic_type": [
+    "APIRef"
+  ],
+  "api_type": null,
+  "api_location": [
+    "API-MS-Win-Core-interlocked-l1-1-0.dll",
+    "vertdll.dll"
+  ],
+  "api_name": [
+    "InterlockedPushListSList"
+  ],
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "InterlockedPushListSList"
+}

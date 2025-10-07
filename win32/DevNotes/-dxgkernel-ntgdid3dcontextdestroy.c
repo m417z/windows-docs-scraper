@@ -1,0 +1,3 @@
+DWORD APIENTRY NtGdiD3DContextDestroy(
+  _In_ LPD3DNTHAL_CONTEXTDESTROYDATA pContextDestroyData
+);

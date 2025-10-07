@@ -1,0 +1,3 @@
+BYTE MCI_MSF_SECOND(
+   DWORD dwMSF
+);

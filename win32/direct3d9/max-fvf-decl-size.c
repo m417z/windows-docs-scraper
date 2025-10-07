@@ -1,0 +1,3 @@
+typedef enum  { 
+  MAX_FVF_DECL_SIZE  = MAXD3DDECLLENGTH + 1
+} MAX_FVF_DECL_SIZE;

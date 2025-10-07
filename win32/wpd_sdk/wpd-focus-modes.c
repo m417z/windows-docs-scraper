@@ -1,0 +1,6 @@
+typedef enum WPD_FOCUS_MODES { 
+  WPD_FOCUS_UNDEFINED        = 0,
+  WPD_FOCUS_MANUAL           = 1,
+  WPD_FOCUS_AUTOMATIC        = 2,
+  WPD_FOCUS_AUTOMATIC_MACRO  = 3
+} ;

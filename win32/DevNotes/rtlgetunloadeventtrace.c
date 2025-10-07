@@ -1,0 +1,1 @@
+PRTL_UNLOAD_EVENT_TRACE RtlGetUnloadEventTrace(void);

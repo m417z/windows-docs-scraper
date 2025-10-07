@@ -1,0 +1,3 @@
+void ACPI_ENUM_CHILD_LENGTH_FROM_CHILD(
+    Child
+);

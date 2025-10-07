@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpAuditFileAccessEvent(_In_z_ LPCWSTR filePath, _In_z_ LPCWSTR url, DlpEnforcementLevel enforcmentLevel, BOOLEAN userBypass, _In_ DlpTraceInfo* traceInfo);

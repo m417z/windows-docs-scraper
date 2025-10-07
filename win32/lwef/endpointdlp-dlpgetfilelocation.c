@@ -1,0 +1,1 @@
+FileLocation WINAPI DlpGetFileLocation(_In_z_ LPCWSTR destinationFilePath);

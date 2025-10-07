@@ -1,0 +1,3 @@
+NETIOAPI_API GetUnicastIpAddressEntry(
+  _Inout_ PMIB_UNICASTIPADDRESS_ROW Row
+);

@@ -1,0 +1,3 @@
+HCURSOR _LoadCursor(
+    ...
+);

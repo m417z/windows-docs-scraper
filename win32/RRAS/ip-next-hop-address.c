@@ -1,0 +1,4 @@
+typedef struct _IP_NEXT_HOP_ADDRESS {
+  DWORD N_NetNumber;
+  DWORD N_NetMask;
+} IP_NEXT_HOP_ADDRESS, *PIP_NEXT_HOP_ADDRESS;

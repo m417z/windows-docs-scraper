@@ -1,0 +1,4 @@
+typedef DWORD (WINAPI *HS_PLUGIN_QUERY_SUPPORTED_SIMS)(
+  _In_opt_ HS_NETWORK_IDENTITY      *pNetworkIdentity,
+  _Inout_  HS_PLUGIN_SUPPORTED_SIMS *pSupportedSIMs
+);

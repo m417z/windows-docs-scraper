@@ -1,0 +1,9 @@
+typedef struct _STORAGE_HW_FIRMWARE_SLOT_INFO {
+  DWORD Version;
+  DWORD Size;
+  BYTE  SlotNumber;
+  BYTE  ReadOnly  :1;
+  BYTE  Reserved0  :7;
+  BYTE  Reserved1[6];
+  BYTE  Revision[STORAGE_HW_FIRMWARE_REVISION_LENGTH];
+} STORAGE_HW_FIRMWARE_SLOT_INFO, *PSTORAGE_HW_FIRMWARE_SLOT_INFO;

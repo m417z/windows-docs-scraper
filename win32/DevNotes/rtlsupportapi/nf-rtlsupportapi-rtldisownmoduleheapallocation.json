@@ -1,0 +1,24 @@
+{
+  "title": "RtlDisownModuleHeapAllocation function",
+  "description": "Removes an allocation from tracking by Application Verifier so that it isn't flagged as a leak when the module that allocated the memory is unloaded.",
+  "ms.topic": "reference",
+  "ms.date": "03/13/2022",
+  "req.lib": "Ntdll.lib",
+  "req.dll": "Ntdll.dll",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Ntdll.dll"
+  ],
+  "api_name": [
+    "RtlDisownModuleHeapAllocation"
+  ],
+  "targetos": "Windows",
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "RtlDisownModuleHeapAllocation"
+}

@@ -1,0 +1,4 @@
+typedef struct tagMPCLEAN_PRECHECK_DATA {
+  PMPRESOURCE_INFO     BlockedResourceInfo;
+  BlockingResourceInfo PMPRESOURCE_INFO;
+} MPCLEAN_PRECHECK_DATA, *PMPCLEAN_PRECHECK_DATA;

@@ -1,0 +1,7 @@
+typedef struct D3DXATTRIBUTERANGE {
+  DWORD AttribId;
+  DWORD FaceStart;
+  DWORD FaceCount;
+  DWORD VertexStart;
+  DWORD VertexCount;
+} D3DXATTRIBUTERANGE, *LPD3DXATTRIBUTERANGE;

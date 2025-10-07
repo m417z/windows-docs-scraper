@@ -1,0 +1,6 @@
+typedef struct D3DXPLANE {
+  FLOAT a;
+  FLOAT b;
+  FLOAT c;
+  FLOAT d;
+} D3DXPLANE, *LPD3DXPLANE;

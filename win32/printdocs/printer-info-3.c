@@ -1,0 +1,3 @@
+typedef struct _PRINTER_INFO_3 {
+  PSECURITY_DESCRIPTOR pSecurityDescriptor;
+} PRINTER_INFO_3, *PPRINTER_INFO_3;

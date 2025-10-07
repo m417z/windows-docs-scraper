@@ -1,0 +1,4 @@
+typedef struct D3DXKEY_VECTOR3 {
+  FLOAT       Time;
+  D3DXVECTOR3 Value;
+} D3DXKEY_VECTOR3, *LPD3DXKEY_VECTOR3;

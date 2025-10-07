@@ -1,0 +1,3 @@
+NETIOAPI_API GetIpNetEntry2(
+  _Inout_ PMIB_IPNET_ROW2 Row
+);

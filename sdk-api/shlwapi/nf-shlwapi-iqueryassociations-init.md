@@ -8,13 +8,13 @@ Initializes the [IQueryAssociations](https://learn.microsoft.com/windows/desktop
 
 ### `flags` [in]
 
-Type: **[ASSOCF](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme)**
+Type: **[ASSOCF](https://learn.microsoft.com/windows/win32/shell/assocf_str)**
 
-A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following [ASSOCF](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) values.
+A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following [ASSOCF](https://learn.microsoft.com/windows/win32/shell/assocf_str) values.
 
-* [ASSOCF_INIT_BYEXENAME](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme)
-* [ASSOCF_INIT_DEFAULTTOFOLDER](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme)
-* [ASSOCF_INIT_DEFAULTTOSTAR](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme)
+* [ASSOCF_INIT_BYEXENAME](https://learn.microsoft.com/windows/win32/shell/assocf_str)
+* [ASSOCF_INIT_DEFAULTTOFOLDER](https://learn.microsoft.com/windows/win32/shell/assocf_str)
+* [ASSOCF_INIT_DEFAULTTOSTAR](https://learn.microsoft.com/windows/win32/shell/assocf_str)
 
 ### `pszAssoc` [in, optional]
 
@@ -36,7 +36,7 @@ An application's ProgID, such as **Word.Document.8**.
 
 #### Executable name
 
-The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) flag must be set in *flags*.
+The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/shell/assocf_str) flag must be set in *flags*.
 
 ### `hkProgid` [in, optional]
 

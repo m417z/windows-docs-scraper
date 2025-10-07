@@ -1,0 +1,3 @@
+PVOID NDIS_MDL_LINKAGE(
+   PMDL _Mdl
+);

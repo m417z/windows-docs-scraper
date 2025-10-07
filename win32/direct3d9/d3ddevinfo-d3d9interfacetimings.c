@@ -1,0 +1,7 @@
+typedef struct D3DDEVINFO_D3D9INTERFACETIMINGS {
+  FLOAT WaitingForGPUToUseApplicationResourceTimePercent;
+  FLOAT WaitingForGPUToAcceptMoreCommandsTimePercent;
+  FLOAT WaitingForGPUToStayWithinLatencyTimePercent;
+  FLOAT WaitingForGPUExclusiveResourceTimePercent;
+  FLOAT WaitingForGPUOtherTimePercent;
+} D3DDEVINFO_D3D9INTERFACETIMINGS, *LPD3DDEVINFO_D3D9INTERFACETIMINGS;

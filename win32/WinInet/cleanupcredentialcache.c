@@ -1,0 +1,1 @@
+BOOL WINAPI CleanupCredentialCache(void);

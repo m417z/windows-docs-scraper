@@ -1,0 +1,4 @@
+void DbgAssertAligned(
+    ptr,
+    alignment
+);

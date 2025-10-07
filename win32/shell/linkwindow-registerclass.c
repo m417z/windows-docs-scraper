@@ -1,0 +1,1 @@
+BOOL LinkWindow_RegisterClass(void);

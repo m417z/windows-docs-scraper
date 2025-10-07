@@ -1,0 +1,4 @@
+int CALLBACK MRUCMPPROC(
+   LPCTSTR pString1,
+   LPCTSTR pString2
+);

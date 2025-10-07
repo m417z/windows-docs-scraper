@@ -1,0 +1,3 @@
+FLOAT D3DX_Saturate_FLOAT(
+   FLOAT _V
+);

@@ -1,0 +1,8 @@
+typedef struct _FILE_SYSTEM_RECOGNITION_STRUCTURE {
+  UCHAR  Jmp[3];
+  UCHAR  FsName[8];
+  UCHAR  MustBeZero[5];
+  ULONG  Identifier;
+  USHORT Length;
+  USHORT Checksum;
+} FILE_SYSTEM_RECOGNITION_STRUCTURE;

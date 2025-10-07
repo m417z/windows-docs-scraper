@@ -1,0 +1,23 @@
+typedef struct _LSKeyPack {
+  DWORD dwVersion;
+  UCHAR ucKeyPackType;
+  TCHAR szCompanyName[256];
+  TCHAR szKeyPackId[256];
+  TCHAR szProductName[256];
+  TCHAR szProductId[256];
+  TCHAR szProductDesc[256];
+  WORD  wMajorVersion;
+  WORD  wMinorVersion;
+  DWORD dwPlatformType;
+  UCHAR ucLicenseType;
+  DWORD dwLanguageId;
+  UCHAR ucChannelOfPurchase;
+  TCHAR szBeginSerialNumber[256];
+  DWORD dwTotalLicenseInKeyPack;
+  DWORD dwProductFlags;
+  DWORD dwKeyPackId;
+  UCHAR ucKeyPackStatus;
+  DWORD dwActivateDate;
+  DWORD dwExpirationDate;
+  DWORD dwNumberOfLicenses;
+} LSKeyPack, *LPLSKeyPack;

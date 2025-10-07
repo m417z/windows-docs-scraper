@@ -1,0 +1,6 @@
+typedef struct D3DXCOLOR {
+  FLOAT r;
+  FLOAT g;
+  FLOAT b;
+  FLOAT a;
+} D3DXCOLOR, *LPD3DXCOLOR;

@@ -1,0 +1,5 @@
+typedef struct _tagKSJACK_DESCRIPTION3
+{
+  ULONG              ConfigId; 
+
+} KSJACK_DESCRIPTION3, *PKSJACK_DESCRIPTION3;

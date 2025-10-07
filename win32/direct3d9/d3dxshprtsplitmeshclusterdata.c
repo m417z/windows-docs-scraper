@@ -1,0 +1,8 @@
+typedef struct D3DXSHPRTSPLITMESHCLUSTERDATA {
+  UINT uVertStart;
+  UINT uVertLength;
+  UINT uFaceStart;
+  UINT uFaceLength;
+  UINT uClusterStart;
+  UINT uClusterLength;
+} D3DXSHPRTSPLITMESHCLUSTERDATA, *LPD3DXSHPRTSPLITMESHCLUSTERDATA;

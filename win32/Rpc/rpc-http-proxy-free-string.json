@@ -1,0 +1,28 @@
+{
+  "title": "RpcHttpProxyFreeString function",
+  "description": "The RpcHttpProxyFreeString function is used as a callback to the Redirector DLL to free the resources associated with a new server string.",
+  "ms.date": "03/20/2024",
+  "ms.keywords": "RpcHttpProxyFreeString",
+  "ms.topic": "reference",
+  "req.header": "rpcdce.h",
+  "req.include-header": "Rpc.h",
+  "req.target-type": "Windows",
+  "req.lib": "Rpcrt4.lib",
+  "req.dll": "Rpcrt4.dll",
+  "targetos": "Windows",
+  "topic_type": [
+    "APIRef"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Rpcrt4.dll"
+  ],
+  "api_name": [
+    "RpcHttpProxyFreeString"
+  ],
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "RpcHttpProxyFreeString",
+  "_fuzzy_header": "rpcdce.h"
+}

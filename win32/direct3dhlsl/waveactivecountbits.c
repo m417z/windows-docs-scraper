@@ -1,0 +1,3 @@
+uint WaveActiveCountBits(
+   bool bBit
+);

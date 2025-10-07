@@ -34,7 +34,7 @@ Pointer to a null-terminated string containing the number string to format. This
 
 ### `lpFormat` [in, optional]
 
-Pointer to a [NUMBERFMT](https://learn.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta) structure that contains number formatting information, with all members set to appropriate values. If the application does not set this parameter to **NULL**, the function uses the locale only for formatting information not specified in the structure, for example, the locale string value for the negative sign.
+Pointer to a [NUMBERFMT](https://learn.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta) structure that contains number formatting information, with all members set to appropriate values. If the application does not set this parameter to **NULL**, the function uses the locale formatting information.
 
 ### `lpNumberStr` [out, optional]
 

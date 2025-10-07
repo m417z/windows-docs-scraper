@@ -1,0 +1,21 @@
+HRESULT D3DXUVAtlasCreate(
+  _In_        LPD3DXMESH      pMesh,
+  _In_        UINT            dwMaxChartNumber,
+  _In_        FLOAT           fMaxStretch,
+  _In_        UINT            dwWidth,
+  _In_        UINT            dwHeight,
+  _In_        FLOAT           fGutter,
+  _In_        DWORD           dwTextureIndex,
+  _In_  const DWORD           *pdwAdjacency,
+        const DWORD           *pdwFalseEdges,
+  _In_        FLOAT           *pfIMTArray,
+  _In_        LPD3DXUVATLASCB pCallback,
+  _In_        FLOAT           fCallbackFrequency,
+  _In_        LPVOID          pUserContext,
+  _In_        DWORD           dwOptions,
+  _In_        LPD3DXMESH      *ppMeshOut,
+  _Out_       LPD3DXBUFFER    *ppFacePartitioning,
+  _Out_       LPD3DXBUFFER    *ppVertexRemapArray,
+  _Out_       FLOAT           *pfMaxStretchOut,
+  _Out_       UINT            *pdwNumChartsOut
+);

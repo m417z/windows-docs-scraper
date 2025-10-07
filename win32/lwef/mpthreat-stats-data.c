@@ -1,0 +1,3 @@
+typedef struct tagMPTHREAT_STATS_DATA {
+  DWORD dwThreatCount;
+} MPTHREAT_STATS_DATA, *PMPTHREAT_STATS_DATA;

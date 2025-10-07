@@ -1,0 +1,3 @@
+HRSRC _FindResource(
+    ...
+);

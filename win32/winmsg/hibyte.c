@@ -1,0 +1,3 @@
+BYTE HIBYTE(
+   WORD w
+);

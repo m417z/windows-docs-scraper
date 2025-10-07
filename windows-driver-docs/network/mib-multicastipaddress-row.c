@@ -1,0 +1,6 @@
+typedef struct _MIB_MULTICASTIPADDRESS_ROW {
+  SOCKADDR_INET Address;
+  NET_IFINDEX   InterfaceIndex;
+  NET_LUID      InterfaceLuid;
+  SCOPE_ID      ScopeId;
+} MIB_MULTICASTIPADDRESS_ROW, *PMIB_MULTICASTIPADDRESS_ROW;

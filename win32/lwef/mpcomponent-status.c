@@ -1,0 +1,4 @@
+typedef struct tagMPCOMPONENT_STATUS {
+  BOOL    fEnable;
+  HRESULT hResult;
+} MPCOMPONENT_STATUS, *PMPCOMPONENT_STATUS;

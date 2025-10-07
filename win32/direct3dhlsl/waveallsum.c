@@ -1,0 +1,3 @@
+<type> WaveActiveSum(
+   <type> expr
+);

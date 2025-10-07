@@ -1,0 +1,24 @@
+{
+  "description": "Sets the contents of a buffer to zeros without interference from compiler optimizations in situations where the developer needs to additionally be sure that alignment faults will not be generated when accessing device memory.",
+  "ms.assetid": "f55de17c-2f9f-474b-bb36-8a001c1c9388",
+  "title": "ZeroDeviceMemory function (winbase.h)",
+  "ms.topic": "reference",
+  "ms.date": "01/19/2024",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_name": [
+    "ZeroDeviceMemory"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winbase.h",
+    "volatileaccessu.lib"
+  ],
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "ZeroDeviceMemory",
+  "_fuzzy_header": "winbase.h"
+}

@@ -1,0 +1,1 @@
+NTSTATUS _stdcall AuxKlibInitialize(void);

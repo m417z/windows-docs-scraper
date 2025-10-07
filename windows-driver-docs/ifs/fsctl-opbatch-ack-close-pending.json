@@ -1,0 +1,24 @@
+{
+  "title": "FSCTL_OPBATCH_ACK_CLOSE_PENDING Control Code",
+  "description": "The FSCTL_OPBATCH_ACK_CLOSE_PENDING control code responds to notification that an exclusive (level 1, batch, or filter) opportunistic lock (oplock) on a file has been broken.",
+  "keywords": [
+    "FSCTL_OPBATCH_ACK_CLOSE_PENDING control code Installable File System Drivers"
+  ],
+  "topic_type": [
+    "apiref"
+  ],
+  "api_name": [
+    "FSCTL_OPBATCH_ACK_CLOSE_PENDING"
+  ],
+  "api_location": [
+    "ntifs.h"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "ms.date": "03/13/2023",
+  "ms.topic": "reference",
+  "_fuzzy_type": "control code",
+  "_fuzzy_ident": "FSCTL_OPBATCH_ACK_CLOSE_PENDING",
+  "_fuzzy_header": "ntifs.h"
+}

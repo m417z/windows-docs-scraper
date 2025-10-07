@@ -1,0 +1,3 @@
+XMFLOAT4 D3DX_FLOAT4_to_R8G8B8A8_UNORM(
+   UINT packedInput
+);

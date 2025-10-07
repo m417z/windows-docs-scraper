@@ -1,0 +1,22 @@
+typedef struct _STATISTICS {
+  __int64 TimeElapsed;
+  DWORD   TotalFramesCaptured;
+  DWORD   TotalBytesCaptured;
+  DWORD   TotalFramesFiltered;
+  DWORD   TotalBytesFiltered;
+  DWORD   TotalMulticastsFiltered;
+  DWORD   TotalBroadcastsFiltered;
+  DWORD   TotalFramesSeen;
+  DWORD   TotalBytesSeen;
+  DWORD   TotalMulticastsReceived;
+  DWORD   TotalBroadcastsReceived;
+  DWORD   TotalFramesDropped;
+  DWORD   TotalFramesDroppedFromBuffer;
+  DWORD   MacFramesReceived;
+  DWORD   MacCRCErrors;
+  __int64 MacBytesReceivedEx;
+  DWORD   MacFramesDropped_NoBuffers;
+  DWORD   MacMulticastsReceived;
+  DWORD   MacBroadcastsReceived;
+  DWORD   MacFramesDropped_HwError;
+} STATISTICS, *LPSTATISTICS;

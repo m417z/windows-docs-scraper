@@ -1,0 +1,3 @@
+XMFLOAT4 D3DX_R8G8B8A8_UNORM_SRGB_to_FLOAT4_inexact(
+   UINT packedInput
+);

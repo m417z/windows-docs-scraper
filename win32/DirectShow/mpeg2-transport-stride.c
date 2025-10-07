@@ -1,0 +1,5 @@
+typedef struct _MPEG2_TRANSPORT_STRIDE {
+  DWORD dwOffset;
+  DWORD dwPacketLength;
+  DWORD dwStride;
+} MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE;

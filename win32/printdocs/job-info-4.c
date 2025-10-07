@@ -1,0 +1,26 @@
+typedef struct _JOB_INFO_4 {
+  DWORD                JobId;
+  LPTSTR               pPrinterName;
+  LPTSTR               pMachineName;
+  LPTSTR               pUserName;
+  LPTSTR               pDocument;
+  LPTSTR               pNotifyName;
+  LPTSTR               pDatatype;
+  LPTSTR               pPrintProcessor;
+  LPTSTR               pParameters;
+  LPTSTR               pDriverName;
+  LPDEVMODE            pDevMode;
+  LPTSTR               pStatus;
+  PSECURITY_DESCRIPTOR pSecurityDescriptor;
+  DWORD                Status;
+  DWORD                Priority;
+  DWORD                Position;
+  DWORD                StartTime;
+  DWORD                UntilTime;
+  DWORD                TotalPages;
+  DWORD                Size;
+  SYSTEMTIME           Submitted;
+  DWORD                Time;
+  DWORD                PagesPrinted;
+  LONG                 SizeHigh;
+} JOB_INFO_4, *PJOB_INFO_4;

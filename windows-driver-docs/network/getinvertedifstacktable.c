@@ -1,0 +1,3 @@
+NETIOAPI_API GetInvertedIfStackTable(
+  _Out_ PMIB_INVERTEDIFSTACK_TABLE *Table
+);

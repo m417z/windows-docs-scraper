@@ -1,0 +1,4 @@
+typedef struct _EXPRESSION {
+  DWORD  nAndExps;
+  ANDEXP AndExp[MAX_PATTERNS];
+} EXPRESSION, *LPEXPRESSION;

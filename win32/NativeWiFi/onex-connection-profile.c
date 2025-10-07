@@ -1,0 +1,28 @@
+typedef struct _ONEX_CONNECTION_PROFILE {
+  DWORD                dwVersion;
+  DWORD                dwTotalLen;
+  DWORD                fOneXSupplicantFlags  :1;
+  DWORD                fsupplicantMode  :1;
+  DWORD                fauthMode  :1;
+  DWORD                fHeldPeriod  :1;
+  DWORD                fAuthPeriod  :1;
+  DWORD                fStartPeriod  :1;
+  DWORD                fMaxStart  :1;
+  DWORD                fMaxAuthFailures  :1;
+  DWORD                fNetworkAuthTimeout  :1;
+  DWORD                fAllowLogonDialogs  :1;
+  DWORD                fNetworkAuthWithUITimeout  :1;
+  DWORD                fUserBasedVLan  :1;
+  DWORD                dwOneXSupplicantFlags;
+  ONEX_SUPPLICANT_MODE supplicantMode;
+  ONEX_AUTH_MODE       authMode;
+  DWORD                dwHeldPeriod;
+  DWORD                dwAuthPeriod;
+  DWORD                dwStartPeriod;
+  DWORD                dwMaxStart;
+  DWORD                dwMaxAuthFailures;
+  DWORD                dwNetworkAuthTimeout;
+  DWORD                dwNetworkAuthWithUITimeout;
+  BOOL                 bAllowLogonDialogs;
+  BOOL                 bUserBasedVLan;
+} ONEX_CONNECTION_PROFILE, *PONEX_CONNECTION_PROFILE;

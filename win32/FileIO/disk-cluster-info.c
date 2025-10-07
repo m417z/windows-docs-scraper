@@ -1,0 +1,6 @@
+typedef struct _DISK_CLUSTER_INFO {
+  ULONG     Version;
+  ULONGLONG Flags;
+  ULONGLONG FlagsMask;
+  BOOLEAN   Notify;
+} DISK_CLUSTER_INFO, *PDISK_CLUSTER_INFO;

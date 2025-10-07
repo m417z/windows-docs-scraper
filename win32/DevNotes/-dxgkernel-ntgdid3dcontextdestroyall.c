@@ -1,0 +1,1 @@
+DWORD APIENTRY NtGdiD3DContextDestroyAll(void);

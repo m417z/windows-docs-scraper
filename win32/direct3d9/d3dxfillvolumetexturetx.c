@@ -1,0 +1,4 @@
+HRESULT D3DXFillVolumeTextureTX(
+  _In_ LPDIRECT3DVOLUMETEXTURE9 pTexture,
+  _In_ LPD3DXTEXTURESHADER      pTextureShader
+);

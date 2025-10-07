@@ -1,0 +1,8 @@
+union DSTORAGE_DESTINATION {
+  DSTORAGE_DESTINATION_MEMORY                      Memory;
+  DSTORAGE_DESTINATION_BUFFER                      Buffer;
+  DSTORAGE_DESTINATION_TEXTURE_REGION              Texture;
+  DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES       MultipleSubresources;
+  DSTORAGE_DESTINATION_TILES                       Tiles;
+  DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES_RANGE MultipleSubresourcesRange;
+};

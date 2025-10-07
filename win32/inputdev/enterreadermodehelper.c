@@ -1,0 +1,3 @@
+LONG EnterReaderModeHelper(
+    HANDLE hwnd
+);

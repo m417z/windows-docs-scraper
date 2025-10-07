@@ -1,0 +1,3 @@
+XMUINT2 D3DX_R16G16_UINT_to_UINT2(
+   UINT packedInput
+);

@@ -1,0 +1,5 @@
+typedef struct _D3DAUTHENTICATEDCHANNEL_QUERY_INPUT {
+  GUID           QueryType;
+  hChannel       HANDLE;
+  SequenceNumber UINT;
+} D3DAUTHENTICATEDCHANNEL_QUERY_INPUT;

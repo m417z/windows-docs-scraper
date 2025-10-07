@@ -1,0 +1,4 @@
+PVOID WdfObjectGetTypedContext(
+    Handle,
+    Type
+);

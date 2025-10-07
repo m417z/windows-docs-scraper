@@ -1,0 +1,1 @@
+BOOL WINAPI CSCIsCSCEnabled(void);

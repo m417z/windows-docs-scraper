@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpReleaseBuffer(_In_ const DlpSerializedBuffer* buffer);

@@ -1,0 +1,3 @@
+HRESULT D3DX10CreateSkinInfo(
+  _Out_ LPD3DX10SKININFO *ppSkinInfo
+);

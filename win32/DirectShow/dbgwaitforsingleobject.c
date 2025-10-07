@@ -1,0 +1,3 @@
+DWORD DbgWaitForSingleObject(
+   HANDLE h
+);

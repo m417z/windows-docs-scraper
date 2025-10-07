@@ -1,0 +1,3 @@
+typedef struct _PF_FOLLOWENTRY {
+  char szProtocol[MAX_PROTOCOL_NAME_LEN];
+} PF_FOLLOWENTRY, *PPF_FOLLOWENTRY;

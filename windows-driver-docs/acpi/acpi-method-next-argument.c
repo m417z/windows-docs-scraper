@@ -1,0 +1,3 @@
+ACPI_METHOD_NEXT_ARGUMENT(
+    Argument
+);

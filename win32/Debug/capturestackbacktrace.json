@@ -1,0 +1,42 @@
+{
+  "UID": null,
+  "title": "CaptureStackBackTrace function",
+  "description": "Captures a stack back trace by walking up the stack.",
+  "old-location": null,
+  "ms.assetid": "na",
+  "ms.date": "07/14/2025",
+  "ms.keywords": "RtlCaptureStackBackTrace",
+  "ms.topic": "reference",
+  "req.header": "WinBase.h",
+  "req.include-header": "Windows.h",
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows XP [desktop apps | UWP apps]",
+  "req.target-min-winversvr": "Windows Server 2003 [desktop apps | UWP apps]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Kernel32.lib",
+  "req.dll": "API-MS-Win-Core-rtlsupport-l1-1-0.dll",
+  "req.irql": null,
+  "topic_type": [
+    "APIRef"
+  ],
+  "api_type": null,
+  "api_location": [
+    "API-MS-Win-Core-rtlsupport-l1-1-0.dll"
+  ],
+  "api_name": [
+    "CaptureStackBackTrace"
+  ],
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "CaptureStackBackTrace"
+}

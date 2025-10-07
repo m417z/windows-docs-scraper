@@ -1,0 +1,4 @@
+typedef struct _PF_PARSERDLLINFO {
+  DWORD         nParsers;
+  PF_PARSERINFO ParserInfo[];
+} PF_PARSERDLLINFO, *PPF_PARSERDLLINFO;

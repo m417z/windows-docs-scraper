@@ -1,0 +1,3 @@
+bool WaveActiveAllTrue(
+   bool expr
+);

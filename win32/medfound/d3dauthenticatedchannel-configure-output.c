@@ -1,0 +1,7 @@
+typedef struct _D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT {
+  D3D_OMAC omac;
+  GUID     ConfigureType;
+  HANDLE   hChannel;
+  UINT     SequenceNumber;
+  HRESULT  ReturnCode;
+} D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT;

@@ -1,0 +1,3 @@
+void ASSERT(
+   BOOL cond
+);

@@ -1,0 +1,3 @@
+LPRECOGNIZEDATATABLE WINAPI GetFrameRecognizeData(
+  _In_ HFRAME hFrame
+);

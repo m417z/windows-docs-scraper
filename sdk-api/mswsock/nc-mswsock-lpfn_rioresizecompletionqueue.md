@@ -16,26 +16,10 @@ If no error occurs, the **RIOResizeCompletionQueue** function returns **TRUE**. 
 
 | Return code | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**[WSAEFAULT](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**
-
-| The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned if the completion queue specified in the *CQ* parameter contains an invalid pointer.<br> |
-|
-
-**[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**
-
-| An invalid parameter was passed to the function. This error is returned if the *CQ* parameter is not valid (RIO\_INVALID\_CQ, for example). This error is also returned if the size of the queue specified in the *QueueSize* parameter is greater than **RIO\_CQ\_MAX\_SIZE**.<br> |
-|
-
-**[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**
-
-| Sufficient memory could not be allocated. This error is returned if memory could not be allocated for the queue specified in the *QueueSize* parameter.<br> |
-|
-
-**[WSAETOOMANYREFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaetoomanyrefs)**
-
-| There are too many operations that still reference the I/O completion queue. Resizing of this I/O completion queue to be smaller is not possible at this time.<br> |
+| **[WSAEFAULT](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)** | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned if the completion queue specified in the *CQ* parameter contains an invalid pointer.<br> |
+| **[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)** | An invalid parameter was passed to the function. This error is returned if the *CQ* parameter is not valid (RIO\_INVALID\_CQ, for example). This error is also returned if the size of the queue specified in the *QueueSize* parameter is greater than **RIO\_CQ\_MAX\_SIZE**.<br> |
+| **[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)** | Sufficient memory could not be allocated. This error is returned if memory could not be allocated for the queue specified in the *QueueSize* parameter.<br> |
+| **[WSAETOOMANYREFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaetoomanyrefs)** | There are too many operations that still reference the I/O completion queue. Resizing of this I/O completion queue to be smaller is not possible at this time.<br> |
 
 The **RIOResizeCompletionQueue** function resizes an I/O completion queue to be either larger or smaller. If the I/O completion queue already contains completions, those completions will be copied over to the new completion queue.
 

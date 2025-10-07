@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpAuditOperationEnforcementEvent(_In_z_ LPCWSTR source, _In_z_ LPCWSTR target, _In_z_ LPCWSTR actionType, DlpEnforcementLevel enforcmentLevel, BOOLEAN userBypass, _In_ DlpTraceInfo* traceInfo);

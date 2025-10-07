@@ -1,0 +1,9 @@
+{
+  "description": "User-mode API - Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.",
+  "title": "NtCancelIoFileEx function",
+  "ms.topic": "reference",
+  "ms.date": "09/08/2022",
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "NtCancelIoFileEx",
+  "_fuzzy_header": "ntioapi.h"
+}

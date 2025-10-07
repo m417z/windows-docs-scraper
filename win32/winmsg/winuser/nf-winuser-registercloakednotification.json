@@ -1,0 +1,36 @@
+{
+  "UID": "NF:winuser.RegisterCloakedNotification",
+  "description": "Allows applications to register or unregister a window for cloak state change notification.",
+  "tech.root": "winmsg",
+  "title": "RegisterCloakedNotification function",
+  "ms.topic": "reference",
+  "ms.date": "2/25/2025",
+  "req.lib": null,
+  "req.dll": "User32.dll",
+  "topic_type": [
+    "APIRef"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "user32.dll"
+  ],
+  "api_name": [
+    "RegisterCloakedNotification"
+  ],
+  "f1_keywords": [
+    "RegisterCloakedNotification",
+    "winuser/RegisterCloakedNotification"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "RegisterCloakedNotification"
+  ],
+  "targetos": "Windows",
+  "ms.localizationpriority": "low",
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "RegisterCloakedNotification"
+}

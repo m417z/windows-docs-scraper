@@ -1,0 +1,4 @@
+typedef struct tagMxdcS0PagePassthroughEscape {
+  MXDC_ESCAPE_HEADER_T mxdcEscape;
+  MXDC_S0PAGE_DATA_T   xpsS0PageData;
+} MXDC_S0PAGE_PASSTHROUGH_ESCAPE_T, *P_MXDC_S0PAGE_PASSTHROUGH_ESCAPE_T;

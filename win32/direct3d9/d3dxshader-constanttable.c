@@ -1,0 +1,9 @@
+typedef struct D3DXSHADER_CONSTANTTABLE {
+  DWORD Size;
+  DWORD Creator;
+  DWORD Version;
+  DWORD Constants;
+  DWORD ConstantInfo;
+  DWORD Flags;
+  DWORD Target;
+} D3DXSHADER_CONSTANTTABLE, *LPD3DXSHADER_CONSTANTTABLE;

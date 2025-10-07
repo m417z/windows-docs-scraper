@@ -1,0 +1,3 @@
+BYTE MCI_MSF_MINUTE(
+   DWORD dwMSF
+);

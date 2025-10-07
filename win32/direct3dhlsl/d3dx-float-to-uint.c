@@ -1,0 +1,4 @@
+UINT D3DX_FLOAT_to_UINT(
+   FLOAT _V,
+   FLOAT _Scale
+);

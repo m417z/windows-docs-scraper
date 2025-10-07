@@ -1,0 +1,4 @@
+DWORD MAKELONG(
+   WORD a,
+   WORD b
+);

@@ -1,0 +1,53 @@
+# SM\_SendCTPassThru function
+
+The SM\_SendCTPassThru WMI method sends a common transport (CT) pass-through command to the indicated port.
+
+## Parameters
+
+*HbaPortWWN*
+A worldwide name (WWN) for the HBA through which the target is accessed. This information is delivered to the miniport driver in the PortWWN member of a SendCTPassThru\_IN structure.
+
+*InRespBufferMaxSize*
+The maximum size of the response buffer.
+
+*RequestBufferSize*
+The size, in bytes, of the buffer that will hold the results of the common transport command. The miniport driver returns this information in the RequestBufferSize member of a SM\_SendCTPassThru\_IN structure.
+
+*RequestBuffer*
+The results of the common transport command. The miniport driver returns this information in the RequestBuffer member of a SM\_SendCTPassThru\_IN structure.
+
+*HBAStatus*
+The status of the operation. For a list of allowed values and their descriptions, see [HBA\_STATUS](https://learn.microsoft.com/windows-hardware/drivers/storage/hba-status). The miniport driver returns this information in the HBAStatus member of a SM\_SendCTPassThru\_OUT structure.
+
+*TotalResponseBufferSize*
+The size, in bytes, of the results common transport command. The miniport driver returns this information in the TotalResponseBufferSize member of a SM\_SendCTPassThru\_OUT structure.
+
+*ActualResponseBufferSize*
+The size, in bytes, of the data that was actually retrieved. The miniport driver returns this information in the ActualResponseBufferSize member of a SM\_SendCTPassThru\_OUT structure.
+
+*ResponseBuffer*
+The results of the common transport command. The miniport driver returns this information in the ResponseBuffer member of a SM\_SendCTPassThru\_OUT structure.
+
+## Return value
+
+Not applicable to WMI methods.
+
+## Remarks
+
+This WMI method belongs to the MS\_SM\_FabricAndDomainManagementMethods WMI Class.
+
+## Requirements
+
+|  |  |
+| --- | --- |
+| Target platform | Desktop |
+| Header | Hbapiwmi.h |
+
+## See also
+
+[HBA\_STATUS](https://learn.microsoft.com/windows-hardware/drivers/storage/hba-status)
+
+[**SM\_SendCTPassThru\_IN**](https://learn.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_sm_sendctpassthru_in)
+
+[**SM\_SendCTPassThru\_OUT**](https://learn.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_sm_sendctpassthru_out)
+

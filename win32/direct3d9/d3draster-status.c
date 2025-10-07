@@ -1,0 +1,4 @@
+typedef struct D3DRASTER_STATUS {
+  BOOL InVBlank;
+  UINT ScanLine;
+} D3DRASTER_STATUS, *LPD3DRASTER_STATUS;

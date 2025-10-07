@@ -1,0 +1,1 @@
+BOOL pSetupIsUserAdmin(void);

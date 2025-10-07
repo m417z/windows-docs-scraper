@@ -1,0 +1,28 @@
+{
+  "description": "Creates an input/output (I/O) completion port and associates it with a specified file handle, or creates an I/O completion port that is not yet associated with a file handle, allowing association at a later time.",
+  "ms.assetid": "40cb47fc-7b15-47f6-bee2-2611d4686053",
+  "title": "CreateIoCompletionPort function (IoAPI.h)",
+  "ms.topic": "reference",
+  "ms.date": "05/31/2018",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_name": [
+    "CreateIoCompletionPort"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-io-l1-1-0.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-io-l1-1-1.dll",
+    "api-ms-win-downlevel-kernel32-l1-1-0.dll"
+  ],
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "CreateIoCompletionPort",
+  "_fuzzy_header": "ioapi.h"
+}

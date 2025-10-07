@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpAuditOperationEnforcementEventEx2(_In_z_ LPCWSTR source, _In_z_ LPCWSTR target, _In_z_ LPCWSTR actionType, _In_ DlpEnforcementLevel enforcmentLevel, _In_ BOOLEAN userBypass, _In_ DlpTraceInfo* traceInfo, _In_opt_z_ LPCWSTR businessJustification, _In_opt_z_ LPCWSTR printerOutputFileName, _In_opt_z_ LPCWSTR printerName, _In_opt_z_ LPCWSTR printerJobName);

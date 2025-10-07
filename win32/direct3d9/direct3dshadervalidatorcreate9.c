@@ -1,0 +1,1 @@
+void Direct3DShaderValidatorCreate9(void);

@@ -1,0 +1,1 @@
+GLUnurbs* WINAPI gluNewNurbsRenderer(void);

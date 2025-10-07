@@ -1,0 +1,5 @@
+typedef struct _PPROTECT_FILE_ENTRY {
+  PWSTR SourceFileName;
+  PWSTR FileName;
+  PWSTR InfName;
+} PPROTECT_FILE_ENTRY, *PPPROTECT_FILE_ENTRY;

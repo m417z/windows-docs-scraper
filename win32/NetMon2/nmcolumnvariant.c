@@ -1,0 +1,21 @@
+typedef struct {
+  NMCOLUMNTYPE Type;
+  union {
+    BYTE        Uint8Val;
+    char        Sint8Val;
+    WORD        Uint16Val;
+    short       Sint16Val;
+    DWORD       Uint32Val;
+    LONG        Sint32Val;
+    DOUBLE      Float64Val;
+    DWORD       FrameVal;
+    BOOL        YesNoVal;
+    BOOL        OnOffVal;
+    BOOL        TrueFalseVal;
+    BYTE        MACAddrVal[MAC_ADDRESS_SIZE];
+    IPX_ADDRESS IPXAddrVal;
+    DWORD       IPAddrVal;
+    DOUBLE      VarTimeVal;
+    LPSTR       pStringVal;
+  } Value;
+} NMCOLUMNVARIANT;

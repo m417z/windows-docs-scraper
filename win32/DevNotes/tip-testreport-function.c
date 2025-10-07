@@ -1,0 +1,2 @@
+void TestReport(
+    TipReportingInfo* reportingInfo);

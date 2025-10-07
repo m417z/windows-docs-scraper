@@ -1,0 +1,3 @@
+FARPROC _GetProcAddress_(
+    ...
+);

@@ -1,0 +1,5 @@
+typedef struct _DEVPROPCOMPKEY {
+  DEVPROPKEY   Key;
+  DEVPROPSTORE Store;
+  PCWSTR       LocaleName;
+} DEVPROPCOMPKEY, *PDEVPROPCOMPKEY;

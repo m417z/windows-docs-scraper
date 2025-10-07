@@ -1,0 +1,7 @@
+void WINAPI glEvalMesh2(
+   GLenum mode,
+   GLint  i1,
+   GLint  i2,
+   GLint  j1,
+   GLint  j2
+);

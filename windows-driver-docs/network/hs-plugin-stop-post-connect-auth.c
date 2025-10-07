@@ -1,0 +1,3 @@
+typedef DWORD (WINAPI *HS_PLUGIN_STOP_POST_CONNECT_AUTH)(
+  _In_ HS_NETWORK_IDENTITY *pNetworkIdentity
+);

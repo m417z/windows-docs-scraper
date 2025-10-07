@@ -1,0 +1,6 @@
+LONGLONG WINAPI Int64x32Div32(
+   LONGLONG a,
+   LONGLONG b,
+   LONGLONG c,
+   LONGLONG rnd
+);

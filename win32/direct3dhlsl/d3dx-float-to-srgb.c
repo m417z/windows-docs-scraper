@@ -1,0 +1,3 @@
+FLOAT D3DX_FLOAT_to_SRGB(
+   FLOAT val
+);

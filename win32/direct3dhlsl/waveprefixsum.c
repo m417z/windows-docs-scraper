@@ -1,0 +1,3 @@
+<type> WavePrefixSum(
+   <type> value
+);

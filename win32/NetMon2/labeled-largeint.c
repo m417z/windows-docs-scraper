@@ -1,0 +1,4 @@
+typedef struct _LABELED_LARGEINT {
+  LARGE_INTEGER Value;
+  LPSTR         Label;
+} LABELED_LARGEINT, *LPLABELED_LARGEINT;

@@ -1,0 +1,7 @@
+typedef enum tagMP_HASH_TYPE { 
+  MP_HASH_TYPE_NONE    = 0,
+  MP_HASH_TYPE_CRC32   = 2,
+  MP_HASH_TYPE_MD5     = 4,
+  MP_HASH_TYPE_SHA1    = 8,
+  MP_HASH_TYPE_SHA256  = 16
+} MP_HASH_TYPE, *PMP_HASH_TYPE;

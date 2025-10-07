@@ -1,0 +1,1 @@
+} H245_CAPABILITY;

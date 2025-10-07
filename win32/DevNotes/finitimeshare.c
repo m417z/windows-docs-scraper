@@ -1,0 +1,1 @@
+BOOL __cdecl FInitIMEShare(void);

@@ -1,0 +1,3 @@
+typedef struct _PWM_PIN_IS_STARTED_OUTPUT {
+  BOOLEAN IsStarted;
+} PWM_PIN_IS_STARTED_OUTPUT;

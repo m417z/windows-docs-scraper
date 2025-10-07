@@ -1,0 +1,1 @@
+PPF_PARSERDLLINFO WINAPI ParserAutoInstallInfo(void);

@@ -1,0 +1,4 @@
+SCESTATUS WINAPI SceSvcAttachmentUpdate(
+  _In_ PSCESVC_CALLBACK_INFO     pSceCbInfo,
+  _In_ SCESVC_CONFIGURATION_INFO *ServiceInfo
+);

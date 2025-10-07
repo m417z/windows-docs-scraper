@@ -1,0 +1,5 @@
+typedef struct _KEYSVC_UNICODE_STRING {
+  USHORT Length;
+  USHORT MaximumLength;
+  USHORT *Buffer;
+} KEYSVC_UNICODE_STRING, *PKEYSVC_UNICODE_STRING;

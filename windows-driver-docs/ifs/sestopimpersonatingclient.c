@@ -1,0 +1,1 @@
+VOID SeStopImpersonatingClient(void);

@@ -1,0 +1,22 @@
+typedef struct _GRL_HEADER {
+  WCHAR    wszIdentifier[6];
+  WORD     wFormatMajor;
+  WORD     wFormatMinor;
+  FILETIME CreationTime;
+  DWORD    dwSequenceNumber;
+  DWORD    dwForceRebootVersion;
+  DWORD    dwForceProcessRestartVersion;
+  DWORD    cbRevocationSectionOffset;
+  DWORD    cRevokedKernelBinaries;
+  DWORD    cRevokedUserBinaries;
+  DWORD    cRevokedCertificates;
+  DWORD    cTrustedRoots;
+  DWORD    cbExtensibleSectionOffset;
+  DWORD    cExtensibleEntries;
+  DWORD    cbRenewalSectionOffset;
+  DWORD    cRevokedKernelBinaryRenewals;
+  DWORD    cRevokedUserBinaryRenewals;
+  DWORD    cRevokedCertificateRenewals;
+  DWORD    cbSignatureCoreOffset;
+  DWORD    cbSignatureExtOffset;
+} GRL_HEADER;

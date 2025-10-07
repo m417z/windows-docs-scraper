@@ -1,0 +1,3 @@
+HRESULT STDAPICALLTYPE DirectXFileCreate(
+   LPDIRECTXFILE *lplpDirectXFile
+);

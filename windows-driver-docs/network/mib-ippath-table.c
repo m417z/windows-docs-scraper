@@ -1,0 +1,4 @@
+typedef struct _MIB_IPPATH_TABLE {
+  ULONG          NumEntries;
+  MIB_IPPATH_ROW Table[ANY_SIZE];
+} MIB_IPPATH_TABLE, *PMIB_IPPATH_TABLE;

@@ -1,0 +1,5 @@
+typedef struct _HS_PLUGIN_SUPPORTED_SIMS {
+  DWORD           dwCount;
+  HS_SIM_IDENTITY pSupportedSIMs[*];
+  HS_SIM_IDENTITY pSupportedSIMs[1];
+} HS_PLUGIN_SUPPORTED_SIMS, *PHS_PLUGIN_SUPPORTED_SIMS;

@@ -1,0 +1,14 @@
+typedef enum MSDRM_STATUS { 
+  DRM_ERROR                        = 0,
+  DRM_INFORMATION                  = 1,
+  DRM_BACKUPRESTORE_BEGIN          = 2,
+  DRM_BACKUPRESTORE_END            = 3,
+  DRM_BACKUPRESTORE_CONNECTING     = 4,
+  DRM_BACKUPRESTORE_DISCONNECTING  = 5,
+  DRM_ERROR_WITHURL                = 6,
+  DRM_RESTRICTED_LICENSE           = 7,
+  DRM_NEEDS_INDIVIDUALIZATION      = 8,
+  DRM_PLAY_OPL_NOTIFICATION        = 9,
+  DRM_COPY_OPL_NOTIFICATION        = 10,
+  DRM_REFRESHCRL_COMPLETE          = 11
+} ;

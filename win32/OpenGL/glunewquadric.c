@@ -1,0 +1,1 @@
+GLUquadric* WINAPI gluNewQuadric(void);

@@ -1,0 +1,3 @@
+SCESTATUS WINAPI SceSvcAttachmentConfig(
+  _In_ PSCESVC_CALLBACK_INFO pSceCbInfo
+);

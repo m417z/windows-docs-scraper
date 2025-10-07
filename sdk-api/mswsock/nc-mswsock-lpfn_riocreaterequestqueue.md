@@ -52,26 +52,10 @@ If no error occurs, the **RIOCreateRequestQueue** function returns a descriptor 
 
 | Return code | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**
-
-| An invalid parameter was passed to the function. <br> This error is returned if the *ReceiveCQ* or *SendCQ* parameters contained **RIO\_INVALID\_CQ**. This error is returned if both the *MaxOutstandingReceive* and *MaxOutstandingSend* parameters are zero. This error is also returned if the socket passed in the *Socket* parameter is in the process of initializing or closing.<br> |
-|
-
-**[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**
-
-| Sufficient memory could not be allocated. This error is returned if there was insufficient memory to allocate the request queue based on the parameters. This error is also returned if the network session limit was exceeded. <br> |
-|
-
-**[WSAENOTSOCK](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)**
-
-| The descriptor is not a socket. This error is returned if the *Socket* parameter is not a valid socket.<br> |
-|
-
-**[WSAEOPNOTSUPP](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)**
-
-| The attempted operation is not supported for the type of object referenced. This error is returned for a socket in the *Socket* parameter for an unsupported socket type (**SOCK\_RAW**, for example)<br> |
+| **[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)** | An invalid parameter was passed to the function. <br> This error is returned if the *ReceiveCQ* or *SendCQ* parameters contained **RIO\_INVALID\_CQ**. This error is returned if both the *MaxOutstandingReceive* and *MaxOutstandingSend* parameters are zero. This error is also returned if the socket passed in the *Socket* parameter is in the process of initializing or closing.<br> |
+| **[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)** | Sufficient memory could not be allocated. This error is returned if there was insufficient memory to allocate the request queue based on the parameters. This error is also returned if the network session limit was exceeded. <br> |
+| **[WSAENOTSOCK](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)** | The descriptor is not a socket. This error is returned if the *Socket* parameter is not a valid socket.<br> |
+| **[WSAEOPNOTSUPP](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)** | The attempted operation is not supported for the type of object referenced. This error is returned for a socket in the *Socket* parameter for an unsupported socket type (**SOCK\_RAW**, for example)<br> |
 
 ## Remarks
 

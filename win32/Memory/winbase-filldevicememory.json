@@ -1,0 +1,24 @@
+{
+  "description": "Sets the contents of a buffer without interference from compiler optimizations in situations where the developer needs to additionally be sure that alignment faults will not be generated when accessing device memory.",
+  "ms.assetid": "188fe7b8-b989-4062-b9c6-68b9bbf2053c",
+  "title": "FillDeviceMemory function (winbase.h)",
+  "ms.topic": "reference",
+  "ms.date": "01/19/2024",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_name": [
+    "FillDeviceMemory"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winbase.h",
+    "volatileaccessu.lib"
+  ],
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "FillDeviceMemory",
+  "_fuzzy_header": "winbase.h"
+}

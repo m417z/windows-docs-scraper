@@ -1,0 +1,4 @@
+struct DSTORAGE_ERROR_PARAMETERS_SIGNAL {
+  ID3D12Fence *Fence;
+  UINT64      Value;
+};

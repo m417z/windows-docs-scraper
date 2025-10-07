@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpGetWebSiteAccess(_In_z_ LPCWSTR webSiteAddress, _Inout_ DWORD* numOfActions, _Inout_updates_(*numOfActions) DlpWebSiteAction *actions, _Out_opt_ DlpTraceInfoEx* traceInfoEx);

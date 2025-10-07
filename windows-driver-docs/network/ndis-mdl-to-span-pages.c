@@ -1,0 +1,3 @@
+int NDIS_MDL_TO_SPAN_PAGES(
+   PMDL _Mdl
+);

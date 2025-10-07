@@ -1,0 +1,5 @@
+typedef struct _D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTIDCOUNT_INPUT {
+  D3DAUTHENTICATEDCHANNEL_QUERY_INPUT Input;
+  HANDLE                              DeviceHandle;
+  HANDLE                              CryptoSessionHandle;
+} D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTIDCOUNT_INPUT;

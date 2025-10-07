@@ -1,0 +1,7 @@
+typedef struct D3DXMESHDATA {
+  D3DXMESHDATATYPE Type;
+  union {
+    LPD3DXMESH      pMesh;
+    LPD3DXPATCHMESH pPatchMesh;
+  };
+} D3DXMESHDATA, *LPD3DXMESHDATA;

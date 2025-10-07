@@ -1,0 +1,4 @@
+HRESULT CheckPointer(
+    p,
+    ret
+);

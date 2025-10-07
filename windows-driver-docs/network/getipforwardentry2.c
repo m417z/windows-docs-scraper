@@ -1,0 +1,3 @@
+NETIOAPI_API GetIpForwardEntry2(
+  _Inout_ PMIB_IPFORWARD_ROW2 Row
+);

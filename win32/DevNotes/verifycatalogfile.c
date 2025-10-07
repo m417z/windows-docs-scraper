@@ -1,0 +1,3 @@
+DWORD VerifyCatalogFile(
+   LPCTSTR CatalogFullPath
+);

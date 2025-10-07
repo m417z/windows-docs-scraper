@@ -1,0 +1,5 @@
+typedef struct D3DGAMMARAMP {
+  WORD red[256];
+  WORD green[256];
+  WORD blue[256];
+} D3DGAMMARAMP, *LPD3DGAMMARAMP;

@@ -1,0 +1,1 @@
+GLenum WINAPI glGetError(void);

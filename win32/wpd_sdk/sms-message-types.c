@@ -1,0 +1,4 @@
+typedef enum SMS_MESSAGE_TYPES { 
+  SMS_TEXT_MESSAGE    = 0,
+  SMS_BINARY_MESSAGE  = 1
+} ;

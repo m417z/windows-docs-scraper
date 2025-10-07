@@ -1,0 +1,1 @@
+void WINAPI DlpFreeArchiveFileTraceInfo(_Inout_opt_ DlpTraceInfoEx* archiveTraceInfo);

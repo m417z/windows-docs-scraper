@@ -1,0 +1,3 @@
+void DbgInitialise(
+   HINSTANCE hInst
+);

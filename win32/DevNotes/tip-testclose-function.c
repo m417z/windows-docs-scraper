@@ -1,0 +1,2 @@
+void TestClose(
+    HANDLE test);

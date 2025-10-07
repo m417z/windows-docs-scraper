@@ -1,0 +1,1 @@
+LPEXCEPTION_POINTERS GetExceptionInformation(void);

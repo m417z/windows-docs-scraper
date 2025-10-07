@@ -1,0 +1,7 @@
+typedef enum DRM_HTTP_STATUS { 
+  HTTP_NOTINITIATED  = 0,
+  HTTP_CONNECTING    = 1,
+  HTTP_REQUESTING    = 2,
+  HTTP_RECEIVING     = 3,
+  HTTP_COMPLETED     = 4
+} ;

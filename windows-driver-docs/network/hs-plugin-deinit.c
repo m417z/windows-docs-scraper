@@ -1,0 +1,3 @@
+typedef DWORD (WINAPI *HS_PLUGIN_DEINIT)(
+  _In_ eHS_UNLOAD_REASON UnloadReason
+);

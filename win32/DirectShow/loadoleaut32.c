@@ -1,0 +1,1 @@
+HINSTANCE LoadOLEAut32(void);

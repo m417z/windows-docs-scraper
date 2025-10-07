@@ -1,0 +1,4 @@
+typedef struct _VINES_IP_ADDRESS {
+  DWORD NetID;
+  WORD  SubnetID;
+} VINES_IP_ADDRESS, *LPVINES_IP_ADDRESS;

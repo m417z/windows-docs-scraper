@@ -1,0 +1,27 @@
+typedef struct _DRIVER_INFO_8 {
+  DWORD     cVersion;
+  LPTSTR    pName;
+  LPTSTR    pEnvironment;
+  LPTSTR    pDriverPath;
+  LPTSTR    pDataFile;
+  LPTSTR    pConfigFile;
+  LPTSTR    pHelpFile;
+  LPTSTR    pDependentFiles;
+  LPTSTR    pMonitorName;
+  LPTSTR    pDefaultDataType;
+  LPTSTR    pszzPreviousNames;
+  FILETIME  ftDriverDate;
+  DWORDLONG dwlDriverVersion;
+  LPTSTR    pszMfgName;
+  LPTSTR    pszOEMUrl;
+  LPTSTR    pszHardwareID;
+  LPTSTR    pszProvider;
+  LPTSTR    pszPrintProcessor;
+  LPTSTR    pszVendorSetup;
+  LPTSTR    pszzColorProfiles;
+  LPTSTR    pszInfPath;
+  DWORD     dwPrinterDriverAttributes;
+  LPTSTR    pszzCoreDriverDependencies;
+  FILETIME  ftMinInboxDriverVerDate;
+  DWORDLONG dwlMinInboxDriverVerVersion;
+} DRIVER_INFO_8, *PDRIVER_INFO_8, *LPDRIVER_INFO_8;

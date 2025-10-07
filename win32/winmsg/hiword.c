@@ -1,0 +1,3 @@
+WORD HIWORD(
+   DWORD l
+);

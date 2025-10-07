@@ -1,0 +1,25 @@
+{
+  "description": "Uses the delta and source (provided as buffers) to create a new copy of the target data. The output data is returned in an MSDelta-allocated buffer. (ApplyDeltaW)",
+  "title": "ApplyDeltaW function",
+  "ms.topic": "reference",
+  "ms.date": "12/03/2020",
+  "ms.keywords": "ApplyDeltaW",
+  "req.header": "msdelta.h",
+  "req.dll": "msdelta.dll",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_name": [
+    "ApplyDeltaW"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "msdelta.dll"
+  ],
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "ApplyDeltaW",
+  "_fuzzy_header": "msdelta.h"
+}

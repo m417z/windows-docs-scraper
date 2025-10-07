@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpGetNotificationSettings(_In_z_ LPCWSTR locale, _In_z_ LPCWSTR policyVersion, _In_z_ LPCWSTR policyRuleId, _In_ DlpActionType actionType, _In_ BOOLEAN isUnallowedBrowser, _In_z_ LPCWSTR displayFilename, _In_z_ LPCWSTR displayProcessName, _In_opt_z_ LPCWSTR jsonExtraInfo, _Inout_ DWORD* bufferSize, _Inout_updates_(*bufferSize) WCHAR* jsonNotification);

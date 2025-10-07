@@ -1,0 +1,49 @@
+{
+  "UID": "NS:dstorage.DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST",
+  "ms.topic": "reference",
+  "tech.root": "dstorage",
+  "title": "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST",
+  "ms.date": "08/25/2022",
+  "targetos": "Windows",
+  "description": "A custom decompression request. Use [IDStorageCustomDecompressionQueue](nn-dstorage-idstoragecustomdecompressionqueue.md) to retrieve these requests.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dstorage.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dstorage.h"
+  ],
+  "api_name": [
+    "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST"
+  ],
+  "f1_keywords": [
+    "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST",
+    "dstorage/DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST"
+  ],
+  "_fuzzy_type": "structure",
+  "_fuzzy_ident": "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST"
+}

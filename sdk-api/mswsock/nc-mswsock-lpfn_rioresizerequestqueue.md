@@ -24,21 +24,9 @@ If no error occurs, the **RIOResizeRequestQueue** function returns **TRUE**. Oth
 
 | Return code | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**
-
-| An invalid parameter was passed to the function. This error is returned if the *RQ* parameter is not valid (RIO\_INVALID\_RQ, for example). This error is also returned if both the *MaxOutstandingReceive* and *MaxOutstandingSend* parameters are zero. <br> |
-|
-
-**[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**
-
-| Sufficient memory could not be allocated. This error is returned if memory could not be allocated for the resized request queue.<br> |
-|
-
-**[WSAETOOMANYREFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaetoomanyrefs)**
-
-| There are too many operations that still reference the request queue. Resizing of this request queue to be smaller is not possible at this time.<br> |
+| **[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)** | An invalid parameter was passed to the function. This error is returned if the *RQ* parameter is not valid (RIO\_INVALID\_RQ, for example). This error is also returned if both the *MaxOutstandingReceive* and *MaxOutstandingSend* parameters are zero. <br> |
+| **[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)** | Sufficient memory could not be allocated. This error is returned if memory could not be allocated for the resized request queue.<br> |
+| **[WSAETOOMANYREFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaetoomanyrefs)** | There are too many operations that still reference the request queue. Resizing of this request queue to be smaller is not possible at this time.<br> |
 
 ## Remarks
 

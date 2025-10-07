@@ -1,0 +1,3 @@
+VOID WINAPI DllGetVersion(
+   PCABINETDLLVERSIONINFO pcdvi
+);

@@ -1,0 +1,4 @@
+typedef struct _PRINTER_OPTIONS {
+  UINT  cbSize;
+  DWORD dwFlags;
+} PRINTER_OPTIONS, *PPRINTER_OPTIONS;

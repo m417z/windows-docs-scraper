@@ -1,0 +1,3 @@
+XMINT2 D3DX_R16G16_SINT_to_INT2(
+   UINT packedInput
+);

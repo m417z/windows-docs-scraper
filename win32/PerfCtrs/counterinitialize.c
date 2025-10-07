@@ -1,0 +1,1 @@
+ULONG WINAPI CounterInitialize(void);

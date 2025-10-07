@@ -1,0 +1,9 @@
+typedef enum DRM_ATTR_DATATYPE { 
+  DRM_TYPE_DWORD   = 0,
+  DRM_TYPE_STRING  = 1,
+  DRM_TYPE_BINARY  = 2,
+  DRM_TYPE_BOOL    = 3,
+  DRM_TYPE_QWORD   = 4,
+  DRM_TYPE_WORD    = 5,
+  DRM_TYPE_GUID    = 6
+} ;

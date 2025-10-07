@@ -1,0 +1,4 @@
+typedef struct _RAS_PPP_IPXCP_RESULT {
+  DWORD dwError;
+  WCHAR wszAddress[RAS_IPXADDRESSLEN + 1];
+} RAS_PPP_IPXCP_RESULT;

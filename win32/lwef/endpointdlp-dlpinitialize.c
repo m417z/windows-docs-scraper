@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpInitialize(void);

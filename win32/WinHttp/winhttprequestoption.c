@@ -1,0 +1,21 @@
+typedef enum WinHttpRequestOption { 
+  WinHttpRequestOption_UserAgentString,
+  WinHttpRequestOption_URL,
+  WinHttpRequestOption_URLCodePage,
+  WinHttpRequestOption_EscapePercentInURL,
+  WinHttpRequestOption_SslErrorIgnoreFlags,
+  WinHttpRequestOption_SelectCertificate,
+  WinHttpRequestOption_EnableRedirects,
+  WinHttpRequestOption_UrlEscapeDisable,
+  WinHttpRequestOption_UrlEscapeDisableQuery,
+  WinHttpRequestOption_SecureProtocols,
+  WinHttpRequestOption_EnableTracing,
+  WinHttpRequestOption_RevertImpersonationOverSsl,
+  WinHttpRequestOption_EnableHttpsToHttpRedirects,
+  WinHttpRequestOption_EnablePassportAuthentication,
+  WinHttpRequestOption_MaxAutomaticRedirects,
+  WinHttpRequestOption_MaxResponseHeaderSize,
+  WinHttpRequestOption_MaxResponseDrainSize,
+  WinHttpRequestOption_EnableHttp1_1,
+  WinHttpRequestOption_EnableCertificateRevocationCheck
+} WinHttpRequestOption;

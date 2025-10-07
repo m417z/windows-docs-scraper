@@ -1,0 +1,3 @@
+<type> WaveActiveProduct(
+   <type> expr
+);

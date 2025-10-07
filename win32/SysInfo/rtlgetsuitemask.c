@@ -1,0 +1,1 @@
+ULONG NTAPI RtlGetSuiteMask(void);

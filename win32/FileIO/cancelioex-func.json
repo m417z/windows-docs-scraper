@@ -1,0 +1,28 @@
+{
+  "description": "Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.",
+  "ms.assetid": "a2ce13b8-7da6-4848-848d-901d9667c2e3",
+  "title": "CancelIoEx function (IoAPI.h)",
+  "ms.topic": "reference",
+  "ms.date": "05/31/2018",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_name": [
+    "CancelIoEx"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Kernel32.dll",
+    "API-MS-Win-Core-io-l1-1-0.dll",
+    "KernelBase.dll",
+    "MinKernelBase.dll",
+    "API-MS-Win-Core-io-l1-1-1.dll",
+    "api-ms-win-downlevel-kernel32-l1-1-0.dll"
+  ],
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "CancelIoEx",
+  "_fuzzy_header": "ioapi.h"
+}

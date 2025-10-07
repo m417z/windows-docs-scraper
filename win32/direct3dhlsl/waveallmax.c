@@ -1,0 +1,3 @@
+<type> WaveActiveMax(
+   <type> expr
+);

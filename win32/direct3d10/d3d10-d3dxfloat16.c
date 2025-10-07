@@ -1,0 +1,3 @@
+typedef struct D3DXFLOAT16 {
+  WORD Value;
+} D3DXFLOAT16, *LPD3DXFLOAT16;

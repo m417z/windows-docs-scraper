@@ -1,0 +1,4 @@
+typedef struct D3DXVECTOR2 {
+  FLOAT x;
+  FLOAT y;
+} D3DXVECTOR2, *LPD3DXVECTOR2;

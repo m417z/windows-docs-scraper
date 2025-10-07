@@ -1,0 +1,3 @@
+UINT D3DX_FLOAT2_to_R16G16_FLOAT(
+   XMFLOAT2 unpackedInput
+);

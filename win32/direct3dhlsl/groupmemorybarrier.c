@@ -1,0 +1,1 @@
+void GroupMemoryBarrier(void);

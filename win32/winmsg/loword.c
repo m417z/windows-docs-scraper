@@ -1,0 +1,3 @@
+WORD LOWORD(
+   DWORD l
+);

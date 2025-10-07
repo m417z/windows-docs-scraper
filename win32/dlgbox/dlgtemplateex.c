@@ -1,0 +1,20 @@
+typedef struct {
+  WORD      dlgVer;
+  WORD      signature;
+  DWORD     helpID;
+  DWORD     exStyle;
+  DWORD     style;
+  WORD      cDlgItems;
+  short     x;
+  short     y;
+  short     cx;
+  short     cy;
+  sz_Or_Ord menu;
+  sz_Or_Ord windowClass;
+  WCHAR     title[titleLen];
+  WORD      pointsize;
+  WORD      weight;
+  BYTE      italic;
+  BYTE      charset;
+  WCHAR     typeface[stringLen];
+} DLGTEMPLATEEX;

@@ -1,0 +1,3 @@
+void KASSERT(
+    cond
+);

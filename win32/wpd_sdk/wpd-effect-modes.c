@@ -1,0 +1,6 @@
+typedef enum WPD_EFFECT_MODES { 
+  WPD_EFFECT_MODE_UNDEFINED        = 0,
+  WPD_EFFECT_MODE_COLOR            = 1,
+  WPD_EFFECT_MODE_BLACK_AND_WHITE  = 2,
+  WPD_EFFECT_MODE_SEPIA            = 3
+} ;

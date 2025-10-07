@@ -1,0 +1,4 @@
+typedef struct _NETWORKSTATUS {
+  DWORD State;
+  DWORD Flags;
+} NETWORKSTATUS, *LPNETWORKSTATUS;

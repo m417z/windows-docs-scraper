@@ -1,0 +1,1 @@
+HRESULT TF_InvalidAssemblyListCacheIfExist(void);

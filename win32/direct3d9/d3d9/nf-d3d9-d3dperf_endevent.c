@@ -1,0 +1,1 @@
+int WINAPI D3DPERF_EndEvent(void);

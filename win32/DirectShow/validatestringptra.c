@@ -1,0 +1,3 @@
+void ValidateStringPtrA(
+   LPCSTR p
+);

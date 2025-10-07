@@ -1,0 +1,5 @@
+typedef struct D3DXTECHNIQUE_DESC {
+  LPCSTR Name;
+  UINT   Passes;
+  UINT   Annotations;
+} D3DXTECHNIQUE_DESC, *LPD3DXTECHNIQUE_DESC;

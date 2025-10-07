@@ -1,0 +1,5 @@
+typedef struct _IPX_SPECIFIC_DATA {
+  DWORD  FSD_Flags;
+  USHORT FSD_TickCount;
+  USHORT FSD_HopCount;
+} IPX_SPECIFIC_DATA, *PIPX_SPECIFIC_DATA;

@@ -1,0 +1,4 @@
+typedef struct D3DXFUNCTION_DESC {
+  LPCSTR Name;
+  UINT   Annotations;
+} D3DXFUNCTION_DESC, *LPD3DXFUNCTION_DESC;

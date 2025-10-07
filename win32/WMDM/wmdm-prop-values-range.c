@@ -1,0 +1,5 @@
+typedef struct _WMDM_PROP_VALUES_RANGE {
+  PROPVARIANT rangeMin;
+  PROPVARIANT rangeMax;
+  PROPVARIANT rangeStep;
+} WMDM_PROP_VALUES_RANGE;

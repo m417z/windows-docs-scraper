@@ -1,0 +1,6 @@
+typedef struct _SYSTEM_POWER_INFORMATION {
+  ULONG MaxIdlenessAllowed;
+  ULONG Idleness;
+  ULONG TimeRemaining;
+  UCHAR CoolingMode;
+} SYSTEM_POWER_INFORMATION, *PSYSTEM_POWER_INFORMATION;

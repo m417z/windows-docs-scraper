@@ -1,0 +1,3 @@
+typedef struct D3DXMATRIX {
+  FLOAT _ij;
+} D3DXMATRIX, *LPD3DXMATRIX;

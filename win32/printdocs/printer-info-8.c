@@ -1,0 +1,3 @@
+typedef struct _PRINTER_INFO_8 {
+  LPDEVMODE pDevMode;
+} PRINTER_INFO_8, *PPRINTER_INFO_8;

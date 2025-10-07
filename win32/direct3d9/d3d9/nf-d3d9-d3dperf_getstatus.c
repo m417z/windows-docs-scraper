@@ -1,0 +1,1 @@
+DWORD WINAPI D3DPERF_GetStatus( void );

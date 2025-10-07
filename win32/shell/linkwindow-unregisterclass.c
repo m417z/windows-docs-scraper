@@ -1,0 +1,1 @@
+BOOL LinkWindow_UnregisterClass(void);

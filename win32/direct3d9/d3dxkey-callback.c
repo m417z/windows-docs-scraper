@@ -1,0 +1,4 @@
+typedef struct D3DXKEY_CALLBACK {
+  FLOAT  Time;
+  LPVOID pCallbackData;
+} D3DXKEY_CALLBACK, *LPD3DXKEY_CALLBACK;

@@ -1,0 +1,3 @@
+<type> QuadReadAcrossX(
+   <type> localValue
+);

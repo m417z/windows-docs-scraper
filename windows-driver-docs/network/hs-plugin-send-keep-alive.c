@@ -1,0 +1,3 @@
+typedef DWORD (WINAPI *HS_PLUGIN_SEND_KEEP_ALIVE)(
+    
+);

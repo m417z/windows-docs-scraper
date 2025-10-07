@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpIsWebsitePolicyConfigured(_Out_ BOOLEAN* isWebSitePolicyConfigured);

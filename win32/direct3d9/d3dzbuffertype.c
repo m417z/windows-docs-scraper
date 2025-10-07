@@ -1,0 +1,6 @@
+typedef enum D3DZBUFFERTYPE { 
+  D3DZB_FALSE        = 0,
+  D3DZB_TRUE         = 1,
+  D3DZB_USEW         = 2,
+  D3DZB_FORCE_DWORD  = 0x7fffffff
+} D3DZBUFFERTYPE, *LPD3DZBUFFERTYPE;

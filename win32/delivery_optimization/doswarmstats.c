@@ -1,0 +1,23 @@
+typedef struct _DOSwarmStats {
+  LPWSTR       fileId;
+  LPWSTR       sourceURL;
+  UINT64       fileSize;
+  UINT64       totalBytesDownloaded;
+  UINT64       bytesFromLanPeers;
+  UINT64       bytesFromGroupPeers;
+  UINT64       bytesFromInternetPeers;
+  UINT64       bytesFromHttp;
+  UINT64       bytesFromDoinc;
+  UINT64       bytesToLanPeers;
+  UINT64       bytesToGroupPeers;
+  UINT64       bytesToInternetPeers;
+  UINT         httpConnectionCount;
+  UINT         doincConnectionCount;
+  UINT         lanConnectionCount;
+  UINT         groupConnectionCount;
+  UINT         internetConnectionCount;
+  UINT         downloadDuration;
+  DownloadMode downloadMode;
+  SwarmStatus  status;
+  BOOL         isBackground;
+} DOSwarmStats;

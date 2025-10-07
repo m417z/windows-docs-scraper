@@ -1,0 +1,4 @@
+BOOLEAN
+RtlDllShutdownInProgress (
+    VOID
+);

@@ -1,0 +1,3 @@
+typedef struct _DATATYPES_INFO_1 {
+  LPTSTR pName;
+} DATATYPES_INFO_1, *PDATATYPES_INFO_1;

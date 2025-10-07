@@ -1,0 +1,6 @@
+typedef struct _D3DCOMPOSERECTDESC {
+  USHORT X;
+  USHORT Y;
+  USHORT Width;
+  USHORT Height;
+} D3DCOMPOSERECTDESC;

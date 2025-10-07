@@ -1,0 +1,6 @@
+typedef struct _D3DAUTHENTICATEDCHANNEL_CONFIGURESHAREDRESOURCE {
+  D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT       Parameters;
+  D3DAUTHENTICATEDCHANNEL_PROCESSIDENTIFIERTYPE ProcessIdentiferType;
+  HANDLE                                        ProcessHandle;
+  BOOL                                          AllowAccess;
+} D3DAUTHENTICATEDCHANNEL_CONFIGURESHAREDRESOURCE;

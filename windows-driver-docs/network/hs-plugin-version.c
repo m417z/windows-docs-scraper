@@ -1,0 +1,4 @@
+typedef struct _HS_PLUGIN_VERSION {
+  DWORD dwVerMin;
+  DWORD dwVerMax;
+} HS_PLUGIN_VERSION, *PHS_PLUGIN_VERSION;

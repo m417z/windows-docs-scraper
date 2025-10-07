@@ -1,0 +1,3 @@
+void ValidateStringPtrW(
+   LPCWSTR p
+);

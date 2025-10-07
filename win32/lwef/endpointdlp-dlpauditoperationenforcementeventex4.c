@@ -1,0 +1,12 @@
+HRESULT WINAPI DlpAuditOperationEnforcementEventEx4(
+        _In_z_ LPCWSTR source,
+        _In_opt_z_ LPCWSTR target,
+        _In_z_ LPCWSTR actionType,
+        _In_ DlpEnforcementLevel enforcementLevel,
+        _In_ BOOLEAN userBypass,
+        _In_ DlpTraceInfo* traceInfo,
+        _In_opt_z_ LPCWSTR businessJustification,
+        _In_opt_z_ LPCWSTR printerOutputFileName,
+        _In_opt_z_ LPCWSTR printerName,
+        _In_opt_z_ LPCWSTR printerJobName,
+        _In_opt_z_ LPCWSTR overrideInfoJson);

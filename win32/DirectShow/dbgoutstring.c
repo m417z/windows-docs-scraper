@@ -1,0 +1,3 @@
+void DbgOutString(
+   LPCTSTR psz
+);

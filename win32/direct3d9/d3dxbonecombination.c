@@ -1,0 +1,8 @@
+typedef struct D3DXBONECOMBINATION {
+  DWORD AttribId;
+  DWORD FaceStart;
+  DWORD FaceCount;
+  DWORD VertexStart;
+  DWORD VertexCount;
+  DWORD *BoneId;
+} D3DXBONECOMBINATION, *LPD3DXBONECOMBINATION;

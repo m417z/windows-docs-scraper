@@ -1,0 +1,6 @@
+typedef struct D3DDEVINFO_D3D9PIPELINETIMINGS {
+  FLOAT VertexProcessingTimePercent;
+  FLOAT PixelProcessingTimePercent;
+  FLOAT OtherGPUProcessingTimePercent;
+  FLOAT GPUIdleTimePercent;
+} D3DDEVINFO_D3D9PIPELINETIMINGS, *LPD3DDEVINFO_D3D9PIPELINETIMINGS;

@@ -1,0 +1,4 @@
+enum _D3DXPATCHMESH {
+  D3DXPATCHMESH_DEFAULT  = 0 
+
+};

@@ -1,0 +1,1 @@
+VOID NTAPI LdrFastFailInLoaderCallout(void);

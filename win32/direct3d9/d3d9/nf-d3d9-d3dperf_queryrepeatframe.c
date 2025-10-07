@@ -1,0 +1,1 @@
+BOOL WINAPI D3DPERF_QueryRepeatFrame( void );

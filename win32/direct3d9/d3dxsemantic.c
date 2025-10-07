@@ -1,0 +1,4 @@
+typedef struct D3DXSEMANTIC {
+  UINT Usage;
+  UINT UsageIndex;
+} D3DXSEMANTIC, *LPD3DXSEMANTIC;

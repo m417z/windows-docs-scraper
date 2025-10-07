@@ -1,0 +1,3 @@
+BYTE MCI_HMS_HOUR(
+   DWORD dwHMS
+);

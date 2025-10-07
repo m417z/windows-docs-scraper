@@ -1,0 +1,24 @@
+{
+  "description": "Copies memory from one location to another without interference from compiler optimizations in situations where the developer needs to additionally be sure that alignment faults will not be generated when accessing device memory.",
+  "ms.assetid": "6024c74c-c70b-42e5-b582-2f71be797346",
+  "title": "CopyDeviceMemory function (winbase.h)",
+  "ms.topic": "reference",
+  "ms.date": "01/19/2024",
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_name": [
+    "CopyDeviceMemory"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winbase.h",
+    "volatileaccessu.lib"
+  ],
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "CopyDeviceMemory",
+  "_fuzzy_header": "winbase.h"
+}

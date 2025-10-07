@@ -1,0 +1,3 @@
+void ACPI_METHOD_ARGUMENT_LENGTH(
+    DataLength
+);

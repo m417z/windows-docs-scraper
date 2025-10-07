@@ -1,0 +1,3 @@
+typedef struct _DRIVER_INFO_1 {
+  LPTSTR pName;
+} DRIVER_INFO_1, *PDRIVER_INFO_1;

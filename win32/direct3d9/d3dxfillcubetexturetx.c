@@ -1,0 +1,4 @@
+HRESULT D3DXFillCubeTextureTX(
+  _In_ LPDIRECT3DCUBETEXTURE9 pTexture,
+  _In_ LPD3DXTEXTURESHADER    pTextureShader
+);

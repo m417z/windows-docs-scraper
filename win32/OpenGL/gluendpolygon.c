@@ -1,0 +1,3 @@
+void gluEndPolygon(
+   GLUtesselator *tess
+);

@@ -24,21 +24,9 @@ If no error occurs, the **RIOCreateCompletionQueue** function returns a descript
 
 | Return code | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**[WSAEFAULT](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**
-
-| The system detected an invalid pointer address in attempting to use a pointer argument in a call.<br> |
-|
-
-**[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**
-
-| An invalid parameter was passed to the function. <br> This error is returned if the *QueueSize* parameter is less than 1 or greater than **RIO\_MAX\_CQ\_SIZE** defined in the *Mswsockdef.h* header file.<br> |
-|
-
-**[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**
-
-| Sufficient memory could not be allocated. This error is returned if there was insufficient memory to allocate the completion queue requested based on the *QueueSize* parameter. <br> |
+| **[WSAEFAULT](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)** | The system detected an invalid pointer address in attempting to use a pointer argument in a call.<br> |
+| **[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)** | An invalid parameter was passed to the function. <br> This error is returned if the *QueueSize* parameter is less than 1 or greater than **RIO\_MAX\_CQ\_SIZE** defined in the *Mswsockdef.h* header file.<br> |
+| **[WSAENOBUFS](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)** | Sufficient memory could not be allocated. This error is returned if there was insufficient memory to allocate the completion queue requested based on the *QueueSize* parameter. <br> |
 
 ## Remarks
 

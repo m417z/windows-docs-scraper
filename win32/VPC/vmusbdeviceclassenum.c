@@ -1,0 +1,21 @@
+typedef enum  { 
+  vmUSBDeviceClass_InterfaceDescriptor  = 0x00,
+  vmUSBDeviceClass_Audio                = 0x01,
+  vmUSBDeviceClass_Communication        = 0x02,
+  vmUSBDeviceClass_HID                  = 0x03,
+  vmUSBDeviceClass_Physical             = 0x05,
+  vmUSBDeviceClass_Image                = 0x06,
+  vmUSBDeviceClass_Printer              = 0x07,
+  vmUSBDeviceClass_MassStorage          = 0x08,
+  vmUSBDeviceClass_Hub                  = 0x09,
+  vmUSBDeviceClass_CDCData              = 0x0A,
+  vmUSBDeviceClass_SmartCard            = 0x0B,
+  vmUSBDeviceClass_ContentSecurity      = 0x0D,
+  vmUSBDeviceClass_Video                = 0x0E,
+  vmUSBDeviceClass_PersonalHealthcare   = 0x0F,
+  vmUSBDeviceClass_DiagnosticDevice     = 0xDC,
+  vmUSBDeviceClass_WirelessController   = 0xE0,
+  vmUSBDeviceClass_Miscellaneous        = 0xEF,
+  vmUSBDeviceClass_ApplicationSpecific  = 0xFE,
+  vmUSBDeviceClass_VendorSpecific       = 0xFF
+} VMUSBDeviceClassEnum;

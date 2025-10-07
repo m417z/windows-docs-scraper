@@ -1,0 +1,36 @@
+{
+  "UID": "NF:winuser.IsInterceptWindow",
+  "description": "Checks if a window is an Intercept window (has called ConvertToInterceptWindow).",
+  "tech.root": "winmsg",
+  "title": "IsInterceptWindow function",
+  "ms.topic": "reference",
+  "topic_type": [
+    "APIRef"
+  ],
+  "ms.date": "3/22/2025",
+  "req.lib": null,
+  "req.dll": "User32.dll",
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "user32.dll"
+  ],
+  "api_name": [
+    "IsInterceptWindow"
+  ],
+  "f1_keywords": [
+    "IsInterceptWindow",
+    "winuser/IsInterceptWindow"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IsInterceptWindow"
+  ],
+  "targetos": "Windows",
+  "ms.localizationpriority": "low",
+  "_fuzzy_type": "function",
+  "_fuzzy_ident": "IsInterceptWindow"
+}

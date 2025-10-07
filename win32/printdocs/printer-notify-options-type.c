@@ -1,0 +1,8 @@
+typedef struct _PRINTER_NOTIFY_OPTIONS_TYPE {
+  WORD  Type;
+  WORD  Reserved0;
+  DWORD Reserved1;
+  DWORD Reserved2;
+  DWORD Count;
+  PWORD pFields;
+} PRINTER_NOTIFY_OPTIONS_TYPE, *PPRINTER_NOTIFY_OPTIONS_TYPE;

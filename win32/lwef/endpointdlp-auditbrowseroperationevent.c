@@ -1,0 +1,1 @@
+HRESULT WINAPI AuditBrowserOperationEvent(_In_z_ LPCWSTR actionType, BrowserType browserType, ::EventSource eventSource, _In_z_ LPCWSTR url, _In_z_ LPCWSTR finalUrl, _In_z_ LPCWSTR target, _In_z_ LPCWSTR printerOutputFileName, _In_z_ LPCWSTR printerName, _In_z_ LPCWSTR printerJobName);

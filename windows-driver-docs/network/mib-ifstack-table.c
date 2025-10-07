@@ -1,0 +1,4 @@
+typedef struct _MIB_IFSTACK_TABLE {
+  ULONG           NumEntries;
+  MIB_IFSTACK_ROW Table[ANY_SIZE];
+} MIB_IFSTACK_TABLE, *PMIB_IFSTACK_TABLE;

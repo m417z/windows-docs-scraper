@@ -1,0 +1,10 @@
+typedef enum D3DX11_IMAGE_FILE_FORMAT { 
+  D3DX11_IFF_BMP          = 0,
+  D3DX11_IFF_JPG          = 1,
+  D3DX11_IFF_PNG          = 3,
+  D3DX11_IFF_DDS          = 4,
+  D3DX11_IFF_TIFF         = 10,
+  D3DX11_IFF_GIF          = 11,
+  D3DX11_IFF_WMP          = 12,
+  D3DX11_IFF_FORCE_DWORD  = 0x7fffffff
+} D3DX11_IMAGE_FILE_FORMAT, *LPD3DX11_IMAGE_FILE_FORMAT;

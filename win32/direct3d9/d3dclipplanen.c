@@ -1,0 +1,1 @@
+void D3DCLIPPLANEn(void);

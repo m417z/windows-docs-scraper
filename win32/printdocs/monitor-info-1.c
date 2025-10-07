@@ -1,0 +1,3 @@
+typedef struct _MONITOR_INFO_1 {
+  LPTSTR pName;
+} MONITOR_INFO_1, *PMONITOR_INFO_1;

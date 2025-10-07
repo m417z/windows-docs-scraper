@@ -1,0 +1,48 @@
+# D3DXPlaneFromPointNormal function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](https://learn.microsoft.com/windows/win32/dxmath/pg-xnamath-migration-d3dx) instead.
+
+Constructs a plane from a point and a normal.
+
+## Parameters
+
+*pOut* \[in, out\]
+
+Type: **[**D3DXPLANE**](https://learn.microsoft.com/windows/win32/direct3d9/d3dxplane)\***
+
+Pointer to the [**D3DXPLANE**](https://learn.microsoft.com/windows/win32/direct3d10/d3d10-d3dxplane) that is the result of the operation.
+
+*pPoint* \[in\]
+
+Type: **const [**D3DXVECTOR3**](https://learn.microsoft.com/windows/win32/direct3d9/d3dxvector3)\***
+
+Pointer to a [**D3DXVECTOR3**](https://learn.microsoft.com/windows/win32/direct3d10/d3d10-d3dxvector3), defining the point used to construct the plane.
+
+*pNormal* \[in\]
+
+Type: **const [**D3DXVECTOR3**](https://learn.microsoft.com/windows/win32/direct3d9/d3dxvector3)\***
+
+Pointer to a D3DXVECTOR3 structure, defining the normal used to construct the plane.
+
+## Return value
+
+Type: **[**D3DXPLANE**](https://learn.microsoft.com/windows/win32/direct3d9/d3dxplane)\***
+
+Pointer to the D3DXPLANE structure constructed from the point and the normal.
+
+## Remarks
+
+The return value for this function is the same value returned in the pOut parameter. In this way, the D3DXPlaneFromPointNormal function can be used as a parameter for another function.
+
+## Requirements
+
+| Requirement | Value |
+|--------------------|-----------------------------------------------------------------------------------------|
+| Header<br> | D3DX10Math.h |
+| Library<br> | D3DX10.lib |
+
+## See also
+
+[Math Functions](https://learn.microsoft.com/windows/win32/direct3d10/d3d10-graphics-reference-d3dx10-functions-math)
+

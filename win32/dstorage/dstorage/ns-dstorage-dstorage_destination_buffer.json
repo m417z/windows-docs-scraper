@@ -1,0 +1,49 @@
+{
+  "UID": "NS:dstorage.DSTORAGE_DESTINATION_BUFFER",
+  "ms.topic": "reference",
+  "tech.root": "dstorage",
+  "title": "DSTORAGE_DESTINATION_BUFFER",
+  "ms.date": "08/25/2022",
+  "targetos": "Windows",
+  "description": "Describes the destination for a request with [DSTORAGE_REQUEST_OPTIONS::DestinationType](ns-dstorage-dstorage_request_options.md) set to [DSTORAGE_REQUEST_DESTINATION_BUFFER](ne-dstorage-dstorage_request_destination_type.md).",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "dstorage.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "dstorage.h"
+  ],
+  "api_name": [
+    "DSTORAGE_DESTINATION_BUFFER"
+  ],
+  "f1_keywords": [
+    "DSTORAGE_DESTINATION_BUFFER",
+    "dstorage/DSTORAGE_DESTINATION_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "DSTORAGE_DESTINATION_BUFFER"
+  ],
+  "_fuzzy_type": "structure",
+  "_fuzzy_ident": "DSTORAGE_DESTINATION_BUFFER"
+}

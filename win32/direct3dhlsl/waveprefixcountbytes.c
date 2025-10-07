@@ -1,0 +1,3 @@
+uint WavePrefixCountBits(
+   bool bBit
+);

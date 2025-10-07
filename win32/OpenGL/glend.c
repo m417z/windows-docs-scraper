@@ -1,0 +1,1 @@
+void WINAPI glEnd(void);

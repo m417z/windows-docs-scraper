@@ -1,0 +1,6 @@
+typedef struct D3DDEVICE_CREATION_PARAMETERS {
+  UINT       AdapterOrdinal;
+  D3DDEVTYPE DeviceType;
+  HWND       hFocusWindow;
+  DWORD      BehaviorFlags;
+} D3DDEVICE_CREATION_PARAMETERS, *LPD3DDEVICE_CREATION_PARAMETERS;

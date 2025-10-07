@@ -1,0 +1,3 @@
+typedef struct _PROVIDOR_INFO_2 {
+  LPTSTR pOrder;
+} PROVIDOR_INFO_2, *PPROVIDOR_INFO_2;

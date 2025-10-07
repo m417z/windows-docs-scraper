@@ -1,0 +1,1 @@
+BOOL reload_config(void);

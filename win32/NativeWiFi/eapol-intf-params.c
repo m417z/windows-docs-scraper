@@ -1,0 +1,8 @@
+typedef struct _EAPOL_INTF_PARAMS {
+  DWORD dwVersion;
+  DWORD dwReserved2;
+  DWORD dwEapFlags;
+  DWORD dwEapType;
+  DWORD dwSizeOfSSID;
+  BYTE  bSSID[MAX_NETWORK_NAME_LENGTH];
+} EAPOL_INTF_PARAMS, *PEAPOL_INTF_PARAMS;

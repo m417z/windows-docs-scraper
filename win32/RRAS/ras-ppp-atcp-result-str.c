@@ -1,0 +1,4 @@
+typedef struct _RAS_PPP_ATCP_RESULT {
+  DWORD dwError;
+  WCHAR wszAddress[RAS_ATADDRESSLEN + 1];
+} RAS_PPP_ATCP_RESULT;

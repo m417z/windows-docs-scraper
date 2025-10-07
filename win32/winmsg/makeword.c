@@ -1,0 +1,4 @@
+WORD MAKEWORD(
+   BYTE a,
+   BYTE b
+);

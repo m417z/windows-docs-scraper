@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpGetFileCloudApplicationPolicy(_In_z_ LPCWSTR filePath, _In_z_ LPCWSTR cloudAppDomainName, _Out_ DlpEnforcementLevel* enforcmentLevel, _Out_ DlpTraceInfo* traceInfo);

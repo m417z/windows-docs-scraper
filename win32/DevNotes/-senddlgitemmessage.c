@@ -1,0 +1,3 @@
+LRESULT _SendDlgItemMessage(
+    ...
+);

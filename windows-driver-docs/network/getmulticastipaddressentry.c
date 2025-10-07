@@ -1,0 +1,3 @@
+NETIOAPI_API GetMulticastIpAddressEntry(
+  _Inout_ PMIB_MULTICASTIPADDRESS_ROW Row
+);

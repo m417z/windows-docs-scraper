@@ -1,0 +1,1 @@
+#define XMGLOBALCONST  extern const __declspec(selectany)

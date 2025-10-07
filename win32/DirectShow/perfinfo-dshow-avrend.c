@@ -1,0 +1,5 @@
+typedef struct PERFINFO_DSHOW_AVREND {
+  ULONGLONG cycleCounter;
+  ULONGLONG dshowClock;
+  ULONGLONG sampleTime;
+} PERFINFO_DSHOW_AVREND, *PPERFINFO_DSHOW_AVREND;

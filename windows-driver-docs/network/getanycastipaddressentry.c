@@ -1,0 +1,3 @@
+NETIOAPI_API GetAnycastIpAddressEntry(
+  _Inout_ PMIB_ANYCASTIPADDRESS_ROW Row
+);

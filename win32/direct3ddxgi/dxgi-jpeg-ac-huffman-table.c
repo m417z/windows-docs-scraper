@@ -1,0 +1,4 @@
+typedef struct DXGI_JPEG_AC_HUFFMAN_TABLE {
+  BYTE CodeCounts[16];
+  BYTE CodeValues[162];
+} DXGI_JPEG_AC_HUFFMAN_TABLE;

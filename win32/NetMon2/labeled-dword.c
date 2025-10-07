@@ -1,0 +1,4 @@
+typedef struct _LABELED_DWORD {
+  DWORD Value;
+  LPSTR Label;
+} LABELED_DWORD, *LPLABELED_DWORD;

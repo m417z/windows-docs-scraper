@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpDelegateEnforcement(_In_ BOOLEAN isEnable);

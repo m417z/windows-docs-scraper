@@ -1,0 +1,1 @@
+GetBrowserExtensionConfiguration(_Out_ BrowserConfiguration* browserConfiguration);

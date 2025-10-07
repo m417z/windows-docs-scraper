@@ -1,0 +1,1 @@
+GLUtesselator* WINAPI gluNewTess(void);

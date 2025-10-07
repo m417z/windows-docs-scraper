@@ -1,0 +1,1 @@
+void D3DDECL_END(void);

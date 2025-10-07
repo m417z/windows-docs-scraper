@@ -1,0 +1,4 @@
+typedef struct D3DXMATERIAL {
+  D3DMATERIAL9 MatD3D;
+  LPSTR        pTextureFilename;
+} D3DXMATERIAL, *LPD3DXMATERIAL;

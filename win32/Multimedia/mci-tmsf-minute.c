@@ -1,0 +1,3 @@
+BYTE MCI_TMSF_MINUTE(
+   DWORD dwTMSF
+);

@@ -1,0 +1,8 @@
+typedef struct _ODJ_POLICY_DNS_DOMAIN_INFO
+{
+    ODJ_UNICODE_STRING Name;
+    ODJ_UNICODE_STRING DnsDomainName;
+    ODJ_UNICODE_STRING DnsForestName;
+    GUID DomainGuid;
+    PODJ_SID Sid;
+} ODJ_POLICY_DNS_DOMAIN_INFO;

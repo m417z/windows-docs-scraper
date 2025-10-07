@@ -1,0 +1,5 @@
+typedef struct _HS_NETWORK_IDENTITY {
+  HS_SSID             Ssid;
+  HS_AUTH_ALGORITHM   hsAuthAlgo;
+  HS_CIPHER_ALGORITHM hsCipherAlgo;
+} HS_NETWORK_IDENTITY, *PHS_NETWORK_IDENTITY;

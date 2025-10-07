@@ -1,0 +1,1 @@
+DWORD GetExceptionCode(void);

@@ -14,16 +14,8 @@ If no error occurs, the **RIONotify** function returns **ERROR\_SUCCESS**. Other
 
 | Return code | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|
-
-**[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2)**
-
-| An invalid parameter was passed to the function. <br> This error is returned if invalid completion queue is passed in the *CQ* parameter (**RIO\_INVALID\_CQ**, for example). This error can also be returned when an internal error occurs.<br> |
-|
-
-**[WSAEALREADY](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2)**
-
-| An operation was attempted on a non-blocking socket that already had an operation in progress.<br> This error is returned if a previous [**RIONotify**]() request has not yet completed.<br> |
+| **[WSAEINVAL](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2)** | An invalid parameter was passed to the function. <br> This error is returned if invalid completion queue is passed in the *CQ* parameter (**RIO\_INVALID\_CQ**, for example). This error can also be returned when an internal error occurs.<br> |
+| **[WSAEALREADY](https://learn.microsoft.com/windows/win32/winsock/windows-sockets-error-codes-2)** | An operation was attempted on a non-blocking socket that already had an operation in progress.<br> This error is returned if a previous [**RIONotify**]() request has not yet completed.<br> |
 
 ## Remarks
 

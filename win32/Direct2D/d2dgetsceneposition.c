@@ -1,0 +1,1 @@
+float4 WINAPI D2DGetScenePosition(void);

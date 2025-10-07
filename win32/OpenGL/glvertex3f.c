@@ -1,0 +1,5 @@
+void WINAPI glVertex3f(
+   GLfloat x,
+   GLfloat y,
+   GLfloat z
+);

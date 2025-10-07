@@ -1,0 +1,4 @@
+typedef struct _EFI_RNG_ALGORITHM_LIST {
+  UINT32     AlgorithmsCount;
+  EFI_GUID * Algorithms;
+} EFI_RNG_ALGORITHM_LIST, *PEFI_RNG_ALGORITHM_LIST;

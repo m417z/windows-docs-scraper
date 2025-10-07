@@ -1,0 +1,3 @@
+XMFLOAT2 D3DX_R16G16_SNORM_to_FLOAT2(
+   UINT packedInput
+);

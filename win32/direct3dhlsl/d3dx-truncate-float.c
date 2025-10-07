@@ -1,0 +1,3 @@
+FLOAT D3DX_Truncate_FLOAT(
+   FLOAT _V
+);

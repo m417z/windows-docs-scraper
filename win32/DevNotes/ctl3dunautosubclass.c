@@ -1,0 +1,1 @@
+BOOL Ctl3dUnAutoSubclass(void);

@@ -1,0 +1,1 @@
+HRESULT WINAPI DlpHandleRequest(_Inout_ DlpRequest* request);

@@ -1,0 +1,3 @@
+VOID FsRtlEnterFileSystem(
+   VOID
+);

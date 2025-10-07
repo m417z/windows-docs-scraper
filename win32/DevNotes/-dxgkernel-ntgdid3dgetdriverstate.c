@@ -1,0 +1,3 @@
+DWORD APIENTRY NtGdiD3DGetDriverState(
+  _Inout_ PDD_GETDRIVERSTATEDATA pdata
+);

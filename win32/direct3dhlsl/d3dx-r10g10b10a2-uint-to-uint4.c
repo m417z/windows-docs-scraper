@@ -1,0 +1,3 @@
+XMINT4 D3DX_R10G10B10A2_UINT_to_UINT4(
+   UINT packedInput
+);
