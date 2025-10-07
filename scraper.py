@@ -172,6 +172,10 @@ def clean_markdown_content(content_url: str, content: str) -> str:
     # Remove newlines between table rows which can break tables.
     content = re.sub(r'</tr>\s+<tr>', '</tr><tr>', content)
 
+    # Normalize newlines to <br>, a mix of <br> and <br/> causes issues for
+    # markdownify.
+    content = re.sub(r'(<br)\s*/>', r'\1>', content, flags=re.IGNORECASE)
+
     # Apply text replacements to standardize markdown section headers. These
     # patterns clean up Microsoft-specific markdown conventions.
     replacements = [
@@ -203,7 +207,14 @@ def clean_markdown_content(content_url: str, content: str) -> str:
         content = re.sub(pattern, replacement, content, flags=re.MULTILINE)
 
     # Remove <dl><dt>...</dt></dl> in table cells (mainly in win32).
-    content = re.sub(r'\|(.*?)<dl>\s*<dt>\s*(.*?)\s*</dt>\s*</dl>(.*?)\|', r'|\1\2\3|', content)
+    def remove_dl_dt_sub(match: re.Match) -> str:
+        begin = match.group(1)
+        dt_content = match.group(2)
+        end = match.group(3)
+        dt_content = re.sub(r'</dt>\s*<dt>', '<br>', dt_content)
+        return f'|{begin}{dt_content}{end}|'
+
+    content = re.sub(r'\|(.*?)<dl>\s*<dt>\s*(.*?)\s*</dt>\s*</dl>(.*?)\|', remove_dl_dt_sub, content)
 
     # Remove brackets in links.
     content = re.sub(r'\[([\s\S]*?)\]\(<([^)]+)>\)', r'[\1](\2)', content)
@@ -244,18 +255,14 @@ def clean_markdown_content(content_url: str, content: str) -> str:
 
     content = re.sub(r'(`+)(.*?)(`+)', inline_code_sub, content)
 
-    # Escape all < symbols that are not part of HTML tags. Limit to <[a-z] and
-    # </[a-z] as other symbols can't be mistaken for HTML tags, and it just adds
-    # noise to the markdown.
+    # Escape all < symbols that are not part of HTML tags or comments.
     regex_bracket_not_html_tag = (
         r'(<)(?!/?(?:a|abbr|acronym|b|blockquote|br|caption|code|col|colgroup|dd'
         r'|del|details|div|dl|dt|em|figcaption|figure|h[1-6]|hr|i|img|kbd|li'
         r'|mark|ol|p|pre|q|s|samp|section|small|span|strong|sub|sup|table|tbody'
-        r'|td|tfoot|th|thead|tr|u|ul)\b)(/)?'
+        r'|td|tfoot|th|thead|tr|u|ul)\b|!--)(/)?'
     )
     content = re.sub(regex_bracket_not_html_tag, r'&lt;\2', content, flags=re.IGNORECASE)
-
-    regex_bracket_letter_not_html_tag = regex_bracket_not_html_tag + r'(?=[a-z])'
 
     # Make more html-to-markdown friendly by ensuring paragraphs are properly
     # separated and not collapsed together.
@@ -376,13 +383,18 @@ def clean_markdown_content(content_url: str, content: str) -> str:
         return '\\' + match.group(1) + (match.group(2) or '')
 
     cleaned_content = re.sub(
-        regex_bracket_letter_not_html_tag,
+        r'(<)(?=/?[a-z]|!--)(?!br\b)(/)?',
         markdown_escape_sub,
         cleaned_content,
         flags=re.IGNORECASE,
     )
 
-    cleaned_content = re.sub(r'(&)(?=[a-z#]\w=;)()', markdown_escape_sub, cleaned_content, flags=re.IGNORECASE)
+    cleaned_content = re.sub(
+        r'(&)(?=[a-z#]\w=;)()',
+        markdown_escape_sub,
+        cleaned_content,
+        flags=re.IGNORECASE,
+    )
 
     # Remove trailing spaces on lines.
     cleaned_content = re.sub(r' +$', '', cleaned_content, flags=re.MULTILINE)
