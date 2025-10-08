@@ -32,11 +32,8 @@ The private key to use from the key container specified within the buffer **bBuf
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| **AT\_KEYEXCHANGE**
-
-1 | The key is a key-exchange key.\ | | **AT\_SIGNATURE**
-
-2 | The key is a signature key.\ |
+| **AT\_KEYEXCHANGE**<br>1 | The key is a key-exchange key.<br> |
+| **AT\_SIGNATURE**<br>2 | The key is a signature key.<br> |
 
 **nCardNameOffset**
 

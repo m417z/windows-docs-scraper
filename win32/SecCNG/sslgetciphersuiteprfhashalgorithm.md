@@ -38,12 +38,21 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | The *hSslProvider* parameter contains a pointer that is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *szPRFHash* parameter is set to **NULL**.<br> |
+| **NTE\_NOT\_SUPPORTED**<br>0x80090029L | The selected function is not supported in the specified version of the interface.<br> |
+| **NTE\_BAD\_FLAGS**<br>0x80090009L | The *dwFlags* parameter must be set to zero.<br> |
 
-0x80090026L | The *hSslProvider* parameter contains a pointer that is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+## Remarks
 
-0x80090027L | The *szPRFHash* parameter is set to **NULL**.\ | | **NTE\_NOT\_SUPPORTED**
+This **SslGetCipherSuitePRFHashAlgorithm** function is called for TLS 1.2 or later conversations to query the hashing algorithm that will be used in the TLS PRF.
 
-0x80090029L | The selected function is not supported in the specified version of the interface.\ | | **NTE\_BAD\_FLAGS**
+## Requirements
 
-0x80090009L | The *dwFlags* parameter must be set to zero.\ | ## Remarks This **SslGetCipherSuitePRFHashAlgorithm** function is called for TLS 1.2 or later conversations to query the hashing algorithm that will be used in the TLS PRF. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows 7 \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 R2 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows 7 \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 R2 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

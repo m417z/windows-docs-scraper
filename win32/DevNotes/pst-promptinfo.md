@@ -16,11 +16,8 @@ This flag is ignored.
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **PST\_PF\_ALWAYS\_SHOW**
-
-0x00000001 | Requests that the provider show the prompt dialog to the user even if it is not required for this access. \ | | **PST\_PF\_NEVER\_SHOW**
-
-0x00000002 | Do not show the prompt dialog to the user.\ |
+| **PST\_PF\_ALWAYS\_SHOW**<br>0x00000001 | Requests that the provider show the prompt dialog to the user even if it is not required for this access. <br> |
+| **PST\_PF\_NEVER\_SHOW**<br>0x00000002 | Do not show the prompt dialog to the user.<br> |
 
 **hwndApp**
 

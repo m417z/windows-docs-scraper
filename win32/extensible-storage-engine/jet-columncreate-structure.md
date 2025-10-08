@@ -33,15 +33,9 @@ The name of the column to create. The name must meet the following criteria:
 
   - It must be fewer than JET_cbNameMost characters in length, not including the terminating NULL.
 
-<!-- end list -->
-
   - It must contain characters only from the following sets: 0 through 9, A through Z, a through z, and all other punctuation except for exclamation point (\!), comma (,), opening bracket (\[), and closing bracket (\]), that is, ASCII characters 0x20, 0x22 through 0x2d, 0x2f through 0x5a, 0x5c, 0x5d through 0x7f.
 
-<!-- end list -->
-
   - It cannot begin with a space.
-
-<!-- end list -->
 
   - It must contain at least one non-space character.
 

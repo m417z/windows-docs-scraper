@@ -37,6 +37,9 @@ If the function succeeds, the returned **IUnknown** interface has an outstanding
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Ctlutil.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**CPosPassThru Class**](https://learn.microsoft.com/windows/win32/directshow/cpospassthru)
+## See also
+
+[**CPosPassThru Class**](https://learn.microsoft.com/windows/win32/directshow/cpospassthru)
+

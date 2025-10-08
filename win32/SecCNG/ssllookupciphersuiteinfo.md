@@ -38,6 +38,14 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | The *hSslProvider* handle is not valid.<br> |
 
-0x80090026L | The *hSslProvider* handle is not valid.\ | ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

@@ -25,6 +25,9 @@ In a DLL that links to the base-class library (Strmbase.lib), it is not necessar
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxdebug.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Debug Output Functions](https://learn.microsoft.com/windows/win32/directshow/debug-output-functions)
+## See also
+
+[Debug Output Functions](https://learn.microsoft.com/windows/win32/directshow/debug-output-functions)
+

@@ -22,13 +22,9 @@ The current system cooling mode. This member must one of the following values.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **PO\_TZ\_ACTIVE**
-
-0 | The system is currently in Active cooling mode.\ | | **PO\_TZ\_INVALID\_MODE**
-
-2 | The system does not support CPU throttling, or there is no thermal zone defined in the system.\ | | **PO\_TZ\_PASSIVE**
-
-1 | The system is currently in Passive cooling mode.\ |
+| **PO\_TZ\_ACTIVE**<br>0 | The system is currently in Active cooling mode.<br> |
+| **PO\_TZ\_INVALID\_MODE**<br>2 | The system does not support CPU throttling, or there is no thermal zone defined in the system.<br> |
+| **PO\_TZ\_PASSIVE**<br>1 | The system is currently in Passive cooling mode.<br> |
 
 ## Remarks
 

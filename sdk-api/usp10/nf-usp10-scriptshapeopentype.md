@@ -138,7 +138,7 @@ Notation for the array elements consists of these items:
 
 * c\<n> means cluster n.
 * g\<m> means glyph m.
-* u<p> means Unicode code point p.
+* u\<p> means Unicode code point p.
 
 The generated cluster array stores offsets to the cluster containing the character. Units are expressed in glyphs.
 

@@ -53,11 +53,8 @@ Specifies whether this function is being used for client-side or server-side key
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| **NCRYPT\_SSL\_CLIENT\_FLAG**
-
-0x00000001 | Specifies a client-side key exchange.\ | | **NCRYPT\_SSL\_SERVER\_FLAG**
-
-0x00000002 | Specifies a server-side key exchange.\ |
+| **NCRYPT\_SSL\_CLIENT\_FLAG**<br>0x00000001 | Specifies a client-side key exchange.<br> |
+| **NCRYPT\_SSL\_SERVER\_FLAG**<br>0x00000002 | Specifies a server-side key exchange.<br> |
 
 ## Return value
 
@@ -69,10 +66,16 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **NTE\_NO\_MEMORY**
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | Not enough memory is available to allocate necessary buffers.<br> |
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | One of the provided handles is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *phMasterKey* or *hPublicKey* parameter is not valid.<br> |
 
-0x8009000EL | Not enough memory is available to allocate necessary buffers.\ | | **NTE\_INVALID\_HANDLE**
+## Requirements
 
-0x80090026L | One of the provided handles is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
 
-0x80090027L | The *phMasterKey* or *hPublicKey* parameter is not valid.\ | ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |

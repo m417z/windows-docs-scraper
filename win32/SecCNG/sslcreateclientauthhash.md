@@ -38,14 +38,22 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | The *hSslProvider* parameter contains a pointer that is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *phHandshakeHash* parameter is set to **NULL**.<br> |
+| **NTE\_NOT\_SUPPORTED**<br>0x80090029L | The selected function is not supported in the specified version of the interface.<br> |
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | Insufficient memory to allocate buffers.<br> |
+| **NTE\_BAD\_FLAGS**<br>0x80090009L | The *dwFlags* parameter must be set to zero.<br> |
 
-0x80090026L | The *hSslProvider* parameter contains a pointer that is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+## Remarks
 
-0x80090027L | The *phHandshakeHash* parameter is set to **NULL**.\ | | **NTE\_NOT\_SUPPORTED**
+The **SslCreateClientAuthHash** function is called for [*Transport Layer Security protocol*](https://learn.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.2 or later conversations to create hash objects that are used to hash handshake messages. It is called once for each possible [*hashing algorithm*](https://learn.microsoft.com/windows/desktop/SecGloss/h-gly) that can be used in the client authentication signature.
 
-0x80090029L | The selected function is not supported in the specified version of the interface.\ | | **NTE\_NO\_MEMORY**
+## Requirements
 
-0x8009000EL | Insufficient memory to allocate buffers.\ | | **NTE\_BAD\_FLAGS**
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows 7 \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 R2 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
 
-0x80090009L | The *dwFlags* parameter must be set to zero.\ | ## Remarks The **SslCreateClientAuthHash** function is called for [*Transport Layer Security protocol*](https://learn.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.2 or later conversations to create hash objects that are used to hash handshake messages. It is called once for each possible [*hashing algorithm*](https://learn.microsoft.com/windows/desktop/SecGloss/h-gly) that can be used in the client authentication signature. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows 7 \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 R2 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |

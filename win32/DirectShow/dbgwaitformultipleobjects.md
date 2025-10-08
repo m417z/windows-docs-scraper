@@ -27,6 +27,9 @@ Boolean value that specifies whether to wait for all of the objects. If **TRUE**
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxdebug.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Wait Debugging Functions](https://learn.microsoft.com/windows/win32/directshow/wait-debugging-functions)
+## See also
+
+[Wait Debugging Functions](https://learn.microsoft.com/windows/win32/directshow/wait-debugging-functions)
+

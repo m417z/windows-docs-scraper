@@ -27,8 +27,6 @@ These flags get passed to [LCMapString](https://learn.microsoft.com/windows/win3
 
   - ( LCMAP_SORTKEY | NORM_IGNORECASE | NORM_IGNOREKANATYPE | NORM_IGNOREWIDTH | NORM_IGNORENONSPACE )
 
-<!-- end list -->
-
   - ( LCMAP_SORTKEY | NORM_IGNORECASE | NORM_IGNOREKANATYPE | NORM_IGNOREWIDTH )
 
 **dwMapFlags** has the following restrictions.

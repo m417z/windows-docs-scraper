@@ -42,10 +42,20 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | The *hSslProvider* parameter contains a pointer that is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *pCipherLengths* parameter is set to **NULL** or the buffer length specified by the *cbCipherLengths* is too short.<br> |
+| **NTE\_BAD\_FLAGS**<br>0x80090009L | The *dwFlags* parameter must be set to zero.<br> |
 
-0x80090026L | The *hSslProvider* parameter contains a pointer that is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+## Remarks
 
-0x80090027L | The *pCipherLengths* parameter is set to **NULL** or the buffer length specified by the *cbCipherLengths* is too short.\ | | **NTE\_BAD\_FLAGS**
+The **SslLookupCipherLengths** function is called for [*Transport Layer Security protocol*](https://learn.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.1 or later conversations to query the header and trailer lengths for the requested protocol, cipher suite, and key type.
 
-0x80090009L | The *dwFlags* parameter must be set to zero.\ | ## Remarks The **SslLookupCipherLengths** function is called for [*Transport Layer Security protocol*](https://learn.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.1 or later conversations to query the header and trailer lengths for the requested protocol, cipher suite, and key type. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows 7 \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 R2 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows 7 \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 R2 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

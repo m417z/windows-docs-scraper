@@ -31,6 +31,9 @@ If the *bSetFormat* parameter is **TRUE**, the method allocates the memory for t
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Mtype.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+## See also
+
+[**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+

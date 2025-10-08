@@ -16,13 +16,9 @@ The battery information to be set. The type of data in the **Buffer** member dep
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **BatteryCharge**
-
-1 | Informs the battery device that the user has requested that the battery should be charging at this time. For example, with a smart battery/charger/selector, the application could charge one battery at a time. The **Buffer** member of this structure is ignored.\ | | **BatteryCriticalBias**
-
-0 | Sets the battery's critical bias adjustment. Note it is not envisioned that this value would normally be changed by software, and is present in the interfaces only as a maintenance feature. Not all batteries can maintain such a setting, and the battery information should be read to confirm that the battery accepted the setting.\ | | **BatteryDischarge**
-
-2 | Informs the battery device that the user has requested that the battery be discharging at this time. For example, this could be used to indicate which battery the user currently wants to power the system. The **Buffer** member of this structure is ignored.\ |
+| **BatteryCharge**<br>1 | Informs the battery device that the user has requested that the battery should be charging at this time. For example, with a smart battery/charger/selector, the application could charge one battery at a time. The **Buffer** member of this structure is ignored.<br> |
+| **BatteryCriticalBias**<br>0 | Sets the battery's critical bias adjustment. Note it is not envisioned that this value would normally be changed by software, and is present in the interfaces only as a maintenance feature. Not all batteries can maintain such a setting, and the battery information should be read to confirm that the battery accepted the setting.<br> |
+| **BatteryDischarge**<br>2 | Informs the battery device that the user has requested that the battery be discharging at this time. For example, this could be used to indicate which battery the user currently wants to power the system. The **Buffer** member of this structure is ignored.<br> |
 
 **Buffer**
 
@@ -38,6 +34,9 @@ The **BATTERY\_SET\_INFORMATION** structure is a variable-length structure, and 
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
-| Header<br> | Poclass.h;
+| Header<br> | Poclass.h; <br>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP |
 
-Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP | ## See also [**IOCTL\_BATTERY\_SET\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-set-information)
+## See also
+
+[**IOCTL\_BATTERY\_SET\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-set-information)
+

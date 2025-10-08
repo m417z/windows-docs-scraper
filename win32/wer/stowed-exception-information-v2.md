@@ -24,11 +24,8 @@ A 2-bit value that identifies the form of the exception.
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| **STOWED\_EXCEPTION\_FORM\_BINARY**
-
-0x01 | This value indicates that the form of the exception is binary.\ | | **STOWED\_EXCEPTION\_FORM\_TEXT**
-
-0x02 | This value indicates that the form of the exception is text.\ |
+| **STOWED\_EXCEPTION\_FORM\_BINARY**<br>0x01 | This value indicates that the form of the exception is binary.<br> |
+| **STOWED\_EXCEPTION\_FORM\_TEXT**<br>0x02 | This value indicates that the form of the exception is text.<br> |
 
 **ThreadId**
 
@@ -95,17 +92,11 @@ Here are some common type definitions:
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **STOWED\_EXCEPTION\_NESTED\_TYPE\_NONE**
-
-(0x00000000) | This value specifies that there is no nested exception object.\ | | **STOWED\_EXCEPTION\_NESTED\_TYPE\_WIN32**
-
-STOWED\_EXCEPTION\_NESTED\_TYPE('W32E') | This value specifies that the **NestedException** member points to an [**EXCEPTION\_RECORD**](https://learn.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record) object.\ | | **STOWED\_EXCEPTION\_NESTED\_TYPE\_STOWED**
-
-STOWED\_EXCEPTION\_NESTED\_TYPE('STOW') | This value specifies that the **NestedException** member points to another stowed exception object. The other stowed exception object can be a **STOWED\_EXCEPTION\_INFORMATION\_V2** object or a different version with a valid **Header** member, that is, a **Header** member that contains a valid [**STOWED\_EXCEPTION\_INFORMATION\_HEADER**](https://learn.microsoft.com/windows/win32/wer/stowed-exception-information-header).\ | | **STOWED\_EXCEPTION\_NESTED\_TYPE\_CLR**
-
-STOWED\_EXCEPTION\_NESTED\_TYPE('CLR1') | This value specifies that the **NestedException** member points to a 'CLR1' exception object.\ | | **STOWED\_EXCEPTION\_NESTED\_TYPE\_LEO**
-
-STOWED\_EXCEPTION\_NESTED\_TYPE('LEO1') | This value specifies that the **NestedException** member points to a language exception object.\ |
+| **STOWED\_EXCEPTION\_NESTED\_TYPE\_NONE**<br>(0x00000000) | This value specifies that there is no nested exception object.<br> |
+| **STOWED\_EXCEPTION\_NESTED\_TYPE\_WIN32**<br>STOWED\_EXCEPTION\_NESTED\_TYPE('W32E') | This value specifies that the **NestedException** member points to an [**EXCEPTION\_RECORD**](https://learn.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record) object.<br> |
+| **STOWED\_EXCEPTION\_NESTED\_TYPE\_STOWED**<br>STOWED\_EXCEPTION\_NESTED\_TYPE('STOW') | This value specifies that the **NestedException** member points to another stowed exception object. The other stowed exception object can be a **STOWED\_EXCEPTION\_INFORMATION\_V2** object or a different version with a valid **Header** member, that is, a **Header** member that contains a valid [**STOWED\_EXCEPTION\_INFORMATION\_HEADER**](https://learn.microsoft.com/windows/win32/wer/stowed-exception-information-header).<br> |
+| **STOWED\_EXCEPTION\_NESTED\_TYPE\_CLR**<br>STOWED\_EXCEPTION\_NESTED\_TYPE('CLR1') | This value specifies that the **NestedException** member points to a 'CLR1' exception object.<br> |
+| **STOWED\_EXCEPTION\_NESTED\_TYPE\_LEO**<br>STOWED\_EXCEPTION\_NESTED\_TYPE('LEO1') | This value specifies that the **NestedException** member points to a language exception object.<br> |
 
 **NestedException**
 

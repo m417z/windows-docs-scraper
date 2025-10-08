@@ -12,6 +12,9 @@ Creates or opens a file. See [**CreateFile**](https://learn.microsoft.com/window
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**CreateFile**](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+## See also
+
+[**CreateFile**](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+

@@ -8,7 +8,7 @@ The type of [WS_XML_NODE](https://learn.microsoft.com/windows/desktop/api/webser
 
 ### `WS_XML_NODE_TYPE_ELEMENT:1`
 
-A start element. (e.g. <a:purchaseOrder xmlns:a="http://tempuri.org" id="5">)
+A start element. (e.g. \<a:purchaseOrder xmlns:a="http://tempuri.org" id="5">)
 
 ### `WS_XML_NODE_TYPE_TEXT:2`
 
@@ -20,7 +20,7 @@ An end element. (e.g. \</purchaseOrder>)
 
 ### `WS_XML_NODE_TYPE_COMMENT:4`
 
-A comment. (For example, <!--The message follows-->)
+A comment. (For example, \<!--The message follows-->)
 
 ### `WS_XML_NODE_TYPE_CDATA:6`
 

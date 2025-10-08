@@ -3,7 +3,7 @@
 ## Description
 
 Represents a start element in xml (e.g.
-<a:purchaseOrder xmlns:a="http://tempuri.org" id="5">)
+\<a:purchaseOrder xmlns:a="http://tempuri.org" id="5">)
 
 ## Members
 

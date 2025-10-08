@@ -12,6 +12,9 @@ Gets the user name. See [**GetUserName**](https://learn.microsoft.com/windows/wi
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**GetUserName**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-getusernamea)
+## See also
+
+[**GetUserName**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-getusernamea)
+

@@ -48,6 +48,11 @@ which can be calculated as `Int64x32Div32(timestamp, 1000, 9, 0)`. Use the *rnd*
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxutil.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Miscellaneous Helper Functions](https://learn.microsoft.com/windows/win32/directshow/miscellaneous-helper-functions) [**llMulDiv**](https://learn.microsoft.com/windows/win32/directshow/llmuldiv)
+## See also
+
+[Miscellaneous Helper Functions](https://learn.microsoft.com/windows/win32/directshow/miscellaneous-helper-functions)
+
+[**llMulDiv**](https://learn.microsoft.com/windows/win32/directshow/llmuldiv)
+

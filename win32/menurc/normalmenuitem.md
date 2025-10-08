@@ -12,11 +12,8 @@ The type of menu item. This member can be one of the following values.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **MFR\_END**
-
-0x80 | The menu item is the last in this submenu or menu resource; this flag is used internally by the system.\ | | **MFR\_POPUP**
-
-0x01 | The menu item opens a menu or a submenu; the flag is used internally by the system. \ |
+| **MFR\_END**<br>0x80 | The menu item is the last in this submenu or menu resource; this flag is used internally by the system.<br> |
+| **MFR\_POPUP**<br>0x01 | The menu item opens a menu or a submenu; the flag is used internally by the system. <br> |
 
 **menuText**
 

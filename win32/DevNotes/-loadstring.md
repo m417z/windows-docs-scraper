@@ -12,6 +12,9 @@ Loads a string resource. See [**LoadString**](https://learn.microsoft.com/window
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**LoadString**](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-loadstringa)
+## See also
+
+[**LoadString**](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-loadstringa)
+

@@ -10,17 +10,11 @@ The battery capabilities. This member can be one or more of the following values
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **BATTERY\_CAPACITY\_RELATIVE**
-
-0x40000000 | Indicates that the battery capacity and rate information are relative, and not in any specific units. If this bit is not set, the reporting units are milliwatt-hours (mWh) for capacity and milliwatts (mW) for rate. If this bit is set, all references to units in the other battery documentation can be ignored. All rate information is reported in units per hour. For example, if the fully charged capacity is reported as 100, a rate of 200 indicates that the battery will use all of its capacity in half an hour.\ | | **BATTERY\_IS\_SHORT\_TERM**
-
-0x20000000 | Indicates that the normal operation is for a fail-safe function. If this bit is not set the battery is expected to be used during normal system usage.\ | | **BATTERY\_SET\_CHARGE\_SUPPORTED**
-
-0x00000001 | Indicates that set information requests of the type BatteryCharge are supported by this battery device.\ | | **BATTERY\_SET\_DISCHARGE\_SUPPORTED**
-
-0x00000002 | Indicates that set information requests of the type BatteryDischarge are supported by this battery device.\ | | **BATTERY\_SYSTEM\_BATTERY**
-
-0x80000000 | Indicates that the battery can provide general power to run the system.\ |
+| **BATTERY\_CAPACITY\_RELATIVE**<br>0x40000000 | Indicates that the battery capacity and rate information are relative, and not in any specific units. If this bit is not set, the reporting units are milliwatt-hours (mWh) for capacity and milliwatts (mW) for rate. If this bit is set, all references to units in the other battery documentation can be ignored. All rate information is reported in units per hour. For example, if the fully charged capacity is reported as 100, a rate of 200 indicates that the battery will use all of its capacity in half an hour.<br> |
+| **BATTERY\_IS\_SHORT\_TERM**<br>0x20000000 | Indicates that the normal operation is for a fail-safe function. If this bit is not set the battery is expected to be used during normal system usage.<br> |
+| **BATTERY\_SET\_CHARGE\_SUPPORTED**<br>0x00000001 | Indicates that set information requests of the type BatteryCharge are supported by this battery device.<br> |
+| **BATTERY\_SET\_DISCHARGE\_SUPPORTED**<br>0x00000002 | Indicates that set information requests of the type BatteryDischarge are supported by this battery device.<br> |
+| **BATTERY\_SYSTEM\_BATTERY**<br>0x80000000 | Indicates that the battery can provide general power to run the system.<br> |
 
 **Technology**
 
@@ -85,6 +79,9 @@ Generally, a warning state occurs before a low state, but you should not assume 
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
-| Header<br> | Poclass.h;
+| Header<br> | Poclass.h; <br>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP |
 
-Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP | ## See also [**IOCTL\_BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-information)
+## See also
+
+[**IOCTL\_BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-information)
+

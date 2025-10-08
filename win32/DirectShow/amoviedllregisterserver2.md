@@ -23,6 +23,9 @@ Use this function to set up your filters. For more information, see [How to Regi
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Dllsetup.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**DLL Setup Functions**](https://learn.microsoft.com/windows/win32/directshow/dll-setup-functions)
+## See also
+
+[**DLL Setup Functions**](https://learn.microsoft.com/windows/win32/directshow/dll-setup-functions)
+

@@ -18,11 +18,8 @@ The resource type. This member must have one of the following values.
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **RES\_CURSOR**
-
-2 | Cursor resource type.\ | | **RES\_ICON**
-
-1 | Icon resource type.\ |
+| **RES\_CURSOR**<br>2 | Cursor resource type.<br> |
+| **RES\_ICON**<br>1 | Icon resource type.<br> |
 
 **ResCount**
 

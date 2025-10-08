@@ -18,10 +18,15 @@ This function returns one of the following codes or another error code if it fai
 
 | Return code/value | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| **S\_OK**
+| **S\_OK**<br>0 (0x0) | The function was successful.<br> |
+| **S\_FALSE**<br>1 (0x1) | Enabled is **FALSE** and the volume was not already in raw access mode.<br> |
+| **E\_ACCESSDENIED**<br>2147942405 (0x80070005) | The volume cannot be locked.<br> |
 
-0 (0x0) | The function was successful.\ | | **S\_FALSE**
+## Requirements
 
-1 (0x1) | Enabled is **FALSE** and the volume was not already in raw access mode.\ | | **E\_ACCESSDENIED**
+| Requirement | Value |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| DLL<br> | Fveapi.dll |
 
-2147942405 (0x80070005) | The volume cannot be locked.\ | ## Requirements | Requirement | Value | |-------------------------------------|---------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | DLL\ | Fveapi.dll |

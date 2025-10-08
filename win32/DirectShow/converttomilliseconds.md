@@ -19,6 +19,9 @@ Returns the reference time converted to milliseconds.
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Refclock.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**CBaseReferenceClock Class**](https://learn.microsoft.com/windows/win32/directshow/cbasereferenceclock)
+## See also
+
+[**CBaseReferenceClock Class**](https://learn.microsoft.com/windows/win32/directshow/cbasereferenceclock)
+

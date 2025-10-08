@@ -43,10 +43,20 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **NTE\_NO\_MEMORY**
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | Not enough memory is available to allocate necessary buffers.<br> |
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | One of the provided handles is not valid.<br> |
+| **NTE\_NO\_MORE\_ITEMS**<br>0x8009002AL | No additional cipher suites are supported.<br> |
 
-0x8009000EL | Not enough memory is available to allocate necessary buffers.\ | | **NTE\_INVALID\_HANDLE**
+## Remarks
 
-0x80090026L | One of the provided handles is not valid.\ | | **NTE\_NO\_MORE\_ITEMS**
+To enumerate all cipher suites supported by the SSL provider, call the **SslEnumCipherSuites** function in a loop until **NTE\_NO\_MORE\_ITEMS** is returned.
 
-0x8009002AL | No additional cipher suites are supported.\ | ## Remarks To enumerate all cipher suites supported by the SSL provider, call the **SslEnumCipherSuites** function in a loop until **NTE\_NO\_MORE\_ITEMS** is returned. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | Library\ | Ncrypt.lib | | DLL\ | Ncrypt.dll |
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| Library<br> | Ncrypt.lib |
+| DLL<br> | Ncrypt.dll |

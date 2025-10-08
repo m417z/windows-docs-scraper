@@ -21,13 +21,9 @@ Specifies how certificates are added to the signature. To find the certificate c
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SIGNER\_CERT\_POLICY\_CHAIN**
-
-2 (0x2) | Add only certificates in the certificate chain.\ | | **SIGNER\_CERT\_POLICY\_CHAIN\_NO\_ROOT**
-
-8 (0x8) | Add only certificates in the certificate chain, excluding the root certificate.\ | | **SIGNER\_CERT\_POLICY\_STORE**
-
-1 (0x1) | Add all certificates in the store specified by the **hCertStore** member. This flag can be a bitwise-**OR** combination with any of the other possible values for this member.\ |
+| **SIGNER\_CERT\_POLICY\_CHAIN**<br>2 (0x2) | Add only certificates in the certificate chain.<br> |
+| **SIGNER\_CERT\_POLICY\_CHAIN\_NO\_ROOT**<br>8 (0x8) | Add only certificates in the certificate chain, excluding the root certificate.<br> |
+| **SIGNER\_CERT\_POLICY\_STORE**<br>1 (0x1) | Add all certificates in the store specified by the **hCertStore** member. This flag can be a bitwise-**OR** combination with any of the other possible values for this member.<br> |
 
 **hCertStore**
 

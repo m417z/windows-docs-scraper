@@ -20,16 +20,16 @@ The text run is a private data type embedded in the text run.
 
 ## Remarks
 
-A text run is a collection of consecutive characters that is visible, hidden, or contains embedded data. For example, the text, Hello World in HTML might be <b>Hello </b><i>World</i>. This text would be defined using the TsRunType as in the following.
+A text run is a collection of consecutive characters that is visible, hidden, or contains embedded data. For example, the text, Hello World in HTML might be \<b>Hello \</b>\<i>World\</i>. This text would be defined using the TsRunType as in the following.
 
 | Text Run | Value |
 | --- | --- |
-| <b> | TS_RT_HIDDEN |
+| \<b> | TS_RT_HIDDEN |
 | Hello\<space> | TS_RT_PLAIN |
-| </b> | TS_RT_HIDDEN |
-| <i> | TS_RT_HIDDEN |
+| \</b> | TS_RT_HIDDEN |
+| \<i> | TS_RT_HIDDEN |
 | World | TS_RT_PLAIN |
-| </i> | TS_RT_HIDDEN |
+| \</i> | TS_RT_HIDDEN |
 
 ## See also
 

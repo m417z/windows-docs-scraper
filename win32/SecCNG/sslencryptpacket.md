@@ -42,15 +42,10 @@ The content type that corresponds to this packet, which specifies the higher lev
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **CT\_CHANGE\_CIPHER\_SPEC**
-
-20 | Indicates a change in the ciphering strategy.\ | | **CT\_ALERT**
-
-21 | Indicates that the enclosed packet contains an alert.\ | | **CT\_HANDSHAKE**
-
-22 | Indicates that the enclosed packet is part of the handshake protocol.\ | | **CT\_APPLICATIONDATA**
-
-23 | Indicates that the packet contains application data.\ |
+| **CT\_CHANGE\_CIPHER\_SPEC**<br>20 | Indicates a change in the ciphering strategy.<br> |
+| **CT\_ALERT**<br>21 | Indicates that the enclosed packet contains an alert.<br> |
+| **CT\_HANDSHAKE**<br>22 | Indicates that the enclosed packet is part of the handshake protocol.<br> |
+| **CT\_APPLICATIONDATA**<br>23 | Indicates that the packet contains application data.<br> |
 
 *dwFlags* \[in\]
 
@@ -66,6 +61,14 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | One of the provided handles is not valid.<br> |
 
-0x80090026L | One of the provided handles is not valid.\ | ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

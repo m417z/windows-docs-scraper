@@ -54,6 +54,22 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | One of the provided handles is not valid.<br> |
 
-0x80090026L | One of the provided handles is not valid.\ | ## Remarks The **SslExportKey** function facilitates transporting session keys from one process to another as well as exporting the public portion an ephemeral key. When exporting session keys, the BLOB type is opaque, meaning that the format of the BLOB is irrelevant as long as both the **SslExportKey** and [**SslImportKey**](https://learn.microsoft.com/windows/win32/seccng/sslimportkey) functions can interpret it. When exporting the public portion of an ephemeral key the BLOB type must be the appropriate type, such as **NCRYPT\_DH\_PUBLIC\_BLOB** or **NCRYPT\_ECCPUBLIC\_BLOB**. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Remarks
+
+The **SslExportKey** function facilitates transporting session keys from one process to another as well as exporting the public portion an ephemeral key.
+
+When exporting session keys, the BLOB type is opaque, meaning that the format of the BLOB is irrelevant as long as both the **SslExportKey** and [**SslImportKey**](https://learn.microsoft.com/windows/win32/seccng/sslimportkey) functions can interpret it.
+
+When exporting the public portion of an ephemeral key the BLOB type must be the appropriate type, such as **NCRYPT\_DH\_PUBLIC\_BLOB** or **NCRYPT\_ECCPUBLIC\_BLOB**.
+
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

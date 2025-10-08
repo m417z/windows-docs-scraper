@@ -103,7 +103,7 @@ Pointer that references the string to be used for the main instruction. This par
 
 Type: **[PCWSTR](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Pointer that references the string to be used for the dialog's primary content. This parameter can be either a null-terminated string or an integer resource identifier passed to the [MAKEINTRESOURCE](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea) macro. If the ENABLE_HYPERLINKS flag is specified for the **dwFlags** member, then this string may contain hyperlinks in the form: <A HREF="executablestring">Hyperlink Text</A>. **WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.**
+Pointer that references the string to be used for the dialog's primary content. This parameter can be either a null-terminated string or an integer resource identifier passed to the [MAKEINTRESOURCE](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea) macro. If the ENABLE_HYPERLINKS flag is specified for the **dwFlags** member, then this string may contain hyperlinks in the form: \<A HREF="executablestring">Hyperlink Text\</A>. **WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.**
 
 ### `cButtons`
 
@@ -162,7 +162,7 @@ Pointer that references the string to be used to label the verification checkbox
 
 Type: **[PCWSTR](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-Pointer that references the string to be used for displaying additional information. This parameter can be either a null-terminated string or an integer resource identifier passed to the [MAKEINTRESOURCE](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea) macro. The additional information is displayed either immediately below the content or below the footer text depending on whether the TDF_EXPAND_FOOTER_AREA flag is specified. If the TDF_ENABLE_HYPERLINKS flag is specified for the **dwFlags** member, then this string may contain hyperlinks in the form: <A HREF="executablestring">Hyperlink Text</A>. **WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.**
+Pointer that references the string to be used for displaying additional information. This parameter can be either a null-terminated string or an integer resource identifier passed to the [MAKEINTRESOURCE](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea) macro. The additional information is displayed either immediately below the content or below the footer text depending on whether the TDF_EXPAND_FOOTER_AREA flag is specified. If the TDF_ENABLE_HYPERLINKS flag is specified for the **dwFlags** member, then this string may contain hyperlinks in the form: \<A HREF="executablestring">Hyperlink Text\</A>. **WARNING: Enabling hyperlinks when using content from an unsafe source may cause security vulnerabilities.**
 
 ### `pszExpandedControlText`
 

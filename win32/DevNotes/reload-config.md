@@ -20,6 +20,5 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Imejpknl.dll;
+| DLL<br> | Imejpknl.dll; <br>Imejp98k.dll |
 
-Imejp98k.dll |

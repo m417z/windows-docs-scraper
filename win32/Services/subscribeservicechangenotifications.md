@@ -16,13 +16,9 @@ Specifies the type of status changes that should be reported. This parameter is 
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| **SC\_EVENT\_DATABASE\_CHANGE**
-
-0 | A service has been added or deleted. The *hService* parameter must be a handle to the SCM.\ | | **SC\_EVENT\_PROPERTY\_CHANGE**
-
-1 | One or more service properties have been updated. The *hService* parameter must be a handle to the service.\ | | **SC\_EVENT\_STATUS\_CHANGE**
-
-2 | The status of a service has changed. The *hService* parameter must be a handle to the service.\ |
+| **SC\_EVENT\_DATABASE\_CHANGE**<br>0 | A service has been added or deleted. The *hService* parameter must be a handle to the SCM.<br> |
+| **SC\_EVENT\_PROPERTY\_CHANGE**<br>1 | One or more service properties have been updated. The *hService* parameter must be a handle to the service.<br> |
+| **SC\_EVENT\_STATUS\_CHANGE**<br>2 | The status of a service has changed. The *hService* parameter must be a handle to the service.<br> |
 
 *pCallback* \[in\]
 

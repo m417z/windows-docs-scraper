@@ -48,6 +48,17 @@ CsvFs will do redirected IO for compressed files.
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps \| UWP apps\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps \| UWP apps\]<br> |
-| Header<br> | IoAPI.h (include Windows.h);
+| Header<br> | IoAPI.h (include Windows.h); <br>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h) |
+| Library<br> | Kernel32.lib |
+| DLL<br> | Kernel32.dll |
 
-WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h) | | Library\ | Kernel32.lib | | DLL\ | Kernel32.dll | ## See also [**CreateIoCompletionPort**](https://learn.microsoft.com/windows/win32/fileio/createiocompletionport) [File Management Functions](https://learn.microsoft.com/windows/win32/fileio/file-management-functions) [**GetQueuedCompletionStatus**](https://learn.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) [**OVERLAPPED**](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
+## See also
+
+[**CreateIoCompletionPort**](https://learn.microsoft.com/windows/win32/fileio/createiocompletionport)
+
+[File Management Functions](https://learn.microsoft.com/windows/win32/fileio/file-management-functions)
+
+[**GetQueuedCompletionStatus**](https://learn.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus)
+
+[**OVERLAPPED**](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)
+

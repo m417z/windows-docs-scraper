@@ -28,8 +28,10 @@ Because operating system features can be added in a redistributable DLL, checkin
 | Minimum supported server<br> | Windows 2000 Server \[desktop apps only\]<br> |
 | Target platform<br> | [Universal](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA) |
 | Header<br> | Ntddk.h (include Ntddk.h) |
-| Library<br> | Ntdll.lib;
+| Library<br> | Ntdll.lib; <br>NtosKrnl.lib |
+| DLL<br> | Ntdll.dll; <br>NtosKrnl.exe |
 
-NtosKrnl.lib | | DLL\ | Ntdll.dll;
+## See also
 
-NtosKrnl.exe | ## See also [**PsGetVersion**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psgetversion)
+[**PsGetVersion**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psgetversion)
+

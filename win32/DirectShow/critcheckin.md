@@ -41,6 +41,9 @@ The following code example shows how to use this function:
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxutil.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Critical Section Debugging Functions](https://learn.microsoft.com/windows/win32/directshow/critical-section-debugging-functions)
+## See also
+
+[Critical Section Debugging Functions](https://learn.microsoft.com/windows/win32/directshow/critical-section-debugging-functions)
+

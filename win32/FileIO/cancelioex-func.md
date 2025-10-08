@@ -54,6 +54,19 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows Vista \[desktop apps \| UWP apps\]<br> |
 | Minimum supported server<br> | Windows Server 2008 \[desktop apps \| UWP apps\]<br> |
-| Header<br> | IoAPI.h (include Windows.h);
+| Header<br> | IoAPI.h (include Windows.h); <br>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista (include Windows.h) |
+| Library<br> | Kernel32.lib |
+| DLL<br> | Kernel32.dll |
 
-WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista (include Windows.h) | | Library\ | Kernel32.lib | | DLL\ | Kernel32.dll | ## See also [**CancelIo**](https://learn.microsoft.com/windows/win32/fileio/cancelio) [**CancelSynchronousIo**](https://learn.microsoft.com/windows/win32/fileio/cancelsynchronousio-func) [Canceling Pending I/O Operations](https://learn.microsoft.com/windows/win32/fileio/canceling-pending-i-o-operations) [File Management Functions](https://learn.microsoft.com/windows/win32/fileio/file-management-functions) [Synchronous and Asynchronous I/O](https://learn.microsoft.com/windows/win32/fileio/synchronous-and-asynchronous-i-o)
+## See also
+
+[**CancelIo**](https://learn.microsoft.com/windows/win32/fileio/cancelio)
+
+[**CancelSynchronousIo**](https://learn.microsoft.com/windows/win32/fileio/cancelsynchronousio-func)
+
+[Canceling Pending I/O Operations](https://learn.microsoft.com/windows/win32/fileio/canceling-pending-i-o-operations)
+
+[File Management Functions](https://learn.microsoft.com/windows/win32/fileio/file-management-functions)
+
+[Synchronous and Asynchronous I/O](https://learn.microsoft.com/windows/win32/fileio/synchronous-and-asynchronous-i-o)
+

@@ -45,10 +45,20 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **NTE\_NO\_MEMORY**
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | Not enough memory is available to allocate necessary buffers.<br> |
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | The *hSslProvider* handle is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *phKey* parameter is **NULL**.<br> |
 
-0x8009000EL | Not enough memory is available to allocate necessary buffers.\ | | **NTE\_INVALID\_HANDLE**
+## Remarks
 
-0x80090026L | The *hSslProvider* handle is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+You can use the **SslImportKey** function to import session keys as a part of the process of transferring session keys from one process to another.
 
-0x80090027L | The *phKey* parameter is **NULL**.\ | ## Remarks You can use the **SslImportKey** function to import session keys as a part of the process of transferring session keys from one process to another. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

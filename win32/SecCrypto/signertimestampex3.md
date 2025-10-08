@@ -14,7 +14,8 @@ Flag that specifies the type of time stamp to generate. This parameter can be on
 | Value | Meaning |
 |-------|---------|
 | **SIGNER_TIMESTAMP_AUTHENTICODE**<br> | Specifies an Authenticode time stamp.<br> **Note:** Authenticode is no longer the preferred type of time stamp. Support for Authenticode time stamps may be removed in the future. We recommend that you use RFC 3161 instead.<br> |
-| **SIGNER_TIMESTAMP_RFC3161** | Specifies an RFC 3161–compliant time stamp.<br>
+| **SIGNER_TIMESTAMP_RFC3161** | Specifies an RFC 3161–compliant time stamp.<br> |
+
 *dwIndex* \[in\]
 
 Specifies the sequence number of the signature to which the timestamp will be added. If this value is zero (0), the outer signature will be time stamped.
@@ -63,4 +64,26 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code | Description |
 |-------------|-------------|
-| **E_INVALIDARG** | This error can be returned for the following conditions:\
+| **E_INVALIDARG** | This error can be returned for the following conditions:<br>
+* You must set either **SIGNER_TIMESTAMP_AUTHENTICODE** or **SIGNER_TIMESTAMP_RFC3161** for the *dwFlags* parameter.
+* The *pReserved* parameter must be **NULL**.
+* If you set the **SIGNER_TIMESTAMP_AUTHENTICODE** flag in the *dwFlags* parameter, you must set the *dwIndex* parameter to zero.
+
+|
+
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows 8 \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2012 \[desktop apps only\]<br> |
+| DLL<br> | Mssign32.dll |
+
+## See also
+
+[**SignerTimeStamp**](https://learn.microsoft.com/windows/win32/seccrypto/signertimestamp)
+
+[**SignerTimeStampEx**](https://learn.microsoft.com/windows/win32/seccrypto/signertimestampex)
+
+[**SignerTimeStampEx2**](https://learn.microsoft.com/windows/win32/seccrypto/signertimestampex2)
+

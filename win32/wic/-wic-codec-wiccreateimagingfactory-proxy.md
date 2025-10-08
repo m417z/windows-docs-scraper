@@ -28,6 +28,5 @@ This function is a helper for creating a WIC factory for explicit DLL linking, w
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
-| DLL<br> | Windowscodecs.dll;
+| DLL<br> | Windowscodecs.dll; <br>windowscodecs.lib |
 
-windowscodecs.lib |

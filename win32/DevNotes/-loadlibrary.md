@@ -12,6 +12,9 @@ Loads a library. See [**LoadLibrary**](https://learn.microsoft.com/windows/win32
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**LoadLibrary**](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)
+## See also
+
+[**LoadLibrary**](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)
+

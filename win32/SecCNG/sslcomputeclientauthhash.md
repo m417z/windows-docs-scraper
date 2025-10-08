@@ -46,6 +46,20 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | One of the supplied handles is not valid.<br> |
 
-0x80090026L | One of the supplied handles is not valid.\ | ## Remarks The **SslComputeClientAuthHash** function computes the hash that is sent in the certificate verification message of the SSL handshake. The hash value is computed by creating a hash that contains the master secret with a hash of all previous handshake messages sent or received. The manner in which the hash is computed depends on the protocol and cipher suite used. In addition, the hash depends on the type of client authentication key used; the *pszAlgId* parameter indicates the type of key used for client authentication. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Remarks
+
+The **SslComputeClientAuthHash** function computes the hash that is sent in the certificate verification message of the SSL handshake. The hash value is computed by creating a hash that contains the master secret with a hash of all previous handshake messages sent or received.
+
+The manner in which the hash is computed depends on the protocol and cipher suite used. In addition, the hash depends on the type of client authentication key used; the *pszAlgId* parameter indicates the type of key used for client authentication.
+
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

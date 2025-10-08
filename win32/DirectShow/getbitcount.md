@@ -19,6 +19,9 @@ Returns the number of bits per pixel for this subtype, or the value **USHRT\_MAX
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxutil.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Video and Image Functions](https://learn.microsoft.com/windows/win32/directshow/video-and-image-functions)
+## See also
+
+[Video and Image Functions](https://learn.microsoft.com/windows/win32/directshow/video-and-image-functions)
+

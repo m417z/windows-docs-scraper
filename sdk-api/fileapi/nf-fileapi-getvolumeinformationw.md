@@ -68,4 +68,83 @@ This parameter can be one or more of the following flags. However, **FILE_FILE_C
 | **FILE_READ_ONLY_VOLUME**<br>0x00080000 | The specified volume is read-only. |
 | **FILE_SEQUENTIAL_WRITE_ONCE**<br>0x00100000 | The specified volume supports a single sequential write. |
 | **FILE_SUPPORTS_TRANSACTIONS**<br>0x00200000 | The specified volume supports transactions. For more information, see [About KTM](https://learn.microsoft.com/windows/win32/Ktm/about-ktm). |
-| **FILE_SUPPORTS_HARD_LINKS**<br>0x00400000 | The specified volume supports hard links. For more information, see [Hard Links and Junctions](https://learn.microsoft.com/windows/desktop/FileIO/hard-links-and-junctions).\
+| **FILE_SUPPORTS_HARD_LINKS**<br>0x00400000 | The specified volume supports hard links. For more information, see [Hard Links and Junctions](https://learn.microsoft.com/windows/desktop/FileIO/hard-links-and-junctions).<br><br>**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7. |
+| **FILE_SUPPORTS_EXTENDED_ATTRIBUTES**<br>0x00800000 | The specified volume supports extended attributes. An extended attribute is a piece of application-specific metadata that an application can associate with a file and is not part of the file's data.<br><br>**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7. |
+| **FILE_SUPPORTS_OPEN_BY_FILE_ID**<br>0x01000000 | The file system supports open by FileID. For more information, see [FILE_ID_BOTH_DIR_INFO](https://learn.microsoft.com/windows/win32/api/winbase/ns-winbase-file_id_both_dir_info).<br><br>**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7. |
+| **FILE_SUPPORTS_USN_JOURNAL**<br>0x02000000 | The specified volume supports update sequence number (USN) journals. For more information, see [Change Journal Records](https://learn.microsoft.com/windows/win32/FileIO/change-journal-records).<br><br>**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7. |
+| **FILE_SUPPORTS_INTEGRITY_STREAMS**<br>0x04000000 | The file system supports [integrity streams](https://learn.microsoft.com/windows-server/storage/refs/integrity-streams). |
+| **FILE_SUPPORTS_BLOCK_REFCOUNTING**<br>0x08000000 | The specified volume supports sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. Indicates that **FSCTL_DUPLICATE_EXTENTS_TO_FILE** is a supported operation. |
+| **FILE_SUPPORTS_SPARSE_VDL**<br>0x10000000 | The file system tracks whether each cluster of a file contains valid data (either from explicit file writes or automatic zeros) or invalid data (has not yet been written to or zeroed). File systems that use sparse valid data length (VDL) do not store a valid data length and do not require that valid data be contiguous within a file. |
+| **FILE_DAX_VOLUME**<br>0x20000000 | The specified volume is a direct access (DAX) volume.<br><br>**Note:** This flag was introduced in Windows 10, version 1607. |
+| **FILE_SUPPORTS_GHOSTING**<br>0x40000000 | The file system supports ghosting. |
+
+### `lpFileSystemNameBuffer` [out, optional]
+
+A pointer to a buffer that receives the name of the file system, for example, the FAT file system or the NTFS file system. The buffer size is specified by the _nFileSystemNameSize_ parameter.
+
+### `nFileSystemNameSize` [in]
+
+The length of the file system name buffer, in **TCHARs**. The maximum buffer size is **MAX_PATH**+1.
+
+This parameter is ignored if the file system name buffer is not supplied.
+
+## Return value
+
+If all the requested information is retrieved, the return value is nonzero.
+
+If not all the requested information is retrieved, the return value is zero. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+
+## Remarks
+
+When a user attempts to get information about a floppy drive that does not have a floppy disk, or a CD-ROM drive that does not have a compact disc, the system displays a message box for the user to insert a floppy disk or a compact disc, respectively. To prevent the system from displaying this message box, call the [SetErrorMode](https://learn.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-seterrormode) function with **SEM_FAILCRITICALERRORS**.
+
+The **FILE_VOL_IS_COMPRESSED** flag is the only indicator of volume-based compression. The file system name is not altered to indicate compression, for example, this flag is returned set on a DoubleSpace volume. When compression is volume-based, an entire volume is compressed or not compressed.
+
+The **FILE_FILE_COMPRESSION** flag indicates whether a file system supports file-based compression. When compression is file-based, individual files can be compressed or not compressed.
+
+The **FILE_FILE_COMPRESSION** and **FILE_VOL_IS_COMPRESSED** flags are mutually exclusive. Both bits cannot be returned set.
+
+The maximum component length value that is stored in _lpMaximumComponentLength_ is the only indicator that a volume supports longer-than-normal FAT file system (or other file system) file names. The file system name is not altered to indicate support for long file names.
+
+The [GetCompressedFileSize](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-getcompressedfilesizea) function obtains the compressed size of a file. The [GetFileAttributes](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-getfileattributesa) function can determine whether an individual file is compressed.
+
+#### Symbolic link behavior
+
+If the path points to a symbolic link, the function returns volume information for the target.
+
+Starting with Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+
+| Technology | Supported |
+|--------|--------|
+| Server Message Block (SMB) 3.0 protocol | No |
+| SMB 3.0 Transparent Failover (TFO) | No |
+| SMB 3.0 with Scale-out File Shares (SO) | No |
+| Cluster Shared Volume File System (CsvFS) | Yes |
+| Resilient File System (ReFS) | Yes |
+
+SMB does not support volume management functions.
+
+#### Transacted Operations
+
+If the volume supports file system transactions, the function returns **FILE_SUPPORTS_TRANSACTIONS** in _lpFileSystemFlags_.
+
+>[!NOTE]
+>The `fileapi.h` header defines **GetVolumeInformation** as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
+
+## See also
+
+[About KTM](https://learn.microsoft.com/windows/win32/Ktm/about-ktm)
+
+[File Encryption](https://learn.microsoft.com/windows/win32/FileIO/file-encryption)
+
+[GetCompressedFileSize](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-getcompressedfilesizea)
+
+[GetFileAttributes](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-getfileattributesa)
+
+[GetVolumeInformationByHandleW](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-getvolumeinformationbyhandlew)
+
+[SetErrorMode](https://learn.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-seterrormode)
+
+[SetVolumeLabel](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-setvolumelabela)
+
+[Volume Management Functions](https://learn.microsoft.com/windows/win32/FileIO/volume-management-functions)

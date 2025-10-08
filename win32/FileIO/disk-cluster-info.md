@@ -14,15 +14,10 @@ A combination of flags related to disks and clusters.
 
 | Value | Meaning |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| **DISK\_CLUSTER\_FLAG\_ENABLED**
-
-1 | The disk is used as part of the cluster service.\ | | **DISK\_CLUSTER\_FLAG\_CSV**
-
-2 | Volumes on the disk are exposed by CSVFS on all nodes of the cluster.\ | | **DISK\_CLUSTER\_FLAG\_IN\_MAINTENANCE**
-
-4 | The cluster resource associated with this disk is in maintenance mode.\ | | **DISK\_CLUSTER\_FLAG\_PNP\_ARRIVAL\_COMPLETE**
-
-8 | The cluster disk driver for kernel mode (clusdisk) has received PnP notification of the arrival of the disk.\ |
+| **DISK\_CLUSTER\_FLAG\_ENABLED**<br>1 | The disk is used as part of the cluster service.<br> |
+| **DISK\_CLUSTER\_FLAG\_CSV**<br>2 | Volumes on the disk are exposed by CSVFS on all nodes of the cluster.<br> |
+| **DISK\_CLUSTER\_FLAG\_IN\_MAINTENANCE**<br>4 | The cluster resource associated with this disk is in maintenance mode.<br> |
+| **DISK\_CLUSTER\_FLAG\_PNP\_ARRIVAL\_COMPLETE**<br>8 | The cluster disk driver for kernel mode (clusdisk) has received PnP notification of the arrival of the disk.<br> |
 
 **FlagsMask**
 

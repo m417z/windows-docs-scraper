@@ -12,6 +12,9 @@ Gets information about the operating system version. See [**GetVersionEx**](http
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**GetVersionEx**](https://learn.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa)
+## See also
+
+[**GetVersionEx**](https://learn.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa)
+

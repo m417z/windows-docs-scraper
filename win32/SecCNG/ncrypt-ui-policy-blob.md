@@ -14,11 +14,8 @@ A set of flags that provide additional user interface information or requirement
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| **NCRYPT\_UI\_PROTECT\_KEY\_FLAG**
-
-0x00000001 | Display the strong key user interface as needed.\ | | **NCRYPT\_UI\_FORCE\_HIGH\_PROTECTION\_FLAG**
-
-0x00000002 | Force high protection.\ |
+| **NCRYPT\_UI\_PROTECT\_KEY\_FLAG**<br>0x00000001 | Display the strong key user interface as needed.<br> |
+| **NCRYPT\_UI\_FORCE\_HIGH\_PROTECTION\_FLAG**<br>0x00000002 | Force high protection.<br> |
 
 **cbCreationTitle**
 

@@ -37,10 +37,24 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| **NTE\_NO\_MEMORY**
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | There is insufficient memory to allocate the hash buffer.<br> |
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | The *hSslProvider* handle is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *phHandshakeHash* is null.<br> |
 
-0x8009000EL | There is insufficient memory to allocate the hash buffer.\ | | **NTE\_INVALID\_HANDLE**
+## Remarks
 
-0x80090026L | The *hSslProvider* handle is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+The **SslCreateHandshakeHash** function is one of three functions used to generate a hash to use during the SSL handshake.
 
-0x80090027L | The *phHandshakeHash* is null.\ | ## Remarks The **SslCreateHandshakeHash** function is one of three functions used to generate a hash to use during the SSL handshake. 1. The **SslCreateHandshakeHash** function is called to obtain a hash handle. 2. The [**SslHashHandshake**](https://learn.microsoft.com/windows/win32/seccng/sslhashhandshake) function is called any number of times with the hash handle to add data to the hash. 3. The [**SslComputeFinishedHash**](https://learn.microsoft.com/windows/win32/seccng/sslcomputefinishedhash) function is called with the hash handle to obtain the digest of the hashed data. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+1. The **SslCreateHandshakeHash** function is called to obtain a hash handle.
+2. The [**SslHashHandshake**](https://learn.microsoft.com/windows/win32/seccng/sslhashhandshake) function is called any number of times with the hash handle to add data to the hash.
+3. The [**SslComputeFinishedHash**](https://learn.microsoft.com/windows/win32/seccng/sslcomputefinishedhash) function is called with the hash handle to obtain the digest of the hashed data.
+
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

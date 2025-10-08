@@ -94,6 +94,37 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps \| UWP apps\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps \| UWP apps\]<br> |
-| Header<br> | IoAPI.h (include Windows.h);
+| Header<br> | IoAPI.h (include Windows.h); <br>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h) |
+| Library<br> | Kernel32.lib |
+| DLL<br> | Kernel32.dll |
 
-WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h) | | Library\ | Kernel32.lib | | DLL\ | Kernel32.dll | ## See also **Overview Topics** [File Management Functions](https://learn.microsoft.com/windows/win32/fileio/file-management-functions) [I/O Completion Ports](https://learn.microsoft.com/windows/win32/fileio/i-o-completion-ports) [Using the Windows Headers](https://learn.microsoft.com/windows/desktop/WinProg/using-the-windows-headers) [Windows Sockets 2](https://learn.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2) **Functions** [**AcceptEx**](https://learn.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex) [**CreateFile**](https://learn.microsoft.com/windows/desktop/api/FileAPI/nf-fileapi-createfilea) [**DuplicateHandle**](https://learn.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle) [**GetQueuedCompletionStatus**](https://learn.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) [**GetQueuedCompletionStatusEx**](https://learn.microsoft.com/windows/win32/fileio/getqueuedcompletionstatusex-func) [**PostQueuedCompletionStatus**](https://learn.microsoft.com/windows/win32/fileio/postqueuedcompletionstatus) [**ReadFileEx**](https://learn.microsoft.com/windows/desktop/api/FileAPI/nf-fileapi-readfileex) [**WriteFileEx**](https://learn.microsoft.com/windows/desktop/api/FileAPI/nf-fileapi-writefileex)
+## See also
+
+**Overview Topics**
+
+[File Management Functions](https://learn.microsoft.com/windows/win32/fileio/file-management-functions)
+
+[I/O Completion Ports](https://learn.microsoft.com/windows/win32/fileio/i-o-completion-ports)
+
+[Using the Windows Headers](https://learn.microsoft.com/windows/desktop/WinProg/using-the-windows-headers)
+
+[Windows Sockets 2](https://learn.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+
+**Functions**
+
+[**AcceptEx**](https://learn.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex)
+
+[**CreateFile**](https://learn.microsoft.com/windows/desktop/api/FileAPI/nf-fileapi-createfilea)
+
+[**DuplicateHandle**](https://learn.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle)
+
+[**GetQueuedCompletionStatus**](https://learn.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus)
+
+[**GetQueuedCompletionStatusEx**](https://learn.microsoft.com/windows/win32/fileio/getqueuedcompletionstatusex-func)
+
+[**PostQueuedCompletionStatus**](https://learn.microsoft.com/windows/win32/fileio/postqueuedcompletionstatus)
+
+[**ReadFileEx**](https://learn.microsoft.com/windows/desktop/api/FileAPI/nf-fileapi-readfileex)
+
+[**WriteFileEx**](https://learn.microsoft.com/windows/desktop/api/FileAPI/nf-fileapi-writefileex)
+

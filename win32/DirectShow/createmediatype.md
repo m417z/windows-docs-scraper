@@ -23,6 +23,9 @@ To free the memory allocated by this function, call [**DeleteMediaType**](https:
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Mtype.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+## See also
+
+[**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+

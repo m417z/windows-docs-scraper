@@ -2,7 +2,7 @@
 
 ## Description
 
-Represents a comment. (For example, <!--The message follows-->)
+Represents a comment. (For example, \<!--The message follows-->)
 
 ## Members
 

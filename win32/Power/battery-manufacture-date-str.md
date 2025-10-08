@@ -26,6 +26,11 @@ The date is encoded in the Gregorian or western calendar format.
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
-| Header<br> | Poclass.h;
+| Header<br> | Poclass.h; <br>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP |
 
-Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP | ## See also [**BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-query-information-str) [**IOCTL\_BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-information)
+## See also
+
+[**BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-query-information-str)
+
+[**IOCTL\_BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-information)
+

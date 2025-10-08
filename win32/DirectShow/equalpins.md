@@ -23,6 +23,9 @@ Returns **TRUE** if both pins are on the same object, or **FALSE** otherwise.
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxutil.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Miscellaneous Helper Functions](https://learn.microsoft.com/windows/win32/directshow/miscellaneous-helper-functions)
+## See also
+
+[Miscellaneous Helper Functions](https://learn.microsoft.com/windows/win32/directshow/miscellaneous-helper-functions)
+

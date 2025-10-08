@@ -22,23 +22,14 @@ Information about the characteristics of the database. This can be a bitwise **O
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| **WINBIO\_DATABASE\_FLAG\_MASK**
-
-0xFFFF0000 | Represents a mask for the flag bits.\ | | **WINBIO\_DATABASE\_FLAG\_REMOTE**
-
-0x00020000 | The database resides on a remote computer.\ | | **WINBIO\_DATABASE\_FLAG\_REMOVABLE**
-
-0x00010000 | The database resides on a removable drive.\ | | **WINBIO\_DATABASE\_TYPE\_DBMS**
-
-0x00000002 | The database is managed by a database management system.\ | | **WINBIO\_DATABASE\_TYPE\_FILE**
-
-0x00000001 | The database is contained in a file.\ | | **WINBIO\_DATABASE\_TYPE\_MASK**
-
-0x0000FFFF | Represents a mask for the type bits.\ | | **WINBIO\_DATABASE\_TYPE\_ONCHIP**
-
-0x00000003 | The database resides on the biometric sensor.\ | | **WINBIO\_DATABASE\_TYPE\_SMARTCARD**
-
-0x00000004 | The database resides on a smart card.\ |
+| **WINBIO\_DATABASE\_FLAG\_MASK**<br>0xFFFF0000 | Represents a mask for the flag bits.<br> |
+| **WINBIO\_DATABASE\_FLAG\_REMOTE**<br>0x00020000 | The database resides on a remote computer.<br> |
+| **WINBIO\_DATABASE\_FLAG\_REMOVABLE**<br>0x00010000 | The database resides on a removable drive.<br> |
+| **WINBIO\_DATABASE\_TYPE\_DBMS**<br>0x00000002 | The database is managed by a database management system.<br> |
+| **WINBIO\_DATABASE\_TYPE\_FILE**<br>0x00000001 | The database is contained in a file.<br> |
+| **WINBIO\_DATABASE\_TYPE\_MASK**<br>0x0000FFFF | Represents a mask for the type bits.<br> |
+| **WINBIO\_DATABASE\_TYPE\_ONCHIP**<br>0x00000003 | The database resides on the biometric sensor.<br> |
+| **WINBIO\_DATABASE\_TYPE\_SMARTCARD**<br>0x00000004 | The database resides on a smart card.<br> |
 
 **FilePath**
 

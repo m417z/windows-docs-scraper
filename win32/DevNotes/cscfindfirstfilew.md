@@ -28,15 +28,10 @@ This parameter can be one of the following values.
 
 | Value | Meaning |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **FLAG\_CSC\_HINT\_PIN\_USER**
-
-0x01 | A user has made the file available offline.\ | | **FLAG\_CSC\_HINT\_PIN\_INHERIT\_USER**
-
-0x02 | A user has made the parent available offline and marked the parent such that its children are available offline.\ | | **FLAG\_CSC\_HINT\_PIN\_INHERIT\_SYSTEM**
-
-0x04 | An administrator or group policy has made the parent available offline and marked the parent such that its children are available offline.\ | | **FLAG\_CSC\_HINT\_PIN\_SYSTEM**
-
-0x10 | An administrator or group policy has made the file available offline.\ |
+| **FLAG\_CSC\_HINT\_PIN\_USER**<br>0x01 | A user has made the file available offline.<br> |
+| **FLAG\_CSC\_HINT\_PIN\_INHERIT\_USER**<br>0x02 | A user has made the parent available offline and marked the parent such that its children are available offline.<br> |
+| **FLAG\_CSC\_HINT\_PIN\_INHERIT\_SYSTEM**<br>0x04 | An administrator or group policy has made the parent available offline and marked the parent such that its children are available offline.<br> |
+| **FLAG\_CSC\_HINT\_PIN\_SYSTEM**<br>0x10 | An administrator or group policy has made the file available offline.<br> |
 
 *lpOrgFileTime* \[out\]
 

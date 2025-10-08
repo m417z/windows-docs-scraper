@@ -50,10 +50,23 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **NTE\_NO\_MEMORY**
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | Not enough memory is available to allocate necessary buffers.<br> |
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | One of the provided handles is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *phMasterKey* parameter is **NULL**.<br> |
 
-0x8009000EL | Not enough memory is available to allocate necessary buffers.\ | | **NTE\_INVALID\_HANDLE**
+## Remarks
 
-0x80090026L | One of the provided handles is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+This function decrypts the premaster secret, computes the SSL master secret, and returns a handle to this object to the caller. This master key can then be used to derive the SSL session key and finish the SSL handshake.
 
-0x80090027L | The *phMasterKey* parameter is **NULL**.\ | ## Remarks This function decrypts the premaster secret, computes the SSL master secret, and returns a handle to this object to the caller. This master key can then be used to derive the SSL session key and finish the SSL handshake. > [!Note] > This function is used when the [*RSA*](https://learn.microsoft.com/windows/desktop/SecGloss/r-gly) key exchange algorithm is being used. When [*DH*](https://learn.microsoft.com/windows/desktop/SecGloss/d-gly) is used, then the server code calls [**SslGenerateMasterKey**](https://learn.microsoft.com/windows/win32/seccng/sslgeneratemasterkey) instead. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+> [!Note]
+> This function is used when the [*RSA*](https://learn.microsoft.com/windows/desktop/SecGloss/r-gly) key exchange algorithm is being used. When [*DH*](https://learn.microsoft.com/windows/desktop/SecGloss/d-gly) is used, then the server code calls [**SslGenerateMasterKey**](https://learn.microsoft.com/windows/win32/seccng/sslgeneratemasterkey) instead.
+
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

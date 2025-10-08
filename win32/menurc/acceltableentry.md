@@ -12,17 +12,12 @@ Describes keyboard accelerator characteristics. This member can have one or more
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **FVIRTKEY**
-
-TRUE | The accelerator key is a [virtual-key code](https://learn.microsoft.com/windows/desktop/inputdev/virtual-key-codes). If this flag is not specified, the accelerator key is assumed to specify an ASCII character code. \ | | **FNOINVERT**
-
-0x02 | A menu item on the menu bar is not highlighted when an accelerator is used. This attribute is obsolete and retained only for backward compatibility with resource files designed for 16-bit Windows.\ | | **FSHIFT**
-
-0x04 | The accelerator is activated only if the user presses the SHIFT key. This flag applies only to virtual keys. \ | | **FCONTROL**
-
-0x08 | The accelerator is activated only if the user presses the CTRL key. This flag applies only to virtual keys. \ | | **FALT**
-
-0x10 | The accelerator is activated only if the user presses the ALT key. This flag applies only to virtual keys. \ | | **0x80** | The entry is last in an accelerator table. \ |
+| **FVIRTKEY**<br>TRUE | The accelerator key is a [virtual-key code](https://learn.microsoft.com/windows/desktop/inputdev/virtual-key-codes). If this flag is not specified, the accelerator key is assumed to specify an ASCII character code. <br> |
+| **FNOINVERT**<br>0x02 | A menu item on the menu bar is not highlighted when an accelerator is used. This attribute is obsolete and retained only for backward compatibility with resource files designed for 16-bit Windows.<br> |
+| **FSHIFT**<br>0x04 | The accelerator is activated only if the user presses the SHIFT key. This flag applies only to virtual keys. <br> |
+| **FCONTROL**<br>0x08 | The accelerator is activated only if the user presses the CTRL key. This flag applies only to virtual keys. <br> |
+| **FALT**<br>0x10 | The accelerator is activated only if the user presses the ALT key. This flag applies only to virtual keys. <br> |
+| **0x80** | The entry is last in an accelerator table. <br> |
 
 **wAnsi**
 

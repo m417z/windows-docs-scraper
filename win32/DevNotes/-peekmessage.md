@@ -12,6 +12,9 @@ Dispatches incoming sent messages, checks the thread message queue for a posted 
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**PeekMessage**](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-peekmessagea)
+## See also
+
+[**PeekMessage**](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-peekmessagea)
+

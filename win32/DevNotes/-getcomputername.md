@@ -12,6 +12,9 @@ Gets the computer name. See [**GetComputerName**](https://learn.microsoft.com/wi
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**GetComputerName**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-getcomputernamea)
+## See also
+
+[**GetComputerName**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-getcomputernamea)
+

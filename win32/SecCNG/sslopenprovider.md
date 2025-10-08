@@ -28,10 +28,16 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| **NTE\_INVALID\_HANDLE**
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | One of the provided handles is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *phSslProvider* or *ppProviderList* parameter is **NULL**.<br> |
+| **STATUS\_NO\_MEMORY**<br>0xC0000017L | Not enough memory is available to allocate necessary buffers.<br> |
 
-0x80090026L | One of the provided handles is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+## Requirements
 
-0x80090027L | The *phSslProvider* or *ppProviderList* parameter is **NULL**.\ | | **STATUS\_NO\_MEMORY**
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
 
-0xC0000017L | Not enough memory is available to allocate necessary buffers.\ | ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |

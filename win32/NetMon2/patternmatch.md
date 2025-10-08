@@ -10,11 +10,8 @@ Pattern match flags:
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| **PATTERN\_MATCH\_FLAGS\_NOT**
-
-0x00000001 | When set, this flag retains frames that lack the specified pattern in the proper spot.\ | | **PATTERN\_MATCH\_FLAGS\_PORT\_SPECIFIED**
-
-0x00000008 | Seeks a port number value.\ |
+| **PATTERN\_MATCH\_FLAGS\_NOT**<br>0x00000001 | When set, this flag retains frames that lack the specified pattern in the proper spot.<br> |
+| **PATTERN\_MATCH\_FLAGS\_PORT\_SPECIFIED**<br>0x00000008 | Seeks a port number value.<br> |
 
 **OffsetBasis**
 

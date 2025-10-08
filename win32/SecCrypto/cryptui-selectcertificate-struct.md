@@ -33,19 +33,12 @@ Flags that can be combined to exclude columns of the display.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| **CRYPTUI\_SELECT\_ISSUEDTO\_COLUMN**
-
-1 (0x1) | Do not display **ISSUEDTO** information.\ | | **CRYPTUI\_SELECT\_ISSUEDBY\_COLUMN**
-
-2 (0x2) | Do not display **ISSUEDBY** information.\ | | **CRYPTUI\_SELECT\_INTENDEDUSE\_COLUMN**
-
-4 (0x4) | Do not display **IntendedUse** information.\ | | **CRYPTUI\_SELECT\_FRIENDLYNAME\_COLUMN**
-
-8 (0x8) | Do not display name information.\ | | **CRYPTUI\_SELECT\_LOCATION\_COLUMN**
-
-16 (0x10) | Do not display location information.\ | | **CRYPTUI\_SELECT\_EXPIRATION\_COLUMN**
-
-32 (0x20) | Do not display expiration information.\ |
+| **CRYPTUI\_SELECT\_ISSUEDTO\_COLUMN**<br>1 (0x1) | Do not display **ISSUEDTO** information.<br> |
+| **CRYPTUI\_SELECT\_ISSUEDBY\_COLUMN**<br>2 (0x2) | Do not display **ISSUEDBY** information.<br> |
+| **CRYPTUI\_SELECT\_INTENDEDUSE\_COLUMN**<br>4 (0x4) | Do not display **IntendedUse** information.<br> |
+| **CRYPTUI\_SELECT\_FRIENDLYNAME\_COLUMN**<br>8 (0x8) | Do not display name information.<br> |
+| **CRYPTUI\_SELECT\_LOCATION\_COLUMN**<br>16 (0x10) | Do not display location information.<br> |
+| **CRYPTUI\_SELECT\_EXPIRATION\_COLUMN**<br>32 (0x20) | Do not display expiration information.<br> |
 
 **szDisplayString**
 

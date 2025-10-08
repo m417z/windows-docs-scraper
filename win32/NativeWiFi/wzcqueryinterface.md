@@ -20,29 +20,17 @@ The fields to be queried. This is a bitmask that can contain any combination of 
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **INTF\_DYNFLAGS**
-
-0x00000010 | Return the value for the **dwDynFlags** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ | | **INTF\_DESCR**
-
-0x00010000 | Return the value for the **wszDescr** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ | | **INTF\_NDISMEDIA**
-
-0x00020000 | Return the values for the **ulMediaState**, **ulMediaType**, and **ulPhysicalMediaType** members in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ | | **INTF\_PREFLIST**
-
-0x00040000 | Return the preferred list of networks in the **rdStSSIDList** member of the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ | | **INTF\_CAPABILITIES**
-
-0x00080000 | Return the values for the **dwCapabilities** and the **rdNicCapabilities** members in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ | | **INTF\_INFRAMODE**
-
-0x00200000 | Return the value for the **nInfraMode** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ The **nInfraMode** member is valid only in some interface context states.\ | | **INTF\_AUTHMODE**
-
-0x00400000 | Return the value for the **nAuthMode** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter. \ The **nAuthMode** member is valid only in some interface context states.\ | | **INTF\_WEPSTATUS**
-
-0x00800000 | Return the value for the **nWepStatus** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter. \ The **nWepStatus** member is valid only in some interface context states.\ | | **INTF\_SSID**
-
-0x01000000 | Return the value for the **rdSSID** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ The **rdSSID** member is valid only in some interface context states.\ | | **INTF\_BSSID**
-
-0x02000000 | Return the value for the **rdBSSID** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ The **rdBSSID** member is valid only in some interface context states.\ | | **INTF\_BSSIDLIST**
-
-0x04000000 | Return the visible list of networks in the **rdBSSIDList** member of the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.\ The **rdBSSIDList** member is valid only in some interface context states.\ |
+| **INTF\_DYNFLAGS**<br>0x00000010 | Return the value for the **dwDynFlags** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> |
+| **INTF\_DESCR**<br>0x00010000 | Return the value for the **wszDescr** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> |
+| **INTF\_NDISMEDIA**<br>0x00020000 | Return the values for the **ulMediaState**, **ulMediaType**, and **ulPhysicalMediaType** members in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> |
+| **INTF\_PREFLIST**<br>0x00040000 | Return the preferred list of networks in the **rdStSSIDList** member of the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> |
+| **INTF\_CAPABILITIES**<br>0x00080000 | Return the values for the **dwCapabilities** and the **rdNicCapabilities** members in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> |
+| **INTF\_INFRAMODE**<br>0x00200000 | Return the value for the **nInfraMode** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> The **nInfraMode** member is valid only in some interface context states.<br> |
+| **INTF\_AUTHMODE**<br>0x00400000 | Return the value for the **nAuthMode** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter. <br> The **nAuthMode** member is valid only in some interface context states.<br> |
+| **INTF\_WEPSTATUS**<br>0x00800000 | Return the value for the **nWepStatus** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter. <br> The **nWepStatus** member is valid only in some interface context states.<br> |
+| **INTF\_SSID**<br>0x01000000 | Return the value for the **rdSSID** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> The **rdSSID** member is valid only in some interface context states.<br> |
+| **INTF\_BSSID**<br>0x02000000 | Return the value for the **rdBSSID** member in the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> The **rdBSSID** member is valid only in some interface context states.<br> |
+| **INTF\_BSSIDLIST**<br>0x04000000 | Return the visible list of networks in the **rdBSSIDList** member of the [**INTF\_ENTRY**](https://learn.microsoft.com/windows/win32/nativewifi/intf-entry) structure pointed to by the *pIntf* parameter.<br> The **rdBSSIDList** member is valid only in some interface context states.<br> |
 
 *pIntf* \[in, out\]
 

@@ -45,6 +45,11 @@ void _FreeMediaType(AM_MEDIA_TYPE& mt)
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Mtype.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**DeleteMediaType**](https://learn.microsoft.com/windows/win32/directshow/deletemediatype) [**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+## See also
+
+[**DeleteMediaType**](https://learn.microsoft.com/windows/win32/directshow/deletemediatype)
+
+[**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+

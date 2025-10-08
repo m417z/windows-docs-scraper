@@ -20,17 +20,11 @@ A pointer to a variable that receives the trust options. This parameter cannot b
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **NDDE\_CMD\_SHOW\_MASK**
-
-0x0000FFFFL | Mask used to obtain the value used to override the DDE share show state, if NDDE\_TRUST\_CMD\_SHOW is set.\ | | **NDDE\_TRUST\_CMD\_SHOW**
-
-0x10000000L | Override the show state specified in the DDE share DSDM.\ | | **NDDE\_TRUST\_SHARE\_DEL**
-
-0x20000000L | Remove the share's trusted status.\ | | **NDDE\_TRUST\_SHARE\_INIT**
-
-0x40000000L | Allow a client to initiate to the application if it is already running in the user's context.\ | | **NDDE\_TRUST\_SHARE\_START**
-
-0x80000000L | Allow the application to be started in the user's context.\ |
+| **NDDE\_CMD\_SHOW\_MASK**<br>0x0000FFFFL | Mask used to obtain the value used to override the DDE share show state, if NDDE\_TRUST\_CMD\_SHOW is set.<br> |
+| **NDDE\_TRUST\_CMD\_SHOW**<br>0x10000000L | Override the show state specified in the DDE share DSDM.<br> |
+| **NDDE\_TRUST\_SHARE\_DEL**<br>0x20000000L | Remove the share's trusted status.<br> |
+| **NDDE\_TRUST\_SHARE\_INIT**<br>0x40000000L | Allow a client to initiate to the application if it is already running in the user's context.<br> |
+| **NDDE\_TRUST\_SHARE\_START**<br>0x80000000L | Allow the application to be started in the user's context.<br> |
 
 *lpdwShareModId0* \[out\]
 

@@ -81,6 +81,21 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
-| Header<br> | Poclass.h;
+| Header<br> | Poclass.h; <br>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP |
 
-Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP | ## See also [Battery Information](https://learn.microsoft.com/windows/win32/power/battery-information) [Power Management Control Codes](https://learn.microsoft.com/windows/win32/power/power-management-control-codes) [**DeviceIoControl**](https://learn.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) [**BATTERY\_SET\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-set-information-str) [**IOCTL\_BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-information) [**IOCTL\_BATTERY\_QUERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-status) [**IOCTL\_BATTERY\_QUERY\_TAG**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-tag)
+## See also
+
+[Battery Information](https://learn.microsoft.com/windows/win32/power/battery-information)
+
+[Power Management Control Codes](https://learn.microsoft.com/windows/win32/power/power-management-control-codes)
+
+[**DeviceIoControl**](https://learn.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+
+[**BATTERY\_SET\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-set-information-str)
+
+[**IOCTL\_BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-information)
+
+[**IOCTL\_BATTERY\_QUERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-status)
+
+[**IOCTL\_BATTERY\_QUERY\_TAG**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-tag)
+

@@ -48,6 +48,11 @@ Rounding on the division is toward zero. Division by zero is counted as an overf
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxutil.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Miscellaneous Helper Functions](https://learn.microsoft.com/windows/win32/directshow/miscellaneous-helper-functions) [**Int64x32Div32**](https://learn.microsoft.com/windows/win32/directshow/int64x32div32)
+## See also
+
+[Miscellaneous Helper Functions](https://learn.microsoft.com/windows/win32/directshow/miscellaneous-helper-functions)
+
+[**Int64x32Div32**](https://learn.microsoft.com/windows/win32/directshow/int64x32div32)
+

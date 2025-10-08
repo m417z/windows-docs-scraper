@@ -16,17 +16,11 @@ Indicates the action for the [**SetPrinter**](https://learn.microsoft.com/window
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **DSPRINT\_PENDING**
-
-0x80000000 | [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Indicates that the system is attempting to complete a publish or unpublish operation started by a [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter) call.\ [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): This value is not valid. \ | | **DSPRINT\_PUBLISH**
-
-0x00000001 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): Publishes the printer's data in the DS.\ [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Indicates the printer is published. \ | | **DSPRINT\_REPUBLISH**
-
-0x00000008 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): The DS data for the printer is unpublished and then published again, refreshing all properties in the published printer. Re-publishing also changes the GUID of the published printer.\ [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Never returns this value. \ | | **DSPRINT\_UNPUBLISH**
-
-0x00000004 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): Removes the printer's published data from the DS.\ [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Indicates the printer is not published. \ | | **DSPRINT\_UPDATE**
-
-0x00000002 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): Updates the printer's published data in the DS.\ [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Never returns this value. \ |
+| **DSPRINT\_PENDING**<br>0x80000000 | [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Indicates that the system is attempting to complete a publish or unpublish operation started by a [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter) call.<br> [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): This value is not valid. <br> |
+| **DSPRINT\_PUBLISH**<br>0x00000001 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): Publishes the printer's data in the DS.<br> [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Indicates the printer is published. <br> |
+| **DSPRINT\_REPUBLISH**<br>0x00000008 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): The DS data for the printer is unpublished and then published again, refreshing all properties in the published printer. Re-publishing also changes the GUID of the published printer.<br> [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Never returns this value. <br> |
+| **DSPRINT\_UNPUBLISH**<br>0x00000004 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): Removes the printer's published data from the DS.<br> [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Indicates the printer is not published. <br> |
+| **DSPRINT\_UPDATE**<br>0x00000002 | [**SetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/setprinter): Updates the printer's published data in the DS.<br> [**GetPrinter**](https://learn.microsoft.com/windows/win32/printdocs/getprinter): Never returns this value. <br> |
 
 ## Remarks
 

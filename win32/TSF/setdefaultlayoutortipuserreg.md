@@ -29,11 +29,8 @@ A bitfield that specifies the following flags:
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SDLOT\_NOAPPLYTOCURRENTSESSION**
-
-0x00000001 | Stores the setting in the registry but does not update the runtime keyboard setting of the current session. If the alternative registry path is set in **SetDefaultLayoutOrTipUserReg**, this flag should be set.\ | | **SDLOT\_APPLYTOCURRENTTHREAD**
-
-0x00000002 | Applies the setting immediately on the current thread.\ |
+| **SDLOT\_NOAPPLYTOCURRENTSESSION**<br>0x00000001 | Stores the setting in the registry but does not update the runtime keyboard setting of the current session. If the alternative registry path is set in **SetDefaultLayoutOrTipUserReg**, this flag should be set.<br> |
+| **SDLOT\_APPLYTOCURRENTTHREAD**<br>0x00000002 | Applies the setting immediately on the current thread.<br> |
 
 ## Return value
 

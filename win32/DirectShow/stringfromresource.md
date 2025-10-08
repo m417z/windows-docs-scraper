@@ -27,6 +27,9 @@ The *pBuffer* buffer must be at least STR\_MAX\_LENGTH bytes.
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxutil.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Property Page Helper Functions](https://learn.microsoft.com/windows/win32/directshow/property-page-helper-functions)
+## See also
+
+[Property Page Helper Functions](https://learn.microsoft.com/windows/win32/directshow/property-page-helper-functions)
+

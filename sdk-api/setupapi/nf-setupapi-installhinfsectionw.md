@@ -44,7 +44,7 @@ To run an **Install** section of a specified .inf file, you can invoke
 RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection <section> <mode> <path>
 ```
 
-This passes "*<section>* *\<mode>* *\<path>*" to *CmdLineBuffer*.
+This passes "*\<section>* *\<mode>* *\<path>*" to *CmdLineBuffer*.
 
 Alternatively, your program may call
 **InstallHinfSection**, **InstallHinfSectionA**, or **InstallHinfSectionW** directly, setting the *CmdLineBuffer* parameter to the following.

@@ -10,15 +10,10 @@ Flags that describe the contents of the capture filter.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| **CAPTUREFILTER\_FLAGS\_INCLUDE\_ALL\_SAPS**
-
-0x0001 | Includes all SAPs as acceptable frames.\ | | **CAPTUREFILTER\_FLAGS\_INCLUDE\_ALL\_ETYPES**
-
-0x0002 | Include all Etypes as acceptable frames.\ | | **CAPTUREFILTER\_FLAGS\_LOCAL\_ONLY**
-
-0x0008 | No P-mode\ | | **CAPTUREFILTER\_FLAGS\_KEEP\_RAW**
-
-0x0020 | Keep SMT and token ring MAC frames.\ |
+| **CAPTUREFILTER\_FLAGS\_INCLUDE\_ALL\_SAPS**<br>0x0001 | Includes all SAPs as acceptable frames.<br> |
+| **CAPTUREFILTER\_FLAGS\_INCLUDE\_ALL\_ETYPES**<br>0x0002 | Include all Etypes as acceptable frames.<br> |
+| **CAPTUREFILTER\_FLAGS\_LOCAL\_ONLY**<br>0x0008 | No P-mode<br> |
+| **CAPTUREFILTER\_FLAGS\_KEEP\_RAW**<br>0x0020 | Keep SMT and token ring MAC frames.<br> |
 
 **lpSapTable**
 

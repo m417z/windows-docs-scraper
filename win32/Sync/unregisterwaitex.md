@@ -46,6 +46,15 @@ To compile an application that uses this function, define **\_WIN32\_WINNT** as 
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
-| Header<br> | Threadpoollegacyapiset.h on Windows 8 and Windows Server 2012 (include Windows.h);
+| Header<br> | Threadpoollegacyapiset.h on Windows 8 and Windows Server 2012 (include Windows.h); <br>WinBase.h on Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003 (include Windows.h) |
+| Library<br> | Kernel32.lib |
+| DLL<br> | Kernel32.dll |
 
-WinBase.h on Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003 (include Windows.h) | | Library\ | Kernel32.lib | | DLL\ | Kernel32.dll | ## See also [**RegisterWaitForSingleObject**](https://learn.microsoft.com/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) [Synchronization Functions](https://learn.microsoft.com/windows/win32/sync/synchronization-functions) [Thread Pooling](https://learn.microsoft.com/windows/win32/procthread/thread-pooling)
+## See also
+
+[**RegisterWaitForSingleObject**](https://learn.microsoft.com/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject)
+
+[Synchronization Functions](https://learn.microsoft.com/windows/win32/sync/synchronization-functions)
+
+[Thread Pooling](https://learn.microsoft.com/windows/win32/procthread/thread-pooling)
+

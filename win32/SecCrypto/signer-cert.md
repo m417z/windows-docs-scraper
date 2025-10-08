@@ -17,13 +17,9 @@ Specifies how the certificate is stored. This member can be one or more of the f
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SIGNER\_CERT\_SPC\_FILE**
-
-1 | The certificate is stored in an SPC file. The **pwszSpcFile** member contains the path and file name of the SPC file.\ | | **SIGNER\_CERT\_STORE**
-
-2 | The certificate is stored in a certificate store. The **pCertStoreInfo** member contains a pointer to a [**SIGNER\_CERT\_STORE\_INFO**](https://learn.microsoft.com/windows/win32/seccrypto/signer-cert-store-info) structure that specifies the certificate store in which the certificate is stored.\ | | **SIGNER\_CERT\_SPC\_CHAIN**
-
-3 | The certificate is stored in an SPC file and is associated with a certificate chain. The **pSpcChainInfo** member contains a pointer to a [**SIGNER\_SPC\_CHAIN\_INFO**](https://learn.microsoft.com/windows/win32/seccrypto/signer-spc-chain-info) structure that contains the chain information for the certificate.\ |
+| **SIGNER\_CERT\_SPC\_FILE**<br>1 | The certificate is stored in an SPC file. The **pwszSpcFile** member contains the path and file name of the SPC file.<br> |
+| **SIGNER\_CERT\_STORE**<br>2 | The certificate is stored in a certificate store. The **pCertStoreInfo** member contains a pointer to a [**SIGNER\_CERT\_STORE\_INFO**](https://learn.microsoft.com/windows/win32/seccrypto/signer-cert-store-info) structure that specifies the certificate store in which the certificate is stored.<br> |
+| **SIGNER\_CERT\_SPC\_CHAIN**<br>3 | The certificate is stored in an SPC file and is associated with a certificate chain. The **pSpcChainInfo** member contains a pointer to a [**SIGNER\_SPC\_CHAIN\_INFO**](https://learn.microsoft.com/windows/win32/seccrypto/signer-spc-chain-info) structure that contains the chain information for the certificate.<br> |
 
 **pwszSpcFile**
 

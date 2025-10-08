@@ -12,6 +12,9 @@ Formats a message string. See [**FormatMessage**](https://learn.microsoft.com/wi
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Msmdun80.dll;
+| DLL<br> | Msmdun80.dll; <br>Sqlunirl.dll |
 
-Sqlunirl.dll | ## See also [**FormatMessage**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-formatmessage)
+## See also
+
+[**FormatMessage**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-formatmessage)
+

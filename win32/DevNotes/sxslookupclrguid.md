@@ -10,15 +10,10 @@ A combination of zero or more of the following flags.
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX**
-
-0x00000001 | If this flag is set, then the *hActCtx* parameter must contain an activation-context handle returned by the [**CreateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-createactctxa) function. If this flag is not set, the *hActCtx* parameter is ignored and **SxsLookupClrGuid** searches the activation context that is currently active (the [**ActivateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-activateactctx) function is used to make an activation context active).\ | | **SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE**
-
-0x00010000 | If this flag is set, **SxsLookupClrGuid** searches for a surrogate.\ | | **SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS**
-
-0x00020000 | If this flag is set, **SxsLookupClrGuid** searches for a class.\ | | **SXS\_LOOKUP\_CLR\_GUID\_FIND\_ANY**
-
-0x00030000 | This is a combination of the **SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE** and **SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS** flags; if both are set, **SxsLookupClrGuid** searches for a surrogate first, and only if it does not find one, then searches for a class.\ |
+| **SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX**<br>0x00000001 | If this flag is set, then the *hActCtx* parameter must contain an activation-context handle returned by the [**CreateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-createactctxa) function. If this flag is not set, the *hActCtx* parameter is ignored and **SxsLookupClrGuid** searches the activation context that is currently active (the [**ActivateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-activateactctx) function is used to make an activation context active).<br> |
+| **SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE**<br>0x00010000 | If this flag is set, **SxsLookupClrGuid** searches for a surrogate.<br> |
+| **SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS**<br>0x00020000 | If this flag is set, **SxsLookupClrGuid** searches for a class.<br> |
+| **SXS\_LOOKUP\_CLR\_GUID\_FIND\_ANY**<br>0x00030000 | This is a combination of the **SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE** and **SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS** flags; if both are set, **SxsLookupClrGuid** searches for a surrogate first, and only if it does not find one, then searches for a class.<br> |
 
 *pClsid* \[in\]
 
@@ -205,6 +200,15 @@ void main()
 
 | Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DLL<br> | Mscoree.dll;
+| DLL<br> | Mscoree.dll; <br>Sxs.dll |
 
-Sxs.dll | ## See also [Isolated Applications and Side-by-side Assemblies](https://learn.microsoft.com/windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal) [**CreateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-createactctxa) [**ActivateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-activateactctx) [**CoCreateInstance**](https://learn.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
+## See also
+
+[Isolated Applications and Side-by-side Assemblies](https://learn.microsoft.com/windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal)
+
+[**CreateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-createactctxa)
+
+[**ActivateActCtx**](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-activateactctx)
+
+[**CoCreateInstance**](https://learn.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
+

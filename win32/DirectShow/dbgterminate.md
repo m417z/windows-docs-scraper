@@ -21,6 +21,9 @@ Call this function if you call the [**DbgInitialise**](https://learn.microsoft.c
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxdebug.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Debug Output Functions](https://learn.microsoft.com/windows/win32/directshow/debug-output-functions)
+## See also
+
+[Debug Output Functions](https://learn.microsoft.com/windows/win32/directshow/debug-output-functions)
+

@@ -26,10 +26,20 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| **NTE\_BAD\_FLAGS**
+| **NTE\_BAD\_FLAGS**<br>0x80090009L | The *dwFlags* parameter is not zero.<br> |
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | Not enough memory is available to allocate necessary buffers.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | The *pdwProviderCount* or *ppProviderList* parameter is **NULL**.<br> |
 
-0x80090009L | The *dwFlags* parameter is not zero.\ | | **NTE\_NO\_MEMORY**
+## Remarks
 
-0x8009000EL | Not enough memory is available to allocate necessary buffers.\ | | **NTE\_INVALID\_PARAMETER**
+When you have finished using the array of [**NCryptProviderName**](https://learn.microsoft.com/windows/desktop/api/Ncrypt/ns-ncrypt-ncryptprovidername) structures, call the [**SslFreeBuffer**](https://learn.microsoft.com/windows/win32/seccng/sslfreebuffer) function to free the array.
 
-0x80090027L | The *pdwProviderCount* or *ppProviderList* parameter is **NULL**.\ | ## Remarks When you have finished using the array of [**NCryptProviderName**](https://learn.microsoft.com/windows/desktop/api/Ncrypt/ns-ncrypt-ncryptprovidername) structures, call the [**SslFreeBuffer**](https://learn.microsoft.com/windows/win32/seccng/sslfreebuffer) function to free the array. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

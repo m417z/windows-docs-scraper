@@ -2,7 +2,7 @@
 
 ## Description
 
-Represents an attribute (for example, <a:purchaseOrder xmlns:a="http://tempuri.org" id="5">)
+Represents an attribute (for example, \<a:purchaseOrder xmlns:a="http://tempuri.org" id="5">)
 
 ## Members
 

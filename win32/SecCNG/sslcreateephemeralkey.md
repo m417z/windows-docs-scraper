@@ -48,10 +48,22 @@ If the function fails, it returns a nonzero error value.
 
 | Return code/value | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| **NTE\_NO\_MEMORY**
+| **NTE\_NO\_MEMORY**<br>0x8009000EL | There is insufficient memory to allocate the buffer.<br> |
+| **NTE\_INVALID\_HANDLE**<br>0x80090026L | The *hSslProvider* handle is not valid.<br> |
+| **NTE\_INVALID\_PARAMETER**<br>0x80090027L | One of the supplied parameters is not valid.<br> |
 
-0x8009000EL | There is insufficient memory to allocate the buffer.\ | | **NTE\_INVALID\_HANDLE**
+## Remarks
 
-0x80090026L | The *hSslProvider* handle is not valid.\ | | **NTE\_INVALID\_PARAMETER**
+When using a DHE cipher suite, the internal SSL implementation passes server *p* and *g* parameters to the **SslCreateEphemeralKey** function in the *pbParams* and *cbParams* parameters.
 
-0x80090027L | One of the supplied parameters is not valid.\ | ## Remarks When using a DHE cipher suite, the internal SSL implementation passes server *p* and *g* parameters to the **SslCreateEphemeralKey** function in the *pbParams* and *cbParams* parameters. The format of the data in the *pbParams* buffer is the same as that used when setting the [**BCRYPT\_DH\_PARAMETERS**](https://learn.microsoft.com/windows/win32/seccng/cng-property-identifiers) property, and it starts with a [**BCRYPT\_DH\_PARAMETER\_HEADER**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) structure. ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+The format of the data in the *pbParams* buffer is the same as that used when setting the [**BCRYPT\_DH\_PARAMETERS**](https://learn.microsoft.com/windows/win32/seccng/cng-property-identifiers) property, and it starts with a [**BCRYPT\_DH\_PARAMETER\_HEADER**](https://learn.microsoft.com/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) structure.
+
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

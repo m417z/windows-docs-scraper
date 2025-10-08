@@ -29,6 +29,9 @@ After the method returns, call [**FreeMediaType**](https://learn.microsoft.com/w
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Mtype.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+## See also
+
+[**Media Type Functions**](https://learn.microsoft.com/windows/win32/directshow/media-type-functions)
+

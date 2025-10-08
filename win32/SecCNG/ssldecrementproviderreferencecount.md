@@ -18,6 +18,14 @@ Possible return codes include, but are not limited to, the following.
 
 | Return code/value | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| **STATUS\_INVALID\_HANDLE**
+| **STATUS\_INVALID\_HANDLE** <br>0xC0000008L | The SSL provider handle is not valid.<br> |
 
-0xC0000008L | The SSL provider handle is not valid.\ | ## Requirements | Requirement | Value | |-------------------------------------|------------------------------------------------------------------------------------------| | Minimum supported client\ | Windows Vista \[desktop apps only\]\ | | Minimum supported server\ | Windows Server 2008 \[desktop apps only\]\ | | Header\ | Sslprovider.h | | DLL\ | Ncrypt.dll |
+## Requirements
+
+| Requirement | Value |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows Vista \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2008 \[desktop apps only\]<br> |
+| Header<br> | Sslprovider.h |
+| DLL<br> | Ncrypt.dll |
+

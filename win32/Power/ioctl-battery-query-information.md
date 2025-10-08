@@ -101,6 +101,23 @@ For an example, see [Enumerating Battery Devices](https://learn.microsoft.com/wi
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
-| Header<br> | Poclass.h;
+| Header<br> | Poclass.h; <br>BatClass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP |
 
-BatClass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP | ## See also [Battery Information](https://learn.microsoft.com/windows/win32/power/battery-information) [Power Management Control Codes](https://learn.microsoft.com/windows/win32/power/power-management-control-codes) [**DeviceIoControl**](https://learn.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) [**BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-query-information-str) [**BATTERY\_REPORTING\_SCALE**](https://learn.microsoft.com/windows/desktop/api/WinNT/ns-winnt-battery_reporting_scale) [**IOCTL\_BATTERY\_QUERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-status) [**IOCTL\_BATTERY\_QUERY\_TAG**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-tag) [**IOCTL\_BATTERY\_SET\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-set-information)
+## See also
+
+[Battery Information](https://learn.microsoft.com/windows/win32/power/battery-information)
+
+[Power Management Control Codes](https://learn.microsoft.com/windows/win32/power/power-management-control-codes)
+
+[**DeviceIoControl**](https://learn.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
+
+[**BATTERY\_QUERY\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/battery-query-information-str)
+
+[**BATTERY\_REPORTING\_SCALE**](https://learn.microsoft.com/windows/desktop/api/WinNT/ns-winnt-battery_reporting_scale)
+
+[**IOCTL\_BATTERY\_QUERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-status)
+
+[**IOCTL\_BATTERY\_QUERY\_TAG**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-tag)
+
+[**IOCTL\_BATTERY\_SET\_INFORMATION**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-set-information)
+

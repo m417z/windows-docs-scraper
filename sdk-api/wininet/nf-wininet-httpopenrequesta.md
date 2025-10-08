@@ -42,7 +42,7 @@ A pointer to a **null**-terminated array of strings that indicates media types a
 
  Failing to properly terminate the array with a NULL pointer will cause a crash.
 
-If this parameter is **NULL**, no types are accepted by the client. Servers generally interpret a lack of accept types to indicate that the client accepts only documents of type "text/*" (that is, only text documents—no pictures or other binary files).<!-- For more information and a list of valid media types, see [ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types](http://ftp.isi.edu/in-notes/iana/assignments/media-types/). -->
+If this parameter is **NULL**, no types are accepted by the client. Servers generally interpret a lack of accept types to indicate that the client accepts only documents of type "text/*" (that is, only text documents—no pictures or other binary files).
 
 ### `dwFlags` [in]
 

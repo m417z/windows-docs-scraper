@@ -21,6 +21,9 @@ When the [**CBaseObject**](https://learn.microsoft.com/windows/win32/directshow/
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Combase.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**COM Helper Functions**](https://learn.microsoft.com/windows/win32/directshow/com-helper-functions)
+## See also
+
+[**COM Helper Functions**](https://learn.microsoft.com/windows/win32/directshow/com-helper-functions)
+

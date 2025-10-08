@@ -27,6 +27,9 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Dllsetup.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**DLL Setup Functions**](https://learn.microsoft.com/windows/win32/directshow/dll-setup-functions)
+## See also
+
+[**DLL Setup Functions**](https://learn.microsoft.com/windows/win32/directshow/dll-setup-functions)
+

@@ -10,11 +10,8 @@ A value that controls debugger spawning. **alwaysOrSometimes** can be one of the
 
 | Value | Meaning |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ORPC\_DEBUG\_ALWAYS**
-
-0x00000000 | If set, COM will always raise the client or server notification on the receiver.\ | | **ORPC\_DEBUG\_IF\_HOOK\_ENABLED**
-
-0x00000001 | If set, COM will only raise the client or server notification on the receiver if COM debugging has been enabled by calling [**DllDebugObjectRPCHook**](https://learn.microsoft.com/windows/win32/com/dlldebugobjectrpchook) in that process with **fTrace** set to **TRUE**. \ |
+| **ORPC\_DEBUG\_ALWAYS**<br>0x00000000 | If set, COM will always raise the client or server notification on the receiver.<br> |
+| **ORPC\_DEBUG\_IF\_HOOK\_ENABLED**<br>0x00000001 | If set, COM will only raise the client or server notification on the receiver if COM debugging has been enabled by calling [**DllDebugObjectRPCHook**](https://learn.microsoft.com/windows/win32/com/dlldebugobjectrpchook) in that process with **fTrace** set to **TRUE**. <br> |
 
 **verMajor**
 

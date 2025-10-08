@@ -17,23 +17,14 @@ A bitfield that specifies the following flags:
 
 | Value | Meaning |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **ILOT\_UNINSTALL**
-
-0x00000001 | Same as **ILOT\_DISABLED**.\ | | **ILOT\_DEFPROFILE**
-
-0x00000002 | Sets the specified layout or tip as a default item.\ | | **ILOT\_DEFUSER4**
-
-0x00000004 | Changes the setting of .Default.\ | | **ILOT\_SYSLOCALE**
-
-0x00000008 | Unused.\ | | **ILOT\_NOLOCALETOENUMERATE**
-
-0x00000010 | Unused.\ | | **ILOT\_NOAPPLYTOCURRENTSESSION**
-
-0x00000020 | The setting is saved but is not applied to the current session.\ | | **ILOT\_CLEANINSTALL**
-
-0x00000040 | Disables all of the current keyboard layouts and text services.\ | | **ILOT\_DISABLED**
-
-0x00000080 | Disables the specified keyboard layout and text service.\ |
+| **ILOT\_UNINSTALL**<br>0x00000001 | Same as **ILOT\_DISABLED**.<br> |
+| **ILOT\_DEFPROFILE**<br>0x00000002 | Sets the specified layout or tip as a default item.<br> |
+| **ILOT\_DEFUSER4**<br>0x00000004 | Changes the setting of .Default.<br> |
+| **ILOT\_SYSLOCALE**<br>0x00000008 | Unused.<br> |
+| **ILOT\_NOLOCALETOENUMERATE**<br>0x00000010 | Unused.<br> |
+| **ILOT\_NOAPPLYTOCURRENTSESSION**<br>0x00000020 | The setting is saved but is not applied to the current session.<br> |
+| **ILOT\_CLEANINSTALL**<br>0x00000040 | Disables all of the current keyboard layouts and text services.<br> |
+| **ILOT\_DISABLED**<br>0x00000080 | Disables the specified keyboard layout and text service.<br> |
 
 ## Return value
 

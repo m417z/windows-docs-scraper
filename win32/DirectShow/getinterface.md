@@ -27,6 +27,11 @@ This member function performs a thread-safe increment of the reference count. To
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Combase.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [**COM Helper Functions**](https://learn.microsoft.com/windows/win32/directshow/com-helper-functions) [**INonDelegatingUnknown**](https://learn.microsoft.com/windows/win32/directshow/inondelegatingunknown)
+## See also
+
+[**COM Helper Functions**](https://learn.microsoft.com/windows/win32/directshow/com-helper-functions)
+
+[**INonDelegatingUnknown**](https://learn.microsoft.com/windows/win32/directshow/inondelegatingunknown)
+

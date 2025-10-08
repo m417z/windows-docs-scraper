@@ -23,6 +23,9 @@ This function generates several LOG\_MEMORY messages. At logging level 1, the fu
 | Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br> | Wxdebug.h (include Streams.h) |
-| Library<br> | Strmbase.lib (retail builds);
+| Library<br> | Strmbase.lib (retail builds); <br>Strmbasd.lib (debug builds) |
 
-Strmbasd.lib (debug builds) | ## See also [Debug Output Functions](https://learn.microsoft.com/windows/win32/directshow/debug-output-functions)
+## See also
+
+[Debug Output Functions](https://learn.microsoft.com/windows/win32/directshow/debug-output-functions)
+

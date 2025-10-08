@@ -81,11 +81,10 @@ The flag that determines the category of printers for which notifications will w
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| **PRINTER\_NOTIFY\_CATEGORY\_ALL**
+| **PRINTER\_NOTIFY\_CATEGORY\_ALL**<br>0x001000 | [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications for both 2D and 3D printers.<br> |
+| **PRINTER\_NOTIFY\_CATEGORY\_3D**<br>0x002000 | [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications only for 3D printers.<br> |
 
-0x001000 | [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications for both 2D and 3D printers.\ | | **PRINTER\_NOTIFY\_CATEGORY\_3D**
-
-0x002000 | [**FindNextPrinterChangeNotification**](https://learn.microsoft.com/windows/win32/printdocs/findnextprinterchangenotification) returns notifications only for 3D printers.\ | When this flag is set to zero (0), **FindFirstPrinterChangeNotification** will only work for 2D printers. This is the default value.
+When this flag is set to zero (0), **FindFirstPrinterChangeNotification** will only work for 2D printers. This is the default value.
 
 *pPrinterNotifyOptions* \[in, optional\]
 

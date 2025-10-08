@@ -20,15 +20,10 @@ Zero, one, or more of the following status bits, which indicate the state of the
 
 | Value | Meaning |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| **BATTERY\_CHARGING**
-
-0x00000004 | Indicates that the battery is currently charging.\ | | **BATTERY\_CRITICAL**
-
-0x00000008 | Indicates that battery failure is imminent. See the Remarks section for more information.\ | | **BATTERY\_DISCHARGING**
-
-0x00000002 | Indicates that the battery is currently discharging.\ | | **BATTERY\_POWER\_ON\_LINE**
-
-0x00000001 | Indicates that the battery has access to AC power.\ |
+| **BATTERY\_CHARGING**<br>0x00000004 | Indicates that the battery is currently charging.<br> |
+| **BATTERY\_CRITICAL**<br>0x00000008 | Indicates that battery failure is imminent. See the Remarks section for more information.<br> |
+| **BATTERY\_DISCHARGING**<br>0x00000002 | Indicates that the battery is currently discharging.<br> |
+| **BATTERY\_POWER\_ON\_LINE**<br>0x00000001 | Indicates that the battery has access to AC power.<br> |
 
 **LowCapacity**
 
@@ -58,6 +53,13 @@ Before using either of the two Capacity conditions, make sure the battery suppor
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
-| Header<br> | Poclass.h;
+| Header<br> | Poclass.h; <br>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP |
 
-Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP | ## See also [**BATTERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/battery-status-str) [**IOCTL\_BATTERY\_QUERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-status) [**IOCTL\_BATTERY\_QUERY\_TAG**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-tag)
+## See also
+
+[**BATTERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/battery-status-str)
+
+[**IOCTL\_BATTERY\_QUERY\_STATUS**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-status)
+
+[**IOCTL\_BATTERY\_QUERY\_TAG**](https://learn.microsoft.com/windows/win32/power/ioctl-battery-query-tag)
+

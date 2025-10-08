@@ -30,13 +30,9 @@ A value that indicates how the certificate should be created. Values can be any 
 
 | Value | Meaning |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **NMMKCERT\_F\_CLEANUP\_ONLY**
-
-0x00000004 | Delete the old certificate without creating a new one. \ | | **NMMKCERT\_F\_DELETEOLDCERT**
-
-0x00000001 | Delete the old certificate previously created with this function. \ | | **NMMKCERT\_F\_LOCAL\_MACHINE**
-
-0x00000002 | Create the certificate in the local machine certificate store. \ |
+| **NMMKCERT\_F\_CLEANUP\_ONLY**<br>0x00000004 | Delete the old certificate without creating a new one. <br> |
+| **NMMKCERT\_F\_DELETEOLDCERT**<br>0x00000001 | Delete the old certificate previously created with this function. <br> |
+| **NMMKCERT\_F\_LOCAL\_MACHINE**<br>0x00000002 | Create the certificate in the local machine certificate store. <br> |
 
 ## Return value
 

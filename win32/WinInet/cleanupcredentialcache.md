@@ -34,6 +34,5 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br> | Windows 2000 Professional \[desktop apps only\]<br> |
 | Minimum supported server<br> | Windows 2000 Server \[desktop apps only\]<br> |
-| DLL<br> | MSNSSPC.dll;
+| DLL<br> | MSNSSPC.dll; <br>MSAPSSPC.dll |
 
-MSAPSSPC.dll |
