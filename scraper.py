@@ -12,6 +12,7 @@ import json
 import re
 import time
 import traceback
+import uuid
 from dataclasses import dataclass
 from enum import IntEnum, auto
 from pathlib import Path
@@ -23,6 +24,14 @@ import yaml
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString
 from markdownify import MarkdownConverter
+
+
+class Nonce:
+    """Global nonce values used for temporary markers in content processing."""
+    PreCodeBlock1 = f'PRE_NONCE_1_{uuid.uuid4().hex.upper()}'
+    PreCodeBlock2 = f'PRE_NONCE_2_{uuid.uuid4().hex.upper()}'
+    LeadingSpaces = f'LEADING_SPACES_NONCE_{uuid.uuid4().hex.upper()}'
+    TableBr = f'TABLE_BR_NONCE_{uuid.uuid4().hex.upper()}'
 
 
 class DocsRepositoryType(IntEnum):
@@ -211,7 +220,7 @@ def clean_markdown_content(content_url: str, content: str) -> str:
         begin = match.group(1)
         dt_content = match.group(2)
         end = match.group(3)
-        dt_content = re.sub(r'</dt>\s*<dt>', '<br>', dt_content)
+        dt_content = re.sub(r'</dt>\s*<dt>', Nonce.TableBr, dt_content)
         return f'|{begin}{dt_content}{end}|'
 
     content = re.sub(r'\|(.*?)<dl>\s*<dt>\s*(.*?)\s*</dt>\s*</dl>(.*?)\|', remove_dl_dt_sub, content)
@@ -221,8 +230,6 @@ def clean_markdown_content(content_url: str, content: str) -> str:
 
     # Make more html-to-markdown friendly by surrounding code blocks with <pre>
     # to prevent space removal. Yes, this is a horrible hack.
-    pre_nonce_1 = '```PRE_NONCE_1_0008D8C0'
-    pre_nonce_2 = '```PRE_NONCE_2_E8E8C3EF'
     def backticks_sub(match: re.Match) -> str:
         match_content = match.group(0)
         # html encode content inside backticks to prevent html-to-markdown from
@@ -237,7 +244,7 @@ def clean_markdown_content(content_url: str, content: str) -> str:
         if '\n' not in match_content:
             # Inline code, do not add nonce.
             return match_content
-        return f'{pre_nonce_1}<pre>{match_content}</pre>{pre_nonce_2}'
+        return f'```{Nonce.PreCodeBlock1}<pre>{match_content}</pre>```{Nonce.PreCodeBlock2}'
 
     content = re.sub(r'```[\s\S]*?```', backticks_sub, content)
 
@@ -280,8 +287,12 @@ def clean_markdown_content(content_url: str, content: str) -> str:
 
     # A hack to prevent collapsing leading spaces, which is important for
     # things such as nested lists.
-    leading_spaces_nonce = 'LEADING_SPACES_NONCE_26017BFF'
-    content = re.sub(r'(^|>)( {2,})(?=[-*])', lambda m: m.group(1) + leading_spaces_nonce + '<!-- --> ' * len(m.group(2)), content, flags=re.MULTILINE)
+    content = re.sub(
+        r'(^|>)( {2,})(?=[-*])',
+        lambda m: m.group(1) + Nonce.LeadingSpaces + '<!-- --> ' * len(m.group(2)),
+        content,
+        flags=re.MULTILINE,
+    )
 
     # Convert HTML tags to markdown. This will convert HTML tags like <strong>,
     # <em>, <code>, etc. to markdown equivalents and remove unsupported HTML
@@ -292,10 +303,10 @@ def clean_markdown_content(content_url: str, content: str) -> str:
             # https://stackoverflow.com/a/12119310
             el_html = el.decode_contents()
             el_markdown = self.convert(el_html)
-            el_markdown = el_markdown.replace('\n\n', '<br><br>')
+            el_markdown = el_markdown.replace('\n\n', Nonce.TableBr * 2)
             # Best effort to handle lists in table cells.
-            el_markdown = el_markdown.replace('\n* ', '<br>* ')
-            el_markdown = el_markdown.replace('\n- ', '<br>- ')
+            el_markdown = el_markdown.replace('\n* ', Nonce.TableBr + '* ')
+            el_markdown = el_markdown.replace('\n- ', Nonce.TableBr + '- ')
             el_markdown = el_markdown.replace('\n', ' ')
             colspan = int(el.get('colspan', 1))
             return ' ' + el_markdown.strip() + ' |' * colspan
@@ -312,47 +323,13 @@ def clean_markdown_content(content_url: str, content: str) -> str:
     ).convert(content)
 
     # Remove the pre nonces.
-    cleaned_content = re.sub(rf' *{pre_nonce_1}\n *\n *```\n', '', cleaned_content)
-    cleaned_content = re.sub(rf'\n *```\n *\n *{pre_nonce_2}', '', cleaned_content)
-    assert pre_nonce_1 not in cleaned_content
-    assert pre_nonce_2 not in cleaned_content
+    cleaned_content = re.sub(rf' *```{re.escape(Nonce.PreCodeBlock1)}\n *\n *```\n', '', cleaned_content)
+    cleaned_content = re.sub(rf'\n *```\n *\n *```{re.escape(Nonce.PreCodeBlock2)}', '', cleaned_content)
+    assert Nonce.PreCodeBlock1 not in cleaned_content
+    assert Nonce.PreCodeBlock2 not in cleaned_content
 
     # Remove the leading spaces nonce.
-    cleaned_content = cleaned_content.replace(leading_spaces_nonce, '')
-
-    # Fix links.
-    def links_sub(match: re.Match) -> str:
-        # Don't touch content inside code blocks.
-        triple_backtick_count = cleaned_content.count('```', 0, match.end())
-        if triple_backtick_count % 2 == 1:
-            return match.group(0)
-
-        text = match.group(1)
-        url = match.group(2).strip()
-
-        url = url.replace('\\', '/')
-        url = urljoin(content_url, url)
-        if url.startswith('https://learn.microsoft.com/'):
-            url = re.sub(r'/index(\.md|\.yml)?(?=#|$)', '/', url)
-            url = re.sub(r'\.md(?=#|$)', '', url)
-
-        return f'[{text}]({url})'
-
-    cleaned_content = re.sub(r'\[([\s\S]*?)\]\(([^)]+)\)', links_sub, cleaned_content)
-
-    # Fix pre-existing markdown tables with <br> newlines which were converted
-    # to actual newlines and broke the table.
-    def markdown_table_sub(match: re.Match) -> str:
-        # Don't touch content inside code blocks.
-        triple_backtick_count = cleaned_content.count('```', 0, match.start())
-        if triple_backtick_count % 2 == 1:
-            return match.group(0)
-
-        table_text = match.group(0)
-        table_text = table_text.replace('\\\n', '<br>')
-        return table_text
-
-    cleaned_content = re.sub(r'^\s*\|([^\n]*\\\n)+', markdown_table_sub, cleaned_content, flags=re.MULTILINE)
+    cleaned_content = cleaned_content.replace(Nonce.LeadingSpaces, '')
 
     # Escape all < symbols that are not part of HTML tags. We also did this
     # before html-to-markdown, but html-to-markdown may introduce new < symbols
@@ -383,7 +360,7 @@ def clean_markdown_content(content_url: str, content: str) -> str:
         return '\\' + match.group(1) + (match.group(2) or '')
 
     cleaned_content = re.sub(
-        r'(<)(?=/?[a-z]|!--)(?!br\b)(/)?',
+        r'(<)(?=/?[a-z]|!--)(/)?',
         markdown_escape_sub,
         cleaned_content,
         flags=re.IGNORECASE,
@@ -395,6 +372,43 @@ def clean_markdown_content(content_url: str, content: str) -> str:
         cleaned_content,
         flags=re.IGNORECASE,
     )
+
+    # Fix links.
+    def links_sub(match: re.Match) -> str:
+        # Don't touch content inside code blocks.
+        triple_backtick_count = cleaned_content.count('```', 0, match.end())
+        if triple_backtick_count % 2 == 1:
+            return match.group(0)
+
+        text = match.group(1)
+        url = match.group(2).strip()
+
+        url = url.replace('\\', '/')
+        url = urljoin(content_url, url)
+        if url.startswith('https://learn.microsoft.com/'):
+            url = re.sub(r'/index(\.md|\.yml)?(?=#|$)', '/', url)
+            url = re.sub(r'\.md(?=#|$)', '', url)
+
+        return f'[{text}]({url})'
+
+    cleaned_content = re.sub(r'\[([\s\S]*?)\]\(([^)]+)\)', links_sub, cleaned_content)
+
+    # Replace table <br> nonces with actual <br>.
+    cleaned_content = cleaned_content.replace(Nonce.TableBr, '<br>')
+
+    # Fix pre-existing markdown tables with <br> newlines which were converted
+    # to actual newlines and broke the table.
+    def markdown_table_sub(match: re.Match) -> str:
+        # Don't touch content inside code blocks.
+        triple_backtick_count = cleaned_content.count('```', 0, match.start())
+        if triple_backtick_count % 2 == 1:
+            return match.group(0)
+
+        table_text = match.group(0)
+        table_text = table_text.replace('\\\n', '<br>')
+        return table_text
+
+    cleaned_content = re.sub(r'^\s*\|([^\n]*\\\n)+', markdown_table_sub, cleaned_content, flags=re.MULTILINE)
 
     # Remove trailing spaces on lines.
     cleaned_content = re.sub(r' +$', '', cleaned_content, flags=re.MULTILINE)
