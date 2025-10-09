@@ -523,7 +523,19 @@ def extract_fuzzy_type_ident(markdown_content: str) -> Tuple[str, str]:
     """
     # Best effort to filter relevant pages. Not all pages have reliable
     # metadata such as topic_type, especially in windows-driver-docs.
-    p = r'^# (\S+) (macro|callback function|function|structure|enumeration|routine|union|control code)(:? *\([^)]+\.h\))? *$'
+    fuzzy_types = [
+        'callback function',
+        'function pointer',
+        'control code',
+        'enumeration',
+        'structure',
+        'function',
+        'routine',
+        'macro',
+        'union',
+    ]
+    fuzzy_types_pattern = '|'.join(re.escape(t) for t in fuzzy_types)
+    p = rf'^# (\S+) ({fuzzy_types_pattern})(:? *\([^)]+\.h\))? *$'
     match = re.search(p, markdown_content, flags=re.IGNORECASE | re.MULTILINE)
     if not match:
         raise UnsupportedFuzzyDoc
