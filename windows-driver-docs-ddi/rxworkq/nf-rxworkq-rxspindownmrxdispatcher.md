@@ -18,7 +18,7 @@ A pointer to the device object of the corresponding network mini-redirector driv
 
 The **RxSpinDownMRxDispatcher** routine will set a tear down request into the driver device object of the network mini-redirector driver (the **DispatcherContext.pTearDownEvent** member of the device object is set to **&TearDownEvent**) and wait for the driver to tear down any outstanding worker threads.
 
-The **RxSpinDownMRxDispatcher** routine is also called internally by the **RxStopMiniRdr** and **RxpUnregisterMinirdr** routines.
+The **RxSpinDownMRxDispatcher** routine is also called internally by the **RxStopMinirdr** and **RxpUnregisterMinirdr** routines.
 
 ## See also
 

@@ -48,7 +48,7 @@ A [**PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK**](https://learn.microsoft.com/win
 
 ### `SecUncorrectableErrorSeverity`
 
-A [**PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERIT**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_sec_uncorrectable_error_severity)Y structure that describes the PCIe secondary uncorrectable error severity register of the PCIe AER capability structure.
+A [**PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_sec_uncorrectable_error_severity) structure that describes the PCIe secondary uncorrectable error severity register of the PCIe AER capability structure.
 
 ### `SecCapabilitiesAndControl`
 

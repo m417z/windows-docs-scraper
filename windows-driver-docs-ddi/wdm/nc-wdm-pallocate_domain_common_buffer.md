@@ -34,6 +34,8 @@ Possible values include:
 
 A pointer to a [**MEMORY_CACHING_TYPE**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type) enumeration indicating whether the routine must enable or disable cached memory in the common buffer that is to be allocated. Only values of **MmNonCached** and **MmCached** are supported. The parameter is optional and can be specified as NULL to specify the caching will be dependent upon the hardware platform default.
 
+If a caller provides an override value of **MmCached** on an adapter that is not cache-coherent, they are responsible for flushing the contents of the cache. If unsure, a caller should always provide NULL.
+
 ### `PreferredNode` [in]
 
 The preferred NUMA node from which the memory is to be allocated. If N is the number of NUMA nodes in a multiprocessor system, *PreferredNode* is a number in the range 0 to N–1. For a one-processor system or a non-NUMA multiprocessor system, set *PreferredNode* to zero.
@@ -53,3 +55,5 @@ Returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appro
 ## Remarks
 
 ## See also
+
+[**DMA_OPERATIONS**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations)

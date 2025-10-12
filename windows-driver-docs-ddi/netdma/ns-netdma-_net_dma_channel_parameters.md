@@ -51,11 +51,11 @@ status values with the descriptor address by using a bitwise OR operation:
 
 | Value | Meaning |
 | --- | --- |
-| ****NetDmaTransferStatusActive**** | The DMA transfer for the most recent DMA descriptor completed without errors, and the DMA engine has more descriptors to process. |
-| ****NetDmaTransferStatusIdle**** | The DMA transfer for the last DMA descriptor in the linked list of descriptors completed without errors. |
-| ****NetDmaTransferStatusSuspend**** | The DMA transfer for the most recent DMA descriptor completed without errors, and DMA transfers are suspended because the NetDMA interface called the [ProviderSuspendDma](https://learn.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler) function. The DMA engine will restart the transfer after the NetDMA interface calls the [ProviderResumeDma](https://learn.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_resume_handler) function. |
-| ****NetDmaTransferStatusHalted**** | The DMA transfer for the most recent DMA transfer was aborted because of errors or because the NetDMA interface called the [ProviderAbortDma](https://learn.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler) function. |
-| ****NetDmaTransferStatusArmed**** | The DMA transfer for the first descriptor has not completed and the completed descriptor address is not valid. |
+| **NetDmaTransferStatusActive** | The DMA transfer for the most recent DMA descriptor completed without errors, and the DMA engine has more descriptors to process. |
+| **NetDmaTransferStatusIdle** | The DMA transfer for the last DMA descriptor in the linked list of descriptors completed without errors. |
+| **NetDmaTransferStatusSuspend** | The DMA transfer for the most recent DMA descriptor completed without errors, and DMA transfers are suspended because the NetDMA interface called the [ProviderSuspendDma](https://learn.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler) function. The DMA engine will restart the transfer after the NetDMA interface calls the [ProviderResumeDma](https://learn.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_resume_handler) function. |
+| **NetDmaTransferStatusHalted** | The DMA transfer for the most recent DMA transfer was aborted because of errors or because the NetDMA interface called the [ProviderAbortDma](https://learn.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler) function. |
+| **NetDmaTransferStatusArmed** | The DMA transfer for the first descriptor has not completed and the completed descriptor address is not valid. |
 
 ### `ProcessorAffinityMask`
 

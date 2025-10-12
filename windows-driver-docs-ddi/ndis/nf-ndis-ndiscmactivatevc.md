@@ -74,7 +74,7 @@ calls
 
 In the process of setting up an outgoing call and while any VC remains activated, the client can
 request changes to the call parameters for that VC, for example, by calling
-[NdisClModifyCallQos](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos). After verifying
+[NdisClModifyCallQoS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos). After verifying
 the validity of the given call parameters for any such a request, the stand-alone call manager must call
 **NdisCmActivateVc** to pass the modified call parameters down to the underlying miniport driver.
 
@@ -91,7 +91,7 @@ support call
 
 [NdisClMakeCall](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall)
 
-[NdisClModifyCallQos](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos)
+[NdisClModifyCallQoS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos)
 
 [NdisCmDeactivateVc](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdeactivatevc)
 

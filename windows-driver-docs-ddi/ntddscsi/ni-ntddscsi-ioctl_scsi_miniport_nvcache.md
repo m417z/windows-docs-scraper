@@ -18,7 +18,7 @@ The buffer at **Irp->AssociatedIrp.SystemBuffer** contains an [**SRB_IO_CONTROL*
 
 ### Input buffer length
 
-**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of all the input data: [**SRB_IO_CONTROL**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control), [**NVCACHE_REQUEST_BLOCK**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block), and function-specific data buffer combined. The presence or absence of a data buffer is indicated by the **NVCACHE_REQUEST_BLOCK****DataBufSize** field.
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of all the input data: [**SRB_IO_CONTROL**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control), [**NVCACHE_REQUEST_BLOCK**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_nvcache_request_block), and function-specific data buffer combined. The presence or absence of a data buffer is indicated by the **NVCACHE_REQUEST_BLOCK** **DataBufSize** field.
 
 ### Output buffer
 

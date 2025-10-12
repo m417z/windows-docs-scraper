@@ -2,7 +2,7 @@
 
 ## Description
 
-Describes the properties of a connector. This structure is used in the [**UsbPm_RetrieveCoonnectorProperties**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usbpmapi/nf-usbpmapi-usbpm_retrieveconnectorproperties) call.
+Describes the properties of a connector. This structure is used in the [**UsbPm_RetrieveConnectorProperties**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usbpmapi/nf-usbpmapi-usbpm_retrieveconnectorproperties) call.
 
 ## Members
 

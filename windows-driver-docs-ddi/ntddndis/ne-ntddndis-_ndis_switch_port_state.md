@@ -24,10 +24,10 @@ This value specifies that the port has been deleted.
 
 ## Remarks
 
-The **PortState** member of the [NDIS_SWITCH_PORT_PARAMETER](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters) structure is an **NDIS_SWITCH_PORT_STATE** enumeration data type.
+The **PortState** member of the [NDIS_SWITCH_PORT_PARAMETERS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters) structure is an **NDIS_SWITCH_PORT_STATE** enumeration data type.
 
 For more information about extensible switch port states, see [Overview of Hyper-V Extensible Switch Ports](https://learn.microsoft.com/windows-hardware/drivers/network/overview-of-hyper-v-extensible-switch-ports).
 
 ## See also
 
-[NDIS_SWITCH_PORT_PARAMETER](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters)
+[NDIS_SWITCH_PORT_PARAMETERS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters)

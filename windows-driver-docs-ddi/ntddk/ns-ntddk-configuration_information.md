@@ -54,10 +54,10 @@ Number of medium changer devices in the system. A driver can use this number to 
 
 * By drivers that are initializing to determine the number of devices of a particular type that have already been initialized.
 * To track whether or not the AtDisk address range has already been claimed.
-* By the [**IoGetConfigurationInformation **](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetconfigurationinformation) system service to return device type counts.
+* By the [**IoGetConfigurationInformation**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetconfigurationinformation) system service to return device type counts.
 
 ## See also
 
-[**IoGetConfigurationInformation **](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetconfigurationinformation) (*ntddk.h*)
+[**IoGetConfigurationInformation**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetconfigurationinformation) (*ntddk.h*)
 
-[**IoGetConfigurationInformation **](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetconfigurationinformation) (*ntifs.h*)
+[**IoGetConfigurationInformation**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetconfigurationinformation) (*ntifs.h*)

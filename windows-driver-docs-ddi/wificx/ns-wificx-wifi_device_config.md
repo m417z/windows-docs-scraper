@@ -1,6 +1,6 @@
 ## Description
 
-The **WIFI_DEVICE_CONFIG** structure contains pointers to a client driver's WiFiCx-specific callback functions. The client driver must supply an initialized **WIFI_DEVICE_CONFIG** structure as an input parameter to [**WiFiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize).
+The **WIFI_DEVICE_CONFIG** structure contains pointers to a client driver's WiFiCx-specific callback functions. The client driver must supply an initialized **WIFI_DEVICE_CONFIG** structure as an input parameter to [**WifiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize).
 
 ## Members
 
@@ -30,9 +30,9 @@ Call [**WIFI_DEVICE_CONFIG_INIT**](https://learn.microsoft.com/windows-hardware/
 
 ## See also
 
-[**WiFiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize)
+[**WifiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize)
 
-[*EVT_MBB_DEVICE_CREATE_ADAPTER*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nc-wificx-evt_wifi_device_create_adapter)
+[*EVT_WIFI_DEVICE_CREATE_ADAPTER*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nc-wificx-evt_wifi_device_create_adapter)
 
 [*EVT_WIFI_DEVICE_SEND_COMMAND*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nc-wificx-evt_wifi_device_send_command)
 

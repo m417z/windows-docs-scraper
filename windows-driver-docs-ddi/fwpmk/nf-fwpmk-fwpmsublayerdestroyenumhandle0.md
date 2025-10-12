@@ -14,8 +14,6 @@ Handle of a sublayer enumeration created by a call to **Handle of a sublayer enu
 
 Handle of a sublayer enumeration created by a call to **[FwpmSubLayerCreateEnumHandle0](https://learn.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmsublayercreateenumhandle0)**.
 
-[-description](https://learn.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmsublayercreateenumhandle0)**.
-
 ## Return value
 
 | Return code/value | Description |

@@ -28,7 +28,7 @@ The number of map registers to use in the DMA transfer. The calling driver shoul
 
 | Flag | Meaning |
 | --- | --- |
-| ****DMA_SYNCHRONOUS_CALLBACK**** | The **AllocateAdapterChannelEx** routine is called synchronously. If this flag is set, and the required DMA resources are not immediately available, the call fails and returns STATUS_INSUFFICIENT_RESOURCES. |
+| **DMA_SYNCHRONOUS_CALLBACK** | The **AllocateAdapterChannelEx** routine is called synchronously. If this flag is set, and the required DMA resources are not immediately available, the call fails and returns STATUS_INSUFFICIENT_RESOURCES. |
 
 If the **DMA_SYNCHRONOUS_CALLBACK** flag is set, the *ExecutionRoutine* parameter is optional and can be NULL. For more information about this flag, see the Remarks section.
 

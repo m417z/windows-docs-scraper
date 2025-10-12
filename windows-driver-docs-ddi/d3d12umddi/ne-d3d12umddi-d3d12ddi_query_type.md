@@ -46,7 +46,7 @@ The query type is for video decode statistics. See [**D3D12DDI_QUERY_DATA_VIDEO_
 
 ### `D3D12DDI_QUERY_TYPE_PIPELINE_STATISTICS1:10`
 
-The query type is for graphics pipeline statistics. See [**D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1 **](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_query_data_pipeline_statistics1).
+The query type is for graphics pipeline statistics. See [**D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_query_data_pipeline_statistics1).
 
 ## Remarks
 

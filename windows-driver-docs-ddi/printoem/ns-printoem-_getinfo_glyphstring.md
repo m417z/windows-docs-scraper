@@ -59,7 +59,7 @@ If the conversion is from TYPE_GLYPHHANDLE to TYPE_TRANSDATA, [UNIFONTOBJ_GetInf
 
 - The plug-in allocates a block of memory of the size received in the **dwGlyphOutSize** member, sets the **pGlyphOut** member to point to this memory block, and calls [UNIFONTOBJ_GetInfo](https://learn.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) once more. UNIDRV then converts the string from TYPE_GLYPHHANDLE to TYPE_TRANSDATA.
 
-The values that a rendering plug-in specifies for the **dwTypeIn**and **pGlyphIn** members typically are those that were previously received as the **dwType**and *pGlyph* parameters to the [IPrintOemUni::OutputCharStr](https://learn.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-outputcharstr) method.
+The values that a rendering plug-in specifies for the **dwTypeIn** and **pGlyphIn** members typically are those that were previously received as the **dwType** and *pGlyph* parameters to the [IPrintOemUni::OutputCharStr](https://learn.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-outputcharstr) method.
 
 ## See also
 

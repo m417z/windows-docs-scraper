@@ -22,7 +22,7 @@ Specifies the long integer to convert.
 
 [LUID](https://learn.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid)
 
-[RtlConvertULongToLuid](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertulongtoluid)
+[RtlConvertUlongToLuid](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertulongtoluid)
 
 [RtlEqualLuid](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlequalluid)
 

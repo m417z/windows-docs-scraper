@@ -10,7 +10,7 @@ The length, in bytes, of this structure.
 
 ### `EvtAcxAudioModuleProcessCommand`
 
-The [ACX_AUDIOMODULE_PROCESSCOMMAND](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_audiomodule_processcommand) callback.
+The [EVT_ACX_AUDIOMODULE_PROCESSCOMMAND](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_audiomodule_processcommand) callback.
 
 ## Remarks
 

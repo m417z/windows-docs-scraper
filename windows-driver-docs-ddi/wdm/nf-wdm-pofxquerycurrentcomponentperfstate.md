@@ -32,7 +32,7 @@ A pointer to variable in which the current performance state for the specified p
 
 | Return code | Description |
 | --- | --- |
-| ****STATUS_INVALID_PARAMETER**** | The caller supplied an invalid index for the component or component state set. |
+| **STATUS_INVALID_PARAMETER** | The caller supplied an invalid index for the component or component state set. |
 
 ## Remarks
 

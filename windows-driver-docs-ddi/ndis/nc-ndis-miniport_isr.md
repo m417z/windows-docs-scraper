@@ -49,8 +49,8 @@ NDIS will schedule DPCs regardless of the return value from
 
 | Return code | Description |
 | --- | --- |
-| ****TRUE**** | [MiniportInterrupt](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr) determined that the underlying NIC generated the interrupt. |
-| ****FALSE**** | [MiniportInterrupt](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr) determined that the underlying NIC did not generate the interrupt. |
+| **TRUE** | [MiniportInterrupt](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr) determined that the underlying NIC generated the interrupt. |
+| **FALSE** | [MiniportInterrupt](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr) determined that the underlying NIC did not generate the interrupt. |
 
 **Note** NDIS will queue DPCs based on the values that are specified in the
 *QueueDefaultInterruptDpc* and

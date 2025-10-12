@@ -58,7 +58,7 @@ Index for the **[AcxCircuitInitAssignAcxCreateStreamCallback](https://learn.micr
 
 ### `AcxCircuitInitDisableDefaultStreamBridgeHandlingTableIndex`
 
-Index for the **[AcxCircuitInitDisableDefaultStreamBridgeHandling](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxcircuit/nf-acxcircuit-acxcircuitinitassignacxcreatestreamcallback)** function.
+Index for the **[AcxCircuitInitDisableDefaultStreamBridgeHandling](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxcircuit/nf-acxcircuit-acxcircuitinitdisabledefaultstreambridgehandling)** function.
 
 ### `AcxCircuitCreateTableIndex`
 

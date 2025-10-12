@@ -60,7 +60,7 @@ A caller can set the following message flags:
 
 ## See also
 
-[IoWmiWriteEvent](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent)
+[IoWMIWriteEvent](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent)
 
 [TRACE_INFORMATION_CLASS](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class)
 

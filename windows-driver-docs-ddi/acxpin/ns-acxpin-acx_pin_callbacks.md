@@ -22,7 +22,7 @@ A pointer to an [EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO](https://learn.microsoft.co
 
 ### `EvtAcxPinProcessJackRequest`
 
-A pointer to an [EVT_ACX_OBJECT_PROCESS_REQUEST](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_event_request) callback function.
+A pointer to an [EVT_ACX_OBJECT_PROCESS_REQUEST](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxrequest/nc-acxrequest-evt_acx_object_process_request) callback function.
 
 ### `EvtAcxPinConnected`
 

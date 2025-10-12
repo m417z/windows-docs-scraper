@@ -53,7 +53,7 @@ Other possible error codes include:
 
 ## Remarks
 
-This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined [CommandCompleteFunction](https://learn.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function) is called and passed the value in the *CommandContext* argument*.*
+This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined [CommandCompleteFunction](https://learn.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function) is called and passed the value in the *CommandContext* argument.
 
 ## See also
 

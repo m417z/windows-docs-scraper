@@ -270,7 +270,7 @@ A [**FILE_RENAME_INFORMATION**](https://learn.microsoft.com/windows-hardware/dri
 
 ### `FileDesiredStorageClassInformation:67`
 
-A [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
+A [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_desired_storage_class_information) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### `FileStatInformation:68`
 
@@ -298,7 +298,7 @@ A [**FILE_LINK_INFORMATION**](https://learn.microsoft.com/windows-hardware/drive
 
 ### `FileStorageReserveIdInformation:74`
 
-A [**FILE_SET_STORAGE_RESERVE_ID_INFORMATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_storage_reserve_id_information) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
+A [**FILE_STORAGE_RESERVE_ID_INFORMATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_storage_reserve_id_information) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
 
 ### `FileCaseSensitiveInformationForceAccessCheck:75`
 

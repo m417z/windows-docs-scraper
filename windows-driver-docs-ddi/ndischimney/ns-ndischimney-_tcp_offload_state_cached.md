@@ -93,7 +93,7 @@ retransmitting a segment. If the value of
 **MaxRT** is non-zero,
 **MaxRT** overrides
 **TcpMaximumRetransmissions** in the
-[NDIS_TASK_TCP_CONNECTION_OFFLOAD](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_tcp_connection_offload_parameters) structure. The default value for is
+[NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_tcp_connection_offload_parameters) structure. The default value for is
 **MaxRT** is zero, which means that
 **TcpMaximumRetransmissions** sets the maximum number of times that the offload target should
 retransmit a segment on a TCP connection. If the value of

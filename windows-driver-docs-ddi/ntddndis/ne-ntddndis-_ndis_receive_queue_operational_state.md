@@ -32,7 +32,7 @@ the
 DMA Stopped state. The queue enters the
 DMA Stopped state when the miniport driver receives an
 [OID_RECEIVE_FILTER_FREE_QUEUE](https://learn.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue) OID request, stops the DMA operations for the queue, and issues an
-[NDIS_STATUS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state) status indication.
+[NDIS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state) status indication.
 
 ### `NdisReceiveQueueOperationalStateMaximum`
 
@@ -51,7 +51,7 @@ The **NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE** enumeration is used in the
 
 [NDIS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state)
 
-[NDIS_STATUS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state)
+[NDIS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state)
 
 [OID_RECEIVE_FILTER_ALLOCATE_QUEUE](https://learn.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue)
 

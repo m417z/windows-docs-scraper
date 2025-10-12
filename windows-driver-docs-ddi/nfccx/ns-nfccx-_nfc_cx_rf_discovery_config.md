@@ -2,7 +2,7 @@
 
 ## Description
 
-The **NFC_CX_RF_DISCOVERY_CONFIG** structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling [NfcDxDeviceInitialize](https://learn.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdevicedeinitialize), otherwise an error is returned.
+The **NFC_CX_RF_DISCOVERY_CONFIG** structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling [NfcCxDeviceInitialize](https://learn.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdeviceinitialize), otherwise an error is returned.
 
 ## Members
 

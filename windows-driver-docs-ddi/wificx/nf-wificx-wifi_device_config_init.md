@@ -26,7 +26,7 @@ The **WIFI_DEVICE_CONFIG_INIT** function initializes the [**WIFI_DEVICE_CONFIG**
 
 ## Remarks
 
-The client driver calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) event callback function in preparation for calling [**WiFiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize).
+The client driver calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) event callback function in preparation for calling [**WifiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize).
 
 ## See also
 
@@ -40,4 +40,4 @@ The client driver calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](htt
 
 [*EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nc-wificx-evt_wifi_device_create_wifidirectdevice)
 
-[**WiFiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize)
+[**WifiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize)

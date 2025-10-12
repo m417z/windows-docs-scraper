@@ -31,12 +31,12 @@ The Protocol/Service Multiplexer (PSM) that was specified in a previous
 
 To unregister itself as a L2CAP server, a profile driver should
 [build and send](https://learn.microsoft.com/previous-versions/ff536657(v=vs.85)) a
-[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server) request.
+[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_unregister_server) request.
 
 ## See also
 
 [BRB_HEADER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header)
 
-[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server)
+[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_unregister_server)
 
 [_BRB_L2CA_REGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server)

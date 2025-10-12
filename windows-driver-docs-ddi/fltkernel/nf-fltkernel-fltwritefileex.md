@@ -93,7 +93,7 @@ A minifilter driver calls **FltWriteFileEx** to write data to an open file.
 
 * The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the **Flags** parameter.
 
-* The file object was opened for noncached I/O. Usually, this is done by specifying the **FILE_NO_INTERMEDIATE_BUFFERING****CreateOptions** flag in the preceding call to [**FltCreateFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile), [**FltCreateFileEx**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex), or [**ZwCreateFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatefile).
+* The file object was opened for noncached I/O. Usually, this is done by specifying the **FILE_NO_INTERMEDIATE_BUFFERING** **CreateOptions** flag in the preceding call to [**FltCreateFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile), [**FltCreateFileEx**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex), or [**ZwCreateFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatefile).
 
 Noncached I/O imposes the following restrictions on the parameter values passed to **FltWriteFileEx**:
 

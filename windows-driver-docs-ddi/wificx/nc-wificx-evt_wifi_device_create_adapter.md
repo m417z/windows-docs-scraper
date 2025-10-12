@@ -18,7 +18,7 @@ This callback function returns STATUS_SUCCESS if the operation was successful. O
 
 ## Remarks
 
-A WiFiCx client driver must register an *EvtWifiDeviceCreateAdapter* callback function by calling [**WiFiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize).
+A WiFiCx client driver must register an *EvtWifiDeviceCreateAdapter* callback function by calling [**WifiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize).
 
 In its *EvtWifiDeviceCreateAdapter* callback, the client driver must:
 
@@ -34,7 +34,7 @@ For more information, see [Writing a WiFiCx client driver](https://learn.microso
 
 [**WdfDeviceCreate**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate)
 
-[**WiFiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize)
+[**WifiDeviceInitialize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifideviceinitialize)
 
 [**NetAdapterCreate**](https://learn.microsoft.com/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadaptercreate)
 

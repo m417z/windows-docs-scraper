@@ -29,6 +29,10 @@ The first unsigned 32-bit integer for the multiplication operation.
 
 The second unsigned 32-bit integer for the multiplication operation.
 
+## Return value
+
+The value of the product.
+
 ## Remarks
 
 This function is implemented on all platforms by optimal inline code: a single multiply instruction that returns a 64-bit result.

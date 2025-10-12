@@ -42,4 +42,4 @@ See [**KeInitializeEvent**](https://learn.microsoft.com/windows-hardware/drivers
 
 [**StorPortSetEvent**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetevent)
 
-[**StoPortWaitForSingleObject**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwaitforsingleobject)
+[**StorPortWaitForSingleObject**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwaitforsingleobject)

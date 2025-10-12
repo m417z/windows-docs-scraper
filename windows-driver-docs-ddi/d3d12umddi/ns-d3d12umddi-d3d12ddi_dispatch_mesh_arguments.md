@@ -18,7 +18,7 @@ Tread group count in the Z direction.
 
 ## Remarks
 
-The total number of threads is **ThreadGroupCountX * ThreadGroupCountY * ThreadGroupCountZ**.
+The total number of threads is **ThreadGroupCountX \* ThreadGroupCountY \* ThreadGroupCountZ**.
 
 See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 

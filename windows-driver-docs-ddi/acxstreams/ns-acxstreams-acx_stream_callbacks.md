@@ -10,19 +10,19 @@ The length, in bytes, of this structure.
 
 ### `EvtAcxStreamPrepareHardware`
 
-The [PFN_ACX_STREAM_PREPARE_HARDWARE](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_prepare_hardware) Callback.
+The [EVT_ACX_STREAM_PREPARE_HARDWARE](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_prepare_hardware) Callback.
 
 ### `EvtAcxStreamReleaseHardware`
 
-The [PFN_ACX_STREAM_RELEASE_HARDWARE](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_release_hardware) Callback.
+The [EVT_ACX_STREAM_RELEASE_HARDWARE](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_release_hardware) Callback.
 
 ### `EvtAcxStreamRun`
 
-The [PFN_ACX_STREAM_RUN](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_run) Callback.
+The [EVT_ACX_STREAM_RUN](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_run) Callback.
 
 ### `EvtAcxStreamPause`
 
-The [PFN_ACX_STREAM_PAUSE](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_pause) Callback.
+The [EVT_ACX_STREAM_PAUSE](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/nc-acxstreams-evt_acx_stream_pause) Callback.
 
 ### `EvtAcxStreamAssignDrmContentId`
 

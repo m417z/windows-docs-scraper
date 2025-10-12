@@ -81,7 +81,7 @@ On an abnormal termination or other failure, **RxStartMinirdr** will try to undo
 
 ## See also
 
-[, RxpUnregisterMinirdr](https://learn.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxpunregisterminirdr)
+[RxpUnregisterMinirdr](https://learn.microsoft.com/windows-hardware/drivers/ddi/mrx/nf-mrx-rxpunregisterminirdr)
 
 [DriverEntry](https://learn.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver)
 

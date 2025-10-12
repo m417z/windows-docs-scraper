@@ -29,7 +29,7 @@ A pointer to a[**DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA**](https://learn.micros
 
 *Dxgkrnl* calls the kernel mode driver's (KMD's) **DxgkDdiGetStandardAllocationDriverData** function to generate a description of the standard allocation type that the **pGetStandardAllocationDriverData** parameter specifies. KMD returns the description of the allocation type in the **pAllocationPrivateDriverData** and **pResourcePrivateDriverData** members of the [**DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata) structure that the **pGetStandardAllocationDriverData** parameter points to. *Dxgkrnl* subsequently passes the description to the [**DxgkDdiCreateAllocation**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation) function to actually create the allocation.
 
-Beginning with Windows 7, if KMD processes a call to the **DxgkDdiGetStandardAllocationDriverData** function to create allocations for GDI hardware acceleration, the driver should set the pitch of the allocation for CPU visible allocations, **pGetStandardAllocationDriverData->****pCreateGdiSurfaceData****->****Pitch**.
+Beginning with Windows 7, if KMD processes a call to the **DxgkDdiGetStandardAllocationDriverData** function to create allocations for GDI hardware acceleration, the driver should set the pitch of the allocation for CPU visible allocations, **pGetStandardAllocationDriverData->pCreateGdiSurfaceData->Pitch**.
 
 **DxgkDdiGetStandardAllocationDriverData** should be made pageable.
 

@@ -44,8 +44,8 @@ The memory allocated for this parameter is managed by PoFx, and the driver shoul
 
 | Return code | Description |
 | --- | --- |
-| ****STATUS_NOT_IMPLEMENTED**** | The *Flags* parameter does not include the **PO_FX_FLAG_PERF_PEP_OPTIONAL** flag and the PEP is not able to provide performance state management for this device. |
-| ****STATUS_INVALID_PARAMETER**** | Both *InputStateInfo* and *OutputStateInfo* are NULL or both of these parameters are not NULL, or there are no performance state sets in the [PO_FX_COMPONENT_PERF_INFO](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_info) structure that was assigned to the *InputStateInfo* parameter. |
+| **STATUS_NOT_IMPLEMENTED** | The *Flags* parameter does not include the **PO_FX_FLAG_PERF_PEP_OPTIONAL** flag and the PEP is not able to provide performance state management for this device. |
+| **STATUS_INVALID_PARAMETER** | Both *InputStateInfo* and *OutputStateInfo* are NULL or both of these parameters are not NULL, or there are no performance state sets in the [PO_FX_COMPONENT_PERF_INFO](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_perf_info) structure that was assigned to the *InputStateInfo* parameter. |
 
 ## Remarks
 

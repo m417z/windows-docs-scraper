@@ -54,4 +54,4 @@ Currently, bytes per sector is the only property available in **EHSTOR_DEVICE_PR
 
 ## See also
 
-[SILO_DRIVER_CAPABILITES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state)
+[SILO_DRIVER_CAPABILITIES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_silo_driver_capabilities)

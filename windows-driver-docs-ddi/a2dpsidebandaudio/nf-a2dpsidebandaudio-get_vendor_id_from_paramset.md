@@ -36,4 +36,4 @@ A parameter set. (Additional Information Pending)
 
 [A2DPSidebandAudio](https://learn.microsoft.com/windows-hardware/drivers/ddi/a2dpsidebandaudio/)
 
-[SET_VENDOR_ID_FROM_PARAMSET](https://learn.microsoft.com/windows-hardware/drivers/ddi/a2dpsidebandaudio/nf-a2dpsidebandaudio-set_vendor_id_to_paramset)
+[SET_VENDOR_ID_TO_PARAMSET](https://learn.microsoft.com/windows-hardware/drivers/ddi/a2dpsidebandaudio/nf-a2dpsidebandaudio-set_vendor_id_to_paramset)

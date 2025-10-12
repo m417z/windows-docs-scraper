@@ -35,7 +35,7 @@ Indicates the number of bytes of data transferred for the SRB. This member is no
 
 ## Remarks
 
-When the miniport driver receives an SRB in which the **Function** member is set to SRB_FUNCTION_WMI, it calls [**ScsiPortWmiDispatchFunction**](https://learn.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction) with request parameters, including a pointer to a request context. **ScsiPortWmiDispatchFunction** passes the request context to the miniport driver's appropriate **HwScsiWmi*****Xxx*** routine.
+When the miniport driver receives an SRB in which the **Function** member is set to SRB_FUNCTION_WMI, it calls [**ScsiPortWmiDispatchFunction**](https://learn.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction) with request parameters, including a pointer to a request context. **ScsiPortWmiDispatchFunction** passes the request context to the miniport driver's appropriate **HwScsiWmi*Xxx*** routine.
 
 When the miniport driver is done processing the SRB and prior to completing the SRB, the miniport driver should call [**ScsiPortWmiPostProcess**](https://learn.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmipostprocess) to update the **ReturnStatus** and **ReturnSize** members of the request context. The miniport driver updates the SRB's data transfer length and status to these values by calling [**ScsiPortWmiGetReturnSize**](https://learn.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmigetreturnsize) and [**ScsiPortWmiGetReturnStatus**](https://learn.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmigetreturnstatus). respectively.
 

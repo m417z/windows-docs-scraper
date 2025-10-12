@@ -28,4 +28,4 @@ This function works on all versions of Windows, not just the latest. You need to
 
 [**ReadUShortFromUser**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usermode_accessors/nf-usermode_accessors-readushortfromuser)
 
-[**WriteUShortToUserMode**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usermode_accessors/nf-usermode_accessors-writeushorttomode)
+[**WriteUShortToMode**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usermode_accessors/nf-usermode_accessors-writeushorttomode)

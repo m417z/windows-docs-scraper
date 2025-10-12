@@ -36,7 +36,7 @@ receive queue.
 ## Remarks
 
 The **NDIS_RECEIVE_QUEUE_STATE** structure is used in the
-[NDIS_STATUS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state) status indication.
+[NDIS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state) status indication.
 
 ## See also
 
@@ -44,4 +44,4 @@ The **NDIS_RECEIVE_QUEUE_STATE** structure is used in the
 
 [NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state)
 
-[NDIS_STATUS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state)
+[NDIS_RECEIVE_QUEUE_STATE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state)

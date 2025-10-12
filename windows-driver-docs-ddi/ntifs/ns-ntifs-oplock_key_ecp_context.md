@@ -1,6 +1,6 @@
 ## Description
 
-The **OPLOCK_KEY_ECP_CONTEXT** structure is used to attach an oplock key to a file. This structure is obsolete for Windows 8 and later versions; filters should instead use [DUAL_OP_LOCK_KEY_ECP_CONTEXT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-dual_oplock_key_ecp_context).
+The **OPLOCK_KEY_ECP_CONTEXT** structure is used to attach an oplock key to a file. This structure is obsolete for Windows 8 and later versions; filters should instead use [DUAL_OPLOCK_KEY_ECP_CONTEXT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-dual_oplock_key_ecp_context).
 
 ## Members
 
@@ -28,6 +28,6 @@ For more information about oplocks and oplock keys, see [Oplock Semantics Overvi
 
 ## See also
 
-[DUAL_OP_LOCK_KEY_ECP_CONTEXT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-dual_oplock_key_ecp_context)
+[DUAL_OPLOCK_KEY_ECP_CONTEXT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-dual_oplock_key_ecp_context)
 
 [**IoCreateFileEx**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex)

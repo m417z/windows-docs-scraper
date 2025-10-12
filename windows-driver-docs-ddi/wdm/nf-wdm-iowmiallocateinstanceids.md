@@ -34,4 +34,4 @@ If greater than one instance was requested in *InstanceCount* and the routine co
 
 ## See also
 
-[IoWmiSuggestInstanceName](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisuggestinstancename)
+[IoWMISuggestInstanceName](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisuggestinstancename)

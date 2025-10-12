@@ -46,7 +46,7 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## See also
 
-[,](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_move_medium)
+[IOCTL_CHANGER_MOVE_MEDIUM](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_move_medium)
 
 [CHANGER_ELEMENT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element)
 

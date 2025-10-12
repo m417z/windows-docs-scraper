@@ -16,8 +16,8 @@ A pointer to an IRP.
 
 | Return code | Description |
 | --- | --- |
-| ****TRUE**** | The specified IRP did cause the system to wake. |
-| ****FALSE**** | The specified IRP did not cause the system to wake. |
+| **TRUE** | The specified IRP did cause the system to wake. |
+| **FALSE** | The specified IRP did not cause the system to wake. |
 
 ## Remarks
 

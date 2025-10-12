@@ -42,7 +42,7 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## See also
 
-[, IOCTL_CHANGER_REINITIALIZE_TRANSPORT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_reinitialize_transport)
+[IOCTL_CHANGER_REINITIALIZE_TRANSPORT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_reinitialize_transport)
 
 [CHANGER_ELEMENT](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element)
 

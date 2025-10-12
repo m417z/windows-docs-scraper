@@ -6,7 +6,7 @@ The **AcxMicArrayGeometryAddMicrophoneCoordinates** function adds physical coord
 
 ### `MicArrayGeometry` [in]
 
-The ACXMICARRAYGEOMETRY Object to which the new coordinates are to be added. For more information about ACX objects, see [Summary of ACX Objects](https://learn.microsoft.com/windows-hardware/drivers/audio/acx-summary-of-objects).
+The ACX_MIC_ARRAY_GEOMETRY object to which the new coordinates are to be added. For more information about ACX objects, see [Summary of ACX Objects](https://learn.microsoft.com/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### `MicrophoneCoordinates` [in]
 
@@ -30,6 +30,6 @@ For more information about ACX versions, see [ACX version overview](https://lear
 
 ## See also
 
-- [ACXMICARRAYGEOMETRY](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_mic_array_geometry)
+- [ACX_MIC_ARRAY_GEOMETRY](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_mic_array_geometry)
 - [ACX_MICROPHONE_COORDINATES](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_microphone_coordinates)
 - [acxpin.h header](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/)

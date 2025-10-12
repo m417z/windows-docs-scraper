@@ -104,7 +104,7 @@ A [WHEA_GENERIC_ERROR_DESCRIPTOR](https://learn.microsoft.com/windows-hardware/d
 
 ### `Info.GenErrDescriptorV2`
 
-A [WHEA_DEVICE_DRIVER_DESCRIPTOR_V2](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-whea_generic_error_descriptor_v2) structure.
+A [WHEA_GENERIC_ERROR_DESCRIPTOR_V2](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-whea_generic_error_descriptor_v2) structure.
 
 ### `Info.DeviceDriverDescriptor`
 

@@ -146,7 +146,7 @@ drivers receive status indications at the
 
 [NDIS_TAPI_EVENT](https://learn.microsoft.com/previous-versions/windows/hardware/network/ff558986(v=vs.85))
 
-[NdisFindicateStatus](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus)
+[NdisFIndicateStatus](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus)
 
 [NdisMIndicateStatusEx](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex)
 

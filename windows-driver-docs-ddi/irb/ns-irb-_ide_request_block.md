@@ -147,7 +147,7 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the [SCSI_RE
 
 ## See also
 
-[AtaportDeviceBusy](https://learn.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy)
+[AtaPortDeviceBusy](https://learn.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy)
 
 [IDE_TASK_FILE](https://learn.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_task_file)
 

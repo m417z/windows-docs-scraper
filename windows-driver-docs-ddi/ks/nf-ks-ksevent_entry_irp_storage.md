@@ -6,7 +6,7 @@ This macro retrieves a pointer to the [**KSEVENT_ENTRY**](https://learn.microsof
 
 ### `Irp`
 
-Contains a pointer to a KSEVENT_ENT****RY structure.
+Contains a pointer to a **KSEVENT_ENTRY** structure.
 
 ## Remarks
 

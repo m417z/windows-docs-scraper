@@ -104,7 +104,7 @@ The RDBSS dispatch routine will also fail any requests for the following I/O req
 * IRP_MJ_CREATE_MAILSLOT
 * IRP_MJ_CREATE_NAMED_PIPE
 
-The network mini-redirector **MrxStart** routine is called by RDBSS when the **RxStartMiniRdr** routine is called. The RDBSS **RxStartMinirdr** is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to **RxStartMinirdr** cannot be made from the **DriverEntry** routine of the network mini-redirector after a successful call to **RxRegisterMinirdr** because some of the start processing requires that the driver initialization be completed. Once the **RxStartMinirdr** call is received, RDBSS completes the start process by calling the **MrxStart** routine of the network mini-redirector. If the call to **MrxStart** returns success, RDBSS sets the internal state of the mini-redirector in RDBSS to RDBSS_STARTED.
+The network mini-redirector **MrxStart** routine is called by RDBSS when the **RxStartMinirdr** routine is called. The RDBSS **RxStartMinirdr** is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to **RxStartMinirdr** cannot be made from the **DriverEntry** routine of the network mini-redirector after a successful call to **RxRegisterMinirdr** because some of the start processing requires that the driver initialization be completed. Once the **RxStartMinirdr** call is received, RDBSS completes the start process by calling the **MrxStart** routine of the network mini-redirector. If the call to **MrxStart** returns success, RDBSS sets the internal state of the mini-redirector in RDBSS to RDBSS_STARTED.
 
 ## See also
 

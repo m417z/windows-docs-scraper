@@ -10,7 +10,7 @@ The length, in bytes, of this structure.
 
 ### `EvtAcxPeakMeterRetrieveLevel`
 
-The [ACX_PEAKMETER_RETRIEVE_LEVEL](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_peakmeter_retrieve_level) callback.
+The [EVT_ACX_PEAKMETER_RETRIEVE_LEVEL](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_peakmeter_retrieve_level) callback.
 
 ### `EvtAcxPeakMeterProcessRequest`
 

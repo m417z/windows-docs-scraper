@@ -83,7 +83,7 @@ PVOID AllocateAlignedBuffer(ULONG size, ULONG AlignmentMask, PVOID *pUnAlignedBu
 }
 ```
 
-In order to issue an **IOCTL_SCSI_PASS_THROUGH_DIRECT_EX** request, the underlying storage device must support extended SRBs. This means that the supported SRB type is **SRB_TYPE_STORAGE_REQUEST_BLOCK**. An application can query for SRB support with the **IOCTL_STORAGE_QUERY_PROPERTY** request with a query type of **PropertyStandardQuery** and a property type of **StorageDeviceProperty**. The **SrbType** member returned in the [STORAGE_ADAPTER_DESCRIPTIOR](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_adapter_descriptor) structure will indicate either **SRB_TYPE_SCSI_REQUEST_BLOCK** or **SRB_TYPE_STORAGE_REQUEST_BLOCK**.
+In order to issue an **IOCTL_SCSI_PASS_THROUGH_DIRECT_EX** request, the underlying storage device must support extended SRBs. This means that the supported SRB type is **SRB_TYPE_STORAGE_REQUEST_BLOCK**. An application can query for SRB support with the **IOCTL_STORAGE_QUERY_PROPERTY** request with a query type of **PropertyStandardQuery** and a property type of **StorageDeviceProperty**. The **SrbType** member returned in the [STORAGE_ADAPTER_DESCRIPTOR](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_adapter_descriptor) structure will indicate either **SRB_TYPE_SCSI_REQUEST_BLOCK** or **SRB_TYPE_STORAGE_REQUEST_BLOCK**.
 
 ## See also
 

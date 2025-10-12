@@ -18,7 +18,7 @@ An NMVe miniport driver calls the **StorPortNvmeLogTelemetry** function to log t
 
 ### `Event`
 
-[in] Pointer to a [**STORPORT_TELEMTRY_EVENT**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event) structure that contains standard event fields and miniport payload data.
+[in] Pointer to a [**STORPORT_TELEMETRY_EVENT**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event) structure that contains standard event fields and miniport payload data.
 
 ### `Category`
 
@@ -43,4 +43,4 @@ An NVMe miniport can call this function to log a tracelogging measures event wit
 
 [**STOR_TELEMETRY_CATEGORY**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ne-storport-_stor_telemetry_category)
 
-[**STORPORT_TELEMTRY_EVENT**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event)
+[**STORPORT_TELEMETRY_EVENT**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event)

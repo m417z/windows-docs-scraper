@@ -12,7 +12,7 @@ A pointer to the miniport driver per-adapter device extension.
 
 ### `SpinLock` [in]
 
-Specifies an enumerator value of type [**STOR_SPINLOCK**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ne-storport-_stor_spinlock) that specifies the spin lock to acquire. For this function, **SpinLock** must be one of: **DpcLock**, **StartIoLock**, or **InterruptLock**. Call [**StorportAcquireSpinLockEx**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlockex) to acquire other types of spin locks.
+Specifies an enumerator value of type [**STOR_SPINLOCK**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ne-storport-_stor_spinlock) that specifies the spin lock to acquire. For this function, **SpinLock** must be one of: **DpcLock**, **StartIoLock**, or **InterruptLock**. Call [**StorPortAcquireSpinLockEx**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlockex) to acquire other types of spin locks.
 
 ### `LockContext` [in]
 

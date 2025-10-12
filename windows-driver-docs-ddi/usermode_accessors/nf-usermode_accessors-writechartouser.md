@@ -28,4 +28,4 @@ This function works on all versions of Windows, not just the latest. You need to
 
 [**ReadCharFromUser**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usermode_accessors/nf-usermode_accessors-readcharfromuser)
 
-[**WriteCharToUserMode**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usermode_accessors/nf-usermode_accessors-writechartomode)
+[**WriteCharToMode**](https://learn.microsoft.com/windows-hardware/drivers/ddi/usermode_accessors/nf-usermode_accessors-writechartomode)

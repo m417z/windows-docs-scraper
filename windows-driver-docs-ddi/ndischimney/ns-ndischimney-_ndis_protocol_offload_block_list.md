@@ -392,7 +392,7 @@ structure (or structures) that follow the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST struc
 
 [NdisMAllocatePort](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport)
 
-[NdisQueryOffload](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate)
+[NdisQueryOffloadState](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate)
 
 [NdisTerminateOffload](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisterminateoffload)
 

@@ -12,11 +12,11 @@ Address of a ACXSTREAM_INIT object used to define the stream initialization para
 
 An [ACX_STREAM_CALLBACKS structure](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxstreams/ns-acxstreams-acx_stream_callbacks) that is used to define the following callbacks.
 
-- PFN_ACX_STREAM_PREPARE_HARDWARE
-- PFN_ACX_STREAM_RELEASE_HARDWARE
-- PFN_ACX_STREAM_RUN
-- PFN_ACX_STREAM_PAUSE
-- PFN_ACX_STREAM_ASSIGN_DRM_CONTENT_ID
+- EVT_ACX_STREAM_PREPARE_HARDWARE
+- EVT_ACX_STREAM_RELEASE_HARDWARE
+- EVT_ACX_STREAM_RUN
+- EVT_ACX_STREAM_PAUSE
+- EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID
 
 ## Return value
 

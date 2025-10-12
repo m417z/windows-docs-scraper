@@ -1,6 +1,6 @@
 ## Description
 
-The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACXMICARRAYGEOMETRY](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_mic_array_geometry) object.
+The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACX_MIC_ARRAY_GEOMETRY](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_mic_array_geometry) object.
 
 ## Parameters
 
@@ -10,15 +10,15 @@ The ACXCIRCUIT object to which the mic array geometry will be added. For more in
 
 ### `Attributes` [in]
 
-Pointer to a [WDF_OBJECT_ATTRIBUTES](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure to use when initializing the new **ACXMICARRAYGEOMETRY** structure.
+Pointer to a [WDF_OBJECT_ATTRIBUTES](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure to use when initializing the new **ACX_MIC_ARRAY_GEOMETRY** structure.
 
 ### `Config` [in]
 
-Pointer to an [ACX_MICARRAYGEOMETRY_CONFIG](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_micarraygeometry_config) structure to use when initializing the new **ACXMICARRAYGEOMETRY** structure.
+Pointer to an [ACX_MICARRAYGEOMETRY_CONFIG](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_micarraygeometry_config) structure to use when initializing the new **ACX_MIC_ARRAY_GEOMETRY** structure.
 
 ### `MicArrayGeometry` [out]
 
-Pointer to the newly created **ACXMICARRAYGEOMETRY** structure.
+Pointer to the newly created **ACX_MIC_ARRAY_GEOMETRY** structure.
 
 ## Return value
 
@@ -36,7 +36,7 @@ For more information about ACX versions, see [ACX version overview](https://lear
 
 ## See also
 
-- [ACXMICARRAYGEOMETRY](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_mic_array_geometry)
+- [ACX_MIC_ARRAY_GEOMETRY](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_mic_array_geometry)
 - [WDF_OBJECT_ATTRIBUTES](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes)
 - [ACX_MICARRAYGEOMETRY_CONFIG](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_micarraygeometry_config)
 - [ACX_MICARRAYGEOMETRY_CONFIG_INIT](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/nf-acxpin-acx_micarraygeometry_config_init)

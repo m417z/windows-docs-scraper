@@ -6,7 +6,7 @@ The **ACX_REQUEST_PARAMETERS_INIT** function initializes an ACX_REQUEST_PARAMETE
 
 ### `Parameters`
 
-An [ACX_REQUEST_PARAMETERS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxrequest/nf-acxrequest-acxrequestgetparameters) structure that stores the ACX/KS operation parameters.
+An [ACX_REQUEST_PARAMETERS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_request_parameters) structure that stores the ACX/KS operation parameters.
 
 ## Remarks
 

@@ -28,7 +28,7 @@ A pointer to a data buffer. Specify if generating a data event.
 
 ### `CallBack` [in, optional]
 
-A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used). For more information, see the Remarks section below.
+A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet* and *EventId* are used). For more information, see the Remarks section below.
 
 ### `CallBackContext` [in, optional]
 

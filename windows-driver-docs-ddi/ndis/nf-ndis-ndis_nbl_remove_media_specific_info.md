@@ -23,7 +23,7 @@ Any NDIS 6.0 or 6.1 driver can use **NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO** to re
 
 ## See also
 
-[**NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndis_nbl_get_media_specific_info_ex)
+[**NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndis_nbl_remove_media_specific_info_ex)
 
 [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_media_specific_information)
 

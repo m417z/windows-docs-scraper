@@ -2,7 +2,7 @@
 
 ## Description
 
-The NFC_CX_LLCP_CONFIG structure is an input parameter to [NfcCxSetLlcpConfig.](https://learn.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxsetllcpconfig)
+The NFC_CX_LLCP_CONFIG structure is an input parameter to [NfcCxSetLlcpConfig](https://learn.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxsetllcpconfig).
 
 ## Members
 

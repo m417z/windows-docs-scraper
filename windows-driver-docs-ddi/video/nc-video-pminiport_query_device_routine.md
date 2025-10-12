@@ -20,13 +20,13 @@ Specifies the type of configuration information that was requested, which is one
 
 **VpBusData**
 
-****VpCmosData****
+**VpCmosData**
 
-****VpControllerData****
+**VpControllerData**
 
-****VpMachineData****
+**VpMachineData**
 
-****VpMonitorData****
+**VpMonitorData**
 
 Miniport drivers of x86-type video adapters usually specify **VpBusData**, particularly for adapters on EISA buses. The **VpControllerData** and **VpMonitorData** values have meaning only on ARC-compliant platforms. The **VpCmosData** and **VpMachineData** values are seldom used.
 

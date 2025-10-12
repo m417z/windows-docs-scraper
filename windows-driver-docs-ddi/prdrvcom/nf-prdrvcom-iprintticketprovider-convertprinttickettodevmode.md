@@ -1,6 +1,6 @@
 ## Description
 
-The **IPrintTicketProvider::ConvertPrintTicketToDevMode** method converts a print ticket to a ****DEVMODEW**** structure.
+The **IPrintTicketProvider::ConvertPrintTicketToDevMode** method converts a print ticket to a **DEVMODEW** structure.
 
 ## Parameters
 

@@ -6,7 +6,7 @@ This callback function allocates the memory for a common buffer and maps it so t
 
 ### `DmaAdapter` [in]
 
-A pointer to a DMA_ADAPTER structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the [**IoGetDmaAdapter**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) routine.
+A pointer to a [**DMA_ADAPTER**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter) structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the [**IoGetDmaAdapter**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) routine.
 
 ### `MinimumAddress` [in, optional]
 
@@ -31,6 +31,8 @@ The size, in bytes, of the common buffer that is to be allocated for the DMA ope
 ### `CacheType` [in, optional]
 
 A pointer to a [**MEMORY_CACHING_TYPE**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type) enumeration indicating whether the routine must enable or disable cached memory in the common buffer that is to be allocated. Only values of **MmNonCached** and **MmCached** are supported. The parameter is optional and can be specified as NULL to specify the caching will be dependent upon the hardware platform default.
+
+If a caller provides an override value of **MmCached** on an adapter that is not cache-coherent, they are responsible for flushing the contents of the cache. If unsure, a caller should always provide NULL.
 
 ### `PreferredNode` [in]
 

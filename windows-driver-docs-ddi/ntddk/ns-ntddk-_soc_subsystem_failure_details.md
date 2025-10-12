@@ -14,7 +14,7 @@ this structure.
 
 ### `SubsysType`
 
-A value in the [SOC_SYBSYSTEM_TYPE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_soc_subsystem_type) enumeration or a vendor-defined subsystem type. Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors.
+A value in the [SOC_SUBSYSTEM_TYPE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_soc_subsystem_type) enumeration or a vendor-defined subsystem type. Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors.
 
 ### `FirmwareVersion`
 

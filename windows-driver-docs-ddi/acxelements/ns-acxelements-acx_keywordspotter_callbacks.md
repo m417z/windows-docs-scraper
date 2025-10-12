@@ -10,19 +10,19 @@ The length, in bytes, of this callbacks structure.
 
 ### `EvtAcxKeywordSpotterRetrieveArm`
 
-The [ACX_KEYWORDSPOTTER_RETRIEVE_ARM](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_retrieve_arm) callback.
+The [EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_retrieve_arm) callback.
 
 ### `EvtAcxKeywordSpotterAssignArm`
 
-The [ACX_KEYWORDSPOTTER_ASSIGN_ARM](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_assign_arm) callback.
+The [EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_assign_arm) callback.
 
 ### `EvtAcxKeywordSpotterAssignPatterns`
 
-The [ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_assign_patterns) callback.
+The [EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_assign_patterns) callback.
 
 ### `EvtAcxKeywordSpotterAssignReset`
 
-The [ACX_KEYWORDSPOTTER_ASSIGN_RESET](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_assign_reset) callback.
+The [EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxelements/nc-acxelements-evt_acx_keywordspotter_assign_reset) callback.
 
 ## Remarks
 

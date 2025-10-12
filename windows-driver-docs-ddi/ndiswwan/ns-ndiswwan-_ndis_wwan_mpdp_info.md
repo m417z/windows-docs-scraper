@@ -8,7 +8,7 @@ The **NDIS_WWAN_MPDP_INFO** structure contains information for an operation to p
 
 ### `Operation`
 
-An [**NDIS_WWAN_MPDP_OPERATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ne-ndiswwan-_wwan_mpdp_operation) value that specifies the operation to perform.
+An [**WWAN_MPDP_OPERATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ne-ndiswwan-_wwan_mpdp_operation) value that specifies the operation to perform.
 
 ### `ChildInterfaceGUID`
 
@@ -24,7 +24,7 @@ This structure is a member of both the [**NDIS_WWAN_SET_MPDP_STATE**](https://le
 
 ## See also
 
-[**NDIS_WWAN_MPDP_OPERATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ne-ndiswwan-_wwan_mpdp_operation)
+[**WWAN_MPDP_OPERATION**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ne-ndiswwan-_wwan_mpdp_operation)
 
 [**NDIS_WWAN_SET_MPDP_STATE**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_mpdp_state)
 

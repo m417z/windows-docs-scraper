@@ -52,7 +52,7 @@ Specifies, if **TRUE**, that the button usage or usage range provides absolute d
 
 ### `ReportCount`
 
-HID defined report count. Available starting with API version 2.0. Call the [HIDP_GetVersion](https://learn.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getversion) function to get the API version.
+HID defined report count. Available starting with API version 2.0. Call the [HidP_GetVersion](https://learn.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getversion) function to get the API version.
 
 ### `Reserved2`
 

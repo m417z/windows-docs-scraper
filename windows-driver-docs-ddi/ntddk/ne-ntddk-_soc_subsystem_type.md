@@ -2,7 +2,7 @@
 
 ## Description
 
-The **SOC_SYBSYSTEM_TYPE** enumeration defines different types of System on a Chip (SoC) subsystems.
+The **SOC_SUBSYSTEM_TYPE** enumeration defines different types of System on a Chip (SoC) subsystems.
 
 The **SybsysType** member of the [SOC_SUBSYSTEM_FAILURE_DETAILS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_soc_subsystem_failure_details) structure is a value from this enumeration. The **SOC_SUBSYSTEM_FAILURE_DETAILS** structure is used by these bug codes:
 

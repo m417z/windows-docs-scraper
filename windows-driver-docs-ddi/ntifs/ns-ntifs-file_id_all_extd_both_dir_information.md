@@ -85,7 +85,7 @@ Specifies the first character of the file name string. This is followed in memor
 
 This information can be queried in either of the following ways:
 
-* Call [**ZwQueryDirectoryFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvirtualmemory), passing **FileIdAllExtdBothDirectoryInformation** as the value of [**FileInformationClass**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) and passing a caller-allocated, **FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION**-structured buffer as the value of **FileInformation**.
+* Call [**ZwQueryDirectoryFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwquerydirectoryfile), passing **FileIdAllExtdBothDirectoryInformation** as the value of [**FileInformationClass**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) and passing a caller-allocated, **FILE_ID_ALL_EXTD_BOTH_DIR_INFORMATION**-structured buffer as the value of **FileInformation**.
 
 * Create an IRP with major function code [IRP_MJ_DIRECTORY_CONTROL](https://learn.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control) and minor function code IRP_MN_QUERY_DIRECTORY.
 
@@ -105,4 +105,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 [IRP_MJ_DIRECTORY_CONTROL](https://learn.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[**ZwQueryDirectoryFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvirtualmemory)
+[**ZwQueryDirectoryFile**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwquerydirectoryfile)

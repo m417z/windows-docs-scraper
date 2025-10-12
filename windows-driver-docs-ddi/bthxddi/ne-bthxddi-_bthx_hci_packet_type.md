@@ -20,10 +20,10 @@ The packet represents an event.
 
 ## Remarks
 
-The IOCTL_BTHX_HCI_READ and IOCTL_BTHX_HCI_WRITE IOCTLs are used to read/write data to/from the transport driver. The BTHX_HCI_PACKET_TYPE enumeration is used to specify with which type of packet the read/write is associated.
+The IOCTL_BTHX_READ_HCI and IOCTL_BTHX_WRITE_HCI IOCTLs are used to read/write data to/from the transport driver. The BTHX_HCI_PACKET_TYPE enumeration is used to specify with which type of packet the read/write is associated.
 
 ## See also
 
-[IOCTL_BTHX_HCI_READ](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci)
+[IOCTL_BTHX_READ_HCI](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci)
 
-[IOCTL_BTHX_HCI_WRITE](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci)
+[IOCTL_BTHX_WRITE_HCI](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci)

@@ -11,7 +11,7 @@ identified by a TAPI Call ID string.
 
 Unicode string that identifies a particular VC. This string is the Unicode version of a string
 identifier that was previously returned by the
-[NdisCoGetTapiCallID](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscogettapicallid) function.
+[NdisCoGetTapiCallId](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscogettapicallid) function.
 
 ### `ProtocolVcContext` [out]
 

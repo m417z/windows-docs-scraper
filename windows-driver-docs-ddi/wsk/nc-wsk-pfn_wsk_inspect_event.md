@@ -44,9 +44,9 @@ values:
 
 | Return code | Description |
 | --- | --- |
-| ****WskInspectAccept**** | The incoming connection request is accepted. |
-| ****WskInspectReject**** | The incoming connection request is rejected. |
-| ****WskInspectPend**** | The WSK application could not determine if the incoming connection request should be accepted or rejected immediately. |
+| **WskInspectAccept** | The incoming connection request is accepted. |
+| **WskInspectReject** | The incoming connection request is rejected. |
+| **WskInspectPend** | The WSK application could not determine if the incoming connection request should be accepted or rejected immediately. |
 
 ## Remarks
 

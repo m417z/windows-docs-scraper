@@ -12,7 +12,7 @@ Pointer to the thread context received in a prior call to [**StorPortCreateSyste
 
 ### `PreviousAffinity` [in]
 
-Pointer to a [**STOR_GROUP_AFFINITY**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-stor_group_affinity) structure with the group affinity to restore. This group affinity was obtained in a prior call to [**StorPortSetSystemGroupAffinityThread**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetprioritythread).
+Pointer to a [**STOR_GROUP_AFFINITY**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-stor_group_affinity) structure with the group affinity to restore. This group affinity was obtained in a prior call to [**StorPortSetSystemGroupAffinityThread**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetsystemgroupaffinitythread).
 
 ## Return value
 

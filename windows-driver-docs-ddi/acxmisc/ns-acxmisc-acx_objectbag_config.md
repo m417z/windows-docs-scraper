@@ -10,7 +10,7 @@ The length, in bytes, of this structure.
 
 ### `Flags`
 
-Bitwise OR of [ACX_OBJECTBAG_FLAGS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxmisc/ne-acxmisc-acx_objectbag_config_flags) that is used to configure the object bag.
+Bitwise OR of [ACX_OBJECTBAG_CONFIG_FLAGS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxmisc/ne-acxmisc-acx_objectbag_config_flags) that is used to configure the object bag.
 
 ### `ParentKey`
 

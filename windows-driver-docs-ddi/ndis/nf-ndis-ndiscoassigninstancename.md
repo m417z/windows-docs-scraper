@@ -82,7 +82,7 @@ buffer with
 
 [NdisCoCreateVc](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc)
 
-[NdisCoDeleteVC](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc)
+[NdisCoDeleteVc](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc)
 
 [NdisFreeString](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreestring)
 

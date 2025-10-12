@@ -38,6 +38,6 @@ A file cannot be truncated (and **MmCanFileBeTruncated** will return FALSE) if a
 
 [**CcPurgeCacheSection**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection)
 
-[**CcSetFileSizesEx**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccoherencyflushandpurgecache)
+[**CcSetFileSizesEx**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetfilesizesex)
 
 [**MmFlushImageSection**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection)

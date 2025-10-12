@@ -31,6 +31,6 @@ Callers of this routine must be running at IRQL <= APC_LEVEL, with one exception
 
 ## See also
 
-[IoWmiDeviceObjectToProviderId](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmideviceobjecttoproviderid)
+[IoWMIDeviceObjectToProviderId](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmideviceobjecttoproviderid)
 
 [WNODE_EVENT_ITEM](https://learn.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item)

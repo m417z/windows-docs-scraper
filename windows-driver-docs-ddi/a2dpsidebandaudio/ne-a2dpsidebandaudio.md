@@ -27,6 +27,6 @@ Also, see A2DP 1.3.1 section 4.2.5 and section 4.7.2 for additional information.
 
 [A2DPSidebandAudio](https://learn.microsoft.com/windows-hardware/drivers/ddi/a2dpsidebandaudio/)
 
-[SET_VENDOR_ID_FROM_PARAMSET](https://learn.microsoft.com/windows-hardware/drivers/ddi/a2dpsidebandaudio/nf-a2dpsidebandaudio-set_vendor_id_to_paramset)
+[SET_VENDOR_ID_TO_PARAMSET](https://learn.microsoft.com/windows-hardware/drivers/ddi/a2dpsidebandaudio/nf-a2dpsidebandaudio-set_vendor_id_to_paramset)
 
 [GET_VENDOR_ID_FROM_PARAMSET](https://learn.microsoft.com/windows-hardware/drivers/ddi/a2dpsidebandaudio/nf-a2dpsidebandaudio-get_vendor_id_from_paramset)

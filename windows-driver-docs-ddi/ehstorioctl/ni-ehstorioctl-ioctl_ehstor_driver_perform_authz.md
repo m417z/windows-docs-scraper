@@ -49,7 +49,7 @@ STATUS_SUCCESS is returned in the **Status** field by the silo driver if the aut
 
 ## Remarks
 
-This IOCTL is sent by EHSTOR to a silo driver that supports on-demand authentication. The silo driver notifies EHSTOR of this capability in a prior [IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities) request with the **CAP_ON_DEMAND_AUTHENTICATION** flag set in the **Capabilities** member of [SILO_DRIVER_CAPABILITES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state).
+This IOCTL is sent by EHSTOR to a silo driver that supports on-demand authentication. The silo driver notifies EHSTOR of this capability in a prior [IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities) request with the **CAP_ON_DEMAND_AUTHENTICATION** flag set in the **Capabilities** member of [SILO_DRIVER_CAPABILITIES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_silo_driver_capabilities).
 
 In response to this IOCTL, the silo driver performs authentication or deauthentication for the device. For banded devices, the silo driver will, depending on the specified operation in the system buffer, unlock or lock as many bands as possible for reads and writes.
 
@@ -63,4 +63,4 @@ If a device supports multiple silos, authentication by each silo is exclusive. A
 
 [IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities)
 
-[SILO_DRIVER_CAPABILITES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state)
+[SILO_DRIVER_CAPABILITIES](https://learn.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_silo_driver_capabilities)

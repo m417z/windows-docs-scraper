@@ -23,4 +23,4 @@ The **NdisIMDeregisterLayeredMiniport** function is the reciprocal of **NdisIMRe
 
 ## See also
 
-- [**NdisDeregisterProtocolNdisIMRegisterLayeredMiniport**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisimregisterlayeredminiport)
+- [**NdisIMRegisterLayeredMiniport**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisimregisterlayeredminiport)

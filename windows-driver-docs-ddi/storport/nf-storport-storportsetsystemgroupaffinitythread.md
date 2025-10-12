@@ -56,7 +56,7 @@ If **StorPortSetSystemGroupAffinityThread** is called at IRQL <= APC_LEVEL and t
 
 ## See also
 
-[**KeSetSystemGroupAffinityThread **](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemgroupaffinitythread)
+[**KeSetSystemGroupAffinityThread**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemgroupaffinitythread)
 
 [**STOR_GROUP_AFFINITY**](https://learn.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-stor_group_affinity)
 

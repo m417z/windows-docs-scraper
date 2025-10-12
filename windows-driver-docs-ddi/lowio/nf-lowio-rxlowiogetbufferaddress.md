@@ -12,7 +12,7 @@ A pointer to the RX_CONTEXT structure for this request.
 
 ## Return value
 
-**RxLowIoGetBufferAddress **returns a mapped address pointer on success or a **NULL** on failure.
+**RxLowIoGetBufferAddress** returns a mapped address pointer on success or a **NULL** on failure.
 
 ## Remarks
 

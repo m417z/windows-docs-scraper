@@ -57,13 +57,13 @@ function specified in the
 **IndicationCallback** member. The Bluetooth driver stack will decrease the reference count of the
 object when the profile driver
 [builds and sends](https://learn.microsoft.com/previous-versions/ff536657(v=vs.85)) a
-[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server) request.
+[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_unregister_server) request.
 
 ### `ServerHandle`
 
 Handle to the L2CAP server, if successfully returned. When the profile driver should no longer
 receive remote connect indications it should pass this handle to
-[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server).
+[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_unregister_server).
 
 ## Remarks
 
@@ -106,7 +106,7 @@ remote device.
 
 To stop receiving remote connection notifications, a profile driver should
 [build and send](https://learn.microsoft.com/previous-versions/ff536657(v=vs.85)) a
-[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server) request.
+[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_unregister_server) request.
 
 While this procedure allows a profile driver to accept incoming connection requests, it does not
 automatically advertise a service using SDP. To advertise a service using SDP, a profile driver must
@@ -120,7 +120,7 @@ Servers](https://learn.microsoft.com/previous-versions/ff536671(v=vs.85)).
 
 [BRB_L2CA_REGISTER_SERVER](https://learn.microsoft.com/previous-versions/ff536618(v=vs.85))
 
-[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server)
+[BRB_L2CA_UNREGISTER_SERVER](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_unregister_server)
 
 [L2CAP Callback Function](https://learn.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback)
 

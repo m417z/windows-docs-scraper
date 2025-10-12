@@ -22,7 +22,7 @@
 
 The engine isn't considered resumed yet after [**DxgkDdiResetHwEngine**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resethwengine) is called, so even contexts that weren't invalidated aren't allowed to be submitted. The OS needs to re-enable interrupts from this engine and synchronize its state with the reset GPU engine. After that, the OS will enable interrupts and call **DxgkDdiResumeHwEngine**, which instructs the GPU engine to start scheduling all runnable contexts that weren't affected by the engine reset.
 
-Register your implementation of this callback function in the [**DRIVER_INITIALIZATION_DATA **](https://learn.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data) structure.
+Register your implementation of this callback function in the [**DRIVER_INITIALIZATION_DATA**](https://learn.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data) structure.
 
 ## See also
 

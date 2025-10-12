@@ -24,9 +24,9 @@ A pointer to a location into which the routine writes a handle that represents t
 
 | Return code | Description |
 | --- | --- |
-| ****STATUS_INVALID_PARAMETER**** | *Pdo* is NULL; or the **PPO_FX_DEVICE** structure has an invalid version number or a component count of zero; or the number of idle states specified for a component is zero; or the description of an idle state is invalid. |
-| ****STATUS_DEVICE_NOT_READY**** | The device is not ready. |
-| ****STATUS_INSUFFICIENT_RESOURCES**** | Insufficient resources are available to complete the registration. |
+| **STATUS_INVALID_PARAMETER** | *Pdo* is NULL; or the **PPO_FX_DEVICE** structure has an invalid version number or a component count of zero; or the number of idle states specified for a component is zero; or the description of an idle state is invalid. |
+| **STATUS_DEVICE_NOT_READY** | The device is not ready. |
+| **STATUS_INSUFFICIENT_RESOURCES** | Insufficient resources are available to complete the registration. |
 
 ## Remarks
 

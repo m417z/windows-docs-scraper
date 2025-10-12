@@ -7,7 +7,7 @@
 NDIS calls a protocol driver's or intermediate driver's
 *ProtocolQueryOffloadComplete* function to complete a query offload operation that the driver
 previously initiated by calling the
-[NdisQueryOffload](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate) function.
+[NdisQueryOffloadState](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate) function.
 
 ## Parameters
 
@@ -58,4 +58,4 @@ structure.
 
 [NdisOpenAdapterEx](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex)
 
-[NdisQueryOffload](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate)
+[NdisQueryOffloadState](https://learn.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate)

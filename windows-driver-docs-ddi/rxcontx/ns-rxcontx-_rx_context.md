@@ -501,7 +501,7 @@ An unused member of the **DosVolumeFunction** structure.
 
 ### `FlagsForLowIo`
 
-A set of [**RX_CONTENT_CREATE_FLAGS**](https://learn.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ne-rxcontx-rx_context_create_flags) set by RDBSS and passed to low I/O operations sent to the network mini-redirector. **FlagsForLowIo** is a member of an unnamed structure used for low I/O requests to the network mini-redirector.
+A set of [**RX_CONTEXT_CREATE_FLAGS**](https://learn.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ne-rxcontx-rx_context_create_flags) set by RDBSS and passed to low I/O operations sent to the network mini-redirector. **FlagsForLowIo** is a member of an unnamed structure used for low I/O requests to the network mini-redirector.
 
 ### `LowIoContext`
 

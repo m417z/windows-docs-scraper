@@ -38,7 +38,7 @@ A GUID value representing the name of the pin.
 
 ### `PinCallbacks`
 
-A pointer to an [ACX_PIN_CALLBACKS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/nf-acxpin-acx_pin_callbacks_init) structure that specifies the callback functions for the pin.
+A pointer to an [ACX_PIN_CALLBACKS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_pin_callbacks) structure that specifies the callback functions for the pin.
 
 ### `PropertiesCount`
 
@@ -84,5 +84,5 @@ For more information about ACX versions, see [ACX version overview](https://lear
 - [ACX_PIN_CONFIG_FLAGS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ne-acxpin-acx_pin_config_flags)
 - [ACX_PROPERTY_ITEM](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_property_item)
 - [ACX_METHOD_ITEM](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxrequest/ns-acxrequest-acx_method_item)
-- [ACX_PIN_CALLBACKS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/nf-acxpin-acx_pin_callbacks_init)
+- [ACX_PIN_CALLBACKS](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_pin_callbacks)
 - [acxpin.h header](https://learn.microsoft.com/windows-hardware/drivers/ddi/acxpin/)

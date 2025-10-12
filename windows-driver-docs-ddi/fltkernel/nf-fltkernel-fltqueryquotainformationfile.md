@@ -20,7 +20,7 @@ A caller-supplied **IO_STATUS_BLOCK** to receive the result of the call to **Flt
 
 ### `Buffer` [out]
 
-A pointer to a caller-supplied  [FILE_GET_QUOTA_INFORMATION](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information)-structured input buffer where the quota information values are to be returned.
+A pointer to a caller-supplied [FILE_GET_QUOTA_INFORMATION](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information)-structured input buffer where the quota information values are to be returned.
 
 ### `Length` [in]
 

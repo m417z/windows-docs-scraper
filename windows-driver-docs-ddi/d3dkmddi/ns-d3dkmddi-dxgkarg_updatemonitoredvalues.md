@@ -22,7 +22,7 @@
 
 ### `Flags`
 
-[in] A [**DXGKARG_UPDATEMONITOREDVALUES_FLAGS **](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-dxgkarg_updatemonitoredvalues_flags) value that specifies the flags for the update.
+[in] A [**DXGKARG_UPDATEMONITOREDVALUES_FLAGS**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-dxgkarg_updatemonitoredvalues_flags) value that specifies the flags for the update.
 
 ### `Reserved[28]`
 

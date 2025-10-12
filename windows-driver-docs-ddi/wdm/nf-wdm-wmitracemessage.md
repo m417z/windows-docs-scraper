@@ -60,7 +60,7 @@ A message will not be logged if one of the following is true:
 
 ## See also
 
-[IoWmiWriteEvent](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent)
+[IoWMIWriteEvent](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent)
 
 [TRACE_INFORMATION_CLASS](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class)
 

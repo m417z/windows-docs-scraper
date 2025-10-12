@@ -18,7 +18,7 @@ The client driver sends this request to determine general characteristics about 
 
 ### Input/output buffer
 
-The **AssociatedIrp.SystemBuffer** member is a pointer to a caller-allocated [USB_DEVICE_CHARACTERISTIC](https://learn.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_device_characteristics)S structure. On input, set **Version** to USB_DEVICE_CHARACTERISTICS_VERSION_1. On output **Version** is reset to a version less than or equal to USB_DEVICE_CHARACTERISTICS_VERSION_1; **UsbDeviceCharacteristicsFlags** is set to USB_DEVICE_CHARACTERISTICS_MAXIMUM_PATH_DELAYS_AVAILABLE and the remaining members of the structure is filled with delay information.
+The **AssociatedIrp.SystemBuffer** member is a pointer to a caller-allocated [USB_DEVICE_CHARACTERISTICS](https://learn.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_device_characteristics) structure. On input, set **Version** to USB_DEVICE_CHARACTERISTICS_VERSION_1. On output **Version** is reset to a version less than or equal to USB_DEVICE_CHARACTERISTICS_VERSION_1; **UsbDeviceCharacteristicsFlags** is set to USB_DEVICE_CHARACTERISTICS_MAXIMUM_PATH_DELAYS_AVAILABLE and the remaining members of the structure is filled with delay information.
 
 ### Input/output buffer length
 

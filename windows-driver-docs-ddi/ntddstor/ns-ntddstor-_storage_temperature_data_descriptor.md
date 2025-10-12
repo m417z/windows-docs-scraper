@@ -24,7 +24,7 @@ Indicates the maximum temperature in degrees Celsius at which the device is capa
 
 ### `InfoCount`
 
-Specifies the number of [**STORAGE_TEMPERATURE_INFO*](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info) structures reported in **TemperatureInfo**. More than one set of temperature data may be returned when there are multiple sensors in the drive.
+Specifies the number of [**STORAGE_TEMPERATURE_INFO**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info) structures reported in **TemperatureInfo**. More than one set of temperature data may be returned when there are multiple sensors in the drive.
 
 ### `Reserved0[2]`
 
@@ -36,14 +36,14 @@ Reserved for future use.
 
 ### `TemperatureInfo[ANYSIZE_ARRAY]`
 
-Device temperature data, of type [**STORAGE_TEMPERATURE_INFO*](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info).
+Device temperature data, of type [**STORAGE_TEMPERATURE_INFO**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info).
 
 ## See also
 
 [**IOCTL_STORAGE_QUERY_PROPERTY**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 
-[**STORAGE_PROPERTY_ID*](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id)
+[**STORAGE_PROPERTY_ID**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id)
 
-[**STORAGE_PROPERTY_QUERY*](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query)
+[**STORAGE_PROPERTY_QUERY**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_property_query)
 
-[**STORAGE_TEMPERATURE_INFO*](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info)
+[**STORAGE_TEMPERATURE_INFO**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info)

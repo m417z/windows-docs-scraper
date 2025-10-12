@@ -54,7 +54,7 @@ The changer class driver checks the input and output buffer lengths in the I/O s
 
 [CHANGER_ELEMENT_STATUS_EX](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_status_ex)
 
-[CHANGER_READ_ELEMENT STATUS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_read_element_status)
+[CHANGER_READ_ELEMENT_STATUS](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_read_element_status)
 
 [ChangerGetStatus](https://learn.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetstatus)
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-The NFC_CX_HARDWARE_EVENT structure is an input parameter to [NfcCxHardwareEvent.](https://learn.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxhardwareevent)
+The NFC_CX_HARDWARE_EVENT structure is an input parameter to [NfcCxHardwareEvent](https://learn.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxhardwareevent).
 
 ## Members
 

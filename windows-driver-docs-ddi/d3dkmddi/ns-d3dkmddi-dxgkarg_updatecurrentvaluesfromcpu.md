@@ -1,6 +1,6 @@
 ## Description
 
-****DXGKARG_UPDATECURRENTVALUESFROMCPU** is the parameter for the [**DxgkDdiUpdateCurrentValuesFromCpu**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_updatecurrentvaluesfromcpu) function.
+**DXGKARG_UPDATECURRENTVALUESFROMCPU** is the parameter for the [**DxgkDdiUpdateCurrentValuesFromCpu**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_updatecurrentvaluesfromcpu) function.
 
 ## Members
 
