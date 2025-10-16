@@ -654,18 +654,6 @@ def process_markdown_file(
     with open(input_file, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
 
-    if input_file.name in [
-        "nf-winuser-get_pointerid_wparam.md",
-        "nf-winuser-is_pointer_flag_set_wparam.md",
-        "nf-winuser-is_pointer_incontact_wparam.md",
-        "nf-winuser-is_pointer_inrange_wparam.md",
-        "nf-winuser-is_pointer_new_wparam.md",
-    ]:
-        # Special case to fix the following error:
-        # found character '\t' that cannot start any token
-        # https://github.com/MicrosoftDocs/sdk-api/pull/2098
-        content = re.sub(r"^(ms.keywords: .*?)\t,", r"\1,", content, flags=re.MULTILINE)
-
     # Extract YAML front matter
     metadata, markdown_content = extract_yaml_frontmatter(content)
 
