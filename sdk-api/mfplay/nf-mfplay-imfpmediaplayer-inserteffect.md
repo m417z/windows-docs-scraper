@@ -21,8 +21,8 @@ Specifies whether the effect is optional.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The effect is optional. If the MFPlay player object cannot add the effect, it ignores the effect and continues playback. |
-| ****FALSE**** | If the MFPlay player object cannot add the effect, a playback error occurs. |
+| **TRUE** | The effect is optional. If the MFPlay player object cannot add the effect, it ignores the effect and continues playback. |
+| **FALSE** | If the MFPlay player object cannot add the effect, a playback error occurs. |
 
 ## Return value
 
@@ -30,8 +30,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_INVALIDINDEX**** | This effect was already added. |
+| **S_OK** | The method succeeded. |
+| **MF_E_INVALIDINDEX** | This effect was already added. |
 
 ## Remarks
 

@@ -45,8 +45,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The string that contains the algorithm name is empty. |
-| ****OLE_E_BLANK**** | The algorithm name could not be found. You must call [InitializeFromAlgorithmName](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname) before calling [GetAlgorithmName](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-getalgorithmname). |
+| **CERTSRV_E_PROPERTY_EMPTY** | The string that contains the algorithm name is empty. |
+| **OLE_E_BLANK** | The algorithm name could not be found. You must call [InitializeFromAlgorithmName](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname) before calling [GetAlgorithmName](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-getalgorithmname). |
 
 ## Remarks
 

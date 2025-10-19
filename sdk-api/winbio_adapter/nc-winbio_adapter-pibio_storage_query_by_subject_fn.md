@@ -26,9 +26,9 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | --- | --- |
 | **E_INVALIDARG** | The argument specified by the *SubFactor* parameter is not valid or a member of the structure specified by the *Identity* parameter is not valid. |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****WINBIO_E_DATABASE_NO_RESULTS**** | The query was successful, but no matching records could be found. |
-| ****WINBIO_E_DATABASE_LOCKED**** | The database is locked. |
-| ****WINBIO_E_DATABASE_READ_ERROR**** | An unspecified problem occurred. |
+| **WINBIO_E_DATABASE_NO_RESULTS** | The query was successful, but no matching records could be found. |
+| **WINBIO_E_DATABASE_LOCKED** | The database is locked. |
+| **WINBIO_E_DATABASE_READ_ERROR** | An unspecified problem occurred. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **StorageContext** member of the pipeline object is **NULL** or the **FileHandle** member is not valid. |
 
 ## Remarks

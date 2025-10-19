@@ -42,8 +42,8 @@ A flag that specifies how to handle the user's editing changes. Use this flag to
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Discard the changes made by the user. |
-| ****FALSE**** | Accept the changes made by the user. |
+| **TRUE** | Discard the changes made by the user. |
+| **FALSE** | Accept the changes made by the user. |
 
 ## See also
 

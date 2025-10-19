@@ -43,8 +43,8 @@ This parameter can be **NULL** if the error does not refer to an actual database
 
 | Return code/value | Description |
 | --- | --- |
-| ****TRUE****<br><br>1 | Validation procedure should continue. |
-| ****FALSE****<br><br>0 | Validation was canceled. The callback function return **FALSE** to stop validation. |
+| **TRUE**<br><br>1 | Validation procedure should continue. |
+| **FALSE**<br><br>0 | Validation was canceled. The callback function return **FALSE** to stop validation. |
 
 ## See also
 

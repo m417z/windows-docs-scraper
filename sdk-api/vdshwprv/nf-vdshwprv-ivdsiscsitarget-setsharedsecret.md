@@ -26,11 +26,11 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK**** | The shared secret was set successfully. |
-| ****VDS_E_PROVIDER_CACHE_CORRUPT****<br><br>0x8004241FL | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
-| ****VDS_E_OBJECT_DELETED****<br><br>0x8004240BL | The target object is no longer present. |
-| ****VDS_E_NOT_SUPPORTED****<br><br>0x80042400L | This operation or combination of parameters is not supported by this provider. |
-| ****VDS_E_INITIATOR_SPECIFIC_NOT_SUPPORTED****<br><br>0x80042707L | The target does not support initiator-specific shared secrets. |
+| **S_OK** | The shared secret was set successfully. |
+| **VDS_E_PROVIDER_CACHE_CORRUPT**<br><br>0x8004241FL | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
+| **VDS_E_OBJECT_DELETED**<br><br>0x8004240BL | The target object is no longer present. |
+| **VDS_E_NOT_SUPPORTED**<br><br>0x80042400L | This operation or combination of parameters is not supported by this provider. |
+| **VDS_E_INITIATOR_SPECIFIC_NOT_SUPPORTED**<br><br>0x80042707L | The target does not support initiator-specific shared secrets. |
 
 ## Remarks
 

@@ -72,9 +72,9 @@ For extended error information, call the
 
 | Return code/value | Description |
 | --- | --- |
-| ****ERROR_NOT_CAPABLE**** | CRED_PACK_PROTECTED_CREDENTIALS was passed as the value of the *dwFlags* parameter, but this function cannot decrypt the credential because the security context used to protect the password is different from the security context of the caller. |
-| ****ERROR_INSUFFICIENT_BUFFER**** | One of the output buffers, *pszUserName*, *pszDomainName*, or *pszPassword*, was of insufficient size. |
-| ****ERROR_NOT_SUPPORTED**** | The authentication buffer is not of a supported type. |
+| **ERROR_NOT_CAPABLE** | CRED_PACK_PROTECTED_CREDENTIALS was passed as the value of the *dwFlags* parameter, but this function cannot decrypt the credential because the security context used to protect the password is different from the security context of the caller. |
+| **ERROR_INSUFFICIENT_BUFFER** | One of the output buffers, *pszUserName*, *pszDomainName*, or *pszPassword*, was of insufficient size. |
+| **ERROR_NOT_SUPPORTED** | The authentication buffer is not of a supported type. |
 
 ## Remarks
 

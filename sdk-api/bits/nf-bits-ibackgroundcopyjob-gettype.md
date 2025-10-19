@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Transfer type was successfully retrieved. |
+| **S_OK** | Transfer type was successfully retrieved. |
 | **E_INVALIDARG** | The *pJobType* parameter cannot be **NULL**. |
 
 ## Remarks

@@ -20,7 +20,7 @@ This method returns the following return values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success |
+| **S_OK** | Success |
 | **S_FALSE** | No ranges were specified or the job is an upload or upload-reply job. *RangeCount* is set to zero and *Ranges* is set to **NULL**. |
 
 ## See also

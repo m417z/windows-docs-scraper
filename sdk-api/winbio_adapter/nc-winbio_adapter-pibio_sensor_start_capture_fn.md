@@ -33,8 +33,8 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****E_INVALIDARG**** | The *Purpose* parameter is not valid. |
-| ****E_OUTOFMEMORY**** | There was not enough memory to perform the operation. |
+| **E_INVALIDARG** | The *Purpose* parameter is not valid. |
+| **E_OUTOFMEMORY** | There was not enough memory to perform the operation. |
 | **WINBIO_E_DEVICE_BUSY** | The device is not ready to capture data. |
 | **WINBIO_E_DEVICE_FAILURE** | There was a device failure. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **SensorContext** member of the [WINBIO_PIPELINE](https://learn.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline) structure pointed to by the *Pipeline* argument is **NULL** or the **SensorHandle** member is set to **INVALID_HANDLE_VALUE**. |

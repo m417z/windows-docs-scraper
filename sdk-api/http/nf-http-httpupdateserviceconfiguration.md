@@ -28,7 +28,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 | --- | --- |
 | **HttpServiceConfigSSLCertInfo** | [HTTP_SERVICE_CONFIG_SSL_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set) structure. |
 | **HttpServiceConfigSslSniCertInfo** | [HTTP_SERVICE_CONFIG_SSL_SNI_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set) structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI. |
-| ****HttpServiceConfigSslCcsCertInfo**** | [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure. This structure is used to add the CCS store on the specified port, as well as to delete, retrieve, or update an existing SSL CCS record. |
+| **HttpServiceConfigSslCcsCertInfo** | [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure. This structure is used to add the CCS store on the specified port, as well as to delete, retrieve, or update an existing SSL CCS record. |
 
 ### `ConfigInfoLength` [in]
 

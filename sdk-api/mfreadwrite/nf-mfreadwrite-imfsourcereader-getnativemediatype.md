@@ -13,8 +13,8 @@ Specifies which stream to query. The value can be any of the following.
 | Value | Meaning |
 | --- | --- |
 | 0–0xFFFFFFFB | The zero-based index of a stream. |
-| ****MF_SOURCE_READER_FIRST_VIDEO_STREAM****<br><br>0xFFFFFFFC | The first video stream. |
-| ****MF_SOURCE_READER_FIRST_AUDIO_STREAM****<br><br>0xFFFFFFFD | The first audio stream. |
+| **MF_SOURCE_READER_FIRST_VIDEO_STREAM**<br><br>0xFFFFFFFC | The first video stream. |
+| **MF_SOURCE_READER_FIRST_AUDIO_STREAM**<br><br>0xFFFFFFFD | The first audio stream. |
 
 ### `dwMediaTypeIndex` [in]
 
@@ -23,7 +23,7 @@ Specifies which media type to query. The value can be any of the following.
 | Value | Meaning |
 | --- | --- |
 | 0–0xFFFFFFFE | The zero-based index of a media type |
-| ****MF_SOURCE_READER_CURRENT_TYPE_INDEX****<br><br>0xFFFFFFFF | The current native media type. |
+| **MF_SOURCE_READER_CURRENT_TYPE_INDEX**<br><br>0xFFFFFFFF | The current native media type. |
 
 ### `ppMediaType` [out]
 
@@ -35,9 +35,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_INVALIDSTREAMNUMBER**** | The *dwStreamIndex* parameter is invalid. |
-| ****MF_E_NO_MORE_TYPES**** | The *dwMediaTypeIndex* parameter is out of range. |
+| **S_OK** | The method succeeded. |
+| **MF_E_INVALIDSTREAMNUMBER** | The *dwStreamIndex* parameter is invalid. |
+| **MF_E_NO_MORE_TYPES** | The *dwMediaTypeIndex* parameter is out of range. |
 
 ## Remarks
 

@@ -16,8 +16,8 @@ A Boolean value that indicates whether the document markup will be optimized for
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | When writing to the stream, the package writer will attempt to optimize the markup for minimum size. |
-| ****FALSE**** | When writing to the package, the package writer will not attempt any optimization. |
+| **TRUE** | When writing to the stream, the package writer will attempt to optimize the markup for minimum size. |
+| **FALSE** | When writing to the package, the package writer will not attempt any optimization. |
 
 ### `interleaving` [in]
 

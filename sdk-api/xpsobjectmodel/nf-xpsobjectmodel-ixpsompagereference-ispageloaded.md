@@ -12,8 +12,8 @@ A Boolean value that indicates the status of the page.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The page is loaded. |
-| ****FALSE**** | The page is not loaded. |
+| **TRUE** | The page is loaded. |
+| **FALSE** | The page is not loaded. |
 
 ## Return value
 

@@ -21,7 +21,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the reply data. |
+| **S_OK** | Successfully retrieved the reply data. |
 | **BG_E_TOO_LARGE** | The reply data exceeds the maximum 1 MB buffer size. The *ppBuffer* parameter is set to **NULL**, and *pSize* contains the size of the reply data. |
 | **BG_E_INVALID_STATE** | To retrieve the reply data, the state of the job must be **BG_JOB_STATE_TRANSFERRED**. |
 | **E_NOTIMPL** | This method is not implemented for jobs of type **BG_JOB_TYPE_DOWNLOAD** or **BG_JOB_TYPE_UPLOAD**. |

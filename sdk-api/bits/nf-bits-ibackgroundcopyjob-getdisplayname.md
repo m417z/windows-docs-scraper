@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Display name was successfully retrieved. |
+| **S_OK** | Display name was successfully retrieved. |
 | **E_INVALIDARG** | The *ppDisplayName* parameter cannot be **NULL**. |
 
 ## See also

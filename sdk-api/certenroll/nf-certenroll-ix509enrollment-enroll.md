@@ -12,7 +12,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****OLE_E_BLANK**** | The enrollment object has not been initialized. |
+| **OLE_E_BLANK** | The enrollment object has not been initialized. |
 
 ## Remarks
 

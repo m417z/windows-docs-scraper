@@ -23,7 +23,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Event notify flags were successfully retrieved. |
+| **S_OK** | Event notify flags were successfully retrieved. |
 | **E_INVALIDARG** | Must pass the address of *pNotifyFlags*. |
 
 ## See also

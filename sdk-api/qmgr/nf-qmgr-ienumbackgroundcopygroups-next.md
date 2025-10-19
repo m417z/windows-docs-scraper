@@ -26,7 +26,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully returned the number of requested elements. |
+| **S_OK** | Successfully returned the number of requested elements. |
 | **S_FALSE** | Returned less than the number of requested elements. |
 
 ## See also

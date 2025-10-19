@@ -35,8 +35,8 @@ For extended error information, call the
 
 | Return code/value | Description |
 | --- | --- |
-| ****ERROR_NOT_CAPABLE**** | The security context used to encrypt the credentials is different from the security context used to decrypt the credentials. |
-| ****ERROR_INSUFFICIENT_BUFFER**** | The *pszCredentials* buffer was of insufficient size. |
+| **ERROR_NOT_CAPABLE** | The security context used to encrypt the credentials is different from the security context used to decrypt the credentials. |
+| **ERROR_INSUFFICIENT_BUFFER** | The *pszCredentials* buffer was of insufficient size. |
 
 ## Remarks
 

@@ -17,8 +17,8 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 | Return code | Description |
 | --- | --- |
 | **E_ACCESSDENIED** | The caller does not have permission to enroll. |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****WINBIO_E_LOCK_VIOLATION**** | The biometric unit is in use and is locked. |
+| **E_HANDLE** | The session handle is not valid. |
+| **WINBIO_E_LOCK_VIOLATION** | The biometric unit is in use and is locked. |
 
 ## Remarks
 

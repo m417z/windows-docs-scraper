@@ -30,10 +30,10 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid argument. |
-| ****MF_E_INVALIDREQUEST**** | Invalid request. This error can occur when *fSync* is **FALSE** and the application did not provide a callback interface. See Remarks. |
-| ****MF_E_SHUTDOWN**** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid argument. |
+| **MF_E_INVALIDREQUEST** | Invalid request. This error can occur when *fSync* is **FALSE** and the application did not provide a callback interface. See Remarks. |
+| **MF_E_SHUTDOWN** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
 
 ## Remarks
 

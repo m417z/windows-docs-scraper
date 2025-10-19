@@ -18,9 +18,9 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_POINTER**** | Null pointer argument. |
-| ****E_OUTOFMEMORY**** | Out of memory for enumeration object. |
+| **S_OK** | The method succeeded. |
+| **E_POINTER** | Null pointer argument. |
+| **E_OUTOFMEMORY** | Out of memory for enumeration object. |
 
 ## See also
 

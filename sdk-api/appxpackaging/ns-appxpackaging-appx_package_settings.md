@@ -14,7 +14,7 @@ Type: **[BOOL](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-
 
 ### `hashMethod`
 
-Type: ****IUri*****
+Type: **IUri***
 
 The hash algorithm URI to use for the block map of the package.
 

@@ -31,7 +31,7 @@ The following table lists some of the possible return values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success. |
+| **S_OK** | Success. |
 | **E_ACCESSDENIED** | The user does not have permission to access the store location. |
 | **E_NOTIMPL** | The value for the *StoreLocation* parameter is not defined in the [BG_CERT_STORE_LOCATION](https://learn.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location) enumeration. |
 | **HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)** | Could not find a store matching the *StoreName* parameter. |

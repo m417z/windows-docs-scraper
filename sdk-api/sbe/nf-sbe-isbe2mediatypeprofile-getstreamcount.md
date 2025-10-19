@@ -18,8 +18,8 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_POINTER**** | Null pointer. |
+| **S_OK** | The method succeeded. |
+| **E_POINTER** | Null pointer. |
 
 ## See also
 

@@ -10,7 +10,7 @@ This method returns the following **HRESULT** values. The method can also return
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | All files transferred successfully. |
+| **S_OK** | All files transferred successfully. |
 | **BG_S_PARTIAL_COMPLETE** | A subset of the files transferred successfully. |
 | **BG_S_UNABLE_TO_DELETE_FILES** | Job was successfully completed; however, the service was unable to delete the temporary files associated with the job. |
 | **BG_E_INVALID_STATE** | For downloads, the state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. <br><br>For uploads, the state of the job must be BG_JOB_STATE_TRANSFERRED. |

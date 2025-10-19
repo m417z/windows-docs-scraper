@@ -58,12 +58,12 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The value specified in the *ControlCode* parameter is not recognized. |
-| ****E_POINTER**** | The *SendBuffer*, *ReceiveBuffer*, *ReceiveDataSize*, *OperationStatus* parameters cannot be **NULL**. |
-| ****E_ACCESSDENIED**** | The caller does not have permission to perform the operation, or the session was not opened by using **WINBIO_FLAG_MAINTENANCE**. |
-| ****E_INVALIDARG**** | The value specified in the *ControlCode* parameter is not recognized. |
-| ****WINBIO_E_LOCK_VIOLATION**** | The biometric unit specified by the *UnitId* parameter must be locked before any control operations can be performed. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The value specified in the *ControlCode* parameter is not recognized. |
+| **E_POINTER** | The *SendBuffer*, *ReceiveBuffer*, *ReceiveDataSize*, *OperationStatus* parameters cannot be **NULL**. |
+| **E_ACCESSDENIED** | The caller does not have permission to perform the operation, or the session was not opened by using **WINBIO_FLAG_MAINTENANCE**. |
+| **E_INVALIDARG** | The value specified in the *ControlCode* parameter is not recognized. |
+| **WINBIO_E_LOCK_VIOLATION** | The biometric unit specified by the *UnitId* parameter must be locked before any control operations can be performed. |
 
 ## Remarks
 

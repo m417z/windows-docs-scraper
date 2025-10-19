@@ -17,7 +17,7 @@ This method returns the following return values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success |
+| **S_OK** | Success |
 | **BG_E_INVALID_AUTH_TARGET** | Unrecognized target enumeration value. |
 | **BG_E_INVALID_AUTH_SCHEME** | Unrecognized scheme enumeration value. |
 | **BG_E_USERNAME_TOO_LARGE** | The user name is too long. For the limit, see the [BG_BASIC_CREDENTIALS](https://learn.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_basic_credentials) structure. |

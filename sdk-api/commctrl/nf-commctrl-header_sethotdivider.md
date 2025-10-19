@@ -36,8 +36,8 @@ A value specifying how *dw* is to be interpreted. The value in this field can be
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Indicates that *dw* holds client coordinates of the pointer. |
-| ****FALSE**** | Indicates that *dw* holds a divider index value. |
+| **TRUE** | Indicates that *dw* holds client coordinates of the pointer. |
+| **FALSE** | Indicates that *dw* holds a divider index value. |
 
 ### `dw`
 

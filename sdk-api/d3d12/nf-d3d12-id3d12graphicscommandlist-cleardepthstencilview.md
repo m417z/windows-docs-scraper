@@ -38,7 +38,7 @@ The number of rectangles in the array that the *pRects* parameter specifies.
 
 ### `pRects` [in]
 
-Type: **const **D3D12_RECT*****
+Type: **const D3D12_RECT***
 
 An array of **D3D12_RECT** structures for the rectangles in the resource view to clear. If **NULL**, **ClearDepthStencilView** clears the entire resource view.
 

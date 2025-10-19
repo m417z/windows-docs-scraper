@@ -12,8 +12,8 @@ The Boolean value that specifies whether the visual is the target of a hyperlink
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The visual is the target of a hyperlink. |
-| ****FALSE**** | The visual is not the target of a hyperlink. |
+| **TRUE** | The visual is the target of a hyperlink. |
+| **FALSE** | The visual is not the target of a hyperlink. |
 
 ## Return value
 

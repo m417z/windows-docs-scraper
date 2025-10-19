@@ -12,17 +12,20 @@ An IP version 4 (IPv4) or IP version 6 (IPv6) address object.
 
 ### `IP.v4`
 
-**Type: **IN_ADDR****
+Type: **IN_ADDR**
+
 An IPv4 address.
 
 ### `IP.v6`
 
-**Type: **IN6_ADDR****
+Type: **IN6_ADDR**
+
 An IPv6 address.
 
 ### `IP.Addr`
 
-**Type: **UCHAR[sizeof(IN6_ADDR)]****
+Type: **UCHAR[sizeof(IN6_ADDR)]**
+
 An array of bytes that contains the IP address.
 
 ## Remarks

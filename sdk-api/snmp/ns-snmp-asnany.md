@@ -42,62 +42,74 @@ Contains the variable's value. This member can be only one of the following valu
 
 #### number
 
-**Type: **AsnInteger32****
+Type: **AsnInteger32**
+
 Accesses a 32-bit signed integer variable.
 
 #### unsigned32
 
-**Type: **AsnUnsigned32****
+Type: **AsnUnsigned32**
+
 Accesses a 32-bit unsigned integer variable.
 
 #### counter64
 
-**Type: **AsnCounter64****
+Type: **AsnCounter64**
+
 Accesses a counter variable that increases until it reaches a maximum value of (2^64) – 1.
 
 #### string
 
-**Type: **AsnOctetString****
+Type: **AsnOctetString**
+
 Accesses an octet string variable.
 
 #### bits
 
-**Type: **AsnBits****
+Type: **AsnBits**
+
 Accesses a variable that is an enumeration of named bits with non-negative, contiguous values, starting at zero.
 
 #### object
 
-**Type: **AsnObjectIdentifier****
+Type: **AsnObjectIdentifier**
+
 Accesses an object identifier variable.
 
 #### sequence
 
-**Type: **AsnSequence****
+Type: **AsnSequence**
+
 Accesses an ASN sequence variable.
 
 #### address
 
-**Type: **AsnIPAddress****
+Type: **AsnIPAddress**
+
 Accesses an IP address variable.
 
 #### counter
 
-**Type: **AsnCounter32****
+Type: **AsnCounter32**
+
 Accesses a counter variable that increases until it reaches a maximum value of (2^32) – 1.
 
 #### gauge
 
-**Type: **AsnGauge32****
+Type: **AsnGauge32**
+
 Accesses a gauge variable.
 
 #### ticks
 
-**Type: **AsnTimeticks****
+Type: **AsnTimeticks**
+
 Accesses a timeticks counter variable that is relative to a specific timer event.
 
 #### arbitrary
 
-**Type: **AsnOpaque****
+Type: **AsnOpaque**
+
 Accesses an opaque variable.
 
 ### `number`

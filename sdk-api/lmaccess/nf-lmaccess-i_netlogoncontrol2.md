@@ -55,7 +55,7 @@ The method returns 0x00000000 (**NERR_Success**) on success; otherwise, it retur
 
 | Return code/value | Description |
 | --- | --- |
-| ****NERR_Success****<br><br>0x00000000 | The method call completed without errors. |
+| **NERR_Success**<br><br>0x00000000 | The method call completed without errors. |
 | **ERROR_ACCESS_DENIED**<br><br>0x00000005 | Access validation on the caller returns false. Access is denied. |
 | **ERROR_NOT_ENOUGH_MEMORY**<br><br>0x00000008 | Not enough storage is available to process this command. |
 | **ERROR_NOT_SUPPORTED**<br><br>0x00000032 | A function code is not valid on the specified server. For example, NETLOGON_CONTROL_REPLICATE might have been passed to a primary domain controller (PDC). |

@@ -13,8 +13,8 @@ The stream to query. The value can be any of the following.
 | Value | Meaning |
 | --- | --- |
 | 0–0xFFFFFFFB | The zero-based index of a stream. |
-| ****MF_SOURCE_READER_FIRST_VIDEO_STREAM****<br><br>0xFFFFFFFC | The first video stream. |
-| ****MF_SOURCE_READER_FIRST_AUDIO_STREAM****<br><br>0xFFFFFFFD | The first audio stream. |
+| **MF_SOURCE_READER_FIRST_VIDEO_STREAM**<br><br>0xFFFFFFFC | The first video stream. |
+| **MF_SOURCE_READER_FIRST_AUDIO_STREAM**<br><br>0xFFFFFFFD | The first audio stream. |
 
 ### `ppMediaType` [out]
 
@@ -26,8 +26,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_INVALIDSTREAMNUMBER**** | The *dwStreamIndex* parameter is invalid. |
+| **S_OK** | The method succeeded. |
+| **MF_E_INVALIDSTREAMNUMBER** | The *dwStreamIndex* parameter is invalid. |
 
 ## Remarks
 

@@ -18,8 +18,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The private key cannot be found, or the [ICspInformation](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation) object associated with the private key cannot be found. |
-| ****OLE_E_BLANK**** | The object is not initialized. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The private key cannot be found, or the [ICspInformation](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation) object associated with the private key cannot be found. |
+| **OLE_E_BLANK** | The object is not initialized. |
 
 ## Remarks
 

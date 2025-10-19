@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the name of the file that contains the reply data. |
+| **S_OK** | Successfully retrieved the name of the file that contains the reply data. |
 | **E_NOTIMPL** | This method is not implemented for jobs of type **BG_JOB_TYPE_DOWNLOAD** or **BG_JOB_TYPE_UPLOAD**. |
 
 ## Remarks

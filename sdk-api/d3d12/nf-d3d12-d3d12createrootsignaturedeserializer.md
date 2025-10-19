@@ -20,13 +20,13 @@ The size, in bytes, of the block of memory that *pSrcData* points to.
 
 ### `pRootSignatureDeserializerInterface` [in]
 
-Type: ****REFIID****
+Type: **REFIID**
 
 The globally unique identifier (**GUID**) for the root signature deserializer interface. See remarks.
 
 ### `ppRootSignatureDeserializer` [out]
 
-Type: ****void******
+Type: **void****
 
 A pointer to a memory block that receives a pointer to the root signature deserializer.
 

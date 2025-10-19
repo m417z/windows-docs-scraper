@@ -38,7 +38,7 @@ Indicates that the pen type is unknown.
 
 A pen's type is determined when the pen is constructed. For example, if you pass a
 [HatchBrush](https://learn.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush) object to a
-[Pen](https://learn.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor, then the pen that is constructed has a pen type of ****PenTypeHatchFill****. If you pass a
+[Pen](https://learn.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor, then the pen that is constructed has a pen type of **PenTypeHatchFill**. If you pass a
 [Color](https://learn.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color) object or a
 [SolidBrush](https://learn.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush) object to a
-**Pen** constructor, then the pen that is constructed has a pen type of ****PenTypeSolidColor****.
+**Pen** constructor, then the pen that is constructed has a pen type of **PenTypeSolidColor**.

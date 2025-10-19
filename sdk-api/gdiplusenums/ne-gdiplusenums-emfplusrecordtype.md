@@ -8,9 +8,9 @@ The **EmfPlusRecordType** enumeration identifies metafile record types used in W
 
 WMF and EMF records can be displayed by Windows GDI+ and by Windows Graphics Device Interface (GDI). EMF+ records can be displayed by GDI+ but not by GDI.
 
-Elements that have the WmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix META_. For example, the element ****WmfRecordTypeSetBkColor**** is analogous to the constant META_SETBKCOLOR. For more information about WMF files, see [Windows-Format Metafiles](https://learn.microsoft.com/windows/desktop/gdi/windows-format-metafiles).
+Elements that have the WmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix META_. For example, the element **WmfRecordTypeSetBkColor** is analogous to the constant META_SETBKCOLOR. For more information about WMF files, see [Windows-Format Metafiles](https://learn.microsoft.com/windows/desktop/gdi/windows-format-metafiles).
 
-Elements that have the EmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix EMR_. For example, the element ****EmfRecordTypePolygon**** is analogous to the constant EMR_POLYGON. For more information about EMR constants, see [EMR](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr).
+Elements that have the EmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix EMR_. For example, the element **EmfRecordTypePolygon** is analogous to the constant EMR_POLYGON. For more information about EMR constants, see [EMR](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr).
 
 Elements that have the EmfPlusRecordType prefix are specific to GDI+. Most of those elements correspond to methods of the [Graphics](https://learn.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. The remaining elements identify the header, the end of the file, and other sections of the metafile. The Constants section of this topic shows the correspondence between the EMF+ record types and the methods of the **Graphics** class.
 

@@ -16,8 +16,8 @@ Receives a Boolean value.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The stream is selected. During playback, this stream will play. |
-| ****FALSE**** | The stream is not selected. During playback, this stream will not play. |
+| **TRUE** | The stream is selected. During playback, this stream will play. |
+| **FALSE** | The stream is not selected. During playback, this stream will not play. |
 
 ## Return value
 

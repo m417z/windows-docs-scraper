@@ -24,11 +24,11 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_POINTER**** | The pointers specified by the *Identity* and *IsNewTemplate* parameters cannot be **NULL**. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_POINTER** | The pointers specified by the *Identity* and *IsNewTemplate* parameters cannot be **NULL**. |
 | **WINBIO_E_DATABASE_FULL** | There is no space available in the database for the template. |
 | **WINBIO_E_DUPLICATE_TEMPLATE** | The template matches one already saved in the database with a different identity or sub-factor (system pool only). |
-| ****WINBIO_E_LOCK_VIOLATION**** | The biometric unit is in use and is locked. |
+| **WINBIO_E_LOCK_VIOLATION** | The biometric unit is in use and is locked. |
 
 ## Remarks
 

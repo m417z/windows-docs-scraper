@@ -16,7 +16,7 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 
 | Return code | Description |
 | --- | --- |
-| ****E_POINTER**** | The *StorageInterface* parameter cannot be **NULL**. |
+| **E_POINTER** | The *StorageInterface* parameter cannot be **NULL**. |
 
 ## Remarks
 

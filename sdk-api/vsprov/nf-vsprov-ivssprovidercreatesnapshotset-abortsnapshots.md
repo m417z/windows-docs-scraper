@@ -18,11 +18,11 @@ This method can return one of these values.
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK****<br><br>0x00000000L | The operation was successfully completed. |
-| ****E_OUTOFMEMORY****<br><br>0x8007000EL | Out of memory or other system resources. |
+| **S_OK**<br><br>0x00000000L | The operation was successfully completed. |
+| **E_OUTOFMEMORY**<br><br>0x8007000EL | Out of memory or other system resources. |
 | **E_INVALIDARG**<br><br>0x80070057L | One of the parameter values is not valid. |
-| ****VSS_E_OBJECT_NOT_FOUND****<br><br>0x80042308L | The *SnapshotSetId* parameter refers to an object that was not found. |
-| ****VSS_E_PROVIDER_VETO****<br><br>0x80042306L | An unexpected provider error occurred. The provider must log a message in the application event log providing the user with information on how to resolve the problem. |
+| **VSS_E_OBJECT_NOT_FOUND**<br><br>0x80042308L | The *SnapshotSetId* parameter refers to an object that was not found. |
+| **VSS_E_PROVIDER_VETO**<br><br>0x80042306L | An unexpected provider error occurred. The provider must log a message in the application event log providing the user with information on how to resolve the problem. |
 
 ## Remarks
 

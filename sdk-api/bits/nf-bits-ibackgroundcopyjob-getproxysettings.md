@@ -29,7 +29,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Proxy information was successfully retrieved. |
+| **S_OK** | Proxy information was successfully retrieved. |
 | **E_INVALIDARG** | One or more of the parameters is **NULL**. |
 
 ## See also

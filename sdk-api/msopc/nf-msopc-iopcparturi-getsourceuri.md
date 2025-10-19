@@ -19,7 +19,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | **S_OK** | The method succeeded. |
 | **E_POINTER** | The *sourceUri* parameter is **NULL**. |
 | **OPC_E_RELATIONSHIP_URI_REQUIRED**<br><br>0x80510003 | The part name of a Relationships part is required, but the part name is not that of a Relationships part.<br><br>For more information about the part names of Relationships parts, see the *OPC*. |
-| ****CreateUri** function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
+| **CreateUri function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
 | **WinINet error** | An **HRESULT** error code from a [WinINet](https://learn.microsoft.com/windows/desktop/WinInet/wininet-reference) API. |
 
 ## Remarks

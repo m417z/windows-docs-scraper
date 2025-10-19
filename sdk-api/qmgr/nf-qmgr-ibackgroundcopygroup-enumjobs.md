@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully enumerated the jobs in the group. |
+| **S_OK** | Successfully enumerated the jobs in the group. |
 | **E_NOTIMPL** | The *dwFlags* parameter must be 0. |
 
 ## See also

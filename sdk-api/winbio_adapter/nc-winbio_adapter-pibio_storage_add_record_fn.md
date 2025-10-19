@@ -22,12 +22,12 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | --- | --- |
 | **E_INVALIDARG** | A member of the structure specified by the *RecordContents* parameter is not valid. |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****WINBIO_E_DATABASE_BAD_INDEX_VECTOR**** | The size of the index vector specified in the [WINBIO_STORAGE_RECORD](https://learn.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record) structure does not match the index size specified when the database was created. |
-| ****WINBIO_E_DUPLICATE_ENROLLMENT**** | The database already contains a template with the combination of values specified by the *Identity* and *SubFactor* parameters. |
-| ****WINBIO_E_DATABASE_CORRUPTED**** | There is an unspecified problem with the database. |
-| ****WINBIO_E_DATABASE_FULL**** | The database is full and no further records can be added. |
-| ****WINBIO_E_DATABASE_LOCKED**** | The database is locked. |
-| ****WINBIO_E_DATABASE_WRITE_ERROR**** | Record addition failed because of an unspecified problem. |
+| **WINBIO_E_DATABASE_BAD_INDEX_VECTOR** | The size of the index vector specified in the [WINBIO_STORAGE_RECORD](https://learn.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record) structure does not match the index size specified when the database was created. |
+| **WINBIO_E_DUPLICATE_ENROLLMENT** | The database already contains a template with the combination of values specified by the *Identity* and *SubFactor* parameters. |
+| **WINBIO_E_DATABASE_CORRUPTED** | There is an unspecified problem with the database. |
+| **WINBIO_E_DATABASE_FULL** | The database is full and no further records can be added. |
+| **WINBIO_E_DATABASE_LOCKED** | The database is locked. |
+| **WINBIO_E_DATABASE_WRITE_ERROR** | Record addition failed because of an unspecified problem. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **StorageContext** member of the pipeline object is **NULL** or the **FileHandle** member is not valid. |
 
 ## Remarks

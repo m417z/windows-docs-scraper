@@ -22,8 +22,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CRYPT_E_INVALID_MSG_TYPE**** | The request object passed to the *pInnerRequest* parameter must be a PKCS #10 or a CMC request. |
-| ****HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)**** | The request object has already been initialized. |
+| **CRYPT_E_INVALID_MSG_TYPE** | The request object passed to the *pInnerRequest* parameter must be a PKCS #10 or a CMC request. |
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The request object has already been initialized. |
 
 ## Remarks
 

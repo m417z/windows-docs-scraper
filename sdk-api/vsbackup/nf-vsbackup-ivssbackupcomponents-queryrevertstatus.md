@@ -27,15 +27,15 @@ This method can return one of these values.
 
 | Value | Meaning |
 | --- | --- |
-| ****S_OK**** | The operation was successful. |
-| ****E_ACCESSDENIED**** | The calling process has insufficient privileges. |
-| ****E_FAIL**** | There is an internal error. |
-| ****E_INVALIDARG**** | One of the parameters passed is not valid. |
-| ****E_NOTIMPL**** | The provider for the volume does not support revert operations. |
-| ****E_OUTOFMEMORY**** | The caller is out of memory or other system resources. |
-| ****E_POINTER**** | One of the required pointer parameters is **NULL**. |
-| ****VSS_E_OBJECT_NOT_FOUND**** | The *pwszVolume* parameter is not a valid volume. |
-| ****VSS_E_VOLUME_NOT_SUPPORTED**** | Revert is not supported on this volume. |
+| **S_OK** | The operation was successful. |
+| **E_ACCESSDENIED** | The calling process has insufficient privileges. |
+| **E_FAIL** | There is an internal error. |
+| **E_INVALIDARG** | One of the parameters passed is not valid. |
+| **E_NOTIMPL** | The provider for the volume does not support revert operations. |
+| **E_OUTOFMEMORY** | The caller is out of memory or other system resources. |
+| **E_POINTER** | One of the required pointer parameters is **NULL**. |
+| **VSS_E_OBJECT_NOT_FOUND** | The *pwszVolume* parameter is not a valid volume. |
+| **VSS_E_VOLUME_NOT_SUPPORTED** | Revert is not supported on this volume. |
 
 ## Remarks
 

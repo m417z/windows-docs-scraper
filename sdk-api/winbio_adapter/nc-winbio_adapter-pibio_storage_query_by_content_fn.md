@@ -33,10 +33,10 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | **E_INVALIDARG** | The argument specified by the *SubFactor* parameter is not valid. |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
 | **E_OUTOFMEMORY** | Memory could not be allocated for the record header. |
-| ****WINBIO_E_DATABASE_BAD_INDEX_VECTOR**** | The size of the index vector does not match the index size specified when the database was created. |
-| ****WINBIO_E_DATABASE_NO_RESULTS**** | The query was successful, but no matching records could be found. |
-| ****WINBIO_E_DATABASE_LOCKED**** | The database is locked. |
-| ****WINBIO_E_DATABASE_READ_ERROR**** | An unspecified problem occurred. |
+| **WINBIO_E_DATABASE_BAD_INDEX_VECTOR** | The size of the index vector does not match the index size specified when the database was created. |
+| **WINBIO_E_DATABASE_NO_RESULTS** | The query was successful, but no matching records could be found. |
+| **WINBIO_E_DATABASE_LOCKED** | The database is locked. |
+| **WINBIO_E_DATABASE_READ_ERROR** | An unspecified problem occurred. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **StorageContext** member of the pipeline object is **NULL** or the **FileHandle** member is not valid. |
 
 ## Remarks

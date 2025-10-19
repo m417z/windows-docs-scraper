@@ -15,9 +15,9 @@ Determines the LUN event for which an application will be notified, as one of th
 
 | Value | Meaning |
 | --- | --- |
-| ****VDS_NF_LUN_ARRIVE****<br><br>108 | A new LUN has been created. |
-| ****VDS_NF_LUN_DEPART****<br><br>109 | An existing LUN has been deleted. |
-| ****VDS_NF_LUN_MODIFY****<br><br>110 | A member was changed in the [VDS_LUN_PROP](https://learn.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop) structure for an external LUN. Examples of changes that trigger this notification include changes to the **VDS_LUN_PROP** structure and the addition of a plex to the LUN. Applications are responsible for determining the precise nature of the change. |
+| **VDS_NF_LUN_ARRIVE**<br><br>108 | A new LUN has been created. |
+| **VDS_NF_LUN_DEPART**<br><br>109 | An existing LUN has been deleted. |
+| **VDS_NF_LUN_MODIFY**<br><br>110 | A member was changed in the [VDS_LUN_PROP](https://learn.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop) structure for an external LUN. Examples of changes that trigger this notification include changes to the **VDS_LUN_PROP** structure and the addition of a plex to the LUN. Applications are responsible for determining the precise nature of the change. |
 
 ### `LunId`
 

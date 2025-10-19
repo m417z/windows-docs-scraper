@@ -18,8 +18,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The [IX509PrivateKey](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey) pointer is **NULL**. |
-| ****ERROR_ARITHMETIC_OVERFLOW**** | The unique container name and the provider name are too long. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The [IX509PrivateKey](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey) pointer is **NULL**. |
+| **ERROR_ARITHMETIC_OVERFLOW** | The unique container name and the provider name are too long. |
 
 ## Remarks
 

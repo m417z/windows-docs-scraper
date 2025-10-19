@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved a list of the groups in the download queue. |
+| **S_OK** | Successfully retrieved a list of the groups in the download queue. |
 | **E_NOTIMPL** | The *dwFlags* parameter must be 0. |
 
 ## See also

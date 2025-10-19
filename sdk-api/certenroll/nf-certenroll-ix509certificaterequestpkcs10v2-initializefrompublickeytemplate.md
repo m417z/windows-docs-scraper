@@ -37,7 +37,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 | Return code/value | Description |
 | --- | --- |
 | **E_POINTER** | The *pPublicKey*, *pPolicyServer*, or *pTemplate* parameters are **NULL**. |
-| ****HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)**** | The certificate request object has already been initialized. |
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The certificate request object has already been initialized. |
 
 ## Remarks
 

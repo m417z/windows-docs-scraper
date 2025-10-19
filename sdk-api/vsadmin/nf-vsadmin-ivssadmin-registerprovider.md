@@ -46,11 +46,11 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The provider was registered successfully. |
-| ****E_INVALIDARG**** | One or more of the parameter values is not valid. For example, **VSS_PROV_HARDWARE** is not a valid provider type on Windows client operating system versions. |
-| ****E_OUTOFMEMORY**** | Out of memory or other system resources. |
-| ****E_ACCESSDENIED**** | The caller is not an administrator. |
-| ****VSS_E_PROVIDER_ALREADY_REGISTERED**** | The provider has already been registered on this computer. |
+| **S_OK** | The provider was registered successfully. |
+| **E_INVALIDARG** | One or more of the parameter values is not valid. For example, **VSS_PROV_HARDWARE** is not a valid provider type on Windows client operating system versions. |
+| **E_OUTOFMEMORY** | Out of memory or other system resources. |
+| **E_ACCESSDENIED** | The caller is not an administrator. |
+| **VSS_E_PROVIDER_ALREADY_REGISTERED** | The provider has already been registered on this computer. |
 | **VSS_E_UNEXPECTED** | Unexpected error. The error code is logged in the error log file. For more information, see [Event and Error Handling Under VSS](https://learn.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss).<br><br>**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead. |
 
 ## Remarks

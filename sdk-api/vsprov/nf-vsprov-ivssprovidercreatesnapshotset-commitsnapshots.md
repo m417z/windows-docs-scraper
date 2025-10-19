@@ -15,11 +15,11 @@ The **VSS_ID** that identifies the shadow copy set.
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK****<br><br>0x00000000L | The operation was successfully completed. |
-| ****E_OUTOFMEMORY****<br><br>0x8007000EL | Out of memory or other system resources. |
+| **S_OK**<br><br>0x00000000L | The operation was successfully completed. |
+| **E_OUTOFMEMORY**<br><br>0x8007000EL | Out of memory or other system resources. |
 | **E_INVALIDARG**<br><br>0x80070057L | One of the parameter values is not valid. |
-| ****VSS_E_OBJECT_NOT_FOUND****<br><br>0x80042308L | The *SnapshotSetId* parameter refers to an object that was not found. |
-| ****VSS_E_PROVIDER_VETO****<br><br>0x80042306L | An unexpected provider error occurred. The provider must log the details of this error in the application event log. |
+| **VSS_E_OBJECT_NOT_FOUND**<br><br>0x80042308L | The *SnapshotSetId* parameter refers to an object that was not found. |
+| **VSS_E_PROVIDER_VETO**<br><br>0x80042306L | An unexpected provider error occurred. The provider must log the details of this error in the application event log. |
 
 If any other value is returned, VSS will write an event to the event log and convert the error to
 **VSS_E_UNEXPECTED_PROVIDER_ERROR**.

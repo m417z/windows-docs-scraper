@@ -20,10 +20,10 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *UnitId* parameter cannot contain zero. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *UnitId* parameter cannot contain zero. |
 | **WINBIO_E_ENROLLMENT_IN_PROGRESS** | The operation could not be completed because the specified biometric unit is currently being used for an enrollment transaction (system pool only). |
-| ****WINBIO_E_LOCK_VIOLATION**** | The biometric unit cannot be locked because the specified session already has another unit locked. |
+| **WINBIO_E_LOCK_VIOLATION** | The biometric unit cannot be locked because the specified session already has another unit locked. |
 
 ## Remarks
 

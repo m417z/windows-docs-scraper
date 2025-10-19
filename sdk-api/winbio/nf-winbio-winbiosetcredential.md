@@ -34,10 +34,10 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_ACCESSDENIED**** | The caller does not have permission to set the credential. |
-| ****WINBIO_E_UNKNOWN_ID**** | The user has not enrolled a biometric sample. |
-| ****SEC_E_LOGON_DENIED**** | The credential was not valid for the current user. |
-| ****WINBIO_E_CRED_PROV_DISABLED**** | Current administrative policy prohibits use of the credential provider. |
+| **E_ACCESSDENIED** | The caller does not have permission to set the credential. |
+| **WINBIO_E_UNKNOWN_ID** | The user has not enrolled a biometric sample. |
+| **SEC_E_LOGON_DENIED** | The credential was not valid for the current user. |
+| **WINBIO_E_CRED_PROV_DISABLED** | Current administrative policy prohibits use of the credential provider. |
 
 ## Remarks
 

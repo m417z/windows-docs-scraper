@@ -19,8 +19,8 @@ This value can be one of the following values.
 
 | Value | Meaning |
 | --- | --- |
-| ****ACL_REVISION**** | The SACL does not contain object-specific ACEs. |
-| ****ACL_REVISION_DS**** | The SACL contains object-specified ACEs. |
+| **ACL_REVISION** | The SACL does not contain object-specific ACEs. |
+| **ACL_REVISION_DS** | The SACL contains object-specified ACEs. |
 
 ### `AceFlags` [in]
 

@@ -16,12 +16,12 @@ Pointer to a null-terminated wide-character string that specifies the service na
 
 | Return code | Description |
 | --- | --- |
-| ****HRESULT_FROM_WIN32 (ERROR_ALREADY_EXISTS)**** | The minifilter driver is already running. |
-| ****HRESULT_FROM_WIN32 (ERROR_FILE_NOT_FOUND)**** | No matching minifilter driver was found. |
-| ****HRESULT_FROM_WIN32 (ERROR_SERVICE_ALREADY_RUNNING)**** | The minifilter driver is already running. |
-| ****HRESULT_FROM_WIN32 (ERROR_BAD_EXE_FORMAT)**** | The load image for the minifilter driver specified by *lpFilterName* is invalid. |
-| ****HRESULT_FROM_WIN32 (ERROR_BAD_DRIVER)**** | The load image for the minifilter driver specified by *lpFilterName* is invalid. |
-| ****HRESULT_FROM_WIN32 (ERROR_INVALID_IMAGE_HASH)**** | The minifilter driver has an invalid digital signature. |
+| **HRESULT_FROM_WIN32 (ERROR_ALREADY_EXISTS)** | The minifilter driver is already running. |
+| **HRESULT_FROM_WIN32 (ERROR_FILE_NOT_FOUND)** | No matching minifilter driver was found. |
+| **HRESULT_FROM_WIN32 (ERROR_SERVICE_ALREADY_RUNNING)** | The minifilter driver is already running. |
+| **HRESULT_FROM_WIN32 (ERROR_BAD_EXE_FORMAT)** | The load image for the minifilter driver specified by *lpFilterName* is invalid. |
+| **HRESULT_FROM_WIN32 (ERROR_BAD_DRIVER)** | The load image for the minifilter driver specified by *lpFilterName* is invalid. |
+| **HRESULT_FROM_WIN32 (ERROR_INVALID_IMAGE_HASH)** | The minifilter driver has an invalid digital signature. |
 
 ## Remarks
 

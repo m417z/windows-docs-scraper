@@ -12,10 +12,10 @@ The identifier of the interface to retrieve. Specify one of the following values
 
 | Value | Meaning |
 | --- | --- |
-| ****IID_IUnknown**** | Retrieve an [IUnknown](https://learn.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) pointer. |
-| ****IID_IMFVideoSampleAllocator**** | Retrieve an [IMFVideoSampleAllocator](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator) pointer. |
-| ****IID_IMFVideoSampleAllocatorEx**** | Retrieve an [IMFVideoSampleAllocatorEx](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex) pointer. |
-| ****IID_IMFVideoSampleAllocatorCallback**** | Retrieve an [IMFVideoSampleAllocatorCallback](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback) pointer. |
+| **IID_IUnknown** | Retrieve an [IUnknown](https://learn.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) pointer. |
+| **IID_IMFVideoSampleAllocator** | Retrieve an [IMFVideoSampleAllocator](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator) pointer. |
+| **IID_IMFVideoSampleAllocatorEx** | Retrieve an [IMFVideoSampleAllocatorEx](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorex) pointer. |
+| **IID_IMFVideoSampleAllocatorCallback** | Retrieve an [IMFVideoSampleAllocatorCallback](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback) pointer. |
 
 ### `ppSampleAllocator` [out]
 

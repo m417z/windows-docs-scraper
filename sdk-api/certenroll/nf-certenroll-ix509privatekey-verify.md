@@ -12,11 +12,11 @@ An [X509PrivateKeyVerify](https://learn.microsoft.com/windows/desktop/api/certen
 
 | Value | Meaning |
 | --- | --- |
-| ****VerifyNone**** | Does not verify. |
-| ****VerifySilent**** | Does not verify if a user interface is required to open the private key; otherwise verification occurs. For more information, see Remarks. |
-| ****VerifySmartCardNone**** | Does not verify if the key is stored on a smart card; otherwise, this value is equivalent to **VerifyAllowUI**. |
-| ****VerifySmartCardSilent**** | Does not verify if a user interface is required to open the private key and the key is stored on a smart card; otherwise, this value is equivalent to **VerifyAllowUI**. For more information, see Remarks. |
-| ****VerifyAllowUI**** | The method allows a user interface to be displayed. |
+| **VerifyNone** | Does not verify. |
+| **VerifySilent** | Does not verify if a user interface is required to open the private key; otherwise verification occurs. For more information, see Remarks. |
+| **VerifySmartCardNone** | Does not verify if the key is stored on a smart card; otherwise, this value is equivalent to **VerifyAllowUI**. |
+| **VerifySmartCardSilent** | Does not verify if a user interface is required to open the private key and the key is stored on a smart card; otherwise, this value is equivalent to **VerifyAllowUI**. For more information, see Remarks. |
+| **VerifyAllowUI** | The method allows a user interface to be displayed. |
 
 ## Return value
 

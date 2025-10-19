@@ -23,9 +23,9 @@ Specify the members of the input
 
 | Member | Meaning |
 | --- | --- |
-| ****dwType**** | This member should be filled in if known; otherwise, it should be set to **NULL**. |
-| ****lpRemoteName**** | This member should specify the remote name of the network resource whose parent is required. |
-| ****lpProvider**** | This member should specify the network provider that owns the resource. This member is required; otherwise, the function could produce incorrect results. |
+| **dwType** | This member should be filled in if known; otherwise, it should be set to **NULL**. |
+| **lpRemoteName** | This member should specify the remote name of the network resource whose parent is required. |
+| **lpProvider** | This member should specify the network provider that owns the resource. This member is required; otherwise, the function could produce incorrect results. |
 
 All other members of the
 **NETRESOURCE** structure are ignored.

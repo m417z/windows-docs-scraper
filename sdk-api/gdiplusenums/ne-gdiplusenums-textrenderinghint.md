@@ -34,7 +34,7 @@ Windows XP and Windows Server 2003 and later versions of Windows only: ClearType
 
 ## Remarks
 
-The quality associated with each process varies according to the circumstances. ****TextRenderingHintClearTypeGridFit**** provides the best quality for most LCD monitors and relatively small font sizes. ****TextRenderingHintAntiAlias**** provides the best quality for rotated text. Generally, a process that produces higher quality text is slower than a process that produces lower quality text.
+The quality associated with each process varies according to the circumstances. **TextRenderingHintClearTypeGridFit** provides the best quality for most LCD monitors and relatively small font sizes. **TextRenderingHintAntiAlias** provides the best quality for rotated text. Generally, a process that produces higher quality text is slower than a process that produces lower quality text.
 
 ## See also
 

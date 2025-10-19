@@ -33,8 +33,8 @@ A Boolean value that indicates whether the document markup will be optimized for
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The package writer will try to optimize the markup for minimum size. |
-| ****FALSE**** | The package writer will not try to perform any optimization. |
+| **TRUE** | The package writer will try to optimize the markup for minimum size. |
+| **FALSE** | The package writer will not try to perform any optimization. |
 
 ### `interleaving` [in]
 

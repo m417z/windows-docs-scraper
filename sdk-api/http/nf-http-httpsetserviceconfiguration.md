@@ -22,7 +22,7 @@ Type of configuration record to be set. This parameter can be one of the followi
 | **HttpServiceConfigUrlAclInfo** | Sets a URL reservation record. |
 | **HttpServiceConfigTimeout** | Sets a specified HTTP Server API wide connection time-out.<br><br>**Windows Vista and later:** This enumeration value is supported. |
 | **HttpServiceConfigSslSniCertInfo** | Sets a specified SSL Server Name Indication (SNI) certificate record.<br><br>**Windows 8 and later:** This enumeration value is supported. |
-| ****HttpServiceConfigSslCcsCertInfo**** | Sets the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake. The port is specified by the **KeyDesc** member of the [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure that you pass to the *pConfigInformation* parameter.<br><br>**Windows 8 and later:** This enumeration value is supported. |
+| **HttpServiceConfigSslCcsCertInfo** | Sets the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake. The port is specified by the **KeyDesc** member of the [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure that you pass to the *pConfigInformation* parameter.<br><br>**Windows 8 and later:** This enumeration value is supported. |
 
 ### `pConfigInformation` [in]
 
@@ -35,7 +35,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 | **HttpServiceConfigUrlAclInfo** | [HTTP_SERVICE_CONFIG_URLACL_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set) structure. |
 | **HttpServiceConfigTimeout** | [HTTP_SERVICE_CONFIG_TIMEOUT_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_timeout_set) structure.<br><br>**Windows Vista and later:** This structure is supported. |
 | **HttpServiceConfigSslSniCertInfo** | [HTTP_SERVICE_CONFIG_SSL_SNI_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set) structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.<br><br>**Windows 8 and later:** This structure is supported. |
-| ****HttpServiceConfigSslCcsCertInfo**** | [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure.<br><br>**Windows 8 and later:** This structure is supported. |
+| **HttpServiceConfigSslCcsCertInfo** | [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure.<br><br>**Windows 8 and later:** This structure is supported. |
 
 ### `ConfigInformationLength` [in]
 

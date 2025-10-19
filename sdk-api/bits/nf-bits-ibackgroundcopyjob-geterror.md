@@ -19,7 +19,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully generated the error object. |
+| **S_OK** | Successfully generated the error object. |
 | **BG_E_ERROR_INFORMATION_UNAVAILABLE** | The error interface is available only after an error occurs (BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSIENT_ERROR) and before BITS begins transferring data (BG_JOB_STATE_TRANSFERRING). |
 
 ## Remarks

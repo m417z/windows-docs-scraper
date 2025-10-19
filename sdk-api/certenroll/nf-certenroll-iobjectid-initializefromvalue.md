@@ -18,9 +18,9 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The OID information could not be found. |
-| ****CRYPT_E_UNKNOWN_ALGO**** | The algorithm name is not recognized. |
-| ****HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)**** | The object is already initialized. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The OID information could not be found. |
+| **CRYPT_E_UNKNOWN_ALGO** | The algorithm name is not recognized. |
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The object is already initialized. |
 
 ## Remarks
 

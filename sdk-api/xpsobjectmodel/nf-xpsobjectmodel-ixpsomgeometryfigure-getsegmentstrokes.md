@@ -26,8 +26,8 @@ The following table shows the possible values of an element in the array that is
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The segment is stroked. |
-| ****FALSE**** | The segment is not stroked. |
+| **TRUE** | The segment is stroked. |
+| **FALSE** | The segment is not stroked. |
 
 ## Return value
 

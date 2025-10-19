@@ -16,8 +16,8 @@ A Boolean value that indicates whether the document markup of the page is to be 
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The package writer will attempt to optimize the markup for minimum size when writing the page to the stream. |
-| ****FALSE**** | The package writer will not attempt any optimization when writing the page to the stream. |
+| **TRUE** | The package writer will attempt to optimize the markup for minimum size when writing the page to the stream. |
+| **FALSE** | The package writer will not attempt any optimization when writing the page to the stream. |
 
 ## Return value
 

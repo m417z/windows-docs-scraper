@@ -25,8 +25,8 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_ACCESSDENIED**** | The caller does not have permission to delete the credential. |
-| ****WINBIO_E_CRED_PROV_NO_CREDENTIAL**** | The specified identity does not exist or does not have any related records in the credential store. |
+| **E_ACCESSDENIED** | The caller does not have permission to delete the credential. |
+| **WINBIO_E_CRED_PROV_NO_CREDENTIAL** | The specified identity does not exist or does not have any related records in the credential store. |
 
 ## Remarks
 

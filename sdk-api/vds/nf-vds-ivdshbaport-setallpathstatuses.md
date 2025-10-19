@@ -18,8 +18,8 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK**** | The statuses were successfully set. |
-| ****VDS_S_STATUSES_INCOMPLETELY_SET****<br><br>0x00042702L | At least one path's status was not set successfully due to a nonfatal error (for example, the status conflicts with the current load balance policy). |
+| **S_OK** | The statuses were successfully set. |
+| **VDS_S_STATUSES_INCOMPLETELY_SET**<br><br>0x00042702L | At least one path's status was not set successfully due to a nonfatal error (for example, the status conflicts with the current load balance policy). |
 
 ## See also
 

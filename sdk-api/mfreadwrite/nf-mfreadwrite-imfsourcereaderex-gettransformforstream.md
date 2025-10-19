@@ -13,8 +13,8 @@ The stream to query for the MFT. The value can be any of the following.
 | Value | Meaning |
 | --- | --- |
 | 0–0xFFFFFFFB | The zero-based index of a stream. |
-| ****MF_SOURCE_READER_FIRST_VIDEO_STREAM****<br><br>0xFFFFFFFC | The first video stream. |
-| ****MF_SOURCE_READER_FIRST_AUDIO_STREAM****<br><br>0xFFFFFFFD | The first audio stream. |
+| **MF_SOURCE_READER_FIRST_VIDEO_STREAM**<br><br>0xFFFFFFFC | The first video stream. |
+| **MF_SOURCE_READER_FIRST_AUDIO_STREAM**<br><br>0xFFFFFFFD | The first audio stream. |
 
 ### `dwTransformIndex` [in]
 
@@ -36,7 +36,7 @@ This method can return one of these values.
 | --- | --- |
 | **S_OK** | Success. |
 | **MF_E_INVALIDINDEX** | The *dwTransformIndex* parameter is out of range. |
-| ****MF_E_INVALIDSTREAMNUMBER**** | The *dwStreamIndex* parameter is invalid. |
+| **MF_E_INVALIDSTREAMNUMBER** | The *dwStreamIndex* parameter is invalid. |
 
 ## Remarks
 

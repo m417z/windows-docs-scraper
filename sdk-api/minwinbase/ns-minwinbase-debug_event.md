@@ -48,14 +48,16 @@ member.
 
 ### `u.Exception`
 
-**Type: **[EXCEPTION_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info)****
+Type: **[EXCEPTION_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info)**
+
 If the **dwDebugEventCode** is **EXCEPTION_DEBUG_EVENT** (1),
 **u.Exception** specifies an
 [EXCEPTION_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info) structure.
 
 ### `u.CreateThread`
 
-**Type: **[CREATE_THREAD_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info)****
+Type: **[CREATE_THREAD_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info)**
+
 If the **dwDebugEventCode** is **CREATE_THREAD_DEBUG_EVENT**
 (2), **u.CreateThread** specifies an
 [CREATE_THREAD_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info)
@@ -63,7 +65,8 @@ structure.
 
 ### `u.CreateProcessInfo`
 
-**Type: **[CREATE_PROCESS_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info)****
+Type: **[CREATE_PROCESS_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info)**
+
 If the **dwDebugEventCode** is **CREATE_PROCESS_DEBUG_EVENT**
 (3), **u.CreateProcessInfo** specifies an
 [CREATE_PROCESS_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info)
@@ -71,35 +74,40 @@ structure.
 
 ### `u.ExitThread`
 
-**Type: **[EXIT_THREAD_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info)****
+Type: **[EXIT_THREAD_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info)**
+
 If the **dwDebugEventCode** is **EXIT_THREAD_DEBUG_EVENT**
 (4), **u.ExitThread** specifies an
 [EXIT_THREAD_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info) structure.
 
 ### `u.ExitProcess`
 
-**Type: **[EXIT_PROCESS_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info)****
+Type: **[EXIT_PROCESS_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info)**
+
 If the **dwDebugEventCode** is **EXIT_PROCESS_DEBUG_EVENT**
 (5), **u.ExitProcess** specifies an
 [EXIT_PROCESS_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info) structure.
 
 ### `u.LoadDll`
 
-**Type: **[LOAD_DLL_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info)****
+Type: **[LOAD_DLL_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info)**
+
 If the **dwDebugEventCode** is **LOAD_DLL_DEBUG_EVENT** (6),
 **u.LoadDll** specifies an
 [LOAD_DLL_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info) structure.
 
 ### `u.UnloadDll`
 
-**Type: **[UNLOAD_DLL_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info)****
+Type: **[UNLOAD_DLL_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info)**
+
 If the **dwDebugEventCode** is **UNLOAD_DLL_DEBUG_EVENT**
 (7), **u.UnloadDll** specifies an
 [UNLOAD_DLL_DEBUG_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info) structure.
 
 ### `u.DebugString`
 
-**Type: **[OUTPUT_DEBUG_STRING_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info)****
+Type: **[OUTPUT_DEBUG_STRING_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info)**
+
 If the **dwDebugEventCode** is **OUTPUT_DEBUG_STRING_EVENT**
 (8), **u.DebugString** specifies an
 [OUTPUT_DEBUG_STRING_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info)
@@ -107,7 +115,8 @@ structure.
 
 ### `u.RipInfo`
 
-**Type: **[RIP_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-rip_info)****
+Type: **[RIP_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-rip_info)**
+
 If the **dwDebugEventCode** is **RIP_EVENT** (9),
 **u.RipInfo** specifies an
 [RIP_INFO](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-rip_info) structure.

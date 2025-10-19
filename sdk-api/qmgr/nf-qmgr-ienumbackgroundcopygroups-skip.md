@@ -18,7 +18,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully skipped the number of requested elements. |
+| **S_OK** | Successfully skipped the number of requested elements. |
 | **S_FALSE** | Skipped less than the number of requested elements. |
 
 ## See also

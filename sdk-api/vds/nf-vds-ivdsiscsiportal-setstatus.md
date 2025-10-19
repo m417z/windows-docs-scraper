@@ -22,11 +22,11 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The status was set successfully. |
-| ****VDS_E_PROVIDER_CACHE_CORRUPT**** | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
-| ****VDS_E_OBJECT_DELETED**** | The portal object is no longer present. |
-| ****VDS_E_ANOTHER_CALL_IN_PROGRESS**** | Another operation is in progress. This operation cannot proceed until the previous operations are complete. |
-| ****VDS_E_NOT_SUPPORTED**** | The operation or combination of parameters is not supported by this provider. |
+| **S_OK** | The status was set successfully. |
+| **VDS_E_PROVIDER_CACHE_CORRUPT** | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
+| **VDS_E_OBJECT_DELETED** | The portal object is no longer present. |
+| **VDS_E_ANOTHER_CALL_IN_PROGRESS** | Another operation is in progress. This operation cannot proceed until the previous operations are complete. |
+| **VDS_E_NOT_SUPPORTED** | The operation or combination of parameters is not supported by this provider. |
 
 ## See also
 

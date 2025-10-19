@@ -26,7 +26,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 | --- | --- |
 | **E_INVALIDARG** | The bitmask contained in the *Factor* parameter contains one or more an invalid type bits. |
 | **E_OUTOFMEMORY** | There was insufficient memory to complete the request. |
-| ****E_POINTER**** | The *StorageSchemaArray* and *StorageCount* parameters cannot be **NULL**. |
+| **E_POINTER** | The *StorageSchemaArray* and *StorageCount* parameters cannot be **NULL**. |
 
 ## Remarks
 

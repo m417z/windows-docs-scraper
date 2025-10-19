@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Job owner's identity was successfully retrieved. |
+| **S_OK** | Job owner's identity was successfully retrieved. |
 | **E_INVALIDARG** | The *ppOwner* parameter cannot be **NULL**. |
 
 ## Remarks

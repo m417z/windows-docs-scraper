@@ -16,13 +16,13 @@ If the function succeeds, it returns **S_OK**. If the function fails, it returns
 
 | Return code | Description |
 | --- | --- |
-| ****E_ACCESSDENIED**** | The caller does not have permission to switch users or the biometric session is out of date. |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****S_FALSE**** | The user identified by the *SessionHandle* parameter is the same as the current user. |
+| **E_ACCESSDENIED** | The caller does not have permission to switch users or the biometric session is out of date. |
+| **E_HANDLE** | The session handle is not valid. |
+| **S_FALSE** | The user identified by the *SessionHandle* parameter is the same as the current user. |
 | **SEC_E_LOGON_DENIED** | The user could not be logged on. |
-| ****WINBIO_E_CRED_PROV_DISABLED**** | Current administrative policy prohibits use of the credential provider. |
-| ****WINBIO_E_FAST_USER_SWITCH_DISABLED**** | Fast user switching is not enabled. |
-| ****WINBIO_E_SAS_ENABLED**** | Fast user switching cannot be performed because secure logon (CTRL+ALT+DELETE) is currently enabled. |
+| **WINBIO_E_CRED_PROV_DISABLED** | Current administrative policy prohibits use of the credential provider. |
+| **WINBIO_E_FAST_USER_SWITCH_DISABLED** | Fast user switching is not enabled. |
+| **WINBIO_E_SAS_ENABLED** | Fast user switching cannot be performed because secure logon (CTRL+ALT+DELETE) is currently enabled. |
 
 ## Remarks
 

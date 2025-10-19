@@ -56,8 +56,8 @@ If the function succeeds, it returns S_OK to indicate that the last update succe
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | The *Pipeline* parameter is **NULL**. |
-| ****WINBIO_E_BAD_CAPTURE**** | The feature set did not meet internal requirements of the engine adapter for an identification operation. Further information about the failure is specified by the *RejectDetail* parameter. |
-| ****WINBIO_E_UNKNOWN_ID**** | The feature set in the pipeline does not correspond to any identity in the database. |
+| **WINBIO_E_BAD_CAPTURE** | The feature set did not meet internal requirements of the engine adapter for an identification operation. Further information about the failure is specified by the *RejectDetail* parameter. |
+| **WINBIO_E_UNKNOWN_ID** | The feature set in the pipeline does not correspond to any identity in the database. |
 
 ## Remarks
 

@@ -13,9 +13,9 @@ The source stream to connect. The value can be any of the following.
 | Value | Meaning |
 | --- | --- |
 | 0–0xFFFFFFFB | The zero-based index of a stream. To get the number of streams, call [IMFCaptureSource::GetDeviceStreamCount](https://learn.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount). |
-| ****MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM****<br><br>0xFFFFFFFB | The first image stream. |
-| ****MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM****<br><br>0xFFFFFFFC | The first video stream. |
-| ****MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM****<br><br>0xFFFFFFFD | The first audio stream. |
+| **MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM**<br><br>0xFFFFFFFB | The first image stream. |
+| **MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM**<br><br>0xFFFFFFFC | The first video stream. |
+| **MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM**<br><br>0xFFFFFFFD | The first audio stream. |
 
 ### `pMediaType` [in]
 

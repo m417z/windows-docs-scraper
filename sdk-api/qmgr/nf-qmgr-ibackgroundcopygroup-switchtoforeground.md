@@ -12,7 +12,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully switched the group to foreground processing. |
+| **S_OK** | Successfully switched the group to foreground processing. |
 
 ## See also
 

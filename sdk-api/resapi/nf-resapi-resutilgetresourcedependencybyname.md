@@ -31,7 +31,7 @@ If the operation fails, the function returns **NULL**. For more information, cal
 | Return code | Description |
 | --- | --- |
 | **HRESOURCE** |  |
-| ****NULL**** | The operation was not successful. For more information, call the function [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). |
+| **NULL** | The operation was not successful. For more information, call the function [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). |
 
 ## Remarks
 

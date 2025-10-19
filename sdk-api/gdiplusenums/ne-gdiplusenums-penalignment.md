@@ -17,4 +17,4 @@ Specifies, when drawing a polygon, that the pen is aligned on the inside of the 
 ## Remarks
 
 If you set the alignment of a
-[Pen](https://learn.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object to ****PenAlignmentInset****, you cannot use that pen to draw compound lines or triangular dash caps.
+[Pen](https://learn.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object to **PenAlignmentInset**, you cannot use that pen to draw compound lines or triangular dash caps.

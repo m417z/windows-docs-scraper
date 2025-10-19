@@ -22,10 +22,10 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid parameter. |
-| ****E_OUTOFMEMORY**** | Not enough memory for media type pointer. |
-| ****E_POINTER**** | Null media type pointer. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid parameter. |
+| **E_OUTOFMEMORY** | Not enough memory for media type pointer. |
+| **E_POINTER** | Null media type pointer. |
 
 ## See also
 

@@ -162,77 +162,92 @@ Device or system control object-specific information. The format of this informa
 
 ### `Info.Drive`
 
-**Type: **[NTMS_DRIVEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa)****
+Type: **[NTMS_DRIVEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa)**
+
 This format is used if the **dwType** value is **NTMS_DRIVE**.
 
 ### `Info.DriveType`
 
-**Type: **[NTMS_DRIVETYPEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa)****
+Type: **[NTMS_DRIVETYPEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa)**
+
 This format is used if the **dwType** value is **NTMS_DRIVE_TYPE**.
 
 ### `Info.Library`
 
-**Type: **[NTMS_LIBRARYINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation)****
+Type: **[NTMS_LIBRARYINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation)**
+
 This format is used if the **dwType** value is **NTMS_LIBRARY**.
 
 ### `Info.Changer`
 
-**Type: **[NTMS_CHANGERINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa)****
+Type: **[NTMS_CHANGERINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa)**
+
 This format is used if the **dwType** value is **NTMS_CHANGER**.
 
 ### `Info.ChangerType`
 
-**Type: **[NTMS_CHANGERTYPEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa)****
+Type: **[NTMS_CHANGERTYPEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa)**
+
 This format is used if the **dwType** value is **NTMS_CHANGER_TYPE**.
 
 ### `Info.StorageSlot`
 
-**Type: **[NTMS_STORAGESLOTINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation)****
+Type: **[NTMS_STORAGESLOTINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation)**
+
 This format is used if the **dwType** value is **NTMS_STORAGESLOT**.
 
 ### `Info.IEDoor`
 
-**Type: **[NTMS_IEDOORINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation)****
+Type: **[NTMS_IEDOORINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation)**
+
 This format is used if the **dwType** value is **NTMS_IEDOOR**.
 
 ### `Info.IEPort`
 
-**Type: **[NTMS_IEPORTINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation)****
+Type: **[NTMS_IEPORTINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation)**
+
 This format is used if the **dwType** value is **NTMS_IEPORT**.
 
 ### `Info.PhysicalMedia`
 
-**Type: **[NTMS_PMIDINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa)****
+Type: **[NTMS_PMIDINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa)**
+
 This format is used if the **dwType** value is **NTMS_PHYSICAL_MEDIA**.
 
 ### `Info.LogicalMedia`
 
-**Type: **[NTMS_LMIDINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation)****
+Type: **[NTMS_LMIDINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation)**
+
 This format is used if the **dwType** value is **NTMS_LOGICAL_MEDIA**.
 
 ### `Info.Partition`
 
-**Type: **[NTMS_PARTITIONINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa)****
+Type: **[NTMS_PARTITIONINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa)**
+
 This format is used if the **dwType** value is **NTMS_PARTITION**.
 
 ### `Info.MediaPool`
 
-**Type: **[NTMS_MEDIAPOOLINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation)****
+Type: **[NTMS_MEDIAPOOLINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation)**
+
 This format is used if the **dwType** value is **NTMS_MEDIA_POOL**.
 
 ### `Info.MediaType`
 
-**Type: **[NTMS_MEDIATYPEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation)****
+Type: **[NTMS_MEDIATYPEINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation)**
+
 This format is used if the **dwType** value is **NTMS_MEDIA_TYPE**.
 
 ### `Info.LibRequest`
 
-**Type: **[NTMS_LIBREQUESTINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa)****
+Type: **[NTMS_LIBREQUESTINFORMATION](https://learn.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa)**
+
 This format is used if the **dwType** value is **NTMS_LIBREQUEST**.
 
 ### `Info.OpRequest`
 
-**Type: **NTMS_OPREQUESTINFORMATION****
+Type: **NTMS_OPREQUESTINFORMATION**
+
 This format is used if the **dwType** value is **NTMS_OPREQUEST**.
 
 ### `Info.Computer`

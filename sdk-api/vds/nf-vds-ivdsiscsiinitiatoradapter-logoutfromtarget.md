@@ -27,10 +27,10 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK**** | The portal group was successfully deleted. |
-| ****VDS_E_ISCSI_LOGOUT_FAILED****<br><br>0x80042709L | The logout failed. |
-| ****VDS_E_ISCSI_SESSION_NOT_FOUND****<br><br>0x8004270AL | VDS could not find a session matching the specified target. |
-| ****VDS_E_ISCSI_LOGOUT_INCOMPLETE****<br><br>0x80042710L | At least one session did not logout successfully. |
+| **S_OK** | The portal group was successfully deleted. |
+| **VDS_E_ISCSI_LOGOUT_FAILED**<br><br>0x80042709L | The logout failed. |
+| **VDS_E_ISCSI_SESSION_NOT_FOUND**<br><br>0x8004270AL | VDS could not find a session matching the specified target. |
+| **VDS_E_ISCSI_LOGOUT_INCOMPLETE**<br><br>0x80042710L | At least one session did not logout successfully. |
 
 ## See also
 

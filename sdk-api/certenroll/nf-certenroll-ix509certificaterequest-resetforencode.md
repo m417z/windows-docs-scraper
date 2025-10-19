@@ -12,9 +12,9 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | Certificate extensions and attributes have not been defined. |
-| ****HRESULT_FROM_WIN32(ERROR_INVALID_STATE)**** | The request object is not encoded. |
-| ****OLE_E_BLANK**** | The object is not initialized. |
+| **CERTSRV_E_PROPERTY_EMPTY** | Certificate extensions and attributes have not been defined. |
+| **HRESULT_FROM_WIN32(ERROR_INVALID_STATE)** | The request object is not encoded. |
+| **OLE_E_BLANK** | The object is not initialized. |
 
 ## Remarks
 

@@ -22,8 +22,8 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_NOT_SUFFICIENT_BUFFER**** | The *pbPidListBuffer* array is too small. |
+| **S_OK** | The method succeeded. |
+| **E_NOT_SUFFICIENT_BUFFER** | The *pbPidListBuffer* array is too small. |
 
 ## Remarks
 

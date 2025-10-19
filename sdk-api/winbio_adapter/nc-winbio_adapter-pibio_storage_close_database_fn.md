@@ -17,7 +17,7 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | The *Pipeline* argument cannot be **NULL**. |
-| ****WINBIO_E_DATABASE_CANT_CLOSE**** | An unspecified problem has caused the request to fail. |
+| **WINBIO_E_DATABASE_CANT_CLOSE** | An unspecified problem has caused the request to fail. |
 
 ## Remarks
 

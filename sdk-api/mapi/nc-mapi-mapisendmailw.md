@@ -30,7 +30,7 @@ If no dialog box is displayed during the call, *ulUIParam* is ignored.
 
 ### `lpMessage` [in]
 
-Type: ****lpMapiMessageW****
+Type: **lpMapiMessageW**
 
 Pointer to a **MAPISendMailW** structure containing the message to be sent.
 

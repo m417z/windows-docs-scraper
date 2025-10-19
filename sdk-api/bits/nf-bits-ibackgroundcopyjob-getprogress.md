@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Progress information was successfully retrieved. |
+| **S_OK** | Progress information was successfully retrieved. |
 | **E_INVALIDARG** | The *pProgress* parameter cannot be **NULL**. |
 
 ## See also

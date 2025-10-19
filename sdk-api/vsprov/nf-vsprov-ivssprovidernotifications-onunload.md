@@ -17,7 +17,7 @@ This method can return one of these values.
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK****<br><br>0x00000000L | There are no pending operations and the provider is ready to be released. |
+| **S_OK**<br><br>0x00000000L | There are no pending operations and the provider is ready to be released. |
 | **S_FALSE**<br><br>0x00000001L | The provider should not be unloaded. This value can only be returned if *bForceUnload* is **FALSE**. |
 
 ## Remarks

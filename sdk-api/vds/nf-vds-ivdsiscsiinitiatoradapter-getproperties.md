@@ -22,8 +22,8 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK**** | The properties were returned successfully. |
-| ****VDS_S_PROPERTIES_INCOMPLETE****<br><br>0x00042715L | Some but not all of the properties were successfully retrieved. Note that there are many possible reasons for failing to retrieve all properties, including device removal. |
+| **S_OK** | The properties were returned successfully. |
+| **VDS_S_PROPERTIES_INCOMPLETE**<br><br>0x00042715L | Some but not all of the properties were successfully retrieved. Note that there are many possible reasons for failing to retrieve all properties, including device removal. |
 
 ## See also
 

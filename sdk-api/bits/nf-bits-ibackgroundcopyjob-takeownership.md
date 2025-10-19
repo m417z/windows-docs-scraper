@@ -10,7 +10,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Job ownership was successfully changed. |
+| **S_OK** | Job ownership was successfully changed. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. |
 | **BG_E_NEW_OWNER_NO_FILE_ACCESS** | The new owner has insufficient access to the temporary files on the client computer. BITS creates the temporary files using the owner's security permissions. |
 | **BG_E_NEW_OWNER_DIFF_MAPPING** | The current owner's network drive mapping for the local file is different from the previous owner's. |

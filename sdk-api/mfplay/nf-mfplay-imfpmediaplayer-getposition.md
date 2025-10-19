@@ -14,7 +14,7 @@ Specifies the unit of time for the playback position. The following value is def
 
 | Value | Meaning |
 | --- | --- |
-| ****MFP_POSITIONTYPE_100NS**** | 100-nanosecond units. <br><br>The value returned in *pvPositionValue* is a **LARGE_INTEGER**.<br><br>* Variant type (**vt**): **VT_I8**<br>* Variant member: **hVal** |
+| **MFP_POSITIONTYPE_100NS** | 100-nanosecond units. <br><br>The value returned in *pvPositionValue* is a **LARGE_INTEGER**.<br><br>* Variant type (**vt**): **VT_I8**<br>* Variant member: **hVal** |
 
 ### `pvPositionValue` [out]
 
@@ -26,10 +26,10 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid argument. |
-| ****MF_E_INVALIDREQUEST**** | No media item has been queued. |
-| ****MF_E_SHUTDOWN**** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid argument. |
+| **MF_E_INVALIDREQUEST** | No media item has been queued. |
+| **MF_E_SHUTDOWN** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
 
 ## Remarks
 

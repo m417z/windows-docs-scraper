@@ -19,10 +19,10 @@ A pointer to a **null**-terminated string that contains the name of the trustee 
 
 | Value | Meaning |
 | --- | --- |
-| ****pMultipleTrustee**** | **NULL** |
-| ****MultipleTrusteeOperation**** | NO_MULTIPLE_TRUSTEE |
-| ****TrusteeForm**** | TRUSTEE_IS_NAME |
-| ****TrusteeType**** | TRUSTEE_IS_UNKNOWN |
+| **pMultipleTrustee** | **NULL** |
+| **MultipleTrusteeOperation** | NO_MULTIPLE_TRUSTEE |
+| **TrusteeForm** | TRUSTEE_IS_NAME |
+| **TrusteeType** | TRUSTEE_IS_UNKNOWN |
 
 ### `AccessPermissions` [in]
 

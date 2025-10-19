@@ -32,7 +32,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Error code description was successfully retrieved. |
+| **S_OK** | Error code description was successfully retrieved. |
 | **HRESULT_FROM_WIN32(ERROR_RESOURCE_LANG_NOT_FOUND)** | No string is available for the locale. |
 
 ## Remarks

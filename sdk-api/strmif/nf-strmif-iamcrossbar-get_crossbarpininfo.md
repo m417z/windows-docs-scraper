@@ -14,8 +14,8 @@ Specifies the direction of the pin. Use one of the following values.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Input pin |
-| ****FALSE**** | Output pin |
+| **TRUE** | Input pin |
+| **FALSE** | Output pin |
 
 ### `PinIndex` [in]
 

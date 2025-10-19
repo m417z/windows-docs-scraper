@@ -16,7 +16,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_POINTER**** | The *Address* parameter cannot be **NULL**. |
+| **E_POINTER** | The *Address* parameter cannot be **NULL**. |
 
 ## Remarks
 

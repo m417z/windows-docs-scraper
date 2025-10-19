@@ -22,7 +22,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****ERROR_ALREADY_INITIALIZED**** | The certificate request object has already been initialized. |
+| **ERROR_ALREADY_INITIALIZED** | The certificate request object has already been initialized. |
 
 ## Remarks
 

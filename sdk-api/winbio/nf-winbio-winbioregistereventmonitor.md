@@ -36,11 +36,11 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_POINTER**** | The address of the callback function specified by the *EventCallback* parameter cannot be **NULL**. |
-| ****E_INVALIDARG**** | The *EventMask* parameter cannot be zero and you cannot specify both **WINBIO_EVENT_FP_UNCLAIMED** and **WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY** at the same time. |
-| ****WINBIO_E_EVENT_MONITOR_ACTIVE**** | An active event monitor has already been registered. |
-| ****WINBIO_E_INVALID_OPERATION**** | The service provider does not support event notification. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_POINTER** | The address of the callback function specified by the *EventCallback* parameter cannot be **NULL**. |
+| **E_INVALIDARG** | The *EventMask* parameter cannot be zero and you cannot specify both **WINBIO_EVENT_FP_UNCLAIMED** and **WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY** at the same time. |
+| **WINBIO_E_EVENT_MONITOR_ACTIVE** | An active event monitor has already been registered. |
+| **WINBIO_E_INVALID_OPERATION** | The service provider does not support event notification. |
 
 ## Remarks
 

@@ -35,8 +35,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CRYPT_E_NOT_FOUND**** | The certificate could not be found. |
-| ****CRYPT_E_UNEXPECTED_MSG_TYPE**** | The certificate was found but the private key could not be loaded. |
+| **CRYPT_E_NOT_FOUND** | The certificate could not be found. |
+| **CRYPT_E_UNEXPECTED_MSG_TYPE** | The certificate was found but the private key could not be loaded. |
 
 ## See also
 

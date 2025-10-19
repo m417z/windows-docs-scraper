@@ -10,7 +10,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Job was successfully canceled. |
+| **S_OK** | Job was successfully canceled. |
 | **BG_S_UNABLE_TO_DELETE_FILES** | Job was successfully canceled; however, the service was unable to delete the temporary files associated with the job. |
 | **BG_E_INVALID_STATE** | Cannot cancel a job whose state is BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. |
 

@@ -16,7 +16,7 @@ This parameter can be a string SID that specifies the user account that contains
 
 | Type of SID | Meaning |
 | --- | --- |
-| ****NULL**** | **NULL** denotes the currently logged on user. When referencing the current user account, *szUserSID* can be **NULL** and *dwContext* can be **MSIINSTALLCONTEXT_USERMANAGED** or **MSIINSTALLCONTEXT_USERUNMANAGED**. |
+| **NULL** | **NULL** denotes the currently logged on user. When referencing the current user account, *szUserSID* can be **NULL** and *dwContext* can be **MSIINSTALLCONTEXT_USERMANAGED** or **MSIINSTALLCONTEXT_USERUNMANAGED**. |
 | **User SID** | Specifies enumeration for a particular user in the system. An example of a user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561". |
 
 **Note** The special SID string "S-1-5-18" (system) cannot be used to enumerate products or patches installed as per-machine. Setting the SID value to "S-1-5-18" returns **ERROR_INVALID_PARAMETER**.

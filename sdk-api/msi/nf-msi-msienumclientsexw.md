@@ -19,7 +19,7 @@ A null-terminated string value that contains a security identifier (SID.) The en
 
 | SID type | Meaning |
 | --- | --- |
-| ****NULL**** | Specifies the currently logged-on user. |
+| **NULL** | Specifies the currently logged-on user. |
 | **User SID** | Specifies an enumeration for a particular user. An example of an user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561". |
 | **s-1-1-0** | Specifies an enumeration for all users in the system. |
 

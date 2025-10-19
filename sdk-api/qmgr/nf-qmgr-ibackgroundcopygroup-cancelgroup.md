@@ -12,7 +12,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The group was successfully canceled. |
+| **S_OK** | The group was successfully canceled. |
 
 ## See also
 

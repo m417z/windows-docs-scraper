@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The state of the job was successfully retrieved. |
+| **S_OK** | The state of the job was successfully retrieved. |
 | **E_INVALIDARG** | The parameter, *pJobState*, cannot be **NULL**. |
 
 ## Remarks

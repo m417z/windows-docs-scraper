@@ -16,7 +16,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Time-out was successfully retrieved. |
+| **S_OK** | Time-out was successfully retrieved. |
 | **E_INVALIDARG** | Must pass the address of *pRetryPeriod*. |
 
 ## See also

@@ -21,21 +21,21 @@ Specifies an unsigned long integer that indicates the syntax data type of the **
 
 | Syntax data type | Meaning |
 | --- | --- |
-| ****SNMP_SYNTAX_INT**** | Indicates a 32-bit signed integer variable. |
-| ****SNMP_SYNTAX_OCTETS**** | Indicates an octet string variable that is binary or textual data. |
-| ****SNMP_SYNTAX_NULL**** | Indicates a **NULL** value. |
-| ****SNMP_SYNTAX_OID**** | Indicates an object identifier variable that is an assigned name with a maximum of 128 subidentifiers. |
-| ****SNMP_SYNTAX_INT32**** | Indicates a 32-bit signed integer variable. |
-| ****SNMP_SYNTAX_IPADDR**** | Indicates a 32-bit Internet address variable. |
-| ****SNMP_SYNTAX_CNTR32**** | Indicates a counter variable that increases until it reaches a maximum value of (2^32) – 1. |
-| ****SNMP_SYNTAX_GAUGE32**** | Indicates a gauge variable that is a non-negative integer that can increase or decrease, but never exceed a maximum value. |
-| ****SNMP_SYNTAX_TIMETICKS**** | Indicates a counter variable that measures the time in hundredths of a second, until it reaches a maximum value of (2^32) – 1. It is a non-negative integer that is relative to a specific timer event. |
-| ****SNMP_SYNTAX_OPAQUE**** | This type provides backward compatibility, and should not be used for new object types. It supports the capability to pass arbitrary Abstract Syntax Notation One (ASN.1) syntax. |
-| ****SNMP_SYNTAX_CNTR64**** | Indicates a counter variable that increases until it reaches a maximum value of (2^64) – 1. |
-| ****SNMP_SYNTAX_UINT32**** | Indicates a 32-bit unsigned integer variable. |
-| ****SNMP_SYNTAX_NOSUCHOBJECT**** | Indicates that the agent does not support the object type that corresponds to the variable. |
-| ****SNMP_SYNTAX_NOSUCHINSTANCE**** | Indicates that the object instance does not exist for the operation. |
-| ****SNMP_SYNTAX_ENDOFMIBVIEW**** | Indicates the WinSNMP application is attempting to reference an object identifier that is beyond the end of the MIB tree that the agent supports. |
+| **SNMP_SYNTAX_INT** | Indicates a 32-bit signed integer variable. |
+| **SNMP_SYNTAX_OCTETS** | Indicates an octet string variable that is binary or textual data. |
+| **SNMP_SYNTAX_NULL** | Indicates a **NULL** value. |
+| **SNMP_SYNTAX_OID** | Indicates an object identifier variable that is an assigned name with a maximum of 128 subidentifiers. |
+| **SNMP_SYNTAX_INT32** | Indicates a 32-bit signed integer variable. |
+| **SNMP_SYNTAX_IPADDR** | Indicates a 32-bit Internet address variable. |
+| **SNMP_SYNTAX_CNTR32** | Indicates a counter variable that increases until it reaches a maximum value of (2^32) – 1. |
+| **SNMP_SYNTAX_GAUGE32** | Indicates a gauge variable that is a non-negative integer that can increase or decrease, but never exceed a maximum value. |
+| **SNMP_SYNTAX_TIMETICKS** | Indicates a counter variable that measures the time in hundredths of a second, until it reaches a maximum value of (2^32) – 1. It is a non-negative integer that is relative to a specific timer event. |
+| **SNMP_SYNTAX_OPAQUE** | This type provides backward compatibility, and should not be used for new object types. It supports the capability to pass arbitrary Abstract Syntax Notation One (ASN.1) syntax. |
+| **SNMP_SYNTAX_CNTR64** | Indicates a counter variable that increases until it reaches a maximum value of (2^64) – 1. |
+| **SNMP_SYNTAX_UINT32** | Indicates a 32-bit unsigned integer variable. |
+| **SNMP_SYNTAX_NOSUCHOBJECT** | Indicates that the agent does not support the object type that corresponds to the variable. |
+| **SNMP_SYNTAX_NOSUCHINSTANCE** | Indicates that the object instance does not exist for the operation. |
+| **SNMP_SYNTAX_ENDOFMIBVIEW** | Indicates the WinSNMP application is attempting to reference an object identifier that is beyond the end of the MIB tree that the agent supports. |
 
 The last three syntax types describe exception conditions under the SNMP version 2C (SNMPv2C) framework.
 
@@ -47,32 +47,38 @@ Specifies the union of all possible WinSNMP syntax data types, including the
 
 #### sNumber
 
-**Type: **smiINT****
+Type: **smiINT**
+
 Specifies a signed long integer value.
 
 #### uNumber
 
-**Type: **smiUINT32****
+Type: **smiUINT32**
+
 Specifies a 32-bit unsigned long integer value.
 
 #### hNumber
 
-**Type: **smiCNTR64****
+Type: **smiCNTR64**
+
 Specifies a 64-bit unsigned integer value
 
 #### string
 
-**Type: **smiOCTETS****
+Type: **smiOCTETS**
+
 Specifies a string.
 
 #### oid
 
-**Type: **smiOID****
+Type: **smiOID**
+
 Specifies an object identifier (OID).
 
 #### empty
 
-**Type: **smiBYTE****
+Type: **smiBYTE**
+
 Specifies an empty member.
 
 ### `sNumber`

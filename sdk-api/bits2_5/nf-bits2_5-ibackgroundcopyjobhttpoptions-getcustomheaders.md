@@ -17,10 +17,10 @@ The following table lists some of the possible return values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the headers. |
-| ****S_FALSE**** | The job does not specify custom headers. |
-| ****E_ACCESSDENIED**** | Either you don't have permission to retrieve the custom headers, or [IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly](https://learn.microsoft.com/windows/desktop/api/bits10_3/nf-bits10_3-ibackgroundcopyjobhttpoptions3-makecustomheaderswriteonly) has been called on the job. |
-| ****RPC_X_NULL_REF_POINTER**** | The *pRequestHeaders* parameter is **NULL**. |
+| **S_OK** | Successfully retrieved the headers. |
+| **S_FALSE** | The job does not specify custom headers. |
+| **E_ACCESSDENIED** | Either you don't have permission to retrieve the custom headers, or [IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly](https://learn.microsoft.com/windows/desktop/api/bits10_3/nf-bits10_3-ibackgroundcopyjobhttpoptions3-makecustomheaderswriteonly) has been called on the job. |
+| **RPC_X_NULL_REF_POINTER** | The *pRequestHeaders* parameter is **NULL**. |
 
 ## Remarks
 

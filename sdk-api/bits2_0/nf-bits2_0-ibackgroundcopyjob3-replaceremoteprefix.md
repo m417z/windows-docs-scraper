@@ -20,7 +20,7 @@ This method returns the following return values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success |
+| **S_OK** | Success |
 | **S_FALSE** | No matches found. |
 | **E_INVALIDARG** | Applying *NewPrefix* creates an invalid URL or the new URL is too long (the URL cannot exceed 2,200 characters).<br><br>You can also receive this return code if the *OldPrefix* or *NewPrefix* is an empty string. |
 | **E_NOTIMPL** | You cannot call this method for upload or upload-reply jobs; call this method only for download jobs. |

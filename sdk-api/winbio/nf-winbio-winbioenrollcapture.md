@@ -31,12 +31,12 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_ACCESSDENIED**** | The calling account is not allowed to perform enrollment. |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_POINTER**** | The pointer specified by the *RejectDetail* parameter cannot be **NULL**. |
-| ****WINBIO_E_BAD_CAPTURE**** | The sample could not be captured. Use the *RejectDetail* value for more information. |
-| ****WINBIO_E_LOCK_VIOLATION**** | The biometric unit is in use and is locked. |
-| ****WINBIO_I_MORE_DATA**** | The matching engine requires one or more additional samples to generate a reliable template. You should update instructions to the user to submit more samples and call [WinBioEnrollCapture](https://learn.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture) again. |
+| **E_ACCESSDENIED** | The calling account is not allowed to perform enrollment. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_POINTER** | The pointer specified by the *RejectDetail* parameter cannot be **NULL**. |
+| **WINBIO_E_BAD_CAPTURE** | The sample could not be captured. Use the *RejectDetail* value for more information. |
+| **WINBIO_E_LOCK_VIOLATION** | The biometric unit is in use and is locked. |
+| **WINBIO_I_MORE_DATA** | The matching engine requires one or more additional samples to generate a reliable template. You should update instructions to the user to submit more samples and call [WinBioEnrollCapture](https://learn.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture) again. |
 
 ## Remarks
 

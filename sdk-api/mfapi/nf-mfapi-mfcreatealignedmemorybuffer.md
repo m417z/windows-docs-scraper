@@ -37,7 +37,7 @@ The function returns an **HRESULT**. Possible values include, but are not limite
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The function succeeded. |
+| **S_OK** | The function succeeded. |
 
 ## Remarks
 

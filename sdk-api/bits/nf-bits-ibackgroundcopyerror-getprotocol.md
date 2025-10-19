@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the remote file protocol. |
+| **S_OK** | Successfully retrieved the remote file protocol. |
 | **BG_E_PROTOCOL_NOT_AVAILABLE** | The error is not associated with the remote file transfer protocol. The *ppProtocol* parameter is set to **NULL**. |
 
 ## See also

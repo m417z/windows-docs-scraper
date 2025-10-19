@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success. |
+| **S_OK** | Success. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be **BG_JOB_STATE_CANCELLED** or **BG_JOB_STATE_ACKNOWLEDGED**. |
 | **BG_E_STRING_TOO_LONG** | The *pProgram* or *pParameters* string is too long. |
 

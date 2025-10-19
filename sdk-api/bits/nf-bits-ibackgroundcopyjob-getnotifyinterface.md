@@ -18,7 +18,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Notification interface pointer was successfully retrieved. |
+| **S_OK** | Notification interface pointer was successfully retrieved. |
 | **E_INVALIDARG** | Must pass the address of the *ppNotifyInterface* interface pointer. |
 
 ## See also

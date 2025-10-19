@@ -26,8 +26,8 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded and retrieved *cRequest* elements. |
-| ****S_FALSE**** | The method retrieved fewer elements than requested. |
+| **S_OK** | The method succeeded and retrieved *cRequest* elements. |
+| **S_FALSE** | The method retrieved fewer elements than requested. |
 | **E_FAIL** | The streams have changed, so the caller must enumerate them again. |
 
 ## See also

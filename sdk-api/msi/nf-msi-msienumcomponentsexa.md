@@ -14,7 +14,7 @@ A null-terminated string that contains a security identifier (SID.) The enumerat
 
 | SID type | Meaning |
 | --- | --- |
-| ****NULL**** | Specifies the currently logged-on user. |
+| **NULL** | Specifies the currently logged-on user. |
 | **User SID** | An enumeration for a specific user in the system. An example of an user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561". |
 | **s-1-1-0** | Specifies all users in the system. |
 

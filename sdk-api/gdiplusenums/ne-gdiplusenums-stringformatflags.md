@@ -49,11 +49,11 @@ Specifies that characters overhanging the layout rectangle and text extending ou
 
 Multiple flags set can produce combined effects:
 
-* When both ****StringFormatFlagsDirectionVertical**** and ****StringFormatFlagsDirectionRightToLeft**** are set, individual lines of text are drawn vertically. The first line starts at the right edge of the layout rectangle; the second line of text is to the left of the first line, and so on.
-* When ****StringFormatFlagsDirectionVertical**** is set and ****StringFormatFlagsDirectionRightToLeft**** is not set, individual lines of text are drawn vertically. The first line starts at the left edge of the layout rectangle; the second line of text is to the right of the first line.
-* When ****StringFormatFlagsDirectionRightToLeft**** is set and ****StringFormatFlagsDirectionVertical**** is not set, the individual lines of text are horizontal and the reading order is from right to left. This setting does not change the order in which characters are displayed, it simply specifies the order in which characters can be read.
+* When both **StringFormatFlagsDirectionVertical** and **StringFormatFlagsDirectionRightToLeft** are set, individual lines of text are drawn vertically. The first line starts at the right edge of the layout rectangle; the second line of text is to the left of the first line, and so on.
+* When **StringFormatFlagsDirectionVertical** is set and **StringFormatFlagsDirectionRightToLeft** is not set, individual lines of text are drawn vertically. The first line starts at the left edge of the layout rectangle; the second line of text is to the right of the first line.
+* When **StringFormatFlagsDirectionRightToLeft** is set and **StringFormatFlagsDirectionVertical** is not set, the individual lines of text are horizontal and the reading order is from right to left. This setting does not change the order in which characters are displayed, it simply specifies the order in which characters can be read.
 
-The ****StringFormatFlagsDirectionVertical**** and ****StringFormatFlagsDirectionRightToLeft**** flags can affect string alignment.
+The **StringFormatFlagsDirectionVertical** and **StringFormatFlagsDirectionRightToLeft** flags can affect string alignment.
 
 ## See also
 

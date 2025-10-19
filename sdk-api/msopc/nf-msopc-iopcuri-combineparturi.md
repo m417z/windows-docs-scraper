@@ -33,8 +33,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | **E_UNEXPECTED** | The size of the buffer required by the [CoInternetCombineUrl](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)) function changed unexpectedly. |
 | **OPC_E_NONCONFORMING_URI**<br><br>0x80510001 | The part name does not conform to the rules specified in the *OPC* standards. |
 | **OPC_E_RELATIVE_URI_REQUIRED**<br><br>0x80510002 | A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in [RFC 3986: URI Generic Syntax](https://www.ietf.org/rfc/rfc3986.txt). |
-| ****CoInternetCombineUrl** function error** | An **HRESULT** error code from the [CoInternetCombineUrl](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)) function. |
-| ****CreateUri** function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
+| **CoInternetCombineUrl function error** | An **HRESULT** error code from the [CoInternetCombineUrl](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)) function. |
+| **CreateUri function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
 | **WinINet error** | An **HRESULT** error code from a [WinINet](https://learn.microsoft.com/windows/desktop/WinInet/wininet-reference) API. |
 
 ## Remarks

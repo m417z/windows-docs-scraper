@@ -18,7 +18,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****E_POINTER**** | The *pValue* parameter cannot be **NULL**. |
+| **E_POINTER** | The *pValue* parameter cannot be **NULL**. |
 | **E_NOINTERFACE** | The *pValue* parameter does not point to an [IX509CertificateTemplate](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate) interface. |
 | **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The [IX509CertificateTemplateWritable](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable) has already been initialized. |
 

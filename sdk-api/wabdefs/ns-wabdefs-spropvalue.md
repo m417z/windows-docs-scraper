@@ -22,142 +22,170 @@ Union of data values, with the specific value dictated by the property type. The
 
 #### i
 
-**Type: **short****
+Type: **short**
+
 PT_I2 or PT_SHORT
 
 #### l
 
-**Type: **LONG****
+Type: **LONG**
+
 PT_LONG
 
 #### ul
 
-**Type: **ULONG****
+Type: **ULONG**
+
 PT_LONG
 
 #### flt
 
-**Type: **float****
+Type: **float**
+
 PT_R4
 
 #### dbl
 
-**Type: **double****
+Type: **double**
+
 PT_DOUBLE
 
 #### b
 
-**Type: **USHORT****
+Type: **USHORT**
+
 PT_BOOLEAN
 
 #### cur
 
-**Type: **CURRENCY****
+Type: **CURRENCY**
+
 PT_CURRENCY
 
 #### at
 
-**Type: **double****
+Type: **double**
+
 PT_APPTIME
 
 #### ft
 
-**Type: **FILETIME****
+Type: **FILETIME**
+
 PT_SYSTIME
 
 #### lpszA
 
-**Type: **LPSTR****
+Type: **LPSTR**
+
 PT_STRING8
 
 #### bin
 
-**Type: **[SBinary](https://learn.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12))****
+Type: **[SBinary](https://learn.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12))**
+
 PT_BINARY
 
 #### lpszW
 
-**Type: **LPWSTR****
+Type: **LPWSTR**
+
 PT_UNICODE
 
 #### lpguid
 
-**Type: **LPGUID****
+Type: **LPGUID**
+
 PT_CLSID
 
 #### li
 
-**Type: **LARGE_INTEGER****
+Type: **LARGE_INTEGER**
+
 PT_I8
 
 #### MVi
 
-**Type: **SShortArray****
+Type: **SShortArray**
+
 PT_MV_I2
 
 #### MVl
 
-**Type: **SLongArray****
+Type: **SLongArray**
+
 PT_MV_LONG
 
 #### MVflt
 
-**Type: **SRealArray****
+Type: **SRealArray**
+
 PT_MV_R4
 
 #### MVdbl
 
-**Type: **SDoubleArray****
+Type: **SDoubleArray**
+
 PT_MV_DOUBLE
 
 #### MVcur
 
-**Type: **SCurrencyArray****
+Type: **SCurrencyArray**
+
 PT_MV_CURRENCY
 
 #### MVat
 
-**Type: **SAppTimeArray****
+Type: **SAppTimeArray**
+
 PT_MV_APPTIME
 
 #### MVft
 
-**Type: **SDateTimeArray****
+Type: **SDateTimeArray**
+
 PT_MV_SYSTIME
 
 #### MVbin
 
-**Type: **[SBinaryArray](https://learn.microsoft.com/previous-versions/office/developer/office-2007/cc815398(v=office.12))****
+Type: **[SBinaryArray](https://learn.microsoft.com/previous-versions/office/developer/office-2007/cc815398(v=office.12))**
+
 PT_MV_BINARY
 
 #### MVszA
 
-**Type: **SLPSTRArray****
+Type: **SLPSTRArray**
+
 PT_MV_STRING8
 
 #### MVszW
 
-**Type: **SWStringArray****
+Type: **SWStringArray**
+
 PT_MV_UNICODE
 
 #### MVguid
 
-**Type: **SGuidArray****
+Type: **SGuidArray**
+
 PT_MV_CLSID
 
 #### MVli
 
-**Type: **SLargeIntegerArray****
+Type: **SLargeIntegerArray**
+
 PT_MV_I8
 
 #### err
 
-**Type: **SCODE****
+Type: **SCODE**
+
 PT_ERROR
 
 #### x
 
-**Type: **LONG****
+Type: **LONG**
+
 PT_NULL, PT_OBJECT (no usable value)
 
 ### `_PV`

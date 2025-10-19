@@ -16,8 +16,8 @@ Pointer to an [AM_MEDIA_TYPE](https://learn.microsoft.com/windows/desktop/api/st
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid parameter. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid parameter. |
 
 ## See also
 

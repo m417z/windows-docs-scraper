@@ -26,8 +26,8 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****BDA_E_BUFFER_TOO_SMALL**** | The buffer given in the *pbResponse* parameter is too small. |
+| **S_OK** | The method succeeded. |
+| **BDA_E_BUFFER_TOO_SMALL** | The buffer given in the *pbResponse* parameter is too small. |
 
 ## See also
 

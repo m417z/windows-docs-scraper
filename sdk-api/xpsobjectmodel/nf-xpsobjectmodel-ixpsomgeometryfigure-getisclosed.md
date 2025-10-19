@@ -12,8 +12,8 @@ The Boolean value that indicates whether the figure is closed.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The figure is closed. The line segment between the start and end points of the figure will be stroked to close the shape. |
-| ****FALSE**** | The figure is open. No line segment will be stroked between the start and end points of the figure. |
+| **TRUE** | The figure is closed. The line segment between the start and end points of the figure will be stroked to close the shape. |
+| **FALSE** | The figure is open. No line segment will be stroked between the start and end points of the figure. |
 
 ## Return value
 

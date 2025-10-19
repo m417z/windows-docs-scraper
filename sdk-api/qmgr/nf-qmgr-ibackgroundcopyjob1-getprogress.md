@@ -28,7 +28,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the job's progress. |
+| **S_OK** | Successfully retrieved the job's progress. |
 | **E_NOTIMPL** | You cannot specify QM_PROGRESS_TIME_DONE for the *dwFlags* parameter. |
 
 ## See also

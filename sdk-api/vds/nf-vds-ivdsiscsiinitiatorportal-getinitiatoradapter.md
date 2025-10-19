@@ -19,7 +19,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The initiator adapter was returned successfully. |
+| **S_OK** | The initiator adapter was returned successfully. |
 
 ## See also
 

@@ -18,7 +18,7 @@ The following table lists some of the possible return values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success. |
+| **S_OK** | Success. |
 | **BG_E_STRING_TOO_LONG** | The length of the custom headers is more than 16 KB. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. |
 

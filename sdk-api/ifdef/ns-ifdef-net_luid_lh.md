@@ -18,17 +18,20 @@ A named union containing the component fields in the 64-bit LUID **Value** membe
 
 ### `Info.Reserved`
 
-**Type: **ULONG64****
+Type: **ULONG64**
+
 This field is reserved.
 
 ### `Info.NetLuidIndex`
 
-**Type: **ULONG64****
+Type: **ULONG64**
+
 The network interface LUID index.
 
 ### `Info.IfType`
 
-**Type: **ULONG64****
+Type: **ULONG64**
+
 The interface type as defined by the Internet Assigned Names Authority (IANA). Possible values for the interface type are listed in the *Ipifcons.h* include file.
 
 The table below lists common values for the interface type although many other values are possible.

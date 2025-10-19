@@ -8,7 +8,7 @@ Creates a Direct2D bitmap by copying a WIC bitmap.
 
 ### `wicBitmapSource` [in]
 
-Type: ****IWICBitmapSource*****
+Type: **IWICBitmapSource***
 
 The WIC bitmap source to copy from.
 

@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Job priority was successfully set. |
+| **S_OK** | Job priority was successfully set. |
 | **E_NOTIMPL** | The value for *Priority* is not defined in the [BG_JOB_PRIORITY](https://learn.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_priority) enumeration. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. |
 

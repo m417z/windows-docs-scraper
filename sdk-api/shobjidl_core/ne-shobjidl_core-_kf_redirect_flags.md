@@ -52,7 +52,7 @@ Reserved. Do not use.
 
 ## Remarks
 
-The ****KF_REDIRECT_OWNER_USER**** and ****KF_REDIRECT_SET_OWNER_EXPLICIT**** flags provide ownership checks for the target folder, if that folder exists. By default, [IKnownFolderManager::Redirect](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect) does not perform ownership checks. KF_REDIRECT_OWNER_USER and KF_REDIRECT_SET_OWNER_EXPLICIT are only valid if called together.
+The **KF_REDIRECT_OWNER_USER** and **KF_REDIRECT_SET_OWNER_EXPLICIT** flags provide ownership checks for the target folder, if that folder exists. By default, [IKnownFolderManager::Redirect](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect) does not perform ownership checks. KF_REDIRECT_OWNER_USER and KF_REDIRECT_SET_OWNER_EXPLICIT are only valid if called together.
 
 The **KF_REDIRECT_FLAGS** type is defined in Shobjidl.h as shown here.
 

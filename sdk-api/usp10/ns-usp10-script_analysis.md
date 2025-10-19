@@ -18,8 +18,8 @@ Value indicating rendering direction. Possible values are defined in the followi
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Use a right-to-left rendering direction. |
-| ****FALSE**** | Use a left-to-right rendering direction. |
+| **TRUE** | Use a right-to-left rendering direction. |
+| **FALSE** | Use a left-to-right rendering direction. |
 
 ### `fLayoutRTL`
 
@@ -27,8 +27,8 @@ Value indicating layout direction for a number. Possible values are defined in t
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Lay out the number in a right-to-left run, because it is read as part of the right-to-left sequence. |
-| ****FALSE**** | Lay out the number in a left-to-right run, because it is read as part of the left-to-right sequence. |
+| **TRUE** | Lay out the number in a right-to-left run, because it is read as part of the right-to-left sequence. |
+| **FALSE** | Lay out the number in a left-to-right run, because it is read as part of the left-to-right sequence. |
 
 ### `fLinkBefore`
 
@@ -36,8 +36,8 @@ Value indicating if the shaping engine shapes the first character of the item as
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Shape the first character by linking with a previous character. |
-| ****FALSE**** | Do not shape the first character by linking with a previous character. |
+| **TRUE** | Shape the first character by linking with a previous character. |
+| **FALSE** | Do not shape the first character by linking with a previous character. |
 
 ### `fLinkAfter`
 
@@ -45,8 +45,8 @@ Value indicating if the shaping engine shapes the last character of the item as 
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Shape the last character by linking with a subsequent character. |
-| ****FALSE**** | Do not shape the last character by linking with a subsequent character. |
+| **TRUE** | Shape the last character by linking with a subsequent character. |
+| **FALSE** | Do not shape the last character by linking with a subsequent character. |
 
 ### `fLogicalOrder`
 
@@ -54,8 +54,8 @@ Value indicating if the shaping engine generates all glyph-related arrays in log
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Generate all glyph-related arrays in logical order. |
-| ****FALSE**** | Generate all glyph-related arrays in visual order, with the first array entry corresponding to the leftmost glyph. This value is the default. |
+| **TRUE** | Generate all glyph-related arrays in logical order. |
+| **FALSE** | Generate all glyph-related arrays in visual order, with the first array entry corresponding to the leftmost glyph. This value is the default. |
 
 ### `fNoGlyphIndex`
 
@@ -65,8 +65,8 @@ Disabling the use of glyphs also disables complex script shaping. Setting this m
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Disable the use of glyphs for the item. This value is used for bitmap, vector, and device fonts. |
-| ****FALSE**** | Enable the use of glyphs for the item. This value is the default. |
+| **TRUE** | Disable the use of glyphs for the item. This value is used for bitmap, vector, and device fonts. |
+| **FALSE** | Enable the use of glyphs for the item. This value is the default. |
 
 ### `s`
 

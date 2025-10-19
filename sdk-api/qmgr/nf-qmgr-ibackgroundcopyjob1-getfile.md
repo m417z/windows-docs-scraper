@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the file from the job. |
+| **S_OK** | Successfully retrieved the file from the job. |
 | **QM_E_ITEM_NOT_FOUND** | The specified index is greater than the number of files in the job. |
 
 ## Remarks

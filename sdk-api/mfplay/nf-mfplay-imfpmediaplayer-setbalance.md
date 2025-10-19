@@ -25,8 +25,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_OUT_OF_RANGE**** | The *flBalance* parameter is invalid. |
+| **S_OK** | The method succeeded. |
+| **MF_E_OUT_OF_RANGE** | The *flBalance* parameter is invalid. |
 
 ## Remarks
 

@@ -21,4 +21,4 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****VDS_E_NOT_SUPPORTED**** | This method is not supported in this release. |
+| **VDS_E_NOT_SUPPORTED** | This method is not supported in this release. |

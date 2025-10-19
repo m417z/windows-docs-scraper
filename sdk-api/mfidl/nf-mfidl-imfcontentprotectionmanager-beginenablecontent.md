@@ -30,7 +30,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
+| **S_OK** | The method succeeded. |
 
 ## Remarks
 

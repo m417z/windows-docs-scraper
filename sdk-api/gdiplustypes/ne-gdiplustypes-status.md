@@ -102,4 +102,4 @@ Indicates that the color profile required to save an image in CMYK format was no
 
 If you construct a GDI+ object and then immediately call the
 **GetLastStatus** method of that object, you can determine whether the constructor succeeded or failed. In such cases,
-**GetLastStatus** might return ****OutOfMemory**** even though there was plenty of memory available to create the object. Several GDI+ constructors set the status to ****OutOfMemory**** when they fail regardless of the reason for failure.
+**GetLastStatus** might return **OutOfMemory** even though there was plenty of memory available to create the object. Several GDI+ constructors set the status to **OutOfMemory** when they fail regardless of the reason for failure.

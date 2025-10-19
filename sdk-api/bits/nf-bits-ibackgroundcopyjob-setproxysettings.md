@@ -33,7 +33,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Proxy was successfully specified. |
+| **S_OK** | Proxy was successfully specified. |
 | **E_NOTIMPL** | The value for *ProxyUsage* is not defined in the [BG_JOB_PROXY_USAGE](https://learn.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage) enumeration. |
 | **BG_E_PROXY_LIST_TOO_LARGE** | The *pProxyList* buffer cannot exceed 32 KB. |
 | **BG_E_PROXY_BYPASS_LIST_TOO_LARGE** | The *pProxyBypassList* cannot exceed 32 KB. |

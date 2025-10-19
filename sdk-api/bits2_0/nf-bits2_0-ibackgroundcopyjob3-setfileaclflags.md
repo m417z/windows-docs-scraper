@@ -24,7 +24,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully set the flags. |
+| **S_OK** | Successfully set the flags. |
 | **BG_E_INVALID_STATE** | You must call this method before the job transitions to the [BG_JOB_STATE_TRANSFERRED](https://learn.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_state) state. |
 | **E_INVALIDARG** | The *Flags* parameter contains a flag that is not in the list. |
 

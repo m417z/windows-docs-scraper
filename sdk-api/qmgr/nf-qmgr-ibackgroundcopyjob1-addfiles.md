@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Files were successfully added to the job. |
+| **S_OK** | Files were successfully added to the job. |
 | **E_INVALIDARG** | Local or remote file name is invalid. For example, the remote file name specifies an unsupported protocol. |
 | **E_ACCESSDENIED** | User does not have permission to write to the specified directory on the client. |
 

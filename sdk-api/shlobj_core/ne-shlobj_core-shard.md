@@ -42,7 +42,7 @@ The *pv* parameter points to a null-terminated Unicode string with the path and 
 
 Before Windows 7, SHARD_PIDL, SHARD_PATHA, and SHARD_PATHW were defined as individual constants, not as enumeration members.
 
-When providing an [IShellLink](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka) through either ****SHARD_LINK**** or ****SHARD_APPIDINFOLINK****, the **IShellLink** instance must provide the following:
+When providing an [IShellLink](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka) through either **SHARD_LINK** or **SHARD_APPIDINFOLINK**, the **IShellLink** instance must provide the following:
 
 * Either a PIDL ([IShellLink::SetIDList](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist)) or the target path ([IShellLink::SetPath](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath) or [IShellLink::SetRelativePath](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath))
 * Command-line arguments ([IShellLink::SetArguments](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments))

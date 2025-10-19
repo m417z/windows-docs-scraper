@@ -24,11 +24,11 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK**** | The portal group was created successfully. |
-| ****VDS_E_PROVIDER_CACHE_CORRUPT****<br><br>0x8004241FL | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
-| ****VDS_E_OBJECT_DELETED****<br><br>0x8004240BL | The target object is no longer present. |
-| ****VDS_E_ANOTHER_CALL_IN_PROGRESS****<br><br>0x80042404L | Another operation is in progress; this operation cannot proceed until the previous operations are complete. |
-| ****VDS_E_ASSOCIATED_LUNS_EXIST****<br><br>0x8004270BL | LUNs are associated with this target. All LUNs must be disassociated from this target before this target can be deleted. |
+| **S_OK** | The portal group was created successfully. |
+| **VDS_E_PROVIDER_CACHE_CORRUPT**<br><br>0x8004241FL | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
+| **VDS_E_OBJECT_DELETED**<br><br>0x8004240BL | The target object is no longer present. |
+| **VDS_E_ANOTHER_CALL_IN_PROGRESS**<br><br>0x80042404L | Another operation is in progress; this operation cannot proceed until the previous operations are complete. |
+| **VDS_E_ASSOCIATED_LUNS_EXIST**<br><br>0x8004270BL | LUNs are associated with this target. All LUNs must be disassociated from this target before this target can be deleted. |
 
 ## See also
 

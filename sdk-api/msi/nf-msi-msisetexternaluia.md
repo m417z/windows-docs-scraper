@@ -36,8 +36,8 @@ the [MsiEnableLog](https://learn.microsoft.com/windows/desktop/api/msi/nf-msi-ms
 | **INSTALLLOGMODE_INITIALIZE** | If this is not a quiet installation, then the [basic UI](https://learn.microsoft.com/windows/desktop/Msi/b-gly) has been initialized. If this is a [full UI](https://learn.microsoft.com/windows/desktop/Msi/f-gly) installation, the *full UI* is not yet initialized. This message is only sent to an external user interface and is not logged. |
 | **INSTALLLOGMODE_TERMINATE** | If a [full UI](https://learn.microsoft.com/windows/desktop/Msi/f-gly) is being used, the *full UI* has ended. If this is not a quiet installation, the [basic UI](https://learn.microsoft.com/windows/desktop/Msi/b-gly) has not yet ended. This message is only sent to an external user interface and is not logged. |
 | **INSTALLLOGMODE_SHOWDIALOG** | Sent prior to display of the [full UI](https://learn.microsoft.com/windows/desktop/Msi/f-gly) dialog. This message is only sent to an external user interface and is not logged. |
-| ****INSTALLLOGMODE_INSTALLSTART**** | Installation of product begins. <br><br>The message contains the product's ProductName and ProductCode. |
-| ****INSTALLLOGMODE_INSTALLEND**** | Installation of product ends. <br><br>The message contains the product's ProductName, ProductCode, and return value. |
+| **INSTALLLOGMODE_INSTALLSTART** | Installation of product begins. <br><br>The message contains the product's ProductName and ProductCode. |
+| **INSTALLLOGMODE_INSTALLEND** | Installation of product ends. <br><br>The message contains the product's ProductName, ProductCode, and return value. |
 
 ### `pvContext` [in]
 

@@ -28,9 +28,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid argument. |
-| ****HRESULT_FROM_WIN32(ERROR_NO_MORE_ITEMS)**** | The *index* parameter is out of range. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid argument. |
+| **HRESULT_FROM_WIN32(ERROR_NO_MORE_ITEMS)** | The *index* parameter is out of range. |
 
 ## See also
 

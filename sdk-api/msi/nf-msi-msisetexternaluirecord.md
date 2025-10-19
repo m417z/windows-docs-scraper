@@ -35,8 +35,8 @@ Specifies which messages to handle using the external message handler. If the ex
 | **INSTALLLOGMODE_INITIALIZE** | If this is not a quiet installation, then the [basic UI](https://learn.microsoft.com/windows/desktop/Msi/b-gly) is initialized.<br><br>If this is a full UI installation, the [Full UI](https://learn.microsoft.com/windows/desktop/Msi/f-gly) is not yet initialized.<br><br>This message is only sent to an external user interface and is not logged. |
 | **INSTALLLOGMODE_TERMINATE** | If a full UI is being used, the full UI has ended.<br><br>If this is not a quiet installation, the basic UI has not ended.<br><br>This message is only sent to an external user interface and is not logged. |
 | **INSTALLLOGMODE_SHOWDIALOG** | Sent prior to display of the Full UI dialog.<br><br>This message is only sent to an external user interface and is not logged. |
-| ****INSTALLLOGMODE_INSTALLSTART**** | Installation of product begins.<br><br>The message contains the product's ProductName and ProductCode. |
-| ****INSTALLLOGMODE_INSTALLEND**** | Installation of product ends.<br><br>The message contains the product's ProductName, ProductCode, and return value. |
+| **INSTALLLOGMODE_INSTALLSTART** | Installation of product begins.<br><br>The message contains the product's ProductName and ProductCode. |
+| **INSTALLLOGMODE_INSTALLEND** | Installation of product ends.<br><br>The message contains the product's ProductName, ProductCode, and return value. |
 
 ### `pvContext` [in]
 

@@ -36,7 +36,7 @@ Pointer to a buffer that contains data required for the type of configuration sp
 | **HttpServiceConfigUrlAclInfo** | [HTTP_SERVICE_CONFIG_URLACL_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set) structure. |
 | **HttpServiceConfigTimeouts** | [HTTP_SERVICE_CONFIG_TIMEOUT_KEY](https://learn.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_timeout_key) structure.<br><br>**Windows Vista and later:** This structure is supported. |
 | **HttpServiceConfigSslSniCertInfo** | [HTTP_SERVICE_CONFIG_SSL_SNI_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set) structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.<br><br>**Windows 8 and later:** This structure is supported. |
-| ****HttpServiceConfigSslCcsCertInfo**** | [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure.<br><br>**Windows 8 and later:** This structure is supported. |
+| **HttpServiceConfigSslCcsCertInfo** | [HTTP_SERVICE_CONFIG_SSL_CCS_SET](https://learn.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set) structure.<br><br>**Windows 8 and later:** This structure is supported. |
 
 ### `ConfigInformationLength` [in]
 

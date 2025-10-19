@@ -12,8 +12,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_ARCHIVED_KEY_REQUIRED**** | The [ArchivePrivateKey](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey) property has been set for a CMC request but a key exchange certificate could not be found. |
-| ****OLE_E_BLANK**** | The object is not initialized. |
+| **CERTSRV_E_ARCHIVED_KEY_REQUIRED** | The [ArchivePrivateKey](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey) property has been set for a CMC request but a key exchange certificate could not be found. |
+| **OLE_E_BLANK** | The object is not initialized. |
 
 ## Remarks
 

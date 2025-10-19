@@ -20,31 +20,36 @@ The parameters required to complete the callback. The structures within the Para
 
 ### `Parameters.WindowMessage.hWnd`
 
-**Type: **HWND****
+Type: **HWND**
+
 Windows handle.
 
 ### `Parameters.WindowMessage.uMsg`
 
-**Type: **UINT****
+Type: **UINT**
+
 Message handle.
 
 ### `Parameters.WindowMessage.context`
 
-**Type: **WPARAM****
+Type: **WPARAM**
+
 Context of the message or handle.
 
 ### `Parameters.Event`
 
 ### `Parameters.Event.lpOverlapped`
 
-**Type: **LPWSAOVERLAPPED****
+Type: **LPWSAOVERLAPPED**
+
 A pointer to a [WSAOVERLAPPED](https://learn.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped) structure.
 
 ### `Parameters.Apc`
 
 ### `Parameters.Apc.lpOverlapped`
 
-**Type: **LPWSAOVERLAPPED****
+Type: **LPWSAOVERLAPPED**
+
 A pointer to a [WSAOVERLAPPED](https://learn.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped) structure.
 
 ### `Parameters.Apc.lpfnCompletionProc`
@@ -57,17 +62,20 @@ A pointer to an application-provided completion routine.
 
 ### `Parameters.Port.lpOverlapped`
 
-**Type: **LPWSAOVERLAPPED****
+Type: **LPWSAOVERLAPPED**
+
 A pointer to a [WSAOVERLAPPED](https://learn.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped) structure.
 
 ### `Parameters.Port.hPort`
 
-**Type: **HANDLE****
+Type: **HANDLE**
+
 A handle to the port.
 
 ### `Parameters.Port.Key`
 
-**Type: **ULONG_PTR****
+Type: **ULONG_PTR**
+
 A pointer to the key.
 
 ## Remarks

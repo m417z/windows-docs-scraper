@@ -16,8 +16,8 @@ Initial override direction value indicating if the script uses an override level
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Use an override level that reflects the embedding level. |
-| ****FALSE**** | Do not use an override level that reflects the embedding level. |
+| **TRUE** | Use an override level that reflects the embedding level. |
+| **FALSE** | Do not use an override level that reflects the embedding level. |
 
 ### `fInhibitSymSwap`
 
@@ -25,8 +25,8 @@ Value indicating if the shaping engine bypasses mirroring of Unicode mirrored gl
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Bypass mirroring of Unicode mirrored glyphs. |
-| ****FALSE**** | Do not bypass mirroring of Unicode mirrored glyphs. |
+| **TRUE** | Bypass mirroring of Unicode mirrored glyphs. |
+| **FALSE** | Do not bypass mirroring of Unicode mirrored glyphs. |
 
 ### `fCharShape`
 
@@ -34,8 +34,8 @@ Not implemented. Value indicating if character codes in the Arabic Presentation 
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Shape character codes in the Arabic Presentation Forms areas of Unicode. |
-| ****FALSE**** | Do not shape character codes in the Arabic Presentation Forms areas of Unicode. |
+| **TRUE** | Shape character codes in the Arabic Presentation Forms areas of Unicode. |
+| **FALSE** | Do not shape character codes in the Arabic Presentation Forms areas of Unicode. |
 
 ### `fDigitSubstitute`
 
@@ -43,8 +43,8 @@ This member provides the same control over digit substitution behavior that migh
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Character codes U+0030 through U+0039 are substituted by national digits. |
-| ****FALSE**** | Character codes U+0030 through U+0039 are not substituted by national digits. |
+| **TRUE** | Character codes U+0030 through U+0039 are substituted by national digits. |
+| **FALSE** | Character codes U+0030 through U+0039 are not substituted by national digits. |
 
 ### `fInhibitLigate`
 
@@ -52,8 +52,8 @@ Value indicating if ligatures are used in the shaping of Arabic or Hebrew charac
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Do not use ligatures in the shaping of Arabic or Hebrew characters. |
-| ****FALSE**** | Use ligatures in the shaping of Arabic or Hebrew characters. |
+| **TRUE** | Do not use ligatures in the shaping of Arabic or Hebrew characters. |
+| **FALSE** | Use ligatures in the shaping of Arabic or Hebrew characters. |
 
 ### `fDisplayZWG`
 
@@ -61,8 +61,8 @@ Value indicating if nondisplayable control characters are shaped as representati
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Shape control characters as representational glyphs. |
-| ****FALSE**** | Do not shape control characters as representational glyphs. |
+| **TRUE** | Shape control characters as representational glyphs. |
+| **FALSE** | Do not shape control characters as representational glyphs. |
 
 ### `fArabicNumContext`
 
@@ -70,8 +70,8 @@ Value indicating if prior strong characters are Arabic for the purposes of rule 
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Consider prior strong characters to be Arabic for the purposes of rule P0. |
-| ****FALSE**** | Do not consider prior strong characters to be Arabic for the purposes of rule P0. |
+| **TRUE** | Consider prior strong characters to be Arabic for the purposes of rule P0. |
+| **FALSE** | Do not consider prior strong characters to be Arabic for the purposes of rule P0. |
 
 ### `fGcpClusters`
 
@@ -79,8 +79,8 @@ For [GetCharacterPlacement](https://learn.microsoft.com/windows/desktop/api/wing
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Generate the array the same way as [GetCharacterPlacement](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa) does. |
-| ****FALSE**** | Do not generate the array the same way as [GetCharacterPlacement](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa) does. |
+| **TRUE** | Generate the array the same way as [GetCharacterPlacement](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa) does. |
+| **FALSE** | Do not generate the array the same way as [GetCharacterPlacement](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa) does. |
 
 ### `fReserved`
 

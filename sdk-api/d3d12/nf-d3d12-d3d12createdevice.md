@@ -24,7 +24,7 @@ The minimum [D3D_FEATURE_LEVEL](https://learn.microsoft.com/windows/desktop/api/
 
 ### `riid` [in]
 
-Type: ****REFIID****
+Type: **REFIID**
 
 The globally unique identifier (**GUID**) for the device interface.
 This parameter, and *ppDevice*, can be addressed with the single macro
@@ -32,7 +32,7 @@ This parameter, and *ppDevice*, can be addressed with the single macro
 
 ### `ppDevice` [out, optional]
 
-Type: ****void******
+Type: **void****
 
 A pointer to a memory block that receives a pointer to the device. Pass **NULL** to test if device creation would succeed, but to not actually create the device. If **NULL** is passed and device creation would succeed, **S_FALSE** is returned.
 

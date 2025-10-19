@@ -26,7 +26,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)**** | The certificate request object has already been initialized. |
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The certificate request object has already been initialized. |
 
 ## Remarks
 

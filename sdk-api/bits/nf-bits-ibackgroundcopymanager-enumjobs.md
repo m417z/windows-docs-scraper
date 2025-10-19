@@ -26,7 +26,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully generated enumerator object. |
+| **S_OK** | Successfully generated enumerator object. |
 | **E_ACCESSDENIED** | The user must be an administrator or belong to an administrator group to enumerate jobs owned by another user. |
 
 ## See also

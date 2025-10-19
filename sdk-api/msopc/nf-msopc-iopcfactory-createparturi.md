@@ -33,7 +33,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | **OPC_E_NONCONFORMING_URI**<br><br>0x80510001 | A part name cannot have fragment component. A fragment component is preceded by a '#' character, as described in [RFC 3986: URI Generic Syntax](https://www.ietf.org/rfc/rfc3986.txt). |
 | **OPC_E_NONCONFORMING_URI**<br><br>0x80510001 | A part name cannot be the name of a Relationships part that indicates another Relationships part as the source of the relationships contained therein. |
 | **OPC_E_RELATIVE_URI_REQUIRED**<br><br>0x80510002 | A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in [RFC 3986: URI Generic Syntax](https://www.ietf.org/rfc/rfc3986.txt). |
-| ****CreateUri** function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
+| **CreateUri function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
 | **WinINet error** | An **HRESULT** error code from a [WinINet](https://learn.microsoft.com/windows/desktop/WinInet/wininet-reference) API. |
 
 ## Remarks

@@ -28,7 +28,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | **E_INVALIDARG** | The value passed in the *flags* parameter is not a valid [OPC_WRITE_FLAGS](https://learn.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_write_flags) enumeration value. |
 | **E_NOTIMPL** | This method is not implemented for this version of Windows. |
 | **E_POINTER** | At least one of the *stream* and *package* parameters is **NULL**. |
-| ****IStream** interface error** | An **HRESULT** error code from the [IStream](https://learn.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. |
+| **IStream interface error** | An **HRESULT** error code from the [IStream](https://learn.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. |
 | **Package Consumption error** | An **HRESULT** error code from the [Package Consumption Error Group](https://learn.microsoft.com/previous-versions/windows/desktop/opc/package-consumption-error-group). |
 | **Part URI error** | An **HRESULT** error code from the [Part URI Error Group](https://learn.microsoft.com/previous-versions/windows/desktop/opc/part-uri-error-group). |
 

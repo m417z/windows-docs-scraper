@@ -16,21 +16,21 @@ notification structures specific to each notification target type (subject).
 
 | Value | Meaning |
 | --- | --- |
-| ****VDS_NTT_PACK****<br><br>10 | The subject of the notification is a disk pack. Use the **Pack** member structure. |
-| ****VDS_NTT_DISK****<br><br>13 | The subject of the notification is a disk. Use the **Disk** member structure. |
-| ****VDS_NTT_VOLUME****<br><br>11 | The subject of the notification is a volume. Use the **Volume** member structure. |
-| ****VDS_NTT_PARTITION****<br><br>60 | The subject of the notification is a partition. Use the **Partition** member structure. |
-| ****VDS_NTT_DRIVE_LETTER****<br><br>61 | The subject of the notification is a drive letter. Use the **Letter** member structure. |
-| ****VDS_NTT_FILE_SYSTEM****<br><br>62 | The subject of the notification is a file system. Use the **FileSystem** member structure. |
-| ****VDS_NTT_MOUNT_POINT****<br><br>63 | The subject of the notification is a drive letter or volume GUID path. Use the **MountPoint** member structure. |
-| ****VDS_NTT_SUB_SYSTEM****<br><br>30 | Used by hardware providers. The subject of the notification is a subsystem. Use the **SubSystem** member structure. |
-| ****VDS_NTT_CONTROLLER****<br><br>31 | Used by hardware providers. The subject of the notification is a controller. Use the **Controller** member structure. |
-| ****VDS_NTT_DRIVE****<br><br>32 | Used by hardware providers. The subject of the notification is a drive. Use the **Drive** member structure. |
-| ****VDS_NTT_LUN****<br><br>33 | Used by hardware providers. The subject of the notification is a LUN. Use the **Lun** member structure. |
-| ****VDS_NTT_PORT****<br><br>35 | The subject of the notification is a controller port. Use the **Port** member structure. |
-| ****VDS_NTT_PORTAL****<br><br>36 | The subject of the notification is an iSCSI portal. Use the **Portal** member structure. |
-| ****VDS_NTT_TARGET****<br><br>37 | The subject of the notification is an iSCSI target. Use the **Target** member structure. |
-| ****VDS_NTT_PORTAL_GROUP****<br><br>38 | The subject of the notification is an iSCSI portal group. Use the **PortalGroup** member structure. |
+| **VDS_NTT_PACK**<br><br>10 | The subject of the notification is a disk pack. Use the **Pack** member structure. |
+| **VDS_NTT_DISK**<br><br>13 | The subject of the notification is a disk. Use the **Disk** member structure. |
+| **VDS_NTT_VOLUME**<br><br>11 | The subject of the notification is a volume. Use the **Volume** member structure. |
+| **VDS_NTT_PARTITION**<br><br>60 | The subject of the notification is a partition. Use the **Partition** member structure. |
+| **VDS_NTT_DRIVE_LETTER**<br><br>61 | The subject of the notification is a drive letter. Use the **Letter** member structure. |
+| **VDS_NTT_FILE_SYSTEM**<br><br>62 | The subject of the notification is a file system. Use the **FileSystem** member structure. |
+| **VDS_NTT_MOUNT_POINT**<br><br>63 | The subject of the notification is a drive letter or volume GUID path. Use the **MountPoint** member structure. |
+| **VDS_NTT_SUB_SYSTEM**<br><br>30 | Used by hardware providers. The subject of the notification is a subsystem. Use the **SubSystem** member structure. |
+| **VDS_NTT_CONTROLLER**<br><br>31 | Used by hardware providers. The subject of the notification is a controller. Use the **Controller** member structure. |
+| **VDS_NTT_DRIVE**<br><br>32 | Used by hardware providers. The subject of the notification is a drive. Use the **Drive** member structure. |
+| **VDS_NTT_LUN**<br><br>33 | Used by hardware providers. The subject of the notification is a LUN. Use the **Lun** member structure. |
+| **VDS_NTT_PORT**<br><br>35 | The subject of the notification is a controller port. Use the **Port** member structure. |
+| **VDS_NTT_PORTAL**<br><br>36 | The subject of the notification is an iSCSI portal. Use the **Portal** member structure. |
+| **VDS_NTT_TARGET**<br><br>37 | The subject of the notification is an iSCSI target. Use the **Target** member structure. |
+| **VDS_NTT_PORTAL_GROUP**<br><br>38 | The subject of the notification is an iSCSI portal group. Use the **PortalGroup** member structure. |
 
 ### `Pack`
 

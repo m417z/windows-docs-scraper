@@ -27,8 +27,8 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | **E_INVALIDARG** | The argument specified by the *SubFactor* parameter is not valid or a member of the structure specified by the *Identity* parameter is not valid. |
 | **E_OUTOFMEMORY** | Memory could not be allocated for the record header. |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****WINBIO_E_DATABASE_CORRUPTED**** | There is an unspecified problem with the database. |
-| ****WINBIO_E_DATABASE_NO_SUCH_RECORD**** | No matching record could be found in the database. |
+| **WINBIO_E_DATABASE_CORRUPTED** | There is an unspecified problem with the database. |
+| **WINBIO_E_DATABASE_NO_SUCH_RECORD** | No matching record could be found in the database. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **StorageContext** member of the pipeline object is **NULL** or the **FileHandle** member is not valid. |
 
 ## Remarks

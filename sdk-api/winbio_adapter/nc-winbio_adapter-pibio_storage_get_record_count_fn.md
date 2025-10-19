@@ -21,7 +21,7 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****WINBIO_E_DATABASE_NO_RESULTS**** | The query was successful, but no matching records could be found. |
+| **WINBIO_E_DATABASE_NO_RESULTS** | The query was successful, but no matching records could be found. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **StorageContext** member of the pipeline object is **NULL** or the **FileHandle** member is not valid. |
 
 ## Remarks

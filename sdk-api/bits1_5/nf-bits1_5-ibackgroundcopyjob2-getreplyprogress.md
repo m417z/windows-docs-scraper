@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Progress information was successfully retrieved. |
+| **S_OK** | Progress information was successfully retrieved. |
 | **E_NOTIMPL** | This method is not implemented for jobs of type **BG_JOB_TYPE_DOWNLOAD** or **BG_JOB_TYPE_UPLOAD**. |
 | **E_INVALIDARG** | The *pProgress* parameter cannot be **NULL**. |
 

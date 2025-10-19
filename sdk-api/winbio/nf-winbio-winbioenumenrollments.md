@@ -32,11 +32,11 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *UnitId* parameter cannot be zero. |
-| ****E_POINTER**** | The *Identity*, *SubFactorArray*, and *SubFactorCount* parameters cannot be **NULL**. |
-| ****WINBIO_E_ENROLLMENT_IN_PROGRESS**** | The operation could not be completed because the biometric unit specified by the *UnitId* parameter is currently being used for an enrollment transaction. |
-| ****WINBIO_E_UNKNOWN_ID**** | The GUID or SID specified by the *Identity* parameter cannot be found. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *UnitId* parameter cannot be zero. |
+| **E_POINTER** | The *Identity*, *SubFactorArray*, and *SubFactorCount* parameters cannot be **NULL**. |
+| **WINBIO_E_ENROLLMENT_IN_PROGRESS** | The operation could not be completed because the biometric unit specified by the *UnitId* parameter is currently being used for an enrollment transaction. |
+| **WINBIO_E_UNKNOWN_ID** | The GUID or SID specified by the *Identity* parameter cannot be found. |
 
 ## Remarks
 

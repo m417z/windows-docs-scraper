@@ -25,7 +25,7 @@ This method can also return the following error codes.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | An asynchronous search for updates is successful. |
+| **S_OK** | An asynchronous search for updates is successful. |
 | **WU_E_LEGACYSERVER** | You cannot search for updates if the [ServerSelection](https://learn.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection) property of [IUpdateSearcher](https://learn.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher) is set to [ssManagedServer](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wuapicommon/ne-wuapicommon-serverselection.md) or to [ssDefault](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wuapicommon/ne-wuapicommon-serverselection.md), and the managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server. |
 | **E_POINTER** | A parameter value is invalid or **NULL**. |
 | **E_ACCESSDENIED** | This method cannot be called from a remote computer. |

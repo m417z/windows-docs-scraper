@@ -12,7 +12,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully suspended the group in the download queue. |
+| **S_OK** | Successfully suspended the group in the download queue. |
 
 ## See also
 

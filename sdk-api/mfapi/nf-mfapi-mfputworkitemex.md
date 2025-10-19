@@ -20,8 +20,8 @@ Returns an **HRESULT** value. Possible values include the following.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success. |
-| ****MF_E_INVALID_WORKQUEUE**** | Invalid work queue identifier. For more information, see [IMFAsyncCallback::GetParameters](https://learn.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters). |
+| **S_OK** | Success. |
+| **MF_E_INVALID_WORKQUEUE** | Invalid work queue identifier. For more information, see [IMFAsyncCallback::GetParameters](https://learn.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters). |
 | **MF_E_SHUTDOWN** | The [MFStartup](https://learn.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup) function was not called, or [MFShutdown](https://learn.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) was called. |
 
 ## Remarks

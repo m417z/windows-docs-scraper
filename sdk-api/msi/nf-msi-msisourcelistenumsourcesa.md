@@ -16,7 +16,7 @@ A string SID that specifies the user account that contains the product or patch.
 
 | Type of SID | Meaning |
 | --- | --- |
-| ****NULL**** | A **NULL** indicates the current user who is logged on. When referencing the current user account, *szUserSID* can be **NULL** and *dwContext* can be MSIINSTALLCONTEXT_USERMANAGED or MSIINSTALLCONTEXT_USERUNMANAGED. |
+| **NULL** | A **NULL** indicates the current user who is logged on. When referencing the current user account, *szUserSID* can be **NULL** and *dwContext* can be MSIINSTALLCONTEXT_USERMANAGED or MSIINSTALLCONTEXT_USERUNMANAGED. |
 | **User SID** | An enumeration for a specific user in the system. An example of a user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561". |
 | **s-1-1-0** | The special SID string s-1-1-0 (everyone) specifies enumeration across all users in the system. |
 

@@ -16,8 +16,8 @@ The function returns an **HRESULT**. Possible values include, but are not limite
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| **HRESULT_FROM_WIN32(**ERROR_NOT_FOUND**)** | The MFT specified by the *pClassFactory* parameter was not registered in this process. |
+| **S_OK** | The method succeeded. |
+| **HRESULT_FROM_WIN32(ERROR_NOT_FOUND)** | The MFT specified by the *pClassFactory* parameter was not registered in this process. |
 
 ## Remarks
 

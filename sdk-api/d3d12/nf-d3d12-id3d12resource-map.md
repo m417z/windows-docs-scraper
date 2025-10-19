@@ -22,7 +22,7 @@ This indicates the region the CPU might read, and the coordinates are subresourc
 
 ### `ppData` [out, optional]
 
-Type: ****void******
+Type: **void****
 
 A pointer to a memory block that receives a pointer to the resource data.
 

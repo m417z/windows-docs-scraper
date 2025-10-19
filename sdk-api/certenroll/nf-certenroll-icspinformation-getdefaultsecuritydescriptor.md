@@ -22,10 +22,10 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The property value could not be found. |
-| ****NTE_BAD_TYPE**** | The cryptographic provider does not support security descriptors. |
-| ****NTE_NOT_FOUND**** | The cryptographic provider does not support security descriptors. |
-| ****NTE_BAD_KEY_STATE**** | The cryptographic provider does not support security descriptors. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The property value could not be found. |
+| **NTE_BAD_TYPE** | The cryptographic provider does not support security descriptors. |
+| **NTE_NOT_FOUND** | The cryptographic provider does not support security descriptors. |
+| **NTE_BAD_KEY_STATE** | The cryptographic provider does not support security descriptors. |
 
 ## Remarks
 

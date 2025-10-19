@@ -12,7 +12,8 @@ Type: **DWORD**
 
 #### dwState
 
-**Type: **DWORD****
+Type: **DWORD**
+
 The state of the TCP connection. This member can be one of the values defined in the *Iprtrmib.h* header file.
 
 On the Windows SDK released for Windows Vista and later, the organization of header files has changed. This member can be one of the values from the **MIB_TCP_STATE** enumeration defined in the *Tcpmib.h* header file, not in the *Iprtrmib.h* header file. Note that the *Tcpmib.h* header file is automatically included in *Iprtrmib.h*, which is automatically included in the *Iphlpapi.h* header file. The *Tcpmib.h* and *Iprtrmib.h* header files should never be used directly.

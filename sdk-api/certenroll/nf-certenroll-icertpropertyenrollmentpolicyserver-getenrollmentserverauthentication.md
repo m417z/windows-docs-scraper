@@ -25,7 +25,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****E_POINTER**** | The *pValue* parameter cannot be **NULL**. |
+| **E_POINTER** | The *pValue* parameter cannot be **NULL**. |
 
 ## See also
 

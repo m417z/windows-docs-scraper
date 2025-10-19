@@ -26,8 +26,8 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_UNSUPPORTED_RATE**** | The current media item does not support playback in the requested direction (either forward or reverse). |
+| **S_OK** | The method succeeded. |
+| **MF_E_UNSUPPORTED_RATE** | The current media item does not support playback in the requested direction (either forward or reverse). |
 
 ## Remarks
 

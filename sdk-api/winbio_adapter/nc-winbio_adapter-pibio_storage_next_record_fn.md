@@ -17,8 +17,8 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | The *Pipeline* parameter is **NULL**. |
-| ****WINBIO_E_DATABASE_NO_RESULTS**** | There are no records in the result set. |
-| ****WINBIO_E_DATABASE_NO_MORE_RECORDS**** | The cursor is already on the last record. |
+| **WINBIO_E_DATABASE_NO_RESULTS** | There are no records in the result set. |
+| **WINBIO_E_DATABASE_NO_MORE_RECORDS** | The cursor is already on the last record. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **StorageContext** member of the pipeline object is **NULL** or the **FileHandle** member is not valid. |
 
 ## See also

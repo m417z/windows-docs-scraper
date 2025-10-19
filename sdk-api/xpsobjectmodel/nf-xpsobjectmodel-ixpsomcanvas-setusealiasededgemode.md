@@ -12,8 +12,8 @@ The Boolean value that determines whether the edges of child objects in this can
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The edges of objects in the canvas are to be rendered without anti-aliasing using the aliased edge mode. This includes any objects that have this value set to **FALSE**.<br><br>In the document markup, this corresponds to the **RenderOptions.EdgeMode** attribute having the value of **Aliased**. |
-| ****FALSE**** | The edges of objects in the canvas are to be rendered in the default manner.<br><br>In the document markup, this corresponds to the **RenderOptions.EdgeMode** attribute being absent. |
+| **TRUE** | The edges of objects in the canvas are to be rendered without anti-aliasing using the aliased edge mode. This includes any objects that have this value set to **FALSE**.<br><br>In the document markup, this corresponds to the **RenderOptions.EdgeMode** attribute having the value of **Aliased**. |
+| **FALSE** | The edges of objects in the canvas are to be rendered in the default manner.<br><br>In the document markup, this corresponds to the **RenderOptions.EdgeMode** attribute being absent. |
 
 ## Return value
 

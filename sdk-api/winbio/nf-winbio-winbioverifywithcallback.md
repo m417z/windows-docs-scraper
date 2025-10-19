@@ -41,9 +41,9 @@ If the function succeeds, it returns **S_OK**. If the function fails, it returns
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *SubFactor* argument is incorrect. |
-| ****E_POINTER**** | The pointer specified by the *Identity* and *VerifyCallback* parameters cannot be **NULL**. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *SubFactor* argument is incorrect. |
+| **E_POINTER** | The pointer specified by the *Identity* and *VerifyCallback* parameters cannot be **NULL**. |
 
 ## Remarks
 

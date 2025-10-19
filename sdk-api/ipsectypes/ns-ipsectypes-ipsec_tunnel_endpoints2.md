@@ -13,7 +13,7 @@ Specifies the IP version. In tunnel mode, this is the version of the outer heade
 
 ### `localV4Address`
 
-**Type: **UINT32**
+Type: **UINT32**
 
 case(FWP_IP_VERSION_V4)
 
@@ -59,7 +59,7 @@ The number of remote tunnel addresses.
 
 ### `remoteAddresses`
 
-Type: [IPSEC_TUNNEL_ENDPOINT0](https://learn.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)***
+Type: [IPSEC_TUNNEL_ENDPOINT0](https://learn.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)*
 
 [size_is(numAddresses)]
 

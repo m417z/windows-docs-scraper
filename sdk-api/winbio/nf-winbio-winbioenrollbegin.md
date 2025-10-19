@@ -38,10 +38,10 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 | Return code | Description |
 | --- | --- |
 | **E_ACCESSDENIED** | The caller does not have permission to enroll. |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *SubFactor* parameter cannot equal WINBIO_SUBTYPE_NO_INFORMATION or WINBIO_SUBTYPE_ANY, and the *UnitId* parameter cannot equal zero. |
-| ****WINBIO_E_ENROLLMENT_IN_PROGRESS**** | An enrollment operation is already in progress, and only one enrollment can occur at a given time. |
-| ****WINBIO_E_LOCK_VIOLATION**** | The biometric unit is in use and is locked. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *SubFactor* parameter cannot equal WINBIO_SUBTYPE_NO_INFORMATION or WINBIO_SUBTYPE_ANY, and the *UnitId* parameter cannot equal zero. |
+| **WINBIO_E_ENROLLMENT_IN_PROGRESS** | An enrollment operation is already in progress, and only one enrollment can occur at a given time. |
+| **WINBIO_E_LOCK_VIOLATION** | The biometric unit is in use and is locked. |
 
 ## Remarks
 

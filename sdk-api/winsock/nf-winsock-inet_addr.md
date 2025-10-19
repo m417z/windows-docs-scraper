@@ -24,11 +24,11 @@ the **inet_addr** function returns an unsigned long value containing a suitable 
 If the string in the *cp* parameter does not contain a legitimate Internet address, for example if a portion of an "a.b.c.d" address exceeds 255, then
 **inet_addr** returns the value **INADDR_NONE**.
 
-On Windows Server 2003and later if the string in the *cp* parameter is an empty string, then
+On Windows Server 2003 and later if the string in the *cp* parameter is an empty string, then
 **inet_addr** returns the value **INADDR_NONE**. If **NULL** is passed in the *cp* parameter, then
 **inet_addr** returns the value **INADDR_NONE**.
 
-On Windows XPand earlier if the string in the *cp* parameter is an empty string, then
+On Windows XP and earlier if the string in the *cp* parameter is an empty string, then
 **inet_addr** returns the value **INADDR_ANY**. If **NULL** is passed in the *cp* parameter, then
 **inet_addr** returns the value **INADDR_NONE**.
 

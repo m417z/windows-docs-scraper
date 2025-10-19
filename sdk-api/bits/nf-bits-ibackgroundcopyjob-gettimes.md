@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Time stamps were successfully retrieved. |
+| **S_OK** | Time stamps were successfully retrieved. |
 | **E_INVALIDARG** | The *pTimes* parameter cannot be **NULL**. |
 
 ## See also

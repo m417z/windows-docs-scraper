@@ -10,7 +10,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Job was successfully restarted. |
+| **S_OK** | Job was successfully restarted. |
 | **BG_E_EMPTY** | There are no files to transfer. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. |
 

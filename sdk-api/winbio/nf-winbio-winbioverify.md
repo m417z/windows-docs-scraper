@@ -61,12 +61,12 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *SubFactor* argument is incorrect. |
-| ****E_POINTER**** | The pointer specified by the *UnitId*, *Identity*, *SubFactor*, or *RejectDetail* parameters cannot be **NULL**. |
-| ****WINBIO_E_BAD_CAPTURE**** | The biometric sample could not be captured. Use the *RejectDetail* value for more information. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *SubFactor* argument is incorrect. |
+| **E_POINTER** | The pointer specified by the *UnitId*, *Identity*, *SubFactor*, or *RejectDetail* parameters cannot be **NULL**. |
+| **WINBIO_E_BAD_CAPTURE** | The biometric sample could not be captured. Use the *RejectDetail* value for more information. |
 | **WINBIO_E_ENROLLMENT_IN_PROGRESS** | The operation could not be completed because the specified biometric unit is currently being used for an enrollment transaction (system pool only). |
-| ****WINBIO_E_NO_MATCH**** | The biometric sample does not correspond to the specified *Identity* and *SubFactor* combination. |
+| **WINBIO_E_NO_MATCH** | The biometric sample does not correspond to the specified *Identity* and *SubFactor* combination. |
 
 ## Remarks
 

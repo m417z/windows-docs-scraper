@@ -24,8 +24,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid argument. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid argument. |
 
 ## Remarks
 

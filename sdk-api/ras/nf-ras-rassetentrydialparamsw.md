@@ -23,15 +23,15 @@ Pointer to the
 
 | Member | Meaning |
 | --- | --- |
-| ****dwSize**** | Must specify the size of ([RASDIALPARAMS](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85))) to identify the version of the structure. |
-| ****szEntryName**** | A null-terminated string that identifies the phone-book entry to set parameters for. |
-| ****szPhoneNumber**** | Not used. Set to **NULL**. |
-| ****szCallbackNumber**** | A null-terminated string that contains the callback phone number. If **szCallbackNumber** is an empty string ( "" ), the callback number is not changed. |
-| ****szUserName**** | A null-terminated string that contains the logon name of the user associated with this entry. If **szUserName** is an empty string, the user name is not changed. |
-| ****szPassword**** | A null-terminated string that contains the password for the user specified by **szUserName**. If **szUserName** is an empty string, the password is not changed. If **szPassword** is an empty string and *fRemovePassword* is **FALSE**, the password is set to the empty string. If *fRemovePassword* is **TRUE**, the password stored in this phone-book entry for the user specified by **szUserName** is removed regardless of the contents of the **szPassword** string. <br><br>**Windows NT 4.0:** The password is changed to the string specified by **szPassword** regardless of whether **szUserName** is an empty string.<br><br>**Windows XP/2000:** If **szPassword** contains the password handle returned by [RasGetCredentials](https://learn.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetcredentialsa) or [RasGetEntryDialParams](https://learn.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa), **RasSetEntryDialParams** returns successfully without changing any currently saved password. |
-| ****szDomain**** | A null-terminated string that contains the name of the domain on which to log on. If **szDomain** is an empty string, the domain name is not changed. |
-| ****dwSubEntry**** | Specifies the (one-based) index of the initial subentry to dial when establishing the connection. |
-| ****dwCallbackId**** | Specifies an application-defined value that RAS passes to the [RasDialFunc2](https://learn.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc2) callback function. |
+| **dwSize** | Must specify the size of ([RASDIALPARAMS](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85))) to identify the version of the structure. |
+| **szEntryName** | A null-terminated string that identifies the phone-book entry to set parameters for. |
+| **szPhoneNumber** | Not used. Set to **NULL**. |
+| **szCallbackNumber** | A null-terminated string that contains the callback phone number. If **szCallbackNumber** is an empty string ( "" ), the callback number is not changed. |
+| **szUserName** | A null-terminated string that contains the logon name of the user associated with this entry. If **szUserName** is an empty string, the user name is not changed. |
+| **szPassword** | A null-terminated string that contains the password for the user specified by **szUserName**. If **szUserName** is an empty string, the password is not changed. If **szPassword** is an empty string and *fRemovePassword* is **FALSE**, the password is set to the empty string. If *fRemovePassword* is **TRUE**, the password stored in this phone-book entry for the user specified by **szUserName** is removed regardless of the contents of the **szPassword** string. <br><br>**Windows NT 4.0:** The password is changed to the string specified by **szPassword** regardless of whether **szUserName** is an empty string.<br><br>**Windows XP/2000:** If **szPassword** contains the password handle returned by [RasGetCredentials](https://learn.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetcredentialsa) or [RasGetEntryDialParams](https://learn.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa), **RasSetEntryDialParams** returns successfully without changing any currently saved password. |
+| **szDomain** | A null-terminated string that contains the name of the domain on which to log on. If **szDomain** is an empty string, the domain name is not changed. |
+| **dwSubEntry** | Specifies the (one-based) index of the initial subentry to dial when establishing the connection. |
+| **dwCallbackId** | Specifies an application-defined value that RAS passes to the [RasDialFunc2](https://learn.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc2) callback function. |
 
 ### `unnamedParam3` [in]
 

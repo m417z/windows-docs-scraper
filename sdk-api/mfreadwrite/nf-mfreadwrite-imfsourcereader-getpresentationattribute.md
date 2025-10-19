@@ -13,9 +13,9 @@ The stream or object to query. The value can be any of the following.
 | Value | Meaning |
 | --- | --- |
 | 0–0xFFFFFFFB | The zero-based index of a stream. |
-| ****MF_SOURCE_READER_FIRST_VIDEO_STREAM****<br><br>0xFFFFFFFC | The first video stream. |
-| ****MF_SOURCE_READER_FIRST_AUDIO_STREAM****<br><br>0xFFFFFFFD | The first audio stream. |
-| ****MF_SOURCE_READER_MEDIASOURCE****<br><br>0xFFFFFFFF | The media source. |
+| **MF_SOURCE_READER_FIRST_VIDEO_STREAM**<br><br>0xFFFFFFFC | The first video stream. |
+| **MF_SOURCE_READER_FIRST_AUDIO_STREAM**<br><br>0xFFFFFFFD | The first audio stream. |
+| **MF_SOURCE_READER_MEDIASOURCE**<br><br>0xFFFFFFFF | The media source. |
 
 ### `guidAttribute` [in]
 

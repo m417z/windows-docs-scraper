@@ -21,7 +21,7 @@ If this function returns **FALSE**, additional error information can be obtained
 | Return code | Description |
 | --- | --- |
 | **ERROR_INVALID_PARAMETER** | One or more of the parameters are not valid. |
-| ****ERROR_NOT_SUPPORTED**** | Beginning with Windows 8 and Windows Server 2012, you must retrieve a handle by calling the [CryptCATOpen](https://learn.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen) function with the *dwPublicVersion* parameter set to 0x100 or 0x200. For more information, see Remarks. |
+| **ERROR_NOT_SUPPORTED** | Beginning with Windows 8 and Windows Server 2012, you must retrieve a handle by calling the [CryptCATOpen](https://learn.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen) function with the *dwPublicVersion* parameter set to 0x100 or 0x200. For more information, see Remarks. |
 
 ## Remarks
 

@@ -35,7 +35,7 @@ checked.
 
 | Return code | Description |
 | --- | --- |
-| ****NULL**** | Less than a majority of nodes were successfully created. For more information about the error, call the function [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). |
+| **NULL** | Less than a majority of nodes were successfully created. For more information about the error, call the function [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). |
 
 ## Remarks
 

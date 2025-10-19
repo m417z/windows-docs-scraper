@@ -33,22 +33,22 @@ An [X509RequestInheritOptions](https://learn.microsoft.com/windows/desktop/api/c
 
 | Value | Meaning |
 | --- | --- |
-| ****InheritDefault**** | Provider and key inheritance is not specified. |
-| ****InheritNewDefaultKey**** | Creates a new key but inherits the default cryptographic provider. |
-| ****InheritNewSimilarKey**** | Creates a new key but inherits the cryptographic provider used to create the existing certificate. |
-| ****InheritPrivateKey**** | Inherits the private and public keys. |
-| ****InheritPublicKey**** | Inherits only the public key. |
+| **InheritDefault** | Provider and key inheritance is not specified. |
+| **InheritNewDefaultKey** | Creates a new key but inherits the default cryptographic provider. |
+| **InheritNewSimilarKey** | Creates a new key but inherits the cryptographic provider used to create the existing certificate. |
+| **InheritPrivateKey** | Inherits the private and public keys. |
+| **InheritPublicKey** | Inherits only the public key. |
 
 You can also use a bitwise-**OR** operation to combine the key inheritance value with any combination of the following values.
 
 | Value | Meaning |
 | --- | --- |
-| ****InheritRenewalCertificateFlag**** | Inherits the renewal certificate. Specifying this flag sets the [RenewalCertificate](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate) property. |
-| ****InheritTemplateFlag**** | Inherits the certificate template. |
-| ****InheritSubjectFlag**** | Inherits the subject distinguished name. |
-| ****InheritExtensionsFlag**** | Inherits the relevant extensions from the certificate. |
-| ****InheritSubjectAltNameFlag**** | Inherits the **SubjectAlternativeName** extension. |
-| ****InheritValidityPeriodFlag**** | Inherits the validity period. |
+| **InheritRenewalCertificateFlag** | Inherits the renewal certificate. Specifying this flag sets the [RenewalCertificate](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate) property. |
+| **InheritTemplateFlag** | Inherits the certificate template. |
+| **InheritSubjectFlag** | Inherits the subject distinguished name. |
+| **InheritExtensionsFlag** | Inherits the relevant extensions from the certificate. |
+| **InheritSubjectAltNameFlag** | Inherits the **SubjectAlternativeName** extension. |
+| **InheritValidityPeriodFlag** | Inherits the validity period. |
 
 You can also specify **InheritNone** to prevent any of the flags in the preceding table (flags not related to key inheritance) from being implemented by default. If you specify **InheritNone** but also specify a flag not related to key inheritance, the method returns **E_INVALIDARG**.
 

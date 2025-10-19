@@ -37,7 +37,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | **S_OK** | The method succeeded. |
 | **E_INVALIDARG** | The value passed in the *ioMode* parameter is not a valid [OPC_STREAM_IO_MODE](https://learn.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_stream_io_mode) enumeration value. |
 | **E_POINTER** | At least one of the *filename* and *stream* parameters is **NULL**. |
-| ****CreateFile** function error** | An **HRESULT** error code from the [CreateFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. |
+| **CreateFile function error** | An **HRESULT** error code from the [CreateFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. |
 
 ## Remarks
 

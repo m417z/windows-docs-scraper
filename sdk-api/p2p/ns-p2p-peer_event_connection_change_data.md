@@ -23,9 +23,9 @@ Specifies the type of change in a neighbor or direct connection. Valid values ar
 
 | Value | Meaning |
 | --- | --- |
-| ****PEER_CONNECTED**** | A new incoming or outgoing connection to the local node has been established. |
-| ****PEER_CONNECTION_FAILED**** | An attempt to connect to a local node has failed. <br><br>It is possible for a single attempt to connect to result in multiple connection failures. This will occur after the initial connection failure, when the peer infrastructure sets the **ullNextConnectionId** member to the Node ID and attempts a new connection. If the **ullNextConnectionId** member is 0, no further connections will be attempted. |
-| ****PEER_DISCONNECTED**** | An existing connection has been disconnected. |
+| **PEER_CONNECTED** | A new incoming or outgoing connection to the local node has been established. |
+| **PEER_CONNECTION_FAILED** | An attempt to connect to a local node has failed. <br><br>It is possible for a single attempt to connect to result in multiple connection failures. This will occur after the initial connection failure, when the peer infrastructure sets the **ullNextConnectionId** member to the Node ID and attempts a new connection. If the **ullNextConnectionId** member is 0, no further connections will be attempted. |
+| **PEER_DISCONNECTED** | An existing connection has been disconnected. |
 
 ### `ullConnectionId`
 

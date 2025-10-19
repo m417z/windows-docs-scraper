@@ -22,7 +22,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | You specified a value of *LevelNext* PKCS #10 request. |
+| **CERTSRV_E_PROPERTY_EMPTY** | You specified a value of *LevelNext* PKCS #10 request. |
 
 ## Remarks
 

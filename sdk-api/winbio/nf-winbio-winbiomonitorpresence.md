@@ -21,9 +21,9 @@ Possible values include, but are not limited to, those in the following table. F
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *UnitId* parameter cannot equal zero. |
-| ****WINBIO_E_INCORRECT_SESSION_TYPE**** | The session handle does not correspond to an asynchronous biometric session. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *UnitId* parameter cannot equal zero. |
+| **WINBIO_E_INCORRECT_SESSION_TYPE** | The session handle does not correspond to an asynchronous biometric session. |
 
 The actual success or failure of the operation itself is returned to the your notification function in a [WINBIO_ASYNC_RESULT](https://learn.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result) structure.
 

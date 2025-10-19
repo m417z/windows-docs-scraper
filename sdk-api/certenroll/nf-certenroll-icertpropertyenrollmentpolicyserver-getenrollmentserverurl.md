@@ -20,7 +20,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 | --- | --- |
 | **CERTSRV_E_PROPERTY_EMPTY** | The property value is empty. |
 | **E_OUTOFMEMORY** | There was insufficient memory available to create the URL string. |
-| ****HRESULT_FROM_WIN32(OLE_E_BLANK)**** | The property value has not been initialized. |
+| **HRESULT_FROM_WIN32(OLE_E_BLANK)** | The property value has not been initialized. |
 
 ## See also
 

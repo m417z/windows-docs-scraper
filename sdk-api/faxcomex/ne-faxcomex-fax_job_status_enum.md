@@ -4,7 +4,7 @@
 
 The **FAX_JOB_STATUS_ENUM** enumeration defines the status values for a fax job.
 
-**Note** The members ****fjsPAUSED**** and ****fjsNOLINE**** are modifiers; they can be used in combination with any other member of this enumeration. Other members cannot be used as modifiers.
+**Note** The members **fjsPAUSED** and **fjsNOLINE** are modifiers; they can be used in combination with any other member of this enumeration. Other members cannot be used as modifiers.
 
 ## Constants
 

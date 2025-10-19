@@ -33,8 +33,8 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****E_INVALIDARG**** | The value specified by the *Identity* parameter or the *SubFactor* parameter is not valid. |
-| ****WINBIO_E_DUPLICATE_ENROLLMENT**** | The template specified by the *Identity* and *SubFactor* parameters is already saved in the database. |
+| **E_INVALIDARG** | The value specified by the *Identity* parameter or the *SubFactor* parameter is not valid. |
+| **WINBIO_E_DUPLICATE_ENROLLMENT** | The template specified by the *Identity* and *SubFactor* parameters is already saved in the database. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | There is no template attached to the pipeline. |
 
 ## Remarks

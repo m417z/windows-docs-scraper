@@ -18,8 +18,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CRYPT_E_INVALID_MSG_TYPE**** | The request object specified on input is not a PKCS #10 request. |
-| ****HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)**** | The request object has already been initialized. |
+| **CRYPT_E_INVALID_MSG_TYPE** | The request object specified on input is not a PKCS #10 request. |
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The request object has already been initialized. |
 
 ## Remarks
 

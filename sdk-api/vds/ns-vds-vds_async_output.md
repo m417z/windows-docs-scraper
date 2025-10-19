@@ -16,13 +16,13 @@ Discriminant for the union enumerated by
 
 | Value | Meaning |
 | --- | --- |
-| ****VDS_ASYNCOUT_CREATEPARTITION****<br><br>10 | See the following description of the **cp** structure. |
-| ****VDS_ASYNCOUT_CREATEVOLUME****<br><br>1 | See the following description of the **cv** structure. |
-| ****VDS_ASYNCOUT_BREAKVOLUMEPLEX****<br><br>5 | See the following description of the **bvp** structure. |
-| ****VDS_ASYNCOUT_CREATELUN****<br><br>50 | See the following description of the **cl** structure. |
-| ****VDS_ASYNCOUT_CREATETARGET****<br><br>62 | See the following description of the **ct** structure. |
-| ****VDS_ASYNCOUT_CREATEPORTALGROUP****<br><br>63 | See the following description of the **cpg** structure. |
-| ****VDS_ASYNCOUT_CREATE_VDISK****<br><br>200 | See the following description of the **cvd** structure. |
+| **VDS_ASYNCOUT_CREATEPARTITION**<br><br>10 | See the following description of the **cp** structure. |
+| **VDS_ASYNCOUT_CREATEVOLUME**<br><br>1 | See the following description of the **cv** structure. |
+| **VDS_ASYNCOUT_BREAKVOLUMEPLEX**<br><br>5 | See the following description of the **bvp** structure. |
+| **VDS_ASYNCOUT_CREATELUN**<br><br>50 | See the following description of the **cl** structure. |
+| **VDS_ASYNCOUT_CREATETARGET**<br><br>62 | See the following description of the **ct** structure. |
+| **VDS_ASYNCOUT_CREATEPORTALGROUP**<br><br>63 | See the following description of the **cpg** structure. |
+| **VDS_ASYNCOUT_CREATE_VDISK**<br><br>200 | See the following description of the **cvd** structure. |
 
 ### `cp`
 

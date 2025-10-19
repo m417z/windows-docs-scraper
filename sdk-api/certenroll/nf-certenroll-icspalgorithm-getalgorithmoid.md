@@ -52,8 +52,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The algorithm OID could not be found. |
-| ****OLE_E_BLANK**** | The CSP information has not been initialized. For more information, see the [ICspInformation](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation) interface. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The algorithm OID could not be found. |
+| **OLE_E_BLANK** | The CSP information has not been initialized. For more information, see the [ICspInformation](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation) interface. |
 
 ## Remarks
 

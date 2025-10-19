@@ -62,55 +62,66 @@ Union of restriction structures describing the filter to be applied. The specifi
 
 ### `res.resCompareProps`
 
-**Type: **SComparePropsRestriction****
+Type: **SComparePropsRestriction**
+
 RES_COMPAREPROPS
 
 ### `res.resAnd`
 
-**Type: **SAndRestriction****
+Type: **SAndRestriction**
+
 RES_AND
 
 ### `res.resOr`
 
-**Type: **SOrRestriction****
+Type: **SOrRestriction**
+
 RES_OR
 
 ### `res.resNot`
 
-**Type: **SNotRestriction****
+Type: **SNotRestriction**
+
 RES_NOT
 
 ### `res.resContent`
 
-**Type: **SContentRestriction****
+Type: **SContentRestriction**
+
 RES_CONTENT
 
 ### `res.resProperty`
 
-**Type: **SPropertyRestriction****
+Type: **SPropertyRestriction**
+
 RES_PROPERTY
 
 ### `res.resBitMask`
 
-**Type: **SBitMaskRestriction****
+Type: **SBitMaskRestriction**
+
 RES_BITMASK
 
 ### `res.resSize`
 
-**Type: **SSizeRestriction****
+Type: **SSizeRestriction**
+
 RES_SIZE
 
 ### `res.resExist`
 
-**Type: **SExistRestriction****
+Type: **SExistRestriction**
+
 RES_EXIST
 
 ### `res.resSub`
 
-**Type: **SSubRestriction****
+Type: **SSubRestriction**
+
 RES_SUBRESTRICTION
 
 ### `res.resComment`
 
-**Type: **SCommentRestriction****
+Type: **SCommentRestriction**
+
 RES_COMMENT

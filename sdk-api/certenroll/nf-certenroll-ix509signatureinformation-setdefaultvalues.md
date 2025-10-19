@@ -12,7 +12,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The hashing algorithm OID could not be found. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The hashing algorithm OID could not be found. |
 
 ## Remarks
 

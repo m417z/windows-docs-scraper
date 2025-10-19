@@ -18,9 +18,9 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CRYPT_E_NO_SIGNER**** | The signature cannot be found. |
-| ****HRESULT_FROM_WIN32(ERROR_INVALID_STATE)**** | The [IX509PublicKey](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey) object has not been initialized. |
-| ****OLE_E_BLANK**** | The request object has not been initialized. |
+| **CRYPT_E_NO_SIGNER** | The signature cannot be found. |
+| **HRESULT_FROM_WIN32(ERROR_INVALID_STATE)** | The [IX509PublicKey](https://learn.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey) object has not been initialized. |
+| **OLE_E_BLANK** | The request object has not been initialized. |
 
 ## Remarks
 

@@ -18,7 +18,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | --- | --- |
 | **S_OK** | The method succeeded. |
 | **E_POINTER** | The *stream* parameter is **NULL**. |
-| ****CreateFile** function error** | An **HRESULT** error code from the [CreateFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function, which is returned as a result of attempting to allocate disk space for part data if the package was opened using the **OPC_CACHE_ON_ACCESS** read flag. |
+| **CreateFile function error** | An **HRESULT** error code from the [CreateFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function, which is returned as a result of attempting to allocate disk space for part data if the package was opened using the **OPC_CACHE_ON_ACCESS** read flag. |
 | **Package Consumption error** | An **HRESULT** error code from the [Package Consumption Error Group](https://learn.microsoft.com/previous-versions/windows/desktop/opc/package-consumption-error-group). |
 | **Part URI error** | An **HRESULT** error code from the [Part URI Error Group](https://learn.microsoft.com/previous-versions/windows/desktop/opc/part-uri-error-group). |
 

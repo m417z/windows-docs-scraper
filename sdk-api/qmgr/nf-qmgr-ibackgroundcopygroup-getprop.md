@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the property. |
+| **S_OK** | Successfully retrieved the property. |
 | **E_NOTIMPL** | You specified a property that is not supported. |
 | **E_INVALIDARG** | You specified a variant type that is not compatible with the property. |
 

@@ -22,7 +22,7 @@ This method returns the following return values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success |
+| **S_OK** | Success |
 | **S_FALSE** | No credentials have been set using the given *Target* and *Scheme* pair. |
 
 ## See also

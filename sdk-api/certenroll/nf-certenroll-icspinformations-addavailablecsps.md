@@ -12,7 +12,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION)**** | The collection is not empty. |
+| **HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION)** | The collection is not empty. |
 
 ## Remarks
 

@@ -32,7 +32,7 @@ This method returns the following return values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success |
+| **S_OK** | Success |
 | **E_INVALIDARG** | You can receive this error for one of the following reasons:<br><br>* The *RangeCount* parameter is zero; you must specify one or more ranges.<br>* The local or remote file name is not valid.<br>* The remote file name uses an unsupported protocol.<br>* The local file name was specified using a relative path. |
 | **E_NOTIMPL** | You cannot call this method for upload or upload-reply jobs; only call this method for download jobs. |
 | **E_ACCESSDENIED** | User does not have permission to write to the specified directory on the client. |

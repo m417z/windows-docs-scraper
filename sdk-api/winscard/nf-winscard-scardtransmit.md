@@ -39,10 +39,10 @@ The data sent to the card should immediately follow the send buffer. In the spec
 
 | Member | Meaning |
 | --- | --- |
-| ****bCla**** | The T=0 instruction class. |
-| ****bIns**** | An instruction code in the T=0 instruction class. |
-| ****bP1**, **bP2**** | Reference codes that complete the instruction code. |
-| ****bP3**** | The number of data bytes to be transmitted during the command, per ISO 7816-4, Section 8.2.1. |
+| **bCla** | The T=0 instruction class. |
+| **bIns** | An instruction code in the T=0 instruction class. |
+| **bP1**, **bP2** | Reference codes that complete the instruction code. |
+| **bP3** | The number of data bytes to be transmitted during the command, per ISO 7816-4, Section 8.2.1. |
 
 ### `cbSendLength` [in]
 

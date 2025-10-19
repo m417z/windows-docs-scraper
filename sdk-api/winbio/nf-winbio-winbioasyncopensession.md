@@ -100,14 +100,14 @@ If the function succeeds, it returns **S_OK**. If the function fails, it returns
 
 | Return code | Description |
 | --- | --- |
-| ****E_OUTOFMEMORY**** | There is not enough memory available to create the biometric session. |
-| ****E_INVALIDARG**** | If you set the notification method to **WINBIO_ASYNC_NOTIFY_MESSAGE**, the *TargetWindow* parameter cannot be **NULL** or **HWND_BROADCAST** and the *MessageCode* parameter cannot be zero (0). |
-| ****E_POINTER**** | The *SessionHandle* parameter and the *AsynchronousOpen* parameter must be set.<br><br>If you set the notification method to **WINBIO_ASYNC_NOTIFY_CALLBACK**, you must also specify the address of a callback function in the *CallbackRoutine* parameter. |
-| ****E_ACCESSDENIED**** | The *Flags* parameter contains the **WINBIO_FLAG_RAW** or the **WINBIO_FLAG_MAINTENANCE** flag and the caller has not been granted either access permission. |
-| ****WINBIO_E_INVALID_UNIT**** | One or more of the biometric unit numbers specified in the *UnitArray* parameter is not valid. |
-| ****WINBIO_E_NOT_ACTIVE_CONSOLE**** | The client application is running on a remote desktop client and is attempting to open a system pool session. |
-| ****WINBIO_E_SENSOR_UNAVAILABLE**** | The *PoolType* parameter is set to **WINBIO_POOL_PRIVATE** and one or more of the requested sensors in that pool is not available. |
-| ****WINBIO_E_DISABLED**** | Current administrative policy prohibits use of the Windows Biometric Framework API. |
+| **E_OUTOFMEMORY** | There is not enough memory available to create the biometric session. |
+| **E_INVALIDARG** | If you set the notification method to **WINBIO_ASYNC_NOTIFY_MESSAGE**, the *TargetWindow* parameter cannot be **NULL** or **HWND_BROADCAST** and the *MessageCode* parameter cannot be zero (0). |
+| **E_POINTER** | The *SessionHandle* parameter and the *AsynchronousOpen* parameter must be set.<br><br>If you set the notification method to **WINBIO_ASYNC_NOTIFY_CALLBACK**, you must also specify the address of a callback function in the *CallbackRoutine* parameter. |
+| **E_ACCESSDENIED** | The *Flags* parameter contains the **WINBIO_FLAG_RAW** or the **WINBIO_FLAG_MAINTENANCE** flag and the caller has not been granted either access permission. |
+| **WINBIO_E_INVALID_UNIT** | One or more of the biometric unit numbers specified in the *UnitArray* parameter is not valid. |
+| **WINBIO_E_NOT_ACTIVE_CONSOLE** | The client application is running on a remote desktop client and is attempting to open a system pool session. |
+| **WINBIO_E_SENSOR_UNAVAILABLE** | The *PoolType* parameter is set to **WINBIO_POOL_PRIVATE** and one or more of the requested sensors in that pool is not available. |
+| **WINBIO_E_DISABLED** | Current administrative policy prohibits use of the Windows Biometric Framework API. |
 
 ## Remarks
 

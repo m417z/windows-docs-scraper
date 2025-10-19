@@ -12,8 +12,8 @@ The Boolean value that indicates whether the figure is filled.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The figure is filled by a brush. |
-| ****FALSE**** | The figure is not filled. |
+| **TRUE** | The figure is filled by a brush. |
+| **FALSE** | The figure is not filled. |
 
 ## Return value
 

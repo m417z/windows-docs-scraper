@@ -101,7 +101,7 @@ By specifying this flag for an entire file type, an app running within an app co
 
 These flags represent possible attributes stored in the EditFlags value of a ProgID registration. The EditFlags data is a single REG_DWORD.
 
-The following example shows the ****FTA_NoRemove**** (0x00000010) and ****FTA_NoNewVerb**** (0x00000020) attributes assigned to the .myp file type.
+The following example shows the **FTA_NoRemove** (0x00000010) and **FTA_NoNewVerb** (0x00000020) attributes assigned to the .myp file type.
 
 ```
 HKEY_CLASSES_ROOT

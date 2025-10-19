@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully created the group. |
+| **S_OK** | Successfully created the group. |
 | **E_INVALIDARG** | A group already exists with that GUID. |
 
 ## See also

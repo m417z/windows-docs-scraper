@@ -22,13 +22,13 @@ The following table shows the type of information the buffer receives for each t
 
 | Object type | Data written to buffer |
 | --- | --- |
-| ****HBITMAP**** | [BITMAP](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap) |
-| ****HBITMAP** returned from a call to [CreateDIBSection](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection)** | [DIBSECTION](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection), if *cbBuffer* is set to `sizeof (DIBSECTION)`, or [BITMAP](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap), if *cbBuffer* is set to `sizeof (BITMAP)`. |
-| ****HPALETTE**** | A **WORD** count of the number of entries in the logical palette |
-| ****HPEN** returned from a call to [ExtCreatePen](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen)** | [EXTLOGPEN](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-extlogpen) |
-| ****HPEN**** | [LOGPEN](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen) |
-| ****HBRUSH**** | [LOGBRUSH](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush) |
-| ****HFONT**** | [LOGFONT](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta) |
+| **HBITMAP** | [BITMAP](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap) |
+| **HBITMAP returned from a call to [CreateDIBSection](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection)** | [DIBSECTION](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection), if *cbBuffer* is set to `sizeof (DIBSECTION)`, or [BITMAP](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap), if *cbBuffer* is set to `sizeof (BITMAP)`. |
+| **HPALETTE** | A **WORD** count of the number of entries in the logical palette |
+| **HPEN returned from a call to [ExtCreatePen](https://learn.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen)** | [EXTLOGPEN](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-extlogpen) |
+| **HPEN** | [LOGPEN](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen) |
+| **HBRUSH** | [LOGBRUSH](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush) |
+| **HFONT** | [LOGFONT](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta) |
 
 If the *lpvObject* parameter is **NULL**, the function return value is the number of bytes required to store the information it writes to the buffer for the specified graphics object.
 

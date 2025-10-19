@@ -14,9 +14,9 @@ A pointer to a
 
 | Member | Meaning |
 | --- | --- |
-| ****lpLocalName**** | A pointer to a buffer that specifies a local device, such as "F:" or "LPT1", that is redirected to a network resource to be queried. <br><br>If this member is **NULL** or an empty string, the network resource is specified in the *lpRemoteName* member. If this flag specifies a local device, *lpRemoteName* is ignored. |
-| ****lpRemoteName**** | A pointer to a network resource to query. The resource must currently have an established connection. For example, if the resource is a file on a file server, then having the file open will ensure the connection. |
-| ****lpProvider**** | Usually set to **NULL**, but can be a pointer to the owner (provider) of the resource if the network on which the resource resides is known. <br><br>If the *lpProvider* member is not **NULL**, the system attempts to return information only about the named network. |
+| **lpLocalName** | A pointer to a buffer that specifies a local device, such as "F:" or "LPT1", that is redirected to a network resource to be queried. <br><br>If this member is **NULL** or an empty string, the network resource is specified in the *lpRemoteName* member. If this flag specifies a local device, *lpRemoteName* is ignored. |
+| **lpRemoteName** | A pointer to a network resource to query. The resource must currently have an established connection. For example, if the resource is a file on a file server, then having the file open will ensure the connection. |
+| **lpProvider** | Usually set to **NULL**, but can be a pointer to the owner (provider) of the resource if the network on which the resource resides is known. <br><br>If the *lpProvider* member is not **NULL**, the system attempts to return information only about the named network. |
 
 ### `lpNetConnectInfoStruct` [out]
 

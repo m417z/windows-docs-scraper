@@ -22,7 +22,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | --- | --- |
 | **S_OK** | The method succeeded. |
 | **E_POINTER** | At least one of the *targetPartUri*, and *relativePartUri* parameters is **NULL**. |
-| ****CreateUri** function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
+| **CreateUri function error** | An **HRESULT** error code from the [CreateUri](https://learn.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) function. |
 | **WinINet error** | An **HRESULT** error code from a [WinINet](https://learn.microsoft.com/windows/desktop/WinInet/wininet-reference) API. |
 
 ## Remarks

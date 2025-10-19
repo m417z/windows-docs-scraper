@@ -14,8 +14,8 @@ Specifies the units for the source filter's time stamps.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Time stamps are in units of bytes. |
-| ****FALSE**** | Time stamps are in units of bytes × 10000000. To get the offset in bytes, divide the sample time by 10000000. |
+| **TRUE** | Time stamps are in units of bytes. |
+| **FALSE** | Time stamps are in units of bytes × 10000000. To get the offset in bytes, divide the sample time by 10000000. |
 
 The default value is **FALSE**.
 

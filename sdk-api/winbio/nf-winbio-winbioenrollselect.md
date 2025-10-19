@@ -22,9 +22,9 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *SelectorValue* parameter cannot equal zero. |
-| ****WINBIO_E_INCORRECT_SESSION_TYPE**** | The session handle does not correspond to a biometric session. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *SelectorValue* parameter cannot equal zero. |
+| **WINBIO_E_INCORRECT_SESSION_TYPE** | The session handle does not correspond to a biometric session. |
 
 ## Remarks
 

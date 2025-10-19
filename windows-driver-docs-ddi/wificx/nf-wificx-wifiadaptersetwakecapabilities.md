@@ -16,6 +16,8 @@ The **WifiAdapterSetWakeCapabilities** method sets the wake capabilities for a W
 
 The client driver typically calls this function from within [*EVT_DEVICE_PREPARE_HARDWARE*](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware).
 
+The client driver must call [**WifiDeviceSetStationCapabilities**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/nf-wificx-wifidevicesetstationcapabilities) before calling **WifiAdapterSetWakeCapabilities**.
+
 ## See also
 
 [**WIFI_ADAPTER_WAKE_CAPABILITIES**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wificx/ns-wificx-wifi_adapter_wake_capabilities)

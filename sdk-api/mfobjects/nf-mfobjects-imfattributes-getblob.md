@@ -28,10 +28,10 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_NOT_SUFFICIENT_BUFFER**** | The buffer is not large enough to the array. |
-| ****MF_E_ATTRIBUTENOTFOUND**** | The specified key was not found. |
-| ****MF_E_INVALIDTYPE**** | The attribute value is not a byte array. |
+| **S_OK** | The method succeeded. |
+| **E_NOT_SUFFICIENT_BUFFER** | The buffer is not large enough to the array. |
+| **MF_E_ATTRIBUTENOTFOUND** | The specified key was not found. |
+| **MF_E_INVALIDTYPE** | The attribute value is not a byte array. |
 
 ## Remarks
 

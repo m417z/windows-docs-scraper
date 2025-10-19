@@ -34,13 +34,13 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK**** | The association name was successfully set. |
-| ****VDS_E_PROVIDER_CACHE_CORRUPT****<br><br>0x8004241FL | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
-| ****VDS_E_OBJECT_DELETED****<br><br>0x8004240BL | The LUN object is no longer present. |
-| ****VDS_E_OBJECT_STATUS_FAILED****<br><br>0x80042431L | The LUN is in a failed state and is unable to perform the requested operation. |
-| ****VDS_E_ANOTHER_CALL_IN_PROGRESS****<br><br>0x80042404L | Another operation is in progress. This operation cannot proceed until previous operations are complete. |
-| ****VDS_E_OBJECT_NOT_FOUND****<br><br>0x80042405L | One or more GUIDs of data type **VDS_OBJECT_ID** specified in the *pActiveControllerPortIdArray* or *pInactiveControllerPortIdArray* parameters do not refer to an existing object. |
-| ****VDS_E_NOT_SUPPORTED****<br><br>0x80042400L | This operation or combination of parameters is not supported by this provider. |
+| **S_OK** | The association name was successfully set. |
+| **VDS_E_PROVIDER_CACHE_CORRUPT**<br><br>0x8004241FL | The cache of the provider is corrupted. This indicates a software or communication problem inside a provider that caches information about the attached devices. The caller can use the [IVdsHwProvider::Reenumerate](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate) method followed by the [IVdsHwProvider::Refresh](https://learn.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh) method to restore the cache. |
+| **VDS_E_OBJECT_DELETED**<br><br>0x8004240BL | The LUN object is no longer present. |
+| **VDS_E_OBJECT_STATUS_FAILED**<br><br>0x80042431L | The LUN is in a failed state and is unable to perform the requested operation. |
+| **VDS_E_ANOTHER_CALL_IN_PROGRESS**<br><br>0x80042404L | Another operation is in progress. This operation cannot proceed until previous operations are complete. |
+| **VDS_E_OBJECT_NOT_FOUND**<br><br>0x80042405L | One or more GUIDs of data type **VDS_OBJECT_ID** specified in the *pActiveControllerPortIdArray* or *pInactiveControllerPortIdArray* parameters do not refer to an existing object. |
+| **VDS_E_NOT_SUPPORTED**<br><br>0x80042400L | This operation or combination of parameters is not supported by this provider. |
 
 ## See also
 

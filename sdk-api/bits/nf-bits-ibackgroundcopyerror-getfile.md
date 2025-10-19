@@ -16,7 +16,7 @@ This method returns the following **HRESULT** values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved an interface pointer to the file object. |
+| **S_OK** | Successfully retrieved an interface pointer to the file object. |
 | **BG_E_FILE_NOT_AVAILABLE** | The error is not associated with a local or remote file. The *ppFile* parameter is set to **NULL**. |
 
 ## See also

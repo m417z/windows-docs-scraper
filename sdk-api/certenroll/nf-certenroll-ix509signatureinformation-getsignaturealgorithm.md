@@ -26,8 +26,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The hashing algorithm OID, or the [NullSigned](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_nullsigned) property has not been specified but the signing algorithm OID cannot be found. |
-| ****CRYPT_E_UNKNOWN_ALGO**** | The combined signature algorithm could not be found. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The hashing algorithm OID, or the [NullSigned](https://learn.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_nullsigned) property has not been specified but the signing algorithm OID cannot be found. |
+| **CRYPT_E_UNKNOWN_ALGO** | The combined signature algorithm could not be found. |
 
 ## Remarks
 

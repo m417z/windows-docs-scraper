@@ -45,11 +45,11 @@ If the function succeeds, it returns **S_OK**. If the function fails, it must re
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****E_INVALIDARG**** | The size or format of the buffer specified by the *SendBuffer* parameter is not correct, or the value specified in the *ControlCode* parameter is not recognized by the adapter. |
+| **E_INVALIDARG** | The size or format of the buffer specified by the *SendBuffer* parameter is not correct, or the value specified in the *ControlCode* parameter is not recognized by the adapter. |
 | **E_NOT_SUFFICIENT_BUFFER** | The buffer specified by the *ReceiveBuffer* parameter is too small. |
 | **WINBIO_E_CANCELED** | The operation was canceled. |
 | **WINBIO_E_DEVICE_FAILURE** | There was a hardware failure. |
-| ****WINBIO_E_INVALID_CONTROL_CODE**** | The value specified in the *ControlCode* parameter is not recognized by the adapter.<br><br>**Note** Beginning with Windows 8, use only **E_INVALIDARG** to signal this condition. |
+| **WINBIO_E_INVALID_CONTROL_CODE** | The value specified in the *ControlCode* parameter is not recognized by the adapter.<br><br>**Note** Beginning with Windows 8, use only **E_INVALIDARG** to signal this condition. |
 
 ## Remarks
 

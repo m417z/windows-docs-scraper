@@ -20,9 +20,9 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_ALREADY_INITIALIZED**** | The method was already called. |
-| ****MF_E_SHUTDOWN**** | The media sink's [IMFMediaSink::Shutdown](https://learn.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown) method was called. |
+| **S_OK** | The method succeeded. |
+| **MF_E_ALREADY_INITIALIZED** | The method was already called. |
+| **MF_E_SHUTDOWN** | The media sink's [IMFMediaSink::Shutdown](https://learn.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown) method was called. |
 
 ## See also
 

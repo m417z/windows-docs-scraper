@@ -16,7 +16,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully specified the name of the file to contain the reply data. |
+| **S_OK** | Successfully specified the name of the file to contain the reply data. |
 | **BG_E_INVALID_STATE** | You cannot change the reply file name after BITS begins transferring the reply to the client. BITS is transferring the reply to the client if the state is **BG_JOB_STATE_TRANSFERRING** and the **BytesTotal** member of the [BG_JOB_REPLY_PROGRESS](https://learn.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress) structure is not **BG_SIZE_UNKNOWN**. |
 | **E_ACCESSDENIED** | User does not have permission to write to the specified directory on the client. |
 | **E_INVALIDARG** | The reply file name is invalid or exceeds **MAX_PATH**. |

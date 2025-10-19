@@ -22,8 +22,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The certificate request cannot be found. |
-| ****OLE_E_BLANK**** | The enrollment object has not been initialized. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The certificate request cannot be found. |
+| **OLE_E_BLANK** | The enrollment object has not been initialized. |
 
 ## Remarks
 

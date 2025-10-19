@@ -18,12 +18,14 @@ A DNS named address and port.
 
 ### `NamedAddress.Address`
 
-**Type: **WCHAR[DNS_MAX_NAME_BUFFER_LENGTH]****
+Type: **WCHAR[DNS_MAX_NAME_BUFFER_LENGTH]**
+
 A DNS name formatted as a **NULL**-terminated wide character string. The maximum length of this string is the **DNS_MAX_NAME_BUFFER_LENGTH** constant defined in the *Windns.h* header file.
 
 ### `NamedAddress.Port`
 
-**Type: **WCHAR[6]****
+Type: **WCHAR[6]**
+
 The network port formatted as a **NULL**-terminated wide character string.
 
 ### `Ipv4Address`

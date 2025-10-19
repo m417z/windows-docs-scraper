@@ -24,9 +24,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_SHUTDOWN**** | The media sink's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown) method has been called. |
-| ****MF_E_STREAMSINK_REMOVED**** | This stream was removed from the media sink and is no longer valid. |
+| **S_OK** | The method succeeded. |
+| **MF_E_SHUTDOWN** | The media sink's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown) method has been called. |
+| **MF_E_STREAMSINK_REMOVED** | This stream was removed from the media sink and is no longer valid. |
 
 ## Remarks
 

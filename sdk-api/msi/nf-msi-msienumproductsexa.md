@@ -16,7 +16,7 @@ Null-terminated string that specifies a security identifier (SID) that restricts
 
 | SID type | Meaning |
 | --- | --- |
-| ****NULL**** | Specifies the currently logged-on user. |
+| **NULL** | Specifies the currently logged-on user. |
 | **User SID** | Specifies enumeration for a particular user in the system. An example of user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561". |
 | **s-1-1-0** | Specifies enumeration across all users in the system. |
 

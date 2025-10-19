@@ -29,10 +29,10 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | A mandatory pointer argument is **NULL**. |
-| ****WINBIO_E_DATABASE_CANT_CREATE**** | The database cannot be created. |
-| ****WINBIO_E_DATABASE_CANT_FIND**** | The specified database cannot be found. |
-| ****WINBIO_E_DATABASE_LOCKED**** | The database is currently locked by another application and cannot be opened. |
-| ****WINBIO_E_DATABASE_CANT_OPEN**** | An unspecified problem has caused the request to fail. |
+| **WINBIO_E_DATABASE_CANT_CREATE** | The database cannot be created. |
+| **WINBIO_E_DATABASE_CANT_FIND** | The specified database cannot be found. |
+| **WINBIO_E_DATABASE_LOCKED** | The database is currently locked by another application and cannot be opened. |
+| **WINBIO_E_DATABASE_CANT_OPEN** | An unspecified problem has caused the request to fail. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **StorageContext** member of the pipeline object is **NULL**. |
 
 ## See also

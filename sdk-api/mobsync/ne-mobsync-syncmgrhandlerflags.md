@@ -24,7 +24,7 @@ Indicates Show Handler in Choice even if items are not shown. This value is igno
 
 ## Remarks
 
-Only the ****SYNCMGRHANDLER_HASPROPERTIES**** and ****SYNCMGRHANDLER_HIDDEN**** flags are recognized by Windows Vista. Although Windows Vista recognizes the ****SYNCMGRHANDLER_HIDDEN**** flag, it does not currently use it.
+Only the **SYNCMGRHANDLER_HASPROPERTIES** and **SYNCMGRHANDLER_HIDDEN** flags are recognized by Windows Vista. Although Windows Vista recognizes the **SYNCMGRHANDLER_HIDDEN** flag, it does not currently use it.
 
 All flags are still valid for previous versions of Windows.
 

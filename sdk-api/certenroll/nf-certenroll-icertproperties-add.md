@@ -18,7 +18,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)**** | An item in the collection has the same ID as the property you specified. |
+| **HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)** | An item in the collection has the same ID as the property you specified. |
 
 ## See also
 

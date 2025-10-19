@@ -33,8 +33,8 @@ See [CreateFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-file
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The package writer will try to optimize the markup for minimum size. |
-| ****FALSE**** | The package writer will not try to perform any optimization. |
+| **TRUE** | The package writer will try to optimize the markup for minimum size. |
+| **FALSE** | The package writer will not try to perform any optimization. |
 
 ### `interleaving`
 

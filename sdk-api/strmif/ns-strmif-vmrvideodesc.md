@@ -28,8 +28,8 @@ Specifies one of the following values.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Each field is delivered as a separate sample. |
-| ****FALSE**** | Pairs of fields are combined into single samples. |
+| **TRUE** | Each field is delivered as a separate sample. |
+| **FALSE** | Pairs of fields are combined into single samples. |
 
 ### `dwFourCC`
 

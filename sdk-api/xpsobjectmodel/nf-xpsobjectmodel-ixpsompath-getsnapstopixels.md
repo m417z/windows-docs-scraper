@@ -12,8 +12,8 @@ A Boolean value that indicates whether the path is to be snapped to device pixel
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The path is to be snapped to device pixels. |
-| ****FALSE**** | The path is not to be snapped to device pixels. |
+| **TRUE** | The path is to be snapped to device pixels. |
+| **FALSE** | The path is not to be snapped to device pixels. |
 
 ## Return value
 

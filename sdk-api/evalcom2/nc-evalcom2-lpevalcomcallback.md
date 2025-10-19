@@ -34,8 +34,8 @@ Pointer to an application context passed to the [SetStatus](https://learn.micros
 
 | Return code/value | Description |
 | --- | --- |
-| ****TRUE****<br><br>1 | Validation procedure should continue. |
-| ****FALSE****<br><br>0 | Validation was canceled. The callback function return **FALSE** to stop validation. |
+| **TRUE**<br><br>1 | Validation procedure should continue. |
+| **FALSE**<br><br>0 | Validation was canceled. The callback function return **FALSE** to stop validation. |
 
 ## Remarks
 

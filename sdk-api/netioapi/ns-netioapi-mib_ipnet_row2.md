@@ -76,7 +76,8 @@ A set of flags that indicate whether the IP address is a router and whether the 
 
 ### `ReachabilityTime.LastReachable`
 
-**Type: **ULONG****
+Type: **ULONG**
+
 The time, in
 milliseconds, that a node assumes a neighbor is
 reachable after having received a reachability
@@ -84,7 +85,8 @@ confirmation.
 
 ### `ReachabilityTime.LastUnreachable`
 
-**Type: **ULONG****
+Type: **ULONG**
+
 The time, in
 milliseconds, that a node assumes a neighbor is
 unreachable after not having received a reachability

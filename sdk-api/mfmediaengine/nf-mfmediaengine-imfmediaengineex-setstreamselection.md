@@ -16,8 +16,8 @@ Specifies whether to select or deselect the stream.
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The stream is selected. During playback, this stream will play. |
-| ****FALSE**** | The stream is not selected. During playback, this stream will not play. |
+| **TRUE** | The stream is selected. During playback, this stream will play. |
+| **FALSE** | The stream is not selected. During playback, this stream will not play. |
 
 ## Return value
 

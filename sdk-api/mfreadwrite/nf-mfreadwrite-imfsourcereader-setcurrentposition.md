@@ -26,8 +26,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_INVALIDREQUEST**** | One or more sample requests are still pending. |
+| **S_OK** | The method succeeded. |
+| **MF_E_INVALIDREQUEST** | One or more sample requests are still pending. |
 
 ## Remarks
 

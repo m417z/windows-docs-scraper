@@ -16,8 +16,8 @@ A Boolean value that indicates whether the document markup is to be optimized fo
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The package writer will attempt to optimize the markup for minimum size. |
-| ****FALSE**** | The package writer will not attempt any optimization. |
+| **TRUE** | The package writer will attempt to optimize the markup for minimum size. |
+| **FALSE** | The package writer will not attempt any optimization. |
 
 ## Return value
 

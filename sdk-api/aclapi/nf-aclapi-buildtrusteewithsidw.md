@@ -19,10 +19,10 @@ A pointer to a
 
 | Value | Meaning |
 | --- | --- |
-| ****pMultipleTrustee**** | **NULL** |
-| ****MultipleTrusteeOperation**** | NO_MULTIPLE_TRUSTEE |
-| ****TrusteeForm**** | TRUSTEE_IS_SID |
-| ****TrusteeType**** | TRUSTEE_IS_UNKNOWN |
+| **pMultipleTrustee** | **NULL** |
+| **MultipleTrusteeOperation** | NO_MULTIPLE_TRUSTEE |
+| **TrusteeForm** | TRUSTEE_IS_SID |
+| **TrusteeType** | TRUSTEE_IS_UNKNOWN |
 
 ## See also
 

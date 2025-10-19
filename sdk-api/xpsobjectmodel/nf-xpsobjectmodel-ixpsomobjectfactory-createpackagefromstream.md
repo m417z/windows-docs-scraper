@@ -16,8 +16,8 @@ The Boolean value that indicates that the software is to attempt to optimize the
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The software will attempt to optimize the object tree. |
-| ****FALSE**** | The software will not attempt to optimize the object tree. |
+| **TRUE** | The software will attempt to optimize the object tree. |
+| **FALSE** | The software will not attempt to optimize the object tree. |
 
 ### `package` [out, retval]
 

@@ -16,7 +16,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Priority level was successfully retrieved. |
+| **S_OK** | Priority level was successfully retrieved. |
 | **E_INVALIDARG** | The *pPriority* parameter cannot be **NULL**. |
 
 ## See also

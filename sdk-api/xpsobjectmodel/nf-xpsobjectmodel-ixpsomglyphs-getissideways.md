@@ -12,8 +12,8 @@ The Boolean value that indicates whether the text is to be rendered with the gly
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Render the glyphs sideways to produce sideways text. |
-| ****FALSE**** | Do not render the glyphs sideways to produce normal text. |
+| **TRUE** | Render the glyphs sideways to produce sideways text. |
+| **FALSE** | Do not render the glyphs sideways to produce normal text. |
 
 ## Return value
 

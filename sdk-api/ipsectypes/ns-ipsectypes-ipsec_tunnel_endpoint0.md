@@ -12,13 +12,13 @@ Specifies the IP version. In tunnel mode, this is the version of the outer heade
 
 ### `v4Address`
 
-**Type: **UINT32**
+Type: **UINT32**
 
 case(FWP_IP_VERSION_V4)
 
 ### `v6Address`
 
-**Type: **UINT8[16]**
+Type: **UINT8[16]**
 
 case(FWP_IP_VERSION_V6)
 
@@ -34,4 +34,4 @@ For the unnamed union containing the tunnel end point address, switch_type(FWP_I
 
 [IPSEC_TUNNEL_ENDPOINTS2](https://learn.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
 
-[Windows Filtering Platform API structures](https://learn.microsoft.com/windows/desktop/FWP/fwp-structs)****
+[Windows Filtering Platform API structures](https://learn.microsoft.com/windows/desktop/FWP/fwp-structs)

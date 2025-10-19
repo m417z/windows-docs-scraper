@@ -30,7 +30,7 @@ error codes.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The asynchronous removal of an update started successfully. |
+| **S_OK** | The asynchronous removal of an update started successfully. |
 | **WU_E_INSTALL_NOT_ALLOWED** | Do not call this method when the installer is installing or removing an update. <br><br>Call this method only when the [IsBusy](https://learn.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_isbusy) property of the [IUpdateInstaller](https://learn.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller) interface returns **VARIANT_FALSE**. |
 | **WU_E_NO_UPDATE** | Windows Update Agent (WUA) does not have updates in the collection. |
 

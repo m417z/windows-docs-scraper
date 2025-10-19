@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Job was successfully retrieved from the transfer queue. |
+| **S_OK** | Job was successfully retrieved from the transfer queue. |
 | **BG_E_NOT_FOUND** | The job was not found in the queue. |
 | **E_ACCESSDENIED** | User does not have permission to retrieve the job. |
 

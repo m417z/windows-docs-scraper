@@ -33,7 +33,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 | Return code/value | Description |
 | --- | --- |
 | **E_POINTER** | The *pPolicyServer* and *pTemplate* parameters cannot be **NULL**. |
-| ****HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)**** | The enrollment object has already been initialized. |
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The enrollment object has already been initialized. |
 
 ## Remarks
 

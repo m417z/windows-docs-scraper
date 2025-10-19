@@ -55,9 +55,9 @@ If the function succeeds, it returns **S_OK**. If the function fails, it returns
 
 | Return code | Description |
 | --- | --- |
-| ****E_OUTOFMEMORY**** | There is not enough memory available to create the framework session. |
-| ****E_INVALIDARG**** | If you set the notification method to **WINBIO_ASYNC_NOTIFY_MESSAGE**, the *TargetWindow* parameter cannot be **NULL** or **HWND_BROADCAST** and the *MessageCode* parameter cannot be zero (0). |
-| ****E_POINTER**** | The *FrameworkHandle* parameter and the *AsynchronousOpen* parameter must be set.<br><br>If you set the notification method to **WINBIO_ASYNC_NOTIFY_CALLBACK**, you must also specify the address of a callback function in the *CallbackRoutine* parameter. |
+| **E_OUTOFMEMORY** | There is not enough memory available to create the framework session. |
+| **E_INVALIDARG** | If you set the notification method to **WINBIO_ASYNC_NOTIFY_MESSAGE**, the *TargetWindow* parameter cannot be **NULL** or **HWND_BROADCAST** and the *MessageCode* parameter cannot be zero (0). |
+| **E_POINTER** | The *FrameworkHandle* parameter and the *AsynchronousOpen* parameter must be set.<br><br>If you set the notification method to **WINBIO_ASYNC_NOTIFY_CALLBACK**, you must also specify the address of a callback function in the *CallbackRoutine* parameter. |
 
 ## Remarks
 

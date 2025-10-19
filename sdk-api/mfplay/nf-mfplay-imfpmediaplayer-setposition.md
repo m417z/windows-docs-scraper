@@ -26,11 +26,11 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid argument. |
-| ****HRESULT_FROM_WIN32( ERROR_SEEK )**** | The value of *pvPositionValue* is not valid. |
-| ****MF_E_INVALIDREQUEST**** | No media item has been queued. |
-| ****MF_E_SHUTDOWN**** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid argument. |
+| **HRESULT_FROM_WIN32( ERROR_SEEK )** | The value of *pvPositionValue* is not valid. |
+| **MF_E_INVALIDREQUEST** | No media item has been queued. |
+| **MF_E_SHUTDOWN** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
 
 ## Remarks
 

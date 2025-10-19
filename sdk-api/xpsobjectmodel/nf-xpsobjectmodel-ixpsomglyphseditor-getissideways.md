@@ -12,8 +12,8 @@ The Boolean value that indicates whether the text is to be rendered with the gly
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | Rotate the glyphs sideways. Produces sideways text. |
-| ****FALSE**** | Do not rotate the glyphs sideways. Produces normal text. |
+| **TRUE** | Rotate the glyphs sideways. Produces sideways text. |
+| **FALSE** | Do not rotate the glyphs sideways. Produces normal text. |
 
 ## Return value
 

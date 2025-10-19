@@ -61,9 +61,9 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 | Return code | Description |
 | --- | --- |
 | **E_POINTER** | A mandatory pointer parameter is **NULL**. |
-| ****E_INVALIDARG**** | The value specified in the *SubFactor* parameter is not correct. |
-| ****WINBIO_E_BAD_CAPTURE**** | The feature set did not meet the internal requirements of the engine adapter for a verification operation. Further information about the failure is specified by the *RejectDetail* parameter. |
-| ****WINBIO_E_NO_MATCH**** | The feature set in the pipeline matches one stored in the database but it does not correspond to the combination of values passed in the *Identity* and *SubFactor* parameters. |
+| **E_INVALIDARG** | The value specified in the *SubFactor* parameter is not correct. |
+| **WINBIO_E_BAD_CAPTURE** | The feature set did not meet the internal requirements of the engine adapter for a verification operation. Further information about the failure is specified by the *RejectDetail* parameter. |
+| **WINBIO_E_NO_MATCH** | The feature set in the pipeline matches one stored in the database but it does not correspond to the combination of values passed in the *Identity* and *SubFactor* parameters. |
 
 ## Remarks
 

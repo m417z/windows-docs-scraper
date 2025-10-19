@@ -18,10 +18,10 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_FAIL**** | There is no current media item. |
-| ****MF_E_NOT_FOUND**** | There is no current media item. |
-| ****MF_E_SHUTDOWN**** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
+| **S_OK** | The method succeeded. |
+| **E_FAIL** | There is no current media item. |
+| **MF_E_NOT_FOUND** | There is no current media item. |
+| **MF_E_SHUTDOWN** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
 
 ## Remarks
 

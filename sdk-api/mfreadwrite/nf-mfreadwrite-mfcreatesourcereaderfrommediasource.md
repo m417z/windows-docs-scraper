@@ -24,8 +24,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_DRM_UNSUPPORTED**** | The source contains protected content. |
+| **S_OK** | The method succeeded. |
+| **MF_E_DRM_UNSUPPORTED** | The source contains protected content. |
 
 ## Remarks
 

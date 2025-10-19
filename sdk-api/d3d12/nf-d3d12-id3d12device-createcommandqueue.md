@@ -14,13 +14,13 @@ Specifies a **D3D12_COMMAND_QUEUE_DESC** that describes the command queue.
 
 ### `riid`
 
-Type: ****REFIID****
+Type: **REFIID**
 
 The globally unique identifier (GUID) for the command queue interface. See **Remarks**. An input parameter.
 
 ### `ppCommandQueue`
 
-Type: [out] ****void******
+Type: [out] **void****
 
 A pointer to a memory block that receives a pointer to the [ID3D12CommandQueue](https://learn.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue) interface for the command queue.
 

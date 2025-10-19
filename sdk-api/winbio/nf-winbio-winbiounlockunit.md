@@ -20,9 +20,9 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
-| ****E_INVALIDARG**** | The *UnitId* parameter cannot contain zero. |
-| ****WINBIO_E_LOCK_VIOLATION**** | The biometric unit specified by the *UnitId* parameter is not currently locked by the session. |
+| **E_HANDLE** | The session handle is not valid. |
+| **E_INVALIDARG** | The *UnitId* parameter cannot contain zero. |
+| **WINBIO_E_LOCK_VIOLATION** | The biometric unit specified by the *UnitId* parameter is not currently locked by the session. |
 
 ## Remarks
 

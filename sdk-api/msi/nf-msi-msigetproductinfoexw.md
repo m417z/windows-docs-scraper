@@ -22,7 +22,7 @@ The security identifier (SID) of the account under which the instance of the pro
 
 | SID | Meaning |
 | --- | --- |
-| ****NULL**** | The currently logged-on user. |
+| **NULL** | The currently logged-on user. |
 | **User SID** | The enumeration for a specific user in the system. An example of user SID is "S-1-3-64-2415071341-1358098788-3127455600-2561". |
 
 **Note** The special SID string "S-1-5-18" (system) cannot be used to enumerate products installed as per-machine. If *dwContext* is "MSIINSTALLCONTEXT_MACHINE", *szUserSid* must be **NULL**.

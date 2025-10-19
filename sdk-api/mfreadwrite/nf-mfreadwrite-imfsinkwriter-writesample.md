@@ -20,8 +20,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_INVALIDREQUEST**** | The request is invalid. |
+| **S_OK** | The method succeeded. |
+| **MF_E_INVALIDREQUEST** | The request is invalid. |
 
 ## Remarks
 

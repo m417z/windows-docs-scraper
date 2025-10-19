@@ -29,7 +29,7 @@ This method can return one of these values.
 | --- | --- |
 | **S_OK** | Success. |
 | **MF_E_INVALIDREQUEST** | Invalid request. |
-| ****MF_E_INVALIDSTREAMNUMBER**** | The *dwStreamIndex* parameter is invalid. |
+| **MF_E_INVALIDSTREAMNUMBER** | The *dwStreamIndex* parameter is invalid. |
 
 ## Remarks
 

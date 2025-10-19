@@ -30,9 +30,9 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****CERTSRV_E_PROPERTY_EMPTY**** | The certificate cannot be found. |
-| ****HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)**** | No certificate chain can be found. |
-| ****OLE_E_BLANK**** | The enrollment object has not been initialized. |
+| **CERTSRV_E_PROPERTY_EMPTY** | The certificate cannot be found. |
+| **HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)** | No certificate chain can be found. |
+| **OLE_E_BLANK** | The enrollment object has not been initialized. |
 
 ## Remarks
 

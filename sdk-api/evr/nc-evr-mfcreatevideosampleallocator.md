@@ -14,9 +14,9 @@ The identifier of the interface to retrieve. Specify one of the following values
 
 | Value | Meaning |
 | --- | --- |
-| ****IID_IUnknown**** | Retrieve an **IUnknown** pointer. |
-| ****IID_IMFVideoSampleAllocator**** | Retrieve an [IMFVideoSampleAllocator](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator) pointer. |
-| ****IID_IMFVideoSampleAllocatorCallback**** | Retrieve an [IMFVideoSampleAllocatorCallback](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback) pointer. |
+| **IID_IUnknown** | Retrieve an **IUnknown** pointer. |
+| **IID_IMFVideoSampleAllocator** | Retrieve an [IMFVideoSampleAllocator](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator) pointer. |
+| **IID_IMFVideoSampleAllocatorCallback** | Retrieve an [IMFVideoSampleAllocatorCallback](https://learn.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback) pointer. |
 
 ### `ppSampleAllocator` [out]
 

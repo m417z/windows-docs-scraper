@@ -20,7 +20,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | File was successfully added to the job. |
+| **S_OK** | File was successfully added to the job. |
 | **BG_E_TOO_MANY_FILES** | Upload jobs can only contain one file; you cannot add another file to the job. |
 | **BG_E_TOO_MANY_FILES_IN_JOB** | The MaxFilesPerJob Group Policy setting determines how many files a job can contain. Adding the file to the job exceeds the MaxFilesPerJob limit. |
 | **E_INVALIDARG** | You can receive this error for one of the following reasons:<br><br>* The local or remote file name is not valid.<br>* The remote file name uses an unsupported protocol.<br>* The local file name was specified using a relative path. |

@@ -23,7 +23,7 @@ The function returns an **HRESULT** indicating success or failure. Note that suc
 | **E_HANDLE** | You must set the *FrameworkHandle* argument. |
 | **E_INVALIDARG** | The bitmask contained in the *Factor* parameter contains one or more an invalid type bits. |
 | **E_OUTOFMEMORY** | There was insufficient memory to complete the request. |
-| ****WINBIO_E_DISABLED**** | Current administrative policy prohibits use of the Windows Biometric Framework API. |
+| **WINBIO_E_DISABLED** | Current administrative policy prohibits use of the Windows Biometric Framework API. |
 | **WINBIO_E_INCORRECT_SESSION_TYPE** | The *FrameworkHandle* argument must represent an asynchronous framework session. |
 | **WINBIO_E_SESSION_HANDLE_CLOSED** | The session handle has been marked for closure. |
 

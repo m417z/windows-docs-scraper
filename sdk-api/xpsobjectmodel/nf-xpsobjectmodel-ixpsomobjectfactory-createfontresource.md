@@ -28,8 +28,8 @@ A Boolean value that indicates whether the stream referenced by *acquiredStream*
 
 | Value | Meaning |
 | --- | --- |
-| ****TRUE**** | The stream referenced by *acquiredStream* is obfuscated. |
-| ****FALSE**** | The stream referenced by *acquiredStream* is not obfuscated. |
+| **TRUE** | The stream referenced by *acquiredStream* is obfuscated. |
+| **FALSE** | The stream referenced by *acquiredStream* is not obfuscated. |
 
 ### `fontResource` [out, retval]
 

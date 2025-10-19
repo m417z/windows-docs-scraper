@@ -18,7 +18,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the number of files in the job. |
+| **S_OK** | Successfully retrieved the number of files in the job. |
 
 ## See also
 

@@ -3,17 +3,17 @@
 ## Syntax
 
 ```cpp
-LONGLONG Int32x32To64(
-  [in]  LONG a,
-  [in]  LONG b
+ULONGLONG UInt32x32To64(
+  [in]  ULONG a,
+  [in]  ULONG b
 );
 ```
 
 ## Return value
 
-Type: **LONGLONG**
+Type: **ULONGLONG**
 
-The return value is the signed 64-bit integer result of the multiplication operation.
+The return value is the unsigned 64-bit integer result of the multiplication operation.
 
 ## Description
 
@@ -29,16 +29,12 @@ The first unsigned 32-bit integer for the multiplication operation.
 
 The second unsigned 32-bit integer for the multiplication operation.
 
-## Return value
-
-The value of the product.
-
 ## Remarks
 
 This function is implemented on all platforms by optimal inline code: a single multiply instruction that returns a 64-bit result.
 
 Please note that the function's return value is a 64-bit value, not a
-[LARGE_INTEGER](https://learn.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer-r1) structure.
+[ULARGE_INTEGER](https://learn.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer-r1) structure.
 
 ## See also
 

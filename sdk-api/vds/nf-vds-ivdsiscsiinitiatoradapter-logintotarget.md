@@ -61,8 +61,8 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code/value | Description |
 | --- | --- |
-| ****S_OK**** | The login was successfully completed. |
-| ****VDS_E_ISCSI_LOGIN_FAILED****<br><br>0x80042708L | Another operation is in progress. This operation cannot proceed until the previous operations are complete. |
+| **S_OK** | The login was successfully completed. |
+| **VDS_E_ISCSI_LOGIN_FAILED**<br><br>0x80042708L | Another operation is in progress. This operation cannot proceed until the previous operations are complete. |
 
 ## See also
 

@@ -33,7 +33,7 @@ If the function succeeds, it returns **S_OK**. If the function fails, it returns
 
 | Return code | Description |
 | --- | --- |
-| ****E_HANDLE**** | The session handle is not valid. |
+| **E_HANDLE** | The session handle is not valid. |
 | **E_POINTER** | The *SessionHandle* and *IdentifyCallback* parameters cannot be **NULL**. |
 
 ## Remarks

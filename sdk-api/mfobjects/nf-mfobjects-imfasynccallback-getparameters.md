@@ -13,10 +13,10 @@ Receives a flag indicating the behavior of the callback object's [IMFAsyncCallba
 | Value | Meaning |
 | --- | --- |
 | **Zero** | The callback does not take a long time to complete, but has no specific restrictions on what system calls it makes. The callback generally takes less than 30 milliseconds to complete. |
-| ****MFASYNC_FAST_IO_PROCESSING_CALLBACK**** | The callback does very minimal processing. It takes less than 1 millisecond to complete.<br><br>The callback must be invoked from one of the following work queues:<br><br>* **MFASYNC_CALLBACK_QUEUE_IO**<br>* **MFASYNC_CALLBACK_QUEUE_TIMER** |
-| ****MFASYNC_SIGNAL_CALLBACK**** | Implies **MFASYNC_FAST_IO_PROCESSING_CALLBACK**, with the additional restriction that the callback does no processing (less than 50 microseconds), and the only system call it makes is **SetEvent**.<br><br>The callback must be invoked from one of the following work queues:<br><br>* **MFASYNC_CALLBACK_QUEUE_IO**<br>* **MFASYNC_CALLBACK_QUEUE_TIMER** |
-| ****MFASYNC_BLOCKING_CALLBACK**** | Blocking callback. |
-| ****MFASYNC_REPLY_CALLBACK**** | Reply callback. |
+| **MFASYNC_FAST_IO_PROCESSING_CALLBACK** | The callback does very minimal processing. It takes less than 1 millisecond to complete.<br><br>The callback must be invoked from one of the following work queues:<br><br>* **MFASYNC_CALLBACK_QUEUE_IO**<br>* **MFASYNC_CALLBACK_QUEUE_TIMER** |
+| **MFASYNC_SIGNAL_CALLBACK** | Implies **MFASYNC_FAST_IO_PROCESSING_CALLBACK**, with the additional restriction that the callback does no processing (less than 50 microseconds), and the only system call it makes is **SetEvent**.<br><br>The callback must be invoked from one of the following work queues:<br><br>* **MFASYNC_CALLBACK_QUEUE_IO**<br>* **MFASYNC_CALLBACK_QUEUE_TIMER** |
+| **MFASYNC_BLOCKING_CALLBACK** | Blocking callback. |
+| **MFASYNC_REPLY_CALLBACK** | Reply callback. |
 
 ### `pdwQueue` [out]
 
@@ -32,8 +32,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_NOTIMPL**** | Not implemented. Assume the default behavior. |
+| **S_OK** | The method succeeded. |
+| **E_NOTIMPL** | Not implemented. Assume the default behavior. |
 
 ## Remarks
 

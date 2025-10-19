@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The job was successfully created. |
+| **S_OK** | The job was successfully created. |
 | **QM_E_INVALID_STATE** | The job is already running. |
 | **E_NOTIMPL** | Only one job allowed per group. |
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-The **FAX_JOB_EXTENDED_STATUS_ENUM** enumeration defines the extended status values for a fax job. These are basic values provided for developers of a fax service provider (FSP). However, with the exception of ****fjesPARTIALLY_RECEIVED****, these values or other proprietary values that may be developed for a specific FSP, are not recognized or interpreted by the fax server.
+The **FAX_JOB_EXTENDED_STATUS_ENUM** enumeration defines the extended status values for a fax job. These are basic values provided for developers of a fax service provider (FSP). However, with the exception of **fjesPARTIALLY_RECEIVED**, these values or other proprietary values that may be developed for a specific FSP, are not recognized or interpreted by the fax server.
 
 ## Constants
 

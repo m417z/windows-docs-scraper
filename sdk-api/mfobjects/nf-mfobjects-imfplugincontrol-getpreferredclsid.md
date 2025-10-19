@@ -24,9 +24,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid argument. |
-| ****HRESULT_FROM_WIN32(ERROR_NOT_FOUND)**** | No CLSID matching this key was found. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid argument. |
+| **HRESULT_FROM_WIN32(ERROR_NOT_FOUND)** | No CLSID matching this key was found. |
 
 ## See also
 

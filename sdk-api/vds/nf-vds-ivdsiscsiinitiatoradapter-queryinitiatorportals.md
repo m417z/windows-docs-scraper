@@ -18,7 +18,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The enumeration of initiator portals was successfully returned. If the initiator adapter has no portals, the enumeration is empty. |
+| **S_OK** | The enumeration of initiator portals was successfully returned. If the initiator adapter has no portals, the enumeration is empty. |
 
 ## See also
 

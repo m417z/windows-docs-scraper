@@ -31,8 +31,8 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****WINBIO_E_BAD_CAPTURE**** | The sample could not be captured. If you return this error code, you must also specify a value in the *RejectDetail* parameter that indicates the nature of the problem. |
-| ****WINBIO_E_CAPTURE_CANCELED**** | The sensor driver returned **ERROR_CANCELLED** or **ERROR_OPERATION_ABORTED**. |
+| **WINBIO_E_BAD_CAPTURE** | The sample could not be captured. If you return this error code, you must also specify a value in the *RejectDetail* parameter that indicates the nature of the problem. |
+| **WINBIO_E_CAPTURE_CANCELED** | The sensor driver returned **ERROR_CANCELLED** or **ERROR_OPERATION_ABORTED**. |
 | **WINBIO_E_DEVICE_FAILURE** | There was a device failure. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | The **SensorContext** member of the [WINBIO_PIPELINE](https://learn.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline) structure pointed to by the *Pipeline* argument is **NULL** or the **SensorHandle** member is set to **INVALID_HANDLE_VALUE**. |
 

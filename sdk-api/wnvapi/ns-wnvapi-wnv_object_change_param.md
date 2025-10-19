@@ -18,7 +18,8 @@ The parameters for the corresponding object type. If the object type is **WnvPro
 
 ### `ObjectParam.ProviderAddressChange`
 
-**Type: **[WNV_PROVIDER_ADDRESS_CHANGE_PARAM](https://learn.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param)****
+Type: **[WNV_PROVIDER_ADDRESS_CHANGE_PARAM](https://learn.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param)**
+
 The provider address change parameters for this object change event.
 
 ### `ObjectParam.CustomerAddressChange`

@@ -10,8 +10,8 @@ The following table lists some of the possible return values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully removed the certificate. |
-| ****S_FALSE**** | The job does not specify a certificate. |
+| **S_OK** | Successfully removed the certificate. |
+| **S_FALSE** | The job does not specify a certificate. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. |
 
 ## Remarks

@@ -29,13 +29,13 @@ Handle to the item after which the new item is to be inserted, or one of the fol
 
 ### `DUMMYUNIONNAME.itemex`
 
-**Type: **[TVITEMEX](https://learn.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa)****
+Type: **[TVITEMEX](https://learn.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa)**
 
 [Version 4.71](https://learn.microsoft.com/windows/desktop/Controls/common-control-versions). [TVITEMEX](https://learn.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa) structure that contains information about the item to add.
 
 ### `DUMMYUNIONNAME.item`
 
-**Type: **[TVITEM](https://learn.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema)****
+Type: **[TVITEM](https://learn.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema)**
 
 [TVITEM](https://learn.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema) structure that contains information about the item to add.
 

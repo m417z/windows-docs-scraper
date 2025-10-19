@@ -16,7 +16,7 @@ This method returns the following return values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Success |
+| **S_OK** | Success |
 | **E_INVALIDARG** | The new remote name is an invalid URL or the new URL is too long (the URL cannot exceed 2,200 characters). |
 | **E_NOTIMPL** | You cannot call this method for upload or upload-reply jobs; only call this method for download jobs. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be **BG_JOB_STATE_CANCELLED** or **BG_JOB_STATE_ACKNOWLEDGED**. |

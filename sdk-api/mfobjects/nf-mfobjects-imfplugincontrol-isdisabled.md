@@ -20,9 +20,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The specified CLSID appears in the blocked list. |
-| ****E_INVALIDARG**** | Invalid argument. |
-| ****HRESULT_FROM_WIN32(ERROR_NOT_FOUND)**** | The specified CLSID is not in the blocked list. |
+| **S_OK** | The specified CLSID appears in the blocked list. |
+| **E_INVALIDARG** | Invalid argument. |
+| **HRESULT_FROM_WIN32(ERROR_NOT_FOUND)** | The specified CLSID is not in the blocked list. |
 
 ## See also
 

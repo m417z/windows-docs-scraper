@@ -22,9 +22,9 @@ This function must return one of the following **HRESULT** values.
 | --- | --- |
 | **S_OK** | The last update succeeded and no additional feature sets are required to complete the template. |
 | **E_POINTER** | A mandatory pointer parameter is **NULL**. |
-| ****WINBIO_E_BAD_CAPTURE**** | The feature set did not meet the internal enrollment requirements of the engine adapter. Further information about the failure is specified by the *RejectDetail* parameter. |
+| **WINBIO_E_BAD_CAPTURE** | The feature set did not meet the internal enrollment requirements of the engine adapter. Further information about the failure is specified by the *RejectDetail* parameter. |
 | **WINBIO_E_INVALID_DEVICE_STATE** | There is no enrollment in progress on this biometric unit. |
-| ****WINBIO_I_MORE_DATA**** | The last update succeeded, but the engine adapter requires one or more additional feature sets before it can complete the enrollment template. |
+| **WINBIO_I_MORE_DATA** | The last update succeeded, but the engine adapter requires one or more additional feature sets before it can complete the enrollment template. |
 
 ## See also
 

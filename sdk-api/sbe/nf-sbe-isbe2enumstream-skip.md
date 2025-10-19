@@ -18,8 +18,8 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****S_FALSE**** | The end of the sequence was reached before skipping the requested number of streams. |
+| **S_OK** | The method succeeded. |
+| **S_FALSE** | The end of the sequence was reached before skipping the requested number of streams. |
 
 ## See also
 

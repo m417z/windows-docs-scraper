@@ -26,7 +26,7 @@ Specifies the type of query to perform.
 | Value | Meaning |
 | --- | --- |
 | **Zero** | Test whether the surface is safe to use for writing. |
-| ****AMVA_QUERYRENDERSTATUSF_READ**** | Test whether the surface is safe to use for reading. |
+| **AMVA_QUERYRENDERSTATUSF_READ** | Test whether the surface is safe to use for reading. |
 
 ## Return value
 

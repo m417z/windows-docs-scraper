@@ -18,11 +18,11 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid argument. |
-| ****MF_E_DRM_UNSUPPORTED**** | The media item contains protected content. MFPlay currently does not support protected content. |
-| ****MF_E_NO_AUDIO_PLAYBACK_DEVICE**** | No audio playback device was found. This error can occur if the media source contains audio, but no audio playback devices are available on the system. |
-| ****MF_E_SHUTDOWN**** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid argument. |
+| **MF_E_DRM_UNSUPPORTED** | The media item contains protected content. MFPlay currently does not support protected content. |
+| **MF_E_NO_AUDIO_PLAYBACK_DEVICE** | No audio playback device was found. This error can occur if the media source contains audio, but no audio playback devices are available on the system. |
+| **MF_E_SHUTDOWN** | The object's [Shutdown](https://learn.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown) method was called. |
 
 ## Remarks
 

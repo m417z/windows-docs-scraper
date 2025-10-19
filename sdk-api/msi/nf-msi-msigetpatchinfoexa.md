@@ -20,7 +20,7 @@ A null-terminated string that specifies the security identifier (SID) under whic
 
 | SID | Meaning |
 | --- | --- |
-| ****NULL**** | Specifies the user that is logged on. |
+| **NULL** | Specifies the user that is logged on. |
 | **User SID** | Specifies the enumeration for a specific user ID in the system. The following example identifies a possible user SID: "S-1-3-64-2415071341-1358098788-3127455600-2561". |
 
 **Note** The special SID string "S-1-5-18" (system) cannot be used to enumerate products installed as per-machine. If *dwContext* is **MSIINSTALLCONTEXT_MACHINE**, *szUserSid* must be **NULL**.

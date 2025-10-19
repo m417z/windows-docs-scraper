@@ -16,9 +16,9 @@ The function returns an **HRESULT**. Possible values include, but are not limite
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The function succeeded. |
-| ****MF_E_INVALID_WORKQUEUE**** | Invalid work queue. For more information, see [IMFAsyncCallback::GetParameters](https://learn.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters). |
-| ****MF_E_SHUTDOWN**** | The [MFShutdown](https://learn.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) function was called to shut down the Media Foundation platform. |
+| **S_OK** | The function succeeded. |
+| **MF_E_INVALID_WORKQUEUE** | Invalid work queue. For more information, see [IMFAsyncCallback::GetParameters](https://learn.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters). |
+| **MF_E_SHUTDOWN** | The [MFShutdown](https://learn.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) function was called to shut down the Media Foundation platform. |
 
 ## Remarks
 

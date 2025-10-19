@@ -24,10 +24,10 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****MF_E_INVALIDMEDIATYPE**** | The underlying media sink does not support the format, no conversion is possible, or a dynamic format change is not possible. |
-| ****MF_E_INVALIDSTREAMNUMBER**** | The *dwStreamIndex* parameter is invalid. |
-| ****MF_E_TOPO_CODEC_NOT_FOUND**** | Could not find an encoder for the encoded format. |
+| **S_OK** | The method succeeded. |
+| **MF_E_INVALIDMEDIATYPE** | The underlying media sink does not support the format, no conversion is possible, or a dynamic format change is not possible. |
+| **MF_E_INVALIDSTREAMNUMBER** | The *dwStreamIndex* parameter is invalid. |
+| **MF_E_TOPO_CODEC_NOT_FOUND** | Could not find an encoder for the encoded format. |
 
 ## Remarks
 

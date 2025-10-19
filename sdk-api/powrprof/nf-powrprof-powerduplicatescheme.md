@@ -28,9 +28,9 @@ the call failed.
 
 | Return code/value | Description |
 | --- | --- |
-| ****ERROR_SUCCESS****<br><br>0 (0x0) | The power scheme was successfully duplicated. |
-| ****ERROR_INVALID_PARAMETER****<br><br>87 (0x57) | One of the parameters is not valid. |
-| ****ERROR_ALREADY_EXISTS****<br><br>183 (0xB7) | The *DestinationSchemeGuid* parameter refers to an existing power scheme. [PowerDeleteScheme](https://learn.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdeletescheme) can be used to delete this scheme. |
+| **ERROR_SUCCESS**<br><br>0 (0x0) | The power scheme was successfully duplicated. |
+| **ERROR_INVALID_PARAMETER**<br><br>87 (0x57) | One of the parameters is not valid. |
+| **ERROR_ALREADY_EXISTS**<br><br>183 (0xB7) | The *DestinationSchemeGuid* parameter refers to an existing power scheme. [PowerDeleteScheme](https://learn.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdeletescheme) can be used to delete this scheme. |
 
 ## See also
 

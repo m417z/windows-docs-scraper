@@ -22,7 +22,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the job from the group. |
+| **S_OK** | Successfully retrieved the job from the group. |
 | **QM_E_ITEM_NOT_FOUND** | Could not find the job in the group. |
 
 ## See also

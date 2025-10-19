@@ -16,8 +16,8 @@ The function returns an **HRESULT**. Possible values include, but are not limite
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | This presentation requires a protected environment. |
-| ****S_FALSE**** | This presentation does not require a protected environment. |
+| **S_OK** | This presentation requires a protected environment. |
+| **S_FALSE** | This presentation does not require a protected environment. |
 
 ## Remarks
 

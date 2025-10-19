@@ -28,8 +28,8 @@ The following are the valid return codes for this method.
 | **E_ACCESSDENIED** | The caller does not have sufficient backup privileges or is not an administrator. |
 | **E_INVALIDARG** | One of the parameter values is not valid. |
 | **E_OUTOFMEMORY** | The caller is out of memory or other system resources. |
-| ****VSS_E_OBJECT_NOT_FOUND**** | The *pwszVolume* parameter does not specify a valid volume. |
-| ****VSS_E_VOLUME_NOT_SUPPORTED**** | The revert operation is not supported on this volume. |
+| **VSS_E_OBJECT_NOT_FOUND** | The *pwszVolume* parameter does not specify a valid volume. |
+| **VSS_E_VOLUME_NOT_SUPPORTED** | The revert operation is not supported on this volume. |
 
 ## Remarks
 

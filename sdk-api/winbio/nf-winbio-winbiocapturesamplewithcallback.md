@@ -71,8 +71,8 @@ If the function succeeds, it returns **S_OK**. If the function fails, it returns
 
 | Return code | Description |
 | --- | --- |
-| ****E_ACCESSDENIED**** | The caller does not have permission to capture raw samples, or the session was not opened by using the **WINBIO_FLAG_RAW** flag. |
-| ****E_HANDLE**** | The session handle is not valid. |
+| **E_ACCESSDENIED** | The caller does not have permission to capture raw samples, or the session was not opened by using the **WINBIO_FLAG_RAW** flag. |
+| **E_HANDLE** | The session handle is not valid. |
 | **E_NOTIMPL** | The biometric unit does not support the requested operation. |
 | **E_POINTER** | The *UnitId*, *Sample*, *SampleSize*, and *RejectDetail* pointers cannot be **NULL**. |
 | **WINBIO_E_ENROLLMENT_IN_PROGRESS** | The operation could not be completed because the biometric unit is currently being used for an enrollment transaction (system pool only). |

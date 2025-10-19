@@ -72,8 +72,8 @@ The current logging mode.
 
 | Value | Meaning |
 | --- | --- |
-| ****TXFS_LOGGING_MODE_SIMPLE****<br><br>1 | Simple logging is used. |
-| ****TXFS_LOGGING_MODE_FULL****<br><br>2 | Full logging is used |
+| **TXFS_LOGGING_MODE_SIMPLE**<br><br>1 | Simple logging is used. |
+| **TXFS_LOGGING_MODE_FULL**<br><br>2 | Full logging is used |
 
 ## See also
 

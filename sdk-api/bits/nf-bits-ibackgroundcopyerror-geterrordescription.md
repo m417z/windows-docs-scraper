@@ -28,7 +28,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Description of the error was successfully retrieved. |
+| **S_OK** | Description of the error was successfully retrieved. |
 | **E_OUTOFMEMORY** | Not enough memory is available to complete the operation. |
 | **E_INVALIDARG** | The *LanguageId* parameter cannot be 0. |
 | **HRESULT_FROM_WIN32(ERROR_RESOURCE_LANG_NOT_FOUND)** | No string is available for the locale. |

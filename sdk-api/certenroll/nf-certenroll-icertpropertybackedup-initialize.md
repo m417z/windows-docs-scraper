@@ -22,8 +22,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 | Return code/value | Description |
 | --- | --- |
-| ****HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)**** | The object is already initialized. |
-| ****HRESULT_FROM_WIN32(ERROR_INVALID_DATA)**** | The specified time is not valid. |
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The object is already initialized. |
+| **HRESULT_FROM_WIN32(ERROR_INVALID_DATA)** | The specified time is not valid. |
 
 ## Remarks
 

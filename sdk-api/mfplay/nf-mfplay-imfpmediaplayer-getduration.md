@@ -14,7 +14,7 @@ Specifies the unit of time for the duration. The following value is defined.
 
 | Value | Meaning |
 | --- | --- |
-| ****MFP_POSITIONTYPE_100NS**** | 100-nanosecond units.<br><br>The value returned in *pvDurationValue* is a **ULARGE_INTEGER**.<br><br>* Variant type (**vt**): **VT_UI8**<br>* Variant member: **uhVal** |
+| **MFP_POSITIONTYPE_100NS** | 100-nanosecond units.<br><br>The value returned in *pvDurationValue* is a **ULARGE_INTEGER**.<br><br>* Variant type (**vt**): **VT_UI8**<br>* Variant member: **uhVal** |
 
 ### `pvDurationValue` [out]
 

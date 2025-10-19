@@ -14,14 +14,14 @@ A pointer to a [D3D12_DESCRIPTOR_HEAP_DESC](https://learn.microsoft.com/windows/
 
 ### `riid`
 
-Type: ****REFIID****
+Type: **REFIID**
 
 The globally unique identifier (**GUID**) for the descriptor heap interface. See Remarks.
 An input parameter.
 
 ### `ppvHeap` [out]
 
-Type: ****void******
+Type: **void****
 
 A pointer to a memory block that receives a pointer to the descriptor heap.
 *ppvHeap* can be NULL, to enable capability testing.

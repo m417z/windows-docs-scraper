@@ -33,9 +33,9 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 
 | Return code | Description |
 | --- | --- |
-| ****E_ACCESSDENIED**** | The caller does not have permission to retrieve the credential state. |
-| ****WINBIO_E_UNKNOWN_ID**** | The specified identity does not exist. |
-| ****WINBIO_E_CRED_PROV_DISABLED**** | Current administrative policy prohibits use of the credential provider. |
+| **E_ACCESSDENIED** | The caller does not have permission to retrieve the credential state. |
+| **WINBIO_E_UNKNOWN_ID** | The specified identity does not exist. |
+| **WINBIO_E_CRED_PROV_DISABLED** | Current administrative policy prohibits use of the credential provider. |
 
 ## Remarks
 

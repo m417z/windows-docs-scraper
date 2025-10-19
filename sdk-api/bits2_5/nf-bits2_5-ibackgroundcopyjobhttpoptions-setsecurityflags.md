@@ -29,8 +29,8 @@ The following table lists some of the possible return values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the headers. |
-| ****E_NOTIMPL**** | The flag value is not supported. |
+| **S_OK** | Successfully retrieved the headers. |
+| **E_NOTIMPL** | The flag value is not supported. |
 
 ## Remarks
 

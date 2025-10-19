@@ -32,7 +32,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully generated the new job. |
+| **S_OK** | Successfully generated the new job. |
 | **E_INVALIDARG** | The display name is too long. |
 | **BG_E_TOO_MANY_JOBS_PER_MACHINE** | The MaxJobsPerMachine Group Policy setting determines how many jobs can be created on the computer. Adding this job exceeds the MaxJobsPerMachine limit. |
 | **BG_E_TOO_MANY_JOBS_PER_USER** | The MaxJobsPerUser Group Policy setting determines how many jobs a user can create. Adding this job exceeds the MaxJobsPerUser limit. |

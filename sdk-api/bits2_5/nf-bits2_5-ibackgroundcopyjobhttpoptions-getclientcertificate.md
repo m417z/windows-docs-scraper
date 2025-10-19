@@ -31,9 +31,9 @@ The following table lists some of the possible return values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Successfully retrieved the certificate. |
-| ****RPC_X_BAD_STUB_DATA**** | The job does not specify a certificate or the user does not have permissions to the certificate. |
-| ****RPC_X_NULL_REF_POINTER**** | One of the parameters is **NULL**. |
+| **S_OK** | Successfully retrieved the certificate. |
+| **RPC_X_BAD_STUB_DATA** | The job does not specify a certificate or the user does not have permissions to the certificate. |
+| **RPC_X_NULL_REF_POINTER** | One of the parameters is **NULL**. |
 
 ## Remarks
 

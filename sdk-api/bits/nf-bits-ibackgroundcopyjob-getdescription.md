@@ -17,7 +17,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Description of the job was successfully retrieved. |
+| **S_OK** | Description of the job was successfully retrieved. |
 | **E_INVALIDARG** | The parameter, *ppDescription*, cannot be **NULL**. |
 
 ## See also

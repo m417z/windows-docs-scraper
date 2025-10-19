@@ -22,13 +22,13 @@ Available when **eventType** is **FWPM_VSWITCH_EVENT_FILTER_ADD_TO_FILTER_ENGINE
 
 ### `positionInfo.numvSwitchFilterExtensions`
 
-**Type: **ULONG**
+Type: **ULONG**
 
 The number of vSwitch filter extensions.
 
 ### `positionInfo.vSwitchFilterExtensions`
 
-**Type: **LPWSTR***
+Type: **LPWSTR***
 
 size_is(numvSwitchFilterExtensions)
 
@@ -40,19 +40,19 @@ Available when **eventType** is **FWPM_VSWITCH_EVENT_FILTER_ENGINE_REORDER**.
 
 ### `reorderInfo.inRequiredPosition`
 
-**Type: **BOOL**
+Type: **BOOL**
 
 True if the filter engine is in the required position to correctly enforce committed filters; otherwise, false.
 
 ### `reorderInfo.numvSwitchFilterExtensions`
 
-**Type: **ULONG**
+Type: **ULONG**
 
 The number of vSwitch filter extensions.
 
 ### `reorderInfo.vSwitchFilterExtensions`
 
-**Type: **LPWSTR***
+Type: **LPWSTR***
 
 size_is(numvSwitchFilterExtensions)
 
@@ -66,4 +66,4 @@ For the unnamed union, switch_is(eventType), switch_type(FWPM_VSWITCH_EVENT_TYPE
 
 ## See also
 
-[FWPM_VSWITCH_EVENT_TYPE](https://learn.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)**********
+[FWPM_VSWITCH_EVENT_TYPE](https://learn.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)

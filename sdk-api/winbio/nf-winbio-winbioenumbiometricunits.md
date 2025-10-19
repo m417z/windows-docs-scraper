@@ -26,8 +26,8 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 | --- | --- |
 | **E_INVALIDARG** | The bitmask contained in the *Factor* parameter contains one or more an invalid type bits. |
 | **E_OUTOFMEMORY** | There was insufficient memory to complete the request. |
-| ****E_POINTER**** | The *UnitSchemaArray* and *UnitCount* parameters cannot be **NULL**. |
-| ****WINBIO_E_DISABLED**** | Current administrative policy prohibits use of the Windows Biometric Framework API. |
+| **E_POINTER** | The *UnitSchemaArray* and *UnitCount* parameters cannot be **NULL**. |
+| **WINBIO_E_DISABLED** | Current administrative policy prohibits use of the Windows Biometric Framework API. |
 
 ## Remarks
 

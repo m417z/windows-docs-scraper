@@ -20,7 +20,7 @@ The following are the valid return codes for this method.
 | **E_ACCESSDENIED** | The caller does not have sufficient backup privileges or is not an administrator. |
 | **E_INVALIDARG** | One of the parameter values is not valid. |
 | **E_OUTOFMEMORY** | The caller is out of memory or other system resources. |
-| ****VSS_E_REVERT_IN_PROGRESS**** | The volume already has a revert operation in process. |
+| **VSS_E_REVERT_IN_PROGRESS** | The volume already has a revert operation in process. |
 
 ## Remarks
 

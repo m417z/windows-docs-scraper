@@ -27,18 +27,18 @@ This method can return one of these values.
 
 | Value | Meaning |
 | --- | --- |
-| ****S_OK**** | The operation was successful. |
-| ****E_ACCESSDENIED**** | The calling process has insufficient privileges. |
-| ****E_FAIL**** | There is an internal error. |
-| ****E_INVALIDARG**** | One of the parameters passed is not valid. |
-| ****E_NOTIMPL**** | The provider for the volume does not support revert operations. |
-| ****E_OUTOFMEMORY**** | The caller is out of memory or other system resources. |
-| ****VSS_E_OBJECT_NOT_FOUND**** | The *SnapshotId* parameter is not a valid shadow copy. |
-| ****VSS_E_PROVIDER_NOT_REGISTERED**** | The provider was not found. |
-| ****VSS_E_REVERT_IN_PROGRESS**** | The volume already has a revert in process. |
-| ****VSS_E_UNSUPPORTED_CONTEXT**** | Revert is only supported for persistent shadow copies. |
-| ****VSS_E_VOLUME_IN_USE**** | The *bForceDismount* parameter was **FALSE**, and the volume could not be locked. |
-| ****VSS_E_VOLUME_NOT_SUPPORTED**** | Revert is not supported on this volume. |
+| **S_OK** | The operation was successful. |
+| **E_ACCESSDENIED** | The calling process has insufficient privileges. |
+| **E_FAIL** | There is an internal error. |
+| **E_INVALIDARG** | One of the parameters passed is not valid. |
+| **E_NOTIMPL** | The provider for the volume does not support revert operations. |
+| **E_OUTOFMEMORY** | The caller is out of memory or other system resources. |
+| **VSS_E_OBJECT_NOT_FOUND** | The *SnapshotId* parameter is not a valid shadow copy. |
+| **VSS_E_PROVIDER_NOT_REGISTERED** | The provider was not found. |
+| **VSS_E_REVERT_IN_PROGRESS** | The volume already has a revert in process. |
+| **VSS_E_UNSUPPORTED_CONTEXT** | Revert is only supported for persistent shadow copies. |
+| **VSS_E_VOLUME_IN_USE** | The *bForceDismount* parameter was **FALSE**, and the volume could not be locked. |
+| **VSS_E_VOLUME_NOT_SUPPORTED** | Revert is not supported on this volume. |
 
 ## Remarks
 

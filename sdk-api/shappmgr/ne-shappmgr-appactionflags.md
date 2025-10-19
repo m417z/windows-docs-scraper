@@ -44,4 +44,4 @@ Obsolete.
 
 ## Remarks
 
-The Add or Remove Programs application in Control Panel uses only ****APPACTION_INSTALL**** and ****APPACTION_ADDLATER**** for published applications.
+The Add or Remove Programs application in Control Panel uses only **APPACTION_INSTALL** and **APPACTION_ADDLATER** for published applications.

@@ -16,7 +16,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | Description of the job was successfully set. |
+| **S_OK** | Description of the job was successfully set. |
 | **E_INVALIDARG** | The *pDescription* parameter cannot be **NULL**. |
 | **BG_E_STRING_TOO_LONG** | The description exceeds 1,024 characters. |
 | **BG_E_INVALID_STATE** | The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDGED. |

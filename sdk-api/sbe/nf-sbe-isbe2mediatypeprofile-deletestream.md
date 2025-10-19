@@ -18,8 +18,8 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| ****S_OK**** | The method succeeded. |
-| ****E_INVALIDARG**** | Invalid parameter. |
+| **S_OK** | The method succeeded. |
+| **E_INVALIDARG** | Invalid parameter. |
 
 ## See also
 
