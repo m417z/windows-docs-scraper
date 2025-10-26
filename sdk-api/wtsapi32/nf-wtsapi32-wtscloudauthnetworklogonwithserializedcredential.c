@@ -1,5 +1,5 @@
-BOOL WTSCloudAuthNetworkLogonWithSerializedCredential(
-  WTS_CLOUD_AUTH_HANDLE          cloudAuthHandle,
-  WTS_SERIALIZED_USER_CREDENTIAL *userCredential,
-  HANDLE                         *token
+BOOL WINAPI WTSCloudAuthNetworkLogonWithSerializedCredential(
+    [in]  WTS_CLOUD_AUTH_HANDLE cloudAuthHandle,
+    [in]  WTS_SERIALIZED_USER_CREDENTIAL* userCredential,
+    [out] HANDLE* tokenHandle
 );

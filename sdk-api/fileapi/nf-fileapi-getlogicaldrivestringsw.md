@@ -8,9 +8,8 @@ Fills a buffer with strings that specify valid drives in the system.
 
 ### `nBufferLength` [in]
 
-The maximum size of the buffer pointed to by *lpBuffer*, in
-**TCHARs**. This size does not include the terminating null character. If this
-parameter is zero, *lpBuffer* is not used.
+The maximum size of the buffer pointed to by *lpBuffer*, in **TCHARs**. This value includes
+space for the terminating null character. If this parameter is zero, *lpBuffer* is not used.
 
 ### `lpBuffer` [out]
 

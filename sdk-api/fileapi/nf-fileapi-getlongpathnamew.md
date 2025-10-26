@@ -43,7 +43,7 @@ The size of the buffer *lpszLongPath* points to, in
 If the function succeeds, the return value is the length, in **TCHARs**, of the
 string copied to *lpszLongPath*, not including the terminating null character.
 
-If the *lpBuffer* buffer is too small to contain the path, the return value is the
+If the *lpszLongPath* buffer is too small to contain the path, the return value is the
 size, in **TCHARs**, of the buffer that is required to hold the path and the
 terminating null character.
 

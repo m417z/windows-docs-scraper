@@ -1,4 +1,4 @@
-BOOL WTSCloudAuthDuplicateSerializedUserCredential(
-  const WTS_SERIALIZED_USER_CREDENTIAL *userCredential,
-  WTS_SERIALIZED_USER_CREDENTIAL       **duplicatedUserCredential
+BOOL WINAPI WTSCloudAuthDuplicateSerializedUserCredential(
+  [in] const WTS_SERIALIZED_USER_CREDENTIAL* userCredential,
+  [out] WTS_SERIALIZED_USER_CREDENTIAL** duplicatedUserCredential
 );

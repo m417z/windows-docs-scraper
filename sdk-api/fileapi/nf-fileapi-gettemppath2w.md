@@ -6,7 +6,7 @@ Retrieves the path of the directory designated for temporary files, based on the
 
 ### `BufferLength` [in]
 
-The size of the string buffer identified by *lpBuffer*, in **TCHARs**.
+The size of the string buffer identified by *Buffer*, in **TCHARs**.
 
 ### `Buffer` [out]
 
@@ -14,7 +14,7 @@ A pointer to a string buffer that receives the null-terminated string specifying
 
 ## Return value
 
-If the function succeeds, the return value is the length, in **TCHARs**, of the string copied to *lpBuffer*, not including the terminating null character. If the return value is greater than *nBufferLength*, the return value is the length, in **TCHARs**, of the buffer required to hold the path.
+If the function succeeds, the return value is the length, in **TCHARs**, of the string copied to *Buffer*, not including the terminating null character. If the return value is greater than *BufferLength*, the return value is the length, in **TCHARs**, of the buffer required to hold the path.
 
 If the function fails, the return value is zero. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
