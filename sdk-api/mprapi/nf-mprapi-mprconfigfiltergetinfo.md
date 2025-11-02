@@ -27,10 +27,9 @@ A **DWORD** value that describes the transport protocol type of the static filte
 | PID_NBF | NetBIOS Frames Protocol |
 | PID_IPV6 | Windows Server 2008 or later: Internet Protocol version 6 |
 
-### `lpBuffer` [out]
+### `lpBuffer` [in_out]
 
-On successful completion, a pointer to a [MPR_FILTER_0](https://learn.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0) structure that contains the filter driver configuration information. Free this memory buffer by calling
-[MprConfigBufferFree](https://learn.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree).
+On successful completion, writes a [MPR_FILTER_0](https://learn.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0) structure with the filter driver configuration information to the provided buffer. *lpBuffer* must be at least *sizeof([MPR_FILTER_0](https://learn.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0))* bytes long.
 
 ## Return value
 

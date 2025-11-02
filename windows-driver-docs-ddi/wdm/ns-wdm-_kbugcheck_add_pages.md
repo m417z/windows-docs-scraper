@@ -14,11 +14,11 @@ Contains private context data for the exclusive use of the callback routine. The
 
 Contains flags that describe the add-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits:
 
-| Flag | Description |
-|------|-------------|
-| **KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS** | Indicates that the **Address** member contains a virtual address. |
-| **KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS** | Indicates that the **Address** member contains a physical address. |
-| **KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST** | Indicates that the callback routine requests that it be called again so that it can add more pages. |
+| Flag | Value | Description |
+|------|-------|-------------|
+| **KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS** | 0x00000001UL | Indicates that the **Address** member contains a virtual address. |
+| **KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS** | 0x00000002UL | Indicates that the **Address** member contains a physical address. |
+| **KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST** | 0x80000000UL | Indicates that the callback routine requests that it be called again so that it can add more pages. |
 
 The callback routine must set either the **KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS** flag or the **KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS** flag, but not both. On entry to the callback routine, **Flags** is initialized to zero.
 

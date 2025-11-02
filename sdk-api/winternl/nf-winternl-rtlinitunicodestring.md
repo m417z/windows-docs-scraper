@@ -6,7 +6,7 @@ Initializes a counted Unicode string.
 
 ## Parameters
 
-### `DestinationString` [in, out]
+### `DestinationString` [out]
 
 The buffer for a counted Unicode string to be initialized. The length is initialized to zero if the *SourceString* is not specified.
 
