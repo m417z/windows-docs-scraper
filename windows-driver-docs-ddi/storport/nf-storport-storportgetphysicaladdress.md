@@ -12,7 +12,7 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 
 ### `Srb` [in, optional]
 
-Pointer to the SCSI request block if the virtual address to be converted comes from that SRB's **DataBuffer** member or **SenseInfoBuffer** member. Otherwise, this parameter must be **NULL**.
+Pointer to the SCSI request block if the virtual address to be converted comes from that SRB's **DataBuffer**, **SenseInfoBuffer**, or **SrbExtension** member. Otherwise, this parameter must be **NULL**.
 
 ### `VirtualAddress` [in]
 

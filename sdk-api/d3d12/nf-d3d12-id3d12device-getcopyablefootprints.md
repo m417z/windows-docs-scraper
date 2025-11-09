@@ -32,7 +32,7 @@ The number of subresources in the resource. The range of valid values is 0 to (D
 
 Type: **UINT64**
 
-The offset, in bytes, to the resource.
+The offset, in bytes, that is added to the *Offset* of each [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](https://learn.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint) in the *pLayouts *array.
 
 ### `pLayouts` [out, optional]
 
@@ -106,4 +106,4 @@ Refer to the [Example Code in the D3D12 Reference](https://learn.microsoft.com/w
 
 [CD3DX12_SUBRESOURCE_FOOTPRINT](https://learn.microsoft.com/windows/desktop/direct3d12/cd3dx12-subresource-footprint)
 
-[ID3D12Device](https://learn.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device)
+[ID3D12Device](https://learn.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device)**
