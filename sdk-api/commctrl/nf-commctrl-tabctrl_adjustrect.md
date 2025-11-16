@@ -3,7 +3,7 @@
 ## Syntax
 
 ```cpp
-VOID TabCtrl_AdjustRect(
+int TabCtrl_AdjustRect(
    HWND hwnd,
    BOOL bLarger,
    RECT *prc
@@ -12,7 +12,7 @@ VOID TabCtrl_AdjustRect(
 
 ## Return value
 
-Type: **[VOID](https://learn.microsoft.com/windows/desktop/winprog/windows-data-types)**
+Type: **int**
 
 No return value.
 

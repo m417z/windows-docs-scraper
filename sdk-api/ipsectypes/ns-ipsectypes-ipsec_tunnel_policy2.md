@@ -27,6 +27,7 @@ A combination of the following values.
 | **IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ICMPV6** | Allow ICMPv6 traffic to bypass the tunnel. Applicable only for tunnel mode policy. |
 | **IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY** | Allow key dictation for quick mode policy. Applicable only for AuthIP policy. |
 | **IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY** | Allow key notification for quick mode policy. Applicable for AuthIP/IKE/IKEv2 policy. |
+| **IPSEC_POLICY_FLAG_POINT_TO_SITE_TUNNEL** | Specifies that the IPsec policy is for Point-to-Site VPN tunnels, used by individual clients connecting to a virtual network. |
 
 ### `numIpsecProposals`
 

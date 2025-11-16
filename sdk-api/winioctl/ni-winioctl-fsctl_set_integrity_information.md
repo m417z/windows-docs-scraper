@@ -43,8 +43,6 @@ For more information, see [NTSTATUS Values](https://learn.microsoft.com/windows-
 
 ## Remarks
 
-The integrity status can only be changed for empty files.
-
 If the [ReplaceFile](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-replacefilea) is used to replace a file with integrity set, and the *lpBackupFileName* parameter points to a location that does not have integrity set, the integrity status of the original file will not be persisted.
 
 Writes to integrity streams are always cluster-sized. Reads from integrity streams are always done in 16 KB blocks. This can lead to reads failing even when the corrupt area is outside the region being read. For example, if 4 KB is read at offset 0 in a file and there is corruption starting 12 KB into the file, a read would fail with **ERROR_DATA_CHECKSUM_ERROR** (0x143).

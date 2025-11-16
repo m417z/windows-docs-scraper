@@ -1,0 +1,3 @@
+DWORD WINAPI FWClosePolicyStore(
+  FW_POLICY_STORE_HANDLE hPolicyStore
+);

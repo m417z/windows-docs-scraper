@@ -55,6 +55,7 @@ A combination of the following values.
 | **IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY** | Disable SA verification of machine LUID. |
 | **IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY** | Disable SA verification of machine impersonation LUID. |
 | **IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH** | Allow the responder to accept any DH proposal, including no DH, regardless of what is configured in policy. This flag is valid only if AuthIP is used. |
+| **IKEEXT_POLICY_FLAG_POINT_TO_SITE** | Specifies that the IKE policy is for Point-to-Site VPN connections, typically used by individual clients connecting to a virtual network. |
 
 ### `maxDynamicFilters`
 
