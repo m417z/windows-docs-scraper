@@ -36,7 +36,7 @@ This function is supported in the following shader models.
 
 | Shader Model | Supported |
 |-----------------------------------------------------------------------------|-----------|
-| [Shader Model 5](https://learn.microsoft.com/windows/win32/direct3dhlsl/d3d11-graphics-reference-sm5) and higher shader models | yes |
+| [Shader Model 2 (DirectX HLSL)](https://learn.microsoft.com/windows/win32/direct3dhlsl/dx-graphics-hlsl-sm2) and higher shader models | yes |
 
 This function is supported in the following types of shaders:
 

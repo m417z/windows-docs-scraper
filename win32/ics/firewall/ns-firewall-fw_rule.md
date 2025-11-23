@@ -1,6 +1,6 @@
 # FW_RULE structure
 
-Represents a firewall rule (appropriate for use by binary policy version 2.27 servers and clients). Also see [FW_GLOBAL_CONFIG](https://learn.microsoft.com/openspecs/windows_protocols/ms-fasp/faf4ffbe-1d51-40ad-ae90-2230f2c0b6a9) and [FW_RULE](https://learn.microsoft.com/openspecs/windows_protocols/ms-fasp/8c008258-166d-46d4-9090-f2ffaa01be4b).
+Represents a firewall rule (appropriate for use by binary policy version 2.27 servers and clients). Also see [FW_RULE](https://learn.microsoft.com/openspecs/windows_protocols/ms-fasp/8c008258-166d-46d4-9090-f2ffaa01be4b) and [Windows Firewall with Advanced Security enums and structs](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs).
 
 ## Members
 
@@ -10,23 +10,23 @@ Points to the next **FW_RULE** structure in a linked list.
 
 `wSchemaVersion`
 
-TBD
+Specifies the version of the rule.
 
 `wszRuleId`
 
-TBD
+A pointer to a Unicode string that uniquely identifies the rule.
 
 `wszName`
 
-TBD
+A pointer to a Unicode string that provides a friendly name for the rule.
 
 `wszDescription`
 
-TBD
+A pointer to a Unicode string that provides a friendly description for the rule.
 
 `dwProfiles`
 
-TBD
+A bitmask of the [FW_PROFILE_TYPE](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs) flags. It is a condition that matches traffic on the specified profiles.
 
 `Direction`
 
@@ -54,15 +54,15 @@ ICMP types/codes specified if *wIpProtocol* has the value of 1 (ICMPv4) or 58 (I
 
 `LocalAddresses`
 
-TBD
+A condition that specifies the addresses of the local host of the traffic that the rule matches. An empty [FW_ADDRESSES](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs) structure means that this condition is not applied.
 
 `RemoteAddresses`
 
-TBD
+A condition that specifies the addresses of the remote host of the traffic that the rule matches. An empty [FW_ADDRESSES](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs) structure means that this condition is not applied.
 
 `LocalInterfaceIds`
 
-TBD
+A condition that specifies the list of specific network interfaces used by the traffic that the rule matches. An [FW_INTERFACE_LUIDS](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs) field with no interface GUID specified means that the rule applies to all interfaces; that is, the condition is not applied.
 
 `dwLocalInterfaceTypes`
 
@@ -70,15 +70,15 @@ Bit flags from **FW_INTERFACE_TYPE**.
 
 `wszLocalApplication`
 
-TBD
+A pointer to a Unicode string. It is a condition that specifies a file path name to the executable that uses the traffic that the rule matches. A null in this field means that the rule applies to all processes in the host.
 
 `wszLocalService`
 
-TBD
+A pointer to a Unicode string. It is a condition that specifies the service name of the service that uses the traffic that the rule matches. An L"*" string in this field means that the rule applies to all services in the system. A null in this field means that the rule applies to all processes.
 
 `Action`
 
-TBD
+The action that the rule will take for the traffic matches.
 
 `wFlags`
 
@@ -94,11 +94,11 @@ Authorized remote users SDDL.
 
 `wszEmbeddedContext`
 
-TBD
+A pointer to a Unicode string. It specifies a group name for this rule. Other components in the system use this string to enable or disable groups of rules by verifying that they all have the same group name.
 
 `PlatformValidityList`
 
-TBD
+A condition in a rule that determines whether or not the rule is enforced by the local computer based on the local computer's platform information. The rule is enforced only if the local computer's operating system platform is an element of the set described as follows. Windows uses the three fields of the [FW_OS_PLATFORM](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs) data type to identify Windows platform types. The fields in that data type correspond to the fields of the Windows OSVERSIONINFOEX data type (for more info, see [MSDN-OSVERSIONINFOEX](https://learn.microsoft.com/windows/win32/api/winnt/ns-winnt-osversioninfoexa)). The Windows firewall and advanced security components extract the **OSVERSIONINFOEX** values, and use them to enforce PlatformValidityList conditions in **FW_RULE** and **FW_CS_RULE** rules.
 
 `Status`
 
@@ -118,7 +118,7 @@ Reserved; don't use.
 
 `pMetaData`
 
-TBD
+A pointer to an [FW_OBJECT_METADATA](https://learn.microsoft.com/windows/win32/api/winnt/ns-winnt-osversioninfoexa) structure that contains specific metadata about the current state of the firewall rule.
 
 `wszLocalUserAuthorizationList`
 
@@ -138,7 +138,7 @@ Trust tuple keywords.
 
 `OnNetworkNames`
 
-TBD
+Specifies the networks, identified by name, in which the rule must be enforced.
 
 `wszSecurityRealmId`
 
@@ -150,15 +150,15 @@ Bit flags from **FW_RULE_FLAGS2**.
 
 `RemoteOutServerNames`
 
-TBD
+This value is not used over the wire.
 
 `wszFqbn`
 
-TBD
+A string that is formatted as a fully qualified binary name (FQBN).
 
 `compartmentId`
 
-TBD
+The ID of the compartment or Windows Server Container.
 
 ## Requirements
 
@@ -167,3 +167,7 @@ TBD
 | **Minimum supported client** | Windows 11, version 23H2 [desktop apps only] |
 | **Target Platform** | Windows |
 | **Header** | None |
+
+## See also
+
+* [Windows Firewall with Advanced Security enums and structs](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs)

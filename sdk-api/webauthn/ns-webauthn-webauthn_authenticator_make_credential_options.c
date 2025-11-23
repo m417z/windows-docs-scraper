@@ -22,4 +22,9 @@ typedef struct _WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS {
   DWORD                                cCredentialHints;
   LPCWSTR                              *ppwszCredentialHints;
   BOOL                                 bThirdPartyPayment;
+  PCWSTR                               pwszRemoteWebOrigin;
+  DWORD                                cbPublicKeyCredentialCreationOptionsJSON;
+  PBYTE                                pbPublicKeyCredentialCreationOptionsJSON;
+  DWORD                                cbAuthenticatorId;
+  PBYTE                                pbAuthenticatorId;
 } WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS, *PWEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS;

@@ -47,3 +47,7 @@ This function does not have an associated header file or library file. Your appl
 | **Header** | None |
 | **Library** | None |
 | **DLL** | FirewallAPI.dll |
+
+## See also
+
+* [Windows Firewall with Advanced Security enums and structs](https://learn.microsoft.com/windows/win32/ics/firewall-enums-structs)

@@ -6,7 +6,7 @@ The **D3D12DDI_WORK_GRAPH_DESC_0108** structure defines the state subobject of t
 
 ### `ProgramName`
 
-Name of the work graph. This name is unique in the given state object.
+Name of the work graph. This name is unique in the given state object and is used to identify the work graph.
 
 ### `Version`
 

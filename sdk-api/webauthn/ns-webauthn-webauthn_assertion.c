@@ -15,4 +15,8 @@ typedef struct _WEBAUTHN_ASSERTION {
   DWORD                      dwUsedTransport;
   DWORD                      cbUnsignedExtensionOutputs;
   PBYTE                      pbUnsignedExtensionOutputs;
+  DWORD                      cbClientDataJSON;
+  PBYTE                      pbClientDataJSON;
+  DWORD                      cbAuthenticationResponseJSON;
+  PBYTE                      pbAuthenticationResponseJSON;
 } WEBAUTHN_ASSERTION, *PWEBAUTHN_ASSERTION;

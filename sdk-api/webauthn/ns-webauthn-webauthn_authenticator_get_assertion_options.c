@@ -21,4 +21,9 @@ typedef struct _WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS {
   PBYTE                                pbJsonExt;
   DWORD                                cCredentialHints;
   LPCWSTR                              *ppwszCredentialHints;
+  PCWSTR                               pwszRemoteWebOrigin;
+  DWORD                                cbPublicKeyCredentialRequestOptionsJSON;
+  PBYTE                                pbPublicKeyCredentialRequestOptionsJSON;
+  DWORD                                cbAuthenticatorId;
+  PBYTE                                pbAuthenticatorId;
 } WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS, *PWEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS;

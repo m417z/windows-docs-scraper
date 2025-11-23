@@ -56,7 +56,7 @@ struct FW_RULE
 
 	FW_NETWORK_NAMES OnNetworkNames;
 
-  WCHAR* wszSecurityRealmId;
+    WCHAR* wszSecurityRealmId;
 
 	WORD wFlags2;
 
