@@ -9,6 +9,8 @@ function prototypes from online documentation.
 
 import argparse
 import json
+import multiprocessing
+import os
 import re
 import time
 import traceback
@@ -42,11 +44,32 @@ class DocsRepositoryType(IntEnum):
     FUZZY = auto()
 
 
+class ProcessingResult(IntEnum):
+    """Result types from processing a markdown file."""
+    CODE_EXTRACTED = auto()
+    NO_CODE = auto()
+    UNSUPPORTED = auto()
+    ERROR = auto()
+
+
 @dataclass
 class DocsRepositoryInfo:
     content_path: str
     base_url: str
     type: DocsRepositoryType
+
+
+@dataclass
+class WorkerArgs:
+    """Arguments for worker process."""
+    index: int
+    total: int
+    md_file: Path
+    content_dir: Path
+    output_path: Path
+    base_url: str
+    repo_type: DocsRepositoryType
+    previous_output_path: Optional[Path]
 
 
 DOCS_REPOSITORY_INFO = {
@@ -734,6 +757,38 @@ def process_markdown_file(
         return False
 
 
+def process_file_worker(args: WorkerArgs):
+    """
+    Worker function for parallel processing of markdown files.
+
+    Args:
+        args: WorkerArgs dataclass containing all necessary parameters
+
+    Returns:
+        Tuple of (ProcessingResult, base_name, error_traceback)
+    """
+    relative_path = args.md_file.relative_to(args.content_dir)
+    base_name = relative_path.stem
+
+    try:
+        code_success = process_markdown_file(
+            relative_path,
+            args.content_dir,
+            args.output_path,
+            args.base_url,
+            args.repo_type,
+            args.previous_output_path,
+        )
+        if code_success:
+            return (ProcessingResult.CODE_EXTRACTED, base_name, None)
+        else:
+            return (ProcessingResult.NO_CODE, base_name, None)
+    except UnsupportedFuzzyDoc:
+        return (ProcessingResult.UNSUPPORTED, base_name, None)
+    except Exception as e:
+        return (ProcessingResult.ERROR, base_name, traceback.format_exc())
+
+
 def main():
     """Main function."""
     args = parse_arguments()
@@ -810,45 +865,60 @@ def main():
 
     print(f"Found {len(markdown_files)} markdown files to process ({ignored_count} files ignored)")
 
-    # Process each file
+    # Determine number of worker processes
+    num_workers = os.cpu_count() or 1
+    print(f"Using {num_workers} worker processes")
+
+    # Prepare arguments for worker processes
+    total = len(markdown_files)
+    worker_args = [
+        WorkerArgs(
+            index=i,
+            total=total,
+            md_file=md_file,
+            content_dir=content_dir,
+            output_path=output_path,
+            base_url=base_url,
+            repo_type=repo_type,
+            previous_output_path=previous_output_path,
+        )
+        for i, md_file in enumerate(markdown_files, 1)
+    ]
+
+    # Process files in parallel
     code_extracted = 0
     code_not_extracted = 0
     exception_count = 0
-    total = len(markdown_files)
+    unsupported_count = 0
+    processed_count = 0
 
-    for i, md_file in enumerate(markdown_files, 1):
-        # Calculate relative path from content directory
-        relative_path = md_file.relative_to(content_dir)
-        base_name = relative_path.stem
-        status = f"[{i}/{total}] Processing {base_name}..."
+    with multiprocessing.Pool(processes=num_workers) as pool:
+        # Use imap_unordered for better performance and progress tracking
+        for result in pool.imap_unordered(process_file_worker, worker_args):
+            result_type, base_name, error_trace = result
 
-        try:
-            code_success = process_markdown_file(
-                relative_path,
-                content_dir,
-                output_path,
-                base_url,
-                repo_type,
-                previous_output_path,
-            )
-            if code_success:
-                status += " OK"
+            if result_type == ProcessingResult.CODE_EXTRACTED:
+                processed_count += 1
+                print(f"[{processed_count}/{total}] Processing {base_name}... OK")
                 code_extracted += 1
-            else:
-                status += " No code extracted"
+            elif result_type == ProcessingResult.NO_CODE:
+                processed_count += 1
+                print(f"[{processed_count}/{total}] Processing {base_name}... No code extracted")
                 code_not_extracted += 1
-        except UnsupportedFuzzyDoc:
-            continue
-        except Exception as e:
-            print(traceback.format_exc())
-            status += " Error, exception raised"
-            exception_count += 1
-
-        print(status)
+            elif result_type == ProcessingResult.ERROR:
+                processed_count += 1
+                print(error_trace)
+                print(f"[{processed_count}/{total}] Processing {base_name}... Error, exception raised")
+                exception_count += 1
+            elif result_type == ProcessingResult.UNSUPPORTED:
+                processed_count += 1
+                unsupported_count += 1
+                # Silently skip unsupported files (no output)
 
     print(f"\nProcessing complete:")
     print(f"Code definitions extracted: {code_extracted}")
     print(f"Code definitions not extracted: {code_not_extracted}")
+    print(f"Unsupported files skipped: {unsupported_count}")
     print(f"Exceptions raised: {exception_count}")
     print(f"Output directory: {output_path}")
 
