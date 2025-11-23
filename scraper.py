@@ -556,6 +556,7 @@ def extract_fuzzy_type_ident(markdown_content: str) -> Tuple[str, str]:
 
     # Replace escaped underscores produced by some markdown sources (e.g., Foo\_Bar -> Foo_Bar)
     fuzzy_ident = match.group(1).replace(R'\_', '_')
+    assert isinstance(fuzzy_ident, str)
     if fuzzy_ident.endswith('A/W'):
         fuzzy_ident = fuzzy_ident.removesuffix('A/W') + 'W'
 
