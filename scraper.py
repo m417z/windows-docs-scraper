@@ -475,6 +475,7 @@ def scrape_function_prototype(url: str) -> Optional[str]:
     Returns None only for actual errors (404, network issues, etc).
     """
 
+    delay = 1
     while True:
         try:
             response = REQUESTS_SESSION.get(url, timeout=10)
@@ -485,8 +486,9 @@ def scrape_function_prototype(url: str) -> Optional[str]:
             response.raise_for_status()
             break
         except Exception as e:
-            print(f"Error getting {url}, will retry: {e}")
-            time.sleep(5)
+            print(f"Error getting {url}, retrying in {delay}s: {e}")
+            time.sleep(delay)
+            delay = min(delay * 2, 60 * 5)
 
     soup = BeautifulSoup(response.content, 'html.parser')
 
