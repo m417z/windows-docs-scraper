@@ -2,7 +2,7 @@
 
 ## Description
 
-Gets current [Interaction Context](https://learn.microsoft.com/windows/win32/api/_input_intcontext/) state and the time when the context will return to idle state.
+Gets current [Interaction Context](https://learn.microsoft.com/windows/win32/api/_input_intcontext/) state.
 
 ## Parameters
 
@@ -10,9 +10,9 @@ Gets current [Interaction Context](https://learn.microsoft.com/windows/win32/api
 
 Pointer to a handle for the [Interaction Context](https://learn.microsoft.com/windows/win32/api/_input_intcontext/).
 
-### `pointerInfo` [in]
+### `pointerInfo` [in, optional]
 
-Basic pointer information common to all pointer types.
+A [POINTER_INFO](https://learn.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info) structure that contains basic pointer information for the specific pointer of interest. This parameter can be **NULL**.
 
 ### `state` [out]
 

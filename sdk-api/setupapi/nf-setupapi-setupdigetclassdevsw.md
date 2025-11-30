@@ -123,39 +123,44 @@ Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESEN
 **Note** You cannot set the *ClassGuid* parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.
 
 ```
-HDEVINFO DeviceInfoSet = SetupDiGetClassDevs(
-                                    NULL,
-                                    NULL,
-                                    NULL,
-                                    DIGCF_ALLCLASSES | DIGCF_PRESENT);
+HDEVINFO DeviceInfoSet = SetupDiGetClassDevsW(
+    NULL,
+    NULL,
+    NULL,
+    DIGCF_ALLCLASSES | DIGCF_PRESENT);
 
 SP_DEVINFO_DATA DeviceInfoData;
 ZeroMemory(&DeviceInfoData, sizeof(SP_DEVINFO_DATA));
 DeviceInfoData.cbSize = sizeof(SP_DEVINFO_DATA);
 DWORD DeviceIndex = 0;
+DEVPROPTYPE PropType;
+
+GUID     DevGuid;
+DWORD Size;
 
 while (SetupDiEnumDeviceInfo(
-                             DeviceInfoSet,
-                             DeviceIndex,
-                             &DeviceInfoData)) {
+    DeviceInfoSet,
+    DeviceIndex,
+    &DeviceInfoData)) {
     DeviceIndex++;
 
-    if (!SetupDiGetDeviceProperty(
-                                  DeviceInfoSet,
-                                  &DeviceInfoData,
-                                  &DEVPKEY_Device_Class,
-                                  &PropType,
-                                  (PBYTE)&DevGuid,
-                                  sizeof(GUID),
-                                  &Size,
-                                  0) || PropType != DEVPROP_TYPE_GUID) {
+    if (!SetupDiGetDevicePropertyW(
+        DeviceInfoSet,
+        &DeviceInfoData,
+        &DEVPKEY_Device_Class,
+        &PropType,
+        (PBYTE)&DevGuid,
+        sizeof(GUID),
+        &Size,
+        0) || PropType != DEVPROP_TYPE_GUID) {
 
-        Error = GetLastError();
+        DWORD Error = GetLastError();
 
         if (Error == ERROR_NOT_FOUND) {
             //
             // This device has an unknown device setup class.
             //
+
         }
     }
 }
@@ -163,6 +168,8 @@ while (SetupDiEnumDeviceInfo(
 if (DeviceInfoSet) {
     SetupDiDestroyDeviceInfoList(DeviceInfoSet);
 }
+
+return 0;
 ```
 
 > [!NOTE]

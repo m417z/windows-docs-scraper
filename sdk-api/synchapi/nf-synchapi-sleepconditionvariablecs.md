@@ -8,7 +8,7 @@ Sleeps on the specified condition variable and releases the specified critical s
 
 ### `ConditionVariable` [in, out]
 
-A pointer to the condition variable. This variable must be initialized using the [InitializeConditionVariable](https://learn.microsoft.com/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) function.
+A pointer to the condition variable. This variable must be initialized by either calling [InitializeConditionVariable](https://learn.microsoft.com/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) (to initialize the structure dynamically) or assign the constant CONDITION_VARIABLE_INIT to the structure variable (to initialize the structure statically).
 
 ### `CriticalSection` [in, out]
 

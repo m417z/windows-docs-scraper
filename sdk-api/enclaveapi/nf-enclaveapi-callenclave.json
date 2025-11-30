@@ -27,8 +27,8 @@
   "req.namespace": null,
   "req.assembly": null,
   "req.type-library": null,
-  "req.lib": "Vertdll.lib",
-  "req.dll": "Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll",
+  "req.lib": "Kernel32.lib",
+  "req.dll": "Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll",
   "req.irql": null,
   "targetos": "Windows",
   "req.typenames": null,
@@ -50,7 +50,8 @@
   ],
   "api_location": [
     "api-ms-win-core-enclave-l1-1-1.dll",
-    "Vertdll.dll",
+    "kernel32.dll",
+    "KernelBase.dll",
     "api-ms-win-core-enclave-l1-1-0.dll"
   ],
   "api_name": [

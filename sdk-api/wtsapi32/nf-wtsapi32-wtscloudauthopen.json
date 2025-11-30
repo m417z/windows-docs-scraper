@@ -4,7 +4,7 @@
   "title": "WTSCloudAuthOpen",
   "ms.date": "09/25/2025",
   "targetos": "Windows",
-  "description": null,
+  "description": "Obtains a cloud authentication handle.",
   "prerelease": false,
   "req.assembly": null,
   "req.construct-type": "function",
@@ -19,7 +19,7 @@
   "req.max-support": null,
   "req.namespace": null,
   "req.redist": null,
-  "req.target-min-winverclnt": null,
+  "req.target-min-winverclnt": "Windows, version 26100",
   "req.target-min-winversvr": null,
   "req.target-type": null,
   "req.type-library": null,
@@ -32,7 +32,7 @@
     "HeaderDef"
   ],
   "api_location": [
-    "wtsapi32.h"
+    "wtsapi32.dll"
   ],
   "api_name": [
     "WTSCloudAuthOpen"

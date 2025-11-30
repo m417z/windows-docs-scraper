@@ -14,7 +14,7 @@ A pointer to a variable that receives the current performance-counter value, in 
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). On systems that run Windows XP or later, the function will always succeed and will thus never return zero.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). On systems that run Windows XP or later, the function will always succeed when given valid parameters and will thus never return zero.
 
 ## Remarks
 

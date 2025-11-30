@@ -1,4 +1,4 @@
-LONGLONG Int32x32To64(
-  [in]  LONG a,
-  [in]  LONG b
+ULONGLONG UInt32x32To64(
+  [in]  ULONG a,
+  [in]  ULONG b
 );

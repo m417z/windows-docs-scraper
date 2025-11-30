@@ -26,6 +26,8 @@ Amount of time in milliseconds to wait before the operation times out.
 
 Type: **[DWORD](https://learn.microsoft.com/windows/win32/winprog/windows-data-types)**
 
+Returns a status code (an **NTSTATUS** value) that indicates the success or failure of the function. If the method succeeds, then it will return `STATUS_SUCCESS`. If the display is off, then the function returns immediately with **STATUS_GRAPHICS_PRESENT_OCCLUDED**. For other **NTSTATUS** values, see [NTSTATUS values](https://learn.microsoft.com/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55).
+
 ## Remarks
 
 ## See also

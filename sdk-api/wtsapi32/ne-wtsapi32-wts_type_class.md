@@ -4,11 +4,33 @@
 
 Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 
+## Syntax
+
+```cpp
+typedef enum _WTS_TYPE_CLASS {
+    WTSTypeProcessInfoLevel0,
+    WTSTypeProcessInfoLevel1,
+    WTSTypeSessionInfoLevel1,
+    WTSTypeCloudAuthServerNonce,
+    WTSTypeSerializedUserCredential
+}
+```
+
+## -constants
+
+### WTSTypeCloudAuthServerNonce
+
+The buffer contains the server nonce output by *WTSCloudAuthGetServerNonce*.
+
+### WTSTypeSerializedUserCredential
+
+The buffer contains the serialized user credential output by *WTSCloudAuthConvertAssertionToSerializedUserCredential*.
+
 ## Constants
 
 ### `WTSTypeProcessInfoLevel0`
 
-The buffer contains one or more [WTS_PROCESS_INFO](https://learn.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_infoa) structures.
+The buffer contains one or more [WTS_PROCESS_INFO](https://learn.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_info) structures.
 
 ### `WTSTypeProcessInfoLevel1`
 
@@ -18,8 +40,9 @@ The buffer contains one or more [WTS_PROCESS_INFO_EX](https://learn.microsoft.co
 
 The buffer contains one or more [WTS_SESSION_INFO_1](https://learn.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_info_1a) structures.
 
+## Remarks
+
 ## See also
 
-[WTSFreeMemory](https://learn.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory)
-
-[WTSFreeMemoryEx](https://learn.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememoryexa)
+- [WTSFreeMemory](https://learn.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory)
+- [WTSFreeMemoryEx](https://learn.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememoryex)

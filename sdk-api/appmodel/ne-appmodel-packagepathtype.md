@@ -1,5 +1,3 @@
-# PackagePathType enumeration
-
 ## Description
 
 Indicates the type of folder path to retrieve in a query for the path or other info about a package.
@@ -16,11 +14,40 @@ Retrieve the package path in the mutable install folder for the application, if 
 
 ### `PackagePathType_Effective`
 
-Retrieve the package path in the mutable folder if the application is declared as mutable in the package manifest, or in the original install folder if the application is not mutable.
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a User-External location, then return that path.
+* Otherwise, if the package has a Machine-External location, then return that path.
+* Otherwise, if the package has a [Mutable location](https://learn.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories), then return the Mutable path. Also see [Create a directory in any location based on packaged app directory](https://learn.microsoft.com/windows/msix/manage/create-directory).
+* Otherwise, return an error.
+
+### `PackagePathType_MachineExternal`
+
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a Machine-External location, then return that path.
+* Otherwise, return an error.
+
+### `PackagePathType_UserExternal`
+
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a User-External location, then return that path.
+* Otherwise, return an error.
+
+### `PackagePathType_EffectiveExternal`
+
+Specifies that the package path should be retrieved according to the following logic:
+
+* If the package has a User-External location, then return that path.
+* Otherwise, if the package has a Machine-External location, then return that path.
+* Otherwise, return an error.
 
 ## Remarks
 
 An application has a mutable install folder if it uses the [windows.mutablePackageDirectories extension](https://learn.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
+
+A package always has an Install location, and it can also have a Mutable or an External location, or even both. The concept of "effective" is the location that has the highest precedence for the package/user.
 
 ## See also
 

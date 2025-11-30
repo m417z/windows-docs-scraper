@@ -2,7 +2,7 @@
 
 ## Description
 
-Enables range tracking feature for update sequence number (USN) change journal stream on a target volume, or modifies already enabled range tracking parameters.
+Enables range tracking for the update sequence number (USN) change journal stream on a target volume, or modifies already enabled range tracking parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -33,29 +33,19 @@ BOOL DeviceIoControl(
 
 ### Status block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-
-Otherwise, Status to the appropriate error condition as a NTSTATUS code.
-
-For more information, see [NTSTATUS Values](https://learn.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 ## Remarks
 
-For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](https://learn.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) topic.
+For more details on implications of overlapped I/O on this operation, see the [DeviceIoControl remarks](https://learn.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol#-remarks).
 
-You can use **FSCTL_USN_TRACK_MODIFIED_RANGES** to enable range tracking for the first time for a volume. After the enabling range tracking, the state and parameters will be persisted for that volume and on next reboot the range tracking will be initialized read from the persisted parameters.
+**FSCTL_USN_TRACK_MODIFIED_RANGES** can be used to enable range tracking for the first time on a volume. After enabling range tracking, the state and parameters will be persisted for that volume (on reboot, range tracking will be initialized from the persisted parameters).
 
-You can also use **FSCTL_USN_TRACK_MODIFIED_RANGES** to modify an existing change journal stream range track parameter. If range tracking is already exists, **FSCTL_USN_TRACK_MODIFIED_RANGES** sets it to the parameters provided in the [USN_TRACK_MODIFIED_RANGES](https://learn.microsoft.com/windows/win32/api/winioctl/ns-winioctl-usn_track_modified_ranges) structure. The chunk size or file size threshold can only be lowered from previous values. Once enabled, range tracking feature cannot be disabled unless the journal is deleted.
+**FSCTL_USN_TRACK_MODIFIED_RANGES** can also be used to modify an existing change journal stream range track parameter. If range tracking already exists, **FSCTL_USN_TRACK_MODIFIED_RANGES** sets it to the parameters provided in the [USN_TRACK_MODIFIED_RANGES](https://learn.microsoft.com/windows/win32/api/winioctl/ns-winioctl-usn_track_modified_ranges) structure. The chunk size or file size threshold can only be lowered from previous values. Once enabled, the range tracking feature cannot be disabled unless the journal is deleted.
 
-To retrieve a handle to a volume, call [CreateFile](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string in the following form:
+To retrieve a handle to a volume, call [CreateFile](https://learn.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) with the *lpFileName* parameter set to a string in the following form: `\\.\X:`
 
-\\\\.\\X:
+In the preceding string, X is the letter identifying the drive on which the volume appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command (where *X* is the drive letter of the volume): `fsutil fsinfo ntfsinfo X:`
 
-In the preceding string, X is the letter identifying the drive on which the volume appears. The volume must be NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
-
-**fsutil fsinfo ntfsinfo** _X_**:**
-
-where *X* is the drive letter of the volume.
+Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](https://learn.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## See also
 

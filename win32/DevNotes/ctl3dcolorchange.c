@@ -1,1 +1,0 @@
-BOOL Ctl3dColorChange(void);

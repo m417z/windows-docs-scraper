@@ -8,11 +8,11 @@ The **waveInGetDevCaps** function retrieves the capabilities of a given waveform
 
 ### `uDeviceID`
 
-Identifier of the waveform-audio output device. It can be either a device identifier or a handle of an open waveform-audio input device.
+Identifier of the waveform-audio input device. It can be either a device identifier or a handle of an open waveform-audio input device.
 
 ### `pwic`
 
-Pointer to a [WAVEINCAPS](https://learn.microsoft.com/previous-versions/dd743839(v=vs.85)) structure to be filled with information about the capabilities of the device.
+Pointer to a [WAVEINCAPS](https://learn.microsoft.com/windows/win32/api/mmeapi/ns-mmeapi-waveincaps) structure to be filled with information about the capabilities of the device.
 
 ### `cbwic`
 
@@ -23,10 +23,10 @@ Size, in bytes, of the **WAVEINCAPS** structure.
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
 | Return code | Description |
-| --- | --- |
-| **MMSYSERR_BADDEVICEID** | Specified device identifier is out of range. |
-| **MMSYSERR_NODRIVER** | No device driver is present. |
-| **MMSYSERR_NOMEM** | Unable to allocate or lock memory. |
+|-------------|-------------|
+| MMSYSERR_BADDEVICEID | Specified device identifier is out of range. |
+| MMSYSERR_NODRIVER | No device driver is present. |
+| MMSYSERR_NOMEM | Unable to allocate or lock memory. |
 
 ## Remarks
 
@@ -35,5 +35,4 @@ Use this function to determine the number of waveform-audio input devices presen
 ## See also
 
 [Waveform Audio](https://learn.microsoft.com/windows/desktop/Multimedia/waveform-audio)
-
 [Waveform Functions](https://learn.microsoft.com/windows/desktop/Multimedia/waveform-functions)

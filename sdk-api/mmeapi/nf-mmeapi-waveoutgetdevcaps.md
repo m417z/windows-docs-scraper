@@ -12,7 +12,7 @@ Identifier of the waveform-audio output device. It can be either a device identi
 
 ### `pwoc`
 
-Pointer to a [WAVEOUTCAPS](https://learn.microsoft.com/previous-versions/dd743855(v=vs.85)) structure to be filled with information about the capabilities of the device.
+Pointer to a [WAVEOUTCAPS](https://learn.microsoft.com/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps) structure to be filled with information about the capabilities of the device.
 
 ### `cbwoc`
 
@@ -23,7 +23,7 @@ Size, in bytes, of the **WAVEOUTCAPS** structure.
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
 | Return code | Description |
-| --- | --- |
+|-------------|-------------|
 | **MMSYSERR_BADDEVICEID** | Specified device identifier is out of range. |
 | **MMSYSERR_NODRIVER** | No device driver is present. |
 | **MMSYSERR_NOMEM** | Unable to allocate or lock memory. |

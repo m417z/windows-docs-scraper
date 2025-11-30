@@ -1,1 +1,0 @@
-WORD Ctl3dGetVer(void);

@@ -1,4 +1,4 @@
-VOID TabCtrl_AdjustRect(
+int TabCtrl_AdjustRect(
    HWND hwnd,
    BOOL bLarger,
    RECT *prc

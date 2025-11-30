@@ -2,7 +2,7 @@
 
 ## Description
 
-[The **RtlGenRandom** function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [CryptGenRandom](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function.]
+[The **RtlGenRandom** function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [BCryptGenRandom](https://learn.microsoft.com/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgenrandom) or [ProcessPrng](https://learn.microsoft.com/windows/win32/seccng/processprng) functions.]
 
 The **RtlGenRandom** function generates a pseudo-random number.
 
