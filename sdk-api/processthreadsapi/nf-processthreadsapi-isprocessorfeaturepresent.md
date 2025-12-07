@@ -49,6 +49,49 @@ The processor feature to be tested. This parameter can be one of the following v
 | **PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE**<br><br>43 | This Arm processor implements the Arm v8.2 DP instructions (for example, SDOT, UDOT). This feature is optional in Arm v8.2 implementations and mandatory in Arm v8.4 implementations. |
 | **PF_ARM_V83_JSCVT_INSTRUCTIONS_AVAILABLE**<br><br>44 | This Arm processor implements the Arm v8.3 JSCVT instructions (for example, FJCVTZS). |
 | **PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE**<br><br>45 | This Arm processor implements the Arm v8.3 LRCPC instructions (for example, LDAPR). Note that certain Arm v8.2 CPUs may optionally support the LRCPC instructions. |
+| **PF_ARM_SVE_INSTRUCTIONS_AVAILABLE**<br><br>46 | This Arm processor implements the SVE (Scalable Vector Extension) instructions (**FEAT_SVE**). |
+| **PF_ARM_SVE2_INSTRUCTIONS_AVAILABLE**<br><br>47 | This Arm processor implements the SVE2 instructions (**FEAT_SVE2**). |
+| **PF_ARM_SVE2_1_INSTRUCTIONS_AVAILABLE**<br><br>48 | This Arm processor implements the SVE2.1 instructions (**FEAT_SVE2p1**). |
+| **PF_ARM_SVE_AES_INSTRUCTIONS_AVAILABLE**<br><br>49 | This Arm processor implements the SVE AES instructions (**FEAT_SVE_AES**). |
+| **PF_ARM_SVE_PMULL128_INSTRUCTIONS_AVAILABLE**<br><br>50 | This Arm processor implements the SVE 128-bit polynomial multiply long instructions (**FEAT_SVE_PMULL128**). |
+| **PF_ARM_SVE_BITPERM_INSTRUCTIONS_AVAILABLE**<br><br>51 | This Arm processor implements the SVE bit permute instructions (**FEAT_SVE_BitPerm**). |
+| **PF_ARM_SVE_BF16_INSTRUCTIONS_AVAILABLE**<br><br>52 | This Arm processor implements the SVE BF16 (BFloat16) instructions (**FEAT_BF16**). |
+| **PF_ARM_SVE_EBF16_INSTRUCTIONS_AVAILABLE**<br><br>53 | This Arm processor implements the SVE EBF16 (Extended BFloat16) instructions (**FEAT_EBF16**). |
+| **PF_ARM_SVE_B16B16_INSTRUCTIONS_AVAILABLE**<br><br>54 | This Arm processor implements the SVE B16B16 instructions (**FEAT_SVE_B16B16**). |
+| **PF_ARM_SVE_SHA3_INSTRUCTIONS_AVAILABLE**<br><br>55 | This Arm processor implements the SVE SHA-3 cryptographic instructions (**FEAT_SVE_SHA3**). |
+| **PF_ARM_SVE_SM4_INSTRUCTIONS_AVAILABLE**<br><br>56 | This Arm processor implements the SVE SM4 cryptographic instructions (**FEAT_SVE_SM4**). |
+| **PF_ARM_SVE_I8MM_INSTRUCTIONS_AVAILABLE**<br><br>57 | This Arm processor implements the SVE I8MM (Int8 matrix multiply) instructions (**FEAT_I8MM**). |
+| **PF_ARM_SVE_F32MM_INSTRUCTIONS_AVAILABLE**<br><br>58 | This Arm processor implements the SVE F32MM (FP32 matrix multiply) instructions (**FEAT_F32MM**). |
+| **PF_ARM_SVE_F64MM_INSTRUCTIONS_AVAILABLE**<br><br>59 | This Arm processor implements the SVE F64MM (FP64 matrix multiply) instructions (**FEAT_F64MM**). |
+| **PF_BMI2_INSTRUCTIONS_AVAILABLE**<br><br>60 | This x64 processor implements the BMI2 instruction set. |
+| **PF_MOVDIR64B_INSTRUCTION_AVAILABLE**<br><br>61 | This x64 processor implements the MOVDIR64B instruction. |
+| **PF_ARM_LSE2_AVAILABLE**<br><br>62 | This Arm processor implements the LSE2 atomic instructions (**FEAT_LSE2**). |
+| **PF_ARM_SHA3_INSTRUCTIONS_AVAILABLE**<br><br>64 | This Arm processor implements the SHA-3 cryptographic instructions (**FEAT_SHA3**). |
+| **PF_ARM_SHA512_INSTRUCTIONS_AVAILABLE**<br><br>65 | This Arm processor implements the SHA-512 cryptographic instructions (**FEAT_SHA512**). |
+| **PF_ARM_V82_I8MM_INSTRUCTIONS_AVAILABLE**<br><br>66 | This Arm processor implements the I8MM (Int8 matrix multiply) NEON instructions (**FEAT_I8MM**). |
+| **PF_ARM_V82_FP16_INSTRUCTIONS_AVAILABLE**<br><br>67 | This Arm processor implements the FP16 (half-precision floating point) NEON instructions (**FEAT_FP16**). |
+| **PF_ARM_V86_BF16_INSTRUCTIONS_AVAILABLE**<br><br>68 | This Arm processor implements the BF16 (BFloat16) NEON instructions (**FEAT_BF16**). |
+| **PF_ARM_V86_EBF16_INSTRUCTIONS_AVAILABLE**<br><br>69 | This Arm processor implements the EBF16 (Extended BFloat16) NEON instructions (**FEAT_EBF16**). |
+| **PF_ARM_SME_INSTRUCTIONS_AVAILABLE**<br><br>70 | This Arm processor implements the SME (Scalable Matrix Extension) instructions (**FEAT_SME**). |
+| **PF_ARM_SME2_INSTRUCTIONS_AVAILABLE**<br><br>71 | This Arm processor implements the SME2 instructions (**FEAT_SME2**). |
+| **PF_ARM_SME2_1_INSTRUCTIONS_AVAILABLE**<br><br>72 | This Arm processor implements the SME2.1 instructions (**FEAT_SME2p1**). |
+| **PF_ARM_SME2_2_INSTRUCTIONS_AVAILABLE**<br><br>73 | This Arm processor implements the SME2.2 instructions (**FEAT_SME2p2**). |
+| **PF_ARM_SME_AES_INSTRUCTIONS_AVAILABLE**<br><br>74 | This Arm processor implements the SVE AES instructions when in Streaming SVE mode (**FEAT_SSVE_AES**). |
+| **PF_ARM_SME_SBITPERM_INSTRUCTIONS_AVAILABLE**<br><br>75 | This Arm processor implements the SVE bit permute instructions when in Streaming SVE mode (**FEAT_SSVE_BitPerm**). |
+| **PF_ARM_SME_SF8MM4_INSTRUCTIONS_AVAILABLE**<br><br>76 | This Arm processor implements the SVE FMMLA (widening, 4-way, FP8 to FP16) instruction when in Streaming SVE mode (**FEAT_SSVE_F8F16MM**). |
+| **PF_ARM_SME_SF8MM8_INSTRUCTIONS_AVAILABLE**<br><br>77 | This Arm processor implements the SVE FMMLA (widening, 8-way, FP8 to FP32) instruction when in Streaming SVE mode (**FEAT_SSVE_F8F32MM**). |
+| **PF_ARM_SME_SF8DP2_INSTRUCTIONS_AVAILABLE**<br><br>78 | This Arm processor implements the SVE2 FP8DOT2 instructions when in Streaming SVE mode (**FEAT_SSVE_FP8DOT2**). |
+| **PF_ARM_SME_SF8DP4_INSTRUCTIONS_AVAILABLE**<br><br>79 | This Arm processor implements the SVE2 FP8DOT4 instructions when in Streaming SVE mode (**FEAT_SSVE_FP8DOT4**). |
+| **PF_ARM_SME_SF8FMA_INSTRUCTIONS_AVAILABLE**<br><br>80 | This Arm processor implements the SVE2 FP8FMA instructions when in Streaming SVE mode (**FEAT_SSVE_FP8FMA**). |
+| **PF_ARM_SME_F8F32_INSTRUCTIONS_AVAILABLE**<br><br>81 | This Arm processor implements the SME F8F32 instructions (**FEAT_SME_F8F32**). |
+| **PF_ARM_SME_F8F16_INSTRUCTIONS_AVAILABLE**<br><br>82 | This Arm processor implements the SME F8F16 instructions (**FEAT_SME_F8F16**). |
+| **PF_ARM_SME_F16F16_INSTRUCTIONS_AVAILABLE**<br><br>83 | This Arm processor implements the SME F16F16 instructions (**FEAT_SME_F16F16**). |
+| **PF_ARM_SME_B16B16_INSTRUCTIONS_AVAILABLE**<br><br>84 | This Arm processor implements the SME B16B16 instructions (**FEAT_SME_B16B16**). |
+| **PF_ARM_SME_F64F64_INSTRUCTIONS_AVAILABLE**<br><br>85 | This Arm processor implements the SME F64F64 instructions (**FEAT_SME_F64F64**). |
+| **PF_ARM_SME_I16I64_INSTRUCTIONS_AVAILABLE**<br><br>86 | This Arm processor implements the SME I16I64 instructions (**FEAT_SME_I16I64**). |
+| **PF_ARM_SME_LUTv2_INSTRUCTIONS_AVAILABLE**<br><br>87 | This Arm processor implements the SME LUTv2 instructions (**FEAT_SME_LUTv2**). |
+| **PF_ARM_SME_FA64_INSTRUCTIONS_AVAILABLE**<br><br>88 | This Arm processor implements SME FA64 (Full AArch64 instruction set when in Streaming SVE mode) (**FEAT_SME_FA64**). |
+| **PF_UMONITOR_INSTRUCTION_AVAILABLE**<br><br>89 | This x64 processor implements the UMONITOR instruction. |
 
 ## Return value
 
@@ -65,6 +108,8 @@ Support for ``PF_SSSE3_INSTRUCTIONS_AVAILABLE`` through ``PF_AVX512F_INSTRUCTION
 Support for ``PF_ERMS_AVAILABLE``, ``PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE``, and ``PF_ARM_V83_JSCVT_INSTRUCTIONS_AVAILABLE`` were added in the Windows SDK (20348) and are supported by Windows 11 and Windows Server 2022.
 
 The define ``PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE`` was added in the Windows SDK (22621) and is supported by Windows 11, Version 22H2.
+
+Support for ``PF_ARM_SVE_INSTRUCTIONS_AVAILABLE`` through ``PF_MOVDIR64B_INSTRUCTION_AVAILABLE`` and ``PF_ARM_SHA3_INSTRUCTIONS_AVAILABLE`` through ``PF_ARM_V86_EBF16_INSTRUCTIONS_AVAILABLE`` were added in the Windows SDK (26100) and are supported by Windows 11, version 24H2 and Windows Server 2025 or later.
 
 ## See also
 

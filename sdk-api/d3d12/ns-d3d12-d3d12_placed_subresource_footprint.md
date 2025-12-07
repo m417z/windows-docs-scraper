@@ -10,6 +10,7 @@ Describes the footprint of a placed subresource, including the offset and the D3
 
 The offset of the subresource within the parent resource, in bytes.
 The offset between the start of the parent resource and this subresource.
+This value must be aligned to D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT (512) unless [D3D12_FEATURE_DATA_D3D12_OPTIONS13::UnrestrictedBufferTextureCopyPitchSupported](https://learn.microsoft.com/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options13) is TRUE.
 
 ### `Footprint`
 
