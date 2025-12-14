@@ -8,7 +8,7 @@ The **RtlIsGenericTableEmptyAvl** routine determines if a generic table is empty
 
 ### `Table` [in]
 
-Pointer to the generic table ([RTL_GENERIC_TABLE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table)). The table must have been initialized by calling **RtlIsGenericTableEmptyAvl**.
+Pointer to the generic table ([RTL_GENERIC_TABLE](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table)). The table must have been initialized by calling **RtlInitializeGenericTableAvl**.
 
 ## Return value
 

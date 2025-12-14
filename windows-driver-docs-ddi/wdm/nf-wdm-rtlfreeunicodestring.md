@@ -16,7 +16,7 @@ None
 
 ## Remarks
 
-This routine does not release the ANSI string buffer passed to **RtlAnsiStringToUnicodeString**.
+This routine releases the **Buffer** of **UnicodeString**, then sets both **Length** and **MaximumLength** to zero and **Buffer** to NULL. It does not release the ANSI string buffer passed to **RtlAnsiStringToUnicodeString**.
 
 ## See also
 

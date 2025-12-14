@@ -26,11 +26,11 @@ The format in which the data is being requested. This parameter must be set to o
 
 #### SHGDFIL_FINDDATA
 
-Format used for file system objects. The *pv* parameter is the address of a [WIN32_FIND_DATA](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa) structure.
+Format used for file system objects. The *pv* parameter is the address of a [WIN32_FIND_DATA](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataw) structure.
 
 #### SHGDFIL_NETRESOURCE
 
-Format used for network resources. The *pv* parameter is the address of a [NETRESOURCE](https://learn.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig) structure.
+Format used for network resources. The *pv* parameter is the address of a [NETRESOURCE](https://learn.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew) structure.
 
 #### SHGDFIL_DESCRIPTIONID
 
@@ -50,18 +50,6 @@ Type: **int**
 
 Size of the buffer at *pv*, in bytes.
 
-##### - nFormat.SHGDFIL_DESCRIPTIONID
-
-[Version 4.71](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)). Format used for network resources. The *pv* parameter is the address of an [SHDESCRIPTIONID](https://learn.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shdescriptionid) structure.
-
-##### - nFormat.SHGDFIL_FINDDATA
-
-Format used for file system objects. The *pv* parameter is the address of a [WIN32_FIND_DATA](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa) structure.
-
-##### - nFormat.SHGDFIL_NETRESOURCE
-
-Format used for network resources. The *pv* parameter is the address of a [NETRESOURCE](https://learn.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig) structure.
-
 ## Return value
 
 Type: **HRESULT**
@@ -70,7 +58,7 @@ Returns S_OK if successful, or E_INVALIDARG otherwise.
 
 ## Remarks
 
-This function extracts only information that is present in the pointer to an item identifier list (PIDL). Since the content of a PIDL depends on the folder object that created the PIDL, there is no guarantee that all requested information will be available. In addition, the information that is returned reflects the state of the object at the time the PIDL was created. The current state of the object could be different. For example, if you set *nFormat* to **SHGDFIL_FINDDATA**, the function might assign meaningful values to only some of the members of the [WIN32_FIND_DATA](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa) structure. The remaining members will be set to zero. To retrieve complete current information on a file system file or folder, use standard file system functions such as [GetFileTime](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime) or [FindFirstFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea).
+This function extracts only information that is present in the pointer to an item identifier list (PIDL). Since the content of a PIDL depends on the folder object that created the PIDL, there is no guarantee that all requested information will be available. In addition, the information that is returned reflects the state of the object at the time the PIDL was created. The current state of the object could be different. For example, if you set *nFormat* to **SHGDFIL_FINDDATA**, the function might assign meaningful values to only some of the members of the [WIN32_FIND_DATA](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataw) structure. The remaining members will be set to zero. To retrieve complete current information on a file system file or folder, use standard file system functions such as [GetFileTime](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime) or [FindFirstFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilew).
 
 E_INVALIDARG is returned if the *psf*, *pidl*, *pv*, or *cb* parameter does not match the *nFormat* parameter, or if *nFormat* is not one of the specific SHGDFIL_ values shown above.
 

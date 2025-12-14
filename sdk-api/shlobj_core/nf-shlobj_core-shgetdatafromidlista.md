@@ -30,7 +30,7 @@ Format used for file system objects. The *pv* parameter is the address of a [WIN
 
 #### SHGDFIL_NETRESOURCE
 
-Format used for network resources. The *pv* parameter is the address of a [NETRESOURCE](https://learn.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig) structure.
+Format used for network resources. The *pv* parameter is the address of a [NETRESOURCE](https://learn.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea) structure.
 
 #### SHGDFIL_DESCRIPTIONID
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE.
+The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [**FsRtlIsNameInExpression** routine](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression), **FsRtlIsNameInUnUpcasedExpression** does not expect the Expression to be in upper case if *IgnoreCase* is TRUE.
 
 ## Parameters
 
@@ -38,10 +38,10 @@ Wildcard character|Meaning
 |DOS_QM|Matches any single character or, upon encountering a period or end of name string, advances the expression to the end of the set of contiguous DOS_QMs.|
 |DOS_STAR|Matches zero or more characters until encountering and matching the final period in the name.|
 
-**Note**
+In low resource conditions, **FsRtlIsNameInUnUpcasedExpression** can raise a structured exception with a code of `STATUS_NO_MEMORY`, which callers should be prepared to handle. For more information, see [Structured Exception Handling](https://learn.microsoft.com/windows/win32/debug/structured-exception-handling).
 
-If only one of the string parameters has a length of zero, FsRtlIsNameInUnUpcasedExpression returns FALSE. This means that "*" does not match a null string.
-If both parameters are null strings, FsRtlIsNameInUnUpcasedExpression returns TRUE.
+If only one of the string parameters has a length of zero, **FsRtlIsNameInUnUpcasedExpression** returns FALSE. This means that "*" does not match a null string.
+If both parameters are null strings, **FsRtlIsNameInUnUpcasedExpression** returns TRUE.
 
 ## See also
 

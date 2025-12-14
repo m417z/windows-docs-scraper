@@ -44,7 +44,7 @@ A pointer to a caller-allocated buffer receiving the size, in bytes, required to
 
 ## Remarks
 
-The [**RtlCompressBuffer**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer) and [**RtlDecompressFragment**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment)functions require an appropriately sized work space buffer to compress and decompress successfully. To determine the correct work space buffer size, in bytes, call the **RtlGetCompressionWorkSpaceSize** function.
+The [**RtlCompressBuffer**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer) and [**RtlDecompressFragment**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment) functions require an appropriately sized work space buffer to compress and decompress successfully. To determine the correct work space buffer size, in bytes, call the **RtlGetCompressionWorkSpaceSize** function.
 
 As an example, the **WorkSpace** parameter of the [**RtlCompressBuffer**](https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer) function must point to an adequately sized work space buffer. The **CompressBufferWorkSpaceSize** parameter of the **RtlGetCompressionWorkSpaceSize** provides this size.
 

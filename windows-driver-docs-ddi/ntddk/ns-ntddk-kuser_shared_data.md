@@ -358,7 +358,7 @@ The count of unparked processors.
 
 ### `EnclaveFeatureMask[4]`
 
-A bitmask of enclave features supported on this system. This field must be accessed via the **RtlIsEnclareFeaturePresent** API for an accurate result.
+A bitmask of enclave features supported on this system. This field must be accessed via the **RtlIsEnclaveFeaturePresent** API for an accurate result.
 
 ### `TelemetryCoverageRound`
 
