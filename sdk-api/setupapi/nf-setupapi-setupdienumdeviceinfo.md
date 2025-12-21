@@ -30,6 +30,8 @@ To enumerate device information elements, an installer should initially call **S
 
 Call [SetupDiEnumDeviceInterfaces](https://learn.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces) to get a context structure for a device *interface* element (versus a device *information* element).
 
+An example of **SetupDiEnumDeviceInfo** usage is available on the page documenting [SetupDiGetClassDevsW](https://learn.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw).
+
 ## See also
 
 [SP_DEVINFO_DATA](https://learn.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data)

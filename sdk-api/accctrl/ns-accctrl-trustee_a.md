@@ -1,5 +1,17 @@
 # TRUSTEE_A structure
 
+## Syntax
+
+```cpp
+typedef struct _TRUSTEE_A {
+  struct _TRUSTEE_A          *pMultipleTrustee;
+  MULTIPLE_TRUSTEE_OPERATION MultipleTrusteeOperation;
+  TRUSTEE_FORM               TrusteeForm;
+  TRUSTEE_TYPE               TrusteeType;
+  LPCH                       ptstrName;
+} TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA;
+```
+
 ## Description
 
 The **TRUSTEE** structure identifies the user account, group account, or [logon session](https://learn.microsoft.com/windows/desktop/SecGloss/l-gly) to which an [access control entry](https://learn.microsoft.com/windows/desktop/SecGloss/a-gly) (ACE) applies. The structure can use a name or a [security identifier](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) to identify the trustee.
@@ -23,46 +35,23 @@ A value of the
 
 A value from the
 [TRUSTEE_FORM](https://learn.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_form) enumeration type that indicates the type of data pointed to by the **ptstrName** member.
+See [Remarks](https://learn.microsoft.com/windows/win32/api/accctrl/ns-accctrl-trustee_a#-remarks) below.
 
 ### `TrusteeType`
 
 A value from the
 [TRUSTEE_TYPE](https://learn.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_type) enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
 
-### `ptstrName.case`
-
-### `ptstrName.case.TRUSTEE_IS_NAME`
-
-### `pSid`
-
-### `pSid.case`
-
-### `pSid.case.TRUSTEE_IS_SID`
-
-### `pObjectsAndSid`
-
-### `pObjectsAndSid.case`
-
-### `pObjectsAndSid.case.TRUSTEE_IS_OBJECTS_AND_SID`
-
-### `pObjectsAndName`
-
-### `pObjectsAndName.case`
-
-### `pObjectsAndName.case.TRUSTEE_IS_OBJECTS_AND_NAME`
-
 ### `ptstrName`
 
- A pointer to a buffer that identifies the trustee and, optionally, contains information about object-specific ACEs. The type of data depends on the value of the **TrusteeForm** member.
+A pointer whose form depends on the value of the *TrusteeForm* member, cast to LPCH.
 
-This member can be one of the following values.
-
-| Value | Meaning |
+| TrusteeForm | Meaning of ptstrName |
 | --- | --- |
 | **TRUSTEE_IS_NAME** | A pointer to a **null**-terminated string that contains the name of the trustee. |
 | **TRUSTEE_IS_OBJECTS_AND_NAME** | A pointer to an [OBJECTS_AND_NAME](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_name_a) structure that contains the name of the trustee and the names of the object types in an object-specific ACE. |
 | **TRUSTEE_IS_OBJECTS_AND_SID** | A pointer to an [OBJECTS_AND_SID](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid) structure that contains the SID of the trustee and the GUIDs of the object types in an object-specific ACE. |
-| **TRUSTEE_IS_SID** | Pointer to the SID of the trustee. |
+| **TRUSTEE_IS_SID** | A pointer to the SID of the trustee. |
 
 ## Remarks
 

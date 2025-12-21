@@ -1,0 +1,51 @@
+{
+  "UID": "NF:apiquery2.GetApiSetModuleBaseName",
+  "title": "GetApiSetModuleBaseName",
+  "description": "Retrieves the file name of the module, or binary, that implements a specified API set.",
+  "tech.root": "winprog",
+  "ms.date": "11/25/2025",
+  "targetos": "Windows",
+  "req.construct-type": "function",
+  "req.header": "apiquery2.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "onecore.lib",
+  "req.dll": "api-ms-win-core-apiquery-l2-1-0.dll",
+  "req.irql": null,
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "19H1",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "api-ms-win-core-apiquery-l2"
+  ],
+  "api_name": [
+    "GetApiSetModuleBaseName"
+  ],
+  "f1_keywords": [
+    "GetApiSetModuleBaseName",
+    "apiquery2/GetApiSetModuleBaseName"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "GetApiSetModuleBaseName"
+  ]
+}

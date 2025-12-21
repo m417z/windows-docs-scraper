@@ -26,6 +26,8 @@ A pointer to a null-terminated string that identifies the type of object to whic
 
 This string must be a valid [LDAP](https://learn.microsoft.com/windows/desktop/SecGloss/l-gly) display name in the Active Directory schema.
 
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the **ObjectsPresent** member, the **ObjectTypeName** member is ignored.
+
 ### `InheritedObjectTypeName`
 
 A pointer to a null-terminated string that identifies the type of object that can inherit the ACE.
@@ -40,7 +42,7 @@ A pointer to a null-terminated string that contains the name of the trustee.
 
 ## Remarks
 
-The **ptstrName** member of a [TRUSTEE](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a) structure can be a pointer to an **OBJECTS_AND_NAME** structure. This enables functions such as [SetEntriesInAcl](https://learn.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla) and [GetExplicitEntriesFromAcl](https://learn.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla) to store object-specific ACE information in the **Trustee** member of an [EXPLICIT_ACCESS](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a) structure.
+The **ptstrName** member of a [TRUSTEE_W](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_w) structure is be a pointer to an **OBJECTS_AND_NAME_W** structure if the **TrusteeForm** is **TRUSTEE_IS_OBJECTS_AND_NAME**. This enables functions such as [SetEntriesInAcl](https://learn.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla) and [GetExplicitEntriesFromAcl](https://learn.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla) to store object-specific ACE information in the **Trustee** member of an [EXPLICIT_ACCESS](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a) structure.
 
 > [!NOTE]
 > The accctrl.h header defines OBJECTS_AND_NAME_ as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).
@@ -59,4 +61,4 @@ The **ptstrName** member of a [TRUSTEE](https://learn.microsoft.com/windows/desk
 
 [SetEntriesInAcl](https://learn.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla)
 
-[TRUSTEE](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a)
+[TRUSTEE_W](https://learn.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_w)

@@ -6,9 +6,9 @@ Contains processor-specific register data. The system uses **CONTEXT** structure
 
 | Architecture | API reference page |
 |--------------|--------------------|
-| x86 32-bit | [CONTEXT structure (x86 32-bit)](https://learn.microsoft.com/windows/win32/api/winnt/sdk-api-src/content/winnt/ns-winnt-context~r2) |
-| Arm32 | [CONTEXT structure (Arm32)](https://learn.microsoft.com/windows/win32/api/winnt/sdk-api-src/content/winnt/ns-winnt-context~r1) |
-| Arm64 | [ARM64_NT_CONTEXT structure](https://learn.microsoft.com/windows/win32/api/winnt/sdk-api-src/content/winnt/ns-winnt-arm64_nt_context) |
+| x86 32-bit | [CONTEXT structure (x86 32-bit)](https://learn.microsoft.com/windows/win32/api/winnt/ns-winnt-context~r2) |
+| Arm32 | [CONTEXT structure (Arm32)](https://learn.microsoft.com/windows/win32/api/winnt/ns-winnt-context~r1) |
+| Arm64 | [ARM64_NT_CONTEXT structure](https://learn.microsoft.com/windows/win32/api/winnt/ns-winnt-arm64_nt_context) |
 
 ## Members
 

@@ -23,7 +23,7 @@ Indicates the type of the names stored in this structure.
 | **KRB_NT_UID** | Unique ID. |
 | **KRB_NT_ENTERPRISE_PRINCIPAL** | User principal name (UPN) or [service principal name](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly) (SPN). |
 | **KRB_NT_ENT_PRINCIPAL_AND_ID** | UPN and [security identifier](https://learn.microsoft.com/windows/desktop/SecGloss/s-gly) (SID). |
-| **KRB_NT_MS_PRINICPAL** | Windows NT 4.0–style name. |
+| **KRB_NT_MS_PRINCIPAL** | Windows NT 4.0–style name. |
 | **KRB_NT_MS_PRINCIPAL_AND_ID** | Windows NT 4.0–style name with SID. |
 
 ### `NameCount`

@@ -1,8 +1,6 @@
-# IsApiSetImplemented function
-
 ## Description
 
-The **IsApiSetImplemented** function tests if a specified *API set* is present on the computer.
+Tests whether a specified *API set* is present on the computer.
 
 ## Parameters
 

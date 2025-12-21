@@ -23,6 +23,6 @@ In the following versions of Windows, Slot 1 of Thread Local Storage (TLS) holds
 
 [WOW64_FLOATING_SAVE_AREA](https://learn.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_floating_save_area)
 
-[Wow64GetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md)
+[Wow64GetThreadContext](https://learn.microsoft.com/windows/win32/api/wow64apiset/nf-wow64apiset-wow64getthreadcontext)
 
-[Wow64SetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64setthreadcontext.md)
+[Wow64SetThreadContext](https://learn.microsoft.com/windows/win32/api/wow64apiset/nf-wow64apiset-wow64setthreadcontext)

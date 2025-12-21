@@ -23,6 +23,6 @@ numeric_limits<double>::quiet_NaN()
 
 ## See also
 
-[IRangeValueProvider](https://learn.microsoft.com/windows/win32/api/uiautomationcore/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider">IRangeValueProvider)
+[IRangeValueProvider](https://learn.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider">IRangeValueProvider)
 
 [UI Automation Providers Overview](https://learn.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview)
