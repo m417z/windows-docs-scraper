@@ -327,6 +327,8 @@ def clean_markdown_content(content_url: str, content: str) -> str:
             el_html = el.decode_contents()
             el_markdown = self.convert(el_html)
             el_markdown = el_markdown.replace('\n\n', Nonce.TableBr * 2)
+            # Escape pipe characters to prevent breaking tables.
+            el_markdown = el_markdown.replace('|', '\\|')
             # Best effort to handle lists in table cells.
             el_markdown = el_markdown.replace('\n* ', Nonce.TableBr + '* ')
             el_markdown = el_markdown.replace('\n- ', Nonce.TableBr + '- ')
