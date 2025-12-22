@@ -27,7 +27,7 @@ Flags that specify the selected options. This member can be one of the following
 | **DTBG_COMPUTINGREGION** | Deprecated. |
 | **DTBG_MIRRORDC** | Assume the **hdc** is mirrored and flip images as appropriate (currently this value is only supported for bgtype=imagefile). |
 | **DTBG_NOMIRROR** | Do not mirror the output; even in right-to-left (RTL) layout. |
-| **DTBG_VALIDBITS** | DTBG_CLIPRECT | DTBG_DRAWSOLID | DTBG_OMITBORDER | DTBG_OMITCONTENT | DTBG_COMPUTINGREGION | DTBG_MIRRORDC | DTBG_NOMIRROR. |
+| **DTBG_VALIDBITS** | DTBG_CLIPRECT \| DTBG_DRAWSOLID \| DTBG_OMITBORDER \| DTBG_OMITCONTENT \| DTBG_COMPUTINGREGION \| DTBG_MIRRORDC \| DTBG_NOMIRROR. |
 
 ### `rcClip`
 

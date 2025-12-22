@@ -21,7 +21,7 @@ The following characters are not allowed in an entry name.
 
 | Character | Meaning |
 | --- | --- |
-| **|** | vertical bar |
+| **\|** | vertical bar |
 | **>** | greater than symbol |
 | **<** | less than symbol |
 | **?** | question mark |

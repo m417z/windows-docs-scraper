@@ -21,7 +21,7 @@ Combination of one or more of the following flag values:
 | FSRTL_NTFS_LEGAL | Valid characters for NTFS file names are legal. |
 | FSRTL_WILD_CHARACTER | Wildcard characters are legal. |
 | FSRTL_OLE_LEGAL | Valid characters for NTFS stream names are legal. |
-| FSRTL_NTFS_STREAM_LEGAL | FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL |
+| FSRTL_NTFS_STREAM_LEGAL | FSRTL_NTFS_LEGAL \| FSRTL_OLE_LEGAL |
 
 ## Remarks
 

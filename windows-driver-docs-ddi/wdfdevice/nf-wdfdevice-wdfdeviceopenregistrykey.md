@@ -26,8 +26,8 @@ This is a bitwise OR of the following flags (which are defined in *Wdm.h*).
 | **PLUGPLAY_REGKEY_DEVICE** | Opens the device's hardware key. | KMDF/UMDF |
 | **PLUGPLAY_REGKEY_DRIVER** | Opens the driver's software key. A UMDF driver that sets this flag must also set *DesiredAccess* to **KEY_READ**. Otherwise this method returns **STATUS_ACCESS_DENIED**. | KMDF/UMDF |
 | **PLUGPLAY_REGKEY_CURRENT_HWPROFILE** | A KMDF driver uses this flag to open the copy of the hardware or software key that is in the current hardware profile. | KMDF |
-| **PLUGPLAY_REGKEY_DRIVER | WDF_REGKEY_DRIVER_SUBKEY** | A UMDF driver uses these flags together to open the **ServiceName** subkey of the driver's software key for read/write access. | UMDF |
-| **PLUGPLAY_REGKEY_DEVICE | WDF_REGKEY_DEVICE_SUBKEY** | Similarly, a UMDF driver uses these flags to open the **ServiceName** subkey of the device's hardware key for read/write access. | UMDF |
+| **PLUGPLAY_REGKEY_DRIVER \| WDF_REGKEY_DRIVER_SUBKEY** | A UMDF driver uses these flags together to open the **ServiceName** subkey of the driver's software key for read/write access. | UMDF |
+| **PLUGPLAY_REGKEY_DEVICE \| WDF_REGKEY_DEVICE_SUBKEY** | Similarly, a UMDF driver uses these flags to open the **ServiceName** subkey of the device's hardware key for read/write access. | UMDF |
 
 ### `DesiredAccess` [in]
 
@@ -40,9 +40,9 @@ If you are writing a UMDF driver, use the following table.
 | DeviceInstanceKeyType | DesiredAccess |
 | --- | --- |
 | **PLUGPLAY_REGKEY_DEVICE** | **KEY_READ** |
-| **PLUGPLAY_REGKEY_DEVICE | WDF_REGKEY_DEVICE_SUBKEY** | **KEY_READ** or **KEY_READ | KEY_SET_VALUE** |
+| **PLUGPLAY_REGKEY_DEVICE \| WDF_REGKEY_DEVICE_SUBKEY** | **KEY_READ** or **KEY_READ \| KEY_SET_VALUE** |
 | **PLUGPLAY_REGKEY_DRIVER** | **KEY_READ** |
-| **PLUGPLAY_REGKEY_DRIVER | WDF_REGKEY_DRIVER_SUBKEY** | **KEY_READ** or **KEY_READ | KEY_SET_VALUE** |
+| **PLUGPLAY_REGKEY_DRIVER \| WDF_REGKEY_DRIVER_SUBKEY** | **KEY_READ** or **KEY_READ \| KEY_SET_VALUE** |
 
 As a best practice, ask for only the types of access that your driver needs.
 

@@ -58,7 +58,7 @@ The coercion is performed in four steps, as follows:
    | --- | --- |
    | VT_EMPTY | Always canonical. |
    | VT_LPWSTR | * No leading or trailing spaces. The string is non-empty and non-**NULL**. For example, L"Alice".<br>* If this is a tree property (that is, if the [typeInfo](https://learn.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo) element's *isTreeProperty* attribute is **TRUE**), then it must not have leading or trailing forward slashes (/), must not have spaces between the text and the forward slashes, and must not have two consecutive forward slashes(/). For example, L"Friend/Bob".<br>* Coercion removes unnecessary characters and results in VT_EMPTY if there was no content. |
-   | VT_VECTOR | VT_LPWSTR | * Each string in the vector must adhere to the rules for VT_LPWSTR listed above. In addition, the vector must have no duplicates and have no null pointers.<br>* If this is a tree property, then no value can be the ancestor of another value. For example, L"Friend" is an ancestor of L"Friend/Bob".<br>* If there is no content, coercion removes duplicate and ancestor characters and results in VT_EMPTY. |
+   | VT_VECTOR \| VT_LPWSTR | * Each string in the vector must adhere to the rules for VT_LPWSTR listed above. In addition, the vector must have no duplicates and have no null pointers.<br>* If this is a tree property, then no value can be the ancestor of another value. For example, L"Friend" is an ancestor of L"Friend/Bob".<br>* If there is no content, coercion removes duplicate and ancestor characters and results in VT_EMPTY. |
 4. If applicable, the value is checked against the property description type enumeration. The checks in the following table apply.
 
    | Enumeration Type | Value Type | Canonical Form |
@@ -66,12 +66,12 @@ The coercion is performed in four steps, as follows:
    | Discrete or Ranged | VT_EMPTY | Always canonical |
    | Discrete | VT_LPWSTR | The string matches one of the enumerated strings allowed for the property. Comparisons are case-insensitive. If not, convert the value to VT_EMPTY. |
    | Discrete | Numeric | The number matches one of the enumerated values allowed for the property. If not, convert the value to VT_EMPTY. |
-   | Discrete | VT_VECTOR | VT_LPWSTR | Each string in the vector matches one of the enumerated strings allowed for the property. Comparisons are case-insensitive. If not, remove that string from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
-   | Discrete | VT_VECTOR | Numeric | Each number in the vector matches one of the enumerated values allowed for the property. If not, remove that number from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
+   | Discrete | VT_VECTOR \| VT_LPWSTR | Each string in the vector matches one of the enumerated strings allowed for the property. Comparisons are case-insensitive. If not, remove that string from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
+   | Discrete | VT_VECTOR \| Numeric | Each number in the vector matches one of the enumerated values allowed for the property. If not, remove that number from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
    | Ranged | VT_LPWSTR | The string exists in the range allowed for the property. Comparisons are case-sensitive. If not, convert the value to VT_EMPTY. |
    | Ranged | Numeric | The number exists in the range allowed for the property. If not, convert the value to VT_EMPTY. |
-   | Ranged | VT_VECTOR | VT_LPWSTR | Each string in the vector exists in the range allowed for the property. Comparisons are case-sensitive. If not, remove that string from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
-   | Ranged | VT_VECTOR | Numeric | Each number in the vector exists in the range allowed for the property. If not, remove that number from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
+   | Ranged | VT_VECTOR \| VT_LPWSTR | Each string in the vector exists in the range allowed for the property. Comparisons are case-sensitive. If not, remove that string from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
+   | Ranged | VT_VECTOR \| Numeric | Each number in the vector exists in the range allowed for the property. If not, remove that number from the vector. If the resulting vector is empty, convert the value to VT_EMPTY. |
 
 #### Examples
 

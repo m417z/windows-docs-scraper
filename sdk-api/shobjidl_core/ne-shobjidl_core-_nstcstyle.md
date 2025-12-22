@@ -179,8 +179,8 @@ Three values have effect only in conjunction with NSTCS_CHECKBOXES: NSTCS_PARTIA
 | 0 | Blank | NSTCS_CHECKBOXES |
 | 1 | Unchecked | NSTCS_CHECKBOXES |
 | 2 | Checked | NSTCS_CHECKBOXES |
-| 3 | Partial | NSTCS_CHECKBOXES | NSTCS_PARTIALCHECKBOXES |
-| 4 | Exclusion (red X) | NSTCS_CHECKBOXES | NSTCS_EXCLUSIONCHECKBOXES |
+| 3 | Partial | NSTCS_CHECKBOXES \| NSTCS_PARTIALCHECKBOXES |
+| 4 | Exclusion (red X) | NSTCS_CHECKBOXES \| NSTCS_EXCLUSIONCHECKBOXES |
 
 ## See also
 

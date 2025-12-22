@@ -24,7 +24,7 @@ This method can return one of these values.
 | --- | --- |
 | **S_OK** | Success. |
 | **E_POINTER** | A parameter contained an invalid pointer. |
-| **E_INVALIDARG** | Invalid VARIANT type (only VT_ARRAY | VT_I4 supported). |
+| **E_INVALIDARG** | Invalid VARIANT type (only VT_ARRAY \| VT_I4 supported). |
 | **E_INK_EXCEPTION** | An exception occurred inside the method. |
 | **E_OUTOFMEMORY** | Cannot allocate memory to create the new Strokes collection. |
 | **TPC_E_INVALID_STROKE** | Stroke IDs that do not exist were passed to the method. |

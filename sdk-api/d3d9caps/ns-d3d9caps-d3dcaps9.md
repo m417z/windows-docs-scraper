@@ -25,7 +25,7 @@ The following driver-specific capability.
 | Value | Meaning |
 | --- | --- |
 | **D3DCAPS_READ_SCANLINE** | Display hardware is capable of returning the current scan line. |
-| **D3DCAPS_OVERLAY** | The display driver supports an overlay DDI that allows for verification of overlay capabilities. For more information about the overlay DDI, see [Overlay DDI](https://www.microsoft.com/?ref=go).<br><br>|  | | --- | | Differences between Direct3D 9 and Direct3D 9Ex:<br><br>This flag is available in Direct3D 9Ex only. | |
+| **D3DCAPS_OVERLAY** | The display driver supports an overlay DDI that allows for verification of overlay capabilities. For more information about the overlay DDI, see [Overlay DDI](https://www.microsoft.com/?ref=go).<br><br>\|  \| \| --- \| \| Differences between Direct3D 9 and Direct3D 9Ex:<br><br>This flag is available in Direct3D 9Ex only. \| |
 
 ### `Caps2`
 
@@ -158,12 +158,12 @@ Source-blending capabilities. This member can be one or more of the following fl
 | **D3DPBLENDCAPS_INVDESTCOLOR** | Blend factor is (1 - Rd, 1 - Gd, 1 - Bd, 1 - Ad). |
 | **D3DPBLENDCAPS_INVSRCALPHA** | Blend factor is (1 - Aₛ, 1 - Aₛ, 1 - Aₛ, 1 - Aₛ). |
 | **D3DPBLENDCAPS_INVSRCCOLOR** | Blend factor is (1 - Rₛ, 1 - Gₛ, 1 - Bₛ, 1 - Aₛ). |
-| **D3DPBLENDCAPS_INVSRCCOLOR2** | Blend factor is (1 - PSOutColor[1]r, 1 - PSOutColor[1]g, 1 - PSOutColor[1]b, not used)). See [Render Target Blending](https://learn.microsoft.com/windows/desktop/direct3d9/d3dblend).<br><br>|  | | --- | | Differences between Direct3D 9 and Direct3D 9Ex:<br><br>This flag is available in Direct3D 9Ex only. | |
+| **D3DPBLENDCAPS_INVSRCCOLOR2** | Blend factor is (1 - PSOutColor[1]r, 1 - PSOutColor[1]g, 1 - PSOutColor[1]b, not used)). See [Render Target Blending](https://learn.microsoft.com/windows/desktop/direct3d9/d3dblend).<br><br>\|  \| \| --- \| \| Differences between Direct3D 9 and Direct3D 9Ex:<br><br>This flag is available in Direct3D 9Ex only. \| |
 | **D3DPBLENDCAPS_ONE** | Blend factor is (1, 1, 1, 1). |
 | **D3DPBLENDCAPS_SRCALPHA** | Blend factor is (Aₛ, Aₛ, Aₛ, Aₛ). |
 | **D3DPBLENDCAPS_SRCALPHASAT** | Blend factor is (f, f, f, 1); f = min(Aₛ, 1 - Ad). |
 | **D3DPBLENDCAPS_SRCCOLOR** | Blend factor is (Rₛ, Gₛ, Bₛ, Aₛ). |
-| **D3DPBLENDCAPS_SRCCOLOR2** | Blend factor is (PSOutColor[1]r, PSOutColor[1]g, PSOutColor[1]b, not used). See [Render Target Blending](https://learn.microsoft.com/windows/desktop/direct3d9/d3dblend).<br><br>|  | | --- | | Differences between Direct3D 9 and Direct3D 9Ex:<br><br>This flag is available in Direct3D 9Ex only. | |
+| **D3DPBLENDCAPS_SRCCOLOR2** | Blend factor is (PSOutColor[1]r, PSOutColor[1]g, PSOutColor[1]b, not used). See [Render Target Blending](https://learn.microsoft.com/windows/desktop/direct3d9/d3dblend).<br><br>\|  \| \| --- \| \| Differences between Direct3D 9 and Direct3D 9Ex:<br><br>This flag is available in Direct3D 9Ex only. \| |
 | **D3DPBLENDCAPS_ZERO** | Blend factor is (0, 0, 0, 0). |
 
 ### `DestBlendCaps`

@@ -35,8 +35,8 @@ When using **MEM_RELEASE**, this parameter can additionally specify one of the f
 
 | Value | Meaning |
 | --- | --- |
-| **MEM_COALESCE_PLACEHOLDERS**<br><br>0x00000001 | To coalesce two adjacent placeholders, specify `MEM_RELEASE | MEM_COALESCE_PLACEHOLDERS`. When you coalesce placeholders, *lpAddress* and *dwSize* must exactly match the overall range of the placeholders to be merged. |
-| **MEM_PRESERVE_PLACEHOLDER**<br><br>0x00000002 | Frees an allocation back to a placeholder (after you've replaced a placeholder with a private allocation using [VirtualAlloc2](https://learn.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc2) or [Virtual2AllocFromApp](https://msdn.microsoft.com/en-us/library/Mt832850(v=VS.85).aspx)).<br><br>To split a placeholder into two placeholders, specify `MEM_RELEASE | MEM_PRESERVE_PLACEHOLDER`. |
+| **MEM_COALESCE_PLACEHOLDERS**<br><br>0x00000001 | To coalesce two adjacent placeholders, specify `MEM_RELEASE \| MEM_COALESCE_PLACEHOLDERS`. When you coalesce placeholders, *lpAddress* and *dwSize* must exactly match the overall range of the placeholders to be merged. |
+| **MEM_PRESERVE_PLACEHOLDER**<br><br>0x00000002 | Frees an allocation back to a placeholder (after you've replaced a placeholder with a private allocation using [VirtualAlloc2](https://learn.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc2) or [Virtual2AllocFromApp](https://msdn.microsoft.com/en-us/library/Mt832850(v=VS.85).aspx)).<br><br>To split a placeholder into two placeholders, specify `MEM_RELEASE \| MEM_PRESERVE_PLACEHOLDER`. |
 
 ## Return value
 

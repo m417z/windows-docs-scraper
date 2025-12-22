@@ -55,8 +55,8 @@ These are the flag options.
 | Number | Flags | Description |
 | --- | --- | --- |
 | 1 | SHGDN_FORPARSING | Returns the fully qualified parsing name. |
-| 2 | SHGDN_INFOLDER | SHGDN_FORPARSING | Returns the parsing name relative to the parent folder. |
-| 3 | SHGDN_INFOLDER | SHGDN_FOREDITING | Returns the editing name relative to the parent folder. |
+| 2 | SHGDN_INFOLDER \| SHGDN_FORPARSING | Returns the parsing name relative to the parent folder. |
+| 3 | SHGDN_INFOLDER \| SHGDN_FOREDITING | Returns the editing name relative to the parent folder. |
 | 4 | SHGDN_INFOLDER | Returns the display name relative to the parent folder. |
 | 5 | SHGDN_NORMAL | Returns the display name relative to the desktop and not to a specific folder. |
 

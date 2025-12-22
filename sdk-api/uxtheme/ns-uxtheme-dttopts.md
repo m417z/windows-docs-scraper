@@ -34,7 +34,7 @@ A combination of flags that specify whether certain values of the **DTTOPTS** st
 | **DTT_GLOWSIZE** | The **iGlowSize** member value is valid. |
 | **DTT_CALLBACK** | The **pfnDrawTextCallback** member value is valid. |
 | **DTT_COMPOSITED** | Draws text with antialiased alpha. Use of this flag requires a top-down DIB section. This flag works only if the HDC passed to function [DrawThemeTextEx](https://learn.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex) has a top-down DIB section currently selected in it. For more information, see [Device-Independent Bitmaps](https://learn.microsoft.com/windows/desktop/gdi/device-independent-bitmaps). |
-| **DTT_VALIDBITS** | DTT_TEXTCOLOR | DTT_BORDERCOLOR | DTT_SHADOWCOLOR | DTT_SHADOWTYPE | DTT_SHADOWOFFSET | DTT_BORDERSIZE | DTT_FONTPROP | DTT_COLORPROP | DTT_STATEID | DTT_CALCRECT | DTT_APPLYOVERLAY | DTT_GLOWSIZE | DTT_COMPOSITED. |
+| **DTT_VALIDBITS** | DTT_TEXTCOLOR \| DTT_BORDERCOLOR \| DTT_SHADOWCOLOR \| DTT_SHADOWTYPE \| DTT_SHADOWOFFSET \| DTT_BORDERSIZE \| DTT_FONTPROP \| DTT_COLORPROP \| DTT_STATEID \| DTT_CALCRECT \| DTT_APPLYOVERLAY \| DTT_GLOWSIZE \| DTT_COMPOSITED. |
 
 ### `crText`
 

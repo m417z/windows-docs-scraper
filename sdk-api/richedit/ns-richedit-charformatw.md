@@ -22,11 +22,11 @@ Members containing valid information or attributes to set. This member can be ze
 
 | Value | Meaning |
 | --- | --- |
-| **CFM_ALL** | **Windows 8**: A combination of the following values: CFM_EFFECTS | CFM_SIZE | CFM_FACE | CFM_OFFSET | CFM_CHARSET |
+| **CFM_ALL** | **Windows 8**: A combination of the following values: CFM_EFFECTS \| CFM_SIZE \| CFM_FACE \| CFM_OFFSET \| CFM_CHARSET |
 | **CFM_BOLD** | The CFE_BOLD value of the **dwEffects** member is valid. |
 | **CFM_CHARSET** | The **bCharSet** member is valid. |
 | **CFM_COLOR** | The **crTextColor** member and the CFE_AUTOCOLOR value of the **dwEffects** member are valid. |
-| **CFM_EFFECTS** | **Windows 8**: A combination of the following values: CFM_BOLD | CFM_ITALIC | CFM_UNDERLINE | CFM_COLOR | CFM_STRIKEOUT | CFE_PROTECTED | CFM_LINK |
+| **CFM_EFFECTS** | **Windows 8**: A combination of the following values: CFM_BOLD \| CFM_ITALIC \| CFM_UNDERLINE \| CFM_COLOR \| CFM_STRIKEOUT \| CFE_PROTECTED \| CFM_LINK |
 | **CFM_FACE** | The **szFaceName** member is valid. |
 | **CFM_ITALIC** | The CFE_ITALIC value of the **dwEffects** member is valid. |
 | **CFM_OFFSET** | The **yOffset** member is valid. |

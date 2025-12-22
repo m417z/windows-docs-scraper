@@ -26,7 +26,7 @@ The ISO3166 2-letter country/region codes in the *wCountry* parameter must be su
 
 | C++ |
 | --- |
-| ``` WORD wCountry  =  ( WORD( 'U' ) << 8 ) | 'S'; ``` |
+| ``` WORD wCountry  =  ( WORD( 'U' ) << 8 ) \| 'S'; ``` |
 
 ## See also
 

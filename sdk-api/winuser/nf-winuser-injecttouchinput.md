@@ -32,10 +32,10 @@ There are two input states for touch input injection (interactive and hover) tha
 
 | **pointerFlags (POINTER_FLAG_*)** | Status |
 | --- | --- |
-| INRANGE | UPDATE | Touch hover starts or moves |
-| INRANGE | INCONTACT | DOWN | Touch contact down |
-| INRANGE | INCONTACT | UPDATE | Touch contact moves |
-| INRANGE | UP | Touch contact up and transition to hover |
+| INRANGE \| UPDATE | Touch hover starts or moves |
+| INRANGE \| INCONTACT \| DOWN | Touch contact down |
+| INRANGE \| INCONTACT \| UPDATE | Touch contact moves |
+| INRANGE \| UP | Touch contact up and transition to hover |
 | UPDATE | Touch hover ends |
 | UP | Touch ends |
 

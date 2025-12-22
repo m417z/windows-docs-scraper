@@ -59,8 +59,8 @@ It is possible to test an item for a flag value of **MF_ENABLED**, **MF_STRING**
 
 | Flag | Expression to test for the flag |
 | --- | --- |
-| **MF_ENABLED** | `! (Flag&(MF_DISABLED | MF_GRAYED))` |
-| **MF_STRING** | `! (Flag&(MF_BITMAP | MF_OWNERDRAW))` |
+| **MF_ENABLED** | `! (Flag&(MF_DISABLED \| MF_GRAYED))` |
+| **MF_STRING** | `! (Flag&(MF_BITMAP \| MF_OWNERDRAW))` |
 | **MF_UNCHECKED** | `! (Flag&MF_CHECKED)` |
 | **MF_UNHILITE** | `! (Flag&HILITE)` |
 

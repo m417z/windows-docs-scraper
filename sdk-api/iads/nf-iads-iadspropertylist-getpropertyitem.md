@@ -41,7 +41,7 @@ The property of the [IADsPropertyValue](https://learn.microsoft.com/windows/desk
 | **ADSTYPE_OCTET_STRING** | [OctetString](https://learn.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods) |
 | **ADSTYPE_UTC_TIME** | [UTCTime](https://learn.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods) |
 | **ADSTYPE_LARGE_INTEGER** | [LargeInteger](https://learn.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods) |
-| **ADSTYPE_PROV_SPECIFIC** | Use [IADsPropertyValue2::GetObjectProperty](https://learn.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty) (VT_ARRAY | VT_UI1). |
+| **ADSTYPE_PROV_SPECIFIC** | Use [IADsPropertyValue2::GetObjectProperty](https://learn.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty) (VT_ARRAY \| VT_UI1). |
 | **ADSTYPE_OBJECT_CLASS** | Not available. |
 | **ADSTYPE_CASEIGNORE_LIST** | Use [IADsPropertyValue2::GetObjectProperty](https://learn.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty) (IADsCaseIgnoreList). |
 | **ADSTYPE_OCTET_LIST** | Use [IADsPropertyValue2::GetObjectProperty](https://learn.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty) (IADsOctetList). |

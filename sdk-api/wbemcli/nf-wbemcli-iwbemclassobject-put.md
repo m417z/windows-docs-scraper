@@ -64,7 +64,7 @@ If the variant type specified in *pVal* does not match the CIM type of the prope
 | --- | --- |
 | **VT_I4** | **S_OK** |
 | **VT_I2** | **WBEM_TYPE_MISMATCH** |
-| **VT_R8** | **S_OK**<br><br>However, passing in a **VT_ARRAY**|**VT_R8** to a property of type **uint32**[] will fail. |
+| **VT_R8** | **S_OK**<br><br>However, passing in a **VT_ARRAY**\|**VT_R8** to a property of type **uint32**[] will fail. |
 
 The
 [__CLASS](https://learn.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties) system property is only writable during class creation, when it may not be left blank. All other system properties are read-only.

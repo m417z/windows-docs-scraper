@@ -44,13 +44,13 @@ The flags are optional and can be any of those below. Note: These flags translat
 | Flag | Meaning |
 | --- | --- |
 | - | Sort in reverse order (PDVF_REVERSESORT). |
-| 0 | Show by default in both the primary and secondary lists (PDVF_SHOWBYDEFAULT | PDVF_SHOWINPRIMARYLIST | PDVF_SHOWINSECONDARYLIST). |
-| 1 | Show in the primary and secondary lists (PDVF_SHOWINPRIMARYLIST | PDVF_SHOWINSECONDARYLIST). |
+| 0 | Show by default in both the primary and secondary lists (PDVF_SHOWBYDEFAULT \| PDVF_SHOWINPRIMARYLIST \| PDVF_SHOWINSECONDARYLIST). |
+| 1 | Show in the primary and secondary lists (PDVF_SHOWINPRIMARYLIST \| PDVF_SHOWINSECONDARYLIST). |
 | 2 | Show in secondary list (PDVF_SHOWINSECONDARYLIST). |
 | ^ | Begin a new group (PDVF_BEGINNEWGROUP). |
 | / | Right align (PDVF_RIGHTALIGN). |
 | * | Hide if the value is not present. |
-| | | Center align. (PDVF_CENTERALIGN). |
+| \| | Center align. (PDVF_CENTERALIGN). |
 | ~ | Hide the label. (PDVF_HIDELABEL). |
 | # | Fill area. (PDVF_FILLAREA). |
 | ? | Hide if unsupported by property handler (PDVF_HIDEIFUNSUPPORTED). |

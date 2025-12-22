@@ -107,10 +107,10 @@ The **dwInterlaceFlags** field indicates whether the video is interlaced, and if
 | Display Mode | Interlace Flags | Description |
 | --- | --- | --- |
 | Progressive frames | None | The video stream is not interlaced. |
-| Non-interleaved bob | AMINTERLACE_IsInterlaced |AMINTERLACE_1FieldPerSample |<br><br>AMINTERLACE_DisplayModeBobOnly | The entire video stream is interlaced, and each media sample contains a single video field. |
-| Interleaved bob | AMINTERLACE_IsInterlaced |AMINTERLACE_DisplayModeBobOnly | The entire video stream is interlaced. Each media sample contains two video fields. Flags on the media sample indicate which field to display first. |
-| Weave | AMINTERLACE_IsInterlaced |AMINTERLACE_FieldPatBothRegular |<br><br>AMINTERLACE_DisplayModeWeaveOnly | The video stream is interlaced, and each sample contains two video fields. The fields should not be deinterlaced. |
-| Bob or weave | AMINTERLACE_IsInterlaced |AMINTERLACE_DisplayModeBobOrWeave | The video stream varies between progressive and interlaced content. Each media sample contains either a progressive frame or two video fields. Flags on the media sample indicate the correct way to display the contents. |
+| Non-interleaved bob | AMINTERLACE_IsInterlaced \|AMINTERLACE_1FieldPerSample \|<br><br>AMINTERLACE_DisplayModeBobOnly | The entire video stream is interlaced, and each media sample contains a single video field. |
+| Interleaved bob | AMINTERLACE_IsInterlaced \|AMINTERLACE_DisplayModeBobOnly | The entire video stream is interlaced. Each media sample contains two video fields. Flags on the media sample indicate which field to display first. |
+| Weave | AMINTERLACE_IsInterlaced \|AMINTERLACE_FieldPatBothRegular \|<br><br>AMINTERLACE_DisplayModeWeaveOnly | The video stream is interlaced, and each sample contains two video fields. The fields should not be deinterlaced. |
+| Bob or weave | AMINTERLACE_IsInterlaced \|AMINTERLACE_DisplayModeBobOrWeave | The video stream varies between progressive and interlaced content. Each media sample contains either a progressive frame or two video fields. Flags on the media sample indicate the correct way to display the contents. |
 
 If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the **dwTypeSpecificFlags** member of each media sample's [AM_SAMPLE2_PROPERTIES](https://learn.microsoft.com/windows/win32/api/strmif/ns-strmif-am_sample2_properties) structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call [IMediaSample2::SetProperties](https://learn.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties) on the media sample.
 

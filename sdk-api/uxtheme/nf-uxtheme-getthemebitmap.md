@@ -47,7 +47,7 @@ The flags that specify how the bitmap is to be retrieved. Can be one of the foll
 | --- | --- |
 | **GBF_DIRECT** | Retrieves a handle to the existing bitmap. |
 | **GBF_COPY** | Retrieves a copy of the bitmap. |
-| **GBF_VALIDBITS** | **GBF_DIRECT** | **GBF_COPY** |
+| **GBF_VALIDBITS** | **GBF_DIRECT** \| **GBF_COPY** |
 
 ### `phBitmap` [out]
 

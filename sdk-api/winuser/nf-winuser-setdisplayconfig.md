@@ -39,7 +39,7 @@ A bitwise OR of flag values that indicates the behavior of this function. This p
 | **SDC_TOPOLOGY_INTERNAL**<br><br>0x00000001 | The caller requests the last internal configuration from the persistence database. |
 | **SDC_TOPOLOGY_EXTERNAL**<br><br>0x00000008 | The caller requests the last external configuration from the persistence database. |
 | **SDC_TOPOLOGY_SUPPLIED**<br><br>0x00000010 | The caller provides the path data so the function only queries the persistence database to find and use the source and target mode. |
-| **SDC_USE_DATABASE_CURRENT**<br><br>(SDC_TOPOLOGY_INTERNAL | SDC_TOPOLOGY_CLONE | SDC_TOPOLOGY_EXTEND | SDC_TOPOLOGY_EXTERNAL) | The caller requests a combination of all four SDC_TOPOLOGY_XXX configurations. This value informs the API to set the last known display configuration for the current connected monitors. |
+| **SDC_USE_DATABASE_CURRENT**<br><br>(SDC_TOPOLOGY_INTERNAL \| SDC_TOPOLOGY_CLONE \| SDC_TOPOLOGY_EXTEND \| SDC_TOPOLOGY_EXTERNAL) | The caller requests a combination of all four SDC_TOPOLOGY_XXX configurations. This value informs the API to set the last known display configuration for the current connected monitors. |
 | **SDC_PATH_PERSIST_IF_REQUIRED**<br><br>0x00000800 | When the function processes a SDC_TOPOLOGY_XXX request, it can force path persistence on a target to satisfy the request if necessary. For information about the other flags that this flag can be combined with, see the following list. |
 | **SDC_FORCE_MODE_ENUMERATION**<br><br>0x00001000 | The caller requests that the driver is given an opportunity to update the GDI mode list while **SetDisplayConfig** sets the new display configuration. This flag value is only valid when the SDC_USE_SUPPLIED_DISPLAY_CONFIG and SDC_APPLY flag values are also specified. |
 | **SDC_ALLOW_PATH_ORDER_CHANGES**<br><br>0x00002000 | A modifier to the SDC_TOPOLOGY_SUPPLIED flag that indicates that **SetDisplayConfig** should ignore the path order of the supplied topology when searching the database. When this flag is set, the topology set is the most recent topology that contains all the paths regardless of the path order. |
@@ -99,14 +99,14 @@ The following table provides some common scenarios where **SetDisplayConfig** is
 
 | Scenario | Flag combination |
 | --- | --- |
-| Test whether a specified display configuration is supported on the computer | SDC_VALIDATE | SDC_USE_SUPPLIED_DISPLAY_CONFIG |
-| Set a specified display configuration and save to the database | SDC_APPLY | SDC_USE_SUPPLIED_DISPLAY_CONFIG | SDC_SAVE_TO_DATABASE |
-| Set a temporary display configuration (that is, the display configuration will not be saved) | SDC_APPLY | SDC_USE_SUPPLIED_DISPLAY_CONFIG |
-| Test whether clone is supported on the computer | SDC_VALIDATE | SDC_TOPOLOGY_CLONE |
-| Set clone topology | SDC_APPLY | SDC_TOPOLOGY_CLONE |
-| Set clone topology and allow path persistence to be enabled if required to satisfy the request | SDC_APPLY | SDC_TOPOLOGY_CLONE | SDC_PATH_PERSIST_IF_REQUIRED |
-| Return from a temporary mode to the last saved display configuration | SDC_APPLY| SDC_USE_DATABASE_CURRENT |
-| Given only the path information, set the display configuration with the source and target information from the database for the paths and ignore the path order | SDC_APPLY | SDC_TOPOLOGY_SUPPLIED | SDC_ALLOW_PATH_ORDER_CHANGES |
+| Test whether a specified display configuration is supported on the computer | SDC_VALIDATE \| SDC_USE_SUPPLIED_DISPLAY_CONFIG |
+| Set a specified display configuration and save to the database | SDC_APPLY \| SDC_USE_SUPPLIED_DISPLAY_CONFIG \| SDC_SAVE_TO_DATABASE |
+| Set a temporary display configuration (that is, the display configuration will not be saved) | SDC_APPLY \| SDC_USE_SUPPLIED_DISPLAY_CONFIG |
+| Test whether clone is supported on the computer | SDC_VALIDATE \| SDC_TOPOLOGY_CLONE |
+| Set clone topology | SDC_APPLY \| SDC_TOPOLOGY_CLONE |
+| Set clone topology and allow path persistence to be enabled if required to satisfy the request | SDC_APPLY \| SDC_TOPOLOGY_CLONE \| SDC_PATH_PERSIST_IF_REQUIRED |
+| Return from a temporary mode to the last saved display configuration | SDC_APPLY\| SDC_USE_DATABASE_CURRENT |
+| Given only the path information, set the display configuration with the source and target information from the database for the paths and ignore the path order | SDC_APPLY \| SDC_TOPOLOGY_SUPPLIED \| SDC_ALLOW_PATH_ORDER_CHANGES |
 
 ### DPI Virtualization
 

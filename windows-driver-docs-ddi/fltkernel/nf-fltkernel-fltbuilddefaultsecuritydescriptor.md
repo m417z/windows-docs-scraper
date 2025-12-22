@@ -17,7 +17,7 @@ Bitmask of flags that specify the type of access that the caller requires to the
 | DesiredAccess Flags | Meaning |
 | --- | --- |
 | FLT_PORT_CONNECT | The caller can connect to the port. |
-| FLT_PORT_ALL_ACCESS | FLT_PORT_CONNECT | STANDARD_RIGHTS_ALL |
+| FLT_PORT_ALL_ACCESS | FLT_PORT_CONNECT \| STANDARD_RIGHTS_ALL |
 
 ## Return value
 

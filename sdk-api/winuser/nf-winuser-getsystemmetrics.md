@@ -142,7 +142,7 @@ position and a direction. The starting position can be one of the following valu
 | ARW_BOTTOMLEFT | Start at the lower-left corner of the screen. The default position. |
 | ARW_BOTTOMRIGHT | Start at the lower-right corner of the screen. Equivalent to ARW_STARTRIGHT. |
 | ARW_TOPLEFT | Start at the upper-left corner of the screen. Equivalent to ARW_STARTTOP. |
-| ARW_TOPRIGHT | Start at the upper-right corner of the screen. Equivalent to ARW_STARTTOP | SRW_STARTRIGHT. |
+| ARW_TOPRIGHT | Start at the upper-right corner of the screen. Equivalent to ARW_STARTTOP \| SRW_STARTRIGHT. |
 
 The direction in which to arrange minimized windows can be one of the following values.
 

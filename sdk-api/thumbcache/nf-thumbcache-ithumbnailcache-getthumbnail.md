@@ -79,9 +79,9 @@ The following combinations are valid for the flags parameter.
 | WTS_INCACHEONLY |
 | WTS_FASTEXTRACT |
 | WTS_EXTRACT |
-| WTS_EXTRACT | WTS_SLOWRECLAIM |
+| WTS_EXTRACT \| WTS_SLOWRECLAIM |
 | WTS_FORCEEXTRACTION |
-| WTS_FORCEEXTRACTION | WTS_SLOWRECLAIM |
+| WTS_FORCEEXTRACTION \| WTS_SLOWRECLAIM |
 | WTS_EXTRACTDONOTCACHE |
 
 [GetImage](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemimagefactory-getimage) also uses this cache and can provide an easier way to retrieve the thumbnail. However, **GetImage** is more general and will retrieve an icon as a fallback.

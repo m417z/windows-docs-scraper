@@ -80,8 +80,8 @@ Bit flags containing hints that the CMM uses to interpret the profile data. The 
 
 | Constant | Meaning |
 | --- | --- |
-| |  | | --- | | FLAG_EMBEDDEDPROFILE | | |  | | --- | | The profile is embedded in a bitmap file. | |
-| |  | | --- | | FLAG_DEPENDENTONDATA | | |  | | --- | | The profile can't be used independently of the embedded color data. Used for profiles that are embedded in bitmap files. | |
+| \|  \| \| --- \| \| FLAG_EMBEDDEDPROFILE \| | \|  \| \| --- \| \| The profile is embedded in a bitmap file. \| |
+| \|  \| \| --- \| \| FLAG_DEPENDENTONDATA \| | \|  \| \| --- \| \| The profile can't be used independently of the embedded color data. Used for profiles that are embedded in bitmap files. \| |
 
 ### `phManufacturer`
 

@@ -36,8 +36,8 @@ The access mask of the object.
 | Value | Meaning |
 | --- | --- |
 | WLAN_READ_ACCESS | The caller can view the object's permissions. |
-| WLAN_EXECUTE_ACCESS | The caller can read from and execute the object. WLAN_EXECUTE_ACCESS has the same value as the bitwise OR combination WLAN_READ_ACCESS | WLAN_EXECUTE_ACCESS. |
-| WLAN_WRITE_ACCESS | The caller can read from, execute, and write to the object. WLAN_WRITE_ACCESS has the same value as the bitwise OR combination WLAN_READ_ACCESS | WLAN_EXECUTE_ACCESS | WLAN_WRITE_ACCESS. |
+| WLAN_EXECUTE_ACCESS | The caller can read from and execute the object. WLAN_EXECUTE_ACCESS has the same value as the bitwise OR combination WLAN_READ_ACCESS \| WLAN_EXECUTE_ACCESS. |
+| WLAN_WRITE_ACCESS | The caller can read from, execute, and write to the object. WLAN_WRITE_ACCESS has the same value as the bitwise OR combination WLAN_READ_ACCESS \| WLAN_EXECUTE_ACCESS \| WLAN_WRITE_ACCESS. |
 
 ## Return value
 

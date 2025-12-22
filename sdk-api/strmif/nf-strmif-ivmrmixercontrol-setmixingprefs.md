@@ -28,7 +28,7 @@ You must specify a valid flag for each group. If you want to change a single fla
 
 | C++ |
 | --- |
-| ``` // Get the current mixing preferences. DWORD dwPrefs; pMixControl->GetMixingPrefs(&dwPrefs);  <br><br>// Remove the current render target flag. dwPrefs &= ~MixerPref_RenderTargetMask; <br><br>// Add the render target flag that we want. dwPrefs |= MixerPref_RenderTargetYUV;<br><br>// Set the new flags. pMixControl->SetMixingPrefs(dwPrefs); ``` |
+| ``` // Get the current mixing preferences. DWORD dwPrefs; pMixControl->GetMixingPrefs(&dwPrefs);  <br><br>// Remove the current render target flag. dwPrefs &= ~MixerPref_RenderTargetMask; <br><br>// Add the render target flag that we want. dwPrefs \|= MixerPref_RenderTargetYUV;<br><br>// Set the new flags. pMixControl->SetMixingPrefs(dwPrefs); ``` |
 
 If the VMR is in renderless mode, you must set the allocator-presenter before calling `SetMixingPrefs`. Otherwise, the VMR cannot determine the capabilities of the Direct3D device.
 

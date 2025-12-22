@@ -56,8 +56,8 @@ The flags that restrict the data type of value to be queried. If the data type o
 | Value | Meaning |
 | --- | --- |
 | **RRF_RT_ANY**<br><br>0x0000ffff | No type restriction. |
-| **RRF_RT_DWORD**<br><br>0x00000018 | Restrict type to 32-bit RRF_RT_REG_BINARY | RRF_RT_REG_DWORD. |
-| **RRF_RT_QWORD**<br><br>0x00000048 | Restrict type to 64-bit RRF_RT_REG_BINARY | RRF_RT_REG_QWORD. |
+| **RRF_RT_DWORD**<br><br>0x00000018 | Restrict type to 32-bit RRF_RT_REG_BINARY \| RRF_RT_REG_DWORD. |
+| **RRF_RT_QWORD**<br><br>0x00000048 | Restrict type to 64-bit RRF_RT_REG_BINARY \| RRF_RT_REG_QWORD. |
 | **RRF_RT_REG_BINARY**<br><br>0x00000008 | Restrict type to REG_BINARY. |
 | **RRF_RT_REG_DWORD**<br><br>0x00000010 | Restrict type to REG_DWORD. |
 | **RRF_RT_REG_EXPAND_SZ**<br><br>0x00000004 | Restrict type to REG_EXPAND_SZ. |

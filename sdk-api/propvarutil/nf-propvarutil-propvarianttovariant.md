@@ -33,7 +33,7 @@ Normally, the data stored in the [PROPVARIANT](https://learn.microsoft.com/windo
 | VT_BLOB, VT_STREAM | VT_UNKNOWN. The **punkVal** member will contain a pointer to an [IStream](https://learn.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) that contains the source data. |
 | VT_LPSTR, VT_LPWSTR, VT_CLSID | VT_BSTR |
 | VT_FILETIME | VT_DATE |
-| VT_VECTOR|x | VT_ARRAY|y |
+| VT_VECTOR\|x | VT_ARRAY\|y |
 
 The following types cannot be converted with this function.
 

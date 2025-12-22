@@ -69,7 +69,7 @@ The following characters, if entered for the common name of the CA during setup,
 | Opening parenthesis | ( | !0028 |
 | Closing parenthesis | ) | !0029 |
 | Percent | % | !0025 |
-| Pipe | | | !007c |
+| Pipe | \| | !007c |
 | Plus sign | + | !002b |
 | Question mark | ? | !003f |
 | Quotation mark | " | !0022 |

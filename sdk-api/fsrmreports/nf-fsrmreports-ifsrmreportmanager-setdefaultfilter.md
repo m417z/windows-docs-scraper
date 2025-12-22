@@ -32,13 +32,13 @@ The following list lists the variant types associated with the [FsrmReportFilter
 
 | Filter type | Variant type |
 | --- | --- |
-| **FsrmReportFilter_FileGroups** | **VT_BSTR** | **VT_ARRAY**. Set the **parray** member of the variant. |
+| **FsrmReportFilter_FileGroups** | **VT_BSTR** \| **VT_ARRAY**. Set the **parray** member of the variant. |
 | **FsrmReportFilter_MinAgeDays** | **VT_I4**. Set the **lVal** member of the variant. |
 | **FsrmReportFilter_MaxAgeDays** | **VT_I4**. Set the **lVal** member of the variant. |
 | **FsrmReportFilter_MinQuotaUsage** | **VT_I4**. Set the **lVal** member of the variant. |
 | **FsrmReportFilter_MinSize** | **VT_I8**. Set the **llVal** member of the variant. |
 | **FsrmReportFilter_NamePattern** | **VT_BSTR**. Set the **bstrVal** member of the variant. |
-| **FsrmReportFilter_Owners** | **VT_BSTR** | **VT_ARRAY**. Set the **parray** member of the variant. |
+| **FsrmReportFilter_Owners** | **VT_BSTR** \| **VT_ARRAY**. Set the **parray** member of the variant. |
 | **FsrmReportFilter_Property** | **VT_BSTR**. Set the **bstrVal** member of the variant. |
 
 The default filter values are used for report actions.

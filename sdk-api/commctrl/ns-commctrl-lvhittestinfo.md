@@ -39,7 +39,7 @@ You can test for LVHT_ONITEM to determine whether a specified position is over a
 | **LVHT_EX_GROUP_BACKGROUND** | **Windows Vista.** The point is within the area of the group where items are displayed. |
 | **LVHT_EX_GROUP_STATEICON** | **Windows Vista.** The point is within the state icon of the group. |
 | **LVHT_EX_GROUP_SUBSETLINK** | **Windows Vista.** The point is within the subset link of the group. |
-| **LVHT_EX_GROUP** | **Windows Vista.** LVHT_EX_GROUP_BACKGROUND | LVHT_EX_GROUP_COLLAPSE | LVHT_EX_GROUP_FOOTER | LVHT_EX_GROUP_HEADER | LVHT_EX_GROUP_STATEICON | LVHT_EX_GROUP_SUBSETLINK. |
+| **LVHT_EX_GROUP** | **Windows Vista.** LVHT_EX_GROUP_BACKGROUND \| LVHT_EX_GROUP_COLLAPSE \| LVHT_EX_GROUP_FOOTER \| LVHT_EX_GROUP_HEADER \| LVHT_EX_GROUP_STATEICON \| LVHT_EX_GROUP_SUBSETLINK. |
 | **LVHT_EX_ONCONTENTS** | **Windows Vista.** The point is within the icon or text content of the item and not on the background. |
 | **LVHT_EX_FOOTER** | **Windows Vista.** The point is within the footer of the list-view control. |
 

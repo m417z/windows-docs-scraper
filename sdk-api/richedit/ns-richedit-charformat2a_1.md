@@ -24,17 +24,17 @@ Set the following values to indicate the valid attributes of the **dwEffects** m
 
 | Value | Meaning |
 | --- | --- |
-| **CFM_ALL** | A combination of the following values: **CFM_EFFECTS** | **CFM_SIZE** | **CFM_FACE** | **CFM_OFFSET** | **CFM_CHARSET** |
-| **CFM_ALL2** | A combination of the following values: **CFM_ALL** | **CFM_EFFECTS2** | **CFM_BACKCOLOR** | **CFM_LCID** | **CFM_UNDERLINETYPE** | **CFM_WEIGHT** | **CFM_REVAUTHOR** | **CFM_SPACING** | **CFM_KERNING** | **CFM_STYLE** | **CFM_ANIMATION** | **CFM_COOKIE** |
+| **CFM_ALL** | A combination of the following values: **CFM_EFFECTS** \| **CFM_SIZE** \| **CFM_FACE** \| **CFM_OFFSET** \| **CFM_CHARSET** |
+| **CFM_ALL2** | A combination of the following values: **CFM_ALL** \| **CFM_EFFECTS2** \| **CFM_BACKCOLOR** \| **CFM_LCID** \| **CFM_UNDERLINETYPE** \| **CFM_WEIGHT** \| **CFM_REVAUTHOR** \| **CFM_SPACING** \| **CFM_KERNING** \| **CFM_STYLE** \| **CFM_ANIMATION** \| **CFM_COOKIE** |
 | **CFM_ALLCAPS** | The **CFE_ALLCAPS** value is valid. |
-| **CFM_EFFECTS** | A combination of the following values: **CFM_EFFECTS2** | **CFM_FONTBOUND** | **CFM_EXTENDED** | **CFM_MATHNOBUILDUP** | **CFM_MATH** | **CFM_MATHORDINARY** |
+| **CFM_EFFECTS** | A combination of the following values: **CFM_EFFECTS2** \| **CFM_FONTBOUND** \| **CFM_EXTENDED** \| **CFM_MATHNOBUILDUP** \| **CFM_MATH** \| **CFM_MATHORDINARY** |
 | **CFM_BOLD** | The **CFE_BOLD** value is valid. |
 | **CFM_COLOR** | The **CFE_AUTOCOLOR** value is valid, or the **crTextColor** member is valid. |
 | **CFM_COOKIE** | The **dwCookie** value is valid. |
 | **CFM_DISABLED** | The **CFE_DISABLED** value is valid. |
 | **CFM_EXTENDED** | The **CFE_EXTENDED** value is valid. |
-| **CFM_EFFECTS** | A combination of the following values: **CFM_BOLD** | **CFM_ITALIC** | **CFM_UNDERLINE** | **CFM_COLOR** | **CFM_STRIKEOUT** | **CFE_PROTECTED** | **CFM_LINK** |
-| **CFM_EFFECTS2** | A combination of the following values: **CFM_EFFECTS** | **CFM_DISABLED** | **CFM_SMALLCAPS** | **CFM_ALLCAPS** | **CFM_HIDDEN** | **CFM_OUTLINE** | **CFM_SHADOW** | **CFM_EMBOSS** | **CFM_IMPRINT** | **CFM_REVISED** | **CFM_SUBSCRIPT** | **CFM_SUPERSCRIPT** | **CFM_BACKCOLOR** |
+| **CFM_EFFECTS** | A combination of the following values: **CFM_BOLD** \| **CFM_ITALIC** \| **CFM_UNDERLINE** \| **CFM_COLOR** \| **CFM_STRIKEOUT** \| **CFE_PROTECTED** \| **CFM_LINK** |
+| **CFM_EFFECTS2** | A combination of the following values: **CFM_EFFECTS** \| **CFM_DISABLED** \| **CFM_SMALLCAPS** \| **CFM_ALLCAPS** \| **CFM_HIDDEN** \| **CFM_OUTLINE** \| **CFM_SHADOW** \| **CFM_EMBOSS** \| **CFM_IMPRINT** \| **CFM_REVISED** \| **CFM_SUBSCRIPT** \| **CFM_SUPERSCRIPT** \| **CFM_BACKCOLOR** |
 | **CFM_EMBOSS** | The **CFE_EMBOSS** value is valid. |
 | **CFM_FONTBOUND** | The **CFE_FONTBOUND** value is valid. |
 | **CFM_HIDDEN** | The **CFE_HIDDEN** value is valid. |

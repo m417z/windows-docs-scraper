@@ -19,7 +19,7 @@ The type of access to a file mapping object, which determines the page protectio
 | --- | --- |
 | **FILE_MAP_ALL_ACCESS** | A read/write view of the file is mapped. The file mapping object must have been created with **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE** protection.<br><br>When used with **MapViewOfFileExNuma**, **FILE_MAP_ALL_ACCESS** is equivalent to **FILE_MAP_WRITE**. |
 | **FILE_MAP_READ** | A read-only view of the file is mapped. An attempt to write to the file view results in an access violation.<br><br>The file mapping object must have been created with **PAGE_READONLY**, **PAGE_READWRITE**, **PAGE_EXECUTE_READ**, or **PAGE_EXECUTE_READWRITE** protection. |
-| **FILE_MAP_WRITE** | A read/write view of the file is mapped. The file mapping object must have been created with **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE** protection.<br><br>When used with **MapViewOfFileExNuma**, `(FILE_MAP_WRITE | FILE_MAP_READ)` is equivalent to **FILE_MAP_WRITE**. |
+| **FILE_MAP_WRITE** | A read/write view of the file is mapped. The file mapping object must have been created with **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE** protection.<br><br>When used with **MapViewOfFileExNuma**, `(FILE_MAP_WRITE \| FILE_MAP_READ)` is equivalent to **FILE_MAP_WRITE**. |
 
 Using bitwise OR, you can combine the values above with these values.
 

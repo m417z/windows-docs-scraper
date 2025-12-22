@@ -40,7 +40,7 @@ XAPO property flags that describe the general characteristics of process behavio
 | XAPO_FLAG_FRAMERATE_MUST_MATCH | Framerate of input and output streams must match. |
 | XAPO_FLAG_BITSPERSAMPLE_MUST_MATCH | Bit depth and container size of input and output streams must match. |
 | XAPO_FLAG_BUFFERCOUNT_MUST_MATCH | Number of input and output buffers must match, applies to [XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS](https://learn.microsoft.com/windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters). When the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag is set **XAPO_REGISTRATION_PROPERTIES**.**MinInputBufferCount** must equal **XAPO_REGISTRATION_PROPERTIES**.**MinOutputBufferCount** and **XAPO_REGISTRATION_PROPERTIES**.**MaxInputBufferCount** must equal **XAPO_REGISTRATION_PROPERTIES**.**MaxOutputBufferCount**. |
-| XAPOBASE_DEFAULT_FLAG | XAPO_FLAG_CHANNELS_MUST_MATCH | XAPO_FLAG_FRAMERATE_MUST_MATCH | XAPO_FLAG_BITSPERSAMPLE_MUST_MATCH | XAPO_FLAG_BUFFERCOUNT_MUST_MATCH | XAPO_FLAG_INPLACE_SUPPORTED |
+| XAPOBASE_DEFAULT_FLAG | XAPO_FLAG_CHANNELS_MUST_MATCH \| XAPO_FLAG_FRAMERATE_MUST_MATCH \| XAPO_FLAG_BITSPERSAMPLE_MUST_MATCH \| XAPO_FLAG_BUFFERCOUNT_MUST_MATCH \| XAPO_FLAG_INPLACE_SUPPORTED |
 
 ### `MinInputBufferCount`
 

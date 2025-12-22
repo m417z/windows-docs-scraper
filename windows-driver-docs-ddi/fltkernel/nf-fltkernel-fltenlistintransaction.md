@@ -29,7 +29,7 @@ Specifies the type of notifications that the filter manager is to send to the mi
 | TRANSACTION_NOTIFY_PREPARE | This notification is sent when the transaction has entered the prepare for commit phase. |
 | TRANSACTION_NOTIFY_PREPREPARE | This notification is sent when the transaction has entered the pre-prepare for commit phase. |
 | TRANSACTION_NOTIFY_ROLLBACK | This notification is sent when the transaction is being rolled back or aborted. |
-| FLT_MAX_TRANSACTION_NOTIFICATIONS | TRANSACTION_NOTIFY_COMMIT | TRANSACTION_NOTIFY_PREPARE | TRANSACTION_NOTIFY_PREPREPARE | TRANSACTION_NOTIFY_ROLLBACK |
+| FLT_MAX_TRANSACTION_NOTIFICATIONS | TRANSACTION_NOTIFY_COMMIT \| TRANSACTION_NOTIFY_PREPARE \| TRANSACTION_NOTIFY_PREPREPARE \| TRANSACTION_NOTIFY_ROLLBACK |
 
 ## Return value
 

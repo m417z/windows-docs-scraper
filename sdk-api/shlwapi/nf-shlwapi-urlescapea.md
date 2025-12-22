@@ -101,7 +101,7 @@ Unsafe characters are those characters that might be altered during transport ac
 | ` | %60 |
 | { | %7B |
 | } | %7D |
-| | | %7C |
+| \| | %7C |
 | ] | %5D |
 | [ | %5B |
 | " | %22 |

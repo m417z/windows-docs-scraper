@@ -104,7 +104,7 @@ For more information about using methods semisynchronously, see [IWbemServices::
 | --- | --- |
 | **__PUT_EXTENSIONS**<br><br>(**VT_BOOL**) | The client application has set one or more of the other system context values to provide more information about the update operation. |
 | **__PUT_EXT_STRICT_NULLS**<br><br>(**VT_BOOL**) | The instance provider must force the setting of properties to **VT_NULL** when appropriate and raise an error on failure. |
-| **__PUT_EXT_PROPERTIES**<br><br>(**VT_ARRAY** | **VT_BSTR**) | Contains a list of the properties to update. The instance provider should ignore all other properties. |
+| **__PUT_EXT_PROPERTIES**<br><br>(**VT_ARRAY** \| **VT_BSTR**) | Contains a list of the properties to update. The instance provider should ignore all other properties. |
 | **__PUT_EXT_ATOMIC**<br><br>(**VT_BOOL**) | All updates must succeed or the instance provider must revert back. There can be no partial success. |
 
 When implementing an instance provider, you should respond to a **NULL** property in *pCtx* in the following manner:

@@ -571,8 +571,8 @@ calling process must be attached to an inherited console or one allocated by the
 | Parameters | Value |
 | --- | --- |
 | *lpFileName* | Use the CONIN$ value to specify console input.<br><br>Use the CONOUT$ value to specify console output.<br><br>CONIN$ gets a handle to the console input buffer, even if the [SetStdHandle](https://learn.microsoft.com/windows/console/setstdhandle) function redirects the standard input handle. To get the standard input handle, use the [GetStdHandle](https://learn.microsoft.com/windows/console/getstdhandle) function.<br><br>CONOUT$ gets a handle to the active screen buffer, even if [SetStdHandle](https://learn.microsoft.com/windows/console/setstdhandle) redirects the standard output handle. To get the standard output handle, use [GetStdHandle](https://learn.microsoft.com/windows/console/getstdhandle). |
-| *dwDesiredAccess* | `GENERIC_READ | GENERIC_WRITE` is preferred, but either one can limit access. |
-| *dwShareMode* | When opening CONIN$, specify **FILE_SHARE_READ**. When opening CONOUT$, specify **FILE_SHARE_WRITE**.<br><br>If the calling process inherits the console, or if a child process should be able to access the console, this parameter must be `FILE_SHARE_READ | FILE_SHARE_WRITE`. |
+| *dwDesiredAccess* | `GENERIC_READ \| GENERIC_WRITE` is preferred, but either one can limit access. |
+| *dwShareMode* | When opening CONIN$, specify **FILE_SHARE_READ**. When opening CONOUT$, specify **FILE_SHARE_WRITE**.<br><br>If the calling process inherits the console, or if a child process should be able to access the console, this parameter must be `FILE_SHARE_READ \| FILE_SHARE_WRITE`. |
 | *lpSecurityAttributes* | If you want the console to be inherited, the **bInheritHandle** member of the [SECURITY_ATTRIBUTES](https://learn.microsoft.com/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes) structure must be **TRUE**. |
 | *dwCreationDisposition* | You should specify **OPEN_EXISTING** when using **CreateFile** to open the console. |
 | *dwFlagsAndAttributes* | Ignored. |
@@ -585,7 +585,7 @@ The following table shows various settings of *dwDesiredAccess* and
 | --- | --- | --- |
 | "CON" | **GENERIC_READ** | Opens console for input. |
 | "CON" | **GENERIC_WRITE** | Opens console for output. |
-| "CON" | `GENERIC_READ | GENERIC_WRITE` | Causes **CreateFile** to fail; [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_FILE_NOT_FOUND**. |
+| "CON" | `GENERIC_READ \| GENERIC_WRITE` | Causes **CreateFile** to fail; [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_FILE_NOT_FOUND**. |
 
 ### Mailslots
 

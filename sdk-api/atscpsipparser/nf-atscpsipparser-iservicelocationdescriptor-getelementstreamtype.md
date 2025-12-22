@@ -19,8 +19,8 @@ Receives the element stream type code. This can be any of the following values:
 
 | Value | Meaning |
 | --- | --- |
-| 0x00 | ITU-T | ISO/IEC Reserved. |
-| 0x01-0x7F | As specified in Table 2.29 (Stream type assignments) of *ITU-T Rec. H.222.0 | ISO/IEC 13818-1:1996, Information Technology Generic coding of moving pictures and associated audio Part 1: Systems (normative)*. |
+| 0x00 | ITU-T \| ISO/IEC Reserved. |
+| 0x01-0x7F | As specified in Table 2.29 (Stream type assignments) of *ITU-T Rec. H.222.0 \| ISO/IEC 13818-1:1996, Information Technology Generic coding of moving pictures and associated audio Part 1: Systems (normative)*. |
 | 0x80 | [Used in other systems.] |
 | 0x81 | ATSC A/53 audio. |
 | 0x82-0x84 | [Used in other systems.] |

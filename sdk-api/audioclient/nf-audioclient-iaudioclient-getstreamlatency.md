@@ -17,7 +17,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 | Return code | Description |
 | --- | --- |
 | **AUDCLNT_E_NOT_INITIALIZED** | The audio stream has not been successfully initialized. |
-| **AUDCLNT_E_DEVICE_INVALIDATED** | **AUDCLNT_E_RESOURCES_INVALIDATED** | The stream's resources have been invalidated. This error may be thrown for the following reasons:\<br>- The stream is suspended.\<br>- An Exclusive or Offload stream is disconnected.\<br>- A packaged application that has an exclusive mode or offload stream is quiesced.\<br>- A "protected output" stream is closed.\ | | The audio endpoint device has been unplugged, or the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use. |
+| **AUDCLNT_E_DEVICE_INVALIDATED** \| **AUDCLNT_E_RESOURCES_INVALIDATED** \| The stream's resources have been invalidated. This error may be thrown for the following reasons:\<br>- The stream is suspended.\<br>- An Exclusive or Offload stream is disconnected.\<br>- A packaged application that has an exclusive mode or offload stream is quiesced.\<br>- A "protected output" stream is closed.\ \| | The audio endpoint device has been unplugged, or the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use. |
 | **AUDCLNT_E_SERVICE_NOT_RUNNING** | The Windows audio service is not running. |
 | **E_POINTER** | Parameter *phnsLatency* is **NULL**. |
 

@@ -15,8 +15,8 @@ Pointer to a **WCHAR****NULL**-terminated string constant containing the name of
 | Value | Description |
 | --- | --- |
 | PLUGIN_MISC_CURRENTPRESET = L"CurrentPreset" | The *pvarProperty* parameter contains a **Long** (**VT_I4**) value that specifies the index of the plug-in preset which is to be made current. |
-| PLUGIN_ALL_MEDIASENDTO = L"MediaSendTo" | The *pvarProperty* parameter contains an array of **IUnknown** (**VT_ARRAY** | **VT_UNKNOWN**) pointers for **Media** objects that are sent to the plug-in from the Playlist control. |
-| PLUGIN_ALL_PLAYLISTSENDTO = L"PlaylistSendTo" | The *pvarProperty* parameter contains an array of **IUnknown** (**VT_ARRAY** | **VT_UNKNOWN**) pointers for **Playlist** objects that are sent to the plug-in from the library. |
+| PLUGIN_ALL_MEDIASENDTO = L"MediaSendTo" | The *pvarProperty* parameter contains an array of **IUnknown** (**VT_ARRAY** \| **VT_UNKNOWN**) pointers for **Media** objects that are sent to the plug-in from the Playlist control. |
+| PLUGIN_ALL_PLAYLISTSENDTO = L"PlaylistSendTo" | The *pvarProperty* parameter contains an array of **IUnknown** (**VT_ARRAY** \| **VT_UNKNOWN**) pointers for **Playlist** objects that are sent to the plug-in from the library. |
 
 ### `pvarProperty` [in]
 

@@ -51,8 +51,8 @@ This method creates a property bag and returns a pointer to the **IPropertyBag**
 | --- | --- |
 | **IPropertyBag::Read** | KEY_READ |
 | **IPropertyBag::Write** | KEY_WRITE |
-| **IPropertyBag2::CountProperties** | KEY_QUERY_VALUE | KEY_ENUMERATE_SUB_KEYS |
-| **IPropertyBag2::GetPropertyInfo** | KEY_QUERY_VALUE | KEY_ENUMERATE_SUB_KEYS |
+| **IPropertyBag2::CountProperties** | KEY_QUERY_VALUE \| KEY_ENUMERATE_SUB_KEYS |
+| **IPropertyBag2::GetPropertyInfo** | KEY_QUERY_VALUE \| KEY_ENUMERATE_SUB_KEYS |
 
 If you write a value of VT_EMPTY or VT_NULL the property is removed from the bag and the corresponding registry values are deleted.
 

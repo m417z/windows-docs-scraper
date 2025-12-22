@@ -101,7 +101,7 @@ If the property key does not correspond to a property description in any of the 
 | VT_FILETIME | Date/time string as specified by [PROPDESC_FORMAT_FLAGS](https://learn.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags) and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM". |
 | Numeric VARTYPE | Decimal string in the current locale. For example, "42". |
 | VT_LPWSTR or other | Converted to a string. Sequences of "\r", "\t", or "\n" are replaced with a single space. |
-| VT_VECTOR | anything | Semicolon separated values. A semicolon is used regardless of locale. |
+| VT_VECTOR \| anything | Semicolon separated values. A semicolon is used regardless of locale. |
 
 #### Examples
 

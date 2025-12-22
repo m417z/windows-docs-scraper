@@ -47,7 +47,7 @@ The following variant types are supported for property values. The following tab
 | VT_UI4 |
 | VT_UINT |
 | VT_BLOB | The binary value is returned as VT_BLOB. |
-| VT_VECTOR | VT_LPWSTR | The string array is returned as VT_VECTOR | VT_LPWSTR |
+| VT_VECTOR \| VT_LPWSTR | The string array is returned as VT_VECTOR \| VT_LPWSTR |
 
 A string that contains environment variables is expanded on read.
 

@@ -33,7 +33,7 @@ The following code example shows how to find out whether the stream supports for
 
 | C++ |
 | --- |
-| ``` // Set flags for the capabilities you want to check.<br><br>DWORD dwCaps = AM_SEEKING_CanSeekAbsolute |                 AM_SEEKING_CanSeekForwards |                AM_SEEKING_CanSeekBackwards;<br><br>HRESULT hr = pMediaSeeking->CheckCapabilities(&dwCaps); if(FAILED(hr))  {     // The stream cannot seek. } else if (hr == S_OK)  {        // The stream can seek forward, backward, and to an absolute position. } else if (hr == S_FALSE) // The stream has some of the capabilities. {     if (dwCaps & AM_SEEKING_CanSeekAbsolute)     {         // The stream can seek to an absolute position.     }     if (dwCaps & AM_SEEKING_CanSeekForwards)     {         // The stream can seek forward.     }     if (dwCaps & AM_SEEKING_CanSeekBackwards)     {         // The stream can seek backward.     } } ``` |
+| ``` // Set flags for the capabilities you want to check.<br><br>DWORD dwCaps = AM_SEEKING_CanSeekAbsolute \|                 AM_SEEKING_CanSeekForwards \|                AM_SEEKING_CanSeekBackwards;<br><br>HRESULT hr = pMediaSeeking->CheckCapabilities(&dwCaps); if(FAILED(hr))  {     // The stream cannot seek. } else if (hr == S_OK)  {        // The stream can seek forward, backward, and to an absolute position. } else if (hr == S_FALSE) // The stream has some of the capabilities. {     if (dwCaps & AM_SEEKING_CanSeekAbsolute)     {         // The stream can seek to an absolute position.     }     if (dwCaps & AM_SEEKING_CanSeekForwards)     {         // The stream can seek forward.     }     if (dwCaps & AM_SEEKING_CanSeekBackwards)     {         // The stream can seek backward.     } } ``` |
 
 ## See also
 

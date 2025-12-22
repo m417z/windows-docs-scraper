@@ -54,7 +54,7 @@ To examine the nonzero values for troubleshooting purposes, they largely map to 
 | DE_ERROR_MAX | 0xB7 | MAX_PATH was exceeded during the operation. |
 |  | 0x402 | An unknown error occurred. This is typically due to an invalid path in the source or destination. This error does not occur on Windows Vista and later. |
 | ERRORONDEST | 0x10000 | An unspecified error occurred on the destination. |
-| DE_ROOTDIR | ERRORONDEST | 0x10074 | Destination is a root directory and cannot be renamed. |
+| DE_ROOTDIR \| ERRORONDEST | 0x10074 | Destination is a root directory and cannot be renamed. |
 
 ## Remarks
 

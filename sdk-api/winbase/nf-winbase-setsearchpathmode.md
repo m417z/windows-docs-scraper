@@ -15,7 +15,7 @@ The search mode to use.
 | --- | --- |
 | **BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE**<br><br>0x00000001 | Enable safe process search mode for the process. |
 | **BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE**<br><br>0x00010000 | Disable safe process search mode for the process. |
-| **BASE_SEARCH_PATH_PERMANENT**<br><br>0x00008000 | Optional flag to use in combination with **BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE** to make this mode permanent for this process. This is done by bitwise **OR** operation:<br><br>`(BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE | BASE_SEARCH_PATH_PERMANENT)`<br><br>This flag cannot be combined with the **BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE** flag. |
+| **BASE_SEARCH_PATH_PERMANENT**<br><br>0x00008000 | Optional flag to use in combination with **BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE** to make this mode permanent for this process. This is done by bitwise **OR** operation:<br><br>`(BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE \| BASE_SEARCH_PATH_PERMANENT)`<br><br>This flag cannot be combined with the **BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE** flag. |
 
 ## Return value
 

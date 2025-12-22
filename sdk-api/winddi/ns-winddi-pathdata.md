@@ -12,7 +12,7 @@ Flags describing the data returned are defined as follows:
 
 | Value | Meaning |
 | --- | --- |
-| PD_ALL | This flag is the ORed combination of the other flags in this table. That is, PD_ALL == PD_BEGINSUBPATH | PD_ENDSUBPATH | PD_RESETSTYLE | PD_CLOSEFIGURE | PD_BEZIERS. |
+| PD_ALL | This flag is the ORed combination of the other flags in this table. That is, PD_ALL == PD_BEGINSUBPATH \| PD_ENDSUBPATH \| PD_RESETSTYLE \| PD_CLOSEFIGURE \| PD_BEZIERS. |
 | PD_BEGINSUBPATH | The first point begins a new subpath. It is not connected to the previous subpath. If this flag is not set, the starting point for the first curve to be drawn from this data is the last point returned in the previous call. |
 | PD_BEZIERS | If set, each set of three control points returned for this call describes a Bezier curve. If clear, each control point describes a line segment. A starting point for either type is either explicit at the beginning of the subpath, or implicit as the endpoint of the previous curve. |
 | PD_CLOSEFIGURE | This bit is only defined if the record ends a subpath. If set, there is an implicit line segment connecting the last point of the subpath with the first point. If such a closed subpath is being stroked, joins are used all around the path, and there are no end caps. If this flag is not set, the subpath is considered open, even if the first and last points happen to coincide. In that case, end caps should be drawn. This flag is not relevant to filling because all subpaths are assumed closed when a path is filled. |

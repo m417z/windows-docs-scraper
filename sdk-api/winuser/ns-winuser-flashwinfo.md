@@ -20,7 +20,7 @@ The flash status. This parameter can be one or more of the following values.
 
 | Value | Meaning |
 | --- | --- |
-| **FLASHW_ALL**<br><br>0x00000003 | Flash both the window caption and taskbar button. This is equivalent to setting the FLASHW_CAPTION | FLASHW_TRAY flags. |
+| **FLASHW_ALL**<br><br>0x00000003 | Flash both the window caption and taskbar button. This is equivalent to setting the FLASHW_CAPTION \| FLASHW_TRAY flags. |
 | **FLASHW_CAPTION**<br><br>0x00000001 | Flash the window caption. |
 | **FLASHW_STOP**<br><br>0 | Stop flashing. The system restores the window to its original state. |
 | **FLASHW_TIMER**<br><br>0x00000004 | Flash continuously, until the FLASHW_STOP flag is set. |

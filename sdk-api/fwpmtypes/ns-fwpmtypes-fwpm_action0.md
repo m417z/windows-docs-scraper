@@ -14,11 +14,11 @@ Possible values:
 
 | Value | Meaning |
 | --- | --- |
-| **FWP_ACTION_BLOCK** | Block the traffic. <br><br>0x00000001 | FWP_ACTION_FLAG_TERMINATING |
-| **FWP_ACTION_PERMIT** | Permit the traffic.<br><br>0x00000002 | FWP_ACTION_FLAG_TERMINATING |
-| **FWP_ACTION_CALLOUT_TERMINATING** | Invoke a callout that always returns block or permit.<br><br>0x00000003 | FWP_ACTION_FLAG_CALLOUT | FWP_ACTION_FLAG_TERMINATING |
-| **FWP_ACTION_CALLOUT_INSPECTION** | Invoke a callout that never returns block or permit.<br><br>0x00000004 | FWP_ACTION_FLAG_CALLOUT | FWP_ACTION_FLAG_NON_TERMINATING |
-| **FWP_ACTION_CALLOUT_UNKNOWN** | Invoke a callout that may return block or permit.<br><br>0x00000005 | FWP_ACTION_FLAG_CALLOUT |
+| **FWP_ACTION_BLOCK** | Block the traffic. <br><br>0x00000001 \| FWP_ACTION_FLAG_TERMINATING |
+| **FWP_ACTION_PERMIT** | Permit the traffic.<br><br>0x00000002 \| FWP_ACTION_FLAG_TERMINATING |
+| **FWP_ACTION_CALLOUT_TERMINATING** | Invoke a callout that always returns block or permit.<br><br>0x00000003 \| FWP_ACTION_FLAG_CALLOUT \| FWP_ACTION_FLAG_TERMINATING |
+| **FWP_ACTION_CALLOUT_INSPECTION** | Invoke a callout that never returns block or permit.<br><br>0x00000004 \| FWP_ACTION_FLAG_CALLOUT \| FWP_ACTION_FLAG_NON_TERMINATING |
+| **FWP_ACTION_CALLOUT_UNKNOWN** | Invoke a callout that may return block or permit.<br><br>0x00000005 \| FWP_ACTION_FLAG_CALLOUT |
 
 ### `filterType`
 

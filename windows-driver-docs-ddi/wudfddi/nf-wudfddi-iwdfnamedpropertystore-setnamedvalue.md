@@ -37,7 +37,7 @@ The following variant types are supported for property values. The following tab
 | VT_UI4 |
 | VT_UINT |
 | VT_BLOB | Writes a binary value. |
-| VT_VECTOR | VT_LPWSTR | Writes a string array. |
+| VT_VECTOR \| VT_LPWSTR | Writes a string array. |
 
 For more information, see [Using the Registry in UMDF-based Drivers](https://learn.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers).
 

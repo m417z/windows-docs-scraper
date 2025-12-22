@@ -33,7 +33,7 @@ Returns one of the following values:
 | Return code | Description |
 | --- | --- |
 | **S_OK** | Data successfully extracted. |
-| **E_INVALIDARG** | The [VARIANT](https://learn.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant) was not of type VT_ARRRAY | VT_UI1. |
+| **E_INVALIDARG** | The [VARIANT](https://learn.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant) was not of type VT_ARRRAY \| VT_UI1. |
 | **E_FAIL** | The [VARIANT](https://learn.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant) buffer value had fewer than *cb* bytes. |
 
 ## Remarks

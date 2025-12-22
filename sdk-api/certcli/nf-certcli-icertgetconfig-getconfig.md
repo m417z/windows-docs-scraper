@@ -49,7 +49,7 @@ The following characters, if entered for the common name of the CA during setup,
 | / | !002f |
 | \ | !005c |
 | : | !003a |
-| | | !007c |
+| \| | !007c |
 | ? | !003f |
 | * | !002a |
 | # | !0023 |

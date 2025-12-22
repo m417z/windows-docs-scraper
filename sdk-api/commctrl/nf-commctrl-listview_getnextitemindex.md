@@ -51,13 +51,13 @@ The relationship to the item specified in parameter
 | LVNI_TOLEFT | Searches for an item to the left of the specified item. |
 | LVNI_PREVIOUS | **Windows Vista and later:** Searches for the item that is previous to the specified item. The LVNI_PREVIOUS flag is not directional (LVNI_ABOVE will find the item positioned above, while LVNI_PREVIOUS will find the item ordered before.) The LVNI_PREVIOUS flag essentially reverses the logic of the search performed via the LVM_GETNEXTITEM or LVM_GETNEXTITEMINDEX messages. |
 | LVNI_TORIGHT | Searches for an item to the right of the specified item. |
-| LVNI_DIRECTIONMASK | **Windows Vista and later:** A directional flag mask with value as follows: LVNI_ABOVE | LVNI_BELOW | LVNI_TOLEFT | LVNI_TORIGHT. |
+| LVNI_DIRECTIONMASK | **Windows Vista and later:** A directional flag mask with value as follows: LVNI_ABOVE \| LVNI_BELOW \| LVNI_TOLEFT \| LVNI_TORIGHT. |
 | The state of the item to find can be specified with one or a combination of the following values: |  |
 | LVNI_CUT | The item has the [LVIS_CUT](https://learn.microsoft.com/windows/desktop/Controls/list-view-item-states) state flag set. |
 | LVNI_DROPHILITED | The item has the [LVIS_DROPHILITED](https://learn.microsoft.com/windows/desktop/Controls/list-view-item-states) state flag set |
 | LVNI_FOCUSED | The item has the [LVIS_FOCUSED](https://learn.microsoft.com/windows/desktop/Controls/list-view-item-states) state flag set. |
 | LVNI_SELECTED | The item has the [LVIS_SELECTED](https://learn.microsoft.com/windows/desktop/Controls/list-view-item-states) state flag set. |
-| LVNI_STATEMASK | **Windows Vista and later:** A state flag mask with value as follows: LVNI_FOCUSED | LVNI_SELECTED | LVNI_CUT | LVNI_DROPHILITED. |
+| LVNI_STATEMASK | **Windows Vista and later:** A state flag mask with value as follows: LVNI_FOCUSED \| LVNI_SELECTED \| LVNI_CUT \| LVNI_DROPHILITED. |
 | Searches by appearance of items or by group. |  |
 | LVNI_VISIBLEORDER | **Windows Vista and later:** Search the visible order. |
 | LVNI_VISIBLEONLY | **Windows Vista and later:** Search the visible items. |

@@ -24,9 +24,9 @@ One of the following option flag values:
 | ETDT_ENABLE | Enables dialog window background texturing. The texturing is defined by a visual style. |
 | ETDT_USETABTEXTURE | Uses the Tab control texture for the background texture of a dialog window. |
 | ETDT_USEAEROWIZARDTABTEXTURE | Uses the Aero wizard texture for the background texture of a dialog window. |
-| ETDT_ENABLETAB | Enables dialog window background texturing. The texture is the Tab control texture defined by the visual style. This flag is equivalent to (ETDT_ENABLE | ETDT_USETABTEXTURE). |
-| ETDT_ENABLEAEROWIZARDTAB | ETDT_ENABLE | ETDT_USEAEROWIZARDTABTEXTURE. |
-| ETDT_VALIDBITS | ETDT_DISABLE | ETDT_ENABLE | ETDT_USETABTEXTURE | ETDT_USEAEROWIZARDTABTEXTURE. |
+| ETDT_ENABLETAB | Enables dialog window background texturing. The texture is the Tab control texture defined by the visual style. This flag is equivalent to (ETDT_ENABLE \| ETDT_USETABTEXTURE). |
+| ETDT_ENABLEAEROWIZARDTAB | ETDT_ENABLE \| ETDT_USEAEROWIZARDTABTEXTURE. |
+| ETDT_VALIDBITS | ETDT_DISABLE \| ETDT_ENABLE \| ETDT_USETABTEXTURE \| ETDT_USEAEROWIZARDTABTEXTURE. |
 
 ## Return value
 

@@ -47,7 +47,7 @@ For example, the following code configures an insert edit on all tracks:
 
 | C++ |
 | --- |
-| ``` // Register an edit property set ID. (Causes memory to be allocated.) long EditId; SetEditPropertySet(&EditId, ED_REGISTER);  <br><br>// Set the edit mode. SetEditProperty(EditId, ED_EDIT_MODE, ED_EDIT_MODE_INSERT); // Set the particulars about the event. SetEditProperty(EditId, ED_EDIT_TRACK, ED_VIDEO | ED_AUDIO_ALL); SetEditProperty(EditId, ED_REHEARSE_MODE, ED_EDIT_PERFORM);<br><br>// Set the source and record times.  SetEditProperty(EditId, ED_EDIT_SRC_INPOINT, 200) SetEditProperty(EditId, ED_EDIT_SRC_OUTPOINT, 500) SetEditProperty(EditId, ED_EDIT_REC_INPOINT, 100) SetEditProperty(EditId, ED_EDIT_REC_OUTPOINT, 400)<br><br>// Activate the edit event. SetEditPropertySet(&EditId, ED_ACTIVE);  // Cue up the machine. SetEditProperty(EditId, ED_EDIT_SEEK, OATRUE); <br><br>// Run the graph. (Not shown.) ``` |
+| ``` // Register an edit property set ID. (Causes memory to be allocated.) long EditId; SetEditPropertySet(&EditId, ED_REGISTER);  <br><br>// Set the edit mode. SetEditProperty(EditId, ED_EDIT_MODE, ED_EDIT_MODE_INSERT); // Set the particulars about the event. SetEditProperty(EditId, ED_EDIT_TRACK, ED_VIDEO \| ED_AUDIO_ALL); SetEditProperty(EditId, ED_REHEARSE_MODE, ED_EDIT_PERFORM);<br><br>// Set the source and record times.  SetEditProperty(EditId, ED_EDIT_SRC_INPOINT, 200) SetEditProperty(EditId, ED_EDIT_SRC_OUTPOINT, 500) SetEditProperty(EditId, ED_EDIT_REC_INPOINT, 100) SetEditProperty(EditId, ED_EDIT_REC_OUTPOINT, 400)<br><br>// Activate the edit event. SetEditPropertySet(&EditId, ED_ACTIVE);  // Cue up the machine. SetEditProperty(EditId, ED_EDIT_SEEK, OATRUE); <br><br>// Run the graph. (Not shown.) ``` |
 
 ### DV Implementation
 

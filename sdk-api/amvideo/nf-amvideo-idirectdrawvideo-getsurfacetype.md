@@ -25,9 +25,9 @@ Pointer to variable that receives a bitwise-**OR** of one or more of the followi
 | AMDDS_YUVFLP | YUV flipping surfaces. |
 | AMDDS_ALL | All the previous flags. |
 | AMDDS_DEFAULT | Use all available surfaces. |
-| AMDDS_YUV | (AMDDS_YUVOFF | AMDDS_YUVOVR | AMDDS_YUVFLP). |
-| AMDDS_RGB | (AMDDS_RGBOFF | AMDDS_RGBOVR | AMDDS_RGBFLP). |
-| AMDDS_PRIMARY | (AMDDS_DCIPS | AMDDS_PS). |
+| AMDDS_YUV | (AMDDS_YUVOFF \| AMDDS_YUVOVR \| AMDDS_YUVFLP). |
+| AMDDS_RGB | (AMDDS_RGBOFF \| AMDDS_RGBOVR \| AMDDS_RGBFLP). |
+| AMDDS_PRIMARY | (AMDDS_DCIPS \| AMDDS_PS). |
 
 ## Return value
 

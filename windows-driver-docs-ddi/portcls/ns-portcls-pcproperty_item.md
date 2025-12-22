@@ -27,7 +27,7 @@ Specifies the types of property requests that the driver supports. Set this memb
 | PCPROPERTY_ITEM_FLAG_SERIALIZESIZE | Request for the size of the property data for this property when it is serialized as part of a KSPROPERTY_TYPE_SERIALIZESET request. |
 | PCPROPERTY_ITEM_FLAG_SERIALIZERAW | Request to serialize this property in a driver-dependent manner. This operation is the inverse of PCPROPERTY_ITEM_FLAG_UNSERIALIZERAW. |
 | PCPROPERTY_ITEM_FLAG_UNSERIALIZERAW | Request to unserialize this property in a driver-dependent manner. This operation is the inverse of PCPROPERTY_ITEM_FLAG_SERIALIZERAW. |
-| PCPROPERTY_ITEM_FLAG_SERIALIZE | PCPROPERTY_ITEM_FLAG_SERIALIZERAW | PCPROPERTY_ITEM_FLAG_UNSERIALIZERAW | PCPROPERTY_ITEM_FLAG_SERIALIZESIZE |
+| PCPROPERTY_ITEM_FLAG_SERIALIZE | PCPROPERTY_ITEM_FLAG_SERIALIZERAW \| PCPROPERTY_ITEM_FLAG_UNSERIALIZERAW \| PCPROPERTY_ITEM_FLAG_SERIALIZESIZE |
 
 ### `Handler`
 

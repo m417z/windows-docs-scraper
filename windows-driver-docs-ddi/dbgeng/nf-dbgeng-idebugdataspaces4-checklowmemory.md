@@ -9,7 +9,7 @@ The **CheckLowMemory** method checks for memory corruption in the low 4 GB of me
 | Return code | Description |
 | --- | --- |
 | **S_OK** | No corruption was found. |
-| **FACILITY_NT_BIT |*Page*** | Corruption was found on the memory page *Page*. |
+| **FACILITY_NT_BIT \|*Page*** | Corruption was found on the memory page *Page*. |
 
 This method can also return error values. See [Return Values](https://learn.microsoft.com/windows-hardware/drivers/debugger/hresult-values) for more details.
 
