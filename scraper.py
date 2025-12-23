@@ -25,7 +25,6 @@ import requests
 import yaml
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString
-from markdownify import abstract_inline_conversion  # type: ignore
 from markdownify import MarkdownConverter
 
 
@@ -339,11 +338,7 @@ def clean_markdown_content(content_url: str, content: str) -> str:
 
         def convert_dd(self, el, text, parent_tags):
             # convert_dd adds a colon with spaces. We don't want that.
-            return self.convert_div(el, text, parent_tags) # type: ignore
-
-        # Use _ for emphasis instead of *.
-        convert_em = abstract_inline_conversion(lambda self: '_')
-        convert_i = convert_em
+            return self.convert_div(el, text, parent_tags)
 
     cleaned_content = CustomMarkdownConverter(
         newline_style='BACKSLASH',
