@@ -6,7 +6,7 @@
 
 ### `unnamedParam1`
 
-[in] Pointer to a *[*D3DKMT_CONNECT_DOORBELL**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-d3dkmt_connect_doorbell) structure that describes the doorbell to connect.
+[in] Pointer to a [**D3DKMT_CONNECT_DOORBELL**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-d3dkmt_connect_doorbell) structure that describes the doorbell to connect.
 
 ## Return value
 

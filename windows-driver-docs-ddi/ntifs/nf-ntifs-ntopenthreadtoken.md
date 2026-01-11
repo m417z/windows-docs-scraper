@@ -28,8 +28,7 @@ Pointer to a caller-allocated variable that receives a handle to the newly opene
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_ACCESS_DENIED |
-**ThreadHandle** did not have THREAD_QUERY_INFORMATION access. |
+| STATUS_ACCESS_DENIED | **ThreadHandle** did not have THREAD_QUERY_INFORMATION access. |
 | STATUS_CANT_OPEN_ANONYMOUS | The client requested the SecurityAnonymous impersonation level. However, an anonymous token cannot be opened. For more information, see [**SECURITY_IMPERSONATION_LEVEL**](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level). |
 | STATUS_INVALID_HANDLE | **ThreadHandle** was not a valid handle. |
 | STATUS_NO_TOKEN | An attempt has been made to open a token associated with a thread that is not currently impersonating a client. |

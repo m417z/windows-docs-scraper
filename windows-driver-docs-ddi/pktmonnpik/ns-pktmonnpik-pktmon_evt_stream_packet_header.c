@@ -1,5 +1,0 @@
-typedef struct _PKTMON_EVT_STREAM_PACKET_HEADER {
-  UCHAR                               EventId;
-  PKTMON_EVT_STREAM_PACKET_DESCRIPTOR PacketDescriptor;
-  PKTMON_EVT_STREAM_METADATA          Metadata;
-} PKTMON_EVT_STREAM_PACKET_HEADER;

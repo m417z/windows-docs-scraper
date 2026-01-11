@@ -64,7 +64,7 @@ Transfers data from a bulk pipe or interrupt pipe or to a bulk pipe. If set, the
 
 Transfers data to and from a bulk pipe or interrupt pipe, by using chained MDLs. If set, the URB is used with [_URB_BULK_OR_INTERRUPT_TRANSFER](https://learn.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_bulk_or_interrupt_transfer) as the data structure. The client driver must set the **TransferBufferMDL** member to the first [MDL](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl) structure in the chain that contains the transfer buffer. The USB driver stack ignores the **TransferBuffer** member when processing this URB.
 
-Available in Windows 8. For information about using chained MDLs see [How to Send Chained MDLs](https://learn.microsoft.com/windows-hardware/drivers/usbcon/how-to-send-chained-mdls)">How to Send Chained MDLs.
+Available in Windows 8. For information about using chained MDLs see [How to Send Chained MDLs](https://learn.microsoft.com/windows-hardware/drivers/usbcon/how-to-send-chained-mdls).
 
 #### URB_FUNCTION_ISOCH_TRANSFER
 
@@ -74,7 +74,7 @@ Transfers data to or from an isochronous pipe. If set, the URB is used with [_UR
 
 Transfers data to or from an isochronous pipe by using chained MDLs. If set, the URB is used with [_URB_ISOCH_TRANSFER](https://learn.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_isoch_transfer) as the data structure. The client driver must set the **TransferBufferMDL** member to the first [MDL](https://learn.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl) in the chain that contains the transfer buffer. The USB driver stack ignores the **TransferBuffer** member when processing this URB.
 
-Available in Windows 8. For information about using chained MDLs see [How to Send Chained MDLs](https://learn.microsoft.com/windows-hardware/drivers/usbcon/how-to-send-chained-mdls)">How to Send Chained MDLs.
+Available in Windows 8. For information about using chained MDLs see [How to Send Chained MDLs](https://learn.microsoft.com/windows-hardware/drivers/usbcon/how-to-send-chained-mdls).
 
 #### URB_FUNCTION_RESET_PIPE
 

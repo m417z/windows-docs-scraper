@@ -26,4 +26,4 @@ See [Enhanced Barriers](https://learn.microsoft.com/windows-hardware/drivers/dis
 
 ## See also
 
-[**D3D12DDI_RANGED_BARRIER_0094**]*(ns-d3d12umddi-d3d12ddi_ranged_barrier_0094.md)
+[**D3D12DDI_RANGED_BARRIER_0094**](https://learn.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_ranged_barrier_0094)

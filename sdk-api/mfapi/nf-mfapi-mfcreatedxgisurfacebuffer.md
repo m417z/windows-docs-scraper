@@ -8,7 +8,7 @@ Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DX
 
 ### `riid` [in]
 
-Identifies the type of DXGI surface. This value must be **IID_ID3D11Texture2D**.
+Identifies the type of DXGI surface. This value must be **IID_ID3D11Texture2D** or **IID_ID3D12Resource**.
 
 ### `punkSurface` [in]
 
