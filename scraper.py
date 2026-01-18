@@ -870,8 +870,8 @@ def main():
     print(f"Found {len(markdown_files)} markdown files to process ({ignored_count} files ignored)")
 
     # Determine number of worker processes
-    num_workers = os.cpu_count() or 1
-    print(f"Using {num_workers} worker processes")
+    # num_workers = os.cpu_count() or 1
+    # print(f"Using {num_workers} worker processes")
 
     # Prepare arguments for worker processes
     total = len(markdown_files)
@@ -896,9 +896,11 @@ def main():
     unsupported_count = 0
     processed_count = 0
 
-    with multiprocessing.Pool(processes=num_workers) as pool:
+    # with multiprocessing.Pool(processes=num_workers) as pool:
+    if True:
         # Use imap_unordered for better performance and progress tracking
-        for result in pool.imap_unordered(process_file_worker, worker_args):
+        # for result in pool.imap_unordered(process_file_worker, worker_args):
+        for result in map(process_file_worker, worker_args):
             result_type, base_name, error_trace = result
 
             if result_type == ProcessingResult.CODE_EXTRACTED:

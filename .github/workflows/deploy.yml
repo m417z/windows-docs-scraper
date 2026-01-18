@@ -25,16 +25,19 @@ jobs:
           repository: MicrosoftDocs/windows-driver-docs-ddi
           path: windows-driver-docs-ddi
       - name: Checkout MicrosoftDocs/sdk-api
+        if: false
         uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/sdk-api
           path: sdk-api
       - name: Checkout MicrosoftDocs/windows-driver-docs
+        if: false
         uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/windows-driver-docs
           path: windows-driver-docs
       - name: Checkout MicrosoftDocs/win32
+        if: false
         uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/win32
@@ -50,11 +53,12 @@ jobs:
       - name: Generate docs - Windows Driver Kit DDI
         run: |
           cd main
-          python -u scraper.py \
+          python -u -m cProfile -s tottime scraper.py --input-filter flt \
             --repository windows-driver-docs-ddi \
             --input ../windows-driver-docs-ddi \
             --output ./output/windows-driver-docs-ddi
       - name: Generate docs - Win32 API
+        if: false
         run: |
           cd main
           python -u scraper.py \
@@ -62,6 +66,7 @@ jobs:
             --input ../sdk-api \
             --output ./output/sdk-api
       - name: Generate docs - Windows Driver Documentation
+        if: false
         run: |
           cd main
           python -u scraper.py \
@@ -69,6 +74,7 @@ jobs:
             --input ../windows-driver-docs \
             --output ./output/windows-driver-docs
       - name: Generate docs - Win32
+        if: false
         run: |
           cd main
           python -u scraper.py \
@@ -76,6 +82,7 @@ jobs:
             --input ../win32 \
             --output ./output/win32
       - name: Deploy
+        if: false
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
