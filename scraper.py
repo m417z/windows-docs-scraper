@@ -8,24 +8,36 @@ function prototypes from online documentation.
 """
 
 import argparse
+import hashlib
 import json
 import multiprocessing
 import os
 import re
+import shutil
+import subprocess
+import sys
+import tempfile
 import time
 import traceback
 import uuid
+from contextlib import contextmanager
 from dataclasses import dataclass
 from enum import IntEnum, auto
 from pathlib import Path
-from typing import Dict, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 from urllib.parse import quote, urljoin
 
-import requests
+import aria2p
 import yaml
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString
 from markdownify import MarkdownConverter
+
+# =============================================================================
+# Constants and Configuration
+# =============================================================================
+
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
 
 
 class Nonce:
@@ -37,11 +49,8 @@ class Nonce:
 
 
 class DocsRepositoryType(IntEnum):
-    # With file name prefixes and more-or-less organized structure and metadata.
-    ORGANIZED = auto()
-
-    # Without file name prefixes and less organized structure and metadata.
-    FUZZY = auto()
+    ORGANIZED = auto()  # With file name prefixes and organized structure
+    FUZZY = auto()      # Without file name prefixes, less organized
 
 
 class ProcessingResult(IntEnum):
@@ -51,6 +60,10 @@ class ProcessingResult(IntEnum):
     UNSUPPORTED = auto()
     ERROR = auto()
 
+
+# =============================================================================
+# Data Classes
+# =============================================================================
 
 @dataclass
 class DocsRepositoryInfo:
@@ -70,7 +83,42 @@ class WorkerArgs:
     base_url: str
     repo_type: DocsRepositoryType
     previous_output_path: Optional[Path]
+    downloaded_html_path: Optional[Path]
 
+
+@dataclass
+class ProcessingStats:
+    """Statistics from file processing."""
+    code_extracted: int = 0
+    code_not_extracted: int = 0
+    unsupported: int = 0
+    errors: int = 0
+
+    def print_summary(self, output_path: Path):
+        """Print processing summary."""
+        print(f"\nProcessing complete:")
+        print(f"Code definitions extracted: {self.code_extracted}")
+        print(f"Code definitions not extracted: {self.code_not_extracted}")
+        print(f"Unsupported files skipped: {self.unsupported}")
+        print(f"Exceptions raised: {self.errors}")
+        print(f"Output directory: {output_path}")
+
+
+@dataclass
+class ScraperConfig:
+    """Configuration for the scraper."""
+    input_path: Path
+    output_path: Path
+    content_dir: Path
+    base_url: str
+    repo_type: DocsRepositoryType
+    previous_output_path: Optional[Path]
+    input_filter: Optional[str]
+
+
+# =============================================================================
+# Repository Configuration
+# =============================================================================
 
 DOCS_REPOSITORY_INFO = {
     'windows-driver-docs-ddi': DocsRepositoryInfo(
@@ -96,31 +144,171 @@ DOCS_REPOSITORY_INFO = {
 }
 
 
+# =============================================================================
+# Exceptions
+# =============================================================================
+
 class UnsupportedFuzzyDoc(Exception):
     """Raised when a fuzzy documentation page is unsupported for processing."""
-
     pass
 
 
-REQUESTS_SESSION = requests.Session()
-REQUESTS_SESSION.headers.update({
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
-})
+# =============================================================================
+# Aria2 Download Management
+# =============================================================================
 
-
-def html_escape(html: str) -> str:
+@contextmanager
+def aria2_downloader(download_dir: str):
     """
-    Returns the given HTML with ampersands, quotes and carets encoded.
-    https://stackoverflow.com/a/275246
-    """
-    return (
-        html.replace('&', '&amp;')
-        .replace('<', '&lt;')
-        .replace('>', '&gt;')
-        .replace('"', '&quot;')
-        .replace("'", '&#39;')
-    )
+    Context manager for aria2c daemon lifecycle.
 
+    Starts aria2c daemon on entry, stops it and cleans up on exit.
+    """
+    process = None
+    try:
+        cmd = [
+            'aria2c',
+            '--enable-rpc',
+            '--rpc-listen-port=6800',
+            '--dir=' + download_dir,
+            '--auto-file-renaming=false',
+            '--allow-overwrite=true',
+            '--user-agent=' + USER_AGENT,
+            '--max-tries=50',
+            '--retry-wait=5',
+            # Reduce concurrency to avoid 429 errors
+            '--max-connection-per-server=1',
+            '--max-concurrent-downloads=2',
+            '--split=1',
+        ]
+        process = subprocess.Popen(
+            cmd,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+        time.sleep(1)  # Wait for daemon to start
+
+        api = aria2p.API(aria2p.Client(host="http://localhost", port=6800))
+        yield api
+    finally:
+        if process is not None:
+            process.terminate()
+            try:
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+
+
+def batch_download_urls(
+    api: aria2p.API,
+    urls: List[str],
+    download_dir: Path,
+) -> Dict[str, Path]:
+    """
+    Download multiple URLs using aria2c.
+
+    Returns dict mapping URL to downloaded file path.
+    Raises RuntimeError if any download fails (except 429 which triggers retry).
+    """
+    if not urls:
+        return {}
+
+    MAX_BACKOFF_SECONDS = 300  # 5 minutes
+    BACKOFF_RESET_SECONDS = 300  # Reset backoff if no error for 5 minutes
+
+    # Global backoff state
+    backoff_delay = 1
+    last_error_time = None
+
+    # Map URL to filename and GID for tracking
+    url_to_filename = {}
+    url_to_gid = {}
+
+    def queue_download(url: str) -> str:
+        """Queue a URL for download and return its GID."""
+        filename = hashlib.md5(url.encode()).hexdigest() + '.html'
+        url_to_filename[url] = filename
+        options = {'out': filename}
+        download = api.add_uris([url], options=options)
+        return download.gid
+
+    # Queue all initial downloads
+    for url in urls:
+        url_to_gid[url] = queue_download(url)
+
+    # Wait for all downloads to complete
+    results = {}
+    pending_urls = set(urls)
+    total = len(urls)
+    completed = 0
+
+    while pending_urls:
+        time.sleep(0.5)
+
+        # Get all downloads (avoids GID not found errors)
+        all_downloads = api.get_downloads()
+
+        # Build a map of current downloads by GID
+        downloads_by_gid = {d.gid: d for d in all_downloads}
+
+        # Check each pending URL
+        for url in list(pending_urls):
+            gid = url_to_gid[url]
+            filename = url_to_filename[url]
+            file_path = download_dir / filename
+
+            # Check if download is in aria2c's list
+            if gid in downloads_by_gid:
+                download = downloads_by_gid[gid]
+                if download.is_complete:
+                    results[url] = file_path
+                    pending_urls.remove(url)
+                    completed += 1
+                    print(f"[{completed}/{total}] Downloaded: {url}")
+                elif download.has_failed:
+                    error_msg = download.error_message or f"Error code {download.error_code}"
+
+                    # Check for 429 rate limiting error
+                    if 'status=429' in error_msg or '429' in str(download.error_code):
+                        current_time = time.time()
+
+                        # Reset backoff if last error was more than 5 minutes ago
+                        if last_error_time is not None:
+                            time_since_last_error = current_time - last_error_time
+                            if time_since_last_error > BACKOFF_RESET_SECONDS:
+                                backoff_delay = 1
+
+                        print(f"Rate limited (429), retrying in {backoff_delay}s...")
+                        time.sleep(backoff_delay)
+
+                        # Update backoff state
+                        last_error_time = time.time()
+                        backoff_delay = min(backoff_delay * 2, MAX_BACKOFF_SECONDS)
+
+                        # Remove failed download from aria2c
+                        try:
+                            api.remove([download])
+                        except Exception:
+                            pass
+
+                        # Re-queue the download
+                        url_to_gid[url] = queue_download(url)
+                    else:
+                        raise RuntimeError(f"Download failed for {url}: {error_msg}")
+            else:
+                # Download not in list - check if file exists (completed and purged)
+                if file_path.exists() and file_path.stat().st_size > 0:
+                    results[url] = file_path
+                    pending_urls.remove(url)
+                    completed += 1
+                    print(f"[{completed}/{total}] Downloaded: {url}")
+
+    return results
+
+
+# =============================================================================
+# Argument Parsing and Validation
+# =============================================================================
 
 def parse_arguments() -> argparse.Namespace:
     """Parse command line arguments."""
@@ -145,31 +333,192 @@ def parse_arguments() -> argparse.Namespace:
     )
     parser.add_argument(
         "--previous-output",
-        help="Path to folder with previous output. If provided, .c files will be reused instead of contacting Microsoft server"
+        help="Path to folder with previous output. If provided, .c files will be reused"
     )
     parser.add_argument(
         "--input-filter",
-        help="Filter to only process files containing this string in their filename (e.g., 'nc-sercx-evt_sercx_apply_config')"
+        help="Filter to only process files containing this string in their filename"
     )
     return parser.parse_args()
+
+
+def check_aria2c_installation():
+    """Check if aria2c is installed, exit with error if not."""
+    if shutil.which('aria2c') is None:
+        print("Error: aria2c not found. Please install aria2:")
+        print("  - Windows: winget install aria2")
+        print("  - macOS: brew install aria2")
+        print("  - Linux: apt install aria2")
+        sys.exit(1)
+
+
+def create_config(args: argparse.Namespace) -> ScraperConfig:
+    """Create scraper configuration from parsed arguments."""
+    repo_info = DOCS_REPOSITORY_INFO[args.repository]
+    input_path = Path(args.input)
+    output_path = Path(args.output)
+    content_dir = input_path / repo_info.content_path
+
+    # Validate paths
+    if not input_path.exists():
+        raise RuntimeError(f"Error: Input directory does not exist: {input_path}")
+    if not content_dir.exists():
+        raise RuntimeError(f"Error: Content directory does not exist: {content_dir}")
+
+    # Create output directory
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    return ScraperConfig(
+        input_path=input_path,
+        output_path=output_path,
+        content_dir=content_dir,
+        base_url=repo_info.base_url,
+        repo_type=repo_info.type,
+        previous_output_path=Path(args.previous_output) if args.previous_output else None,
+        input_filter=args.input_filter,
+    )
+
+
+# =============================================================================
+# File Collection
+# =============================================================================
+
+def collect_markdown_files(config: ScraperConfig) -> Tuple[List[Path], int]:
+    """
+    Collect and filter markdown files from content directory.
+
+    Returns tuple of (filtered_files, ignored_count).
+    """
+    all_files = list(config.content_dir.rglob("*.md"))
+    filtered_files = []
+    ignored_count = 0
+
+    for md_file in all_files:
+        base_name = md_file.stem
+
+        # Skip index and toc files
+        if base_name.lower() in ['index', 'toc']:
+            ignored_count += 1
+            continue
+
+        # Apply organized repo filtering
+        if config.repo_type == DocsRepositoryType.ORGANIZED:
+            if '-' not in base_name:
+                raise RuntimeError(f"Filename does not contain a dash: {md_file}")
+
+            prefix = base_name.split('-', 1)[0]
+
+            # Skip unsupported prefixes (na: header, nl: class, nn: interface)
+            if prefix in ['na', 'nl', 'nn']:
+                ignored_count += 1
+                continue
+
+            # Validate known prefixes (nc: callback, ne: enum, nf: function, ni: IOCTL, ns: struct)
+            if prefix not in ['nc', 'ne', 'nf', 'ni', 'ns']:
+                raise RuntimeError(f"Unknown file prefix '{prefix}' in file: {base_name}")
+
+        filtered_files.append(md_file)
+
+    # Apply input filter if provided
+    if config.input_filter:
+        filtered_files = [
+            f for f in filtered_files
+            if config.input_filter.lower() in f.stem.lower()
+        ]
+
+    if not filtered_files:
+        raise RuntimeError(f"No valid markdown files found in: {config.content_dir}")
+
+    return filtered_files, ignored_count
+
+
+def collect_urls_to_download(
+    markdown_files: List[Path],
+    config: ScraperConfig,
+) -> Tuple[List[str], Dict[Path, str]]:
+    """
+    Collect URLs that need to be downloaded.
+
+    Returns tuple of (urls_list, md_file_to_url_map).
+    """
+    urls = []
+    md_file_to_url = {}
+
+    # Only ORGANIZED repos need downloads (FUZZY repos extract code from markdown)
+    if config.repo_type != DocsRepositoryType.ORGANIZED:
+        return urls, md_file_to_url
+
+    for md_file in markdown_files:
+        base_name = md_file.stem
+        relative_path = md_file.relative_to(config.content_dir)
+
+        # Skip IOCTL files (ni- prefix)
+        if base_name.startswith('ni-'):
+            continue
+
+        # Skip if we have previous output
+        if config.previous_output_path:
+            previous_c_file = config.previous_output_path / relative_path.parent / f"{base_name}.c"
+            if previous_c_file.exists():
+                continue
+
+        url = get_online_url_from_file_path(str(relative_path), config.base_url)
+        urls.append(url)
+        md_file_to_url[md_file] = url
+
+    return urls, md_file_to_url
+
+
+# =============================================================================
+# URL and Path Utilities
+# =============================================================================
+
+def get_online_url_from_file_path(file_path: str, base_url: str) -> str:
+    """Convert file path to online documentation URL."""
+    rel_path = Path(file_path).as_posix().lower()
+
+    if rel_path.endswith('.md'):
+        rel_path = rel_path[:-3]
+
+    rel_path = rel_path.replace(',', '_').replace('&', '_').replace('~', '-').replace(' ', '')
+    rel_path = quote(rel_path, safe='/')
+
+    if not base_url.endswith('/'):
+        base_url += '/'
+
+    return urljoin(base_url, rel_path)
+
+
+# =============================================================================
+# HTML and Markdown Processing
+# =============================================================================
+
+def html_escape(html: str) -> str:
+    """Escape HTML special characters."""
+    return (
+        html.replace('&', '&amp;')
+        .replace('<', '&lt;')
+        .replace('>', '&gt;')
+        .replace('"', '&quot;')
+        .replace("'", '&#39;')
+    )
 
 
 def extract_yaml_frontmatter(content: str) -> Tuple[Dict, str]:
     """
     Extract YAML front matter from markdown content.
 
-    Returns:
-        Tuple of (metadata_dict, content_without_frontmatter)
+    Returns tuple of (metadata_dict, content_without_frontmatter).
     """
-    # Skip UTF-8 BOM if present
+    # Skip UTF-8 BOM if present.
     if content.startswith('\ufeff'):
         content = content[1:]
 
-    # Check if content starts with YAML front matter
+    # Check if content starts with YAML front matter.
     if not content.startswith('---'):
         raise RuntimeError("No YAML front matter found")
 
-    # Find the end of the front matter
+    # Find the end of the front matter.
     lines = content.split('\n')
     end_idx = None
     for i, line in enumerate(lines[1:], 1):
@@ -180,7 +529,7 @@ def extract_yaml_frontmatter(content: str) -> Tuple[Dict, str]:
     if end_idx is None:
         raise RuntimeError("YAML front matter not closed with '---'")
 
-    # Extract YAML front matter
+    # Extract YAML front matter.
     yaml_content = '\n'.join(lines[1:end_idx])
     remaining_content = '\n'.join(lines[end_idx + 1:]).lstrip('\n')
 
@@ -190,13 +539,9 @@ def extract_yaml_frontmatter(content: str) -> Tuple[Dict, str]:
 
 def clean_markdown_content(content_url: str, content: str) -> str:
     """
-    Clean markdown content by converting HTML tags to markdown and removing unsupported tags.
+    Clean markdown content by converting HTML tags to markdown.
 
-    Args:
-        content: Raw markdown content that may contain HTML tags
-
-    Returns:
-        Cleaned markdown content with HTML converted to markdown
+    Handles Microsoft-specific markdown conventions and normalizes formatting.
     """
     # Replace nbsp with regular space.
     content = content.replace('\u00a0', ' ')
@@ -304,7 +649,7 @@ def clean_markdown_content(content_url: str, content: str) -> str:
             # Inside a pre block, do not add paragraph tags.
             return match.group(0)
         # A hack for a two-newline separator.
-        return f'<caption></caption>'
+        return '<caption></caption>'
 
     content = re.sub(r'\n{2,}', newlines_sub, content)
 
@@ -445,54 +790,21 @@ def clean_markdown_content(content_url: str, content: str) -> str:
     return cleaned_content
 
 
-def get_online_url_from_file_path(file_path: str, base_url: str) -> str:
+# =============================================================================
+# Prototype Extraction
+# =============================================================================
+
+def parse_function_prototype_from_file(html_path: Path, url: str) -> Optional[str]:
     """
-    Extract the online documentation URL from file path.
-    """
-    # Construct from file path
-    # Example: ntifs/nf-ntifs-ntwritefile.md ->
-    # https://learn.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile
-    rel_path = Path(file_path).as_posix().lower()
+    Parse code definition from downloaded HTML file.
 
-    # Remove .md extension
-    if rel_path.endswith('.md'):
-        rel_path = rel_path[:-3]
-
-    rel_path = rel_path.replace(',', '_').replace('&', '_').replace('~', '-').replace(' ', '')
-
-    # URL encode the path to handle special characters like %
-    rel_path = quote(rel_path, safe='/')
-
-    if not base_url.endswith('/'):
-        base_url += '/'
-
-    return urljoin(base_url, rel_path)
-
-
-def scrape_function_prototype(url: str) -> Optional[str]:
-    """
-    Scrape code definition from online documentation.
     Finds the first code block that follows the "Syntax" heading.
-    Returns empty string if page exists but has no syntax section.
-    Returns None only for actual errors (404, network issues, etc).
+    Returns empty string if page has no syntax section.
     """
+    with open(html_path, 'r', encoding='utf-8', errors='ignore') as f:
+        content = f.read()
 
-    delay = 1
-    while True:
-        try:
-            response = REQUESTS_SESSION.get(url, timeout=10)
-            if response.status_code == 404:
-                print(f"Error, page not found (404): {url}")
-                return None
-
-            response.raise_for_status()
-            break
-        except Exception as e:
-            print(f"Error getting {url}, retrying in {delay}s: {e}")
-            time.sleep(delay)
-            delay = min(delay * 2, 60 * 5)
-
-    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = BeautifulSoup(content, 'html.parser')
 
     # Look for the "Syntax" heading using the id attribute
     syntax_heading = soup.find('h2', id='syntax')
@@ -548,20 +860,12 @@ def scrape_function_prototype(url: str) -> Optional[str]:
     return prototype
 
 
+# =============================================================================
+# Fuzzy Document Processing
+# =============================================================================
+
 def extract_fuzzy_type_ident(markdown_content: str) -> Tuple[str, str]:
-    """
-    Extract identifier from fuzzy documentation content.
-
-    Args:
-        markdown_content: The markdown content to extract identifier from
-
-    Returns:
-        The extracted identifier
-
-    Raises:
-        UnsupportedFuzzyDoc: If the document doesn't contain a supported identifier
-        RuntimeError: If the identifier format is not supported
-    """
+    """Extract identifier and type from fuzzy documentation content."""
     # Best effort to filter relevant pages. Not all pages have reliable
     # metadata such as topic_type, especially in windows-driver-docs.
     fuzzy_types = [
@@ -578,10 +882,10 @@ def extract_fuzzy_type_ident(markdown_content: str) -> Tuple[str, str]:
     fuzzy_types_pattern = '|'.join(re.escape(t) for t in fuzzy_types)
     p = rf'^# (\S+) ({fuzzy_types_pattern})(:? *\([^)]+\.h\))? *$'
     match = re.search(p, markdown_content, flags=re.IGNORECASE | re.MULTILINE)
+
     if not match:
         raise UnsupportedFuzzyDoc
 
-    # Replace escaped underscores produced by some markdown sources (e.g., Foo\_Bar -> Foo_Bar)
     fuzzy_ident = match.group(1).replace(R'\_', '_')
     assert isinstance(fuzzy_ident, str)
     if fuzzy_ident.endswith('A/W'):
@@ -617,15 +921,7 @@ def extract_fuzzy_type_ident(markdown_content: str) -> Tuple[str, str]:
 
 
 def extract_fuzzy_header(markdown_content: str) -> Optional[str]:
-    """
-    Extract header file from fuzzy documentation content.
-
-    Args:
-        markdown_content: The markdown content to extract header from
-    
-    Returns:
-        The extracted header file, or None if not found
-    """
+    """Extract header file from fuzzy documentation content."""
     p = r'^\|\s*Header(?:<br\s*/?>)?\s*\|(.*)'
     match = re.search(p, markdown_content, flags=re.IGNORECASE | re.MULTILINE)
 
@@ -651,6 +947,10 @@ def extract_fuzzy_header(markdown_content: str) -> Optional[str]:
     return header.lower()
 
 
+# =============================================================================
+# File Processing
+# =============================================================================
+
 def process_markdown_file(
     relative_path: Path,
     input_dir: Path,
@@ -658,21 +958,13 @@ def process_markdown_file(
     base_url: str,
     repo_type: DocsRepositoryType,
     previous_output_dir: Optional[Path] = None,
+    downloaded_html_path: Optional[Path] = None,
 ) -> bool:
     """
     Process a single markdown file.
 
-    Args:
-        relative_path: Path relative to the content directory (e.g., 'ntifs/nf-ntifs-ntwritefile.md')
-        input_dir: Path to the input content directory
-        output_dir: Path to the output directory
-        base_url: Base URL for the online documentation
-        repo_type: Type of the documentation repository (organized or fuzzy)
-        previous_output_dir: Optional path to previous output directory for reusing .c files
-
     Returns True if code was extracted, False otherwise.
     """
-
     url = get_online_url_from_file_path(str(relative_path), base_url)
 
     # Construct the full input file path
@@ -740,8 +1032,8 @@ def process_markdown_file(
     if prototype is None:
         if repo_type == DocsRepositoryType.ORGANIZED:
             # Skip scraping for IOCTL files
-            if not base_name.startswith('ni-'):
-                prototype = scrape_function_prototype(url)
+            if not base_name.startswith('ni-') and downloaded_html_path is not None:
+                prototype = parse_function_prototype_from_file(downloaded_html_path, url)
         elif repo_type == DocsRepositoryType.FUZZY:
             if fuzzy_code_definition is not None:
                 prototype = fuzzy_code_definition
@@ -757,20 +1049,12 @@ def process_markdown_file(
             f.write(prototype)
 
         return True
-    else:
-        return False
+
+    return False
 
 
-def process_file_worker(args: WorkerArgs):
-    """
-    Worker function for parallel processing of markdown files.
-
-    Args:
-        args: WorkerArgs dataclass containing all necessary parameters
-
-    Returns:
-        Tuple of (ProcessingResult, base_name, error_traceback)
-    """
+def process_file_worker(args: WorkerArgs) -> Tuple[ProcessingResult, str, Optional[str]]:
+    """Worker function for parallel processing of markdown files."""
     relative_path = args.md_file.relative_to(args.content_dir)
     base_name = relative_path.stem
 
@@ -782,6 +1066,7 @@ def process_file_worker(args: WorkerArgs):
             args.base_url,
             args.repo_type,
             args.previous_output_path,
+            args.downloaded_html_path,
         )
         if code_success:
             return (ProcessingResult.CODE_EXTRACTED, base_name, None)
@@ -789,144 +1074,109 @@ def process_file_worker(args: WorkerArgs):
             return (ProcessingResult.NO_CODE, base_name, None)
     except UnsupportedFuzzyDoc:
         return (ProcessingResult.UNSUPPORTED, base_name, None)
-    except Exception as e:
+    except Exception:
         return (ProcessingResult.ERROR, base_name, traceback.format_exc())
 
 
-def main():
-    """Main function."""
-    args = parse_arguments()
-
-    # Get repository info
-    repo_info = DOCS_REPOSITORY_INFO[args.repository]
-    content_path = repo_info.content_path
-    base_url = repo_info.base_url
-    repo_type = repo_info.type
-
-    input_path = Path(args.input)
-    output_path = Path(args.output)
-    previous_output_path = Path(args.previous_output) if args.previous_output else None
-    input_filter = args.input_filter
-
-    # Validate input directory
-    if not input_path.exists():
-        raise RuntimeError(f"Error: Input directory does not exist: {input_path}")
-
-    # Create output directory
-    output_path.mkdir(parents=True, exist_ok=True)
-
-    # Find all markdown files in the content directory
-    content_dir = input_path / content_path
-    if not content_dir.exists():
-        raise RuntimeError(f"Error: Content directory does not exist: {content_dir}")
-
-    markdown_files = list(content_dir.rglob("*.md"))
-
-    # Filter out unsupported prefix files and index.md files
-    filtered_files = []
-    ignored_count = 0
-
-    for md_file in markdown_files:
-        base_name = md_file.stem
-
-        if base_name.lower() in ['index', 'toc']:
-            ignored_count += 1
-            continue
-
-        if repo_type == DocsRepositoryType.ORGANIZED:
-            if '-' not in base_name:
-                raise RuntimeError(f"Filename does not contain a dash: {md_file}")
-
-            prefix = base_name.split('-', 1)[0]
-
-            # Skip unsupported files
-            # na: header
-            # nl: class
-            # nn: interface
-            if prefix in ['na', 'nl', 'nn']:
-                ignored_count += 1
-                continue
-
-            # Check for unknown prefixes and throw exception
-            # nc: callback
-            # ne: enum
-            # nf: function
-            # ni: IOCTL
-            # ns: struct
-            if prefix not in ['nc', 'ne', 'nf', 'ni', 'ns']:
-                raise RuntimeError(f"Unknown file prefix '{prefix}' in file: {base_name}")
-
-        filtered_files.append(md_file)
-
-    markdown_files = filtered_files
-
-    # Apply input filter if provided
-    if input_filter:
-        markdown_files = [f for f in markdown_files if input_filter.lower() in f.stem.lower()]
-
-    if not markdown_files:
-        raise RuntimeError(f"No valid markdown files found in: {content_dir}")
-
-    print(f"Found {len(markdown_files)} markdown files to process ({ignored_count} files ignored)")
-
-    # Determine number of worker processes
-    # num_workers = os.cpu_count() or 1
-    # print(f"Using {num_workers} worker processes")
-
-    # Prepare arguments for worker processes
+def create_worker_args(
+    markdown_files: List[Path],
+    config: ScraperConfig,
+    md_file_to_url: Dict[Path, str],
+    download_results: Dict[str, Path],
+) -> List[WorkerArgs]:
+    """Create WorkerArgs for each markdown file."""
     total = len(markdown_files)
-    worker_args = [
-        WorkerArgs(
+    worker_args = []
+
+    for i, md_file in enumerate(markdown_files, 1):
+        url = md_file_to_url.get(md_file)
+        downloaded_html_path = download_results.get(url) if url else None
+
+        worker_args.append(WorkerArgs(
             index=i,
             total=total,
             md_file=md_file,
-            content_dir=content_dir,
-            output_path=output_path,
-            base_url=base_url,
-            repo_type=repo_type,
-            previous_output_path=previous_output_path,
-        )
-        for i, md_file in enumerate(markdown_files, 1)
-    ]
+            content_dir=config.content_dir,
+            output_path=config.output_path,
+            base_url=config.base_url,
+            repo_type=config.repo_type,
+            previous_output_path=config.previous_output_path,
+            downloaded_html_path=downloaded_html_path,
+        ))
 
-    # Process files in parallel
-    code_extracted = 0
-    code_not_extracted = 0
-    exception_count = 0
-    unsupported_count = 0
+    return worker_args
+
+
+def process_files_parallel(
+    worker_args: List[WorkerArgs],
+    num_workers: int,
+) -> ProcessingStats:
+    """Process files in parallel and return statistics."""
+    stats = ProcessingStats()
+    total = len(worker_args)
     processed_count = 0
 
-    # with multiprocessing.Pool(processes=num_workers) as pool:
-    if True:
-        # Use imap_unordered for better performance and progress tracking
-        # for result in pool.imap_unordered(process_file_worker, worker_args):
-        for result in map(process_file_worker, worker_args):
+    with multiprocessing.Pool(processes=num_workers) as pool:
+        for result in pool.imap_unordered(process_file_worker, worker_args):
             result_type, base_name, error_trace = result
+            processed_count += 1
 
             if result_type == ProcessingResult.CODE_EXTRACTED:
-                processed_count += 1
                 print(f"[{processed_count}/{total}] Processing {base_name}... OK")
-                code_extracted += 1
+                stats.code_extracted += 1
             elif result_type == ProcessingResult.NO_CODE:
-                processed_count += 1
                 print(f"[{processed_count}/{total}] Processing {base_name}... No code extracted")
-                code_not_extracted += 1
+                stats.code_not_extracted += 1
             elif result_type == ProcessingResult.ERROR:
-                processed_count += 1
                 print(error_trace)
                 print(f"[{processed_count}/{total}] Processing {base_name}... Error, exception raised")
-                exception_count += 1
+                stats.errors += 1
             elif result_type == ProcessingResult.UNSUPPORTED:
-                processed_count += 1
-                unsupported_count += 1
-                # Silently skip unsupported files (no output)
+                stats.unsupported += 1
 
-    print(f"\nProcessing complete:")
-    print(f"Code definitions extracted: {code_extracted}")
-    print(f"Code definitions not extracted: {code_not_extracted}")
-    print(f"Unsupported files skipped: {unsupported_count}")
-    print(f"Exceptions raised: {exception_count}")
-    print(f"Output directory: {output_path}")
+    return stats
+
+
+# =============================================================================
+# Main Entry Point
+# =============================================================================
+
+def main():
+    """Main entry point."""
+    args = parse_arguments()
+    check_aria2c_installation()
+    config = create_config(args)
+
+    # Collect files
+    markdown_files, ignored_count = collect_markdown_files(config)
+    print(f"Found {len(markdown_files)} markdown files to process ({ignored_count} files ignored)")
+
+    # Collect URLs to download
+    urls_to_download, md_file_to_url = collect_urls_to_download(markdown_files, config)
+
+    # Download and process
+    download_dir = tempfile.mkdtemp(prefix='scraper_downloads_')
+    try:
+        download_results = {}
+
+        if urls_to_download:
+            print(f"Downloading {len(urls_to_download)} pages using aria2c...")
+            with aria2_downloader(download_dir) as api:
+                download_results = batch_download_urls(api, urls_to_download, Path(download_dir))
+            print("Downloads complete. Processing files...")
+
+        # Process files
+        num_workers = os.cpu_count() or 1
+        print(f"Using {num_workers} worker processes")
+
+        worker_args = create_worker_args(
+            markdown_files, config, md_file_to_url, download_results
+        )
+        stats = process_files_parallel(worker_args, num_workers)
+        stats.print_summary(config.output_path)
+
+    finally:
+        shutil.rmtree(download_dir, ignore_errors=True)
 
 
 if __name__ == "__main__":
