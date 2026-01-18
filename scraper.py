@@ -251,7 +251,7 @@ async def download_single_url(
 async def httpx_batch_download(
     urls: List[str],
     download_dir: Path,
-    max_concurrent: int = 256,
+    max_concurrent: int = 16,
     max_retries: int = 50,
     retry_wait: float = 5.0,
 ) -> Dict[str, Path]:
