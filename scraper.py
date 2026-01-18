@@ -204,25 +204,35 @@ def batch_download_urls(
     Download multiple URLs using aria2c.
 
     Returns dict mapping URL to downloaded file path.
-    Raises RuntimeError if any download fails.
+    Raises RuntimeError if any download fails (except 429 which triggers retry).
     """
     if not urls:
         return {}
 
+    MAX_BACKOFF_SECONDS = 300  # 5 minutes
+
     # Map URL to filename and GID for tracking
     url_to_filename = {}
     url_to_gid = {}
-    for url in urls:
+    url_retry_delay = {}  # Track exponential backoff delay per URL
+
+    def queue_download(url: str) -> str:
+        """Queue a URL for download and return its GID."""
         filename = hashlib.md5(url.encode()).hexdigest() + '.html'
         url_to_filename[url] = filename
         options = {'out': filename}
         download = api.add_uris([url], options=options)
-        url_to_gid[url] = download.gid
+        return download.gid
+
+    # Queue all initial downloads
+    for url in urls:
+        url_to_gid[url] = queue_download(url)
+        url_retry_delay[url] = 1  # Start with 1 second delay
 
     # Wait for all downloads to complete
     results = {}
     pending_urls = set(urls)
-    total = len(pending_urls)
+    total = len(urls)
     completed = 0
 
     while pending_urls:
@@ -250,7 +260,24 @@ def batch_download_urls(
                     print(f"[{completed}/{total}] Downloaded: {url}")
                 elif download.has_failed:
                     error_msg = download.error_message or f"Error code {download.error_code}"
-                    raise RuntimeError(f"Download failed for {url}: {error_msg}")
+
+                    # Check for 429 rate limiting error
+                    if 'status=429' in error_msg or '429' in str(download.error_code):
+                        delay = url_retry_delay[url]
+                        print(f"Rate limited (429) for {url}, retrying in {delay}s...")
+                        time.sleep(delay)
+
+                        # Remove failed download from aria2c
+                        try:
+                            api.remove([download])
+                        except Exception:
+                            pass
+
+                        # Re-queue with exponential backoff
+                        url_to_gid[url] = queue_download(url)
+                        url_retry_delay[url] = min(delay * 2, MAX_BACKOFF_SECONDS)
+                    else:
+                        raise RuntimeError(f"Download failed for {url}: {error_msg}")
             else:
                 # Download not in list - check if file exists (completed and purged)
                 if file_path.exists() and file_path.stat().st_size > 0:
