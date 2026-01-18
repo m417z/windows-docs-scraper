@@ -211,11 +211,15 @@ def batch_download_urls(
         return {}
 
     MAX_BACKOFF_SECONDS = 300  # 5 minutes
+    BACKOFF_RESET_SECONDS = 300  # Reset backoff if no error for 5 minutes
+
+    # Global backoff state
+    backoff_delay = 1
+    last_error_time = None
 
     # Map URL to filename and GID for tracking
     url_to_filename = {}
     url_to_gid = {}
-    url_retry_delay = {}  # Track exponential backoff delay per URL
 
     def queue_download(url: str) -> str:
         """Queue a URL for download and return its GID."""
@@ -228,7 +232,6 @@ def batch_download_urls(
     # Queue all initial downloads
     for url in urls:
         url_to_gid[url] = queue_download(url)
-        url_retry_delay[url] = 1  # Start with 1 second delay
 
     # Wait for all downloads to complete
     results = {}
@@ -264,9 +267,20 @@ def batch_download_urls(
 
                     # Check for 429 rate limiting error
                     if 'status=429' in error_msg or '429' in str(download.error_code):
-                        delay = url_retry_delay[url]
-                        print(f"Rate limited (429) for {url}, retrying in {delay}s...")
-                        time.sleep(delay)
+                        current_time = time.time()
+
+                        # Reset backoff if last error was more than 5 minutes ago
+                        if last_error_time is not None:
+                            time_since_last_error = current_time - last_error_time
+                            if time_since_last_error > BACKOFF_RESET_SECONDS:
+                                backoff_delay = 1
+
+                        print(f"Rate limited (429), retrying in {backoff_delay}s...")
+                        time.sleep(backoff_delay)
+
+                        # Update backoff state
+                        last_error_time = time.time()
+                        backoff_delay = min(backoff_delay * 2, MAX_BACKOFF_SECONDS)
 
                         # Remove failed download from aria2c
                         try:
@@ -274,9 +288,8 @@ def batch_download_urls(
                         except Exception:
                             pass
 
-                        # Re-queue with exponential backoff
+                        # Re-queue the download
                         url_to_gid[url] = queue_download(url)
-                        url_retry_delay[url] = min(delay * 2, MAX_BACKOFF_SECONDS)
                     else:
                         raise RuntimeError(f"Download failed for {url}: {error_msg}")
             else:
