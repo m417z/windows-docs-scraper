@@ -16,31 +16,31 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           path: main
       - name: Checkout MicrosoftDocs/windows-driver-docs-ddi
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/windows-driver-docs-ddi
           path: windows-driver-docs-ddi
       - name: Checkout MicrosoftDocs/sdk-api
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/sdk-api
           path: sdk-api
       - name: Checkout MicrosoftDocs/windows-driver-docs
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/windows-driver-docs
           path: windows-driver-docs
       - name: Checkout MicrosoftDocs/win32
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/win32
           path: win32
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
       - name: Install Python dependencies
