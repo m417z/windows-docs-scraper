@@ -8,26 +8,25 @@ function prototypes from online documentation.
 """
 
 import argparse
+import asyncio
 import hashlib
 import json
 import multiprocessing
 import os
 import re
 import shutil
-import subprocess
 import sys
 import tempfile
 import time
 import traceback
 import uuid
-from contextlib import contextmanager
 from dataclasses import dataclass
 from enum import IntEnum, auto
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-from urllib.parse import quote, urljoin
+from urllib.parse import quote, urljoin, urlparse
 
-import aria2p
+import httpx
 import yaml
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString
@@ -154,156 +153,182 @@ class UnsupportedFuzzyDoc(Exception):
 
 
 # =============================================================================
-# Aria2 Download Management
+# HTTP Download Management
 # =============================================================================
 
-@contextmanager
-def aria2_downloader(download_dir: str):
-    """
-    Context manager for aria2c daemon lifecycle.
+class DomainRateLimiter:
+    """Rate limiter that enforces per-domain and global concurrency limits."""
 
-    Starts aria2c daemon on entry, stops it and cleans up on exit.
-    """
-    process = None
-    try:
-        cmd = [
-            'aria2c',
-            '--enable-rpc',
-            '--rpc-listen-port=6800',
-            '--dir=' + download_dir,
-            '--auto-file-renaming=false',
-            '--allow-overwrite=true',
-            '--user-agent=' + USER_AGENT,
-            '--max-tries=50',
-            '--retry-wait=5',
-            # Reduce concurrency to avoid 429 errors
-            '--max-connection-per-server=1',
-            '--max-concurrent-downloads=2',
-            '--split=1',
-        ]
-        process = subprocess.Popen(
-            cmd,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        )
-        time.sleep(1)  # Wait for daemon to start
+    def __init__(self, max_concurrent: int = 2, max_per_domain: int = 1):
+        self.global_semaphore = asyncio.Semaphore(max_concurrent)
+        self.domain_semaphores: Dict[str, asyncio.Semaphore] = {}
+        self.max_per_domain = max_per_domain
+        self._lock = asyncio.Lock()
 
-        api = aria2p.API(aria2p.Client(host="http://localhost", port=6800))
-        yield api
-    finally:
-        if process is not None:
-            process.terminate()
+    async def acquire(self, url: str):
+        domain = urlparse(url).netloc
+        async with self._lock:
+            if domain not in self.domain_semaphores:
+                self.domain_semaphores[domain] = asyncio.Semaphore(self.max_per_domain)
+
+        await self.global_semaphore.acquire()
+        await self.domain_semaphores[domain].acquire()
+
+    def release(self, url: str):
+        domain = urlparse(url).netloc
+        self.domain_semaphores[domain].release()
+        self.global_semaphore.release()
+
+
+class BackoffState:
+    """Manages exponential backoff for 429 rate limiting."""
+
+    def __init__(self, max_backoff: float = 300.0, reset_after: float = 300.0):
+        self.max_backoff = max_backoff
+        self.reset_after = reset_after
+        self.current_delay = 1.0
+        self.last_error_time: Optional[float] = None
+        self._lock = asyncio.Lock()
+
+    async def get_delay(self) -> float:
+        """Get current delay, resetting if enough time has passed."""
+        async with self._lock:
+            if self.last_error_time is not None:
+                time_since = time.time() - self.last_error_time
+                if time_since > self.reset_after:
+                    self.current_delay = 1.0
+            return self.current_delay
+
+    async def record_429(self) -> float:
+        """Record a 429 error and update backoff. Returns delay to use."""
+        async with self._lock:
+            if self.last_error_time is not None:
+                time_since = time.time() - self.last_error_time
+                if time_since > self.reset_after:
+                    self.current_delay = 1.0
+
+            delay = self.current_delay
+            self.last_error_time = time.time()
+            self.current_delay = min(self.current_delay * 2, self.max_backoff)
+            return delay
+
+
+async def download_single_url(
+    client: httpx.AsyncClient,
+    url: str,
+    download_dir: Path,
+    rate_limiter: DomainRateLimiter,
+    backoff_state: BackoffState,
+    max_retries: int,
+    retry_wait: float,
+) -> Tuple[str, Optional[Path]]:
+    """
+    Download a single URL with retry logic.
+
+    Returns (url, file_path) on success, (url, None) on 404.
+    Raises RuntimeError on other failures after retries exhausted.
+    """
+    filename = hashlib.md5(url.encode()).hexdigest() + '.html'
+    file_path = download_dir / filename
+
+    for attempt in range(max_retries):
+        try:
+            await rate_limiter.acquire(url)
             try:
-                process.wait(timeout=5)
-            except subprocess.TimeoutExpired:
-                process.kill()
+                response = await client.get(url, follow_redirects=True)
+
+                if response.status_code == 429:
+                    delay = await backoff_state.record_429()
+                    print(f"Rate limited (429), retrying in {delay}s...")
+                    await asyncio.sleep(delay)
+                    continue
+
+                if response.status_code == 404:
+                    return (url, None)
+
+                response.raise_for_status()
+                file_path.write_bytes(response.content)
+                return (url, file_path)
+
+            finally:
+                rate_limiter.release(url)
+
+        except httpx.HTTPStatusError as e:
+            if e.response.status_code == 429:
+                delay = await backoff_state.record_429()
+                print(f"Rate limited (429), retrying in {delay}s...")
+                await asyncio.sleep(delay)
+                continue
+            elif e.response.status_code == 404:
+                return (url, None)
+            else:
+                if attempt < max_retries - 1:
+                    await asyncio.sleep(retry_wait)
+                    continue
+                raise RuntimeError(f"Download failed for {url}: {e}")
+
+        except (httpx.RequestError, httpx.TimeoutException) as e:
+            if attempt < max_retries - 1:
+                await asyncio.sleep(retry_wait)
+                continue
+            raise RuntimeError(f"Download failed for {url}: {e}")
+
+    raise RuntimeError(f"Download failed for {url} after {max_retries} attempts")
 
 
-def batch_download_urls(
-    api: aria2p.API,
+async def httpx_batch_download(
     urls: List[str],
     download_dir: Path,
+    max_concurrent: int = 2,
+    max_retries: int = 50,
+    retry_wait: float = 5.0,
 ) -> Dict[str, Path]:
-    """
-    Download multiple URLs using aria2c.
-
-    Returns dict mapping URL to downloaded file path.
-    Raises RuntimeError if any download fails (except 429 which triggers retry).
-    """
+    """Download multiple URLs using httpx with async concurrency."""
     if not urls:
         return {}
 
-    MAX_BACKOFF_SECONDS = 300  # 5 minutes
-    BACKOFF_RESET_SECONDS = 300  # Reset backoff if no error for 5 minutes
+    rate_limiter = DomainRateLimiter(max_concurrent=max_concurrent, max_per_domain=1)
+    backoff_state = BackoffState(max_backoff=300.0, reset_after=300.0)
 
-    # Global backoff state
-    backoff_delay = 1
-    last_error_time = None
-
-    # Map URL to filename and GID for tracking
-    url_to_filename = {}
-    url_to_gid = {}
-
-    def queue_download(url: str) -> str:
-        """Queue a URL for download and return its GID."""
-        filename = hashlib.md5(url.encode()).hexdigest() + '.html'
-        url_to_filename[url] = filename
-        options = {'out': filename}
-        download = api.add_uris([url], options=options)
-        return download.gid
-
-    # Queue all initial downloads
-    for url in urls:
-        url_to_gid[url] = queue_download(url)
-
-    # Wait for all downloads to complete
-    results = {}
-    pending_urls = set(urls)
+    results: Dict[str, Path] = {}
     total = len(urls)
     completed = 0
+    completed_lock = asyncio.Lock()
 
-    while pending_urls:
-        time.sleep(0.5)
+    async def download_with_progress(url: str) -> Tuple[str, Optional[Path]]:
+        nonlocal completed
+        result = await download_single_url(
+            client, url, download_dir,
+            rate_limiter, backoff_state,
+            max_retries, retry_wait,
+        )
+        async with completed_lock:
+            completed += 1
+            print(f"[{completed}/{total}] Downloaded: {url}")
+        return result
 
-        # Get all downloads (avoids GID not found errors)
-        all_downloads = api.get_downloads()
+    async with httpx.AsyncClient(
+        headers={'User-Agent': USER_AGENT},
+        timeout=httpx.Timeout(30.0, connect=10.0),
+    ) as client:
+        tasks = [download_with_progress(url) for url in urls]
 
-        # Build a map of current downloads by GID
-        downloads_by_gid = {d.gid: d for d in all_downloads}
-
-        # Check each pending URL
-        for url in list(pending_urls):
-            gid = url_to_gid[url]
-            filename = url_to_filename[url]
-            file_path = download_dir / filename
-
-            # Check if download is in aria2c's list
-            if gid in downloads_by_gid:
-                download = downloads_by_gid[gid]
-                if download.is_complete:
-                    results[url] = file_path
-                    pending_urls.remove(url)
-                    completed += 1
-                    print(f"[{completed}/{total}] Downloaded: {url}")
-                elif download.has_failed:
-                    error_msg = download.error_message or f"Error code {download.error_code}"
-
-                    # Check for 429 rate limiting error
-                    if 'status=429' in error_msg or '429' in str(download.error_code):
-                        current_time = time.time()
-
-                        # Reset backoff if last error was more than 5 minutes ago
-                        if last_error_time is not None:
-                            time_since_last_error = current_time - last_error_time
-                            if time_since_last_error > BACKOFF_RESET_SECONDS:
-                                backoff_delay = 1
-
-                        print(f"Rate limited (429), retrying in {backoff_delay}s...")
-                        time.sleep(backoff_delay)
-
-                        # Update backoff state
-                        last_error_time = time.time()
-                        backoff_delay = min(backoff_delay * 2, MAX_BACKOFF_SECONDS)
-
-                        # Remove failed download from aria2c
-                        try:
-                            api.remove([download])
-                        except Exception:
-                            pass
-
-                        # Re-queue the download
-                        url_to_gid[url] = queue_download(url)
-                    else:
-                        raise RuntimeError(f"Download failed for {url}: {error_msg}")
-            else:
-                # Download not in list - check if file exists (completed and purged)
-                if file_path.exists() and file_path.stat().st_size > 0:
-                    results[url] = file_path
-                    pending_urls.remove(url)
-                    completed += 1
-                    print(f"[{completed}/{total}] Downloaded: {url}")
+        for coro in asyncio.as_completed(tasks):
+            url, file_path = await coro
+            if file_path is not None:
+                results[url] = file_path
 
     return results
+
+
+def batch_download_urls(urls: List[str], download_dir: Path) -> Dict[str, Path]:
+    """
+    Download multiple URLs using httpx.
+
+    Returns dict mapping URL to downloaded file path.
+    Raises RuntimeError if any download fails (except 404 which returns None).
+    """
+    return asyncio.run(httpx_batch_download(urls, download_dir))
 
 
 # =============================================================================
@@ -340,16 +365,6 @@ def parse_arguments() -> argparse.Namespace:
         help="Filter to only process files containing this string in their filename"
     )
     return parser.parse_args()
-
-
-def check_aria2c_installation():
-    """Check if aria2c is installed, exit with error if not."""
-    if shutil.which('aria2c') is None:
-        print("Error: aria2c not found. Please install aria2:")
-        print("  - Windows: winget install aria2")
-        print("  - macOS: brew install aria2")
-        print("  - Linux: apt install aria2")
-        sys.exit(1)
 
 
 def create_config(args: argparse.Namespace) -> ScraperConfig:
@@ -1144,7 +1159,6 @@ def process_files_parallel(
 def main():
     """Main entry point."""
     args = parse_arguments()
-    check_aria2c_installation()
     config = create_config(args)
 
     # Collect files
@@ -1160,9 +1174,8 @@ def main():
         download_results = {}
 
         if urls_to_download:
-            print(f"Downloading {len(urls_to_download)} pages using aria2c...")
-            with aria2_downloader(download_dir) as api:
-                download_results = batch_download_urls(api, urls_to_download, Path(download_dir))
+            print(f"Downloading {len(urls_to_download)} pages using httpx...")
+            download_results = batch_download_urls(urls_to_download, Path(download_dir))
             print("Downloads complete. Processing files...")
 
         # Process files
