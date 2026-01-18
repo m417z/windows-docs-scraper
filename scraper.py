@@ -198,6 +198,7 @@ def aria2_downloader(download_dir: str):
 def batch_download_urls(
     api: aria2p.API,
     urls: List[str],
+    download_dir: Path,
 ) -> Dict[str, Path]:
     """
     Download multiple URLs using aria2c.
@@ -208,35 +209,55 @@ def batch_download_urls(
     if not urls:
         return {}
 
-    # Map URL to GID for tracking
+    # Map URL to filename and GID for tracking
+    url_to_filename = {}
     url_to_gid = {}
     for url in urls:
         filename = hashlib.md5(url.encode()).hexdigest() + '.html'
+        url_to_filename[url] = filename
         options = {'out': filename}
         download = api.add_uris([url], options=options)
         url_to_gid[url] = download.gid
 
     # Wait for all downloads to complete
     results = {}
-    pending_gids = set(url_to_gid.values())
-    total = len(pending_gids)
+    pending_urls = set(urls)
+    total = len(pending_urls)
     completed = 0
 
-    while pending_gids:
+    while pending_urls:
         time.sleep(0.5)
-        downloads = api.get_downloads(list(pending_gids))
 
-        for download in downloads:
-            if download.is_complete:
-                url = next(u for u, g in url_to_gid.items() if g == download.gid)
-                results[url] = Path(download.files[0].path)
-                pending_gids.remove(download.gid)
-                completed += 1
-                print(f"[{completed}/{total}] Downloaded: {url}")
-            elif download.has_failed:
-                url = next(u for u, g in url_to_gid.items() if g == download.gid)
-                error_msg = download.error_message or f"Error code {download.error_code}"
-                raise RuntimeError(f"Download failed for {url}: {error_msg}")
+        # Get all downloads (avoids GID not found errors)
+        all_downloads = api.get_downloads()
+
+        # Build a map of current downloads by GID
+        downloads_by_gid = {d.gid: d for d in all_downloads}
+
+        # Check each pending URL
+        for url in list(pending_urls):
+            gid = url_to_gid[url]
+            filename = url_to_filename[url]
+            file_path = download_dir / filename
+
+            # Check if download is in aria2c's list
+            if gid in downloads_by_gid:
+                download = downloads_by_gid[gid]
+                if download.is_complete:
+                    results[url] = file_path
+                    pending_urls.remove(url)
+                    completed += 1
+                    print(f"[{completed}/{total}] Downloaded: {url}")
+                elif download.has_failed:
+                    error_msg = download.error_message or f"Error code {download.error_code}"
+                    raise RuntimeError(f"Download failed for {url}: {error_msg}")
+            else:
+                # Download not in list - check if file exists (completed and purged)
+                if file_path.exists() and file_path.stat().st_size > 0:
+                    results[url] = file_path
+                    pending_urls.remove(url)
+                    completed += 1
+                    print(f"[{completed}/{total}] Downloaded: {url}")
 
     return results
 
@@ -1097,7 +1118,7 @@ def main():
         if urls_to_download:
             print(f"Downloading {len(urls_to_download)} pages using aria2c...")
             with aria2_downloader(download_dir) as api:
-                download_results = batch_download_urls(api, urls_to_download)
+                download_results = batch_download_urls(api, urls_to_download, Path(download_dir))
             print("Downloads complete. Processing files...")
 
         # Process files
