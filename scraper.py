@@ -8,10 +8,15 @@ function prototypes from online documentation.
 """
 
 import argparse
+import hashlib
 import json
 import multiprocessing
 import os
 import re
+import shutil
+import subprocess
+import sys
+import tempfile
 import time
 import traceback
 import uuid
@@ -21,7 +26,7 @@ from pathlib import Path
 from typing import Dict, Optional, Tuple
 from urllib.parse import quote, urljoin
 
-import requests
+import aria2p
 import yaml
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString
@@ -70,6 +75,7 @@ class WorkerArgs:
     base_url: str
     repo_type: DocsRepositoryType
     previous_output_path: Optional[Path]
+    downloaded_html_path: Optional[Path]
 
 
 DOCS_REPOSITORY_INFO = {
@@ -102,10 +108,85 @@ class UnsupportedFuzzyDoc(Exception):
     pass
 
 
-REQUESTS_SESSION = requests.Session()
-REQUESTS_SESSION.headers.update({
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
-})
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+
+
+def start_aria2c_daemon(download_dir: str) -> subprocess.Popen:
+    """Start aria2c daemon as subprocess with RPC enabled."""
+    cmd = [
+        'aria2c',
+        '--enable-rpc',
+        '--rpc-listen-port=6800',
+        '--dir=' + download_dir,
+        '--auto-file-renaming=false',
+        '--allow-overwrite=true',
+        '--user-agent=' + USER_AGENT,
+        '--max-tries=50',
+        '--retry-wait=5',
+    ]
+    return subprocess.Popen(
+        cmd,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+
+
+def stop_aria2c_daemon(process: subprocess.Popen):
+    """Stop aria2c daemon subprocess."""
+    process.terminate()
+    try:
+        process.wait(timeout=5)
+    except subprocess.TimeoutExpired:
+        process.kill()
+
+
+def batch_download_urls(
+    api: aria2p.API,
+    urls: list,
+    download_dir: Path,
+) -> Dict[str, Optional[Path]]:
+    """
+    Download multiple URLs using aria2c.
+
+    Returns dict mapping URL to downloaded file path (or None if failed/404).
+    """
+    if not urls:
+        return {}
+
+    # Map URL to GID for tracking
+    url_to_gid = {}
+
+    # Queue all downloads
+    for url in urls:
+        # Use URL hash as filename to avoid conflicts
+        filename = hashlib.md5(url.encode()).hexdigest() + '.html'
+        options = {'out': filename}
+        download = api.add_uris([url], options=options)
+        url_to_gid[url] = download.gid
+
+    # Wait for all downloads to complete
+    results = {}
+    pending_gids = set(url_to_gid.values())
+    total = len(pending_gids)
+    completed = 0
+
+    while pending_gids:
+        time.sleep(0.5)
+        downloads = api.get_downloads(list(pending_gids))
+
+        for download in downloads:
+            if download.is_complete:
+                url = next(u for u, g in url_to_gid.items() if g == download.gid)
+                results[url] = Path(download.files[0].path)
+                pending_gids.remove(download.gid)
+                completed += 1
+                print(f"[{completed}/{total}] Downloaded: {url}")
+            elif download.has_failed:
+                url = next(u for u, g in url_to_gid.items() if g == download.gid)
+                error_msg = download.error_message or f"Error code {download.error_code}"
+                raise RuntimeError(f"Download failed for {url}: {error_msg}")
+
+    return results
 
 
 def html_escape(html: str) -> str:
@@ -469,30 +550,16 @@ def get_online_url_from_file_path(file_path: str, base_url: str) -> str:
     return urljoin(base_url, rel_path)
 
 
-def scrape_function_prototype(url: str) -> Optional[str]:
+def parse_function_prototype_from_file(html_path: Path, url: str) -> Optional[str]:
     """
-    Scrape code definition from online documentation.
+    Parse code definition from downloaded HTML file.
     Finds the first code block that follows the "Syntax" heading.
     Returns empty string if page exists but has no syntax section.
-    Returns None only for actual errors (404, network issues, etc).
     """
+    with open(html_path, 'r', encoding='utf-8', errors='ignore') as f:
+        content = f.read()
 
-    delay = 1
-    while True:
-        try:
-            response = REQUESTS_SESSION.get(url, timeout=10)
-            if response.status_code == 404:
-                print(f"Error, page not found (404): {url}")
-                return None
-
-            response.raise_for_status()
-            break
-        except Exception as e:
-            print(f"Error getting {url}, retrying in {delay}s: {e}")
-            time.sleep(delay)
-            delay = min(delay * 2, 60 * 5)
-
-    soup = BeautifulSoup(response.content, 'html.parser')
+    soup = BeautifulSoup(content, 'html.parser')
 
     # Look for the "Syntax" heading using the id attribute
     syntax_heading = soup.find('h2', id='syntax')
@@ -658,6 +725,7 @@ def process_markdown_file(
     base_url: str,
     repo_type: DocsRepositoryType,
     previous_output_dir: Optional[Path] = None,
+    downloaded_html_path: Optional[Path] = None,
 ) -> bool:
     """
     Process a single markdown file.
@@ -669,6 +737,7 @@ def process_markdown_file(
         base_url: Base URL for the online documentation
         repo_type: Type of the documentation repository (organized or fuzzy)
         previous_output_dir: Optional path to previous output directory for reusing .c files
+        downloaded_html_path: Optional path to downloaded HTML file for extracting prototypes
 
     Returns True if code was extracted, False otherwise.
     """
@@ -740,8 +809,8 @@ def process_markdown_file(
     if prototype is None:
         if repo_type == DocsRepositoryType.ORGANIZED:
             # Skip scraping for IOCTL files
-            if not base_name.startswith('ni-'):
-                prototype = scrape_function_prototype(url)
+            if not base_name.startswith('ni-') and downloaded_html_path is not None:
+                prototype = parse_function_prototype_from_file(downloaded_html_path, url)
         elif repo_type == DocsRepositoryType.FUZZY:
             if fuzzy_code_definition is not None:
                 prototype = fuzzy_code_definition
@@ -782,6 +851,7 @@ def process_file_worker(args: WorkerArgs):
             args.base_url,
             args.repo_type,
             args.previous_output_path,
+            args.downloaded_html_path,
         )
         if code_success:
             return (ProcessingResult.CODE_EXTRACTED, base_name, None)
@@ -796,6 +866,14 @@ def process_file_worker(args: WorkerArgs):
 def main():
     """Main function."""
     args = parse_arguments()
+
+    # Check for aria2c installation
+    if shutil.which('aria2c') is None:
+        print("Error: aria2c not found. Please install aria2:")
+        print("  - Windows: winget install aria2")
+        print("  - macOS: brew install aria2")
+        print("  - Linux: apt install aria2")
+        sys.exit(1)
 
     # Get repository info
     repo_info = DOCS_REPOSITORY_INFO[args.repository]
@@ -869,62 +947,123 @@ def main():
 
     print(f"Found {len(markdown_files)} markdown files to process ({ignored_count} files ignored)")
 
-    # Determine number of worker processes
-    num_workers = os.cpu_count() or 1
-    print(f"Using {num_workers} worker processes")
+    # Create temp directory for downloads
+    download_dir = tempfile.mkdtemp(prefix='scraper_downloads_')
+    aria2c_process = None
 
-    # Prepare arguments for worker processes
-    total = len(markdown_files)
-    worker_args = [
-        WorkerArgs(
-            index=i,
-            total=total,
-            md_file=md_file,
-            content_dir=content_dir,
-            output_path=output_path,
-            base_url=base_url,
-            repo_type=repo_type,
-            previous_output_path=previous_output_path,
-        )
-        for i, md_file in enumerate(markdown_files, 1)
-    ]
+    try:
+        # Collect URLs to download (for ORGANIZED repos without previous output, excluding IOCTL files)
+        urls_to_download = []
+        md_file_to_url = {}
 
-    # Process files in parallel
-    code_extracted = 0
-    code_not_extracted = 0
-    exception_count = 0
-    unsupported_count = 0
-    processed_count = 0
+        for md_file in markdown_files:
+            base_name = md_file.stem
+            relative_path = md_file.relative_to(content_dir)
 
-    with multiprocessing.Pool(processes=num_workers) as pool:
-        # Use imap_unordered for better performance and progress tracking
-        for result in pool.imap_unordered(process_file_worker, worker_args):
-            result_type, base_name, error_trace = result
+            # Skip if not ORGANIZED repo (FUZZY repos extract code from markdown)
+            if repo_type != DocsRepositoryType.ORGANIZED:
+                continue
 
-            if result_type == ProcessingResult.CODE_EXTRACTED:
-                processed_count += 1
-                print(f"[{processed_count}/{total}] Processing {base_name}... OK")
-                code_extracted += 1
-            elif result_type == ProcessingResult.NO_CODE:
-                processed_count += 1
-                print(f"[{processed_count}/{total}] Processing {base_name}... No code extracted")
-                code_not_extracted += 1
-            elif result_type == ProcessingResult.ERROR:
-                processed_count += 1
-                print(error_trace)
-                print(f"[{processed_count}/{total}] Processing {base_name}... Error, exception raised")
-                exception_count += 1
-            elif result_type == ProcessingResult.UNSUPPORTED:
-                processed_count += 1
-                unsupported_count += 1
-                # Silently skip unsupported files (no output)
+            # Skip IOCTL files (ni- prefix)
+            if base_name.startswith('ni-'):
+                continue
 
-    print(f"\nProcessing complete:")
-    print(f"Code definitions extracted: {code_extracted}")
-    print(f"Code definitions not extracted: {code_not_extracted}")
-    print(f"Unsupported files skipped: {unsupported_count}")
-    print(f"Exceptions raised: {exception_count}")
-    print(f"Output directory: {output_path}")
+            # Skip if we have previous output
+            if previous_output_path:
+                previous_c_file = previous_output_path / relative_path.parent / f"{base_name}.c"
+                if previous_c_file.exists():
+                    continue
+
+            # Build URL and add to download list
+            url = get_online_url_from_file_path(str(relative_path), base_url)
+            urls_to_download.append(url)
+            md_file_to_url[md_file] = url
+
+        # Download all URLs using aria2p
+        download_results = {}
+        if urls_to_download:
+            print(f"Downloading {len(urls_to_download)} pages using aria2c...")
+
+            # Start aria2c daemon
+            aria2c_process = start_aria2c_daemon(download_dir)
+            time.sleep(1)  # Wait for daemon to start
+
+            # Connect to aria2c
+            api = aria2p.API(aria2p.Client(host="http://localhost", port=6800))
+
+            # Batch download all URLs
+            download_results = batch_download_urls(api, urls_to_download, Path(download_dir))
+
+            print(f"Downloads complete. Processing files...")
+
+        # Determine number of worker processes
+        num_workers = os.cpu_count() or 1
+        print(f"Using {num_workers} worker processes")
+
+        # Prepare arguments for worker processes
+        total = len(markdown_files)
+        worker_args = []
+        for i, md_file in enumerate(markdown_files, 1):
+            # Get downloaded HTML path if available
+            url = md_file_to_url.get(md_file)
+            downloaded_html_path = download_results.get(url) if url else None
+
+            worker_args.append(WorkerArgs(
+                index=i,
+                total=total,
+                md_file=md_file,
+                content_dir=content_dir,
+                output_path=output_path,
+                base_url=base_url,
+                repo_type=repo_type,
+                previous_output_path=previous_output_path,
+                downloaded_html_path=downloaded_html_path,
+            ))
+
+        # Process files in parallel
+        code_extracted = 0
+        code_not_extracted = 0
+        exception_count = 0
+        unsupported_count = 0
+        processed_count = 0
+
+        with multiprocessing.Pool(processes=num_workers) as pool:
+            # Use imap_unordered for better performance and progress tracking
+            for result in pool.imap_unordered(process_file_worker, worker_args):
+                result_type, base_name, error_trace = result
+
+                if result_type == ProcessingResult.CODE_EXTRACTED:
+                    processed_count += 1
+                    print(f"[{processed_count}/{total}] Processing {base_name}... OK")
+                    code_extracted += 1
+                elif result_type == ProcessingResult.NO_CODE:
+                    processed_count += 1
+                    print(f"[{processed_count}/{total}] Processing {base_name}... No code extracted")
+                    code_not_extracted += 1
+                elif result_type == ProcessingResult.ERROR:
+                    processed_count += 1
+                    print(error_trace)
+                    print(f"[{processed_count}/{total}] Processing {base_name}... Error, exception raised")
+                    exception_count += 1
+                elif result_type == ProcessingResult.UNSUPPORTED:
+                    processed_count += 1
+                    unsupported_count += 1
+                    # Silently skip unsupported files (no output)
+
+        print(f"\nProcessing complete:")
+        print(f"Code definitions extracted: {code_extracted}")
+        print(f"Code definitions not extracted: {code_not_extracted}")
+        print(f"Unsupported files skipped: {unsupported_count}")
+        print(f"Exceptions raised: {exception_count}")
+        print(f"Output directory: {output_path}")
+
+    finally:
+        # Stop aria2c daemon
+        if aria2c_process is not None:
+            stop_aria2c_daemon(aria2c_process)
+
+        # Clean up temp directory
+        shutil.rmtree(download_dir, ignore_errors=True)
 
 
 if __name__ == "__main__":
