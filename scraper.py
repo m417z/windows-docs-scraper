@@ -176,6 +176,7 @@ def aria2_downloader(download_dir: str):
             '--user-agent=' + USER_AGENT,
             '--max-tries=50',
             '--retry-wait=5',
+            '--max-connection-per-server=4',  # Reduce to avoid 429 errors
         ]
         process = subprocess.Popen(
             cmd,
