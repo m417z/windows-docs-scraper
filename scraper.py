@@ -24,7 +24,7 @@ from dataclasses import dataclass
 from enum import IntEnum, auto
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-from urllib.parse import quote, urljoin, urlparse
+from urllib.parse import quote, urljoin
 
 import httpx
 import yaml
@@ -156,30 +156,6 @@ class UnsupportedFuzzyDoc(Exception):
 # HTTP Download Management
 # =============================================================================
 
-class DomainRateLimiter:
-    """Rate limiter that enforces per-domain and global concurrency limits."""
-
-    def __init__(self, max_concurrent: int = 2, max_per_domain: int = 1):
-        self.global_semaphore = asyncio.Semaphore(max_concurrent)
-        self.domain_semaphores: Dict[str, asyncio.Semaphore] = {}
-        self.max_per_domain = max_per_domain
-        self._lock = asyncio.Lock()
-
-    async def acquire(self, url: str):
-        domain = urlparse(url).netloc
-        async with self._lock:
-            if domain not in self.domain_semaphores:
-                self.domain_semaphores[domain] = asyncio.Semaphore(self.max_per_domain)
-
-        await self.global_semaphore.acquire()
-        await self.domain_semaphores[domain].acquire()
-
-    def release(self, url: str):
-        domain = urlparse(url).netloc
-        self.domain_semaphores[domain].release()
-        self.global_semaphore.release()
-
-
 class BackoffState:
     """Manages exponential backoff for 429 rate limiting."""
 
@@ -217,7 +193,7 @@ async def download_single_url(
     client: httpx.AsyncClient,
     url: str,
     download_dir: Path,
-    rate_limiter: DomainRateLimiter,
+    semaphore: asyncio.Semaphore,
     backoff_state: BackoffState,
     max_retries: int,
     retry_wait: float,
@@ -233,8 +209,7 @@ async def download_single_url(
 
     for attempt in range(max_retries):
         try:
-            await rate_limiter.acquire(url)
-            try:
+            async with semaphore:
                 response = await client.get(url, follow_redirects=True)
 
                 if response.status_code == 429:
@@ -249,9 +224,6 @@ async def download_single_url(
                 response.raise_for_status()
                 file_path.write_bytes(response.content)
                 return (url, file_path)
-
-            finally:
-                rate_limiter.release(url)
 
         except httpx.HTTPStatusError as e:
             if e.response.status_code == 429:
@@ -283,11 +255,11 @@ async def httpx_batch_download(
     max_retries: int = 50,
     retry_wait: float = 5.0,
 ) -> Dict[str, Path]:
-    """Download multiple URLs using httpx with async concurrency."""
+    """Download multiple URLs using httpx with HTTP/2 multiplexing."""
     if not urls:
         return {}
 
-    rate_limiter = DomainRateLimiter(max_concurrent=max_concurrent, max_per_domain=1)
+    semaphore = asyncio.Semaphore(max_concurrent)
     backoff_state = BackoffState(max_backoff=300.0, reset_after=300.0)
 
     results: Dict[str, Path] = {}
@@ -299,7 +271,7 @@ async def httpx_batch_download(
         nonlocal completed
         result = await download_single_url(
             client, url, download_dir,
-            rate_limiter, backoff_state,
+            semaphore, backoff_state,
             max_retries, retry_wait,
         )
         async with completed_lock:
@@ -310,6 +282,7 @@ async def httpx_batch_download(
     async with httpx.AsyncClient(
         headers={'User-Agent': USER_AGENT},
         timeout=httpx.Timeout(30.0, connect=10.0),
+        http2=True,
     ) as client:
         tasks = [download_with_progress(url) for url in urls]
 
