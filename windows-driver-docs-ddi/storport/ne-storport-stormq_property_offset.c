@@ -5,7 +5,8 @@ typedef enum _STORMQ_PROPERTY_OFFSET {
   StorMQPropSQMiniportContext,
   StorMQPropControllerNumaAffinity,
   StorMQPropPopulatePrpEntries,
-  StorMQPropSQLPAffinity,
+  StorMQPropLPSQAffinity,
   StorMQPropSQCQAffinity,
-  StorMQPropCQIVAffinity
+  StorMQPropCQIVAffinity,
+  StorMQPropControllerStatus
 } STORMQ_PROPERTY_OFFSET;

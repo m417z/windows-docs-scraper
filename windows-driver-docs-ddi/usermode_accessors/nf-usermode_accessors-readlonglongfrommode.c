@@ -1,4 +1,4 @@
 LONGLONG ReadLonglongFromMode(
-  const LONGLONG  *Source,
-  KPROCESSOR_MODE Mode
+  const volatile LONGLONG *Source,
+  KPROCESSOR_MODE         Mode
 );

@@ -1,5 +1,5 @@
 VOID WriteLonglongToMode(
-  LONGLONG        *Destination,
-  LONGLONG        Value,
-  KPROCESSOR_MODE Mode
+  volatile LONGLONG *Destination,
+  LONGLONG          Value,
+  KPROCESSOR_MODE   Mode
 );

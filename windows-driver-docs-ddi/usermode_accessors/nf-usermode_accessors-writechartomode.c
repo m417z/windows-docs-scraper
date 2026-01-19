@@ -1,5 +1,5 @@
 VOID WriteCharToMode(
-  CHAR            *Destination,
+  volatile CHAR   *Destination,
   CHAR            Value,
   KPROCESSOR_MODE Mode
 );

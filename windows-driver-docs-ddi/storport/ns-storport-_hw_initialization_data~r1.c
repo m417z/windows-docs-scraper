@@ -27,7 +27,10 @@ typedef struct _HW_INITIALIZATION_DATA {
   };
   USHORT                      DeviceIdLength;
   PVOID                       DeviceId;
-  PHW_ADAPTER_CONTROL         HwAdapterControl;
+  union {
+    PHW_ADAPTER_CONTROL      HwAdapterControl;
+    PHW_NVME_ADAPTER_CONTROL HwNvmeAdapterControl;
+  };
   PHW_BUILDIO                 HwBuildIo;
   PHW_FREE_ADAPTER_RESOURCES  HwFreeAdapterResources;
   PHW_PROCESS_SERVICE_REQUEST HwProcessServiceRequest;

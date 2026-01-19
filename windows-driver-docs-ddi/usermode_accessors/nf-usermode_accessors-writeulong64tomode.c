@@ -1,5 +1,5 @@
 VOID WriteULong64ToMode(
-  ULONG64         *Destination,
-  ULONG64         Value,
-  KPROCESSOR_MODE Mode
+  volatile ULONG64 *Destination,
+  ULONG64          Value,
+  KPROCESSOR_MODE  Mode
 );

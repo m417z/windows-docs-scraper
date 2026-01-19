@@ -1,4 +1,4 @@
 HANDLE ReadHandleFromMode(
-  const HANDLE    *Source,
-  KPROCESSOR_MODE Mode
+  const volatile HANDLE *Source,
+  KPROCESSOR_MODE       Mode
 );

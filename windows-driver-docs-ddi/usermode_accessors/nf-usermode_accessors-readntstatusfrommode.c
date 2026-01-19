@@ -1,4 +1,4 @@
 NTSTATUS ReadNtStatusFromMode(
-  const NTSTATUS  *Source,
-  KPROCESSOR_MODE Mode
+  const volatile NTSTATUS *Source,
+  KPROCESSOR_MODE         Mode
 );

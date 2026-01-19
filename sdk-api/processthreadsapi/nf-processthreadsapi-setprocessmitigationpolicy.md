@@ -8,7 +8,7 @@ Sets a mitigation policy for the calling process. Mitigation policies enable a p
 
 ### `MitigationPolicy` [in]
 
-The mitigation policy to apply. This parameter can be one of the following values.
+The mitigation policy to apply. This parameter can be one of the following values from the [PROCESS_MITIGATION_POLICY](https://learn.microsoft.com/windows/win32/api/winnt/ne-winnt-process_mitigation_policy) enumeration.
 
 |Value |Meaning |
 |---------|---------|

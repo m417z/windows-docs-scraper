@@ -1,5 +1,5 @@
 VOID WriteUShortToMode(
-  USHORT          *Destination,
+  volatile USHORT *Destination,
   USHORT          Value,
   KPROCESSOR_MODE Mode
 );

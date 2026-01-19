@@ -5,5 +5,5 @@ typedef struct {
     UCHAR BatteryLevel;
     UCHAR Brightness;
   };
-  __unnamed_struct_019e_4 Level[1];
+  __unnamed_struct_01a0_4 Level[1];
 } VIDEO_BRIGHTNESS_POLICY, *PVIDEO_BRIGHTNESS_POLICY;

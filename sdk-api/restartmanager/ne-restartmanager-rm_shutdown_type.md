@@ -16,9 +16,13 @@ Shuts down applications if and only if all the applications have been registered
 
 ## Remarks
 
-The time to wait before initiating a forced shutdown of applications is specified by the following registry key. **HKCU**\**Control Panel**\**Desktop**\**HungAppTimeout**
+The time to wait before initiating a forced shutdown of applications can be obtained by calling the
+[SystemParametersInfo](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-systemparametersinfow) function
+with the value **SPI_GETHUNGAPPTIMEOUT**.
 
-The time to wait before initiating a forced shutdown of services is specified by the following registry key. **HKLM**\**System**\**CurrentControlSet**\**Control**\**WaitToKillServiceTimeout**
+The time to wait before initiating a forced shutdown of services can be obtained by calling the
+[SystemParametersInfo](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-systemparametersinfow) function
+with the value **SPI_GETWAITTOKILLSERVICETIMEOUT**.
 
 ## See also
 

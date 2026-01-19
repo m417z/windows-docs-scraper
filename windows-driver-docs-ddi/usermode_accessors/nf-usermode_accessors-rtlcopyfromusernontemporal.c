@@ -1,5 +1,5 @@
 VOID RtlCopyFromUserNonTemporal(
-  VOID                *Destination,
+  volatile VOID       *Destination,
   const volatile VOID *Source,
   SIZE_T              Length
 );

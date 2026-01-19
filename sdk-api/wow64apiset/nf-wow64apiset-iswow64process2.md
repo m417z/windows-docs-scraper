@@ -13,11 +13,11 @@ A handle to the process. The handle must have the **PROCESS_QUERY_INFORMATION** 
 
 ### `pProcessMachine` [out]
 
-On success, returns a pointer to an [IMAGE_FILE_MACHINE_*](https://learn.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants) value. The value will be **IMAGE_FILE_MACHINE_UNKNOWN** if the target process is not a [WOW64](https://learn.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications) process; otherwise, it will identify the type of WoW process.
+A pointer to the variable that, on success, receives an [IMAGE_FILE_MACHINE_*](https://learn.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants) value. The value will be **IMAGE_FILE_MACHINE_UNKNOWN** if the target process is not a [WOW64](https://learn.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications) process; otherwise, it will identify the type of WoW process.
 
 ### `pNativeMachine` [out, optional]
 
-On success, returns a pointer to a possible [IMAGE_FILE_MACHINE_*](https://learn.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants) value identifying the native architecture of host system.
+A pointer to the variable that, on success, receives a possible [IMAGE_FILE_MACHINE_*](https://learn.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants) value identifying the native architecture of host system.
 
 ## Return value
 

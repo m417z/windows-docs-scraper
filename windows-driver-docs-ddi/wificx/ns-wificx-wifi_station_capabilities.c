@@ -37,4 +37,5 @@ typedef struct _WIFI_STATION_CAPABILITIES {
   BOOLEAN                    DSCPToUPMappingSupported;
   UINT32                     MaxNumConfigurableActionFrameWakePatterns;
   BOOLEAN                    CrossAkmCipherRoamSupported;
+  BOOLEAN                    IsWiFi7EnterpriseSupported;
 } WIFI_STATION_CAPABILITIES;

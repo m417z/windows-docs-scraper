@@ -1,4 +1,4 @@
 USHORT ReadUShortFromMode(
-  const USHORT    *Source,
-  KPROCESSOR_MODE Mode
+  const volatile USHORT *Source,
+  KPROCESSOR_MODE       Mode
 );

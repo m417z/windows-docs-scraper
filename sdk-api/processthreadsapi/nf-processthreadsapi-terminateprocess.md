@@ -32,7 +32,7 @@ When a process terminates itself, **TerminateProcess** stops execution of the ca
 
 A process cannot prevent itself from being terminated.
 
-After a process has terminated, call to **TerminateProcess** with open handles to the process fails with **ERROR_ACCESS_DENIED** (5) error code.
+After a process has terminated, calls to **TerminateProcess** with open handles to the process fails with **ERROR_ACCESS_DENIED** (5) error code.
 
 ## See also
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-Converts the local time in the specified time zone to a corresponding Coordinated Universal Time (UTC).
+Converts the specified local time to the corresponding time in Coordinated Universal Time (UTC).
 
 ## Parameters
 
@@ -32,10 +32,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 > [!IMPORTANT]
 > The following local times, near DST transitions, can be **ambiguous** or **invalid** and might result in unexpected behavior (as there is no guaranteed "correct" result).
-> - During the transition from daylight time to standard time, the local clock repeats. A local time within the repeated window is **ambiguous** because it occurs twice, once in daylight time and once in standard time.
-> - During the transition from standard time to daylight time, the local clock jumps forward. A local time within the skipped window is **invalid** because it does not have a valid UTC conversion.
 >
-> If the specified local time is either ambiguous or invalid, the function treats it as **daylight time** and applies the daylight time bias. Applications requiring continuity or precision should avoid this function and use UTC time instead.
+> - During the transition from daylight saving time to standard time, the local clock repeats. A local time within the repeated window is **ambiguous** because it occurs twice, once in daylight saving time and once in standard time.
+> - During the transition from standard time to daylight saving time, the local clock jumps forward. A local time within the skipped window is **invalid** because it does not have a valid UTC conversion.
+>
+> If the specified local time is either ambiguous or invalid, the function treats it as daylight saving time and applies the daylight saving time bias. Applications requiring continuity or precision should avoid this function and use UTC time instead.
 
 ## See also
 

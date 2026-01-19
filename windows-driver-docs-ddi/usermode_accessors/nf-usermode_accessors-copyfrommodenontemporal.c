@@ -1,6 +1,6 @@
 VOID CopyFromModeNonTemporal(
-  VOID            *Destination,
-  const VOID      *Source,
-  SIZE_T          Length,
-  KPROCESSOR_MODE Mode
+  VOID                *Destination,
+  const volatile VOID *Source,
+  SIZE_T              Length,
+  KPROCESSOR_MODE     Mode
 );

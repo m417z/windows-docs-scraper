@@ -1,4 +1,4 @@
 LONG64 ReadLong64FromMode(
-  const LONG64    *Source,
-  KPROCESSOR_MODE Mode
+  const volatile LONG64 *Source,
+  KPROCESSOR_MODE       Mode
 );

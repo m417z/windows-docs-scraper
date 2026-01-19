@@ -1,4 +1,4 @@
 UCHAR ReadUCharFromMode(
-  const UCHAR     *Source,
-  KPROCESSOR_MODE Mode
+  const volatile UCHAR *Source,
+  KPROCESSOR_MODE      Mode
 );

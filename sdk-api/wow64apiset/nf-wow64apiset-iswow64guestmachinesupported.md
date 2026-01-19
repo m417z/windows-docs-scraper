@@ -12,7 +12,7 @@ An [IMAGE_FILE_MACHINE_*](https://learn.microsoft.com/windows/desktop/SysInfo/im
 
 ### `MachineIsSupported` [out]
 
-On success, returns a pointer to a boolean: **true** if the machine supports WOW64, or **false** if it does not.
+A pointer to the variable that, on success, receives **true** if the machine supports WOW64, or **false** if it does not.
 
 ## Return value
 

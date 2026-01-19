@@ -1,4 +1,4 @@
 ULONG ReadULongFromMode(
-  const ULONG     *Source,
-  KPROCESSOR_MODE Mode
+  const volatile ULONG *Source,
+  KPROCESSOR_MODE      Mode
 );

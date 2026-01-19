@@ -1,4 +1,4 @@
 PVOID ReadPointerFromMode(
-  const PVOID     *Source,
-  KPROCESSOR_MODE Mode
+  const volatile PVOID *Source,
+  KPROCESSOR_MODE      Mode
 );

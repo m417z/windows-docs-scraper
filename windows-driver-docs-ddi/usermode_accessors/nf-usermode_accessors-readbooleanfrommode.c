@@ -1,4 +1,4 @@
 BOOLEAN ReadBooleanFromMode(
-  const BOOLEAN   *Source,
-  KPROCESSOR_MODE Mode
+  const volatile BOOLEAN *Source,
+  KPROCESSOR_MODE        Mode
 );

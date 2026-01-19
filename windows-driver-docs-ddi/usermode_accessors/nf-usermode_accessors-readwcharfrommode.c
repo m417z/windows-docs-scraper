@@ -1,4 +1,4 @@
 WCHAR ReadWCharFromMode(
-  const WCHAR     *Source,
-  KPROCESSOR_MODE Mode
+  const volatile WCHAR *Source,
+  KPROCESSOR_MODE      Mode
 );

@@ -1,5 +1,5 @@
 VOID WriteULonglongToMode(
-  ULONGLONG       *Destination,
-  ULONGLONG       Value,
-  KPROCESSOR_MODE Mode
+  volatile ULONGLONG *Destination,
+  ULONGLONG          Value,
+  KPROCESSOR_MODE    Mode
 );

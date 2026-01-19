@@ -1,4 +1,4 @@
 CHAR ReadCharFromMode(
-  const CHAR      *Source,
-  KPROCESSOR_MODE Mode
+  const volatile CHAR *Source,
+  KPROCESSOR_MODE     Mode
 );

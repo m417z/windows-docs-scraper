@@ -1,5 +1,5 @@
 VOID ZeroModeMemory(
-  VOID            *Destination,
+  volatile VOID   *Destination,
   SIZE_T          Length,
   KPROCESSOR_MODE Mode
 );

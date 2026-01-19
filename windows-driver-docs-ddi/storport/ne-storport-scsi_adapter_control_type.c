@@ -27,8 +27,8 @@ typedef enum _SCSI_ADAPTER_CONTROL_TYPE {
   ScsiAdapterRestoreEarlyDumpData,
   ScsiAdapterKsrPowerDown,
   ScsiAdapterPreparePLDR,
-  ScsiNvmeofAdapterOperation,
-  ScsiAdapterQueryStorMQInterface,
+  ScsiAdapterReserved0,
+  ScsiAdapterReserved1,
   ScsiAdapterControlMax,
   MakeAdapterControlTypeSizeOfUlong
 } SCSI_ADAPTER_CONTROL_TYPE, *PSCSI_ADAPTER_CONTROL_TYPE;

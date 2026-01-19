@@ -1,4 +1,4 @@
 SHORT ReadShortFromMode(
-  const SHORT     *Source,
-  KPROCESSOR_MODE Mode
+  const volatile SHORT *Source,
+  KPROCESSOR_MODE      Mode
 );
