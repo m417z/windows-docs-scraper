@@ -31,7 +31,7 @@ A [DML_IS_INFINITY_MODE](https://learn.microsoft.com/windows/win32/api/directml/
 
 * If **DML_IS_INFINITY_MODE_EITHER**, then 1 will be returned if the element is -inf or inf, otherwise 0.
 * If **DML_IS_INFINITY_MODE_POSITIVE**, then 1 will be returned if the element is inf, otherwise 0.
-* If **DML_IS_INFINITY_MODE_NEGATIVE**`, then 1 will be returned if the element is -inf, otherwise 0.
+* If **DML_IS_INFINITY_MODE_NEGATIVE**, then 1 will be returned if the element is -inf, otherwise 0.
 
 ## Remarks
 

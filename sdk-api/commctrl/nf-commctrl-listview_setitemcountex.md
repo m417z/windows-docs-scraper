@@ -3,7 +3,7 @@
 ## Syntax
 
 ```cpp
-void ListView_SetItemCountEx(
+LRESULT ListView_SetItemCountEx(
    HWND  hwndLV,
    int   cItems,
    DWORD dwFlags
@@ -38,6 +38,12 @@ Values that specify the behavior of the list-view control after resetting the it
 | --- | --- |
 | **LVSICF_NOINVALIDATEALL** | The list-view control will not repaint unless affected items are currently in view. |
 | **LVSICF_NOSCROLL** | The list-view control will not change the scroll position when the item count changes. |
+
+## Return value
+
+Type: **LRESULT**
+
+Returns nonzero if successful, or zero otherwise.
 
 ## Remarks
 

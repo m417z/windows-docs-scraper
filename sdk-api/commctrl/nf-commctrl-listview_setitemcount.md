@@ -3,7 +3,7 @@
 ## Syntax
 
 ```cpp
-void ListView_SetItemCount(
+LRESULT ListView_SetItemCount(
    HWND hwndLV,
    int  cItems
 );
@@ -26,6 +26,12 @@ A handle to a list-view control.
 Type: **int**
 
 The number of items for which the list-view control should allocate memory.
+
+## Return value
+
+Type: **LRESULT**
+
+Returns nonzero if successful, or zero otherwise.
 
 ## Remarks
 
