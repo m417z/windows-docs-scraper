@@ -6,13 +6,13 @@ struct RILPOSITIONINFO_V2 {
   RILPOSITIONINFOTDSCDMA stTDSCDMAServingCellInfo;
   RILPOSITIONINFOLTE     stLTEServingCellInfo;
   DWORD                  dwCntGSMNMR;
-  RILGSMNMR              rgNMR[MAX_GSMPOS_COUNT_OF_NMR];
+  RILGSMNMR              rgNMR[15];
   DWORD                  dwCntUMTSMRL;
-  ruMRL                  RILUMTSMRL[MAX_UMTSPOS_COUNT_OF_MRL];
+  RILUMTSMRL             ruMRL[15];
   DWORD                  dwCntTDSCDMAMRL;
-  rtMRL                  RILTDSCDMAMRL[MAX_TDSCDMAPOS_COUNT_OF_MRL];
+  RILTDSCDMAMRL          rtMRL[15];
   DWORD                  dwCntEUTRAMRL;
-  RILEUTRAMRL            reMRL[MAX_EUTRAPOS_COUNT_OF_MRL];
+  RILEUTRAMRL            reMRL[15];
   DWORD                  dwCntC2KMRL;
-  RILC2KMRL              rc2kMRL[MAX_C2KPOS_COUNT_OF_MRL];
+  RILC2KMRL              rc2kMRL[12];
 };

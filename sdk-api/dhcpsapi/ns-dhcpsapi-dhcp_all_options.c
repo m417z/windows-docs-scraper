@@ -7,5 +7,5 @@ typedef struct _DHCP_ALL_OPTIONS {
     LPWSTR      VendorName;
     LPWSTR      ClassName;
   };
-  __unnamed_struct_00b7_3 *VendorOptions;
+  __unnamed_struct_00b8_3 *VendorOptions;
 } DHCP_ALL_OPTIONS, *LPDHCP_ALL_OPTIONS;

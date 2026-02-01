@@ -7,5 +7,5 @@ typedef struct _DHCP_ALL_OPTION_VALUES_PB {
     BOOL                      IsVendor;
     LPDHCP_OPTION_VALUE_ARRAY OptionsArray;
   };
-  __unnamed_struct_00b7_5 *Options;
+  __unnamed_struct_00b8_5 *Options;
 } DHCP_ALL_OPTION_VALUES_PB, *LPDHCP_ALL_OPTION_VALUES_PB;
