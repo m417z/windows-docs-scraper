@@ -12,5 +12,6 @@ typedef enum _HTTP_SERVER_PROPERTY {
   HttpServerChannelBindProperty = 10,
   HttpServerProtectionLevelProperty = 11,
   HttpServerDelegationProperty,
-  HttpServerFastForwardingProperty
+  HttpServerFastForwardingProperty,
+  HttpServerRequestInfoProperty
 } HTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY;

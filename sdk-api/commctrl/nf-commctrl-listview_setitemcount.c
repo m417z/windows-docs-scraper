@@ -1,4 +1,4 @@
-void ListView_SetItemCount(
+LRESULT ListView_SetItemCount(
    HWND hwndLV,
    int  cItems
 );

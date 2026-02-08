@@ -1,0 +1,50 @@
+{
+  "UID": "NF:appxpackaging.IAppxFactory4.CreatePackageReaderFromSourceUri",
+  "tech.root": "appxpkg",
+  "title": "IAppxFactory4::CreatePackageReaderFromSourceUri",
+  "ms.date": "01/06/2026",
+  "targetos": "Windows",
+  "description": "Creates an instance of IAppxInstallerReader from the specified package location URI, with an optional parameter for specifying the expected digest for the App Installer file.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "appxpackaging.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 version 26100",
+  "req.target-min-winversvr": "Windows Server 2025",
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "COM"
+  ],
+  "api_location": [
+    "appxpackaging.h"
+  ],
+  "api_name": [
+    "IAppxFactory4::CreatePackageReaderFromSourceUri"
+  ],
+  "f1_keywords": [
+    "IAppxFactory4::CreatePackageReaderFromSourceUri",
+    "appxpackaging/IAppxFactory4::CreatePackageReaderFromSourceUri"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "CreatePackageReaderFromSourceUri"
+  ]
+}

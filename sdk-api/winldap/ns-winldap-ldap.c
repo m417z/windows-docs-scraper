@@ -20,5 +20,5 @@ typedef struct ldap {
   ULONG  ld_cldaptimeout;
   ULONG  ld_refhoplimit;
   ULONG  ld_options;
-  ULONG  ld_maxvalrange;
+  ULONG  ld_anonymousmaxvalrange;
 } LDAP, *PLDAP;

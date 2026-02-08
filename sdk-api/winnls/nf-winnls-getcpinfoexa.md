@@ -29,7 +29,9 @@ Pointer to a [CPINFOEX](https://learn.microsoft.com/windows/desktop/api/winnls/n
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror), which can return one of the following error codes:
 
-* ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.
+- ERROR_INVALID_PARAMETER if any of the parameter values are invalid.
+- ERROR_SUCCESS for code page 1147
+- ERROR_MUI_FILE_NOT_FOUND for code page 20949.
 
 ## Remarks
 

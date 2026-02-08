@@ -16,6 +16,7 @@ typedef enum _HTTP_FEATURE_ID {
   HttpFeatureDscp,
   HttpFeatureQueryCipherInfo,
   HttpFeatureQueryInitialPacketTtl,
+  HttpFeatureTlsHandshakePerformanceCounters,
   HttpFeatureLast,
   HttpFeaturemax = 0xFFFFFFFF
 } HTTP_FEATURE_ID, *PHTTP_FEATURE_ID;

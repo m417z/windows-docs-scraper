@@ -2,7 +2,7 @@
 
 ## Description
 
-Gets the the process ID of the UI Automation client application.
+Gets the process ID of the UI Automation client application.
 
 ## Parameters
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-Synchonously called when a UI Automation client connects to the provider.
+Synchronously called when a UI Automation client connects to the provider.
 
 ## Parameters
 

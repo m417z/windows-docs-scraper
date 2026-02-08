@@ -1,4 +1,4 @@
-void ListView_SetItemCountEx(
+LRESULT ListView_SetItemCountEx(
    HWND  hwndLV,
    int   cItems,
    DWORD dwFlags

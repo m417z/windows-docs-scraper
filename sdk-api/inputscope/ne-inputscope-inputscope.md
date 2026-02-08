@@ -22,8 +22,8 @@ Indicates a URL, File, or FTP format. Examples include the following.
 
 Indicates a file path. The following conditions are enforced.
 
-* For server name and share name, allows all IS_ONECHAR characters except: * ? : < > |
-* For file name, allows all IS_ONECHAR characters except: \ / : < > |
+* For server name and share name, allows all IS_ONECHAR characters except: * ? : < > \|
+* For file name, allows all IS_ONECHAR characters except: \ / : < > \|
 * Input must start with \\ or drive name or \ or ..\ or .\ or /
 * Spaces are allowed.
 
@@ -38,7 +38,7 @@ Examples include the following.
 Indicates a file name. The following conditions are enforced.
 
 * Accepts either extension or no extension.
-* Allows all IS_ONECHAR characters except: \ / : < > |
+* Allows all IS_ONECHAR characters except: \ / : < > \|
 * Spaces are allowed.
 
 Examples include the following:
@@ -254,7 +254,7 @@ Indicates numbers, including commas, negative sign, and decimal. For United Stat
 
 Indicates a single ANSI character, codepage 1252. For United States locations, this includes the following characters.
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdEfghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_\`{|}~
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdEfghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_\`{\|}~
 
 ### `IS_PASSWORD:31`
 

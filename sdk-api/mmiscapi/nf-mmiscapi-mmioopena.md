@@ -45,6 +45,19 @@ Flags for the open operation. The MMIO_READ, MMIO_WRITE, and MMIO_READWRITE flag
 | MMIO_READWRITE | Opens the file for reading and writing. |
 | MMIO_WRITE | Opens the file for writing only. |
 
+## Return value
+
+Returns a handle of the opened file. If the file cannot be opened, the return value is **NULL**. If *lpmmioinfo* is not **NULL**, the **wErrorRet** member of the [MMIOINFO](https://learn.microsoft.com/previous-versions/dd757322(v=vs.85)) structure will contain one of the following error values.
+
+| Return code | Description |
+| --- | --- |
+| **MMIOERR_ACCESSDENIED** | The file is protected and cannot be opened. |
+| **MMIOERR_INVALIDFILE** | Another failure condition occurred. This is the default error for an open-file failure. |
+| **MMIOERR_NETWORKERROR** | The network is not responding to the request to open a remote file. |
+| **MMIOERR_PATHNOTFOUND** | The directory specification is incorrect. |
+| **MMIOERR_SHARINGVIOLATION** | The file is being used by another application and is unavailable. |
+| **MMIOERR_TOOMANYOPENFILES** | The number of files simultaneously open is at a maximum level. The system has run out of available file handles. |
+
 ## Remarks
 
 If *lpmmioinfo* points to an [MMIOINFO](https://learn.microsoft.com/previous-versions/dd757322(v=vs.85)) structure, initialize the members of the structure as follows. All unused members must be set to zero, including reserved members.

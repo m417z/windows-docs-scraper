@@ -34,6 +34,8 @@ A pointer to a filter manager-allocated [FLT_NAME_CONTROL](https://learn.microso
 
 This callback routine returns STATUS_SUCCESS or an appropriate NTSTATUS value.
 
+Filters should not return STATUS_NOT_IMPLEMENTED or STATUS_NOT_SUPPORTED.
+
 ## Remarks
 
 A minifilter driver that provides file names for the filter manager's name cache can register a routine of type *PFLT_GENERATE_FILE_NAME* as the minifilter driver's *GenerateFileNameCallback* routine.

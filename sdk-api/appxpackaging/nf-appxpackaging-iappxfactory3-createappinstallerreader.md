@@ -14,7 +14,7 @@ An LPCWSTR containing the expected digest, a hashed representation of the App In
 
 ### `appInstallerReader` [out]
 
-Receives the created **IAppInstallerReader** Instance.
+Receives the created **IAppxInstallerReader** instance.
 
 ## Return value
 

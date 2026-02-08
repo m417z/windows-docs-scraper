@@ -2,7 +2,7 @@
 
 ## Description
 
-Asynchonously called when a UI Automation client disconnects from the provider.
+Synchronously called when a UI Automation client disconnects from the provider.
 
 ## Parameters
 

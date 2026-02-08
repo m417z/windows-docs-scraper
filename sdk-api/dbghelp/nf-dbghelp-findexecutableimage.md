@@ -20,7 +20,7 @@ The path where symbol files are located. This can be multiple paths separated by
 
 ### `ImageFilePath` [out]
 
-A pointer to a buffer that receives the full path of the executable file.
+A pointer to a buffer that receives the full path of the executable file. This buffer must be at least MAX_PATH+1 characters.
 
 ## Return value
 
