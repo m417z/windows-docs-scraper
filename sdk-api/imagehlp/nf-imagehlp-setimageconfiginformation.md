@@ -10,7 +10,7 @@ Locates and changes the load configuration data of an image.
 
 A pointer to a
 [LOADED_IMAGE](https://learn.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) structure that is returned from a call to
-[MapAndLoad](https://learn.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload) or **LoadImage**.
+[MapAndLoad](https://learn.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload) or [ImageLoad](https://learn.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload).
 
 ### `ImageConfigInformation` [in]
 

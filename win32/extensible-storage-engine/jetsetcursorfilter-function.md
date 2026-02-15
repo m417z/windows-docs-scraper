@@ -6,6 +6,8 @@ The **JetSetCursorFilter** function sets an array of simple filters for the [Jet
 
 The **JetSetCursorFilter** function was introduced in the Windows 8 operating system.
 
+The **JetSetCursorFilter** function is currently only supported on primary indices.
+
 ``` c++
 JET_ERR JET_API JetSetCursorFilter(
   __in          JET_SESID sesid,
@@ -79,6 +81,15 @@ JET_errSuccess
 |
 
 The operation completed successfully.
+
+|
+|
+
+JET_errFilteredMoveNotSupported
+
+|
+
+JetSetCursorFilter does not work on secondary indices.
 
 |
 
