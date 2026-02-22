@@ -42,7 +42,7 @@ Type: **LPARAM**
 
 A pointer to an [MSG](https://learn.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg) structure that contains details about the message.
 
-## Return value
+## Returns
 
 If *code* is less than zero, the hook procedure must return the value returned by [CallNextHookEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex).
 
