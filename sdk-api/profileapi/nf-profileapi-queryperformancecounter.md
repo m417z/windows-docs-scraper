@@ -2,7 +2,7 @@
 
 ## Description
 
-Retrieves the current value of the performance counter, which is a high resolution (<1us) time stamp that can be used for time-interval measurements.
+Retrieves the current value of the performance counter, which is a high resolution (<1µs) time stamp that can be used for time-interval measurements.
 
 ## Parameters
 

@@ -38,7 +38,7 @@ Type: **WPARAM**
 
 The identifier of the mouse message.
 
-This parameter can be one of the following messages: [WM_LBUTTONDOWN](https://learn.microsoft.com/windows/desktop/inputdev/wm-lbuttondown), [WM_LBUTTONUP](https://learn.microsoft.com/windows/desktop/inputdev/wm-lbuttonup), [WM_MOUSEMOVE](https://learn.microsoft.com/windows/desktop/inputdev/wm-mousemove), [WM_MOUSEWHEEL](https://learn.microsoft.com/windows/desktop/inputdev/wm-mousewheel), [WM_RBUTTONDOWN](https://learn.microsoft.com/windows/desktop/inputdev/wm-rbuttondown) or [WM_RBUTTONUP](https://learn.microsoft.com/windows/desktop/inputdev/wm-rbuttonup).
+This parameter can be one of the following messages: [WM_LBUTTONDOWN](https://learn.microsoft.com/windows/desktop/inputdev/wm-lbuttondown), [WM_LBUTTONUP](https://learn.microsoft.com/windows/desktop/inputdev/wm-lbuttonup), [WM_MOUSEMOVE](https://learn.microsoft.com/windows/desktop/inputdev/wm-mousemove), [WM_MOUSEWHEEL](https://learn.microsoft.com/windows/desktop/inputdev/wm-mousewheel), [WM_RBUTTONDOWN](https://learn.microsoft.com/windows/desktop/inputdev/wm-rbuttondown), [WM_RBUTTONUP](https://learn.microsoft.com/windows/desktop/inputdev/wm-rbuttonup), [WM_MBUTTONDOWN](https://learn.microsoft.com/windows/desktop/inputdev/wm-mbuttondown), [WM_MBUTTONUP](https://learn.microsoft.com/windows/desktop/inputdev/wm-mbuttonup), [WM_XBUTTONDOWN](https://learn.microsoft.com/windows/desktop/inputdev/wm-xbuttondown), or [WM_XBUTTONUP](https://learn.microsoft.com/windows/desktop/inputdev/wm-xbuttonup).
 
 ### lParam [in]
 
