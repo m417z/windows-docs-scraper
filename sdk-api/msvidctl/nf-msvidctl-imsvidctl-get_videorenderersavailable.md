@@ -20,7 +20,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 This method returns a collection of video renderer devices. Use the returned [IMSVidVideoRendererDevices](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorendererdevices) pointer to enumerate the collection.
 
-**Note**In the current implementation, the collection always contains exactly one item: an [MSVidVideoRenderer](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)) object that represents the Video Mixing Renderer filter.
+**Note** In the current implementation, the collection always contains exactly one item: an [MSVidVideoRenderer](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)) object that represents the Video Mixing Renderer filter.
 
 ## See also
 

@@ -22,7 +22,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 This method returns whatever value was last set by calling [IBDA_SignalProperties::PutSignalSource](https://learn.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-putsignalsource).
 
-**Note**The *pulSignalSource* parameter is marked in the IDL file as [in, out] but is used as an [out] parameter. To preserve binary compatibility with previous versions, it has not been changed.
+**Note** The *pulSignalSource* parameter is marked in the IDL file as [in, out] but is used as an [out] parameter. To preserve binary compatibility with previous versions, it has not been changed.
 
 ## See also
 

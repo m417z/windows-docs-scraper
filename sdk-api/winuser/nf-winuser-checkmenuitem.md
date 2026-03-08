@@ -38,7 +38,7 @@ The flags that control the interpretation of the *uIDCheckItem* parameter and th
 
 Type: **DWORD**
 
-The return value specifies the previous state of the menu item (either **MF_CHECKED** or **MF_UNCHECKED**). If the menu item does not exist, the return value is –1.
+The return value specifies the previous state of the menu item (either **MF_CHECKED** or **MF_UNCHECKED**). If the menu item does not exist, the return value is UINT_MAX.
 
 ## Remarks
 

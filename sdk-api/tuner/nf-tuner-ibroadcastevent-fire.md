@@ -31,3 +31,4 @@ For a list of events fired by the TV ratings components, see [TV Ratings Broadca
 [IBroadcastEvent Interface](https://learn.microsoft.com/previous-versions/dd376294(v=vs.85))
 
 [TV Ratings Broadcast Events](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events)
+

@@ -2,7 +2,7 @@
 
 ## Description
 
-Removes the "\\?\" prefix, if present, from a file path.
+Removes the "\\\\?\\" prefix, if present, from a file path.
 
 ## Parameters
 

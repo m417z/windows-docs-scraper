@@ -38,7 +38,7 @@ An application's ProgID, such as **Word.Document.8**.
 
 #### Executable name
 
-The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) flag must be set in *flags*.
+The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/shell/assocf_str) flag must be set in *flags*.
 
 ### `pszExtra` [in]
 
@@ -58,7 +58,7 @@ A CLSID GUID in the standard "{GUID}" format.
 
 ##### - pszAssoc.Executable name
 
-The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) flag must be set in *flags*.
+The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/shell/assocf_str) flag must be set in *flags*.
 
 ##### - pszAssoc.File name extension
 

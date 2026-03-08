@@ -21,3 +21,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 [IESEvent](https://learn.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent)
 
 [IESEventService::FireESEvent](https://learn.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent)
+

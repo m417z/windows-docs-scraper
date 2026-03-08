@@ -18,7 +18,7 @@ Type: **LPCTSTR**
 
 A **null**-terminated string or a class atom.
 
-If a **null**-terminated string, it specifies the window class name. The class name can be any name registered with the [RegisterClass](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclasswa) or [RegisterClassEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa) function, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined [system class](https://learn.microsoft.com/windows/desktop/winmsg/about-window-classes) names.
+If a **null**-terminated string, it specifies the window class name. The class name can be any name registered with the [RegisterClass](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa) or [RegisterClassEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa) function, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined [system class](https://learn.microsoft.com/windows/desktop/winmsg/about-window-classes) names.
 
 If a class atom created by a previous call to **RegisterClass** or **RegisterClassEx**, it must be converted using the macro [MAKEINTATOM](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-makeintatom). (The atom must be in the low-order word of *lpClassName*; the high-order word must be zero.)
 

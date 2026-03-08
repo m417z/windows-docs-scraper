@@ -18,8 +18,8 @@ Specifies the table identifier of the EIT. Use one of the values in the followin
 | --- | --- |
 | DVB_EIT_ACTUAL_TID (0x4E) | Present/following EIT for this transport stream. |
 | DVB_EIT_OTHER_TID (0x4F) | Present/following EIT for another transport stream. |
-| 0x50 0x5F | Schedule EIT for this transport stream. |
-| 0x60 0x6F | Schedule EIT for another transport stream. |
+| 0x50 – 0x5F | Schedule EIT for this transport stream. |
+| 0x60 – 0x6F | Schedule EIT for another transport stream. |
 
 ### `pwServiceId` [in]
 

@@ -14,24 +14,24 @@ The **WLX_MPR_NOTIFY_INFO** structure provides identification and authentication
 
 A pointer to the name of the account logged onto (for example "user_name").
 
-The string pointed to by **pszUserName** must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+The string pointed to by **pszUserName** must be separately allocated by your [GINA](https://learn.microsoft.com/windows/desktop/SecGloss/g-gly) DLL, using [LocalAlloc](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc). It will be deallocated by [Winlogon](https://learn.microsoft.com/windows/desktop/SecGloss/w-gly).
 
 ### `pszDomain`
 
 A pointer to the name of the domain used to log on.
 
-The string pointed to by pszDomain must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+The string pointed to by pszDomain must be separately allocated by your [GINA](https://learn.microsoft.com/windows/desktop/SecGloss/g-gly) DLL, using [LocalAlloc](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc). It will be deallocated by [Winlogon](https://learn.microsoft.com/windows/desktop/SecGloss/w-gly).
 
 ### `pszPassword`
 
 A pointer to the plaintext password of the user account. If **pszOldPassword** is not **NULL**, **pszPassword** contains the new password from a password-change operation.
 
-The string pointed to by **pszPassword** must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+The string pointed to by **pszPassword** must be separately allocated by your [GINA](https://learn.microsoft.com/windows/desktop/SecGloss/g-gly) DLL, using [LocalAlloc](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc). It will be deallocated by [Winlogon](https://learn.microsoft.com/windows/desktop/SecGloss/w-gly).
 
- For information about protecting passwords, see [Handling Passwords](https://learn.microsoft.com/windows/desktop/SecBP/handling-passwords).
+For information about protecting passwords, see [Handling Passwords](https://learn.microsoft.com/windows/desktop/SecBP/handling-passwords).
 
 ### `pszOldPassword`
 
 A pointer to the plaintext old password of the user account whose password has just been changed (in this case, *pszPassword* contains the new password).
 
-The string pointed to by **pszOldPassword** must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+The string pointed to by **pszOldPassword** must be separately allocated by your [GINA](https://learn.microsoft.com/windows/desktop/SecGloss/g-gly) DLL, using [LocalAlloc](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc). It will be deallocated by [Winlogon](https://learn.microsoft.com/windows/desktop/SecGloss/w-gly).

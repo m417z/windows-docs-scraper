@@ -4,7 +4,7 @@
 
 \[The feature associated with this page, [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
-[**GetSection** is no longer available for use as of Windows7. Instead, use the [IPSITables](https://learn.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables) interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+[**GetSection** is no longer available for use as of Windows 7. Instead, use the [IPSITables](https://learn.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables) interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The **GetSection** method retrieves an MPEG-2 table section. This method blocks until the filter receives a matching table section, or until the specified time out elapses.
 

@@ -26,7 +26,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## Remarks
 
-**Note**The *pulcApplications* parameter is marked in the IDL file as [in, out] but is used as an [in] parameter. To preserve binary compatibility with previous versions, it has not been changed.
+**Note** The *pulcApplications* parameter is marked in the IDL file as [in, out] but is used as an [in] parameter. To preserve binary compatibility with previous versions, it has not been changed.
 
 ## See also
 

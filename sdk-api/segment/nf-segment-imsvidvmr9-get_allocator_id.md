@@ -12,7 +12,7 @@ The **get_Allocator_ID** method retrieves the identifier of the application's cu
 
 ### `ID` [out]
 
-Receives the identifier. If the application did not set an allocator-presenter, the value is 1.
+Receives the identifier. If the application did not set an allocator-presenter, the value is –1.
 
 ## Return value
 

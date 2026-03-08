@@ -24,7 +24,7 @@ When the method succeeds, it returns S_OK. Otherwise it returns an **HRESULT** e
 
 ## Remarks
 
-**Note**The *pulCompositeCount* and *pulSvideoCount* parameters are marked in the IDL file as [in, out] but are used as [out] parameters. To preserve binary compatibility with previous versions, they have not been changed.
+**Note** The *pulCompositeCount* and *pulSvideoCount* parameters are marked in the IDL file as [in, out] but are used as [out] parameters. To preserve binary compatibility with previous versions, they have not been changed.
 
 ## See also
 

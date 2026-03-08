@@ -3,18 +3,12 @@
 ## Syntax
 
 ```cpp
-LRESULT Button_SetStyle(
+void Button_SetStyle(
    HWND  hwndCtl,
    DWORD style,
    BOOL  fRedraw
 );
 ```
-
-## Return value
-
-Type: **[LRESULT](https://learn.microsoft.com/windows/desktop/winprog/windows-data-types)**
-
-The return value is always zero.
 
 ## Description
 

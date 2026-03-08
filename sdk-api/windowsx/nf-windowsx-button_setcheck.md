@@ -3,17 +3,11 @@
 ## Syntax
 
 ```cpp
-LRESULT Button_SetCheck(
+void Button_SetCheck(
    HWND hwndCtl,
    int  check
 );
 ```
-
-## Return value
-
-Type: **[LRESULT](https://learn.microsoft.com/windows/desktop/winprog/windows-data-types)**
-
-The return value is always zero.
 
 ## Description
 

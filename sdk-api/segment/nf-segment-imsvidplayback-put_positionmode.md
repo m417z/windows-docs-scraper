@@ -28,7 +28,7 @@ The method returns an **HRESULT**. Possible values include the following.
 | **E_INVALIDARG** | Invalid argument. |
 | **S_OK** | The method succeeded. |
 
-**Note**The value ERROR_INVALID_STATE is converted to an **HRESULT** with the **HRESULT_FROM_WIN32** macro.
+**Note** The value ERROR_INVALID_STATE is converted to an **HRESULT** with the **HRESULT_FROM_WIN32** macro.
 
 ## Remarks
 

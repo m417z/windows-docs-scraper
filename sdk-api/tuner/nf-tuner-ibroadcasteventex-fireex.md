@@ -43,3 +43,4 @@ This method is similar to [IBroadcastEvent::Fire](https://learn.microsoft.com/pr
 [IBroadcastEventEx Interface](https://learn.microsoft.com/previous-versions/dd376295(v=vs.85))
 
 [Video Control Interfaces](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces)
+

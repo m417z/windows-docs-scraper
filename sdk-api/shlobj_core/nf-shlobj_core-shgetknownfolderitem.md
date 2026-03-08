@@ -52,7 +52,7 @@ Returns S_OK if successful, or an error value otherwise, including the following
 
 ## Remarks
 
-The caller of this function must have Administrator privileges. To call this function on public known folders, the caller must have Administrator privileges. For per-user known folders the caller only requires User privileges.
+To call this function on public known folders, the caller must have Administrator privileges. For per-user known folders the caller only requires User privileges.
 
 Some of the known folders, for example, the **Documents** folder, are per-user. Every user has a different path for their **Documents** folder. If *hToken* is **NULL**, the API tries to access the calling application's instance of the folder, which is that of the current user. If *hToken* is a valid user token, the API tries to impersonate the user using this token and tries to access that user's instance.
 

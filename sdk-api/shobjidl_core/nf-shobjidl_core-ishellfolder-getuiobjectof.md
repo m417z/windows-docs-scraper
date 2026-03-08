@@ -61,6 +61,7 @@ The following are the most common interface identifiers the Shell uses when requ
 | [IDataObject](https://learn.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject) | The *cidl* parameter can be greater than or equal to one. |
 | [IDropTarget](https://learn.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) | The *cidl* parameter can only be one. |
 | [IExtractIcon](https://learn.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona) | The *cidl* parameter can only be one. |
+| [IExtractImage](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage) | The *cidl* parameter can only be one. |
 | [IQueryInfo](https://learn.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo) | The *cidl* parameter can only be one. |
 
 We recommend that you use the **IID_PPV_ARGS** macro, defined in Objbase.h, to package the *riid* and *ppv* parameters. This macro provides the correct IID based on the interface pointed to by the value in *ppv*, which eliminates the possibility of a coding error in *riid* that could lead to unexpected results.

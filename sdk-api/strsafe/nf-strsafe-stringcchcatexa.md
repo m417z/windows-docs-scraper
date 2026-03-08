@@ -8,7 +8,7 @@ Concatenates one string to another string. The size of the destination buffer is
 
 **StringCchCatEx** is a replacement for the following functions:
 
-* [strcat, wcscat, _tcsat](https://learn.microsoft.com/cpp/c-runtime-library/reference/strcat-wcscat-mbscat)
+* [strcat, wcscat, _tcscat](https://learn.microsoft.com/cpp/c-runtime-library/reference/strcat-wcscat-mbscat)
 * [lstrcat](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata)
 * [StrCat](https://learn.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcatw)
 * [StrCatBuff](https://learn.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcatbuffa)

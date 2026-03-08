@@ -3,14 +3,14 @@
 ## Syntax
 
 ```cpp
-LRESULT Button_GetCheck(
+int Button_GetCheck(
    HWND hwndCtl
 );
 ```
 
 ## Return value
 
-Type: **[LRESULT](https://learn.microsoft.com/windows/desktop/winprog/windows-data-types)**
+Type: **int**
 
 The return value from a button created with the **BS_AUTOCHECKBOX**, **BS_AUTORADIOBUTTON**, **BS_AUTO3STATE**, **BS_CHECKBOX**, **BS_RADIOBUTTON**, or **BS_3STATE** style can be one of the following:
 

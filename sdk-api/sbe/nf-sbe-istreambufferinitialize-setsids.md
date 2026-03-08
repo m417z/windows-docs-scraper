@@ -32,7 +32,7 @@ At run time, the Stream Buffer Source and Sink filters create various Win32 obje
 
 If you call this method, do so before locking the sink filter or loading a file in the source filter. It is recommended that all of the filters be given the same SIDs.
 
-* **Important**Setting less-privileged SIDs can create a security issue.
+* **Important** Setting less-privileged SIDs can create a security issue.
 
 Note that this method does not apply to content recording files, which are protected by the discretionary access-control lists (DACLs) of the directory structure.
 

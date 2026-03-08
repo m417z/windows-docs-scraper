@@ -14,7 +14,7 @@ The **GetEAS** method retrieves the emergency alert message (EAS) table.
 
 Specifies the packet identifier (PID) for the requested EAS.
 
-**Note**Earlier versions of this documentation described this parameter incorrectly as a time-out value.
+**Note** Earlier versions of this documentation described this parameter incorrectly as a time-out value.
 
 ### `ppEAS` [out]
 

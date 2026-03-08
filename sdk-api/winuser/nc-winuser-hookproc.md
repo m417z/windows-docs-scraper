@@ -20,7 +20,8 @@ Specifies whether the message is sent by the current process. If the message is 
 
 Type: **LPARAM**
 
-A pointer to a [CWPRETSTRUCT](https://learn.microsoft.com/windows/desktop/api/winuser/ns-winuser-cwpretstruct) structure that contains details about the message.
+A pointer to a [CWPSTRUCT](https://learn.microsoft.com/windows/desktop/api/winuser/ns-winuser-cwpstruct) or [CWPRETSTRUCT](https://learn.microsoft.com/windows/desktop/api/winuser/ns-winuser-cwpretstruct) structure that contains details about the message, depending
+on which hook type was specified when calling the [SetWindowsHookEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa) function.
 
 #### - nCode [in]
 
@@ -38,8 +39,8 @@ If *nCode* is greater than or equal to zero, it is highly recommended that you c
 
 ## Remarks
 
-An application installs the hook procedure by specifying the [WH_CALLWNDPROCRET](https://learn.microsoft.com/windows/desktop/winmsg/about-hooks) hook type and a pointer to the hook procedure in a call to the [SetWindowsHookEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa) function.
+An application installs the hook procedure by specifying the [WH_CALLWNDPROC](https://learn.microsoft.com/windows/desktop/winmsg/about-hooks) or [WH_CALLWNDPROCRET](https://learn.microsoft.com/windows/desktop/winmsg/about-hooks) hook type and a pointer to the hook procedure in a call to the [SetWindowsHookEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa) function.
 
 ## See also
 
-[CWPRETSTRUCT structure](https://learn.microsoft.com/windows/win32/api/winuser/ns-winuser-cwpretstruct), [CallNextHookEx function](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-callnexthookex), [CallWindowProcW function](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-callwindowprocw), [CallWindowProcA function](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-callwindowproca), [SendMessage](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage), [SetWindowsHookEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa), [Hooks](https://learn.microsoft.com/windows/desktop/winmsg/hooks)
+[CWPSTRUCT structure](https://learn.microsoft.com/windows/win32/api/winuser/ns-winuser-cwpstruct), [CWPRETSTRUCT structure](https://learn.microsoft.com/windows/win32/api/winuser/ns-winuser-cwpretstruct), [CallNextHookEx function](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-callnexthookex), [CallWindowProcW function](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-callwindowprocw), [CallWindowProcA function](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-callwindowproca), [SendMessage](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage), [SetWindowsHookEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa), [Hooks](https://learn.microsoft.com/windows/desktop/winmsg/hooks)

@@ -146,4 +146,4 @@ An overlay image is an image that is drawn on top of the primary image specified
 
 To extract the overlay image from the **fStyle**, use the bitwise **AND** operator to mask **fStyle** with the [ILD_OVERLAYMASK](https://learn.microsoft.com/windows/desktop/Controls/imagelistdrawflags) value.
 
-Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](https://learn.microsoft.com/windows/desktop/Controls/cookbook-overview).
+Comctl32.dll version 6 is not redistributable. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](https://learn.microsoft.com/windows/desktop/Controls/cookbook-overview).

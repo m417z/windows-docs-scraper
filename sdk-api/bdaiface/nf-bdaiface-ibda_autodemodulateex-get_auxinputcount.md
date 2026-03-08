@@ -22,7 +22,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## Remarks
 
-**Note**The *pulCompositeCount* and *pulSvideoCount* parameters are marked in the IDL file as [in, out] but are used as [out] parameters. To preserve binary compatibility with previous versions, they have not been changed.
+**Note** The *pulCompositeCount* and *pulSvideoCount* parameters are marked in the IDL file as [in, out] but are used as [out] parameters. To preserve binary compatibility with previous versions, they have not been changed.
 
 ## See also
 

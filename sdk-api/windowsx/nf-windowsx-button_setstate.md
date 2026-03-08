@@ -3,7 +3,7 @@
 ## Syntax
 
 ```cpp
-LRESULT Button_SetState(
+UINT Button_SetState(
    HWND hwndCtl,
    BOOL state
 );
@@ -11,7 +11,7 @@ LRESULT Button_SetState(
 
 ## Return value
 
-Type: **[LRESULT](https://learn.microsoft.com/windows/desktop/winprog/windows-data-types)**
+Type: **[UINT](https://learn.microsoft.com/windows/desktop/winprog/windows-data-types)**
 
 The return value is always zero.
 

@@ -12,7 +12,7 @@ The **put_RateEx** method sets the playback rate, and sets the frame rate for fa
 
 ### `dwRate` [in]
 
-Playback rate. The valid range is (*dRate* >= 0.1 || *dRate* <= 0.1).
+Playback rate. The valid range is (*dRate* >= 0.1 || *dRate* <= –0.1).
 
 ### `dwFramesPerSecond` [in]
 

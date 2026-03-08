@@ -22,7 +22,7 @@ The identifier or position of the menu item to change. The meaning of this param
 
 Type: **BOOL**
 
-The meaning of *uItem*. If this parameter is **FALSE**, *uItem* is a menu item identifier. Otherwise, it is a menu item position. See [About Menus](https://learn.microsoft.com/windows/desktop/menurc/about-menus) for more information. (_Note: this parameter is misspelled in the header; it should be used as shown here._)
+The meaning of *Item*. If this parameter is **FALSE**, *Item* is a menu item identifier. Otherwise, it is a menu item position. See [About Menus](https://learn.microsoft.com/windows/desktop/menurc/about-menus) for more information. (_Note: this parameter is misspelled in the header; it should be used as shown here._)
 
 ### `lpmii` [in]
 

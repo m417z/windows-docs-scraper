@@ -49,7 +49,7 @@ This parameter can be one or more of the following values.
 | **LR_COPYRETURNORG**<br><br>0x00000004 | Returns the original *hImage* if it satisfies the criteria for the copy—that is, correct dimensions and color depth—in which case the **LR_COPYDELETEORG** flag is ignored. If this flag is not specified, a new object is always created. |
 | **LR_CREATEDIBSECTION**<br><br>0x00002000 | If this is set and a new bitmap is created, the bitmap is created as a DIB section. Otherwise, the bitmap image is created as a device-dependent bitmap. This flag is only valid if *uType* is **IMAGE_BITMAP**. |
 | **LR_DEFAULTCOLOR**<br><br>0x00000000 | Uses the default color format. |
-| **LR_DEFAULTSIZE**<br><br>0x00000040 | Uses the width or height specified by the system metric values for cursors or icons, if the *cxDesired* or *cyDesired* values are set to zero. If this flag is not specified and *cxDesired* and *cyDesired* are set to zero, the function uses the actual resource size. If the resource contains multiple images, the function uses the size of the first image. |
+| **LR_DEFAULTSIZE**<br><br>0x00000040 | Uses the width or height specified by the system metric values for cursors or icons, if the *cx* or *cy* values are set to zero. If this flag is not specified and *cx* and *cy* are set to zero, the function uses the actual resource size. If the resource contains multiple images, the function uses the size of the first image. |
 | **LR_MONOCHROME**<br><br>0x00000001 | Creates a new monochrome image. |
 
 ## Return value

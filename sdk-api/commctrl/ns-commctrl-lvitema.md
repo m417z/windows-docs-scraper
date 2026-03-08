@@ -154,7 +154,7 @@ In tile view, the item name is displayed to the right of the icon. You can speci
 
 For example code, see [Using List-View Controls](https://learn.microsoft.com/windows/desktop/Controls/using-list-view-controls).
 
-**Note** Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](https://learn.microsoft.com/windows/desktop/Controls/cookbook-overview).
+**Note** Comctl32.dll version 6 is not redistributable but it is included in Windows XP or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](https://learn.microsoft.com/windows/desktop/Controls/cookbook-overview).
 
 > [!NOTE]
 > The commctrl.h header defines LVITEM as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](https://learn.microsoft.com/windows/win32/intl/conventions-for-function-prototypes).

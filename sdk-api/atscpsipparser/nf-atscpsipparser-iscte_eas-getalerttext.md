@@ -29,7 +29,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 The returned string is taken from the alert_text field, as defined by ANSI-J-STD-042-A.
 
-**Note**An earlier version of the documentation gave an incorrect signature for this method.
+**Note** An earlier version of the documentation gave an incorrect signature for this method.
 
 ## See also
 

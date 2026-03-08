@@ -3,14 +3,14 @@
 ## Syntax
 
 ```cpp
-LRESULT Button_GetState(
+int Button_GetState(
    HWND hwndCtl
 );
 ```
 
 ## Return value
 
-Type: **[LRESULT](https://learn.microsoft.com/windows/desktop/winprog/windows-data-types)**
+Type: **int**
 
 The return value specifies the current state of the button. It is a combination of the following values:
 

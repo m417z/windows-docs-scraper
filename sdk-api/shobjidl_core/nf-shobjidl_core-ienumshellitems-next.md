@@ -32,7 +32,7 @@ This method can return one of these values.
 
 | Return code | Description |
 | --- | --- |
-| **S_OK** | if at least [IShellItem](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) interface was retrieved. |
+| **S_OK** | if at least one [IShellItem](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) interface was retrieved. |
 | **S_FALSE** | if there are no more [IShellItem](https://learn.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) interfaces in the enumeration. |
 |  | Returns an error value if the function fails for any other reason. |
 

@@ -4,7 +4,7 @@
 
 \[The feature associated with this page, [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
-**Note**Currently not implemented.
+**Note** Currently not implemented.
 
 The **EnumDeviceMonikers** method creates an enumerator of device monikers representing the tuner filters that support this tuning space.
 

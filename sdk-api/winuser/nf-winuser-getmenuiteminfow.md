@@ -22,7 +22,7 @@ The identifier or position of the menu item to get information about. The meanin
 
 Type: **BOOL**
 
-The meaning of *uItem*. If this parameter is **FALSE**, *uItem* is a menu item identifier. Otherwise, it is a menu item position. See [Accessing Menu Items Programmatically](https://learn.microsoft.com/windows/desktop/menurc/about-menus) for more information.
+The meaning of *Item*. If this parameter is **FALSE**, *Item* is a menu item identifier. Otherwise, it is a menu item position. See [Accessing Menu Items Programmatically](https://learn.microsoft.com/windows/desktop/menurc/about-menus) for more information.
 
 ### `lpmii` [in, out]
 

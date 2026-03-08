@@ -43,7 +43,7 @@ A pointer to a [DATA_BLOB](https://learn.microsoft.com/previous-versions/windows
 
 If the function succeeds, the function returns **TRUE**.
 
-If the function fails, it returns **FALSE**.
+If the function fails, it returns **FALSE**. For extended error information, call [GetLastError](https://learn.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 

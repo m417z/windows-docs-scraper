@@ -31,7 +31,7 @@ A handle to the control.
 
 Type: **int**
 
- the zero-based index of the list box item that is to receive the focus rectangle.
+The zero-based index of the list box item that is to receive the focus rectangle.
 
 ## Remarks
 

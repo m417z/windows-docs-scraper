@@ -18,7 +18,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-Depending on the satellite installation, DiSEqC commands might be required. However, enabling DiSEqC can result in the driver taking longer to switch transponders (typically by 100300 milliseconds). Therefore, it is recommended to disable DiSEqC commands if they are not required.
+Depending on the satellite installation, DiSEqC commands might be required. However, enabling DiSEqC can result in the driver taking longer to switch transponders (typically by 100–300 milliseconds). Therefore, it is recommended to disable DiSEqC commands if they are not required.
 
 ## See also
 

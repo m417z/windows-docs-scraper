@@ -18,7 +18,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## Remarks
 
-Full volume is 0 and silence is 10,000. Multiply the desired decibel level by 100; for example, 100 dB is 10,000.
+Full volume is 0 and silence is –10,000. Multiply the desired decibel level by 100; for example, –100 dB is –10,000.
 
 ## See also
 

@@ -100,4 +100,4 @@ Type: **[UINT](https://learn.microsoft.com/windows/desktop/WinProg/windows-data-
 
 ## Remarks
 
-**Note** Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](https://learn.microsoft.com/windows/desktop/Controls/cookbook-overview).
+**Note** Comctl32.dll version 6 is not redistributable but it is included in Windows XP or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](https://learn.microsoft.com/windows/desktop/Controls/cookbook-overview).

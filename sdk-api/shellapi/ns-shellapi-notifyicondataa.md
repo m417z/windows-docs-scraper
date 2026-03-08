@@ -94,7 +94,7 @@ If only a 16x16 pixel icon is provided, it is scaled to a larger size in a syste
 
 ### `szTip`
 
-Type: **TCHAR[64]**
+Type: **CHAR[64]**
 
 A null-terminated string that specifies the text for a standard tooltip. It can have a maximum of 64 characters, including the terminating null character.
 
@@ -122,7 +122,7 @@ Type: **DWORD**
 
 ### `szInfo`
 
-Type: **TCHAR[256]**
+Type: **CHAR[256]**
 
 **Windows 2000 and later**. A null-terminated string that specifies the text to display in a balloon notification. It can have a maximum of 256 characters, including the terminating null character, but should be restricted to 200 characters in English to accommodate localization. To remove the balloon notification from the UI, either delete the icon (with [NIM_DELETE](https://learn.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicona)) or set the **NIF_INFO** flag in **uFlags** and set **szInfo** to an empty string.
 
@@ -146,7 +146,7 @@ Type: **UINT**
 
 ### `szInfoTitle`
 
-Type: **TCHAR[64]**
+Type: **CHAR[64]**
 
 **Windows 2000 and later**. A null-terminated string that specifies a title for a balloon notification. This title appears in a larger font immediately above the text. It can have a maximum of 64 characters, including the terminating null character, but should be restricted to 48 characters in English to accommodate localization.
 

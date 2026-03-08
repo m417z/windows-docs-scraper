@@ -35,9 +35,9 @@ A pointer to a variable that specifies the size of the buffer pointed to by the 
 
 The size should include the terminating **null** character. When the function returns, this variable contains the size of the class string that is stored in the buffer. The count returned does not include the terminating **null** character. If the buffer is not big enough, the function returns ERROR_MORE_DATA, and the variable contains the size of the string, in characters, without counting the terminating **null** character.
 
-If *lpClass* is **NULL**, *lpcClass* can be **NULL**.
+If *lpClass* is **NULL**, *lpcchClass* can be **NULL**.
 
-If the *lpClass* parameter is a valid address, but the *lpcClass* parameter is not, for example, it is **NULL**, then the function returns ERROR_INVALID_PARAMETER.
+If the *lpClass* parameter is a valid address, but the *lpcchClass* parameter is not, for example, it is **NULL**, then the function returns ERROR_INVALID_PARAMETER.
 
 ### `lpReserved`
 

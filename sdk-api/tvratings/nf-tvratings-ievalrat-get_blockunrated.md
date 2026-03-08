@@ -23,7 +23,7 @@ The method returns an **HRESULT**. Possible values include those in the followin
 
 ## Remarks
 
-**Note**By default, unrated programs should be allowed. Return **FALSE** in *pfBlockUnRatedShows* unless the **put_BlockUnRated** method was previously called with the value **TRUE**.
+**Note** By default, unrated programs should be allowed. Return **FALSE** in *pfBlockUnRatedShows* unless the **put_BlockUnRated** method was previously called with the value **TRUE**.
 
 ## See also
 

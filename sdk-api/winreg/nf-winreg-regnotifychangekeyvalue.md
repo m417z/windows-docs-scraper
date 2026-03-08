@@ -12,13 +12,13 @@ A handle to an open registry key. This handle is returned by the
 [RegCreateKeyEx](https://learn.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa) or [RegOpenKeyEx](https://learn.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa) function. It can also be one of the following
 [predefined keys](https://learn.microsoft.com/windows/desktop/SysInfo/predefined-keys):
 
-**HKEY_CLASSES_ROOT**
-**HKEY_CURRENT_CONFIG**
-**HKEY_CURRENT_USER**
-**HKEY_LOCAL_MACHINE**
-**HKEY_USERS**
-This parameter must be a local handle. If
-**RegNotifyChangeKeyValue** is called with a remote handle, it returns ERROR_INVALID_HANDLE.
+**HKEY_CLASSES_ROOT**,
+**HKEY_CURRENT_CONFIG**,
+**HKEY_CURRENT_USER**,
+**HKEY_LOCAL_MACHINE**,
+**HKEY_USERS**.
+
+This parameter must be a local handle. If **RegNotifyChangeKeyValue** is called with a remote handle, it returns ERROR_INVALID_HANDLE.
 
 The key must have been opened with the KEY_NOTIFY access right. For more information, see
 [Registry Key Security and Access Rights](https://learn.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights).

@@ -42,7 +42,7 @@ Type: **DWORD***
 
 A pointer to a value that, on entry, specifies the number of characters in the *pszOut* buffer. When the function returns, it points to the number of characters placed in the buffer.
 
-If the [ASSOCF_NOTRUNCATE](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) flag is set in *flags* and the buffer specified in *pszOut* is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
+If the [ASSOCF_NOTRUNCATE](https://learn.microsoft.com/windows/win32/shell/assocf_str) flag is set in *flags* and the buffer specified in *pszOut* is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
 
 If *pszOut* is **NULL**, the function returns S_FALSE and *pcchOut* points to the required size of the buffer.
 

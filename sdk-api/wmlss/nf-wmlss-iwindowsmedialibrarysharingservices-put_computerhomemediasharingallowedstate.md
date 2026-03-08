@@ -28,7 +28,7 @@ If home media sharing is not allowed for the computer, none of the users' media 
 
 If home media sharing is allowed for the computer and a particular user has enabled media sharing, then that user's media library is shared on the home network.
 
-**Warning**Each call to **put_computerHomeMediaSharingAllowedState** with the *sharingAllowed* parameter set to **VARIANT_TRUE** updates the access control list (ACL) and last changed time of each file in the computer's Public Music, Public Pictures, and Public Videos folders. This behavior might change in future versions of Windows.
+**Warning** Each call to **put_computerHomeMediaSharingAllowedState** with the *sharingAllowed* parameter set to **VARIANT_TRUE** updates the access control list (ACL) and last changed time of each file in the computer's Public Music, Public Pictures, and Public Videos folders. This behavior might change in future versions of Windows.
 
 ## See also
 

@@ -8,7 +8,7 @@ The **QueryDisplayConfig** function retrieves information about all possible dis
 
 ### `flags` [in]
 
-The type of information to retrieve. The value for the *Flags* parameter must use one of the following values.
+The type of information to retrieve. The value for the *flags* parameter must use one of the following values.
 
 | Value | Meaning |
 | --- | --- |
@@ -16,7 +16,7 @@ The type of information to retrieve. The value for the *Flags* parameter must us
 | **QDC_ONLY_ACTIVE_PATHS**<br><br>0x00000002 | Returns currently active paths only. <br><br>> [!NOTE] > In the case of any temporary modes, the QDC_ONLY_ACTIVE_PATHS setting means the mode data returned may not be the same as that which is stored in the persistence database. |
 | **QDC_DATABASE_CURRENT**<br><br>0x00000004 | Returns active paths as defined in the CCD database for the currently connected displays. |
 
-The _Flags_ parameter may also be bitwise OR'ed with zero or more of the following values.
+The *flags* parameter may also be bitwise OR'ed with zero or more of the following values.
 
 | Value | Meaning |
 | --- | --- |
@@ -26,15 +26,15 @@ The _Flags_ parameter may also be bitwise OR'ed with zero or more of the followi
 
 ### `numPathArrayElements` [in, out]
 
-Pointer to a variable that contains the number of elements in *pPathInfoArray*. This parameter cannot be **NULL**. If **QueryDisplayConfig** returns ERROR_SUCCESS, *pNumPathInfoElements* is updated with the number of valid entries in *pPathInfoArray*.
+Pointer to a variable that contains the number of elements in *pathArray*. This parameter cannot be **NULL**. If **QueryDisplayConfig** returns ERROR_SUCCESS, *numPathArrayElements* is updated with the number of valid entries in *pathArray*.
 
 ### `pathArray` [out]
 
-Pointer to a variable that contains an array of [DISPLAYCONFIG_PATH_INFO](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info) elements. Each element in *pPathInfoArray* describes a single path from a source to a target. The source and target mode information indexes are only valid in combination with the *pmodeInfoArray* tables that are returned for the API at the same time. This parameter cannot be **NULL**. The *pPathInfoArray* is always returned in path priority order. For more information about path priority order, see [Path Priority Order](https://learn.microsoft.com/windows-hardware/drivers/display/path-priority-order).
+Pointer to a variable that contains an array of [DISPLAYCONFIG_PATH_INFO](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info) elements. Each element in *pathArray* describes a single path from a source to a target. The source and target mode information indexes are only valid in combination with the *modeInfoArray* tables that are returned for the API at the same time. This parameter cannot be **NULL**. The *pathArray* is always returned in path priority order. For more information about path priority order, see [Path Priority Order](https://learn.microsoft.com/windows-hardware/drivers/display/path-priority-order).
 
 ### `numModeInfoArrayElements` [in, out]
 
-Pointer to a variable that specifies the number in element of the mode information table. This parameter cannot be **NULL**. If **QueryDisplayConfig** returns ERROR_SUCCESS, *pNumModeInfoArrayElements* is updated with the number of valid entries in *pModeInfoArray*.
+Pointer to a variable that specifies the number in element of the mode information table. This parameter cannot be **NULL**. If **QueryDisplayConfig** returns ERROR_SUCCESS, *numModeInfoArrayElements* is updated with the number of valid entries in *modeInfoArray*.
 
 ### `modeInfoArray` [out]
 
@@ -44,9 +44,9 @@ Pointer to a variable that contains an array of [DISPLAYCONFIG_MODE_INFO](https:
 
 Pointer to a variable that receives the identifier of the currently active topology in the CCD database. For a list of possible values, see the [DISPLAYCONFIG_TOPOLOGY_ID](https://learn.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_topology_id) enumerated type.
 
-The *pCurrentTopologyId* parameter is only set when the *Flags* parameter value is QDC_DATABASE_CURRENT.
+The *currentTopologyId* parameter is only set when the *flags* parameter value is QDC_DATABASE_CURRENT.
 
-If the *Flags* parameter value is set to QDC_DATABASE_CURRENT, the *pCurrentTopologyId* parameter must not be **NULL**. If the *Flags* parameter value is not set to QDC_DATABASE_CURRENT, the *pCurrentTopologyId* parameter value must be **NULL**.
+If the *flags* parameter value is set to QDC_DATABASE_CURRENT, the *currentTopologyId* parameter must not be **NULL**. If the *flags* parameter value is not set to QDC_DATABASE_CURRENT, the *currentTopologyId* parameter value must be **NULL**.
 
 ## Return value
 
@@ -65,7 +65,7 @@ The function returns one of the following return codes.
 
 As the [GetDisplayConfigBufferSizes](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdisplayconfigbuffersizes) function can only determine the required array size at a particular moment in time, it is possible that between calls to **GetDisplayConfigBufferSizes** and **QueryDisplayConfig** the system configuration will change and the provided array sizes will no longer be sufficient to store the new path data. In this situation, **QueryDisplayConfig** fails with ERROR_INSUFFICIENT_BUFFER, and the caller should call **GetDisplayConfigBufferSizes** again to get the new array sizes. The caller should then allocate the correct amount of memory.
 
-**QueryDisplayConfig** returns paths in the path array that the *pPathInfoArray* parameter specifies and the source and target modes in the mode array that the *pModeInfoArray* parameter specifies. **QueryDisplayConfig** always returns paths in path priority order. If QDC_ALL_PATHS is set in the *Flags* parameter, **QueryDisplayConfig** returns all the inactive paths after the active paths.
+**QueryDisplayConfig** returns paths in the path array that the *pathArray* parameter specifies and the source and target modes in the mode array that the *modeInfoArray* parameter specifies. **QueryDisplayConfig** always returns paths in path priority order. If QDC_ALL_PATHS is set in the *flags* parameter, **QueryDisplayConfig** returns all the inactive paths after the active paths.
 
 Full path, source mode, and target mode information is available for all active paths. The **ModeInfoIdx** members in the [DISPLAYCONFIG_PATH_SOURCE_INFO](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info) and [DISPLAYCONFIG_PATH_TARGET_INFO](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info) structures for the source and target are set up for these active paths. For inactive paths, returned source and target mode information is not available; therefore, the target information in the path structure is set to default values, and the source and target mode indexes are marked as invalid. For database queries, if the current connect monitors have an entry, **QueryDisplayConfig** returns full path, source mode, and target mode information (same as for active paths). However, if the database does not have a entry, **QueryDisplayConfig** returns just the path information with the default target details (same as for inactive paths).
 
@@ -75,9 +75,9 @@ The caller can use [DisplayConfigGetDeviceInfo](https://learn.microsoft.com/wind
 
 If a target is currently being force projected, the **statusFlags** member of the [DISPLAYCONFIG_PATH_TARGET_INFO](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info) structure has one of the DISPLAYCONFIG_TARGET_FORCED_XXX flags set.
 
-If the QDC_DATABASE_CURRENT flag is set in the *Flags* parameter, **QueryDisplayConfig** returns the topology identifier of the active database topology in the variable that the *pCurrentTopologyId* parameter points to. If the QDC_ALL_PATHS or QDC_ONLY_ACTIVE_PATHS flag is set in the *Flags* parameter, the *pCurrentTopologyId* parameter must be set to **NULL**; otherwise, **QueryDisplayConfig** returns ERROR_INVALID_PARAMETER.
+If the QDC_DATABASE_CURRENT flag is set in the *Flags* parameter, **QueryDisplayConfig** returns the topology identifier of the active database topology in the variable that the *currentTopologyId* parameter points to. If the QDC_ALL_PATHS or QDC_ONLY_ACTIVE_PATHS flag is set in the *Flags* parameter, the *currentTopologyId* parameter must be set to **NULL**; otherwise, **QueryDisplayConfig** returns ERROR_INVALID_PARAMETER.
 
-If a caller calls **QueryDisplayConfig** with the QDC_DATABASE_CURRENT flag set in the *Flags* parameter, **QueryDisplayConfig** initializes the [DISPLAYCONFIG_2DREGION](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion) structure that is specified in the **totalSize** member of the [DISPLAYCONFIG_VIDEO_SIGNAL_INFO](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure to zeros and does not complete DISPLAYCONFIG_2DREGION.
+If a caller calls **QueryDisplayConfig** with the QDC_DATABASE_CURRENT flag set in the *flags* parameter, **QueryDisplayConfig** initializes the [DISPLAYCONFIG_2DREGION](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion) structure that is specified in the **totalSize** member of the [DISPLAYCONFIG_VIDEO_SIGNAL_INFO](https://learn.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure to zeros and does not complete DISPLAYCONFIG_2DREGION.
 
 The DEVMODE structure that is returned by the [EnumDisplaySettings](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa) Win32 function (described in the Windows SDK documentation) contains information that relates to both the source and target modes. However, the [CCD APIs](https://learn.microsoft.com/windows-hardware/drivers/display/ccd-apis) explicitly separate the source and target mode components.
 

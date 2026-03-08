@@ -38,7 +38,7 @@ An application's ProgID, such as **Word.Document.8**.
 
 #### Executable name
 
-The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) flag must be set in *flags*.
+The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/shell/assocf_str) flag must be set in *flags*.
 
 ### `pszExtra` [in, optional]
 
@@ -58,7 +58,7 @@ Type: **DWORD***
 
 A pointer to a value that, when calling the function, is set to the number of characters in the *pszOut* buffer. When the function returns successfully, the value is set to the number of characters actually placed in the buffer.
 
-If the [ASSOCF_NOTRUNCATE](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) flag is set in *flags* and the buffer specified in *pszOut* is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
+If the [ASSOCF_NOTRUNCATE](https://learn.microsoft.com/windows/win32/shell/assocf_str) flag is set in *flags* and the buffer specified in *pszOut* is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
 
 If *pszOut* is **NULL**, the function returns S_FALSE and *pcchOut* points to the required size, in characters, of the buffer.
 
@@ -68,7 +68,7 @@ A CLSID GUID in the standard "{GUID}" format.
 
 ##### - pszAssoc.Executable name
 
-The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme) flag must be set in *flags*.
+The name of an application's .exe file. The [ASSOCF_OPEN_BYEXENAME](https://learn.microsoft.com/windows/win32/shell/assocf_str) flag must be set in *flags*.
 
 ##### - pszAssoc.File name extension
 

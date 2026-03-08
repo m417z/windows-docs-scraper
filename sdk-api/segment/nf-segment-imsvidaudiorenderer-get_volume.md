@@ -18,7 +18,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## Remarks
 
-Full volume is 0 and silence is 10,000. Divide by 100 to get the equivalent decibel value; for example, 10,000 is 100 dB.
+Full volume is 0 and silence is –10,000. Divide by 100 to get the equivalent decibel value; for example, –10,000 is –100 dB.
 
 ## See also
 
