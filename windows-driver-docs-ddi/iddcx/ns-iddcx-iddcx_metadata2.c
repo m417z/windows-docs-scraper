@@ -10,4 +10,5 @@ struct IDDCX_METADATA2 {
   UINT                        SdrWhiteLevel;
   IDDCX_SYSTEM_BUFFER_INFO    SystemBufferInfo;
   IDDCX_HDR10_FRAME_METADATA  Hdr10FrameMetaData;
+  ID3D12Resource              *pD3D12Surface;
 };

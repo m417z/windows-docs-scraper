@@ -25,4 +25,5 @@ struct IDD_CX_CLIENT_CONFIG {
   PFN_IDD_CX_ADAPTER_COMMIT_MODES2                            EvtIddCxAdapterCommitModes2;
   PFN_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA                 EvtIddCxMonitorSetDefaultHdrMetaData;
   PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES2                      EvtIddCxMonitorQueryTargetModes2;
+  PFN_IDD_CX_MONITOR_I2C_TRANSMIT_AND_RECEIVE                 EvtIddCxMonitorI2CTransmitAndReceive;
 };
