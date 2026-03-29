@@ -28,7 +28,7 @@
   "req.assembly": null,
   "req.type-library": null,
   "req.lib": "OneCoreUAP.lib",
-  "req.dll": "Kernel32.dll",
+  "req.dll": "KernelBase.dll",
   "req.irql": null,
   "targetos": "Windows",
   "req.typenames": null,
@@ -50,7 +50,7 @@
   ],
   "api_location": [
     "api-ms-win-security-base-l1-2-2.dll",
-    "Kernel32.dll"
+    "KernelBase.dll"
   ],
   "api_name": [
     "DeriveCapabilitySidsFromName"

@@ -30,12 +30,12 @@ A pointer to the user data that is to be transferred back from the other socket 
 
 ### `lpSQOS` [in]
 
-A pointer to the [FLOWSPEC](https://learn.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec) structures for socket *s*, one for each direction.
+A pointer to the [QOS](https://learn.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-qos) structure for socket *s*.
 
 ### `lpGQOS` [in]
 
 Reserved for future use with socket groups. A pointer to the
-[FLOWSPEC](https://learn.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec) structures for the socket group (if applicable). This parameter should be **NULL**.
+[QOS](https://learn.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-qos) structure for the socket group (if applicable). This parameter should be **NULL**.
 
 ## Return value
 

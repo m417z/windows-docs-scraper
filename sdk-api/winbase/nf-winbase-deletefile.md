@@ -54,8 +54,8 @@ handle, but not with any other handle. For more information, see
 [File Security and Access Rights](https://learn.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights).
 
 The **DeleteFile** function fails if an application attempts
-to delete a file that has other handles open for normal I/O or as a memory-mapped file
-(**FILE_SHARE_DELETE** must have been specified when other handles were opened).
+to delete a file that has other open handles that were opened without **FILE_SHARE_DELETE**,
+or that is memory-mapped.
 
 The **DeleteFile** function marks a file for deletion on
 close. Therefore, the file deletion does not occur until the last handle to the file is closed. Subsequent calls

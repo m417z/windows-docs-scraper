@@ -28,7 +28,7 @@ The **GetXStateFeaturesMask** function returns
 the mask of valid features in the specified context. If a
 [CONTEXT](https://learn.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context) is to be passed to
 [GetThreadContext](https://learn.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext) or
-[Wow64GetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md), the application must
+[Wow64GetThreadContext](https://learn.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64getthreadcontext), the application must
 call [SetXStateFeaturesMask](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask) to set which
 features are to be retrieved.
 **GetXStateFeaturesMask** should then be called on
@@ -71,4 +71,4 @@ details.
 
 [Working with XState Context](https://learn.microsoft.com/windows/desktop/Debug/working-with-xstate-context)
 
-[Wow64GetThreadContext](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md)
+[Wow64GetThreadContext](https://learn.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64getthreadcontext)
