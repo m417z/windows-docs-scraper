@@ -1,0 +1,5 @@
+typedef struct _PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS {
+  PKTMON_HEADER Header;
+  USHORT        ProviderMajorVersion;
+  USHORT        ProviderMinorVersion;
+} PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS;

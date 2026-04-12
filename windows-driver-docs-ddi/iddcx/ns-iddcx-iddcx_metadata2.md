@@ -51,9 +51,17 @@ is returned.
 
 An [**IDDCX_HDR10_FRAME_METADATA**](https://learn.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_hdr10_frame_metadata) structure that contains the HDR10 metadata to use with this frame.
 
+### `pD3D12Surface`
+
+Pointer to an [**ID3D12Resource**](https://learn.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12resource) that contains the image to encode and transmit. The driver can use this surface anytime until [IddCxSwapChainReleaseAndAcquireBuffer2](https://learn.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchainreleaseandacquirebuffer2) is called again.
+
 ## Remarks
 
 For more information about HDR support, see [IddCx version 1.10 updates](https://learn.microsoft.com/windows-hardware/drivers/display/iddcx1.10-updates).
+
+When D3D12 swap chain surfaces are provided to a driver, there's some extra data that must be passed to the OS to ensure access to the surface is synchronized correctly with the OS. The [**ID3D12CommandQueue**](https://learn.microsoft.com/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue) object the driver submits commands on that use the swap chain surface as an input must be indicated to the OS so it can correctly synchronize the driver reads with the OS writes.
+
+At the point the driver calls [**IddCxSwapChainReleaseAndAcquireBuffer2**](https://learn.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchainreleaseandacquirebuffer2), the OS uses this call as an indication that the driver is ready to submit work that uses the swap chain surface. If the driver submits other work to the same command queue, this could be delayed unnecessarily.
 
 ## See also
 

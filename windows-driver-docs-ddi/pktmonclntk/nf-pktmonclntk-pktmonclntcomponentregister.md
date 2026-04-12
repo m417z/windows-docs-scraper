@@ -30,7 +30,7 @@ If the function succeeds, it returns `STATUS_SUCCESS`. Otherwise, it returns a `
 
 ## Remarks
 
-When the component is no longer needed, the Packet Monitor client should call **[PktMonClntComponentUnregister](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonclntk/nf-pktmonclntk-pktmonclntcomponentunregister)** to unregister it from Packet Monitor and free any associated resources.
+When the component is no longer needed, the PktMonClnt application should call **[PktMonClntComponentUnregister](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonclntk/nf-pktmonclntk-pktmonclntcomponentunregister)** to unregister it from Packet Monitor and free any associated resources.
 
 ## See also
 

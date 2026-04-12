@@ -16,7 +16,11 @@ The monitor description is either EDID or no monitor description is available.
 
 ### `IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID_AND_EDID:2`
 
-The monitor description is both DisplayId and EDID.
+The monitor description is both DisplayID and EDID.
+
+### `IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID:` 3
+
+The monitor description is DisplayID only. This means a pure DisplayID block, rather than one embedded inside an EDID block, and no EDID blocks preceding or following.
 
 ## See also
 

@@ -1,0 +1,51 @@
+{
+  "UID": "NC:audiosensors.EVT_AUDIO_SENSORS_BUFFER",
+  "tech.root": "audio",
+  "title": "EVT_AUDIO_SENSORS_BUFFER (audiosensors.h)",
+  "ms.date": "10/02/2025",
+  "targetos": "Windows",
+  "description": "The EVT_AUDIO_SENSORS_BUFFER callback function is used for buffer operations between audio and sensors drivers.",
+  "prerelease": false,
+  "req.assembly": null,
+  "req.construct-type": "function",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audiosensors.h",
+  "req.idl": null,
+  "req.include-header": null,
+  "req.irql": "PASSIVE_LEVEL",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "LibDef"
+  ],
+  "api_location": [
+    "audiosensors.h"
+  ],
+  "api_name": [
+    "EVT_AUDIO_SENSORS_BUFFER"
+  ],
+  "f1_keywords": [
+    "EVT_AUDIO_SENSORS_BUFFER",
+    "audiosensors/EVT_AUDIO_SENSORS_BUFFER"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "EVT_AUDIO_SENSORS_BUFFER"
+  ],
+  "ai-usage": "ai-generated"
+}

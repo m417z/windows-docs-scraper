@@ -1,6 +1,6 @@
 ## Description
 
-The **PktMonClntUninitialize** function uninitializes the kernel driver that is acting as a Packet Monitor client and was previously initialized through **[PktMonClntInitialize](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonclntk/nf-pktmonclntk-pktmonclntinitialize)**.
+The **PktMonClntUninitialize** function uninitializes the kernel driver that is acting as a PktMonClnt application and was previously initialized through **[PktMonClntInitialize](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonclntk/nf-pktmonclntk-pktmonclntinitialize)**.
 
 ## Remarks
 

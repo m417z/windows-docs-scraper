@@ -16,9 +16,15 @@ When set, [**IDDCX_METADATA2::SystemBufferInfo**](https://learn.microsoft.com/wi
 
 When set, [**IDDCX_METADATA2::Hdr10FrameMetaData**](https://learn.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_metadata2) contains valid data.
 
+### `IDDCX_METADATA2_VALID_FLAGS_D3D12_SURFACE:0x4`
+
+When a driver has associated an **ID3D12Device** object with a swap chain in a call to [**IddCxSwapChainSetDevice2**](https://learn.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchainsetdevice2), this flag is set to indicate the **[IDDCX_METADATA2](https://learn.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_metadata2)::pD3D12Surface** field contains valid data. Note that **IDDCX_METADATA2::pSurface** is null in this situation.
+
 ## Remarks
 
 For more information about HDR support, see [IddCx version 1.10 updates](https://learn.microsoft.com/windows-hardware/drivers/display/iddcx1.10-updates).
+
+For more information about D3D12 support, see [IddCx version 1.11 updates](https://learn.microsoft.com/windows-hardware/drivers/display/iddcx1.11-updates).
 
 ## See also
 

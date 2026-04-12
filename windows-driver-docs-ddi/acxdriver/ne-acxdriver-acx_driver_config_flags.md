@@ -1,6 +1,6 @@
 ## Description
 
-The **ACX_DRIVER_CONFIG_FLAGS** enum defines values used to configure the audio class extension.
+The **ACX_DRIVER_CONFIG_FLAGS** enum defines values that are used to configure the audio class extension.
 
 ## Constants
 

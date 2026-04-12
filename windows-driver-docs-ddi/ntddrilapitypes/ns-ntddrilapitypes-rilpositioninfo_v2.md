@@ -36,7 +36,7 @@ LTE serving cell information, a [RILPOSITIONINFOLTE](https://learn.microsoft.com
 
 The number of GSM network measurement reports in **rgNMR**.
 
-### `rgNMR`
+### `rgNMR\[15\]`
 
 GSM network measurement reports, an array of [RILGSMNMR](https://learn.microsoft.com/windows-hardware/drivers/ddi/rilapitypes/ns-rilapitypes-rilgsmnmr) structs.
 
@@ -44,19 +44,23 @@ GSM network measurement reports, an array of [RILGSMNMR](https://learn.microsoft
 
 The number of entries in the UMTS measured results list **ruMRL**.
 
-### `ruMRL`
+### `ruMRL\[15\]`
+
+UMTS measured results list, an array of [RILUMTSMRL](https://learn.microsoft.com/windows-hardware/drivers/ddi/rilapitypes/ns-rilapitypes-rilumtsmrl) structs.
 
 ### `dwCntTDSCDMAMRL`
 
 The number of entries in the TD-SCDMA measured results list **rtMRL**. This field is not present in RILPOSITIONINFO_V1.
 
-### `rtMRL`
+### `rtMRL\[15\]`
+
+TD-SCDMA measured results list, an array of [RILTDSCDMAMRL](https://learn.microsoft.com/windows-hardware/drivers/ddi/rilapitypes/ns-rilapitypes-riltdscdmamrl) structs. This field is not present in RILPOSITIONINFO_V1.
 
 ### `dwCntEUTRAMRL`
 
 The number of entries in the EUTRAN (LTE) measured results list **reMRL**.
 
-### `reMRL`
+### `reMRL\[15\]`
 
 E-UTRAN (LTE) measured results list, an array of [RILEUTRAMRL](https://learn.microsoft.com/windows-hardware/drivers/ddi/rilapitypes/ns-rilapitypes-rileutramrl) structs.
 
@@ -64,17 +68,9 @@ E-UTRAN (LTE) measured results list, an array of [RILEUTRAMRL](https://learn.mic
 
 The number of entries in the cdma2000 measured results list **rc2kMRL**.
 
-### `rc2kMRL`
+### `rc2kMRL\[12\]`
 
 The cdma2000 measured results list, an array of [RILC2KMRL](https://learn.microsoft.com/windows-hardware/drivers/ddi/rilapitypes/ns-rilapitypes-rilc2kmrl) structs.
-
-### `RILTDSCDMAMRL`
-
-TD-SCDMA measured results list, an array of [RILTDSCDMAMRL](https://learn.microsoft.com/windows-hardware/drivers/ddi/rilapitypes/ns-rilapitypes-riltdscdmamrl) structs. This field is not present in RILPOSITIONINFO_V1.
-
-### `RILUMTSMRL`
-
-UMTS measured results list, an array of [RILUMTSMRL](https://learn.microsoft.com/windows-hardware/drivers/ddi/rilapitypes/ns-rilapitypes-rilumtsmrl) structs.
 
 ## Syntax
 
@@ -87,15 +83,15 @@ struct RILPOSITIONINFO_V2 {
   RILPOSITIONINFOTDSCDMA stTDSCDMAServingCellInfo;
   RILPOSITIONINFOLTE     stLTEServingCellInfo;
   DWORD                  dwCntGSMNMR;
-  RILGSMNMR              rgNMR[MAX_GSMPOS_COUNT_OF_NMR];
+  RILGSMNMR              rgNMR[15];
   DWORD                  dwCntUMTSMRL;
-  ruMRL                  RILUMTSMRL[MAX_UMTSPOS_COUNT_OF_MRL];
+  RILUMTSMRL             ruMRL[15];
   DWORD                  dwCntTDSCDMAMRL;
-  rtMRL                  RILTDSCDMAMRL[MAX_TDSCDMAPOS_COUNT_OF_MRL];
+  RILTDSCDMAMRL          rtMRL[15];
   DWORD                  dwCntEUTRAMRL;
-  RILEUTRAMRL            reMRL[MAX_EUTRAPOS_COUNT_OF_MRL];
+  RILEUTRAMRL            reMRL[15];
   DWORD                  dwCntC2KMRL;
-  RILC2KMRL              rc2kMRL[MAX_C2KPOS_COUNT_OF_MRL];
+  RILC2KMRL              rc2kMRL[12];
 };
 ```
 

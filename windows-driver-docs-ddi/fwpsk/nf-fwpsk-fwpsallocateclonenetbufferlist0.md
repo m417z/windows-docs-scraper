@@ -107,6 +107,9 @@ the packet using
 
 Callout drivers should always return held packets as quickly as possible.
 
+If a callout driver is cloning packets to get clarification from a user-mode application, the callout must have a timeout associated with any NBLs they are holding. Otherwise, if the user mode process is suspended (for example, when a device moves into Modern Standby), there is a risk of deadlocks.
+The general recommendation for a timeout is 5 seconds, and must not exceed 60 seconds. If a longer timeout is required, the driver should instead deep copy the packet using [FwpsAllocateNetBufferAndNetBufferList0](https://learn.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0), and block and absorb the original packet.
+
 ## See also
 
 [FwpsFreeCloneNetBufferList0](https://learn.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0)

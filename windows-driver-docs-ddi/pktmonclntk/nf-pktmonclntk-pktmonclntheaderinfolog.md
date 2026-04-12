@@ -10,7 +10,7 @@ Pointer to a **[PKTMON_EDGE_CONTEXT](https://learn.microsoft.com/windows-hardwar
 
 ### `PacketHeaderInformation`
 
-Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information)** structure containing the packet header information.
+Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonclntk/ns-pktmonclntk-pktmon_packet_header_information)** structure containing the packet header information.
 
 ### `Direction`
 
@@ -18,7 +18,7 @@ Indicates the packet direction. Each component reports packets in two directions
 
 ### `Context`
 
-Pointer to a **[PKTMON_PACKET_CONTEXT_IN](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonnpik/ns-pktmonnpik-pktmon_packet_context_in)** structure containing the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID for example. Can be NULL.
+Pointer to a **[PKTMON_PACKET_CONTEXT_IN](https://learn.microsoft.com/windows-hardware/drivers/ddi/pktmonclntnpik/ns-pktmonclntnpik-pktmon_packet_context_in)** structure containing the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID for example. Can be NULL.
 
 ## Remarks
 

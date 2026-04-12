@@ -1,0 +1,5 @@
+typedef struct _AUDIO_ENDPOINT_CONFIG {
+  ULONG Size;
+  UINT8 Version;
+  GUID  AudioInterfaceType;
+} AUDIO_ENDPOINT_CONFIG, *PAUDIO_ENDPOINT_CONFIG;

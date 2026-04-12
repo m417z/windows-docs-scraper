@@ -1,0 +1,3 @@
+typedef struct {
+  HANDLE WriteEvent;
+} KSMIDILOOPED_EVENT, *PKSMIDILOOPED_EVENT;

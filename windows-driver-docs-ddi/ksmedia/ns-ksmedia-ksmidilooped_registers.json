@@ -1,0 +1,52 @@
+{
+  "UID": "NS:ksmedia.KSMIDILOOPED_REGISTERS",
+  "tech.root": "audio",
+  "title": "KSMIDILOOPED_REGISTERS (ksmedia.h)",
+  "ms.date": "10/20/2025",
+  "targetos": "Windows",
+  "description": "The KSMIDILOOPED_REGISTERS structure contains pointers to the read and write position registers for MIDI looped streaming.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "ksmedia.h",
+  "req.include-header": "Ksmedia.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "KSMIDILOOPED_REGISTERS, *PKSMIDILOOPED_REGISTERS",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "ms.keywords": "*PKSMIDILOOPED_REGISTERS, KSMIDILOOPED_REGISTERS, KSMIDILOOPED_REGISTERS structure [Audio Devices], PKSMIDILOOPED_REGISTERS, PKSMIDILOOPED_REGISTERS structure pointer [Audio Devices], audio.ksmidilooped_registers, ksmedia/KSMIDILOOPED_REGISTERS, ksmedia/PKSMIDILOOPED_REGISTERS",
+  "ai-usage": "ai-generated",
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ksmedia.h"
+  ],
+  "api_name": [
+    "KSMIDILOOPED_REGISTERS",
+    "PKSMIDILOOPED_REGISTERS"
+  ],
+  "f1_keywords": [
+    "KSMIDILOOPED_REGISTERS",
+    "ksmedia/KSMIDILOOPED_REGISTERS",
+    "PKSMIDILOOPED_REGISTERS",
+    "ksmedia/PKSMIDILOOPED_REGISTERS"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "KSMIDILOOPED_REGISTERS"
+  ]
+}

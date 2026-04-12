@@ -1,12 +1,12 @@
 ## Description
 
-The **PktMonClntInitialize** function initializes the Packet Monitor client, informing Packet Monitor about the module ID that identifies the client, as well as some handlers it makes available for Packet Monitor to call.
+The **PktMonClntInitialize** function initializes the PktMonClnt application, informing Packet Monitor about the module ID that identifies the client, as well as some handlers it makes available for Packet Monitor to call.
 
 ## Parameters
 
 ### `ModuleId`
 
-A network module identifier used to identify the Packet Monitor client.
+A network module identifier used to identify the PktMonClnt application.
 
 ### `EnumComponents`
 

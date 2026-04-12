@@ -1,0 +1,22 @@
+typedef struct _PKTMON_PACKET_HEADER_INFO {
+  ADDRESS_FAMILY    AddrFamily;
+  PKTMON_IP_ADDRESS IpAddrLocal;
+  PKTMON_IP_ADDRESS IpAddrRemote;
+  UCHAR             IpProtocol;
+  union {
+    struct {
+      USHORT PortLocal;
+      USHORT PortRemote;
+    } Udp;
+    struct {
+      USHORT PortLocal;
+      USHORT PortRemote;
+      UCHAR  Flags;
+    } Tcp;
+    struct {
+      UCHAR Type;
+      UCHAR Code;
+    } Icmp;
+  } Transport;
+  _PKTMON_TRANSPORT _PKTMON_TRANSPORT;
+} PKTMON_PACKET_HEADER_INFO;

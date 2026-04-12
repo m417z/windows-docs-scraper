@@ -1,0 +1,4 @@
+typedef struct {
+  PVOID WritePosition;
+  PVOID ReadPosition;
+} KSMIDILOOPED_REGISTERS, *PKSMIDILOOPED_REGISTERS;

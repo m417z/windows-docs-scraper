@@ -1,0 +1,54 @@
+{
+  "UID": "NS:audiosensors._AUDIO_SENSORS_INTERFACE_V0100",
+  "tech.root": "audio",
+  "title": "AUDIO_SENSORS_INTERFACE_V0100 (audiosensors.h)",
+  "ms.date": "10/02/2025",
+  "targetos": "Windows",
+  "description": "The AUDIO_SENSORS_INTERFACE_V0100 structure defines version 1.0 of the audio sensors interface, which provides communication between audio and sensors drivers.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audiosensors.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "AUDIO_SENSORS_INTERFACE_V0100, *PAUDIO_SENSORS_INTERFACE_V0100",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audiosensors.h"
+  ],
+  "api_name": [
+    "_AUDIO_SENSORS_INTERFACE_V0100",
+    "PAUDIO_SENSORS_INTERFACE_V0100",
+    "AUDIO_SENSORS_INTERFACE_V0100"
+  ],
+  "f1_keywords": [
+    "_AUDIO_SENSORS_INTERFACE_V0100",
+    "audiosensors/_AUDIO_SENSORS_INTERFACE_V0100",
+    "PAUDIO_SENSORS_INTERFACE_V0100",
+    "audiosensors/PAUDIO_SENSORS_INTERFACE_V0100",
+    "AUDIO_SENSORS_INTERFACE_V0100",
+    "audiosensors/AUDIO_SENSORS_INTERFACE_V0100"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_AUDIO_SENSORS_INTERFACE_V0100"
+  ],
+  "ai-usage": "ai-generated"
+}

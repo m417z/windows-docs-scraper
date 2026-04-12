@@ -1,0 +1,54 @@
+{
+  "UID": "NS:audiosensors._SDCA_ENDPOINT_CONFIG",
+  "tech.root": "audio",
+  "title": "SDCA_ENDPOINT_CONFIG (audiosensors.h)",
+  "ms.date": "10/02/2025",
+  "targetos": "Windows",
+  "description": "The SDCA_ENDPOINT_CONFIG structure defines the configuration for SDCA (Smart Device Class Audio) endpoints, including information about the SDCA functions that need to be configured.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "audiosensors.h",
+  "req.include-header": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": null,
+  "req.target-min-winversvr": null,
+  "req.target-type": null,
+  "req.typenames": "SDCA_ENDPOINT_CONFIG, *PSDCA_ENDPOINT_CONFIG",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "audiosensors.h"
+  ],
+  "api_name": [
+    "_SDCA_ENDPOINT_CONFIG",
+    "PSDCA_ENDPOINT_CONFIG",
+    "SDCA_ENDPOINT_CONFIG"
+  ],
+  "f1_keywords": [
+    "_SDCA_ENDPOINT_CONFIG",
+    "audiosensors/_SDCA_ENDPOINT_CONFIG",
+    "PSDCA_ENDPOINT_CONFIG",
+    "audiosensors/PSDCA_ENDPOINT_CONFIG",
+    "SDCA_ENDPOINT_CONFIG",
+    "audiosensors/SDCA_ENDPOINT_CONFIG"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_SDCA_ENDPOINT_CONFIG"
+  ],
+  "ai-usage": "ai-generated"
+}
