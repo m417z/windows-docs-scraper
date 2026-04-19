@@ -56,5 +56,10 @@ typedef struct COPYFILE2_MESSAGE {
       ULARGE_INTEGER       uliTotalFileSize;
       ULARGE_INTEGER       uliTotalBytesTransferred;
     } Error;
+    struct {
+      ULARGE_INTEGER uliChunkNumber;
+      ULARGE_INTEGER uliChunkSize;
+      ULARGE_INTEGER uliChunkOffset;
+    } SparseChunkStatus;
   } Info;
 } COPYFILE2_MESSAGE;

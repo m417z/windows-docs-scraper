@@ -2,7 +2,7 @@
 
 ## Description
 
-Enumerates MethodDef tokens representing interface implementations.
+Enumerates InterfaceImpl tokens representing interface implementations.
 
 ## Parameters
 
@@ -12,11 +12,11 @@ A pointer to the enumerator.
 
 ### `td` [in]
 
-The token of the TypeDef whose MethodDef tokens representing interface implementations are to be enumerated.
+The token of the TypeDef whose InterfaceImpl tokens representing interface implementations are to be enumerated.
 
 ### `rImpls` [out]
 
-The array used to store the MethodDef tokens.
+The array used to store the InterfaceImpl tokens.
 
 ### `cMax` [in]
 
@@ -31,7 +31,7 @@ The actual number of tokens returned in *rImpls*.
 | HRESULT | Description |
 | --- | --- |
 | **S_OK** | **EnumInterfaceImpls** returned successfully. |
-| **S_FALSE** | There are no MethodDef tokens to enumerate. In this case, *pcImpls* is 0 (zero). |
+| **S_FALSE** | There are no InterfaceImpl tokens to enumerate. In this case, *pcImpls* is 0 (zero). |
 
 ## See also
 

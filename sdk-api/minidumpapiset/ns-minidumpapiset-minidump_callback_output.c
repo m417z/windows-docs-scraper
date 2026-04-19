@@ -1,8 +1,8 @@
 typedef struct _MINIDUMP_CALLBACK_OUTPUT {
   union {
-    ULONG   ModuleWriteFlags;
-    ULONG   ThreadWriteFlags;
-    ULONG   SecondaryFlags;
+    ULONG                                            ModuleWriteFlags;
+    ULONG                                            ThreadWriteFlags;
+    ULONG                                            SecondaryFlags;
     struct {
       ULONG64 MemoryBase;
       ULONG   MemorySize;
@@ -11,7 +11,7 @@ typedef struct _MINIDUMP_CALLBACK_OUTPUT {
       BOOL CheckCancel;
       BOOL Cancel;
     };
-    HANDLE  Handle;
+    HANDLE                                           Handle;
     struct {
       MINIDUMP_MEMORY_INFO VmRegion;
       BOOL                 Continue;
@@ -24,6 +24,7 @@ typedef struct _MINIDUMP_CALLBACK_OUTPUT {
       HRESULT VmReadStatus;
       ULONG   VmReadBytesCompleted;
     };
-    HRESULT Status;
+    MINIDUMP_COMPRESSED_MEMORY_STREAM_START_CALLBACK CompressedMemoryStreamStart;
+    HRESULT                                          Status;
   };
 } MINIDUMP_CALLBACK_OUTPUT, *PMINIDUMP_CALLBACK_OUTPUT;

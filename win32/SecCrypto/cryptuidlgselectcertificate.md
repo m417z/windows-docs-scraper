@@ -23,10 +23,10 @@ If the **dwFlags** member of the [**CRYPTUI\_SELECTCERTIFICATE\_STRUCT**](https:
 ## Requirements
 
 | Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br> | Windows�XP \[desktop apps only\]<br> |
-| Minimum supported server<br> | Windows Server�2003 \[desktop apps only\]<br> |
-| End of support<br> | Windows�7 \[desktop apps only\]<br> |
+|-------------------------------|---------------------------------------------------------------------------------------------|
+| Minimum supported client<br> | Windows XP \[desktop apps only\]<br> |
+| Minimum supported server<br> | Windows Server 2003 \[desktop apps only\]<br> |
+| End of support<br> | Windows 7 \[desktop apps only\]<br> |
 | Library<br> | Cryptui.lib |
 | DLL<br> | Cryptui.dll |
 | Unicode and ANSI names<br> | **CryptUIDlgSelectCertificateW** (Unicode) and **CryptUIDlgSelectCertificateA** (ANSI)<br> |

@@ -21,11 +21,11 @@ This field is used when **SetFileInformationByHandle**'s *FileInformationClass* 
 
 ### `RootDirectory`
 
-This field should be set to NULL.
+Set to **NULL** in the common case. If **FileName** specifies a relative name, this field can be a handle to the directory relative to which the new name is resolved.
 
 ### `FileNameLength`
 
-The size of **FileName** in bytes, not including the NUL-termination.
+The size of **FileName** in bytes. A terminating null character is not required.
 
 ### `FileName`
 

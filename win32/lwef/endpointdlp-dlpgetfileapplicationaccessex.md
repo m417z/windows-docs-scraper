@@ -4,7 +4,7 @@ Returns a list of `DlpAction` objects that contain the enforcement level of each
 
 ## Parameters
 
-`filePath` [in]: A [fully qualified Win32 file path](https://docs.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
+`filePath` [in]: A [fully qualified Win32 file path](https://learn.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
 
 `applicationName` [in]: The disk image name of the process that handles the file (such as `notepad.exe`, `chrome.exe`, etc).
 

@@ -1,0 +1,6 @@
+WINUSERAPI
+BOOL
+WINAPI
+InjectTouchpadAction(
+    HSYNTHETICPOINTERDEVICE hDevice,
+    TOUCHPAD_ACTION action);

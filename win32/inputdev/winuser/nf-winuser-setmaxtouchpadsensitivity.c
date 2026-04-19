@@ -1,3 +1,2 @@
 BOOL SetMaxTouchpadSensitivity(
-[in] BOOL maxSensitivity
-);
+    BOOL forceMaxSensitivity);

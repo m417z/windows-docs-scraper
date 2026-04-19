@@ -4,7 +4,7 @@ Returns the enforcement level of a file uploaded to a cloud application. This fu
 
 ## Parameters
 
-`filePath` [in]: A [fully qualified Win32 file path](https://docs.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
+`filePath` [in]: A [fully qualified Win32 file path](https://learn.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
 
 `cloudAppDomainName` [in]: The domain name component of the URI for the application accessing the file.
 

@@ -7,7 +7,7 @@ Generates an ETW event for the specified file.
 
 ## Parameters
 
-`filePath` [in]: A [fully qualified Win32 file path](https://docs.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
+`filePath` [in]: A [fully qualified Win32 file path](https://learn.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
 
 `url` [in]: The accessing URL to trace. When investigating some operations like Print or Copy to Keyboard, this property can be NULL.
 
