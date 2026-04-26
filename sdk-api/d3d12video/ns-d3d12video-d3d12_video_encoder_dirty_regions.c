@@ -1,0 +1,7 @@
+typedef struct D3D12_VIDEO_ENCODER_DIRTY_REGIONS {
+  D3D12_VIDEO_ENCODER_INPUT_MAP_SOURCE MapSource;
+  union {
+    ID3D12Resource                      *pOpaqueLayoutBuffer;
+    D3D12_VIDEO_ENCODER_DIRTY_RECT_INFO *pCPUBuffer;
+  };
+} D3D12_VIDEO_ENCODER_DIRTY_REGIONS;

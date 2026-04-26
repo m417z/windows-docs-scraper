@@ -1,0 +1,4 @@
+typedef struct D3D12_VIDEO_ENCODER_MOVE_RECT {
+  POINT SourcePoint;
+  RECT  DestRect;
+} D3D12_VIDEO_ENCODER_MOVE_RECT;

@@ -26,7 +26,7 @@ Support for configuring the VBV Initial fullness and capacity for rate control a
 
 ### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_FRAME_ANALYSIS_AVAILABLE`
 
-Support for rate control modes that involve frame analysis to optimize the bitrate usage at the cost of a slower performance.
+Support for rate control modes that involve frame analysis to optimize the bitrate usage at the cost of a slower performance. When this flag is reported by the driver, further support for performing two pass at lower resolutions can be queried in [D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_feature_video).
 
 ### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RECONSTRUCTED_FRAMES_REQUIRE_TEXTURE_ARRAYS`
 
@@ -50,7 +50,7 @@ Support for adjustable initial QP in rate control.
 
 ### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_MAX_FRAME_SIZE_AVAILABLE`
 
-Ssupport for setting a maximum cap in the bitrate algorithm per each encoded frame.
+Support for setting a maximum cap in the bitrate algorithm per each encoded frame.
 
 ### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SEQUENCE_GOP_RECONFIGURATION_AVAILABLE`
 
@@ -60,6 +60,45 @@ Support for dynamic GOP changes during an encode session.
 
 Support for the caller to limit the precision used for motion search on frame encode.
 
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT` : 0x2000
+
+Support for rate control extension 1 configurations.
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_QUALITY_VS_SPEED_AVAILABLE` : 0x4000
+
+Support for quality versus speed trade-off configuration in rate control.
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_READABLE_RECONSTRUCTED_PICTURE_LAYOUT_AVAILABLE` : 0x8000
+
+Support for readable reconstructed picture layouts.
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_QP_MAP_METADATA_AVAILABLE`
+
+Support for per-block QP map metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_QP_MAP](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags).
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_SATD_MAP_METADATA_AVAILABLE`
+
+Support for per-block SATD map metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_SATD_MAP](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags).
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_RC_BIT_ALLOCATION_MAP_METADATA_AVAILABLE`
+
+Support for per-block rate control bit allocation map metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_RC_BIT_ALLOCATION_MAP](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags).
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGION_NOTIFICATION_ARRAY_OF_BUFFERS_AVAILABLE`
+
+Support for subregion compressed bitstream notification using an array of separate output buffers, one per subregion.
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGION_NOTIFICATION_SINGLE_BUFFER_AVAILABLE`
+
+Support for subregion compressed bitstream notification using a single contiguous output buffer for all subregions.
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_FRAME_PSNR_METADATA_AVAILABLE`
+
+Support for frame-level PSNR metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_FRAME_PSNR](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags).
+
+### `D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGIONS_PSNR_METADATA_AVAILABLE`
+
+Support for subregion-level PSNR metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_SUBREGIONS_PSNR](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags).
 ## Remarks
 
 D3D12_VIDEO_ENCODER_SUPPORT_FLAG_GENERAL_SUPPORT_OK indicates that whether there is general support. The rest of the flags can be combined to convey further information.

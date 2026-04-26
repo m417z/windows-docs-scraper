@@ -18,7 +18,7 @@ For the other rate control modes, this flag enables the usage of **D3D12_VIDEO_E
 
 ### `D3D12_VIDEO_ENCODER_RATE_CONTROL_FLAG_ENABLE_FRAME_ANALYSIS`
 
-If [D3D12_VIDEO_ENCODER_SUPPORT_FLAGS](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_video_encoder_support_flags) is supported, Enables the rate control algorithm to optimize bitrate usage by selecting QP values based on statistics collected by doing frame analysis on a first pass.
+If [D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_FRAME_ANALYSIS_AVAILABLE](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_video_encoder_support_flags) is supported, enables the rate control algorithm to optimize bitrate usage by selecting QP values based on statistics collected by doing frame analysis on a first pass. When additional support is reported in [D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS](https://learn.microsoft.com/windows/win32/api/d3d12video/ne-d3d12video-d3d12_feature_video), this flag can be used in combination with [D3D12_VIDEO_ENCODER_HEAP_DESC1](https://learn.microsoft.com/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_encoder_heap_desc1).*Pow2DownscaleFactor* to determine the resolution of the 1st pass.
 
 ### `D3D12_VIDEO_ENCODER_RATE_CONTROL_FLAG_ENABLE_QP_RANGE`
 
@@ -35,6 +35,14 @@ When [D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_MAX_FRAME_SIZE](https://lear
 ### `D3D12_VIDEO_ENCODER_RATE_CONTROL_FLAG_ENABLE_VBV_SIZES`
 
 Enables the usage of VBVCapacity and InitialVBVFullness.
+
+### `D3D12_VIDEO_ENCODER_RATE_CONTROL_FLAG_ENABLE_EXTENSION1_SUPPORT` : 0x40
+
+Enables extension 1 support for rate control.
+
+### `D3D12_VIDEO_ENCODER_RATE_CONTROL_FLAG_ENABLE_QUALITY_VS_SPEED` : 0x80
+
+Enables quality vs speed configuration for rate control.
 
 ## Remarks
 

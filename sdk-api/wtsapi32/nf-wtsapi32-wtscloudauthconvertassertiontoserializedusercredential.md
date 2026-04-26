@@ -2,37 +2,25 @@
 
 Validates the assertion and computes the serialized credential from the [assertion](https://learn.microsoft.com/openspecs/windows_protocols/ms-rdpbcgr/ba819b6b-257a-466f-b8e5-f262d78677f7).
 
-## Syntax
-
-```cpp
-BOOL WINAPI WTSCloudAuthConvertAssertionToSerializedUserCredential(
-  [in] WTS_CLOUD_AUTH_HANDLE cloudAuthHandle,
-  [in] reads_bytes_(assertionLength) PCSTR assertion,
-  [in] ULONG assertionLength,
-  [in] z_ PCWSTR resourceId,
-  [out] WTS_SERIALIZED_USER_CREDENTIAL** userCredential
-);
-```
-
 ## Parameters
 
 ### `cloudAuthHandle` [in]
 
 The cloud authentication handle obtained by calling [WTSCloudAuthOpen](https://learn.microsoft.com/windows/win32/api/wtsapi32/nf-wtsapi32-wtscloudauthopen).
 
-### `reads_bytes_(assertionLength)` PCSTR assertion [in]
+### `assertion` [in]
 
 A pointer to the assertion.
 
-### `ULONG` assertionLength [in]
+### `assertionLength` [in]
 
 The size of the assertion string, in bytes.
 
-### `z_` PCWSTR resourceId [in]
+### `resourceId` [in]
 
 The expected identifier of the Resource App registered in Entra ID. This is used to ensure that the assertion targets the expected Resource App.
 
-### `WTS_SERIALIZED_USER_CREDENTIAL**` userCredential [out]
+### `userCredential` [out]
 
 Receives a pointer to an instance of `WTS_SERIALIZED_USER_CREDENTIAL` containing the serialized credential if the function succeeds. To free the allocated memory, call the `WTSFreeMemoryEx` function and pass `WTSTypeSerializedUserCredential` for the `WTSTypeClass` parameter.
 
@@ -58,3 +46,5 @@ The STATUS_AAD_CLOUDAP_E_* error codes are defined in winnt.h and ntstatus.h.
 ## Remarks
 
 The client constructs the assertion, and the protocol is responsible for transporting the assertion to the server. The output serialized credentials can be used in `WTSCloudAuthNetworkLogonWithSerializedCredentials` to perform a network logon and additional authorization. Later, they can also be used in `IWRdsProtocolConnection2::GetSerializedUserCredentials` where a protocol can provide serialized credentials to the Remote Desktop Services service which performs an interactive logon on their behalf.
+
+## See also

@@ -1,0 +1,19 @@
+typedef struct D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOURCE_REQUIREMENTS1 {
+  UINT                                               NodeIndex;
+  D3D12_VIDEO_ENCODER_CODEC                          Codec;
+  D3D12_VIDEO_ENCODER_PROFILE_DESC                   Profile;
+  DXGI_FORMAT                                        InputFormat;
+  D3D12_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC        PictureTargetResolution;
+  BOOL                                               IsSupported;
+  UINT                                               CompressedBitstreamBufferAccessAlignment;
+  UINT                                               EncoderMetadataBufferAccessAlignment;
+  UINT                                               MaxEncoderOutputMetadataBufferSize;
+  D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAGS OptionalMetadata;
+  D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION            CodecConfiguration;
+  D3D12_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC        EncoderOutputMetadataQPMapTextureDimensions;
+  D3D12_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC        EncoderOutputMetadataSATDMapTextureDimensions;
+  D3D12_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC        EncoderOutputMetadataBitAllocationMapTextureDimensions;
+  UINT                                               EncoderOutputMetadataFramePSNRComponentsNumber;
+  UINT                                               EncoderOutputMetadataSubregionsPSNRComponentsNumber;
+  UINT                                               EncoderOutputMetadataSubregionsPSNRResolvedMetadataBufferSize;
+} D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOURCE_REQUIREMENTS1;

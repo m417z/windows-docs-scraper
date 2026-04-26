@@ -1,0 +1,46 @@
+{
+  "UID": "NI:winioctl.IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE",
+  "tech.root": "fs",
+  "title": "IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE",
+  "ms.date": "02/25/2026",
+  "targetos": "Windows",
+  "description": "Activates or replaces a boot partition on the storage controller or disk using the NVMe Firmware Commit command (NVME_ADMIN_COMMAND_FIRMWARE_COMMIT) with boot partition-specific action codes.",
+  "prerelease": false,
+  "req.construct-type": "ioctl",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winioctl.h",
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 26H1",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE"
+  ],
+  "f1_keywords": [
+    "IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE",
+    "winioctl/IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE"
+  ]
+}

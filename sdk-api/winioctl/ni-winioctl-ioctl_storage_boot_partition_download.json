@@ -1,0 +1,46 @@
+{
+  "UID": "NI:winioctl.IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD",
+  "tech.root": "fs",
+  "title": "IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD",
+  "ms.date": "03/12/2026",
+  "targetos": "Windows",
+  "description": "Downloads a boot partition image to the storage controller or disk using the NVMe Firmware Download command (NVME_ADMIN_COMMAND_FIRMWARE_IMAGE_DOWNLOAD) opcode to transfer image data to the controller's internal buffer.",
+  "prerelease": false,
+  "req.construct-type": "ioctl",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winioctl.h",
+  "req.include-header": null,
+  "req.irql": null,
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 26H1",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.type-library": null,
+  "req.umdf-ver": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winioctl.h"
+  ],
+  "api_name": [
+    "IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD"
+  ],
+  "f1_keywords": [
+    "IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD",
+    "winioctl/IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD"
+  ]
+}

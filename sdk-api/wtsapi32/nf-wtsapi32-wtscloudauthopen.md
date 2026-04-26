@@ -4,7 +4,7 @@ Obtains a cloud authentication handle. To call this function successfully, the c
 
 ## Parameters
 
-### activityId [in]
+### `activityId` [in]
 
 A pointer to a GUID to uniquely identify events related to this operation in Event Viewer. The caller chooses this GUID for their convenience.
 
@@ -15,3 +15,5 @@ If the function succeeds, the return value is a valid cloud authentication handl
 ## Remarks
 
 A cloud authentication handle can be used for remote Entra ID authentication and authorization purposes using the `WTSCloudAuth*` API family.
+
+## See also

@@ -1,0 +1,53 @@
+{
+  "UID": "NS:winioctl._STORAGE_HW_BOOT_PARTITION_INFO",
+  "tech.root": "fs",
+  "title": "STORAGE_HW_BOOT_PARTITION_INFO",
+  "ms.date": "03/11/2026",
+  "targetos": "Windows",
+  "description": "Contains boot partition information retrieved from an NVMe storage controller or disk.",
+  "prerelease": false,
+  "req.construct-type": "structure",
+  "req.ddi-compliance": null,
+  "req.dll": null,
+  "req.header": "winioctl.h",
+  "req.include-header": "Windows.h",
+  "req.kmdf-ver": null,
+  "req.lib": null,
+  "req.max-support": null,
+  "req.redist": null,
+  "req.target-min-winverclnt": "Windows 11 26H1",
+  "req.target-min-winversvr": null,
+  "req.target-type": "Windows",
+  "req.typenames": "STORAGE_HW_BOOT_PARTITION_INFO, *PSTORAGE_HW_BOOT_PARTITION_INFO",
+  "typedef_isUnnamed": false,
+  "req.umdf-ver": null,
+  "req.unicode-ansi": null,
+  "topic_type": [
+    "apiref"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "winioctl.h"
+  ],
+  "api_name": [
+    "_STORAGE_HW_BOOT_PARTITION_INFO",
+    "PSTORAGE_HW_BOOT_PARTITION_INFO",
+    "STORAGE_HW_BOOT_PARTITION_INFO"
+  ],
+  "f1_keywords": [
+    "_STORAGE_HW_BOOT_PARTITION_INFO",
+    "winioctl/_STORAGE_HW_BOOT_PARTITION_INFO",
+    "PSTORAGE_HW_BOOT_PARTITION_INFO",
+    "winioctl/PSTORAGE_HW_BOOT_PARTITION_INFO",
+    "STORAGE_HW_BOOT_PARTITION_INFO",
+    "winioctl/STORAGE_HW_BOOT_PARTITION_INFO"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "helpviewer_keywords": [
+    "_STORAGE_HW_BOOT_PARTITION_INFO"
+  ]
+}

@@ -2,15 +2,6 @@
 
 Duplicates an instance of *[WTS_SERIALIZED_USER_CREDENTIAL](https://learn.microsoft.com/windows/win32/api/wtsapi32/ns-wtsapi32-wts_serialized_user_credential)*.
 
-## Syntax
-
-```cpp
-BOOL WINAPI WTSCloudAuthDuplicateSerializedUserCredential(
-  [in] const WTS_SERIALIZED_USER_CREDENTIAL* userCredential,
-  [out] WTS_SERIALIZED_USER_CREDENTIAL** duplicatedUserCredential
-);
-```
-
 ## Parameters
 
 ### `userCredential` [in]

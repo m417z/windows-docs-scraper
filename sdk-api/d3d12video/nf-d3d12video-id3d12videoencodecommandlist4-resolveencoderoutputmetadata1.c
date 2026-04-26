@@ -1,0 +1,4 @@
+void ResolveEncoderOutputMetadata1(
+  const D3D12_VIDEO_ENCODER_RESOLVE_METADATA_INPUT_ARGUMENTS1  *pInputArguments,
+  const D3D12_VIDEO_ENCODER_RESOLVE_METADATA_OUTPUT_ARGUMENTS1 *pOutputArguments
+);

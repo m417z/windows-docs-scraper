@@ -24,4 +24,4 @@ When the corresponding setting is updated with SPIF_UPDATEINIFILE (to persist th
 
 ## See also
 
-[TOUCHPAD_PARAMETERS structure](https://learn.microsoft.com/windows/win32/api/winuser/ns-winuser-touchpad_parameters)
+[TOUCHPAD_PARAMETERS_V1 structure](https://learn.microsoft.com/windows/win32/api/winuser/ns-winuser-touchpad_parameters_v1)

@@ -1,0 +1,1 @@
+UINT GetPow2DownscaleFactor();

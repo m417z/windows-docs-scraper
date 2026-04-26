@@ -20,8 +20,8 @@ Flags.
 | **FADF_STATIC**<br><br>0x0002 | An array that is statically allocated. |
 | **FADF_EMBEDDED**<br><br>0x0004 | An array that is embedded in a structure. |
 | **FADF_FIXEDSIZE**<br><br>0x0010 | An array that may not be resized or reallocated. |
-| **FADF_RECORD**<br><br>0x0020 | An array that contains records. When set, there will be a pointer to the [IRecordInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo) interface at negative offset 4 in the array descriptor. |
-| **FADF_HAVEIID**<br><br>0x0040 | An array that has an IID identifying interface. When set, there will be a GUID at negative offset 16 in the safe array descriptor. Flag is set only when FADF_DISPATCH or FADF_UNKNOWN is also set. |
+| **FADF_RECORD**<br><br>0x0020 | An array that contains records. When set, there will be a pointer to the [IRecordInfo](https://learn.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo) interface immediately before the safe array descriptor (at negative offset sizeof(IRecordInfo*)). |
+| **FADF_HAVEIID**<br><br>0x0040 | An array that has an IID identifying interface. When set, there will be a GUID immediately before the safe array descriptor (at negative offset 16). Flag is set only when FADF_DISPATCH or FADF_UNKNOWN is also set. |
 | **FADF_HAVEVARTYPE**<br><br>0x0080 | An array that has a variant type. The variant type can be retrieved with [SafeArrayGetVartype](https://learn.microsoft.com/previous-versions/windows/desktop/automat/vartype). |
 | **FADF_BSTR**<br><br>0x0100 | An array of BSTRs. |
 | **FADF_UNKNOWN**<br><br>0x0200 | An array of IUnknown*. |

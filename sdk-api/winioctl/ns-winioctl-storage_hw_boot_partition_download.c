@@ -1,0 +1,10 @@
+typedef struct _STORAGE_HW_BOOT_PARTITION_DOWNLOAD {
+  DWORD     Version;
+  DWORD     Size;
+  DWORD     Flags;
+  BYTE      BPID;
+  BYTE      Reserved[3];
+  DWORDLONG Offset;
+  DWORDLONG BufferSize;
+  BYTE      ImageBuffer[ANYSIZE_ARRAY];
+} STORAGE_HW_BOOT_PARTITION_DOWNLOAD, *PSTORAGE_HW_BOOT_PARTITION_DOWNLOAD;
