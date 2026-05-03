@@ -16,7 +16,7 @@ The number of characters in *bstr*, not including the terminating null character
 
 ## Remarks
 
-The returned value may be different from **strlen**(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the [SysAllocStringLen](https://learn.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen) function used to allocate the BSTR.
+The returned value may be different from **wcslen**(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the [SysAllocStringLen](https://learn.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen) function used to allocate the BSTR.
 
 ## See also
 
