@@ -183,6 +183,12 @@ JET_IdxInfoCreateIndex2
 **Windows 7:** JET_IdxInfoCreateIndex2 is introduced in Windows 7.
 
 |
+| JET_IdxInfoSpaceOwned | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages owned by the index. See [Remarks](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgettableindexinfo-function#remarks) for more information.
+
+**Windows 11:** _JET_IdxInfoSpaceOwned_ is introduced in Windows 11. |
+| JET_IdxInfoSpaceAvail | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages available in the index. See [Remarks](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgettableindexinfo-function#remarks) for more information.
+
+**Windows 11:** _JET_IdxInfoSpaceAvail_ is introduced in Windows 11. |
 
 ### Return Value
 
@@ -297,5 +303,7 @@ Implemented as **JetGetTableIndexInfoW** (Unicode) and **JetGetTableIndexInfoA**
 [JET_SESID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-sesid)
 [JET_TABLEID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-tableid)
 [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate-structure)
+[JET_INDEXCREATE2](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate2-structure)
 [JET_INDEXID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexid-structure)
+[JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexlist-structure)
 [JetGetIndexInfo](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgetindexinfo-function)

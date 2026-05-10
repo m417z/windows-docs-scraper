@@ -48,23 +48,15 @@ The size, in bytes, of the buffer passed as *pvResult*.
 
 The information that will be stored in *pvResult*. The following options can be used for this parameter.
 
-|
-
-Value
-
-|
-
-Meaning
-
-|
-|--------------|----------------|
+| Value | Meaning |
+| -------------- | ---------------- |
 |
 
 JET_IdxInfo
 
 |
 
-*pvResult* is interpreted as a [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269185(v=exchg.10).md) structure. On success, the [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269185(v=exchg.10).md) structure receives information about the index. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexlist-structure) structure. On success, the [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269185(v=exchg.10).md) structure receives information about the index. On failure, the contents of *pvBuffer* are undefined.
 
 |
 |
@@ -82,7 +74,7 @@ JET_IdxInfoIndexId
 
 |
 
-*pvResult* is interpreted as a [JET_INDEXID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269327(v=exchg.10).md). On success, the [JET_INDEXID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269327(v=exchg.10).md) structure receives information about the index. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a [JET_INDEXID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexid-structure). On success, the [JET_INDEXID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269327(v=exchg.10).md) structure receives information about the index. On failure, the contents of *pvBuffer* are undefined.
 
 |
 |
@@ -111,7 +103,7 @@ JET_IdxInfoList
 
 |
 
-*pvResult* is interpreted as a [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269185(v=exchg.10).md) structure. On success, the [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269185(v=exchg.10).md) structure receives information about the index. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexlist-structure) structure. On success, the [JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269185(v=exchg.10).md) structure receives information about the index. On failure, the contents of *pvBuffer* are undefined.
 
 |
 |
@@ -138,7 +130,7 @@ JET_IdxInfoSpaceAlloc
 
 |
 
-*pvResult* is interpreted as a ULONG. On success, the ULONG holds the space usage of the index. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a ULONG. On success, the ULONG holds the target density (*ulDensity*) of the index. See [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate-structure) for a description of *ulDensity*. On failure, the contents of *pvBuffer* are undefined.
 
 |
 |
@@ -156,7 +148,7 @@ JET_IdxInfoVarSegMac
 
 |
 
-*pvResult* is interpreted as a USHORT. On success, the USHORT holds the value of *cbVarSegMac* used when the index was created. See [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269186(v=exchg.10).md) for a description of *cbVarSegMac*. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a USHORT. On success, the USHORT holds the value of *cbVarSegMac* used when the index was created. See [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate-structure) for a description of *cbVarSegMac*. On failure, the contents of *pvBuffer* are undefined.
 
 |
 |
@@ -165,7 +157,7 @@ JET_IdxInfoKeyMost
 
 |
 
-*pvResult* is interpreted as a USHORT. On success, the USHORT holds the value of *cbKeyMost* used when the index was created. See [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269186(v=exchg.10).md) for a description of *cbKeyMost*. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a USHORT. On success, the USHORT holds the value of *cbKeyMost* used when the index was created. See [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate-structure) for a description of *cbKeyMost*. On failure, the contents of *pvBuffer* are undefined.
 
 **Windows Vista:** JET_IdxInfoKeyMost is introduced in Windows Vista.
 
@@ -176,7 +168,7 @@ JET_IdxInfoCreateIndex
 
 |
 
-*pvResult* is interpreted as a [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg269186(v=exchg.10).md) structure. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate-structure) structure. On failure, the contents of *pvBuffer* are undefined.
 
 **Windows 7:** JET_IdxInfoCreateIndex is introduced in Windows 7.
 
@@ -187,11 +179,17 @@ JET_IdxInfoCreateIndex2
 
 |
 
-*pvResult* is interpreted as a [JET_INDEXCREATE2](https://learn.microsoft.com/windows/win32/extensible-storage-engine/gg294082(v=exchg.10).md) structure. On failure, the contents of *pvBuffer* are undefined.
+*pvResult* is interpreted as a [JET_INDEXCREATE2](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate2-structure) structure. On failure, the contents of *pvBuffer* are undefined.
 
 **Windows 7:** JET_IdxInfoCreateIndex2 is introduced in Windows 7.
 
 |
+| JET_IdxInfoSpaceOwned | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages owned by the index. See [Remarks](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgetindexinfo-function#remarks) for more information.
+
+**Windows 11:** _JET_IdxInfoSpaceOwned_ is introduced in Windows 11. |
+| JET_IdxInfoSpaceAvail | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages available in the index. See [Remarks](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgetindexinfo-function#remarks) for more information.
+
+**Windows 11:** _JET_IdxInfoSpaceAvail_ is introduced in Windows 11. |
 
 ### Return Value
 
@@ -238,6 +236,9 @@ The buffer passed in as *pvResult* was too small. The contents of the buffer are
 #### Remarks
 
 **JetGetIndexInfo** and [JetGetTableIndexInfo](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgettableindexinfo-function) retrieve identical information about an index. The difference is in how the table is specified. **JetGetIndexInfo** expects a database (*dbid*) and name of a table (*szTableName*), while [JetGetTableIndexInfo](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgettableindexinfo-function) expects a table identifier (*tableid*).
+
+The space consumed by an index is defined by $Used + Avail = Owned$. Therefore to get the number of pages in use,
+use the formula $Owned - Avail = Used$ (retrievable with _JET_IdxInfoSpaceOwned_ and _JET_IdxInfoSpaceAvail_).
 
 #### Requirements
 
@@ -304,7 +305,9 @@ Implemented as **JetGetIndexInfoW** (Unicode) and **JetGetIndexInfoA** (ANSI).
 [JET_ERR](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-err)
 [JET_GRBIT](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-grbit)
 [JET_INDEXCREATE](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate-structure)
+[JET_INDEXCREATE2](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexcreate2-structure)
 [JET_INDEXID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexid-structure)
+[JET_INDEXLIST](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-indexlist-structure)
 [JET_SESID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-sesid)
 [JET_TABLEID](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jet-tableid)
 [JetGetTableIndexInfo](https://learn.microsoft.com/windows/win32/extensible-storage-engine/jetgettableindexinfo-function)

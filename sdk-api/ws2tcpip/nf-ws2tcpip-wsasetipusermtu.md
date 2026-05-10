@@ -20,6 +20,9 @@ On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](https:/
 
 ## Remarks
 
-This functionality is supported through the [**IP_USER_MTU**](https://learn.microsoft.com/windows/win32/winsock/ipproto-ip-socket-options) socket option. **WSASetIPUserMtu** is a type-safe wrapper for setting this socket option, and we recommend it over [setsockopt](https://learn.microsoft.com/windows/win32/api/winsock/nf-winsock-setsockopt).
+> [!IMPORTANT]
+> This API is deprecated. **WSASetIPUserMtu** does not properly support dual-stack sockets. Use the [**IP_USER_MTU**](https://learn.microsoft.com/windows/win32/winsock/ipproto-ip-socket-options) and [**IPV6_USER_MTU**](https://learn.microsoft.com/windows/win32/winsock/ipproto-ipv6-socket-options) socket options directly with [setsockopt](https://learn.microsoft.com/windows/win32/api/winsock/nf-winsock-setsockopt) instead.
+
+On a dual-stack socket that is unbound or bound to a wildcard address, applications need to set both the **IP_USER_MTU** (level **IPPROTO_IP**) and **IPV6_USER_MTU** (level **IPPROTO_IPV6**) socket options separately. If the socket is bound to a specific IPv6 address, only the **IPV6_USER_MTU** option should be set. If the socket is bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), only the **IP_USER_MTU** option should be set.
 
 ## See also
