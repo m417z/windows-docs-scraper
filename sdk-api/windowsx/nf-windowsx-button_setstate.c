@@ -1,4 +1,4 @@
-LRESULT Button_SetState(
+UINT Button_SetState(
    HWND hwndCtl,
    BOOL state
 );

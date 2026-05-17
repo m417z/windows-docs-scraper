@@ -5,5 +5,6 @@ typedef struct addrinfo_dns_server {
   struct sockaddr  *ai_addr;
   union {
     PWSTR ai_template;
+    PWSTR ai_hostname;
   };
 } ADDRINFO_DNS_SERVER;

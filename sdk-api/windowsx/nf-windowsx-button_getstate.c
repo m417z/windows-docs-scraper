@@ -1,3 +1,3 @@
-LRESULT Button_GetState(
+int Button_GetState(
    HWND hwndCtl
 );

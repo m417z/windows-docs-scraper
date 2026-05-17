@@ -1,4 +1,4 @@
-LRESULT Button_SetStyle(
+void Button_SetStyle(
    HWND  hwndCtl,
    DWORD style,
    BOOL  fRedraw

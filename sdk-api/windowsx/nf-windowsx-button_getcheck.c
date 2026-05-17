@@ -1,3 +1,3 @@
-LRESULT Button_GetCheck(
+int Button_GetCheck(
    HWND hwndCtl
 );

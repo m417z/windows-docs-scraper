@@ -1,4 +1,4 @@
-LRESULT Button_SetCheck(
+void Button_SetCheck(
    HWND hwndCtl,
    int  check
 );

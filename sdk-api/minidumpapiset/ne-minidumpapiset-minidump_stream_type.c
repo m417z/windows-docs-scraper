@@ -24,8 +24,6 @@ typedef enum _MINIDUMP_STREAM_TYPE {
   ProcessVmCountersStream = 22,
   IptTraceStream = 23,
   ThreadNamesStream = 24,
-  CompressedMemoryStream,
-  CompressedMemoryStreamSQL,
   ceStreamNull = 0x8000,
   ceStreamSystemInfo = 0x8001,
   ceStreamException = 0x8002,

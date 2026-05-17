@@ -70,7 +70,7 @@ typedef struct _MIDL_STUB_MESSAGE {
   struct _NDR_PROC_CONTEXT           *pContext;
   void                               *ContextHandleHash;
   void                               *pUserMarshalList;
-  INT_PTR                            Reserved51_3;
+  unsigned char                      *pFullPtrFormat;
   INT_PTR                            Reserved51_4;
   INT_PTR                            Reserved51_5;
 } MIDL_STUB_MESSAGE, *PMIDL_STUB_MESSAGE;

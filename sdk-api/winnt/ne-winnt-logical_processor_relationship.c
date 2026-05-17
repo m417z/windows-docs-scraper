@@ -7,6 +7,5 @@ typedef enum _LOGICAL_PROCESSOR_RELATIONSHIP {
   RelationProcessorDie,
   RelationNumaNodeEx,
   RelationProcessorModule,
-  RelationProcessorSharedComputeUnit,
   RelationAll = 0xffff
 } LOGICAL_PROCESSOR_RELATIONSHIP;

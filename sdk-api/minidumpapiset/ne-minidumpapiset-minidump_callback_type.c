@@ -19,7 +19,5 @@ typedef enum _MINIDUMP_CALLBACK_TYPE {
   VmStartCallback,
   VmQueryCallback,
   VmPreReadCallback,
-  VmPostReadCallback,
-  CompressedMemoryStreamStartCallback,
-  CompressedMemoryStreamFinishCallback
+  VmPostReadCallback
 } MINIDUMP_CALLBACK_TYPE;
