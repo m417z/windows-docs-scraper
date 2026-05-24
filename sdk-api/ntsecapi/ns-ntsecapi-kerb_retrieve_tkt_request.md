@@ -61,6 +61,9 @@ This member can have one of the following values.
 | **KERB_ETYPE_RC4_MD4** | Use the RC4 stream cipher with the MD4 hash function. |
 | **>127** | Values greater than 127 are reserved for local values and may change without notice. |
 
+> [!NOTE]
+> This field adjusts the Kerberos preferred encryption type order. However, this order is no longer honored by Windows Server 2025 and newer Kerberos Key Distribution Centers. For more information, see this blog post [What's the deal with Kerb3961](https://techcommunity.microsoft.com/blog/askds/whats-the-deal-with-kerb3961/4420109) on the Microsoft Community Hub.
+
 ### `CredentialsHandle`
 
 An SSPI credentials handle used in place of a logon session identifier.
