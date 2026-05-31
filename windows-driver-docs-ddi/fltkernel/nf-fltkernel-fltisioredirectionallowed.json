@@ -25,7 +25,7 @@
   "req.type-library": null,
   "req.lib": "FltMgr.lib",
   "req.dll": "Fltmgr.sys",
-  "req.irql": "<=DISPATCH_LEVEL",
+  "req.irql": "<= DISPATCH_LEVEL",
   "targetos": "Windows",
   "req.typenames": null,
   "f1_keywords": [

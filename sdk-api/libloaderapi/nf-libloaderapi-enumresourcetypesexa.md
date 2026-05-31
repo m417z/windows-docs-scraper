@@ -50,7 +50,7 @@ The language used to filter the search in the MUI module. This parameter is used
 
 Type: **BOOL**
 
-Returns **TRUE** if successful or **FALSE** if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if successful or **FALSE** if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -85,4 +85,4 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 **Reference**
 
-[Resources](https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

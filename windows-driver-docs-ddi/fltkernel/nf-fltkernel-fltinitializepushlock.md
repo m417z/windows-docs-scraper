@@ -48,9 +48,9 @@ Push locks offer the following *advantages* over ERESOURCE structures:
 
 Unless any of these advantages are compelling, an ERESOURCE is usually the more robust and maintainable solution to the Read/Write synchronization problem.
 
-To acquire a push lock for exclusive access, call[**FltAcquirePushLockExclusive**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive).
+To acquire a push lock for exclusive access, call [**FltAcquirePushLockExclusive**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive).
 
-To acquire a push lock for shared access, call [**FltAcquirePushLockExclusive**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive).
+To acquire a push lock for shared access, call [**FltAcquirePushLockShared**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared).
 
 To release a push lock, call [**FltReleasePushLock**](https://learn.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock).
 

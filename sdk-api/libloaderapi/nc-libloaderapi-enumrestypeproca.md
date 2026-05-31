@@ -12,7 +12,7 @@ A handle to the module whose executable file contains the resources for which th
 
 ### `lpType`
 
-Type: **LPTSTR**
+Type: **LPSTR**
 
 The type of resource for which the type is being enumerated.
 
@@ -53,4 +53,4 @@ If the callback function returns **FALSE**, then [EnumResourceTypes](https://lea
 
 **Reference**
 
-[Resources](https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

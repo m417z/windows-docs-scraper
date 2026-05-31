@@ -13,7 +13,7 @@
   "req.header": "fltkernel.h",
   "req.idl": null,
   "req.include-header": null,
-  "req.irql": "IRQL <= APC_LEVEL",
+  "req.irql": "<= APC_LEVEL",
   "req.kmdf-ver": null,
   "req.lib": "FltMgr.lib",
   "req.max-support": null,

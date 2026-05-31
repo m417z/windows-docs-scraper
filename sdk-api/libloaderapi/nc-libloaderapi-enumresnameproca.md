@@ -12,13 +12,13 @@ A handle to the module whose executable file contains the resources that are bei
 
 ### `lpType`
 
-Type: **LPCTSTR**
+Type: **LPCSTR**
 
 The type of resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be `MAKEINTRESOURCE(ID)`, where ID is an integer value representing a predefined resource type. For standard resource types, see [Resource Types](https://learn.microsoft.com/windows/desktop/menurc/resource-types). For more information, see the Remarks section below.
 
 ### `lpName`
 
-Type: **LPTSTR**
+Type: **LPSTR**
 
 The name of a resource of the type being enumerated. Alternately, rather than a pointer, this parameter can be `MAKEINTRESOURCE(ID)`, where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
@@ -59,4 +59,4 @@ If the callback function returns **FALSE**, then [EnumResourceNames](https://lea
 
 **Reference**
 
-[Resources](https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

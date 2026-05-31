@@ -72,4 +72,4 @@ If the callback function returns **FALSE**, then [**EnumResourceLanguagesW**](ht
 
 [**MAKELANGID**](https://learn.microsoft.com/windows/win32/api/winnt/nf-winnt-makelangid)
 
-[Resources](https://learn.microsoft.com/windows/win32/menurc/resources)
+[Menus and Other Resources](https://learn.microsoft.com/windows/win32/menurc/resources)

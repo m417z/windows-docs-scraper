@@ -16,7 +16,7 @@ If this parameter is **NULL**, it is equivalent to passing in a handle to the mo
 
 Type: **LPCSTR**
 
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see [Resource Types](https://msdn.microsoft.com/8d27f79a-8165-4565-a975-f25b2344efdc). For more information, see the Remarks section below.
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see [Resource Types](https://learn.microsoft.com/windows/win32/menurc/resource-types). For more information, see the Remarks section below.
 
 ### `lpEnumFunc` [in]
 
@@ -52,7 +52,7 @@ The localization language used to filter the search in the MUI module. This para
 
 Type: **BOOL**
 
-The function **TRUE** if successful, or **FALSE** if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+The function **TRUE** if successful, or **FALSE** if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -97,4 +97,4 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 **Reference**
 
-[Resources](https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

@@ -24,7 +24,7 @@
   "req.type-library": null,
   "req.lib": "Pshed.lib",
   "req.dll": "Pshed.dll",
-  "req.irql": "IRQL <=DISPATCH_LEVEL",
+  "req.irql": "<= DISPATCH_LEVEL",
   "targetos": "Windows",
   "req.typenames": null,
   "f1_keywords": [

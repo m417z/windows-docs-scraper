@@ -16,13 +16,13 @@ If this parameter is **NULL**, that is equivalent to passing in a handle to the 
 
 ### `lpType` [in]
 
-Type: **LPCTSTR**
+Type: **LPCSTR**
 
 The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see [Resource Types](https://learn.microsoft.com/windows/win32/menurc/resource-types). For more information, see the Remarks section below.
 
 ### `lpName` [in]
 
-Type: **LPCTSTR**
+Type: **LPCSTR**
 
 The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
@@ -42,7 +42,7 @@ An application-defined value passed to the callback function. This parameter can
 
 Type: **BOOL**
 
-Returns **TRUE** if successful or **FALSE** otherwise. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if the function succeeds or **FALSE** if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -54,7 +54,7 @@ Starting with Windows Vista, the binary module is typically a [language-neutral 
 
 For each resource found, **EnumResourceLanguages** calls an application-defined callback function *lpEnumFunc*, passing the language identifier (see [Language Identifiers](https://learn.microsoft.com/windows/desktop/Intl/language-identifiers)) of the language for which a resource was found, as well as the various other parameters that were passed to **EnumResourceLanguages**.
 
-Alternately, applications can call [EnumResourceLanguagesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw), which provides more precise control of what resources are enumerated.
+Alternately, applications can call [EnumResourceLanguagesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa), which provides more precise control of what resources are enumerated.
 
 The **EnumResourceLanguages** function continues to enumerate resource languages until the callback function returns **FALSE** or all resource languages have been enumerated.
 
@@ -75,7 +75,7 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 [EnumResLangProc](https://learn.microsoft.com/windows/win32/api/libloaderapi/nc-libloaderapi-enumreslangproca)
 
-[EnumResourceLanguagesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw)
+[EnumResourceLanguagesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa)
 
 [EnumResourceNames](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa)
 
@@ -83,4 +83,4 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 **Reference**
 
-[Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

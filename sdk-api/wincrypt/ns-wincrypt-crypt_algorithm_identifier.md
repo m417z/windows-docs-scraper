@@ -88,6 +88,7 @@ An OID of an algorithm. This member can be one of the following values. This lis
 | **szOID_ECDSA_SHA384**<br><br>"1.2.840.10045.4.3.3" | Elliptic curve Digital Signature Algorithm (DSA) coupled with the Secure Hashing Algorithm (SHA384) algorithm. |
 | **szOID_ECDSA_SHA512**<br><br>"1.2.840.10045.4.3.4" | Elliptic curve Digital Signature Algorithm (DSA) coupled with the Secure Hashing Algorithm (SHA512) algorithm. |
 | **szOID_NO_HASH**<br><br>"1.3.6.1.4.1.311.73.1" | An OID that indicates that no hash algorithm is used. |
+| **szOID_PREHASH**<br><br>"1.3.6.1.4.1.311.73.2" | An OID that indicates that the bytes to be signed have been pre-hashed. |
 | **szOID_NIST_AES128_CBC**<br><br>"2.16.840.1.101.3.4.1.2" | 128 bit Advanced Encryption Standard (AES) algorithm with cipher-block chaining mode of operation. |
 | **szOID_NIST_AES192_CBC**<br><br>"2.16.840.1.101.3.4.1.22" | 192 bit Advanced Encryption Standard (AES) algorithm with cipher-block chaining mode of operation. |
 | **szOID_NIST_AES256_CBC**<br><br>"2.16.840.1.101.3.4.1.42" | 256 bit Advanced Encryption Standard (AES) algorithm with cipher-block chaining mode of operation. |
@@ -172,7 +173,17 @@ An OID of an algorithm. This member can be one of the following values. This lis
 | **szOID_NIST_hash_ml_dsa_44_with_sha512**<br><br>"2.16.840.1.101.3.4.3.32" | "Pre-Hash" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 128 bit lattice. |
 | **szOID_NIST_hash_ml_dsa_65_with_sha512**<br><br>"2.16.840.1.101.3.4.3.33" | "Pre-Hash" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 192 bit lattice. |
 | **szOID_NIST_hash_ml_dsa_87_with_sha512**<br><br>"2.16.840.1.101.3.4.3.34" | "Pre-Hash" Module-Lattice-Based Digital Signature Algorithm (ML-DSA) that uses a 256 bit lattice. |
+| **szOID_MLDSA44_ECDSA_P256_SHA256**<br><br>"1.3.6.1.5.5.7.6.40" | Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 44 and Elliptic Curve Digital Signature Algorithm (ECDSA) p256 with SHA-256 Hash Algorithm. |
+| **szOID_MLDSA65_ECDSA_P256_SHA512**<br><br>"1.3.6.1.5.5.7.6.45" | Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 65 and Elliptic Curve Digital Signature Algorithm (ECDSA) p256 with SHA-512 Hash Algorithm. |
+| **szOID_MLDSA65_ECDSA_P384_SHA512**<br><br>"1.3.6.1.5.5.7.6.46" | Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 65 and Elliptic Curve Digital Signature Algorithm (ECDSA) p384 with SHA-512 Hash Algorithm. |
+| **szOID_MLDSA87_ECDSA_P384_SHA512**<br><br>"1.3.6.1.5.5.7.6.49" | Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 87 and Elliptic Curve Digital Signature Algorithm (ECDSA) p384 with SHA-512 Hash Algorithm. |
 | **szOID_PKIX_NO_SIGNATURE**<br><br>"1.3.6.1.5.5.7.6.2" | No signature. |
+| **szOID_NIST_ml_kem_512**<br><br>"2.16.840.1.101.3.4.4.1" | Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 512. |
+| **szOID_NIST_ml_kem_768**<br><br>"2.16.840.1.101.3.4.4.2" | Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 768. |
+| **szOID_NIST_ml_kem_1024**<br><br>"2.16.840.1.101.3.4.4.3" | Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 1024. |
+| **szOID_MLKEM768_X25519_SHA3_256**<br><br>"1.3.6.1.5.5.7.6.58" | Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 768 and Curve 25519 with SHA3 256-bit hash algorithm. |
+| **szOID_MLKEM768_ECDH_P256_SHA3_256**<br><br>"1.3.6.1.5.5.7.6.59" | Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 768 and Elliptic Curve Diffie-Hellman P256 with SHA3 256-bit hash algorithm. |
+| **szOID_MLKEM1024_ECDH_P384_SHA3_256**<br><br>"1.3.6.1.5.5.7.6.63" | Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 1024 and Elliptic Curve Diffie-Hellman P384 with SHA3 256-bit hash algorithm. |
 | **szOID_RSA_SSA_PSS**<br><br>"1.2.840.113549.1.1.10" | RSA Signature Scheme with Appendix and Probabilistic Signature Scheme. |
 | **szOID_ECDSA_SPECIFIED**<br><br>"1.2.840.10045.4.3" | Elliptic Curve Digital Signature Algorithm (ECDSA). |
 

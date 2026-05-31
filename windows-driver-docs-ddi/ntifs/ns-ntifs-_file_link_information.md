@@ -14,7 +14,7 @@ Set to TRUE to specify that if the link already exists, it should be replaced wi
 
 ### `DUMMYUNIONNAME.Flags`
 
-Flags for the link operation. This field is only applicable when used with the FileLinkInformationEx information class. Available starting with Windows 10, version 1809.
+Flags for the link operation. This field is only applicable when used with the FileLinkInformationEx and FileLinkInformationExBypassAccessCheck information classes. Available starting with Windows 10, version 1809.
 
 Here are the possible values:
 

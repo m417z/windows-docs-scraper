@@ -16,7 +16,7 @@ If this parameter is **NULL**, it is equivalent to passing in a handle to the mo
 
 ### `lpType` [in]
 
-Type: **LPCTSTR**
+Type: **LPCSTR**
 
 The type of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see [Resource Types](https://learn.microsoft.com/windows/desktop/menurc/resource-types). For more
 
@@ -24,7 +24,7 @@ information, see the Remarks section below.
 
 ### `lpName` [in]
 
-Type: **LPCTSTR**
+Type: **LPCSTR**
 
 The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](https://learn.microsoft.com/windows/win32/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
@@ -63,7 +63,7 @@ The localization language used to filter the search in the .mui file. This param
 
 Type: **BOOL**
 
-Returns **TRUE** if the function succeeds or **FALSE** if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if the function succeeds or **FALSE** if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -85,7 +85,7 @@ The **EnumResourceLanguagesEx** function continues to enumerate resource languag
 
 If *hModule* specifies an LN file, and both flags are selected, the languages enumerated include all languages whose resources reside either in the LN file or in any .mui files associated with it. If no .mui files are found, only languages from the LN file are returned.
 
-If *dwFlags* contains **RESOURCE_ENUM_MUI** or **NULL** and *LangId* is 0, then the enumeration first includes the languages associated with all system-installed .mui files, using languages retrieved from [EnumUILanguages](https://learn.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa).. Finally, if the **RESOURCE_ENUM_LN** flag is also set, the file designated by *hModule* is also searched.
+If *dwFlags* contains **RESOURCE_ENUM_MUI** or **NULL** and *LangId* is 0, then the enumeration first includes the languages associated with all system-installed .mui files, using languages retrieved from [EnumUILanguages](https://learn.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa). Finally, if the **RESOURCE_ENUM_LN** flag is also set, the file designated by *hModule* is also searched.
 
 If the *LangId* is nonzero, then only the .mui file corresponding to that language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 
@@ -112,4 +112,4 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 **Reference**
 
-[Resources](https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

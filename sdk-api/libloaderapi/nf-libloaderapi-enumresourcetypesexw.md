@@ -20,7 +20,7 @@ If this parameter is **NULL**, it is equivalent to passing in a handle to the mo
 
 Type: **ENUMRESTYPEPROC**
 
-A pointer to the callback function to be called for each enumerated resource type. For more information, see [EnumResTypeProc](https://learn.microsoft.com/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca).
+A pointer to the callback function to be called for each enumerated resource type. For more information, see [EnumResTypeProc](https://learn.microsoft.com/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeprocw).
 
 ### `lParam` [in]
 
@@ -50,7 +50,7 @@ The language used to filter the search in the MUI module. This parameter is used
 
 Type: **BOOL**
 
-Returns **TRUE** if successful or **FALSE** if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if successful or **FALSE** if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -58,7 +58,7 @@ The **EnumResourceTypesEx** function continues to enumerate resource types until
 
 If *hModule* specifies an LN file, and both flags are selected, the types enumerated correspond to resources residing either in the LN file or in the .mui files associated with it. If no .mui files are found, only types from the LN file are returned. Once one appropriate .mui file is found the search will not continue further, because all .mui files corresponding to a single LN file have the same resource types.
 
-If *dwFlags* and *LangId* are both zero, then the function behaves like [EnumResourceTypes](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-enumresourcetypesa).
+If *dwFlags* and *LangId* are both zero, then the function behaves like [EnumResourceTypes](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-enumresourcetypesw).
 
 If *LangId* is nonzero, then only the .mui file corresponding to that language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 
@@ -75,14 +75,14 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 **Conceptual**
 
-[EnumResTypeProc](https://learn.microsoft.com/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca)
+[EnumResTypeProc](https://learn.microsoft.com/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeprocw)
 
-[EnumResourceLanguagesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa)
+[EnumResourceLanguagesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw)
 
-[EnumResourceNamesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa)
+[EnumResourceNamesEx](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw)
 
-[EnumResourceTypes](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-enumresourcetypesa)
+[EnumResourceTypes](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-enumresourcetypesw)
 
 **Reference**
 
-[Resources](https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

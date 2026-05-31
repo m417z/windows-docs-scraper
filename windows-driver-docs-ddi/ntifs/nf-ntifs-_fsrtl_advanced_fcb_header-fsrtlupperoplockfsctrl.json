@@ -24,7 +24,7 @@
   "req.type-library": null,
   "req.lib": "NtosKrnl.lib",
   "req.dll": "NtosKrnl.exe",
-  "req.irql": "IRQL <= APC_LEVEL",
+  "req.irql": "<= APC_LEVEL",
   "targetos": "Windows",
   "req.typenames": null,
   "ms.custom": "RS5",

@@ -1,7 +1,7 @@
 # BCRYPT_PQDSA_KEY_BLOB structure
 
 > [!NOTE]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The composite features described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
 This structure is used to import and export keys for Post-Quantum Digital Signature algorithms (PQDSA).
 The **BCRYPT_PQDSA_KEY_BLOB** structure is used as a header for a Post-Quantum Digital Signature algorithm (PQDSA)
@@ -18,16 +18,22 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 | **BCRYPT_MLDSA_PUBLIC_MAGIC** `0x4B505344` | The structure represents a public key. |
 | **BCRYPT_MLDSA_PRIVATE_MAGIC** `0x4B535344` | The structure represents an expanded private key. |
 | **BCRYPT_MLDSA_PRIVATE_SEED_MAGIC** `0x53535344` | The structure represents a private seed. |
+| **BCRYPT_COMPOSITE_MLDSA_PUBLIC_MAGIC** `0x4B504D43` | The structure represents a public key. |
+| **BCRYPT_COMPOSITE_MLDSA_PRIVATE_MAGIC** `0x4B534D43` | The structure represents a private key. |
 
 ### cbParameterSet
 
 The length, in bytes, of the buffer `parameterSet` directly following the struct. This buffer contains a null-terminated Unicode string that identifies the parameter set of the key. The following values are currently supported:
 
-| parameterSet | cbParameterSet | Meaning |
-|--|--|--|
-| **BCRYPT_MLDSA_PARAMETER_SET_44** `L"44"` | 6 | ML-DSA-44, security category 2. |
-| **BCRYPT_MLDSA_PARAMETER_SET_65** `L"65"` | 6 | ML-DSA-65, security category 3. |
-| **BCRYPT_MLDSA_PARAMETER_SET_87** `L"87"` | 6 | ML-DSA-87, security category 5. |
+| parameterSet | Meaning |
+|--|--|
+| **BCRYPT_MLDSA_PARAMETER_SET_44** `L"44"` | ML-DSA-44, security category 2. |
+| **BCRYPT_MLDSA_PARAMETER_SET_65** `L"65"` | ML-DSA-65, security category 3. |
+| **BCRYPT_MLDSA_PARAMETER_SET_87** `L"87"` | ML-DSA-87, security category 5. |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_44_ECDSA_P256_SHA256** `L"44-ECDSA-P256-SHA256"` | Composite ML-DSA-44 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P256_SHA512** `L"65-ECDSA-P256-SHA512"` | Composite ML-DSA-65 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P384_SHA512** `L"65-ECDSA-P384-SHA512"` | Composite ML-DSA-65 and ECDSA P384 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_87_ECDSA_P384_SHA512** `L"87-ECDSA-P384-SHA512"` | Composite ML-DSA-87 and ECDSA P384 |
 
 ### cbKey
 
@@ -46,6 +52,6 @@ The consumers of Post-Quantum Digital Signature algorithms will use the same sub
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
-| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
+| **Minimum supported client** | **Windows 11 24H2:** Support for ML-DSA begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Server 2025:** Support for ML-DSA begins. [desktop apps only] |
 | **Header** | `bcrypt.h` |

@@ -1,0 +1,58 @@
+{
+  "UID": "NF:bcrypt.BCryptDecapsulate",
+  "title": "BCryptDecapsulate function (bcrypt.h)",
+  "description": "Performs the Decapsulation operation of a KEM algorithm, decrypting a ciphertext and returning the shared secret key.",
+  "helpviewer_keywords": [
+    "BCryptDecapsulate",
+    "BCryptDecapsulate function [Security]",
+    "bcrypt/BCryptDecapsulate",
+    "security.bcryptdecapsulate",
+    "BCrypt KEM"
+  ],
+  "old-location": "security\\bcryptdecapsulate.htm",
+  "tech.root": "security",
+  "ms.assetid": null,
+  "ms.date": "5/22/2025",
+  "ms.keywords": "BCryptDecapsulate, BCryptDecapsulate function [Security], bcrypt/BCryptDecapsulate, security.bcryptdecapsulate, BCrypt KEM",
+  "req.header": "bcrypt.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 11 24H2",
+  "req.target-min-winversvr": "Windows Server 2025",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Bcrypt.lib",
+  "req.dll": "Bcrypt.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "ms.custom": "24H2",
+  "f1_keywords": [
+    "BCryptDecapsulate",
+    "bcrypt/BCryptDecapsulate"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Bcrypt.dll"
+  ],
+  "api_name": [
+    "BCryptDecapsulate"
+  ]
+}

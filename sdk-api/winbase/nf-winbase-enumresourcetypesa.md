@@ -4,7 +4,7 @@
 
 Enumerates resource types within a binary module. Starting with Windows Vista, this is typically a [language-neutral Portable Executable](https://learn.microsoft.com/windows/desktop/Intl/mui-resource-management) (LN file), and the enumeration also includes resources from one of the corresponding language-specific resource files (.mui files)—if one exists—that contain localizable language resources. It is also possible to use *hModule* to specify a .mui file, in which case only that file is searched for resource types.
 
-Alternately, applications can call [EnumResourceTypesEx](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw), which provides more precise control over which resource files to enumerate.
+Alternately, applications can call [EnumResourceTypesEx](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa), which provides more precise control over which resource files to enumerate.
 
 ## Parameters
 
@@ -21,7 +21,7 @@ If this parameter is **NULL**, that is equivalent to passing in a handle to the 
 
 Type: **ENUMRESTYPEPROC**
 
-A pointer to the callback function to be called for each enumerated resource type. For more information, see the [EnumResTypeProc](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw) function.
+A pointer to the callback function to be called for each enumerated resource type. For more information, see the [EnumResTypeProc](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeproca) function.
 
 ### `lParam` [in]
 
@@ -33,7 +33,7 @@ An application-defined value passed to the callback function.
 
 Type: **BOOL**
 
-Returns **TRUE** if successful; otherwise, **FALSE**. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if successful or **FALSE** if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -56,14 +56,14 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 **Conceptual**
 
-[EnumResTypeProc](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw)
+[EnumResTypeProc](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeproca)
 
 [EnumResourceLanguages](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-enumresourcelanguagesa)
 
 [EnumResourceNames](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa)
 
-[EnumResourceTypesEx](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw)
+[EnumResourceTypesEx](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa)
 
 **Reference**
 
-[Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)

@@ -12,7 +12,7 @@ Alternately, applications can call [EnumResourceTypesEx](https://learn.microsoft
 
 Type: **HMODULE**
 
-A handle to a module to be searched. This handle must be obtained through [LoadLibrary](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [LoadLibraryEx](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa).
+A handle to a module to be searched. This handle must be obtained through [LoadLibrary](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw) or [LoadLibraryEx](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexw).
 See Remarks for more information.
 
 If this parameter is **NULL**, that is equivalent to passing in a handle to the module used to create the current process.
@@ -33,7 +33,7 @@ An application-defined value passed to the callback function.
 
 Type: **BOOL**
 
-Returns **TRUE** if successful; otherwise, **FALSE**. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Returns **TRUE** if successful or **FALSE** if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -58,12 +58,12 @@ For an example, see [Creating a Resource List](https://learn.microsoft.com/windo
 
 [EnumResTypeProc](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw)
 
-[EnumResourceLanguages](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-enumresourcelanguagesa)
+[EnumResourceLanguages](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-enumresourcelanguagesw)
 
-[EnumResourceNames](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa)
+[EnumResourceNames](https://learn.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesw)
 
 [EnumResourceTypesEx](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw)
 
 **Reference**
 
-[Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)
+[Menus and Other Resources](https://learn.microsoft.com/windows/desktop/menurc/resources)
