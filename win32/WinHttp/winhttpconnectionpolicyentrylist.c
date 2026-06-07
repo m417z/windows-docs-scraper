@@ -1,0 +1,4 @@
+typedef struct _WINHTTP_CONNECTION_POLICY_ENTRY_LIST {
+    WINHTTP_CONNECTION_POLICY_ENTRY *pPolicyEntries;
+    DWORD                            nEntries;
+} WINHTTP_CONNECTION_POLICY_ENTRY_LIST;

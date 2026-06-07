@@ -1,0 +1,4 @@
+typedef struct _WINHTTP_CONNECTION_IFINDEX_ENTRY {
+    PCWSTR pwszConnectionName;
+    DWORD  dwIfIndex;
+} WINHTTP_CONNECTION_IFINDEX_ENTRY;
