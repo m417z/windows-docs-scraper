@@ -15,7 +15,6 @@ import multiprocessing
 import os
 import re
 import shutil
-import sys
 import tempfile
 import time
 import traceback
