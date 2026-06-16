@@ -30,8 +30,6 @@ jobs:
           repository: MicrosoftDocs/sdk-api
           path: sdk-api
       - name: Checkout MicrosoftDocs/windows-driver-docs
-        id: checkout_windows_driver_docs
-        continue-on-error: true
         uses: actions/checkout@v6
         with:
           repository: MicrosoftDocs/windows-driver-docs
@@ -64,22 +62,12 @@ jobs:
             --input ../sdk-api \
             --output ./output/sdk-api
       - name: Generate docs - Windows Driver Documentation
-        if: steps.checkout_windows_driver_docs.outcome == 'success'
         run: |
           cd main
           python -u scraper.py \
             --repository windows-driver-docs \
             --input ../windows-driver-docs \
             --output ./output/windows-driver-docs
-      - name: Copy previous Windows Driver Documentation output
-        if: steps.checkout_windows_driver_docs.outcome != 'success'
-        run: |
-          echo Checkout of windows-driver-docs failed, reusing previous run output
-          prev_dir="${{ runner.temp }}/previous"
-          git clone --branch gh-pages --depth 1 --filter=blob:none --sparse https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git "$prev_dir"
-          git -C "$prev_dir" sparse-checkout set --no-cone windows-driver-docs
-          mkdir -p main/output/windows-driver-docs
-          cp -a "$prev_dir/windows-driver-docs/." main/output/windows-driver-docs/
       - name: Generate docs - Win32
         run: |
           cd main
