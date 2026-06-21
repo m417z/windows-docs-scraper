@@ -49,5 +49,7 @@ typedef enum _TOKEN_INFORMATION_CLASS {
   TokenIsAppSilo,
   TokenLoggingInformation,
   TokenLearningMode,
+  TokenIsSystemManagedAdmin,
+  TokenIsInstaller,
   MaxTokenInfoClass
 } TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS;

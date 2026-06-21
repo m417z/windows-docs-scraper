@@ -5,5 +5,5 @@ typedef struct RETRIEVAL_POINTERS_BUFFER {
     LARGE_INTEGER NextVcn;
     LARGE_INTEGER Lcn;
   };
-  __unnamed_struct_0439_64 Extents[1];
+  __unnamed_struct_043a_64 Extents[1];
 } RETRIEVAL_POINTERS_BUFFER, *PRETRIEVAL_POINTERS_BUFFER;

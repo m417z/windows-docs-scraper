@@ -120,5 +120,6 @@ typedef enum {
   WinAuthenticationFreshKeyAuthSid = 118,
   WinBuiltinDeviceOwnersSid = 119,
   WinBuiltinUserModeHardwareOperatorsSid,
-  WinBuiltinOpenSSHUsersSid
+  WinBuiltinOpenSSHUsersSid,
+  WinBuiltinCUAUsersSid
 } WELL_KNOWN_SID_TYPE;
