@@ -10,5 +10,6 @@ typedef struct _POOL_EXTENDED_PARAMETER {
     EX_POOL_PRIORITY                 Priority;
     POOL_EXTENDED_PARAMS_SECURE_POOL *SecurePoolParams;
     POOL_NODE_REQUIREMENT            PreferredNode;
+    HANDLE                           PrivatePoolHandle;
   } DUMMYUNIONNAME;
 } POOL_EXTENDED_PARAMETER, *PPOOL_EXTENDED_PARAMETER;

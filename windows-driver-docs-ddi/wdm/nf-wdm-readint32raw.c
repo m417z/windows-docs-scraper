@@ -1,3 +1,3 @@
-INT32 ReadInt32Raw(
+VOLACCESS_STATIC_FORCEINLINE INT32 ReadInt32Raw(
   INT32 const volatile *Source
 );

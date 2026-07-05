@@ -2,4 +2,7 @@ typedef struct _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL {
   D3DKMT_ALIGN64 UINT64 MinimumTrimInterval;
   D3DKMT_ALIGN64 UINT64 MaximumTrimInterval;
   D3DKMT_ALIGN64 UINT64 IdleTrimInterval;
+  D3DKMT_ALIGN64 UINT64 ForegroundTrimInterval;
+  UINT32                StartPeriodicTrimThreshold;
+  UINT32                CriticalPeriodicTrimThreshold;
 } D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL;

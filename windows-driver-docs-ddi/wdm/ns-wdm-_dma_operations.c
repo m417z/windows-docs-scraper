@@ -39,4 +39,6 @@ typedef struct _DMA_OPERATIONS {
   PFREE_COMMON_BUFFER_FROM_VECTOR         FreeCommonBufferFromVector;
   PFREE_COMMON_BUFFER_VECTOR              FreeCommonBufferVector;
   PCREATE_COMMON_BUFFER_FROM_MDL          CreateCommonBufferFromMdl;
+  PREGISTER_DMA_FAULT_CALLBACK            RegisterFaultCallback;
+  PUNREGISTER_DMA_FAULT_CALLBACK          UnregisterFaultCallback;
 } *PDMA_OPERATIONS, DMA_OPERATIONS;

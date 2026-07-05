@@ -27,4 +27,4 @@ typedef struct _DEVICE_OBJECT {
   USHORT                   Spare1;
   struct _DEVOBJ_EXTENSION *DeviceObjectExtension;
   PVOID                    Reserved;
-} DEVICE_OBJECT, *PDEVICE_OBJECT;
+} *PDEVICE_OBJECT, DEVICE_OBJECT;

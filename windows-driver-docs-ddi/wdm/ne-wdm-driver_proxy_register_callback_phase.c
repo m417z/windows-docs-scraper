@@ -1,6 +1,0 @@
-typedef enum _DRIVER_PROXY_REGISTER_CALLBACK_PHASE {
-  DriverProxyRegisterCallbackPreProcess,
-  DriverProxyRegisterCallbackProxyStalled,
-  DriverProxyRegisterCallbackPostProcess,
-  DriverProxyRegisterCallbackMax
-} DRIVER_PROXY_REGISTER_CALLBACK_PHASE, *PDRIVER_PROXY_REGISTER_CALLBACK_PHASE;

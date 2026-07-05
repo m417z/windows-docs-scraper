@@ -1,6 +1,5 @@
 typedef struct _DXGKARG_CREATEDOORBELL {
   HANDLE                       hHwQueue;
-  HANDLE                       hDoorbell;
   UINT                         PrivateDriverDataSize;
   void                         *PrivateDriverData;
   HANDLE                       hRingBuffer;

@@ -1,5 +1,5 @@
 VOID ExNotifyCallback(
-  [in]           PVOID CallbackObject,
-  [in, optional] PVOID Argument1,
-  [in, optional] PVOID Argument2
+  [in]           PCALLBACK_OBJECT CallbackObject,
+  [in, optional] PVOID            Argument1,
+  [in, optional] PVOID            Argument2
 );

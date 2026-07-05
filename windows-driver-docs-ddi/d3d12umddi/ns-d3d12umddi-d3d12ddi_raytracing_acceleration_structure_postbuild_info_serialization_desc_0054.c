@@ -1,4 +1,7 @@
 typedef struct D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054 {
   UINT64 SerializedSizeInBytes;
-  UINT64 NumBottomLevelAccelerationStructurePointers;
+  union {
+    UINT64 NumBottomLevelAccelerationStructurePointers;
+    UINT64 NumBottomLevelAccelerationStructureHeaderAndPointerListPairs_0110;
+  };
 } D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054;

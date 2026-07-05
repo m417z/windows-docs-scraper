@@ -38,4 +38,5 @@ typedef struct _WIFI_STATION_CAPABILITIES {
   UINT32                     MaxNumConfigurableActionFrameWakePatterns;
   BOOLEAN                    CrossAkmCipherRoamSupported;
   BOOLEAN                    IsWiFi7EnterpriseSupported;
+  BOOLEAN                    rsnOverrideSupported;
 } WIFI_STATION_CAPABILITIES;

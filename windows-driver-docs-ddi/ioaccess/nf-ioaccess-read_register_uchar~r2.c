@@ -1,3 +1,0 @@
-UCHAR READ_REGISTER_UCHAR(
-  _In_ PUCHAR Register
-);

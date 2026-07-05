@@ -1,1 +1,1 @@
-VOID BarrierAfterRead();
+VOLACCESS_STATIC_FORCEINLINE VOID BarrierAfterRead();

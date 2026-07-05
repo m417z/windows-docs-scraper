@@ -8,7 +8,10 @@ typedef union _PCI_EXPRESS_LINK_CONTROL_REGISTER {
     USHORT CommonClockConfig : 1;
     USHORT ExtendedSynch : 1;
     USHORT EnableClockPowerManagement : 1;
-    USHORT Rsvd2 : 7;
+    USHORT Rsvd2 : 1;
+    USHORT BandwidthManagementInterrupt : 1;
+    USHORT AutonomousBandwidthInterrupt : 1;
+    USHORT Rsvd3 : 4;
   } DUMMYSTRUCTNAME;
   USHORT AsUSHORT;
 } PCI_EXPRESS_LINK_CONTROL_REGISTER, *PPCI_EXPRESS_LINK_CONTROL_REGISTER;

@@ -5,4 +5,5 @@ typedef struct _D3DDDIARG_OPENADAPTER {
   [in]     const D3DDDI_ADAPTERCALLBACKS *pAdapterCallbacks;
   [out]    D3DDDI_ADAPTERFUNCS           *pAdapterFuncs;
   [out]    UINT                          DriverVersion;
+           HANDLE                        hDevice;
 } D3DDDIARG_OPENADAPTER;

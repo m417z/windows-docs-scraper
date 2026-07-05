@@ -15,6 +15,7 @@ typedef struct _DEBUG_DEVICE_DESCRIPTOR {
       UCHAR DbgScratchAllocated : 1;
       UCHAR DbgUncachedMemory : 1;
       UCHAR DbgSynthetic : 1;
+      UCHAR DbgHostVisibleAllocated : 1;
     };
   };
   BOOLEAN                   Initialized;

@@ -6,7 +6,8 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
     USHORT LinkTraining : 1;
     USHORT SlotClockConfig : 1;
     USHORT DataLinkLayerActive : 1;
-    USHORT Rsvd : 2;
+    USHORT BandwidthManagementStatus : 1;
+    USHORT AutonomousManagementStatus : 1;
   } DUMMYSTRUCTNAME;
   USHORT AsUSHORT;
 } PCI_EXPRESS_LINK_STATUS_REGISTER, *PPCI_EXPRESS_LINK_STATUS_REGISTER;

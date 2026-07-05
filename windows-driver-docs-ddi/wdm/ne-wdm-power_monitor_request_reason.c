@@ -54,7 +54,7 @@ typedef enum {
   MonitorRequestReasonPdcSignalSensorsHumanPresence,
   MonitorRequestReasonBatteryPreCritical,
   MonitorRequestReasonUserInputTouch,
-  MonitorRequestReasonAusterityBatteryDrain,
+  MonitorRequestReasonRestrictedStandbyBatteryDrain,
   MonitorRequestReasonDozeRestrictedStandby,
   MonitorRequestReasonSmartRestrictedStandby,
   MonitorRequestReasonMax

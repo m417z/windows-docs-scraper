@@ -1,4 +1,4 @@
 NTSYSAPI NTSTATUS RtlCreateRegistryKey(
-  [in] ULONG RelativeTo,
-  [in] PWSTR Path
+  [in] ULONG  RelativeTo,
+  [in] PCWSTR Path
 );

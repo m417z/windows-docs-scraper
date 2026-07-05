@@ -18,5 +18,6 @@ typedef enum _PROCESS_MITIGATION_POLICY {
   ProcessRedirectionTrustPolicy,
   ProcessUserPointerAuthPolicy,
   ProcessSEHOPPolicy,
+  ProcessActivationContextTrustPolicy,
   MaxProcessMitigationPolicy
 } PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY;

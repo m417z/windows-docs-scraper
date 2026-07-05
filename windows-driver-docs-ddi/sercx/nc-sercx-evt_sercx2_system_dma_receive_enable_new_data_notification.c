@@ -1,6 +1,0 @@
-EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION EvtSercx2SystemDmaReceiveEnableNewDataNotification;
-
-VOID EvtSercx2SystemDmaReceiveEnableNewDataNotification(
-  [in] SERCX2SYSTEMDMARECEIVE SystemDmaReceive
-)
-{...}

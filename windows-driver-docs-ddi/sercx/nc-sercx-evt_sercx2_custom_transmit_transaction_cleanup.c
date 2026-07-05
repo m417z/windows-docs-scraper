@@ -1,6 +1,0 @@
-EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP EvtSercx2CustomTransmitTransactionCleanup;
-
-VOID EvtSercx2CustomTransmitTransactionCleanup(
-  [in] SERCX2CUSTOMTRANSMITTRANSACTION CustomTransmitTransaction
-)
-{...}

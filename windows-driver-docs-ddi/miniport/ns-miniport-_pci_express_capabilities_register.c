@@ -4,7 +4,8 @@ typedef union _PCI_EXPRESS_CAPABILITIES_REGISTER {
     USHORT DeviceType : 4;
     USHORT SlotImplemented : 1;
     USHORT InterruptMessageNumber : 5;
-    USHORT Rsvd : 2;
+    USHORT Rsvd : 1;
+    USHORT FlitModeSupported : 1;
   } DUMMYSTRUCTNAME;
   USHORT AsUSHORT;
 } PCI_EXPRESS_CAPABILITIES_REGISTER, *PPCI_EXPRESS_CAPABILITIES_REGISTER;

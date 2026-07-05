@@ -15,7 +15,11 @@ typedef struct _D3DKMT_ADAPTERTYPE {
       UINT ComputeOnly : 1;
       UINT Prototype : 1;
       UINT RuntimePowerManagement : 1;
+      UINT TestOnly : 1;
+      UINT SingleAdapterHybridMode : 1;
 #if ...
+      UINT Reserved : 16;
+#elif
       UINT Reserved : 18;
 #elif
       UINT Reserved : 19;

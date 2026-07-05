@@ -1,3 +1,3 @@
 typedef struct _DXGKARG_DESTROYDOORBELL {
-  HANDLE hDoorbell;
+  HANDLE hHwQueue;
 } DXGKARG_DESTROYDOORBELL;

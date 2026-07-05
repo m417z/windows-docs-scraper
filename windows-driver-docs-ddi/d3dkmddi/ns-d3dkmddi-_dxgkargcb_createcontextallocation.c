@@ -5,11 +5,20 @@ typedef struct _DXGKARGCB_CREATECONTEXTALLOCATION {
   [in]  HANDLE                            hContext;
   [in]  HANDLE                            hDriverAllocation;
   [in]  SIZE_T                            Size;
-  [in]  UINT                              Alignment;
+  union {
+    [in]  UINT Alignment;
+    struct {
+      UINT16 MinimumPageSize;
+      UINT16 RecommendedPageSize;
+    };
+  };
   [in]  UINT                              SupportedSegmentSet;
   [in]  UINT                              EvictionSegmentSet;
   [in]  DXGK_SEGMENTPREFERENCE            PreferredSegment;
-  [in]  DXGK_SEGMENTBANKPREFERENCE        HintedBank;
+  union {
+    [in]  DXGK_SEGMENTBANKPREFERENCE HintedBank;
+          UINT                       MmuSet;
+  };
   [in]  DXGK_ALLOCATIONINFOFLAGS          Flags;
   [out] HANDLE                            hAllocation;
   [in]  UINT                              PhysicalAdapterIndex;

@@ -1,4 +1,0 @@
-typedef struct _NFC_CX_HARDWARE_EVENT {
-  NTSTATUS           HardwareStatus;
-  NFC_CX_HOST_ACTION HostAction;
-} NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT;

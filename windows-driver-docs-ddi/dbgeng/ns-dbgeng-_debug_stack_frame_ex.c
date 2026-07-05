@@ -9,5 +9,5 @@ typedef struct _DEBUG_STACK_FRAME_EX {
   BOOL    Virtual;
   ULONG   FrameNumber;
   ULONG   InlineFrameContext;
-  ULONG   Reserved1;
+  ULONG   FrameMachine;
 } DEBUG_STACK_FRAME_EX, *PDEBUG_STACK_FRAME_EX;

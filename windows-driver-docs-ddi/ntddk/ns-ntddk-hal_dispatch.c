@@ -24,4 +24,8 @@ typedef struct {
   pHalSetPciErrorHandlerCallback HalSetPciErrorHandlerCallback;
   pHalGetPrmCache                HalGetPrmCache;
   pHalInvokePrmFwHandler         HalInvokePrmFwHandler;
+  pHalFfaMsgSendDirectReq2       HalFfaMsgSendDirectReq2;
+  pHalFfaRunTarget               HalFfaRunTarget;
+  pHalFfaRegisterNotification    HalFfaRegisterNotification;
+  pHalFfaUnregisterNotification  HalFfaUnregisterNotification;
 } HAL_DISPATCH, *PHAL_DISPATCH;

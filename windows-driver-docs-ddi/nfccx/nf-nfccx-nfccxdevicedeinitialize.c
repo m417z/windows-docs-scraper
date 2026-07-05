@@ -1,3 +1,0 @@
-NTSTATUS NfcCxDeviceDeinitialize(
-  WDFDEVICE Device
-);

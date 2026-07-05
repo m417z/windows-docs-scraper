@@ -22,7 +22,11 @@ typedef union _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS {
     UINT AlwaysFailGrowVPRMoves : 1;
     UINT NeverFlushTemporaryResources : 1;
     UINT AllocateTemporaryResourcesInAperture : 1;
-    UINT Reserved : 10;
+    UINT AlwaysUseAperture : 1;
+    UINT DisableMigration : 1;
+    UINT ForceDiscardCpuHostApertureRange : 1;
+    UINT PeriodicTrimNeverIdle : 1;
+    UINT Reserved : 6;
   };
   UINT32 Value;
 } D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS;

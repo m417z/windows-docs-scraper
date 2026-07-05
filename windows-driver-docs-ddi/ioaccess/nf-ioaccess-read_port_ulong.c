@@ -1,3 +1,3 @@
-ULONG READ_PORT_ULONG(
-  [in] PVOID Port
+void READ_PORT_ULONG(
+  [in] Port
 );

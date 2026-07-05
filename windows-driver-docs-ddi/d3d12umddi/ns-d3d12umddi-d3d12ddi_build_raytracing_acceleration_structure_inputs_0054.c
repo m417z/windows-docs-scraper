@@ -4,8 +4,9 @@ typedef struct D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054 {
   UINT                                                   NumDescs;
   D3D12DDI_ELEMENTS_LAYOUT                               DescsLayout;
   union {
-    D3D12DDI_GPU_VIRTUAL_ADDRESS                 InstanceDescs;
-    const D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054 *pGeometryDescs;
-    const D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054 const * * ppGeometryDescs;
+    D3D12DDI_GPU_VIRTUAL_ADDRESS                               InstanceDescs;
+    const D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054               *pGeometryDescs;
+    const D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054 const *               * ppGeometryDescs;
+    const D3D12DDI_RAYTRACING_OPACITY_MICROMAP_ARRAY_DESC_0110 *pOpacityMicromapArrayDesc;
   };
 } D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054;

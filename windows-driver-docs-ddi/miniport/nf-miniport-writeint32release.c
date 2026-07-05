@@ -1,4 +1,4 @@
-VOID WriteInt32Release(
+VOLACCESS_STATIC_CFORCEINLINE VOID WriteInt32Release(
   [out] INT32 volatile *Destination,
   [in]  INT32          Value
 );

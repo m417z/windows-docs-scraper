@@ -55,6 +55,9 @@ typedef enum _HAL_QUERY_INFORMATION_CLASS {
   HalQueryProfileCounterOwnership,
   HalQueryMpamInformation,
   HalAmuInformation,
-  HalQueryApHibernateResumePc,
-  HalQueryArm64PlatformInformation
+  HalQueryHibernateResumePc,
+  HalQueryArm64PlatformInformation,
+  HalQueryPnpBusDriverInformation,
+  HalGicInformation,
+  HalPostSleepInformation
 } HAL_QUERY_INFORMATION_CLASS, *PHAL_QUERY_INFORMATION_CLASS;

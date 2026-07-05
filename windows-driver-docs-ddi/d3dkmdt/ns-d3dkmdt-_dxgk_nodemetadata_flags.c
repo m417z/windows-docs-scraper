@@ -6,8 +6,9 @@ typedef struct _DXGK_NODEMETADATA_FLAGS {
       UINT SupportTrackedWorkload : 1;
       UINT UserModeSubmission : 1;
       UINT SupportBuildTestCommandBuffer : 1;
+      UINT SupportFaultAndStall : 1;
 #if ...
-      UINT Reserved : 11;
+      UINT Reserved : 10;
 #elif
       UINT Reserved : 12;
       UINT MaxInFlightHwQueueBuffers : 16;

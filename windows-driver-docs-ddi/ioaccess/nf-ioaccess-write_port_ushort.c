@@ -1,4 +1,4 @@
-VOID WRITE_PORT_USHORT(
-  [in] PVOID Port,
-  [in] ULONG Value
+void WRITE_PORT_USHORT(
+  [in] Port,
+  [in] Value
 );

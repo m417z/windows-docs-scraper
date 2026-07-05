@@ -125,7 +125,9 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
     DXGK_BUILDPAGINGBUFFER_MAPMMU                  MmapMmu;
     DXGK_BUILDPAGINGBUFFER_UNMAPMMU                UnmapMmu;
     DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY2        NotifyResidency2;
-    DXGK_BUILDPAGINGBUFFER_NOTIFYALLOC             NotifyAllocation;
+    DXGK_BUILDPAGINGBUFFER_TRANSFER2               Transfer2;
+    DXGK_BUILDPAGINGBUFFER_FILL2                   Fill2;
+    DXGK_BUILDPAGINGBUFFER_DISCARDCONTENT2         DiscardContent2;
     struct {
       UINT Reserved[64];
     } Reserved;

@@ -11,7 +11,8 @@ typedef struct _DXGK_PTE {
       ULONGLONG PhysicalAdapterIndex : 6;
       ULONGLONG PageTablePageSize : 2;
       ULONGLONG SystemReserved0 : 1;
-      ULONGLONG Reserved : 44;
+      ULONGLONG BlockAccessMode : 2;
+      ULONGLONG Reserved : 42;
     };
     ULONGLONG Flags;
   };

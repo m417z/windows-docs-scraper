@@ -6,7 +6,9 @@ typedef struct _DXGK_ISFEATUREENABLED_RESULT {
       UINT16 KnownFeature : 1;
       UINT16 SupportedByDriver : 1;
       UINT16 SupportedOnCurrentConfig : 1;
-      UINT16 Reserved : 12;
+      UINT16 Available : 1;
+      UINT16 Experimental : 1;
+      UINT16 Reserved : 10;
     };
     DXGK_FEATURE_VERSION Value;
   };

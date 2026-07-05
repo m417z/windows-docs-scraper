@@ -1,4 +1,0 @@
-SERCXFUNC Sercxfunc;
-
-VOID Sercxfunc()
-{...}

@@ -8,7 +8,11 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
     ULONG MultipleHeaderRecordingCapable : 1;
     ULONG MultipleHeaderRecordingEnable : 1;
     ULONG TlpPrefixLogPresent : 1;
-    ULONG Reserved : 20;
+    ULONG CompletionTimeoutPrefixHeaderLogCapable : 1;
+    ULONG HeaderLogSize : 5;
+    ULONG LoggedTlpWasFlitMode : 1;
+    ULONG LoggedTlpSize : 5;
+    ULONG Reserved : 8;
   } DUMMYSTRUCTNAME;
   ULONG  AsULONG;
 } PCI_EXPRESS_AER_CAPABILITIES, *PPCI_EXPRESS_AER_CAPABILITIES;

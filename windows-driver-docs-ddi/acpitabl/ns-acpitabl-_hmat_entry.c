@@ -52,7 +52,7 @@ typedef struct _HMAT_ENTRY {
         } DUMMYSTRUCTNAME;
         ULONG AsULong;
       } CacheAttributes;
-      USHORT    Reserved2;
+      USHORT    AddressMode;
       USHORT    NumberOfSmBiosHandles;
     } Msci;
   } DUMMYUNIONNAME;

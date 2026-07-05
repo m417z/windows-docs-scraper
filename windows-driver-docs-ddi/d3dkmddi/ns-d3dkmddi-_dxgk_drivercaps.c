@@ -50,8 +50,9 @@ typedef struct _DXGK_DRIVERCAPS {
       UINT DisplayableSupport : 1;
       UINT NoHybridDiscreteDListDllMuxSupport : 1;
       UINT CursorDoesNotSupportXorBlendWithMultiPlaneOverlay : 1;
+      UINT TestOnly : 1;
 #if ...
-      UINT Reserved : 23;
+      UINT Reserved : 22;
 #elif
       UINT Reserved : 25;
 #elif

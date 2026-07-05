@@ -6,4 +6,5 @@ typedef struct _DXGKARG_CREATEHWQUEUE {
   D3DKMT_HANDLE             hHwQueueProgressFence;
   VOID                      *HwQueueProgressFenceCPUVirtualAddress;
   D3DGPU_VIRTUAL_ADDRESS    HwQueueProgressFenceGPUVirtualAddress;
+  HANDLE                    hHwQueueNativeProgressFence;
 } DXGKARG_CREATEHWQUEUE;

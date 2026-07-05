@@ -1,4 +1,4 @@
-VOID WriteUInt32Raw(
+VOLACCESS_STATIC_FORCEINLINE VOID WriteUInt32Raw(
   [out] UINT32 volatile *Destination,
   [in]  UINT32          Value
 );

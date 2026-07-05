@@ -11,7 +11,9 @@ typedef union _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER {
     ULONG CapturedSlotPowerLimit : 8;
     ULONG CapturedSlotPowerLimitScale : 2;
     ULONG FunctionLevelResetCapability : 1;
-    ULONG Rsvd2 : 3;
+    ULONG MixedMpsSupported : 1;
+    ULONG TeeIOSupported : 1;
+    ULONG Rsvd2 : 1;
   } DUMMYSTRUCTNAME;
   ULONG  AsULONG;
 } PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER;

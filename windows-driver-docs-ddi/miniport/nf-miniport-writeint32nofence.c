@@ -1,4 +1,4 @@
-VOID WriteInt32NoFence(
+VOLACCESS_STATIC_FORCEINLINE VOID WriteInt32NoFence(
   [out] INT32 volatile *Destination,
   [in]  INT32          Value
 );

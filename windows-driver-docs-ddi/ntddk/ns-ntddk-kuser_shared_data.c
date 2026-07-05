@@ -120,9 +120,9 @@ typedef struct _KUSER_SHARED_DATA {
   LARGE_INTEGER                 TimeZoneBiasEffectiveStart;
   LARGE_INTEGER                 TimeZoneBiasEffectiveEnd;
   XSTATE_CONFIGURATION          XState;
-  KSYSTEM_TIME                  FeatureConfigurationChangeStamp;
-  ULONG                         Spare;
   ULONG64                       UserPointerAuthMask;
   XSTATE_CONFIGURATION          XStateArm64;
-  ULONG                         Reserved10[210];
+  ULONG                         Reserved10[214];
+  KSYSTEM_TIME                  FeatureConfigurationChangeStamp;
+  ULONG                         Spare;
 } KUSER_SHARED_DATA, *PKUSER_SHARED_DATA;

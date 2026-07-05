@@ -1,5 +1,5 @@
 typedef struct _DXGK_NATIVE_FENCE_CAPS {
-  UINT                   MonitoredValueStride;
+  UINT                   MonitoredValuePadding;
   BOOLEAN                MapToGpuSystemProcess;
   D3DGPU_VIRTUAL_ADDRESS MinimumAddress;
   D3DGPU_VIRTUAL_ADDRESS MaximumAddress;

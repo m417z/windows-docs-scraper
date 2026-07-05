@@ -64,4 +64,5 @@ typedef struct _D3DDDI_DEVICECALLBACKS {
   PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB           pfnSubmitPresentBltToHwQueueCb;
   PFND3DDDI_SUBMITPRESENTTOHWQUEUECB              pfnSubmitPresentToHwQueueCb;
   PFND3DDDI_SUBMITHISTORYSEQUENCECB               pfnSubmitHistorySequenceCb;
+  PFND3DDDI_CREATENATIVEFENCECB                   pfnCreateNativeFenceCb;
 } D3DDDI_DEVICECALLBACKS;

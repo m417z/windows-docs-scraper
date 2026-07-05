@@ -4,5 +4,6 @@ typedef struct _D3DDDI_NATIVEFENCEINFO {
   D3DDDI_NATIVEFENCE_TYPE            Type;
   D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS Flags;
   D3DDDI_NATIVEFENCEMAPPING          NativeFenceMapping;
-  D3DKMT_ALIGN64 BYTE                Reserved[28];
+  UINT                               PhysicalAdapterIndex;
+  BYTE                               Reserved[24];
 } D3DDDI_NATIVEFENCEINFO;

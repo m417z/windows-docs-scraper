@@ -23,7 +23,10 @@ typedef struct _DXGK_SEGMENTFLAGS {
       UINT LocalBudgetGroup : 1;
       UINT NonLocalBudgetGroup : 1;
       UINT PopulatedByReservedDDRByFirmware : 1;
+      UINT AperturePreservedDuringStandby : 1;
 #if ...
+      UINT Reserved : 9;
+#elif
       UINT Reserved : 10;
 #elif
       UINT Reserved : 11;

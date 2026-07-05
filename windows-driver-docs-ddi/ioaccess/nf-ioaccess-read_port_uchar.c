@@ -1,3 +1,3 @@
-UCHAR READ_PORT_UCHAR(
-  [in] PVOID Port
+void READ_PORT_UCHAR(
+  [in] Port
 );

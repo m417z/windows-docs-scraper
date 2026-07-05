@@ -4,6 +4,5 @@ typedef enum PCR_BTI_VBAR_INDEX {
   BtiVbarTrapSmc,
   BtiVbarBhbDsbIsb,
   BtiVbarBhbSb,
-  BtiVbarBhbClr,
-  BtiVbarLdrLdp8380R1
+  BtiVbarBhbClr
 } ;

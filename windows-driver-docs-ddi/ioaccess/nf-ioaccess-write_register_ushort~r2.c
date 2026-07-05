@@ -1,4 +1,0 @@
-VOID WRITE_REGISTER_USHORT(
-  _In_ PUSHORT Register,
-  _In_ USHORT  Value
-);

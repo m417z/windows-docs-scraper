@@ -17,4 +17,5 @@ typedef struct _WHEA_RECOVERY_CONTEXT {
   WHEA_RECOVERY_CONTEXT_ERROR_TYPE ErrorType;
   ULONG                            PageCount;
   WHEA_RECOVERY_CONTEXT_PAGE_INFO  PageInfo[WHEA_PFA_PAGE_RANGE_MAX];
+  UINT64                           ChildPartitionId;
 } WHEA_RECOVERY_CONTEXT, *PWHEA_RECOVERY_CONTEXT;

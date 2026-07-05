@@ -8,4 +8,6 @@ typedef struct _D3DDDI_DRIVERESCAPE_BUILDTESTCOMMANDBUFFER {
   PVOID                              pDmaBufferPrivateData;
   UINT                               DmaBufferSize;
   UINT                               DmaBufferPrivateDataSize;
+  UINT64                             HardwareProgressFenceId;
+  UINT64                             HardwareProgressFenceGpuVa;
 } D3DDDI_DRIVERESCAPE_BUILDTESTCOMMANDBUFFER;

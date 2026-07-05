@@ -1,4 +1,4 @@
 typedef struct _DXGKARG_DISCONNECTDOORBELL {
-  HANDLE                           hDoorbell;
+  HANDLE                           hHwQueue;
   DXGKARG_DISCONNECTDOORBELL_FLAGS Flags;
 } DXGKARG_DISCONNECTDOORBELL;

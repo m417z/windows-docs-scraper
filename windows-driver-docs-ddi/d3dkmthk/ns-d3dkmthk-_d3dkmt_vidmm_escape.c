@@ -29,6 +29,15 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
       };
     } SetFault;
     struct {
+      union {
+        struct {
+          ULONG TestNativeFence : 1;
+          ULONG Reserved : 31;
+        };
+        ULONG Value;
+      };
+    } Debug;
+    struct {
       D3DKMT_HANDLE ResourceHandle;
       D3DKMT_HANDLE AllocationHandle;
       HANDLE        hProcess;
@@ -97,5 +106,19 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
     struct {
       D3DKMT_ALIGN64 LONGLONG TimerValue;
     } DelayedEvictionConfig;
+    struct {
+      void                                 D3DKMT_PTR(
+    PVOID      unnamedParam1,
+    UserBuffer unnamedParam2
+  );
+      D3DKMT_ESCAPE_COPY_CONTENT_DIRECTION Direction;
+      D3DKMT_HANDLE                        hAllocation;
+      UINT64                               Offset;
+      UINT64                               Size;
+    } CopyContent;
+    struct {
+      D3DKMT_HANDLE hAllocation;
+      HANDLE        hSection;
+    } QuerySection;
   };
 } D3DKMT_VIDMM_ESCAPE;

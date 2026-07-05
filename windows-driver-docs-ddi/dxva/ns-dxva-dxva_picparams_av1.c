@@ -121,7 +121,7 @@ typedef struct _DXVA_PicParams_AV1 {
       };
       UCHAR  combined;
     };
-    __unnamed_union_0011_60 y_strengths[8];
+    __unnamed_union_0012_60 y_strengths[8];
     union {
       struct {
         UCHAR primary : 6;
@@ -129,7 +129,7 @@ typedef struct _DXVA_PicParams_AV1 {
       };
       UCHAR  combined;
     };
-    __unnamed_union_0011_62 uv_strengths[8];
+    __unnamed_union_0012_62 uv_strengths[8];
   } cdef;
   UCHAR             interp_filter;
   struct {
@@ -157,7 +157,7 @@ typedef struct _DXVA_PicParams_AV1 {
       };
       UCHAR  mask;
     };
-    __unnamed_union_0011_67 feature_mask[8];
+    __unnamed_union_0012_67 feature_mask[8];
     SHORT                   feature_data[8][8];
   } segmentation;
   struct {

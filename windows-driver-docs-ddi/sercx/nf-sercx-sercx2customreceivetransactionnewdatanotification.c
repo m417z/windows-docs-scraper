@@ -1,3 +1,0 @@
-VOID SerCx2CustomReceiveTransactionNewDataNotification(
-  [in] SERCX2CUSTOMRECEIVETRANSACTION CustomReceiveTransaction
-);

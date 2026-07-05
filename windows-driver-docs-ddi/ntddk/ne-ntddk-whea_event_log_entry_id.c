@@ -98,5 +98,15 @@ typedef enum _WHEA_EVENT_LOG_ENTRY_ID {
   WheaEventLogEntryIdPreviousCrashBugCheckProgress,
   WheaEventLogEntryIdSELBugCheckStackDump,
   WheaEventLogEntryIdPciePromotedAerErr,
+  WheaEventLogEntryIdCrashDumpGuid,
+  WheaEventLogEntryIdDumpGUIDStatus,
+  WheaEventLogEntryIdProcessEINJ2,
+  WheaEventLogEntryIdPshedWriteVendorDefined,
+  WheaEventLogEntryIdPshedReadVendorDefined,
+  WheaEventLogEntryIdImpiOnline,
+  WheaEventLogEntryIdImpiSubscribe,
+  WheaEventLogEntryIdServerType,
+  WheaEventLogEntryIdErrorRecordFull,
+  WheaEventLogEntryIdPluginIncorrectBufferRead,
   WheaEventLogEntryIdPshedPiTraceLog
 } WHEA_EVENT_LOG_ENTRY_ID, *PWHEA_EVENT_LOG_ENTRY_ID;

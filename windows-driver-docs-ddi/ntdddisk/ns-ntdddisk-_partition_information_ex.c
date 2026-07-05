@@ -1,5 +1,6 @@
 typedef struct _PARTITION_INFORMATION_EX {
   PARTITION_STYLE PartitionStyle;
+  USHORT          PartitionOrdinal;
   LARGE_INTEGER   StartingOffset;
   LARGE_INTEGER   PartitionLength;
   ULONG           PartitionNumber;

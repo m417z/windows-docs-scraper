@@ -1,5 +1,0 @@
-typedef struct _WDI_TXRX_TARGET_CONFIGURATION {
-  WDI_TXRX_PARAMETERS TxRxParams;
-  UINT8               MaxNumPorts;
-  UINT8               MaxNumPeers;
-} WDI_TXRX_TARGET_CONFIGURATION, *PWDI_TXRX_TARGET_CONFIGURATION;

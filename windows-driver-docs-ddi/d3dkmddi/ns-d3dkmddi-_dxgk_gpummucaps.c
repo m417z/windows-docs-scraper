@@ -14,7 +14,11 @@ typedef struct _DXGK_GPUMMUCAPS {
       UINT InvalidTlbEntriesNotCached : 1;
       UINT SysMemLargePageSupported : 1;
       UINT CachedPageTables : 1;
+      UINT PerPtePageSize : 1;
+      UINT OpportunisticSysMem64KBPageSupported : 1;
 #if ...
+      UINT Reserved : 17;
+#elif
       UINT Reserved : 19;
 #elif
       UINT Reserved : 20;

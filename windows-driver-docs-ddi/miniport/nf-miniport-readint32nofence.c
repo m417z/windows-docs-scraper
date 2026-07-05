@@ -1,3 +1,3 @@
-INT32 ReadInt32NoFence(
+VOLACCESS_STATIC_FORCEINLINE INT32 ReadInt32NoFence(
   [in] INT32 const volatile *Source
 );

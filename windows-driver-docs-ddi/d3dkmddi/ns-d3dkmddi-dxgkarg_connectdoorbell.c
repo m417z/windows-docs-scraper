@@ -1,7 +1,7 @@
 typedef struct _DXGKARG_CONNECTDOORBELL {
-  HANDLE                        hDoorbell;
+  HANDLE                        hHwQueue;
   DXGKARG_CONNECTDOORBELL_FLAGS Flags;
-  void                          *KernelCpuVirtualAddress;
-  void                          *SecondaryKernelCpuVirtualAddress;
+  PHYSICAL_ADDRESS              PhysicalAddress;
+  PHYSICAL_ADDRESS              SecondaryPhysicalAddress;
   D3DDDI_DOORBELLSTATUS         Status;
 } DXGKARG_CONNECTDOORBELL;

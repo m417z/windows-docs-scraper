@@ -6,4 +6,6 @@ typedef struct _DXGKARG_BUILDTESTCOMMANDBUFFER {
   UINT                               DmaBufferSize;
   UINT                               DmaBufferPrivateDataSize;
   D3DDDI_BUILDTESTCOMMANDBUFFERFLAGS Flags;
+  UINT64                             HardwareProgressFenceId;
+  UINT64                             HardwareProgressFenceGpuVa;
 } DXGKARG_BUILDTESTCOMMANDBUFFER;

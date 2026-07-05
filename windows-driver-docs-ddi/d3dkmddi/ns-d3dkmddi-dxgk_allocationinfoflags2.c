@@ -5,10 +5,11 @@ typedef struct _DXGK_ALLOCATIONINFOFLAGS2 {
       UINT NoImplicitSynchronization : 1;
       UINT DisablePartialResidency : 1;
       UINT RestrictedToSingleSegment : 1;
-      UINT NotifyEviction : 1;
-      UINT NotifyIoMmuUnmap : 1;
+      UINT NeedPagingVaAtResidencyNotification : 1;
+      UINT Reserved01 : 1;
+      UINT FaultAndStall : 1;
 #if ...
-      UINT Reserved : 26;
+      UINT Reserved : 25;
 #else
       UINT Reserved : 31;
 #endif

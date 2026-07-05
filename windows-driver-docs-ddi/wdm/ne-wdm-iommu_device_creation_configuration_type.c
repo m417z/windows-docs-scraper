@@ -3,5 +3,8 @@ typedef enum _IOMMU_DEVICE_CREATION_CONFIGURATION_TYPE {
   IommuDeviceCreationConfigTypeAcpi,
   IommuDeviceCreationConfigTypeDeviceId,
   IommuDeviceCreationConfigTypePasid,
+  IommuDeviceCreationConfigTypeAts,
+  IommuDeviceCreationConfigTypeDefaultDma,
+  IommuDeviceCreationConfigTypeFaultHandling,
   IommuDeviceCreationConfigTypeMax
 } IOMMU_DEVICE_CREATION_CONFIGURATION_TYPE, *PIOMMU_DEVICE_CREATION_CONFIGURATION_TYPE;

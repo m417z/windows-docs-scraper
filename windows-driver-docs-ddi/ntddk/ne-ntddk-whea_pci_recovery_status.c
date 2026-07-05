@@ -8,5 +8,7 @@ typedef enum _WHEA_PCI_RECOVERY_STATUS {
   WheaPciRecoveryStatusBusNotFound,
   WheaPciRecoveryStatusDeviceNotFound,
   WheaPciRecoveryStatusDdaAerNotRecoverable,
-  WheaPciRecoveryStatusFailedRecovery
+  WheaPciRecoveryStatusFailedRecovery,
+  WheaPciRecoveryStatusRecoveredNoDevices,
+  WheaPciRecoveryStatusCxlAerNotRecoverable
 } WHEA_PCI_RECOVERY_STATUS, *PWHEA_PCI_RECOVERY_STATUS;
