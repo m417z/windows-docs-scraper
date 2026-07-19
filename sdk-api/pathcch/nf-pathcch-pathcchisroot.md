@@ -48,4 +48,4 @@ The following table shows the **PathCchIsRoot** return value for various paths.
 | NULL | FALSE |
 | "" | FALSE |
 
-This function returns **TRUE** for paths such as "\", "*X*:\" or "\\*server*\*share*". Paths such as "..\path2" or "\\*server*\" return **FALSE**.
+This function returns **TRUE** for paths such as "\", "*X*:\" or "\\*server*\*share*". Paths such as "..\path2" or "\\*server*\share\" return **FALSE**.

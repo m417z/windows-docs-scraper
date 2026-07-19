@@ -75,7 +75,7 @@ that file or directory. As a result, **GetLongPathName** may
 fail when it is unable to query the parent directory of a path component to determine the long name for that
 component. This check can be skipped for directory components that have file extensions longer than 3 characters,
 or total lengths longer than 12 characters. For more information, see the
-[Short vs. Long Names](https://learn.microsoft.com/windows/desktop/FileIO/naming-a-file) section of
+[Short vs. Long Names](https://learn.microsoft.com/windows/desktop/FileIO/naming-a-file#short-vs-long-names) section of
 [Naming Files, Paths, and Namespaces](https://learn.microsoft.com/windows/desktop/FileIO/naming-a-file).
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.

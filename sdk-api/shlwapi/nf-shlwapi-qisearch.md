@@ -35,6 +35,7 @@ When this method returns successfully, contains the interface pointer requested 
 Type: **HRESULT**
 
 Returns S_OK if the requested interface was found in the table or if the requested interface was IUnknown. Returns E_NOINTERFACE if the requested interface was not found.
+Returns E_POINTER if *that* or *ppv* is **NULL**.
 
 ## Remarks
 

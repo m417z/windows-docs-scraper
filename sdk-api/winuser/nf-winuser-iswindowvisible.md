@@ -16,7 +16,7 @@ A handle to the window to be tested.
 
 Type: **BOOL**
 
-If the specified window, its parent window, its parent's parent window, and so forth, have the **WS_VISIBLE** style, the return value is nonzero. Otherwise, the return value is zero.
+If the specified window, its parent window, its parent's parent window, and so forth, have the **WS_VISIBLE** style, the return value is nonzero. Otherwise, or in the case of an error, the return value is zero.
 
 Because the return value specifies whether the window has the **WS_VISIBLE** style, it may be nonzero even if the window is totally obscured by other windows.
 

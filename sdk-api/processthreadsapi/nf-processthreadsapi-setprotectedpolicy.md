@@ -18,6 +18,8 @@ Sets a protected policy. This function is for use primarily by Windows, and not 
 
  Optionally receives the original value that was associated with the supplied policy.
 
+ The default value of a policy is `0`.
+
 ## Return value
 
  True if the function succeeds; otherwise, false. To retrieve error values for this function, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
