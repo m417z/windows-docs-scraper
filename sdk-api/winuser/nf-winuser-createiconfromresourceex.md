@@ -10,7 +10,7 @@ Creates an icon or cursor from resource bits describing the icon.
 
 Type: **PBYTE**
 
-The DWORD-aligned buffer pointer containing the icon (**RT_ICON**) or cursor (**RT_CURSOR**) resource bits. These bits are typically loaded by calls to the [LookupIconIdFromDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex) and [LoadResource](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource) functions.
+The buffer pointer containing the icon (**RT_ICON**) or cursor (**RT_CURSOR**) resource bits. These bits are typically loaded by calls to the [LookupIconIdFromDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex) and [LoadResource](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource) functions.
 
 See [Cursor and Icon Resources](https://learn.microsoft.com/windows/win32/menurc/resource-file-formats#cursor-and-icon-resources) for more info on icon and cursor resource format.
 

@@ -12,29 +12,21 @@ Type: **int**
 
 The image type contained in the list. One of the following values:
 
-#### SHIL_LARGE (0x0)
+| Value | Description |
 
-0x0. The image size is normally 32x32 pixels. However, if the **Use large icons** option is selected from the **Effects** section of the **Appearance** tab in **Display Properties**, the image is 48x48 pixels.
+|---|---|
 
-#### SHIL_SMALL (0x1)
+| **SHIL_LARGE** (0x0) | 32x32 pixels at 96 DPI; scales with DPI via **SM_CXICON** / **SM_CYICON**. |
 
-0x1. These images are the Shell standard small icon size of 16x16, but the size can be customized by the user.
+| **SHIL_SMALL** (0x1) | 16x16 pixels at 96 DPI; scales with DPI via **SM_CXSMICON** / **SM_CYSMICON**. |
 
-#### SHIL_EXTRALARGE (0x2)
+| **SHIL_EXTRALARGE** (0x2) | 48x48 pixels at 96 DPI; scales with DPI (48 logical pixels). |
 
-0x2. These images are the Shell standard extra-large icon size. This is typically 48x48, but the size can be customized by the user.
+| **SHIL_SYSSMALL** (0x3) | Tracks the caption button size (**SM_CXSMSIZE** / **SM_CYSMSIZE**). Typically matches **SHIL_SMALL** but may differ when the user customizes window border and caption size in Display Settings. |
 
-#### SHIL_SYSSMALL (0x3)
+| **SHIL_JUMBO** (0x4) | Windows Vista and later. Fixed at 256x256 physical pixels regardless of DPI. |
 
-0x3. These images are the size specified by [GetSystemMetrics](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) called with **SM_CXSMICON** and **GetSystemMetrics** called with **SM_CYSMICON**.
-
-#### SHIL_JUMBO (0x4)
-
-0x4. **Windows Vista and later.** The image is normally 256x256 pixels.
-
-#### SHIL_LAST
-
-The largest valid flag value, for validation purposes.
+| **SHIL_LAST** | The largest valid flag value, for validation purposes. |
 
 ### `riid` [in]
 

@@ -85,7 +85,7 @@ This parameter can be one or more of the following values.
 | **LR_LOADMAP3DCOLORS**<br><br>0x00001000 | Searches the color table for the image and replaces the following shades of gray with the corresponding 3-D color.<br><br>* Dk Gray, RGB(128,128,128) with **COLOR_3DSHADOW**<br>* Gray, RGB(192,192,192) with **COLOR_3DFACE**<br>* Lt Gray, RGB(223,223,223) with **COLOR_3DLIGHT**<br><br>Do not use this option if you are loading a bitmap with a color depth greater than 8bpp. |
 | **LR_LOADTRANSPARENT**<br><br>0x00000020 | Retrieves the color value of the first pixel in the image and replaces the corresponding entry in the color table with the default window color (**COLOR_WINDOW**). All pixels in the image that use that entry become the default window color. This value applies only to images that have corresponding color tables.<br><br>Do not use this option if you are loading a bitmap with a color depth greater than 8bpp.<br><br>If *fuLoad* includes both the **LR_LOADTRANSPARENT** and **LR_LOADMAP3DCOLORS** values, **LR_LOADTRANSPARENT** takes precedence. However, the color table entry is replaced with **COLOR_3DFACE** rather than **COLOR_WINDOW**. |
 | **LR_MONOCHROME**<br><br>0x00000001 | Loads the image in black and white. |
-| **LR_SHARED**<br><br>0x00008000 | Shares the image handle if the image is loaded multiple times. If **LR_SHARED** is not set, a second call to **LoadImage** for the same resource will load the image again and return a different handle. <br><br>When you use this flag, the system will destroy the resource when it is no longer needed.<br><br>Do not use **LR_SHARED** for images that have non-standard sizes, that may change after loading, or that are loaded from a file.<br><br>When loading a system icon or cursor, you must use **LR_SHARED** or the function will fail to load the resource.<br><br>This function finds the first image in the cache with the requested resource name, regardless of the size requested. |
+| **LR_SHARED**<br><br>0x00008000 | Shares the image handle if the image is loaded multiple times. If **LR_SHARED** is not set, a second call to **LoadImage** for the same resource will load the image again and return a different handle.<br><br>When you use this flag, the system will destroy the resource when it is no longer needed.<br><br>Do not use **LR_SHARED** for images that have non-standard sizes, that may change after loading, or that are loaded from a file.<br><br>When loading a predefined system icon or cursor (an **IDI_** or **IDC_** identifier with *hInst* set to **NULL**), use **LR_SHARED** so that the system manages the handle lifetime.<br><br>The shared cache is keyed by resource name and module, regardless of the size requested. If a matching entry is already cached at a different size, that cached handle is returned rather than loading a new image. Do not use **LR_SHARED** when you need a specific size or when loading the same resource at multiple sizes (for example, for per-monitor DPI scaling). |
 | **LR_VGACOLOR**<br><br>0x00000080 | Uses true VGA colors. |
 
 ## Return value
@@ -110,6 +110,12 @@ When you are finished using a bitmap, cursor, or icon you loaded without specify
 
 The system automatically deletes these resources when the process that created them terminates; however, calling the appropriate function saves memory and decreases the size of the process's working set.
 
+### Image selection and sizing
+
+Icon and cursor resources (and standalone .ico/.cur files) typically contain multiple images at different sizes and color depths. When *cx* and *cy* are non-zero, **LoadImage** uses [LookupIconIdFromDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex) to select the image whose size and color depth best match the requested values, then scales it to exactly *cx*×*cy* pixels if no exact-size image is present. When both *cx* and *cy* are zero and **LR_DEFAULTSIZE** is set, the function uses the system metric values to determine the size: **SM_CXICON**/**SM_CYICON** for icons, and the effective system cursor size (which reflects the user's cursor-size setting in Settings) for cursors. When both *cx* and *cy* are zero and **LR_DEFAULTSIZE** is not set, the function uses the actual dimensions of the first image in the resource.
+
+When scaling is required because no exact-size image is available, the resize is a basic stretch. The resulting image may look soft, especially when scaling up. For sharper icons on high-DPI displays, use [LoadIconWithScaleDown](https://learn.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-loadiconwithscaledown), which picks a larger image and scales it down rather than scaling a small image up.
+
 #### Examples
 
 For an example, see [Using Window Classes](https://learn.microsoft.com/windows/desktop/winmsg/using-window-classes).
@@ -130,6 +136,10 @@ For an example, see [Using Window Classes](https://learn.microsoft.com/windows/d
 [LoadCursor](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora)
 
 [LoadIcon](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona)
+
+[LoadIconWithScaleDown](https://learn.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-loadiconwithscaledown)
+
+[LookupIconIdFromDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex)
 
 **Other Resources**
 

@@ -25,7 +25,6 @@ typedef enum _MINIDUMP_TYPE {
   MiniDumpWithIptTrace = 0x00400000,
   MiniDumpScanInaccessiblePartialPages = 0x00800000,
   MiniDumpFilterWriteCombinedMemory,
-  MiniDumpWithMemoryCompressed,
   MiniDumpValidTypeFlags = 0x01ffffff,
   MiniDumpNoIgnoreInaccessibleMemory,
   MiniDumpValidTypeFlagsEx

@@ -8,21 +8,21 @@ The **FwpsQueryConnectionSioFormatRedirectRecords0** function returns the connec
 
 ## Parameters
 
-### `RedirectRecords` [in]
+### `RedirectRecords` [_In_]
 
 The redirect records handle that the ALE_CONNECT_REDIRECT callout function received in the *inMetaValues* parameter of its [classifyFn](https://learn.microsoft.com/windows-hardware/drivers/ddi/_netvista/) function. This handle can be found in the **redirectRecords** member of the [FWPS_INCOMING_METADATA_VALUES0](https://learn.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_) structure.
 
 A WFP redirect record is a buffer of opaque data that WFP must set on an outbound proxy connection so that the redirected connection and the original connection are logically related.
 
-### `OutputBuffer` [out, optional]
+### `OutputBuffer` [_Out_writes_bytes_opt_(OutputBufferLength)]
 
 A pointer to an output buffer that receives the redirect records. The buffer must be pointer-aligned.
 
-### `OutputBufferLength` [in]
+### `OutputBufferLength` [_In_]
 
 The size, in bytes, of the output buffer.
 
-### `BytesTransferred` [out, optional]
+### `BytesTransferred` [_Out_]
 
 A pointer to a variable that receives the number of bytes that were transferred. If the return value is **STATUS_BUFFER_TOO_SMALL**, this parameter receives the required buffer size.
 
@@ -34,6 +34,7 @@ Returns an NTSTATUS value such as one of the following.
 | --- | --- |
 | **STATUS_BUFFER_TOO_SMALL** | The output buffer was too small to contain all of the bytes to be transferred. The data transfer failed, and the required buffer size can be found in the *BytesTransferred* parameter. |
 | **STATUS_NOT_FOUND** | The *RedirectRecords* parameter was null. |
+| **STATUS_INVALID_PARAMETER** | The *BytesTransferred* parameter was null. |
 
 ## Remarks
 

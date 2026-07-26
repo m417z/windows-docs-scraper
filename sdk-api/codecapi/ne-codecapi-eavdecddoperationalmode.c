@@ -6,5 +6,6 @@ typedef enum eAVDecDDOperationalMode {
   eAVDecDDOperationalMode_CUSTOM1 = 4,
   eAVDecDDOperationalMode_PORTABLE8 = 5,
   eAVDecDDOperationalMode_PORTABLE11 = 6,
-  eAVDecDDOperationalMode_PORTABLE14 = 7
+  eAVDecDDOperationalMode_PORTABLE14 = 7,
+  eAVDecDDOperationalMode_PORTABLE16
 } ;

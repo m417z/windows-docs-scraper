@@ -12,7 +12,7 @@ To specify a desired height or width, use the [CreateIconFromResourceEx](https:/
 
 Type: **PBYTE**
 
-The DWORD-aligned buffer pointer containing the icon or cursor resource bits. These bits are typically loaded by calls to the [LookupIconIdFromDirectory](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory), [LookupIconIdFromDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex), and [LoadResource](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource) functions.
+The buffer pointer containing the icon or cursor resource bits. These bits are typically loaded by calls to the [LookupIconIdFromDirectory](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory), [LookupIconIdFromDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex), and [LoadResource](https://learn.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource) functions.
 
 See [Cursor and Icon Resources](https://learn.microsoft.com/windows/win32/menurc/resource-file-formats#cursor-and-icon-resources) for more info on icon and cursor resource format.
 
