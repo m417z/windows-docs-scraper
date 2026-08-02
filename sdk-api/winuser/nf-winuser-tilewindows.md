@@ -49,10 +49,6 @@ If the function succeeds, the return value is the number of windows arranged.
 
 If the function fails, the return value is zero. To get extended error information, call [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## Remarks
-
-Calling **TileWindows** causes all maximized windows to be restored to their previous size.
-
 ## See also
 
 [CascadeWindows](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-cascadewindows)

@@ -54,8 +54,6 @@ If the function fails, the return value is zero. To get extended error informati
 
 By default, **CascadeWindows** arranges the windows in the order provided by the *lpKids* array, but preserves the [Z-Order](https://learn.microsoft.com/windows/desktop/winmsg/window-features). If you specify the **MDITILE_ZORDER** flag, **CascadeWindows** arranges the windows in Z order.
 
-Calling **CascadeWindows** causes all maximized windows to be restored to their previous size.
-
 ## See also
 
 [Windows Overview](https://learn.microsoft.com/windows/desktop/winmsg/windows)

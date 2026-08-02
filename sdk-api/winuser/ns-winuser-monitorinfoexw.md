@@ -18,7 +18,7 @@ The
 
 ### `szDevice`
 
-A string that specifies the device name of the monitor being used. Most applications have no use for a display monitor name, and so can save some bytes by using a [MONITORINFO](https://learn.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo) structure.
+A string that specifies the device name of the monitor being used. Most applications have no use for a display monitor name, and so can save some bytes by using a [MONITORINFO](https://learn.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo) structure. This string is guaranteed to be null-terminated by [GetMonitorInfo](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa).
 
 ### `tagMONITORINFO`
 
