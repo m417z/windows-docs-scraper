@@ -9,5 +9,6 @@ typedef enum DXCoreAdapterState {
   AdapterInUseProcessCount = 7,
   AdapterInUseProcessSet = 8,
   AdapterEngineFrequencyHertz = 9,
-  AdapterMemoryFrequencyHertz = 10
+  AdapterMemoryFrequencyHertz = 10,
+  SingleAdapterHybridMode
 } ;
