@@ -5,7 +5,7 @@
 Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
 
 **GetComputerName** retrieves only the NetBIOS name of the local computer. To retrieve the DNS host name, DNS domain name, or the fully qualified DNS name, call the
-[GetComputerNameEx](https://learn.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function. Additional information is provided by the
+[GetComputerNameEx](https://learn.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexw) function. Additional information is provided by the
 [IADsADSystemInfo](https://learn.microsoft.com/windows/desktop/api/iads/nn-iads-iadsadsysteminfo) interface.
 
 The behavior of this function can be affected if the local computer is a node in a cluster. For more information, see [ResUtilGetEnvironmentWithNetName](https://learn.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname) and [UseNetworkName](https://learn.microsoft.com/previous-versions/windows/desktop/mscs/generic-applications-usenetworkname).

@@ -33,9 +33,11 @@ conn, LDAP_OPT_SERVER_CERTIFICATE, &CertRoutine
 
 The server calls **VERIFYSERVERCERT** after the secure connection has been established. The server's certificate context is supplied for examination by the client.
 
+Even though in some old SDKs **VERIFYSERVERCERT** is declared as receiving a [PCCERT_CONTEXT](https://learn.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context), it in fact receives a **PCCERT_CONTEXT***.
+
 An application should use the *ppServerCert* parameter as: `PCCERT_CONTEXT* ppServerCert = (PCCERT_CONTEXT*)pServerCert;`
 
-Even though **VERIFYSERVERCERT** is declared as receiving a [PCCERT_CONTEXT](https://learn.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context), it in fact receives a **PCCERT_CONTEXT***. The *ppServerCert* can be used to verify the certificate. [CertFreeCertificateContext](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) should be called before this function returns. The call to this function should be made as follows:
+The *ppServerCert* can be used to verify the certificate. [CertFreeCertificateContext](https://learn.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) should be called before this function returns. The call to this function should be made as follows:
 
 ```cpp
 CertFreeCertificateContext(*ppServerCert);

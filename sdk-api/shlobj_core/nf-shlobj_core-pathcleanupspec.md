@@ -20,7 +20,7 @@ This value can be **NULL**.
 
 Type: **PWSTR**
 
-A pointer to a null-terminated buffer that contains the file or directory name to be cleaned. In the case of a file, include the file's extension. Note that because '\' is considered an invalid character and will be removed, this buffer cannot contain a path more than one directory deep.
+A pointer to a null-terminated buffer that contains the file or directory name to be cleaned. In the case of a file, include the file's extension. Note that because '\\' is considered an invalid character and will be removed, this buffer cannot contain a path more than one directory deep.
 
 On exit, the buffer contains a null-terminated string that includes the cleaned name.
 

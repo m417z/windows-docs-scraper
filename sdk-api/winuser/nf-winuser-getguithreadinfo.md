@@ -10,7 +10,7 @@ Retrieves information about the active window or a specified GUI thread.
 
 Type: **DWORD**
 
-The identifier for the thread for which information is to be retrieved. To retrieve this value, use the [GetWindowThreadProcessId](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid) function. If this parameter is **NULL**, the function returns information for the foreground thread.
+The identifier for the thread for which information is to be retrieved. To retrieve this value, use the [GetWindowThreadProcessId](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid) function. If this parameter is **0**, the function returns information for the foreground thread.
 
 ### `pgui` [in, out]
 

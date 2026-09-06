@@ -51,14 +51,14 @@ Indicates the expected content type. This can be one of the following values.
 
 ### `dwExpectedFormatTypeFlags` [in]
 
-Indicates the expected format of the returned type. This can be one of the following values.
+Indicates the expected format of the content. This parameter can be a combination of one or more of the following flags.
 
 | Value | Meaning |
 | --- | --- |
-| **CERT_QUERY_FORMAT_FLAG_ALL** | The content can be returned in any format. |
-| **CERT_QUERY_FORMAT_FLAG_ASN_ASCII_HEX_ENCODED** | The content should be returned in [ASCII](https://learn.microsoft.com/windows/desktop/SecGloss/a-gly) hex-encoded format with a "{ASN}" prefix. |
-| **CERT_QUERY_FORMAT_FLAG_BASE64_ENCODED** | The content should be returned in Base64 encoded format. |
-| **CERT_QUERY_FORMAT_FLAG_BINARY** | The content should be returned in binary format. |
+| **CERT_QUERY_FORMAT_FLAG_ALL** | The content can be in any format. |
+| **CERT_QUERY_FORMAT_FLAG_ASN_ASCII_HEX_ENCODED** | The content is in [ASCII](https://learn.microsoft.com/windows/desktop/SecGloss/a-gly) hex-encoded format with a "{ASN}" prefix. |
+| **CERT_QUERY_FORMAT_FLAG_BASE64_ENCODED** | The content is in Base64 encoded format. |
+| **CERT_QUERY_FORMAT_FLAG_BINARY** | The content is in binary format. |
 
 ### `dwFlags` [in]
 

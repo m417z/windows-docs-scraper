@@ -115,7 +115,7 @@ Reserved for future use. Set to **NULL**.
 | **WTD_HASH_ONLY_FLAG**<br><br>512 (0x200) | Only the hash is verified. |
 | **WTD_USE_DEFAULT_OSVER_CHECK**<br><br>1024 (0x400) | The default operating system version checking is performed. This flag is only used for verifying catalog-signed files. |
 | **WTD_LIFETIME_SIGNING_FLAG**<br><br>2048 (0x800) | If this flag is not set, all time stamped signatures are considered valid forever. Setting this flag limits the valid lifetime of the signature to the lifetime of the signing certificate. This allows time stamped signatures to expire. |
-| **WTD_CACHE_ONLY_URL_RETRIEVAL**<br><br>4096 (0x1000) | Use only the local cache for revocation checks. Prevents revocation checks over the network. <br><br>**Windows XP:** This value is not supported. |
+| **WTD_CACHE_ONLY_URL_RETRIEVAL**<br><br>4096 (0x1000) | Use only the local cache for revocation checks. Prevents revocation checks and fetching of intermediate certificates over the network. <br><br>**Windows XP:** This value is not supported. |
 | **WTD_DISABLE_MD2_MD4**<br><br>8192 (0x2000) | Disable the use of MD2 and MD4 hashing algorithms. If a file is signed by using MD2 or MD4 and if this flag is set, an NTE_BAD_ALGID error is returned.<br><br>**Note** This flag is supported on Windows 7 with SP1 and later operating systems. |
 | **WTD_MOTW**<br><br>16384 (0x4000) | If this flag is specified it is assumed that the file being verified has been downloaded from the web and has the Mark of the Web attribute. Policies that are meant to apply to Mark of the Web files will be enforced.<br><br>**Note** This flag is supported on Windows 8.1 and later operating systems or on systems that have installed KB2862966. |
 

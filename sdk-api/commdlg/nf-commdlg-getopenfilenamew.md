@@ -12,19 +12,19 @@ Creates an **Open** dialog box that lets the user specify the drive, directory, 
 
 Type: **LPOPENFILENAME**
 
-A pointer to an [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure that contains information used to initialize the dialog box. When **GetOpenFileName** returns, this structure contains information about the user's file selection.
+A pointer to an [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamew) structure that contains information used to initialize the dialog box. When **GetOpenFileName** returns, this structure contains information about the user's file selection.
 
 ## Return value
 
 Type: **BOOL**
 
-If the user specifies a file name and clicks the **OK** button, the return value is nonzero. The buffer pointed to by the **lpstrFile** member of the [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure contains the full path and file name specified by the user.
+If the user specifies a file name and clicks the **OK** button, the return value is nonzero. The buffer pointed to by the **lpstrFile** member of the [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamew) structure contains the full path and file name specified by the user.
 
 If the user cancels or closes the **Open** dialog box or an error occurs, the return value is zero. To get extended error information, call the [CommDlgExtendedError](https://learn.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-commdlgextendederror) function, which can return one of the following values.
 
 ## Remarks
 
-The Explorer-style **Open** dialog box provides user-interface features that are similar to the Windows Explorer. You can provide an [OFNHookProc](https://learn.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc) hook procedure for an Explorer-style **Open** dialog box. To enable the hook procedure, set the **OFN_EXPLORER** and **OFN_ENABLEHOOK** flags in the **Flags** member of the [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure and specify the address of the hook procedure in the **lpfnHook** member.
+The Explorer-style **Open** dialog box provides user-interface features that are similar to the Windows Explorer. You can provide an [OFNHookProc](https://learn.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc) hook procedure for an Explorer-style **Open** dialog box. To enable the hook procedure, set the **OFN_EXPLORER** and **OFN_ENABLEHOOK** flags in the **Flags** member of the [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamew) structure and specify the address of the hook procedure in the **lpfnHook** member.
 
 Windows continues to support the old-style **Open** dialog box for applications that want to maintain a user-interface consistent with the old-style user-interface. To display the old-style **Open** dialog box, enable an [OFNHookProcOldStyle](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) hook procedure and ensure that the **OFN_EXPLORER** flag is not set.
 
@@ -50,13 +50,13 @@ For an example, see [Opening a File](https://learn.microsoft.com/windows/desktop
 
 **Conceptual**
 
-[GetSaveFileName](https://learn.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea)
+[GetSaveFileName](https://learn.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamew)
 
 [OFNHookProc](https://learn.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc)
 
 [OFNHookProcOldStyle](https://learn.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85))
 
-[OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
+[OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamew)
 
 **Other Resources**
 

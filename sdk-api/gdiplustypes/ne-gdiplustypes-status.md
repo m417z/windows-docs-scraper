@@ -73,9 +73,7 @@ Indicates that the specified style is not available for the specified font famil
 
 ### `NotTrueTypeFont:16`
 
-Indicates that the font retrieved from an
-**HDC** or
-**LOGFONT** is not a TrueType font and cannot be used with GDI+.
+Indicates that the font retrieved from an **HDC** or **LOGFONT** is not a TrueType font and cannot be used with GDI+.
 
 ### `UnsupportedGdiplusVersion:17`
 
@@ -83,8 +81,7 @@ Indicates that the version of GDI+ that is installed on the system is incompatib
 
 ### `GdiplusNotInitialized:18`
 
-Indicates that the GDI+API is not in an initialized state. To function, all GDI+ objects require that GDI+ be in an initialized state. Initialize GDI+ by calling
-[GdiplusStartup](https://learn.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup).
+Indicates that the GDI+ API is not in an initialized state. To function, all GDI+ objects require that GDI+ be in an initialized state. Initialize GDI+ by calling [GdiplusStartup](https://learn.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup).
 
 ### `PropertyNotFound:19`
 

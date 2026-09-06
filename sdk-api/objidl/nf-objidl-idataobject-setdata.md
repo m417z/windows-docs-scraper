@@ -33,6 +33,7 @@ This method returns S_OK on success. Other possible values include the following
 | **E_UNEXPECTED** | An unexpected error has occurred. |
 | **E_INVALIDARG** | The *dwDirection* value is not valid. |
 | **E_OUTOFMEMORY** | There was insufficient memory available for this operation. |
+| **E_NOTIMPL** | This data object does not support receiving data from another object. |
 
 ## Remarks
 

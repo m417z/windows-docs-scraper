@@ -26,7 +26,7 @@ The size of the *lpBaseName* buffer, in characters.
 
 ## Return value
 
-If the function succeeds, the return value specifies the length of the string copied to the buffer, in characters.
+If the function succeeds, the return value is the length of the string that is copied to the buffer, in characters, not including the terminating null character. If the buffer is too small to hold the module name, the string is truncated to nSize characters (including the terminating null character), the function returns _nSize_.
 
 If the function fails, the return value is zero. To get extended error information, call
 [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).

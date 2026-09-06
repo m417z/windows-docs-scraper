@@ -36,11 +36,11 @@ Type: **int**
 
 The logical width of the icon or cursor. If this parameter is zero and the *diFlags* parameter is **DI_DEFAULTSIZE**, the function uses the **SM_CXICON** system metric value to set the width. If this parameter is zero and **DI_DEFAULTSIZE** is not used, the function uses the actual resource width.
 
-### `cyWidth` [in]
+### `cyHeight` [in]
 
 Type: **int**
 
-The logical height of the icon or cursor. If this parameter is zero and the *diFlags* parameter is **DI_DEFAULTSIZE**, the function uses the **SM_CYICON** system metric value to set the width. If this parameter is zero and **DI_DEFAULTSIZE** is not used, the function uses the actual resource height.
+The logical height of the icon or cursor. If this parameter is zero and the *diFlags* parameter is **DI_DEFAULTSIZE**, the function uses the **SM_CYICON** system metric value to set the height. If this parameter is zero and **DI_DEFAULTSIZE** is not used, the function uses the actual resource height.
 
 ### `istepIfAniCur` [in]
 
@@ -63,7 +63,7 @@ The drawing flags. This parameter can be one of the following values.
 | Value | Meaning |
 | --- | --- |
 | **DI_COMPAT**<br><br>0x0004 | This flag is ignored. |
-| **DI_DEFAULTSIZE**<br><br>0x0008 | Draws the icon or cursor using the width and height specified by the system metric values for icons, if the *cxWidth* and *cyWidth* parameters are set to zero. If this flag is not specified and *cxWidth* and *cyWidth* are set to zero, the function uses the actual resource size. |
+| **DI_DEFAULTSIZE**<br><br>0x0008 | Draws the icon or cursor using the width and height specified by the system metric values for icons, if the *cxWidth* and *cyHeight* parameters are set to zero. If this flag is not specified and *cxWidth* and *cyHeight* are set to zero, the function uses the actual resource size. |
 | **DI_IMAGE**<br><br>0x0002 | Draws the icon or cursor using the image. See Remarks. |
 | **DI_MASK**<br><br>0x0001 | Draws the icon or cursor using the mask. See Remarks. |
 | **DI_NOMIRROR**<br><br>0x0010 | Draws the icon as an unmirrored icon. By default, the icon is drawn as a mirrored icon if *hdc* is mirrored. |

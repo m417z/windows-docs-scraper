@@ -25,7 +25,7 @@ Specifies the type of key this BLOB represents. The possible values for this mem
 
 ### `cbKey`
 
-The length, in bytes, of the key.
+The length, in bytes, of each scalar field of the key.
 
 ## Remarks
 
