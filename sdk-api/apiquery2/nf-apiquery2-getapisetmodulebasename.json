@@ -1,9 +1,9 @@
 {
   "UID": "NF:apiquery2.GetApiSetModuleBaseName",
-  "title": "GetApiSetModuleBaseName",
-  "description": "Retrieves the file name of the module, or binary, that implements a specified API set.",
+  "title": "GetApiSetModuleBaseName function (apiquery2.h)",
+  "description": "Retrieves the base name of the module that implements a specified API set, as recorded in the API set schema of the running system.",
   "tech.root": "winprog",
-  "ms.date": "11/25/2025",
+  "ms.date": "09/03/2026",
   "targetos": "Windows",
   "req.construct-type": "function",
   "req.header": "apiquery2.h",
@@ -20,8 +20,8 @@
   "req.namespace": null,
   "req.assembly": null,
   "req.type-library": null,
-  "req.lib": "onecore.lib",
-  "req.dll": "api-ms-win-core-apiquery-l2-1-0.dll",
+  "req.lib": null,
+  "req.dll": "api-ms-win-core-apiquery-l2-1-1.dll",
   "req.irql": null,
   "req.typenames": null,
   "req.redist": null,
@@ -30,10 +30,10 @@
     "apiref"
   ],
   "api_type": [
-    "HeaderDef"
+    "DllExport"
   ],
   "api_location": [
-    "api-ms-win-core-apiquery-l2"
+    "api-ms-win-core-apiquery-l2-1-1.dll"
   ],
   "api_name": [
     "GetApiSetModuleBaseName"
