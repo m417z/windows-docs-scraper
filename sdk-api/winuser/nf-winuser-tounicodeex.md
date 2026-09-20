@@ -48,7 +48,7 @@ If bit 0 is set, a menu is active. In this mode **Alt+Numeric keypad** key combi
 
 If bit 1 is set, **ToUnicodeEx** will translate scancodes marked as key break events in addition to its usual treatment of key make events.
 
-If bit 2 is set, keyboard state is not changed (Windows 10, version 1607 and newer)
+On Windows 10, version 1607 and later, if bit 2 is set, the function does not change keyboard state. For a known issue that affects Alt+Numeric keypad input, see Remarks.
 
 All other bits (through 31) are reserved.
 
@@ -80,7 +80,10 @@ The parameters supplied to the **ToUnicodeEx** function might not be sufficient 
 
 Typically, **ToUnicodeEx** performs the translation based on the virtual-key code. In some cases, however, bit 15 of the *wScanCode* parameter can be used to distinguish between a key press and a key release (for example for ALT+numpad key entry).
 
-As **ToUnicodeEx** translates the virtual-key code, it also changes the state of the kernel-mode keyboard buffer. This state-change affects dead keys, ligatures, **Alt+Numeric keypad** key entry, and so on. It might also cause undesired side-effects if used in conjunction with [TranslateMessage](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) (which also changes the state of the kernel-mode keyboard buffer).
+By default, as **ToUnicodeEx** translates the virtual-key code, it also changes state in the kernel-mode keyboard buffer. This state affects dead keys, ligatures, **Alt+Numeric keypad** input, and so on. On Windows 10, version 1607 and later, setting bit 2 of the *wFlags* parameter prevents the function from changing keyboard state. State changes might cause undesired side effects if the function is used in conjunction with [TranslateMessage](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage), which also changes the state of the kernel-mode keyboard buffer.
+
+> [!IMPORTANT]
+> **Known issue:** Setting bit 2 currently does not prevent changes to the keyboard state used for **Alt+Numeric keypad** input. As a result, another call to **ToUnicodeEx** in the same interactive session can affect an in-progress Alt+Numeric keypad sequence, including a call made from another thread. Microsoft is aware of this issue. Applications should not rely on this behavior.
 
 ## See also
 

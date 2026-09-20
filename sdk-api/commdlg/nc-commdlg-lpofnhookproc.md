@@ -8,21 +8,21 @@ The **LPOFNHOOKPROC** type defines a pointer to this callback function. *OFNHook
 
 ## Parameters
 
-### `unnamedParam1`
+### `hdlg`
 
 A handle to the child dialog box of the **Open** or **Save As** dialog box. Use the [GetParent](https://learn.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent) function to get the handle to the **Open** or **Save As** dialog box.
 
-### `unnamedParam2`
+### `lParam`
 
 The identifier of the message being received.
 
-### `unnamedParam3`
+### `uiMsg`
 
-Additional information about the message. The exact meaning depends on the value of the *unnamedParam2* parameter.
+Additional information about the message. The exact meaning depends on the value of the *lParam* parameter.
 
-### `unnamedParam4`
+### `wParam`
 
-Additional information about the message. The exact meaning depends on the value of the *unnamedParam2* parameter. If the *unnamedParam2* parameter indicates the [WM_INITDIALOG](https://learn.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message, *unnamedParam4* is a pointer to an [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure containing the values specified when the dialog box was created.
+Additional information about the message. The exact meaning depends on the value of the *lParam* parameter. If the *lParam* parameter indicates the [WM_INITDIALOG](https://learn.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message, *wParam* is a pointer to an [OPENFILENAME](https://learn.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure containing the values specified when the dialog box was created.
 
 ## Return value
 
