@@ -1,0 +1,44 @@
+{
+  "UID": "NF:ws2tcpip.WSAGetUnicastReceiveSharing",
+  "title": "WSAGetUnicastReceiveSharing",
+  "description": "Retrieves whether a datagram socket has opted in to shared delivery of inbound unicast datagrams via the SO_UNICAST_RECEIVE_SHARING socket option.",
+  "tech.root": "WinSock",
+  "ms.date": "05/15/2026",
+  "req.header": "ws2tcpip.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 11",
+  "req.target-min-winversvr": "Windows Server 2025",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "Ws2_32.lib",
+  "req.dll": "Ws2_32.dll",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "WSAGetUnicastReceiveSharing",
+    "ws2tcpip/WSAGetUnicastReceiveSharing"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "HeaderDef"
+  ],
+  "api_location": [
+    "ws2tcpip.h"
+  ],
+  "api_name": [
+    "WSAGetUnicastReceiveSharing"
+  ]
+}

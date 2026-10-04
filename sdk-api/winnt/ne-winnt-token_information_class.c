@@ -51,5 +51,11 @@ typedef enum _TOKEN_INFORMATION_CLASS {
   TokenLearningMode,
   TokenIsSystemManagedAdmin,
   TokenIsInstaller,
+  TokenHasTamperProtection,
+  TokenAppIdentitySid,
+  TokenAppInstanceSid,
+  TokenAppSuiteSid,
+  TokenEntitlements,
+  TokenAgentId,
   MaxTokenInfoClass
 } TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS;

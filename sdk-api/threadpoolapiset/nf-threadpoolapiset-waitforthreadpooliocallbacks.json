@@ -1,7 +1,7 @@
 {
   "UID": "NF:threadpoolapiset.WaitForThreadpoolIoCallbacks",
   "title": "WaitForThreadpoolIoCallbacks function (threadpoolapiset.h)",
-  "description": "Waits for outstanding I/O completion callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.",
+  "description": "Waits for outstanding I/O completion callbacks to complete and optionally cancels queued callbacks that have not yet started to execute.",
   "helpviewer_keywords": [
     "WaitForThreadpoolIoCallbacks",
     "WaitForThreadpoolIoCallbacks function",

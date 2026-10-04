@@ -8,7 +8,7 @@ Performs an operation on a specified file.
 
 ### `pExecInfo` [in, out]
 
-Type: **SHELLEXECUTEINFO***
+Type: **SHELLEXECUTEINFOW***
 
 A pointer to a [SHELLEXECUTEINFO](https://learn.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow) structure that contains and receives information about the application being executed.
 
@@ -30,11 +30,11 @@ There are instances where **ShellExecuteEx** does not use one of these types of 
 
 When DLLs are loaded into your process, you acquire a lock known as a [loader lock](https://learn.microsoft.com/windows/win32/win7appqual/preventing-hangs-in-windows-applications). The [DllMain](https://learn.microsoft.com/windows/desktop/Dlls/dllmain) function always executes under the loader lock. It is important that you do not call **ShellExecuteEx** while you hold a loader lock. Because **ShellExecuteEx** is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
 
-With multiple monitors, if you specify an **HWND** and set the **lpVerb** member of the [SHELLEXECUTEINFO](https://learn.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa) structure pointed to by *lpExecInfo* to "Properties", any windows created by **ShellExecuteEx** might not appear in the correct position.
+With multiple monitors, if you specify an **HWND** and set the **lpVerb** member of the [SHELLEXECUTEINFO](https://learn.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow) structure pointed to by *lpExecInfo* to "Properties", any windows created by **ShellExecuteEx** might not appear in the correct position.
 
-If the function succeeds, it sets the **hInstApp** member of the [SHELLEXECUTEINFO](https://learn.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa) structure to a value greater than 32. If the function fails, **hInstApp** is set to the [SE_ERR_XXX](https://learn.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) error value that best indicates the cause of the failure. Although **hInstApp** is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an **int** and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
+If the function succeeds, it sets the **hInstApp** member of the [SHELLEXECUTEINFO](https://learn.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow) structure to a value greater than 32. If the function fails, **hInstApp** is set to the [SE_ERR_XXX](https://learn.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutew) error value that best indicates the cause of the failure. Although **hInstApp** is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an **int** and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
 
-The SE_ERR_XXX error values are provided for compatibility with [ShellExecute](https://learn.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea). To retrieve more accurate error information, use [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). It may return one of the following values.
+The SE_ERR_XXX error values are provided for compatibility with [ShellExecute](https://learn.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutew). To retrieve more accurate error information, use [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). It may return one of the following values.
 
 | Error | Description |
 | --- | --- |
@@ -63,4 +63,4 @@ The SE_ERR_XXX error values are provided for compatibility with [ShellExecute](h
 
 [Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)](https://learn.microsoft.com/windows/desktop/shell/launch)
 
-[ShellExecute](https://learn.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea)
+[ShellExecute](https://learn.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutew)

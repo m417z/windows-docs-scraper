@@ -1,5 +1,27 @@
 # ldap_get_dn function
 
+## Syntax
+
+```cpp
+WINLDAPAPI PWCHAR LDAPAPI ldap_get_dnW(
+  [in] LDAP        *ld,
+  [in] LDAPMessage *entry
+);
+
+#if LDAP_UNICODE
+
+#define ldap_get_dn ldap_get_dnW
+
+#else
+
+WINLDAPAPI PCHAR LDAPAPI ldap_get_dn(
+  [in] LDAP        *ld,
+  [in] LDAPMessage *entry
+);
+
+#endif
+```
+
 ## Description
 
 The **ldap_get_dn** function retrieves the distinguished name for a given entry.
@@ -27,6 +49,9 @@ The **ldap_get_dn** function retrieves the distinguished name for an entry that 
 [ldap_first_entry](https://learn.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_entry), or
 [ldap_next_entry](https://learn.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry). When the returned name is no longer needed, free the string by calling
 [ldap_memfree](https://learn.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree).
+
+The SDK sets **LDAP_UNICODE** to 1 or 0 depending on whether **UNICODE**
+is defined. You may override that behavior by setting it yourself.
 
 ## See also
 

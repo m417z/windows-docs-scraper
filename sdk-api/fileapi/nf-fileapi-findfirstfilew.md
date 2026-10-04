@@ -31,7 +31,7 @@ By default, the name is limited to MAX_PATH characters. To extend this limit to 
 
 ### `lpFindFileData` [out]
 
-A pointer to the [WIN32_FIND_DATA](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa) structure that
+A pointer to the [WIN32_FIND_DATA](https://learn.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataw) structure that
 receives information about a found file or directory.
 
 ## Return value

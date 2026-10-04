@@ -1,4 +1,4 @@
-IPHLPAPI_DLL_LINKAGE DWORD GetBestInterfaceEx(
-  [in]  sockaddr *pDestAddr,
-  [out] PDWORD   pdwBestIfIndex
+IPHLPAPI_DLL_LINKAGE _NETIOAPI_SUCCESS_ NETIOAPI_API GetBestInterfaceEx(
+  sockaddr     *DestinationAddress,
+  NETIO_PULONG BestIfIndex
 );

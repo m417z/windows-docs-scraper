@@ -17,10 +17,10 @@ I/O, use the [CreateFileTransacted](https://learn.microsoft.com/windows/desktop/
 The name of the file or device to be created or opened. You may use either forward slashes (/) or backslashes (\\) in this name.
 
 For information on special device names, see
-[Defining an MS-DOS Device Name](https://learn.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name).
+[Defining an MS-DOS Device Name](https://learn.microsoft.com/windows/win32/fileio/defining-an-ms-dos-device-name).
 
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more
-information, see [File Streams](https://learn.microsoft.com/windows/desktop/FileIO/file-streams).
+information, see [File Streams](https://learn.microsoft.com/windows/win32/fileio/file-streams).
 
 By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](https://learn.microsoft.com/windows/win32/fileio/naming-a-file).
 
@@ -29,7 +29,7 @@ By default, the name is limited to MAX_PATH characters. To extend this limit to 
 
 ### `dwDesiredAccess` [in]
 
-The requested access to the file or device, which can be summarized as read, write, both or neither zero).
+The requested access to the file or device, which can be summarized as read, write, both or neither (zero).
 
 The most commonly used values are **GENERIC_READ**,
 **GENERIC_WRITE**, or both
@@ -376,7 +376,7 @@ If you rename or delete a file and then restore it shortly afterward, the system
 information to restore. Cached information includes its short/long name pair and creation time.
 
 If you call **CreateFile** on a file that is pending deletion
-as a result of a previous call to [DeleteFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea), the function
+as a result of a previous call to [DeleteFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilew), the function
 fails. The operating system delays file deletion until all handles to the file are closed.
 [GetLastError](https://learn.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns
 **ERROR_ACCESS_DENIED**.
@@ -428,8 +428,8 @@ An application cannot create a directory by using
 **CreateFile**, therefore only the
 **OPEN_EXISTING** value is valid for
 *dwCreationDisposition* for this use case. To create a directory, the application must
-call [CreateDirectory](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya) or
-[CreateDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa).
+call [CreateDirectory](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectoryw) or
+[CreateDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexw).
 
 To open a directory using **CreateFile**, specify the
 **FILE_FLAG_BACKUP_SEMANTICS** flag as part of
@@ -603,9 +603,9 @@ function uses any instance of the named pipe that is in the listening state. The
 the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by
 another client. The access that is specified when a pipe is opened must be compatible with the access that is
 specified in the *dwOpenMode* parameter of the
-[CreateNamedPipe](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea) function.
+[CreateNamedPipe](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipew) function.
 
-If the [CreateNamedPipe](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea) function was not
+If the [CreateNamedPipe](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipew) function was not
 successfully called on the server prior to this operation, a pipe will not exist and
 **CreateFile** will fail with
 **ERROR_FILE_NOT_FOUND**.
@@ -671,19 +671,19 @@ A tape backup code snippet can found at
 
 [Communications](https://learn.microsoft.com/windows/desktop/DevIO/communications-resources)
 
-[CreateDirectory](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya)
+[CreateDirectory](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectoryw)
 
-[CreateDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa)
+[CreateDirectoryEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexw)
 
-[CreateFileTransacted](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda)
+[CreateFileTransacted](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransactedw)
 
-[CreateMailSlot](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota)
+[CreateMailSlot](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslotw)
 
-[CreateNamedPipe](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea)
+[CreateNamedPipe](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipew)
 
 [Creating, Deleting, and Maintaining Files](https://learn.microsoft.com/windows/desktop/FileIO/creating--deleting--and-maintaining-files)
 
-[DeleteFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea)
+[DeleteFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilew)
 
 [Device Input and Output Control (IOCTL)](https://learn.microsoft.com/windows/desktop/DevIO/device-input-and-output-control-ioctl-)
 
@@ -721,7 +721,7 @@ A tape backup code snippet can found at
 
 [Running with Special Privileges](https://learn.microsoft.com/windows/desktop/SecBP/running-with-special-privileges)
 
-[SetFileAttributes](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa)
+[SetFileAttributes](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesw)
 
 [WriteFile](https://learn.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile)
 

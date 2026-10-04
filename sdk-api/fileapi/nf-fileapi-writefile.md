@@ -193,7 +193,7 @@ int main()
    // ... Add code using bufferAligned here.
 
    // Replace with corresponding free routine.
-   delete buffer;
+   delete[] buffer;
 }
 
 ```

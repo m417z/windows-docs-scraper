@@ -5,11 +5,11 @@
 Moves an existing file or a directory, including its children.
 
 To specify how to move the file, use the
-[MoveFileEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexa) or
-[MoveFileWithProgress](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa) function.
+[MoveFileEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexw) or
+[MoveFileWithProgress](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressw) function.
 
 To perform this operation as a transacted operation, use the
-[MoveFileTransacted](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda) function.
+[MoveFileTransacted](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransactedw) function.
 
 ## Parameters
 
@@ -74,8 +74,8 @@ SMB 3.0 does not support rename of alternate data streams on file shares with co
 
 [File Management Functions](https://learn.microsoft.com/windows/desktop/FileIO/file-management-functions)
 
-[MoveFileEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexa)
+[MoveFileEx](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexw)
 
-[MoveFileTransacted](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda)
+[MoveFileTransacted](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransactedw)
 
-[MoveFileWithProgress](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa)
+[MoveFileWithProgress](https://learn.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressw)
