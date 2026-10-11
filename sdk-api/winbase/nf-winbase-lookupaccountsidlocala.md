@@ -11,15 +11,15 @@ A pointer to the
 
 ### `Name` [out, optional]
 
-A pointer to a buffer that receives a **null**-terminated string that contains the account name that corresponds to the *lpSid* parameter.
+A pointer to a buffer that receives a **null**-terminated string that contains the account name that corresponds to the *Sid* parameter. This parameter can be **NULL** if *cchName* is zero.
 
 ### `cchName` [in, out]
 
-On input, specifies the size, in **TCHAR**s, of the *lpName* buffer. If the function fails because the buffer is too small or if *cchName* is zero, *cchName* receives the required buffer size, including the terminating **null** character.
+On input, specifies the size, in **TCHAR**s, of the *Name* buffer. If the function fails because the buffer is too small or if *cchName* is zero, *cchName* receives the required buffer size, including the terminating **null** character.
 
 ### `ReferencedDomainName` [out, optional]
 
-A pointer to a buffer that receives a **null**-terminated string that contains the name of the domain where the account name was found.
+A pointer to a buffer that receives a **null**-terminated string that contains the name of the domain where the account name was found. This parameter can be **NULL** if *cchReferencedDomainName* is zero.
 
 On a server, the domain name returned for most accounts in the security database of the local computer is the name of the domain for which the server is a domain controller.
 
@@ -29,7 +29,7 @@ Some accounts are predefined by the system. The domain name returned for these a
 
 ### `cchReferencedDomainName` [in, out]
 
-On input, specifies the size, in **TCHAR**s, of the *lpReferencedDomainName* buffer. If the function fails because the buffer is too small or if *cchReferencedDomainName* is zero, *cchReferencedDomainName* receives the required buffer size, including the terminating **null** character.
+On input, specifies the size, in **TCHAR**s, of the *ReferencedDomainName* buffer. If the function fails because the buffer is too small or if *cchReferencedDomainName* is zero, *cchReferencedDomainName* receives the required buffer size, including the terminating **null** character.
 
 ### `peUse` [out]
 

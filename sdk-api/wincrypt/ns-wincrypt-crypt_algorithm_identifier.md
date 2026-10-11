@@ -81,7 +81,7 @@ An OID of an algorithm. This member can be one of the following values. This lis
 | **szOID_ECC_PUBLIC_KEY**<br><br>"1.2.840.10045.2.1" | Elliptic curve public key cryptography. |
 | **szOID_ECC_CURVE_P256**<br><br>"1.2.840.10045.3.1.7" | 256 bit elliptic curve. |
 | **szOID_ECC_CURVE_P384**<br><br>"1.3.132.0.34" | 384 bit elliptic curve. |
-| **szOID_ECC_CURVE_P521**<br><br>"1.3.132.0.35" | 512 bit elliptic curve. |
+| **szOID_ECC_CURVE_P521**<br><br>"1.3.132.0.35" | 521 bit elliptic curve. |
 | **szOID_ECDSA_SHA1**<br><br>"1.2.840.10045.4.1" | Elliptic curve Digital Signature Algorithm (DSA) coupled with the Secure Hashing Algorithm (SHA) algorithm. |
 | **szOID_ECDSA_SPECIFIED**<br><br>"1.2.840.10045.4.3" | Elliptic curve Digital Signature Algorithm (DSA). |
 | **szOID_ECDSA_SHA256**<br><br>"1.2.840.10045.4.3.2" | Elliptic curve Digital Signature Algorithm (DSA) coupled with the Secure Hashing Algorithm (SHA256) algorithm. |

@@ -22,7 +22,7 @@ The size of the buffer pointed to by *pszPath*, in characters.
 
 ### `pszMore` [in, optional]
 
-A pointer the path to append to the end of the path pointed to by *pszPath*. UNC paths and paths that begin with the sequence \\?\ are accepted and recognized as fully-qualified paths. These paths replace the string pointed to by *pszPath* instead of being appended to it.
+A pointer to the path to append to the end of the path pointed to by *pszPath*. UNC paths and paths that begin with the sequence \\?\ are accepted and recognized as fully-qualified paths. These paths replace the string pointed to by *pszPath* instead of being appended to it.
 
 ### `dwFlags` [in]
 

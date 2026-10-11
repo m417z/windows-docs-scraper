@@ -37,7 +37,7 @@ The size of the buffer to receive the null-terminated string for the drive and p
 
 A pointer to a buffer that receives the null-terminated string for the drive and path.
 
-### `lpFilePart` [out]
+### `lpFilePart` [out, optional]
 
 A pointer to a buffer that receives the address (within *lpBuffer*) of the final
 file name component in the path.

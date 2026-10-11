@@ -1,0 +1,57 @@
+{
+  "UID": "NF:licenseprotection.RegisterLicenseKeyWithExpiration",
+  "title": "RegisterLicenseKeyWithExpiration function (licenseprotection.h)",
+  "description": "Registers a license key and associates an expiration date with it.",
+  "helpviewer_keywords": [
+    "RegisterLicenseKeyWithExpiration",
+    "RegisterLicenseKeyWithExpiration function [Security]",
+    "licenseprotection/RegisterLicenseKeyWithExpiration",
+    "security.registerlicensekeywithexpiration"
+  ],
+  "old-location": null,
+  "tech.root": "security",
+  "ms.assetid": null,
+  "ms.date": "10/06/2026",
+  "ms.keywords": "RegisterLicenseKeyWithExpiration, RegisterLicenseKeyWithExpiration function [Security], licenseprotection/RegisterLicenseKeyWithExpiration, security.registerlicensekeywithexpiration",
+  "req.header": "licenseprotection.h",
+  "req.include-header": null,
+  "req.target-type": "Windows",
+  "req.target-min-winverclnt": "Windows 11, version 21H2 (10.0; Build 22000) [desktop apps only]",
+  "req.target-min-winversvr": "Windows Server 2025 [desktop apps only]",
+  "req.kmdf-ver": null,
+  "req.umdf-ver": null,
+  "req.ddi-compliance": null,
+  "req.unicode-ansi": null,
+  "req.idl": null,
+  "req.max-support": null,
+  "req.namespace": null,
+  "req.assembly": null,
+  "req.type-library": null,
+  "req.lib": "api-ms-win-security-licenseprotection-l1-1-0.lib",
+  "req.dll": "Licenseprotection.dll; api-ms-win-security-licenseprotection-l1",
+  "req.irql": null,
+  "targetos": "Windows",
+  "req.typenames": null,
+  "req.redist": null,
+  "f1_keywords": [
+    "RegisterLicenseKeyWithExpiration",
+    "licenseprotection/RegisterLicenseKeyWithExpiration"
+  ],
+  "dev_langs": [
+    "c++"
+  ],
+  "topic_type": [
+    "APIRef",
+    "kbSyntax"
+  ],
+  "api_type": [
+    "DllExport"
+  ],
+  "api_location": [
+    "Licenseprotection.dll",
+    "api-ms-win-security-licenseprotection-l1"
+  ],
+  "api_name": [
+    "RegisterLicenseKeyWithExpiration"
+  ]
+}

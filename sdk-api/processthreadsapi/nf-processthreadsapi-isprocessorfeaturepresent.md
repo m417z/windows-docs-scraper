@@ -12,40 +12,49 @@ The processor feature to be tested. This parameter can be one of the following v
 
 | Value | Meaning |
 | --- | --- |
-| **PF_ARM_64BIT_LOADSTORE_ATOMIC**<br><br>25 | The 64-bit load/store atomic instructions are available. |
-| **PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE**<br><br>24 | The divide instructions are available. |
-| **PF_ARM_EXTERNAL_CACHE_AVAILABLE**<br><br>26 | The external cache is available. |
-| **PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE**<br><br>27 | The floating-point multiply-accumulate instruction is available. |
-| **PF_ARM_VFP_32_REGISTERS_AVAILABLE**<br><br>18 | The VFP/Neon: 32 x 64bit register bank is present. This flag has the same meaning as **PF_ARM_VFP_EXTENDED_REGISTERS**. |
-| **PF_3DNOW_INSTRUCTIONS_AVAILABLE**<br><br>7 | The 3D-Now instruction set is available. |
-| **PF_CHANNELS_ENABLED**<br><br>16 | The processor channels are enabled. |
+| **PF_FLOATING_POINT_PRECISION_ERRATA**<br><br>0 | On a Pentium, a floating-point precision error can occur in rare circumstances. |
+| **PF_FLOATING_POINT_EMULATED**<br><br>1 | Floating-point operations are emulated using a software emulator.<br><br>This function returns a nonzero value if floating-point operations are emulated; otherwise, it returns zero. |
 | **PF_COMPARE_EXCHANGE_DOUBLE**<br><br>2 | The atomic compare and exchange operation (cmpxchg) is available. |
+| **PF_MMX_INSTRUCTIONS_AVAILABLE**<br><br>3 | The MMX instruction set is available. |
+| **PF_PPC_MOVEMEM_64BIT_OK**<br><br>4 | The PowerPC processor supports 64-bit memory move operations. This is a legacy feature for PowerPC systems. |
+| **PF_ALPHA_BYTE_INSTRUCTIONS**<br><br>5 | The Alpha processor supports byte instructions. This is a legacy feature for Alpha systems. |
+| **PF_XMMI_INSTRUCTIONS_AVAILABLE**<br><br>6 | The SSE instruction set is available. |
+| **PF_3DNOW_INSTRUCTIONS_AVAILABLE**<br><br>7 | The 3D-Now instruction set is available. |
+| **PF_RDTSC_INSTRUCTION_AVAILABLE**<br><br>8 | The RDTSC instruction is available. |
+| **PF_PAE_ENABLED**<br><br>9 | The processor is PAE-enabled. For more information, see [Physical Address Extension](https://learn.microsoft.com/windows/desktop/Memory/physical-address-extension).<br><br>All x64 processors always return a nonzero value for this feature. |
+| **PF_XMMI64_INSTRUCTIONS_AVAILABLE**<br><br>10 | The SSE2 instruction set is available.<br><br>**Windows 2000:** This feature is not supported. |
+| **PF_SSE_DAZ_MODE_AVAILABLE**<br><br>11 | The processor supports denormals-are-zero (DAZ) mode for SSE instructions. |
+| **PF_NX_ENABLED**<br><br>12 | [Data execution prevention](https://learn.microsoft.com/windows/desktop/Memory/data-execution-prevention) is enabled.<br><br>**Windows XP/2000:** This feature is not supported until Windows XP with SP2 and Windows Server 2003 with SP1. |
+| **PF_SSE3_INSTRUCTIONS_AVAILABLE**<br><br>13 | The SSE3 instruction set is available.<br><br>**Windows Server 2003 and Windows XP/2000:** This feature is not supported. |
 | **PF_COMPARE_EXCHANGE128**<br><br>14 | The atomic compare and exchange 128-bit operation (cmpxchg16b) is available.<br><br>**Windows Server 2003 and Windows XP/2000:** This feature is not supported. |
 | **PF_COMPARE64_EXCHANGE128**<br><br>15 | The atomic compare 64 and exchange 128-bit operation (cmp8xchg16) is available.<br><br>**Windows Server 2003 and Windows XP/2000:** This feature is not supported. |
-| **PF_FASTFAIL_AVAILABLE**<br><br>23 | _fastfail() is available. |
-| **PF_FLOATING_POINT_EMULATED**<br><br>1 | Floating-point operations are emulated using a software emulator.<br><br>This function returns a nonzero value if floating-point operations are emulated; otherwise, it returns zero. |
-| **PF_FLOATING_POINT_PRECISION_ERRATA**<br><br>0 | On a Pentium, a floating-point precision error can occur in rare circumstances. |
-| **PF_MMX_INSTRUCTIONS_AVAILABLE**<br><br>3 | The MMX instruction set is available. |
-| **PF_NX_ENABLED**<br><br>12 | [Data execution prevention](https://learn.microsoft.com/windows/desktop/Memory/data-execution-prevention) is enabled.<br><br>**Windows XP/2000:** This feature is not supported until Windows XP with SP2 and Windows Server 2003 with SP1. |
-| **PF_PAE_ENABLED**<br><br>9 | The processor is PAE-enabled. For more information, see [Physical Address Extension](https://learn.microsoft.com/windows/desktop/Memory/physical-address-extension).<br><br>All x64 processors always return a nonzero value for this feature. |
-| **PF_RDTSC_INSTRUCTION_AVAILABLE**<br><br>8 | The RDTSC instruction is available. |
-| **PF_RDWRFSGSBASE_AVAILABLE**<br><br>22 | RDFSBASE, RDGSBASE, WRFSBASE, and WRGSBASE instructions are available. |
+| **PF_CHANNELS_ENABLED**<br><br>16 | The processor channels are enabled. |
+| **PF_XSAVE_ENABLED**<br><br>17 | The processor implements the XSAVE and XRSTOR instructions.<br><br>**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP/2000:** This feature is not supported until Windows 7 and Windows Server 2008 R2. |
+| **PF_ARM_VFP_32_REGISTERS_AVAILABLE**<br><br>18 | The VFP/Neon: 32 x 64bit register bank is present. This flag has the same meaning as **PF_ARM_VFP_EXTENDED_REGISTERS**. |
+| **PF_ARM_NEON_INSTRUCTIONS_AVAILABLE**<br><br>19 | This Arm processor implements the NEON (Advanced SIMD) instruction set. |
 | **PF_SECOND_LEVEL_ADDRESS_TRANSLATION**<br><br>20 | Second Level Address Translation is supported by the hardware. |
-| **PF_SSE3_INSTRUCTIONS_AVAILABLE**<br><br>13 | The SSE3 instruction set is available.<br><br>**Windows Server 2003 and Windows XP/2000:** This feature is not supported. |
+| **PF_VIRT_FIRMWARE_ENABLED**<br><br>21 | Virtualization is enabled in the firmware and made available by the operating system. |
+| **PF_RDWRFSGSBASE_AVAILABLE**<br><br>22 | RDFSBASE, RDGSBASE, WRFSBASE, and WRGSBASE instructions are available. |
+| **PF_FASTFAIL_AVAILABLE**<br><br>23 | _fastfail() is available. |
+| **PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE**<br><br>24 | The divide instructions are available. |
+| **PF_ARM_64BIT_LOADSTORE_ATOMIC**<br><br>25 | The 64-bit load/store atomic instructions are available. |
+| **PF_ARM_EXTERNAL_CACHE_AVAILABLE**<br><br>26 | The external cache is available. |
+| **PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE**<br><br>27 | The floating-point multiply-accumulate instruction is available. |
+| **PF_RDRAND_INSTRUCTION_AVAILABLE**<br><br>28 | The RDRAND instruction for generating hardware random numbers is available. |
+| **PF_ARM_V8_INSTRUCTIONS_AVAILABLE**<br><br>29 | This Arm processor implements the Arm v8 instructions set. |
+| **PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE**<br><br>30 | This Arm processor implements the Arm v8 extra cryptographic instructions (for example, AES, SHA1 and SHA2). |
+| **PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE**<br><br>31 | This Arm processor implements the Arm v8 extra CRC32 instructions. |
+| **PF_RDTSCP_INSTRUCTION_AVAILABLE**<br><br>32 | The RDTSCP instruction for reading the time-stamp counter and the IA32_TSC_AUX register is available. |
+| **PF_RDPID_INSTRUCTION_AVAILABLE**<br><br>33 | The RDPID instruction for reading the processor identifier from the IA32_TSC_AUX register is available. |
+| **PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE**<br><br>34 | This Arm processor implements the Arm v8.1 atomic instructions (for example, CAS, SWP). |
+| **PF_MONITORX_INSTRUCTION_AVAILABLE**<br><br>35 | The MONITORX instruction for monitoring a memory address range is available. |
 | **PF_SSSE3_INSTRUCTIONS_AVAILABLE**<br><br>36 | The SSSE3 instruction set is available. |
 | **PF_SSE4_1_INSTRUCTIONS_AVAILABLE**<br><br>37 | The SSE4_1 instruction set is available. |
 | **PF_SSE4_2_INSTRUCTIONS_AVAILABLE**<br><br>38 | The SSE4_2 instruction set is available. |
 | **PF_AVX_INSTRUCTIONS_AVAILABLE**<br><br>39 | The AVX instruction set is available. |
 | **PF_AVX2_INSTRUCTIONS_AVAILABLE**<br><br>40 | The AVX2 instruction set is available. |
 | **PF_AVX512F_INSTRUCTIONS_AVAILABLE**<br><br>41 | The AVX512F instruction set is available. |
-| **PF_VIRT_FIRMWARE_ENABLED**<br><br>21 | Virtualization is enabled in the firmware and made available by the operating system. |
-| **PF_XMMI_INSTRUCTIONS_AVAILABLE**<br><br>6 | The SSE instruction set is available. |
-| **PF_XMMI64_INSTRUCTIONS_AVAILABLE**<br><br>10 | The SSE2 instruction set is available.<br><br>**Windows 2000:** This feature is not supported. |
-| **PF_XSAVE_ENABLED**<br><br>17 | The processor implements the XSAVE and XRSTOR instructions.<br><br>**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP/2000:** This feature is not supported until Windows 7 and Windows Server 2008 R2. |
-| **PF_ARM_V8_INSTRUCTIONS_AVAILABLE**<br><br>29 | This Arm processor implements the Arm v8 instructions set. |
-| **PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE**<br><br>30 | This Arm processor implements the Arm v8 extra cryptographic instructions (for example, AES, SHA1 and SHA2). |
-| **PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE**<br><br>31 | This Arm processor implements the Arm v8 extra CRC32 instructions. |
-| **PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE**<br><br>34 | This Arm processor implements the Arm v8.1 atomic instructions (for example, CAS, SWP). |
+| **PF_ERMS_AVAILABLE**<br><br>42 | Enhanced REP MOVSB and STOSB (ERMS) is available. |
 | **PF_ARM_V82_DP_INSTRUCTIONS_AVAILABLE**<br><br>43 | This Arm processor implements the Arm v8.2 DP instructions (for example, SDOT, UDOT). This feature is optional in Arm v8.2 implementations and mandatory in Arm v8.4 implementations. |
 | **PF_ARM_V83_JSCVT_INSTRUCTIONS_AVAILABLE**<br><br>44 | This Arm processor implements the Arm v8.3 JSCVT instructions (for example, FJCVTZS). |
 | **PF_ARM_V83_LRCPC_INSTRUCTIONS_AVAILABLE**<br><br>45 | This Arm processor implements the Arm v8.3 LRCPC instructions (for example, LDAPR). Note that certain Arm v8.2 CPUs may optionally support the LRCPC instructions. |
@@ -92,6 +101,9 @@ The processor feature to be tested. This parameter can be one of the following v
 | **PF_ARM_SME_LUTv2_INSTRUCTIONS_AVAILABLE**<br><br>87 | This Arm processor implements the SME LUTv2 instructions (**FEAT_SME_LUTv2**). |
 | **PF_ARM_SME_FA64_INSTRUCTIONS_AVAILABLE**<br><br>88 | This Arm processor implements SME FA64 (Full AArch64 instruction set when in Streaming SVE mode) (**FEAT_SME_FA64**). |
 | **PF_UMONITOR_INSTRUCTION_AVAILABLE**<br><br>89 | This x64 processor implements the UMONITOR instruction. |
+| **PF_APX_F_INSTRUCTIONS_AVAILABLE**<br><br>90 | This x64 processor implements the Advanced Performance Extensions foundation (APX-F) instructions. |
+| **PF_ARM_FEAT_ECV_INSTRUCTIONS_AVAILABLE**<br><br>91 | This Arm processor implements Enhanced Counter Virtualization (**FEAT_ECV**), including self-synchronizing counter reads. |
+| **PF_ARM_FEAT_ECV_POFF_INSTRUCTIONS_AVAILABLE**<br><br>92 | This Arm processor supports the physical counter offsetting functionality of Enhanced Counter Virtualization (**FEAT_ECV**). |
 
 ## Return value
 

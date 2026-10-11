@@ -18,7 +18,7 @@ Pointer to an implementation of the [IDropSource](https://learn.microsoft.com/wi
 
 ### `dwOKEffects` [in]
 
-Effects the source allows in the OLE drag-and-drop operation. Most significant is whether it permits a move. The *dwOKEffect* and *pdwEffect* parameters obtain values from the [DROPEFFECT](https://learn.microsoft.com/windows/desktop/com/dropeffect-constants) enumeration. For a list of values, see **DROPEFFECT**.
+Effects the source allows in the OLE drag-and-drop operation. Most significant is whether it permits a move. The *dwOKEffects* and *pdwEffect* parameters obtain values from the [DROPEFFECT](https://learn.microsoft.com/windows/desktop/com/dropeffect-constants) enumeration. For a list of values, see **DROPEFFECT**.
 
 ### `pdwEffect` [out]
 
