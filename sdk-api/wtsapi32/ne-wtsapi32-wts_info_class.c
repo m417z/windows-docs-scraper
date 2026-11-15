@@ -30,5 +30,6 @@ typedef enum _WTS_INFO_CLASS {
   WTSSessionAddressV4,
   WTSIsRemoteSession,
   WTSSessionActivityId,
-  WTSCapabilityCheck
+  WTSCapabilityCheck,
+  WTSUserSid
 } WTS_INFO_CLASS;
